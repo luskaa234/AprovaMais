@@ -1,7 +1,7 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Eye, LockKeyhole, Mail } from "lucide-react";
 import { useForm } from "react-hook-form";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { toast } from "sonner";
 import { z } from "zod";
 import { Button } from "../ui/button";
@@ -17,7 +17,6 @@ const loginSchema = z.object({
 });
 
 function LoginForm() {
-  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
@@ -41,7 +40,7 @@ function LoginForm() {
       }),
     );
     toast.success("Login realizado com sucesso.");
-    navigate("/app", { replace: true });
+    window.location.assign("http://localhost:5173/app");
   };
 
   return (
