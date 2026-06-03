@@ -6,7 +6,7 @@ const stats = [
     icon: BookOpenCheck,
     targetValue: 18,
     format: (value) => `${value.toFixed(0)}k+`,
-    label: "questoes por banca",
+    label: "questões por banca",
     text: "listas filtradas por assunto, banca e dificuldade.",
   },
   {
@@ -14,7 +14,7 @@ const stats = [
     targetValue: 420,
     format: (value) => `${value.toFixed(0)}+`,
     label: "simulados guiados",
-    text: "provas montadas para treinar ritmo e estrategia.",
+    text: "provas montadas para treinar ritmo e estratégia.",
   },
   {
     icon: BarChart3,
@@ -27,14 +27,14 @@ const stats = [
     icon: TrendingUp,
     targetValue: 91,
     format: (value) => `${value.toFixed(0)}%`,
-    label: "evolucao monitorada",
+    label: "evolução monitorada",
     text: "indicadores para ajustar o estudo antes da prova.",
   },
 ];
 
 function Stats() {
   return (
-    <section className="section-shell landing-stats-section" aria-label="Numeros da Aprova+">
+    <section className="section-shell landing-stats-section" aria-label="Números da Aprova+">
       <div className="landing-stats-grid">
         {stats.map((item, index) => {
           const Icon = item.icon;

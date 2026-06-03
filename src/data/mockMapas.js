@@ -1,4 +1,4 @@
-export const mockMapas = ["Direito Constitucional", "Portugues", "Informatica"].map((materia, index) => ({
+export const mockMapas = ["Direito Constitucional", "Português", "Informática"].map((materia, index) => ({
   id: `map${index + 1}`,
   materia,
   root: {

@@ -16,7 +16,7 @@ const features = [
   { icon: FileQuestion, title: "Banco de questões", text: "Questões filtradas por matéria, assunto e desempenho." },
   { icon: FileText, title: "Redação", text: "Temas, estrutura e checklist para treino dirigido." },
   { icon: Dumbbell, title: "TAF", text: "Metas físicas para concursos que cobram teste físico." },
-  { icon: MessageCircleQuestion, title: "Tira-duvidas guiado", text: "Explicacoes rapidas para destravar questoes e revisoes." },
+  { icon: MessageCircleQuestion, title: "Tira-dúvidas guiado", text: "Explicações rápidas para destravar questões e revisões." },
   { icon: BarChart3, title: "Relatórios de desempenho", text: "Evolução por disciplina, acertos e constância." },
 ];
 

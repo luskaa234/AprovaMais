@@ -7,9 +7,9 @@ const scoreRows = [
 ];
 
 export const mockEditaisTAF = [
-  { id: "pmsp", nome: "PMSP Soldado PM", provas: [{ id: "corrida", nome: "Corrida 12min", tipo: "distancia", unidade: "m", minimo: 2200, tempo: 720, tabela: scoreRows }, { id: "flexao", nome: "Flexao", tipo: "repeticoes", unidade: "rep", minimo: 20, tempo: 60, tabela: [{ min: 0, max: 19, pontos: 0, eliminatorio: true }, { min: 20, max: 29, pontos: 7 }, { min: 30, max: 99, pontos: 10 }] }, { id: "abdominal", nome: "Abdominal", tipo: "repeticoes", unidade: "rep", minimo: 30, tempo: 60, tabela: [{ min: 0, max: 29, pontos: 0, eliminatorio: true }, { min: 30, max: 39, pontos: 7 }, { min: 40, max: 99, pontos: 10 }] }] },
-  { id: "pcsp", nome: "PCSP Investigador", provas: [{ id: "corrida", nome: "Corrida 2400m", tipo: "tempo_minimo", unidade: "s", minimo: 780, tempo: 900, tabela: scoreRows }, { id: "flexao", nome: "Flexao", tipo: "repeticoes", unidade: "rep", minimo: 18, tempo: 60, tabela: scoreRows }, { id: "abdominal", nome: "Abdominal", tipo: "repeticoes", unidade: "rep", minimo: 28, tempo: 60, tabela: scoreRows }] },
-  { id: "prf", nome: "PRF Policial Rodoviario Federal", provas: [{ id: "corrida", nome: "Corrida 12min", tipo: "distancia", unidade: "m", minimo: 2300, tempo: 720, tabela: scoreRows }, { id: "natacao", nome: "Natacao 50m", tipo: "tempo_minimo", unidade: "s", minimo: 55, tempo: 90, tabela: scoreRows }, { id: "barra", nome: "Barra/Flexao", tipo: "repeticoes", unidade: "rep", minimo: 3, tempo: 60, tabela: scoreRows }] },
+  { id: "pmsp", nome: "PMSP Soldado PM", provas: [{ id: "corrida", nome: "Corrida 12min", tipo: "distancia", unidade: "m", minimo: 2200, tempo: 720, tabela: scoreRows }, { id: "flexao", nome: "Flexão", tipo: "repeticoes", unidade: "rep", minimo: 20, tempo: 60, tabela: [{ min: 0, max: 19, pontos: 0, eliminatorio: true }, { min: 20, max: 29, pontos: 7 }, { min: 30, max: 99, pontos: 10 }] }, { id: "abdominal", nome: "Abdominal", tipo: "repeticoes", unidade: "rep", minimo: 30, tempo: 60, tabela: [{ min: 0, max: 29, pontos: 0, eliminatorio: true }, { min: 30, max: 39, pontos: 7 }, { min: 40, max: 99, pontos: 10 }] }] },
+  { id: "pcsp", nome: "PCSP Investigador", provas: [{ id: "corrida", nome: "Corrida 2400m", tipo: "tempo_minimo", unidade: "s", minimo: 780, tempo: 900, tabela: scoreRows }, { id: "flexao", nome: "Flexão", tipo: "repeticoes", unidade: "rep", minimo: 18, tempo: 60, tabela: scoreRows }, { id: "abdominal", nome: "Abdominal", tipo: "repeticoes", unidade: "rep", minimo: 28, tempo: 60, tabela: scoreRows }] },
+  { id: "prf", nome: "PRF Policial Rodoviario Federal", provas: [{ id: "corrida", nome: "Corrida 12min", tipo: "distancia", unidade: "m", minimo: 2300, tempo: 720, tabela: scoreRows }, { id: "natacao", nome: "Natacao 50m", tipo: "tempo_minimo", unidade: "s", minimo: 55, tempo: 90, tabela: scoreRows }, { id: "barra", nome: "Barra/Flexão", tipo: "repeticoes", unidade: "rep", minimo: 3, tempo: 60, tabela: scoreRows }] },
   { id: "eb", nome: "EB Sargento", provas: [{ id: "corrida", nome: "Corrida 3000m", tipo: "tempo_minimo", unidade: "s", minimo: 900, tempo: 1080, tabela: scoreRows }, { id: "barra", nome: "Barra", tipo: "repeticoes", unidade: "rep", minimo: 4, tempo: 60, tabela: scoreRows }, { id: "abdominal", nome: "Abdominal", tipo: "repeticoes", unidade: "rep", minimo: 32, tempo: 60, tabela: scoreRows }] },
 ];
 
@@ -30,8 +30,8 @@ export const mockPlanoTAF = ["Adaptacao", "Base", "Especifico", "Pico"].map((fas
 export const mockDicasTAF = Array.from({ length: 10 }, (_, index) => ({
   id: `tip${index + 1}`,
   tipo: index % 3 ? "Artigo" : "Video",
-  categoria: ["Corrida", "Musculacao", "Flexibilidade", "Nutricao", "Psicologico", "Tecnica"][index % 6],
+  categoria: ["Corrida", "Musculação", "Flexibilidade", "Nutrição", "Psicológico", "Técnica"][index % 6],
   titulo: `Preparacao TAF ${index + 1}`,
-  resumo: "Orientacao objetiva para evoluir com seguranca e consistencia.",
+  resumo: "Orientacao objetiva para evoluir com segurança e consistencia.",
   duracao: index % 3 ? `${4 + index} min de leitura` : "8:32",
 }));

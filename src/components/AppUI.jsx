@@ -129,7 +129,7 @@ export const Pagination = memo(({ page, totalPages, onPageChange }) => (
   <div className="flex items-center justify-end gap-2">
     <Button variant="outline" size="sm" disabled={page <= 1} onClick={() => onPageChange(page - 1)}>Anterior</Button>
     <span className="text-sm text-gray-400">{page}/{totalPages}</span>
-    <Button variant="outline" size="sm" disabled={page >= totalPages} onClick={() => onPageChange(page + 1)}>Proxima</Button>
+    <Button variant="outline" size="sm" disabled={page >= totalPages} onClick={() => onPageChange(page + 1)}>Próxima</Button>
   </div>
 ));
 Pagination.displayName = "Pagination";

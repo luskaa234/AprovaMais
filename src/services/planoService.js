@@ -10,7 +10,7 @@ export const planoService = {
   async getPlano() {
     return mockPlano;
   },
-  async getSugestao() {
-    return "Redistribua 20 min de Informatica para Constitucional nesta semana.";
+  async getSugestão() {
+    return "Redistribua 20 min de Informática para Constitucional nesta semana.";
   },
 };

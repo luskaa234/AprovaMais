@@ -3,7 +3,7 @@ import { cn } from "../../../lib/utils";
 import Marquee from "./Marquee";
 
 const defaultItems = [
-  { label: "Questoes", icon: FaClipboardList },
+  { label: "Questões", icon: FaClipboardList },
   { label: "Flashcards", icon: FaLayerGroup },
   { label: "Mapas mentais", icon: FaBookOpen },
   { label: "Revisoes guiadas", icon: FaRegCheckCircle },

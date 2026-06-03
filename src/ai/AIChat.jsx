@@ -5,7 +5,7 @@ import { useAI } from "../hooks";
 
 export const AIChat = memo(() => {
   const [messages, setMessages] = useState([
-    { role: "ai", text: "Posso explicar questoes, organizar revisoes e montar planos de estudo." },
+    { role: "ai", text: "Posso explicar questões, organizar revisões e montar planos de estudo." },
   ]);
   const [input, setInput] = useState("");
   const endRef = useRef(null);
@@ -57,11 +57,11 @@ export const AIChat = memo(() => {
 
       <div className="mt-3 flex flex-wrap gap-2">
         {[
-          "Explique essa questao",
-          "Criar revisao de Constitucional",
-          "Montar mapa mental de Portugues",
+          "Explique essa questão",
+          "Criar revisão de Constitucional",
+          "Montar mapa mental de Português",
           "Organizar plano de estudos",
-          "Corrigir minha redacao",
+          "Corrigir minha redação",
           "Montar meu plano de TAF",
         ].map((chip) => (
           <button

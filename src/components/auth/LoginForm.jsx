@@ -79,7 +79,7 @@ function LoginForm() {
       <Separator />
 
       <p className="auth-switch-text">
-        Ainda nao tem uma conta? <Link to="/criar-conta">Criar conta</Link>
+        Ainda não tem uma conta? <Link to="/criar-conta">Criar conta</Link>
       </p>
     </form>
   );

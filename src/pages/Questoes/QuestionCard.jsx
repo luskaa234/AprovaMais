@@ -23,7 +23,7 @@ export const QuestionCard = memo(({ questao, onAnswer, onSave, onReport }) => {
       <div className="mb-3 flex flex-wrap gap-2">
         <Badge>{questao.banca}</Badge>
         <Badge variant="neutral">{questao.materia}</Badge>
-        <Badge variant={questao.dificuldade === "dificil" ? "error" : "warning"}>{questao.dificuldade}</Badge>
+        <Badge variant={questao.dificuldade === "difícil" ? "error" : "warning"}>{questao.dificuldade}</Badge>
       </div>
       <p className="text-gray-100">{questao.enunciado}</p>
       <div className="mt-4 grid gap-2">
@@ -60,7 +60,7 @@ export const QuestionCard = memo(({ questao, onAnswer, onSave, onReport }) => {
             {selected === questao.gabarito ? "Correto!" : "Incorreto."} Gabarito: {questao.gabarito.toUpperCase()}
           </p>
           <p className="mt-2 text-sm text-gray-300">{questao.comentario}</p>
-          <p className="mt-3 border-l-4 border-indigo-500 bg-indigo-500/10 p-3 text-sm text-indigo-100">IA: revise o assunto "{questao.assunto}" e refaca questoes da mesma banca.</p>
+          <p className="mt-3 border-l-4 border-indigo-500 bg-indigo-500/10 p-3 text-sm text-indigo-100">IA: revise o assunto "{questao.assunto}" e refaça questões da mesma banca.</p>
         </motion.div>
       ) : null}
     </Card>

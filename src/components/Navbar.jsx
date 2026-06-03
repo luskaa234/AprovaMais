@@ -25,7 +25,7 @@ function Navbar() {
           />
         </a>
 
-        <nav className="nav-links" aria-label="Navegacao principal">
+        <nav className="nav-links" aria-label="Navegação principal">
           {navLinks.map((link) => (
             <a href={link.href} key={link.href} onClick={closeMenu}>
               {link.label}
@@ -58,7 +58,7 @@ function Navbar() {
         className={`nav-content ${isMenuOpen ? "is-open" : ""}`}
         id="mobile-navigation"
       >
-        <nav className="nav-links-mobile" aria-label="Navegacao principal mobile">
+        <nav className="nav-links-mobile" aria-label="Navegação principal mobile">
           {navLinks.map((link) => (
             <a href={link.href} key={link.href} onClick={closeMenu}>
               {link.label}

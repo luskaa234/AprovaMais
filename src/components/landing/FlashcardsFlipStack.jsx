@@ -3,29 +3,29 @@ import { CheckCircle2, Grab, PanelsTopLeft } from "lucide-react";
 
 const flashcards = [
   {
-    topic: "Portugues",
+    topic: "Português",
     question: "Quando ocorre crase antes de palavra feminina?",
     answer:
-      "Ocorre quando ha fusao da preposicao 'a' com o artigo feminino 'a'.",
+      "Ocorre quando há fusão da preposição 'a' com o artigo feminino 'a'.",
     color: "#2563eb",
   },
   {
     topic: "Direito Constitucional",
     question: "O que significa controle de constitucionalidade?",
     answer:
-      "E a verificacao de compatibilidade de uma norma com a Constituicao.",
+      "É a verificação de compatibilidade de uma norma com a Constituicao.",
     color: "#38bdf8",
   },
   {
-    topic: "Raciocinio Logico",
-    question: "Como negar a proposicao 'P e Q'?",
-    answer: "Pela lei de De Morgan: nao P ou nao Q.",
+    topic: "Raciocínio Lógico",
+    question: "Como negar a proposição 'P e Q'?",
+    answer: "Pela lei de De Morgan: não P ou não Q.",
     color: "#1d4ed8",
   },
   {
-    topic: "Informatica",
-    question: "Qual a funcao principal de um firewall?",
-    answer: "Controlar o trafego de rede com base em regras de seguranca.",
+    topic: "Informática",
+    question: "Qual a função principal de um firewall?",
+    answer: "Controlar o tráfego de rede com base em regras de segurança.",
     color: "#93c5fd",
   },
 ];
@@ -117,10 +117,10 @@ function FlashcardsFlipStack() {
           <PanelsTopLeft size={16} />
           Flashcards inteligentes
         </span>
-        <h2>Revise conteudos importantes com cards que deslizam.</h2>
+        <h2>Revise conteúdos importantes com cards que deslizam.</h2>
         <p>
           Use o modo flashcard para memorizar conceitos, revisar pontos fracos e
-          transformar erros em repeticao ativa.
+          transformar erros em repetição ativa.
         </p>
 
         <div className="flashcards-progress-panel" aria-label="Progresso nos flashcards">

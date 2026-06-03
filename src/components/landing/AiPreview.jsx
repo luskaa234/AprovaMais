@@ -3,31 +3,31 @@ import { useState } from "react";
 
 const suggestionResponses = {
   "Gerar resumo": {
-    prompt: "Gere um resumo rapido de controle de constitucionalidade.",
+    prompt: "Gere um resumo rápido de controle de constitucionalidade.",
     answer:
-      "Controle de constitucionalidade e a verificacao se uma lei ou ato esta de acordo com a Constituicao. Pode ser preventivo, antes da norma entrar em vigor, ou repressivo, depois. Na prova, observe quem propoe, qual orgao julga e se o controle e difuso ou concentrado.",
+      "Controle de constitucionalidade é a verificação se uma lei ou ato está de acordo com a Constituição. Pode ser preventivo, antes da norma entrar em vigor, ou repressivo, depois. Na prova, observe quem propoe, qual orgao julga e se o controle e difuso ou concentrado.",
   },
-  "Explicar questao": {
-    prompt: "Explique uma questao sobre controle concentrado.",
+  "Explicar questão": {
+    prompt: "Explique uma questão sobre controle concentrado.",
     answer:
-      "Se a questao fala em ADI, ADC, ADPF ou ADO, pense em controle concentrado. Ele discute a validade da norma em tese, normalmente perante o STF, e a decisao tende a ter efeito para todos. Marque atencao nos legitimados do art. 103 da Constituicao.",
+      "Se a questão fala em ADI, ADC, ADPF ou ADO, pense em controle concentrado. Ele discute a validade da norma em tese, normalmente perante o STF, e a decisão tende a ter efeito para todos. Marque atenção nos legitimados do art. 103 da Constituição.",
   },
   "Criar simulado": {
-    prompt: "Crie um mini simulado de revisao.",
+    prompt: "Crie um mini simulado de revisão.",
     answer:
-      "Mini simulado sugerido: 5 questoes de Constitucional, 5 de Portugues e 5 de Raciocinio Logico. Faca em 25 minutos, corrija logo depois e transforme cada erro em um flashcard para revisar amanha.",
+      "Mini simulado sugerido: 5 questões de Constitucional, 5 de Português e 5 de Raciocínio Lógico. Faça em 25 minutos, corrija logo depois e transforme cada erro em um flashcard para revisar amanhã.",
   },
   "Montar cronograma": {
     prompt: "Monte um cronograma para esta semana.",
     answer:
-      "Cronograma da semana: segunda e quarta para Constitucional, terca para Portugues, quinta para Raciocinio Logico, sexta para revisao dos erros e sabado para simulado. Separe blocos de 50 minutos com 10 minutos de pausa.",
+      "Cronograma da semana: segunda e quarta para Constitucional, terça para Português, quinta para Raciocínio Lógico, sexta para revisão dos erros e sábado para simulado. Separe blocos de 50 minutos com 10 minutos de pausa.",
   },
 };
 
 const suggestions = Object.keys(suggestionResponses);
 
 function AiPreview() {
-  const [activeSuggestion, setActiveSuggestion] = useState("Explicar questao");
+  const [activeSuggestion, setActiveSuggestion] = useState("Explicar questão");
   const activeConversation = suggestionResponses[activeSuggestion];
 
   return (
@@ -37,10 +37,10 @@ function AiPreview() {
           <BookOpenCheck size={15} />
           Assistente de estudos
         </span>
-        <h2>Um assistente para estudar com voce</h2>
+        <h2>Um assistente para estudar com você</h2>
         <p>
-          Tire duvidas, peca resumos, gere simulados e transforme temas dificeis
-          em explicacoes simples sem sair do seu plano.
+          Tire dúvidas, peça resumos, gere simulados e transforme temas difíceis
+          em explicações simples sem sair do seu plano.
         </p>
       </div>
 
@@ -86,7 +86,7 @@ function AiPreview() {
           </div>
 
           <div className="ai-input-fake">
-            <span>Digite uma duvida sobre seu edital...</span>
+            <span>Digite uma dúvida sobre seu edital...</span>
             <Send size={18} />
           </div>
         </div>

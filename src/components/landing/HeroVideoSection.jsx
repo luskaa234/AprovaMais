@@ -10,7 +10,7 @@ function HeroVideoSection() {
 
         <HeroVideoDialog
           animationStyle="from-center"
-          videoSrc="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          videoSrc="/aprova-demo.mp4"
           thumbnailSrc="/thumbnail-demo.png"
           thumbnailAlt="Demo Aprova+"
           className="w-full rounded-2xl overflow-hidden border border-[#DBEAFE]"

@@ -38,17 +38,17 @@ function DefaultIphoneScreen() {
             830 alunos estudando agora
           </span>
           <h3>
-            Sua aprovacao comeca com o <span>plano certo.</span>
+            Sua aprovação começa com o <span>plano certo.</span>
           </h3>
           <p>
             Assistente, questoes e cronograma por edital, tudo em um metodo
             feito para passar de verdade.
           </p>
           <a className="magic-iphone-primary" href="/criar-conta">
-            Montar meu plano gratis
+            Montar meu plano grátis
           </a>
           <a className="magic-iphone-secondary" href="#como-funciona">
-            Ver como funciona na pratica
+            Ver como funciona na prática
           </a>
 
           <div className="magic-iphone-proof">
@@ -58,7 +58,7 @@ function DefaultIphoneScreen() {
               ))}
             </div>
             <strong>+7.5k alunos em preparo</strong>
-            <small>7 dias gratis, sem cartao</small>
+            <small>7 dias grátis, sem cartão</small>
           </div>
         </section>
 

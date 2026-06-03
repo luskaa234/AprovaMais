@@ -14,6 +14,6 @@ export const tafService = {
   async getDicas() { return mockDicasTAF; },
   calcularPontuacao(prova, valor) {
     const row = prova.tabela.find((item) => valor >= item.min && valor <= item.max) || prova.tabela[0];
-    return { pontos: row.pontos, situacao: row.eliminatorio ? "Eliminatorio" : row.pontos >= 7 ? "Aprovado" : "Na media", minimo: prova.minimo };
+    return { pontos: row.pontos, situacao: row.eliminatorio ? "Eliminatório" : row.pontos >= 7 ? "Aprovado" : "Na média", minimo: prova.minimo };
   },
 };

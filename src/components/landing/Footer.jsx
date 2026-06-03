@@ -3,7 +3,7 @@ import { BriefcaseBusiness, Camera, Code2 } from "lucide-react";
 const links = [
   { label: "Inicio", href: "#inicio" },
   { label: "Como funciona", href: "#como-funciona" },
-  { label: "Materias", href: "#recursos" },
+  { label: "Matérias", href: "#recursos" },
   { label: "Simulados", href: "#sistema" },
   { label: "Planos", href: "#planos" },
 ];
@@ -15,7 +15,7 @@ function Footer() {
         <div className="landing-footer-brand">
           <img className="landing-footer-logo" src="/logo-light-readable.svg" alt="Aprova+" />
           <p>
-            Plataforma de estudos para transformar edital, questoes, metas e
+            Plataforma de estudos para transformar edital, questões, metas e
             revisoes em uma rotina clara para passar em concurso.
           </p>
         </div>

@@ -36,7 +36,7 @@ export default function DashboardPage() {
     ["Horas estudadas", user.stats.hours, Clock],
     ["Questoes resolvidas", user.stats.questions, ClipboardList],
     ["Taxa de acertos", `${user.stats.accuracy}%`, Target],
-    ["Sequencia", user.stats.streak, Zap],
+    ["Sequência", user.stats.streak, Zap],
     ["TAF", "9.0 aprovado", Dumbbell],
   ];
 
@@ -60,7 +60,7 @@ export default function DashboardPage() {
 
       <div className="mt-4 grid gap-4 xl:grid-cols-[1.5fr_1fr]">
         <Card>
-          <h2 className="mb-3 font-bold text-white">Evolucao semanal</h2>
+          <h2 className="mb-3 font-bold text-white">Evolução semanal</h2>
           <PerformanceChart data={performance} />
         </Card>
         <Card>
@@ -71,11 +71,11 @@ export default function DashboardPage() {
 
       <div className="mt-4 grid gap-4 xl:grid-cols-[1fr_1fr_0.8fr]">
         <Card>
-          <h2 className="mb-3 font-bold text-white">Sequencia</h2>
+          <h2 className="mb-3 font-bold text-white">Sequência</h2>
           <HeatmapCalendar />
         </Card>
         <Card>
-          <h2 className="mb-3 font-bold text-white">Proximas revisoes</h2>
+          <h2 className="mb-3 font-bold text-white">Próximas revisões</h2>
           {revisoes.slice(0, 4).map((item) => (
             <div key={item.id} className="mb-2 flex justify-between rounded-lg bg-gray-900 p-3 text-sm text-gray-300">
               <span>{item.frente}</span>

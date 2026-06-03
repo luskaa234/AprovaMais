@@ -1,7 +1,7 @@
 {
   "name": "Aprova+",
   "short_name": "Aprova+",
-  "description": "Plataforma de estudos para concursos com plano, questoes, simulados e revisoes.",
+  "description": "Plataforma de estudos para concursos com plano, questões, simulados e revisões.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

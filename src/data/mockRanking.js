@@ -1,1 +1,1 @@
-export const mockRanking = ["Ana Lima", "Bruno Reis", "Carla Nunes", "Diego Maia", "Lucas Andrade", "Marina Costa", "Rafa Silva", "Joao Melo", "Nina Rocha", "Paulo Torres"].map((nome, index) => ({ posicao: index + 1, nome, pontos: 9900 - index * 410, evolucao: index % 2 ? -1 : 2 }));
+export const mockRanking = ["Ana Lima", "Bruno Reis", "Carla Nunes", "Diego Maia", "Lucas Andrade", "Marina Costa", "Rafa Silva", "João Melo", "Nina Rocha", "Paulo Torres"].map((nome, index) => ({ posicao: index + 1, nome, pontos: 9900 - index * 410, evolucao: index % 2 ? -1 : 2 }));

@@ -4,5 +4,5 @@ export const mockSimulados = ["edital", "banca", "personalizado"].map((modo, ind
   nome: `Simulado por ${modo}`,
   tempoMinutos: 180 - index * 20,
   mediaTurma: 72 + index * 3,
-  questoes: Array.from({ length: 12 }, (_, q) => ({ id: `q${String(q + 1).padStart(3, "0")}`, materia: ["Direito Constitucional", "Portugues", "Informatica", "Raciocinio Logico"][q % 4] })),
+  questoes: Array.from({ length: 12 }, (_, q) => ({ id: `q${String(q + 1).padStart(3, "0")}`, materia: ["Direito Constitucional", "Português", "Informática", "Raciocínio Lógico"][q % 4] })),
 }));

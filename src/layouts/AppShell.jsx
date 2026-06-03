@@ -118,7 +118,7 @@ const Topbar = memo(({ onMenu }) => {
         </button>
 
         <div className="min-w-0 flex-1">
-          <p className="hidden text-xs text-gray-500 sm:block">Area interna</p>
+          <p className="hidden text-xs text-gray-500 sm:block">Área interna</p>
           <h1 className="truncate text-base font-black text-white md:text-lg">{current?.label || "Dashboard"}</h1>
         </div>
 
@@ -175,7 +175,7 @@ const Topbar = memo(({ onMenu }) => {
             setSearchOpen(true);
           }}
           onFocus={() => setSearchOpen(true)}
-          placeholder="Buscar modulo"
+          placeholder="Buscar módulo"
           ref={searchRef}
           value={query}
         />

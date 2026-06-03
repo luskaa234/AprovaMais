@@ -24,7 +24,7 @@ export const AdminLayout = memo(() => {
 
   const statCards = [
     { label: "Usuarios", value: stats.usuarios, icon: Users },
-    { label: "Questoes", value: stats.questoes, icon: BarChart3 },
+    { label: "Questões", value: stats.questoes, icon: BarChart3 },
     { label: "Simulados", value: stats.simulados, icon: BarChart3 },
   ];
 
@@ -33,7 +33,7 @@ export const AdminLayout = memo(() => {
       <div className="admin-heading">
         <span>Painel Aprova+</span>
         <h1>Painel administrativo</h1>
-        <p>Gestao de materias, questoes, usuarios e estatisticas em uma visao clara.</p>
+        <p>Gestão de matérias, questões, usuários e estatísticas em uma visão clara.</p>
       </div>
 
       <div className="admin-stats-grid">
@@ -50,7 +50,7 @@ export const AdminLayout = memo(() => {
 
       <div className="admin-tabs">
         <Tabs
-          items={["Materias", "Questoes", "Temas de Redacao", "Usuarios", "Estatisticas"]}
+          items={["Matérias", "Questoes", "Temas de Redação", "Usuarios", "Estatisticas"]}
           activeTab="Usuarios"
           onChange={() => {}}
         />

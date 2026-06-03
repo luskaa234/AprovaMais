@@ -4,7 +4,7 @@ import BrandLogo from "./BrandLogo";
 const footerLinks = [
   { label: "Inicio", href: "#inicio" },
   { label: "Como funciona", href: "#como-funciona" },
-  { label: "Materias", href: "#recursos" },
+  { label: "Matérias", href: "#recursos" },
   { label: "Planos", href: "#planos" },
   { label: "FAQ", href: "#faq" },
 ];
@@ -20,11 +20,11 @@ function Footer() {
     <footer className="footer">
       <div className="section-shell footer-inner">
         <div className="footer-brand">
-          <a className="brand" href="#inicio" aria-label="Aprova+ - inicio">
+          <a className="brand" href="#inicio" aria-label="Aprova+ - início">
             <BrandLogo />
           </a>
           <p>
-            Plataforma de planejamento, questoes, simulados e acompanhamento
+            Plataforma de planejamento, questões, simulados e acompanhamento
             para candidatos que querem uma preparacao mais disciplinada para concursos.
           </p>
         </div>
@@ -52,7 +52,7 @@ function Footer() {
 
       <div className="section-shell footer-bottom">
         <span>© 2026 Aprova+. Todos os direitos reservados.</span>
-        <span>Estudo com estrategia, constancia e aprovacao.</span>
+        <span>Estudo com estratégia, constância e aprovação.</span>
       </div>
     </footer>
   );

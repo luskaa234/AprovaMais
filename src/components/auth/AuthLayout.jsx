@@ -16,7 +16,7 @@ function AuthLayout({ title, description, children }) {
 
       <section className="auth-saas-shell" aria-label={title}>
         <div className="auth-saas-copy">
-          <Link className="auth-saas-copy-logo" to="/" aria-label="Aprova+ - inicio">
+          <Link className="auth-saas-copy-logo" to="/" aria-label="Aprova+ - início">
             <BrandLogo />
           </Link>
           <span className="auth-saas-badge">Area do candidato</span>
@@ -29,7 +29,7 @@ function AuthLayout({ title, description, children }) {
 
         <Card className="auth-saas-card">
           <CardHeader className="auth-saas-header">
-            <Link className="auth-saas-logo" to="/" aria-label="Aprova+ - inicio">
+            <Link className="auth-saas-logo" to="/" aria-label="Aprova+ - início">
               <BrandLogo />
             </Link>
             <CardTitle className="auth-saas-title">{title}</CardTitle>

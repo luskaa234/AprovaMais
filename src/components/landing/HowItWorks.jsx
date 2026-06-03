@@ -4,22 +4,22 @@ const steps = [
   {
     icon: ClipboardList,
     title: "Escolha seu concurso",
-    text: "Selecione cargo, edital, prazo e materias mais importantes.",
+    text: "Selecione cargo, edital, prazo e matérias mais importantes.",
   },
   {
     icon: CalendarClock,
     title: "Monte seu plano",
-    text: "Receba uma rotina com blocos de estudo, revisao e simulados.",
+    text: "Receba uma rotina com blocos de estudo, revisão e simulados.",
   },
   {
     icon: BookOpenCheck,
-    title: "Treine com questoes",
+    title: "Treine com questões",
     text: "Pratique os assuntos de maior retorno para sua prova.",
   },
   {
     icon: LineChart,
-    title: "Acompanhe a evolucao",
-    text: "Veja progresso, constancia e pontos que precisam de reforco.",
+    title: "Acompanhe a evolução",
+    text: "Veja progresso, constância e pontos que precisam de reforço.",
   },
 ];
 
@@ -28,10 +28,10 @@ function HowItWorks() {
     <section className="section-shell how-section" id="como-funciona">
       <div className="section-heading">
         <span className="eyebrow">Como funciona</span>
-        <h2>Um ciclo simples para estudar com precisao</h2>
+        <h2>Um ciclo simples para estudar com precisão</h2>
         <p>
-          O metodo combina planejamento, pratica e analise para voce saber o que
-          fazer hoje e como melhorar na proxima semana.
+          O método combina planejamento, prática e análise para você saber o que
+          fazer hoje e como melhorar na próxima semana.
         </p>
       </div>
 

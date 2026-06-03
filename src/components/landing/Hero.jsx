@@ -37,14 +37,14 @@ const heroNotifications = [
 
 const adminNavItems = [
   ["Dashboard", "DB", true],
-  ["Banco de questoes", "BQ"],
+  ["Banco de questões", "BQ"],
   ["Simulados", "SM"],
   ["TAF", "TF", false, "Novo"],
   ["Plano de estudos", "PE"],
-  ["Central de revisao", "CR"],
+  ["Central de revisão", "CR"],
   ["Flashcards", "FC"],
   ["Mapas mentais", "MM"],
-  ["Redacao", "RD"],
+  ["Redação", "RD"],
   ["Assistente", "AS"],
   ["Admin", "AD"],
 ];
@@ -53,7 +53,7 @@ const adminStats = [
   ["Horas estudadas", "128", "clock"],
   ["Questoes resolvidas", "1840", "list"],
   ["Taxa de acertos", "82%", "target"],
-  ["Sequencia", "19", "zap"],
+  ["Sequência", "19", "zap"],
   ["TAF", "9.0 aprovado", "taf"],
 ];
 
@@ -61,7 +61,7 @@ const adminReviews = [
   "Direito Constitucional: conceito 1",
   "Direito Constitucional: conceito 2",
   "Direito Constitucional: conceito 3",
-  "Portugues: conceito 1",
+  "Português: conceito 1",
 ];
 
 const adminRanking = [
@@ -88,7 +88,7 @@ function Hero() {
   return (
     <section className="aprova-hero" id="inicio">
       <div className="aprova-hero-left">
-        <a className="aprova-hero-inline-logo" href="/" aria-label="Aprova+ - inicio">
+        <a className="aprova-hero-inline-logo" href="/" aria-label="Aprova+ - início">
           <BrandLogo />
         </a>
 
@@ -98,20 +98,20 @@ function Hero() {
         </span>
 
         <h1 className="aprova-hero-title">
-          Sua aprovacao comeca com o <span>plano certo.</span>
+          Sua aprovação começa com o <span>plano certo.</span>
         </h1>
 
         <p className="aprova-hero-subtitle">
-          Assistente, questoes e cronograma por edital, tudo em um metodo feito para
+          Assistente, questões e cronograma por edital, tudo em um método feito para
           passar de verdade.
         </p>
 
         <div className="aprova-hero-actions">
           <a className="aprova-hero-primary" href="/criar-conta">
-            Montar meu plano gratis
+            Montar meu plano grátis
           </a>
           <a className="aprova-hero-secondary" href="#como-funciona">
-            Ver como funciona na pratica
+            Ver como funciona na prática
           </a>
         </div>
 
@@ -125,7 +125,7 @@ function Hero() {
           </div>
           <strong>+7.5k alunos em preparo</strong>
           <span className="aprova-hero-separator">.</span>
-          <span>7 dias gratis, sem cartao</span>
+          <span>7 dias grátis, sem cartão</span>
         </div>
       </div>
 
@@ -150,7 +150,7 @@ function Hero() {
                   <strong>LA</strong>
                   <div>
                     <span>Lucas Andrade</span>
-                    <small>Analista Judiciario</small>
+                    <small>Analista Judiciário</small>
                   </div>
                 </div>
               </aside>
@@ -158,7 +158,7 @@ function Hero() {
               <main className="aprova-hero-admin-main">
                 <header className="aprova-hero-admin-topbar">
                   <div>
-                    <small>Area interna</small>
+                    <small>Área interna</small>
                     <strong>Dashboard</strong>
                   </div>
                   <div className="aprova-hero-admin-actions">
@@ -169,7 +169,7 @@ function Hero() {
 
                 <div className="aprova-hero-admin-search">
                   <span />
-                  <p>Buscar modulo</p>
+                  <p>Buscar módulo</p>
                   <b>Ctrl K</b>
                 </div>
 
@@ -194,7 +194,7 @@ function Hero() {
 
                   <div className="aprova-hero-admin-charts">
                     <article className="line-chart">
-                      <h4>Evolucao semanal</h4>
+                      <h4>Evolução semanal</h4>
                       <div className="chart-grid">
                         <svg viewBox="0 0 440 150" aria-hidden="true">
                           <polyline points="18,112 116,98 224,82 330,68 426,52" fill="none" stroke="#2563eb" strokeWidth="3" />
@@ -224,7 +224,7 @@ function Hero() {
 
                   <div className="aprova-hero-admin-bottom">
                     <article>
-                      <h4>Sequencia</h4>
+                      <h4>Sequência</h4>
                       <div className="aprova-hero-heatmap">
                         {Array.from({ length: 45 }, (_, index) => (
                           <i className={`tone-${(index * 7) % 5}`} key={index} />
@@ -233,7 +233,7 @@ function Hero() {
                     </article>
 
                     <article>
-                      <h4>Proximas revisoes</h4>
+                      <h4>Próximas revisões</h4>
                       {adminReviews.map((review) => (
                         <p key={review}>
                           {review}

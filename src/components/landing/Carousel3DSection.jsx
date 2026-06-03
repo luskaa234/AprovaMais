@@ -21,7 +21,7 @@ const items = [
   },
   {
     title: "Simulados",
-    description: "Provas completas com analise de resultado.",
+    description: "Provas completas com análise de resultado.",
     icon: FileCheck2,
     color: "#0ea5e9",
   },
@@ -33,7 +33,7 @@ const items = [
   },
   {
     title: "Resultados",
-    description: "Evolucao clara ate a aprovacao.",
+    description: "Evolução clara até a aprovação.",
     icon: Trophy,
     color: "#f59e0b",
   },

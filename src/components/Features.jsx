@@ -30,7 +30,7 @@ const planBenefits = [
   {
     icon: ClipboardCheck,
     title: "Simulados com diagnóstico",
-    text: "Cada simulado mostra onde ganhar pontos e quais temas exigem reforço imediato.",
+    text: "Cada simulado mostra onde ganhar pontos e quais temas exigem reforço imédiato.",
   },
 ];
 

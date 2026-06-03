@@ -94,7 +94,7 @@ function RegisterForm() {
       <Separator />
 
       <p className="auth-switch-text">
-        Ja tem uma conta? <Link to="/login">Entrar</Link>
+        Já tem uma conta? <Link to="/login">Entrar</Link>
       </p>
     </form>
   );
