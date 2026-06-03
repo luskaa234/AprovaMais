@@ -4,8 +4,14 @@ import Navbar from "../Navbar";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../ui/card";
 
 function AuthLayout({ title, description, children }) {
+  const pageKey = title
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\s+/g, "-");
+
   return (
-    <main className="auth-saas-page">
+    <main className={`auth-saas-page auth-saas-page-${pageKey}`}>
       <Navbar />
 
       <section className="auth-saas-shell" aria-label={title}>

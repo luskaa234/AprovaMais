@@ -3698,6 +3698,7 @@ main {
 
 .auth-saas-card {
   width: min(100%, 460px) !important;
+  min-height: 585px !important;
   margin-inline: auto !important;
   overflow: hidden !important;
   border: 1px solid #dbeafe !important;
@@ -3705,6 +3706,8 @@ main {
   background: rgba(255, 255, 255, 0.9) !important;
   box-shadow: 0 28px 80px rgba(37, 99, 235, 0.16) !important;
   backdrop-filter: blur(18px) !important;
+  display: flex !important;
+  flex-direction: column !important;
 }
 
 .auth-saas-header {
@@ -3746,11 +3749,15 @@ main {
 }
 
 .auth-saas-content {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
   padding: 0 32px 32px !important;
 }
 
 .auth-saas-form {
   width: 100% !important;
+  flex: 1 !important;
   gap: 18px !important;
 }
 
@@ -3819,6 +3826,52 @@ main {
 
 .auth-error {
   color: #dc2626 !important;
+}
+
+.auth-saas-page-entrar .auth-saas-card,
+.auth-saas-page-esqueci-minha-senha .auth-saas-card {
+  height: 585px !important;
+}
+
+.auth-saas-page-esqueci-minha-senha .auth-saas-form {
+  justify-content: center !important;
+}
+
+.auth-saas-page-esqueci-minha-senha .auth-saas-content {
+  padding-bottom: 36px !important;
+}
+
+.auth-saas-page-criar-conta .auth-saas-card {
+  min-height: 585px !important;
+}
+
+.auth-saas-page-criar-conta .auth-saas-header {
+  padding-top: 26px !important;
+  padding-bottom: 12px !important;
+}
+
+.auth-saas-page-criar-conta .auth-saas-logo {
+  margin-bottom: 12px !important;
+}
+
+.auth-saas-page-criar-conta .auth-saas-description {
+  min-height: 42px !important;
+}
+
+.auth-saas-page-criar-conta .auth-saas-form {
+  gap: 12px !important;
+}
+
+.auth-saas-page-criar-conta .auth-input-wrap {
+  min-height: 48px !important;
+}
+
+.auth-saas-page-criar-conta .auth-input-wrap input {
+  min-height: 46px !important;
+}
+
+.auth-saas-page-criar-conta .auth-primary-button {
+  min-height: 50px !important;
 }
 
 .auth-check-label [role="checkbox"],
