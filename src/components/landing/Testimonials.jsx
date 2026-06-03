@@ -1,5 +1,22 @@
-import { Star } from "lucide-react";
+import { Building2, Flame, Landmark, Mail, Shield, Star } from "lucide-react";
 import { motion } from "framer-motion";
+
+const institutionLogos = {
+  "Polícia Civil SP": { short: "PC", icon: Shield, tone: "civil" },
+  PRF: { short: "PRF", icon: Shield, tone: "road" },
+  "Guarda Municipal RJ": { short: "GM", icon: Shield, tone: "guard" },
+  "Polícia Militar": { short: "PM", icon: Shield, tone: "military" },
+  "Polícia Civil": { short: "PC", icon: Shield, tone: "civil" },
+  Bombeiros: { short: "CBM", icon: Flame, tone: "fire" },
+  "Guarda Municipal": { short: "GM", icon: Shield, tone: "guard" },
+  PF: { short: "PF", icon: Shield, tone: "federal" },
+  PCDF: { short: "DF", icon: Landmark, tone: "district" },
+  "Polícia Penal": { short: "PP", icon: Shield, tone: "penal" },
+  DEPEN: { short: "DP", icon: Landmark, tone: "penal" },
+  "Agente de Trânsito": { short: "AT", icon: Shield, tone: "traffic" },
+  Correios: { short: "COR", icon: Mail, tone: "post" },
+  INSS: { short: "INSS", icon: Building2, tone: "social" },
+};
 
 const defaultTestimonials = [
   {
@@ -46,6 +63,22 @@ function getInitials(name) {
     .toUpperCase();
 }
 
+function InstitutionLogo({ organization }) {
+  const logo = institutionLogos[organization] ?? {
+    short: organization.slice(0, 3).toUpperCase(),
+    icon: Shield,
+    tone: "default",
+  };
+  const Icon = logo.icon;
+
+  return (
+    <span className={`institution-logo tone-${logo.tone}`} aria-label={`Logo ${organization}`}>
+      <Icon size={18} aria-hidden="true" />
+      <strong>{logo.short}</strong>
+    </span>
+  );
+}
+
 function Testimonials({ testimonials = defaultTestimonials }) {
   return (
     <section className="section-shell testimonials-section">
@@ -75,6 +108,7 @@ function Testimonials({ testimonials = defaultTestimonials }) {
                 <h3>{testimonial.name}</h3>
                 <p>{testimonial.approvedRole}</p>
               </div>
+              <InstitutionLogo organization={testimonial.organization} />
             </div>
 
             <div className="testimonial-meta">

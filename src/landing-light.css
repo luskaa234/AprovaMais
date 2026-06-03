@@ -296,6 +296,94 @@ main {
   font-weight: 400;
 }
 
+.institution-logo,
+.exam-logo {
+  display: inline-grid;
+  place-items: center;
+  flex: 0 0 auto;
+  border: 1px solid #dbeafe;
+  color: #1d4ed8;
+  background:
+    radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.9), transparent 2rem),
+    linear-gradient(135deg, #ffffff, #eff6ff);
+  box-shadow: 0 12px 26px rgba(37, 99, 235, 0.1);
+}
+
+.institution-logo {
+  width: 58px;
+  height: 58px;
+  margin-left: auto;
+  border-radius: 18px;
+  gap: 2px;
+}
+
+.institution-logo svg,
+.exam-logo svg {
+  color: currentColor;
+}
+
+.institution-logo strong,
+.exam-logo strong {
+  color: currentColor;
+  font-size: 0.7rem;
+  font-weight: 950;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.exam-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 16px;
+  gap: 1px;
+}
+
+.tone-military,
+.tone-federal,
+.tone-road {
+  color: #1d4ed8;
+  border-color: #bfdbfe;
+  background: linear-gradient(135deg, #eff6ff, #dbeafe);
+}
+
+.tone-civil,
+.tone-district {
+  color: #4338ca;
+  border-color: #c7d2fe;
+  background: linear-gradient(135deg, #eef2ff, #e0e7ff);
+}
+
+.tone-fire {
+  color: #b91c1c;
+  border-color: #fecaca;
+  background: linear-gradient(135deg, #fff7ed, #fee2e2);
+}
+
+.tone-guard,
+.tone-traffic {
+  color: #047857;
+  border-color: #bbf7d0;
+  background: linear-gradient(135deg, #f0fdf4, #dcfce7);
+}
+
+.tone-penal {
+  color: #374151;
+  border-color: #d1d5db;
+  background: linear-gradient(135deg, #f9fafb, #e5e7eb);
+}
+
+.tone-post {
+  color: #0369a1;
+  border-color: #bae6fd;
+  background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+}
+
+.tone-social {
+  color: #0f766e;
+  border-color: #99f6e4;
+  background: linear-gradient(135deg, #f0fdfa, #ccfbf1);
+}
+
 .pricing-urgency-banner {
   border-color: #2563eb;
   color: #ffffff;
@@ -4336,5 +4424,242 @@ main {
   .testimonial-card,
   .landing-price-card {
     padding: 20px !important;
+  }
+}
+
+/* Mobile responsiveness polish for post-hero landing sections. */
+.trust-heading {
+  display: grid;
+  gap: 14px;
+  align-content: start;
+}
+
+.trust-brand-mark {
+  width: 58px;
+  height: 58px;
+  border: 1px solid #dbeafe;
+  border-radius: 18px;
+  padding: 10px;
+  background: #ffffff;
+  box-shadow: 0 18px 36px rgba(37, 99, 235, 0.12);
+}
+
+@media (max-width: 640px) {
+  html {
+    scroll-padding-top: 96px;
+  }
+
+  .section-shell {
+    width: min(100% - 28px, 520px) !important;
+  }
+
+  .how-section,
+  .resources-section,
+  .flashcards-section,
+  .ai-preview-section,
+  .trust-section,
+  .testimonials-section,
+  .landing-pricing-section,
+  .landing-faq-section {
+    padding-top: 88px !important;
+    padding-bottom: 56px !important;
+    scroll-margin-top: 96px !important;
+  }
+
+  .section-heading {
+    margin-bottom: 24px !important;
+    text-align: left !important;
+  }
+
+  .section-heading .eyebrow,
+  .section-heading .section-kicker,
+  .flashcards-copy .section-kicker,
+  .ai-preview-copy .eyebrow {
+    max-width: 100% !important;
+    white-space: normal !important;
+  }
+
+  .section-heading h2,
+  .flashcards-copy h2,
+  .ai-preview-copy h2,
+  .trust-panel h2 {
+    margin: 12px 0 0 !important;
+    font-size: clamp(2.25rem, 11vw, 3.4rem) !important;
+    line-height: 1.03 !important;
+    text-align: left !important;
+  }
+
+  .section-heading p,
+  .flashcards-copy p,
+  .ai-preview-copy p {
+    margin-top: 10px !important;
+    font-size: 1rem !important;
+    line-height: 1.55 !important;
+    text-align: left !important;
+  }
+
+  .steps-grid,
+  .resources-grid,
+  .testimonials-grid,
+  .trust-grid {
+    gap: 14px !important;
+  }
+
+  .step-card,
+  .resource-card,
+  .testimonial-card {
+    min-height: auto !important;
+    padding: 22px 22px 24px !important;
+  }
+
+  .step-card {
+    display: grid !important;
+    grid-template-rows: auto auto auto auto !important;
+    gap: 12px !important;
+  }
+
+  .step-number {
+    margin-bottom: 18px !important;
+    font-size: 3rem !important;
+    line-height: 0.9 !important;
+  }
+
+  .step-card .card-icon,
+  .resource-card .card-icon {
+    width: 44px !important;
+    height: 44px !important;
+  }
+
+  .step-card h3,
+  .resource-card h3 {
+    margin: 4px 0 0 !important;
+    font-size: 1.45rem !important;
+    line-height: 1.14 !important;
+  }
+
+  .step-card p,
+  .resource-card p {
+    margin: 0 !important;
+    font-size: 1.05rem !important;
+    line-height: 1.55 !important;
+  }
+
+  .resources-cta {
+    max-width: 100% !important;
+    min-height: 56px !important;
+    padding-inline: 18px !important;
+    font-size: 1rem !important;
+  }
+
+  .flashcards-section,
+  .ai-preview-section {
+    gap: 24px !important;
+  }
+
+  .flashcards-copy,
+  .ai-preview-copy {
+    text-align: left !important;
+  }
+
+  .flashcards-progress-panel {
+    margin-top: 20px !important;
+    padding: 16px !important;
+  }
+
+  .flashcards-study-panel {
+    max-width: 100% !important;
+    overflow: hidden !important;
+    padding-bottom: 4px !important;
+  }
+
+  .flashcard-stack-stage {
+    width: 100% !important;
+    height: 360px !important;
+    overflow: visible !important;
+  }
+
+  .flashcard-face {
+    min-height: 332px !important;
+    padding: 22px !important;
+  }
+
+  .flashcard-face h3 {
+    font-size: clamp(2rem, 10vw, 2.9rem) !important;
+    line-height: 1.04 !important;
+  }
+
+  .flashcard-face p {
+    max-width: 100% !important;
+    font-size: 1rem !important;
+  }
+
+  .ai-chat-card {
+    max-width: 100% !important;
+    border-radius: 22px !important;
+  }
+
+  .ai-message p {
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+  }
+
+  .trust-panel {
+    padding: 22px !important;
+    overflow: hidden !important;
+  }
+
+  .trust-heading {
+    justify-items: start !important;
+    text-align: left !important;
+  }
+
+  .trust-brand-mark {
+    width: 54px;
+    height: 54px;
+  }
+
+  .trust-grid {
+    margin-top: 22px !important;
+  }
+
+  .trust-grid article {
+    min-height: 58px !important;
+    padding: 14px 16px !important;
+    border-radius: 12px !important;
+  }
+
+  .testimonial-top {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr) auto !important;
+    align-items: center !important;
+    gap: 12px !important;
+  }
+
+  .testimonial-top h3,
+  .testimonial-top p {
+    overflow-wrap: anywhere !important;
+  }
+
+  .institution-logo {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 16px !important;
+  }
+
+  .exam-logo {
+    width: 48px !important;
+    height: 48px !important;
+    border-radius: 15px !important;
+  }
+
+  .trust-grid article {
+    display: grid !important;
+    grid-template-columns: auto minmax(0, 1fr) !important;
+    gap: 12px !important;
+  }
+
+  .trust-grid article > span:last-child {
+    min-width: 0 !important;
+    overflow-wrap: anywhere !important;
   }
 }

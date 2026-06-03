@@ -5,7 +5,7 @@ const suggestionResponses = {
   "Gerar resumo": {
     prompt: "Gere um resumo rápido de controle de constitucionalidade.",
     answer:
-      "Controle de constitucionalidade é a verificação se uma lei ou ato está de acordo com a Constituição. Pode ser preventivo, antes da norma entrar em vigor, ou repressivo, depois. Na prova, observe quem propoe, qual orgao julga e se o controle e difuso ou concentrado.",
+      "Controle de constitucionalidade é a verificação se uma lei ou ato está de acordo com a Constituição. Pode ser preventivo, antes da norma entrar em vigor, ou repressivo, depois. Na prova, observe quem propõe, qual órgão julga e se o controle é difuso ou concentrado.",
   },
   "Explicar questão": {
     prompt: "Explique uma questão sobre controle concentrado.",

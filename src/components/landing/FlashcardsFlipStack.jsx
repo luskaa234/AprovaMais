@@ -5,15 +5,13 @@ const flashcards = [
   {
     topic: "Português",
     question: "Quando ocorre crase antes de palavra feminina?",
-    answer:
-      "Ocorre quando há fusão da preposição 'a' com o artigo feminino 'a'.",
+    answer: "Ocorre quando há fusão da preposição 'a' com o artigo feminino 'a'.",
     color: "#2563eb",
   },
   {
     topic: "Direito Constitucional",
     question: "O que significa controle de constitucionalidade?",
-    answer:
-      "É a verificação de compatibilidade de uma norma com a Constituicao.",
+    answer: "É a verificação de compatibilidade de uma norma com a Constituição.",
     color: "#38bdf8",
   },
   {
@@ -153,9 +151,7 @@ function FlashcardsFlipStack() {
         </div>
 
         <div className="flashcards-session-footer">
-          <span>
-            Card {currentPosition} de {flashcards.length}
-          </span>
+          <span>Card {currentPosition} de {flashcards.length}</span>
           <span>Clique para deslizar</span>
         </div>
       </div>
