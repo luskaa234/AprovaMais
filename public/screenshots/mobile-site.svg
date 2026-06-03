@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1600" viewBox="0 0 900 1600">
+  <defs>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fff9"/>
+      <stop offset="1" stop-color="#e8f8ee"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="28" stdDeviation="30" flood-color="#0f5132" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1600" fill="#f8faf9"/>
+  <rect x="56" y="64" width="788" height="1488" rx="44" fill="url(#hero)"/>
+  <g transform="translate(92 96)">
+    <rect x="0" y="0" width="716" height="92" rx="30" fill="#ffffff" stroke="#dcefe4"/>
+    <path d="M28 47 l28 28 l58 -64" fill="none" stroke="#119a61" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M92 26 v42 M71 47 h42" stroke="#60a5fa" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="650" cy="46" r="18" fill="#dff8ea"/>
+    <circle cx="604" cy="46" r="18" fill="#ecfdf3"/>
+  </g>
+  <g transform="translate(92 226)">
+    <rect x="0" y="0" width="292" height="52" rx="26" fill="#e9fff3" stroke="#a7f3c6"/>
+    <text x="28" y="34" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#07915a">PLANO APROVA+</text>
+    <text x="0" y="162" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="900" fill="#0f172a">Estude com</text>
+    <text x="0" y="250" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="900" fill="#0f172a">clareza todos</text>
+    <text x="0" y="338" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="900" fill="#0f172a">os dias.</text>
+    <text x="0" y="420" font-family="Inter, Arial, sans-serif" font-size="31" fill="#475569">Cronograma, questoes e IA em uma</text>
+    <text x="0" y="464" font-family="Inter, Arial, sans-serif" font-size="31" fill="#475569">rotina simples para passar.</text>
+  </g>
+  <g transform="translate(92 780)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="716" height="338" rx="36" fill="#ffffff" stroke="#d9ede2"/>
+    <text x="42" y="64" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#0f172a">Plano de hoje</text>
+    <text x="42" y="128" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="900" fill="#0f172a">5 tarefas</text>
+    <rect x="42" y="166" width="632" height="18" rx="9" fill="#dbeafe"/>
+    <rect x="42" y="166" width="532" height="18" rx="9" fill="#3b82f6"/>
+    <text x="42" y="238" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#14532d">84% concluido</text>
+    <rect x="446" y="214" width="228" height="58" rx="29" fill="#3b82f6"/>
+    <text x="497" y="252" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">Continuar</text>
+  </g>
+  <g transform="translate(92 1176)">
+    <rect x="0" y="0" width="716" height="104" rx="28" fill="#ffffff" stroke="#d9ede2"/>
+    <circle cx="56" cy="52" r="22" fill="#dbeafe"/>
+    <text x="96" y="46" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800" fill="#0f172a">Direito Constitucional</text>
+    <text x="96" y="76" font-family="Inter, Arial, sans-serif" font-size="20" fill="#64748b">Revisao concluida</text>
+    <text x="612" y="60" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#3b82f6">feito</text>
+    <rect x="0" y="128" width="716" height="104" rx="28" fill="#ffffff" stroke="#d9ede2"/>
+    <circle cx="56" cy="180" r="22" fill="#eff6ff"/>
+    <text x="96" y="174" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="800" fill="#0f172a">Simulado PRF</text>
+    <text x="96" y="204" font-family="Inter, Arial, sans-serif" font-size="20" fill="#64748b">Comeca as 18:00</text>
+    <text x="594" y="188" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#0f766e">hoje</text>
+  </g>
+</svg>

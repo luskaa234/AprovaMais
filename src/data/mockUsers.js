@@ -1,0 +1,4 @@
+export const mockUsers = [
+  { id: "u001", name: "Lucas Andrade", email: "lucas@aprovamais.com", avatar: "", role: "admin", targetContest: "Analista Judiciario - TRT", studyGoal: { date: "2026-12-20", progress: 67 }, preferences: { theme: "dark", reviewMode: "sm2" }, stats: { hours: 128, questions: 1840, accuracy: 82, streak: 19 } },
+  ...Array.from({ length: 9 }, (_, index) => ({ id: `u00${index + 2}`, name: ["Ana Lima", "Bruno Reis", "Carla Nunes", "Diego Maia", "Marina Costa", "Rafa Silva", "Joao Melo", "Nina Rocha", "Paulo Torres"][index], email: `aluno${index + 2}@aprovamais.com`, avatar: "", role: "student", targetContest: ["INSS", "TJ-SP", "OAB", "ENEM"][index % 4], studyGoal: { date: "2026-11-15", progress: 38 + index * 5 }, preferences: { theme: "dark", reviewMode: "spaced" }, stats: { hours: 50 + index * 11, questions: 600 + index * 140, accuracy: 61 + index * 3, streak: 4 + index } })),
+];

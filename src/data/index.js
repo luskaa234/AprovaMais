@@ -1,0 +1,12 @@
+export { mockUsers } from "./mockUsers";
+export { mockQuestoes } from "./mockQuestoes";
+export { mockSimulados } from "./mockSimulados";
+export { mockFlashcards } from "./mockFlashcards";
+export { mockPlano } from "./mockPlano";
+export { mockRedacoes } from "./mockRedacoes";
+export { mockBiblioteca } from "./mockBiblioteca";
+export { mockMapas } from "./mockMapas";
+export { mockRanking } from "./mockRanking";
+export { mockNotificacoes } from "./mockNotificacoes";
+export { mockLeis } from "./mockLeis";
+export { mockEditaisTAF, mockHistoricoTAF, mockPlanoTAF, mockDicasTAF } from "./mockTAF";

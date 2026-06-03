@@ -1,0 +1,11 @@
+export { questoesService } from "./questoesService";
+export { simuladosService } from "./simuladosService";
+export { flashcardsService } from "./flashcardsService";
+export { planoService } from "./planoService";
+export { redacaoService } from "./redacaoService";
+export { revisaoService } from "./revisaoService";
+export { bibliotecaService } from "./bibliotecaService";
+export { adminService } from "./adminService";
+export { aiService } from "./aiService";
+export { tafService } from "./tafService";
+export { rankingService, mapasService, leisService, notificacoesService } from "./miscService";

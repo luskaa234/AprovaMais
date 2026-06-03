@@ -1,0 +1,14 @@
+export { default as DashboardPage } from "./Dashboard";
+export { default as QuestoesPage } from "./Questoes";
+export { default as SimuladosPage } from "./Simulados";
+export { default as TAFPage } from "./TAF";
+export { default as PlanoPage } from "./Plano";
+export { default as RevisaoPage } from "./Revisao";
+export { default as FlashcardsPage } from "./Flashcards";
+export { default as MapasMentaisPage } from "./MapasMentais";
+export { default as RedacaoPage } from "./Redacao";
+export { default as CadernoErrosPage } from "./CadernoErros";
+export { default as BibliotecaPage } from "./Biblioteca";
+export { default as LeisSecasPage } from "./LeisSecas";
+export { default as IAPage } from "./IA";
+export { default as PerfilPage } from "./Perfil";
