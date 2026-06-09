@@ -1,5 +1,5 @@
 import { useCallback, useDeferredValue, useMemo, useState } from "react";
-import { BarChart3, Bookmark, Brain, CalendarCheck, CheckCircle2, Clock, Plus, Search, Sparkles, Target } from "lucide-react";
+import { BarChart3, Bookmark, Brain, CalendarCheck, CheckCircle2, Clock, Search, Target } from "lucide-react";
 import { Badge, Button, Card, EmptyState, Input, Select, cx } from "../../components";
 import { Modal } from "../../modals";
 import { useAsyncData } from "../../hooks";
@@ -17,6 +17,7 @@ const statusOptions = [
   { value: "Em Revisao", label: "Em Revisao" },
   { value: "Dominado", label: "Dominado" },
 ];
+const answerTypes = ["Mental", "Escrita", "Opcao"];
 
 function unique(items) {
   return [...new Set(items.filter(Boolean))];
@@ -43,6 +44,12 @@ function normalizeCard(deck, card, deckIndex, cardIndex) {
     dueAt,
     repetitions,
     acertos: repetitions,
+    respostaTipo: card.respostaTipo || answerTypes[(deckIndex + cardIndex) % answerTypes.length],
+    opcoes: card.opcoes || [
+      card.verso,
+      "Conceito relacionado, mas incompleto para o enunciado.",
+      "Resposta incorreta comum em provas.",
+    ].filter(Boolean),
   };
 }
 
@@ -61,8 +68,8 @@ export default function FlashcardsPage() {
   const [filters, setFilters] = useState({ concurso: "", materia: "", assunto: "", subassunto: "", dificuldade: "", status: "", origem: "", favoritos: "" });
   const [studyCard, setStudyCard] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
-  const [modal, setModal] = useState(false);
-  const [draft, setDraft] = useState({ frente: "", verso: "", materia: "", concurso: "", assunto: "", subassunto: "", dificuldade: "medio" });
+  const [writtenAnswer, setWrittenAnswer] = useState("");
+  const [selectedOption, setSelectedOption] = useState("");
 
   const cards = useMemo(() => decks.flatMap((deck, deckIndex) => (deck.cards || []).map((card, cardIndex) => normalizeCard(deck, card, deckIndex, cardIndex))), [decks]);
   const accuracy = useMemo(() => cards.length ? Math.round(cards.reduce((sum, card) => sum + Math.min(100, (card.repetitions || 0) * 22), 0) / cards.length) : 0, [cards]);
@@ -92,14 +99,7 @@ export default function FlashcardsPage() {
     ["Mais revisada", cards[0]?.materia || "Aguardando estudo", BarChart3],
   ];
 
-  const createFlashcard = useCallback(async () => {
-    const next = await flashcardsService.criarFlashcard(draft);
-    setData((items) => [next, ...items]);
-    setDraft({ frente: "", verso: "", materia: "", concurso: "", assunto: "", subassunto: "", dificuldade: "medio" });
-    setModal(false);
-  }, [draft, setData]);
-
-  const rate = useCallback(async (quality) => {
+  const rate = useCallback(async (quality, nextAction = true) => {
     if (!studyCard) return;
     const updated = await flashcardsService.avaliar(studyCard, quality);
     setData((items) => items.map((deck) => ({
@@ -107,8 +107,17 @@ export default function FlashcardsPage() {
       cards: (deck.cards || []).map((card) => card.id === studyCard.id ? { ...card, ...updated } : card),
     })));
     setShowAnswer(false);
-    setStudyCard(filteredCards.find((card) => card.id !== studyCard.id) || null);
+    setWrittenAnswer("");
+    setSelectedOption("");
+    setStudyCard(nextAction ? filteredCards.find((card) => card.id !== studyCard.id) || null : null);
   }, [filteredCards, setData, studyCard]);
+
+  const openStudy = useCallback((card) => {
+    setStudyCard(card);
+    setShowAnswer(card.respostaTipo === "Mental");
+    setWrittenAnswer("");
+    setSelectedOption("");
+  }, []);
 
   return (
     <div className="mx-auto max-w-[1500px]">
@@ -120,7 +129,6 @@ export default function FlashcardsPage() {
         </div>
         <div className="flex flex-col gap-2 sm:flex-row">
           <Input icon={Search} placeholder="Pesquisar flashcard" value={query} onChange={(event) => setQuery(event.target.value)} />
-          <Button icon={Plus} onClick={() => setModal(true)}>Criar Flashcard</Button>
         </div>
       </div>
 
@@ -162,8 +170,7 @@ export default function FlashcardsPage() {
               <h2 className="mt-2 flex-1 text-lg font-black leading-snug text-white">{card.frente}</h2>
               <p className="mt-3 line-clamp-2 text-sm text-gray-400">{card.subassunto} · proxima revisao {card.dueAt}</p>
               <div className="mt-4 flex gap-2">
-                <Button className="flex-1" icon={Brain} onClick={() => { setStudyCard(card); setShowAnswer(false); }}>Estudar</Button>
-                <Button variant="secondary" icon={Sparkles}>Gerar revisao</Button>
+                <Button className="flex-1" icon={Brain} onClick={() => openStudy(card)}>Estudar</Button>
               </div>
             </Card>
           ))}
@@ -175,32 +182,41 @@ export default function FlashcardsPage() {
           <div className="mb-4 flex flex-wrap gap-2"><Badge>{studyCard?.materia}</Badge><Badge variant="neutral">{studyCard?.assunto}</Badge><Badge variant="neutral">{studyCard?.status}</Badge></div>
           <p className="text-xs font-bold uppercase tracking-wide text-gray-500">Pergunta</p>
           <h2 className="mt-2 text-2xl font-black leading-snug text-white">{studyCard?.frente}</h2>
-          {!showAnswer ? <Button className="mt-5" onClick={() => setShowAnswer(true)}>Ver Resposta</Button> : (
+          {studyCard?.respostaTipo === "Escrita" && !showAnswer ? (
+            <div className="mt-5 grid gap-3">
+              <label className="grid gap-2 text-sm font-semibold text-gray-300">
+                Responda com suas palavras
+                <textarea className="min-h-32 rounded-lg border border-gray-700 bg-gray-950 p-3 text-sm text-gray-100 outline-none focus:border-blue-400" value={writtenAnswer} onChange={(event) => setWrittenAnswer(event.target.value)} placeholder="Digite sua resposta..." />
+              </label>
+              <Button onClick={() => setShowAnswer(true)}>Ver Resposta</Button>
+            </div>
+          ) : null}
+          {studyCard?.respostaTipo === "Opcao" && !showAnswer ? (
+            <div className="mt-5 grid gap-2">
+              {(studyCard?.opcoes || []).map((option, index) => (
+                <button key={`${option}-${index}`} onClick={() => setSelectedOption(option)} className={cx("rounded-lg border p-3 text-left text-sm transition", selectedOption === option ? "border-blue-600 bg-blue-600 text-white" : "border-gray-700 bg-gray-950 text-gray-200 hover:border-blue-400")}>
+                  <span className="mr-2 font-black">{String.fromCharCode(65 + index)}.</span>{option}
+                </button>
+              ))}
+              <Button className="mt-2" disabled={!selectedOption} onClick={() => setShowAnswer(true)}>Conferir resposta</Button>
+            </div>
+          ) : null}
+          {studyCard?.respostaTipo === "Mental" && !showAnswer ? <Button className="mt-5" onClick={() => setShowAnswer(true)}>Proximo</Button> : null}
+          {showAnswer ? (
             <div className="mt-5 grid gap-4">
               <div className="rounded-lg bg-gray-950 p-4">
                 <p className="text-xs font-bold uppercase tracking-wide text-blue-300">Resposta e explicacao</p>
                 <p className="mt-2 whitespace-pre-wrap text-sm leading-relaxed text-gray-200">{studyCard?.verso}</p>
               </div>
-              <div className="rounded-lg bg-blue-50 p-4 text-sm text-slate-700"><strong>Dica de memorizacao:</strong> transforme a regra em uma pergunta curta e refaca uma questao do mesmo assunto apos a revisao.</div>
+              {writtenAnswer ? <div className="rounded-lg bg-gray-950 p-4 text-sm text-gray-300"><strong>Sua resposta:</strong> {writtenAnswer}</div> : null}
+              {selectedOption ? <div className="rounded-lg bg-gray-950 p-4 text-sm text-gray-300"><strong>Opcao escolhida:</strong> {selectedOption}</div> : null}
               <div className="flex flex-wrap gap-2">
-                {[["Errei", 1, "danger"], ["Dificil", 2, "secondary"], ["Medio", 3, "secondary"], ["Facil", 5, "primary"]].map(([label, quality, variant]) => <Button key={label} variant={variant} onClick={() => rate(quality)}>{label}</Button>)}
+                <Button variant="danger" onClick={() => rate(1)}>Errei</Button>
+                <Button onClick={() => rate(5)}>Acertei</Button>
+                <Button variant="secondary" onClick={() => rate(3)}>Fazer depois</Button>
               </div>
             </div>
-          )}
-        </div>
-      </Modal>
-
-      <Modal open={modal} title="Criar Flashcard" onClose={() => setModal(false)} footer={<Button onClick={createFlashcard}>Salvar flashcard</Button>}>
-        <div className="grid gap-3">
-          <Input label="Pergunta / conceito" value={draft.frente} onChange={(event) => setDraft((current) => ({ ...current, frente: event.target.value }))} />
-          <Input label="Resposta / explicacao" value={draft.verso} onChange={(event) => setDraft((current) => ({ ...current, verso: event.target.value }))} />
-          <div className="grid gap-3 sm:grid-cols-2">
-            <Input label="Concurso" value={draft.concurso} onChange={(event) => setDraft((current) => ({ ...current, concurso: event.target.value }))} />
-            <Input label="Materia" value={draft.materia} onChange={(event) => setDraft((current) => ({ ...current, materia: event.target.value }))} />
-            <Input label="Assunto" value={draft.assunto} onChange={(event) => setDraft((current) => ({ ...current, assunto: event.target.value }))} />
-            <Input label="Subassunto" value={draft.subassunto} onChange={(event) => setDraft((current) => ({ ...current, subassunto: event.target.value }))} />
-          </div>
-          <Select label="Nivel" options={difficultyOptions} value={draft.dificuldade} onChange={(event) => setDraft((current) => ({ ...current, dificuldade: event.target.value }))} />
+          ) : null}
         </div>
       </Modal>
     </div>
