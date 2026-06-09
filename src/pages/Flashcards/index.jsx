@@ -49,6 +49,25 @@ function getAnswerFeedback(card, studentAnswer) {
   };
 }
 
+function seededRandom(seed) {
+  let value = seed % 2147483647;
+  if (value <= 0) value += 2147483646;
+  return () => {
+    value = (value * 16807) % 2147483647;
+    return (value - 1) / 2147483646;
+  };
+}
+
+function shuffleCards(items, seed) {
+  const random = seededRandom(seed);
+  const shuffled = [...items];
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(random() * (index + 1));
+    [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
+  }
+  return shuffled;
+}
+
 function normalizeCard(deck, card, deckIndex, cardIndex) {
   const acertos = card.acertos ?? card.repetitions ?? card.repeticoes ?? 0;
   const erros = card.erros ?? 0;
@@ -88,9 +107,10 @@ export default function FlashcardsPage() {
   const [activeId, setActiveId] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
   const [studentAnswer, setStudentAnswer] = useState("");
+  const [shuffleSeed, setShuffleSeed] = useState(() => Date.now() + Math.floor(Math.random() * 100000));
 
   const baseCards = useMemo(() => decks.flatMap((deck, deckIndex) => (deck.cards || []).map((card, cardIndex) => normalizeCard(deck, card, deckIndex, cardIndex))), [decks]);
-  const cards = useMemo(() => baseCards.map((card) => ({ ...card, ...(overrides[card.id] || {}) })), [baseCards, overrides]);
+  const cards = useMemo(() => shuffleCards(baseCards, shuffleSeed).map((card) => ({ ...card, ...(overrides[card.id] || {}) })), [baseCards, overrides, shuffleSeed]);
   const filtered = useMemo(() => cards.filter((card) => {
     const text = [card.pergunta, card.resposta, card.explicacao, card.materia, card.assunto, card.subassunto, card.concurso].join(" ").toLowerCase();
     if (deferredQuery && !text.includes(deferredQuery.toLowerCase())) return false;
@@ -125,12 +145,20 @@ export default function FlashcardsPage() {
     setStudentAnswer("");
   }, [activeCard, filtered]);
 
+  const shuffleAgain = useCallback(() => {
+    setShuffleSeed(Date.now() + Math.floor(Math.random() * 100000));
+    setActiveId(null);
+    setShowAnswer(false);
+    setStudentAnswer("");
+  }, []);
+
   return (
     <div className="mx-auto max-w-[1500px] pb-10 text-slate-900">
       <div className="mb-5 flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
         <h1 className="text-3xl font-black text-slate-950">Flashcards</h1>
         <div className="flex flex-col gap-2 sm:flex-row">
           <Input icon={Search} placeholder="Buscar flashcards..." value={query} onChange={(event) => setQuery(event.target.value)} />
+          <Button variant="secondary" onClick={shuffleAgain}>Aleatorio</Button>
         </div>
       </div>
 
@@ -182,9 +210,9 @@ export default function FlashcardsPage() {
               )}
 
               <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 pt-4">
-                <Button variant="secondary" onClick={() => goToCard(-1)}>Anterior</Button>
+                <Button variant="secondary" onClick={(event) => { event.currentTarget.blur(); goToCard(-1); }}>Anterior</Button>
                 <span className="text-xs font-semibold text-slate-500">Flashcard {cardPosition} de {filtered.length}</span>
-                <Button variant="secondary" onClick={() => goToCard(1)}>Proximo</Button>
+                <Button variant="secondary" onClick={(event) => { event.currentTarget.blur(); goToCard(1); }}>Proximo</Button>
               </div>
             </div>
           </section>
