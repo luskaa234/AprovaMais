@@ -81,6 +81,7 @@ export default function FlashcardsPage() {
   const [deleted, setDeleted] = useState([]);
   const [activeId, setActiveId] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
+  const [studentAnswer, setStudentAnswer] = useState("");
   const [modal, setModal] = useState(null);
   const [draft, setDraft] = useState(emptyDraft());
 
@@ -145,6 +146,7 @@ export default function FlashcardsPage() {
     const status = dominio >= 80 ? "Dominado" : "Em revisao";
     setOverrides((current) => ({ ...current, [card.id]: { ...(current[card.id] || {}), acertos, erros, dominio, status, proximaRevisao: addDays(days) } }));
     setShowAnswer(false);
+    setStudentAnswer("");
     setActiveId(filtered.find((item) => item.id !== card.id)?.id || card.id);
     notify("Revisao registrada", `${label}: proxima revisao atualizada.`);
   }, [filtered, notify]);
@@ -184,14 +186,14 @@ export default function FlashcardsPage() {
                 <div><h2 className="text-sm font-bold text-slate-950">{label}</h2><p className="mt-2 text-xs text-slate-500">{value}</p></div>
                 <span className="grid size-12 place-items-center rounded-full bg-blue-50 text-blue-700"><Icon size={18} /></span>
               </div>
-              {index === 0 ? <Button className="mt-4 w-full" onClick={() => { setTab("Todos"); setActiveId(dueCards[0]?.id || filtered[0]?.id); }}>Iniciar revisao</Button> : null}
+              {index === 0 ? <Button className="mt-4 w-full" onClick={() => { setTab("Todos"); setActiveId(dueCards[0]?.id || filtered[0]?.id); setShowAnswer(false); setStudentAnswer(""); }}>Iniciar revisao</Button> : null}
             </Card>
           ))}
         </aside>
 
         <main className="overflow-hidden rounded-lg border border-blue-100 bg-white shadow-sm">
           <div className="flex gap-2 overflow-x-auto border-b border-slate-100 px-4 pt-3">
-            {tabFilters.map((item) => <button key={item} onClick={() => { setTab(item); setActiveId(null); setShowAnswer(false); }} className={cx("whitespace-nowrap border-b-2 px-3 py-3 text-sm font-semibold", tab === item ? "border-blue-600 text-blue-700" : "border-transparent text-slate-500 hover:text-slate-950")}>{item}</button>)}
+            {tabFilters.map((item) => <button key={item} onClick={() => { setTab(item); setActiveId(null); setShowAnswer(false); setStudentAnswer(""); }} className={cx("whitespace-nowrap border-b-2 px-3 py-3 text-sm font-semibold", tab === item ? "border-blue-600 text-blue-700" : "border-transparent text-slate-500 hover:text-slate-950")}>{item}</button>)}
           </div>
 
           {activeCard ? (
@@ -204,8 +206,24 @@ export default function FlashcardsPage() {
                     <Badge variant={activeCard.dificuldade === "Dificil" ? "error" : "neutral"}>{activeCard.dificuldade}</Badge>
                   </div>
                   <h2 className="mx-auto max-w-2xl text-xl font-black leading-snug text-slate-950 sm:text-2xl">{activeCard.pergunta}</h2>
-                  {!showAnswer ? <Button className="mt-8" onClick={() => setShowAnswer(true)}>Ver resposta</Button> : (
+                  {!showAnswer ? (
+                    <div className="mx-auto mt-8 grid max-w-2xl gap-3 text-left">
+                      <label className="text-sm font-bold text-slate-700" htmlFor="flashcard-answer">Sua resposta</label>
+                      <textarea
+                        id="flashcard-answer"
+                        className="min-h-28 w-full resize-none rounded-lg border border-blue-100 bg-slate-50 px-4 py-3 text-sm leading-relaxed text-slate-800 outline-none transition focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-100"
+                        placeholder="Responda com suas palavras antes de ver o gabarito."
+                        value={studentAnswer}
+                        onChange={(event) => setStudentAnswer(event.target.value)}
+                      />
+                      <Button className="justify-self-end" onClick={() => setShowAnswer(true)}>Responder</Button>
+                    </div>
+                  ) : (
                     <div className="mt-8 grid gap-4">
+                      <div className="rounded-lg border border-slate-200 bg-white p-4 text-left text-sm leading-relaxed text-slate-600">
+                        <strong className="block text-slate-950">Sua resposta</strong>
+                        {studentAnswer.trim() || "Resposta mental, sem texto digitado."}
+                      </div>
                       <div className="rounded-lg border border-blue-100 bg-slate-50 p-4 text-left text-sm leading-relaxed text-slate-700">
                         <strong className="block text-blue-700">Resposta</strong>
                         {activeCard.resposta}
@@ -221,7 +239,7 @@ export default function FlashcardsPage() {
 
               <section className="max-h-[540px] space-y-3 overflow-y-auto pr-1">
                 {visibleCards.map((card) => (
-                  <button key={card.id} onClick={() => { setActiveId(card.id); setShowAnswer(false); }} className={cx("w-full rounded-lg border p-3 text-left transition", activeCard.id === card.id ? "border-blue-500 bg-blue-600 text-white shadow-sm" : "border-blue-100 bg-white text-slate-700 hover:border-blue-300 hover:bg-blue-50")}>
+                  <button key={card.id} onClick={() => { setActiveId(card.id); setShowAnswer(false); setStudentAnswer(""); }} className={cx("w-full rounded-lg border p-3 text-left transition", activeCard.id === card.id ? "border-blue-500 bg-blue-600 text-white shadow-sm" : "border-blue-100 bg-white text-slate-700 hover:border-blue-300 hover:bg-blue-50")}>
                     <div className="flex items-center justify-between gap-2"><strong className="line-clamp-1 text-sm">{card.pergunta}</strong><Bookmark size={15} className={card.favorito ? "fill-current" : ""} /></div>
                     <p className="mt-1 text-xs opacity-75">{card.materia} - {card.status}</p>
                   </button>
