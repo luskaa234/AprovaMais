@@ -18,14 +18,7 @@ export const redacaoService = {
     }
     const fallback = { nota: Math.min(940, 720 + texto.length), competencias: [168, 176, 164, 172, 180], comentarios: "Tese clara, repertorio pertinente e proposta consistente." };
     try {
-      const prompt = `Voce e um corretor de redacoes para concursos publicos. Avalie a redacao abaixo sobre o tema "${tema}".
-
-TEXTO:
-${texto}
-
-Retorne apenas JSON valido no formato:
-{"nota":750,"competencias":[150,150,150,150,150],"comentarios":"feedback objetivo"}`;
-      const response = await aiService.gerarTexto(prompt);
+      const response = await aiService.corrigirRedacao(tema, texto, "concurso");
       const parsed = JSON.parse(response.replace(/```json|```/g, "").trim());
       return {
         nota: parsed.nota ?? fallback.nota,

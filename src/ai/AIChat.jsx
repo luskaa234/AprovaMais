@@ -2,6 +2,7 @@ import { memo, useCallback, useEffect, useRef, useState } from "react";
 import { BookOpenCheck, Send } from "lucide-react";
 import { Button, Input } from "../components";
 import { useAI } from "../hooks";
+import { aiService } from "../services";
 
 const AssistantCharacter = memo(({ small = false }) => (
   <div className={small ? "grid size-9 shrink-0 place-items-center rounded-lg bg-blue-50" : "grid place-items-center"}>
@@ -20,9 +21,9 @@ const AssistantCharacter = memo(({ small = false }) => (
 ));
 AssistantCharacter.displayName = "AssistantCharacter";
 
-export const AIChat = memo(() => {
+export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
   const [messages, setMessages] = useState([
-    { role: "ai", text: "Posso explicar questões, organizar revisões e montar planos de estudo." },
+    { role: "ai", text: "Posso explicar questoes, organizar revisoes e montar planos de estudo com base no seu desempenho real." },
   ]);
   const [input, setInput] = useState("");
   const endRef = useRef(null);
@@ -31,16 +32,33 @@ export const AIChat = memo(() => {
   const send = useCallback(
     (prompt = input) => {
       if (!prompt.trim()) return;
+      const historico = messages.map((message) => ({ role: message.role === "ai" ? "model" : "user", text: message.text }));
       setMessages((items) => [...items, { role: "user", text: prompt }]);
       setInput("");
-      sendPrompt(prompt, (text) => setMessages((items) => [...items, { role: "ai", text }]));
+      sendPrompt(prompt, (text) => setMessages((items) => [...items, { role: "ai", text }]), { perfil, desempenho, historico });
     },
-    [input, sendPrompt]
+    [desempenho, input, messages, perfil, sendPrompt]
   );
+
+  const gerarRelatorio = useCallback(async () => {
+    const prompt = "Gerar meu relatorio de desempenho";
+    setMessages((items) => [...items, { role: "user", text: prompt }]);
+    setInput("");
+    const resposta = await aiService.gerarRelatorio(perfil, desempenho);
+    setMessages((items) => [...items, { role: "ai", text: resposta }]);
+  }, [desempenho, perfil]);
 
   useEffect(() => {
     endRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, streamText]);
+
+  const quickPrompts = [
+    "Montar plano de estudos",
+    "Quais minhas materias mais fracas?",
+    "Estrategia para reta final",
+    "Explicar ultima questao errada",
+    "Organizar plano de TAF",
+  ];
 
   return (
     <div className="flex h-full flex-col">
@@ -49,21 +67,15 @@ export const AIChat = memo(() => {
         <div>
           <p className="text-xs font-black uppercase tracking-wide text-blue-700">Aprova Assistente</p>
           <h2 className="text-xl font-black">Seu tutor de revisao e questoes</h2>
-          <p className="text-sm text-slate-600">Peça explicacoes, planos curtos, mapas mentais ou revisoes por assunto.</p>
+          <p className="text-sm text-slate-600">Peca explicacoes, planos curtos, revisoes por assunto ou analise do seu desempenho.</p>
         </div>
       </div>
+
       <div className="flex-1 overflow-auto rounded-lg border border-gray-800 bg-gray-950 p-4">
         {messages.map((message, index) => (
-          <div
-            key={`${message.role}-${index}`}
-            className={`mb-3 flex gap-2 ${message.role === "user" ? "justify-end" : "justify-start"}`}
-          >
+          <div key={`${message.role}-${index}`} className={`mb-3 flex gap-2 ${message.role === "user" ? "justify-end" : "justify-start"}`}>
             {message.role === "ai" ? <AssistantCharacter small /> : null}
-            <div
-              className={`max-w-[82%] rounded-lg p-3 text-sm ${
-                message.role === "user" ? "bg-blue-600 text-white" : "bg-gray-900 text-gray-200"
-              }`}
-            >
+            <div className={`max-w-[82%] whitespace-pre-wrap rounded-lg p-3 text-sm ${message.role === "user" ? "bg-blue-600 text-white" : "bg-gray-900 text-gray-200"}`}>
               {message.text}
             </div>
           </div>
@@ -71,7 +83,7 @@ export const AIChat = memo(() => {
         {isStreaming ? (
           <div className="flex items-center gap-2 text-sm text-gray-400">
             <AssistantCharacter small />
-            <div className="max-w-[82%] rounded-lg bg-gray-900 p-3 text-sm text-gray-200">
+            <div className="max-w-[82%] whitespace-pre-wrap rounded-lg bg-gray-900 p-3 text-sm text-gray-200">
               {streamText || (
                 <span className="inline-flex items-center gap-2 text-gray-400">
                   <span className="flex gap-1">
@@ -90,14 +102,7 @@ export const AIChat = memo(() => {
       </div>
 
       <div className="mt-3 flex flex-wrap gap-2">
-        {[
-          "Explique essa questão",
-          "Criar revisão de Constitucional",
-          "Montar mapa mental de Português",
-          "Organizar plano de estudos",
-          "Corrigir minha redação",
-          "Montar meu plano de TAF",
-        ].map((chip) => (
+        {quickPrompts.map((chip) => (
           <button
             key={chip}
             onClick={() => send(chip)}
@@ -107,6 +112,13 @@ export const AIChat = memo(() => {
             {chip}
           </button>
         ))}
+        <button
+          onClick={gerarRelatorio}
+          className="rounded-full bg-blue-600 px-3 py-2 text-xs font-semibold text-white hover:bg-blue-700"
+          type="button"
+        >
+          Gerar meu relatorio de desempenho
+        </button>
       </div>
 
       <div className="mt-3 flex gap-2">

@@ -6,14 +6,14 @@ export function useAI() {
   const [isStreaming, setIsStreaming] = useState(false);
   const cancelRef = useRef(null);
 
-  const sendPrompt = useCallback((prompt, onDone) => {
+  const sendPrompt = useCallback((prompt, onDone, options = {}) => {
     cancelRef.current?.();
     setStreamText("");
     setIsStreaming(true);
     cancelRef.current = aiService.stream(prompt, setStreamText, (finalText) => {
       setIsStreaming(false);
       onDone?.(finalText);
-    });
+    }, options.perfil, options.desempenho, options.historico);
   }, []);
 
   return { streamText, isStreaming, sendPrompt };

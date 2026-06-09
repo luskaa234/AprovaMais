@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
-import { BookOpen, CalendarCheck, ChevronRight, Clock, ClipboardList, Dumbbell, Flame, MessageCircleQuestion, Play, Target, Zap } from "lucide-react";
+import { BookOpen, CalendarCheck, ChevronRight, Clock, ClipboardList, Dumbbell, FileText, Flame, MessageCircleQuestion, Play, Target, X, Zap } from "lucide-react";
 import { AIPanel } from "../../ai";
 import { Badge, Button, Card, ProgressBar, cx } from "../../components";
 import { HeatmapCalendar, PerformanceChart, StudyTimeChart } from "../../charts";
 import { useInternalRouter, useUser } from "../../contexts";
 import { isSupabaseConfigured, supabase } from "../../lib/supabase";
+import { aiService } from "../../services";
 import { usePlanoStore, useQuestoesStore, useRankingStore, useRevisaoStore } from "../../stores";
 
 const KpiCard = ({ label, value, icon: Icon }) => (
@@ -121,10 +122,13 @@ export default function DashboardPage() {
   const { user } = useUser();
   const { navigate } = useInternalRouter();
   const tentativas = useQuestoesStore((state) => state.tentativas);
+  const questoes = useQuestoesStore((state) => state.questoes);
   const rankingLocal = useRankingStore((state) => state.ranking);
   const revisoesLocal = useRevisaoStore((state) => state.pendentesHoje);
   const progressoPorDisciplina = usePlanoStore((state) => state.progressoPorDisciplina);
   const [remote, setRemote] = useState({ profile: null, ranking: null, revisoes: null, performance: null });
+  const [relatorio, setRelatorio] = useState(null);
+  const [gerandoRelatorio, setGerandoRelatorio] = useState(false);
 
   const localPerformance = useMemo(() => {
     const labels = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sab"];
@@ -187,6 +191,40 @@ export default function DashboardPage() {
   const questoesResolvidas = tentativas.length;
   const acertos = tentativas.filter((item) => item.acertou).length;
   const taxaAcertos = questoesResolvidas ? Math.round((acertos / questoesResolvidas) * 100) : 0;
+  const desempenhoIA = useMemo(() => {
+    const porMateria = tentativas.reduce((acc, tentativa) => {
+      const questao = questoes.find((item) => item.id === tentativa.questaoId);
+      const materia = questao?.materia || "Nao informada";
+      acc[materia] ||= { acertos: 0, total: 0, erros: 0 };
+      acc[materia].total += 1;
+      if (tentativa.acertou) acc[materia].acertos += 1;
+      else acc[materia].erros += 1;
+      return acc;
+    }, {});
+    const materiasFracas = Object.entries(porMateria)
+      .sort((a, b) => b[1].erros - a[1].erros || a[1].acertos / Math.max(a[1].total, 1) - b[1].acertos / Math.max(b[1].total, 1))
+      .slice(0, 4)
+      .map(([materia]) => materia);
+
+    return {
+      questoesResolvidas,
+      taxaAcertos: questoesResolvidas ? taxaAcertos : stats.taxa_acertos ?? user.stats.accuracy,
+      sequenciaDias: stats.sequencia_dias ?? user.stats.streak,
+      porMateria,
+      materiasFracas,
+    };
+  }, [questoes, questoesResolvidas, stats.sequencia_dias, stats.taxa_acertos, taxaAcertos, tentativas, user.stats.accuracy, user.stats.streak]);
+
+  const handleRelatorio = async () => {
+    setGerandoRelatorio(true);
+    try {
+      const texto = await aiService.gerarRelatorio(user, desempenhoIA, "geral");
+      setRelatorio(texto);
+    } finally {
+      setGerandoRelatorio(false);
+    }
+  };
+
   const kpis = [
     ["Horas estudadas", stats.horas_estudadas ?? user.stats.hours, Clock],
     ["Questoes resolvidas", questoesResolvidas || stats.questoes_resolvidas || user.stats.questions, ClipboardList],
@@ -205,10 +243,32 @@ export default function DashboardPage() {
           <h1 className="text-3xl font-black text-white">Dashboard</h1>
           <p className="text-sm text-gray-400">Panorama operacional do seu ciclo de estudos.</p>
         </div>
-        <Button icon={MessageCircleQuestion} onClick={() => navigate("ia")}>
-          Abrir assistente
-        </Button>
+        <div className="flex flex-wrap gap-2">
+          <Button icon={FileText} loading={gerandoRelatorio} onClick={handleRelatorio}>
+            Gerar relatorio IA
+          </Button>
+          <Button icon={MessageCircleQuestion} onClick={() => navigate("ia")}>
+            Abrir assistente
+          </Button>
+        </div>
       </div>
+
+      {relatorio ? (
+        <Card className="mb-4" hover={false}>
+          <div className="mb-3 flex items-start justify-between gap-3">
+            <div>
+              <h2 className="font-bold text-white">Relatorio de desempenho IA</h2>
+              <p className="text-sm text-gray-400">Gerado pelo tutor com base nas suas tentativas e estatisticas atuais.</p>
+            </div>
+            <button className="rounded-lg p-2 text-gray-400 hover:bg-gray-900 hover:text-white" onClick={() => setRelatorio(null)} type="button" aria-label="Fechar relatorio">
+              <X size={18} />
+            </button>
+          </div>
+          <div className="max-h-[520px] overflow-auto whitespace-pre-wrap rounded-lg border border-gray-800 bg-gray-950 p-4 text-sm leading-relaxed text-gray-200">
+            {relatorio}
+          </div>
+        </Card>
+      ) : null}
 
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-5">
         {kpis.map(([label, value, icon]) => (
