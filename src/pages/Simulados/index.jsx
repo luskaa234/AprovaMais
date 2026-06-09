@@ -82,7 +82,7 @@ function SimuladoExecucao({ simulado, onFinish }) {
               onClick={() => answer(option.id)}
               className={cx(
                 "rounded-lg border p-3 text-left text-sm transition",
-                answers[question.id] === option.id ? "border-indigo-500 bg-indigo-500/10 text-indigo-100" : "border-gray-800 bg-gray-900 text-gray-300 hover:border-indigo-400",
+                answers[question.id] === option.id ? "border-blue-600 bg-blue-600 text-white shadow-sm" : "border-gray-800 bg-gray-900 text-gray-300 hover:border-blue-400 hover:bg-blue-600/10",
               )}
             >
               <span className="font-bold">{option.letra}.</span> {option.texto}

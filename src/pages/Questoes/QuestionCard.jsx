@@ -63,8 +63,8 @@ export const QuestionCard = memo(({ questao, index = 0, onAnswer, onSave, onAddC
                   "group flex min-h-12 items-start gap-3 rounded-lg border p-3 text-left text-sm transition",
                   !confirmed && selectedThis && "border-blue-600 bg-blue-600 text-white shadow-sm shadow-blue-950/20",
                   !confirmed && !selectedThis && "border-gray-800 bg-gray-900 text-gray-300 hover:border-blue-400 hover:bg-blue-600/10",
-                  correctThis && "border-emerald-500 bg-emerald-500/10 text-emerald-100",
-                  wrongThis && "border-red-500 bg-red-500/10 text-red-100",
+                  correctThis && "border-emerald-500 bg-emerald-50 text-slate-950",
+                  wrongThis && "border-red-500 bg-red-50 text-slate-950",
                   confirmed && !correctThis && !wrongThis && "border-gray-800 bg-gray-900 text-gray-400"
                 )}
               >
@@ -88,14 +88,14 @@ export const QuestionCard = memo(({ questao, index = 0, onAnswer, onSave, onAddC
 
         {confirmed ? (
           <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="mt-5 grid gap-3">
-            <div className={cx("rounded-lg border p-4", isCorrect ? "border-emerald-500/40 bg-emerald-500/10" : "border-red-500/40 bg-red-500/10")}>
-              <p className="flex items-center gap-2 font-bold text-white">
+            <div className={cx("rounded-lg border p-4", isCorrect ? "border-emerald-300 bg-emerald-50" : "border-red-300 bg-red-50")}>
+              <p className="flex items-center gap-2 font-bold text-slate-950">
                 {isCorrect ? <CheckCircle2 className="text-emerald-300" /> : <XCircle className="text-red-300" />}
                 {isCorrect ? "Correto" : "Incorreto"} - Gabarito {String(questao.gabarito).toUpperCase()}
               </p>
-              <p className="mt-2 whitespace-pre-wrap text-sm leading-relaxed text-gray-300">{questao.comentario || "Comentario ainda nao disponivel."}</p>
+              <p className="mt-2 whitespace-pre-wrap text-sm leading-relaxed text-slate-700">{questao.comentario || "Comentario ainda nao disponivel."}</p>
             </div>
-            <div className="rounded-lg border-l-4 border-indigo-500 bg-indigo-500/10 p-4 text-sm text-indigo-100">
+            <div className="rounded-lg border-l-4 border-blue-500 bg-blue-50 p-4 text-sm text-slate-700">
               <p className="flex items-center gap-2 font-bold"><Lightbulb size={17} />Analise da IA</p>
               <p className="mt-1 leading-relaxed">Revise {questao.assunto || questao.materia}, compare o comando da banca com o gabarito e refaca mais 5 questoes do mesmo tema antes de avancar.</p>
             </div>

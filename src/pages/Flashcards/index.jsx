@@ -5,12 +5,10 @@ import { Button, Card, Input, Select } from "../../components";
 import { Modal } from "../../modals";
 import { useAsyncData } from "../../hooks";
 import { flashcardsService } from "../../services";
-import { DeckCard } from "./DeckCard";
 
 export default function FlashcardsPage() {
   const load = useCallback(() => flashcardsService.getDecks(), []);
   const { data: decks, setData, refetch } = useAsyncData(load);
-  const [deck, setDeck] = useState(null);
   const [flipped, setFlipped] = useState(false);
   const [modal, setModal] = useState(false);
   const [cardIndex, setCardIndex] = useState(0);
@@ -32,7 +30,7 @@ export default function FlashcardsPage() {
     if (filters.status && item.status !== filters.status) return false;
     return true;
   }), [decoratedDecks, filters]);
-  const activeDeck = filteredDecks.find((item) => item.id === deck?.id) || filteredDecks[0];
+  const activeDeck = filteredDecks[0];
   const currentCard = activeDeck?.cards[cardIndex % (activeDeck?.cards.length || 1)];
 
   const generate = useCallback(async () => {
@@ -57,7 +55,7 @@ export default function FlashcardsPage() {
         </div>
         <Button icon={Sparkles} onClick={() => setModal(true)}>Gerar deck</Button>
       </div>
-      <div className="grid gap-4 xl:grid-cols-[420px_1fr]">
+      <div className="grid gap-4 xl:grid-cols-[360px_1fr]">
         <div className="space-y-3">
           <Card hover={false}>
             <div className="mb-3 flex items-center gap-2 text-sm font-bold text-white"><Filter size={16} /> Filtros</div>
@@ -69,9 +67,6 @@ export default function FlashcardsPage() {
               <Select label="Status" placeholder="Todos" options={["Novo", "Revisando", "Dominado"]} value={filters.status} onChange={(event) => setFilters((current) => ({ ...current, status: event.target.value }))} />
             </div>
           </Card>
-          <div className="max-h-[52vh] space-y-3 overflow-auto pr-1">
-            {filteredDecks.map((item) => <DeckCard key={item.id} deck={item} active={activeDeck?.id === item.id} onSelect={(next) => { setDeck(next); setCardIndex(0); setFlipped(false); }} />)}
-          </div>
         </div>
         <Card hover={false} className="grid min-h-[68vh] place-items-center">
           <p className="mb-3 text-sm font-semibold text-gray-400">{activeDeck?.materia || "Selecione um deck"}</p>
