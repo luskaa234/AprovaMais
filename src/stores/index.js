@@ -1,0 +1,372 @@
+import { create } from "zustand";
+import { persist } from "zustand/middleware";
+import { mockBiblioteca, mockDicasTAF, mockEditaisTAF, mockMapas, mockPlanoTAF } from "../data";
+import { applySm2 } from "../utils";
+
+const today = () => new Date().toISOString().slice(0, 10);
+const uid = (prefix) => `${prefix}-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`;
+
+const materias = ["Direito Constitucional", "Portugues", "Informatica", "Raciocinio Logico", "Administrativo"];
+
+const makeAlt = (items, gabarito) =>
+  items.map((texto, index) => {
+    const id = String.fromCharCode(97 + index);
+    return { id, letra: id.toUpperCase(), texto, correta: id === gabarito.toLowerCase() };
+  });
+
+export const questoesSeed = [
+  ["q001", "Direito Constitucional", "De acordo com a CF/88, a Republica Federativa do Brasil constitui-se em Estado Democratico de Direito e tem como fundamento:", ["soberania", "censura previa", "voto indireto obrigatório", "unicidade sindical estatal", "intervencao permanente"], "a", "A soberania e fundamento expresso no art. 1o da CF/88."],
+  ["q002", "Direito Constitucional", "Nos termos do art. 2o da CF/88, sao Poderes da Uniao, independentes e harmonicos entre si:", ["Legislativo, Executivo e Judiciario", "Ministerio Publico, Defensoria e Tribunais", "Uniao, Estados e Municipios", "Camara, Senado e TCU", "Policia, Receita e Forcas Armadas"], "a", "O art. 2o lista Legislativo, Executivo e Judiciario."],
+  ["q003", "Direito Constitucional", "Constitui objetivo fundamental da Republica Federativa do Brasil:", ["erradicar a pobreza e a marginalizacao", "restringir direitos sociais", "abolir a separacao dos Poderes", "subordinar municipios aos estados", "impedir cooperacao internacional"], "a", "O art. 3o inclui erradicar pobreza e marginalizacao."],
+  ["q004", "Direito Constitucional", "Nas relacoes internacionais, o Brasil rege-se pelo principio da:", ["prevalencia dos direitos humanos", "guerra de conquista", "colonizacao economica", "censura diplomatica", "dependencia nacional"], "a", "A prevalencia dos direitos humanos esta no art. 4o da CF/88."],
+  ["q005", "Direito Constitucional", "Segundo o art. 5o da CF/88, todos sao iguais perante a lei, garantindo-se aos brasileiros e estrangeiros residentes no Pais a inviolabilidade do direito:", ["a vida, liberdade, igualdade, seguranca e propriedade", "apenas a propriedade privada", "somente a liberdade economica", "exclusivamente ao voto", "apenas ao trabalho"], "a", "O caput do art. 5o traz esses direitos."],
+  ["q006", "Direito Constitucional", "O art. 6o da CF/88 classifica como direito social:", ["educacao", "extradicao", "estado de sitio", "foro privilegiado", "intervencao federal"], "a", "Educacao e direito social expresso no art. 6o."],
+  ["q007", "Direito Constitucional", "E direito dos trabalhadores urbanos e rurais previsto no art. 7o:", ["decimo terceiro salario", "prisao administrativa", "censura sindical", "voto censitario", "confisco sem processo"], "a", "O 13o salario esta no art. 7o, VIII."],
+  ["q008", "Direito Constitucional", "A administracao publica direta e indireta obedecera, entre outros, ao principio da:", ["legalidade", "hereditariedade", "sigilo absoluto", "pessoalidade", "irrecorribilidade"], "a", "O art. 37 caput traz legalidade, impessoalidade, moralidade, publicidade e eficiencia."],
+  ["q009", "Portugues", "Assinale a alternativa em que ha concordancia verbal adequada.", ["Faz dois anos que estudo.", "Fazem dois anos que estudo.", "Houveram muitas duvidas.", "Existe muitas regras.", "Chegou os alunos."], "a", "O verbo fazer indicando tempo decorrido e impessoal."],
+  ["q010", "Portugues", "Em 'Os candidatos estudaram muito; portanto, foram aprovados', o conectivo indica:", ["conclusao", "oposicao", "causa", "alternancia", "explicacao"], "a", "Portanto introduz conclusao."],
+  ["q011", "Portugues", "A crase esta corretamente empregada em:", ["Entreguei o recurso a banca.", "Fui a Sao Paulo.", "Refiro-me a prova de ontem.", "Cheguei a uma conclusao.", "Obedeci a edital."], "c", "Refiro-me a prova admite a preposicao a mais artigo a."],
+  ["q012", "Portugues", "A palavra 'rapidamente' exerce funcao de:", ["adverbio", "substantivo", "adjetivo", "preposicao", "conjuncao"], "a", "Termos terminados em -mente geralmente modificam verbo, adjetivo ou adverbio."],
+  ["q013", "Portugues", "Em texto dissertativo, a tese corresponde:", ["ao ponto de vista defendido", "a citacao obrigatoria", "ao titulo", "a conclusao estatistica", "ao rodape"], "a", "Tese e a ideia central defendida."],
+  ["q014", "Portugues", "A forma correta e:", ["para eu estudar", "para mim estudar", "entre eu e voce", "haviam provas", "menas questoes"], "a", "Eu e sujeito do verbo estudar."],
+  ["q015", "Informatica", "No Microsoft Excel, a formula =SOMA(A1:A5) serve para:", ["somar os valores do intervalo", "contar apenas textos", "proteger a planilha", "abrir hyperlink", "formatar data"], "a", "SOMA agrega valores numericos do intervalo."],
+  ["q016", "Informatica", "Phishing e uma tecnica usada para:", ["obter dados por fraude", "compactar arquivos", "formatar disco", "criar planilhas", "corrigir acentos"], "a", "Phishing tenta enganar a vitima para roubar credenciais/dados."],
+  ["q017", "Informatica", "No Word, o recurso de controle de alteracoes permite:", ["registrar edicoes feitas no documento", "criptografar o roteador", "executar macro automaticamente", "limpar historico do navegador", "trocar hardware"], "a", "Controle de alteracoes marca insercoes, exclusoes e comentarios."],
+  ["q018", "Informatica", "HTTPS indica, em regra:", ["comunicacao HTTP protegida por TLS", "site sem criptografia", "arquivo local", "rede offline", "protocolo de impressora"], "a", "HTTPS usa TLS para proteger a comunicacao."],
+  ["q019", "Informatica", "Backup incremental copia:", ["arquivos alterados desde o ultimo backup", "todos os arquivos sempre", "somente arquivos apagados", "apenas sistema operacional", "somente emails lidos"], "a", "O incremental considera mudancas desde o ultimo backup."],
+  ["q020", "Informatica", "Malware e:", ["software malicioso", "monitor de video", "tipo de planilha", "atalho do teclado", "navegador seguro"], "a", "Malware e categoria de software com finalidade maliciosa."],
+  ["q021", "Raciocinio Logico", "Se todo servidor e aprovado e Ana e servidora, conclui-se logicamente que:", ["Ana e aprovada", "Ana nao e aprovada", "nenhum servidor e aprovado", "aprovados nao estudam", "Ana e banca"], "a", "Aplicacao direta de silogismo categorico."],
+  ["q022", "Raciocinio Logico", "A negacao de 'todos estudam' e:", ["algum nao estuda", "todos nao estudam", "ninguem existe", "algum estuda", "estudar e impossivel"], "a", "Negar universal afirmativa gera existencia de contraexemplo."],
+  ["q023", "Raciocinio Logico", "Na sequencia 2, 4, 8, 16, o proximo termo e:", ["32", "20", "24", "30", "64"], "a", "A sequencia dobra a cada passo."],
+  ["q024", "Raciocinio Logico", "Se p -> q e p e verdadeiro, entao:", ["q e verdadeiro", "q e falso", "p e falso", "a proposicao e sempre falsa", "nada se conclui"], "a", "Modus ponens."],
+  ["q025", "Raciocinio Logico", "A proposicao 'p e q' e verdadeira quando:", ["p e q sao verdadeiras", "p e falsa", "q e falsa", "ambas sao falsas", "p ou q e falsa"], "a", "Conjuncao exige ambas verdadeiras."],
+  ["q026", "Administrativo", "Entre os principios expressos da administracao publica esta:", ["impessoalidade", "arbitrariedade", "sigilo como regra", "hereditariedade", "parcialidade"], "a", "Impessoalidade esta no art. 37 da CF/88."],
+  ["q027", "Administrativo", "A licitacao busca, em regra:", ["selecionar proposta vantajosa e assegurar isonomia", "escolher sempre o fornecedor conhecido", "dispensar publicidade", "eliminar competicao", "substituir contrato"], "a", "A licitacao protege isonomia e vantajosidade."],
+  ["q028", "Administrativo", "Poder hierarquico relaciona-se com:", ["ordenacao e controle interno da administracao", "punicao penal de particulares", "edicao de leis pelo Judiciario", "controle externo exclusivo", "competencia eleitoral"], "a", "Hierarquia envolve distribuicao, coordenacao e revisao interna."],
+  ["q029", "Administrativo", "Nos termos da Lei 8.112/90, cargo publico e:", ["conjunto de atribuicoes e responsabilidades previstas na estrutura organizacional", "qualquer emprego privado", "funcao sem criacao legal", "contrato verbal", "beneficio previdenciario"], "a", "Definicao alinhada ao art. 3o da Lei 8.112."],
+  ["q030", "Administrativo", "A anulacao do ato administrativo ocorre quando ha:", ["ilegalidade", "mera inconveniencia", "perda de oportunidade apenas", "ato perfeito obrigatorio", "conveniencia politica exclusiva"], "a", "Ilegalidade leva a anulacao; conveniencia e oportunidade levam a revogacao."],
+].map(([id, materia, enunciado, alternativas, gabarito, comentario], index) => ({
+  id,
+  enunciado,
+  tipo: "multipla_escolha",
+  alternativas: makeAlt(alternativas, gabarito),
+  gabarito,
+  comentario,
+  banca: ["CEBRASPE", "FCC", "FGV", "VUNESP", "IBFC"][index % 5],
+  orgao: ["TRF", "INSS", "TJ-SP", "PRF", "Receita Federal"][index % 5],
+  cargo: ["Analista", "Tecnico", "Auditor", "Escrevente"][index % 4],
+  materia,
+  assunto: materia,
+  ano: 2021 + (index % 5),
+  dificuldade: ["facil", "media", "dificil"][index % 3],
+  tags: ["lei seca", "conceito", "prova"],
+  estatisticas: { tentativas: 800 + index * 17, acertos: 55 + (index % 30) },
+}));
+
+export const flashcardsSeed = ["Constitucional", "Portugues", "Informatica", "Raciocinio"].map((materia, deckIndex) => ({
+  id: `deck-${deckIndex + 1}`,
+  materia,
+  titulo: `Deck ${materia}`,
+  retencao: 65 + deckIndex * 7,
+  cards: Array.from({ length: 10 }, (_, index) => ({
+    id: `card-${deckIndex + 1}-${index + 1}`,
+    frente: `${materia}: ponto-chave ${index + 1}`,
+    verso: [
+      "Fundamentos da Republica: soberania, cidadania, dignidade, valores sociais e pluralismo.",
+      "Direitos sociais incluem educacao, saude, trabalho, moradia, transporte, lazer e seguranca.",
+      "HTTPS usa TLS para proteger dados em transito.",
+      "A negacao de todo A e B e existe A que nao e B.",
+    ][deckIndex],
+    easeFactor: 2.5,
+    interval: 1,
+    repetitions: 0,
+    dueAt: today(),
+  })),
+}));
+
+export const leisSeed = [
+  {
+    id: "cf88",
+    nome: "Constituicao Federal de 1988",
+    categoria: "Constitucional",
+    capitulos: [{ nome: "Arts. 1 a 10", artigos: Array.from({ length: 10 }, (_, i) => ({ id: `cf-${i + 1}`, numero: i + 1, texto: `Art. ${i + 1}. Texto de estudo da Constituicao Federal sobre principios, direitos fundamentais, nacionalidade, direitos politicos e garantias constitucionais, mantido para leitura, grifo e anotacao local.` })) }],
+  },
+  {
+    id: "cp",
+    nome: "Codigo Penal",
+    categoria: "Penal",
+    capitulos: [{ nome: "Arts. 1 a 12", artigos: Array.from({ length: 12 }, (_, i) => ({ id: `cp-${i + 1}`, numero: i + 1, texto: `Art. ${i + 1}. Texto de estudo do Codigo Penal sobre aplicacao da lei penal, anterioridade, territorialidade, tempo e lugar do crime.` })) }],
+  },
+  {
+    id: "cdc",
+    nome: "Codigo de Defesa do Consumidor",
+    categoria: "Consumidor",
+    capitulos: [{ nome: "Arts. 1 a 7", artigos: Array.from({ length: 7 }, (_, i) => ({ id: `cdc-${i + 1}`, numero: i + 1, texto: `Art. ${i + 1}. Texto de estudo do CDC sobre protecao do consumidor, politica nacional, direitos basicos e reparacao de danos.` })) }],
+  },
+  {
+    id: "lei8112",
+    nome: "Lei 8.112/1990",
+    categoria: "Administrativo",
+    capitulos: [{ nome: "Arts. 1 a 5", artigos: Array.from({ length: 5 }, (_, i) => ({ id: `l8112-${i + 1}`, numero: i + 1, texto: `Art. ${i + 1}. Texto de estudo da Lei 8.112 sobre regime juridico dos servidores publicos civis da Uniao, cargo, requisitos e provimento.` })) }],
+  },
+];
+
+const semanaSeed = {
+  segunda: [{ id: "seg-1", titulo: "Constitucional - direitos fundamentais", materia: "Constitucional", hora: "08:00", duracao: 60, done: false }],
+  terca: [{ id: "ter-1", titulo: "Portugues - interpretacao", materia: "Portugues", hora: "08:00", duracao: 60, done: false }],
+  quarta: [{ id: "qua-1", titulo: "Informatica - seguranca", materia: "Informatica", hora: "14:00", duracao: 60, done: false }],
+  quinta: [{ id: "qui-1", titulo: "Raciocinio - proposicoes", materia: "Raciocinio", hora: "19:00", duracao: 60, done: false }],
+  sexta: [{ id: "sex-1", titulo: "Administrativo - principios", materia: "Administrativo", hora: "08:00", duracao: 60, done: false }],
+  sabado: [{ id: "sab-1", titulo: "Simulado semanal", materia: "Geral", hora: "09:00", duracao: 120, done: false }],
+  domingo: [{ id: "dom-1", titulo: "Revisao leve", materia: "Geral", hora: "10:00", duracao: 45, done: false }],
+};
+
+const adaptPlano = (semana) =>
+  Object.entries(semana).map(([dia, tarefas]) => ({
+    dia: dia[0].toUpperCase() + dia.slice(1),
+    blocos: tarefas.map((tarefa) => ({ hora: tarefa.hora, materia: tarefa.materia, duracao: tarefa.duracao, id: tarefa.id })),
+    tarefas: tarefas.map((tarefa) => ({ id: tarefa.id, titulo: tarefa.titulo, minutos: tarefa.duracao, done: tarefa.done })),
+  }));
+
+export const useUserStore = create(
+  persist(
+    (set) => ({
+      user: { id: "u1", name: "Lucas Silva", email: "lucas@aprova.local", role: "admin", targetContest: "PRF", nivel: "intermediario", horasSemanais: 18, dataProva: "2026-10-23" },
+      stats: { horasEstudadas: 42, questoesResolvidas: 0, taxaAcertos: 0, sequenciaDias: 0, tafNota: 9 },
+      updateStats: (partial) => set((state) => ({ stats: { ...state.stats, ...partial } })),
+      updateUser: (partial) => set((state) => ({ user: { ...state.user, ...partial } })),
+    }),
+    { name: "aprova-user" }
+  )
+);
+
+export const useRankingStore = create(
+  persist(
+    (set) => ({
+      ranking: ["Lucas Silva", "Ana Paula", "Rafael Costa", "Bianca Nunes", "Carlos Lima", "Marina Alves", "Joao Pedro", "Fernanda Reis", "Bruno Rocha", "Julia Mendes"].map((nome, index) => ({ posicao: index + 1, nome, pontos: 1450 - index * 85 })),
+      pontos: 1450,
+      adicionarPontos: (qtd) =>
+        set((state) => {
+          const pontos = state.pontos + qtd;
+          const ranking = state.ranking.map((item) => (item.nome === "Lucas Silva" ? { ...item, pontos } : item)).sort((a, b) => b.pontos - a.pontos).map((item, index) => ({ ...item, posicao: index + 1 }));
+          return { pontos, ranking };
+        }),
+    }),
+    { name: "aprova-ranking" }
+  )
+);
+
+export const useQuestoesStore = create(
+  persist(
+    (set, get) => ({
+      questoes: questoesSeed,
+      tentativas: [],
+      salvas: [],
+      caderno: [],
+      responder: (questaoId, resposta, tempo = 0) => {
+        const questao = get().questoes.find((item) => item.id === questaoId);
+        const acertou = questao?.gabarito?.toLowerCase() === String(resposta).toLowerCase();
+        const tentativa = { questaoId, resposta, acertou, tempo, data: new Date().toISOString() };
+        set((state) => ({
+          tentativas: [tentativa, ...state.tentativas],
+          caderno: acertou || state.caderno.includes(questaoId) ? state.caderno : [questaoId, ...state.caderno],
+        }));
+        const tentativas = [tentativa, ...get().tentativas];
+        const resolvidas = tentativas.length;
+        const acertos = tentativas.filter((item) => item.acertou).length;
+        useUserStore.getState().updateStats({ questoesResolvidas: resolvidas, taxaAcertos: Math.round((acertos / resolvidas) * 100), sequenciaDias: new Set(tentativas.map((item) => item.data.slice(0, 10))).size });
+        useRankingStore.getState().adicionarPontos(acertou ? 10 : 2);
+        useRevisaoStore.getState().registrarQuestao(questao);
+        return { correta: acertou, gabarito: questao?.gabarito };
+      },
+      salvar: (questaoId) => set((state) => ({ salvas: state.salvas.includes(questaoId) ? state.salvas.filter((id) => id !== questaoId) : [questaoId, ...state.salvas] })),
+      addCaderno: (questaoId) => set((state) => ({ caderno: state.caderno.includes(questaoId) ? state.caderno : [questaoId, ...state.caderno] })),
+      removerCaderno: (questaoId) => set((state) => ({ caderno: state.caderno.filter((id) => id !== questaoId) })),
+    }),
+    { name: "aprova-questoes" }
+  )
+);
+
+export const useSimuladosStore = create(
+  persist(
+    (set, get) => ({
+      simulados: [],
+      ativo: null,
+      criar: (config = {}) => {
+        const questoes = useQuestoesStore.getState().questoes.slice(0, Number(config.quantidade || 12));
+        const ativo = { id: uid("sim"), nome: config.nome || "Simulado personalizado", questoes, respostas: {}, tempoMinutos: Number(config.tempoMinutos || 180), tipo: config.tipo || "personalizado", startedAt: Date.now(), mediaTurma: 72 };
+        set({ ativo });
+        return ativo;
+      },
+      responder: (questaoId, resposta) => set((state) => ({ ativo: { ...state.ativo, respostas: { ...(state.ativo?.respostas || {}), [questaoId]: resposta } } })),
+      finalizar: () => {
+        const ativo = get().ativo;
+        if (!ativo) return null;
+        const correct = ativo.questoes.filter((q) => String(ativo.respostas[q.id]).toLowerCase() === q.gabarito).length;
+        const resultado = { ...ativo, data: today(), correct, total: ativo.questoes.length, percent: Math.round((correct / ativo.questoes.length) * 100) };
+        set((state) => ({ simulados: [resultado, ...state.simulados], ativo: null }));
+        useRankingStore.getState().adicionarPontos(resultado.percent);
+        return resultado;
+      },
+    }),
+    { name: "aprova-simulados" }
+  )
+);
+
+export const useFlashcardsStore = create(
+  persist(
+    (set) => ({
+      decks: flashcardsSeed,
+      sessoes: [],
+      avaliar: (cardId, qualidade) => {
+        let updated;
+        set((state) => ({
+          decks: state.decks.map((deck) => ({ ...deck, cards: deck.cards.map((card) => {
+            if (card.id !== cardId) return card;
+            updated = applySm2(card, qualidade);
+            return updated;
+          }) })),
+          sessoes: [{ id: uid("sessao"), cardId, qualidade, data: new Date().toISOString() }, ...state.sessoes],
+        }));
+        return updated;
+      },
+      criarDeck: (titulo, materia) => set((state) => ({ decks: [{ id: uid("deck"), titulo, materia, retencao: 0, cards: [] }, ...state.decks] })),
+      criarCard: (deckId, frente, verso) => set((state) => ({ decks: state.decks.map((deck) => deck.id === deckId ? { ...deck, cards: [...deck.cards, { id: uid("card"), frente, verso, easeFactor: 2.5, interval: 1, repetitions: 0, dueAt: today() }] } : deck) })),
+      gerarDeckIA: (prompt) => {
+        const deck = { id: uid("deck-ia"), titulo: `Deck IA: ${prompt || "Novo tema"}`, materia: prompt || "Geral", retencao: 50, cards: flashcardsSeed[0].cards.map((card, index) => ({ ...card, id: uid(`ia-card-${index}`) })) };
+        set((state) => ({ decks: [deck, ...state.decks] }));
+        return deck;
+      },
+    }),
+    { name: "aprova-flashcards" }
+  )
+);
+
+export const usePlanoStore = create(
+  persist(
+    (set, get) => ({
+      semana: semanaSeed,
+      tarefasHoje: [],
+      progressoPorDisciplina: { Constitucional: 52, Portugues: 62, Informatica: 48, Raciocinio: 58, Administrativo: 44 },
+      getPlano: () => adaptPlano(get().semana),
+      concluir: (tarefaId) => set((state) => ({ semana: Object.fromEntries(Object.entries(state.semana).map(([dia, tarefas]) => [dia, tarefas.map((tarefa) => tarefa.id === tarefaId ? { ...tarefa, done: !tarefa.done } : tarefa)])) })),
+      reagendar: (tarefaId, novoDia) => set((state) => {
+        let moved;
+        const semana = Object.fromEntries(Object.entries(state.semana).map(([dia, tarefas]) => [dia, tarefas.filter((tarefa) => {
+          if (tarefa.id === tarefaId) {
+            moved = tarefa;
+            return false;
+          }
+          return true;
+        })]));
+        if (moved && semana[novoDia]) semana[novoDia] = [...semana[novoDia], moved];
+        return { semana };
+      }),
+    }),
+    { name: "aprova-plano" }
+  )
+);
+
+export const useRevisaoStore = create(
+  persist(
+    (set, get) => ({
+      revisoes: materias.map((materia, index) => ({ assuntoId: `rev-${index}`, assunto: materia, frente: materia, materia, proximaRevisao: today(), intervalo: 1, nivel: 0, urgencia: "hoje", easeFactor: 2.5, repetitions: 0 })),
+      get pendentesHoje() {
+        return get().revisoes.filter((item) => item.proximaRevisao <= today());
+      },
+      registrarQuestao: (questao) => {
+        if (!questao) return;
+        set((state) => state.revisoes.some((item) => item.assuntoId === questao.materia) ? state : { revisoes: [{ assuntoId: questao.materia, assunto: questao.assunto, frente: questao.assunto, materia: questao.materia, proximaRevisao: today(), intervalo: 1, nivel: 0, urgencia: "hoje", easeFactor: 2.5, repetitions: 0 }, ...state.revisoes] });
+      },
+      concluir: (assuntoId, qualidade = 4) => set((state) => ({ revisoes: state.revisoes.map((item) => {
+        if (item.assuntoId !== assuntoId) return item;
+        const next = applySm2({ ...item, interval: item.intervalo || 1, repetitions: item.repetitions || 0, easeFactor: item.easeFactor || 2.5 }, qualidade);
+        return { ...item, intervalo: next.interval, proximaRevisao: next.dueAt, nivel: qualidade, easeFactor: next.easeFactor, repetitions: next.repetitions, urgencia: "agendada" };
+      }) })),
+      adiar: (assuntoId) => set((state) => ({ revisoes: state.revisoes.map((item) => item.assuntoId === assuntoId ? { ...item, proximaRevisao: new Date(Date.now() + 86400000).toISOString().slice(0, 10), urgencia: "amanha" } : item) })),
+    }),
+    { name: "aprova-revisao" }
+  )
+);
+
+export const useTafStore = create(
+  persist(
+    (set, get) => ({
+      historico: [
+        { id: "t1", data: "2026-02-10", concurso: "PMSP", corrida: 1850, flexao: 18, abdominal: 28, barra: 2, nota: 4.8, situacao: "Reprovado" },
+        { id: "t2", data: "2026-06-01", concurso: "PMSP", corrida: 2650, flexao: 35, abdominal: 45, barra: 8, nota: 9, situacao: "Aprovado" },
+      ],
+      treinos: [],
+      metas: { corrida: 2400, flexao: 30, abdominal: 40, barra: 8 },
+      atual: { corrida: 2650, flexao: 35, abdominal: 45, barra: 8 },
+      exerciciosHoje: [],
+      editais: mockEditaisTAF,
+      plano: mockPlanoTAF,
+      dicas: mockDicasTAF,
+      registrarTreino: (tipo, valor) => set((state) => ({ treinos: [{ id: uid("treino"), tipo, valor: Number(valor), data: new Date().toISOString() }, ...state.treinos], atual: { ...state.atual, [tipo]: Number(valor) } })),
+      registrarTeste: (resultados) => {
+        const metas = get().metas;
+        const nota = Math.round((Object.entries(metas).reduce((sum, [tipo, meta]) => sum + Math.min(10, (Number(resultados[tipo] || 0) / meta) * 10), 0) / Object.keys(metas).length) * 10) / 10;
+        const teste = { id: uid("taf"), data: today(), concurso: "Local", ...resultados, nota, situacao: nota >= 7 ? "Aprovado" : "Reprovado" };
+        set((state) => ({ historico: [...state.historico, teste] }));
+        useUserStore.getState().updateStats({ tafNota: nota });
+        return nota;
+      },
+      setExerciciosHoje: (exerciciosHoje) => set({ exerciciosHoje }),
+    }),
+    { name: "aprova-taf" }
+  )
+);
+
+export const useRedacaoStore = create(
+  persist(
+    (set) => ({
+      redacoes: [],
+      temas: ["Seguranca publica e cidadania", "Tecnologia no servico publico", "Educacao e desigualdade social"],
+      salvar: (tema, texto) => set((state) => ({ redacoes: [{ id: uid("redacao"), tema, texto, data: new Date().toISOString(), nota: null }, ...state.redacoes] })),
+      avaliar: (redacaoId) => {
+        const nota = 720 + Math.floor(Math.random() * 180);
+        set((state) => ({ redacoes: state.redacoes.map((item) => item.id === redacaoId ? { ...item, nota, feedback: "Boa estrutura, repertorio pertinente e conclusao com proposta clara." } : item) }));
+        return nota;
+      },
+    }),
+    { name: "aprova-redacao" }
+  )
+);
+
+export const useLeisStore = create(
+  persist(
+    (set) => ({
+      leis: leisSeed,
+      grifos: {},
+      favoritos: [],
+      notas: {},
+      grifarArtigo: (artigoId, cor = "yellow") => set((state) => ({ grifos: { ...state.grifos, [artigoId]: cor } })),
+      toggleFavorito: (artigoId) => set((state) => ({ favoritos: state.favoritos.includes(artigoId) ? state.favoritos.filter((id) => id !== artigoId) : [artigoId, ...state.favoritos] })),
+      salvarNota: (artigoId, nota) => set((state) => ({ notas: { ...state.notas, [artigoId]: nota } })),
+    }),
+    { name: "aprova-leis" }
+  )
+);
+
+export const useNotificacoesStore = create(
+  persist(
+    (set, get) => ({
+      notificacoes: [{ id: "n1", title: "Revisao pendente", message: "Constitucional vence hoje.", read: false, type: "info" }],
+      get naoLidas() {
+        return get().notificacoes.filter((item) => !item.read).length;
+      },
+      marcarLida: (id) => set((state) => ({ notificacoes: state.notificacoes.map((item) => item.id === id ? { ...item, read: true } : item) })),
+      adicionar: (notif) => set((state) => ({ notificacoes: [{ id: uid("notif"), read: false, type: "info", ...notif }, ...state.notificacoes] })),
+      limpar: () => set({ notificacoes: [] }),
+    }),
+    { name: "aprova-notificacoes" }
+  )
+);
+
+export const useMiscStore = create(
+  persist(
+    () => ({ mapas: mockMapas, biblioteca: mockBiblioteca }),
+    { name: "aprova-misc" }
+  )
+);

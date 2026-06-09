@@ -1,5 +1,4 @@
-import { mockFlashcards } from "../data";
-import { applySm2 } from "../utils";
+import { useRevisaoStore } from "../stores";
 
 /**
  * Future REST contract:
@@ -8,9 +7,10 @@ import { applySm2 } from "../utils";
  */
 export const revisaoService = {
   async getPendentes() {
-    return mockFlashcards.flatMap((deck) => deck.cards.slice(0, 3).map((card) => ({ ...card, materia: deck.materia, urgencia: "hoje" })));
+    return useRevisaoStore.getState().pendentesHoje;
   },
   avaliar(item, quality) {
-    return applySm2(item, quality);
+    useRevisaoStore.getState().concluir(item.assuntoId || item.id, quality);
+    return item;
   },
 };

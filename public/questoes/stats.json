@@ -1,0 +1,60 @@
+{
+  "totalDisponivel": 900000,
+  "totalExportado": 900000,
+  "arquivos": [
+    {
+      "arquivo": "questoes-pm-100k-unicas-por-materia-codigo-de-transito-brasileiro-ctb-lei-n-9-503-97-100000-1.csv",
+      "materia": "CTB",
+      "total": 100000,
+      "exportado": 100000
+    },
+    {
+      "arquivo": "questoes-pm-100k-unicas-por-materia-direito-administrativo-100000.csv",
+      "materia": "Direito Administrativo",
+      "total": 100000,
+      "exportado": 100000
+    },
+    {
+      "arquivo": "questoes-pm-100k-unicas-por-materia-direito-constitucional-100000.csv",
+      "materia": "Direito Constitucional",
+      "total": 100000,
+      "exportado": 100000
+    },
+    {
+      "arquivo": "questoes-pm-100k-unicas-por-materia-direito-penal-100000.csv",
+      "materia": "Direito Penal",
+      "total": 100000,
+      "exportado": 100000
+    },
+    {
+      "arquivo": "questoes-pm-100k-unicas-por-materia-direito-processual-penal-100000.csv",
+      "materia": "Direito Processual Penal",
+      "total": 100000,
+      "exportado": 100000
+    },
+    {
+      "arquivo": "questoes-pm-100k-unicas-por-materia-informatica-100000.csv",
+      "materia": "Informatica",
+      "total": 100000,
+      "exportado": 100000
+    },
+    {
+      "arquivo": "questoes-pm-100k-unicas-por-materia-legislacao-penal-especial-100000.csv",
+      "materia": "Legislacao Penal Especial",
+      "total": 100000,
+      "exportado": 100000
+    },
+    {
+      "arquivo": "questoes-pm-100k-unicas-por-materia-portugues-100000.csv",
+      "materia": "Portugues",
+      "total": 100000,
+      "exportado": 100000
+    },
+    {
+      "arquivo": "questoes-pm-100k-unicas-por-materia-raciocinio-logico-e-matematica-100000.csv",
+      "materia": "Raciocinio Logico",
+      "total": 100000,
+      "exportado": 100000
+    }
+  ]
+}

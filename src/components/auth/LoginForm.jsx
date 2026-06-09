@@ -1,9 +1,10 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Eye, LockKeyhole, Mail } from "lucide-react";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import { z } from "zod";
+import { isSupabaseConfigured, supabase } from "../../lib/supabase";
 import { Button } from "../ui/button";
 import { Checkbox } from "../ui/checkbox";
 import { Input } from "../ui/input";
@@ -17,6 +18,7 @@ const loginSchema = z.object({
 });
 
 function LoginForm() {
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
@@ -30,17 +32,26 @@ function LoginForm() {
     },
   });
 
-  const onSubmit = ({ email, remember }) => {
-    localStorage.setItem(
-      "aprovamais-session",
-      JSON.stringify({
-        email,
-        remember: Boolean(remember),
-        loggedAt: new Date().toISOString(),
-      }),
-    );
-    toast.success("Login realizado com sucesso.");
-    window.location.assign("http://localhost:5173/app");
+  const onSubmit = async ({ email, password, remember }) => {
+    try {
+      if (isSupabaseConfigured) {
+        const { error } = await supabase.auth.signInWithPassword({ email, password });
+        if (error) throw error;
+      } else {
+        localStorage.setItem(
+          "aprovamais-session",
+          JSON.stringify({
+            email,
+            remember: Boolean(remember),
+            loggedAt: new Date().toISOString(),
+          }),
+        );
+      }
+      toast.success("Login realizado com sucesso.");
+      navigate("/app");
+    } catch (error) {
+      toast.error(error.message || "Nao foi possivel entrar.");
+    }
   };
 
   return (

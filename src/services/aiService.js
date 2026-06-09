@@ -1,31 +1,78 @@
-/**
- * Future REST contract:
- * POST /ai/chat
- * POST /ai/gerar-flashcards
- * POST /ai/gerar-mapa-mental
- * POST /ai/gerar-plano
- * GET /ai/chat/:sessionId/historico
- */
+import { GoogleGenerativeAI } from "@google/generative-ai";
+
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+const genAI = apiKey ? new GoogleGenerativeAI(apiKey) : null;
+const model = genAI?.getGenerativeModel({ model: "gemini-1.5-flash" });
+
+function fallbackResposta(mensagem) {
+  return `Ainda nao encontrei uma chave Gemini configurada. Para responder "${mensagem}", preencha VITE_GEMINI_API_KEY no .env e reinicie o Vite.`;
+}
+
 export const aiService = {
+  async enviarMensagem(mensagem, historico = [], contextoAluno = {}) {
+    if (!model) return fallbackResposta(mensagem);
+
+    const systemPrompt = `Voce e o tutor do Aprova+, plataforma de estudos para concursos publicos.
+Aluno: ${contextoAluno.nome || "Aluno"}
+Concurso-alvo: ${contextoAluno.concurso || "PM"}
+Nivel: ${contextoAluno.nivel || "intermediario"}
+Responda sempre em portugues, de forma clara e focada no concurso do aluno.`;
+
+    const chat = model.startChat({
+      history: historico.map((h) => ({
+        role: h.role === "user" ? "user" : "model",
+        parts: [{ text: h.content || h.text || "" }],
+      })),
+      generationConfig: { maxOutputTokens: 1000 },
+    });
+
+    const result = await chat.sendMessage(`${systemPrompt}\n\n${mensagem}`);
+    return result.response.text();
+  },
+
+  async gerarResumo(assunto, materia, concurso) {
+    if (!model) return fallbackResposta(`resumo de ${assunto}`);
+    const result = await model.generateContent(
+      `Crie um resumo objetivo de "${assunto}" da materia "${materia}" para o concurso ${concurso}. Maximo 300 palavras, em topicos.`
+    );
+    return result.response.text();
+  },
+
+  async explicarQuestao(enunciado, gabarito, respostaAluno, comentario) {
+    if (!model) return fallbackResposta("explicacao de questao");
+    const result = await model.generateContent(
+      `Explique esta questao de concurso:\n\nEnunciado: ${enunciado}\nGabarito correto: ${gabarito}\nResposta do aluno: ${respostaAluno}\nComentario oficial: ${comentario}\n\nExplique por que o gabarito esta correto e de uma dica de memorizacao.`
+    );
+    return result.response.text();
+  },
+
+  async gerarFlashcards(assunto, materia, quantidade = 5) {
+    if (!model) return [];
+    const result = await model.generateContent(
+      `Gere ${quantidade} flashcards sobre "${assunto}" de "${materia}". Retorne APENAS JSON valido: [{"frente":"...","verso":"..."}]`
+    );
+    const text = result.response.text().replace(/```json|```/g, "").trim();
+    return JSON.parse(text);
+  },
+
   stream(prompt, onChunk, onDone) {
-    const responses = {
-      "Explique essa questão": "Vamos por partes: identifique o comando da banca, marque as palavras restritivas e compare a regra geral com a excecao. A alternativa correta normalmente preserva exatamente esses limites.",
-      "Gere flashcards sobre Constitucional": "Criei um roteiro de deck: direitos fundamentais, controle de constitucionalidade, poderes da Uniao, organizacao do Estado e remedios constitucionais. Priorize cards curtos com uma pegadinha por verso.",
-      "Crie mapa mental de Português": "Mapa sugerido: Sintaxe no centro, ramificando para sujeito, predicado, concordancia, regencia, crase e pontuacao. Conecte cada ramo a exemplos cobrados por banca.",
-      "Monte plano de estudos": "Plano sugerido: 2 blocos teoricos, 1 bloco de questoes e 1 revisao curta por dia. A cada 48h, refaca erros e atualize sua prioridade por taxa de acerto.",
-      "Corrija minha redação": "Na correção, eu avaliaria tese, repertorio, progressão, coesão e proposta. O ponto de melhoria mais comum e tornar a intervenção mais concreta.",
-      "Monte meu plano de TAF": "Com base no seu último teste (8.0 - PMSP), voce tem 18 semanas. Sugiro 4 treinos semanais com foco em corrida (54% da meta) e manutenção de flexão (82% da meta).",
+    let cancelled = false;
+
+    this.enviarMensagem(prompt)
+      .then((response) => {
+        if (cancelled) return;
+        onChunk(response);
+        onDone?.(response);
+      })
+      .catch((error) => {
+        const message = error.message || "Nao foi possivel consultar o Gemini agora.";
+        if (cancelled) return;
+        onChunk(message);
+        onDone?.(message);
+      });
+
+    return () => {
+      cancelled = true;
     };
-    const response = responses[prompt] || `Analisei "${prompt}". Recomendo revisar a teoria-base, resolver 10 questões similares e agendar nova revisão em 48 horas.`;
-    let index = 0;
-    const timer = setInterval(() => {
-      index += 3;
-      onChunk(response.slice(0, index));
-      if (index >= response.length) {
-        clearInterval(timer);
-        onDone(response);
-      }
-    }, 35);
-    return () => clearInterval(timer);
   },
 };

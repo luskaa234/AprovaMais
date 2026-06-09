@@ -1,11 +1,11 @@
-import { useCallback, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Clock, ClipboardList, Dumbbell, MessageCircleQuestion, Target, Zap } from "lucide-react";
 import { AIPanel } from "../../ai";
 import { Badge, Button, Card } from "../../components";
 import { HeatmapCalendar, PerformanceChart, StudyTimeChart } from "../../charts";
-import { useAsyncData } from "../../hooks";
-import { questoesService, rankingService, revisaoService } from "../../services";
 import { useInternalRouter, useUser } from "../../contexts";
+import { isSupabaseConfigured, supabase } from "../../lib/supabase";
+import { usePlanoStore, useQuestoesStore, useRankingStore, useRevisaoStore } from "../../stores";
 
 const KpiCard = ({ label, value, icon: Icon }) => (
   <Card>
@@ -18,26 +18,74 @@ const KpiCard = ({ label, value, icon: Icon }) => (
 export default function DashboardPage() {
   const { user } = useUser();
   const { navigate } = useInternalRouter();
-  const loadQuestoes = useCallback(() => questoesService.getAll(), []);
-  const loadRanking = useCallback(() => rankingService.getRanking(), []);
-  const loadRevisoes = useCallback(() => revisaoService.getPendentes(), []);
-  const { data: questoes } = useAsyncData(loadQuestoes, [loadQuestoes]);
-  const { data: ranking } = useAsyncData(loadRanking, [loadRanking]);
-  const { data: revisoes } = useAsyncData(loadRevisoes, [loadRevisoes]);
-  const performance = useMemo(
-    () => ["Seg", "Ter", "Qua", "Qui", "Sex"].map((label, index) => ({ label, acertos: 62 + index * 6 })),
-    []
-  );
-  const tempo = useMemo(
-    () => questoes.slice(0, 5).map((q, index) => ({ label: q.materia.split(" ")[0], valor: 5 + index * 2 })),
-    [questoes]
-  );
+  const tentativas = useQuestoesStore((state) => state.tentativas);
+  const rankingLocal = useRankingStore((state) => state.ranking);
+  const revisoesLocal = useRevisaoStore((state) => state.pendentesHoje);
+  const progressoPorDisciplina = usePlanoStore((state) => state.progressoPorDisciplina);
+  const [remote, setRemote] = useState({ profile: null, ranking: null, revisoes: null, performance: null });
+
+  const localPerformance = useMemo(() => {
+    const labels = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sab"];
+    return Array.from({ length: 7 }, (_, offset) => {
+      const date = new Date();
+      date.setDate(date.getDate() - (6 - offset));
+      const key = date.toISOString().slice(0, 10);
+      return { label: labels[date.getDay()], acertos: tentativas.filter((item) => item.acertou && item.data.slice(0, 10) === key).length };
+    });
+  }, [tentativas]);
+
+  useEffect(() => {
+    if (!isSupabaseConfigured || !user?.id) return undefined;
+    let alive = true;
+
+    async function loadDashboard() {
+      const hoje = new Date().toISOString().slice(0, 10);
+      const seteDias = new Date();
+      seteDias.setDate(seteDias.getDate() - 7);
+
+      const [profileRes, revisoesRes, rankingRes, tentativasRes] = await Promise.all([
+        supabase.from("profiles").select("*").eq("id", user.id).maybeSingle(),
+        supabase.from("revisoes").select("*").eq("user_id", user.id).lte("proxima", hoje).limit(5),
+        supabase.from("ranking").select("pontos, profiles(name)").order("pontos", { ascending: false }).limit(5),
+        supabase.from("tentativas").select("acertou, created_at").eq("user_id", user.id).gte("created_at", seteDias.toISOString()),
+      ]);
+
+      if (!alive) return;
+
+      const labels = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sab"];
+      const grouped = (tentativasRes.data || []).reduce((acc, item) => {
+        const label = labels[new Date(item.created_at).getDay()];
+        acc[label] ||= { total: 0, acertos: 0 };
+        acc[label].total += 1;
+        if (item.acertou) acc[label].acertos += 1;
+        return acc;
+      }, {});
+
+      setRemote({
+        profile: profileRes.data || null,
+        revisoes: revisoesRes.data || null,
+        ranking: rankingRes.data?.map((item, index) => ({ posicao: index + 1, nome: item.profiles?.name || "Aluno", pontos: item.pontos })) || null,
+        performance: Object.entries(grouped).map(([label, value]) => ({ label, acertos: value.total ? Math.round((value.acertos / value.total) * 100) : 0 })),
+      });
+    }
+
+    loadDashboard().catch(() => {});
+    return () => {
+      alive = false;
+    };
+  }, [user?.id]);
+
+  const tempo = useMemo(() => Object.entries(progressoPorDisciplina).map(([label, valor]) => ({ label, valor })), [progressoPorDisciplina]);
+  const stats = remote.profile || user.rawStats || {};
+  const revisoes = remote.revisoes || revisoesLocal;
+  const ranking = remote.ranking || rankingLocal;
+  const performance = remote.performance?.length ? remote.performance : localPerformance;
   const kpis = [
-    ["Horas estudadas", user.stats.hours, Clock],
-    ["Questoes resolvidas", user.stats.questions, ClipboardList],
-    ["Taxa de acertos", `${user.stats.accuracy}%`, Target],
-    ["Sequência", user.stats.streak, Zap],
-    ["TAF", "9.0 aprovado", Dumbbell],
+    ["Horas estudadas", stats.horas_estudadas ?? user.stats.hours, Clock],
+    ["Questoes resolvidas", stats.questoes_resolvidas ?? user.stats.questions, ClipboardList],
+    ["Taxa de acertos", `${stats.taxa_acertos ?? user.stats.accuracy}%`, Target],
+    ["Sequencia", stats.sequencia_dias ?? user.stats.streak, Zap],
+    ["TAF", `${stats.taf_nota ?? user.stats.taf}/10`, Dumbbell],
   ];
 
   return (
@@ -60,7 +108,7 @@ export default function DashboardPage() {
 
       <div className="mt-4 grid gap-4 xl:grid-cols-[1.5fr_1fr]">
         <Card>
-          <h2 className="mb-3 font-bold text-white">Evolução semanal</h2>
+          <h2 className="mb-3 font-bold text-white">Evolucao semanal</h2>
           <PerformanceChart data={performance} />
         </Card>
         <Card>
@@ -71,15 +119,15 @@ export default function DashboardPage() {
 
       <div className="mt-4 grid gap-4 xl:grid-cols-[1fr_1fr_0.8fr]">
         <Card>
-          <h2 className="mb-3 font-bold text-white">Sequência</h2>
+          <h2 className="mb-3 font-bold text-white">Sequencia</h2>
           <HeatmapCalendar />
         </Card>
         <Card>
-          <h2 className="mb-3 font-bold text-white">Próximas revisões</h2>
+          <h2 className="mb-3 font-bold text-white">Proximas revisoes</h2>
           {revisoes.slice(0, 4).map((item) => (
-            <div key={item.id} className="mb-2 flex justify-between rounded-lg bg-gray-900 p-3 text-sm text-gray-300">
-              <span>{item.frente}</span>
-              <Badge variant="warning">{item.urgencia}</Badge>
+            <div key={item.id || item.assuntoId} className="mb-2 flex justify-between rounded-lg bg-gray-900 p-3 text-sm text-gray-300">
+              <span>{item.frente || item.assunto}</span>
+              <Badge variant="warning">{item.urgencia || item.proxima || "hoje"}</Badge>
             </div>
           ))}
         </Card>

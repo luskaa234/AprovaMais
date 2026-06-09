@@ -1,4 +1,4 @@
-import { mockPlano } from "../data";
+import { usePlanoStore } from "../stores";
 
 /**
  * Future REST contract:
@@ -8,7 +8,7 @@ import { mockPlano } from "../data";
  */
 export const planoService = {
   async getPlano() {
-    return mockPlano;
+    return usePlanoStore.getState().getPlano();
   },
   async getSugestão() {
     return "Redistribua 20 min de Informática para Constitucional nesta semana.";

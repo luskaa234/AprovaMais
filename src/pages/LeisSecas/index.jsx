@@ -3,17 +3,61 @@ import { Bookmark, Highlighter, StickyNote } from "lucide-react";
 import { Button, Card, Input } from "../../components";
 import { useAsyncData } from "../../hooks";
 import { leisService } from "../../services";
+import { useLeisStore } from "../../stores";
 
 export default function LeisSecasPage() {
   const [activeLei, setActiveLei] = useState(null);
   const [query, setQuery] = useState("");
-  const [notes, setNotes] = useState({});
+  const notas = useLeisStore((state) => state.notas);
+  const grifos = useLeisStore((state) => state.grifos);
+  const favoritos = useLeisStore((state) => state.favoritos);
+  const salvarNota = useLeisStore((state) => state.salvarNota);
+  const grifarArtigo = useLeisStore((state) => state.grifarArtigo);
+  const toggleFavorito = useLeisStore((state) => state.toggleFavorito);
   const load = useCallback(() => leisService.getLeis(), []);
-  const { data: leis } = useAsyncData(load, [load]);
+  const { data: leis } = useAsyncData(load);
   const lei = activeLei || leis[0];
   const artigos = useMemo(() => lei?.capitulos.flatMap((capitulo) => capitulo.artigos.map((artigo) => ({ ...artigo, capitulo: capitulo.nome }))) || [], [lei]);
   const visible = query ? artigos.filter((artigo) => artigo.texto.toLowerCase().includes(query.toLowerCase())) : artigos;
   const safeQuery = query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const highlight = (text) => safeQuery ? text.replace(new RegExp(`(${safeQuery})`, "ig"), "<mark>$1</mark>") : text;
-  return <div><h1 className="text-3xl font-black text-white">Leis secas</h1><p className="mb-5 text-sm text-gray-400">Índice, busca, marcação, favoritos e notas inline.</p><div className="grid gap-4 lg:grid-cols-[280px_1fr]"><Card>{leis.map((item) => <button key={item.id} onClick={() => setActiveLei(item)} className={`mb-2 w-full rounded-lg p-3 text-left text-sm font-semibold ${lei?.id === item.id ? "bg-indigo-600 text-white" : "bg-gray-900 text-gray-300"}`}>{item.nome}</button>)}</Card><Card><Input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Buscar termo" className="mb-4" />{visible.map((artigo) => <article key={artigo.id} className={`mb-4 rounded-lg border border-gray-800 p-4 ${query ? "bg-indigo-500/10" : ""}`}><div className="mb-2 flex flex-wrap items-center justify-between gap-2"><h2 className="font-bold text-white">{artigo.capitulo} · Art. {artigo.numero}</h2><div className="flex gap-2"><Button size="sm" variant="ghost" icon={Highlighter}>Marcar</Button><Button size="sm" variant="ghost" icon={Bookmark}>Favoritar</Button></div></div><p className="text-gray-300 [&_mark]:rounded [&_mark]:bg-amber-300 [&_mark]:px-1 [&_mark]:text-gray-950" dangerouslySetInnerHTML={{ __html: highlight(artigo.texto) }} /><Input icon={StickyNote} value={notes[artigo.id] || ""} onChange={(event) => setNotes((current) => ({ ...current, [artigo.id]: event.target.value }))} placeholder="Nota pessoal" className="mt-3" /></article>)}</Card></div></div>;
+  const handleGrifar = useCallback((artigoId) => {
+    const cor = grifos[artigoId] ? undefined : "yellow";
+    grifarArtigo(artigoId, cor);
+    leisService.grifarArtigo(artigoId, cor).catch(() => {});
+  }, [grifos, grifarArtigo]);
+  const handleFavorito = useCallback((artigoId) => {
+    toggleFavorito(artigoId);
+    leisService.toggleFavorito(artigoId).catch(() => {});
+  }, [toggleFavorito]);
+  const handleNota = useCallback((artigoId, nota) => {
+    salvarNota(artigoId, nota);
+    leisService.salvarNota(artigoId, nota).catch(() => {});
+  }, [salvarNota]);
+
+  return (
+    <div>
+      <h1 className="text-3xl font-black text-white">Leis secas</h1>
+      <p className="mb-5 text-sm text-gray-400">Indice, busca, marcacao, favoritos e notas inline.</p>
+      <div className="grid gap-4 lg:grid-cols-[280px_1fr]">
+        <Card>{leis.map((item) => <button key={item.id} onClick={() => setActiveLei(item)} className={`mb-2 w-full rounded-lg p-3 text-left text-sm font-semibold ${lei?.id === item.id ? "bg-indigo-600 text-white" : "bg-gray-900 text-gray-300"}`}>{item.nome}</button>)}</Card>
+        <Card>
+          <Input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Buscar termo" className="mb-4" />
+          {visible.map((artigo) => (
+            <article key={artigo.id} className={`mb-4 rounded-lg border border-gray-800 p-4 ${grifos[artigo.id] ? "bg-amber-500/10" : query ? "bg-indigo-500/10" : ""}`}>
+              <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
+                <h2 className="font-bold text-white">{artigo.capitulo} - Art. {artigo.numero}</h2>
+                <div className="flex gap-2">
+                  <Button size="sm" variant="ghost" icon={Highlighter} onClick={() => handleGrifar(artigo.id)}>Marcar</Button>
+                  <Button size="sm" variant="ghost" icon={Bookmark} onClick={() => handleFavorito(artigo.id)}>{favoritos.includes(artigo.id) ? "Favorito" : "Favoritar"}</Button>
+                </div>
+              </div>
+              <p className="text-gray-300 [&_mark]:rounded [&_mark]:bg-amber-300 [&_mark]:px-1 [&_mark]:text-gray-950" dangerouslySetInnerHTML={{ __html: highlight(artigo.texto) }} />
+              <Input icon={StickyNote} value={notas[artigo.id] || ""} onChange={(event) => handleNota(artigo.id, event.target.value)} placeholder="Nota pessoal" className="mt-3" />
+            </article>
+          ))}
+        </Card>
+      </div>
+    </div>
+  );
 }

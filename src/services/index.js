@@ -8,4 +8,5 @@ export { bibliotecaService } from "./bibliotecaService";
 export { adminService } from "./adminService";
 export { aiService } from "./aiService";
 export { tafService } from "./tafService";
-export { rankingService, mapasService, leisService, notificacoesService } from "./miscService";
+export { leisService } from "./leisService";
+export { rankingService, mapasService, notificacoesService } from "./miscService";

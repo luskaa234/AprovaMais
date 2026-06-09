@@ -1,6 +1,28 @@
 import { mockSimulados } from "../data";
 import { groupCount } from "../utils";
 
+async function getOfficialTests() {
+  try {
+    const response = await fetch("/materiais/manifest.json");
+    if (!response.ok) return [];
+    const manifest = await response.json();
+    const baseQuestoes = mockSimulados[0]?.questoes || [];
+    return manifest
+      .filter((item) => item.categoria === "Provas")
+      .map((item, index) => ({
+        id: `prova-${item.id}`,
+        modo: "prova oficial",
+        nome: item.titulo,
+        tempoMinutos: 180,
+        mediaTurma: 68 + (index % 8),
+        materialUrl: item.url,
+        questoes: baseQuestoes,
+      }));
+  } catch {
+    return [];
+  }
+}
+
 /**
  * Future REST contract:
  * GET /simulados/templates
@@ -11,7 +33,7 @@ import { groupCount } from "../utils";
  */
 export const simuladosService = {
   async getTemplates() {
-    return mockSimulados;
+    return [...(await getOfficialTests()), ...mockSimulados];
   },
   async iniciar(templateId) {
     return { ...mockSimulados.find((item) => item.id === templateId), startedAt: Date.now(), respostas: {} };

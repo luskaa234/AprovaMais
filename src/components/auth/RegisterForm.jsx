@@ -1,9 +1,10 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { LockKeyhole, Mail, UserRound } from "lucide-react";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import { z } from "zod";
+import { isSupabaseConfigured, supabase } from "../../lib/supabase";
 import { Button } from "../ui/button";
 import { Checkbox } from "../ui/checkbox";
 import { Input } from "../ui/input";
@@ -24,6 +25,7 @@ const registerSchema = z
   });
 
 function RegisterForm() {
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
@@ -39,8 +41,19 @@ function RegisterForm() {
     },
   });
 
-  const onSubmit = () => {
-    toast.success("Conta criada com sucesso. Bem-vindo ao Aprova+.");
+  const onSubmit = async ({ name, email, password }) => {
+    try {
+      if (isSupabaseConfigured) {
+        const { error } = await supabase.auth.signUp({ email, password, options: { data: { name } } });
+        if (error) throw error;
+      } else {
+        localStorage.setItem("aprovamais-session", JSON.stringify({ email, name, loggedAt: new Date().toISOString() }));
+      }
+      toast.success("Conta criada com sucesso. Bem-vindo ao Aprova+.");
+      navigate("/app");
+    } catch (error) {
+      toast.error(error.message || "Nao foi possivel criar a conta.");
+    }
   };
 
   return (
