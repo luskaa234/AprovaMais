@@ -73,7 +73,6 @@ async function getOfficialTests() {
         modo: "Prova oficial",
         nome: formatOfficialTestName(item.titulo),
         tempoMinutos: 180,
-        mediaTurma: 68 + (index % 8),
         materialUrl: item.url,
         questoes: baseQuestoes.map((questao, qIndex) => normalizeQuestion(questao, qIndex, { id: `prova-${item.id}`, nome: item.titulo, concurso: item.titulo })),
       }));
@@ -105,6 +104,6 @@ export const simuladosService = {
     const correct = questoes.filter((questao) => questao.correct).length;
     const percent = Math.round((correct / questoes.length) * 100);
     const porMateria = Object.entries(groupCount(questoes.filter((questao) => questao.correct), "materia")).map(([label, valor]) => ({ label, valor }));
-    return { percent, correct, total: questoes.length, tempo: "2h12", mediaTurma: simulado.mediaTurma, porMateria, respostas, questoes };
+    return { percent, correct, total: questoes.length, tempo: "2h12", porMateria, respostas, questoes };
   },
 };

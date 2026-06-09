@@ -194,7 +194,7 @@ export const useSimuladosStore = create(
       ativo: null,
       criar: (config = {}) => {
         const questoes = useQuestoesStore.getState().questoes.slice(0, Number(config.quantidade || 12));
-        const ativo = { id: uid("sim"), nome: config.nome || "Simulado personalizado", questoes, respostas: {}, tempoMinutos: Number(config.tempoMinutos || 180), tipo: config.tipo || "personalizado", startedAt: Date.now(), mediaTurma: 72 };
+        const ativo = { id: uid("sim"), nome: config.nome || "Simulado personalizado", questoes, respostas: {}, tempoMinutos: Number(config.tempoMinutos || 180), tipo: config.tipo || "personalizado", startedAt: Date.now() };
         set({ ativo });
         return ativo;
       },

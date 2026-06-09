@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { CheckCircle2, Flag, Play, RotateCcw, Timer, XCircle } from "lucide-react";
 import { Badge, Button, Card, Select, cx } from "../../components";
-import { DistributionPieChart, PerformanceChart, StudyTimeChart } from "../../charts";
+import { DistributionPieChart, PerformanceChart } from "../../charts";
 import { useAsyncData, useTimer } from "../../hooks";
 import { simuladosService } from "../../services";
 
@@ -23,9 +23,8 @@ function SimuladoResultado({ result, onRedo, onReview }) {
           </div>
         </div>
       </Card>
-      <div className="mt-4 grid gap-4 xl:grid-cols-2">
+      <div className="mt-4 grid gap-4">
         <Card hover={false}><h2 className="mb-3 font-bold text-white">Acertos por materia</h2><DistributionPieChart data={result.porMateria} /></Card>
-        <Card hover={false}><h2 className="mb-3 font-bold text-white">Voce vs. turma</h2><StudyTimeChart data={[{ label: "Voce", valor: result.percent }, { label: "Turma", valor: result.mediaTurma }]} /></Card>
       </div>
       <Card hover={false} className="mt-4">
         <h2 className="mb-3 font-bold text-white">Questoes</h2>

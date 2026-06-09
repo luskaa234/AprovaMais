@@ -35,7 +35,6 @@ export const mockSimulados = ["edital", "banca", "personalizado"].map((modo, ind
   modo,
   nome: `Simulado por ${modo}`,
   tempoMinutos: 180 - index * 20,
-  mediaTurma: 72 + index * 3,
   questoes: Array.from({ length: 12 }, (_, q) => {
     const materiaIndex = q % materias.length;
     const gabarito = alternativaIds[q % alternativaIds.length];
