@@ -5,7 +5,7 @@ export function useQuestoes({ page = 1, pageSize = 5, initialFilters = {} } = {}
   const [filters, setFilters] = useState(initialFilters);
   const [questoes, setQuestoes] = useState([]);
   const [stats, setStats] = useState(null);
-  const [filterOptions, setFilterOptions] = useState({ materias: {}, bancas: {}, dificuldades: {}, anos: {} });
+  const [filterOptions, setFilterOptions] = useState({ materias: {}, bancas: {}, dificuldades: {}, anos: {}, assuntos: {}, concursos: {} });
   const [total, setTotal] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);

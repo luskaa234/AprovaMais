@@ -13,6 +13,25 @@ const TAF_TESTS = [
   { tipo: "barra", label: "Barra", meta: 8, unidade: "rep", objetivo: "Puxada e pegada" },
 ];
 
+const COMMON_TAF = [
+  {
+    title: "Barra fixa",
+    detail: "Teste de forca para braços, costas e pegada. Em muitos editais, a prova é dinâmica para homens e estática/isometria para mulheres.",
+  },
+  {
+    title: "Flexão de braço",
+    detail: "Avalia peitoral, tríceps e estabilidade do tronco. O foco é executar repetições válidas, com amplitude e alinhamento.",
+  },
+  {
+    title: "Abdominal",
+    detail: "Geralmente aparece no formato remador ou supra. Mede resistência de core, flexores do quadril e controle de movimento.",
+  },
+  {
+    title: "Corrida de resistência",
+    detail: "Costuma cobrar corrida de 12 minutos, com referência comum de 2.400 m para homens e 2.000 m para mulheres, conforme edital.",
+  },
+];
+
 function TAFOverview() {
   const historico = useTafStore((state) => state.historico);
   const treinos = useTafStore((state) => state.treinos);
@@ -169,10 +188,10 @@ function TAFPlan() {
       <Card>
         <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <h2 className="font-bold text-white">Exercicios reais do TAF</h2>
-            <p className="text-sm text-gray-400">Selecionados apenas para corrida, flexao, abdominal e barra. Sem treino aleatorio de academia.</p>
+            <h2 className="font-bold text-white">Treinos especificos para o TAF</h2>
+            <p className="text-sm text-gray-400">Exercicios organizados por prova: corrida, flexao, abdominal e barra fixa.</p>
           </div>
-          <Badge variant="success">GIFs ExerciseDB</Badge>
+          <Badge variant="success">Com demonstracao</Badge>
         </div>
         {loading ? (
           <div className="grid gap-3 sm:grid-cols-2">{TAF_TESTS.map((item) => <div key={item.tipo} className="h-80 w-full animate-pulse rounded-lg bg-gray-800" />)}</div>
@@ -181,6 +200,18 @@ function TAFPlan() {
         )}
       </Card>
       <div className="grid gap-4">
+        <Card className="taf-common-card">
+          <h2 className="mb-2 font-bold text-white">O que costuma cair</h2>
+          <p className="mb-4 text-sm text-gray-400">Os exercicios variam por cargo, estado e edital. Estes sao os mais frequentes em concursos policiais.</p>
+          <div className="grid gap-3">
+            {COMMON_TAF.map((item) => (
+              <div key={item.title} className="taf-common-item">
+                <strong>{item.title}</strong>
+                <p>{item.detail}</p>
+              </div>
+            ))}
+          </div>
+        </Card>
         <Card>
           <h2 className="mb-3 font-bold text-white">Checklist de prova</h2>
           <div className="grid gap-3">

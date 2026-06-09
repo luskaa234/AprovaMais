@@ -61,8 +61,8 @@ export const QuestionCard = memo(({ questao, index = 0, onAnswer, onSave, onAddC
                 disabled={confirmed}
                 className={cx(
                   "group flex min-h-12 items-start gap-3 rounded-lg border p-3 text-left text-sm transition",
-                  !confirmed && selectedThis && "border-indigo-500 bg-indigo-500/10 text-indigo-100 shadow-sm shadow-indigo-950/30",
-                  !confirmed && !selectedThis && "border-gray-800 bg-gray-900 text-gray-300 hover:border-indigo-400 hover:bg-gray-900/80",
+                  !confirmed && selectedThis && "border-blue-600 bg-blue-600 text-white shadow-sm shadow-blue-950/20",
+                  !confirmed && !selectedThis && "border-gray-800 bg-gray-900 text-gray-300 hover:border-blue-400 hover:bg-blue-600/10",
                   correctThis && "border-emerald-500 bg-emerald-500/10 text-emerald-100",
                   wrongThis && "border-red-500 bg-red-500/10 text-red-100",
                   confirmed && !correctThis && !wrongThis && "border-gray-800 bg-gray-900 text-gray-400"

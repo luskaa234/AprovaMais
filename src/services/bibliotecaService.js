@@ -8,12 +8,38 @@ async function getMaterialManifest() {
   try {
     const response = await fetch("/materiais/manifest.json");
     if (!response.ok) throw new Error("Manifest nao encontrado.");
-    materialCache = await response.json();
+    materialCache = (await response.json()).map(normalizeMaterialTitle);
     return materialCache;
   } catch {
-    materialCache = mockBiblioteca;
+    materialCache = mockBiblioteca.map(normalizeMaterialTitle);
     return materialCache;
   }
+}
+
+function humanizeTitle(title = "") {
+  const cleaned = String(title)
+    .replace(/\.(pdf|docx?|xlsx?|txt|zip|png|jpe?g)$/i, "")
+    .replace(/[-_]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  return cleaned
+    .split(" ")
+    .filter((word) => !["compressed", "final"].includes(word.toLowerCase()))
+    .map((word) => {
+      const upper = word.toUpperCase();
+      if (["PM", "PF", "PRF", "PC", "TJ", "RJ", "SP", "DF", "TRT", "IBFC", "VUNESP", "QC"].includes(upper)) return upper;
+      if (/^\d{4}$/.test(word)) return word;
+      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+    })
+    .join(" ");
+}
+
+function normalizeMaterialTitle(material) {
+  return {
+    ...material,
+    titulo: humanizeTitle(material.titulo || material.nome || material.id),
+  };
 }
 
 export const bibliotecaService = {

@@ -1,7 +1,7 @@
 import { useCallback, useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { Sparkles } from "lucide-react";
-import { Button, Card } from "../../components";
+import { Filter, Sparkles } from "lucide-react";
+import { Button, Card, Input, Select } from "../../components";
 import { RetentionRadarChart } from "../../charts";
 import { Modal } from "../../modals";
 import { useAsyncData } from "../../hooks";
@@ -16,9 +16,27 @@ export default function FlashcardsPage() {
   const [flipped, setFlipped] = useState(false);
   const [modal, setModal] = useState(false);
   const [cardIndex, setCardIndex] = useState(0);
+  const [filters, setFilters] = useState({ concurso: "", materia: "", assunto: "", nivel: "", status: "" });
   const sessoes = useFlashcardsStore((state) => state.sessoes);
-  const activeDeck = deck || decks[0];
-  const radar = useMemo(() => decks.map((item) => ({ label: item.materia.split(" ")[0], valor: item.retencao })), [decks]);
+  const deckStatus = useCallback((item) => item.retencao >= 80 ? "Dominado" : item.retencao > 0 ? "Revisando" : "Novo", []);
+  const deckLevel = useCallback((item) => item.retencao >= 75 ? "Avancado" : item.retencao >= 45 ? "Intermediario" : "Basico", []);
+  const decoratedDecks = useMemo(() => decks.map((item, index) => ({
+    ...item,
+    concurso: index % 2 ? "PRF" : "PM",
+    assunto: item.cards?.[0]?.frente || item.titulo,
+    status: deckStatus(item),
+    nivel: deckLevel(item),
+  })), [deckLevel, deckStatus, decks]);
+  const filteredDecks = useMemo(() => decoratedDecks.filter((item) => {
+    if (filters.concurso && item.concurso !== filters.concurso) return false;
+    if (filters.materia && item.materia !== filters.materia) return false;
+    if (filters.assunto && !item.assunto.toLowerCase().includes(filters.assunto.toLowerCase()) && !item.titulo.toLowerCase().includes(filters.assunto.toLowerCase())) return false;
+    if (filters.nivel && item.nivel !== filters.nivel) return false;
+    if (filters.status && item.status !== filters.status) return false;
+    return true;
+  }), [decoratedDecks, filters]);
+  const activeDeck = filteredDecks.find((item) => item.id === deck?.id) || filteredDecks[0];
+  const radar = useMemo(() => filteredDecks.map((item) => ({ label: item.materia.split(" ")[0], valor: item.retencao })), [filteredDecks]);
   const currentCard = activeDeck?.cards[cardIndex % (activeDeck?.cards.length || 1)];
 
   const generate = useCallback(async () => {
@@ -39,16 +57,28 @@ export default function FlashcardsPage() {
       <div className="mb-5 flex justify-between gap-3">
         <div>
           <h1 className="text-3xl font-black text-white">Flashcards</h1>
-          <p className="text-sm text-gray-400">{decks.length} decks carregados com revisao SM-2 e flip 3D.</p>
+          <p className="text-sm text-gray-400">Revisao ativa por materia, assunto, dificuldade e status.</p>
         </div>
         <Button icon={Sparkles} onClick={() => setModal(true)}>Gerar deck</Button>
       </div>
       <div className="grid gap-4 xl:grid-cols-[0.85fr_1.15fr_0.8fr]">
-        <div className="max-h-[72vh] space-y-3 overflow-auto pr-1">
-          {decks.map((item) => <DeckCard key={item.id} deck={item} active={activeDeck?.id === item.id} onSelect={(next) => { setDeck(next); setCardIndex(0); setFlipped(false); }} />)}
+        <div className="space-y-3">
+          <Card hover={false}>
+            <div className="mb-3 flex items-center gap-2 text-sm font-bold text-white"><Filter size={16} /> Filtros</div>
+            <div className="grid gap-3">
+              <Select label="Concurso" placeholder="Todos" options={["PM", "PRF"]} value={filters.concurso} onChange={(event) => setFilters((current) => ({ ...current, concurso: event.target.value }))} />
+              <Select label="Materia" placeholder="Todas" options={[...new Set(decoratedDecks.map((item) => item.materia))]} value={filters.materia} onChange={(event) => setFilters((current) => ({ ...current, materia: event.target.value }))} />
+              <Input label="Assunto" placeholder="Buscar assunto" value={filters.assunto} onChange={(event) => setFilters((current) => ({ ...current, assunto: event.target.value }))} />
+              <Select label="Nivel" placeholder="Todos" options={["Basico", "Intermediario", "Avancado"]} value={filters.nivel} onChange={(event) => setFilters((current) => ({ ...current, nivel: event.target.value }))} />
+              <Select label="Status" placeholder="Todos" options={["Novo", "Revisando", "Dominado"]} value={filters.status} onChange={(event) => setFilters((current) => ({ ...current, status: event.target.value }))} />
+            </div>
+          </Card>
+          <div className="max-h-[52vh] space-y-3 overflow-auto pr-1">
+            {filteredDecks.map((item) => <DeckCard key={item.id} deck={item} active={activeDeck?.id === item.id} onSelect={(next) => { setDeck(next); setCardIndex(0); setFlipped(false); }} />)}
+          </div>
         </div>
         <Card className="grid place-items-center">
-          <p className="mb-3 text-sm font-semibold text-gray-400">Card {cardIndex + 1} de {activeDeck?.cards.length || 0}</p>
+          <p className="mb-3 text-sm font-semibold text-gray-400">{activeDeck?.materia || "Selecione um deck"}</p>
           <button onClick={() => setFlipped((value) => !value)} className="h-[26rem] w-full max-w-xl [perspective:1000px]" aria-label="Virar flashcard">
             <motion.div className="relative h-full w-full rounded-lg [transform-style:preserve-3d]" animate={{ rotateY: flipped ? 180 : 0 }} transition={{ duration: 0.6 }}>
               <div className="absolute inset-0 grid place-items-center overflow-auto rounded-lg border border-indigo-500/40 bg-gray-950 p-5 text-center [backface-visibility:hidden] sm:p-8">

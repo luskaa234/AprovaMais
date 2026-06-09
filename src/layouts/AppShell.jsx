@@ -209,6 +209,28 @@ const Topbar = memo(({ onMenu }) => {
 });
 Topbar.displayName = "Topbar";
 
+const mobileTabs = ["dashboard", "questoes", "plano", "taf", "perfil"];
+
+const BottomNav = memo(() => {
+  const { route, navigate } = useInternalRouter();
+  const items = useMemo(() => navItems.filter((item) => mobileTabs.includes(item.key)), []);
+
+  return (
+    <nav className="mobile-bottom-nav lg:hidden" aria-label="Navegacao principal">
+      {items.map(({ key, label, icon: Icon }) => {
+        const active = route === key;
+        return (
+          <button className={cx(active && "is-active")} key={key} onClick={() => navigate(key)} type="button">
+            <Icon size={20} strokeWidth={active ? 2.4 : 2} />
+            <span>{label.split(" ")[0]}</span>
+          </button>
+        );
+      })}
+    </nav>
+  );
+});
+BottomNav.displayName = "BottomNav";
+
 export const AppShell = memo(({ children }) => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const closeMobile = useCallback(() => setMobileOpen(false), []);
@@ -260,6 +282,7 @@ export const AppShell = memo(({ children }) => {
           {children}
         </main>
       </div>
+      <BottomNav />
     </div>
   );
 });

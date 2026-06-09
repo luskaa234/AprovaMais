@@ -1,5 +1,5 @@
 import { memo } from "react";
-import { Card, ProgressRing } from "../../components";
+import { Badge, Card, ProgressRing } from "../../components";
 
-export const DeckCard = memo(({ deck, active, onSelect }) => <Card className={active ? "ring-2 ring-indigo-500" : ""}><button onClick={() => onSelect(deck)} className="flex w-full items-center gap-4 text-left"><ProgressRing value={deck.retencao} /><div><h2 className="font-bold text-white">{deck.titulo}</h2><p className="text-sm text-gray-400">{deck.cards.length} cards · {deck.materia}</p></div></button></Card>);
+export const DeckCard = memo(({ deck, active, onSelect }) => <Card hover={false} className={active ? "ring-2 ring-blue-500" : ""}><button onClick={() => onSelect(deck)} className="flex w-full items-center gap-4 text-left"><ProgressRing value={deck.retencao} /><div className="min-w-0"><h2 className="truncate font-bold text-white">{deck.titulo}</h2><p className="mt-1 text-sm text-gray-400">{deck.materia}</p><div className="mt-2"><Badge variant={deck.status === "Dominado" ? "success" : deck.status === "Revisando" ? "warning" : "neutral"}>{deck.status || "Novo"}</Badge></div></div></button></Card>);
 DeckCard.displayName = "DeckCard";

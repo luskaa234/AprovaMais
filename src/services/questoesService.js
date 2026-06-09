@@ -31,15 +31,33 @@ function hasActiveFilters(filters = {}) {
 }
 
 function rowMatches(q, filters = {}) {
+  const state = useQuestoesStore.getState();
+  const isAnswered = state.tentativas.some((item) => item.questaoId === q.id);
+  const isWrong = state.caderno.includes(q.id) || state.tentativas.some((item) => item.questaoId === q.id && !item.acertou);
+  const isFavorite = state.salvas.includes(q.id);
+
   return Object.entries(filters).every(([key, value]) => {
     if (!value) return true;
     if (key === "search") {
-      return [q.enunciado, q.comentario, q.materia, q.assunto, q.topico, q.banca].some((field) => normalize(field).includes(normalize(value)));
+      return [q.enunciado, q.comentario, q.materia, q.assunto, q.topico, q.banca, q.concurso, q.orgao].some((field) => normalize(field).includes(normalize(value)));
     }
     if (key === "dificuldade") {
       const current = normalize(q.dificuldade).replace("media", "medio");
       const expected = normalize(value).replace("media", "medio");
       return current.includes(expected);
+    }
+    if (key === "concurso") {
+      return [q.concurso, q.orgao, q.cargo].some((field) => normalize(field).includes(normalize(value)));
+    }
+    if (key === "assunto") {
+      return [q.assunto, q.topico, ...(q.tags || [])].some((field) => normalize(field).includes(normalize(value)));
+    }
+    if (key === "status") {
+      if (value === "respondidas") return isAnswered;
+      if (value === "nao_respondidas") return !isAnswered;
+      if (value === "erradas") return isWrong;
+      if (value === "favoritas") return isFavorite;
+      return true;
     }
     return normalize(q[key]).includes(normalize(value));
   });
@@ -58,7 +76,8 @@ function mapQuestao(row) {
     gabarito,
     comentario: row.comentario || "Comentario ainda nao disponivel.",
     banca: row.banca || "PM",
-    orgao: row.concurso || "PM",
+    concurso: row.concurso || row.orgao || "PM",
+    orgao: row.orgao || row.concurso || "PM",
     cargo: row.cargo || "Soldado",
     materia: row.materia,
     assunto: row.topico || row.materia,
@@ -85,8 +104,11 @@ export const questoesService = {
       const to = from + pageSize - 1;
       let query = supabase.from("questoes").select("*", { count: "exact" }).range(from, to);
       if (filters.banca) query = query.ilike("banca", `%${filters.banca}%`);
+      if (filters.concurso) query = query.ilike("concurso", `%${filters.concurso}%`);
       if (filters.materia) query = query.eq("materia", filters.materia);
+      if (filters.assunto) query = query.ilike("topico", `%${filters.assunto}%`);
       if (filters.dificuldade) query = query.eq("dificuldade", filters.dificuldade);
+      if (filters.ano) query = query.eq("ano", filters.ano);
       if (filters.search) query = query.textSearch("enunciado", filters.search, { config: "portuguese" });
       const { data, count, error } = await query;
       if (error) throw error;
@@ -142,9 +164,11 @@ export const questoesService = {
 
     let query = supabase.from("questoes").select("*").limit(filters.limit || 120);
     if (filters.banca) query = query.ilike("banca", `%${filters.banca}%`);
+    if (filters.concurso) query = query.ilike("concurso", `%${filters.concurso}%`);
     if (filters.materia) query = query.eq("materia", filters.materia);
     if (filters.dificuldade) query = query.eq("dificuldade", filters.dificuldade);
-    if (filters.topico) query = query.ilike("topico", `%${filters.topico}%`);
+    if (filters.assunto || filters.topico) query = query.ilike("topico", `%${filters.assunto || filters.topico}%`);
+    if (filters.ano) query = query.eq("ano", filters.ano);
     if (filters.search) query = query.textSearch("enunciado", filters.search, { config: "portuguese" });
 
     const { data, error } = await query;
@@ -174,6 +198,8 @@ export const questoesService = {
         bancas: [],
         dificuldades: [],
         anos: [],
+        assuntos: [],
+        concursos: [],
       };
     }
     const catalog = await getLocalCatalog();
@@ -182,6 +208,8 @@ export const questoesService = {
       bancas: catalog.bancas || {},
       dificuldades: catalog.dificuldades || {},
       anos: catalog.anos || {},
+      assuntos: catalog.topicos || catalog.assuntos || {},
+      concursos: catalog.concursos || catalog.orgaos || {},
     };
   },
   async getById(id) {
@@ -229,12 +257,29 @@ export const questoesService = {
     return questoes.filter((q) => Object.entries(filters).every(([key, value]) => {
       if (!value) return true;
       if (key === "search") {
-        return [q.enunciado, q.comentario, q.materia, q.assunto, q.topico, q.banca].some((field) => normalize(field).includes(normalize(value)));
+        return [q.enunciado, q.comentario, q.materia, q.assunto, q.topico, q.banca, q.concurso, q.orgao].some((field) => normalize(field).includes(normalize(value)));
       }
       if (key === "dificuldade") {
         const current = normalize(q.dificuldade).replace("media", "medio");
         const expected = normalize(value).replace("media", "medio");
         return current.includes(expected);
+      }
+      if (key === "concurso") {
+        return [q.concurso, q.orgao, q.cargo].some((field) => normalize(field).includes(normalize(value)));
+      }
+      if (key === "assunto") {
+        return [q.assunto, q.topico, ...(q.tags || [])].some((field) => normalize(field).includes(normalize(value)));
+      }
+      if (key === "status") {
+        const state = useQuestoesStore.getState();
+        const isAnswered = state.tentativas.some((item) => item.questaoId === q.id);
+        const isWrong = state.caderno.includes(q.id) || state.tentativas.some((item) => item.questaoId === q.id && !item.acertou);
+        const isFavorite = state.salvas.includes(q.id);
+        if (value === "respondidas") return isAnswered;
+        if (value === "nao_respondidas") return !isAnswered;
+        if (value === "erradas") return isWrong;
+        if (value === "favoritas") return isFavorite;
+        return true;
       }
       return normalize(q[key]).includes(normalize(value));
     }));

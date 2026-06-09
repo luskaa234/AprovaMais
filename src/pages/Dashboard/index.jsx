@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
-import { Clock, ClipboardList, Dumbbell, MessageCircleQuestion, Target, Zap } from "lucide-react";
+import { BookOpen, CalendarCheck, ChevronRight, Clock, ClipboardList, Dumbbell, Flame, MessageCircleQuestion, Play, Target, Zap } from "lucide-react";
 import { AIPanel } from "../../ai";
-import { Badge, Button, Card } from "../../components";
+import { Badge, Button, Card, ProgressBar, cx } from "../../components";
 import { HeatmapCalendar, PerformanceChart, StudyTimeChart } from "../../charts";
 import { useInternalRouter, useUser } from "../../contexts";
 import { isSupabaseConfigured, supabase } from "../../lib/supabase";
@@ -14,6 +14,108 @@ const KpiCard = ({ label, value, icon: Icon }) => (
     <strong className="mt-1 block text-3xl text-white">{value}</strong>
   </Card>
 );
+
+const MobileMetricTile = ({ label, value, icon: Icon, tone, featured = false }) => (
+  <div className={cx("mobile-study-metric", tone, featured && "mobile-study-metric-featured")}>
+    <div className="mobile-study-metric-icon">
+      <Icon size={featured ? 22 : 18} strokeWidth={2.2} />
+    </div>
+    <span>{label}</span>
+    <strong>{value}</strong>
+  </div>
+);
+
+const MobileQuickAction = ({ icon: Icon, label, detail, onClick, tone }) => (
+  <button className={cx("mobile-study-action", tone)} onClick={onClick} type="button">
+    <span className="mobile-study-action-icon">
+      <Icon size={19} />
+    </span>
+    <span>
+      <strong>{label}</strong>
+      <small>{detail}</small>
+    </span>
+    <ChevronRight size={18} />
+  </button>
+);
+
+const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user }) => {
+  const [hours, questions, accuracy, streak, taf] = kpis;
+  const todayAccuracy = Number.parseInt(String(accuracy[1]), 10) || 0;
+  const tafValue = Number.parseFloat(String(taf[1])) || 0;
+  const planProgress = Math.min(100, Math.max(22, Math.round((todayAccuracy + tafValue * 10) / 2)));
+  const todayHit = performance.at(-1)?.acertos ?? todayAccuracy;
+  const firstName = user?.name?.split(" ")[0] || "Aluno";
+
+  return (
+    <div className="mobile-study-home md:hidden">
+      <section className="mobile-study-hero">
+        <div>
+          <span>Hoje</span>
+          <h1>Bom estudo, {firstName}</h1>
+          <p>Plano ativo para prova, revisao e TAF.</p>
+        </div>
+      </section>
+
+      <section className="mobile-study-progress">
+        <div className="mobile-study-progress-top">
+          <div>
+            <span>Missao do dia</span>
+            <strong>{planProgress}%</strong>
+          </div>
+        </div>
+        <ProgressBar value={planProgress} color="bg-emerald-500" />
+        <div className="mobile-study-progress-goals">
+          <span><BookOpen size={15} /> 40 questoes</span>
+          <span><Flame size={15} /> {streak[1]} dias</span>
+          <span><Dumbbell size={15} /> TAF {taf[1]}</span>
+        </div>
+      </section>
+
+      <div className="mobile-study-metrics">
+        <MobileMetricTile featured icon={Clock} label={hours[0]} tone="tone-blue" value={hours[1]} />
+        <MobileMetricTile icon={Target} label={accuracy[0]} tone="tone-emerald" value={accuracy[1]} />
+        <MobileMetricTile icon={ClipboardList} label={questions[0]} tone="tone-violet" value={questions[1]} />
+        <MobileMetricTile icon={Dumbbell} label={taf[0]} tone="tone-amber" value={taf[1]} />
+      </div>
+
+      <div className="mobile-study-section-title">
+        <h2>Acoes rapidas</h2>
+      </div>
+      <div className="mobile-study-actions">
+        <MobileQuickAction detail="Comecar bloco agora" icon={Play} label="Estudar" onClick={() => navigate("plano")} tone="tone-blue" />
+        <MobileQuickAction detail={`${revisoes.length} pendentes hoje`} icon={CalendarCheck} label="Revisar" onClick={() => navigate("revisao")} tone="tone-rose" />
+        <MobileQuickAction detail={`${todayHit}% no ultimo dia`} icon={Target} label="Questoes" onClick={() => navigate("questoes")} tone="tone-emerald" />
+      </div>
+
+      <section className="mobile-study-card">
+        <div className="mobile-study-card-header">
+          <h2>Proximas revisoes</h2>
+          <button onClick={() => navigate("revisao")} type="button">Ver</button>
+        </div>
+        {revisoes.slice(0, 3).map((item) => (
+          <div className="mobile-study-list-item" key={item.id || item.assuntoId}>
+            <span>{item.frente || item.assunto}</span>
+            <Badge variant="warning">{item.urgencia || item.proxima || "hoje"}</Badge>
+          </div>
+        ))}
+      </section>
+
+      <section className="mobile-study-card">
+        <div className="mobile-study-card-header">
+          <h2>Ranking</h2>
+          <button onClick={() => navigate("perfil")} type="button">Perfil</button>
+        </div>
+        {ranking.slice(0, 3).map((item) => (
+          <div className="mobile-study-rank" key={item.nome}>
+            <strong>{item.posicao}</strong>
+            <span>{item.nome}</span>
+            <b>{item.pontos}</b>
+          </div>
+        ))}
+      </section>
+    </div>
+  );
+};
 
 export default function DashboardPage() {
   const { user } = useUser();
@@ -89,7 +191,10 @@ export default function DashboardPage() {
   ];
 
   return (
-    <div>
+    <>
+      <MobileDashboard kpis={kpis} navigate={navigate} performance={performance} ranking={ranking} revisoes={revisoes} user={user} />
+
+      <div className="hidden md:block">
       <div className="mb-5 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
         <div>
           <h1 className="text-3xl font-black text-white">Dashboard</h1>
@@ -151,6 +256,7 @@ export default function DashboardPage() {
           />
         </Card>
       </div>
-    </div>
+      </div>
+    </>
   );
 }
