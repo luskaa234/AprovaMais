@@ -1,7 +1,24 @@
 import { memo, useCallback, useEffect, useRef, useState } from "react";
 import { BookOpenCheck, Send } from "lucide-react";
-import { Avatar, Button, Input } from "../components";
+import { Button, Input } from "../components";
 import { useAI } from "../hooks";
+
+const AssistantCharacter = memo(({ small = false }) => (
+  <div className={small ? "grid size-9 shrink-0 place-items-center rounded-lg bg-blue-50" : "grid place-items-center"}>
+    <svg width={small ? 28 : 132} height={small ? 28 : 132} viewBox="0 0 132 132" role="img" aria-label="Assistente Aprova">
+      <circle cx="66" cy="66" r="58" fill="#dbeafe" />
+      <path d="M38 73c0-24 12-39 28-39s28 15 28 39v18c0 8-6 14-14 14H52c-8 0-14-6-14-14V73Z" fill="#2563eb" />
+      <path d="M45 70c0-20 9-32 21-32s21 12 21 32v9c0 7-5 12-12 12H57c-7 0-12-5-12-12v-9Z" fill="#f8fafc" />
+      <circle cx="57" cy="68" r="4" fill="#1e293b" />
+      <circle cx="75" cy="68" r="4" fill="#1e293b" />
+      <path d="M58 80c5 5 17 5 22 0" fill="none" stroke="#1e293b" strokeLinecap="round" strokeWidth="4" />
+      <path d="M39 54c-8 2-14 9-14 18 0 8 5 15 12 18" fill="none" stroke="#2563eb" strokeLinecap="round" strokeWidth="8" />
+      <path d="M93 54c8 2 14 9 14 18 0 8-5 15-12 18" fill="none" stroke="#2563eb" strokeLinecap="round" strokeWidth="8" />
+      <path d="M52 31h28l-5-12H57l-5 12Z" fill="#1d4ed8" />
+    </svg>
+  </div>
+));
+AssistantCharacter.displayName = "AssistantCharacter";
 
 export const AIChat = memo(() => {
   const [messages, setMessages] = useState([
@@ -27,13 +44,21 @@ export const AIChat = memo(() => {
 
   return (
     <div className="flex h-full flex-col">
+      <div className="mb-4 flex items-center gap-4 rounded-lg border border-blue-200 bg-blue-50 p-4 text-slate-800">
+        <AssistantCharacter />
+        <div>
+          <p className="text-xs font-black uppercase tracking-wide text-blue-700">Aprova Assistente</p>
+          <h2 className="text-xl font-black">Seu tutor de revisao e questoes</h2>
+          <p className="text-sm text-slate-600">Peça explicacoes, planos curtos, mapas mentais ou revisoes por assunto.</p>
+        </div>
+      </div>
       <div className="flex-1 overflow-auto rounded-lg border border-gray-800 bg-gray-950 p-4">
         {messages.map((message, index) => (
           <div
             key={`${message.role}-${index}`}
             className={`mb-3 flex gap-2 ${message.role === "user" ? "justify-end" : "justify-start"}`}
           >
-            {message.role === "ai" ? <Avatar name="AP" size="sm" /> : null}
+            {message.role === "ai" ? <AssistantCharacter small /> : null}
             <div
               className={`max-w-[82%] rounded-lg p-3 text-sm ${
                 message.role === "user" ? "bg-blue-600 text-white" : "bg-gray-900 text-gray-200"
@@ -45,7 +70,7 @@ export const AIChat = memo(() => {
         ))}
         {isStreaming ? (
           <div className="flex gap-2">
-            <Avatar name="AP" size="sm" />
+            <AssistantCharacter small />
             <div className="max-w-[82%] rounded-lg bg-gray-900 p-3 text-sm text-gray-200">
               {streamText}
               <span className="animate-pulse">|</span>

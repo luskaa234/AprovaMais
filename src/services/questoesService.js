@@ -7,6 +7,7 @@ let localQuestoesCache = null;
 let localStatsCache = null;
 let localCatalogCache = null;
 const localChunkCache = new Map();
+const FILTER_CHUNK_LIMIT = 18;
 
 async function getLocalCatalog() {
   if (localCatalogCache) return localCatalogCache;
@@ -65,6 +66,7 @@ function rowMatches(q, filters = {}) {
 
 function mapQuestao(row) {
   const gabarito = String(row.gabarito || "").toLowerCase();
+  const ano = row.ano || String(row.enunciado || "").match(/\b(20\d{2})\b/)?.[1] || "";
   return {
     id: row.id,
     codigo: row.codigo,
@@ -82,11 +84,21 @@ function mapQuestao(row) {
     materia: row.materia,
     assunto: row.topico || row.materia,
     topico: row.topico,
-    ano: row.ano,
+    ano,
     dificuldade: row.dificuldade || "medio",
     tags: [row.materia, row.topico].filter(Boolean),
     estatisticas: { tentativas: 0, acertos: 0 },
   };
+}
+
+function findCachedQuestaoById(id) {
+  const fromStore = useQuestoesStore.getState().questoes.find((questao) => questao.id === id);
+  if (fromStore) return fromStore;
+  for (const rows of localChunkCache.values()) {
+    const found = rows.find((questao) => questao.id === id);
+    if (found) return found;
+  }
+  return null;
 }
 
 /**
@@ -136,17 +148,20 @@ export const questoesService = {
     }
 
     const chunks = filters.materia ? catalog.chunks.filter((chunk) => normalize(chunk.materia).includes(normalize(filters.materia))) : catalog.chunks;
+    const candidateChunks = chunks.slice(0, FILTER_CHUNK_LIMIT);
     const items = [];
     let matched = 0;
-    for (const chunk of chunks) {
+    for (const chunk of candidateChunks) {
       const rows = await getLocalChunk(chunk.path);
       for (const row of rows) {
         if (!rowMatches(row, filters)) continue;
         if (matched >= offset && items.length < pageSize) items.push(row);
         matched += 1;
+        if (items.length >= pageSize && matched >= offset + pageSize * 4) break;
       }
+      if (items.length >= pageSize && matched >= offset + pageSize * 4) break;
     }
-    return { items, total: matched, stats };
+    return { items, total: Math.max(matched, items.length), stats };
   },
   async getAll(filters = {}) {
     if (!isSupabaseConfigured) {
@@ -218,7 +233,30 @@ export const questoesService = {
       if (error) throw error;
       return mapQuestao(data);
     }
-    return useQuestoesStore.getState().questoes.find((questao) => questao.id === id);
+    return findCachedQuestaoById(id) || useQuestoesStore.getState().questoes.find((questao) => questao.id === id);
+  },
+  async getByIds(ids = []) {
+    const wanted = new Set(ids);
+    const found = new Map();
+    useQuestoesStore.getState().questoes.forEach((questao) => {
+      if (wanted.has(questao.id)) found.set(questao.id, questao);
+    });
+    for (const rows of localChunkCache.values()) {
+      rows.forEach((questao) => {
+        if (wanted.has(questao.id)) found.set(questao.id, questao);
+      });
+    }
+    if (!isSupabaseConfigured && found.size < wanted.size) {
+      const catalog = await getLocalCatalog();
+      for (const chunk of catalog.chunks.slice(0, FILTER_CHUNK_LIMIT)) {
+        const rows = await getLocalChunk(chunk.path);
+        rows.forEach((questao) => {
+          if (wanted.has(questao.id)) found.set(questao.id, questao);
+        });
+        if (found.size >= wanted.size) break;
+      }
+    }
+    return ids.map((id) => found.get(id)).filter(Boolean);
   },
   async responder(id, alternativaId, tempo = 0) {
     if (isSupabaseConfigured) {
@@ -238,7 +276,15 @@ export const questoesService = {
       }
       return { correta: acertou, gabarito: questao.gabarito };
     }
-    return useQuestoesStore.getState().responder(id, alternativaId);
+    const questao = findCachedQuestaoById(id);
+    if (!questao) return useQuestoesStore.getState().responder(id, alternativaId);
+    const acertou = String(questao.gabarito).toLowerCase() === String(alternativaId).toLowerCase();
+    const tentativa = { questaoId: id, resposta: alternativaId, acertou, tempo, data: new Date().toISOString() };
+    useQuestoesStore.setState((state) => ({
+      tentativas: [tentativa, ...state.tentativas],
+      caderno: acertou || state.caderno.includes(id) ? state.caderno : [id, ...state.caderno],
+    }));
+    return { correta: acertou, gabarito: questao.gabarito };
   },
   async salvar(id) {
     if (isSupabaseConfigured) {

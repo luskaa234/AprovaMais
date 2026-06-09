@@ -2,11 +2,9 @@ import { useCallback, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { Filter, Sparkles } from "lucide-react";
 import { Button, Card, Input, Select } from "../../components";
-import { RetentionRadarChart } from "../../charts";
 import { Modal } from "../../modals";
 import { useAsyncData } from "../../hooks";
 import { flashcardsService } from "../../services";
-import { useFlashcardsStore } from "../../stores";
 import { DeckCard } from "./DeckCard";
 
 export default function FlashcardsPage() {
@@ -17,7 +15,6 @@ export default function FlashcardsPage() {
   const [modal, setModal] = useState(false);
   const [cardIndex, setCardIndex] = useState(0);
   const [filters, setFilters] = useState({ concurso: "", materia: "", assunto: "", nivel: "", status: "" });
-  const sessoes = useFlashcardsStore((state) => state.sessoes);
   const deckStatus = useCallback((item) => item.retencao >= 80 ? "Dominado" : item.retencao > 0 ? "Revisando" : "Novo", []);
   const deckLevel = useCallback((item) => item.retencao >= 75 ? "Avancado" : item.retencao >= 45 ? "Intermediario" : "Basico", []);
   const decoratedDecks = useMemo(() => decks.map((item, index) => ({
@@ -36,7 +33,6 @@ export default function FlashcardsPage() {
     return true;
   }), [decoratedDecks, filters]);
   const activeDeck = filteredDecks.find((item) => item.id === deck?.id) || filteredDecks[0];
-  const radar = useMemo(() => filteredDecks.map((item) => ({ label: item.materia.split(" ")[0], valor: item.retencao })), [filteredDecks]);
   const currentCard = activeDeck?.cards[cardIndex % (activeDeck?.cards.length || 1)];
 
   const generate = useCallback(async () => {
@@ -61,7 +57,7 @@ export default function FlashcardsPage() {
         </div>
         <Button icon={Sparkles} onClick={() => setModal(true)}>Gerar deck</Button>
       </div>
-      <div className="grid gap-4 xl:grid-cols-[0.85fr_1.15fr_0.8fr]">
+      <div className="grid gap-4 xl:grid-cols-[420px_1fr]">
         <div className="space-y-3">
           <Card hover={false}>
             <div className="mb-3 flex items-center gap-2 text-sm font-bold text-white"><Filter size={16} /> Filtros</div>
@@ -77,7 +73,7 @@ export default function FlashcardsPage() {
             {filteredDecks.map((item) => <DeckCard key={item.id} deck={item} active={activeDeck?.id === item.id} onSelect={(next) => { setDeck(next); setCardIndex(0); setFlipped(false); }} />)}
           </div>
         </div>
-        <Card className="grid place-items-center">
+        <Card hover={false} className="grid min-h-[68vh] place-items-center">
           <p className="mb-3 text-sm font-semibold text-gray-400">{activeDeck?.materia || "Selecione um deck"}</p>
           <button onClick={() => setFlipped((value) => !value)} className="h-[26rem] w-full max-w-xl [perspective:1000px]" aria-label="Virar flashcard">
             <motion.div className="relative h-full w-full rounded-lg [transform-style:preserve-3d]" animate={{ rotateY: flipped ? 180 : 0 }} transition={{ duration: 0.6 }}>
@@ -94,12 +90,6 @@ export default function FlashcardsPage() {
               <Button key={label} variant={index === 0 ? "danger" : "secondary"} onClick={() => rate(quality)}>{label}</Button>
             ))}
           </div>
-        </Card>
-        <Card>
-          <h2 className="mb-3 font-bold text-white">Retencao por deck</h2>
-          <RetentionRadarChart data={radar} />
-          <h3 className="mt-4 font-bold text-white">Historico de sessoes</h3>
-          {sessoes.slice(0, 5).map((item, index) => <div key={item.id} className="border-b border-gray-800 py-2 text-sm text-gray-300">Sessao {index + 1}: qualidade {item.qualidade} em {item.data.slice(0, 10)}</div>)}
         </Card>
       </div>
       <Modal open={modal} title="Gerar deck com IA" onClose={() => setModal(false)} footer={<Button onClick={generate}>Confirmar geracao</Button>}>
