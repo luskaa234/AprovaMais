@@ -172,24 +172,17 @@ export default function FlashcardsPage() {
                 {activeCard.assunto !== activeCard.materia ? <Badge variant="neutral">{activeCard.assunto}</Badge> : null}
                 <Badge variant={activeCard.dificuldade === "Dificil" ? "error" : "neutral"}>{activeCard.dificuldade}</Badge>
               </div>
-              <div className="mx-auto max-w-2xl cursor-pointer" onClick={() => setShowAnswer(true)} style={{ perspective: "1000px" }}>
+              <div className="mx-auto max-w-3xl cursor-pointer" onClick={() => setShowAnswer(true)} style={{ perspective: "1000px" }}>
                 <motion.div
                   animate={{ rotateY: showAnswer ? 180 : 0 }}
-                  className="relative min-h-48"
+                  className="relative"
                   style={{ transformStyle: "preserve-3d" }}
                   transition={{ duration: 0.45, ease: "easeInOut" }}
                 >
-                  <div className="absolute inset-0 grid place-items-center rounded-lg bg-white p-4" style={{ backfaceVisibility: "hidden" }}>
+                  <div className="rounded-lg bg-white px-2 py-4" style={{ backfaceVisibility: "hidden" }}>
                     <div>
-                      <h2 className="text-xl font-black leading-snug text-slate-950 sm:text-2xl">{activeCard.pergunta}</h2>
+                      <h2 className="text-lg font-black leading-snug text-slate-950 sm:text-xl lg:text-2xl">{activeCard.pergunta}</h2>
                       <p className="mt-4 text-xs font-semibold text-slate-400">Clique ou responda para ver o verso</p>
-                    </div>
-                  </div>
-                  <div className="absolute inset-0 grid place-items-center rounded-lg border border-emerald-200 bg-emerald-50 p-4 text-center" style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)" }}>
-                    <div>
-                      <strong className="mb-2 block text-emerald-700">Resposta</strong>
-                      <p className="text-sm leading-relaxed text-slate-700">{activeCard.resposta}</p>
-                      {activeCard.explicacao ? <p className="mt-3 text-sm text-slate-500">{activeCard.explicacao}</p> : null}
                     </div>
                   </div>
                 </motion.div>
@@ -212,6 +205,11 @@ export default function FlashcardsPage() {
                 </div>
               ) : (
                 <div className="mt-8 grid gap-4">
+                  <div className="rounded-lg border border-emerald-200 bg-emerald-50 p-4 text-left text-sm leading-relaxed text-slate-700">
+                    <strong className="mb-2 block text-emerald-700">Resposta</strong>
+                    {activeCard.resposta}
+                    {activeCard.explicacao ? <p className="mt-3 text-slate-500">{activeCard.explicacao}</p> : null}
+                  </div>
                   <div className="rounded-lg border border-slate-200 bg-white p-4 text-left text-sm leading-relaxed text-slate-600">
                     <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
                       <strong className="text-slate-950">Sua resposta</strong>

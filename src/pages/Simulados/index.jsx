@@ -61,8 +61,8 @@ function SimuladoExecucao({ simulado, onFinish }) {
   const answer = useCallback((option) => setAnswers((items) => ({ ...items, [question.id]: option })), [question.id]);
 
   return (
-    <div className="grid gap-4 xl:grid-cols-[1fr_260px]">
-      <Card hover={false}>
+    <div className="mx-auto grid max-w-[1400px] gap-4 xl:grid-cols-[minmax(0,1fr)_240px]">
+      <Card hover={false} className="self-start">
         <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
           <div>
             <h1 className="text-2xl font-black text-white">{simulado.nome}</h1>
@@ -103,9 +103,9 @@ function SimuladoExecucao({ simulado, onFinish }) {
         </div>
       </Card>
 
-      <Card hover={false}>
+      <Card hover={false} className="self-start xl:sticky xl:top-28">
         <h2 className="mb-3 font-bold text-white">Paleta</h2>
-        <div className="grid grid-cols-5 gap-2">
+        <div className="grid grid-cols-6 gap-2 xl:grid-cols-5">
           {simulado.questoes.map((item, index) => (
             <button
               key={item.id}
