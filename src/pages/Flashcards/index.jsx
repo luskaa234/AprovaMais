@@ -105,7 +105,7 @@ export default function FlashcardsPage() {
     if (tab === "Plataforma" && card.origem !== "plataforma") return false;
     return true;
   }), [cards, deferredQuery, filters, tab]);
-  const visibleCards = filtered.slice(0, 80);
+  const visibleCards = filtered.slice(0, 18);
   const activeCard = cards.find((card) => card.id === activeId) || filtered[0];
   const dueCards = cards.filter((card) => card.proximaRevisao <= today() && card.status !== "Arquivado");
   const accuracy = cards.length ? Math.round(cards.reduce((sum, card) => sum + card.dominio, 0) / cards.length) : 0;
@@ -156,16 +156,16 @@ export default function FlashcardsPage() {
   ];
 
   return (
-    <div className="mx-auto max-w-[1500px] pb-10">
+    <div className="mx-auto max-w-[1500px] pb-10 text-slate-900">
       <div className="mb-5 flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
-        <h1 className="text-3xl font-black text-white">Flashcards</h1>
+        <h1 className="text-3xl font-black text-slate-950">Flashcards</h1>
         <div className="flex flex-col gap-2 sm:flex-row">
           <Input icon={Search} placeholder="Buscar flashcards..." value={query} onChange={(event) => setQuery(event.target.value)} />
           <Button icon={Plus} onClick={() => { setDraft(emptyDraft()); setModal("create"); }}>Novo flashcard</Button>
         </div>
       </div>
 
-      <div className="mb-4 grid gap-3 rounded-lg border border-gray-800 bg-gray-950/70 p-4 md:grid-cols-2 xl:grid-cols-4">
+      <div className="mb-4 grid gap-3 rounded-lg border border-blue-100 bg-white p-4 shadow-sm md:grid-cols-2 xl:grid-cols-4">
         <Select label="Concurso" placeholder="Todos" options={unique(cards.map((card) => card.concurso))} value={filters.concurso} onChange={(event) => setFilters((current) => ({ ...current, concurso: event.target.value }))} />
         <Select label="Materia" placeholder="Todas" options={unique(cards.map((card) => card.materia))} value={filters.materia} onChange={(event) => setFilters((current) => ({ ...current, materia: event.target.value }))} />
         <Select label="Assunto" placeholder="Todos" options={unique(cards.map((card) => card.assunto))} value={filters.assunto} onChange={(event) => setFilters((current) => ({ ...current, assunto: event.target.value }))} />
@@ -176,12 +176,12 @@ export default function FlashcardsPage() {
         <Select label="Origem" placeholder="Todas" options={[{ value: "usuario", label: "Meus flashcards" }, { value: "plataforma", label: "Plataforma" }]} value={filters.origem} onChange={(event) => setFilters((current) => ({ ...current, origem: event.target.value }))} />
       </div>
 
-      <div className="grid gap-4 xl:grid-cols-[280px_1fr_300px]">
+      <div className="grid items-start gap-4 xl:grid-cols-[260px_minmax(0,1fr)_280px]">
         <aside className="space-y-4">
           {dashboard.map(([label, value, Icon], index) => (
-            <Card hover={false} className="p-4" key={label}>
+            <Card hover={false} className="border-blue-100 bg-white p-4 shadow-sm" key={label}>
               <div className="flex items-center justify-between gap-3">
-                <div><h2 className="text-sm font-bold text-white">{label}</h2><p className="mt-2 text-xs text-gray-400">{value}</p></div>
+                <div><h2 className="text-sm font-bold text-slate-950">{label}</h2><p className="mt-2 text-xs text-slate-500">{value}</p></div>
                 <span className="grid size-12 place-items-center rounded-full bg-blue-50 text-blue-700"><Icon size={18} /></span>
               </div>
               {index === 0 ? <Button className="mt-4 w-full" onClick={() => { setTab("Todos"); setActiveId(dueCards[0]?.id || filtered[0]?.id); }}>Iniciar revisao</Button> : null}
@@ -189,27 +189,27 @@ export default function FlashcardsPage() {
           ))}
         </aside>
 
-        <main className="rounded-lg border border-gray-800 bg-gray-950/70">
-          <div className="flex gap-2 overflow-x-auto border-b border-gray-800 px-4 pt-3">
-            {tabFilters.map((item) => <button key={item} onClick={() => setTab(item)} className={cx("whitespace-nowrap border-b-2 px-3 py-3 text-sm font-semibold", tab === item ? "border-blue-500 text-white" : "border-transparent text-gray-400 hover:text-white")}>{item}</button>)}
+        <main className="overflow-hidden rounded-lg border border-blue-100 bg-white shadow-sm">
+          <div className="flex gap-2 overflow-x-auto border-b border-slate-100 px-4 pt-3">
+            {tabFilters.map((item) => <button key={item} onClick={() => setTab(item)} className={cx("whitespace-nowrap border-b-2 px-3 py-3 text-sm font-semibold", tab === item ? "border-blue-600 text-blue-700" : "border-transparent text-slate-500 hover:text-slate-950")}>{item}</button>)}
           </div>
 
           {activeCard ? (
-            <div className="grid gap-4 p-4 lg:grid-cols-[1fr_280px]">
-              <section className="grid min-h-[420px] place-items-center rounded-lg border border-gray-800 bg-gray-900 p-6 text-center">
+            <div className="grid gap-4 p-4 lg:grid-cols-[minmax(0,1fr)_280px]">
+              <section className="grid min-h-[360px] place-items-center rounded-lg border border-blue-100 bg-white p-6 text-center shadow-sm">
                 <div className="w-full max-w-3xl">
                   <div className="mb-6 flex flex-wrap justify-center gap-2">
                     <Badge>{activeCard.materia}</Badge>
                     <Badge variant="neutral">{activeCard.assunto}</Badge>
                     <Badge variant={activeCard.dificuldade === "Dificil" ? "error" : "neutral"}>{activeCard.dificuldade}</Badge>
                   </div>
-                  <h2 className="text-2xl font-black leading-snug text-white">{activeCard.pergunta}</h2>
+                  <h2 className="text-2xl font-black leading-snug text-slate-950">{activeCard.pergunta}</h2>
                   {!showAnswer ? <Button className="mt-8" onClick={() => setShowAnswer(true)}>Ver resposta</Button> : (
                     <div className="mt-8 grid gap-4">
-                      <div className="rounded-lg bg-gray-950 p-4 text-left text-sm leading-relaxed text-gray-200">
-                        <strong className="block text-blue-300">Resposta</strong>
+                      <div className="rounded-lg border border-blue-100 bg-slate-50 p-4 text-left text-sm leading-relaxed text-slate-700">
+                        <strong className="block text-blue-700">Resposta</strong>
                         {activeCard.resposta}
-                        {activeCard.explicacao ? <p className="mt-3 text-gray-400">{activeCard.explicacao}</p> : null}
+                        {activeCard.explicacao ? <p className="mt-3 text-slate-500">{activeCard.explicacao}</p> : null}
                       </div>
                       <div className="grid gap-2 sm:grid-cols-4">
                         {reviewActions.map(([label, days, quality, variant]) => <Button key={label} variant={variant} onClick={() => review(activeCard, label, days, quality)}>{label}</Button>)}
@@ -219,11 +219,11 @@ export default function FlashcardsPage() {
                 </div>
               </section>
 
-              <section className="space-y-3">
+              <section className="max-h-[540px] space-y-3 overflow-y-auto pr-1">
                 {visibleCards.map((card) => (
-                  <button key={card.id} onClick={() => { setActiveId(card.id); setShowAnswer(false); }} className={cx("w-full rounded-lg border p-3 text-left transition", activeCard.id === card.id ? "border-blue-500 bg-blue-600 text-white" : "border-gray-800 bg-gray-900 text-gray-300 hover:border-blue-400")}>
+                  <button key={card.id} onClick={() => { setActiveId(card.id); setShowAnswer(false); }} className={cx("w-full rounded-lg border p-3 text-left transition", activeCard.id === card.id ? "border-blue-500 bg-blue-600 text-white shadow-sm" : "border-blue-100 bg-white text-slate-700 hover:border-blue-300 hover:bg-blue-50")}>
                     <div className="flex items-center justify-between gap-2"><strong className="line-clamp-1 text-sm">{card.pergunta}</strong><Bookmark size={15} className={card.favorito ? "fill-current" : ""} /></div>
-                    <p className="mt-1 text-xs opacity-75">{card.materia} · {card.status}</p>
+                    <p className="mt-1 text-xs opacity-75">{card.materia} - {card.status}</p>
                   </button>
                 ))}
               </section>
@@ -232,13 +232,13 @@ export default function FlashcardsPage() {
         </main>
 
         <aside className="space-y-4">
-          <Card hover={false}>
-            <h2 className="mb-3 font-bold text-white">Detalhes</h2>
+          <Card hover={false} className="border-blue-100 bg-white shadow-sm">
+            <h2 className="mb-3 font-bold text-slate-950">Detalhes</h2>
             {activeCard ? (
-              <div className="space-y-3 text-sm text-gray-400">
-                <p><strong className="text-gray-200">Proxima revisao:</strong> {activeCard.proximaRevisao}</p>
-                <p><strong className="text-gray-200">Dominio:</strong> {activeCard.dominio}%</p>
-                <p><strong className="text-gray-200">Origem:</strong> {activeCard.origem === "usuario" ? "Meus flashcards" : "Plataforma"}</p>
+              <div className="space-y-3 text-sm text-slate-600">
+                <p><strong className="text-slate-950">Proxima revisao:</strong> {activeCard.proximaRevisao}</p>
+                <p><strong className="text-slate-950">Dominio:</strong> {activeCard.dominio}%</p>
+                <p><strong className="text-slate-950">Origem:</strong> {activeCard.origem === "usuario" ? "Meus flashcards" : "Plataforma"}</p>
                 <div className="grid gap-2 pt-2">
                   <Button size="sm" variant="secondary" icon={Bookmark} onClick={() => toggleFavorite(activeCard)}>Favoritar</Button>
                   <Button size="sm" variant="secondary" icon={Edit3} onClick={() => editCard(activeCard)}>Editar</Button>
@@ -248,8 +248,8 @@ export default function FlashcardsPage() {
               </div>
             ) : null}
           </Card>
-          <Card hover={false}>
-            <h2 className="mb-3 font-bold text-white">Integracoes</h2>
+          <Card hover={false} className="border-blue-100 bg-white shadow-sm">
+            <h2 className="mb-3 font-bold text-slate-950">Integracoes</h2>
             <div className="grid gap-2">
               <Button size="sm" variant="ghost" icon={Brain} onClick={() => notify("Plano atualizado", "Flashcard enviado para o plano de estudos.")}>Enviar para o plano</Button>
               <Button size="sm" variant="ghost" icon={MoreVertical} onClick={() => notify("Fonte conectada", "Voce podera gerar cards de mapas, erros e leis secas.")}>Criar por fonte</Button>
