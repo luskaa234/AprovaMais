@@ -69,11 +69,20 @@ export const AIChat = memo(() => {
           </div>
         ))}
         {isStreaming ? (
-          <div className="flex gap-2">
+          <div className="flex items-center gap-2 text-sm text-gray-400">
             <AssistantCharacter small />
             <div className="max-w-[82%] rounded-lg bg-gray-900 p-3 text-sm text-gray-200">
-              {streamText}
-              <span className="animate-pulse">|</span>
+              {streamText || (
+                <span className="inline-flex items-center gap-2 text-gray-400">
+                  <span className="flex gap-1">
+                    <span className="animate-bounce">.</span>
+                    <span className="animate-bounce [animation-delay:150ms]">.</span>
+                    <span className="animate-bounce [animation-delay:300ms]">.</span>
+                  </span>
+                  Assistente digitando
+                </span>
+              )}
+              {streamText ? <span className="animate-pulse">|</span> : null}
             </div>
           </div>
         ) : null}
@@ -104,7 +113,12 @@ export const AIChat = memo(() => {
         <Input
           value={input}
           onChange={(event) => setInput(event.target.value)}
-          onKeyDown={(event) => event.key === "Enter" && send()}
+          onKeyDown={(event) => {
+            if (event.key === "Enter" && !event.shiftKey) {
+              event.preventDefault();
+              send();
+            }
+          }}
           placeholder="Digite sua pergunta"
           className="flex-1"
         />

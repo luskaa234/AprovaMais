@@ -1,4 +1,4 @@
-import { memo, useCallback, useState } from "react";
+import { memo, useCallback, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { AlertTriangle, Bookmark, CheckCircle2, Flag, Lightbulb, XCircle } from "lucide-react";
 import { Badge, Button, Card, cx } from "../../components";
@@ -14,6 +14,7 @@ export const QuestionCard = memo(({ questao, index = 0, onAnswer, onSave, onAddC
   const [selected, setSelected] = useState(null);
   const [confirmed, setConfirmed] = useState(false);
   const [result, setResult] = useState(null);
+  const cardRef = useRef(null);
 
   const handleAnswer = useCallback((id) => {
     setSelected(id);
@@ -22,16 +23,22 @@ export const QuestionCard = memo(({ questao, index = 0, onAnswer, onSave, onAddC
   }, []);
 
   const confirmAnswer = useCallback(async () => {
-    if (!selected) return;
+    if (!selected || confirmed) return;
     const next = await onAnswer(questao.id, selected);
     setResult(next);
     setConfirmed(true);
-  }, [onAnswer, questao.id, selected]);
+  }, [confirmed, onAnswer, questao.id, selected]);
+
+  const goNext = useCallback(() => {
+    const next = cardRef.current?.nextElementSibling;
+    next?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, []);
 
   const isCorrect = result?.correta ?? selected === questao.gabarito;
   const difficulty = String(questao.dificuldade || "medio").toLowerCase();
 
   return (
+    <div ref={cardRef}>
     <Card hover={false} className="overflow-hidden p-0">
       <div className="border-b border-gray-800 bg-gray-900/70 px-4 py-3">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
@@ -82,8 +89,9 @@ export const QuestionCard = memo(({ questao, index = 0, onAnswer, onSave, onAddC
         <div className="mt-4 flex flex-wrap gap-2">
           <Button disabled={!selected || confirmed} onClick={confirmAnswer}>Confirmar resposta</Button>
           <Button variant="ghost" icon={Bookmark} onClick={() => onSave(questao.id)}>Salvar</Button>
-          <Button variant="ghost" icon={AlertTriangle} onClick={() => onAddCaderno?.(questao.id)}>Caderno de erros</Button>
+          {confirmed && !isCorrect ? <Button variant="ghost" icon={AlertTriangle} onClick={() => onAddCaderno?.(questao.id)}>Adicionar ao caderno</Button> : null}
           <Button variant="ghost" icon={Flag} onClick={() => onReport(questao.id)}>Reportar</Button>
+          {confirmed ? <Button variant="secondary" onClick={goNext}>Proxima questao</Button> : null}
         </div>
 
         {confirmed ? (
@@ -103,6 +111,7 @@ export const QuestionCard = memo(({ questao, index = 0, onAnswer, onSave, onAddC
         ) : null}
       </div>
     </Card>
+    </div>
   );
 });
 QuestionCard.displayName = "QuestionCard";

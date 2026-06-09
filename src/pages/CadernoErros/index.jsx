@@ -11,6 +11,7 @@ import { groupCount } from "../../utils";
 export default function CadernoErrosPage() {
   const [filters, setFilters] = useState({ search: "", materia: "", banca: "", status: "" });
   const [extraQuestoes, setExtraQuestoes] = useState([]);
+  const [superadas, setSuperadas] = useState([]);
   const { addNotification } = useNotifications();
   const caderno = useQuestoesStore((state) => state.caderno);
   const tentativas = useQuestoesStore((state) => state.tentativas);
@@ -19,7 +20,7 @@ export default function CadernoErrosPage() {
   const { data = [] } = useAsyncData(load);
 
   const wrongMap = useMemo(() => new Map(tentativas.filter((item) => !item.acertou).map((item) => [item.questaoId, item])), [tentativas]);
-  const wrongIds = useMemo(() => new Set([...caderno, ...wrongMap.keys()]), [caderno, wrongMap]);
+  const wrongIds = useMemo(() => new Set([...caderno, ...wrongMap.keys()].filter((id) => !superadas.includes(id))), [caderno, superadas, wrongMap]);
   useEffect(() => {
     questoesService.getByIds([...wrongIds]).then(setExtraQuestoes).catch(() => setExtraQuestoes([]));
   }, [wrongIds]);
@@ -41,6 +42,7 @@ export default function CadernoErrosPage() {
 
   const superado = useCallback((id) => {
     removerCaderno(id);
+    setSuperadas((current) => current.includes(id) ? current : [...current, id]);
     addNotification({ type: "success", title: "Erro superado", message: "A questao saiu do caderno de erros." });
   }, [addNotification, removerCaderno]);
 

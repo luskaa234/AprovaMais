@@ -1,4 +1,5 @@
 import { useCallback, useDeferredValue, useMemo, useState } from "react";
+import { motion } from "framer-motion";
 import { Search } from "lucide-react";
 import { Badge, Button, EmptyState, Input, cx } from "../../components";
 import { useNotifications } from "../../contexts";
@@ -171,7 +172,28 @@ export default function FlashcardsPage() {
                 {activeCard.assunto !== activeCard.materia ? <Badge variant="neutral">{activeCard.assunto}</Badge> : null}
                 <Badge variant={activeCard.dificuldade === "Dificil" ? "error" : "neutral"}>{activeCard.dificuldade}</Badge>
               </div>
-              <h2 className="mx-auto max-w-2xl text-xl font-black leading-snug text-slate-950 sm:text-2xl">{activeCard.pergunta}</h2>
+              <div className="mx-auto max-w-2xl cursor-pointer" onClick={() => setShowAnswer(true)} style={{ perspective: "1000px" }}>
+                <motion.div
+                  animate={{ rotateY: showAnswer ? 180 : 0 }}
+                  className="relative min-h-48"
+                  style={{ transformStyle: "preserve-3d" }}
+                  transition={{ duration: 0.45, ease: "easeInOut" }}
+                >
+                  <div className="absolute inset-0 grid place-items-center rounded-lg bg-white p-4" style={{ backfaceVisibility: "hidden" }}>
+                    <div>
+                      <h2 className="text-xl font-black leading-snug text-slate-950 sm:text-2xl">{activeCard.pergunta}</h2>
+                      <p className="mt-4 text-xs font-semibold text-slate-400">Clique ou responda para ver o verso</p>
+                    </div>
+                  </div>
+                  <div className="absolute inset-0 grid place-items-center rounded-lg border border-emerald-200 bg-emerald-50 p-4 text-center" style={{ backfaceVisibility: "hidden", transform: "rotateY(180deg)" }}>
+                    <div>
+                      <strong className="mb-2 block text-emerald-700">Resposta</strong>
+                      <p className="text-sm leading-relaxed text-slate-700">{activeCard.resposta}</p>
+                      {activeCard.explicacao ? <p className="mt-3 text-sm text-slate-500">{activeCard.explicacao}</p> : null}
+                    </div>
+                  </div>
+                </motion.div>
+              </div>
 
               {!showAnswer ? (
                 <div className="mx-auto mt-8 grid max-w-2xl gap-3 text-left">
@@ -197,11 +219,6 @@ export default function FlashcardsPage() {
                     </div>
                     {studentAnswer.trim() || "Resposta mental, sem texto digitado."}
                     {answerFeedback ? <p className="mt-2 text-xs text-slate-500">{answerFeedback.helper}</p> : null}
-                  </div>
-                  <div className="rounded-lg border border-blue-100 bg-slate-50 p-4 text-left text-sm leading-relaxed text-slate-700">
-                    <strong className="block text-blue-700">Resposta</strong>
-                    {activeCard.resposta}
-                    {activeCard.explicacao ? <p className="mt-3 text-slate-500">{activeCard.explicacao}</p> : null}
                   </div>
                   <div className="grid gap-2 sm:grid-cols-3">
                     {reviewActions.map(([label, days, quality, variant]) => <Button key={label} variant={variant} onClick={() => review(activeCard, label, days, quality)}>{label}</Button>)}

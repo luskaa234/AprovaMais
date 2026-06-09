@@ -1,8 +1,9 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
-export function useTimer(initialSeconds = 1800) {
+export function useTimer(initialSeconds = 1800, onComplete) {
   const [seconds, setSeconds] = useState(initialSeconds);
   const [running, setRunning] = useState(false);
+  const completedRef = useRef(false);
 
   useEffect(() => {
     if (!running || seconds <= 0) return undefined;
@@ -10,9 +11,21 @@ export function useTimer(initialSeconds = 1800) {
     return () => clearInterval(timer);
   }, [running, seconds]);
 
+  useEffect(() => {
+    if (seconds > 0) {
+      completedRef.current = false;
+      return;
+    }
+    if (!running || completedRef.current) return;
+    completedRef.current = true;
+    setRunning(false);
+    onComplete?.();
+  }, [onComplete, running, seconds]);
+
   const start = useCallback(() => setRunning(true), []);
   const stop = useCallback(() => setRunning(false), []);
   const reset = useCallback((next = initialSeconds) => {
+    completedRef.current = false;
     setSeconds(next);
     setRunning(false);
   }, [initialSeconds]);

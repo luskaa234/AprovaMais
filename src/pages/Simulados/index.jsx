@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { CheckCircle2, Flag, Play, RotateCcw, Timer, XCircle } from "lucide-react";
 import { Badge, Button, Card, Select, cx } from "../../components";
 import { DistributionPieChart, PerformanceChart, StudyTimeChart } from "../../charts";
@@ -47,13 +47,18 @@ function SimuladoExecucao({ simulado, onFinish }) {
   const [answers, setAnswers] = useState({});
   const [marked, setMarked] = useState({});
   const { seconds, start, stop } = useTimer(simulado.tempoMinutos * 60);
-  useMemo(() => start(), [start]);
-  const question = simulado.questoes[current];
-  const answer = useCallback((option) => setAnswers((items) => ({ ...items, [question.id]: option })), [question.id]);
   const finish = useCallback(() => {
     stop();
     onFinish(simuladosService.calcularResultado(simulado, answers));
   }, [answers, onFinish, simulado, stop]);
+  useEffect(() => {
+    start();
+  }, [start]);
+  useEffect(() => {
+    if (seconds === 0) finish();
+  }, [finish, seconds]);
+  const question = simulado.questoes[current];
+  const answer = useCallback((option) => setAnswers((items) => ({ ...items, [question.id]: option })), [question.id]);
 
   return (
     <div className="grid gap-4 xl:grid-cols-[1fr_260px]">

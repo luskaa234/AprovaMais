@@ -9,6 +9,12 @@ function fallbackResposta(mensagem) {
 }
 
 export const aiService = {
+  async gerarTexto(prompt) {
+    if (!model) return fallbackResposta(prompt);
+    const result = await model.generateContent(prompt);
+    return result.response.text();
+  },
+
   async enviarMensagem(mensagem, historico = [], contextoAluno = {}) {
     if (!model) return fallbackResposta(mensagem);
 

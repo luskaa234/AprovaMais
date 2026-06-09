@@ -132,7 +132,9 @@ export default function DashboardPage() {
       const date = new Date();
       date.setDate(date.getDate() - (6 - offset));
       const key = date.toISOString().slice(0, 10);
-      return { label: labels[date.getDay()], acertos: tentativas.filter((item) => item.acertou && item.data.slice(0, 10) === key).length };
+      const doDia = tentativas.filter((item) => item.data?.slice(0, 10) === key);
+      const acertos = doDia.filter((item) => item.acertou).length;
+      return { label: labels[date.getDay()], acertos: doDia.length ? Math.round((acertos / doDia.length) * 100) : 0 };
     });
   }, [tentativas]);
 
@@ -182,10 +184,13 @@ export default function DashboardPage() {
   const revisoes = remote.revisoes || revisoesLocal;
   const ranking = remote.ranking || rankingLocal;
   const performance = remote.performance?.length ? remote.performance : localPerformance;
+  const questoesResolvidas = tentativas.length;
+  const acertos = tentativas.filter((item) => item.acertou).length;
+  const taxaAcertos = questoesResolvidas ? Math.round((acertos / questoesResolvidas) * 100) : 0;
   const kpis = [
     ["Horas estudadas", stats.horas_estudadas ?? user.stats.hours, Clock],
-    ["Questoes resolvidas", stats.questoes_resolvidas ?? user.stats.questions, ClipboardList],
-    ["Taxa de acertos", `${stats.taxa_acertos ?? user.stats.accuracy}%`, Target],
+    ["Questoes resolvidas", questoesResolvidas || stats.questoes_resolvidas || user.stats.questions, ClipboardList],
+    ["Taxa de acertos", `${questoesResolvidas ? taxaAcertos : (stats.taxa_acertos ?? user.stats.accuracy)}%`, Target],
     ["Sequencia", stats.sequencia_dias ?? user.stats.streak, Zap],
     ["TAF", `${stats.taf_nota ?? user.stats.taf}/10`, Dumbbell],
   ];
