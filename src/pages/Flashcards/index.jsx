@@ -25,6 +25,38 @@ function unique(items) {
   return [...new Set(items.filter(Boolean))];
 }
 
+function normalizeAnswerText(text = "") {
+  return text
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^\w\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function getJudgment(text = "") {
+  const value = normalizeAnswerText(text);
+  if (!value) return null;
+  const words = value.split(" ");
+  const has = (...terms) => terms.some((term) => words.includes(term) || value.includes(term));
+  if (has("errado", "incorreto", "falso", "falsa", "nao", "não")) return "errado";
+  if (has("certo", "correto", "correta", "verdadeiro", "verdadeira", "sim")) return "certo";
+  return null;
+}
+
+function getAnswerFeedback(card, studentAnswer) {
+  const expected = getJudgment(card?.resposta);
+  const informed = getJudgment(studentAnswer);
+  if (!studentAnswer.trim() || !expected || !informed) return null;
+  const correct = expected === informed;
+  return {
+    correct,
+    label: correct ? "Resposta aceita" : "Resposta diferente do gabarito",
+    helper: correct ? "Sua resposta indica o mesmo sentido do gabarito." : "Compare sua resposta com o verso antes de avaliar.",
+  };
+}
+
 function normalizeCard(deck, card, deckIndex, cardIndex) {
   const acertos = card.acertos ?? card.repetitions ?? card.repeticoes ?? 0;
   const erros = card.erros ?? 0;
@@ -110,6 +142,7 @@ export default function FlashcardsPage() {
   const activeCard = cards.find((card) => card.id === activeId) || filtered[0];
   const dueCards = cards.filter((card) => card.proximaRevisao <= today() && card.status !== "Arquivado");
   const accuracy = cards.length ? Math.round(cards.reduce((sum, card) => sum + card.dominio, 0) / cards.length) : 0;
+  const answerFeedback = activeCard ? getAnswerFeedback(activeCard, studentAnswer) : null;
 
   const notify = useCallback((title, message) => addNotification({ type: "success", title, message }), [addNotification]);
   const saveCard = useCallback(() => {
@@ -221,8 +254,12 @@ export default function FlashcardsPage() {
                   ) : (
                     <div className="mt-8 grid gap-4">
                       <div className="rounded-lg border border-slate-200 bg-white p-4 text-left text-sm leading-relaxed text-slate-600">
-                        <strong className="block text-slate-950">Sua resposta</strong>
+                        <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
+                          <strong className="text-slate-950">Sua resposta</strong>
+                          {answerFeedback ? <span className={cx("rounded-full px-3 py-1 text-xs font-bold", answerFeedback.correct ? "bg-emerald-50 text-emerald-700" : "bg-amber-50 text-amber-700")}>{answerFeedback.label}</span> : null}
+                        </div>
                         {studentAnswer.trim() || "Resposta mental, sem texto digitado."}
+                        {answerFeedback ? <p className="mt-2 text-xs text-slate-500">{answerFeedback.helper}</p> : null}
                       </div>
                       <div className="rounded-lg border border-blue-100 bg-slate-50 p-4 text-left text-sm leading-relaxed text-slate-700">
                         <strong className="block text-blue-700">Resposta</strong>
