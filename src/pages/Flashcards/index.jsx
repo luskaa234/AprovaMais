@@ -16,10 +16,9 @@ const statusOptions = ["Novo", "Em revisao", "Dominado", "Arquivado"];
 const difficultyOptions = ["Facil", "Medio", "Dificil"];
 const tabFilters = ["Todos", "Novos", "Em revisao", "Dominados", "Favoritos", "Meus", "Plataforma"];
 const reviewActions = [
-  ["Nao sei", 0, 0, "danger"],
-  ["Dificil", 1, 1, "secondary"],
-  ["Bom", 3, 3, "secondary"],
-  ["Facil", 7, 5, "primary"],
+  ["Errei", 0, 0, "danger"],
+  ["Fazer depois", 1, 1, "secondary"],
+  ["Acertei", 5, 5, "primary"],
 ];
 
 function unique(items) {
@@ -33,13 +32,14 @@ function normalizeCard(deck, card, deckIndex, cardIndex) {
   const status = card.status || (dominio >= 80 ? "Dominado" : acertos ? "Em revisao" : "Novo");
   const pergunta = card.pergunta || card.frente || `${deck.materia}: conceito essencial`;
   const resposta = card.resposta || card.verso || "Resposta ainda nao cadastrada.";
+  const explicacao = card.explicacao && card.explicacao !== resposta ? card.explicacao : "";
   return {
     id: card.id || `${deck.id}-${cardIndex}`,
     pergunta,
     resposta,
-    explicacao: card.explicacao || resposta,
+    explicacao,
     materia: card.materia || deck.materia || "Geral",
-    assunto: card.assunto || deck.assunto || pergunta.split(":")[0] || deck.materia || "Geral",
+    assunto: card.assunto || deck.assunto || deck.materia || "Geral",
     subassunto: card.subassunto || deck.subassunto || "Pontos de prova",
     concurso: card.concurso || deck.concurso || (deckIndex % 2 ? "PRF" : "PM"),
     dificuldade: card.dificuldade || (deck.retencao >= 75 ? "Dificil" : deck.retencao >= 45 ? "Medio" : "Facil"),
@@ -191,7 +191,7 @@ export default function FlashcardsPage() {
 
         <main className="overflow-hidden rounded-lg border border-blue-100 bg-white shadow-sm">
           <div className="flex gap-2 overflow-x-auto border-b border-slate-100 px-4 pt-3">
-            {tabFilters.map((item) => <button key={item} onClick={() => setTab(item)} className={cx("whitespace-nowrap border-b-2 px-3 py-3 text-sm font-semibold", tab === item ? "border-blue-600 text-blue-700" : "border-transparent text-slate-500 hover:text-slate-950")}>{item}</button>)}
+            {tabFilters.map((item) => <button key={item} onClick={() => { setTab(item); setActiveId(null); setShowAnswer(false); }} className={cx("whitespace-nowrap border-b-2 px-3 py-3 text-sm font-semibold", tab === item ? "border-blue-600 text-blue-700" : "border-transparent text-slate-500 hover:text-slate-950")}>{item}</button>)}
           </div>
 
           {activeCard ? (
@@ -200,10 +200,10 @@ export default function FlashcardsPage() {
                 <div className="w-full max-w-3xl">
                   <div className="mb-6 flex flex-wrap justify-center gap-2">
                     <Badge>{activeCard.materia}</Badge>
-                    <Badge variant="neutral">{activeCard.assunto}</Badge>
+                    {activeCard.assunto !== activeCard.materia ? <Badge variant="neutral">{activeCard.assunto}</Badge> : null}
                     <Badge variant={activeCard.dificuldade === "Dificil" ? "error" : "neutral"}>{activeCard.dificuldade}</Badge>
                   </div>
-                  <h2 className="text-2xl font-black leading-snug text-slate-950">{activeCard.pergunta}</h2>
+                  <h2 className="mx-auto max-w-2xl text-xl font-black leading-snug text-slate-950 sm:text-2xl">{activeCard.pergunta}</h2>
                   {!showAnswer ? <Button className="mt-8" onClick={() => setShowAnswer(true)}>Ver resposta</Button> : (
                     <div className="mt-8 grid gap-4">
                       <div className="rounded-lg border border-blue-100 bg-slate-50 p-4 text-left text-sm leading-relaxed text-slate-700">
@@ -211,7 +211,7 @@ export default function FlashcardsPage() {
                         {activeCard.resposta}
                         {activeCard.explicacao ? <p className="mt-3 text-slate-500">{activeCard.explicacao}</p> : null}
                       </div>
-                      <div className="grid gap-2 sm:grid-cols-4">
+                      <div className="grid gap-2 sm:grid-cols-3">
                         {reviewActions.map(([label, days, quality, variant]) => <Button key={label} variant={variant} onClick={() => review(activeCard, label, days, quality)}>{label}</Button>)}
                       </div>
                     </div>
