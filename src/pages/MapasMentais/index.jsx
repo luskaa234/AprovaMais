@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useDeferredValue, useMemo, useRef, useState } from "react";
 import { Bookmark, Brain, CalendarCheck, Download, FileQuestion, FileText, Focus, Maximize2, Printer, Search, Share2, Sparkles, ZoomIn, ZoomOut } from "lucide-react";
 import { Badge, Button, Card, EmptyState, Input, Select, cx } from "../../components";
 import { Modal } from "../../modals";
@@ -32,16 +32,18 @@ export default function MapasMentaisPage() {
   const [full, setFull] = useState(false);
   const [pan, setPan] = useState({ x: 0, y: 0 });
   const [drag, setDrag] = useState(null);
+  const frameRef = useRef(null);
   const [collapsed, setCollapsed] = useState({});
   const [studied, setStudied] = useState({});
   const [favorites, setFavorites] = useState({});
   const [filters, setFilters] = useState({ search: "", concurso: "", materia: "", assunto: "", banca: "", nivel: "", favoritos: "", ordenacao: "" });
+  const deferredSearch = useDeferredValue(filters.search);
 
   const enriched = useMemo(() => mapas.map((item) => ({ ...item, favorito: favorites[item.id] ?? item.favorito, estudado: studied[item.id] })), [favorites, mapas, studied]);
   const filtered = useMemo(() => {
     const items = enriched.filter((item) => {
       const haystack = [item.titulo, item.materia, item.assunto, item.concurso, item.banca, ...(item.tags || [])].join(" ").toLowerCase();
-      if (filters.search && !haystack.includes(filters.search.toLowerCase())) return false;
+      if (deferredSearch && !haystack.includes(deferredSearch.toLowerCase())) return false;
       if (filters.concurso && item.concurso !== filters.concurso) return false;
       if (filters.materia && item.materia !== filters.materia) return false;
       if (filters.assunto && item.assunto !== filters.assunto) return false;
@@ -53,7 +55,8 @@ export default function MapasMentaisPage() {
     if (filters.ordenacao === "mais_acessados") return [...items].sort((a, b) => (b.acessos || 0) - (a.acessos || 0));
     if (filters.ordenacao === "recentes") return [...items].sort((a, b) => String(b.atualizadoEm).localeCompare(String(a.atualizadoEm)));
     return items;
-  }, [enriched, filters]);
+  }, [deferredSearch, enriched, filters]);
+  const visibleMaps = useMemo(() => filtered.slice(0, 60), [filtered]);
   const mapa = filtered.find((item) => item.id === active?.id) || filtered[0];
   const branches = useMemo(() => mapa?.root?.children || [], [mapa]);
   const points = useMemo(() => nodePoints(branches, collapsed), [branches, collapsed]);
@@ -69,7 +72,9 @@ export default function MapasMentaisPage() {
 
   const onMove = useCallback((event) => {
     if (!drag) return;
-    setPan({ x: event.clientX - drag.x, y: event.clientY - drag.y });
+    const next = { x: event.clientX - drag.x, y: event.clientY - drag.y };
+    if (frameRef.current) cancelAnimationFrame(frameRef.current);
+    frameRef.current = requestAnimationFrame(() => setPan(next));
   }, [drag]);
 
   const viewer = (
@@ -158,7 +163,7 @@ export default function MapasMentaisPage() {
 
       <div className="grid gap-4 xl:grid-cols-[360px_1fr_300px]">
         <div className="space-y-3">
-          {filtered.length ? filtered.map((item) => (
+          {filtered.length ? visibleMaps.map((item) => (
             <button key={item.id} onClick={() => { setActive(item); setCollapsed({}); }} className={cx("w-full rounded-lg border p-4 text-left transition", mapa?.id === item.id ? "border-blue-500 bg-blue-600 text-white" : "border-gray-800 bg-gray-950 text-gray-300 hover:border-blue-400")}>
               <div className="mb-3 flex items-center justify-between gap-2"><strong className="text-base">{item.titulo || item.materia}</strong><Bookmark size={17} className={item.favorito ? "fill-current" : ""} /></div>
               <p className="text-sm opacity-85">{item.concurso} · {item.materia} · {item.assunto}</p>

@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { CalendarDays, CheckCircle2, ChevronLeft, ChevronRight, Clock, Filter, MoreVertical, Plus, RotateCcw, Target, TrendingUp } from "lucide-react";
 import { Badge, Button, Input, Select, cx } from "../../components";
 import { Modal } from "../../modals";
@@ -121,7 +121,16 @@ function applyFilters(activities, filters) {
   });
 }
 
-function ActivityRow({ activity, onComplete, onReschedule }) {
+function readStorage(key, fallback) {
+  try {
+    const value = localStorage.getItem(key);
+    return value ? JSON.parse(value) : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+function ActivityRow({ activity, onStatus }) {
   return (
     <div className="grid gap-3 border-b border-slate-100 px-4 py-3 last:border-b-0 md:grid-cols-[86px_1fr_120px_92px_40px] md:items-center">
       <div className="text-sm font-semibold text-slate-700">
@@ -138,10 +147,10 @@ function ActivityRow({ activity, onComplete, onReschedule }) {
       <Badge variant={typeBadge(activity.type)}>{activity.type}</Badge>
       <span className={cx("rounded-full px-2 py-1 text-xs font-bold", activity.status === "Concluida" ? "bg-emerald-50 text-emerald-700" : activity.status === "Em andamento" ? "bg-blue-50 text-blue-700" : activity.status === "Reagendada" ? "bg-amber-50 text-amber-700" : "bg-slate-100 text-slate-600")}>{activity.status}</span>
       <div className="flex gap-1">
-        <button className="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-700" onClick={() => activity.status === "Concluida" ? onReschedule(activity.id) : onComplete(activity.id)} type="button">
+        <button className="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-700" onClick={() => onStatus(activity.id, activity.status === "Concluida" ? "Reagendada" : "Concluida")} type="button">
           {activity.status === "Concluida" ? <RotateCcw size={16} /> : <CheckCircle2 size={16} />}
         </button>
-        <button className="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-700" type="button"><MoreVertical size={16} /></button>
+        <button className="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-700" onClick={() => onStatus(activity.id, activity.status === "Em andamento" ? "Pendente" : "Em andamento")} type="button"><MoreVertical size={16} /></button>
       </div>
     </div>
   );
@@ -165,8 +174,8 @@ export default function PlanoPage() {
   const [month, setMonth] = useState(new Date(now.getFullYear(), now.getMonth(), 1));
   const [selectedDate, setSelectedDate] = useState(isoDate(now));
   const [filters, setFilters] = useState({ materia: "", tipo: "", status: "", concurso: "", periodo: "" });
-  const [localStatus, setLocalStatus] = useState({});
-  const [extraActivities, setExtraActivities] = useState([]);
+  const [localStatus, setLocalStatus] = useState(() => readStorage("aprova-plano-status", {}));
+  const [extraActivities, setExtraActivities] = useState(() => readStorage("aprova-plano-atividades", []));
   const [modal, setModal] = useState(false);
   const [draft, setDraft] = useState({ title: "", materia: "", type: "Estudo", hour: "08:00", duration: 60, concurso: "PRF", status: "Pendente" });
 
@@ -203,8 +212,15 @@ export default function PlanoPage() {
   const focus = [...new Set(weekActivities.map((item) => item.materia))].slice(0, 4);
   const distribution = typeOptions.map((type) => ({ type, value: weekActivities.filter((item) => item.type === type).length }));
 
-  const completeActivity = useCallback((id) => setLocalStatus((current) => ({ ...current, [id]: "Concluida" })), []);
-  const rescheduleActivity = useCallback((id) => setLocalStatus((current) => ({ ...current, [id]: "Reagendada" })), []);
+  useEffect(() => {
+    localStorage.setItem("aprova-plano-status", JSON.stringify(localStatus));
+  }, [localStatus]);
+
+  useEffect(() => {
+    localStorage.setItem("aprova-plano-atividades", JSON.stringify(extraActivities));
+  }, [extraActivities]);
+
+  const updateActivityStatus = useCallback((id, status) => setLocalStatus((current) => ({ ...current, [id]: status })), []);
   const goToday = useCallback(() => {
     const current = new Date();
     setMonth(new Date(current.getFullYear(), current.getMonth(), 1));
@@ -318,7 +334,7 @@ export default function PlanoPage() {
               </div>
               <Button size="sm" variant="ghost" icon={Plus} onClick={() => setModal(true)}>Adicionar atividade</Button>
             </div>
-            {selectedActivities.length ? selectedActivities.map((activity) => <ActivityRow key={activity.id} activity={activity} onComplete={completeActivity} onReschedule={rescheduleActivity} />) : <div className="p-8 text-center text-sm text-slate-500">Nenhuma atividade para este dia com os filtros atuais.</div>}
+            {selectedActivities.length ? selectedActivities.map((activity) => <ActivityRow key={activity.id} activity={activity} onStatus={updateActivityStatus} />) : <div className="p-8 text-center text-sm text-slate-500">Nenhuma atividade para este dia com os filtros atuais.</div>}
           </section>
 
           <section className="grid gap-4 rounded-lg border border-blue-100 bg-white p-4 shadow-sm md:grid-cols-5">

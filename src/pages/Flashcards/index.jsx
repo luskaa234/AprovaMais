@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useDeferredValue, useMemo, useState } from "react";
 import { BarChart3, Bookmark, Brain, CalendarCheck, CheckCircle2, Clock, Plus, Search, Sparkles, Target } from "lucide-react";
 import { Badge, Button, Card, EmptyState, Input, Select, cx } from "../../components";
 import { Modal } from "../../modals";
@@ -54,8 +54,9 @@ function metricTone(value) {
 
 export default function FlashcardsPage() {
   const load = useCallback(() => flashcardsService.getDecks(), []);
-  const { data: decks = [], setData, refetch } = useAsyncData(load);
+  const { data: decks = [], setData } = useAsyncData(load);
   const [query, setQuery] = useState("");
+  const deferredQuery = useDeferredValue(query);
   const [mode, setMode] = useState(studyModes[0]);
   const [filters, setFilters] = useState({ concurso: "", materia: "", assunto: "", subassunto: "", dificuldade: "", status: "", origem: "", favoritos: "" });
   const [studyCard, setStudyCard] = useState(null);
@@ -64,13 +65,12 @@ export default function FlashcardsPage() {
   const [draft, setDraft] = useState({ frente: "", verso: "", materia: "", concurso: "", assunto: "", subassunto: "", dificuldade: "medio" });
 
   const cards = useMemo(() => decks.flatMap((deck, deckIndex) => (deck.cards || []).map((card, cardIndex) => normalizeCard(deck, card, deckIndex, cardIndex))), [decks]);
-  const sessoes = useMemo(() => cards.reduce((sum, card) => sum + (card.repetitions || 0), 0), [cards]);
   const accuracy = useMemo(() => cards.length ? Math.round(cards.reduce((sum, card) => sum + Math.min(100, (card.repetitions || 0) * 22), 0) / cards.length) : 0, [cards]);
   const dueCards = useMemo(() => cards.filter((card) => card.dueAt <= today()), [cards]);
 
   const filteredCards = useMemo(() => cards.filter((card) => {
     const haystack = [card.frente, card.verso, card.materia, card.assunto, card.subassunto, card.concurso].join(" ").toLowerCase();
-    if (query && !haystack.includes(query.toLowerCase())) return false;
+    if (deferredQuery && !haystack.includes(deferredQuery.toLowerCase())) return false;
     if (filters.concurso && card.concurso !== filters.concurso) return false;
     if (filters.materia && card.materia !== filters.materia) return false;
     if (filters.assunto && card.assunto !== filters.assunto) return false;
@@ -82,7 +82,8 @@ export default function FlashcardsPage() {
     if (mode === "Revisao do dia" && card.dueAt > today()) return false;
     if (mode === "Revisao de erros" && card.repetitions > 0) return false;
     return true;
-  }), [cards, filters, mode, query]);
+  }), [cards, deferredQuery, filters, mode]);
+  const visibleCards = useMemo(() => filteredCards.slice(0, 48), [filteredCards]);
 
   const dashboard = [
     ["Revisoes pendentes", dueCards.length ? "Prioridade hoje" : "Em dia", CalendarCheck],
@@ -100,11 +101,14 @@ export default function FlashcardsPage() {
 
   const rate = useCallback(async (quality) => {
     if (!studyCard) return;
-    await flashcardsService.avaliar(studyCard, quality);
+    const updated = await flashcardsService.avaliar(studyCard, quality);
+    setData((items) => items.map((deck) => ({
+      ...deck,
+      cards: (deck.cards || []).map((card) => card.id === studyCard.id ? { ...card, ...updated } : card),
+    })));
     setShowAnswer(false);
     setStudyCard(filteredCards.find((card) => card.id !== studyCard.id) || null);
-    refetch();
-  }, [filteredCards, refetch, studyCard]);
+  }, [filteredCards, setData, studyCard]);
 
   return (
     <div className="mx-auto max-w-[1500px]">
@@ -148,7 +152,7 @@ export default function FlashcardsPage() {
 
       {filteredCards.length ? (
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-          {filteredCards.map((card) => (
+          {visibleCards.map((card) => (
             <Card hover={false} key={card.id} className="flex min-h-64 flex-col">
               <div className="mb-3 flex items-start justify-between gap-2">
                 <div className="flex flex-wrap gap-2"><Badge>{card.materia}</Badge><Badge variant="neutral">{card.status}</Badge></div>
