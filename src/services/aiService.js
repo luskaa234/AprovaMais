@@ -1,8 +1,9 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+const modelName = import.meta.env.VITE_GEMINI_MODEL || "gemini-2.0-flash";
 const genAI = apiKey ? new GoogleGenerativeAI(apiKey) : null;
-const model = genAI?.getGenerativeModel({ model: "gemini-1.5-flash" });
+const model = genAI?.getGenerativeModel({ model: modelName });
 
 function fallbackResposta(mensagem) {
   return `Ainda nao encontrei uma chave Gemini configurada. Para responder "${mensagem}", preencha VITE_GEMINI_API_KEY no .env e reinicie o Vite.`;
