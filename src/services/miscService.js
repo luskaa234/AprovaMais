@@ -21,9 +21,18 @@ export const mapasService = {
   async getMapas() {
     const imported = (await getManifest())
       .filter((item) => item.categoria === "Mapas mentais")
-      .map((item) => ({
+      .map((item, index) => ({
         id: item.id,
-        materia: item.titulo,
+        titulo: item.titulo,
+        materia: item.materia || item.titulo,
+        concurso: item.concurso || (index % 2 ? "PRF" : "PM"),
+        assunto: item.assunto || item.materia || "Revisao geral",
+        banca: item.banca || ["FGV", "CEBRASPE", "IBFC"][index % 3],
+        nivel: item.nivel || ["Basico", "Intermediario", "Avancado"][index % 3],
+        atualizadoEm: item.atualizadoEm || "2026-06-09",
+        tags: [item.tipo, item.categoria, item.materia].filter(Boolean),
+        acessos: 40 + index * 7,
+        favorito: index % 4 === 0,
         materialUrl: item.url,
         root: {
           label: item.materia,
@@ -33,7 +42,19 @@ export const mapasService = {
           ],
         },
       }));
-    return [...imported, ...useMiscStore.getState().mapas];
+    const local = useMiscStore.getState().mapas.map((item, index) => ({
+      ...item,
+      titulo: item.titulo || item.materia,
+      concurso: item.concurso || ["PM", "PRF", "TJ"][index % 3],
+      assunto: item.assunto || item.root?.children?.[0]?.label || "Fundamentos",
+      banca: item.banca || ["FGV", "Vunesp", "CEBRASPE"][index % 3],
+      nivel: item.nivel || ["Basico", "Intermediario", "Avancado"][index % 3],
+      atualizadoEm: item.atualizadoEm || "2026-06-09",
+      tags: item.tags || ["mapa mental", item.materia, "revisao"].filter(Boolean),
+      acessos: item.acessos || 25 + index * 9,
+      favorito: Boolean(item.favorito),
+    }));
+    return [...imported, ...local];
   },
 };
 export const leisService = { async getLeis() { return useLeisStore.getState().leis; } };

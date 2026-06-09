@@ -90,4 +90,34 @@ export const flashcardsService = {
   async gerarDeckIA(prompt) {
     return useFlashcardsStore.getState().gerarDeckIA(prompt);
   },
+  async criarFlashcard(payload = {}) {
+    const card = {
+      id: `card-${Date.now()}`,
+      frente: payload.frente || "Nova pergunta",
+      verso: payload.verso || "Resposta em construcao.",
+      easeFactor: 2.5,
+      interval: 1,
+      repetitions: 0,
+      dueAt: new Date().toISOString().slice(0, 10),
+      assunto: payload.assunto,
+      subassunto: payload.subassunto,
+      dificuldade: payload.dificuldade || "medio",
+      favorito: Boolean(payload.favorito),
+      origem: "usuario",
+    };
+    const deck = {
+      id: `deck-user-${Date.now()}`,
+      titulo: payload.titulo || `Flashcards: ${payload.materia || "Geral"}`,
+      materia: payload.materia || "Geral",
+      concurso: payload.concurso || "Geral",
+      assunto: payload.assunto || payload.materia || "Geral",
+      subassunto: payload.subassunto || "Revisao",
+      origem: "usuario",
+      retencao: 0,
+      cards: [card],
+    };
+    useFlashcardsStore.setState((state) => ({ decks: [deck, ...state.decks] }));
+    localDecksCache = null;
+    return deck;
+  },
 };
