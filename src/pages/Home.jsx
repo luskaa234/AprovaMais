@@ -22,7 +22,9 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import FlashcardsFlipStack from "../components/landing/FlashcardsFlipStack";
 import Footer from "../components/landing/Footer";
+import HeroVideoSection from "../components/landing/HeroVideoSection";
 import mascotWelcome from "../assets/mascote/mascote-boas-vindas.png";
 import mascotCelebration from "../assets/mascote/mascote-comemoracao.png";
 
@@ -132,6 +134,8 @@ export default function Home() {
           </div>
         </section>
 
+        <HeroVideoSection />
+
         <section className="honest-section honest-contests" id="concursos">
           <SectionHeading eyebrow="Feita para carreiras policiais e OAB" title="Foco no que você vai prestar">
             Conteúdo organizado para os objetivos que a plataforma realmente atende hoje.
@@ -161,6 +165,8 @@ export default function Home() {
             ))}
           </div>
         </section>
+
+        <FlashcardsFlipStack />
 
         <section className="honest-section" id="como-funciona">
           <SectionHeading eyebrow="Como funciona" title="Um ciclo simples para estudar com precisão">

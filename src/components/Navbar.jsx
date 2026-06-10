@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 const navLinks = [
   { label: "Início", href: "/#inicio" },
-  { label: "Concursos", href: "/#concursos" },
-  { label: "Recursos", href: "/#recursos" },
   { label: "Como funciona", href: "/#como-funciona" },
-  { label: "7 dias grátis", href: "/#planos" },
+  { label: "Matérias", href: "/#recursos" },
+  { label: "Simulados", href: "/#sistema" },
+  { label: "Planos", href: "/#planos" },
 ];
 
 function Navbar() {
