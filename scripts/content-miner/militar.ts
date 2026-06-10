@@ -16,6 +16,8 @@ type ManifestEntry = {
   formato?: ExamFormat;
   totalQuestoes?: number;
   materiaPorNumero?: Array<{ inicio: number; fim: number; materia: string }>;
+  importarMaterias?: string[];
+  gabaritoTipo?: string;
   aplicadaEm?: string;
   status?: string;
   fonteUrl?: string;
@@ -34,6 +36,7 @@ type MilitarQuestion = {
   formato: ExamFormat;
   numero: number;
   materia: string;
+  dificuldade: string;
   enunciado: string;
   alternativas: Array<{ letra: string; texto: string }>;
   afirmacao?: string;
@@ -278,6 +281,29 @@ function matterForQuestion(entry: ManifestEntry, numero: number, fallback: strin
   return range?.materia || fallback;
 }
 
+function shouldImportQuestion(entry: ManifestEntry, materia: string) {
+  if (!entry.importarMaterias?.length) return true;
+  const current = normalizeText(materia);
+  return entry.importarMaterias.some((item) => current === normalizeText(item));
+}
+
+function difficultyForQuestion(materia: string, text: string) {
+  const normalizedMatter = normalizeText(materia);
+  const normalizedText = normalizeText(text);
+  if (normalizedMatter.includes("raciocinio") && /(proposicional|equivalent|negacao|argument|silog|sentenca|conectivo|tabela verdade|condicional)/.test(normalizedText)) return "dificil";
+  if (normalizedMatter.includes("matematica") && /(probabilidade|combinatoria|combinacao|arranjo|permutacao|juros compostos|estatistica|desvio|progressao|pa|pg)/.test(normalizedText)) return "dificil";
+  return "medio";
+}
+
+function sliceAnswerType(text: string, typeLabel: string) {
+  const normalizedLabel = normalizeText(typeLabel);
+  const lines = text.split("\n");
+  const start = lines.findIndex((line) => normalizeText(line).includes(normalizedLabel));
+  if (start < 0) return text;
+  const end = lines.findIndex((line, index) => index > start && /tipo\s+\d+/i.test(normalizeText(line)));
+  return lines.slice(start, end > start ? end : undefined).join("\n");
+}
+
 function detectFormat(entry: ManifestEntry, proofText: string): ExamFormat {
   if (entry.formato) return entry.formato;
   const normalized = normalizeText(proofText.slice(0, 10_000));
@@ -296,6 +322,7 @@ function extractMultipleChoice(entry: ManifestEntry, proofText: string, answers:
     const answer = answers.get(block.number);
     if (!answer || answer === "anulada") continue;
     currentMatter = matterForQuestion(entry, block.number, detectMatter(block.body.slice(0, 350), currentMatter));
+    if (!shouldImportQuestion(entry, currentMatter)) continue;
 
     if (format === "certo_errado") {
       const statement = cleanCebraspeStatement(block.body);
@@ -344,6 +371,7 @@ function makeQuestion(entry: ManifestEntry, numero: number, materia: string, enu
     formato,
     numero,
     materia,
+    dificuldade: difficultyForQuestion(materia, `${enunciado} ${afirmacao || ""}`),
     enunciado,
     alternativas,
     afirmacao,
@@ -364,7 +392,7 @@ function toDbRow(question: MilitarQuestion) {
     banca: question.banca,
     materia: question.materia,
     topico: `${question.orgao} ${question.cargo} ${question.ano} - Q${question.numero}`,
-    dificuldade: "medio",
+    dificuldade: question.dificuldade,
     enunciado: question.enunciado || question.afirmacao || "",
     alternativa_a: alternatives.alternativa_a || (question.formato === "certo_errado" ? "Certo" : ""),
     alternativa_b: alternatives.alternativa_b || (question.formato === "certo_errado" ? "Errado" : ""),
@@ -415,7 +443,8 @@ async function processEntry(entry: ManifestEntry) {
   await downloadOrCopy(entry.provaPdf || "", proofPath);
   await downloadOrCopy(entry.gabaritoPdf || "", answerPath);
 
-  const [proofText, answerText] = await Promise.all([extractPdfText(proofPath), extractPdfText(answerPath)]);
+  const [proofText, rawAnswerText] = await Promise.all([extractPdfText(proofPath), extractPdfText(answerPath)]);
+  const answerText = entry.gabaritoTipo ? sliceAnswerType(rawAnswerText, entry.gabaritoTipo) : rawAnswerText;
   const format = detectFormat(entry, proofText);
   const answers = parseAnswers(answerText, entry.totalQuestoes || 0);
   const questions = extractMultipleChoice(entry, proofText, answers, format);

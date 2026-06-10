@@ -193,5 +193,57 @@
     "anuladas": 2,
     "descartadas": 0,
     "motivo": "ok"
+  },
+  {
+    "slug": "pm-ba-soldado-2023-fcc",
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "status": "ativo",
+    "extraidas": 16,
+    "validas": 16,
+    "anuladas": 0,
+    "descartadas": 64,
+    "motivo": "ok"
+  },
+  {
+    "slug": "pmto-quadro-de-pracas-da-policia-militar-2025-fgv",
+    "orgao": "PMTO",
+    "cargo": "Quadro de Pracas da Policia Militar",
+    "ano": 2025,
+    "banca": "FGV",
+    "status": "ativo",
+    "extraidas": 15,
+    "validas": 15,
+    "anuladas": 0,
+    "descartadas": 39,
+    "motivo": "ok"
+  },
+  {
+    "slug": "pmsp-soldado-2025-fgv",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "status": "ativo",
+    "extraidas": 32,
+    "validas": 32,
+    "anuladas": 0,
+    "descartadas": 28,
+    "motivo": "ok"
+  },
+  {
+    "slug": "tj-sp-escrevente-tecnico-judiciario-2023-vunesp",
+    "orgao": "TJ-SP",
+    "cargo": "Escrevente Tecnico Judiciario",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "status": "pendente_gabarito_legivel",
+    "extraidas": 0,
+    "validas": 0,
+    "anuladas": 0,
+    "descartadas": 0,
+    "motivo": "prova/gabarito definitivo ausente no manifesto"
   }
 ]

@@ -9,6 +9,7 @@
     "formato": "multipla_escolha",
     "numero": 1,
     "materia": "Portugues",
+    "dificuldade": "medio",
     "enunciado": "A partir da leitura atenta do texto, pode-se perceber que o enunciador enfatiza o seguinte aspecto das queimadas em Moçambique:",
     "alternativas": [
       {
@@ -50,6 +51,7 @@
     "formato": "multipla_escolha",
     "numero": 2,
     "materia": "Portugues",
+    "dificuldade": "medio",
     "enunciado": "Ao longo do texto, a expressão “Na realidade” cumpre papel coesivo e é empregada no 2º, no 3º e no 5º parágrafos. Essa expressão equivale, semanticamente, a:",
     "alternativas": [
       {
@@ -91,6 +93,7 @@
     "formato": "multipla_escolha",
     "numero": 3,
     "materia": "Portugues",
+    "dificuldade": "medio",
     "enunciado": "A estrutura verbal destacada em “Sabe-se que a agricultura de corte e queimada” (3º§), manteria equivalência, em relação à voz passiva, com o uso de:",
     "alternativas": [
       {
@@ -132,6 +135,7 @@
     "formato": "multipla_escolha",
     "numero": 4,
     "materia": "Portugues",
+    "dificuldade": "medio",
     "enunciado": "Ao considerar a passagem “De qualquer modo, não param de me pedir” (2º§), pode-se afirmar que o sujeito do verbo destacado é, sintaticamente, classificado como:",
     "alternativas": [
       {
@@ -173,6 +177,7 @@
     "formato": "multipla_escolha",
     "numero": 5,
     "materia": "Portugues",
+    "dificuldade": "medio",
     "enunciado": "No último período do texto, o enunciador atribui aos incêndios um sentido:",
     "alternativas": [
       {
@@ -214,6 +219,7 @@
     "formato": "multipla_escolha",
     "numero": 6,
     "materia": "Portugues",
+    "dificuldade": "medio",
     "enunciado": "No título “O incendiador de caminhos”, o vocábulo destacado tem em sua formação um morfema que indica “aquele que realiza determinada ação”. O morfema que confere esse sentido chama-se:",
     "alternativas": [
       {
@@ -255,6 +261,7 @@
     "formato": "multipla_escolha",
     "numero": 7,
     "materia": "Portugues",
+    "dificuldade": "medio",
     "enunciado": "O conectivo que introduz o segundo parágrafo relaciona-se com a informação dita anteriormente por meio de uma relação de:",
     "alternativas": [
       {
@@ -296,6 +303,7 @@
     "formato": "multipla_escolha",
     "numero": 8,
     "materia": "Portugues",
+    "dificuldade": "medio",
     "enunciado": "Em “Pois os homens visitadores percorrem a pé distâncias inacreditáveis” (6º§), a preposição destacada não recebe o acento grave, indicativo de crase. Assinale a alternativa em que esse acento deveria ser empregado.",
     "alternativas": [
       {
@@ -337,6 +345,7 @@
     "formato": "multipla_escolha",
     "numero": 9,
     "materia": "Portugues",
+    "dificuldade": "medio",
     "enunciado": "Na passagem “eu receio que seja uma das ingratas batalhas sem hipótese de sucesso imediato” (2º§), a figura de linguagem empregada:",
     "alternativas": [
       {
@@ -378,6 +387,7 @@
     "formato": "multipla_escolha",
     "numero": 10,
     "materia": "Portugues",
+    "dificuldade": "medio",
     "enunciado": "A classe gramatical do vocábulo destacado em “Os que adoram quantificar as relações sociais”(4º§) é:",
     "alternativas": [
       {
@@ -419,6 +429,7 @@
     "formato": "multipla_escolha",
     "numero": 11,
     "materia": "Portugues",
+    "dificuldade": "medio",
     "enunciado": "O vocábulo “boas-vindas” (6º§) é um substantivo composto. Dentre os vocábulos compostos abaixo, indique o que apresenta a flexão de número correta:",
     "alternativas": [
       {
@@ -460,6 +471,7 @@
     "formato": "multipla_escolha",
     "numero": 12,
     "materia": "Portugues",
+    "dificuldade": "medio",
     "enunciado": "Em “que irei falar neste breve depoimento” (3º§), o pronome que se encontra contraído no termo destacado pode ter seu emprego justificado por:",
     "alternativas": [
       {
@@ -501,6 +513,7 @@
     "formato": "multipla_escolha",
     "numero": 13,
     "materia": "Portugues",
+    "dificuldade": "medio",
     "enunciado": "No quarto parágrafo do texto, há o predomínio de um tempo verbal que encerra um valor expressivo. Trata-se do:",
     "alternativas": [
       {
@@ -542,6 +555,7 @@
     "formato": "multipla_escolha",
     "numero": 14,
     "materia": "Portugues",
+    "dificuldade": "medio",
     "enunciado": "Ao considerar o modo pelo qual o texto II organiza-se, percebe-se que ele pertence à tipologia:",
     "alternativas": [
       {
@@ -583,6 +597,7 @@
     "formato": "multipla_escolha",
     "numero": 15,
     "materia": "Portugues",
+    "dificuldade": "medio",
     "enunciado": "No título e no primeiro parágrafo, ocorrem as seguintes construções: “morrem afogadas” e “morrem por afogamento”. Embora indiquem o mesmo sentido, exercem, respectivamente, as seguintes funções sintáticas:",
     "alternativas": [
       {
@@ -624,6 +639,7 @@
     "formato": "multipla_escolha",
     "numero": 17,
     "materia": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
     "enunciado": "Foi realizada uma pesquisa sobre as preferências musicais em um grupo de 100 soldados para a realização de uma festa no quartel. Obteve-se o seguinte resultado: - 75 pessoas gostam de forró; - 35 pessoas gostam de funk;",
     "alternativas": [
       {
@@ -665,6 +681,7 @@
     "formato": "multipla_escolha",
     "numero": 18,
     "materia": "Matematica e Raciocinio Logico",
+    "dificuldade": "medio",
     "enunciado": "Dispomos de um uniforme composto por 3 camisas (branca, azul e cinza) e 2 calças (preta e azul). Assinale a alternativa que apresenta quantas variações únicas de uniforme podem ser criadas, ao escolher uma camisa e uma calça.",
     "alternativas": [
       {
@@ -706,6 +723,7 @@
     "formato": "multipla_escolha",
     "numero": 19,
     "materia": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
     "enunciado": "Numa escola houve problemas de segurança. A sala, que presenciou o problema, possui 30 alunos que são testemunhas, sendo 20 meninos e 10 meninas. Se uma testemunha é escolhida aleatoriamente, assinale a alternativa que apresenta qual é a probabilidade dela ser uma menina, aproximadamente.",
     "alternativas": [
       {
@@ -747,6 +765,7 @@
     "formato": "multipla_escolha",
     "numero": 20,
     "materia": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
     "enunciado": "Assinale a alternativa que apresenta quantas senhas diferentes de 6 caracteres podem ser formadas usando apenas as letras maiúsculas da palavra BRASIL, sem repetir nenhuma letra.",
     "alternativas": [
       {
@@ -788,6 +807,7 @@
     "formato": "multipla_escolha",
     "numero": 21,
     "materia": "Matematica e Raciocinio Logico",
+    "dificuldade": "medio",
     "enunciado": "A sequência crescente, a seguir, tem oito termos. Cada termo é um número primo. Assinale a alternativa que apresenta os números primos que estão faltando nesta sequência. 2, ____, 5, ____, 11, ____, 17, ____",
     "alternativas": [
       {
@@ -829,6 +849,7 @@
     "formato": "multipla_escolha",
     "numero": 22,
     "materia": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
     "enunciado": "Assinale a alternativa que identifica corretamente a ordem das alturas de Ana, Bernardo e Caetano (do maior para o menor), sabendo-se que: - Ana é mais alta que Bernardo em 5 cm;",
     "alternativas": [
       {
@@ -870,6 +891,7 @@
     "formato": "multipla_escolha",
     "numero": 23,
     "materia": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
     "enunciado": "Analise a sequência inversa apresentada a seguir: ____ - Diamante - Cabedelo - Bayeux - Areia Assinale a alternativa que apresenta a palavra que, de acordo com a lógica, preencha corretamente a lacuna.",
     "alternativas": [
       {
@@ -911,6 +933,7 @@
     "formato": "multipla_escolha",
     "numero": 24,
     "materia": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
     "enunciado": "Um grupo de amigos foi ao cinema e comprou ingressos para um filme de ação. O preço do ingresso era de R$100,00 para adultos e R$50,00 para estudantes. Considerando que o grupo gastou um total de R$450,00 e havia o mesmo número de estudantes e adultos, assinale a alternativa que apresenta quantas pessoas foram ao cinema.",
     "alternativas": [
       {
@@ -952,6 +975,7 @@
     "formato": "multipla_escolha",
     "numero": 25,
     "materia": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
     "enunciado": "Calcule o gasto com gasolina para uma viagem de ida e volta entre João Pessoa e Cajazeiras, sabendo que: - a distância entre as duas cidades é aproximadamente 600 km; - o consumo médio de um carro antigo é de 10 km/l; - o preço médio da gasolina é de R$6,00 por litro.",
     "alternativas": [
       {
@@ -993,6 +1017,7 @@
     "formato": "multipla_escolha",
     "numero": 26,
     "materia": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
     "enunciado": "Os trabalhos de pesquisa que versam sobre rede urbana sempre estiveram focados na análise dos papéis e funções dos centros urbanos de maior porte, como é o caso das pesquisas que tratam das cidades médias como principais elos de articulação da rede urbana. No estado da Paraíba sempre que é realizado algum estudo sobre rede urbana no estado, remete-se aos papéis e funções que são exercidas por três centros urbanos, são eles, João Pessoa, Campina Grande e Patos, sendo os dois primeiros colocados em maior evidência nas discussões (adaptado de Oliveira, 2019). Assinale a alternativa associada ao município de João Pessoa-PB, no que se refere à classificação de hierarquia dos centros urbanos brasileiros do Instituto Brasileiro de Geografia e Estatística (IBGE), de forma correta.",
     "alternativas": [
       {
@@ -1034,6 +1059,7 @@
     "formato": "multipla_escolha",
     "numero": 27,
     "materia": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
     "enunciado": "A tabela apresenta os IDHM (Índice de Desenvolvimento Humano) da Educação, Longevidade e Renda do estado da Paraíba, além de seus componentes, nos anos de 1991, 2000 e 2010. No que se refere à distribuição dos índices apresentados, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F). ( ) A Renda per capita mais que dobrou entre o período de 2000 e 2010. ( ) Entre todos os IDHM mostrados na tabela, o Longevidade foi o que mais cresceu entre 1991 e 2010. ( ) Pessoas entre 15 e 17 anos com Ensino Fundamental completo mais que quadruplicou entre 1991 e 2010. Assinale a alternativa que apresenta a sequência correta de cima para baixo.",
     "alternativas": [
       {
@@ -1075,6 +1101,7 @@
     "formato": "multipla_escolha",
     "numero": 29,
     "materia": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
     "enunciado": "A bacia hidrográfica possui área de 20.071,83 km² e é a segunda maior do estado. Ocupando cerca de 38% do território, nela habitam cerca de 1.828.178 pessoas, que correspondem a 52% da população do estado. Dentre as principais cidades no interior da bacia, cabe destaque para João Pessoa, capital do estado, e Campina Grande, considerado o segundo maior centro urbano estadual (adaptado de CODEVASF, 2022). Assinale a alternativa que apresenta a bacia hidrográfica a qual o texto acima faz referência e que está localizada na Paraíba, de forma correta.",
     "alternativas": [
       {
@@ -1116,6 +1143,7 @@
     "formato": "multipla_escolha",
     "numero": 30,
     "materia": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
     "enunciado": "Com o combate ao tráfico de escravos internacional, a partir da Lei de 1831, e a Lei Eusébio de Queiroz de 1850, a escravização interna entre as regiões do país ainda acontecia. Mesmo que um escravizado comprasse a liberdade individual, havia incerteza da efetividade do fim da escravidão e de que a população pobre teria sua liberdade ameaçada. Tanto os ex-escravizados, quanto a camada pobre da população, sabiam que só poderiam ter confiança na liberdade, se essa ocorresse numa dimensão coletiva (adaptado de DUARTE, 2021). O contexto histórico descrito no texto deu origem a uma revolta popular no estado da Paraíba. Assinale a alternativa que apresenta uma revolta popular ocorrida no estado da Paraíba.",
     "alternativas": [
       {
@@ -1157,6 +1185,7 @@
     "formato": "multipla_escolha",
     "numero": 31,
     "materia": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
     "enunciado": "O estado da Paraíba possui uma bandeira com as cores preta e vermelha, com a palavra “NEGO”, tempo presente do verbo negar. Ela foi inicialmente adotada em 25 de setembro de 1930, por meio da Lei Estadual n.º 704, expressando uma contestação do estado frente a um período político que se encerrava no Brasil. Assinale a alternativa que se refere ao momento político que se encerrava no Brasil no momento da criação da atual bandeira do estado da Paraíba, de forma correta.",
     "alternativas": [
       {
@@ -1198,6 +1227,7 @@
     "formato": "multipla_escolha",
     "numero": 32,
     "materia": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
     "enunciado": "O processo de conquista da Paraíba apresentou obstáculos para a coroa portuguesa e exigiu diversas expedições para que fosse concluída, em 1585 (Adaptado de LIRA, 1997). Assinale a alternativa que se refere aos obstáculos citados no texto.",
     "alternativas": [
       {
@@ -1239,6 +1269,7 @@
     "formato": "multipla_escolha",
     "numero": 33,
     "materia": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
     "enunciado": "Cento e quinze anos depois de serem expulsos, os (as) ______ voltaram à Paraíba fundando um colégio onde ensinavam latim, filosofia e letras. Passado algum tempo, fundaram um Seminário junto à Igreja de Nossa Senhora da Conceição. Atualmente essa área corresponde ao Jardim Palácio do Governo. Em 1728, eles (as) foram novamente expulsos (as) (adaptado de LIRA, 1999). As alternativas abaixo correspondem a diferentes ordens religiosas presentes no território brasileiro que contribuíram para o processo de formação histórico, político, social e cultural do país. Assinale a alternativa que preencha corretamente a lacuna.",
     "alternativas": [
       {
@@ -1280,6 +1311,7 @@
     "formato": "multipla_escolha",
     "numero": 35,
     "materia": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
     "enunciado": "Coube ao governo da Paraíba incutir em sua população valores cívicos, patrióticos e morais. Neste sentido, as representações da imprensa oficial paraibana buscavam a todo tempo propagar ideais nacionalistas e patrióticos e externar a imagem de um país dentro da ordem e do progresso. E a atuação do interventor Ruy Carneiro (1940 – 1945) foi de grande destaque, pois agiu intensamente na propagação de ideais, visando a construção de um sentimento de paraibanidade em favor da guerra (adaptado de SILVA, 2016). Assinale a alternativa correspondente ao momento histórico que o excerto faz referência, de forma correta.",
     "alternativas": [
       {
@@ -1321,6 +1353,7 @@
     "formato": "multipla_escolha",
     "numero": 36,
     "materia": "Informatica",
+    "dificuldade": "medio",
     "enunciado": "Assinale a alternativa que apresenta o conceito de Internet.",
     "alternativas": [
       {
@@ -1362,6 +1395,7 @@
     "formato": "multipla_escolha",
     "numero": 37,
     "materia": "Informatica",
+    "dificuldade": "medio",
     "enunciado": "Assinale a alternativa que apresenta especificamente uma ferramenta de correio eletrônico.",
     "alternativas": [
       {
@@ -1403,6 +1437,7 @@
     "formato": "multipla_escolha",
     "numero": 38,
     "materia": "Informatica",
+    "dificuldade": "medio",
     "enunciado": "O aplicativo mais adequado e mais rico em recursos para edição de textos é:",
     "alternativas": [
       {
@@ -1444,6 +1479,7 @@
     "formato": "multipla_escolha",
     "numero": 39,
     "materia": "Informatica",
+    "dificuldade": "medio",
     "enunciado": "Assinale a alternativa que define o que é phishing.",
     "alternativas": [
       {
@@ -1485,6 +1521,7 @@
     "formato": "multipla_escolha",
     "numero": 40,
     "materia": "Informatica",
+    "dificuldade": "medio",
     "enunciado": "Antivírus é:",
     "alternativas": [
       {
@@ -1526,6 +1563,7 @@
     "formato": "multipla_escolha",
     "numero": 41,
     "materia": "Informatica",
+    "dificuldade": "medio",
     "enunciado": "Assinale a alternativa que define o que é cloud computing (computação na nuvem).",
     "alternativas": [
       {
@@ -1567,6 +1605,7 @@
     "formato": "multipla_escolha",
     "numero": 42,
     "materia": "Informatica",
+    "dificuldade": "medio",
     "enunciado": "Assinale a alternativa que apresenta um sistema operacional.",
     "alternativas": [
       {
@@ -1608,6 +1647,7 @@
     "formato": "multipla_escolha",
     "numero": 43,
     "materia": "Informatica",
+    "dificuldade": "medio",
     "enunciado": "No contexto da computação, Vírus e worms são:",
     "alternativas": [
       {
@@ -1649,6 +1689,7 @@
     "formato": "multipla_escolha",
     "numero": 44,
     "materia": "Informatica",
+    "dificuldade": "medio",
     "enunciado": "Assinale a alterativa que apresenta a finalidade principal de um firewall.",
     "alternativas": [
       {
@@ -1690,6 +1731,7 @@
     "formato": "multipla_escolha",
     "numero": 45,
     "materia": "Informatica",
+    "dificuldade": "medio",
     "enunciado": "O objetivo específico de um software anti- spyware é:",
     "alternativas": [
       {
@@ -1731,6 +1773,7 @@
     "formato": "multipla_escolha",
     "numero": 46,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "A respeito dos direitos e deveres individuais e coletivos insculpidos no artigo 5º da Constituição Federal de 1988, analise as afirmativas abaixo. I. Homens e mulheres são iguais em direitos e obrigações, nos termos desta Constituição. II. O preso será informado de seus direitos, entre os quais o de permanecer calado, sendo-lhe assegurada apenas a assistência de advogado. III. No território nacional, é livre a manifestação do pensamento, sendo admitido o anonimato. IV. Ninguém será considerado culpado até o trânsito em julgado de sentença penal condenatória. Estão corretas as afirmativas:",
     "alternativas": [
       {
@@ -1772,6 +1815,7 @@
     "formato": "multipla_escolha",
     "numero": 47,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "A respeito dos direitos e deveres individuais e coletivos expressos no artigo 5º da Constituição Federal de 1988, assinale a alternativa correta.",
     "alternativas": [
       {
@@ -1813,6 +1857,7 @@
     "formato": "multipla_escolha",
     "numero": 48,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "A respeito dos direitos e deveres individuais e coletivos dispostos no artigo 5º da Constituição Federal de 1988, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F). ( ) As associações poderão ter suas atividades suspensas por decisão judicial, ainda que sem trânsito em julgado. ( ) É plena a liberdade de associação de caráter paramilitar, desde que possuam fins lícitos. ( ) A criação de associações dependem de autorização. ( ) É livre a locomoção no território nacional em tempo de paz, podendo qualquer pessoa, nos termos da lei, dele sair com seus bens. ( ) É assegurado aos presos o respeito à integridade física e moral. Assinale a alternativa que apresenta a sequência correta de cima para baixo.",
     "alternativas": [
       {
@@ -1854,6 +1899,7 @@
     "formato": "multipla_escolha",
     "numero": 49,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "Observando o que a Constituição Federal de 1988 dispõe acerca da Segurança Pública, analise as afirmativas abaixo. I. Apenas a Constituição Federal pode disciplinar a organização e o funcionamento dos órgãos responsáveis pela segurança pública, de maneira a garantir a eficiência de suas atividades. II. A segurança viária, exercida para a preservação da ordem pública e da incolumidade das pessoas e do seu patrimônio nas vias públicas compete, no âmbito dos Estados, do Distrito Federal e dos Municípios, às suas respectivas Polícias Militares, estruturadas em Carreira, na forma da lei. III. A polícia federal destina-se, entre outros, a prevenir e reprimir o descaminho. IV. Aos corpos de bombeiros militares, além das atribuições definidas em lei, incumbe a execução de atividades de defesa civil. Assinale a alternativa correta.",
     "alternativas": [
       {
@@ -1895,6 +1941,7 @@
     "formato": "multipla_escolha",
     "numero": 50,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "O Código Penal dispõe sobre os Crimes contra a Administração Pública. Sobre o assunto, assinale a alternativa que apresenta corretamente a descrição do tipo penal do crime de concussão:",
     "alternativas": [
       {
@@ -1936,6 +1983,7 @@
     "formato": "multipla_escolha",
     "numero": 51,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "Acerca da lei penal no tempo e no espaço, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F). ( ) Considera-se praticado o crime no momento da ação ou omissão, ainda que outro seja o momento do resultado. ( ) Considera-se praticado o crime apenas no lugar em que ocorreu a ação ou omissão. ( ) A lei posterior, que de qualquer modo favorecer o agente, aplica-se aos fatos anteriores, ainda que decididos por sentença condenatória transitada em julgado. Assinale a alternativa que apresenta a sequência correta de cima para baixo.",
     "alternativas": [
       {
@@ -1977,6 +2025,7 @@
     "formato": "multipla_escolha",
     "numero": 52,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "Acerca das disposições sobre concurso de pessoas no Código Penal, analise as afirmativas abaixo. I. Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas, na medida de sua culpabilidade. II. Não se comunicam as circunstâncias e as condições de caráter pessoal, ainda quando elementares do crime. III. O ajuste, a determinação ou instigação e o auxílio, salvo disposição expressa em contrário, não são puníveis, se o crime não chega, pelo menos, a ser tentado. Estão corretas as afirmativas:",
     "alternativas": [
       {
@@ -2018,6 +2067,7 @@
     "formato": "multipla_escolha",
     "numero": 53,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "De acordo com as disposições sobre culpabilidade no Código Penal, assinale a alternativa correta.",
     "alternativas": [
       {
@@ -2059,6 +2109,7 @@
     "formato": "multipla_escolha",
     "numero": 54,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "Acerca do inquérito policial, analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F). ( ) A polícia judiciária será exercida pelas autoridades policiais no território de suas respectivas circunscrições e terá por fim a apuração das infrações penais e da sua autoria. ( ) Qualquer pessoa do povo que tiver conhecimento da existência de infração penal em que caiba ação pública poderá, verbalmente ou por escrito, comunicá-la à autoridade policial, e esta, verificada a procedência das informações, mandará instaurar inquérito. ( ) Nos crimes de ação pública o inquérito policial será sempre iniciado de ofício. Assinale a alternativa que apresenta a sequência correta de cima para baixo.",
     "alternativas": [
       {
@@ -2100,6 +2151,7 @@
     "formato": "multipla_escolha",
     "numero": 55,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "De acordo com as disposições do Código de Processo Penal sobre inquérito policial, assinale a alternativa correta.",
     "alternativas": [
       {
@@ -2141,6 +2193,7 @@
     "formato": "multipla_escolha",
     "numero": 56,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "O Código de Processo Penal trata da ação penal e suas espécies. Sobre o assunto, analise as afirmativas abaixo. I. Nos crimes de ação pública, esta será promovida por denúncia do Ministério Público, mas dependerá, quando a lei o exigir, de requisição do Ministro da Justiça, ou de representação do ofendido ou de quem tiver qualidade para representá-lo. II. No caso de morte do ofendido ou quando declarado ausente por decisão judicial, o direito de representação passará ao cônjuge, ascendente, descendente ou irmão. III. Quando o crime for praticado em detrimento do patrimônio ou interesse da União, Estado e Município, a ação penal será privada ou pública condicionada à representação. Estão corretas as afirmativas:",
     "alternativas": [
       {
@@ -2182,6 +2235,7 @@
     "formato": "multipla_escolha",
     "numero": 57,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "De acordo com as disposições do Código de Processo Penal sobre ação penal, assinale a alternativa incorreta.",
     "alternativas": [
       {
@@ -2223,6 +2277,7 @@
     "formato": "multipla_escolha",
     "numero": 58,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "Acerca das disposições do Estatuto dos Policiais Militares da Paraíba (Lei Estadual nº 3.909/77), analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F). ( ) A hierarquia e a disciplina são a base institucional da Polícia Militar. A autoridade e a responsabilidade crescem com o grau hierárquica. ( ) A disciplina e o respeito à hierarquia devem ser mantidos em todas as circunstâncias da vida, entre policiais militares da ativa, da reserva remunerada e reformados. ( ) Círculos hierárquicos são âmbitos de convivência entre os policiais militares da mesma categoria e têm a finalidade de desenvolver a espírito de camaradagem em ambiente de estima confiança, sem prejuízo de respeito mútuo. Assinale a alternativa que apresenta a sequência correta de cima para baixo.",
     "alternativas": [
       {
@@ -2264,6 +2319,7 @@
     "formato": "multipla_escolha",
     "numero": 59,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "De acordo com o Estatuto dos Policiais Militares da Paraíba (Lei 3.909/77), assinale a alternativa que apresenta incorretamente uma manifestação essencial do valor policial-militar.",
     "alternativas": [
       {
@@ -2305,6 +2361,7 @@
     "formato": "multipla_escolha",
     "numero": 60,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "O Estatuto dos Policiais Militares da Paraíba (Lei Estadual nº 3.909/77) dispõe sobre o comando e a subordinação. Sobre o assunto, analise as afirmativas abaixo: I. Comando é a soma de autoridade, de deveres e responsabilidades de que o policial militar é investido legalmente, quando conduz homens ou dirige uma organização policial militar. O comando está vinculado ao grau hierárquico e constitui uma prerrogativa impessoal, em cujo exercício o policial militar se define e se caracteriza como chefe. II. A subordinação não afeta, de modo algum, a dignidade pessoal do policial militar e decorre, exclusivamente da estrutura hierárquica da Policia Militar. III. Não cabe ao policial-militar a responsabilidade pelas decisões que tomar, pelas ordens que emitir e pelos atos que praticar. Estão corretas as afirmativas:",
     "alternativas": [
       {
@@ -2346,6 +2403,7 @@
     "formato": "multipla_escolha",
     "numero": 61,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "Leia abaixo o parágrafo 4º do artigo 125 da Constituição Federal de 1988: Art. 125. § 4º Compete à Justiça ______ estadual processar e julgar os militares dos Estados, nos crimes militares definidos em lei e as ações judiciais contra atos disciplinares militares, ressalvada a competência do ______ quando a vítima for civil, cabendo ao tribunal competente decidir sobre a ______ do posto e da patente dos oficiais e da graduação das praças. (Redação dada pela Emenda Constitucional nº 45, de 2004). Constituição da República Federativa do Brasil. Disponível em: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm. Acesso em 25 ago.2023. Assinale a alternativa que preencha correta e respectivamente as lacunas.",
     "alternativas": [
       {
@@ -2387,6 +2445,7 @@
     "formato": "multipla_escolha",
     "numero": 62,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "A respeito da Lei nº 13.869, de 5 de setembro de 2019, conhecida como Lei de Abuso de Autoridade, analise as afirmativas abaixo. I. Para que a conduta descrita nesta Lei constitua crime de abuso de autoridade, faz-se necessário que seja praticada pelo agente a com a finalidade específica de beneficiar a si mesmo ou a terceiro. II. As penas previstas nesta Lei serão aplicadas independentemente das sanções de natureza civil ou administrativa cabíveis. III. A Lei de Abuso de Autoridade não admite a aplicação de penas de direitos substitutivas das privativas de liberdade. IV. A inabilitação para o exercício de cargo, mandato ou função pública, pelo período de 1 (um) a 5 (cinco) anos, é um dos efeitos previstos da condenação e está condicionado à ocorrência de reincidência em crime de abuso de autoridade. Estão corretas as afirmativas:",
     "alternativas": [
       {
@@ -2428,6 +2487,7 @@
     "formato": "multipla_escolha",
     "numero": 63,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "A Lei nº 8.072, de 25 de julho de 1990, dispõe sobre os crimes hediondos. A respeito desta normativa, assinale a alternativa correta.",
     "alternativas": [
       {
@@ -2469,6 +2529,7 @@
     "formato": "multipla_escolha",
     "numero": 64,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "A respeito do Estatuto da Criança e do Adolescente (ECA), analise as afirmativas abaixo e dê valores Verdadeiro (V) ou Falso (F). ( ) Considera-se criança, para os efeitos desta Lei, a pessoa até treze anos de idade incompletos. ( ) Nos casos de prática de ato infracional, a internação, antes da sentença, pode ser determinada pelo prazo máximo de sessenta dias. ( ) São direitos do adolescente privado de liberdade, entre outros, receber visitas, ao menos, mensalmente. ( ) Uma das medidas previstas no ECA é a prestação de serviços à comunidade, cujas tarefas serão atribuídas conforme as aptidões do adolescente, devendo ser cumpridas durante jornada máxima de oito horas semanais, aos sábados, domingos e feriados ou dias úteis, de modo a não prejudicar a frequência à escola ou à jornada normal de trabalho. ( ) Rege a aplicação das medidas específicas de proteção previstas no ECA, entre outros, o princípio da intervenção mínima. Assinale a alternativa que apresenta a sequência correta de cima para baixo.",
     "alternativas": [
       {
@@ -2510,6 +2571,7 @@
     "formato": "multipla_escolha",
     "numero": 65,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "Sobre o Estatuto da Criança e do Adolescente (ECA), assinale a alternativa incorreta.",
     "alternativas": [
       {
@@ -2551,6 +2613,7 @@
     "formato": "multipla_escolha",
     "numero": 66,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "As ações dos movimentos sociais podem influenciar na dinâmica e funcionamento da sociedade, atuando para manter ou alterar a ordem social vigente. Tais condutas podem se direcionar, por exemplo, às formas de atuação dos governos e a maneira como estes representam os seus interesses. Nessa perspectiva, podemos citar o impeachment de Fernando Collor de Mello, ocorrido no ano de 1992. Entre as ações coletivas contra o governo Collor está a mobilização política e civil de um importante movimento social da época, denominado:",
     "alternativas": [
       {
@@ -2592,6 +2655,7 @@
     "formato": "multipla_escolha",
     "numero": 67,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "A Passeata dos Cem Mil foi um movimento de luta social ocorrido em 1968 no Brasil. Suas ações reuniram diferentes segmentos sociais, como estudantes, representantes do clero, professores, artistas, entre muitos outros atores sociais que se juntaram em torno de um mesmo objetivo e interesse. Sobre a Passeata dos Cem Mil, é correto afirmar que:",
     "alternativas": [
       {
@@ -2633,6 +2697,7 @@
     "formato": "multipla_escolha",
     "numero": 68,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "“Classes sociais são grupos humanos que se diferenciam entre si pela posição que ocupam num determinado modo de produção e pelo seu papel na apropriação da riqueza. Cada um pertence a uma classe social de acordo com a parte que lhe cabe na divisão da riqueza que uma sociedade produz” (GADOTTI, 1991, p. 75-76). As classes sociais são um aspecto importante no entendimento das questões relacionadas à constituição e ação dos movimentos sociais, já que alguns desses movimentos possuem sua formação e atuação vinculada às desigualdades materiais e simbólicas de classe. Assinale a alternativa que apresenta o movimento que melhor ilustra a relação entre mobilização coletiva e desigualdades de classe, tendo como base o excerto acima.",
     "alternativas": [
       {
@@ -2674,6 +2739,7 @@
     "formato": "multipla_escolha",
     "numero": 69,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "O ano de 2013 foi marcado por uma onda de protestos em várias cidades brasileiras. As manifestações que ficaram conhecidas como “Jornadas de Junho” ou “Manifestação dos 20 centavos” tiveram como pauta inicial a discordância de uma ampla camada da sociedade sobre o aumento de tarifa do transporte público. O aumento no valor do transporte público interfere diretamente no seguinte direito social:",
     "alternativas": [
       {
@@ -2715,6 +2781,7 @@
     "formato": "multipla_escolha",
     "numero": 70,
     "materia": "Nocoes de Direito e Sociologia",
+    "dificuldade": "medio",
     "enunciado": "“Entre o final de 2015 e o início de 2016, centenas de escolas públicas foram ocupadas no estado de São Paulo, pelos próprios estudantes, primeiramente contra a decisão do governo estadual de realocar alunos e fechar escolas e, em seguida, em torno da merenda escolar. Junto com outros movimentos maciços de ocupação de escolas em ao menos oito outros estados, esse ciclo de ocupações ficou conhecido como “primavera secundarista”. Os protestos dos estudantes estavam muito longe de tematizar, diretamente, questões jurídicas de posse e propriedade. Antes disso, era uma política educacional específica que estava em jogo nas mobilizações e discursos dos secundaristas. O mote “a escola é nossa” expressava mais uma apropriação social e coletiva de um bem, entendido como comum, do que a relação de proprietário individual que pode usar e dispor do que é seu”. Bianca Tavolari et al. As ocupações de escolas públicas em São Paulo (2015–2016) Sobre a “Primavera Secundarista” e os movimentos sociais na educação, assinale a alternativa incorreta.",
     "alternativas": [
       {
@@ -2756,6 +2823,7 @@
     "formato": "multipla_escolha",
     "numero": 72,
     "materia": "Lingua Estrangeira",
+    "dificuldade": "medio",
     "enunciado": "In the sentence \"The pictures speak for themselves\" we can state that:",
     "alternativas": [
       {
@@ -2797,6 +2865,7 @@
     "formato": "multipla_escolha",
     "numero": 73,
     "materia": "Lingua Estrangeira",
+    "dificuldade": "medio",
     "enunciado": "When the Officials added that the driver will face charges. The underlined sentence means:",
     "alternativas": [
       {
@@ -2838,6 +2907,7 @@
     "formato": "multipla_escolha",
     "numero": 74,
     "materia": "Lingua Estrangeira",
+    "dificuldade": "medio",
     "enunciado": "A expressão \"pensar fora da caixa\" significa:",
     "alternativas": [
       {
@@ -2879,6 +2949,7 @@
     "formato": "multipla_escolha",
     "numero": 75,
     "materia": "Lingua Estrangeira",
+    "dificuldade": "medio",
     "enunciado": "Na frase “The BBC has reached out to police for comment”, podemos afirmar que a expressão sublinhada significa:",
     "alternativas": [
       {
@@ -2920,6 +2991,7 @@
     "formato": "multipla_escolha",
     "numero": 76,
     "materia": "Lingua Estrangeira",
+    "dificuldade": "medio",
     "enunciado": "A missão do “fire department” na sociedade é:",
     "alternativas": [
       {
@@ -2961,6 +3033,7 @@
     "formato": "multipla_escolha",
     "numero": 77,
     "materia": "Lingua Estrangeira",
+    "dificuldade": "medio",
     "enunciado": "In the text we come across the words warmer and thinner which refer to:",
     "alternativas": [
       {
@@ -3002,6 +3075,7 @@
     "formato": "multipla_escolha",
     "numero": 78,
     "materia": "Lingua Estrangeira",
+    "dificuldade": "medio",
     "enunciado": "When we have delayed flights, we understand that:",
     "alternativas": [
       {
@@ -3043,6 +3117,7 @@
     "formato": "multipla_escolha",
     "numero": 79,
     "materia": "Lingua Estrangeira",
+    "dificuldade": "medio",
     "enunciado": "What can cause flight delays according to the text:",
     "alternativas": [
       {
@@ -3084,6 +3159,7 @@
     "formato": "multipla_escolha",
     "numero": 80,
     "materia": "Lingua Estrangeira",
+    "dificuldade": "medio",
     "enunciado": "O último parágrafo começa com a expressão \"Of course\". Assinale a alternativa que apresenta qual das seguintes expressões não é um sinônimo.",
     "alternativas": [
       {

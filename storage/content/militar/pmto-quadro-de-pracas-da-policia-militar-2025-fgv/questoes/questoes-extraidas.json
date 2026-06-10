@@ -1,0 +1,632 @@
+[
+  {
+    "id": "pmto-quadro-de-pracas-da-policia-militar-2025-fgv-q01",
+    "codigo": "PMTO-QUADRO-DE-PRACAS-DA-POLICIA-MILITAR-2025-FGV-Q01",
+    "orgao": "PMTO",
+    "cargo": "Quadro de Pracas da Policia Militar",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 1,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Leia o pequeno texto narrativo a seguir: Um dia, voltando do supermercado, Rosa encontrou um pequeno gato miando sob um banco da praça. Mesmo com pressa, ela não pôde deixar de parar, pois o gato parecia esfomeado e tremia de frio. Rosa decidiu levá-lo para sua casa. No final do dia, ela já se tinha apegado ao bichano e já o batizara de “Mascarado”. Esse simples ato de bondade transformou sua vida: ela se sentia sozinha e Mascarado tornou-se seu fiel companheiro. Assinale a opção que apresenta a afirmativa inadequada sobre esse pequeno texto.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A narrativa começa por uma situação inicial estável, que é a volta do supermercado."
+      },
+      {
+        "letra": "B",
+        "texto": "O fato que vai dar motivo à narrativa é o encontro com o gato."
+      },
+      {
+        "letra": "C",
+        "texto": "Os fatos em sequência cronológica, típicos da narrativa, são a parada perto do gato e a decisão de levá-lo para casa."
+      },
+      {
+        "letra": "D",
+        "texto": "Os fatos que aproximaram os personagens foram o apego afetivo e a fidelidade do bichano."
+      },
+      {
+        "letra": "E",
+        "texto": "A conclusão do texto mostra uma mudança positiva na vida do personagem."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial_fgv",
+    "banca_selo": "FGV",
+    "concurso": "PMTO",
+    "comentario": "Questao oficial PMTO Quadro de Pracas da Policia Militar 2025. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmto-quadro-de-pracas-da-policia-militar-2025-fgv-q02",
+    "codigo": "PMTO-QUADRO-DE-PRACAS-DA-POLICIA-MILITAR-2025-FGV-Q02",
+    "orgao": "PMTO",
+    "cargo": "Quadro de Pracas da Policia Militar",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 2,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Leia o texto a seguir. Se os outros pensam que sou excêntrico e imprevisível, isso se dá porque minhas opiniões e ações são incompatíveis com os princípios deles, se é que os têm; asseguro-lhes que com os meus elas são compatíveis. Assinale a afirmativa correta sobre sua estruturação.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O demonstrativo “isso” se refere a toda a frase anterior – “Se os outros pensam que sou excêntrico e imprevisível”."
+      },
+      {
+        "letra": "B",
+        "texto": "Os adjetivos “excêntrico” e “imprevisível” são sinônimos e representam qualidades, pois são subjetivos."
+      },
+      {
+        "letra": "C",
+        "texto": "O pronome possessivo “deles” não se refere a nenhum termo anterior do texto."
+      },
+      {
+        "letra": "D",
+        "texto": "O pronome pessoal “lhes” se refere ao pronome indefinido “outros”."
+      },
+      {
+        "letra": "E",
+        "texto": "O pronome pessoal “elas” se refere ao substantivo “opiniões”."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_fgv",
+    "banca_selo": "FGV",
+    "concurso": "PMTO",
+    "comentario": "Questao oficial PMTO Quadro de Pracas da Policia Militar 2025. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmto-quadro-de-pracas-da-policia-militar-2025-fgv-q03",
+    "codigo": "PMTO-QUADRO-DE-PRACAS-DA-POLICIA-MILITAR-2025-FGV-Q03",
+    "orgao": "PMTO",
+    "cargo": "Quadro de Pracas da Policia Militar",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 3,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Todas as frases abaixo mostram uma repetição de palavras, sublinhadas. Assinale a frase a seguir em que essas palavras mostram diferentes significados.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Escolhe um autor como escolhes um amigo."
+      },
+      {
+        "letra": "B",
+        "texto": "É bom escrever porque reúne as duas alegrias: falar sozinho e falar a uma multidão."
+      },
+      {
+        "letra": "C",
+        "texto": "Antes de aprender a escrever, aprendam a pensar."
+      },
+      {
+        "letra": "D",
+        "texto": "Calar um velho é coisa difícil. Calar um velho autor então é coisa impossível."
+      },
+      {
+        "letra": "E",
+        "texto": "Todos os diletantes escrevem com prazer. Por isso alguns deles escrevem tão nem."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial_fgv",
+    "banca_selo": "FGV",
+    "concurso": "PMTO",
+    "comentario": "Questao oficial PMTO Quadro de Pracas da Policia Militar 2025. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmto-quadro-de-pracas-da-policia-militar-2025-fgv-q04",
+    "codigo": "PMTO-QUADRO-DE-PRACAS-DA-POLICIA-MILITAR-2025-FGV-Q04",
+    "orgao": "PMTO",
+    "cargo": "Quadro de Pracas da Policia Militar",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 4,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Observe o seguinte texto de uma crônica de Stanislaw Ponte- Preta. “Até que eu não sou de reclamar, puxa! Taí, se há alguém que não é de reclamar, sou eu. Pago sempre e não bufo. Claro que procuro me defender da melhor maneira possível, isto é, chateando o patrão, cobrando cada vez mais, buscando o impossível —como diz Tia Zulmira —, ou seja, equilíbrio orçamentário. Se o Banco do Brasil não tem equilíbrio orçamentário, eu é que vou ter, é ou não é?” Assinale a opção que indica a ideia de “escrever bem” no pensamento desse autor:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Respeitar a norma culta da língua portuguesa, pois só assim a mensagem a ser passada seria bem compreendida pelos leitores."
+      },
+      {
+        "letra": "B",
+        "texto": "Obedecer às normas do idioma, mas dar espaço a alguns regionalismos, dado ser o tema do livro localizado no interior do Rio de Janeiro."
+      },
+      {
+        "letra": "C",
+        "texto": "Utilizar uma linguagem popular, marcada sobretudo pela seleção de vocábulos da gíria."
+      },
+      {
+        "letra": "D",
+        "texto": "Usar a língua portuguesa de forma criativa, de forma a criar impactos positivos entre os leitores."
+      },
+      {
+        "letra": "E",
+        "texto": "Empregar formas gramaticalmente erradas de linguagem em função dos temas tratados nas crônicas desse escritor."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial_fgv",
+    "banca_selo": "FGV",
+    "concurso": "PMTO",
+    "comentario": "Questao oficial PMTO Quadro de Pracas da Policia Militar 2025. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmto-quadro-de-pracas-da-policia-militar-2025-fgv-q05",
+    "codigo": "PMTO-QUADRO-DE-PRACAS-DA-POLICIA-MILITAR-2025-FGV-Q05",
+    "orgao": "PMTO",
+    "cargo": "Quadro de Pracas da Policia Militar",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 5,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“Testemunhar o seu tempo – respondi a um jovem que me perguntou qual é a função do escritor.” (Lygia Fagundes Telles) Segundo essa notável escritora, assinale a opção que indica a função da escrita.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "transformar depoimentos em obras de arte."
+      },
+      {
+        "letra": "B",
+        "texto": "procurar preservar informações para o futuro."
+      },
+      {
+        "letra": "C",
+        "texto": "documentar fatos para estudos de História."
+      },
+      {
+        "letra": "D",
+        "texto": "lembrar coisas importantes, como uma agenda."
+      },
+      {
+        "letra": "E",
+        "texto": "dignificar fatos da vida do país com fins culturais."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial_fgv",
+    "banca_selo": "FGV",
+    "concurso": "PMTO",
+    "comentario": "Questao oficial PMTO Quadro de Pracas da Policia Militar 2025. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmto-quadro-de-pracas-da-policia-militar-2025-fgv-q06",
+    "codigo": "PMTO-QUADRO-DE-PRACAS-DA-POLICIA-MILITAR-2025-FGV-Q06",
+    "orgao": "PMTO",
+    "cargo": "Quadro de Pracas da Policia Militar",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 6,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Um jovem estudante encontrou o seguinte texto no Whatsapp: “E aí? Vc tá bem? Pq vc não vai a festa do Carlão, eu tb não vou... a coisa vai ficar xoxa!” Assinale a opção que indica a marca da linguagem da Internet que mais se destaca nessa pequena mensagem.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o grande número de formas abreviadas."
+      },
+      {
+        "letra": "B",
+        "texto": "erros ortográficos graves."
+      },
+      {
+        "letra": "C",
+        "texto": "exemplos de desrespeito à norma culta."
+      },
+      {
+        "letra": "D",
+        "texto": "casos numerosos de gíria."
+      },
+      {
+        "letra": "E",
+        "texto": "falta de continuidade na mensagem. POLÍCIA MILITAR DO ESTADO DO TOCANTINS FGV CONHECIMENTO QUADRO DE PRAÇAS DA POLÍCIA MILITAR TO – TARDE TIPO BRANCA – PÁGINA 4"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_fgv",
+    "banca_selo": "FGV",
+    "concurso": "PMTO",
+    "comentario": "Questao oficial PMTO Quadro de Pracas da Policia Militar 2025. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmto-quadro-de-pracas-da-policia-militar-2025-fgv-q07",
+    "codigo": "PMTO-QUADRO-DE-PRACAS-DA-POLICIA-MILITAR-2025-FGV-Q07",
+    "orgao": "PMTO",
+    "cargo": "Quadro de Pracas da Policia Militar",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 7,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase a seguir que se apresenta na voz ativa.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A beleza da lama reflete-se no corpo."
+      },
+      {
+        "letra": "B",
+        "texto": "Ouviu-se numa loja: “Gosto de meus músculos, mas detesto a cama de gordura que os cobre”."
+      },
+      {
+        "letra": "C",
+        "texto": "Em caso de chuva, cobrem-se todas as barracas da feira."
+      },
+      {
+        "letra": "D",
+        "texto": "Caso se protegessem os crânios dos vendavais, nunca se veria a beleza de seus entalhes."
+      },
+      {
+        "letra": "E",
+        "texto": "Não se quer um penteado de 100 dólares numa cabeça de 50 centavos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_fgv",
+    "banca_selo": "FGV",
+    "concurso": "PMTO",
+    "comentario": "Questao oficial PMTO Quadro de Pracas da Policia Militar 2025. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmto-quadro-de-pracas-da-policia-militar-2025-fgv-q08",
+    "codigo": "PMTO-QUADRO-DE-PRACAS-DA-POLICIA-MILITAR-2025-FGV-Q08",
+    "orgao": "PMTO",
+    "cargo": "Quadro de Pracas da Policia Militar",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 8,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Todas as frases a seguir apresentam um substantivo sublinhado, que está adjetivado. Assinale a frase em que a adjetivação é realizada por meio de um termo comparativo.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Eu sou um homem da Renascença."
+      },
+      {
+        "letra": "B",
+        "texto": "O único autoconhecimento que conheço é o das escolas de motoristas."
+      },
+      {
+        "letra": "C",
+        "texto": "Velhos são como testemunhas do tempo passado."
+      },
+      {
+        "letra": "D",
+        "texto": "Eu adoraria encontrar o sujeito que supostamente sou."
+      },
+      {
+        "letra": "E",
+        "texto": "Nós, como eles, somos seres insuspeitos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial_fgv",
+    "banca_selo": "FGV",
+    "concurso": "PMTO",
+    "comentario": "Questao oficial PMTO Quadro de Pracas da Policia Militar 2025. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmto-quadro-de-pracas-da-policia-militar-2025-fgv-q09",
+    "codigo": "PMTO-QUADRO-DE-PRACAS-DA-POLICIA-MILITAR-2025-FGV-Q09",
+    "orgao": "PMTO",
+    "cargo": "Quadro de Pracas da Policia Militar",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 9,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Nosso escritor Afrânio Peixoto escreveu: Oh exames! – tortura bárbara que o humanismo medieval adotou, legada às idades modernas como o remanescente de uma inquisição sem apelo, exames, vós nos tirastes o encanto da adolescência com as apreensões das notas, a emoção dolorida, ainda nos triunfos, a mágoa suicida do amor-próprio aos erros em público, a injustiça sempre relativa das aprovações que jamais contentam, enfim, esse pré-suplício do inferno, que serão as reprovações... Assinale a opção que apresenta a afirmação adequada sobre o texto acima.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Os exames são comparados a uma “inquisição sem apelo” pelo sofrimento que provocam."
+      },
+      {
+        "letra": "B",
+        "texto": "O enunciador do texto fala como adolescente de hoje, que continua enfrentando exames."
+      },
+      {
+        "letra": "C",
+        "texto": "As duas ocorrências do termo “exames” mostram significados diferentes no texto."
+      },
+      {
+        "letra": "D",
+        "texto": "As reclamações contra os exames têm sua justificativa em função de problemas práticos por eles criados."
+      },
+      {
+        "letra": "E",
+        "texto": "A expressão “pré-suplício” do inferno se refere ao sofrimento que ocorre antes da realização dos exames."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_fgv",
+    "banca_selo": "FGV",
+    "concurso": "PMTO",
+    "comentario": "Questao oficial PMTO Quadro de Pracas da Policia Militar 2025. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmto-quadro-de-pracas-da-policia-militar-2025-fgv-q11",
+    "codigo": "PMTO-QUADRO-DE-PRACAS-DA-POLICIA-MILITAR-2025-FGV-Q11",
+    "orgao": "PMTO",
+    "cargo": "Quadro de Pracas da Policia Militar",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 11,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Nas frases abaixo há distintos sinais gráficos. Assinale a frase em que a função de um desses sinais está corretamente identificada.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Existem cordas ... no coração humano, que de preferência não deveriam ser vibradas. / reticências: marcar suspensões provocadas por hesitação."
+      },
+      {
+        "letra": "B",
+        "texto": "A paixão – que coisa incômoda! / travessão: separar orações, com destaque para a última."
+      },
+      {
+        "letra": "C",
+        "texto": "Entrai na bolsa de Londres (...) Lá o judeu, o maometano e o cristão tratam-se reciprocamente como se fossem da mesma religião. / pontos suspensivos: indicação de tempo passando."
+      },
+      {
+        "letra": "D",
+        "texto": "O luxo... (que eu definiria como “o amor imoderado e o uso das comodidades supérfluas e pomposas”) corrompe igualmente todas as classes diversas numa nação. / parênteses: dar o significado de palavras anteriores."
+      },
+      {
+        "letra": "E",
+        "texto": "O primeiro que, depois de ter cercado um terreno, teve a ideia de dizer “Isto me pertence” foi o verdadeiro fundador da sociedade civil. / aspas: transcrição de uma citação célebre."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_fgv",
+    "banca_selo": "FGV",
+    "concurso": "PMTO",
+    "comentario": "Questao oficial PMTO Quadro de Pracas da Policia Militar 2025. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmto-quadro-de-pracas-da-policia-militar-2025-fgv-q12",
+    "codigo": "PMTO-QUADRO-DE-PRACAS-DA-POLICIA-MILITAR-2025-FGV-Q12",
+    "orgao": "PMTO",
+    "cargo": "Quadro de Pracas da Policia Militar",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 12,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase a seguir que deveria apresentar uma vírgula na escrita.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "É o cargo que permite conhecer o homem."
+      },
+      {
+        "letra": "B",
+        "texto": "Até mesmo os poderosos podem precisar dos fracos."
+      },
+      {
+        "letra": "C",
+        "texto": "Os humildes sofrem quando os poderosos combatem entre si."
+      },
+      {
+        "letra": "D",
+        "texto": "Quem toma conta da bolsa tem o poder."
+      },
+      {
+        "letra": "E",
+        "texto": "Onde existem muitos para comandar nasce a confusão. POLÍCIA MILITAR DO ESTADO DO TOCANTINS FGV CONHECIMENTO QUADRO DE PRAÇAS DA POLÍCIA MILITAR TO – TARDE TIPO BRANCA – PÁGINA 5 História e Geografia do Tocantins"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial_fgv",
+    "banca_selo": "FGV",
+    "concurso": "PMTO",
+    "comentario": "Questao oficial PMTO Quadro de Pracas da Policia Militar 2025. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmto-quadro-de-pracas-da-policia-militar-2025-fgv-q19",
+    "codigo": "PMTO-QUADRO-DE-PRACAS-DA-POLICIA-MILITAR-2025-FGV-Q19",
+    "orgao": "PMTO",
+    "cargo": "Quadro de Pracas da Policia Militar",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 19,
+    "materia": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Considere a sentença: “Se o time é bom, então a vitória é certa”. Uma sentença logicamente equivalente à sentença dada é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Se a vitória não é certa, então o time não é bom."
+      },
+      {
+        "letra": "B",
+        "texto": "Se o time não é bom, então a vitória não é certa."
+      },
+      {
+        "letra": "C",
+        "texto": "O time é bom e a vitória não é certa."
+      },
+      {
+        "letra": "D",
+        "texto": "O time não é bom e a vitória é certa."
+      },
+      {
+        "letra": "E",
+        "texto": "O time é bom ou a vitória é certa."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_fgv",
+    "banca_selo": "FGV",
+    "concurso": "PMTO",
+    "comentario": "Questao oficial PMTO Quadro de Pracas da Policia Militar 2025. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmto-quadro-de-pracas-da-policia-militar-2025-fgv-q20",
+    "codigo": "PMTO-QUADRO-DE-PRACAS-DA-POLICIA-MILITAR-2025-FGV-Q20",
+    "orgao": "PMTO",
+    "cargo": "Quadro de Pracas da Policia Militar",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 20,
+    "materia": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Seis soldados limpam um refeitório em meia hora. Com a mesma eficiência individual, nove soldados limparão o mesmo refeitório em:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "45 minutos."
+      },
+      {
+        "letra": "B",
+        "texto": "40 minutos."
+      },
+      {
+        "letra": "C",
+        "texto": "25 minutos."
+      },
+      {
+        "letra": "D",
+        "texto": "20 minutos."
+      },
+      {
+        "letra": "E",
+        "texto": "15 minutos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial_fgv",
+    "banca_selo": "FGV",
+    "concurso": "PMTO",
+    "comentario": "Questao oficial PMTO Quadro de Pracas da Policia Militar 2025. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmto-quadro-de-pracas-da-policia-militar-2025-fgv-q21",
+    "codigo": "PMTO-QUADRO-DE-PRACAS-DA-POLICIA-MILITAR-2025-FGV-Q21",
+    "orgao": "PMTO",
+    "cargo": "Quadro de Pracas da Policia Militar",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 21,
+    "materia": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Valéria comprou um vestido que custava R$ 420,00 e pagou em duas parcelas iguais, sendo a primeira no ato da compra e a segunda um mês após. A loja onde Valéria fez a compra cobra 10% de juros ao mês. O valor de cada parcela que Valéria pagou é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 210,00."
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 215,00."
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 220,00."
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 225,00."
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 230,00."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial_fgv",
+    "banca_selo": "FGV",
+    "concurso": "PMTO",
+    "comentario": "Questao oficial PMTO Quadro de Pracas da Policia Militar 2025. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmto-quadro-de-pracas-da-policia-militar-2025-fgv-q22",
+    "codigo": "PMTO-QUADRO-DE-PRACAS-DA-POLICIA-MILITAR-2025-FGV-Q22",
+    "orgao": "PMTO",
+    "cargo": "Quadro de Pracas da Policia Militar",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 22,
+    "materia": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Rubens comprou 3 barras de chocolate e 2 pacotes de torradas e pagou R$ 44,90. No mesmo estabelecimento, Solange comprou 2 barras de chocolate e 3 pacotes de torradas, iguais aos de Rubens (tanto os chocolates como as torradas), e pagou R$ 38,60. No mesmo estabelecimento, Antônio comprou uma barra de chocolate e um pacote de torradas, iguais aos de Rubens, e pagou:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 18,20."
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 17,10."
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 16,70."
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 15,30."
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 14,80."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial_fgv",
+    "banca_selo": "FGV",
+    "concurso": "PMTO",
+    "comentario": "Questao oficial PMTO Quadro de Pracas da Policia Militar 2025. Banca: FGV. Gabarito definitivo: C."
+  }
+]

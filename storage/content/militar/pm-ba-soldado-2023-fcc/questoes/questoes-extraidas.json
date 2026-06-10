@@ -1,0 +1,674 @@
+[
+  {
+    "id": "pm-ba-soldado-2023-fcc-q01",
+    "codigo": "PM-BA-SOLDADO-2023-FCC-Q01",
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 1,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Na crônica, o chefe da seção acusa o homem que foi à repartição em busca de um documento de ser",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "preguiçoso."
+      },
+      {
+        "letra": "B",
+        "texto": "egoísta."
+      },
+      {
+        "letra": "C",
+        "texto": "contraditório."
+      },
+      {
+        "letra": "D",
+        "texto": "resignado."
+      },
+      {
+        "letra": "E",
+        "texto": "rancoroso. Caderno de Prova ’PMM’, Tipo 001 GOVBA-Soldado-Polícia Militar-PMBA 3"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial_fcc",
+    "banca_selo": "FCC",
+    "concurso": "PM-BA",
+    "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: B."
+  },
+  {
+    "id": "pm-ba-soldado-2023-fcc-q02",
+    "codigo": "PM-BA-SOLDADO-2023-FCC-Q02",
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 2,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O cronista expressa uma retificação no seguinte trecho:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O servente sobe na cadeira e comanda o coro: (23 o parágrafo)"
+      },
+      {
+        "letra": "B",
+        "texto": "− Muito bem! Muito bem! − funcionários batiam palmas. (12 o parágrafo)"
+      },
+      {
+        "letra": "C",
+        "texto": "− Está certo, mas será que, voltando na quinta-feira, eu encontro o meu papel pronto mesmo? (17 o parágrafo)"
+      },
+      {
+        "letra": "D",
+        "texto": "A muito custo, atenderam; isto é, confessaram que não podiam atender, por causa do jogo com a Bulgária. (2 o parágrafo)"
+      },
+      {
+        "letra": "E",
+        "texto": "Estava salva a honra da torcida, e o importuno retirou-se precipitadamente. (25 o parágrafo)"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial_fcc",
+    "banca_selo": "FCC",
+    "concurso": "PM-BA",
+    "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: D."
+  },
+  {
+    "id": "pm-ba-soldado-2023-fcc-q03",
+    "codigo": "PM-BA-SOLDADO-2023-FCC-Q03",
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 3,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "− Já sei que vai se desculpar. O momento não é para dissensões. O momento é de união nacional, cérebros e corações uníssonos. (14 o parágrafo) O termo sublinhado acima pode ser substituído, sem prejuízo para o sentido do texto original, por:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "desavenças."
+      },
+      {
+        "letra": "B",
+        "texto": "distrações."
+      },
+      {
+        "letra": "C",
+        "texto": "mentiras."
+      },
+      {
+        "letra": "D",
+        "texto": "hesitações."
+      },
+      {
+        "letra": "E",
+        "texto": "especulações."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_fcc",
+    "banca_selo": "FCC",
+    "concurso": "PM-BA",
+    "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: A."
+  },
+  {
+    "id": "pm-ba-soldado-2023-fcc-q04",
+    "codigo": "PM-BA-SOLDADO-2023-FCC-Q04",
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 4,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "• Foi um lapso do funcionário que lhe prometeu tal coisa. (7 o parágrafo) • Vamos, cavalheiro, não perturbe a preparação espiritual dos meus colegas, que estão analisando a Seleção Búlgara e des- cobrindo meios de frustrar a marcação de Pelé. (14 o parágrafo) Os pronomes sublinhados no texto referem-se, respectivamente, a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "funcionário e colegas."
+      },
+      {
+        "letra": "B",
+        "texto": "lapso e colegas."
+      },
+      {
+        "letra": "C",
+        "texto": "coisa e Seleção Búlgara."
+      },
+      {
+        "letra": "D",
+        "texto": "lapso e preparação espiritual."
+      },
+      {
+        "letra": "E",
+        "texto": "funcionário e preparação espiritual."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_fcc",
+    "banca_selo": "FCC",
+    "concurso": "PM-BA",
+    "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: A."
+  },
+  {
+    "id": "pm-ba-soldado-2023-fcc-q05",
+    "codigo": "PM-BA-SOLDADO-2023-FCC-Q05",
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 5,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "É invariável quanto a gênero e a número o termo sublinhado em:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Mas prometeram que meu papel ficaria pronto hoje sem falta."
+      },
+      {
+        "letra": "B",
+        "texto": "Que negócio é esse?"
+      },
+      {
+        "letra": "C",
+        "texto": "Eu aliás não forço opinião de ninguém."
+      },
+      {
+        "letra": "D",
+        "texto": "É muita responsabilidade."
+      },
+      {
+        "letra": "E",
+        "texto": "Na hora da batalha, formamos uma frente única."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial_fcc",
+    "banca_selo": "FCC",
+    "concurso": "PM-BA",
+    "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-ba-soldado-2023-fcc-q06",
+    "codigo": "PM-BA-SOLDADO-2023-FCC-Q06",
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 6,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Verifica-se o emprego de vírgula(s) para isolar um vocativo em:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ah, o senhor é terrível, nem numa hora dessas esquece o seu papelzinho! (18 o parágrafo)"
+      },
+      {
+        "letra": "B",
+        "texto": "Perdão, o jogo vai ser logo mais, às quinze horas. (8 o parágrafo)"
+      },
+      {
+        "letra": "C",
+        "texto": "Mas, perdão, eu… eu… (13 o parágrafo)"
+      },
+      {
+        "letra": "D",
+        "texto": "Na hora da batalha, formamos uma frente única. (16 o parágrafo)"
+      },
+      {
+        "letra": "E",
+        "texto": "Seja razoável, meu amigo, procure colaborar. (18 o parágrafo)"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial_fcc",
+    "banca_selo": "FCC",
+    "concurso": "PM-BA",
+    "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: E."
+  },
+  {
+    "id": "pm-ba-soldado-2023-fcc-q07",
+    "codigo": "PM-BA-SOLDADO-2023-FCC-Q07",
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 7,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Exerce a função sintática de sujeito o elemento sublinhado no seguinte trecho:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O senhor está ficando impertinente (11 o parágrafo)."
+      },
+      {
+        "letra": "B",
+        "texto": "Quinta-feira não haverá jogo (5 o parágrafo)."
+      },
+      {
+        "letra": "C",
+        "texto": "Estava salva a honra da torcida (25 o parágrafo)."
+      },
+      {
+        "letra": "D",
+        "texto": "Na hora da batalha, formamos uma frente única (16 o parágrafo)."
+      },
+      {
+        "letra": "E",
+        "texto": "Não diga uma besteira dessas (20 o parágrafo)."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial_fcc",
+    "banca_selo": "FCC",
+    "concurso": "PM-BA",
+    "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-ba-soldado-2023-fcc-q08",
+    "codigo": "PM-BA-SOLDADO-2023-FCC-Q08",
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 8,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Observa-se o emprego de voz passiva em:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ninguém me atende? (1 o parágrafo)"
+      },
+      {
+        "letra": "B",
+        "texto": "E os senhores por acaso foram escalados para jogar? (3 o parágrafo)"
+      },
+      {
+        "letra": "C",
+        "texto": "É meio-dia, e já estão torcendo? (8 o parágrafo)"
+      },
+      {
+        "letra": "D",
+        "texto": "Se vieram trabalhar, por que não trabalham? (10 o parágrafo)"
+      },
+      {
+        "letra": "E",
+        "texto": "O senhor acha bem o 4-2-4 ou prefere o 4-3-3? (14 o parágrafo) Caderno de Prova ’PMM’, Tipo 001"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial_fcc",
+    "banca_selo": "FCC",
+    "concurso": "PM-BA",
+    "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: B."
+  },
+  {
+    "id": "pm-ba-soldado-2023-fcc-q10",
+    "codigo": "PM-BA-SOLDADO-2023-FCC-Q10",
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 10,
+    "materia": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "É hoje um país mal desenvolvido por ter adotado um padrão de crescimento socialmente perverso. Em relação ao trecho que o antecede, o segmento sublinhado expressa ideia de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "concessão."
+      },
+      {
+        "letra": "B",
+        "texto": "consequência."
+      },
+      {
+        "letra": "C",
+        "texto": "condição."
+      },
+      {
+        "letra": "D",
+        "texto": "comparação."
+      },
+      {
+        "letra": "E",
+        "texto": "causa. Matemática"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial_fcc",
+    "banca_selo": "FCC",
+    "concurso": "PM-BA",
+    "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: E."
+  },
+  {
+    "id": "pm-ba-soldado-2023-fcc-q11",
+    "codigo": "PM-BA-SOLDADO-2023-FCC-Q11",
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 11,
+    "materia": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Um setor administrativo recebeu 150 caixas de equipamentos que serão distribuídas para três grupos de funcionários. O pri- meiro grupo deverá receber 30 caixas a menos do que o segundo grupo e o terceiro grupo a metade do que vai receber o segundo. O número de caixas que serão recebidas pelo primeiro e o terceiro grupos juntos é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "78"
+      },
+      {
+        "letra": "B",
+        "texto": "52"
+      },
+      {
+        "letra": "C",
+        "texto": "44"
+      },
+      {
+        "letra": "D",
+        "texto": "80"
+      },
+      {
+        "letra": "E",
+        "texto": "96"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_fcc",
+    "banca_selo": "FCC",
+    "concurso": "PM-BA",
+    "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: A."
+  },
+  {
+    "id": "pm-ba-soldado-2023-fcc-q12",
+    "codigo": "PM-BA-SOLDADO-2023-FCC-Q12",
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 12,
+    "materia": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Em um fornecedor de uniformes, três camisas e duas calças custam, juntas, R$ 455,00, e um conjunto de calça e camisa do mesmo tipo custa R$ 190,00. O preço, em reais, para a compra de duas camisas e uma calça é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "215"
+      },
+      {
+        "letra": "B",
+        "texto": "240"
+      },
+      {
+        "letra": "C",
+        "texto": "265"
+      },
+      {
+        "letra": "D",
+        "texto": "280"
+      },
+      {
+        "letra": "E",
+        "texto": "305"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial_fcc",
+    "banca_selo": "FCC",
+    "concurso": "PM-BA",
+    "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-ba-soldado-2023-fcc-q13",
+    "codigo": "PM-BA-SOLDADO-2023-FCC-Q13",
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 13,
+    "materia": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "A sequência de 3 figuras a seguir é formada com palitos de fósforo, acrescentando sempre um triângulo à figura anterior. Figura 1 Figura 2 Figura 3 O número de palitos necessários para continuarmos a sequência até a Figura 20 é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "620"
+      },
+      {
+        "letra": "B",
+        "texto": "520"
+      },
+      {
+        "letra": "C",
+        "texto": "560"
+      },
+      {
+        "letra": "D",
+        "texto": "670"
+      },
+      {
+        "letra": "E",
+        "texto": "750 Caderno de Prova ’PMM’, Tipo 001 GOVBA-Soldado-Polícia Militar-PMBA 5"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial_fcc",
+    "banca_selo": "FCC",
+    "concurso": "PM-BA",
+    "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: D."
+  },
+  {
+    "id": "pm-ba-soldado-2023-fcc-q14",
+    "codigo": "PM-BA-SOLDADO-2023-FCC-Q14",
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 14,
+    "materia": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Placas para identificação de veículos deverão conter 4 letras distintas. Se escolhermos as letras X, Y, Z e W, o número de pla- cas distintas que poderão ser produzidas é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "36"
+      },
+      {
+        "letra": "B",
+        "texto": "24"
+      },
+      {
+        "letra": "C",
+        "texto": "20"
+      },
+      {
+        "letra": "D",
+        "texto": "16"
+      },
+      {
+        "letra": "E",
+        "texto": "12"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial_fcc",
+    "banca_selo": "FCC",
+    "concurso": "PM-BA",
+    "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: B."
+  },
+  {
+    "id": "pm-ba-soldado-2023-fcc-q15",
+    "codigo": "PM-BA-SOLDADO-2023-FCC-Q15",
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 15,
+    "materia": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "A soma das raízes da equação x (x −1) • (x + 3) • ) 16 x ( 2 + = 0 é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "−2"
+      },
+      {
+        "letra": "B",
+        "texto": "2"
+      },
+      {
+        "letra": "C",
+        "texto": "0"
+      },
+      {
+        "letra": "D",
+        "texto": "4"
+      },
+      {
+        "letra": "E",
+        "texto": "16"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_fcc",
+    "banca_selo": "FCC",
+    "concurso": "PM-BA",
+    "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: A."
+  },
+  {
+    "id": "pm-ba-soldado-2023-fcc-q16",
+    "codigo": "PM-BA-SOLDADO-2023-FCC-Q16",
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 16,
+    "materia": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Uma rampa será construída para acesso ao primeiro andar de uma construção, que está a 2,5 m de altura em relação ao nível do terreno. Decidiu-se que a inclinação da rampa deve ser de 30° em relação ao nível do térreo. O comprimento dessa rampa será",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2 m"
+      },
+      {
+        "letra": "B",
+        "texto": "3,5 m"
+      },
+      {
+        "letra": "C",
+        "texto": "4 m"
+      },
+      {
+        "letra": "D",
+        "texto": "4,5 m"
+      },
+      {
+        "letra": "E",
+        "texto": "5 m"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial_fcc",
+    "banca_selo": "FCC",
+    "concurso": "PM-BA",
+    "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: E."
+  },
+  {
+    "id": "pm-ba-soldado-2023-fcc-q17",
+    "codigo": "PM-BA-SOLDADO-2023-FCC-Q17",
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 17,
+    "materia": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Num terreno retangular com 80 m de comprimento e 60 m de largura, duas áreas triangulares foram demarcadas para o plantio de árvores, como mostra a figura. O comprimento de um dos lados de cada triângulo é 20 m. A área da parte restante do terreno é, em m 2:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2 400"
+      },
+      {
+        "letra": "B",
+        "texto": "3 000"
+      },
+      {
+        "letra": "C",
+        "texto": "3 400"
+      },
+      {
+        "letra": "D",
+        "texto": "3 600"
+      },
+      {
+        "letra": "E",
+        "texto": "3 800"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial_fcc",
+    "banca_selo": "FCC",
+    "concurso": "PM-BA",
+    "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: C."
+  }
+]

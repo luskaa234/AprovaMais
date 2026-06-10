@@ -106,5 +106,41 @@
     "banca": "SELECON",
     "slug": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon",
     "sourcePath": "storage/content/militar/pm-se-soldado-pm-3a-classe-combatente-2025-selecon"
+  },
+  {
+    "id": "pm-ba-soldado-2023-fcc",
+    "titulo": "PM-BA Soldado 2023",
+    "tipo": "Prova militar oficial",
+    "categoria": "Multipla escolha",
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "slug": "pm-ba-soldado-2023-fcc",
+    "sourcePath": "storage/content/militar/pm-ba-soldado-2023-fcc"
+  },
+  {
+    "id": "pmto-quadro-de-pracas-da-policia-militar-2025-fgv",
+    "titulo": "PMTO Quadro de Pracas da Policia Militar 2025",
+    "tipo": "Prova militar oficial",
+    "categoria": "Multipla escolha",
+    "orgao": "PMTO",
+    "cargo": "Quadro de Pracas da Policia Militar",
+    "ano": 2025,
+    "banca": "FGV",
+    "slug": "pmto-quadro-de-pracas-da-policia-militar-2025-fgv",
+    "sourcePath": "storage/content/militar/pmto-quadro-de-pracas-da-policia-militar-2025-fgv"
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv",
+    "titulo": "PMSP Soldado PM de 2a Classe 2025",
+    "tipo": "Prova militar oficial",
+    "categoria": "Multipla escolha",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "slug": "pmsp-soldado-2025-fgv",
+    "sourcePath": "storage/content/militar/pmsp-soldado-2025-fgv"
   }
 ]

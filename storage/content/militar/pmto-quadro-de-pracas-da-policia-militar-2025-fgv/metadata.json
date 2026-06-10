@@ -1,0 +1,26 @@
+{
+  "exame": "PMTO Quadro de Pracas da Policia Militar 2025",
+  "banca": "FGV",
+  "ano": 2025,
+  "aplicada_em": "2025-06-15",
+  "cargo": "Quadro de Pracas da Policia Militar",
+  "total_questoes": 54,
+  "fonte": "Oficial militar",
+  "sourceUrl": "https://conhecimento.fgv.br/concursos/pmto/2",
+  "gabarito": "definitivo",
+  "origem": "oficial_fgv",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/quadro-de-pracas-da-policia-militar-tocnm001-tipo-1.pdf",
+      "path": "storage/content/militar/pmto-quadro-de-pracas-da-policia-militar-2025-fgv/provas/pmto-quadro-de-pracas-da-policia-militar-2025-fgv-prova.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-pm-to-quadro-de-pracas-da-policia-militar-do-estado-do-tocantins-qppm.pdf",
+      "path": "storage/content/militar/pmto-quadro-de-pracas-da-policia-militar-2025-fgv/gabaritos/pmto-quadro-de-pracas-da-policia-militar-2025-fgv-gabarito-definitivo.pdf"
+    }
+  ]
+}

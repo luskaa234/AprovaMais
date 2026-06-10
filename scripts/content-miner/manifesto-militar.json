@@ -235,5 +235,90 @@
     "provaPdf": "https://arquivos.qconcursos.com/prova/arquivo_prova/128295/selecon-2025-pm-se-soldado-pm-3-classe-combatente-prova.pdf",
     "gabaritoPdf": "https://arquivos.qconcursos.com/prova/arquivo_gabarito/128295/selecon-2025-pm-se-soldado-pm-3-classe-combatente-gabarito.pdf",
     "observacao": "PCI registrado em fonteUrl; PDFs espelhados pelo Qconcursos. Gabarito oficial com questoes anuladas marcadas como X."
+  },
+  {
+    "orgao": "PM-BA",
+    "cargo": "Soldado",
+    "ano": 2023,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "totalQuestoes": 80,
+    "materiaPorNumero": [
+      { "inicio": 1, "fim": 10, "materia": "Portugues" },
+      { "inicio": 11, "fim": 18, "materia": "Matematica" },
+      { "inicio": 19, "fim": 80, "materia": "Descartar" }
+    ],
+    "importarMaterias": ["Portugues", "Matematica"],
+    "aplicadaEm": "2023-01-22",
+    "status": "ativo",
+    "fonteUrl": "https://www.pciconcursos.com.br/provas/fcc",
+    "provaPdf": "https://arquivos.qconcursos.com/prova/arquivo_prova/91481/fcc-2023-pm-ba-soldado-prova.pdf",
+    "gabaritoPdf": "https://arquivos.qconcursos.com/prova/arquivo_gabarito/91481/fcc-2023-pm-ba-soldado-gabarito.pdf",
+    "observacao": "Prova oficial PM + FCC adicionada como referencia de estilo para PMPI 2026. Importa somente Portugues e Matematica/RL; descarta Direito e legislacao especifica."
+  },
+  {
+    "orgao": "PMTO",
+    "cargo": "Quadro de Pracas da Policia Militar",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "totalQuestoes": 54,
+    "materiaPorNumero": [
+      { "inicio": 1, "fim": 12, "materia": "Portugues" },
+      { "inicio": 13, "fim": 18, "materia": "Descartar" },
+      { "inicio": 19, "fim": 23, "materia": "Matematica e Raciocinio Logico" },
+      { "inicio": 24, "fim": 54, "materia": "Descartar" }
+    ],
+    "importarMaterias": ["Portugues", "Matematica e Raciocinio Logico"],
+    "gabaritoTipo": "Tipo 1",
+    "aplicadaEm": "2025-06-15",
+    "status": "ativo",
+    "fonteUrl": "https://conhecimento.fgv.br/concursos/pmto/2",
+    "provaPdf": "https://conhecimento.fgv.br/sites/default/files/concursos/quadro-de-pracas-da-policia-militar-tocnm001-tipo-1.pdf",
+    "gabaritoPdf": "https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-pm-to-quadro-de-pracas-da-policia-militar-do-estado-do-tocantins-qppm.pdf",
+    "observacao": "Fonte oficial FGV Conhecimento. Importa somente Portugues e Matematica/RL para treino de estilo FGV; usa gabarito definitivo do Tipo 1."
+  },
+  {
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "totalQuestoes": 60,
+    "materiaPorNumero": [
+      { "inicio": 1, "fim": 20, "materia": "Portugues" },
+      { "inicio": 21, "fim": 35, "materia": "Matematica" },
+      { "inicio": 36, "fim": 60, "materia": "Descartar" }
+    ],
+    "importarMaterias": ["Portugues", "Matematica"],
+    "gabaritoTipo": "Tipo 1",
+    "aplicadaEm": "2025-02-16",
+    "status": "ativo",
+    "fonteUrl": "https://conhecimento.fgv.br/concursos/pmespsoldado25",
+    "provaPdf": "https://conhecimento.fgv.br/sites/default/files/concursos/soldado-pm-de-2a-classe-cnm001-tipo-1_0.pdf",
+    "gabaritoPdf": "https://conhecimento.fgv.br/sites/default/files/concursos/doeco-04.321.25-gabarito-definitivo-ed.3.321.24.pdf",
+    "observacao": "Fonte oficial FGV Conhecimento. Importa somente Portugues e Matematica para treino de estilo FGV; usa gabarito definitivo do Tipo 1."
+  },
+  {
+    "orgao": "TJ-SP",
+    "cargo": "Escrevente Tecnico Judiciario",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "totalQuestoes": 100,
+    "materiaPorNumero": [
+      { "inicio": 1, "fim": 24, "materia": "Portugues" },
+      { "inicio": 25, "fim": 70, "materia": "Descartar" },
+      { "inicio": 71, "fim": 79, "materia": "Matematica" },
+      { "inicio": 80, "fim": 90, "materia": "Descartar" },
+      { "inicio": 91, "fim": 100, "materia": "Matematica e Raciocinio Logico" }
+    ],
+    "importarMaterias": ["Portugues", "Matematica", "Matematica e Raciocinio Logico"],
+    "aplicadaEm": "2023-07-02",
+    "status": "pendente_gabarito_legivel",
+    "fonteUrl": "https://www.vunesp.com.br/TJSP2201",
+    "provaPdf": "https://arquivos.qconcursos.com/prova/arquivo_prova/95497/vunesp-2023-tj-sp-escrevente-prova.pdf",
+    "gabaritoPdf": "",
+    "observacao": "Prova Vunesp de nivel medio localizada, mas o gabarito PDF direto encontrado nao tem texto extraivel para leitura segura. Manter pendente ate localizar gabarito definitivo legivel."
   }
 ]

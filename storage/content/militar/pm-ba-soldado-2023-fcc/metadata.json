@@ -1,0 +1,26 @@
+{
+  "exame": "PM-BA Soldado 2023",
+  "banca": "FCC",
+  "ano": 2023,
+  "aplicada_em": "2023-01-22",
+  "cargo": "Soldado",
+  "total_questoes": 80,
+  "fonte": "Oficial militar",
+  "sourceUrl": "https://www.pciconcursos.com.br/provas/fcc",
+  "gabarito": "definitivo",
+  "origem": "oficial_fcc",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "url": "https://arquivos.qconcursos.com/prova/arquivo_prova/91481/fcc-2023-pm-ba-soldado-prova.pdf",
+      "path": "storage/content/militar/pm-ba-soldado-2023-fcc/provas/pm-ba-soldado-2023-fcc-prova.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "url": "https://arquivos.qconcursos.com/prova/arquivo_gabarito/91481/fcc-2023-pm-ba-soldado-gabarito.pdf",
+      "path": "storage/content/militar/pm-ba-soldado-2023-fcc/gabaritos/pm-ba-soldado-2023-fcc-gabarito-definitivo.pdf"
+    }
+  ]
+}
