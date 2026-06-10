@@ -8,7 +8,8 @@ async function getMaterialManifest() {
   try {
     const response = await fetch("/materiais/manifest.json");
     if (!response.ok) throw new Error("Manifest nao encontrado.");
-    materialCache = (await response.json()).map(normalizeMaterialTitle);
+    const base = (await response.json()).map(normalizeMaterialTitle);
+    materialCache = base;
     return materialCache;
   } catch {
     materialCache = mockBiblioteca.map(normalizeMaterialTitle);
@@ -42,16 +43,38 @@ function normalizeMaterialTitle(material) {
   };
 }
 
+function examOrder(material) {
+  const sourcePath = String(material.sourcePath || "");
+  const title = String(material.titulo || "");
+  const match = sourcePath.match(/oab\/(\d+)-exame/i) || title.match(/\b(\d+)º?\s+Exame/i);
+  if (match) return Number(match[1]);
+  const yearEdition = sourcePath.match(/oab\/2010-(\d)-exame/i) || title.match(/2010\.(\d)/i);
+  if (yearEdition) return Number(`0.${yearEdition[1]}`);
+  return -1;
+}
+
+function sortMaterials(items) {
+  return [...items].sort((a, b) => {
+    const sourceCompare = normalize(b.source).localeCompare(normalize(a.source));
+    if (sourceCompare) return sourceCompare;
+    const orderCompare = examOrder(b) - examOrder(a);
+    if (orderCompare) return orderCompare;
+    const phaseCompare = normalize(a.materia).localeCompare(normalize(b.materia));
+    if (phaseCompare) return phaseCompare;
+    return normalize(a.titulo).localeCompare(normalize(b.titulo));
+  });
+}
+
 export const bibliotecaService = {
   async getAll(filters = {}) {
-    return this.filter(await getMaterialManifest(), filters);
+    return sortMaterials(this.filter(await getMaterialManifest(), filters));
   },
   async favoritar() {
     return { success: true };
   },
   filter(materiais, filters = {}) {
-    return materiais.filter((item) =>
+    return sortMaterials(materiais.filter((item) =>
       Object.entries(filters).every(([key, value]) => !value || value === "Todos" || normalize(item[key]).includes(normalize(value)))
-    );
+    ));
   },
 };

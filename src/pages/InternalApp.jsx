@@ -1,5 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { AppProviders, InternalRouterProvider, useInternalRouter } from "../contexts";
+import Onboarding from "./Onboarding";
+import { InternalRouterProvider, useInternalRouter, useUser } from "../contexts";
 import { AppShell } from "../layouts";
 import { AdminLayout } from "../admin";
 import {
@@ -10,6 +11,7 @@ import {
   IAPage,
   LeisSecasPage,
   MapasMentaisPage,
+  OABPage,
   PerfilPage,
   PlanoPage,
   QuestoesPage,
@@ -21,6 +23,7 @@ import {
 
 const views = {
   dashboard: DashboardPage,
+  oab: OABPage,
   questoes: QuestoesPage,
   simulados: SimuladosPage,
   taf: TAFPage,
@@ -37,9 +40,35 @@ const views = {
   admin: AdminLayout,
 };
 
+function isOabFocus(user) {
+  const objective = String(user?.objective || user?.diagnosticPlan?.objective || "").toLowerCase();
+  const target = String(user?.targetContest || user?.contestName || user?.diagnosticPlan?.objectiveLabel || "").toLowerCase();
+  return objective === "oab" || target.includes("oab");
+}
+
 function InternalRoutes() {
   const { route } = useInternalRouter();
-  const View = views[route] || DashboardPage;
+  const { isLoading, user } = useUser();
+  const View =
+    (route === "oab" && !isOabFocus(user)) || route === "militar"
+      ? DashboardPage
+      : views[route] || DashboardPage;
+
+  if (isLoading) {
+    return (
+      <div className="grid min-h-screen place-items-center bg-gray-950 p-6 text-center text-white">
+        <div>
+          <div className="mx-auto mb-4 size-10 animate-spin rounded-full border-2 border-blue-500 border-t-transparent" />
+          <p className="text-sm text-gray-300">Carregando sua area de estudos...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (!user?.onboardingComplete) {
+    return <Onboarding />;
+  }
+
   return (
     <AppShell>
       <AnimatePresence mode="wait">
@@ -53,10 +82,8 @@ function InternalRoutes() {
 
 export default function InternalApp() {
   return (
-    <AppProviders>
-      <InternalRouterProvider>
-        <InternalRoutes />
-      </InternalRouterProvider>
-    </AppProviders>
+    <InternalRouterProvider>
+      <InternalRoutes />
+    </InternalRouterProvider>
   );
 }

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "pmsp-soldado-2023-vunesp",
+    "titulo": "PMSP Soldado PM de 2a Classe 2023",
+    "tipo": "Prova militar oficial",
+    "categoria": "Multipla escolha",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "slug": "pmsp-soldado-2023-vunesp",
+    "sourcePath": "storage/content/militar/pmsp-soldado-2023-vunesp"
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp",
+    "titulo": "PMSP Soldado PM de 2a Classe 2017",
+    "tipo": "Prova militar oficial",
+    "categoria": "Multipla escolha",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "slug": "pmsp-soldado-2017-vunesp",
+    "sourcePath": "storage/content/militar/pmsp-soldado-2017-vunesp"
+  },
+  {
+    "id": "pmma-soldado-do-quadro-de-praca-policial-2017-cebraspe",
+    "titulo": "PMMA Soldado do Quadro de Praca Policial 2017",
+    "tipo": "Prova militar oficial",
+    "categoria": "Certo/Errado",
+    "orgao": "PMMA",
+    "cargo": "Soldado do Quadro de Praca Policial",
+    "ano": 2017,
+    "banca": "Cebraspe",
+    "slug": "pmma-soldado-do-quadro-de-praca-policial-2017-cebraspe",
+    "sourcePath": "storage/content/militar/pmma-soldado-do-quadro-de-praca-policial-2017-cebraspe"
+  },
+  {
+    "id": "cbmal-soldado-combatente-2018-cebraspe",
+    "titulo": "CBMAL Soldado Combatente 2018",
+    "tipo": "Prova militar oficial",
+    "categoria": "Certo/Errado",
+    "orgao": "CBMAL",
+    "cargo": "Soldado Combatente",
+    "ano": 2018,
+    "banca": "Cebraspe",
+    "slug": "cbmal-soldado-combatente-2018-cebraspe",
+    "sourcePath": "storage/content/militar/cbmal-soldado-combatente-2018-cebraspe"
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv",
+    "titulo": "CBMAM Soldado Bombeiro Militar 2021",
+    "tipo": "Prova militar oficial",
+    "categoria": "Multipla escolha",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "slug": "cbmam-soldado-bombeiro-militar-2021-fgv",
+    "sourcePath": "storage/content/militar/cbmam-soldado-bombeiro-militar-2021-fgv"
+  }
+]

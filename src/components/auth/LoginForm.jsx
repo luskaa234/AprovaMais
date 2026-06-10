@@ -1,10 +1,10 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Eye, LockKeyhole, Mail } from "lucide-react";
-import { useForm } from "react-hook-form";
+import { Controller, useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import { z } from "zod";
-import { isSupabaseConfigured, supabase } from "../../lib/supabase";
+import { useUser } from "../../contexts";
 import { Button } from "../ui/button";
 import { Checkbox } from "../ui/checkbox";
 import { Input } from "../ui/input";
@@ -19,8 +19,10 @@ const loginSchema = z.object({
 
 function LoginForm() {
   const navigate = useNavigate();
+  const { login } = useUser();
   const {
     register,
+    control,
     handleSubmit,
     formState: { errors, isSubmitting },
   } = useForm({
@@ -34,21 +36,17 @@ function LoginForm() {
 
   const onSubmit = async ({ email, password, remember }) => {
     try {
-      if (isSupabaseConfigured) {
-        const { error } = await supabase.auth.signInWithPassword({ email, password });
-        if (error) throw error;
-      } else {
-        localStorage.setItem(
-          "aprovamais-session",
-          JSON.stringify({
-            email,
-            remember: Boolean(remember),
-            loggedAt: new Date().toISOString(),
-          }),
-        );
-      }
+      await login(email, password);
+      localStorage.setItem(
+        "aprovamais-session",
+        JSON.stringify({
+          email,
+          remember: Boolean(remember),
+          loggedAt: new Date().toISOString(),
+        }),
+      );
       toast.success("Login realizado com sucesso.");
-      navigate("/app");
+      navigate("/");
     } catch (error) {
       toast.error(error.message || "Nao foi possivel entrar.");
     }
@@ -77,7 +75,16 @@ function LoginForm() {
 
       <div className="auth-form-row">
         <label className="auth-check-label">
-          <Checkbox {...register("remember")} />
+          <Controller
+            control={control}
+            name="remember"
+            render={({ field }) => (
+              <Checkbox
+                checked={field.value}
+                onCheckedChange={(checked) => field.onChange(checked === true)}
+              />
+            )}
+          />
           <span>Lembrar de mim</span>
         </label>
         <Link to="/esqueci-senha">Esqueci minha senha</Link>

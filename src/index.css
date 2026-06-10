@@ -9020,9 +9020,9 @@ main {
   padding: 0.42rem;
   border: 1px solid rgba(203, 213, 225, 0.78);
   border-radius: 1.35rem;
-  background: rgba(255, 255, 255, 0.9);
+  background: #ffffff;
   box-shadow: 0 20px 54px rgba(15, 23, 42, 0.18);
-  backdrop-filter: blur(20px);
+  backdrop-filter: none;
 }
 
 .mobile-bottom-nav button {
@@ -9049,6 +9049,13 @@ main {
 @media (max-width: 767px) {
   .mobile-bottom-nav {
     display: grid;
+  }
+
+  .internal-app button,
+  .internal-app input,
+  .internal-app select,
+  .internal-app textarea {
+    min-height: 44px;
   }
 }
 
@@ -9409,7 +9416,7 @@ main {
   }
 
   .internal-app main {
-    padding: 0.65rem 0.9rem 6.4rem !important;
+    padding: 0.65rem 0.9rem calc(7.6rem + env(safe-area-inset-bottom)) !important;
     background:
       linear-gradient(180deg, #eaf2ff 0%, #f8fafc 18rem),
       #f8fafc !important;

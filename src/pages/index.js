@@ -1,4 +1,5 @@
 export { default as DashboardPage } from "./Dashboard";
+export { default as OABPage } from "./OAB";
 export { default as QuestoesPage } from "./Questoes";
 export { default as SimuladosPage } from "./Simulados";
 export { default as TAFPage } from "./TAF";

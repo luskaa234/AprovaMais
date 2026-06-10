@@ -1,0 +1,388 @@
+[
+  {
+    "slug": "47-exame",
+    "label": "47º Exame",
+    "extracted": 0,
+    "expected": 0,
+    "missing": [],
+    "status": "pendente"
+  },
+  {
+    "slug": "46-exame",
+    "label": "46º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "45-exame",
+    "label": "45º Exame",
+    "extracted": 0,
+    "expected": 0,
+    "missing": [],
+    "status": "pendente"
+  },
+  {
+    "slug": "44-exame",
+    "label": "44º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "43-exame",
+    "label": "43º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "42-exame",
+    "label": "42º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "41-exame",
+    "label": "41º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "40-exame",
+    "label": "40º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "39-exame",
+    "label": "39º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "38-exame",
+    "label": "38º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "37-exame",
+    "label": "37º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "36-exame",
+    "label": "36º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "35-exame",
+    "label": "35º Exame",
+    "extracted": 70,
+    "expected": 80,
+    "missing": [
+      57,
+      58,
+      59,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      77
+    ],
+    "status": "parcial"
+  },
+  {
+    "slug": "34-exame",
+    "label": "34º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "33-exame",
+    "label": "33º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "32-exame",
+    "label": "32º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "31-exame",
+    "label": "31º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "30-exame",
+    "label": "30º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "29-exame",
+    "label": "29º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "28-exame",
+    "label": "28º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "27-exame",
+    "label": "27º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "26-exame",
+    "label": "26º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "25-exame",
+    "label": "25º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "24-exame",
+    "label": "24º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "23-exame",
+    "label": "23º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "22-exame",
+    "label": "22º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "21-exame",
+    "label": "21º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "20-exame",
+    "label": "20º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "19-exame",
+    "label": "19º Exame",
+    "extracted": 79,
+    "expected": 80,
+    "missing": [
+      22
+    ],
+    "status": "parcial"
+  },
+  {
+    "slug": "18-exame",
+    "label": "18º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "17-exame",
+    "label": "17º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "16-exame",
+    "label": "16º Exame",
+    "extracted": 80,
+    "expected": 80,
+    "missing": [],
+    "status": "respondiveis"
+  },
+  {
+    "slug": "15-exame",
+    "label": "15º Exame",
+    "extracted": 0,
+    "expected": 0,
+    "missing": [],
+    "status": "pendente"
+  },
+  {
+    "slug": "14-exame",
+    "label": "14º Exame",
+    "extracted": 0,
+    "expected": 0,
+    "missing": [],
+    "status": "pendente"
+  },
+  {
+    "slug": "13-exame",
+    "label": "13º Exame",
+    "extracted": 0,
+    "expected": 0,
+    "missing": [],
+    "status": "pendente"
+  },
+  {
+    "slug": "12-exame",
+    "label": "12º Exame",
+    "extracted": 0,
+    "expected": 0,
+    "missing": [],
+    "status": "pendente"
+  },
+  {
+    "slug": "11-exame",
+    "label": "11º Exame",
+    "extracted": 0,
+    "expected": 0,
+    "missing": [],
+    "status": "pendente"
+  },
+  {
+    "slug": "10-exame",
+    "label": "10º Exame",
+    "extracted": 0,
+    "expected": 0,
+    "missing": [],
+    "status": "pendente"
+  },
+  {
+    "slug": "9-exame",
+    "label": "9º Exame",
+    "extracted": 0,
+    "expected": 0,
+    "missing": [],
+    "status": "pendente"
+  },
+  {
+    "slug": "8-exame",
+    "label": "8º Exame",
+    "extracted": 0,
+    "expected": 0,
+    "missing": [],
+    "status": "pendente"
+  },
+  {
+    "slug": "7-exame",
+    "label": "7º Exame",
+    "extracted": 76,
+    "expected": 80,
+    "missing": [
+      52,
+      58,
+      64,
+      75
+    ],
+    "status": "parcial"
+  },
+  {
+    "slug": "6-exame",
+    "label": "6º Exame",
+    "extracted": 0,
+    "expected": 0,
+    "missing": [],
+    "status": "pendente"
+  },
+  {
+    "slug": "5-exame",
+    "label": "5º Exame",
+    "extracted": 0,
+    "expected": 0,
+    "missing": [],
+    "status": "pendente"
+  },
+  {
+    "slug": "4-exame",
+    "label": "4º Exame",
+    "extracted": 0,
+    "expected": 0,
+    "missing": [],
+    "status": "pendente"
+  },
+  {
+    "slug": "2010-3-exame",
+    "label": "Exame 2010.3",
+    "extracted": 0,
+    "expected": 0,
+    "missing": [],
+    "status": "pendente"
+  },
+  {
+    "slug": "2010-2-exame",
+    "label": "Exame 2010.2",
+    "extracted": 100,
+    "expected": 100,
+    "missing": [],
+    "status": "respondiveis"
+  }
+]

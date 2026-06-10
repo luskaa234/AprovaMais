@@ -6,10 +6,29 @@ import BrandLogo from "../components/BrandLogo";
 import { useInternalRouter, useNotifications, useUser } from "../contexts";
 import { navItems } from "./navigation";
 
+function isOabFocus(user) {
+  const objective = String(user?.objective || user?.diagnosticPlan?.objective || "").toLowerCase();
+  const target = String(user?.targetContest || user?.contestName || user?.diagnosticPlan?.objectiveLabel || "").toLowerCase();
+  return objective === "oab" || target.includes("oab");
+}
+
+function visibleNavItems(user, isAdmin) {
+  return navItems.filter((item) => {
+    if (item.key === "admin" && !isAdmin) return false;
+    if (item.requiresObjective === "oab" && !isOabFocus(user)) return false;
+    return true;
+  });
+}
+
+const mobilePrimaryTabs = ["dashboard", "questoes", "plano", "flashcards", "perfil"];
+
 const Sidebar = memo(({ mobile = false, onNavigate }) => {
   const { route, navigate } = useInternalRouter();
   const { user, isAdmin } = useUser();
-  const items = useMemo(() => navItems.filter((item) => item.key !== "admin" || isAdmin), [isAdmin]);
+  const items = useMemo(() => {
+    const visible = visibleNavItems(user, isAdmin);
+    return mobile ? visible.filter((item) => !mobilePrimaryTabs.includes(item.key)) : visible;
+  }, [isAdmin, mobile, user]);
 
   const handleNavigate = useCallback(
     (key) => {
@@ -74,16 +93,17 @@ Sidebar.displayName = "Sidebar";
 
 const Topbar = memo(({ onMenu }) => {
   const { route, navigate } = useInternalRouter();
-  const { user } = useUser();
+  const { user, isAdmin } = useUser();
   const { notifications, unreadCount, markAsRead, clearAll, toast } = useNotifications();
   const [query, setQuery] = useState("");
   const [searchOpen, setSearchOpen] = useState(false);
   const [notificationsOpen, setNotificationsOpen] = useState(false);
   const searchRef = useRef(null);
-  const current = navItems.find((item) => item.key === route);
+  const items = useMemo(() => visibleNavItems(user, isAdmin), [isAdmin, user]);
+  const current = items.find((item) => item.key === route);
   const results = useMemo(
-    () => navItems.filter((item) => item.label.toLowerCase().includes(query.toLowerCase())).slice(0, 6),
-    [query]
+    () => items.filter((item) => item.label.toLowerCase().includes(query.toLowerCase())).slice(0, 6),
+    [items, query]
   );
 
   useEffect(() => {
@@ -109,7 +129,7 @@ const Topbar = memo(({ onMenu }) => {
 
       <div className="flex items-center gap-2 md:gap-3">
         <button
-          aria-label="Abrir menu"
+          aria-label="Abrir mais opcoes"
           className="grid size-10 place-items-center rounded-xl text-gray-300 hover:bg-gray-800 lg:hidden"
           onClick={onMenu}
           type="button"
@@ -209,11 +229,10 @@ const Topbar = memo(({ onMenu }) => {
 });
 Topbar.displayName = "Topbar";
 
-const mobileTabs = ["dashboard", "questoes", "plano", "taf", "perfil"];
-
 const BottomNav = memo(() => {
   const { route, navigate } = useInternalRouter();
-  const items = useMemo(() => navItems.filter((item) => mobileTabs.includes(item.key)), []);
+  const { user, isAdmin } = useUser();
+  const items = useMemo(() => visibleNavItems(user, isAdmin).filter((item) => mobilePrimaryTabs.includes(item.key)).slice(0, 5), [isAdmin, user]);
 
   return (
     <nav className="mobile-bottom-nav lg:hidden" aria-label="Navegacao principal">
@@ -236,6 +255,15 @@ export const AppShell = memo(({ children }) => {
   const closeMobile = useCallback(() => setMobileOpen(false), []);
   const openMobile = useCallback(() => setMobileOpen(true), []);
 
+  useEffect(() => {
+    if (!mobileOpen) return undefined;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [mobileOpen]);
+
   return (
     <div
       className={cx(
@@ -254,12 +282,14 @@ export const AppShell = memo(({ children }) => {
             className="fixed inset-0 z-50 bg-black/65 backdrop-blur-sm lg:hidden"
             exit={{ opacity: 0 }}
             initial={{ opacity: 0 }}
+            onClick={closeMobile}
           >
             <motion.div
               animate={{ x: 0 }}
-              className="h-full w-[min(88vw,360px)]"
+              className="h-full w-[min(88vw,360px)] bg-gray-950 shadow-2xl"
               exit={{ x: "-100%" }}
               initial={{ x: "-100%" }}
+              onClick={(event) => event.stopPropagation()}
               transition={{ type: "spring", damping: 30, stiffness: 360 }}
             >
               <button

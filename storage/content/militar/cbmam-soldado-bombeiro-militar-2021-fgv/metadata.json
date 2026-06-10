@@ -1,0 +1,26 @@
+{
+  "exame": "CBMAM Soldado Bombeiro Militar 2021",
+  "banca": "FGV",
+  "ano": 2021,
+  "aplicada_em": "2022-02-12",
+  "cargo": "Soldado Bombeiro Militar",
+  "total_questoes": 60,
+  "fonte": "Oficial militar",
+  "sourceUrl": "https://conhecimento.fgv.br/concursos/cbmam21",
+  "gabarito": "definitivo",
+  "origem": "oficial_fgv",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/soldado_bombeiro_militarnm001_tipo_1.pdf",
+      "path": "storage/content/militar/cbmam-soldado-bombeiro-militar-2021-fgv/provas/cbmam-soldado-bombeiro-militar-2021-fgv-prova.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cbam2021_gabarito_definitivo.pdf",
+      "path": "storage/content/militar/cbmam-soldado-bombeiro-militar-2021-fgv/gabaritos/cbmam-soldado-bombeiro-militar-2021-fgv-gabarito-definitivo.pdf"
+    }
+  ]
+}

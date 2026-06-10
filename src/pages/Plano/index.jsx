@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { CalendarDays, CheckCircle2, ChevronLeft, ChevronRight, Clock, Filter, MoreVertical, Plus, RotateCcw, Target, TrendingUp } from "lucide-react";
+import { CalendarDays, CheckCircle2, ChevronLeft, ChevronRight, Filter, MoreVertical, Plus, RotateCcw, Target, TrendingUp } from "lucide-react";
 import { Badge, Button, Input, Select, cx } from "../../components";
 import { Modal } from "../../modals";
 import { useAsyncData } from "../../hooks";
@@ -8,7 +8,6 @@ import { planoService } from "../../services";
 const views = ["Dia", "Semana", "Mes", "Agenda", "Cronograma"];
 const weekDays = ["DOM", "SEG", "TER", "QUA", "QUI", "SEX", "SAB"];
 const dayKeyByIndex = ["domingo", "segunda", "terca", "quarta", "quinta", "sexta", "sabado"];
-const dayNameToIndex = { domingo: 0, segunda: 1, terca: 2, terça: 2, quarta: 3, quinta: 4, sexta: 5, sabado: 6, sábado: 6 };
 const typeOptions = ["Estudo", "Revisao", "Questoes", "Simulado", "Descanso"];
 const statusOptions = ["Pendente", "Em andamento", "Concluida", "Reagendada"];
 const contestOptions = ["PRF", "PM", "PF", "TJ", "Geral"];
@@ -167,16 +166,16 @@ function MiniBar({ label, value, color }) {
 
 export default function PlanoPage() {
   const load = useCallback(() => planoService.getPlano(), []);
-  const { data = [] } = useAsyncData(load);
-  const plano = data || [];
+  const { data: plano = [] } = useAsyncData(load);
   const now = new Date();
-  const [view, setView] = useState("Mes");
+  const [view, setView] = useState(() => (typeof window !== "undefined" && window.innerWidth < 768 ? "Agenda" : "Mes"));
   const [month, setMonth] = useState(new Date(now.getFullYear(), now.getMonth(), 1));
   const [selectedDate, setSelectedDate] = useState(isoDate(now));
   const [filters, setFilters] = useState({ materia: "", tipo: "", status: "", concurso: "", periodo: "" });
   const [localStatus, setLocalStatus] = useState(() => readStorage("aprova-plano-status", {}));
   const [extraActivities, setExtraActivities] = useState(() => readStorage("aprova-plano-atividades", []));
   const [modal, setModal] = useState(false);
+  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [draft, setDraft] = useState({ title: "", materia: "", type: "Estudo", hour: "08:00", duration: 60, concurso: "PRF", status: "Pendente" });
 
   const baseActivities = useMemo(() => buildActivities(plano, month, extraActivities), [extraActivities, month, plano]);
@@ -211,6 +210,16 @@ export default function PlanoPage() {
   const remaining = Math.max(0, weeklyGoal - studiedMinutes);
   const focus = [...new Set(weekActivities.map((item) => item.materia))].slice(0, 4);
   const distribution = typeOptions.map((type) => ({ type, value: weekActivities.filter((item) => item.type === type).length }));
+  const activeFilterCount = Object.values(filters).filter(Boolean).length;
+  const filtersContent = (
+    <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-5">
+      <Select label="Materia" placeholder="Todas" options={materias} value={filters.materia} onChange={(event) => setFilters((current) => ({ ...current, materia: event.target.value }))} />
+      <Select label="Tipo" placeholder="Todos" options={typeOptions} value={filters.tipo} onChange={(event) => setFilters((current) => ({ ...current, tipo: event.target.value }))} />
+      <Select label="Status" placeholder="Todos" options={statusOptions} value={filters.status} onChange={(event) => setFilters((current) => ({ ...current, status: event.target.value }))} />
+      <Select label="Concurso" placeholder="Todos" options={contestOptions} value={filters.concurso} onChange={(event) => setFilters((current) => ({ ...current, concurso: event.target.value }))} />
+      <Select label="Periodo" placeholder="Livre" options={[{ value: "semana", label: "Semana atual" }, { value: "mes", label: "Mes atual" }]} value={filters.periodo} onChange={(event) => setFilters((current) => ({ ...current, periodo: event.target.value }))} />
+    </div>
+  );
 
   useEffect(() => {
     localStorage.setItem("aprova-plano-status", JSON.stringify(localStatus));
@@ -226,7 +235,7 @@ export default function PlanoPage() {
     setMonth(new Date(current.getFullYear(), current.getMonth(), 1));
     setSelectedDate(isoDate(current));
   }, []);
-  const createActivity = useCallback(() => {
+  const createActivity = () => {
     setExtraActivities((current) => [{
       id: `local-${Date.now()}`,
       date: selectedDate,
@@ -240,7 +249,7 @@ export default function PlanoPage() {
     }, ...current]);
     setModal(false);
     setDraft({ title: "", materia: "", type: "Estudo", hour: "08:00", duration: 60, concurso: "PRF", status: "Pendente" });
-  }, [draft, selectedDate]);
+  };
 
   return (
     <div className="mx-auto min-h-[calc(100vh-9rem)] max-w-[1500px] overflow-visible pb-10 text-slate-900">
@@ -253,17 +262,14 @@ export default function PlanoPage() {
           </div>
         </div>
         <div className="flex flex-wrap gap-2">
+          <Button className="md:hidden" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{activeFilterCount ? ` · ${activeFilterCount}` : ""}</Button>
           <Button variant="secondary" onClick={goToday}>Hoje</Button>
           <Button icon={Plus} onClick={() => setModal(true)}>Nova atividade</Button>
         </div>
       </div>
 
-      <div className="mb-4 grid gap-3 rounded-lg border border-blue-100 bg-white p-4 shadow-sm md:grid-cols-2 xl:grid-cols-5">
-        <Select label="Materia" placeholder="Todas" options={materias} value={filters.materia} onChange={(event) => setFilters((current) => ({ ...current, materia: event.target.value }))} />
-        <Select label="Tipo" placeholder="Todos" options={typeOptions} value={filters.tipo} onChange={(event) => setFilters((current) => ({ ...current, tipo: event.target.value }))} />
-        <Select label="Status" placeholder="Todos" options={statusOptions} value={filters.status} onChange={(event) => setFilters((current) => ({ ...current, status: event.target.value }))} />
-        <Select label="Concurso" placeholder="Todos" options={contestOptions} value={filters.concurso} onChange={(event) => setFilters((current) => ({ ...current, concurso: event.target.value }))} />
-        <Select label="Periodo" placeholder="Livre" options={[{ value: "semana", label: "Semana atual" }, { value: "mes", label: "Mes atual" }]} value={filters.periodo} onChange={(event) => setFilters((current) => ({ ...current, periodo: event.target.value }))} />
+      <div className="mb-4 hidden gap-3 rounded-lg border border-blue-100 bg-white p-4 shadow-sm md:grid">
+        {filtersContent}
       </div>
 
       <div className="mb-4 flex flex-wrap gap-2">
@@ -405,6 +411,9 @@ export default function PlanoPage() {
             <Select label="Status" options={statusOptions} value={draft.status} onChange={(event) => setDraft((current) => ({ ...current, status: event.target.value }))} />
           </div>
         </div>
+      </Modal>
+      <Modal open={mobileFiltersOpen} title="Filtros" onClose={() => setMobileFiltersOpen(false)} footer={<Button onClick={() => setMobileFiltersOpen(false)}>Aplicar</Button>}>
+        {filtersContent}
       </Modal>
     </div>
   );

@@ -1,0 +1,164 @@
+{
+  "exam": "18º Exame de Ordem Unificado",
+  "source": "FGV/OAB",
+  "sourceUrl": "https://oab.fgv.br/home.aspx?key=617",
+  "collectedAt": "2026-06-10T00:01:55.653Z",
+  "files": [
+    {
+      "title": "Gabaritos Preliminares da Prova Objetiva (1ª fase)",
+      "type": "gabarito",
+      "url": "https://oab.fgv.br/arq/617/29112015184750_GABARITOS%20PRELIMIARES_XVIII_EXAME_DE_ORDEM.pdf",
+      "path": "storage/content/oab/18-exame/gabaritos/gabaritos-preliminares-da-prova-objetiva-1-fase-1ophiw.pdf"
+    },
+    {
+      "title": "Caderno de prova - Tipo 1",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/617/29112015184841_CADERNO_TIPO_1_XVIII_EXAME.pdf",
+      "path": "storage/content/oab/18-exame/provas/caderno-de-prova-tipo-1-34r88r.pdf"
+    },
+    {
+      "title": "Caderno de prova - Tipo 2",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/617/29112015184856_CADERNO_TIPO_2_XVIII_EXAME.pdf",
+      "path": "storage/content/oab/18-exame/provas/caderno-de-prova-tipo-2-109w8g.pdf"
+    },
+    {
+      "title": "Caderno de prova - Tipo 3",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/617/29112015184907_CADERNO_TIPO_3_XVIII_EXAME.pdf",
+      "path": "storage/content/oab/18-exame/provas/caderno-de-prova-tipo-3-9ulf4i.pdf"
+    },
+    {
+      "title": "Caderno de prova - Tipo 4",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/617/29112015184916_CADERNO_TIPO_4_XVIII_EXAME.pdf",
+      "path": "storage/content/oab/18-exame/provas/caderno-de-prova-tipo-4-tcz9px.pdf"
+    },
+    {
+      "title": "Padrão de Respostas Definitivo- Direito Civil",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/617/12022016163754_CIVIL.pdf",
+      "path": "storage/content/oab/18-exame/segunda-fase/padrao-de-respostas-definitivo-direito-civil-eskau9.pdf"
+    },
+    {
+      "title": "Padrão de Respostas Definitivo - Tributário",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/617/12022016163858_TRIBUTARIO.pdf",
+      "path": "storage/content/oab/18-exame/segunda-fase/padrao-de-respostas-definitivo-tributario-1h2c1k.pdf"
+    },
+    {
+      "title": "Padrão de Respostas Definitivo- Penal",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/617/12022016163953_PENAL.pdf",
+      "path": "storage/content/oab/18-exame/segunda-fase/padrao-de-respostas-definitivo-penal-1czkza.pdf"
+    },
+    {
+      "title": "Padrão de Respostas Definitivo- Empresarial",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/617/12022016164055_EMPRESARIAL.pdf",
+      "path": "storage/content/oab/18-exame/segunda-fase/padrao-de-respostas-definitivo-empresarial-1bm3cc.pdf"
+    },
+    {
+      "title": "Padrão de Respostas Definitivo- Direito do Trabalho",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/617/12022016164142_TRABALHO.pdf",
+      "path": "storage/content/oab/18-exame/segunda-fase/padrao-de-respostas-definitivo-direito-do-trabalho-11qte6.pdf"
+    },
+    {
+      "title": "Padrão de Respostas Definitivo- Direito Constitucional",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/617/12022016164233_CONSTITUCIONAL.pdf",
+      "path": "storage/content/oab/18-exame/segunda-fase/padrao-de-respostas-definitivo-direito-constitucional-67xcd2.pdf"
+    },
+    {
+      "title": "Padrão de Respostas Definitivo- Direito Administrativo",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/617/12022016164314_ADMINISTRATIVO.pdf",
+      "path": "storage/content/oab/18-exame/segunda-fase/padrao-de-respostas-definitivo-direito-administrativo-1um2vg.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Administrativo)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/617/17012016184310_XVIII%20Exame%20Administrativo%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/18-exame/provas/caderno-de-provas-direito-administrativo-15ofpz.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Civil)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/617/17012016184325_XVIII%20Exame%20Civil%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/18-exame/provas/caderno-de-provas-direito-civil-1l0rci.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Constitucional)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/617/17012016184336_XVIII%20Exame%20Consitucional%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/18-exame/provas/caderno-de-provas-direito-constitucional-h1cqu7.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Empresarial)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/617/17012016184350_XVIII%20Exame%20Empresarial%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/18-exame/provas/caderno-de-provas-direito-empresarial-1ys78g.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Penal)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/617/17012016184415_XVIII%20Exame%20Penal%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/18-exame/provas/caderno-de-provas-direito-penal-1mai88.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Tributário)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/617/17012016184432_XVIII%20Exame%20Tribut%c3%a1rio%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/18-exame/provas/caderno-de-provas-direito-tributario-y8p7mx.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito do Trabalho)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/617/17012016184446_XVIII%20Exame%20Trabalho%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/18-exame/provas/caderno-de-provas-direito-do-trabalho-1xvx06.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Administrativo)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/617/17012016184546_GABARITO%20JUSTIFICADO%20-%20DIREITO%20ADMINISTRATIVO.pdf",
+      "path": "storage/content/oab/18-exame/segunda-fase/padrao-de-respostas-direito-administrativo-1g3f8m.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Civil)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/617/17012016184554_GABARITO%20JUSTIFICADO%20-%20DIREITO%20CIVIL.pdf",
+      "path": "storage/content/oab/18-exame/segunda-fase/padrao-de-respostas-direito-civil-1rbejm.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Constitucional)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/617/17012016184603_GABARITO%20JUSTIFICADO%20-%20DIREITO%20CONSTITUCIONAL.pdf",
+      "path": "storage/content/oab/18-exame/segunda-fase/padrao-de-respostas-direito-constitucional-1afc66.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito do Trabalho)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/617/17012016184613_GABARITO%20JUSTIFICADO%20-%20DIREITO%20DO%20TRABALHO.pdf",
+      "path": "storage/content/oab/18-exame/segunda-fase/padrao-de-respostas-direito-do-trabalho-v3hp8d.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Empresarial)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/617/17012016184622_GABARITO%20JUSTIFICADO%20-%20DIREITO%20EMPRESARIAL.pdf",
+      "path": "storage/content/oab/18-exame/segunda-fase/padrao-de-respostas-direito-empresarial-re3kdd.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Penal)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/617/17012016184629_GABARITO%20JUSTIFICADO%20-%20DIREITO%20PENAL.pdf",
+      "path": "storage/content/oab/18-exame/segunda-fase/padrao-de-respostas-direito-penal-e3sx77.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Tributário)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/617/17012016184638_GABARITO%20JUSTIFICADO%20-%20DIREITO%20TRIBUT%c3%81RIO.pdf",
+      "path": "storage/content/oab/18-exame/segunda-fase/padrao-de-respostas-direito-tributario-t5wkne.pdf"
+    }
+  ]
+}

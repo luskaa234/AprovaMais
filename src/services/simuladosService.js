@@ -1,84 +1,48 @@
-import { mockSimulados } from "../data";
+import { questoesService } from "./questoesService";
 import { groupCount } from "../utils";
 
-function formatOfficialTestName(title = "") {
-  const cleaned = String(title)
-    .replace(/\.(pdf|docx?|xlsx?)$/i, "")
-    .replace(/[-_]+/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
+const DEFAULT_TEMPLATES = [
+  { id: "real-rapido", modo: "Treino real", nome: "Simulado rapido", quantidade: 10, tempoMinutos: 40 },
+  { id: "real-medio", modo: "Prova real", nome: "Simulado direcionado", quantidade: 20, tempoMinutos: 90 },
+  { id: "real-completo", modo: "Completo", nome: "Simulado completo", quantidade: 40, tempoMinutos: 180 },
+];
 
-  const words = cleaned.split(" ");
-  const knownBoards = ["IBFC", "VUNESP", "FGV", "CEBRASPE", "AOCP", "CESPE", "FCC"];
-  const banca = knownBoards.includes(words[0]?.toUpperCase()) ? words[0].toUpperCase() : "";
-  const year = words.find((word) => /^\d{4}$/.test(word));
-  const rest = words
-    .filter((word, index) => (!banca || index !== 0) && word !== year && !["prova", "tipo", "001", "01"].includes(word.toLowerCase()))
-    .map((word) => {
-      const upper = word.toUpperCase();
-      if (["PM", "PB", "PF", "PRF", "TJ", "RJ", "SP", "PC", "DF"].includes(upper)) return upper;
-      return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
-    })
-    .join(" ");
-
-  if (banca || year) return [banca, year].filter(Boolean).join(" ") + (rest ? ` · ${rest}` : "");
-  return rest || cleaned;
+function normalizeAlternative(option = {}, index = 0, gabarito = "") {
+  const id = String(option.id || option.letra || ["a", "b", "c", "d", "e"][index] || "").toLowerCase();
+  return {
+    id,
+    letra: String(option.letra || id).toUpperCase(),
+    texto: option.texto || option.label || String(option),
+    correta: id === String(gabarito).toLowerCase(),
+  };
 }
 
-function normalizeQuestion(question = {}, index = 0, template = {}) {
-  const fallbackGabarito = ["a", "b", "c", "d"][index % 4];
-  const gabarito = String(question.gabarito || question.respostaCorreta || fallbackGabarito).toLowerCase();
-  const alternativas = Array.isArray(question.alternativas) && question.alternativas.length
-    ? question.alternativas.map((item, altIndex) => {
-      const id = String(item.id || item.letra || ["a", "b", "c", "d"][altIndex]).toLowerCase();
-      return { id, letra: id.toUpperCase(), texto: item.texto || item.label || item, correta: id === gabarito };
-    })
-    : ["A", "B", "C", "D"].map((letra, altIndex) => {
-      const id = letra.toLowerCase();
-      return { id, letra, texto: `Alternativa ${letra} padronizada para o simulado.`, correta: id === gabarito };
-    });
+function normalizeQuestion(question = {}) {
+  const gabarito = String(question.gabarito || question.respostaCorreta || "").toLowerCase();
+  const alternativas = Array.isArray(question.alternativas)
+    ? question.alternativas.map((item, index) => normalizeAlternative(item, index, gabarito)).filter((item) => item.id && item.texto)
+    : [];
+
+  if (!question.id || !question.enunciado || !gabarito || alternativas.length < 2) return null;
 
   return {
-    id: question.id || `${template.id || "simulado"}-${index + 1}`,
-    enunciado: question.enunciado || `Questao ${index + 1}. Em ${question.materia || "Conhecimentos gerais"}, analise o enunciado e escolha a alternativa correta conforme a banca.`,
+    ...question,
     alternativas,
     gabarito,
-    comentario: question.comentario || "Comentario ainda nao disponivel para esta questao.",
-    materia: question.materia || "Conhecimentos gerais",
-    assunto: question.assunto || question.topico || question.materia || "Assunto geral",
-    banca: question.banca || template.banca || "Banca nao informada",
+    comentario: question.comentario || "Comentario ainda nao disponivel para esta questao oficial.",
+    materia: question.materia || "Materia nao informada",
+    assunto: question.assunto || question.topico || question.materia || "Assunto nao informado",
+    banca: question.banca || "Banca nao informada",
     dificuldade: question.dificuldade || question.nivel || "medio",
-    nivel: question.nivel || question.dificuldade || "medio",
-    concurso: question.concurso || template.concurso || template.nome || "Concurso relacionado",
+    concurso: question.concurso || question.orgao || "Concurso nao informado",
   };
 }
 
-function normalizeTemplate(template = {}) {
-  return {
-    ...template,
-    questoes: (template.questoes || []).map((questao, index) => normalizeQuestion(questao, index, template)),
-  };
-}
-
-async function getOfficialTests() {
-  try {
-    const response = await fetch("/materiais/manifest.json");
-    if (!response.ok) return [];
-    const manifest = await response.json();
-    const baseQuestoes = mockSimulados[0]?.questoes || [];
-    return manifest
-      .filter((item) => item.categoria === "Provas")
-      .map((item, index) => ({
-        id: `prova-${item.id}`,
-        modo: "Prova oficial",
-        nome: formatOfficialTestName(item.titulo),
-        tempoMinutos: 180,
-        materialUrl: item.url,
-        questoes: baseQuestoes.map((questao, qIndex) => normalizeQuestion(questao, qIndex, { id: `prova-${item.id}`, nome: item.titulo, concurso: item.titulo })),
-      }));
-  } catch {
-    return [];
-  }
+function formatTempo(minutos = 0) {
+  const horas = Math.floor(minutos / 60);
+  const resto = minutos % 60;
+  if (!horas) return `${resto}min`;
+  return resto ? `${horas}h${String(resto).padStart(2, "0")}` : `${horas}h`;
 }
 
 /**
@@ -90,20 +54,58 @@ async function getOfficialTests() {
  * GET /simulados/:id/resultado
  */
 export const simuladosService = {
-  async getTemplates() {
-    return [...(await getOfficialTests()), ...mockSimulados.map(normalizeTemplate)];
+  async getTemplates({ user } = {}) {
+    const area = questoesService.resolveAreaFromUser(user);
+    const materias = await questoesService.getMateriasPorArea(area);
+    const total = (await questoesService.getQuestoes({ area, apenasOficiais: true, limit: 5000 })).length;
+
+    return DEFAULT_TEMPLATES.map((template) => ({
+      ...template,
+      area,
+      areaLabel: questoesService.getAreaLabel(area),
+      materias,
+      totalDisponivel: total,
+      disabled: total < Math.min(template.quantidade, 5),
+    }));
   },
-  async iniciar(templateId) {
-    return { ...mockSimulados.find((item) => item.id === templateId), startedAt: Date.now(), respostas: {} };
+  async iniciar(template, config = {}) {
+    const area = config.area || template.area || "geral";
+    const quantidade = Number(config.quantidade || template.quantidade || 10);
+    const filtros = {
+      area,
+      materia: config.materia || "",
+      status: config.status || "",
+      apenasOficiais: true,
+      aleatorio: true,
+      limit: quantidade,
+    };
+    const questoes = (await questoesService.getQuestoes(filtros)).map(normalizeQuestion).filter(Boolean);
+
+    if (questoes.length < quantidade) {
+      throw new Error(`Base insuficiente: encontrei ${questoes.length} questoes oficiais para este filtro.`);
+    }
+
+    return {
+      id: `${template.id}-${Date.now()}`,
+      nome: config.nome || template.nome,
+      modo: template.modo,
+      area,
+      areaLabel: questoesService.getAreaLabel(area),
+      questoes: questoes.slice(0, quantidade),
+      respostas: {},
+      tempoMinutos: Number(config.tempoMinutos || template.tempoMinutos || 60),
+      tipo: "oficial",
+      startedAt: Date.now(),
+    };
   },
   calcularResultado(simulado, respostas = {}) {
-    const questoes = simulado.questoes.map((questao, index) => {
-      const expected = String(questao.gabarito || questao.respostaCorreta || ["a", "b", "c", "d"][index % 4]).toLowerCase();
+    const questoes = simulado.questoes.map((questao) => {
+      const expected = String(questao.gabarito || questao.respostaCorreta || "").toLowerCase();
       return { ...questao, correct: String(respostas[questao.id] || "").toLowerCase() === expected, expected };
     });
     const correct = questoes.filter((questao) => questao.correct).length;
-    const percent = Math.round((correct / questoes.length) * 100);
+    const percent = questoes.length ? Math.round((correct / questoes.length) * 100) : 0;
     const porMateria = Object.entries(groupCount(questoes.filter((questao) => questao.correct), "materia")).map(([label, valor]) => ({ label, valor }));
-    return { percent, correct, total: questoes.length, tempo: "2h12", porMateria, respostas, questoes };
+    return { percent, correct, total: questoes.length, tempo: formatTempo(simulado.tempoMinutos), porMateria, respostas, questoes };
   },
 };

@@ -1,0 +1,290 @@
+{
+  "exam": "25º Exame de Ordem Unificado",
+  "source": "FGV/OAB",
+  "sourceUrl": "https://oab.fgv.br/home.aspx?key=628",
+  "collectedAt": "2026-06-10T00:01:48.338Z",
+  "files": [
+    {
+      "title": "Gabaritos Preliminares da Prova Objetiva (1ª fase)",
+      "type": "gabarito",
+      "url": "https://oab.fgv.br/arq/628/85182_GABARITOS%20PRELIMIARES_XXV_EXAME_DE_ORDEM.pdf",
+      "path": "storage/content/oab/25-exame/gabaritos/gabaritos-preliminares-da-prova-objetiva-1-fase-18qbq1.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 1",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/628/1299791_CADERNO_TIPO_1_XXV_EXAME.pdf",
+      "path": "storage/content/oab/25-exame/provas/caderno-de-prova-tipo-1-1tybaf.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 2",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/628/1019868_CADERNO_TIPO_2_XXV_EXAME.pdf",
+      "path": "storage/content/oab/25-exame/provas/caderno-de-prova-tipo-2-1pw0c6.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 3",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/628/1031727_CADERNO_TIPO_3_XXV_EXAME.pdf",
+      "path": "storage/content/oab/25-exame/provas/caderno-de-prova-tipo-3-1scjjx.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 4",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/628/976008_CADERNO_TIPO_4_XXV_EXAME.pdf",
+      "path": "storage/content/oab/25-exame/provas/caderno-de-prova-tipo-4-5l4ybe.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Administrativo) - Porto Alegre/RS",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/189143_GABARITO%20JUSTIFICADO%20-%20DIREITO%20%20ADMINISTRATIVO_REAPLICACAO_PORTO_ALEGRE_REVISADO_COORD.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-definitivo-direito-administrativo-porto-alegre-rs-1jq4vb.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Civil) - Porto Alegre/RS",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/175659_GABARITO%20JUSTIFICADO%20-%20DIREITO%20CIVIL_REAPLICACAO_PORTO_ALEGRE_REVISADO_COORD.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-definitivo-direito-civil-porto-alegre-rs-1lupzt.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Constitucional) - Porto Alegre/RS",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/198462_GABARITO%20JUSTIFICADO%20-%20DIREITO%20CONSTITUCIONAL_REAPLICACAO_PORTO_ALEGRE_REVISADO_COORD.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-definitivo-direito-constitucional-porto-alegre-rs-1t4mwg.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito do Trabalho) - Porto Alegre/RS",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/168874_GABARITO%20JUSTIFICADO%20-%20DIREITO%20DO%20TRABALHO_REAPLICACAO_PORTO_ALEGRE_REVISADO_COORD.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-definitivo-direito-do-trabalho-porto-alegre-rs-16ggum.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Empresarial) - Porto Alegre/RS",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/197317_GABARITO%20JUSTIFICADO%20-%20DIREITO%20EMPRESARIAL_REAPLICACAO_PORTO_ALEGRE_REVISADO_COORD.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-definitivo-direito-empresarial-porto-alegre-rs-qmlk2r.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Penal) - Porto Alegre/RS",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/215295_GABARITO%20JUSTIFICADO%20-%20DIREITO%20PENAL_REAPLICACAO_PORTO_ALEGRE_REVISADO_COORD.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-definitivo-direito-penal-porto-alegre-rs-1v3pnl.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Tributário) - Porto Alegre/RS",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/174954_GABARITO%20JUSTIFICADO%20-%20DIREITO%20TRIBUTARIO_REAPLICACAO_PORTO_ALEGRE_REVISADO_COORD.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-definitivo-direito-tributario-porto-alegre-rs-13qsm5.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Administrativo)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/384339_GABARITO%20JUSTIFICADO%20-%20DIREITO%20ADMINISTRATIVO.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-definitivo-direito-administrativo-1mgtex.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Civil)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/437662_GABARITO%20JUSTIFICADO%20-%20DIREITO%20CIVIL.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-definitivo-direito-civil-1fzhoh.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Constitucional)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/383143_GABARITO%20JUSTIFICADO%20-%20DIREITO%20CONSTITUCIONAL.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-definitivo-direito-constitucional-1rzhna.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito do Trabalho)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/365599_GABARITO%20JUSTIFICADO%20-%20DIREITO%20DO%20TRABALHO.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-definitivo-direito-do-trabalho-1d79x1.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Empresarial)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/385572_GABARITO%20JUSTIFICADO%20-%20DIREITO%20EMPRESARIAL.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-definitivo-direito-empresarial-skg0vo.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Penal)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/386282_GABARITO%20JUSTIFICADO%20-%20DIREITO%20PENAL.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-definitivo-direito-penal-12byjh.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Tributário)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/371744_GABARITO%20JUSTIFICADO%20-%20DIREITO%20TRIBUT%c3%81RIO.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-definitivo-direito-tributario-1q0nzi.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Administrativo) – Porto Alegre/RS",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/628/275494_XXV%20Exame%20Administrativo%20-%20SEGUNDA%20FASE_PORTO_ALEGRE%20(CAPA%20CINZA).pdf",
+      "path": "storage/content/oab/25-exame/provas/caderno-de-provas-direito-administrativo-porto-alegre-rs-10826q.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Civil) – Porto Alegre/RS",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/628/274123_XXV%20Exame%20Civil%20-%20SEGUNDA%20FASE_PORTO_ALEGRE%20(CAPA%20AMARELA).pdf",
+      "path": "storage/content/oab/25-exame/provas/caderno-de-provas-direito-civil-porto-alegre-rs-se63et.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Constitucional) – Porto Alegre/RS",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/628/281137_XXV%20Exame%20Constitucional%20-%20SEGUNDA%20FASE_PORTO_ALEGRE%20(CAPA%20AZUL).pdf",
+      "path": "storage/content/oab/25-exame/provas/caderno-de-provas-direito-constitucional-porto-alegre-rs-lj1fuj.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito do Trabalho) – Porto Alegre/RS",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/628/274454_XXV%20Exame%20Do%20Trabalho%20-%20SEGUNDA%20FASE_PORTO_ALEGRE%20(CAPA%20VERDE).pdf",
+      "path": "storage/content/oab/25-exame/provas/caderno-de-provas-direito-do-trabalho-porto-alegre-rs-n1vbxj.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Empresarial) – Porto Alegre/RS",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/628/277670_XXV%20Exame%20Empresarial%20-%20SEGUNDA%20FASE_PORTO_ALEGRE%20(CAPA%20LARANJA).pdf",
+      "path": "storage/content/oab/25-exame/provas/caderno-de-provas-direito-empresarial-porto-alegre-rs-4qsfvz.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Penal) – Porto Alegre/RS",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/628/282343_XXV%20Exame%20Penal%20-%20SEGUNDA%20FASE_PORTO_ALEGRE%20(CAPA%20BRANCA).pdf",
+      "path": "storage/content/oab/25-exame/provas/caderno-de-provas-direito-penal-porto-alegre-rs-i3r0q9.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Administrativo) – Porto Alegre/RS",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/132571_GABARITO%20JUSTIFICADO%20-%20DIREITO%20ADMINISTRATIVO_REAPLICACAO_PORTO_ALEGRE.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-direito-administrativo-porto-alegre-rs-1a6unw.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Civil) – Porto Alegre/RS",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/126612_GABARITO%20JUSTIFICADO%20-%20DIREITO%20CIVIL_REAPLICACAO_PORTO_ALEGRE.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-direito-civil-porto-alegre-rs-1qrnma.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Constitucional) – Porto Alegre/RS",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/147569_GABARITO%20JUSTIFICADO%20-%20DIREITO%20CONSTITUCIONAL_REAPLICACAO_PORTO_ALEGRE.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-direito-constitucional-porto-alegre-rs-rqxo15.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito do Trabalho) – Porto Alegre/RS",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/130910_GABARITO%20JUSTIFICADO%20-%20DIREITO%20DOTRABALHO_REAPLICACAO_PORTO_ALEGRE.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-direito-do-trabalho-porto-alegre-rs-1hkjv7.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Empresarial) – Porto Alegre/RS",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/149303_GABARITO%20JUSTIFICADO%20-%20DIREITO%20EMPRESARIAL_REAPLICACAO_PORTO_ALEGRE.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-direito-empresarial-porto-alegre-rs-tkl68f.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Penal) – Porto Alegre/RS",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/174396_GABARITO%20JUSTIFICADO%20-%20DIREITO%20PENAL_REAPLICACAO_PORTO_ALEGRE.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-direito-penal-porto-alegre-rs-1tcai6.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Tributário) – Porto Alegre/RS",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/147386_GABARITO%20JUSTIFICADO%20-%20DIREITO%20TRIBUTARIO_REAPLICACAO_PORTO_ALEGRE.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-direito-tributario-porto-alegre-rs-49rqxm.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Tributário) – Porto Alegre/RS",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/628/279246_XXV%20Exame%20Tribut%c3%a1rio%20-%20SEGUNDA%20FASE_PORTO_ALEGRE%20(CAPA%20MAGENTA).pdf",
+      "path": "storage/content/oab/25-exame/provas/caderno-de-provas-direito-tributario-porto-alegre-rs-1jgoh7.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Administrativo)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/133242_GABARITO%20JUSTIFICADO%20-%20DIREITO%20ADMINISTRATIVO.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-direito-administrativo-o00fdi.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Civil)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/128377_GABARITO%20JUSTIFICADO%20-%20DIREITO%20CIVIL.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-direito-civil-a7pl0g.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Constitucional)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/131883_GABARITO%20JUSTIFICADO%20-%20DIREITO%20CONSTITUCIONAL.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-direito-constitucional-djt4oq.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito do Trabalho)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/128863_GABARITO%20JUSTIFICADO%20-%20DIREITO%20DO%20TRABALHO.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-direito-do-trabalho-gczyno.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Empresarial)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/138651_GABARITO%20JUSTIFICADO%20-%20DIREITO%20EMPRESARIAL.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-direito-empresarial-jlr9qw.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Penal)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/168777_GABARITO%20JUSTIFICADO%20-%20DIREITO%20PENAL.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-direito-penal-x80s2x.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Tributário)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/628/145790_GABARITO%20JUSTIFICADO%20-%20DIREITO%20TRIBUT%c3%81RIO.pdf",
+      "path": "storage/content/oab/25-exame/segunda-fase/padrao-de-respostas-direito-tributario-9t9lgm.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Administrativo)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/628/275406_XXV%20Exame%20Administrativo%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/25-exame/provas/caderno-de-provas-direito-administrativo-dj21d2.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Civil)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/628/272929_XXV%20Exame%20Civil%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/25-exame/provas/caderno-de-provas-direito-civil-1wcqbn.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Constitucional)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/628/272682_XXV%20Exame%20Constitucional%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/25-exame/provas/caderno-de-provas-direito-constitucional-1yv27n.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito do Trabalho)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/628/277749_XXV%20Exame%20do%20Trabalho%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/25-exame/provas/caderno-de-provas-direito-do-trabalho-1x22dq.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Empresarial)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/628/276421_XXV%20Exame%20Empresarial%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/25-exame/provas/caderno-de-provas-direito-empresarial-14yoar.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Penal)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/628/280918_XXV%20Exame%20Penal%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/25-exame/provas/caderno-de-provas-direito-penal-1kq6ok.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Tributário)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/628/271864_XXV%20Exame%20Tribut%c3%a1rio%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/25-exame/provas/caderno-de-provas-direito-tributario-1hjvkm.pdf"
+    }
+  ]
+}

@@ -1,10 +1,11 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const navLinks = [
-  { label: "Início", href: "/#inicio" },
+  { label: "Inicio", href: "/#inicio" },
   { label: "Como funciona", href: "/#como-funciona" },
-  { label: "Matérias", href: "/#recursos" },
+  { label: "Materias", href: "/#recursos" },
   { label: "Simulados", href: "/#sistema" },
   { label: "Planos", href: "/#planos" },
 ];
@@ -17,15 +18,11 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="nav-inner">
-        <a className="brand" href="/" aria-label="Aprova+ - início">
-          <img
-            src="/logo-light-readable.svg"
-            alt="Aprova+"
-            style={{ height: "32px", width: "auto" }}
-          />
-        </a>
+        <Link className="brand" to="/" aria-label="Aprova+ - inicio">
+          <img src="/logo-light-readable.svg" alt="Aprova+" style={{ height: "32px", width: "auto" }} />
+        </Link>
 
-        <nav className="nav-links" aria-label="Navegação principal">
+        <nav className="nav-links" aria-label="Navegacao principal">
           {navLinks.map((link) => (
             <a href={link.href} key={link.href} onClick={closeMenu}>
               {link.label}
@@ -34,12 +31,12 @@ function Navbar() {
         </nav>
 
         <div className="nav-actions">
-          <a className="btn btn-ghost" href="/login" onClick={closeMenu}>
+          <Link className="btn btn-ghost" to="/login" onClick={closeMenu}>
             Entrar
-          </a>
-          <a className="btn nav-cta" href="/criar-conta" onClick={closeMenu}>
-            Começar grátis
-          </a>
+          </Link>
+          <Link className="btn nav-cta" to="/criar-conta" onClick={closeMenu}>
+            Comecar gratis
+          </Link>
         </div>
 
         <button
@@ -54,16 +51,19 @@ function Navbar() {
         </button>
       </div>
 
-      <div
-        className={`nav-content ${isMenuOpen ? "is-open" : ""}`}
-        id="mobile-navigation"
-      >
-        <nav className="nav-links-mobile" aria-label="Navegação principal mobile">
+      <div className={`nav-content ${isMenuOpen ? "is-open" : ""}`} id="mobile-navigation">
+        <nav className="nav-links-mobile" aria-label="Navegacao principal mobile">
           {navLinks.map((link) => (
             <a href={link.href} key={link.href} onClick={closeMenu}>
               {link.label}
             </a>
           ))}
+          <Link className="btn btn-ghost" to="/login" onClick={closeMenu}>
+            Entrar
+          </Link>
+          <Link className="btn nav-cta" to="/criar-conta" onClick={closeMenu}>
+            Comecar gratis
+          </Link>
         </nav>
       </div>
     </header>

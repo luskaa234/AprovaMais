@@ -1,5 +1,5 @@
 import { useCallback, useMemo, useState } from "react";
-import { BookOpen, CheckCircle2, Clock, FileText, Layers, Map, RefreshCw, XCircle } from "lucide-react";
+import { CheckCircle2, Clock, FileText, Map, RefreshCw, XCircle } from "lucide-react";
 import { Badge, Button, Card, EmptyState, Tabs } from "../../components";
 import { useAsyncData } from "../../hooks";
 import { revisaoService } from "../../services";
@@ -50,7 +50,7 @@ export default function RevisaoPage() {
 
       {tab === "Pendentes" || tab === "Revisao Espacada" ? (
         <div className="mt-4 grid gap-4 lg:grid-cols-2">
-          {ordered.length ? ordered.map((item, index) => (
+          {ordered.length ? ordered.map((item) => (
             <Card hover={false} key={item.assuntoId || item.id}>
               <div className="flex items-center justify-between gap-2">
                 <Badge variant={dueTone(item.proximaRevisao || item.dueAt)}>{item.urgencia || "agendada"}</Badge>

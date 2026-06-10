@@ -1,8 +1,9 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { CheckCircle2, Flag, Play, RotateCcw, Timer, XCircle } from "lucide-react";
-import { Badge, Button, Card, Select, cx } from "../../components";
+import { Badge, Button, Card, EmptyState, Select, cx } from "../../components";
 import { DistributionPieChart, PerformanceChart } from "../../charts";
 import { useAsyncData, useTimer } from "../../hooks";
+import { useNotifications, useUser } from "../../contexts";
 import { simuladosService } from "../../services";
 
 function SimuladoResultado({ result, onRedo, onReview }) {
@@ -102,7 +103,7 @@ function SimuladoExecucao({ simulado, onFinish }) {
         </div>
       </Card>
 
-      <Card hover={false} className="self-start xl:sticky xl:top-28">
+      <Card hover={false} className="order-first self-start xl:order-none xl:sticky xl:top-28">
         <h2 className="mb-3 font-bold text-white">Paleta</h2>
         <div className="grid grid-cols-6 gap-2 xl:grid-cols-5">
           {simulado.questoes.map((item, index) => (
@@ -126,30 +127,78 @@ function SimuladoExecucao({ simulado, onFinish }) {
 }
 
 export default function SimuladosPage() {
-  const load = useCallback(() => simuladosService.getTemplates(), []);
+  const { user } = useUser();
+  const { addNotification } = useNotifications();
+  const load = useCallback(() => simuladosService.getTemplates({ user }), [user]);
   const { data: templates = [] } = useAsyncData(load);
   const [active, setActive] = useState(null);
   const [result, setResult] = useState(null);
+  const [configs, setConfigs] = useState({});
+  const [loadingId, setLoadingId] = useState("");
   const evolution = useMemo(() => ["Fev", "Mar", "Abr", "Mai", "Jun"].map((label, index) => ({ label, acertos: 58 + index * 7 })), []);
 
-  if (result) return <SimuladoResultado result={result} onRedo={() => { setResult(null); setActive(templates[0]); }} onReview={() => setResult({ ...result, review: true })} />;
+  const updateConfig = useCallback((templateId, key, value) => {
+    setConfigs((current) => ({ ...current, [templateId]: { ...(current[templateId] || {}), [key]: value } }));
+  }, []);
+
+  const startTemplate = useCallback(async (template) => {
+    setLoadingId(template.id);
+    try {
+      const simulado = await simuladosService.iniciar(template, configs[template.id] || {});
+      setResult(null);
+      setActive(simulado);
+    } catch (error) {
+      addNotification({
+        type: "warning",
+        title: "Simulado indisponivel",
+        message: error.message || "Nao ha questoes oficiais suficientes para montar este simulado.",
+      });
+    } finally {
+      setLoadingId("");
+    }
+  }, [addNotification, configs]);
+
+  if (result) return <SimuladoResultado result={result} onRedo={() => { setResult(null); startTemplate(templates[0]); }} onReview={() => setResult({ ...result, review: true })} />;
   if (active) return <SimuladoExecucao simulado={active} onFinish={setResult} />;
 
   return (
     <div className="mx-auto max-w-[1500px]">
       <h1 className="mb-1 text-3xl font-black text-white">Simulados</h1>
       <p className="mb-5 text-sm text-gray-400">Questoes no mesmo padrao do banco: enunciado, alternativas, gabarito e comentario.</p>
+      {!templates.length ? (
+        <EmptyState title="Nenhum simulado disponivel" description="Importe questoes oficiais para liberar os simulados." />
+      ) : null}
       <div className="grid gap-4 lg:grid-cols-3">
         {templates.map((template) => (
           <Card hover={false} key={template.id}>
             <Badge>{template.modo}</Badge>
             <h2 className="mt-3 text-xl font-bold text-white">{template.nome}</h2>
+            <p className="mt-1 text-sm text-gray-400">{template.totalDisponivel} questoes oficiais em {template.areaLabel}.</p>
             <div className="my-4 grid gap-3">
-              <Select label="Materias" options={["Todas", "Direito Constitucional", "Portugues", "Informatica", "Raciocinio Logico", "Administrativo"]} />
-              <Select label="Filtro de questoes" options={["Todas", "Nao respondidas", "Erradas", "Favoritas"]} />
-              <Select label="Tempo" options={["2h", "3h", "4h"]} />
+              <Select label="Materias" placeholder="Todas" options={template.materias || []} value={configs[template.id]?.materia || ""} onChange={(event) => updateConfig(template.id, "materia", event.target.value)} />
+              <Select
+                label="Filtro de questoes"
+                placeholder="Todas"
+                options={[
+                  { value: "nao_respondidas", label: "Nao respondidas" },
+                  { value: "erradas", label: "Erradas" },
+                  { value: "favoritas", label: "Favoritas" },
+                ]}
+                value={configs[template.id]?.status || ""}
+                onChange={(event) => updateConfig(template.id, "status", event.target.value)}
+              />
+              <Select
+                label="Tempo"
+                options={[
+                  { value: 40, label: "40 min" },
+                  { value: 90, label: "1h30" },
+                  { value: 180, label: "3h" },
+                ]}
+                value={configs[template.id]?.tempoMinutos || template.tempoMinutos}
+                onChange={(event) => updateConfig(template.id, "tempoMinutos", event.target.value)}
+              />
             </div>
-            <Button icon={Play} onClick={() => setActive(template)}>Iniciar</Button>
+            <Button disabled={template.disabled} icon={Play} loading={loadingId === template.id} onClick={() => startTemplate(template)}>Iniciar</Button>
           </Card>
         ))}
       </div>

@@ -1,0 +1,38 @@
+{
+  "exam": "7º Exame de Ordem Unificado",
+  "source": "FGV/OAB",
+  "sourceUrl": "https://oab.fgv.br/home.aspx?key=168",
+  "collectedAt": "2026-06-10T00:02:00.659Z",
+  "files": [
+    {
+      "title": "Caderno de Prova 02",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/168/20120528074709-VII_Exame_Prova_Tipo%202.pdf",
+      "path": "storage/content/oab/7-exame/provas/caderno-de-prova-02-1j1xvk.pdf"
+    },
+    {
+      "title": "Caderno de Prova 03",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/168/20120527083637-VII_Exame_Prova_Tipo%203.pdf",
+      "path": "storage/content/oab/7-exame/provas/caderno-de-prova-03-1j4qj9.pdf"
+    },
+    {
+      "title": "Caderno de Prova 04",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/168/20120527083714-VII_Exame_Prova_Tipo%204.pdf",
+      "path": "storage/content/oab/7-exame/provas/caderno-de-prova-04-9qlh4z.pdf"
+    },
+    {
+      "title": "Gabaritos Preliminares da Prova Objetiva (1ª fase)",
+      "type": "gabarito",
+      "url": "https://oab.fgv.br/arq/168/20120528074926-GABARITOS%20PRELIMIARES_VII_EXAME_DE_ORDEM.pdf",
+      "path": "storage/content/oab/7-exame/gabaritos/gabaritos-preliminares-da-prova-objetiva-1-fase-9rqav3.pdf"
+    },
+    {
+      "title": "Caderno de Prova 01",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/168/20120527083320-VII_Exame_Prova_Tipo%201.pdf",
+      "path": "storage/content/oab/7-exame/provas/caderno-de-prova-01-5noo95.pdf"
+    }
+  ]
+}

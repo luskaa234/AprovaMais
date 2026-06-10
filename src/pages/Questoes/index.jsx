@@ -1,8 +1,9 @@
-import { useCallback, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import { BarChart3, BookOpenCheck, Filter, RotateCcw, Search, Target, Trophy } from "lucide-react";
 import { Button, Card, EmptyState, Input, Pagination, Select } from "../../components";
-import { useNotifications } from "../../contexts";
+import { useNotifications, useUser } from "../../contexts";
 import { useQuestoes } from "../../hooks";
+import { Modal } from "../../modals";
 import { questoesService } from "../../services";
 import { useQuestoesStore } from "../../stores";
 import { QuestionCard } from "./QuestionCard";
@@ -53,10 +54,13 @@ function StatCard({ icon: Icon, label, value, tone = "text-blue-300" }) {
 }
 
 export default function QuestoesPage() {
+  const { user } = useUser();
+  const initialArea = useMemo(() => questoesService.resolveAreaFromUser(user), [user]);
   const [page, setPage] = useState(1);
   const pageSize = 5;
   const [filtersOpen, setFiltersOpen] = useState(true);
-  const { questoes, filters, updateFilter, clearFilters, isLoading, total, stats, filterOptions } = useQuestoes({ page, pageSize });
+  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const { questoes, filters, updateFilter, clearFilters, isLoading, total, stats, filterOptions } = useQuestoes({ page, pageSize, initialFilters: { area: initialArea } });
   const { addNotification } = useNotifications();
   const addCaderno = useQuestoesStore((state) => state.addCaderno);
   const tentativas = useQuestoesStore((state) => state.tentativas);
@@ -93,7 +97,8 @@ export default function QuestoesPage() {
   const accuracy = resolved ? Math.round((correct / resolved) * 100) : 0;
   const totalPages = Math.ceil(total / pageSize) || 1;
   const visible = questoes;
-  const activeFilters = Object.values(filters).filter(Boolean).length;
+  const activeFilters = Object.entries(filters).filter(([, value]) => Boolean(value)).length;
+  const visibleFilterCount = Object.entries(filters).filter(([key, value]) => key !== "area" && Boolean(value)).length;
   const totalAvailable = stats?.totalDisponivel || total || questoes.length;
   const formatNumber = useCallback((value) => Number(value || 0).toLocaleString("pt-BR"), []);
   const materiaOptions = optionKeys(filterOptions.materias, materias);
@@ -101,6 +106,33 @@ export default function QuestoesPage() {
   const anoOptions = optionKeys(filterOptions.anos, ["2021", "2022", "2023", "2024", "2025"]);
   const assuntoOptions = optionKeys(filterOptions.assuntos, ["Constitucional", "Penal", "Administrativo", "Portugues", "Informatica", "Raciocinio Logico"]);
   const concursoOptions = optionKeys(filterOptions.concursos, ["PM", "PRF", "PF", "PC", "TJ"]);
+
+  const filtersContent = (
+    <>
+      <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-[1.4fr_repeat(4,1fr)]">
+        <Input icon={Search} label="Buscar" placeholder="Enunciado, assunto, banca..." value={filters.search || ""} onChange={(event) => setFilter("search", event.target.value)} />
+        <Select
+          label="Area"
+          options={[
+            { value: "geral", label: "Geral" },
+            { value: "oab", label: "OAB" },
+            { value: "militar", label: "Concursos militares" },
+          ]}
+          value={filters.area || "geral"}
+          onChange={(event) => setFilter("area", event.target.value)}
+        />
+        <Select label="Concurso" placeholder="Todos" options={concursoOptions} value={filters.concurso || ""} onChange={(event) => setFilter("concurso", event.target.value)} />
+        <Select label="Materia" placeholder="Todas" options={materiaOptions} value={filters.materia || ""} onChange={(event) => setFilter("materia", event.target.value)} />
+        <Select label="Assunto" placeholder="Todos" options={assuntoOptions} value={filters.assunto || ""} onChange={(event) => setFilter("assunto", event.target.value)} />
+      </div>
+      <div className="mt-3 grid gap-3 md:grid-cols-3">
+        <Select label="Banca" placeholder="Todas" options={bancaOptions} value={filters.banca || ""} onChange={(event) => setFilter("banca", event.target.value)} />
+        <Select label="Dificuldade" placeholder="Todas" options={dificuldades} value={filters.dificuldade || ""} onChange={(event) => setFilter("dificuldade", event.target.value)} />
+        <Select label="Ano" placeholder="Todos" options={anoOptions} value={filters.ano || ""} onChange={(event) => setFilter("ano", event.target.value)} />
+        <Select label="Situacao" placeholder="Todas" options={statusOptions} value={filters.status || ""} onChange={(event) => setFilter("status", event.target.value)} />
+      </div>
+    </>
+  );
 
   return (
     <div className="mx-auto max-w-[1500px]">
@@ -111,8 +143,9 @@ export default function QuestoesPage() {
           <p className="mt-1 text-sm text-gray-400">Resolva, confira o gabarito comentado e envie erros para revisao.</p>
         </div>
         <div className="flex flex-wrap gap-2">
-          <Button icon={Filter} variant="secondary" onClick={() => setFiltersOpen((value) => !value)}>{filtersOpen ? "Ocultar filtros" : "Mostrar filtros"}</Button>
-          <Button icon={RotateCcw} variant="ghost" onClick={() => { clearFilters(); setPage(1); }}>Limpar</Button>
+          <Button className="md:hidden" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{visibleFilterCount ? ` · ${visibleFilterCount}` : ""}</Button>
+          <Button className="hidden md:inline-flex" icon={Filter} variant="secondary" onClick={() => setFiltersOpen((value) => !value)}>{filtersOpen ? "Ocultar filtros" : "Mostrar filtros"}</Button>
+          <Button icon={RotateCcw} variant="ghost" onClick={() => { clearFilters({ area: initialArea }); setPage(1); }}>Limpar</Button>
         </div>
       </div>
 
@@ -124,21 +157,10 @@ export default function QuestoesPage() {
       </div>
 
       {filtersOpen ? (
-        <Card hover={false} className="mb-4">
-          <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-[1.4fr_repeat(4,1fr)]">
-            <Input icon={Search} label="Buscar" placeholder="Enunciado, assunto, banca..." value={filters.search || ""} onChange={(event) => setFilter("search", event.target.value)} />
-            <Select label="Concurso" placeholder="Todos" options={concursoOptions} value={filters.concurso || ""} onChange={(event) => setFilter("concurso", event.target.value)} />
-            <Select label="Materia" placeholder="Todas" options={materiaOptions} value={filters.materia || ""} onChange={(event) => setFilter("materia", event.target.value)} />
-            <Select label="Assunto" placeholder="Todos" options={assuntoOptions} value={filters.assunto || ""} onChange={(event) => setFilter("assunto", event.target.value)} />
-            <Select label="Banca" placeholder="Todas" options={bancaOptions} value={filters.banca || ""} onChange={(event) => setFilter("banca", event.target.value)} />
-          </div>
-          <div className="mt-3 grid gap-3 md:grid-cols-3">
-            <Select label="Dificuldade" placeholder="Todas" options={dificuldades} value={filters.dificuldade || ""} onChange={(event) => setFilter("dificuldade", event.target.value)} />
-            <Select label="Ano" placeholder="Todos" options={anoOptions} value={filters.ano || ""} onChange={(event) => setFilter("ano", event.target.value)} />
-            <Select label="Situacao" placeholder="Todas" options={statusOptions} value={filters.status || ""} onChange={(event) => setFilter("status", event.target.value)} />
-          </div>
+        <Card hover={false} className="mb-4 hidden md:block">
+          {filtersContent}
           <div className="mt-3 flex flex-wrap items-center justify-between gap-2 border-t border-gray-800 pt-3 text-xs text-gray-500">
-            <span>{activeFilters ? `${activeFilters} filtro(s) ativo(s)` : "Nenhum filtro ativo"} - todas as {formatNumber(totalAvailable)} questoes disponiveis</span>
+            <span>{activeFilters ? `${activeFilters} filtro(s) ativo(s)` : "Nenhum filtro ativo"} - area atual: {questoesService.getAreaLabel(filters.area || "geral")} - {formatNumber(totalAvailable)} questoes disponiveis</span>
             <span>Pagina {page} de {totalPages}</span>
           </div>
         </Card>
@@ -153,12 +175,16 @@ export default function QuestoesPage() {
           ))}
         </div>
       ) : (
-        <EmptyState icon={Search} title="Nenhuma questao encontrada" description="Ajuste os filtros ou limpe a busca para voltar ao treino." action={<Button variant="secondary" onClick={() => { clearFilters(); setPage(1); }}>Limpar filtros</Button>} />
+        <EmptyState icon={Search} title="Nenhuma questao encontrada" description="Ajuste os filtros ou limpe a busca para voltar ao treino." action={<Button variant="secondary" onClick={() => { clearFilters({ area: initialArea }); setPage(1); }}>Limpar filtros</Button>} />
       )}
 
       <div className="mt-5 flex justify-center">
         <Pagination page={page} totalPages={totalPages} onPageChange={setPage} />
       </div>
+
+      <Modal open={mobileFiltersOpen} title="Filtros" onClose={() => setMobileFiltersOpen(false)} footer={<Button onClick={() => setMobileFiltersOpen(false)}>Aplicar</Button>}>
+        {filtersContent}
+      </Modal>
     </div>
   );
 }

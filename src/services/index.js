@@ -1,4 +1,6 @@
 export { questoesService } from "./questoesService";
+export { oabService } from "./oabService";
+export { militarService } from "./militarService";
 export { simuladosService } from "./simuladosService";
 export { flashcardsService } from "./flashcardsService";
 export { planoService } from "./planoService";

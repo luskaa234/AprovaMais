@@ -3,10 +3,21 @@ import { createClient } from "@supabase/supabase-js";
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
-export const isSupabaseConfigured = Boolean(supabaseUrl && supabaseAnonKey);
+function normalizeSupabaseUrl(url) {
+  if (!url) return "";
+  try {
+    return new URL(url).origin;
+  } catch {
+    return "";
+  }
+}
+
+const normalizedSupabaseUrl = normalizeSupabaseUrl(supabaseUrl);
+
+export const isSupabaseConfigured = Boolean(normalizedSupabaseUrl && supabaseAnonKey);
 
 export const supabase = isSupabaseConfigured
-  ? createClient(supabaseUrl, supabaseAnonKey, {
+  ? createClient(normalizedSupabaseUrl, supabaseAnonKey, {
       auth: { persistSession: true, autoRefreshToken: true },
     })
   : null;

@@ -1,8 +1,9 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { CheckCircle2, Layers, RefreshCw, Search, XCircle } from "lucide-react";
+import { CheckCircle2, Filter, Layers, RefreshCw, Search, XCircle } from "lucide-react";
 import { Badge, Button, Card, EmptyState, Input, Select } from "../../components";
 import { StudyTimeChart } from "../../charts";
 import { useNotifications } from "../../contexts";
+import { Modal } from "../../modals";
 import { questoesService } from "../../services";
 import { useAsyncData } from "../../hooks";
 import { useQuestoesStore } from "../../stores";
@@ -10,6 +11,7 @@ import { groupCount } from "../../utils";
 
 export default function CadernoErrosPage() {
   const [filters, setFilters] = useState({ search: "", materia: "", banca: "", status: "" });
+  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [extraQuestoes, setExtraQuestoes] = useState([]);
   const [superadas, setSuperadas] = useState([]);
   const { addNotification } = useNotifications();
@@ -39,6 +41,15 @@ export default function CadernoErrosPage() {
   const chart = useMemo(() => Object.entries(groupCount(erros, "materia")).map(([label, valor]) => ({ label, valor })), [erros]);
   const materias = useMemo(() => [...new Set(baseErros.map((q) => q.materia).filter(Boolean))], [baseErros]);
   const bancas = useMemo(() => [...new Set(baseErros.map((q) => q.banca).filter(Boolean))], [baseErros]);
+  const activeFilterCount = Object.values(filters).filter(Boolean).length;
+  const filtersContent = (
+    <div className="grid gap-3 md:grid-cols-4">
+      <Input icon={Search} label="Buscar" placeholder="Enunciado ou assunto" value={filters.search} onChange={(event) => setFilters((current) => ({ ...current, search: event.target.value }))} />
+      <Select label="Materia" placeholder="Todas" options={materias} value={filters.materia} onChange={(event) => setFilters((current) => ({ ...current, materia: event.target.value }))} />
+      <Select label="Banca" placeholder="Todas" options={bancas} value={filters.banca} onChange={(event) => setFilters((current) => ({ ...current, banca: event.target.value }))} />
+      <Select label="Origem" placeholder="Todas" options={[{ value: "respondida", label: "Erro respondido" }, { value: "manual", label: "Marcada manualmente" }]} value={filters.status} onChange={(event) => setFilters((current) => ({ ...current, status: event.target.value }))} />
+    </div>
+  );
 
   const superado = useCallback((id) => {
     removerCaderno(id);
@@ -48,19 +59,17 @@ export default function CadernoErrosPage() {
 
   return (
     <div className="mx-auto max-w-[1500px]">
-      <div className="mb-5">
-        <p className="text-xs font-semibold uppercase tracking-wide text-blue-300">Caderno de erros</p>
-        <h1 className="text-3xl font-black text-white">Revisao dos pontos fracos</h1>
-        <p className="mt-1 text-sm text-gray-400">Erros respondidos e itens marcados manualmente ficam organizados para retreino.</p>
+      <div className="mb-5 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-wide text-blue-300">Caderno de erros</p>
+          <h1 className="text-3xl font-black text-white">Revisao dos pontos fracos</h1>
+          <p className="mt-1 text-sm text-gray-400">Erros respondidos e itens marcados manualmente ficam organizados para retreino.</p>
+        </div>
+        <Button className="md:hidden" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{activeFilterCount ? ` · ${activeFilterCount}` : ""}</Button>
       </div>
 
-      <Card hover={false} className="mb-4">
-        <div className="grid gap-3 md:grid-cols-4">
-          <Input icon={Search} label="Buscar" placeholder="Enunciado ou assunto" value={filters.search} onChange={(event) => setFilters((current) => ({ ...current, search: event.target.value }))} />
-          <Select label="Materia" placeholder="Todas" options={materias} value={filters.materia} onChange={(event) => setFilters((current) => ({ ...current, materia: event.target.value }))} />
-          <Select label="Banca" placeholder="Todas" options={bancas} value={filters.banca} onChange={(event) => setFilters((current) => ({ ...current, banca: event.target.value }))} />
-          <Select label="Origem" placeholder="Todas" options={[{ value: "respondida", label: "Erro respondido" }, { value: "manual", label: "Marcada manualmente" }]} value={filters.status} onChange={(event) => setFilters((current) => ({ ...current, status: event.target.value }))} />
-        </div>
+      <Card hover={false} className="mb-4 hidden md:block">
+        {filtersContent}
       </Card>
 
       <div className="grid gap-4 xl:grid-cols-[1fr_360px]">
@@ -90,6 +99,9 @@ export default function CadernoErrosPage() {
           {chart.length ? <StudyTimeChart data={chart} layout="vertical" /> : <p className="text-sm text-gray-400">Sem dados suficientes para montar o grafico.</p>}
         </Card>
       </div>
+      <Modal open={mobileFiltersOpen} title="Filtros" onClose={() => setMobileFiltersOpen(false)} footer={<Button onClick={() => setMobileFiltersOpen(false)}>Aplicar</Button>}>
+        {filtersContent}
+      </Modal>
     </div>
   );
 }

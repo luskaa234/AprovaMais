@@ -34,7 +34,7 @@ export function useQuestoes({ page = 1, pageSize = 5, initialFilters = {} } = {}
   }, [refetch]);
 
   const updateFilter = useCallback((key, value) => setFilters((current) => ({ ...current, [key]: value })), []);
-  const clearFilters = useCallback(() => setFilters({}), []);
+  const clearFilters = useCallback((nextFilters = {}) => setFilters(nextFilters), []);
 
   return { questoes, filters, updateFilter, clearFilters, isLoading, error, refetch, total, stats, filterOptions };
 }

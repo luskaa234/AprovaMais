@@ -5,7 +5,7 @@ import { Badge, Button, Card, ProgressBar, cx } from "../../components";
 import { HeatmapCalendar, PerformanceChart, StudyTimeChart } from "../../charts";
 import { useInternalRouter, useUser } from "../../contexts";
 import { isSupabaseConfigured, supabase } from "../../lib/supabase";
-import { aiService } from "../../services";
+import { aiService, questoesService } from "../../services";
 import { usePlanoStore, useQuestoesStore, useRankingStore, useRevisaoStore } from "../../stores";
 
 const KpiCard = ({ label, value, icon: Icon }) => (
@@ -38,6 +38,63 @@ const MobileQuickAction = ({ icon: Icon, label, detail, onClick, tone }) => (
     <ChevronRight size={18} />
   </button>
 );
+
+function getObjectiveContent(user = {}) {
+  const objective = String(user.objective || user.diagnosticPlan?.objective || "").toLowerCase();
+  const target = String(user.targetContest || user.contestName || user.diagnosticPlan?.objectiveLabel || "").toLowerCase();
+
+  if (objective === "oab" || target.includes("oab")) {
+    return {
+      title: "Conteudos OAB",
+      label: "OAB",
+      subjects: ["Etica Profissional", "Direito Constitucional", "Direito Civil", "Processo Civil", "Direito Penal", "Direito do Trabalho"],
+      actions: ["Questoes FGV", "Simulado 1a fase", "Treino de peca"],
+    };
+  }
+
+  if (objective === "enem" || target.includes("enem")) {
+    return {
+      title: "Conteudos ENEM",
+      label: "ENEM",
+      subjects: ["Linguagens", "Matematica", "Ciencias Humanas", "Ciencias da Natureza", "Redacao"],
+      actions: ["Redacao semanal", "Simulado por area", "Prova completa"],
+    };
+  }
+
+  if (target.includes("pm") || target.includes("policia militar")) {
+    return {
+      title: "Conteudos PM",
+      label: "PM",
+      subjects: ["Portugues", "Matematica", "Direito Constitucional", "Direito Penal", "Legislacao Penal Especial", "TAF"],
+      actions: ["Questoes PM", "Simulado PM", "Treino TAF"],
+    };
+  }
+
+  if (objective === "ensino-medio") {
+    return {
+      title: "Conteudos Ensino Medio",
+      label: "Ensino Medio",
+      subjects: ["Portugues", "Matematica", "Biologia", "Fisica", "Quimica", "Historia", "Geografia"],
+      actions: ["Revisao escolar", "Lista de exercicios", "Simulado bimestral"],
+    };
+  }
+
+  if (objective === "vestibular") {
+    return {
+      title: "Conteudos Vestibular",
+      label: user.vestibularName || "Vestibular",
+      subjects: ["Portugues", "Matematica", "Redacao", "Biologia", "Fisica", "Quimica", "Humanas"],
+      actions: ["Simulado vestibular", "Redacao", "Questoes por banca"],
+    };
+  }
+
+  return {
+    title: "Conteudos do seu objetivo",
+    label: user.targetContest || "Geral",
+    subjects: user.diagnosticPlan?.prioritySubjects || [],
+    actions: ["Plano semanal", "Questoes", "Revisao"],
+  };
+}
 
 const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user }) => {
   const [hours, questions, accuracy, streak, taf] = kpis;
@@ -129,6 +186,10 @@ export default function DashboardPage() {
   const [remote, setRemote] = useState({ profile: null, ranking: null, revisoes: null, performance: null });
   const [relatorio, setRelatorio] = useState(null);
   const [gerandoRelatorio, setGerandoRelatorio] = useState(false);
+  const [materiasDoPerfil, setMateriasDoPerfil] = useState([]);
+  const diagnosticPlan = user?.diagnosticPlan;
+  const objectiveContent = useMemo(() => getObjectiveContent(user), [user]);
+  const objectiveArea = useMemo(() => questoesService.resolveAreaFromUser(user), [user]);
 
   const localPerformance = useMemo(() => {
     const labels = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sab"];
@@ -183,6 +244,20 @@ export default function DashboardPage() {
     };
   }, [user?.id]);
 
+  useEffect(() => {
+    let alive = true;
+    questoesService.getMateriasPorArea(objectiveArea)
+      .then((materias) => {
+        if (alive) setMateriasDoPerfil(materias);
+      })
+      .catch(() => {
+        if (alive) setMateriasDoPerfil([]);
+      });
+    return () => {
+      alive = false;
+    };
+  }, [objectiveArea]);
+
   const tempo = useMemo(() => Object.entries(progressoPorDisciplina).map(([label, valor]) => ({ label, valor })), [progressoPorDisciplina]);
   const stats = remote.profile || user.rawStats || {};
   const revisoes = remote.revisoes || revisoesLocal;
@@ -214,6 +289,7 @@ export default function DashboardPage() {
       materiasFracas,
     };
   }, [questoes, questoesResolvidas, stats.sequencia_dias, stats.taxa_acertos, taxaAcertos, tentativas, user.stats.accuracy, user.stats.streak]);
+  const subjectsLiberados = materiasDoPerfil.length ? materiasDoPerfil : objectiveContent.subjects;
 
   const handleRelatorio = async () => {
     setGerandoRelatorio(true);
@@ -269,6 +345,87 @@ export default function DashboardPage() {
           </div>
         </Card>
       ) : null}
+
+      {diagnosticPlan ? (
+        <Card className="mb-4" hover={false}>
+          <div className="mb-4 flex flex-col gap-3 lg:flex-row lg:items-start lg:justify-between">
+            <div>
+              <p className="text-xs font-black uppercase tracking-wide text-blue-300">Diagnostico inicial</p>
+              <h2 className="mt-1 text-xl font-black text-white">Plano personalizado para {diagnosticPlan.objectiveLabel}</h2>
+              <p className="mt-1 text-sm text-gray-400">{diagnosticPlan.evolutionForecast}</p>
+            </div>
+            <Button size="sm" icon={CalendarCheck} onClick={() => navigate("plano")}>
+              Ver cronograma
+            </Button>
+          </div>
+
+          <div className="grid gap-3 md:grid-cols-4">
+            <div className="rounded-lg border border-gray-800 bg-gray-950 p-3">
+              <span className="text-xs text-gray-500">Meta semanal</span>
+              <strong className="mt-1 block text-2xl text-white">{diagnosticPlan.weeklyHours}h</strong>
+            </div>
+            <div className="rounded-lg border border-gray-800 bg-gray-950 p-3">
+              <span className="text-xs text-gray-500">Dias disponiveis</span>
+              <strong className="mt-1 block text-2xl text-white">{diagnosticPlan.availableDays?.length || 0}</strong>
+            </div>
+            <div className="rounded-lg border border-gray-800 bg-gray-950 p-3">
+              <span className="text-xs text-gray-500">Prioridades</span>
+              <strong className="mt-1 block text-2xl text-white">{diagnosticPlan.prioritySubjects?.length || 0}</strong>
+            </div>
+            <div className="rounded-lg border border-gray-800 bg-gray-950 p-3">
+              <span className="text-xs text-gray-500">Simulado sugerido</span>
+              <strong className="mt-1 block truncate text-sm text-white">{diagnosticPlan.simulations?.[0]}</strong>
+            </div>
+          </div>
+
+          <div className="mt-4 grid gap-4 lg:grid-cols-2">
+            <div>
+              <h3 className="mb-2 text-sm font-bold text-white">Materias prioritarias</h3>
+              <div className="flex flex-wrap gap-2">
+                {diagnosticPlan.prioritySubjects?.slice(0, 10).map((subject) => (
+                  <span className="rounded-full bg-blue-500/15 px-3 py-1 text-xs font-bold text-blue-100" key={subject}>{subject}</span>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h3 className="mb-2 text-sm font-bold text-white">Metas da semana</h3>
+              <div className="grid gap-2 text-sm text-gray-300">
+                {diagnosticPlan.weeklyGoals?.slice(0, 4).map((goal) => <span key={goal}>{goal}</span>)}
+              </div>
+            </div>
+          </div>
+        </Card>
+      ) : null}
+
+      <Card className="mb-4" hover={false}>
+        <div className="mb-4 flex flex-col gap-3 lg:flex-row lg:items-start lg:justify-between">
+          <div>
+            <p className="text-xs font-black uppercase tracking-wide text-blue-300">Dashboard personalizado</p>
+            <h2 className="mt-1 text-xl font-black text-white">{objectiveContent.title}</h2>
+            <p className="mt-1 text-sm text-gray-400">Mostrando trilhas, materias e simulados alinhados a {objectiveContent.label}.</p>
+          </div>
+          <Badge variant="success">{objectiveContent.label}</Badge>
+        </div>
+
+        <div className={cx("grid gap-4", subjectsLiberados.length ? "lg:grid-cols-2" : "lg:grid-cols-1")}>
+          {subjectsLiberados.length ? (
+            <div>
+              <h3 className="mb-2 text-sm font-bold text-white">Materias liberadas para este perfil</h3>
+              <div className="flex flex-wrap gap-2">
+                {subjectsLiberados.slice(0, 14).map((subject) => (
+                  <span className="rounded-full bg-blue-500/15 px-3 py-1 text-xs font-bold text-blue-100" key={subject}>{subject}</span>
+                ))}
+              </div>
+            </div>
+          ) : null}
+          <div>
+            <h3 className="mb-2 text-sm font-bold text-white">Acoes recomendadas</h3>
+            <div className="grid gap-2 text-sm text-gray-300">
+              {objectiveContent.actions.map((action) => <span key={action}>{action}</span>)}
+            </div>
+          </div>
+        </div>
+      </Card>
 
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-5">
         {kpis.map(([label, value, icon]) => (

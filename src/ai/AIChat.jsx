@@ -1,25 +1,106 @@
 import { memo, useCallback, useEffect, useRef, useState } from "react";
 import { BookOpenCheck, Send } from "lucide-react";
-import { Button, Input } from "../components";
+import { Button, Input, Mascot } from "../components";
 import { useAI } from "../hooks";
 import { aiService } from "../services";
 
-const AssistantCharacter = memo(({ small = false }) => (
-  <div className={small ? "grid size-9 shrink-0 place-items-center rounded-lg bg-blue-50" : "grid place-items-center"}>
-    <svg width={small ? 28 : 132} height={small ? 28 : 132} viewBox="0 0 132 132" role="img" aria-label="Assistente Aprova">
-      <circle cx="66" cy="66" r="58" fill="#dbeafe" />
-      <path d="M38 73c0-24 12-39 28-39s28 15 28 39v18c0 8-6 14-14 14H52c-8 0-14-6-14-14V73Z" fill="#2563eb" />
-      <path d="M45 70c0-20 9-32 21-32s21 12 21 32v9c0 7-5 12-12 12H57c-7 0-12-5-12-12v-9Z" fill="#f8fafc" />
-      <circle cx="57" cy="68" r="4" fill="#1e293b" />
-      <circle cx="75" cy="68" r="4" fill="#1e293b" />
-      <path d="M58 80c5 5 17 5 22 0" fill="none" stroke="#1e293b" strokeLinecap="round" strokeWidth="4" />
-      <path d="M39 54c-8 2-14 9-14 18 0 8 5 15 12 18" fill="none" stroke="#2563eb" strokeLinecap="round" strokeWidth="8" />
-      <path d="M93 54c8 2 14 9 14 18 0 8-5 15-12 18" fill="none" stroke="#2563eb" strokeLinecap="round" strokeWidth="8" />
-      <path d="M52 31h28l-5-12H57l-5 12Z" fill="#1d4ed8" />
-    </svg>
-  </div>
-));
-AssistantCharacter.displayName = "AssistantCharacter";
+function readJsonStorage(key, fallback) {
+  try {
+    const value = localStorage.getItem(key);
+    return value ? JSON.parse(value) : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+function writeJsonStorage(key, value) {
+  localStorage.setItem(key, JSON.stringify(value));
+  window.dispatchEvent(new StorageEvent("storage", { key, newValue: JSON.stringify(value) }));
+}
+
+function parseDays(text) {
+  const explicit = [...text.matchAll(/\b([0-3]?\d)\b/g)]
+    .map((match) => Number(match[1]))
+    .filter((day) => day >= 1 && day <= 31);
+  return [...new Set(explicit)];
+}
+
+function parseHour(text) {
+  const match = text.match(/(?:as|às|horario de|horário de)\s*(\d{1,2})(?::(\d{2}))?/i) || text.match(/\b(\d{1,2})\s*h\b/i);
+  if (!match) return "10:00";
+  const hour = String(Math.min(23, Number(match[1]))).padStart(2, "0");
+  const minute = String(Math.min(59, Number(match[2] || 0))).padStart(2, "0");
+  return `${hour}:${minute}`;
+}
+
+function detectLocalAction(prompt) {
+  const text = prompt.toLowerCase();
+  if (text.includes("programa") || text.includes("programacao") || text.includes("programação")) {
+    return { type: "set-focus-programming" };
+  }
+
+  if ((text.includes("atualize") || text.includes("adicione") || text.includes("coloque") || text.includes("agenda")) && text.includes("plano")) {
+    return { type: "schedule-study", days: parseDays(text), hour: parseHour(text) };
+  }
+
+  return null;
+}
+
+function currentMonthDate(day) {
+  const date = new Date();
+  return new Date(date.getFullYear(), date.getMonth(), day).toISOString().slice(0, 10);
+}
+
+function saveProgrammingFocus() {
+  const stored = readJsonStorage("aprova-user", {});
+  const state = stored.state || {};
+  const user = state.user || {};
+  const next = {
+    ...stored,
+    state: {
+      ...state,
+      user: {
+        ...user,
+        objective: "programacao",
+        targetContest: "Programacao",
+        contestName: "Programacao",
+        difficultSubjects: user.difficultSubjects?.length ? user.difficultSubjects : ["Logica de programacao", "JavaScript", "React"],
+        diagnosticPlan: {
+          ...(user.diagnosticPlan || {}),
+          objective: "programacao",
+          objectiveLabel: "Programacao",
+          prioritySubjects: ["Logica de programacao", "JavaScript", "React", "Projetos praticos"],
+          weakSubjects: user.difficultSubjects?.length ? user.difficultSubjects : ["Logica de programacao", "JavaScript", "React"],
+          weeklyGoals: ["Construir 1 projeto pequeno", "Estudar 5 dias na semana", "Resolver exercicios de logica"],
+          simulations: ["Desafio pratico semanal", "Code review do projeto"],
+          evolutionForecast: "Evolucao baseada em pratica diaria e projetos curtos.",
+        },
+      },
+    },
+  };
+  writeJsonStorage("aprova-user", next);
+}
+
+function saveSchedule(days, hour) {
+  const validDays = days.length ? days : [10, 11, 12];
+  const existing = readJsonStorage("aprova-plano-atividades", []);
+  const created = validDays.map((day) => ({
+    id: `ia-programacao-${currentMonthDate(day)}-${hour}`,
+    date: currentMonthDate(day),
+    hour,
+    title: "Estudo de programacao",
+    materia: "Programacao",
+    type: "Estudo",
+    duration: 90,
+    concurso: "Programacao",
+    status: "Pendente",
+  }));
+
+  const createdIds = new Set(created.map((item) => item.id));
+  const next = [...created, ...existing.filter((item) => !createdIds.has(item.id))];
+  writeJsonStorage("aprova-plano-atividades", next);
+  return created;
+}
 
 export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
   const [messages, setMessages] = useState([
@@ -35,6 +116,22 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
       const historico = messages.map((message) => ({ role: message.role === "ai" ? "model" : "user", text: message.text }));
       setMessages((items) => [...items, { role: "user", text: prompt }]);
       setInput("");
+
+      const localAction = detectLocalAction(prompt);
+      if (localAction?.type === "set-focus-programming") {
+        saveProgrammingFocus();
+        setMessages((items) => [...items, { role: "ai", text: "Perfeito. Atualizei seu foco local para Programacao. A partir daqui vou priorizar logica, JavaScript, React e projetos praticos." }]);
+        return;
+      }
+
+      if (localAction?.type === "schedule-study") {
+        saveProgrammingFocus();
+        const created = saveSchedule(localAction.days, localAction.hour);
+        const dates = created.map((item) => item.date.split("-").reverse().join("/")).join(", ");
+        setMessages((items) => [...items, { role: "ai", text: `Atualizei a aba Plano de Estudos: ${created.length} blocos de Programacao foram criados para ${dates}, as ${localAction.hour}.` }]);
+        return;
+      }
+
       sendPrompt(prompt, (text) => setMessages((items) => [...items, { role: "ai", text }]), { perfil, desempenho, historico });
     },
     [desempenho, input, messages, perfil, sendPrompt]
@@ -63,7 +160,7 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
   return (
     <div className="flex h-full flex-col">
       <div className="mb-4 flex items-center gap-4 rounded-lg border border-blue-200 bg-blue-50 p-4 text-slate-800">
-        <AssistantCharacter />
+        <Mascot size="lg" framed={false} className="-my-4" />
         <div>
           <p className="text-xs font-black uppercase tracking-wide text-blue-700">Aprova Assistente</p>
           <h2 className="text-xl font-black">Seu tutor de revisao e questoes</h2>
@@ -74,7 +171,7 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
       <div className="flex-1 overflow-auto rounded-lg border border-gray-800 bg-gray-950 p-4">
         {messages.map((message, index) => (
           <div key={`${message.role}-${index}`} className={`mb-3 flex gap-2 ${message.role === "user" ? "justify-end" : "justify-start"}`}>
-            {message.role === "ai" ? <AssistantCharacter small /> : null}
+            {message.role === "ai" ? <Mascot size="sm" /> : null}
             <div className={`max-w-[82%] whitespace-pre-wrap rounded-lg p-3 text-sm ${message.role === "user" ? "bg-blue-600 text-white" : "bg-gray-900 text-gray-200"}`}>
               {message.text}
             </div>
@@ -82,7 +179,7 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
         ))}
         {isStreaming ? (
           <div className="flex items-center gap-2 text-sm text-gray-400">
-            <AssistantCharacter small />
+            <Mascot size="sm" />
             <div className="max-w-[82%] whitespace-pre-wrap rounded-lg bg-gray-900 p-3 text-sm text-gray-200">
               {streamText || (
                 <span className="inline-flex items-center gap-2 text-gray-400">

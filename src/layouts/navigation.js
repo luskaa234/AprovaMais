@@ -2,6 +2,7 @@ import { AlertTriangle, BookOpen, CalendarDays, ClipboardList, Dumbbell, GitBran
 
 export const navItems = [
   { key: "dashboard", label: "Dashboard", icon: LayoutDashboard },
+  { key: "oab", label: "OAB", icon: Scale, requiresObjective: "oab" },
   { key: "questoes", label: "Banco de questões", icon: BookOpen },
   { key: "simulados", label: "Simulados", icon: ClipboardList },
   { key: "taf", label: "TAF", icon: Dumbbell, badge: "Novo" },

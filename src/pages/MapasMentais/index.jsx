@@ -1,5 +1,5 @@
 import { useCallback, useDeferredValue, useMemo, useRef, useState } from "react";
-import { Bookmark, Brain, CalendarCheck, Download, Edit3, FileQuestion, FileText, Maximize2, Plus, Printer, Search, Share2, Sparkles, Trash2, ZoomIn, ZoomOut } from "lucide-react";
+import { Bookmark, Brain, CalendarCheck, Download, Edit3, FileQuestion, FileText, Maximize2, Plus, Printer, Search, Share2, Trash2, ZoomIn, ZoomOut } from "lucide-react";
 import { Badge, Button, Card, EmptyState, Input, Select, cx } from "../../components";
 import { Modal } from "../../modals";
 import { useNotifications } from "../../contexts";
@@ -107,8 +107,7 @@ export default function MapasMentaisPage() {
   }), [deferredQuery, filters, maps, tab]);
   const visibleMaps = filtered.slice(0, 60);
   const activeMap = maps.find((item) => item.id === activeId) || filtered[0];
-  const branches = activeMap?.root?.children || [];
-  const points = useMemo(() => nodePoints(branches, collapsed), [branches, collapsed]);
+  const points = useMemo(() => nodePoints(activeMap?.root?.children || [], collapsed), [activeMap, collapsed]);
 
   const notify = useCallback((title, message) => addNotification({ type: "success", title, message }), [addNotification]);
   const saveMap = useCallback(() => {

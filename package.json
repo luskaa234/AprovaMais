@@ -7,13 +7,19 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "miner:oab": "tsx scripts/content-miner/oab.ts",
+    "miner:militar": "tsx scripts/content-miner/militar.ts",
+    "miner:pci-militar": "tsx scripts/content-miner/pci-militar.ts",
+    "miner:pci-militar:import": "tsx scripts/content-miner/pci-militar.ts --import",
+    "miner:leis": "tsx scripts/content-miner/leis.ts"
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.2.9",
     "@google/generative-ai": "^0.24.1",
     "@gsap/react": "^2.1.2",
     "@hookform/resolvers": "^5.4.0",
+    "@prisma/client": "^7.8.0",
     "@radix-ui/react-tabs": "^1.1.13",
     "@supabase/auth-helpers-react": "^0.15.0",
     "@supabase/supabase-js": "^2.108.0",
@@ -21,7 +27,9 @@
     "@tsparticles/engine": "^4.1.2",
     "@tsparticles/react": "^4.1.2",
     "adm-zip": "^0.5.17",
+    "axios": "^1.17.0",
     "better-sqlite3": "^12.10.0",
+    "cheerio": "^1.2.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "csv-parse": "^6.2.1",
@@ -33,6 +41,7 @@
     "motion": "^12.40.0",
     "next-seo": "^7.2.0",
     "ogl": "^1.0.11",
+    "pdf-parse": "^2.4.5",
     "posthog-js": "^1.378.1",
     "radix-ui": "^1.4.3",
     "react": "^19.2.6",
@@ -66,6 +75,9 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
+    "prisma": "^7.8.0",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
     "vite": "^8.0.12"
   }
 }

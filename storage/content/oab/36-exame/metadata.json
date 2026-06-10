@@ -1,0 +1,170 @@
+{
+  "exam": "36º Exame de Ordem Unificado",
+  "source": "FGV/OAB",
+  "sourceUrl": "https://oab.fgv.br/home.aspx?key=639",
+  "collectedAt": "2026-06-10T00:01:33.313Z",
+  "files": [
+    {
+      "title": "Gabaritos Definitivos da Prova Objetiva (1ª fase)",
+      "type": "gabarito",
+      "url": "http://oab.fgv.br/arq/639/243215_GABARITOS%20DEFINITIVOS_XXXVI_EXAME_DE_ORDEM.pdf",
+      "path": "storage/content/oab/36-exame/gabaritos/gabaritos-definitivos-da-prova-objetiva-1-fase-1138md.pdf"
+    },
+    {
+      "title": "Gabaritos Preliminares da Prova Objetiva (1ª fase)",
+      "type": "gabarito",
+      "url": "http://oab.fgv.br/arq/639/75766_GABARITOS%20PRELIMINARES_XXXVI_EXAME_DE_ORDEM.pdf",
+      "path": "storage/content/oab/36-exame/gabaritos/gabaritos-preliminares-da-prova-objetiva-1-fase-ip29f5.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 4",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/639/556216_Advogado(EOU)%20Tipo%204.pdf",
+      "path": "storage/content/oab/36-exame/provas/caderno-de-prova-tipo-4-ldtu5.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 3",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/639/586336_Advogado(EOU)%20Tipo%203.pdf",
+      "path": "storage/content/oab/36-exame/provas/caderno-de-prova-tipo-3-ttft6y.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 1",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/639/527735_Advogado(EOU)%20Tipo%201.pdf",
+      "path": "storage/content/oab/36-exame/provas/caderno-de-prova-tipo-1-16vl03.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 2",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/639/562789_Advogado(EOU)%20Tipo%202.pdf",
+      "path": "storage/content/oab/36-exame/provas/caderno-de-prova-tipo-2-10xnc6.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Tributário)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/639/264595_GABARITO%20JUSTIFICADO%20-%20DIREITO%20TRIBUT%c3%81RIO.pdf",
+      "path": "storage/content/oab/36-exame/segunda-fase/padrao-de-respostas-definitivo-direito-tributario-w1hfqc.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Penal)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/639/292527_GABARITO%20JUSTIFICADO%20-%20DIREITO%20PENAL.pdf",
+      "path": "storage/content/oab/36-exame/segunda-fase/padrao-de-respostas-definitivo-direito-penal-1x2vvq.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Empresarial)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/639/267313_GABARITO%20JUSTIFICADO%20-%20DIREITO%20EMPRESARIAL.pdf",
+      "path": "storage/content/oab/36-exame/segunda-fase/padrao-de-respostas-definitivo-direito-empresarial-8cj3xx.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito do Trabalho)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/639/261682_GABARITO%20JUSTIFICADO%20-%20DIREITO%20DO%20TRABALHO-05.pdf",
+      "path": "storage/content/oab/36-exame/segunda-fase/padrao-de-respostas-definitivo-direito-do-trabalho-xs7894.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Constitucional)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/639/281016_GABARITO%20JUSTIFICADO%20-%20DIREITO%20CONSTITUCIONAL.pdf",
+      "path": "storage/content/oab/36-exame/segunda-fase/padrao-de-respostas-definitivo-direito-constitucional-2dpqil.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Civil)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/639/258315_GABARITO%20JUSTIFICADO%20-%20DIREITO%20CIVIL.pdf",
+      "path": "storage/content/oab/36-exame/segunda-fase/padrao-de-respostas-definitivo-direito-civil-bpylr1.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Administrativo)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/639/288018_GABARITO%20JUSTIFICADO%20-%20DIREITO%20ADMINISTRATIVO.pdf",
+      "path": "storage/content/oab/36-exame/segunda-fase/padrao-de-respostas-definitivo-direito-administrativo-1g9z3n.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Tributário)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/639/137564_GABARITO%20JUSTIFICADO%20-%20DIREITO%20TRIBUT%c3%81RIO.pdf",
+      "path": "storage/content/oab/36-exame/segunda-fase/padrao-de-respostas-direito-tributario-m5x8o7.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Penal)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/639/227633_GABARITO%20JUSTIFICADO%20-%20DIREITO%20PENAL.pdf",
+      "path": "storage/content/oab/36-exame/segunda-fase/padrao-de-respostas-direito-penal-1cl1v7.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Empresarial)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/639/150998_GABARITO%20JUSTIFICADO%20-%20DIREITO%20EMPRESARIAL.pdf",
+      "path": "storage/content/oab/36-exame/segunda-fase/padrao-de-respostas-direito-empresarial-t3o7fv.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito do Trabalho)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/639/138627_GABARITO%20JUSTIFICADO%20-%20DIREITO%20DO%20TRABALHO.pdf",
+      "path": "storage/content/oab/36-exame/segunda-fase/padrao-de-respostas-direito-do-trabalho-1cjw8c.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Constitucional)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/639/165616_GABARITO%20JUSTIFICADO%20-%20DIREITO%20CONSTITUCIONAL.pdf",
+      "path": "storage/content/oab/36-exame/segunda-fase/padrao-de-respostas-direito-constitucional-mz77ha.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Administrativo)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/639/1655779_XXXVI%20Exame%20Administrativo%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/36-exame/provas/caderno-de-provas-direito-administrativo-bypn8y.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Civil)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/639/1653561_XXXVI%20Exame%20Civil%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/36-exame/provas/caderno-de-provas-direito-civil-nlf4em.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Constitucional)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/639/1655384_XXXVI%20Exame%20Constitucional%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/36-exame/provas/caderno-de-provas-direito-constitucional-zagls9.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Empresarial)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/639/276262_XXXVI%20Exame%20Empresarial%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/36-exame/provas/caderno-de-provas-direito-empresarial-13e59d.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Penal)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/639/1658493_XXXVI%20Exame%20Penal%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/36-exame/provas/caderno-de-provas-direito-penal-g0rvr8.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Trabalho)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/639/1653088_XXXVI%20Exame%20Trabalho%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/36-exame/provas/caderno-de-provas-direito-trabalho-3l9xqq.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Tributário)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/639/1643504_XXXVI%20Exame%20Tribut%c3%a1rio%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/36-exame/provas/caderno-de-provas-direito-tributario-1wnl44.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Administrativo)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/639/155764_GABARITO%20JUSTIFICADO%20-%20DIREITO%20ADMINISTRATIVO.pdf",
+      "path": "storage/content/oab/36-exame/segunda-fase/padrao-de-respostas-direito-administrativo-170xam.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Civil)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/639/152191_GABARITO%20JUSTIFICADO%20-%20DIREITO%20CIVIL.pdf",
+      "path": "storage/content/oab/36-exame/segunda-fase/padrao-de-respostas-direito-civil-1blhvd.pdf"
+    }
+  ]
+}

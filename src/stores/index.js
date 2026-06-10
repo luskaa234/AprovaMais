@@ -131,7 +131,7 @@ const adaptPlano = (semana) =>
 export const useUserStore = create(
   persist(
     (set) => ({
-      user: { id: "u1", name: "Lucas Silva", email: "lucas@aprova.local", role: "admin", targetContest: "PRF", nivel: "intermediario", horasSemanais: 18, dataProva: "2026-10-23" },
+      user: { id: "u1", name: "Lucas Silva", email: "lucas@aprova.local", role: "admin", targetContest: "PRF", nivel: "intermediario", horasSemanais: 18, dataProva: "2026-10-23", onboardingComplete: false },
       stats: { horasEstudadas: 42, questoesResolvidas: 0, taxaAcertos: 0, sequenciaDias: 0, tafNota: 9 },
       updateStats: (partial) => set((state) => ({ stats: { ...state.stats, ...partial } })),
       updateUser: (partial) => set((state) => ({ user: { ...state.user, ...partial } })),

@@ -1,0 +1,82 @@
+[
+  {
+    "orgao": "CBM/MG",
+    "cargo": "Bombeiro Militar",
+    "ano": 2019,
+    "banca": "FUNDEP",
+    "formato": "multipla_escolha",
+    "numero": 2791,
+    "materia": "Matemática",
+    "topico": "Matemática - CBM/MG 2019",
+    "enunciado": "O computador de bordo de um avião informa, a cada instante, a autonomia de combustível, em tempo devo o, considerando que a aeronave permanecerá em velocidade constante. Para a segurança dos passageiros,o dado indicado no aparelho é inferior ao valor real. O avião possui um tempo restante de voo 10% superior ao mostrado no computador de bordo. Desse modo, se o computador de bordo registrasse 10 segundos, por exemplo, significaria que esse avião poderia voar, de fato, em velocidade constante, por 11 segundos.Em certo instante, esse avião ainda poderá voar 3.300 segundos de fato, ou seja, sem considerar o ajuste de segurança do aparelho e mantendo velocidade constante.Nesse momento, o valor da autonomia que esse computador de bordo registrará equivale a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "30 minutos."
+      },
+      {
+        "letra": "B",
+        "texto": "49,5 minutos."
+      },
+      {
+        "letra": "C",
+        "texto": "50 minutos."
+      },
+      {
+        "letra": "D",
+        "texto": "60,5 minutos"
+      }
+    ],
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "pci_concursos",
+    "banca_selo": "FUNDEP",
+    "concurso": "CBM/MG",
+    "comentario": "Questao PCI Concursos. Gabarito: C.",
+    "fonteUrl": "https://www.pciconcursos.com.br/provas/download/bombeiro-cbm-mg-fundep-2019",
+    "categoria": "Concursos Militares",
+    "statusRevisao": "ok",
+    "id": "pci-cbm-mg-bombeiro-militar-2019-fundep-matematica-q3009551-2791",
+    "codigo": "PCI-CBM-MG-BOMBEIRO-MILITAR-2019-FUNDEP-MATEMATICA-Q3009551-2791"
+  },
+  {
+    "orgao": "CBM/MG",
+    "cargo": "Bombeiro Militar",
+    "ano": 2019,
+    "banca": "FUNDEP",
+    "formato": "multipla_escolha",
+    "numero": 2965,
+    "materia": "Matemática",
+    "topico": "Matemática - CBM/MG 2019",
+    "enunciado": "De acordo com a bula de certo antitérmico em gotas, para uso oral, esse medicamento contém 200 mg de paracetamol por mL. Em sua posologia, é informado que a dose diária máxima de paracetamol, para adultos e crianças acima de 12 anos de idade, é de 4.000 mg. Considerando que cada mL desse remédio corresponde a 15 gotas, qual é a dosagem máxima diária, em gotas,que um adulto ou uma criança acima de 12 anos deidade pode ingerir?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "75."
+      },
+      {
+        "letra": "B",
+        "texto": "266."
+      },
+      {
+        "letra": "C",
+        "texto": "300."
+      },
+      {
+        "letra": "D",
+        "texto": "460."
+      }
+    ],
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "pci_concursos",
+    "banca_selo": "FUNDEP",
+    "concurso": "CBM/MG",
+    "comentario": "A dose diária máxima é 4000 mg de paracetamol. Cada mL contém 200 mg, logo são necessários 4000 / 200 = 20 mL. Como 1 mL equivale a 15 gotas, a dosagem máxima em gotas é 20 * 15 = 300 gotas.",
+    "fonteUrl": "https://www.pciconcursos.com.br/provas/download/bombeiro-cbm-mg-fundep-2019",
+    "categoria": "Concursos Militares",
+    "statusRevisao": "ok",
+    "id": "pci-cbm-mg-bombeiro-militar-2019-fundep-matematica-q3009552-2965",
+    "codigo": "PCI-CBM-MG-BOMBEIRO-MILITAR-2019-FUNDEP-MATEMATICA-Q3009552-2965"
+  }
+]

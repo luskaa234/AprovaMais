@@ -1,0 +1,164 @@
+{
+  "exam": "23º Exame de Ordem Unificado",
+  "source": "FGV/OAB",
+  "sourceUrl": "https://oab.fgv.br/home.aspx?key=626",
+  "collectedAt": "2026-06-10T00:01:50.256Z",
+  "files": [
+    {
+      "title": "Gabaritos Preliminares da Prova Objetiva (1ª fase)",
+      "type": "gabarito",
+      "url": "https://oab.fgv.br/arq/626/101773_GABARITOS%20PRELIMIARES_XXIII_EXAME_DE_ORDEM.pdf",
+      "path": "storage/content/oab/23-exame/gabaritos/gabaritos-preliminares-da-prova-objetiva-1-fase-1ojpwd.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 1",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/626/853921_CADERNO_TIPO_1_XXIII_EXAME.pdf",
+      "path": "storage/content/oab/23-exame/provas/caderno-de-prova-tipo-1-1c1xvg.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 2",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/626/1136234_CADERNO_TIPO_2_XXIII_EXAME.pdf",
+      "path": "storage/content/oab/23-exame/provas/caderno-de-prova-tipo-2-1iefak.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 3",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/626/879083_CADERNO_TIPO_3_XXIII_EXAME.pdf",
+      "path": "storage/content/oab/23-exame/provas/caderno-de-prova-tipo-3-ysnkop.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 4",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/626/863326_CADERNO_TIPO_4_XXIII_EXAME.pdf",
+      "path": "storage/content/oab/23-exame/provas/caderno-de-prova-tipo-4-ljdfnt.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Administrativo)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/626/145113_GABARITO%20COMPLETO%20-%20DIREITO%20ADMINISTRATIVO.pdf",
+      "path": "storage/content/oab/23-exame/segunda-fase/padrao-de-respostas-definitivo-direito-administrativo-19y94m.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Civil)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/626/148022_GABARITO%20COMPLETO%20-%20DIREITO%20CIVIL.pdf",
+      "path": "storage/content/oab/23-exame/segunda-fase/padrao-de-respostas-definitivo-direito-civil-woomcb.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Constitucional)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/626/168391_GABARITO%20COMPLETO%20-%20DIREITO%20CONSTITUCIONAL.pdf",
+      "path": "storage/content/oab/23-exame/segunda-fase/padrao-de-respostas-definitivo-direito-constitucional-199eqm.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito do Trabalho)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/626/150434_GABARITO%20COMPLETO%20-%20DIREITO%20DO%20TRABALHO.pdf",
+      "path": "storage/content/oab/23-exame/segunda-fase/padrao-de-respostas-definitivo-direito-do-trabalho-1refjg.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Empresarial)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/626/214309_GABARITO%20COMPLETO%20-%20DIREITO%20EMPRESARIAL.pdf",
+      "path": "storage/content/oab/23-exame/segunda-fase/padrao-de-respostas-definitivo-direito-empresarial-1txvwq.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Penal)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/626/175068_GABARITO%20COMPLETO%20-%20DIREITO%20PENAL.pdf",
+      "path": "storage/content/oab/23-exame/segunda-fase/padrao-de-respostas-definitivo-direito-penal-jl18r8.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Tributário)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/626/153111_GABARITO%20COMPLETO%20-%20DIREITO%20TRIBUT%c3%81RIO.pdf",
+      "path": "storage/content/oab/23-exame/segunda-fase/padrao-de-respostas-definitivo-direito-tributario-fl1mvc.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Administrativo)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/626/341643_GABARITO%20JUSTIFICADO%20-%20DIREITO%20ADMINISTRATIVO.pdf",
+      "path": "storage/content/oab/23-exame/segunda-fase/padrao-de-respostas-direito-administrativo-j0afj2.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Civil)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/626/343914_GABARITO%20JUSTIFICADO%20-%20DIREITO%20CIVIL.pdf",
+      "path": "storage/content/oab/23-exame/segunda-fase/padrao-de-respostas-direito-civil-jrb6ls.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Constitucional)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/626/342073_GABARITO%20JUSTIFICADO%20-%20DIREITO%20CONSTITUCIONAL.pdf",
+      "path": "storage/content/oab/23-exame/segunda-fase/padrao-de-respostas-direito-constitucional-21a4tv.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito do Trabalho)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/626/337286_GABARITO%20JUSTIFICADO%20-%20DIREITO%20DO%20TRABALHO.pdf",
+      "path": "storage/content/oab/23-exame/segunda-fase/padrao-de-respostas-direito-do-trabalho-18t4l3.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Empresarial)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/626/342445_GABARITO%20JUSTIFICADO%20-%20DIREITO%20EMPRESARIAL.pdf",
+      "path": "storage/content/oab/23-exame/segunda-fase/padrao-de-respostas-direito-empresarial-gjkwxa.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Penal)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/626/343790_GABARITO%20JUSTIFICADO%20-%20DIREITO%20PENAL.pdf",
+      "path": "storage/content/oab/23-exame/segunda-fase/padrao-de-respostas-direito-penal-w9y9ov.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Tributário)",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/626/338998_GABARITO%20JUSTIFICADO%20-%20DIREITO%20TRIBUT%c3%81RIO.pdf",
+      "path": "storage/content/oab/23-exame/segunda-fase/padrao-de-respostas-direito-tributario-1g8h66.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Administrativo)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/626/687629_XXIII%20Exame%20Administrativo%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/23-exame/provas/caderno-de-provas-direito-administrativo-y6jdmh.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Civil)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/626/687236_XXIII%20Exame%20Civil%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/23-exame/provas/caderno-de-provas-direito-civil-hj8jk8.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Constitucional)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/626/684247_XXIII%20Exame%20Constitucional%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/23-exame/provas/caderno-de-provas-direito-constitucional-1fuojd.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito do Trabalho)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/626/685205_XXIII%20Exame%20Trabalho%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/23-exame/provas/caderno-de-provas-direito-do-trabalho-1et8my.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Empresarial)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/626/683093_XXIII%20Exame%20Empresarial%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/23-exame/provas/caderno-de-provas-direito-empresarial-vbdzef.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Penal)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/626/685780_XXIII%20Exame%20Penal%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/23-exame/provas/caderno-de-provas-direito-penal-ahpwjf.pdf"
+    },
+    {
+      "title": "Caderno de provas (Direito Tributário)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/626/685111_XXIII%20Exame%20Tribut%c3%a1rio%20-%20SEGUNDA%20FASE.pdf",
+      "path": "storage/content/oab/23-exame/provas/caderno-de-provas-direito-tributario-1sr5xa.pdf"
+    }
+  ]
+}

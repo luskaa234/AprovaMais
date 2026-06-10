@@ -1,0 +1,2257 @@
+[
+  {
+    "id": "pmsp-soldado-2023-vunesp-q03",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q03",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 3,
+    "materia": "Portugues",
+    "enunciado": "É correto concluir que, no texto, o autor contrapõe os exercícios de imaginação das crianças aos exercícios filosóficos,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "questionando o passado, quando a contemplação infantil não levava a nada."
+      },
+      {
+        "letra": "B",
+        "texto": "afirmando a importância do devaneio dos filósofos para criar ideias proveitosas."
+      },
+      {
+        "letra": "C",
+        "texto": "valorizando os primeiros, que provocam sensações mais agradáveis."
+      },
+      {
+        "letra": "D",
+        "texto": "colocando-os em igualdade de condições para atingir o conhecimento."
+      },
+      {
+        "letra": "E",
+        "texto": "destacando a importância do pensamento filosófico, pois produzem o saber."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q04",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q04",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 4,
+    "materia": "Portugues",
+    "enunciado": "No contexto em que se encontram (1 o parágrafo), as palavras “graves” e afins” têm sinônimos respectiva- mente em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "carrancudos e gerais."
+      },
+      {
+        "letra": "B",
+        "texto": "perigosos e parentes."
+      },
+      {
+        "letra": "C",
+        "texto": "pesados e dispostas."
+      },
+      {
+        "letra": "D",
+        "texto": "sérios e assemelhadas."
+      },
+      {
+        "letra": "E",
+        "texto": "profundos e propensas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q05",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q05",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 5,
+    "materia": "Portugues",
+    "enunciado": "O trecho do texto no qual o autor afirma que as ideias dos que filosofam nada têm de original é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "... leem graves estudos de filosofia..."
+      },
+      {
+        "letra": "B",
+        "texto": "Isto em geral os leva à redescoberta da pólvora."
+      },
+      {
+        "letra": "C",
+        "texto": "... mais prosaicamente uma vasta galinha..."
+      },
+      {
+        "letra": "D",
+        "texto": "... tempos em que havia cadeiras na calçada..."
+      },
+      {
+        "letra": "E",
+        "texto": "... fragatas que terminavam naufragando..."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q01",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q01",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 1,
+    "materia": "Portugues",
+    "enunciado": "A fala da garota, ao final da tira, sugere que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "sua gratidão é limitada àquele momento."
+      },
+      {
+        "letra": "B",
+        "texto": "ela continuará solicitando a ajuda do irmão."
+      },
+      {
+        "letra": "C",
+        "texto": "nada a motiva a ser agradecida pela ajuda."
+      },
+      {
+        "letra": "D",
+        "texto": "o irmão não costuma ajudá-la com as lições."
+      },
+      {
+        "letra": "E",
+        "texto": "o irmão, a princípio, havia se recusado a ajudá-la."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q02",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q02",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 2,
+    "materia": "Portugues",
+    "enunciado": "Ao se referir ao irmão no aumentativo, “irmãozão”, a menina demonstra",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "despeito, constatando que o irmão se mostra mais sábio do que ela."
+      },
+      {
+        "letra": "B",
+        "texto": "independência, sugerindo que pode dispensar a ajuda dele."
+      },
+      {
+        "letra": "C",
+        "texto": "rivalidade, pelo fato de ele ser mais velho do que ela."
+      },
+      {
+        "letra": "D",
+        "texto": "desagrado, tendo em vista que ele nem sempre se dispõe a colaborar."
+      },
+      {
+        "letra": "E",
+        "texto": "apreço, revelando seu reconhecimento por ele tê-la ajudado. Leia o texto, para responder às questões de números 03 a 11. Exercícios Há senhores, graves senhores, que leem graves estudos de filosofia ou coisas afins, ou procuram sozinhos filosofar, considerando as suas ideias que eles julgam próprias. Isto em geral os leva à redescoberta da pólvora. Mas não há de ser nada... Porque estou me lembrando agora é dos tempos em que havia cadeiras na calçada e muitas estrelas lá em cima, e a preocupação dos pequenos, alheios à conversa da gente grande, era observar a forma das nuvens, que se punham a figurar dragões ou bichos mais complicados, ou fragatas que terminavam naufragando, ou mais prosaicamente uma vasta galinha que acabava pondo um ovo luminoso: a lua. E esses exercícios eram muito mais divertidos, meus graves senhores, que os de vossas ideias, isto é, os de vossas nuvens interiores. (Mario Quintana, A vaca e o hipogrifo.)"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q09",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q09",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 9,
+    "materia": "Portugues",
+    "enunciado": "A passagem do texto em que a expressão destacada está empregada em sentido figurado é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "... procuram sozinhos filosofar, considerando as suas ideias que eles julgam próprias."
+      },
+      {
+        "letra": "B",
+        "texto": "... exercícios muito mais divertidos[...] que os de vossas ideias, isto é, os de vossas nuvens interiores."
+      },
+      {
+        "letra": "C",
+        "texto": "... a preocupação dos pequenos, alheios à con- versa da gente grande ..."
+      },
+      {
+        "letra": "D",
+        "texto": "... estou me lembrando agora é dos tempos em que havia cadeiras na calçada ..."
+      },
+      {
+        "letra": "E",
+        "texto": "... observar a forma das nuvens, que se punham a figurar dragões ou bichos mais complicados ..."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q10",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q10",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 10,
+    "materia": "Portugues",
+    "enunciado": "Assinale a alternativa que reescreve a passagem do tex- to de acordo com a norma-padrão de colocação pronomi- nal e de concordância verbal.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Agora lembro-me dos tempos em que na calçada existia cadeiras."
+      },
+      {
+        "letra": "B",
+        "texto": "Agora me lembro dos tempos em que na calçada existia cadeiras."
+      },
+      {
+        "letra": "C",
+        "texto": "Agora me lembro dos tempos em que na calçada existiam cadeiras."
+      },
+      {
+        "letra": "D",
+        "texto": "Me lembro agora dos tempos em que existia cadeiras na calçada."
+      },
+      {
+        "letra": "E",
+        "texto": "Me lembro agora dos tempos em que existiam cadeiras na calçada."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q11",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q11",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 11,
+    "materia": "Portugues",
+    "enunciado": "Assinale a alternativa em que a nova pontuação ado- tada para as passagens está de acordo com a norma- -padrão.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Há senhores (graves senhores) que leem graves estudos filosóficos. / E a galinha acabava pondo um ovo luminoso – a lua."
+      },
+      {
+        "letra": "B",
+        "texto": "Há, senhores – graves senhores, que leem, graves estudos filosóficos. / E a galinha acabava pondo um ovo luminoso; a lua."
+      },
+      {
+        "letra": "C",
+        "texto": "Há, senhores – graves senhores – que leem, graves estudos filosóficos. / E a galinha acabava pondo um ovo luminoso, a lua."
+      },
+      {
+        "letra": "D",
+        "texto": "Há senhores (graves senhores), que leem graves estudos filosóficos. / E a galinha, acabava pondo um ovo luminoso a lua!"
+      },
+      {
+        "letra": "E",
+        "texto": "Há senhores: graves senhores, que leem, graves estudos filosóficos. / E, a galinha, acabava pondo um ovo luminoso – a lua!"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q06",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q06",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 6,
+    "materia": "Portugues",
+    "enunciado": "Assinale a alternativa em que o trecho destacado está reescrito, nos parênteses, atendendo à norma-padrão de emprego dos pronomes.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Que se punham a figurar dragões – (figurá-los)"
+      },
+      {
+        "letra": "B",
+        "texto": "Senhores que leem graves estudos de filosofia – (leem-os)"
+      },
+      {
+        "letra": "C",
+        "texto": "Adultos colocavam cadeiras na calçada – (coloca- vam-as)"
+      },
+      {
+        "letra": "D",
+        "texto": "Era observar a forma das nuvens – (observar elas)"
+      },
+      {
+        "letra": "E",
+        "texto": "Galinha que acabava pondo um ovo luminoso – (pondo-lhe)"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q07",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q07",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 7,
+    "materia": "Portugues",
+    "enunciado": "As conjunções destacadas no texto podem ser substi- tuídas, sem prejuízo de sentido, correta e respectiva- mente, por:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ou e Logo."
+      },
+      {
+        "letra": "B",
+        "texto": "Porém e Embora."
+      },
+      {
+        "letra": "C",
+        "texto": "Entretanto e Pois."
+      },
+      {
+        "letra": "D",
+        "texto": "Portanto e Como."
+      },
+      {
+        "letra": "E",
+        "texto": "Também e Enquanto."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q08",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q08",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 8,
+    "materia": "Portugues",
+    "enunciado": "Colocando-se a palavra “Talvez” no início das passagens – “Há senhores, graves senhores, que leem graves estu- dos de filosofia” e “a preocupação dos pequenos, alheios à conversa da gente grande, era observar a forma das nuvens” –, a flexão correta dos verbos destacados será:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "haverá ... foi"
+      },
+      {
+        "letra": "B",
+        "texto": "houvesse ... fora"
+      },
+      {
+        "letra": "C",
+        "texto": "houvera ... seria"
+      },
+      {
+        "letra": "D",
+        "texto": "havia ... será"
+      },
+      {
+        "letra": "E",
+        "texto": "haja ... fosse"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q13",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q13",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 13,
+    "materia": "Portugues",
+    "enunciado": "Diante dos dados de pesquisas, a autora recomenda que as campanhas de conscientização sobre o bullying sejam",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "repensadas com cuidado, para dar lugar ao acompa- nhamento dos pais e responsáveis."
+      },
+      {
+        "letra": "B",
+        "texto": "renovadas para que os pais se especializem no modo de enfrentar o assunto em família."
+      },
+      {
+        "letra": "C",
+        "texto": "repetidas sempre que necessário e associadas a pressões dos pais para proibir a prática."
+      },
+      {
+        "letra": "D",
+        "texto": "continuadas e contem com a atenção dos pais e res- ponsáveis ao modo de agir dos filhos."
+      },
+      {
+        "letra": "E",
+        "texto": "substituídas por educação dos jovens acerca desse tema que preocupa as famílias."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q14",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q14",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 14,
+    "materia": "Portugues",
+    "enunciado": "Assinale a alternativa em que a passagem do primeiro parágrafo – Apesar das inúmeras campanhas de cons- cientização – está reescrita preservando o sentido do texto.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Durante as inúmeras campanhas de conscienti- zação ..."
+      },
+      {
+        "letra": "B",
+        "texto": "Além das inúmeras campanhas de conscientização ..."
+      },
+      {
+        "letra": "C",
+        "texto": "Desde as inúmeras campanhas de conscientização ..."
+      },
+      {
+        "letra": "D",
+        "texto": "Graças às inúmeras campanhas de conscientização ..."
+      },
+      {
+        "letra": "E",
+        "texto": "Mesmo com as inúmeras campanhas de conscien- tização ..."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q15",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q15",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 15,
+    "materia": "Portugues",
+    "enunciado": "Na passagem – é importante que pais e responsáveis estejam 100% atentos ao comportamento dos seus filhos – a expressão numérica destacada deve ser entendida como",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ocasionalmente."
+      },
+      {
+        "letra": "B",
+        "texto": "totalmente."
+      },
+      {
+        "letra": "C",
+        "texto": "relativamente."
+      },
+      {
+        "letra": "D",
+        "texto": "eventualmente."
+      },
+      {
+        "letra": "E",
+        "texto": "virtualmente."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q16",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q16",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 16,
+    "materia": "Portugues",
+    "enunciado": "As expressões em destaque no 3 o e no 4 o parágrafos expressam, correta e respectivamente, as noções de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "causa e modo."
+      },
+      {
+        "letra": "B",
+        "texto": "modo e condição."
+      },
+      {
+        "letra": "C",
+        "texto": "meio e lugar."
+      },
+      {
+        "letra": "D",
+        "texto": "companhia e estado."
+      },
+      {
+        "letra": "E",
+        "texto": "restrição e tempo. Leia o texto, para responder às questões de números 12 a 19. Sinais de quem sofre bullying Apesar das inúmeras campanhas de conscientização, o bullying segue sendo um tema que merece a nossa atenção. Uma pesquisa realizada pela Microsoft, em 2020, em 32 países, incluindo o Brasil, aponta que 43% dos entrevistados estiveram envolvidos em incidentes de bullying na internet, conhecido como cyberbullying. Por sua vez, a Pesquisa Nacional de Saúde Escolar 2019, feita pelo Instituto Brasileiro de Geografia e Estatística com 188 mil estudantes com idades entre 13 e 17 anos, aponta que um em cada 10 adolescentes já se sentiu ameaçado, ofendi- do e humilhado em redes sociais ou aplicativos. Além disso, 23% dos estudantes afirmaram ter sido vítimas de bullying em ambiente escolar. Os motivos? Aparência do corpo (16,5%), aparência do rosto (11,6%) e cor ou raça (4,6%). Além de seguir com as campanhas de conscientização e de abordar o assunto com as crianças e os adolescentes, entendo que é importante que pais e responsáveis estejam 100% atentos ao comportamento dos seus filhos. A for- ma como estes agem pode nos dizer muitas coisas, entre elas, demonstrar se eles estão sendo autores ou vítimas de bullying. Esse é um dos melhores meios para identificar se uma criança sofre com zombarias, ridicularizações, humi- lhações e outro tipo de violência emocional. O assunto precisa ser tratado com seriedade pelos pais e responsáveis. É interessante que encarem as situações juntos, sem pressionar os filhos a reagir ou minimizar a situa- ção, fazendo com que eles se sintam pior. Nesse momento, é relevante pedir discrição para lidar com o assunto, pois expor o menor não irá ajudar. Ao contrário, ape- nas irá incentivar os colegas a aumentar a prática. Em paralelo, vale buscar a ajuda de um profissional experiente na área. (Sueli Bravi Conte, Revista Bem-Estar, 05.06.2022. Adaptado)"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q12",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q12",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 12,
+    "materia": "Portugues",
+    "enunciado": "Segundo o texto,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "campanhas de conscientização conseguiram erradicar o cyberbullying entre jovens em idade escolar."
+      },
+      {
+        "letra": "B",
+        "texto": "pesquisas têm constatado que vem se reduzindo o número de jovens atingidos por bullying no ambiente escolar."
+      },
+      {
+        "letra": "C",
+        "texto": "a ação enérgica dos pais para limitar o bullying é o caminho adequado para levar o jovem a refletir sobre essa prática."
+      },
+      {
+        "letra": "D",
+        "texto": "observar com interesse a forma de agir dos filhos per- mite identificar se eles vivem situações de bullying."
+      },
+      {
+        "letra": "E",
+        "texto": "questões raciais ainda são a principal causa de bullying, seguidas de constrangimentos relacionados ao aspecto físico."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q21",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q21",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 21,
+    "materia": "Portugues",
+    "enunciado": "Certo procedimento é realizado por uma máquina com- putadorizada que, em velocidade padrão de trabalho, executa todo o procedimento em um período de tempo igual a 4 horas e meia. Pretende-se aumentar a veloci- dade da máquina para realizar todo o procedimento em um período de tempo um quinto menor do que o período de tempo da velocidade padrão. Esse período de tempo será igual a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3 horas e 36 minutos."
+      },
+      {
+        "letra": "B",
+        "texto": "3 horas e 45 minutos."
+      },
+      {
+        "letra": "C",
+        "texto": "4 horas e 10 minutos."
+      },
+      {
+        "letra": "D",
+        "texto": "4 horas."
+      },
+      {
+        "letra": "E",
+        "texto": "3 horas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q22",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q22",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 22,
+    "materia": "Portugues",
+    "enunciado": "Com base nas informações que constam no site da Polícia Militar do Estado de São Paulo, pode-se concluir que, no mês de setembro de 2022, a cada hora, para cada pessoa presa em flagrante, 3 resgates foram efetuados. Se, no referido período de tempo, a soma do número de pessoas presas em flagrante com o número de resgates efetuados totalizou 36, então, o número de resgates foi igual a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "21."
+      },
+      {
+        "letra": "B",
+        "texto": "27."
+      },
+      {
+        "letra": "C",
+        "texto": "33."
+      },
+      {
+        "letra": "D",
+        "texto": "15."
+      },
+      {
+        "letra": "E",
+        "texto": "9."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q23",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q23",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 23,
+    "materia": "Portugues",
+    "enunciado": "De acordo com dados publicados no site da Secretaria de Segurança Pública do Estado de São Paulo, com relação às “Ocorrências de Porte de Entorpecentes” no Estado, em 2022, pode-se concluir que adicionadas as ocorrências atendidas nos meses de setembro e de outubro, tem-se como total 2 264 ocorrências, e subtraídas as ocorrências atendidas no mês de setembro das atendidas no mês de outubro, tem-se 50 ocorrências. Sabendo-se que, para a mesma natureza de ocorrência, em agosto de 2022 foram atendidas 96 ocorrências a mais que as atendidas no mês de setembro desse mesmo ano, pode-se afirmar correta- mente que o número de ocorrências de porte de entorpe- centes atendidas, em agosto de 2022, foi igual a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1 351."
+      },
+      {
+        "letra": "B",
+        "texto": "1 301."
+      },
+      {
+        "letra": "C",
+        "texto": "1 061."
+      },
+      {
+        "letra": "D",
+        "texto": "1 253."
+      },
+      {
+        "letra": "E",
+        "texto": "1 203."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q17",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q17",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 17,
+    "materia": "Portugues",
+    "enunciado": "A passagem do 5 o parágrafo – irá incentivar os colegas a aumentar a prática – está reescrita de acordo com a norma-padrão de regência em:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "irá dar incentivo dos colegas com aumentar a prática"
+      },
+      {
+        "letra": "B",
+        "texto": "irá dar incentivo para os colegas por aumentar a prática"
+      },
+      {
+        "letra": "C",
+        "texto": "irá dar incentivo nos colegas em aumentar a prática"
+      },
+      {
+        "letra": "D",
+        "texto": "irá dar incentivo com os colegas de aumentar a prática"
+      },
+      {
+        "letra": "E",
+        "texto": "irá dar incentivo aos colegas para aumentar a prática"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q18",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q18",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 18,
+    "materia": "Portugues",
+    "enunciado": "O enunciado entre colchetes que reescreve o original de acordo com a norma-padrão de emprego do sinal indica- tivo de crase é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "irá incentivar os colegas [irá estimular à algumas colegas]"
+      },
+      {
+        "letra": "B",
+        "texto": "tema que merece a nossa atenção [tema à que devemos dar atenção]"
+      },
+      {
+        "letra": "C",
+        "texto": "seguir com as campanhas [dar sequência às mes- mas campanhas]"
+      },
+      {
+        "letra": "D",
+        "texto": "é interessante que encarem as situações [é interes- sante que enfrentem à todas as situações]"
+      },
+      {
+        "letra": "E",
+        "texto": "pode nos dizer muitas coisas [pode nos levar à concluir muitas coisas]"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q19",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q19",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 19,
+    "materia": "Portugues",
+    "enunciado": "São expressões antônimas de discrição e incentivar, adequadas ao contexto do último parágrafo, respectiva- mente,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "estardalhaço e desencorajar."
+      },
+      {
+        "letra": "B",
+        "texto": "indisposição e desaconselhar."
+      },
+      {
+        "letra": "C",
+        "texto": "gritaria e pressionar."
+      },
+      {
+        "letra": "D",
+        "texto": "cuidado e desestimular."
+      },
+      {
+        "letra": "E",
+        "texto": "fofoca e sugerir."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q20",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q20",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 20,
+    "materia": "Portugues",
+    "enunciado": "Assinale a alternativa que preenche, respectivamente e de acordo com a norma-padrão de concordância nominal, as lacunas do texto a seguir: Foi rapidamente uma verificação das ocorrências envolvendo menores, para que fosse providência imediata, antes do meio-dia e . As conclusões da averiguação seguem ao relatório final do setor.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "feito ... tomado ... meia ... anexas"
+      },
+      {
+        "letra": "B",
+        "texto": "feito ... tomada ... meio ... anexo"
+      },
+      {
+        "letra": "C",
+        "texto": "feito ... tomado... meio ... anexas"
+      },
+      {
+        "letra": "D",
+        "texto": "feita ... tomada ... meia ... anexas"
+      },
+      {
+        "letra": "E",
+        "texto": "feita ... tomada ... meio ... anexo"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q25",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q25",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 25,
+    "materia": "Portugues",
+    "enunciado": "Com o total de R$ 252,00, comprou-se apenas dois produ- tos, sendo o preço pago em um deles 10% maior do que o preço pago no outro. O preço pago no produto mais caro foi de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 124,00."
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 128,00."
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 132,00."
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 126,00"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 130,00."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q26",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q26",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 26,
+    "materia": "Portugues",
+    "enunciado": "A tabela a seguir apresenta o número de municípios em quatro das cinco Grandes Regiões brasileiras, em 2020, sendo omitido apenas o número de municípios da Grande Região Centro-Oeste: Número de Municípios, por Grandes Regiões Brasileiras – 2020 Grande Região Número de municípios Norte 450 Nordeste 1 794 Sudeste 1 668 Sul 1 191 Total 5 103 (IBGE. Adaptado) Sabendo que a média aritmética simples do número de municípios das cinco Grandes Regiões brasileiras, naquele ano, era igual a 1 114, pode-se afirmar, corretamente, que, em 2020, a diferença entre os números de municípios das Grandes Regiões Centro-Oeste e Norte era igual a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "17."
+      },
+      {
+        "letra": "B",
+        "texto": "23."
+      },
+      {
+        "letra": "C",
+        "texto": "19."
+      },
+      {
+        "letra": "D",
+        "texto": "15."
+      },
+      {
+        "letra": "E",
+        "texto": "21."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q28",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q28",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 28,
+    "materia": "Portugues",
+    "enunciado": "De acordo com a Companhia Nacional de Abastecimento (Conab), a produção de arroz irrigado na Região Sudeste, na safra 2021/2022, foi de 36,3 mil toneladas, uma diminui- ção de 14% em relação à produção do mesmo produto, na safra 2020/2021. Essa diminuição corresponde a um valor compreendido entre",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5,4 e 5,6 mil toneladas de arroz."
+      },
+      {
+        "letra": "B",
+        "texto": "5,8 e 6,0 mil toneladas de arroz."
+      },
+      {
+        "letra": "C",
+        "texto": "5,2 e 5,4 mil toneladas de arroz."
+      },
+      {
+        "letra": "D",
+        "texto": "6,0 e 6,2 mil toneladas de arroz."
+      },
+      {
+        "letra": "E",
+        "texto": "5,6 e 5,8 mil toneladas de arroz."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q30",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q30",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 30,
+    "materia": "Portugues",
+    "enunciado": "Um entregador de mercadorias faz suas entregas em de- terminado comércio a cada 8 dias e em outro comércio a cada 12 dias, independentemente de o dia ser útil ou não. No último dia de 2022, um sábado, o entregador fez suas entregas em ambos os comércios. Logo, em fevereiro de 2023, ele fará suas entregas nestes comércios, em um mesmo dia, em uma",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "quinta-feira."
+      },
+      {
+        "letra": "B",
+        "texto": "terça-feira."
+      },
+      {
+        "letra": "C",
+        "texto": "sexta-feira."
+      },
+      {
+        "letra": "D",
+        "texto": "quarta-feira."
+      },
+      {
+        "letra": "E",
+        "texto": "segunda-feira."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q31",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q31",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 31,
+    "materia": "Portugues",
+    "enunciado": "A tabela a seguir, reproduzida a partir de documento com análises mensais publicadas pela Conab, apresenta algumas informações a respeito do trigo em grão, no Brasil, para as últimas cinco safras completas: INFORMAÇÕES SOBRE O TRIGO EM GRÃOS NAS ÚLTIMAS SAFRAS (MIL TONELADAS) Safra Estoque inicial Produção Importação Exportação Consumo interno Estoque final 2017/18 3 188,7 4 262,1 6 387,5 206,2 11 244,7 2 387,4 2018/19 2 387,4 5 427,6 6 738,6 582,9 11 360,8 2 609,9 2019/20 2 609,9 5 154,7 6 676,7 342,3 11 860,6 2 238,4 2020/21 2 238,4 6 234,6 6 007,8 2021/22 7 679,4 6 080,1 3 045,9 12 049,8 722,5 (Conab. Adaptado) Com base nas informações apresentadas, é correto afirmar que o total relativo à exportação e ao consumo interno de trigo, na safra 2020/21, foi igual a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "12 637,1 mil toneladas."
+      },
+      {
+        "letra": "B",
+        "texto": "12 513,1 mil toneladas."
+      },
+      {
+        "letra": "C",
+        "texto": "12 701,8 mil toneladas."
+      },
+      {
+        "letra": "D",
+        "texto": "12 422,1 mil toneladas."
+      },
+      {
+        "letra": "E",
+        "texto": "12 899,8 mil toneladas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q32",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q32",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 32,
+    "materia": "Portugues",
+    "enunciado": "Cinco orçamentos distintos, P, Q, R, S e T, serão ordenados de acordo com os seus valores, para serem apresentados ao setor responsável pela liberação da verba para a execução de um serviço. Sabe-se que o valor do orçamento S é mais alto que o de R e mais baixo que o de P. Sabe-se, também, que o valor do orçamento P é mais alto que o de T, que não é mais baixo que o de S. Se o valor do orçamento Q não é mais alto que o de R, então é verdade que, na ordenação, o orçamento que ficará na terceira posição é o orçamento",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "S."
+      },
+      {
+        "letra": "B",
+        "texto": "Q."
+      },
+      {
+        "letra": "C",
+        "texto": "T."
+      },
+      {
+        "letra": "D",
+        "texto": "R."
+      },
+      {
+        "letra": "E",
+        "texto": "P. r a s c u n H o"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q34",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q34",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 34,
+    "materia": "Portugues",
+    "enunciado": "Um objeto feito em madeira maciça tem o formato de pris- ma reto com base no formato de losango, cujas diagonais medem 5 cm e 6 cm. Se o volume de madeira contido nesse objeto é de 450 cm3 , então sua altura, comparada à medida da maior diagonal da sua base, é maior em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "26 cm."
+      },
+      {
+        "letra": "B",
+        "texto": "25 cm."
+      },
+      {
+        "letra": "C",
+        "texto": "28 cm."
+      },
+      {
+        "letra": "D",
+        "texto": "27 cm."
+      },
+      {
+        "letra": "E",
+        "texto": "24 cm."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q35",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q35",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 35,
+    "materia": "Portugues",
+    "enunciado": "Um terreno no formato retangular tem perímetro de 82 m, com comprimento excedendo a largura em 1 m. O proprie- tário pretende dividir esse terreno em duas partes de mes- ma área, utilizando-se uma das diagonais desse terreno. Essa divisória (a diagonal) terá medida de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "30 m."
+      },
+      {
+        "letra": "B",
+        "texto": "31 m."
+      },
+      {
+        "letra": "C",
+        "texto": "29 m."
+      },
+      {
+        "letra": "D",
+        "texto": "32 m."
+      },
+      {
+        "letra": "E",
+        "texto": "33 m."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q37",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q37",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 37,
+    "materia": "Portugues",
+    "enunciado": "Podemos dividir a Segunda Guerra Mundial em três fa- ses: a primeira, que vai de 1 o de setembro de 1939 a 22 de junho de 1941; a segunda, de 22 de junho de 1941 a 3 de setembro de 1943, e a terceira, que se estendeu de 3 de setembro de 1943 a 2 de setembro de 1945. (Luiz Koshiba, História: origens, estruturas e processos: ensino médio. Texto adaptado) A segunda fase da Segunda Guerra começou com",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a invasão da Normandia pela Força Aérea Britâni- ca, que obrigou a Alemanha a assinar um tratado de não agressão com a URSS e romper a aliança com o Japão."
+      },
+      {
+        "letra": "B",
+        "texto": "a invasão da Manchúria pelo Japão, com o objetivo de se aproximar das fronteiras soviéticas, e a forma- ção da aliança bélica entre a França e a Bulgária."
+      },
+      {
+        "letra": "C",
+        "texto": "a forte resistência das forças bélicas francesas con- tra os ataques da aviação alemã, situação que fez com que os nazistas pedissem um cessar-fogo."
+      },
+      {
+        "letra": "D",
+        "texto": "o ataque alemão à URSS e, ainda em 1941, o ataque japonês à base naval de Pearl Harbor, o que provo- cou a entrada dos Estados Unidos na guerra."
+      },
+      {
+        "letra": "E",
+        "texto": "a queda do governo de Mussolini e a saída da Itália da guerra, o que provocou, em 1942, a declaração de guerra da Alemanha contra a França e a Grã- -Bretanha. H istória do B rasil"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q38",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q38",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 38,
+    "materia": "Portugues",
+    "enunciado": "Teve rígida organização hierárquica, dividido em alas. Usou uniforme – camisa verde com gravata preta, o sím- bolo era a letra grega sigma. Adotou o lema Deus, Pátria e Família. Havia um cumprimento, com o braço direito levantado e pronunciando a palavra “anauê”, da língua tupi, um grito de guerra ou saudação. Apoiou o golpe do Estado Novo: fez antes homenagens a Vargas em comí- cios e desfiles. (Francisco Iglésias, Trajetória política do Brasil: 1500-1964. Texto adaptado) O excerto faz referência",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ao Bloco Operário e Camponês."
+      },
+      {
+        "letra": "B",
+        "texto": "à Ação Integralista Brasileira."
+      },
+      {
+        "letra": "C",
+        "texto": "à União Republicana Brasileira."
+      },
+      {
+        "letra": "D",
+        "texto": "ao Comando de Libertação Nacional."
+      },
+      {
+        "letra": "E",
+        "texto": "à Aliança Nacional Libertadora. conHecimentos gerais H istória G eral"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q36",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q36",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 36,
+    "materia": "Portugues",
+    "enunciado": "A 8 de janeiro de 1918 (antes, portanto, do fim da guer- ra), o presidente dos Estados Unidos, Woodrow Wilson, divulgou um plano de 14 pontos, destinado a orientar as discussões de paz. (Alceu L. Pazzinato e Maria Helena V. Senise, História Moderna e Contemporânea) Assinale a alternativa que apresenta uma das proposi- ções desse plano.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Os territórios alemães invadidos pela França ao lon- go do século XIX deveriam ser devolvidos, inclusive a contestada região da Alsácia-Lorena, e caberia aos franceses a desmilitarização de todas as suas fronteiras."
+      },
+      {
+        "letra": "B",
+        "texto": "Um Estado polonês independente deveria ser es- tabelecido, compreendendo os territórios habitados por populações incontestavelmente polonesas, às quais seria mantido um acesso livre e seguro ao mar."
+      },
+      {
+        "letra": "C",
+        "texto": "As tropas francesas deveriam desocupar a região dos Balcãs, onde se formaria uma única nação que congregasse todos os povos com origem eslava, que ficaria sob a proteção da Grã-Bretanha e do Império Turco-Otomano."
+      },
+      {
+        "letra": "D",
+        "texto": "A Alemanha, a Rússia e a Sérvia deveriam ser con- sideradas responsáveis pelo conflito mundial, ser desmilitarizadas, perder espaços coloniais e pa- gar indenizações aos países que foram vítimas de agressão."
+      },
+      {
+        "letra": "E",
+        "texto": "Os espaços coloniais na África e na Ásia deveriam respeitar as diretrizes das suas respectivas metrópo- les e quaisquer movimentos em direção à autonomia nacional das colônias precisariam ser chancelados pela Liga das Nações."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q39",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q39",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 39,
+    "materia": "Portugues",
+    "enunciado": "No fim de janeiro de 1946, Dutra tomou posse e começa- ram os trabalhos da Constituinte. Em setembro era pro- mulgada a nova Constituição brasileira, que se afastava da Carta de 1937, optando pelo figurino liberal-democrá- tico. Em alguns pontos, entretanto, houve continuidade entre a Carta de 1937 e a Constituição de 1945. (Boris Fausto, História concisa do Brasil. Texto adaptado) Em relação à Constituição de 1946, é correto afirmar que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o Poder Executivo seria exercido pelo presidente da República, eleito por voto direto e secreto para um período de cinco anos e suprimiu-se a representação profissional na Câmara dos Deputados prevista na Carta de 1934."
+      },
+      {
+        "letra": "B",
+        "texto": "o Poder Legislativo passou a ser bicameral, compos- to pelo Senado Federal e pela Câmara dos Deputa- dos, recebeu a prerrogativa de elaborar e aprovar a Lei Orçamentária Anual."
+      },
+      {
+        "letra": "C",
+        "texto": "os poderes dos chefes de Executivo, nos níveis fede- ral, estadual e municipal, foram ampliados e, dessa forma, as atribuições do Legislativo e do Judiciário foram bastante enfraquecidas."
+      },
+      {
+        "letra": "D",
+        "texto": "a organização dos trabalhadores foi radicalmente reformulada e os constituintes depuraram da legis- lação qualquer referência ao sistema presente no Estado Novo, com o fim do imposto sindical e da uni- cidade sindical."
+      },
+      {
+        "letra": "E",
+        "texto": "os estados federativos perderam consideravelmente a autonomia política e administrativa e os orçamen- tos estaduais passaram a depender da anuência das autoridades econômicas do governo federal."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q40",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q40",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 40,
+    "materia": "Portugues",
+    "enunciado": "Às dez da noite de 13 de dezembro de 1968 o ministro da Justiça, Gama e Silva, em cadeia nacional de rádio e televisão, fizera uma rápida introdução de cinco mi- nutos e passara a palavra a Alberto Curi, que durante dezoito minutos havia apresentado, num tom monocór- dico e solene, o texto do Ato Institucional n o 5 (AI-5). (Lilia M. Schwarcz e Heloísa M. Starling, Brasil: uma biografia. Texto adaptado) O AI-5 autorizava o presidente da República, entre outras possibilidades,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "suspender os direitos políticos de parlamentares, desde que houvesse a permissão da Justiça; decre- tar estado de sítio apenas em caso de conflito exter- no; nomear prefeitos."
+      },
+      {
+        "letra": "B",
+        "texto": "manter o Congresso em recesso por até 30 dias; le- gislar por decreto nas cidades de Área de Interesse de Segurança Nacional; escolher os integrantes das direções dos partidos políticos."
+      },
+      {
+        "letra": "C",
+        "texto": "criar uma instância jurídica acima do Supremo Tribu- nal Federal; interferir na gestão de empresas priva- das de capital aberto; determinar o valor máximo do superávit primário."
+      },
+      {
+        "letra": "D",
+        "texto": "intervir nos estados e municípios; cassar mandatos parlamentares; suspender, por dez anos, os direitos políticos de qualquer cidadão."
+      },
+      {
+        "letra": "E",
+        "texto": "interferir na direção de empresas privadas conside- radas de segurança nacional; indicar o secretário da Justiça de cada estado; e elaborar uma constituição federal."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q41",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q41",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 41,
+    "materia": "Portugues",
+    "enunciado": "Em 1984, pela primeira vez em vinte anos, a sucessão presidencial não seguiu os trâmites normais do período militar. Por um lado, o governo procurava evitar a Emen- da Dante de Oliveira; por outro, não conseguia controlar as divergências internas do PDS em torno da definição de um candidato à presidência. A Emenda Dante de Oli- veira seria votada. Entretanto, apesar de o envolvimento nas manifestações representar a vontade da maioria da população brasileira em reestabelecer as eleições dire- tas, a emenda acabou sendo rejeitada em 25 de abril de 1984. (Conceição Aparecida Cabrini, 16 de abril de 1984 – Diretas Já. Em: Circe Bittencourt (org.), Dicionários de datas da história do Brasil. Texto adaptado) Com a derrota da Emenda Dante de Oliveira,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a oposição liberal e setores progressistas uniram- -se em torno da candidatura do governador pau- lista, Franco Montoro, do PMDB, que disputou e venceu o candidato situacionista, Aureliano Cha- ves, em eleições indiretas."
+      },
+      {
+        "letra": "B",
+        "texto": "grupos políticos mais conservadores, caso do PTB, assumiram a direção das manifestações públicas pelas eleições diretas e conseguiram impor uma vi- toriosa candidatura situacionista no Colégio Eleitoral."
+      },
+      {
+        "letra": "C",
+        "texto": "as forças políticas que defendiam a volta das elei- ções diretas mantiveram-se unidas e conseguiram aprovar uma reforma constitucional que determinava que o novo presidente seria eleito diretamente em 1988."
+      },
+      {
+        "letra": "D",
+        "texto": "os partidos oposicionistas, com a liderança do PDT, condenaram a manutenção das eleições indiretas por meio do Colégio Eleitoral e colocaram em pauta uma nova emenda constitucional com o objetivo de eleições diretas em 1985."
+      },
+      {
+        "letra": "E",
+        "texto": "setores moderados da oposição, conduzidos pelo PMDB, aliaram-se ao PFL, partido fundado por dis- sidentes do PDS, e lançaram como candidato à pre- sidência o governador de Minas Gerais Tancredo Neves, do PMDB."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q42",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q42",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 42,
+    "materia": "Portugues",
+    "enunciado": "Trata-se de uma área de livre comércio que tem por objetivo promover “a livre circulação de bens, serviços e fatores produtivos entre os países, através, entre outros, da eliminação dos direitos alfandegários e restrições não-tarifárias à circulação de mercadorias e de qualquer outra medida de efeito equivalente”, foi criado a partir do Tratado de Assunção, assinado em 1991 pelos estados partes e estados associados. (ROSS, J. L. S. (org.). Geografia do Brasil, 1995, p. 261) O texto remete às características do",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "G8."
+      },
+      {
+        "letra": "B",
+        "texto": "Fundo Monetário Internacional."
+      },
+      {
+        "letra": "C",
+        "texto": "Mercosul."
+      },
+      {
+        "letra": "D",
+        "texto": "BREXIT."
+      },
+      {
+        "letra": "E",
+        "texto": "BRICS."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q43",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q43",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 43,
+    "materia": "Portugues",
+    "enunciado": "É uma fonte de energia que consiste na conversão natural do calor do interior da terra para o aquecimento de edificações e geração de eletricidade a partir do vapor e da água aquecida. Trata-se de uma fonte de energia ambientalmente mais limpa e com menor emissão de gases poluentes quando comparada às energias fósseis. Essa forma de energia é definida como:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "geotérmica."
+      },
+      {
+        "letra": "B",
+        "texto": "solar."
+      },
+      {
+        "letra": "C",
+        "texto": "maremotriz."
+      },
+      {
+        "letra": "D",
+        "texto": "termoelétrica."
+      },
+      {
+        "letra": "E",
+        "texto": "heliotérmica. G eoGrafia do Brasil"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q45",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q45",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 45,
+    "materia": "Portugues",
+    "enunciado": "A estimativa do Instituto Brasileiro de Geografia e Estatís- tica aponta que o Brasil tem, na atualidade, mais de 215 milhões de habitantes. A taxa de crescimento anual tem diminuído nas últimas décadas estando, na atualidade, inferior a 1%, devido, principalmente,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ao crescimento natural ou vegetativo."
+      },
+      {
+        "letra": "B",
+        "texto": "aos altos índices de criminalidade."
+      },
+      {
+        "letra": "C",
+        "texto": "à manutenção das migrações internas."
+      },
+      {
+        "letra": "D",
+        "texto": "ao incremento da população urbana nas grandes ci- dades."
+      },
+      {
+        "letra": "E",
+        "texto": "ao aumento da imigração nas últimas décadas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q46",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q46",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 46,
+    "materia": "Portugues",
+    "enunciado": "Região que possui drenagens perenes para os cursos d´água principais e secundários, envolvendo, porém, o desaparecimento temporário dos caminhos d´água de menor ordem de grandeza por ocasião do período seco do meio do ano. (AB’SÁBER, A. N. Os domínios de natureza no Brasil, 2003, p. 119) Na atualidade, é uma área com ocupação marcada pela produção de grãos e por impactos ambientais provoca- dos pela contaminação dos mananciais e do solo pelo uso de agroquímicos. Essa região compreende a área de abrangência do domínio morfoclimático",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "dos Mares de Morros."
+      },
+      {
+        "letra": "B",
+        "texto": "das Caatingas."
+      },
+      {
+        "letra": "C",
+        "texto": "do Cerrado."
+      },
+      {
+        "letra": "D",
+        "texto": "Amazônico."
+      },
+      {
+        "letra": "E",
+        "texto": "das Pradarias."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q47",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q47",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 47,
+    "materia": "Portugues",
+    "enunciado": "Os ambientes urbanos são marcados pela crescente ur- banização e impermeabilização das superfícies, alteran- do o balanço de energia, além da crescente concentra- ção de poluentes atmosféricos. Nesse ambiente, tem-se observado um fenômeno atmosférico que tende a agra- var as condições de desconforto térmico, além de outras consequências indesejáveis para a população. Esse fenômeno é conhecido como",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "enchente urbana."
+      },
+      {
+        "letra": "B",
+        "texto": "redução da camada de ozônio."
+      },
+      {
+        "letra": "C",
+        "texto": "brisa terrestre."
+      },
+      {
+        "letra": "D",
+        "texto": "ilha de calor."
+      },
+      {
+        "letra": "E",
+        "texto": "inversão térmica. atualidades"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q48",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q48",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 48,
+    "materia": "Portugues",
+    "enunciado": "Em novembro de 2022, o meio artístico brasileiro foi en- lutado pela morte de quatro importantes personalidades. Morreram",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Gal Costa, Rolando Boldrin, Tarcísio Meira e Roberto Guilherme."
+      },
+      {
+        "letra": "B",
+        "texto": "Marília Mendonça, Rolando Boldrin, Erasmo Carlos e Tarcísio Meira."
+      },
+      {
+        "letra": "C",
+        "texto": "Gal Costa, Rolando Boldrin, Paulo Gustavo e Marília Mendonça."
+      },
+      {
+        "letra": "D",
+        "texto": "Marília Mendonça, Paulo Gustavo, Erasmo Carlos e Roberto Guilherme."
+      },
+      {
+        "letra": "E",
+        "texto": "Gal Costa, Rolando Boldrin, Erasmo Carlos e Roberto Guilherme."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q49",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q49",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 49,
+    "materia": "Portugues",
+    "enunciado": "O Ministério da Defesa da Polônia afirmou, no dia 21 de novembro de 2022, que irá propor a instalação de siste- mas de defesa aérea adicionais ao longo de fronteira da Ucrânia, devido aos amplos ataques aéreos resultantes da invasão russa ao país vizinho. (Veja. Disponível em https://bityli.com/xVNVeRHNX. Acesso em 28.11.2022. Adaptado) A intenção do governo polonês se reporta ao aconteci- mento de 15 de novembro, quando",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "drones russos cruzaram o espaço aéreo polonês para atingir alvos ucranianos."
+      },
+      {
+        "letra": "B",
+        "texto": "míssil, de origem não confirmada, caiu em território polonês matando duas pessoas."
+      },
+      {
+        "letra": "C",
+        "texto": "avião ucraniano invadiu o espaço aéreo polonês para defender o seu território."
+      },
+      {
+        "letra": "D",
+        "texto": "instalações hospitalares polonesas foram atingidas por drones ucranianos desgovernados."
+      },
+      {
+        "letra": "E",
+        "texto": "aviões russos invadiram o espaço aéreo polonês para atacar a Ucrânia."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q50",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q50",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 50,
+    "materia": "Portugues",
+    "enunciado": "Os participantes da COP 27 (27a Conferência das Nações Unidas sobre as Mudanças Climáticas) concordaram com a criação de um fundo compensatório para danos relacio- nados às mudanças climáticas em países particularmente vulneráveis, uma demanda histórica das nações mais pobres, que pressionavam há décadas pela criação de tal mecanismo. O fundo visa amortecer as consequências inevitáveis do aquecimento global como secas, inunda- ções e tempestades, além do aumento do nível do mar e da desertificação. (DW. Disponível em https://bityli.com/hCPQFyphX. Acesso em 28.11.2022. Adaptado) A declaração final considera também a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "eliminação gradual do carvão como fonte de energia."
+      },
+      {
+        "letra": "B",
+        "texto": "extinção total dos veículos movidos por derivados de petróleo até 2028."
+      },
+      {
+        "letra": "C",
+        "texto": "criação de um fundo destinado a pesquisas com energia solar."
+      },
+      {
+        "letra": "D",
+        "texto": "proibição de construção de novas usinas nucleares a partir de 2030."
+      },
+      {
+        "letra": "E",
+        "texto": "criação de comissão para elaborar normas referentes à instalação de fontes de energia em alto mar."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q51",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q51",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 51,
+    "materia": "Portugues",
+    "enunciado": "Um usuário editando um documento simples de texto por meio do Bloco de Notas do MS-Windows 10, ambos em configuração padrão, desejava formatar o texto e abriu uma janela com opções de formatação. Assinale a alternativa que apresenta apenas formatações possíveis de serem feitas por meio do Bloco de Notas conforme o enunciado.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Texto sublinhado, alinhamento centralizado e tipo de fonte Arial."
+      },
+      {
+        "letra": "B",
+        "texto": "Tipo de Fonte Times New Roman, tamanho de Fonte e alinhamento justificado."
+      },
+      {
+        "letra": "C",
+        "texto": "Itálico, sublinhado e tachado."
+      },
+      {
+        "letra": "D",
+        "texto": "Alinhamento à direita, sublinhado e tachado."
+      },
+      {
+        "letra": "E",
+        "texto": "Itálico, negrito e tamanho de Fonte."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q52",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q52",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 52,
+    "materia": "Portugues",
+    "enunciado": "Um usuário do MS-Word 2010, em sua configuração padrão, digitou um documento de texto visto na imagem a seguir, com as marcas de parágrafos ativadas. Em seguida, selecionou todo o texto visto na imagem e clicou na opção “Inserir Tabela...” do ícone Tabela no grupo Tabelas da guia Inserir. Ao fazer isso, uma tabela foi criada. O número de linhas e colunas, respectivamente, na tabela criada, conforme o enunciado é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2 e 5."
+      },
+      {
+        "letra": "B",
+        "texto": "2 e 4."
+      },
+      {
+        "letra": "C",
+        "texto": "1 e 2."
+      },
+      {
+        "letra": "D",
+        "texto": "1 e 5."
+      },
+      {
+        "letra": "E",
+        "texto": "1 e 4."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q53",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q53",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 53,
+    "materia": "Portugues",
+    "enunciado": "Observe a planilha a seguir, elaborada por meio do MS-Excel 2010, em sua configuração padrão. Ao preencher a fórmula =MAIOR(A1:C3;4) na célula A4, o valor exibido por esta será:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3"
+      },
+      {
+        "letra": "B",
+        "texto": "4"
+      },
+      {
+        "letra": "C",
+        "texto": "2"
+      },
+      {
+        "letra": "D",
+        "texto": "1"
+      },
+      {
+        "letra": "E",
+        "texto": "5"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q54",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q54",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 54,
+    "materia": "Portugues",
+    "enunciado": "Um usuário do Firefox, versão 102, em sua configuração padrão, estava com 4 abas abertas. Fechou uma por engano, e desejava reabrir a aba fechada. O atalho por teclado que pode ser usado para reabrir a aba fechada, conforme o enunciado é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ctrl + Shift + T"
+      },
+      {
+        "letra": "B",
+        "texto": "Alt + F"
+      },
+      {
+        "letra": "C",
+        "texto": "Ctrl + F"
+      },
+      {
+        "letra": "D",
+        "texto": "Ctrl + Shift + F"
+      },
+      {
+        "letra": "E",
+        "texto": "Ctrl + T"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q55",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q55",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 55,
+    "materia": "Portugues",
+    "enunciado": "João recebeu um e-mail enviado pela Maria e escolheu a opção Responder a Todos. Os campos preenchidos automaticamente na resposta de João são vistos a seguir. De: João Para: Maria Cc: Pedro Assinale a alternativa que contém os possíveis campos do e-mail enviado pela Maria para o João.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "De: Maria Para: João Cc: Bianca Cco: Pedro"
+      },
+      {
+        "letra": "B",
+        "texto": "De: Maria Para: João Cc: Pedro Cco: Bianca"
+      },
+      {
+        "letra": "C",
+        "texto": "De: João Para: Pedro Cc: Maria Cco: Bianca"
+      },
+      {
+        "letra": "D",
+        "texto": "De: João Para: Maria Cc: Bianca Cco: Pedro"
+      },
+      {
+        "letra": "E",
+        "texto": "De: Maria Para: Pedro Cc: João, Bianca"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q56",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q56",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 56,
+    "materia": "Portugues",
+    "enunciado": "Considere que Luciana tem um filho de sete meses de vida, amamenta, mas foi devidamente processada, jul- gada e condenada pela prática do crime de roubo. Com base na situação hipotética e no disposto na Constituição Federal, é correto afirmar:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "assegura-se à Luciana o respeito à integridade física e moral, e a ela não deve ser aplicada a pena de banimento."
+      },
+      {
+        "letra": "B",
+        "texto": "como o filho de Luciana já tem mais de seis me- ses de vida, não lhe é assegurada a possibilidade de permanecer com seu filho durante o período de amamentação."
+      },
+      {
+        "letra": "C",
+        "texto": "Luciana poderá ser condenada a cumprir pena de trabalhos forçados."
+      },
+      {
+        "letra": "D",
+        "texto": "em face do princípio da isonomia, a Constituição de- termina que a pena deverá ser cumprida no mesmo tipo de estabelecimento penal, não havendo distin- ção de acordo com a natureza do delito e a idade da apenada."
+      },
+      {
+        "letra": "E",
+        "texto": "admite-se que Luciana seja condenada à pena de caráter perpétuo, mas não a penas cruéis."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q57",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q57",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 57,
+    "materia": "Portugues",
+    "enunciado": "Considere que Amauri é Governador do Estado X, mas deseja candidatar-se ao cargo de Presidente da Repú- blica. Com base na situação hipotética e no disposto na Constituição Federal, é correto afirmar que Amauri",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pode continuar normalmente no seu cargo."
+      },
+      {
+        "letra": "B",
+        "texto": "deve renunciar ao seu mandato até seis meses antes do pleito."
+      },
+      {
+        "letra": "C",
+        "texto": "caso perca a eleição para Presidente da República, retornará ao cargo de Governador."
+      },
+      {
+        "letra": "D",
+        "texto": "precisa pedir a suspensão do seu mandato até três meses antes do pleito presidencial."
+      },
+      {
+        "letra": "E",
+        "texto": "não pode ter mais de setenta anos e deve estar no mesmo partido há pelo menos seis meses."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q58",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q58",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 58,
+    "materia": "Portugues",
+    "enunciado": "De acordo com a Constituição Federal, o mandato eletivo poderá ser impugnado ante à",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Justiça Federal, no prazo de quinze dias contados da diplomação, instruída a ação com provas de abuso do poder econômico, corrupção ou fraude."
+      },
+      {
+        "letra": "B",
+        "texto": "Justiça Eleitoral, no prazo de trinta dias contados da eleição, instruída a ação com provas de abuso do poder econômico, corrupção ou fraude."
+      },
+      {
+        "letra": "C",
+        "texto": "Justiça Federal, no prazo de quinze dias contados da eleição, instruída a ação com provas de abuso do poder econômico, corrupção ou fraude."
+      },
+      {
+        "letra": "D",
+        "texto": "Justiça Eleitoral, no prazo de quinze dias contados da diplomação, instruída a ação com provas de abu- so do poder econômico, corrupção ou fraude."
+      },
+      {
+        "letra": "E",
+        "texto": "Justiça Comum, no prazo de trinta dias contados da eleição, instruída a ação com provas de abuso do poder econômico, corrupção ou fraude."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q59",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q59",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 59,
+    "materia": "Portugues",
+    "enunciado": "A respeito da Administração Pública, assinale a alternati- va que está de acordo com a Constituição Federal.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Os acréscimos pecuniários percebidos por servidor público serão computados para fins de concessão de acréscimos ulteriores."
+      },
+      {
+        "letra": "B",
+        "texto": "A Constituição incentiva equiparação de espécies remuneratórias para o efeito de remuneração de pessoal do serviço público."
+      },
+      {
+        "letra": "C",
+        "texto": "O prazo de validade do concurso público será de até quatro anos, prorrogável uma única vez por igual período."
+      },
+      {
+        "letra": "D",
+        "texto": "Admite-se que os vencimentos dos cargos do Poder Legislativo e do Poder Judiciário sejam superiores aos pagos pelo Poder Executivo."
+      },
+      {
+        "letra": "E",
+        "texto": "A Lei estabelecerá os prazos de prescrição para ilíci- tos praticados por qualquer agente, servidor ou não, que causem prejuízos ao erário, ressalvadas as res- pectivas ações de ressarcimento."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2023-vunesp-q60",
+    "codigo": "PMSP-SOLDADO-2023-VUNESP-Q60",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2023,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 60,
+    "materia": "Portugues",
+    "enunciado": "De acordo com a Constituição Federal, exercer as fun- ções de polícia marítima é competência",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "da Polícia Federal."
+      },
+      {
+        "letra": "B",
+        "texto": "do órgão da Segurança Pública que primeiro tomar conhecimento da infração."
+      },
+      {
+        "letra": "C",
+        "texto": "concorrente da Polícia Civil e da Polícia Federal."
+      },
+      {
+        "letra": "D",
+        "texto": "conjunta da Polícia Militar e do Corpo de Bombeiros."
+      },
+      {
+        "letra": "E",
+        "texto": "compartilhada da Polícia Militar e da Guarda Civil do município costeiro."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial_vunesp",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2023. Banca: Vunesp. Gabarito definitivo: A."
+  }
+]
