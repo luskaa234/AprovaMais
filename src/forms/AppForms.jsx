@@ -1,4 +1,4 @@
-import { memo, useCallback, useState } from "react";
+import { memo, useCallback, useEffect, useState } from "react";
 import { Button, Input, Select, Textarea } from "../components";
 
 export const FilterForm = memo(({ fields, onFilter }) => {
@@ -23,8 +23,28 @@ export const RedacaoEditor = memo(({ value, onChange, onSubmit, loading }) => (
 RedacaoEditor.displayName = "RedacaoEditor";
 
 export const ProfileForm = memo(({ user, onSave }) => {
-  const [form, setForm] = useState(user);
+  const [form, setForm] = useState(user || {});
+  useEffect(() => setForm(user || {}), [user]);
   const update = useCallback((key, value) => setForm((current) => ({ ...current, [key]: value })), []);
-  return <div className="grid gap-3"><Input label="Nome" value={form.name || ""} onChange={(event) => update("name", event.target.value)} /><Input label="Email" value={form.email || ""} error={!form.email?.includes("@") ? "E-mail inválido" : ""} onChange={(event) => update("email", event.target.value)} /><Select label="Concurso-alvo" value={form.targetContest || ""} options={["Analista Judiciário - TRT", "INSS", "OAB", "ENEM"]} onChange={(event) => update("targetContest", event.target.value)} /><Button onClick={() => onSave(form)}>Salvar perfil</Button></div>;
+  return (
+    <div className="grid gap-4">
+      <div className="grid gap-3 md:grid-cols-2">
+        <Input label="Nome" value={form.name || ""} onChange={(event) => update("name", event.target.value)} />
+        <Input label="Email" value={form.email || ""} error={form.email && !form.email?.includes("@") ? "E-mail invalido" : ""} onChange={(event) => update("email", event.target.value)} />
+        <Select label="Objetivo principal" value={form.objective || ""} options={[
+          { value: "oab", label: "OAB" },
+          { value: "concurso", label: "Concurso publico" },
+          { value: "enem", label: "ENEM" },
+          { value: "vestibular", label: "Vestibular" },
+          { value: "programacao", label: "Programacao" },
+          { value: "taf", label: "TAF" },
+        ]} onChange={(event) => update("objective", event.target.value)} />
+        <Select label="Concurso-alvo" value={form.targetContest || ""} options={["PM", "PRF", "PF", "OAB", "ENEM", "INSS", "Analista Judiciario - TRT", "Programacao"]} onChange={(event) => update("targetContest", event.target.value)} />
+        <Input label="Nivel atual" value={form.nivel || ""} placeholder="Ex.: iniciante, intermediario, avancado" onChange={(event) => update("nivel", event.target.value)} />
+        <Input label="Horas semanais" type="number" min="0" value={form.horasSemanais || ""} onChange={(event) => update("horasSemanais", Number(event.target.value || 0))} />
+      </div>
+      <Button className="w-full" onClick={() => onSave(form)}>Salvar perfil</Button>
+    </div>
+  );
 });
 ProfileForm.displayName = "ProfileForm";
