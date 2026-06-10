@@ -13642,6 +13642,23 @@ main {
   background: linear-gradient(180deg, rgba(32, 43, 61, 0), var(--bg-card) 28%) !important;
 }
 
+.empty-mascot-action {
+  display: grid;
+  justify-items: center;
+  gap: 0.75rem;
+}
+
+.empty-mascot-action img {
+  display: block;
+  max-width: 7.5rem;
+  object-fit: contain;
+}
+
+.empty-mascot-action .aprova-btn-secondary {
+  position: relative;
+  z-index: 1;
+}
+
 /* Mobile button legibility: no vertical word breaking. */
 .aprova-btn-primary,
 .aprova-btn-secondary,

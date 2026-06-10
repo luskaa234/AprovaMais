@@ -274,7 +274,7 @@ export default function QuestoesPage() {
           icon={Search}
           title="Nenhuma questão encontrada"
           description="Ajuste os filtros ou limpe a busca para voltar ao treino."
-          action={<div className="grid place-items-center gap-3"><Mascot size="lg" pose="feedback" framed={false} /><Button variant="secondary" onClick={() => resetTraining({ area: initialArea })}>Limpar filtros</Button></div>}
+          action={<div className="empty-mascot-action"><Mascot size="md" pose="feedback" framed={false} imageClassName="max-h-24" /><Button variant="secondary" onClick={() => resetTraining({ area: initialArea })}>Limpar filtros</Button></div>}
         />
       )}
 
