@@ -1,36 +1,35 @@
 import { Safari } from "@/registry/magicui/safari";
 import { CalendarCheck, ClipboardCheck, RefreshCw } from "lucide-react";
-import { useEffect, useState } from "react";
 import BrandLogo from "../BrandLogo";
 
 const avatarUsers = [
-  { initials: "LA", color: "#3b82f6" },
-  { initials: "CM", color: "#0f766e" },
-  { initials: "FS", color: "#60a5fa" },
-  { initials: "BR", color: "#0ea5e9" },
-  { initials: "AN", color: "#0284c7" },
+  { initials: "PM", color: "#3b82f6" },
+  { initials: "CB", color: "#0f766e" },
+  { initials: "PC", color: "#60a5fa" },
+  { initials: "OAB", color: "#0ea5e9" },
+  { initials: "PRF", color: "#0284c7" },
 ];
 
 const heroNotifications = [
   {
-    title: "Meta semanal concluida",
+    title: "Meta semanal concluída",
     text: "84% do plano finalizado",
     time: "agora",
-    color: "#16A34A",
+    color: "#2563eb",
     icon: CalendarCheck,
   },
   {
-    title: "Revisao liberada",
+    title: "Revisão liberada",
     text: "Direito Constitucional",
     time: "2 min",
-    color: "#0F766E",
+    color: "#2563eb",
     icon: RefreshCw,
   },
   {
     title: "Simulado corrigido",
     text: "82% de aproveitamento",
     time: "5 min",
-    color: "#60A5FA",
+    color: "#2563eb",
     icon: ClipboardCheck,
   },
 ];
@@ -51,7 +50,7 @@ const adminNavItems = [
 
 const adminStats = [
   ["Horas estudadas", "128", "clock"],
-  ["Questoes resolvidas", "1840", "list"],
+  ["Questões resolvidas", "1840", "list"],
   ["Taxa de acertos", "82%", "target"],
   ["Sequência", "19", "zap"],
   ["TAF", "9.0 aprovado", "taf"],
@@ -65,26 +64,14 @@ const adminReviews = [
 ];
 
 const adminRanking = [
-  ["Ana Lima", "9900"],
-  ["Bruno Reis", "9490"],
-  ["Carla Nunes", "9080"],
-  ["Diego Maia", "8670"],
-  ["Lucas Andrade", "8260"],
+  ["Constitucional", "9900"],
+  ["Português", "9490"],
+  ["Raciocínio lógico", "9080"],
+  ["Direito Penal", "8670"],
+  ["Legislação especial", "8260"],
 ];
 
-const getActiveStudents = () => Math.floor(Math.random() * 401) + 800;
-
 function Hero() {
-  const [activeStudents, setActiveStudents] = useState(994);
-
-  useEffect(() => {
-    const timer = window.setInterval(() => {
-      setActiveStudents(getActiveStudents());
-    }, 10000);
-
-    return () => window.clearInterval(timer);
-  }, []);
-
   return (
     <section className="aprova-hero" id="inicio">
       <div className="aprova-hero-left">
@@ -92,9 +79,9 @@ function Hero() {
           <BrandLogo />
         </a>
 
-        <span className="aprova-hero-live-badge" aria-live="polite">
+        <span className="aprova-hero-live-badge">
           <span className="aprova-hero-pulse" aria-hidden="true" />
-          {activeStudents.toLocaleString("pt-BR")} alunos estudando agora
+          +3.000 questões oficiais no banco
         </span>
 
         <h1 className="aprova-hero-title">
@@ -110,12 +97,12 @@ function Hero() {
           <a className="aprova-hero-primary" href="/criar-conta">
             Montar meu plano grátis
           </a>
-          <a className="aprova-hero-secondary" href="#como-funciona">
+          <a className="aprova-hero-secondary" href="#sistema">
             Ver como funciona na prática
           </a>
         </div>
 
-        <div className="aprova-hero-proof" aria-label="Alunos em preparo">
+        <div className="aprova-hero-proof" aria-label="Concursos atendidos">
           <div className="aprova-hero-avatars" aria-hidden="true">
             {avatarUsers.map((user) => (
               <span style={{ backgroundColor: user.color }} key={user.initials}>
@@ -123,7 +110,7 @@ function Hero() {
               </span>
             ))}
           </div>
-          <strong>+7.5k alunos em preparo</strong>
+          <strong>PM, Bombeiros, PC, PRF e OAB</strong>
           <span className="aprova-hero-separator">.</span>
           <span>7 dias grátis, sem cartão</span>
         </div>
@@ -150,7 +137,7 @@ function Hero() {
                   <strong>LA</strong>
                   <div>
                     <span>Lucas Andrade</span>
-                    <small>Analista Judiciário</small>
+                    <small>Aluno Aprova+</small>
                   </div>
                 </div>
               </aside>
@@ -243,7 +230,7 @@ function Hero() {
                     </article>
 
                     <article>
-                      <h4>Ranking</h4>
+                      <h4>Prioridades</h4>
                       {adminRanking.map(([name, score], index) => (
                         <p key={name}>
                           {index + 1}. {name}

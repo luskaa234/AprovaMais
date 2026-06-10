@@ -1,6 +1,5 @@
-import { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { BadgeCheck, Check, Clock3, ShieldCheck } from "lucide-react";
+import { BadgeCheck, Check, ShieldCheck } from "lucide-react";
 import SlideArrowButton from "../SlideArrowButton";
 
 const benefits = [
@@ -11,63 +10,9 @@ const benefits = [
   "Área de redação, metas e TAF",
 ];
 
-function getOfferTarget() {
-  const now = new Date();
-  const target = new Date(now);
-  target.setDate(now.getDate() + 3);
-  target.setHours(23, 59, 59, 999);
-  return target;
-}
-
-function formatTimer(ms) {
-  const safeMs = Math.max(0, ms);
-  const totalSeconds = Math.floor(safeMs / 1000);
-  const hours = Math.floor(totalSeconds / 3600);
-  const minutes = Math.floor((totalSeconds % 3600) / 60);
-  const seconds = totalSeconds % 60;
-
-  return [hours, minutes, seconds].map((value) => String(value).padStart(2, "0")).join(":");
-}
-
 function Pricing() {
-  const [offerTarget, setOfferTarget] = useState(getOfferTarget);
-  const [remaining, setRemaining] = useState(() => offerTarget.getTime() - Date.now());
-  const offerDate = useMemo(
-    () => offerTarget.toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit" }),
-    [offerTarget]
-  );
-
-  useEffect(() => {
-    const interval = window.setInterval(() => {
-      const diff = offerTarget.getTime() - Date.now();
-
-      if (diff <= 0) {
-        const nextTarget = getOfferTarget();
-        setOfferTarget(nextTarget);
-        setRemaining(nextTarget.getTime() - Date.now());
-        return;
-      }
-
-      setRemaining(diff);
-    }, 1000);
-
-    return () => window.clearInterval(interval);
-  }, [offerTarget]);
-
   return (
     <section className="section-shell landing-pricing-section" id="planos">
-      <motion.div
-        className="pricing-urgency-banner"
-        initial={{ opacity: 0, y: 18 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, amount: 0.45 }}
-        transition={{ duration: 0.45 }}
-      >
-        <Clock3 size={18} />
-        <span>Oferta por tempo limitado - 40% OFF no plano anual. Válido até {offerDate}</span>
-        <strong>{formatTimer(remaining)}</strong>
-      </motion.div>
-
       <div className="section-heading">
         <span className="section-kicker">
           <ShieldCheck size={16} />

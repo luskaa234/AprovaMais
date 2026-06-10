@@ -15,17 +15,16 @@ import {
   Scale,
   Shield,
   ShieldCheck,
-  Sparkles,
   Target,
-  Timer,
   Trophy,
 } from "lucide-react";
-import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import AiPreview from "../components/landing/AiPreview";
 import FlashcardsFlipStack from "../components/landing/FlashcardsFlipStack";
 import Footer from "../components/landing/Footer";
+import Hero from "../components/landing/Hero";
 import HeroVideoSection from "../components/landing/HeroVideoSection";
-import mascotWelcome from "../assets/mascote/mascote-boas-vindas.png";
+import Pricing from "../components/landing/Pricing";
 import mascotCelebration from "../assets/mascote/mascote-comemoracao.png";
 
 const contests = [
@@ -103,36 +102,7 @@ export default function Home() {
     <>
       <Navbar />
       <main className="honest-landing">
-        <section className="honest-hero" id="inicio">
-          <div className="honest-hero-content">
-            <span className="honest-kicker">
-              <Sparkles size={16} />
-              7 dias grátis para começar com método
-            </span>
-            <h1>Passe em concursos com método, não com sorte.</h1>
-            <p>
-              Planeje por edital, resolva questões oficiais, treine o TAF e acompanhe
-              sua evolução com IA, tudo num lugar só.
-            </p>
-            <div className="honest-hero-actions">
-              <Link className="honest-btn honest-btn-primary" to="/criar-conta">
-                Começar 7 dias grátis
-              </Link>
-              <a className="honest-btn honest-btn-secondary" href="#como-funciona">
-                Ver como funciona
-              </a>
-            </div>
-            <div className="honest-proof">
-              <ShieldCheck size={18} />
-              <strong>+3.000 questões oficiais</strong>
-              <span>de provas reais para OAB e carreiras policiais</span>
-            </div>
-          </div>
-
-          <div className="honest-hero-media" aria-label="Mascote Aprovinho">
-            <img src={mascotWelcome} alt="Aprovinho, mascote do Aprova+" />
-          </div>
-        </section>
+        <Hero />
 
         <HeroVideoSection />
 
@@ -168,6 +138,8 @@ export default function Home() {
 
         <FlashcardsFlipStack />
 
+        <AiPreview />
+
         <section className="honest-section" id="como-funciona">
           <SectionHeading eyebrow="Como funciona" title="Um ciclo simples para estudar com precisão">
             Sem promessa mágica: você escolhe o alvo, segue o plano, pratica e ajusta pelo desempenho.
@@ -201,16 +173,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="honest-trial" id="planos">
-          <div>
-            <span><Timer size={17} /> Teste grátis</span>
-            <h2>Experimente 7 dias grátis</h2>
-            <p>Acesso completo. Sem compromisso. Cancele quando quiser.</p>
-          </div>
-          <Link className="honest-btn honest-btn-light" to="/criar-conta">
-            Começar agora
-          </Link>
-        </section>
+        <Pricing />
 
         <section className="honest-section honest-faq" id="faq">
           <SectionHeading eyebrow="FAQ" title="Perguntas frequentes">
