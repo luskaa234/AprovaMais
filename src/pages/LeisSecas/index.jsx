@@ -1,5 +1,5 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
-import { BookOpen, Bookmark, Brain, CheckCircle2, FileQuestion, Filter, Highlighter, Search, Sparkles } from "lucide-react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { ArrowRight, BookOpen, Bookmark, Brain, CheckCircle2, FileQuestion, Filter, Highlighter, Search, Sparkles } from "lucide-react";
 import { Badge, Button, Card, EmptyState, Input, Select, Textarea, cx } from "../../components";
 import { useInternalRouter, useNotifications } from "../../contexts";
 import { useAsyncData } from "../../hooks";
@@ -76,6 +76,7 @@ export default function LeisSecasPage() {
   const [relatedQuestions, setRelatedQuestions] = useState([]);
   const [actionLoading, setActionLoading] = useState("");
   const [readerScale, setReaderScale] = useState("lg");
+  const articlePanelRef = useRef(null);
 
   const normas = useMemo(() => baseLeis.map(normalizeLei), [baseLeis]);
   const filteredNormas = useMemo(() => normas.filter((lei) => {
@@ -113,6 +114,24 @@ export default function LeisSecasPage() {
     lg: "text-lg leading-9",
     xl: "text-xl leading-10",
   }[readerScale];
+
+  const scrollArticleToTop = useCallback(() => {
+    window.requestAnimationFrame(() => {
+      articlePanelRef.current?.scrollTo({ top: 0, behavior: "smooth" });
+      articlePanelRef.current?.focus({ preventScroll: true });
+    });
+  }, []);
+
+  const selectArticle = useCallback((articleId) => {
+    setActiveArticleId(articleId);
+    scrollArticleToTop();
+  }, [scrollArticleToTop]);
+
+  const selectLei = useCallback((leiId) => {
+    setActiveLeiId(leiId);
+    setActiveArticleId("");
+    scrollArticleToTop();
+  }, [scrollArticleToTop]);
 
   const filtersContent = (
     <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-[1.4fr_repeat(4,1fr)]">
@@ -219,7 +238,7 @@ export default function LeisSecasPage() {
             </div>
             <div className="max-h-[280px] space-y-2 overflow-y-auto p-3 pr-2 xl:min-h-0 xl:flex-1 xl:max-h-none">
               {filteredNormas.map((lei) => (
-                <button key={lei.id} onClick={() => { setActiveLeiId(lei.id); setActiveArticleId(""); }} className={cx("w-full rounded-lg border p-3 text-left transition", activeLei?.id === lei.id ? "border-blue-500 bg-blue-600 text-white shadow-lg shadow-blue-950/30" : "border-gray-800 bg-gray-900 text-gray-300 hover:border-blue-400 hover:bg-gray-800")}>
+                <button key={lei.id} onClick={() => selectLei(lei.id)} className={cx("w-full rounded-lg border p-3 text-left transition", activeLei?.id === lei.id ? "border-blue-500 bg-blue-600 text-white shadow-lg shadow-blue-950/30" : "border-gray-800 bg-gray-900 text-gray-300 hover:border-blue-400 hover:bg-gray-800")}>
                   <strong className="block text-sm leading-5">{lei.nome}</strong>
                   <span className="mt-2 flex items-center justify-between gap-2 text-xs opacity-80">
                     <span>{lei.tipo}</span>
@@ -243,7 +262,7 @@ export default function LeisSecasPage() {
             {articles.length ? (
               <nav className="max-h-[430px] space-y-2 overflow-y-auto p-3 pr-2 xl:min-h-0 xl:flex-1 xl:max-h-none">
                 {articles.map((artigo) => (
-                  <button key={artigo.id} onClick={() => setActiveArticleId(artigo.id)} className={cx("w-full rounded-lg border p-3 text-left transition", activeArticle?.id === artigo.id ? "border-blue-500 bg-blue-600 text-white" : "border-gray-800 bg-gray-900 text-gray-300 hover:border-blue-400")}>
+                  <button key={artigo.id} onClick={() => selectArticle(artigo.id)} className={cx("w-full rounded-lg border p-3 text-left transition", activeArticle?.id === artigo.id ? "border-blue-500 bg-blue-600 text-white" : "border-gray-800 bg-gray-900 text-gray-300 hover:border-blue-400")}>
                     <span className="flex items-center justify-between gap-2">
                       <strong className="text-base">Art. {artigo.numero_texto || artigo.numero}</strong>
                       {favoritos.includes(artigo.id) ? <Bookmark size={14} className="text-amber-200" /> : null}
@@ -278,7 +297,7 @@ export default function LeisSecasPage() {
           </div>
 
           {activeArticle ? (
-            <article className={cx("min-h-[680px] p-4 md:p-7 xl:min-h-0 xl:flex-1 xl:overflow-y-auto xl:p-9", grifos[activeArticle.id] && "bg-amber-500/5")}>
+            <article ref={articlePanelRef} tabIndex={-1} className={cx("min-h-[680px] scroll-smooth p-4 outline-none md:p-7 xl:min-h-0 xl:flex-1 xl:overflow-y-auto xl:p-9", grifos[activeArticle.id] && "bg-amber-500/5")}>
               <div className="mb-6 rounded-lg border border-gray-800 bg-gray-900 p-4 md:p-5">
                 <div className="flex flex-wrap items-start justify-between gap-4">
                   <div>
@@ -338,10 +357,14 @@ export default function LeisSecasPage() {
             <h2 className="mb-3 text-lg font-bold text-white">Mais importantes</h2>
             <div className="space-y-2">
               {articles.filter((item) => item.cobrancas || item.importancia >= 5).slice(0, 6).map((item) => (
-                <button key={item.id} type="button" onClick={() => setActiveArticleId(item.id)} className="w-full rounded-lg border border-gray-800 bg-gray-900 p-3 text-left text-sm text-gray-300 hover:border-amber-300">
-                  <Sparkles className="mb-2 text-amber-300" size={16} />
-                  <strong>Art. {item.numero_texto || item.numero}</strong>
-                  <p className="mt-1 text-xs text-gray-500">{item.cobrancas || 0} questoes oficiais relacionadas</p>
+                <button key={item.id} type="button" onClick={() => selectArticle(item.id)} className={cx("group w-full rounded-lg border p-3 text-left text-sm transition", activeArticle?.id === item.id ? "border-amber-300 bg-amber-300/10 text-white shadow-sm" : "border-gray-800 bg-gray-900 text-gray-300 hover:border-amber-300 hover:bg-gray-800")}>
+                  <span className="mb-2 flex items-center justify-between gap-2">
+                    <span className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-wide text-amber-300"><Sparkles size={15} /> Atalho</span>
+                    <ArrowRight className={cx("text-gray-600 transition group-hover:translate-x-0.5 group-hover:text-amber-300", activeArticle?.id === item.id && "text-amber-300")} size={15} />
+                  </span>
+                  <strong className="block text-base">Art. {item.numero_texto || item.numero}</strong>
+                  <p className="mt-1 line-clamp-2 text-xs leading-5 text-gray-500">{item.capitulo || item.secao || item.lei}</p>
+                  <p className="mt-2 text-xs text-gray-500">{item.cobrancas || 0} questoes oficiais relacionadas</p>
                 </button>
               ))}
               {!articles.filter((item) => item.cobrancas || item.importancia >= 5).length ? <p className="rounded-lg bg-gray-900 p-3 text-sm text-gray-500">Sem ranking de cobranca para esta norma ainda.</p> : null}
