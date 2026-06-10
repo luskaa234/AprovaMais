@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { CalendarDays, CheckCircle2, ChevronLeft, ChevronRight, Clock, Filter, MoreVertical, Plus, RotateCcw, Target, TrendingUp } from "lucide-react";
+import { CalendarDays, CheckCircle2, ChevronLeft, ChevronRight, Clock, Filter, PauseCircle, PlayCircle, Plus, RotateCcw, Target, TrendingUp } from "lucide-react";
 import { Badge, Button, Input, Select, cx } from "../../components";
 import { Modal } from "../../modals";
 import { useAsyncData } from "../../hooks";
@@ -140,12 +140,16 @@ function readStorage(key, fallback) {
 }
 
 function ActivityRow({ activity, onStatus }) {
+  const isDone = activity.status === "Concluida";
+  const isRunning = activity.status === "Em andamento";
+
   return (
-    <div className="rounded-lg border border-slate-100 bg-white p-3 shadow-sm transition hover:border-blue-200 hover:shadow-md">
-      <div className="grid gap-3 md:grid-cols-[92px_minmax(0,1fr)_auto] md:items-center">
-        <div className="rounded-lg border border-blue-100 bg-blue-50 px-3 py-2 text-blue-800">
-          <span className="block text-lg font-black leading-none">{activity.hour}</span>
-          <span className="mt-1 flex items-center gap-1 text-xs font-semibold text-blue-500"><Clock size={13} />{activity.duration} min</span>
+    <div className={cx("relative overflow-hidden rounded-lg border bg-white p-3 shadow-sm transition hover:shadow-md", isDone ? "border-emerald-100" : "border-slate-100 hover:border-blue-200")}>
+      <span className={cx("absolute left-0 top-0 h-full w-1", typeTone(activity.type))} />
+      <div className="grid gap-3 pl-2 md:grid-cols-[96px_minmax(0,1fr)_auto] md:items-center">
+        <div className={cx("rounded-lg border px-3 py-2", isDone ? "border-emerald-100 bg-emerald-50 text-emerald-800" : "border-blue-100 bg-blue-50 text-blue-800")}>
+          <span className="block text-xl font-black leading-none">{activity.hour}</span>
+          <span className={cx("mt-1 flex items-center gap-1 text-xs font-semibold", isDone ? "text-emerald-600" : "text-blue-500")}><Clock size={13} />{activity.duration} min</span>
         </div>
 
         <div className="min-w-0">
@@ -165,11 +169,15 @@ function ActivityRow({ activity, onStatus }) {
             <Badge variant={typeBadge(activity.type)}>{activity.type}</Badge>
             <span className={cx("inline-flex min-h-8 min-w-28 items-center justify-center rounded-full border px-3 text-xs font-bold", statusTone(activity.status))}>{activity.status}</span>
           </div>
-          <div className="flex rounded-lg border border-slate-100 bg-slate-50 p-1">
-            <button className="rounded-md p-2 text-slate-500 transition hover:bg-white hover:text-emerald-600" title={activity.status === "Concluida" ? "Reagendar" : "Concluir"} onClick={() => onStatus(activity.id, activity.status === "Concluida" ? "Reagendada" : "Concluida")} type="button">
-              {activity.status === "Concluida" ? <RotateCcw size={16} /> : <CheckCircle2 size={16} />}
+          <div className="flex flex-wrap gap-2">
+            <button className={cx("inline-flex min-h-9 items-center gap-1.5 rounded-lg border px-3 text-xs font-bold transition", isRunning ? "border-amber-200 bg-amber-50 text-amber-700 hover:bg-amber-100" : "border-blue-100 bg-blue-50 text-blue-700 hover:bg-blue-100")} onClick={() => onStatus(activity.id, isRunning ? "Pendente" : "Em andamento")} type="button">
+              {isRunning ? <PauseCircle size={15} /> : <PlayCircle size={15} />}
+              {isRunning ? "Pausar" : "Iniciar"}
             </button>
-            <button className="rounded-md p-2 text-slate-500 transition hover:bg-white hover:text-blue-600" title="Alternar andamento" onClick={() => onStatus(activity.id, activity.status === "Em andamento" ? "Pendente" : "Em andamento")} type="button"><MoreVertical size={16} /></button>
+            <button className={cx("inline-flex min-h-9 items-center gap-1.5 rounded-lg border px-3 text-xs font-bold transition", isDone ? "border-slate-200 bg-slate-50 text-slate-600 hover:bg-slate-100" : "border-emerald-200 bg-emerald-50 text-emerald-700 hover:bg-emerald-100")} onClick={() => onStatus(activity.id, isDone ? "Reagendada" : "Concluida")} type="button">
+              {isDone ? <RotateCcw size={15} /> : <CheckCircle2 size={15} />}
+              {isDone ? "Reabrir" : "Concluir"}
+            </button>
           </div>
         </div>
       </div>
@@ -206,6 +214,8 @@ export default function PlanoPage() {
   const monthDays = useMemo(() => buildMonthGrid(month), [month]);
   const selectedActivities = useMemo(() => filteredActivities.filter((item) => item.date === selectedDate), [filteredActivities, selectedDate]);
   const selectedMinutes = selectedActivities.reduce((sum, item) => sum + item.duration, 0);
+  const selectedDone = selectedActivities.filter((item) => item.status === "Concluida").length;
+  const selectedProgress = selectedActivities.length ? Math.round((selectedDone / selectedActivities.length) * 100) : 0;
   const materias = useMemo(() => [...new Set(activities.map((item) => item.materia).filter(Boolean))], [activities]);
   const weekActivities = useMemo(() => {
     const selected = new Date(selectedDate);
@@ -356,16 +366,26 @@ export default function PlanoPage() {
           </section>
 
           <section className="overflow-hidden rounded-lg border border-blue-100 bg-white shadow-sm">
-            <div className="flex flex-wrap items-center justify-between gap-3 border-b border-blue-100 bg-gradient-to-r from-slate-50 to-blue-50/70 px-4 py-4">
-              <div className="min-w-0">
-                <h2 className="text-lg font-black capitalize text-slate-950">{formatDate(new Date(selectedDate), { weekday: "long", day: "2-digit", month: "long" })}</h2>
-                <div className="mt-1 flex flex-wrap gap-2 text-sm text-slate-500">
-                  <span>{selectedActivities.length} atividade{selectedActivities.length === 1 ? "" : "s"}</span>
-                  <span className="text-slate-300">|</span>
-                  <span>{Math.floor(selectedMinutes / 60)}h {selectedMinutes % 60}min planejados</span>
+            <div className="border-b border-blue-100 bg-gradient-to-r from-slate-50 to-blue-50/70 px-4 py-4">
+              <div className="flex flex-wrap items-start justify-between gap-3">
+                <div className="min-w-0">
+                  <h2 className="text-lg font-black capitalize text-slate-950">{formatDate(new Date(selectedDate), { weekday: "long", day: "2-digit", month: "long" })}</h2>
+                  <div className="mt-1 flex flex-wrap gap-2 text-sm text-slate-500">
+                    <span>{selectedActivities.length} atividade{selectedActivities.length === 1 ? "" : "s"}</span>
+                    <span className="text-slate-300">|</span>
+                    <span>{Math.floor(selectedMinutes / 60)}h {selectedMinutes % 60}min planejados</span>
+                    <span className="text-slate-300">|</span>
+                    <span>{selectedDone} concluida{selectedDone === 1 ? "" : "s"}</span>
+                  </div>
                 </div>
+                <Button size="sm" variant="secondary" icon={Plus} onClick={() => setModal(true)}>Adicionar atividade</Button>
               </div>
-              <Button size="sm" variant="secondary" icon={Plus} onClick={() => setModal(true)}>Adicionar atividade</Button>
+              <div className="mt-4 grid gap-2 sm:grid-cols-[1fr_auto] sm:items-center">
+                <div className="h-2 overflow-hidden rounded-full bg-white ring-1 ring-blue-100">
+                  <div className="h-full rounded-full bg-blue-600 transition-all" style={{ width: `${selectedProgress}%` }} />
+                </div>
+                <span className="text-xs font-bold text-blue-700">{selectedProgress}% do dia concluido</span>
+              </div>
             </div>
             {selectedActivities.length ? (
               <div className="grid gap-3 bg-slate-50/60 p-3">
