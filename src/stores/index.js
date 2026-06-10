@@ -132,7 +132,7 @@ export const useUserStore = create(
   persist(
     (set) => ({
       user: { id: "u1", name: "Lucas Silva", email: "lucas@aprova.local", role: "admin", targetContest: "PRF", nivel: "intermediario", horasSemanais: 18, dataProva: "2026-10-23", onboardingComplete: false },
-      stats: { horasEstudadas: 42, questoesResolvidas: 0, taxaAcertos: 0, sequenciaDias: 0, tafNota: 9 },
+      stats: { horasEstudadas: 0, questoesResolvidas: 0, taxaAcertos: 0, sequenciaDias: 0, tafNota: 0 },
       updateStats: (partial) => set((state) => ({ stats: { ...state.stats, ...partial } })),
       updateUser: (partial) => set((state) => ({ user: { ...state.user, ...partial } })),
     }),
@@ -156,6 +156,16 @@ export const useRankingStore = create(
   )
 );
 
+function refreshQuestionStats(tentativas = []) {
+  const resolvidas = tentativas.length;
+  const acertos = tentativas.filter((item) => item.acertou).length;
+  useUserStore.getState().updateStats({
+    questoesResolvidas: resolvidas,
+    taxaAcertos: resolvidas ? Math.round((acertos / resolvidas) * 100) : 0,
+    sequenciaDias: new Set(tentativas.map((item) => item.data?.slice(0, 10)).filter(Boolean)).size,
+  });
+}
+
 export const useQuestoesStore = create(
   persist(
     (set, get) => ({
@@ -163,25 +173,60 @@ export const useQuestoesStore = create(
       tentativas: [],
       salvas: [],
       caderno: [],
-      responder: (questaoId, resposta, tempo = 0) => {
-        const questao = get().questoes.find((item) => item.id === questaoId);
-        const acertou = questao?.gabarito?.toLowerCase() === String(resposta).toLowerCase();
-        const tentativa = { questaoId, resposta, acertou, tempo, data: new Date().toISOString() };
+      errosSuperados: [],
+      cacheQuestao: (questao) => {
+        if (!questao?.id) return null;
+        set((state) => state.questoes.some((item) => item.id === questao.id) ? state : { questoes: [questao, ...state.questoes] });
+        return questao;
+      },
+      responder: (questaoId, resposta, tempo = 0, questaoSnapshot = null) => {
+        const questao = questaoSnapshot || get().questoes.find((item) => item.id === questaoId);
+        const gabarito = String(questao?.gabarito || "").toLowerCase();
+        const acertou = gabarito === "anulada" || gabarito === String(resposta).toLowerCase();
+        const tentativa = {
+          questaoId,
+          resposta,
+          acertou,
+          tempo,
+          data: new Date().toISOString(),
+          materia: questao?.materiaLabel || questao?.materia || "Nao informada",
+          materiaOriginal: questao?.materia,
+          banca: questao?.banca,
+          concurso: questao?.concursoLabel || questao?.concurso || questao?.orgao,
+        };
         set((state) => ({
+          questoes: questao?.id && !state.questoes.some((item) => item.id === questao.id) ? [questao, ...state.questoes] : state.questoes,
           tentativas: [tentativa, ...state.tentativas],
           caderno: acertou || state.caderno.includes(questaoId) ? state.caderno : [questaoId, ...state.caderno],
+          errosSuperados: acertou ? state.errosSuperados : state.errosSuperados.filter((id) => id !== questaoId),
         }));
-        const tentativas = [tentativa, ...get().tentativas];
-        const resolvidas = tentativas.length;
-        const acertos = tentativas.filter((item) => item.acertou).length;
-        useUserStore.getState().updateStats({ questoesResolvidas: resolvidas, taxaAcertos: Math.round((acertos / resolvidas) * 100), sequenciaDias: new Set(tentativas.map((item) => item.data.slice(0, 10))).size });
+        refreshQuestionStats(get().tentativas);
         useRankingStore.getState().adicionarPontos(acertou ? 10 : 2);
         useRevisaoStore.getState().registrarQuestao(questao);
         return { correta: acertou, gabarito: questao?.gabarito };
       },
-      salvar: (questaoId) => set((state) => ({ salvas: state.salvas.includes(questaoId) ? state.salvas.filter((id) => id !== questaoId) : [questaoId, ...state.salvas] })),
-      addCaderno: (questaoId) => set((state) => ({ caderno: state.caderno.includes(questaoId) ? state.caderno : [questaoId, ...state.caderno] })),
-      removerCaderno: (questaoId) => set((state) => ({ caderno: state.caderno.filter((id) => id !== questaoId) })),
+      salvar: (questaoId) => {
+        const saved = !get().salvas.includes(questaoId);
+        set((state) => ({ salvas: saved ? [questaoId, ...state.salvas] : state.salvas.filter((id) => id !== questaoId) }));
+        return { saved };
+      },
+      addCaderno: (questaoId) => {
+        const added = !get().caderno.includes(questaoId);
+        set((state) => ({
+          caderno: state.caderno.includes(questaoId) ? state.caderno : [questaoId, ...state.caderno],
+          errosSuperados: state.errosSuperados.filter((id) => id !== questaoId),
+        }));
+        return { added };
+      },
+      removerCaderno: (questaoId) => {
+        const removed = get().caderno.includes(questaoId);
+        set((state) => ({
+          caderno: state.caderno.filter((id) => id !== questaoId),
+          errosSuperados: state.errosSuperados.includes(questaoId) ? state.errosSuperados : [questaoId, ...state.errosSuperados],
+        }));
+        refreshQuestionStats(get().tentativas);
+        return { removed };
+      },
     }),
     { name: "aprova-questoes" }
   )

@@ -63,8 +63,9 @@ export default function QuestoesPage() {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const { questoes, filters, updateFilter, clearFilters, isLoading, total, stats, filterOptions } = useQuestoes({ page, pageSize, initialFilters: { area: initialArea } });
   const { addNotification } = useNotifications();
-  const addCaderno = useQuestoesStore((state) => state.addCaderno);
   const tentativas = useQuestoesStore((state) => state.tentativas);
+  const salvas = useQuestoesStore((state) => state.salvas);
+  const caderno = useQuestoesStore((state) => state.caderno);
 
   const setFilter = useCallback((key, value) => {
     setPage(1);
@@ -82,14 +83,18 @@ export default function QuestoesPage() {
   }, [addNotification]);
 
   const onSave = useCallback(async (id) => {
-    await questoesService.salvar(id);
-    addNotification({ type: "success", title: "Questao salva", message: "Favoritos atualizados." });
+    const result = await questoesService.salvar(id);
+    addNotification({
+      type: "success",
+      title: result.saved ? "Questao salva" : "Questao removida",
+      message: result.saved ? "Ela entrou nas favoritas." : "Ela saiu das favoritas.",
+    });
   }, [addNotification]);
 
-  const onAddCaderno = useCallback((id) => {
-    addCaderno(id);
-    addNotification({ type: "success", title: "Caderno atualizado", message: "Questao adicionada ao caderno de erros." });
-  }, [addCaderno, addNotification]);
+  const onAddCaderno = useCallback(async (id) => {
+    const result = await questoesService.adicionarAoCaderno(id);
+    addNotification({ type: "success", title: "Caderno atualizado", message: result.added ? "Questao adicionada ao caderno de erros." : "Esta questao ja estava no caderno." });
+  }, [addNotification]);
 
   const onReport = useCallback(() => addNotification({ type: "warning", title: "Reporte enviado", message: "Nossa equipe revisara a questao." }), [addNotification]);
 
@@ -171,7 +176,17 @@ export default function QuestoesPage() {
       ) : visible.length ? (
         <div className="space-y-4">
           {visible.map((questao, index) => (
-            <QuestionCard key={questao.id} index={(page - 1) * pageSize + index} questao={questao} onAnswer={onAnswer} onSave={onSave} onAddCaderno={onAddCaderno} onReport={onReport} />
+            <QuestionCard
+              key={questao.id}
+              index={(page - 1) * pageSize + index}
+              questao={questao}
+              saved={salvas.includes(questao.id)}
+              inErrorBook={caderno.includes(questao.id)}
+              onAnswer={onAnswer}
+              onSave={onSave}
+              onAddCaderno={onAddCaderno}
+              onReport={onReport}
+            />
           ))}
         </div>
       ) : (

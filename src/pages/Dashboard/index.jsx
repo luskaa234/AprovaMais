@@ -100,7 +100,8 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
   const [hours, questions, accuracy, streak, taf] = kpis;
   const todayAccuracy = Number.parseInt(String(accuracy[1]), 10) || 0;
   const tafValue = Number.parseFloat(String(taf[1])) || 0;
-  const planProgress = Math.min(100, Math.max(22, Math.round((todayAccuracy + tafValue * 10) / 2)));
+  const questionsValue = Number.parseInt(String(questions[1]), 10) || 0;
+  const planProgress = Math.min(100, Math.round((todayAccuracy + Math.min(100, questionsValue * 10) + tafValue * 10) / 3));
   const todayHit = performance.at(-1)?.acertos ?? todayAccuracy;
   const firstName = user?.name?.split(" ")[0] || "Aluno";
 
@@ -123,7 +124,7 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
         </div>
         <ProgressBar value={planProgress} color="bg-emerald-500" />
         <div className="mobile-study-progress-goals">
-          <span><BookOpen size={15} /> 40 questoes</span>
+          <span><BookOpen size={15} /> {questions[1]} questoes</span>
           <span><Flame size={15} /> {streak[1]} dias</span>
           <span><Dumbbell size={15} /> TAF {taf[1]}</span>
         </div>
@@ -266,10 +267,11 @@ export default function DashboardPage() {
   const questoesResolvidas = tentativas.length;
   const acertos = tentativas.filter((item) => item.acertou).length;
   const taxaAcertos = questoesResolvidas ? Math.round((acertos / questoesResolvidas) * 100) : 0;
+  const sequenciaTentativas = new Set(tentativas.map((item) => item.data?.slice(0, 10)).filter(Boolean)).size;
   const desempenhoIA = useMemo(() => {
     const porMateria = tentativas.reduce((acc, tentativa) => {
       const questao = questoes.find((item) => item.id === tentativa.questaoId);
-      const materia = questao?.materia;
+      const materia = tentativa.materia || questao?.materiaLabel || questao?.materia;
       if (!materia || materia === "Nao informada") return acc;
       acc[materia] ||= { acertos: 0, total: 0, erros: 0 };
       acc[materia].total += 1;
@@ -284,12 +286,12 @@ export default function DashboardPage() {
 
     return {
       questoesResolvidas,
-      taxaAcertos: questoesResolvidas ? taxaAcertos : stats.taxa_acertos ?? user.stats.accuracy,
-      sequenciaDias: stats.sequencia_dias ?? user.stats.streak,
+      taxaAcertos,
+      sequenciaDias: sequenciaTentativas,
       porMateria,
       materiasFracas,
     };
-  }, [questoes, questoesResolvidas, stats.sequencia_dias, stats.taxa_acertos, taxaAcertos, tentativas, user.stats.accuracy, user.stats.streak]);
+  }, [questoes, questoesResolvidas, sequenciaTentativas, taxaAcertos, tentativas]);
   const subjectsLiberados = materiasDoPerfil.length ? materiasDoPerfil : objectiveContent.subjects;
 
   const handleRelatorio = async () => {
@@ -303,11 +305,11 @@ export default function DashboardPage() {
   };
 
   const kpis = [
-    ["Horas estudadas", stats.horas_estudadas ?? user.stats.hours, Clock],
-    ["Questoes resolvidas", questoesResolvidas || stats.questoes_resolvidas || user.stats.questions, ClipboardList],
-    ["Taxa de acertos", `${questoesResolvidas ? taxaAcertos : (stats.taxa_acertos ?? user.stats.accuracy)}%`, Target],
-    ["Sequencia", stats.sequencia_dias ?? user.stats.streak, Zap],
-    ["TAF", `${stats.taf_nota ?? user.stats.taf}/10`, Dumbbell],
+    ["Horas estudadas", stats.horas_estudadas ?? stats.horasEstudadas ?? 0, Clock],
+    ["Questoes resolvidas", questoesResolvidas, ClipboardList],
+    ["Taxa de acertos", `${taxaAcertos}%`, Target],
+    ["Sequencia", sequenciaTentativas, Zap],
+    ["TAF", `${stats.taf_nota ?? stats.tafNota ?? 0}/10`, Dumbbell],
   ];
 
   return (
@@ -433,6 +435,14 @@ export default function DashboardPage() {
           <KpiCard key={label} label={label} value={value} icon={icon} />
         ))}
       </div>
+
+      {!questoesResolvidas ? (
+        <Card className="mt-4" hover={false}>
+          <h2 className="font-bold text-white">Seu progresso comeca nas questoes</h2>
+          <p className="mt-1 text-sm text-gray-400">Resolva uma questao para preencher acertos, erros, sequencia e desempenho por materia.</p>
+          <Button className="mt-3" size="sm" onClick={() => navigate("questoes")}>Abrir questoes</Button>
+        </Card>
+      ) : null}
 
       <div className="mt-4 grid gap-4 xl:grid-cols-[1.5fr_1fr]">
         <Card>

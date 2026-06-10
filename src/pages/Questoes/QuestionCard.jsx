@@ -1,6 +1,6 @@
 import { memo, useCallback, useRef, useState } from "react";
 import { motion } from "framer-motion";
-import { AlertTriangle, Bookmark, CheckCircle2, Flag, Lightbulb, XCircle } from "lucide-react";
+import { AlertTriangle, Bookmark, BookmarkCheck, CheckCircle2, Flag, Lightbulb, XCircle } from "lucide-react";
 import { Badge, Button, Card, cx } from "../../components";
 
 const difficultyVariant = {
@@ -17,7 +17,7 @@ const difficultyLabel = {
   dificil: "Dificil",
 };
 
-export const QuestionCard = memo(({ questao, index = 0, onAnswer, onSave, onAddCaderno, onReport }) => {
+export const QuestionCard = memo(({ questao, index = 0, saved = false, inErrorBook = false, onAnswer, onSave, onAddCaderno, onReport }) => {
   const [selected, setSelected] = useState(null);
   const [confirmed, setConfirmed] = useState(false);
   const [result, setResult] = useState(null);
@@ -95,8 +95,12 @@ export const QuestionCard = memo(({ questao, index = 0, onAnswer, onSave, onAddC
 
         <div className="mt-4 flex flex-wrap gap-2">
           <Button disabled={!selected || confirmed} onClick={confirmAnswer}>Confirmar resposta</Button>
-          <Button variant="ghost" icon={Bookmark} onClick={() => onSave(questao.id)}>Salvar</Button>
-          {confirmed && !isCorrect ? <Button variant="ghost" icon={AlertTriangle} onClick={() => onAddCaderno?.(questao.id)}>Adicionar ao caderno</Button> : null}
+          <Button variant={saved ? "secondary" : "ghost"} icon={saved ? BookmarkCheck : Bookmark} onClick={() => onSave(questao.id)}>{saved ? "Salva" : "Salvar"}</Button>
+          {confirmed && !isCorrect ? (
+            <Button variant={inErrorBook ? "secondary" : "ghost"} icon={AlertTriangle} onClick={() => onAddCaderno?.(questao.id)}>
+              {inErrorBook ? "No caderno" : "Adicionar ao caderno"}
+            </Button>
+          ) : null}
           <Button variant="ghost" icon={Flag} onClick={() => onReport(questao.id)}>Reportar</Button>
           {confirmed ? <Button variant="secondary" onClick={goNext}>Proxima questao</Button> : null}
         </div>

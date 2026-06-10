@@ -17,12 +17,12 @@ export default function CadernoErrosPage() {
   const { addNotification } = useNotifications();
   const caderno = useQuestoesStore((state) => state.caderno);
   const tentativas = useQuestoesStore((state) => state.tentativas);
-  const removerCaderno = useQuestoesStore((state) => state.removerCaderno);
+  const errosSuperados = useQuestoesStore((state) => state.errosSuperados);
   const load = useCallback(() => questoesService.getAll(), []);
   const { data = [] } = useAsyncData(load);
 
   const wrongMap = useMemo(() => new Map(tentativas.filter((item) => !item.acertou).map((item) => [item.questaoId, item])), [tentativas]);
-  const wrongIds = useMemo(() => new Set([...caderno, ...wrongMap.keys()].filter((id) => !superadas.includes(id))), [caderno, superadas, wrongMap]);
+  const wrongIds = useMemo(() => new Set([...caderno, ...wrongMap.keys()].filter((id) => !superadas.includes(id) && !errosSuperados.includes(id))), [caderno, errosSuperados, superadas, wrongMap]);
   useEffect(() => {
     questoesService.getByIds([...wrongIds]).then(setExtraQuestoes).catch(() => setExtraQuestoes([]));
   }, [wrongIds]);
@@ -31,14 +31,14 @@ export default function CadernoErrosPage() {
     return [...merged.values()].filter((q) => wrongIds.has(q.id));
   }, [data, extraQuestoes, wrongIds]);
   const erros = useMemo(() => baseErros.filter((q) => {
-    if (filters.search && ![q.enunciado, q.assunto, q.materia].some((field) => String(field || "").toLowerCase().includes(filters.search.toLowerCase()))) return false;
+    if (filters.search && ![q.enunciado, q.assunto, q.assuntoLabel, q.materia, q.materiaLabel].some((field) => String(field || "").toLowerCase().includes(filters.search.toLowerCase()))) return false;
     if (filters.materia && q.materia !== filters.materia) return false;
     if (filters.banca && q.banca !== filters.banca) return false;
     if (filters.status === "manual" && !caderno.includes(q.id)) return false;
     if (filters.status === "respondida" && !wrongMap.has(q.id)) return false;
     return true;
   }), [baseErros, caderno, filters, wrongMap]);
-  const chart = useMemo(() => Object.entries(groupCount(erros, "materia")).map(([label, valor]) => ({ label, valor })), [erros]);
+  const chart = useMemo(() => Object.entries(groupCount(erros.map((item) => ({ ...item, materiaGrafico: item.materiaLabel || item.materia })), "materiaGrafico")).map(([label, valor]) => ({ label, valor })), [erros]);
   const materias = useMemo(() => [...new Set(baseErros.map((q) => q.materia).filter(Boolean))], [baseErros]);
   const bancas = useMemo(() => [...new Set(baseErros.map((q) => q.banca).filter(Boolean))], [baseErros]);
   const activeFilterCount = Object.values(filters).filter(Boolean).length;
@@ -51,11 +51,11 @@ export default function CadernoErrosPage() {
     </div>
   );
 
-  const superado = useCallback((id) => {
-    removerCaderno(id);
+  const superado = useCallback(async (id) => {
+    await questoesService.removerDoCaderno(id);
     setSuperadas((current) => current.includes(id) ? current : [...current, id]);
     addNotification({ type: "success", title: "Erro superado", message: "A questao saiu do caderno de erros." });
-  }, [addNotification, removerCaderno]);
+  }, [addNotification]);
 
   return (
     <div className="mx-auto max-w-[1500px]">
@@ -79,7 +79,7 @@ export default function CadernoErrosPage() {
             return (
               <Card hover={false} key={item.id}>
                 <div className="flex flex-wrap items-center justify-between gap-2">
-                  <div className="flex flex-wrap gap-2"><Badge variant="error">{item.materia}</Badge><Badge variant="neutral">{item.banca}</Badge><Badge variant="neutral">{item.assunto}</Badge></div>
+                  <div className="flex flex-wrap gap-2"><Badge variant="error">{item.materiaLabel || item.materia}</Badge><Badge variant="neutral">{item.banca}</Badge><Badge variant="neutral">{item.assuntoLabel || item.assunto}</Badge></div>
                   <XCircle className="text-red-300" size={18} />
                 </div>
                 <p className="mt-3 text-gray-200">{item.enunciado}</p>

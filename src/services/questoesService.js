@@ -81,6 +81,63 @@ function isCorrectAnswer(questao, alternativaId) {
   return String(questao?.gabarito || "").toLowerCase() === String(alternativaId).toLowerCase();
 }
 
+function shouldRetryWithoutOptionalColumns(error) {
+  const message = normalize(`${error?.message || ""} ${error?.details || ""} ${error?.hint || ""}`);
+  return message.includes("materia") || message.includes("data") || message.includes("column") || message.includes("schema cache");
+}
+
+async function insertTentativaSupabase({ userId, questao, alternativaId, acertou, tempo }) {
+  const payload = {
+    user_id: userId,
+    questao_id: questao.id,
+    resposta: alternativaId,
+    acertou,
+    tempo_gasto: tempo,
+    materia: questao.materiaLabel || questao.materia || "Nao informada",
+    data: new Date().toISOString(),
+  };
+  const { error } = await supabase.from("tentativas").insert(payload);
+  if (!error) return;
+  if (!shouldRetryWithoutOptionalColumns(error)) throw error;
+  const legacyPayload = { ...payload };
+  delete legacyPayload.materia;
+  delete legacyPayload.data;
+  const retry = await supabase.from("tentativas").insert(legacyPayload);
+  if (retry.error) throw retry.error;
+}
+
+async function upsertCadernoSupabase({ userId, questaoId }) {
+  const payload = { user_id: userId, questao_id: questaoId, data: new Date().toISOString() };
+  const { error } = await supabase.from("caderno_erros").upsert(payload);
+  if (!error) return;
+  if (!shouldRetryWithoutOptionalColumns(error)) throw error;
+  const legacyPayload = { ...payload };
+  delete legacyPayload.data;
+  const retry = await supabase.from("caderno_erros").upsert(legacyPayload);
+  if (retry.error) throw retry.error;
+}
+
+async function removeCadernoSupabase({ userId, questaoId }) {
+  const { error } = await supabase.from("caderno_erros").delete().eq("user_id", userId).eq("questao_id", questaoId);
+  if (error) throw error;
+}
+
+async function syncSalvaSupabase({ userId, questaoId, saved }) {
+  if (saved) {
+    const payload = { user_id: userId, questao_id: questaoId, data: new Date().toISOString() };
+    const { error } = await supabase.from("questoes_salvas").upsert(payload);
+    if (!error) return;
+    if (!shouldRetryWithoutOptionalColumns(error)) throw error;
+    const legacyPayload = { ...payload };
+    delete legacyPayload.data;
+    const retry = await supabase.from("questoes_salvas").upsert(legacyPayload);
+    if (retry.error) throw retry.error;
+    return;
+  }
+  const { error } = await supabase.from("questoes_salvas").delete().eq("user_id", userId).eq("questao_id", questaoId);
+  if (error) throw error;
+}
+
 async function getLocalCatalog() {
   if (localCatalogCache) return localCatalogCache;
   const response = await fetch("/questoes/catalog.json");
@@ -507,63 +564,99 @@ export const questoesService = {
         if (wanted.has(questao.id)) found.set(questao.id, questao);
       });
     }
-    if (!isSupabaseConfigured && found.size < wanted.size) {
-      const catalog = await getLocalCatalog();
-      for (const chunk of catalog.chunks.slice(0, FILTER_CHUNK_LIMIT)) {
-        const rows = await getLocalChunk(chunk.path);
-        rows.forEach((questao) => {
+    const missingIds = () => ids.filter((id) => !found.has(id));
+    if (isSupabaseConfigured && found.size < wanted.size) {
+      const { data, error } = await supabase.from("questoes").select("*").in("id", missingIds());
+      if (!error) {
+        (data || []).map(mapQuestao).forEach((questao) => {
           if (wanted.has(questao.id)) found.set(questao.id, questao);
         });
-        if (found.size >= wanted.size) break;
+      }
+    }
+    if (found.size < wanted.size) {
+      const official = [...(await getLocalOabQuestions()), ...(await getLocalMilitarQuestions())];
+      official.forEach((questao) => {
+        if (wanted.has(questao.id)) found.set(questao.id, questao);
+      });
+    }
+    if (found.size < wanted.size) {
+      try {
+        const catalog = await getLocalCatalog();
+        for (const chunk of catalog.chunks.slice(0, FILTER_CHUNK_LIMIT)) {
+          const rows = await getLocalChunk(chunk.path);
+          rows.forEach((questao) => {
+            if (wanted.has(questao.id)) found.set(questao.id, questao);
+          });
+          if (found.size >= wanted.size) break;
+        }
+      } catch {
+        // Catalogo local eh opcional; o caderno continua com o que foi encontrado.
       }
     }
     return ids.map((id) => found.get(id)).filter(Boolean);
   },
   async responder(id, alternativaId, tempo = 0) {
+    let questao = findCachedQuestaoById(id) || useQuestoesStore.getState().questoes.find((item) => item.id === id);
+    if (!questao) {
+      try {
+        questao = await this.getById(id);
+      } catch {
+        questao = null;
+      }
+    }
+    const result = useQuestoesStore.getState().responder(id, alternativaId, tempo, questao);
+    if (!questao) return result;
+
     if (isSupabaseConfigured) {
-      const questao = await this.getById(id);
-      const acertou = isCorrectAnswer(questao, alternativaId);
       try {
         const userId = await getCurrentUserId();
         if (userId) {
-          await supabase.from("tentativas").insert({
-            user_id: userId,
-            questao_id: id,
-            resposta: alternativaId,
-            acertou,
-            tempo_gasto: tempo,
-          });
-          if (!acertou) await supabase.from("caderno_erros").upsert({ user_id: userId, questao_id: id });
+          const acertou = isCorrectAnswer(questao, alternativaId);
+          await insertTentativaSupabase({ userId, questao, alternativaId, acertou, tempo });
+          if (!acertou) await upsertCadernoSupabase({ userId, questaoId: id });
           await supabase.rpc("incrementar_pontos", { uid: userId, pts: acertou ? 10 : 2 });
         }
-      } catch {
-        const tentativa = { questaoId: id, resposta: alternativaId, acertou, tempo, data: new Date().toISOString() };
-        useQuestoesStore.setState((state) => ({
-          tentativas: [tentativa, ...state.tentativas],
-          caderno: acertou || state.caderno.includes(id) ? state.caderno : [id, ...state.caderno],
-        }));
+      } catch (error) {
+        console.warn("Falha ao sincronizar tentativa no Supabase.", error);
       }
-      return { correta: acertou, gabarito: questao.gabarito };
     }
-    const questao = findCachedQuestaoById(id);
-    if (!questao) return useQuestoesStore.getState().responder(id, alternativaId);
-    const acertou = isCorrectAnswer(questao, alternativaId);
-    const tentativa = { questaoId: id, resposta: alternativaId, acertou, tempo, data: new Date().toISOString() };
-    useQuestoesStore.setState((state) => ({
-      tentativas: [tentativa, ...state.tentativas],
-      caderno: acertou || state.caderno.includes(id) ? state.caderno : [id, ...state.caderno],
-    }));
-    return { correta: acertou, gabarito: questao.gabarito };
+    return result;
   },
   async salvar(id) {
+    const localResult = useQuestoesStore.getState().salvar(id);
     if (isSupabaseConfigured) {
-      const userId = await getCurrentUserId();
-      if (!userId) return { success: false };
-      await supabase.from("questoes_salvas").upsert({ user_id: userId, questao_id: id });
-      return { success: true };
+      try {
+        const userId = await getCurrentUserId();
+        if (userId) await syncSalvaSupabase({ userId, questaoId: id, saved: localResult.saved });
+      } catch (error) {
+        console.warn("Falha ao sincronizar questao salva no Supabase.", error);
+      }
     }
-    useQuestoesStore.getState().salvar(id);
-    return { success: true };
+    return { success: true, saved: localResult.saved };
+  },
+  async adicionarAoCaderno(id) {
+    const localResult = useQuestoesStore.getState().addCaderno(id);
+    if (isSupabaseConfigured) {
+      try {
+        const userId = await getCurrentUserId();
+        if (userId) await upsertCadernoSupabase({ userId, questaoId: id });
+      } catch (error) {
+        console.warn("Falha ao sincronizar caderno de erros no Supabase.", error);
+      }
+    }
+    return { success: true, added: localResult.added };
+  },
+  async removerDoCaderno(id) {
+    const localResult = useQuestoesStore.getState().removerCaderno(id);
+    if (isSupabaseConfigured) {
+      try {
+        const userId = await getCurrentUserId();
+        if (userId) await removeCadernoSupabase({ userId, questaoId: id });
+      } catch (error) {
+        console.warn("Falha ao remover questao do caderno no Supabase.", error);
+      }
+    }
+    return { success: true, removed: localResult.removed };
   },
   async reportar() {
     return { success: true };
