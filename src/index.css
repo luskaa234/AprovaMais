@@ -13641,3 +13641,68 @@ main {
 [data-theme="dark"] .native-bottom-sheet footer {
   background: linear-gradient(180deg, rgba(32, 43, 61, 0), var(--bg-card) 28%) !important;
 }
+
+/* Mobile button legibility: no vertical word breaking. */
+.aprova-btn-primary,
+.aprova-btn-secondary,
+.aprova-btn-outline,
+.aprova-btn-ghost,
+.aprova-btn-danger,
+button {
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
+
+.aprova-btn-primary,
+.aprova-btn-secondary,
+.aprova-btn-outline,
+.aprova-btn-danger {
+  white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+  .plano-header .flex.flex-wrap {
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    width: 100%;
+    gap: 0.5rem;
+  }
+
+  .plano-header .flex.flex-wrap > button {
+    width: 100%;
+    min-width: 0 !important;
+    padding-inline: 0.45rem !important;
+    font-size: 0.78rem !important;
+    white-space: nowrap !important;
+  }
+
+  .plano-header .flex.flex-wrap > button svg {
+    flex: 0 0 auto;
+  }
+
+  .plano-view-tabs {
+    flex-wrap: nowrap !important;
+    overflow-x: auto;
+    padding-bottom: 0.15rem;
+  }
+
+  .plano-view-tabs button {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+
+  .native-bottom-sheet footer,
+  .question-mobile-filters .grid,
+  .leis-reader-actions,
+  .leis-study-actions {
+    gap: 0.55rem;
+  }
+
+  .native-bottom-sheet footer .aprova-btn-primary,
+  .native-bottom-sheet footer .aprova-btn-secondary,
+  .question-mobile-filters .aprova-btn-primary,
+  .question-mobile-filters .aprova-btn-secondary {
+    min-width: 0;
+    white-space: nowrap;
+  }
+}
