@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { CalendarDays, CheckCircle2, ChevronLeft, ChevronRight, Filter, MoreVertical, Plus, RotateCcw, Target, TrendingUp } from "lucide-react";
+import { CalendarDays, CheckCircle2, ChevronLeft, ChevronRight, Clock, Filter, MoreVertical, Plus, RotateCcw, Target, TrendingUp } from "lucide-react";
 import { Badge, Button, Input, Select, cx } from "../../components";
 import { Modal } from "../../modals";
 import { useAsyncData } from "../../hooks";
@@ -59,6 +59,16 @@ function typeBadge(type) {
   if (type === "Revisao") return "neutral";
   if (type === "Descanso") return "neutral";
   return "success";
+}
+
+function statusTone(status) {
+  const tones = {
+    Concluida: "border-emerald-200 bg-emerald-50 text-emerald-700",
+    "Em andamento": "border-blue-200 bg-blue-50 text-blue-700",
+    Reagendada: "border-amber-200 bg-amber-50 text-amber-700",
+    Pendente: "border-slate-200 bg-slate-100 text-slate-600",
+  };
+  return tones[status] || tones.Pendente;
 }
 
 function buildMonthGrid(currentMonth) {
@@ -131,25 +141,37 @@ function readStorage(key, fallback) {
 
 function ActivityRow({ activity, onStatus }) {
   return (
-    <div className="grid gap-3 border-b border-slate-100 px-4 py-3 last:border-b-0 md:grid-cols-[86px_1fr_120px_92px_40px] md:items-center">
-      <div className="text-sm font-semibold text-slate-700">
-        <span className="block">{activity.hour}</span>
-        <span className="text-xs font-normal text-slate-400">{activity.duration} min</span>
-      </div>
-      <div className="min-w-0">
-        <div className="flex flex-wrap items-center gap-2">
-          <span className={cx("size-2 rounded-full", typeTone(activity.type))} />
-          <h3 className="truncate font-bold text-slate-950">{activity.title}</h3>
+    <div className="rounded-lg border border-slate-100 bg-white p-3 shadow-sm transition hover:border-blue-200 hover:shadow-md">
+      <div className="grid gap-3 md:grid-cols-[92px_minmax(0,1fr)_auto] md:items-center">
+        <div className="rounded-lg border border-blue-100 bg-blue-50 px-3 py-2 text-blue-800">
+          <span className="block text-lg font-black leading-none">{activity.hour}</span>
+          <span className="mt-1 flex items-center gap-1 text-xs font-semibold text-blue-500"><Clock size={13} />{activity.duration} min</span>
         </div>
-        <p className="mt-1 text-sm text-slate-500">{activity.materia} · {activity.concurso}</p>
-      </div>
-      <Badge variant={typeBadge(activity.type)}>{activity.type}</Badge>
-      <span className={cx("rounded-full px-2 py-1 text-xs font-bold", activity.status === "Concluida" ? "bg-emerald-50 text-emerald-700" : activity.status === "Em andamento" ? "bg-blue-50 text-blue-700" : activity.status === "Reagendada" ? "bg-amber-50 text-amber-700" : "bg-slate-100 text-slate-600")}>{activity.status}</span>
-      <div className="flex gap-1">
-        <button className="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-700" onClick={() => onStatus(activity.id, activity.status === "Concluida" ? "Reagendada" : "Concluida")} type="button">
-          {activity.status === "Concluida" ? <RotateCcw size={16} /> : <CheckCircle2 size={16} />}
-        </button>
-        <button className="rounded-lg p-2 text-slate-400 hover:bg-slate-100 hover:text-slate-700" onClick={() => onStatus(activity.id, activity.status === "Em andamento" ? "Pendente" : "Em andamento")} type="button"><MoreVertical size={16} /></button>
+
+        <div className="min-w-0">
+          <div className="flex flex-wrap items-center gap-2">
+            <span className={cx("size-2.5 shrink-0 rounded-full", typeTone(activity.type))} />
+            <h3 className="truncate text-base font-black text-slate-950">{activity.title}</h3>
+          </div>
+          <p className="mt-1 text-sm text-slate-500">{activity.materia} - {activity.concurso}</p>
+          <div className="mt-3 flex flex-wrap gap-2 md:hidden">
+            <Badge variant={typeBadge(activity.type)}>{activity.type}</Badge>
+            <span className={cx("inline-flex min-h-7 items-center rounded-full border px-3 text-xs font-bold", statusTone(activity.status))}>{activity.status}</span>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap items-center gap-2 md:justify-end">
+          <div className="hidden flex-wrap items-center gap-2 md:flex">
+            <Badge variant={typeBadge(activity.type)}>{activity.type}</Badge>
+            <span className={cx("inline-flex min-h-8 min-w-28 items-center justify-center rounded-full border px-3 text-xs font-bold", statusTone(activity.status))}>{activity.status}</span>
+          </div>
+          <div className="flex rounded-lg border border-slate-100 bg-slate-50 p-1">
+            <button className="rounded-md p-2 text-slate-500 transition hover:bg-white hover:text-emerald-600" title={activity.status === "Concluida" ? "Reagendar" : "Concluir"} onClick={() => onStatus(activity.id, activity.status === "Concluida" ? "Reagendada" : "Concluida")} type="button">
+              {activity.status === "Concluida" ? <RotateCcw size={16} /> : <CheckCircle2 size={16} />}
+            </button>
+            <button className="rounded-md p-2 text-slate-500 transition hover:bg-white hover:text-blue-600" title="Alternar andamento" onClick={() => onStatus(activity.id, activity.status === "Em andamento" ? "Pendente" : "Em andamento")} type="button"><MoreVertical size={16} /></button>
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -183,6 +205,7 @@ export default function PlanoPage() {
   const filteredActivities = useMemo(() => applyFilters(activities, filters), [activities, filters]);
   const monthDays = useMemo(() => buildMonthGrid(month), [month]);
   const selectedActivities = useMemo(() => filteredActivities.filter((item) => item.date === selectedDate), [filteredActivities, selectedDate]);
+  const selectedMinutes = selectedActivities.reduce((sum, item) => sum + item.duration, 0);
   const materias = useMemo(() => [...new Set(activities.map((item) => item.materia).filter(Boolean))], [activities]);
   const weekActivities = useMemo(() => {
     const selected = new Date(selectedDate);
@@ -332,15 +355,25 @@ export default function PlanoPage() {
             )}
           </section>
 
-          <section className="rounded-lg border border-blue-100 bg-white shadow-sm">
-            <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-100 px-4 py-3">
-              <div>
-                <h2 className="font-black text-slate-950">{formatDate(new Date(selectedDate), { weekday: "long", day: "2-digit", month: "long" })}</h2>
-                <p className="text-sm text-slate-500">Atividades do dia selecionado</p>
+          <section className="overflow-hidden rounded-lg border border-blue-100 bg-white shadow-sm">
+            <div className="flex flex-wrap items-center justify-between gap-3 border-b border-blue-100 bg-gradient-to-r from-slate-50 to-blue-50/70 px-4 py-4">
+              <div className="min-w-0">
+                <h2 className="text-lg font-black capitalize text-slate-950">{formatDate(new Date(selectedDate), { weekday: "long", day: "2-digit", month: "long" })}</h2>
+                <div className="mt-1 flex flex-wrap gap-2 text-sm text-slate-500">
+                  <span>{selectedActivities.length} atividade{selectedActivities.length === 1 ? "" : "s"}</span>
+                  <span className="text-slate-300">|</span>
+                  <span>{Math.floor(selectedMinutes / 60)}h {selectedMinutes % 60}min planejados</span>
+                </div>
               </div>
-              <Button size="sm" variant="ghost" icon={Plus} onClick={() => setModal(true)}>Adicionar atividade</Button>
+              <Button size="sm" variant="secondary" icon={Plus} onClick={() => setModal(true)}>Adicionar atividade</Button>
             </div>
-            {selectedActivities.length ? selectedActivities.map((activity) => <ActivityRow key={activity.id} activity={activity} onStatus={updateActivityStatus} />) : <div className="p-8 text-center text-sm text-slate-500">Nenhuma atividade para este dia com os filtros atuais.</div>}
+            {selectedActivities.length ? (
+              <div className="grid gap-3 bg-slate-50/60 p-3">
+                {selectedActivities.map((activity) => <ActivityRow key={activity.id} activity={activity} onStatus={updateActivityStatus} />)}
+              </div>
+            ) : (
+              <div className="p-8 text-center text-sm text-slate-500">Nenhuma atividade para este dia com os filtros atuais.</div>
+            )}
           </section>
 
           <section className="grid gap-4 rounded-lg border border-blue-100 bg-white p-4 shadow-sm md:grid-cols-5">
