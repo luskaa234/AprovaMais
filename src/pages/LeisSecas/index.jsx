@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { BookOpen, Bookmark, Brain, CheckCircle2, FileQuestion, Filter, Highlighter, Search, Sparkles, StickyNote } from "lucide-react";
+import { BookOpen, Bookmark, Brain, CheckCircle2, FileQuestion, Filter, Highlighter, Search, Sparkles } from "lucide-react";
 import { Badge, Button, Card, EmptyState, Input, Select, Textarea, cx } from "../../components";
 import { useInternalRouter, useNotifications } from "../../contexts";
 import { useAsyncData } from "../../hooks";
@@ -183,8 +183,8 @@ export default function LeisSecasPage() {
   if (isLoading) return <div className="h-96 animate-pulse rounded-lg bg-gray-900" />;
 
   return (
-    <div className="mx-auto max-w-[1680px] pb-10">
-      <div className="mb-5 grid gap-4 rounded-lg border border-gray-800 bg-gray-950/80 p-4 md:p-5 xl:grid-cols-[1fr_auto]">
+    <div className="mx-auto flex max-w-[1680px] flex-col gap-4 pb-10 xl:h-[calc(100vh-8.5rem)] xl:overflow-hidden xl:pb-0">
+      <div className="grid shrink-0 gap-4 rounded-lg border border-gray-800 bg-gray-950/80 p-4 md:p-5 xl:grid-cols-[1fr_auto]">
         <div className="min-w-0">
           <p className="text-xs font-semibold uppercase tracking-wide text-blue-300">Leis Secas</p>
           <h1 className="mt-1 text-3xl font-black text-white md:text-4xl">Leitor de lei seca</h1>
@@ -206,18 +206,18 @@ export default function LeisSecasPage() {
         <Button className="md:hidden" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{activeFilterCount ? ` - ${activeFilterCount}` : ""}</Button>
       </div>
 
-      <Card hover={false} className="mb-4 hidden md:block">
+      <Card hover={false} className="hidden shrink-0 md:block">
         {filtersContent}
       </Card>
 
-      <div className="grid gap-4 2xl:grid-cols-[360px_minmax(0,1fr)_330px]">
-        <aside className="space-y-4 2xl:sticky 2xl:top-4 2xl:self-start">
-          <Card hover={false} className="p-0">
+      <div className="grid min-h-0 flex-1 gap-4 xl:grid-cols-[340px_minmax(0,1fr)_320px] xl:overflow-hidden 2xl:grid-cols-[360px_minmax(0,1fr)_330px]">
+        <aside className="min-h-0 space-y-4 xl:flex xl:h-full xl:flex-col xl:gap-4 xl:space-y-0 xl:overflow-hidden">
+          <Card hover={false} className="p-0 xl:flex xl:h-[34%] xl:min-h-0 xl:flex-col">
             <div className="border-b border-gray-800 p-4">
               <div className="flex items-center gap-2 text-base font-bold text-white"><BookOpen size={18} /> Normas</div>
               <p className="mt-1 text-xs text-gray-500">{filteredNormas.length} itens encontrados</p>
             </div>
-            <div className="max-h-[280px] space-y-2 overflow-y-auto p-3 pr-2 2xl:max-h-[330px]">
+            <div className="max-h-[280px] space-y-2 overflow-y-auto p-3 pr-2 xl:min-h-0 xl:flex-1 xl:max-h-none">
               {filteredNormas.map((lei) => (
                 <button key={lei.id} onClick={() => { setActiveLeiId(lei.id); setActiveArticleId(""); }} className={cx("w-full rounded-lg border p-3 text-left transition", activeLei?.id === lei.id ? "border-blue-500 bg-blue-600 text-white shadow-lg shadow-blue-950/30" : "border-gray-800 bg-gray-900 text-gray-300 hover:border-blue-400 hover:bg-gray-800")}>
                   <strong className="block text-sm leading-5">{lei.nome}</strong>
@@ -230,7 +230,7 @@ export default function LeisSecasPage() {
             </div>
           </Card>
 
-          <Card hover={false} className="p-0">
+          <Card hover={false} className="p-0 xl:flex xl:min-h-0 xl:flex-1 xl:flex-col">
             <div className="border-b border-gray-800 p-4">
               <div className="flex items-center justify-between gap-3">
                 <div>
@@ -241,7 +241,7 @@ export default function LeisSecasPage() {
               </div>
             </div>
             {articles.length ? (
-              <nav className="max-h-[430px] space-y-2 overflow-y-auto p-3 pr-2">
+              <nav className="max-h-[430px] space-y-2 overflow-y-auto p-3 pr-2 xl:min-h-0 xl:flex-1 xl:max-h-none">
                 {articles.map((artigo) => (
                   <button key={artigo.id} onClick={() => setActiveArticleId(artigo.id)} className={cx("w-full rounded-lg border p-3 text-left transition", activeArticle?.id === artigo.id ? "border-blue-500 bg-blue-600 text-white" : "border-gray-800 bg-gray-900 text-gray-300 hover:border-blue-400")}>
                     <span className="flex items-center justify-between gap-2">
@@ -261,8 +261,8 @@ export default function LeisSecasPage() {
           </Card>
         </aside>
 
-        <main className="min-w-0 rounded-lg border border-gray-800 bg-gray-950/75">
-          <div className="border-b border-gray-800 p-4 md:p-5">
+        <main className="min-w-0 rounded-lg border border-gray-800 bg-gray-950/75 xl:flex xl:h-full xl:min-h-0 xl:flex-col xl:overflow-hidden">
+          <div className="border-b border-gray-800 p-4 md:p-5 xl:shrink-0">
             <div className="flex flex-wrap items-start justify-between gap-4">
               <div className="min-w-0">
                 <p className="text-xs font-bold uppercase tracking-wide text-blue-300">{activeLei?.tipo} - {activeLei?.materia}</p>
@@ -278,7 +278,7 @@ export default function LeisSecasPage() {
           </div>
 
           {activeArticle ? (
-            <article className={cx("min-h-[680px] p-4 md:p-7 xl:p-9", grifos[activeArticle.id] && "bg-amber-500/5")}>
+            <article className={cx("min-h-[680px] p-4 md:p-7 xl:min-h-0 xl:flex-1 xl:overflow-y-auto xl:p-9", grifos[activeArticle.id] && "bg-amber-500/5")}>
               <div className="mb-6 rounded-lg border border-gray-800 bg-gray-900 p-4 md:p-5">
                 <div className="flex flex-wrap items-start justify-between gap-4">
                   <div>
@@ -299,17 +299,17 @@ export default function LeisSecasPage() {
               </div>
 
               <div className="mt-5 rounded-lg border border-gray-800 bg-gray-950 p-4">
-                <Textarea icon={StickyNote} label="Anotacao vinculada" value={notas[activeArticle.id] || ""} onChange={(event) => handleNote(activeArticle.id, event.target.value)} placeholder="Escreva uma observacao sobre este artigo" />
+                <Textarea label="Anotacao vinculada" value={notas[activeArticle.id] || ""} onChange={(event) => handleNote(activeArticle.id, event.target.value)} placeholder="Escreva uma observacao sobre este artigo" />
               </div>
             </article>
           ) : (
-            <div className="p-4">
+            <div className="p-4 xl:overflow-y-auto">
               <EmptyState icon={Search} title="Nenhum artigo parseado" description="Cole o texto oficial em texto.txt desta lei e rode npm run miner:leis." />
             </div>
           )}
         </main>
 
-        <aside className="space-y-4 2xl:sticky 2xl:top-4 2xl:self-start">
+        <aside className="min-h-0 space-y-4 xl:h-full xl:overflow-y-auto xl:pr-1">
           <Card hover={false}>
             <h2 className="mb-3 text-lg font-bold text-white">Estudar este artigo</h2>
             <div className="grid gap-2">
