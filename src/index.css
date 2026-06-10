@@ -5117,6 +5117,11 @@ main {
   }
 }
 
+.native-pull-indicator,
+.native-bottom-sheet-handle {
+  display: none;
+}
+
 @media (max-width: 767px) {
   .nav-toggle {
     display: grid;
@@ -8693,6 +8698,203 @@ main {
   }
 }
 
+@media (max-width: 767px) {
+  html {
+    height: 100%;
+    overscroll-behavior-y: none;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body,
+  #root {
+    min-height: 100%;
+    background: #f8fafc;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .internal-app,
+  .internal-app * {
+    touch-action: manipulation;
+  }
+
+  .internal-app {
+    min-height: 100svh;
+    padding-top: env(safe-area-inset-top);
+    background: #f8fafc;
+    overscroll-behavior-y: contain;
+  }
+
+  .internal-app header {
+    top: env(safe-area-inset-top);
+    transform: translateZ(0);
+    will-change: transform;
+  }
+
+  .internal-app main {
+    position: relative;
+    padding-bottom: calc(6.4rem + env(safe-area-inset-bottom)) !important;
+    transform: translateY(var(--pull-distance, 0));
+    transition: transform 180ms ease;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .internal-app main,
+  .internal-app .overflow-auto,
+  .internal-app .overflow-y-auto,
+  .internal-app .overflow-x-auto {
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .internal-app main::-webkit-scrollbar,
+  .internal-app .overflow-auto::-webkit-scrollbar,
+  .internal-app .overflow-y-auto::-webkit-scrollbar,
+  .internal-app .overflow-x-auto::-webkit-scrollbar {
+    display: none;
+  }
+
+  .internal-app input,
+  .internal-app select,
+  .internal-app textarea {
+    font-size: 16px !important;
+  }
+
+  .internal-app button,
+  .internal-app a,
+  .internal-app [role="button"],
+  .internal-app section,
+  .internal-app article {
+    transition: transform 140ms ease, box-shadow 180ms ease, background-color 180ms ease, color 180ms ease;
+  }
+
+  .internal-app button:active,
+  .internal-app a:active,
+  .internal-app [role="button"]:active,
+  .internal-app section:active,
+  .internal-app article:active,
+  .mobile-study-action:active,
+  .mobile-study-metric:active {
+    transform: scale(0.97);
+  }
+
+  .native-pull-indicator {
+    position: fixed;
+    top: calc(env(safe-area-inset-top) + 0.65rem);
+    left: 50%;
+    z-index: 60;
+    display: inline-flex;
+    min-height: 2.35rem;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0 0.85rem;
+    border: 1px solid rgba(203, 213, 225, 0.8);
+    border-radius: 999px;
+    color: #1e293b;
+    background: rgba(255, 255, 255, 0.94);
+    box-shadow: 0 16px 34px rgba(15, 23, 42, 0.14);
+    font-size: 0.75rem;
+    font-weight: 850;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -1rem) scale(0.96);
+    transition: opacity 160ms ease, transform 180ms ease;
+  }
+
+  .native-pull-indicator.is-visible {
+    opacity: 1;
+    transform: translate(-50%, 0) scale(1);
+  }
+
+  .native-pull-indicator span {
+    width: 0.82rem;
+    height: 0.82rem;
+    border: 2px solid #bfdbfe;
+    border-top-color: #2563eb;
+    border-radius: 999px;
+  }
+
+  .native-pull-indicator.is-refreshing span {
+    animation: nativeSpin 720ms linear infinite;
+  }
+
+  .native-modal-overlay {
+    align-items: end !important;
+    place-items: end center !important;
+    padding: 0 !important;
+  }
+
+  .native-bottom-sheet {
+    width: 100% !important;
+    max-width: none !important;
+    max-height: calc(92svh - env(safe-area-inset-top));
+    overflow-y: auto;
+    border-right: 0 !important;
+    border-bottom: 0 !important;
+    border-left: 0 !important;
+    border-radius: 1.35rem 1.35rem 0 0 !important;
+    padding: 0.7rem 1rem calc(1rem + env(safe-area-inset-bottom)) !important;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .native-bottom-sheet-handle {
+    display: block;
+    width: 2.6rem;
+    height: 0.28rem;
+    margin: 0 auto 0.8rem;
+    border-radius: 999px;
+    background: #cbd5e1;
+  }
+
+  .native-bottom-sheet footer {
+    position: sticky;
+    bottom: calc(-1rem - env(safe-area-inset-bottom));
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding: 0.75rem 1rem calc(0.75rem + env(safe-area-inset-bottom));
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0), #ffffff 28%);
+  }
+
+  .flashcard-swipe-card {
+    cursor: grab;
+    touch-action: pan-y;
+  }
+
+  .flashcard-swipe-card::before,
+  .flashcard-swipe-card::after {
+    display: block;
+    margin-bottom: 0.65rem;
+    border-radius: 999px;
+    padding: 0.32rem 0.75rem;
+    font-size: 0.72rem;
+    font-weight: 900;
+    line-height: 1;
+  }
+
+  .flashcard-swipe-card::before {
+    content: "← Errei";
+    float: left;
+    color: #b91c1c;
+    background: #fee2e2;
+  }
+
+  .flashcard-swipe-card::after {
+    content: "Acertei →";
+    float: right;
+    color: #047857;
+    background: #d1fae5;
+  }
+
+  @keyframes nativeSpin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+
 /* Mobile internal app experience */
 .mobile-study-home {
   display: grid;
@@ -9011,7 +9213,7 @@ main {
 .mobile-bottom-nav {
   position: fixed;
   right: 1.25rem;
-  bottom: calc(0.65rem + env(safe-area-inset-bottom));
+  bottom: calc(0.72rem + env(safe-area-inset-bottom));
   left: 1.25rem;
   z-index: 45;
   display: none;
@@ -9026,6 +9228,7 @@ main {
 }
 
 .mobile-bottom-nav button {
+  position: relative;
   display: grid;
   min-height: 3.25rem;
   place-items: center;
@@ -9034,12 +9237,26 @@ main {
   color: #64748b;
   font-size: 0.66rem;
   font-weight: 900;
+  overflow: hidden;
 }
 
 .mobile-bottom-nav button.is-active {
   color: #ffffff;
-  background: #2563eb;
+  background: transparent;
   box-shadow: 0 10px 24px rgba(37, 99, 235, 0.28);
+}
+
+.mobile-bottom-nav button svg,
+.mobile-bottom-nav button span {
+  position: relative;
+  z-index: 1;
+}
+
+.mobile-bottom-nav-pill {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: #2563eb;
 }
 
 .mobile-bottom-nav button.is-active svg {

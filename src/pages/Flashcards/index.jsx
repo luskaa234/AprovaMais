@@ -1,4 +1,4 @@
-import { useCallback, useDeferredValue, useMemo, useState } from "react";
+import { useCallback, useDeferredValue, useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { Search } from "lucide-react";
 import { Badge, Button, EmptyState, Input, cx } from "../../components";
@@ -109,6 +109,7 @@ export default function FlashcardsPage() {
   const [showAnswer, setShowAnswer] = useState(false);
   const [studentAnswer, setStudentAnswer] = useState("");
   const [shuffleSeed, setShuffleSeed] = useState(() => Date.now() + Math.floor(Math.random() * 100000));
+  const [isMobile, setIsMobile] = useState(() => typeof window !== "undefined" && window.matchMedia("(max-width: 767px)").matches);
 
   const baseCards = useMemo(() => decks.flatMap((deck, deckIndex) => (deck.cards || []).map((card, cardIndex) => normalizeCard(deck, card, deckIndex, cardIndex))), [decks]);
   const cards = useMemo(() => shuffleCards(baseCards, shuffleSeed).map((card) => ({ ...card, ...(overrides[card.id] || {}) })), [baseCards, overrides, shuffleSeed]);
@@ -121,6 +122,14 @@ export default function FlashcardsPage() {
   const activeIndex = activeCard ? filtered.findIndex((card) => card.id === activeCard.id) : -1;
   const cardPosition = activeIndex >= 0 ? activeIndex + 1 : 0;
   const answerFeedback = activeCard ? getAnswerFeedback(activeCard, studentAnswer) : null;
+
+  useEffect(() => {
+    const media = window.matchMedia("(max-width: 767px)");
+    const update = () => setIsMobile(media.matches);
+    update();
+    media.addEventListener("change", update);
+    return () => media.removeEventListener("change", update);
+  }, []);
 
   const notify = useCallback((title, message) => addNotification({ type: "success", title, message }), [addNotification]);
   const review = useCallback((card, label, days, quality) => {
@@ -153,6 +162,17 @@ export default function FlashcardsPage() {
     setStudentAnswer("");
   }, []);
 
+  const handleSwipeReview = useCallback((_, info) => {
+    if (!isMobile || !activeCard) return;
+    if (info.offset.x > 120) {
+      review(activeCard, "Acertei", 5, 5);
+      return;
+    }
+    if (info.offset.x < -120) {
+      review(activeCard, "Errei", 0, 0);
+    }
+  }, [activeCard, isMobile, review]);
+
   return (
     <div className="mx-auto max-w-[1500px] pb-10 text-slate-900">
       <div className="mb-5 flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
@@ -176,9 +196,14 @@ export default function FlashcardsPage() {
                 <motion.div
                   key={showAnswer ? "verso" : "frente"}
                   animate={{ opacity: 1, y: 0 }}
-                  className="rounded-lg bg-white px-2 py-4"
+                  className="flashcard-swipe-card rounded-lg bg-white px-2 py-4"
+                  drag={isMobile ? "x" : false}
+                  dragConstraints={{ left: 0, right: 0 }}
+                  dragElastic={0.24}
                   initial={{ opacity: 0, y: 8 }}
+                  onDragEnd={handleSwipeReview}
                   transition={{ duration: 0.22, ease: "easeOut" }}
+                  whileDrag={isMobile ? { scale: 0.985 } : undefined}
                 >
                   {!showAnswer ? (
                     <div>

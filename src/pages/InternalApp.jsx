@@ -1,4 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
+import { useEffect, useMemo, useState } from "react";
 import Onboarding from "./Onboarding";
 import { InternalRouterProvider, useInternalRouter, useUser } from "../contexts";
 import { AppShell } from "../layouts";
@@ -47,12 +48,40 @@ function isOabFocus(user) {
 }
 
 function InternalRoutes() {
-  const { route } = useInternalRouter();
+  const { route, direction } = useInternalRouter();
   const { isLoading, user } = useUser();
+  const [isMobile, setIsMobile] = useState(() => typeof window !== "undefined" && window.matchMedia("(max-width: 767px)").matches);
+  const [refreshToken, setRefreshToken] = useState(0);
   const View =
     (route === "oab" && !isOabFocus(user)) || route === "militar"
       ? DashboardPage
       : views[route] || DashboardPage;
+
+  useEffect(() => {
+    const media = window.matchMedia("(max-width: 767px)");
+    const update = () => setIsMobile(media.matches);
+    update();
+    media.addEventListener("change", update);
+    return () => media.removeEventListener("change", update);
+  }, []);
+
+  const pageMotion = useMemo(() => {
+    if (!isMobile) {
+      return {
+        initial: { opacity: 0, y: 12 },
+        animate: { opacity: 1, y: 0 },
+        exit: { opacity: 0, y: -8 },
+        transition: { duration: 0.22 },
+      };
+    }
+    const offset = direction === "back" ? -34 : 34;
+    return {
+      initial: { opacity: 0, x: offset },
+      animate: { opacity: 1, x: 0 },
+      exit: { opacity: 0, x: -offset },
+      transition: { duration: 0.24, ease: [0.22, 1, 0.36, 1] },
+    };
+  }, [direction, isMobile]);
 
   if (isLoading) {
     return (
@@ -70,9 +99,9 @@ function InternalRoutes() {
   }
 
   return (
-    <AppShell>
+    <AppShell onMobileRefresh={() => setRefreshToken((value) => value + 1)}>
       <AnimatePresence mode="wait">
-        <motion.div key={route} initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -8 }} transition={{ duration: 0.22 }}>
+        <motion.div key={`${route}-${refreshToken}`} {...pageMotion}>
           <View />
         </motion.div>
       </AnimatePresence>

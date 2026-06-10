@@ -1,13 +1,16 @@
 {
   "name": "Aprova+",
   "short_name": "Aprova+",
-  "description": "Plataforma de estudos para concursos com plano, questões, simulados e revisões.",
+  "description": "Plataforma de estudos para concursos com plano, questoes, simulados e revisoes.",
+  "id": "/",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
   "background_color": "#ffffff",
   "theme_color": "#2563eb",
   "orientation": "portrait-primary",
+  "categories": ["education", "productivity"],
   "icons": [
     {
       "src": "/pwa/pwa-192.png",
@@ -26,6 +29,14 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/mobile-site.svg",
+      "sizes": "390x844",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
     }
   ]
 }

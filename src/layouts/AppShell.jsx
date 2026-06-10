@@ -239,10 +239,11 @@ const BottomNav = memo(() => {
       {items.map(({ key, label, icon: Icon }) => {
         const active = route === key;
         return (
-          <button className={cx(active && "is-active")} key={key} onClick={() => navigate(key)} type="button">
+          <motion.button className={cx(active && "is-active")} key={key} onClick={() => navigate(key)} type="button" whileTap={{ scale: 0.94 }}>
+            {active ? <motion.i className="mobile-bottom-nav-pill" layoutId="mobile-bottom-nav-pill" transition={{ type: "spring", damping: 24, stiffness: 420 }} /> : null}
             <Icon size={20} strokeWidth={active ? 2.4 : 2} />
             <span>{label.split(" ")[0]}</span>
-          </button>
+          </motion.button>
         );
       })}
     </nav>
@@ -250,10 +251,63 @@ const BottomNav = memo(() => {
 });
 BottomNav.displayName = "BottomNav";
 
-export const AppShell = memo(({ children }) => {
+const refreshRoutes = new Set(["dashboard", "questoes"]);
+
+export const AppShell = memo(({ children, onMobileRefresh }) => {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [pullDistance, setPullDistance] = useState(0);
+  const [refreshing, setRefreshing] = useState(false);
   const closeMobile = useCallback(() => setMobileOpen(false), []);
   const openMobile = useCallback(() => setMobileOpen(true), []);
+  const { route, canGoBack, goBack } = useInternalRouter();
+  const touchRef = useRef({ x: 0, y: 0, pulling: false, edge: false });
+
+  const resetPull = useCallback(() => {
+    window.setTimeout(() => setPullDistance(0), 180);
+  }, []);
+
+  const handleTouchStart = useCallback((event) => {
+    if (window.innerWidth >= 768) return;
+    const touch = event.touches[0];
+    touchRef.current = {
+      x: touch.clientX,
+      y: touch.clientY,
+      pulling: refreshRoutes.has(route) && window.scrollY <= 2,
+      edge: touch.clientX <= 24,
+    };
+  }, [route]);
+
+  const handleTouchMove = useCallback((event) => {
+    if (window.innerWidth >= 768) return;
+    const touch = event.touches[0];
+    const deltaY = touch.clientY - touchRef.current.y;
+    const deltaX = touch.clientX - touchRef.current.x;
+    if (touchRef.current.pulling && deltaY > 0 && Math.abs(deltaY) > Math.abs(deltaX)) {
+      setPullDistance(Math.min(96, deltaY * 0.48));
+    }
+  }, []);
+
+  const handleTouchEnd = useCallback((event) => {
+    if (window.innerWidth >= 768) return;
+    const touch = event.changedTouches[0];
+    const deltaX = touch.clientX - touchRef.current.x;
+    const deltaY = touch.clientY - touchRef.current.y;
+    if (touchRef.current.edge && canGoBack && deltaX > 86 && Math.abs(deltaY) < 72) {
+      goBack();
+      setPullDistance(0);
+      return;
+    }
+    if (pullDistance > 68) {
+      setRefreshing(true);
+      onMobileRefresh?.();
+      window.setTimeout(() => {
+        setRefreshing(false);
+        resetPull();
+      }, 560);
+      return;
+    }
+    resetPull();
+  }, [canGoBack, goBack, onMobileRefresh, pullDistance, resetPull]);
 
   useEffect(() => {
     if (!mobileOpen) return undefined;
@@ -308,7 +362,17 @@ export const AppShell = memo(({ children }) => {
 
       <div className="lg:pl-20 xl:pl-72">
         <Topbar onMenu={openMobile} />
-        <main className="min-h-[calc(100vh-73px)] bg-[radial-gradient(circle_at_top_right,#2563eb22,transparent_35rem)] p-3 sm:p-4 md:p-6">
+        <main
+          className="min-h-[calc(100vh-73px)] bg-[radial-gradient(circle_at_top_right,#2563eb22,transparent_35rem)] p-3 sm:p-4 md:p-6"
+          onTouchEnd={handleTouchEnd}
+          onTouchMove={handleTouchMove}
+          onTouchStart={handleTouchStart}
+          style={{ "--pull-distance": `${pullDistance}px` }}
+        >
+          <div className={cx("native-pull-indicator", (pullDistance > 8 || refreshing) && "is-visible", refreshing && "is-refreshing")}>
+            <span />
+            {refreshing ? "Atualizando" : "Puxe para atualizar"}
+          </div>
           {children}
         </main>
       </div>
