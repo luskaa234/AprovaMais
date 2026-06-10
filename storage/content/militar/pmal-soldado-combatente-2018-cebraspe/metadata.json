@@ -1,0 +1,26 @@
+{
+  "exame": "PMAL Soldado Combatente 2018",
+  "banca": "Cebraspe",
+  "ano": 2018,
+  "aplicada_em": "2018-09-30",
+  "cargo": "Soldado Combatente",
+  "total_questoes": 120,
+  "fonte": "Oficial militar",
+  "sourceUrl": "https://www.cebraspe.org.br/concursos/pm_al_18_soldado",
+  "gabarito": "definitivo",
+  "origem": "oficial_cebraspe",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "url": "https://cdn.cebraspe.org.br/concursos/pm_al_18_soldado/arquivos/MATRIZ_410_PMAL001__PAG_7.PDF",
+      "path": "storage/content/militar/pmal-soldado-combatente-2018-cebraspe/provas/pmal-soldado-combatente-2018-cebraspe-prova.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "url": "https://cdn.cebraspe.org.br/concursos/pm_al_18_soldado/arquivos/GAB_DEFINITIVO_410_PMAL001__PAG_7.PDF",
+      "path": "storage/content/militar/pmal-soldado-combatente-2018-cebraspe/gabaritos/pmal-soldado-combatente-2018-cebraspe-gabarito-definitivo.pdf"
+    }
+  ]
+}

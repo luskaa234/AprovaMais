@@ -137,5 +137,103 @@
     "provaPdf": "",
     "gabaritoPdf": "",
     "observacao": "Qconcursos confirma a prova, mas nao expos links diretos de PDF na pagina aberta. Inserir PDFs diretos ou caminhos locais."
+  },
+  {
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "totalQuestoes": 60,
+    "materiaPorNumero": [
+      { "inicio": 1, "fim": 13, "materia": "Portugues" },
+      { "inicio": 14, "fim": 21, "materia": "Matematica e Raciocinio Logico" },
+      { "inicio": 22, "fim": 33, "materia": "Historia, Geografia e Atualidades" },
+      { "inicio": 34, "fim": 40, "materia": "Informatica" },
+      { "inicio": 41, "fim": 47, "materia": "Legislacao PM e Direito Militar" },
+      { "inicio": 48, "fim": 60, "materia": "Nocoes de Direito" }
+    ],
+    "aplicadaEm": "2017-07-09",
+    "status": "ativo",
+    "fonteUrl": "https://nucepe.uespi.br/consultas/pm2017.php",
+    "provaPdf": "https://nucepe.uespi.br/consultas/downloads/prova_pm2017.pdf",
+    "gabaritoPdf": "https://nucepe.uespi.br/consultas/downloads/gabarito_pm2017.pdf",
+    "observacao": "Fonte oficial NUCEPE. Gabarito definitivo da prova escrita objetiva alterado apos recursos."
+  },
+  {
+    "orgao": "PM-PB",
+    "cargo": "Soldado PM Combatente",
+    "ano": 2023,
+    "banca": "IBFC",
+    "formato": "multipla_escolha",
+    "totalQuestoes": 80,
+    "materiaPorNumero": [
+      { "inicio": 1, "fim": 15, "materia": "Portugues" },
+      { "inicio": 16, "fim": 25, "materia": "Matematica e Raciocinio Logico" },
+      { "inicio": 26, "fim": 35, "materia": "Historia, Geografia e Atualidades" },
+      { "inicio": 36, "fim": 45, "materia": "Informatica" },
+      { "inicio": 46, "fim": 70, "materia": "Nocoes de Direito e Sociologia" },
+      { "inicio": 71, "fim": 80, "materia": "Lingua Estrangeira" }
+    ],
+    "aplicadaEm": "2023-10-29",
+    "status": "ativo",
+    "fonteUrl": "https://www.pciconcursos.com.br/provas/download/soldado-pm-combatente-policia-militar-pb-ibfc-2023",
+    "provaPdf": "https://arquivos.qconcursos.com/prova/arquivo_prova/98766/ibfc-2023-pm-pb-soldado-pm-combatente-prova.pdf",
+    "gabaritoPdf": "https://arquivos.qconcursos.com/prova/arquivo_gabarito/98766/ibfc-2023-pm-pb-soldado-pm-combatente-gabarito.pdf",
+    "observacao": "PCI registrado em fonteUrl; PDFs espelhados pelo Qconcursos. Gabarito oficial pos-recurso."
+  },
+  {
+    "orgao": "PMAL",
+    "cargo": "Soldado Combatente",
+    "ano": 2018,
+    "banca": "Cebraspe",
+    "formato": "certo_errado",
+    "totalQuestoes": 120,
+    "materiaPorNumero": [
+      { "inicio": 1, "fim": 50, "materia": "Conhecimentos Basicos" },
+      { "inicio": 51, "fim": 120, "materia": "Legislacao Especial, Penal e Processual Penal" }
+    ],
+    "aplicadaEm": "2018-09-30",
+    "status": "ativo",
+    "fonteUrl": "https://www.cebraspe.org.br/concursos/pm_al_18_soldado",
+    "provaPdf": "https://cdn.cebraspe.org.br/concursos/pm_al_18_soldado/arquivos/MATRIZ_410_PMAL001__PAG_7.PDF",
+    "gabaritoPdf": "https://cdn.cebraspe.org.br/concursos/pm_al_18_soldado/arquivos/GAB_DEFINITIVO_410_PMAL001__PAG_7.PDF",
+    "observacao": "Fonte oficial Cebraspe. Entrada substitui a sugestao PCI PM-AL/2019 porque o par oficial direto localizado e PM_AL_18_SOLDADO, aplicado em 30/09/2018, com gabarito definitivo."
+  },
+  {
+    "orgao": "PMMG",
+    "cargo": "Soldado",
+    "ano": 2024,
+    "banca": "PM-MG",
+    "formato": "multipla_escolha",
+    "totalQuestoes": 50,
+    "status": "pendente_gabarito_definitivo",
+    "fonteUrl": "https://arquivos.qconcursos.com/prova/arquivo_prova/121468/pm-mg-2024-pm-mg-soldado-prova.pdf",
+    "provaPdf": "https://arquivos.qconcursos.com/prova/arquivo_prova/121468/pm-mg-2024-pm-mg-soldado-prova.pdf",
+    "gabaritoPdf": "",
+    "observacao": "Prova direta localizada. O PDF de gabarito encontrado no Qconcursos esta marcado como GABARITO PRELIMINAR; manter pendente ate localizar gabarito definitivo."
+  },
+  {
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "totalQuestoes": 60,
+    "materiaPorNumero": [
+      { "inicio": 1, "fim": 10, "materia": "Portugues" },
+      { "inicio": 11, "fim": 20, "materia": "Matematica e Raciocinio Logico" },
+      { "inicio": 21, "fim": 28, "materia": "Informatica" },
+      { "inicio": 29, "fim": 35, "materia": "Atualidades" },
+      { "inicio": 36, "fim": 45, "materia": "Nocoes de Direito" },
+      { "inicio": 46, "fim": 53, "materia": "Historia, Geografia e Atualidades" },
+      { "inicio": 54, "fim": 60, "materia": "Legislacao PM e Direito Militar" }
+    ],
+    "aplicadaEm": "2025-01-19",
+    "status": "ativo",
+    "fonteUrl": "https://www.pciconcursos.com.br/provas/download/soldado-pm-3-classe-combatente-policia-militar-se-selecon-2025",
+    "provaPdf": "https://arquivos.qconcursos.com/prova/arquivo_prova/128295/selecon-2025-pm-se-soldado-pm-3-classe-combatente-prova.pdf",
+    "gabaritoPdf": "https://arquivos.qconcursos.com/prova/arquivo_gabarito/128295/selecon-2025-pm-se-soldado-pm-3-classe-combatente-gabarito.pdf",
+    "observacao": "PCI registrado em fonteUrl; PDFs espelhados pelo Qconcursos. Gabarito oficial com questoes anuladas marcadas como X."
   }
 ]

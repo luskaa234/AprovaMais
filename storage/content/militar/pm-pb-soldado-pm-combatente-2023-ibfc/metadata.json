@@ -1,0 +1,26 @@
+{
+  "exame": "PM-PB Soldado PM Combatente 2023",
+  "banca": "IBFC",
+  "ano": 2023,
+  "aplicada_em": "2023-10-29",
+  "cargo": "Soldado PM Combatente",
+  "total_questoes": 80,
+  "fonte": "Oficial militar",
+  "sourceUrl": "https://www.pciconcursos.com.br/provas/download/soldado-pm-combatente-policia-militar-pb-ibfc-2023",
+  "gabarito": "definitivo",
+  "origem": "oficial_ibfc",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "url": "https://arquivos.qconcursos.com/prova/arquivo_prova/98766/ibfc-2023-pm-pb-soldado-pm-combatente-prova.pdf",
+      "path": "storage/content/militar/pm-pb-soldado-pm-combatente-2023-ibfc/provas/pm-pb-soldado-pm-combatente-2023-ibfc-prova.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "url": "https://arquivos.qconcursos.com/prova/arquivo_gabarito/98766/ibfc-2023-pm-pb-soldado-pm-combatente-gabarito.pdf",
+      "path": "storage/content/militar/pm-pb-soldado-pm-combatente-2023-ibfc/gabaritos/pm-pb-soldado-pm-combatente-2023-ibfc-gabarito-definitivo.pdf"
+    }
+  ]
+}

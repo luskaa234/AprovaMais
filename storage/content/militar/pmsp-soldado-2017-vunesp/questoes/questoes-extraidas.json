@@ -911,15 +911,15 @@
     "formato": "multipla_escolha",
     "numero": 27,
     "materia": "Portugues",
-    "enunciado": "Uma loja colocou 80 camisetas em promoção, algumas do modelo A e todas as restantes do modelo B. Nessa promoção, cada camiseta do modelo A está sendo vendi- da a R$ 40,00 e cada camiseta do modelo B a R$ 32,00. Sabendo que o valor arrecadado com a venda das 80 camisetas foi R$ 2.840,00, o número de camisetas do modelo A vendidas foi",
+    "enunciado": "Uma loja colocou 80 camisetas em promoção, algumas do modelo A e todas as restantes do modelo",
     "alternativas": [
       {
-        "letra": "A",
-        "texto": "40."
+        "letra": "B",
+        "texto": "Nessa promoção, cada camiseta do modelo A está sendo vendi- da a R$ 40,00 e cada camiseta do modelo B a R$ 32,00. Sabendo que o valor arrecadado com a venda das 80 camisetas foi R$ 2.840,00, o número de camisetas do modelo A vendidas foi"
       },
       {
-        "letra": "B",
-        "texto": "30."
+        "letra": "A",
+        "texto": "40. (B) 30."
       },
       {
         "letra": "C",

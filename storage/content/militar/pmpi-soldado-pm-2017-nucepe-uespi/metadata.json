@@ -1,0 +1,26 @@
+{
+  "exame": "PMPI Soldado PM 2017",
+  "banca": "NUCEPE/UESPI",
+  "ano": 2017,
+  "aplicada_em": "2017-07-09",
+  "cargo": "Soldado PM",
+  "total_questoes": 60,
+  "fonte": "Oficial militar",
+  "sourceUrl": "https://nucepe.uespi.br/consultas/pm2017.php",
+  "gabarito": "definitivo",
+  "origem": "oficial_nucepe-uespi",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "url": "https://nucepe.uespi.br/consultas/downloads/prova_pm2017.pdf",
+      "path": "storage/content/militar/pmpi-soldado-pm-2017-nucepe-uespi/provas/pmpi-soldado-pm-2017-nucepe-uespi-prova.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "url": "https://nucepe.uespi.br/consultas/downloads/gabarito_pm2017.pdf",
+      "path": "storage/content/militar/pmpi-soldado-pm-2017-nucepe-uespi/gabaritos/pmpi-soldado-pm-2017-nucepe-uespi-gabarito-definitivo.pdf"
+    }
+  ]
+}

@@ -788,11 +788,11 @@
     "formato": "multipla_escolha",
     "numero": 20,
     "materia": "Conhecimentos Gerais",
-    "enunciado": "“Para definir uma pequena cidade, o primeiro critério ainda é o demográfico, mas este critério é capaz apenas de identificar a faixa à qual a cidade pertence. Como regra geral, as pequenas cidades são cidades locais, com atuação restrita à sua pequena área de influência. Tomando como exemplo o Estado do Amazonas, no censo de 2000, das 62 cidades existentes, 10 tinham menos de 5 mil habitantes e 21, entre 5 a 10 mil habitantes.” (OLIVEIRA, José A. de A Cultura, as cidades e os rios na Amazônia. Ciência e Cultura. São Paulo. 2006) Sobre as pequenas cidades do Amazonas, as cidades-locais, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Os pequenos núcleos, que se emanciparam com fraca ou nenhuma infraestrutura, têm como base econômica o repasse de recursos públicos e as atividades terciárias ligadas aos serviços públicos. ( ) As pequenas cidades não apresentam atividades econômicas urbanas diversificadas, o que faz com que sua população se dedique às atividades tradicionais, como a pesca e o extrativismo. ( ) As cidades-locais, que seguiam o padrão de organização espacial rio-várzea-floresta, foram enfraquecidas economicamente devido à construção dos novos eixos de circulação que estruturaram uma nova espacialidade: rodovia-terra firme-solo/subsolo. As afirmativas são, na ordem apresentada, respectivamente,",
+    "enunciado": "“Para definir uma pequena cidade, o primeiro critério ainda é o demográfico, mas este critério é capaz apenas de identificar a faixa à qual a cidade pertence. Como regra geral, as pequenas cidades são cidades locais, com atuação restrita à sua pequena área de influência. Tomando como exemplo o Estado do Amazonas, no censo de 2000, das 62 cidades existentes, 10 tinham menos de 5 mil habitantes e 21, entre 5 a 10 mil habitantes.” (OLIVEIRA, José",
     "alternativas": [
       {
         "letra": "A",
-        "texto": "V – F – V."
+        "texto": "de A Cultura, as cidades e os rios na Amazônia. Ciência e Cultura. São Paulo. 2006) Sobre as pequenas cidades do Amazonas, as cidades-locais, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Os pequenos núcleos, que se emanciparam com fraca ou nenhuma infraestrutura, têm como base econômica o repasse de recursos públicos e as atividades terciárias ligadas aos serviços públicos. ( ) As pequenas cidades não apresentam atividades econômicas urbanas diversificadas, o que faz com que sua população se dedique às atividades tradicionais, como a pesca e o extrativismo. ( ) As cidades-locais, que seguiam o padrão de organização espacial rio-várzea-floresta, foram enfraquecidas economicamente devido à construção dos novos eixos de circulação que estruturaram uma nova espacialidade: rodovia-terra firme-solo/subsolo. As afirmativas são, na ordem apresentada, respectivamente, (A) V – F – V."
       },
       {
         "letra": "B",
@@ -829,8 +829,12 @@
     "formato": "multipla_escolha",
     "numero": 21,
     "materia": "Portugues",
-    "enunciado": "Em meados do séc. XVIII, no reinado de D. José I (1750-1777), seu principal ministro, o Marquês de Pombal, desenvolveu uma política que classificava os jesuítas como inimigos dos interesses da coroa portuguesa. Nesse contexto, os jesuítas eram acusados de",
+    "enunciado": "Em meados do séc. XVIII, no reinado de",
     "alternativas": [
+      {
+        "letra": "D",
+        "texto": "José I (1750-1777), seu principal ministro, o Marquês de Pombal, desenvolveu uma política que classificava os jesuítas como inimigos dos interesses da coroa portuguesa. Nesse contexto, os jesuítas eram acusados de"
+      },
       {
         "letra": "A",
         "texto": "aproveitarem-se de sua condição de missionários para controlar o trabalho dos índios, prejudicando os colonos."
@@ -841,11 +845,7 @@
       },
       {
         "letra": "C",
-        "texto": "promoverem a secularização da administração dos aldeamentos que concentravam índios não cristianizados."
-      },
-      {
-        "letra": "D",
-        "texto": "competirem com as companhias comerciais monopolistas lusas, sobretudo com a Companhia das Índias Orientais."
+        "texto": "promoverem a secularização da administração dos aldeamentos que concentravam índios não cristianizados. (D) competirem com as companhias comerciais monopolistas lusas, sobretudo com a Companhia das Índias Orientais."
       },
       {
         "letra": "E",

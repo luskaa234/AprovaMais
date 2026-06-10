@@ -128,5 +128,70 @@
     "anuladas": 0,
     "descartadas": 0,
     "motivo": "prova/gabarito definitivo ausente no manifesto"
+  },
+  {
+    "slug": "pmpi-soldado-pm-2017-nucepe-uespi",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "status": "ativo",
+    "extraidas": 51,
+    "validas": 49,
+    "anuladas": 2,
+    "descartadas": 9,
+    "motivo": "ok"
+  },
+  {
+    "slug": "pm-pb-soldado-pm-combatente-2023-ibfc",
+    "orgao": "PM-PB",
+    "cargo": "Soldado PM Combatente",
+    "ano": 2023,
+    "banca": "IBFC",
+    "status": "ativo",
+    "extraidas": 80,
+    "validas": 76,
+    "anuladas": 4,
+    "descartadas": 0,
+    "motivo": "ok"
+  },
+  {
+    "slug": "pmal-soldado-combatente-2018-cebraspe",
+    "orgao": "PMAL",
+    "cargo": "Soldado Combatente",
+    "ano": 2018,
+    "banca": "Cebraspe",
+    "status": "ativo",
+    "extraidas": 120,
+    "validas": 116,
+    "anuladas": 4,
+    "descartadas": 0,
+    "motivo": "ok"
+  },
+  {
+    "slug": "pmmg-soldado-2024-pm-mg",
+    "orgao": "PMMG",
+    "cargo": "Soldado",
+    "ano": 2024,
+    "banca": "PM-MG",
+    "status": "pendente_gabarito_definitivo",
+    "extraidas": 0,
+    "validas": 0,
+    "anuladas": 0,
+    "descartadas": 0,
+    "motivo": "prova/gabarito definitivo ausente no manifesto"
+  },
+  {
+    "slug": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "status": "ativo",
+    "extraidas": 60,
+    "validas": 58,
+    "anuladas": 2,
+    "descartadas": 0,
+    "motivo": "ok"
   }
 ]

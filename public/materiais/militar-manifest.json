@@ -58,5 +58,53 @@
     "banca": "FGV",
     "slug": "cbmam-soldado-bombeiro-militar-2021-fgv",
     "sourcePath": "storage/content/militar/cbmam-soldado-bombeiro-militar-2021-fgv"
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi",
+    "titulo": "PMPI Soldado PM 2017",
+    "tipo": "Prova militar oficial",
+    "categoria": "Multipla escolha",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "slug": "pmpi-soldado-pm-2017-nucepe-uespi",
+    "sourcePath": "storage/content/militar/pmpi-soldado-pm-2017-nucepe-uespi"
+  },
+  {
+    "id": "pm-pb-soldado-pm-combatente-2023-ibfc",
+    "titulo": "PM-PB Soldado PM Combatente 2023",
+    "tipo": "Prova militar oficial",
+    "categoria": "Multipla escolha",
+    "orgao": "PM-PB",
+    "cargo": "Soldado PM Combatente",
+    "ano": 2023,
+    "banca": "IBFC",
+    "slug": "pm-pb-soldado-pm-combatente-2023-ibfc",
+    "sourcePath": "storage/content/militar/pm-pb-soldado-pm-combatente-2023-ibfc"
+  },
+  {
+    "id": "pmal-soldado-combatente-2018-cebraspe",
+    "titulo": "PMAL Soldado Combatente 2018",
+    "tipo": "Prova militar oficial",
+    "categoria": "Certo/Errado",
+    "orgao": "PMAL",
+    "cargo": "Soldado Combatente",
+    "ano": 2018,
+    "banca": "Cebraspe",
+    "slug": "pmal-soldado-combatente-2018-cebraspe",
+    "sourcePath": "storage/content/militar/pmal-soldado-combatente-2018-cebraspe"
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon",
+    "titulo": "PM-SE Soldado PM - 3a Classe - Combatente 2025",
+    "tipo": "Prova militar oficial",
+    "categoria": "Multipla escolha",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "slug": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon",
+    "sourcePath": "storage/content/militar/pm-se-soldado-pm-3a-classe-combatente-2025-selecon"
   }
 ]

@@ -3,6 +3,7 @@ import axios from "axios";
 import * as cheerio from "cheerio";
 import { PDFParse } from "pdf-parse";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import https from "node:https";
 import path from "node:path";
 
 type ExamFormat = "multipla_escolha" | "certo_errado";
@@ -14,6 +15,7 @@ type ManifestEntry = {
   banca: string;
   formato?: ExamFormat;
   totalQuestoes?: number;
+  materiaPorNumero?: Array<{ inicio: number; fim: number; materia: string }>;
   aplicadaEm?: string;
   status?: string;
   fonteUrl?: string;
@@ -49,6 +51,7 @@ const MANIFEST_PATH = path.resolve(process.cwd(), "scripts", "content-miner", "m
 const PUBLIC_QUESTIONS_PATH = path.resolve(process.cwd(), "public", "questoes", "militar.json");
 const PUBLIC_MANIFEST_PATH = path.resolve(process.cwd(), "public", "materiais", "militar-manifest.json");
 const PUBLIC_REPORT_PATH = path.resolve(process.cwd(), "public", "questoes", "militar-extraction-report.json");
+const insecureNupeceAgent = new https.Agent({ rejectUnauthorized: false });
 
 function log(message: string) {
   console.log(`[Militar Miner] ${message}`);
@@ -97,7 +100,11 @@ async function downloadOrCopy(source: string, targetPath: string) {
       responseType: "arraybuffer",
       maxRedirects: 5,
       timeout: 60_000,
-      headers: { "User-Agent": "AprovaMilitarMiner/1.0" },
+      httpsAgent: source.includes("nucepe.uespi.br") ? insecureNupeceAgent : undefined,
+      headers: {
+        "User-Agent": "Mozilla/5.0 (compatible; AprovaMilitarMiner/1.0)",
+        Referer: new URL(source).origin,
+      },
     });
     const contentType = String(response.headers["content-type"] || "");
     const buffer = Buffer.from(response.data);
@@ -171,6 +178,14 @@ function parseAnswers(text: string, total = 0) {
     if (answer) map.set(number, answer);
   }
 
+  const tableRegex = /\b0?(\d{1,3})\b\s+(A|B|C|D|E|X|\*|Nula|Anulada)\b/gi;
+  for (const match of normalized.matchAll(tableRegex)) {
+    const number = Number(match[1]);
+    if (!number || (total && number > total)) continue;
+    const answer = normalizeAnswer(match[2]);
+    if (answer) map.set(number, answer);
+  }
+
   if (map.size >= Math.min(total || 20, 20)) return map;
 
   const compact = normalized.match(/\b[A-E*X]\b/g) || [];
@@ -184,7 +199,7 @@ function parseAnswers(text: string, total = 0) {
 function normalizeAnswer(value = "") {
   const raw = normalizeText(value);
   if (!raw) return "";
-  if (raw === "*" || raw === "x" || raw.includes("anulada")) return "anulada";
+  if (raw === "*" || raw === "x" || raw.includes("anulada") || raw.includes("nula")) return "anulada";
   if (raw.startsWith("certo")) return "c";
   if (raw.startsWith("errado")) return "e";
   return raw[0];
@@ -258,6 +273,11 @@ function detectMatter(text: string, fallback: string) {
   return fallback;
 }
 
+function matterForQuestion(entry: ManifestEntry, numero: number, fallback: string) {
+  const range = entry.materiaPorNumero?.find((item) => numero >= item.inicio && numero <= item.fim);
+  return range?.materia || fallback;
+}
+
 function detectFormat(entry: ManifestEntry, proofText: string): ExamFormat {
   if (entry.formato) return entry.formato;
   const normalized = normalizeText(proofText.slice(0, 10_000));
@@ -275,7 +295,7 @@ function extractMultipleChoice(entry: ManifestEntry, proofText: string, answers:
     if (seen.has(block.number)) continue;
     const answer = answers.get(block.number);
     if (!answer || answer === "anulada") continue;
-    currentMatter = detectMatter(block.body.slice(0, 350), currentMatter);
+    currentMatter = matterForQuestion(entry, block.number, detectMatter(block.body.slice(0, 350), currentMatter));
 
     if (format === "certo_errado") {
       const statement = cleanCebraspeStatement(block.body);
@@ -285,7 +305,7 @@ function extractMultipleChoice(entry: ManifestEntry, proofText: string, answers:
       continue;
     }
 
-    const markers = [...block.body.matchAll(/(?:^|\n|\s)(?:\(([A-E])\)|([A-E])\)|([A-E])\s*[-\u2012\u2013\u2014])\s+/g)];
+    const markers = [...block.body.matchAll(/(?:^|\n|\s)(?:\(([A-Ea-e])\)|([A-Ea-e])[\).]|([A-Ea-e])\s*[-\u2012\u2013\u2014])\s+/g)];
     const optionMarkers = markers.filter((marker, index, list) => {
       const letter = (marker[1] || marker[2] || marker[3] || "").toLowerCase();
       return letter && list.findIndex((item) => (item[1] || item[2] || item[3] || "").toLowerCase() === letter) === index;
@@ -495,7 +515,12 @@ async function main() {
   const totalValidas = report.reduce((sum, item) => sum + item.validas, 0);
   const totalAnuladas = report.reduce((sum, item) => sum + item.anuladas, 0);
   const totalDescartadas = report.reduce((sum, item) => sum + item.descartadas, 0);
+  const byMatter = questions.reduce((acc, question) => {
+    acc.set(question.materia, (acc.get(question.materia) || 0) + 1);
+    return acc;
+  }, new Map<string, number>());
   log(`Relatorio: ${totalValidas} validas, ${totalAnuladas} anuladas, ${totalDescartadas} descartadas`);
+  log(`Contagem por materia: ${[...byMatter.entries()].sort((a, b) => a[0].localeCompare(b[0])).map(([materia, count]) => `${materia}: ${count}`).join("; ")}`);
 }
 
 main().catch((error) => {
