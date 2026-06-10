@@ -13519,3 +13519,125 @@ main {
     padding-bottom: calc(22px + env(safe-area-inset-bottom));
   }
 }
+
+/* Final theme tokens and dark-mode readability pass. */
+:root {
+  --bg-app: #f5f8fc;
+  --bg-card: #ffffff;
+  --bg-card-soft: #f8fbff;
+  --text-1: #0f172a;
+  --text-2: #475569;
+  --text-3: #64748b;
+  --border-soft: #dbeafe;
+  --control-bg: #ffffff;
+}
+
+[data-theme="dark"] {
+  --bg-app: #172033;
+  --bg-card: #202b3d;
+  --bg-card-soft: #172033;
+  --text-1: #f8fafc;
+  --text-2: #d8e1ef;
+  --text-3: #aebbd0;
+  --border-soft: rgba(96, 165, 250, 0.28);
+  --control-bg: #172033;
+  color-scheme: dark;
+}
+
+.internal-app-light main,
+.plano-page,
+.taf-page,
+.review-center,
+.flashcards-study,
+.leis-study-page {
+  color: var(--text-1);
+}
+
+[data-theme="dark"] .internal-app-light main {
+  background: var(--bg-app) !important;
+  color: var(--text-1) !important;
+}
+
+[data-theme="dark"] .internal-app-light main section,
+[data-theme="dark"] .internal-app-light main article,
+[data-theme="dark"] .internal-app-light main aside > section,
+[data-theme="dark"] .internal-app-light main .aprova-card-default,
+[data-theme="dark"] .internal-app-light main .aprova-card-elevated,
+[data-theme="dark"] .internal-app-light main .aprova-card-bordered,
+[data-theme="dark"] .internal-app-light main .bg-white,
+[data-theme="dark"] .internal-app-light main .bg-slate-50,
+[data-theme="dark"] .internal-app-light main .bg-slate-100,
+[data-theme="dark"] .internal-app-light main .bg-blue-50,
+[data-theme="dark"] .native-bottom-sheet,
+[data-theme="dark"] .question-mobile-filters {
+  border-color: var(--border-soft) !important;
+  background-color: var(--bg-card) !important;
+  color: var(--text-1) !important;
+}
+
+[data-theme="dark"] .internal-app-light main h1,
+[data-theme="dark"] .internal-app-light main h2,
+[data-theme="dark"] .internal-app-light main h3,
+[data-theme="dark"] .internal-app-light main h4,
+[data-theme="dark"] .internal-app-light main strong,
+[data-theme="dark"] .internal-app-light main label,
+[data-theme="dark"] .internal-app-light main .text-slate-950,
+[data-theme="dark"] .internal-app-light main .text-slate-900,
+[data-theme="dark"] .internal-app-light main .text-gray-950,
+[data-theme="dark"] .native-bottom-sheet h2,
+[data-theme="dark"] .native-bottom-sheet label span,
+[data-theme="dark"] .native-bottom-sheet strong {
+  color: var(--text-1) !important;
+}
+
+[data-theme="dark"] .internal-app-light main p,
+[data-theme="dark"] .internal-app-light main small,
+[data-theme="dark"] .internal-app-light main .text-slate-400,
+[data-theme="dark"] .internal-app-light main .text-slate-500,
+[data-theme="dark"] .internal-app-light main .text-slate-600,
+[data-theme="dark"] .internal-app-light main .text-gray-300,
+[data-theme="dark"] .internal-app-light main .text-gray-400,
+[data-theme="dark"] .internal-app-light main .text-gray-500 {
+  color: var(--text-3) !important;
+}
+
+[data-theme="dark"] .internal-app-light main input,
+[data-theme="dark"] .internal-app-light main select,
+[data-theme="dark"] .internal-app-light main textarea,
+[data-theme="dark"] .native-bottom-sheet input,
+[data-theme="dark"] .native-bottom-sheet select,
+[data-theme="dark"] .native-bottom-sheet textarea {
+  border-color: var(--border-soft) !important;
+  background-color: var(--control-bg) !important;
+  color: var(--text-1) !important;
+}
+
+[data-theme="dark"] .internal-app-light main input::placeholder,
+[data-theme="dark"] .native-bottom-sheet input::placeholder,
+[data-theme="dark"] .native-bottom-sheet textarea::placeholder {
+  color: #8fa1ba !important;
+}
+
+[data-theme="dark"] .aprova-btn-secondary,
+[data-theme="dark"] .aprova-btn-outline,
+[data-theme="dark"] .internal-app-light main button.bg-white,
+[data-theme="dark"] .internal-app-light main button.bg-slate-50 {
+  border-color: var(--border-soft) !important;
+  background: var(--control-bg) !important;
+  color: #93c5fd !important;
+}
+
+[data-theme="dark"] .aprova-btn-ghost {
+  color: #93c5fd !important;
+}
+
+[data-theme="dark"] .plano-page [data-generated="true"],
+[data-theme="dark"] .plano-generated-block {
+  border-color: var(--border-soft) !important;
+  background: rgba(37, 99, 235, 0.12) !important;
+  color: var(--text-1) !important;
+}
+
+[data-theme="dark"] .native-bottom-sheet footer {
+  background: linear-gradient(180deg, rgba(32, 43, 61, 0), var(--bg-card) 28%) !important;
+}
