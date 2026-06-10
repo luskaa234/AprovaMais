@@ -1,15 +1,14 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { CalendarDays, CheckCircle2, ChevronLeft, ChevronRight, Clock, Filter, PauseCircle, PlayCircle, Plus, RotateCcw, Target, TrendingUp } from "lucide-react";
+import { CalendarDays, CheckCircle2, ChevronLeft, ChevronRight, Clock, Edit3, ExternalLink, Filter, PauseCircle, PlayCircle, Plus, RotateCcw, Target, Trash2, TrendingUp } from "lucide-react";
 import { Badge, Button, Input, Mascot, Select, cx } from "../../components";
-import { useUser } from "../../contexts";
+import { useInternalRouter, useNotifications, useUser } from "../../contexts";
 import { Modal } from "../../modals";
-import { useAsyncData } from "../../hooks";
 import { planoService } from "../../services";
 
-const views = ["Dia", "Semana", "Mes", "Agenda", "Cronograma"];
+const views = ["Dia", "Semana", "Mês", "Agenda"];
 const weekDays = ["DOM", "SEG", "TER", "QUA", "QUI", "SEX", "SAB"];
 const dayKeyByIndex = ["domingo", "segunda", "terca", "quarta", "quinta", "sexta", "sabado"];
-const typeOptions = ["Estudo", "Revisao", "Questoes", "Simulado", "Descanso"];
+const typeOptions = ["Questões", "Revisão", "Leitura", "Flashcards", "TAF", "Simulado"];
 const statusOptions = ["Pendente", "Em andamento", "Concluida", "Reagendada"];
 const contestOptions = ["PRF", "PM", "PF", "TJ", "Geral"];
 
@@ -38,17 +37,22 @@ function normalizeDayName(value = "") {
 function inferType(title = "", materia = "") {
   const text = `${title} ${materia}`.toLowerCase();
   if (text.includes("simulado")) return "Simulado";
-  if (text.includes("quest")) return "Questoes";
-  if (text.includes("revis")) return "Revisao";
-  if (text.includes("descanso")) return "Descanso";
-  return "Estudo";
+  if (text.includes("taf")) return "TAF";
+  if (text.includes("flash")) return "Flashcards";
+  if (text.includes("lei") || text.includes("leitura")) return "Leitura";
+  if (text.includes("quest")) return "Questões";
+  if (text.includes("revis")) return "Revisão";
+  return "Questões";
 }
 
 function typeTone(type) {
   const tones = {
     Estudo: "bg-blue-600",
-    Revisao: "bg-blue-400",
-    Questoes: "bg-sky-500",
+    Revisão: "bg-blue-400",
+    Questões: "bg-sky-500",
+    Leitura: "bg-indigo-500",
+    Flashcards: "bg-cyan-500",
+    TAF: "bg-emerald-500",
     Simulado: "bg-blue-800",
     Descanso: "bg-slate-400",
   };
@@ -56,8 +60,8 @@ function typeTone(type) {
 }
 
 function typeBadge(type) {
-  if (type === "Simulado" || type === "Questoes") return "info";
-  if (type === "Revisao") return "neutral";
+  if (type === "Simulado" || type === "Questões" || type === "TAF") return "info";
+  if (type === "Revisão" || type === "Leitura" || type === "Flashcards") return "neutral";
   if (type === "Descanso") return "neutral";
   return "info";
 }
@@ -154,7 +158,7 @@ function formatElapsed(totalSeconds = 0) {
   return [hours, minutes, rest].map((part) => String(part).padStart(2, "0")).join(":");
 }
 
-function ActivityRow({ activity, onStatus }) {
+function ActivityRow({ activity, onStatus, onOpen, onEdit, onDelete }) {
   const isDone = activity.status === "Concluida";
   const isRunning = activity.status === "Em andamento";
   const timerProgress = Math.min(100, Math.round((activity.elapsedSeconds / Math.max(1, activity.duration * 60)) * 100));
@@ -162,7 +166,15 @@ function ActivityRow({ activity, onStatus }) {
   return (
     <div data-generated={activity.generated ? "true" : undefined} className={cx("relative overflow-hidden rounded-lg border bg-white p-3 shadow-sm transition hover:shadow-md", isDone ? "border-emerald-100" : "border-slate-100 hover:border-blue-200")}>
       <span className={cx("absolute left-0 top-0 h-full w-1", typeTone(activity.type))} />
-      <div className="grid gap-3 pl-2 md:grid-cols-[96px_minmax(0,1fr)_auto] md:items-center">
+      <div className="grid gap-3 pl-2 md:grid-cols-[auto_96px_minmax(0,1fr)_auto] md:items-center">
+        <button
+          aria-label={isDone ? "Marcar como pendente" : "Marcar como concluida"}
+          className={cx("grid size-10 place-items-center rounded-lg border transition", isDone ? "border-emerald-200 bg-emerald-50 text-emerald-700" : "border-blue-100 bg-white text-slate-400 hover:text-blue-700")}
+          onClick={() => onStatus(activity.id, isDone ? "Pendente" : "Concluida")}
+          type="button"
+        >
+          <CheckCircle2 size={20} />
+        </button>
         <div className={cx("rounded-lg border px-3 py-2", isDone ? "border-emerald-100 bg-emerald-50 text-emerald-800" : "border-blue-100 bg-blue-50 text-blue-800")}>
           <span className="block text-xl font-black leading-none">{activity.hour}</span>
           <span className={cx("mt-1 flex items-center gap-1 text-xs font-semibold", isDone ? "text-emerald-600" : "text-blue-500")}><Clock size={13} />{activity.duration} min</span>
@@ -171,7 +183,9 @@ function ActivityRow({ activity, onStatus }) {
         <div className="min-w-0">
           <div className="flex flex-wrap items-center gap-2">
             <span className={cx("size-2.5 shrink-0 rounded-full", typeTone(activity.type))} />
-            <h3 className="truncate text-base font-black text-slate-950">{activity.title}</h3>
+            <button className="min-w-0 text-left" onClick={() => onOpen(activity)} type="button">
+              <h3 className="truncate text-base font-black text-slate-950">{activity.title}</h3>
+            </button>
           </div>
           <p className="mt-1 text-sm text-slate-500">{activity.materia} - {activity.concurso}</p>
           <div className="mt-3 max-w-sm">
@@ -205,6 +219,18 @@ function ActivityRow({ activity, onStatus }) {
               {isDone ? <RotateCcw size={15} /> : <CheckCircle2 size={15} />}
               {isDone ? "Reabrir" : "Concluir"}
             </button>
+            <button className="inline-flex min-h-9 items-center gap-1.5 rounded-lg border border-blue-100 bg-white px-3 text-xs font-bold text-blue-700 transition hover:bg-blue-50" onClick={() => onOpen(activity)} type="button">
+              <ExternalLink size={15} />
+              Abrir
+            </button>
+            <button className="inline-flex min-h-9 items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 text-xs font-bold text-slate-600 transition hover:bg-slate-50" onClick={() => onEdit(activity)} type="button">
+              <Edit3 size={15} />
+              Editar
+            </button>
+            <button className="inline-flex min-h-9 items-center gap-1.5 rounded-lg border border-red-100 bg-red-50 px-3 text-xs font-bold text-red-600 transition hover:bg-red-100" onClick={() => onDelete(activity.id)} type="button">
+              <Trash2 size={15} />
+              Excluir
+            </button>
           </div>
         </div>
       </div>
@@ -223,32 +249,32 @@ function MiniBar({ label, value, color }) {
 
 export default function PlanoPage() {
   const { user } = useUser();
-  const load = useCallback(() => planoService.getPlano(), []);
-  const { data: plano = [] } = useAsyncData(load);
+  const { navigate } = useInternalRouter();
+  const { addNotification } = useNotifications();
   const now = new Date();
-  const [view, setView] = useState(() => (typeof window !== "undefined" && window.innerWidth < 768 ? "Agenda" : "Mes"));
+  const [view, setView] = useState(() => (typeof window !== "undefined" && window.innerWidth < 768 ? "Agenda" : "Mês"));
   const [month, setMonth] = useState(new Date(now.getFullYear(), now.getMonth(), 1));
   const [selectedDate, setSelectedDate] = useState(isoDate(now));
   const [filters, setFilters] = useState({ materia: "", tipo: "", status: "", concurso: "", periodo: "" });
-  const [localStatus, setLocalStatus] = useState(() => readStorage("aprova-plano-status", {}));
   const [timers, setTimers] = useState(() => readStorage("aprova-plano-timers", {}));
   const [nowMs, setNowMs] = useState(() => Date.now());
-  const [extraActivities, setExtraActivities] = useState(() => readStorage("aprova-plano-atividades", []));
+  const [planActivities, setPlanActivities] = useState([]);
+  const [activitiesLoaded, setActivitiesLoaded] = useState(false);
   const [smartPlanGenerated, setSmartPlanGenerated] = useState(() => readStorage("aprova-plano-inteligente-gerado", false));
   const [modal, setModal] = useState(false);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
-  const [draft, setDraft] = useState({ title: "", materia: "", type: "Estudo", hour: "08:00", duration: 60, concurso: "PRF", status: "Pendente" });
+  const [editingId, setEditingId] = useState("");
+  const [draft, setDraft] = useState({ title: "", materia: "", type: "Questões", date: isoDate(now), hour: "08:00", duration: 60, concurso: user?.targetContest || "PM", status: "Pendente" });
 
-  const baseActivities = useMemo(() => buildActivities(plano, month, extraActivities), [extraActivities, month, plano]);
+  const baseActivities = useMemo(() => buildActivities([], month, planActivities), [month, planActivities]);
   const activities = useMemo(() => baseActivities.map((item) => {
     const timer = timers[item.id] || {};
     return {
       ...item,
-      status: localStatus[item.id] || item.status,
       elapsedSeconds: elapsedSeconds(timer, nowMs),
       timerStartedAt: timer.startedAt || null,
     };
-  }), [baseActivities, localStatus, nowMs, timers]);
+  }), [baseActivities, nowMs, timers]);
   const filteredActivities = useMemo(() => applyFilters(activities, filters), [activities, filters]);
   const monthDays = useMemo(() => buildMonthGrid(month), [month]);
   const selectedActivities = useMemo(() => filteredActivities.filter((item) => item.date === selectedDate), [filteredActivities, selectedDate]);
@@ -270,7 +296,6 @@ export default function PlanoPage() {
     if (view === "Dia") return selectedActivities;
     if (view === "Semana") return weekActivities;
     if (view === "Agenda") return filteredActivities.slice(0, 18);
-    if (view === "Cronograma") return filteredActivities.filter((item) => item.status !== "Concluida").slice(0, 18);
     return selectedActivities;
   }, [filteredActivities, selectedActivities, view, weekActivities]);
 
@@ -294,8 +319,17 @@ export default function PlanoPage() {
   );
 
   useEffect(() => {
-    localStorage.setItem("aprova-plano-status", JSON.stringify(localStatus));
-  }, [localStatus]);
+    let active = true;
+    planoService.getAtividades().then((items) => {
+      if (active) {
+        setPlanActivities(items);
+        setActivitiesLoaded(true);
+      }
+    });
+    return () => {
+      active = false;
+    };
+  }, []);
 
   useEffect(() => {
     localStorage.setItem("aprova-plano-timers", JSON.stringify(timers));
@@ -308,14 +342,10 @@ export default function PlanoPage() {
   }, [timers]);
 
   useEffect(() => {
-    localStorage.setItem("aprova-plano-atividades", JSON.stringify(extraActivities));
-  }, [extraActivities]);
-
-  useEffect(() => {
     localStorage.setItem("aprova-plano-inteligente-gerado", JSON.stringify(smartPlanGenerated));
   }, [smartPlanGenerated]);
 
-  const updateActivityStatus = useCallback((id, status) => {
+  const updateActivityStatus = useCallback(async (id, status) => {
     const now = Date.now();
     setTimers((current) => {
       const timer = current[id] || { elapsedSeconds: 0, startedAt: null };
@@ -331,47 +361,92 @@ export default function PlanoPage() {
 
       return current;
     });
-    setLocalStatus((current) => ({ ...current, [id]: status }));
+    setPlanActivities((current) => current.map((item) => item.id === id ? { ...item, status } : item));
     setNowMs(now);
-  }, []);
+    await planoService.atualizarAtividade(id, { status }).catch(() => {
+      addNotification({ type: "warning", title: "Plano salvo localmente", message: "Nao foi possivel sincronizar com o Supabase agora." });
+    });
+  }, [addNotification]);
   const goToday = useCallback(() => {
     const current = new Date();
     setMonth(new Date(current.getFullYear(), current.getMonth(), 1));
     setSelectedDate(isoDate(current));
   }, []);
-  const createActivity = () => {
-    setExtraActivities((current) => [{
-      id: `local-${Date.now()}`,
-      date: selectedDate,
-      hour: draft.hour,
-      title: draft.title || "Nova atividade",
+  const createActivity = async () => {
+    const payload = {
+      ...draft,
+      date: draft.date || selectedDate,
+      title: draft.title || `${draft.type} - ${draft.materia || "Geral"}`,
       materia: draft.materia || "Geral",
-      type: draft.type,
       duration: Number(draft.duration || 60),
-      status: draft.status,
-      concurso: draft.concurso,
-    }, ...current]);
+    };
+    if (editingId) {
+      setPlanActivities((current) => current.map((item) => item.id === editingId ? { ...item, ...payload } : item));
+      await planoService.atualizarAtividade(editingId, payload);
+    } else {
+      const created = await planoService.criarAtividade(payload);
+      setPlanActivities((current) => [created, ...current.filter((item) => item.id !== created.id)]);
+    }
     setModal(false);
-    setDraft({ title: "", materia: "", type: "Estudo", hour: "08:00", duration: 60, concurso: "PRF", status: "Pendente" });
+    setEditingId("");
+    setDraft({ title: "", materia: "", type: "Questões", date: selectedDate, hour: "08:00", duration: 60, concurso: user?.targetContest || "PM", status: "Pendente" });
   };
 
   const gerarPlanoInteligente = useCallback(async ({ replace = false } = {}) => {
     const generated = await planoService.gerarSemanaInteligente({ user, startDate: new Date(selectedDate) });
-    setExtraActivities((current) => {
+    const saved = await planoService.criarAtividadesEmLote(generated);
+    setPlanActivities((current) => {
       const kept = replace ? current.filter((item) => !item.generated) : current;
       const existing = new Set(kept.map((item) => item.id));
-      return [...generated.filter((item) => !existing.has(item.id)), ...kept];
+      return [...saved.filter((item) => !existing.has(item.id)), ...kept];
     });
     setSmartPlanGenerated(true);
-  }, [selectedDate, user]);
+    addNotification({ type: "success", title: "Plano gerado", message: `${saved.length} atividades foram criadas no seu calendário.` });
+  }, [addNotification, selectedDate, user]);
 
   useEffect(() => {
-    if (smartPlanGenerated || extraActivities.some((item) => item.generated)) return;
+    if (!activitiesLoaded || smartPlanGenerated || planActivities.some((item) => item.generated)) return;
     const timer = window.setTimeout(() => {
       gerarPlanoInteligente();
     }, 0);
     return () => window.clearTimeout(timer);
-  }, [extraActivities, gerarPlanoInteligente, smartPlanGenerated]);
+  }, [activitiesLoaded, gerarPlanoInteligente, planActivities, smartPlanGenerated]);
+
+  const editActivity = useCallback((activity) => {
+    setEditingId(activity.id);
+    setDraft({
+      title: activity.title || "",
+      materia: activity.materia || "",
+      type: activity.type || "Questões",
+      date: activity.date || selectedDate,
+      hour: activity.hour || "08:00",
+      duration: activity.duration || 60,
+      concurso: activity.concurso || user?.targetContest || "PM",
+      status: activity.status || "Pendente",
+    });
+    setModal(true);
+  }, [selectedDate, setDraft, setEditingId, setModal, user]);
+
+  const deleteActivity = useCallback(async (id) => {
+    setPlanActivities((current) => current.filter((item) => item.id !== id));
+    await planoService.removerAtividade(id);
+    addNotification({ type: "success", title: "Atividade removida", message: "Seu plano foi atualizado." });
+  }, [addNotification]);
+
+  const openActivity = useCallback((activity) => {
+    const type = String(activity.type || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    if (type.includes("quest")) {
+      sessionStorage.setItem("aprova-questoes-artigo-filter", JSON.stringify({ materia: activity.materia, search: activity.materia }));
+      navigate("questoes");
+      return;
+    }
+    if (type.includes("revis")) return navigate("revisao");
+    if (type.includes("taf")) return navigate("taf");
+    if (type.includes("leitura")) return navigate("leis");
+    if (type.includes("flash")) return navigate("flashcards");
+    if (type.includes("simulado")) return navigate("simulados");
+    navigate("dashboard");
+  }, [navigate]);
 
   return (
     <div className="plano-page mx-auto min-h-[calc(100vh-9rem)] max-w-[1500px] overflow-visible pb-10 text-slate-900">
@@ -390,9 +465,9 @@ export default function PlanoPage() {
           </div>
           <div className="flex flex-wrap gap-2">
           <Button className="md:hidden" data-tour="tour-studies-filters" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{activeFilterCount ? ` · ${activeFilterCount}` : ""}</Button>
-          <Button variant="secondary" onClick={goToday}>Hoje</Button>
-          <Button variant="secondary" icon={RotateCcw} onClick={() => gerarPlanoInteligente({ replace: true })}>Gerar plano</Button>
-          <Button icon={Plus} onClick={() => setModal(true)}>Nova atividade</Button>
+          <Button className="whitespace-nowrap" variant="secondary" onClick={goToday}>Hoje</Button>
+          <Button className="whitespace-nowrap" variant="secondary" icon={RotateCcw} onClick={() => gerarPlanoInteligente({ replace: true })}>Gerar</Button>
+          <Button className="whitespace-nowrap" icon={Plus} onClick={() => { setEditingId(""); setDraft((current) => ({ ...current, date: selectedDate })); setModal(true); }}>Nova</Button>
           </div>
         </div>
       </div>
@@ -419,7 +494,7 @@ export default function PlanoPage() {
               <span className="inline-flex items-center gap-2 rounded-lg bg-blue-50 px-3 py-2 text-sm font-semibold text-blue-700"><Filter size={15} /> Filtros ativos</span>
             </div>
 
-            {view === "Mes" ? (
+            {view === "Mês" ? (
               <div className="overflow-x-auto">
                 <div className="min-w-[720px]">
                   <div className="grid grid-cols-7 border-b border-slate-100">
@@ -485,7 +560,16 @@ export default function PlanoPage() {
             </div>
             {selectedActivities.length ? (
               <div className="grid gap-3 bg-slate-50/60 p-3">
-                {selectedActivities.map((activity) => <ActivityRow key={activity.id} activity={activity} onStatus={updateActivityStatus} />)}
+                {selectedActivities.map((activity) => (
+                  <ActivityRow
+                    key={activity.id}
+                    activity={activity}
+                    onDelete={deleteActivity}
+                    onEdit={editActivity}
+                    onOpen={openActivity}
+                    onStatus={updateActivityStatus}
+                  />
+                ))}
               </div>
             ) : (
               <div className="grid place-items-center gap-2 p-8 text-center text-sm text-slate-500">
@@ -551,12 +635,13 @@ export default function PlanoPage() {
         </aside>
       </div>
 
-      <Modal open={modal} title="Nova atividade" onClose={() => setModal(false)} footer={<Button onClick={createActivity}>Salvar atividade</Button>}>
+      <Modal open={modal} title={editingId ? "Editar atividade" : "Nova atividade"} onClose={() => setModal(false)} footer={<Button onClick={createActivity}>Salvar atividade</Button>}>
         <div className="grid gap-3">
           <Input label="Titulo" value={draft.title} onChange={(event) => setDraft((current) => ({ ...current, title: event.target.value }))} />
           <div className="grid gap-3 sm:grid-cols-2">
             <Input label="Materia" value={draft.materia} onChange={(event) => setDraft((current) => ({ ...current, materia: event.target.value }))} />
             <Select label="Tipo" options={typeOptions} value={draft.type} onChange={(event) => setDraft((current) => ({ ...current, type: event.target.value }))} />
+            <Input label="Data" type="date" value={draft.date} onChange={(event) => setDraft((current) => ({ ...current, date: event.target.value }))} />
             <Input label="Horario" type="time" value={draft.hour} onChange={(event) => setDraft((current) => ({ ...current, hour: event.target.value }))} />
             <Input label="Duracao" type="number" value={draft.duration} onChange={(event) => setDraft((current) => ({ ...current, duration: event.target.value }))} />
             <Select label="Concurso" options={contestOptions} value={draft.concurso} onChange={(event) => setDraft((current) => ({ ...current, concurso: event.target.value }))} />

@@ -291,9 +291,43 @@ export const usePlanoStore = create(
   persist(
     (set, get) => ({
       semana: semanaSeed,
+      atividades: [],
       tarefasHoje: [],
       progressoPorDisciplina: { Constitucional: 52, Portugues: 62, Informatica: 48, Raciocinio: 58, Administrativo: 44 },
       getPlano: () => adaptPlano(get().semana),
+      getAtividades: () => get().atividades,
+      setAtividades: (atividades) => set({ atividades }),
+      criarAtividade: (atividade) => {
+        const next = {
+          id: atividade.id || uid("plano"),
+          title: atividade.title || `${atividade.type || atividade.tipo || "Estudo"} - ${atividade.materia || "Geral"}`,
+          materia: atividade.materia || "Geral",
+          type: atividade.type || atividade.tipo || "Estudo",
+          date: atividade.date || atividade.data || today(),
+          hour: atividade.hour || atividade.hora || "08:00",
+          duration: Number(atividade.duration || atividade.duracao || 60),
+          status: atividade.status || "Pendente",
+          concurso: atividade.concurso || "Geral",
+          generated: Boolean(atividade.generated),
+          createdAt: atividade.createdAt || atividade.criado_em || new Date().toISOString(),
+        };
+        set((state) => ({ atividades: [next, ...state.atividades.filter((item) => item.id !== next.id)] }));
+        return next;
+      },
+      atualizarAtividade: (id, patch) => set((state) => ({
+        atividades: state.atividades.map((item) => item.id === id ? {
+          ...item,
+          ...patch,
+          type: patch.type || patch.tipo || item.type,
+          date: patch.date || patch.data || item.date,
+          hour: patch.hour || patch.hora || item.hour,
+          duration: patch.duration || patch.duracao || item.duration,
+        } : item),
+      })),
+      removerAtividade: (id) => set((state) => ({ atividades: state.atividades.filter((item) => item.id !== id) })),
+      alternarAtividade: (id) => set((state) => ({
+        atividades: state.atividades.map((item) => item.id === id ? { ...item, status: item.status === "Concluida" ? "Pendente" : "Concluida" } : item),
+      })),
       concluir: (tarefaId) => set((state) => ({ semana: Object.fromEntries(Object.entries(state.semana).map(([dia, tarefas]) => [dia, tarefas.map((tarefa) => tarefa.id === tarefaId ? { ...tarefa, done: !tarefa.done } : tarefa)])) })),
       reagendar: (tarefaId, novoDia) => set((state) => {
         let moved;
@@ -308,7 +342,11 @@ export const usePlanoStore = create(
         return { semana };
       }),
     }),
-    { name: "aprova-plano" }
+    {
+      name: "aprova-plano",
+      version: 2,
+      migrate: (persisted) => ({ ...persisted, atividades: persisted?.atividades || [] }),
+    }
   )
 );
 

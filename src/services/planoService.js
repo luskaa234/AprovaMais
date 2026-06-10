@@ -1,4 +1,6 @@
 import { usePlanoStore } from "../stores";
+import { getCurrentUserId, isSupabaseConfigured, supabase } from "../lib/supabase";
+import { aiService } from "./aiService";
 
 const dayIndexToName = ["domingo", "segunda", "terca", "quarta", "quinta", "sexta", "sabado"];
 
@@ -70,6 +72,70 @@ function buildSmartWeek(user = {}, startDate = new Date()) {
   }));
 }
 
+function normalizeActivity(row = {}) {
+  return {
+    id: row.id,
+    title: row.title || row.titulo || `${row.type || row.tipo || "Estudo"} - ${row.materia || "Geral"}`,
+    materia: row.materia || "Geral",
+    type: row.type || row.tipo || "Estudo",
+    date: row.date || row.data || isoDate(new Date()),
+    hour: row.hour || row.hora || "08:00",
+    duration: Number(row.duration || row.duracao || 60),
+    status: row.status || "Pendente",
+    concurso: row.concurso || row.objetivo || "Geral",
+    generated: Boolean(row.generated || row.gerado_por_ia),
+    createdAt: row.createdAt || row.criado_em || new Date().toISOString(),
+  };
+}
+
+function toDbPayload(activity, userId) {
+  const normalized = normalizeActivity(activity);
+  return {
+    user_id: userId,
+    titulo: normalized.title,
+    materia: normalized.materia,
+    tipo: normalized.type,
+    data: normalized.date,
+    hora: normalized.hour,
+    duracao: normalized.duration,
+    status: normalized.status,
+    concurso: normalized.concurso,
+    gerado_por_ia: normalized.generated,
+  };
+}
+
+function saveLocal(activity) {
+  return usePlanoStore.getState().criarAtividade(normalizeActivity(activity));
+}
+
+function updateLocal(id, patch) {
+  usePlanoStore.getState().atualizarAtividade(id, patch);
+  return usePlanoStore.getState().atividades.find((item) => item.id === id);
+}
+
+function deleteLocal(id) {
+  usePlanoStore.getState().removerAtividade(id);
+  return true;
+}
+
+function parseAiActivities(text = "", user = {}, startDate = new Date()) {
+  const clean = String(text).replace(/```json|```/g, "").trim();
+  const parsed = JSON.parse(clean);
+  const rows = Array.isArray(parsed) ? parsed : parsed.atividades || parsed.activities || [];
+  return rows.map((item, index) => normalizeActivity({
+    id: item.id || `ai-${isoDate(startDate)}-${index}-${slug(item.materia || item.subject || "atividade")}`,
+    title: item.titulo || item.title,
+    materia: item.materia || item.subject,
+    type: item.tipo || item.type,
+    date: item.data || item.date,
+    hour: item.hora || item.hour,
+    duration: item.duracao || item.duration,
+    status: "Pendente",
+    concurso: user.targetContest || user.contestName || "Geral",
+    generated: true,
+  })).filter((item) => item.materia && item.date);
+}
+
 /**
  * Future REST contract:
  * GET /plano
@@ -80,8 +146,109 @@ export const planoService = {
   async getPlano() {
     return usePlanoStore.getState().getPlano();
   },
+  async getAtividades() {
+    const local = usePlanoStore.getState().getAtividades();
+    if (!isSupabaseConfigured) return local;
+    const userId = await getCurrentUserId();
+    if (!userId) return local;
+    const { data, error } = await supabase
+      .from("plano_atividades")
+      .select("*")
+      .eq("user_id", userId)
+      .order("data", { ascending: true })
+      .order("hora", { ascending: true });
+    if (error) {
+      console.warn("[planoService] Falha ao carregar plano_atividades:", error.message);
+      return local;
+    }
+    const rows = (data || []).map(normalizeActivity);
+    usePlanoStore.getState().setAtividades(rows);
+    return rows;
+  },
+  async criarAtividade(activity) {
+    const local = saveLocal(activity);
+    if (!isSupabaseConfigured) return local;
+    const userId = await getCurrentUserId();
+    if (!userId) return local;
+    const { data, error } = await supabase
+      .from("plano_atividades")
+      .insert(toDbPayload(local, userId))
+      .select("*")
+      .single();
+    if (error) {
+      console.warn("[planoService] Falha ao criar atividade:", error.message);
+      return local;
+    }
+    const saved = normalizeActivity(data);
+    usePlanoStore.setState((state) => ({ atividades: state.atividades.map((item) => item.id === local.id ? saved : item) }));
+    return saved;
+  },
+  async atualizarAtividade(id, patch) {
+    const local = updateLocal(id, patch);
+    if (!isSupabaseConfigured) return local;
+    const userId = await getCurrentUserId();
+    if (!userId) return local;
+    const { data, error } = await supabase
+      .from("plano_atividades")
+      .update(toDbPayload({ ...local, ...patch }, userId))
+      .eq("id", id)
+      .eq("user_id", userId)
+      .select("*")
+      .maybeSingle();
+    if (error) {
+      console.warn("[planoService] Falha ao atualizar atividade:", error.message);
+      return local;
+    }
+    const saved = data ? normalizeActivity(data) : local;
+    updateLocal(id, saved);
+    return saved;
+  },
+  async alternarAtividade(id) {
+    const current = usePlanoStore.getState().atividades.find((item) => item.id === id);
+    const status = current?.status === "Concluida" ? "Pendente" : "Concluida";
+    return this.atualizarAtividade(id, { status });
+  },
+  async removerAtividade(id) {
+    deleteLocal(id);
+    if (!isSupabaseConfigured) return true;
+    const userId = await getCurrentUserId();
+    if (!userId) return true;
+    const { error } = await supabase.from("plano_atividades").delete().eq("id", id).eq("user_id", userId);
+    if (error) console.warn("[planoService] Falha ao remover atividade:", error.message);
+    return true;
+  },
   async gerarSemanaInteligente({ user = {}, startDate = new Date() } = {}) {
-    return buildSmartWeek(user, startDate);
+    const fallback = buildSmartWeek(user, startDate);
+    const prompt = `Crie atividades reais de plano de estudos para uma semana.
+Responda APENAS em JSON valido no formato:
+{"atividades":[{"materia":"...","tipo":"Questões|Revisão|Leitura|Flashcards|TAF|Simulado","data":"AAAA-MM-DD","hora":"HH:mm","duracao":60,"titulo":"..."}]}
+
+Perfil do aluno:
+${JSON.stringify({
+  objetivo: user.targetContest || user.contestName || user.objective || "Concurso publico",
+  nivel: user.nivel || user.level || "intermediario",
+  horasSemanais: user.horasSemanais || user.hoursPerWeek || 18,
+  diasDisponiveis: user.availableDays || user.diasDisponiveis || "segunda a sabado",
+  dataProva: user.dataProva || user.examDate || "",
+}, null, 2)}
+
+Data inicial da semana: ${isoDate(startDate)}
+Regras: distribua materias importantes, alterne teoria/questoes/revisao e inclua TAF se for objetivo policial ou militar.`;
+    try {
+      const text = await aiService.gerarTexto(prompt);
+      const parsed = parseAiActivities(text, user, startDate);
+      return parsed.length ? parsed : fallback;
+    } catch (error) {
+      console.warn("[planoService] Gemini falhou ao gerar plano, usando fallback:", error.message);
+      return fallback;
+    }
+  },
+  async criarAtividadesEmLote(activities = []) {
+    const saved = [];
+    for (const activity of activities) {
+      saved.push(await this.criarAtividade(activity));
+    }
+    return saved;
   },
   async getSugestao() {
     return "Redistribua 20 min de Informatica para Constitucional nesta semana.";
