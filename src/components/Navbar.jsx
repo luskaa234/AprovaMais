@@ -3,11 +3,11 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const navLinks = [
-  { label: "Inicio", href: "/#inicio" },
+  { label: "Início", href: "/#inicio" },
+  { label: "Concursos", href: "/#concursos" },
+  { label: "Recursos", href: "/#recursos" },
   { label: "Como funciona", href: "/#como-funciona" },
-  { label: "Materias", href: "/#recursos" },
-  { label: "Simulados", href: "/#sistema" },
-  { label: "Planos", href: "/#planos" },
+  { label: "7 dias grátis", href: "/#planos" },
 ];
 
 function Navbar() {
@@ -18,11 +18,11 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="nav-inner">
-        <Link className="brand" to="/" aria-label="Aprova+ - inicio">
+        <Link className="brand" to="/" aria-label="Aprova+ - início">
           <img src="/logo-light-readable.svg" alt="Aprova+" style={{ height: "32px", width: "auto" }} />
         </Link>
 
-        <nav className="nav-links" aria-label="Navegacao principal">
+        <nav className="nav-links" aria-label="Navegação principal">
           {navLinks.map((link) => (
             <a href={link.href} key={link.href} onClick={closeMenu}>
               {link.label}
@@ -35,7 +35,7 @@ function Navbar() {
             Entrar
           </Link>
           <Link className="btn nav-cta" to="/criar-conta" onClick={closeMenu}>
-            Comecar gratis
+            Começar grátis
           </Link>
         </div>
 
@@ -52,7 +52,7 @@ function Navbar() {
       </div>
 
       <div className={`nav-content ${isMenuOpen ? "is-open" : ""}`} id="mobile-navigation">
-        <nav className="nav-links-mobile" aria-label="Navegacao principal mobile">
+        <nav className="nav-links-mobile" aria-label="Navegação principal mobile">
           {navLinks.map((link) => (
             <a href={link.href} key={link.href} onClick={closeMenu}>
               {link.label}
@@ -62,7 +62,7 @@ function Navbar() {
             Entrar
           </Link>
           <Link className="btn nav-cta" to="/criar-conta" onClick={closeMenu}>
-            Comecar gratis
+            Começar grátis
           </Link>
         </nav>
       </div>

@@ -296,6 +296,489 @@ main {
   font-weight: 400;
 }
 
+/* Honest landing refresh */
+.honest-landing {
+  background: #f6f9ff;
+  color: #0f172a;
+  overflow: hidden;
+}
+
+.honest-hero {
+  position: relative;
+  display: grid;
+  min-height: calc(100vh - 86px);
+  grid-template-columns: minmax(0, 1.02fr) minmax(320px, 0.98fr);
+  gap: 2.5rem;
+  align-items: center;
+  width: min(1180px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 4rem 0 3.25rem;
+}
+
+.honest-hero::before {
+  content: "";
+  position: absolute;
+  inset: 4rem -12vw 2rem 52%;
+  z-index: 0;
+  border-radius: 2rem;
+  background: #eaf2ff;
+  border: 1px solid #d7e7ff;
+}
+
+.honest-hero-content,
+.honest-hero-media {
+  position: relative;
+  z-index: 1;
+}
+
+.honest-kicker,
+.honest-proof,
+.honest-trial span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.honest-kicker {
+  min-height: 2.25rem;
+  border-radius: 999px;
+  border: 1px solid #bfdbfe;
+  background: #ffffff;
+  padding: 0 0.9rem;
+  color: #1d4ed8;
+  font-size: 0.82rem;
+  font-weight: 900;
+}
+
+.honest-hero h1 {
+  max-width: 760px;
+  margin: 1.35rem 0 1rem;
+  color: #07111f;
+  font-size: 4.25rem;
+  line-height: 1.02;
+  letter-spacing: 0;
+  font-weight: 950;
+}
+
+.honest-hero-content > p {
+  max-width: 650px;
+  color: #475569;
+  font-size: 1.18rem;
+  line-height: 1.75;
+}
+
+.honest-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.75rem;
+}
+
+.honest-btn {
+  display: inline-flex;
+  min-height: 3rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.85rem;
+  padding: 0 1.15rem;
+  font-weight: 900;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.honest-btn:hover {
+  transform: translateY(-1px);
+}
+
+.honest-btn-primary {
+  background: #2563eb;
+  color: #ffffff;
+  box-shadow: 0 16px 34px rgba(37, 99, 235, 0.22);
+}
+
+.honest-btn-secondary {
+  border: 1px solid #bfdbfe;
+  background: #ffffff;
+  color: #1d4ed8;
+}
+
+.honest-btn-light {
+  background: #ffffff;
+  color: #1d4ed8;
+  box-shadow: 0 18px 40px rgba(30, 64, 175, 0.2);
+}
+
+.honest-proof {
+  margin-top: 1.25rem;
+  border-radius: 1rem;
+  border: 1px solid #dbeafe;
+  background: rgba(255, 255, 255, 0.86);
+  padding: 0.9rem 1rem;
+  color: #475569;
+}
+
+.honest-proof strong {
+  color: #0f172a;
+}
+
+.honest-proof svg {
+  color: #2563eb;
+}
+
+.honest-hero-media {
+  display: grid;
+  place-items: center;
+}
+
+.honest-hero-media img {
+  width: min(100%, 460px);
+  max-height: 620px;
+  object-fit: contain;
+  filter: drop-shadow(0 26px 42px rgba(37, 99, 235, 0.18));
+}
+
+.honest-section {
+  width: min(1180px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 4.5rem 0;
+}
+
+.honest-section-heading {
+  max-width: 760px;
+  margin-bottom: 1.75rem;
+}
+
+.honest-section-heading span {
+  display: inline-flex;
+  margin-bottom: 0.7rem;
+  color: #2563eb;
+  font-size: 0.78rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.honest-section-heading h2 {
+  color: #07111f;
+  font-size: 2.45rem;
+  line-height: 1.14;
+  letter-spacing: 0;
+  font-weight: 950;
+}
+
+.honest-section-heading p {
+  margin-top: 0.7rem;
+  color: #64748b;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.honest-contest-grid,
+.honest-feature-grid,
+.honest-steps {
+  display: grid;
+  gap: 1rem;
+}
+
+.honest-contest-grid {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.honest-feature-grid {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.honest-steps {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.honest-contest-card,
+.honest-feature-card,
+.honest-step-card,
+.honest-faq-list details {
+  border: 1px solid #dbeafe;
+  border-radius: 1rem;
+  background: #ffffff;
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.05);
+}
+
+.honest-contest-card {
+  min-height: 150px;
+  padding: 1rem;
+}
+
+.honest-contest-card span,
+.honest-feature-card span,
+.honest-step-card span {
+  display: grid;
+  width: 2.75rem;
+  height: 2.75rem;
+  place-items: center;
+  border-radius: 0.85rem;
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.honest-contest-card strong {
+  display: block;
+  margin-top: 1rem;
+  color: #07111f;
+  font-size: 1.35rem;
+  font-weight: 950;
+}
+
+.honest-contest-card p,
+.honest-feature-card p,
+.honest-step-card p,
+.honest-faq-list p {
+  margin-top: 0.35rem;
+  color: #64748b;
+  line-height: 1.6;
+}
+
+.honest-feature-card {
+  min-height: 210px;
+  padding: 1.1rem;
+}
+
+.honest-feature-card h3,
+.honest-step-card h3 {
+  margin-top: 1rem;
+  color: #0f172a;
+  font-size: 1rem;
+  line-height: 1.25;
+  font-weight: 950;
+}
+
+.honest-step-card {
+  position: relative;
+  min-height: 210px;
+  padding: 1.15rem;
+}
+
+.honest-step-card small {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  display: grid;
+  width: 1.85rem;
+  height: 1.85rem;
+  place-items: center;
+  border-radius: 999px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-size: 0.78rem;
+  font-weight: 950;
+}
+
+.honest-differential-box {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 2rem;
+  align-items: center;
+  border-radius: 1.25rem;
+  border: 1px solid #bfdbfe;
+  background: #ffffff;
+  padding: 1.5rem;
+  box-shadow: 0 18px 44px rgba(37, 99, 235, 0.08);
+}
+
+.honest-differential-box p {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  margin: 0;
+  padding: 0.9rem 0;
+  color: #172033;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.honest-differential-box p + p {
+  border-top: 1px solid #e2e8f0;
+}
+
+.honest-differential-box svg {
+  flex: 0 0 auto;
+  margin-top: 0.1rem;
+  color: #2563eb;
+}
+
+.honest-differential-box img {
+  width: min(100%, 250px);
+  justify-self: center;
+  object-fit: contain;
+}
+
+.honest-trial {
+  display: flex;
+  width: min(1180px, calc(100% - 40px));
+  margin: 1rem auto 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  border-radius: 1.4rem;
+  background: #2563eb;
+  padding: 2rem;
+  color: #ffffff;
+  box-shadow: 0 22px 54px rgba(37, 99, 235, 0.24);
+}
+
+.honest-trial span {
+  color: #dbeafe;
+  font-size: 0.85rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.honest-trial h2 {
+  margin-top: 0.5rem;
+  font-size: 2.1rem;
+  line-height: 1.15;
+  letter-spacing: 0;
+  font-weight: 950;
+}
+
+.honest-trial p {
+  margin-top: 0.45rem;
+  color: #dbeafe;
+}
+
+.honest-faq-list {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.honest-faq-list details {
+  padding: 1rem 1.1rem;
+}
+
+.honest-faq-list summary {
+  display: flex;
+  cursor: pointer;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  color: #0f172a;
+  font-weight: 950;
+}
+
+.honest-faq-list summary::-webkit-details-marker {
+  display: none;
+}
+
+.honest-faq-list summary span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.honest-faq-list summary svg {
+  color: #2563eb;
+  flex: 0 0 auto;
+}
+
+.landing-footer-social {
+  display: none !important;
+}
+
+@media (max-width: 1023px) {
+  .honest-hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding-top: 3rem;
+  }
+
+  .honest-hero::before {
+    inset: auto -8vw 1rem -8vw;
+    height: 42%;
+  }
+
+  .honest-hero h1 {
+    font-size: 3.1rem;
+  }
+
+  .honest-contest-grid,
+  .honest-feature-grid,
+  .honest-steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .honest-differential-box {
+    grid-template-columns: 1fr;
+  }
+
+  .honest-differential-box img {
+    max-height: 230px;
+  }
+}
+
+@media (max-width: 767px) {
+  .honest-hero,
+  .honest-section,
+  .honest-trial {
+    width: min(100% - 24px, 1180px);
+  }
+
+  .honest-hero {
+    gap: 1.25rem;
+    padding: 2rem 0 2.5rem;
+  }
+
+  .honest-hero h1 {
+    font-size: 2.35rem;
+    line-height: 1.08;
+  }
+
+  .honest-hero-content > p {
+    font-size: 1rem;
+  }
+
+  .honest-hero-actions,
+  .honest-trial {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .honest-btn {
+    width: 100%;
+  }
+
+  .honest-proof {
+    align-items: flex-start;
+  }
+
+  .honest-section {
+    padding: 3rem 0;
+  }
+
+  .honest-section-heading h2 {
+    font-size: 1.9rem;
+  }
+
+  .honest-contest-grid,
+  .honest-feature-grid,
+  .honest-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .honest-contest-card,
+  .honest-feature-card,
+  .honest-step-card {
+    min-height: auto;
+  }
+
+  .honest-trial {
+    padding: 1.4rem;
+  }
+
+  .honest-trial h2 {
+    font-size: 1.75rem;
+  }
+}
+
 .institution-logo,
 .exam-logo {
   display: inline-grid;

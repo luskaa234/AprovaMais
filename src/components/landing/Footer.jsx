@@ -1,11 +1,10 @@
-import { BriefcaseBusiness, Camera, Code2 } from "lucide-react";
-
 const links = [
-  { label: "Inicio", href: "#inicio" },
+  { label: "Sobre", href: "#recursos" },
+  { label: "Concursos", href: "#concursos" },
   { label: "Como funciona", href: "#como-funciona" },
-  { label: "Matérias", href: "#recursos" },
-  { label: "Simulados", href: "#sistema" },
-  { label: "Planos", href: "#planos" },
+  { label: "Termos", href: "#" },
+  { label: "Privacidade", href: "#" },
+  { label: "Contato", href: "#" },
 ];
 
 function Footer() {
@@ -15,34 +14,22 @@ function Footer() {
         <div className="landing-footer-brand">
           <img className="landing-footer-logo" src="/logo-light-readable.svg" alt="Aprova+" />
           <p>
-            Plataforma de estudos para transformar edital, questões, metas e
-            revisoes em uma rotina clara para passar em concurso.
+            Plataforma de estudos para OAB e carreiras policiais, com questões oficiais,
+            plano por edital, TAF, revisão e IA.
           </p>
         </div>
 
-        <nav className="landing-footer-links" aria-label="Links do rodape">
+        <nav className="landing-footer-links" aria-label="Links do rodapé">
           {links.map((link) => (
             <a href={link.href} key={link.label}>
               {link.label}
             </a>
           ))}
         </nav>
-
-        <div className="landing-footer-social" aria-label="Redes sociais">
-          <a href="#" aria-label="Instagram">
-            <Camera size={18} />
-          </a>
-          <a href="#" aria-label="LinkedIn">
-            <BriefcaseBusiness size={18} />
-          </a>
-          <a href="#" aria-label="GitHub">
-            <Code2 size={18} />
-          </a>
-        </div>
       </div>
       <div className="section-shell landing-footer-bottom">
-        <span>Aprova+ 2026. Todos os direitos reservados.</span>
-        <span>Planejamento, disciplina e progresso visivel.</span>
+        <span>© 2026 Aprova+. Todos os direitos reservados.</span>
+        <span>Questões oficiais, TAF e plano de estudos em uma rotina clara.</span>
       </div>
     </footer>
   );
