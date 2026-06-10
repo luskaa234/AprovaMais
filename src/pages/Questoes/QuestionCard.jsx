@@ -11,10 +11,10 @@ const difficultyVariant = {
 };
 
 const difficultyLabel = {
-  facil: "Facil",
-  medio: "Media",
-  media: "Media",
-  dificil: "Dificil",
+  facil: "Fácil",
+  medio: "Média",
+  media: "Média",
+  dificil: "Difícil",
 };
 
 export const QuestionCard = memo(({ questao, index = 0, saved = false, inErrorBook = false, onAnswer, onSave, onAddCaderno, onReport }) => {
@@ -50,10 +50,10 @@ export const QuestionCard = memo(({ questao, index = 0, saved = false, inErrorBo
       <div className="border-b border-gray-800 bg-gray-900/70 px-4 py-3">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex flex-wrap items-center gap-2">
-            <Badge variant="neutral">Questao {index + 1}</Badge>
+            <Badge variant="neutral">Questão {index + 1}</Badge>
             <Badge>{questao.banca || "Banca"}</Badge>
             <Badge variant="neutral">{questao.materiaLabel || questao.materia}</Badge>
-            <Badge variant={difficultyVariant[difficulty] || "warning"}>{difficultyLabel[difficulty] || questao.dificuldade || "Media"}</Badge>
+            <Badge variant={difficultyVariant[difficulty] || "warning"}>{difficultyLabel[difficulty] || questao.dificuldade || "Média"}</Badge>
           </div>
           <div className="text-xs font-semibold text-gray-500">{questao.concursoLabel || questao.concurso || "Concurso"}</div>
         </div>
@@ -102,7 +102,7 @@ export const QuestionCard = memo(({ questao, index = 0, saved = false, inErrorBo
             </Button>
           ) : null}
           <Button variant="ghost" icon={Flag} onClick={() => onReport(questao.id)}>Reportar</Button>
-          {confirmed ? <Button variant="secondary" onClick={goNext}>Proxima questao</Button> : null}
+          {confirmed ? <Button variant="secondary" onClick={goNext}>Próxima questão</Button> : null}
         </div>
 
         {confirmed ? (
@@ -115,13 +115,13 @@ export const QuestionCard = memo(({ questao, index = 0, saved = false, inErrorBo
                     {isCorrect ? <CheckCircle2 className="text-emerald-500" /> : <XCircle className="text-red-500" />}
                     {isCorrect ? "Correto" : "Incorreto"} - Gabarito {String(questao.gabarito).toUpperCase()}
                   </p>
-                  <p className="mt-2 whitespace-pre-wrap text-sm leading-relaxed text-slate-700">{questao.comentario || "Comentario ainda nao disponivel."}</p>
+                  <p className="mt-2 whitespace-pre-wrap text-sm leading-relaxed text-slate-700">{questao.comentario || "Comentário ainda não disponível."}</p>
                 </div>
               </div>
             </div>
             <div className="rounded-lg border-l-4 border-blue-500 bg-blue-50 p-4 text-sm text-slate-700">
-              <p className="flex items-center gap-2 font-bold"><Lightbulb size={17} />Analise da IA</p>
-              <p className="mt-1 leading-relaxed">Revise {questao.materiaLabel || questao.materia}, compare o comando da banca com o gabarito e refaca mais 5 questoes do mesmo tema antes de avancar.</p>
+              <p className="flex items-center gap-2 font-bold"><Lightbulb size={17} />Análise da IA</p>
+              <p className="mt-1 leading-relaxed">Revise {questao.materiaLabel || questao.materia}, compare o comando da banca com o gabarito e refaça mais 5 questões do mesmo tema antes de avançar.</p>
             </div>
           </motion.div>
         ) : null}

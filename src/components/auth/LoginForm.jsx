@@ -12,7 +12,7 @@ import { Label } from "../ui/label";
 import { Separator } from "../ui/separator";
 
 const loginSchema = z.object({
-  email: z.string().min(1, "Informe seu e-mail.").email("Informe um e-mail valido."),
+  email: z.string().min(1, "Informe seu e-mail.").email("Informe um e-mail válido."),
   password: z.string().min(6, "A senha precisa ter pelo menos 6 caracteres."),
   remember: z.boolean().optional(),
 });
@@ -48,7 +48,7 @@ function LoginForm() {
       toast.success("Login realizado com sucesso.");
       navigate("/");
     } catch (error) {
-      toast.error(error.message || "Nao foi possivel entrar.");
+      toast.error(error.message || "Não foi possível entrar.");
     }
   };
 

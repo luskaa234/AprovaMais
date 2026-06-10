@@ -62,18 +62,18 @@ function saveProgrammingFocus() {
       user: {
         ...user,
         objective: "programacao",
-        targetContest: "Programacao",
-        contestName: "Programacao",
-        difficultSubjects: user.difficultSubjects?.length ? user.difficultSubjects : ["Logica de programacao", "JavaScript", "React"],
+        targetContest: "Programação",
+        contestName: "Programação",
+        difficultSubjects: user.difficultSubjects?.length ? user.difficultSubjects : ["Lógica de programação", "JavaScript", "React"],
         diagnosticPlan: {
           ...(user.diagnosticPlan || {}),
           objective: "programacao",
-          objectiveLabel: "Programacao",
-          prioritySubjects: ["Logica de programacao", "JavaScript", "React", "Projetos praticos"],
-          weakSubjects: user.difficultSubjects?.length ? user.difficultSubjects : ["Logica de programacao", "JavaScript", "React"],
-          weeklyGoals: ["Construir 1 projeto pequeno", "Estudar 5 dias na semana", "Resolver exercicios de logica"],
-          simulations: ["Desafio pratico semanal", "Code review do projeto"],
-          evolutionForecast: "Evolucao baseada em pratica diaria e projetos curtos.",
+          objectiveLabel: "Programação",
+          prioritySubjects: ["Lógica de programação", "JavaScript", "React", "Projetos práticos"],
+          weakSubjects: user.difficultSubjects?.length ? user.difficultSubjects : ["Lógica de programação", "JavaScript", "React"],
+          weeklyGoals: ["Construir 1 projeto pequeno", "Estudar 5 dias na semana", "Resolver exercícios de lógica"],
+          simulations: ["Desafio prático semanal", "Code review do projeto"],
+          evolutionForecast: "Evolução baseada em prática diária e projetos curtos.",
         },
       },
     },
@@ -88,11 +88,11 @@ function saveSchedule(days, hour) {
     id: `ia-programacao-${currentMonthDate(day)}-${hour}`,
     date: currentMonthDate(day),
     hour,
-    title: "Estudo de programacao",
-    materia: "Programacao",
+    title: "Estudo de programação",
+    materia: "Programação",
     type: "Estudo",
     duration: 90,
-    concurso: "Programacao",
+    concurso: "Programação",
     status: "Pendente",
   }));
 
@@ -104,7 +104,7 @@ function saveSchedule(days, hour) {
 
 export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
   const [messages, setMessages] = useState([
-    { role: "ai", text: aiService.isConfigured ? "API Gemini ativa. Posso explicar questoes, organizar revisoes e montar planos de estudo com base no seu desempenho real." : "Configure VITE_GEMINI_API_KEY no .env para ativar a API Gemini." },
+    { role: "ai", text: aiService.isConfigured ? "API Gemini ativa. Posso explicar questões, organizar revisões e montar planos de estudo com base no seu desempenho real." : "Configure VITE_GEMINI_API_KEY no .env para ativar a API Gemini." },
   ]);
   const [input, setInput] = useState("");
   const [aiStatus, setAiStatus] = useState(() => aiService.getStatus());
@@ -122,17 +122,17 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
       let actionContext = "";
       if (localAction?.type === "set-focus-programming") {
         saveProgrammingFocus();
-        actionContext = "Acao local ja executada: foco do aluno atualizado para Programacao.";
+        actionContext = "Ação local já executada: foco do aluno atualizado para Programação.";
       }
 
       if (localAction?.type === "schedule-study") {
         saveProgrammingFocus();
         const created = saveSchedule(localAction.days, localAction.hour);
         const dates = created.map((item) => item.date.split("-").reverse().join("/")).join(", ");
-        actionContext = `Acao local ja executada: ${created.length} blocos de Programacao criados no Plano de Estudos para ${dates}, as ${localAction.hour}.`;
+        actionContext = `Ação local já executada: ${created.length} blocos de Programação criados no Plano de Estudos para ${dates}, às ${localAction.hour}.`;
       }
 
-      sendPrompt(actionContext ? `${prompt}\n\n${actionContext}\nResponda ao aluno confirmando a acao e orientando o proximo passo.` : prompt, (text) => {
+      sendPrompt(actionContext ? `${prompt}\n\n${actionContext}\nResponda ao aluno confirmando a ação e orientando o próximo passo.` : prompt, (text) => {
         setAiStatus(aiService.getStatus());
         setMessages((items) => [...items, { role: "ai", text }]);
       }, { perfil, desempenho, historico });
@@ -141,7 +141,7 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
   );
 
   const gerarRelatorio = useCallback(async () => {
-    const prompt = "Gerar meu relatorio de desempenho";
+    const prompt = "Gerar meu relatório de desempenho";
     setMessages((items) => [...items, { role: "user", text: prompt }]);
     setInput("");
     const resposta = await aiService.gerarRelatorio(perfil, desempenho);
@@ -155,9 +155,9 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
 
   const quickPrompts = [
     "Montar plano de estudos",
-    "Quais minhas materias mais fracas?",
-    "Estrategia para reta final",
-    "Explicar ultima questao errada",
+    "Quais minhas matérias mais fracas?",
+    "Estratégia para reta final",
+    "Explicar última questão errada",
     "Organizar plano de TAF",
   ];
 
@@ -167,10 +167,10 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
         <Mascot size="lg" framed={false} className="ai-chat-hero-mascot -my-4" />
         <div>
           <p className="text-xs font-black uppercase tracking-wide text-blue-700">Aprova Assistente</p>
-          <h2 className="text-xl font-black">Seu tutor de revisao e questoes</h2>
-          <p className="text-sm text-slate-600">Peca explicacoes, planos curtos, revisoes por assunto ou analise do seu desempenho.</p>
+          <h2 className="text-xl font-black">Seu tutor de revisão e questões</h2>
+          <p className="text-sm text-slate-600">Peça explicações, planos curtos, revisões por assunto ou análise do seu desempenho.</p>
           <span className="mt-2 inline-flex rounded-full bg-white px-2.5 py-1 text-xs font-black text-blue-700 ring-1 ring-blue-200">
-            {aiService.isConfigured ? `API Gemini ativa · ${aiService.modelName}` : "API nao configurada"}
+            {aiService.isConfigured ? `API Gemini ativa · ${aiService.modelName}` : "API não configurada"}
           </span>
           <span className="ml-2 mt-2 inline-flex rounded-full bg-blue-600 px-2.5 py-1 text-xs font-black text-white">
             {aiStatus.source === "gemini" ? "Resposta via Gemini" : aiStatus.source === "quota-fallback" ? "Fallback por cota" : aiStatus.source === "error" ? "Erro na API" : "Aguardando teste"}
@@ -224,7 +224,7 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
           className="rounded-full bg-blue-600 px-3 py-2 text-xs font-semibold text-white hover:bg-blue-700"
           type="button"
         >
-          Gerar meu relatorio de desempenho
+          Gerar meu relatório de desempenho
         </button>
       </div>
 

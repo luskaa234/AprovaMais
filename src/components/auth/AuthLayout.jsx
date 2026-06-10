@@ -19,11 +19,11 @@ function AuthLayout({ title, description, children }) {
           <Link className="auth-saas-copy-logo" to="/" aria-label="Aprova+ - início">
             <BrandLogo />
           </Link>
-          <span className="auth-saas-badge">Area do candidato</span>
+          <span className="auth-saas-badge">Área do candidato</span>
           <h1>Entre no ritmo certo para passar.</h1>
           <p>
-            Acesse seu plano, acompanhe metas, revise conteudos e mantenha sua
-            rotina de estudos organizada em um so lugar.
+            Acesse seu plano, acompanhe metas, revise conteúdos e mantenha sua
+            rotina de estudos organizada em um só lugar.
           </p>
         </div>
 

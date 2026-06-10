@@ -4,7 +4,7 @@ import { useInternalRouter } from "../contexts";
 import { startAppTour, startRouteTour } from "../tours/onboardingManager";
 
 export default function TourButton({
-  children = "Como usar esta pagina?",
+  children = "Como usar esta página?",
   route,
   tour = "current",
   variant = "secondary",

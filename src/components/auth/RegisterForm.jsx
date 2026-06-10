@@ -14,10 +14,10 @@ import { Separator } from "../ui/separator";
 const registerSchema = z
   .object({
     name: z.string().min(1, "Informe seu nome completo."),
-    email: z.string().min(1, "Informe seu e-mail.").email("Informe um e-mail valido."),
+    email: z.string().min(1, "Informe seu e-mail.").email("Informe um e-mail válido."),
     password: z.string().min(6, "A senha precisa ter pelo menos 6 caracteres."),
     confirmPassword: z.string().min(1, "Confirme sua senha."),
-    terms: z.boolean().refine((value) => value, "Voce precisa aceitar os termos."),
+    terms: z.boolean().refine((value) => value, "Você precisa aceitar os termos."),
   })
   .refine((data) => data.password === data.confirmPassword, {
     message: "As senhas precisam ser iguais.",
@@ -50,7 +50,7 @@ function RegisterForm() {
       toast.success("Conta criada com sucesso. Bem-vindo ao Aprova+.");
       navigate("/");
     } catch (error) {
-      toast.error(error.message || "Nao foi possivel criar a conta.");
+      toast.error(error.message || "Não foi possível criar a conta.");
     }
   };
 
@@ -78,7 +78,7 @@ function RegisterForm() {
         <Label htmlFor="register-password">Senha</Label>
         <div className="auth-input-wrap">
           <LockKeyhole size={18} />
-          <Input id="register-password" type="password" placeholder="Minimo de 6 caracteres" {...register("password")} />
+          <Input id="register-password" type="password" placeholder="Mínimo de 6 caracteres" {...register("password")} />
         </div>
         {errors.password && <p className="auth-error">{errors.password.message}</p>}
       </div>

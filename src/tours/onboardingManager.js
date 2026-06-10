@@ -124,7 +124,7 @@ export function startTour(rawSteps, options = {}) {
     showButtons: ["previous", "next", "close"],
     showProgress: true,
     progressText: "{{current}} de {{total}}",
-    nextBtnText: "Proximo",
+    nextBtnText: "Próximo",
     prevBtnText: "Voltar",
     doneBtnText: "Concluir",
     onNextClick: (_, __, { driver: currentDriver }) => {

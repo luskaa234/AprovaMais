@@ -9,17 +9,17 @@ import { QuestionCard } from "./QuestionCard";
 
 const statusOptions = [
   { value: "respondidas", label: "Respondidas" },
-  { value: "nao_respondidas", label: "Nao respondidas" },
+  { value: "nao_respondidas", label: "Não respondidas" },
   { value: "erradas", label: "Erradas" },
   { value: "favoritas", label: "Favoritas" },
 ];
 
 function labelForOption(value) {
   const labels = {
-    facil: "Facil",
-    medio: "Media",
-    media: "Media",
-    dificil: "Dificil",
+    facil: "Fácil",
+    medio: "Média",
+    media: "Média",
+    dificil: "Difícil",
   };
   return labels[String(value || "").toLowerCase()] || value;
 }
@@ -108,7 +108,7 @@ export default function QuestoesPage() {
     addNotification({
       type: result.correta ? "success" : "error",
       title: result.correta ? "Correto! +10 pontos" : `Incorreto. Gabarito: ${String(result.gabarito).toUpperCase()}`,
-      message: result.correta ? "Seus indicadores foram atualizados." : "A questao entrou no caderno de erros.",
+      message: result.correta ? "Seus indicadores foram atualizados." : "A questão entrou no caderno de erros.",
     });
     return result;
   }, [addNotification]);
@@ -117,17 +117,17 @@ export default function QuestoesPage() {
     const result = await questoesService.salvar(id);
     addNotification({
       type: "success",
-      title: result.saved ? "Questao salva" : "Questao removida",
+      title: result.saved ? "Questão salva" : "Questão removida",
       message: result.saved ? "Ela entrou nas favoritas." : "Ela saiu das favoritas.",
     });
   }, [addNotification]);
 
   const onAddCaderno = useCallback(async (id) => {
     const result = await questoesService.adicionarAoCaderno(id);
-    addNotification({ type: "success", title: "Caderno atualizado", message: result.added ? "Questao adicionada ao caderno de erros." : "Esta questao ja estava no caderno." });
+    addNotification({ type: "success", title: "Caderno atualizado", message: result.added ? "Questão adicionada ao caderno de erros." : "Esta questão já estava no caderno." });
   }, [addNotification]);
 
-  const onReport = useCallback(() => addNotification({ type: "warning", title: "Reporte enviado", message: "Nossa equipe revisara a questao." }), [addNotification]);
+  const onReport = useCallback(() => addNotification({ type: "warning", title: "Reporte enviado", message: "Nossa equipe revisará a questão." }), [addNotification]);
 
   const resolved = tentativas.length;
   const correct = tentativas.filter((item) => item.acertou).length;
@@ -169,9 +169,9 @@ export default function QuestoesPage() {
   const filtersContent = (
     <>
       <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-[1.4fr_repeat(3,1fr)]">
-        <Input icon={Search} label="Buscar" placeholder="Enunciado, materia, banca..." value={filters.search || ""} onChange={(event) => setFilter("search", event.target.value)} />
+        <Input icon={Search} label="Buscar" placeholder="Enunciado, matéria, banca..." value={filters.search || ""} onChange={(event) => setFilter("search", event.target.value)} />
         <Select
-          label="Area"
+          label="Área"
           options={[
             { value: "geral", label: "Geral" },
             { value: "oab", label: "OAB" },
@@ -181,13 +181,13 @@ export default function QuestoesPage() {
           onChange={(event) => setFilter("area", event.target.value)}
         />
         <Select label="Concurso" placeholder="Todos" options={concursoOptions} value={filters.concurso || ""} onChange={(event) => setFilter("concurso", event.target.value)} />
-        <Select label="Materia" placeholder="Todas" options={materiaOptions} value={filters.materia || ""} onChange={(event) => setFilter("materia", event.target.value)} />
+        <Select label="Matéria" placeholder="Todas" options={materiaOptions} value={filters.materia || ""} onChange={(event) => setFilter("materia", event.target.value)} />
       </div>
       <div className="mt-3 grid gap-3 md:grid-cols-3">
         <Select label="Banca" placeholder="Todas" options={bancaOptions} value={filters.banca || ""} onChange={(event) => setFilter("banca", event.target.value)} />
         <Select label="Dificuldade" placeholder="Todas" options={dificuldadeOptions} value={filters.dificuldade || ""} onChange={(event) => setFilter("dificuldade", event.target.value)} />
         <Select label="Ano" placeholder="Todos" options={anoOptions} value={filters.ano || ""} onChange={(event) => setFilter("ano", event.target.value)} />
-        <Select label="Situacao" placeholder="Todas" options={statusOptions} value={filters.status || ""} onChange={(event) => setFilter("status", event.target.value)} />
+        <Select label="Situação" placeholder="Todas" options={statusOptions} value={filters.status || ""} onChange={(event) => setFilter("status", event.target.value)} />
       </div>
     </>
   );
@@ -196,9 +196,9 @@ export default function QuestoesPage() {
     <div className="mx-auto max-w-[1500px]">
       <div className="mb-5 flex flex-col gap-3 xl:flex-row xl:items-end xl:justify-between" data-tour="tour-questoes-header">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-wide text-blue-300">Banco de questoes</p>
-          <h1 className="text-3xl font-black text-white">Treino por banca, materia e desempenho</h1>
-          <p className="mt-1 text-sm text-gray-400">Resolva, confira o gabarito comentado e envie erros para revisao.</p>
+          <p className="text-xs font-semibold uppercase tracking-wide text-blue-300">Banco de questões</p>
+          <h1 className="text-3xl font-black text-white">Treino por banca, matéria e desempenho</h1>
+          <p className="mt-1 text-sm text-gray-400">Resolva, confira o gabarito comentado e envie erros para revisão.</p>
         </div>
         <div className="flex flex-wrap gap-2">
           <Button className="md:hidden" data-tour="tour-questoes-filters" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen((value) => !value)}>
@@ -214,7 +214,7 @@ export default function QuestoesPage() {
         <Card hover={false} className="mb-4 hidden md:block" data-tour="tour-questoes-filters">
           {filtersContent}
           <div className="mt-3 flex flex-wrap items-center justify-between gap-2 border-t border-gray-800 pt-3 text-xs text-gray-500">
-            <span>{visibleFilterCount ? `${visibleFilterCount} filtro(s) ativo(s)` : "Nenhum filtro ativo"} - area atual: {questoesService.getAreaLabel(filters.area || "geral")} - treino aleatorio inteligente</span>
+            <span>{visibleFilterCount ? `${visibleFilterCount} filtro(s) ativo(s)` : "Nenhum filtro ativo"} - área atual: {questoesService.getAreaLabel(filters.area || "geral")} - treino aleatório inteligente</span>
             <span>{formatNumber(visible.length)} de {formatNumber(total)} carregadas</span>
           </div>
         </Card>
@@ -225,7 +225,7 @@ export default function QuestoesPage() {
           <div className="mb-3 flex items-center justify-between gap-3">
             <div>
               <h2 className="text-base font-black text-slate-950">Filtros</h2>
-              <p className="text-xs font-semibold text-slate-500">{formatNumber(totalAvailable)} questoes disponiveis</p>
+              <p className="text-xs font-semibold text-slate-500">{formatNumber(totalAvailable)} questões disponíveis</p>
             </div>
             <Button size="sm" variant="ghost" onClick={() => setMobileFiltersOpen(false)}>Fechar</Button>
           </div>
@@ -245,8 +245,8 @@ export default function QuestoesPage() {
       ) : null}
 
       <div className="mb-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-4" data-tour="tour-questoes-stats">
-        <StatCard icon={BookOpenCheck} label="Questoes filtradas" value={formatNumber(total)} />
-        <StatCard icon={BarChart3} label={stats?.amostraLocal ? "Acervo disponivel" : "Acervo carregado"} value={formatNumber(totalAvailable)} tone="text-blue-300" />
+        <StatCard icon={BookOpenCheck} label="Questões filtradas" value={formatNumber(total)} />
+        <StatCard icon={BarChart3} label={stats?.amostraLocal ? "Acervo disponível" : "Acervo carregado"} value={formatNumber(totalAvailable)} tone="text-blue-300" />
         <StatCard icon={Target} label="Taxa de acerto" value={`${accuracy}%`} tone={accuracy >= 70 ? "text-emerald-500" : accuracy >= 50 ? "text-amber-500" : "text-red-500"} />
         <StatCard icon={Trophy} label="Resolvidas" value={resolved} tone="text-blue-300" />
       </div>
@@ -272,7 +272,7 @@ export default function QuestoesPage() {
       ) : (
         <EmptyState
           icon={Search}
-          title="Nenhuma questao encontrada"
+          title="Nenhuma questão encontrada"
           description="Ajuste os filtros ou limpe a busca para voltar ao treino."
           action={<div className="grid place-items-center gap-3"><Mascot size="lg" pose="feedback" framed={false} /><Button variant="secondary" onClick={() => resetTraining({ area: initialArea })}>Limpar filtros</Button></div>}
         />

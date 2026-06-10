@@ -2,8 +2,8 @@ export const routeLabels = {
   dashboard: "Dashboard",
   plano: "Plano de estudos",
   simulados: "Simulados",
-  questoes: "Banco de questoes",
-  redacao: "Redacao",
+  questoes: "Banco de questões",
+  redacao: "Redação",
   ia: "IA Aprovinho",
   ajuda: "Central de Ajuda",
   flashcards: "Flashcards",
@@ -12,7 +12,7 @@ export const routeLabels = {
   perfil: "Perfil",
   taf: "TAF",
   biblioteca: "Biblioteca",
-  revisao: "Central de revisao",
+  revisao: "Central de revisão",
   erros: "Caderno de erros",
 };
 

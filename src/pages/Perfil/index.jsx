@@ -6,7 +6,7 @@ import { ProfileForm } from "../../forms";
 
 const tabs = [
   { key: "perfil", label: "Editar perfil" },
-  { key: "config", label: "Configuracoes" },
+  { key: "config", label: "Configurações" },
   { key: "conta", label: "Conta" },
 ];
 
@@ -29,7 +29,7 @@ function objectiveLabel(user = {}) {
 }
 
 function locationLabel(user = {}) {
-  return [user.city, user.state, user.country].filter(Boolean).join(", ") || "Localizacao nao definida";
+  return [user.city, user.state, user.country].filter(Boolean).join(", ") || "Localização não definida";
 }
 
 function Field({ label, children }) {
@@ -75,7 +75,7 @@ export default function PerfilPage() {
 
   const updatePreference = useCallback((key, value) => {
     preferences.updatePreference(key, value);
-    addNotification({ type: "success", title: "Configuracao atualizada", message: "Preferencia salva neste dispositivo." });
+    addNotification({ type: "success", title: "Configuração atualizada", message: "Preferência salva neste dispositivo." });
   }, [addNotification, preferences]);
 
   const studyDays = preferences.studyDays || ["segunda", "terca", "quarta", "quinta", "sexta"];
@@ -98,9 +98,9 @@ export default function PerfilPage() {
 
   const quickStats = [
     { label: "Objetivo", value: objectiveLabel(user), icon: Target },
-    { label: "Nivel", value: user.nivel || "Intermediario", icon: BookOpenCheck },
+    { label: "Nível", value: user.nivel || "Intermediário", icon: BookOpenCheck },
     { label: "Carga semanal", value: `${user.horasSemanais || plan.weeklyHours || 0}h`, icon: Clock3 },
-    { label: "Localizacao", value: locationLabel(user), icon: MapPin },
+    { label: "Localização", value: locationLabel(user), icon: MapPin },
   ];
 
   return (
@@ -115,7 +115,7 @@ export default function PerfilPage() {
                 <Badge variant="success">Conta ativa</Badge>
               </div>
               <h1 className="mt-2 truncate text-3xl font-black text-white">{user?.name || "Aluno Aprova+"}</h1>
-              <p className="mt-1 text-sm font-medium text-blue-50">{objectiveLabel(user)} - {user?.nivel || "intermediario"}</p>
+              <p className="mt-1 text-sm font-medium text-blue-50">{objectiveLabel(user)} - {user?.nivel || "intermediário"}</p>
             </div>
           </div>
           <div className="rounded-lg border border-white/25 bg-white/15 p-4 text-white shadow-inner">
@@ -124,7 +124,7 @@ export default function PerfilPage() {
               <strong className="text-white">{profileProgress}%</strong>
             </div>
             <ProgressBar value={profileProgress} color="bg-white" />
-            <p className="mt-3 text-xs font-medium leading-5 text-blue-50">Complete dados pessoais, localizacao e objetivo para melhorar seu plano.</p>
+            <p className="mt-3 text-xs font-medium leading-5 text-blue-50">Complete dados pessoais, localização e objetivo para melhorar seu plano.</p>
           </div>
         </div>
       </section>
@@ -163,7 +163,7 @@ export default function PerfilPage() {
             <UserRound className="text-blue-600" size={18} />
             <div>
               <h2 className="font-bold text-slate-950">Dados da conta</h2>
-              <p className="text-sm text-slate-500">Nome, contato, cidade, estado, pais e objetivo principal.</p>
+              <p className="text-sm text-slate-500">Nome, contato, cidade, estado, país e objetivo principal.</p>
             </div>
           </div>
           <ProfileForm user={user} onSave={save} />
@@ -191,7 +191,7 @@ export default function PerfilPage() {
               <Bell className="text-blue-600" size={18} />
               <div>
                 <h2 className="font-bold text-slate-950">Rotina de estudo</h2>
-                <p className="text-sm text-slate-500">Preferencias usadas em lembretes, plano e dashboard.</p>
+                <p className="text-sm text-slate-500">Preferências usadas em lembretes, plano e dashboard.</p>
               </div>
             </div>
             <div className="grid gap-3">
@@ -201,7 +201,7 @@ export default function PerfilPage() {
                   <ToggleButton active={!preferences.reminderEnabled} onClick={() => updatePreference("reminderEnabled", false)}>Desativado</ToggleButton>
                 </div>
               </Field>
-              <Field label="Meta diaria">
+              <Field label="Meta diária">
                 <SelectField value={preferences.dailyGoalHours || 3} onChange={(event) => updatePreference("dailyGoalHours", Number(event.target.value))}>
                   {[1, 2, 3, 4, 5, 6].map((hour) => <option key={hour} value={hour}>{hour}h por dia</option>)}
                 </SelectField>
@@ -209,8 +209,8 @@ export default function PerfilPage() {
               <Field label="Modo de estudo">
                 <SelectField value={preferences.studyMode || "foco"} onChange={(event) => updatePreference("studyMode", event.target.value)}>
                   <option value="foco">Foco</option>
-                  <option value="revisao">Revisao</option>
-                  <option value="questoes">Questoes</option>
+                  <option value="revisao">Revisão</option>
+                  <option value="questoes">Questões</option>
                   <option value="simulado">Simulado</option>
                 </SelectField>
               </Field>
@@ -267,10 +267,10 @@ export default function PerfilPage() {
           <Card hover={false} className="border-blue-100 bg-white shadow-sm">
             <div className="mb-3 flex items-center gap-2">
               <Mail className="text-blue-600" size={18} />
-              <h2 className="font-bold text-slate-950">Seguranca</h2>
+              <h2 className="font-bold text-slate-950">Segurança</h2>
             </div>
             <div className="mb-4 rounded-lg border border-blue-100 bg-blue-50 p-3 text-sm leading-6 text-slate-700">
-              <div className="mb-2 flex items-center gap-2 font-bold text-blue-700"><ShieldCheck size={16} /> Sessao ativa</div>
+              <div className="mb-2 flex items-center gap-2 font-bold text-blue-700"><ShieldCheck size={16} /> Sessão ativa</div>
               Revise seus dados principais e saia da conta quando terminar de estudar.
             </div>
             <Button className="w-full" variant="danger" icon={LogOut} onClick={logout}>Sair da conta</Button>

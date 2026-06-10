@@ -5,20 +5,20 @@ import { useInternalRouter } from "../../contexts";
 import { routeLabels } from "../../tours/tourUtils";
 
 const helpItems = [
-  { route: "dashboard", title: "Dashboard", description: "Entenda progresso, metas, desempenho e proximas acoes.", icon: BookOpen },
-  { route: "plano", title: "Plano de estudos", description: "Aprenda a usar calendario, filtros, atividades e progresso semanal.", icon: PlayCircle },
-  { route: "questoes", title: "Banco de questoes", description: "Veja como filtrar, responder, salvar e revisar questoes.", icon: HelpCircle },
+  { route: "dashboard", title: "Dashboard", description: "Entenda progresso, metas, desempenho e próximas ações.", icon: BookOpen },
+  { route: "plano", title: "Plano de estudos", description: "Aprenda a usar calendário, filtros, atividades e progresso semanal.", icon: PlayCircle },
+  { route: "questoes", title: "Banco de questões", description: "Veja como filtrar, responder, salvar e revisar questões.", icon: HelpCircle },
   { route: "simulados", title: "Simulados", description: "Configure treinos cronometrados e acompanhe resultados.", icon: LifeBuoy },
-  { route: "redacao", title: "Redacao", description: "Use o editor, correcao e historico de evolucao.", icon: MessageCircleQuestion },
-  { route: "ia", title: "IA Aprovinho", description: "Descubra como tirar duvidas e gerar planos com contexto.", icon: MessageCircleQuestion },
+  { route: "redacao", title: "Redação", description: "Use o editor, correção e histórico de evolução.", icon: MessageCircleQuestion },
+  { route: "ia", title: "IA Aprovinho", description: "Descubra como tirar dúvidas e gerar planos com contexto.", icon: MessageCircleQuestion },
   { route: "flashcards", title: "Flashcards", description: "Revise por cards, responda antes de virar e registre acertos ou erros.", icon: Layers },
-  { route: "mapas", title: "Mapas mentais", description: "Aprenda a navegar, filtrar, estudar e transformar mapas em revisao.", icon: GitBranch },
-  { route: "leis", title: "Leis Secas", description: "Veja como ler artigos, grifar, anotar e praticar questoes conectadas.", icon: Scale },
+  { route: "mapas", title: "Mapas mentais", description: "Aprenda a navegar, filtrar, estudar e transformar mapas em revisão.", icon: GitBranch },
+  { route: "leis", title: "Leis Secas", description: "Veja como ler artigos, grifar, anotar e praticar questões conectadas.", icon: Scale },
 ];
 
 export default function AjudaPage() {
   const { route } = useInternalRouter();
-  const currentLabel = routeLabels[route] || "esta pagina";
+  const currentLabel = routeLabels[route] || "esta página";
 
   return (
     <div className="mx-auto max-w-6xl pb-10 text-slate-900" data-tour="tour-ajuda-page">
@@ -29,7 +29,7 @@ export default function AjudaPage() {
               <p className="text-xs font-black uppercase tracking-wide text-blue-600">Central de Ajuda</p>
               <h1 className="text-3xl font-black text-slate-950">Tutoriais guiados do Aprova Mais</h1>
               <p className="mt-1 max-w-2xl text-sm leading-6 text-slate-500">
-                Reabra o tour geral ou veja um passo a passo especifico para cada area da plataforma.
+                Reabra o tour geral ou veja um passo a passo específico para cada área da plataforma.
               </p>
             </div>
           </div>
@@ -40,8 +40,8 @@ export default function AjudaPage() {
       <section className="mb-5 rounded-lg border border-blue-100 bg-blue-50 p-4">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <h2 className="font-black text-slate-950">Como usar esta pagina?</h2>
-            <p className="text-sm text-slate-500">Voce esta em {currentLabel}. Use este botao em qualquer tela para abrir o tutorial daquela area.</p>
+            <h2 className="font-black text-slate-950">Como usar esta página?</h2>
+            <p className="text-sm text-slate-500">Você está em {currentLabel}. Use este botão em qualquer tela para abrir o tutorial daquela área.</p>
           </div>
           <TourButton />
         </div>
