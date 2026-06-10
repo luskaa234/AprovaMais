@@ -2,14 +2,16 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import { TUTOR_SYSTEM_PROMPT, montarContextoAluno } from "../ai/tutorPrompt";
 
 const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
-const modelName = import.meta.env.VITE_GEMINI_MODEL || "gemini-2.0-flash";
+const modelName = import.meta.env.VITE_GEMINI_MODEL || "gemini-2.5-flash";
 const genAI = apiKey ? new GoogleGenerativeAI(apiKey) : null;
 const model = genAI?.getGenerativeModel({
   model: modelName,
   systemInstruction: TUTOR_SYSTEM_PROMPT,
 });
+let lastAIStatus = { source: apiKey ? "gemini-ready" : "not-configured", modelName, error: "" };
 
 function fallback(mensagem) {
+  lastAIStatus = { source: "not-configured", modelName, error: "VITE_GEMINI_API_KEY ausente" };
   return `Configure VITE_GEMINI_API_KEY no .env para ativar o tutor. Pergunta recebida: "${mensagem}"`;
 }
 
@@ -135,10 +137,14 @@ function localTutorResponse(mensagem = "", perfil = {}, desempenho = {}) {
 
 function friendlyAIError(error, mensagem = "") {
   if (isQuotaError(error)) {
+    lastAIStatus = { source: "quota-fallback", modelName, error: String(error?.message || error || "Cota excedida") };
+    console.warn("[Gemini] Cota/limite atingido. Usando fallback local.", error);
     return localTutorResponse(mensagem);
   }
 
-  return "Nao foi possivel consultar a IA agora. Tente novamente em instantes.";
+  lastAIStatus = { source: "error", modelName, error: String(error?.message || error || "Erro desconhecido") };
+  console.error("[Gemini] Falha real na chamada da API:", error);
+  return `Não foi possível consultar o Gemini agora (${lastAIStatus.error}). Tente novamente em instantes.`;
 }
 
 function normalizeChatHistory(historico = []) {
@@ -164,11 +170,15 @@ function normalizeChatHistory(historico = []) {
 export const aiService = {
   isConfigured: Boolean(apiKey),
   modelName,
+  getStatus() {
+    return lastAIStatus;
+  },
 
   async gerarTexto(prompt) {
     if (!model) return fallback(prompt);
     try {
       const result = await model.generateContent(prompt);
+      lastAIStatus = { source: "gemini", modelName, error: "" };
       return result.response.text();
     } catch (error) {
       return friendlyAIError(error, prompt);
@@ -176,7 +186,10 @@ export const aiService = {
   },
 
   async enviarMensagem(mensagem, historico = [], perfil = {}, desempenho = {}) {
-    if (!model) return localTutorResponse(mensagem, perfil, desempenho);
+    if (!model) {
+      lastAIStatus = { source: "not-configured", modelName, error: "VITE_GEMINI_API_KEY ausente" };
+      return localTutorResponse(mensagem, perfil, desempenho);
+    }
     const contexto = montarContextoAluno(perfil, desempenho);
 
     const chat = model.startChat({
@@ -186,9 +199,10 @@ export const aiService = {
 
     try {
       const result = await chat.sendMessage(`${contexto}\n\nPERGUNTA DO ALUNO: ${mensagem}`);
+      lastAIStatus = { source: "gemini", modelName, error: "" };
       return result.response.text();
     } catch (error) {
-      return isQuotaError(error) ? localTutorResponse(mensagem, perfil, desempenho) : friendlyAIError(error, mensagem);
+      return friendlyAIError(error, mensagem);
     }
   },
 
@@ -204,9 +218,10 @@ ${detalhe}
 Gere um relatorio ${tipo === "semanal" ? "semanal" : "completo"} de desempenho seguindo a estrutura da sua funcao de relatorios: resumo executivo, pontos fortes, pontos fracos ordenados por impacto, padroes de erro, evolucao e plano de acao com numeros concretos. Seja direto e pratico.`;
     try {
       const result = await model.generateContent(prompt);
+      lastAIStatus = { source: "gemini", modelName, error: "" };
       return result.response.text();
     } catch (error) {
-      return isQuotaError(error) ? localTutorResponse("relatorio de desempenho", perfil, desempenho) : friendlyAIError(error, "relatorio de desempenho");
+      return friendlyAIError(error, "relatorio de desempenho");
     }
   },
 
