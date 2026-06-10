@@ -1,7 +1,7 @@
 import { memo, useCallback, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { AlertTriangle, Bookmark, BookmarkCheck, CheckCircle2, Flag, Lightbulb, XCircle } from "lucide-react";
-import { Badge, Button, Card, cx } from "../../components";
+import { Badge, Button, Card, Mascot, cx } from "../../components";
 
 const difficultyVariant = {
   facil: "success",
@@ -108,11 +108,16 @@ export const QuestionCard = memo(({ questao, index = 0, saved = false, inErrorBo
         {confirmed ? (
           <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="mt-5 grid gap-3">
             <div className={cx("rounded-lg border p-4", isCorrect ? "border-emerald-300 bg-emerald-50" : "border-red-300 bg-red-50")}>
-              <p className="flex items-center gap-2 font-bold text-slate-950">
-                {isCorrect ? <CheckCircle2 className="text-emerald-300" /> : <XCircle className="text-red-300" />}
-                {isCorrect ? "Correto" : "Incorreto"} - Gabarito {String(questao.gabarito).toUpperCase()}
-              </p>
-              <p className="mt-2 whitespace-pre-wrap text-sm leading-relaxed text-slate-700">{questao.comentario || "Comentario ainda nao disponivel."}</p>
+              <div className="flex items-start gap-3">
+                {isCorrect ? <Mascot size="sm" pose="acerto" framed={false} /> : null}
+                <div>
+                  <p className="flex items-center gap-2 font-bold text-slate-950">
+                    {isCorrect ? <CheckCircle2 className="text-emerald-500" /> : <XCircle className="text-red-500" />}
+                    {isCorrect ? "Correto" : "Incorreto"} - Gabarito {String(questao.gabarito).toUpperCase()}
+                  </p>
+                  <p className="mt-2 whitespace-pre-wrap text-sm leading-relaxed text-slate-700">{questao.comentario || "Comentario ainda nao disponivel."}</p>
+                </div>
+              </div>
             </div>
             <div className="rounded-lg border-l-4 border-blue-500 bg-blue-50 p-4 text-sm text-slate-700">
               <p className="flex items-center gap-2 font-bold"><Lightbulb size={17} />Analise da IA</p>

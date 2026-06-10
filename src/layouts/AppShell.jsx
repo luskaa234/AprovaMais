@@ -158,7 +158,7 @@ const Topbar = memo(({ onMenu }) => {
           </button>
 
           {notificationsOpen ? (
-            <div className="absolute right-0 top-full z-40 mt-2 w-[min(20rem,calc(100vw-1rem))] rounded-2xl border border-gray-800 bg-gray-950 p-3 shadow-xl">
+            <div className="notification-panel absolute right-0 top-full z-40 mt-2 w-[min(20rem,calc(100vw-1rem))] rounded-2xl border border-gray-800 bg-gray-950 p-3 shadow-xl">
               <div className="mb-2 flex items-center justify-between gap-3">
                 <strong className="text-sm text-white">Notificacoes</strong>
                 <button className="text-xs text-blue-600" onClick={clearAll} type="button">

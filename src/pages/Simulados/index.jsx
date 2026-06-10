@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { CheckCircle2, Flag, Play, RotateCcw, Timer, XCircle } from "lucide-react";
-import { Badge, Button, Card, EmptyState, Select, cx } from "../../components";
+import { Badge, Button, Card, EmptyState, Mascot, Select, cx } from "../../components";
 import { DistributionPieChart, PerformanceChart } from "../../charts";
 import { useAsyncData, useTimer } from "../../hooks";
 import { useNotifications, useUser } from "../../contexts";
@@ -13,10 +13,13 @@ function SimuladoResultado({ result, onRedo, onReview }) {
     <div>
       <Card hover={false}>
         <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
-          <div>
+          <div className="flex items-center gap-3">
+            <Mascot size="lg" pose={result.percent >= 70 ? "comemoracao" : "motivacao"} framed={false} />
+            <div>
             <p className="text-sm text-gray-400">Resultado final</p>
             <h1 className={cx("text-5xl font-black", tone)}>{result.percent}%</h1>
             <p className="mt-1 text-gray-300">{result.correct}/{result.total} questoes corretas · tempo {result.tempo}</p>
+            </div>
           </div>
           <div className="flex gap-2">
             <Button icon={RotateCcw} onClick={onRedo}>Refazer</Button>
@@ -110,7 +113,7 @@ function SimuladoExecucao({ simulado, onFinish }) {
             <button
               key={item.id}
               onClick={() => setCurrent(index)}
-              className={cx("size-10 rounded-lg text-sm font-bold", marked[item.id] ? "bg-amber-500 text-gray-950" : answers[item.id] ? "bg-blue-600 text-white" : "bg-gray-800 text-gray-300", current === index && "ring-2 ring-indigo-300")}
+              className={cx("size-10 rounded-lg text-sm font-bold", marked[item.id] ? "bg-amber-500 text-gray-950" : answers[item.id] ? "bg-blue-600 text-white" : "bg-gray-800 text-gray-300", current === index && "ring-2 ring-blue-300")}
             >
               {index + 1}
             </button>
@@ -166,7 +169,7 @@ export default function SimuladosPage() {
       <h1 className="mb-1 text-3xl font-black text-white">Simulados</h1>
       <p className="mb-5 text-sm text-gray-400">Questoes no mesmo padrao do banco: enunciado, alternativas, gabarito e comentario.</p>
       {!templates.length ? (
-        <EmptyState title="Nenhum simulado disponivel" description="Importe questoes oficiais para liberar os simulados." />
+        <EmptyState title="Nenhum simulado disponivel" description="Importe questoes oficiais para liberar os simulados." action={<Mascot size="lg" pose="feedback" framed={false} />} />
       ) : null}
       <div className="grid gap-4 lg:grid-cols-3">
         {templates.map((template) => (

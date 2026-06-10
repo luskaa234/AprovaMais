@@ -3,17 +3,17 @@ import { Download, FileText, Heart } from "lucide-react";
 import { Badge, Card, cx } from "../../components";
 
 const tones = {
-  Apostila: "bg-blue-500/10 text-blue-200",
-  Ebook: "bg-purple-500/10 text-purple-200",
-  "Prova oficial": "bg-emerald-500/10 text-emerald-200",
-  Gabarito: "bg-amber-500/10 text-amber-200",
-  "Mapas mentais": "bg-indigo-500/10 text-indigo-200",
-  Imagem: "bg-pink-500/10 text-pink-200",
+  Apostila: "bg-blue-50 text-blue-700",
+  Ebook: "bg-blue-50 text-blue-700",
+  "Prova oficial": "bg-blue-50 text-blue-700",
+  Gabarito: "bg-blue-50 text-blue-700",
+  "Mapas mentais": "bg-blue-50 text-blue-700",
+  Imagem: "bg-blue-50 text-blue-700",
 };
 
 export const MaterialCard = memo(({ material, favorite, onFavorite }) => (
   <Card>
-    <div className={cx("grid h-28 place-items-center rounded-lg", tones[material.tipo] || "bg-gray-900 text-indigo-200")}>
+    <div className={cx("grid h-28 place-items-center rounded-lg", tones[material.tipo] || "bg-blue-50 text-blue-700")}>
       <FileText size={36} />
     </div>
     <div className="mt-3 flex items-start justify-between gap-2">

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { CheckCircle2, Filter, Layers, RefreshCw, Search, XCircle } from "lucide-react";
-import { Badge, Button, Card, EmptyState, Input, Select } from "../../components";
+import { Badge, Button, Card, EmptyState, Input, Mascot, Select } from "../../components";
 import { StudyTimeChart } from "../../charts";
 import { useNotifications } from "../../contexts";
 import { Modal } from "../../modals";
@@ -92,7 +92,14 @@ export default function CadernoErrosPage() {
                 </div>
               </Card>
             );
-          }) : <EmptyState icon={CheckCircle2} title="Nenhum erro na lista" description="Erros respondidos e questoes marcadas aparecem aqui automaticamente." />}
+          }) : (
+            <EmptyState
+              icon={CheckCircle2}
+              title="Nenhum erro na lista"
+              description="Erros respondidos e questoes marcadas aparecem aqui automaticamente."
+              action={<Mascot size="lg" pose="feedback" framed={false} />}
+            />
+          )}
         </div>
         <Card hover={false}>
           <h2 className="mb-3 font-bold text-white">Distribuicao de erros</h2>

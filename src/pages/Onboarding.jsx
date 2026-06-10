@@ -156,12 +156,12 @@ function OptionCard({ active, children, icon: Icon, onClick }) {
     <button
       className={cx(
         "flex min-h-24 flex-col items-start justify-between rounded-lg border p-4 text-left transition",
-        active ? "border-blue-500 bg-blue-500/15 text-white" : "border-gray-800 bg-gray-950 text-gray-300 hover:border-blue-500/70"
+        active ? "border-blue-600 bg-blue-600 text-white shadow-sm shadow-blue-200" : "border-blue-100 bg-white text-slate-700 hover:border-blue-300 hover:bg-blue-50"
       )}
       onClick={onClick}
       type="button"
     >
-      {Icon ? <Icon size={20} className={active ? "text-blue-200" : "text-blue-400"} /> : null}
+      {Icon ? <Icon size={20} className={active ? "text-blue-100" : "text-blue-500"} /> : null}
       <span className="mt-3 text-sm font-bold">{children}</span>
     </button>
   );
@@ -172,7 +172,7 @@ function CheckPill({ active, label, onClick }) {
     <button
       className={cx(
         "inline-flex min-h-10 items-center gap-2 rounded-lg border px-3 text-sm font-semibold transition",
-        active ? "border-blue-500 bg-blue-500 text-white" : "border-gray-800 bg-gray-950 text-gray-300 hover:border-blue-500/70"
+        active ? "border-blue-600 bg-blue-600 text-white" : "border-blue-100 bg-white text-slate-700 hover:border-blue-300 hover:bg-blue-50"
       )}
       onClick={onClick}
       type="button"
@@ -281,32 +281,32 @@ export default function Onboarding() {
   };
 
   return (
-    <main className="min-h-screen bg-gray-950 px-4 py-6 text-white sm:px-6 lg:px-8">
+    <main className="min-h-screen bg-[linear-gradient(180deg,#f8fbff,#eef6ff)] px-4 py-6 text-slate-950 sm:px-6 lg:px-8">
       <div className="mx-auto flex min-h-[calc(100vh-3rem)] max-w-6xl flex-col">
         <div className="mb-6 flex items-center justify-between gap-4">
           <BrandLogo className="internal-brand-logo" />
-          <span className="rounded-full border border-gray-800 bg-gray-900 px-3 py-1 text-xs font-bold text-gray-300">
+          <span className="rounded-full border border-blue-100 bg-white px-3 py-1 text-xs font-bold text-blue-700 shadow-sm">
             Etapa {step + 1} de {stepTitles.length}
           </span>
         </div>
 
-        <div className="mb-6 h-2 overflow-hidden rounded-full bg-gray-900">
+        <div className="mb-6 h-2 overflow-hidden rounded-full bg-blue-100">
           <div className="h-full rounded-full bg-blue-500 transition-all" style={{ width: `${progress}%` }} />
         </div>
 
         <section className="grid flex-1 gap-6 lg:grid-cols-[320px_1fr]">
-          <aside className="rounded-lg border border-gray-800 bg-gray-900/70 p-4">
-            <span className="inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/10 px-3 py-1 text-xs font-bold text-blue-200">
+          <aside className="rounded-lg border border-blue-100 bg-white p-4 shadow-sm">
+            <span className="inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50 px-3 py-1 text-xs font-bold text-blue-700">
               <Sparkles size={14} />
               Diagnostico inteligente
             </span>
             <h1 className="mt-4 text-2xl font-black leading-tight">A IA monta seu estudo a partir das suas respostas.</h1>
-            <p className="mt-3 text-sm leading-6 text-gray-400">
+            <p className="mt-3 text-sm leading-6 text-slate-500">
               O onboarding separa OAB, concurso, ENEM, ensino medio e vestibular para entregar um dashboard focado no seu objetivo.
             </p>
-            <div className="mt-6 rounded-lg border border-blue-500/20 bg-blue-500/10 p-4">
-              <Mascot size="xl" framed={false} className="mx-auto -my-4" />
-              <p className="mt-2 text-center text-sm font-semibold text-blue-100">
+            <div className="mt-6 rounded-lg border border-blue-100 bg-blue-50 p-4">
+              <Mascot size="xl" pose={step === stepTitles.length - 1 ? "comemoracao" : "boasVindas"} framed={false} className="mx-auto -my-4" />
+              <p className="mt-2 text-center text-sm font-semibold text-blue-800">
                 Vou organizar suas respostas e transformar isso em um plano pratico.
               </p>
             </div>
@@ -316,7 +316,7 @@ export default function Onboarding() {
                 <button
                   className={cx(
                     "flex w-full items-center gap-3 rounded-lg px-3 py-2 text-left text-sm transition",
-                    index === step ? "bg-blue-600 text-white" : index < step ? "bg-gray-800 text-gray-200" : "text-gray-500"
+                    index === step ? "bg-blue-600 text-white" : index < step ? "bg-blue-50 text-blue-800" : "text-slate-500 hover:bg-blue-50"
                   )}
                   key={title}
                   onClick={() => setStep(index)}
@@ -329,10 +329,10 @@ export default function Onboarding() {
             </div>
           </aside>
 
-          <form className="rounded-lg border border-gray-800 bg-gray-900/70 p-4 shadow-2xl shadow-black/20 sm:p-6" onSubmit={(event) => event.preventDefault()}>
+          <form className="rounded-lg border border-blue-100 bg-white p-4 shadow-sm sm:p-6" onSubmit={(event) => event.preventDefault()}>
             <div className="mb-5">
               <h2 className="text-2xl font-black">{stepTitles[step]}</h2>
-              <p className="mt-1 text-sm text-gray-400">
+              <p className="mt-1 text-sm text-slate-500">
                 {selectedObjective ? `Objetivo selecionado: ${selectedObjective.label}` : "Escolha seu caminho para personalizar o restante."}
               </p>
             </div>
@@ -341,7 +341,7 @@ export default function Onboarding() {
               <div className="grid gap-4">
                 <Input icon={UserRound} label="Qual e o seu nome?" onChange={(event) => update("name", event.target.value)} placeholder="Seu nome" value={form.name} />
                 <div>
-                  <span className="mb-2 block text-sm font-semibold text-gray-200">Qual e seu objetivo principal?</span>
+                  <span className="mb-2 block text-sm font-semibold text-slate-700">Qual e seu objetivo principal?</span>
                   <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                     {objectives.map((objective) => (
                       <OptionCard
@@ -416,7 +416,7 @@ export default function Onboarding() {
                   <Input label="Quantos dias por semana?" max="7" min="1" onChange={(event) => update("daysPerWeek", event.target.value)} type="number" value={form.daysPerWeek} />
                 </div>
                 <div>
-                  <span className="mb-2 block text-sm font-semibold text-gray-200">Quais dias estao disponiveis?</span>
+                  <span className="mb-2 block text-sm font-semibold text-slate-700">Quais dias estao disponiveis?</span>
                   <div className="flex flex-wrap gap-2">
                     {weekDays.map((day) => (
                       <CheckPill
@@ -444,7 +444,7 @@ export default function Onboarding() {
             {step === 4 ? (
               <div className="grid gap-5">
                 <div>
-                  <span className="mb-2 block text-sm font-semibold text-gray-200">Gerais</span>
+                  <span className="mb-2 block text-sm font-semibold text-slate-700">Gerais</span>
                   <div className="flex flex-wrap gap-2">
                     {generalSubjects.concat(form.objective === "enem" || form.objective === "vestibular" || form.objective === "ensino-medio" ? schoolSubjects : []).map((subject) => (
                       <CheckPill active={form.difficultSubjects.includes(subject)} key={subject} label={subject} onClick={() => update("difficultSubjects", toggleValue(form.difficultSubjects, subject))} />
@@ -453,7 +453,7 @@ export default function Onboarding() {
                 </div>
                 {(form.objective === "oab" || form.objective === "concurso") ? (
                   <div>
-                    <span className="mb-2 block text-sm font-semibold text-gray-200">Juridicas</span>
+                    <span className="mb-2 block text-sm font-semibold text-slate-700">Juridicas</span>
                     <div className="flex flex-wrap gap-2">
                       {legalSubjects.map((subject) => (
                         <CheckPill active={form.difficultSubjects.includes(subject)} key={subject} label={subject} onClick={() => update("difficultSubjects", toggleValue(form.difficultSubjects, subject))} />
@@ -479,11 +479,11 @@ export default function Onboarding() {
                 </div>
 
                 {form.editalOption === "upload-pdf" ? (
-                  <label className="grid min-h-36 cursor-pointer place-items-center rounded-lg border border-dashed border-gray-700 bg-gray-950 p-6 text-center hover:border-blue-500">
+                  <label className="grid min-h-36 cursor-pointer place-items-center rounded-lg border border-dashed border-blue-200 bg-blue-50 p-6 text-center hover:border-blue-500">
                     <input accept=".pdf,.docx,.txt" className="hidden" onChange={(event) => handleFile(event.target.files?.[0])} type="file" />
                     <Upload className="mb-3 text-blue-300" />
                     <strong>{form.editalFile?.name || "Enviar PDF, DOCX ou TXT"}</strong>
-                    <span className="mt-1 text-xs text-gray-500">TXT sera lido automaticamente. PDF/DOCX ficam vinculados ao diagnostico.</span>
+                    <span className="mt-1 text-xs text-slate-500">TXT sera lido automaticamente. PDF/DOCX ficam vinculados ao diagnostico.</span>
                   </label>
                 ) : null}
 
@@ -503,10 +503,10 @@ export default function Onboarding() {
               <div className="grid gap-4">
                 <div className="rounded-lg border border-blue-500/30 bg-blue-500/10 p-4">
                   <div className="mb-3 flex items-center gap-2">
-                    <Sparkles className="text-blue-200" />
+                    <Sparkles className="text-blue-600" />
                     <h3 className="font-black">Plano que sera criado</h3>
                   </div>
-                  <div className="grid gap-3 text-sm text-gray-300 sm:grid-cols-2">
+                  <div className="grid gap-3 text-sm text-blue-800 sm:grid-cols-2">
                     <span>{diagnosticPlan.weeklyHours}h por semana</span>
                     <span>{diagnosticPlan.availableDays.length} dias disponiveis</span>
                     <span>{diagnosticPlan.prioritySubjects.length} materias prioritarias</span>
@@ -515,30 +515,30 @@ export default function Onboarding() {
                 </div>
 
                 <div className="grid gap-4 lg:grid-cols-2">
-                  <section className="rounded-lg border border-gray-800 bg-gray-950 p-4">
+                  <section className="rounded-lg border border-blue-100 bg-blue-50 p-4">
                     <h3 className="mb-3 font-bold">Materias prioritarias</h3>
                     <div className="flex flex-wrap gap-2">
                       {diagnosticPlan.prioritySubjects.map((subject) => (
-                        <span className="rounded-full bg-blue-500/15 px-3 py-1 text-xs font-bold text-blue-100" key={subject}>{subject}</span>
+                        <span className="rounded-full bg-white px-3 py-1 text-xs font-bold text-blue-700 ring-1 ring-blue-100" key={subject}>{subject}</span>
                       ))}
                     </div>
                   </section>
 
-                  <section className="rounded-lg border border-gray-800 bg-gray-950 p-4">
+                  <section className="rounded-lg border border-blue-100 bg-blue-50 p-4">
                     <h3 className="mb-3 font-bold">Metas semanais</h3>
-                    <ul className="space-y-2 text-sm text-gray-300">
+                    <ul className="space-y-2 text-sm text-slate-600">
                       {diagnosticPlan.weeklyGoals.map((goal) => <li key={goal}>- {goal}</li>)}
                     </ul>
                   </section>
                 </div>
 
-                <section className="rounded-lg border border-gray-800 bg-gray-950 p-4">
+                <section className="rounded-lg border border-blue-100 bg-blue-50 p-4">
                   <h3 className="mb-3 font-bold">Cronograma semanal</h3>
                   <div className="grid gap-3 md:grid-cols-2">
                     {diagnosticPlan.weeklySchedule.map((day) => (
-                      <div className="rounded-lg bg-gray-900 p-3" key={day.day}>
+                      <div className="rounded-lg bg-white p-3 ring-1 ring-blue-100" key={day.day}>
                         <strong className="capitalize">{day.day}</strong>
-                        <div className="mt-2 space-y-1 text-xs text-gray-400">
+                        <div className="mt-2 space-y-1 text-xs text-slate-500">
                           {day.blocks.map((block) => <p key={`${day.day}-${block.type}-${block.subject}`}>{block.type}: {block.subject} - {block.minutes} min</p>)}
                         </div>
                       </div>
@@ -548,7 +548,7 @@ export default function Onboarding() {
               </div>
             ) : null}
 
-            <div className="mt-6 flex flex-col gap-3 border-t border-gray-800 pt-5 sm:flex-row sm:items-center sm:justify-between">
+            <div className="mt-6 flex flex-col gap-3 border-t border-blue-100 pt-5 sm:flex-row sm:items-center sm:justify-between">
               <Button disabled={step === 0} icon={ChevronLeft} onClick={back} type="button" variant="outline">
                 Voltar
               </Button>

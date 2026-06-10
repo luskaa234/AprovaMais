@@ -1,6 +1,6 @@
 import { useCallback, useMemo, useState } from "react";
 import { BarChart3, BookOpenCheck, Filter, RotateCcw, Search, Target, Trophy } from "lucide-react";
-import { Button, Card, EmptyState, Input, Pagination, Select } from "../../components";
+import { Button, Card, EmptyState, Input, Mascot, Pagination, Select } from "../../components";
 import { useNotifications, useUser } from "../../contexts";
 import { useQuestoes } from "../../hooks";
 import { Modal } from "../../modals";
@@ -156,9 +156,9 @@ export default function QuestoesPage() {
 
       <div className="mb-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
         <StatCard icon={BookOpenCheck} label="Questoes filtradas" value={formatNumber(total)} />
-        <StatCard icon={BarChart3} label={stats?.amostraLocal ? "Acervo disponivel" : "Acervo carregado"} value={formatNumber(totalAvailable)} tone="text-indigo-300" />
-        <StatCard icon={Target} label="Taxa de acerto" value={`${accuracy}%`} tone={accuracy >= 70 ? "text-emerald-300" : accuracy >= 50 ? "text-amber-300" : "text-red-300"} />
-        <StatCard icon={Trophy} label="Resolvidas" value={resolved} tone="text-amber-300" />
+        <StatCard icon={BarChart3} label={stats?.amostraLocal ? "Acervo disponivel" : "Acervo carregado"} value={formatNumber(totalAvailable)} tone="text-blue-300" />
+        <StatCard icon={Target} label="Taxa de acerto" value={`${accuracy}%`} tone={accuracy >= 70 ? "text-emerald-500" : accuracy >= 50 ? "text-amber-500" : "text-red-500"} />
+        <StatCard icon={Trophy} label="Resolvidas" value={resolved} tone="text-blue-300" />
       </div>
 
       {filtersOpen ? (
@@ -190,7 +190,12 @@ export default function QuestoesPage() {
           ))}
         </div>
       ) : (
-        <EmptyState icon={Search} title="Nenhuma questao encontrada" description="Ajuste os filtros ou limpe a busca para voltar ao treino." action={<Button variant="secondary" onClick={() => { clearFilters({ area: initialArea }); setPage(1); }}>Limpar filtros</Button>} />
+        <EmptyState
+          icon={Search}
+          title="Nenhuma questao encontrada"
+          description="Ajuste os filtros ou limpe a busca para voltar ao treino."
+          action={<div className="grid place-items-center gap-3"><Mascot size="lg" pose="feedback" framed={false} /><Button variant="secondary" onClick={() => { clearFilters({ area: initialArea }); setPage(1); }}>Limpar filtros</Button></div>}
+        />
       )}
 
       <div className="mt-5 flex justify-center">

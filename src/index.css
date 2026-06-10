@@ -10,6 +10,33 @@
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background: #030712;
   color: #f8fbff;
+  --aprova-blue-50: #eff6ff;
+  --aprova-blue-100: #dbeafe;
+  --aprova-blue-200: #bfdbfe;
+  --aprova-blue-300: #93c5fd;
+  --aprova-blue-400: #60a5fa;
+  --aprova-blue-500: #3b82f6;
+  --aprova-blue-600: #2563eb;
+  --aprova-blue-700: #1d4ed8;
+  --aprova-blue-800: #1e40af;
+  --aprova-blue-900: #1e3a8a;
+  --aprova-ink: #0f172a;
+  --aprova-muted: #64748b;
+  --aprova-line: #dbeafe;
+  --aprova-surface: #ffffff;
+  --aprova-surface-soft: #f8fbff;
+  --aprova-radius-sm: 0.65rem;
+  --aprova-radius: 0.9rem;
+  --aprova-radius-lg: 1.15rem;
+  --aprova-shadow-sm: 0 10px 28px rgba(37, 99, 235, 0.08);
+  --aprova-shadow: 0 18px 46px rgba(15, 23, 42, 0.09);
+  --aprova-focus: 0 0 0 3px rgba(37, 99, 235, 0.18);
+  --status-success: #16a34a;
+  --status-success-soft: #dcfce7;
+  --status-error: #dc2626;
+  --status-error-soft: #fee2e2;
+  --status-warning: #d97706;
+  --status-warning-soft: #fef3c7;
   --primary: oklch(0.205 0 0);
   --success: #60a5fa;
   --dark: #0f172a;
@@ -21,11 +48,10 @@
   --line-strong: rgba(95, 169, 255, 0.28);
   --text: #f8fbff;
   --muted: oklch(0.97 0 0);
-  --blue: #1e6bff;
+  --blue: #2563eb;
   --blue-deep: #0b2c66;
   --blue-bright: #5aa7ff;
-  --blue: #33e287;
-  --blue-soft: rgba(51, 226, 135, 0.16);
+  --blue-soft: rgba(37, 99, 235, 0.14);
   --white-soft: rgba(255, 255, 255, 0.08);
   --shadow: 0 24px 80px rgba(0, 0, 0, 0.4);
   --glow: 0 0 46px rgba(30, 107, 255, 0.32);
@@ -80,6 +106,172 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+}
+
+.aprova-btn-primary {
+  background: var(--aprova-blue-600);
+  color: #ffffff;
+  box-shadow: 0 12px 24px rgba(37, 99, 235, 0.18);
+}
+
+.aprova-btn-primary:hover {
+  background: var(--aprova-blue-500);
+}
+
+.aprova-btn-secondary,
+.aprova-btn-outline {
+  border: 1px solid var(--aprova-blue-200);
+  background: #ffffff;
+  color: var(--aprova-blue-700);
+}
+
+.aprova-btn-secondary:hover,
+.aprova-btn-outline:hover {
+  border-color: var(--aprova-blue-300);
+  background: var(--aprova-blue-50);
+}
+
+.aprova-btn-ghost {
+  color: var(--aprova-blue-700);
+}
+
+.aprova-btn-ghost:hover {
+  background: var(--aprova-blue-50);
+  color: var(--aprova-blue-800);
+}
+
+.aprova-btn-danger {
+  background: var(--status-error);
+  color: #ffffff;
+}
+
+.aprova-btn-danger:hover {
+  filter: brightness(1.04);
+}
+
+.aprova-btn-primary:focus,
+.aprova-btn-secondary:focus,
+.aprova-btn-outline:focus,
+.aprova-btn-ghost:focus,
+.aprova-btn-danger:focus {
+  box-shadow: var(--aprova-focus);
+}
+
+.aprova-card-default,
+.aprova-card-elevated,
+.aprova-card-bordered {
+  border-color: var(--aprova-line);
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--aprova-ink);
+  box-shadow: var(--aprova-shadow-sm);
+}
+
+.aprova-card-elevated {
+  box-shadow: var(--aprova-shadow);
+}
+
+.aprova-card-bordered {
+  background: transparent;
+}
+
+.aprova-input {
+  border-color: var(--aprova-blue-100);
+  background: #ffffff;
+  color: var(--aprova-ink);
+}
+
+.aprova-input::placeholder {
+  color: #94a3b8;
+}
+
+.aprova-input:focus {
+  border-color: var(--aprova-blue-500);
+  box-shadow: var(--aprova-focus);
+}
+
+.aprova-input-error {
+  border-color: var(--status-error) !important;
+}
+
+.aprova-badge-info,
+.aprova-badge-neutral {
+  background: var(--aprova-blue-50);
+  color: var(--aprova-blue-700);
+  --tw-ring-color: var(--aprova-blue-200);
+}
+
+.aprova-badge-success {
+  background: var(--status-success-soft);
+  color: #15803d;
+  --tw-ring-color: #bbf7d0;
+}
+
+.aprova-badge-error {
+  background: var(--status-error-soft);
+  color: #b91c1c;
+  --tw-ring-color: #fecaca;
+}
+
+.aprova-badge-warning {
+  background: var(--status-warning-soft);
+  color: #92400e;
+  --tw-ring-color: #fde68a;
+}
+
+.internal-app-light {
+  background:
+    radial-gradient(circle at 10% 0%, rgba(37, 99, 235, 0.1), transparent 24rem),
+    linear-gradient(180deg, #f8fbff 0%, #eef6ff 100%) !important;
+}
+
+.internal-app-light main {
+  background:
+    radial-gradient(circle at top right, rgba(37, 99, 235, 0.12), transparent 34rem),
+    linear-gradient(180deg, var(--aprova-surface-soft), #eef6ff) !important;
+}
+
+.internal-app-light header,
+.internal-app-light aside {
+  border-color: var(--aprova-line) !important;
+  background: rgba(255, 255, 255, 0.92) !important;
+  box-shadow: 0 10px 32px rgba(37, 99, 235, 0.06);
+}
+
+.internal-app-light main h1 {
+  color: var(--aprova-ink) !important;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+.internal-app-light main h2,
+.internal-app-light main h3 {
+  letter-spacing: 0;
+}
+
+.internal-app-light section,
+.internal-app-light article,
+.internal-app-light .rounded-lg,
+.internal-app-light .rounded-xl {
+  border-radius: var(--aprova-radius);
+}
+
+.internal-app-light .notification-panel {
+  border-color: var(--aprova-blue-100) !important;
+  background: #ffffff !important;
+  color: var(--aprova-ink);
+  box-shadow: var(--aprova-shadow);
+}
+
+.internal-app-light .notification-panel strong {
+  color: var(--aprova-ink) !important;
+}
+
+.internal-app-light .notification-panel p {
+  color: var(--aprova-muted) !important;
+}
+
+.internal-app-light .notification-panel button {
+  color: var(--aprova-blue-700);
 }
 
 /* Aprova+ Hero identity */
@@ -8821,6 +9013,16 @@ main {
     animation: nativeSpin 720ms linear infinite;
   }
 
+  .internal-app-light .notification-panel {
+    position: fixed !important;
+    top: calc(env(safe-area-inset-top) + 4.6rem) !important;
+    right: 0.75rem !important;
+    left: 0.75rem !important;
+    width: auto !important;
+    max-height: min(70svh, 28rem);
+    overflow-y: auto;
+  }
+
   .native-modal-overlay {
     align-items: end !important;
     place-items: end center !important;
@@ -9081,25 +9283,25 @@ main {
 
 .tone-emerald .mobile-study-metric-icon,
 .tone-emerald .mobile-study-action-icon {
-  color: #059669;
-  background: #d1fae5;
+  color: #1d4ed8;
+  background: #bfdbfe;
 }
 
 .tone-violet .mobile-study-metric-icon,
 .tone-violet .mobile-study-action-icon {
-  color: #7c3aed;
-  background: #ede9fe;
+  color: #1e40af;
+  background: #dbeafe;
 }
 
 .tone-amber .mobile-study-metric-icon,
 .tone-amber .mobile-study-action-icon {
-  color: #d97706;
-  background: #fef3c7;
+  color: #2563eb;
+  background: #eff6ff;
 }
 
 .tone-rose .mobile-study-action-icon {
-  color: #e11d48;
-  background: #ffe4e6;
+  color: #1d4ed8;
+  background: #dbeafe;
 }
 
 .mobile-study-section-title {
@@ -9643,6 +9845,14 @@ main {
   .internal-app-light .mobile-study-hero,
   .internal-app-light .mobile-study-hero * {
     color: #ffffff !important;
+  }
+
+  .internal-app-light .mobile-study-hero {
+    border-color: transparent !important;
+    background:
+      radial-gradient(circle at 86% 16%, rgba(147, 197, 253, 0.45), transparent 7rem),
+      linear-gradient(135deg, var(--aprova-blue-700), var(--aprova-blue-500)) !important;
+    box-shadow: 0 20px 50px rgba(37, 99, 235, 0.24) !important;
   }
 }
 

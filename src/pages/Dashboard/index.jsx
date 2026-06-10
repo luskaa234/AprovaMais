@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { BookOpen, CalendarCheck, ChevronRight, Clock, ClipboardList, Dumbbell, FileText, Flame, MessageCircleQuestion, Play, Target, X, Zap } from "lucide-react";
 import { AIPanel } from "../../ai";
-import { Badge, Button, Card, ProgressBar, cx } from "../../components";
+import { Badge, Button, Card, Mascot, ProgressBar, cx } from "../../components";
 import { HeatmapCalendar, PerformanceChart, StudyTimeChart } from "../../charts";
 import { useInternalRouter, useUser } from "../../contexts";
 import { isSupabaseConfigured, supabase } from "../../lib/supabase";
@@ -113,6 +113,7 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
           <h1>Bom estudo, {firstName}</h1>
           <p>Plano ativo para prova, revisao e TAF.</p>
         </div>
+        <Mascot size="lg" pose="boasVindas" framed={false} className="-mr-4 -mt-4 opacity-95" />
       </section>
 
       <section className="mobile-study-progress">
@@ -122,7 +123,7 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
             <strong>{planProgress}%</strong>
           </div>
         </div>
-        <ProgressBar value={planProgress} color="bg-emerald-500" />
+        <ProgressBar value={planProgress} color="bg-blue-600" />
         <div className="mobile-study-progress-goals">
           <span><BookOpen size={15} /> {questions[1]} questoes</span>
           <span><Flame size={15} /> {streak[1]} dias</span>
@@ -438,9 +439,14 @@ export default function DashboardPage() {
 
       {!questoesResolvidas ? (
         <Card className="mt-4" hover={false}>
-          <h2 className="font-bold text-white">Seu progresso comeca nas questoes</h2>
-          <p className="mt-1 text-sm text-gray-400">Resolva uma questao para preencher acertos, erros, sequencia e desempenho por materia.</p>
-          <Button className="mt-3" size="sm" onClick={() => navigate("questoes")}>Abrir questoes</Button>
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+            <Mascot size="lg" pose="motivacao" framed={false} />
+            <div>
+              <h2 className="font-bold text-slate-950">Seu progresso comeca nas questoes</h2>
+              <p className="mt-1 text-sm text-slate-500">Resolva uma questao para preencher acertos, erros, sequencia e desempenho por materia.</p>
+              <Button className="mt-3" size="sm" onClick={() => navigate("questoes")}>Abrir questoes</Button>
+            </div>
+          </div>
         </Card>
       ) : null}
 

@@ -1,7 +1,7 @@
 import { useCallback, useDeferredValue, useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { Search } from "lucide-react";
-import { Badge, Button, EmptyState, Input, cx } from "../../components";
+import { Badge, Button, EmptyState, Input, Mascot, cx } from "../../components";
 import { useNotifications } from "../../contexts";
 import { useAsyncData } from "../../hooks";
 import { flashcardsService } from "../../services";
@@ -264,7 +264,14 @@ export default function FlashcardsPage() {
               </div>
             </div>
           </section>
-        ) : <EmptyState icon={Search} title="Nenhum flashcard encontrado" description="Ajuste a busca para voltar aos cards." />}
+        ) : (
+          <EmptyState
+            icon={Search}
+            title="Nenhum flashcard encontrado"
+            description="Ajuste a busca para voltar aos cards."
+            action={<Mascot size="lg" pose="feedback" framed={false} />}
+          />
+        )}
       </main>
 
     </div>

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { CalendarDays, CheckCircle2, ChevronLeft, ChevronRight, Clock, Filter, PauseCircle, PlayCircle, Plus, RotateCcw, Target, TrendingUp } from "lucide-react";
-import { Badge, Button, Input, Select, cx } from "../../components";
+import { Badge, Button, Input, Mascot, Select, cx } from "../../components";
 import { Modal } from "../../modals";
 import { useAsyncData } from "../../hooks";
 import { planoService } from "../../services";
@@ -45,20 +45,20 @@ function inferType(title = "", materia = "") {
 
 function typeTone(type) {
   const tones = {
-    Estudo: "bg-emerald-500",
-    Revisao: "bg-violet-500",
-    Questoes: "bg-amber-500",
-    Simulado: "bg-orange-500",
+    Estudo: "bg-blue-600",
+    Revisao: "bg-blue-400",
+    Questoes: "bg-sky-500",
+    Simulado: "bg-blue-800",
     Descanso: "bg-slate-400",
   };
   return tones[type] || "bg-blue-500";
 }
 
 function typeBadge(type) {
-  if (type === "Simulado" || type === "Questoes") return "warning";
+  if (type === "Simulado" || type === "Questoes") return "info";
   if (type === "Revisao") return "neutral";
   if (type === "Descanso") return "neutral";
-  return "success";
+  return "info";
 }
 
 function statusTone(status) {
@@ -350,18 +350,24 @@ export default function PlanoPage() {
 
   return (
     <div className="mx-auto min-h-[calc(100vh-9rem)] max-w-[1500px] overflow-visible pb-10 text-slate-900">
-      <div className="mb-5 flex flex-col gap-4 xl:flex-row xl:items-end xl:justify-between">
+      <div className="mb-5 flex flex-col gap-4 rounded-lg border border-blue-100 bg-white p-4 shadow-sm xl:flex-row xl:items-center xl:justify-between">
         <div className="flex items-center gap-3">
           <span className="grid size-11 place-items-center rounded-lg border border-blue-100 bg-white text-blue-600 shadow-sm"><CalendarDays size={22} /></span>
           <div>
-            <h1 className="text-3xl font-black text-white md:text-slate-950">Plano de Estudos</h1>
+            <h1 className="text-3xl font-black text-slate-950">Plano de Estudos</h1>
             <p className="mt-1 text-sm text-slate-500">Calendario inteligente com atividades reais do seu plano semanal.</p>
           </div>
         </div>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+          <div className="hidden items-center gap-2 rounded-lg bg-blue-50 px-3 py-2 text-sm font-bold text-blue-700 md:flex">
+            <Mascot size="sm" pose="motivacao" framed={false} />
+            {progress}% da semana
+          </div>
+          <div className="flex flex-wrap gap-2">
           <Button className="md:hidden" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{activeFilterCount ? ` · ${activeFilterCount}` : ""}</Button>
           <Button variant="secondary" onClick={goToday}>Hoje</Button>
           <Button icon={Plus} onClick={() => setModal(true)}>Nova atividade</Button>
+          </div>
         </div>
       </div>
 
@@ -456,7 +462,10 @@ export default function PlanoPage() {
                 {selectedActivities.map((activity) => <ActivityRow key={activity.id} activity={activity} onStatus={updateActivityStatus} />)}
               </div>
             ) : (
-              <div className="p-8 text-center text-sm text-slate-500">Nenhuma atividade para este dia com os filtros atuais.</div>
+              <div className="grid place-items-center gap-2 p-8 text-center text-sm text-slate-500">
+                <Mascot size="lg" pose="feedback" framed={false} />
+                Nenhuma atividade para este dia com os filtros atuais.
+              </div>
             )}
           </section>
 
