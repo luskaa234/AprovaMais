@@ -1,0 +1,2410 @@
+[
+  {
+    "id": "pmam-soldado-2021-fgv-q001",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q001",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 1,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“Ao entrar em um restaurante, todo cliente espera satisfazer desejos de ordem física e emocional. Os cardápios devem vir ao encontro dessas necessidades.” Assinale a afirmativa correta sobre o conteúdo da frase.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Os desejos de ordem física dizem respeito à fome do cliente."
+      },
+      {
+        "letra": "B",
+        "texto": "Os desejos de ordem emocional se referem aos preços dos pratos."
+      },
+      {
+        "letra": "C",
+        "texto": "As informações dos cardápios devem incentivar o apetite."
+      },
+      {
+        "letra": "D",
+        "texto": "Os clientes de restaurantes procuram comida boa e barata."
+      },
+      {
+        "letra": "E",
+        "texto": "Os restaurantes montam cardápios deficientes em alguns aspectos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q002",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q002",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 2,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“Ao entrar em um restaurante, todo cliente espera satisfazer desejos de ordem física e emocional. Os cardápios devem vir ao encontro dessas necessidades.” As opções abaixo propõem substituiçõ es de termos por outros de sentido equivalente; assinale a opção em que essa substituição está correta e adequada.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ao entrar / Quando entram."
+      },
+      {
+        "letra": "B",
+        "texto": "todo cliente / todo o cliente."
+      },
+      {
+        "letra": "C",
+        "texto": "satisfazer desejos / a satisfação de desejos."
+      },
+      {
+        "letra": "D",
+        "texto": "de ordem física e emo cional / de ordens físicas e emocionais."
+      },
+      {
+        "letra": "E",
+        "texto": "ao encontro dessas / de encontro a essas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q003",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q003",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 3,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“Ao entrar em um restaurante, todo cliente espera satisfazer desejos de ordem física e emocional.” Nesse segmento da frase há uma correspondência semântica entre os te rmos destacados. Assinale a opção em que a correspondência equivalente entre termos está adequada.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "supermercado / usuário."
+      },
+      {
+        "letra": "B",
+        "texto": "farmácia / frequentador."
+      },
+      {
+        "letra": "C",
+        "texto": "hospital / freguês."
+      },
+      {
+        "letra": "D",
+        "texto": "escola / consumidor."
+      },
+      {
+        "letra": "E",
+        "texto": "casa de shows / espectador."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q004",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q004",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 4,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“A religião teve um triunfal retorno. Católicos e protestantes, muçulmanos e judeus – todos demonstraram seu amor a Deus massacrando - se uns aos outros.” Sobre o conteúdo do fragmento acima, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O segundo período do texto jus tifica a afirmação do primeiro."
+      },
+      {
+        "letra": "B",
+        "texto": "O adjetivo triunfal mostra, no texto, uma qualificação positiva."
+      },
+      {
+        "letra": "C",
+        "texto": "O termo “seu amor a Deus” está usado em sentido irônico."
+      },
+      {
+        "letra": "D",
+        "texto": "O termo “católicos e protestantes” se opõe a “muçulmanos e judeus”."
+      },
+      {
+        "letra": "E",
+        "texto": "O vocábulo “retorno” mostra que a religião perdera o valor. Aluno Soldado da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q005",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q005",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 5,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Os vocábulos abatimento, tristeza, pena, nostalgia, melancolia, infelicidade, desespero podem ser empregados como sinônimos em alguns contextos. Assinale a frase a seguir em que um desses vocábulos foi emp regado de forma adequada.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Minha cachorrinha morreu e isso trouxe - me melancolia."
+      },
+      {
+        "letra": "B",
+        "texto": "Causa desespero ver que o homem não está à altura de seu criador."
+      },
+      {
+        "letra": "C",
+        "texto": "As desgraças sucessivas produziram nele grande pena."
+      },
+      {
+        "letra": "D",
+        "texto": "Com o atropelamento sofrido, sentiu imens o abatimento."
+      },
+      {
+        "letra": "E",
+        "texto": "Recordo com nostalgia os dias felizes que ali passei."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q006",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q006",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 6,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Todas as frases a seguir mostram repetições de vocábulos. Assinale a opção que apresenta forma adequada de evitar - se uma dessas repetições.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Vão construir um cinema aqui, mas não sei quando vão construir / Vão construir um cinema aqui, mas não sei quando vão fazê - lo."
+      },
+      {
+        "letra": "B",
+        "texto": "Havia um buraco no chão e como não vi o buraco, enfiei o pé nele / Havia um buraco no chão e como não vi o furo, enfiei o pé nele."
+      },
+      {
+        "letra": "C",
+        "texto": "Começaram a trabalhar com entusiasmo, mas já desistiram de trabalhar / Começaram a trabalhar com entusiasmo, mas já desistiram - no."
+      },
+      {
+        "letra": "D",
+        "texto": "Li todo o livro e não li nada sobre isso / Li todo o livro e não fiz a leitura de nada sobre isso."
+      },
+      {
+        "letra": "E",
+        "texto": "Desse assunto eu não entendo nada e, al ém disso, é assunto que não me interessa / Desse assunto eu não entendo nada e, além disso, isso não me interessa."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q007",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q007",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 7,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“Um argumento a favor do Diabo: é preciso recordar que nós ouvimos só uma versão da história. Deus escreveu todos os livros.” (Samuel Buttl er) A defesa do Diabo se apoia num argumento contra",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a falta de credibilidade."
+      },
+      {
+        "letra": "B",
+        "texto": "a ausência de imparcialidade."
+      },
+      {
+        "letra": "C",
+        "texto": "a incompetência da autoridade."
+      },
+      {
+        "letra": "D",
+        "texto": "a fuga do assunto."
+      },
+      {
+        "letra": "E",
+        "texto": "o círculo vicioso."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q008",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q008",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 8,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Todas as frases abaixo se iniciam por uma metáfora ou uma comparação. Assinale a única dessas frases em que está ausente uma explicação para a metáfora.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“Tu és o arquiteto do teu próprio destino. Trabalha, espera e ousa!”."
+      },
+      {
+        "letra": "B",
+        "texto": "“Todo homem é uma divindade disfarçada, um deus que se faz de tolo”."
+      },
+      {
+        "letra": "C",
+        "texto": "“O casame nto é uma grande instituição, mas eu não estou preparada para as instituições”."
+      },
+      {
+        "letra": "D",
+        "texto": "“O casamento é como uma praça sitiada: os que estão fora querem entrar e os que estão dentro querem sair”."
+      },
+      {
+        "letra": "E",
+        "texto": "“O ocioso é como um relógio sem os dois ponteiros: inútil se caminha ou se está parado”.  Tipo Branca – Página 3 Polícia Militar do Estado do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q009",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q009",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 9,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "“O aluno inteligente dá mais trabalho para aprender jiu - jitsu, porque fica pensando antes de fazer o golpe. Uma moça ou um burro vão aprender mais depressa do que o inteligente.” Essa frase estaria incluída hoje como exemplo de politicamente incorreto, por trazer um preconceito, reconhecido por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "intolerância religiosa."
+      },
+      {
+        "letra": "B",
+        "texto": "homofobia."
+      },
+      {
+        "letra": "C",
+        "texto": "racismo."
+      },
+      {
+        "letra": "D",
+        "texto": "machismo."
+      },
+      {
+        "letra": "E",
+        "texto": "preconceito linguístico."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q010",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q010",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 10,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Em todas as frases abaixo há duas ocorrências do mesmo vocábulo; assinale a frase e m que esses vocábulos mostram diferentes significados.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Se eu tivesse um conselho a dar, como homem bem - sucedido, eu diria: se quer ser bem - sucedido, pense, pense muito até doer."
+      },
+      {
+        "letra": "B",
+        "texto": "Antever sucessos é grandioso; antever insucessos, mais ainda."
+      },
+      {
+        "letra": "C",
+        "texto": "Ninguém está nos negócios por diversão, mas isso não quer dizer que não há diversão nos negócios."
+      },
+      {
+        "letra": "D",
+        "texto": "O negócio para qualquer um não é negócio para ninguém."
+      },
+      {
+        "letra": "E",
+        "texto": "Pedi para ele me dar uma mão na obra e ele só deu uma mão de tinta na parede da sala. Geografia do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q011",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q011",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 11,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Embora a Região Amazônica situe - se geograficamente próxima ao Equador, sua parte meridional sofre, eventualmente, o fenômeno localmente denominado de friagem. Assinale a opção que apresenta corretamente a origem da friag em.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A influência da corrente El Niño."
+      },
+      {
+        "letra": "B",
+        "texto": "O movimento dos ventos alísios."
+      },
+      {
+        "letra": "C",
+        "texto": "A inversão térmica intertropical."
+      },
+      {
+        "letra": "D",
+        "texto": "A chegada de ar polar (frio e seco)."
+      },
+      {
+        "letra": "E",
+        "texto": "O resfriamento das águas do Atlântico."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q012",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q012",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 12,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "“A floresta amazônica contém uma grande parte da biodiversidade do mundo, pois mais de 12% de todas as plantas com flores são encontradas na Amazônia. Sendo assim, ameaças à existência da floresta amazônica indicam sérias ameaças à biodiversidade.” ( NOBRE, Carlos A., SAMPAIO, Gilvan. SALAZAR, Luís. Mudanças climáticas e Amazônia.) Assinale a opção que indica os principais fatores que atuam na perda da biodiversidade da floresta amazônica.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O uso da terra e as mudanças climáticas."
+      },
+      {
+        "letra": "B",
+        "texto": "O aumento das chuvas e a ação antrópica."
+      },
+      {
+        "letra": "C",
+        "texto": "O extrativismo mineral e a variação da intensidade solar."
+      },
+      {
+        "letra": "D",
+        "texto": "Os cultivos de corte e queima e os fluxos dos rios voadores."
+      },
+      {
+        "letra": "E",
+        "texto": "A elevação da temperatura e a variação da amplitude térmica. Aluno Soldado da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q013",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q013",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 13,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Os minerais se acham distribuídos em tod as as rochas da crosta terrestre, mas apenas são passíveis de exploração quando encontrados em concentrações que permitam seu aproveitamento econômico com a tecnologia disponível. No Estado do Amazonas, a maioria dos depósitos minerais metálicos está situa da em terrenos pré - cambrianos, que correspondem a cerca de 40% do seu território. Nesses terrenos ocorre a exploração de depósitos minerais de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "estanho, nióbio e ouro."
+      },
+      {
+        "letra": "B",
+        "texto": "ferro, manganês e prata."
+      },
+      {
+        "letra": "C",
+        "texto": "alumínio, cobre e tântalo."
+      },
+      {
+        "letra": "D",
+        "texto": "níquel, cobre e diama nte."
+      },
+      {
+        "letra": "E",
+        "texto": "fosfato, zircônio e platina."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q014",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q014",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 14,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a opção que apresenta uma causa da decadência da economia gomífera no Estado do Amazonas.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "As pragas que destruíram os seringais nativos."
+      },
+      {
+        "letra": "B",
+        "texto": "A queda de preço nos mercados internacionais."
+      },
+      {
+        "letra": "C",
+        "texto": "A concorrência dos países produtores asiáticos."
+      },
+      {
+        "letra": "D",
+        "texto": "A retração dos mercados consumidores europeus."
+      },
+      {
+        "letra": "E",
+        "texto": "A superprodução, devido à crise econômica de 1929."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q015",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q015",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 15,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "A Amazônia é ocupada em grande parte por povos indígenas, caboclos seringueiros e ribeirinhos, ocupantes tradicionais da floresta. A respeito das condições de vida desses povos, analise as afirmativas a seguir. I. Eles sobrevivem, por razões étnicas, culturais e econômicas, mediante a prática do extrativismo e da agricultura de corte e queima, com b aixo impacto ecológico sobre a floresta. II. Eles adotam, graças aos estímulos do mercado, práticas extrativistas que levam ao extermínio de inúmeras espécies, com consequências negativas para a biodiversidade. III. Eles estabelecem, graças à emergência de uma nova visão ecológica, uma relação com a natureza em que a biodiversidade é um trunfo para o futuro. Está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "I e II, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "I e III, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "II e III, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "I, II e III."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q016",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q016",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 16,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Leia o trecho a segui r. O sistema é formado por uma cadeia de agentes cujo elo mais poderoso é representado pelas grandes casas exportadoras, que concedem crédito a intermediários menores, emprestando - lhes dinheiro e adiantando meios de subsistência e os instrumentos usados na produção da borracha. Os médios e pequenos intermediários, por sua vez, repassam o “crédito” recebido aos últimos elos dessa cadeia, que são os produtores diretos da atividade extrativa. O trecho apresenta as características do sistema de crédito usado na economia da borracha. Assinale a opção que indica sua denominação.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Agiotagem."
+      },
+      {
+        "letra": "B",
+        "texto": "Aviamento."
+      },
+      {
+        "letra": "C",
+        "texto": "Patronagem."
+      },
+      {
+        "letra": "D",
+        "texto": "Marretagem."
+      },
+      {
+        "letra": "E",
+        "texto": "Atravessamento.  Tipo Branca – Página 4 Polícia Militar do Estado do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q017",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q017",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 17,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "“Os planos para aproveitar o potencial hidráulico dos rios amazônicos preveem a construção de dezenas de grandes barragens e mais de uma centena de pequenas barragens. A tomada de decisões no Brasil é fundamental para estas tendências, devido ao grande nú mero de barragens planejadas na Amazônia brasileira.” ( FEARNSIDE, Philip M. Hidrelétricas na Amazônia: impactos ambientais e sociais. Instituto de Pesquisas da Amazônia. Manaus. 2015.) A respeito dos impactos da construção de barragens nos rios amazônicos, assinale a afirmativa incorreta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A emissão do dióxido de carbono, devido à decomposição das árvores mortas por inundação, contribui para o aquecimento global."
+      },
+      {
+        "letra": "B",
+        "texto": "A proliferação de insetos e a transformação do mercúrio na sua forma tóxica representam riscos à saúde das populações ribeirinhas."
+      },
+      {
+        "letra": "C",
+        "texto": "A inundação direta e a ação de residentes deslocados ou de imigrantes atraídos para a área, podem acelerar o desmatamento da vegetação original."
+      },
+      {
+        "letra": "D",
+        "texto": "O reassentamento dos povos indígenas atingidos pela inundaçã o de suas terras representa um elevado custo humano dessa forma de desenvolvimento."
+      },
+      {
+        "letra": "E",
+        "texto": "Os meios de subsistência dos moradores situados na várzea, como a pesca e a agricultura de corte e queima, são enriquecidos pela vazão constante a jusante da barragem."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q018",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q018",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 18,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Sobre diferentes momentos da produção do espaço amazônico, analise as afirmativas a seguir. I. Nos séculos XVII/XVIII buscava - se, na floresta tropical, a partir dos rios, as chamadas drogas do sertão, utilizáveis na alimentação, na construção naval e na farmacopeia da Europa Ocidental. II. Entre as últimas décadas do século XIX e as duas primeiras do século XX, para atender à demanda das indústrias europeias e norte - americanas, ocorreu o chamado ciclo da borracha. III. Na segunda metade do século XX, o m undo amazônico passou por um novo devassamento, impulsionado pela expansão capitalista, no sentido de penetração territorial e de propriedade das terras. Está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "I e II, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "I e III, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "II e III, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "I, II e III. Aluno Soldado da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q020",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q020",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 20,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "O programa “Desenvolvimento e segurança na região ao norte das calhas dos rios Solimões e Amazonas: Projeto Calha Norte”, está fundamentado nas razões apresentadas a seguir, à exceção de uma. Assinale - a.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A expansão dos movimentos migratórios e pendulares na zona de fronteiras passou a exigir tratamento mais cuidadoso por parte dos países envolvidos."
+      },
+      {
+        "letra": "B",
+        "texto": "O surgimento de estratégias e planos de ação de governos e empresas transnacionais passaram a exigir ações afirmativas de proteção das fronteiras nacionais."
+      },
+      {
+        "letra": "C",
+        "texto": "A intensificação das relações bilaterais com os países fronteiriços passou a exigir o chamado “marco temporal” para garantir a posse das terras pelos atuais ocupantes."
+      },
+      {
+        "letra": "D",
+        "texto": "As mudanças na produção e troca de informações no sistema global de telecomunicações passaram a exigir a proteção e o povoamento das fronteiras da região amazônica."
+      },
+      {
+        "letra": "E",
+        "texto": "As pressões internacionais sobre o tráfico de ilícit os, que não está coberto pelos sistemas de controle dos estados nacionais, passaram a exigir maior segurança na faixa de fronteiras.  Tipo Branca – Página 5 Polícia Militar do Estado do Amazonas História do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q021",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q021",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 21,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "“A viagem iniciou em Cuzco, passando por Quito, de onde partiu com cerca de 220 espanhóis a cavalo e quase 4.000 índios, rumo ao desconhecido, com base em informações sobre as riquezas do chamado Pais de la Canela e do El Dorado. Lá chegando, comprovou que a esperança da riqueza não passava de uma escassa quantidade de pequenas árvores de canela e de algumas montanhas ásperas e inabitáveis. A falta de alimentação para os expedicionários obrigou que um grupo prosseguisse em um bergantim e algumas canoas, à p rocura de mantimentos. Foi quando começou uma expedição de oito meses em 6.000 km de navegação, por todo o Solimões - Amazonas, atingindo o Atlântico.” (Adaptado de SANTOS, Francisco Jorge dos. História Geral da Amazônia. Editora MemVavMem, 2007, p. 36 - 37) (Fonte: https://chdetrujillo.com) O texto e a imagem se referem à expedição de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Francisco de Orellana."
+      },
+      {
+        "letra": "B",
+        "texto": "Vicente Pinzon."
+      },
+      {
+        "letra": "C",
+        "texto": "Antônio Raposo Tavares."
+      },
+      {
+        "letra": "D",
+        "texto": "Francisco Fernandes."
+      },
+      {
+        "letra": "E",
+        "texto": "Pedro Teixeira."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q022",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q022",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 22,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Leia o texto a seguir: “Acordo de limites firmado ent re Portugal e Espanha que visava reconhecer oficialmente as fronteiras marítimas e terrestres, definindo os limites do poderio de cada coroa sobre as colônias na América. Nesse contexto, destacou - se a figura de Alexandre de Gusmão, secretário do Conselho U ltramarino, brasileiro que intermediou o tratado e conferiu a este o princípio do uti possidetis, isto é, a ideia de que a terra deveria pertencer a quem de fato a ocupasse.” (Adaptado de http://historialuso.an.gov.br/) Assinale a opção que indica corretamente a que acordo diplomático o texto se refere.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Tratado de Tordesilhas (1494)."
+      },
+      {
+        "letra": "B",
+        "texto": "Tratado de paz e Amizade (1648)."
+      },
+      {
+        "letra": "C",
+        "texto": "Tratado de Madri (1750)."
+      },
+      {
+        "letra": "D",
+        "texto": "Tratado de Paris (1763)."
+      },
+      {
+        "letra": "E",
+        "texto": "Tratado de Badajoz (1801). Aluno Soldado da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q023",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q023",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 23,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A respeito do Diretório que se deve observar nas povoações de índios do Pará e Maranhão (1757), assinale V para a afirmativa verdadeira e F para a falsa. ( ) O Diretório dos Índios foi aprovado por D. José I e dispunha a substituição dos missionários por diretores lei gos, entre outras normativas. ( ) Para promover a “civilidade dos índios”, os diretores deveriam incentivar a mestiçagem, por meio de casamentos mistos, e a adoção de hábitos e da língua portuguesa. ( ) O Diretório foi abolido em 1789, em meio a denúnc ias de abusos de poder dos diretores, mortes e fugas da população indígena. Assinale a opção que indica a sequência correta, de cima para baixo.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "V – F – V."
+      },
+      {
+        "letra": "B",
+        "texto": "V – V – F."
+      },
+      {
+        "letra": "C",
+        "texto": "F – V – V."
+      },
+      {
+        "letra": "D",
+        "texto": "F – F – V."
+      },
+      {
+        "letra": "E",
+        "texto": "V – V – V."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q024",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q024",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 24,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“Às vésperas da independência, a atual Amazônia brasileira ainda constituía uma unidade político - administrativa da Coroa portuguesa, e pouco tinha a ver com o Brasil. Era uma outra colônia, com o nome de Estado do Grão - Pará e Rio Negro. Essa col ô nia do norte da Am é rica portuguesa era co mposta por duas capitanias: a do Par á e a do Rio Negro, principal e subalterna, respectivamente.” (Adaptado de SANTOS, Francisco Jorge dos. História Geral da Amazônia. Editora MemVavMem, 2007, p. 132) A respeito da inclusão da Amazônia portuguesa ao Império brasileiro no contexto do processo de independência, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Com a elevação do Brasil a Reino Unido desvinculou - se o Pará do Maranhão e criou - se o Estado do Grão Pará e Rio Negro."
+      },
+      {
+        "letra": "B",
+        "texto": "Em 1823 D. Pedro I incorporou o Estad o do Grão - Pará e Rio Negro ao nascente Império do Brasil pela força das armas."
+      },
+      {
+        "letra": "C",
+        "texto": "Na Constituição de 1824, somente a capitania do Rio Negro foi reconhecida como província, recebendo um presidente."
+      },
+      {
+        "letra": "D",
+        "texto": "Pela Constituição de 1824, a antiga Capitania do Pará tornou - se comarca da Província do Rio Negro."
+      },
+      {
+        "letra": "E",
+        "texto": "Após a independência do Brasil, Manaus foi elevada a sede conjunta da Província do Rio Negro e da Comarca do Pará."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q025",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q025",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 25,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a afirmativa correta a respeito da Cabanagem (1835 - 1840).",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "As bases sociais d a revolta eram homogêneas, compostas majoritariamente por proprietários: senhores de engenho das proximidades de Belém, arrendatários e artesãos."
+      },
+      {
+        "letra": "B",
+        "texto": "Os líderes da revolta impediram a participação de indivíduos despossuídos, como índios destribalizados (ta puios), índios aldeados, negros e mestiços."
+      },
+      {
+        "letra": "C",
+        "texto": "O programa dos revoltosos era separar - se politicamente do Brasil, constituindo uma nova monarquia independente e se reaproximando de Portugal."
+      },
+      {
+        "letra": "D",
+        "texto": "O governo insurgente de Bernardo Lobo de Souza, aliado de Mal cher e apoiado pela elite senhorial rebelde, conduziu negociações para autonomia da Província."
+      },
+      {
+        "letra": "E",
+        "texto": "As facções rebeldes lideradas por Félix Malcher invadiram Belém e se apropriaram do governo até a retomada da cidade por forças locais enviadas pela Regência.  Tipo Branca – Página 6 Polícia Militar do Estado do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q026",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q026",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 26,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Leia os fatores listados a seguir e identifique os que contribuíram para a constituição de uma “civilização da borracha”. 1. O desenvolvimento da indústria automobilística nos países industrializados da Europa e Estados Unidos da América e a demanda crescente de borracha para o setor de pneumáticos. 2. A assinatura dos Acordos de Washington para instituição de um órgão que financiasse a extração e comercialização da borracha: o Banco de Crédito da Borracha. 3. O incentivo à transferência da população nordestina para a região amazônica pelo governo federal, que alistava e treinava os “soldados da borracha” na extração do látex. 4. A restruturação urbanística de Belém e Manaus, que passaram a ter luz elétrica, água encanada, esgoto e amplas avenidas, por onde transitavam bondes elétricos. São fatores que contribuíram para a constituição de uma “civilização da borracha” na Amazônia, entre 1870 e 1920, apenas:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1 e 2."
+      },
+      {
+        "letra": "B",
+        "texto": "2 e 3."
+      },
+      {
+        "letra": "C",
+        "texto": "1 e 3."
+      },
+      {
+        "letra": "D",
+        "texto": "1 e 4."
+      },
+      {
+        "letra": "E",
+        "texto": "3 e 4."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q027",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q027",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 27,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O documento firmado entre a Bolívia e o Brasil em 17 de novembro de 1903 recebeu o nome de Tratado de Petrópolis e oficializou a anexação ao território brasileiro do atual estado de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Amapá."
+      },
+      {
+        "letra": "B",
+        "texto": "Roraima."
+      },
+      {
+        "letra": "C",
+        "texto": "Acre."
+      },
+      {
+        "letra": "D",
+        "texto": "Rondônia."
+      },
+      {
+        "letra": "E",
+        "texto": "Alto Amazonas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q028",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q028",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 28,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A chamada “Comuna de Manaus” fez parte da sequência de levantes tenentistas ocorridos no Brasil, entre os anos de 1920 - 1930. Sobre esse movimento, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ocorreu durante o governo de Arthur Bernardes, sob a liderança do tenente Alfredo Augusto Ribeiro Júnior."
+      },
+      {
+        "letra": "B",
+        "texto": "Diferenciou - se do tenentismo paulista por apoiar a manutenção das oligarquias ruralistas no poder."
+      },
+      {
+        "letra": "C",
+        "texto": "Favoreceu - se com a retomada da expansão gomífera, que fortaleceu a elite local contra o governo federal."
+      },
+      {
+        "letra": "D",
+        "texto": "Foi apo iado pela Polícia Militar e pelos representantes do judiciário local que ajudaram na tomada de Manaus."
+      },
+      {
+        "letra": "E",
+        "texto": "Estendeu - se à região de Óbidos, no Pará, onde pretendia juntar - se à chegada dos rebeldes da Coluna Prestes. Aluno Soldado da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q029",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q029",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 29,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O surgimento do Clube da Madrugada em Manaus (1954) coincidiu com o desejo de renovação estética vivida por um grupo de poetas, escritores, intelectuais e artistas plásticos que desejava mudar a situação de isolamento cultural em função de dificuldades econômicas e geográficas. As iniciati vas listadas a seguir caracterizam corretamente o Clube da Madrugada (1954 - 1972) como um movimento artístico e literário modernista do século XX, à exceção de uma. Assinale - a.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A intervenção na imprensa, através de publicação em periódicos e da criação de uma revista literária, para divulgar a atuação artística do grupo."
+      },
+      {
+        "letra": "B",
+        "texto": "A boemia, como característica do Clube, marcou sua relação tanto com a política revolucionária quanto com a arte de vanguarda do período."
+      },
+      {
+        "letra": "C",
+        "texto": "A realização de exposições e feiras de artes plásticas ao ar livre, em praças e outros espaços públicos, para aproximar o grande público da arte."
+      },
+      {
+        "letra": "D",
+        "texto": "A oposição a qualquer espaço institucional para a arte, sobretudo à pinacoteca do Estado do Amazonas, vis ta como o baluarte da pintura neoclássica."
+      },
+      {
+        "letra": "E",
+        "texto": "A organização de debates e conferências para divulgar a ideologia predominante do grupo, de caráter libertária."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q030",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q030",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 30,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A respeito do programa Zona Franca de Manaus (ZFM), estabelecido pelo Decreto - Lei 288/1967, an alise as afirmativas a seguir. I. Permitiu a construção de um parque industrial na região concentrado nos setores de televisão, informática, celulares motocicletas e eletrodomésticos, entre outros. II. Contribuiu para o aumento de renda per capita do Amazo nas e para um significativo afluxo demográfico para Manaus. III. É administrado pela Superintendência da Zona Franca de Manaus (Suframa), órgão vinculado ao Ministério da Ciência e da Tecnologia. IV. Compreende dois polos econômicos, o industrial e o tecno lógico, dos quais o primeiro teve maior ascensão até o final de 1980, quando o Brasil adotava o regime de economia fechada. Está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, II e III, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "II, III e IV, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "I e II, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "III e IV, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "I, II, III e IV. Raciocínio Lógico Matemático"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q031",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q031",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 31,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Uma fila para vacinação se formou no posto de saúde e nela estão Sílvio e Mário. A fila tem 42 pessoas, Sílvio está na frente de Mario e há 4 pessoas entre eles. Sabe - se que o número de pessoas que estão atrás de Mário é o dobro do número de pessoas que estão à frente de Sílvio. O lugar que Mário ocupa na fila é o:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "13º."
+      },
+      {
+        "letra": "B",
+        "texto": "16º."
+      },
+      {
+        "letra": "C",
+        "texto": "17º."
+      },
+      {
+        "letra": "D",
+        "texto": "18º."
+      },
+      {
+        "letra": "E",
+        "texto": "19º.  Tipo Branca – Página 7 Polícia Militar do Estado do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q032",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q032",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 32,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "medio",
+    "enunciado": "Em certo estado, a Coordenadoria de Missões Especiais tem seu diretor trocado de 8 em 8 meses e a Coordenadoria de Operações tem seu diretor trocado de 10 em 10 meses. Sabe - se que em julho de 2021 as duas coordenadorias tiveram seus diretores trocados simultaneamente. A próxima troca simultânea dos dois diretores ocorrerá em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Outubro de 20 23."
+      },
+      {
+        "letra": "B",
+        "texto": "Março de 2024."
+      },
+      {
+        "letra": "C",
+        "texto": "Julho de 2024."
+      },
+      {
+        "letra": "D",
+        "texto": "Novembro de 2024."
+      },
+      {
+        "letra": "E",
+        "texto": "Janeiro de 2025."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q033",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q033",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 33,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Em uma fila com 12 cadeiras, três delas foram ocupadas aleatoriamente. A cadeira em que Valter deverá se sentar será sorteada entre as cadeiras que estão vazias. A pro babilidade de que Valter não se sente ao lado de nenhuma pessoa já sentada é, no mínimo:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1/2."
+      },
+      {
+        "letra": "B",
+        "texto": "1/3."
+      },
+      {
+        "letra": "C",
+        "texto": "2/3."
+      },
+      {
+        "letra": "D",
+        "texto": "1/4."
+      },
+      {
+        "letra": "E",
+        "texto": "1/6."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q034",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q034",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 34,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Considere a afirmação: “Nenhum soldado escuta mal”. A sua negação é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Há pelo menos um soldado que escuta mal."
+      },
+      {
+        "letra": "B",
+        "texto": "Vários soldados escutam mal."
+      },
+      {
+        "letra": "C",
+        "texto": "Todos os soldados escutam mal."
+      },
+      {
+        "letra": "D",
+        "texto": "Todos os soldados escutam bem."
+      },
+      {
+        "letra": "E",
+        "texto": "Todas as pessoas que escutam bem são soldados."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q035",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q035",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 35,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Segundo dados da PM do Estado do Amazonas, o número de veículos recuperados em 2018 foi 320 e o número de veículos recuperados em 2020 foi 870. Comparando os dados desses dois anos, o número de veículos recuperados em 2020 foi maior que o de 2018 em cerca de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "130%."
+      },
+      {
+        "letra": "B",
+        "texto": "140%."
+      },
+      {
+        "letra": "C",
+        "texto": "150%."
+      },
+      {
+        "letra": "D",
+        "texto": "160%."
+      },
+      {
+        "letra": "E",
+        "texto": "170%."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q036",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q036",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 36,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Sabe - se que a sentença “Se o sapato é preto, então a meia é preta ou o cinto é preto” é FALSA. É correto concluir que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o sapato é preto, a meia não é preta, o cinto não é preto."
+      },
+      {
+        "letra": "B",
+        "texto": "o sapato é preto, a meia é preta, o cinto não é preto."
+      },
+      {
+        "letra": "C",
+        "texto": "o sapato é preto, a meia é preta, o cinto é preto."
+      },
+      {
+        "letra": "D",
+        "texto": "o sapato não é preto, a meia não é preta, o cinto não é preto."
+      },
+      {
+        "letra": "E",
+        "texto": "o sapato não é preto, a meia é preta, o cinto é preto. Aluno Soldado da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q037",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q037",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 37,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "O soldado Golias mediu o comprimento de sua cama em palmos e encontrou 8 palmos e meio. Um palmo de Golias mede 26 cm. O comprimento da cama de Golias é aproximadamente",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2 metros."
+      },
+      {
+        "letra": "B",
+        "texto": "2 metros e 10 centímetros."
+      },
+      {
+        "letra": "C",
+        "texto": "2 metros e 20 centímetros."
+      },
+      {
+        "letra": "D",
+        "texto": "2 metros e 30 centímetros."
+      },
+      {
+        "letra": "E",
+        "texto": "2 metros e 40 centímetros."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q038",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q038",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 38,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Rubinho pagou com juros uma conta já vencida. O valor total pago por Rubinho f oi de R$ 483,00. Sabendo que Rubinho pagou 15% de juros sobre o valor inicial da conta, o valor dos juros foi de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 75,15."
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 72,45."
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 68,00."
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 63,00."
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 61,25."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q040",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q040",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 40,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "medio",
+    "enunciado": "Em um grupo de 45 soldados, 27 gostam de marchar e 38 gostam de praticar tiro ao alvo. Sejam: X: o número de soldados desse grupo que gostam de marchar e também de praticar tiro ao alvo; Y: o número de soldados desse grupo que não gostam nem de ma rchar nem de praticar tiro ao alvo. Nesse caso, é correto afirmar que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "X é no máximo 20."
+      },
+      {
+        "letra": "B",
+        "texto": "Y é no mínimo 7."
+      },
+      {
+        "letra": "C",
+        "texto": "quando X = 23, tem - se Y = 7."
+      },
+      {
+        "letra": "D",
+        "texto": "quando Y = 7, tem - se X = 20."
+      },
+      {
+        "letra": "E",
+        "texto": "quando Y = 5, tem - se X = 25.  Tipo Branca – Página 8 Polícia Militar do Estado do Amazonas Noções de Informática"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q041",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q041",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 41,
+    "materia": "Informatica",
+    "materia_original": "Informatica",
+    "dificuldade": "medio",
+    "enunciado": "Numa planilha do MS Excel 2010, é possível identificar uma célula ou um intervalo de células referenciando - as pelos títulos de colunas e linhas. Considerando os intervalos A3:C10 e B5:H8, assinale o número de células que pertencem aos dois intervalos.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2"
+      },
+      {
+        "letra": "B",
+        "texto": "4"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "8"
+      },
+      {
+        "letra": "E",
+        "texto": "10"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Informatica."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q042",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q042",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 42,
+    "materia": "Informatica",
+    "materia_original": "Informatica",
+    "dificuldade": "medio",
+    "enunciado": "João utiliza o Calc do LibreOffice 4.2, e precisa construir uma fórmula que envolve os valores de vendas diárias de uma empresa nos meses Novembro e Dezembro dispostos, respectivamente, nas colunas G e H, entre as linhas 2 e 32. To das as células desses intervalos foram preenchidas de acordo com o calendário. Assinale a fórmula que calcula corretamente a variação percentual da média diária de vendas, positiva ou negativa, do mês de dezembro em relação ao mês de novembro.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "=MÉDIA(H 2:H32) - MÉDIA(G2:G31)/MÉDIA(G2:G31)*100"
+      },
+      {
+        "letra": "B",
+        "texto": "=(MÉDIA(H2:H32) - MÉDIA(G2:G31))/MÉDIA(G2:G31)*100"
+      },
+      {
+        "letra": "C",
+        "texto": "=(MÉDIA(H2:H32 - G2:G31)/MÉDIA(G2:G31)/100"
+      },
+      {
+        "letra": "D",
+        "texto": "=(MÉDIA(H2:H32) - MÉDIA(G2:G31))/MÉDIA(G2:G31)/100"
+      },
+      {
+        "letra": "E",
+        "texto": "=(MÉDIA(H2:H32) - MÉDIA(G2:G31) - MÉDIA(G2:G31)*100"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Informatica."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q043",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q043",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 43,
+    "materia": "Informatica",
+    "materia_original": "Informatica",
+    "dificuldade": "medio",
+    "enunciado": "Analise as seguintes afirmativas a respeito da proteção de planilhas no MS Excel 2010. I. É possível permitir a modificação de alguns trechos de uma planilha protegida. II. Células bloqueadas não podem ser selecionadas. III. Não há possibilidade de permitir a inserção de linhas numa planilha protegida. Está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, somente."
+      },
+      {
+        "letra": "B",
+        "texto": "II, somente."
+      },
+      {
+        "letra": "C",
+        "texto": "II e III, somente."
+      },
+      {
+        "letra": "D",
+        "texto": "III, somente."
+      },
+      {
+        "letra": "E",
+        "texto": "I, II e III."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Informatica."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q044",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q044",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 44,
+    "materia": "Informatica",
+    "materia_original": "Informatica",
+    "dificuldade": "medio",
+    "enunciado": "No contexto do MS Word, assinale a alternativa que apr esenta a palavra “Exemplo” com o efeito denominado “Tachado”.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Primeiro Exemplo"
+      },
+      {
+        "letra": "B",
+        "texto": "Segundo Exemplo"
+      },
+      {
+        "letra": "C",
+        "texto": "Terceiro E XEMPLO Exemplo"
+      },
+      {
+        "letra": "D",
+        "texto": "Quarto"
+      },
+      {
+        "letra": "E",
+        "texto": "Quinto Exemplo Aluno Soldado da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Informatica."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q045",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q045",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 45,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale o software que executa funções típicas de um sistema operacional.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Google Chrome."
+      },
+      {
+        "letra": "B",
+        "texto": "LibreOffice."
+      },
+      {
+        "letra": "C",
+        "texto": "Microsoft Outlook."
+      },
+      {
+        "letra": "D",
+        "texto": "Remote Desktop."
+      },
+      {
+        "letra": "E",
+        "texto": "Windows 10."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q046",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q046",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 46,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "João preparou um longo documento sobre suas viagens no MS Word 2010, onde ocasionalmente usou o termo “lazer” grafado como “laser”. Para localizar precisamente essas ocorrências, certas e erradas, João decidiu usar a Localização Avançada do Word com as opções “Localizar apenas palavras inteiras” e “Usar caracteres curinga” acionadas. Assinale o termo a localizar que João deve usar no comando de busca.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "la$er"
+      },
+      {
+        "letra": "B",
+        "texto": "la(*)er"
+      },
+      {
+        "letra": "C",
+        "texto": "la*er"
+      },
+      {
+        "letra": "D",
+        "texto": "la?er"
+      },
+      {
+        "letra": "E",
+        "texto": "la[s,z]er"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q047",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q047",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 47,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "No Windows 10, a Área de Transferência, ou clipboard, é usada primordialmente para armazenar",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "arquivos da Lixeira do Windows até que sejam removidos definitivamente."
+      },
+      {
+        "letra": "B",
+        "texto": "arquivos durante o processamento d e uma operação de download."
+      },
+      {
+        "letra": "C",
+        "texto": "arquivos temporários da Internet."
+      },
+      {
+        "letra": "D",
+        "texto": "dados copiados com Ctrl + C."
+      },
+      {
+        "letra": "E",
+        "texto": "dados e arquivos temporários durante a compactação de arquivos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q048",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q048",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 48,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Joana quer descobrir a capacidade, o espaço livre e o espaço usado do drive C: do seu notebook. Para tanto, depois de clicar com o botão direito sobre o drive no Explorador de Arquivos do Windows, Joana deve usar a opção",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Configurações."
+      },
+      {
+        "letra": "B",
+        "texto": "Expandir."
+      },
+      {
+        "letra": "C",
+        "texto": "Info."
+      },
+      {
+        "letra": "D",
+        "texto": "Propriedades."
+      },
+      {
+        "letra": "E",
+        "texto": "Recolher."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q049",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q049",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 49,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Considere as seguintes afirmativas sobre protocolos/endereços básicos utilizados na Internet. I. FTP é empregado para transferências de arquivos pela internet. II. HTTP é empregado para acesso à Web por meio de mensagens criptografadas seguras. III. 170.66.11.10 é um exemplo de endereço IP. Está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, somente."
+      },
+      {
+        "letra": "B",
+        "texto": "II, somente."
+      },
+      {
+        "letra": "C",
+        "texto": "III, somente."
+      },
+      {
+        "letra": "D",
+        "texto": "I e III, somente."
+      },
+      {
+        "letra": "E",
+        "texto": "I, II e III.  Tipo Branca – Página 9 Polícia Militar do Estado do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q050",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q050",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 50,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale o texto que, quando utilizado numa busca no Google, resultaria na mensagem “ Sua pesquisa não encontrou nenhum documento correspondente ”.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "\"porta - porta\""
+      },
+      {
+        "letra": "B",
+        "texto": "\"porta - porta\""
+      },
+      {
+        "letra": "C",
+        "texto": "porta - porta"
+      },
+      {
+        "letra": "D",
+        "texto": "porta - porta"
+      },
+      {
+        "letra": "E",
+        "texto": "porta - porta Legislação Institucional"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q051",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q051",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 51,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O Estatuto dos Policiais Militares do Estado do Amazonas (Lei Estadual nº 1.154/75) dispõe que a Polícia Militar, instituição destinada à manutenção da ordem púbica no Estado, subordina - se ao Governador do Estado, nos termos da Constituição Estadual, e operacionalmente ao Secretário de Estado de Segurança Pública. De acordo com o citado diploma norma tivo, a base institucional da Polícia Militar é a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "hierarquia e a disciplina, sendo que a autoridade e a responsabilidade decrescem com o grau hierárquico."
+      },
+      {
+        "letra": "B",
+        "texto": "hierarquia e a disciplina, sendo que a autoridade e a responsabilidade crescem com o grau hie rárquico."
+      },
+      {
+        "letra": "C",
+        "texto": "antiguidade e o merecimento, sendo que a autoridade e a responsabilidade aumentam em progressão geométrica."
+      },
+      {
+        "letra": "D",
+        "texto": "antiguidade e o merecimento, sendo que a autoridade e a responsabilidade aumentam em progressão aritmética."
+      },
+      {
+        "letra": "E",
+        "texto": "força e a ética, q ue devem ser aplicadas de forma progressiva e proporcional ao risco oferecido à coletividade."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q052",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q052",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 52,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Círculos hierárquicos são âmbitos de convivência entre os policiais militares da mesma categoria e têm a finalidade de desenvolver o espírito de camaradagem em ambiente de estima e confiança, sem prejuízo do respeito mútuo. De acordo com o Estatuto dos Policiais Militares do Estado do Amazonas (Lei Estadual nº 1.154/75), em matéria de círculo de praças",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "posto é o grau hierárquico do praça, conferido por ato d o Comandante Geral da Polícia Militar."
+      },
+      {
+        "letra": "B",
+        "texto": "posto é o grau hierárquico do praça, conferido por ato do Secretário de Estado de Segurança Pública."
+      },
+      {
+        "letra": "C",
+        "texto": "posto é o grau hierárquico do praça, conferido por ato do Governador do Estado."
+      },
+      {
+        "letra": "D",
+        "texto": "graduação é o grau hierá rquico do praça, conferido pelo Comandante Geral da Polícia Militar."
+      },
+      {
+        "letra": "E",
+        "texto": "graduação é o grau hierárquico do praça, conferido pelo Secretário de Estado de Segurança Pública. Aluno Soldado da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q053",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q053",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 53,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Em tema de ética, o Estatuto dos Policiais Militares do Estado do Amazonas (Lei Estadual nº 1.154/75) dispõe que o sentimento do dever, o pundonor policial - militar e o decoro da classe impõem, a cada um dos integrantes da Polícia Militar, conduta moral e profissional irrepree nsíveis com observância de alguns preceitos da ética policial - militar, como",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "acatar as autoridades militares, não tendo tal obrigação em relação às autoridades civis."
+      },
+      {
+        "letra": "B",
+        "texto": "exercer com autoridade, eficiência e improbidade as funções que lhe couberem em de corrência do cargo."
+      },
+      {
+        "letra": "C",
+        "texto": "abster - se o policial militar do uso das designações hierárquicas quando em atividades comerciais, exceto na inatividade."
+      },
+      {
+        "letra": "D",
+        "texto": "fazer uso do posto ou da graduação com parcimônia para obter facilidades pessoais de qualquer natureza ou p ara encaminhar negócios particulares ou de terceiros."
+      },
+      {
+        "letra": "E",
+        "texto": "conduzir - se, mesmo fora do serviço ou na inatividade, de modo que não sejam prejudicados os princípios da disciplina, do respeito e do decoro policial - militar."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q055",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q055",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 55,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "A Lei de Organização Básica da Polícia Militar do Estado do Amazonas (Lei nº 3.514/2010) dispõe que, em seu âmbito de atuação, compete à Polícia Militar do Amazonas",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "desempenhar a função de p olícia judiciária civil, nos termos da lei federal."
+      },
+      {
+        "letra": "B",
+        "texto": "supervisionar e correicionar as guardas municipais, aplicando - lhes as sanções administrativas cabíveis em caso de infração."
+      },
+      {
+        "letra": "C",
+        "texto": "atuar de maneira preventiva, como força de dissuasão, em locais ou áreas específicas, onde se presuma ser possível a perturbação da ordem."
+      },
+      {
+        "letra": "D",
+        "texto": "atuar de maneira repressiva, em caso de perturbação da ordem, de forma posterior e caso insuficiente o emprego das Forças Armadas."
+      },
+      {
+        "letra": "E",
+        "texto": "desempenhar as funções de polícia ostensiva de segurança pública, exceto em matéria de trânsito urbano e rodoviário, bem como ambiental.  Tipo Branca – Página 10 Polícia Militar do Estado do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q057",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q057",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 57,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Consoante dispõe a Lei de Organização Básica da Polícia Militar do Estado do Amazonas (Lei nº 3.514/2010), o Estado Maior é o órgão de direção geral responsável, perante o Comandante - Geral",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pela assinatura, com vistas à consecução dos objetivos da Corporação e respeitada a legislação aplicável, de convênios, contratos e ajustes, com pessoas físicas ou jurídic as, nacionais ou internacionais, e é chefiado privativamente pelo próprio Comandante - Geral da Polícia Militar."
+      },
+      {
+        "letra": "B",
+        "texto": "pela aprovação e cumprimento do regulamento geral, dos regimentos internos, das diretrizes, planos e demais normas administrativas e operacio nais de interesse da Corporação, e é chefiado privativamente pelo próprio Comandante - Geral da Polícia Militar."
+      },
+      {
+        "letra": "C",
+        "texto": "pelo julgamento dos recursos contra atos do Subcomandante Geral, do Comandante - Geral e do Diretor da Diretoria de Justiça e Disciplina, e é c hefiado privativamente por um Coronel PM, da ativa, do Quadro de Oficiais Policiais Militares, que necessariamente tenha feito Curso Superior de Polícia ou curso militar correspondente."
+      },
+      {
+        "letra": "D",
+        "texto": "pela c oordenação e fiscalização das atividades dos órgãos de execu ção operacional da Corporação, e é chefiado privativamente por um Coronel PM, da ativa, do Quadro de Oficiais Policiais Militares, que necessariamente tenha feito Curso Superior de Polícia ou curso militar correspondente."
+      },
+      {
+        "letra": "E",
+        "texto": "pelo estudo, planejamento, coo rdenação, fiscalização, controle e avaliação das atividades administrativas da Corporação, e é chefiado privativamente por um Coronel PM, da ativa, do Quadro de Oficiais Policiais Militares, preferencialmente com Curso Superior de Polícia ou curso militar correspondente."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q058",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q058",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 58,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Em matéria de nível hierárquico dos praças, a Lei nº 4.044/2014 do Estado do Amazonas (Lei de Promoção de Praças) dispõe que a carreira dos Praças Militares Estaduais é composta pelas seguintes graduações crescentes:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Aluno - soldado; S oldado; Cabo; 3º Sargento; 2º Sargento; 1º Sargento; Subtenente."
+      },
+      {
+        "letra": "B",
+        "texto": "Aluno - soldado; Soldado; Cabo; Sargento; Subtenente; Tenente."
+      },
+      {
+        "letra": "C",
+        "texto": "Aluno - soldado; Soldado; Cabo; Sargento; Subtenente; Tenente; Aluno - oficial."
+      },
+      {
+        "letra": "D",
+        "texto": "Soldado; Cabo; Sargento; Subtenente; Tenen te; Capitão; Major."
+      },
+      {
+        "letra": "E",
+        "texto": "Soldado; Cabo; Sargento; Tenente; Capitão; Major; Coronel. Aluno Soldado da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q059",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q059",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 59,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "No âmbito da Polícia Militar do Estado do Amazonas (PMAM), os Órgãos de Execução destinam - se à realização das atividades - fim da instituição. Conforme dispõe a Lei de Organização Básica da Polícia Militar do Estado do Amazonas (Lei nº 3.514/2010), tais atividades - fim da PMAM, de acordo com as peculiaridades, compreendem, entre outros, as chamadas Frações, que são as",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "menores organizações policiais militares, com responsabilidade territorial decorrente da subdivisão da área das Subunidades, podendo receber as denominações de Pelotão, Grupo, Destacamento ou Posto."
+      },
+      {
+        "letra": "B",
+        "texto": "organizações policiais militares constituídas para atuarem como escalões superiores de comando, responsáveis pela coordenação e controle dos Comandos Intermediários e/ou conjunto de Unidades Policiais Militares."
+      },
+      {
+        "letra": "C",
+        "texto": "organizações policiais militares constituídas para atuarem como escalões intermediários de comando, responsáveis pela coordenação e con trole de determinadas áreas ou regiões, tendo a si subordinadas Unidades ou Subunidades de Polícia Militar."
+      },
+      {
+        "letra": "D",
+        "texto": "organizações policiais militares, com responsabilidade territorial definida, constituídas em razão da reunião de Subunidades, podendo receber as denominações de Batalhão ou Regimento."
+      },
+      {
+        "letra": "E",
+        "texto": "organizações policiais militares com responsabilidade territorial decorrente da subdivisão da área (subárea) de Comando Intermediário, constituídas em razão da reunião de Unidades, podendo receber as denominações de Companhia ou Esquadrão conforme a atividade a ser desenvolvida."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmam-soldado-2021-fgv-q060",
+    "codigo": "PMAM-SOLDADO-2021-FGV-Q060",
+    "orgao": "PMAM",
+    "cargo": "Aluno Soldado PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 60,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "A Lei nº 4.044/2014 do Estado do Amazonas (Lei de Promoção de Praças) dispõe que a promoção por bravura resultará de ações incomuns de coragem e audácia que, ultrapassando os limites no rmais do cumprimento do dever, representem feitos indispensáveis ou úteis às operações militares, pelos resultados alcançados ou pelo exemplo positivo delas emanados. Nesse contexto, a citada lei estabelece que a promoção por bravura é ato",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "vinculado da Administração Militar Estadual, sendo que após a promoção por bravura é vedado ao militar promovido a matrícula no primeiro Curso de Formação e Aperfeiçoamento à respectiva graduação."
+      },
+      {
+        "letra": "B",
+        "texto": "vinculado da Administração Militar Estadual, sendo que os atos de b ravura deverão ser devidamente reconhecidos pelo Governador do Estado, mediante proposta encaminhada pelo Comandante - Geral da Corporação."
+      },
+      {
+        "letra": "C",
+        "texto": "vinculado da Administração Militar Estadual, sendo que os atos de bravura deverão ser devidamente reconhecidos pel o Secretário de Segurança Pública, mediante proposta encaminhada pelo Comandante - Geral da Corporação."
+      },
+      {
+        "letra": "D",
+        "texto": "discricionário da Administração Militar Estadual, sendo que os atos de bravura deverão ser devidamente reconhecidos pelo Comandante - Geral da Corporaçã o, mediante proposta encaminhada pelo respectivo Comandante, Chefe ou Diretor de OPM/OBM, a que pertença o Militar Estadual."
+      },
+      {
+        "letra": "E",
+        "texto": "discricionário da Administração Militar Estadual, sendo que a promoção por bravura será procedida imediatamente após o reconhec imento do ato, apenas se houver vaga disponível, garantindo - se ao Militar Estadual promovido o acesso às graduações subsequentes, independentemente de preenchidos os demais requisitos exigidos na Lei.  Tipo Branca – Página 11 REALIZAÇÃO"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Soldado PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Legislacao Especial."
+  }
+]

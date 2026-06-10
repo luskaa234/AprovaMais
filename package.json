@@ -10,6 +10,8 @@
     "preview": "vite preview",
     "miner:oab": "tsx scripts/content-miner/oab.ts",
     "miner:militar": "tsx scripts/content-miner/militar.ts",
+    "miner:fgv-local": "tsx scripts/content-miner/fgv-local.ts",
+    "promote:fgv-local": "tsx scripts/content-miner/promote-fgv-local.ts",
     "miner:pci-militar": "tsx scripts/content-miner/pci-militar.ts",
     "miner:pci-militar:import": "tsx scripts/content-miner/pci-militar.ts --import",
     "miner:leis": "tsx scripts/content-miner/leis.ts"

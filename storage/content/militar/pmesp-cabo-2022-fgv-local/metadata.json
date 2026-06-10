@@ -1,0 +1,23 @@
+{
+  "exame": "PMSP Cabo PM 2022",
+  "banca": "FGV",
+  "ano": 2022,
+  "cargo": "Cabo PM",
+  "total_questoes": 60,
+  "fonte": "Oficial FGV local",
+  "sourceUrl": "material-provas/fgv/provas PM/cabo-pmcnm001-tipo-1.pdf",
+  "gabarito": "definitivo",
+  "origem": "oficial",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "path": "material-provas/fgv/provas PM/cabo-pmcnm001-tipo-1.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "path": "material-provas/fgv/provas PM/pmespcabo2022_gabarito_definitivo.pdf"
+    }
+  ]
+}

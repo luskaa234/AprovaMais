@@ -1,0 +1,23 @@
+{
+  "exame": "PCRJ Investigador Policial de 3a Classe 2021",
+  "banca": "FGV",
+  "ano": 2021,
+  "cargo": "Investigador Policial de 3a Classe",
+  "total_questoes": 100,
+  "fonte": "Oficial FGV local",
+  "sourceUrl": "material-provas/fgv/provas PM/investigador_policial_de_3a_classeinvest_tipo_1_revisada.pdf",
+  "gabarito": "definitivo",
+  "origem": "oficial",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "path": "material-provas/fgv/provas PM/investigador_policial_de_3a_classeinvest_tipo_1_revisada.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "path": "material-provas/fgv/provas PM/pcrj2021e2_gabarito_definitivo.pdf"
+    }
+  ]
+}

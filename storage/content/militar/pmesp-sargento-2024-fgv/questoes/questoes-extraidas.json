@@ -1,0 +1,2147 @@
+[
+  {
+    "id": "pmesp-sargento-2024-fgv-q001",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q001",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 1,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Observe a frase dita por um ex - ministro da Justiça: O grande mal do Brasil tem sido o crime sem castigo. O que reduz a criminalidade é a certeza da punição. Sobre essa frase, assinale a afirmação correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O autor atribui a criminalidade no Brasil a um conjunto de fatores."
+      },
+      {
+        "letra": "B",
+        "texto": "A locução “sem castigo” equivale ao adjetivo “impune”."
+      },
+      {
+        "letra": "C",
+        "texto": "O segundo período do texto retifica uma falha no período anterior."
+      },
+      {
+        "letra": "D",
+        "texto": "A expressão “certeza da punição” é um antônimo de “crime sem castigo”."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q002",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q002",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 2,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Um político em prisão domiciliar declarou: Não vejo muita diferença em estar preso aqui, ou estar preso num hotel, ou num quarto de luxo. A diferença é nenhuma. O que constrange é a falta de liberdade. Sobre o texto acima, assinale a afirmação correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Os segmentos “Não vejo muita diferença” e “A diferença é nenhuma” mostram uma contradição."
+      },
+      {
+        "letra": "B",
+        "texto": "Segundo o texto, a falta de liberdade é menos intensa em alguns dos lugares citados."
+      },
+      {
+        "letra": "C",
+        "texto": "Os locais de prisão citados proporcionam mais ou menos liberdade ao prisioneiro, segundo o texto."
+      },
+      {
+        "letra": "D",
+        "texto": "O que é semelhante em todos os locais de prisão, segundo o texto, é a impossibilidade de receber visitas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q003",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q003",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 3,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Um jornalista declarou há alg uns anos: Mandar que ministros denunciados apurem denúncias em seus ministérios ou autarquias é / como indicar o coelho para descobrir quem comeu a couve da horta. Entre os dois segmentos indicados há uma relação de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "causa e consequência."
+      },
+      {
+        "letra": "B",
+        "texto": "afirmação e explicação."
+      },
+      {
+        "letra": "C",
+        "texto": "comparação entre duas ações."
+      },
+      {
+        "letra": "D",
+        "texto": "explicação de algo que ficou pouco claro."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q004",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q004",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 4,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que há antônimos entre os segmentos destacados.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Não se acaba com a corrupção, / combate - se."
+      },
+      {
+        "letra": "B",
+        "texto": "Demagogia é usar o passado / para absolver os responsáveis pelo presente."
+      },
+      {
+        "letra": "C",
+        "texto": "Alguém lá deu uns tiros / mas não atingiram ninguém."
+      },
+      {
+        "letra": "D",
+        "texto": "Sempre haverá um conflito entre o bom / e o ótimo."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q006",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q006",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 6,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Todos tomamos conhecimento dos recentes conflitos no Orie nte Médio. Um jornalista escreveu a propósito: Se eu fosse um dos homens do Hamas, não sairia para comprar uma pizza. Essa frase representa por parte de quem a escreve",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ama ameaça."
+      },
+      {
+        "letra": "B",
+        "texto": "uma ordem."
+      },
+      {
+        "letra": "C",
+        "texto": "um conselho."
+      },
+      {
+        "letra": "D",
+        "texto": "uma advertência."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q007",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q007",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 7,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Um líder político antigo declarou: Estamos condenados a viver em paz. Se substituirmos o infinitivo “viver” por uma forma verbal desenvolvida, a forma correta seria",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a que vivamos em paz."
+      },
+      {
+        "letra": "B",
+        "texto": "a vivermos em paz."
+      },
+      {
+        "letra": "C",
+        "texto": "a que vivêssemos em paz."
+      },
+      {
+        "letra": "D",
+        "texto": "a que se viva em paz."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q008",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q008",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 8,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase que mostra uma visão negativa da paz.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A paz não tem fronteiras."
+      },
+      {
+        "letra": "B",
+        "texto": "A paz é mais preciosa que um pedaço de terra."
+      },
+      {
+        "letra": "C",
+        "texto": "A paz é a única forma de nos sentirmos humanos."
+      },
+      {
+        "letra": "D",
+        "texto": "A paz é um pequeno intervalo entre guerras."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q009",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q009",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 9,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase construída com pontuação correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Diplomacia é a arte de saber o, que não dizer."
+      },
+      {
+        "letra": "B",
+        "texto": "Um líder não impõe uma decisão: modela - a."
+      },
+      {
+        "letra": "C",
+        "texto": "Na deixe inimigos, na retaguarda."
+      },
+      {
+        "letra": "D",
+        "texto": "A guerra parece bonita; para quem não a conhece."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q010",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q010",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 10,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que o acento grave indicativo da crase está bem - empregado.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Fundamental é aplicar a lei igualmente à homens de todas as condições."
+      },
+      {
+        "letra": "B",
+        "texto": "Os Estados Unidos podem ganhar a guerra, m as perderão à paz."
+      },
+      {
+        "letra": "C",
+        "texto": "Se você der comida à eles, é democracia. Se não der, é ditadura."
+      },
+      {
+        "letra": "D",
+        "texto": "Embriagar - se é como caminhar às cegas na escuridão da rua."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q011",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q011",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 11,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que o termo sublinhado é um adjetivo.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O direito de roubar o estad o não é um direito humano e não deve ser protegido."
+      },
+      {
+        "letra": "B",
+        "texto": "Democracia é como nadar. Aprende - se praticando."
+      },
+      {
+        "letra": "C",
+        "texto": "A gente não pode deixar que o país vá para o brejo."
+      },
+      {
+        "letra": "D",
+        "texto": "Campanhas contra a fome não enchem barriga de ninguém."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q012",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q012",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 12,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale o par de palavras abaixo em que o adjetivo mostra uma qualidade do substantivo por ele determinado.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Céu cinzento."
+      },
+      {
+        "letra": "B",
+        "texto": "Caneta esferográfica."
+      },
+      {
+        "letra": "C",
+        "texto": "Tempo nublado."
+      },
+      {
+        "letra": "D",
+        "texto": "Sol maravilhoso."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q013",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q013",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 13,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase abaixo em que a preposição de é exigida por um t ermo anterior.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Não se tem necessidade de muito dinheiro para viver."
+      },
+      {
+        "letra": "B",
+        "texto": "Bolo de fubá agrada a todos, como a democracia."
+      },
+      {
+        "letra": "C",
+        "texto": "De manhã acordamos com disposição."
+      },
+      {
+        "letra": "D",
+        "texto": "O vinho de Portugal é de ótima qualidade."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q014",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q014",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 14,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que ocorre a construção verbal na voz passiva.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Não queremos parar de ser o que somos."
+      },
+      {
+        "letra": "B",
+        "texto": "Não somos obrigados a aderir às minorias."
+      },
+      {
+        "letra": "C",
+        "texto": "Neste país todos mandam e ninguém obedece."
+      },
+      {
+        "letra": "D",
+        "texto": "Alguns são bons para a discussão política."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q015",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q015",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 15,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Qualquer pesso a desprovida de senso de humor está à mercê de todos. Sobre essa frase, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“Qualquer pessoa” é o mesmo que “Pessoa qualquer”."
+      },
+      {
+        "letra": "B",
+        "texto": "“desprovida” equivale a “sem provas”."
+      },
+      {
+        "letra": "C",
+        "texto": "“à mercê de todos” mostra inferioridade."
+      },
+      {
+        "letra": "D",
+        "texto": "“senso de humor” indica desprezo e deboche."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q016",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q016",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 16,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase que mostra uma estruturação diferente das demais, por não ser uma definição.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Negócios são a minha forma de arte."
+      },
+      {
+        "letra": "B",
+        "texto": "A inteligência é feita por um terço de instinto, um terço de mem ória e o último terço de vontade."
+      },
+      {
+        "letra": "C",
+        "texto": "A genialidade não é outra coisa senão uma grande aptidão para a paciência."
+      },
+      {
+        "letra": "D",
+        "texto": "A genialidade é uma variedade da loucura."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q017",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q017",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 17,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que não ocorre a presença de uma oração consecutiva.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ninguém sofre tão pouco como o louco."
+      },
+      {
+        "letra": "B",
+        "texto": "Tão certo é que a paisagem depende do ponto de vista, que o melhor modo de apreciar o chicote é ter - lhe o cabo na mão."
+      },
+      {
+        "letra": "C",
+        "texto": "Não existe um homem tão justo sobre a Terra que faça o bem sem jamais pecar."
+      },
+      {
+        "letra": "D",
+        "texto": "O país da loucura e da sabedoria são limítrofes e de fronteiras tão incertas que ninguém pode saber em qual dos dois se encontra."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q018",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q018",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 18,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que não ocorre paralelismo sintático.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "As p alavras são a mágica da mente; comida é a mágica do corpo e a música é a mágica da alma."
+      },
+      {
+        "letra": "B",
+        "texto": "Prefiro a mente aberta por um milagre do que a mente fechada por uma crença."
+      },
+      {
+        "letra": "C",
+        "texto": "As coisas não acontecem simplesmente, elas são feitas para acontecer."
+      },
+      {
+        "letra": "D",
+        "texto": "Os dez m andamentos são mal conhecidos, mal compreendidos e mal vividos. CONCURSO INTERNO DE SELEÇÃO PARA O CURSO DE FORMAÇÃO DE SARGENTOS"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q019",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q019",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 19,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em cada opção abaixo há um termo sublinhado que retoma um elemento do segmento anterior. Assinale a frase em que a correspondência entre os termos não está correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ricardo acaba de cancelar a sua reserva. Isso me espanta bastante, pois não é hábito dele."
+      },
+      {
+        "letra": "B",
+        "texto": "Sônia encontrou um emprego em seu domínio de especialização. Ela começa amanhã de manhã."
+      },
+      {
+        "letra": "C",
+        "texto": "O professor nos deu uma semana para acabar o relatório. Será necessário ainda fazer a revisão do texto."
+      },
+      {
+        "letra": "D",
+        "texto": "As esculturas africanas expostas atualmente no museu do centro da cidade causam admiração entre os visitantes. Você gosta de algumas delas em particular?"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q020",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q020",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 20,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase abaixo em que a troca de posição realizada na frase não é feita de forma adequada, pois ocorre modificação de sentido.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A sabedoria se adquire com a capacidade, não com a idade / A sabedoria se adquire com a idade, não com a capacidade."
+      },
+      {
+        "letra": "B",
+        "texto": "Nunca, nunca disse uma coisa a Natureza e outra a Sabedoria / Nunca, nunca disse uma coisa a Sabedoria e outra a Natureza."
+      },
+      {
+        "letra": "C",
+        "texto": "Quem olha para trás não olha para a frente / Quem olha para a frente não olha para trás."
+      },
+      {
+        "letra": "D",
+        "texto": "Os homens confiam menos nos seus ouvidos do que nos seus olhos / Os homens confiam mais nos seus olhos do que nos seus ouvidos. Matemática"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q021",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q021",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 21,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "O preço médio do litro da gasolina no Brasil é de R$6,20 e no Uruguai é de R$10,00. O preço da gasolina no Uruguai é maior que o preço no Brasil em, aproximadamente,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "38%."
+      },
+      {
+        "letra": "B",
+        "texto": "46%."
+      },
+      {
+        "letra": "C",
+        "texto": "52%."
+      },
+      {
+        "letra": "D",
+        "texto": "61%."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Matematica."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q022",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q022",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 22,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "As distâncias, em linha reta, de São Paulo ao Rio de Janeiro e de São Paulo a Manaus são, respectivamente, de 360km e 2700km. Em um m apa a distância de São Paulo ao Rio de Janeiro é de 5cm. Nesse mapa, a distância de São Paulo a Manaus será de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "34,5cm."
+      },
+      {
+        "letra": "B",
+        "texto": "36,0cm."
+      },
+      {
+        "letra": "C",
+        "texto": "37,5cm."
+      },
+      {
+        "letra": "D",
+        "texto": "39,0cm."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Matematica."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q024",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q024",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 24,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "A figura abaixo mostra uma poligonal na qual todos os ângulos são retos. As medidas, em certa unidade, dos segmentos dessa poligonal são: AB = 3, BC = 4, CD = 7 e DE = 2. Nessa unidade, a distância entre os pontos A e E é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "√ 48."
+      },
+      {
+        "letra": "B",
+        "texto": "√ 52."
+      },
+      {
+        "letra": "C",
+        "texto": "√ 56."
+      },
+      {
+        "letra": "D",
+        "texto": "√ 60."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Matematica."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q025",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q025",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 25,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "O conjunto A é formado pelos números naturais múltiplos de 4 com dois algarismos e o conjunto B é formado pelos números naturais múltiplos de 6 com dois algarismos. O número de elementos da interseção dos conjuntos A e B é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6."
+      },
+      {
+        "letra": "B",
+        "texto": "8."
+      },
+      {
+        "letra": "C",
+        "texto": "1 0."
+      },
+      {
+        "letra": "D",
+        "texto": "12."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Matematica."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q026",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q026",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 26,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "Dois números inteiros são tais que: ▪ a soma deles é 78. ▪ o dobro de um deles excede o triplo do outro em 1 unidade. A diferença (o maior menos o menor) entre esses dois números é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "15."
+      },
+      {
+        "letra": "B",
+        "texto": "16."
+      },
+      {
+        "letra": "C",
+        "texto": "17."
+      },
+      {
+        "letra": "D",
+        "texto": "18. CONCURSO INTERNO DE SELEÇÃO PARA O CURSO DE FORMAÇÃO DE SARGENTOS"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Matematica."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q027",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q027",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 27,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Considere a afirmação: Se João toma café então não dorme. A partir dessa afirmação, é correto concluir que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Se João não toma café então dorme."
+      },
+      {
+        "letra": "B",
+        "texto": "Se João não dorme então tomou café."
+      },
+      {
+        "letra": "C",
+        "texto": "Se João dorme então não tomou café."
+      },
+      {
+        "letra": "D",
+        "texto": "João toma café ou dorme."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Matematica."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q030",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q030",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 30,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Em um vestiário de um clube há 12 armários: seis do lado esquerdo numerados com os números ímpares de 1 a 11 e seis do lado direito numerados com os números pares de 2 a 12. Esses armários foram sorteados entre 12 atletas. Marcelo e Felipe são dois desses atletas e cada um, dep ois do sorteio, recebeu um armário. A probabilidade de que Marcelo e Felipe tenham recebido armários vizinhos é de, aproximadamente,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "15%."
+      },
+      {
+        "letra": "B",
+        "texto": "18%."
+      },
+      {
+        "letra": "C",
+        "texto": "21%."
+      },
+      {
+        "letra": "D",
+        "texto": "24%."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Matematica."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q031",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q031",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 31,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "23 35 45 Colocando os números,, em ordem crescente tem - se: 16 24 32 23 35 45",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "< <. 16 24 32 35 23 45"
+      },
+      {
+        "letra": "B",
+        "texto": "< <. 24 16 32 45 23 35"
+      },
+      {
+        "letra": "C",
+        "texto": "< <. 32 16 24 35 45 23"
+      },
+      {
+        "letra": "D",
+        "texto": "< <. 24 32 16"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Matematica."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q032",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q032",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 32,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Joana vai fazer 5 testes com pontuação de 0 a 100 em cada um. Ela já fez 3 testes e obteve as seguintes pontuações: 65, 77 e 72. Para que Joana obtenha média aritmética igual a 70 nos 5 testes, a menor nota que ela pode tirar em um dos 2 testes que faltam é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "36."
+      },
+      {
+        "letra": "B",
+        "texto": "42."
+      },
+      {
+        "letra": "C",
+        "texto": "44."
+      },
+      {
+        "letra": "D",
+        "texto": "68."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Matematica."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q033",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q033",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 33,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Bruna tem 6 cupons que podem ser trocados por picolés grátis na sorveteria perto de sua casa. Para fazer os cupons durarem, ela decide que vai trocar um cupom a cada 9 dias até que os cupons acabem. Ela sabe que a sorveteria fecha às segundas - feiras e abre nos demais dias da semana e, assim, escolheu um dia para começar de modo que nenhuma troca ti vesse que ser feita em uma segunda - feira. O dia da semana em que Bruna trocou o primeiro cupom foi",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "terça - feira."
+      },
+      {
+        "letra": "B",
+        "texto": "quarta - feira."
+      },
+      {
+        "letra": "C",
+        "texto": "quinta - feira."
+      },
+      {
+        "letra": "D",
+        "texto": "domingo."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Matematica."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q035",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q035",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 35,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Cinco times disputaram um torneio em que cada um deles joga contra os demais duas vezes. Em cada jogo, a vitória vale 3 pontos para o vencedor e 0 (zero) para o perdedor e o empate vale 1 ponto para cada time. Ao final do torneio, dois times ficaram empata dos em primeiro lugar com o mesmo número de pontos. A maior pontuação que cada um deles pode ter feito é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "21."
+      },
+      {
+        "letra": "B",
+        "texto": "22."
+      },
+      {
+        "letra": "C",
+        "texto": "23."
+      },
+      {
+        "letra": "D",
+        "texto": "24."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Matematica."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q036",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q036",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 36,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "Quatro condecorações diferentes serão dadas a três sargentos. Cada sargento deverá receber pelo menos uma condecoração. O número de diferentes maneiras de dar as quatro condecorações aos três sargentos é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "12."
+      },
+      {
+        "letra": "B",
+        "texto": "24."
+      },
+      {
+        "letra": "C",
+        "texto": "36."
+      },
+      {
+        "letra": "D",
+        "texto": "72."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Matematica."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q037",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q037",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 37,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Em uma caixa há bolas verdes e bolas azuis. Não há bolas de outras cores na caixa. A razão entre o n úmero de bolas verdes e o número de bolas azuis é de 4:3. Se acrescentarmos 15 bolas azuis à caixa, a razão entre o número de bolas verdes e o número de bolas azuis passa a ser de 2:3. O número de bolas que havia na caixa inicialmente é igual a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "60."
+      },
+      {
+        "letra": "B",
+        "texto": "40."
+      },
+      {
+        "letra": "C",
+        "texto": "35."
+      },
+      {
+        "letra": "D",
+        "texto": "25."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Matematica."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q038",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q038",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 38,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Sabe - se que a sentença Se Cláudia é torcedora do Palmeiras, então Ricardo é torcedor do Santos é falsa. Assim, é correto concluir que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Se Ricardo não é torcedor do Santos, então Cláudia não é torcedora do Palmeiras."
+      },
+      {
+        "letra": "B",
+        "texto": "Cláudia é torcedora do Palmeiras e Ricardo é torcedor do Santos."
+      },
+      {
+        "letra": "C",
+        "texto": "Cláudia não é torcedora do Palmeiras ou Ricardo é torcedor do Santos."
+      },
+      {
+        "letra": "D",
+        "texto": "Cláudia é torcedora do Palmeiras e Ricardo não é torcedor do Santos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Matematica."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q039",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q039",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 39,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "A negação lóg ica da sentença Se o triângulo é amarelo, então o quadrado não é azul é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Se o triângulo não é amarelo, então o quadrado é azul."
+      },
+      {
+        "letra": "B",
+        "texto": "Se o quadrado é azul, então o triângulo é amarelo."
+      },
+      {
+        "letra": "C",
+        "texto": "O triângulo não é amarelo ou o quadrado não é azul."
+      },
+      {
+        "letra": "D",
+        "texto": "O triângul o é amarelo e o quadrado é azul."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Matematica."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q040",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q040",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 40,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "Em uma caixa há esferas e cubos. Não há outros tipos de sólidos na caixa. Algumas esferas e alguns cubos são vermelhos e as outras esferas e os outros cubos são brancos. Sabe - se que, na caixa 1. o número de cubos brancos é igual ao número de sólidos vermelhos; 2. o número de cubos vermelhos é 17; 3. o número de esferas é 47; 4. há 57 cubos a mais do que esferas brancas. O número total de sólidos na caixa é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "116."
+      },
+      {
+        "letra": "B",
+        "texto": "118."
+      },
+      {
+        "letra": "C",
+        "texto": "120."
+      },
+      {
+        "letra": "D",
+        "texto": "122. Conhecimentos Profissionais"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Matematica."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q041",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q041",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 41,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "José, agindo com dolo de lesionar, ofendeu a integridade corporal do policial militar Mário, que estava no exercício da função. Após ser atendido no hospital mais próximo, constatou - se, pericialmente, que das lesões resultou debilidade permanente de membro do referido agente público. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que José responderá pelo crime de lesão corporal",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "de natureza grave, com a incidência de u ma causa de aumento de pena, por ter sido praticado contra policial militar no exercício da função."
+      },
+      {
+        "letra": "B",
+        "texto": "simples, com a incidência de uma causa de aumento de pena, por ter sido praticado contra policial militar no exercício da função."
+      },
+      {
+        "letra": "C",
+        "texto": "de natureza gravís sima, por ter sido praticada contra policial militar no exercício da função."
+      },
+      {
+        "letra": "D",
+        "texto": "de natureza grave, por ter sido praticada contra policial militar no exercício da função."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Matematica."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q042",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q042",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 42,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Luiz e Matheus, policiais militares no Estado de São Paulo, comparece ram ao fórum da Capital, com o objetivo de prestar depoimento em juízo, em processo penal que apura o suposto crime de furto qualificado que teria sido praticado por Caio. Nesse cenário, considerando as disposições do Código de Processo Penal, é correto a firmar que Luiz e Matheus",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "serão inquiridos cada um de per si, de modo que um não saiba nem ouça o depoimento do outro, sendo certo que as partes formularão perguntas, por intermédio do juiz, aos depoentes."
+      },
+      {
+        "letra": "B",
+        "texto": "serão inquiridos cada um de per si, de modo que um não saiba nem ouça o depoimento do outro, sendo certo que as partes formularão perguntas diretamente aos depoentes."
+      },
+      {
+        "letra": "C",
+        "texto": "para evitar contradições, serão inquiridos em conjunto, sendo certo que as partes for mularão perguntas previamente autorizadas pelo juiz."
+      },
+      {
+        "letra": "D",
+        "texto": "para evitar contradições, serão inquiridos em conjunto, sendo certo que as partes formularão perguntas, por intermédio do juiz, aos depoentes. CONCURSO INTERNO DE SELEÇÃO PARA O CURSO DE FORMAÇÃO DE SARGENTOS"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q043",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q043",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 43,
+    "materia": "Direito Processual Penal",
+    "materia_original": "Direito Processual Penal",
+    "dificuldade": "medio",
+    "enunciado": "Nino, réu em processo penal pela supos ta prática do crime de latrocínio, afirmou para amigos e familiares que as garantias judiciais que detém, à luz da Convenção Interamericana de Direitos Humanos, internalizada na ordem jurídica pátria por meio do Decreto nº 678/1992, não estão sendo devidam ente observadas em juízo, em razão da grande repercussão do fato delituoso na imprensa. De acordo com a narrativa e considerando as disposições da Convenção Interamericana de Direitos Humanos (Pacto de São José da Costa Rica), avalie se as garantias mínima s a que toda pessoa tem direito durante o processo incluem: I. Direito renunciável de ser assistido por um defensor proporcionado pelo Estado, remunerado ou não, segundo a legislação interna, se o acusado não se defender ele próprio nem nomear defensor dentro do prazo estabelecido pela lei. II. Direito da defesa de inquirir as testemunhas presentes no tribunal e de obter o comparecimento, como testemunhas ou peritos, de outras pessoas que possam lançar luz sobre os fatos. III. Direito do acusado de defender - se pessoalmente ou de ser assistido por um defensor de sua escolha e de comunicar - se, livremente e em particular, com seu defensor. Está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "III, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "I e II, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "II e III, apenas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Processual Penal."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q044",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q044",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 44,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "Matheus, policial militar no Estado de São Paulo, participou de um curso, teórico e prático, de aperfeiçoamento em conjunto com forças de segurança pública de outros países da América do Sul, no âmbito do qual se discutiram, entre o utras temáticas, os princípios que regem as relações internacionais dos países lá presentes. Nesse cenário, considerando as disposições da Constituição Federal, é correto afirmar que a República Federativa do Brasil rege - se, em suas relações internacionais, pelo princípio da(do)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "erradicação da pobreza e da marginalização e redução das desigualdades sociais e regionais."
+      },
+      {
+        "letra": "B",
+        "texto": "construção de uma sociedade livre, justa e solidária."
+      },
+      {
+        "letra": "C",
+        "texto": "garantia do desenvolvimento nacional."
+      },
+      {
+        "letra": "D",
+        "texto": "repúdio ao terrorismo e ao racis mo."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q045",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q045",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 45,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "João é investigado pela prática de crime de furto qualificado pelo rompimento de obstáculo à subtração da coisa (Art. 155, §4º, inciso I, do Código Penal), estando sujeito à pena de reclusão de dois a oito anos e multa. A autoridade pol icial, ao apresentar o relatório final das investigações, representou pela decretação da prisão preventiva do indiciado, como garantia da ordem pública, existindo prova da existência do crime e indício suficiente de autoria e de perigo gerado pelo estado d e liberdade do imputado. Contudo, o Ministério Público, ao oferecer denúncia, foi contrário à representação do Delegado de Polícia. Registre - se que João responde, em juízo, a outro processo penal, em fase de instrução processual. Nesse cenário, considerand o as disposições do Código de Processo Penal, é correto afirmar que o juiz",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não poderá decretar a prisão preventiva, que demanda, cumulativamente, representação da autoridade policial e parecer favorável do Ministério Público."
+      },
+      {
+        "letra": "B",
+        "texto": "poderá decretar a prisão preventiva, por se tratar de crime doloso punido com pena privativa de liberdade máxima superior a quatro anos."
+      },
+      {
+        "letra": "C",
+        "texto": "não poderá decretar a prisão preventiva, que demanda o prévio descumprimento de medidas cautelares de natureza diversa da prisão."
+      },
+      {
+        "letra": "D",
+        "texto": "poderá decretar a prisão preventiva, por se tratar de crime punido com reclusão."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q046",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q046",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 46,
+    "materia": "Direito Processual Penal",
+    "materia_original": "Direito Processual Penal",
+    "dificuldade": "medio",
+    "enunciado": "Em conversa com João, formado em Direito, o policial militar Caio afirmou que a falta de norma regulamentadora estava tornando inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade. Em assim sendo, Joã o afirmou que o policial poderia ingressar, em juízo, com uma ação para tutelar os interesses ora narrados. Nesse cenário, considerando as disposições da Constituição Federal, é correto afirmar que Caio poderá impetrar um(a)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "mandado de segurança, ação com previsão constitucional expressa."
+      },
+      {
+        "letra": "B",
+        "texto": "mandado de injunção, ação com previsão constitucional expressa."
+      },
+      {
+        "letra": "C",
+        "texto": "habeas corpus, ação com previsão constitucional implícita."
+      },
+      {
+        "letra": "D",
+        "texto": "ação popular, ação com previsão constitucional implícita."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Processual Penal."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q047",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q047",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 47,
+    "materia": "Direito Processual Penal",
+    "materia_original": "Direito Processual Penal",
+    "dificuldade": "medio",
+    "enunciado": "Luiz, sargento da Polícia Militar do Estado de São Paulo, agindo com dolo, deixou de apresentar - se no momento da partida da aeronave de que é tripulante. Nesse cenário, considerando as disposições do Código Penal Militar, é correto afirmar que Luiz responderá pelo crime de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "abandono de posto, com a incidência de uma causa de aumento de pena, pois a conduta foi praticada por sargento."
+      },
+      {
+        "letra": "B",
+        "texto": "deserção especial, com a incidência de uma causa de aumento de pena, pois a conduta foi praticada por sar gento."
+      },
+      {
+        "letra": "C",
+        "texto": "deserção qualificada, pois a conduta foi praticada por sargento."
+      },
+      {
+        "letra": "D",
+        "texto": "deserção especial, sem causas de aumento de pena. CONCURSO INTERNO DE SELEÇÃO PARA O CURSO DE FORMAÇÃO DE SARGENTOS"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Processual Penal."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q048",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q048",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 48,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Uma guarnição da Polícia Militar do Estado de São Paulo recebeu a determinação de cumprir um mandado de busca e apreensão expedido pelo Poder Judiciário, com o objetivo de apreender determinados bens no domicílio de Caio. Nesse contexto, antes de ir ao local, os policiais militares analisaram, com detalhes, a legislação processual, em especial a parte que versa s obre a busca e apreensão. Nesse cenário, considerando as disposições do Código de Processo Penal, é incorreto afirmar que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "antes de penetrarem na casa, os executores mostrarão e lerão o mandado ao morador, ou a quem o represente, intimando - o, em seguida, a abrir a porta."
+      },
+      {
+        "letra": "B",
+        "texto": "descoberta a coisa que se procura, será ela imediatamente apreendida e posta sob custódia da autoridade ou de seus agentes."
+      },
+      {
+        "letra": "C",
+        "texto": "a busca domiciliar será executada de dia, salvo se o morador consentir que se realize à noite."
+      },
+      {
+        "letra": "D",
+        "texto": "finda a diligência, os executores lavrarão auto circunstanciado, assinando - o com o morador."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q049",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q049",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 49,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Caio, policial militar no Estado de São Paulo, recebeu a forma mais branda de sanção disciplinar, aplicada verbalmente ao transgressor, podendo ser feita particular ou ostensivamente, sem constar de publicação ou dos assentamentos individuais. Nesse cenário, considerando as disposições da Lei Complementar o Estadual n 893/2001, é correto afirmar que a Caio foi aplicada a sanção administrativa disciplin ar de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "permanência disciplinar, aplicável às faltas de natureza leve e média."
+      },
+      {
+        "letra": "B",
+        "texto": "repreensão, aplicável exclusivamente às faltas de natureza leve."
+      },
+      {
+        "letra": "C",
+        "texto": "advertência, aplicável exclusivamente às faltas de natureza leve."
+      },
+      {
+        "letra": "D",
+        "texto": "advertência, aplicável às faltas de natureza leve e média."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q050",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q050",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 50,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Lucas e alguns colegas, todos policiais militares, encontraram - se para, dolosamente, ocupar um estabelecimento militar, em detrimento da ordem e da disciplina militar. Contudo, antes da execução do crime e quando ainda era possível evitar - lhe as consequências, Lucas denunciou o ajuste de que participou ao seu superior hierárquico. Nesse cenário, considerando as disposições do Código Penal Militar, é correto afirmar que a conduta de Lucas caracteriza o crime de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "conspiração, não sendo caso de isenção de pena."
+      },
+      {
+        "letra": "B",
+        "texto": "conspiração, sendo caso de isenção de pena."
+      },
+      {
+        "letra": "C",
+        "texto": "revolta, não sendo caso de isenção de pena."
+      },
+      {
+        "letra": "D",
+        "texto": "revolta, sendo caso de isenção de pena."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q051",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q051",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 51,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "João, empresário, comentou com Matheus, amigo de longa data e comerciante, a violência crescente no Município Alfa. Nesse contexto, Matheus, agindo com dolo, solicitou, para si, a quantia de R$ 5.000,00 (cinco mil reais), a pretexto de influir em ato a ser praticado por Caio, policial militar, consis tente no aumento do patrulhamento ostensivo na região do estabelecimento comercial de João. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que Matheus responderá pelo crime de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "exploração de prestígio."
+      },
+      {
+        "letra": "B",
+        "texto": "favorecimento pe ssoal."
+      },
+      {
+        "letra": "C",
+        "texto": "tráfico de influência."
+      },
+      {
+        "letra": "D",
+        "texto": "favorecimento real."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q052",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q052",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 52,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Determinada guarnição da Polícia Militar de São Paulo capturou, em flagrante, Caio, acusado de praticar o crime de racismo, encaminhando - o, na sequência, à Delegacia de Polícia. Nesse cenário, considerando as disposições da Constituição Federal, é correto afirmar que a autoridade policial",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não poderá arbitrar fiança em benefício de Caio, pois o crime de racismo, além de imprescritível e sujeito à pena de reclusão, tem natureza inafiançável."
+      },
+      {
+        "letra": "B",
+        "texto": "não poderá arbitrar fiança em benefício de Caio, pois o crime de racismo, embora prescritível e sujeito à pena de detenção, tem natureza inafiançável."
+      },
+      {
+        "letra": "C",
+        "texto": "poderá arbitrar fiança em benefício de Caio, pois o crime de racismo, embo ra imprescritível e sujeito à pena de reclusão, tem natureza afiançável."
+      },
+      {
+        "letra": "D",
+        "texto": "poderá arbitrar fiança em benefício de Caio, pois o crime de racismo, além de prescritível e sujeito à pena de detenção, tem natureza afiançável."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q053",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q053",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 53,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Determinado policial, no âmbito da Polícia Militar do Estado de São Paulo, reputando - se prejudicado por ato de superior hierárquico, pretende ingressar com pedido de reconsideração. Dessa forma, antes de o interpor, o agente público resolveu analisar a leg islação de regência, para atuar da forma mais adequada. Nesse cenário, considerando as disposições da Lei Complementar o Estadual n 893/2001, o agente concluiu, corretamente, que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a autoridade a quem for dirigido o pedido de reconsideração de ato deverá, saneando se possível o ato praticado, dar solução ao recurso, no prazo máximo de cinco dias, a contar da data de recebimento do documento, dando conhecimento ao interessado, mediante despacho fundamentado que deverá ser publicado."
+      },
+      {
+        "letra": "B",
+        "texto": "o pedido de reconsid eração de ato deve ser redigido de forma respeitosa, precisando o objetivo e as razões que o fundamentam, sem comentários ou insinuações, vedado o acompanhamento de documentos comprobatórios."
+      },
+      {
+        "letra": "C",
+        "texto": "não será conhecido o pedido de reconsideração intempestivo, procrastinador ou que não apresente fatos novos que modifiquem a decisão anteriormente tomada, devendo este ato ser publicado."
+      },
+      {
+        "letra": "D",
+        "texto": "o subordinado que não tiver oficialmente conhecimento da solução do pedido de reconsideração, após quinze dias contados da da ta de sua solicitação, poderá interpor recurso hierárquico. CONCURSO INTERNO DE SELEÇÃO PARA O CURSO DE FORMAÇÃO DE SARGENTOS"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q054",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q054",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 54,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "João, em comunhão de ações e desígnios com uma pessoa não identificada, abordou Maria, que caminhava pelo Centro de São Paulo, afirmando que a mataria caso ela não entregasse sua c arteira. Nesse contexto, uma guarnição da Polícia Militar, ao presenciar a cena, imediatamente deu voz de prisão ao criminoso, encaminhando - o à autoridade policial. Durante o interrogatório em sede policial, João ofereceu R$5.000,00 (cinco mil reais) ao De legado de Polícia, para que este deixasse de lavrar o flagrante, proposta imediatamente recusada. Nesse cenário, considerando as disposições do Código Penal, é correto afirmar que João responderá, em concurso, pelos crimes de roubo",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "circunstanciado pel o concurso de pessoas e corrupção passiva qualificada."
+      },
+      {
+        "letra": "B",
+        "texto": "circunstanciado pelo concurso de pessoas e corrupção ativa simples."
+      },
+      {
+        "letra": "C",
+        "texto": "qualificado pelo concurso de pessoas e corrupção passiva simples."
+      },
+      {
+        "letra": "D",
+        "texto": "simples e corrupção passiva qualificada."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q055",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q055",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 55,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Logo após praticar determinado crime previsto no Código Penal Militar, Matheus foi perseguido por colegas de farda, em situação que faz acreditar ser ele o autor do fato delituoso. Registre - se que, no mesmo dia do cometimento da infração penal, após duas horas de perseguição, Matheus foi, finalmente, capturado, embora não estivesse com instrumentos, objetos, material ou papéis vinculados ao crime. Nesse cenário, considerando as disposições do Código de Processo Penal Militar, é correto afirmar que Matheus",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não está em flagrante delito, pois, quando foi capturado, ele não foi encontrado com instrumentos, objetos, material ou papéis que façam presumir a sua participação no fato delituoso."
+      },
+      {
+        "letra": "B",
+        "texto": "está em flagrante delito, pois foi perseguido logo a pós o fato delituoso em situação que faça acreditar ser ele o seu autor."
+      },
+      {
+        "letra": "C",
+        "texto": "está em flagrante delito, pois a captura ocorreu no mesmo dia em que foi praticado o fato delituoso, observado o prazo legal de 24h (vinte e quatro horas)."
+      },
+      {
+        "letra": "D",
+        "texto": "não está em flagrante delito, pois, quando foi capturado, ele não estava cometendo o fato delituoso."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q056",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q056",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 56,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Durante um curso de aperfeiçoamento, Jonas, policial na Polícia Militar do Estado de São Paulo, participou de uma palestra focada no Regulamento Discip linar da instituição e, em especial, nos valores fundamentais determinantes da moral policial - militar. Nesse cenário, considerando a redação das disposições da Lei Complementar Estadual nº 893/2001 e tomando cuidado para não confundir com uma manifestaçã o essencial da disciplina, é um valor fundamental, determinante da moral policial - militar, o(a)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "observância rigorosa das prescrições legais e regulamentares."
+      },
+      {
+        "letra": "B",
+        "texto": "emprego de todas as energias em benefício do serviço."
+      },
+      {
+        "letra": "C",
+        "texto": "obediência às ordens legais dos superiores."
+      },
+      {
+        "letra": "D",
+        "texto": "dignidade humana."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q057",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q057",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 57,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "João, com vontade livre e consciente, praticou conjunção carnal com sua esposa, maior de idade, aproveitando de que ela se encontrava completamente embriagada, não podendo oferecer resistência. Nesse cenári o, considerando as disposições do Código Penal, é correto afirmar que João responderá pelo crime de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "estupro de vulnerável simples, majorado por ter sido praticado pelo cônjuge da vítima."
+      },
+      {
+        "letra": "B",
+        "texto": "estupro simples, majorado por ter sido praticado pelo cônjuge da vítima."
+      },
+      {
+        "letra": "C",
+        "texto": "estupro qualificado por ter sido praticado pelo cônjuge da vítima."
+      },
+      {
+        "letra": "D",
+        "texto": "estupro de vulnerável simples, sem causas de aumento de pena."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q058",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q058",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 58,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Um usuário do Microsoft Excel 365 BR selecionou uma série de dados e acionou a tecla de atalho Alt + F1 com o objetivo de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "visualizar a impressão da planilha."
+      },
+      {
+        "letra": "B",
+        "texto": "ordenar os dados em ordem crescente."
+      },
+      {
+        "letra": "C",
+        "texto": "inserir um gráfico."
+      },
+      {
+        "letra": "D",
+        "texto": "fechar o programa."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q059",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q059",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 59,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "No MS Word 365 BR, após edição de um texto, um usuário clicou no seguinte botão: Esse botão, cuja função é contar páginas, palavras, caracteres (com e sem espaço), parágrafos e linhas, por padrão, é encontrado na guia",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Exibir."
+      },
+      {
+        "letra": "B",
+        "texto": "Design."
+      },
+      {
+        "letra": "C",
+        "texto": "Layout."
+      },
+      {
+        "letra": "D",
+        "texto": "Revisão. CONCURSO INTERNO DE SELEÇÃO PARA O CURSO DE FORMAÇÃO DE SARGENTOS"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmesp-sargento-2024-fgv-q060",
+    "codigo": "PMESP-SARGENTO-2024-FGV-Q060",
+    "orgao": "PMSP",
+    "cargo": "Sargento PM",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 60,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em relação ao MS Power Point 365 BR, associe os botões listados a seguir às respectivas guias da faixa de opções. 1. 2. 3. 4. ( ) Guia Revisão ( ) Guia Inserir ( ) Guia Desenhar ( ) Guia Apresentação de Slides A associação correta, na ordem apresentada, é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1 – 2 – 3 – 4."
+      },
+      {
+        "letra": "B",
+        "texto": "2 – 1 – 4 – 3."
+      },
+      {
+        "letra": "C",
+        "texto": "1 – 3 – 4 – 2."
+      },
+      {
+        "letra": "D",
+        "texto": "3 – 1 – 2 – 4."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Sargento PM 2024. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  }
+]

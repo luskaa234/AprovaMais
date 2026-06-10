@@ -1,0 +1,23 @@
+{
+  "exame": "PMPB Curso de Formacao de Oficiais PM 2022",
+  "banca": "FGV",
+  "ano": 2022,
+  "cargo": "Curso de Formacao de Oficiais PM",
+  "total_questoes": 80,
+  "fonte": "Oficial FGV local",
+  "sourceUrl": "material-provas/fgv/provas PM/curso-de-formacao-de-oficiais-combatentes-da-pmpbcfopb-22-tipo-1.pdf",
+  "gabarito": "definitivo",
+  "origem": "oficial",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "path": "material-provas/fgv/provas PM/curso-de-formacao-de-oficiais-combatentes-da-pmpbcfopb-22-tipo-1.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "path": "material-provas/fgv/provas PM/pmpb2021_gabarito_definitivo.pdf"
+    }
+  ]
+}

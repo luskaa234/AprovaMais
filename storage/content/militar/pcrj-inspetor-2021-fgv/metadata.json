@@ -1,0 +1,23 @@
+{
+  "exame": "PCRJ Inspetor de Policia de 6a Classe 2021",
+  "banca": "FGV",
+  "ano": 2021,
+  "cargo": "Inspetor de Policia de 6a Classe",
+  "total_questoes": 100,
+  "fonte": "Oficial FGV local",
+  "sourceUrl": "material-provas/fgv/provas PM/inspetor_de_policia_de_6a_classeinspetor_tipo_1_revisada.pdf",
+  "gabarito": "definitivo",
+  "origem": "oficial",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "path": "material-provas/fgv/provas PM/inspetor_de_policia_de_6a_classeinspetor_tipo_1_revisada.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "path": "material-provas/fgv/provas PM/pcrj2021e1_gabarito_definitivo.pdf"
+    }
+  ]
+}

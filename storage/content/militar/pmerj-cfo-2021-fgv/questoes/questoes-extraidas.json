@@ -1,0 +1,2883 @@
+[
+  {
+    "id": "pmerj-cfo-2021-fgv-q001",
+    "codigo": "PMERJ-CFO-2021-FGV-Q001",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 1,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "Com base em lei estadual, o Estado Beta publicou em seu site oficial na internet, em aba própria sobre transparência, os nomes de seus servidores e do valor dos correspondentes vencimentos e vantagens pecuniárias. Inconformado, o Policial Militar Antônio impetrou mandado de segurança, pleiteando a imediata retirada de seu nome do sítio eletrônico. De acordo com a jurisprudência do Supremo Tribunal Federal sobre o tema, a ordem deve ser",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "concedida, diante da patente violação aos direitos fundamentais à privacidade e à intimidade."
+      },
+      {
+        "letra": "B",
+        "texto": "concedida, diante da patente violação ao direito fundamental à segurança de servidor público policial."
+      },
+      {
+        "letra": "C",
+        "texto": "concedida, diante da ausência de autorização expressa do servidor e por violação ao seu sigilo bancário."
+      },
+      {
+        "letra": "D",
+        "texto": "denegada, pois a publicação é legítima e está acobertada pelo direito à informação da coletividade."
+      },
+      {
+        "letra": "E",
+        "texto": "denegada, pois os servidores públicos não gozam da prerrogativa do sigilo bancário pela supremacia do interesse público."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q002",
+    "codigo": "PMERJ-CFO-2021-FGV-Q002",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 2,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "O Secretário de Polícia Militar do Estado Alfa solicitou ao Policial Militar João, que exerce a função de assessor jurídico de seu gabinete, um parecer sobre determinado ato de competência do chefe institucional da PM. Tomando por base a classificação do ato administrativo que considera os seus efeitos no mundo jurídico, a doutrina de Direito Administrativo ensina que o parecer emitido pelo assessor jurídico para o Secretário é um ato",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ordinatório, que, caso aprovado, terá o condão de produzir efeitos no âmbito da administração pública."
+      },
+      {
+        "letra": "B",
+        "texto": "enunciativo, que estabelece opinião e conclusão de órgão consultivo do poder público."
+      },
+      {
+        "letra": "C",
+        "texto": "normativo, que sugere a prática de ato para a chefia institucional com caráter de superioridade hierárquica."
+      },
+      {
+        "letra": "D",
+        "texto": "negocial, que, caso aprovado, ensejará a prática de concessão de direitos ou imposição de obrigações a terceiros."
+      },
+      {
+        "letra": "E",
+        "texto": "ordinário, que tem fundamentação vinculada na lei e, via de regra, é de observância obrigatória pela chefia institucional."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q003",
+    "codigo": "PMERJ-CFO-2021-FGV-Q003",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 3,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "Pedro foi aprovado na prova escrita de concurso público para admissão ao Curso de Formação de Oficiais (CFO) do Quadro de Oficiais Policiais Militares do Estado Alfa. Durante a fase de exames antropométrico e social, Pedro foi eliminado do concurso, por possuir uma grande tatuagem de âncora em seu braço, já que o edital do concurso vedava expressamente que os candidatos possuíssem tatuagens. Inconformado, Pedro impetrou mandado de segurança. De acordo com jurisprudência do Supremo Tribunal Federal, a ordem deve ser",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "denegada, eis que editais de concurso público podem estabelecer restrição a pessoas com tatuagem, independentemente de lei específica sobre o tema, pois o edital do concurso tem efeito de lei de efeitos concretos."
+      },
+      {
+        "letra": "B",
+        "texto": "concedida, eis que editais de concurso público não podem estabelecer, em qualquer hipótese, restrição a pessoas com tatuagem, pelos princípios da isonomia e da eficiência que orientam a nomeação do candidato mais qualificado."
+      },
+      {
+        "letra": "C",
+        "texto": "concedida, eis que editais de concurso público não podem estabelecer, em qualquer hipótese, restrição a pessoas com tatuagem, pelos direitos fundamentais à intimidade e à liberdade."
+      },
+      {
+        "letra": "D",
+        "texto": "denegada, eis que editais de concurso público podem estabelecer restrição a pessoas com tatuagem, desde que amparados por leis específicas sobre o tema no âmbito do respectivo ente federativo."
+      },
+      {
+        "letra": "E",
+        "texto": "concedida, eis que editais de concurso público não podem estabelecer restrição a pessoas com tatuagem, salvo situações excepcionais em razão de conteúdo que viole valores constitucionais."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q004",
+    "codigo": "PMERJ-CFO-2021-FGV-Q004",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 4,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "No ano de 2020, a Secretaria de Estado de Administração Penitenciária do Estado Alfa contratou, mediante dispensa de licitação, determinada instituição brasileira incumbida estatutariamente da pesquisa, do ensino e da recuperação social do preso, para prestar serviços junto à população carcerária estadual. Sabe-se que o valor total da contratação foi de quatrocentos mil reais e está de acordo com o valor de mercado. Consoante os ditames da Lei nº 8.666/93, em tese, a contratação foi",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "lícita, pois, apesar de ser hipótese de inexigibilidade de licitação, aplica-se a fungibilidade administrativa."
+      },
+      {
+        "letra": "B",
+        "texto": "lícita, desde que a contratada detenha inquestionável reputação ético-profissional e não tenha fins lucrativos."
+      },
+      {
+        "letra": "C",
+        "texto": "ilícita, eis que a licitação era imprescindível e, diante do valor do contrato, deveria ter sido utilizada a modalidade tomada de preços."
+      },
+      {
+        "letra": "D",
+        "texto": "ilícita, eis que a licitação era imprescindível e, diante do valor do contrato, deveria ter sido utilizada a modalidade concorrência."
+      },
+      {
+        "letra": "E",
+        "texto": "ilícita, eis que a licitação era imprescindível e, diante da natureza do contrato, deveria ter sido utilizada a modalidade pregão. ΠΜ1 Tipo 1 – Cor BRANCA – Página 3"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q005",
+    "codigo": "PMERJ-CFO-2021-FGV-Q005",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 5,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "Os policiais militares Renato e Renan, no dia 15/06/2014, prenderam João, em flagrante, pela prática do crime de tráfico de drogas. Os policiais alegam que João resistiu à prisão e tentou se evadir, razão pela qual acabou sendo morto. Familiares de João sustentam que os policiais agiram com abuso de poder e praticaram tortura seguida de morte. Foi instaurado inquérito policial para apurar eventual homicídio decorrente de intervenção policial. No entanto, em 16/06/2020, o Ministério Público promoveu o arquivamento do inquérito policial, com a devida chancela judicial. Em agosto de 2021, os filhos de João ajuizaram ação indenizatória por danos morais em face do Estado em razão da morte de seu pai. No caso em tela, de acordo com a jurisprudência do Superior Tribunal de Justiça,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "já ocorreu a prescrição, cujo termo a quo é a data dos fatos, ou seja, a data da morte de João."
+      },
+      {
+        "letra": "B",
+        "texto": "já ocorreu a prescrição, cujo termo a quo é a data da instauração do inquérito policial."
+      },
+      {
+        "letra": "C",
+        "texto": "já ocorreu a prescrição, cujo termo a quo é a data do primeiro despacho judicial no inquérito policial."
+      },
+      {
+        "letra": "D",
+        "texto": "não ocorreu a prescrição, cujo termo a quo é a data dos fatos, ou seja, a data da morte de João."
+      },
+      {
+        "letra": "E",
+        "texto": "não ocorreu a prescrição, cujo termo a quo é a data do arquivamento do inquérito policial."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q006",
+    "codigo": "PMERJ-CFO-2021-FGV-Q006",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 6,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "João, policial militar há 20 anos no Estado Gama, é alistável e deseja concorrer nas próximas eleições ao cargo de Deputado Estadual, tendo como bandeira eleitoral a segurança pública. De acordo com a Constituição da República, o PM João é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "inelegível, pois seu cargo de policial militar o incompatibiliza para concorrer a qualquer cargo eletivo."
+      },
+      {
+        "letra": "B",
+        "texto": "inelegível, pois seu cargo de policial militar o incompatibiliza para concorrer a cargo eletivo em níveis estadual e federal."
+      },
+      {
+        "letra": "C",
+        "texto": "elegível e será agregado pela autoridade superior e, se eleito, passará automaticamente, no ato da diplomação, para a inatividade."
+      },
+      {
+        "letra": "D",
+        "texto": "elegível e deverá afastar-se provisoriamente da atividade, tanto para concorrer, como, eventualmente, exercer o mandato eletivo, caso eleito."
+      },
+      {
+        "letra": "E",
+        "texto": "elegível e será agregado pela autoridade superior e, se eleito, terá que ser exonerado a pedido, caso queira ser diplomado para exercer o mandato eletivo."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q007",
+    "codigo": "PMERJ-CFO-2021-FGV-Q007",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 7,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "João, Secretário de Segurança Pública do Estado Alfa, após regular processo administrativo disciplinar, aplicou ao policial Antônio a pena de suspensão por 60 dias. No dia seguinte à publicação da penalidade no Diário Oficial, o policial Antônio apresentou pedido de reconsideração, comprovando que a falta disciplinar praticada está prevista no estatuto normativo próprio como passível de advertência e não suspensão. Ocorre que, na mesma data da publicação do ato no D.O., por ato do Governador do Estado, João deixou de ser Secretário de Segurança Pública e, em seu lugar, assumiu o Coronel Mário. Ao analisar o pedido de reconsideração do policial Antônio, o Secretário Mário verificou que, de fato, a penalidade a que Antônio deveria ter sido condenado era advertência, e não suspensão, na forma da normativa aplicável. No caso em tela, o Secretário Mário deve",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "acolher o recurso de reconsideração de Antônio, com base nos princípios administrativos da autotutela e da proporcionalidade."
+      },
+      {
+        "letra": "B",
+        "texto": "acolher o recurso de reconsideração de Antônio, com base nos princípios administrativos da impessoalidade e da intranscendência subjetiva das sanções."
+      },
+      {
+        "letra": "C",
+        "texto": "desacolher o recurso de reconsideração de Antônio, com base nos princípios administrativos da segurança jurídica e da autotutela."
+      },
+      {
+        "letra": "D",
+        "texto": "desacolher o recurso de reconsideração de Antônio, com base nos princípios administrativos da intranscendência subjetiva das sanções e da legalidade."
+      },
+      {
+        "letra": "E",
+        "texto": "desacolher o recurso de reconsideração de Antônio, com base nos princípios administrativos da proporcionalidade e da segurança jurídica."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q008",
+    "codigo": "PMERJ-CFO-2021-FGV-Q008",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 8,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "No Estado Alfa, os índices de criminalidade na área de atuação do 1º Batalhão de Polícia Militar aumentaram assustadoramente nos últimos cinco anos. Após estudos e planejamento estratégicos, o Estado Alfa, observadas as formalidades legais, dividiu o 1º BPM em dois batalhões, a fim de que o combate ao crime ocorresse de forma mais planejada e com maior eficiência, observada a peculiaridade da área de cada novo batalhão. O movimento de distribuição interna de competência, apresentado na hipótese, é chamado pela doutrina de Direito Administrativo de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "delegação, e está fundado no poder de polícia."
+      },
+      {
+        "letra": "B",
+        "texto": "descentralização, e está fundado no poder de polícia."
+      },
+      {
+        "letra": "C",
+        "texto": "desmembramento, e está fundado no poder de polícia."
+      },
+      {
+        "letra": "D",
+        "texto": "desconcentração, e está fundado no poder hierárquico."
+      },
+      {
+        "letra": "E",
+        "texto": "descentralização, e está fundado no poder hierárquico. ΠΜ1 Tipo 1 – Cor BRANCA – Página 4"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q009",
+    "codigo": "PMERJ-CFO-2021-FGV-Q009",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 9,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "João, policial militar do Estado do Rio de Janeiro, lotado em batalhão situado no Município do Rio de Janeiro, deseja se afastar totalmente do serviço, por determinado período de tempo, e se mudar para a região serrana do Estado. No caso em tela, observada a discricionariedade administrativa, de acordo com o Estatuto da Polícia Militar do Estado do Rio de Janeiro, João",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não poderá, em qualquer hipótese, fruir licença para tratar de interesse particular, diante da expressa vedação legal para este tipo de afastamento."
+      },
+      {
+        "letra": "B",
+        "texto": "não poderá fruir licença para tratar de interesse particular, diante da ausência de previsão legal, mas poderá usufruir de licença prêmio, caso tenha mais de cinco anos de exercício."
+      },
+      {
+        "letra": "C",
+        "texto": "poderá fruir licença para tratar de interesse particular, caso tenha mais de cinco anos de efetivo serviço, e somente poderá ser obtida a cada dez anos da primeira concessão, com prejuízo de sua remuneração."
+      },
+      {
+        "letra": "D",
+        "texto": "poderá fruir licença para tratar de interesse particular, caso tenha mais de três anos de efetivo serviço, sem prejuízo de sua remuneração e da contagem do tempo de efetivo serviço, pelo prazo de até trinta dias."
+      },
+      {
+        "letra": "E",
+        "texto": "poderá fruir licença para tratar de interesse particular, caso tenha mais de dez anos de efetivo serviço, sem prejuízo de sua remuneração e da contagem do tempo de efetivo serviço, pelo prazo de até noventa dias."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q010",
+    "codigo": "PMERJ-CFO-2021-FGV-Q010",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 10,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "O Estatuto da Polícia Militar do Estado do Rio de Janeiro dispõe que os uniformes da Polícia Militar, com seus distintivos, insígnias e emblemas, são privativos dos policiais militares e simbolizam a autoridade policial militar com as prerrogativas que lhe são inerentes. Nesse sentido, de acordo com o citado estatuto, é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "proibido ao policial militar o uso de uniformes em reuniões, propaganda ou qualquer outra manifestação de caráter político-partidário."
+      },
+      {
+        "letra": "B",
+        "texto": "proibido ao policial militar o uso de uniformes na inatividade, inclusive quando comparecer a solenidades militares e policiais militares."
+      },
+      {
+        "letra": "C",
+        "texto": "vedado a qualquer elemento civil ou organizações civis, exceto as guardas municipais, usar uniformes ou ostentar emblemas que possam ser confundidos com os adotados na Polícia Militar."
+      },
+      {
+        "letra": "D",
+        "texto": "permitido ao policial militar o uso de uniformes no estrangeiro, mesmo quando em atividades não relacionadas com a missão policial militar, para promoção da visibilidade da instituição."
+      },
+      {
+        "letra": "E",
+        "texto": "permitido ao policial militar o uso de uniformes na inatividade em cerimônias cívicas comemorativas de datas nacionais ou em atos sociais solenes de caráter particular, independentemente de autorização."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q011",
+    "codigo": "PMERJ-CFO-2021-FGV-Q011",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 11,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "A Secretaria de Polícia Militar do Estado Gama, após procedimento licitatório fraudado, firmou contrato superfaturado com a sociedade empresária Beta. O contrato administrativo foi objeto de análise pelo órgão de controle interno do próprio Estado Gama. De acordo com o texto da Constituição Estadual, que reproduz integralmente a norma da Constituição Federal sobre o tema, os responsáveis pelo controle interno, ao tomarem conhecimento da mencionada ilegalidade, dela darão ciência ao",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Tribunal de Contas estadual, sob pena de responsabilidade solidária."
+      },
+      {
+        "letra": "B",
+        "texto": "Tribunal de Contas estadual, sob pena de responsabilidade subsidiária."
+      },
+      {
+        "letra": "C",
+        "texto": "Tribunal de Justiça estadual, sob pena de responsabilidade subsidiária."
+      },
+      {
+        "letra": "D",
+        "texto": "Ministério Público estadual, sob pena de responsabilidade subsidiária."
+      },
+      {
+        "letra": "E",
+        "texto": "Controladoria-Geral estadual, sob pena de responsabilidade supletiva."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q012",
+    "codigo": "PMERJ-CFO-2021-FGV-Q012",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 12,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "José e João, policiais militares do Estado Alfa, há um ano, recebiam da milícia que atua na zona leste da cidade Beta vantagem econômica, consistente no pagamento de cinco mil reais por mês, para tolerar a exploração e a prática de jogos ilícitos de azar. Traficantes locais, que estão em conflito com a milícia pelo comando de atividades ilícitas da região, enviaram denúncia anônima ao Ministério Público Estadual, narrando, com detalhes, a propina que estava sendo paga aos policiais José e João. Ao tomarem conhecimento de que estavam sendo investigados pelo MP, os policiais cessaram as atividades ilegais e prenderam em flagrante os milicianos que atuam no ramo jogos ilícitos de azar. Sob o prisma da Lei nº 8.429/92, José e João",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não respondem por ato de improbidade administrativa, eis que não houve efetivo dano material ou financeiro ao erário, mas devem ser responsabilizados nas esferas criminal e disciplinar."
+      },
+      {
+        "letra": "B",
+        "texto": "não respondem por ato de improbidade administrativa, eis que cessaram a atividade ilícita e cumpriram ato de ofício, qual seja, a prisão em flagrante dos criminosos, mas devem ser responsabilizados nas demais esferas."
+      },
+      {
+        "letra": "C",
+        "texto": "respondem por ato de improbidade administrativa que atentou contra os princípios da Administração Pública e estão sujeitos a sanções como a cassação dos direitos políticos e a perda da função pública."
+      },
+      {
+        "letra": "D",
+        "texto": "respondem por ato de improbidade administrativa que importa enriquecimento ilícito e estão sujeitos a sanções como a perda dos valores acrescidos ilicitamente ao patrimônio e da função pública."
+      },
+      {
+        "letra": "E",
+        "texto": "respondem por ato de improbidade administrativa que causa prejuízo imaterial ao erário e estão sujeitos a sanções como a cassação dos direitos políticos e a pena privativa de liberdade. ΠΜ1 Tipo 1 – Cor BRANCA – Página 5"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q013",
+    "codigo": "PMERJ-CFO-2021-FGV-Q013",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 13,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com a doutrina de Direito Administrativo, levando em consideração a classificação do bem público quanto à sua destinação, as instalações físicas do Batalhão de Operações Policiais Especiais da Polícia Militar do Estado do Rio de Janeiro constituem um bem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "de uso comum do povo, pois servem à população de forma geral."
+      },
+      {
+        "letra": "B",
+        "texto": "de uso especial, pois são utilizadas para prestação de serviço público."
+      },
+      {
+        "letra": "C",
+        "texto": "dominical, pois estão vinculadas a uma destinação pública específica."
+      },
+      {
+        "letra": "D",
+        "texto": "desafetado, pois estão destinadas à prestação de um serviço público específico."
+      },
+      {
+        "letra": "E",
+        "texto": "de uso geral, pois se destinam à toda coletividade em matéria de segurança pública."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q014",
+    "codigo": "PMERJ-CFO-2021-FGV-Q014",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 14,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "André, policial militar do Estado do Rio de Janeiro, realizou, de julho de 2019 até junho de 2020, curso na área de inteligência e segurança pública, custeado pelo erário estadual fluminense, no Estado Alfa situado na Região Nordeste. Em julho de 2021, após completar o tempo de serviço e preencher os demais requisitos legais, André requereu sua transferência para a reserva remunerada. No caso em tela, consoante dispõe o Estatuto da Polícia Militar do Estado do Rio de Janeiro, o pleito de André",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "só será concedido após completar cinco anos de efetivo exercício contados a partir do término do referido curso, exceto se for o caso de aposentadoria compulsória."
+      },
+      {
+        "letra": "B",
+        "texto": "só será concedido após completar dois anos de efetivo exercício contados a partir do término do referido curso, sob pena de ter que ressarcir o erário estadual."
+      },
+      {
+        "letra": "C",
+        "texto": "só será concedido mediante indenização de todas as despesas correspondentes à realização do referido curso, inclusive as diferenças de vencimentos, eis que não decorrido o prazo de três anos de seu término."
+      },
+      {
+        "letra": "D",
+        "texto": "não será concedido, eis que, pelos princípios da hierarquia e disciplina militares, o agente policial deve repassar todo o conhecimento obtido a seus superiores, no prazo de cinco anos, após o término do referido curso."
+      },
+      {
+        "letra": "E",
+        "texto": "não será concedido, por expressa vedação legal que proíbe transferência para a reserva remunerada em prazo inferir a três anos do término do curso, sob pena de devolução em dobro do valor investido pelo Estado. Curso de Formação de Oficiais da PMERJ FGV Conhecimento Direito Constitucional"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q015",
+    "codigo": "PMERJ-CFO-2021-FGV-Q015",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 15,
+    "materia": "Direito Constitucional",
+    "materia_original": "Direito Constitucional",
+    "dificuldade": "medio",
+    "enunciado": "João, Deputado Federal, consultou sua assessoria jurídica a respeito da juridicidade de determinado projeto de lei que pretendia apresentar. A assessoria concluiu, corretamente, que ele colidia com o teor de Súmula Vinculante editada pelo Supremo Tribunal Federal (STF). À luz das normas jurídicas afetas a essa temática, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A apresentação do projeto de lei por João é suscetível de impugnação com a impetração de mandado de segurança, por qualquer parlamentar ou partido político, perante o STF."
+      },
+      {
+        "letra": "B",
+        "texto": "João pode apresentar, mas o Poder Legislativo, após o trâmite do projeto de lei nas comissões, não pode aprová-lo, o que, se ocorrer, enseja ajuizamento de reclamação no STF."
+      },
+      {
+        "letra": "C",
+        "texto": "João não pode apresentar, e o Poder Legislativo não pode aprovar, o projeto de lei nessas circunstâncias, o que, caso ocorra, permitirá o ajuizamento de reclamação no STF."
+      },
+      {
+        "letra": "D",
+        "texto": "João pode apresentar o projeto de lei e o Poder Legislativo pode aprová-lo, sem que haja qualquer injuridicidade nesse proceder, sob o prisma da Súmula Vinculante."
+      },
+      {
+        "letra": "E",
+        "texto": "A apresentação do projeto de lei por João, nas circunstâncias indicadas, torna-o suscetível à abertura de processo por quebra de decoro parlamentar."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Constitucional."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q016",
+    "codigo": "PMERJ-CFO-2021-FGV-Q016",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 16,
+    "materia": "Direito Constitucional",
+    "materia_original": "Direito Constitucional",
+    "dificuldade": "medio",
+    "enunciado": "Ana e Maria, estudiosas do Direito, travaram intenso debate a respeito de aspectos da interpretação constitucional. Ana sustentava que a separação rígida entre sujeito cognoscente e objeto cognoscido, própria do formalismo, não se ajustava ao modo como a ordem constitucional brasileira vinha sendo compreendida. Maria, no entanto, ressaltava que a afirmação de Ana era incompatível com o conceito de mutação constitucional. Sobre a hipótese apresentada, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Maria está errada, pois o conceito de mutação constitucional está ínsito no formalismo, decorrendo das constantes alterações formais do texto da Constituição."
+      },
+      {
+        "letra": "B",
+        "texto": "Ana está errada, pois o formalismo é a base de toda a interpretação constitucional, apontando para a ilegitimidade de toda argumentação que dele se distancie."
+      },
+      {
+        "letra": "C",
+        "texto": "Ana está errada, pois, na interpretação constitucional, a separação rígida entre sujeito cognoscente e objeto cognoscido decorre da separação de poderes."
+      },
+      {
+        "letra": "D",
+        "texto": "Ana está errada, pois os significantes constitucionais veiculam significados preexistentes, que não são influenciados pela pré-compreensão do intérprete ou por modificações da realidade."
+      },
+      {
+        "letra": "E",
+        "texto": "Maria está errada, pois a mutação constitucional está embasada na atividade argumentativa e decisória desenvolvida pelo intérprete, que não permanece atrelado a significados preexistentes. ΠΜ1 Tipo 1 – Cor BRANCA – Página 6"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Direito Constitucional."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q017",
+    "codigo": "PMERJ-CFO-2021-FGV-Q017",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 17,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A Constituição do Estado Alfa, com o objetivo de conter o crescente déficit público, sabidamente acentuado em razão da drástica diminuição do turismo e da consequente redução da arrecadação tributária, estabeleceu a correspondência, considerando a população local, dos subsídios dos Vereadores dos Municípios situados em seu território com o dos Deputados Estaduais. À luz da sistemática constitucional, é correto afirmar que a Constituição do Estado Alfa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não pode dispor livremente sobre a matéria, que deve ser disciplinada em cada lei orgânica."
+      },
+      {
+        "letra": "B",
+        "texto": "não pode dispor livremente sobre a matéria, que é disciplinada na Constituição da República."
+      },
+      {
+        "letra": "C",
+        "texto": "não pode dispor livremente sobre a matéria, que deve ser disciplinada em resolução de cada Câmara Municipal."
+      },
+      {
+        "letra": "D",
+        "texto": "pode dispor livremente sobre a matéria, de modo que cada Estado pode definir os patamares máximos tidos como adequados."
+      },
+      {
+        "letra": "E",
+        "texto": "pode dispor livremente sobre a matéria, mas sem exaurir a disciplina, que deve ser complementada pela lei orgânica de cada Município."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q018",
+    "codigo": "PMERJ-CFO-2021-FGV-Q018",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 18,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Maria procurou um advogado e informou que almejava ajuizar uma ação civil de reparação de danos. Ao ser indagada dos fatos, informou que fora agredida, em virtude de motivação pessoal, por servidor público que se encontrava no regular exercício de suas funções. Em situações dessa natureza, à luz da ordem constitucional, a ação",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pode ser ajuizada em face do Estado ou do servidor, a juízo de Maria."
+      },
+      {
+        "letra": "B",
+        "texto": "somente pode ser ajuizada em face do servidor, que terá o direito de regresso contra o Estado."
+      },
+      {
+        "letra": "C",
+        "texto": "somente pode ser ajuizada em face do servidor, sendo o Estado parte ilegítima para figurar no polo passivo."
+      },
+      {
+        "letra": "D",
+        "texto": "somente pode ser ajuizada em face do Estado, sendo o servidor parte ilegítima para figurar no polo passivo."
+      },
+      {
+        "letra": "E",
+        "texto": "pode ser ajuizada em face do Estado ou do servidor, caso o regime jurídico da categoria assegure a solidariedade."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q019",
+    "codigo": "PMERJ-CFO-2021-FGV-Q019",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 19,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A Associação dos Policiais Militares do Estado Alfa consultou sua assessoria a respeito da possibilidade de os militares do Estado, à luz da sistemática constitucional vigente, preencherem requisitos de idade e tempo de contribuição diferenciados para aposentadoria. A assessoria, corretamente, respondeu que é possível, desde que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "sejam definidos pela ordem constitucional."
+      },
+      {
+        "letra": "B",
+        "texto": "previstos em lei complementar editada pela União."
+      },
+      {
+        "letra": "C",
+        "texto": "previstos em lei complementar do respectivo ente federativo."
+      },
+      {
+        "letra": "D",
+        "texto": "não sejam recepcionados pela última reforma constitucional."
+      },
+      {
+        "letra": "E",
+        "texto": "o Estado edite lei nesse sentido, que terá sua eficácia suspensa caso sobrevenha lei da União."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q020",
+    "codigo": "PMERJ-CFO-2021-FGV-Q020",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 20,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A assessoria do Presidente da República elaborou uma minuta de decreto regulamentando a Lei federal nº XX/2021, cujo objeto estava estritamente relacionado à temática econômica e que deveria ser editado pelo Chefe do Poder Executivo. À luz da sistemática constitucional, é correto afirmar que o Ministro de Estado da Economia",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não pode receber delegação para editar o referido decreto, mas deve referendá-lo."
+      },
+      {
+        "letra": "B",
+        "texto": "pode receber delegação para editar o referido decreto e, caso não a receba, deve referendá-lo."
+      },
+      {
+        "letra": "C",
+        "texto": "pode receber delegação para editar o referido decreto e, caso não a receba, pode expedir instruções."
+      },
+      {
+        "letra": "D",
+        "texto": "pode receber delegação para editar o referido decreto e, caso não a receba, deve figurar como coautor."
+      },
+      {
+        "letra": "E",
+        "texto": "não pode receber delegação para editar o referido decreto nem referendá-lo, mas pode expedir instruções."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q021",
+    "codigo": "PMERJ-CFO-2021-FGV-Q021",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 21,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "João, Juiz de Direito, respondia a processo disciplinar e foi informado que as circunstâncias do caso e os precedentes do respectivo Tribunal de Justiça indicavam que, possivelmente, sofreria a sanção de disponibilidade. Á luz da sistemática constitucional, a sanção passível de ser aplicada a João deve estar fundada em decisão aplicada pelo voto",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "de dois terços do respectivo Tribunal, acarretará o desligamento definitivo da carreira e não possibilitará o exercício de outra função pública."
+      },
+      {
+        "letra": "B",
+        "texto": "de dois terços do respectivo Tribunal, acarretará o afastamento do cargo e não possibilitará o exercício de outra função pública enquanto produzir efeitos;"
+      },
+      {
+        "letra": "C",
+        "texto": "de dois terços do respectivo Tribunal, acarretará o afastamento do cargo e possibilitará o exercício de outra função pública enquanto produzir efeitos;"
+      },
+      {
+        "letra": "D",
+        "texto": "da maioria absoluta do respectivo Tribunal, acarretará o desligamento definitivo da carreira e possibilitará o exercício de outra função pública;"
+      },
+      {
+        "letra": "E",
+        "texto": "da maioria absoluta do respectivo Tribunal, acarretará o afastamento do cargo e não possibilitará o exercício de outra função pública enquanto produzir efeitos. ΠΜ1 Tipo 1 – Cor BRANCA – Página 7"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q022",
+    "codigo": "PMERJ-CFO-2021-FGV-Q022",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 22,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Maria tomou conhecimento, por intermédio de um amigo, servidor público, que as informações existentes em determinada repartição estadual a seu respeito estavam totalmente dissociadas da realidade. Com base na informação que recebera do amigo, Maria ajuizou a ação constitucional de habeas data, formulando o pedido de retificação dos dados. Considerando as normas vigentes, é correto afirmar que a ação ajuizada por Maria",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "é adequada ao objetivo almejado, devendo ser julgado procedente o pedido formulado."
+      },
+      {
+        "letra": "B",
+        "texto": "não deve ser conhecida, já que o requerimento de retificação não foi previamente formulado e indeferido, ou não conhecido, no plano administrativo."
+      },
+      {
+        "letra": "C",
+        "texto": "não deve ser conhecida, pois a incorreção das informações caracteriza afronta a direito líquido e certo de Maria, devendo ser tutelado via mandado de segurança."
+      },
+      {
+        "letra": "D",
+        "texto": "não deve ser reconhecida, pois a incorreção das informações caracteriza afronta à legalidade administrativa, devendo ser corrigida exclusivamente pelo direito de petição."
+      },
+      {
+        "letra": "E",
+        "texto": "apenas será conhecida se o Poder Público, uma vez notificado dos termos da demanda, deixar de apresentar, no prazo indicado, certidão comprovando a retificação dos dados."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q023",
+    "codigo": "PMERJ-CFO-2021-FGV-Q023",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 23,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "João, maior e capaz, mas que ainda não promoveu o seu cadastro eleitoral, formulou pedido de acesso a informação direcionado ao Ministério Público do Estado Alfa, requerendo que lhe fossem fornecidos dados concernentes ao valor despendido com a contratação de empresas terceirizadas. À luz da sistemática vigente, é correto afirmar que o pedido de João deve ser",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "deferido, considerando o destinatário do pedido e a natureza das informações solicitadas."
+      },
+      {
+        "letra": "B",
+        "texto": "indeferido, pois o acesso à informação somente é assegurado em relação aos órgãos do Poder Executivo."
+      },
+      {
+        "letra": "C",
+        "texto": "indeferido, desde que João apresente os motivos determinantes da solicitação de acesso à informação."
+      },
+      {
+        "letra": "D",
+        "texto": "indeferido, já que as informações almejadas por João dizem respeito à governança administrativa, não à sua pessoa."
+      },
+      {
+        "letra": "E",
+        "texto": "indeferido, já que João não ostenta a condição de cidadão, o que impede a formulação de requerimento dessa natureza."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q024",
+    "codigo": "PMERJ-CFO-2021-FGV-Q024",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 24,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O recém-criado Partido Político Alfa decidiu traçar a estratégia que nortearia a atuação da agremiação partidária nas eleições vindouras. Para tanto, consultou sua assessoria sobre a possibilidade de serem celebradas inúmeras coligações partidárias, sendo respondido, corretamente, que tal era possível, entre outras hipóteses, nas eleições para",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "prefeito e vereador, sem obrigatoriedade de vinculação com as candidaturas de âmbito nacional e estadual."
+      },
+      {
+        "letra": "B",
+        "texto": "presidente da república e governador, sem obrigatoriedade de vinculação entre as candidaturas em âmbito nacional e estadual."
+      },
+      {
+        "letra": "C",
+        "texto": "governador e prefeito, sem obrigatoriedade de vinculação entre as candidaturas em âmbito estadual, distrital e municipal."
+      },
+      {
+        "letra": "D",
+        "texto": "deputado federal, estadual e distrital, com obrigatoriedade de vinculação entre as candidaturas ao Poder Legislativo em âmbito nacional, estadual, distrital e municipal."
+      },
+      {
+        "letra": "E",
+        "texto": "presidente da república, com obrigatoriedade de vinculação com outras candidaturas à chefia do Poder Executivo, em âmbito nacional, estadual, distrital e municipal."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q025",
+    "codigo": "PMERJ-CFO-2021-FGV-Q025",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 25,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Pedro ajuizou ação ordinária em face do Estado Alfa, sendo o pedido julgado improcedente em primeira e em segunda instâncias, situação que permaneceu inalterada até o exaurimento das instâncias ordinárias. Segundo o advogado de Pedro, o resultado lhe foi desfavorável por ter sido julgada válida lei local que ele contestara em face de lei federal. Com esse fundamento, uma vez preenchidos os demais requisitos exigidos, é possível a interposição de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "reclamação, a ser julgada pelo Supremo Tribunal Federal."
+      },
+      {
+        "letra": "B",
+        "texto": "recurso especial, a ser julgado pelo Superior Tribunal de Justiça."
+      },
+      {
+        "letra": "C",
+        "texto": "recurso ordinário, a ser julgado pelo Supremo Tribunal Federal."
+      },
+      {
+        "letra": "D",
+        "texto": "recurso ordinário, a ser julgado pelo Superior Tribunal de Justiça."
+      },
+      {
+        "letra": "E",
+        "texto": "recurso extraordinário, a ser julgado pelo Supremo Tribunal Federal."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q026",
+    "codigo": "PMERJ-CFO-2021-FGV-Q026",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 26,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O Estado Alfa, com o alegado objetivo de zelar pela infância e juventude, editou a Lei nº XX/2021, disciplinando a propaganda comercial de bebidas alcoólicas, vedando a veiculação de conteúdos que pudessem dissimular os seus efeitos nocivos a essa camada da população. À luz da sistemática constitucional, é correto afirmar que a Lei nº XX/2021 é inconstitucional, já que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a matéria deve ser disciplinada em lei ordinária da União."
+      },
+      {
+        "letra": "B",
+        "texto": "a matéria deve ser disciplinada em lei complementar da União."
+      },
+      {
+        "letra": "C",
+        "texto": "a infância e a juventude devem ter prioridade legislativa do Estado."
+      },
+      {
+        "letra": "D",
+        "texto": "a temática deve ser disciplinada em lei complementar estadual, não em lei ordinária."
+      },
+      {
+        "letra": "E",
+        "texto": "a disciplina estabelecida pela Lei nº XX/2021 é vedada, o que caracteriza censura prévia. ΠΜ1 Tipo 1 – Cor BRANCA – Página 8"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q027",
+    "codigo": "PMERJ-CFO-2021-FGV-Q027",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 27,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A Lei nº XX/2021 do Estado Beta, com o objetivo de promover a desburocratização da Administração Pública, afastou a necessidade de os órgãos estaduais exigirem a apresentação de estudos prévios de impactos ambientais, nas atividades potencialmente causadoras de significativa degradação ambiental. Nesses casos, a não realização do estudo estava condicionada à demonstração dos prejuízos causados à livre iniciativa com a demora no início do empreendimento e à possibilidade de o estudo vir a ser realizado em momento posterior. À luz da sistemática constitucional, é correto afirmar que a Lei nº XX/2021 é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "constitucional, pois a preservação do meio ambiente deve ser objeto de concordância prática com a livre iniciativa, não tendo preeminência in abstracto."
+      },
+      {
+        "letra": "B",
+        "texto": "inconstitucional, pois a realização de estudos de impacto ambiental, sem a correlata demonstração de um dano, é incompatível com a livre iniciativa."
+      },
+      {
+        "letra": "C",
+        "texto": "inconstitucional, pois o estudo prévio de impacto ambiental deve ser exigido, nos termos da lei, nas atividades que podem causar significativa degradação ambiental."
+      },
+      {
+        "letra": "D",
+        "texto": "inconstitucional, pois a realização, ou não, de estudos de impacto ambiental deve decorrer de determinação legal, não se sujeitando ao livre juízo valorativo da Administração."
+      },
+      {
+        "letra": "E",
+        "texto": "constitucional, pois a Constituição da República dispõe sobre a realização do estudo de impacto ambiental, a priori ou a posteriori, conforme os aspectos circunstanciais do caso."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q028",
+    "codigo": "PMERJ-CFO-2021-FGV-Q028",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 28,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "Maria, Presidente da República, foi condenada pelo órgão competente em um processo por crime de responsabilidade. Por fim, foi comunicada de que, além da perda do cargo, não poderia exercer qualquer outra função pública por 8 (oito) anos. À luz da sistemática constitucional, esta última consequência é conceituada como",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "inabilitação."
+      },
+      {
+        "letra": "B",
+        "texto": "inelegibilidade."
+      },
+      {
+        "letra": "C",
+        "texto": "incompatibilidade."
+      },
+      {
+        "letra": "D",
+        "texto": "suspensão dos direitos políticos."
+      },
+      {
+        "letra": "E",
+        "texto": "ausência de condição de elegibilidade. Curso de Formação de Oficiais da PMERJ FGV Conhecimento Direito Penal"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q029",
+    "codigo": "PMERJ-CFO-2021-FGV-Q029",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 29,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "João, policial militar, objetivando o cumprimento de ordem de prisão expedida por juiz competente em desfavor de Adácio, se dirige à residência deste. Lá chegando, vê que Adácio, ao notar a presença policial, procura fugir pelos fundos do imóvel com uma arma. Enquanto procura impedir a fuga da pessoa procurada, João é atingido por um disparo de arma de fogo realizado pelo fugitivo, caindo ferido de imediato. Mesmo caído no chão, João consegue atirar em Adácio, ao notar sua aproximação com a arma ainda apontada em sua direção, causando-lhe as lesões que foram a causa eficiente de sua morte. Considerando o fato narrado, é correto afimar que João, ao efetuar o disparo, atuou",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "em legítima defesa própria, causa de exclusão de ilicitude."
+      },
+      {
+        "letra": "B",
+        "texto": "no exercício regular do direito, causa de exclusão de ilicitude."
+      },
+      {
+        "letra": "C",
+        "texto": "em estado de necessidade, causa de exclusão de ilicitude."
+      },
+      {
+        "letra": "D",
+        "texto": "no estrito cumprimento do dever legal, causa de exclusão de culpabilidade."
+      },
+      {
+        "letra": "E",
+        "texto": "no estrito cumprimento do dever legal, causa de exclusão de ilicitude."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q030",
+    "codigo": "PMERJ-CFO-2021-FGV-Q030",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 30,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Saulo, argentino, se envolve em uma briga com um vizinho da mesma nacionalidade que a sua, na rua da residência de ambos, em Buenos Aires. Após a briga, Saulo vem a morar temporariamente no Rio de Janeiro, onde compra licitamente uma arma de fogo, porque, em sua mente, pretende matar o vizinho argentino ao retornar ao seu país natural, no mês seguinte. Ao final da estadia, obtém permissão para voltar ao seu país com aquele bem. Após retornar à Argentina, Saulo, utilizando a arma adquirida no Brasil, vem a matar o vizinho/inimigo, voltando em seguida a residir no Rio de Janeiro, como turista, onde é localizado. No que tange ao crime de homicídio, considerando as regras sobre aplicação da lei penal brasileira no espaço, é correto afirmar que a lei brasileira",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "será aplicável, em razão do princípio da nacionalidade ou personalidade, sendo irrelevante o retorno de Saulo ao Brasil."
+      },
+      {
+        "letra": "B",
+        "texto": "será aplicável, em razão do princípio da territorialidade, já que parte dos atos executórios aqui foi realizado e Saulo retornou ao Brasil."
+      },
+      {
+        "letra": "C",
+        "texto": "não poderá ser aplicada, porque a lei nacional incidirá sobre atos praticados fora do Brasil, independentemente da nacionalidade do autor."
+      },
+      {
+        "letra": "D",
+        "texto": "não poderá ser aplicada no caso, ainda que Saulo tenha retornado ao Brasil."
+      },
+      {
+        "letra": "E",
+        "texto": "poderá ser aplicada porque Saulo retornou ao Brasil, desde que não venha a ser condenado na Argentina. ΠΜ1 Tipo 1 – Cor BRANCA – Página 9"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q031",
+    "codigo": "PMERJ-CFO-2021-FGV-Q031",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 31,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Com relação aos institutos da desistência voluntária, do arrependimento eficaz e do arrependimento posterior, analise as afirmativas a seguir. I. A desistência voluntária e o arrependimento eficaz são compatíveis com os crimes materiais e formais unissubsistentes. II. A desistência voluntária pode ser aplicada nos crimes praticados com violência ou grave ameaça à pessoa. III. O arrependimento posterior exige espontaneidade por parte do agente para sua configuração. De acordo com a jurisprudência e a doutrina majoritárias, está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "II, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "III, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "I e II, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "I e III, apenas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q032",
+    "codigo": "PMERJ-CFO-2021-FGV-Q032",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 32,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Thiago, sabendo que seu vizinho, Cássio, estaria viajando naquele final de semana, instiga seu amigo Jorge a adentrar no local e subtrair objetos de valor, dividindo os lucros. Quando Jorge se aproximava da esquina da casa que seria objeto do delito, o irmão de Cássio, que fora até lá cuidar dos animais, chegou ao local, fazendo com que Jorge corresse assustado. Ao ver Jorge correndo, policiais em serviço o abordaram, ocasião em que foi esclarecida sua pretensão inicial. Considerando apenas os fatos expostos, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Thiago e Jorge não praticaram qualquer fato típico."
+      },
+      {
+        "letra": "B",
+        "texto": "Thiago não praticou fato típico, devendo Jorge responder por tentativa de furto."
+      },
+      {
+        "letra": "C",
+        "texto": "Thiago e Jorge responderão por tentativa de furto qualificado, com a pena reduzida de 1/3 a 2/3."
+      },
+      {
+        "letra": "D",
+        "texto": "Thiago responderá por tentativa de furto, enquanto Jorge não praticou fato típico, pois encontrava-se em atos preparatórios."
+      },
+      {
+        "letra": "E",
+        "texto": "Thiago e Jorge responderão por tentativa de furto qualificado, devendo Thiago ter sua pena ainda diminuída pela participação de menor importância."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q033",
+    "codigo": "PMERJ-CFO-2021-FGV-Q033",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 33,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Jéssica, policial militar, após forte discussão com Maicon, seu marido, durante seu mês de férias, pega, na gaveta da cômoda, arma de fogo registrada em seu nome que regularmente possuía e, com animus necandi, efetua um disparo na sua direção. Jéssica se surpreende, pois o disparo não foi efetivado, descobrindo que a arma estava sem munição, visto que Maicon, sem que sua esposa soubesse, havia retirado e arremessado a munição em um rio, ao lado do imóvel. Diante da confusão instaurada, policiais foram chamados ao local e a encaminharam à unidade policial. Considerando os fatos narrados, o fato praticado por Jéssica, conforme entendimento doutrinário majoritário, configura",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "crime impossível, diante da absoluta ineficácia do meio."
+      },
+      {
+        "letra": "B",
+        "texto": "tentativa de homicídio simples, pois a ineficácia do meio era relativa."
+      },
+      {
+        "letra": "C",
+        "texto": "tentativa de homicídio qualificado, pois Jéssica não tinha conhecimento que a arma estava desmuniciada."
+      },
+      {
+        "letra": "D",
+        "texto": "tentativa de homicídio simples, pois presente elemento subjetivo e a impropriedade do objeto era relativa."
+      },
+      {
+        "letra": "E",
+        "texto": "crime impossível, diante da absoluta impropriedade do objeto."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q034",
+    "codigo": "PMERJ-CFO-2021-FGV-Q034",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 34,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Ao avistar uma patrulha da Polícia Militar, Marcelo resolve arremessar uma pedra na direção do veículo de propriedade do Estado, com a intenção de danificá-lo. A pedra efetivamente atinge o retrovisor do carro, quebrando o vidro. Percebendo a situação, os policiais militares prenderam Marcelo e o conduziram à delegacia, onde foi constatado que ele possuiria uma única condenação com trânsito em julgado pela prática de crime militar próprio, cuja extinção da punibilidade ocorreu dois anos antes do novo flagrante. Com base nos fatos acimas, é correto afirmar que Marcelo responderá",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "por dano simples, devendo ser considerando reincidente."
+      },
+      {
+        "letra": "B",
+        "texto": "por dano qualificado, devendo ser considerado reincidente, mas não portador de maus antecedentes."
+      },
+      {
+        "letra": "C",
+        "texto": "por dano qualificado, devendo ser considerado tecnicamente primário."
+      },
+      {
+        "letra": "D",
+        "texto": "por dano simples, devendo ser considerado tecnicamente primário."
+      },
+      {
+        "letra": "E",
+        "texto": "por dano qualificado, devendo ser considerado reincidente e portador de maus antecedentes. ΠΜ1 Tipo 1 – Cor BRANCA – Página 10"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q035",
+    "codigo": "PMERJ-CFO-2021-FGV-Q035",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 35,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Ana e Clara, irmãs que moram no mesmo imóvel, mantêm uma relação marcada por brigas e agressões. Durante uma discussão, Ana atira um estilete na perna da irmã, com a intenção de lesioná-la. Logo ao tomar conhecimento dos fatos, Cláudio, pai da dupla, verifica que o estilete ficou inserido na perna da filha e a leva para o hospital. Quando estavam ingressando na unidade de saúde, ocorreu um acidente com um caminhão que tentava estacionar, vindo parte da marquise da entrada do hospital a desabar. Cláudio conseguiu correr e fugir, mas Clara permaneceu parada em razão da dor na perna, sendo atingida pelo desabamento da marquise. Clara veio a óbito de imediato e foi atestado que a causa da morte seria o impacto sofrido pela queda da marquise. Considerando a situação acima, é correto afirmar que a conduta de Ana configura",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "fato atípico."
+      },
+      {
+        "letra": "B",
+        "texto": "crime de tentativa de homicídio doloso."
+      },
+      {
+        "letra": "C",
+        "texto": "crime de homicídio doloso consumado."
+      },
+      {
+        "letra": "D",
+        "texto": "crime de lesão corporal qualificada."
+      },
+      {
+        "letra": "E",
+        "texto": "crime de lesão corporal seguida de morte."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q037",
+    "codigo": "PMERJ-CFO-2021-FGV-Q037",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 37,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Interessado na aquisição de uma bicicleta exposta à venda em uma loja, no valor de R$ 1.000,00, Júlio, no dia 02/04/2020, primário e de bons antecedentes, apresenta uma proposta para compra do bem com pagamento, por meio de cheque, em 30 dias (02/05/2020). Após a documentação apresentada e aceitação da proposta, sendo a bicicleta entregue a Júlio, este emitiu um cheque com data futura, no valor do negócio, prevendo o contrato que este somente poderia ser depositado após 30 dias. No momento da emissão do cheque, Júlio tinha ciência de que não tinha aquela quantia no banco, mas estava certo que teria a importância na data prevista, eis que receberia seu salário até aquele dia. Entretanto, no dia aprazado, não tendo Júlio recebido o salário por atraso no pagamento por seu empregador, o cheque foi depositado e devolvido por não possuir fundos, tendo o representante da loja efetuado registro na Delegacia e demonstrado interesse em ver Júlio responsabilizado. Considerando as informações narradas, é correto afirmar que, de acordo com a doutrina e a jurisprudência majoritárias, a conduta de Júlio",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "é atípica, tratando-se de mero ilícito civil."
+      },
+      {
+        "letra": "B",
+        "texto": "configura crime de furto qualificado mediante fraude."
+      },
+      {
+        "letra": "C",
+        "texto": "configura crime de estelionato simples, em sua forma consumada, sem reconhecimento de sua forma privilegiada."
+      },
+      {
+        "letra": "D",
+        "texto": "configura crime de fraude por emissão de cheque sem provisão de fundos, modalidade especial do delito de estelionato."
+      },
+      {
+        "letra": "E",
+        "texto": "configura crime de estelionato privilegiado, tendo em vista que primário e de bons antecedentes, sendo pequeno o valor do prejuízo causado."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q038",
+    "codigo": "PMERJ-CFO-2021-FGV-Q038",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 38,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Sobre os crimes contra a dignidade sexual, observada a jurisprudência dos Tribunais Superiores, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O crime de estupro simples não configura crime hediondo."
+      },
+      {
+        "letra": "B",
+        "texto": "O crime de estupro somente se consuma com a conjunção carnal."
+      },
+      {
+        "letra": "C",
+        "texto": "Somente poderá responder pelo crime de estupro aquele que tenha praticado a conduta descrita no tipo penal respectivo."
+      },
+      {
+        "letra": "D",
+        "texto": "A experiência sexual anterior da vítima menor de 14 anos é suficiente para afastar o crime de estupro de vulnerável."
+      },
+      {
+        "letra": "E",
+        "texto": "A impossibilidade de resistência da vítima, ainda que momentânea e não decorrente de doença mental, poderá justificar a imputação da mesma pena do crime de estupro de vulnerável. ΠΜ1 Tipo 1 – Cor BRANCA – Página 11"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q039",
+    "codigo": "PMERJ-CFO-2021-FGV-Q039",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 39,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "No dia 20/04/2021, Joana, primária e de bons antecedentes, quando se encontrava no interior de uma pequena loja na rua de sua residência, acreditando não estar sendo observada, subtraiu uma caixa de maquiagem avaliada em R$ 750,00 (setecentos e cinquenta reasi) e um batom, avaliado em R$ 50,00 (cinquenta reais), escondendo-os em sua bolsa, totalizando os bens subtraídos o valor de R$ 800,00 (oitocentos reais). Ocorre que sua conduta foi flagrada por um empregado do setor de monitoramento de câmeras de segurança do estabelecimento comercial, sendo presa quando, no estacionamento, entrava em seu carro. Considerando exclusivamente o fato narrado, de acordo com a jurisprudência do Superior Tribunal de Justiça, é correto afirmar que Joana",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "praticou dois crimes de furto em continuidade delitiva, em razão da subtração de dois bens do mesmo estabelecimento."
+      },
+      {
+        "letra": "B",
+        "texto": "não praticou fato típico, por força do princípio da insignificância, incidente na hipótese."
+      },
+      {
+        "letra": "C",
+        "texto": "não praticou fato típico, por se tratar de crime impossível, em razão de estar sendo monitorada por câmeras de segurança."
+      },
+      {
+        "letra": "D",
+        "texto": "praticou um crime de furto, devendo ser reconhecida a sua forma privilegiada."
+      },
+      {
+        "letra": "E",
+        "texto": "praticou dois crimes de furto tentados, sem prejuízo da incidência da forma privilegiada dos delitos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q040",
+    "codigo": "PMERJ-CFO-2021-FGV-Q040",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 40,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Flávio, após discutir com sua namorada, Renata, no interior de seu carro, sobre o comportamento dela em uma festa, desferiu um soco em sua face. Revoltada, Renata sai do carro e chama policiais militares que passavam pelo local, fazendo com que Flávio empreendesse fuga em seu automóvel para evitar a abordagem policial, sendo certo que a bolsa de Renata estava no banco traseiro. Perseguido e abordado pelos policiais, Flávio foi preso em flagrante e conduzido à Delegacia de Polícia, onde Renata confirmou todo o ocorrido, inclusive que não autorizou Flávio a levar sua bolsa. Foi realizado exame de corpo de delito, que constatou a ocorrência de lesão corporal da natureza leve em Renata, e juntada a Folha de Antecedentes Criminais de Flávio sem outras anotações. Considerando apenas as informações expostas, é correto afirmar que Flávio, em tese, praticou",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "apenas crime de lesão corporal no âmbito da violência doméstica e familiar contra a mulher, tratando-se de delito de ação penal pública incondicionada."
+      },
+      {
+        "letra": "B",
+        "texto": "apenas o crime de lesão corporal no âmbito da violência doméstica e familiar contra a mulher, podendo ser beneficiado pela suspensão condicional do processo."
+      },
+      {
+        "letra": "C",
+        "texto": "os crimes de furto e de lesão corporal no âmbito da violência doméstica e familiar contra a mulher, podendo ter eventual pena aplicada aos delitos substituída por restritiva de direitos."
+      },
+      {
+        "letra": "D",
+        "texto": "os crimes de furto e de lesão corporal no âmbito da violência doméstica e familiar contra a mulher, podendo ser beneficiado pela suspensão condicional do processo com relação a ambos os crimes."
+      },
+      {
+        "letra": "E",
+        "texto": "o crime de tentativa de furto e de lesão corporal no âmbito da violência doméstica e familiar contra a mulher, podendo ser beneficiado apenas com a suspensão condicional da pena com relação a este último."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q041",
+    "codigo": "PMERJ-CFO-2021-FGV-Q041",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 41,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Lucas, funcionário público estadual que atua em unidade policial, durante o exercício de suas funções, escutou uma gritaria do lado de fora da Delegacia, razão pela qual foi rapidamente ao local para verificar o que ocorria, acabando por esquecer o cofre da unidade, onde eram guardados bens púlicos de relevante valor, aberto. Frederico, também funcionário público que atuava na mesma unidade, aproveitando-se do descuido de Lucas, subtraiu, do interior do cofre, um aparelho de gravação, avaliado em R$2.000,00. Na noite daquele mesmo dia, Lucas percebeu o ocorrido e, preocupado, reparou o prejuízo ao erário. Com base apenas nos fatos expostos, é correto afirmar que a conduta de Lucas, em tese,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não tipifica crime contra a Administração Pública, diante da ausência de dolo."
+      },
+      {
+        "letra": "B",
+        "texto": "tipifica o crime de peculato culposo, e, em caso de condenação, poderá incidir a causa de redução de pena pela reparação do dano."
+      },
+      {
+        "letra": "C",
+        "texto": "tipifica o crime de peculato culposo, podendo incidir a atenuante da reparação do dano."
+      },
+      {
+        "letra": "D",
+        "texto": "tipifica o crime de peculato culposo, restando extinta a sua punibilidade pela reparação do dano."
+      },
+      {
+        "letra": "E",
+        "texto": "tipifica crime de peculato doloso, em razão da contribuição material para o crime praticado por Frederico."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q042",
+    "codigo": "PMERJ-CFO-2021-FGV-Q042",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 42,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "Carlos, 18 anos de idade, pretendendo participar de uma festa em que era proibida a entrada de menores de 21 anos, cola um papel com ano de nascimento diverso do real em uma xerox do seu documento de identidade que mantinha em sua residência. Após a colagem da data de nascimento, que indicaria falsamente que teria 22 anos, Carlos faz nova fotocópia, dessa vez já nela constando a alteração em relação à data de nascimento. Uma semana após, Carlos comparece ao evento pretendido e apresenta ao segurança particular a fotocópia da carteira de identidade, que não estava autenticada, com a data de nascimento diversa da real. O segurança, todavia, acionou policiais militares, desconfiando da autenticidade do documento apresentado. Carlos foi denunciado pelos crimes de falsificação de documento público e uso de documento público falso em concurso material. Com base apenas na situação apresentada, a defesa de Carlos, sob ponto de vista técnico, poderá buscar",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o reconhecimento do crime único de uso de documento público falso."
+      },
+      {
+        "letra": "B",
+        "texto": "o reconhecimento do crime único de uso de documento particular falso."
+      },
+      {
+        "letra": "C",
+        "texto": "a absolvição, diante da atipicidade decorrente do material utilizado."
+      },
+      {
+        "letra": "D",
+        "texto": "a desclassificação para os crimes de falsificação de documento particular e uso de documento particular, em concurso material."
+      },
+      {
+        "letra": "E",
+        "texto": "a desclassificação para os crimes de falsificação de documento particular e uso de documento particular, em continuidade delitiva. ΠΜ1 Tipo 1 – Cor BRANCA – Página 12 Concurso Público PMERJ 2021 Direito Processual Penal"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q043",
+    "codigo": "PMERJ-CFO-2021-FGV-Q043",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 43,
+    "materia": "Direito Processual Penal",
+    "materia_original": "Direito Processual Penal",
+    "dificuldade": "medio",
+    "enunciado": "No dia 25 de janeiro de 2021, Fernando, na cidade de Nova Iguaçu/RJ, praticou um crime de apropriação indébita simples de um carro. Em seguida, neste veículo, dirigiu-se para Duque de Caxias/RJ, local em que fez uma compra na loja de Paula, emitindo, dolosamente, para pagamento um cheque que sabia sem provisões de fundos. Não satisfeito, dirigiu-se para São João de Meriti/RJ, onde, sem violência ou grave ameaça à pessoa, subtraiu os celulares de Juliana e Tiago. Por fim, quando estava em Magé/RJ, local de sua residência, na posse dos bens produtos de crime, veio a ser preso em flagrante. Naquele mesmo dia, Paula, moradora da cidade em que Fernando foi preso, depositou o cheque em uma conta da mesma instituição bancária e agência que constava do cheque emitido pelo autor do fato, na cidade de Magé/RJ, local em que houve a recusa do pagamento pelo sacado, por falta de fundos. Confirmados os fatos durante procedimento policial, Fernando foi indiciado pela prática de dois crimes de furto, previsto no Art. 155, caput (pena: 01 a 04 anos de reclusão e multa); um crime de estelionato, disposto no Art. 171, § 2º, inciso VI, (pena: 01 a 05 anos de reclusão e multa); e um crime de apropriação indébita, Art. 168, caput, (pena: 01 ano a 04 anos de reclusão e multa), todos do Código Penal. Considerando a situação narrada e a existência de conexão probatória em relação a todos os delitos, a denúncia deverá ser oferecida perante o(s) juízo(s) da(s) comarca(s) de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Nova Iguaçu."
+      },
+      {
+        "letra": "B",
+        "texto": "Duque de Caxias."
+      },
+      {
+        "letra": "C",
+        "texto": "São João de Meriti."
+      },
+      {
+        "letra": "D",
+        "texto": "Magé"
+      },
+      {
+        "letra": "E",
+        "texto": "Nova Iguaçu, em relação à apropriação indébita, Duque de Caxias, quanto ao estelionato, e São João de Meriti, em relação aos furtos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Processual Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q044",
+    "codigo": "PMERJ-CFO-2021-FGV-Q044",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 44,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Murilo foi denunciado pela prática de um crime de lesão corporal seguida de morte. Após o recebimento da denúncia, o advogado de Murilo foi intimado para apresentar resposta à acusação, oportunidade em que apresentou diversas teses defensivas, dentre as quais: inépcia da denúncia, total inimputabilidade do acusado em razão de doença mental, que o crime estava prescrito, que o réu estava em manifesto estado de necessidade e, por fim, insuficiência probatória. Considerando apenas o exposto, de acordo com o previsto no Código de Processo Penal para o procedimento comum ordinário, assinale a(s) tese(s) defensiva(s) apresentadas pela defesa de Murilo que poderão ensejar sua imediata absolvição sumária.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Prescrição, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "Inimputabilidade e prescrição."
+      },
+      {
+        "letra": "C",
+        "texto": "Prescrição e manifesto estado de necessidade."
+      },
+      {
+        "letra": "D",
+        "texto": "Inépcia da denúncia, insuficiência probatória e manifesto estado de necessidade."
+      },
+      {
+        "letra": "E",
+        "texto": "Inépcia da denúncia, manifesto estado de necessidade e prescrição."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q045",
+    "codigo": "PMERJ-CFO-2021-FGV-Q045",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 45,
+    "materia": "Direito Processual Penal",
+    "materia_original": "Direito Processual Penal",
+    "dificuldade": "medio",
+    "enunciado": "No dia 03/03/2020, a residência de Hugo foi furtada e de seu interior foi subtraída uma televisão. Para ingressar no local e praticar o crime, José arrombou a porta de entrada da residência enquanto essa estava vazia. O vizinho de Hugo presenciou os fatos e descreveu as características de José para a polícia, sendo esse detido ainda na posse do bem subtraído. O autor foi denunciado pelo crime de furto qualificado pelo rompimento de obstáculo. Nem a vítima nem o vizinho foram ouvidos em juízo e os policiais afirmaram em sede judicial que encontraram o acusado na posse da TV furtada. O réu, por sua vez, confessou o crime e a forma como entrou na residência, apesar de não ter sido realizado exame pericial no local. Quanto à imputação a José da qualificadora do rompimento de obstáculo, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Poderá ser imputada ao réu, pois houve exame pericial indireto."
+      },
+      {
+        "letra": "B",
+        "texto": "Não poderá ser imputada ao réu, diante da ausência de exame pericial de local, que poderia ser realizado por um perito oficial."
+      },
+      {
+        "letra": "C",
+        "texto": "Não poderá ser imputada ao réu, pois depende de exame pericial realizado por dois peritos oficiais, não o suprindo o exame indireto."
+      },
+      {
+        "letra": "D",
+        "texto": "Poderá ser imputada ao réu, pois se trata de crime transeunte, que dispensa a realização de prova pericial."
+      },
+      {
+        "letra": "E",
+        "texto": "Poderá ser imputada ao réu, pois, caso os vestígios tenham desaparecido, a confissão poderá suprir a falta de exame pericial, direto ou indireto."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Processual Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q046",
+    "codigo": "PMERJ-CFO-2021-FGV-Q046",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 46,
+    "materia": "Direito Processual Penal",
+    "materia_original": "Direito Processual Penal",
+    "dificuldade": "medio",
+    "enunciado": "Gustavo, em dificuldades financeiras, decide se apropriar diariamente da quantia de R$1.000,00 do caixa do supermercado em que trabalha, fazendo isso durante cinco dias seguidos, avaliando que a retirada diária não permitiria sua descoberta. O gerente do estabelecimento comercial verifica os desvios e solicita a instauração de dois inquéritos policiais em delegacias diversas. Em razão dos fatos, Gustavo é denunciado pela prática de 4 crimes de apropriação indébita perante a 1ª Vara Criminal da Comarca de Duque de Caxias/RJ e 1 crime de apropriação indébita perante a 2ª Vara Criminal daquela mesma comarca. A primeira ação penal ensejou a condenação de Gustavo em continuidade delitiva, assim como, na ação penal perante a 2ª Vara Criminal, foi proferida sentença condenatória. Transitadas em julgado ambas as condenações, é correto afirmar, com relação à execução das penas cominadas, que Gustavo",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "poderá buscar a unificação das penas perante o juízo da execução penal."
+      },
+      {
+        "letra": "B",
+        "texto": "poderá buscar a unificação das penas perante qualquer dos juízos que tenha julgado as ações penais originariamente."
+      },
+      {
+        "letra": "C",
+        "texto": "nada poderá fazer para reduzir o tempo de pena a ser cumprido, devendo cumprir primeiramente a pena mais grave, para, após, iniciar o cumprimento da pena menos grave."
+      },
+      {
+        "letra": "D",
+        "texto": "precisará ingressar com pedido de revisão criminal perante o Tribunal de Justiça para reduzir o tempo de pena a ser cumprido."
+      },
+      {
+        "letra": "E",
+        "texto": "nada poderá fazer para reduzir o tempo de pena a ser cumprido, diante do trânsito em julgado das sentenças condenatórias, mas poderá cumprir as penas de maneira concomitante, caso compatíveis as sanções penais aplicadas. ΠΜ1 Tipo 1 – Cor BRANCA – Página 13"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Processual Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q047",
+    "codigo": "PMERJ-CFO-2021-FGV-Q047",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 47,
+    "materia": "Direito Processual Penal",
+    "materia_original": "Direito Processual Penal",
+    "dificuldade": "medio",
+    "enunciado": "Carlos, policial militar, quando em serviço, encontrou seu amigo Alberto, estudante de Direito. Enquanto conversavam em uma rua de Niterói, cidade na qual moravam, avistaram uma amiga comum, Flávia, passando com ela a conversar. A dupla, já com a intenção de com Flávia praticar conjunção carnal, a convidou para juntos beberem no bar de propriedade do pai de Alberto, na cidade vizinha de São Gonçalo. Após ingerirem bebida alcoólica, aproveitando-se do estado de embriaguez de Flávia, ainda no interior do bar, a dupla, mediante grave ameaça, praticou com ela conjunção carnal. Descoberto o fato após o registro efetuado pela vítima, tendo Carlos e Alberto tudo confessado, o Ministério Público deverá oferecer denúncia",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "contra ambos, perante a vara criminal de Niterói."
+      },
+      {
+        "letra": "B",
+        "texto": "contra Carlos, perante a auditoria militar estadual, e contra Alberto, perante a vara criminal de Niterói."
+      },
+      {
+        "letra": "C",
+        "texto": "contra ambos, perante a vara criminal de São Gonçalo."
+      },
+      {
+        "letra": "D",
+        "texto": "contra Carlos, perante a auditoria militar estadual, e contra Alberto, perante a vara criminal de São Gonçalo."
+      },
+      {
+        "letra": "E",
+        "texto": "contra ambos, perante a auditoria militar estadual."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Processual Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q048",
+    "codigo": "PMERJ-CFO-2021-FGV-Q048",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 48,
+    "materia": "Direito Processual Penal",
+    "materia_original": "Direito Processual Penal",
+    "dificuldade": "medio",
+    "enunciado": "Sérgio foi denunciado pela prática de crime de extorsão mediante sequestro de Argel, tendo o juízo competente proferido decisão de não recebimento da denúncia em razão da ausência de indícios suficientes de ter sido aquele o autor do fato. Considerando apenas as informações expostas, de acordo com a jurisprudência do Supremo Tribunal Federal, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A decisão de não recebimento da denúncia é irrecorrível, podendo o Ministério Público apresentar mandado de segurança para questioná-la."
+      },
+      {
+        "letra": "B",
+        "texto": "O Ministério Público poderá apresentar recurso de apelação para questionar a decisão com força definitiva de não recebimento da denúncia."
+      },
+      {
+        "letra": "C",
+        "texto": "A decisão de rejeição da denúncia por ausência de indícios suficientes de autoria é recorrível, mas, se transitada em julgado, fará coisa julgada formal e material."
+      },
+      {
+        "letra": "D",
+        "texto": "O Ministério Público poderá apresentar recurso em sentido estrito para questionar a decisão de não recebimento da denúncia, mas Sérgio deverá ser intimado para apresentar contrarrazões."
+      },
+      {
+        "letra": "E",
+        "texto": "A decisão de não recebimento da denúncia por insuficiência de indícios de autoria é irrecorrível, fazendo apenas coisa julgada formal, mas não material."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Processual Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q049",
+    "codigo": "PMERJ-CFO-2021-FGV-Q049",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 49,
+    "materia": "Direito Processual Penal",
+    "materia_original": "Direito Processual Penal",
+    "dificuldade": "medio",
+    "enunciado": "Pedro, funcionário de uma loja de aparelhos celulares, aproveitando que era um sábado e a loja estava cheia, furtou um aparelho do estabelecimento, acreditando que ninguém perceberia. Após cumprir folga no domingo, Pedro retornou ao local para trabalhar na segunda-feira e, após sua chegada, o gerente do estabelecimento, que tomara conhecimento da conduta de Pedro por meio do sistema de vídeo da loja, acionou a Polícia Militar, que compareceu ao local e prendeu Pedro em flagrante, não obstante o aparelho subtraído não tivesse sido encontrado. Considerando os fatos acima narrados, bem como o entendimento doutrinário e jurisprudencial dominantes sobre o tema, é correto afirmar que a prisão em flagrante de Pedro",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "foi legal, por tratar-se de crime instantâneo com efeitos permanentes."
+      },
+      {
+        "letra": "B",
+        "texto": "foi legal, tratando-se de situação de flagrante presumido."
+      },
+      {
+        "letra": "C",
+        "texto": "foi legal, tratando-se de flagrante impróprio."
+      },
+      {
+        "letra": "D",
+        "texto": "foi ilegal, uma vez que o flagrante dependeria de autorização judicial."
+      },
+      {
+        "letra": "E",
+        "texto": "foi ilegal, uma vez que Pedro não se encontrava em situação de flagrante delito."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Direito Processual Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q050",
+    "codigo": "PMERJ-CFO-2021-FGV-Q050",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 50,
+    "materia": "Direito Processual Penal",
+    "materia_original": "Direito Processual Penal",
+    "dificuldade": "medio",
+    "enunciado": "Após a devida investigação criminal que apontava para a prática do crime de tráfico de drogas em determinado bar por parte de Igor, que seria proprietário do estabelecimento, Bernardo e Laerte, policiais militares, sentaram-se em uma mesa e solicitaram um refrigerante como se consumidores fossem, com o objetivo de verificar a ocorrência do comércio ilegal de drogas. Após Valter chegar ao local e conversar reservadamente com Igor, este foi até um compartimento do bar, retornando, em seguida, com uma mochila que foi entregue a Valter. Desconfiando da situação, Bernardo e Laerte, apresentando-se como policiais, abordam Igor, enquanto Valter permitiu que fosse verificado o que havia no interior da mochila. Foi constatado que, dentro da mochila, havia grande quantidade de maconha, sendo efetivada a prisão em flagrante de Igor. Diante da situação narrada, é correto afirmar que a prisão de Igor configura",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "flagrante esperado, sendo ilegal."
+      },
+      {
+        "letra": "B",
+        "texto": "flagrante esperado, sendo legal."
+      },
+      {
+        "letra": "C",
+        "texto": "flagrante preparado, sendo ilegal."
+      },
+      {
+        "letra": "D",
+        "texto": "flagrante preparado, sendo legal."
+      },
+      {
+        "letra": "E",
+        "texto": "flagrante retardado, sendo ilegal. ΠΜ1 Tipo 1 – Cor BRANCA – Página 14"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Processual Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q051",
+    "codigo": "PMERJ-CFO-2021-FGV-Q051",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 51,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "A Lei nº 8069/90 – Estatuto da Criança e do Adolescente (ECA) dispõe sobre a proteção integral à criança e ao adolescente, possuindo título próprio tratando da prática de ato infracional, ficando sujeitos às medidas previstas naquela Lei o menor de 18 anos que pratica crime ou contravenção penal. Sobre este diploma legal, especificamente com relação às medidas socioeducativas (MSE), atento à jurisprudência consolidada do Superior Tribunal de Justiça, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Não ostentando a MSE a natureza jurídica de pena, não há que se falar em prescrição no ECA."
+      },
+      {
+        "letra": "B",
+        "texto": "A internação provisória do adolescente infrator não pode exceder o prazo máximo e improrrogável de 45 dias."
+      },
+      {
+        "letra": "C",
+        "texto": "A prática de ato infracional análogo ao tráfico de drogas autoriza à imposição da MSE de internação, por si só, por ser o delito assemelhado a hediondo, ainda que seja evento isolado na vida do inimputável."
+      },
+      {
+        "letra": "D",
+        "texto": "Ainda que o ato infracional tenha sido praticado quando o agente era menor de 18 anos, a superveniência da maioridade penal afasta a possibilidade de aplicação de qualquer medida socioeducativa."
+      },
+      {
+        "letra": "E",
+        "texto": "Os atos infracionais compreendidos na remissão servem para caracterizar a reiteração no cometimento de outras infrações graves, a autorizar a aplicação da MSE de internação."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q052",
+    "codigo": "PMERJ-CFO-2021-FGV-Q052",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 52,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Inobstante o CPP tenha incluído o habeas corpus entre os recursos, a doutrina majoritária entende que se trata de ação constitucional, que tem por objeto a proteção do direito de liberdade de locomoção. Sobre tal remédio constitucional, de acordo com a jurisprudência dos Tribunais Superiores, é correto afirmar que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pode ser utilizado para atacar as prisões disciplinares militares para análise da regularidade formal do procedimento administrativo."
+      },
+      {
+        "letra": "B",
+        "texto": "vem sendo admitida a sua utilização em substituição a recurso próprio."
+      },
+      {
+        "letra": "C",
+        "texto": "é cabível recurso especial contra decisão que denega a ordem pelo Tribunal de Justiça."
+      },
+      {
+        "letra": "D",
+        "texto": "não se mostra cabível na forma preventiva."
+      },
+      {
+        "letra": "E",
+        "texto": "compete ao Superior Tribunal de Justiça o julgamento dos pedidos de habeas corpus, quando a autoridade coatora for Turma Recursal dos Juizados Especiais do Estado."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q053",
+    "codigo": "PMERJ-CFO-2021-FGV-Q053",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 53,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Em razão da falibilidade humana e considerando que uma condenação errônea significa uma grande injustiça, o CPP prevê a revisão criminal como ação autônoma de impugnação das decisões judiciais transitadas em julgado. Sobre o tema, atento à jurisprudência dos Tribunais Superiores, é correto afirmar que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "surgindo prova nova em desfavor do acusado, é possível a revisão criminal para desconstituir a decisão absolutória."
+      },
+      {
+        "letra": "B",
+        "texto": "o ajuizamento da revisão criminal interrompe a execução definitiva da pena até o julgamento final do seu mérito."
+      },
+      {
+        "letra": "C",
+        "texto": "a revisão criminal somente pode ser ajuizada por meio de advogado com poderes especiais, não podendo ser apresentada pelo próprio condenado."
+      },
+      {
+        "letra": "D",
+        "texto": "a justificação criminal é a via própria para a obtenção de prova nova para fins de subsidiar o ajuizamento da revisão criminal."
+      },
+      {
+        "letra": "E",
+        "texto": "extinta a punibilidade pela morte do condenado, não é possível o ajuizamento da revisão criminal pelo cônjuge, ascendente, descendente ou irmão do falecido."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q055",
+    "codigo": "PMERJ-CFO-2021-FGV-Q055",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 55,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Dentro do Título da prova, o Código de Processo Penal possui capítulo próprio para busca e apreensão, sendo institutos diversos que foram tratados de forma unificada. A busca é uma medida instrumental cuja finalidade é encontrar algo com utilidade probatória, e, isto ocorrendo, apreende-se o que foi encontrado. Trata-se de medida excepcional que se encontra em tensão com direitos fundamentais, somente podendo prevalecer quando demonstrada a sua imperiosa necessidade para o processo e de acordo com os ditames legais. Neste sentido, é correto dizer que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a busca pessoal somente poderá se realizar após prévia autorização judicial."
+      },
+      {
+        "letra": "B",
+        "texto": "a busca domiciliar autorizada judicialmente poderá ser executada de dia ou de noite, independentemente da autorização do morador."
+      },
+      {
+        "letra": "C",
+        "texto": "a busca domiciliar, na ausência do morador, ainda que deferida judicialmente, não poderá se realizar."
+      },
+      {
+        "letra": "D",
+        "texto": "a busca domiciliar, no interior de quarto de hotel ocupado ou cabine individual de navio, exige a necessária ordem judicial."
+      },
+      {
+        "letra": "E",
+        "texto": "o mandado de busca domiciliar genérico é admissível, bastando a referência à rua em que a diligência deverá se realizar."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q056",
+    "codigo": "PMERJ-CFO-2021-FGV-Q056",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 56,
+    "materia": "Direito Processual Penal",
+    "materia_original": "Direito Processual Penal",
+    "dificuldade": "medio",
+    "enunciado": "Luiz e Augusto, ambos devidamente identificados, foram denunciados pela prática de um crime de apropriação indébita ( pena: 01 a 04 anos de reclusão e multa ), não tendo o Ministério Público requerido, por ocasião da denúncia, decretação da prisão preventiva. No curso da ação penal, o magistrado verificou que Luiz possuiria diversas condenações pela prática de crimes patrimoniais, sendo reincidente. Já Augusto seria tecnicamente primário, mas possuidor de maus antecedentes. Com base nisto, o juiz decretou a prisão preventiva dos denunciados, apesar de ausência de requerimento do Ministério Público. Considerando apenas as informações expostas, é correto afirmar que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "as prisões são legais, pois o juiz, no curso do processo penal, pode decretar, de ofício, a prisão preventiva dos acusados, diferente do que ocorre antes do início da ação penal."
+      },
+      {
+        "letra": "B",
+        "texto": "as prisões são ilegais, mas, ainda que se trate de crime punido com pena máxima não superior a 4 (quatro) anos, a prisão preventiva seria, em tese, possível, diante da reincidência de Luiz e dos maus antecedentes de Augusto."
+      },
+      {
+        "letra": "C",
+        "texto": "o juiz não poderá, de oficio, revogar a prisão preventiva dos denunciados, caso verifique que não mais subsistem os motivos que a justificaram, dependendo de provocação da parte."
+      },
+      {
+        "letra": "D",
+        "texto": "o decreto de prisão foi ilegal, apesar de, abstratamente, ser possível a prisão de Luiz, por ser reincidente, e não ser possível a de Augusto, por ser tecnicamente primário."
+      },
+      {
+        "letra": "E",
+        "texto": "a prisão de Luiz foi legal, por ser reincidente, enquanto a de Augusto deve ser relaxada, diante da ausência dos pressupostos legais. Curso de Formação de Oficiais da PMERJ FGV Conhecimento Direito Penal Militar"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Processual Penal."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q057",
+    "codigo": "PMERJ-CFO-2021-FGV-Q057",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 57,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Com base no disposto no Código Penal Militar, assinale a afirmativa incorreta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A qualidade de superior ou de inferior deixa de ser elemento constitutivo do crime quando não conhecida pelo agente."
+      },
+      {
+        "letra": "B",
+        "texto": "Se uma lei posterior deixar de considerar um fato um crime, nenhum agente poderá ser punido, ainda que tenha sido condenado por sentença irrecorrível."
+      },
+      {
+        "letra": "C",
+        "texto": "Se sobrevier lei que, de qualquer forma, favoreça o agente, aplica-se a lei nova retroativamente, ainda que o agente tenha sido condenado por sentença irrecorrível."
+      },
+      {
+        "letra": "D",
+        "texto": "Quanto às medidas de segurança, se houver divergência entre a lei vigente ao tempo da sentença e a lei vigente ao tempo da execução, prevalece a lei em vigor ao tempo da execução."
+      },
+      {
+        "letra": "E",
+        "texto": "Aplica-se a lei penal militar, sem prejuízo de convenções, tratados e regras de direito internacional, ao crime cometido em parte no território nacional, salvo se o agente tiver sido julgado pela justiça estrangeira."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Legislacao PM e Direito Militar."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q058",
+    "codigo": "PMERJ-CFO-2021-FGV-Q058",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 58,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Com base no disposto no Código Penal Militar, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A suspensão condicional da pena não se aplica aos crimes militares."
+      },
+      {
+        "letra": "B",
+        "texto": "Considera-se praticado o crime, o momento da ação ou omissão, desde que seja o mesmo do resultado."
+      },
+      {
+        "letra": "C",
+        "texto": "O Código Penal Militar compreende, além dos crimes militares, as infrações aos regulamentos disciplinares."
+      },
+      {
+        "letra": "D",
+        "texto": "Quando, por ineficácia absoluta do meio empregado ou por absoluta impropriedade do objeto, é impossível consumar-se o crime, o juiz deve atenuar a pena em 1/3."
+      },
+      {
+        "letra": "E",
+        "texto": "O tempo de guerra, para efeitos de aplicação da lei penal militar, começa com a declaração ou o reconhecimento do estado de guerra e termina quando ordenada a cessação das hostilidades."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Legislacao PM e Direito Militar."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q059",
+    "codigo": "PMERJ-CFO-2021-FGV-Q059",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 59,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Com relação ao crime de deserção, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Em tempo de guerra, a deserção simples é punida com pena de morte."
+      },
+      {
+        "letra": "B",
+        "texto": "Em tempo de paz, ausentar-se por sete dias do quartel é considerado crime militar."
+      },
+      {
+        "letra": "C",
+        "texto": "Ao facilitar a fuga de seu filho para a prática do crime de deserção, o pai praticará o crime de “favorecimento a desertor”, mas está isento de pena."
+      },
+      {
+        "letra": "D",
+        "texto": "Uma das consequências da condenação pelo crime de deserção e casos assimilados, é a perda de posto e patente, ainda que não conste da sentença."
+      },
+      {
+        "letra": "E",
+        "texto": "No crime de deserção, embora decorrido o prazo da prescrição, esta só extingue a punibilidade quando o desertor atingir a idade de 45 anos, se ocupar posto de oficial. ΠΜ1 Tipo 1 – Cor BRANCA – Página 16"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Legislacao PM e Direito Militar."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q060",
+    "codigo": "PMERJ-CFO-2021-FGV-Q060",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 60,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Sobre os crimes contra a autoridade ou a disciplina militar, assinale a afirmativa incorreta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O crime de motim não pode ser cometido por civil."
+      },
+      {
+        "letra": "B",
+        "texto": "A diferença entre motim e revolta é que, no crime de revolta, os agentes estão armados."
+      },
+      {
+        "letra": "C",
+        "texto": "É crime militar usar, indevidamente, uniforme, distintivo ou insígnia a que o militar não tenha direito."
+      },
+      {
+        "letra": "D",
+        "texto": "Recusar-se a obedecer a uma ordem do superior sobre assunto ou matéria de serviço, ou a dever imposto em lei, regulamento ou instrução, é crime previsto no CPM."
+      },
+      {
+        "letra": "E",
+        "texto": "Desrespeitar superior diante de outro militar é conduta considerada transgressão disciplinar, punida administrativamente, o que exclui a incidência da esfera penal."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Legislacao PM e Direito Militar."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q062",
+    "codigo": "PMERJ-CFO-2021-FGV-Q062",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 62,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Durante uma ação de patrulha efetivada pela Polícia Militar, o Sd. Monteiro e o Cb. Lobato avistam uma Ferrari e notam que o motorista é um garoto jovem. Achando a situação suspeita, tendo em vista a ocorrência de furto e roubo de veículos de luxo na região, os policiais militares abordam o veículo, sinalizando para que o motorista encoste o carro para revista. A ordem foi prontamente atendida pelo motorista, um civil de 18 anos chamado Pedro, que sai do carro para acompanhar a revista junto com os policiais. O Sd. Monteiro, não gostando da atitude de Pedro de querer acompanhar a ação policial, empurra-o, e ele cai junto ao meio fio. Pedro, na queda, quebra uma costela. Ato contínuo, o Sd. Monteiro se dirige a Pedro gritando: - “ Vagabundo, tá na cara que esse carro não é seu. Ladrão não tem direito aqui não ” e, a seguir, desfere dois socos no rosto de Pedro. Observações: - O Cb. Lobato acompanha, de perto, o ocorrido, sem intervir. - O veículo havia sido furtado por Pedro uma semana antes do ocorrido. - Pedro não fica com sequelas permanentes, mas tem que permanecer em repouso por 20 dias. Sobre o cenário acima, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Os crimes cometidos pelo Sd. Monteiro e pelo Cb. Lobato são de competência da Justiça Militar da União."
+      },
+      {
+        "letra": "B",
+        "texto": "O Cb. Lobato e o Sd. Monteiro devem responder, em concurso de agentes, pelo crime de lesão corporal e injúria."
+      },
+      {
+        "letra": "C",
+        "texto": "O Sd. Monteiro praticou o crime de lesão corporal grave, mas não calúnia; o Cb. Lobato não praticou crime nenhum."
+      },
+      {
+        "letra": "D",
+        "texto": "O Sd. Monteiro praticou o crime de lesão corporal, na forma dolosa, enquanto o Cb. Lobato praticou o mesmo crime, na forma culposa."
+      },
+      {
+        "letra": "E",
+        "texto": "O Cb. Lobato praticou o crime de lesão corporal por omissão, em concurso de agentes com o Sd. Monteiro, que praticou o mesmo crime, de forma comissiva."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Legislacao PM e Direito Militar."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q063",
+    "codigo": "PMERJ-CFO-2021-FGV-Q063",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 63,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "O Sd. Calvino estava escalado para fazer a vigilância do paiol de munições do seu quartel no dia 01/01/2017. No entanto, ele, sem avisar aos seus superiores, não compareceu ao quartel no dia 01/01/2017. Sobre o ocorrido, é correto afirmar que o Sd. Calvino cometeu",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "uma transgressão disciplinar."
+      },
+      {
+        "letra": "B",
+        "texto": "o crime de deserção especial, previsto no Aer. 190 do CPM."
+      },
+      {
+        "letra": "C",
+        "texto": "o crime militar de insubmissão, previsto no Art. 183 do CPM."
+      },
+      {
+        "letra": "D",
+        "texto": "o crime militar de omissão de vigilância, previsto no Art. 373 do CPM."
+      },
+      {
+        "letra": "E",
+        "texto": "o crime de abandono de posto ou serviço, previsto no Art. 195 do CPM. ΠΜ1 Tipo 1 – Cor BRANCA – Página 17 Concurso Público PMERJ 2021 Direitos Humanos"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Legislacao PM e Direito Militar."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q064",
+    "codigo": "PMERJ-CFO-2021-FGV-Q064",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 64,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "Maria, conhecida ativista dos Direitos Humanos, questionou sua assessoria a respeito do papel a ser desempenhado pelo Comitê Intersetorial, existente no Município do Rio de Janeiro, voltado ao acompanhamento e monitoramento da política municipal para a população em situação de rua. Na ocasião, foi respondido que, entre outros aspectos, I. é um órgão integrado apenas por representantes do Poder Público, oriundos de diversas Secretarias. II. é responsável por implementar a política municipal para a população em situação de rua. III. é responsável pelo acompanhamento da implementação dessa política em âmbito local. À luz da disciplina estatuída pela Lei nº 6.350/18 do Município do Rio de Janeiro, está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "II, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "III, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "I e II, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "II e III, apenas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q065",
+    "codigo": "PMERJ-CFO-2021-FGV-Q065",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 65,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "Com o objetivo de aprimorar os mecanismos internos de apuração e combate à tortura, Pedro, Deputado Federal, solicitou que sua assessoria realizasse alentado estudo, nos termos do Protocolo de Istambul, a respeito dos cuidados a serem tomados em relação à realização de exame médico-legal de uma pessoa detida e que se diz vítima de tortura. Exames dessa natureza, de acordo com a assessoria, I. devem ser realizados na sequência de um pedido escrito oficial do Ministério Público ou outra autoridade competente, não a pedido de “funcionários responsáveis pela aplicação da lei”, a exemplo de agentes policiais, soldados e guardas prisionais. II. caso estes últimos agentes estejam presentes na sala de exame, isto deve ser narrado no relatório médico oficial. III. os funcionários que supervisionam o transporte do detido devem ser responsáveis perante o Ministério Público e não perante qualquer outra autoridade pública. Considerando os termos do Protocolo de Istambul, está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "I e II, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "I e III, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "II e III, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "I, II e III."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q066",
+    "codigo": "PMERJ-CFO-2021-FGV-Q066",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 66,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Joana, Secretária de Promoção Social do Estado Alfa, reuniu sua equipe com o objetivo de identificar o impacto das atitudes ou comportamentos de terceiros que impeçam ou prejudiquem a participação social das pessoas com deficiência em igualdade de condições e oportunidades. Sobre a hipótese narrada, à luz do Estatuto da Pessoa com Deficiência, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "São costumes sociais de viés negativo, que, embora estranhos à deficiência e à sua projeção na realidade, exigem medidas na área da educação."
+      },
+      {
+        "letra": "B",
+        "texto": "São barreiras atitudinais que, interagindo com impedimentos de longo prazo do ser humano, podem obstruir a plenitude de sua participação social."
+      },
+      {
+        "letra": "C",
+        "texto": "São falhas comunicativas que se espraiam pelo tecido social e comprometem a sua coesão, impedindo a efetiva inclusão das pessoas com deficiência."
+      },
+      {
+        "letra": "D",
+        "texto": "São obstáculos de acessibilidade à plenitude da convivência social, que afetam a dignidade da pessoa humana, merecendo resposta do Estado."
+      },
+      {
+        "letra": "E",
+        "texto": "São carências das tecnologias assistivas, que possibilitam a efetiva integração entre os distintos segmentos sociais, de modo a assegurar a efetiva participação da pessoa com deficiência."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q067",
+    "codigo": "PMERJ-CFO-2021-FGV-Q067",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 67,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Determinado Batalhão da Polícia Militar no Estado do Rio de Janeiro, por seu comando, iniciou a análise dos aspectos afetos à criminalidade em certa comunidade carente, com o objetivo de deliberar pela realização, ou não, de uma operação policial no local, durante a epidemia de COVID-19. À luz das determinações exaradas pelo Supremo Tribunal Federal na ADPF nº 635, essas operações policiais, podem ser realizadas",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "durante o horário escolar, quaisquer que sejam as circunstâncias fáticas."
+      },
+      {
+        "letra": "B",
+        "texto": "desde que haja prévia autorização do Ministério Público Estadual, independentemente de apreciação judicial."
+      },
+      {
+        "letra": "C",
+        "texto": "em situações absolutamente excepcionais, desde que haja prévia autorização do Ministério Público Estadual."
+      },
+      {
+        "letra": "D",
+        "texto": "em situações absolutamente excepcionais, com a comunicação imediata ao Ministério Público Estadual."
+      },
+      {
+        "letra": "E",
+        "texto": "em situações absolutamente excepcionais, com prévia oitiva do Ministério Público Estadual e correlata autorização judicial. ΠΜ1 Tipo 1 – Cor BRANCA – Página 18"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q068",
+    "codigo": "PMERJ-CFO-2021-FGV-Q068",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 68,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Maria sofria constantes agressões físicas e psicológicas do seu marido no âmbito da unidade doméstica. Esse estado de coisas gerou intensos dissabores para Maria, que levou o caso ao conhecimento das autoridades competentes. À luz da sistemática estabelecida pela Lei nº 11.340/2006, é correto afirmar que Maria, entre outras providências, pode, no âmbito do Juizado de Violência Doméstica e Familiar contra a Mulher,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "receber medidas protetivas, que busquem assegurar a sua incolumidade física, propor ação de divórcio e resolver a partilha de bens."
+      },
+      {
+        "letra": "B",
+        "texto": "obter provimento que impeça o ofensor de dilapidar o patrimônio comum e ainda obter a partilha dos bens do casal."
+      },
+      {
+        "letra": "C",
+        "texto": "propor ação de divórcio e resolver a partilha de bens, e ainda obter o afastamento do ofensor do lar conjugal."
+      },
+      {
+        "letra": "D",
+        "texto": "receber medidas protetivas, incluindo o recebimento de alimentos, e propor ação de divórcio."
+      },
+      {
+        "letra": "E",
+        "texto": "receber medidas protetivas, mas não discutir questões afetas ao casamento ou à sua dissolução."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q069",
+    "codigo": "PMERJ-CFO-2021-FGV-Q069",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 69,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "A Diretora da Escola particular XX recebeu a informação, de uma comissão de pais, de que o estabelecimento de ensino não promovia o estudo da história da África e da história da população negra no Brasil. Além disso, foi identificada a ausência de participação de intelectuais do movimento negro para debater com os estudantes, nas datas comemorativas de caráter cívico, suas vivências relativas ao tema em comemoração, embora isto fosse estimulado pelo Poder Público. Sabedora de que os fatos descritos eram verdadeiros, a Diretora respondeu corretamente, à luz do Estatuto da igualdade Racial, que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o estudo da história da África e da história da população negra no Brasil era obrigatório, mas apenas nas escolas públicas, e que a participação de intelectuais negros afrontava a autonomia didática das escolas."
+      },
+      {
+        "letra": "B",
+        "texto": "as normas afetas à igualdade racial, por apresentarem contornos eminentemente afirmativos, se baseiam no voluntarismo, não na imposição, e que a escola entendia que o momento não era adequado à adoção dessas medidas."
+      },
+      {
+        "letra": "C",
+        "texto": "o estudo da história da África e da história da população negra no Brasil era obrigatório, mas apenas nas escolas públicas, e que a participação de intelectuais negros, apesar de estranha à igualdade racial, seria analisada."
+      },
+      {
+        "letra": "D",
+        "texto": "iria determinar a correção curricular, de modo a promover o estudo da história da África e da história da população negra no Brasil, e que promoveria, sempre que possível, a participação de intelectuais do movimento negro."
+      },
+      {
+        "letra": "E",
+        "texto": "iria determinar a correção curricular, de modo a promover o estudo da história da África e da história da população negra no Brasil, e que a participação de intelectuais negros afrontava a autonomia didática das escolas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmerj-cfo-2021-fgv-q070",
+    "codigo": "PMERJ-CFO-2021-FGV-Q070",
+    "orgao": "PMERJ",
+    "cargo": "Oficial da PM (QOPM)",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 70,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Determinado tratado de proteção aos Direitos Humanos foi assinado pelo Estado brasileiro e, a partir desse momento, iniciou-se um intenso movimento, capitaneado pelas entidades de proteção aos Direitos Humanos, para que fosse incorporado, à ordem interna, com eficácia jurídica equivalente às emendas constitucionais. Para que isto ocorra, é preciso que seja aprovado",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "em cada Casa do Congresso Nacional, em dois turnos, pelo voto de três quintos dos respectivos membros."
+      },
+      {
+        "letra": "B",
+        "texto": "em cada Casa do Congresso Nacional, em turno único, pelo voto de três quintos dos respectivos membros."
+      },
+      {
+        "letra": "C",
+        "texto": "pelas duas Casas do Congresso Nacional, em reunião conjunta, pelo voto de dois terços dos respectivos membros."
+      },
+      {
+        "letra": "D",
+        "texto": "em cada Casa do Congresso Nacional, em dois turnos, pelo voto de dois terços dos respectivos membros, com a sanção do Presidente da República."
+      },
+      {
+        "letra": "E",
+        "texto": "pelas duas Casas do Congresso Nacional, em reunião conjunta, pelo voto de três quintos dos respectivos membros, com a sanção do Presidente da República. Questões Discursivas Direito Administrativo O Secretário de Polícia Militar do Estado Alfa, no exercício de suas competências legais, praticou regularmente os seguintes atos: I. Editou resolução dispondo sobre o procedimento para concessão de licença para tratamento de saúde do policial militar, de maneira a facilitar a execução da lei (Estatuto da Polícia Militar estadual), com regras gerais e abstratas sobre a matéria. II. Aplicou a sanção administrativa da suspensão temporária de participação em licitação e impedimento de contratar com a Administração estadual, pelo prazo de um ano, à sociedade empresária Gama, em razão da inexecução parcial do contrato administrativo firmado para reforma de um Batalhão de Polícia Militar, após processo administrativo com contraditório e ampla defesa, com base na Lei nº 8.666/93. Em tema de poderes administrativos, responda aos itens a seguir. a) Cite e explique qual o poder administrativo que embasou diretamente a prática do ato descrito em I. b) Sabendo que inexiste lei estadual específica dispondo sobre a matéria do ato descrito em I, o Secretário poderia ter delegado tal ato para ser praticado pelo Subsecretário? Justifique. c) Cite e explique qual o poder administrativo que embasou diretamente a prática do ato descrito em II. Obs.: suas respostas devem ser devidamente justificadas. ΠΜ1 Tipo 1 – Cor BRANCA – Página 19 Concurso Público PMERJ 2021 Direito Constitucional Diversos moradores do Bairro Alfa requereram a matrícula dos seus filhos, todos com idade inferior a 11 anos, na educação básica da escola municipal XX, situada no Bairro Beta, sendo apresentado o histórico escolar e os demais documentos exigidos. Os requerimentos, no entanto, foram indeferidos pelo Diretor da escola municipal XX, por escrito, sob o argumento de que a preferência nas matrículas era dos filhos dos moradores do Bairro Beta. A decisão foi proferida apesar de existirem vagas disponíveis. Insatisfeitos, os moradores procuraram o apoio da Associação de Moradores do Bairro Alfa, da qual eram associados e que tinha, entre os seus objetivos estatutários, o de zelar pela educação dos associados e de seus dependentes. A associação fora constituída em estrita harmonia com a ordem jurídica e vinha funcionando de modo ininterrupto há uma década. Ao tomar conhecimento dos fatos, a associação decidiu ajuizar a ação constitucional cabível para compelir o Diretor a realizar a matrícula dos filhos dos associados. À luz da narrativa acima, responda, conforme a sistemática constitucional, aos itens a seguir. a) Os filhos dos associados da Associação de Moradores do Bairro Alfa deveriam ser matriculados na escola municipal XX? Justifique. b) O Diretor da escola municipal XX pode dar preferência aos filhos dos moradores do Bairro Beta em detrimento dos moradores do Bairro Alfa? Justifique. c) Indique a ação constitucional que deve ser ajuizada pela Associação de Moradores do Bairro Alfa. Justifique. Obs.: suas respostas devem ser devidamente justificadas. Curso de Formação de Oficiais da PMERJ FGV Conhecimento Direito Penal e Processual Penal Gabriel e Jorge, policiais militares em serviço, estavam em patrulhamento em determinada comunidade do Rio de Janeiro, quando receberam, do setor de inteligência da Polícia Militar, detalhes de uma denúncia anônima que informava que Paulo estaria armazenando drogas para distribuição para aqueles que seriam responsáveis pela venda direta do material ilícito para usuários. Informados sobre o endereço dos fatos e sobre a suposta prática de delito de natureza permanente, os policiais ingressaram no imóvel imediatamente, sem contato com o morador, e, de fato, lá encontraram Paulo e apreenderam materiais assemelhados a entorpecentes. Diante da grande quantidade de drogas apreendida, os policiais optaram por realizar diligência no imóvel vizinho ao de Paulo. Ao baterem na porta, teriam sido atendidos por Carlos. Em diligência nesta residência, apreenderam uma arma de fogo, devidamente municiada, com numeração suprimida. Paulo e Carlos foram encaminhados à delegacia. Os policiais militares ouvidos no procedimento reiteraram a informação recebida pelo setor reservado da Polícia Militar em relação a Paulo, bem como alegaram que Carlos autorizara o ingresso em seu imóvel, não apresentando qualquer documentação neste sentido. Foi acostado laudo de exame de material entorpecente confirmando a apreensão de 2kg de maconha e 1kg de cocaína na casa de Paulo e laudo pericial confirmando o potencial lesivo da arma de fogo que estava na posse de Carlos. Carlos e Paulo permaneceram em silêncio. Considerando os fatos narrados, discorra sobre a validade das apreensões realizadas pelos policiais nas residências de Pablo e Carlos, em especial analisando a mais recente jurisprudência do Superior Tribunal de Justiça sobre o tema da inviolabilidade de domicílio. Obs.: suas respostas devem ser devidamente justificadas. ΠΜ1 Tipo 1 – Cor BRANCA – Página 20 Questão Discursiva - Direito Administrativo"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMERJ",
+    "comentario": "Questao oficial PMERJ Oficial da PM (QOPM) 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  }
+]

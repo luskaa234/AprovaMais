@@ -1,0 +1,23 @@
+{
+  "exame": "PMAC Aluno Oficial Combatente 2023",
+  "banca": "FGV",
+  "ano": 2023,
+  "cargo": "Aluno Oficial Combatente",
+  "total_questoes": 60,
+  "fonte": "Oficial FGV local",
+  "sourceUrl": "material-provas/fgv/provas PM/cns101-aluno-oficial-combatentecns101-tipo-1.pdf",
+  "gabarito": "definitivo",
+  "origem": "oficial",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "path": "material-provas/fgv/provas PM/cns101-aluno-oficial-combatentecns101-tipo-1.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "path": "material-provas/fgv/provas PM/pmac2023-gabaritos-definitivo-final-para-publicacao-1.pdf"
+    }
+  ]
+}

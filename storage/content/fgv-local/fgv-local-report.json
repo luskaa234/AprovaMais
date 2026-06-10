@@ -1,0 +1,503 @@
+{
+  "report": [
+    {
+      "slug": "pmerj-cfo-2021-fgv",
+      "orgao": "PMERJ",
+      "ano": 2021,
+      "cargo": "Oficial da PM (QOPM)",
+      "prova": "pmerj2021-curso-de-formacao-de-oficiais-da-pmerj-pmcfo01-tipo-1.pdf",
+      "gabarito": "pmerj2021_gabarito_definitivo.pdf",
+      "cargoGabarito": "Oficial da PM (QOPM)",
+      "totalEsperado": 70,
+      "alternativasEsperadas": 5,
+      "gabaritosLidos": 70,
+      "validas": 67,
+      "anuladas": 1,
+      "descartadas": 2,
+      "motivosDescarte": {
+        "alternativas_0": 1,
+        "alternativas_4": 1
+      },
+      "porMateria": {
+        "Direito Administrativo": 9,
+        "Legislacao Especial": 14,
+        "Portugues": 12,
+        "Direito Constitucional": 2,
+        "Direito Penal": 13,
+        "Direito Processual Penal": 8,
+        "Legislacao PM e Direito Militar": 6,
+        "Direitos Humanos": 2,
+        "Historia, Geografia e Atualidades": 1
+      }
+    },
+    {
+      "slug": "pmpb-cfo-2022-fgv",
+      "orgao": "PMPB",
+      "ano": 2022,
+      "cargo": "Curso de Formacao de Oficiais PM",
+      "prova": "curso-de-formacao-de-oficiais-combatentes-da-pmpbcfopb-22-tipo-1.pdf",
+      "gabarito": "pmpb2021_gabarito_definitivo.pdf",
+      "cargoGabarito": "Curso de Formação de Oficiais PM - Masculino",
+      "totalEsperado": 80,
+      "alternativasEsperadas": 5,
+      "gabaritosLidos": 80,
+      "validas": 72,
+      "anuladas": 0,
+      "descartadas": 8,
+      "motivosDescarte": {
+        "alternativas_0": 4,
+        "alternativas_4": 3,
+        "alternativas_3": 1
+      },
+      "porMateria": {
+        "Portugues": 43,
+        "Direito Penal": 8,
+        "Direito Administrativo": 8,
+        "Direitos Humanos": 1,
+        "Legislacao Especial": 12
+      }
+    },
+    {
+      "slug": "pmam-oficial-2021-fgv",
+      "orgao": "PMAM",
+      "ano": 2021,
+      "cargo": "Aluno Oficial PM",
+      "prova": "aluno_oficial_da_pmns101_tipo_1.pdf",
+      "gabarito": "pmam2021_gabarito_definitivo_retificado_26.04.2022.pdf",
+      "cargoGabarito": "Aluno Oficial PM",
+      "totalEsperado": 80,
+      "alternativasEsperadas": 5,
+      "gabaritosLidos": 80,
+      "validas": 75,
+      "anuladas": 2,
+      "descartadas": 3,
+      "motivosDescarte": {
+        "alternativas_4": 3
+      },
+      "porMateria": {
+        "Portugues": 23,
+        "Historia, Geografia e Atualidades": 5,
+        "Legislacao Especial": 10,
+        "Informatica": 4,
+        "Contabilidade": 1,
+        "Direito Constitucional": 8,
+        "Direito Administrativo": 6,
+        "Legislacao PM e Direito Militar": 5,
+        "Direito Penal": 4,
+        "Direito Processual Penal": 6,
+        "Direitos Humanos": 3
+      }
+    },
+    {
+      "slug": "pmam-soldado-2021-fgv",
+      "orgao": "PMAM",
+      "ano": 2021,
+      "cargo": "Aluno Soldado PM",
+      "prova": "aluno_soldado_da_pmnm001_tipo_1.pdf",
+      "gabarito": "pmam2021_gabarito_definitivo_retificado_26.04.2022.pdf",
+      "cargoGabarito": "Aluno Soldado PM",
+      "totalEsperado": 60,
+      "alternativasEsperadas": 5,
+      "gabaritosLidos": 60,
+      "validas": 56,
+      "anuladas": 0,
+      "descartadas": 4,
+      "motivosDescarte": {
+        "alternativas_0": 2,
+        "alternativas_4": 2
+      },
+      "porMateria": {
+        "Portugues": 23,
+        "Historia, Geografia e Atualidades": 13,
+        "Matematica e Raciocinio Logico": 9,
+        "Informatica": 4,
+        "Legislacao Especial": 7
+      }
+    },
+    {
+      "slug": "pmce-soldado-2021-fgv",
+      "orgao": "PMCE",
+      "ano": 2021,
+      "cargo": "Soldado Policial Militar",
+      "prova": "pmce2021_soldado_da_pm-ce_pmce01_tipo_1.pdf",
+      "gabarito": "pmce2021_gabarito_definitivo.pdf",
+      "cargoGabarito": "Soldado Policial Militar - Masculino",
+      "totalEsperado": 80,
+      "alternativasEsperadas": 5,
+      "gabaritosLidos": 80,
+      "validas": 78,
+      "anuladas": 0,
+      "descartadas": 2,
+      "motivosDescarte": {
+        "alternativas_0": 2
+      },
+      "porMateria": {
+        "Portugues": 20,
+        "Matematica": 1,
+        "Matematica e Raciocinio Logico": 10,
+        "Historia, Geografia e Atualidades": 4,
+        "Legislacao Especial": 8,
+        "Direitos Humanos": 15,
+        "Direito Administrativo": 2,
+        "Legislacao PM e Direito Militar": 7,
+        "Direito Penal": 5,
+        "Criminologia": 6
+      }
+    },
+    {
+      "slug": "pmesp-cabo-2022-fgv-local",
+      "orgao": "PMSP",
+      "ano": 2022,
+      "cargo": "Cabo PM",
+      "prova": "cabo-pmcnm001-tipo-1.pdf",
+      "gabarito": "pmespcabo2022_gabarito_definitivo.pdf",
+      "cargoGabarito": "Cabo PM",
+      "totalEsperado": 60,
+      "alternativasEsperadas": 4,
+      "gabaritosLidos": 60,
+      "validas": 51,
+      "anuladas": 1,
+      "descartadas": 8,
+      "motivosDescarte": {
+        "alternativas_3": 2,
+        "duplicada_existente": 6
+      },
+      "porMateria": {
+        "Portugues": 15,
+        "Historia, Geografia e Atualidades": 1,
+        "Matematica e Raciocinio Logico": 10,
+        "Direito Penal": 3,
+        "Direitos Humanos": 2,
+        "Legislacao Especial": 14,
+        "Direito Processual Penal": 2,
+        "Legislacao PM e Direito Militar": 4
+      }
+    },
+    {
+      "slug": "pmesp-sargento-2024-fgv",
+      "orgao": "PMSP",
+      "ano": 2024,
+      "cargo": "Sargento PM",
+      "prova": "pm-sargentocnm001-tipo-1.pdf",
+      "gabarito": "pmesp-sargento-2024-gabaritos-para-publicacao.pdf",
+      "cargoGabarito": "PROVA TIPO 1",
+      "totalEsperado": 60,
+      "alternativasEsperadas": 4,
+      "gabaritosLidos": 60,
+      "validas": 55,
+      "anuladas": 0,
+      "descartadas": 5,
+      "motivosDescarte": {
+        "alternativas_3": 1,
+        "alternativas_0": 3,
+        "bloco_nao_extraido": 1
+      },
+      "porMateria": {
+        "Portugues": 22,
+        "Matematica": 17,
+        "Direito Penal": 11,
+        "Direito Processual Penal": 3,
+        "Direitos Humanos": 2
+      }
+    },
+    {
+      "slug": "pmac-oficial-combatente-2023-fgv",
+      "orgao": "PMAC",
+      "ano": 2023,
+      "cargo": "Aluno Oficial Combatente",
+      "prova": "cns101-aluno-oficial-combatentecns101-tipo-1.pdf",
+      "gabarito": "pmac2023-gabaritos-definitivo-final-para-publicacao-1.pdf",
+      "cargoGabarito": "Aluno Oficial Combatente",
+      "totalEsperado": 60,
+      "alternativasEsperadas": 5,
+      "gabaritosLidos": 60,
+      "validas": 55,
+      "anuladas": 0,
+      "descartadas": 5,
+      "motivosDescarte": {
+        "alternativas_4": 3,
+        "alternativas_0": 2
+      },
+      "porMateria": {
+        "Portugues": 12,
+        "Historia, Geografia e Atualidades": 6,
+        "Matematica e Raciocinio Logico": 3,
+        "Informatica": 3,
+        "Direitos Humanos": 10,
+        "Legislacao Especial": 13,
+        "Direito Administrativo": 1,
+        "Legislacao PM e Direito Militar": 4,
+        "Direito Processual Penal": 1,
+        "Direito Penal": 2
+      }
+    },
+    {
+      "slug": "pcrj-inspetor-2021-fgv",
+      "orgao": "PCRJ",
+      "ano": 2021,
+      "cargo": "Inspetor de Policia de 6a Classe",
+      "prova": "inspetor_de_policia_de_6a_classeinspetor_tipo_1_revisada.pdf",
+      "gabarito": "pcrj2021e1_gabarito_definitivo.pdf",
+      "cargoGabarito": "Inspetor de Polícia de 6ª Classe",
+      "totalEsperado": 100,
+      "alternativasEsperadas": 5,
+      "gabaritosLidos": 100,
+      "validas": 98,
+      "anuladas": 0,
+      "descartadas": 2,
+      "motivosDescarte": {
+        "alternativas_4": 1,
+        "alternativas_2": 1
+      },
+      "porMateria": {
+        "Portugues": 51,
+        "Legislacao Especial": 12,
+        "Matematica": 3,
+        "Direito Constitucional": 4,
+        "Direito Administrativo": 17,
+        "Direito Penal": 2,
+        "Direito Processual Penal": 5,
+        "Informatica": 4
+      }
+    },
+    {
+      "slug": "pcrj-investigador-2021-fgv",
+      "orgao": "PCRJ",
+      "ano": 2021,
+      "cargo": "Investigador Policial de 3a Classe",
+      "prova": "investigador_policial_de_3a_classeinvest_tipo_1_revisada.pdf",
+      "gabarito": "pcrj2021e2_gabarito_definitivo.pdf",
+      "cargoGabarito": "Investigador Policial de 3ª Classe",
+      "totalEsperado": 100,
+      "alternativasEsperadas": 5,
+      "gabaritosLidos": 100,
+      "validas": 98,
+      "anuladas": 0,
+      "descartadas": 2,
+      "motivosDescarte": {
+        "alternativas_4": 2
+      },
+      "porMateria": {
+        "Portugues": 44,
+        "Historia, Geografia e Atualidades": 8,
+        "Informatica": 7,
+        "Direito Constitucional": 8,
+        "Direito Administrativo": 5,
+        "Legislacao Especial": 13,
+        "Direito Penal": 6,
+        "Direito Processual Penal": 7
+      }
+    },
+    {
+      "slug": "pcrn-delegado-2021-fgv",
+      "orgao": "PCRN",
+      "ano": 2021,
+      "cargo": "Delegado de Policia Civil Substituto",
+      "prova": "pcrn-delegado-de-policia-civil-substituto-deleg-01-tipo-1.pdf",
+      "gabarito": "pcrn_gabarito_definitivo.pdf",
+      "cargoGabarito": "Delegado de Polícia Civil Substituto",
+      "totalEsperado": 100,
+      "alternativasEsperadas": 5,
+      "gabaritosLidos": 100,
+      "validas": 95,
+      "anuladas": 0,
+      "descartadas": 5,
+      "motivosDescarte": {
+        "alternativas_0": 3,
+        "alternativas_4": 2
+      },
+      "porMateria": {
+        "Direito Constitucional": 1,
+        "Direito Administrativo": 15,
+        "Portugues": 19,
+        "Direito Penal": 12,
+        "Direito Processual Penal": 26,
+        "Legislacao Especial": 14,
+        "Medicina Legal": 3,
+        "Criminologia": 3,
+        "Historia, Geografia e Atualidades": 2
+      }
+    },
+    {
+      "slug": "pcsc-delegado-2024-fgv",
+      "orgao": "PCSC",
+      "ano": 2024,
+      "cargo": "Delegado de Policia Substituto",
+      "prova": "delegado-objetivacns100-tipo-1.pdf",
+      "gabarito": "pcscdelegado2024_gabarito_definitivo_20240220.pdf",
+      "cargoGabarito": "Delegado de Polícia Substituto",
+      "totalEsperado": 100,
+      "alternativasEsperadas": 5,
+      "gabaritosLidos": 100,
+      "validas": 92,
+      "anuladas": 5,
+      "descartadas": 3,
+      "motivosDescarte": {
+        "alternativas_0": 2,
+        "alternativas_4": 1
+      },
+      "porMateria": {
+        "Portugues": 10,
+        "Historia, Geografia e Atualidades": 8,
+        "Direito Constitucional": 1,
+        "Direito Processual Penal": 14,
+        "Direito Administrativo": 19,
+        "Direito Penal": 18,
+        "Direitos Humanos": 13,
+        "Legislacao Especial": 2,
+        "Criminologia": 5,
+        "Medicina Legal": 2
+      }
+    },
+    {
+      "slug": "pcam-delegado-2021-fgv",
+      "orgao": "PCAM",
+      "ano": 2021,
+      "cargo": "Delegado de Policia - 4a Classe",
+      "prova": "ns001_-_delegado_de_policia_-_4a_classe_prova_objetivans001_tipo_1.pdf",
+      "gabarito": "pcam2021e01_gabarito_definitivo.pdf",
+      "cargoGabarito": "Delegado de Polícia - 4ª Classe",
+      "totalEsperado": 100,
+      "alternativasEsperadas": 5,
+      "gabaritosLidos": 100,
+      "validas": 94,
+      "anuladas": 2,
+      "descartadas": 4,
+      "motivosDescarte": {
+        "alternativas_0": 4
+      },
+      "porMateria": {
+        "Direito Constitucional": 3,
+        "Portugues": 22,
+        "Direito Processual Penal": 18,
+        "Direito Penal": 10,
+        "Direito Administrativo": 11,
+        "Historia, Geografia e Atualidades": 5,
+        "Informatica": 4,
+        "Legislacao Especial": 9,
+        "Medicina Legal": 2,
+        "Criminologia": 4,
+        "Direitos Humanos": 6
+      }
+    }
+  ],
+  "samples": [
+    {
+      "id": "pmerj-cfo-2021-fgv-q001",
+      "codigo": "PMERJ-CFO-2021-FGV-Q001",
+      "orgao": "PMERJ",
+      "ano": 2021,
+      "cargo": "Oficial da PM (QOPM)",
+      "banca": "FGV",
+      "numero": 1,
+      "materia": "Direito Administrativo",
+      "materia_original": "Direito Administrativo",
+      "topico": "PMERJ Oficial da PM (QOPM) 2021 - Q1",
+      "dificuldade": "medio",
+      "enunciado": "Com base em lei estadual, o Estado Beta publicou em seu site oficial na internet, em aba própria sobre transparência, os nomes de seus servidores e do valor dos correspondentes vencimentos e vantagens pecuniárias. Inconformado, o Policial Militar Antônio impetrou mandado de segurança, pleiteando a imediata retirada de seu nome do sítio eletrônico. De acordo com a jurisprudência do Supremo Tribunal Federal sobre o tema, a ordem deve ser",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "concedida, diante da patente violação aos direitos fundamentais à privacidade e à intimidade."
+        },
+        {
+          "letra": "B",
+          "texto": "concedida, diante da patente violação ao direito fundamental à segurança de servidor público policial."
+        },
+        {
+          "letra": "C",
+          "texto": "concedida, diante da ausência de autorização expressa do servidor e por violação ao seu sigilo bancário."
+        },
+        {
+          "letra": "D",
+          "texto": "denegada, pois a publicação é legítima e está acobertada pelo direito à informação da coletividade."
+        },
+        {
+          "letra": "E",
+          "texto": "denegada, pois os servidores públicos não gozam da prerrogativa do sigilo bancário pela supremacia do interesse público."
+        }
+      ],
+      "gabarito": "d",
+      "origem": "oficial",
+      "duplicate": false
+    },
+    {
+      "id": "pmerj-cfo-2021-fgv-q002",
+      "codigo": "PMERJ-CFO-2021-FGV-Q002",
+      "orgao": "PMERJ",
+      "ano": 2021,
+      "cargo": "Oficial da PM (QOPM)",
+      "banca": "FGV",
+      "numero": 2,
+      "materia": "Direito Administrativo",
+      "materia_original": "Direito Administrativo",
+      "topico": "PMERJ Oficial da PM (QOPM) 2021 - Q2",
+      "dificuldade": "medio",
+      "enunciado": "O Secretário de Polícia Militar do Estado Alfa solicitou ao Policial Militar João, que exerce a função de assessor jurídico de seu gabinete, um parecer sobre determinado ato de competência do chefe institucional da PM. Tomando por base a classificação do ato administrativo que considera os seus efeitos no mundo jurídico, a doutrina de Direito Administrativo ensina que o parecer emitido pelo assessor jurídico para o Secretário é um ato",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "ordinatório, que, caso aprovado, terá o condão de produzir efeitos no âmbito da administração pública."
+        },
+        {
+          "letra": "B",
+          "texto": "enunciativo, que estabelece opinião e conclusão de órgão consultivo do poder público."
+        },
+        {
+          "letra": "C",
+          "texto": "normativo, que sugere a prática de ato para a chefia institucional com caráter de superioridade hierárquica."
+        },
+        {
+          "letra": "D",
+          "texto": "negocial, que, caso aprovado, ensejará a prática de concessão de direitos ou imposição de obrigações a terceiros."
+        },
+        {
+          "letra": "E",
+          "texto": "ordinário, que tem fundamentação vinculada na lei e, via de regra, é de observância obrigatória pela chefia institucional."
+        }
+      ],
+      "gabarito": "b",
+      "origem": "oficial",
+      "duplicate": false
+    },
+    {
+      "id": "pmerj-cfo-2021-fgv-q003",
+      "codigo": "PMERJ-CFO-2021-FGV-Q003",
+      "orgao": "PMERJ",
+      "ano": 2021,
+      "cargo": "Oficial da PM (QOPM)",
+      "banca": "FGV",
+      "numero": 3,
+      "materia": "Direito Administrativo",
+      "materia_original": "Direito Administrativo",
+      "topico": "PMERJ Oficial da PM (QOPM) 2021 - Q3",
+      "dificuldade": "medio",
+      "enunciado": "Pedro foi aprovado na prova escrita de concurso público para admissão ao Curso de Formação de Oficiais (CFO) do Quadro de Oficiais Policiais Militares do Estado Alfa. Durante a fase de exames antropométrico e social, Pedro foi eliminado do concurso, por possuir uma grande tatuagem de âncora em seu braço, já que o edital do concurso vedava expressamente que os candidatos possuíssem tatuagens. Inconformado, Pedro impetrou mandado de segurança. De acordo com jurisprudência do Supremo Tribunal Federal, a ordem deve ser",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "denegada, eis que editais de concurso público podem estabelecer restrição a pessoas com tatuagem, independentemente de lei específica sobre o tema, pois o edital do concurso tem efeito de lei de efeitos concretos."
+        },
+        {
+          "letra": "B",
+          "texto": "concedida, eis que editais de concurso público não podem estabelecer, em qualquer hipótese, restrição a pessoas com tatuagem, pelos princípios da isonomia e da eficiência que orientam a nomeação do candidato mais qualificado."
+        },
+        {
+          "letra": "C",
+          "texto": "concedida, eis que editais de concurso público não podem estabelecer, em qualquer hipótese, restrição a pessoas com tatuagem, pelos direitos fundamentais à intimidade e à liberdade."
+        },
+        {
+          "letra": "D",
+          "texto": "denegada, eis que editais de concurso público podem estabelecer restrição a pessoas com tatuagem, desde que amparados por leis específicas sobre o tema no âmbito do respectivo ente federativo."
+        },
+        {
+          "letra": "E",
+          "texto": "concedida, eis que editais de concurso público não podem estabelecer restrição a pessoas com tatuagem, salvo situações excepcionais em razão de conteúdo que viole valores constitucionais."
+        }
+      ],
+      "gabarito": "e",
+      "origem": "oficial",
+      "duplicate": false
+    }
+  ]
+}
