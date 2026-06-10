@@ -29,8 +29,13 @@ function filterOptionEntries(value) {
   if (Array.isArray(value)) return value.map((item) => typeof item === "object" ? item : { value: item, label: labelForOption(item) });
   return Object.entries(value || {})
     .filter(([option]) => Boolean(option))
-    .sort(([a], [b]) => String(a).localeCompare(String(b), "pt-BR"))
-    .map(([option, count]) => ({ value: option, label: `${labelForOption(option)} (${count})` }));
+    .map(([option, data]) => ({
+      value: option,
+      label: typeof data === "object" ? data.label || option : labelForOption(option),
+      count: typeof data === "object" ? data.count || 0 : data,
+    }))
+    .sort((a, b) => String(a.label).localeCompare(String(b.label), "pt-BR"))
+    .map((item) => ({ value: item.value, label: `${item.label} (${item.count})` }));
 }
 
 function StatCard({ icon: Icon, label, value, tone = "text-blue-300" }) {
@@ -101,13 +106,12 @@ export default function QuestoesPage() {
   const bancaOptions = filterOptionEntries(filterOptions.bancas);
   const dificuldadeOptions = filterOptionEntries(filterOptions.dificuldades);
   const anoOptions = filterOptionEntries(filterOptions.anos);
-  const assuntoOptions = filterOptionEntries(filterOptions.assuntos);
   const concursoOptions = filterOptionEntries(filterOptions.concursos);
 
   const filtersContent = (
     <>
-      <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-[1.4fr_repeat(4,1fr)]">
-        <Input icon={Search} label="Buscar" placeholder="Enunciado, assunto, banca..." value={filters.search || ""} onChange={(event) => setFilter("search", event.target.value)} />
+      <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-[1.4fr_repeat(3,1fr)]">
+        <Input icon={Search} label="Buscar" placeholder="Enunciado, materia, banca..." value={filters.search || ""} onChange={(event) => setFilter("search", event.target.value)} />
         <Select
           label="Area"
           options={[
@@ -120,7 +124,6 @@ export default function QuestoesPage() {
         />
         <Select label="Concurso" placeholder="Todos" options={concursoOptions} value={filters.concurso || ""} onChange={(event) => setFilter("concurso", event.target.value)} />
         <Select label="Materia" placeholder="Todas" options={materiaOptions} value={filters.materia || ""} onChange={(event) => setFilter("materia", event.target.value)} />
-        <Select label="Assunto" placeholder="Todos" options={assuntoOptions} value={filters.assunto || ""} onChange={(event) => setFilter("assunto", event.target.value)} />
       </div>
       <div className="mt-3 grid gap-3 md:grid-cols-3">
         <Select label="Banca" placeholder="Todas" options={bancaOptions} value={filters.banca || ""} onChange={(event) => setFilter("banca", event.target.value)} />

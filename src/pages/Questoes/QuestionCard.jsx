@@ -10,6 +10,13 @@ const difficultyVariant = {
   dificil: "error",
 };
 
+const difficultyLabel = {
+  facil: "Facil",
+  medio: "Media",
+  media: "Media",
+  dificil: "Dificil",
+};
+
 export const QuestionCard = memo(({ questao, index = 0, onAnswer, onSave, onAddCaderno, onReport }) => {
   const [selected, setSelected] = useState(null);
   const [confirmed, setConfirmed] = useState(false);
@@ -45,10 +52,10 @@ export const QuestionCard = memo(({ questao, index = 0, onAnswer, onSave, onAddC
           <div className="flex flex-wrap items-center gap-2">
             <Badge variant="neutral">Questao {index + 1}</Badge>
             <Badge>{questao.banca || "Banca"}</Badge>
-            <Badge variant="neutral">{questao.materia}</Badge>
-            <Badge variant={difficultyVariant[difficulty] || "warning"}>{questao.dificuldade || "medio"}</Badge>
+            <Badge variant="neutral">{questao.materiaLabel || questao.materia}</Badge>
+            <Badge variant={difficultyVariant[difficulty] || "warning"}>{difficultyLabel[difficulty] || questao.dificuldade || "Media"}</Badge>
           </div>
-          <div className="text-xs font-semibold text-gray-500">{questao.assunto || questao.topico || "Assunto geral"}</div>
+          <div className="text-xs font-semibold text-gray-500">{questao.concursoLabel || questao.concurso || "Concurso"}</div>
         </div>
       </div>
 
@@ -105,7 +112,7 @@ export const QuestionCard = memo(({ questao, index = 0, onAnswer, onSave, onAddC
             </div>
             <div className="rounded-lg border-l-4 border-blue-500 bg-blue-50 p-4 text-sm text-slate-700">
               <p className="flex items-center gap-2 font-bold"><Lightbulb size={17} />Analise da IA</p>
-              <p className="mt-1 leading-relaxed">Revise {questao.assunto || questao.materia}, compare o comando da banca com o gabarito e refaca mais 5 questoes do mesmo tema antes de avancar.</p>
+              <p className="mt-1 leading-relaxed">Revise {questao.materiaLabel || questao.materia}, compare o comando da banca com o gabarito e refaca mais 5 questoes do mesmo tema antes de avancar.</p>
             </div>
           </motion.div>
         ) : null}

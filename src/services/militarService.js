@@ -1,4 +1,5 @@
 import { normalize } from "../utils";
+import { questoesService } from "./questoesService";
 
 let cache = null;
 
@@ -55,6 +56,8 @@ function mapQuestion(question = {}) {
   return {
     ...question,
     alternatives,
+    materiaLabel: questoesService.getSubjectLabel(question.materia),
+    concursoLabel: questoesService.getContestLabel(question.orgao || question.concurso),
     examSlug: `${normalize(question.orgao || question.concurso).replace(/\s+/g, "-")}-${normalize(question.cargo || "soldado").replace(/\s+/g, "-")}-${question.ano}-${normalize(question.banca).replace(/\s+/g, "-")}`,
     official: normalize(question.origem).includes("oficial"),
   };
@@ -67,7 +70,7 @@ function buildStats(materials, questions, report) {
     totalQuestions: questions.length,
     totalOfficial: questions.filter((item) => item.official).length,
     pending: report.filter((item) => item.motivo && item.motivo !== "ok").length,
-    topDisciplines: byCount(countBy(questions, (item) => item.materia)).slice(0, 8),
+    topDisciplines: byCount(countBy(questions, (item) => item.materiaLabel || item.materia)).slice(0, 8),
     topBanks: byCount(countBy(questions, (item) => item.banca)).slice(0, 6),
     report,
   };
@@ -76,7 +79,7 @@ function buildStats(materials, questions, report) {
 function buildDisciplines(questions) {
   const byDiscipline = group(questions, (item) => item.materia);
   const names = [...new Set([...DEFAULT_DISCIPLINES, ...Object.keys(byDiscipline)])];
-  return names.map((name) => ({ name, questionCount: byDiscipline[name]?.length || 0, questions: byDiscipline[name] || [] }));
+  return names.map((name) => ({ name, label: questoesService.getSubjectLabel(name), questionCount: byDiscipline[name]?.length || 0, questions: byDiscipline[name] || [] }));
 }
 
 function buildAssets(stats, user) {

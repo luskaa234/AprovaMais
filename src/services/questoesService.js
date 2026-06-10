@@ -16,6 +16,39 @@ const AREA_LABELS = {
   geral: "Geral",
 };
 
+const SUBJECT_LABELS = {
+  "Matematica e Raciocinio Logico": "Matematica/RL",
+  "Historia, Geografia e Atualidades": "Atualidades",
+  "Legislacao Especial, Penal e Processual Penal": "Legislacao Especial",
+  "Legislacao PM e Direito Militar": "Direito Militar",
+  "Nocoes de Direito": "Direito",
+  "Nocoes de Direito e Sociologia": "Direito",
+  "Conhecimentos Basicos": "Conhecimentos Basicos",
+  "Conhecimentos Gerais": "Conhecimentos Gerais",
+};
+
+const CONTEST_LABELS = {
+  CBMAL: "Bombeiros AL",
+  CBMAM: "Bombeiros AM",
+  PMAL: "PM AL",
+  PMAM: "PM AM",
+  "PM-BA": "PM BA",
+  PMCE: "PM CE",
+  PMMA: "PM MA",
+  PMPI: "PM PI",
+  "PM-PB": "PM PB",
+  PMPB: "PM PB",
+  "PM-SE": "PM SE",
+  PMSP: "PM SP",
+  PMTO: "PM TO",
+  PMAC: "PM AC",
+  PMERJ: "PM RJ",
+  PCRJ: "Policia Civil RJ",
+  PCRN: "Policia Civil RN",
+  PCSC: "Policia Civil SC",
+  PCAM: "Policia Civil AM",
+};
+
 function normalizeArea(area) {
   const value = normalize(area);
   if (["oab", "ordem"].some((term) => value.includes(term))) return "oab";
@@ -33,6 +66,14 @@ function resolveAreaFromUser(user = {}) {
 
 function getAreaLabel(area) {
   return AREA_LABELS[normalizeArea(area)] || AREA_LABELS.geral;
+}
+
+function getSubjectLabel(value = "") {
+  return SUBJECT_LABELS[value] || value;
+}
+
+function getContestLabel(value = "") {
+  return CONTEST_LABELS[value] || value;
 }
 
 function isCorrectAnswer(questao, alternativaId) {
@@ -147,14 +188,25 @@ function countOptions(questoes = [], key) {
   }, {});
 }
 
+function countOptionsWithLabels(questoes = [], key, labelKey) {
+  return questoes.reduce((acc, questao) => {
+    const value = questao[key];
+    if (!value) return acc;
+    const label = questao[labelKey] || value;
+    acc[value] = acc[value] || { count: 0, label };
+    acc[value].count += 1;
+    return acc;
+  }, {});
+}
+
 function buildFilterOptions(questoes = [], filters = {}) {
   return {
-    materias: countOptions(questoes.filter((questao) => rowMatches(questao, withoutFilter(filters, "materia"))), "materia"),
+    materias: countOptionsWithLabels(questoes.filter((questao) => rowMatches(questao, withoutFilter(filters, "materia"))), "materia", "materiaLabel"),
     bancas: countOptions(questoes.filter((questao) => rowMatches(questao, withoutFilter(filters, "banca"))), "banca"),
     dificuldades: countOptions(questoes.filter((questao) => rowMatches(questao, withoutFilter(filters, "dificuldade"))), "dificuldade"),
     anos: countOptions(questoes.filter((questao) => rowMatches(questao, withoutFilter(filters, "ano"))), "ano"),
-    assuntos: countOptions(questoes.filter((questao) => rowMatches(questao, withoutFilter(filters, "assunto"))), "assunto"),
-    concursos: countOptions(questoes.filter((questao) => rowMatches(questao, withoutFilter(filters, "concurso"))), "concurso"),
+    assuntos: countOptionsWithLabels(questoes.filter((questao) => rowMatches(questao, withoutFilter(filters, "assunto"))), "assunto", "assuntoLabel"),
+    concursos: countOptionsWithLabels(questoes.filter((questao) => rowMatches(questao, withoutFilter(filters, "concurso"))), "concurso", "concursoLabel"),
   };
 }
 
@@ -172,7 +224,7 @@ function rowMatches(q, filters = {}) {
       return normalize(q.origem).includes(normalize(value));
     }
     if (key === "search") {
-      return [q.enunciado, q.comentario, q.materia, q.assunto, q.topico, q.banca, q.concurso, q.orgao].some((field) => normalize(field).includes(normalize(value)));
+      return [q.enunciado, q.comentario, q.materia, q.materiaLabel, q.assunto, q.assuntoLabel, q.topico, q.banca, q.concurso, q.concursoLabel, q.orgao].some((field) => normalize(field).includes(normalize(value)));
     }
     if (key === "dificuldade") {
       const current = normalize(q.dificuldade).replace("media", "medio");
@@ -224,6 +276,9 @@ function mapQuestao(row) {
     cargo: row.cargo || "Soldado",
     materia: row.materia,
     assunto: row.topico || row.materia,
+    materiaLabel: getSubjectLabel(row.materia),
+    assuntoLabel: getSubjectLabel(row.materia),
+    concursoLabel: getContestLabel(row.concurso || row.orgao || "PM"),
     topico: row.topico,
     ano,
     dificuldade: row.dificuldade || "medio",
@@ -257,6 +312,8 @@ export const questoesService = {
   resolveAreaFromUser,
   getAreaLabel,
   inferQuestionArea,
+  getSubjectLabel,
+  getContestLabel,
   async getPage({ page = 1, pageSize = 5, filters = {} } = {}) {
     if (filters.area) {
       const items = await this.getQuestoes({ ...filters, limit: 5000 });

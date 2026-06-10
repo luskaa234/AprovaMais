@@ -71,11 +71,15 @@ function ExamsView({ materials, report }) {
 function QuestionsView({ questions, disciplines }) {
   const [filters, setFilters] = useState({ discipline: "", banca: "", search: "", officialOnly: "sim" });
   const banks = useMemo(() => [...new Set(questions.map((item) => item.banca).filter(Boolean))], [questions]);
+  const disciplineOptions = useMemo(() => disciplines
+    .filter((item) => item.questionCount)
+    .map((item) => ({ value: item.name, label: `${item.label || item.name} (${item.questionCount})` }))
+    .sort((a, b) => a.label.localeCompare(b.label, "pt-BR")), [disciplines]);
   const visible = useMemo(() => questions.filter((question) => {
     if (filters.officialOnly === "sim" && !question.official) return false;
     if (filters.discipline && question.materia !== filters.discipline) return false;
     if (filters.banca && question.banca !== filters.banca) return false;
-    if (filters.search && ![question.enunciado, question.materia, question.orgao, question.cargo].some((field) => String(field || "").toLowerCase().includes(filters.search.toLowerCase()))) return false;
+    if (filters.search && ![question.enunciado, question.materia, question.materiaLabel, question.orgao, question.concursoLabel, question.cargo].some((field) => String(field || "").toLowerCase().includes(filters.search.toLowerCase()))) return false;
     return true;
   }).slice(0, 24), [filters, questions]);
 
@@ -83,7 +87,7 @@ function QuestionsView({ questions, disciplines }) {
     <div>
       <Card hover={false} className="mb-4 grid gap-3 md:grid-cols-4">
         <Select label="Apenas oficiais" options={[{ label: "Sim", value: "sim" }, { label: "Nao", value: "nao" }]} value={filters.officialOnly} onChange={(event) => setFilters((current) => ({ ...current, officialOnly: event.target.value }))} />
-        <Select label="Disciplina" placeholder="Todas" options={disciplines.map((item) => item.name)} value={filters.discipline} onChange={(event) => setFilters((current) => ({ ...current, discipline: event.target.value }))} />
+        <Select label="Materia" placeholder="Todas" options={disciplineOptions} value={filters.discipline} onChange={(event) => setFilters((current) => ({ ...current, discipline: event.target.value }))} />
         <Select label="Banca" placeholder="Todas" options={banks} value={filters.banca} onChange={(event) => setFilters((current) => ({ ...current, banca: event.target.value }))} />
         <Input icon={Search} label="Buscar" placeholder="PMSP, Cebraspe..." value={filters.search} onChange={(event) => setFilters((current) => ({ ...current, search: event.target.value }))} />
       </Card>
@@ -94,7 +98,7 @@ function QuestionsView({ questions, disciplines }) {
             <div className="mb-3 flex flex-wrap items-center gap-2">
               <Badge variant="success">Oficial · {question.banca}</Badge>
               <Badge variant="neutral">{question.orgao}</Badge>
-              <Badge>{question.materia}</Badge>
+              <Badge>{question.materiaLabel || question.materia}</Badge>
               <span className="text-xs text-gray-500">Q{question.numero} · gabarito {String(question.gabarito).toUpperCase()}</span>
             </div>
             <p className="text-sm leading-relaxed text-gray-200">{question.enunciado}</p>
