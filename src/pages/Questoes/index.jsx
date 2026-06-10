@@ -8,23 +8,6 @@ import { questoesService } from "../../services";
 import { useQuestoesStore } from "../../stores";
 import { QuestionCard } from "./QuestionCard";
 
-const bancas = ["CESPE", "CEBRASPE", "FCC", "FGV", "VUNESP", "IBFC"];
-const materias = [
-  "CTB",
-  "Direito Administrativo",
-  "Direito Constitucional",
-  "Direito Penal",
-  "Direito Processual Penal",
-  "Informatica",
-  "Legislacao Penal Especial",
-  "Portugues",
-  "Raciocinio Logico",
-];
-const dificuldades = [
-  { value: "facil", label: "Facil" },
-  { value: "medio", label: "Media" },
-  { value: "dificil", label: "Dificil" },
-];
 const statusOptions = [
   { value: "respondidas", label: "Respondidas" },
   { value: "nao_respondidas", label: "Nao respondidas" },
@@ -32,9 +15,22 @@ const statusOptions = [
   { value: "favoritas", label: "Favoritas" },
 ];
 
-function optionKeys(value, fallback = []) {
-  const options = Array.isArray(value) ? value : Object.keys(value || {});
-  return options.length ? options : fallback;
+function labelForOption(value) {
+  const labels = {
+    facil: "Facil",
+    medio: "Media",
+    media: "Media",
+    dificil: "Dificil",
+  };
+  return labels[String(value || "").toLowerCase()] || value;
+}
+
+function filterOptionEntries(value) {
+  if (Array.isArray(value)) return value.map((item) => typeof item === "object" ? item : { value: item, label: labelForOption(item) });
+  return Object.entries(value || {})
+    .filter(([option]) => Boolean(option))
+    .sort(([a], [b]) => String(a).localeCompare(String(b), "pt-BR"))
+    .map(([option, count]) => ({ value: option, label: `${labelForOption(option)} (${count})` }));
 }
 
 function StatCard({ icon: Icon, label, value, tone = "text-blue-300" }) {
@@ -101,11 +97,12 @@ export default function QuestoesPage() {
   const visibleFilterCount = Object.entries(filters).filter(([key, value]) => key !== "area" && Boolean(value)).length;
   const totalAvailable = stats?.totalDisponivel || total || questoes.length;
   const formatNumber = useCallback((value) => Number(value || 0).toLocaleString("pt-BR"), []);
-  const materiaOptions = optionKeys(filterOptions.materias, materias);
-  const bancaOptions = optionKeys(filterOptions.bancas, bancas);
-  const anoOptions = optionKeys(filterOptions.anos, ["2021", "2022", "2023", "2024", "2025"]);
-  const assuntoOptions = optionKeys(filterOptions.assuntos, ["Constitucional", "Penal", "Administrativo", "Portugues", "Informatica", "Raciocinio Logico"]);
-  const concursoOptions = optionKeys(filterOptions.concursos, ["PM", "PRF", "PF", "PC", "TJ"]);
+  const materiaOptions = filterOptionEntries(filterOptions.materias);
+  const bancaOptions = filterOptionEntries(filterOptions.bancas);
+  const dificuldadeOptions = filterOptionEntries(filterOptions.dificuldades);
+  const anoOptions = filterOptionEntries(filterOptions.anos);
+  const assuntoOptions = filterOptionEntries(filterOptions.assuntos);
+  const concursoOptions = filterOptionEntries(filterOptions.concursos);
 
   const filtersContent = (
     <>
@@ -127,7 +124,7 @@ export default function QuestoesPage() {
       </div>
       <div className="mt-3 grid gap-3 md:grid-cols-3">
         <Select label="Banca" placeholder="Todas" options={bancaOptions} value={filters.banca || ""} onChange={(event) => setFilter("banca", event.target.value)} />
-        <Select label="Dificuldade" placeholder="Todas" options={dificuldades} value={filters.dificuldade || ""} onChange={(event) => setFilter("dificuldade", event.target.value)} />
+        <Select label="Dificuldade" placeholder="Todas" options={dificuldadeOptions} value={filters.dificuldade || ""} onChange={(event) => setFilter("dificuldade", event.target.value)} />
         <Select label="Ano" placeholder="Todos" options={anoOptions} value={filters.ano || ""} onChange={(event) => setFilter("ano", event.target.value)} />
         <Select label="Situacao" placeholder="Todas" options={statusOptions} value={filters.status || ""} onChange={(event) => setFilter("status", event.target.value)} />
       </div>

@@ -18,6 +18,7 @@ export function useQuestoes({ page = 1, pageSize = 5, initialFilters = {} } = {}
       setQuestoes(result.items);
       setTotal(result.total);
       setStats(result.stats);
+      setFilterOptions(await questoesService.getFilterOptions(filters));
     } catch (err) {
       setError(err.message);
     } finally {
@@ -28,7 +29,6 @@ export function useQuestoes({ page = 1, pageSize = 5, initialFilters = {} } = {}
   useEffect(() => {
     const timer = setTimeout(() => {
       refetch();
-      questoesService.getFilterOptions().then(setFilterOptions).catch(() => {});
     }, 0);
     return () => clearTimeout(timer);
   }, [refetch]);

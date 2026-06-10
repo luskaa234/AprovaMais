@@ -133,6 +133,31 @@ function shuffle(items = []) {
   return [...items].sort(() => Math.random() - 0.5);
 }
 
+function withoutFilter(filters = {}, ignoredKey = "") {
+  return Object.fromEntries(Object.entries(filters).filter(([key, value]) =>
+    value && key !== ignoredKey && !["limit", "aleatorio", "apenasOficiais", "status", "search"].includes(key)
+  ));
+}
+
+function countOptions(questoes = [], key) {
+  return questoes.reduce((acc, questao) => {
+    const value = questao[key];
+    if (value) acc[value] = (acc[value] || 0) + 1;
+    return acc;
+  }, {});
+}
+
+function buildFilterOptions(questoes = [], filters = {}) {
+  return {
+    materias: countOptions(questoes.filter((questao) => rowMatches(questao, withoutFilter(filters, "materia"))), "materia"),
+    bancas: countOptions(questoes.filter((questao) => rowMatches(questao, withoutFilter(filters, "banca"))), "banca"),
+    dificuldades: countOptions(questoes.filter((questao) => rowMatches(questao, withoutFilter(filters, "dificuldade"))), "dificuldade"),
+    anos: countOptions(questoes.filter((questao) => rowMatches(questao, withoutFilter(filters, "ano"))), "ano"),
+    assuntos: countOptions(questoes.filter((questao) => rowMatches(questao, withoutFilter(filters, "assunto"))), "assunto"),
+    concursos: countOptions(questoes.filter((questao) => rowMatches(questao, withoutFilter(filters, "concurso"))), "concurso"),
+  };
+}
+
 function rowMatches(q, filters = {}) {
   const state = useQuestoesStore.getState();
   const isAnswered = state.tentativas.some((item) => item.questaoId === q.id);
@@ -388,42 +413,19 @@ export const questoesService = {
       return { totalDisponivel: useQuestoesStore.getState().questoes.length, amostraLocal: true };
     }
   },
-  async getFilterOptions() {
+  async getFilterOptions(filters = {}) {
     if (isSupabaseConfigured) {
-      return {
-        materias: ["Etica Profissional", "Direito Constitucional", "Direito Administrativo", "Direito Civil", "Processo Civil", "Direito Penal", "Processo Penal", "Direito do Trabalho", "Processo do Trabalho", "Direito Tributario"],
-        bancas: ["FGV", "Vunesp", "Cebraspe"],
-        dificuldades: [],
-        anos: [],
-        assuntos: ["OAB - 1a fase"],
-        concursos: ["OAB", "PMSP", "PMMA", "PM"],
-      };
+      const area = filters.area || "geral";
+      const rows = await this.getQuestoes({ area, limit: 10000 });
+      return buildFilterOptions(rows, filters);
     }
     const catalog = await getLocalCatalog();
     if (!catalog.totalDisponivel && !catalog.totalExportado) {
       const official = [...(await getLocalOabQuestions()), ...(await getLocalMilitarQuestions()), ...useQuestoesStore.getState().questoes.map(mapQuestao)];
-      const bucket = (key) => official.reduce((acc, questao) => {
-        const value = questao[key];
-        if (value) acc[value] = (acc[value] || 0) + 1;
-        return acc;
-      }, {});
-      return {
-        materias: bucket("materia"),
-        bancas: bucket("banca"),
-        dificuldades: bucket("dificuldade"),
-        anos: bucket("ano"),
-        assuntos: bucket("assunto"),
-        concursos: bucket("concurso"),
-      };
+      return buildFilterOptions(official, filters);
     }
-    return {
-      materias: catalog.materias || {},
-      bancas: catalog.bancas || {},
-      dificuldades: catalog.dificuldades || {},
-      anos: catalog.anos || {},
-      assuntos: catalog.topicos || catalog.assuntos || {},
-      concursos: catalog.concursos || catalog.orgaos || {},
-    };
+    const rows = await this.getQuestoes({ area: filters.area || "geral", limit: 10000 });
+    return buildFilterOptions(rows, filters);
   },
   async getById(id) {
     if (isSupabaseConfigured) {
