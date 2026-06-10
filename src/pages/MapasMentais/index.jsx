@@ -145,7 +145,7 @@ export default function MapasMentaisPage() {
   }, [drag]);
 
   const viewer = activeMap ? (
-    <Card hover={false} className={cx("overflow-hidden", full && "fixed inset-4 z-50 bg-gray-950")}>
+    <Card hover={false} className={cx("mindmap-viewer overflow-hidden", full && "fixed inset-4 z-50 bg-gray-950")}>
       <div className="flex flex-wrap items-center justify-between gap-2 border-b border-gray-800 p-3">
         <div><h2 className="font-bold text-white">{activeMap.titulo}</h2><p className="text-xs text-gray-500">{activeMap.concurso} · {activeMap.materia} · {activeMap.assunto}</p></div>
         <div className="flex gap-2">
@@ -154,7 +154,7 @@ export default function MapasMentaisPage() {
           <Button size="sm" variant="ghost" icon={Maximize2} onClick={() => setFull((value) => !value)}>{full ? "Sair" : "Tela cheia"}</Button>
         </div>
       </div>
-      <div className="h-[610px] cursor-grab overflow-auto bg-gray-900/60" onMouseDown={(event) => setDrag({ x: event.clientX - pan.x, y: event.clientY - pan.y })} onMouseMove={onMove} onMouseLeave={() => setDrag(null)} onMouseUp={() => setDrag(null)}>
+      <div className="mindmap-canvas h-[610px] cursor-grab overflow-auto bg-gray-900/60" onMouseDown={(event) => setDrag({ x: event.clientX - pan.x, y: event.clientY - pan.y })} onMouseMove={onMove} onMouseLeave={() => setDrag(null)} onMouseUp={() => setDrag(null)}>
         <svg width="1000" height="650" style={{ transform: `translate(${pan.x}px, ${pan.y}px) scale(${zoom})`, transformOrigin: "center" }}>
           {points.map(({ branch, x, y, collapsed: isCollapsed }) => (
             <g key={branch.label}>
@@ -181,8 +181,8 @@ export default function MapasMentaisPage() {
   ) : null;
 
   return (
-    <div className="mx-auto max-w-[1500px] pb-10">
-      <div className="mb-5 flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+    <div className="mindmaps-page mx-auto max-w-[1500px] pb-10" data-tour="tour-mapas-page">
+      <div className="mindmaps-header mb-5 flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between" data-tour="tour-mapas-header">
         <h1 className="text-3xl font-black text-white">Mapas Mentais</h1>
         <div className="flex flex-col gap-2 sm:flex-row">
           <Input icon={Search} placeholder="Buscar mapas mentais..." value={query} onChange={(event) => setQuery(event.target.value)} />
@@ -190,7 +190,7 @@ export default function MapasMentaisPage() {
         </div>
       </div>
 
-      <div className="mb-4 grid gap-3 rounded-lg border border-gray-800 bg-gray-950/70 p-4 md:grid-cols-2 xl:grid-cols-7">
+      <div className="mindmaps-filters mb-4 grid gap-3 rounded-lg border border-gray-800 bg-gray-950/70 p-4 md:grid-cols-2 xl:grid-cols-7" data-tour="tour-mapas-filters">
         <Select label="Concurso" placeholder="Todos" options={unique(maps.map((item) => item.concurso))} value={filters.concurso} onChange={(event) => setFilters((current) => ({ ...current, concurso: event.target.value }))} />
         <Select label="Materia" placeholder="Todas" options={unique(maps.map((item) => item.materia))} value={filters.materia} onChange={(event) => setFilters((current) => ({ ...current, materia: event.target.value }))} />
         <Select label="Assunto" placeholder="Todos" options={unique(maps.map((item) => item.assunto))} value={filters.assunto} onChange={(event) => setFilters((current) => ({ ...current, assunto: event.target.value }))} />
@@ -200,8 +200,8 @@ export default function MapasMentaisPage() {
         <Select label="Origem" placeholder="Todas" options={[{ value: "usuario", label: "Meus mapas" }, { value: "plataforma", label: "Plataforma" }]} value={filters.origem} onChange={(event) => setFilters((current) => ({ ...current, origem: event.target.value }))} />
       </div>
 
-      <div className="grid gap-4 xl:grid-cols-[300px_1fr_300px]">
-        <aside className="rounded-lg border border-gray-800 bg-gray-950/70">
+      <div className="mindmaps-layout grid gap-4 xl:grid-cols-[300px_1fr_300px]">
+        <aside className="mindmaps-list rounded-lg border border-gray-800 bg-gray-950/70" data-tour="tour-mapas-list">
           <div className="flex gap-2 overflow-x-auto border-b border-gray-800 px-3 pt-2">
             {tabs.map((item) => <button key={item} onClick={() => setTab(item)} className={cx("whitespace-nowrap border-b-2 px-2 py-3 text-sm font-semibold", tab === item ? "border-blue-500 text-white" : "border-transparent text-gray-400")}>{item}</button>)}
           </div>
@@ -215,9 +215,9 @@ export default function MapasMentaisPage() {
           </div>
         </aside>
 
-        {activeMap ? viewer : <EmptyState icon={Search} title="Nenhum mapa encontrado" description="Ajuste os filtros ou crie um novo mapa." />}
+        <div data-tour="tour-mapas-viewer">{activeMap ? viewer : <EmptyState icon={Search} title="Nenhum mapa encontrado" description="Ajuste os filtros ou crie um novo mapa." />}</div>
 
-        <aside className="space-y-4">
+        <aside className="mindmaps-side space-y-4" data-tour="tour-mapas-actions">
           <Card hover={false}>
             <div className="mb-3 flex items-start justify-between gap-2">
               <div><h2 className="font-bold text-white">{activeMap?.titulo}</h2><p className="mt-1 text-sm text-gray-400">{activeMap?.descricao}</p></div>

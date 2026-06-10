@@ -106,7 +106,7 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
   const firstName = user?.name?.split(" ")[0] || "Aluno";
 
   return (
-    <div className="mobile-study-home md:hidden">
+    <div className="mobile-study-home md:hidden" data-tour="tour-dashboard-overview">
       <section className="mobile-study-hero">
         <div>
           <span>Hoje</span>
@@ -116,7 +116,7 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
         <Mascot size="lg" pose="boasVindas" framed={false} className="-mr-4 -mt-4 opacity-95" />
       </section>
 
-      <section className="mobile-study-progress">
+      <section className="mobile-study-progress" data-tour="tour-dashboard-kpis">
         <div className="mobile-study-progress-top">
           <div>
             <span>Missao do dia</span>
@@ -131,7 +131,7 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
         </div>
       </section>
 
-      <div className="mobile-study-metrics">
+      <div className="mobile-study-metrics" data-tour="tour-desempenho">
         <MobileMetricTile featured icon={Clock} label={hours[0]} tone="tone-blue" value={hours[1]} />
         <MobileMetricTile icon={Target} label={accuracy[0]} tone="tone-emerald" value={accuracy[1]} />
         <MobileMetricTile icon={ClipboardList} label={questions[0]} tone="tone-violet" value={questions[1]} />
@@ -141,7 +141,7 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
       <div className="mobile-study-section-title">
         <h2>Acoes rapidas</h2>
       </div>
-      <div className="mobile-study-actions">
+      <div className="mobile-study-actions" data-tour="tour-dashboard-actions">
         <MobileQuickAction detail="Comecar bloco agora" icon={Play} label="Estudar" onClick={() => navigate("plano")} tone="tone-blue" />
         <MobileQuickAction detail={`${revisoes.length} pendentes hoje`} icon={CalendarCheck} label="Revisar" onClick={() => navigate("revisao")} tone="tone-rose" />
         <MobileQuickAction detail={`${todayHit}% no ultimo dia`} icon={Target} label="Questoes" onClick={() => navigate("questoes")} tone="tone-emerald" />
@@ -318,12 +318,12 @@ export default function DashboardPage() {
       <MobileDashboard kpis={kpis} navigate={navigate} performance={performance} ranking={ranking} revisoes={revisoes} user={user} />
 
       <div className="hidden md:block">
-      <div className="mb-5 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+      <div className="mb-5 flex flex-col gap-3 md:flex-row md:items-center md:justify-between" data-tour="tour-dashboard-overview">
         <div>
           <h1 className="text-3xl font-black text-white">Dashboard</h1>
           <p className="text-sm text-gray-400">Panorama operacional do seu ciclo de estudos.</p>
         </div>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2" data-tour="tour-dashboard-actions">
           <Button icon={FileText} loading={gerandoRelatorio} onClick={handleRelatorio}>
             Gerar relatorio IA
           </Button>
@@ -431,7 +431,7 @@ export default function DashboardPage() {
         </div>
       </Card>
 
-      <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-5">
+      <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-5" data-tour="tour-dashboard-kpis">
         {kpis.map(([label, value, icon]) => (
           <KpiCard key={label} label={label} value={value} icon={icon} />
         ))}
@@ -451,7 +451,7 @@ export default function DashboardPage() {
       ) : null}
 
       <div className="mt-4 grid gap-4 xl:grid-cols-[1.5fr_1fr]">
-        <Card>
+        <Card data-tour="tour-desempenho">
           <h2 className="mb-3 font-bold text-white">Evolucao semanal</h2>
           <PerformanceChart data={performance} />
         </Card>

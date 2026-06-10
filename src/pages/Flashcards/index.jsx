@@ -18,38 +18,6 @@ const reviewActions = [
   ["Acertei", 5, 5, "primary"],
 ];
 
-function normalizeAnswerText(text = "") {
-  return text
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^\w\s]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
-}
-
-function getJudgment(text = "") {
-  const value = normalizeAnswerText(text);
-  if (!value) return null;
-  const words = value.split(" ");
-  const has = (...terms) => terms.some((term) => words.includes(term) || value.includes(term));
-  if (has("errado", "incorreto", "falso", "falsa", "nao")) return "errado";
-  if (has("certo", "correto", "correta", "verdadeiro", "verdadeira", "sim")) return "certo";
-  return null;
-}
-
-function getAnswerFeedback(card, studentAnswer) {
-  const expected = getJudgment(card?.resposta);
-  const informed = getJudgment(studentAnswer);
-  if (!studentAnswer.trim() || !expected || !informed) return null;
-  const correct = expected === informed;
-  return {
-    correct,
-    label: correct ? "Resposta aceita" : "Resposta diferente do gabarito",
-    helper: correct ? "Sua resposta indica o mesmo sentido do gabarito." : "Compare sua resposta com o verso antes de avaliar.",
-  };
-}
-
 function seededRandom(seed) {
   let value = seed % 2147483647;
   if (value <= 0) value += 2147483646;
@@ -107,7 +75,6 @@ export default function FlashcardsPage() {
   const [overrides, setOverrides] = useState({});
   const [activeId, setActiveId] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
-  const [studentAnswer, setStudentAnswer] = useState("");
   const [shuffleSeed, setShuffleSeed] = useState(() => Date.now() + Math.floor(Math.random() * 100000));
   const [isMobile, setIsMobile] = useState(() => typeof window !== "undefined" && window.matchMedia("(max-width: 767px)").matches);
 
@@ -121,7 +88,6 @@ export default function FlashcardsPage() {
   const activeCard = filtered.find((card) => card.id === activeId) || filtered[0];
   const activeIndex = activeCard ? filtered.findIndex((card) => card.id === activeCard.id) : -1;
   const cardPosition = activeIndex >= 0 ? activeIndex + 1 : 0;
-  const answerFeedback = activeCard ? getAnswerFeedback(activeCard, studentAnswer) : null;
 
   useEffect(() => {
     const media = window.matchMedia("(max-width: 767px)");
@@ -140,7 +106,6 @@ export default function FlashcardsPage() {
     const status = dominio >= 80 ? "Dominado" : "Em revisao";
     setOverrides((current) => ({ ...current, [card.id]: { ...(current[card.id] || {}), acertos, erros, dominio, status, proximaRevisao: addDays(days) } }));
     setShowAnswer(false);
-    setStudentAnswer("");
     const currentIndex = filtered.findIndex((item) => item.id === card.id);
     setActiveId(filtered[currentIndex + 1]?.id || filtered[0]?.id || card.id);
     notify("Revisao registrada", `${label}: proxima revisao atualizada.`);
@@ -152,14 +117,12 @@ export default function FlashcardsPage() {
     const nextIndex = (Math.max(0, currentIndex) + direction + filtered.length) % filtered.length;
     setActiveId(filtered[nextIndex].id);
     setShowAnswer(false);
-    setStudentAnswer("");
   }, [activeCard, filtered]);
 
   const shuffleAgain = useCallback(() => {
     setShuffleSeed(Date.now() + Math.floor(Math.random() * 100000));
     setActiveId(null);
     setShowAnswer(false);
-    setStudentAnswer("");
   }, []);
 
   const handleSwipeReview = useCallback((_, info) => {
@@ -173,9 +136,22 @@ export default function FlashcardsPage() {
     }
   }, [activeCard, isMobile, review]);
 
+  const revealAnswer = useCallback(() => {
+    setShowAnswer(true);
+  }, []);
+
+  const handleNextAction = useCallback((event) => {
+    event.currentTarget.blur();
+    if (!showAnswer) {
+      revealAnswer();
+      return;
+    }
+    goToCard(1);
+  }, [goToCard, revealAnswer, showAnswer]);
+
   return (
-    <div className="mx-auto max-w-[1500px] pb-10 text-slate-900">
-      <div className="mb-5 flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+    <div className="flashcards-page mx-auto max-w-[1500px] pb-10 text-slate-900" data-tour="tour-flashcards-page">
+      <div className="flashcards-header mb-5 flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between" data-tour="tour-flashcards-header">
         <h1 className="text-3xl font-black text-slate-950">Flashcards</h1>
         <div className="flex flex-col gap-2 sm:flex-row">
           <Input icon={Search} placeholder="Buscar flashcards..." value={query} onChange={(event) => setQuery(event.target.value)} />
@@ -183,34 +159,48 @@ export default function FlashcardsPage() {
         </div>
       </div>
 
-      <main className="mx-auto max-w-5xl overflow-hidden rounded-lg border border-blue-100 bg-white p-4 shadow-sm">
+      <main className="flashcards-study mx-auto max-w-5xl overflow-hidden rounded-lg border border-blue-100 bg-white p-4 shadow-sm" data-tour="tour-flashcards-study">
         {activeCard ? (
-          <section className="grid min-h-[420px] place-items-center rounded-lg border border-blue-100 bg-white p-6 text-center shadow-sm">
+          <section className="flashcards-session grid min-h-[420px] place-items-center rounded-lg border border-blue-100 bg-white p-6 text-center shadow-sm">
             <div className="w-full max-w-3xl">
               <div className="mb-6 flex flex-wrap items-center justify-center gap-2">
                 <Badge>{activeCard.materia}</Badge>
                 {activeCard.assunto !== activeCard.materia ? <Badge variant="neutral">{activeCard.assunto}</Badge> : null}
                 <Badge variant={activeCard.dificuldade === "Dificil" ? "error" : "neutral"}>{activeCard.dificuldade}</Badge>
               </div>
-              <div className={cx("mx-auto max-w-3xl", !showAnswer && "cursor-pointer")} onClick={() => !showAnswer && setShowAnswer(true)}>
+              <div className="flashcards-progress mb-5">
+                <div className="mb-2 flex items-center justify-between text-xs font-bold text-slate-500">
+                  <span>Progresso da sessão</span>
+                  <span>{cardPosition}/{filtered.length}</span>
+                </div>
+                <div className="h-2 overflow-hidden rounded-full bg-slate-100">
+                  <div className="h-full rounded-full bg-blue-600 transition-all" style={{ width: `${filtered.length ? (cardPosition / filtered.length) * 100 : 0}%` }} />
+                </div>
+              </div>
+              <div className={cx("flashcard-flip-stage mx-auto max-w-3xl", !showAnswer && "cursor-pointer")} onClick={() => !showAnswer && revealAnswer()}>
                 <motion.div
-                  key={showAnswer ? "verso" : "frente"}
-                  animate={{ opacity: 1, y: 0 }}
-                  className="flashcard-swipe-card rounded-lg bg-white px-2 py-4"
+                  animate={{
+                    opacity: 1,
+                    rotateY: showAnswer ? 180 : 0,
+                    y: 0,
+                  }}
+                  className="flashcard-swipe-card flashcard-flip-inner rounded-lg bg-white px-2 py-4"
+                  data-tour="tour-flashcards-card"
                   drag={isMobile ? "x" : false}
                   dragConstraints={{ left: 0, right: 0 }}
                   dragElastic={0.24}
-                  initial={{ opacity: 0, y: 8 }}
+                  initial={{ opacity: 0, rotateY: 0, y: 8 }}
                   onDragEnd={handleSwipeReview}
-                  transition={{ duration: 0.22, ease: "easeOut" }}
+                  transition={{ duration: 0.48, ease: [0.22, 1, 0.36, 1] }}
                   whileDrag={isMobile ? { scale: 0.985 } : undefined}
                 >
-                  {!showAnswer ? (
+                  <div className="flashcard-flip-face flashcard-flip-front">
                     <div>
                       <h2 className="text-lg font-black leading-snug text-slate-950 sm:text-xl lg:text-2xl">{activeCard.pergunta}</h2>
-                      <p className="mt-4 text-xs font-semibold text-slate-400">Clique ou responda para ver o verso</p>
+                      <p className="mt-4 text-xs font-semibold text-slate-400">Pense na resposta e toque em Próximo para virar o card</p>
                     </div>
-                  ) : (
+                  </div>
+                  <div className="flashcard-flip-face flashcard-flip-back">
                     <div className="grid gap-4 text-left">
                       <div className="rounded-lg border border-blue-100 bg-blue-50 p-4">
                         <strong className="mb-2 block text-sm text-blue-700">Pergunta</strong>
@@ -222,36 +212,21 @@ export default function FlashcardsPage() {
                         {activeCard.explicacao ? <p className="mt-3 text-slate-500">{activeCard.explicacao}</p> : null}
                       </div>
                     </div>
-                  )}
+                  </div>
                 </motion.div>
               </div>
 
               {!showAnswer ? (
-                <div className="mx-auto mt-8 grid max-w-2xl gap-3 text-left">
-                  <label className="text-sm font-bold text-slate-700" htmlFor="flashcard-answer">Sua resposta</label>
-                  <textarea
-                    id="flashcard-answer"
-                    className="min-h-28 w-full resize-none rounded-lg border border-blue-100 bg-slate-50 px-4 py-3 text-sm leading-relaxed text-slate-800 outline-none transition focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-100"
-                    placeholder="Responda com suas palavras antes de ver o gabarito."
-                    value={studentAnswer}
-                    onChange={(event) => setStudentAnswer(event.target.value)}
-                  />
-                  <div className="flex flex-wrap items-center justify-between gap-3">
-                    <span className="text-xs font-semibold text-slate-500">Flashcard {cardPosition} de {filtered.length}</span>
-                    <Button onClick={() => setShowAnswer(true)}>Responder</Button>
-                  </div>
+                <div className="flashcards-answer mx-auto mt-6 max-w-2xl text-center" data-tour="tour-flashcards-answer">
+                  <p className="text-sm font-semibold text-slate-500">Responda mentalmente e toque em Próximo para conferir o resultado.</p>
                 </div>
               ) : (
                 <div className="mt-8 grid gap-4">
-                  <div className="rounded-lg border border-slate-200 bg-white p-4 text-left text-sm leading-relaxed text-slate-600">
-                    <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
-                      <strong className="text-slate-950">Sua resposta</strong>
-                      {answerFeedback ? <span className={cx("rounded-full px-3 py-1 text-xs font-bold", answerFeedback.correct ? "bg-emerald-50 text-emerald-700" : "bg-amber-50 text-amber-700")}>{answerFeedback.label}</span> : null}
-                    </div>
-                    {studentAnswer.trim() || "Resposta mental, sem texto digitado."}
-                    {answerFeedback ? <p className="mt-2 text-xs text-slate-500">{answerFeedback.helper}</p> : null}
+                  <div className="rounded-lg border border-blue-100 bg-blue-50 p-4 text-left text-sm leading-relaxed text-slate-600">
+                    <strong className="mb-1 block text-slate-950">Resultado</strong>
+                    Confira o gabarito no verso do card e marque como foi seu desempenho.
                   </div>
-                  <div className="grid gap-2 sm:grid-cols-3">
+                  <div className="flashcards-review-actions grid gap-2 sm:grid-cols-3" data-tour="tour-flashcards-actions">
                     {reviewActions.map(([label, days, quality, variant]) => <Button key={label} variant={variant} onClick={() => review(activeCard, label, days, quality)}>{label}</Button>)}
                   </div>
                 </div>
@@ -260,7 +235,7 @@ export default function FlashcardsPage() {
               <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 pt-4">
                 <Button variant="secondary" onClick={(event) => { event.currentTarget.blur(); goToCard(-1); }}>Anterior</Button>
                 <span className="text-xs font-semibold text-slate-500">Flashcard {cardPosition} de {filtered.length}</span>
-                <Button variant="secondary" onClick={(event) => { event.currentTarget.blur(); goToCard(1); }}>Proximo</Button>
+                <Button variant={showAnswer ? "secondary" : "primary"} onClick={handleNextAction}>Próximo</Button>
               </div>
             </div>
           </section>

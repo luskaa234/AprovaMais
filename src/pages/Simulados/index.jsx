@@ -166,12 +166,14 @@ export default function SimuladosPage() {
 
   return (
     <div className="mx-auto max-w-[1500px]">
-      <h1 className="mb-1 text-3xl font-black text-white">Simulados</h1>
-      <p className="mb-5 text-sm text-gray-400">Questoes no mesmo padrao do banco: enunciado, alternativas, gabarito e comentario.</p>
+      <div data-tour="tour-simulados-header">
+        <h1 className="mb-1 text-3xl font-black text-white">Simulados</h1>
+        <p className="mb-5 text-sm text-gray-400">Questoes no mesmo padrao do banco: enunciado, alternativas, gabarito e comentario.</p>
+      </div>
       {!templates.length ? (
         <EmptyState title="Nenhum simulado disponivel" description="Importe questoes oficiais para liberar os simulados." action={<Mascot size="lg" pose="feedback" framed={false} />} />
       ) : null}
-      <div className="grid gap-4 lg:grid-cols-3">
+      <div className="grid gap-4 lg:grid-cols-3" data-tour="tour-simulados-config">
         {templates.map((template) => (
           <Card hover={false} key={template.id}>
             <Badge>{template.modo}</Badge>
@@ -206,7 +208,7 @@ export default function SimuladosPage() {
         ))}
       </div>
       <div className="mt-4 grid gap-4 xl:grid-cols-2">
-        <Card hover={false}><h2 className="mb-3 font-bold text-white">Meus simulados</h2>{templates.map((item) => <div key={item.id} className="flex justify-between border-b border-gray-800 py-2 text-sm text-gray-300"><span>{item.nome}</span><Badge variant="success">concluido</Badge></div>)}</Card>
+        <Card hover={false} data-tour="tour-simulados-history"><h2 className="mb-3 font-bold text-white">Meus simulados</h2>{templates.map((item) => <div key={item.id} className="flex justify-between border-b border-gray-800 py-2 text-sm text-gray-300"><span>{item.nome}</span><Badge variant="success">concluido</Badge></div>)}</Card>
         <Card hover={false}><h2 className="mb-3 font-bold text-white">Evolucao</h2><PerformanceChart data={evolution} /></Card>
       </div>
     </div>

@@ -1,9 +1,8 @@
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { BarChart3, BookOpenCheck, Filter, RotateCcw, Search, Target, Trophy } from "lucide-react";
-import { Button, Card, EmptyState, Input, Mascot, Pagination, Select } from "../../components";
+import { Button, Card, EmptyState, Input, Mascot, Select } from "../../components";
 import { useNotifications, useUser } from "../../contexts";
 import { useQuestoes } from "../../hooks";
-import { Modal } from "../../modals";
 import { questoesService } from "../../services";
 import { useQuestoesStore } from "../../stores";
 import { QuestionCard } from "./QuestionCard";
@@ -57,11 +56,31 @@ function StatCard({ icon: Icon, label, value, tone = "text-blue-300" }) {
 export default function QuestoesPage() {
   const { user } = useUser();
   const initialArea = useMemo(() => questoesService.resolveAreaFromUser(user), [user]);
+  const [articleTrainingFilter] = useState(() => {
+    try {
+      const saved = sessionStorage.getItem("aprova-questoes-artigo-filter");
+      if (!saved) return null;
+      sessionStorage.removeItem("aprova-questoes-artigo-filter");
+      const parsed = JSON.parse(saved);
+      return {
+        materia: parsed.materia || "",
+        assunto: parsed.assunto || "",
+        search: parsed.search || "",
+        questoesIds: Array.isArray(parsed.questoesIds) && parsed.questoesIds.length ? parsed.questoesIds : undefined,
+      };
+    } catch {
+      return null;
+    }
+  });
   const [page, setPage] = useState(1);
-  const pageSize = 5;
+  const batchSize = 6;
+  const pageSize = page * batchSize;
   const [filtersOpen, setFiltersOpen] = useState(true);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
-  const { questoes, filters, updateFilter, clearFilters, isLoading, total, stats, filterOptions } = useQuestoes({ page, pageSize, initialFilters: { area: initialArea } });
+  const [sessionSeed, setSessionSeed] = useState(() => `treino-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`);
+  const baseTrainingFilters = useMemo(() => ({ area: initialArea, aleatorio: true, seed: sessionSeed, ...(articleTrainingFilter || {}) }), [articleTrainingFilter, initialArea, sessionSeed]);
+  const { questoes, filters, updateFilter, clearFilters, isLoading, total, stats, filterOptions } = useQuestoes({ page: 1, pageSize, initialFilters: baseTrainingFilters });
+  const loaderRef = useRef(null);
   const { addNotification } = useNotifications();
   const tentativas = useQuestoesStore((state) => state.tentativas);
   const salvas = useQuestoesStore((state) => state.salvas);
@@ -71,6 +90,18 @@ export default function QuestoesPage() {
     setPage(1);
     updateFilter(key, value);
   }, [updateFilter]);
+
+  const resetTraining = useCallback((nextFilters = {}) => {
+    setPage(1);
+    clearFilters({ ...baseTrainingFilters, ...nextFilters });
+  }, [baseTrainingFilters, clearFilters]);
+
+  const shuffleTraining = useCallback(() => {
+    const nextSeed = `treino-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+    setSessionSeed(nextSeed);
+    setPage(1);
+    clearFilters({ ...filters, aleatorio: true, seed: nextSeed });
+  }, [clearFilters, filters]);
 
   const onAnswer = useCallback(async (id, alternativa) => {
     const result = await questoesService.responder(id, alternativa);
@@ -101,17 +132,39 @@ export default function QuestoesPage() {
   const resolved = tentativas.length;
   const correct = tentativas.filter((item) => item.acertou).length;
   const accuracy = resolved ? Math.round((correct / resolved) * 100) : 0;
-  const totalPages = Math.ceil(total / pageSize) || 1;
   const visible = questoes;
-  const activeFilters = Object.entries(filters).filter(([, value]) => Boolean(value)).length;
-  const visibleFilterCount = Object.entries(filters).filter(([key, value]) => key !== "area" && Boolean(value)).length;
-  const totalAvailable = stats?.totalDisponivel || total || questoes.length;
+  const hasMore = visible.length < total;
+  const isFirstLoading = isLoading && page === 1 && !visible.length;
+  const visibleFilterCount = Object.entries(filters).filter(([key, value]) => !["area", "aleatorio", "seed", "questoesIds"].includes(key) && Boolean(value)).length;
+  const totalAvailable = stats?.totalDisponivel || total || visible.length || questoes.length;
   const formatNumber = useCallback((value) => Number(value || 0).toLocaleString("pt-BR"), []);
   const materiaOptions = filterOptionEntries(filterOptions.materias);
   const bancaOptions = filterOptionEntries(filterOptions.bancas);
   const dificuldadeOptions = filterOptionEntries(filterOptions.dificuldades);
   const anoOptions = filterOptionEntries(filterOptions.anos);
   const concursoOptions = filterOptionEntries(filterOptions.concursos);
+
+  const loadNextPage = useCallback(() => {
+    if (isLoading || !hasMore) return;
+    setPage((current) => current + 1);
+  }, [hasMore, isLoading]);
+
+  useEffect(() => {
+    if (!loaderRef.current || !hasMore) return undefined;
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) loadNextPage();
+    }, { rootMargin: "420px 0px" });
+    observer.observe(loaderRef.current);
+    return () => observer.disconnect();
+  }, [hasMore, loadNextPage]);
+
+  useEffect(() => {
+    if (!visible.length || !hasMore || isLoading) return;
+    const answered = new Set(tentativas.map((item) => item.questaoId));
+    if (!visible.every((questao) => answered.has(questao.id))) return undefined;
+    const timer = window.setTimeout(loadNextPage, 0);
+    return () => window.clearTimeout(timer);
+  }, [hasMore, isLoading, loadNextPage, tentativas, visible]);
 
   const filtersContent = (
     <>
@@ -141,44 +194,71 @@ export default function QuestoesPage() {
 
   return (
     <div className="mx-auto max-w-[1500px]">
-      <div className="mb-5 flex flex-col gap-3 xl:flex-row xl:items-end xl:justify-between">
+      <div className="mb-5 flex flex-col gap-3 xl:flex-row xl:items-end xl:justify-between" data-tour="tour-questoes-header">
         <div>
           <p className="text-xs font-semibold uppercase tracking-wide text-blue-300">Banco de questoes</p>
           <h1 className="text-3xl font-black text-white">Treino por banca, materia e desempenho</h1>
           <p className="mt-1 text-sm text-gray-400">Resolva, confira o gabarito comentado e envie erros para revisao.</p>
         </div>
         <div className="flex flex-wrap gap-2">
-          <Button className="md:hidden" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{visibleFilterCount ? ` · ${visibleFilterCount}` : ""}</Button>
-          <Button className="hidden md:inline-flex" icon={Filter} variant="secondary" onClick={() => setFiltersOpen((value) => !value)}>{filtersOpen ? "Ocultar filtros" : "Mostrar filtros"}</Button>
-          <Button icon={RotateCcw} variant="ghost" onClick={() => { clearFilters({ area: initialArea }); setPage(1); }}>Limpar</Button>
+          <Button className="md:hidden" data-tour="tour-questoes-filters" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen((value) => !value)}>
+            {mobileFiltersOpen ? "Fechar filtros" : "Filtros"}{visibleFilterCount ? ` · ${visibleFilterCount}` : ""}
+          </Button>
+          <Button className="hidden md:inline-flex" data-tour="tour-questoes-filters-toggle" icon={Filter} variant="secondary" onClick={() => setFiltersOpen((value) => !value)}>{filtersOpen ? "Ocultar filtros" : "Mostrar filtros"}</Button>
+          <Button icon={RotateCcw} variant="secondary" onClick={shuffleTraining}>Misturar treino</Button>
+          <Button icon={RotateCcw} variant="ghost" onClick={() => resetTraining({ area: initialArea })}>Limpar</Button>
         </div>
       </div>
 
-      <div className="mb-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+      {filtersOpen ? (
+        <Card hover={false} className="mb-4 hidden md:block" data-tour="tour-questoes-filters">
+          {filtersContent}
+          <div className="mt-3 flex flex-wrap items-center justify-between gap-2 border-t border-gray-800 pt-3 text-xs text-gray-500">
+            <span>{visibleFilterCount ? `${visibleFilterCount} filtro(s) ativo(s)` : "Nenhum filtro ativo"} - area atual: {questoesService.getAreaLabel(filters.area || "geral")} - treino aleatorio inteligente</span>
+            <span>{formatNumber(visible.length)} de {formatNumber(total)} carregadas</span>
+          </div>
+        </Card>
+      ) : null}
+
+      {mobileFiltersOpen ? (
+        <Card hover={false} className="question-mobile-filters mb-4 md:hidden" data-tour="tour-questoes-filters">
+          <div className="mb-3 flex items-center justify-between gap-3">
+            <div>
+              <h2 className="text-base font-black text-slate-950">Filtros</h2>
+              <p className="text-xs font-semibold text-slate-500">{formatNumber(totalAvailable)} questoes disponiveis</p>
+            </div>
+            <Button size="sm" variant="ghost" onClick={() => setMobileFiltersOpen(false)}>Fechar</Button>
+          </div>
+          {filtersContent}
+          <div className="mt-4 grid grid-cols-2 gap-2 border-t border-blue-100 pt-4">
+            <Button
+              variant="secondary"
+              onClick={() => {
+                resetTraining({ area: initialArea });
+              }}
+            >
+              Limpar
+            </Button>
+            <Button onClick={() => setMobileFiltersOpen(false)}>Aplicar</Button>
+          </div>
+        </Card>
+      ) : null}
+
+      <div className="mb-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-4" data-tour="tour-questoes-stats">
         <StatCard icon={BookOpenCheck} label="Questoes filtradas" value={formatNumber(total)} />
         <StatCard icon={BarChart3} label={stats?.amostraLocal ? "Acervo disponivel" : "Acervo carregado"} value={formatNumber(totalAvailable)} tone="text-blue-300" />
         <StatCard icon={Target} label="Taxa de acerto" value={`${accuracy}%`} tone={accuracy >= 70 ? "text-emerald-500" : accuracy >= 50 ? "text-amber-500" : "text-red-500"} />
         <StatCard icon={Trophy} label="Resolvidas" value={resolved} tone="text-blue-300" />
       </div>
 
-      {filtersOpen ? (
-        <Card hover={false} className="mb-4 hidden md:block">
-          {filtersContent}
-          <div className="mt-3 flex flex-wrap items-center justify-between gap-2 border-t border-gray-800 pt-3 text-xs text-gray-500">
-            <span>{activeFilters ? `${activeFilters} filtro(s) ativo(s)` : "Nenhum filtro ativo"} - area atual: {questoesService.getAreaLabel(filters.area || "geral")} - {formatNumber(totalAvailable)} questoes disponiveis</span>
-            <span>Pagina {page} de {totalPages}</span>
-          </div>
-        </Card>
-      ) : null}
-
-      {isLoading ? (
+      {isFirstLoading ? (
         <div className="space-y-4">{[1, 2, 3].map((item) => <div key={item} className="h-72 animate-pulse rounded-lg bg-gray-900" />)}</div>
       ) : visible.length ? (
-        <div className="space-y-4">
+        <div className="space-y-4" data-tour="tour-questoes-list">
           {visible.map((questao, index) => (
             <QuestionCard
               key={questao.id}
-              index={(page - 1) * pageSize + index}
+              index={index}
               questao={questao}
               saved={salvas.includes(questao.id)}
               inErrorBook={caderno.includes(questao.id)}
@@ -194,17 +274,20 @@ export default function QuestoesPage() {
           icon={Search}
           title="Nenhuma questao encontrada"
           description="Ajuste os filtros ou limpe a busca para voltar ao treino."
-          action={<div className="grid place-items-center gap-3"><Mascot size="lg" pose="feedback" framed={false} /><Button variant="secondary" onClick={() => { clearFilters({ area: initialArea }); setPage(1); }}>Limpar filtros</Button></div>}
+          action={<div className="grid place-items-center gap-3"><Mascot size="lg" pose="feedback" framed={false} /><Button variant="secondary" onClick={() => resetTraining({ area: initialArea })}>Limpar filtros</Button></div>}
         />
       )}
 
-      <div className="mt-5 flex justify-center">
-        <Pagination page={page} totalPages={totalPages} onPageChange={setPage} />
+      <div ref={loaderRef} className="mt-5 flex justify-center">
+        {hasMore ? (
+          <Button variant="secondary" loading={isLoading} onClick={loadNextPage}>
+            {isLoading ? "Carregando..." : "Carregar mais automaticamente"}
+          </Button>
+        ) : visible.length ? (
+          <span className="rounded-full border border-blue-100 bg-white px-4 py-2 text-sm font-bold text-slate-500">Fim do treino filtrado</span>
+        ) : null}
       </div>
 
-      <Modal open={mobileFiltersOpen} title="Filtros" onClose={() => setMobileFiltersOpen(false)} footer={<Button onClick={() => setMobileFiltersOpen(false)}>Aplicar</Button>}>
-        {filtersContent}
-      </Modal>
     </div>
   );
 }

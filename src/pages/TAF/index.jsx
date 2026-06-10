@@ -7,10 +7,10 @@ import { tafService } from "../../services/tafService";
 import { useTafStore } from "../../stores";
 
 const TAF_TESTS = [
-  { tipo: "corrida", label: "Corrida", meta: 2400, unidade: "m", objetivo: "Ritmo para 12 minutos" },
-  { tipo: "flexao", label: "Flexao", meta: 30, unidade: "rep", objetivo: "Repeticoes validas" },
-  { tipo: "abdominal", label: "Abdominal", meta: 40, unidade: "rep", objetivo: "Core e resistencia" },
-  { tipo: "barra", label: "Barra", meta: 8, unidade: "rep", objetivo: "Puxada e pegada" },
+  { tipo: "corrida", label: "Corrida", meta: 2400, unidade: "m", objetivo: "Ritmo para 12 minutos", min: 2100 },
+  { tipo: "flexao", label: "Flexao", meta: 30, unidade: "rep", objetivo: "Repeticoes validas", min: 20 },
+  { tipo: "abdominal", label: "Abdominal", meta: 40, unidade: "rep", objetivo: "Core e resistencia", min: 30 },
+  { tipo: "barra", label: "Barra", meta: 8, unidade: "rep", objetivo: "Puxada e pegada", min: 5 },
 ];
 
 const COMMON_TAF = [
@@ -31,6 +31,42 @@ const COMMON_TAF = [
     detail: "Costuma cobrar corrida de 12 minutos, com referência comum de 2.400 m para homens e 2.000 m para mulheres, conforme edital.",
   },
 ];
+
+const TAF_WEEK_TEMPLATE = [
+  { dia: "Segunda", foco: "Corrida intervalada", tipos: ["corrida"], bloco: "6 x 400 m forte + 2 min trote", intensidade: "Alta" },
+  { dia: "Terca", foco: "Forca de empurrar e core", tipos: ["flexao", "abdominal"], bloco: "5 series tecnicas sem falhar", intensidade: "Media" },
+  { dia: "Quarta", foco: "Corrida continua", tipos: ["corrida"], bloco: "25 a 35 min em ritmo confortavel", intensidade: "Media" },
+  { dia: "Quinta", foco: "Barra e resistencia muscular", tipos: ["barra", "flexao"], bloco: "Series submaximas com descanso completo", intensidade: "Alta" },
+  { dia: "Sexta", foco: "Abdominal e mobilidade", tipos: ["abdominal"], bloco: "Volume controlado + alongamento", intensidade: "Leve" },
+  { dia: "Sabado", foco: "Simulado TAF", tipos: ["corrida", "flexao", "abdominal", "barra"], bloco: "Teste na ordem do edital e registro real", intensidade: "Teste" },
+];
+
+function getLatestResult(historico = []) {
+  return historico.at(-1) || {};
+}
+
+function getTafProgress(result = {}) {
+  return TAF_TESTS.map((test) => {
+    const value = Number(result[test.tipo] || 0);
+    const percent = Math.min(100, Math.round((value / test.meta) * 100));
+    const deficit = Math.max(0, test.meta - value);
+    return { ...test, value, percent, deficit, approved: value >= test.min };
+  });
+}
+
+function buildSmartWeek(result = {}) {
+  const progress = getTafProgress(result);
+  const weakest = [...progress].sort((a, b) => a.percent - b.percent).slice(0, 2).map((item) => item.tipo);
+  return TAF_WEEK_TEMPLATE.map((day) => {
+    const priority = day.tipos.some((tipo) => weakest.includes(tipo));
+    return {
+      ...day,
+      priority,
+      label: priority ? "Prioridade" : "Manutencao",
+      progress: progress.filter((item) => day.tipos.includes(item.tipo)),
+    };
+  });
+}
 
 function TAFOverview() {
   const historico = useTafStore((state) => state.historico);
@@ -74,12 +110,20 @@ function TAFOverview() {
 }
 
 function TAFCalculator() {
-  const registrarTeste = useTafStore((state) => state.registrarTeste);
-  const [values, setValues] = useState({ corrida: 2400, flexao: 30, abdominal: 40, barra: 8 });
+  const [values, setValues] = useState({ corrida: 0, flexao: 0, abdominal: 0, barra: 0 });
+  const [saving, setSaving] = useState(false);
   const score = useMemo(
     () => Math.round((TAF_TESTS.reduce((sum, test) => sum + Math.min(10, (Number(values[test.tipo] || 0) / test.meta) * 10), 0) / TAF_TESTS.length) * 10) / 10,
     [values]
   );
+  const saveResult = async () => {
+    setSaving(true);
+    try {
+      await tafService.registrarTeste(values);
+    } finally {
+      setSaving(false);
+    }
+  };
 
   return (
     <div className="grid gap-4 xl:grid-cols-[0.85fr_1.15fr]">
@@ -93,7 +137,7 @@ function TAFCalculator() {
           <p className="text-sm text-gray-400">{score >= 7 ? "Aprovado" : "Abaixo da meta"} - ajuste os pontos abaixo da meta.</p>
           <ProgressBar value={score * 10} />
         </div>
-        <Button className="mt-4" onClick={() => registrarTeste(values)}>Salvar resultado</Button>
+        <Button className="mt-4" loading={saving} onClick={saveResult}>Salvar resultado</Button>
       </Card>
       <Card>
         <h2 className="mb-3 font-bold text-white">Metas por prova</h2>
@@ -108,13 +152,13 @@ function TAFCalculator() {
 }
 
 function TAFSimulator() {
-  const registrarTeste = useTafStore((state) => state.registrarTeste);
   const [current, setCurrent] = useState(0);
   const [running, setRunning] = useState(false);
   const [seconds, setSeconds] = useState(720);
   const [value, setValue] = useState(0);
   const [results, setResults] = useState({});
   const [finalNota, setFinalNota] = useState(null);
+  const [saving, setSaving] = useState(false);
   const test = TAF_TESTS[current];
 
   useEffect(() => {
@@ -133,6 +177,24 @@ function TAFSimulator() {
     );
   }
 
+  const confirmCurrent = async () => {
+    const nextResults = { ...results, [test.tipo]: Number(value) };
+    setResults(nextResults);
+    setValue(0);
+    setSeconds(720);
+    setRunning(false);
+    if (current + 1 >= TAF_TESTS.length) {
+      setSaving(true);
+      try {
+        const result = await tafService.registrarTeste(nextResults);
+        setFinalNota(result?.nota ?? 0);
+      } finally {
+        setSaving(false);
+      }
+    }
+    setCurrent((item) => item + 1);
+  };
+
   return (
     <Card>
       <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
@@ -149,15 +211,7 @@ function TAFSimulator() {
       <div className="flex gap-2">{!running ? <Button icon={Play} onClick={() => setRunning(true)}>Iniciar</Button> : <Button variant="secondary" onClick={() => setRunning(false)}>Pausar</Button>}</div>
       <div className="mt-5 grid gap-3 md:grid-cols-[1fr_auto]">
         <Input label={`Resultado (${test.unidade})`} type="number" value={value} onChange={(event) => setValue(event.target.value)} />
-        <Button onClick={() => {
-          const nextResults = { ...results, [test.tipo]: Number(value) };
-          setResults(nextResults);
-          setValue(0);
-          setSeconds(720);
-          setRunning(false);
-          if (current + 1 >= TAF_TESTS.length) setFinalNota(registrarTeste(nextResults));
-          setCurrent((item) => item + 1);
-        }}>Confirmar</Button>
+        <Button loading={saving} onClick={confirmCurrent}>Confirmar</Button>
       </div>
     </Card>
   );
@@ -165,8 +219,14 @@ function TAFSimulator() {
 
 function TAFPlan() {
   const setExerciciosHoje = useTafStore((state) => state.setExerciciosHoje);
+  const historico = useTafStore((state) => state.historico);
+  const treinos = useTafStore((state) => state.treinos);
   const [loading, setLoading] = useState(true);
   const [exercicios, setExercicios] = useState([]);
+  const latest = getLatestResult(historico);
+  const progress = getTafProgress(latest);
+  const smartWeek = buildSmartWeek(latest);
+  const readiness = Math.round(progress.reduce((sum, item) => sum + item.percent, 0) / progress.length);
 
   useEffect(() => {
     let alive = true;
@@ -184,22 +244,73 @@ function TAFPlan() {
   }, [setExerciciosHoje]);
 
   return (
-    <div className="grid gap-4 xl:grid-cols-[1.25fr_0.75fr]">
+    <div className="taf-plan-layout grid gap-4 xl:grid-cols-[1.25fr_0.75fr]">
       <Card>
         <div className="mb-4 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <h2 className="font-bold text-white">Treinos especificos para o TAF</h2>
-            <p className="text-sm text-gray-400">Exercicios organizados por prova: corrida, flexao, abdominal e barra fixa.</p>
+            <h2 className="font-bold text-white">Plano TAF da semana</h2>
+            <p className="text-sm text-gray-400">Organizado por deficit real: a prioridade muda conforme seus resultados registrados.</p>
           </div>
-          <Badge variant="success">Com demonstracao</Badge>
+          <Badge variant={readiness >= 80 ? "success" : readiness >= 60 ? "warning" : "error"}>{readiness}% pronto</Badge>
+        </div>
+        <div className="mb-4 grid gap-3 md:grid-cols-2 xl:grid-cols-4">
+          {progress.map((item) => (
+            <div key={item.tipo} className="rounded-lg border border-blue-100 bg-white p-3 text-slate-900">
+              <div className="flex items-center justify-between gap-2">
+                <strong className="text-sm text-slate-950">{item.label}</strong>
+                <Badge variant={item.approved ? "success" : "warning"}>{item.value || 0}/{item.meta} {item.unidade}</Badge>
+              </div>
+              <ProgressBar value={item.percent} />
+              <p className="mt-2 text-xs font-semibold text-slate-500">
+                {item.deficit ? `Faltam ${item.deficit} ${item.unidade} para meta cheia.` : "Acima da meta cheia. Manter desempenho."}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div className="mb-4 grid gap-3">
+          {smartWeek.map((day) => (
+            <div key={day.dia} className="rounded-lg border border-blue-100 bg-slate-50 p-3">
+              <div className="flex flex-wrap items-start justify-between gap-3">
+                <div>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <strong className="text-slate-950">{day.dia} - {day.foco}</strong>
+                    <Badge variant={day.priority ? "warning" : "neutral"}>{day.label}</Badge>
+                    <Badge variant="info">{day.intensidade}</Badge>
+                  </div>
+                  <p className="mt-1 text-sm text-slate-600">{day.bloco}</p>
+                </div>
+                <div className="flex flex-wrap gap-1">
+                  {day.progress.map((item) => <span key={item.tipo} className="rounded-full bg-blue-50 px-2 py-1 text-xs font-bold text-blue-700">{item.label} {item.percent}%</span>)}
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
         {loading ? (
           <div className="grid gap-3 sm:grid-cols-2">{TAF_TESTS.map((item) => <div key={item.tipo} className="h-80 w-full animate-pulse rounded-lg bg-gray-800" />)}</div>
         ) : (
-          <div className="grid gap-3 sm:grid-cols-2">{exercicios.map((exercicio, index) => <ExercicioCard key={exercicio.id} exercicio={exercicio} index={index} onRegistrar={(tipo) => tafService.registrarTreino(tipo, 1)} />)}</div>
+          <div className="grid gap-3 sm:grid-cols-2">{exercicios.map((exercicio, index) => {
+            const test = TAF_TESTS.find((item) => item.tipo === exercicio.tafTipo);
+            return <ExercicioCard key={exercicio.id} exercicio={exercicio} index={index} onRegistrar={(tipo) => tafService.registrarTreino(tipo, latest[tipo] || 1, test?.unidade || "repeticoes")} />;
+          })}</div>
         )}
       </Card>
-      <div className="grid gap-4">
+      <div className="taf-secondary-panel grid gap-4">
+        <Card>
+          <h2 className="mb-3 font-bold text-white">Resultado real</h2>
+          <div className="grid gap-3">
+            <div className="rounded-lg border border-blue-100 bg-white p-3">
+              <span className="text-xs font-bold uppercase text-slate-500">Ultimo simulado</span>
+              <strong className="mt-1 block text-2xl text-slate-950">{latest.data || "Sem registro"}</strong>
+              <p className="text-sm text-slate-500">Nota {latest.nota || 0} - {latest.situacao || "Em treino"}</p>
+            </div>
+            <div className="rounded-lg border border-blue-100 bg-white p-3">
+              <span className="text-xs font-bold uppercase text-slate-500">Treinos registrados</span>
+              <strong className="mt-1 block text-2xl text-slate-950">{treinos.length}</strong>
+              <p className="text-sm text-slate-500">Use a calculadora ou simulador para alimentar o plano.</p>
+            </div>
+          </div>
+        </Card>
         <Card className="taf-common-card">
           <h2 className="mb-2 font-bold text-white">O que costuma cair</h2>
           <p className="mb-4 text-sm text-gray-400">Os exercicios variam por cargo, estado e edital. Estes sao os mais frequentes em concursos policiais.</p>
@@ -249,16 +360,18 @@ export default function TAFPage() {
   const [tab, setTab] = useState("Plano");
   const tabs = ["Plano", "Visao geral", "Simulador", "Calculadora", "Dicas"];
   return (
-    <div>
-      <div className="mb-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+    <div className="taf-page">
+      <div className="taf-header mb-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <h1 className="flex items-center gap-2 text-3xl font-black text-white"><Dumbbell /> TAF</h1>
           <p className="text-sm text-gray-400">Treino focado nos testes fisicos de concursos: corrida, flexao, abdominal e barra.</p>
         </div>
         <Badge variant="success">Exercicios com GIF</Badge>
       </div>
-      <Tabs items={tabs} activeTab={tab} onChange={setTab} />
-      <div className="mt-4">
+      <div className="taf-tabs">
+        <Tabs items={tabs} activeTab={tab} onChange={setTab} />
+      </div>
+      <div className="taf-content mt-4">
         {tab === "Plano" ? <TAFPlan /> : null}
         {tab === "Visao geral" ? <TAFOverview /> : null}
         {tab === "Simulador" ? <TAFSimulator /> : null}

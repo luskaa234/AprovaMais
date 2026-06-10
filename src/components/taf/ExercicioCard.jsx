@@ -101,7 +101,7 @@ export function ExercicioCard({ exercicio, tipo, index = 0, onRegistrar }) {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3, delay: index * 0.1 }}
-      className="overflow-hidden rounded-lg border border-gray-800 bg-gray-900"
+      className="taf-exercise-card overflow-hidden rounded-lg border border-gray-800 bg-gray-900"
     >
       <div className="relative grid aspect-[4/3] place-items-center bg-gray-950 sm:aspect-video">
         {!imgError && exercicio.gifUrl ? (

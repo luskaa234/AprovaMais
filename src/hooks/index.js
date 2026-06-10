@@ -4,3 +4,4 @@ export { useAsyncData } from "./useAsyncData";
 export { useTimer } from "./useTimer";
 export { useAI } from "./useAI";
 export { useQuestoes } from "./useQuestoes";
+export { useOnboarding } from "./useOnboarding";

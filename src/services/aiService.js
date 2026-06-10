@@ -162,6 +162,9 @@ function normalizeChatHistory(historico = []) {
 }
 
 export const aiService = {
+  isConfigured: Boolean(apiKey),
+  modelName,
+
   async gerarTexto(prompt) {
     if (!model) return fallback(prompt);
     try {

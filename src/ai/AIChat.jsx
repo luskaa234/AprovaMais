@@ -104,7 +104,7 @@ function saveSchedule(days, hour) {
 
 export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
   const [messages, setMessages] = useState([
-    { role: "ai", text: "Posso explicar questoes, organizar revisoes e montar planos de estudo com base no seu desempenho real." },
+    { role: "ai", text: aiService.isConfigured ? "API Gemini ativa. Posso explicar questoes, organizar revisoes e montar planos de estudo com base no seu desempenho real." : "Configure VITE_GEMINI_API_KEY no .env para ativar a API Gemini." },
   ]);
   const [input, setInput] = useState("");
   const endRef = useRef(null);
@@ -118,21 +118,20 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
       setInput("");
 
       const localAction = detectLocalAction(prompt);
+      let actionContext = "";
       if (localAction?.type === "set-focus-programming") {
         saveProgrammingFocus();
-        setMessages((items) => [...items, { role: "ai", text: "Perfeito. Atualizei seu foco local para Programacao. A partir daqui vou priorizar logica, JavaScript, React e projetos praticos." }]);
-        return;
+        actionContext = "Acao local ja executada: foco do aluno atualizado para Programacao.";
       }
 
       if (localAction?.type === "schedule-study") {
         saveProgrammingFocus();
         const created = saveSchedule(localAction.days, localAction.hour);
         const dates = created.map((item) => item.date.split("-").reverse().join("/")).join(", ");
-        setMessages((items) => [...items, { role: "ai", text: `Atualizei a aba Plano de Estudos: ${created.length} blocos de Programacao foram criados para ${dates}, as ${localAction.hour}.` }]);
-        return;
+        actionContext = `Acao local ja executada: ${created.length} blocos de Programacao criados no Plano de Estudos para ${dates}, as ${localAction.hour}.`;
       }
 
-      sendPrompt(prompt, (text) => setMessages((items) => [...items, { role: "ai", text }]), { perfil, desempenho, historico });
+      sendPrompt(actionContext ? `${prompt}\n\n${actionContext}\nResponda ao aluno confirmando a acao e orientando o proximo passo.` : prompt, (text) => setMessages((items) => [...items, { role: "ai", text }]), { perfil, desempenho, historico });
     },
     [desempenho, input, messages, perfil, sendPrompt]
   );
@@ -158,20 +157,23 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
   ];
 
   return (
-    <div className="flex h-full flex-col">
-      <div className="mb-4 flex items-center gap-4 rounded-lg border border-blue-200 bg-blue-50 p-4 text-slate-800">
-        <Mascot size="lg" framed={false} className="-my-4" />
+    <div className="ai-chat flex h-full flex-col">
+      <div className="ai-chat-hero mb-4 flex items-center gap-4 rounded-lg border border-blue-200 bg-blue-50 p-4 text-slate-800">
+        <Mascot size="lg" framed={false} className="ai-chat-hero-mascot -my-4" />
         <div>
           <p className="text-xs font-black uppercase tracking-wide text-blue-700">Aprova Assistente</p>
           <h2 className="text-xl font-black">Seu tutor de revisao e questoes</h2>
           <p className="text-sm text-slate-600">Peca explicacoes, planos curtos, revisoes por assunto ou analise do seu desempenho.</p>
+          <span className="mt-2 inline-flex rounded-full bg-white px-2.5 py-1 text-xs font-black text-blue-700 ring-1 ring-blue-200">
+            {aiService.isConfigured ? `API Gemini ativa · ${aiService.modelName}` : "API nao configurada"}
+          </span>
         </div>
       </div>
 
-      <div className="flex-1 overflow-auto rounded-lg border border-gray-800 bg-gray-950 p-4">
+      <div className="ai-chat-messages flex-1 overflow-auto rounded-lg border border-gray-800 bg-gray-950 p-4">
         {messages.map((message, index) => (
           <div key={`${message.role}-${index}`} className={`mb-3 flex gap-2 ${message.role === "user" ? "justify-end" : "justify-start"}`}>
-            {message.role === "ai" ? <Mascot size="sm" /> : null}
+            {message.role === "ai" ? <Mascot size="sm" className="ai-chat-message-mascot" /> : null}
             <div className={`max-w-[82%] whitespace-pre-wrap rounded-lg p-3 text-sm ${message.role === "user" ? "bg-blue-600 text-white" : "bg-gray-900 text-gray-200"}`}>
               {message.text}
             </div>
@@ -179,7 +181,7 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
         ))}
         {isStreaming ? (
           <div className="flex items-center gap-2 text-sm text-gray-400">
-            <Mascot size="sm" />
+            <Mascot size="sm" className="ai-chat-message-mascot" />
             <div className="max-w-[82%] whitespace-pre-wrap rounded-lg bg-gray-900 p-3 text-sm text-gray-200">
               {streamText || (
                 <span className="inline-flex items-center gap-2 text-gray-400">
@@ -198,7 +200,7 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
         <div ref={endRef} />
       </div>
 
-      <div className="mt-3 flex flex-wrap gap-2">
+      <div className="ai-chat-prompts mt-3 flex flex-wrap gap-2">
         {quickPrompts.map((chip) => (
           <button
             key={chip}
@@ -218,7 +220,7 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
         </button>
       </div>
 
-      <div className="mt-3 flex gap-2">
+      <div className="ai-chat-composer mt-3 flex gap-2">
         <Input
           value={input}
           onChange={(event) => setInput(event.target.value)}
@@ -231,7 +233,7 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
           placeholder="Digite sua pergunta"
           className="flex-1"
         />
-        <Button icon={Send} onClick={() => send()} aria-label="Enviar mensagem">
+        <Button className="ai-chat-send-button" icon={Send} onClick={() => send()} aria-label="Enviar mensagem">
           Enviar
         </Button>
       </div>

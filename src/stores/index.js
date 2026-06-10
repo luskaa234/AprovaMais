@@ -337,13 +337,10 @@ export const useRevisaoStore = create(
 export const useTafStore = create(
   persist(
     (set, get) => ({
-      historico: [
-        { id: "t1", data: "2026-02-10", concurso: "PMSP", corrida: 1850, flexao: 18, abdominal: 28, barra: 2, nota: 4.8, situacao: "Reprovado" },
-        { id: "t2", data: "2026-06-01", concurso: "PMSP", corrida: 2650, flexao: 35, abdominal: 45, barra: 8, nota: 9, situacao: "Aprovado" },
-      ],
+      historico: [],
       treinos: [],
       metas: { corrida: 2400, flexao: 30, abdominal: 40, barra: 8 },
-      atual: { corrida: 2650, flexao: 35, abdominal: 45, barra: 8 },
+      atual: { corrida: 0, flexao: 0, abdominal: 0, barra: 0 },
       exerciciosHoje: [],
       editais: mockEditaisTAF,
       plano: mockPlanoTAF,
@@ -359,7 +356,19 @@ export const useTafStore = create(
       },
       setExerciciosHoje: (exerciciosHoje) => set({ exerciciosHoje }),
     }),
-    { name: "aprova-taf" }
+    {
+      name: "aprova-taf",
+      version: 2,
+      migrate: (persisted) => {
+        const historico = (persisted?.historico || []).filter((item) => !["t1", "t2"].includes(item.id));
+        const hasRealHistory = historico.length > 0;
+        return {
+          ...persisted,
+          historico,
+          atual: hasRealHistory ? persisted.atual : { corrida: 0, flexao: 0, abdominal: 0, barra: 0 },
+        };
+      },
+    }
   )
 );
 
@@ -381,16 +390,42 @@ export const useRedacaoStore = create(
 
 export const useLeisStore = create(
   persist(
-    (set) => ({
+    (set, get) => ({
       leis: leisSeed,
       grifos: {},
       favoritos: [],
       notas: {},
-      grifarArtigo: (artigoId, cor = "yellow") => set((state) => ({ grifos: { ...state.grifos, [artigoId]: cor } })),
+      leitura: {},
+      grifarArtigo: (artigoId, cor = "yellow", trecho = "") => set((state) => {
+        if (!trecho) return { grifos: { ...state.grifos, [artigoId]: cor } };
+        const current = Array.isArray(state.grifos[artigoId]) ? state.grifos[artigoId] : [];
+        const exists = current.some((item) => item.trecho === trecho && item.cor === cor);
+        return {
+          grifos: {
+            ...state.grifos,
+            [artigoId]: exists ? current : [{ id: uid("grifo"), trecho, cor, data: new Date().toISOString() }, ...current],
+          },
+        };
+      }),
+      removerGrifo: (artigoId, grifoId) => set((state) => ({
+        grifos: {
+          ...state.grifos,
+          [artigoId]: Array.isArray(state.grifos[artigoId]) ? state.grifos[artigoId].filter((item) => item.id !== grifoId) : [],
+        },
+      })),
       toggleFavorito: (artigoId) => set((state) => ({ favoritos: state.favoritos.includes(artigoId) ? state.favoritos.filter((id) => id !== artigoId) : [artigoId, ...state.favoritos] })),
       salvarNota: (artigoId, nota) => set((state) => ({ notas: { ...state.notas, [artigoId]: nota } })),
+      marcarLido: (artigoId, value = null) => set((state) => ({ leitura: { ...state.leitura, [artigoId]: value ?? !state.leitura[artigoId] } })),
+      isLido: (artigoId) => Boolean(get().leitura[artigoId]),
     }),
-    { name: "aprova-leis" }
+    {
+      name: "aprova-leis",
+      version: 2,
+      migrate: (persisted) => ({
+        ...persisted,
+        leitura: persisted?.leitura || {},
+      }),
+    }
   )
 );
 

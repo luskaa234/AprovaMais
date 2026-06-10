@@ -1,388 +1,579 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { ArrowRight, BookOpen, Bookmark, Brain, CheckCircle2, FileQuestion, Filter, Highlighter, Search, Sparkles } from "lucide-react";
-import { Badge, Button, Card, EmptyState, Input, Select, Textarea, cx } from "../../components";
-import { useInternalRouter, useNotifications } from "../../contexts";
+import { useCallback, useMemo, useState } from "react";
+import {
+  ArrowLeft,
+  ArrowRight,
+  BookOpen,
+  Bookmark,
+  CheckCircle2,
+  FileQuestion,
+  Flame,
+  Highlighter,
+  List,
+  MessageCircle,
+  Plus,
+  Search,
+  Sparkles,
+  X,
+} from "lucide-react";
+import { Badge, Button, Card, EmptyState, Input, Mascot, Textarea, cx } from "../../components";
+import { useInternalRouter, useNotifications, useUser } from "../../contexts";
 import { useAsyncData } from "../../hooks";
-import { Modal } from "../../modals";
 import { leisService } from "../../services";
 import { useLeisStore } from "../../stores";
 
-const statusOptions = [
-  { value: "com_texto", label: "Com texto" },
-  { value: "sem_texto", label: "Aguardando texto" },
-  { value: "mais_cobrada", label: "Mais cobrada" },
+const chips = [
+  { id: "edital", label: "Do meu edital" },
+  { id: "cobradas", label: "Mais cobradas" },
+  { id: "favoritas", label: "Favoritas" },
+  { id: "todas", label: "Todas" },
 ];
 
-const readerSizes = [
-  { value: "md", label: "A" },
-  { value: "lg", label: "A+" },
-  { value: "xl", label: "A++" },
-];
+const highlightColors = {
+  yellow: "#FFF3A8",
+  green: "#BFF3D9",
+  pink: "#FFD2E0",
+};
+
+const importantByLaw = {
+  cf88: {
+    5: 132,
+    37: 96,
+    144: 84,
+    6: 48,
+    7: 42,
+  },
+};
 
 function normalize(value = "") {
   return String(value).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 }
 
-function flattenArticles(lei) {
-  return (lei?.capitulos || []).flatMap((capitulo) => (capitulo.artigos || []).map((artigo) => ({
-    ...artigo,
-    leiId: lei.id,
-    lei_id: artigo.lei_id || lei.id,
-    lei: lei.nome,
-    tipo: lei.tipo,
-    materia: lei.materia,
-    concurso: lei.concurso || "Geral",
-    area: lei.categoria || lei.materia,
-    status: lei.status || (lei.hasText ? "com_texto" : "sem_texto"),
-    capitulo: artigo.capitulo || capitulo.nome,
-    secao: capitulo.secao || capitulo.nome,
-    cobrancas: artigo.cobrancas || 0,
-  })));
+function escapeHtml(value = "") {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
 }
 
-function normalizeLei(lei) {
+function escapeRegExp(value = "") {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function getArticleNumber(value = "") {
+  const match = String(value).match(/Art\.?\s*(\d+)/i) || String(value).match(/^(\d+)/);
+  return match ? Number(match[1]) : null;
+}
+
+function splitArticleText(rawArticle, lei, chapter) {
+  const text = String(rawArticle.texto || "").trim();
+  const pieces = text.split(/\n(?=Art\.?\s*\d+)/i).filter(Boolean);
+  const sourcePieces = pieces.length > 1 ? pieces : [text || `Art. ${rawArticle.numero_texto || rawArticle.numero}. Texto indisponivel.`];
+
+  return sourcePieces.map((piece, index) => {
+    const numero = getArticleNumber(piece) || Number(rawArticle.numero) + index || index + 1;
+    const id = index === 0 ? rawArticle.id : `${rawArticle.id}-${numero}`;
+    const cobrancas = rawArticle.cobrancas || importantByLaw[lei.id]?.[numero] || 0;
+    return {
+      ...rawArticle,
+      id,
+      leiId: lei.id,
+      lei_id: lei.id,
+      lei: lei.nome,
+      leiCurta: lei.nome_curto || lei.nome,
+      area: lei.categoria || lei.materia || "Legislacao",
+      materia: lei.materia || lei.categoria || "Legislacao",
+      tipo: lei.tipo || "Lei",
+      numero,
+      numero_texto: String(numero || rawArticle.numero_texto || rawArticle.numero || ""),
+      texto: piece.trim(),
+      secao: rawArticle.secao || chapter.secao || chapter.nome || "Parte principal",
+      capitulo: rawArticle.capitulo || chapter.nome || chapter.secao || "Parte principal",
+      cobrancas,
+      importancia: rawArticle.importancia || (cobrancas ? 5 : 3),
+      tags: rawArticle.tags || [],
+    };
+  });
+}
+
+function flattenArticles(lei) {
+  const expanded = (lei?.capitulos || []).flatMap((chapter) =>
+    (chapter.artigos || []).flatMap((article) => splitArticleText(article, lei, chapter))
+  );
+  const seen = new Set();
+  return expanded
+    .filter((article) => {
+      const key = `${article.leiId}-${article.numero}-${normalize(article.texto).slice(0, 90)}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .sort((a, b) => Number(a.numero || 0) - Number(b.numero || 0));
+}
+
+function getDisplayTotal(lei, articles) {
+  if (lei.id === "cf88") return "250 artigos + 148 ADCT";
+  return `${articles.length} artigos`;
+}
+
+function buildLawView(lei, leitura = {}) {
+  const articles = flattenArticles(lei);
+  const read = articles.filter((article) => leitura[article.id]).length;
+  const total = articles.length;
+  const progress = total ? Math.round((read / total) * 100) : 0;
   return {
     ...lei,
-    tipo: lei.tipo || "Lei",
-    materia: lei.materia || lei.categoria || "Legislacao",
-    concurso: lei.concurso || "Geral",
     area: lei.categoria || lei.materia || "Legislacao",
-    status: lei.total_artigos > 0 ? "com_texto" : "sem_texto",
+    materia: lei.materia || lei.categoria || "Legislacao",
+    tipo: lei.tipo || "Lei",
+    articles,
+    read,
+    total,
+    progress,
+    displayTotal: getDisplayTotal(lei, articles),
+    hotCount: articles.reduce((sum, item) => sum + Number(item.cobrancas || 0), 0),
   };
 }
 
-function sourceHint(lei) {
-  if (!lei?.fonte) return "";
-  return `Fonte para copiar: ${lei.fonte}`;
+function buildSections(articles) {
+  const grouped = new Map();
+  articles.forEach((article) => {
+    const name = article.capitulo || article.secao || "Parte principal";
+    if (!grouped.has(name)) grouped.set(name, []);
+    grouped.get(name).push(article);
+  });
+  return [...grouped.entries()].map(([name, items], index) => ({
+    id: `${index}-${normalize(name).replace(/\s+/g, "-")}`,
+    name,
+    articles: items,
+    start: items[0]?.numero_texto || items[0]?.numero,
+    end: items.at(-1)?.numero_texto || items.at(-1)?.numero,
+    hot: items.some((item) => item.cobrancas > 0 || item.importancia >= 5),
+    questions: items.reduce((sum, item) => sum + Number(item.cobrancas || 0), 0),
+  }));
+}
+
+function excerpt(article) {
+  const clean = String(article.texto || "").replace(/\s+/g, " ").replace(/^Art\.?\s*\d+\.?\s*/i, "").trim();
+  return clean.slice(0, 120) || article.capitulo || "Texto do artigo";
+}
+
+function applyMarks(text, marks = [], query = "") {
+  let html = escapeHtml(text);
+  marks
+    .filter((mark) => mark?.trecho)
+    .slice()
+    .sort((a, b) => String(b.trecho).length - String(a.trecho).length)
+    .forEach((mark) => {
+      const color = highlightColors[mark.cor] || highlightColors.yellow;
+      const pattern = new RegExp(escapeRegExp(escapeHtml(mark.trecho)), "g");
+      html = html.replace(pattern, `<mark style="background:${color}">$&</mark>`);
+    });
+  if (query) {
+    html = html.replace(new RegExp(`(${escapeRegExp(escapeHtml(query))})`, "ig"), '<mark class="law-search-mark">$1</mark>');
+  }
+  return html;
+}
+
+function formatArticleHtml(article, marks, query) {
+  const readableText = String(article.texto || "")
+    .replace(/\s+(?=(?:§|Â§)\s*\d)/g, "\n")
+    .replace(/\s+(?=Paragrafo unico|Parágrafo único)/gi, "\n")
+    .replace(/\s+(?=(?:I|II|III|IV|V|VI|VII|VIII|IX|X|XI|XII|XIII|XIV|XV|XVI|XVII|XVIII|XIX|XX)\s*-)/g, "\n")
+    .replace(/\s+(?=[a-z]\)\s)/g, "\n");
+
+  return applyMarks(readableText, marks, query)
+    .split(/\n+/)
+    .map((line) => {
+      const trimmed = line.trim();
+      const isIndent = /^(I|V|X|L|C|D|M)+\s*-|^[a-z]\)/i.test(trimmed) || /^§/.test(trimmed);
+      return `<p class="${isIndent ? "law-reader-indent" : ""}">${trimmed}</p>`;
+    })
+    .join("");
+}
+
+function levelTitle(level) {
+  if (level === "laws") return "Leis";
+  if (level === "structure") return "Estrutura";
+  if (level === "articles") return "Artigos";
+  return "Leitor";
 }
 
 export default function LeisSecasPage() {
   const load = useCallback(() => leisService.getLeis(), []);
-  const { data: baseLeis = [], isLoading } = useAsyncData(load);
+  const { data: rawLaws = [], isLoading } = useAsyncData(load);
   const { addNotification } = useNotifications();
   const { navigate } = useInternalRouter();
+  const { user } = useUser();
   const notas = useLeisStore((state) => state.notas);
   const grifos = useLeisStore((state) => state.grifos);
   const favoritos = useLeisStore((state) => state.favoritos);
+  const leitura = useLeisStore((state) => state.leitura || {});
   const salvarNota = useLeisStore((state) => state.salvarNota);
   const grifarArtigo = useLeisStore((state) => state.grifarArtigo);
+  const removerGrifo = useLeisStore((state) => state.removerGrifo);
   const toggleFavorito = useLeisStore((state) => state.toggleFavorito);
-  const [activeLeiId, setActiveLeiId] = useState("");
-  const [activeArticleId, setActiveArticleId] = useState("");
+  const marcarLidoLocal = useLeisStore((state) => state.marcarLido);
+
+  const [level, setLevel] = useState("laws");
+  const [chip, setChip] = useState("edital");
+  const [structureChip, setStructureChip] = useState("estrutura");
   const [query, setQuery] = useState("");
-  const [filters, setFilters] = useState({ materia: "", assunto: "", tipo: "", status: "" });
-  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
-  const [studied, setStudied] = useState({});
-  const [relatedQuestions, setRelatedQuestions] = useState([]);
-  const [actionLoading, setActionLoading] = useState("");
-  const [readerScale, setReaderScale] = useState("lg");
-  const articlePanelRef = useRef(null);
+  const [selectedLawId, setSelectedLawId] = useState("");
+  const [selectedSectionId, setSelectedSectionId] = useState("");
+  const [selectedArticleId, setSelectedArticleId] = useState("");
+  const [selectedText, setSelectedText] = useState("");
+  const [explanation, setExplanation] = useState("");
+  const [sheetOpen, setSheetOpen] = useState(false);
+  const [loadingAction, setLoadingAction] = useState("");
 
-  const normas = useMemo(() => baseLeis.map(normalizeLei), [baseLeis]);
-  const filteredNormas = useMemo(() => normas.filter((lei) => {
-    const articles = flattenArticles(lei);
-    const text = [lei.nome, lei.nome_curto, lei.tipo, lei.materia, lei.area, lei.concurso].join(" ");
-    if (query && !normalize(text).includes(normalize(query)) && !articles.some((artigo) => normalize([artigo.numero_texto, artigo.texto, artigo.capitulo, artigo.secao].join(" ")).includes(normalize(query)))) return false;
-    if (filters.materia && lei.materia !== filters.materia) return false;
-    if (filters.tipo && lei.tipo !== filters.tipo) return false;
-    if (filters.status === "com_texto" && !lei.total_artigos) return false;
-    if (filters.status === "sem_texto" && lei.total_artigos) return false;
-    if (filters.status === "mais_cobrada" && !articles.some((artigo) => artigo.cobrancas > 0 || artigo.importancia >= 5)) return false;
-    if (filters.assunto && !articles.some((artigo) => normalize([artigo.capitulo, artigo.secao, artigo.texto, ...(artigo.tags || [])].join(" ")).includes(normalize(filters.assunto)))) return false;
-    return true;
-  }), [filters, normas, query]);
+  const laws = useMemo(() => rawLaws.map((law) => buildLawView(law, leitura)), [leitura, rawLaws]);
+  const allArticles = useMemo(() => laws.flatMap((law) => law.articles), [laws]);
+  const hotArticles = useMemo(() => [...allArticles].sort((a, b) => (b.cobrancas || 0) - (a.cobrancas || 0)).filter((item) => item.cobrancas || item.importancia >= 5), [allArticles]);
+  const selectedLaw = laws.find((law) => law.id === selectedLawId) || laws[0];
+  const sections = useMemo(() => buildSections(selectedLaw?.articles || []), [selectedLaw]);
+  const selectedSection = sections.find((section) => section.id === selectedSectionId) || sections[0];
+  const articleList = structureChip === "todos"
+    ? selectedLaw?.articles || []
+    : selectedSection?.articles || selectedLaw?.articles || [];
+  const selectedArticle = allArticles.find((article) => article.id === selectedArticleId) || articleList[0] || allArticles[0];
+  const selectedIndex = selectedLaw?.articles.findIndex((article) => article.id === selectedArticle?.id) ?? -1;
+  const articleMarks = Array.isArray(grifos[selectedArticle?.id]) ? grifos[selectedArticle?.id] : [];
 
-  const activeLei = filteredNormas.find((lei) => lei.id === activeLeiId) || filteredNormas.find((lei) => lei.total_artigos) || filteredNormas[0] || normas[0];
-  const articles = useMemo(() => flattenArticles(activeLei).filter((artigo) => {
-    if (!query) return true;
-    return normalize([artigo.numero_texto, artigo.texto, artigo.capitulo, artigo.secao, artigo.lei, ...(artigo.tags || [])].join(" ")).includes(normalize(query));
-  }).sort((a, b) => (b.cobrancas || 0) - (a.cobrancas || 0) || a.numero - b.numero), [activeLei, query]);
-  const activeArticle = articles.find((artigo) => artigo.id === activeArticleId) || articles[0];
-  const revisoes = useMemo(() => activeArticle ? [`Revisar ${activeArticle.lei} hoje`, `Resolver questoes oficiais ligadas a ${activeArticle.materia}`] : [], [activeArticle]);
-  const stats = useMemo(() => ({
-    normas: normas.length,
-    comTexto: normas.filter((lei) => lei.total_artigos > 0).length,
-    artigos: normas.reduce((sum, lei) => sum + flattenArticles(lei).length, 0),
-    favoritos: favoritos.length,
-  }), [favoritos.length, normas]);
-  const safeQuery = query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const highlight = useCallback((text = "") => safeQuery ? text.replace(new RegExp(`(${safeQuery})`, "ig"), "<mark>$1</mark>") : text, [safeQuery]);
-  const notify = useCallback((title, message, type = "success") => addNotification({ type, title, message }), [addNotification]);
-  const activeFilterCount = [query, ...Object.values(filters)].filter(Boolean).length;
-  const articleTextSize = {
-    md: "text-base leading-8",
-    lg: "text-lg leading-9",
-    xl: "text-xl leading-10",
-  }[readerScale];
+  const filteredLaws = useMemo(() => {
+    const q = normalize(query);
+    let source = laws;
+    if (chip === "favoritas") source = laws.filter((law) => law.articles.some((article) => favoritos.includes(article.id)));
+    if (chip === "cobradas") source = laws.filter((law) => law.hotCount > 0);
+    if (chip === "edital") source = laws.filter((law) => ["Constitucional", "Penal", "Processual", "Militar", "Legislacao", "Administrativo"].some((term) => normalize(law.area).includes(normalize(term)) || normalize(law.materia).includes(normalize(term))));
+    if (!q) return source;
+    return source.filter((law) =>
+      normalize(`${law.nome} ${law.nome_curto} ${law.area} ${law.materia}`).includes(q) ||
+      law.articles.some((article) => normalize(`${article.numero_texto} ${article.texto} ${article.capitulo}`).includes(q))
+    );
+  }, [chip, favoritos, laws, query]);
 
-  const scrollArticleToTop = useCallback(() => {
-    window.requestAnimationFrame(() => {
-      articlePanelRef.current?.scrollTo({ top: 0, behavior: "smooth" });
-      articlePanelRef.current?.focus({ preventScroll: true });
-    });
-  }, []);
+  const groupedLaws = useMemo(() => filteredLaws.reduce((acc, law) => {
+    const key = law.area || "Legislacao";
+    acc[key] = acc[key] || [];
+    acc[key].push(law);
+    return acc;
+  }, {}), [filteredLaws]);
 
-  const selectArticle = useCallback((articleId) => {
-    setActiveArticleId(articleId);
-    scrollArticleToTop();
-  }, [scrollArticleToTop]);
+  const searchHits = useMemo(() => {
+    if (!query) return [];
+    const q = normalize(query);
+    return allArticles.filter((article) => normalize(`${article.numero_texto} ${article.texto} ${article.capitulo} ${article.lei}`).includes(q)).slice(0, 12);
+  }, [allArticles, query]);
 
-  const selectLei = useCallback((leiId) => {
-    setActiveLeiId(leiId);
-    setActiveArticleId("");
-    scrollArticleToTop();
-  }, [scrollArticleToTop]);
+  const notify = useCallback((title, message, type = "success") => addNotification({ title, message, type }), [addNotification]);
 
-  const filtersContent = (
-    <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-[1.4fr_repeat(4,1fr)]">
-      <Input icon={Search} label="Pesquisa" placeholder="Artigo, lei, palavra-chave ou numero" value={query} onChange={(event) => setQuery(event.target.value)} />
-      <Select label="Materia" placeholder="Todas" options={[...new Set(normas.map((lei) => lei.materia).filter(Boolean))]} value={filters.materia} onChange={(event) => setFilters((current) => ({ ...current, materia: event.target.value }))} />
-      <Input label="Assunto" placeholder="Capitulo, tag ou termo" value={filters.assunto} onChange={(event) => setFilters((current) => ({ ...current, assunto: event.target.value }))} />
-      <Select label="Tipo" placeholder="Todos" options={[...new Set(normas.map((lei) => lei.tipo).filter(Boolean))]} value={filters.tipo} onChange={(event) => setFilters((current) => ({ ...current, tipo: event.target.value }))} />
-      <Select label="Status" placeholder="Todos" options={statusOptions} value={filters.status} onChange={(event) => setFilters((current) => ({ ...current, status: event.target.value }))} />
-    </div>
-  );
+  const openLaw = useCallback((lawId) => {
+    const law = laws.find((item) => item.id === lawId);
+    setSelectedLawId(lawId);
+    setSelectedSectionId("");
+    setSelectedArticleId("");
+    setLevel((law?.articles || []).length ? "structure" : "laws");
+  }, [laws]);
 
-  useEffect(() => {
-    let cancelled = false;
-    if (!activeArticle) return undefined;
-    leisService.questoesReaisDoArtigo(activeArticle)
-      .then((items) => {
-        if (!cancelled) setRelatedQuestions(items);
-      })
-      .catch(() => {
-        if (!cancelled) setRelatedQuestions([]);
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, [activeArticle]);
+  const openSection = useCallback((sectionId) => {
+    const section = sections.find((item) => item.id === sectionId);
+    setSelectedSectionId(sectionId);
+    setSelectedArticleId(section?.articles[0]?.id || "");
+    setLevel("articles");
+  }, [sections]);
 
-  const markStudied = useCallback((artigoId) => {
-    setStudied((current) => ({ ...current, [artigoId]: !current[artigoId] }));
-    notify("Artigo atualizado", "Status de estudo registrado.");
-  }, [notify]);
-
-  const handleNote = useCallback((artigoId, value) => {
-    salvarNota(artigoId, value);
-    leisService.salvarNota(artigoId, value).catch(() => {});
-  }, [salvarNota]);
-
-  const handleFlashcards = useCallback(async () => {
-    if (!activeArticle) return;
-    setActionLoading("flashcards");
-    try {
-      const deck = await leisService.gerarFlashcardsDeArtigo(activeArticle);
-      notify("Flashcards criados", `${deck.cards.length} cards adicionados ao SM-2 em ${deck.titulo}.`);
-    } catch {
-      notify("Nao foi possivel gerar flashcards", "Confira a chave/cota da IA ou tente novamente.", "warning");
-    } finally {
-      setActionLoading("");
+  const openArticle = useCallback((articleId) => {
+    const article = allArticles.find((item) => item.id === articleId);
+    if (article) {
+      setSelectedLawId(article.leiId);
+      const nextSection = buildSections(laws.find((law) => law.id === article.leiId)?.articles || []).find((section) => section.articles.some((item) => item.id === article.id));
+      setSelectedSectionId(nextSection?.id || "");
+      setSelectedArticleId(articleId);
+      setLevel("reader");
+      setSheetOpen(false);
+      setExplanation("");
     }
-  }, [activeArticle, notify]);
+  }, [allArticles, laws]);
 
-  const handlePractice = useCallback(async () => {
-    if (!activeArticle) return;
-    setActionLoading("questoes");
+  const goBack = useCallback(() => {
+    if (level === "reader") return setLevel("articles");
+    if (level === "articles") return setLevel("structure");
+    if (level === "structure") return setLevel("laws");
+    return null;
+  }, [level]);
+
+  const goSibling = useCallback((direction) => {
+    if (!selectedLaw || selectedIndex < 0) return;
+    const next = selectedLaw.articles[selectedIndex + direction];
+    if (next) openArticle(next.id);
+  }, [openArticle, selectedIndex, selectedLaw]);
+
+  const handleSelection = useCallback(() => {
+    const text = window.getSelection?.().toString().trim();
+    if (text && selectedArticle?.texto.includes(text)) setSelectedText(text.slice(0, 600));
+  }, [selectedArticle]);
+
+  const saveHighlight = useCallback(async (cor) => {
+    if (!selectedArticle) return;
+    const trecho = selectedText || selectedArticle.texto.slice(0, 180);
+    grifarArtigo(selectedArticle.id, cor, trecho);
+    await leisService.grifarArtigo({ leiId: selectedArticle.leiId, artigoId: selectedArticle.id, trecho, cor }).catch(() => {});
+    setSelectedText("");
+    notify("Grifo salvo", "O trecho ficou salvo neste artigo.");
+  }, [grifarArtigo, notify, selectedArticle, selectedText]);
+
+  const saveNote = useCallback((value) => {
+    if (!selectedArticle) return;
+    salvarNota(selectedArticle.id, value);
+    leisService.salvarNota(selectedArticle.id, value).catch(() => {});
+  }, [salvarNota, selectedArticle]);
+
+  const toggleRead = useCallback(async () => {
+    if (!selectedArticle) return;
+    const next = !leitura[selectedArticle.id];
+    marcarLidoLocal(selectedArticle.id, next);
+    await leisService.marcarLido({ leiId: selectedArticle.leiId, artigoId: selectedArticle.id, lido: next }).catch(() => {});
+    notify(next ? "Artigo marcado como lido" : "Leitura removida", "Seu progresso foi atualizado.");
+  }, [leitura, marcarLidoLocal, notify, selectedArticle]);
+
+  const generateFlashcard = useCallback(async () => {
+    if (!selectedArticle) return;
+    setLoadingAction("flashcard");
     try {
-      const result = await leisService.gerarQuestaoDeArtigo(activeArticle);
-      if (result.tipo === "oficiais") {
-        notify("Questoes oficiais encontradas", `${result.questoes.length} questoes reais relacionadas ao artigo.`);
-      } else {
-        notify("Questao inedita criada", "Ela foi marcada como Inedita - da lei.");
-      }
+      await leisService.gerarFlashcardsDeArtigo(selectedArticle);
+      notify("Flashcard criado", "O card entrou no deck de Lei Seca.");
+    } finally {
+      setLoadingAction("");
+    }
+  }, [notify, selectedArticle]);
+
+  const practiceQuestions = useCallback(async () => {
+    if (!selectedArticle) return;
+    setLoadingAction("questoes");
+    try {
+      const result = await leisService.gerarQuestaoDeArtigo(selectedArticle);
+      sessionStorage.setItem("aprova-questoes-artigo-filter", JSON.stringify({
+        artigoId: selectedArticle.id,
+        materia: selectedArticle.materia,
+        assunto: selectedArticle.capitulo,
+        search: `art. ${selectedArticle.numero_texto || selectedArticle.numero}`,
+        questoesIds: result.questoes?.map((item) => item.id) || (result.questao ? [result.questao.id] : []),
+      }));
       navigate("questoes");
-    } catch {
-      notify("Nao foi possivel preparar questoes", "Tente novamente em instantes.", "warning");
+      notify("Filtro preparado", "Abrindo o banco de questoes com foco neste artigo.");
     } finally {
-      setActionLoading("");
+      setLoadingAction("");
     }
-  }, [activeArticle, navigate, notify]);
+  }, [navigate, notify, selectedArticle]);
 
-  if (isLoading) return <div className="h-96 animate-pulse rounded-lg bg-gray-900" />;
+  const explainArticle = useCallback(async () => {
+    if (!selectedArticle) return;
+    setLoadingAction("explicar");
+    try {
+      const text = await leisService.explicarArtigo(selectedArticle, user?.targetContest || user?.objective || "concurso publico");
+      setExplanation(text);
+    } finally {
+      setLoadingAction("");
+    }
+  }, [selectedArticle, user]);
+
+  if (isLoading) return <div className="h-96 animate-pulse rounded-lg bg-blue-100" />;
+
+  const readerHtml = selectedArticle ? formatArticleHtml(selectedArticle, articleMarks, query) : "";
 
   return (
-    <div className="mx-auto flex max-w-[1680px] flex-col gap-4 pb-10 xl:h-[calc(100vh-8.5rem)] xl:overflow-hidden xl:pb-0">
-      <div className="grid shrink-0 gap-4 rounded-lg border border-gray-800 bg-gray-950/80 p-4 md:p-5 xl:grid-cols-[1fr_auto]">
-        <div className="min-w-0">
-          <p className="text-xs font-semibold uppercase tracking-wide text-blue-300">Leis Secas</p>
-          <h1 className="mt-1 text-3xl font-black text-white md:text-4xl">Leitor de lei seca</h1>
-          <p className="mt-2 max-w-3xl text-sm leading-6 text-gray-400">Texto oficial por artigo, com grifos, notas, flashcards e questoes conectadas. Use o indice lateral para navegar rapido sem perder a leitura.</p>
+    <div className="leis-study-page mx-auto max-w-[1680px] pb-10 text-slate-900" data-level={level}>
+      <header className="leis-study-top">
+        <div className="leis-study-title">
+          {level !== "laws" ? (
+            <button className="leis-back-button" onClick={goBack} type="button" aria-label="Voltar">
+              <ArrowLeft size={18} />
+            </button>
+          ) : null}
+          <div>
+            <span>{levelTitle(level)}</span>
+            <h1>Lei seca para estudar</h1>
+          </div>
         </div>
-        <div className="grid grid-cols-2 gap-2 sm:grid-cols-4 xl:w-[520px]">
-          {[
-            ["Normas", stats.normas],
-            ["Com texto", stats.comTexto],
-            ["Artigos", stats.artigos],
-            ["Favoritos", stats.favoritos],
-          ].map(([label, value]) => (
-            <div key={label} className="rounded-lg border border-gray-800 bg-gray-900 px-3 py-3">
-              <span className="block text-xs font-semibold text-gray-500">{label}</span>
-              <strong className="mt-1 block text-2xl text-white">{value}</strong>
-            </div>
+        <Input icon={Search} placeholder="Buscar lei, artigo ou palavra..." value={query} onChange={(event) => setQuery(event.target.value)} />
+      </header>
+
+      {query && searchHits.length ? (
+        <section className="leis-search-results">
+          {searchHits.map((article) => (
+            <button key={article.id} type="button" onClick={() => openArticle(article.id)}>
+              <strong>{article.leiCurta} - Art. {article.numero_texto}</strong>
+              <span>{excerpt(article)}</span>
+            </button>
           ))}
-        </div>
-        <Button className="md:hidden" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{activeFilterCount ? ` - ${activeFilterCount}` : ""}</Button>
-      </div>
+        </section>
+      ) : null}
 
-      <Card hover={false} className="hidden shrink-0 md:block">
-        {filtersContent}
-      </Card>
-
-      <div className="grid min-h-0 flex-1 gap-4 xl:grid-cols-[340px_minmax(0,1fr)_320px] xl:overflow-hidden 2xl:grid-cols-[360px_minmax(0,1fr)_330px]">
-        <aside className="min-h-0 space-y-4 xl:flex xl:h-full xl:flex-col xl:gap-4 xl:space-y-0 xl:overflow-hidden">
-          <Card hover={false} className="p-0 xl:flex xl:h-[34%] xl:min-h-0 xl:flex-col">
-            <div className="border-b border-gray-800 p-4">
-              <div className="flex items-center gap-2 text-base font-bold text-white"><BookOpen size={18} /> Normas</div>
-              <p className="mt-1 text-xs text-gray-500">{filteredNormas.length} itens encontrados</p>
-            </div>
-            <div className="max-h-[280px] space-y-2 overflow-y-auto p-3 pr-2 xl:min-h-0 xl:flex-1 xl:max-h-none">
-              {filteredNormas.map((lei) => (
-                <button key={lei.id} onClick={() => selectLei(lei.id)} className={cx("w-full rounded-lg border p-3 text-left transition", activeLei?.id === lei.id ? "border-blue-500 bg-blue-600 text-white shadow-lg shadow-blue-950/30" : "border-gray-800 bg-gray-900 text-gray-300 hover:border-blue-400 hover:bg-gray-800")}>
-                  <strong className="block text-sm leading-5">{lei.nome}</strong>
-                  <span className="mt-2 flex items-center justify-between gap-2 text-xs opacity-80">
-                    <span>{lei.tipo}</span>
-                    <span>{lei.total_artigos || 0} artigos</span>
-                  </span>
-                </button>
-              ))}
-            </div>
-          </Card>
-
-          <Card hover={false} className="p-0 xl:flex xl:min-h-0 xl:flex-1 xl:flex-col">
-            <div className="border-b border-gray-800 p-4">
-              <div className="flex items-center justify-between gap-3">
-                <div>
-                  <h2 className="font-bold text-white">Artigos</h2>
-                  <p className="mt-1 text-xs text-gray-500">{activeLei?.nome_curto || activeLei?.nome}</p>
-                </div>
-                <Badge variant={activeLei?.total_artigos ? "success" : "neutral"}>{articles.length}</Badge>
-              </div>
-            </div>
-            {articles.length ? (
-              <nav className="max-h-[430px] space-y-2 overflow-y-auto p-3 pr-2 xl:min-h-0 xl:flex-1 xl:max-h-none">
-                {articles.map((artigo) => (
-                  <button key={artigo.id} onClick={() => selectArticle(artigo.id)} className={cx("w-full rounded-lg border p-3 text-left transition", activeArticle?.id === artigo.id ? "border-blue-500 bg-blue-600 text-white" : "border-gray-800 bg-gray-900 text-gray-300 hover:border-blue-400")}>
-                    <span className="flex items-center justify-between gap-2">
-                      <strong className="text-base">Art. {artigo.numero_texto || artigo.numero}</strong>
-                      {favoritos.includes(artigo.id) ? <Bookmark size={14} className="text-amber-200" /> : null}
+      <div className="leis-desktop-shell">
+        <section className={cx("leis-layer leis-laws-layer", level === "laws" && "is-current")}>
+          <div className="leis-chip-row">
+            {chips.map((item) => <button key={item.id} className={cx(chip === item.id && "is-active")} onClick={() => setChip(item.id)} type="button">{item.label}</button>)}
+          </div>
+          <div className="leis-law-groups">
+            {Object.entries(groupedLaws).map(([area, items]) => (
+              <div key={area} className="leis-law-group">
+                <h2>{area}</h2>
+                {items.map((law) => (
+                  <button key={law.id} className={cx("leis-law-card", selectedLaw?.id === law.id && "is-active", law.progress === 100 && "is-read")} onClick={() => openLaw(law.id)} type="button">
+                    <span className="leis-law-icon"><BookOpen size={20} /></span>
+                    <span className="leis-law-main">
+                      <strong>{law.nome}</strong>
+                      <small>{law.displayTotal} - lido {law.read}</small>
+                      <i><em style={{ width: `${law.progress}%` }} /></i>
                     </span>
-                    <span className="mt-1 line-clamp-2 block text-xs leading-5 opacity-75">{artigo.capitulo}</span>
-                    {artigo.cobrancas ? <span className="mt-2 inline-flex rounded-full bg-amber-500/20 px-2 py-0.5 text-[10px] font-bold text-amber-200">{artigo.cobrancas} cobrancas</span> : null}
+                    {law.progress === 100 ? <CheckCircle2 size={18} /> : <ArrowRight size={18} />}
                   </button>
                 ))}
-              </nav>
-            ) : (
-              <div className="p-3">
-                <EmptyState icon={Search} title="Sem artigos" description="Cole o texto oficial e rode o minerador de leis." />
               </div>
-            )}
-          </Card>
-        </aside>
-
-        <main className="min-w-0 rounded-lg border border-gray-800 bg-gray-950/75 xl:flex xl:h-full xl:min-h-0 xl:flex-col xl:overflow-hidden">
-          <div className="border-b border-gray-800 p-4 md:p-5 xl:shrink-0">
-            <div className="flex flex-wrap items-start justify-between gap-4">
-              <div className="min-w-0">
-                <p className="text-xs font-bold uppercase tracking-wide text-blue-300">{activeLei?.tipo} - {activeLei?.materia}</p>
-                <h2 className="mt-1 text-2xl font-black text-white md:text-3xl">{activeLei?.nome}</h2>
-                <p className="mt-2 max-w-3xl text-sm leading-6 text-gray-400">{sourceHint(activeLei) || "Texto organizado por artigos para leitura, revisao e pratica."}</p>
-              </div>
-              <div className="flex items-center gap-2 rounded-lg border border-gray-800 bg-gray-900 p-1">
-                {readerSizes.map((item) => (
-                  <button key={item.value} type="button" onClick={() => setReaderScale(item.value)} className={cx("min-h-9 rounded-md px-3 text-sm font-bold transition", readerScale === item.value ? "bg-blue-600 text-white" : "text-gray-400 hover:bg-gray-800 hover:text-white")}>{item.label}</button>
-                ))}
-              </div>
-            </div>
+            ))}
+            {!filteredLaws.length ? <EmptyState icon={Search} title="Nada encontrado" description="Tente outro termo ou veja todas as leis." action={<Mascot size="md" pose="feedback" framed={false} />} /> : null}
           </div>
+        </section>
 
-          {activeArticle ? (
-            <article ref={articlePanelRef} tabIndex={-1} className={cx("min-h-[680px] scroll-smooth p-4 outline-none md:p-7 xl:min-h-0 xl:flex-1 xl:overflow-y-auto xl:p-9", grifos[activeArticle.id] && "bg-amber-500/5")}>
-              <div className="mb-6 rounded-lg border border-gray-800 bg-gray-900 p-4 md:p-5">
-                <div className="flex flex-wrap items-start justify-between gap-4">
-                  <div>
-                    <p className="text-xs font-bold uppercase tracking-wide text-blue-300">{activeArticle.capitulo}</p>
-                    <h3 className="mt-2 text-3xl font-black text-white md:text-4xl">Art. {activeArticle.numero_texto || activeArticle.numero}</h3>
-                    {activeArticle.tags?.length ? <p className="mt-2 text-sm text-gray-500">{activeArticle.tags.join(" - ")}</p> : null}
-                  </div>
-                  <div className="flex flex-wrap gap-2">
-                    <Button size="sm" variant="outline" icon={Highlighter} onClick={() => grifarArtigo(activeArticle.id, grifos[activeArticle.id] ? undefined : "yellow")}>Grifar</Button>
-                    <Button size="sm" variant="outline" icon={Bookmark} onClick={() => toggleFavorito(activeArticle.id)}>{favoritos.includes(activeArticle.id) ? "Favorito" : "Favoritar"}</Button>
-                    <Button size="sm" variant="outline" icon={CheckCircle2} onClick={() => markStudied(activeArticle.id)}>{studied[activeArticle.id] ? "Estudado" : "Marcar estudado"}</Button>
-                  </div>
-                </div>
-              </div>
-
-              <div className="rounded-lg border border-gray-800 bg-gray-900/70 px-5 py-6 md:px-8 md:py-8">
-                <p className={cx("whitespace-pre-wrap text-gray-100 [&_mark]:rounded [&_mark]:bg-amber-300 [&_mark]:px-1 [&_mark]:text-gray-950", articleTextSize)} dangerouslySetInnerHTML={{ __html: highlight(activeArticle.texto) }} />
-              </div>
-
-              <div className="mt-5 rounded-lg border border-gray-800 bg-gray-950 p-4">
-                <Textarea label="Anotacao vinculada" value={notas[activeArticle.id] || ""} onChange={(event) => handleNote(activeArticle.id, event.target.value)} placeholder="Escreva uma observacao sobre este artigo" />
-              </div>
-            </article>
+        <section className={cx("leis-layer leis-structure-layer", level === "structure" && "is-current")}>
+          <div className="leis-breadcrumb">{selectedLaw?.nome}</div>
+          <div className="leis-chip-row">
+            {[
+              ["estrutura", "Estrutura"],
+              ["cobrados", "Mais cobrados"],
+              ["todos", "Todos os artigos"],
+            ].map(([id, label]) => <button key={id} className={cx(structureChip === id && "is-active")} onClick={() => setStructureChip(id)} type="button">{label}</button>)}
+          </div>
+          {structureChip === "todos" ? (
+            <div className="leis-article-list compact">
+              {selectedLaw?.articles.map((article) => <ArticleButton key={article.id} article={article} active={selectedArticle?.id === article.id} read={leitura[article.id]} onClick={() => openArticle(article.id)} />)}
+            </div>
           ) : (
-            <div className="p-4 xl:overflow-y-auto">
-              <EmptyState icon={Search} title="Nenhum artigo parseado" description="Cole o texto oficial em texto.txt desta lei e rode npm run miner:leis." />
+            <div className="leis-section-list">
+              {(structureChip === "cobrados" ? sections.filter((section) => section.hot) : sections).map((section) => (
+                <button key={section.id} className={cx("leis-section-card", selectedSection?.id === section.id && "is-active")} onClick={() => openSection(section.id)} type="button">
+                  <span>
+                    <strong>{section.name}</strong>
+                    <small>Art. {section.start} a {section.end}</small>
+                  </span>
+                  {section.hot ? <Badge variant="warning"><Flame size={12} /> {section.questions || "cai muito"}</Badge> : <ArrowRight size={17} />}
+                </button>
+              ))}
             </div>
           )}
-        </main>
+        </section>
 
-        <aside className="min-h-0 space-y-4 xl:h-full xl:overflow-y-auto xl:pr-1">
-          <Card hover={false}>
-            <h2 className="mb-3 text-lg font-bold text-white">Estudar este artigo</h2>
-            <div className="grid gap-2">
-              <Button size="md" variant="secondary" icon={Brain} onClick={handleFlashcards} disabled={!activeArticle || actionLoading === "flashcards"}>Gerar flashcards</Button>
-              <Button size="md" variant="secondary" icon={FileQuestion} onClick={handlePractice} disabled={!activeArticle || actionLoading === "questoes"}>Praticar questoes</Button>
-            </div>
-          </Card>
+        <section className={cx("leis-layer leis-articles-layer", level === "articles" && "is-current")}>
+          <div className="leis-breadcrumb">{selectedLaw?.nome_curto || selectedLaw?.nome} &gt; {selectedSection?.name || "Artigos"}</div>
+          <div className="leis-article-list">
+            {articleList.map((article) => <ArticleButton key={article.id} article={article} active={selectedArticle?.id === article.id} read={leitura[article.id]} onClick={() => openArticle(article.id)} />)}
+          </div>
+        </section>
 
-          <Card hover={false}>
-            <h2 className="mb-2 text-lg font-bold text-white">Questoes oficiais</h2>
-            <p className="mb-3 text-sm leading-5 text-gray-500">{activeArticle ? `${relatedQuestions.length} questoes oficiais relacionadas a este artigo.` : "Selecione um artigo."}</p>
-            <div className="space-y-2">
-              {relatedQuestions.slice(0, 5).map((item) => (
-                <button key={item.id} className="w-full rounded-lg border border-gray-800 bg-gray-900 p-3 text-left text-sm text-gray-300 hover:border-blue-400 hover:bg-gray-800" onClick={() => navigate("questoes")} type="button">
-                  <FileQuestion className="mb-2 text-blue-300" size={16} />
-                  <strong>{item.banca || "Oficial"}</strong>
-                  <p className="mt-1 line-clamp-3 text-xs leading-5 text-gray-400">{item.enunciado}</p>
-                  <span className="mt-2 inline-flex"><Badge variant="success">Oficial</Badge></span>
-                </button>
-              ))}
-              {!relatedQuestions.length ? <p className="rounded-lg border border-dashed border-gray-800 bg-gray-900 p-3 text-sm leading-5 text-gray-500">Sem vinculos oficiais ainda. A pratica pode criar uma questao inedita marcada como IA.</p> : null}
-            </div>
-          </Card>
+        <section className={cx("leis-layer leis-reader-layer", level === "reader" && "is-current")} onMouseUp={handleSelection} onTouchEnd={handleSelection}>
+          {selectedArticle ? (
+            <>
+              <div className="leis-reader-header">
+                <div>
+                  <div className="leis-breadcrumb">{selectedArticle.leiCurta} &gt; {selectedArticle.capitulo}</div>
+                  <h2>Art. {selectedArticle.numero_texto}</h2>
+                  <p>{selectedIndex + 1} / {selectedLaw?.articles.length || 0}</p>
+                </div>
+                <button className="leis-jump-button" onClick={() => setSheetOpen(true)} type="button" aria-label="Salto rapido"><List size={20} /></button>
+              </div>
 
-          <Card hover={false}>
-            <h2 className="mb-3 text-lg font-bold text-white">Mais importantes</h2>
-            <div className="space-y-2">
-              {articles.filter((item) => item.cobrancas || item.importancia >= 5).slice(0, 6).map((item) => (
-                <button key={item.id} type="button" onClick={() => selectArticle(item.id)} className={cx("group w-full rounded-lg border p-3 text-left text-sm transition", activeArticle?.id === item.id ? "border-amber-300 bg-amber-300/10 text-white shadow-sm" : "border-gray-800 bg-gray-900 text-gray-300 hover:border-amber-300 hover:bg-gray-800")}>
-                  <span className="mb-2 flex items-center justify-between gap-2">
-                    <span className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-wide text-amber-300"><Sparkles size={15} /> Atalho</span>
-                    <ArrowRight className={cx("text-gray-600 transition group-hover:translate-x-0.5 group-hover:text-amber-300", activeArticle?.id === item.id && "text-amber-300")} size={15} />
-                  </span>
-                  <strong className="block text-base">Art. {item.numero_texto || item.numero}</strong>
-                  <p className="mt-1 line-clamp-2 text-xs leading-5 text-gray-500">{item.capitulo || item.secao || item.lei}</p>
-                  <p className="mt-2 text-xs text-gray-500">{item.cobrancas || 0} questoes oficiais relacionadas</p>
-                </button>
-              ))}
-              {!articles.filter((item) => item.cobrancas || item.importancia >= 5).length ? <p className="rounded-lg bg-gray-900 p-3 text-sm text-gray-500">Sem ranking de cobranca para esta norma ainda.</p> : null}
-            </div>
-          </Card>
+              <div className="leis-reader-actions">
+                <Button variant="secondary" icon={Highlighter} onClick={() => saveHighlight("yellow")}>Amarelo</Button>
+                <Button variant="secondary" icon={Highlighter} onClick={() => saveHighlight("green")}>Verde</Button>
+                <Button variant="secondary" icon={Highlighter} onClick={() => saveHighlight("pink")}>Rosa</Button>
+                <Button variant="secondary" icon={Bookmark} onClick={() => toggleFavorito(selectedArticle.id)}>{favoritos.includes(selectedArticle.id) ? "Favorito" : "Favoritar"}</Button>
+                <Button variant={leitura[selectedArticle.id] ? "primary" : "secondary"} icon={CheckCircle2} onClick={toggleRead}>{leitura[selectedArticle.id] ? "Lido" : "Marcar lido"}</Button>
+              </div>
 
-          <Card hover={false}>
-            <h2 className="mb-3 text-lg font-bold text-white">Revisoes</h2>
-            <div className="space-y-2">
-              {revisoes.map((item) => <div key={item} className="rounded-lg bg-gray-900 p-3 text-sm leading-5 text-gray-300">{item}</div>)}
-            </div>
-          </Card>
-        </aside>
+              {selectedText ? <div className="leis-selection-note">Trecho selecionado: {selectedText.slice(0, 90)}...</div> : null}
+
+              <article className="leis-article-reader" dangerouslySetInnerHTML={{ __html: readerHtml }} />
+
+              <div className="leis-reader-nav">
+                <Button variant="secondary" disabled={selectedIndex <= 0} onClick={() => goSibling(-1)}>Art. anterior</Button>
+                <Button variant="secondary" disabled={selectedIndex >= (selectedLaw?.articles.length || 1) - 1} onClick={() => goSibling(1)}>Art. proximo</Button>
+              </div>
+
+              <Card hover={false} className="leis-study-actions">
+                <Button loading={loadingAction === "flashcard"} icon={Plus} onClick={generateFlashcard}>Gerar flashcard</Button>
+                <Button loading={loadingAction === "questoes"} variant="secondary" icon={FileQuestion} onClick={practiceQuestions}>{selectedArticle.cobrancas || 0} questoes</Button>
+                <Button loading={loadingAction === "explicar"} variant="secondary" icon={MessageCircle} onClick={explainArticle}>Aprovinho explica</Button>
+              </Card>
+
+              {explanation ? <Card hover={false} className="leis-explanation"><h3>Aprovinho explica</h3><p>{explanation}</p></Card> : null}
+
+              <Card hover={false} className="leis-note-card">
+                <Textarea label="Nota pessoal" value={notas[selectedArticle.id] || ""} onChange={(event) => saveNote(event.target.value)} placeholder="Escreva sua anotacao sobre este artigo." />
+              </Card>
+
+              {articleMarks.length ? (
+                <Card hover={false} className="leis-marks-card">
+                  <h3>Grifos deste artigo</h3>
+                  {articleMarks.map((mark) => (
+                    <div key={mark.id} className="leis-mark-item">
+                      <span style={{ background: highlightColors[mark.cor] }}>{mark.trecho}</span>
+                      <button onClick={() => { removerGrifo(selectedArticle.id, mark.id); leisService.removerGrifo({ grifoId: mark.id, artigoId: selectedArticle.id }).catch(() => {}); }} type="button"><X size={14} /></button>
+                    </div>
+                  ))}
+                </Card>
+              ) : null}
+            </>
+          ) : (
+            <EmptyState icon={BookOpen} title="Selecione um artigo" description="Escolha uma lei e avance ate o leitor." action={<Mascot size="md" pose="feedback" framed={false} />} />
+          )}
+        </section>
       </div>
 
-      <Modal open={mobileFiltersOpen} title="Filtros" onClose={() => setMobileFiltersOpen(false)} footer={<Button onClick={() => setMobileFiltersOpen(false)}>Aplicar</Button>}>
-        {filtersContent}
-      </Modal>
+      {sheetOpen ? (
+        <div className="leis-bottom-sheet">
+          <button className="leis-sheet-backdrop" onClick={() => setSheetOpen(false)} type="button" aria-label="Fechar" />
+          <div className="leis-sheet-panel">
+            <div className="leis-sheet-header">
+              <strong>Salto rapido</strong>
+              <button onClick={() => setSheetOpen(false)} type="button"><X size={18} /></button>
+            </div>
+            <h3>Artigos</h3>
+            <div className="leis-jump-grid">
+              {selectedLaw?.articles.map((article) => (
+                <button key={article.id} className={cx(article.id === selectedArticle?.id && "is-active", leitura[article.id] && "is-read")} onClick={() => openArticle(article.id)} type="button">{article.numero_texto}</button>
+              ))}
+            </div>
+            <h3>Favoritos</h3>
+            <div className="leis-sheet-list">
+              {selectedLaw?.articles.filter((article) => favoritos.includes(article.id)).map((article) => <button key={article.id} onClick={() => openArticle(article.id)} type="button">Art. {article.numero_texto} - {excerpt(article).slice(0, 70)}</button>)}
+              {!selectedLaw?.articles.some((article) => favoritos.includes(article.id)) ? <span>Nenhum favorito nesta lei ainda.</span> : null}
+            </div>
+          </div>
+        </div>
+      ) : null}
+
+      {level === "laws" && hotArticles.length ? (
+        <section className="leis-hot-strip">
+          <div><Sparkles size={18} /><strong>Comece pelo que mais cai</strong></div>
+          <div>
+            {hotArticles.slice(0, 6).map((article) => <button key={article.id} onClick={() => openArticle(article.id)} type="button">{article.leiCurta} Art. {article.numero_texto}</button>)}
+          </div>
+        </section>
+      ) : null}
     </div>
+  );
+}
+
+function ArticleButton({ article, active, read, onClick }) {
+  return (
+    <button className={cx("leis-article-card", active && "is-active", read && "is-read")} onClick={onClick} type="button">
+      <span>
+        <strong>Art. {article.numero_texto}</strong>
+        <small>{excerpt(article)}</small>
+      </span>
+      <em>{article.cobrancas ? <><Flame size={13} /> {article.cobrancas} q.</> : read ? <CheckCircle2 size={15} /> : <ArrowRight size={16} />}</em>
+    </button>
   );
 }

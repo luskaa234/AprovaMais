@@ -2,9 +2,11 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useMemo, useState } from "react";
 import Onboarding from "./Onboarding";
 import { InternalRouterProvider, useInternalRouter, useUser } from "../contexts";
+import { useOnboarding } from "../hooks/useOnboarding";
 import { AppShell } from "../layouts";
 import { AdminLayout } from "../admin";
 import {
+  AjudaPage,
   BibliotecaPage,
   CadernoErrosPage,
   DashboardPage,
@@ -38,8 +40,15 @@ const views = {
   leis: LeisSecasPage,
   ia: IAPage,
   perfil: PerfilPage,
+  ajuda: AjudaPage,
   admin: AdminLayout,
 };
+
+function OnboardingBootstrap() {
+  const { navigate } = useInternalRouter();
+  useOnboarding({ navigate });
+  return null;
+}
 
 function isOabFocus(user) {
   const objective = String(user?.objective || user?.diagnosticPlan?.objective || "").toLowerCase();
@@ -100,6 +109,7 @@ function InternalRoutes() {
 
   return (
     <AppShell onMobileRefresh={() => setRefreshToken((value) => value + 1)}>
+      <OnboardingBootstrap />
       <AnimatePresence mode="wait">
         <motion.div key={`${route}-${refreshToken}`} {...pageMotion}>
           <View />

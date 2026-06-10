@@ -1,0 +1,68 @@
+import { BookOpen, GitBranch, HelpCircle, Layers, LifeBuoy, MessageCircleQuestion, PlayCircle, Scale } from "lucide-react";
+import { Card } from "../../components";
+import TourButton from "../../components/TourButton";
+import { useInternalRouter } from "../../contexts";
+import { routeLabels } from "../../tours/tourUtils";
+
+const helpItems = [
+  { route: "dashboard", title: "Dashboard", description: "Entenda progresso, metas, desempenho e proximas acoes.", icon: BookOpen },
+  { route: "plano", title: "Plano de estudos", description: "Aprenda a usar calendario, filtros, atividades e progresso semanal.", icon: PlayCircle },
+  { route: "questoes", title: "Banco de questoes", description: "Veja como filtrar, responder, salvar e revisar questoes.", icon: HelpCircle },
+  { route: "simulados", title: "Simulados", description: "Configure treinos cronometrados e acompanhe resultados.", icon: LifeBuoy },
+  { route: "redacao", title: "Redacao", description: "Use o editor, correcao e historico de evolucao.", icon: MessageCircleQuestion },
+  { route: "ia", title: "IA Aprovinho", description: "Descubra como tirar duvidas e gerar planos com contexto.", icon: MessageCircleQuestion },
+  { route: "flashcards", title: "Flashcards", description: "Revise por cards, responda antes de virar e registre acertos ou erros.", icon: Layers },
+  { route: "mapas", title: "Mapas mentais", description: "Aprenda a navegar, filtrar, estudar e transformar mapas em revisao.", icon: GitBranch },
+  { route: "leis", title: "Leis Secas", description: "Veja como ler artigos, grifar, anotar e praticar questoes conectadas.", icon: Scale },
+];
+
+export default function AjudaPage() {
+  const { route } = useInternalRouter();
+  const currentLabel = routeLabels[route] || "esta pagina";
+
+  return (
+    <div className="mx-auto max-w-6xl pb-10 text-slate-900" data-tour="tour-ajuda-page">
+      <section className="mb-5 overflow-hidden rounded-lg border border-blue-100 bg-white p-5 shadow-sm">
+        <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+          <div className="flex items-center gap-4">
+            <div>
+              <p className="text-xs font-black uppercase tracking-wide text-blue-600">Central de Ajuda</p>
+              <h1 className="text-3xl font-black text-slate-950">Tutoriais guiados do Aprova Mais</h1>
+              <p className="mt-1 max-w-2xl text-sm leading-6 text-slate-500">
+                Reabra o tour geral ou veja um passo a passo especifico para cada area da plataforma.
+              </p>
+            </div>
+          </div>
+          <TourButton tour="app" variant="primary">Ver Tutorial</TourButton>
+        </div>
+      </section>
+
+      <section className="mb-5 rounded-lg border border-blue-100 bg-blue-50 p-4">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h2 className="font-black text-slate-950">Como usar esta pagina?</h2>
+            <p className="text-sm text-slate-500">Voce esta em {currentLabel}. Use este botao em qualquer tela para abrir o tutorial daquela area.</p>
+          </div>
+          <TourButton />
+        </div>
+      </section>
+
+      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+        {helpItems.map(({ route: itemRoute, title, description, icon: Icon }) => (
+          <Card key={itemRoute} hover={false} className="border-blue-100 bg-white shadow-sm">
+            <div className="mb-4 flex items-start gap-3">
+              <span className="grid size-10 place-items-center rounded-lg bg-blue-100 text-blue-600">
+                <Icon size={18} />
+              </span>
+              <div>
+                <h3 className="font-black text-slate-950">{title}</h3>
+                <p className="mt-1 text-sm leading-6 text-slate-500">{description}</p>
+              </div>
+            </div>
+            <TourButton route={itemRoute} variant="secondary">Abrir tutorial</TourButton>
+          </Card>
+        ))}
+      </div>
+    </div>
+  );
+}

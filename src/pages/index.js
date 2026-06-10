@@ -13,3 +13,4 @@ export { default as BibliotecaPage } from "./Biblioteca";
 export { default as LeisSecasPage } from "./LeisSecas";
 export { default as IAPage } from "./IA";
 export { default as PerfilPage } from "./Perfil";
+export { default as AjudaPage } from "./Ajuda";

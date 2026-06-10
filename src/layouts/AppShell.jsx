@@ -1,9 +1,10 @@
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Bell, ChevronDown, Menu, Search, X } from "lucide-react";
+import { Bell, BookOpen, CalendarDays, Home, Moon, PlusCircle, Search, Settings2, Sun, X } from "lucide-react";
 import { Avatar, Input, Toast, cx } from "../components";
 import BrandLogo from "../components/BrandLogo";
-import { useInternalRouter, useNotifications, useUser } from "../contexts";
+import TourButton from "../components/TourButton";
+import { useInternalRouter, useNotifications, useThemeMode, useUser } from "../contexts";
 import { navItems } from "./navigation";
 
 function isOabFocus(user) {
@@ -20,14 +21,16 @@ function visibleNavItems(user, isAdmin) {
   });
 }
 
-const mobilePrimaryTabs = ["dashboard", "questoes", "plano", "flashcards", "perfil"];
+const mobilePrimaryTabs = ["dashboard", "biblioteca", "questoes", "plano"];
 
 const Sidebar = memo(({ mobile = false, onNavigate }) => {
   const { route, navigate } = useInternalRouter();
   const { user, isAdmin } = useUser();
   const items = useMemo(() => {
     const visible = visibleNavItems(user, isAdmin);
-    return mobile ? visible.filter((item) => !mobilePrimaryTabs.includes(item.key)) : visible;
+    return mobile
+      ? visible.filter((item) => !mobilePrimaryTabs.includes(item.key))
+      : visible.filter((item) => item.key !== "perfil");
   }, [isAdmin, mobile, user]);
 
   const handleNavigate = useCallback(
@@ -41,16 +44,23 @@ const Sidebar = memo(({ mobile = false, onNavigate }) => {
   return (
     <aside
       className={cx(
-        "flex h-full flex-col bg-gray-950",
-        mobile ? "w-full p-4" : "w-20 border-r border-gray-800 p-3 xl:w-72 xl:p-4"
+        "flex h-full flex-col",
+        mobile ? "mobile-more-menu w-full bg-white p-5 pt-4" : "w-20 border-r border-gray-800 bg-gray-950 p-3 xl:w-72 xl:p-4"
       )}
     >
-      <div className={cx("flex min-h-12 items-center", mobile ? "mb-4 pr-12" : "mb-6 px-2")}>
-        <BrandLogo className="internal-brand-logo" />
+      <div className={cx("flex min-h-12 items-center", mobile ? "mb-3 pr-12" : "mb-6 px-2")}>
+        {mobile ? (
+          <div>
+            <p className="text-xs font-black uppercase tracking-wide text-blue-600">Aprova Mais</p>
+            <h2 className="text-2xl font-black text-slate-950">Atalhos</h2>
+          </div>
+        ) : (
+          <BrandLogo className="internal-brand-logo" />
+        )}
       </div>
 
       <nav className={cx("flex-1 overflow-auto pr-1", mobile ? "space-y-1.5" : "space-y-1")}>
-        {items.map(({ key, label, icon: Icon, badge }) => (
+        {items.map(({ key, label, icon: Icon, badge, tourId }) => (
           <button
             className={cx(
               "flex w-full items-center gap-3 rounded-xl text-left font-semibold transition",
@@ -59,6 +69,8 @@ const Sidebar = memo(({ mobile = false, onNavigate }) => {
                 ? "internal-nav-active bg-blue-600 text-white shadow-lg shadow-blue-950/20"
                 : "text-gray-400 hover:bg-gray-900 hover:text-white"
             )}
+            data-tour={tourId}
+            id={!mobile && tourId ? tourId : undefined}
             key={key}
             onClick={() => handleNavigate(key)}
             type="button"
@@ -78,22 +90,15 @@ const Sidebar = memo(({ mobile = false, onNavigate }) => {
           </button>
         ))}
       </nav>
-
-      <div className="mt-4 flex items-center gap-3 rounded-2xl border border-gray-800 bg-gray-900 p-3">
-        <Avatar name={user?.name} online />
-        <div className={cx("min-w-0", mobile ? "block" : "hidden xl:block")}>
-          <p className="truncate text-sm font-bold text-white">{user?.name}</p>
-          <p className="truncate text-xs text-gray-500">{user?.targetContest}</p>
-        </div>
-      </div>
     </aside>
   );
 });
 Sidebar.displayName = "Sidebar";
 
-const Topbar = memo(({ onMenu }) => {
+const Topbar = memo(() => {
   const { route, navigate } = useInternalRouter();
   const { user, isAdmin } = useUser();
+  const { isDark, toggleTheme } = useThemeMode();
   const { notifications, unreadCount, markAsRead, clearAll, toast } = useNotifications();
   const [query, setQuery] = useState("");
   const [searchOpen, setSearchOpen] = useState(false);
@@ -129,15 +134,19 @@ const Topbar = memo(({ onMenu }) => {
 
       <div className="flex items-center gap-2 md:gap-3">
         <button
-          aria-label="Abrir mais opcoes"
-          className="grid size-10 place-items-center rounded-xl text-gray-300 hover:bg-gray-800 lg:hidden"
-          onClick={onMenu}
+          aria-label="Abrir perfil"
+          className="mobile-top-profile flex min-w-0 flex-1 items-center gap-2 rounded-xl p-1.5 text-left lg:hidden"
+          onClick={() => navigate("perfil")}
           type="button"
         >
-          <Menu size={21} />
+          <Avatar name={user?.name} size="sm" />
+          <span className="min-w-0">
+            <strong className="block truncate text-sm font-black text-white">{user?.name?.split(" ")?.[0] || "Aluno"}</strong>
+            <small className="block truncate text-[11px] font-semibold text-gray-500">{current?.label || "Dashboard"}</small>
+          </span>
         </button>
 
-        <div className="min-w-0 flex-1">
+        <div className="hidden min-w-0 flex-1 lg:block">
           <p className="hidden text-xs text-gray-500 sm:block">Área interna</p>
           <h1 className="truncate text-base font-black text-white md:text-lg">{current?.label || "Dashboard"}</h1>
         </div>
@@ -180,13 +189,34 @@ const Topbar = memo(({ onMenu }) => {
           ) : null}
         </div>
 
-        <div className="hidden items-center gap-2 rounded-xl bg-gray-900 p-1 md:flex">
+        <button
+          aria-label={isDark ? "Usar modo claro" : "Usar modo escuro"}
+          className="grid size-10 place-items-center rounded-xl text-gray-300 hover:bg-gray-800"
+          onClick={toggleTheme}
+          type="button"
+        >
+          {isDark ? <Sun size={18} /> : <Moon size={18} />}
+        </button>
+
+        <TourButton className="hidden lg:inline-flex" />
+
+        <button
+          aria-label="Abrir perfil"
+          className="topbar-profile-button hidden min-h-10 items-center gap-2 rounded-xl bg-gray-900 p-1 pr-3 text-left transition hover:bg-gray-800 md:flex"
+          data-tour="tour-perfil"
+          id="tour-perfil"
+          onClick={() => navigate("perfil")}
+          type="button"
+        >
           <Avatar name={user?.name} />
-          <ChevronDown className="text-gray-500" size={16} />
-        </div>
+          <span className="hidden min-w-0 lg:block">
+            <strong className="block max-w-32 truncate text-xs font-black text-white">{user?.name || "Aluno"}</strong>
+            <small className="block max-w-32 truncate text-[11px] font-semibold text-gray-500">{user?.targetContest || "Perfil"}</small>
+          </span>
+        </button>
       </div>
 
-      <div className="relative mt-2">
+      <div className="relative mt-2 hidden md:block">
         <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" size={16} />
         <Input
           className="w-full pl-9 pr-3 md:pr-20"
@@ -229,20 +259,25 @@ const Topbar = memo(({ onMenu }) => {
 });
 Topbar.displayName = "Topbar";
 
-const BottomNav = memo(() => {
+const BottomNav = memo(({ onMore }) => {
   const { route, navigate } = useInternalRouter();
-  const { user, isAdmin } = useUser();
-  const items = useMemo(() => visibleNavItems(user, isAdmin).filter((item) => mobilePrimaryTabs.includes(item.key)).slice(0, 5), [isAdmin, user]);
+  const items = useMemo(() => [
+    { key: "dashboard", label: "Inicio", icon: Home, action: () => navigate("dashboard") },
+    { key: "biblioteca", label: "Edital", icon: BookOpen, action: () => navigate("biblioteca") },
+    { key: "questoes", label: "Questoes", icon: PlusCircle, action: () => navigate("questoes") },
+    { key: "plano", label: "Plano", icon: CalendarDays, action: () => navigate("plano") },
+    { key: "more", label: "Ver mais", icon: Settings2, action: onMore },
+  ], [navigate, onMore]);
 
   return (
     <nav className="mobile-bottom-nav lg:hidden" aria-label="Navegacao principal">
-      {items.map(({ key, label, icon: Icon }) => {
-        const active = route === key;
+      {items.map(({ key, label, icon: Icon, action }) => {
+        const active = key === "more" ? !mobilePrimaryTabs.includes(route) : route === key;
         return (
-          <motion.button className={cx(active && "is-active")} key={key} onClick={() => navigate(key)} type="button" whileTap={{ scale: 0.94 }}>
+          <motion.button className={cx(active && "is-active")} key={key} onClick={action} type="button" whileTap={{ scale: 0.94 }}>
             {active ? <motion.i className="mobile-bottom-nav-pill" layoutId="mobile-bottom-nav-pill" transition={{ type: "spring", damping: 24, stiffness: 420 }} /> : null}
             <Icon size={20} strokeWidth={active ? 2.4 : 2} />
-            <span>{label.split(" ")[0]}</span>
+            <span>{label}</span>
           </motion.button>
         );
       })}
@@ -318,6 +353,12 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
     };
   }, [mobileOpen]);
 
+  useEffect(() => {
+    const onTourMenu = (event) => setMobileOpen(Boolean(event.detail?.open));
+    window.addEventListener("aprova:mobile-menu", onTourMenu);
+    return () => window.removeEventListener("aprova:mobile-menu", onTourMenu);
+  }, []);
+
   return (
     <div
       className={cx(
@@ -339,16 +380,17 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
             onClick={closeMobile}
           >
             <motion.div
-              animate={{ x: 0 }}
-              className="h-full w-[min(88vw,360px)] bg-gray-950 shadow-2xl"
-              exit={{ x: "-100%" }}
-              initial={{ x: "-100%" }}
+              animate={{ y: 0 }}
+              className="mobile-more-sheet absolute inset-x-0 bottom-0 max-h-[82svh] rounded-t-[2rem] bg-white shadow-2xl"
+              exit={{ y: "100%" }}
+              initial={{ y: "100%" }}
               onClick={(event) => event.stopPropagation()}
               transition={{ type: "spring", damping: 30, stiffness: 360 }}
             >
+              <div className="mx-auto mt-3 h-1.5 w-14 rounded-full bg-slate-300" />
               <button
                 aria-label="Fechar menu"
-                className="absolute right-4 top-4 z-10 grid size-10 place-items-center rounded-xl bg-gray-900 text-gray-300 shadow-lg"
+                className="absolute right-4 top-4 z-10 grid size-10 place-items-center rounded-xl bg-slate-100 text-slate-500 shadow-sm"
                 onClick={closeMobile}
                 type="button"
               >
@@ -361,9 +403,9 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
       </AnimatePresence>
 
       <div className="lg:pl-20 xl:pl-72">
-        <Topbar onMenu={openMobile} />
+        <Topbar />
         <main
-          className="min-h-[calc(100vh-73px)] bg-[radial-gradient(circle_at_top_right,#2563eb22,transparent_35rem)] p-3 sm:p-4 md:p-6"
+          className="min-h-[calc(100vh-73px)] bg-slate-50 p-3 sm:p-4 md:p-6"
           onTouchEnd={handleTouchEnd}
           onTouchMove={handleTouchMove}
           onTouchStart={handleTouchStart}
@@ -376,7 +418,7 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
           {children}
         </main>
       </div>
-      <BottomNav />
+      <BottomNav onMore={openMobile} />
     </div>
   );
 });

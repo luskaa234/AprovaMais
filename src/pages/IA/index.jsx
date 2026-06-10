@@ -35,10 +35,14 @@ export default function IAPage() {
   }, [questoes, tentativas, user?.rawStats?.sequenciaDias, user?.stats?.accuracy, user?.stats?.streak]);
 
   return (
-    <div className="flex h-[calc(100vh-130px)] flex-col">
-      <h1 className="text-3xl font-black text-white">Assistente de estudos</h1>
-      <p className="mb-5 text-sm text-gray-400">Conversa guiada para duvidas, revisoes e organizacao do plano.</p>
-      <AIChat desempenho={desempenho} perfil={user} />
+    <div className="ai-page flex h-[calc(100vh-130px)] flex-col">
+      <div className="ai-page-header" data-tour="tour-aprovinho-header">
+        <h1 className="text-3xl font-black text-white">Assistente de estudos</h1>
+        <p className="mb-5 text-sm text-gray-400">Conversa guiada para duvidas, revisoes e organizacao do plano.</p>
+      </div>
+      <div className="min-h-0 flex-1" data-tour="tour-aprovinho-chat">
+        <AIChat desempenho={desempenho} perfil={user} />
+      </div>
     </div>
   );
 }

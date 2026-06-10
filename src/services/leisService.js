@@ -160,13 +160,23 @@ ARTIGO: ${artigo.texto}
 Responda APENAS em JSON, sem markdown:
 [{"frente":"pergunta ou frase com lacuna","verso":"resposta exata conforme o artigo"}]`;
 
-    const resposta = await aiService.gerarTexto(prompt);
-    const cards = parseJsonFromAi(resposta).slice(0, 5).map((card) => ({
-      frente: card.frente,
-      verso: card.verso,
-      origem: "lei_seca",
-      artigoId: artigo.id,
-    }));
+    let cards;
+    try {
+      const resposta = await aiService.gerarTexto(prompt);
+      cards = parseJsonFromAi(resposta).slice(0, 5).map((card) => ({
+        frente: card.frente,
+        verso: card.verso,
+        origem: "lei_seca",
+        artigoId: artigo.id,
+      }));
+    } catch {
+      cards = [{
+        frente: `Explique o Art. ${artigo.numero_texto || artigo.numero} de ${artigo.lei || artigo.lei_nome || "lei seca"}.`,
+        verso: artigo.texto,
+        origem: "lei_seca",
+        artigoId: artigo.id,
+      }];
+    }
 
     return flashcardsService.criarDeckLeiSeca({
       titulo: `Lei Seca - ${artigo.lei || artigo.lei_nome || "Artigo"}`,
@@ -207,15 +217,40 @@ JSON apenas: {"enunciado":"...","alternativas":[{"letra":"A","texto":"..."}],"ga
     return { tipo: "ia", questao };
   },
 
-  async grifarArtigo(artigoId, cor = "yellow", userId = null) {
+  async explicarArtigo(artigo, objetivo = "concurso publico") {
+    const prompt = `Explique este artigo de lei em linguagem simples, com foco em ${objetivo}.
+Organize em: 1) ideia central, 2) como cai em prova, 3) pegadinha comum.
+Nao invente regra fora do texto.
+
+ARTIGO:
+${artigo.texto}`;
+    return aiService.gerarTexto(prompt);
+  },
+
+  async grifarArtigo({ leiId, artigoId, trecho = "", cor = "yellow" }, userId = null) {
     if (!isSupabaseConfigured) {
-      useLeisStore.getState().grifarArtigo(artigoId, cor);
+      useLeisStore.getState().grifarArtigo(artigoId, cor, trecho);
       return cor;
     }
     const uid = userId || await getCurrentUserId();
-    if (!uid) return null;
-    await supabase.from("artigos_grifados").upsert({ user_id: uid, artigo_id: artigoId, cor });
+    if (!uid) {
+      useLeisStore.getState().grifarArtigo(artigoId, cor, trecho);
+      return cor;
+    }
+    const { error } = await supabase.from("grifos").insert({ user_id: uid, lei_id: leiId, artigo_id: artigoId, trecho, cor });
+    if (error) {
+      useLeisStore.getState().grifarArtigo(artigoId, cor, trecho);
+    }
     return cor;
+  },
+
+  async removerGrifo({ grifoId, artigoId }, userId = null) {
+    useLeisStore.getState().removerGrifo(artigoId, grifoId);
+    if (!isSupabaseConfigured) return true;
+    const uid = userId || await getCurrentUserId();
+    if (!uid) return true;
+    await supabase.from("grifos").delete().eq("id", grifoId).eq("user_id", uid);
+    return true;
   },
 
   async toggleFavorito(artigoId, userId = null) {
@@ -240,8 +275,21 @@ JSON apenas: {"enunciado":"...","alternativas":[{"letra":"A","texto":"..."}],"ga
       return true;
     }
     const uid = userId || await getCurrentUserId();
-    if (!uid) return false;
-    await supabase.from("artigos_notas").upsert({ user_id: uid, artigo_id: artigoId, nota });
+    if (!uid) {
+      useLeisStore.getState().salvarNota(artigoId, nota);
+      return true;
+    }
+    const { error } = await supabase.from("notas").upsert({ user_id: uid, artigo_id: artigoId, nota }, { onConflict: "user_id,artigo_id" });
+    if (error) useLeisStore.getState().salvarNota(artigoId, nota);
+    return true;
+  },
+
+  async marcarLido({ leiId, artigoId, lido }, userId = null) {
+    useLeisStore.getState().marcarLido(artigoId, lido);
+    if (!isSupabaseConfigured) return true;
+    const uid = userId || await getCurrentUserId();
+    if (!uid) return true;
+    await supabase.from("leitura_progresso").upsert({ user_id: uid, lei_id: leiId, artigo_id: artigoId, lido, data: new Date().toISOString() }, { onConflict: "user_id,artigo_id" });
     return true;
   },
 };

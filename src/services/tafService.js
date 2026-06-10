@@ -182,12 +182,14 @@ export const tafService = {
   async registrarTeste(resultados, concurso = "PMSP", userId = null) {
     if (isSupabaseConfigured) {
       const uid = userId || await getCurrentUserId();
-      if (!uid) return null;
-      const { nota, situacao } = this.calcularNota(resultados, concurso);
-      const { error } = await supabase.from("taf_testes").insert({ user_id: uid, concurso, nota, situacao, resultados });
-      if (error) throw error;
-      await supabase.from("profiles").update({ taf_nota: nota }).eq("id", uid);
-      return { nota, situacao };
+      if (uid) {
+        const { nota, situacao } = this.calcularNota(resultados, concurso);
+        const { error } = await supabase.from("taf_testes").insert({ user_id: uid, concurso, nota, situacao, resultados });
+        if (error) throw error;
+        await supabase.from("profiles").update({ taf_nota: nota }).eq("id", uid);
+        useTafStore.getState().registrarTeste(resultados);
+        return { nota, situacao };
+      }
     }
     const nota = useTafStore.getState().registrarTeste(resultados);
     return { nota, situacao: nota >= 7 ? "Aprovado" : "Reprovado" };

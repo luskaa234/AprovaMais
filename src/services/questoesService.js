@@ -227,13 +227,52 @@ function uniqueById(questoes = []) {
   });
 }
 
-function shuffle(items = []) {
-  return [...items].sort(() => Math.random() - 0.5);
+function hashSeed(value = "aprova") {
+  return String(value).split("").reduce((hash, char) => {
+    const next = ((hash << 5) - hash) + char.charCodeAt(0);
+    return next >>> 0;
+  }, 2166136261);
+}
+
+function seededRandom(seed) {
+  let value = hashSeed(seed) || 1;
+  return () => {
+    value = (value * 1664525 + 1013904223) >>> 0;
+    return value / 4294967296;
+  };
+}
+
+function shuffle(items = [], seed = Date.now()) {
+  const random = seededRandom(seed);
+  const shuffled = [...items];
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(random() * (index + 1));
+    [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
+  }
+  return shuffled;
+}
+
+function orderForTraining(items = [], filters = {}) {
+  if (!filters.aleatorio) return items;
+  const state = useQuestoesStore.getState();
+  const answered = new Set(state.tentativas.map((item) => item.questaoId));
+  const wrong = new Set([
+    ...state.caderno,
+    ...state.tentativas.filter((item) => !item.acertou).map((item) => item.questaoId),
+  ]);
+  const random = seededRandom(filters.seed || Date.now());
+  return [...items]
+    .map((questao) => {
+      const priority = (answered.has(questao.id) ? 0 : 2000) + (wrong.has(questao.id) ? 900 : 0);
+      return { questao, score: priority + random() };
+    })
+    .sort((a, b) => b.score - a.score)
+    .map(({ questao }) => questao);
 }
 
 function withoutFilter(filters = {}, ignoredKey = "") {
   return Object.fromEntries(Object.entries(filters).filter(([key, value]) =>
-    value && key !== ignoredKey && !["limit", "aleatorio", "apenasOficiais", "status", "search"].includes(key)
+    value && key !== ignoredKey && !["limit", "aleatorio", "apenasOficiais", "status", "search", "questoesIds"].includes(key)
   ));
 }
 
@@ -275,6 +314,7 @@ function rowMatches(q, filters = {}) {
 
   return Object.entries(filters).every(([key, value]) => {
     if (!value) return true;
+    if (key === "questoesIds") return Array.isArray(value) ? value.includes(q.id) : true;
     if (key === "area") return matchesArea(q, value);
     if (key === "origin" || key === "origem") {
       if (value === "oficial") return q.official || normalize(q.origem).includes("oficial");
@@ -502,7 +542,7 @@ export const questoesService = {
       if (filters.apenasOficiais) return questao.official;
       return true;
     });
-    const ordered = filters.aleatorio ? shuffle(rows) : rows;
+    const ordered = filters.aleatorio ? orderForTraining(shuffle(rows, filters.seed || `${filters.area || "geral"}-${limit}`), filters) : rows;
     return ordered.slice(0, limit);
   },
   async getMateriasPorArea(area = "geral") {

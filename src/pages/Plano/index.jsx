@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { CalendarDays, CheckCircle2, ChevronLeft, ChevronRight, Clock, Filter, PauseCircle, PlayCircle, Plus, RotateCcw, Target, TrendingUp } from "lucide-react";
 import { Badge, Button, Input, Mascot, Select, cx } from "../../components";
+import { useUser } from "../../contexts";
 import { Modal } from "../../modals";
 import { useAsyncData } from "../../hooks";
 import { planoService } from "../../services";
@@ -159,7 +160,7 @@ function ActivityRow({ activity, onStatus }) {
   const timerProgress = Math.min(100, Math.round((activity.elapsedSeconds / Math.max(1, activity.duration * 60)) * 100));
 
   return (
-    <div className={cx("relative overflow-hidden rounded-lg border bg-white p-3 shadow-sm transition hover:shadow-md", isDone ? "border-emerald-100" : "border-slate-100 hover:border-blue-200")}>
+    <div data-generated={activity.generated ? "true" : undefined} className={cx("relative overflow-hidden rounded-lg border bg-white p-3 shadow-sm transition hover:shadow-md", isDone ? "border-emerald-100" : "border-slate-100 hover:border-blue-200")}>
       <span className={cx("absolute left-0 top-0 h-full w-1", typeTone(activity.type))} />
       <div className="grid gap-3 pl-2 md:grid-cols-[96px_minmax(0,1fr)_auto] md:items-center">
         <div className={cx("rounded-lg border px-3 py-2", isDone ? "border-emerald-100 bg-emerald-50 text-emerald-800" : "border-blue-100 bg-blue-50 text-blue-800")}>
@@ -221,6 +222,7 @@ function MiniBar({ label, value, color }) {
 }
 
 export default function PlanoPage() {
+  const { user } = useUser();
   const load = useCallback(() => planoService.getPlano(), []);
   const { data: plano = [] } = useAsyncData(load);
   const now = new Date();
@@ -232,6 +234,7 @@ export default function PlanoPage() {
   const [timers, setTimers] = useState(() => readStorage("aprova-plano-timers", {}));
   const [nowMs, setNowMs] = useState(() => Date.now());
   const [extraActivities, setExtraActivities] = useState(() => readStorage("aprova-plano-atividades", []));
+  const [smartPlanGenerated, setSmartPlanGenerated] = useState(() => readStorage("aprova-plano-inteligente-gerado", false));
   const [modal, setModal] = useState(false);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [draft, setDraft] = useState({ title: "", materia: "", type: "Estudo", hour: "08:00", duration: 60, concurso: "PRF", status: "Pendente" });
@@ -308,6 +311,10 @@ export default function PlanoPage() {
     localStorage.setItem("aprova-plano-atividades", JSON.stringify(extraActivities));
   }, [extraActivities]);
 
+  useEffect(() => {
+    localStorage.setItem("aprova-plano-inteligente-gerado", JSON.stringify(smartPlanGenerated));
+  }, [smartPlanGenerated]);
+
   const updateActivityStatus = useCallback((id, status) => {
     const now = Date.now();
     setTimers((current) => {
@@ -348,9 +355,27 @@ export default function PlanoPage() {
     setDraft({ title: "", materia: "", type: "Estudo", hour: "08:00", duration: 60, concurso: "PRF", status: "Pendente" });
   };
 
+  const gerarPlanoInteligente = useCallback(async ({ replace = false } = {}) => {
+    const generated = await planoService.gerarSemanaInteligente({ user, startDate: new Date(selectedDate) });
+    setExtraActivities((current) => {
+      const kept = replace ? current.filter((item) => !item.generated) : current;
+      const existing = new Set(kept.map((item) => item.id));
+      return [...generated.filter((item) => !existing.has(item.id)), ...kept];
+    });
+    setSmartPlanGenerated(true);
+  }, [selectedDate, user]);
+
+  useEffect(() => {
+    if (smartPlanGenerated || extraActivities.some((item) => item.generated)) return;
+    const timer = window.setTimeout(() => {
+      gerarPlanoInteligente();
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, [extraActivities, gerarPlanoInteligente, smartPlanGenerated]);
+
   return (
-    <div className="mx-auto min-h-[calc(100vh-9rem)] max-w-[1500px] overflow-visible pb-10 text-slate-900">
-      <div className="mb-5 flex flex-col gap-4 rounded-lg border border-blue-100 bg-white p-4 shadow-sm xl:flex-row xl:items-center xl:justify-between">
+    <div className="plano-page mx-auto min-h-[calc(100vh-9rem)] max-w-[1500px] overflow-visible pb-10 text-slate-900">
+      <div className="plano-header mb-5 flex flex-col gap-4 rounded-lg border border-blue-100 bg-white p-4 shadow-sm xl:flex-row xl:items-center xl:justify-between" data-tour="tour-studies-header">
         <div className="flex items-center gap-3">
           <span className="grid size-11 place-items-center rounded-lg border border-blue-100 bg-white text-blue-600 shadow-sm"><CalendarDays size={22} /></span>
           <div>
@@ -364,26 +389,27 @@ export default function PlanoPage() {
             {progress}% da semana
           </div>
           <div className="flex flex-wrap gap-2">
-          <Button className="md:hidden" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{activeFilterCount ? ` · ${activeFilterCount}` : ""}</Button>
+          <Button className="md:hidden" data-tour="tour-studies-filters" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{activeFilterCount ? ` · ${activeFilterCount}` : ""}</Button>
           <Button variant="secondary" onClick={goToday}>Hoje</Button>
+          <Button variant="secondary" icon={RotateCcw} onClick={() => gerarPlanoInteligente({ replace: true })}>Gerar plano</Button>
           <Button icon={Plus} onClick={() => setModal(true)}>Nova atividade</Button>
           </div>
         </div>
       </div>
 
-      <div className="mb-4 hidden gap-3 rounded-lg border border-blue-100 bg-white p-4 shadow-sm md:grid">
+      <div className="plano-desktop-filters mb-4 hidden gap-3 rounded-lg border border-blue-100 bg-white p-4 shadow-sm md:grid" data-tour="tour-studies-filters">
         {filtersContent}
       </div>
 
-      <div className="mb-4 flex flex-wrap gap-2">
+      <div className="plano-view-tabs mb-4 flex flex-wrap gap-2">
         {views.map((item) => (
           <button key={item} onClick={() => setView(item)} className={cx("min-h-10 rounded-lg border px-5 text-sm font-semibold transition", view === item ? "border-blue-600 bg-blue-600 text-white shadow-sm" : "border-blue-100 bg-white text-slate-600 hover:border-blue-300")}>{item}</button>
         ))}
       </div>
 
-      <div className="grid gap-4 xl:grid-cols-[1fr_360px]">
-        <main className="space-y-4">
-          <section className="rounded-lg border border-blue-100 bg-white shadow-sm">
+      <div className="plano-layout grid gap-4 xl:grid-cols-[1fr_360px]">
+        <main className="plano-main space-y-4">
+          <section className="plano-calendar rounded-lg border border-blue-100 bg-white shadow-sm" data-tour="tour-studies-calendar">
             <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-100 p-4">
               <div className="flex items-center gap-2">
                 <button className="rounded-lg p-2 text-slate-500 hover:bg-slate-100" onClick={() => setMonth((current) => new Date(current.getFullYear(), current.getMonth() - 1, 1))} type="button"><ChevronLeft size={18} /></button>
@@ -435,7 +461,7 @@ export default function PlanoPage() {
             )}
           </section>
 
-          <section className="overflow-hidden rounded-lg border border-blue-100 bg-white shadow-sm">
+          <section className="plano-activities overflow-hidden rounded-lg border border-blue-100 bg-white shadow-sm" data-tour="tour-studies-activities">
             <div className="border-b border-blue-100 bg-gradient-to-r from-slate-50 to-blue-50/70 px-4 py-4">
               <div className="flex flex-wrap items-start justify-between gap-3">
                 <div className="min-w-0">
@@ -469,7 +495,7 @@ export default function PlanoPage() {
             )}
           </section>
 
-          <section className="grid gap-4 rounded-lg border border-blue-100 bg-white p-4 shadow-sm md:grid-cols-5">
+          <section className="plano-stats grid gap-4 rounded-lg border border-blue-100 bg-white p-4 shadow-sm md:grid-cols-5">
             {[
               ["Meta semanal", "30h"],
               ["Horas estudadas", `${Math.floor(studiedMinutes / 60)}h ${studiedMinutes % 60}m`],
@@ -480,7 +506,7 @@ export default function PlanoPage() {
           </section>
         </main>
 
-        <aside className="space-y-4">
+        <aside className="plano-side-summary space-y-4" data-tour="tour-studies-progress">
           <section className="rounded-lg border border-blue-100 bg-white p-4 shadow-sm">
             <h2 className="font-black text-slate-950">Progresso semanal</h2>
             <div className="mt-4 flex items-center gap-4">

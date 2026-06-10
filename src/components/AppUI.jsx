@@ -36,10 +36,11 @@ export const Badge = memo(({ children, variant = "info", size = "sm" }) => {
 });
 Badge.displayName = "Badge";
 
-export const Card = memo(({ children, variant = "default", hover = true, className = "" }) => {
+export const Card = memo(({ children, variant = "default", hover = true, className = "", ...props }) => {
   const variants = { default: "aprova-card-default", elevated: "aprova-card-elevated", bordered: "aprova-card-bordered" };
   const Wrapper = hover ? motion.section : "section";
-  return <Wrapper whileHover={hover ? { y: -2 } : undefined} className={cx("rounded-[var(--aprova-radius)] border p-4 backdrop-blur", variants[variant], className)}>{children}</Wrapper>;
+  const motionProps = hover ? { whileHover: { y: -2 } } : {};
+  return <Wrapper className={cx("rounded-[var(--aprova-radius)] border p-4 backdrop-blur", variants[variant], className)} {...motionProps} {...props}>{children}</Wrapper>;
 });
 Card.displayName = "Card";
 
