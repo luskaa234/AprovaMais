@@ -269,7 +269,8 @@ export default function DashboardPage() {
   const desempenhoIA = useMemo(() => {
     const porMateria = tentativas.reduce((acc, tentativa) => {
       const questao = questoes.find((item) => item.id === tentativa.questaoId);
-      const materia = questao?.materia || "Nao informada";
+      const materia = questao?.materia;
+      if (!materia || materia === "Nao informada") return acc;
       acc[materia] ||= { acertos: 0, total: 0, erros: 0 };
       acc[materia].total += 1;
       if (tentativa.acertou) acc[materia].acertos += 1;

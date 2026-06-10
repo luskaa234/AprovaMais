@@ -18,50 +18,111 @@ function isQuotaError(error) {
   return message.includes("429") || message.includes("quota") || message.includes("rate-limit") || message.includes("rate limit");
 }
 
+function normalizeText(value = "") {
+  return String(value).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+}
+
+function usefulSubject(value) {
+  const text = normalizeText(value);
+  return text && !["nao informada", "informada", "geral", "undefined", "null"].includes(text);
+}
+
+function uniqueSubjects(items = []) {
+  const seen = new Set();
+  return items
+    .map((item) => String(item || "").trim())
+    .filter(usefulSubject)
+    .filter((item) => {
+      const key = normalizeText(item);
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+}
+
+function defaultSubjectsFor(objective = "") {
+  const text = normalizeText(objective);
+  if (text.includes("program")) return ["Logica de programacao", "JavaScript", "React", "Projetos praticos"];
+  if (text.includes("oab")) return ["Etica Profissional", "Direito Constitucional", "Direito Civil", "Processo Civil"];
+  if (text.includes("enem")) return ["Redacao", "Matematica", "Linguagens", "Ciencias Humanas"];
+  if (text.includes("pm") || text.includes("policia") || text.includes("prf")) return ["Portugues", "Matematica", "Raciocinio Logico", "Direito Constitucional"];
+  return ["Portugues", "Raciocinio Logico", "Direito Constitucional"];
+}
+
 function localTutorResponse(mensagem = "", perfil = {}, desempenho = {}) {
-  const text = mensagem.toLowerCase().trim();
+  const text = normalizeText(mensagem);
+  const safePerfil = perfil || {};
+  const safeDesempenho = desempenho || {};
   const storedUser = (() => {
     try {
+      if (typeof localStorage === "undefined") return {};
       return JSON.parse(localStorage.getItem("aprova-user") || "{}")?.state?.user || {};
     } catch {
       return {};
     }
   })();
-  const mergedPerfil = { ...perfil, ...storedUser };
+  const mergedPerfil = { ...safePerfil, ...storedUser };
   const firstName = mergedPerfil?.name?.split(" ")?.[0] || "por aqui";
   const plan = mergedPerfil?.diagnosticPlan;
-  const weakSubjects = plan?.weakSubjects || desempenho?.materiasFracas || perfil?.difficultSubjects || [];
-  const prioritySubjects = plan?.prioritySubjects || weakSubjects;
-  const objective = plan?.objectiveLabel || mergedPerfil?.targetContest || mergedPerfil?.objective || "seu objetivo";
+  const objective = plan?.objectiveLabel || mergedPerfil?.contestName || mergedPerfil?.targetContest || mergedPerfil?.objective || "seu objetivo";
+  const weakSubjects = uniqueSubjects([...(plan?.weakSubjects || []), ...(safeDesempenho?.materiasFracas || []), ...(safePerfil?.difficultSubjects || []), ...(mergedPerfil?.difficultSubjects || [])]);
+  const prioritySubjects = uniqueSubjects([...(plan?.prioritySubjects || []), ...weakSubjects]);
+  const subjects = prioritySubjects.length ? prioritySubjects : defaultSubjectsFor(objective);
 
-  if (/^(oi|ola|olá|opa|e ai|e aí|bom dia|boa tarde|boa noite)\b/.test(text)) {
+  if (/^(oi|ola|opa|e ai|bom dia|boa tarde|boa noite)\b/.test(text)) {
     return `Oi, ${firstName}. Tudo certo. Posso te ajudar a montar o estudo de hoje, revisar uma materia dificil ou organizar questoes para ${objective}.`;
   }
 
-  if (text.includes("tudo bem") || text.includes("como voce") || text.includes("como você")) {
+  if (text.includes("tudo bem") || text.includes("como voce")) {
     return `Tudo bem, ${firstName}. Estou pronto para te ajudar no estudo. Quer que eu monte um bloco rapido para hoje ou revise suas prioridades?`;
   }
 
+  if (text.includes("taf") || text.includes("teste fisico") || text.includes("fisico")) {
+    return [
+      "Plano de TAF para esta semana:",
+      "",
+      "1. Corrida: 3 treinos. Um leve, um intervalado e um teste controlado.",
+      "2. Forca: 3 blocos curtos com flexoes, abdominais e prancha.",
+      "3. Recuperacao: 1 dia leve com mobilidade e alongamento.",
+      "",
+      "Hoje eu faria: 10 min aquecimento, 6 tiros de 1 min forte + 1 min leve, depois 3 series de flexao e abdominal. Registre tempo, repeticoes e sensacao para eu ajustar o proximo treino.",
+    ].join("\n");
+  }
+
+  if (text.includes("reta final") || text.includes("estrategia") || text.includes("ultimos dias") || text.includes("final")) {
+    return [
+      `Estrategia de reta final para ${objective}:`,
+      "",
+      `1. Priorize ${subjects.slice(0, 3).join(", ")}.`,
+      "2. Troque teoria longa por revisao ativa: lei seca, mapas curtos e questoes.",
+      "3. Faca blocos de 50 min: 15 min revisao, 30 min questoes, 5 min caderno de erros.",
+      "4. A cada 2 dias, refaca apenas os erros recentes.",
+      "",
+      "Meta: chegar na prova leve, com os erros mapeados e sem inventar materia nova demais.",
+    ].join("\n");
+  }
+
   if (text.includes("plano") || text.includes("cronograma") || text.includes("estudar")) {
-    const subjects = prioritySubjects.slice(0, 3).join(", ") || "sua materia mais importante";
+    const focus = subjects.slice(0, 3).join(", ");
     return [
       `Para ${objective}, eu faria assim hoje:`,
       "",
-      `1. Teoria curta: 30 a 40 min em ${subjects}.`,
-      "2. Questoes: 20 a 30 questoes do mesmo tema.",
-      "3. Revisao: anote erros e volte neles amanha.",
+      `1. Teoria curta: 30 a 40 min em ${focus}.`,
+      "2. Questoes: 20 a 30 questoes dos mesmos temas.",
+      "3. Revisao: anote erros e volte neles amanha no caderno de erros.",
       "",
       plan?.weeklyGoals?.length ? `Meta da semana: ${plan.weeklyGoals[0]}.` : "Mantenha uma meta pequena, mas diaria.",
     ].join("\n");
   }
 
   if (text.includes("materia") || text.includes("dificuldade") || text.includes("fraca") || text.includes("fraco")) {
-    const subjects = weakSubjects.slice(0, 5);
-    if (!subjects.length) return "Ainda nao tenho materias fracas registradas. Marque suas dificuldades no onboarding ou resolva algumas questoes para eu priorizar melhor.";
-    return `Suas prioridades agora parecem ser: ${subjects.join(", ")}. Comece pela primeira, faca teoria curta e depois questoes comentadas.`;
+    if (!safeDesempenho?.questoesResolvidas && !weakSubjects.length) {
+      return `Ainda nao tenho questoes respondidas suficientes para medir suas materias fracas com seguranca. Por enquanto, eu priorizaria: ${subjects.slice(0, 4).join(", ")}. Depois de resolver alguns blocos, eu recalculo pelas suas erradas.`;
+    }
+    return `Suas prioridades agora parecem ser: ${(weakSubjects.length ? weakSubjects : subjects).slice(0, 5).join(", ")}. Comece pela primeira, faca teoria curta e depois questoes comentadas.`;
   }
 
-  if (text.includes("questao") || text.includes("questões") || text.includes("questoes")) {
+  if (text.includes("questao") || text.includes("questoes")) {
     return "Para treinar questoes: escolha uma materia, resolva um bloco pequeno sem consulta, corrija na hora e salve os erros no caderno. O ganho vem da correcao ativa, nao so da quantidade.";
   }
 
@@ -69,7 +130,7 @@ function localTutorResponse(mensagem = "", perfil = {}, desempenho = {}) {
     return "Sugestao: faca um simulado curto primeiro, com tempo marcado. Depois separe os erros por materia e transforme os 3 temas mais errados em revisao da semana.";
   }
 
-  return `Entendi. No modo local, posso te ajudar melhor se voce pedir algo como: "montar meu plano de hoje", "quais materias priorizar" ou "como revisar meus erros".`;
+  return `Entendi, ${firstName}. Posso transformar isso em acao de estudo. Para agora, escolha um caminho: plano de hoje, reta final, TAF, materias fracas ou revisao de erros.`;
 }
 
 function friendlyAIError(error, mensagem = "") {
@@ -112,7 +173,7 @@ export const aiService = {
   },
 
   async enviarMensagem(mensagem, historico = [], perfil = {}, desempenho = {}) {
-    if (!model) return fallback(mensagem);
+    if (!model) return localTutorResponse(mensagem, perfil, desempenho);
     const contexto = montarContextoAluno(perfil, desempenho);
 
     const chat = model.startChat({
