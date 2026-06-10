@@ -267,16 +267,45 @@
       { "inicio": 1, "fim": 12, "materia": "Portugues" },
       { "inicio": 13, "fim": 18, "materia": "Descartar" },
       { "inicio": 19, "fim": 23, "materia": "Matematica e Raciocinio Logico" },
-      { "inicio": 24, "fim": 54, "materia": "Descartar" }
+      { "inicio": 24, "fim": 28, "materia": "Descartar" },
+      { "inicio": 29, "fim": 33, "materia": "Direito Constitucional" },
+      { "inicio": 34, "fim": 35, "materia": "Direito Administrativo" },
+      { "inicio": 36, "fim": 38, "materia": "Direito Penal" },
+      { "inicio": 39, "fim": 40, "materia": "Legislacao Especial" },
+      { "inicio": 41, "fim": 42, "materia": "Direito Processual Penal" },
+      { "inicio": 43, "fim": 45, "materia": "Legislacao PM e Direito Militar" },
+      { "inicio": 46, "fim": 54, "materia": "Legislacao PM e Direito Militar" }
     ],
-    "importarMaterias": ["Portugues", "Matematica e Raciocinio Logico"],
+    "importarMaterias": ["Portugues", "Matematica e Raciocinio Logico", "Direito Constitucional", "Direito Administrativo", "Direito Penal", "Direito Processual Penal", "Legislacao Especial", "Legislacao PM e Direito Militar"],
     "gabaritoTipo": "Tipo 1",
     "aplicadaEm": "2025-06-15",
     "status": "ativo",
     "fonteUrl": "https://conhecimento.fgv.br/concursos/pmto/2",
     "provaPdf": "https://conhecimento.fgv.br/sites/default/files/concursos/quadro-de-pracas-da-policia-militar-tocnm001-tipo-1.pdf",
     "gabaritoPdf": "https://conhecimento.fgv.br/sites/default/files/concursos/gabarito-definitivo-pm-to-quadro-de-pracas-da-policia-militar-do-estado-do-tocantins-qppm.pdf",
-    "observacao": "Fonte oficial FGV Conhecimento. Importa somente Portugues e Matematica/RL para treino de estilo FGV; usa gabarito definitivo do Tipo 1."
+    "observacao": "Fonte oficial FGV Conhecimento. Importa Portugues, Matematica/RL e blocos de Direito/Legislacao; descarta Historia/Geografia local e Informatica. Usa gabarito definitivo do Tipo 1."
+  },
+  {
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "totalQuestoes": 60,
+    "materiaPorNumero": [
+      { "inicio": 1, "fim": 20, "materia": "Portugues" },
+      { "inicio": 21, "fim": 35, "materia": "Matematica" },
+      { "inicio": 36, "fim": 55, "materia": "Descartar" },
+      { "inicio": 56, "fim": 60, "materia": "Direito Administrativo" }
+    ],
+    "importarMaterias": ["Portugues", "Matematica", "Direito Administrativo"],
+    "gabaritoTipo": "Tipo 1",
+    "aplicadaEm": "2024-07-21",
+    "status": "ativo",
+    "fonteUrl": "https://conhecimento.fgv.br/concursos/pmespsoldado24",
+    "provaPdf": "https://conhecimento.fgv.br/sites/default/files/concursos/soldado-pm-de-2a-classe-cnm001-tipo-1.pdf",
+    "gabaritoPdf": "https://conhecimento.fgv.br/sites/default/files/concursos/pmesp2024_gabarito_definitivo-1.pdf",
+    "observacao": "Fonte oficial FGV Conhecimento. Importa Portugues, Matematica e Nocoes de Administracao Publica; descarta Conhecimentos Gerais e Informatica. Usa gabarito definitivo do Tipo 1."
   },
   {
     "orgao": "PMSP",
@@ -288,16 +317,57 @@
     "materiaPorNumero": [
       { "inicio": 1, "fim": 20, "materia": "Portugues" },
       { "inicio": 21, "fim": 35, "materia": "Matematica" },
-      { "inicio": 36, "fim": 60, "materia": "Descartar" }
+      { "inicio": 36, "fim": 55, "materia": "Descartar" },
+      { "inicio": 56, "fim": 60, "materia": "Direito Administrativo" }
     ],
-    "importarMaterias": ["Portugues", "Matematica"],
+    "importarMaterias": ["Portugues", "Matematica", "Direito Administrativo"],
     "gabaritoTipo": "Tipo 1",
     "aplicadaEm": "2025-02-16",
     "status": "ativo",
     "fonteUrl": "https://conhecimento.fgv.br/concursos/pmespsoldado25",
     "provaPdf": "https://conhecimento.fgv.br/sites/default/files/concursos/soldado-pm-de-2a-classe-cnm001-tipo-1_0.pdf",
     "gabaritoPdf": "https://conhecimento.fgv.br/sites/default/files/concursos/doeco-04.321.25-gabarito-definitivo-ed.3.321.24.pdf",
-    "observacao": "Fonte oficial FGV Conhecimento. Importa somente Portugues e Matematica para treino de estilo FGV; usa gabarito definitivo do Tipo 1."
+    "observacao": "Fonte oficial FGV Conhecimento. Importa Portugues, Matematica e Nocoes de Administracao Publica; descarta Conhecimentos Gerais e Informatica. Usa gabarito definitivo do Tipo 1."
+  },
+  {
+    "orgao": "PMSP",
+    "cargo": "Cabo PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "totalQuestoes": 60,
+    "materiaPorNumero": [
+      { "inicio": 1, "fim": 20, "materia": "Portugues" },
+      { "inicio": 21, "fim": 30, "materia": "Matematica e Raciocinio Logico" },
+      { "inicio": 31, "fim": 33, "materia": "Direito Penal" },
+      { "inicio": 34, "fim": 34, "materia": "Direitos Humanos" },
+      { "inicio": 35, "fim": 37, "materia": "Legislacao Especial" },
+      { "inicio": 38, "fim": 40, "materia": "Direito Processual Penal" },
+      { "inicio": 41, "fim": 45, "materia": "Legislacao PM e Direito Militar" },
+      { "inicio": 46, "fim": 60, "materia": "Legislacao PM e Direito Militar" }
+    ],
+    "importarMaterias": ["Portugues", "Matematica e Raciocinio Logico", "Direito Penal", "Direitos Humanos", "Legislacao Especial", "Direito Processual Penal", "Legislacao PM e Direito Militar"],
+    "gabaritoTipo": "Tipo 1",
+    "aplicadaEm": "2022-12-04",
+    "status": "ativo",
+    "fonteUrl": "https://conhecimento.fgv.br/concursos/pmespcabo22",
+    "provaPdf": "https://conhecimento.fgv.br/sites/default/files/concursos/cabo-pmcnm001-tipo-1.pdf",
+    "gabaritoPdf": "https://conhecimento.fgv.br/sites/default/files/concursos/pmespcabo2022_gabarito_definitivo.pdf",
+    "observacao": "Fonte oficial FGV Conhecimento. Importa Portugues, Raciocinio Logico, Direito e Legislacao PM. Usa gabarito definitivo do Tipo 1."
+  },
+  {
+    "orgao": "PMSP",
+    "cargo": "Aluno-Oficial PM",
+    "ano": 2020,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "totalQuestoes": 80,
+    "aplicadaEm": "2021-04-18",
+    "status": "pendente_pdf_indisponivel",
+    "fonteUrl": "https://conhecimento.fgv.br/concursos/pmesp2020",
+    "provaPdf": "",
+    "gabaritoPdf": "",
+    "observacao": "A pagina oficial FGV lista Tipo 1 e Gabarito Oficial Definitivo, mas os links antigos do netstorage retornaram 404/403 na validacao direta. Manter pendente ate localizar PDF direto legivel."
   },
   {
     "orgao": "TJ-SP",

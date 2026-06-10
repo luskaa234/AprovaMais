@@ -9,6 +9,7 @@
     "formato": "multipla_escolha",
     "numero": 1,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "Na crônica, o chefe da seção acusa o homem que foi à repartição em busca de um documento de ser",
     "alternativas": [
@@ -36,7 +37,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_fcc",
+    "origem": "oficial",
     "banca_selo": "FCC",
     "concurso": "PM-BA",
     "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: B."
@@ -51,6 +52,7 @@
     "formato": "multipla_escolha",
     "numero": 2,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "O cronista expressa uma retificação no seguinte trecho:",
     "alternativas": [
@@ -78,7 +80,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_fcc",
+    "origem": "oficial",
     "banca_selo": "FCC",
     "concurso": "PM-BA",
     "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: D."
@@ -93,6 +95,7 @@
     "formato": "multipla_escolha",
     "numero": 3,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "− Já sei que vai se desculpar. O momento não é para dissensões. O momento é de união nacional, cérebros e corações uníssonos. (14 o parágrafo) O termo sublinhado acima pode ser substituído, sem prejuízo para o sentido do texto original, por:",
     "alternativas": [
@@ -120,7 +123,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_fcc",
+    "origem": "oficial",
     "banca_selo": "FCC",
     "concurso": "PM-BA",
     "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: A."
@@ -135,6 +138,7 @@
     "formato": "multipla_escolha",
     "numero": 4,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "• Foi um lapso do funcionário que lhe prometeu tal coisa. (7 o parágrafo) • Vamos, cavalheiro, não perturbe a preparação espiritual dos meus colegas, que estão analisando a Seleção Búlgara e des- cobrindo meios de frustrar a marcação de Pelé. (14 o parágrafo) Os pronomes sublinhados no texto referem-se, respectivamente, a",
     "alternativas": [
@@ -162,7 +166,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_fcc",
+    "origem": "oficial",
     "banca_selo": "FCC",
     "concurso": "PM-BA",
     "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: A."
@@ -177,6 +181,7 @@
     "formato": "multipla_escolha",
     "numero": 5,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "É invariável quanto a gênero e a número o termo sublinhado em:",
     "alternativas": [
@@ -204,7 +209,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_fcc",
+    "origem": "oficial",
     "banca_selo": "FCC",
     "concurso": "PM-BA",
     "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: C."
@@ -219,6 +224,7 @@
     "formato": "multipla_escolha",
     "numero": 6,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "Verifica-se o emprego de vírgula(s) para isolar um vocativo em:",
     "alternativas": [
@@ -246,7 +252,7 @@
     "afirmacao": "",
     "gabarito": "e",
     "anulada": false,
-    "origem": "oficial_fcc",
+    "origem": "oficial",
     "banca_selo": "FCC",
     "concurso": "PM-BA",
     "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: E."
@@ -261,6 +267,7 @@
     "formato": "multipla_escolha",
     "numero": 7,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "Exerce a função sintática de sujeito o elemento sublinhado no seguinte trecho:",
     "alternativas": [
@@ -288,7 +295,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_fcc",
+    "origem": "oficial",
     "banca_selo": "FCC",
     "concurso": "PM-BA",
     "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: C."
@@ -303,6 +310,7 @@
     "formato": "multipla_escolha",
     "numero": 8,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "Observa-se o emprego de voz passiva em:",
     "alternativas": [
@@ -330,7 +338,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_fcc",
+    "origem": "oficial",
     "banca_selo": "FCC",
     "concurso": "PM-BA",
     "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: B."
@@ -345,6 +353,7 @@
     "formato": "multipla_escolha",
     "numero": 10,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "É hoje um país mal desenvolvido por ter adotado um padrão de crescimento socialmente perverso. Em relação ao trecho que o antecede, o segmento sublinhado expressa ideia de",
     "alternativas": [
@@ -372,7 +381,7 @@
     "afirmacao": "",
     "gabarito": "e",
     "anulada": false,
-    "origem": "oficial_fcc",
+    "origem": "oficial",
     "banca_selo": "FCC",
     "concurso": "PM-BA",
     "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: E."
@@ -387,6 +396,7 @@
     "formato": "multipla_escolha",
     "numero": 11,
     "materia": "Matematica",
+    "materia_original": "Matematica",
     "dificuldade": "dificil",
     "enunciado": "Um setor administrativo recebeu 150 caixas de equipamentos que serão distribuídas para três grupos de funcionários. O pri- meiro grupo deverá receber 30 caixas a menos do que o segundo grupo e o terceiro grupo a metade do que vai receber o segundo. O número de caixas que serão recebidas pelo primeiro e o terceiro grupos juntos é:",
     "alternativas": [
@@ -414,7 +424,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_fcc",
+    "origem": "oficial",
     "banca_selo": "FCC",
     "concurso": "PM-BA",
     "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: A."
@@ -429,6 +439,7 @@
     "formato": "multipla_escolha",
     "numero": 12,
     "materia": "Matematica",
+    "materia_original": "Matematica",
     "dificuldade": "dificil",
     "enunciado": "Em um fornecedor de uniformes, três camisas e duas calças custam, juntas, R$ 455,00, e um conjunto de calça e camisa do mesmo tipo custa R$ 190,00. O preço, em reais, para a compra de duas camisas e uma calça é:",
     "alternativas": [
@@ -456,7 +467,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_fcc",
+    "origem": "oficial",
     "banca_selo": "FCC",
     "concurso": "PM-BA",
     "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: C."
@@ -471,6 +482,7 @@
     "formato": "multipla_escolha",
     "numero": 13,
     "materia": "Matematica",
+    "materia_original": "Matematica",
     "dificuldade": "dificil",
     "enunciado": "A sequência de 3 figuras a seguir é formada com palitos de fósforo, acrescentando sempre um triângulo à figura anterior. Figura 1 Figura 2 Figura 3 O número de palitos necessários para continuarmos a sequência até a Figura 20 é:",
     "alternativas": [
@@ -498,7 +510,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_fcc",
+    "origem": "oficial",
     "banca_selo": "FCC",
     "concurso": "PM-BA",
     "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: D."
@@ -513,6 +525,7 @@
     "formato": "multipla_escolha",
     "numero": 14,
     "materia": "Matematica",
+    "materia_original": "Matematica",
     "dificuldade": "dificil",
     "enunciado": "Placas para identificação de veículos deverão conter 4 letras distintas. Se escolhermos as letras X, Y, Z e W, o número de pla- cas distintas que poderão ser produzidas é",
     "alternativas": [
@@ -540,7 +553,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_fcc",
+    "origem": "oficial",
     "banca_selo": "FCC",
     "concurso": "PM-BA",
     "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: B."
@@ -555,6 +568,7 @@
     "formato": "multipla_escolha",
     "numero": 15,
     "materia": "Matematica",
+    "materia_original": "Matematica",
     "dificuldade": "medio",
     "enunciado": "A soma das raízes da equação x (x −1) • (x + 3) • ) 16 x ( 2 + = 0 é",
     "alternativas": [
@@ -582,7 +596,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_fcc",
+    "origem": "oficial",
     "banca_selo": "FCC",
     "concurso": "PM-BA",
     "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: A."
@@ -597,6 +611,7 @@
     "formato": "multipla_escolha",
     "numero": 16,
     "materia": "Matematica",
+    "materia_original": "Matematica",
     "dificuldade": "dificil",
     "enunciado": "Uma rampa será construída para acesso ao primeiro andar de uma construção, que está a 2,5 m de altura em relação ao nível do terreno. Decidiu-se que a inclinação da rampa deve ser de 30° em relação ao nível do térreo. O comprimento dessa rampa será",
     "alternativas": [
@@ -624,7 +639,7 @@
     "afirmacao": "",
     "gabarito": "e",
     "anulada": false,
-    "origem": "oficial_fcc",
+    "origem": "oficial",
     "banca_selo": "FCC",
     "concurso": "PM-BA",
     "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: E."
@@ -639,6 +654,7 @@
     "formato": "multipla_escolha",
     "numero": 17,
     "materia": "Matematica",
+    "materia_original": "Matematica",
     "dificuldade": "dificil",
     "enunciado": "Num terreno retangular com 80 m de comprimento e 60 m de largura, duas áreas triangulares foram demarcadas para o plantio de árvores, como mostra a figura. O comprimento de um dos lados de cada triângulo é 20 m. A área da parte restante do terreno é, em m 2:",
     "alternativas": [
@@ -666,7 +682,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_fcc",
+    "origem": "oficial",
     "banca_selo": "FCC",
     "concurso": "PM-BA",
     "comentario": "Questao oficial PM-BA Soldado 2023. Banca: FCC. Gabarito definitivo: C."

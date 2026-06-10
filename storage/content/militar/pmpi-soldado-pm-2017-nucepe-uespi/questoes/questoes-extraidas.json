@@ -9,6 +9,7 @@
     "formato": "multipla_escolha",
     "numero": 1,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "Assinale a alternativa que apresenta a ideia global do Texto 1.",
     "alternativas": [
@@ -36,7 +37,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
@@ -51,6 +52,7 @@
     "formato": "multipla_escolha",
     "numero": 2,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "No Texto 1, o leitor encontra informações que esclarecem e justificam:",
     "alternativas": [
@@ -78,7 +80,7 @@
     "afirmacao": "",
     "gabarito": "e",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: E."
@@ -93,6 +95,7 @@
     "formato": "multipla_escolha",
     "numero": 3,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "Sendo a língua heterogênea e variável, existe a possibilidade de os usuários empregarem termos diversos para expressar um mesmo significado. Essa característica das línguas naturais está exemplificada no seguinte trecho do Texto 1:",
     "alternativas": [
@@ -120,7 +123,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
@@ -135,6 +138,7 @@
     "formato": "multipla_escolha",
     "numero": 4,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "Presença de palavras ou expressões que revelam a intenção do autor de estabelecer um diálogo com o leitor, como: “Se você acompanha programas policiais...” (1º parágrafo) e “Pois bem.”. (4º parágrafo). São características do Texto 1, apenas:",
     "alternativas": [
@@ -162,7 +166,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
@@ -177,6 +181,7 @@
     "formato": "multipla_escolha",
     "numero": 5,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "O terceiro parágrafo inicia-se com a seguinte informação: “O jornalista policial acaba aprendendo essa linguagem simbólica.” Em relação aos parágrafos anteriores, essa informação expressa uma",
     "alternativas": [
@@ -204,7 +209,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
@@ -219,6 +224,7 @@
     "formato": "multipla_escolha",
     "numero": 6,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "“O repórter-foca (iniciante) é capaz de não compreender uma ocorrência policial registrada numa delegacia qualquer.” (3º parágrafo) No contexto do Texto 1, o segmento destacado expressa",
     "alternativas": [
@@ -246,7 +252,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
@@ -261,6 +267,7 @@
     "formato": "multipla_escolha",
     "numero": 9,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "Observe o cumprimento das normas de regência verbal no seguinte trecho: “Imagine você que um repórter iniciante chega à delegacia logo pela manhã e se depara com a seguinte ocorrência:”. (4º parágrafo) Assinale a alternativa em que as alterações promovidas também cumprem as normas de regência e preservam a coerência do enunciado.",
     "alternativas": [
@@ -288,7 +295,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
@@ -303,6 +310,7 @@
     "formato": "multipla_escolha",
     "numero": 10,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "Assinale a alternativa em que o segmento sublinhado desempenha uma função de adjetivo.",
     "alternativas": [
@@ -330,7 +338,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
@@ -345,6 +353,7 @@
     "formato": "multipla_escolha",
     "numero": 11,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "Assinale a alternativa em que o termo destacado está corretamente grafado, segundo as normas ortográficas em vigor.",
     "alternativas": [
@@ -372,7 +381,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
@@ -387,6 +396,7 @@
     "formato": "multipla_escolha",
     "numero": 12,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "O argumento principal do Texto 2 é o de que a violência contra a mulher será superada se:",
     "alternativas": [
@@ -414,7 +424,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
@@ -429,6 +439,7 @@
     "formato": "multipla_escolha",
     "numero": 14,
     "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
     "dificuldade": "dificil",
     "enunciado": "A análise global do Texto 2 revela que ele tem, principalmente, uma função",
     "alternativas": [
@@ -456,7 +467,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
@@ -471,6 +482,7 @@
     "formato": "multipla_escolha",
     "numero": 15,
     "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
     "dificuldade": "medio",
     "enunciado": "Toda a produção semanal de latas de suco de certa fábrica foi vendida a três lojas, aqui designadas por A, B e",
     "alternativas": [
@@ -498,7 +510,7 @@
     "afirmacao": "",
     "gabarito": "e",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: E."
@@ -513,6 +525,7 @@
     "formato": "multipla_escolha",
     "numero": 16,
     "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
     "dificuldade": "dificil",
     "enunciado": "Saindo da rodoviária de certa cidade, dois ônibus percorrem trajetos que só têm a rodoviária como ponto comum: um deles vai para o aeroporto, em percurso que leva 30 minutos, e o outro para a estação de metrô, em percurso que leva 24 minutos. Para cada um dos ônibus, os trajetos de ida e volta consomem o mesmo intervalo de tempo. Considerando as viagens de ida e volta, e supondo que os dois ônibus saem da rodoviária no mesmo instante, quanto tempo depois eles voltam a se encontrar, pela primeira vez, no ponto de partida?",
     "alternativas": [
@@ -540,7 +553,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
@@ -555,6 +568,7 @@
     "formato": "multipla_escolha",
     "numero": 17,
     "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
     "dificuldade": "dificil",
     "enunciado": "Na tabela a seguir, temos o consumo mensal de água de uma família, durante os cinco primeiros meses de 2017. Se admitirmos que o preço do m3 de água é R$ 3,00, qual o valor médio, mensal, pago pelo consumo de água nessa família, nesses cinco meses?",
     "alternativas": [
@@ -582,7 +596,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
@@ -597,6 +611,7 @@
     "formato": "multipla_escolha",
     "numero": 18,
     "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
     "dificuldade": "dificil",
     "enunciado": "Em uma expedição militar, 25 pessoas planejam levar alimento suficiente para 16 dias, contando com 3 refeições por dia. Próximo à data marcada para o início da expedição, 5 pessoas resolvem se juntar ao grupo inicial para participar da expedição. Se eles fizessem apenas 2 refeições por dia, para quantos dias a comida planejada inicialmente seria suficiente?",
     "alternativas": [
@@ -624,7 +639,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
@@ -639,6 +654,7 @@
     "formato": "multipla_escolha",
     "numero": 19,
     "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
     "dificuldade": "dificil",
     "enunciado": "Maria comprou um computador em 3 parcelas mensais e iguais de R$ 540,80, a primeira parcela paga no momento da compra. Se o preço do computador à vista era de R$ 1500,00, e se foram cobrados juros compostos de 4% ao mês, quanto Maria pagou de juros (em valores do momento da compra)?",
     "alternativas": [
@@ -666,7 +682,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: A."
@@ -681,6 +697,7 @@
     "formato": "multipla_escolha",
     "numero": 20,
     "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
     "dificuldade": "dificil",
     "enunciado": "Uma praça é formada por um retângulo e dois semicírculos com diâmetros justapostos ao lado menor do retângulo. Os lados do retângulo medem 40 m e 30 m. Uma calçada com 3 m de largura deve ser construída em torno de uma praça. Qual o valor total a ser pago por essa calçada, se o metro quadrado do pavimento é de R$ 30,00? A seguir, temos uma ilustração da situação, fora de escala. Obs.: adote a aproximação π ≃ 3,14. 30 m 40 m",
     "alternativas": [
@@ -708,7 +725,7 @@
     "afirmacao": "",
     "gabarito": "e",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: E."
@@ -723,6 +740,7 @@
     "formato": "multipla_escolha",
     "numero": 21,
     "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
     "dificuldade": "dificil",
     "enunciado": "Para cercar um terreno retangular, com uma cerca formada por 3 fios, foram usados 114 m de arame. Se o terreno tem área medindo 78 m2, em quantos metros a largura do terreno excede sua altura? Admita que a largura do terreno é maior que sua altura, ambas medidas em metros.",
     "alternativas": [
@@ -750,7 +768,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
@@ -765,6 +783,7 @@
     "formato": "multipla_escolha",
     "numero": 22,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "Para o professor Milton Santos, em seu livro “Por uma outra globalização: do pensamento único à consciência universal”, a globalização “é, de certa forma, o ápice do processo de internacionalização do mundo capitalista” (2001, p. 23). Com base nesta compreensão do professor Milton Santos, é correto afirmar que a globalização é:",
     "alternativas": [
@@ -792,7 +811,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
@@ -807,6 +826,7 @@
     "formato": "multipla_escolha",
     "numero": 23,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "Como uma das contradições do desenvolvimento capitalista, pode-se apontar o processo de fragmentação do espaço, na medida em que a globalização visa integrar os diferentes espaços geográficos. A fragmentação do espaço se caracteriza:",
     "alternativas": [
@@ -834,7 +854,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: A."
@@ -849,6 +869,7 @@
     "formato": "multipla_escolha",
     "numero": 24,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "O desenvolvimento da humanidade apresentou em diversas épocas conflitos étnicos e religiosos que, em muitas situações, se transformaram em guerras de extermínio. É correto afirmar que os conflitos étnicos e religiosos:",
     "alternativas": [
@@ -876,7 +897,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
@@ -891,6 +912,7 @@
     "formato": "multipla_escolha",
     "numero": 25,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "Organismos internacionais são instituições que congregam diferentes países com um objetivo comum, podendo ter este objetivo caráter político, social, econômico ou mesmo de ajuda mútua. Diante da crise internacional gerada pelo aumento do número de refugiados, particularmente da África e do Oriente, quais organismos internacionais têm atuado diretamente na busca de soluções internacionais ou de ações que amenizem os efeitos dessa situação?",
     "alternativas": [
@@ -918,7 +940,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
@@ -933,6 +955,7 @@
     "formato": "multipla_escolha",
     "numero": 26,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "O processo de aquecimento global tem gerado inúmeros impactos em diferentes países e regiões da Terra. Dentre as principais decisões tomadas pela Conferência do Clima (COP-21), realizada em Paris, em 2015, para combater o aquecimento global, estão:",
     "alternativas": [
@@ -960,7 +983,7 @@
     "afirmacao": "",
     "gabarito": "e",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: E."
@@ -975,6 +998,7 @@
     "formato": "multipla_escolha",
     "numero": 27,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "O desmatamento e a poluição do ar estão entre as causas de degradação do meio ambiente, situação vivida em diversos países. Como consequência desse processo de degradação ambiental, podemos citar:",
     "alternativas": [
@@ -1002,7 +1026,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
@@ -1017,6 +1041,7 @@
     "formato": "multipla_escolha",
     "numero": 28,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "Os blocos políticos e econômicos surgem como estratégia de países para o enfrentamento de crises em âmbito internacional e como forma de viabilizar ações conjuntas. Os principais blocos políticos e econômicos dos quais o Brasil faz parte são:",
     "alternativas": [
@@ -1044,7 +1069,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
@@ -1059,6 +1084,7 @@
     "formato": "multipla_escolha",
     "numero": 29,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "As relações internacionais incluem as chamadas “trocas comerciais”, que se caracterizam por acordos bilaterais. O Brasil possui diversos parceiros econômicos, com os quais desenvolve comércio em diversos setores da economia, sendo os principais parceiros:",
     "alternativas": [
@@ -1086,7 +1112,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
@@ -1101,6 +1127,7 @@
     "formato": "multipla_escolha",
     "numero": 30,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "As relações internacionais da segunda metade do século XX foram marcadas pela disputa de dois blocos econômicos e políticos com características distintas. Essa disputa ficou conhecida como Guerra Fria, e teve como principais atores políticos:",
     "alternativas": [
@@ -1128,7 +1155,7 @@
     "afirmacao": "",
     "gabarito": "e",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: E."
@@ -1143,6 +1170,7 @@
     "formato": "multipla_escolha",
     "numero": 31,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "A União Europeia (UE) une diversos países da Europa, principalmente através das relações comerciais, caracterizando a assim chamada “Zona do Euro”. Recentemente, um dos membros da UE decidiu, através de consulta popular, se retirar dessa Comunidade, o que ficou conhecido como “Brexit”. Estamos falando:",
     "alternativas": [
@@ -1170,7 +1198,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: A."
@@ -1185,6 +1213,7 @@
     "formato": "multipla_escolha",
     "numero": 32,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "O Mercosul – Mercado Comum do Sul – foi criado para possibilitar a integração dos países latino-americanos e ampliar as relações entre os países membros. Esse bloco foi formado originalmente por Brasil, Argentina, Paraguai e Uruguai e tem como objetivos principais:",
     "alternativas": [
@@ -1212,7 +1241,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
@@ -1227,6 +1256,7 @@
     "formato": "multipla_escolha",
     "numero": 33,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "A expansão do capitalismo, ao longo do tempo, provocou mudanças no espaço geográfico mundial e local. Neste sentido, é correto afirmar que:",
     "alternativas": [
@@ -1254,7 +1284,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
@@ -1269,6 +1299,7 @@
     "formato": "multipla_escolha",
     "numero": 35,
     "materia": "Informatica",
+    "materia_original": "Informatica",
     "dificuldade": "medio",
     "enunciado": "Ainda quanto à ferramenta MS Word 2007, assinale a afirmativa correta.",
     "alternativas": [
@@ -1296,7 +1327,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: A."
@@ -1311,6 +1342,7 @@
     "formato": "multipla_escolha",
     "numero": 38,
     "materia": "Informatica",
+    "materia_original": "Informatica",
     "dificuldade": "medio",
     "enunciado": "Considerando o gráfico a seguir, criado com o auxílio da ferramenta MS Excel 2007, assinale a afirmativa correta.",
     "alternativas": [
@@ -1338,7 +1370,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
@@ -1353,6 +1385,7 @@
     "formato": "multipla_escolha",
     "numero": 40,
     "materia": "Informatica",
+    "materia_original": "Informatica",
     "dificuldade": "medio",
     "enunciado": "Em relação aos sistemas operacionais Windows XP e Windows 7, e à ferramenta de navegação Web MS Internet Explorer 8, assinale a afirmativa correta.",
     "alternativas": [
@@ -1380,7 +1413,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
@@ -1395,6 +1428,7 @@
     "formato": "multipla_escolha",
     "numero": 42,
     "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
     "dificuldade": "medio",
     "enunciado": "Com base na Lei nº 3.729, de 27/05/1980, (Conselho de Disciplina da Polícia Militar e do Corpo de Bombeiros Militar do Estado do Piauí), qual o prazo que caberá, em princípio, ao Comandante Geral da Polícia Militar do Piauí, contado da data do recebimento do processo, para apreciar os recursos interpostos, oriundos de Conselho de Disciplina?",
     "alternativas": [
@@ -1422,7 +1456,7 @@
     "afirmacao": "",
     "gabarito": "e",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: E."
@@ -1437,6 +1471,7 @@
     "formato": "multipla_escolha",
     "numero": 43,
     "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
     "dificuldade": "medio",
     "enunciado": "De acordo com o Regulamento Disciplinar da Polícia do Piauí (Decreto n.º 3.584, de 31 de janeiro de 1980, do Estado do Piauí), o comportamento do policial militar da praça deve ser classificado como excepcional, quando:",
     "alternativas": [
@@ -1464,7 +1499,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
@@ -1479,6 +1514,7 @@
     "formato": "multipla_escolha",
     "numero": 44,
     "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
     "dificuldade": "medio",
     "enunciado": "O Regulamento Disciplinar da Polícia Militar do Piauí (Decreto n.º 3.584, de 31 de janeiro de 1980, do Estado do Piauí) prevê que são recursos disciplinares:",
     "alternativas": [
@@ -1506,7 +1542,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
@@ -1521,6 +1557,7 @@
     "formato": "multipla_escolha",
     "numero": 45,
     "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
     "dificuldade": "medio",
     "enunciado": "Segundo o Estatuto dos Policiais Militares do Estado do Piauí (Lei nº 3.808, de 16 de julho de 1981, do Estado do Piauí), as dispensas do serviço podem ser concedidas aos policiais militares:",
     "alternativas": [
@@ -1548,7 +1585,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
@@ -1563,6 +1600,7 @@
     "formato": "multipla_escolha",
     "numero": 46,
     "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
     "dificuldade": "medio",
     "enunciado": "O Estatuto dos Policiais Militares do Estado do Piauí (Lei nº 3.808, de 16 de julho de 1981, do Estado do Piauí) preconiza que fica sujeito à declaração de indignidade ou de incompatibilidade para o oficialato, por julgamento do órgão competente do Poder Judiciário, o oficial que for condenado por tribunal civil ou militar à pena restritiva de liberdade individual, em decorrência de sentença condenatória passada em julgado, com a declaração por expressa dessa medida, e desde que a referida pena seja superior a, pelo menos,",
     "alternativas": [
@@ -1590,7 +1628,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: A."
@@ -1605,6 +1643,7 @@
     "formato": "multipla_escolha",
     "numero": 47,
     "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
     "dificuldade": "medio",
     "enunciado": "De acordo com a Lei Estadual nº 3.729, de 27/05/1980, o Conselho de Disciplina da Polícia Militar e do Corpo de Bombeiros Militar do Estado do Piauí será composto por:",
     "alternativas": [
@@ -1632,7 +1671,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
@@ -1647,6 +1686,7 @@
     "formato": "multipla_escolha",
     "numero": 48,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "Quanto aos direitos e garantias fundamentais, é correto afirmar que:",
     "alternativas": [
@@ -1674,7 +1714,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
@@ -1689,6 +1729,7 @@
     "formato": "multipla_escolha",
     "numero": 49,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "De acordo com a Constituição Federal, quanto aos direitos sociais, é direito do trabalhador:",
     "alternativas": [
@@ -1716,7 +1757,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: A."
@@ -1731,6 +1772,7 @@
     "formato": "multipla_escolha",
     "numero": 50,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "De acordo com a Constituição Federal, em relação à administração pública, é correto afirmar:",
     "alternativas": [
@@ -1758,7 +1800,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
@@ -1773,6 +1815,7 @@
     "formato": "multipla_escolha",
     "numero": 51,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "De acordo com a Constituição Federal, em relação à segurança pública, é correto afirmar:",
     "alternativas": [
@@ -1800,7 +1843,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
@@ -1815,6 +1858,7 @@
     "formato": "multipla_escolha",
     "numero": 52,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "De acordo com o Código Penal Brasileiro, em relação ao crime, é correto afirmar que:",
     "alternativas": [
@@ -1842,7 +1886,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: A."
@@ -1857,6 +1901,7 @@
     "formato": "multipla_escolha",
     "numero": 54,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "De acordo com o Código Penal Brasileiro, em relação aos crimes contra o patrimônio, é correto afirmar:",
     "alternativas": [
@@ -1884,7 +1929,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
@@ -1899,6 +1944,7 @@
     "formato": "multipla_escolha",
     "numero": 56,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "De acordo com a Constituição do Estado do Piauí, em relação à segurança pública, é correto afirmar que:",
     "alternativas": [
@@ -1926,7 +1972,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
@@ -1941,6 +1987,7 @@
     "formato": "multipla_escolha",
     "numero": 57,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "Considerando a Constituição Federal, assinale a afirmativa correta.",
     "alternativas": [
@@ -1968,7 +2015,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
@@ -1983,6 +2030,7 @@
     "formato": "multipla_escolha",
     "numero": 59,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "De acordo com o Pacto Internacional dos Direitos Civis e Políticos, é correto afirmar que:",
     "alternativas": [
@@ -2010,7 +2058,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
@@ -2025,6 +2073,7 @@
     "formato": "multipla_escolha",
     "numero": 60,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "De acordo com a Convenção Contra a Tortura e Outros Tratamentos ou Penas Cruéis, Desumanos ou Degradantes, é correto afirmar que:",
     "alternativas": [
@@ -2052,7 +2101,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_nucepe-uespi",
+    "origem": "oficial",
     "banca_selo": "NUCEPE/UESPI",
     "concurso": "PMPI",
     "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."

@@ -9,6 +9,7 @@
     "formato": "multipla_escolha",
     "numero": 1,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "O texto anterior tem como objetivo destacar uma descoberta científica. Um fato novo noticiado pelo texto é que:",
     "alternativas": [
@@ -32,7 +33,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
@@ -47,6 +48,7 @@
     "formato": "multipla_escolha",
     "numero": 2,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "Considerando-se o veículo de comunicação em que foi divulgado o texto anterior, conclui-se que o seu público-alvo é:",
     "alternativas": [
@@ -70,7 +72,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
@@ -85,6 +87,7 @@
     "formato": "multipla_escolha",
     "numero": 3,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "“Hoje eu quero contar para vocês sobre um estudo inovador realizado na Columbia University, que confirma que as células cerebrais não envelhecem” (1º parágrafo). Se a forma verbal destacada estivesse flexionada no pretérito imperfeito do subjuntivo, teríamos:",
     "alternativas": [
@@ -108,7 +111,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
@@ -123,6 +126,7 @@
     "formato": "multipla_escolha",
     "numero": 4,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "“Na verdade, o que se descobriu é que você tem exatamente o mesmo número de células nervosas (ou neurônios) quando jovem” (2º parágrafo). O conectivo destacado designa a ideia de:",
     "alternativas": [
@@ -146,7 +150,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
@@ -161,6 +165,7 @@
     "formato": "multipla_escolha",
     "numero": 6,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "Em “Eles provaram que o cérebro pode continuar criando novos neurônios para sempre” (4º parágrafo), as palavras destacadas são, respectivamente, classificadas como:",
     "alternativas": [
@@ -184,7 +189,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
@@ -199,6 +204,7 @@
     "formato": "multipla_escolha",
     "numero": 8,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "“Os cientistas da Columbia estudaram cérebros doados por pessoas idosas que morreram de causas naturais” (8º parágrafo). Nesse trecho, a oração destacada é classificada como subordinada:",
     "alternativas": [
@@ -222,7 +228,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
@@ -237,6 +243,7 @@
     "formato": "multipla_escolha",
     "numero": 5,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "“Isso foi admitido inclusive como certo pelo diretor do Instituto Nacional de Saúde dos EUA”. (3º parágrafo). No texto, o pronome em destaque faz referência ao fato de que:",
     "alternativas": [
@@ -260,7 +267,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
@@ -275,6 +282,7 @@
     "formato": "multipla_escolha",
     "numero": 7,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "Em “Portanto, a velha teoria de que cérebros humanos não podem construir novos neurônios cai por terra!” (5º parágrafo), o verbo destacado classifica-se como:",
     "alternativas": [
@@ -298,7 +306,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
@@ -313,6 +321,7 @@
     "formato": "multipla_escolha",
     "numero": 9,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "Em “Além disso, eles também encontraram um número menor de células-tronco inativas, ou 'quiescentes', em uma área do cérebro ligada à resistência cognitivo-emocional” (9º parágrafo), a expressão destacada poderia ser substituída, sem significativa alteração de sentido, por:",
     "alternativas": [
@@ -336,7 +345,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
@@ -351,6 +360,7 @@
     "formato": "multipla_escolha",
     "numero": 10,
     "materia": "Portugues",
+    "materia_original": "Portugues",
     "dificuldade": "medio",
     "enunciado": "No texto, predomina uma determinada função da linguagem, que é a:",
     "alternativas": [
@@ -374,7 +384,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
@@ -389,6 +399,7 @@
     "formato": "multipla_escolha",
     "numero": 12,
     "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
     "dificuldade": "dificil",
     "enunciado": "Valdomiro quitou uma dívida em dois meses. No primeiro mês pagou 32,15% da dívida e, no segundo mês, os 1.058,46 reais restantes. O valor total da dívida, em reais, corresponde a:",
     "alternativas": [
@@ -412,7 +423,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
@@ -427,6 +438,7 @@
     "formato": "multipla_escolha",
     "numero": 13,
     "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
     "dificuldade": "medio",
     "enunciado": "Valdomiro possui mais de 1.000 reais e menos do que 1.040 reais. Se ele dividir essa quantia igualmente por seus quatro bisnetos ou por seus nove netos ou por seus doze sobrinhos ou por seus três filhos, cada um deles receberá um valor inteiro de reais e Valdomiro ficará com zero reais. Portanto, se Valdomiro decidir distribuir essa quantia pelos seus filhos, cada um receberá, em reais, o seguinte valor:",
     "alternativas": [
@@ -450,7 +462,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
@@ -465,6 +477,7 @@
     "formato": "multipla_escolha",
     "numero": 14,
     "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
     "dificuldade": "medio",
     "enunciado": "Valdomiro pratica, de segunda a sábado, as seguintes atividades físicas: natação, corrida, ciclismo, musculação, alongamento e judô, sendo apenas uma delas por dia, sem repetir atividade em uma mesma semana. O número máximo de maneiras diferentes de Valdomiro organizar a ordem dessas atividades em uma semana é:",
     "alternativas": [
@@ -488,7 +501,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
@@ -503,6 +516,7 @@
     "formato": "multipla_escolha",
     "numero": 16,
     "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
     "dificuldade": "dificil",
     "enunciado": "A embalagem de certo produto tem a forma de um cilindro circular reto de altura 12 cm. A superfície lateral de tal embalagem é totalmente coberta, sem sobra nem falta, por um rótulo de papel com 216 cm² de área. Considerando = 3 e sendo desprezível a espessura do material, o volume que essa embalagem é capaz de receber internamente, em cm³, corresponde a:",
     "alternativas": [
@@ -526,7 +540,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
@@ -541,6 +555,7 @@
     "formato": "multipla_escolha",
     "numero": 18,
     "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
     "dificuldade": "medio",
     "enunciado": "Duas pistas de ciclismo circulares são concêntricas, e o diâmetro de uma é 20 metros maior que o da outra. Sabe-se que o comprimento da pista maior é 40% maior que o comprimento da pista menor. Se o raio da pista menor, em metros, é igual a R, a soma dos algarismos de R é:",
     "alternativas": [
@@ -564,7 +579,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
@@ -579,6 +594,7 @@
     "formato": "multipla_escolha",
     "numero": 15,
     "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
     "dificuldade": "dificil",
     "enunciado": "Organizando seu computador, Valdomiro distribuiu N arquivos em três pastas. Na primeira pasta ele colocou 1/3 dos arquivos, mais 4 arquivos. Na segunda colocou 1/6 dos arquivos, mais 10 arquivos. Os 22 arquivos restantes foram colocados na terceira pasta. A soma dos algarismos de N é igual a:",
     "alternativas": [
@@ -602,7 +618,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
@@ -617,6 +633,7 @@
     "formato": "multipla_escolha",
     "numero": 17,
     "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
     "dificuldade": "dificil",
     "enunciado": "Em certo dia, Valdomiro pintará vários círculos na parede de um quarto de criança. Na parte da manhã, ele vai pintar dois círculos, com diâmetros de 30 cm e 40 cm, respectivamente. À tarde, ele vai pintar N círculos inteiros com diâmetro de 20 cm, de forma que N seja o menor valor possível para que a área total pintada à tarde seja maior que a área total pintada pela manhã. O valor de N é:",
     "alternativas": [
@@ -640,7 +657,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
@@ -655,6 +672,7 @@
     "formato": "multipla_escolha",
     "numero": 11,
     "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
     "dificuldade": "medio",
     "enunciado": "Ao finalizar o 6º nível em um jogo eletrônico, Valdomiro conquistou um total de 420.784 pontos. A tabela a seguir mostra a quantidade de pontos obtidos nos 5 níveis iniciais: O total de pontos obtidos no 6º nível é igual a:",
     "alternativas": [
@@ -678,7 +696,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
@@ -693,6 +711,7 @@
     "formato": "multipla_escolha",
     "numero": 19,
     "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
     "dificuldade": "medio",
     "enunciado": "O esquema a seguir mostra os cruzamentos entre as ruas A, B e C, assim como a praça triangular, com vértices P, Q e R, que fica entre essas ruas. Sabe-se que: • as ruas A e C são perpendiculares entre si; • PQ = 80 m; • PR = 60 m. Valdomiro se encontra no ponto P e deve andar, por dentro da praça, até chegar à rua",
     "alternativas": [
@@ -716,7 +735,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
@@ -731,6 +750,7 @@
     "formato": "multipla_escolha",
     "numero": 24,
     "materia": "Informatica",
+    "materia_original": "Informatica",
     "dificuldade": "medio",
     "enunciado": "Um usuário do MS PowerPoint 2013 BR precisa ajustar o tamanho dos slides para o padrão 4:3. Para acessar essa função de forma direta, ele precisa acessar a aba:",
     "alternativas": [
@@ -754,7 +774,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
@@ -769,6 +789,7 @@
     "formato": "multipla_escolha",
     "numero": 26,
     "materia": "Informatica",
+    "materia_original": "Informatica",
     "dificuldade": "medio",
     "enunciado": "No contexto da segurança da informação, de redes, na internet e na nuvem, um determinado termo representa um processo que consiste em criar uma cópia de segurança de dados, configurações ou aplicativos de um dispositivo, como computadores, servidores e celulares, tendo por objetivo proteger os dados e permitir a sua recuperação em caso de perdas, como falhas no sistema, erros humanos, desastres naturais, roubos ou extravios. Paralelamente, outro termo pode ser um dispositivo de hardware ou software, sendo um sistema de segurança que controla o que entra e sai de uma rede ou dispositivo, permitindo ou bloqueando o tráfego de acordo com regras de segurança, representando um recurso que funciona como uma barreira entre a rede interna e a internet pública, permitindo o tráfego não ameaçador e impedindo o tráfego perigoso. Esses dois termos são conhecidos, respectivamente, como:",
     "alternativas": [
@@ -792,7 +813,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
@@ -807,6 +828,7 @@
     "formato": "multipla_escolha",
     "numero": 25,
     "materia": "Informatica",
+    "materia_original": "Informatica",
     "dificuldade": "medio",
     "enunciado": "Durante a criação de uma planilha em um dos softwares mais utilizados no Brasil, como o Excel do MSOffice, numa célula foi inserida uma fórmula que adiciona exclusivamente os números mostrados em A2 e em A7. Em seguida, foi inserida outra fórmula que determina a média aritmética entre todos os números mostrados em A2, A3, A4, A5, A6 e A7. Nessas condições, nas fórmulas =SOMA(...) e =MÉDIA(...), os argumentos a serem inseridos entre os parênteses são, respectivamente:",
     "alternativas": [
@@ -830,7 +852,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
@@ -845,6 +867,7 @@
     "formato": "multipla_escolha",
     "numero": 27,
     "materia": "Informatica",
+    "materia_original": "Informatica",
     "dificuldade": "medio",
     "enunciado": "No que diz respeito à implementação das redes de computadores, atualmente é comum empregar uma topologia, ilustrada na figura a seguir: Essa topologia apresenta um ponto de conexão central, normalmente ocupado por um concentrador, como um hub, um switch ou um roteador. Os dispositivos são normalmente conectados ao centro por meio de um cabo Ethernet de Par Trançado não blindado, conhecido pela sigla UTP. Como característica, uma rede implementada por essa topologia geralmente requer mais cabos, e uma falha em qualquer cabo de rede só irá impedir o acesso de apenas um computador e não da LAN inteira. No entanto, se houver uma falha no concentrador, nesse caso também cai a rede inteira. Nessa implementação, é utilizado um conector conhecido pela sigla RJ-45. Nesse contexto, a denominação dessa topologia e a imagem que identifica o conector estão indicadas, respectivamente, na seguinte opção:",
     "alternativas": [
@@ -868,7 +891,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
@@ -883,6 +906,7 @@
     "formato": "multipla_escolha",
     "numero": 20,
     "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
     "dificuldade": "dificil",
     "enunciado": "Em um ponto de controle de segurança de certo aeroporto, um sistema automatizado escolhe ao acaso, para que seja feita uma revista minuciosa, algumas pessoas que por ali passam. Tal sistema foi programado para que a probabilidade de uma pessoa qualquer ser escolhida seja de 20 %. Valdomiro passará por essa segurança duas vezes em momentos distintos do mesmo dia. A probabilidade de que em nenhuma dessas duas ocasiões ele seja escolhido para a revista é de:",
     "alternativas": [
@@ -906,7 +930,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
@@ -921,6 +945,7 @@
     "formato": "multipla_escolha",
     "numero": 22,
     "materia": "Informatica",
+    "materia_original": "Informatica",
     "dificuldade": "medio",
     "enunciado": "Um usuário de um computador com sistema operacional Linux precisa usar um comando para localizar outros comandos através de pesquisa por palavras-chave. O comando a ser utilizado é:",
     "alternativas": [
@@ -944,7 +969,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
@@ -959,6 +984,7 @@
     "formato": "multipla_escolha",
     "numero": 21,
     "materia": "Informatica",
+    "materia_original": "Informatica",
     "dificuldade": "medio",
     "enunciado": "Um usuário do sistema operacional MS Windows 10 BR deseja capturar uma tela ativa usando uma tecla de atalho. Nesse caso, a tecla a ser digitada é:",
     "alternativas": [
@@ -982,7 +1008,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
@@ -997,6 +1023,7 @@
     "formato": "multipla_escolha",
     "numero": 36,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "A Convenção Americana sobre Direitos Humanos, de 22 de novembro de 1969, internalizada no Brasil por meio do Decreto n.º 678/1992, estabelece que:",
     "alternativas": [
@@ -1020,7 +1047,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
@@ -1035,6 +1062,7 @@
     "formato": "multipla_escolha",
     "numero": 29,
     "materia": "Atualidades",
+    "materia_original": "Atualidades",
     "dificuldade": "medio",
     "enunciado": "O direito à cidade é um tema que vem ganhando espaço na agenda travada por movimentos sociais na contemporaneidade brasileira. Tais movimentos, em sua maioria, apontam que a cidade é um ambiente hostil para determinados grupos sociais, pois o:",
     "alternativas": [
@@ -1058,7 +1086,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
@@ -1073,6 +1101,7 @@
     "formato": "multipla_escolha",
     "numero": 32,
     "materia": "Atualidades",
+    "materia_original": "Atualidades",
     "dificuldade": "medio",
     "enunciado": "A COP30, a 30ª Conferência das Nações Unidas sobre Mudança do Clima (Conferência das Partes), será realizada na cidade de Belém, no estado do Pará, em novembro de 2025. Um dos motivos para a escolha da referida cidade e um dos focos do evento estão assinalados em:",
     "alternativas": [
@@ -1096,7 +1125,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
@@ -1111,6 +1140,7 @@
     "formato": "multipla_escolha",
     "numero": 28,
     "materia": "Informatica",
+    "materia_original": "Informatica",
     "dificuldade": "medio",
     "enunciado": "Em suas versões atuais de 32 e 64 bits, em um notebook Intel com Windows 11 BR (x64), atualmente é de suma importância conhecer os recursos dos browsers e de softwares de correio eletrônico. Nesse contexto, tanto o Microsoft Edge como o Google Chrome possibilitam a navegação em sites na modalidade tela cheia, por meio do acionamento de uma tecla de função. No Mozilla Thunderbird, os e-mails que chegam da internet direcionados a um usuário são armazenados, por default, em uma caixa postal padrão. A tecla de função e a caixa postal padrão são, respectivamente:",
     "alternativas": [
@@ -1134,7 +1164,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
@@ -1149,6 +1179,7 @@
     "formato": "multipla_escolha",
     "numero": 30,
     "materia": "Atualidades",
+    "materia_original": "Atualidades",
     "dificuldade": "medio",
     "enunciado": "Nos últimos anos, o mercado brasileiro observou uma rápida expansão de empresas voltadas às apostas esportivas. Com esse cenário, o governo brasileiro tem trabalhado na criação de uma legislação que regule o funcionamento dessas empresas. A legalização e operação desse setor têm gerado debates intensos, com opiniões divididas entre pontos positivos e negativos. O tema é controverso porque:",
     "alternativas": [
@@ -1172,7 +1203,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
@@ -1187,6 +1218,7 @@
     "formato": "multipla_escolha",
     "numero": 33,
     "materia": "Atualidades",
+    "materia_original": "Atualidades",
     "dificuldade": "medio",
     "enunciado": "A matriz elétrica brasileira é considerada uma das mais sustentáveis do mundo. Contudo, sob uma perspectiva crítica, algumas das principais fontes que a compõem enfrentam críticas devido aos impactos socioambientais que geram. Assinale a alternativa que apresenta uma dessas fontes e o impacto socioambiental correspondente:",
     "alternativas": [
@@ -1210,7 +1242,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
@@ -1225,6 +1257,7 @@
     "formato": "multipla_escolha",
     "numero": 31,
     "materia": "Atualidades",
+    "materia_original": "Atualidades",
     "dificuldade": "medio",
     "enunciado": "Entre as décadas de 1960 e 1970, o movimento do grafite apresentava um forte caráter marginal e contestador no espaço urbano. Na atualidade, sobretudo em diversas cidades pelo Brasil e pelo mundo, podemos reconhecer que o grafite:",
     "alternativas": [
@@ -1248,7 +1281,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
@@ -1263,6 +1296,7 @@
     "formato": "multipla_escolha",
     "numero": 34,
     "materia": "Atualidades",
+    "materia_original": "Atualidades",
     "dificuldade": "medio",
     "enunciado": "Nos últimos anos, o mundo contemporâneo tem sido marcado por profundas transformações nos campos tecnológico e produtivo. Um dos maiores símbolos dessas mudanças é a inteligência artificial, destacando-se como uma ferramenta versátil e cheia de potencial. Entre os impactos da inteligência artificial, destaca-se a possibilidade de:",
     "alternativas": [
@@ -1286,7 +1320,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
@@ -1301,6 +1335,7 @@
     "formato": "multipla_escolha",
     "numero": 35,
     "materia": "Atualidades",
+    "materia_original": "Atualidades",
     "dificuldade": "medio",
     "enunciado": "O Oriente Médio e o Leste Europeu têm enfrentado conflitos intensos nos últimos anos, cujos desdobramentos afetam a geopolítica global. Sobre esses conflitos, podemos considerar:",
     "alternativas": [
@@ -1324,7 +1359,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
@@ -1339,6 +1374,7 @@
     "formato": "multipla_escolha",
     "numero": 48,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "Nos anos 2000, a maioria dos estudantes sergipanos de Ensino Médio estava regularmente matriculada na rede:",
     "alternativas": [
@@ -1362,7 +1398,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
@@ -1377,6 +1413,7 @@
     "formato": "multipla_escolha",
     "numero": 43,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "De acordo com a lição de Alexandre Mazza, “a Administração Pública Indireta ou Descentralizada é composta por pessoas jurídicas autônomas com natureza de direito público ou de direito privado” (Mazza, 2022, p. 132). São pessoas jurídicas de direito privado:",
     "alternativas": [
@@ -1400,7 +1437,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
@@ -1415,6 +1452,7 @@
     "formato": "multipla_escolha",
     "numero": 44,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "Joaquim, servidor público, ocupante do cargo de motorista, enquanto dirigia um veículo oficial, durante sua jornada de trabalho, atropelou o jovem Ananias, enquanto este atravessava a rua. Considerando somente o que foi informado neste enunciado, no caso em questão:",
     "alternativas": [
@@ -1438,7 +1476,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
@@ -1453,6 +1491,7 @@
     "formato": "multipla_escolha",
     "numero": 42,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "Os princípios administrativos expressos estão previstos no art. 37 da Constituição Federal de 1988. É considerado um desses princípios:",
     "alternativas": [
@@ -1476,7 +1515,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
@@ -1491,6 +1530,7 @@
     "formato": "multipla_escolha",
     "numero": 47,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "Entre o início e meados do século XIX, houve um período marcado pelo controle por parte de senhores de terra e de escravizados. Essa foi uma marca da estrutura sociopolítica daquele contexto. A principal atividade econômica desse período era a:",
     "alternativas": [
@@ -1514,7 +1554,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
@@ -1529,6 +1569,7 @@
     "formato": "multipla_escolha",
     "numero": 46,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "No período colonial brasileiro, durante muito tempo, Sergipe foi subordinado à capitania de(a):",
     "alternativas": [
@@ -1552,7 +1593,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
@@ -1567,6 +1608,7 @@
     "formato": "multipla_escolha",
     "numero": 37,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "A Declaração Universal dos Direitos Humanos, documento que é considerado um marco na história dos direitos humanos e proclamado pela Assembleia Geral das Nações Unidas em 1948, assegura que todo ser humano tem direito:",
     "alternativas": [
@@ -1590,7 +1632,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
@@ -1605,6 +1647,7 @@
     "formato": "multipla_escolha",
     "numero": 38,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "Conforme mandamento constitucional, às polícias militares cabe:",
     "alternativas": [
@@ -1628,7 +1671,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
@@ -1643,6 +1686,7 @@
     "formato": "multipla_escolha",
     "numero": 39,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "Conforme previsão expressa da Constituição Federal de 1988, é da competência exclusiva do Congresso Nacional:",
     "alternativas": [
@@ -1666,7 +1710,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
@@ -1681,6 +1725,7 @@
     "formato": "multipla_escolha",
     "numero": 41,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "Segundo o entendimento de Guilherme de Souza Nucci, o objetivo primordial do inquérito policial “é servir de lastro à formação da convicção do representante do Ministério Público (opinio delicti), mas também colher provas urgentes, que podem desaparecer, após o cometimento do crime” (Nucci, 2020, p. 320). O inquérito policial é um procedimento:",
     "alternativas": [
@@ -1704,7 +1749,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
@@ -1719,6 +1764,7 @@
     "formato": "multipla_escolha",
     "numero": 40,
     "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
     "dificuldade": "medio",
     "enunciado": "Conforme previsão expressa da carta magna, constituem objetivos fundamentais da República Federativa do Brasil:",
     "alternativas": [
@@ -1742,7 +1788,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
@@ -1757,6 +1803,7 @@
     "formato": "multipla_escolha",
     "numero": 49,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "Os grupos indígenas que ocupavam o território sergipano no passado eram, em sua maioria, do tronco-linguístico:",
     "alternativas": [
@@ -1780,7 +1827,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
@@ -1795,6 +1842,7 @@
     "formato": "multipla_escolha",
     "numero": 50,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "A diferenciação climática entre o litoral e o interior do estado de Sergipe está diretamente relacionada a fatores naturais como a maritimidade, a atuação de massas de ar, a presença de vegetação e o relevo. Nesse contexto:",
     "alternativas": [
@@ -1818,7 +1866,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
@@ -1833,6 +1881,7 @@
     "formato": "multipla_escolha",
     "numero": 51,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "A educação no estado de Sergipe tem apresentado avanços nos últimos anos, com destaque em alguns aspectos em comparação aos demais estados do Nordeste. No entanto, o estado ainda enfrenta desafios significativos, mantendo-se abaixo da média nacional em vários indicadores educacionais. Nesse contexto, um fator positivo para o setor educacional em Sergipe seria:",
     "alternativas": [
@@ -1856,7 +1905,7 @@
     "afirmacao": "",
     "gabarito": "c",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
@@ -1871,6 +1920,7 @@
     "formato": "multipla_escolha",
     "numero": 53,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "Embora Sergipe seja um estado de pequena extensão territorial e com população reduzida em comparação aos maiores estados do Brasil, o seu processo de urbanização apresenta dinâmicas semelhantes àquelas observadas no restante do país. Uma característica desse processo é a:",
     "alternativas": [
@@ -1894,7 +1944,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
@@ -1909,6 +1959,7 @@
     "formato": "multipla_escolha",
     "numero": 52,
     "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
     "dificuldade": "medio",
     "enunciado": "Como aspectos físicos do estado de Sergipe, podemos destacar corretamente o(s):",
     "alternativas": [
@@ -1932,7 +1983,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
@@ -1947,6 +1998,7 @@
     "formato": "multipla_escolha",
     "numero": 55,
     "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
     "dificuldade": "medio",
     "enunciado": "O Código de Ética e Disciplina da Polícia Militar do Estado de Sergipe apresenta, em seus artigos 14, 15 e 16, as transgressões de natureza grave, média e leve respectivamente. É considerada uma transgressão grave, de acordo com esse código:",
     "alternativas": [
@@ -1970,7 +2022,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
@@ -1985,6 +2037,7 @@
     "formato": "multipla_escolha",
     "numero": 56,
     "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
     "dificuldade": "medio",
     "enunciado": "O art. 2º da Lei nº 3.669 de 1995 prevê as competências da Polícia Militar do Estado de Sergipe. Uma dessas competências é a:",
     "alternativas": [
@@ -2008,7 +2061,7 @@
     "afirmacao": "",
     "gabarito": "b",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
@@ -2023,6 +2076,7 @@
     "formato": "multipla_escolha",
     "numero": 57,
     "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
     "dificuldade": "medio",
     "enunciado": "Os deveres policiais-militares emanam de vínculos racionais e morais que ligam o policial militar à comunidade e a sua segurança. Nos termos expressamente previstos no Estatuto dos Policiais Militares do Estado de Sergipe, está compreendido como um dever:",
     "alternativas": [
@@ -2046,7 +2100,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
@@ -2061,6 +2115,7 @@
     "formato": "multipla_escolha",
     "numero": 58,
     "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
     "dificuldade": "medio",
     "enunciado": "O sistema remuneratório dos Servidores Militares do Estado de Sergipe é regulado por lei própria que abrange vencimentos, indenizações, proventos e outros direitos. Entre esses está o que consiste no abatimento na remuneração ou proventos do servidor militar para cumprimento de obrigações assumidas ou impostas em virtude de disposições de Lei ou de decisão judicial. A descrição feita acima consiste no seguinte conceito:",
     "alternativas": [
@@ -2084,7 +2139,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
@@ -2099,6 +2154,7 @@
     "formato": "multipla_escolha",
     "numero": 54,
     "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
     "dificuldade": "medio",
     "enunciado": "Consoante o disposto na Lei nº 2.066 de 1976 (Estatuto da Polícia Militar do Estado de Sergipe), um dos preceitos da ética policial-militar é:",
     "alternativas": [
@@ -2122,7 +2178,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
@@ -2137,6 +2193,7 @@
     "formato": "multipla_escolha",
     "numero": 60,
     "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
     "dificuldade": "medio",
     "enunciado": "As Unidades de Polícia Militar compreendem diferentes categorias que se estruturam em unidades e subunidades de acordo com o disposto pela Lei de Organização Básica da PMSE. As Unidades que têm a seu cargo as missões de policiamento ostensivo normal, a pé, montado, ou motorizado são os/as:",
     "alternativas": [
@@ -2160,7 +2217,7 @@
     "afirmacao": "",
     "gabarito": "d",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
@@ -2175,6 +2232,7 @@
     "formato": "multipla_escolha",
     "numero": 59,
     "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
     "dificuldade": "medio",
     "enunciado": "Na organização do pessoal da polícia militar, é forçoso observar as condições a que estão sujeitas as Praças Policiais Militares que estão agrupadas em Qualificações Policiais Militares Particulares. Compete à seguinte autoridade, através de Decreto, expedir as normas que devem definir a qualificação policial militar das praças:",
     "alternativas": [
@@ -2198,7 +2256,7 @@
     "afirmacao": "",
     "gabarito": "a",
     "anulada": false,
-    "origem": "oficial_selecon",
+    "origem": "oficial",
     "banca_selo": "SELECON",
     "concurso": "PM-SE",
     "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."

@@ -132,6 +132,18 @@
     "sourcePath": "storage/content/militar/pmto-quadro-de-pracas-da-policia-militar-2025-fgv"
   },
   {
+    "id": "pmsp-soldado-2024-fgv",
+    "titulo": "PMSP Soldado PM de 2a Classe 2024",
+    "tipo": "Prova militar oficial",
+    "categoria": "Multipla escolha",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "slug": "pmsp-soldado-2024-fgv",
+    "sourcePath": "storage/content/militar/pmsp-soldado-2024-fgv"
+  },
+  {
     "id": "pmsp-soldado-2025-fgv",
     "titulo": "PMSP Soldado PM de 2a Classe 2025",
     "tipo": "Prova militar oficial",
@@ -142,5 +154,17 @@
     "banca": "FGV",
     "slug": "pmsp-soldado-2025-fgv",
     "sourcePath": "storage/content/militar/pmsp-soldado-2025-fgv"
+  },
+  {
+    "id": "pmsp-cabo-pm-2022-fgv",
+    "titulo": "PMSP Cabo PM 2022",
+    "tipo": "Prova militar oficial",
+    "categoria": "Multipla escolha",
+    "orgao": "PMSP",
+    "cargo": "Cabo PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "slug": "pmsp-cabo-pm-2022-fgv",
+    "sourcePath": "storage/content/militar/pmsp-cabo-pm-2022-fgv"
   }
 ]

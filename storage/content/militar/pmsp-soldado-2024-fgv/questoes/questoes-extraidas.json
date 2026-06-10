@@ -1,0 +1,1593 @@
+[
+  {
+    "id": "pmsp-soldado-2024-fgv-q01",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q01",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 1,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "As opções abaixo mostram definições de palavras. Assinale aquela que mostra um tipo de definição não técnica, diferente das demais por seu caráter criativo.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Espada é uma arma branca de lâmina comprida e pontuda, dotada de punho, com um ou dois gumes."
+      },
+      {
+        "letra": "B",
+        "texto": "Chuvisco é uma chuva pouco intensa."
+      },
+      {
+        "letra": "C",
+        "texto": "Cigarra é um inseto cujo macho é provido de órgão que produz som estridente."
+      },
+      {
+        "letra": "D",
+        "texto": "Cigarro é tabaco picado e enrolado em papel, para se fumar."
+      },
+      {
+        "letra": "E",
+        "texto": "A natureza é uma nuvem mutável, sempre e nunca a mesma."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q02",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q02",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 2,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "As frases abaixo mostram um adjetivo sublinhado, com valor de ironia, à exceção de uma. Assinale-a.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O problema com nossos jovens escritores é que todos eles estão na faixa dos sessenta."
+      },
+      {
+        "letra": "B",
+        "texto": "Fazer um filme é como ter sua mão pega numa máquina de moer carne. Na verdade, nem é tão agradável."
+      },
+      {
+        "letra": "C",
+        "texto": "É muitíssimo prazeroso que caminhemos com os nossos pés sendo torturados pelos sapatos."
+      },
+      {
+        "letra": "D",
+        "texto": "O bombeiro gostava muito de animais e sentiu-se confortável ao participar do salvamento do cavalo."
+      },
+      {
+        "letra": "E",
+        "texto": "O treinador do Flamengo estava com cara de satisfeito após aquele empate com uma equipe adversária muito fraca."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q03",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q03",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 3,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que todos os sinais de pontuação foram bem- empregados.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A verdadeira questão não é se as máquinas pensam, mas se os homens pensam."
+      },
+      {
+        "letra": "B",
+        "texto": "Antigamente, a cidade era o mundo hoje o mundo é uma cidade."
+      },
+      {
+        "letra": "C",
+        "texto": "Ciência, sem consciência, não é senão, uma ruína da alma."
+      },
+      {
+        "letra": "D",
+        "texto": "A ciência é o grande antídoto do veneno, do entusiasmo, e da superstição."
+      },
+      {
+        "letra": "E",
+        "texto": "Genética é uma coisa, hereditária."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q04",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q04",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 4,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que o sinal indicativo da crase está bem- empregado.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "É difícil ensinar o alfabeto à garotos atualmente, pois todos pensam que o “vê” vem depois do “tê”."
+      },
+      {
+        "letra": "B",
+        "texto": "Uma mão lava à outra e a poluição suja as duas."
+      },
+      {
+        "letra": "C",
+        "texto": "O progresso é a injustiça que cada geração comete em relação à geração precedente."
+      },
+      {
+        "letra": "D",
+        "texto": "Vou usar o computador com reservas. Esse equipamento invade à privacidade humana."
+      },
+      {
+        "letra": "E",
+        "texto": "O automóvel resolve à ansiedade dos homens."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q05",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q05",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 5,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Leia com atenção a seguinte frase: “Quanto mais sou obrigado a deixar recado com os filhos e empregadas de amigos, mais me apaixono por secretárias eletrônicas”. Podemos deduzir do que aí está escrito que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "os filhos e empregadas de amigos são bons transmissores de recados."
+      },
+      {
+        "letra": "B",
+        "texto": "as secretárias eletrônicas são aparelhos de custo muito elevado."
+      },
+      {
+        "letra": "C",
+        "texto": "as empregadas transmitem recados com rapidez e eficiência."
+      },
+      {
+        "letra": "D",
+        "texto": "as secretárias eletrônicas são mais eficientes que os seres humanos."
+      },
+      {
+        "letra": "E",
+        "texto": "a paixão pelas secretárias eletrônicas é proveniente de sua beleza e elegância."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q06",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q06",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 6,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "As frases abaixo mostram locuções adjetivas que foram substituídas por adjetivos, indicados entre parênteses. Entre as substituições propostas, assinale aquela que é inadequada.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Um beijo de minha mãe (materno) fez de mim um pintor."
+      },
+      {
+        "letra": "B",
+        "texto": "O importante na obra de arte (artística) é o espanto."
+      },
+      {
+        "letra": "C",
+        "texto": "A obra-prima é uma variedade do milagre (milagrosa)."
+      },
+      {
+        "letra": "D",
+        "texto": "Apreciar os defeitos do próximo (alheios) é ter talento?"
+      },
+      {
+        "letra": "E",
+        "texto": "Nenhuma arte pode imitar a indústria da natureza (natural)."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q07",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q07",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 7,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A preposição DE mostra inúmeros valores semânticos, ou seja, muitos sentidos. Assinale a frase em que essa preposição tem seu valor corretamente indicado.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Com a inundação, o castelo, no alto do morro, ficou cercado de gente. / agente."
+      },
+      {
+        "letra": "B",
+        "texto": "A chaleira de água quente ficou afastada das crianças. / continente."
+      },
+      {
+        "letra": "C",
+        "texto": "Os quadros de Portinari valem muito. / propriedade."
+      },
+      {
+        "letra": "D",
+        "texto": "As mulheres de classe são atraentes. / assunto."
+      },
+      {
+        "letra": "E",
+        "texto": "Vieram de ônibus para a festa da matriz. / modo."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q08",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q08",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 8,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Nas frases abaixo está presente a conjunção",
+    "alternativas": [
+      {
+        "letra": "E",
+        "texto": "Assinale a frase em que o significado dessa conjunção está indicado corretamente."
+      },
+      {
+        "letra": "A",
+        "texto": "Em muitos terrenos de cidades pequenas há simultaneamente plantas frutíferas e plantas ornamentais / oposição."
+      },
+      {
+        "letra": "B",
+        "texto": "Algo só é impossível até que alguém duvide e acabe provando o contrário / consequência."
+      },
+      {
+        "letra": "C",
+        "texto": "Ambiente limpo não é o que mais se limpa, e sim o que menos se suja / adição."
+      },
+      {
+        "letra": "D",
+        "texto": "Há gente que fala e fala, mas nada diz / causa. (E) Os policiais chegam a suas casas e tiram o uniforme / conclusão. POLÍCIA MILITAR DO ESTADO DE SÃO PAULO FGV CONHECIMENTO SOLDADO PM DE 2ª CLASSE – TARDE TIPO BRANCA – PÁGINA 4"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q09",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q09",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 9,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale o texto que deve ser classificado como informativo, por centrar seu interesse na divulgação de informações.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Se você pretende ter uma velhice tranquila, economize o dinheiro que ganha enquanto jovem."
+      },
+      {
+        "letra": "B",
+        "texto": "Eu nunca sei o que fazer no dia seguinte a um feriado."
+      },
+      {
+        "letra": "C",
+        "texto": "Todos devemos ter respeito com os mais velhos, pois todos chegaremos lá."
+      },
+      {
+        "letra": "D",
+        "texto": "Os povos mais ricos sempre dominam a cena política."
+      },
+      {
+        "letra": "E",
+        "texto": "O Palmeiras desembarcou ontem em Buenos Aires, onde vai disputar mais um título."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q10",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q10",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 10,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que o termo adverbial sublinhado foi adequadamente substituído por um advérbio equivalente.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A música deve vir antes de tudo (antecipadamente)."
+      },
+      {
+        "letra": "B",
+        "texto": "Viajar é estar constantemente emocionado – e nem sempre alegre (raramente)"
+      },
+      {
+        "letra": "C",
+        "texto": "Se você se parece com a sua fotografia do passaporte, sem dúvida (indubitavelmente) precisa viajar."
+      },
+      {
+        "letra": "D",
+        "texto": "Os britânicos são invejosos porque eles não têm vinho, e lá chove o tempo todo (eternamente)."
+      },
+      {
+        "letra": "E",
+        "texto": "Veneza é como comer de uma só vez (totalmente) uma caixa inteira de bombons de licor."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q11",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q11",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 11,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que a palavra sublinhada está empregada em sentido figurado.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A primeira criatura que Deus fez foi a luz."
+      },
+      {
+        "letra": "B",
+        "texto": "Tudo quanto está debaixo da terra, o tempo porá a descoberto à luz do sol."
+      },
+      {
+        "letra": "C",
+        "texto": "A luz é o ouro das casas dos pobres."
+      },
+      {
+        "letra": "D",
+        "texto": "A luz da lua é vista como romântica."
+      },
+      {
+        "letra": "E",
+        "texto": "As palavras dele trouxeram luz a nosso estudo."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q12",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q12",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 12,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“Salve, lindo pendão da esperança, Salve, símbolo augusto da paz! Tua nobre presença à lembrança A grandeza da Pátria nos traz.” Esses são os quatro primeiros versos do nosso conhecido Hino à Bandeira. Assinale a afirmação correta sobre a estruturação ou significação desses versos.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Os versos exploram as cores simbólicas da bandeira."
+      },
+      {
+        "letra": "B",
+        "texto": "Por seu nacionalismo, a mensagem desses versos se relaciona ao movimento Barroco."
+      },
+      {
+        "letra": "C",
+        "texto": "A letra do hino opõe aspectos positivos e negativos de nosso país."
+      },
+      {
+        "letra": "D",
+        "texto": "Os termos “pendão” e “símbolo” se referem a nossa bandeira."
+      },
+      {
+        "letra": "E",
+        "texto": "A ordem direta dos dois últimos versos seria: A grandeza da pátria nos traz tua nobre presença à lembrança."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q13",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q13",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 13,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que a oração adjetiva sublinhada foi substituída por um adjetivo semanticamente inadequado.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Esta terra é de tal maneira graciosa que se dará nela tudo por causa das águas que tem / disponíveis."
+      },
+      {
+        "letra": "B",
+        "texto": "O Rio de Janeiro é a única cidade das que conheço que não conseguiu expulsar a natureza. / visitadas."
+      },
+      {
+        "letra": "C",
+        "texto": "Os Estados Unidos são um Itu que deu certo. / bem-sucedido."
+      },
+      {
+        "letra": "D",
+        "texto": "O maior prazer, durante o período de viagens, é o dos criados que permanecem em casa / domésticos."
+      },
+      {
+        "letra": "E",
+        "texto": "O caminho é o que importa, não o seu fim. / importante."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q14",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q14",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 14,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Cada opção abaixo traz uma pequena frase e uma possível interpretação dela. Assinale a frase que mostra uma interpretação adequada.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“Meus pais foram doidos ao ensinar-me as primeiras letras”. / A doidice está no fato de que os pais preferiram o ensino doméstico ao ensino na escola."
+      },
+      {
+        "letra": "B",
+        "texto": "“A ciência não tem pátria”. / Isso significa que o conhecimento científico deve pertencer ao mundo inteiro e não somente à pátria do cientista."
+      },
+      {
+        "letra": "C",
+        "texto": "“A informática veio para resolver problemas que antes não existiam”. / A frase mostra que a informática resolve todos os problemas atuais."
+      },
+      {
+        "letra": "D",
+        "texto": "“De erro em erro descobre-se a verdade inteira.” / A frase critica as pesquisas que cometem muitos erros."
+      },
+      {
+        "letra": "E",
+        "texto": "“Não há mestre que não possa ser aluno.” / A afirmação critica os professores que não têm conhecimento do que ensinam."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q15",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q15",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 15,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que houve substituição adequada do vocábulo sublinhado por um sinônimo.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Um provérbio é uma sentença curta baseada em longa experiência / afirmação."
+      },
+      {
+        "letra": "B",
+        "texto": "A harmonia das cores reside no princípio de seu eficiente contato com a alma humana / conciliação."
+      },
+      {
+        "letra": "C",
+        "texto": "Não procurem qualquer nexo naquilo que os poetas pronunciam acordados / coerência."
+      },
+      {
+        "letra": "D",
+        "texto": "Sou artista, moro entre as minhas pinturas. Escrever é um luxo para mim / excesso."
+      },
+      {
+        "letra": "E",
+        "texto": "A arte é a trilha que leva de volta, da fantasia à realidade / via férrea."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q16",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q16",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 16,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "As frases abaixo mostram erros, ora de seleção vocabular, ora de informação, à exceção de uma. Assinale-a.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Na Bahia todo mundo é simpático. É um povo muito hospitalar."
+      },
+      {
+        "letra": "B",
+        "texto": "Este disco foi gravado à base de muita cerveja. Foram quilos."
+      },
+      {
+        "letra": "C",
+        "texto": "Estou louca para ir para Nova Iorque. Eu sempre quis conhecer a Europa."
+      },
+      {
+        "letra": "D",
+        "texto": "Um abraço a todos os goianos de Juiz de Fora."
+      },
+      {
+        "letra": "E",
+        "texto": "Bons leitores extraem muito de pouco. POLÍCIA MILITAR DO ESTADO DE SÃO PAULO FGV CONHECIMENTO SOLDADO PM DE 2ª CLASSE – TARDE TIPO BRANCA – PÁGINA 5"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q17",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q17",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 17,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase cujo adjetivo mostra o grau em que está empregado classificado corretamente.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O melhor amigo do homem é o uísque. O uísque é o cachorro engarrafado. / Superlativo relativo de superioridade."
+      },
+      {
+        "letra": "B",
+        "texto": "Nada custa tão caro como ser pobre. / Superlativo absoluto analítico."
+      },
+      {
+        "letra": "C",
+        "texto": "Um sorriso é a distância mais curta entre duas pessoas. / Comparativo de superioridade."
+      },
+      {
+        "letra": "D",
+        "texto": "Todas as pessoas são imensamente iguais. / Comparativo de igualdade."
+      },
+      {
+        "letra": "E",
+        "texto": "Nosso país é menos rico do que todos os demais. / Superlativo relativo de inferioridade."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q18",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q18",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 18,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que a oração substantiva sublinhada foi substituída por uma forma substantiva semanticamente inadequada.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Decidi sair do jogo enquanto estou com a bola, em vez de esperar que ela me escape / a sua escapada."
+      },
+      {
+        "letra": "B",
+        "texto": "Reconheço que uma obra está terminada quando chega a hora do jantar/ o término de uma obra."
+      },
+      {
+        "letra": "C",
+        "texto": "Espero que a passeata comece e termine em paz / começo e fim pacíficos para a passeata."
+      },
+      {
+        "letra": "D",
+        "texto": "A empresa promete que a entrega se fará rapidamente / uma entrega rápida."
+      },
+      {
+        "letra": "E",
+        "texto": "Ele gostaria de que todos viessem à festa /da chegada de todos à festa."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q20",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q20",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 20,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Observe a seguinte frase: “Uma acumulação de fatos não é uma ciência, da mesma forma que uma porção de pedras não é uma casa”. Dois termos que são comparados nessa frase, são:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "acumulação de fatos / ciência."
+      },
+      {
+        "letra": "B",
+        "texto": "fatos / pedras."
+      },
+      {
+        "letra": "C",
+        "texto": "acumulação / casa."
+      },
+      {
+        "letra": "D",
+        "texto": "ciência / porção."
+      },
+      {
+        "letra": "E",
+        "texto": "pedras / casa. Matemática"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q21",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q21",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 21,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Um dado número somado com a sua terça parte dá como resultado 228. A soma dos algarismos do número dado é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "5."
+      },
+      {
+        "letra": "B",
+        "texto": "6."
+      },
+      {
+        "letra": "C",
+        "texto": "7."
+      },
+      {
+        "letra": "D",
+        "texto": "8."
+      },
+      {
+        "letra": "E",
+        "texto": "9."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q22",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q22",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 22,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "Em certa loja um artigo que custa 80 reais pode ser comprado, na promoção, por 66 reais. O valor do desconto é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "14%."
+      },
+      {
+        "letra": "B",
+        "texto": "16,5%."
+      },
+      {
+        "letra": "C",
+        "texto": "17,5%."
+      },
+      {
+        "letra": "D",
+        "texto": "18%."
+      },
+      {
+        "letra": "E",
+        "texto": "19,5%."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q23",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q23",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 23,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Em uma lanchonete todos os sanduíches têm o mesmo preço e todos os sucos têm mesmo preço. Certo dia, Joana e Laura compraram, nessa lanchonete, 2 sanduíches e 3 sucos pagando o total de 51 reais. Na semana seguinte, as duas levaram Maria a essa lanchonete. Elas compraram 3 sanduíches e 4 sucos e pagaram o total de 72 reais. Nessa lanchonete o preço do sanduíche é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "9 reais."
+      },
+      {
+        "letra": "B",
+        "texto": "10 reais."
+      },
+      {
+        "letra": "C",
+        "texto": "11 reais."
+      },
+      {
+        "letra": "D",
+        "texto": "12 reais."
+      },
+      {
+        "letra": "E",
+        "texto": "13 reais. POLÍCIA MILITAR DO ESTADO DE SÃO PAULO FGV CONHECIMENTO SOLDADO PM DE 2ª CLASSE – TARDE TIPO BRANCA – PÁGINA 6"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q24",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q24",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 24,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "O prefixo peta aplicado a qualquer unidade significa 250 vezes essa unidade. Sabe-se que o Google processa cerca de 24 petabytes de informação por dia. Utilizando a aproximação 210 ≅ 103, o número de bytes de informação que o Google processa por dia possui",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "15 algarismos."
+      },
+      {
+        "letra": "B",
+        "texto": "16 algarismos."
+      },
+      {
+        "letra": "C",
+        "texto": "17 algarismos."
+      },
+      {
+        "letra": "D",
+        "texto": "18 algarismos."
+      },
+      {
+        "letra": "E",
+        "texto": "19 algarismos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q25",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q25",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 25,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "Quatro pessoas estão em um elevador. A média aritmética dos pesos dessas quatro pessoas é 85 kg, e a mais pesada entre elas pesa 100 kg. A pessoa mais pesada sai do elevador e duas pessoas, de 50 kg cada uma, entram no elevador. A nova média dos pesos das pessoas que agora estão no elevador é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "igual à média anterior."
+      },
+      {
+        "letra": "B",
+        "texto": "13 kg menor que a média anterior."
+      },
+      {
+        "letra": "C",
+        "texto": "15 kg menor que a média anterior."
+      },
+      {
+        "letra": "D",
+        "texto": "17 kg menor que a média anterior."
+      },
+      {
+        "letra": "E",
+        "texto": "19 kg menor que a média anterior."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q26",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q26",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 26,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "Um terreno tem a forma de um quadrilátero ABCD em que os ângulos de vértices A e D são retos. São dadas as medidas de três lados: AB = 30 m, BC = 20 m e CD = 18 m. A área desse terreno em metros quadrados é igual a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "360."
+      },
+      {
+        "letra": "B",
+        "texto": "384."
+      },
+      {
+        "letra": "C",
+        "texto": "418."
+      },
+      {
+        "letra": "D",
+        "texto": "436."
+      },
+      {
+        "letra": "E",
+        "texto": "460."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q27",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q27",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 27,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Uma máquina leva 2 minutos e 15 segundos (2min15s) para imprimir e encadernar certo livro. Para imprimir e encadernar 24 exemplares desse livro, trabalhando continuamente, a máquina levará",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "50min."
+      },
+      {
+        "letra": "B",
+        "texto": "51min45s."
+      },
+      {
+        "letra": "C",
+        "texto": "52min30s."
+      },
+      {
+        "letra": "D",
+        "texto": "53min15s."
+      },
+      {
+        "letra": "E",
+        "texto": "54min."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q28",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q28",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 28,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "João, Carlos, Pedro, Manoel e Francisco estão sentados em torno de uma mesa hexagonal regular e um lugar ficou vazio. Sabe-se que: • Pedro é o vizinho à esquerda de Carlos. • Carlos não está em lugar oposto a Francisco. • João é o vizinho à direita de Manoel. • O lugar à direita de Francisco está vazio. Assim, é correto afirmar que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o lugar à esquerda de Pedro não está vazio."
+      },
+      {
+        "letra": "B",
+        "texto": "Manoel está em lugar oposto a Pedro."
+      },
+      {
+        "letra": "C",
+        "texto": "O vizinho à direita de Carlos é João."
+      },
+      {
+        "letra": "D",
+        "texto": "Pedro e Francisco estão em lugares opostos."
+      },
+      {
+        "letra": "E",
+        "texto": "o vizinho à direita de João não é Pedro."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q29",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q29",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 29,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "Considere os números: 𝑎 = 0,7; 𝑏 = 0,45; 𝑐 = 1,00; 𝑑 = 0,085. É correto concluir que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "𝑎 < 𝑏 < 𝑐 < 𝑑."
+      },
+      {
+        "letra": "B",
+        "texto": "𝑑 < 𝑐 < 𝑏 < 𝑎."
+      },
+      {
+        "letra": "C",
+        "texto": "𝑏 < 𝑐 < 𝑑 < 𝑎."
+      },
+      {
+        "letra": "D",
+        "texto": "𝑑 < 𝑏 < 𝑎 < 𝑐."
+      },
+      {
+        "letra": "E",
+        "texto": "𝑎 < 𝑏 < 𝑑 < 𝑐."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q31",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q31",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 31,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Em um encontro de 57 Policiais Militares, há apenas sargentos, cabos e soldados. Para cada cabo, há 5 soldados, e para cada sargento, há 3 cabos. O número de soldados nesse encontro é igual a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "50."
+      },
+      {
+        "letra": "B",
+        "texto": "48."
+      },
+      {
+        "letra": "C",
+        "texto": "45."
+      },
+      {
+        "letra": "D",
+        "texto": "42."
+      },
+      {
+        "letra": "E",
+        "texto": "40."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q32",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q32",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 32,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "Três profissionais executam um determinado trabalho em 12 horas. Dois profissionais, com a mesma eficiência, executarão o mesmo trabalho em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8 horas."
+      },
+      {
+        "letra": "B",
+        "texto": "9 horas."
+      },
+      {
+        "letra": "C",
+        "texto": "15 horas."
+      },
+      {
+        "letra": "D",
+        "texto": "16 horas."
+      },
+      {
+        "letra": "E",
+        "texto": "18 horas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q33",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q33",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 33,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Uma caixa tem dimensões internas de 8 cm x 8 cm x 15 cm. A capacidade dessa caixa em litros é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "960."
+      },
+      {
+        "letra": "B",
+        "texto": "96."
+      },
+      {
+        "letra": "C",
+        "texto": "9,6."
+      },
+      {
+        "letra": "D",
+        "texto": "0,96."
+      },
+      {
+        "letra": "E",
+        "texto": "0,096."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q34",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q34",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 34,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Em uma urna há 4 bolas numeradas, cada uma com um número inteiro positivo. Sabe-se que a soma dos 4 números é par e que o produto dos 4 números também é par. Nesse caso, é correto concluir que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "nenhuma bola tem número par."
+      },
+      {
+        "letra": "B",
+        "texto": "exatamente uma bola tem número par."
+      },
+      {
+        "letra": "C",
+        "texto": "exatamente uma bola tem número ímpar."
+      },
+      {
+        "letra": "D",
+        "texto": "no mínimo duas bolas têm números pares."
+      },
+      {
+        "letra": "E",
+        "texto": "no mínimo duas bolas têm números ímpares."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q56",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q56",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 56,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "João, após estudar muitos anos no exterior, aprendeu a realizar um trabalho de grande relevância social, o que lhe permitia auferir uma boa renda. Ao retornar ao território brasileiro, constatou, para sua surpresa, que não existia lei regulamentando o exercício dessa profissão. Ao consultar um especialista nessa temática, foi corretamente informado a João que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a ausência de lei impede o exercício da profissão."
+      },
+      {
+        "letra": "B",
+        "texto": "a ausência de lei indica ser livre o exercício da profissão."
+      },
+      {
+        "letra": "C",
+        "texto": "o trabalho é livre, logo, a lei não pode estabelecer qualquer requisito para o seu exercício."
+      },
+      {
+        "letra": "D",
+        "texto": "é cabível a impetração de mandado de injunção para que lhe seja permitido o exercício da profissão."
+      },
+      {
+        "letra": "E",
+        "texto": "é cabível a impetração de mandado de segurança para que lhe seja permitido o exercício da profissão."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q57",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q57",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 57,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "O Prefeito do Município Alfa foi informado por sua assessoria que era necessário o preenchimento de uma função de confiança e de um cargo em comissão. Os pretendentes eram Ana, servidora ocupante de cargo de provimento efetivo; Pedro, servidor público estadual aposentado; e Maria, que jamais ocupou um cargo público. À luz da sistemática constitucional vigente, é correto afirmar que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ana pode ocupar a função de confiança ou o cargo em comissão."
+      },
+      {
+        "letra": "B",
+        "texto": "Pedro pode ocupar a função de confiança ou o cargo em comissão."
+      },
+      {
+        "letra": "C",
+        "texto": "Maria pode ocupar a função de confiança ou o cargo em comissão."
+      },
+      {
+        "letra": "D",
+        "texto": "Ana e Pedro somente podem ocupar o cargo em comissão."
+      },
+      {
+        "letra": "E",
+        "texto": "Maria somente pode ocupar a função de confiança."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q58",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q58",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 58,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "Considere o seguinte problema hipotético: o Comandante de um Batalhão da Polícia Militar do Estado de São Paulo teria supostamente praticado um crime militar cometido contra um civil. Nesse caso, à luz da Constituição do Estado de São Paulo, o referido agente será processado e julgado",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pelo Tribunal de Justiça."
+      },
+      {
+        "letra": "B",
+        "texto": "pelo Conselho de Justificação."
+      },
+      {
+        "letra": "C",
+        "texto": "pelo Tribunal de Justiça Militar."
+      },
+      {
+        "letra": "D",
+        "texto": "por um juiz de Direito do juízo militar."
+      },
+      {
+        "letra": "E",
+        "texto": "pelo Conselho de Justiça Militar, sob a presidência do juiz de Direito."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q59",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q59",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 59,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "Um grupo de servidores públicos, formado por ocupantes de cargos de provimento efetivo do Poder Executivo do Estado de São Paulo, almejava promover uma associação sindical. Ao consultarem a Constituição do Estado de São Paulo, os servidores concluíram corretamente que o referido objetivo",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "é expressamente vedado."
+      },
+      {
+        "letra": "B",
+        "texto": "pode ser livremente realizado."
+      },
+      {
+        "letra": "C",
+        "texto": "depende de autorização do superior hierárquico."
+      },
+      {
+        "letra": "D",
+        "texto": "depende de autorização do Governador do Estado."
+      },
+      {
+        "letra": "E",
+        "texto": "será permitido, ou não, conforme venha a ser previsto em lei complementar estadual."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2024-fgv-q60",
+    "codigo": "PMSP-SOLDADO-2024-FGV-Q60",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2024,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 60,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "Maria, pessoa analfabeta e que não se alistou como eleitora, mas que possui elevada consciência cívica, sendo residente no Estado Alfa, apresentou requerimento de acesso à informação a uma autarquia federal com sede em Brasília, com o objetivo de que fosse informada sobre a remuneração dos seus servidores. Na situação descrita na narrativa, é correto afirmar, à luz da Lei de Acesso à Informação, que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Maria não pode requerer as informações, pois não é cidadã."
+      },
+      {
+        "letra": "B",
+        "texto": "não precisam ser apresentados os motivos determinantes da solicitação."
+      },
+      {
+        "letra": "C",
+        "texto": "a Lei de Acesso à Informação somente é aplicada aos Estados e aos Municípios, não à União."
+      },
+      {
+        "letra": "D",
+        "texto": "a remuneração dos servidores diz respeito à intimidade desses agentes, não podendo ser fornecida."
+      },
+      {
+        "letra": "E",
+        "texto": "o requerimento somente deve ser atendido caso a autarquia tenha classificado tais informações como publicizáveis. POLÍCIA MILITAR DO ESTADO DE SÃO PAULO FGV CONHECIMENTO SOLDADO PM DE 2ª CLASSE – TARDE TIPO BRANCA – PÁGINA 13 Redação Texto I Um em cada quatro países do mundo proíbe ou tem políticas sobre o uso do celular em sala de aula, segundo estudo divulgado pela Unesco. Entre os que recentemente anunciaram a proibição estão Finlândia e Holanda. Estudos mostram impactos do smartphone na aprendizagem e na concentração dos estudantes, principalmente porque os distrai durante a aula. No Brasil, não há lei que proíba o uso de celulares. Escolas particulares têm regras próprias sobre o uso do aparelho, permitindo ou não de acordo com o uso e a idade do aluno. Um projeto de 2015, ainda em análise na Câmara dos Deputados, proíbe \"o uso de aparelhos eletrônicos portáteis, como celulares e tablets, nas salas de aula da educação básica e superior de todo o país\". Celular em sala de aula: quais países já proíbem e como isso afeta a aprendizagem? Disponível em: https://noticias.uol.com.br. 26/07/2023. Adaptado. Texto II A Unesco (Organização das Nações Unidas para a Educação, a Ciência e a Cultura) alertou em relatório sobre os impactos negativos do uso de celulares em sala de aula na aprendizagem e concentração dos estudantes. \"Os professores entendem o uso de tablets e telefones como algo que prejudica a gestão em sala de aula. Um em cada três professores concorda que o uso das tecnologias em sala de aula distrai os estudantes\", continua. A Unesco ainda destaca que não existem evidências científicas suficientes para comprovar os benefícios do uso da tecnologia digital na educação e alerta que os investimentos nessa área podem estar tomando o recurso de ações mais efetivas para a melhoria do ensino. \"Boa parte das evidências são produzidas pelos que estão tentando vendê-las. A Pearson, empresa ligada ao mundo da educação e subsidiária de publicações, financiou seus próprios estudos e contestou uma análise independente que demonstrava que seus produtos não tinham impacto algum\", destaca o relatório. Isabela Palhares. Unesco alerta para riscos do uso de celular em sala de aula. Disponível em: https://www1.folha.uol.com.br. 26.06.2023. Adaptado. Texto III Para além de ser uma ferramenta de trabalho, é possível imaginar a infinidade de recursos que um simples smartphone com acesso à internet pode proporcionar dentro das salas de aula: conversor de moeda, volume, comprimento e peso, temperatura e elementos do clima, bússola, calculadora, dicionário, tradutor de idiomas, enfim, mil e uma possibilidades de aplicativos a favor da educação. Segundo pesquisa da TIC Kids Online Brasil de 2021, 93% das crianças e dos adolescentes do país entre 9 e 17 anos são usuários de internet, o que corresponde a cerca de 22,3 milhões de pessoas conectadas nessa faixa etária. Além disso, o celular é o dispositivo predominante entre elas para esse acesso (93%). Dessa maneira, atualmente não é possível ir contra o desenvolvimento informacional que o mundo respira. É necessário pensar nos smartphones como uma ferramenta de apoio à educação, lançando mão de práticas eficazes que possam ampliar suas vantagens e, claro, estabelecer limites e responsabilidades. Diante de uma sociedade conectada e protagonista de suas ações, os alunos naturalmente vão usar muitos recursos no estudo. Letícia Bufarah. Celular em sala de aula pode ser sim um aliado da educação. Disponível em: https://www.terra.com.br. 03.10.2023. Adaptado. Com base nos textos apresentados e em seus próprios conhecimentos, escreva um texto dissertativo-argumentativo, de no máximo 30 linhas, empregando a norma-padrão da língua portuguesa, sobre o tema: O uso de celular deve ser proibido em sala de aula? POLÍCIA MILITAR DO ESTADO DE SÃO PAULO FGV CONHECIMENTO SOLDADO PM DE 2ª CLASSE – TARDE TIPO BRANCA – PÁGINA 14"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2024. Banca: FGV. Gabarito definitivo: E."
+  }
+]

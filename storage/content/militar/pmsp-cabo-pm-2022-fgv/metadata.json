@@ -1,0 +1,26 @@
+{
+  "exame": "PMSP Cabo PM 2022",
+  "banca": "FGV",
+  "ano": 2022,
+  "aplicada_em": "2022-12-04",
+  "cargo": "Cabo PM",
+  "total_questoes": 60,
+  "fonte": "Oficial militar",
+  "sourceUrl": "https://conhecimento.fgv.br/concursos/pmespcabo22",
+  "gabarito": "definitivo",
+  "origem": "oficial",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/cabo-pmcnm001-tipo-1.pdf",
+      "path": "storage/content/militar/pmsp-cabo-pm-2022-fgv/provas/pmsp-cabo-pm-2022-fgv-prova.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/pmespcabo2022_gabarito_definitivo.pdf",
+      "path": "storage/content/militar/pmsp-cabo-pm-2022-fgv/gabaritos/pmsp-cabo-pm-2022-fgv-gabarito-definitivo.pdf"
+    }
+  ]
+}

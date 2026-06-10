@@ -36,6 +36,7 @@ type MilitarQuestion = {
   formato: ExamFormat;
   numero: number;
   materia: string;
+  materia_original: string;
   dificuldade: string;
   enunciado: string;
   alternativas: Array<{ letra: string; texto: string }>;
@@ -55,6 +56,7 @@ const PUBLIC_QUESTIONS_PATH = path.resolve(process.cwd(), "public", "questoes", 
 const PUBLIC_MANIFEST_PATH = path.resolve(process.cwd(), "public", "materiais", "militar-manifest.json");
 const PUBLIC_REPORT_PATH = path.resolve(process.cwd(), "public", "questoes", "militar-extraction-report.json");
 const insecureNupeceAgent = new https.Agent({ rejectUnauthorized: false });
+const PUSH_SUPABASE = process.argv.includes("--push-supabase");
 
 function log(message: string) {
   console.log(`[Militar Miner] ${message}`);
@@ -371,13 +373,14 @@ function makeQuestion(entry: ManifestEntry, numero: number, materia: string, enu
     formato,
     numero,
     materia,
+    materia_original: materia,
     dificuldade: difficultyForQuestion(materia, `${enunciado} ${afirmacao || ""}`),
     enunciado,
     alternativas,
     afirmacao,
     gabarito,
     anulada: false,
-    origem: `oficial_${safeFileName(entry.banca)}`,
+    origem: "oficial",
     banca_selo: entry.banca,
     concurso: entry.orgao,
     comentario: `Questao oficial ${entry.orgao} ${entry.cargo} ${entry.ano}. Banca: ${entry.banca}. Gabarito definitivo: ${gabarito.toUpperCase()}.`,
@@ -400,7 +403,7 @@ function toDbRow(question: MilitarQuestion) {
     alternativa_d: alternatives.alternativa_d || "",
     alternativa_e: alternatives.alternativa_e || "",
     gabarito: question.formato === "certo_errado" ? (question.gabarito === "c" ? "a" : "b") : question.gabarito,
-    comentario: `${question.comentario} Origem: ${question.origem}. Cargo: ${question.cargo}. Ano: ${question.ano}.`,
+    comentario: `${question.comentario} Origem: ${question.origem}. Materia original: ${question.materia_original}. Cargo: ${question.cargo}. Ano: ${question.ano}.`,
     concurso: question.orgao,
   };
 }
@@ -467,7 +470,7 @@ async function processEntry(entry: ManifestEntry) {
     fonte: SOURCE,
     sourceUrl: entry.fonteUrl || entry.provaPdf,
     gabarito: "definitivo",
-    origem: `oficial_${safeFileName(entry.banca)}`,
+    origem: "oficial",
     files: [
       { title: "Prova oficial", type: "prova", url: entry.provaPdf, path: proofPath.replace(process.cwd() + path.sep, "").replace(/\\/g, "/") },
       { title: "Gabarito definitivo", type: "gabarito", url: entry.gabaritoPdf, path: answerPath.replace(process.cwd() + path.sep, "").replace(/\\/g, "/") },
@@ -536,9 +539,11 @@ async function main() {
   await writeFile(PUBLIC_MANIFEST_PATH, JSON.stringify(materials, null, 2), "utf-8");
   await writeFile(PUBLIC_REPORT_PATH, JSON.stringify(report, null, 2), "utf-8");
 
-  if (questions.length) {
+  if (questions.length && PUSH_SUPABASE) {
     await saveToSupabase(questions);
     log(`Questoes salvas no Supabase: ${questions.length}`);
+  } else if (questions.length) {
+    log("Supabase nao atualizado. Use --push-supabase para fazer upsert explicitamente.");
   }
 
   const totalValidas = report.reduce((sum, item) => sum + item.validas, 0);
