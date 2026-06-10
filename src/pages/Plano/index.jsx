@@ -139,9 +139,24 @@ function readStorage(key, fallback) {
   }
 }
 
+function elapsedSeconds(timer = {}, nowMs = Date.now()) {
+  const saved = Number(timer.elapsedSeconds || 0);
+  if (!timer.startedAt) return saved;
+  return saved + Math.max(0, Math.floor((nowMs - Number(timer.startedAt)) / 1000));
+}
+
+function formatElapsed(totalSeconds = 0) {
+  const seconds = Math.max(0, Math.floor(totalSeconds));
+  const hours = Math.floor(seconds / 3600);
+  const minutes = Math.floor((seconds % 3600) / 60);
+  const rest = seconds % 60;
+  return [hours, minutes, rest].map((part) => String(part).padStart(2, "0")).join(":");
+}
+
 function ActivityRow({ activity, onStatus }) {
   const isDone = activity.status === "Concluida";
   const isRunning = activity.status === "Em andamento";
+  const timerProgress = Math.min(100, Math.round((activity.elapsedSeconds / Math.max(1, activity.duration * 60)) * 100));
 
   return (
     <div className={cx("relative overflow-hidden rounded-lg border bg-white p-3 shadow-sm transition hover:shadow-md", isDone ? "border-emerald-100" : "border-slate-100 hover:border-blue-200")}>
@@ -158,6 +173,17 @@ function ActivityRow({ activity, onStatus }) {
             <h3 className="truncate text-base font-black text-slate-950">{activity.title}</h3>
           </div>
           <p className="mt-1 text-sm text-slate-500">{activity.materia} - {activity.concurso}</p>
+          <div className="mt-3 max-w-sm">
+            <div className="flex items-center justify-between gap-3 text-xs">
+              <span className={cx("font-black", isRunning ? "text-blue-700" : activity.elapsedSeconds ? "text-slate-600" : "text-slate-400")}>
+                Cronometro {formatElapsed(activity.elapsedSeconds)}
+              </span>
+              {isRunning ? <span className="rounded-full bg-blue-100 px-2 py-0.5 font-bold text-blue-700">rodando</span> : null}
+            </div>
+            <div className="mt-1 h-1.5 overflow-hidden rounded-full bg-slate-100">
+              <div className={cx("h-full rounded-full transition-all", isDone ? "bg-emerald-500" : isRunning ? "bg-blue-600" : "bg-slate-300")} style={{ width: `${timerProgress}%` }} />
+            </div>
+          </div>
           <div className="mt-3 flex flex-wrap gap-2 md:hidden">
             <Badge variant={typeBadge(activity.type)}>{activity.type}</Badge>
             <span className={cx("inline-flex min-h-7 items-center rounded-full border px-3 text-xs font-bold", statusTone(activity.status))}>{activity.status}</span>
@@ -203,13 +229,23 @@ export default function PlanoPage() {
   const [selectedDate, setSelectedDate] = useState(isoDate(now));
   const [filters, setFilters] = useState({ materia: "", tipo: "", status: "", concurso: "", periodo: "" });
   const [localStatus, setLocalStatus] = useState(() => readStorage("aprova-plano-status", {}));
+  const [timers, setTimers] = useState(() => readStorage("aprova-plano-timers", {}));
+  const [nowMs, setNowMs] = useState(() => Date.now());
   const [extraActivities, setExtraActivities] = useState(() => readStorage("aprova-plano-atividades", []));
   const [modal, setModal] = useState(false);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [draft, setDraft] = useState({ title: "", materia: "", type: "Estudo", hour: "08:00", duration: 60, concurso: "PRF", status: "Pendente" });
 
   const baseActivities = useMemo(() => buildActivities(plano, month, extraActivities), [extraActivities, month, plano]);
-  const activities = useMemo(() => baseActivities.map((item) => ({ ...item, status: localStatus[item.id] || item.status })), [baseActivities, localStatus]);
+  const activities = useMemo(() => baseActivities.map((item) => {
+    const timer = timers[item.id] || {};
+    return {
+      ...item,
+      status: localStatus[item.id] || item.status,
+      elapsedSeconds: elapsedSeconds(timer, nowMs),
+      timerStartedAt: timer.startedAt || null,
+    };
+  }), [baseActivities, localStatus, nowMs, timers]);
   const filteredActivities = useMemo(() => applyFilters(activities, filters), [activities, filters]);
   const monthDays = useMemo(() => buildMonthGrid(month), [month]);
   const selectedActivities = useMemo(() => filteredActivities.filter((item) => item.date === selectedDate), [filteredActivities, selectedDate]);
@@ -259,10 +295,38 @@ export default function PlanoPage() {
   }, [localStatus]);
 
   useEffect(() => {
+    localStorage.setItem("aprova-plano-timers", JSON.stringify(timers));
+  }, [timers]);
+
+  useEffect(() => {
+    if (!Object.values(timers).some((timer) => timer?.startedAt)) return undefined;
+    const interval = window.setInterval(() => setNowMs(Date.now()), 1000);
+    return () => window.clearInterval(interval);
+  }, [timers]);
+
+  useEffect(() => {
     localStorage.setItem("aprova-plano-atividades", JSON.stringify(extraActivities));
   }, [extraActivities]);
 
-  const updateActivityStatus = useCallback((id, status) => setLocalStatus((current) => ({ ...current, [id]: status })), []);
+  const updateActivityStatus = useCallback((id, status) => {
+    const now = Date.now();
+    setTimers((current) => {
+      const timer = current[id] || { elapsedSeconds: 0, startedAt: null };
+      const elapsed = elapsedSeconds(timer, now);
+
+      if (status === "Em andamento") {
+        return { ...current, [id]: { elapsedSeconds: elapsed, startedAt: timer.startedAt || now } };
+      }
+
+      if (status === "Pendente" || status === "Concluida" || status === "Reagendada") {
+        return { ...current, [id]: { elapsedSeconds: elapsed, startedAt: null } };
+      }
+
+      return current;
+    });
+    setLocalStatus((current) => ({ ...current, [id]: status }));
+    setNowMs(now);
+  }, []);
   const goToday = useCallback(() => {
     const current = new Date();
     setMonth(new Date(current.getFullYear(), current.getMonth(), 1));
