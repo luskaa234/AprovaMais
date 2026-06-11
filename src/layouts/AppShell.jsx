@@ -129,11 +129,41 @@ const Topbar = memo(() => {
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
+  const openRoute = useCallback(
+    (item) => {
+      navigate(item.key);
+      setSearchOpen(false);
+      setQuery("");
+    },
+    [navigate]
+  );
+
+  const searchResults = query ? (
+    <div className="topbar-search-results absolute left-0 top-full z-40 mt-2 w-full rounded-2xl p-2 shadow-xl">
+      <p className="px-2 py-1 text-xs font-bold">Modulos</p>
+      {results.length ? (
+        results.map((item) => (
+          <button
+            className="flex w-full items-center gap-2 rounded-xl p-2 text-left text-sm"
+            key={item.key}
+            onClick={() => openRoute(item)}
+            type="button"
+          >
+            <item.icon size={16} />
+            {item.label}
+          </button>
+        ))
+      ) : (
+        <p className="px-2 py-2 text-sm">Nenhum modulo encontrado.</p>
+      )}
+    </div>
+  ) : null;
+
   return (
-    <header className="sticky top-0 z-30 border-b border-gray-800 bg-gray-950/92 px-3 py-2.5 backdrop-blur md:px-4 md:py-3">
+    <header className="internal-topbar sticky top-0 z-30">
       <Toast toast={toast} />
 
-      <div className="flex items-center gap-2 md:gap-3">
+      <div className="internal-topbar-row">
         <button
           aria-label="Abrir perfil"
           className="mobile-top-profile flex min-w-0 flex-1 items-center gap-2 rounded-xl p-1.5 text-left lg:hidden"
@@ -142,119 +172,134 @@ const Topbar = memo(() => {
         >
           <Avatar name={user?.name} size="sm" />
           <span className="min-w-0">
-            <strong className="block truncate text-sm font-black text-white">{user?.name?.split(" ")?.[0] || "Aluno"}</strong>
-            <small className="block truncate text-[11px] font-semibold text-gray-500">{current?.label || "Dashboard"}</small>
+            <strong className="block truncate text-sm font-black">{user?.name?.split(" ")?.[0] || "Aluno"}</strong>
+            <small className="block truncate text-[11px] font-semibold">{current?.label || "Dashboard"}</small>
           </span>
         </button>
 
-        <div className="hidden min-w-0 flex-1 lg:block">
-          <p className="hidden text-xs text-gray-500 sm:block">Área interna</p>
-          <h1 className="truncate text-base font-black text-white md:text-lg">{current?.label || "Dashboard"}</h1>
+        <div className="internal-topbar-heading hidden min-w-0 lg:block">
+          <p className="internal-topbar-eyebrow hidden text-xs sm:block">Area interna</p>
+          <h1 className="internal-topbar-title truncate text-base font-black md:text-lg">{current?.label || "Dashboard"}</h1>
         </div>
 
-        <div className="relative">
+        <div className="topbar-search-wrap relative hidden min-w-0 flex-1 md:block">
+          <Search className="topbar-search-icon absolute left-3 top-1/2 -translate-y-1/2" size={16} />
+          <Input
+            className="topbar-search-input w-full pl-9 pr-3 xl:pr-16"
+            onChange={(event) => {
+              setQuery(event.target.value);
+              setSearchOpen(true);
+            }}
+            onFocus={() => setSearchOpen(true)}
+            placeholder="Buscar modulo"
+            ref={searchRef}
+            value={query}
+          />
+          <span className="topbar-search-shortcut absolute right-3 top-1/2 hidden -translate-y-1/2 rounded px-2 py-1 text-xs xl:block">
+            Ctrl K
+          </span>
+          {searchOpen ? searchResults : null}
+        </div>
+
+        <div className="topbar-actions">
           <button
-            aria-label="Notificacoes"
-            className="relative grid size-10 place-items-center rounded-xl text-gray-300 hover:bg-gray-800"
-            onClick={() => setNotificationsOpen((value) => !value)}
+            aria-label={searchOpen ? "Fechar busca" : "Abrir busca"}
+            className="topbar-icon-button md:hidden"
+            onClick={() => {
+              setSearchOpen((value) => !value);
+              window.requestAnimationFrame(() => searchRef.current?.focus());
+            }}
             type="button"
           >
-            <Bell size={20} />
-            {unreadCount ? (
-              <span className="absolute right-1 top-1 grid size-4 place-items-center rounded-full bg-red-500 text-[10px] text-white">
-                {unreadCount}
-              </span>
-            ) : null}
+            {searchOpen ? <X size={18} /> : <Search size={18} />}
           </button>
 
-          {notificationsOpen ? (
-            <div className="notification-panel absolute right-0 top-full z-40 mt-2 w-[min(20rem,calc(100vw-1rem))] rounded-2xl border border-gray-800 bg-gray-950 p-3 shadow-xl">
-              <div className="mb-2 flex items-center justify-between gap-3">
-                <strong className="text-sm text-white">Notificacoes</strong>
-                <button className="text-xs text-blue-600" onClick={clearAll} type="button">
-                  Marcar como lidas
-                </button>
+          <div className="relative">
+            <button
+              aria-label="Notificacoes"
+              className="topbar-icon-button relative"
+              onClick={() => setNotificationsOpen((value) => !value)}
+              type="button"
+            >
+              <Bell size={20} />
+              {unreadCount ? (
+                <span className="absolute right-1 top-1 grid size-4 place-items-center rounded-full bg-red-500 text-[10px] text-white">
+                  {unreadCount}
+                </span>
+              ) : null}
+            </button>
+
+            {notificationsOpen ? (
+              <div className="notification-panel absolute right-0 top-full z-40 mt-2 w-[min(20rem,calc(100vw-1rem))] rounded-2xl p-3 shadow-xl">
+                <div className="mb-2 flex items-center justify-between gap-3">
+                  <strong className="text-sm">Notificacoes</strong>
+                  <button className="text-xs font-bold text-blue-600" onClick={clearAll} type="button">
+                    Marcar como lidas
+                  </button>
+                </div>
+                {notifications.slice(0, 5).map((item) => (
+                  <button
+                    className="notification-item mb-2 block w-full rounded-xl p-3 text-left text-sm"
+                    key={item.id}
+                    onClick={() => markAsRead(item.id)}
+                    type="button"
+                  >
+                    <span className="font-bold">{item.title}</span>
+                    <p>{item.message}</p>
+                  </button>
+                ))}
               </div>
-              {notifications.slice(0, 5).map((item) => (
-                <button
-                  className="mb-2 block w-full rounded-xl bg-gray-900 p-3 text-left text-sm"
-                  key={item.id}
-                  onClick={() => markAsRead(item.id)}
-                  type="button"
-                >
-                  <span className="font-bold text-white">{item.title}</span>
-                  <p className="text-gray-400">{item.message}</p>
-                </button>
-              ))}
-            </div>
-          ) : null}
-        </div>
-
-        <button
-          aria-label={isDark ? "Usar modo claro" : "Usar modo escuro"}
-          className="grid size-10 place-items-center rounded-xl text-gray-300 hover:bg-gray-800"
-          onClick={toggleTheme}
-          type="button"
-        >
-          {isDark ? <Sun size={18} /> : <Moon size={18} />}
-        </button>
-
-        <TourButton className="hidden lg:inline-flex" />
-
-        <button
-          aria-label="Abrir perfil"
-          className="topbar-profile-button hidden min-h-10 items-center gap-2 rounded-xl bg-gray-900 p-1 pr-3 text-left transition hover:bg-gray-800 md:flex"
-          data-tour="tour-perfil"
-          id="tour-perfil"
-          onClick={() => navigate("perfil")}
-          type="button"
-        >
-          <Avatar name={user?.name} />
-          <span className="hidden min-w-0 lg:block">
-            <strong className="block max-w-32 truncate text-xs font-black text-white">{user?.name || "Aluno"}</strong>
-            <small className="block max-w-32 truncate text-[11px] font-semibold text-gray-500">{user?.targetContest || "Perfil"}</small>
-          </span>
-        </button>
-      </div>
-
-      <div className="relative mt-2 hidden md:block">
-        <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" size={16} />
-        <Input
-          className="w-full pl-9 pr-3 md:pr-20"
-          onChange={(event) => {
-            setQuery(event.target.value);
-            setSearchOpen(true);
-          }}
-          onFocus={() => setSearchOpen(true)}
-          placeholder="Buscar módulo"
-          ref={searchRef}
-          value={query}
-        />
-        <span className="absolute right-3 top-1/2 hidden -translate-y-1/2 rounded bg-gray-800 px-2 py-1 text-xs text-gray-400 md:block">
-          Ctrl K
-        </span>
-
-        {searchOpen && query ? (
-          <div className="absolute left-0 top-full z-40 mt-2 w-full rounded-2xl border border-gray-800 bg-gray-950 p-2 shadow-xl">
-            <p className="px-2 py-1 text-xs font-bold text-gray-500">Modulos</p>
-            {results.map((item) => (
-              <button
-                className="flex w-full items-center gap-2 rounded-xl p-2 text-left text-sm text-gray-300 hover:bg-gray-900"
-                key={item.key}
-                onClick={() => {
-                  navigate(item.key);
-                  setSearchOpen(false);
-                  setQuery("");
-                }}
-                type="button"
-              >
-                <item.icon size={16} />
-                {item.label}
-              </button>
-            ))}
+            ) : null}
           </div>
-        ) : null}
+
+          <button
+            aria-label={isDark ? "Usar modo claro" : "Usar modo escuro"}
+            className="topbar-icon-button"
+            onClick={toggleTheme}
+            type="button"
+          >
+            {isDark ? <Sun size={18} /> : <Moon size={18} />}
+          </button>
+
+          <TourButton className="hidden lg:inline-flex" />
+
+          <button
+            aria-label="Abrir perfil"
+            className="topbar-profile-button hidden min-h-10 items-center gap-2 rounded-xl p-1 pr-3 text-left transition md:flex"
+            data-tour="tour-perfil"
+            id="tour-perfil"
+            onClick={() => navigate("perfil")}
+            type="button"
+          >
+            <Avatar name={user?.name} />
+            <span className="hidden min-w-0 lg:block">
+              <strong className="block max-w-32 truncate text-xs font-black">{user?.name || "Aluno"}</strong>
+              <small className="block max-w-32 truncate text-[11px] font-semibold">{user?.targetContest || "Perfil"}</small>
+            </span>
+          </button>
+        </div>
       </div>
+
+      <AnimatePresence>
+        {searchOpen ? (
+          <motion.div
+            animate={{ height: "auto", opacity: 1 }}
+            className="topbar-mobile-search relative md:hidden"
+            exit={{ height: 0, opacity: 0 }}
+            initial={{ height: 0, opacity: 0 }}
+          >
+            <Search className="topbar-search-icon absolute left-3 top-1/2 -translate-y-1/2" size={16} />
+            <Input
+              className="topbar-search-input w-full pl-9 pr-3"
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder="Buscar modulo"
+              ref={searchRef}
+              value={query}
+            />
+            {searchResults}
+          </motion.div>
+        ) : null}
+      </AnimatePresence>
     </header>
   );
 });

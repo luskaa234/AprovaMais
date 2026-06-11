@@ -14475,3 +14475,284 @@ button {
     line-height: 1.24 !important;
   }
 }
+
+/* Internal topbar polish across desktop, tablet and mobile. */
+.internal-topbar {
+  border-bottom: 1px solid rgba(191, 219, 254, 0.72);
+  background: rgba(255, 255, 255, 0.96);
+  padding: 0.75rem 1rem;
+  color: #0f172a;
+  backdrop-filter: blur(18px);
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04);
+}
+
+.internal-topbar-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.internal-topbar-heading {
+  flex: 0 0 clamp(12rem, 18vw, 18rem);
+}
+
+.internal-topbar-eyebrow {
+  color: #64748b;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.internal-topbar-title {
+  color: #0f172a;
+  line-height: 1.15;
+}
+
+.topbar-actions {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.topbar-icon-button {
+  display: grid;
+  width: 2.5rem;
+  height: 2.5rem;
+  place-items: center;
+  border: 1px solid transparent;
+  border-radius: 0.85rem;
+  color: #334155;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.topbar-icon-button:hover {
+  border-color: rgba(147, 197, 253, 0.75);
+  background: #eff6ff;
+  color: #2563eb;
+}
+
+.topbar-icon-button:active {
+  transform: scale(0.96);
+}
+
+.topbar-profile-button {
+  border: 1px solid rgba(191, 219, 254, 0.8);
+  background: #f8fbff;
+  color: #0f172a;
+}
+
+.topbar-profile-button:hover {
+  background: #eff6ff;
+}
+
+.topbar-profile-button small,
+.mobile-top-profile small {
+  color: #64748b;
+}
+
+.topbar-search-wrap {
+  max-width: min(58vw, 48rem);
+}
+
+.topbar-search-input .aprova-input,
+.topbar-mobile-search .aprova-input {
+  min-height: 2.75rem !important;
+  border-color: rgba(148, 163, 184, 0.32) !important;
+  border-radius: 0.95rem !important;
+  background: #ffffff !important;
+  color: #0f172a !important;
+  box-shadow: inset 0 0 0 1px rgba(219, 234, 254, 0.22);
+}
+
+.topbar-search-input .aprova-input:focus,
+.topbar-mobile-search .aprova-input:focus {
+  border-color: rgba(37, 99, 235, 0.5) !important;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.topbar-search-icon {
+  color: #64748b;
+  z-index: 1;
+}
+
+.topbar-search-shortcut {
+  background: #f1f5f9;
+  color: #64748b;
+}
+
+.topbar-search-results,
+.notification-panel {
+  border: 1px solid rgba(191, 219, 254, 0.84);
+  background: #ffffff;
+  color: #0f172a;
+}
+
+.topbar-search-results p,
+.notification-panel p {
+  color: #64748b;
+}
+
+.topbar-search-results button {
+  color: #334155;
+}
+
+.topbar-search-results button:hover,
+.notification-item {
+  background: #f8fafc;
+}
+
+.topbar-search-results button:hover {
+  color: #2563eb;
+}
+
+.topbar-mobile-search {
+  overflow: visible;
+  margin-top: 0.55rem;
+}
+
+[data-theme="dark"] .internal-topbar {
+  border-color: rgba(71, 85, 105, 0.56);
+  background: rgba(23, 32, 51, 0.96);
+  color: #f8fafc;
+  box-shadow: 0 10px 30px rgba(2, 6, 23, 0.18);
+}
+
+[data-theme="dark"] .internal-topbar-title,
+[data-theme="dark"] .mobile-top-profile strong,
+[data-theme="dark"] .topbar-profile-button strong,
+[data-theme="dark"] .notification-panel strong {
+  color: #f8fafc;
+}
+
+[data-theme="dark"] .internal-topbar-eyebrow,
+[data-theme="dark"] .topbar-profile-button small,
+[data-theme="dark"] .mobile-top-profile small,
+[data-theme="dark"] .notification-panel p {
+  color: #aebbd0;
+}
+
+[data-theme="dark"] .topbar-icon-button {
+  color: #dbeafe;
+}
+
+[data-theme="dark"] .topbar-icon-button:hover {
+  border-color: rgba(96, 165, 250, 0.28);
+  background: rgba(37, 99, 235, 0.14);
+  color: #93c5fd;
+}
+
+[data-theme="dark"] .topbar-profile-button,
+[data-theme="dark"] .topbar-search-results,
+[data-theme="dark"] .notification-panel {
+  border-color: rgba(71, 85, 105, 0.64) !important;
+  background: #202b3d !important;
+  color: #f8fafc;
+}
+
+[data-theme="dark"] .topbar-search-input .aprova-input,
+[data-theme="dark"] .topbar-mobile-search .aprova-input {
+  border-color: rgba(96, 165, 250, 0.22) !important;
+  background: #172033 !important;
+  color: #f8fafc !important;
+}
+
+[data-theme="dark"] .topbar-search-shortcut,
+[data-theme="dark"] .notification-item {
+  background: rgba(15, 23, 42, 0.38);
+  color: #aebbd0;
+}
+
+[data-theme="dark"] .topbar-search-results button {
+  color: #e7edf7;
+}
+
+[data-theme="dark"] .topbar-search-results button:hover {
+  background: rgba(37, 99, 235, 0.14);
+  color: #93c5fd;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .internal-topbar {
+    padding: 0.7rem 0.9rem;
+  }
+
+  .internal-topbar-row {
+    gap: 0.6rem;
+  }
+
+  .topbar-search-wrap {
+    max-width: none;
+  }
+
+  .topbar-actions {
+    gap: 0.35rem;
+  }
+
+  .topbar-icon-button {
+    width: 2.35rem;
+    height: 2.35rem;
+  }
+
+  .topbar-profile-button {
+    max-width: 3rem;
+    padding-right: 0.25rem !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .internal-topbar {
+    padding: calc(0.45rem + env(safe-area-inset-top)) 0.75rem 0.55rem;
+  }
+
+  .internal-topbar-row {
+    gap: 0.45rem;
+  }
+
+  .mobile-top-profile {
+    max-width: none !important;
+    min-height: 2.4rem;
+    padding-left: 0 !important;
+  }
+
+  .mobile-top-profile .relative.grid,
+  .mobile-top-profile > span:first-child {
+    width: 2rem;
+    height: 2rem;
+    min-width: 2rem;
+    border-radius: 0.75rem;
+  }
+
+  .mobile-top-profile strong {
+    max-width: 8.5rem;
+    color: #0f172a;
+    font-size: 0.88rem;
+  }
+
+  .mobile-top-profile small {
+    max-width: 8.5rem;
+  }
+
+  .topbar-actions {
+    gap: 0.25rem;
+  }
+
+  .topbar-icon-button {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 0.78rem;
+  }
+
+  .topbar-mobile-search {
+    margin-top: 0.45rem;
+  }
+
+  .topbar-search-results {
+    max-height: min(18rem, calc(100svh - 8rem));
+    overflow: auto;
+  }
+
+  .notification-panel {
+    right: -4.8rem !important;
+  }
+}
