@@ -19,6 +19,13 @@ const reviewActions = [
   ["Acertei", 5, 5, "primary"],
 ];
 
+function normalizeText(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
 function seededRandom(seed) {
   let value = seed % 2147483647;
   if (value <= 0) value += 2147483646;
@@ -45,9 +52,9 @@ function normalizeCard(deck, card, deckIndex, cardIndex) {
   const acertos = card.acertos ?? card.repetitions ?? card.repeticoes ?? 0;
   const erros = card.erros ?? 0;
   const dominio = card.dominio ?? Math.min(100, acertos * 20);
-  const status = card.status || (dominio >= 80 ? "Dominado" : acertos ? "Em revisao" : "Novo");
+  const status = card.status || (dominio >= 80 ? "Dominado" : acertos ? "Em revisão" : "Novo");
   const pergunta = card.pergunta || card.frente || `${deck.materia}: conceito essencial`;
-  const resposta = card.resposta || card.verso || "Resposta ainda nao cadastrada.";
+  const resposta = card.resposta || card.verso || "Resposta ainda não cadastrada.";
   const explicacao = card.explicacao && card.explicacao !== resposta ? card.explicacao : "";
 
   return {
@@ -59,7 +66,7 @@ function normalizeCard(deck, card, deckIndex, cardIndex) {
     assunto: card.assunto || deck.assunto || deck.materia || "Geral",
     subassunto: card.subassunto || deck.subassunto || "Pontos de prova",
     concurso: card.concurso || deck.concurso || (deckIndex % 2 ? "PRF" : "PM"),
-    dificuldade: card.dificuldade || (deck.retencao >= 75 ? "Dificil" : deck.retencao >= 45 ? "Medio" : "Facil"),
+    dificuldade: card.dificuldade || (deck.retencao >= 75 ? "Difícil" : deck.retencao >= 45 ? "Médio" : "Fácil"),
     status,
     favorito: Boolean(card.favorito),
     origem: card.origem || deck.origem || (deck.id?.includes("user") ? "usuario" : "plataforma"),
@@ -103,6 +110,7 @@ export default function FlashcardsPage() {
   const cardPosition = activeIndex >= 0 ? activeIndex + 1 : 0;
   const isLongQuestion = (activeCard?.pergunta || "").length > 180;
   const isLongAnswer = [activeCard?.resposta, activeCard?.explicacao].filter(Boolean).join(" ").length > 240;
+  const isHardDifficulty = normalizeText(activeCard?.dificuldade) === "dificil";
 
   const notify = useCallback((title, message) => addNotification({ type: "success", title, message }), [addNotification]);
 
@@ -111,7 +119,7 @@ export default function FlashcardsPage() {
     const acertos = (card.acertos || 0) + (acerto ? 1 : 0);
     const erros = (card.erros || 0) + (acerto ? 0 : 1);
     const dominio = Math.max(0, Math.min(100, (card.dominio || 0) + (quality === 0 ? -18 : quality * 8)));
-    const status = dominio >= 80 ? "Dominado" : "Em revisao";
+    const status = dominio >= 80 ? "Dominado" : "Em revisão";
 
     setOverrides((current) => ({
       ...current,
@@ -128,7 +136,7 @@ export default function FlashcardsPage() {
     setShowAnswer(false);
     const currentIndex = filtered.findIndex((item) => item.id === card.id);
     setActiveId(filtered[currentIndex + 1]?.id || filtered[0]?.id || card.id);
-    notify("Revisao registrada", `${label}: proxima revisao atualizada.`);
+    notify("Revisão registrada", `${label}: próxima revisão atualizada.`);
   }, [filtered, notify]);
 
   const goToCard = useCallback((direction) => {
@@ -159,11 +167,11 @@ export default function FlashcardsPage() {
 
   return (
     <div className="flashcards-page mx-auto max-w-[1500px] pb-10 text-slate-900" data-tour="tour-flashcards-page">
-      <div className="flashcards-header mb-5 flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between" data-tour="tour-flashcards-header">
+      <div className="flashcards-header mb-5 flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between" data-tour="tour-flashcards-header">
         <h1 className="text-3xl font-black text-slate-950">Flashcards</h1>
         <div className="flex flex-col gap-2 sm:flex-row">
           <Input icon={Search} placeholder="Buscar flashcards..." value={query} onChange={(event) => setQuery(event.target.value)} />
-          <Button variant="secondary" onClick={shuffleAgain}>Aleatorio</Button>
+          <Button variant="secondary" onClick={shuffleAgain}>Aleatório</Button>
         </div>
       </div>
 
@@ -175,12 +183,12 @@ export default function FlashcardsPage() {
                 <div className="flex flex-wrap items-center justify-center gap-2">
                   <Badge>{activeCard.materia}</Badge>
                   {activeCard.assunto !== activeCard.materia ? <Badge variant="neutral">{activeCard.assunto}</Badge> : null}
-                  <Badge variant={activeCard.dificuldade === "Dificil" ? "error" : "neutral"}>{activeCard.dificuldade}</Badge>
+                  <Badge variant={isHardDifficulty ? "error" : "neutral"}>{activeCard.dificuldade}</Badge>
                 </div>
 
                 <div className="flashcards-progress">
                   <div className="mb-2 flex items-center justify-between text-xs font-bold text-slate-500">
-                    <span>Progresso da sessao</span>
+                    <span>Progresso da sessão</span>
                     <span>{cardPosition}/{filtered.length}</span>
                   </div>
                   <div className="h-2 overflow-hidden rounded-full bg-slate-100">
@@ -208,11 +216,6 @@ export default function FlashcardsPage() {
                     <div className="flashcard-face-content flashcard-face-content-back text-left">
                       <div className="flashcard-card-scroll flashcard-card-scroll-back">
                         <div className="flashcard-back-stack">
-                          <div className="flashcard-back-block flashcard-back-question-block rounded-lg border border-blue-100 bg-blue-50 p-4">
-                            <strong className="mb-2 block text-sm text-blue-700">Pergunta</strong>
-                            <p className={cx("flashcard-back-question text-lg font-black leading-snug text-slate-950 sm:text-xl", isLongQuestion && "is-long")}>{activeCard.pergunta}</p>
-                          </div>
-
                           <div className="flashcard-back-block flashcard-back-answer-block rounded-lg border border-emerald-200 bg-emerald-50 p-4 text-sm leading-relaxed text-slate-700">
                             <strong className="mb-2 block text-emerald-700">Resposta</strong>
                             <p className={cx("flashcard-answer-text", isLongAnswer && "is-long")}>{activeCard.resposta}</p>
@@ -227,7 +230,7 @@ export default function FlashcardsPage() {
 
               <div className="flashcards-controls-panel" data-tour="tour-flashcards-answer">
                 {!showAnswer ? (
-                  <p className="flashcards-study-hint text-sm font-semibold text-slate-500">Sem campo de texto: pense na resposta, confira e marque seu desempenho.</p>
+                  <p className="flashcards-study-hint text-sm font-semibold text-slate-500">Pense na resposta e toque em Ver resposta para conferir.</p>
                 ) : (
                   <div className="flashcards-review-actions grid gap-2 sm:grid-cols-3" data-tour="tour-flashcards-actions">
                     {reviewActions.map(([label, days, quality, variant]) => (
@@ -239,7 +242,7 @@ export default function FlashcardsPage() {
                 <div className="flashcards-navigation flex flex-wrap items-center justify-between gap-3 border-t border-slate-100 pt-4">
                   <Button variant="secondary" onClick={(event) => { event.currentTarget.blur(); goToCard(-1); }}>Anterior</Button>
                   <span className="text-xs font-semibold text-slate-500">Flashcard {cardPosition} de {filtered.length}</span>
-                  <Button variant="primary" onClick={handleNextAction}>{showAnswer ? "Proximo" : "Ver resposta"}</Button>
+                  <Button variant="primary" onClick={handleNextAction}>{showAnswer ? "Próximo" : "Ver resposta"}</Button>
                 </div>
               </div>
             </div>

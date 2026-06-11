@@ -15570,7 +15570,7 @@ button {
 
 .flashcard-standard-card.flashcard-flip-inner {
   width: 100% !important;
-  height: clamp(320px, 42vh, 430px) !important;
+  height: clamp(300px, 38vh, 390px) !important;
   min-height: 0 !important;
   overflow: hidden !important;
   border: 1px solid #bfdbfe !important;
@@ -15762,9 +15762,10 @@ button {
 
   .flashcard-standard-card.flashcard-flip-inner {
     display: flex !important;
-    height: clamp(18rem, 45svh, 24rem) !important;
-    max-height: calc(100svh - 21rem - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)) !important;
-    min-height: 17rem !important;
+    height: auto !important;
+    min-height: 13rem !important;
+    max-height: none !important;
+    overflow: visible !important;
     transform: none !important;
     transform-style: flat !important;
   }
@@ -15779,7 +15780,7 @@ button {
     flex: 1 1 auto !important;
     min-height: 0 !important;
     max-height: none !important;
-    padding: 0.95rem !important;
+    padding: 0.85rem !important;
     transform: none !important;
     backface-visibility: visible !important;
     -webkit-backface-visibility: visible !important;
@@ -15791,18 +15792,24 @@ button {
   }
 
   .flashcard-standard-card .flashcard-card-scroll {
-    max-height: none !important;
+    max-height: calc(100svh - 25rem - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)) !important;
+    min-height: 9rem !important;
     padding-right: 0.15rem;
   }
 
+  .flashcard-standard-card .flashcard-face-content-front .flashcard-card-scroll {
+    justify-content: flex-start !important;
+    text-align: left !important;
+  }
+
   .flashcard-standard-card .flashcard-question-text {
-    font-size: clamp(1rem, 5vw, 1.18rem) !important;
+    font-size: clamp(0.98rem, 4.6vw, 1.08rem) !important;
     line-height: 1.36 !important;
   }
 
   .flashcard-standard-card .flashcard-question-text.is-long {
-    font-size: clamp(0.88rem, 4.2vw, 1rem) !important;
-    line-height: 1.42 !important;
+    font-size: clamp(0.84rem, 3.9vw, 0.96rem) !important;
+    line-height: 1.45 !important;
   }
 
   .flashcard-front-hint {
@@ -15825,7 +15832,7 @@ button {
 
   .flashcard-answer-text,
   .flashcard-answer-text.is-long {
-    font-size: clamp(0.92rem, 4vw, 1rem) !important;
+    font-size: clamp(0.9rem, 3.8vw, 0.98rem) !important;
     line-height: 1.52 !important;
   }
 
@@ -15864,5 +15871,73 @@ button {
 
   .flashcards-navigation button {
     min-height: 2.75rem !important;
+  }
+}
+
+/* Tablet uses the same compact app surface as iPhone/Android. */
+@media (min-width: 768px) and (max-width: 1279px) {
+  .internal-app-light .internal-topbar {
+    padding: calc(0.62rem + env(safe-area-inset-top, 0px)) 1rem 0.7rem !important;
+  }
+
+  .internal-app-light .internal-topbar-row {
+    display: flex !important;
+    gap: 0.65rem !important;
+  }
+
+  .internal-app-light .mobile-top-profile {
+    flex: 1 1 auto !important;
+    max-width: none !important;
+    min-width: 0;
+  }
+
+  .internal-app-light .mobile-top-profile strong {
+    max-width: min(32vw, 18rem) !important;
+  }
+
+  .internal-app-light .mobile-top-profile small {
+    max-width: min(32vw, 18rem) !important;
+  }
+
+  .internal-app-light .topbar-actions {
+    flex: 0 0 auto;
+    gap: 0.35rem !important;
+  }
+
+  .internal-app-light .topbar-mobile-search {
+    margin-top: 0.55rem !important;
+  }
+
+  .internal-app-light > div > main {
+    padding: 1.15rem 1.15rem calc(6.8rem + env(safe-area-inset-bottom, 0px)) !important;
+  }
+
+  .mobile-bottom-nav {
+    right: max(1rem, calc((100vw - 46rem) / 2));
+    bottom: calc(0.8rem + env(safe-area-inset-bottom, 0px));
+    left: max(1rem, calc((100vw - 46rem) / 2));
+    display: grid !important;
+    border-radius: 1.45rem;
+  }
+
+  .mobile-bottom-nav button {
+    min-height: 3.65rem;
+  }
+
+  .mobile-more-sheet {
+    right: max(1rem, calc((100vw - 44rem) / 2));
+    left: max(1rem, calc((100vw - 44rem) / 2));
+    max-height: min(78svh, 42rem) !important;
+    border-radius: 1.65rem 1.65rem 0 0 !important;
+  }
+
+  .mobile-more-menu nav {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .mobile-study-home,
+  .question-mobile-filters {
+    max-width: 46rem;
+    margin-inline: auto;
   }
 }

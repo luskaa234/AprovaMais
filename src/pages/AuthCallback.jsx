@@ -17,7 +17,7 @@ export default function AuthCallback() {
         }
         if (alive) navigate("/", { replace: true });
       } catch (error) {
-        toast.error(error.message || "Nao foi possivel finalizar o login.");
+        toast.error(error.message || "Não foi possível finalizar o login.");
         if (alive) navigate("/login", { replace: true });
       }
     }

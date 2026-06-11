@@ -182,7 +182,7 @@ export default function MapasMentaisPage() {
 
   return (
     <div className="mindmaps-page mx-auto max-w-[1500px] pb-10" data-tour="tour-mapas-page">
-      <div className="mindmaps-header mb-5 flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between" data-tour="tour-mapas-header">
+      <div className="mindmaps-header mb-5 flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between" data-tour="tour-mapas-header">
         <h1 className="text-3xl font-black text-white">Mapas Mentais</h1>
         <div className="flex flex-col gap-2 sm:flex-row">
           <Input icon={Search} placeholder="Buscar mapas mentais..." value={query} onChange={(event) => setQuery(event.target.value)} />
@@ -190,9 +190,9 @@ export default function MapasMentaisPage() {
         </div>
       </div>
 
-      <div className="mindmaps-filters mb-4 grid gap-3 rounded-lg border border-gray-800 bg-gray-950/70 p-4 md:grid-cols-2 xl:grid-cols-7" data-tour="tour-mapas-filters">
+      <div className="mindmaps-filters mb-4 grid gap-3 rounded-lg border border-gray-800 bg-gray-950/70 p-4 xl:grid-cols-7" data-tour="tour-mapas-filters">
         <Select label="Concurso" placeholder="Todos" options={unique(maps.map((item) => item.concurso))} value={filters.concurso} onChange={(event) => setFilters((current) => ({ ...current, concurso: event.target.value }))} />
-        <Select label="Materia" placeholder="Todas" options={unique(maps.map((item) => item.materia))} value={filters.materia} onChange={(event) => setFilters((current) => ({ ...current, materia: event.target.value }))} />
+        <Select label="Matéria" placeholder="Todas" options={unique(maps.map((item) => item.materia))} value={filters.materia} onChange={(event) => setFilters((current) => ({ ...current, materia: event.target.value }))} />
         <Select label="Assunto" placeholder="Todos" options={unique(maps.map((item) => item.assunto))} value={filters.assunto} onChange={(event) => setFilters((current) => ({ ...current, assunto: event.target.value }))} />
         <Select label="Banca" placeholder="Todas" options={unique(maps.map((item) => item.banca))} value={filters.banca} onChange={(event) => setFilters((current) => ({ ...current, banca: event.target.value }))} />
         <Select label="Nivel" placeholder="Todos" options={levelOptions} value={filters.nivel} onChange={(event) => setFilters((current) => ({ ...current, nivel: event.target.value }))} />
@@ -251,11 +251,11 @@ export default function MapasMentaisPage() {
 
       <Modal open={Boolean(modal)} title={modal === "edit" ? "Editar mapa" : "Novo mapa"} onClose={() => setModal(null)} footer={<Button onClick={saveMap}>{modal === "edit" ? "Salvar alteracoes" : "Criar mapa"}</Button>}>
         <div className="grid gap-3">
-          <Input label="Titulo" value={draft.titulo} onChange={(event) => setDraft((current) => ({ ...current, titulo: event.target.value }))} />
+          <Input label="Título" value={draft.titulo} onChange={(event) => setDraft((current) => ({ ...current, titulo: event.target.value }))} />
           <Input label="Descricao" value={draft.descricao} onChange={(event) => setDraft((current) => ({ ...current, descricao: event.target.value }))} />
           <div className="grid gap-3 sm:grid-cols-2">
             <Input label="Concurso" value={draft.concurso} onChange={(event) => setDraft((current) => ({ ...current, concurso: event.target.value }))} />
-            <Input label="Materia" value={draft.materia} onChange={(event) => setDraft((current) => ({ ...current, materia: event.target.value }))} />
+            <Input label="Matéria" value={draft.materia} onChange={(event) => setDraft((current) => ({ ...current, materia: event.target.value }))} />
             <Input label="Assunto" value={draft.assunto} onChange={(event) => setDraft((current) => ({ ...current, assunto: event.target.value }))} />
             <Input label="Banca" value={draft.banca} onChange={(event) => setDraft((current) => ({ ...current, banca: event.target.value }))} />
             <Select label="Nivel" options={levelOptions} value={draft.nivel} onChange={(event) => setDraft((current) => ({ ...current, nivel: event.target.value }))} />

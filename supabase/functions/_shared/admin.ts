@@ -11,6 +11,11 @@ export function getAdminEmails() {
     .filter(Boolean);
 }
 
+export function isAdminEmail(email?: string | null) {
+  const normalized = normalizeEmail(email);
+  return Boolean(normalized && getAdminEmails().includes(normalized));
+}
+
 export async function requireAdmin(req: Request) {
   const user = await getAuthUser(req);
   const email = normalizeEmail(user.email);
@@ -26,9 +31,23 @@ export async function requireAdmin(req: Request) {
 }
 
 export function adminErrorResponse(error: unknown) {
-  const message = error instanceof Error ? error.message : "Erro inesperado.";
+  const payload = error && typeof error === "object" ? error as Record<string, unknown> : {};
+  const message = error instanceof Error
+    ? error.message
+    : String(payload.message || payload.details || payload.hint || "Erro inesperado.");
   const status = error instanceof Error && error.name === "ForbiddenError" ? 403 : message.includes("autenticado") ? 401 : 400;
+  console.error("[admin-function-error]", message, error);
   return { status, message };
+}
+
+export function supabaseErrorMessage(error: unknown) {
+  const payload = error && typeof error === "object" ? error as Record<string, unknown> : {};
+  return [
+    payload.message,
+    payload.details,
+    payload.hint,
+    payload.code ? `codigo ${payload.code}` : "",
+  ].filter(Boolean).join(" - ") || "Erro no Supabase.";
 }
 
 export async function writeAdminLog(
@@ -38,13 +57,14 @@ export async function writeAdminLog(
   targetUserId?: string | null,
   payload: Record<string, unknown> = {}
 ) {
-  await supabase.from("admin_logs").insert({
+  const { error } = await supabase.from("admin_logs").insert({
     admin_user_id: admin.id,
     admin_email: admin.email,
     action,
     target_user_id: targetUserId || null,
     payload,
   });
+  if (error) console.warn("[admin-log-error]", error.message);
 }
 
 export async function findTargetProfile(supabase: any, body: Record<string, unknown>) {

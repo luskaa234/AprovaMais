@@ -14,7 +14,7 @@ function ResetPassword() {
         <div className="auth-field-group">
           <Label htmlFor="new-password">Nova senha</Label>
           <div className="auth-input-wrap">
-            <Input id="new-password" type="password" placeholder="Minimo de 6 caracteres" required />
+            <Input id="new-password" type="password" placeholder="Mínimo de 6 caracteres" required />
           </div>
         </div>
 

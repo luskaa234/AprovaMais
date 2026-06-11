@@ -218,7 +218,7 @@ export function UserProvider({ children }) {
 
   const loginWithGoogle = useCallback(async () => {
     if (!isSupabaseConfigured) {
-      throw new Error("Supabase nao configurado para login com Google.");
+      throw new Error("Supabase não configurado para login com Google.");
     }
 
     const redirectTo = `${window.location.origin}/auth/callback`;

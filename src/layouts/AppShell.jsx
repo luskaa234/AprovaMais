@@ -140,7 +140,7 @@ const Topbar = memo(() => {
 
   const searchResults = query ? (
     <div className="topbar-search-results absolute left-0 top-full z-40 mt-2 w-full rounded-2xl p-2 shadow-xl">
-      <p className="px-2 py-1 text-xs font-bold">Modulos</p>
+      <p className="px-2 py-1 text-xs font-bold">Módulos</p>
       {results.length ? (
         results.map((item) => (
           <button
@@ -154,7 +154,7 @@ const Topbar = memo(() => {
           </button>
         ))
       ) : (
-        <p className="px-2 py-2 text-sm">Nenhum modulo encontrado.</p>
+        <p className="px-2 py-2 text-sm">Nenhum módulo encontrado.</p>
       )}
     </div>
   ) : null;
@@ -166,7 +166,7 @@ const Topbar = memo(() => {
       <div className="internal-topbar-row">
         <button
           aria-label="Abrir perfil"
-          className="mobile-top-profile flex min-w-0 flex-1 items-center gap-2 rounded-xl p-1.5 text-left lg:hidden"
+            className="mobile-top-profile flex min-w-0 flex-1 items-center gap-2 rounded-xl p-1.5 text-left xl:hidden"
           data-tour="tour-perfil"
           onClick={() => navigate("perfil")}
           type="button"
@@ -178,12 +178,12 @@ const Topbar = memo(() => {
           </span>
         </button>
 
-        <div className="internal-topbar-heading hidden min-w-0 lg:block">
-          <p className="internal-topbar-eyebrow hidden text-xs sm:block">Area interna</p>
+        <div className="internal-topbar-heading hidden min-w-0 xl:block">
+          <p className="internal-topbar-eyebrow hidden text-xs sm:block">Área interna</p>
           <h1 className="internal-topbar-title truncate text-base font-black md:text-lg">{current?.label || "Dashboard"}</h1>
         </div>
 
-        <div className="topbar-search-wrap relative hidden min-w-0 flex-1 md:block">
+        <div className="topbar-search-wrap relative hidden min-w-0 flex-1 xl:block">
           <Search className="topbar-search-icon absolute left-3 top-1/2 -translate-y-1/2" size={16} />
           <Input
             className="topbar-search-input w-full pl-9 pr-3 xl:pr-16"
@@ -192,7 +192,7 @@ const Topbar = memo(() => {
               setSearchOpen(true);
             }}
             onFocus={() => setSearchOpen(true)}
-            placeholder="Buscar modulo"
+            placeholder="Buscar módulo"
             ref={searchRef}
             value={query}
           />
@@ -205,7 +205,7 @@ const Topbar = memo(() => {
         <div className="topbar-actions">
           <button
             aria-label={searchOpen ? "Fechar busca" : "Abrir busca"}
-            className="topbar-icon-button md:hidden"
+            className="topbar-icon-button xl:hidden"
             onClick={() => {
               setSearchOpen((value) => !value);
               window.requestAnimationFrame(() => searchRef.current?.focus());
@@ -217,7 +217,7 @@ const Topbar = memo(() => {
 
           <div className="relative">
             <button
-              aria-label="Notificacoes"
+              aria-label="Notificações"
               className="topbar-icon-button relative"
               onClick={() => setNotificationsOpen((value) => !value)}
               type="button"
@@ -233,7 +233,7 @@ const Topbar = memo(() => {
             {notificationsOpen ? (
               <div className="notification-panel absolute right-0 top-full z-40 mt-2 w-[min(20rem,calc(100vw-1rem))] rounded-2xl p-3 shadow-xl">
                 <div className="mb-2 flex items-center justify-between gap-3">
-                  <strong className="text-sm">Notificacoes</strong>
+                  <strong className="text-sm">Notificações</strong>
                   <button className="text-xs font-bold text-blue-600" onClick={clearAll} type="button">
                     Marcar como lidas
                   </button>
@@ -262,18 +262,18 @@ const Topbar = memo(() => {
             {isDark ? <Sun size={18} /> : <Moon size={18} />}
           </button>
 
-          <TourButton className="hidden lg:inline-flex" />
+          <TourButton className="hidden xl:inline-flex" />
 
           <button
             aria-label="Abrir perfil"
-            className="topbar-profile-button hidden min-h-10 items-center gap-2 rounded-xl p-1 pr-3 text-left transition md:flex"
+            className="topbar-profile-button hidden min-h-10 items-center gap-2 rounded-xl p-1 pr-3 text-left transition xl:flex"
             data-tour="tour-perfil"
             id="tour-perfil"
             onClick={() => navigate("perfil")}
             type="button"
           >
             <Avatar name={user?.name} />
-            <span className="hidden min-w-0 lg:block">
+            <span className="hidden min-w-0 xl:block">
               <strong className="block max-w-32 truncate text-xs font-black">{user?.name || "Aluno"}</strong>
               <small className="block max-w-32 truncate text-[11px] font-semibold">{user?.targetContest || "Perfil"}</small>
             </span>
@@ -285,7 +285,7 @@ const Topbar = memo(() => {
         {searchOpen ? (
           <motion.div
             animate={{ height: "auto", opacity: 1 }}
-            className="topbar-mobile-search relative md:hidden"
+            className="topbar-mobile-search relative xl:hidden"
             exit={{ height: 0, opacity: 0 }}
             initial={{ height: 0, opacity: 0 }}
           >
@@ -293,7 +293,7 @@ const Topbar = memo(() => {
             <Input
               className="topbar-search-input w-full pl-9 pr-3"
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Buscar modulo"
+              placeholder="Buscar módulo"
               ref={searchRef}
               value={query}
             />
@@ -309,15 +309,15 @@ Topbar.displayName = "Topbar";
 const BottomNav = memo(({ onMore }) => {
   const { route, navigate } = useInternalRouter();
   const items = useMemo(() => [
-    { key: "dashboard", label: "Inicio", icon: Home, tourId: "tour-dashboard", action: () => navigate("dashboard") },
+    { key: "dashboard", label: "Início", icon: Home, tourId: "tour-dashboard", action: () => navigate("dashboard") },
     { key: "biblioteca", label: "Edital", icon: BookOpen, action: () => navigate("biblioteca") },
-    { key: "questoes", label: "Questoes", icon: PlusCircle, tourId: "tour-questoes", action: () => navigate("questoes") },
+    { key: "questoes", label: "Questões", icon: PlusCircle, tourId: "tour-questoes", action: () => navigate("questoes") },
     { key: "plano", label: "Plano", icon: CalendarDays, tourId: "tour-estudos", action: () => navigate("plano") },
     { key: "more", label: "Ver mais", icon: Settings2, action: onMore },
   ], [navigate, onMore]);
 
   return (
-    <nav className="mobile-bottom-nav lg:hidden" aria-label="Navegacao principal">
+    <nav className="mobile-bottom-nav xl:hidden" aria-label="Navegação principal">
       {items.map(({ key, label, icon: Icon, action, tourId }) => {
         const active = key === "more" ? !mobilePrimaryTabs.includes(route) : route === key;
         return (
@@ -349,7 +349,7 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
   }, []);
 
   const handleTouchStart = useCallback((event) => {
-    if (window.innerWidth >= 768) return;
+    if (window.innerWidth >= 1280) return;
     const touch = event.touches[0];
     touchRef.current = {
       x: touch.clientX,
@@ -360,7 +360,7 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
   }, [route]);
 
   const handleTouchMove = useCallback((event) => {
-    if (window.innerWidth >= 768) return;
+    if (window.innerWidth >= 1280) return;
     const touch = event.touches[0];
     const deltaY = touch.clientY - touchRef.current.y;
     const deltaX = touch.clientX - touchRef.current.x;
@@ -370,7 +370,7 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
   }, []);
 
   const handleTouchEnd = useCallback((event) => {
-    if (window.innerWidth >= 768) return;
+    if (window.innerWidth >= 1280) return;
     const touch = event.changedTouches[0];
     const deltaX = touch.clientX - touchRef.current.x;
     const deltaY = touch.clientY - touchRef.current.y;
@@ -413,7 +413,7 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
         "internal-app-light bg-gray-100 text-gray-950"
       )}
     >
-      <aside className="fixed left-0 top-0 hidden h-screen lg:block">
+      <aside className="fixed left-0 top-0 hidden h-screen xl:block">
         <Sidebar />
       </aside>
 
@@ -421,7 +421,7 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
         {mobileOpen ? (
           <motion.div
             animate={{ opacity: 1 }}
-            className="fixed inset-0 z-50 bg-black/65 backdrop-blur-sm lg:hidden"
+            className="fixed inset-0 z-50 bg-black/65 backdrop-blur-sm xl:hidden"
             exit={{ opacity: 0 }}
             initial={{ opacity: 0 }}
             onClick={closeMobile}
@@ -449,7 +449,7 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
         ) : null}
       </AnimatePresence>
 
-      <div className="lg:pl-20 xl:pl-72">
+      <div className="xl:pl-72">
         <Topbar />
         <main
           className="min-h-[calc(100vh-73px)] bg-slate-50 p-3 sm:p-4 md:p-6"

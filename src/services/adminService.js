@@ -50,6 +50,14 @@ export const adminService = {
     return invokeAdminFunction("admin-set-plano", { userId, ...payload });
   },
 
+  async criarUsuario(payload) {
+    return invokeAdminFunction("admin-criar-usuario", payload);
+  },
+
+  async deletarUsuario(userId, confirmationEmail) {
+    return invokeAdminFunction("admin-deletar-usuario", { userId, confirmationEmail });
+  },
+
   async getMaintenance() {
     if (!isSupabaseConfigured || !supabase) {
       return { enabled: false, message: "" };

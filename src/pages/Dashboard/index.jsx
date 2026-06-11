@@ -86,7 +86,7 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
   const firstName = user?.name?.split(" ")[0] || "Aluno";
 
   return (
-    <div className="mobile-study-home md:hidden" data-tour="tour-dashboard-overview">
+    <div className="mobile-study-home xl:hidden" data-tour="tour-dashboard-overview">
       <section className="mobile-study-hero">
         <div>
           <span>Hoje</span>
@@ -121,14 +121,14 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
         <h2>Acoes rapidas</h2>
       </div>
       <div className="mobile-study-actions" data-tour="tour-dashboard-actions">
-        <MobileQuickAction detail="Comecar bloco agora" icon={Play} label="Estudar" onClick={() => navigate("plano")} tone="tone-blue" />
+        <MobileQuickAction detail="Começar bloco agora" icon={Play} label="Estudar" onClick={() => navigate("plano")} tone="tone-blue" />
         <MobileQuickAction detail={`${revisoes.length} pendentes hoje`} icon={CalendarCheck} label="Revisar" onClick={() => navigate("revisao")} tone="tone-rose" />
         <MobileQuickAction detail={`${todayHit}% no ultimo dia`} icon={Target} label="Questoes" onClick={() => navigate("questoes")} tone="tone-emerald" />
       </div>
 
       <section className="mobile-study-card">
         <div className="mobile-study-card-header">
-          <h2>Proximas revisoes</h2>
+          <h2>Próximas revisões</h2>
           <button onClick={() => navigate("revisao")} type="button">Ver</button>
         </div>
         {revisoes.slice(0, 3).map((item) => (
@@ -301,7 +301,7 @@ export default function DashboardPage() {
     ["Horas estudadas", stats.horas_estudadas ?? stats.horasEstudadas ?? 0, Clock],
     ["Questoes resolvidas", questoesResolvidas, ClipboardList],
     ["Taxa de acertos", `${taxaAcertos}%`, Target],
-    ["Sequencia", sequenciaTentativas, Zap],
+    ["Sequência", sequenciaTentativas, Zap],
     ["TAF", `${stats.taf_nota ?? stats.tafNota ?? 0}/10`, Dumbbell],
   ];
 
@@ -309,7 +309,7 @@ export default function DashboardPage() {
     <>
       <MobileDashboard kpis={kpis} navigate={navigate} performance={performance} ranking={ranking} revisoes={revisoes} user={user} />
 
-      <div className="hidden md:block">
+      <div className="hidden xl:block">
       <div className="mb-5 flex flex-col gap-3 md:flex-row md:items-center md:justify-between" data-tour="tour-dashboard-overview">
         <div>
           <h1 className="text-3xl font-black text-white">Dashboard</h1>
@@ -376,7 +376,7 @@ export default function DashboardPage() {
 
           <div className="mt-4 grid gap-4 lg:grid-cols-2">
             <div>
-              <h3 className="mb-2 text-sm font-bold text-white">Materias prioritarias</h3>
+              <h3 className="mb-2 text-sm font-bold text-white">Matérias prioritárias</h3>
               <div className="flex flex-wrap gap-2">
                 {diagnosticPlan.prioritySubjects?.slice(0, 10).map((subject) => (
                   <span className="rounded-full bg-blue-500/15 px-3 py-1 text-xs font-bold text-blue-100" key={subject}>{subject}</span>
@@ -406,7 +406,7 @@ export default function DashboardPage() {
         <div className={cx("grid gap-4", subjectsLiberados.length ? "lg:grid-cols-2" : "lg:grid-cols-1")}>
           {subjectsLiberados.length ? (
             <div>
-              <h3 className="mb-2 text-sm font-bold text-white">Materias liberadas para este perfil</h3>
+              <h3 className="mb-2 text-sm font-bold text-white">Matérias liberadas para este perfil</h3>
               <div className="flex flex-wrap gap-2">
                 {subjectsLiberados.slice(0, 14).map((subject) => (
                   <span className="rounded-full bg-blue-500/15 px-3 py-1 text-xs font-bold text-blue-100" key={subject}>{subject}</span>
@@ -460,11 +460,11 @@ export default function DashboardPage() {
 
       <div className="mt-4 grid gap-4 xl:grid-cols-[1fr_1fr_0.8fr]">
         <Card>
-          <h2 className="mb-3 font-bold text-white">Sequencia</h2>
+          <h2 className="mb-3 font-bold text-white">Sequência</h2>
           <HeatmapCalendar entries={activeTentativas} />
         </Card>
         <Card>
-          <h2 className="mb-3 font-bold text-white">Proximas revisoes</h2>
+          <h2 className="mb-3 font-bold text-white">Próximas revisões</h2>
           {revisoes.length ? (
             revisoes.slice(0, 4).map((item) => (
               <div key={item.id || item.assuntoId} className="mb-2 flex justify-between rounded-lg bg-gray-900 p-3 text-sm text-gray-300">

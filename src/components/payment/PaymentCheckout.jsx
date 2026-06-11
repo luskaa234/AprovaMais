@@ -133,10 +133,10 @@ function PaymentCheckout() {
       setTrackedPaymentId(data.mp_payment_id || "");
       setLastPaymentStatus(data.status || "pendente");
       setStatusText(data.live_mode === false
-        ? "Pix gerado em ambiente de teste. Banco real nao paga QR Code sandbox."
+        ? "Pix gerado em ambiente de teste. Banco real não paga QR Code sandbox."
         : "Pix gerado. Aguardando confirmacao do Mercado Pago.");
     } catch (error) {
-      toast.error(error.message || "Nao foi possivel gerar Pix.");
+      toast.error(error.message || "Não foi possível gerar Pix.");
       setStatusText("");
       setPaymentState("idle");
     } finally {
@@ -175,7 +175,7 @@ function PaymentCheckout() {
         setStatusText("Aguardando confirmacao do Mercado Pago.");
       }
     } catch (error) {
-      toast.error(error.message || "Nao foi possivel processar o cartao.");
+      toast.error(error.message || "Não foi possível processar o cartão.");
       setStatusText("");
       setPaymentState("idle");
     } finally {
@@ -250,7 +250,7 @@ function PaymentCheckout() {
                     <div>
                       <strong>Pix de teste detectado</strong>
                       <p>
-                        Esta cobranca veio do sandbox do Mercado Pago. Apps de banco reais nao pagam esse QR Code.
+                        Esta cobrança veio do sandbox do Mercado Pago. Apps de banco reais não pagam esse QR Code.
                         Troque o secret MP_ACCESS_TOKEN no Supabase por uma credencial de producao antes de vender.
                       </p>
                     </div>

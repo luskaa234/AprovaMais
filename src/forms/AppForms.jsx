@@ -51,23 +51,23 @@ export const ProfileForm = memo(({ user, onSave }) => {
       <div className="grid gap-3 md:grid-cols-2">
         {renderInput({ label: "Nome", value: form.name || "", onChange: (event) => update("name", event.target.value) })}
         {renderInput({ label: "Username", value: form.username || "", placeholder: "Ex.: lucasmeireles591", onChange: (event) => update("username", event.target.value) })}
-        {renderInput({ label: "Email", value: form.email || "", error: form.email && !form.email?.includes("@") ? "E-mail invalido" : "", onChange: (event) => update("email", event.target.value) })}
+        {renderInput({ label: "Email", value: form.email || "", error: form.email && !form.email?.includes("@") ? "E-mail inválido" : "", onChange: (event) => update("email", event.target.value) })}
         {renderInput({ label: "Telefone", type: "tel", value: form.phone || "", placeholder: "(00) 00000-0000", onChange: (event) => update("phone", event.target.value) })}
         {renderInput({ label: "Data de nascimento", type: "date", value: form.birthDate || "", onChange: (event) => update("birthDate", event.target.value) })}
-        {renderSelect({ label: "Genero", value: form.gender || "", options: ["Feminino", "Masculino", "Nao informar", "Outro"], onChange: (event) => update("gender", event.target.value) })}
+        {renderSelect({ label: "Gênero", value: form.gender || "", options: ["Feminino", "Masculino", "Não informar", "Outro"], onChange: (event) => update("gender", event.target.value) })}
         {renderInput({ label: "Cidade", value: form.city || "", placeholder: "Ex.: Teresina", onChange: (event) => update("city", event.target.value) })}
         {renderSelect({ label: "Estado / UF", value: form.state || "", options: ["AC", "AL", "AP", "AM", "BA", "CE", "DF", "ES", "GO", "MA", "MT", "MS", "MG", "PA", "PB", "PR", "PE", "PI", "RJ", "RN", "RS", "RO", "RR", "SC", "SP", "SE", "TO"], onChange: (event) => update("state", event.target.value) })}
-        {renderSelect({ label: "Pais", value: form.country || "Brasil", options: ["Brasil", "Portugal", "Estados Unidos", "Outro"], onChange: (event) => update("country", event.target.value) })}
+        {renderSelect({ label: "País", value: form.country || "Brasil", options: ["Brasil", "Portugal", "Estados Unidos", "Outro"], onChange: (event) => update("country", event.target.value) })}
         {renderSelect({ label: "Objetivo principal", value: objectiveValue, options: [
           { value: "oab", label: "OAB" },
-          { value: "concurso", label: "Concurso publico" },
+          { value: "concurso", label: "Concurso público" },
           { value: "enem", label: "ENEM" },
           { value: "vestibular", label: "Vestibular" },
-          { value: "programacao", label: "Programacao" },
+          { value: "programacao", label: "Programação" },
           { value: "taf", label: "TAF" },
         ], onChange: (event) => update("objective", event.target.value) })}
-        {renderSelect({ label: "Concurso-alvo", value: form.targetContest || "", options: ["PM", "PRF", "PF", "OAB", "ENEM", "INSS", "Analista Judiciario - TRT", "Programacao"], onChange: (event) => update("targetContest", event.target.value) })}
-        {renderInput({ label: "Nivel atual", value: form.nivel || "", placeholder: "Ex.: iniciante, intermediario, avancado", onChange: (event) => update("nivel", event.target.value) })}
+        {renderSelect({ label: "Concurso-alvo", value: form.targetContest || "", options: ["PM", "PRF", "PF", "OAB", "ENEM", "INSS", "Analista Judiciário - TRT", "Programação"], onChange: (event) => update("targetContest", event.target.value) })}
+        {renderInput({ label: "Nível atual", value: form.nivel || "", placeholder: "Ex.: iniciante, intermediário, avançado", onChange: (event) => update("nivel", event.target.value) })}
         {renderInput({ label: "Horas semanais", type: "number", min: "0", value: form.horasSemanais || "", onChange: (event) => update("horasSemanais", Number(event.target.value || 0)) })}
         {renderInput({ label: "Data da prova", type: "date", value: form.dataProva || "", onChange: (event) => update("dataProva", event.target.value) })}
       </div>

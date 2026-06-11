@@ -303,7 +303,7 @@ export default function Onboarding() {
       });
       toast.success("Diagnostico criado. Seu dashboard foi personalizado.");
     } catch (error) {
-      toast.error(error.message || "Nao foi possivel criar seu plano.");
+      toast.error(error.message || "Não foi possível criar seu plano.");
     } finally {
       setIsSaving(false);
     }

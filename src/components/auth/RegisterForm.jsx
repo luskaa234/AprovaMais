@@ -14,10 +14,10 @@ import { Separator } from "../ui/separator";
 const registerSchema = z
   .object({
     name: z.string().min(1, "Informe seu nome completo."),
-    email: z.string().min(1, "Informe seu e-mail.").email("Informe um e-mail valido."),
+    email: z.string().min(1, "Informe seu e-mail.").email("Informe um e-mail válido."),
     password: z.string().min(6, "A senha precisa ter pelo menos 6 caracteres."),
     confirmPassword: z.string().min(1, "Confirme sua senha."),
-    terms: z.boolean().refine((value) => value, "Voce precisa aceitar os termos."),
+    terms: z.boolean().refine((value) => value, "Você precisa aceitar os termos."),
   })
   .refine((data) => data.password === data.confirmPassword, {
     message: "As senhas precisam ser iguais.",
@@ -46,10 +46,10 @@ function RegisterForm() {
   const onSubmit = async ({ name, email, password }) => {
     try {
       await createAccount(name, email, password);
-      toast.success("Conta criada. Seus 7 dias gratis foram iniciados.");
+      toast.success("Conta criada. Seus 7 dias grátis foram iniciados.");
       navigate("/");
     } catch (error) {
-      toast.error(error.message || "Nao foi possivel criar a conta.");
+      toast.error(error.message || "Não foi possível criar a conta.");
     }
   };
 
@@ -57,7 +57,7 @@ function RegisterForm() {
     try {
       await loginWithGoogle();
     } catch (error) {
-      toast.error(error.message || "Nao foi possivel continuar com Google.");
+      toast.error(error.message || "Não foi possível continuar com Google.");
     }
   };
 
@@ -71,7 +71,7 @@ function RegisterForm() {
       <div className="auth-divider"><span>ou crie com e-mail</span></div>
 
       <div className="auth-trial-note">
-        <strong>7 dias gratis para testar tudo.</strong>
+        <strong>7 dias grátis para testar tudo.</strong>
         <span>Sem compromisso. Os planos pagos ficam na landing page.</span>
       </div>
 
@@ -97,7 +97,7 @@ function RegisterForm() {
         <Label htmlFor="register-password">Senha</Label>
         <div className="auth-input-wrap">
           <LockKeyhole size={18} />
-          <Input id="register-password" type="password" placeholder="Minimo de 6 caracteres" {...register("password")} />
+          <Input id="register-password" type="password" placeholder="Mínimo de 6 caracteres" {...register("password")} />
         </div>
         {errors.password ? <p className="auth-error">{errors.password.message}</p> : null}
       </div>
@@ -127,13 +127,13 @@ function RegisterForm() {
       {errors.terms ? <p className="auth-error">{errors.terms.message}</p> : null}
 
       <Button className="auth-primary-button" type="submit" disabled={isSubmitting}>
-        Comecar teste gratis
+        Começar teste grátis
       </Button>
 
       <Separator />
 
       <p className="auth-switch-text">
-        Ja tem uma conta? <Link to="/login">Entrar</Link>
+        Já tem uma conta? <Link to="/login">Entrar</Link>
       </p>
     </form>
   );

@@ -96,9 +96,9 @@ function TrialExpiredGate() {
             <div className="grid size-14 place-items-center rounded-2xl bg-white/15">
               <LockKeyhole size={28} />
             </div>
-            <h1 className="mt-6 text-3xl font-black leading-tight sm:text-4xl">Seu teste gratis terminou.</h1>
+            <h1 className="mt-6 text-3xl font-black leading-tight sm:text-4xl">Seu teste grátis terminou.</h1>
             <p className="mt-4 max-w-md text-sm leading-6 text-blue-50">
-              Os 7 dias de acesso completo acabaram{user?.planoExpiraEm ? ` em ${formatDate(user.planoExpiraEm)}` : ""}. Para continuar estudando com plano, questoes, simulados, revisoes e IA, escolha uma assinatura.
+              Os 7 dias de acesso completo acabaram{user?.planoExpiraEm ? ` em ${formatDate(user.planoExpiraEm)}` : ""}. Para continuar estudando com plano, questões, simulados, revisões e IA, escolha uma assinatura.
             </p>
             <div className="mt-6 rounded-xl border border-white/20 bg-white/10 p-4 text-sm text-blue-50">
               <ShieldCheck className="mb-2" size={20} />
@@ -114,7 +114,7 @@ function TrialExpiredGate() {
             <div>
               <span className="text-xs font-black uppercase tracking-wide text-blue-600">Continuar no Aprova+</span>
               <h2 className="mt-2 text-2xl font-black">Escolha uma assinatura</h2>
-              <p className="mt-1 text-sm text-slate-500">Sem perder dados, plano ou historico de estudo.</p>
+              <p className="mt-1 text-sm text-slate-500">Sem perder dados, plano ou histórico de estudo.</p>
             </div>
 
             <div className="grid gap-4 md:grid-cols-2">
@@ -146,9 +146,9 @@ function MaintenanceGate({ message }) {
         <div className="mx-auto grid size-14 place-items-center rounded-2xl bg-blue-50 text-blue-600">
           <Wrench size={28} />
         </div>
-        <h1 className="mt-5 text-3xl font-black">Estamos em manutencao</h1>
+        <h1 className="mt-5 text-3xl font-black">Estamos em manutenção</h1>
         <p className="mx-auto mt-3 max-w-md text-sm leading-6 text-slate-500">
-          {message || "Estamos ajustando a plataforma para melhorar sua experiencia. Volte em instantes."}
+          {message || "Estamos ajustando a plataforma para melhorar sua experiência. Volte em instantes."}
         </p>
         <button className="mt-6 text-sm font-bold text-blue-600 hover:text-blue-700" onClick={logout} type="button">
           Sair da conta
@@ -162,7 +162,7 @@ function InternalRoutes() {
   const { route, direction } = useInternalRouter();
   const { isLoading, user } = useUser();
   const [maintenance, setMaintenance] = useState({ enabled: false, message: "" });
-  const [isMobile, setIsMobile] = useState(() => typeof window !== "undefined" && window.matchMedia("(max-width: 767px)").matches);
+  const [isMobile, setIsMobile] = useState(() => typeof window !== "undefined" && window.matchMedia("(max-width: 1279px)").matches);
   const [refreshToken, setRefreshToken] = useState(0);
   const View =
     (route === "oab" && !isOabFocus(user)) || route === "militar"
@@ -170,7 +170,7 @@ function InternalRoutes() {
       : views[route] || DashboardPage;
 
   useEffect(() => {
-    const media = window.matchMedia("(max-width: 767px)");
+    const media = window.matchMedia("(max-width: 1279px)");
     const update = () => setIsMobile(media.matches);
     update();
     media.addEventListener("change", update);
@@ -210,7 +210,7 @@ function InternalRoutes() {
       <div className="grid min-h-screen place-items-center bg-gray-950 p-6 text-center text-white">
         <div>
           <div className="mx-auto mb-4 size-10 animate-spin rounded-full border-2 border-blue-500 border-t-transparent" />
-          <p className="text-sm text-gray-300">Carregando sua area de estudos...</p>
+          <p className="text-sm text-gray-300">Carregando sua área de estudos...</p>
         </div>
       </div>
     );

@@ -183,7 +183,7 @@ export default function SimuladosPage() {
       {!templates.length ? (
         <EmptyState title="Nenhum simulado disponivel" description="Importe questoes oficiais para liberar os simulados." />
       ) : null}
-      <div className="grid gap-4 lg:grid-cols-3" data-tour="tour-simulados-config">
+      <div className="grid gap-4 xl:grid-cols-3" data-tour="tour-simulados-config">
         {templates.map((template) => (
           <Card hover={false} key={template.id}>
             <Badge>{template.modo}</Badge>

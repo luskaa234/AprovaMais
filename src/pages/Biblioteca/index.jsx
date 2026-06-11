@@ -27,7 +27,7 @@ export default function BibliotecaPage() {
   const filtersContent = (
     <div className="grid gap-3 md:grid-cols-3">
       <Select label="Categoria" placeholder="Todas" options={categoriaOptions} value={filters.categoria} onChange={(event) => updateFilter("categoria", event.target.value)} />
-      <Select label="Materia" placeholder="Todas" options={materiaOptions} value={filters.materia} onChange={(event) => updateFilter("materia", event.target.value)} />
+      <Select label="Matéria" placeholder="Todas" options={materiaOptions} value={filters.materia} onChange={(event) => updateFilter("materia", event.target.value)} />
       <Select label="Favoritos" options={["Todos", "Favoritos"]} value={filters.favoritos} onChange={(event) => updateFilter("favoritos", event.target.value)} />
     </div>
   );
@@ -39,9 +39,9 @@ export default function BibliotecaPage() {
           <h1 className="text-3xl font-black text-white">Biblioteca</h1>
           <p className="text-sm text-gray-400">{materiais.length} materiais organizados por categoria, materia e favoritos.</p>
         </div>
-        <Button className="md:hidden" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{activeFilterCount ? ` · ${activeFilterCount}` : ""}</Button>
+        <Button className="xl:hidden" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{activeFilterCount ? ` · ${activeFilterCount}` : ""}</Button>
       </div>
-      <Card className="mb-4 hidden md:block">
+      <Card className="mb-4 hidden xl:block">
         {filtersContent}
       </Card>
       <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">

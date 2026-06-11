@@ -6,11 +6,11 @@ import { startCheckout } from "../../services/paymentService";
 import SlideArrowButton from "../SlideArrowButton";
 
 const benefits = [
-  "Plano por edital com revisoes automaticas",
-  "Banco de questoes e simulados completos",
-  "Relatorios de desempenho por materia",
-  "Apoio de estudos para duvidas e revisao",
-  "Area de redacao, metas e TAF",
+  "Plano por edital com revisões automáticas",
+  "Banco de questões e simulados completos",
+  "Relatórios de desempenho por matéria",
+  "Apoio de estudos para dúvidas e revisão",
+  "Área de redação, metas e TAF",
 ];
 
 function Pricing() {
@@ -21,7 +21,7 @@ function Pricing() {
       setLoadingPlan(plan);
       await startCheckout(plan);
     } catch (error) {
-      toast.error(error.message || "Nao foi possivel abrir o pagamento.");
+      toast.error(error.message || "Não foi possível abrir o pagamento.");
       setLoadingPlan("");
     }
   };
@@ -33,7 +33,7 @@ function Pricing() {
           <ShieldCheck size={16} />
           Planos Aprova+
         </span>
-        <h2>Um plano simples para estudar com metodo ate a aprovacao.</h2>
+        <h2>Um plano simples para estudar com método até a aprovação.</h2>
         <p>Comece com a estrutura completa da plataforma e mantenha seu preparo organizado todos os dias.</p>
       </div>
 
@@ -53,7 +53,7 @@ function Pricing() {
           <div className="plan-price">
             <span>R$</span>
             39
-            <small>,90/mes</small>
+            <small>,90/mês</small>
           </div>
           <ul>
             {benefits.slice(0, 4).map((benefit) => (
@@ -63,12 +63,12 @@ function Pricing() {
               </li>
             ))}
           </ul>
-          <div className="plan-trial-badge">7 dias gratis</div>
+          <div className="plan-trial-badge">7 dias grátis</div>
           <SlideArrowButton
             disabled={Boolean(loadingPlan)}
             onClick={() => handleCheckout("essencial")}
             primaryColor="#2563eb"
-            text={loadingPlan === "essencial" ? "Abrindo pagamento..." : "Comecar 7 dias gratis"}
+            text={loadingPlan === "essencial" ? "Abrindo pagamento..." : "Começar 7 dias grátis"}
           />
         </motion.article>
 
@@ -86,14 +86,14 @@ function Pricing() {
           <div>
             <span className="plan-eyebrow">Anual</span>
             <h3>Aprova+ Pro</h3>
-            <p>Para uma preparacao mais longa, com acompanhamento completo.</p>
+            <p>Para uma preparação mais longa, com acompanhamento completo.</p>
           </div>
           <div className="plan-price">
             <span>R$</span>
             24
-            <small>,90/mes</small>
+            <small>,90/mês</small>
           </div>
-          <p className="plan-annual-note">Cobrado como R$ 298,80/ano - voce economiza R$ 179,40</p>
+          <p className="plan-annual-note">Cobrado como R$ 298,80/ano - você economiza R$ 179,40</p>
           <ul>
             {benefits.map((benefit) => (
               <li key={benefit}>

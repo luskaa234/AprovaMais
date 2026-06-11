@@ -1,5 +1,5 @@
 import { memo, useCallback, useEffect, useMemo, useState } from "react";
-import { Ban, CheckCircle2, RefreshCw, Search, ShieldCheck, Wrench } from "lucide-react";
+import { Ban, CheckCircle2, RefreshCw, Search, ShieldCheck, Trash2, UserPlus, Wrench } from "lucide-react";
 import { Badge, Button, Card, Input, cx } from "../components";
 import { adminService } from "../services";
 
@@ -15,7 +15,7 @@ function formatDate(value) {
 }
 
 function planBadge(user) {
-  if (user.vitalicio) return { label: "Vitalicio", variant: "success" };
+  if (user.vitalicio) return { label: "Vitalício", variant: "success" };
   if (user.plano_ativo) return { label: user.status_plano || "Ativo", variant: "success" };
   return { label: user.status_plano || "Sem acesso", variant: "neutral" };
 }
@@ -28,6 +28,11 @@ export const AdminLayout = memo(({ standalone = false }) => {
   const [loading, setLoading] = useState(true);
   const [actionId, setActionId] = useState("");
   const [maintenance, setMaintenance] = useState({ enabled: false, message: "" });
+  const [createModalOpen, setCreateModalOpen] = useState(false);
+  const [inviteUrl, setInviteUrl] = useState("");
+  const [newUser, setNewUser] = useState({ email: "", name: "", vitalicio: false });
+  const [deleteTarget, setDeleteTarget] = useState(null);
+  const [deleteConfirmation, setDeleteConfirmation] = useState("");
 
   const load = useCallback(async (term = "") => {
     setError("");
@@ -65,11 +70,44 @@ export const AdminLayout = memo(({ standalone = false }) => {
       if (action === "cancelar") await adminService.cancelarAcesso(id);
       await load(search);
     } catch (err) {
-      setError(err.message || "Nao foi possivel executar a acao.");
+      setError(err.message || "Não foi possível executar a ação.");
     } finally {
       setActionId("");
     }
   }, [load, search]);
+
+  const createUser = useCallback(async (event) => {
+    event.preventDefault();
+    setActionId("create-user");
+    setError("");
+    setInviteUrl("");
+    try {
+      const result = await adminService.criarUsuario(newUser);
+      setInviteUrl(result.invite_url || "");
+      setNewUser({ email: "", name: "", vitalicio: false });
+      await load(search);
+    } catch (err) {
+      setError(err.message || "Não foi possível criar o usuário.");
+    } finally {
+      setActionId("");
+    }
+  }, [load, newUser, search]);
+
+  const deleteUser = useCallback(async () => {
+    if (!deleteTarget) return;
+    setActionId(`delete-${deleteTarget.id}`);
+    setError("");
+    try {
+      await adminService.deletarUsuario(deleteTarget.id, deleteConfirmation);
+      setDeleteTarget(null);
+      setDeleteConfirmation("");
+      await load(search);
+    } catch (err) {
+      setError(err.message || "Não foi possível deletar o usuário.");
+    } finally {
+      setActionId("");
+    }
+  }, [deleteConfirmation, deleteTarget, load, search]);
 
   const saveMaintenance = useCallback(async () => {
     setActionId("maintenance");
@@ -78,7 +116,7 @@ export const AdminLayout = memo(({ standalone = false }) => {
       const next = await adminService.setMaintenance(maintenance);
       setMaintenance(next);
     } catch (err) {
-      setError(err.message || "Nao foi possivel alterar a manutencao.");
+      setError(err.message || "Não foi possível alterar a manutenção.");
     } finally {
       setActionId("");
     }
@@ -111,20 +149,23 @@ export const AdminLayout = memo(({ standalone = false }) => {
         <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <span className="text-xs font-black uppercase tracking-wide text-blue-600">Painel seguro</span>
-            <h1 className="mt-1 text-3xl font-black text-slate-950">Administracao Aprova+</h1>
+            <h1 className="mt-1 text-3xl font-black text-slate-950">Administração Aprova+</h1>
             <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-500">
-              Acoes sensiveis passam por Edge Functions com verificacao de email admin e registro em auditoria.
+              Ações sensíveis passam por Edge Functions com verificação de email admin e registro em auditoria.
             </p>
           </div>
-          <Button icon={RefreshCw} variant="secondary" loading={loading} onClick={() => load(search)}>
-            Atualizar
-          </Button>
+          <div className="flex flex-wrap gap-2">
+            <Button icon={UserPlus} onClick={() => setCreateModalOpen(true)}>Criar usuário</Button>
+            <Button icon={RefreshCw} variant="secondary" loading={loading} onClick={() => load(search)}>
+              Atualizar
+            </Button>
+          </div>
         </div>
       </section>
 
       <section className="grid gap-3 md:grid-cols-3">
         <Card className="border-blue-100 bg-white shadow-sm">
-          <p className="text-xs font-black uppercase text-slate-500">Usuarios</p>
+          <p className="text-xs font-black uppercase text-slate-500">Usuários</p>
           <strong className="mt-2 block text-3xl font-black text-slate-950">{stats.total}</strong>
         </Card>
         <Card className="border-blue-100 bg-white shadow-sm">
@@ -132,7 +173,7 @@ export const AdminLayout = memo(({ standalone = false }) => {
           <strong className="mt-2 block text-3xl font-black text-slate-950">{stats.ativos}</strong>
         </Card>
         <Card className="border-blue-100 bg-white shadow-sm">
-          <p className="text-xs font-black uppercase text-slate-500">Vitalicios</p>
+          <p className="text-xs font-black uppercase text-slate-500">Vitalícios</p>
           <strong className="mt-2 block text-3xl font-black text-slate-950">{stats.vitalicios}</strong>
         </Card>
       </section>
@@ -142,9 +183,9 @@ export const AdminLayout = memo(({ standalone = false }) => {
           <div>
             <div className="flex items-center gap-2">
               <Wrench size={18} className="text-blue-600" />
-              <h2 className="text-xl font-black text-slate-950">Modo manutencao</h2>
+              <h2 className="text-xl font-black text-slate-950">Modo manutenção</h2>
             </div>
-            <p className="mt-1 text-sm text-slate-500">Quando ativo, usuarios comuns veem a mensagem de manutencao.</p>
+            <p className="mt-1 text-sm text-slate-500">Quando ativo, usuários comuns veem a mensagem de manutenção.</p>
           </div>
           <div className="grid flex-1 gap-2 lg:max-w-2xl lg:grid-cols-[auto_1fr_auto]">
             <label className="flex items-center gap-2 rounded-xl border border-blue-100 px-3 py-2 text-sm font-bold">
@@ -171,8 +212,8 @@ export const AdminLayout = memo(({ standalone = false }) => {
       <Card className="border-blue-100 bg-white shadow-sm">
         <div className="mb-4 flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
           <div>
-            <h2 className="text-xl font-black text-slate-950">Usuarios</h2>
-            <p className="mt-1 text-sm text-slate-500">O admin nunca ve nem altera senha. Controle apenas o status da conta.</p>
+            <h2 className="text-xl font-black text-slate-950">Usuários</h2>
+            <p className="mt-1 text-sm text-slate-500">O admin nunca vê nem altera senha. Controle apenas o status da conta.</p>
           </div>
           <form
             className="flex gap-2"
@@ -192,12 +233,12 @@ export const AdminLayout = memo(({ standalone = false }) => {
           <table className="w-full min-w-[900px] border-separate border-spacing-y-2 text-left text-sm">
             <thead>
               <tr className="text-xs font-black uppercase text-slate-500">
-                <th className="px-3 py-2">Usuario</th>
+                <th className="px-3 py-2">Usuário</th>
                 <th className="px-3 py-2">Plano</th>
                 <th className="px-3 py-2">Expira</th>
                 <th className="px-3 py-2">Criado em</th>
-                <th className="px-3 py-2">Ultima atividade</th>
-                <th className="px-3 py-2 text-right">Acoes</th>
+                <th className="px-3 py-2">Última atividade</th>
+                <th className="px-3 py-2 text-right">Ações</th>
               </tr>
             </thead>
             <tbody>
@@ -224,7 +265,7 @@ export const AdminLayout = memo(({ standalone = false }) => {
                           onClick={() => runAction(user.id, "vitalicio")}
                           size="sm"
                         >
-                          Tornar vitalicio
+                          Tornar vitalício
                         </Button>
                         <Button
                           icon={Ban}
@@ -234,6 +275,18 @@ export const AdminLayout = memo(({ standalone = false }) => {
                           variant="danger"
                         >
                           Cancelar
+                        </Button>
+                        <Button
+                          icon={Trash2}
+                          loading={actionId === `delete-${user.id}`}
+                          onClick={() => {
+                            setDeleteTarget(user);
+                            setDeleteConfirmation("");
+                          }}
+                          size="sm"
+                          variant="danger"
+                        >
+                          Deletar
                         </Button>
                       </div>
                     </td>
@@ -246,11 +299,72 @@ export const AdminLayout = memo(({ standalone = false }) => {
 
         {!loading && !usuarios.length ? (
           <div className="rounded-xl border border-dashed border-blue-200 p-8 text-center">
-            <p className="font-bold text-slate-950">Nenhum usuario encontrado.</p>
+            <p className="font-bold text-slate-950">Nenhum usuário encontrado.</p>
             <p className="mt-1 text-sm text-slate-500">Revise a busca ou atualize a lista.</p>
           </div>
         ) : null}
       </Card>
+
+      {createModalOpen ? (
+        <div className="fixed inset-0 z-[80] grid place-items-center bg-slate-950/50 p-4">
+          <Card hover={false} className="w-full max-w-lg border-blue-100 bg-white shadow-xl">
+            <div className="mb-4 flex items-start justify-between gap-4">
+              <div>
+                <h2 className="text-xl font-black text-slate-950">Criar usuário</h2>
+                <p className="mt-1 text-sm text-slate-500">O usuário recebe um convite e define a própria senha.</p>
+              </div>
+              <Button variant="ghost" onClick={() => setCreateModalOpen(false)}>Fechar</Button>
+            </div>
+            <form className="grid gap-3" onSubmit={createUser}>
+              <Input label="Email" type="email" value={newUser.email} onChange={(event) => setNewUser((current) => ({ ...current, email: event.target.value }))} required />
+              <Input label="Nome" value={newUser.name} onChange={(event) => setNewUser((current) => ({ ...current, name: event.target.value }))} />
+              <label className="flex items-center gap-2 rounded-xl border border-blue-100 px-3 py-2 text-sm font-bold text-slate-700">
+                <input
+                  checked={newUser.vitalicio}
+                  className="size-4 accent-blue-600"
+                  onChange={(event) => setNewUser((current) => ({ ...current, vitalicio: event.target.checked }))}
+                  type="checkbox"
+                />
+                Criar já como vitalício
+              </label>
+              {inviteUrl ? (
+                <div className="rounded-xl border border-emerald-100 bg-emerald-50 p-3 text-sm text-emerald-800">
+                  <strong className="block">Convite criado</strong>
+                  <p className="mt-1 break-all">{inviteUrl}</p>
+                </div>
+              ) : null}
+              <Button loading={actionId === "create-user"} type="submit">Criar e gerar convite</Button>
+            </form>
+          </Card>
+        </div>
+      ) : null}
+
+      {deleteTarget ? (
+        <div className="fixed inset-0 z-[80] grid place-items-center bg-slate-950/50 p-4">
+          <Card hover={false} className="w-full max-w-lg border-red-100 bg-white shadow-xl">
+            <h2 className="text-xl font-black text-slate-950">Deletar usuário</h2>
+            <p className="mt-2 text-sm leading-6 text-slate-500">
+              Esta ação remove o usuário do Supabase Auth e apaga o profile vinculado. Digite o email abaixo para confirmar.
+            </p>
+            <p className="mt-3 rounded-xl bg-red-50 p-3 text-sm font-bold text-red-700">{deleteTarget.email}</p>
+            <div className="mt-4 grid gap-3">
+              <Input label="Confirme o email" value={deleteConfirmation} onChange={(event) => setDeleteConfirmation(event.target.value)} />
+              <div className="flex flex-wrap justify-end gap-2">
+                <Button variant="secondary" onClick={() => setDeleteTarget(null)}>Cancelar</Button>
+                <Button
+                  icon={Trash2}
+                  loading={actionId === `delete-${deleteTarget.id}`}
+                  disabled={deleteConfirmation.trim().toLowerCase() !== String(deleteTarget.email || "").toLowerCase()}
+                  variant="danger"
+                  onClick={deleteUser}
+                >
+                  Deletar definitivamente
+                </Button>
+              </div>
+            </div>
+          </Card>
+        </div>
+      ) : null}
     </main>
   );
 });

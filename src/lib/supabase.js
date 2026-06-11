@@ -32,7 +32,7 @@ export async function getCurrentUserId() {
 
 export function requireSupabase() {
   if (!supabase) {
-    throw new Error("Supabase nao configurado. Preencha VITE_SUPABASE_URL e VITE_SUPABASE_ANON_KEY.");
+    throw new Error("Supabase não configurado. Preencha VITE_SUPABASE_URL e VITE_SUPABASE_ANON_KEY.");
   }
   return supabase;
 }

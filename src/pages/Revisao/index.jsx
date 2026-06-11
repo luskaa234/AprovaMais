@@ -74,7 +74,7 @@ export default function RevisaoPage() {
   return (
     <div className="review-center mx-auto max-w-[1500px] pb-10 text-slate-900">
       <section className="review-hero mb-4 rounded-lg border border-blue-100 bg-white p-4 shadow-sm">
-        <div className="grid gap-4 lg:grid-cols-[1fr_360px] lg:items-center">
+        <div className="grid gap-4 xl:grid-cols-[1fr_360px] xl:items-center">
           <div>
             <p className="text-xs font-black uppercase tracking-wide text-blue-600">Central de revisao</p>
             <h1 className="mt-1 text-3xl font-black text-slate-950">Fila inteligente de revisoes</h1>
@@ -122,7 +122,7 @@ export default function RevisaoPage() {
       </div>
 
       {tab === "Pendentes" || tab === "Revisao Espacada" ? (
-        <div className="mt-4 grid gap-3 lg:grid-cols-2">
+        <div className="mt-4 grid gap-3 xl:grid-cols-2">
           {ordered.length ? ordered.map((item) => (
             <ReviewCard
               item={item}
@@ -136,7 +136,7 @@ export default function RevisaoPage() {
       ) : null}
 
       {tab === "Erros" ? (
-        <div className="mt-4 grid gap-4 lg:grid-cols-2">
+        <div className="mt-4 grid gap-4 xl:grid-cols-2">
           {erros.length ? erros.map((item) => (
             <Card hover={false} className="border-blue-100 bg-white shadow-sm" key={item.id}>
               <div className="flex items-center justify-between gap-2">
@@ -151,7 +151,7 @@ export default function RevisaoPage() {
       ) : null}
 
       {tab === "Flashcards" ? (
-        <div className="mt-4 grid gap-4 lg:grid-cols-2">
+        <div className="mt-4 grid gap-4 xl:grid-cols-2">
           {flashcards.length ? flashcards.map((item) => (
             <Card hover={false} className="border-blue-100 bg-white shadow-sm" key={item.id}>
               <Badge>{item.materia}</Badge>
@@ -163,7 +163,7 @@ export default function RevisaoPage() {
       ) : null}
 
       {tab === "Mapas Mentais" ? (
-        <div className="mt-4 grid gap-4 lg:grid-cols-2">
+        <div className="mt-4 grid gap-4 xl:grid-cols-2">
           {mapas.length ? mapas.map((item) => (
             <Card hover={false} className="border-blue-100 bg-white shadow-sm" key={item.id}>
               <Map className="mb-3 text-blue-600" />
@@ -175,7 +175,7 @@ export default function RevisaoPage() {
       ) : null}
 
       {tab === "Resumos" ? (
-        <div className="mt-4 grid gap-4 lg:grid-cols-2">
+        <div className="mt-4 grid gap-4 xl:grid-cols-2">
           {resumos.length ? resumos.map((item) => (
             <Card hover={false} className="border-blue-100 bg-white shadow-sm" key={item.id}>
               <FileText className="mb-3 text-blue-600" />

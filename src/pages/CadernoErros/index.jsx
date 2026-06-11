@@ -45,7 +45,7 @@ export default function CadernoErrosPage() {
   const filtersContent = (
     <div className="grid gap-3 md:grid-cols-4">
       <Input icon={Search} label="Buscar" placeholder="Enunciado ou assunto" value={filters.search} onChange={(event) => setFilters((current) => ({ ...current, search: event.target.value }))} />
-      <Select label="Materia" placeholder="Todas" options={materias} value={filters.materia} onChange={(event) => setFilters((current) => ({ ...current, materia: event.target.value }))} />
+      <Select label="Matéria" placeholder="Todas" options={materias} value={filters.materia} onChange={(event) => setFilters((current) => ({ ...current, materia: event.target.value }))} />
       <Select label="Banca" placeholder="Todas" options={bancas} value={filters.banca} onChange={(event) => setFilters((current) => ({ ...current, banca: event.target.value }))} />
       <Select label="Origem" placeholder="Todas" options={[{ value: "respondida", label: "Erro respondido" }, { value: "manual", label: "Marcada manualmente" }]} value={filters.status} onChange={(event) => setFilters((current) => ({ ...current, status: event.target.value }))} />
     </div>
@@ -65,10 +65,10 @@ export default function CadernoErrosPage() {
           <h1 className="text-3xl font-black text-white">Revisao dos pontos fracos</h1>
           <p className="mt-1 text-sm text-gray-400">Erros respondidos e itens marcados manualmente ficam organizados para retreino.</p>
         </div>
-        <Button className="md:hidden" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{activeFilterCount ? ` · ${activeFilterCount}` : ""}</Button>
+        <Button className="xl:hidden" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{activeFilterCount ? ` · ${activeFilterCount}` : ""}</Button>
       </div>
 
-      <Card hover={false} className="mb-4 hidden md:block">
+      <Card hover={false} className="mb-4 hidden xl:block">
         {filtersContent}
       </Card>
 
@@ -101,7 +101,7 @@ export default function CadernoErrosPage() {
           )}
         </div>
         <Card hover={false}>
-          <h2 className="mb-3 font-bold text-white">Distribuicao de erros</h2>
+          <h2 className="mb-3 font-bold text-white">Distribuição de erros</h2>
           {chart.length ? <StudyTimeChart data={chart} layout="vertical" /> : <p className="text-sm text-gray-400">Sem dados suficientes para montar o grafico.</p>}
         </Card>
       </div>

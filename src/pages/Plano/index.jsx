@@ -230,7 +230,7 @@ function ActivityRow({ activity, onStatus, onOpen, onEdit, onDelete }) {
               <div className={cx("h-full rounded-full transition-all", isDone ? "bg-emerald-500" : isRunning ? "bg-blue-600" : "bg-slate-300")} style={{ width: `${timerProgress}%` }} />
             </div>
           </div>
-          <div className="mt-3 flex flex-wrap gap-2 md:hidden">
+          <div className="mt-3 flex flex-wrap gap-2 xl:hidden">
             <Badge variant={typeBadge(activity.type)}>{activity.type}</Badge>
             <span className={cx("inline-flex min-h-7 items-center rounded-full border px-3 text-xs font-bold", statusTone(activity.status))}>{activity.status}</span>
           </div>
@@ -362,7 +362,7 @@ export default function PlanoPage() {
   }, []);
   const filtersContent = (
     <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-5">
-      <Select label="Materia" placeholder="Todas" options={materias} value={filters.materia} onChange={(event) => setFilters((current) => ({ ...current, materia: event.target.value }))} />
+      <Select label="Matéria" placeholder="Todas" options={materias} value={filters.materia} onChange={(event) => setFilters((current) => ({ ...current, materia: event.target.value }))} />
       <Select label="Tipo" placeholder="Todos" options={typeOptions} value={filters.tipo} onChange={(event) => setFilters((current) => ({ ...current, tipo: event.target.value }))} />
       <Select label="Status" placeholder="Todos" options={statusOptions} value={filters.status} onChange={(event) => setFilters((current) => ({ ...current, status: event.target.value }))} />
       <Select label="Concurso" placeholder="Todos" options={contestOptions} value={filters.concurso} onChange={(event) => setFilters((current) => ({ ...current, concurso: event.target.value }))} />
@@ -419,7 +419,7 @@ export default function PlanoPage() {
     setPlanActivities((current) => current.map((item) => item.id === id ? { ...item, status } : item));
     setNowMs(now);
     await planoService.atualizarAtividade(id, { status }).catch(() => {
-      addNotification({ type: "warning", title: "Plano salvo localmente", message: "Nao foi possivel sincronizar com o Supabase agora." });
+      addNotification({ type: "warning", title: "Plano salvo localmente", message: "Não foi possível sincronizar com o Supabase agora." });
     });
   }, [addNotification]);
   const goToday = useCallback(() => {
@@ -521,9 +521,9 @@ export default function PlanoPage() {
           </div>
         </div>
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-          <div className="hidden items-center gap-2 rounded-lg bg-blue-50 px-3 py-2 text-sm font-bold text-blue-700 md:flex">{progress}% da semana</div>
+          <div className="hidden items-center gap-2 rounded-lg bg-blue-50 px-3 py-2 text-sm font-bold text-blue-700 xl:flex">{progress}% da semana</div>
           <div className="flex flex-wrap gap-2">
-          <Button className="md:hidden" data-tour="tour-studies-filters" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{activeFilterCount ? ` · ${activeFilterCount}` : ""}</Button>
+          <Button className="xl:hidden" data-tour="tour-studies-filters" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{activeFilterCount ? ` · ${activeFilterCount}` : ""}</Button>
           <Button className="whitespace-nowrap" variant="secondary" onClick={goToday}>Hoje</Button>
           <Button className="whitespace-nowrap" variant="secondary" icon={RotateCcw} onClick={() => gerarPlanoInteligente({ replace: true })}>Gerar</Button>
           <Button className="whitespace-nowrap" icon={Plus} onClick={openNewActivity}>Nova</Button>
@@ -534,17 +534,17 @@ export default function PlanoPage() {
       <section className="plano-personalizacao mb-4 rounded-lg border border-blue-100 bg-white p-4 shadow-sm" data-tour="tour-studies-personalization">
         <div className="mb-4 flex flex-wrap items-start justify-between gap-3">
           <div>
-            <span className="text-xs font-black uppercase tracking-wide text-blue-600">Personalizacao ativa</span>
-            <h2 className="mt-1 text-lg font-black text-slate-950">Seu calendario se adapta a sua rotina</h2>
-            <p className="mt-1 text-sm text-slate-500">Altere os dados abaixo e toque em Gerar para recriar a semana com essas preferencias.</p>
+            <span className="text-xs font-black uppercase tracking-wide text-blue-600">Personalização ativa</span>
+            <h2 className="mt-1 text-lg font-black text-slate-950">Seu calendário se adapta à sua rotina</h2>
+            <p className="mt-1 text-sm text-slate-500">Altere os dados abaixo e toque em Gerar para recriar a semana com essas preferências.</p>
           </div>
           <Badge variant="success">Salvo automaticamente</Badge>
         </div>
         <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-5">
           <Input label="Horas por semana" type="number" min="1" value={planPrefs.weeklyHours} onChange={(event) => updatePlanPref("weeklyHours", event.target.value)} />
-          <Input label="Comecar as" type="time" value={planPrefs.dailyStart} onChange={(event) => updatePlanPref("dailyStart", event.target.value)} />
+          <Input label="Começar às" type="time" value={planPrefs.dailyStart} onChange={(event) => updatePlanPref("dailyStart", event.target.value)} />
           <Select label="Bloco de estudo" options={[45, 60, 75, 90, 120].map((value) => ({ value, label: `${value} min` }))} value={planPrefs.sessionLength} onChange={(event) => updatePlanPref("sessionLength", Number(event.target.value))} />
-          <Input label="Materia foco" placeholder="Ex: Constitucional" value={planPrefs.focusSubject} onChange={(event) => updatePlanPref("focusSubject", event.target.value)} />
+          <Input label="Matéria foco" placeholder="Ex: Constitucional" value={planPrefs.focusSubject} onChange={(event) => updatePlanPref("focusSubject", event.target.value)} />
           <Input label="Data da prova" type="date" value={planPrefs.examDate} onChange={(event) => updatePlanPref("examDate", event.target.value)} />
         </div>
         <div className="mt-4 flex flex-wrap items-center gap-2">
@@ -566,12 +566,12 @@ export default function PlanoPage() {
             onClick={() => updatePlanPref("includeTaf", !planPrefs.includeTaf)}
             type="button"
           >
-            {planPrefs.includeTaf ? "TAF incluido" : "Sem TAF"}
+            {planPrefs.includeTaf ? "TAF incluído" : "Sem TAF"}
           </button>
         </div>
       </section>
 
-      <div className="plano-desktop-filters mb-4 hidden gap-3 rounded-lg border border-blue-100 bg-white p-4 shadow-sm md:grid" data-tour="tour-studies-filters">
+      <div className="plano-desktop-filters mb-4 hidden gap-3 rounded-lg border border-blue-100 bg-white p-4 shadow-sm xl:grid" data-tour="tour-studies-filters">
         {filtersContent}
       </div>
 
@@ -645,7 +645,7 @@ export default function PlanoPage() {
                     <span className="text-slate-300">|</span>
                     <span>{Math.floor(selectedMinutes / 60)}h {selectedMinutes % 60}min planejados</span>
                     <span className="text-slate-300">|</span>
-                    <span>{selectedDone} concluida{selectedDone === 1 ? "" : "s"}</span>
+                    <span>{selectedDone} concluída{selectedDone === 1 ? "" : "s"}</span>
                   </div>
                 </div>
                 <Button size="sm" variant="secondary" icon={Plus} onClick={openNewActivity}>Adicionar atividade</Button>
@@ -654,7 +654,7 @@ export default function PlanoPage() {
                 <div className="h-2 overflow-hidden rounded-full bg-white ring-1 ring-blue-100">
                   <div className="h-full rounded-full bg-blue-600 transition-all" style={{ width: `${selectedProgress}%` }} />
                 </div>
-                <span className="text-xs font-bold text-blue-700">{selectedProgress}% do dia concluido</span>
+                <span className="text-xs font-bold text-blue-700">{selectedProgress}% do dia concluído</span>
               </div>
             </div>
             {selectedActivities.length ? (
@@ -683,7 +683,7 @@ export default function PlanoPage() {
               ["Horas estudadas", `${Math.floor(studiedMinutes / 60)}h ${studiedMinutes % 60}m`],
               ["Horas restantes", `${Math.floor(remaining / 60)}h ${remaining % 60}m`],
               ["Produtividade", `${progress}%`],
-              ["Concluidas", String(completed.length)],
+              ["Concluídas", String(completed.length)],
             ].map(([label, value]) => <div key={label} className="text-center"><strong className="block text-xl text-blue-600">{value}</strong><span className="text-xs text-slate-500">{label}</span></div>)}
           </section>
         </main>
@@ -702,14 +702,14 @@ export default function PlanoPage() {
           </section>
 
           <section className="rounded-lg border border-blue-100 bg-white p-4 shadow-sm">
-            <h2 className="mb-4 font-black text-slate-950">Distribuicao da semana</h2>
+            <h2 className="mb-4 font-black text-slate-950">Distribuição da semana</h2>
             <div className="space-y-3">
               {distribution.map((item) => <MiniBar key={item.type} label={item.type} value={weekActivities.length ? Math.round((item.value / weekActivities.length) * 100) : 0} color={typeTone(item.type)} />)}
             </div>
           </section>
 
           <section className="rounded-lg border border-blue-100 bg-white p-4 shadow-sm">
-            <h2 className="mb-4 font-black text-slate-950">Proximas atividades</h2>
+            <h2 className="mb-4 font-black text-slate-950">Próximas atividades</h2>
             <div className="space-y-3">
               {filteredActivities.filter((item) => item.date >= isoDate(now)).slice(0, 4).map((item) => (
                 <div key={item.id} className="flex gap-3 rounded-lg bg-slate-50 p-3">
@@ -721,13 +721,13 @@ export default function PlanoPage() {
           </section>
 
           <section className="rounded-lg border border-blue-100 bg-white p-4 shadow-sm">
-            <div className="mb-3 flex items-center gap-2"><TrendingUp className="text-blue-600" size={18} /><h2 className="font-black text-slate-950">Sequencia de estudos</h2></div>
+            <div className="mb-3 flex items-center gap-2"><TrendingUp className="text-blue-600" size={18} /><h2 className="font-black text-slate-950">Sequência de estudos</h2></div>
             <strong className="text-3xl text-slate-950">{studyStreak}</strong>
             <span className="ml-2 text-sm text-slate-500">dias seguidos</span>
           </section>
 
           <section className="rounded-lg border border-blue-100 bg-white p-4 shadow-sm">
-            <div className="mb-3 flex items-center gap-2"><Target className="text-blue-600" size={18} /><h2 className="font-black text-slate-950">Materias em foco</h2></div>
+            <div className="mb-3 flex items-center gap-2"><Target className="text-blue-600" size={18} /><h2 className="font-black text-slate-950">Matérias em foco</h2></div>
             <div className="flex flex-wrap gap-2">{focus.map((item) => <span key={item} className="rounded-full bg-blue-50 px-3 py-1 text-xs font-bold text-blue-700">{item}</span>)}</div>
           </section>
         </aside>
@@ -735,9 +735,9 @@ export default function PlanoPage() {
 
       <Modal open={modal} title={editingId ? "Editar atividade" : "Nova atividade"} onClose={() => setModal(false)} footer={<Button onClick={createActivity}>Salvar atividade</Button>}>
         <div className="grid gap-3">
-          <Input label="Titulo" value={draft.title} onChange={(event) => setDraft((current) => ({ ...current, title: event.target.value }))} />
+          <Input label="Título" value={draft.title} onChange={(event) => setDraft((current) => ({ ...current, title: event.target.value }))} />
           <div className="grid gap-3 sm:grid-cols-2">
-            <Input label="Materia" value={draft.materia} onChange={(event) => setDraft((current) => ({ ...current, materia: event.target.value }))} />
+            <Input label="Matéria" value={draft.materia} onChange={(event) => setDraft((current) => ({ ...current, materia: event.target.value }))} />
             <Select label="Tipo" options={typeOptions} value={draft.type} onChange={(event) => setDraft((current) => ({ ...current, type: event.target.value }))} />
             <Input label="Data" type="date" value={draft.date} onChange={(event) => setDraft((current) => ({ ...current, date: event.target.value }))} />
             <Input label="Horario" type="time" value={draft.hour} onChange={(event) => setDraft((current) => ({ ...current, hour: event.target.value }))} />

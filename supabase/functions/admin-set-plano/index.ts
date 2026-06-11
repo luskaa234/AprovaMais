@@ -2,6 +2,8 @@ import { handleOptions, jsonResponse } from "../_shared/cors.ts";
 import { adminErrorResponse, findTargetProfile, requireAdmin, writeAdminLog } from "../_shared/admin.ts";
 import { getAdminClient } from "../_shared/supabase.ts";
 
+const allowedPlans = new Set(["gratuito", "essencial", "pro"]);
+
 function nullableDate(value: unknown) {
   if (value === null || value === undefined || value === "") return null;
   const date = new Date(String(value));
@@ -19,9 +21,10 @@ Deno.serve(async (req) => {
     const body = await req.json().catch(() => ({}));
     const target = await findTargetProfile(supabase, body);
 
-    const plano = String(body.plano || target.plano || "gratuito").trim();
     const statusPlano = String(body.status_plano || body.statusPlano || target.status_plano || "manual").trim();
     const vitalicio = Boolean(body.vitalicio);
+    const requestedPlan = String(body.plano || target.plano || "gratuito").trim();
+    const plano = vitalicio ? "pro" : allowedPlans.has(requestedPlan) ? requestedPlan : "gratuito";
     const planoExpiraEm = vitalicio ? null : nullableDate(body.plano_expira_em ?? body.planoExpiraEm);
     const planoAtivo = typeof body.plano_ativo === "boolean" ? body.plano_ativo : typeof body.planoAtivo === "boolean" ? body.planoAtivo : true;
 

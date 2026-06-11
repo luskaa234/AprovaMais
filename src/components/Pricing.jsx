@@ -29,7 +29,7 @@ const plans = [
 
 const benefits = [
   "Cronograma inteligente por concurso",
-  "Banco de questoes e simulados completos",
+  "Banco de questões e simulados completos",
   "Relatorios de desempenho por materia",
   "Revisoes automaticas e metas semanais",
   "Area de redacao, metas e duvidas com IA",
@@ -61,7 +61,7 @@ function Pricing() {
       setLoadingPlan(plan);
       await startCheckout(plan);
     } catch (error) {
-      toast.error(error.message || "Nao foi possivel abrir o pagamento.");
+      toast.error(error.message || "Não foi possível abrir o pagamento.");
       setLoadingPlan("");
     }
   };

@@ -90,7 +90,7 @@ export async function startCheckout(planId = "essencial", user) {
         window.location.assign(plan.checkoutUrl);
         return;
       }
-      throw new Error(data.error || "Nao foi possivel iniciar o pagamento.");
+      throw new Error(data.error || "Não foi possível iniciar o pagamento.");
     }
 
     if (data.checkoutUrl) {
@@ -104,31 +104,31 @@ export async function startCheckout(planId = "essencial", user) {
     return;
   }
 
-  throw new Error("Checkout nao configurado. Configure MP_ACCESS_TOKEN ou VITE_CHECKOUT_*_URL.");
+  throw new Error("Checkout não configurado. Configure MP_ACCESS_TOKEN ou VITE_CHECKOUT_*_URL.");
 }
 
 export async function createPixPayment(planId = "essencial") {
-  return invokePaymentFunction("criar-pagamento-pix", { plano_id: planId }, "Nao foi possivel gerar Pix.");
+  return invokePaymentFunction("criar-pagamento-pix", { plano_id: planId }, "Não foi possível gerar Pix.");
 }
 
 export async function createCardSubscription(planId = "essencial", cardToken) {
-  return invokePaymentFunction("criar-assinatura-cartao", { plano_id: planId, card_token: cardToken }, "Nao foi possivel criar assinatura.");
+  return invokePaymentFunction("criar-assinatura-cartao", { plano_id: planId, card_token: cardToken }, "Não foi possível criar assinatura.");
 }
 
 export async function createDebitPayment(planId = "essencial", payload) {
-  return invokePaymentFunction("criar-pagamento-debito", { plano_id: planId, ...payload }, "Nao foi possivel criar pagamento.");
+  return invokePaymentFunction("criar-pagamento-debito", { plano_id: planId, ...payload }, "Não foi possível criar pagamento.");
 }
 
 export async function verifyPremiumAccess() {
-  return invokePaymentFunction("verificar-acesso", {}, "Nao foi possivel verificar acesso.");
+  return invokePaymentFunction("verificar-acesso", {}, "Não foi possível verificar acesso.");
 }
 
 export async function cancelCurrentSubscription() {
-  return invokePaymentFunction("cancelar-assinatura", {}, "Nao foi possivel cancelar a assinatura.");
+  return invokePaymentFunction("cancelar-assinatura", {}, "Não foi possível cancelar a assinatura.");
 }
 
 export function loadMercadoPagoSdk() {
-  if (!mpPublicKey) throw new Error("VITE_MP_PUBLIC_KEY nao configurada.");
+  if (!mpPublicKey) throw new Error("VITE_MP_PUBLIC_KEY não configurada.");
   if (typeof window === "undefined") throw new Error("Checkout indisponivel fora do navegador.");
   if (window.MercadoPago) return Promise.resolve(new window.MercadoPago(mpPublicKey, { locale: "pt-BR" }));
 
@@ -164,7 +164,7 @@ export async function createMercadoPagoCardToken(card) {
   });
 
   if (!token?.id) {
-    throw new Error(token?.message || "Nao foi possivel tokenizar o cartao.");
+    throw new Error(token?.message || "Não foi possível tokenizar o cartão.");
   }
   return token;
 }

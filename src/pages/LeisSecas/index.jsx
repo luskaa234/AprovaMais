@@ -78,7 +78,7 @@ function getArticleNumber(value = "") {
 function splitArticleText(rawArticle, lei, chapter) {
   const text = String(rawArticle.texto || "").trim();
   const pieces = text.split(/\n(?=Art\.?\s*\d+)/i).filter(Boolean);
-  const sourcePieces = pieces.length > 1 ? pieces : [text || `Art. ${rawArticle.numero_texto || rawArticle.numero}. Texto indisponivel.`];
+  const sourcePieces = pieces.length > 1 ? pieces : [text || `Art. ${rawArticle.numero_texto || rawArticle.numero}. Texto indisponível.`];
 
   return sourcePieces.map((piece, index) => {
     const numero = getArticleNumber(piece) || Number(rawArticle.numero) + index || index + 1;
@@ -380,7 +380,7 @@ export default function LeisSecasPage() {
         questoesIds: result.questoes?.map((item) => item.id) || (result.questao ? [result.questao.id] : []),
       }));
       navigate("questoes");
-      notify("Filtro preparado", "Abrindo o banco de questoes com foco neste artigo.");
+      notify("Filtro preparado", "Abrindo o banco de questões com foco neste artigo.");
     } finally {
       setLoadingAction("");
     }
@@ -528,14 +528,14 @@ export default function LeisSecasPage() {
 
               <Card hover={false} className="leis-study-actions">
                 <Button loading={loadingAction === "flashcard"} icon={Plus} onClick={generateFlashcard}>Gerar flashcard</Button>
-                <Button loading={loadingAction === "questoes"} variant="secondary" icon={FileQuestion} onClick={practiceQuestions}>{selectedArticle.cobrancas || 0} questoes</Button>
+                <Button loading={loadingAction === "questoes"} variant="secondary" icon={FileQuestion} onClick={practiceQuestions}>{selectedArticle.cobrancas || 0} questões</Button>
                 <Button loading={loadingAction === "explicar"} variant="secondary" icon={MessageCircle} onClick={explainArticle}>Aprovinho explica</Button>
               </Card>
 
               {explanation ? <Card hover={false} className="leis-explanation"><h3>Aprovinho explica</h3><p>{explanation}</p></Card> : null}
 
               <Card hover={false} className="leis-note-card">
-                <Textarea label="Nota pessoal" value={notas[selectedArticle.id] || ""} onChange={(event) => saveNote(event.target.value)} placeholder="Escreva sua anotacao sobre este artigo." />
+                <Textarea label="Nota pessoal" value={notas[selectedArticle.id] || ""} onChange={(event) => saveNote(event.target.value)} placeholder="Escreva sua anotação sobre este artigo." />
               </Card>
 
               {articleMarks.length ? (

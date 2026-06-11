@@ -58,7 +58,7 @@ function daysUntil(value) {
 }
 
 function planName(planId) {
-  if (planId === "gratuito") return "Teste gratis";
+  if (planId === "gratuito") return "Teste grátis";
   return paymentPlans[planId]?.name || "Aprova+";
 }
 
@@ -107,7 +107,7 @@ export default function PerfilPage() {
       setLoadingPlan(nextPlanId);
       await startCheckout(nextPlanId, user);
     } catch (error) {
-      addNotification({ type: "error", title: "Pagamento indisponivel", message: error.message || "Nao foi possivel abrir o checkout." });
+      addNotification({ type: "error", title: "Pagamento indisponível", message: error.message || "Não foi possível abrir o checkout." });
     } finally {
       setLoadingPlan("");
     }
@@ -118,9 +118,9 @@ export default function PerfilPage() {
       setCanceling(true);
       const result = await cancelCurrentSubscription();
       await refreshProfile?.();
-      addNotification({ type: "success", title: "Assinatura cancelada", message: result.message || "Acesso mantido ate o fim do periodo pago." });
+      addNotification({ type: "success", title: "Assinatura cancelada", message: result.message || "Acesso mantido até o fim do período pago." });
     } catch (error) {
-      addNotification({ type: "error", title: "Nao foi possivel cancelar", message: error.message || "Tente novamente em instantes." });
+      addNotification({ type: "error", title: "Não foi possível cancelar", message: error.message || "Tente novamente em instantes." });
     } finally {
       setCanceling(false);
     }
@@ -310,7 +310,7 @@ export default function PerfilPage() {
               <div className="rounded-lg border border-blue-100 bg-blue-50 p-4">
                 <div className="flex flex-wrap items-center gap-2">
                   <Badge variant={isActive ? "success" : "error"}>{isActive ? "Acesso ativo" : "Acesso bloqueado"}</Badge>
-                  {isTrial ? <Badge>Teste gratis</Badge> : null}
+                  {isTrial ? <Badge>Teste grátis</Badge> : null}
                 </div>
                 <strong className="mt-3 block text-2xl text-slate-950">{planName(user.plano)}</strong>
                 <p className="mt-2 text-sm leading-6 text-slate-600">
@@ -339,7 +339,7 @@ export default function PerfilPage() {
             <div className="mt-4 flex flex-col gap-2 rounded-lg border border-slate-200 bg-white p-4 text-sm text-slate-600 sm:flex-row sm:items-center sm:justify-between">
               <div>
                 <strong className="block text-slate-950">Cancelamento</strong>
-                <span>Assinaturas recorrentes podem ser canceladas sem apagar seu historico.</span>
+                <span>Assinaturas recorrentes podem ser canceladas sem apagar seu histórico.</span>
               </div>
               <Button variant="secondary" loading={canceling} disabled={isTrial || user.plano === "gratuito"} onClick={cancelPlan}>Cancelar assinatura</Button>
             </div>

@@ -250,17 +250,17 @@ export default function QuestoesPage() {
           <p className="mt-1 text-sm text-gray-400">Resolva, confira o gabarito comentado e envie erros para revisão.</p>
         </div>
         <div className="flex flex-wrap gap-2">
-          <Button className="md:hidden" data-tour="tour-questoes-filters" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen((value) => !value)}>
+          <Button className="xl:hidden" data-tour="tour-questoes-filters" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen((value) => !value)}>
             {mobileFiltersOpen ? "Fechar filtros" : "Filtros"}{visibleFilterCount ? ` · ${visibleFilterCount}` : ""}
           </Button>
-          <Button className="hidden md:inline-flex" data-tour="tour-questoes-filters-toggle" icon={Filter} variant="secondary" onClick={() => setFiltersOpen((value) => !value)}>{filtersOpen ? "Ocultar filtros" : "Mostrar filtros"}</Button>
+          <Button className="hidden xl:inline-flex" data-tour="tour-questoes-filters-toggle" icon={Filter} variant="secondary" onClick={() => setFiltersOpen((value) => !value)}>{filtersOpen ? "Ocultar filtros" : "Mostrar filtros"}</Button>
           <Button icon={RotateCcw} variant="secondary" onClick={shuffleTraining}>Misturar treino</Button>
           <Button icon={RotateCcw} variant="ghost" onClick={() => resetTraining({ area: initialArea })}>Limpar</Button>
         </div>
       </div>
 
       {filtersOpen ? (
-        <Card hover={false} className="mb-4 hidden md:block" data-tour="tour-questoes-filters">
+        <Card hover={false} className="mb-4 hidden xl:block" data-tour="tour-questoes-filters">
           {filtersContent}
           <div className="mt-3 flex flex-wrap items-center justify-between gap-2 border-t border-gray-800 pt-3 text-xs text-gray-500">
             <span>{visibleFilterCount ? `${visibleFilterCount} filtro(s) ativo(s)` : "Nenhum filtro ativo"} - área atual: {questoesService.getAreaLabel(filters.area || "geral")} - treino aleatório inteligente</span>
@@ -270,7 +270,7 @@ export default function QuestoesPage() {
       ) : null}
 
       {mobileFiltersOpen ? (
-        <Card hover={false} className="question-mobile-filters mb-4 md:hidden" data-tour="tour-questoes-filters">
+        <Card hover={false} className="question-mobile-filters mb-4 xl:hidden" data-tour="tour-questoes-filters">
           <div className="mb-3 flex items-center justify-between gap-3">
             <div>
               <h2 className="text-base font-black text-slate-950">Filtros</h2>
