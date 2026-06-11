@@ -326,8 +326,10 @@ export default function LeisSecasPage() {
   }, []);
 
   const handleSelection = useCallback(() => {
-    const text = readCurrentSelection();
-    if (text) setSelectedText(text);
+    window.setTimeout(() => {
+      const text = readCurrentSelection();
+      if (text) setSelectedText(text);
+    }, 80);
   }, [readCurrentSelection]);
 
   const saveHighlight = useCallback(async (cor) => {
@@ -488,7 +490,7 @@ export default function LeisSecasPage() {
           </div>
         </section>
 
-        <section className={cx("leis-layer leis-reader-layer", level === "reader" && "is-current")} onMouseUp={handleSelection} onTouchEnd={handleSelection}>
+        <section className={cx("leis-layer leis-reader-layer", level === "reader" && "is-current")}>
           {selectedArticle ? (
             <>
               <div className="leis-reader-header">
@@ -510,7 +512,14 @@ export default function LeisSecasPage() {
 
               {selectedText ? <div className="leis-selection-note">Trecho selecionado: {selectedText.slice(0, 90)}...</div> : null}
 
-              <article className="leis-article-reader" dangerouslySetInnerHTML={{ __html: readerHtml }} />
+              <article
+                className="leis-article-reader"
+                dangerouslySetInnerHTML={{ __html: readerHtml }}
+                onKeyUp={handleSelection}
+                onMouseUp={handleSelection}
+                onPointerUp={handleSelection}
+                onTouchEnd={handleSelection}
+              />
 
               <div className="leis-reader-nav">
                 <Button variant="secondary" disabled={selectedIndex <= 0} onClick={() => goSibling(-1)}>Art. anterior</Button>

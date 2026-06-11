@@ -1,5 +1,4 @@
-import { useCallback, useDeferredValue, useEffect, useMemo, useState } from "react";
-import { motion } from "framer-motion";
+import { useCallback, useDeferredValue, useMemo, useState } from "react";
 import { Search } from "lucide-react";
 import { Badge, Button, EmptyState, Input, Mascot, cx } from "../../components";
 import { useNotifications } from "../../contexts";
@@ -76,7 +75,6 @@ export default function FlashcardsPage() {
   const [activeId, setActiveId] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
   const [shuffleSeed, setShuffleSeed] = useState(() => Date.now() + Math.floor(Math.random() * 100000));
-  const [isMobile, setIsMobile] = useState(() => typeof window !== "undefined" && window.matchMedia("(max-width: 767px)").matches);
 
   const baseCards = useMemo(() => decks.flatMap((deck, deckIndex) => (deck.cards || []).map((card, cardIndex) => normalizeCard(deck, card, deckIndex, cardIndex))), [decks]);
   const cards = useMemo(() => shuffleCards(baseCards, shuffleSeed).map((card) => ({ ...card, ...(overrides[card.id] || {}) })), [baseCards, overrides, shuffleSeed]);
@@ -88,14 +86,6 @@ export default function FlashcardsPage() {
   const activeCard = filtered.find((card) => card.id === activeId) || filtered[0];
   const activeIndex = activeCard ? filtered.findIndex((card) => card.id === activeCard.id) : -1;
   const cardPosition = activeIndex >= 0 ? activeIndex + 1 : 0;
-
-  useEffect(() => {
-    const media = window.matchMedia("(max-width: 767px)");
-    const update = () => setIsMobile(media.matches);
-    update();
-    media.addEventListener("change", update);
-    return () => media.removeEventListener("change", update);
-  }, []);
 
   const notify = useCallback((title, message) => addNotification({ type: "success", title, message }), [addNotification]);
   const review = useCallback((card, label, days, quality) => {
@@ -124,17 +114,6 @@ export default function FlashcardsPage() {
     setActiveId(null);
     setShowAnswer(false);
   }, []);
-
-  const handleSwipeReview = useCallback((_, info) => {
-    if (!isMobile || !activeCard) return;
-    if (info.offset.x > 120) {
-      review(activeCard, "Acertei", 5, 5);
-      return;
-    }
-    if (info.offset.x < -120) {
-      review(activeCard, "Errei", 0, 0);
-    }
-  }, [activeCard, isMobile, review]);
 
   const revealAnswer = useCallback(() => {
     setShowAnswer(true);
@@ -177,22 +156,10 @@ export default function FlashcardsPage() {
                   <div className="h-full rounded-full bg-blue-600 transition-all" style={{ width: `${filtered.length ? (cardPosition / filtered.length) * 100 : 0}%` }} />
                 </div>
               </div>
-              <div className={cx("flashcard-flip-stage mx-auto max-w-3xl", !showAnswer && "cursor-pointer")} onClick={() => !showAnswer && revealAnswer()}>
-                <motion.div
-                  animate={{
-                    opacity: 1,
-                    rotateY: showAnswer ? 180 : 0,
-                    y: 0,
-                  }}
-                  className="flashcard-swipe-card flashcard-flip-inner rounded-lg bg-white px-2 py-4"
+              <div className="flashcard-flip-stage mx-auto max-w-3xl">
+                <div
+                  className={cx("flashcard-swipe-card flashcard-flip-inner rounded-lg bg-white px-2 py-4", showAnswer && "is-flipped")}
                   data-tour="tour-flashcards-card"
-                  drag={isMobile ? "x" : false}
-                  dragConstraints={{ left: 0, right: 0 }}
-                  dragElastic={0.24}
-                  initial={{ opacity: 0, rotateY: 0, y: 8 }}
-                  onDragEnd={handleSwipeReview}
-                  transition={{ duration: 0.48, ease: [0.22, 1, 0.36, 1] }}
-                  whileDrag={isMobile ? { scale: 0.985 } : undefined}
                 >
                   <div className="flashcard-flip-face flashcard-flip-front">
                     <div>
@@ -213,7 +180,7 @@ export default function FlashcardsPage() {
                       </div>
                     </div>
                   </div>
-                </motion.div>
+                </div>
               </div>
 
               {!showAnswer ? (

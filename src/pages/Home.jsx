@@ -25,7 +25,6 @@ import Footer from "../components/landing/Footer";
 import Hero from "../components/landing/Hero";
 import HeroVideoSection from "../components/landing/HeroVideoSection";
 import Pricing from "../components/landing/Pricing";
-import mascotCelebration from "../assets/mascote/mascote-comemoracao.png";
 
 const contests = [
   { sigla: "PM", nome: "Polícia Militar", icon: Shield },
@@ -169,7 +168,6 @@ export default function Home() {
                 </p>
               ))}
             </div>
-            <img src={mascotCelebration} alt="Aprovinho comemorando uma conquista" />
           </div>
         </section>
 

@@ -6,7 +6,7 @@ import { useDebounce } from "../hooks";
 
 export const cx = (...classes) => classes.filter(Boolean).join(" ");
 
-export const Button = memo(({ children, variant = "primary", size = "md", loading = false, icon: Icon, className = "", ...props }) => {
+export const Button = memo(({ children, variant = "primary", size = "md", loading = false, icon: Icon, className = "", type = "button", ...props }) => {
   const variants = {
     primary: "aprova-btn-primary",
     secondary: "aprova-btn-secondary",
@@ -16,7 +16,7 @@ export const Button = memo(({ children, variant = "primary", size = "md", loadin
   };
   const sizes = { sm: "min-h-9 px-3 text-xs", md: "min-h-11 px-4 text-sm", lg: "min-h-12 px-5 text-base" };
   return (
-    <button className={cx("inline-flex items-center justify-center gap-2 rounded-[var(--aprova-radius-sm)] font-semibold transition focus:outline-none disabled:opacity-60", variants[variant], sizes[size], className)} disabled={loading || props.disabled} {...props}>
+    <button type={type} className={cx("inline-flex items-center justify-center gap-2 rounded-[var(--aprova-radius-sm)] font-semibold transition focus:outline-none disabled:opacity-60", variants[variant], sizes[size], className)} disabled={loading || props.disabled} {...props}>
       {loading ? <Loader2 className="animate-spin" size={16} /> : Icon ? <Icon size={16} aria-hidden="true" /> : null}
       {children}
     </button>

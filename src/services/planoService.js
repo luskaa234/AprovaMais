@@ -22,6 +22,21 @@ function slug(value = "") {
   return normalize(value).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
+function normalizeActivityType(value = "") {
+  const key = normalize(value);
+  const labels = {
+    questoes: "Questões",
+    questao: "Questões",
+    revisao: "Revisão",
+    leitura: "Leitura",
+    flashcards: "Flashcards",
+    taf: "TAF",
+    simulado: "Simulado",
+    estudo: "Estudo",
+  };
+  return labels[key] || value || "Estudo";
+}
+
 function subjectsForUser(user = {}) {
   const target = normalize(`${user.targetContest || ""} ${user.objective || ""} ${user.contestName || ""} ${user.diagnosticPlan?.objective || ""}`);
   const focus = user.focusSubject ? [user.focusSubject] : [];
@@ -52,13 +67,13 @@ function buildSmartWeek(user = {}, startDate = new Date()) {
   const minutesPerDay = Math.max(45, Math.round((weeklyHours * 60) / days.length));
   const blocksPerDay = minutesPerDay >= 180 ? 3 : minutesPerDay >= 100 ? 2 : 1;
   const blockMinutes = Math.max(35, Number(user.sessionLength || Math.round(minutesPerDay / blocksPerDay)));
-  const targetContest = user.targetContest || user.contestName || user.diagnosticPlan?.objectiveLabel || "PM";
+  const targetContest = user.targetContest || user.contestName || user.diagnosticPlan?.objectiveLabel || "Geral";
   const startHour = Number(String(user.preferredStart || "08:00").split(":")[0]) || 8;
 
   return days.flatMap((date, dayIndex) => Array.from({ length: blocksPerDay }, (_, blockIndex) => {
     const subject = subjects[(dayIndex * blocksPerDay + blockIndex) % subjects.length];
     const isLastBlock = blockIndex === blocksPerDay - 1;
-    const type = date.getDay() === 6 && isLastBlock ? "Simulado" : isLastBlock ? "Questoes" : blockIndex === 0 ? "Estudo" : "Revisao";
+    const type = date.getDay() === 6 && isLastBlock ? "Simulado" : isLastBlock ? "Questões" : blockIndex === 0 ? "Estudo" : "Revisão";
     const hour = `${String(Math.min(22, startHour + blockIndex * 2)).padStart(2, "0")}:00`;
     return {
       id: `smart-${isoDate(date)}-${blockIndex}-${slug(subject)}`,
@@ -78,9 +93,9 @@ function buildSmartWeek(user = {}, startDate = new Date()) {
 function normalizeActivity(row = {}) {
   return {
     id: row.id,
-    title: row.title || row.titulo || `${row.type || row.tipo || "Estudo"} - ${row.materia || "Geral"}`,
+    title: row.title || row.titulo || `${normalizeActivityType(row.type || row.tipo || "Estudo")} - ${row.materia || "Geral"}`,
     materia: row.materia || "Geral",
-    type: row.type || row.tipo || "Estudo",
+    type: normalizeActivityType(row.type || row.tipo || "Estudo"),
     date: row.date || row.data || isoDate(new Date()),
     hour: row.hour || row.hora || "08:00",
     duration: Number(row.duration || row.duracao || 60),

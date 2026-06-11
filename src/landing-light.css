@@ -573,7 +573,7 @@ main {
 
 .honest-differential-box {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 280px;
+  grid-template-columns: minmax(0, 1fr);
   gap: 2rem;
   align-items: center;
   border-radius: 1.25rem;

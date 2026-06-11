@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { BarChart3, BookOpenCheck, Filter, RotateCcw, Search, Target, Trophy } from "lucide-react";
-import { Button, Card, EmptyState, Input, Mascot, Select } from "../../components";
-import { useNotifications, useUser } from "../../contexts";
+import { Button, Card, EmptyState, Input, Select } from "../../components";
+import { useNotifications } from "../../contexts";
 import { useQuestoes } from "../../hooks";
 import { questoesService } from "../../services";
 import { useQuestoesStore } from "../../stores";
@@ -54,8 +54,7 @@ function StatCard({ icon: Icon, label, value, tone = "text-blue-300" }) {
 }
 
 export default function QuestoesPage() {
-  const { user } = useUser();
-  const initialArea = useMemo(() => questoesService.resolveAreaFromUser(user), [user]);
+  const initialArea = "geral";
   const [articleTrainingFilter] = useState(() => {
     try {
       const saved = sessionStorage.getItem("aprova-questoes-artigo-filter");
@@ -274,7 +273,7 @@ export default function QuestoesPage() {
           icon={Search}
           title="Nenhuma questão encontrada"
           description="Ajuste os filtros ou limpe a busca para voltar ao treino."
-          action={<div className="empty-mascot-action"><Mascot size="md" pose="feedback" framed={false} imageClassName="max-h-24" /><Button variant="secondary" onClick={() => resetTraining({ area: initialArea })}>Limpar filtros</Button></div>}
+          action={<Button variant="secondary" onClick={() => resetTraining({ area: initialArea })}>Limpar filtros</Button>}
         />
       )}
 

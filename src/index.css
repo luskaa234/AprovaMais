@@ -13950,3 +13950,296 @@ button {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+/* Mobile production fixes: readable flashcards and selectable dry-law text. */
+.flashcard-swipe-card.flashcard-flip-inner.is-flipped,
+.flashcard-flip-inner.is-flipped {
+  transform: rotateY(180deg) !important;
+}
+
+.flashcard-swipe-card.flashcard-flip-inner {
+  transition: transform 0.46s cubic-bezier(0.22, 1, 0.36, 1) !important;
+}
+
+.flashcard-swipe-card.flashcard-flip-inner .flashcard-flip-face {
+  align-content: start !important;
+  justify-items: stretch !important;
+  padding: clamp(1rem, 3vw, 1.5rem) !important;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+.flashcard-flip-front h2,
+.flashcard-flip-back p,
+.flashcard-flip-back .text-lg,
+.flashcard-flip-back .text-sm {
+  overflow-wrap: anywhere !important;
+  word-break: normal !important;
+  hyphens: auto;
+}
+
+@media (max-width: 767px) {
+  .flashcards-page {
+    padding-bottom: calc(6rem + env(safe-area-inset-bottom)) !important;
+  }
+
+  .flashcards-header {
+    margin-bottom: 0.85rem !important;
+  }
+
+  .flashcards-header h1 {
+    font-size: 2rem !important;
+    line-height: 1.05 !important;
+  }
+
+  .flashcards-study {
+    padding: 0.75rem !important;
+    border-radius: 1.1rem !important;
+  }
+
+  .flashcards-session {
+    min-height: 0 !important;
+    padding: 0.8rem !important;
+    border-radius: 1rem !important;
+  }
+
+  .flashcards-session > div {
+    max-width: 100% !important;
+  }
+
+  .flashcard-swipe-card.flashcard-flip-inner,
+  .flashcard-flip-inner {
+    height: min(52svh, 460px) !important;
+    min-height: 360px !important;
+    max-height: 520px !important;
+  }
+
+  .flashcard-swipe-card.flashcard-flip-inner .flashcard-flip-face {
+    place-items: start stretch !important;
+    overflow-y: auto !important;
+    padding: 1rem !important;
+  }
+
+  .flashcard-flip-front h2 {
+    font-size: clamp(1.05rem, 5.1vw, 1.45rem) !important;
+    line-height: 1.25 !important;
+  }
+
+  .flashcard-flip-back .grid {
+    gap: 0.75rem !important;
+  }
+
+  .flashcard-flip-back .rounded-lg {
+    padding: 0.85rem !important;
+  }
+
+  .flashcards-review-actions {
+    grid-template-columns: 1fr !important;
+  }
+
+  .flashcards-session > div > .mt-6 {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 0.65rem !important;
+  }
+
+  .flashcards-session > div > .mt-6 span {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    text-align: center;
+  }
+
+  .leis-study-page,
+  .leis-desktop-shell,
+  .leis-layer,
+  .leis-layer.is-current,
+  .leis-reader-layer,
+  .leis-article-reader {
+    animation: none !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .leis-reader-layer {
+    padding: 0.9rem !important;
+  }
+
+  .leis-reader-actions {
+    position: static !important;
+    grid-template-columns: 1fr 1fr !important;
+    padding: 0 !important;
+    background: transparent !important;
+  }
+
+  .leis-article-reader,
+  .leis-article-reader *,
+  .leis-article-reader p,
+  .leis-article-reader mark {
+    -webkit-touch-callout: default !important;
+    -webkit-user-select: text !important;
+    user-select: text !important;
+    touch-action: auto !important;
+  }
+
+  .leis-article-reader {
+    max-height: none !important;
+    overflow: visible !important;
+    padding: 1rem !important;
+    font-size: 1.05rem !important;
+    line-height: 1.72 !important;
+  }
+
+  .leis-selection-note {
+    position: static !important;
+  }
+}
+
+/* Desktop production upgrade for study modules. */
+@media (min-width: 1024px) {
+  .flashcards-page {
+    padding-top: 0.25rem;
+  }
+
+  .flashcards-header {
+    align-items: center !important;
+    padding: 1rem 1.15rem;
+    border: 1px solid #dbeafe;
+    border-radius: 1.25rem;
+    background: #ffffff;
+    box-shadow: 0 16px 38px rgba(37, 99, 235, 0.07);
+  }
+
+  .flashcards-header h1 {
+    font-size: clamp(2rem, 2.6vw, 2.65rem) !important;
+    letter-spacing: 0 !important;
+  }
+
+  .flashcards-header > div {
+    min-width: min(100%, 520px);
+  }
+
+  .flashcards-study {
+    max-width: 1180px !important;
+    padding: 1.25rem !important;
+    border-radius: 1.35rem !important;
+    background: linear-gradient(180deg, #ffffff, #f8fbff) !important;
+    box-shadow: 0 22px 54px rgba(37, 99, 235, 0.09) !important;
+  }
+
+  .flashcards-session {
+    min-height: 640px !important;
+    padding: 2rem !important;
+    border-radius: 1.2rem !important;
+  }
+
+  .flashcards-session > div {
+    max-width: 920px !important;
+  }
+
+  .flashcard-swipe-card.flashcard-flip-inner,
+  .flashcard-flip-inner {
+    height: clamp(500px, 58vh, 690px) !important;
+    min-height: 500px !important;
+  }
+
+  .flashcard-swipe-card.flashcard-flip-inner .flashcard-flip-face {
+    padding: 2rem !important;
+  }
+
+  .flashcard-flip-front h2 {
+    max-width: 780px;
+    margin-inline: auto;
+    font-size: clamp(1.55rem, 2vw, 2.35rem) !important;
+    line-height: 1.18 !important;
+  }
+
+  .flashcard-flip-back .grid {
+    gap: 1.1rem !important;
+  }
+
+  .flashcards-review-actions {
+    max-width: 760px;
+    margin-inline: auto;
+  }
+
+  .flashcards-session > div > .mt-6 {
+    max-width: 760px;
+    margin-inline: auto;
+  }
+
+  .leis-study-page {
+    padding-top: 0.25rem;
+  }
+
+  .leis-study-top {
+    position: sticky;
+    top: 0;
+    z-index: 8;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid var(--law-border);
+    border-radius: 1.25rem;
+    background: rgba(255, 255, 255, 0.94);
+    box-shadow: 0 16px 38px rgba(37, 99, 235, 0.07);
+    backdrop-filter: blur(18px);
+  }
+
+  .leis-desktop-shell {
+    grid-template-columns: minmax(230px, 0.72fr) minmax(250px, 0.82fr) minmax(280px, 0.9fr) minmax(540px, 1.75fr) !important;
+    gap: 1rem !important;
+  }
+
+  .leis-layer {
+    border-radius: 1.25rem !important;
+  }
+
+  .leis-laws-layer,
+  .leis-structure-layer,
+  .leis-articles-layer {
+    max-height: calc(100svh - 185px) !important;
+    padding: 1rem !important;
+  }
+
+  .leis-reader-layer {
+    position: sticky;
+    top: 6rem;
+    max-height: calc(100svh - 7rem);
+    overflow: auto;
+    padding: 1.25rem !important;
+  }
+
+  .leis-reader-actions {
+    top: 0 !important;
+    margin: 1rem 0 !important;
+  }
+
+  .leis-reader-actions .aprova-btn-secondary,
+  .leis-reader-actions .aprova-btn-primary {
+    min-height: 2.75rem;
+  }
+
+  .leis-article-reader {
+    padding: clamp(1.35rem, 2vw, 2rem) !important;
+    font-size: clamp(1.05rem, 1.08vw, 1.25rem) !important;
+    line-height: 1.82 !important;
+  }
+
+  .leis-study-actions,
+  .leis-reader-nav {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+
+  .leis-reader-nav {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  [data-theme="dark"] .flashcards-header,
+  [data-theme="dark"] .flashcards-study,
+  [data-theme="dark"] .leis-study-top {
+    border-color: var(--border-soft) !important;
+    background: var(--bg-card) !important;
+    box-shadow: 0 20px 48px rgba(2, 6, 23, 0.24) !important;
+  }
+}

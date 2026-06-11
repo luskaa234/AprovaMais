@@ -21,7 +21,7 @@ export const Modal = memo(({ open, title, children, footer, onClose, size = "md"
   return (
     <AnimatePresence>
       {open ? (
-        <motion.div className="native-modal-overlay fixed inset-0 z-50 grid place-items-center bg-black/70 p-4" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+        <motion.div className="native-modal-overlay fixed inset-0 z-[90] grid place-items-center bg-black/70 p-4" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
           <motion.div
             animate={isMobile ? { y: 0 } : { scale: 1 }}
             className={cx("native-bottom-sheet w-full rounded-lg border border-gray-800 bg-gray-950 p-5", sizes[size])}

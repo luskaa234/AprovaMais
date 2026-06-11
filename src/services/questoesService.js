@@ -60,7 +60,6 @@ function resolveAreaFromUser(user = {}) {
   const objective = normalize(user.objective || user.diagnosticPlan?.objective);
   const target = normalize(user.targetContest || user.contestName || user.diagnosticPlan?.objectiveLabel || user.customObjective);
   if (objective.includes("oab") || target.includes("oab")) return "oab";
-  if (["pm", "pmsp", "pmma", "policia militar", "militar", "bombeiro", "cbm"].some((term) => target.includes(normalize(term)))) return "militar";
   return "geral";
 }
 
@@ -183,7 +182,8 @@ async function getLocalMilitarQuestions() {
 }
 
 function hasActiveFilters(filters = {}) {
-  return Object.values(filters).some(Boolean);
+  const ignored = new Set(["area", "limit", "page", "pageSize", "aleatorio", "seed", "apenasOficiais"]);
+  return Object.entries(filters).some(([key, value]) => Boolean(value) && !ignored.has(key));
 }
 
 function isOabFilter(filters = {}) {
@@ -272,7 +272,7 @@ function orderForTraining(items = [], filters = {}) {
 
 function withoutFilter(filters = {}, ignoredKey = "") {
   return Object.fromEntries(Object.entries(filters).filter(([key, value]) =>
-    value && key !== ignoredKey && !["limit", "aleatorio", "apenasOficiais", "status", "search", "questoesIds"].includes(key)
+    value && key !== ignoredKey && !["limit", "page", "pageSize", "aleatorio", "seed", "apenasOficiais", "status", "search", "questoesIds"].includes(key)
   ));
 }
 
@@ -315,6 +315,7 @@ function rowMatches(q, filters = {}) {
   return Object.entries(filters).every(([key, value]) => {
     if (!value) return true;
     if (key === "questoesIds") return Array.isArray(value) ? value.includes(q.id) : true;
+    if (["limit", "page", "pageSize", "aleatorio", "seed", "apenasOficiais"].includes(key)) return true;
     if (key === "area") return matchesArea(q, value);
     if (key === "origin" || key === "origem") {
       if (value === "oficial") return q.official || normalize(q.origem).includes("oficial");
@@ -705,7 +706,8 @@ export const questoesService = {
     return questoes.filter((q) => Object.entries(filters).every(([key, value]) => {
       if (!value) return true;
       if (key === "area") return matchesArea(q, value);
-      if (key === "limit" || key === "aleatorio" || key === "apenasOficiais") return true;
+      if (key === "questoesIds") return Array.isArray(value) ? value.includes(q.id) : true;
+      if (["limit", "page", "pageSize", "aleatorio", "seed", "apenasOficiais"].includes(key)) return true;
       if (key === "origin" || key === "origem") {
         if (value === "oficial") return q.official || normalize(q.origem).includes("oficial");
         return normalize(q.origem).includes(normalize(value));

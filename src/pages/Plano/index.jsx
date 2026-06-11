@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { CalendarDays, CheckCircle2, ChevronLeft, ChevronRight, Clock, Edit3, ExternalLink, Filter, PauseCircle, PlayCircle, Plus, RotateCcw, Target, Trash2, TrendingUp } from "lucide-react";
-import { Badge, Button, Input, Mascot, Select, cx } from "../../components";
+import { Badge, Button, Input, Select, cx } from "../../components";
 import { useInternalRouter, useNotifications, useUser } from "../../contexts";
 import { Modal } from "../../modals";
 import { planoService } from "../../services";
@@ -10,7 +10,7 @@ const weekDays = ["DOM", "SEG", "TER", "QUA", "QUI", "SEX", "SAB"];
 const dayKeyByIndex = ["domingo", "segunda", "terca", "quarta", "quinta", "sexta", "sabado"];
 const typeOptions = ["Questões", "Revisão", "Leitura", "Flashcards", "TAF", "Simulado"];
 const statusOptions = ["Pendente", "Em andamento", "Concluida", "Reagendada"];
-const contestOptions = ["PRF", "PM", "PF", "TJ", "Geral"];
+const contestOptions = ["Geral", "PM", "CBM", "OAB", "PRF", "PF", "TJ"];
 const planDayOptions = [
   ["segunda", "Seg"],
   ["terca", "Ter"],
@@ -140,7 +140,7 @@ function buildActivities(plano = [], monthDate, extraActivities = []) {
         type,
         duration: task.minutos || block.duracao || 60,
         status: task.done ? "Concluida" : "Pendente",
-        concurso: "PRF",
+        concurso: block.concurso || task.concurso || "Geral",
       });
     });
   });
@@ -296,7 +296,7 @@ export default function PlanoPage() {
   const [modal, setModal] = useState(false);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [editingId, setEditingId] = useState("");
-  const [draft, setDraft] = useState({ title: "", materia: "", type: "Questões", date: isoDate(now), hour: "08:00", duration: 60, concurso: user?.targetContest || "PM", status: "Pendente" });
+  const [draft, setDraft] = useState({ title: "", materia: "", type: "Questões", date: isoDate(now), hour: "08:00", duration: 60, concurso: user?.targetContest || "Geral", status: "Pendente" });
 
   const baseActivities = useMemo(() => buildActivities([], month, planActivities), [month, planActivities]);
   const activities = useMemo(() => baseActivities.map((item) => {
@@ -419,6 +419,11 @@ export default function PlanoPage() {
     setMonth(new Date(current.getFullYear(), current.getMonth(), 1));
     setSelectedDate(isoDate(current));
   }, []);
+  const openNewActivity = useCallback(() => {
+    setEditingId("");
+    setDraft({ title: "", materia: "", type: "Questões", date: selectedDate, hour: "08:00", duration: 60, concurso: user?.targetContest || "Geral", status: "Pendente" });
+    setModal(true);
+  }, [selectedDate, setDraft, setEditingId, setModal, user?.targetContest]);
   const createActivity = async () => {
     const payload = {
       ...draft,
@@ -436,7 +441,7 @@ export default function PlanoPage() {
     }
     setModal(false);
     setEditingId("");
-    setDraft({ title: "", materia: "", type: "Questões", date: selectedDate, hour: "08:00", duration: 60, concurso: user?.targetContest || "PM", status: "Pendente" });
+    setDraft({ title: "", materia: "", type: "Questões", date: selectedDate, hour: "08:00", duration: 60, concurso: user?.targetContest || "Geral", status: "Pendente" });
   };
 
   const gerarPlanoInteligente = useCallback(async ({ replace = false } = {}) => {
@@ -478,7 +483,7 @@ export default function PlanoPage() {
       date: activity.date || selectedDate,
       hour: activity.hour || "08:00",
       duration: activity.duration || 60,
-      concurso: activity.concurso || user?.targetContest || "PM",
+      concurso: activity.concurso || user?.targetContest || "Geral",
       status: activity.status || "Pendente",
     });
     setModal(true);
@@ -516,15 +521,12 @@ export default function PlanoPage() {
           </div>
         </div>
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-          <div className="hidden items-center gap-2 rounded-lg bg-blue-50 px-3 py-2 text-sm font-bold text-blue-700 md:flex">
-            <Mascot size="sm" pose="motivacao" framed={false} />
-            {progress}% da semana
-          </div>
+          <div className="hidden items-center gap-2 rounded-lg bg-blue-50 px-3 py-2 text-sm font-bold text-blue-700 md:flex">{progress}% da semana</div>
           <div className="flex flex-wrap gap-2">
           <Button className="md:hidden" data-tour="tour-studies-filters" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{activeFilterCount ? ` · ${activeFilterCount}` : ""}</Button>
           <Button className="whitespace-nowrap" variant="secondary" onClick={goToday}>Hoje</Button>
           <Button className="whitespace-nowrap" variant="secondary" icon={RotateCcw} onClick={() => gerarPlanoInteligente({ replace: true })}>Gerar</Button>
-          <Button className="whitespace-nowrap" icon={Plus} onClick={() => { setEditingId(""); setDraft((current) => ({ ...current, date: selectedDate })); setModal(true); }}>Nova</Button>
+          <Button className="whitespace-nowrap" icon={Plus} onClick={openNewActivity}>Nova</Button>
           </div>
         </div>
       </div>
@@ -646,7 +648,7 @@ export default function PlanoPage() {
                     <span>{selectedDone} concluida{selectedDone === 1 ? "" : "s"}</span>
                   </div>
                 </div>
-                <Button size="sm" variant="secondary" icon={Plus} onClick={() => setModal(true)}>Adicionar atividade</Button>
+                <Button size="sm" variant="secondary" icon={Plus} onClick={openNewActivity}>Adicionar atividade</Button>
               </div>
               <div className="mt-4 grid gap-2 sm:grid-cols-[1fr_auto] sm:items-center">
                 <div className="h-2 overflow-hidden rounded-full bg-white ring-1 ring-blue-100">
@@ -670,7 +672,6 @@ export default function PlanoPage() {
               </div>
             ) : (
               <div className="grid place-items-center gap-2 p-8 text-center text-sm text-slate-500">
-                <Mascot size="lg" pose="feedback" framed={false} />
                 Nenhuma atividade para este dia com os filtros atuais.
               </div>
             )}
