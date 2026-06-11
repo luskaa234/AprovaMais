@@ -14867,3 +14867,164 @@ button {
 :root[data-theme="dark"] .auth-checkout-panel strong {
   color: #f8fafc;
 }
+
+/* Final topbar responsive pass: compact, single-row desktop/tablet, app-like mobile. */
+.internal-app-light .internal-topbar {
+  isolation: isolate;
+  min-height: 0 !important;
+  padding: 0.62rem clamp(0.85rem, 1.45vw, 1.35rem) !important;
+}
+
+.internal-app-light .internal-topbar-row {
+  display: grid !important;
+  grid-template-columns: minmax(10.5rem, 15rem) minmax(18rem, 1fr) auto;
+  align-items: center !important;
+  gap: clamp(0.6rem, 1vw, 0.95rem) !important;
+}
+
+.internal-app-light .internal-topbar-heading {
+  min-width: 0;
+}
+
+.internal-app-light .internal-topbar-eyebrow {
+  margin: 0;
+  font-size: 0.72rem !important;
+}
+
+.internal-app-light .internal-topbar-title {
+  margin: 0.04rem 0 0;
+  font-size: clamp(1rem, 1.05vw, 1.16rem) !important;
+}
+
+.internal-app-light .topbar-search-wrap {
+  width: 100%;
+  max-width: none !important;
+}
+
+.internal-app-light .topbar-search-input {
+  display: block;
+}
+
+.internal-app-light .topbar-search-input > span,
+.internal-app-light .topbar-mobile-search .topbar-search-input > span {
+  display: block;
+}
+
+.internal-app-light .topbar-search-input .aprova-input,
+.internal-app-light .topbar-mobile-search .aprova-input {
+  min-height: 2.48rem !important;
+  border-radius: 0.82rem !important;
+  font-size: 0.9rem !important;
+}
+
+.internal-app-light .topbar-search-shortcut {
+  font-size: 0.72rem !important;
+}
+
+.internal-app-light .topbar-actions {
+  min-width: 0;
+  justify-content: flex-end;
+}
+
+.internal-app-light .topbar-actions .hidden.lg\:inline-flex {
+  min-height: 2.42rem;
+  padding-inline: 0.75rem;
+  font-size: 0.8rem;
+}
+
+.internal-app-light .topbar-icon-button {
+  width: 2.34rem !important;
+  height: 2.34rem !important;
+}
+
+.internal-app-light .topbar-profile-button {
+  max-width: 12.5rem;
+  min-height: 2.45rem !important;
+}
+
+.internal-app-light .topbar-profile-button .relative.grid,
+.internal-app-light .topbar-profile-button > span:first-child {
+  width: 2.15rem;
+  height: 2.15rem;
+  min-width: 2.15rem;
+}
+
+.internal-app-light .topbar-profile-button strong,
+.internal-app-light .topbar-profile-button small {
+  max-width: 8.8rem !important;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .internal-app-light .internal-topbar-row {
+    grid-template-columns: minmax(9rem, 13rem) minmax(12rem, 1fr) auto;
+  }
+
+  .internal-app-light .mobile-top-profile {
+    display: flex !important;
+    max-width: 13rem !important;
+  }
+
+  .internal-app-light .mobile-top-profile strong {
+    max-width: 8.5rem;
+    color: #0f172a;
+  }
+
+  [data-theme="dark"] .internal-app-light .mobile-top-profile strong {
+    color: #f8fafc;
+  }
+
+  .internal-app-light .topbar-search-input .aprova-input {
+    min-height: 2.38rem !important;
+  }
+
+  .internal-app-light .topbar-profile-button {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .internal-app-light .internal-topbar {
+    padding: calc(0.48rem + env(safe-area-inset-top)) 0.75rem 0.5rem !important;
+  }
+
+  .internal-app-light .internal-topbar-row {
+    display: flex !important;
+    gap: 0.35rem !important;
+  }
+
+  .internal-app-light .mobile-top-profile {
+    flex: 1 1 auto !important;
+    min-width: 0;
+  }
+
+  .internal-app-light .mobile-top-profile strong {
+    max-width: clamp(5.8rem, 30vw, 9rem) !important;
+    color: #0f172a;
+  }
+
+  [data-theme="dark"] .internal-app-light .mobile-top-profile strong {
+    color: #f8fafc;
+  }
+
+  .internal-app-light .mobile-top-profile small {
+    max-width: clamp(5.8rem, 30vw, 9rem) !important;
+  }
+
+  .internal-app-light .topbar-actions {
+    gap: 0.18rem !important;
+  }
+
+  .internal-app-light .topbar-icon-button {
+    width: 2.12rem !important;
+    height: 2.12rem !important;
+    border-radius: 0.72rem !important;
+  }
+
+  .internal-app-light .topbar-mobile-search {
+    margin-top: 0.42rem !important;
+  }
+
+  .internal-app-light .topbar-mobile-search .aprova-input {
+    min-height: 2.42rem !important;
+  }
+}
