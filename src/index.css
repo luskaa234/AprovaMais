@@ -15941,3 +15941,42 @@ button {
     margin-inline: auto;
   }
 }
+
+/* Flashcards: readable state swap. Avoid mirrored text from legacy 3D flip rules. */
+.flashcard-flip-stage {
+  perspective: none !important;
+}
+
+.flashcard-standard-card.flashcard-flip-inner,
+.flashcard-swipe-card.flashcard-flip-inner,
+.flashcard-flip-inner {
+  display: flex !important;
+  transform: none !important;
+  transform-style: flat !important;
+  will-change: auto !important;
+}
+
+.flashcard-standard-card .flashcard-flip-face,
+.flashcard-swipe-card.flashcard-flip-inner .flashcard-flip-face {
+  position: relative !important;
+  inset: auto !important;
+  width: 100% !important;
+  height: 100% !important;
+  transform: none !important;
+  backface-visibility: visible !important;
+  -webkit-backface-visibility: visible !important;
+}
+
+.flashcard-standard-card:not(.is-flipped) .flashcard-flip-front,
+.flashcard-standard-card.is-flipped .flashcard-flip-back {
+  display: flex !important;
+}
+
+.flashcard-standard-card:not(.is-flipped) .flashcard-flip-back,
+.flashcard-standard-card.is-flipped .flashcard-flip-front {
+  display: none !important;
+}
+
+.flashcard-standard-card .flashcard-face-content-back {
+  width: 100%;
+}
