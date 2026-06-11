@@ -13723,3 +13723,230 @@ button {
     white-space: nowrap;
   }
 }
+
+/* Production polish for study plan, flashcards, mind maps and dry-law reader. */
+.plano-personalizacao label > span,
+.plano-desktop-filters label > span {
+  color: #334155 !important;
+}
+
+.plano-personalizacao .aprova-input,
+.plano-desktop-filters .aprova-input {
+  border-color: #dbeafe !important;
+  background: #ffffff !important;
+  color: #0f172a !important;
+}
+
+.flashcards-study {
+  overflow: visible !important;
+}
+
+.flashcards-session {
+  min-height: auto !important;
+  align-items: stretch !important;
+}
+
+.flashcard-flip-stage {
+  width: 100%;
+}
+
+.flashcard-swipe-card.flashcard-flip-inner,
+.flashcard-flip-inner {
+  position: relative !important;
+  height: clamp(520px, 68svh, 760px) !important;
+  min-height: 520px !important;
+  overflow: visible !important;
+}
+
+.flashcard-flip-face {
+  align-content: start !important;
+  justify-items: stretch !important;
+  place-items: start stretch !important;
+  overscroll-behavior: contain;
+}
+
+.flashcard-flip-face > div {
+  width: 100%;
+}
+
+.flashcard-flip-front h2,
+.flashcard-flip-back p,
+.flashcard-flip-back .text-sm {
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+.flashcard-flip-back {
+  overflow-y: auto !important;
+}
+
+.mindmaps-page {
+  color: #0f172a;
+}
+
+.mindmaps-header,
+.mindmaps-filters,
+.mindmaps-list,
+.mindmaps-side > section,
+.mindmap-viewer.aprova-card-default {
+  border-color: #dbeafe !important;
+  background: #ffffff !important;
+  color: #0f172a !important;
+  box-shadow: 0 16px 36px rgba(37, 99, 235, 0.08) !important;
+}
+
+.mindmaps-header h1,
+.mindmaps-header h2,
+.mindmaps-side h2,
+.mindmap-viewer h2,
+.mindmaps-page strong {
+  color: #0f172a !important;
+}
+
+.mindmaps-page p,
+.mindmaps-page span,
+.mindmaps-page small {
+  color: #64748b !important;
+}
+
+.mindmaps-filters label > span {
+  color: #334155 !important;
+}
+
+.mindmaps-list > div:first-child {
+  border-color: #dbeafe !important;
+}
+
+.mindmaps-list button {
+  border-color: #dbeafe !important;
+  background: #f8fbff !important;
+  color: #334155 !important;
+}
+
+.mindmaps-list button:hover,
+.mindmaps-list button.border-blue-500,
+.mindmaps-list button.bg-blue-600 {
+  border-color: #2563eb !important;
+  background: #2563eb !important;
+  color: #ffffff !important;
+}
+
+.mindmaps-list button:hover *,
+.mindmaps-list button.border-blue-500 *,
+.mindmaps-list button.bg-blue-600 * {
+  color: #ffffff !important;
+}
+
+.mindmap-canvas {
+  background:
+    radial-gradient(circle at 50% 45%, rgba(37, 99, 235, 0.1), transparent 22rem),
+    linear-gradient(180deg, #f8fbff, #ffffff) !important;
+}
+
+.mindmap-canvas foreignObject div,
+.mindmap-canvas foreignObject button {
+  border-color: #bfdbfe !important;
+  background: #ffffff !important;
+  color: #0f172a !important;
+  box-shadow: 0 10px 22px rgba(37, 99, 235, 0.1);
+}
+
+.mindmap-canvas foreignObject[x="390"] div {
+  background: #2563eb !important;
+  color: #ffffff !important;
+}
+
+.leis-reader-layer,
+.leis-article-reader,
+.leis-article-reader * {
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+.leis-reader-actions {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  padding: 10px 0;
+  background: linear-gradient(180deg, #ffffff 70%, rgba(255, 255, 255, 0));
+}
+
+.leis-selection-note {
+  position: sticky;
+  top: 58px;
+  z-index: 2;
+}
+
+.leis-article-reader mark {
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+[data-theme="dark"] .plano-personalizacao,
+[data-theme="dark"] .mindmaps-header,
+[data-theme="dark"] .mindmaps-filters,
+[data-theme="dark"] .mindmaps-list,
+[data-theme="dark"] .mindmaps-side > section,
+[data-theme="dark"] .mindmap-viewer.aprova-card-default {
+  border-color: var(--border-soft) !important;
+  background: var(--bg-card) !important;
+  color: var(--text-1) !important;
+}
+
+[data-theme="dark"] .mindmap-canvas {
+  background: linear-gradient(180deg, #172033, #202b3d) !important;
+}
+
+[data-theme="dark"] .mindmap-canvas foreignObject div,
+[data-theme="dark"] .mindmap-canvas foreignObject button {
+  border-color: rgba(96, 165, 250, 0.28) !important;
+  background: #202b3d !important;
+  color: #f8fafc !important;
+}
+
+[data-theme="dark"] .leis-reader-actions {
+  background: linear-gradient(180deg, #172033 70%, rgba(23, 32, 51, 0));
+}
+
+@media (max-width: 767px) {
+  .plano-personalizacao {
+    padding: 1rem !important;
+    border-radius: 1.1rem !important;
+  }
+
+  .plano-personalizacao .grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .flashcard-swipe-card.flashcard-flip-inner,
+  .flashcard-flip-inner {
+    height: min(70svh, 640px) !important;
+    min-height: 470px !important;
+  }
+
+  .flashcard-flip-face {
+    padding: 1rem !important;
+  }
+
+  .mindmaps-layout {
+    grid-template-columns: 1fr !important;
+  }
+
+  .mindmaps-list > div:last-child {
+    max-height: 260px !important;
+  }
+
+  .mindmap-canvas {
+    height: 520px !important;
+  }
+
+  .mindmaps-side {
+    display: grid;
+    gap: 0.85rem;
+  }
+
+  .leis-reader-actions {
+    top: -1px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

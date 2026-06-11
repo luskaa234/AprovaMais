@@ -24,13 +24,15 @@ function slug(value = "") {
 
 function subjectsForUser(user = {}) {
   const target = normalize(`${user.targetContest || ""} ${user.objective || ""} ${user.contestName || ""} ${user.diagnosticPlan?.objective || ""}`);
+  const focus = user.focusSubject ? [user.focusSubject] : [];
   if (target.includes("oab")) {
-    return ["Etica Profissional", "Constitucional", "Civil", "Processo Civil", "Penal", "Trabalho"];
+    return [...focus, "Etica Profissional", "Constitucional", "Civil", "Processo Civil", "Penal", "Trabalho"].filter(Boolean);
   }
   if (target.includes("pm") || target.includes("policia") || target.includes("militar")) {
-    return ["Portugues", "Matematica/RL", "Constitucional", "Penal", "Processual Penal", "Legislacao Especial", "Informatica", "TAF"];
+    const taf = user.includeTaf === false ? [] : ["TAF"];
+    return [...focus, "Portugues", "Matematica/RL", "Constitucional", "Penal", "Processual Penal", "Legislacao Especial", "Informatica", ...taf].filter(Boolean);
   }
-  return ["Portugues", "Constitucional", "Administrativo", "Informatica", "Raciocinio Logico", "Atualidades"];
+  return [...focus, "Portugues", "Constitucional", "Administrativo", "Informatica", "Raciocinio Logico", "Atualidades"].filter(Boolean);
 }
 
 function availableDaysForUser(user = {}) {
@@ -49,14 +51,15 @@ function buildSmartWeek(user = {}, startDate = new Date()) {
   const days = studyDays.length ? studyDays : Array.from({ length: 6 }, (_, index) => addDays(start, index + 1));
   const minutesPerDay = Math.max(45, Math.round((weeklyHours * 60) / days.length));
   const blocksPerDay = minutesPerDay >= 180 ? 3 : minutesPerDay >= 100 ? 2 : 1;
-  const blockMinutes = Math.max(35, Math.round(minutesPerDay / blocksPerDay));
+  const blockMinutes = Math.max(35, Number(user.sessionLength || Math.round(minutesPerDay / blocksPerDay)));
   const targetContest = user.targetContest || user.contestName || user.diagnosticPlan?.objectiveLabel || "PM";
+  const startHour = Number(String(user.preferredStart || "08:00").split(":")[0]) || 8;
 
   return days.flatMap((date, dayIndex) => Array.from({ length: blocksPerDay }, (_, blockIndex) => {
     const subject = subjects[(dayIndex * blocksPerDay + blockIndex) % subjects.length];
     const isLastBlock = blockIndex === blocksPerDay - 1;
     const type = date.getDay() === 6 && isLastBlock ? "Simulado" : isLastBlock ? "Questoes" : blockIndex === 0 ? "Estudo" : "Revisao";
-    const hour = `${String(8 + blockIndex * 2).padStart(2, "0")}:00`;
+    const hour = `${String(Math.min(22, startHour + blockIndex * 2)).padStart(2, "0")}:00`;
     return {
       id: `smart-${isoDate(date)}-${blockIndex}-${slug(subject)}`,
       date: isoDate(date),

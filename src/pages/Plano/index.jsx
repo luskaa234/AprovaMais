@@ -11,6 +11,37 @@ const dayKeyByIndex = ["domingo", "segunda", "terca", "quarta", "quinta", "sexta
 const typeOptions = ["Questões", "Revisão", "Leitura", "Flashcards", "TAF", "Simulado"];
 const statusOptions = ["Pendente", "Em andamento", "Concluida", "Reagendada"];
 const contestOptions = ["PRF", "PM", "PF", "TJ", "Geral"];
+const planDayOptions = [
+  ["segunda", "Seg"],
+  ["terca", "Ter"],
+  ["quarta", "Qua"],
+  ["quinta", "Qui"],
+  ["sexta", "Sex"],
+  ["sabado", "Sab"],
+  ["domingo", "Dom"],
+];
+
+function defaultPlanPrefs(user = {}) {
+  return {
+    weeklyHours: Number(user.horasSemanais || user.diagnosticPlan?.weeklyHours || 18),
+    dailyStart: user.preferredStart || "08:00",
+    sessionLength: 60,
+    focusSubject: "",
+    examDate: user.dataProva || user.examDate || "",
+    includeTaf: true,
+    availableDays: ["segunda", "terca", "quarta", "quinta", "sexta", "sabado"],
+  };
+}
+
+function readPlanPrefs(user = {}) {
+  const fallback = defaultPlanPrefs(user);
+  try {
+    const stored = JSON.parse(localStorage.getItem("aprova-plano-preferencias") || "null");
+    return stored ? { ...fallback, ...stored } : fallback;
+  } catch {
+    return fallback;
+  }
+}
 
 function isoDate(date) {
   return date.toISOString().slice(0, 10);
@@ -252,6 +283,7 @@ export default function PlanoPage() {
   const { navigate } = useInternalRouter();
   const { addNotification } = useNotifications();
   const now = new Date();
+  const [planPrefs, setPlanPrefs] = useState(() => readPlanPrefs(user));
   const [view, setView] = useState(() => (typeof window !== "undefined" && window.innerWidth < 768 ? "Agenda" : "Mês"));
   const [month, setMonth] = useState(new Date(now.getFullYear(), now.getMonth(), 1));
   const [selectedDate, setSelectedDate] = useState(isoDate(now));
@@ -300,7 +332,7 @@ export default function PlanoPage() {
   }, [filteredActivities, selectedActivities, view, weekActivities]);
 
   const completed = activities.filter((item) => item.status === "Concluida");
-  const weeklyGoal = 30 * 60;
+  const weeklyGoal = Math.max(1, Number(planPrefs.weeklyHours || 18)) * 60;
   const studiedMinutes = completed.reduce((sum, item) => sum + item.duration, 0);
   const weeklyMinutes = weekActivities.reduce((sum, item) => sum + item.duration, 0);
   const progress = weeklyMinutes ? Math.round((weekActivities.filter((item) => item.status === "Concluida").reduce((sum, item) => sum + item.duration, 0) / weeklyMinutes) * 100) : 0;
@@ -308,6 +340,17 @@ export default function PlanoPage() {
   const focus = [...new Set(weekActivities.map((item) => item.materia))].slice(0, 4);
   const distribution = typeOptions.map((type) => ({ type, value: weekActivities.filter((item) => item.type === type).length }));
   const activeFilterCount = Object.values(filters).filter(Boolean).length;
+  const updatePlanPref = useCallback((key, value) => {
+    setPlanPrefs((current) => ({ ...current, [key]: value }));
+  }, []);
+  const togglePlanDay = useCallback((day) => {
+    setPlanPrefs((current) => {
+      const days = new Set(current.availableDays || []);
+      if (days.has(day)) days.delete(day);
+      else days.add(day);
+      return { ...current, availableDays: [...days] };
+    });
+  }, []);
   const filtersContent = (
     <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-5">
       <Select label="Materia" placeholder="Todas" options={materias} value={filters.materia} onChange={(event) => setFilters((current) => ({ ...current, materia: event.target.value }))} />
@@ -334,6 +377,10 @@ export default function PlanoPage() {
   useEffect(() => {
     localStorage.setItem("aprova-plano-timers", JSON.stringify(timers));
   }, [timers]);
+
+  useEffect(() => {
+    localStorage.setItem("aprova-plano-preferencias", JSON.stringify(planPrefs));
+  }, [planPrefs]);
 
   useEffect(() => {
     if (!Object.values(timers).some((timer) => timer?.startedAt)) return undefined;
@@ -393,7 +440,17 @@ export default function PlanoPage() {
   };
 
   const gerarPlanoInteligente = useCallback(async ({ replace = false } = {}) => {
-    const generated = await planoService.gerarSemanaInteligente({ user, startDate: new Date(selectedDate) });
+    const personalizedUser = {
+      ...user,
+      horasSemanais: Number(planPrefs.weeklyHours || user?.horasSemanais || 18),
+      availableDays: planPrefs.availableDays?.length ? planPrefs.availableDays : undefined,
+      preferredStart: planPrefs.dailyStart,
+      sessionLength: Number(planPrefs.sessionLength || 60),
+      dataProva: planPrefs.examDate || user?.dataProva,
+      focusSubject: planPrefs.focusSubject,
+      includeTaf: planPrefs.includeTaf,
+    };
+    const generated = await planoService.gerarSemanaInteligente({ user: personalizedUser, startDate: new Date(selectedDate) });
     const saved = await planoService.criarAtividadesEmLote(generated);
     setPlanActivities((current) => {
       const kept = replace ? current.filter((item) => !item.generated) : current;
@@ -402,7 +459,7 @@ export default function PlanoPage() {
     });
     setSmartPlanGenerated(true);
     addNotification({ type: "success", title: "Plano gerado", message: `${saved.length} atividades foram criadas no seu calendário.` });
-  }, [addNotification, selectedDate, user]);
+  }, [addNotification, planPrefs, selectedDate, user]);
 
   useEffect(() => {
     if (!activitiesLoaded || smartPlanGenerated || planActivities.some((item) => item.generated)) return;
@@ -471,6 +528,46 @@ export default function PlanoPage() {
           </div>
         </div>
       </div>
+
+      <section className="plano-personalizacao mb-4 rounded-lg border border-blue-100 bg-white p-4 shadow-sm" data-tour="tour-studies-personalization">
+        <div className="mb-4 flex flex-wrap items-start justify-between gap-3">
+          <div>
+            <span className="text-xs font-black uppercase tracking-wide text-blue-600">Personalizacao ativa</span>
+            <h2 className="mt-1 text-lg font-black text-slate-950">Seu calendario se adapta a sua rotina</h2>
+            <p className="mt-1 text-sm text-slate-500">Altere os dados abaixo e toque em Gerar para recriar a semana com essas preferencias.</p>
+          </div>
+          <Badge variant="success">Salvo automaticamente</Badge>
+        </div>
+        <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-5">
+          <Input label="Horas por semana" type="number" min="1" value={planPrefs.weeklyHours} onChange={(event) => updatePlanPref("weeklyHours", event.target.value)} />
+          <Input label="Comecar as" type="time" value={planPrefs.dailyStart} onChange={(event) => updatePlanPref("dailyStart", event.target.value)} />
+          <Select label="Bloco de estudo" options={[45, 60, 75, 90, 120].map((value) => ({ value, label: `${value} min` }))} value={planPrefs.sessionLength} onChange={(event) => updatePlanPref("sessionLength", Number(event.target.value))} />
+          <Input label="Materia foco" placeholder="Ex: Constitucional" value={planPrefs.focusSubject} onChange={(event) => updatePlanPref("focusSubject", event.target.value)} />
+          <Input label="Data da prova" type="date" value={planPrefs.examDate} onChange={(event) => updatePlanPref("examDate", event.target.value)} />
+        </div>
+        <div className="mt-4 flex flex-wrap items-center gap-2">
+          {planDayOptions.map(([day, label]) => {
+            const active = planPrefs.availableDays?.includes(day);
+            return (
+              <button
+                key={day}
+                className={cx("min-h-9 rounded-lg border px-3 text-xs font-black transition", active ? "border-blue-600 bg-blue-600 text-white" : "border-blue-100 bg-white text-slate-600 hover:border-blue-300")}
+                onClick={() => togglePlanDay(day)}
+                type="button"
+              >
+                {label}
+              </button>
+            );
+          })}
+          <button
+            className={cx("min-h-9 rounded-lg border px-3 text-xs font-black transition", planPrefs.includeTaf ? "border-emerald-500 bg-emerald-50 text-emerald-700" : "border-slate-200 bg-white text-slate-500")}
+            onClick={() => updatePlanPref("includeTaf", !planPrefs.includeTaf)}
+            type="button"
+          >
+            {planPrefs.includeTaf ? "TAF incluido" : "Sem TAF"}
+          </button>
+        </div>
+      </section>
 
       <div className="plano-desktop-filters mb-4 hidden gap-3 rounded-lg border border-blue-100 bg-white p-4 shadow-sm md:grid" data-tour="tour-studies-filters">
         {filtersContent}

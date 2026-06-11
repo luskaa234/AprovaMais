@@ -61,6 +61,15 @@ function escapeRegExp(value = "") {
   return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
+function flexibleTextPattern(value = "") {
+  return String(value)
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean)
+    .map(escapeRegExp)
+    .join("\\s+");
+}
+
 function getArticleNumber(value = "") {
   const match = String(value).match(/Art\.?\s*(\d+)/i) || String(value).match(/^(\d+)/);
   return match ? Number(match[1]) : null;
@@ -167,7 +176,7 @@ function applyMarks(text, marks = [], query = "") {
     .sort((a, b) => String(b.trecho).length - String(a.trecho).length)
     .forEach((mark) => {
       const color = highlightColors[mark.cor] || highlightColors.yellow;
-      const pattern = new RegExp(escapeRegExp(escapeHtml(mark.trecho)), "g");
+      const pattern = new RegExp(flexibleTextPattern(escapeHtml(mark.trecho)), "g");
       html = html.replace(pattern, `<mark style="background:${color}">$&</mark>`);
     });
   if (query) {
@@ -310,19 +319,26 @@ export default function LeisSecasPage() {
     if (next) openArticle(next.id);
   }, [openArticle, selectedIndex, selectedLaw]);
 
+  const readCurrentSelection = useCallback(() => {
+    const selection = window.getSelection?.();
+    const text = selection?.toString().replace(/\s+/g, " ").trim() || "";
+    return text.slice(0, 600);
+  }, []);
+
   const handleSelection = useCallback(() => {
-    const text = window.getSelection?.().toString().trim();
-    if (text && selectedArticle?.texto.includes(text)) setSelectedText(text.slice(0, 600));
-  }, [selectedArticle]);
+    const text = readCurrentSelection();
+    if (text) setSelectedText(text);
+  }, [readCurrentSelection]);
 
   const saveHighlight = useCallback(async (cor) => {
     if (!selectedArticle) return;
-    const trecho = selectedText || selectedArticle.texto.slice(0, 180);
+    const trecho = readCurrentSelection() || selectedText || selectedArticle.texto.slice(0, 180);
     grifarArtigo(selectedArticle.id, cor, trecho);
     await leisService.grifarArtigo({ leiId: selectedArticle.leiId, artigoId: selectedArticle.id, trecho, cor }).catch(() => {});
+    window.getSelection?.().removeAllRanges?.();
     setSelectedText("");
     notify("Grifo salvo", "O trecho ficou salvo neste artigo.");
-  }, [grifarArtigo, notify, selectedArticle, selectedText]);
+  }, [grifarArtigo, notify, readCurrentSelection, selectedArticle, selectedText]);
 
   const saveNote = useCallback((value) => {
     if (!selectedArticle) return;
