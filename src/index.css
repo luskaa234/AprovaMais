@@ -14756,3 +14756,114 @@ button {
     right: -4.8rem !important;
   }
 }
+
+/* Auth payments and Google login. */
+.auth-google-button {
+  display: inline-flex;
+  width: 100%;
+  min-height: 2.85rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  border: 1px solid rgba(148, 163, 184, 0.32);
+  border-radius: 0.9rem;
+  background: #ffffff;
+  color: #0f172a;
+  font-weight: 900;
+  transition: border-color 160ms ease, background-color 160ms ease, transform 160ms ease;
+}
+
+.auth-google-button:hover {
+  border-color: rgba(37, 99, 235, 0.34);
+  background: #f8fbff;
+}
+
+.auth-google-button:active {
+  transform: scale(0.98);
+}
+
+.auth-google-button span {
+  display: grid;
+  width: 1.45rem;
+  height: 1.45rem;
+  place-items: center;
+  border-radius: 999px;
+  background: conic-gradient(from -45deg, #4285f4, #34a853, #fbbc05, #ea4335, #4285f4);
+  color: #ffffff;
+  font-size: 0.86rem;
+  font-weight: 950;
+}
+
+.auth-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #64748b;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: rgba(148, 163, 184, 0.26);
+}
+
+.auth-checkout-panel {
+  display: grid;
+  gap: 0.75rem;
+  border: 1px solid rgba(191, 219, 254, 0.88);
+  border-radius: 1rem;
+  background: linear-gradient(180deg, #ffffff, #f8fbff);
+  padding: 0.9rem;
+}
+
+.auth-checkout-panel span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: #2563eb;
+  font-size: 0.72rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+
+.auth-checkout-panel strong {
+  display: block;
+  margin-top: 0.2rem;
+  color: #0f172a;
+  font-size: 0.94rem;
+}
+
+.auth-checkout-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.auth-checkout-actions button {
+  min-height: 2.35rem;
+  border: 1px solid rgba(37, 99, 235, 0.24);
+  border-radius: 0.75rem;
+  color: #2563eb;
+  font-size: 0.85rem;
+  font-weight: 950;
+}
+
+.auth-checkout-actions button:last-child {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+:root[data-theme="dark"] .auth-google-button,
+:root[data-theme="dark"] .auth-checkout-panel {
+  border-color: rgba(71, 85, 105, 0.64);
+  background: #202b3d;
+  color: #f8fafc;
+}
+
+:root[data-theme="dark"] .auth-checkout-panel strong {
+  color: #f8fafc;
+}

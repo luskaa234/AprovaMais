@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import { z } from "zod";
 import { useUser } from "../../contexts";
+import AuthCheckoutPanel from "./AuthCheckoutPanel";
 import { Button } from "../ui/button";
 import { Checkbox } from "../ui/checkbox";
 import { Input } from "../ui/input";
@@ -26,7 +27,7 @@ const registerSchema = z
 
 function RegisterForm() {
   const navigate = useNavigate();
-  const { register: createAccount } = useUser();
+  const { loginWithGoogle, register: createAccount } = useUser();
   const {
     register,
     control,
@@ -54,8 +55,23 @@ function RegisterForm() {
     }
   };
 
+  const handleGoogleLogin = async () => {
+    try {
+      await loginWithGoogle();
+    } catch (error) {
+      toast.error(error.message || "Nao foi possivel continuar com Google.");
+    }
+  };
+
   return (
     <form className="auth-saas-form" onSubmit={handleSubmit(onSubmit)}>
+      <button className="auth-google-button" type="button" onClick={handleGoogleLogin}>
+        <span>G</span>
+        Continuar com Google
+      </button>
+
+      <div className="auth-divider"><span>ou crie com e-mail</span></div>
+
       <div className="auth-field-group">
         <Label htmlFor="name">Nome completo</Label>
         <div className="auth-input-wrap">
@@ -112,6 +128,8 @@ function RegisterForm() {
       </Button>
 
       <Separator />
+
+      <AuthCheckoutPanel />
 
       <p className="auth-switch-text">
         Já tem uma conta? <Link to="/login">Entrar</Link>

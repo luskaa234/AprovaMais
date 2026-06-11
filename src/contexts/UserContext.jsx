@@ -110,6 +110,26 @@ export function UserProvider({ children }) {
     return true;
   }, [updateUser]);
 
+  const loginWithGoogle = useCallback(async () => {
+    if (!isSupabaseConfigured) {
+      throw new Error("Supabase nao configurado para login com Google.");
+    }
+
+    const redirectTo = `${window.location.origin}/auth/callback`;
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: "google",
+      options: {
+        redirectTo,
+        queryParams: {
+          access_type: "offline",
+          prompt: "consent",
+        },
+      },
+    });
+    if (error) throw error;
+    return true;
+  }, []);
+
   const logout = useCallback(async () => {
     if (isSupabaseConfigured) await supabase.auth.signOut();
     window.localStorage.removeItem("aprovamais-session");
@@ -238,7 +258,7 @@ export function UserProvider({ children }) {
   const isAuthenticated = isSupabaseConfigured
     ? Boolean(authUser || localSession?.registrationPending)
     : Boolean(localSession && !localUser?.loggedOut);
-  const value = useMemo(() => ({ user: appUser, isAdmin: appUser?.role === "admin", isAuthenticated, isLoading, login, register, logout, updateProfile }), [appUser, isAuthenticated, isLoading, login, logout, register, updateProfile]);
+  const value = useMemo(() => ({ user: appUser, isAdmin: appUser?.role === "admin", isAuthenticated, isLoading, login, loginWithGoogle, register, logout, updateProfile }), [appUser, isAuthenticated, isLoading, login, loginWithGoogle, logout, register, updateProfile]);
   return <UserContext.Provider value={value}>{children}</UserContext.Provider>;
 }
 

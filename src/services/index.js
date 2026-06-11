@@ -11,4 +11,5 @@ export { adminService } from "./adminService";
 export { aiService } from "./aiService";
 export { tafService } from "./tafService";
 export { leisService } from "./leisService";
+export { paymentService, startCheckout, paymentPlans } from "./paymentService";
 export { rankingService, mapasService, notificacoesService } from "./miscService";

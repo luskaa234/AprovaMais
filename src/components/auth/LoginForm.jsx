@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import { z } from "zod";
 import { useUser } from "../../contexts";
+import AuthCheckoutPanel from "./AuthCheckoutPanel";
 import { Button } from "../ui/button";
 import { Checkbox } from "../ui/checkbox";
 import { Input } from "../ui/input";
@@ -19,7 +20,7 @@ const loginSchema = z.object({
 
 function LoginForm() {
   const navigate = useNavigate();
-  const { login } = useUser();
+  const { login, loginWithGoogle } = useUser();
   const {
     register,
     control,
@@ -52,8 +53,23 @@ function LoginForm() {
     }
   };
 
+  const handleGoogleLogin = async () => {
+    try {
+      await loginWithGoogle();
+    } catch (error) {
+      toast.error(error.message || "Nao foi possivel entrar com Google.");
+    }
+  };
+
   return (
     <form className="auth-saas-form" onSubmit={handleSubmit(onSubmit)}>
+      <button className="auth-google-button" type="button" onClick={handleGoogleLogin}>
+        <span>G</span>
+        Entrar com Google
+      </button>
+
+      <div className="auth-divider"><span>ou entre com e-mail</span></div>
+
       <div className="auth-field-group">
         <Label htmlFor="email">E-mail</Label>
         <div className="auth-input-wrap">
@@ -95,6 +111,8 @@ function LoginForm() {
       </Button>
 
       <Separator />
+
+      <AuthCheckoutPanel />
 
       <p className="auth-switch-text">
         Ainda não tem uma conta? <Link to="/criar-conta">Criar conta</Link>

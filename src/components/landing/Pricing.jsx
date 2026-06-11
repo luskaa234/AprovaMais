@@ -1,16 +1,31 @@
 import { motion } from "framer-motion";
 import { BadgeCheck, Check, ShieldCheck } from "lucide-react";
+import { useState } from "react";
+import { toast } from "sonner";
+import { startCheckout } from "../../services/paymentService";
 import SlideArrowButton from "../SlideArrowButton";
 
 const benefits = [
-  "Plano por edital com revisões automáticas",
-  "Banco de questões e simulados completos",
-  "Relatórios de desempenho por matéria",
-  "Apoio de estudos para dúvidas e revisão",
-  "Área de redação, metas e TAF",
+  "Plano por edital com revisoes automaticas",
+  "Banco de questoes e simulados completos",
+  "Relatorios de desempenho por materia",
+  "Apoio de estudos para duvidas e revisao",
+  "Area de redacao, metas e TAF",
 ];
 
 function Pricing() {
+  const [loadingPlan, setLoadingPlan] = useState("");
+
+  const handleCheckout = async (plan) => {
+    try {
+      setLoadingPlan(plan);
+      await startCheckout(plan);
+    } catch (error) {
+      toast.error(error.message || "Nao foi possivel abrir o pagamento.");
+      setLoadingPlan("");
+    }
+  };
+
   return (
     <section className="section-shell landing-pricing-section" id="planos">
       <div className="section-heading">
@@ -18,11 +33,8 @@ function Pricing() {
           <ShieldCheck size={16} />
           Planos Aprova+
         </span>
-        <h2>Um plano simples para estudar com método até a aprovação.</h2>
-        <p>
-          Comece com a estrutura completa da plataforma e mantenha seu preparo
-          organizado todos os dias.
-        </p>
+        <h2>Um plano simples para estudar com metodo ate a aprovacao.</h2>
+        <p>Comece com a estrutura completa da plataforma e mantenha seu preparo organizado todos os dias.</p>
       </div>
 
       <div className="landing-pricing-grid">
@@ -41,7 +53,7 @@ function Pricing() {
           <div className="plan-price">
             <span>R$</span>
             39
-            <small>,90/mês</small>
+            <small>,90/mes</small>
           </div>
           <ul>
             {benefits.slice(0, 4).map((benefit) => (
@@ -51,8 +63,13 @@ function Pricing() {
               </li>
             ))}
           </ul>
-          <div className="plan-trial-badge">7 dias grátis</div>
-          <SlideArrowButton text="Começar 7 dias grátis" primaryColor="#2563eb" />
+          <div className="plan-trial-badge">7 dias gratis</div>
+          <SlideArrowButton
+            disabled={Boolean(loadingPlan)}
+            onClick={() => handleCheckout("essencial")}
+            primaryColor="#2563eb"
+            text={loadingPlan === "essencial" ? "Abrindo pagamento..." : "Comecar 7 dias gratis"}
+          />
         </motion.article>
 
         <motion.article
@@ -69,14 +86,14 @@ function Pricing() {
           <div>
             <span className="plan-eyebrow">Anual</span>
             <h3>Aprova+ Pro</h3>
-            <p>Para uma preparação mais longa, com acompanhamento completo.</p>
+            <p>Para uma preparacao mais longa, com acompanhamento completo.</p>
           </div>
           <div className="plan-price">
             <span>R$</span>
             24
-            <small>,90/mês</small>
+            <small>,90/mes</small>
           </div>
-          <p className="plan-annual-note">Cobrado como R$ 298,80/ano - você economiza R$ 179,40</p>
+          <p className="plan-annual-note">Cobrado como R$ 298,80/ano - voce economiza R$ 179,40</p>
           <ul>
             {benefits.map((benefit) => (
               <li key={benefit}>
@@ -85,7 +102,12 @@ function Pricing() {
               </li>
             ))}
           </ul>
-          <SlideArrowButton text="Assinar plano anual com desconto" primaryColor="#2563eb" />
+          <SlideArrowButton
+            disabled={Boolean(loadingPlan)}
+            onClick={() => handleCheckout("pro")}
+            primaryColor="#2563eb"
+            text={loadingPlan === "pro" ? "Abrindo pagamento..." : "Assinar plano anual com desconto"}
+          />
         </motion.article>
       </div>
     </section>
