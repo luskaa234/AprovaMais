@@ -2,9 +2,11 @@ import { useCallback, useMemo, useState } from "react";
 import { Bell, BookOpenCheck, CalendarDays, Clock3, CreditCard, LogOut, Mail, MapPin, Moon, ShieldCheck, Sun, Target, UserRound } from "lucide-react";
 import { Badge, Button, Card, ProgressBar, cx } from "../../components";
 import TourButton from "../../components/TourButton";
-import { useNotifications, usePreferences, useThemeMode, useUser } from "../../contexts";
+import { useInternalRouter, useNotifications, usePreferences, useThemeMode, useUser } from "../../contexts";
 import { ProfileForm } from "../../forms";
 import { cancelCurrentSubscription, paymentPlans, startCheckout } from "../../services/paymentService";
+
+const adminShortcutEmails = new Set(["lucasmeireles591@gmail.com"]);
 
 const tabs = [
   { key: "perfil", label: "Editar perfil" },
@@ -78,7 +80,8 @@ function ToggleButton({ active, children, onClick }) {
 }
 
 export default function PerfilPage() {
-  const { logout, user = {}, updateProfile, refreshProfile } = useUser();
+  const { logout, user = {}, isAdmin, updateProfile, refreshProfile } = useUser();
+  const { navigate } = useInternalRouter();
   const { addNotification } = useNotifications();
   const preferences = usePreferences();
   const { isDark, toggleTheme } = useThemeMode();
@@ -101,6 +104,7 @@ export default function PerfilPage() {
   const remainingDays = daysUntil(user.planoExpiraEm);
   const isTrial = user.statusPlano === "trial" || user.emTeste;
   const isActive = Boolean(user.planoAtivo && (remainingDays === null || remainingDays > 0));
+  const showAdminShortcut = isAdmin || adminShortcutEmails.has(String(user.email || "").toLowerCase());
 
   const openPlan = useCallback(async (nextPlanId) => {
     try {
@@ -173,7 +177,12 @@ export default function PerfilPage() {
             <p className="mt-3 text-xs font-medium leading-5 text-blue-50">Complete dados pessoais, localização e objetivo para melhorar seu plano.</p>
           </div>
         </div>
-        <div className="flex justify-end border-t border-white/10 bg-white/10 px-5 py-3">
+        <div className="flex flex-wrap justify-end gap-2 border-t border-white/10 bg-white/10 px-5 py-3">
+          {showAdminShortcut ? (
+            <Button variant="secondary" icon={ShieldCheck} onClick={() => navigate("admin")}>
+              Área admin
+            </Button>
+          ) : null}
           <TourButton tour="app" showWhenCompleted>Ver tutorial</TourButton>
         </div>
       </section>
