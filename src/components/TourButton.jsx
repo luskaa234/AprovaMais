@@ -1,7 +1,7 @@
 import { HelpCircle } from "lucide-react";
 import { Button } from "./AppUI";
 import { useInternalRouter } from "../contexts";
-import { startAppTour, startRouteTour } from "../tours/onboardingManager";
+import { hasCompletedOnboarding, startAppTour, startRouteTour } from "../tours/onboardingManager";
 
 export default function TourButton({
   children = "Como usar esta página?",
@@ -10,9 +10,13 @@ export default function TourButton({
   variant = "secondary",
   size = "sm",
   className = "",
+  showWhenCompleted = false,
 }) {
   const router = useInternalRouter();
   const activeRoute = route || router?.route || "dashboard";
+  const completed = typeof window !== "undefined" && hasCompletedOnboarding();
+
+  if (completed && !showWhenCompleted) return null;
 
   const handleClick = () => {
     if (tour === "app") {

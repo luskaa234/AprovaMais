@@ -2,7 +2,6 @@ import { step } from "./tourUtils";
 
 export const dashboardTour = [
   step(null, "Como usar o Dashboard", "Esta tela é seu painel de comando. Ela responde três perguntas: o que fiz, como estou indo e qual é o próximo passo.", {
-    mascot: "welcome",
   }),
   step("tour-dashboard-overview", "Resumo do dia", "Comece olhando esta área. Ela mostra o status do estudo de hoje e ajuda a decidir se você deve revisar, resolver questões ou seguir o plano."),
   step("tour-dashboard-kpis", "Indicadores principais", "Aqui ficam os números que importam: horas estudadas, questões resolvidas, taxa de acerto, sequência e TAF. Use para acompanhar progresso real."),

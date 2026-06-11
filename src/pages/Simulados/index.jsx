@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { CheckCircle2, Flag, Play, RotateCcw, Timer, XCircle } from "lucide-react";
-import { Badge, Button, Card, EmptyState, Mascot, Select, cx } from "../../components";
+import { Badge, Button, Card, EmptyState, Select, cx } from "../../components";
 import { DistributionPieChart, PerformanceChart } from "../../charts";
 import { useAsyncData, useTimer } from "../../hooks";
 import { useNotifications, useUser } from "../../contexts";
@@ -14,7 +14,6 @@ function SimuladoResultado({ result, onRedo, onReview }) {
       <Card hover={false}>
         <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
           <div className="flex items-center gap-3">
-            <Mascot size="lg" pose={result.percent >= 70 ? "comemoracao" : "motivacao"} framed={false} />
             <div>
             <p className="text-sm text-gray-400">Resultado final</p>
             <h1 className={cx("text-5xl font-black", tone)}>{result.percent}%</h1>
@@ -171,7 +170,7 @@ export default function SimuladosPage() {
         <p className="mb-5 text-sm text-gray-400">Questoes no mesmo padrao do banco: enunciado, alternativas, gabarito e comentario.</p>
       </div>
       {!templates.length ? (
-        <EmptyState title="Nenhum simulado disponivel" description="Importe questoes oficiais para liberar os simulados." action={<Mascot size="lg" pose="feedback" framed={false} />} />
+        <EmptyState title="Nenhum simulado disponivel" description="Importe questoes oficiais para liberar os simulados." />
       ) : null}
       <div className="grid gap-4 lg:grid-cols-3" data-tour="tour-simulados-config">
         {templates.map((template) => (

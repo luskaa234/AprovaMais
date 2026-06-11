@@ -33,7 +33,7 @@ export default function AjudaPage() {
               </p>
             </div>
           </div>
-          <TourButton tour="app" variant="primary">Ver Tutorial</TourButton>
+          <TourButton tour="app" variant="primary" showWhenCompleted>Ver Tutorial</TourButton>
         </div>
       </section>
 

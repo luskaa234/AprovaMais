@@ -663,6 +663,161 @@
   }
 }
 
+/* Final compact flashcard and tablet layout pass. */
+.flashcards-study {
+  max-width: 980px !important;
+  padding: 0.9rem !important;
+}
+
+.flashcards-session {
+  min-height: 0 !important;
+  padding: 1rem !important;
+}
+
+.flashcards-session > div {
+  max-width: 760px !important;
+}
+
+.flashcards-progress {
+  margin-bottom: 0.85rem !important;
+}
+
+.flashcard-swipe-card.flashcard-flip-inner,
+.flashcard-flip-inner {
+  height: clamp(260px, 38vh, 390px) !important;
+  min-height: 260px !important;
+  max-height: 390px !important;
+}
+
+.flashcard-swipe-card.flashcard-flip-inner .flashcard-flip-face,
+.flashcard-flip-face {
+  padding: 1rem !important;
+}
+
+.flashcard-flip-front h2 {
+  max-width: 620px !important;
+  font-size: clamp(1.05rem, 1.45vw, 1.55rem) !important;
+  line-height: 1.22 !important;
+}
+
+.flashcard-flip-front p,
+.flashcards-answer p,
+.flashcards-session .text-xs,
+.flashcards-session .text-sm {
+  font-size: 0.78rem !important;
+}
+
+.flashcard-flip-back strong {
+  font-size: 0.82rem !important;
+}
+
+.flashcard-flip-back p,
+.flashcard-flip-back .text-lg,
+.flashcard-flip-back .text-sm {
+  font-size: 0.9rem !important;
+  line-height: 1.45 !important;
+}
+
+.flashcard-flip-back .rounded-lg {
+  padding: 0.8rem !important;
+}
+
+.flashcards-answer {
+  margin-top: 0.85rem !important;
+}
+
+.flashcards-session > div > .mt-6 {
+  margin-top: 1rem !important;
+  padding-top: 0.9rem !important;
+}
+
+.flashcards-session .aprova-btn-primary,
+.flashcards-session .aprova-btn-secondary,
+.flashcards-session .aprova-btn-danger {
+  min-height: 2.35rem !important;
+  padding-inline: 0.9rem !important;
+  font-size: 0.82rem !important;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .internal-app main {
+    padding: 1rem !important;
+  }
+
+  .flashcards-header,
+  .leis-study-top,
+  .plano-header {
+    border-radius: 1rem !important;
+    padding: 0.9rem !important;
+  }
+
+  .flashcards-header h1,
+  .leis-study-title h1 {
+    font-size: clamp(1.8rem, 4vw, 2.35rem) !important;
+  }
+
+  .flashcards-header > div {
+    min-width: min(100%, 430px) !important;
+  }
+
+  .flashcards-study {
+    max-width: 860px !important;
+  }
+
+  .flashcard-swipe-card.flashcard-flip-inner,
+  .flashcard-flip-inner {
+    height: clamp(250px, 34vh, 340px) !important;
+    min-height: 250px !important;
+  }
+
+  .leis-desktop-shell {
+    display: grid !important;
+    grid-template-columns: minmax(240px, 0.9fr) minmax(0, 1.45fr) !important;
+    gap: 0.9rem !important;
+  }
+
+  .leis-laws-layer,
+  .leis-structure-layer,
+  .leis-articles-layer,
+  .leis-reader-layer {
+    display: block !important;
+    max-height: none !important;
+    min-height: auto !important;
+  }
+
+  .leis-reader-layer {
+    grid-column: 1 / -1;
+    position: static !important;
+  }
+
+  .leis-article-reader {
+    font-size: 1rem !important;
+    line-height: 1.68 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .flashcards-study {
+    max-width: 100% !important;
+  }
+
+  .flashcard-swipe-card.flashcard-flip-inner,
+  .flashcard-flip-inner {
+    height: clamp(240px, 42svh, 340px) !important;
+    min-height: 240px !important;
+    max-height: 340px !important;
+  }
+
+  .flashcard-flip-front h2 {
+    font-size: clamp(0.98rem, 4.6vw, 1.22rem) !important;
+    line-height: 1.24 !important;
+  }
+
+  .flashcards-answer {
+    margin-top: 0.7rem !important;
+  }
+}
+
 @media (max-width: 767px) {
   .aprova-hero-inner {
     grid-template-columns: 1fr;
@@ -10102,10 +10257,6 @@ main {
     border-radius: 1rem !important;
   }
 
-  .ai-chat-hero-mascot {
-    display: none !important;
-  }
-
   .ai-chat-hero h2 {
     font-size: 1rem !important;
   }
@@ -10119,10 +10270,6 @@ main {
     min-height: 0;
     border-radius: 1rem !important;
     padding: 0.75rem !important;
-  }
-
-  .ai-chat-message-mascot {
-    display: none !important;
   }
 
   .ai-chat-messages [class*="max-w-"] {
@@ -13642,23 +13789,6 @@ main {
   background: linear-gradient(180deg, rgba(32, 43, 61, 0), var(--bg-card) 28%) !important;
 }
 
-.empty-mascot-action {
-  display: grid;
-  justify-items: center;
-  gap: 0.75rem;
-}
-
-.empty-mascot-action img {
-  display: block;
-  max-width: 7.5rem;
-  object-fit: contain;
-}
-
-.empty-mascot-action .aprova-btn-secondary {
-  position: relative;
-  z-index: 1;
-}
-
 /* Mobile button legibility: no vertical word breaking. */
 .aprova-btn-primary,
 .aprova-btn-secondary,
@@ -14241,5 +14371,107 @@ button {
     border-color: var(--border-soft) !important;
     background: var(--bg-card) !important;
     box-shadow: 0 20px 48px rgba(2, 6, 23, 0.24) !important;
+  }
+}
+
+/* Final compact flashcard pass: keep cards readable without taking the whole screen. */
+.flashcards-study {
+  max-width: 920px !important;
+  margin-inline: auto !important;
+  padding: clamp(0.85rem, 1.4vw, 1.1rem) !important;
+}
+
+.flashcards-session {
+  min-height: 0 !important;
+  padding: clamp(0.85rem, 1.6vw, 1.25rem) !important;
+}
+
+.flashcards-session > div {
+  max-width: 760px !important;
+}
+
+.flashcard-swipe-card.flashcard-flip-inner,
+.flashcard-flip-inner {
+  height: clamp(250px, 34vh, 360px) !important;
+  min-height: 0 !important;
+}
+
+.flashcard-swipe-card.flashcard-flip-inner .flashcard-flip-face {
+  padding: clamp(1rem, 2vw, 1.45rem) !important;
+}
+
+.flashcard-flip-front h2 {
+  max-width: 640px !important;
+  font-size: clamp(1.08rem, 1.45vw, 1.45rem) !important;
+  line-height: 1.22 !important;
+}
+
+.flashcard-flip-front p,
+.flashcard-flip-back p,
+.flashcards-session p {
+  font-size: clamp(0.8rem, 0.95vw, 0.92rem) !important;
+  line-height: 1.45 !important;
+}
+
+.flashcard-flip-back h3 {
+  font-size: clamp(1rem, 1.3vw, 1.25rem) !important;
+}
+
+.flashcards-review-actions,
+.flashcards-session > div > .mt-6 {
+  max-width: 680px !important;
+  margin-inline: auto !important;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .app-main .flashcards-page,
+  .app-main .leis-study-page {
+    max-width: min(100%, 940px) !important;
+    margin-inline: auto !important;
+  }
+
+  .flashcards-header {
+    gap: 0.85rem !important;
+  }
+
+  .flashcards-header h1 {
+    font-size: clamp(1.75rem, 3.6vw, 2.25rem) !important;
+  }
+
+  .flashcards-header > div {
+    min-width: 0 !important;
+  }
+
+  .flashcards-study {
+    max-width: 820px !important;
+  }
+
+  .flashcard-swipe-card.flashcard-flip-inner,
+  .flashcard-flip-inner {
+    height: clamp(245px, 32vh, 330px) !important;
+  }
+
+  .flashcard-flip-front h2 {
+    font-size: clamp(1.02rem, 2vw, 1.32rem) !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .flashcards-study {
+    padding: 0.75rem !important;
+  }
+
+  .flashcards-session {
+    padding: 0.75rem !important;
+  }
+
+  .flashcard-swipe-card.flashcard-flip-inner,
+  .flashcard-flip-inner {
+    height: clamp(230px, 40svh, 320px) !important;
+  }
+
+  .flashcard-flip-front h2 {
+    font-size: clamp(0.95rem, 4.1vw, 1.12rem) !important;
+    line-height: 1.24 !important;
   }
 }

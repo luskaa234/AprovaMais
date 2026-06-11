@@ -1,6 +1,6 @@
 import { memo, useCallback, useEffect, useRef, useState } from "react";
 import { BookOpenCheck, Send } from "lucide-react";
-import { Button, Input, Mascot } from "../components";
+import { Button, Input } from "../components";
 import { useAI } from "../hooks";
 import { aiService } from "../services";
 
@@ -164,7 +164,9 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
   return (
     <div className="ai-chat flex h-full flex-col">
       <div className="ai-chat-hero mb-4 flex items-center gap-4 rounded-lg border border-blue-200 bg-blue-50 p-4 text-slate-800">
-        <Mascot size="lg" framed={false} className="ai-chat-hero-mascot -my-4" />
+        <span className="grid size-12 shrink-0 place-items-center rounded-xl bg-blue-600 text-white">
+          <BookOpenCheck size={24} />
+        </span>
         <div>
           <p className="text-xs font-black uppercase tracking-wide text-blue-700">Aprova Assistente</p>
           <h2 className="text-xl font-black">Seu tutor de revisão e questões</h2>
@@ -181,7 +183,6 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
       <div className="ai-chat-messages flex-1 overflow-auto rounded-lg border border-gray-800 bg-gray-950 p-4">
         {messages.map((message, index) => (
           <div key={`${message.role}-${index}`} className={`mb-3 flex gap-2 ${message.role === "user" ? "justify-end" : "justify-start"}`}>
-            {message.role === "ai" ? <Mascot size="sm" className="ai-chat-message-mascot" /> : null}
             <div className={`max-w-[82%] whitespace-pre-wrap rounded-lg p-3 text-sm ${message.role === "user" ? "bg-blue-600 text-white" : "bg-gray-900 text-gray-200"}`}>
               {message.text}
             </div>
@@ -189,7 +190,6 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
         ))}
         {isStreaming ? (
           <div className="flex items-center gap-2 text-sm text-gray-400">
-            <Mascot size="sm" className="ai-chat-message-mascot" />
             <div className="max-w-[82%] whitespace-pre-wrap rounded-lg bg-gray-900 p-3 text-sm text-gray-200">
               {streamText || (
                 <span className="inline-flex items-center gap-2 text-gray-400">

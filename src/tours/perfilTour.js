@@ -2,7 +2,6 @@ import { step } from "./tourUtils";
 
 export const perfilTour = [
   step(null, "Como usar o Perfil", "O Perfil concentra dados pessoais, objetivo, localização, preferências de estudo, tema e dados da conta.", {
-    mascot: "welcome",
   }),
   step("tour-profile-summary", "Resumo do perfil", "Veja rapidamente seu objetivo, nível, carga semanal, localização e percentual de preenchimento do perfil."),
   step("tour-profile-tabs", "Abas principais", "Use as abas para separar tarefas: editar dados, ajustar configurações ou gerenciar informações da conta."),

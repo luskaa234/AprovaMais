@@ -17,7 +17,7 @@ import {
   UserRound,
 } from "lucide-react";
 import { toast } from "sonner";
-import { Button, Input, Mascot, Select, Textarea, cx } from "../components";
+import { Button, Input, Select, Textarea, cx } from "../components";
 import BrandLogo from "../components/BrandLogo";
 import { useUser } from "../contexts";
 import { aiService } from "../services";
@@ -305,8 +305,10 @@ export default function Onboarding() {
               O onboarding separa OAB, concurso, ENEM, ensino medio e vestibular para entregar um dashboard focado no seu objetivo.
             </p>
             <div className="mt-6 rounded-lg border border-blue-100 bg-blue-50 p-4">
-              <Mascot size="xl" pose={step === stepTitles.length - 1 ? "comemoracao" : "boasVindas"} framed={false} className="mx-auto -my-4" />
-              <p className="mt-2 text-center text-sm font-semibold text-blue-800">
+              <div className="mx-auto grid size-14 place-items-center rounded-2xl bg-blue-600 text-white">
+                <Sparkles size={26} />
+              </div>
+              <p className="mt-3 text-center text-sm font-semibold text-blue-800">
                 Vou organizar suas respostas e transformar isso em um plano pratico.
               </p>
             </div>

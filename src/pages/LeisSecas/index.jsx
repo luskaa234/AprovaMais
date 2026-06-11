@@ -15,7 +15,7 @@ import {
   Sparkles,
   X,
 } from "lucide-react";
-import { Badge, Button, Card, EmptyState, Input, Mascot, Textarea, cx } from "../../components";
+import { Badge, Button, Card, EmptyState, Input, Textarea, cx } from "../../components";
 import { useInternalRouter, useNotifications, useUser } from "../../contexts";
 import { useAsyncData } from "../../hooks";
 import { leisService } from "../../services";
@@ -451,7 +451,7 @@ export default function LeisSecasPage() {
                 ))}
               </div>
             ))}
-            {!filteredLaws.length ? <EmptyState icon={Search} title="Nada encontrado" description="Tente outro termo ou veja todas as leis." action={<Mascot size="md" pose="feedback" framed={false} />} /> : null}
+            {!filteredLaws.length ? <EmptyState icon={Search} title="Nada encontrado" description="Tente outro termo ou veja todas as leis." /> : null}
           </div>
         </section>
 
@@ -551,7 +551,7 @@ export default function LeisSecasPage() {
               ) : null}
             </>
           ) : (
-            <EmptyState icon={BookOpen} title="Selecione um artigo" description="Escolha uma lei e avance ate o leitor." action={<Mascot size="md" pose="feedback" framed={false} />} />
+            <EmptyState icon={BookOpen} title="Selecione um artigo" description="Escolha uma lei e avance ate o leitor." />
           )}
         </section>
       </div>

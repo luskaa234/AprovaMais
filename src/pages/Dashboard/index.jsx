@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { BookOpen, CalendarCheck, ChevronRight, Clock, ClipboardList, Dumbbell, FileText, Flame, MessageCircleQuestion, Play, Target, X, Zap } from "lucide-react";
 import { AIPanel } from "../../ai";
-import { Badge, Button, Card, Mascot, ProgressBar, cx } from "../../components";
+import { Badge, Button, Card, ProgressBar, cx } from "../../components";
 import { HeatmapCalendar, PerformanceChart, StudyTimeChart } from "../../charts";
 import { useInternalRouter, useUser } from "../../contexts";
 import { isSupabaseConfigured, supabase } from "../../lib/supabase";
@@ -113,7 +113,6 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
           <h1>Bom estudo, {firstName}</h1>
           <p>Plano ativo para prova, revisao e TAF.</p>
         </div>
-        <Mascot size="lg" pose="boasVindas" framed={false} className="-mr-4 -mt-4 opacity-95" />
       </section>
 
       <section className="mobile-study-progress" data-tour="tour-dashboard-kpis">
@@ -440,7 +439,6 @@ export default function DashboardPage() {
       {!questoesResolvidas ? (
         <Card className="mt-4" hover={false}>
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-            <Mascot size="lg" pose="motivacao" framed={false} />
             <div>
               <h2 className="font-bold text-slate-950">Seu progresso comeca nas questoes</h2>
               <p className="mt-1 text-sm text-slate-500">Resolva uma questao para preencher acertos, erros, sequencia e desempenho por materia.</p>

@@ -15,6 +15,7 @@ function isOabFocus(user) {
 
 function visibleNavItems(user, isAdmin) {
   return navItems.filter((item) => {
+    if (item.key === "ajuda") return false;
     if (item.key === "admin" && !isAdmin) return false;
     if (item.requiresObjective === "oab" && !isOabFocus(user)) return false;
     return true;
