@@ -35,6 +35,15 @@ const contests = [
   { sigla: "OAB", nome: "Ordem dos Advogados", icon: Scale },
 ];
 
+const contestLogos = {
+  PM: { src: "/logos/concursos/pm-ma.png", alt: "Policia Militar do Maranhao" },
+  CBM: { src: "/logos/concursos/cbm-mt.png", alt: "Corpo de Bombeiros Militar de Mato Grosso" },
+  PC: { src: "/logos/concursos/pc-ma.png", alt: "Policia Civil do Maranhao" },
+  PP: { src: "/logos/concursos/policia-penal.png", alt: "Policia Penal" },
+  PRF: { src: "/logos/concursos/prf.png", alt: "Policia Rodoviaria Federal" },
+  OAB: { src: "/logos/concursos/oab.png", alt: "OAB Nacional" },
+};
+
 const features = [
   { icon: FileQuestion, title: "Banco de questões oficiais", text: "+3.000 questões de provas reais, com gabarito e comentário." },
   { icon: ClipboardList, title: "Simulados", text: "Provas cronometradas por banca, nível e objetivo." },
@@ -110,9 +119,11 @@ export default function Home() {
             Conteúdo organizado para os objetivos que a plataforma realmente atende hoje.
           </SectionHeading>
           <div className="honest-contest-grid">
-            {contests.map(({ sigla, nome, icon: Icon }) => (
+            {contests.map(({ sigla, nome }) => (
               <article className="honest-contest-card" key={sigla}>
-                <span><Icon size={22} /></span>
+                <span className="honest-contest-logo-wrap">
+                  <img className="honest-contest-logo" src={contestLogos[sigla].src} alt={contestLogos[sigla].alt} loading="lazy" />
+                </span>
                 <strong>{sigla}</strong>
                 <p>{nome}</p>
               </article>

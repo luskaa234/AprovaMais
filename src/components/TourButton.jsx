@@ -1,6 +1,6 @@
 import { HelpCircle } from "lucide-react";
 import { Button } from "./AppUI";
-import { useInternalRouter } from "../contexts";
+import { useInternalRouter, useUser } from "../contexts";
 import { hasCompletedOnboarding, startAppTour, startRouteTour } from "../tours/onboardingManager";
 
 export default function TourButton({
@@ -13,17 +13,26 @@ export default function TourButton({
   showWhenCompleted = false,
 }) {
   const router = useInternalRouter();
+  const { updateProfile, user } = useUser();
   const activeRoute = route || router?.route || "dashboard";
-  const completed = typeof window !== "undefined" && hasCompletedOnboarding();
+  const completed = typeof window !== "undefined" && hasCompletedOnboarding(user);
 
   if (completed && !showWhenCompleted) return null;
 
   const handleClick = () => {
     if (tour === "app") {
-      startAppTour({ navigate: router?.navigate, delay: 100 });
+      startAppTour({
+        navigate: router?.navigate,
+        delay: 100,
+        userId: user?.id || user?.email,
+        onComplete: () => updateProfile?.({ tourCompleto: true }),
+      });
       return;
     }
-    startRouteTour(activeRoute, { navigate: router?.navigate, delay: 100 });
+    if (route && router?.route !== activeRoute) {
+      router?.navigate(activeRoute);
+    }
+    startRouteTour(activeRoute, { navigate: router?.navigate, delay: route ? 420 : 100 });
   };
 
   return (

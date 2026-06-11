@@ -1,8 +1,9 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { BarChart3, BookOpenCheck, Filter, RotateCcw, Search, Target, Trophy } from "lucide-react";
 import { Button, Card, EmptyState, Input, Select } from "../../components";
-import { useNotifications } from "../../contexts";
+import { useNotifications, useUser } from "../../contexts";
 import { useQuestoes } from "../../hooks";
+import { isSupabaseConfigured, supabase } from "../../lib/supabase";
 import { questoesService } from "../../services";
 import { useQuestoesStore } from "../../stores";
 import { QuestionCard } from "./QuestionCard";
@@ -54,6 +55,7 @@ function StatCard({ icon: Icon, label, value, tone = "text-blue-300" }) {
 }
 
 export default function QuestoesPage() {
+  const { user } = useUser();
   const initialArea = "geral";
   const [articleTrainingFilter] = useState(() => {
     try {
@@ -84,6 +86,32 @@ export default function QuestoesPage() {
   const tentativas = useQuestoesStore((state) => state.tentativas);
   const salvas = useQuestoesStore((state) => state.salvas);
   const caderno = useQuestoesStore((state) => state.caderno);
+  const usingSupabaseUser = isSupabaseConfigured && Boolean(user?.id);
+  const [remoteUserData, setRemoteUserData] = useState({ tentativas: [], salvas: [], caderno: [] });
+
+  useEffect(() => {
+    if (!usingSupabaseUser) return undefined;
+    let alive = true;
+    async function loadUserQuestionState() {
+      const [tentativasRes, salvasRes, cadernoRes] = await Promise.all([
+        supabase.from("tentativas").select("questao_id, acertou, created_at").eq("user_id", user.id),
+        supabase.from("questoes_salvas").select("questao_id").eq("user_id", user.id),
+        supabase.from("caderno_erros").select("questao_id").eq("user_id", user.id),
+      ]);
+      if (!alive) return;
+      setRemoteUserData({
+        tentativas: (tentativasRes.data || []).map((item) => ({ questaoId: item.questao_id, acertou: Boolean(item.acertou), data: item.created_at })),
+        salvas: (salvasRes.data || []).map((item) => item.questao_id).filter(Boolean),
+        caderno: (cadernoRes.data || []).map((item) => item.questao_id).filter(Boolean),
+      });
+    }
+    loadUserQuestionState().catch(() => {
+      if (alive) setRemoteUserData({ tentativas: [], salvas: [], caderno: [] });
+    });
+    return () => {
+      alive = false;
+    };
+  }, [user?.id, usingSupabaseUser]);
 
   const setFilter = useCallback((key, value) => {
     setPage(1);
@@ -104,32 +132,54 @@ export default function QuestoesPage() {
 
   const onAnswer = useCallback(async (id, alternativa) => {
     const result = await questoesService.responder(id, alternativa);
+    if (usingSupabaseUser) {
+      setRemoteUserData((current) => ({
+        ...current,
+        tentativas: [{ questaoId: id, acertou: Boolean(result.correta), data: new Date().toISOString() }, ...current.tentativas],
+        caderno: result.correta || current.caderno.includes(id) ? current.caderno : [id, ...current.caderno],
+      }));
+    }
     addNotification({
       type: result.correta ? "success" : "error",
       title: result.correta ? "Correto! +10 pontos" : `Incorreto. Gabarito: ${String(result.gabarito).toUpperCase()}`,
       message: result.correta ? "Seus indicadores foram atualizados." : "A questão entrou no caderno de erros.",
     });
     return result;
-  }, [addNotification]);
+  }, [addNotification, usingSupabaseUser]);
 
   const onSave = useCallback(async (id) => {
     const result = await questoesService.salvar(id);
+    if (usingSupabaseUser) {
+      setRemoteUserData((current) => ({
+        ...current,
+        salvas: result.saved ? [id, ...current.salvas.filter((item) => item !== id)] : current.salvas.filter((item) => item !== id),
+      }));
+    }
     addNotification({
       type: "success",
       title: result.saved ? "Questão salva" : "Questão removida",
       message: result.saved ? "Ela entrou nas favoritas." : "Ela saiu das favoritas.",
     });
-  }, [addNotification]);
+  }, [addNotification, usingSupabaseUser]);
 
   const onAddCaderno = useCallback(async (id) => {
     const result = await questoesService.adicionarAoCaderno(id);
+    if (usingSupabaseUser) {
+      setRemoteUserData((current) => ({
+        ...current,
+        caderno: current.caderno.includes(id) ? current.caderno : [id, ...current.caderno],
+      }));
+    }
     addNotification({ type: "success", title: "Caderno atualizado", message: result.added ? "Questão adicionada ao caderno de erros." : "Esta questão já estava no caderno." });
-  }, [addNotification]);
+  }, [addNotification, usingSupabaseUser]);
 
   const onReport = useCallback(() => addNotification({ type: "warning", title: "Reporte enviado", message: "Nossa equipe revisará a questão." }), [addNotification]);
 
-  const resolved = tentativas.length;
-  const correct = tentativas.filter((item) => item.acertou).length;
+  const activeTentativas = usingSupabaseUser ? remoteUserData.tentativas : tentativas;
+  const activeSalvas = usingSupabaseUser ? remoteUserData.salvas : salvas;
+  const activeCaderno = usingSupabaseUser ? remoteUserData.caderno : caderno;
+  const resolved = activeTentativas.length;
+  const correct = activeTentativas.filter((item) => item.acertou).length;
   const accuracy = resolved ? Math.round((correct / resolved) * 100) : 0;
   const visible = questoes;
   const hasMore = visible.length < total;
@@ -159,11 +209,11 @@ export default function QuestoesPage() {
 
   useEffect(() => {
     if (!visible.length || !hasMore || isLoading) return;
-    const answered = new Set(tentativas.map((item) => item.questaoId));
+    const answered = new Set(activeTentativas.map((item) => item.questaoId));
     if (!visible.every((questao) => answered.has(questao.id))) return undefined;
     const timer = window.setTimeout(loadNextPage, 0);
     return () => window.clearTimeout(timer);
-  }, [hasMore, isLoading, loadNextPage, tentativas, visible]);
+  }, [activeTentativas, hasMore, isLoading, loadNextPage, visible]);
 
   const filtersContent = (
     <>
@@ -259,8 +309,8 @@ export default function QuestoesPage() {
               key={questao.id}
               index={index}
               questao={questao}
-              saved={salvas.includes(questao.id)}
-              inErrorBook={caderno.includes(questao.id)}
+              saved={activeSalvas.includes(questao.id)}
+              inErrorBook={activeCaderno.includes(questao.id)}
               onAnswer={onAnswer}
               onSave={onSave}
               onAddCaderno={onAddCaderno}

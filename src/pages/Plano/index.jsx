@@ -291,7 +291,6 @@ export default function PlanoPage() {
   const [timers, setTimers] = useState(() => readStorage("aprova-plano-timers", {}));
   const [nowMs, setNowMs] = useState(() => Date.now());
   const [planActivities, setPlanActivities] = useState([]);
-  const [activitiesLoaded, setActivitiesLoaded] = useState(false);
   const [smartPlanGenerated, setSmartPlanGenerated] = useState(() => readStorage("aprova-plano-inteligente-gerado", false));
   const [modal, setModal] = useState(false);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
@@ -339,6 +338,16 @@ export default function PlanoPage() {
   const remaining = Math.max(0, weeklyGoal - studiedMinutes);
   const focus = [...new Set(weekActivities.map((item) => item.materia))].slice(0, 4);
   const distribution = typeOptions.map((type) => ({ type, value: weekActivities.filter((item) => item.type === type).length }));
+  const studyStreak = useMemo(() => {
+    const dates = new Set(completed.map((item) => item.date).filter(Boolean));
+    let streak = 0;
+    const cursor = new Date();
+    while (dates.has(isoDate(cursor))) {
+      streak += 1;
+      cursor.setDate(cursor.getDate() - 1);
+    }
+    return streak;
+  }, [completed]);
   const activeFilterCount = Object.values(filters).filter(Boolean).length;
   const updatePlanPref = useCallback((key, value) => {
     setPlanPrefs((current) => ({ ...current, [key]: value }));
@@ -366,7 +375,6 @@ export default function PlanoPage() {
     planoService.getAtividades().then((items) => {
       if (active) {
         setPlanActivities(items);
-        setActivitiesLoaded(true);
       }
     });
     return () => {
@@ -465,14 +473,6 @@ export default function PlanoPage() {
     setSmartPlanGenerated(true);
     addNotification({ type: "success", title: "Plano gerado", message: `${saved.length} atividades foram criadas no seu calendário.` });
   }, [addNotification, planPrefs, selectedDate, user]);
-
-  useEffect(() => {
-    if (!activitiesLoaded || smartPlanGenerated || planActivities.some((item) => item.generated)) return;
-    const timer = window.setTimeout(() => {
-      gerarPlanoInteligente();
-    }, 0);
-    return () => window.clearTimeout(timer);
-  }, [activitiesLoaded, gerarPlanoInteligente, planActivities, smartPlanGenerated]);
 
   const editActivity = useCallback((activity) => {
     setEditingId(activity.id);
@@ -679,10 +679,10 @@ export default function PlanoPage() {
 
           <section className="plano-stats grid gap-4 rounded-lg border border-blue-100 bg-white p-4 shadow-sm md:grid-cols-5">
             {[
-              ["Meta semanal", "30h"],
+              ["Meta semanal", `${Math.floor(weeklyGoal / 60)}h`],
               ["Horas estudadas", `${Math.floor(studiedMinutes / 60)}h ${studiedMinutes % 60}m`],
               ["Horas restantes", `${Math.floor(remaining / 60)}h ${remaining % 60}m`],
-              ["Produtividade", `${Math.min(100, progress + 12)}%`],
+              ["Produtividade", `${progress}%`],
               ["Concluidas", String(completed.length)],
             ].map(([label, value]) => <div key={label} className="text-center"><strong className="block text-xl text-blue-600">{value}</strong><span className="text-xs text-slate-500">{label}</span></div>)}
           </section>
@@ -694,7 +694,7 @@ export default function PlanoPage() {
             <div className="mt-4 flex items-center gap-4">
               <div className="grid size-24 place-items-center rounded-full border-[10px] border-blue-600 text-xl font-black text-slate-950">{progress}%</div>
               <div className="text-sm text-slate-500">
-                <p>Meta: 30h</p>
+                <p>Meta: {Math.floor(weeklyGoal / 60)}h</p>
                 <p>Estudado: {Math.floor(studiedMinutes / 60)}h {studiedMinutes % 60}m</p>
                 <p>Faltam: {Math.floor(remaining / 60)}h {remaining % 60}m</p>
               </div>
@@ -722,7 +722,7 @@ export default function PlanoPage() {
 
           <section className="rounded-lg border border-blue-100 bg-white p-4 shadow-sm">
             <div className="mb-3 flex items-center gap-2"><TrendingUp className="text-blue-600" size={18} /><h2 className="font-black text-slate-950">Sequencia de estudos</h2></div>
-            <strong className="text-3xl text-slate-950">12</strong>
+            <strong className="text-3xl text-slate-950">{studyStreak}</strong>
             <span className="ml-2 text-sm text-slate-500">dias seguidos</span>
           </section>
 

@@ -6,8 +6,6 @@ import { applySm2 } from "../utils";
 const today = () => new Date().toISOString().slice(0, 10);
 const uid = (prefix) => `${prefix}-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`;
 
-const materias = ["Direito Constitucional", "Portugues", "Informatica", "Raciocinio Logico", "Administrativo"];
-
 const makeAlt = (items, gabarito) =>
   items.map((texto, index) => {
     const id = String.fromCharCode(97 + index);
@@ -111,16 +109,6 @@ export const leisSeed = [
   },
 ];
 
-const semanaSeed = {
-  segunda: [{ id: "seg-1", titulo: "Constitucional - direitos fundamentais", materia: "Constitucional", hora: "08:00", duracao: 60, done: false }],
-  terca: [{ id: "ter-1", titulo: "Portugues - interpretacao", materia: "Portugues", hora: "08:00", duracao: 60, done: false }],
-  quarta: [{ id: "qua-1", titulo: "Informatica - seguranca", materia: "Informatica", hora: "14:00", duracao: 60, done: false }],
-  quinta: [{ id: "qui-1", titulo: "Raciocinio - proposicoes", materia: "Raciocinio", hora: "19:00", duracao: 60, done: false }],
-  sexta: [{ id: "sex-1", titulo: "Administrativo - principios", materia: "Administrativo", hora: "08:00", duracao: 60, done: false }],
-  sabado: [{ id: "sab-1", titulo: "Simulado semanal", materia: "Geral", hora: "09:00", duracao: 120, done: false }],
-  domingo: [{ id: "dom-1", titulo: "Revisao leve", materia: "Geral", hora: "10:00", duracao: 45, done: false }],
-};
-
 const adaptPlano = (semana) =>
   Object.entries(semana).map(([dia, tarefas]) => ({
     dia: dia[0].toUpperCase() + dia.slice(1),
@@ -143,8 +131,8 @@ export const useUserStore = create(
 export const useRankingStore = create(
   persist(
     (set) => ({
-      ranking: ["Lucas Silva", "Ana Paula", "Rafael Costa", "Bianca Nunes", "Carlos Lima", "Marina Alves", "Joao Pedro", "Fernanda Reis", "Bruno Rocha", "Julia Mendes"].map((nome, index) => ({ posicao: index + 1, nome, pontos: 1450 - index * 85 })),
-      pontos: 1450,
+      ranking: [],
+      pontos: 0,
       adicionarPontos: (qtd) =>
         set((state) => {
           const pontos = state.pontos + qtd;
@@ -152,7 +140,15 @@ export const useRankingStore = create(
           return { pontos, ranking };
         }),
     }),
-    { name: "aprova-ranking" }
+    {
+      name: "aprova-ranking",
+      version: 2,
+      migrate: (persisted) => {
+        const fakeNames = new Set(["Lucas Silva", "Ana Paula", "Rafael Costa", "Bianca Nunes", "Carlos Lima", "Marina Alves", "Joao Pedro", "Fernanda Reis", "Bruno Rocha", "Julia Mendes"]);
+        const ranking = (persisted?.ranking || []).filter((item) => !fakeNames.has(item.nome));
+        return { ...persisted, ranking, pontos: ranking.length ? persisted?.pontos || 0 : 0 };
+      },
+    }
   )
 );
 
@@ -237,6 +233,9 @@ export const useSimuladosStore = create(
     (set, get) => ({
       simulados: [],
       ativo: null,
+      registrarResultado: (resultado) => set((state) => ({
+        simulados: [{ id: resultado.id || uid("sim-res"), data: resultado.data || today(), ...resultado }, ...state.simulados],
+      })),
       criar: (config = {}) => {
         const questoes = useQuestoesStore.getState().questoes.slice(0, Number(config.quantidade || 12));
         const ativo = { id: uid("sim"), nome: config.nome || "Simulado personalizado", questoes, respostas: {}, tempoMinutos: Number(config.tempoMinutos || 180), tipo: config.tipo || "personalizado", startedAt: Date.now() };
@@ -290,10 +289,10 @@ export const useFlashcardsStore = create(
 export const usePlanoStore = create(
   persist(
     (set, get) => ({
-      semana: semanaSeed,
+      semana: {},
       atividades: [],
       tarefasHoje: [],
-      progressoPorDisciplina: { Constitucional: 52, Portugues: 62, Informatica: 48, Raciocinio: 58, Administrativo: 44 },
+      progressoPorDisciplina: {},
       getPlano: () => adaptPlano(get().semana),
       getAtividades: () => get().atividades,
       setAtividades: (atividades) => set({ atividades }),
@@ -344,8 +343,13 @@ export const usePlanoStore = create(
     }),
     {
       name: "aprova-plano",
-      version: 2,
-      migrate: (persisted) => ({ ...persisted, atividades: persisted?.atividades || [] }),
+      version: 3,
+      migrate: (persisted) => ({
+        ...persisted,
+        semana: {},
+        atividades: persisted?.atividades || [],
+        progressoPorDisciplina: {},
+      }),
     }
   )
 );
@@ -353,7 +357,7 @@ export const usePlanoStore = create(
 export const useRevisaoStore = create(
   persist(
     (set, get) => ({
-      revisoes: materias.map((materia, index) => ({ assuntoId: `rev-${index}`, assunto: materia, frente: materia, materia, proximaRevisao: today(), intervalo: 1, nivel: 0, urgencia: "hoje", easeFactor: 2.5, repetitions: 0 })),
+      revisoes: [],
       get pendentesHoje() {
         return get().revisoes.filter((item) => item.proximaRevisao <= today());
       },
@@ -368,7 +372,14 @@ export const useRevisaoStore = create(
       }) })),
       adiar: (assuntoId) => set((state) => ({ revisoes: state.revisoes.map((item) => item.assuntoId === assuntoId ? { ...item, proximaRevisao: new Date(Date.now() + 86400000).toISOString().slice(0, 10), urgencia: "amanha" } : item) })),
     }),
-    { name: "aprova-revisao" }
+    {
+      name: "aprova-revisao",
+      version: 2,
+      migrate: (persisted) => ({
+        ...persisted,
+        revisoes: (persisted?.revisoes || []).filter((item) => !/^rev-\d+$/.test(String(item.assuntoId || ""))),
+      }),
+    }
   )
 );
 
@@ -470,7 +481,7 @@ export const useLeisStore = create(
 export const useNotificacoesStore = create(
   persist(
     (set, get) => ({
-      notificacoes: [{ id: "n1", title: "Revisao pendente", message: "Constitucional vence hoje.", read: false, type: "info" }],
+      notificacoes: [],
       get naoLidas() {
         return get().notificacoes.filter((item) => !item.read).length;
       },
@@ -478,7 +489,14 @@ export const useNotificacoesStore = create(
       adicionar: (notif) => set((state) => ({ notificacoes: [{ id: uid("notif"), read: false, type: "info", ...notif }, ...state.notificacoes] })),
       limpar: () => set({ notificacoes: [] }),
     }),
-    { name: "aprova-notificacoes" }
+    {
+      name: "aprova-notificacoes",
+      version: 2,
+      migrate: (persisted) => ({
+        ...persisted,
+        notificacoes: (persisted?.notificacoes || []).filter((item) => item.id !== "n1" && item.title !== "Revisao pendente"),
+      }),
+    }
   )
 );
 

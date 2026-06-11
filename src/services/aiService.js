@@ -1,24 +1,9 @@
-import { GoogleGenerativeAI } from "@google/generative-ai";
-import { TUTOR_SYSTEM_PROMPT, montarContextoAluno } from "../ai/tutorPrompt";
+import { isSupabaseConfigured, requireSupabase } from "../lib/supabase";
+import { montarContextoAluno } from "../ai/tutorPrompt";
 
-const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
-const modelName = import.meta.env.VITE_GEMINI_MODEL || "gemini-2.5-flash";
-const genAI = apiKey ? new GoogleGenerativeAI(apiKey) : null;
-const model = genAI?.getGenerativeModel({
-  model: modelName,
-  systemInstruction: TUTOR_SYSTEM_PROMPT,
-});
-let lastAIStatus = { source: apiKey ? "gemini-ready" : "not-configured", modelName, error: "" };
-
-function fallback(mensagem) {
-  lastAIStatus = { source: "not-configured", modelName, error: "VITE_GEMINI_API_KEY ausente" };
-  return `Configure VITE_GEMINI_API_KEY no .env para ativar o tutor. Pergunta recebida: "${mensagem}"`;
-}
-
-function isQuotaError(error) {
-  const message = String(error?.message || error || "").toLowerCase();
-  return message.includes("429") || message.includes("quota") || message.includes("rate-limit") || message.includes("rate limit");
-}
+const modelName = "gemini-2.5-flash";
+let lastAIStatus = { source: isSupabaseConfigured ? "edge-ready" : "local-fallback", modelName, error: "" };
+let edgeDisabledUntil = 0;
 
 function normalizeText(value = "") {
   return String(value).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
@@ -44,313 +29,291 @@ function uniqueSubjects(items = []) {
 
 function defaultSubjectsFor(objective = "") {
   const text = normalizeText(objective);
-  if (text.includes("program")) return ["Logica de programacao", "JavaScript", "React", "Projetos praticos"];
   if (text.includes("oab")) return ["Etica Profissional", "Direito Constitucional", "Direito Civil", "Processo Civil"];
-  if (text.includes("enem")) return ["Redacao", "Matematica", "Linguagens", "Ciencias Humanas"];
-  if (text.includes("pm") || text.includes("policia") || text.includes("prf")) return ["Portugues", "Matematica", "Raciocinio Logico", "Direito Constitucional"];
+  if (text.includes("pm") || text.includes("policia") || text.includes("prf")) return ["Portugues", "Matematica/RL", "Direito Constitucional", "Direito Penal"];
   return ["Portugues", "Raciocinio Logico", "Direito Constitucional"];
+}
+
+function compactPerformance(desempenho = {}) {
+  const porMateria = desempenho.porMateria || {};
+  const materias = Object.entries(porMateria)
+    .map(([materia, stats]) => {
+      const total = Number(stats.total || 0);
+      const acertos = Number(stats.acertos || 0);
+      const erros = Number(stats.erros || Math.max(total - acertos, 0));
+      const taxa = total ? Math.round((acertos / total) * 100) : 0;
+      return { materia, total, acertos, erros, taxa };
+    })
+    .filter((item) => usefulSubject(item.materia) && item.total > 0)
+    .sort((a, b) => a.taxa - b.taxa || b.erros - a.erros);
+
+  return {
+    questoesResolvidas: Number(desempenho.questoesResolvidas || 0),
+    taxaAcertos: Number(desempenho.taxaAcertos || 0),
+    sequenciaDias: Number(desempenho.sequenciaDias || 0),
+    materiasFracas: desempenho.materiasFracas?.length ? desempenho.materiasFracas.slice(0, 5) : materias.slice(0, 5).map((item) => item.materia),
+    materiasFortes: materias.slice().sort((a, b) => b.taxa - a.taxa).slice(0, 4).map((item) => item.materia),
+    porMateria: materias.slice(0, 12),
+  };
+}
+
+function compactProfile(perfil = {}) {
+  const plan = perfil.diagnosticPlan || {};
+  return {
+    nome: perfil.name || perfil.nome || "",
+    objetivo: perfil.objective || plan.objective || perfil.targetContest || "",
+    objetivoLabel: plan.objectiveLabel || perfil.contestName || perfil.targetContest || "",
+    concurso: perfil.targetContest || perfil.contestName || "",
+    nivel: perfil.nivel || perfil.currentLevel || "intermediario",
+    dataProva: perfil.dataProva || perfil.examDate || "",
+    horasSemanais: perfil.horasSemanais || perfil.hoursPerWeek || "",
+    diasDisponiveis: perfil.diasDisponiveis || perfil.availableDays || [],
+    materiasDificeis: uniqueSubjects([...(perfil.difficultSubjects || []), ...(plan.weakSubjects || [])]).slice(0, 8),
+    planoPrioridades: uniqueSubjects(plan.prioritySubjects || []).slice(0, 8),
+  };
+}
+
+function buildCompactContext(perfil = {}, desempenho = {}) {
+  return {
+    perfil: compactProfile(perfil),
+    desempenho: compactPerformance(desempenho),
+  };
 }
 
 function localTutorResponse(mensagem = "", perfil = {}, desempenho = {}) {
   const text = normalizeText(mensagem);
-  const safePerfil = perfil || {};
-  const safeDesempenho = desempenho || {};
-  const storedUser = (() => {
-    try {
-      if (typeof localStorage === "undefined") return {};
-      return JSON.parse(localStorage.getItem("aprova-user") || "{}")?.state?.user || {};
-    } catch {
-      return {};
+  const context = buildCompactContext(perfil, desempenho);
+  const firstName = context.perfil.nome?.split(" ")?.[0] || "por aqui";
+  const objective = context.perfil.objetivoLabel || context.perfil.concurso || context.perfil.objetivo || "seu objetivo";
+  const subjects = uniqueSubjects([
+    ...(context.desempenho.materiasFracas || []),
+    ...(context.perfil.materiasDificeis || []),
+    ...(context.perfil.planoPrioridades || []),
+  ]);
+  const priorities = subjects.length ? subjects : defaultSubjectsFor(objective);
+
+  if (text.includes("quantas quest") || text.includes("questoes resolvi") || text.includes("questoes eu fiz")) {
+    return `Voce resolveu ${context.desempenho.questoesResolvidas || 0} questoes registradas ate agora.`;
+  }
+
+  if (text.includes("taxa") || text.includes("percentual") || text.includes("aproveitamento")) {
+    return `Sua taxa de acerto registrada e ${context.desempenho.taxaAcertos || 0}%.`;
+  }
+
+  if (text.includes("pior materia") || text.includes("materia mais fraca") || text.includes("materias fracas")) {
+    if (!context.desempenho.questoesResolvidas) {
+      return "Ainda nao ha questoes resolvidas suficientes para apontar uma materia fraca real. Resolva um bloco de questoes e eu recalculo sem gastar IA.";
     }
-  })();
-  const mergedPerfil = { ...safePerfil, ...storedUser };
-  const firstName = mergedPerfil?.name?.split(" ")?.[0] || "por aqui";
-  const plan = mergedPerfil?.diagnosticPlan;
-  const objective = plan?.objectiveLabel || mergedPerfil?.contestName || mergedPerfil?.targetContest || mergedPerfil?.objective || "seu objetivo";
-  const weakSubjects = uniqueSubjects([...(plan?.weakSubjects || []), ...(safeDesempenho?.materiasFracas || []), ...(safePerfil?.difficultSubjects || []), ...(mergedPerfil?.difficultSubjects || [])]);
-  const prioritySubjects = uniqueSubjects([...(plan?.prioritySubjects || []), ...weakSubjects]);
-  const subjects = prioritySubjects.length ? prioritySubjects : defaultSubjectsFor(objective);
-
-  if (/^(oi|ola|opa|e ai|bom dia|boa tarde|boa noite)\b/.test(text)) {
-    return `Oi, ${firstName}. Tudo certo. Posso te ajudar a montar o estudo de hoje, revisar uma materia dificil ou organizar questoes para ${objective}.`;
+    return `Pelos seus dados, suas prioridades agora sao: ${priorities.slice(0, 5).join(", ")}. Comece pela primeira com teoria curta + questoes + revisao dos erros.`;
   }
 
-  if (text.includes("tudo bem") || text.includes("como voce")) {
-    return `Tudo bem, ${firstName}. Estou pronto para te ajudar no estudo. Quer que eu monte um bloco rapido para hoje ou revise suas prioridades?`;
+  if (/^(oi|ola|opa|bom dia|boa tarde|boa noite)\b/.test(text)) {
+    return `Oi, ${firstName}. Posso montar um bloco de estudo, explicar uma questao ou analisar seus pontos fracos para ${objective}.`;
   }
 
-  if (text.includes("taf") || text.includes("teste fisico") || text.includes("fisico")) {
-    return [
-      "Plano de TAF para esta semana:",
-      "",
-      "1. Corrida: 3 treinos. Um leve, um intervalado e um teste controlado.",
-      "2. Forca: 3 blocos curtos com flexoes, abdominais e prancha.",
-      "3. Recuperacao: 1 dia leve com mobilidade e alongamento.",
-      "",
-      "Hoje eu faria: 10 min aquecimento, 6 tiros de 1 min forte + 1 min leve, depois 3 series de flexao e abdominal. Registre tempo, repeticoes e sensacao para eu ajustar o proximo treino.",
-    ].join("\n");
+  if (text.includes("taf") || text.includes("teste fisico")) {
+    return "Plano simples de TAF: 3 treinos de corrida na semana, 2 blocos de forca e 1 dia leve. Registre tempo/repeticoes para ajustar pelo seu resultado real.";
   }
 
-  if (text.includes("reta final") || text.includes("estrategia") || text.includes("ultimos dias") || text.includes("final")) {
-    return [
-      `Estrategia de reta final para ${objective}:`,
-      "",
-      `1. Priorize ${subjects.slice(0, 3).join(", ")}.`,
-      "2. Troque teoria longa por revisao ativa: lei seca, mapas curtos e questoes.",
-      "3. Faca blocos de 50 min: 15 min revisao, 30 min questoes, 5 min caderno de erros.",
-      "4. A cada 2 dias, refaca apenas os erros recentes.",
-      "",
-      "Meta: chegar na prova leve, com os erros mapeados e sem inventar materia nova demais.",
-    ].join("\n");
-  }
-
-  if (text.includes("plano") || text.includes("cronograma") || text.includes("estudar")) {
-    const focus = subjects.slice(0, 3).join(", ");
-    return [
-      `Para ${objective}, eu faria assim hoje:`,
-      "",
-      `1. Teoria curta: 30 a 40 min em ${focus}.`,
-      "2. Questoes: 20 a 30 questoes dos mesmos temas.",
-      "3. Revisao: anote erros e volte neles amanha no caderno de erros.",
-      "",
-      plan?.weeklyGoals?.length ? `Meta da semana: ${plan.weeklyGoals[0]}.` : "Mantenha uma meta pequena, mas diaria.",
-    ].join("\n");
-  }
-
-  if (text.includes("materia") || text.includes("dificuldade") || text.includes("fraca") || text.includes("fraco")) {
-    if (!safeDesempenho?.questoesResolvidas && !weakSubjects.length) {
-      return `Ainda nao tenho questoes respondidas suficientes para medir suas materias fracas com seguranca. Por enquanto, eu priorizaria: ${subjects.slice(0, 4).join(", ")}. Depois de resolver alguns blocos, eu recalculo pelas suas erradas.`;
-    }
-    return `Suas prioridades agora parecem ser: ${(weakSubjects.length ? weakSubjects : subjects).slice(0, 5).join(", ")}. Comece pela primeira, faca teoria curta e depois questoes comentadas.`;
-  }
-
-  if (text.includes("questao") || text.includes("questoes")) {
-    return "Para treinar questoes: escolha uma materia, resolva um bloco pequeno sem consulta, corrija na hora e salve os erros no caderno. O ganho vem da correcao ativa, nao so da quantidade.";
-  }
-
-  if (text.includes("simulado")) {
-    return "Sugestao: faca um simulado curto primeiro, com tempo marcado. Depois separe os erros por materia e transforme os 3 temas mais errados em revisao da semana.";
-  }
-
-  return `Entendi, ${firstName}. Posso transformar isso em acao de estudo. Para agora, escolha um caminho: plano de hoje, reta final, TAF, materias fracas ou revisao de erros.`;
+  return `Entendi. Para ${objective}, eu focaria agora em ${priorities.slice(0, 3).join(", ")}. Se quiser uma explicacao mais detalhada, eu chamo a IA com esse contexto resumido.`;
 }
 
-function friendlyAIError(error, mensagem = "") {
-  if (isQuotaError(error)) {
-    lastAIStatus = { source: "quota-fallback", modelName, error: String(error?.message || error || "Cota excedida") };
-    console.warn("[Gemini] Cota/limite atingido. Usando fallback local.", error);
-    return localTutorResponse(mensagem);
-  }
-
-  lastAIStatus = { source: "error", modelName, error: String(error?.message || error || "Erro desconhecido") };
-  console.error("[Gemini] Falha real na chamada da API:", error);
-  return `Não foi possível consultar o Gemini agora (${lastAIStatus.error}). Tente novamente em instantes.`;
+function isDeterministicQuestion(mensagem = "") {
+  const text = normalizeText(mensagem);
+  return [
+    "quantas quest",
+    "questoes resolvi",
+    "questoes eu fiz",
+    "taxa",
+    "percentual",
+    "aproveitamento",
+    "pior materia",
+    "materia mais fraca",
+    "materias fracas",
+  ].some((term) => text.includes(term));
 }
 
-function normalizeChatHistory(historico = []) {
-  const normalized = historico
-    .map((item) => ({
-      role: item.role === "user" ? "user" : "model",
-      text: String(item.content || item.text || "").trim(),
-    }))
-    .filter((item) => item.text);
+function cleanJsonText(text = "") {
+  return String(text || "").replace(/```json|```/g, "").trim();
+}
 
-  while (normalized[0]?.role === "model") normalized.shift();
+async function invokeAI({ task = "chat", prompt = "", perfil = {}, desempenho = {}, responseFormat = "text", maxOutputTokens, cache = false, cacheKey = "", cacheTtlDays = 30, historico = [] }) {
+  if (!isSupabaseConfigured) {
+    lastAIStatus = { source: "local-fallback", modelName, error: "Supabase nao configurado" };
+    return { text: localTutorResponse(prompt, perfil, desempenho), source: "local-fallback", model: modelName };
+  }
 
-  return normalized.reduce((items, item) => {
-    const previous = items.at(-1);
-    if (previous?.role === item.role) {
-      previous.parts[0].text = `${previous.parts[0].text}\n\n${item.text}`;
-      return items;
+  if (Date.now() < edgeDisabledUntil) {
+    return { text: localTutorResponse(prompt, perfil, desempenho), source: "fallback-edge-cooldown", model: modelName };
+  }
+
+  const client = requireSupabase();
+  const context = {
+    ...buildCompactContext(perfil, desempenho),
+    historico: (historico || []).slice(-6).map((item) => ({
+      role: item.role || (item.text ? "user" : "model"),
+      text: String(item.text || item.content || "").slice(0, 800),
+    })),
+  };
+
+  let data;
+  let error;
+  try {
+    const response = await client.functions.invoke("ia-aprova", {
+      body: { task, prompt, context, responseFormat, maxOutputTokens, cache, cacheKey, cacheTtlDays },
+    });
+    data = response.data;
+    error = response.error;
+  } catch (caught) {
+    error = caught;
+  }
+
+  if (error || data?.error) {
+    const message = data?.error || error?.message || "Falha ao consultar IA.";
+    if (/failed to fetch|cors|non-2xx|not found|network/i.test(message)) {
+      edgeDisabledUntil = Date.now() + 10 * 60 * 1000;
     }
-    return [...items, { role: item.role, parts: [{ text: item.text }] }];
-  }, []);
+    lastAIStatus = { source: "edge-error", modelName, error: message };
+    return { text: localTutorResponse(prompt, perfil, desempenho), source: "fallback-error", model: modelName };
+  }
+
+  lastAIStatus = { source: data.source || "edge", modelName: data.model || modelName, error: "" };
+  return { text: data.text || "", source: data.source || "edge", model: data.model || modelName };
 }
 
 export const aiService = {
-  isConfigured: Boolean(apiKey),
-  modelName,
+  isConfigured: isSupabaseConfigured,
+  modelName: "Edge Function + Gemini",
   getStatus() {
     return lastAIStatus;
   },
+  getCompactContext(perfil, desempenho) {
+    return buildCompactContext(perfil, desempenho);
+  },
 
-  async gerarTexto(prompt) {
-    if (!model) return fallback(prompt);
-    try {
-      const result = await model.generateContent(prompt);
-      lastAIStatus = { source: "gemini", modelName, error: "" };
-      return result.response.text();
-    } catch (error) {
-      return friendlyAIError(error, prompt);
-    }
+  async gerarTexto(prompt, options = {}) {
+    const result = await invokeAI({
+      task: options.task || "text",
+      prompt,
+      perfil: options.perfil,
+      desempenho: options.desempenho,
+      responseFormat: options.responseFormat || "text",
+      maxOutputTokens: options.maxOutputTokens || 650,
+      cache: options.cache,
+      cacheKey: options.cacheKey,
+      cacheTtlDays: options.cacheTtlDays,
+    });
+    return result.text;
   },
 
   async enviarMensagem(mensagem, historico = [], perfil = {}, desempenho = {}) {
-    if (!model) {
-      lastAIStatus = { source: "not-configured", modelName, error: "VITE_GEMINI_API_KEY ausente" };
+    if (isDeterministicQuestion(mensagem)) {
+      lastAIStatus = { source: "code", modelName, error: "" };
       return localTutorResponse(mensagem, perfil, desempenho);
     }
-    const contexto = montarContextoAluno(perfil, desempenho);
 
-    const chat = model.startChat({
-      history: normalizeChatHistory(historico),
-      generationConfig: { maxOutputTokens: 1500 },
+    const result = await invokeAI({
+      task: "chat",
+      prompt: mensagem,
+      perfil,
+      desempenho,
+      historico,
+      maxOutputTokens: 700,
     });
-
-    try {
-      const result = await chat.sendMessage(`${contexto}\n\nPERGUNTA DO ALUNO: ${mensagem}`);
-      lastAIStatus = { source: "gemini", modelName, error: "" };
-      return result.response.text();
-    } catch (error) {
-      return friendlyAIError(error, mensagem);
-    }
+    return result.text || localTutorResponse(mensagem, perfil, desempenho);
   },
 
   async gerarRelatorio(perfil, desempenho, tipo = "geral") {
-    if (!model) return fallback("relatorio");
-    const contexto = montarContextoAluno(perfil, desempenho);
-    const detalhe = JSON.stringify(desempenho, null, 2);
-    const prompt = `${contexto}
-
-DADOS DETALHADOS DE DESEMPENHO:
-${detalhe}
-
-Gere um relatorio ${tipo === "semanal" ? "semanal" : "completo"} de desempenho seguindo a estrutura da sua funcao de relatorios: resumo executivo, pontos fortes, pontos fracos ordenados por impacto, padroes de erro, evolucao e plano de acao com numeros concretos. Seja direto e pratico.`;
-    try {
-      const result = await model.generateContent(prompt);
-      lastAIStatus = { source: "gemini", modelName, error: "" };
-      return result.response.text();
-    } catch (error) {
-      return friendlyAIError(error, "relatorio de desempenho");
+    const context = buildCompactContext(perfil, desempenho);
+    if (!context.desempenho.questoesResolvidas) {
+      lastAIStatus = { source: "code", modelName, error: "" };
+      return "Ainda nao ha questoes resolvidas suficientes para gerar um relatorio real. Resolva algumas questoes para eu calcular taxa, materias fracas e evolucao.";
     }
+    const prompt = `Interprete estes numeros ja calculados e gere um relatorio ${tipo}. Nao recalcule nada; apenas explique prioridades e plano de acao.`;
+    const result = await invokeAI({ task: "report", prompt, perfil, desempenho, maxOutputTokens: 900 });
+    return result.text;
   },
 
   async gerarPlanoEstudos(perfil, planoBase) {
-    if (!model) return { ...planoBase, aiGenerated: false };
-    const prompt = `Voce e uma IA de planejamento de estudos. Use o diagnostico do aluno para refinar um plano semanal.
-
-PERFIL:
-${JSON.stringify(perfil, null, 2)}
-
-PLANO BASE:
-${JSON.stringify(planoBase, null, 2)}
-
-Regras:
-- Se objetivo for OAB, inclua apenas conteudos da OAB.
-- Se objetivo for concurso, inclua apenas conteudos relacionados ao concurso informado.
-- Se objetivo for ENEM, inclua apenas conteudos do ENEM.
-- Se objetivo for ensino medio, inclua apenas materias escolares.
-- Se objetivo for vestibular, inclua conteudos do vestibular informado.
-- Seja pratico e respeite horas/dias disponiveis.
-
-Responda APENAS em JSON valido, sem markdown, mantendo esta estrutura:
-{
-  "objective": "...",
-  "objectiveLabel": "...",
-  "weeklyHours": numero,
-  "availableDays": ["..."],
-  "prioritySubjects": ["..."],
-  "weakSubjects": ["..."],
-  "weeklySchedule": [{"day":"...", "blocks":[{"type":"Teoria|Questoes|Revisao|Simulado", "subject":"...", "minutes":numero}]}],
-  "track": ["..."],
-  "simulations": ["..."],
-  "weeklyGoals": ["..."],
-  "evolutionForecast": "..."
-}`;
+    const compact = compactProfile({ ...perfil, diagnosticPlan: planoBase });
+    const prompt = `Refine o plano calculado em codigo. Mantenha a estrutura e apenas melhore orientacoes, metas e distribuicao textual. Plano base: ${JSON.stringify(planoBase)}`;
     try {
-      const result = await model.generateContent(prompt);
-      const text = result.response.text().replace(/```json|```/g, "").trim();
-      return { ...planoBase, ...JSON.parse(text), aiGenerated: true, createdAt: new Date().toISOString() };
+      const result = await invokeAI({
+        task: "plan",
+        prompt,
+        perfil: compact,
+        desempenho: {},
+        responseFormat: "json",
+        maxOutputTokens: 900,
+      });
+      const parsed = JSON.parse(cleanJsonText(result.text));
+      return { ...planoBase, ...parsed, aiGenerated: true, createdAt: new Date().toISOString() };
     } catch {
-      return { ...planoBase, aiGenerated: false };
+      lastAIStatus = { source: "plan-code-fallback", modelName, error: "" };
+      return { ...planoBase, aiGenerated: false, createdAt: new Date().toISOString() };
     }
   },
 
   async gerarResumo(assunto, materia, concurso) {
-    if (!model) return fallback(`resumo de ${assunto}`);
-    const prompt = `Crie um resumo objetivo de "${assunto}" da materia "${materia}" para o concurso ${concurso}. Maximo 300 palavras, em topicos.`;
-    try {
-      const result = await model.generateContent(prompt);
-      return result.response.text();
-    } catch (error) {
-      return friendlyAIError(error, prompt);
-    }
+    return this.gerarTexto(`Crie um resumo objetivo de "${assunto}" da materia "${materia}" para ${concurso}. Maximo 220 palavras, em topicos.`, {
+      task: "summary",
+      maxOutputTokens: 500,
+      cache: true,
+      cacheKey: `summary:${normalizeText(concurso)}:${normalizeText(materia)}:${normalizeText(assunto)}`,
+      cacheTtlDays: 120,
+    });
   },
 
   async explicarQuestao(questao, respostaAluno, comentarioLegado) {
-    if (!model) return fallback("explicacao de questao");
-    if (typeof questao === "string") {
-      const prompt = `Explique esta questao de concurso:\n\nEnunciado: ${questao}\nGabarito correto: ${respostaAluno}\nComentario oficial: ${comentarioLegado || ""}\n\nExplique por que o gabarito esta correto e de uma dica de memorizacao.`;
-      try {
-        const result = await model.generateContent(prompt);
-        return result.response.text();
-      } catch (error) {
-        return friendlyAIError(error, "explicacao de questao");
-      }
-    }
-    const alternativas = (questao.alternativas || []).map((alt) => `${alt.letra || alt.id}) ${alt.texto || alt.label || alt}`).join("\n");
-    const prompt = `Explique esta questao para o aluno:
-
-ENUNCIADO: ${questao.enunciado}
-${alternativas}
-GABARITO: ${String(questao.gabarito).toUpperCase()}
-RESPOSTA DO ALUNO: ${String(respostaAluno).toUpperCase()}
-
-Explique por que o gabarito esta correto, por que a resposta do aluno esta certa ou errada, aponte a pegadinha e de uma dica de memorizacao. Se voce discordar do gabarito com base na lei/doutrina, diga isso com clareza.`;
-    try {
-      const result = await model.generateContent(prompt);
-      return result.response.text();
-    } catch (error) {
-      return friendlyAIError(error, "explicacao de questao");
-    }
+    const prompt = typeof questao === "string"
+      ? `Explique esta questao. Enunciado: ${questao}. Gabarito: ${respostaAluno}. Comentario: ${comentarioLegado || ""}`
+      : `Explique a questao, a resposta correta, a resposta do aluno e a pegadinha. Dados: ${JSON.stringify({
+          enunciado: questao.enunciado,
+          alternativas: questao.alternativas,
+          gabarito: questao.gabarito,
+          respostaAluno,
+          comentario: comentarioLegado || questao.comentario,
+        })}`;
+    const key = typeof questao === "object" && questao?.id ? `questao:${questao.id}:explicacao:${String(respostaAluno || "").toLowerCase()}` : "";
+    return this.gerarTexto(prompt, { task: "explain_question", maxOutputTokens: 750, cache: Boolean(key), cacheKey: key, cacheTtlDays: 180 });
   },
 
   async corrigirRedacao(tema, texto, exame = "concurso") {
-    if (!model) return JSON.stringify({ nota: 0, erro: "Gemini nao configurado" });
-    const grade = exame === "enem"
-      ? "Use as 5 competencias do ENEM (0-200 cada, total 1000)."
-      : exame === "oab"
-        ? "Avalie estrutura da peca/dissertativa, fundamentacao juridica e tecnica."
-        : "Use criterio conservador de concurso (aderencia, estrutura, argumentacao, coesao, gramatica).";
-    const prompt = `Corrija esta redacao. ${grade}
-
-TEMA: ${tema}
-TEXTO:
-${texto}
-
-Responda APENAS em JSON valido, sem markdown:
-{"nota": numero, "criterios": [{"nome":"...","nota":numero,"max":numero,"feedback":"..."}], "pontos_fortes":["..."], "pontos_fracos":["..."], "sugestao":"..."}`;
-    const result = await model.generateContent(prompt);
-    return result.response.text().replace(/```json|```/g, "").trim();
+    const prompt = `Corrija a redacao em JSON. Exame: ${exame}. Tema: ${tema}. Texto: ${texto}`;
+    return this.gerarTexto(prompt, { task: "essay", responseFormat: "json", maxOutputTokens: 1000 });
   },
 
   async gerarFlashcards(assunto, materia, quantidade = 5) {
-    if (!model) return [];
-    const result = await model.generateContent(
-      `Gere ${quantidade} flashcards sobre "${assunto}" de "${materia}". Retorne APENAS JSON valido: [{"frente":"...","verso":"..."}]`
-    );
-    const text = result.response.text().replace(/```json|```/g, "").trim();
-    return JSON.parse(text);
+    const text = await this.gerarTexto(`Gere ${quantidade} flashcards sobre "${assunto}" de "${materia}". JSON: [{"frente":"...","verso":"..."}]`, {
+      task: "flashcards",
+      responseFormat: "json",
+      maxOutputTokens: 650,
+      cache: true,
+      cacheKey: `flashcards:${normalizeText(materia)}:${normalizeText(assunto)}:${quantidade}`,
+      cacheTtlDays: 180,
+    });
+    return JSON.parse(cleanJsonText(text));
   },
 
   stream(prompt, onChunk, onDone, perfil = {}, desempenho = {}, historico = []) {
     let cancelled = false;
-
     this.enviarMensagem(prompt, historico, perfil, desempenho)
       .then((response) => {
         if (cancelled) return;
         onChunk(response);
         onDone?.(response);
       })
-      .catch((error) => {
-        const message = error.message || "Nao foi possivel consultar o Gemini agora.";
+      .catch(() => {
+        const response = localTutorResponse(prompt, perfil, desempenho);
         if (cancelled) return;
-        onChunk(message);
-        onDone?.(message);
+        onChunk(response);
+        onDone?.(response);
       });
 
     return () => {
       cancelled = true;
     };
   },
+
+  montarContextoAluno,
 };

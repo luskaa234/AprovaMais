@@ -1,0 +1,17 @@
+[functions.criar-pagamento-pix]
+verify_jwt = false
+
+[functions.criar-assinatura-cartao]
+verify_jwt = false
+
+[functions.criar-pagamento-debito]
+verify_jwt = false
+
+[functions.verificar-acesso]
+verify_jwt = false
+
+[functions.cancelar-assinatura]
+verify_jwt = false
+
+[functions.webhook-mercadopago]
+verify_jwt = false

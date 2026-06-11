@@ -5,6 +5,7 @@ import { DistributionPieChart, PerformanceChart } from "../../charts";
 import { useAsyncData, useTimer } from "../../hooks";
 import { useNotifications, useUser } from "../../contexts";
 import { simuladosService } from "../../services";
+import { useSimuladosStore } from "../../stores";
 
 function SimuladoResultado({ result, onRedo, onReview }) {
   const tone = result.percent >= 70 ? "text-blue-300" : result.percent >= 50 ? "text-amber-300" : "text-red-300";
@@ -137,7 +138,12 @@ export default function SimuladosPage() {
   const [result, setResult] = useState(null);
   const [configs, setConfigs] = useState({});
   const [loadingId, setLoadingId] = useState("");
-  const evolution = useMemo(() => ["Fev", "Mar", "Abr", "Mai", "Jun"].map((label, index) => ({ label, acertos: 58 + index * 7 })), []);
+  const history = useSimuladosStore((state) => state.simulados);
+  const registrarResultado = useSimuladosStore((state) => state.registrarResultado);
+  const evolution = useMemo(() => history.slice(0, 6).reverse().map((item, index) => ({
+    label: item.data ? new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "2-digit" }).format(new Date(item.data)) : `S${index + 1}`,
+    acertos: Number(item.percent || 0),
+  })), [history]);
 
   const updateConfig = useCallback((templateId, key, value) => {
     setConfigs((current) => ({ ...current, [templateId]: { ...(current[templateId] || {}), [key]: value } }));
@@ -160,8 +166,13 @@ export default function SimuladosPage() {
     }
   }, [addNotification, configs]);
 
+  const finishSimulado = useCallback((nextResult) => {
+    registrarResultado(nextResult);
+    setResult(nextResult);
+  }, [registrarResultado]);
+
   if (result) return <SimuladoResultado result={result} onRedo={() => { setResult(null); startTemplate(templates[0]); }} onReview={() => setResult({ ...result, review: true })} />;
-  if (active) return <SimuladoExecucao simulado={active} onFinish={setResult} />;
+  if (active) return <SimuladoExecucao simulado={active} onFinish={finishSimulado} />;
 
   return (
     <div className="mx-auto max-w-[1500px]">
@@ -207,8 +218,21 @@ export default function SimuladosPage() {
         ))}
       </div>
       <div className="mt-4 grid gap-4 xl:grid-cols-2">
-        <Card hover={false} data-tour="tour-simulados-history"><h2 className="mb-3 font-bold text-white">Meus simulados</h2>{templates.map((item) => <div key={item.id} className="flex justify-between border-b border-gray-800 py-2 text-sm text-gray-300"><span>{item.nome}</span><Badge variant="success">concluido</Badge></div>)}</Card>
-        <Card hover={false}><h2 className="mb-3 font-bold text-white">Evolucao</h2><PerformanceChart data={evolution} /></Card>
+        <Card hover={false} data-tour="tour-simulados-history">
+          <h2 className="mb-3 font-bold text-white">Meus simulados</h2>
+          {history.length ? history.slice(0, 6).map((item) => (
+            <div key={`${item.id}-${item.data}`} className="flex justify-between border-b border-gray-800 py-2 text-sm text-gray-300">
+              <span>{item.nome || "Simulado"}</span>
+              <Badge variant={Number(item.percent || 0) >= 70 ? "success" : "neutral"}>{item.percent || 0}%</Badge>
+            </div>
+          )) : (
+            <EmptyState title="Nenhum simulado feito ainda" description="Inicie seu primeiro simulado para criar historico real." />
+          )}
+        </Card>
+        <Card hover={false}>
+          <h2 className="mb-3 font-bold text-white">Evolucao</h2>
+          {evolution.length ? <PerformanceChart data={evolution} /> : <EmptyState title="Sem evolucao ainda" description="O grafico aparece depois do primeiro simulado concluido." />}
+        </Card>
       </div>
     </div>
   );

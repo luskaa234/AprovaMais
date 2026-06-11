@@ -1,13 +1,15 @@
 import { useCallback, useMemo, useState } from "react";
 import { Bell, BookOpenCheck, CalendarDays, Clock3, CreditCard, LogOut, Mail, MapPin, Moon, ShieldCheck, Sun, Target, UserRound } from "lucide-react";
 import { Badge, Button, Card, ProgressBar, cx } from "../../components";
+import TourButton from "../../components/TourButton";
 import { useNotifications, usePreferences, useThemeMode, useUser } from "../../contexts";
 import { ProfileForm } from "../../forms";
+import { cancelCurrentSubscription, paymentPlans, startCheckout } from "../../services/paymentService";
 
 const tabs = [
   { key: "perfil", label: "Editar perfil" },
   { key: "config", label: "Configurações" },
-  { key: "conta", label: "Conta" },
+  { key: "conta", label: "Minha assinatura" },
 ];
 
 const weekDays = [
@@ -45,6 +47,21 @@ function SelectField(props) {
   return <select className="min-h-11 rounded-lg border border-blue-100 bg-white px-3 text-sm font-semibold text-slate-700 outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100" {...props} />;
 }
 
+function formatDate(value) {
+  if (!value) return "Sem data definida";
+  return new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "2-digit", year: "numeric" }).format(new Date(value));
+}
+
+function daysUntil(value) {
+  if (!value) return null;
+  return Math.max(0, Math.ceil((new Date(value).getTime() - Date.now()) / 86400000));
+}
+
+function planName(planId) {
+  if (planId === "gratuito") return "Teste gratis";
+  return paymentPlans[planId]?.name || "Aprova+";
+}
+
 function ToggleButton({ active, children, onClick }) {
   return (
     <button
@@ -61,11 +78,13 @@ function ToggleButton({ active, children, onClick }) {
 }
 
 export default function PerfilPage() {
-  const { logout, user = {}, updateProfile } = useUser();
+  const { logout, user = {}, updateProfile, refreshProfile } = useUser();
   const { addNotification } = useNotifications();
   const preferences = usePreferences();
   const { isDark, toggleTheme } = useThemeMode();
   const [activeTab, setActiveTab] = useState("perfil");
+  const [loadingPlan, setLoadingPlan] = useState("");
+  const [canceling, setCanceling] = useState(false);
   const plan = user.diagnosticPlan || {};
 
   const save = useCallback((profile) => {
@@ -79,6 +98,33 @@ export default function PerfilPage() {
   }, [addNotification, preferences]);
 
   const studyDays = preferences.studyDays || ["segunda", "terca", "quarta", "quinta", "sexta"];
+  const remainingDays = daysUntil(user.planoExpiraEm);
+  const isTrial = user.statusPlano === "trial" || user.emTeste;
+  const isActive = Boolean(user.planoAtivo && (remainingDays === null || remainingDays > 0));
+
+  const openPlan = useCallback(async (nextPlanId) => {
+    try {
+      setLoadingPlan(nextPlanId);
+      await startCheckout(nextPlanId, user);
+    } catch (error) {
+      addNotification({ type: "error", title: "Pagamento indisponivel", message: error.message || "Nao foi possivel abrir o checkout." });
+    } finally {
+      setLoadingPlan("");
+    }
+  }, [addNotification, user]);
+
+  const cancelPlan = useCallback(async () => {
+    try {
+      setCanceling(true);
+      const result = await cancelCurrentSubscription();
+      await refreshProfile?.();
+      addNotification({ type: "success", title: "Assinatura cancelada", message: result.message || "Acesso mantido ate o fim do periodo pago." });
+    } catch (error) {
+      addNotification({ type: "error", title: "Nao foi possivel cancelar", message: error.message || "Tente novamente em instantes." });
+    } finally {
+      setCanceling(false);
+    }
+  }, [addNotification, refreshProfile]);
 
   const profileProgress = useMemo(() => {
     const fields = [
@@ -126,6 +172,9 @@ export default function PerfilPage() {
             <ProgressBar value={profileProgress} color="bg-white" />
             <p className="mt-3 text-xs font-medium leading-5 text-blue-50">Complete dados pessoais, localização e objetivo para melhorar seu plano.</p>
           </div>
+        </div>
+        <div className="flex justify-end border-t border-white/10 bg-white/10 px-5 py-3">
+          <TourButton tour="app" showWhenCompleted>Ver tutorial</TourButton>
         </div>
       </section>
 
@@ -252,15 +301,47 @@ export default function PerfilPage() {
 
       {activeTab === "conta" ? (
         <div className="grid gap-5 lg:grid-cols-2">
-          <Card hover={false} className="border-blue-100 bg-white shadow-sm">
+          <Card hover={false} className="border-blue-100 bg-white shadow-sm lg:col-span-2">
             <div className="mb-4 flex items-center gap-2">
               <CreditCard className="text-blue-600" size={18} />
-              <h2 className="font-bold text-slate-950">Plano atual</h2>
+              <h2 className="font-bold text-slate-950">Minha assinatura</h2>
             </div>
-            <div className="rounded-lg border border-blue-100 bg-blue-50 p-4">
-              <p className="text-sm font-bold text-blue-700">Plano gratuito</p>
-              <strong className="mt-1 block text-xl text-slate-950">Aprova Mais</strong>
-              <p className="mt-2 text-sm text-slate-500">Recursos essenciais ativos para estudar e testar a plataforma.</p>
+            <div className="grid gap-4 lg:grid-cols-[1fr_1.2fr]">
+              <div className="rounded-lg border border-blue-100 bg-blue-50 p-4">
+                <div className="flex flex-wrap items-center gap-2">
+                  <Badge variant={isActive ? "success" : "error"}>{isActive ? "Acesso ativo" : "Acesso bloqueado"}</Badge>
+                  {isTrial ? <Badge>Teste gratis</Badge> : null}
+                </div>
+                <strong className="mt-3 block text-2xl text-slate-950">{planName(user.plano)}</strong>
+                <p className="mt-2 text-sm leading-6 text-slate-600">
+                  {isTrial
+                    ? `Seu teste de 7 dias termina em ${formatDate(user.planoExpiraEm)}${remainingDays !== null ? ` (${remainingDays} dia${remainingDays === 1 ? "" : "s"})` : ""}.`
+                    : `Seu acesso atual vai ate ${formatDate(user.planoExpiraEm)}.`}
+                </p>
+                <p className="mt-2 text-xs font-semibold text-slate-500">Nenhum dado de estudo e apagado ao trocar, cancelar ou renovar o plano.</p>
+              </div>
+
+              <div className="grid gap-3 sm:grid-cols-2">
+                {Object.values(paymentPlans).map((item) => (
+                  <article className={cx("rounded-lg border p-4", item.id === user.plano ? "border-blue-600 bg-blue-50" : "border-blue-100 bg-white")} key={item.id}>
+                    <span className="text-xs font-black uppercase text-blue-600">{item.type}</span>
+                    <h3 className="mt-1 text-lg font-black text-slate-950">{item.name}</h3>
+                    <strong className="mt-3 block text-2xl text-slate-950">{item.price}</strong>
+                    <p className="mt-1 text-sm text-slate-500">Acesso por {item.accessDays} dias.</p>
+                    <Button className="mt-4 w-full" loading={loadingPlan === item.id} onClick={() => openPlan(item.id)}>
+                      {item.id === user.plano && isActive ? "Renovar" : "Assinar"}
+                    </Button>
+                  </article>
+                ))}
+              </div>
+            </div>
+
+            <div className="mt-4 flex flex-col gap-2 rounded-lg border border-slate-200 bg-white p-4 text-sm text-slate-600 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <strong className="block text-slate-950">Cancelamento</strong>
+                <span>Assinaturas recorrentes podem ser canceladas sem apagar seu historico.</span>
+              </div>
+              <Button variant="secondary" loading={canceling} disabled={isTrial || user.plano === "gratuito"} onClick={cancelPlan}>Cancelar assinatura</Button>
             </div>
           </Card>
 

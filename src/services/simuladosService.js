@@ -106,6 +106,18 @@ export const simuladosService = {
     const correct = questoes.filter((questao) => questao.correct).length;
     const percent = questoes.length ? Math.round((correct / questoes.length) * 100) : 0;
     const porMateria = Object.entries(groupCount(questoes.filter((questao) => questao.correct), "materia")).map(([label, valor]) => ({ label, valor }));
-    return { percent, correct, total: questoes.length, tempo: formatTempo(simulado.tempoMinutos), porMateria, respostas, questoes };
+    return {
+      id: simulado.id,
+      nome: simulado.nome,
+      modo: simulado.modo,
+      data: new Date().toISOString(),
+      percent,
+      correct,
+      total: questoes.length,
+      tempo: formatTempo(simulado.tempoMinutos),
+      porMateria,
+      respostas,
+      questoes,
+    };
   },
 };

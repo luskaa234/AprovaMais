@@ -162,7 +162,14 @@ Responda APENAS em JSON, sem markdown:
 
     let cards;
     try {
-      const resposta = await aiService.gerarTexto(prompt);
+      const resposta = await aiService.gerarTexto(prompt, {
+        task: "flashcards",
+        responseFormat: "json",
+        maxOutputTokens: 650,
+        cache: true,
+        cacheKey: `lei-flashcards:${artigo.id}`,
+        cacheTtlDays: 180,
+      });
       cards = parseJsonFromAi(resposta).slice(0, 5).map((card) => ({
         frente: card.frente,
         verso: card.verso,
@@ -196,7 +203,14 @@ A resposta correta deve ser inequivoca e baseada SO no texto do artigo.
 ARTIGO: ${artigo.texto}
 
 JSON apenas: {"enunciado":"...","alternativas":[{"letra":"A","texto":"..."}],"gabarito":"X","comentario":"por que, citando o artigo"}`;
-    const q = parseJsonFromAi(await aiService.gerarTexto(prompt));
+    const q = parseJsonFromAi(await aiService.gerarTexto(prompt, {
+      task: "explain_question",
+      responseFormat: "json",
+      maxOutputTokens: 700,
+      cache: true,
+      cacheKey: `lei-questao:${artigo.id}`,
+      cacheTtlDays: 180,
+    }));
     const questao = {
       id: `lei-${artigo.id}-${Date.now()}`,
       codigo: `LEI-${String(artigo.id).toUpperCase()}`,
@@ -224,7 +238,13 @@ Nao invente regra fora do texto.
 
 ARTIGO:
 ${artigo.texto}`;
-    return aiService.gerarTexto(prompt);
+    return aiService.gerarTexto(prompt, {
+      task: "summary",
+      maxOutputTokens: 520,
+      cache: true,
+      cacheKey: `lei-explica:${artigo.id}:${normalize(objetivo)}`,
+      cacheTtlDays: 180,
+    });
   },
 
   async grifarArtigo({ leiId, artigoId, trecho = "", cor = "yellow" }, userId = null) {

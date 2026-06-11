@@ -104,7 +104,7 @@ function saveSchedule(days, hour) {
 
 export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
   const [messages, setMessages] = useState([
-    { role: "ai", text: aiService.isConfigured ? "API Gemini ativa. Posso explicar questões, organizar revisões e montar planos de estudo com base no seu desempenho real." : "Configure VITE_GEMINI_API_KEY no .env para ativar a API Gemini." },
+    { role: "ai", text: aiService.isConfigured ? "IA segura ativa via Edge Function. Eu calculo dados simples em codigo e chamo a IA so para explicar, orientar e personalizar." : "Supabase nao configurado. Vou responder com fallback local, sem chamar IA." },
   ]);
   const [input, setInput] = useState("");
   const [aiStatus, setAiStatus] = useState(() => aiService.getStatus());
@@ -172,10 +172,10 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
           <h2 className="text-xl font-black">Seu tutor de revisão e questões</h2>
           <p className="text-sm text-slate-600">Peça explicações, planos curtos, revisões por assunto ou análise do seu desempenho.</p>
           <span className="mt-2 inline-flex rounded-full bg-white px-2.5 py-1 text-xs font-black text-blue-700 ring-1 ring-blue-200">
-            {aiService.isConfigured ? `API Gemini ativa · ${aiService.modelName}` : "API não configurada"}
+            {aiService.isConfigured ? aiService.modelName : "Fallback local"}
           </span>
           <span className="ml-2 mt-2 inline-flex rounded-full bg-blue-600 px-2.5 py-1 text-xs font-black text-white">
-            {aiStatus.source === "gemini" ? "Resposta via Gemini" : aiStatus.source === "quota-fallback" ? "Fallback por cota" : aiStatus.source === "error" ? "Erro na API" : "Aguardando teste"}
+            {aiStatus.source === "code" ? "Calculado em codigo" : aiStatus.source === "cache" ? "Resposta em cache" : aiStatus.source === "gemini" ? "Resposta via Gemini" : aiStatus.source?.includes("fallback") ? "Fallback local" : aiStatus.source?.includes("error") ? "Erro na IA" : "Aguardando teste"}
           </span>
         </div>
       </div>

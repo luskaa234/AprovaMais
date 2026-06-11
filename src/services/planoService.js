@@ -168,7 +168,10 @@ export const planoService = {
     const local = usePlanoStore.getState().getAtividades();
     if (!isSupabaseConfigured) return local;
     const userId = await getCurrentUserId();
-    if (!userId) return local;
+    if (!userId) {
+      usePlanoStore.getState().setAtividades([]);
+      return [];
+    }
     const { data, error } = await supabase
       .from("plano_atividades")
       .select("*")
@@ -177,7 +180,8 @@ export const planoService = {
       .order("hora", { ascending: true });
     if (error) {
       console.warn("[planoService] Falha ao carregar plano_atividades:", error.message);
-      return local;
+      usePlanoStore.getState().setAtividades([]);
+      return [];
     }
     const rows = (data || []).map(normalizeActivity);
     usePlanoStore.getState().setAtividades(rows);
@@ -253,7 +257,13 @@ ${JSON.stringify({
 Data inicial da semana: ${isoDate(startDate)}
 Regras: distribua materias importantes, alterne teoria/questoes/revisao e inclua TAF se for objetivo policial ou militar.`;
     try {
-      const text = await aiService.gerarTexto(prompt);
+      const text = await aiService.gerarTexto(prompt, {
+        task: "plan",
+        responseFormat: "json",
+        maxOutputTokens: 900,
+        perfil: user,
+        cache: false,
+      });
       const parsed = parseAiActivities(text, user, startDate);
       return parsed.length ? parsed : fallback;
     } catch (error) {

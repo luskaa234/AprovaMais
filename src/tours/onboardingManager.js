@@ -31,6 +31,10 @@ const routeTours = {
 
 let activeDriver = null;
 
+function storageKey(userId) {
+  return userId ? `${ONBOARDING_STORAGE_KEY}:${userId}` : ONBOARDING_STORAGE_KEY;
+}
+
 function isMobile() {
   return typeof window !== "undefined" && window.matchMedia("(max-width: 767px)").matches;
 }
@@ -47,6 +51,21 @@ function findTourElement(target) {
   const selectors = [`[data-tour="${target}"]`, `#${target}`];
   const matches = selectors.flatMap((selector) => Array.from(document.querySelectorAll(selector)));
   return matches.find(isVisible) || matches[0] || undefined;
+}
+
+function wait(ms) {
+  return new Promise((resolve) => window.setTimeout(resolve, ms));
+}
+
+async function waitForTourElement(target, timeout = 1800) {
+  if (!target) return null;
+  const started = performance.now();
+  let element = findTourElement(target);
+  while (!element && performance.now() - started < timeout) {
+    await wait(80);
+    element = findTourElement(target);
+  }
+  return element || null;
 }
 
 function dispatchMobileMenu(open) {
@@ -76,9 +95,14 @@ function buildDriverSteps(rawSteps) {
   }));
 }
 
-function finishTour(completed, onComplete) {
+function setCompleted(userId) {
+  if (userId) localStorage.setItem(storageKey(userId), "true");
+  else localStorage.setItem(ONBOARDING_STORAGE_KEY, "true");
+}
+
+function finishTour(completed, onComplete, userId) {
   if (completed) {
-    localStorage.setItem(ONBOARDING_STORAGE_KEY, "true");
+    setCompleted(userId);
     onComplete?.();
   }
   dispatchMobileMenu(false);
@@ -86,28 +110,62 @@ function finishTour(completed, onComplete) {
   activeDriver = null;
 }
 
-export function hasCompletedOnboarding() {
+export function hasCompletedOnboarding(user) {
+  if (user?.tourCompleto === true) return true;
+  if (user?.tourCompleto === false) return false;
+  const userKey = user?.id || user?.email;
+  if (userKey) return localStorage.getItem(storageKey(userKey)) === "true";
   return localStorage.getItem(ONBOARDING_STORAGE_KEY) === "true";
 }
 
-export function resetOnboarding() {
-  localStorage.removeItem(ONBOARDING_STORAGE_KEY);
+export function resetOnboarding(userId) {
+  localStorage.removeItem(storageKey(userId));
+  if (!userId) localStorage.removeItem(ONBOARDING_STORAGE_KEY);
 }
 
 export function startTour(rawSteps, options = {}) {
   if (typeof window === "undefined" || !rawSteps?.length) return;
   activeDriver?.destroy();
 
-  const { navigate, onComplete, markCompleted = false, delay = 220 } = options;
+  const { navigate, onComplete, markCompleted = false, delay = 220, userId } = options;
   let instance;
+  let finished = false;
+  let moving = false;
 
-  const moveTo = (index) => {
+  const moveTo = async (index, direction = 1) => {
+    if (moving || finished) return;
+    moving = true;
     const safeIndex = Math.max(0, Math.min(index, rawSteps.length - 1));
-    prepareStep(rawSteps[safeIndex], navigate);
-    window.setTimeout(() => {
-      instance?.moveTo(safeIndex);
-      window.setTimeout(() => instance?.refresh(), 80);
-    }, isMobile() ? 260 : 120);
+    const activeStep = rawSteps[safeIndex];
+    prepareStep(activeStep, navigate);
+    await wait(isMobile() ? 340 : 180);
+    const element = activeStep?.target ? await waitForTourElement(activeStep.target) : null;
+
+    if (activeStep?.target && !element) {
+      moving = false;
+      const nextIndex = safeIndex + direction;
+      if (nextIndex < 0 || nextIndex >= rawSteps.length) {
+        finished = true;
+        finishTour(markCompleted, onComplete, userId);
+        return;
+      }
+      await moveTo(nextIndex, direction);
+      return;
+    }
+
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: isMobile() ? "center" : "nearest", inline: "nearest" });
+      await wait(isMobile() ? 260 : 140);
+    }
+
+    instance?.moveTo(safeIndex);
+    window.setTimeout(() => instance?.refresh(), 120);
+    moving = false;
+  };
+
+  const complete = () => {
+    finished = true;
+    finishTour(markCompleted, onComplete, userId);
   };
 
   instance = driver({
@@ -129,25 +187,31 @@ export function startTour(rawSteps, options = {}) {
     doneBtnText: "Concluir",
     onNextClick: (_, __, { driver: currentDriver }) => {
       if (currentDriver.isLastStep()) {
-        finishTour(markCompleted, onComplete);
+        complete();
         return;
       }
-      moveTo((currentDriver.getActiveIndex() || 0) + 1);
+      moveTo((currentDriver.getActiveIndex() || 0) + 1, 1);
     },
     onPrevClick: (_, __, { driver: currentDriver }) => {
-      moveTo((currentDriver.getActiveIndex() || 0) - 1);
+      moveTo((currentDriver.getActiveIndex() || 0) - 1, -1);
     },
-    onCloseClick: () => finishTour(false),
+    onCloseClick: () => {
+      finished = true;
+      finishTour(markCompleted, onComplete, userId);
+    },
     onDestroyed: () => {
       dispatchMobileMenu(false);
+      if (!finished && markCompleted) {
+        setCompleted(userId);
+        onComplete?.();
+      }
     },
   });
 
   activeDriver = instance;
-  prepareStep(rawSteps[0], navigate);
   window.setTimeout(() => {
     instance.drive(0);
-    window.setTimeout(() => instance.refresh(), 80);
+    moveTo(0, 1);
   }, delay);
 }
 

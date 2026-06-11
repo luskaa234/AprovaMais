@@ -40,6 +40,7 @@ export default function RevisaoPage() {
   const caderno = useQuestoesStore((state) => state.caderno);
   const questoes = useQuestoesStore((state) => state.questoes);
   const decks = useFlashcardsStore((state) => state.decks);
+  const sessoesFlashcards = useFlashcardsStore((state) => state.sessoes);
 
   const today = new Date().toISOString().slice(0, 10);
   const ordered = useMemo(() => [...itens].sort((a, b) => (a.proximaRevisao || a.dueAt || "").localeCompare(b.proximaRevisao || b.dueAt || "")), [itens]);
@@ -51,7 +52,13 @@ export default function RevisaoPage() {
     return questoes.filter((questao) => wrongIds.has(questao.id));
   }, [caderno, questoes, tentativas]);
 
-  const flashcards = useMemo(() => decks.flatMap((deck) => deck.cards.slice(0, 3).map((card) => ({ ...card, materia: deck.materia, deck: deck.titulo }))).slice(0, 8), [decks]);
+  const flashcards = useMemo(() => {
+    const reviewedIds = new Set(sessoesFlashcards.map((item) => item.cardId));
+    if (!reviewedIds.size) return [];
+    return decks
+      .flatMap((deck) => deck.cards.filter((card) => reviewedIds.has(card.id)).slice(0, 3).map((card) => ({ ...card, materia: deck.materia, deck: deck.titulo })))
+      .slice(0, 8);
+  }, [decks, sessoesFlashcards]);
   const mapas = useMemo(() => ordered.slice(0, 4).map((item) => ({ id: `map-${item.assuntoId || item.id}`, materia: item.materia, assunto: item.assunto || item.frente })), [ordered]);
   const resumos = useMemo(() => ordered.slice(0, 4).map((item) => ({ id: `res-${item.assuntoId || item.id}`, title: item.materia, text: `Revise ${item.assunto || item.frente}, refaca questoes do tema e anote a regra que mais caiu.` })), [ordered]);
 
@@ -145,37 +152,37 @@ export default function RevisaoPage() {
 
       {tab === "Flashcards" ? (
         <div className="mt-4 grid gap-4 lg:grid-cols-2">
-          {flashcards.map((item) => (
+          {flashcards.length ? flashcards.map((item) => (
             <Card hover={false} className="border-blue-100 bg-white shadow-sm" key={item.id}>
               <Badge>{item.materia}</Badge>
               <h2 className="mt-3 font-black text-slate-950">{item.frente}</h2>
               <p className="mt-2 text-sm leading-6 text-slate-500">{item.verso}</p>
             </Card>
-          ))}
+          )) : <EmptyState title="Sem flashcards em revisao" description="Depois que voce revisar cards, eles aparecem aqui na fila." />}
         </div>
       ) : null}
 
       {tab === "Mapas Mentais" ? (
         <div className="mt-4 grid gap-4 lg:grid-cols-2">
-          {mapas.map((item) => (
+          {mapas.length ? mapas.map((item) => (
             <Card hover={false} className="border-blue-100 bg-white shadow-sm" key={item.id}>
               <Map className="mb-3 text-blue-600" />
               <h2 className="font-black text-slate-950">{item.materia}</h2>
               <p className="mt-2 text-sm text-slate-500">{item.assunto}</p>
             </Card>
-          ))}
+          )) : <EmptyState title="Sem mapas para revisar" description="Mapas entram aqui quando houver conteudo criado ou revisoes pendentes." />}
         </div>
       ) : null}
 
       {tab === "Resumos" ? (
         <div className="mt-4 grid gap-4 lg:grid-cols-2">
-          {resumos.map((item) => (
+          {resumos.length ? resumos.map((item) => (
             <Card hover={false} className="border-blue-100 bg-white shadow-sm" key={item.id}>
               <FileText className="mb-3 text-blue-600" />
               <h2 className="font-black text-slate-950">{item.title}</h2>
               <p className="mt-2 text-sm leading-6 text-slate-500">{item.text}</p>
             </Card>
-          ))}
+          )) : <EmptyState title="Sem resumos pendentes" description="Quando voce gerar resumos ou tiver revisoes, eles aparecem aqui." />}
         </div>
       ) : null}
     </div>

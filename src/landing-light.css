@@ -519,9 +519,29 @@ main {
   color: #2563eb;
 }
 
+.honest-contest-card .honest-contest-logo-wrap {
+  width: 4.8rem;
+  height: 4.8rem;
+  padding: 0.55rem;
+  border: 1px solid #dbeafe;
+  border-radius: 1.15rem;
+  background: #f8fbff;
+  overflow: hidden;
+}
+
+.honest-contest-logo {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+}
+
 .honest-contest-card strong {
   display: block;
-  margin-top: 1rem;
+  margin-top: 0.9rem;
   color: #07111f;
   font-size: 1.35rem;
   font-weight: 950;
@@ -762,6 +782,19 @@ main {
   .honest-feature-grid,
   .honest-steps {
     grid-template-columns: 1fr;
+  }
+
+  .honest-contest-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .honest-contest-card {
+    padding: 0.9rem;
+  }
+
+  .honest-contest-card .honest-contest-logo-wrap {
+    width: 4.15rem;
+    height: 4.15rem;
   }
 
   .honest-contest-card,
@@ -5144,5 +5177,127 @@ main {
   .trust-grid article > span:last-child {
     min-width: 0 !important;
     overflow-wrap: anywhere !important;
+  }
+}
+
+/* Final auth layout fix: no clipped submit button, standard spacing, functional forms. */
+.auth-saas-page {
+  min-height: 100svh !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+}
+
+.auth-saas-shell {
+  align-items: center !important;
+}
+
+.auth-saas-card,
+.auth-saas-page-entrar .auth-saas-card,
+.auth-saas-page-esqueci-minha-senha .auth-saas-card,
+.auth-saas-page-criar-conta .auth-saas-card {
+  height: auto !important;
+  min-height: 0 !important;
+  overflow: visible !important;
+}
+
+.auth-saas-header {
+  flex: 0 0 auto !important;
+}
+
+.auth-saas-content {
+  flex: 0 0 auto !important;
+  min-height: 0 !important;
+}
+
+.auth-saas-form {
+  display: grid !important;
+  flex: 0 0 auto !important;
+}
+
+.auth-primary-button {
+  width: 100% !important;
+  flex: 0 0 auto !important;
+}
+
+.auth-saas-page-entrar .auth-saas-header {
+  padding-top: 28px !important;
+  padding-bottom: 12px !important;
+}
+
+.auth-saas-page-entrar .auth-saas-content {
+  padding-bottom: 28px !important;
+}
+
+.auth-saas-page-entrar .auth-saas-form {
+  gap: 14px !important;
+}
+
+.auth-saas-page-entrar .auth-saas-logo {
+  margin-bottom: 10px !important;
+}
+
+.auth-saas-page-entrar .auth-saas-description {
+  min-height: 0 !important;
+}
+
+@media (max-height: 760px) and (min-width: 921px) {
+  .auth-saas-page {
+    padding-top: 96px !important;
+    padding-bottom: 32px !important;
+  }
+
+  .auth-saas-copy-logo {
+    margin-bottom: 14px !important;
+  }
+
+  .auth-saas-copy h1 {
+    font-size: clamp(38px, 4.4vw, 58px) !important;
+  }
+
+  .auth-saas-copy p {
+    margin-top: 16px !important;
+    font-size: 17px !important;
+    line-height: 1.55 !important;
+  }
+
+  .auth-saas-page-entrar .auth-saas-header {
+    padding-top: 22px !important;
+  }
+
+  .auth-saas-page-entrar .auth-saas-content {
+    padding-bottom: 22px !important;
+  }
+}
+
+@media (max-width: 920px) {
+  .auth-saas-shell {
+    align-items: start !important;
+  }
+
+  .auth-saas-card {
+    width: min(100%, 480px) !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .auth-saas-page {
+    padding-top: 86px !important;
+    padding-bottom: calc(24px + env(safe-area-inset-bottom, 0px)) !important;
+  }
+
+  .auth-saas-copy {
+    display: none !important;
+  }
+
+  .auth-saas-card {
+    border-radius: 18px !important;
+  }
+
+  .auth-saas-header {
+    padding: 22px 20px 12px !important;
+  }
+
+  .auth-saas-content {
+    padding: 0 20px 22px !important;
   }
 }

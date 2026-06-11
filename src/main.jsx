@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import './landing-light.css'
+import './lib/zodConfig.js'
 import App from './App.jsx'
 import { initApp } from './lib/initApp.js'
 

@@ -52,47 +52,27 @@ function getObjectiveContent(user = {}) {
     };
   }
 
-  if (objective === "enem" || target.includes("enem")) {
+  if (
+    objective === "concurso" ||
+    target.includes("pm") ||
+    target.includes("policia") ||
+    target.includes("bombeiro") ||
+    target.includes("cbm") ||
+    target.includes("prf")
+  ) {
     return {
-      title: "Conteudos ENEM",
-      label: "ENEM",
-      subjects: ["Linguagens", "Matematica", "Ciencias Humanas", "Ciencias da Natureza", "Redacao"],
-      actions: ["Redacao semanal", "Simulado por area", "Prova completa"],
-    };
-  }
-
-  if (target.includes("pm") || target.includes("policia militar")) {
-    return {
-      title: "Conteudos PM",
-      label: "PM",
-      subjects: ["Portugues", "Matematica", "Direito Constitucional", "Direito Penal", "Legislacao Penal Especial", "TAF"],
-      actions: ["Questoes PM", "Simulado PM", "Treino TAF"],
-    };
-  }
-
-  if (objective === "ensino-medio") {
-    return {
-      title: "Conteudos Ensino Medio",
-      label: "Ensino Medio",
-      subjects: ["Portugues", "Matematica", "Biologia", "Fisica", "Quimica", "Historia", "Geografia"],
-      actions: ["Revisao escolar", "Lista de exercicios", "Simulado bimestral"],
-    };
-  }
-
-  if (objective === "vestibular") {
-    return {
-      title: "Conteudos Vestibular",
-      label: user.vestibularName || "Vestibular",
-      subjects: ["Portugues", "Matematica", "Redacao", "Biologia", "Fisica", "Quimica", "Humanas"],
-      actions: ["Simulado vestibular", "Redacao", "Questoes por banca"],
+      title: "Conteudos de seguranca publica",
+      label: user.targetContest || "PM/seguranca",
+      subjects: ["Portugues", "Matematica/RL", "Informatica", "Atualidades", "Direito Constitucional", "Direito Penal", "Processo Penal", "Legislacao Especial", "Direito Militar", "TAF"],
+      actions: ["Questoes oficiais", "Simulado por banca", "Treino TAF"],
     };
   }
 
   return {
-    title: "Conteudos do seu objetivo",
-    label: user.targetContest || "Geral",
-    subjects: user.diagnosticPlan?.prioritySubjects || [],
-    actions: ["Plano semanal", "Questoes", "Revisao"],
+    title: "Estudo geral",
+    label: "Geral",
+    subjects: user.diagnosticPlan?.prioritySubjects || ["Portugues", "Matematica", "Informatica", "Atualidades", "Redacao"],
+    actions: ["Plano semanal", "Questoes disponiveis", "Revisao"],
   };
 }
 
@@ -165,7 +145,7 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
           <button onClick={() => navigate("perfil")} type="button">Perfil</button>
         </div>
         {ranking.slice(0, 3).map((item) => (
-          <div className="mobile-study-rank" key={item.nome}>
+          <div className="mobile-study-rank" key={`${item.posicao}-${item.nome}-${item.pontos}`}>
             <strong>{item.posicao}</strong>
             <span>{item.nome}</span>
             <b>{item.pontos}</b>
@@ -184,7 +164,8 @@ export default function DashboardPage() {
   const rankingLocal = useRankingStore((state) => state.ranking);
   const revisoesLocal = useRevisaoStore((state) => state.pendentesHoje);
   const progressoPorDisciplina = usePlanoStore((state) => state.progressoPorDisciplina);
-  const [remote, setRemote] = useState({ profile: null, ranking: null, revisoes: null, performance: null });
+  const usingSupabaseUser = isSupabaseConfigured && Boolean(user?.id);
+  const [remote, setRemote] = useState({ profile: null, ranking: null, revisoes: null, performance: null, tentativas: null });
   const [relatorio, setRelatorio] = useState(null);
   const [gerandoRelatorio, setGerandoRelatorio] = useState(false);
   const [materiasDoPerfil, setMateriasDoPerfil] = useState([]);
@@ -216,14 +197,17 @@ export default function DashboardPage() {
       const [profileRes, revisoesRes, rankingRes, tentativasRes] = await Promise.all([
         supabase.from("profiles").select("*").eq("id", user.id).maybeSingle(),
         supabase.from("revisoes").select("*").eq("user_id", user.id).lte("proxima", hoje).limit(5),
-        supabase.from("ranking").select("pontos, profiles(name)").order("pontos", { ascending: false }).limit(5),
-        supabase.from("tentativas").select("acertou, created_at").eq("user_id", user.id).gte("created_at", seteDias.toISOString()),
+        supabase.from("ranking").select("pontos, profiles(name)").eq("user_id", user.id).limit(1),
+        supabase.from("tentativas").select("questao_id, acertou, created_at").eq("user_id", user.id),
       ]);
 
       if (!alive) return;
 
       const labels = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sab"];
-      const grouped = (tentativasRes.data || []).reduce((acc, item) => {
+      const tentativasUsuario = tentativasRes.data || [];
+      const grouped = tentativasUsuario
+        .filter((item) => new Date(item.created_at) >= seteDias)
+        .reduce((acc, item) => {
         const label = labels[new Date(item.created_at).getDay()];
         acc[label] ||= { total: 0, acertos: 0 };
         acc[label].total += 1;
@@ -236,6 +220,11 @@ export default function DashboardPage() {
         revisoes: revisoesRes.data || null,
         ranking: rankingRes.data?.map((item, index) => ({ posicao: index + 1, nome: item.profiles?.name || "Aluno", pontos: item.pontos })) || null,
         performance: Object.entries(grouped).map(([label, value]) => ({ label, acertos: value.total ? Math.round((value.acertos / value.total) * 100) : 0 })),
+        tentativas: tentativasUsuario.map((item) => ({
+          questaoId: item.questao_id,
+          acertou: Boolean(item.acertou),
+          data: item.created_at,
+        })),
       });
     }
 
@@ -259,17 +248,21 @@ export default function DashboardPage() {
     };
   }, [objectiveArea]);
 
-  const tempo = useMemo(() => Object.entries(progressoPorDisciplina).map(([label, valor]) => ({ label, valor })), [progressoPorDisciplina]);
+  const activeTentativas = useMemo(() => (usingSupabaseUser ? (remote.tentativas || []) : tentativas), [remote.tentativas, tentativas, usingSupabaseUser]);
+  const tempo = useMemo(() => {
+    if (usingSupabaseUser) return [];
+    return Object.entries(progressoPorDisciplina).map(([label, valor]) => ({ label, valor }));
+  }, [progressoPorDisciplina, usingSupabaseUser]);
   const stats = remote.profile || user.rawStats || {};
-  const revisoes = remote.revisoes || revisoesLocal;
-  const ranking = remote.ranking || rankingLocal;
-  const performance = remote.performance?.length ? remote.performance : localPerformance;
-  const questoesResolvidas = tentativas.length;
-  const acertos = tentativas.filter((item) => item.acertou).length;
+  const revisoes = usingSupabaseUser ? (remote.revisoes || []) : revisoesLocal;
+  const ranking = usingSupabaseUser ? (remote.ranking || []) : rankingLocal;
+  const performance = usingSupabaseUser ? (remote.performance || []) : localPerformance;
+  const questoesResolvidas = activeTentativas.length;
+  const acertos = activeTentativas.filter((item) => item.acertou).length;
   const taxaAcertos = questoesResolvidas ? Math.round((acertos / questoesResolvidas) * 100) : 0;
-  const sequenciaTentativas = new Set(tentativas.map((item) => item.data?.slice(0, 10)).filter(Boolean)).size;
+  const sequenciaTentativas = new Set(activeTentativas.map((item) => item.data?.slice(0, 10)).filter(Boolean)).size;
   const desempenhoIA = useMemo(() => {
-    const porMateria = tentativas.reduce((acc, tentativa) => {
+    const porMateria = activeTentativas.reduce((acc, tentativa) => {
       const questao = questoes.find((item) => item.id === tentativa.questaoId);
       const materia = tentativa.materia || questao?.materiaLabel || questao?.materia;
       if (!materia || materia === "Nao informada") return acc;
@@ -291,7 +284,7 @@ export default function DashboardPage() {
       porMateria,
       materiasFracas,
     };
-  }, [questoes, questoesResolvidas, sequenciaTentativas, taxaAcertos, tentativas]);
+  }, [activeTentativas, questoes, questoesResolvidas, sequenciaTentativas, taxaAcertos]);
   const subjectsLiberados = materiasDoPerfil.length ? materiasDoPerfil : objectiveContent.subjects;
 
   const handleRelatorio = async () => {
@@ -455,36 +448,50 @@ export default function DashboardPage() {
         </Card>
         <Card>
           <h2 className="mb-3 font-bold text-white">Tempo por disciplina</h2>
-          <StudyTimeChart data={tempo} />
+          {tempo.length ? (
+            <StudyTimeChart data={tempo} />
+          ) : (
+            <div className="flex h-72 items-center justify-center rounded-lg border border-dashed border-gray-800 text-center text-sm text-gray-400">
+              Estude e resolva questoes para ver a distribuicao por disciplina.
+            </div>
+          )}
         </Card>
       </div>
 
       <div className="mt-4 grid gap-4 xl:grid-cols-[1fr_1fr_0.8fr]">
         <Card>
           <h2 className="mb-3 font-bold text-white">Sequencia</h2>
-          <HeatmapCalendar />
+          <HeatmapCalendar entries={activeTentativas} />
         </Card>
         <Card>
           <h2 className="mb-3 font-bold text-white">Proximas revisoes</h2>
-          {revisoes.slice(0, 4).map((item) => (
-            <div key={item.id || item.assuntoId} className="mb-2 flex justify-between rounded-lg bg-gray-900 p-3 text-sm text-gray-300">
-              <span>{item.frente || item.assunto}</span>
-              <Badge variant="warning">{item.urgencia || item.proxima || "hoje"}</Badge>
-            </div>
-          ))}
+          {revisoes.length ? (
+            revisoes.slice(0, 4).map((item) => (
+              <div key={item.id || item.assuntoId} className="mb-2 flex justify-between rounded-lg bg-gray-900 p-3 text-sm text-gray-300">
+                <span>{item.frente || item.assunto}</span>
+                <Badge variant="warning">{item.urgencia || item.proxima || "hoje"}</Badge>
+              </div>
+            ))
+          ) : (
+            <p className="rounded-lg border border-dashed border-gray-800 p-4 text-sm text-gray-400">Nenhuma revisao ainda. Elas aparecem depois que voce resolve questoes ou cria flashcards.</p>
+          )}
         </Card>
         <Card>
           <h2 className="mb-3 font-bold text-white">Ranking</h2>
-          {ranking.slice(0, 5).map((item) => (
-            <div key={item.nome} className="flex justify-between border-b border-gray-800 py-2 text-sm">
-              <span>
-                {item.posicao}. {item.nome}
-              </span>
-              <strong className="text-blue-700">{item.pontos}</strong>
-            </div>
-          ))}
+          {ranking.length ? (
+            ranking.slice(0, 5).map((item) => (
+              <div key={`${item.posicao}-${item.nome}-${item.pontos}`} className="flex justify-between border-b border-gray-800 py-2 text-sm">
+                <span>
+                  {item.posicao}. {item.nome}
+                </span>
+                <strong className="text-blue-700">{item.pontos}</strong>
+              </div>
+            ))
+          ) : (
+            <p className="rounded-lg border border-dashed border-gray-800 p-4 text-sm text-gray-400">Seu ranking aparece depois das primeiras questoes.</p>
+          )}
           <AIPanel
-            text="Sua prioridade hoje: Constitucional, revisao dos erros e treino TAF de corrida."
+            text={questoesResolvidas ? "Sua prioridade hoje sera calculada pelos seus erros, acertos e revisoes pendentes." : "Resolva algumas questoes para o assistente identificar suas prioridades reais."}
             action={
               <Button size="sm" onClick={() => navigate("taf")}>
                 Abrir TAF

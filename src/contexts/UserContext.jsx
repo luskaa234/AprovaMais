@@ -1,7 +1,7 @@
 /* eslint-disable react-refresh/only-export-components */
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import { isSupabaseConfigured, supabase } from "../lib/supabase";
-import { useUserStore } from "../stores";
+import { useNotificacoesStore, usePlanoStore, useQuestoesStore, useRankingStore, useRevisaoStore, useSimuladosStore, useUserStore } from "../stores";
 
 const UserContext = createContext(null);
 
@@ -11,7 +11,22 @@ const profileFieldMap = {
   horasSemanais: "horas_semanais",
   diasDisponiveis: "dias_disponiveis",
   onboardingComplete: "onboarding_completo",
+  statusPlano: "status_plano",
+  planoAtivo: "plano_ativo",
+  planoExpiraEm: "plano_expira_em",
+  emTeste: "em_teste",
+  vitalicio: "vitalicio",
+  tourCompleto: "tour_completo",
 };
+
+const nullableDateFields = new Set(["data_prova", "plano_expira_em", "trial_inicio"]);
+const nullableNumberFields = new Set(["horas_semanais", "dias_disponiveis"]);
+
+function normalizeProfileValue(dbKey, value) {
+  if (nullableDateFields.has(dbKey) && value === "") return null;
+  if (nullableNumberFields.has(dbKey) && value === "") return null;
+  return value;
+}
 
 function toProfileUpdates(updates) {
   const allowed = new Set([
@@ -23,13 +38,60 @@ function toProfileUpdates(updates) {
     "horas_semanais",
     "dias_disponiveis",
     "onboarding_completo",
+    "plano",
+    "tour_completo",
   ]);
 
   return Object.entries(updates).reduce((mapped, [key, value]) => {
     const dbKey = profileFieldMap[key] || key;
-    if (allowed.has(dbKey)) mapped[dbKey] = value;
+    if (allowed.has(dbKey)) mapped[dbKey] = normalizeProfileValue(dbKey, value);
     return mapped;
   }, {});
+}
+
+async function upsertProfileWithFallback(payload, options = { onConflict: "id" }) {
+  const normalizedPayload = Object.fromEntries(
+    Object.entries(payload).map(([key, value]) => [key, normalizeProfileValue(key, value)])
+  );
+  const { data, error } = await supabase.from("profiles").upsert(normalizedPayload, options).select().single();
+  if (!error) return data;
+
+  const message = String(error.message || "");
+  const isConflict = error.code === "23505" || error.status === 409 || /duplicate|unique|conflict/i.test(message);
+  if (isConflict && normalizedPayload.id) {
+    const existing = await supabase.from("profiles").select("*").eq("id", normalizedPayload.id).maybeSingle();
+    if (existing.data) return existing.data;
+  }
+
+  const isSchemaMismatch = error.code === "PGRST204" || /column|schema cache|trial_inicio|plano_ativo|plano_expira_em|em_teste|tour_completo/i.test(message);
+  if (!isSchemaMismatch) throw error;
+
+  const minimalPayload = {
+    id: normalizedPayload.id,
+    name: normalizedPayload.name || normalizedPayload.email?.split("@")?.[0] || "Aluno Aprova+",
+    email: normalizedPayload.email,
+    concurso_alvo: normalizedPayload.concurso_alvo,
+    data_prova: normalizedPayload.data_prova,
+    nivel: normalizedPayload.nivel,
+    horas_semanais: normalizedPayload.horas_semanais,
+    dias_disponiveis: normalizedPayload.dias_disponiveis,
+    onboarding_completo: normalizedPayload.onboarding_completo,
+  };
+  const cleanPayload = Object.fromEntries(
+    Object.entries(minimalPayload)
+      .filter(([, value]) => value !== undefined)
+      .map(([key, value]) => [key, normalizeProfileValue(key, value)])
+  );
+  const fallback = await supabase.from("profiles").upsert(cleanPayload, options).select().single();
+  if (fallback.error) {
+    const fallbackConflict = fallback.error.code === "23505" || fallback.error.status === 409 || /duplicate|unique|conflict/i.test(String(fallback.error.message || ""));
+    if (fallbackConflict && cleanPayload.id) {
+      const existing = await supabase.from("profiles").select("*").eq("id", cleanPayload.id).maybeSingle();
+      if (existing.data) return existing.data;
+    }
+    throw fallback.error;
+  }
+  return fallback.data;
 }
 
 function readLocalSession() {
@@ -39,6 +101,27 @@ function readLocalSession() {
   } catch {
     return null;
   }
+}
+
+function resetPersistedStudyStateForAuthUser(userId) {
+  if (typeof window === "undefined" || !userId) return;
+  const storageKey = "aprovamais-active-auth-user";
+  const previousUserId = window.localStorage.getItem(storageKey);
+  if (previousUserId === userId) return;
+
+  useUserStore.getState().updateStats({ horasEstudadas: 0, questoesResolvidas: 0, taxaAcertos: 0, sequenciaDias: 0, tafNota: 0 });
+  useQuestoesStore.setState({ tentativas: [], salvas: [], caderno: [], errosSuperados: [] });
+  usePlanoStore.setState({ atividades: [] });
+  useRankingStore.setState({ ranking: [], pontos: 0 });
+  useRevisaoStore.setState({ revisoes: [] });
+  useSimuladosStore.setState({ simulados: [], ativo: null });
+  useNotificacoesStore.setState({ notificacoes: [] });
+  [
+    "aprova-plano-preferencias",
+    "aprova-plano-timers",
+    "aprova-plano-inteligente-gerado",
+  ].forEach((key) => window.localStorage.removeItem(key));
+  window.localStorage.setItem(storageKey, userId);
 }
 
 export function UserProvider({ children }) {
@@ -56,22 +139,38 @@ export function UserProvider({ children }) {
     return data;
   }, []);
 
+  const ensureProfile = useCallback(async (user) => {
+    if (!isSupabaseConfigured || !user) return null;
+    const existing = await fetchProfile(user);
+    if (existing) return existing;
+
+    return upsertProfileWithFallback({
+      id: user.id,
+      name: user.user_metadata?.name || user.email?.split("@")?.[0] || "Aluno Aprova+",
+      email: user.email,
+      tour_completo: false,
+      onboarding_completo: false,
+    }, { onConflict: "id" });
+  }, [fetchProfile]);
+
   useEffect(() => {
     if (!isSupabaseConfigured) return undefined;
     let alive = true;
 
     supabase.auth.getSession().then(async ({ data: { session } }) => {
       if (!alive) return;
+      if (session?.user?.id) resetPersistedStudyStateForAuthUser(session.user.id);
       setAuthUser(session?.user || null);
-      setProfile(session?.user ? await fetchProfile(session.user) : null);
+      setProfile(session?.user ? await ensureProfile(session.user) : null);
       setIsLoading(false);
     });
 
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange(async (_event, session) => {
+      if (session?.user?.id) resetPersistedStudyStateForAuthUser(session.user.id);
       setAuthUser(session?.user || null);
-      setProfile(session?.user ? await fetchProfile(session.user) : null);
+      setProfile(session?.user ? await ensureProfile(session.user) : null);
       setIsLoading(false);
     });
 
@@ -79,7 +178,7 @@ export function UserProvider({ children }) {
       alive = false;
       subscription.unsubscribe();
     };
-  }, [fetchProfile]);
+  }, [ensureProfile]);
 
   const login = useCallback(async (email, password) => {
     if (!isSupabaseConfigured) {
@@ -95,20 +194,27 @@ export function UserProvider({ children }) {
   }, [localUser, updateUser]);
 
   const register = useCallback(async (name, email, password) => {
-    const session = { email, name, registrationPending: true, loggedAt: new Date().toISOString() };
+    resetPersistedStudyStateForAuthUser(String(email || "").toLowerCase());
+    const trialEndsAt = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString();
+    const session = { email, name, registrationPending: true, loggedAt: new Date().toISOString(), planoAtivo: true, planoExpiraEm: trialEndsAt, emTeste: true };
     if (!isSupabaseConfigured) {
       window.localStorage.setItem("aprovamais-session", JSON.stringify(session));
       setLocalSession(session);
-      updateUser({ name, email, onboardingComplete: false });
+      updateUser({ name, email, onboardingComplete: false, planoAtivo: true, planoExpiraEm: trialEndsAt, emTeste: true, statusPlano: "trial" });
       return true;
     }
-    const { error } = await supabase.auth.signUp({ email, password, options: { data: { name } } });
+    const { data, error } = await supabase.auth.signUp({ email, password, options: { data: { name } } });
     if (error) throw error;
+
+    if (data.session?.user?.id) {
+      const createdProfile = await fetchProfile(data.session.user);
+      if (createdProfile) setProfile(createdProfile);
+    }
     window.localStorage.setItem("aprovamais-session", JSON.stringify(session));
     setLocalSession(session);
-    updateUser({ name, email, onboardingComplete: false, loggedOut: false });
+    updateUser({ name, email, onboardingComplete: false, loggedOut: false, planoAtivo: true, planoExpiraEm: trialEndsAt, emTeste: true, statusPlano: "trial" });
     return true;
-  }, [updateUser]);
+  }, [fetchProfile, updateUser]);
 
   const loginWithGoogle = useCallback(async () => {
     if (!isSupabaseConfigured) {
@@ -145,15 +251,17 @@ export function UserProvider({ children }) {
       return updates;
     }
     const dbUpdates = toProfileUpdates(updates);
-    const { data, error } = await supabase
-      .from("profiles")
-      .upsert({ id: authUser.id, email: authUser.email, ...dbUpdates }, { onConflict: "id" })
-      .select()
-      .single();
-    if (error) throw error;
+    const data = await upsertProfileWithFallback({ id: authUser.id, email: authUser.email, ...dbUpdates }, { onConflict: "id" });
     setProfile(data);
     return data;
   }, [authUser, updateUser]);
+
+  const refreshProfile = useCallback(async () => {
+    if (!isSupabaseConfigured || !authUser) return null;
+    const data = await fetchProfile(authUser);
+    if (data) setProfile(data);
+    return data;
+  }, [authUser, fetchProfile]);
 
   const appUser = useMemo(() => {
     if (isSupabaseConfigured && authUser && profile) {
@@ -171,6 +279,12 @@ export function UserProvider({ children }) {
         name: profile.name,
         role: profile.role,
         plano: profile.plano,
+        statusPlano: profile.status_plano,
+        planoAtivo: Boolean(profile.plano_ativo),
+        planoExpiraEm: profile.plano_expira_em,
+        emTeste: Boolean(profile.em_teste),
+        vitalicio: Boolean(profile.vitalicio),
+        tourCompleto: profile.tour_completo === null || profile.tour_completo === undefined ? true : Boolean(profile.tour_completo),
         targetContest: profile.concurso_alvo,
         dataProva: profile.data_prova,
         nivel: profile.nivel,
@@ -223,6 +337,10 @@ export function UserProvider({ children }) {
         name: authUser.user_metadata?.name || authUser.email?.split("@")[0] || "Aluno Aprova+",
         role: "student",
         plano: "gratuito",
+        statusPlano: "trial",
+        planoAtivo: true,
+        planoExpiraEm: null,
+        emTeste: true,
         targetContest: "",
         username: localUser.username,
         phone: localUser.phone,
@@ -232,6 +350,33 @@ export function UserProvider({ children }) {
         state: localUser.state,
         country: localUser.country,
         onboardingComplete: false,
+        stats: {
+          hours: 0,
+          questions: 0,
+          accuracy: 0,
+          streak: 0,
+          taf: 0,
+        },
+        rawStats: {},
+      };
+    }
+    if (isSupabaseConfigured && !authUser && localSession?.registrationPending) {
+      return {
+        id: null,
+        email: localSession.email,
+        name: localSession.name || localSession.email?.split("@")?.[0] || "Aluno Aprova+",
+        role: "student",
+        plano: "gratuito",
+        statusPlano: "trial",
+        planoAtivo: Boolean(localSession.planoAtivo),
+        planoExpiraEm: localSession.planoExpiraEm,
+        emTeste: Boolean(localSession.emTeste),
+        onboardingComplete: Boolean(localUser.onboardingComplete),
+        targetContest: localUser.targetContest,
+        dataProva: localUser.dataProva,
+        nivel: localUser.nivel,
+        horasSemanais: localUser.horasSemanais,
+        diasDisponiveis: localUser.diasDisponiveis,
         stats: {
           hours: 0,
           questions: 0,
@@ -253,12 +398,12 @@ export function UserProvider({ children }) {
       },
       rawStats: localStats,
     };
-  }, [authUser, localStats, localUser, profile]);
+  }, [authUser, localSession, localStats, localUser, profile]);
 
   const isAuthenticated = isSupabaseConfigured
     ? Boolean(authUser || localSession?.registrationPending)
     : Boolean(localSession && !localUser?.loggedOut);
-  const value = useMemo(() => ({ user: appUser, isAdmin: appUser?.role === "admin", isAuthenticated, isLoading, login, loginWithGoogle, register, logout, updateProfile }), [appUser, isAuthenticated, isLoading, login, loginWithGoogle, logout, register, updateProfile]);
+  const value = useMemo(() => ({ user: appUser, isAdmin: appUser?.role === "admin", isAuthenticated, isLoading, login, loginWithGoogle, register, logout, updateProfile, refreshProfile }), [appUser, isAuthenticated, isLoading, login, loginWithGoogle, logout, refreshProfile, register, updateProfile]);
   return <UserContext.Provider value={value}>{children}</UserContext.Provider>;
 }
 

@@ -1,21 +1,76 @@
+import { requireSupabase, supabase } from "../lib/supabase";
+
 export const paymentPlans = {
   essencial: {
     id: "essencial",
     name: "Aprova+ Essencial",
+    type: "mensal",
+    price: "R$ 39,90",
+    priceInCents: 3990,
+    accessDays: 30,
     checkoutUrl: import.meta.env.VITE_CHECKOUT_ESSENCIAL_URL,
   },
   pro: {
     id: "pro",
     name: "Aprova+ Pro",
+    type: "anual",
+    price: "R$ 298,80",
+    priceInCents: 29880,
+    accessDays: 365,
     checkoutUrl: import.meta.env.VITE_CHECKOUT_PRO_URL,
   },
 };
 
-const checkoutEndpoint = import.meta.env.VITE_PAYMENT_CHECKOUT_ENDPOINT || "/api/create-checkout";
+const checkoutEndpoint = import.meta.env.VITE_PAYMENT_CHECKOUT_ENDPOINT || (import.meta.env.PROD ? "/api/create-checkout" : "");
+const mpPublicKey = import.meta.env.VITE_MP_PUBLIC_KEY;
+
+function openCheckoutModal(planId) {
+  if (typeof window === "undefined") return false;
+  window.localStorage.setItem("aprova-pending-plan", planId);
+  window.dispatchEvent(new CustomEvent("aprova:open-checkout", { detail: { planId } }));
+  return true;
+}
+
+async function extractFunctionError(error, fallback) {
+  if (!error) return fallback;
+  const response = error.context;
+  if (response && typeof response.json === "function") {
+    try {
+      const payload = await response.clone().json();
+      if (payload?.error) return payload.error;
+    } catch {
+      // Mantem fallback abaixo.
+    }
+  }
+  return error.message || fallback;
+}
+
+async function invokePaymentFunction(name, body, fallback) {
+  const client = requireSupabase();
+  try {
+    const { data, error } = await client.functions.invoke(name, { body });
+    if (error || data?.error) {
+      throw new Error(data?.error || await extractFunctionError(error, fallback));
+    }
+    return data;
+  } catch (error) {
+    throw new Error(error.message || fallback, { cause: error });
+  }
+}
 
 export async function startCheckout(planId = "essencial", user) {
   const plan = paymentPlans[planId] || paymentPlans.essencial;
   window.localStorage.setItem("aprova-pending-plan", plan.id);
+
+  if (supabase && !user?.id) {
+    window.location.assign("/criar-conta");
+    return;
+  }
+
+  if (supabase) {
+    openCheckoutModal(plan.id);
+    return;
+  }
 
   if (checkoutEndpoint) {
     const response = await fetch(checkoutEndpoint, {
@@ -52,7 +107,75 @@ export async function startCheckout(planId = "essencial", user) {
   throw new Error("Checkout nao configurado. Configure MP_ACCESS_TOKEN ou VITE_CHECKOUT_*_URL.");
 }
 
+export async function createPixPayment(planId = "essencial") {
+  return invokePaymentFunction("criar-pagamento-pix", { plano_id: planId }, "Nao foi possivel gerar Pix.");
+}
+
+export async function createCardSubscription(planId = "essencial", cardToken) {
+  return invokePaymentFunction("criar-assinatura-cartao", { plano_id: planId, card_token: cardToken }, "Nao foi possivel criar assinatura.");
+}
+
+export async function createDebitPayment(planId = "essencial", payload) {
+  return invokePaymentFunction("criar-pagamento-debito", { plano_id: planId, ...payload }, "Nao foi possivel criar pagamento.");
+}
+
+export async function verifyPremiumAccess() {
+  return invokePaymentFunction("verificar-acesso", {}, "Nao foi possivel verificar acesso.");
+}
+
+export async function cancelCurrentSubscription() {
+  return invokePaymentFunction("cancelar-assinatura", {}, "Nao foi possivel cancelar a assinatura.");
+}
+
+export function loadMercadoPagoSdk() {
+  if (!mpPublicKey) throw new Error("VITE_MP_PUBLIC_KEY nao configurada.");
+  if (typeof window === "undefined") throw new Error("Checkout indisponivel fora do navegador.");
+  if (window.MercadoPago) return Promise.resolve(new window.MercadoPago(mpPublicKey, { locale: "pt-BR" }));
+
+  return new Promise((resolve, reject) => {
+    const existing = document.querySelector('script[data-mercadopago-sdk="true"]');
+    if (existing) {
+      existing.addEventListener("load", () => resolve(new window.MercadoPago(mpPublicKey, { locale: "pt-BR" })), { once: true });
+      existing.addEventListener("error", () => reject(new Error("Falha ao carregar SDK do Mercado Pago.")), { once: true });
+      return;
+    }
+
+    const script = document.createElement("script");
+    script.src = "https://sdk.mercadopago.com/js/v2";
+    script.async = true;
+    script.dataset.mercadopagoSdk = "true";
+    script.onload = () => resolve(new window.MercadoPago(mpPublicKey, { locale: "pt-BR" }));
+    script.onerror = () => reject(new Error("Falha ao carregar SDK do Mercado Pago."));
+    document.head.appendChild(script);
+  });
+}
+
+export async function createMercadoPagoCardToken(card) {
+  const mp = await loadMercadoPagoSdk();
+  const [expirationMonth = "", expirationYear = ""] = String(card.expiration || "").split("/");
+  const token = await mp.createCardToken({
+    cardNumber: card.cardNumber.replace(/\D/g, ""),
+    cardholderName: card.cardholderName,
+    cardExpirationMonth: expirationMonth.trim(),
+    cardExpirationYear: expirationYear.trim().length === 2 ? `20${expirationYear.trim()}` : expirationYear.trim(),
+    securityCode: card.securityCode,
+    identificationType: card.identificationType || "CPF",
+    identificationNumber: card.identificationNumber.replace(/\D/g, ""),
+  });
+
+  if (!token?.id) {
+    throw new Error(token?.message || "Nao foi possivel tokenizar o cartao.");
+  }
+  return token;
+}
+
 export const paymentService = {
   startCheckout,
+  createPixPayment,
+  createCardSubscription,
+  createDebitPayment,
+  createMercadoPagoCardToken,
+  verifyPremiumAccess,
+  cancelCurrentSubscription,
   paymentPlans,
 };

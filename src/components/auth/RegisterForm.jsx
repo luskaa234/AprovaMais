@@ -46,7 +46,6 @@ function RegisterForm() {
   const onSubmit = async ({ name, email, password }) => {
     try {
       await createAccount(name, email, password);
-      localStorage.setItem("aprovamais-session", JSON.stringify({ email, name, loggedAt: new Date().toISOString() }));
       toast.success("Conta criada. Seus 7 dias gratis foram iniciados.");
       navigate("/");
     } catch (error) {

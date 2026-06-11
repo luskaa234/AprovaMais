@@ -1,6 +1,5 @@
 import { useMemo, useState } from "react";
 import {
-  BookOpenCheck,
   BriefcaseBusiness,
   CalendarDays,
   CheckCircle2,
@@ -8,8 +7,6 @@ import {
   ChevronRight,
   Clock3,
   FileText,
-  GraduationCap,
-  Layers3,
   Scale,
   Sparkles,
   Target,
@@ -24,11 +21,16 @@ import { aiService } from "../services";
 
 const objectives = [
   { value: "oab", label: "OAB", icon: Scale },
-  { value: "concurso", label: "Concurso Publico", icon: BriefcaseBusiness },
-  { value: "enem", label: "ENEM", icon: GraduationCap },
-  { value: "ensino-medio", label: "Ensino Medio", icon: BookOpenCheck },
-  { value: "vestibular", label: "Vestibular", icon: Target },
-  { value: "outro", label: "Outro", icon: Layers3 },
+  { value: "concurso", label: "Concurso PM/seguranca", icon: BriefcaseBusiness },
+  { value: "geral", label: "Estudo geral", icon: Target },
+];
+
+const securityContestOptions = [
+  { value: "PM", label: "Policia Militar" },
+  { value: "CBM", label: "Bombeiros" },
+  { value: "PC", label: "Policia Civil" },
+  { value: "PP", label: "Policia Penal" },
+  { value: "PRF", label: "Policia Rodoviaria Federal" },
 ];
 
 const weekDays = [
@@ -53,7 +55,20 @@ const legalSubjects = [
   "Processo do Trabalho",
 ];
 
-const schoolSubjects = ["Biologia", "Fisica", "Quimica", "Historia", "Geografia", "Literatura", "Sociologia", "Filosofia"];
+const securitySubjects = [
+  "Portugues",
+  "Matematica/RL",
+  "Informatica",
+  "Historia/Geografia",
+  "Atualidades",
+  "Direito Constitucional",
+  "Direito Penal",
+  "Processo Penal",
+  "Legislacao Especial",
+  "Direito Militar/Legislacao PM",
+  "Redacao",
+  "TAF",
+];
 const levels = ["Estou comecando agora", "Basico", "Intermediario", "Avancado"];
 
 const stepTitles = [
@@ -86,10 +101,12 @@ function fileToDataUrl(file) {
 
 function subjectsForObjective(objective) {
   if (objective === "oab") return [...legalSubjects, "Etica Profissional", "Peca Pratica"];
-  if (objective === "enem" || objective === "vestibular") return [...generalSubjects, ...schoolSubjects];
-  if (objective === "ensino-medio") return ["Portugues", "Matematica", ...schoolSubjects, "Ingles", "Redacao"];
-  if (objective === "concurso") return [...generalSubjects, ...legalSubjects];
-  return [...generalSubjects, ...schoolSubjects];
+  if (objective === "concurso") return securitySubjects;
+  return generalSubjects;
+}
+
+function normalizeOnboardingObjective(objective) {
+  return objectives.some((item) => item.value === objective) ? objective : "";
 }
 
 function buildDiagnosticPlan(form) {
@@ -132,16 +149,16 @@ function buildDiagnosticPlan(form) {
       "Revisao espacada",
       "Simulado e caderno de erros",
     ],
-    simulations: form.objective === "enem"
-      ? ["Simulado ENEM por area", "Redacao semanal", "Prova completa quinzenal"]
-      : form.objective === "oab"
+    simulations: form.objective === "oab"
         ? ["Simulado OAB 1a fase", "Treino de peca", "Questoes FGV por disciplina"]
+        : form.objective === "concurso"
+          ? ["Questoes PM/seguranca", "Simulado por banca", "Revisao dos erros"]
         : ["Blocos por banca", "Simulado semanal", "Revisao dos erros"],
     weeklyGoals: [
       `${weeklyHours}h de estudo liquido`,
       `${Math.max(80, weeklyHours * 12)} questoes por semana`,
       `${Math.max(2, availableDays.length)} revisoes programadas`,
-      form.objective === "enem" || form.objective === "vestibular" ? "1 redacao por semana" : "1 simulado por semana",
+      form.objective === "geral" ? "1 bloco de revisao por semana" : "1 simulado por semana",
     ],
     evolutionForecast: weeklyHours >= 20
       ? "Evolucao rapida: revise desempenho a cada 7 dias."
@@ -189,19 +206,19 @@ export default function Onboarding() {
   const [isSaving, setIsSaving] = useState(false);
   const [form, setForm] = useState({
     name: user?.name || "",
-    objective: user?.objective || "",
-    customObjective: user?.customObjective || "",
+    objective: normalizeOnboardingObjective(user?.objective),
+    customObjective: "",
     contestName: user?.contestName || "",
     contestState: user?.contestState || "",
     examBoard: user?.examBoard || "",
     examDate: user?.dataProva || "",
     oabPhase: user?.oabPhase || "1-fase",
     oabSecondPhaseArea: user?.oabSecondPhaseArea || "",
-    enemTargetScore: user?.enemTargetScore || "",
-    desiredCourse: user?.desiredCourse || "",
-    schoolYear: user?.schoolYear || "",
-    schoolType: user?.schoolType || "",
-    vestibularName: user?.vestibularName || "",
+    enemTargetScore: "",
+    desiredCourse: "",
+    schoolYear: "",
+    schoolType: "",
+    vestibularName: "",
     hoursPerDay: user?.hoursPerDay || 2,
     daysPerWeek: user?.daysPerWeek || 5,
     availableDays: user?.availableDays || ["segunda", "terca", "quarta", "quinta", "sexta"],
@@ -255,15 +272,27 @@ export default function Onboarding() {
       const basePlan = buildDiagnosticPlan(form);
       const plan = await aiService.gerarPlanoEstudos(form, basePlan);
       const targetContest =
-        form.objective === "concurso" ? form.contestName :
+        form.objective === "concurso" ? form.contestName || "PM" :
         form.objective === "oab" ? "OAB" :
-        form.objective === "enem" ? "ENEM" :
-        form.objective === "ensino-medio" ? "Ensino Medio" :
-        form.objective === "vestibular" ? form.vestibularName || "Vestibular" :
-        form.customObjective || "Outro";
+        "Estudo geral";
+      const {
+        customObjective,
+        enemTargetScore,
+        desiredCourse,
+        schoolYear,
+        schoolType,
+        vestibularName,
+        ...supportedForm
+      } = form;
+      void customObjective;
+      void enemTargetScore;
+      void desiredCourse;
+      void schoolYear;
+      void schoolType;
+      void vestibularName;
 
       await updateProfile({
-        ...form,
+        ...supportedForm,
         targetContest,
         dataProva: form.examDate,
         nivel: form.currentLevel,
@@ -302,7 +331,7 @@ export default function Onboarding() {
             </span>
             <h1 className="mt-4 text-2xl font-black leading-tight">A IA monta seu estudo a partir das suas respostas.</h1>
             <p className="mt-3 text-sm leading-6 text-slate-500">
-              O onboarding separa OAB, concurso, ENEM, ensino medio e vestibular para entregar um dashboard focado no seu objetivo.
+              O onboarding separa OAB, concursos de seguranca e estudo geral para entregar um dashboard focado no que a plataforma oferece.
             </p>
             <div className="mt-6 rounded-lg border border-blue-100 bg-blue-50 p-4">
               <div className="mx-auto grid size-14 place-items-center rounded-2xl bg-blue-600 text-white">
@@ -357,9 +386,6 @@ export default function Onboarding() {
                     ))}
                   </div>
                 </div>
-                {form.objective === "outro" ? (
-                  <Input label="Descreva seu objetivo" onChange={(event) => update("customObjective", event.target.value)} value={form.customObjective} />
-                ) : null}
               </div>
             ) : null}
 
@@ -367,8 +393,8 @@ export default function Onboarding() {
               <div className="grid gap-4 sm:grid-cols-2">
                 {form.objective === "concurso" ? (
                   <>
-                    <Input label="Qual concurso?" onChange={(event) => update("contestName", event.target.value)} placeholder="Ex: PM SP, PRF, TJ" value={form.contestName} />
-                    <Input label="Qual estado?" onChange={(event) => update("contestState", event.target.value)} placeholder="Ex: SP, RJ, MG" value={form.contestState} />
+                    <Select label="Foco do concurso" options={securityContestOptions} onChange={(event) => update("contestName", event.target.value)} value={form.contestName || "PM"} />
+                    <Input label="Estado, se houver" onChange={(event) => update("contestState", event.target.value)} placeholder="Ex: PI, MA, SP" value={form.contestState} />
                     <Input label="Banca organizadora" onChange={(event) => update("examBoard", event.target.value)} placeholder="Ex: FGV, Cebraspe, Vunesp" value={form.examBoard} />
                     <Input icon={CalendarDays} label="Data da prova, se souber" onChange={(event) => update("examDate", event.target.value)} type="date" value={form.examDate} />
                   </>
@@ -383,30 +409,10 @@ export default function Onboarding() {
                   </>
                 ) : null}
 
-                {form.objective === "enem" ? (
-                  <>
-                    <Input label="Qual nota deseja alcancar?" onChange={(event) => update("enemTargetScore", event.target.value)} placeholder="Ex: 760" type="number" value={form.enemTargetScore} />
-                    <Input label="Pretende usar para qual curso?" onChange={(event) => update("desiredCourse", event.target.value)} placeholder="Ex: Medicina, Direito" value={form.desiredCourse} />
-                  </>
-                ) : null}
-
-                {form.objective === "ensino-medio" ? (
-                  <>
-                    <Select label="Serie atual" options={["1o ano", "2o ano", "3o ano"]} onChange={(event) => update("schoolYear", event.target.value)} value={form.schoolYear} />
-                    <Select label="Escola publica ou privada" options={["Publica", "Privada"]} onChange={(event) => update("schoolType", event.target.value)} value={form.schoolType} />
-                  </>
-                ) : null}
-
-                {form.objective === "vestibular" ? (
-                  <>
-                    <Input label="Qual vestibular?" onChange={(event) => update("vestibularName", event.target.value)} placeholder="Ex: Fuvest, Unicamp, Uerj" value={form.vestibularName} />
-                    <Input label="Curso desejado" onChange={(event) => update("desiredCourse", event.target.value)} placeholder="Ex: Engenharia, Psicologia" value={form.desiredCourse} />
-                    <Input icon={CalendarDays} label="Data da prova, se souber" onChange={(event) => update("examDate", event.target.value)} type="date" value={form.examDate} />
-                  </>
-                ) : null}
-
-                {form.objective === "outro" ? (
-                  <Textarea className="sm:col-span-2" label="Conte mais sobre sua meta" onChange={(event) => update("customObjective", event.target.value)} value={form.customObjective} />
+                {form.objective === "geral" ? (
+                  <div className="rounded-lg border border-blue-100 bg-blue-50 p-4 text-sm text-blue-900 sm:col-span-2">
+                    O estudo geral libera plano, questoes disponiveis, revisao, flashcards e leis secas sem prometer trilhas de concursos que ainda nao estao cobertos.
+                  </div>
                 ) : null}
               </div>
             ) : null}
@@ -448,16 +454,26 @@ export default function Onboarding() {
                 <div>
                   <span className="mb-2 block text-sm font-semibold text-slate-700">Gerais</span>
                   <div className="flex flex-wrap gap-2">
-                    {generalSubjects.concat(form.objective === "enem" || form.objective === "vestibular" || form.objective === "ensino-medio" ? schoolSubjects : []).map((subject) => (
+                    {(form.objective === "concurso" ? securitySubjects.filter((subject) => generalSubjects.includes(subject) || subject === "Matematica/RL" || subject === "Historia/Geografia") : generalSubjects).map((subject) => (
                       <CheckPill active={form.difficultSubjects.includes(subject)} key={subject} label={subject} onClick={() => update("difficultSubjects", toggleValue(form.difficultSubjects, subject))} />
                     ))}
                   </div>
                 </div>
-                {(form.objective === "oab" || form.objective === "concurso") ? (
+                {form.objective === "oab" ? (
                   <div>
                     <span className="mb-2 block text-sm font-semibold text-slate-700">Juridicas</span>
                     <div className="flex flex-wrap gap-2">
                       {legalSubjects.map((subject) => (
+                        <CheckPill active={form.difficultSubjects.includes(subject)} key={subject} label={subject} onClick={() => update("difficultSubjects", toggleValue(form.difficultSubjects, subject))} />
+                      ))}
+                    </div>
+                  </div>
+                ) : null}
+                {form.objective === "concurso" ? (
+                  <div>
+                    <span className="mb-2 block text-sm font-semibold text-slate-700">Seguranca publica</span>
+                    <div className="flex flex-wrap gap-2">
+                      {securitySubjects.filter((subject) => !generalSubjects.includes(subject) && subject !== "Matematica/RL" && subject !== "Historia/Geografia").map((subject) => (
                         <CheckPill active={form.difficultSubjects.includes(subject)} key={subject} label={subject} onClick={() => update("difficultSubjects", toggleValue(form.difficultSubjects, subject))} />
                       ))}
                     </div>

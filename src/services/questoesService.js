@@ -60,6 +60,7 @@ function resolveAreaFromUser(user = {}) {
   const objective = normalize(user.objective || user.diagnosticPlan?.objective);
   const target = normalize(user.targetContest || user.contestName || user.diagnosticPlan?.objectiveLabel || user.customObjective);
   if (objective.includes("oab") || target.includes("oab")) return "oab";
+  if (objective.includes("concurso") || ["pm", "policia", "militar", "bombeiro", "cbm", "prf"].some((term) => target.includes(term))) return "militar";
   return "geral";
 }
 

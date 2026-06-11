@@ -1,0 +1,9 @@
+{
+  "inputRoot": "material-provas/cebraspe",
+  "message": "Nenhuma pasta Cebraspe encontrada. Crie material-provas/cebraspe/<concurso>/prova.pdf e gabarito.pdf.",
+  "reports": [],
+  "samples": {
+    "certo_errado": [],
+    "multipla": []
+  }
+}

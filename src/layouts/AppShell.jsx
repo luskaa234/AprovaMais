@@ -167,6 +167,7 @@ const Topbar = memo(() => {
         <button
           aria-label="Abrir perfil"
           className="mobile-top-profile flex min-w-0 flex-1 items-center gap-2 rounded-xl p-1.5 text-left lg:hidden"
+          data-tour="tour-perfil"
           onClick={() => navigate("perfil")}
           type="button"
         >
@@ -308,19 +309,19 @@ Topbar.displayName = "Topbar";
 const BottomNav = memo(({ onMore }) => {
   const { route, navigate } = useInternalRouter();
   const items = useMemo(() => [
-    { key: "dashboard", label: "Inicio", icon: Home, action: () => navigate("dashboard") },
+    { key: "dashboard", label: "Inicio", icon: Home, tourId: "tour-dashboard", action: () => navigate("dashboard") },
     { key: "biblioteca", label: "Edital", icon: BookOpen, action: () => navigate("biblioteca") },
-    { key: "questoes", label: "Questoes", icon: PlusCircle, action: () => navigate("questoes") },
-    { key: "plano", label: "Plano", icon: CalendarDays, action: () => navigate("plano") },
+    { key: "questoes", label: "Questoes", icon: PlusCircle, tourId: "tour-questoes", action: () => navigate("questoes") },
+    { key: "plano", label: "Plano", icon: CalendarDays, tourId: "tour-estudos", action: () => navigate("plano") },
     { key: "more", label: "Ver mais", icon: Settings2, action: onMore },
   ], [navigate, onMore]);
 
   return (
     <nav className="mobile-bottom-nav lg:hidden" aria-label="Navegacao principal">
-      {items.map(({ key, label, icon: Icon, action }) => {
+      {items.map(({ key, label, icon: Icon, action, tourId }) => {
         const active = key === "more" ? !mobilePrimaryTabs.includes(route) : route === key;
         return (
-          <motion.button className={cx(active && "is-active")} key={key} onClick={action} type="button" whileTap={{ scale: 0.94 }}>
+          <motion.button className={cx(active && "is-active")} data-tour={tourId} key={key} onClick={action} type="button" whileTap={{ scale: 0.94 }}>
             {active ? <motion.i className="mobile-bottom-nav-pill" layoutId="mobile-bottom-nav-pill" transition={{ type: "spring", damping: 24, stiffness: 420 }} /> : null}
             <Icon size={20} strokeWidth={active ? 2.4 : 2} />
             <span>{label}</span>
