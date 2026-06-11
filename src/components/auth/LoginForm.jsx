@@ -5,7 +5,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import { z } from "zod";
 import { useUser } from "../../contexts";
-import AuthCheckoutPanel from "./AuthCheckoutPanel";
 import { Button } from "../ui/button";
 import { Checkbox } from "../ui/checkbox";
 import { Input } from "../ui/input";
@@ -13,7 +12,7 @@ import { Label } from "../ui/label";
 import { Separator } from "../ui/separator";
 
 const loginSchema = z.object({
-  email: z.string().min(1, "Informe seu e-mail.").email("Informe um e-mail válido."),
+  email: z.string().min(1, "Informe seu e-mail.").email("Informe um e-mail valido."),
   password: z.string().min(6, "A senha precisa ter pelo menos 6 caracteres."),
   remember: z.boolean().optional(),
 });
@@ -49,7 +48,7 @@ function LoginForm() {
       toast.success("Login realizado com sucesso.");
       navigate("/");
     } catch (error) {
-      toast.error(error.message || "Não foi possível entrar.");
+      toast.error(error.message || "Nao foi possivel entrar.");
     }
   };
 
@@ -76,7 +75,7 @@ function LoginForm() {
           <Mail size={18} />
           <Input id="email" type="email" placeholder="voce@email.com" {...register("email")} />
         </div>
-        {errors.email && <p className="auth-error">{errors.email.message}</p>}
+        {errors.email ? <p className="auth-error">{errors.email.message}</p> : null}
       </div>
 
       <div className="auth-field-group">
@@ -86,7 +85,7 @@ function LoginForm() {
           <Input id="password" type="password" placeholder="Sua senha" {...register("password")} />
           <Eye size={17} className="auth-input-action" />
         </div>
-        {errors.password && <p className="auth-error">{errors.password.message}</p>}
+        {errors.password ? <p className="auth-error">{errors.password.message}</p> : null}
       </div>
 
       <div className="auth-form-row">
@@ -112,10 +111,8 @@ function LoginForm() {
 
       <Separator />
 
-      <AuthCheckoutPanel />
-
       <p className="auth-switch-text">
-        Ainda não tem uma conta? <Link to="/criar-conta">Criar conta</Link>
+        Ainda nao tem uma conta? <Link to="/criar-conta">Criar conta</Link>
       </p>
     </form>
   );
