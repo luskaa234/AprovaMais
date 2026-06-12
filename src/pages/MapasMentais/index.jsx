@@ -1,5 +1,5 @@
-import { useCallback, useDeferredValue, useMemo, useRef, useState } from "react";
-import { Bookmark, Brain, CalendarCheck, Download, Edit3, FileQuestion, FileText, Maximize2, Plus, Printer, Search, Share2, Trash2, ZoomIn, ZoomOut } from "lucide-react";
+import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
+import { Bookmark, Brain, CalendarCheck, Download, Edit3, FileQuestion, FileText, Maximize2, Minus, Plus, Printer, Search, Share2, Trash2, X } from "lucide-react";
 import { Badge, Button, Card, EmptyState, Input, Select, cx } from "../../components";
 import { Modal } from "../../modals";
 import { useNotifications } from "../../contexts";
@@ -10,7 +10,7 @@ const levelOptions = ["Básico", "Intermediário", "Avançado"];
 const tabs = ["Todos", "Favoritos", "Recentes", "Meus mapas", "Plataforma"];
 
 function unique(items) {
-  return [...new Set(items.filter(Boolean))];
+  return [...new Set(items.filter(Boolean))].sort((a, b) => String(a).localeCompare(String(b), "pt-BR"));
 }
 
 function emptyMap() {
@@ -23,11 +23,13 @@ function emptyMap() {
     banca: "FGV",
     nivel: "Intermediário",
     tagsText: "",
+    svgUrl: "",
   };
 }
 
 function normalizeMap(item, index) {
   const title = item.titulo || item.materia || "Mapa mental";
+  const svgUrl = item.svgUrl || item.svg_url || item.materialUrl || item.url || "";
   return {
     id: item.id || `map-${index}`,
     titulo: title,
@@ -43,6 +45,7 @@ function normalizeMap(item, index) {
     criadoEm: item.criadoEm || "2026-06-01",
     atualizadoEm: item.atualizadoEm || "2026-06-09",
     root: item.root || { label: title, children: [] },
+    svgUrl: /\.svg($|\?)/i.test(svgUrl) ? svgUrl : "",
     flashcardsRelacionados: item.flashcardsRelacionados || 5,
     questoesRelacionadas: item.questoesRelacionadas || 12,
   };
@@ -60,11 +63,153 @@ function buildRootFromDraft(draft) {
   };
 }
 
-function nodePoints(branches, collapsed) {
+function nodePoints(branches) {
   return branches.map((branch, index) => {
     const angle = (index / Math.max(1, branches.length)) * Math.PI * 2 - Math.PI / 2;
-    return { branch, collapsed: collapsed[branch.label], x: 500 + Math.cos(angle) * 280, y: 310 + Math.sin(angle) * 205 };
+    return { branch, x: 600 + Math.cos(angle) * 350, y: 380 + Math.sin(angle) * 245 };
   });
+}
+
+function distance(a, b) {
+  return Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY);
+}
+
+function GeneratedMindMapSvg({ map, collapsed, onToggle }) {
+  const points = useMemo(() => nodePoints(map?.root?.children || []), [map]);
+
+  return (
+    <svg className="mindmap-generated-svg" viewBox="0 0 1200 760" role="img" aria-label={`Mapa mental: ${map?.titulo}`}>
+      <defs>
+        <linearGradient id="mindmapBlue" x1="0" x2="1" y1="0" y2="1">
+          <stop offset="0%" stopColor="#1d4ed8" />
+          <stop offset="100%" stopColor="#60a5fa" />
+        </linearGradient>
+        <filter id="mindmapShadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="0" dy="14" stdDeviation="14" floodColor="#1e3a8a" floodOpacity="0.16" />
+        </filter>
+      </defs>
+      <rect width="1200" height="760" rx="28" fill="#f8fbff" />
+      <g opacity="0.65">
+        <circle cx="1040" cy="110" r="96" fill="#dbeafe" />
+        <circle cx="120" cy="640" r="120" fill="#e0f2fe" />
+      </g>
+      {points.map(({ branch, x, y }) => (
+        <g key={branch.label}>
+          <path d={`M600 380 C ${600 + (x - 600) * 0.38} 380, ${x - (x - 600) * 0.35} ${y}, ${x} ${y}`} stroke="#60a5fa" strokeWidth="5" fill="none" strokeLinecap="round" />
+          {!collapsed[branch.label] ? branch.children.map((child, childIndex) => {
+            const spread = childIndex - (branch.children.length - 1) / 2;
+            const childX = x + spread * 165;
+            const childY = y + (y > 380 ? 112 : -112);
+            return <path key={child.label} d={`M${x} ${y} C ${x} ${(y + childY) / 2}, ${childX} ${(y + childY) / 2}, ${childX} ${childY}`} stroke="#93c5fd" strokeWidth="3" fill="none" strokeLinecap="round" />;
+          }) : null}
+        </g>
+      ))}
+      <foreignObject x="470" y="315" width="260" height="130">
+        <div className="mindmap-node mindmap-node-root">{map?.root?.label || map?.titulo}</div>
+      </foreignObject>
+      {points.map(({ branch, x, y }) => (
+        <g key={`${branch.label}-node`}>
+          <foreignObject x={x - 108} y={y - 42} width="216" height="84">
+            <button className="mindmap-node mindmap-node-branch" onClick={() => onToggle(branch.label)} type="button">
+              {branch.label}
+            </button>
+          </foreignObject>
+          {!collapsed[branch.label] ? branch.children.map((child, childIndex) => {
+            const spread = childIndex - (branch.children.length - 1) / 2;
+            return (
+              <foreignObject key={child.label} x={x + spread * 165 - 82} y={y + (y > 380 ? 92 : -152)} width="164" height="64">
+                <div className="mindmap-node mindmap-node-leaf">{child.label}</div>
+              </foreignObject>
+            );
+          }) : null}
+        </g>
+      ))}
+    </svg>
+  );
+}
+
+function SvgMindMapViewer({ map, full, zoom, pan, collapsed, onCloseFull, onFullscreen, onZoom, onPan, onToggleNode }) {
+  const pointers = useRef(new Map());
+  const gesture = useRef({ panStart: pan, pointerStart: null, distanceStart: 0, zoomStart: zoom });
+
+  useEffect(() => {
+    pointers.current.clear();
+  }, [map?.id]);
+
+  const startGesture = useCallback((event) => {
+    event.currentTarget.setPointerCapture?.(event.pointerId);
+    pointers.current.set(event.pointerId, event);
+    if (pointers.current.size === 1) {
+      gesture.current = { ...gesture.current, panStart: pan, pointerStart: event };
+    }
+    if (pointers.current.size === 2) {
+      const [first, second] = [...pointers.current.values()];
+      gesture.current = { ...gesture.current, distanceStart: distance(first, second), zoomStart: zoom };
+    }
+  }, [pan, zoom]);
+
+  const moveGesture = useCallback((event) => {
+    if (!pointers.current.has(event.pointerId)) return;
+    pointers.current.set(event.pointerId, event);
+    if (pointers.current.size === 2) {
+      const [first, second] = [...pointers.current.values()];
+      const ratio = distance(first, second) / Math.max(1, gesture.current.distanceStart);
+      onZoom(Math.max(0.45, Math.min(3, gesture.current.zoomStart * ratio)));
+      return;
+    }
+    const start = gesture.current.pointerStart;
+    if (!start) return;
+    onPan({
+      x: gesture.current.panStart.x + event.clientX - start.clientX,
+      y: gesture.current.panStart.y + event.clientY - start.clientY,
+    });
+  }, [onPan, onZoom]);
+
+  const endGesture = useCallback((event) => {
+    pointers.current.delete(event.pointerId);
+    if (pointers.current.size === 1) {
+      const [remaining] = [...pointers.current.values()];
+      gesture.current = { ...gesture.current, panStart: pan, pointerStart: remaining };
+    }
+  }, [pan]);
+
+  const onWheel = useCallback((event) => {
+    event.preventDefault();
+    onZoom(Math.max(0.45, Math.min(3, zoom + (event.deltaY > 0 ? -0.08 : 0.08))));
+  }, [onZoom, zoom]);
+
+  return (
+    <Card hover={false} className={cx("mindmap-viewer overflow-hidden p-0", full && "fixed inset-3 z-50")}>
+      <div className="mindmap-viewer-toolbar">
+        <div className="min-w-0">
+          <h2 className="truncate font-black">{map.titulo}</h2>
+          <p className="truncate text-xs">{map.concurso} · {map.materia} · {map.assunto}</p>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          <Button size="sm" variant="secondary" icon={Minus} onClick={() => onZoom(Math.max(0.45, zoom - 0.12))} aria-label="Diminuir zoom" />
+          <Button size="sm" variant="secondary" icon={Plus} onClick={() => onZoom(Math.min(3, zoom + 0.12))} aria-label="Aumentar zoom" />
+          <Button size="sm" variant="ghost" onClick={() => { onZoom(1); onPan({ x: 0, y: 0 }); }}>100%</Button>
+          <Button size="sm" variant="ghost" icon={full ? X : Maximize2} onClick={full ? onCloseFull : onFullscreen}>{full ? "Sair" : "Tela cheia"}</Button>
+        </div>
+      </div>
+      <div
+        className="mindmap-canvas"
+        onPointerDown={startGesture}
+        onPointerMove={moveGesture}
+        onPointerCancel={endGesture}
+        onPointerUp={endGesture}
+        onWheel={onWheel}
+      >
+        <div className="mindmap-stage" style={{ transform: `translate3d(${pan.x}px, ${pan.y}px, 0) scale(${zoom})` }}>
+          {map.svgUrl ? (
+            <img className="mindmap-svg-image" src={map.svgUrl} alt={`Mapa mental: ${map.titulo}`} loading="lazy" draggable={false} />
+          ) : (
+            <GeneratedMindMapSvg map={map} collapsed={collapsed} onToggle={onToggleNode} />
+          )}
+        </div>
+      </div>
+    </Card>
+  );
 }
 
 export default function MapasMentaisPage() {
@@ -82,8 +227,6 @@ export default function MapasMentaisPage() {
   const [collapsed, setCollapsed] = useState({});
   const [zoom, setZoom] = useState(1);
   const [pan, setPan] = useState({ x: 0, y: 0 });
-  const [drag, setDrag] = useState(null);
-  const frameRef = useRef(null);
   const [full, setFull] = useState(false);
   const [modal, setModal] = useState(null);
   const [draft, setDraft] = useState(emptyMap());
@@ -105,25 +248,49 @@ export default function MapasMentaisPage() {
     if (tab === "Plataforma" && item.origem !== "plataforma") return false;
     return true;
   }), [deferredQuery, filters, maps, tab]);
-  const visibleMaps = filtered.slice(0, 60);
+  const visibleMaps = filtered.slice(0, 80);
   const activeMap = maps.find((item) => item.id === activeId) || filtered[0];
-  const points = useMemo(() => nodePoints(activeMap?.root?.children || [], collapsed), [activeMap, collapsed]);
+  const groupedMaps = useMemo(() => visibleMaps.reduce((acc, item) => {
+    const key = item.materia || "Geral";
+    acc[key] = acc[key] || [];
+    acc[key].push(item);
+    return acc;
+  }, {}), [visibleMaps]);
+
+  useEffect(() => {
+    if (!full) return undefined;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [full]);
 
   const notify = useCallback((title, message) => addNotification({ type: "success", title, message }), [addNotification]);
+  const resetViewer = useCallback(() => {
+    setZoom(1);
+    setPan({ x: 0, y: 0 });
+    setCollapsed({});
+  }, []);
+  const selectMap = useCallback((id) => {
+    setActiveId(id);
+    resetViewer();
+  }, [resetViewer]);
   const saveMap = useCallback(() => {
     if (!draft.titulo.trim()) return;
+    const tags = draft.tagsText?.split(",").map((tag) => tag.trim()).filter(Boolean) || draft.tags || [];
     if (modal === "edit") {
-      setOverrides((current) => ({ ...current, [draft.id]: { ...draft, tags: draft.tagsText?.split(",").map((tag) => tag.trim()).filter(Boolean) || draft.tags, root: draft.root || buildRootFromDraft(draft), atualizadoEm: new Date().toISOString().slice(0, 10) } }));
+      setOverrides((current) => ({ ...current, [draft.id]: { ...draft, tags, root: draft.root || buildRootFromDraft(draft), atualizadoEm: new Date().toISOString().slice(0, 10) } }));
       notify("Mapa atualizado", "Alterações salvas.");
     } else {
-      const map = { ...draft, id: `map-user-${Date.now()}`, origem: "usuario", favorito: false, tags: draft.tagsText.split(",").map((tag) => tag.trim()).filter(Boolean), criadoEm: new Date().toISOString().slice(0, 10), atualizadoEm: new Date().toISOString().slice(0, 10), root: buildRootFromDraft(draft), flashcardsRelacionados: 0, questoesRelacionadas: 0 };
+      const map = { ...draft, id: `map-user-${Date.now()}`, origem: "usuario", favorito: false, tags, criadoEm: new Date().toISOString().slice(0, 10), atualizadoEm: new Date().toISOString().slice(0, 10), root: buildRootFromDraft(draft), flashcardsRelacionados: 0, questoesRelacionadas: 0 };
       setLocalMaps((current) => [map, ...current]);
-      setActiveId(map.id);
+      selectMap(map.id);
       notify("Mapa criado", "Novo mapa adicionado aos seus estudos.");
     }
     setDraft(emptyMap());
     setModal(null);
-  }, [draft, modal, notify]);
+  }, [draft, modal, notify, selectMap]);
   const editMap = useCallback((map) => {
     setDraft({ ...map, tagsText: (map.tags || []).join(", ") });
     setModal("edit");
@@ -137,103 +304,103 @@ export default function MapasMentaisPage() {
     setOverrides((current) => ({ ...current, [map.id]: { ...(current[map.id] || {}), estudado: true, atualizadoEm: new Date().toISOString().slice(0, 10) } }));
     notify("Mapa estudado", "Progresso registrado e plano atualizado.");
   }, [notify]);
-  const onMove = useCallback((event) => {
-    if (!drag) return;
-    const next = { x: event.clientX - drag.x, y: event.clientY - drag.y };
-    if (frameRef.current) cancelAnimationFrame(frameRef.current);
-    frameRef.current = requestAnimationFrame(() => setPan(next));
-  }, [drag]);
 
-  const viewer = activeMap ? (
-    <Card hover={false} className={cx("mindmap-viewer overflow-hidden", full && "fixed inset-4 z-50 bg-gray-950")}>
-      <div className="flex flex-wrap items-center justify-between gap-2 border-b border-gray-800 p-3">
-        <div><h2 className="font-bold text-white">{activeMap.titulo}</h2><p className="text-xs text-gray-500">{activeMap.concurso} · {activeMap.materia} · {activeMap.assunto}</p></div>
-        <div className="flex gap-2">
-          <Button size="sm" variant="secondary" icon={ZoomOut} onClick={() => setZoom(Math.max(0.7, zoom - 0.1))} />
-          <Button size="sm" variant="secondary" icon={ZoomIn} onClick={() => setZoom(Math.min(1.5, zoom + 0.1))} />
-          <Button size="sm" variant="ghost" icon={Maximize2} onClick={() => setFull((value) => !value)}>{full ? "Sair" : "Tela cheia"}</Button>
-        </div>
-      </div>
-      <div className="mindmap-canvas h-[610px] cursor-grab overflow-auto bg-gray-900/60" onMouseDown={(event) => setDrag({ x: event.clientX - pan.x, y: event.clientY - pan.y })} onMouseMove={onMove} onMouseLeave={() => setDrag(null)} onMouseUp={() => setDrag(null)}>
-        <svg width="1000" height="650" style={{ transform: `translate(${pan.x}px, ${pan.y}px) scale(${zoom})`, transformOrigin: "center" }}>
-          {points.map(({ branch, x, y, collapsed: isCollapsed }) => (
-            <g key={branch.label}>
-              <line x1="500" y1="310" x2={x} y2={y} stroke="#60a5fa" strokeWidth="2" />
-              {!isCollapsed ? branch.children.map((child, childIndex) => {
-                const spread = childIndex - (branch.children.length - 1) / 2;
-                return <line key={child.label} x1={x} y1={y} x2={x + spread * 145} y2={y + (y > 310 ? 95 : -95)} stroke="#94a3b8" strokeWidth="1.5" />;
-              }) : null}
-            </g>
-          ))}
-          <foreignObject x="390" y="265" width="220" height="90"><div className="grid h-full place-items-center rounded-lg bg-blue-600 p-4 text-center text-lg font-black text-white">{activeMap.root?.label || activeMap.titulo}</div></foreignObject>
-          {points.map(({ branch, x, y, collapsed: isCollapsed }) => (
-            <g key={`${branch.label}-node`}>
-              <foreignObject x={x - 82} y={y - 34} width="164" height="68"><button className="grid h-full w-full place-items-center rounded-lg border border-blue-300 bg-gray-950 p-2 text-center text-sm font-bold text-gray-100" onClick={() => setCollapsed((current) => ({ ...current, [branch.label]: !current[branch.label] }))}>{branch.label}</button></foreignObject>
-              {!isCollapsed ? branch.children.map((child, childIndex) => {
-                const spread = childIndex - (branch.children.length - 1) / 2;
-                return <foreignObject key={child.label} x={x + spread * 145 - 65} y={y + (y > 310 ? 78 : -128)} width="130" height="58"><div className="grid h-full place-items-center rounded-lg border border-gray-700 bg-gray-950 p-2 text-center text-xs text-gray-200">{child.label}</div></foreignObject>;
-              }) : null}
-            </g>
-          ))}
-        </svg>
-      </div>
-    </Card>
-  ) : null;
+  const filtersContent = (
+    <>
+      <Select label="Concurso" placeholder="Todos" options={unique(maps.map((item) => item.concurso))} value={filters.concurso} onChange={(event) => setFilters((current) => ({ ...current, concurso: event.target.value }))} />
+      <Select label="Matéria" placeholder="Todas" options={unique(maps.map((item) => item.materia))} value={filters.materia} onChange={(event) => setFilters((current) => ({ ...current, materia: event.target.value }))} />
+      <Select label="Assunto" placeholder="Todos" options={unique(maps.map((item) => item.assunto))} value={filters.assunto} onChange={(event) => setFilters((current) => ({ ...current, assunto: event.target.value }))} />
+      <Select label="Banca" placeholder="Todas" options={unique(maps.map((item) => item.banca))} value={filters.banca} onChange={(event) => setFilters((current) => ({ ...current, banca: event.target.value }))} />
+      <Select label="Nível" placeholder="Todos" options={levelOptions} value={filters.nivel} onChange={(event) => setFilters((current) => ({ ...current, nivel: event.target.value }))} />
+      <Select label="Favoritos" placeholder="Todos" options={[{ value: "sim", label: "Favoritos" }]} value={filters.favorito} onChange={(event) => setFilters((current) => ({ ...current, favorito: event.target.value }))} />
+      <Select label="Origem" placeholder="Todas" options={[{ value: "usuario", label: "Meus mapas" }, { value: "plataforma", label: "Plataforma" }]} value={filters.origem} onChange={(event) => setFilters((current) => ({ ...current, origem: event.target.value }))} />
+    </>
+  );
 
   return (
     <div className="mindmaps-page mx-auto max-w-[1500px] pb-10" data-tour="tour-mapas-page">
-      <div className="mindmaps-header mb-5 flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between" data-tour="tour-mapas-header">
-        <h1 className="text-3xl font-black text-white">Mapas Mentais</h1>
-        <div className="flex flex-col gap-2 sm:flex-row">
-          <Input icon={Search} placeholder="Buscar mapas mentais..." value={query} onChange={(event) => setQuery(event.target.value)} />
-          <Button icon={Plus} onClick={() => { setDraft(emptyMap()); setModal("create"); }}>Novo mapa</Button>
-        </div>
-      </div>
-
-      <div className="mindmaps-filters mb-4 grid gap-3 rounded-lg border border-gray-800 bg-gray-950/70 p-4 xl:grid-cols-7" data-tour="tour-mapas-filters">
-        <Select label="Concurso" placeholder="Todos" options={unique(maps.map((item) => item.concurso))} value={filters.concurso} onChange={(event) => setFilters((current) => ({ ...current, concurso: event.target.value }))} />
-        <Select label="Matéria" placeholder="Todas" options={unique(maps.map((item) => item.materia))} value={filters.materia} onChange={(event) => setFilters((current) => ({ ...current, materia: event.target.value }))} />
-        <Select label="Assunto" placeholder="Todos" options={unique(maps.map((item) => item.assunto))} value={filters.assunto} onChange={(event) => setFilters((current) => ({ ...current, assunto: event.target.value }))} />
-        <Select label="Banca" placeholder="Todas" options={unique(maps.map((item) => item.banca))} value={filters.banca} onChange={(event) => setFilters((current) => ({ ...current, banca: event.target.value }))} />
-        <Select label="Nível" placeholder="Todos" options={levelOptions} value={filters.nivel} onChange={(event) => setFilters((current) => ({ ...current, nivel: event.target.value }))} />
-        <Select label="Favoritos" placeholder="Todos" options={[{ value: "sim", label: "Favoritos" }]} value={filters.favorito} onChange={(event) => setFilters((current) => ({ ...current, favorito: event.target.value }))} />
-        <Select label="Origem" placeholder="Todas" options={[{ value: "usuario", label: "Meus mapas" }, { value: "plataforma", label: "Plataforma" }]} value={filters.origem} onChange={(event) => setFilters((current) => ({ ...current, origem: event.target.value }))} />
-      </div>
-
-      <div className="mindmaps-layout grid gap-4 xl:grid-cols-[300px_1fr_300px]">
-        <aside className="mindmaps-list rounded-lg border border-gray-800 bg-gray-950/70" data-tour="tour-mapas-list">
-          <div className="flex gap-2 overflow-x-auto border-b border-gray-800 px-3 pt-2">
-            {tabs.map((item) => <button key={item} onClick={() => setTab(item)} className={cx("whitespace-nowrap border-b-2 px-2 py-3 text-sm font-semibold", tab === item ? "border-blue-500 text-white" : "border-transparent text-gray-400")}>{item}</button>)}
+      <section className="mindmaps-hero mb-4 rounded-lg border border-blue-100 bg-white p-4 shadow-sm" data-tour="tour-mapas-header">
+        <div className="grid gap-4 xl:grid-cols-[1fr_auto] xl:items-center">
+          <div>
+            <p className="text-xs font-black uppercase tracking-wide text-blue-600">Mapas mentais</p>
+            <h1 className="mt-1 text-3xl font-black text-slate-950">Biblioteca visual de revisão</h1>
+            <p className="mt-1 max-w-2xl text-sm leading-6 text-slate-500">Abra mapas em SVG com zoom, arraste para navegar e use tela cheia para leitura no celular.</p>
           </div>
-          <div className="max-h-[650px] space-y-2 overflow-y-auto p-3">
-            {visibleMaps.map((item) => (
-              <button key={item.id} onClick={() => { setActiveId(item.id); setCollapsed({}); }} className={cx("w-full rounded-lg border p-3 text-left transition", activeMap?.id === item.id ? "border-blue-500 bg-blue-600 text-white" : "border-gray-800 bg-gray-900 text-gray-300 hover:border-blue-400")}>
-                <div className="flex items-center justify-between gap-2"><strong className="text-sm">{item.titulo}</strong><Bookmark size={15} className={item.favorito ? "fill-current" : ""} /></div>
-                <p className="mt-1 text-xs opacity-75">{item.materia} · {item.assunto}</p>
-              </button>
+          <div className="flex flex-col gap-2 sm:flex-row">
+            <Input icon={Search} placeholder="Buscar mapas mentais..." value={query} onChange={(event) => setQuery(event.target.value)} />
+            <Button icon={Plus} onClick={() => { setDraft(emptyMap()); setModal("create"); }}>Novo mapa</Button>
+          </div>
+        </div>
+      </section>
+
+      <div className="mindmaps-filters mb-4 grid gap-3 rounded-lg border border-blue-100 bg-white p-4 shadow-sm xl:grid-cols-7" data-tour="tour-mapas-filters">
+        {filtersContent}
+      </div>
+
+      <div className="mindmaps-layout grid gap-4 xl:grid-cols-[340px_minmax(0,1fr)_300px]">
+        <aside className="mindmaps-list rounded-lg border border-blue-100 bg-white shadow-sm" data-tour="tour-mapas-list">
+          <div className="flex gap-2 overflow-x-auto border-b border-blue-100 px-3 pt-2">
+            {tabs.map((item) => <button key={item} onClick={() => setTab(item)} className={cx("whitespace-nowrap border-b-2 px-2 py-3 text-sm font-black transition", tab === item ? "border-blue-600 text-blue-700" : "border-transparent text-slate-500 hover:text-blue-700")}>{item}</button>)}
+          </div>
+          <div className="max-h-[680px] space-y-4 overflow-y-auto p-3">
+            {Object.entries(groupedMaps).map(([materia, items]) => (
+              <section key={materia} className="space-y-2">
+                <h2 className="px-1 text-xs font-black uppercase tracking-wide text-slate-500">{materia}</h2>
+                {items.map((item) => (
+                  <button key={item.id} onClick={() => selectMap(item.id)} className={cx("mindmap-list-card w-full rounded-lg border p-3 text-left transition", activeMap?.id === item.id ? "border-blue-600 bg-blue-600 text-white shadow-sm" : "border-blue-100 bg-white text-slate-700 hover:border-blue-300 hover:bg-blue-50")}>
+                    <div className="flex items-start justify-between gap-2">
+                      <strong className="text-sm leading-tight">{item.titulo}</strong>
+                      <Bookmark size={15} className={item.favorito ? "shrink-0 fill-current" : "shrink-0 opacity-55"} />
+                    </div>
+                    <p className="mt-2 text-xs opacity-75">{item.assunto} · {item.banca}</p>
+                    <div className="mt-3 flex flex-wrap gap-1.5">
+                      <span className="rounded-full bg-current/10 px-2 py-1 text-[11px] font-black">{item.svgUrl ? "SVG" : "Modelo"}</span>
+                      <span className="rounded-full bg-current/10 px-2 py-1 text-[11px] font-black">{item.nivel}</span>
+                    </div>
+                  </button>
+                ))}
+              </section>
             ))}
           </div>
         </aside>
 
-        <div data-tour="tour-mapas-viewer">{activeMap ? viewer : <EmptyState icon={Search} title="Nenhum mapa encontrado" description="Ajuste os filtros ou crie um novo mapa." />}</div>
+        <div data-tour="tour-mapas-viewer">
+          {activeMap ? (
+            <SvgMindMapViewer
+              map={activeMap}
+              full={full}
+              zoom={zoom}
+              pan={pan}
+              collapsed={collapsed}
+              onCloseFull={() => setFull(false)}
+              onFullscreen={() => setFull(true)}
+              onZoom={setZoom}
+              onPan={setPan}
+              onToggleNode={(label) => setCollapsed((current) => ({ ...current, [label]: !current[label] }))}
+            />
+          ) : (
+            <EmptyState icon={Search} title="Nenhum mapa encontrado" description="Ajuste os filtros ou crie um novo mapa." />
+          )}
+        </div>
 
         <aside className="mindmaps-side space-y-4" data-tour="tour-mapas-actions">
           <Card hover={false}>
             <div className="mb-3 flex items-start justify-between gap-2">
-              <div><h2 className="font-bold text-white">{activeMap?.titulo}</h2><p className="mt-1 text-sm text-gray-400">{activeMap?.descricao}</p></div>
-              <button onClick={() => activeMap && toggleFavorite(activeMap)} className="text-amber-300"><Bookmark size={18} className={activeMap?.favorito ? "fill-current" : ""} /></button>
+              <div><h2 className="font-bold text-slate-950">{activeMap?.titulo}</h2><p className="mt-1 text-sm text-slate-500">{activeMap?.descricao}</p></div>
+              <button onClick={() => activeMap && toggleFavorite(activeMap)} className="text-amber-500" aria-label="Favoritar mapa" type="button"><Bookmark size={18} className={activeMap?.favorito ? "fill-current" : ""} /></button>
             </div>
             {activeMap ? (
-              <div className="space-y-2 text-sm text-gray-400">
-                <p><strong className="text-gray-200">Nível:</strong> {activeMap.nivel}</p>
-                <p><strong className="text-gray-200">Atualizado:</strong> {activeMap.atualizadoEm}</p>
-                <p><strong className="text-gray-200">Relacionados:</strong> {activeMap.questoesRelacionadas} questões · {activeMap.flashcardsRelacionados} flashcards</p>
+              <div className="space-y-2 text-sm text-slate-500">
+                <p><strong className="text-slate-950">Nível:</strong> {activeMap.nivel}</p>
+                <p><strong className="text-slate-950">Atualizado:</strong> {activeMap.atualizadoEm}</p>
+                <p><strong className="text-slate-950">Arquivo:</strong> {activeMap.svgUrl ? "SVG externo" : "Modelo gerado"}</p>
+                <p><strong className="text-slate-950">Relacionados:</strong> {activeMap.questoesRelacionadas} questões · {activeMap.flashcardsRelacionados} flashcards</p>
                 <div className="mt-3 flex flex-wrap gap-2">{(activeMap.tags || []).slice(0, 4).map((tag) => <Badge key={tag} variant="neutral">{tag}</Badge>)}</div>
               </div>
             ) : null}
           </Card>
           <Card hover={false}>
-            <h2 className="mb-3 font-bold text-white">Ações</h2>
+            <h2 className="mb-3 font-bold text-slate-950">Ações</h2>
             <div className="grid gap-2">
               <Button size="sm" icon={CalendarCheck} onClick={() => activeMap && markStudied(activeMap)}>Estudar este mapa</Button>
               <Button size="sm" variant="secondary" icon={Brain} onClick={() => notify("Flashcards gerados", "Flashcards criados a partir do mapa.")}>Gerar flashcards</Button>
@@ -253,6 +420,7 @@ export default function MapasMentaisPage() {
         <div className="grid gap-3">
           <Input label="Título" value={draft.titulo} onChange={(event) => setDraft((current) => ({ ...current, titulo: event.target.value }))} />
           <Input label="Descrição" value={draft.descricao} onChange={(event) => setDraft((current) => ({ ...current, descricao: event.target.value }))} />
+          <Input label="URL do SVG" helperText="Opcional. Use um caminho em /public, como /mapas/constitucional.svg." value={draft.svgUrl || ""} onChange={(event) => setDraft((current) => ({ ...current, svgUrl: event.target.value }))} />
           <div className="grid gap-3 sm:grid-cols-2">
             <Input label="Concurso" value={draft.concurso} onChange={(event) => setDraft((current) => ({ ...current, concurso: event.target.value }))} />
             <Input label="Matéria" value={draft.materia} onChange={(event) => setDraft((current) => ({ ...current, materia: event.target.value }))} />
