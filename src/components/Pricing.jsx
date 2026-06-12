@@ -13,8 +13,8 @@ const plans = [
     id: "essencial",
     name: "Mensal",
     price: "R$ 39",
-    period: "/mes",
-    description: "Para comecar agora e organizar sua rotina sem compromisso longo.",
+    period: "/mês",
+    description: "Para começar agora e organizar sua rotina sem compromisso longo.",
     featured: false,
   },
   {
@@ -22,7 +22,7 @@ const plans = [
     name: "Anual",
     price: "R$ 297",
     period: "/ano",
-    description: "Melhor custo para atravessar edital, revisoes, simulados e redacao.",
+    description: "Melhor custo para atravessar edital, revisões, simulados e redação.",
     featured: true,
   },
 ];
@@ -30,9 +30,9 @@ const plans = [
 const benefits = [
   "Cronograma inteligente por concurso",
   "Banco de questões e simulados completos",
-  "Relatorios de desempenho por materia",
-  "Revisoes automaticas e metas semanais",
-  "Area de redacao, metas e duvidas com IA",
+  "Relatórios de desempenho por matéria",
+  "Revisões automáticas e metas semanais",
+  "Área de redação, metas e dúvidas com IA",
 ];
 
 function Pricing() {
@@ -70,8 +70,8 @@ function Pricing() {
     <section className="section-shell pricing-section" id="planos" ref={sectionRef}>
       <div className="section-heading">
         <span className="eyebrow">Planos</span>
-        <h2>Escolha o ritmo e comece sua preparacao</h2>
-        <p>Assinatura com acesso completo a plataforma, recursos de planejamento e acompanhamento para passar em concurso.</p>
+        <h2>Escolha o ritmo e comece sua preparação</h2>
+        <p>Assinatura com acesso completo à plataforma, recursos de planejamento e acompanhamento para passar em concurso.</p>
       </div>
 
       <div className="pricing-layout">
@@ -105,7 +105,7 @@ function Pricing() {
 
         <div className="pricing-benefits">
           <span className="eyebrow">Incluso em todos</span>
-          <h3>Preparacao completa em uma unica assinatura</h3>
+          <h3>Preparação completa em uma única assinatura</h3>
           <ul>
             {benefits.map((benefit) => (
               <li key={benefit}>

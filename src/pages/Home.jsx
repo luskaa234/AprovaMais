@@ -36,11 +36,11 @@ const contests = [
 ];
 
 const contestLogos = {
-  PM: { src: "/logos/concursos/pm-ma.png", alt: "Policia Militar do Maranhao" },
+  PM: { src: "/logos/concursos/pm-ma.png", alt: "Polícia Militar do Maranhão" },
   CBM: { src: "/logos/concursos/cbm-mt.png", alt: "Corpo de Bombeiros Militar de Mato Grosso" },
-  PC: { src: "/logos/concursos/pc-ma.png", alt: "Policia Civil do Maranhao" },
-  PP: { src: "/logos/concursos/policia-penal.png", alt: "Policia Penal" },
-  PRF: { src: "/logos/concursos/prf.png", alt: "Policia Rodoviaria Federal" },
+  PC: { src: "/logos/concursos/pc-ma.png", alt: "Polícia Civil do Maranhão" },
+  PP: { src: "/logos/concursos/policia-penal.png", alt: "Polícia Penal" },
+  PRF: { src: "/logos/concursos/prf.png", alt: "Polícia Rodoviária Federal" },
   OAB: { src: "/logos/concursos/oab.png", alt: "OAB Nacional" },
 };
 

@@ -129,7 +129,7 @@ export async function cancelCurrentSubscription() {
 
 export function loadMercadoPagoSdk() {
   if (!mpPublicKey) throw new Error("VITE_MP_PUBLIC_KEY não configurada.");
-  if (typeof window === "undefined") throw new Error("Checkout indisponivel fora do navegador.");
+  if (typeof window === "undefined") throw new Error("Checkout indisponível fora do navegador.");
   if (window.MercadoPago) return Promise.resolve(new window.MercadoPago(mpPublicKey, { locale: "pt-BR" }));
 
   return new Promise((resolve, reject) => {

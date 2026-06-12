@@ -4,9 +4,9 @@ import { questoesService } from "./questoesService";
 let cache = null;
 
 const DEFAULT_DISCIPLINES = [
-  "Portugues",
-  "Matematica e Raciocinio Logico",
-  "Informatica",
+  "Português",
+  "Matemática e Raciocínio Lógico",
+  "Informática",
   "Atualidades",
   "Direito Constitucional",
   "Direito Administrativo",
@@ -97,8 +97,8 @@ function buildAssets(stats, user) {
       { title: "Vunesp A-E", detail: "Simulados de Soldado com cinco alternativas e gabarito definitivo." },
     ],
     plan: [
-      "Comece por Portugues e Matematica nos dias de maior energia.",
-      "Resolva questoes oficiais da banca escolhida antes de ineditas.",
+      "Comece por Português e Matemática nos dias de maior energia.",
+      "Resolva questões oficiais da banca escolhida antes de inéditas.",
       "Separe erros por disciplina e revise em 24 horas.",
       "Inclua TAF no cronograma quando o objetivo for PM/Bombeiros.",
     ],

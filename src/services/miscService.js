@@ -26,9 +26,9 @@ export const mapasService = {
         titulo: item.titulo,
         materia: item.materia || item.titulo,
         concurso: item.concurso || (index % 2 ? "PRF" : "PM"),
-        assunto: item.assunto || item.materia || "Revisao geral",
+        assunto: item.assunto || item.materia || "Revisão geral",
         banca: item.banca || ["FGV", "CEBRASPE", "IBFC"][index % 3],
-        nivel: item.nivel || ["Basico", "Intermediario", "Avancado"][index % 3],
+        nivel: item.nivel || ["Básico", "Intermediário", "Avançado"][index % 3],
         atualizadoEm: item.atualizadoEm || "2026-06-09",
         tags: [item.tipo, item.categoria, item.materia].filter(Boolean),
         acessos: 40 + index * 7,
@@ -38,7 +38,7 @@ export const mapasService = {
           label: item.materia,
           children: [
             { label: "Resumo visual", children: [{ label: item.tipo, children: [] }, { label: item.categoria, children: [] }] },
-            { label: "Aplicacao em prova", children: [{ label: item.materia, children: [] }, { label: "Revisao rapida", children: [] }] },
+            { label: "Aplicação em prova", children: [{ label: item.materia, children: [] }, { label: "Revisão rápida", children: [] }] },
           ],
         },
       }));
@@ -48,9 +48,9 @@ export const mapasService = {
       concurso: item.concurso || ["PM", "PRF", "TJ"][index % 3],
       assunto: item.assunto || item.root?.children?.[0]?.label || "Fundamentos",
       banca: item.banca || ["FGV", "Vunesp", "CEBRASPE"][index % 3],
-      nivel: item.nivel || ["Basico", "Intermediario", "Avancado"][index % 3],
+      nivel: item.nivel || ["Básico", "Intermediário", "Avançado"][index % 3],
       atualizadoEm: item.atualizadoEm || "2026-06-09",
-      tags: item.tags || ["mapa mental", item.materia, "revisao"].filter(Boolean),
+      tags: item.tags || ["mapa mental", item.materia, "revisão"].filter(Boolean),
       acessos: item.acessos || 25 + index * 9,
       favorito: Boolean(item.favorito),
     }));

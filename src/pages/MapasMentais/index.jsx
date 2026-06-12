@@ -6,7 +6,7 @@ import { useNotifications } from "../../contexts";
 import { useAsyncData } from "../../hooks";
 import { mapasService } from "../../services";
 
-const levelOptions = ["Basico", "Intermediario", "Avancado"];
+const levelOptions = ["Básico", "Intermediário", "Avançado"];
 const tabs = ["Todos", "Favoritos", "Recentes", "Meus mapas", "Plataforma"];
 
 function unique(items) {
@@ -21,7 +21,7 @@ function emptyMap() {
     materia: "",
     assunto: "",
     banca: "FGV",
-    nivel: "Intermediario",
+    nivel: "Intermediário",
     tagsText: "",
   };
 }
@@ -31,13 +31,13 @@ function normalizeMap(item, index) {
   return {
     id: item.id || `map-${index}`,
     titulo: title,
-    descricao: item.descricao || `Mapa mental sobre ${title}, com foco em revisao para concursos.`,
+    descricao: item.descricao || `Mapa mental sobre ${title}, com foco em revisão para concursos.`,
     concurso: item.concurso || (index % 2 ? "PRF" : "PM"),
     materia: item.materia || title,
     assunto: item.assunto || item.root?.children?.[0]?.label || "Fundamentos",
     banca: item.banca || ["FGV", "CEBRASPE", "IBFC"][index % 3],
     nivel: item.nivel || levelOptions[index % 3],
-    tags: item.tags || ["mapa mental", item.materia || title, "revisao"].filter(Boolean),
+    tags: item.tags || ["mapa mental", item.materia || title, "revisão"].filter(Boolean),
     favorito: Boolean(item.favorito),
     origem: item.origem || "plataforma",
     criadoEm: item.criadoEm || "2026-06-01",
@@ -53,9 +53,9 @@ function buildRootFromDraft(draft) {
   return {
     label: main,
     children: [
-      { label: "Conceito central", children: [{ label: "Definicao", children: [] }, { label: "Palavras-chave", children: [] }] },
-      { label: "Aplicacao em prova", children: [{ label: draft.banca || "Banca", children: [] }, { label: "Pegadinhas", children: [] }] },
-      { label: "Revisao rapida", children: [{ label: "Resumo", children: [] }, { label: "Questoes", children: [] }] },
+      { label: "Conceito central", children: [{ label: "Definição", children: [] }, { label: "Palavras-chave", children: [] }] },
+      { label: "Aplicação em prova", children: [{ label: draft.banca || "Banca", children: [] }, { label: "Pegadinhas", children: [] }] },
+      { label: "Revisão rápida", children: [{ label: "Resumo", children: [] }, { label: "Questões", children: [] }] },
     ],
   };
 }
@@ -114,7 +114,7 @@ export default function MapasMentaisPage() {
     if (!draft.titulo.trim()) return;
     if (modal === "edit") {
       setOverrides((current) => ({ ...current, [draft.id]: { ...draft, tags: draft.tagsText?.split(",").map((tag) => tag.trim()).filter(Boolean) || draft.tags, root: draft.root || buildRootFromDraft(draft), atualizadoEm: new Date().toISOString().slice(0, 10) } }));
-      notify("Mapa atualizado", "Alteracoes salvas.");
+      notify("Mapa atualizado", "Alterações salvas.");
     } else {
       const map = { ...draft, id: `map-user-${Date.now()}`, origem: "usuario", favorito: false, tags: draft.tagsText.split(",").map((tag) => tag.trim()).filter(Boolean), criadoEm: new Date().toISOString().slice(0, 10), atualizadoEm: new Date().toISOString().slice(0, 10), root: buildRootFromDraft(draft), flashcardsRelacionados: 0, questoesRelacionadas: 0 };
       setLocalMaps((current) => [map, ...current]);
@@ -195,7 +195,7 @@ export default function MapasMentaisPage() {
         <Select label="Matéria" placeholder="Todas" options={unique(maps.map((item) => item.materia))} value={filters.materia} onChange={(event) => setFilters((current) => ({ ...current, materia: event.target.value }))} />
         <Select label="Assunto" placeholder="Todos" options={unique(maps.map((item) => item.assunto))} value={filters.assunto} onChange={(event) => setFilters((current) => ({ ...current, assunto: event.target.value }))} />
         <Select label="Banca" placeholder="Todas" options={unique(maps.map((item) => item.banca))} value={filters.banca} onChange={(event) => setFilters((current) => ({ ...current, banca: event.target.value }))} />
-        <Select label="Nivel" placeholder="Todos" options={levelOptions} value={filters.nivel} onChange={(event) => setFilters((current) => ({ ...current, nivel: event.target.value }))} />
+        <Select label="Nível" placeholder="Todos" options={levelOptions} value={filters.nivel} onChange={(event) => setFilters((current) => ({ ...current, nivel: event.target.value }))} />
         <Select label="Favoritos" placeholder="Todos" options={[{ value: "sim", label: "Favoritos" }]} value={filters.favorito} onChange={(event) => setFilters((current) => ({ ...current, favorito: event.target.value }))} />
         <Select label="Origem" placeholder="Todas" options={[{ value: "usuario", label: "Meus mapas" }, { value: "plataforma", label: "Plataforma" }]} value={filters.origem} onChange={(event) => setFilters((current) => ({ ...current, origem: event.target.value }))} />
       </div>
@@ -225,20 +225,20 @@ export default function MapasMentaisPage() {
             </div>
             {activeMap ? (
               <div className="space-y-2 text-sm text-gray-400">
-                <p><strong className="text-gray-200">Nivel:</strong> {activeMap.nivel}</p>
+                <p><strong className="text-gray-200">Nível:</strong> {activeMap.nivel}</p>
                 <p><strong className="text-gray-200">Atualizado:</strong> {activeMap.atualizadoEm}</p>
-                <p><strong className="text-gray-200">Relacionados:</strong> {activeMap.questoesRelacionadas} questoes · {activeMap.flashcardsRelacionados} flashcards</p>
+                <p><strong className="text-gray-200">Relacionados:</strong> {activeMap.questoesRelacionadas} questões · {activeMap.flashcardsRelacionados} flashcards</p>
                 <div className="mt-3 flex flex-wrap gap-2">{(activeMap.tags || []).slice(0, 4).map((tag) => <Badge key={tag} variant="neutral">{tag}</Badge>)}</div>
               </div>
             ) : null}
           </Card>
           <Card hover={false}>
-            <h2 className="mb-3 font-bold text-white">Acoes</h2>
+            <h2 className="mb-3 font-bold text-white">Ações</h2>
             <div className="grid gap-2">
               <Button size="sm" icon={CalendarCheck} onClick={() => activeMap && markStudied(activeMap)}>Estudar este mapa</Button>
               <Button size="sm" variant="secondary" icon={Brain} onClick={() => notify("Flashcards gerados", "Flashcards criados a partir do mapa.")}>Gerar flashcards</Button>
-              <Button size="sm" variant="secondary" icon={FileText} onClick={() => notify("Resumo gerado", "Resumo criado para revisao.")}>Gerar resumo</Button>
-              <Button size="sm" variant="secondary" icon={FileQuestion} onClick={() => notify("Questoes geradas", "Questoes relacionadas adicionadas.")}>Gerar questoes</Button>
+              <Button size="sm" variant="secondary" icon={FileText} onClick={() => notify("Resumo gerado", "Resumo criado para revisão.")}>Gerar resumo</Button>
+              <Button size="sm" variant="secondary" icon={FileQuestion} onClick={() => notify("Questões geradas", "Questões relacionadas adicionadas.")}>Gerar questões</Button>
               <Button size="sm" variant="ghost" icon={Download} onClick={() => notify("PDF preparado", "Download do mapa iniciado.")}>Baixar PDF</Button>
               <Button size="sm" variant="ghost" icon={Printer} onClick={() => window.print()}>Imprimir</Button>
               <Button size="sm" variant="ghost" icon={Share2} onClick={() => notify("Link copiado", "Mapa pronto para compartilhar.")}>Compartilhar</Button>
@@ -249,17 +249,17 @@ export default function MapasMentaisPage() {
         </aside>
       </div>
 
-      <Modal open={Boolean(modal)} title={modal === "edit" ? "Editar mapa" : "Novo mapa"} onClose={() => setModal(null)} footer={<Button onClick={saveMap}>{modal === "edit" ? "Salvar alteracoes" : "Criar mapa"}</Button>}>
+      <Modal open={Boolean(modal)} title={modal === "edit" ? "Editar mapa" : "Novo mapa"} onClose={() => setModal(null)} footer={<Button onClick={saveMap}>{modal === "edit" ? "Salvar alterações" : "Criar mapa"}</Button>}>
         <div className="grid gap-3">
           <Input label="Título" value={draft.titulo} onChange={(event) => setDraft((current) => ({ ...current, titulo: event.target.value }))} />
-          <Input label="Descricao" value={draft.descricao} onChange={(event) => setDraft((current) => ({ ...current, descricao: event.target.value }))} />
+          <Input label="Descrição" value={draft.descricao} onChange={(event) => setDraft((current) => ({ ...current, descricao: event.target.value }))} />
           <div className="grid gap-3 sm:grid-cols-2">
             <Input label="Concurso" value={draft.concurso} onChange={(event) => setDraft((current) => ({ ...current, concurso: event.target.value }))} />
             <Input label="Matéria" value={draft.materia} onChange={(event) => setDraft((current) => ({ ...current, materia: event.target.value }))} />
             <Input label="Assunto" value={draft.assunto} onChange={(event) => setDraft((current) => ({ ...current, assunto: event.target.value }))} />
             <Input label="Banca" value={draft.banca} onChange={(event) => setDraft((current) => ({ ...current, banca: event.target.value }))} />
-            <Select label="Nivel" options={levelOptions} value={draft.nivel} onChange={(event) => setDraft((current) => ({ ...current, nivel: event.target.value }))} />
-            <Input label="Tags" value={draft.tagsText} onChange={(event) => setDraft((current) => ({ ...current, tagsText: event.target.value }))} placeholder="Separadas por virgula" />
+            <Select label="Nível" options={levelOptions} value={draft.nivel} onChange={(event) => setDraft((current) => ({ ...current, nivel: event.target.value }))} />
+            <Input label="Tags" value={draft.tagsText} onChange={(event) => setDraft((current) => ({ ...current, tagsText: event.target.value }))} placeholder="Separadas por vírgula" />
           </div>
         </div>
       </Modal>

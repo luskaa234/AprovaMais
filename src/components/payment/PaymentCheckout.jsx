@@ -168,11 +168,11 @@ function PaymentCheckout() {
       if (data.acesso_liberado) {
         const released = await confirmBackendAccess("Pagamento aprovado. Seu acesso foi liberado.");
         if (!released) {
-          setStatusText("Pagamento aprovado. Aguardando sincronizacao do acesso.");
+          setStatusText("Pagamento aprovado. Aguardando sincronização do acesso.");
         }
       } else {
         toast.info("Pagamento enviado. O acesso libera quando o Mercado Pago confirmar.");
-        setStatusText("Aguardando confirmacao do Mercado Pago.");
+        setStatusText("Aguardando confirmação do Mercado Pago.");
       }
     } catch (error) {
       toast.error(error.message || "Não foi possível processar o cartão.");
@@ -186,7 +186,7 @@ function PaymentCheckout() {
   const copyPix = async () => {
     if (!pix?.qr_code) return;
     await navigator.clipboard.writeText(pix.qr_code);
-    toast.success("Codigo Pix copiado.");
+    toast.success("Código Pix copiado.");
   };
 
   if (!open) return null;

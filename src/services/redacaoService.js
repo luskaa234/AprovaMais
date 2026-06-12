@@ -14,7 +14,7 @@ export const redacaoService = {
   },
   async corrigir(texto, tema = "Tema de concurso publico") {
     if (!texto || texto.trim().length < 100) {
-      return { nota: 0, competencias: [0, 0, 0, 0, 0], comentarios: "Redacao muito curta para avaliacao. Escreva pelo menos 100 caracteres." };
+      return { nota: 0, competencias: [0, 0, 0, 0, 0], comentarios: "Redação muito curta para avaliação. Escreva pelo menos 100 caracteres." };
     }
     const fallback = { nota: Math.min(940, 720 + texto.length), competencias: [168, 176, 164, 172, 180], comentarios: "Tese clara, repertorio pertinente e proposta consistente." };
     try {

@@ -37,7 +37,7 @@ export default function BibliotecaPage() {
       <div className="mb-5 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <h1 className="text-3xl font-black text-white">Biblioteca</h1>
-          <p className="text-sm text-gray-400">{materiais.length} materiais organizados por categoria, materia e favoritos.</p>
+          <p className="text-sm text-gray-400">{materiais.length} materiais organizados por categoria, matéria e favoritos.</p>
         </div>
         <Button className="xl:hidden" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{activeFilterCount ? ` · ${activeFilterCount}` : ""}</Button>
       </div>

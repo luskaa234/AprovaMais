@@ -8,8 +8,8 @@ import { useTafStore } from "../../stores";
 
 const TAF_TESTS = [
   { tipo: "corrida", label: "Corrida", meta: 2400, unidade: "m", objetivo: "Ritmo para 12 minutos", min: 2100 },
-  { tipo: "flexao", label: "Flexao", meta: 30, unidade: "rep", objetivo: "Repeticoes validas", min: 20 },
-  { tipo: "abdominal", label: "Abdominal", meta: 40, unidade: "rep", objetivo: "Core e resistencia", min: 30 },
+  { tipo: "flexao", label: "Flexão", meta: 30, unidade: "rep", objetivo: "Repetições válidas", min: 20 },
+  { tipo: "abdominal", label: "Abdominal", meta: 40, unidade: "rep", objetivo: "Core e resistência", min: 30 },
   { tipo: "barra", label: "Barra", meta: 8, unidade: "rep", objetivo: "Puxada e pegada", min: 5 },
 ];
 
@@ -83,12 +83,12 @@ function TAFOverview() {
     <div className="grid gap-4">
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         <Card>
-          <p className="text-sm text-gray-400">Ultimo teste</p>
-          <strong className="text-2xl text-white">{latest.data || "Nao registrado"}</strong>
+          <p className="text-sm text-gray-400">Último teste</p>
+          <strong className="text-2xl text-white">{latest.data || "Não registrado"}</strong>
           <div className="mt-2"><Badge variant={(latest.nota || 0) >= 7 ? "success" : "warning"}>Nota {latest.nota || 0}</Badge></div>
         </Card>
         <Card>
-          <p className="text-sm text-gray-400">Situacao</p>
+          <p className="text-sm text-gray-400">Situação</p>
           <strong className="text-2xl text-blue-300">{latest.situacao || "Em treino"}</strong>
         </Card>
         <Card>
@@ -102,8 +102,8 @@ function TAFOverview() {
         </Card>
       </div>
       <div className="grid gap-4 xl:grid-cols-2">
-        <Card><h2 className="mb-3 font-bold text-white">Evolucao da nota</h2><PerformanceChart data={line} /></Card>
-        <Card><h2 className="mb-3 font-bold text-white">Perfil fisico</h2><RetentionRadarChart data={radar} /></Card>
+        <Card><h2 className="mb-3 font-bold text-white">Evolução da nota</h2><PerformanceChart data={line} /></Card>
+        <Card><h2 className="mb-3 font-bold text-white">Perfil físico</h2><RetentionRadarChart data={radar} /></Card>
       </div>
     </div>
   );

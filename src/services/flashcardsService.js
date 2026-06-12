@@ -8,7 +8,7 @@ async function getLocalDecks() {
   if (localDecksCache) return localDecksCache;
   try {
     const response = await fetch("/flashcards/decks.json");
-    if (!response.ok) throw new Error("Decks locais nao encontrados.");
+    if (!response.ok) throw new Error("Decks locais não encontrados.");
     localDecksCache = await response.json();
     return localDecksCache;
   } catch {
@@ -61,7 +61,7 @@ export const flashcardsService = {
         const remoteDecks = (data || []).map(mapDeck).filter((deck) => deck.cards.length);
         if (remoteDecks.length) return remoteDecks;
       } catch {
-        // Sem decks no banco ou sem sessao: usa a base local preservada.
+        // Sem decks no banco ou sem sessão: usa a base local preservada.
       }
     }
     return getLocalDecks();
@@ -104,7 +104,7 @@ export const flashcardsService = {
     const card = {
       id: `card-${Date.now()}`,
       frente: payload.frente || "Nova pergunta",
-      verso: payload.verso || "Resposta em construcao.",
+      verso: payload.verso || "Resposta em construção.",
       easeFactor: 2.5,
       interval: 1,
       repetitions: 0,
@@ -121,7 +121,7 @@ export const flashcardsService = {
       materia: payload.materia || "Geral",
       concurso: payload.concurso || "Geral",
       assunto: payload.assunto || payload.materia || "Geral",
-      subassunto: payload.subassunto || "Revisao",
+      subassunto: payload.subassunto || "Revisão",
       origem: "usuario",
       retencao: 0,
       cards: [card],
@@ -146,7 +146,7 @@ export const flashcardsService = {
     const deck = {
       id: `deck-lei-${payload.artigoId || Date.now()}-${Date.now()}`,
       titulo: payload.titulo || "Lei Seca",
-      materia: payload.materia || "Legislacao",
+      materia: payload.materia || "Legislação",
       concurso: payload.concurso || "Geral",
       assunto: "Lei Seca",
       origem: "lei_seca",

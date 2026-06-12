@@ -93,29 +93,29 @@ function localTutorResponse(mensagem = "", perfil = {}, desempenho = {}) {
   const priorities = subjects.length ? subjects : defaultSubjectsFor(objective);
 
   if (text.includes("quantas quest") || text.includes("questoes resolvi") || text.includes("questoes eu fiz")) {
-    return `Voce resolveu ${context.desempenho.questoesResolvidas || 0} questoes registradas ate agora.`;
+    return `Você resolveu ${context.desempenho.questoesResolvidas || 0} questões registradas até agora.`;
   }
 
   if (text.includes("taxa") || text.includes("percentual") || text.includes("aproveitamento")) {
-    return `Sua taxa de acerto registrada e ${context.desempenho.taxaAcertos || 0}%.`;
+    return `Sua taxa de acerto registrada é ${context.desempenho.taxaAcertos || 0}%.`;
   }
 
   if (text.includes("pior materia") || text.includes("materia mais fraca") || text.includes("materias fracas")) {
     if (!context.desempenho.questoesResolvidas) {
-      return "Ainda nao ha questoes resolvidas suficientes para apontar uma materia fraca real. Resolva um bloco de questoes e eu recalculo sem gastar IA.";
+      return "Ainda não há questões resolvidas suficientes para apontar uma matéria fraca real. Resolva um bloco de questões e eu recalculo sem gastar IA.";
     }
-    return `Pelos seus dados, suas prioridades agora sao: ${priorities.slice(0, 5).join(", ")}. Comece pela primeira com teoria curta + questoes + revisao dos erros.`;
+    return `Pelos seus dados, suas prioridades agora são: ${priorities.slice(0, 5).join(", ")}. Comece pela primeira com teoria curta + questões + revisão dos erros.`;
   }
 
   if (/^(oi|ola|opa|bom dia|boa tarde|boa noite)\b/.test(text)) {
-    return `Oi, ${firstName}. Posso montar um bloco de estudo, explicar uma questao ou analisar seus pontos fracos para ${objective}.`;
+    return `Oi, ${firstName}. Posso montar um bloco de estudo, explicar uma questão ou analisar seus pontos fracos para ${objective}.`;
   }
 
   if (text.includes("taf") || text.includes("teste fisico")) {
-    return "Plano simples de TAF: 3 treinos de corrida na semana, 2 blocos de forca e 1 dia leve. Registre tempo/repeticoes para ajustar pelo seu resultado real.";
+    return "Plano simples de TAF: 3 treinos de corrida na semana, 2 blocos de força e 1 dia leve. Registre tempo/repetições para ajustar pelo seu resultado real.";
   }
 
-  return `Entendi. Para ${objective}, eu focaria agora em ${priorities.slice(0, 3).join(", ")}. Se quiser uma explicacao mais detalhada, eu chamo a IA com esse contexto resumido.`;
+  return `Entendi. Para ${objective}, eu focaria agora em ${priorities.slice(0, 3).join(", ")}. Se quiser uma explicação mais detalhada, eu chamo a IA com esse contexto resumido.`;
 }
 
 function isDeterministicQuestion(mensagem = "") {
@@ -139,7 +139,7 @@ function cleanJsonText(text = "") {
 
 async function invokeAI({ task = "chat", prompt = "", perfil = {}, desempenho = {}, responseFormat = "text", maxOutputTokens, cache = false, cacheKey = "", cacheTtlDays = 30, historico = [] }) {
   if (!isSupabaseConfigured) {
-    lastAIStatus = { source: "local-fallback", modelName, error: "Supabase nao configurado" };
+    lastAIStatus = { source: "local-fallback", modelName, error: "Supabase não configurado" };
     return { text: localTutorResponse(prompt, perfil, desempenho), source: "local-fallback", model: modelName };
   }
 
@@ -227,16 +227,16 @@ export const aiService = {
     const context = buildCompactContext(perfil, desempenho);
     if (!context.desempenho.questoesResolvidas) {
       lastAIStatus = { source: "code", modelName, error: "" };
-      return "Ainda nao ha questoes resolvidas suficientes para gerar um relatorio real. Resolva algumas questoes para eu calcular taxa, materias fracas e evolucao.";
+      return "Ainda não há questões resolvidas suficientes para gerar um relatório real. Resolva algumas questões para eu calcular taxa, matérias fracas e evolução.";
     }
-    const prompt = `Interprete estes numeros ja calculados e gere um relatorio ${tipo}. Nao recalcule nada; apenas explique prioridades e plano de acao.`;
+    const prompt = `Interprete estes números já calculados e gere um relatório ${tipo}. Não recalcule nada; apenas explique prioridades e plano de ação.`;
     const result = await invokeAI({ task: "report", prompt, perfil, desempenho, maxOutputTokens: 900 });
     return result.text;
   },
 
   async gerarPlanoEstudos(perfil, planoBase) {
     const compact = compactProfile({ ...perfil, diagnosticPlan: planoBase });
-    const prompt = `Refine o plano calculado em codigo. Mantenha a estrutura e apenas melhore orientacoes, metas e distribuicao textual. Plano base: ${JSON.stringify(planoBase)}`;
+    const prompt = `Refine o plano calculado em código. Mantenha a estrutura e apenas melhore orientações, metas e distribuição textual. Plano base: ${JSON.stringify(planoBase)}`;
     try {
       const result = await invokeAI({
         task: "plan",
@@ -255,7 +255,7 @@ export const aiService = {
   },
 
   async gerarResumo(assunto, materia, concurso) {
-    return this.gerarTexto(`Crie um resumo objetivo de "${assunto}" da materia "${materia}" para ${concurso}. Maximo 220 palavras, em topicos.`, {
+    return this.gerarTexto(`Crie um resumo objetivo de "${assunto}" da matéria "${materia}" para ${concurso}. Máximo 220 palavras, em tópicos.`, {
       task: "summary",
       maxOutputTokens: 500,
       cache: true,
@@ -279,7 +279,7 @@ export const aiService = {
   },
 
   async corrigirRedacao(tema, texto, exame = "concurso") {
-    const prompt = `Corrija a redacao em JSON. Exame: ${exame}. Tema: ${tema}. Texto: ${texto}`;
+    const prompt = `Corrija a redação em JSON. Exame: ${exame}. Tema: ${tema}. Texto: ${texto}`;
     return this.gerarTexto(prompt, { task: "essay", responseFormat: "json", maxOutputTokens: 1000 });
   },
 

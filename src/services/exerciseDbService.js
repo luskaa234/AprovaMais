@@ -19,7 +19,7 @@ const fallback = {
     { id: "fb-chest-1", name: "flexao de braco", gifUrl: "", equipment: "peso corporal", target: "peitoral", secondaryMuscles: ["triceps", "deltoides"], instructions: ["Alinhe as maos abaixo dos ombros.", "Desca com tronco firme.", "Suba sem travar os cotovelos.", "Mantenha o abdomen contraido."] },
   ],
   waist: [
-    { id: "fb-waist-1", name: "abdominal remador", gifUrl: "", equipment: "peso corporal", target: "abdomen", secondaryMuscles: ["flexores do quadril"], instructions: ["Deite com pernas estendidas.", "Suba tronco e joelhos juntos.", "Toque os pes proximos ao corpo.", "Retorne controlando a descida."] },
+    { id: "fb-waist-1", name: "abdominal remador", gifUrl: "", equipment: "peso corporal", target: "abdomen", secondaryMuscles: ["flexores do quadril"], instructions: ["Deite com pernas estendidas.", "Suba tronco e joelhos juntos.", "Toque os pés próximos ao corpo.", "Retorne controlando a descida."] },
   ],
   back: [
     { id: "fb-back-1", name: "barra fixa", gifUrl: "", equipment: "barra", target: "dorsal", secondaryMuscles: ["biceps", "antebraco"], instructions: ["Segure a barra com pegada firme.", "Inicie com bracos estendidos.", "Puxe ate o queixo passar da barra.", "Desca com controle."] },
@@ -30,7 +30,7 @@ export const exerciseDbService = {
   async getByBodyPart(bodyPart) {
     try {
       const res = await fetch(`${BASE_URL}/exercises?bodyParts=${bodyPart}&limit=4`);
-      if (!res.ok) throw new Error("ExerciseDB indisponivel.");
+      if (!res.ok) throw new Error("ExerciseDB indisponível.");
       const data = await res.json();
       const items = data.exercises || data.data || data;
       return items.map(adaptExercise);

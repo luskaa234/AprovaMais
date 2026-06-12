@@ -7,7 +7,7 @@ async function getMaterialManifest() {
   if (materialCache) return materialCache;
   try {
     const response = await fetch("/materiais/manifest.json");
-    if (!response.ok) throw new Error("Manifest nao encontrado.");
+    if (!response.ok) throw new Error("Manifest não encontrado.");
     const base = (await response.json()).map(normalizeMaterialTitle);
     materialCache = base;
     return materialCache;

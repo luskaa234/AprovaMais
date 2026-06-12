@@ -5,8 +5,15 @@ import { useAsyncData } from "../../hooks";
 import { oabService } from "../../services";
 import { useInternalRouter, useUser } from "../../contexts";
 
-const tabs = ["Exames", "2a Fase", "Disciplinas", "Questoes", "Estatisticas", "Simulados", "Flashcards", "Resumos", "Plano"];
-const categories = ["Primeira Fase", "Segunda Fase", "Gabaritos", "Pecas Pratico-Profissionais", "Espelhos de Correcao", "Questoes"];
+const tabs = ["Exames", "2ª Fase", "Disciplinas", "Questões", "Estatísticas", "Simulados", "Flashcards", "Resumos", "Plano"];
+const categories = [
+  { label: "Primeira Fase", value: "Primeira Fase" },
+  { label: "Segunda Fase", value: "Segunda Fase" },
+  { label: "Gabaritos", value: "Gabaritos" },
+  { label: "Peças Prático-Profissionais", value: "Pecas Pratico-Profissionais" },
+  { label: "Espelhos de Correção", value: "Espelhos de Correcao" },
+  { label: "Questões", value: "Questoes" },
+];
 
 function formatNumber(value) {
   return Number(value || 0).toLocaleString("pt-BR");
@@ -45,16 +52,16 @@ function ExamCard({ exam }) {
       <div className="flex items-start justify-between gap-3">
         <div>
           <h3 className="text-lg font-black text-white">{exam.label}</h3>
-          <p className="mt-1 text-sm text-gray-400">{formatNumber(exam.materialCount)} materiais oficiais e {formatNumber(exam.questionCount)} questoes extraidas.</p>
+          <p className="mt-1 text-sm text-gray-400">{formatNumber(exam.materialCount)} materiais oficiais e {formatNumber(exam.questionCount)} questões extraídas.</p>
         </div>
-        <Badge variant={exam.questionCount ? "success" : "neutral"}>{exam.questionCount ? "Com questoes" : "Materiais"}</Badge>
+        <Badge variant={exam.questionCount ? "success" : "neutral"}>{exam.questionCount ? "Com questões" : "Materiais"}</Badge>
       </div>
       <div className="mt-4 grid gap-2">
         {categories.map((category) => {
-          const total = category === "Questoes" ? exam.questionCount : (exam.categories[category] || []).length;
+          const total = category.value === "Questoes" ? exam.questionCount : (exam.categories[category.value] || []).length;
           return (
-            <div className="flex items-center justify-between rounded-lg bg-gray-900 px-3 py-2 text-sm" key={category}>
-              <span className="text-gray-300">{category}</span>
+            <div className="flex items-center justify-between rounded-lg bg-gray-900 px-3 py-2 text-sm" key={category.value}>
+              <span className="text-gray-300">{category.label}</span>
               <strong className="text-white">{formatNumber(total)}</strong>
             </div>
           );
@@ -91,9 +98,9 @@ function DisciplinesView({ disciplines }) {
           <div className="flex items-start justify-between gap-3">
             <div>
               <h3 className="font-black text-white">{discipline.name}</h3>
-              <p className="mt-1 text-sm text-gray-400">{formatNumber(discipline.questionCount)} questoes e {formatNumber(discipline.materialCount)} materiais relacionados.</p>
+              <p className="mt-1 text-sm text-gray-400">{formatNumber(discipline.questionCount)} questões e {formatNumber(discipline.materialCount)} materiais relacionados.</p>
             </div>
-            <Badge>{discipline.questionCount ? "Questoes" : "Material"}</Badge>
+            <Badge>{discipline.questionCount ? "Questões" : "Material"}</Badge>
           </div>
           <div className="mt-4">
             <ProgressBar value={discipline.questionCount} max={max} />
@@ -113,17 +120,17 @@ function SecondPhaseView({ secondPhase }) {
   return (
     <div className="space-y-4">
       <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-        <Stat icon={FileText} label="Materiais de 2a fase" value={formatNumber(secondPhase.total)} detail="Cadernos, padroes e espelhos" />
-        <Stat icon={Target} label="Areas mapeadas" value={formatNumber(secondPhase.areas.filter((item) => item.total).length)} detail="Agrupadas automaticamente" />
-        <Stat icon={ClipboardList} label="Area em foco" value="2a fase" detail={selected?.name || "Vem do onboarding quando informado"} />
+        <Stat icon={FileText} label="Materiais de 2ª fase" value={formatNumber(secondPhase.total)} detail="Cadernos, padrões e espelhos" />
+        <Stat icon={Target} label="Áreas mapeadas" value={formatNumber(secondPhase.areas.filter((item) => item.total).length)} detail="Agrupadas automaticamente" />
+        <Stat icon={ClipboardList} label="Área em foco" value="2ª fase" detail={selected?.name || "Vem do onboarding quando informado"} />
         <Stat icon={BarChart3} label="Exames recentes" value={formatNumber(secondPhase.recentExams.length)} detail="Com materiais discursivos" />
       </div>
 
       <Card hover={false}>
         <div className="grid gap-3 lg:grid-cols-[0.8fr_1.2fr]">
           <div>
-            <SectionTitle title="Escolha sua area" description="A 2a fase muda por area. Os materiais abaixo acompanham a escolha." />
-            <Select label="Area da 2a fase" options={secondPhase.areas.map((item) => item.name)} value={area} onChange={(event) => setArea(event.target.value)} />
+            <SectionTitle title="Escolha sua área" description="A 2ª fase muda por área. Os materiais abaixo acompanham a escolha." />
+            <Select label="Área da 2ª fase" options={secondPhase.areas.map((item) => item.name)} value={area} onChange={(event) => setArea(event.target.value)} />
             <div className="mt-4 space-y-3">
               {secondPhase.areas.map((item) => (
                 <button
@@ -143,14 +150,14 @@ function SecondPhaseView({ secondPhase }) {
           </div>
 
           <div>
-            <SectionTitle title={`Treino de ${selected?.name || "2a fase"}`} description="Use caderno, padrao e espelho como ciclo de treino: escrever, comparar, corrigir." />
+            <SectionTitle title={`Treino de ${selected?.name || "2ª fase"}`} description="Use caderno, padrão e espelho como ciclo de treino: escrever, comparar, corrigir." />
             <div className="grid gap-3 sm:grid-cols-3">
               <div className="rounded-lg bg-gray-900 p-3">
                 <p className="text-xs font-semibold uppercase text-gray-500">Cadernos</p>
                 <strong className="mt-1 block text-2xl text-white">{selected?.cadernos || 0}</strong>
               </div>
               <div className="rounded-lg bg-gray-900 p-3">
-                <p className="text-xs font-semibold uppercase text-gray-500">Padroes</p>
+                <p className="text-xs font-semibold uppercase text-gray-500">Padrões</p>
                 <strong className="mt-1 block text-2xl text-white">{selected?.padroes || 0}</strong>
               </div>
               <div className="rounded-lg bg-gray-900 p-3">
@@ -172,7 +179,7 @@ function SecondPhaseView({ secondPhase }) {
       </Card>
 
       <Card hover={false}>
-        <SectionTitle title="Materiais da area" description="Lista recente para estudar a prova prático-profissional com base oficial FGV/OAB." />
+        <SectionTitle title="Materiais da área" description="Lista recente para estudar a prova prático-profissional com base oficial FGV/OAB." />
         <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
           {latest.map((material) => (
             <a className="rounded-lg bg-gray-900 p-3 transition hover:bg-gray-800" href={material.url} key={material.id} rel="noreferrer" target="_blank">
@@ -185,7 +192,7 @@ function SecondPhaseView({ secondPhase }) {
             </a>
           ))}
         </div>
-        {!latest.length ? <EmptyState icon={FileText} title="Sem materiais nesta area" description="Escolha outra area ou rode o miner quando novos arquivos oficiais forem publicados." /> : null}
+        {!latest.length ? <EmptyState icon={FileText} title="Sem materiais nesta área" description="Escolha outra área ou rode o miner quando novos arquivos oficiais forem publicados." /> : null}
       </Card>
     </div>
   );
@@ -206,7 +213,7 @@ function QuestionsView({ questions, disciplines, exams }) {
       <Card hover={false} className="mb-4 grid gap-3 md:grid-cols-4">
         <Select label="Disciplina" placeholder="Todas" options={disciplines.map((item) => item.name)} value={filters.discipline} onChange={(event) => setFilters((current) => ({ ...current, discipline: event.target.value }))} />
         <Select label="Exame" placeholder="Todos" options={exams.filter((exam) => exam.questionCount).map((exam) => ({ label: exam.label, value: exam.slug }))} value={filters.exam} onChange={(event) => setFilters((current) => ({ ...current, exam: event.target.value }))} />
-        <Input label="Numero" placeholder="1 a 80" value={filters.number} onChange={(event) => setFilters((current) => ({ ...current, number: event.target.value }))} />
+        <Input label="Número" placeholder="1 a 80" value={filters.number} onChange={(event) => setFilters((current) => ({ ...current, number: event.target.value }))} />
         <Input icon={Search} label="Buscar" placeholder="Palavra-chave" value={filters.search} onChange={(event) => setFilters((current) => ({ ...current, search: event.target.value }))} />
       </Card>
 
@@ -222,7 +229,7 @@ function QuestionsView({ questions, disciplines, exams }) {
             <p className="text-sm leading-relaxed text-gray-200">{question.enunciado}</p>
           </Card>
         ))}
-        {!visible.length ? <EmptyState icon={Search} title="Nenhuma questao encontrada" description="Ajuste disciplina, exame, numero ou busca." /> : null}
+        {!visible.length ? <EmptyState icon={Search} title="Nenhuma questão encontrada" description="Ajuste disciplina, exame, número ou busca." /> : null}
       </div>
     </div>
   );
@@ -232,7 +239,7 @@ function StatsView({ stats }) {
   return (
     <div className="grid gap-4 xl:grid-cols-[1fr_1fr]">
       <Card hover={false}>
-        <SectionTitle title="Disciplinas mais recorrentes" description="Ranking calculado pelas questoes oficiais ja extraidas." />
+        <SectionTitle title="Disciplinas mais recorrentes" description="Ranking calculado pelas questões oficiais já extraídas." />
         <div className="space-y-3">
           {stats.topDisciplines.map((item) => (
             <div key={item.label}>
@@ -246,13 +253,13 @@ function StatsView({ stats }) {
         </div>
       </Card>
       <Card hover={false}>
-        <SectionTitle title="Evolucao historica" description="Exames com questoes estruturadas no banco." />
+        <SectionTitle title="Evolução histórica" description="Exames com questões estruturadas no banco." />
         <div className="space-y-3">
           {stats.trend.map((item) => (
             <div className="rounded-lg bg-gray-900 p-3" key={item.label}>
               <div className="flex justify-between gap-3 text-sm">
                 <strong className="text-white">{item.label}</strong>
-                <span className="text-gray-400">{item.questions} questoes</span>
+                <span className="text-gray-400">{item.questions} questões</span>
               </div>
               <p className="mt-1 text-xs text-gray-500">Maior volume: {item.mainDiscipline}</p>
             </div>
@@ -299,7 +306,7 @@ function PlanView({ assets, navigate }) {
         <Button className="mt-4" icon={CalendarDays} onClick={() => navigate("plano")}>Abrir cronograma</Button>
       </Card>
       <Card hover={false}>
-        <SectionTitle title="Prioridades" description="Materias que devem guiar seus proximos blocos." />
+        <SectionTitle title="Prioridades" description="Matérias que devem guiar seus próximos blocos." />
         <div className="flex flex-wrap gap-2">
           {assets.priority.map((item) => <Badge key={item} variant="success">{item}</Badge>)}
         </div>
@@ -320,7 +327,7 @@ export default function OABPage() {
   }
 
   if (error || !data?.stats) {
-    return <EmptyState icon={Library} title="Base OAB indisponivel" description="Rode npm run miner:oab para reconstruir a biblioteca academica." />;
+    return <EmptyState icon={Library} title="Base OAB indisponível" description="Rode npm run miner:oab para reconstruir a biblioteca acadêmica." />;
   }
 
   const { exams, disciplines, questions, stats, assets, secondPhase } = data;
@@ -329,9 +336,9 @@ export default function OABPage() {
     <div className="mx-auto max-w-[1500px]">
       <div className="mb-5 flex flex-col gap-3 xl:flex-row xl:items-end xl:justify-between">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-wide text-blue-300">Biblioteca academica inteligente</p>
+          <p className="text-xs font-semibold uppercase tracking-wide text-blue-300">Biblioteca acadêmica inteligente</p>
           <h1 className="text-3xl font-black text-white">OAB</h1>
-          <p className="mt-1 max-w-3xl text-sm text-gray-400">Exames oficiais, questoes, disciplinas, estatisticas, simulados e revisoes em uma base preparada para crescer automaticamente.</p>
+          <p className="mt-1 max-w-3xl text-sm text-gray-400">Exames oficiais, questões, disciplinas, estatísticas, simulados e revisões em uma base preparada para crescer automaticamente.</p>
         </div>
         <div className="flex flex-wrap gap-2">
           <Button icon={BookOpen} variant="secondary" onClick={() => navigate("questoes")}>Treinar questões</Button>
@@ -340,9 +347,9 @@ export default function OABPage() {
       </div>
 
       <div className="mb-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-        <Stat icon={GraduationCap} label="Exames organizados" value={formatNumber(stats.totalExams)} detail="2010.2 ate o mais recente" />
-        <Stat icon={Library} label="Materiais oficiais" value={formatNumber(stats.totalMaterials)} detail="Provas, gabaritos e padroes" />
-        <Stat icon={Target} label="Questoes no banco" value={formatNumber(stats.totalQuestions)} detail="Com gabarito e disciplina" />
+        <Stat icon={GraduationCap} label="Exames organizados" value={formatNumber(stats.totalExams)} detail="2010.2 até o mais recente" />
+        <Stat icon={Library} label="Materiais oficiais" value={formatNumber(stats.totalMaterials)} detail="Provas, gabaritos e padrões" />
+        <Stat icon={Target} label="Questões no banco" value={formatNumber(stats.totalQuestions)} detail="Com gabarito e disciplina" />
         <Stat icon={BarChart3} label="Disciplinas mapeadas" value={formatNumber(disciplines.length)} detail="Agrupadas automaticamente" />
       </div>
 
@@ -351,10 +358,10 @@ export default function OABPage() {
       </Card>
 
       {active === "Exames" ? <ExamsView exams={exams} /> : null}
-      {active === "2a Fase" ? <SecondPhaseView secondPhase={secondPhase} /> : null}
+      {active === "2ª Fase" ? <SecondPhaseView secondPhase={secondPhase} /> : null}
       {active === "Disciplinas" ? <DisciplinesView disciplines={disciplines} /> : null}
-      {active === "Questoes" ? <QuestionsView questions={questions} disciplines={disciplines} exams={exams} /> : null}
-      {active === "Estatisticas" ? <StatsView stats={stats} /> : null}
+      {active === "Questões" ? <QuestionsView questions={questions} disciplines={disciplines} exams={exams} /> : null}
+      {active === "Estatísticas" ? <StatsView stats={stats} /> : null}
       {active === "Simulados" ? <AssetsView type="Simulados" assets={assets} /> : null}
       {active === "Flashcards" ? <AssetsView type="Flashcards" assets={assets} /> : null}
       {active === "Resumos" ? <AssetsView type="Resumos" assets={assets} /> : null}
@@ -363,7 +370,7 @@ export default function OABPage() {
       <Card hover={false} className="mt-4">
         <div className="flex flex-wrap items-center gap-2 text-sm text-gray-400">
           <Sparkles className="text-blue-300" size={17} />
-          <span>Novos exames entram automaticamente quando o miner encontrar prova, gabarito ou padrao oficial na FGV/OAB.</span>
+          <span>Novos exames entram automaticamente quando o miner encontrar prova, gabarito ou padrão oficial na FGV/OAB.</span>
         </div>
       </Card>
     </div>

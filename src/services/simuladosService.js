@@ -2,7 +2,7 @@ import { questoesService } from "./questoesService";
 import { groupCount } from "../utils";
 
 const DEFAULT_TEMPLATES = [
-  { id: "real-rapido", modo: "Treino real", nome: "Simulado rapido", quantidade: 10, tempoMinutos: 40 },
+  { id: "real-rapido", modo: "Treino real", nome: "Simulado rápido", quantidade: 10, tempoMinutos: 40 },
   { id: "real-medio", modo: "Prova real", nome: "Simulado direcionado", quantidade: 20, tempoMinutos: 90 },
   { id: "real-completo", modo: "Completo", nome: "Simulado completo", quantidade: 40, tempoMinutos: 180 },
 ];
@@ -29,12 +29,12 @@ function normalizeQuestion(question = {}) {
     ...question,
     alternativas,
     gabarito,
-    comentario: question.comentario || "Comentario ainda nao disponivel para esta questao oficial.",
-    materia: question.materia || "Materia nao informada",
-    assunto: question.assunto || question.topico || question.materia || "Assunto nao informado",
-    banca: question.banca || "Banca nao informada",
+    comentario: question.comentario || "Comentário ainda não disponível para esta questão oficial.",
+    materia: question.materia || "Matéria não informada",
+    assunto: question.assunto || question.topico || question.materia || "Assunto não informado",
+    banca: question.banca || "Banca não informada",
     dificuldade: question.dificuldade || question.nivel || "medio",
-    concurso: question.concurso || question.orgao || "Concurso nao informado",
+    concurso: question.concurso || question.orgao || "Concurso não informado",
   };
 }
 
@@ -82,7 +82,7 @@ export const simuladosService = {
     const questoes = (await questoesService.getQuestoes(filtros)).map(normalizeQuestion).filter(Boolean);
 
     if (questoes.length < quantidade) {
-      throw new Error(`Base insuficiente: encontrei ${questoes.length} questoes oficiais para este filtro.`);
+      throw new Error(`Base insuficiente: encontrei ${questoes.length} questões oficiais para este filtro.`);
     }
 
     return {

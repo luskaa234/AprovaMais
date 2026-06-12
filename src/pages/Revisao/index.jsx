@@ -5,7 +5,7 @@ import { useAsyncData } from "../../hooks";
 import { revisaoService } from "../../services";
 import { useFlashcardsStore, useQuestoesStore } from "../../stores";
 
-const tabs = ["Pendentes", "Revisao Espacada", "Erros", "Flashcards", "Mapas Mentais", "Resumos"];
+const tabs = ["Pendentes", "Revisão Espaçada", "Erros", "Flashcards", "Mapas Mentais", "Resumos"];
 
 function dueTone(date) {
   if (!date) return "warning";
@@ -60,7 +60,7 @@ export default function RevisaoPage() {
       .slice(0, 8);
   }, [decks, sessoesFlashcards]);
   const mapas = useMemo(() => ordered.slice(0, 4).map((item) => ({ id: `map-${item.assuntoId || item.id}`, materia: item.materia, assunto: item.assunto || item.frente })), [ordered]);
-  const resumos = useMemo(() => ordered.slice(0, 4).map((item) => ({ id: `res-${item.assuntoId || item.id}`, title: item.materia, text: `Revise ${item.assunto || item.frente}, refaca questoes do tema e anote a regra que mais caiu.` })), [ordered]);
+  const resumos = useMemo(() => ordered.slice(0, 4).map((item) => ({ id: `res-${item.assuntoId || item.id}`, title: item.materia, text: `Revise ${item.assunto || item.frente}, refaça questões do tema e anote a regra que mais caiu.` })), [ordered]);
 
   const avaliar = useCallback((item, quality) => {
     setData((current) => current.map((card) => card.assuntoId === item.assuntoId ? revisaoService.avaliar(item, quality) : card));
@@ -76,8 +76,8 @@ export default function RevisaoPage() {
       <section className="review-hero mb-4 rounded-lg border border-blue-100 bg-white p-4 shadow-sm">
         <div className="grid gap-4 xl:grid-cols-[1fr_360px] xl:items-center">
           <div>
-            <p className="text-xs font-black uppercase tracking-wide text-blue-600">Central de revisao</p>
-            <h1 className="mt-1 text-3xl font-black text-slate-950">Fila inteligente de revisoes</h1>
+            <p className="text-xs font-black uppercase tracking-wide text-blue-600">Central de revisão</p>
+            <h1 className="mt-1 text-3xl font-black text-slate-950">Fila inteligente de revisões</h1>
             <p className="mt-1 max-w-2xl text-sm leading-6 text-slate-500">Veja o que revisar hoje, ataque erros recentes e transforme flashcards, mapas e resumos em rotina curta.</p>
           </div>
           <div className="grid grid-cols-3 gap-2">
@@ -100,7 +100,7 @@ export default function RevisaoPage() {
           <div className="grid gap-3 md:grid-cols-[1fr_auto] md:items-center">
             <div className="min-w-0">
               <div className="mb-2 flex flex-wrap items-center gap-2">
-                <Badge variant={dueTone(nextItem.proximaRevisao || nextItem.dueAt)}>Proxima revisao</Badge>
+                <Badge variant={dueTone(nextItem.proximaRevisao || nextItem.dueAt)}>Próxima revisão</Badge>
                 <span className="inline-flex items-center gap-1 text-xs font-bold text-slate-500">
                   <Clock size={14} /> {nextItem.proximaRevisao || nextItem.dueAt || "hoje"}
                 </span>
@@ -121,7 +121,7 @@ export default function RevisaoPage() {
         <Tabs items={tabs} activeTab={tab} onChange={setTab} />
       </div>
 
-      {tab === "Pendentes" || tab === "Revisao Espacada" ? (
+      {tab === "Pendentes" || tab === "Revisão Espaçada" ? (
         <div className="mt-4 grid gap-3 xl:grid-cols-2">
           {ordered.length ? ordered.map((item) => (
             <ReviewCard
@@ -131,7 +131,7 @@ export default function RevisaoPage() {
               onMaster={() => avaliar(item, 5)}
               onReview={() => avaliar(item, 3)}
             />
-          )) : <EmptyState icon={CheckCircle2} title="Nada pendente agora" description="Quando voce errar questoes ou avaliar flashcards, novas revisoes entram aqui." />}
+          )) : <EmptyState icon={CheckCircle2} title="Nada pendente agora" description="Quando você errar questões ou avaliar flashcards, novas revisões entram aqui." />}
         </div>
       ) : null}
 
@@ -146,7 +146,7 @@ export default function RevisaoPage() {
               <p className="mt-3 text-sm leading-6 text-slate-700">{item.enunciado}</p>
               <p className="mt-2 text-xs font-bold text-slate-500">Gabarito: {String(item.gabarito).toUpperCase()} - {item.assunto}</p>
             </Card>
-          )) : <EmptyState icon={XCircle} title="Sem erros registrados" description="As questoes erradas entram automaticamente nesta aba." />}
+          )) : <EmptyState icon={XCircle} title="Sem erros registrados" description="As questões erradas entram automaticamente nesta aba." />}
         </div>
       ) : null}
 
@@ -158,7 +158,7 @@ export default function RevisaoPage() {
               <h2 className="mt-3 font-black text-slate-950">{item.frente}</h2>
               <p className="mt-2 text-sm leading-6 text-slate-500">{item.verso}</p>
             </Card>
-          )) : <EmptyState title="Sem flashcards em revisao" description="Depois que voce revisar cards, eles aparecem aqui na fila." />}
+          )) : <EmptyState title="Sem flashcards em revisão" description="Depois que você revisar cards, eles aparecem aqui na fila." />}
         </div>
       ) : null}
 
@@ -170,7 +170,7 @@ export default function RevisaoPage() {
               <h2 className="font-black text-slate-950">{item.materia}</h2>
               <p className="mt-2 text-sm text-slate-500">{item.assunto}</p>
             </Card>
-          )) : <EmptyState title="Sem mapas para revisar" description="Mapas entram aqui quando houver conteudo criado ou revisoes pendentes." />}
+          )) : <EmptyState title="Sem mapas para revisar" description="Mapas entram aqui quando houver conteúdo criado ou revisões pendentes." />}
         </div>
       ) : null}
 
@@ -182,7 +182,7 @@ export default function RevisaoPage() {
               <h2 className="font-black text-slate-950">{item.title}</h2>
               <p className="mt-2 text-sm leading-6 text-slate-500">{item.text}</p>
             </Card>
-          )) : <EmptyState title="Sem resumos pendentes" description="Quando voce gerar resumos ou tiver revisoes, eles aparecem aqui." />}
+          )) : <EmptyState title="Sem resumos pendentes" description="Quando você gerar resumos ou tiver revisões, eles aparecem aqui." />}
         </div>
       ) : null}
     </div>

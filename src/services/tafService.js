@@ -14,7 +14,7 @@ const TAF_EXERCISES = {
   flexao: {
     bodyPart: "chest",
     label: "Flexao de braco",
-    goal: "melhorar repeticoes validas com tronco alinhado",
+    goal: "melhorar repetições válidas com tronco alinhado",
     keywords: ["push-up", "push up", "press-up", "chest dip"],
     avoid: ["bench", "dumbbell", "barbell", "machine", "cable", "bosu", "ball", "suspended"],
   },
@@ -79,7 +79,7 @@ export const tafService = {
 
     try {
       const res = await fetch(`${EXERCISE_BASE}/exercises?bodyParts=${taf.bodyPart}&limit=80`);
-      if (!res.ok) throw new Error("ExerciseDB indisponivel.");
+      if (!res.ok) throw new Error("ExerciseDB indisponível.");
       const data = await res.json();
       const items = data.exercises || data.data || data;
       const ranked = items
@@ -115,7 +115,7 @@ export const tafService = {
           equipment: "peso corporal",
           target: "peitoral",
           secondaryMuscles: ["triceps", "deltoides"],
-          instructions: ["Alinhe as maos abaixo dos ombros.", "Desca com tronco firme.", "Suba sem travar os cotovelos.", "Mantenha o abdomen contraido."],
+          instructions: ["Alinhe as mãos abaixo dos ombros.", "Desça com tronco firme.", "Suba sem travar os cotovelos.", "Mantenha o abdômen contraído."],
           tafTipo: "flexao",
         },
       ],
@@ -127,7 +127,7 @@ export const tafService = {
           equipment: "peso corporal",
           target: "abdomen",
           secondaryMuscles: ["flexores do quadril"],
-          instructions: ["Deite com pernas estendidas.", "Suba tronco e joelhos juntos.", "Toque os pes proximos ao corpo.", "Retorne controlando a descida."],
+          instructions: ["Deite com pernas estendidas.", "Suba tronco e joelhos juntos.", "Toque os pés próximos ao corpo.", "Retorne controlando a descida."],
           tafTipo: "abdominal",
         },
       ],

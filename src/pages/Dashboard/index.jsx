@@ -45,10 +45,10 @@ function getObjectiveContent(user = {}) {
 
   if (objective === "oab" || target.includes("oab")) {
     return {
-      title: "Conteudos OAB",
+      title: "Conteúdos OAB",
       label: "OAB",
-      subjects: ["Etica Profissional", "Direito Constitucional", "Direito Civil", "Processo Civil", "Direito Penal", "Direito do Trabalho"],
-      actions: ["Questoes FGV", "Simulado 1a fase", "Treino de peca"],
+      subjects: ["Ética Profissional", "Direito Constitucional", "Direito Civil", "Processo Civil", "Direito Penal", "Direito do Trabalho"],
+      actions: ["Questões FGV", "Simulado 1ª fase", "Treino de peça"],
     };
   }
 
@@ -61,18 +61,18 @@ function getObjectiveContent(user = {}) {
     target.includes("prf")
   ) {
     return {
-      title: "Conteudos de seguranca publica",
-      label: user.targetContest || "PM/seguranca",
-      subjects: ["Portugues", "Matematica/RL", "Informatica", "Atualidades", "Direito Constitucional", "Direito Penal", "Processo Penal", "Legislacao Especial", "Direito Militar", "TAF"],
-      actions: ["Questoes oficiais", "Simulado por banca", "Treino TAF"],
+      title: "Conteúdos de segurança pública",
+      label: user.targetContest || "PM/segurança",
+      subjects: ["Português", "Matemática/RL", "Informática", "Atualidades", "Direito Constitucional", "Direito Penal", "Processo Penal", "Legislação Especial", "Direito Militar", "TAF"],
+      actions: ["Questões oficiais", "Simulado por banca", "Treino TAF"],
     };
   }
 
   return {
     title: "Estudo geral",
     label: "Geral",
-    subjects: user.diagnosticPlan?.prioritySubjects || ["Portugues", "Matematica", "Informatica", "Atualidades", "Redacao"],
-    actions: ["Plano semanal", "Questoes disponiveis", "Revisao"],
+    subjects: user.diagnosticPlan?.prioritySubjects || ["Português", "Matemática", "Informática", "Atualidades", "Redação"],
+    actions: ["Plano semanal", "Questões disponíveis", "Revisão"],
   };
 }
 
@@ -91,20 +91,20 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
         <div>
           <span>Hoje</span>
           <h1>Bom estudo, {firstName}</h1>
-          <p>Plano ativo para prova, revisao e TAF.</p>
+          <p>Plano ativo para prova, revisão e TAF.</p>
         </div>
       </section>
 
       <section className="mobile-study-progress" data-tour="tour-dashboard-kpis">
         <div className="mobile-study-progress-top">
           <div>
-            <span>Missao do dia</span>
+            <span>Missão do dia</span>
             <strong>{planProgress}%</strong>
           </div>
         </div>
         <ProgressBar value={planProgress} color="bg-blue-600" />
         <div className="mobile-study-progress-goals">
-          <span><BookOpen size={15} /> {questions[1]} questoes</span>
+          <span><BookOpen size={15} /> {questions[1]} questões</span>
           <span><Flame size={15} /> {streak[1]} dias</span>
           <span><Dumbbell size={15} /> TAF {taf[1]}</span>
         </div>
@@ -118,12 +118,12 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
       </div>
 
       <div className="mobile-study-section-title">
-        <h2>Acoes rapidas</h2>
+        <h2>Ações rápidas</h2>
       </div>
       <div className="mobile-study-actions" data-tour="tour-dashboard-actions">
         <MobileQuickAction detail="Começar bloco agora" icon={Play} label="Estudar" onClick={() => navigate("plano")} tone="tone-blue" />
         <MobileQuickAction detail={`${revisoes.length} pendentes hoje`} icon={CalendarCheck} label="Revisar" onClick={() => navigate("revisao")} tone="tone-rose" />
-        <MobileQuickAction detail={`${todayHit}% no ultimo dia`} icon={Target} label="Questoes" onClick={() => navigate("questoes")} tone="tone-emerald" />
+        <MobileQuickAction detail={`${todayHit}% no último dia`} icon={Target} label="Questões" onClick={() => navigate("questoes")} tone="tone-emerald" />
       </div>
 
       <section className="mobile-study-card">
@@ -265,7 +265,7 @@ export default function DashboardPage() {
     const porMateria = activeTentativas.reduce((acc, tentativa) => {
       const questao = questoes.find((item) => item.id === tentativa.questaoId);
       const materia = tentativa.materia || questao?.materiaLabel || questao?.materia;
-      if (!materia || materia === "Nao informada") return acc;
+      if (!materia || materia === "Nao informada" || materia === "Não informada") return acc;
       acc[materia] ||= { acertos: 0, total: 0, erros: 0 };
       acc[materia].total += 1;
       if (tentativa.acertou) acc[materia].acertos += 1;
@@ -299,7 +299,7 @@ export default function DashboardPage() {
 
   const kpis = [
     ["Horas estudadas", stats.horas_estudadas ?? stats.horasEstudadas ?? 0, Clock],
-    ["Questoes resolvidas", questoesResolvidas, ClipboardList],
+    ["Questões resolvidas", questoesResolvidas, ClipboardList],
     ["Taxa de acertos", `${taxaAcertos}%`, Target],
     ["Sequência", sequenciaTentativas, Zap],
     ["TAF", `${stats.taf_nota ?? stats.tafNota ?? 0}/10`, Dumbbell],
@@ -330,7 +330,7 @@ export default function DashboardPage() {
           <div className="mb-3 flex items-start justify-between gap-3">
             <div>
               <h2 className="font-bold text-white">Relatorio de desempenho IA</h2>
-              <p className="text-sm text-gray-400">Gerado pelo tutor com base nas suas tentativas e estatisticas atuais.</p>
+              <p className="text-sm text-gray-400">Gerado pelo tutor com base nas suas tentativas e estatísticas atuais.</p>
             </div>
             <button className="rounded-lg p-2 text-gray-400 hover:bg-gray-900 hover:text-white" onClick={() => setRelatorio(null)} type="button" aria-label="Fechar relatorio">
               <X size={18} />
@@ -361,7 +361,7 @@ export default function DashboardPage() {
               <strong className="mt-1 block text-2xl text-white">{diagnosticPlan.weeklyHours}h</strong>
             </div>
             <div className="rounded-lg border border-gray-800 bg-gray-950 p-3">
-              <span className="text-xs text-gray-500">Dias disponiveis</span>
+              <span className="text-xs text-gray-500">Dias disponíveis</span>
               <strong className="mt-1 block text-2xl text-white">{diagnosticPlan.availableDays?.length || 0}</strong>
             </div>
             <div className="rounded-lg border border-gray-800 bg-gray-950 p-3">
@@ -398,7 +398,7 @@ export default function DashboardPage() {
           <div>
             <p className="text-xs font-black uppercase tracking-wide text-blue-300">Dashboard personalizado</p>
             <h2 className="mt-1 text-xl font-black text-white">{objectiveContent.title}</h2>
-            <p className="mt-1 text-sm text-gray-400">Mostrando trilhas, materias e simulados alinhados a {objectiveContent.label}.</p>
+            <p className="mt-1 text-sm text-gray-400">Mostrando trilhas, matérias e simulados alinhados a {objectiveContent.label}.</p>
           </div>
           <Badge variant="success">{objectiveContent.label}</Badge>
         </div>
@@ -415,7 +415,7 @@ export default function DashboardPage() {
             </div>
           ) : null}
           <div>
-            <h3 className="mb-2 text-sm font-bold text-white">Acoes recomendadas</h3>
+            <h3 className="mb-2 text-sm font-bold text-white">Ações recomendadas</h3>
             <div className="grid gap-2 text-sm text-gray-300">
               {objectiveContent.actions.map((action) => <span key={action}>{action}</span>)}
             </div>
@@ -433,9 +433,9 @@ export default function DashboardPage() {
         <Card className="mt-4" hover={false}>
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
             <div>
-              <h2 className="font-bold text-slate-950">Seu progresso comeca nas questoes</h2>
-              <p className="mt-1 text-sm text-slate-500">Resolva uma questao para preencher acertos, erros, sequencia e desempenho por materia.</p>
-              <Button className="mt-3" size="sm" onClick={() => navigate("questoes")}>Abrir questoes</Button>
+              <h2 className="font-bold text-slate-950">Seu progresso começa nas questões</h2>
+              <p className="mt-1 text-sm text-slate-500">Resolva uma questão para preencher acertos, erros, sequência e desempenho por matéria.</p>
+              <Button className="mt-3" size="sm" onClick={() => navigate("questoes")}>Abrir questões</Button>
             </div>
           </div>
         </Card>
@@ -443,7 +443,7 @@ export default function DashboardPage() {
 
       <div className="mt-4 grid gap-4 xl:grid-cols-[1.5fr_1fr]">
         <Card data-tour="tour-desempenho">
-          <h2 className="mb-3 font-bold text-white">Evolucao semanal</h2>
+          <h2 className="mb-3 font-bold text-white">Evolução semanal</h2>
           <PerformanceChart data={performance} />
         </Card>
         <Card>
@@ -452,7 +452,7 @@ export default function DashboardPage() {
             <StudyTimeChart data={tempo} />
           ) : (
             <div className="flex h-72 items-center justify-center rounded-lg border border-dashed border-gray-800 text-center text-sm text-gray-400">
-              Estude e resolva questoes para ver a distribuicao por disciplina.
+              Estude e resolva questões para ver a distribuição por disciplina.
             </div>
           )}
         </Card>
@@ -473,7 +473,7 @@ export default function DashboardPage() {
               </div>
             ))
           ) : (
-            <p className="rounded-lg border border-dashed border-gray-800 p-4 text-sm text-gray-400">Nenhuma revisao ainda. Elas aparecem depois que voce resolve questoes ou cria flashcards.</p>
+            <p className="rounded-lg border border-dashed border-gray-800 p-4 text-sm text-gray-400">Nenhuma revisão ainda. Elas aparecem depois que você resolve questões ou cria flashcards.</p>
           )}
         </Card>
         <Card>
@@ -488,10 +488,10 @@ export default function DashboardPage() {
               </div>
             ))
           ) : (
-            <p className="rounded-lg border border-dashed border-gray-800 p-4 text-sm text-gray-400">Seu ranking aparece depois das primeiras questoes.</p>
+            <p className="rounded-lg border border-dashed border-gray-800 p-4 text-sm text-gray-400">Seu ranking aparece depois das primeiras questões.</p>
           )}
           <AIPanel
-            text={questoesResolvidas ? "Sua prioridade hoje sera calculada pelos seus erros, acertos e revisoes pendentes." : "Resolva algumas questoes para o assistente identificar suas prioridades reais."}
+            text={questoesResolvidas ? "Sua prioridade hoje será calculada pelos seus erros, acertos e revisões pendentes." : "Resolva algumas questões para o assistente identificar suas prioridades reais."}
             action={
               <Button size="sm" onClick={() => navigate("taf")}>
                 Abrir TAF

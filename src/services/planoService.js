@@ -255,7 +255,7 @@ ${JSON.stringify({
 }, null, 2)}
 
 Data inicial da semana: ${isoDate(startDate)}
-Regras: distribua materias importantes, alterne teoria/questoes/revisao e inclua TAF se for objetivo policial ou militar.`;
+Regras: distribua matérias importantes, alterne teoria/questões/revisão e inclua TAF se for objetivo policial ou militar.`;
     try {
       const text = await aiService.gerarTexto(prompt, {
         task: "plan",

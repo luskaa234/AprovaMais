@@ -21,29 +21,29 @@ import { aiService } from "../services";
 
 const objectives = [
   { value: "oab", label: "OAB", icon: Scale },
-  { value: "concurso", label: "Concurso PM/seguranca", icon: BriefcaseBusiness },
+  { value: "concurso", label: "Concurso PM/segurança", icon: BriefcaseBusiness },
   { value: "geral", label: "Estudo geral", icon: Target },
 ];
 
 const securityContestOptions = [
-  { value: "PM", label: "Policia Militar" },
+  { value: "PM", label: "Polícia Militar" },
   { value: "CBM", label: "Bombeiros" },
-  { value: "PC", label: "Policia Civil" },
-  { value: "PP", label: "Policia Penal" },
-  { value: "PRF", label: "Policia Rodoviaria Federal" },
+  { value: "PC", label: "Polícia Civil" },
+  { value: "PP", label: "Polícia Penal" },
+  { value: "PRF", label: "Polícia Rodoviária Federal" },
 ];
 
 const weekDays = [
   { value: "segunda", label: "Segunda" },
-  { value: "terca", label: "Terca" },
+  { value: "terca", label: "Terça" },
   { value: "quarta", label: "Quarta" },
   { value: "quinta", label: "Quinta" },
   { value: "sexta", label: "Sexta" },
-  { value: "sabado", label: "Sabado" },
+  { value: "sabado", label: "Sábado" },
   { value: "domingo", label: "Domingo" },
 ];
 
-const generalSubjects = ["Portugues", "Matematica", "Informatica", "Atualidades", "Redacao", "Ingles", "Raciocinio Logico"];
+const generalSubjects = ["Português", "Matemática", "Informática", "Atualidades", "Redação", "Inglês", "Raciocínio Lógico"];
 const legalSubjects = [
   "Direito Constitucional",
   "Direito Administrativo",
@@ -56,26 +56,26 @@ const legalSubjects = [
 ];
 
 const securitySubjects = [
-  "Portugues",
-  "Matematica/RL",
-  "Informatica",
-  "Historia/Geografia",
+  "Português",
+  "Matemática/RL",
+  "Informática",
+  "História/Geografia",
   "Atualidades",
   "Direito Constitucional",
   "Direito Penal",
   "Processo Penal",
-  "Legislacao Especial",
-  "Direito Militar/Legislacao PM",
-  "Redacao",
+  "Legislação Especial",
+  "Direito Militar/Legislação PM",
+  "Redação",
   "TAF",
 ];
-const levels = ["Estou comecando agora", "Basico", "Intermediario", "Avancado"];
+const levels = ["Estou começando agora", "Básico", "Intermediário", "Avançado"];
 
 const stepTitles = [
-  "Conhecendo voce",
+  "Conhecendo você",
   "Definindo sua meta",
   "Disponibilidade",
-  "Nivel atual",
+  "Nível atual",
   "Dificuldades",
   "Edital",
   "IA monta tudo",
@@ -100,7 +100,7 @@ function fileToDataUrl(file) {
 }
 
 function subjectsForObjective(objective) {
-  if (objective === "oab") return [...legalSubjects, "Etica Profissional", "Peca Pratica"];
+  if (objective === "oab") return [...legalSubjects, "Ética Profissional", "Peça Prática"];
   if (objective === "concurso") return securitySubjects;
   return generalSubjects;
 }
@@ -120,14 +120,14 @@ function buildDiagnosticPlan(form) {
   const dailyMinutes = Math.max(30, Math.round((hoursPerDay * 60) / 2) * 2);
 
   const weeklySchedule = availableDays.map((day, index) => {
-    const primary = prioritySubjects[index % prioritySubjects.length] || "Materia principal";
+    const primary = prioritySubjects[index % prioritySubjects.length] || "Matéria principal";
     const secondary = prioritySubjects[(index + 1) % prioritySubjects.length] || primary;
     return {
       day,
       blocks: [
         { type: "Teoria", subject: primary, minutes: Math.round(dailyMinutes * 0.45) },
-        { type: "Questoes", subject: secondary, minutes: Math.round(dailyMinutes * 0.35) },
-        { type: "Revisao", subject: primary, minutes: Math.max(15, Math.round(dailyMinutes * 0.2)) },
+        { type: "Questões", subject: secondary, minutes: Math.round(dailyMinutes * 0.35) },
+        { type: "Revisão", subject: primary, minutes: Math.max(15, Math.round(dailyMinutes * 0.2)) },
       ],
     };
   });
@@ -145,26 +145,26 @@ function buildDiagnosticPlan(form) {
     track: [
       `Base dirigida para ${objectiveLabel}`,
       "Teoria essencial",
-      "Questoes por assunto",
-      "Revisao espacada",
+      "Questões por assunto",
+      "Revisão espaçada",
       "Simulado e caderno de erros",
     ],
     simulations: form.objective === "oab"
-        ? ["Simulado OAB 1a fase", "Treino de peca", "Questoes FGV por disciplina"]
+        ? ["Simulado OAB 1ª fase", "Treino de peça", "Questões FGV por disciplina"]
         : form.objective === "concurso"
-          ? ["Questoes PM/seguranca", "Simulado por banca", "Revisao dos erros"]
-        : ["Blocos por banca", "Simulado semanal", "Revisao dos erros"],
+          ? ["Questões PM/segurança", "Simulado por banca", "Revisão dos erros"]
+        : ["Blocos por banca", "Simulado semanal", "Revisão dos erros"],
     weeklyGoals: [
-      `${weeklyHours}h de estudo liquido`,
-      `${Math.max(80, weeklyHours * 12)} questoes por semana`,
-      `${Math.max(2, availableDays.length)} revisoes programadas`,
-      form.objective === "geral" ? "1 bloco de revisao por semana" : "1 simulado por semana",
+      `${weeklyHours}h de estudo líquido`,
+      `${Math.max(80, weeklyHours * 12)} questões por semana`,
+      `${Math.max(2, availableDays.length)} revisões programadas`,
+      form.objective === "geral" ? "1 bloco de revisão por semana" : "1 simulado por semana",
     ],
     evolutionForecast: weeklyHours >= 20
-      ? "Evolucao rapida: revise desempenho a cada 7 dias."
+      ? "Evolução rápida: revise desempenho a cada 7 dias."
       : weeklyHours >= 10
-        ? "Evolucao consistente: priorize constancia e revisao."
-        : "Evolucao gradual: blocos curtos e foco no essencial.",
+        ? "Evolução consistente: priorize constância e revisão."
+        : "Evolução gradual: blocos curtos e foco no essencial.",
   };
 }
 
@@ -222,7 +222,7 @@ export default function Onboarding() {
     hoursPerDay: user?.hoursPerDay || 2,
     daysPerWeek: user?.daysPerWeek || 5,
     availableDays: user?.availableDays || ["segunda", "terca", "quarta", "quinta", "sexta"],
-    currentLevel: user?.currentLevel || "Basico",
+    currentLevel: user?.currentLevel || "Básico",
     difficultSubjects: user?.difficultSubjects || [],
     editalOption: user?.editalOption || "procurar-depois",
     editalText: user?.editalText || "",
@@ -301,7 +301,7 @@ export default function Onboarding() {
         diagnosticPlan: plan,
         onboardingComplete: true,
       });
-      toast.success("Diagnostico criado. Seu dashboard foi personalizado.");
+      toast.success("Diagnóstico criado. Seu dashboard foi personalizado.");
     } catch (error) {
       toast.error(error.message || "Não foi possível criar seu plano.");
     } finally {
@@ -327,18 +327,18 @@ export default function Onboarding() {
           <aside className="rounded-lg border border-blue-100 bg-white p-4 shadow-sm">
             <span className="inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50 px-3 py-1 text-xs font-bold text-blue-700">
               <Sparkles size={14} />
-              Diagnostico inteligente
+              Diagnóstico inteligente
             </span>
             <h1 className="mt-4 text-2xl font-black leading-tight">A IA monta seu estudo a partir das suas respostas.</h1>
             <p className="mt-3 text-sm leading-6 text-slate-500">
-              O onboarding separa OAB, concursos de seguranca e estudo geral para entregar um dashboard focado no que a plataforma oferece.
+              O onboarding separa OAB, concursos de segurança e estudo geral para entregar um dashboard focado no que a plataforma oferece.
             </p>
             <div className="mt-6 rounded-lg border border-blue-100 bg-blue-50 p-4">
               <div className="mx-auto grid size-14 place-items-center rounded-2xl bg-blue-600 text-white">
                 <Sparkles size={26} />
               </div>
               <p className="mt-3 text-center text-sm font-semibold text-blue-800">
-                Vou organizar suas respostas e transformar isso em um plano pratico.
+                Vou organizar suas respostas e transformar isso em um plano prático.
               </p>
             </div>
 
@@ -370,9 +370,9 @@ export default function Onboarding() {
 
             {step === 0 ? (
               <div className="grid gap-4">
-                <Input icon={UserRound} label="Qual e o seu nome?" onChange={(event) => update("name", event.target.value)} placeholder="Seu nome" value={form.name} />
+                <Input icon={UserRound} label="Qual é o seu nome?" onChange={(event) => update("name", event.target.value)} placeholder="Seu nome" value={form.name} />
                 <div>
-                  <span className="mb-2 block text-sm font-semibold text-slate-700">Qual e seu objetivo principal?</span>
+                  <span className="mb-2 block text-sm font-semibold text-slate-700">Qual é seu objetivo principal?</span>
                   <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                     {objectives.map((objective) => (
                       <OptionCard
@@ -402,16 +402,16 @@ export default function Onboarding() {
 
                 {form.objective === "oab" ? (
                   <>
-                    <Select label="Qual fase?" options={[{ value: "1-fase", label: "1a fase" }, { value: "2-fase", label: "2a fase" }]} onChange={(event) => update("oabPhase", event.target.value)} value={form.oabPhase} />
+                    <Select label="Qual fase?" options={[{ value: "1-fase", label: "1ª fase" }, { value: "2-fase", label: "2ª fase" }]} onChange={(event) => update("oabPhase", event.target.value)} value={form.oabPhase} />
                     {form.oabPhase === "2-fase" ? (
-                      <Select label="Area escolhida para a 2a fase" options={["Direito Civil", "Direito Penal", "Direito do Trabalho", "Direito Tributario", "Direito Administrativo", "Direito Constitucional", "Direito Empresarial"]} onChange={(event) => update("oabSecondPhaseArea", event.target.value)} value={form.oabSecondPhaseArea} />
+                      <Select label="Área escolhida para a 2ª fase" options={["Direito Civil", "Direito Penal", "Direito do Trabalho", "Direito Tributário", "Direito Administrativo", "Direito Constitucional", "Direito Empresarial"]} onChange={(event) => update("oabSecondPhaseArea", event.target.value)} value={form.oabSecondPhaseArea} />
                     ) : null}
                   </>
                 ) : null}
 
                 {form.objective === "geral" ? (
                   <div className="rounded-lg border border-blue-100 bg-blue-50 p-4 text-sm text-blue-900 sm:col-span-2">
-                    O estudo geral libera plano, questoes disponiveis, revisao, flashcards e leis secas sem prometer trilhas de concursos que ainda nao estao cobertos.
+                    O estudo geral libera plano, questões disponíveis, revisão, flashcards e leis secas sem prometer trilhas de concursos que ainda não estão cobertos.
                   </div>
                 ) : null}
               </div>
@@ -420,11 +420,11 @@ export default function Onboarding() {
             {step === 2 ? (
               <div className="grid gap-5">
                 <div className="grid gap-4 sm:grid-cols-2">
-                  <Input icon={Clock3} label="Quantas horas por dia voce consegue estudar?" min="1" onChange={(event) => update("hoursPerDay", event.target.value)} type="number" value={form.hoursPerDay} />
+                  <Input icon={Clock3} label="Quantas horas por dia você consegue estudar?" min="1" onChange={(event) => update("hoursPerDay", event.target.value)} type="number" value={form.hoursPerDay} />
                   <Input label="Quantos dias por semana?" max="7" min="1" onChange={(event) => update("daysPerWeek", event.target.value)} type="number" value={form.daysPerWeek} />
                 </div>
                 <div>
-                  <span className="mb-2 block text-sm font-semibold text-slate-700">Quais dias estao disponiveis?</span>
+                  <span className="mb-2 block text-sm font-semibold text-slate-700">Quais dias estão disponíveis?</span>
                   <div className="flex flex-wrap gap-2">
                     {weekDays.map((day) => (
                       <CheckPill
@@ -454,14 +454,14 @@ export default function Onboarding() {
                 <div>
                   <span className="mb-2 block text-sm font-semibold text-slate-700">Gerais</span>
                   <div className="flex flex-wrap gap-2">
-                    {(form.objective === "concurso" ? securitySubjects.filter((subject) => generalSubjects.includes(subject) || subject === "Matematica/RL" || subject === "Historia/Geografia") : generalSubjects).map((subject) => (
+                    {(form.objective === "concurso" ? securitySubjects.filter((subject) => generalSubjects.includes(subject) || subject === "Matemática/RL" || subject === "História/Geografia") : generalSubjects).map((subject) => (
                       <CheckPill active={form.difficultSubjects.includes(subject)} key={subject} label={subject} onClick={() => update("difficultSubjects", toggleValue(form.difficultSubjects, subject))} />
                     ))}
                   </div>
                 </div>
                 {form.objective === "oab" ? (
                   <div>
-                    <span className="mb-2 block text-sm font-semibold text-slate-700">Juridicas</span>
+                    <span className="mb-2 block text-sm font-semibold text-slate-700">Jurídicas</span>
                     <div className="flex flex-wrap gap-2">
                       {legalSubjects.map((subject) => (
                         <CheckPill active={form.difficultSubjects.includes(subject)} key={subject} label={subject} onClick={() => update("difficultSubjects", toggleValue(form.difficultSubjects, subject))} />
@@ -471,9 +471,9 @@ export default function Onboarding() {
                 ) : null}
                 {form.objective === "concurso" ? (
                   <div>
-                    <span className="mb-2 block text-sm font-semibold text-slate-700">Seguranca publica</span>
+                    <span className="mb-2 block text-sm font-semibold text-slate-700">Segurança pública</span>
                     <div className="flex flex-wrap gap-2">
-                      {securitySubjects.filter((subject) => !generalSubjects.includes(subject) && subject !== "Matematica/RL" && subject !== "Historia/Geografia").map((subject) => (
+                      {securitySubjects.filter((subject) => !generalSubjects.includes(subject) && subject !== "Matemática/RL" && subject !== "História/Geografia").map((subject) => (
                         <CheckPill active={form.difficultSubjects.includes(subject)} key={subject} label={subject} onClick={() => update("difficultSubjects", toggleValue(form.difficultSubjects, subject))} />
                       ))}
                     </div>
@@ -488,7 +488,7 @@ export default function Onboarding() {
                   {[
                     ["upload-pdf", "Sim, enviar arquivo", Upload],
                     ["colar-texto", "Sim, colar texto", FileText],
-                    ["procurar-depois", "Nao, procurar depois", Sparkles],
+                    ["procurar-depois", "Não, procurar depois", Sparkles],
                   ].map(([value, label, Icon]) => (
                     <OptionCard active={form.editalOption === value} icon={Icon} key={value} onClick={() => update("editalOption", value)}>
                       {label}
@@ -501,16 +501,16 @@ export default function Onboarding() {
                     <input accept=".pdf,.docx,.txt" className="hidden" onChange={(event) => handleFile(event.target.files?.[0])} type="file" />
                     <Upload className="mb-3 text-blue-300" />
                     <strong>{form.editalFile?.name || "Enviar PDF, DOCX ou TXT"}</strong>
-                    <span className="mt-1 text-xs text-slate-500">TXT sera lido automaticamente. PDF/DOCX ficam vinculados ao diagnostico.</span>
+                    <span className="mt-1 text-xs text-slate-500">TXT será lido automaticamente. PDF/DOCX ficam vinculados ao diagnóstico.</span>
                   </label>
                 ) : null}
 
                 {form.editalOption === "colar-texto" || form.editalText ? (
                   <Textarea
-                    label="Cole aqui o edital, materias ou prioridades"
+                    label="Cole aqui o edital, matérias ou prioridades"
                     maxLength={12000}
                     onChange={(event) => update("editalText", event.target.value)}
-                    placeholder="Cole materias, conteudo programatico, pesos, banca e observacoes."
+                    placeholder="Cole matérias, conteúdo programático, pesos, banca e observações."
                     value={form.editalText}
                   />
                 ) : null}
@@ -522,19 +522,19 @@ export default function Onboarding() {
                 <div className="rounded-lg border border-blue-500/30 bg-blue-500/10 p-4">
                   <div className="mb-3 flex items-center gap-2">
                     <Sparkles className="text-blue-600" />
-                    <h3 className="font-black">Plano que sera criado</h3>
+                    <h3 className="font-black">Plano que será criado</h3>
                   </div>
                   <div className="grid gap-3 text-sm text-blue-800 sm:grid-cols-2">
                     <span>{diagnosticPlan.weeklyHours}h por semana</span>
-                    <span>{diagnosticPlan.availableDays.length} dias disponiveis</span>
-                    <span>{diagnosticPlan.prioritySubjects.length} materias prioritarias</span>
+                    <span>{diagnosticPlan.availableDays.length} dias disponíveis</span>
+                    <span>{diagnosticPlan.prioritySubjects.length} matérias prioritárias</span>
                     <span>{diagnosticPlan.simulations[0]}</span>
                   </div>
                 </div>
 
                 <div className="grid gap-4 lg:grid-cols-2">
                   <section className="rounded-lg border border-blue-100 bg-blue-50 p-4">
-                    <h3 className="mb-3 font-bold">Materias prioritarias</h3>
+                    <h3 className="mb-3 font-bold">Matérias prioritárias</h3>
                     <div className="flex flex-wrap gap-2">
                       {diagnosticPlan.prioritySubjects.map((subject) => (
                         <span className="rounded-full bg-white px-3 py-1 text-xs font-bold text-blue-700 ring-1 ring-blue-100" key={subject}>{subject}</span>

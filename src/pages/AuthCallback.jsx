@@ -34,7 +34,7 @@ export default function AuthCallback() {
       <div>
         <div className="mx-auto mb-4 size-10 animate-spin rounded-full border-2 border-blue-500 border-t-transparent" />
         <h1 className="text-lg font-black">Conectando sua conta</h1>
-        <p className="mt-2 text-sm text-gray-400">Voce ja vai para o app.</p>
+        <p className="mt-2 text-sm text-gray-400">Você já vai para o app.</p>
       </div>
     </div>
   );

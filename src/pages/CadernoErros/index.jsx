@@ -54,7 +54,7 @@ export default function CadernoErrosPage() {
   const superado = useCallback(async (id) => {
     await questoesService.removerDoCaderno(id);
     setSuperadas((current) => current.includes(id) ? current : [...current, id]);
-    addNotification({ type: "success", title: "Erro superado", message: "A questao saiu do caderno de erros." });
+    addNotification({ type: "success", title: "Erro superado", message: "A questão saiu do caderno de erros." });
   }, [addNotification]);
 
   return (
@@ -62,7 +62,7 @@ export default function CadernoErrosPage() {
       <div className="mb-5 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <p className="text-xs font-semibold uppercase tracking-wide text-blue-300">Caderno de erros</p>
-          <h1 className="text-3xl font-black text-white">Revisao dos pontos fracos</h1>
+          <h1 className="text-3xl font-black text-white">Revisão dos pontos fracos</h1>
           <p className="mt-1 text-sm text-gray-400">Erros respondidos e itens marcados manualmente ficam organizados para retreino.</p>
         </div>
         <Button className="xl:hidden" icon={Filter} variant="secondary" onClick={() => setMobileFiltersOpen(true)}>Filtros{activeFilterCount ? ` · ${activeFilterCount}` : ""}</Button>
@@ -87,7 +87,7 @@ export default function CadernoErrosPage() {
                 <p className="mt-2 rounded-lg bg-gray-900 p-3 text-sm text-gray-300">{item.comentario}</p>
                 <div className="mt-3 flex flex-wrap gap-2">
                   <Button size="sm" icon={RefreshCw}>Revisar agora</Button>
-                  <Button size="sm" variant="ghost" icon={Layers} onClick={() => addNotification({ type: "success", title: "Flashcard criado", message: "Erro convertido em card de revisao." })}>Criar flashcard</Button>
+                  <Button size="sm" variant="ghost" icon={Layers} onClick={() => addNotification({ type: "success", title: "Flashcard criado", message: "Erro convertido em card de revisão." })}>Criar flashcard</Button>
                   <Button size="sm" variant="ghost" icon={CheckCircle2} onClick={() => superado(item.id)}>Superado</Button>
                 </div>
               </Card>
@@ -96,13 +96,13 @@ export default function CadernoErrosPage() {
             <EmptyState
               icon={CheckCircle2}
               title="Nenhum erro na lista"
-              description="Erros respondidos e questoes marcadas aparecem aqui automaticamente."
+              description="Erros respondidos e questões marcadas aparecem aqui automaticamente."
             />
           )}
         </div>
         <Card hover={false}>
           <h2 className="mb-3 font-bold text-white">Distribuição de erros</h2>
-          {chart.length ? <StudyTimeChart data={chart} layout="vertical" /> : <p className="text-sm text-gray-400">Sem dados suficientes para montar o grafico.</p>}
+          {chart.length ? <StudyTimeChart data={chart} layout="vertical" /> : <p className="text-sm text-gray-400">Sem dados suficientes para montar o gráfico.</p>}
         </Card>
       </div>
       <Modal open={mobileFiltersOpen} title="Filtros" onClose={() => setMobileFiltersOpen(false)} footer={<Button onClick={() => setMobileFiltersOpen(false)}>Aplicar</Button>}>

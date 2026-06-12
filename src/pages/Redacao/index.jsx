@@ -21,7 +21,7 @@ export default function RedacaoPage() {
   return (
     <div>
       <div data-tour="tour-redacao-header">
-        <h1 className="text-3xl font-black text-white">Redacao</h1>
+        <h1 className="text-3xl font-black text-white">Redação</h1>
         <p className="mb-5 text-sm text-gray-400">Temas, editor, correcao por IA e historico.</p>
       </div>
       <div className="grid gap-4 xl:grid-cols-[1.2fr_0.8fr]">
@@ -43,7 +43,7 @@ export default function RedacaoPage() {
           ) : null}
         </Card>
         <Card data-tour="tour-redacao-history">
-          <h2 className="mb-3 font-bold text-white">Historico</h2>
+          <h2 className="mb-3 font-bold text-white">Histórico</h2>
           <EssayAreaChart data={chartData} />
           {historico.map((item) => (
             <div key={item.id} className="flex justify-between border-b border-gray-800 py-2 text-sm">

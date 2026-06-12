@@ -5,7 +5,7 @@ import { useAsyncData } from "../../hooks";
 import { militarService } from "../../services/militarService";
 import { useInternalRouter, useUser } from "../../contexts";
 
-const tabs = ["Provas", "Questoes", "Estatisticas", "Simulados", "Plano"];
+const tabs = ["Provas", "Questões", "Estatísticas", "Simulados", "Plano"];
 
 function formatNumber(value) {
   return Number(value || 0).toLocaleString("pt-BR");
@@ -48,11 +48,11 @@ function ExamsView({ materials, report }) {
               <h3 className="font-black text-white">{item.titulo || `${item.orgao} ${item.cargo} ${item.ano}`}</h3>
               <p className="mt-1 text-sm text-gray-400">{item.banca} · {item.cargo}</p>
             </div>
-            <Badge variant={item.validas || item.slug ? "success" : "neutral"}>{item.validas ? "Respondivel" : item.status || "Manifesto"}</Badge>
+            <Badge variant={item.validas || item.slug ? "success" : "neutral"}>{item.validas ? "Respondível" : item.status || "Manifesto"}</Badge>
           </div>
           <div className="mt-4 grid gap-2">
             <div className="flex justify-between rounded-lg bg-gray-900 px-3 py-2 text-sm">
-              <span className="text-gray-300">Questoes validas</span>
+              <span className="text-gray-300">Questões válidas</span>
               <strong className="text-white">{formatNumber(item.validas || 0)}</strong>
             </div>
             <div className="flex justify-between rounded-lg bg-gray-900 px-3 py-2 text-sm">
@@ -63,7 +63,7 @@ function ExamsView({ materials, report }) {
           <p className="mt-3 text-xs text-gray-500">{item.motivo || item.sourcePath || "Aguardando prova e gabarito definitivo no manifesto."}</p>
         </Card>
       ))}
-      {!rows.length ? <EmptyState icon={Library} title="Sem provas militares" description="Rode npm run miner:militar apos preencher o manifesto com prova e gabarito definitivo." /> : null}
+      {!rows.length ? <EmptyState icon={Library} title="Sem provas militares" description="Rode npm run miner:militar após preencher o manifesto com prova e gabarito definitivo." /> : null}
     </div>
   );
 }
@@ -86,8 +86,8 @@ function QuestionsView({ questions, disciplines }) {
   return (
     <div>
       <Card hover={false} className="mb-4 grid gap-3 md:grid-cols-4">
-        <Select label="Apenas oficiais" options={[{ label: "Sim", value: "sim" }, { label: "Nao", value: "nao" }]} value={filters.officialOnly} onChange={(event) => setFilters((current) => ({ ...current, officialOnly: event.target.value }))} />
-        <Select label="Materia" placeholder="Todas" options={disciplineOptions} value={filters.discipline} onChange={(event) => setFilters((current) => ({ ...current, discipline: event.target.value }))} />
+        <Select label="Apenas oficiais" options={[{ label: "Sim", value: "sim" }, { label: "Não", value: "nao" }]} value={filters.officialOnly} onChange={(event) => setFilters((current) => ({ ...current, officialOnly: event.target.value }))} />
+        <Select label="Matéria" placeholder="Todas" options={disciplineOptions} value={filters.discipline} onChange={(event) => setFilters((current) => ({ ...current, discipline: event.target.value }))} />
         <Select label="Banca" placeholder="Todas" options={banks} value={filters.banca} onChange={(event) => setFilters((current) => ({ ...current, banca: event.target.value }))} />
         <Input icon={Search} label="Buscar" placeholder="PMSP, Cebraspe..." value={filters.search} onChange={(event) => setFilters((current) => ({ ...current, search: event.target.value }))} />
       </Card>
@@ -104,7 +104,7 @@ function QuestionsView({ questions, disciplines }) {
             <p className="text-sm leading-relaxed text-gray-200">{question.enunciado}</p>
           </Card>
         ))}
-        {!visible.length ? <EmptyState icon={Search} title="Nenhuma questao militar encontrada" description="Preencha prova + gabarito definitivo no manifesto e rode npm run miner:militar." /> : null}
+        {!visible.length ? <EmptyState icon={Search} title="Nenhuma questão militar encontrada" description="Preencha prova + gabarito definitivo no manifesto e rode npm run miner:militar." /> : null}
       </div>
     </div>
   );
@@ -114,7 +114,7 @@ function StatsView({ stats }) {
   return (
     <div className="grid gap-4 xl:grid-cols-2">
       <Card hover={false}>
-        <SectionTitle title="Disciplinas mais cobradas" description="Calculado apenas pelas questoes oficiais importadas." />
+        <SectionTitle title="Disciplinas mais cobradas" description="Calculado apenas pelas questões oficiais importadas." />
         <div className="space-y-3">
           {stats.topDisciplines.map((item) => (
             <div key={item.label}>
@@ -133,7 +133,7 @@ function StatsView({ stats }) {
           {stats.topBanks.map((item) => (
             <div className="flex justify-between rounded-lg bg-gray-900 p-3 text-sm" key={item.label}>
               <strong className="text-white">{item.label}</strong>
-              <span className="text-gray-400">{item.total} questoes</span>
+              <span className="text-gray-400">{item.total} questões</span>
             </div>
           ))}
         </div>
@@ -166,7 +166,7 @@ export default function MilitarPage() {
   const { data, isLoading, error } = useAsyncData(load);
 
   if (isLoading) return <div className="h-72 animate-pulse rounded-lg bg-gray-900" />;
-  if (error || !data?.stats) return <EmptyState icon={Shield} title="Base militar indisponivel" description="Rode npm run miner:militar para construir a biblioteca militar." />;
+  if (error || !data?.stats) return <EmptyState icon={Shield} title="Base militar indisponível" description="Rode npm run miner:militar para construir a biblioteca militar." />;
 
   const { materials, questions, disciplines, stats, assets } = data;
 
@@ -176,19 +176,19 @@ export default function MilitarPage() {
         <div>
           <p className="text-xs font-semibold uppercase tracking-wide text-blue-300">Biblioteca militar inteligente</p>
           <h1 className="text-3xl font-black text-white">PM e carreiras militares</h1>
-          <p className="mt-1 max-w-3xl text-sm text-gray-400">Provas oficiais, gabaritos definitivos, questoes respondiveis e simulados por banca.</p>
+          <p className="mt-1 max-w-3xl text-sm text-gray-400">Provas oficiais, gabaritos definitivos, questões respondíveis e simulados por banca.</p>
         </div>
         <div className="flex flex-wrap gap-2">
-          <Button icon={BookOpen} variant="secondary" onClick={() => navigate("questoes")}>Treinar questoes</Button>
+          <Button icon={BookOpen} variant="secondary" onClick={() => navigate("questoes")}>Treinar questões</Button>
           <Button icon={ClipboardList} onClick={() => navigate("taf")}>Abrir TAF</Button>
         </div>
       </div>
 
       <div className="mb-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
         <Stat icon={Library} label="Provas no manifesto" value={formatNumber(stats.totalExams)} detail="Processadas ou aguardando gabarito" />
-        <Stat icon={BookOpen} label="Questoes oficiais" value={formatNumber(stats.totalOfficial)} detail="Validadas com gabarito" />
+        <Stat icon={BookOpen} label="Questões oficiais" value={formatNumber(stats.totalOfficial)} detail="Validadas com gabarito" />
         <Stat icon={BarChart3} label="Disciplinas" value={formatNumber(disciplines.filter((item) => item.questionCount).length)} detail="Agrupadas automaticamente" />
-        <Stat icon={FileText} label="Pendencias" value={formatNumber(stats.pending)} detail="Sem gabarito definitivo ou previsto" />
+        <Stat icon={FileText} label="Pendências" value={formatNumber(stats.pending)} detail="Sem gabarito definitivo ou previsto" />
       </div>
 
       <Card hover={false} className="mb-4">
@@ -196,8 +196,8 @@ export default function MilitarPage() {
       </Card>
 
       {active === "Provas" ? <ExamsView materials={materials} report={stats.report} /> : null}
-      {active === "Questoes" ? <QuestionsView questions={questions} disciplines={disciplines} /> : null}
-      {active === "Estatisticas" ? <StatsView stats={stats} /> : null}
+      {active === "Questões" ? <QuestionsView questions={questions} disciplines={disciplines} /> : null}
+      {active === "Estatísticas" ? <StatsView stats={stats} /> : null}
       {active === "Simulados" ? <AssetsView type="Simulados" assets={assets} navigate={navigate} /> : null}
       {active === "Plano" ? <AssetsView type="Plano" assets={assets} navigate={navigate} /> : null}
     </div>

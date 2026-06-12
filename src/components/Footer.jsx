@@ -25,7 +25,7 @@ function Footer() {
           </a>
           <p>
             Plataforma de planejamento, questões, simulados e acompanhamento
-            para candidatos que querem uma preparacao mais disciplinada para concursos.
+            para candidatos que querem uma preparação mais disciplinada para concursos.
           </p>
         </div>
 

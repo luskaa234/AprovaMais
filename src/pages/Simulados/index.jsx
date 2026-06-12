@@ -18,7 +18,7 @@ function SimuladoResultado({ result, onRedo, onReview }) {
             <div>
             <p className="text-sm text-gray-400">Resultado final</p>
             <h1 className={cx("text-5xl font-black", tone)}>{result.percent}%</h1>
-            <p className="mt-1 text-gray-300">{result.correct}/{result.total} questoes corretas · tempo {result.tempo}</p>
+            <p className="mt-1 text-gray-300">{result.correct}/{result.total} questões corretas · tempo {result.tempo}</p>
             </div>
           </div>
           <div className="flex gap-2">
@@ -28,10 +28,10 @@ function SimuladoResultado({ result, onRedo, onReview }) {
         </div>
       </Card>
       <div className="mt-4 grid gap-4">
-        <Card hover={false}><h2 className="mb-3 font-bold text-white">Acertos por materia</h2><DistributionPieChart data={result.porMateria} /></Card>
+        <Card hover={false}><h2 className="mb-3 font-bold text-white">Acertos por matéria</h2><DistributionPieChart data={result.porMateria} /></Card>
       </div>
       <Card hover={false} className="mt-4">
-        <h2 className="mb-3 font-bold text-white">Questoes</h2>
+        <h2 className="mb-3 font-bold text-white">Questões</h2>
         <div className="grid gap-2 md:grid-cols-2">
           {result.questoes.map((item, index) => (
             <div key={item.id} className="flex items-center justify-between rounded-lg bg-gray-900 p-3 text-sm text-gray-300">
@@ -101,7 +101,7 @@ function SimuladoExecucao({ simulado, onFinish }) {
         <div className="mt-5 flex flex-wrap justify-between gap-2">
           <Button variant="secondary" disabled={current === 0} onClick={() => setCurrent((value) => value - 1)}>Anterior</Button>
           <Button variant="outline" icon={Flag} onClick={() => setMarked((items) => ({ ...items, [question.id]: !items[question.id] }))}>Marcar</Button>
-          <Button variant="secondary" disabled={current === simulado.questoes.length - 1} onClick={() => setCurrent((value) => value + 1)}>Proxima</Button>
+          <Button variant="secondary" disabled={current === simulado.questoes.length - 1} onClick={() => setCurrent((value) => value + 1)}>Próxima</Button>
           <Button onClick={finish}>Finalizar</Button>
         </div>
       </Card>
@@ -120,7 +120,7 @@ function SimuladoExecucao({ simulado, onFinish }) {
           ))}
         </div>
         <div className="mt-4 space-y-2 text-xs text-gray-400">
-          <p><i className="mr-2 inline-block size-3 rounded bg-gray-800" />Nao visitada</p>
+          <p><i className="mr-2 inline-block size-3 rounded bg-gray-800" />Não visitada</p>
           <p><i className="mr-2 inline-block size-3 rounded bg-blue-600" />Respondida</p>
           <p><i className="mr-2 inline-block size-3 rounded bg-amber-500" />Marcada</p>
         </div>
@@ -158,8 +158,8 @@ export default function SimuladosPage() {
     } catch (error) {
       addNotification({
         type: "warning",
-        title: "Simulado indisponivel",
-        message: error.message || "Nao ha questoes oficiais suficientes para montar este simulado.",
+        title: "Simulado indisponível",
+        message: error.message || "Não há questões oficiais suficientes para montar este simulado.",
       });
     } finally {
       setLoadingId("");
@@ -178,24 +178,24 @@ export default function SimuladosPage() {
     <div className="mx-auto max-w-[1500px]">
       <div data-tour="tour-simulados-header">
         <h1 className="mb-1 text-3xl font-black text-white">Simulados</h1>
-        <p className="mb-5 text-sm text-gray-400">Questoes no mesmo padrao do banco: enunciado, alternativas, gabarito e comentario.</p>
+        <p className="mb-5 text-sm text-gray-400">Questões no mesmo padrão do banco: enunciado, alternativas, gabarito e comentário.</p>
       </div>
       {!templates.length ? (
-        <EmptyState title="Nenhum simulado disponivel" description="Importe questoes oficiais para liberar os simulados." />
+        <EmptyState title="Nenhum simulado disponível" description="Importe questões oficiais para liberar os simulados." />
       ) : null}
       <div className="grid gap-4 xl:grid-cols-3" data-tour="tour-simulados-config">
         {templates.map((template) => (
           <Card hover={false} key={template.id}>
             <Badge>{template.modo}</Badge>
             <h2 className="mt-3 text-xl font-bold text-white">{template.nome}</h2>
-            <p className="mt-1 text-sm text-gray-400">{template.totalDisponivel} questoes oficiais em {template.areaLabel}.</p>
+            <p className="mt-1 text-sm text-gray-400">{template.totalDisponivel} questões oficiais em {template.areaLabel}.</p>
             <div className="my-4 grid gap-3">
-              <Select label="Materias" placeholder="Todas" options={template.materias || []} value={configs[template.id]?.materia || ""} onChange={(event) => updateConfig(template.id, "materia", event.target.value)} />
+              <Select label="Matérias" placeholder="Todas" options={template.materias || []} value={configs[template.id]?.materia || ""} onChange={(event) => updateConfig(template.id, "materia", event.target.value)} />
               <Select
-                label="Filtro de questoes"
+                label="Filtro de questões"
                 placeholder="Todas"
                 options={[
-                  { value: "nao_respondidas", label: "Nao respondidas" },
+                  { value: "nao_respondidas", label: "Não respondidas" },
                   { value: "erradas", label: "Erradas" },
                   { value: "favoritas", label: "Favoritas" },
                 ]}
@@ -226,12 +226,12 @@ export default function SimuladosPage() {
               <Badge variant={Number(item.percent || 0) >= 70 ? "success" : "neutral"}>{item.percent || 0}%</Badge>
             </div>
           )) : (
-            <EmptyState title="Nenhum simulado feito ainda" description="Inicie seu primeiro simulado para criar historico real." />
+            <EmptyState title="Nenhum simulado feito ainda" description="Inicie seu primeiro simulado para criar histórico real." />
           )}
         </Card>
         <Card hover={false}>
-          <h2 className="mb-3 font-bold text-white">Evolucao</h2>
-          {evolution.length ? <PerformanceChart data={evolution} /> : <EmptyState title="Sem evolucao ainda" description="O grafico aparece depois do primeiro simulado concluido." />}
+          <h2 className="mb-3 font-bold text-white">Evolução</h2>
+          {evolution.length ? <PerformanceChart data={evolution} /> : <EmptyState title="Sem evolução ainda" description="O gráfico aparece depois do primeiro simulado concluído." />}
         </Card>
       </div>
     </div>
