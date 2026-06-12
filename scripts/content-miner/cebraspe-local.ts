@@ -2,6 +2,7 @@ import "dotenv/config";
 import { mkdir, readdir, readFile, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import * as pdfjs from "pdfjs-dist/legacy/build/pdf.mjs";
+import { normalizeContentText } from "../../src/utils/textEncoding.js";
 
 type QuestionType = "certo_errado" | "multipla";
 
@@ -111,7 +112,7 @@ function normalizeText(value = "") {
 }
 
 function cleanText(value = "") {
-  return value
+  return normalizeContentText(value)
     .replace(/\u00a0/g, " ")
     .replace(/\s*Eventuais espacos livres[\s\S]*$/i, "")
     .replace(/\s*Espaco livre[\s\S]*$/i, "")

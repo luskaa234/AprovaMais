@@ -2,14 +2,14 @@ import { aiService } from "./aiService";
 import { flashcardsService } from "./flashcardsService";
 import { questoesService } from "./questoesService";
 import { getCurrentUserId, isSupabaseConfigured, supabase } from "../lib/supabase";
-import { normalize } from "../utils";
+import { normalize, normalizeContentObject, normalizeContentText } from "../utils";
 import { useLeisStore, useQuestoesStore } from "../stores";
 
 let localLeisCache = null;
 let localArtigosCache = null;
 
 function groupLeis(rows) {
-  return rows.map((lei) => ({
+  return normalizeContentObject(rows).map((lei) => ({
     ...lei,
     nome: lei.nome,
     categoria: lei.categoria,
@@ -35,8 +35,8 @@ function groupLeis(rows) {
 
 async function fetchJson(path) {
   const response = await fetch(path);
-  if (!response.ok) throw new Error(`Arquivo local indisponivel: ${path}`);
-  return response.json();
+  if (!response.ok) throw new Error(`Arquivo local indisponível: ${path}`);
+  return normalizeContentObject(await response.json());
 }
 
 async function getLocalLeis() {
@@ -64,7 +64,7 @@ function articleSearchTerms(artigo = {}) {
   if (text.includes("constituicao") || artigo.lei_id === "cf88") terms.add("Direito Constitucional");
   if (text.includes("direitos fundamentais")) terms.add("direitos fundamentais");
   if (text.includes("igualdade")) terms.add("igualdade");
-  if (text.includes("advogado") || text.includes("oab")) terms.add("Etica Profissional");
+  if (text.includes("advogado") || text.includes("oab")) terms.add("Ética Profissional");
   if (text.includes("administracao publica")) terms.add("Direito Administrativo");
   if (text.includes("crime") || text.includes("pena")) terms.add("Direito Penal");
   if (text.includes("processo civil")) terms.add("Processo Civil");
@@ -114,7 +114,7 @@ export const leisService = {
       .order("numero")
       .range(inicio, inicio + porPagina - 1);
     if (error) throw error;
-    return { artigos: data || [], total: count || 0 };
+    return { artigos: normalizeContentObject(data || []), total: count || 0 };
   },
 
   async buscar(termo, leiId = null) {
@@ -128,7 +128,7 @@ export const leisService = {
     if (leiId) query = query.eq("lei_id", leiId);
     const { data, error } = await query;
     if (error) throw error;
-    return data || [];
+    return normalizeContentObject(data || []);
   },
 
   async questoesReaisDoArtigo(artigo) {
@@ -152,8 +152,8 @@ export const leisService = {
   },
 
   async gerarFlashcardsDeArtigo(artigo) {
-    const prompt = `Voce e tutor de concursos. Transforme este artigo de lei em 3 a 5 flashcards de memorizacao.
-Use a tecnica de lacuna (cloze) e pergunta direta. NAO invente conteudo alem do artigo.
+    const prompt = `Você é tutor de concursos. Transforme este artigo de lei em 3 a 5 flashcards de memorização.
+Use a técnica de lacuna (cloze) e pergunta direta. NÃO invente conteúdo além do artigo.
 
 ARTIGO: ${artigo.texto}
 
@@ -171,15 +171,15 @@ Responda APENAS em JSON, sem markdown:
         cacheTtlDays: 180,
       });
       cards = parseJsonFromAi(resposta).slice(0, 5).map((card) => ({
-        frente: card.frente,
-        verso: card.verso,
+        frente: normalizeContentText(card.frente),
+        verso: normalizeContentText(card.verso),
         origem: "lei_seca",
         artigoId: artigo.id,
       }));
     } catch {
       cards = [{
-        frente: `Explique o Art. ${artigo.numero_texto || artigo.numero} de ${artigo.lei || artigo.lei_nome || "lei seca"}.`,
-        verso: artigo.texto,
+        frente: normalizeContentText(`Explique o Art. ${artigo.numero_texto || artigo.numero} de ${artigo.lei || artigo.lei_nome || "lei seca"}.`),
+        verso: normalizeContentText(artigo.texto),
         origem: "lei_seca",
         artigoId: artigo.id,
       }];
@@ -187,7 +187,7 @@ Responda APENAS em JSON, sem markdown:
 
     return flashcardsService.criarDeckLeiSeca({
       titulo: `Lei Seca - ${artigo.lei || artigo.lei_nome || "Artigo"}`,
-      materia: artigo.materia || artigo.lei?.materia || "Legislacao",
+      materia: artigo.materia || artigo.lei?.materia || "Legislação",
       artigoId: artigo.id,
       cards,
     });
@@ -197,8 +197,8 @@ Responda APENAS em JSON, sem markdown:
     const reais = await this.questoesReaisDoArtigo(artigo);
     if (reais.length) return { tipo: "oficiais", questoes: reais };
 
-    const prompt = `Crie 1 questao de multipla escolha (A-E) sobre este artigo, estilo banca de concurso.
-A resposta correta deve ser inequivoca e baseada SO no texto do artigo.
+    const prompt = `Crie 1 questão de múltipla escolha (A-E) sobre este artigo, estilo banca de concurso.
+A resposta correta deve ser inequívoca e baseada SÓ no texto do artigo.
 
 ARTIGO: ${artigo.texto}
 
@@ -214,14 +214,14 @@ JSON apenas: {"enunciado":"...","alternativas":[{"letra":"A","texto":"..."}],"ga
     const questao = {
       id: `lei-${artigo.id}-${Date.now()}`,
       codigo: `LEI-${String(artigo.id).toUpperCase()}`,
-      enunciado: q.enunciado,
+      enunciado: normalizeContentText(q.enunciado),
       tipo: "multipla_escolha",
-      alternativas: (q.alternativas || []).map((alt) => ({ id: String(alt.letra).toLowerCase(), letra: alt.letra, texto: alt.texto, correta: String(alt.letra).toLowerCase() === String(q.gabarito).toLowerCase() })),
+      alternativas: (q.alternativas || []).map((alt) => ({ id: String(alt.letra).toLowerCase(), letra: alt.letra, texto: normalizeContentText(alt.texto), correta: String(alt.letra).toLowerCase() === String(q.gabarito).toLowerCase() })),
       gabarito: String(q.gabarito || "").toLowerCase(),
-      comentario: q.comentario,
-      banca: "Inedita",
+      comentario: normalizeContentText(q.comentario),
+      banca: "Inédita",
       concurso: "Lei Seca",
-      materia: artigo.materia || artigo.lei?.materia || "Legislacao",
+      materia: artigo.materia || artigo.lei?.materia || "Legislação",
       assunto: artigo.capitulo || artigo.numero_texto,
       origem: "ia_lei",
       official: false,
@@ -231,10 +231,10 @@ JSON apenas: {"enunciado":"...","alternativas":[{"letra":"A","texto":"..."}],"ga
     return { tipo: "ia", questao };
   },
 
-  async explicarArtigo(artigo, objetivo = "concurso publico") {
+  async explicarArtigo(artigo, objetivo = "concurso público") {
     const prompt = `Explique este artigo de lei em linguagem simples, com foco em ${objetivo}.
 Organize em: 1) ideia central, 2) como cai em prova, 3) pegadinha comum.
-Nao invente regra fora do texto.
+Não invente regra fora do texto.
 
 ARTIGO:
 ${artigo.texto}`;

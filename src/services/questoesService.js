@@ -1,4 +1,4 @@
-import { normalize } from "../utils";
+import { normalize, normalizeContentText } from "../utils";
 import { getCurrentUserId, isSupabaseConfigured, supabase } from "../lib/supabase";
 import { useQuestoesStore } from "../stores";
 
@@ -17,13 +17,13 @@ const AREA_LABELS = {
 };
 
 const SUBJECT_LABELS = {
-  "Matematica e Raciocinio Logico": "Matematica/RL",
+  "Matematica e Raciocinio Logico": "Matemática/RL",
   "Historia, Geografia e Atualidades": "Atualidades",
-  "Legislacao Especial, Penal e Processual Penal": "Legislacao Especial",
+  "Legislacao Especial, Penal e Processual Penal": "Legislação Especial",
   "Legislacao PM e Direito Militar": "Direito Militar",
   "Nocoes de Direito": "Direito",
   "Nocoes de Direito e Sociologia": "Direito",
-  "Conhecimentos Basicos": "Conhecimentos Basicos",
+  "Conhecimentos Basicos": "Conhecimentos Básicos",
   "Conhecimentos Gerais": "Conhecimentos Gerais",
 };
 
@@ -43,10 +43,10 @@ const CONTEST_LABELS = {
   PMTO: "PM TO",
   PMAC: "PM AC",
   PMERJ: "PM RJ",
-  PCRJ: "Policia Civil RJ",
-  PCRN: "Policia Civil RN",
-  PCSC: "Policia Civil SC",
-  PCAM: "Policia Civil AM",
+  PCRJ: "Polícia Civil RJ",
+  PCRN: "Polícia Civil RN",
+  PCSC: "Polícia Civil SC",
+  PCAM: "Polícia Civil AM",
 };
 
 function normalizeArea(area) {
@@ -93,7 +93,7 @@ async function insertTentativaSupabase({ userId, questao, alternativaId, acertou
     resposta: alternativaId,
     acertou,
     tempo_gasto: tempo,
-    materia: questao.materiaLabel || questao.materia || "Nao informada",
+    materia: questao.materiaLabel || questao.materia || "Não informada",
     data: new Date().toISOString(),
   };
   const { error } = await supabase.from("tentativas").insert(payload);
@@ -141,7 +141,7 @@ async function syncSalvaSupabase({ userId, questaoId, saved }) {
 async function getLocalCatalog() {
   if (localCatalogCache) return localCatalogCache;
   const response = await fetch("/questoes/catalog.json");
-  if (!response.ok) throw new Error("Catalogo local de questoes indisponivel.");
+  if (!response.ok) throw new Error("Catálogo local de questões indisponível.");
   localCatalogCache = await response.json();
   return localCatalogCache;
 }
@@ -149,7 +149,7 @@ async function getLocalCatalog() {
 async function getLocalChunk(path) {
   if (localChunkCache.has(path)) return localChunkCache.get(path);
   const response = await fetch(path);
-  if (!response.ok) throw new Error(`Chunk de questoes indisponivel: ${path}`);
+  if (!response.ok) throw new Error(`Chunk de questões indisponível: ${path}`);
   const data = (await response.json()).map(mapQuestao);
   localChunkCache.set(path, data);
   if (localChunkCache.size > 20) localChunkCache.delete(localChunkCache.keys().next().value);
@@ -160,7 +160,7 @@ async function getLocalOabQuestions() {
   if (localOabQuestoesCache) return localOabQuestoesCache;
   try {
     const response = await fetch("/questoes/oab.json");
-    if (!response.ok) throw new Error("Banco local OAB indisponivel.");
+    if (!response.ok) throw new Error("Banco local OAB indisponível.");
     localOabQuestoesCache = (await response.json()).map(mapQuestao);
     return localOabQuestoesCache;
   } catch {
@@ -173,7 +173,7 @@ async function getLocalMilitarQuestions() {
   if (localMilitarQuestoesCache) return localMilitarQuestoesCache;
   try {
     const response = await fetch("/questoes/militar.json");
-    if (!response.ok) throw new Error("Banco local militar indisponivel.");
+    if (!response.ok) throw new Error("Banco local militar indisponível.");
     localMilitarQuestoesCache = (await response.json()).map(mapQuestao);
     return localMilitarQuestoesCache;
   } catch {
@@ -349,15 +349,20 @@ function rowMatches(q, filters = {}) {
 
 function mapQuestao(row) {
   const gabarito = String(row.gabarito || "").toLowerCase();
-  const ano = row.ano || String(row.enunciado || "").match(/\b(20\d{2})\b/)?.[1] || "";
+  const enunciado = normalizeContentText(row.enunciado);
+  const ano = row.ano || enunciado.match(/\b(20\d{2})\b/)?.[1] || "";
   const rowAlternativas = Array.isArray(row.alternativas)
-    ? Object.fromEntries(row.alternativas.map((item) => [`alternativa_${String(item.letra || "").toLowerCase()}`, item.texto]))
+    ? Object.fromEntries(row.alternativas.map((item) => [`alternativa_${String(item.letra || "").toLowerCase()}`, normalizeContentText(item.texto)]))
     : {};
   const isCertoErrado = row.formato === "certo_errado";
+  const materia = normalizeContentText(row.materia);
+  const topico = normalizeContentText(row.topico);
+  const origem = normalizeContentText(row.origem);
+  const comentario = normalizeContentText(row.comentario || "Comentário ainda não disponível.");
   const mapped = {
     id: row.id,
-    codigo: row.codigo,
-    enunciado: row.enunciado,
+    codigo: normalizeContentText(row.codigo),
+    enunciado,
     tipo: isCertoErrado ? "certo_errado" : "multipla_escolha",
     alternativas: isCertoErrado
       ? [
@@ -365,25 +370,25 @@ function mapQuestao(row) {
         { id: "e", letra: "E", texto: "Errado", correta: gabarito === "e" },
       ]
       : letras
-        .map((letra) => ({ id: letra, letra: letra.toUpperCase(), texto: row[`alternativa_${letra}`] || rowAlternativas[`alternativa_${letra}`], correta: letra === gabarito }))
+        .map((letra) => ({ id: letra, letra: letra.toUpperCase(), texto: normalizeContentText(row[`alternativa_${letra}`] || rowAlternativas[`alternativa_${letra}`]), correta: letra === gabarito }))
         .filter((alt) => alt.texto),
     gabarito,
-    comentario: row.comentario || "Comentario ainda nao disponivel.",
-    banca: row.banca || "PM",
-    concurso: row.concurso || row.orgao || "PM",
-    orgao: row.orgao || row.concurso || "PM",
-    cargo: row.cargo || "Soldado",
-    materia: row.materia,
-    assunto: row.topico || row.materia,
-    materiaLabel: getSubjectLabel(row.materia),
-    assuntoLabel: getSubjectLabel(row.materia),
+    comentario,
+    banca: normalizeContentText(row.banca || "PM"),
+    concurso: normalizeContentText(row.concurso || row.orgao || "PM"),
+    orgao: normalizeContentText(row.orgao || row.concurso || "PM"),
+    cargo: normalizeContentText(row.cargo || "Soldado"),
+    materia,
+    assunto: topico || materia,
+    materiaLabel: getSubjectLabel(materia),
+    assuntoLabel: getSubjectLabel(materia),
     concursoLabel: getContestLabel(row.concurso || row.orgao || "PM"),
-    topico: row.topico,
+    topico,
     ano,
-    dificuldade: row.dificuldade || "medio",
-    origem: row.origem,
-    official: normalize(row.origem || row.comentario).includes("oficial"),
-    tags: [row.materia, row.topico, row.origem].filter(Boolean),
+    dificuldade: normalizeContentText(row.dificuldade || "medio"),
+    origem,
+    official: normalize(`${origem} ${comentario}`).includes("oficial"),
+    tags: [materia, topico, origem].filter(Boolean),
     estatisticas: { tentativas: 0, acertos: 0 },
   };
   return { ...mapped, area: inferQuestionArea(mapped) };
@@ -490,7 +495,7 @@ export const questoesService = {
       try {
         if (!localQuestoesCache) {
           const response = await fetch("/questoes/sample.json");
-          if (!response.ok) throw new Error("Amostra local indisponivel.");
+          if (!response.ok) throw new Error("Amostra local indisponível.");
           localQuestoesCache = (await response.json()).map(mapQuestao);
         }
         return this.filter(localQuestoesCache, filters);
@@ -561,7 +566,7 @@ export const questoesService = {
     try {
       if (!localStatsCache) {
         const response = await fetch("/questoes/stats.json");
-        if (!response.ok) throw new Error("Stats locais indisponiveis.");
+        if (!response.ok) throw new Error("Stats locais indisponíveis.");
         localStatsCache = await response.json();
       }
       return { ...localStatsCache, amostraLocal: true };

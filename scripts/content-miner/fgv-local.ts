@@ -3,6 +3,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { PDFParse } from "pdf-parse";
 import * as pdfjs from "pdfjs-dist/legacy/build/pdf.mjs";
+import { normalizeContentText } from "../../src/utils/textEncoding.js";
 
 type LocalExam = {
   slug: string;
@@ -196,7 +197,7 @@ function normalizeText(value = "") {
 }
 
 function cleanText(value = "") {
-  return value
+  return normalizeContentText(value)
     .replace(/\b(?:FGV Conhecimento|FGV)\s*$/i, "")
     .replace(/\b(?:Curso de Formação de Oficiais da PMERJ|Cabo PM|Concurso Público PMERJ 2021)\b\s*$/i, "")
     .replace(/\s+/g, " ")

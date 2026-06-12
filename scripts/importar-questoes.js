@@ -4,6 +4,7 @@ import * as dotenv from "dotenv";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import process from "node:process";
+import { normalizeContentText } from "../src/utils/textEncoding.js";
 
 dotenv.config();
 
@@ -40,20 +41,20 @@ function detectMateria(filename) {
 function makeRow(row, materia) {
   return {
     id: String(row.id || row.codigo || crypto.randomUUID()),
-    codigo: row.codigo || null,
-    banca: row.banca_referencia || row.banca || null,
-    materia,
-    topico: row.topico || row.assunto || null,
+    codigo: normalizeContentText(row.codigo) || null,
+    banca: normalizeContentText(row.banca_referencia || row.banca) || null,
+    materia: normalizeContentText(materia),
+    topico: normalizeContentText(row.topico || row.assunto) || null,
     dificuldade: normalizeDificuldade(row.dificuldade),
-    enunciado: row.enunciado,
-    alternativa_a: row.alternativa_a,
-    alternativa_b: row.alternativa_b,
-    alternativa_c: row.alternativa_c,
-    alternativa_d: row.alternativa_d,
-    alternativa_e: row.alternativa_e,
+    enunciado: normalizeContentText(row.enunciado),
+    alternativa_a: normalizeContentText(row.alternativa_a),
+    alternativa_b: normalizeContentText(row.alternativa_b),
+    alternativa_c: normalizeContentText(row.alternativa_c),
+    alternativa_d: normalizeContentText(row.alternativa_d),
+    alternativa_e: normalizeContentText(row.alternativa_e),
     gabarito: String(row.gabarito || "").trim().toLowerCase(),
-    comentario: row.comentario || null,
-    concurso: row.concurso || "PM",
+    comentario: normalizeContentText(row.comentario) || null,
+    concurso: normalizeContentText(row.concurso || "PM"),
   };
 }
 

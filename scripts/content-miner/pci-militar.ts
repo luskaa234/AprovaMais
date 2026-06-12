@@ -4,6 +4,7 @@ import * as cheerio from "cheerio";
 import { PDFParse } from "pdf-parse";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { normalizeContentText } from "../../src/utils/textEncoding.js";
 
 type ExamFormat = "multipla_escolha";
 
@@ -119,7 +120,7 @@ function normalizeText(value = "") {
 }
 
 function cleanText(value = "") {
-  return value
+  return normalizeContentText(value)
     .replace(/\u00c2/g, "")
     .replace(/\u00a0/g, " ")
     .replace(/[ \t]+\n/g, "\n")

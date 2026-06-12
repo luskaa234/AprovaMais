@@ -5,6 +5,7 @@ import { PDFParse } from "pdf-parse";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import https from "node:https";
 import path from "node:path";
+import { normalizeContentText } from "../../src/utils/textEncoding.js";
 
 type ExamFormat = "multipla_escolha" | "certo_errado";
 
@@ -211,7 +212,7 @@ function normalizeAnswer(value = "") {
 }
 
 function cleanText(value = "") {
-  return value
+  return normalizeContentText(value)
     .replace(/\s*RASCUNHO[\s\S]*$/i, "")
     .replace(/\s*Transcreva[\s\S]*$/i, "")
     .replace(/\s+/g, " ")

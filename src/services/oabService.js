@@ -1,7 +1,7 @@
-import { normalize } from "../utils";
+import { normalize, normalizeContentText } from "../utils";
 
 const OAB_DISCIPLINES = [
-  "Etica Profissional",
+  "Ética Profissional",
   "Filosofia do Direito",
   "Direito Constitucional",
   "Direito Administrativo",
@@ -11,7 +11,7 @@ const OAB_DISCIPLINES = [
   "Processo Penal",
   "Direito do Trabalho",
   "Processo do Trabalho",
-  "Direito Tributario",
+  "Direito Tributário",
   "Direito Empresarial",
   "Direitos Humanos",
   "Direito Internacional",
@@ -21,7 +21,7 @@ const OAB_DISCIPLINES = [
   "Direito Eleitoral",
   "Direito Financeiro",
   "Direito Digital",
-  "Direito Previdenciario",
+  "Direito Previdenciário",
 ];
 
 const SECOND_PHASE_AREAS = [
@@ -31,13 +31,13 @@ const SECOND_PHASE_AREAS = [
   "Direito do Trabalho",
   "Direito Empresarial",
   "Direito Penal",
-  "Direito Tributario",
+  "Direito Tributário",
 ];
 
 let cache = null;
 
 function cleanText(value = "") {
-  return String(value)
+  return normalizeContentText(value)
     .replace(/Âº/g, "º")
     .replace(/Âª/g, "ª")
     .replace(/Ã¡/g, "á")
@@ -98,19 +98,19 @@ function secondPhaseArea(material = {}) {
   return SECOND_PHASE_AREAS.find((area) => {
     const normalizedArea = normalize(area);
     if (title.includes(normalizedArea) || file.includes(normalizedArea.replace(/\s+/g, "-"))) return true;
-    if (area === "Direito Tributario" && (title.includes("tributario") || file.includes("tributario"))) return true;
+    if (area === "Direito Tributário" && (title.includes("tributario") || file.includes("tributario"))) return true;
     if (area === "Direito Empresarial" && (title.includes("empresarial") || file.includes("empresarial"))) return true;
     return false;
-  }) || "Area nao identificada";
+  }) || "Área não identificada";
 }
 
 function secondPhaseKind(material = {}) {
   const title = normalize(material.titulo);
-  if (title.includes("espelho")) return "Espelho de correcao";
-  if (title.includes("padrao")) return title.includes("definitivo") ? "Padrao definitivo" : "Padrao preliminar";
-  if (title.includes("peca") || title.includes("pratico-profissional")) return "Peca pratico-profissional";
+  if (title.includes("espelho")) return "Espelho de correção";
+  if (title.includes("padrao")) return title.includes("definitivo") ? "Padrão definitivo" : "Padrão preliminar";
+  if (title.includes("peca") || title.includes("pratico-profissional")) return "Peça prático-profissional";
   if (title.includes("caderno") || title.includes("prova")) return "Caderno de prova";
-  return "Material de 2a fase";
+  return "Material de 2ª fase";
 }
 
 function phaseFromMaterial(material = {}) {
@@ -263,18 +263,18 @@ function buildSecondPhase(materials, user) {
       name: area,
       total: rows.length,
       cadernos: rows.filter((item) => item.secondPhaseKind === "Caderno de prova").length,
-      padroes: rows.filter((item) => item.secondPhaseKind.includes("Padrao")).length,
-      espelhos: rows.filter((item) => item.secondPhaseKind === "Espelho de correcao").length,
+      padroes: rows.filter((item) => item.secondPhaseKind.includes("Padrao") || item.secondPhaseKind.includes("Padrão")).length,
+      espelhos: rows.filter((item) => item.secondPhaseKind === "Espelho de correcao" || item.secondPhaseKind === "Espelho de correção").length,
       materials: rows,
     };
   });
 
   const recentExams = [...new Set(materials2.map((item) => item.exam?.label).filter(Boolean))].slice(0, 8);
   const plan = [
-    "1 peca completa por semana com estrutura, fundamentos e pedidos.",
-    "2 questoes discursivas por ciclo, sempre corrigidas pelo padrao oficial.",
-    "Comparar sua resposta com o padrao definitivo e registrar omissoes.",
-    "Revisar modelos de peca da area escolhida antes de cada novo treino.",
+    "1 peça completa por semana com estrutura, fundamentos e pedidos.",
+    "2 questões discursivas por ciclo, sempre corrigidas pelo padrão oficial.",
+    "Comparar sua resposta com o padrão definitivo e registrar omissões.",
+    "Revisar modelos de peça da área escolhida antes de cada novo treino.",
   ];
 
   return {
@@ -296,26 +296,26 @@ function buildStudyAssets(stats, disciplines, user) {
     .slice(0, 6);
 
   const simulations = [
-    { title: "Simulado OAB 1a fase", detail: "80 questoes oficiais FGV/OAB, com correcao por disciplina." },
-    { title: "Bloco por disciplina", detail: "20 questoes da materia escolhida para treino objetivo." },
-    { title: "Revisao de erros", detail: "Questoes erradas voltam em blocos curtos ate consolidar." },
+    { title: "Simulado OAB 1ª fase", detail: "80 questões oficiais FGV/OAB, com correção por disciplina." },
+    { title: "Bloco por disciplina", detail: "20 questões da matéria escolhida para treino objetivo." },
+    { title: "Revisão de erros", detail: "Questões erradas voltam em blocos curtos até consolidar." },
   ];
 
   const flashcards = priority.slice(0, 5).map((subject) => ({
     front: subject,
-    back: `Revise conceitos centrais, excecoes e pegadinhas recorrentes em ${subject}.`,
+    back: `Revise conceitos centrais, exceções e pegadinhas recorrentes em ${subject}.`,
   }));
 
   const summaries = stats.topDisciplines.slice(0, 5).map((item) => ({
     title: item.label,
-    text: `${item.total} questoes extraidas ate agora. Priorize lei seca, questoes oficiais e revisao dos erros.`,
+    text: `${item.total} questões extraídas até agora. Priorize lei seca, questões oficiais e revisão dos erros.`,
   }));
 
   const hours = Number(user?.hoursPerDay || user?.horasSemanais / 5 || 2) || 2;
   const plan = [
     `${Math.max(30, Math.round(hours * 25))} min de teoria dirigida`,
-    `${Math.max(20, Math.round(hours * 12))} questoes oficiais por dia`,
-    "Revisao dos erros no dia seguinte",
+    `${Math.max(20, Math.round(hours * 12))} questões oficiais por dia`,
+    "Revisão dos erros no dia seguinte",
     "1 simulado completo por semana quando houver 4h livres",
   ];
 

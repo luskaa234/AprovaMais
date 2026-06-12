@@ -12,6 +12,7 @@
     "miner:militar": "tsx scripts/content-miner/militar.ts",
     "miner:cebraspe-local": "tsx scripts/content-miner/cebraspe-local.ts",
     "miner:fgv-local": "tsx scripts/content-miner/fgv-local.ts",
+    "encoding:dry-run": "node scripts/encoding-dry-run.js",
     "promote:fgv-local": "tsx scripts/content-miner/promote-fgv-local.ts",
     "miner:pci-militar": "tsx scripts/content-miner/pci-militar.ts",
     "miner:pci-militar:import": "tsx scripts/content-miner/pci-militar.ts --import",
