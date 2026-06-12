@@ -1,12 +1,15 @@
-import { useEffect, useMemo, useState } from "react";
+import { lazy, Suspense, useEffect, useMemo, useState } from "react";
 import { BookOpen, CalendarCheck, ChevronRight, Clock, ClipboardList, Dumbbell, FileText, Flame, MessageCircleQuestion, Play, Target, X, Zap } from "lucide-react";
 import { AIPanel } from "../../ai";
 import { Badge, Button, Card, ProgressBar, cx } from "../../components";
-import { HeatmapCalendar, PerformanceChart, StudyTimeChart } from "../../charts";
 import { useInternalRouter, useUser } from "../../contexts";
 import { isSupabaseConfigured, supabase } from "../../lib/supabase";
 import { aiService, questoesService } from "../../services";
 import { usePlanoStore, useQuestoesStore, useRankingStore, useRevisaoStore } from "../../stores";
+
+const PerformanceChart = lazy(() => import("../../charts").then((module) => ({ default: module.PerformanceChart })));
+const StudyTimeChart = lazy(() => import("../../charts").then((module) => ({ default: module.StudyTimeChart })));
+const HeatmapCalendar = lazy(() => import("../../charts").then((module) => ({ default: module.HeatmapCalendar })));
 
 const KpiCard = ({ label, value, icon: Icon }) => (
   <Card>
@@ -156,6 +159,10 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
   );
 };
 
+function ChartFallback() {
+  return <div className="h-72 animate-pulse rounded-lg bg-gray-900" />;
+}
+
 export default function DashboardPage() {
   const { user } = useUser();
   const { navigate } = useInternalRouter();
@@ -169,6 +176,7 @@ export default function DashboardPage() {
   const [relatorio, setRelatorio] = useState(null);
   const [gerandoRelatorio, setGerandoRelatorio] = useState(false);
   const [materiasDoPerfil, setMateriasDoPerfil] = useState([]);
+  const [chartsReady, setChartsReady] = useState(false);
   const diagnosticPlan = user?.diagnosticPlan;
   const objectiveContent = useMemo(() => getObjectiveContent(user), [user]);
   const objectiveArea = useMemo(() => questoesService.resolveAreaFromUser(user), [user]);
@@ -184,6 +192,16 @@ export default function DashboardPage() {
       return { label: labels[date.getDay()], acertos: doDia.length ? Math.round((acertos / doDia.length) * 100) : 0 };
     });
   }, [tentativas]);
+
+  useEffect(() => {
+    const showCharts = () => setChartsReady(true);
+    if ("requestIdleCallback" in window) {
+      const id = window.requestIdleCallback(showCharts, { timeout: 1200 });
+      return () => window.cancelIdleCallback?.(id);
+    }
+    const id = window.setTimeout(showCharts, 300);
+    return () => window.clearTimeout(id);
+  }, []);
 
   useEffect(() => {
     if (!isSupabaseConfigured || !user?.id) return undefined;
@@ -444,12 +462,22 @@ export default function DashboardPage() {
       <div className="mt-4 grid gap-4 xl:grid-cols-[1.5fr_1fr]">
         <Card data-tour="tour-desempenho">
           <h2 className="mb-3 font-bold text-white">Evolução semanal</h2>
-          <PerformanceChart data={performance} />
+          {chartsReady ? (
+            <Suspense fallback={<ChartFallback />}>
+              <PerformanceChart data={performance} />
+            </Suspense>
+          ) : (
+            <ChartFallback />
+          )}
         </Card>
         <Card>
           <h2 className="mb-3 font-bold text-white">Tempo por disciplina</h2>
-          {tempo.length ? (
-            <StudyTimeChart data={tempo} />
+          {chartsReady && tempo.length ? (
+            <Suspense fallback={<ChartFallback />}>
+              <StudyTimeChart data={tempo} />
+            </Suspense>
+          ) : tempo.length ? (
+            <ChartFallback />
           ) : (
             <div className="flex h-72 items-center justify-center rounded-lg border border-dashed border-gray-800 text-center text-sm text-gray-400">
               Estude e resolva questões para ver a distribuição por disciplina.
@@ -461,7 +489,13 @@ export default function DashboardPage() {
       <div className="mt-4 grid gap-4 xl:grid-cols-[1fr_1fr_0.8fr]">
         <Card>
           <h2 className="mb-3 font-bold text-white">Sequência</h2>
-          <HeatmapCalendar entries={activeTentativas} />
+          {chartsReady ? (
+            <Suspense fallback={<ChartFallback />}>
+              <HeatmapCalendar entries={activeTentativas} />
+            </Suspense>
+          ) : (
+            <ChartFallback />
+          )}
         </Card>
         <Card>
           <h2 className="mb-3 font-bold text-white">Próximas revisões</h2>
