@@ -1,190 +1,209 @@
 import { useCallback, useMemo, useState } from "react";
-import { CheckCircle2, Clock, FileText, Map, RefreshCw, XCircle } from "lucide-react";
-import { Badge, Button, Card, EmptyState, Tabs } from "../../components";
+import { CheckCircle2, Filter, RefreshCw, RotateCcw, Search, Trash2, XCircle } from "lucide-react";
+import { Badge, Button, Card, EmptyState, Input, Select } from "../../components";
+import { useNotifications } from "../../contexts";
 import { useAsyncData } from "../../hooks";
-import { revisaoService } from "../../services";
-import { useFlashcardsStore, useQuestoesStore } from "../../stores";
+import { questoesService, revisaoService } from "../../services";
+import { QuestionCard } from "../Questoes/QuestionCard";
 
-const tabs = ["Pendentes", "Revisão Espaçada", "Erros", "Flashcards", "Mapas Mentais", "Resumos"];
+const statusOptions = [
+  { value: revisaoService.statuses.ACTIVE_STATUS, label: "A revisar" },
+  { value: revisaoService.statuses.MASTERED_STATUS, label: "Dominadas" },
+];
 
-function dueTone(date) {
-  if (!date) return "warning";
-  return date <= new Date().toISOString().slice(0, 10) ? "error" : "success";
+function sourceLabel(source) {
+  if (source === "caderno") return "Caderno de erros";
+  if (source === "refeita") return "Refeita";
+  if (source === "manual") return "Manual";
+  return "Tentativa errada";
 }
 
-function ReviewCard({ item, onReview, onMaster, onDelay }) {
+function StatBox({ label, value, helper }) {
   return (
-    <Card hover={false} className="review-card border-blue-100 bg-white shadow-sm">
-      <div className="flex items-center justify-between gap-2">
-        <Badge variant={dueTone(item.proximaRevisao || item.dueAt)}>{item.urgencia || "agendada"}</Badge>
-        <span className="flex items-center gap-1 text-xs font-bold text-slate-500">
-          <Clock size={14} /> {item.proximaRevisao || item.dueAt || "hoje"}
-        </span>
+    <div className="rounded-lg border border-blue-100 bg-blue-50 p-3">
+      <strong className="block text-2xl text-slate-950">{value}</strong>
+      <span className="text-xs font-bold uppercase tracking-wide text-slate-500">{label}</span>
+      {helper ? <p className="mt-1 text-xs text-slate-500">{helper}</p> : null}
+    </div>
+  );
+}
+
+function ReviewItem({ item, expanded, busy, onAnswer, onExpand, onMaster, onRemove, onReopen, onSave, onReport }) {
+  const questao = item.questao;
+  const isMastered = item.status === revisaoService.statuses.MASTERED_STATUS;
+
+  return (
+    <Card hover={false} className="overflow-hidden p-0">
+      <div className="border-b border-blue-100 bg-white px-4 py-3">
+        <div className="flex flex-col gap-3 lg:flex-row lg:items-start lg:justify-between">
+          <div className="min-w-0">
+            <div className="flex flex-wrap items-center gap-2">
+              <Badge variant={isMastered ? "success" : "warning"}>{item.statusLabel}</Badge>
+              <Badge variant="neutral">{sourceLabel(item.source)}</Badge>
+              <Badge>{questao.banca || "Banca"}</Badge>
+              <Badge variant="neutral">{questao.materiaLabel || questao.materia || "Matéria"}</Badge>
+            </div>
+            <h2 className="mt-3 line-clamp-2 text-base font-black text-slate-950">{questao.enunciado}</h2>
+            <p className="mt-2 text-sm text-slate-500">
+              {questao.assuntoLabel || questao.assunto || "Assunto não informado"} · próxima revisão: {item.dueAt || "hoje"}
+            </p>
+          </div>
+          <div className="flex shrink-0 flex-wrap gap-2">
+            {!isMastered ? <Button size="sm" icon={RefreshCw} onClick={onExpand}>{expanded ? "Fechar" : "Refazer"}</Button> : null}
+            {isMastered ? (
+              <Button size="sm" variant="secondary" icon={RotateCcw} loading={busy} onClick={onReopen}>Reabrir</Button>
+            ) : (
+              <Button size="sm" variant="secondary" icon={CheckCircle2} loading={busy} onClick={onMaster}>Dominei</Button>
+            )}
+            <Button size="sm" variant="ghost" icon={Trash2} loading={busy} onClick={onRemove}>Remover</Button>
+          </div>
+        </div>
       </div>
-      <h2 className="mt-3 font-black text-slate-950">{item.materia}</h2>
-      <p className="mt-2 text-sm leading-6 text-slate-500">{item.assunto || item.frente}</p>
-      <div className="mt-4 grid gap-2 sm:grid-cols-3">
-        <Button size="sm" icon={RefreshCw} onClick={onReview}>Revisar</Button>
-        <Button size="sm" variant="secondary" icon={CheckCircle2} onClick={onMaster}>Dominei</Button>
-        <Button size="sm" variant="ghost" onClick={onDelay}>Adiar</Button>
-      </div>
+
+      {expanded ? (
+        <div className="border-t border-blue-100 bg-slate-50 p-3">
+          <QuestionCard
+            questao={questao}
+            saved={false}
+            inErrorBook={!isMastered}
+            onAnswer={onAnswer}
+            onSave={onSave}
+            onAddCaderno={() => onReopen()}
+            onReport={onReport}
+          />
+        </div>
+      ) : null}
     </Card>
   );
 }
 
 export default function RevisaoPage() {
-  const [tab, setTab] = useState("Pendentes");
-  const load = useCallback(() => revisaoService.getPendentes(), []);
-  const { data: itens = [], setData } = useAsyncData(load);
-  const tentativas = useQuestoesStore((state) => state.tentativas);
-  const caderno = useQuestoesStore((state) => state.caderno);
-  const questoes = useQuestoesStore((state) => state.questoes);
-  const decks = useFlashcardsStore((state) => state.decks);
-  const sessoesFlashcards = useFlashcardsStore((state) => state.sessoes);
+  const { addNotification } = useNotifications();
+  const [filters, setFilters] = useState({ search: "", materia: "", banca: "", status: revisaoService.statuses.ACTIVE_STATUS });
+  const [expandedId, setExpandedId] = useState("");
+  const [busyId, setBusyId] = useState("");
+  const load = useCallback(() => revisaoService.getCentral(filters), [filters]);
+  const { data = {}, isLoading, error, refetch } = useAsyncData(load);
 
-  const today = new Date().toISOString().slice(0, 10);
-  const ordered = useMemo(() => [...itens].sort((a, b) => (a.proximaRevisao || a.dueAt || "").localeCompare(b.proximaRevisao || b.dueAt || "")), [itens]);
-  const dueToday = ordered.filter((item) => (item.proximaRevisao || item.dueAt || today) <= today);
-  const nextItem = ordered[0];
+  const items = useMemo(() => data.items || [], [data.items]);
+  const allItems = useMemo(() => data.allItems || [], [data.allItems]);
+  const stats = data.stats || { revisar: 0, dominadas: 0, total: 0, progresso: 0 };
+  const materias = useMemo(() => [...new Set(allItems.map((item) => item.questao?.materiaLabel || item.questao?.materia).filter(Boolean))].sort((a, b) => a.localeCompare(b, "pt-BR")), [allItems]);
+  const bancas = useMemo(() => [...new Set(allItems.map((item) => item.questao?.banca).filter(Boolean))].sort((a, b) => a.localeCompare(b, "pt-BR")), [allItems]);
+  const activeFilterCount = Object.values(filters).filter(Boolean).length;
 
-  const erros = useMemo(() => {
-    const wrongIds = new Set([...caderno, ...tentativas.filter((item) => !item.acertou).map((item) => item.questaoId)]);
-    return questoes.filter((questao) => wrongIds.has(questao.id));
-  }, [caderno, questoes, tentativas]);
+  const updateFilter = useCallback((key, value) => {
+    setExpandedId("");
+    setFilters((current) => ({ ...current, [key]: value }));
+  }, []);
 
-  const flashcards = useMemo(() => {
-    const reviewedIds = new Set(sessoesFlashcards.map((item) => item.cardId));
-    if (!reviewedIds.size) return [];
-    return decks
-      .flatMap((deck) => deck.cards.filter((card) => reviewedIds.has(card.id)).slice(0, 3).map((card) => ({ ...card, materia: deck.materia, deck: deck.titulo })))
-      .slice(0, 8);
-  }, [decks, sessoesFlashcards]);
-  const mapas = useMemo(() => ordered.slice(0, 4).map((item) => ({ id: `map-${item.assuntoId || item.id}`, materia: item.materia, assunto: item.assunto || item.frente })), [ordered]);
-  const resumos = useMemo(() => ordered.slice(0, 4).map((item) => ({ id: `res-${item.assuntoId || item.id}`, title: item.materia, text: `Revise ${item.assunto || item.frente}, refaça questões do tema e anote a regra que mais caiu.` })), [ordered]);
+  const runAction = useCallback(async (id, action, successMessage) => {
+    setBusyId(id);
+    try {
+      await action();
+      addNotification({ type: "success", title: "Revisão atualizada", message: successMessage });
+      await refetch();
+    } catch (err) {
+      addNotification({ type: "error", title: "Não foi possível atualizar", message: err.message || "Tente novamente." });
+    } finally {
+      setBusyId("");
+    }
+  }, [addNotification, refetch]);
 
-  const avaliar = useCallback((item, quality) => {
-    setData((current) => current.map((card) => card.assuntoId === item.assuntoId ? revisaoService.avaliar(item, quality) : card));
-  }, [setData]);
+  const onAnswer = useCallback(async (questaoId, alternativaId) => {
+    const result = await revisaoService.responder(questaoId, alternativaId);
+    addNotification({
+      type: result.correta ? "success" : "error",
+      title: result.correta ? "Questão dominada" : `Ainda precisa revisar: ${String(result.gabarito).toUpperCase()}`,
+      message: result.correta ? "Ela saiu da fila de revisão." : "A questão permanece na revisão.",
+    });
+    await refetch();
+    return result;
+  }, [addNotification, refetch]);
 
-  const adiar = useCallback((item) => {
-    revisaoService.adiar(item.assuntoId || item.id);
-    setData((current) => current.filter((card) => card.assuntoId !== item.assuntoId));
-  }, [setData]);
+  const onSave = useCallback(async (questaoId) => {
+    const result = await questoesService.salvar(questaoId);
+    addNotification({ type: "success", title: result.saved ? "Questão salva" : "Questão removida", message: result.saved ? "Ela entrou nas favoritas." : "Ela saiu das favoritas." });
+  }, [addNotification]);
+
+  const onReport = useCallback(() => {
+    addNotification({ type: "warning", title: "Reporte enviado", message: "Nossa equipe revisará a questão." });
+  }, [addNotification]);
+
+  const filtersContent = (
+    <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-[1.4fr_repeat(3,1fr)]">
+      <Input icon={Search} label="Buscar" placeholder="Enunciado, matéria, banca..." value={filters.search} onChange={(event) => updateFilter("search", event.target.value)} />
+      <Select label="Matéria" placeholder="Todas" options={materias} value={filters.materia} onChange={(event) => updateFilter("materia", event.target.value)} />
+      <Select label="Banca" placeholder="Todas" options={bancas} value={filters.banca} onChange={(event) => updateFilter("banca", event.target.value)} />
+      <Select label="Status" placeholder="Todos" options={statusOptions} value={filters.status} onChange={(event) => updateFilter("status", event.target.value)} />
+    </div>
+  );
 
   return (
-    <div className="review-center mx-auto max-w-[1500px] pb-10 text-slate-900">
-      <section className="review-hero mb-4 rounded-lg border border-blue-100 bg-white p-4 shadow-sm">
-        <div className="grid gap-4 xl:grid-cols-[1fr_360px] xl:items-center">
+    <div className="mx-auto max-w-[1500px] pb-10">
+      <section className="mb-4 rounded-lg border border-blue-100 bg-white p-4 shadow-sm">
+        <div className="grid gap-4 xl:grid-cols-[1fr_440px] xl:items-center">
           <div>
             <p className="text-xs font-black uppercase tracking-wide text-blue-600">Central de revisão</p>
-            <h1 className="mt-1 text-3xl font-black text-slate-950">Fila inteligente de revisões</h1>
-            <p className="mt-1 max-w-2xl text-sm leading-6 text-slate-500">Veja o que revisar hoje, ataque erros recentes e transforme flashcards, mapas e resumos em rotina curta.</p>
+            <h1 className="mt-1 text-3xl font-black text-slate-950">Questões reais para revisar</h1>
+            <p className="mt-1 max-w-2xl text-sm leading-6 text-slate-500">
+              A fila usa suas tentativas erradas e o caderno de erros. Refazer, dominar ou remover persiste no Supabase por usuário.
+            </p>
           </div>
           <div className="grid grid-cols-3 gap-2">
-            {[
-              ["Hoje", dueToday.length],
-              ["Erros", erros.length],
-              ["Cards", flashcards.length],
-            ].map(([label, value]) => (
-              <div key={label} className="rounded-lg border border-blue-100 bg-blue-50 p-3 text-center">
-                <strong className="block text-xl text-slate-950">{value}</strong>
-                <span className="text-xs font-bold text-slate-500">{label}</span>
-              </div>
-            ))}
+            <StatBox label="A revisar" value={stats.revisar} />
+            <StatBox label="Dominadas" value={stats.dominadas} />
+            <StatBox label="Progresso" value={`${stats.progresso}%`} helper={`${stats.total} no ciclo`} />
           </div>
         </div>
       </section>
 
-      {nextItem ? (
-        <Card hover={false} className="review-focus mb-4 border-blue-100 bg-white shadow-sm">
-          <div className="grid gap-3 md:grid-cols-[1fr_auto] md:items-center">
-            <div className="min-w-0">
-              <div className="mb-2 flex flex-wrap items-center gap-2">
-                <Badge variant={dueTone(nextItem.proximaRevisao || nextItem.dueAt)}>Próxima revisão</Badge>
-                <span className="inline-flex items-center gap-1 text-xs font-bold text-slate-500">
-                  <Clock size={14} /> {nextItem.proximaRevisao || nextItem.dueAt || "hoje"}
-                </span>
-              </div>
-              <h2 className="truncate text-xl font-black text-slate-950">{nextItem.materia}</h2>
-              <p className="mt-1 text-sm text-slate-500">{nextItem.assunto || nextItem.frente}</p>
-            </div>
-            <div className="grid grid-cols-3 gap-2 md:min-w-[300px]">
-              <Button size="sm" icon={RefreshCw} onClick={() => avaliar(nextItem, 3)}>Revisar</Button>
-              <Button size="sm" variant="secondary" icon={CheckCircle2} onClick={() => avaliar(nextItem, 5)}>Dominei</Button>
-              <Button size="sm" variant="ghost" onClick={() => adiar(nextItem)}>Adiar</Button>
-            </div>
+      <Card hover={false} className="mb-4">
+        <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+          <div className="flex items-center gap-2 text-sm font-bold text-gray-300">
+            <Filter size={16} /> Filtros {activeFilterCount ? `· ${activeFilterCount}` : ""}
           </div>
+          <Button size="sm" variant="ghost" icon={RotateCcw} onClick={() => setFilters({ search: "", materia: "", banca: "", status: "" })}>Limpar</Button>
+        </div>
+        {filtersContent}
+      </Card>
+
+      {error ? (
+        <Card hover={false} className="mb-4 border-red-200 bg-red-50 text-sm font-semibold text-red-700">
+          {error}
         </Card>
       ) : null}
 
-      <div className="review-tabs overflow-x-auto rounded-lg border border-blue-100 bg-white p-2 shadow-sm">
-        <Tabs items={tabs} activeTab={tab} onChange={setTab} />
-      </div>
-
-      {tab === "Pendentes" || tab === "Revisão Espaçada" ? (
-        <div className="mt-4 grid gap-3 xl:grid-cols-2">
-          {ordered.length ? ordered.map((item) => (
-            <ReviewCard
+      {isLoading ? (
+        <div className="space-y-3">
+          {[1, 2, 3].map((item) => <div key={item} className="h-40 animate-pulse rounded-lg bg-blue-100" />)}
+        </div>
+      ) : items.length ? (
+        <div className="space-y-3">
+          {items.map((item) => (
+            <ReviewItem
+              key={item.id}
               item={item}
-              key={item.assuntoId || item.id}
-              onDelay={() => adiar(item)}
-              onMaster={() => avaliar(item, 5)}
-              onReview={() => avaliar(item, 3)}
+              expanded={expandedId === item.id}
+              busy={busyId === item.id}
+              onAnswer={onAnswer}
+              onExpand={() => setExpandedId((current) => current === item.id ? "" : item.id)}
+              onMaster={() => runAction(item.id, () => revisaoService.marcarDominada(item.id), "A questão saiu da fila de revisão.")}
+              onRemove={() => runAction(item.id, () => revisaoService.removerDaRevisao(item.id), "A questão foi removida da revisão.")}
+              onReopen={() => runAction(item.id, () => revisaoService.reabrir(item.id), "A questão voltou para a fila de revisão.")}
+              onSave={onSave}
+              onReport={onReport}
             />
-          )) : <EmptyState icon={CheckCircle2} title="Nada pendente agora" description="Quando você errar questões ou avaliar flashcards, novas revisões entram aqui." />}
+          ))}
         </div>
-      ) : null}
-
-      {tab === "Erros" ? (
-        <div className="mt-4 grid gap-4 xl:grid-cols-2">
-          {erros.length ? erros.map((item) => (
-            <Card hover={false} className="border-blue-100 bg-white shadow-sm" key={item.id}>
-              <div className="flex items-center justify-between gap-2">
-                <Badge variant="error">{item.materia}</Badge>
-                <XCircle className="text-red-400" size={18} />
-              </div>
-              <p className="mt-3 text-sm leading-6 text-slate-700">{item.enunciado}</p>
-              <p className="mt-2 text-xs font-bold text-slate-500">Gabarito: {String(item.gabarito).toUpperCase()} - {item.assunto}</p>
-            </Card>
-          )) : <EmptyState icon={XCircle} title="Sem erros registrados" description="As questões erradas entram automaticamente nesta aba." />}
-        </div>
-      ) : null}
-
-      {tab === "Flashcards" ? (
-        <div className="mt-4 grid gap-4 xl:grid-cols-2">
-          {flashcards.length ? flashcards.map((item) => (
-            <Card hover={false} className="border-blue-100 bg-white shadow-sm" key={item.id}>
-              <Badge>{item.materia}</Badge>
-              <h2 className="mt-3 font-black text-slate-950">{item.frente}</h2>
-              <p className="mt-2 text-sm leading-6 text-slate-500">{item.verso}</p>
-            </Card>
-          )) : <EmptyState title="Sem flashcards em revisão" description="Depois que você revisar cards, eles aparecem aqui na fila." />}
-        </div>
-      ) : null}
-
-      {tab === "Mapas Mentais" ? (
-        <div className="mt-4 grid gap-4 xl:grid-cols-2">
-          {mapas.length ? mapas.map((item) => (
-            <Card hover={false} className="border-blue-100 bg-white shadow-sm" key={item.id}>
-              <Map className="mb-3 text-blue-600" />
-              <h2 className="font-black text-slate-950">{item.materia}</h2>
-              <p className="mt-2 text-sm text-slate-500">{item.assunto}</p>
-            </Card>
-          )) : <EmptyState title="Sem mapas para revisar" description="Mapas entram aqui quando houver conteúdo criado ou revisões pendentes." />}
-        </div>
-      ) : null}
-
-      {tab === "Resumos" ? (
-        <div className="mt-4 grid gap-4 xl:grid-cols-2">
-          {resumos.length ? resumos.map((item) => (
-            <Card hover={false} className="border-blue-100 bg-white shadow-sm" key={item.id}>
-              <FileText className="mb-3 text-blue-600" />
-              <h2 className="font-black text-slate-950">{item.title}</h2>
-              <p className="mt-2 text-sm leading-6 text-slate-500">{item.text}</p>
-            </Card>
-          )) : <EmptyState title="Sem resumos pendentes" description="Quando você gerar resumos ou tiver revisões, eles aparecem aqui." />}
-        </div>
-      ) : null}
+      ) : (
+        <EmptyState
+          icon={stats.total ? XCircle : CheckCircle2}
+          title={stats.total ? "Nenhuma questão neste filtro" : "Você não tem questões para revisar agora"}
+          description={stats.total ? "Ajuste os filtros para ver outros itens da sua revisão." : "Resolva questões para alimentar sua revisão."}
+          action={stats.total ? <Button variant="secondary" onClick={() => setFilters({ search: "", materia: "", banca: "", status: "" })}>Limpar filtros</Button> : null}
+        />
+      )}
     </div>
   );
 }
