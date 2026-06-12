@@ -63,7 +63,7 @@ async function upsertProfileWithFallback(payload, options = { onConflict: "id" }
     if (existing.data) return existing.data;
   }
 
-  const isSchemaMismatch = error.code === "PGRST204" || /column|schema cache|trial_inicio|plano_ativo|plano_expira_em|em_teste|tour_completo/i.test(message);
+  const isSchemaMismatch = error.code === "PGRST204" || /column|schema cache|trial_inicio|plano_ativo|plano_expira_em|em_teste|onboarding_completo|tour_completo/i.test(message);
   if (!isSchemaMismatch) throw error;
 
   const minimalPayload = {
@@ -76,6 +76,7 @@ async function upsertProfileWithFallback(payload, options = { onConflict: "id" }
     horas_semanais: normalizedPayload.horas_semanais,
     dias_disponiveis: normalizedPayload.dias_disponiveis,
     onboarding_completo: normalizedPayload.onboarding_completo,
+    tour_completo: normalizedPayload.tour_completo,
   };
   const cleanPayload = Object.fromEntries(
     Object.entries(minimalPayload)
@@ -263,6 +264,31 @@ export function UserProvider({ children }) {
     return data;
   }, [authUser, fetchProfile]);
 
+  useEffect(() => {
+    if (!isSupabaseConfigured || !authUser || !profile || !localSession?.registrationPending) return undefined;
+    if (localSession.email?.toLowerCase() !== authUser.email?.toLowerCase()) return undefined;
+
+    const dbUpdates = {};
+    if (localUser.onboardingComplete === true && profile.onboarding_completo !== true) {
+      dbUpdates.onboarding_completo = true;
+    }
+    if (localUser.tourCompleto === true && profile.tour_completo !== true) {
+      dbUpdates.tour_completo = true;
+    }
+    if (!Object.keys(dbUpdates).length) return undefined;
+
+    let alive = true;
+    upsertProfileWithFallback({ id: authUser.id, email: authUser.email, ...dbUpdates }, { onConflict: "id" })
+      .then((data) => {
+        if (alive) setProfile(data);
+      })
+      .catch(() => {});
+
+    return () => {
+      alive = false;
+    };
+  }, [authUser, localSession, localUser.onboardingComplete, localUser.tourCompleto, profile]);
+
   const appUser = useMemo(() => {
     if (isSupabaseConfigured && authUser && profile) {
       const stats = {
@@ -284,7 +310,7 @@ export function UserProvider({ children }) {
         planoExpiraEm: profile.plano_expira_em,
         emTeste: Boolean(profile.em_teste),
         vitalicio: Boolean(profile.vitalicio),
-        tourCompleto: profile.tour_completo === null || profile.tour_completo === undefined ? true : Boolean(profile.tour_completo),
+        tourCompleto: profile.tour_completo === true,
         targetContest: profile.concurso_alvo,
         dataProva: profile.data_prova,
         nivel: profile.nivel,
@@ -350,6 +376,7 @@ export function UserProvider({ children }) {
         state: localUser.state,
         country: localUser.country,
         onboardingComplete: false,
+        tourCompleto: false,
         stats: {
           hours: 0,
           questions: 0,
@@ -372,6 +399,7 @@ export function UserProvider({ children }) {
         planoExpiraEm: localSession.planoExpiraEm,
         emTeste: Boolean(localSession.emTeste),
         onboardingComplete: Boolean(localUser.onboardingComplete),
+        tourCompleto: Boolean(localUser.tourCompleto),
         targetContest: localUser.targetContest,
         dataProva: localUser.dataProva,
         nivel: localUser.nivel,

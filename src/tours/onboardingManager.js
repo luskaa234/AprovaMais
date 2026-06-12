@@ -111,8 +111,9 @@ function finishTour(completed, onComplete, userId) {
 }
 
 export function hasCompletedOnboarding(user) {
-  if (user?.tourCompleto === true) return true;
-  if (user?.tourCompleto === false) return false;
+  if (user && Object.prototype.hasOwnProperty.call(user, "tourCompleto")) {
+    return user.tourCompleto === true;
+  }
   const userKey = user?.id || user?.email;
   if (userKey) return localStorage.getItem(storageKey(userKey)) === "true";
   return localStorage.getItem(ONBOARDING_STORAGE_KEY) === "true";

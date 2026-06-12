@@ -1,12 +1,19 @@
 alter table public.profiles
-  add column if not exists tour_completo boolean;
+  add column if not exists onboarding_completo boolean default false,
+  add column if not exists tour_completo boolean default false;
 
--- Usuarios que ja existiam antes desta coluna nao devem receber o tour automatico.
+-- A conta e a fonte de verdade. Nulos significam "ainda nao concluido".
 update public.profiles
-set tour_completo = true
+set onboarding_completo = false
+where onboarding_completo is null;
+
+update public.profiles
+set tour_completo = false
 where tour_completo is null;
 
 alter table public.profiles
+  alter column onboarding_completo set default false,
+  alter column onboarding_completo set not null,
   alter column tour_completo set default false,
   alter column tour_completo set not null;
 
@@ -32,6 +39,7 @@ begin
     plano_expira_em,
     em_teste,
     trial_inicio,
+    onboarding_completo,
     tour_completo
   )
   values (
@@ -44,6 +52,7 @@ begin
     now() + interval '7 days',
     true,
     now(),
+    false,
     false
   )
   on conflict (id) do update set

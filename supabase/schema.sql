@@ -15,6 +15,7 @@ create table if not exists public.profiles (
   horas_semanais integer default 10,
   dias_disponiveis text[] default array['segunda','terca','quarta','quinta','sexta'],
   onboarding_completo boolean default false,
+  tour_completo boolean default false,
   trial_inicio timestamptz default now(),
   horas_estudadas integer default 0,
   questoes_resolvidas integer default 0,
