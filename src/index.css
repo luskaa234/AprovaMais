@@ -6,7 +6,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  color-scheme: dark;
+  color-scheme: light;
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background: #030712;
   color: #f8fbff;
@@ -106,6 +106,24 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --aprova-ink: #e7edf8;
+  --aprova-muted: #9fb0c7;
+  --aprova-line: rgba(125, 164, 215, 0.22);
+  --aprova-surface: #172033;
+  --aprova-surface-soft: #101827;
+  --aprova-shadow-sm: 0 16px 40px rgba(0, 0, 0, 0.28);
+  --aprova-shadow: 0 24px 70px rgba(0, 0, 0, 0.34);
+  --aprova-focus: 0 0 0 3px rgba(96, 165, 250, 0.18);
+  --status-success: #34d399;
+  --status-success-soft: rgba(16, 185, 129, 0.16);
+  --status-error: #f87171;
+  --status-error-soft: rgba(248, 113, 113, 0.14);
+  --status-warning: #fbbf24;
+  --status-warning-soft: rgba(251, 191, 36, 0.15);
 }
 
 .payment-checkout-overlay {
@@ -16058,4 +16076,222 @@ button {
     position: relative !important;
     z-index: 2;
   }
+}
+
+/* Final dark-mode pass for the internal product: quiet surfaces, readable text, no white cards. */
+[data-theme="dark"] body {
+  background: #0b1120;
+  color: #e7edf8;
+}
+
+[data-theme="dark"] .internal-app-light {
+  background: #0b1120 !important;
+  color: #e7edf8 !important;
+}
+
+[data-theme="dark"] .internal-app-light > div > main {
+  background: #0f1726 !important;
+}
+
+[data-theme="dark"] .internal-app-light header,
+[data-theme="dark"] .internal-app-light aside,
+[data-theme="dark"] .internal-topbar,
+[data-theme="dark"] .mobile-more-sheet,
+[data-theme="dark"] .mobile-more-menu,
+[data-theme="dark"] .mobile-bottom-nav {
+  border-color: rgba(125, 164, 215, 0.2) !important;
+  background: rgba(17, 26, 43, 0.96) !important;
+  color: #e7edf8 !important;
+}
+
+[data-theme="dark"] .internal-app-light main :is(
+  .aprova-card-default,
+  .aprova-card-elevated,
+  .aprova-card-bordered,
+  .bg-white,
+  .bg-white\/80,
+  .bg-white\/95,
+  .bg-gray-950,
+  .bg-gray-900
+) {
+  border-color: rgba(125, 164, 215, 0.22) !important;
+  background-color: #172033 !important;
+  color: #e7edf8 !important;
+  box-shadow: 0 16px 42px rgba(0, 0, 0, 0.24) !important;
+}
+
+[data-theme="dark"] .internal-app-light main :is(
+  .bg-blue-50,
+  .bg-slate-50,
+  .bg-slate-100,
+  .bg-gray-100,
+  .bg-gray-800
+) {
+  border-color: rgba(125, 164, 215, 0.18) !important;
+  background-color: #111b2d !important;
+  color: #dce7f5 !important;
+}
+
+[data-theme="dark"] .internal-app-light main :is(.bg-emerald-50, .bg-green-50) {
+  border-color: rgba(52, 211, 153, 0.28) !important;
+  background-color: rgba(16, 78, 61, 0.42) !important;
+  color: #d9fff0 !important;
+}
+
+[data-theme="dark"] .internal-app-light main :is(.bg-red-50, .bg-rose-50) {
+  border-color: rgba(248, 113, 113, 0.26) !important;
+  background-color: rgba(97, 31, 43, 0.42) !important;
+  color: #ffe2e7 !important;
+}
+
+[data-theme="dark"] .internal-app-light main :is(.bg-amber-50, .bg-yellow-50, .bg-orange-50) {
+  border-color: rgba(251, 191, 36, 0.26) !important;
+  background-color: rgba(97, 66, 19, 0.36) !important;
+  color: #ffefbf !important;
+}
+
+[data-theme="dark"] .internal-app-light main :is(
+  h1,
+  h2,
+  h3,
+  h4,
+  strong,
+  label,
+  .text-white,
+  .text-slate-950,
+  .text-slate-900,
+  .text-slate-800,
+  .text-gray-100,
+  .text-gray-200,
+  .text-gray-300
+) {
+  color: #f6f9ff !important;
+}
+
+[data-theme="dark"] .internal-app-light main :is(
+  p,
+  small,
+  .text-slate-700,
+  .text-slate-600,
+  .text-slate-500,
+  .text-gray-400,
+  .text-gray-500
+) {
+  color: #a8b6ca !important;
+}
+
+[data-theme="dark"] .internal-app-light main :is(.text-blue-300, .text-blue-400, .text-blue-500, .text-blue-600, .text-blue-700),
+[data-theme="dark"] .internal-app-light .topbar-icon-button,
+[data-theme="dark"] .internal-app-light .notification-panel button {
+  color: #7fb7ff !important;
+}
+
+[data-theme="dark"] .internal-app-light main :is(.border-blue-100, .border-blue-200, .border-slate-100, .border-slate-200, .border-gray-800) {
+  border-color: rgba(125, 164, 215, 0.22) !important;
+}
+
+[data-theme="dark"] .aprova-input,
+[data-theme="dark"] .internal-app-light input,
+[data-theme="dark"] .internal-app-light select,
+[data-theme="dark"] .internal-app-light textarea {
+  border-color: rgba(125, 164, 215, 0.24) !important;
+  background: #101827 !important;
+  color: #edf4ff !important;
+}
+
+[data-theme="dark"] .aprova-input::placeholder,
+[data-theme="dark"] .internal-app-light input::placeholder,
+[data-theme="dark"] .internal-app-light textarea::placeholder {
+  color: #7f8da3 !important;
+}
+
+[data-theme="dark"] .aprova-btn-secondary,
+[data-theme="dark"] .aprova-btn-outline {
+  border-color: rgba(96, 165, 250, 0.3) !important;
+  background: #111b2d !important;
+  color: #b8d8ff !important;
+}
+
+[data-theme="dark"] .aprova-btn-secondary:hover,
+[data-theme="dark"] .aprova-btn-outline:hover,
+[data-theme="dark"] .aprova-btn-ghost:hover {
+  background: rgba(96, 165, 250, 0.14) !important;
+  color: #d7eaff !important;
+}
+
+[data-theme="dark"] .aprova-btn-ghost {
+  color: #9dc9ff !important;
+}
+
+[data-theme="dark"] .aprova-badge-info,
+[data-theme="dark"] .aprova-badge-neutral {
+  background: rgba(96, 165, 250, 0.15) !important;
+  color: #c9e0ff !important;
+  --tw-ring-color: rgba(96, 165, 250, 0.24) !important;
+}
+
+[data-theme="dark"] .aprova-badge-success {
+  background: rgba(52, 211, 153, 0.16) !important;
+  color: #a7f3d0 !important;
+  --tw-ring-color: rgba(52, 211, 153, 0.24) !important;
+}
+
+[data-theme="dark"] .aprova-badge-warning {
+  background: rgba(251, 191, 36, 0.15) !important;
+  color: #fde68a !important;
+  --tw-ring-color: rgba(251, 191, 36, 0.24) !important;
+}
+
+[data-theme="dark"] .aprova-badge-error {
+  background: rgba(248, 113, 113, 0.14) !important;
+  color: #fecdd3 !important;
+  --tw-ring-color: rgba(248, 113, 113, 0.24) !important;
+}
+
+[data-theme="dark"] .internal-app-light .topbar-search-results,
+[data-theme="dark"] .internal-app-light .notification-panel,
+[data-theme="dark"] .internal-app-light .profile-tabs {
+  border: 1px solid rgba(125, 164, 215, 0.22) !important;
+  background: #172033 !important;
+  color: #e7edf8 !important;
+}
+
+[data-theme="dark"] .internal-app-light .notification-item {
+  background: #101827 !important;
+  color: #dce7f5 !important;
+}
+
+[data-theme="dark"] .mobile-more-menu nav button:not(.internal-nav-active),
+[data-theme="dark"] .mobile-bottom-nav button {
+  background: transparent !important;
+  color: #a8b6ca !important;
+}
+
+[data-theme="dark"] .mobile-more-menu nav button:not(.internal-nav-active):hover,
+[data-theme="dark"] .mobile-bottom-nav button:hover {
+  background: rgba(96, 165, 250, 0.12) !important;
+  color: #e7edf8 !important;
+}
+
+[data-theme="dark"] .mobile-bottom-nav button.is-active,
+[data-theme="dark"] .mobile-bottom-nav button.is-active svg,
+[data-theme="dark"] .mobile-more-menu .internal-nav-active,
+[data-theme="dark"] .mobile-more-menu .internal-nav-active * {
+  color: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+[data-theme="dark"] .mobile-bottom-nav-pill {
+  background: #60a5fa !important;
+}
+
+[data-theme="dark"] .internal-app-light .recharts-cartesian-axis-tick-value,
+[data-theme="dark"] .internal-app-light .recharts-polar-angle-axis-tick-value {
+  fill: #a8b6ca !important;
+}
+
+[data-theme="dark"] .internal-app-light .recharts-cartesian-grid line,
+[data-theme="dark"] .internal-app-light .recharts-polar-grid-angle line,
+[data-theme="dark"] .internal-app-light .recharts-polar-grid-concentric path {
+  stroke: rgba(125, 164, 215, 0.2) !important;
 }
