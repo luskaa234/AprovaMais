@@ -1,10 +1,18 @@
 {
-  "totalDisponivel": 0,
-  "totalExportado": 0,
-  "materias": {},
-  "bancas": {},
-  "dificuldades": {},
-  "anos": {},
-  "topicos": {},
-  "concursos": {}
+  "totalDisponivel": 4376,
+  "totalExportado": 4376,
+  "arquivos": [
+    {
+      "arquivo": "oab.json",
+      "area": "oab",
+      "total": 2565,
+      "exportado": 2565
+    },
+    {
+      "arquivo": "militar.json",
+      "area": "militar",
+      "total": 1811,
+      "exportado": 1811
+    }
+  ]
 }

@@ -187,6 +187,61 @@ function hasActiveFilters(filters = {}) {
   return Object.entries(filters).some(([key, value]) => Boolean(value) && !ignored.has(key));
 }
 
+function hasCatalogChunks(catalog = {}) {
+  return Array.isArray(catalog.chunks) && catalog.chunks.length > 0;
+}
+
+function getCatalogAreaStats(catalog = {}, area = "geral") {
+  const normalizedArea = normalizeArea(area);
+  return catalog.areas?.[normalizedArea] || catalog.areas?.geral || catalog;
+}
+
+function chunkMatchesArea(chunk = {}, area = "geral") {
+  const normalizedArea = normalizeArea(area);
+  return normalizedArea === "geral" || normalizeArea(chunk.area) === normalizedArea;
+}
+
+function getCatalogChunks(catalog = {}, filters = {}) {
+  return (catalog.chunks || []).filter((chunk) => {
+    if (!chunkMatchesArea(chunk, filters.area)) return false;
+    if (filters.materia && !normalize(chunk.materia).includes(normalize(filters.materia))) return false;
+    return true;
+  });
+}
+
+function countCatalogChunks(chunks = []) {
+  return chunks.reduce((sum, chunk) => sum + Number(chunk.count || 0), 0);
+}
+
+function filterOptionsFromCatalog(catalog = {}, filters = {}) {
+  const stats = getCatalogAreaStats(catalog, filters.area || "geral");
+  return {
+    materias: stats.materias || catalog.materias || {},
+    bancas: stats.bancas || catalog.bancas || {},
+    dificuldades: stats.dificuldades || catalog.dificuldades || {},
+    anos: stats.anos || catalog.anos || {},
+    assuntos: stats.topicos || catalog.topicos || {},
+    concursos: stats.concursos || catalog.concursos || {},
+  };
+}
+
+async function getLocalQuestoesFromCatalog(filters = {}, limit = 120) {
+  try {
+    const catalog = await getLocalCatalog();
+    if (!hasCatalogChunks(catalog)) return [];
+    const chunks = getCatalogChunks(catalog, filters);
+    const candidates = [];
+    for (const chunk of chunks) {
+      const rows = await getLocalChunk(chunk.path);
+      candidates.push(...rows.filter((row) => rowMatches(row, filters) && (!filters.apenasOficiais || row.official)));
+      if (candidates.length >= limit) break;
+    }
+    return candidates.slice(0, limit);
+  } catch {
+    return [];
+  }
+}
+
 function isOabFilter(filters = {}) {
   return [filters.concurso, filters.banca, filters.search, filters.materia, filters.assunto]
     .some((value) => normalize(value).includes("oab") || normalize(value).includes("fgv"));
@@ -419,13 +474,6 @@ export const questoesService = {
   getSubjectLabel,
   getContestLabel,
   async getPage({ page = 1, pageSize = 5, filters = {} } = {}) {
-    if (filters.area) {
-      const items = await this.getQuestoes({ ...filters, limit: 5000 });
-      const offset = (page - 1) * pageSize;
-      const stats = await this.getStats();
-      return { items: items.slice(offset, offset + pageSize), total: items.length, stats };
-    }
-
     if (isSupabaseConfigured) {
       const from = (page - 1) * pageSize;
       const to = from + pageSize - 1;
@@ -440,13 +488,13 @@ export const questoesService = {
       const { data, count, error } = await query;
       if (error) throw error;
       if ((!data || data.length === 0) && isMilitarFilter(filters)) {
-        const localMilitar = this.filter(await getLocalMilitarQuestions(), filters);
+        const localMilitar = await getLocalQuestoesFromCatalog({ ...filters, area: "militar" }, to + 1);
         const offset = (page - 1) * pageSize;
         const stats = await this.getStats();
         return { items: localMilitar.slice(offset, offset + pageSize), total: localMilitar.length, stats: { ...stats, militarLocal: localMilitar.length } };
       }
       if ((!data || data.length === 0) && (isOabFilter(filters) || count === 0)) {
-        const localOab = this.filter(await getLocalOabQuestions(), filters);
+        const localOab = await getLocalQuestoesFromCatalog({ ...filters, area: "oab" }, to + 1);
         const offset = (page - 1) * pageSize;
         const stats = await this.getStats();
         return { items: localOab.slice(offset, offset + pageSize), total: localOab.length, stats: { ...stats, oabLocal: localOab.length } };
@@ -456,26 +504,31 @@ export const questoesService = {
     }
 
     const catalog = await getLocalCatalog();
-    const stats = { totalDisponivel: catalog.totalDisponivel, totalExportado: catalog.totalExportado, amostraLocal: false };
+    const areaChunks = getCatalogChunks(catalog, filters);
+    const areaStats = getCatalogAreaStats(catalog, filters.area || "geral");
+    const stats = { totalDisponivel: areaStats.total || catalog.totalDisponivel, totalExportado: countCatalogChunks(areaChunks) || catalog.totalExportado, amostraLocal: false };
     const offset = (page - 1) * pageSize;
     const activeFilters = hasActiveFilters(filters);
 
-    if (!activeFilters) {
+    if (hasCatalogChunks(catalog) && !activeFilters) {
       const items = [];
-      for (const chunk of catalog.chunks) {
-        if (chunk.end < offset) continue;
-        if (chunk.start > offset + pageSize - 1) break;
+      let cursor = 0;
+      for (const chunk of areaChunks) {
+        const start = cursor;
+        const end = cursor + Number(chunk.count || 0) - 1;
+        cursor += Number(chunk.count || 0);
+        if (end < offset) continue;
+        if (start > offset + pageSize - 1) break;
         const rows = await getLocalChunk(chunk.path);
-        const start = Math.max(0, offset - chunk.start);
-        const end = Math.min(rows.length, offset + pageSize - chunk.start);
-        items.push(...rows.slice(start, end));
+        const sliceStart = Math.max(0, offset - start);
+        const sliceEnd = Math.min(rows.length, offset + pageSize - start);
+        items.push(...rows.slice(sliceStart, sliceEnd));
         if (items.length >= pageSize) break;
       }
-      return { items, total: catalog.totalExportado, stats };
+      return { items, total: countCatalogChunks(areaChunks), stats };
     }
 
-    const chunks = filters.materia ? catalog.chunks.filter((chunk) => normalize(chunk.materia).includes(normalize(filters.materia))) : catalog.chunks;
-    const candidateChunks = chunks.slice(0, FILTER_CHUNK_LIMIT);
+    const candidateChunks = areaChunks.slice(0, FILTER_CHUNK_LIMIT);
     const items = [];
     let matched = 0;
     for (const chunk of candidateChunks) {
@@ -492,17 +545,24 @@ export const questoesService = {
   },
   async getAll(filters = {}) {
     if (!isSupabaseConfigured) {
+      const limit = Number(filters.limit || 120);
+      const fromCatalog = await getLocalQuestoesFromCatalog(filters, limit);
+      if (fromCatalog.length) {
+        return this.filter(uniqueById([...fromCatalog, ...useQuestoesStore.getState().questoes]), filters).slice(0, limit);
+      }
       try {
         if (!localQuestoesCache) {
           const response = await fetch("/questoes/sample.json");
           if (!response.ok) throw new Error("Amostra local indisponível.");
           localQuestoesCache = (await response.json()).map(mapQuestao);
         }
-        return this.filter(localQuestoesCache, filters);
+        const local = this.filter(localQuestoesCache, filters);
+        if (local.length) return local.slice(0, limit);
       } catch {
-        const fallback = [...(await getLocalOabQuestions()), ...(await getLocalMilitarQuestions()), ...useQuestoesStore.getState().questoes];
-        return this.filter(fallback, filters);
+        // Fallback legado abaixo.
       }
+      const fallback = [...(await getLocalOabQuestions()), ...(await getLocalMilitarQuestions()), ...useQuestoesStore.getState().questoes];
+      return this.filter(fallback, filters).slice(0, limit);
     }
 
     let query = supabase.from("questoes").select("*").limit(filters.limit || 120);
@@ -537,14 +597,25 @@ export const questoesService = {
       if (data?.length) candidates.push(...data.map(mapQuestao));
     } else {
       try {
-        const response = await fetch("/questoes/sample.json");
-        if (response.ok) candidates.push(...(await response.json()).map(mapQuestao));
+        const catalog = await getLocalCatalog();
+        if (hasCatalogChunks(catalog)) {
+          const chunks = getCatalogChunks(catalog, filters);
+          for (const chunk of chunks) {
+            const rows = await getLocalChunk(chunk.path);
+            candidates.push(...rows.filter((row) => rowMatches(row, filters)));
+            if (candidates.length >= limit) break;
+          }
+        } else {
+          const response = await fetch("/questoes/sample.json");
+          if (response.ok) candidates.push(...(await response.json()).map(mapQuestao));
+        }
       } catch {
         // Os acervos oficiais abaixo continuam sendo carregados mesmo sem amostra local.
       }
     }
 
-    candidates.push(...(await getLocalOabQuestions()), ...(await getLocalMilitarQuestions()), ...useQuestoesStore.getState().questoes.map(mapQuestao));
+    if (!candidates.length) candidates.push(...(await getLocalOabQuestions()), ...(await getLocalMilitarQuestions()));
+    candidates.push(...useQuestoesStore.getState().questoes.map(mapQuestao));
     const rows = this.filter(uniqueById(candidates), filters).filter((questao) => {
       if (filters.apenasOficiais) return questao.official;
       return true;
@@ -553,15 +624,36 @@ export const questoesService = {
     return ordered.slice(0, limit);
   },
   async getMateriasPorArea(area = "geral") {
+    try {
+      const catalog = await getLocalCatalog();
+      if (hasCatalogChunks(catalog)) return Object.keys(getCatalogAreaStats(catalog, area).materias || {}).sort((a, b) => a.localeCompare(b, "pt-BR"));
+    } catch {
+      // O fallback abaixo preserva o comportamento anterior quando o catalogo nao existe.
+    }
     const questoes = await this.getQuestoes({ area, limit: 5000 });
     return [...new Set(questoes.map((questao) => questao.materia).filter(Boolean))].sort((a, b) => a.localeCompare(b, "pt-BR"));
   },
   async getStats() {
     if (isSupabaseConfigured) {
       const { count } = await supabase.from("questoes").select("id", { count: "exact", head: true });
+      if (count) return { totalDisponivel: count, amostraLocal: false };
+      try {
+        const catalog = await getLocalCatalog();
+        if (hasCatalogChunks(catalog)) {
+          return {
+            totalDisponivel: catalog.totalDisponivel || catalog.totalExportado || 0,
+            totalExportado: catalog.totalExportado || 0,
+            amostraLocal: true,
+            oabLocal: catalog.areas?.oab?.total || 0,
+            militarLocal: catalog.areas?.militar?.total || 0,
+          };
+        }
+      } catch {
+        // Fallback legado abaixo.
+      }
       const localOab = await getLocalOabQuestions();
       const localMilitar = await getLocalMilitarQuestions();
-      return { totalDisponivel: count || localOab.length + localMilitar.length || 0, amostraLocal: !count && (localOab.length > 0 || localMilitar.length > 0), oabLocal: localOab.length, militarLocal: localMilitar.length };
+      return { totalDisponivel: localOab.length + localMilitar.length || 0, amostraLocal: localOab.length > 0 || localMilitar.length > 0, oabLocal: localOab.length, militarLocal: localMilitar.length };
     }
     try {
       if (!localStatsCache) {
@@ -575,6 +667,12 @@ export const questoesService = {
     }
   },
   async getFilterOptions(filters = {}) {
+    try {
+      const catalog = await getLocalCatalog();
+      if (hasCatalogChunks(catalog)) return filterOptionsFromCatalog(catalog, filters);
+    } catch {
+      // O fallback abaixo preserva as opcoes a partir das fontes antigas.
+    }
     if (isSupabaseConfigured) {
       const area = filters.area || "geral";
       const rows = await this.getQuestoes({ area, limit: 10000 });
