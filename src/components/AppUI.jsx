@@ -77,10 +77,15 @@ export const Textarea = memo(({ label, maxLength, value = "", className = "", ..
 ));
 Textarea.displayName = "Textarea";
 
-export const Avatar = memo(({ name = "", size = "md", online = false }) => {
+export const Avatar = memo(({ name = "", src = "", size = "md", online = false }) => {
   const initials = name.split(" ").map((item) => item[0]).slice(0, 2).join("");
   const sizes = { sm: "size-8 text-xs", md: "size-10 text-sm", lg: "size-12 text-base" };
-  return <span className={cx("relative grid place-items-center rounded-[var(--aprova-radius-sm)] bg-[var(--aprova-blue-600)] font-black text-white", sizes[size])}>{initials}{online ? <i className="absolute -right-0.5 -top-0.5 size-3 rounded-full border-2 border-white bg-[var(--status-success)]" /> : null}</span>;
+  return (
+    <span className={cx("relative grid shrink-0 place-items-center overflow-hidden rounded-[var(--aprova-radius-sm)] bg-[var(--aprova-blue-600)] font-black text-white", sizes[size])}>
+      {src ? <img src={src} alt={name ? `Foto de ${name}` : "Foto de perfil"} className="h-full w-full object-cover" /> : initials}
+      {online ? <i className="absolute -right-0.5 -top-0.5 size-3 rounded-full border-2 border-white bg-[var(--status-success)]" /> : null}
+    </span>
+  );
 });
 Avatar.displayName = "Avatar";
 

@@ -1,12 +1,15 @@
 import { useCallback, useMemo, useState } from "react";
-import { Bell, BookOpenCheck, CalendarDays, Clock3, CreditCard, LogOut, Mail, MapPin, Moon, ShieldCheck, Sun, Target, UserRound } from "lucide-react";
+import { Bell, BookOpenCheck, CalendarDays, Camera, Clock3, CreditCard, LogOut, Mail, MapPin, Moon, ShieldCheck, Sun, Target, Upload, UserRound } from "lucide-react";
 import { Badge, Button, Card, ProgressBar, cx } from "../../components";
 import TourButton from "../../components/TourButton";
 import { useInternalRouter, useNotifications, usePreferences, useThemeMode, useUser } from "../../contexts";
 import { ProfileForm } from "../../forms";
+import { isSupabaseConfigured, supabase } from "../../lib/supabase";
 import { cancelCurrentSubscription, paymentPlans, startCheckout } from "../../services/paymentService";
 
 const adminShortcutEmails = new Set(["lucasmeireles591@gmail.com"]);
+const avatarTypes = new Set(["image/jpeg", "image/png", "image/webp"]);
+const avatarMaxBytes = 3 * 1024 * 1024;
 
 const tabs = [
   { key: "perfil", label: "Editar perfil" },
@@ -79,6 +82,12 @@ function ToggleButton({ active, children, onClick }) {
   );
 }
 
+function fileExtension(file) {
+  if (file.type === "image/png") return "png";
+  if (file.type === "image/webp") return "webp";
+  return "jpg";
+}
+
 export default function PerfilPage() {
   const { logout, user = {}, isAdmin, updateProfile, refreshProfile } = useUser();
   const { navigate } = useInternalRouter();
@@ -88,6 +97,7 @@ export default function PerfilPage() {
   const [activeTab, setActiveTab] = useState("perfil");
   const [loadingPlan, setLoadingPlan] = useState("");
   const [canceling, setCanceling] = useState(false);
+  const [avatarUploading, setAvatarUploading] = useState(false);
   const plan = user.diagnosticPlan || {};
 
   const save = useCallback((profile) => {
@@ -130,6 +140,45 @@ export default function PerfilPage() {
     }
   }, [addNotification, refreshProfile]);
 
+  const uploadAvatar = useCallback(async (event) => {
+    const file = event.target.files?.[0];
+    event.target.value = "";
+    if (!file) return;
+
+    if (!avatarTypes.has(file.type)) {
+      addNotification({ type: "error", title: "Formato inválido", message: "Use uma imagem JPG, PNG ou WebP." });
+      return;
+    }
+    if (file.size > avatarMaxBytes) {
+      addNotification({ type: "error", title: "Imagem muito grande", message: "Envie uma foto de até 3 MB." });
+      return;
+    }
+    if (!isSupabaseConfigured || !user.id) {
+      addNotification({ type: "error", title: "Upload indisponível", message: "Entre com uma conta Supabase para salvar sua foto." });
+      return;
+    }
+
+    try {
+      setAvatarUploading(true);
+      const path = `${user.id}/avatar-${Date.now()}.${fileExtension(file)}`;
+      const { error } = await supabase.storage.from("avatars").upload(path, file, {
+        cacheControl: "3600",
+        contentType: file.type,
+        upsert: true,
+      });
+      if (error) throw error;
+
+      const { data } = supabase.storage.from("avatars").getPublicUrl(path);
+      await updateProfile({ avatarUrl: data.publicUrl });
+      await refreshProfile?.();
+      addNotification({ type: "success", title: "Foto atualizada", message: "Seu avatar foi salvo no perfil." });
+    } catch (error) {
+      addNotification({ type: "error", title: "Não foi possível enviar", message: error.message || "Verifique o bucket avatars no Supabase." });
+    } finally {
+      setAvatarUploading(false);
+    }
+  }, [addNotification, refreshProfile, updateProfile, user.id]);
+
   const profileProgress = useMemo(() => {
     const fields = [
       user.name,
@@ -158,7 +207,15 @@ export default function PerfilPage() {
       <section className="profile-summary-card overflow-hidden rounded-lg border border-blue-200 bg-white text-slate-950 shadow-sm" data-tour="tour-profile-summary">
         <div className="grid gap-5 p-5 lg:grid-cols-[1fr_320px] lg:items-center">
           <div className="flex min-w-0 flex-col gap-4 sm:flex-row sm:items-center">
-            <div className="grid size-20 shrink-0 place-items-center rounded-lg border border-white/25 bg-white/15 text-2xl font-black text-white shadow-inner">{initials(user?.name)}</div>
+            <div className="relative shrink-0">
+              <div className="grid size-20 place-items-center overflow-hidden rounded-lg border border-white/25 bg-white/15 text-2xl font-black text-white shadow-inner">
+                {user?.avatarUrl ? <img src={user.avatarUrl} alt={`Foto de ${user?.name || "perfil"}`} className="h-full w-full object-cover" /> : initials(user?.name)}
+              </div>
+              <label className="absolute -bottom-2 -right-2 grid size-9 cursor-pointer place-items-center rounded-lg border border-white/30 bg-white text-blue-700 shadow-sm" title="Trocar foto">
+                <Camera size={17} />
+                <input className="sr-only" type="file" accept="image/jpeg,image/png,image/webp" onChange={uploadAvatar} />
+              </label>
+            </div>
             <div className="min-w-0">
               <div className="flex flex-wrap items-center gap-2">
                 <p className="text-xs font-black uppercase tracking-wide text-blue-100">Perfil do aluno</p>
@@ -225,6 +282,19 @@ export default function PerfilPage() {
             </div>
           </div>
           <ProfileForm user={user} onSave={save} />
+          <div className="mt-5 rounded-lg border border-blue-100 bg-blue-50 p-4">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <h3 className="font-black text-slate-950">Foto de perfil</h3>
+                <p className="mt-1 text-sm text-slate-600">JPG, PNG ou WebP, até 3 MB. No celular, você pode escolher câmera ou galeria.</p>
+              </div>
+              <label className={cx("inline-flex min-h-11 cursor-pointer items-center justify-center gap-2 rounded-lg bg-blue-600 px-4 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-500", avatarUploading && "pointer-events-none opacity-60")}>
+                <Upload size={16} />
+                {avatarUploading ? "Enviando..." : "Enviar foto"}
+                <input className="sr-only" type="file" accept="image/jpeg,image/png,image/webp" onChange={uploadAvatar} />
+              </label>
+            </div>
+          </div>
         </Card>
       ) : null}
 

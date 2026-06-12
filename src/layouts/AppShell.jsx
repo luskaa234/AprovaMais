@@ -171,7 +171,7 @@ const Topbar = memo(() => {
           onClick={() => navigate("perfil")}
           type="button"
         >
-          <Avatar name={user?.name} size="sm" />
+          <Avatar name={user?.name} src={user?.avatarUrl} size="sm" />
           <span className="min-w-0">
             <strong className="block truncate text-sm font-black">{user?.name?.split(" ")?.[0] || "Aluno"}</strong>
             <small className="block truncate text-[11px] font-semibold">{current?.label || "Dashboard"}</small>
@@ -272,7 +272,7 @@ const Topbar = memo(() => {
             onClick={() => navigate("perfil")}
             type="button"
           >
-            <Avatar name={user?.name} />
+            <Avatar name={user?.name} src={user?.avatarUrl} />
             <span className="hidden min-w-0 xl:block">
               <strong className="block max-w-32 truncate text-xs font-black">{user?.name || "Aluno"}</strong>
               <small className="block max-w-32 truncate text-[11px] font-semibold">{user?.targetContest || "Perfil"}</small>

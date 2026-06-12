@@ -17,6 +17,7 @@ const profileFieldMap = {
   emTeste: "em_teste",
   vitalicio: "vitalicio",
   tourCompleto: "tour_completo",
+  avatarUrl: "avatar_url",
 };
 
 const nullableDateFields = new Set(["data_prova", "plano_expira_em", "trial_inicio"]);
@@ -40,6 +41,7 @@ function toProfileUpdates(updates) {
     "onboarding_completo",
     "plano",
     "tour_completo",
+    "avatar_url",
   ]);
 
   return Object.entries(updates).reduce((mapped, [key, value]) => {
@@ -310,6 +312,7 @@ export function UserProvider({ children }) {
         planoExpiraEm: profile.plano_expira_em,
         emTeste: Boolean(profile.em_teste),
         vitalicio: Boolean(profile.vitalicio),
+        avatarUrl: profile.avatar_url || localUser.avatarUrl,
         tourCompleto: profile.tour_completo === true,
         targetContest: profile.concurso_alvo,
         dataProva: profile.data_prova,
@@ -368,6 +371,7 @@ export function UserProvider({ children }) {
         planoExpiraEm: null,
         emTeste: true,
         targetContest: "",
+        avatarUrl: authUser.user_metadata?.avatar_url || authUser.user_metadata?.picture,
         username: localUser.username,
         phone: localUser.phone,
         birthDate: localUser.birthDate,
@@ -401,6 +405,7 @@ export function UserProvider({ children }) {
         onboardingComplete: Boolean(localUser.onboardingComplete),
         tourCompleto: Boolean(localUser.tourCompleto),
         targetContest: localUser.targetContest,
+        avatarUrl: localUser.avatarUrl,
         dataProva: localUser.dataProva,
         nivel: localUser.nivel,
         horasSemanais: localUser.horasSemanais,
