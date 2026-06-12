@@ -2,6 +2,7 @@ import { lazy, Suspense, useEffect, useMemo, useState } from "react";
 import { BookOpen, CalendarCheck, ChevronRight, Clock, ClipboardList, Dumbbell, FileText, Flame, MessageCircleQuestion, Play, Target, X, Zap } from "lucide-react";
 import { AIPanel } from "../../ai";
 import { Badge, Button, Card, ProgressBar, cx } from "../../components";
+import { ASSISTENTE_ATIVO } from "../../config/features";
 import { useInternalRouter, useUser } from "../../contexts";
 import { isSupabaseConfigured, supabase } from "../../lib/supabase";
 import { aiService, questoesService } from "../../services";
@@ -333,14 +334,16 @@ export default function DashboardPage() {
           <h1 className="text-3xl font-black text-white">Dashboard</h1>
           <p className="text-sm text-gray-400">Panorama operacional do seu ciclo de estudos.</p>
         </div>
-        <div className="flex flex-wrap gap-2" data-tour="tour-dashboard-actions">
-          <Button icon={FileText} loading={gerandoRelatorio} onClick={handleRelatorio}>
-            Gerar relatorio IA
-          </Button>
-          <Button icon={MessageCircleQuestion} onClick={() => navigate("ia")}>
-            Abrir assistente
-          </Button>
-        </div>
+        {ASSISTENTE_ATIVO ? (
+          <div className="flex flex-wrap gap-2" data-tour="tour-dashboard-actions">
+            <Button icon={FileText} loading={gerandoRelatorio} onClick={handleRelatorio}>
+              Gerar relatorio IA
+            </Button>
+            <Button icon={MessageCircleQuestion} onClick={() => navigate("ia")}>
+              Abrir assistente
+            </Button>
+          </div>
+        ) : null}
       </div>
 
       {relatorio ? (

@@ -1,8 +1,10 @@
 import { isSupabaseConfigured, requireSupabase } from "../lib/supabase";
 import { montarContextoAluno } from "../ai/tutorPrompt";
+import { ASSISTENTE_ATIVO } from "../config/features";
 
 const modelName = "gemini-2.5-flash";
-let lastAIStatus = { source: isSupabaseConfigured ? "edge-ready" : "local-fallback", modelName, error: "" };
+const disabledMessage = "Assistente em breve. Recurso em desenvolvimento, sem chamadas de IA por enquanto.";
+let lastAIStatus = { source: ASSISTENTE_ATIVO ? (isSupabaseConfigured ? "edge-ready" : "local-fallback") : "disabled", modelName, error: "" };
 let edgeDisabledUntil = 0;
 
 function normalizeText(value = "") {
@@ -138,6 +140,11 @@ function cleanJsonText(text = "") {
 }
 
 async function invokeAI({ task = "chat", prompt = "", perfil = {}, desempenho = {}, responseFormat = "text", maxOutputTokens, cache = false, cacheKey = "", cacheTtlDays = 30, historico = [] }) {
+  if (!ASSISTENTE_ATIVO) {
+    lastAIStatus = { source: "disabled", modelName, error: "" };
+    return { text: disabledMessage, source: "disabled", model: modelName };
+  }
+
   if (!isSupabaseConfigured) {
     lastAIStatus = { source: "local-fallback", modelName, error: "Supabase não configurado" };
     return { text: localTutorResponse(prompt, perfil, desempenho), source: "local-fallback", model: modelName };
@@ -182,7 +189,8 @@ async function invokeAI({ task = "chat", prompt = "", perfil = {}, desempenho = 
 }
 
 export const aiService = {
-  isConfigured: isSupabaseConfigured,
+  isConfigured: ASSISTENTE_ATIVO && isSupabaseConfigured,
+  isEnabled: ASSISTENTE_ATIVO,
   modelName: "Edge Function + Gemini",
   getStatus() {
     return lastAIStatus;
@@ -207,6 +215,11 @@ export const aiService = {
   },
 
   async enviarMensagem(mensagem, historico = [], perfil = {}, desempenho = {}) {
+    if (!ASSISTENTE_ATIVO) {
+      lastAIStatus = { source: "disabled", modelName, error: "" };
+      return disabledMessage;
+    }
+
     if (isDeterministicQuestion(mensagem)) {
       lastAIStatus = { source: "code", modelName, error: "" };
       return localTutorResponse(mensagem, perfil, desempenho);
@@ -224,6 +237,11 @@ export const aiService = {
   },
 
   async gerarRelatorio(perfil, desempenho, tipo = "geral") {
+    if (!ASSISTENTE_ATIVO) {
+      lastAIStatus = { source: "disabled", modelName, error: "" };
+      return disabledMessage;
+    }
+
     const context = buildCompactContext(perfil, desempenho);
     if (!context.desempenho.questoesResolvidas) {
       lastAIStatus = { source: "code", modelName, error: "" };

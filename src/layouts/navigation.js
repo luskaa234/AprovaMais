@@ -1,4 +1,5 @@
 import { AlertTriangle, BookOpen, CalendarDays, ClipboardList, Dumbbell, GitBranch, GraduationCap, LayoutDashboard, Layers, Library, LifeBuoy, PenLine, RefreshCw, Scale, Shield, User } from "lucide-react";
+import { ASSISTENTE_ATIVO } from "../config/features";
 
 export const navItems = [
   { key: "dashboard", label: "Dashboard", icon: LayoutDashboard, tourId: "tour-dashboard" },
@@ -14,8 +15,8 @@ export const navItems = [
   { key: "erros", label: "Caderno de erros", icon: AlertTriangle },
   { key: "biblioteca", label: "Biblioteca", icon: Library },
   { key: "leis", label: "Leis secas", icon: Scale, tourId: "tour-leis" },
-  { key: "ia", label: "Assistente", icon: GraduationCap, tourId: "tour-aprovinho" },
+  ASSISTENTE_ATIVO ? { key: "ia", label: "Assistente", icon: GraduationCap, tourId: "tour-aprovinho" } : null,
   { key: "perfil", label: "Perfil", icon: User, tourId: "tour-perfil" },
   { key: "ajuda", label: "Ajuda", icon: LifeBuoy, tourId: "tour-ajuda" },
   { key: "admin", label: "Admin", icon: Shield },
-];
+].filter(Boolean);
