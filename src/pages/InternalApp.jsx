@@ -1,58 +1,51 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { useEffect, useMemo, useState } from "react";
+import { lazy, Suspense, useEffect, useMemo, useState } from "react";
 import { CreditCard, LockKeyhole, LogOut, ShieldCheck, Wrench } from "lucide-react";
 import Onboarding from "./Onboarding";
 import { InternalRouterProvider, useInternalRouter, useUser } from "../contexts";
 import { useOnboarding } from "../hooks/useOnboarding";
 import { AppShell } from "../layouts";
-import { AdminLayout } from "../admin";
 import { Button } from "../components";
 import { isSupabaseConfigured } from "../lib/supabase";
 import { adminService } from "../services";
 import { paymentPlans, startCheckout } from "../services/paymentService";
-import {
-  AjudaPage,
-  BibliotecaPage,
-  CadernoErrosPage,
-  DashboardPage,
-  FlashcardsPage,
-  IAPage,
-  LeisSecasPage,
-  MapasMentaisPage,
-  OABPage,
-  PerfilPage,
-  PlanoPage,
-  QuestoesPage,
-  RedacaoPage,
-  RevisaoPage,
-  SimuladosPage,
-  TAFPage,
-} from "./index";
 
+const DashboardPage = lazy(() => import("./Dashboard"));
 const views = {
   dashboard: DashboardPage,
-  oab: OABPage,
-  questoes: QuestoesPage,
-  simulados: SimuladosPage,
-  taf: TAFPage,
-  plano: PlanoPage,
-  revisao: RevisaoPage,
-  flashcards: FlashcardsPage,
-  mapas: MapasMentaisPage,
-  redacao: RedacaoPage,
-  erros: CadernoErrosPage,
-  biblioteca: BibliotecaPage,
-  leis: LeisSecasPage,
-  ia: IAPage,
-  perfil: PerfilPage,
-  ajuda: AjudaPage,
-  admin: AdminLayout,
+  oab: lazy(() => import("./OAB")),
+  questoes: lazy(() => import("./Questoes")),
+  simulados: lazy(() => import("./Simulados")),
+  taf: lazy(() => import("./TAF")),
+  plano: lazy(() => import("./Plano")),
+  revisao: lazy(() => import("./Revisao")),
+  flashcards: lazy(() => import("./Flashcards")),
+  mapas: lazy(() => import("./MapasMentais")),
+  redacao: lazy(() => import("./Redacao")),
+  erros: lazy(() => import("./CadernoErros")),
+  biblioteca: lazy(() => import("./Biblioteca")),
+  leis: lazy(() => import("./LeisSecas")),
+  ia: lazy(() => import("./IA")),
+  perfil: lazy(() => import("./Perfil")),
+  ajuda: lazy(() => import("./Ajuda")),
+  admin: lazy(() => import("../admin/AdminLayout").then((module) => ({ default: module.AdminLayout }))),
 };
 
 function OnboardingBootstrap() {
   const { navigate } = useInternalRouter();
   useOnboarding({ navigate });
   return null;
+}
+
+function PageFallback() {
+  return (
+    <div className="grid min-h-[60vh] place-items-center text-center text-white">
+      <div>
+        <div className="mx-auto mb-4 size-10 animate-spin rounded-full border-2 border-blue-500 border-t-transparent" />
+        <p className="text-sm text-gray-300">Carregando tela...</p>
+      </div>
+    </div>
+  );
 }
 
 function isOabFocus(user) {
@@ -233,7 +226,9 @@ function InternalRoutes() {
       <OnboardingBootstrap />
       <AnimatePresence mode="wait">
         <motion.div key={`${route}-${refreshToken}`} {...pageMotion}>
-          <View />
+          <Suspense fallback={<PageFallback />}>
+            <View />
+          </Suspense>
         </motion.div>
       </AnimatePresence>
     </AppShell>

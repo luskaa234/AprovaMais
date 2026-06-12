@@ -4,9 +4,6 @@ import './index.css'
 import './landing-light.css'
 import './lib/zodConfig.js'
 import App from './App.jsx'
-import { initApp } from './lib/initApp.js'
-
-initApp()
 
 if (import.meta.env.PROD && "serviceWorker" in navigator && (window.location.protocol === "https:" || window.location.hostname === "localhost")) {
   window.addEventListener("load", () => {
