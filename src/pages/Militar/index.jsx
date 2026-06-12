@@ -1,6 +1,6 @@
 import { useCallback, useMemo, useState } from "react";
 import { BarChart3, BookOpen, ClipboardList, FileText, Library, Search, Shield, Target } from "lucide-react";
-import { Badge, Button, Card, EmptyState, Input, ProgressBar, Select, Tabs } from "../../components";
+import { Badge, Button, Card, DashboardSkeleton, EmptyState, Input, ProgressBar, Select, Tabs } from "../../components";
 import { useAsyncData } from "../../hooks";
 import { militarService } from "../../services/militarService";
 import { useInternalRouter, useUser } from "../../contexts";
@@ -165,7 +165,7 @@ export default function MilitarPage() {
   const load = useCallback(() => militarService.getKnowledgeBase(user), [user]);
   const { data, isLoading, error } = useAsyncData(load);
 
-  if (isLoading) return <div className="h-72 animate-pulse rounded-lg bg-gray-900" />;
+  if (isLoading) return <DashboardSkeleton embedded label="Carregando base militar" />;
   if (error || !data?.stats) return <EmptyState icon={Shield} title="Base militar indisponível" description="Rode npm run miner:militar para construir a biblioteca militar." />;
 
   const { materials, questions, disciplines, stats, assets } = data;

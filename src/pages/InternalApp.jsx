@@ -5,7 +5,7 @@ import Onboarding from "./Onboarding";
 import { InternalRouterProvider, useInternalRouter, useUser } from "../contexts";
 import { useOnboarding } from "../hooks/useOnboarding";
 import { AppShell } from "../layouts";
-import { Button } from "../components";
+import { Button, DashboardSkeleton } from "../components";
 import { isSupabaseConfigured } from "../lib/supabase";
 import { adminService } from "../services";
 import { paymentPlans, startCheckout } from "../services/paymentService";
@@ -38,14 +38,7 @@ function OnboardingBootstrap() {
 }
 
 function PageFallback() {
-  return (
-    <div className="grid min-h-[60vh] place-items-center text-center text-white">
-      <div>
-        <div className="mx-auto mb-4 size-10 animate-spin rounded-full border-2 border-blue-500 border-t-transparent" />
-        <p className="text-sm text-gray-300">Carregando tela...</p>
-      </div>
-    </div>
-  );
+  return <DashboardSkeleton embedded label="Carregando tela" />;
 }
 
 function isOabFocus(user) {
@@ -198,16 +191,7 @@ function InternalRoutes() {
     };
   }, [direction, isMobile]);
 
-  if (isLoading) {
-    return (
-      <div className="grid min-h-screen place-items-center bg-gray-950 p-6 text-center text-white">
-        <div>
-          <div className="mx-auto mb-4 size-10 animate-spin rounded-full border-2 border-blue-500 border-t-transparent" />
-          <p className="text-sm text-gray-300">Carregando sua área de estudos...</p>
-        </div>
-      </div>
-    );
-  }
+  if (isLoading) return <DashboardSkeleton label="Carregando sua area de estudos" />;
 
   if (maintenance.enabled && user?.role !== "admin" && route !== "admin") {
     return <MaintenanceGate message={maintenance.message} />;

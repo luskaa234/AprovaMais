@@ -12,6 +12,8 @@ const PerformanceChart = lazy(() => import("../../charts").then((module) => ({ d
 const StudyTimeChart = lazy(() => import("../../charts").then((module) => ({ default: module.StudyTimeChart })));
 const HeatmapCalendar = lazy(() => import("../../charts").then((module) => ({ default: module.HeatmapCalendar })));
 
+const EMPTY_ARRAY = [];
+
 const KpiCard = ({ label, value, icon: Icon }) => (
   <Card>
     <Icon className="mb-4 text-blue-600" />
@@ -170,7 +172,7 @@ export default function DashboardPage() {
   const tentativas = useQuestoesStore((state) => state.tentativas);
   const questoes = useQuestoesStore((state) => state.questoes);
   const rankingLocal = useRankingStore((state) => state.ranking);
-  const revisoesLocal = useRevisaoStore((state) => state.pendentesHoje);
+  const revisoesLocais = useRevisaoStore((state) => state.revisoes);
   const progressoPorDisciplina = usePlanoStore((state) => state.progressoPorDisciplina);
   const usingSupabaseUser = isSupabaseConfigured && Boolean(user?.id);
   const [remote, setRemote] = useState({ profile: null, ranking: null, revisoes: null, performance: null, tentativas: null });
@@ -179,8 +181,13 @@ export default function DashboardPage() {
   const [materiasDoPerfil, setMateriasDoPerfil] = useState([]);
   const [chartsReady, setChartsReady] = useState(false);
   const diagnosticPlan = user?.diagnosticPlan;
+  const hojeDashboard = new Date().toISOString().slice(0, 10);
   const objectiveContent = useMemo(() => getObjectiveContent(user), [user]);
   const objectiveArea = useMemo(() => questoesService.resolveAreaFromUser(user), [user]);
+  const revisoesLocal = useMemo(
+    () => revisoesLocais.filter((item) => item.proximaRevisao <= hojeDashboard),
+    [hojeDashboard, revisoesLocais]
+  );
 
   const localPerformance = useMemo(() => {
     const labels = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sab"];
@@ -267,15 +274,15 @@ export default function DashboardPage() {
     };
   }, [objectiveArea]);
 
-  const activeTentativas = useMemo(() => (usingSupabaseUser ? (remote.tentativas || []) : tentativas), [remote.tentativas, tentativas, usingSupabaseUser]);
+  const activeTentativas = useMemo(() => (usingSupabaseUser ? (remote.tentativas || EMPTY_ARRAY) : tentativas), [remote.tentativas, tentativas, usingSupabaseUser]);
   const tempo = useMemo(() => {
     if (usingSupabaseUser) return [];
     return Object.entries(progressoPorDisciplina).map(([label, valor]) => ({ label, valor }));
   }, [progressoPorDisciplina, usingSupabaseUser]);
   const stats = remote.profile || user.rawStats || {};
-  const revisoes = usingSupabaseUser ? (remote.revisoes || []) : revisoesLocal;
-  const ranking = usingSupabaseUser ? (remote.ranking || []) : rankingLocal;
-  const performance = usingSupabaseUser ? (remote.performance || []) : localPerformance;
+  const revisoes = usingSupabaseUser ? (remote.revisoes || EMPTY_ARRAY) : revisoesLocal;
+  const ranking = usingSupabaseUser ? (remote.ranking || EMPTY_ARRAY) : rankingLocal;
+  const performance = usingSupabaseUser ? (remote.performance || EMPTY_ARRAY) : localPerformance;
   const questoesResolvidas = activeTentativas.length;
   const acertos = activeTentativas.filter((item) => item.acertou).length;
   const taxaAcertos = questoesResolvidas ? Math.round((acertos / questoesResolvidas) * 100) : 0;

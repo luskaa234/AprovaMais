@@ -1,6 +1,6 @@
 import { useCallback, useMemo, useState } from "react";
 import { BarChart3, BookOpen, CalendarDays, ClipboardList, FileText, GraduationCap, Layers, Library, Search, Sparkles, Target } from "lucide-react";
-import { Badge, Button, Card, EmptyState, Input, ProgressBar, Select, Tabs } from "../../components";
+import { Badge, Button, Card, DashboardSkeleton, EmptyState, Input, ProgressBar, Select, Tabs } from "../../components";
 import { useAsyncData } from "../../hooks";
 import { oabService } from "../../services";
 import { useInternalRouter, useUser } from "../../contexts";
@@ -323,7 +323,7 @@ export default function OABPage() {
   const { data, isLoading, error } = useAsyncData(load);
 
   if (isLoading) {
-    return <div className="h-72 animate-pulse rounded-lg bg-gray-900" />;
+    return <DashboardSkeleton embedded label="Carregando base OAB" />;
   }
 
   if (error || !data?.stats) {

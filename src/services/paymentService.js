@@ -21,7 +21,15 @@ export const paymentPlans = {
   },
 };
 
-const checkoutEndpoint = import.meta.env.VITE_PAYMENT_CHECKOUT_ENDPOINT || (import.meta.env.PROD ? "/api/create-checkout" : "");
+const apiBaseUrl = String(import.meta.env.VITE_API_URL || "").replace(/\/+$/, "");
+
+function resolveApiUrl(endpoint) {
+  if (!endpoint || /^https?:\/\//i.test(endpoint)) return endpoint;
+  if (!apiBaseUrl) return endpoint;
+  return `${apiBaseUrl}${endpoint.startsWith("/") ? endpoint : `/${endpoint}`}`;
+}
+
+const checkoutEndpoint = resolveApiUrl(import.meta.env.VITE_PAYMENT_CHECKOUT_ENDPOINT || (import.meta.env.PROD ? "/api/create-checkout" : ""));
 const mpPublicKey = import.meta.env.VITE_MP_PUBLIC_KEY;
 
 function openCheckoutModal(planId) {

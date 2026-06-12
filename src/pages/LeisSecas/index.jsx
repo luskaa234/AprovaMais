@@ -15,7 +15,7 @@ import {
   Sparkles,
   X,
 } from "lucide-react";
-import { Badge, Button, Card, EmptyState, Input, Textarea, cx } from "../../components";
+import { Badge, Button, Card, DashboardSkeleton, EmptyState, Input, Textarea, cx } from "../../components";
 import { useInternalRouter, useNotifications, useUser } from "../../contexts";
 import { useAsyncData } from "../../hooks";
 import { leisService } from "../../services";
@@ -33,6 +33,8 @@ const highlightColors = {
   green: "#BFF3D9",
   pink: "#FFD2E0",
 };
+
+const EMPTY_LEITURA = {};
 
 const importantByLaw = {
   cf88: {
@@ -218,7 +220,7 @@ export default function LeisSecasPage() {
   const notas = useLeisStore((state) => state.notas);
   const grifos = useLeisStore((state) => state.grifos);
   const favoritos = useLeisStore((state) => state.favoritos);
-  const leitura = useLeisStore((state) => state.leitura || {});
+  const leitura = useLeisStore((state) => state.leitura || EMPTY_LEITURA);
   const salvarNota = useLeisStore((state) => state.salvarNota);
   const grifarArtigo = useLeisStore((state) => state.grifarArtigo);
   const removerGrifo = useLeisStore((state) => state.removerGrifo);
@@ -397,7 +399,7 @@ export default function LeisSecasPage() {
     }
   }, [selectedArticle, user]);
 
-  if (isLoading) return <div className="h-96 animate-pulse rounded-lg bg-blue-100" />;
+  if (isLoading) return <DashboardSkeleton embedded label="Carregando leis secas" />;
 
   const readerHtml = selectedArticle ? formatArticleHtml(selectedArticle, articleMarks, query) : "";
 
@@ -414,6 +416,11 @@ export default function LeisSecasPage() {
             <span>{levelTitle(level)}</span>
             <h1>Lei seca para estudar</h1>
           </div>
+        </div>
+        <div className="leis-study-meta" aria-label="Resumo da lei selecionada">
+          <span>{selectedLaw?.displayTotal || `${allArticles.length} artigos`}</span>
+          <strong>{selectedLaw?.progress || 0}% lido</strong>
+          <span>{selectedLaw?.hotCount || hotArticles.length} cobrancas</span>
         </div>
         <Input icon={Search} placeholder="Buscar lei, artigo ou palavra..." value={query} onChange={(event) => setQuery(event.target.value)} />
       </header>
@@ -493,6 +500,11 @@ export default function LeisSecasPage() {
         <section className={cx("leis-layer leis-reader-layer", level === "reader" && "is-current")}>
           {selectedArticle ? (
             <>
+              <div className="leis-reader-kicker">
+                <span>{selectedArticle.materia}</span>
+                <span>{selectedArticle.cobrancas || 0} questoes</span>
+                {leitura[selectedArticle.id] ? <span>Lido</span> : null}
+              </div>
               <div className="leis-reader-header">
                 <div>
                   <div className="leis-breadcrumb">{selectedArticle.leiCurta} &gt; {selectedArticle.capitulo}</div>
