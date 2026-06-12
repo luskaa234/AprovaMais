@@ -15956,6 +15956,12 @@ button {
   will-change: auto !important;
 }
 
+.flashcard-standard-card.flashcard-flip-inner.is-flipped,
+.flashcard-swipe-card.flashcard-flip-inner.is-flipped,
+.flashcard-swipe-card.flashcard-flip-inner.flashcard-standard-card.is-flipped {
+  transform: none !important;
+}
+
 .flashcard-standard-card .flashcard-flip-face,
 .flashcard-swipe-card.flashcard-flip-inner .flashcard-flip-face {
   position: relative !important;
@@ -15965,6 +15971,12 @@ button {
   transform: none !important;
   backface-visibility: visible !important;
   -webkit-backface-visibility: visible !important;
+}
+
+.flashcard-standard-card.flashcard-flip-inner .flashcard-flip-back,
+.flashcard-swipe-card.flashcard-flip-inner .flashcard-flip-back,
+.flashcard-swipe-card.flashcard-flip-inner.flashcard-standard-card .flashcard-flip-back {
+  transform: none !important;
 }
 
 .flashcard-standard-card:not(.is-flipped) .flashcard-flip-front,
