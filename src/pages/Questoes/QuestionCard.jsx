@@ -2,6 +2,7 @@ import { memo, useCallback, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { AlertTriangle, Bookmark, BookmarkCheck, CheckCircle2, Flag, Lightbulb, XCircle } from "lucide-react";
 import { Badge, Button, Card, cx } from "../../components";
+import { aiService } from "../../services";
 
 const difficultyVariant = {
   facil: "success",
@@ -21,12 +22,15 @@ export const QuestionCard = memo(({ questao, index = 0, saved = false, inErrorBo
   const [selected, setSelected] = useState(null);
   const [confirmed, setConfirmed] = useState(false);
   const [result, setResult] = useState(null);
+  const [aiExplanation, setAiExplanation] = useState("");
+  const [explaining, setExplaining] = useState(false);
   const cardRef = useRef(null);
 
   const handleAnswer = useCallback((id) => {
     setSelected(id);
     setConfirmed(false);
     setResult(null);
+    setAiExplanation("");
   }, []);
 
   const confirmAnswer = useCallback(async () => {
@@ -40,6 +44,18 @@ export const QuestionCard = memo(({ questao, index = 0, saved = false, inErrorBo
     const next = cardRef.current?.nextElementSibling;
     next?.scrollIntoView({ behavior: "smooth", block: "start" });
   }, []);
+  const explainWithAI = useCallback(async () => {
+    if (explaining) return;
+    setExplaining(true);
+    try {
+      const text = await aiService.explicarQuestao(questao, selected, questao.comentario);
+      setAiExplanation(text);
+    } catch {
+      setAiExplanation("Nao consegui gerar a explicacao agora. Tente novamente em instantes.");
+    } finally {
+      setExplaining(false);
+    }
+  }, [explaining, questao, selected]);
 
   const isCorrect = result?.correta ?? selected === questao.gabarito;
   const difficulty = String(questao.dificuldade || "medio").toLowerCase();
@@ -102,6 +118,7 @@ export const QuestionCard = memo(({ questao, index = 0, saved = false, inErrorBo
             </Button>
           ) : null}
           <Button variant="ghost" icon={Flag} onClick={() => onReport(questao.id)}>Reportar</Button>
+          {confirmed ? <Button variant="secondary" icon={Lightbulb} loading={explaining} onClick={explainWithAI}>Aprovinho explica</Button> : null}
           {confirmed ? <Button variant="secondary" onClick={goNext}>Próxima questão</Button> : null}
         </div>
 
@@ -118,10 +135,10 @@ export const QuestionCard = memo(({ questao, index = 0, saved = false, inErrorBo
                 </div>
               </div>
             </div>
-            <div className="rounded-lg border-l-4 border-blue-500 bg-blue-50 p-4 text-sm text-slate-700">
+            {aiExplanation ? <div className="rounded-lg border-l-4 border-blue-500 bg-blue-50 p-4 text-sm text-slate-700">
               <p className="flex items-center gap-2 font-bold"><Lightbulb size={17} />Análise da IA</p>
-              <p className="mt-1 leading-relaxed">Revise {questao.materiaLabel || questao.materia}, compare o comando da banca com o gabarito e refaça mais 5 questões do mesmo tema antes de avançar.</p>
-            </div>
+              <p className="mt-1 whitespace-pre-wrap leading-relaxed">{aiExplanation}</p>
+            </div> : null}
           </motion.div>
         ) : null}
       </div>

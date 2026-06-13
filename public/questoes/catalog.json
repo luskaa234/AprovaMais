@@ -1,7 +1,7 @@
 {
   "chunkSize": 100,
-  "totalDisponivel": 4376,
-  "totalExportado": 4376,
+  "totalDisponivel": 4414,
+  "totalExportado": 4414,
   "chunks": [
     {
       "path": "/questoes/chunks/oab-direito-administrativo-001.json",
@@ -367,153 +367,153 @@
       "path": "/questoes/chunks/militar-historia-geografia-e-atualidades-001.json",
       "area": "militar",
       "materia": "Historia, Geografia e Atualidades",
-      "count": 81,
+      "count": 94,
       "start": 3145,
-      "end": 3225
+      "end": 3238
     },
     {
       "path": "/questoes/chunks/militar-informatica-001.json",
       "area": "militar",
       "materia": "Informatica",
       "count": 46,
-      "start": 3226,
-      "end": 3271
+      "start": 3239,
+      "end": 3284
     },
     {
       "path": "/questoes/chunks/militar-legislacao-especial-001.json",
       "area": "militar",
       "materia": "Legislacao Especial",
       "count": 100,
-      "start": 3272,
-      "end": 3371
+      "start": 3285,
+      "end": 3384
     },
     {
       "path": "/questoes/chunks/militar-legislacao-especial-002.json",
       "area": "militar",
       "materia": "Legislacao Especial",
       "count": 31,
-      "start": 3372,
-      "end": 3402
+      "start": 3385,
+      "end": 3415
     },
     {
       "path": "/questoes/chunks/militar-legislacao-especial-penal-e-processual-penal-001.json",
       "area": "militar",
       "materia": "Legislacao Especial, Penal e Processual Penal",
       "count": 68,
-      "start": 3403,
-      "end": 3470
+      "start": 3416,
+      "end": 3483
     },
     {
       "path": "/questoes/chunks/militar-legislacao-pm-e-direito-militar-001.json",
       "area": "militar",
       "materia": "Legislacao PM e Direito Militar",
       "count": 70,
-      "start": 3471,
-      "end": 3540
+      "start": 3484,
+      "end": 3553
     },
     {
       "path": "/questoes/chunks/militar-lingua-estrangeira-001.json",
       "area": "militar",
       "materia": "Lingua Estrangeira",
       "count": 9,
-      "start": 3541,
-      "end": 3549
+      "start": 3554,
+      "end": 3562
     },
     {
       "path": "/questoes/chunks/militar-matematica-001.json",
       "area": "militar",
       "materia": "Matematica",
       "count": 55,
-      "start": 3550,
-      "end": 3604
+      "start": 3563,
+      "end": 3617
     },
     {
       "path": "/questoes/chunks/militar-matematica-e-raciocinio-logico-001.json",
       "area": "militar",
       "materia": "Matematica e Raciocinio Logico",
-      "count": 73,
-      "start": 3605,
-      "end": 3677
+      "count": 83,
+      "start": 3618,
+      "end": 3700
     },
     {
       "path": "/questoes/chunks/militar-medicina-legal-001.json",
       "area": "militar",
       "materia": "Medicina Legal",
       "count": 7,
-      "start": 3678,
-      "end": 3684
+      "start": 3701,
+      "end": 3707
     },
     {
       "path": "/questoes/chunks/militar-nocoes-de-direito-001.json",
       "area": "militar",
       "materia": "Nocoes de Direito",
       "count": 19,
-      "start": 3685,
-      "end": 3703
+      "start": 3708,
+      "end": 3726
     },
     {
       "path": "/questoes/chunks/militar-nocoes-de-direito-e-sociologia-001.json",
       "area": "militar",
       "materia": "Nocoes de Direito e Sociologia",
       "count": 25,
-      "start": 3704,
-      "end": 3728
+      "start": 3727,
+      "end": 3751
     },
     {
       "path": "/questoes/chunks/militar-portugues-001.json",
       "area": "militar",
       "materia": "Portugues",
       "count": 100,
-      "start": 3729,
-      "end": 3828
+      "start": 3752,
+      "end": 3851
     },
     {
       "path": "/questoes/chunks/militar-portugues-002.json",
       "area": "militar",
       "materia": "Portugues",
       "count": 100,
-      "start": 3829,
-      "end": 3928
+      "start": 3852,
+      "end": 3951
     },
     {
       "path": "/questoes/chunks/militar-portugues-003.json",
       "area": "militar",
       "materia": "Portugues",
       "count": 100,
-      "start": 3929,
-      "end": 4028
+      "start": 3952,
+      "end": 4051
     },
     {
       "path": "/questoes/chunks/militar-portugues-004.json",
       "area": "militar",
       "materia": "Portugues",
       "count": 100,
-      "start": 4029,
-      "end": 4128
+      "start": 4052,
+      "end": 4151
     },
     {
       "path": "/questoes/chunks/militar-portugues-005.json",
       "area": "militar",
       "materia": "Portugues",
       "count": 100,
-      "start": 4129,
-      "end": 4228
+      "start": 4152,
+      "end": 4251
     },
     {
       "path": "/questoes/chunks/militar-portugues-006.json",
       "area": "militar",
       "materia": "Portugues",
       "count": 100,
-      "start": 4229,
-      "end": 4328
+      "start": 4252,
+      "end": 4351
     },
     {
       "path": "/questoes/chunks/militar-portugues-007.json",
       "area": "militar",
       "materia": "Portugues",
-      "count": 47,
-      "start": 4329,
-      "end": 4375
+      "count": 62,
+      "start": 4352,
+      "end": 4413
     }
   ],
   "materias": {
@@ -540,15 +540,15 @@
     "Direito Previdenciario": 64,
     "OAB - Prova objetiva": 20,
     "Conhecimentos Gerais": 55,
-    "Portugues": 647,
+    "Portugues": 662,
     "Direito Processual Penal": 95,
-    "Historia, Geografia e Atualidades": 81,
+    "Historia, Geografia e Atualidades": 94,
     "Informatica": 46,
     "Legislacao Especial": 131,
     "Medicina Legal": 7,
     "Criminologia": 18,
     "Matematica": 55,
-    "Matematica e Raciocinio Logico": 73,
+    "Matematica e Raciocinio Logico": 83,
     "Nocoes de Direito e Sociologia": 25,
     "Lingua Estrangeira": 9,
     "Atualidades": 7,
@@ -561,17 +561,18 @@
   "bancas": {
     "FGV": 3779,
     "Cebraspe": 301,
-    "FCC": 16,
+    "FCC": 54,
     "IBFC": 76,
     "SELECON": 58,
     "NUCEPE/UESPI": 49,
     "Vunesp": 97
   },
   "dificuldades": {
-    "medio": 4295,
+    "medio": 4333,
     "dificil": 81
   },
   "anos": {
+    "2006": 38,
     "2017": 206,
     "2018": 186,
     "2021": 717,
@@ -3145,7 +3146,10 @@
     "2010-2o Exame OAB - Questao 97": 1,
     "2010-2o Exame OAB - Questao 98": 1,
     "2010-2o Exame OAB - Questao 99": 1,
-    "2010-2o Exame OAB - Questao 100": 1
+    "2010-2o Exame OAB - Questao 100": 1,
+    "L?ngua Portuguesa": 15,
+    "Matem?tica e Racioc?nio L?gico": 10,
+    "Hist?ria, Geografia e Atualidades": 13
   },
   "concursos": {
     "OAB": 2565,
@@ -3167,11 +3171,12 @@
     "PMPB": 72,
     "PMPI": 49,
     "PMSP": 336,
-    "PMTO": 39
+    "PMTO": 39,
+    "PM-MA Soldado Combatente 2006": 38
   },
   "areas": {
     "geral": {
-      "total": 4376,
+      "total": 4414,
       "materias": {},
       "bancas": {},
       "dificuldades": {},
@@ -3216,22 +3221,22 @@
       }
     },
     "militar": {
-      "total": 1811,
+      "total": 1849,
       "materias": {
         "Direito Administrativo": 164,
         "Conhecimentos Gerais": 55,
-        "Portugues": 647,
+        "Portugues": 662,
         "Direito Constitucional": 36,
         "Direito Penal": 101,
         "Direito Processual Penal": 95,
-        "Historia, Geografia e Atualidades": 81,
+        "Historia, Geografia e Atualidades": 94,
         "Informatica": 46,
         "Legislacao Especial": 131,
         "Medicina Legal": 7,
         "Criminologia": 18,
         "Direitos Humanos": 55,
         "Matematica": 55,
-        "Matematica e Raciocinio Logico": 73,
+        "Matematica e Raciocinio Logico": 83,
         "Nocoes de Direito e Sociologia": 25,
         "Lingua Estrangeira": 9,
         "Atualidades": 7,
@@ -3244,17 +3249,18 @@
       "bancas": {
         "Cebraspe": 301,
         "FGV": 1214,
-        "FCC": 16,
+        "FCC": 54,
         "IBFC": 76,
         "SELECON": 58,
         "NUCEPE/UESPI": 49,
         "Vunesp": 97
       },
       "dificuldades": {
-        "medio": 1730,
+        "medio": 1768,
         "dificil": 81
       },
       "anos": {
+        "2006": 38,
         "2017": 206,
         "2018": 186,
         "2021": 717,
@@ -3282,7 +3288,8 @@
         "PMPB": 72,
         "PMPI": 49,
         "PMSP": 336,
-        "PMTO": 39
+        "PMTO": 39,
+        "PM-MA Soldado Combatente 2006": 38
       }
     }
   },
@@ -3296,8 +3303,8 @@
     {
       "arquivo": "militar.json",
       "area": "militar",
-      "total": 1811,
-      "exportado": 1811
+      "total": 1849,
+      "exportado": 1849
     }
   ]
 }

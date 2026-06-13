@@ -2,9 +2,9 @@ import { useCallback, useDeferredValue, useEffect, useMemo, useRef, useState } f
 import { Bookmark, Brain, CalendarCheck, Download, Edit3, FileQuestion, FileText, Maximize2, Minus, Plus, Printer, Search, Share2, Trash2, X } from "lucide-react";
 import { Badge, Button, Card, EmptyState, Input, Select, cx } from "../../components";
 import { Modal } from "../../modals";
-import { useNotifications } from "../../contexts";
+import { useInternalRouter, useNotifications } from "../../contexts";
 import { useAsyncData } from "../../hooks";
-import { mapasService } from "../../services";
+import { aiService, flashcardsService, mapasService, questoesService } from "../../services";
 
 const levelOptions = ["Básico", "Intermediário", "Avançado"];
 const tabs = ["Todos", "Favoritos", "Recentes", "Meus mapas", "Plataforma"];
@@ -216,6 +216,7 @@ export default function MapasMentaisPage() {
   const load = useCallback(() => mapasService.getMapas(), []);
   const { data: source = [] } = useAsyncData(load);
   const { addNotification } = useNotifications();
+  const { navigate } = useInternalRouter();
   const [query, setQuery] = useState("");
   const deferredQuery = useDeferredValue(query);
   const [tab, setTab] = useState("Todos");
@@ -230,6 +231,8 @@ export default function MapasMentaisPage() {
   const [full, setFull] = useState(false);
   const [modal, setModal] = useState(null);
   const [draft, setDraft] = useState(emptyMap());
+  const [aiLoading, setAiLoading] = useState("");
+  const [aiOutput, setAiOutput] = useState("");
 
   const maps = useMemo(() => [...localMaps, ...source.map(normalizeMap)].filter((item) => !deleted.includes(item.id)).map((item) => ({ ...item, ...(overrides[item.id] || {}) })), [deleted, localMaps, overrides, source]);
   const filtered = useMemo(() => maps.filter((item) => {
@@ -304,6 +307,68 @@ export default function MapasMentaisPage() {
     setOverrides((current) => ({ ...current, [map.id]: { ...(current[map.id] || {}), estudado: true, atualizadoEm: new Date().toISOString().slice(0, 10) } }));
     notify("Mapa estudado", "Progresso registrado e plano atualizado.");
   }, [notify]);
+  const generateSummary = useCallback(async () => {
+    if (!activeMap || aiLoading) return;
+    setAiLoading("summary");
+    try {
+      const text = await aiService.gerarTexto(`Crie um resumo de revisao para este mapa mental. Seja objetivo, com topicos e foco em prova.
+Mapa: ${activeMap.titulo}
+Materia: ${activeMap.materia}
+Assunto: ${activeMap.assunto}
+Nos principais: ${JSON.stringify(activeMap.root || {})}`, {
+        task: "summary",
+        maxOutputTokens: 650,
+        cache: true,
+        cacheKey: `mapa-resumo:${activeMap.id}`,
+        cacheTtlDays: 90,
+        tier: "barato",
+      });
+      setAiOutput(text);
+      notify("Resumo gerado", "Resumo criado com IA para este mapa.");
+    } catch {
+      addNotification({ type: "warning", title: "IA indisponível", message: "Não foi possível gerar o resumo agora." });
+    } finally {
+      setAiLoading("");
+    }
+  }, [activeMap, addNotification, aiLoading, notify]);
+  const generateFlashcards = useCallback(async () => {
+    if (!activeMap || aiLoading) return;
+    setAiLoading("flashcards");
+    try {
+      const deck = await flashcardsService.gerarDeckIA(activeMap.assunto || activeMap.titulo, {
+        materia: activeMap.materia,
+        concurso: activeMap.concurso,
+        quantidade: 6,
+      });
+      setOverrides((current) => ({ ...current, [activeMap.id]: { ...(current[activeMap.id] || {}), flashcardsRelacionados: (activeMap.flashcardsRelacionados || 0) + (deck.cards?.length || 0) } }));
+      notify("Flashcards gerados", `${deck.cards?.length || 0} cards foram adicionados ao treino.`);
+    } catch {
+      addNotification({ type: "warning", title: "IA indisponível", message: "Não foi possível gerar flashcards agora." });
+    } finally {
+      setAiLoading("");
+    }
+  }, [activeMap, addNotification, aiLoading, notify]);
+  const generateQuestions = useCallback(async () => {
+    if (!activeMap || aiLoading) return;
+    setAiLoading("questions");
+    try {
+      const rows = await questoesService.gerarQuestoesIA({
+        assunto: activeMap.assunto || activeMap.titulo,
+        materia: activeMap.materia,
+        concurso: activeMap.concurso,
+        quantidade: 3,
+        contexto: JSON.stringify(activeMap.root || {}),
+      });
+      setOverrides((current) => ({ ...current, [activeMap.id]: { ...(current[activeMap.id] || {}), questoesRelacionadas: (activeMap.questoesRelacionadas || 0) + rows.length } }));
+      sessionStorage.setItem("aprova-questoes-artigo-filter", JSON.stringify({ questoesIds: rows.map((item) => item.id), search: activeMap.assunto || activeMap.materia }));
+      notify("Questões geradas", `${rows.length} questões foram adicionadas ao banco.`);
+      navigate("questoes");
+    } catch {
+      addNotification({ type: "warning", title: "IA indisponível", message: "Não foi possível gerar questões agora." });
+    } finally {
+      setAiLoading("");
+    }
+  }, [activeMap, addNotification, aiLoading, navigate, notify]);
 
   const filtersContent = (
     <>
@@ -403,9 +468,9 @@ export default function MapasMentaisPage() {
             <h2 className="mb-3 font-bold text-slate-950">Ações</h2>
             <div className="grid gap-2">
               <Button size="sm" icon={CalendarCheck} onClick={() => activeMap && markStudied(activeMap)}>Estudar este mapa</Button>
-              <Button size="sm" variant="secondary" icon={Brain} onClick={() => notify("Flashcards gerados", "Flashcards criados a partir do mapa.")}>Gerar flashcards</Button>
-              <Button size="sm" variant="secondary" icon={FileText} onClick={() => notify("Resumo gerado", "Resumo criado para revisão.")}>Gerar resumo</Button>
-              <Button size="sm" variant="secondary" icon={FileQuestion} onClick={() => notify("Questões geradas", "Questões relacionadas adicionadas.")}>Gerar questões</Button>
+              <Button size="sm" variant="secondary" loading={aiLoading === "flashcards"} icon={Brain} onClick={generateFlashcards}>Gerar flashcards</Button>
+              <Button size="sm" variant="secondary" loading={aiLoading === "summary"} icon={FileText} onClick={generateSummary}>Gerar resumo</Button>
+              <Button size="sm" variant="secondary" loading={aiLoading === "questions"} icon={FileQuestion} onClick={generateQuestions}>Gerar questões</Button>
               <Button size="sm" variant="ghost" icon={Download} onClick={() => notify("PDF preparado", "Download do mapa iniciado.")}>Baixar PDF</Button>
               <Button size="sm" variant="ghost" icon={Printer} onClick={() => window.print()}>Imprimir</Button>
               <Button size="sm" variant="ghost" icon={Share2} onClick={() => notify("Link copiado", "Mapa pronto para compartilhar.")}>Compartilhar</Button>
@@ -413,6 +478,12 @@ export default function MapasMentaisPage() {
               <Button size="sm" variant="danger" icon={Trash2} onClick={() => activeMap && deleteMap(activeMap)}>Excluir</Button>
             </div>
           </Card>
+          {aiOutput ? (
+            <Card hover={false}>
+              <h2 className="mb-2 font-bold text-slate-950">Resumo IA</h2>
+              <p className="whitespace-pre-wrap text-sm leading-6 text-slate-600">{aiOutput}</p>
+            </Card>
+          ) : null}
         </aside>
       </div>
 

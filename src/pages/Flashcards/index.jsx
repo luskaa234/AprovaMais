@@ -1,5 +1,5 @@
 import { useCallback, useDeferredValue, useMemo, useState } from "react";
-import { Search } from "lucide-react";
+import { Sparkles, Search } from "lucide-react";
 import { Badge, Button, EmptyState, Input, cx } from "../../components";
 import { useNotifications } from "../../contexts";
 import { useAsyncData } from "../../hooks";
@@ -88,10 +88,12 @@ export default function FlashcardsPage() {
   const [activeId, setActiveId] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
   const [shuffleSeed, setShuffleSeed] = useState(() => Date.now() + Math.floor(Math.random() * 100000));
+  const [generatedDecks, setGeneratedDecks] = useState([]);
+  const [generating, setGenerating] = useState(false);
 
   const baseCards = useMemo(
-    () => decks.flatMap((deck, deckIndex) => (deck.cards || []).map((card, cardIndex) => normalizeCard(deck, card, deckIndex, cardIndex))),
-    [decks],
+    () => [...generatedDecks, ...decks].flatMap((deck, deckIndex) => (deck.cards || []).map((card, cardIndex) => normalizeCard(deck, card, deckIndex, cardIndex))),
+    [decks, generatedDecks],
   );
 
   const cards = useMemo(
@@ -154,6 +156,27 @@ export default function FlashcardsPage() {
     setShowAnswer(false);
   }, []);
 
+  const generateDeck = useCallback(async () => {
+    if (generating) return;
+    setGenerating(true);
+    try {
+      const assunto = query.trim() || activeCard?.assunto || activeCard?.materia || "revisão geral";
+      const deck = await flashcardsService.gerarDeckIA(assunto, {
+        materia: activeCard?.materia || assunto,
+        concurso: activeCard?.concurso || "Geral",
+        quantidade: 6,
+      });
+      setGeneratedDecks((current) => [deck, ...current.filter((item) => item.id !== deck.id)]);
+      setActiveId(deck.cards?.[0]?.id || null);
+      setShowAnswer(false);
+      notify("Deck criado", `${deck.cards?.length || 0} flashcards gerados com IA.`);
+    } catch {
+      addNotification({ type: "warning", title: "IA indisponível", message: "Não foi possível gerar o deck agora." });
+    } finally {
+      setGenerating(false);
+    }
+  }, [activeCard, addNotification, generating, notify, query]);
+
   const handleNextAction = useCallback((event) => {
     event.currentTarget.blur();
 
@@ -171,6 +194,7 @@ export default function FlashcardsPage() {
         <h1 className="text-3xl font-black text-slate-950">Flashcards</h1>
         <div className="flex flex-col gap-2 sm:flex-row">
           <Input icon={Search} placeholder="Buscar flashcards..." value={query} onChange={(event) => setQuery(event.target.value)} />
+          <Button variant="secondary" icon={Sparkles} loading={generating} onClick={generateDeck}>Gerar IA</Button>
           <Button variant="secondary" onClick={shuffleAgain}>Aleatório</Button>
         </div>
       </div>

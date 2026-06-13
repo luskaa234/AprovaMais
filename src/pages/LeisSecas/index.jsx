@@ -165,9 +165,14 @@ function buildSections(articles) {
   }));
 }
 
-function excerpt(article) {
+function excerpt(article, maxLength = 220) {
   const clean = String(article.texto || "").replace(/\s+/g, " ").replace(/^Art\.?\s*\d+\.?\s*/i, "").trim();
-  return clean.slice(0, 120) || article.capitulo || "Texto do artigo";
+  if (!clean) return article.capitulo || "Texto do artigo";
+  if (!maxLength || clean.length <= maxLength) return clean;
+  const clipped = clean.slice(0, maxLength + 1);
+  const lastSpace = clipped.lastIndexOf(" ");
+  const safeText = clipped.slice(0, lastSpace > maxLength * 0.65 ? lastSpace : maxLength).trim();
+  return `${safeText}...`;
 }
 
 function applyMarks(text, marks = [], query = "") {

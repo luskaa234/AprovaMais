@@ -2,10 +2,10 @@ import { isSupabaseConfigured, requireSupabase } from "../lib/supabase";
 import { montarContextoAluno } from "../ai/tutorPrompt";
 import { ASSISTENTE_ATIVO } from "../config/features";
 
-const modelName = "gemini-2.5-flash";
+const modelName = "Aprovinho";
+const CHAT_DEFAULT_TIER = "barato";
 const disabledMessage = "Assistente em breve. Recurso em desenvolvimento, sem chamadas de IA por enquanto.";
-let lastAIStatus = { source: ASSISTENTE_ATIVO ? (isSupabaseConfigured ? "edge-ready" : "local-fallback") : "disabled", modelName, error: "" };
-let edgeDisabledUntil = 0;
+let lastAIStatus = { source: ASSISTENTE_ATIVO ? (isSupabaseConfigured ? "edge-ready" : "edge-missing-config") : "disabled", modelName, error: "" };
 
 function normalizeText(value = "") {
   return String(value).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
@@ -27,13 +27,6 @@ function uniqueSubjects(items = []) {
       seen.add(key);
       return true;
     });
-}
-
-function defaultSubjectsFor(objective = "") {
-  const text = normalizeText(objective);
-  if (text.includes("oab")) return ["Etica Profissional", "Direito Constitucional", "Direito Civil", "Processo Civil"];
-  if (text.includes("pm") || text.includes("policia") || text.includes("prf")) return ["Portugues", "Matematica/RL", "Direito Constitucional", "Direito Penal"];
-  return ["Portugues", "Raciocinio Logico", "Direito Constitucional"];
 }
 
 function compactPerformance(desempenho = {}) {
@@ -82,81 +75,38 @@ function buildCompactContext(perfil = {}, desempenho = {}) {
   };
 }
 
-function localTutorResponse(mensagem = "", perfil = {}, desempenho = {}) {
-  const text = normalizeText(mensagem);
-  const context = buildCompactContext(perfil, desempenho);
-  const firstName = context.perfil.nome?.split(" ")?.[0] || "por aqui";
-  const objective = context.perfil.objetivoLabel || context.perfil.concurso || context.perfil.objetivo || "seu objetivo";
-  const subjects = uniqueSubjects([
-    ...(context.desempenho.materiasFracas || []),
-    ...(context.perfil.materiasDificeis || []),
-    ...(context.perfil.planoPrioridades || []),
-  ]);
-  const priorities = subjects.length ? subjects : defaultSubjectsFor(objective);
-
-  if (text.includes("quantas quest") || text.includes("questoes resolvi") || text.includes("questoes eu fiz")) {
-    return `Você resolveu ${context.desempenho.questoesResolvidas || 0} questões registradas até agora.`;
-  }
-
-  if (text.includes("taxa") || text.includes("percentual") || text.includes("aproveitamento")) {
-    return `Sua taxa de acerto registrada é ${context.desempenho.taxaAcertos || 0}%.`;
-  }
-
-  if (text.includes("pior materia") || text.includes("materia mais fraca") || text.includes("materias fracas")) {
-    if (!context.desempenho.questoesResolvidas) {
-      return "Ainda não há questões resolvidas suficientes para apontar uma matéria fraca real. Resolva um bloco de questões e eu recalculo sem gastar IA.";
-    }
-    return `Pelos seus dados, suas prioridades agora são: ${priorities.slice(0, 5).join(", ")}. Comece pela primeira com teoria curta + questões + revisão dos erros.`;
-  }
-
-  if (/^(oi|ola|opa|bom dia|boa tarde|boa noite)\b/.test(text)) {
-    return `Oi, ${firstName}. Posso montar um bloco de estudo, explicar uma questão ou analisar seus pontos fracos para ${objective}.`;
-  }
-
-  if (text.includes("taf") || text.includes("teste fisico")) {
-    return "Plano simples de TAF: 3 treinos de corrida na semana, 2 blocos de força e 1 dia leve. Registre tempo/repetições para ajustar pelo seu resultado real.";
-  }
-
-  return `Entendi. Para ${objective}, eu focaria agora em ${priorities.slice(0, 3).join(", ")}. Se quiser uma explicação mais detalhada, eu chamo a IA com esse contexto resumido.`;
-}
-
-function isDeterministicQuestion(mensagem = "") {
-  const text = normalizeText(mensagem);
-  return [
-    "quantas quest",
-    "questoes resolvi",
-    "questoes eu fiz",
-    "taxa",
-    "percentual",
-    "aproveitamento",
-    "pior materia",
-    "materia mais fraca",
-    "materias fracas",
-  ].some((term) => text.includes(term));
-}
-
 function cleanJsonText(text = "") {
   return String(text || "").replace(/```json|```/g, "").trim();
 }
 
-async function invokeAI({ task = "chat", prompt = "", perfil = {}, desempenho = {}, responseFormat = "text", maxOutputTokens, cache = false, cacheKey = "", cacheTtlDays = 30, historico = [] }) {
+function friendlyAIError(message = "") {
+  if (/autenticado|jwt|session|auth/i.test(message)) {
+    return "Preciso que voce esteja logado para conversar com o Aprovinho. Entre novamente e tente de novo.";
+  }
+  return "Nao consegui falar com a IA agora. Tente de novo em instantes.";
+}
+
+function getChatTier(message = "", requestedTier = "") {
+  if (requestedTier === "barato" || requestedTier === "forte") return requestedTier;
+  return CHAT_DEFAULT_TIER;
+}
+
+async function invokeAI({ task = "chat", prompt = "", perfil = {}, desempenho = {}, responseFormat = "text", maxOutputTokens, cache = false, cacheKey = "", cacheTtlDays = 30, historico = [], tier, extraContext = {} }) {
   if (!ASSISTENTE_ATIVO) {
     lastAIStatus = { source: "disabled", modelName, error: "" };
     return { text: disabledMessage, source: "disabled", model: modelName };
   }
 
   if (!isSupabaseConfigured) {
-    lastAIStatus = { source: "local-fallback", modelName, error: "Supabase não configurado" };
-    return { text: localTutorResponse(prompt, perfil, desempenho), source: "local-fallback", model: modelName };
-  }
-
-  if (Date.now() < edgeDisabledUntil) {
-    return { text: localTutorResponse(prompt, perfil, desempenho), source: "fallback-edge-cooldown", model: modelName };
+    const message = "Supabase não configurado";
+    lastAIStatus = { source: "edge-missing-config", modelName, error: message };
+    return { text: friendlyAIError(message), source: "edge-missing-config", model: modelName };
   }
 
   const client = requireSupabase();
   const context = {
     ...buildCompactContext(perfil, desempenho),
+    ...extraContext,
     historico: (historico || []).slice(-6).map((item) => ({
       role: item.role || (item.text ? "user" : "model"),
       text: String(item.text || item.content || "").slice(0, 800),
@@ -167,7 +117,7 @@ async function invokeAI({ task = "chat", prompt = "", perfil = {}, desempenho = 
   let error;
   try {
     const response = await client.functions.invoke("ia-aprova", {
-      body: { task, prompt, context, responseFormat, maxOutputTokens, cache, cacheKey, cacheTtlDays },
+      body: { task, prompt, context, responseFormat, maxOutputTokens, cache, cacheKey, cacheTtlDays, tier },
     });
     data = response.data;
     error = response.error;
@@ -177,11 +127,8 @@ async function invokeAI({ task = "chat", prompt = "", perfil = {}, desempenho = 
 
   if (error || data?.error) {
     const message = data?.error || error?.message || "Falha ao consultar IA.";
-    if (/failed to fetch|cors|non-2xx|not found|network/i.test(message)) {
-      edgeDisabledUntil = Date.now() + 10 * 60 * 1000;
-    }
     lastAIStatus = { source: "edge-error", modelName, error: message };
-    return { text: localTutorResponse(prompt, perfil, desempenho), source: "fallback-error", model: modelName };
+    return { text: friendlyAIError(message), source: "edge-error", model: modelName };
   }
 
   lastAIStatus = { source: data.source || "edge", modelName: data.model || modelName, error: "" };
@@ -191,7 +138,8 @@ async function invokeAI({ task = "chat", prompt = "", perfil = {}, desempenho = 
 export const aiService = {
   isConfigured: ASSISTENTE_ATIVO && isSupabaseConfigured,
   isEnabled: ASSISTENTE_ATIVO,
-  modelName: "Edge Function + Gemini",
+  modelName,
+  chatTier: CHAT_DEFAULT_TIER,
   getStatus() {
     return lastAIStatus;
   },
@@ -210,19 +158,16 @@ export const aiService = {
       cache: options.cache,
       cacheKey: options.cacheKey,
       cacheTtlDays: options.cacheTtlDays,
+      tier: options.tier,
+      extraContext: options.extraContext,
     });
     return result.text;
   },
 
-  async enviarMensagem(mensagem, historico = [], perfil = {}, desempenho = {}) {
+  async enviarMensagem(mensagem, historico = [], perfil = {}, desempenho = {}, options = {}) {
     if (!ASSISTENTE_ATIVO) {
       lastAIStatus = { source: "disabled", modelName, error: "" };
       return disabledMessage;
-    }
-
-    if (isDeterministicQuestion(mensagem)) {
-      lastAIStatus = { source: "code", modelName, error: "" };
-      return localTutorResponse(mensagem, perfil, desempenho);
     }
 
     const result = await invokeAI({
@@ -231,9 +176,13 @@ export const aiService = {
       perfil,
       desempenho,
       historico,
+      responseFormat: "text",
       maxOutputTokens: 700,
+      cache: false,
+      tier: getChatTier(mensagem, options.tier),
+      extraContext: options.extraContext,
     });
-    return result.text || localTutorResponse(mensagem, perfil, desempenho);
+    return result.text || friendlyAIError();
   },
 
   async gerarRelatorio(perfil, desempenho, tipo = "geral") {
@@ -248,7 +197,7 @@ export const aiService = {
       return "Ainda não há questões resolvidas suficientes para gerar um relatório real. Resolva algumas questões para eu calcular taxa, matérias fracas e evolução.";
     }
     const prompt = `Interprete estes números já calculados e gere um relatório ${tipo}. Não recalcule nada; apenas explique prioridades e plano de ação.`;
-    const result = await invokeAI({ task: "report", prompt, perfil, desempenho, maxOutputTokens: 900 });
+    const result = await invokeAI({ task: "report", prompt, perfil, desempenho, maxOutputTokens: 900, tier: "forte" });
     return result.text;
   },
 
@@ -263,6 +212,7 @@ export const aiService = {
         desempenho: {},
         responseFormat: "json",
         maxOutputTokens: 900,
+        tier: "forte",
       });
       const parsed = JSON.parse(cleanJsonText(result.text));
       return { ...planoBase, ...parsed, aiGenerated: true, createdAt: new Date().toISOString() };
@@ -279,6 +229,7 @@ export const aiService = {
       cache: true,
       cacheKey: `summary:${normalizeText(concurso)}:${normalizeText(materia)}:${normalizeText(assunto)}`,
       cacheTtlDays: 120,
+      tier: "barato",
     });
   },
 
@@ -293,12 +244,12 @@ export const aiService = {
           comentario: comentarioLegado || questao.comentario,
         })}`;
     const key = typeof questao === "object" && questao?.id ? `questao:${questao.id}:explicacao:${String(respostaAluno || "").toLowerCase()}` : "";
-    return this.gerarTexto(prompt, { task: "explain_question", maxOutputTokens: 750, cache: Boolean(key), cacheKey: key, cacheTtlDays: 180 });
+    return this.gerarTexto(prompt, { task: "explain_question", maxOutputTokens: 750, cache: Boolean(key), cacheKey: key, cacheTtlDays: 180, tier: "barato" });
   },
 
   async corrigirRedacao(tema, texto, exame = "concurso") {
     const prompt = `Corrija a redação em JSON. Exame: ${exame}. Tema: ${tema}. Texto: ${texto}`;
-    return this.gerarTexto(prompt, { task: "essay", responseFormat: "json", maxOutputTokens: 1000 });
+    return this.gerarTexto(prompt, { task: "essay", responseFormat: "json", maxOutputTokens: 1000, tier: "forte" });
   },
 
   async gerarFlashcards(assunto, materia, quantidade = 5) {
@@ -309,20 +260,23 @@ export const aiService = {
       cache: true,
       cacheKey: `flashcards:${normalizeText(materia)}:${normalizeText(assunto)}:${quantidade}`,
       cacheTtlDays: 180,
+      tier: "barato",
     });
     return JSON.parse(cleanJsonText(text));
   },
 
-  stream(prompt, onChunk, onDone, perfil = {}, desempenho = {}, historico = []) {
+  stream(prompt, onChunk, onDone, perfil = {}, desempenho = {}, historico = [], options = {}) {
     let cancelled = false;
-    this.enviarMensagem(prompt, historico, perfil, desempenho)
+    this.enviarMensagem(prompt, historico, perfil, desempenho, options)
       .then((response) => {
         if (cancelled) return;
         onChunk(response);
         onDone?.(response);
       })
-      .catch(() => {
-        const response = localTutorResponse(prompt, perfil, desempenho);
+      .catch((error) => {
+        const message = error?.message || "Falha ao consultar IA.";
+        lastAIStatus = { source: "edge-error", modelName, error: message };
+        const response = friendlyAIError(message);
         if (cancelled) return;
         onChunk(response);
         onDone?.(response);

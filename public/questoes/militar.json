@@ -70658,5 +70658,2209 @@
     "banca_selo": "FGV",
     "concurso": "PMTO",
     "comentario": "Questao oficial PMTO Quadro de Pracas da Policia Militar 2025. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q004",
+    "codigo": "PMMA2006-004",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 4,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "topico": "L?ngua Portuguesa",
+    "dificuldade": "medio",
+    "enunciado": "Todas as palavras estão corretamente grafadas na frase:",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "O cinema americano contribue, como sempre contribuiu, para a dissiminação de imagens de violência.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "Se os ingênuos tiros de espoleta não matavam ninguém, nem por isso deixavam de dar vasão à agressividade dos meninos.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "Ainda haverá os que crêm que as imagens da violência não guardam nenhum vínculo com a violência efetivamente praticada?",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "Os pais deveriam ficar aprensivos com o fato de que os filhos não estão izentos de se identificar com os numerosíssimos fascínoras dos filmes.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "Leonard Eron está convicto de que não se dissociam a violência dramatizada nas telas e aquela que é intrínseca à barbárie do cotidiano moderno.",
+        "correta": true
+      }
+    ],
+    "alternativa_a": "O cinema americano contribue, como sempre contribuiu, para a dissiminação de imagens de violência.",
+    "alternativa_b": "Se os ingênuos tiros de espoleta não matavam ninguém, nem por isso deixavam de dar vasão à agressividade dos meninos.",
+    "alternativa_c": "Ainda haverá os que crêm que as imagens da violência não guardam nenhum vínculo com a violência efetivamente praticada?",
+    "alternativa_d": "Os pais deveriam ficar aprensivos com o fato de que os filhos não estão izentos de se identificar com os numerosíssimos fascínoras dos filmes.",
+    "alternativa_e": "Leonard Eron está convicto de que não se dissociam a violência dramatizada nas telas e aquela que é intrínseca à barbárie do cotidiano moderno.",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: E."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q006",
+    "codigo": "PMMA2006-006",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 6,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "topico": "L?ngua Portuguesa",
+    "dificuldade": "medio",
+    "enunciado": "As normas de concordância estão inteiramente respeitadas na seguinte frase:",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "Qual, exatamente, os índices de culpa que tem as telas na brutalização da juventude, ninguém sabe ainda.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "A violência das gangues juvenis assumiram hoje uma intensidade muito maior do que apresentava as de ontem.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "Ficaram mais difíceis coibir as violências, incentivadas em todas as telas.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "A perda da coesão e de aglutinação das famílias vêm constituindo um fator de desintegração social.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "Quaisquer que sejam os fatores responsáveis, a violência que entre os jovens se propagou já atingiu um nível insuportável.",
+        "correta": true
+      }
+    ],
+    "alternativa_a": "Qual, exatamente, os índices de culpa que tem as telas na brutalização da juventude, ninguém sabe ainda.",
+    "alternativa_b": "A violência das gangues juvenis assumiram hoje uma intensidade muito maior do que apresentava as de ontem.",
+    "alternativa_c": "Ficaram mais difíceis coibir as violências, incentivadas em todas as telas.",
+    "alternativa_d": "A perda da coesão e de aglutinação das famílias vêm constituindo um fator de desintegração social.",
+    "alternativa_e": "Quaisquer que sejam os fatores responsáveis, a violência que entre os jovens se propagou já atingiu um nível insuportável.",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: E."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q007",
+    "codigo": "PMMA2006-007",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 7,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "topico": "L?ngua Portuguesa",
+    "dificuldade": "medio",
+    "enunciado": "O verbo entre parênteses adotará OBRIGATORIAMENTE uma forma do PLURAL ao ser empregado na lacuna da seguinte frase:",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "...... (mudar) toda essa gente ou apenas eu?",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "Não se ...... (tratar) apenas de fatores ligados à mídia; a violência juvenil tem outras causas.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "Entre os que ...... (investigar) os efeitos da violência está o psicólogo Leonard Eron.",
+        "correta": true
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "...... (contribuir) para a violência juvenil essa escalada de cenas bárbaras na TV.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "As influências que ...... (exercer) a imagem da violência sobre as crianças são um fato inquestionável.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "...... (mudar) toda essa gente ou apenas eu?",
+    "alternativa_b": "Não se ...... (tratar) apenas de fatores ligados à mídia; a violência juvenil tem outras causas.",
+    "alternativa_c": "Entre os que ...... (investigar) os efeitos da violência está o psicólogo Leonard Eron.",
+    "alternativa_d": "...... (contribuir) para a violência juvenil essa escalada de cenas bárbaras na TV.",
+    "alternativa_e": "As influências que ...... (exercer) a imagem da violência sobre as crianças são um fato inquestionável.",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: C."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q008",
+    "codigo": "PMMA2006-008",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 8,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "topico": "L?ngua Portuguesa",
+    "dificuldade": "medio",
+    "enunciado": "Os tempos verbais estão corretamente articulados na frase:",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "O autor afirmou que teria matado várias crianças quando ainda fosse menino.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "Seria uma ilusão se acreditássemos que as telas não têm qualquer influência na brutalização da infância e da juventude.",
+        "correta": true
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "Como a educação esteja caindo a níveis subterrâneos, os responsáveis por ela deveriam tomar providências.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "No momento em que viesse a completar dezoito anos, um adolescente terá assistido a quarenta mil assassinatos.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "Ao investigar os efeitos da violência representada nas telas, Leonard Eron tinha concluído que fossem a causa de 10% dos crimes cometidos.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "O autor afirmou que teria matado várias crianças quando ainda fosse menino.",
+    "alternativa_b": "Seria uma ilusão se acreditássemos que as telas não têm qualquer influência na brutalização da infância e da juventude.",
+    "alternativa_c": "Como a educação esteja caindo a níveis subterrâneos, os responsáveis por ela deveriam tomar providências.",
+    "alternativa_d": "No momento em que viesse a completar dezoito anos, um adolescente terá assistido a quarenta mil assassinatos.",
+    "alternativa_e": "Ao investigar os efeitos da violência representada nas telas, Leonard Eron tinha concluído que fossem a causa de 10% dos crimes cometidos.",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: B."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q009",
+    "codigo": "PMMA2006-009",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 9,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "topico": "L?ngua Portuguesa",
+    "dificuldade": "medio",
+    "enunciado": "Está correto o emprego da expressão sublinhada na frase:",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "É nociva a exposição às cenas de violência a que estão sujeitas as crianças.",
+        "correta": true
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "Os fatos violentos de que se deparam as crianças multiplicam-se dia a dia.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "O autor refere-se a um tempo em cujo os índices de violência eram bem menores.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "As tensões urbanas à que se refere o autor já estão banalizadas.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "As mudanças sociais de cujas o autor está tratando pioraram a qualidade de vida.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "É nociva a exposição às cenas de violência a que estão sujeitas as crianças.",
+    "alternativa_b": "Os fatos violentos de que se deparam as crianças multiplicam-se dia a dia.",
+    "alternativa_c": "O autor refere-se a um tempo em cujo os índices de violência eram bem menores.",
+    "alternativa_d": "As tensões urbanas à que se refere o autor já estão banalizadas.",
+    "alternativa_e": "As mudanças sociais de cujas o autor está tratando pioraram a qualidade de vida.",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: A."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q010",
+    "codigo": "PMMA2006-010",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 10,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "topico": "L?ngua Portuguesa",
+    "dificuldade": "medio",
+    "enunciado": "Transpondo-se para a voz passiva a frase \"Há quatro décadas investiga os efeitos da violência\", a forma verbal resultante será",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "tem sido investigado.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "vem investigando.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "foram investigados.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "são investigados.",
+        "correta": true
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "tinham sido investigados.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "tem sido investigado.",
+    "alternativa_b": "vem investigando.",
+    "alternativa_c": "foram investigados.",
+    "alternativa_d": "são investigados.",
+    "alternativa_e": "tinham sido investigados.",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: D."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q011",
+    "codigo": "PMMA2006-011",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 11,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "topico": "L?ngua Portuguesa",
+    "dificuldade": "medio",
+    "enunciado": "O período cuja redação está inteiramente clara e correta é:",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "É preciso de que ninguém venha a se iludir no sentido de que as cenas de violência assistidas na TV ou no cinema não tem qualquer relação com a violência real.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "Não bastam que os psicólogos cheguem a conclusões satisfatórias; o que urge é que se tome providências concretas, portanto.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "Segundo a tese de que as imagens de truculência na TV têm tal efeito sobre as crianças, elas passam a aprender com elas exatamente o que observam.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "É impressionante como, ao se atingir dezoito anos, um jovem contemporâneo tem contato com um número de estarrecer de cenas de violência assistida nas telas.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "Antigamente, os olhos dos meninos tinham apenas as telas do cinema para se fixarem; hoje, contam também com as da TV e as dos computadores.",
+        "correta": true
+      }
+    ],
+    "alternativa_a": "É preciso de que ninguém venha a se iludir no sentido de que as cenas de violência assistidas na TV ou no cinema não tem qualquer relação com a violência real.",
+    "alternativa_b": "Não bastam que os psicólogos cheguem a conclusões satisfatórias; o que urge é que se tome providências concretas, portanto.",
+    "alternativa_c": "Segundo a tese de que as imagens de truculência na TV têm tal efeito sobre as crianças, elas passam a aprender com elas exatamente o que observam.",
+    "alternativa_d": "É impressionante como, ao se atingir dezoito anos, um jovem contemporâneo tem contato com um número de estarrecer de cenas de violência assistida nas telas.",
+    "alternativa_e": "Antigamente, os olhos dos meninos tinham apenas as telas do cinema para se fixarem; hoje, contam também com as da TV e as dos computadores.",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: E."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q012",
+    "codigo": "PMMA2006-012",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 12,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "topico": "L?ngua Portuguesa",
+    "dificuldade": "medio",
+    "enunciado": "O período inteiramente correto quanto à pontuação é:",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "Num primeiro momento o autor se pergunta quem teria mudado, se as crianças ou, o cinema, em seguida, chega à conclusão de que tudo mudou.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "Num primeiro momento, o autor se pergunta quem teria mudado, se as crianças ou o cinema; em seguida, chega à conclusão de que tudo mudou.",
+        "correta": true
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "Num primeiro momento, o autor, se pergunta: quem teria mudado: se as crianças, ou o cinema; em seguida, chega à conclusão de que tudo mudou.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "Num primeiro momento o autor se pergunta, quem teria mudado: se as crianças ou o cinema? em seguida chega à conclusão, de que tudo mudou.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "Num primeiro momento, o autor se pergunta, quem teria mudado; se as crianças ou o cinema, em seguida, chega à conclusão de que tudo mudou.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "Num primeiro momento o autor se pergunta quem teria mudado, se as crianças ou, o cinema, em seguida, chega à conclusão de que tudo mudou.",
+    "alternativa_b": "Num primeiro momento, o autor se pergunta quem teria mudado, se as crianças ou o cinema; em seguida, chega à conclusão de que tudo mudou.",
+    "alternativa_c": "Num primeiro momento, o autor, se pergunta: quem teria mudado: se as crianças, ou o cinema; em seguida, chega à conclusão de que tudo mudou.",
+    "alternativa_d": "Num primeiro momento o autor se pergunta, quem teria mudado: se as crianças ou o cinema? em seguida chega à conclusão, de que tudo mudou.",
+    "alternativa_e": "Num primeiro momento, o autor se pergunta, quem teria mudado; se as crianças ou o cinema, em seguida, chega à conclusão de que tudo mudou.",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: B."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q013",
+    "codigo": "PMMA2006-013",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 13,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "topico": "L?ngua Portuguesa",
+    "dificuldade": "medio",
+    "enunciado": "Está correta a seguinte reconstrução de uma expressão do texto:",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "As crianças aprendem observando = A observação possibilita às crianças aprenderem.",
+        "correta": true
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "Motivos de sobra para uma despreocupação em relação ao futuro = Motivos de sobra para menor preocupação do futuro.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "As famílias perderam a coesão = A coesão cuja as famílias perderam.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "Os filmes americanos que nos ensinaram uma infinidade de outras coisas = Uma infinidade de coisas em que aprendemos nos filmes americanos.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "A educação caiu a níveis subterrâneos = São subterrâneos os níveis dos quais a educação chegou.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "As crianças aprendem observando = A observação possibilita às crianças aprenderem.",
+    "alternativa_b": "Motivos de sobra para uma despreocupação em relação ao futuro = Motivos de sobra para menor preocupação do futuro.",
+    "alternativa_c": "As famílias perderam a coesão = A coesão cuja as famílias perderam.",
+    "alternativa_d": "Os filmes americanos que nos ensinaram uma infinidade de outras coisas = Uma infinidade de coisas em que aprendemos nos filmes americanos.",
+    "alternativa_e": "A educação caiu a níveis subterrâneos = São subterrâneos os níveis dos quais a educação chegou.",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: A."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q014",
+    "codigo": "PMMA2006-014",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 14,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "topico": "L?ngua Portuguesa",
+    "dificuldade": "medio",
+    "enunciado": "Está corretamente observada a necessidade, ou não, do sinal de crase no seguinte período:",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "Se à todas as outras causas acrescentarmos o consumo de drogas, chegaremos à uma completa composição do quadro.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "Alguns se prendem à ilusão de que assistir às cenas de violência representadas nas telas não traz prejuízo a ninguém.",
+        "correta": true
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "Não fosse à falta de oportunidades profissionais, os jovens de hoje teriam maiores aspirações em relação à vida futura.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "Aquilo que as crianças aprendem à observar aprendem, também, à imitar.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "Ao se dedicar à pesquisas sobre a violência infanto-juvenil, o psicólogo chegou aquela conclusão que, para muitos, era óbvia: a TV deseduca à maioria das crianças.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "Se à todas as outras causas acrescentarmos o consumo de drogas, chegaremos à uma completa composição do quadro.",
+    "alternativa_b": "Alguns se prendem à ilusão de que assistir às cenas de violência representadas nas telas não traz prejuízo a ninguém.",
+    "alternativa_c": "Não fosse à falta de oportunidades profissionais, os jovens de hoje teriam maiores aspirações em relação à vida futura.",
+    "alternativa_d": "Aquilo que as crianças aprendem à observar aprendem, também, à imitar.",
+    "alternativa_e": "Ao se dedicar à pesquisas sobre a violência infanto-juvenil, o psicólogo chegou aquela conclusão que, para muitos, era óbvia: a TV deseduca à maioria das crianças.",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: B."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q015",
+    "codigo": "PMMA2006-015",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 15,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "topico": "L?ngua Portuguesa",
+    "dificuldade": "medio",
+    "enunciado": "Está correto o emprego de AMBAS as formas verbais sublinhadas na frase:",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "Uma série de fatores concorre para a delinquência dos menores: acham-se, entre eles, a desagregação da família e a diminuição das oportunidades.",
+        "correta": true
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "Se não cabem ao cinema, à televisão e à mídia a culpa pelo aumento da violência infanto-juvenil, quem serão os culpados?",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "É fato: 10% dos crimes cometidos na América deve-se, diretamente, à exposição às violências a que se submetem a maioria da população infantil.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "Se mais preocupações houvesse com as causas da brutalização da juventude, por certo se chegariam a muitas propostas de solução.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "Como já se aproxima do índice zero as perspectivas de trabalho para os jovens, preocupa cada vez mais o quadro das tensões sociais.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "Uma série de fatores concorre para a delinquência dos menores: acham-se, entre eles, a desagregação da família e a diminuição das oportunidades.",
+    "alternativa_b": "Se não cabem ao cinema, à televisão e à mídia a culpa pelo aumento da violência infanto-juvenil, quem serão os culpados?",
+    "alternativa_c": "É fato: 10% dos crimes cometidos na América deve-se, diretamente, à exposição às violências a que se submetem a maioria da população infantil.",
+    "alternativa_d": "Se mais preocupações houvesse com as causas da brutalização da juventude, por certo se chegariam a muitas propostas de solução.",
+    "alternativa_e": "Como já se aproxima do índice zero as perspectivas de trabalho para os jovens, preocupa cada vez mais o quadro das tensões sociais.",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: A."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q016",
+    "codigo": "PMMA2006-016",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 16,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "topico": "L?ngua Portuguesa",
+    "dificuldade": "medio",
+    "enunciado": "A alternativa em que se traduz INCORRETAMENTE o sentido de uma expressão do primeiro parágrafo do texto, considerando o contexto, é:",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "dois elementos primaciais = dois componentes fundamentais",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "era uma simples metáfora = não era mais do que uma expressão figurada",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "quebra autorizada (...) da compostura = violação aceita da boa conduta",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "um resquício de brincadeira infantil = um arremedo bisonho e pueril",
+        "correta": true
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "no que respeita à disciplina = quanto ao aspecto disciplinar",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "dois elementos primaciais = dois componentes fundamentais",
+    "alternativa_b": "era uma simples metáfora = não era mais do que uma expressão figurada",
+    "alternativa_c": "quebra autorizada (...) da compostura = violação aceita da boa conduta",
+    "alternativa_d": "um resquício de brincadeira infantil = um arremedo bisonho e pueril",
+    "alternativa_e": "no que respeita à disciplina = quanto ao aspecto disciplinar",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: D."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q018",
+    "codigo": "PMMA2006-018",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 18,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "topico": "L?ngua Portuguesa",
+    "dificuldade": "medio",
+    "enunciado": "Está correta a forma verbal sublinhada na frase:",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "Será que os milhões de olheiros satisfarão-se com um espetáculo televisivo?",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "Se reavêssemos a alegria dos carnavais antigos, não ligaríamos a TV por vários dias.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "Hoje será preciso que se premêem as escolas de samba para que elas mostrem entusiasmo.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "Nos ensaios, prevêm-se os mínimos movimentos das coreografias.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "Nos últimos carnavais, o sexo não foi reprimido como já o reprimira a sociedade dos anos 30.",
+        "correta": true
+      }
+    ],
+    "alternativa_a": "Será que os milhões de olheiros satisfarão-se com um espetáculo televisivo?",
+    "alternativa_b": "Se reavêssemos a alegria dos carnavais antigos, não ligaríamos a TV por vários dias.",
+    "alternativa_c": "Hoje será preciso que se premêem as escolas de samba para que elas mostrem entusiasmo.",
+    "alternativa_d": "Nos ensaios, prevêm-se os mínimos movimentos das coreografias.",
+    "alternativa_e": "Nos últimos carnavais, o sexo não foi reprimido como já o reprimira a sociedade dos anos 30.",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: E."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q019",
+    "codigo": "PMMA2006-019",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 19,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "topico": "L?ngua Portuguesa",
+    "dificuldade": "medio",
+    "enunciado": "\"O formalismo que antigamente predominava nas relações humanas era bastante atenuado durante o Carnaval.\" O período acima está corretamente reconstruído em:",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "Durante o Carnaval, atenuava-se bastante o formalismo nas relações humanas onde, por conseguinte, predominara.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "Embora antigamente predominasse o formalismo nas relações humanas, ele era bastante atenuado durante o Carnaval.",
+        "correta": true
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "Desde que o formalismo predominasse nas relações humanas, era ele bastante atenuado durante o Carnaval.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "Antigamente, durante o Carnaval, o formalismo era bastante atenuado, pois predominava nas relações humanas.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "O formalismo era bastante atenuado durante o Carnaval, inclusive predominava nas relações humanas.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "Durante o Carnaval, atenuava-se bastante o formalismo nas relações humanas onde, por conseguinte, predominara.",
+    "alternativa_b": "Embora antigamente predominasse o formalismo nas relações humanas, ele era bastante atenuado durante o Carnaval.",
+    "alternativa_c": "Desde que o formalismo predominasse nas relações humanas, era ele bastante atenuado durante o Carnaval.",
+    "alternativa_d": "Antigamente, durante o Carnaval, o formalismo era bastante atenuado, pois predominava nas relações humanas.",
+    "alternativa_e": "O formalismo era bastante atenuado durante o Carnaval, inclusive predominava nas relações humanas.",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: B."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q020",
+    "codigo": "PMMA2006-020",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 20,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "topico": "L?ngua Portuguesa",
+    "dificuldade": "medio",
+    "enunciado": "Esta região é tão bonita que não se compreende ...... ainda não ...... as graças naturais. Preenchem corretamente as lacunas do período acima, pela ordem:",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "por que - lhe exploraram",
+        "correta": true
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "porque - lhe exploraram",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "por que - a exploraram",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "porque - a exploraram",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "por quê - exploraram-na",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "por que - lhe exploraram",
+    "alternativa_b": "porque - lhe exploraram",
+    "alternativa_c": "por que - a exploraram",
+    "alternativa_d": "porque - a exploraram",
+    "alternativa_e": "por quê - exploraram-na",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: A."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q021",
+    "codigo": "PMMA2006-021",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 21,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "topico": "Matem?tica e Racioc?nio L?gico",
+    "dificuldade": "medio",
+    "enunciado": "Um patrulheiro florestal visita o manancial A a cada 20 dias, o manancial B a cada 35 dias e o manancial C a cada 40 dias. Hoje ele visitou os três. Ele visitará os três, novamente, no mesmo dia, daqui a",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "2 meses.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "3 meses e 5 dias.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "4 meses.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "5 meses e 5 dias.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "9 meses e 10 dias.",
+        "correta": true
+      }
+    ],
+    "alternativa_a": "2 meses.",
+    "alternativa_b": "3 meses e 5 dias.",
+    "alternativa_c": "4 meses.",
+    "alternativa_d": "5 meses e 5 dias.",
+    "alternativa_e": "9 meses e 10 dias.",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: E."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q024",
+    "codigo": "PMMA2006-024",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 24,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "topico": "Matem?tica e Racioc?nio L?gico",
+    "dificuldade": "medio",
+    "enunciado": "Três soldados compraram um presente de aniversário para um colega. Para tal, contribuíram com quantias inversamente proporcionais aos seus respectivos tempos de serviço na corporação: 2 anos, 5 anos e 8 anos. Se o presente custou R$ 66,00, um deles desembolsou",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "R$ 38,00",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "R$ 24,00",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "R$ 18,00",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "R$ 10,00",
+        "correta": true
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "R$ 9,60",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "R$ 38,00",
+    "alternativa_b": "R$ 24,00",
+    "alternativa_c": "R$ 18,00",
+    "alternativa_d": "R$ 10,00",
+    "alternativa_e": "R$ 9,60",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: D."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q026",
+    "codigo": "PMMA2006-026",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 26,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "topico": "Matem?tica e Racioc?nio L?gico",
+    "dificuldade": "medio",
+    "enunciado": "Em dezembro de 2005, a análise de uma amostra da água de um reservatório acusou um aumento de 18% de impurezas, em relação ao mês anterior. Em janeiro de 2006, analisada outra amostra do mesmo reservatório, observou-se que houve uma redução de 5% de impurezas em relação às detectadas em dezembro. Relativamente ao mês de novembro, é correto afirmar que, em janeiro, as impurezas aumentaram em",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "13%",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "12,5%",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "12,1%",
+        "correta": true
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "12%",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "11,8%",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "13%",
+    "alternativa_b": "12,5%",
+    "alternativa_c": "12,1%",
+    "alternativa_d": "12%",
+    "alternativa_e": "11,8%",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: C."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q028",
+    "codigo": "PMMA2006-028",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 28,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "topico": "Matem?tica e Racioc?nio L?gico",
+    "dificuldade": "medio",
+    "enunciado": "Dispõe-se de um lote de veículos oficiais que devem ser enviados a alguns quartéis. Sabe-se que, se cada quartel receber 4 veículos, sobrarão 11 deles no lote; entretanto, se cada um receber 5 veículos, restarão apenas 3. O número de veículos desse lote é",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "52",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "50",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "47",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "45",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "43",
+        "correta": true
+      }
+    ],
+    "alternativa_a": "52",
+    "alternativa_b": "50",
+    "alternativa_c": "47",
+    "alternativa_d": "45",
+    "alternativa_e": "43",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: E."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q030",
+    "codigo": "PMMA2006-030",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 30,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "topico": "Matem?tica e Racioc?nio L?gico",
+    "dificuldade": "medio",
+    "enunciado": "Em uma campanha contra drogas, um soldado deve orientar as famílias das crianças de um bairro. Se ele já orientou 2/3 do número de famílias e ainda restam 80, o número total de famílias desse bairro é",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "240",
+        "correta": true
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "220",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "210",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "180",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "150",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "240",
+    "alternativa_b": "220",
+    "alternativa_c": "210",
+    "alternativa_d": "180",
+    "alternativa_e": "150",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: A."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q031",
+    "codigo": "PMMA2006-031",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 31,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "topico": "Matem?tica e Racioc?nio L?gico",
+    "dificuldade": "medio",
+    "enunciado": "Uma pessoa, brincando com uma calculadora, digitou o número 525. A seguir, foi subtraindo 6, sucessivamente, só parando quando obteve um número negativo. Quantas vezes ela apertou a tecla correspondente ao 6?",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "93",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "92",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "88",
+        "correta": true
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "87",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "54",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "93",
+    "alternativa_b": "92",
+    "alternativa_c": "88",
+    "alternativa_d": "87",
+    "alternativa_e": "54",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: C."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q034",
+    "codigo": "PMMA2006-034",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 34,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "topico": "Matem?tica e Racioc?nio L?gico",
+    "dificuldade": "medio",
+    "enunciado": "Uma escola de música oferece apenas os cursos de Teclado, Violão e Canto e tem 345 alunos. Sabe-se que: nenhum aluno estuda apenas Canto; nenhum aluno estuda Teclado e Violão; 225 alunos estudam Teclado; 90 alunos estudam Teclado e Canto; 50 alunos estudam apenas Violão. Quantos alunos estudam Canto e Violão?",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "70",
+        "correta": true
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "120",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "140",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "150",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "160",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "70",
+    "alternativa_b": "120",
+    "alternativa_c": "140",
+    "alternativa_d": "150",
+    "alternativa_e": "160",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: A."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q035",
+    "codigo": "PMMA2006-035",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 35,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "topico": "Matem?tica e Racioc?nio L?gico",
+    "dificuldade": "medio",
+    "enunciado": "Cinco camisetas de cores diferentes foram dispostas em uma pilha. A verde está abaixo da amarela e acima da azul. A vermelha está acima da marrom e esta fica abaixo da verde. A amarela e a verde se encostam, assim como esta e a marrom. Qual é a cor da camiseta do topo da pilha?",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "Azul.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "Amarela.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "Verde.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "Vermelha.",
+        "correta": true
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "Marrom.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "Azul.",
+    "alternativa_b": "Amarela.",
+    "alternativa_c": "Verde.",
+    "alternativa_d": "Vermelha.",
+    "alternativa_e": "Marrom.",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: D."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q037",
+    "codigo": "PMMA2006-037",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 37,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "topico": "Matem?tica e Racioc?nio L?gico",
+    "dificuldade": "medio",
+    "enunciado": "Um refeitório dispõe de 102 lugares, alguns em mesas de 2 lugares e outros em mesas de 4 lugares. Se o número de mesas de 2 lugares é um múltiplo de 7, então o número total de mesas pode ser múltiplo de",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "17",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "15",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "14",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "10",
+        "correta": true
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "8",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "17",
+    "alternativa_b": "15",
+    "alternativa_c": "14",
+    "alternativa_d": "10",
+    "alternativa_e": "8",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: D."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q040",
+    "codigo": "PMMA2006-040",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 40,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "topico": "Matem?tica e Racioc?nio L?gico",
+    "dificuldade": "medio",
+    "enunciado": "Cada um dos três participantes de um torneio de xadrez deu uma informação sobre o evento. João disse que Carlos foi o 3º colocado; Alberto disse que João foi o 2º colocado e Carlos atribuiu a si mesmo a 2ª colocação. Sabendo que só o primeiro colocado disse a verdade, deve-se concluir que",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "Alberto foi o 1º colocado.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "João foi o 2º colocado.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "Alberto foi o 3º colocado.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "Carlos foi o 2º colocado.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "João foi o 1º colocado.",
+        "correta": true
+      }
+    ],
+    "alternativa_a": "Alberto foi o 1º colocado.",
+    "alternativa_b": "João foi o 2º colocado.",
+    "alternativa_c": "Alberto foi o 3º colocado.",
+    "alternativa_d": "Carlos foi o 2º colocado.",
+    "alternativa_e": "João foi o 1º colocado.",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: E."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q043",
+    "codigo": "PMMA2006-043",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 43,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "topico": "Hist?ria, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "\"Os latifundiários e grandes capitalistas submetem-se aos imperialistas norte-americanos porque [...] desejam uma nova guerra mundial, com a esperança de obter grandes lucros pela venda de matérias-primas e gêneros alimentícios por preços exorbitantes.\" Considerando as ideologias e a política partidária da década de 1950, o texto fazia parte do programa",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "da Ação Integralista Brasileira.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "do Partido Comunista do Brasil.",
+        "correta": true
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "do Partido Trabalhista Nacional.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "da União Democrática Nacional.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "do Partido Republicano Progressista.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "da Ação Integralista Brasileira.",
+    "alternativa_b": "do Partido Comunista do Brasil.",
+    "alternativa_c": "do Partido Trabalhista Nacional.",
+    "alternativa_d": "da União Democrática Nacional.",
+    "alternativa_e": "do Partido Republicano Progressista.",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: B."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q044",
+    "codigo": "PMMA2006-044",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 44,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "topico": "Hist?ria, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "O governo de João Goulart definiu seu perfil através da campanha pelas reformas de base. Essas reformas contrariaram interesses de grupos que se aliaram para derrubá-lo. Identifique a alternativa que está em DESACORDO com as reformas de base.",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "Uma reforma agrária visando garantir a democratização do acesso a terra aos lavradores.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "Uma reforma tributária visando corrigir a desigualdade da distribuição de encargos entre capital e trabalho.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "Uma reforma administrativa que acabasse com a burocracia e a corrupção no serviço público.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "Uma reforma eleitoral que proporcionasse o direito de voto a todos os brasileiros adultos, inclusive os analfabetos.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "Uma reforma bancária visando facilitar as remessas de lucros das multinacionais para o exterior.",
+        "correta": true
+      }
+    ],
+    "alternativa_a": "Uma reforma agrária visando garantir a democratização do acesso a terra aos lavradores.",
+    "alternativa_b": "Uma reforma tributária visando corrigir a desigualdade da distribuição de encargos entre capital e trabalho.",
+    "alternativa_c": "Uma reforma administrativa que acabasse com a burocracia e a corrupção no serviço público.",
+    "alternativa_d": "Uma reforma eleitoral que proporcionasse o direito de voto a todos os brasileiros adultos, inclusive os analfabetos.",
+    "alternativa_e": "Uma reforma bancária visando facilitar as remessas de lucros das multinacionais para o exterior.",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: E."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q045",
+    "codigo": "PMMA2006-045",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 45,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "topico": "Hist?ria, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "A partir do final da década de 1970, o regime militar começava a apresentar sinais de desgaste em razão das pressões da sociedade brasileira. Contribuíram para esse desgaste",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "a queda progressiva dos índices de inflação e as vitórias sucessivas da ARENA nas eleições parlamentares.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "a aprovação da Lei da Anistia Ampla, Geral e Irrestrita e a queda dos preços dos gêneros de primeira necessidade.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "a crise do petróleo e os elevados índices de popularidade dos partidos que davam sustentação ao governo.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "as vitórias sucessivas do Movimento Democrático Brasileiro nas eleições e o crescimento do movimento sindical no ABC paulista.",
+        "correta": true
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "as privatizações realizadas pelo governo e as manifestações populares contra os efeitos do Plano Cruzado.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "a queda progressiva dos índices de inflação e as vitórias sucessivas da ARENA nas eleições parlamentares.",
+    "alternativa_b": "a aprovação da Lei da Anistia Ampla, Geral e Irrestrita e a queda dos preços dos gêneros de primeira necessidade.",
+    "alternativa_c": "a crise do petróleo e os elevados índices de popularidade dos partidos que davam sustentação ao governo.",
+    "alternativa_d": "as vitórias sucessivas do Movimento Democrático Brasileiro nas eleições e o crescimento do movimento sindical no ABC paulista.",
+    "alternativa_e": "as privatizações realizadas pelo governo e as manifestações populares contra os efeitos do Plano Cruzado.",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: D."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q046",
+    "codigo": "PMMA2006-046",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 46,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "topico": "Hist?ria, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "No início do século XVII, os franceses fundaram a França Equinocial, no Maranhão. Identifique os fatos históricos associados a essa colonização. I. Daniel de La Touche autorizou a difusão da religião protestante entre os indígenas. II. Os franceses construíram o forte que denominaram São Luís, em homenagem ao rei francês. III. Um dos ordenamentos era a conversão da população ao cristianismo, segundo o rei da França. IV. A França Equinocial foi fundada conforme as normas do Tratado de Tordesilhas. É correto APENAS",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "I e II.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "I e III.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "II e III.",
+        "correta": true
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "II e IV.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "III e IV.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "I e II.",
+    "alternativa_b": "I e III.",
+    "alternativa_c": "II e III.",
+    "alternativa_d": "II e IV.",
+    "alternativa_e": "III e IV.",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: C."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q047",
+    "codigo": "PMMA2006-047",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 47,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "topico": "Hist?ria, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Em 1684, eclodiu uma revolta de proprietários de terra no Maranhão, conhecida por Revolta de Bequimão. Os revoltosos posicionaram-se",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "contra o monopólio da companhia de comércio e contra os jesuítas.",
+        "correta": true
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "contra a escravidão dos africanos e dos indígenas maranhenses.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "a favor da catequização dos indígenas realizada pelos jesuítas.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "a favor do monopólio real sobre a exploração dos produtos da região.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "contra a expulsão dos jesuítas determinada pela coroa portuguesa.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "contra o monopólio da companhia de comércio e contra os jesuítas.",
+    "alternativa_b": "contra a escravidão dos africanos e dos indígenas maranhenses.",
+    "alternativa_c": "a favor da catequização dos indígenas realizada pelos jesuítas.",
+    "alternativa_d": "a favor do monopólio real sobre a exploração dos produtos da região.",
+    "alternativa_e": "contra a expulsão dos jesuítas determinada pela coroa portuguesa.",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: A."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q048",
+    "codigo": "PMMA2006-048",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 48,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "topico": "Hist?ria, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "A Batalha do Jenipapo foi um movimento",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "contra as forças nacionalistas que lutavam pela independência política do Brasil.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "decisivo para consolidar a independência e a configuração geográfica do Brasil.",
+        "correta": true
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "organizado pelos portugueses para resistir ao processo de independência do Brasil.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "idealizado pela burguesia, que defendia o pacto colonial entre Portugal e Brasil.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "promovido pelos estados do Nordeste que pretendiam se separar do Brasil.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "contra as forças nacionalistas que lutavam pela independência política do Brasil.",
+    "alternativa_b": "decisivo para consolidar a independência e a configuração geográfica do Brasil.",
+    "alternativa_c": "organizado pelos portugueses para resistir ao processo de independência do Brasil.",
+    "alternativa_d": "idealizado pela burguesia, que defendia o pacto colonial entre Portugal e Brasil.",
+    "alternativa_e": "promovido pelos estados do Nordeste que pretendiam se separar do Brasil.",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: B."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q049",
+    "codigo": "PMMA2006-049",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 49,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "topico": "Hist?ria, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "A Balaiada foi uma revolta no Maranhão, no período regencial (1831-1840). Identifique as afirmações corretas sobre o contexto em que emergiu. I. Limitou-se a uma disputa entre as elites locais (conservadores x liberais). II. As divergências entre líderes e a falta de unidade acarretaram o declínio do movimento. III. Os líderes populares eram liberais e buscavam uma República democrática e a distribuição igualitária da terra. IV. A revolta aglutinou imensa massa de excluídos, atemorizando os grandes proprietários. Está correto APENAS",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "I e II.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "I e III.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "II e III.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "II e IV.",
+        "correta": true
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "III e IV.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "I e II.",
+    "alternativa_b": "I e III.",
+    "alternativa_c": "II e III.",
+    "alternativa_d": "II e IV.",
+    "alternativa_e": "III e IV.",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: D."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q050",
+    "codigo": "PMMA2006-050",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 50,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "topico": "Hist?ria, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "O editorial de 18/11/1891 do jornal \"Pacotilha\", ao avaliar os dois primeiros anos de República, afirma que, tão logo fora nomeada a Junta Governativa em 1889, tornou-se difícil encontrar monarquistas no Maranhão. A análise do texto permite afirmar que",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "não havia políticos monarquistas no Maranhão antes do novo regime.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "os \"republicanos de 16 de novembro\" proclamaram a República no Maranhão.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "os maranhenses republicanos demitiram os monarquistas dos cargos políticos.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "os republicanos maranhenses condenaram os monarquistas ao exílio político.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "os monarquistas maranhenses não tiveram receio em aderir ao novo regime.",
+        "correta": true
+      }
+    ],
+    "alternativa_a": "não havia políticos monarquistas no Maranhão antes do novo regime.",
+    "alternativa_b": "os \"republicanos de 16 de novembro\" proclamaram a República no Maranhão.",
+    "alternativa_c": "os maranhenses republicanos demitiram os monarquistas dos cargos políticos.",
+    "alternativa_d": "os republicanos maranhenses condenaram os monarquistas ao exílio político.",
+    "alternativa_e": "os monarquistas maranhenses não tiveram receio em aderir ao novo regime.",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: E."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q052",
+    "codigo": "PMMA2006-052",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 52,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "topico": "Hist?ria, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Considere os versos: \"Vou-me embora pra cidade / Nem sou amigo do rei / Quem sabe encontro um trabalho / Pois terras, não mais verei\". Da leitura dos versos destacam-se dois problemas socioeconômicos encontrados em todo o Brasil. São eles:",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "os problemas do Sertão e o desemprego nas cidades.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "as diferenças entre as classes sociais e o aumento do trabalho informal.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "o crescimento urbano e a modernização da pecuária.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "o êxodo rural e a concentração de terras.",
+        "correta": true
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "a violência no campo e o inchaço urbano.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "os problemas do Sertão e o desemprego nas cidades.",
+    "alternativa_b": "as diferenças entre as classes sociais e o aumento do trabalho informal.",
+    "alternativa_c": "o crescimento urbano e a modernização da pecuária.",
+    "alternativa_d": "o êxodo rural e a concentração de terras.",
+    "alternativa_e": "a violência no campo e o inchaço urbano.",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: D."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q053",
+    "codigo": "PMMA2006-053",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 53,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "topico": "Hist?ria, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Segundo o IBGE, em 1960 apenas duas cidades brasileiras tinham população superior a 1 milhão de habitantes, enquanto em 2000 eram 12. Sobre essas cidades milionárias é correto afirmar que",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "o rápido crescimento provocou uma série de problemas sociais e ambientais, até hoje difíceis de solucionar.",
+        "correta": true
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "estão concentradas nas regiões Sudeste e Centro-Oeste e formam regiões metropolitanas.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "seu crescimento, nas duas últimas décadas, foi promovido por políticas públicas de planejamento urbano.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "tiveram pequena influência na transformação do espaço nacional, pois têm poucas relações entre si.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "estão distribuídas equitativamente por todas as regiões, sendo que o Sudeste abriga 3 dessas cidades.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "o rápido crescimento provocou uma série de problemas sociais e ambientais, até hoje difíceis de solucionar.",
+    "alternativa_b": "estão concentradas nas regiões Sudeste e Centro-Oeste e formam regiões metropolitanas.",
+    "alternativa_c": "seu crescimento, nas duas últimas décadas, foi promovido por políticas públicas de planejamento urbano.",
+    "alternativa_d": "tiveram pequena influência na transformação do espaço nacional, pois têm poucas relações entre si.",
+    "alternativa_e": "estão distribuídas equitativamente por todas as regiões, sendo que o Sudeste abriga 3 dessas cidades.",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: A."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q054",
+    "codigo": "PMMA2006-054",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 54,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "topico": "Hist?ria, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Desde seu início efetivo, na década de 1950, o processo de industrialização brasileiro passou por várias transformações. Uma das mais recentes é",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "a elevada robotização nas linhas de montagem, uma das maiores do mundo ocidental.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "a forte participação do Estado na construção e manutenção dos principais parques industriais do País.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "a desativação das indústrias de bens de produção, pois grande parte era considerada obsoleta.",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "o crescente aumento de sua participação no PIB brasileiro, atualmente por volta de 70%.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "a relativa desconcentração, pois várias indústrias saíram do eixo São Paulo/Rio para outras regiões.",
+        "correta": true
+      }
+    ],
+    "alternativa_a": "a elevada robotização nas linhas de montagem, uma das maiores do mundo ocidental.",
+    "alternativa_b": "a forte participação do Estado na construção e manutenção dos principais parques industriais do País.",
+    "alternativa_c": "a desativação das indústrias de bens de produção, pois grande parte era considerada obsoleta.",
+    "alternativa_d": "o crescente aumento de sua participação no PIB brasileiro, atualmente por volta de 70%.",
+    "alternativa_e": "a relativa desconcentração, pois várias indústrias saíram do eixo São Paulo/Rio para outras regiões.",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: E."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q056",
+    "codigo": "PMMA2006-056",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 56,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "topico": "Hist?ria, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "São Luís, capital do Maranhão, foi elevada pelo IBGE à condição de metrópole emergente. Uma das condições necessárias para essa classificação é",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "ter uma densidade demográfica igual ou superior a 60 hab./km².",
+        "correta": true
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "possuir mais de 50% da população ativa empregada na indústria.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "polarizar uma região com extensão superior a 500 mil km².",
+        "correta": false
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "apresentar uma conurbação com pelo menos 10 municípios.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "contar com mais de 200 anos de fundação.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "ter uma densidade demográfica igual ou superior a 60 hab./km².",
+    "alternativa_b": "possuir mais de 50% da população ativa empregada na indústria.",
+    "alternativa_c": "polarizar uma região com extensão superior a 500 mil km².",
+    "alternativa_d": "apresentar uma conurbação com pelo menos 10 municípios.",
+    "alternativa_e": "contar com mais de 200 anos de fundação.",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: A."
+  },
+  {
+    "id": "pmma-soldado-combatente-2006-fcc-q058",
+    "codigo": "PMMA2006-058",
+    "orgao": "PMMA",
+    "cargo": "Soldado Combatente",
+    "ano": 2006,
+    "banca": "FCC",
+    "formato": "multipla_escolha",
+    "numero": 58,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "topico": "Hist?ria, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "A extensa faixa litorânea maranhense garante vantagens ao estado. Considere as atividades: I. Importante produção salineira, a maior do Nordeste. II. Grande produção de frutos do mar (camarão, caranguejo e sururu). III. Intensa movimentação dos portos de exportação de alumínio e ferro, entre outros. IV. Grande exploração de tanino e madeiras aromáticas das áreas de mangues. Está correto APENAS",
+    "alternativas": [
+      {
+        "id": "a",
+        "letra": "A",
+        "texto": "I e II.",
+        "correta": false
+      },
+      {
+        "id": "b",
+        "letra": "B",
+        "texto": "I e III.",
+        "correta": false
+      },
+      {
+        "id": "c",
+        "letra": "C",
+        "texto": "II e III.",
+        "correta": true
+      },
+      {
+        "id": "d",
+        "letra": "D",
+        "texto": "II e IV.",
+        "correta": false
+      },
+      {
+        "id": "e",
+        "letra": "E",
+        "texto": "III e IV.",
+        "correta": false
+      }
+    ],
+    "alternativa_a": "I e II.",
+    "alternativa_b": "I e III.",
+    "alternativa_c": "II e III.",
+    "alternativa_d": "II e IV.",
+    "alternativa_e": "III e IV.",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FCC",
+    "concurso": "PM-MA Soldado Combatente 2006",
+    "comentario": "Quest?o oficial PM-MA Soldado Combatente 2006. Banca: FCC. Gabarito: C."
   }
 ]

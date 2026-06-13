@@ -112,7 +112,7 @@ async function loadRemote(filters = {}) {
       .limit(600),
     supabase
       .from("caderno_erros")
-      .select("questao_id,created_at,data")
+      .select("questao_id,created_at")
       .eq("user_id", userId),
     safeReviewRows(userId),
   ]);
@@ -127,7 +127,7 @@ async function loadRemote(filters = {}) {
 
   const cadernoDates = new Map();
   (cadernoRes.data || []).forEach((item) => {
-    if (item.questao_id) cadernoDates.set(item.questao_id, item.created_at || item.data || today());
+    if (item.questao_id) cadernoDates.set(item.questao_id, item.created_at || today());
   });
 
   const stateByQuestion = new Map();

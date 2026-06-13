@@ -13,7 +13,7 @@ export function useAI() {
     cancelRef.current = aiService.stream(prompt, setStreamText, (finalText) => {
       setIsStreaming(false);
       onDone?.(finalText);
-    }, options.perfil, options.desempenho, options.historico);
+    }, options.perfil, options.desempenho, options.historico, { tier: options.tier, extraContext: options.extraContext });
   }, []);
 
   return { streamText, isStreaming, sendPrompt };

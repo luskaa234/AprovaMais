@@ -1,6 +1,7 @@
 import { getCurrentUserId, isSupabaseConfigured, supabase } from "../lib/supabase";
 import { useFlashcardsStore } from "../stores";
 import { applySm2 } from "../utils";
+import { aiService } from "./aiService";
 
 let localDecksCache = null;
 
@@ -97,8 +98,46 @@ export const flashcardsService = {
     }
     return useFlashcardsStore.getState().avaliar(card.id, quality);
   },
-  async gerarDeckIA(prompt) {
-    return useFlashcardsStore.getState().gerarDeckIA(prompt);
+  async gerarDeckIA(prompt, options = {}) {
+    const assunto = String(prompt || options.assunto || options.materia || "Revisão geral").trim();
+    const cards = await aiService.gerarFlashcards(assunto, options.materia || assunto, options.quantidade || 6);
+    return this.criarDeckPersonalizado({
+      titulo: `Deck IA: ${assunto}`,
+      materia: options.materia || assunto,
+      concurso: options.concurso || "Geral",
+      assunto,
+      origem: "ia",
+      cards,
+    });
+  },
+  async criarDeckPersonalizado(payload = {}) {
+    const today = new Date().toISOString().slice(0, 10);
+    const cards = (payload.cards || []).map((card, index) => ({
+      id: card.id || `ia-card-${Date.now()}-${index}`,
+      frente: card.frente || card.pergunta || "Pergunta",
+      verso: card.verso || card.resposta || "Resposta",
+      easeFactor: 2.5,
+      interval: 1,
+      repetitions: 0,
+      dueAt: today,
+      assunto: payload.assunto || card.assunto,
+      subassunto: card.subassunto,
+      dificuldade: card.dificuldade || "medio",
+      origem: payload.origem || "ia",
+    }));
+    const deck = {
+      id: payload.id || `deck-ia-${Date.now()}`,
+      titulo: payload.titulo || `Deck IA: ${payload.materia || "Geral"}`,
+      materia: payload.materia || "Geral",
+      concurso: payload.concurso || "Geral",
+      assunto: payload.assunto || payload.materia || "Geral",
+      origem: payload.origem || "ia",
+      retencao: 0,
+      cards,
+    };
+    useFlashcardsStore.setState((state) => ({ decks: [deck, ...state.decks] }));
+    localDecksCache = null;
+    return deck;
   },
   async criarFlashcard(payload = {}) {
     const card = {

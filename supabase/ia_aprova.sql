@@ -1,5 +1,7 @@
 -- Cache e auditoria leve de uso da IA do Aprova+.
 -- Rode no SQL Editor antes de usar a Edge Function ia-aprova.
+-- Configure a chave apenas como secret server-side:
+-- supabase secrets set OPENROUTER_API_KEY=sk-or-...
 
 create extension if not exists "uuid-ossp";
 
@@ -7,7 +9,7 @@ create table if not exists public.ai_cache (
   id uuid primary key default uuid_generate_v4(),
   cache_key text not null unique,
   task text not null,
-  provider text not null default 'gemini',
+  provider text not null default 'openrouter',
   model text not null,
   prompt_hash text,
   response text not null,

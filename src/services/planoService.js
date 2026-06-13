@@ -255,6 +255,7 @@ ${JSON.stringify({
 }, null, 2)}
 
 Data inicial da semana: ${isoDate(startDate)}
+Pedido especifico do aluno: ${user.aiPedido || "sem pedido adicional"}
 Regras: distribua matérias importantes, alterne teoria/questões/revisão e inclua TAF se for objetivo policial ou militar.`;
     try {
       const text = await aiService.gerarTexto(prompt, {
@@ -263,11 +264,12 @@ Regras: distribua matérias importantes, alterne teoria/questões/revisão e inc
         maxOutputTokens: 900,
         perfil: user,
         cache: false,
+        tier: "barato",
       });
       const parsed = parseAiActivities(text, user, startDate);
       return parsed.length ? parsed : fallback;
     } catch (error) {
-      console.warn("[planoService] Gemini falhou ao gerar plano, usando fallback:", error.message);
+      console.warn("[planoService] IA falhou ao gerar plano, usando fallback:", error.message);
       return fallback;
     }
   },
@@ -277,6 +279,32 @@ Regras: distribua matérias importantes, alterne teoria/questões/revisão e inc
       saved.push(await this.criarAtividade(activity));
     }
     return saved;
+  },
+  async aplicarPedidoDoAssistente({ pedido = "", user = {}, startDate = new Date(), replaceGenerated = true } = {}) {
+    const atuais = await this.getAtividades();
+    if (replaceGenerated) {
+      const geradas = atuais.filter((item) => item.generated);
+      for (const activity of geradas) {
+        await this.removerAtividade(activity.id);
+      }
+    }
+    const atividades = await this.gerarSemanaInteligente({
+      user: { ...user, aiPedido: pedido },
+      startDate,
+    });
+    const saved = await this.criarAtividadesEmLote(atividades);
+    return {
+      action: "plano_atualizado",
+      savedCount: saved.length,
+      replacedGenerated: replaceGenerated,
+      preview: saved.slice(0, 6).map((item) => ({
+        date: item.date,
+        hour: item.hour,
+        title: item.title,
+        materia: item.materia,
+        type: item.type,
+      })),
+    };
   },
   async getSugestao() {
     return "Redistribua 20 min de Informatica para Constitucional nesta semana.";

@@ -1,6 +1,7 @@
 import { normalize, normalizeContentText } from "../utils";
 import { getCurrentUserId, isSupabaseConfigured, supabase } from "../lib/supabase";
 import { useQuestoesStore } from "../stores";
+import { aiService } from "./aiService";
 
 const letras = ["a", "b", "c", "d", "e"];
 let localQuestoesCache = null;
@@ -83,7 +84,7 @@ function isCorrectAnswer(questao, alternativaId) {
 
 function shouldRetryWithoutOptionalColumns(error) {
   const message = normalize(`${error?.message || ""} ${error?.details || ""} ${error?.hint || ""}`);
-  return message.includes("materia") || message.includes("data") || message.includes("column") || message.includes("schema cache");
+  return message.includes("materia") || message.includes("column") || message.includes("schema cache");
 }
 
 async function insertTentativaSupabase({ userId, questao, alternativaId, acertou, tempo }) {
@@ -94,27 +95,21 @@ async function insertTentativaSupabase({ userId, questao, alternativaId, acertou
     acertou,
     tempo_gasto: tempo,
     materia: questao.materiaLabel || questao.materia || "Não informada",
-    data: new Date().toISOString(),
+    created_at: new Date().toISOString(),
   };
   const { error } = await supabase.from("tentativas").insert(payload);
   if (!error) return;
   if (!shouldRetryWithoutOptionalColumns(error)) throw error;
   const legacyPayload = { ...payload };
   delete legacyPayload.materia;
-  delete legacyPayload.data;
   const retry = await supabase.from("tentativas").insert(legacyPayload);
   if (retry.error) throw retry.error;
 }
 
 async function upsertCadernoSupabase({ userId, questaoId }) {
-  const payload = { user_id: userId, questao_id: questaoId, data: new Date().toISOString() };
+  const payload = { user_id: userId, questao_id: questaoId, created_at: new Date().toISOString() };
   const { error } = await supabase.from("caderno_erros").upsert(payload);
-  if (!error) return;
-  if (!shouldRetryWithoutOptionalColumns(error)) throw error;
-  const legacyPayload = { ...payload };
-  delete legacyPayload.data;
-  const retry = await supabase.from("caderno_erros").upsert(legacyPayload);
-  if (retry.error) throw retry.error;
+  if (error) throw error;
 }
 
 async function removeCadernoSupabase({ userId, questaoId }) {
@@ -124,14 +119,9 @@ async function removeCadernoSupabase({ userId, questaoId }) {
 
 async function syncSalvaSupabase({ userId, questaoId, saved }) {
   if (saved) {
-    const payload = { user_id: userId, questao_id: questaoId, data: new Date().toISOString() };
+    const payload = { user_id: userId, questao_id: questaoId, created_at: new Date().toISOString() };
     const { error } = await supabase.from("questoes_salvas").upsert(payload);
-    if (!error) return;
-    if (!shouldRetryWithoutOptionalColumns(error)) throw error;
-    const legacyPayload = { ...payload };
-    delete legacyPayload.data;
-    const retry = await supabase.from("questoes_salvas").upsert(legacyPayload);
-    if (retry.error) throw retry.error;
+    if (error) throw error;
     return;
   }
   const { error } = await supabase.from("questoes_salvas").delete().eq("user_id", userId).eq("questao_id", questaoId);
@@ -457,6 +447,41 @@ function findCachedQuestaoById(id) {
     if (found) return found;
   }
   return null;
+}
+
+function parseJsonFromAi(text = "") {
+  return JSON.parse(String(text || "").replace(/```json|```/g, "").trim());
+}
+
+function mapGeneratedQuestion(item = {}, index = 0, defaults = {}) {
+  const alternativas = Array.isArray(item.alternativas) ? item.alternativas : [];
+  const gabarito = String(item.gabarito || item.resposta || "a").toLowerCase().slice(0, 1);
+  return {
+    id: `ia-${Date.now()}-${index}`,
+    codigo: `IA-${Date.now()}-${index}`,
+    enunciado: normalizeContentText(item.enunciado || item.pergunta || "Questão gerada pela IA."),
+    tipo: "multipla_escolha",
+    alternativas: alternativas.slice(0, 5).map((alt, altIndex) => {
+      const letra = String(alt.letra || String.fromCharCode(65 + altIndex)).toLowerCase().slice(0, 1);
+      return {
+        id: letra,
+        letra: letra.toUpperCase(),
+        texto: normalizeContentText(alt.texto || alt),
+        correta: letra === gabarito,
+      };
+    }),
+    gabarito,
+    comentario: normalizeContentText(item.comentario || item.explicacao || "Revise o fundamento cobrado antes de avançar."),
+    banca: "Inédita",
+    concurso: defaults.concurso || "Treino IA",
+    materia: defaults.materia || item.materia || "Geral",
+    assunto: defaults.assunto || item.assunto || defaults.materia || "Geral",
+    origem: "ia",
+    official: false,
+    dificuldade: item.dificuldade || defaults.dificuldade || "medio",
+    tags: ["ia", defaults.materia, defaults.assunto].filter(Boolean),
+    estatisticas: { tentativas: 0, acertos: 0 },
+  };
 }
 
 /**
@@ -805,6 +830,32 @@ export const questoesService = {
   },
   async reportar() {
     return { success: true };
+  },
+  async gerarQuestoesIA({ assunto = "", materia = "", concurso = "Geral", quantidade = 3, dificuldade = "medio", contexto = "" } = {}) {
+    const prompt = `Gere ${quantidade} questoes ineditas de multipla escolha para treino.
+Tema: ${assunto || materia || "revisao geral"}
+Materia: ${materia || "Geral"}
+Concurso: ${concurso}
+Dificuldade: ${dificuldade}
+Contexto fonte, se houver: ${contexto}
+
+Responda APENAS em JSON valido:
+{"questoes":[{"enunciado":"...","alternativas":[{"letra":"A","texto":"..."}],"gabarito":"A","comentario":"explicacao curta"}]}`;
+    const text = await aiService.gerarTexto(prompt, {
+      task: "explain_question",
+      responseFormat: "json",
+      maxOutputTokens: 1200,
+      cache: true,
+      cacheKey: `questoes-ia:${normalize(`${concurso}:${materia}:${assunto}:${quantidade}:${dificuldade}`)}`,
+      cacheTtlDays: 45,
+      tier: "barato",
+    });
+    const parsed = parseJsonFromAi(text);
+    const rows = (Array.isArray(parsed) ? parsed : parsed.questoes || []).slice(0, quantidade)
+      .map((item, index) => mapGeneratedQuestion(item, index, { assunto, materia, concurso, dificuldade }))
+      .filter((item) => item.enunciado && item.alternativas.length >= 2);
+    useQuestoesStore.setState((state) => ({ questoes: [...rows, ...state.questoes] }));
+    return rows;
   },
   filter(questoes, filters = {}) {
     return questoes.filter((q) => Object.entries(filters).every(([key, value]) => {

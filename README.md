@@ -30,7 +30,7 @@ O Aprova+ não é apenas um banco de questões: é um ecossistema de estudo que 
 | Front-end | React + Vite |
 | Estilo | CSS / design system próprio (identidade azul) |
 | Back-end / Banco | Supabase (PostgreSQL, Auth, RLS, Edge Functions) |
-| IA | Google Gemini |
+| IA | OpenRouter via Supabase Edge Function |
 | Pagamentos | Mercado Pago (Pix, cartão de crédito e débito) |
 | Deploy | Vercel |
 
@@ -65,7 +65,7 @@ Pré-requisitos: Node.js instalado.
 npm install
 
 # 2. Configurar variáveis de ambiente
-# Crie um arquivo .env com as chaves do Supabase, Gemini e Mercado Pago
+# Crie um arquivo .env com as chaves do Supabase, OpenRouter e Mercado Pago
 # (use o .env.example como referência)
 
 # 3. Rodar em modo de desenvolvimento
@@ -76,8 +76,22 @@ npm run build
 ```
 
 > **Importante:** o arquivo `.env` nunca deve ser versionado. As chaves secretas
-> (Access Token do Mercado Pago, service role do Supabase, chave do Gemini)
+> (Access Token do Mercado Pago, service role do Supabase, chave do OpenRouter)
 > ficam apenas no back-end / secrets, nunca no front-end.
+
+### IA com OpenRouter
+
+A IA do app roda na Edge Function `ia-aprova`, nunca no navegador. Configure a chave como secret do Supabase:
+
+```bash
+supabase secrets set OPENROUTER_API_KEY=sk-or-...
+```
+
+Para testar localmente a Edge Function:
+
+```bash
+supabase functions serve ia-aprova --env-file .env
+```
 
 ---
 

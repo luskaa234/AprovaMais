@@ -4,17 +4,21 @@ import { Toaster } from "sonner";
 import { AppProviders, useUser } from "./contexts";
 import PaymentCheckout from "./components/payment/PaymentCheckout";
 import { BrandSplash } from "./components";
+import UnifiedApp from "./pages/UnifiedApp";
 
 const ForgotPassword = lazy(() => import("./pages/ForgotPassword"));
 const Login = lazy(() => import("./pages/Login"));
 const Register = lazy(() => import("./pages/Register"));
 const ResetPassword = lazy(() => import("./pages/ResetPassword"));
 const AuthCallback = lazy(() => import("./pages/AuthCallback"));
-const UnifiedApp = lazy(() => import("./pages/UnifiedApp"));
 const AdminLayout = lazy(() => import("./admin/AdminLayout").then((module) => ({ default: module.AdminLayout })));
 
-function RouteFallback({ label = "Carregando Aprova+..." }) {
-  return <BrandSplash label={label} />;
+function RouteFallback({ label = "Carregando..." }) {
+  return (
+    <div className="grid min-h-screen place-items-center bg-white p-6 text-center text-sm font-semibold text-slate-500">
+      {label}
+    </div>
+  );
 }
 
 function AdminRoute() {

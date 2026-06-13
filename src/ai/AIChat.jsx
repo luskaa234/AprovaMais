@@ -1,160 +1,119 @@
 import { memo, useCallback, useEffect, useRef, useState } from "react";
-import { BookOpenCheck, Send } from "lucide-react";
+import { BookOpenCheck, CalendarCheck, Send, Trash2 } from "lucide-react";
 import { Button, Input } from "../components";
 import { useAI } from "../hooks";
-import { aiService } from "../services";
+import { aiService, planoService } from "../services";
 
-function readJsonStorage(key, fallback) {
+const welcomeMessage = {
+  role: "ai",
+  text: aiService.isConfigured
+    ? "Aprovinho ativo. Posso explicar, resumir, gerar materiais e atualizar seu plano quando voce pedir claramente."
+    : "Aprovinho indisponivel agora. Entre novamente ou tente em instantes.",
+};
+
+function readChatHistory(key) {
   try {
-    const value = localStorage.getItem(key);
-    return value ? JSON.parse(value) : fallback;
+    const saved = JSON.parse(localStorage.getItem(key) || "null");
+    return Array.isArray(saved) && saved.length ? saved : [welcomeMessage];
   } catch {
-    return fallback;
+    return [welcomeMessage];
   }
 }
 
-function writeJsonStorage(key, value) {
-  localStorage.setItem(key, JSON.stringify(value));
-  window.dispatchEvent(new StorageEvent("storage", { key, newValue: JSON.stringify(value) }));
+function shouldUpdateStudyPlan(prompt = "") {
+  const text = String(prompt).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  const asksPlan = /\b(plano|cronograma|calendario|agenda|rotina)\b/.test(text);
+  const asksChange = /\b(atualize|atualiza|gerar|gere|monte|montar|crie|criar|organize|organizar|refaca|recrie|ajuste|ajustar)\b/.test(text);
+  return asksPlan && asksChange;
 }
 
-function parseDays(text) {
-  const explicit = [...text.matchAll(/\b([0-3]?\d)\b/g)]
-    .map((match) => Number(match[1]))
-    .filter((day) => day >= 1 && day <= 31);
-  return [...new Set(explicit)];
-}
-
-function parseHour(text) {
-  const match = text.match(/(?:as|às|horario de|horário de)\s*(\d{1,2})(?::(\d{2}))?/i) || text.match(/\b(\d{1,2})\s*h\b/i);
-  if (!match) return "10:00";
-  const hour = String(Math.min(23, Number(match[1]))).padStart(2, "0");
-  const minute = String(Math.min(59, Number(match[2] || 0))).padStart(2, "0");
-  return `${hour}:${minute}`;
-}
-
-function detectLocalAction(prompt) {
-  const text = prompt.toLowerCase();
-  if (text.includes("programa") || text.includes("programacao") || text.includes("programação")) {
-    return { type: "set-focus-programming" };
-  }
-
-  if ((text.includes("atualize") || text.includes("adicione") || text.includes("coloque") || text.includes("agenda")) && text.includes("plano")) {
-    return { type: "schedule-study", days: parseDays(text), hour: parseHour(text) };
-  }
-
-  return null;
-}
-
-function currentMonthDate(day) {
-  const date = new Date();
-  return new Date(date.getFullYear(), date.getMonth(), day).toISOString().slice(0, 10);
-}
-
-function saveProgrammingFocus() {
-  const stored = readJsonStorage("aprova-user", {});
-  const state = stored.state || {};
-  const user = state.user || {};
-  const next = {
-    ...stored,
-    state: {
-      ...state,
-      user: {
-        ...user,
-        objective: "programacao",
-        targetContest: "Programação",
-        contestName: "Programação",
-        difficultSubjects: user.difficultSubjects?.length ? user.difficultSubjects : ["Lógica de programação", "JavaScript", "React"],
-        diagnosticPlan: {
-          ...(user.diagnosticPlan || {}),
-          objective: "programacao",
-          objectiveLabel: "Programação",
-          prioritySubjects: ["Lógica de programação", "JavaScript", "React", "Projetos práticos"],
-          weakSubjects: user.difficultSubjects?.length ? user.difficultSubjects : ["Lógica de programação", "JavaScript", "React"],
-          weeklyGoals: ["Construir 1 projeto pequeno", "Estudar 5 dias na semana", "Resolver exercícios de lógica"],
-          simulations: ["Desafio prático semanal", "Code review do projeto"],
-          evolutionForecast: "Evolução baseada em prática diária e projetos curtos.",
-        },
-      },
-    },
-  };
-  writeJsonStorage("aprova-user", next);
-}
-
-function saveSchedule(days, hour) {
-  const validDays = days.length ? days : [10, 11, 12];
-  const existing = readJsonStorage("aprova-plano-atividades", []);
-  const created = validDays.map((day) => ({
-    id: `ia-programacao-${currentMonthDate(day)}-${hour}`,
-    date: currentMonthDate(day),
-    hour,
-    title: "Estudo de programação",
-    materia: "Programação",
-    type: "Estudo",
-    duration: 90,
-    concurso: "Programação",
-    status: "Pendente",
-  }));
-
-  const createdIds = new Set(created.map((item) => item.id));
-  const next = [...created, ...existing.filter((item) => !createdIds.has(item.id))];
-  writeJsonStorage("aprova-plano-atividades", next);
-  return created;
+function getStatusLabel(status = {}) {
+  if (status.source === "cache") return "Resposta salva";
+  if (status.source === "code") return "Calculado no app";
+  if (status.source?.includes("missing-config")) return "Precisa de login";
+  if (status.source?.includes("error")) return "Tentando reconectar";
+  return "Pronto para responder";
 }
 
 export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
-  const [messages, setMessages] = useState([
-    { role: "ai", text: aiService.isConfigured ? "IA segura ativa via Edge Function. Eu calculo dados simples em codigo e chamo a IA so para explicar, orientar e personalizar." : "Supabase nao configurado. Vou responder com fallback local, sem chamar IA." },
-  ]);
+  const historyKey = `aprova-ai-chat-history:${perfil?.id || perfil?.email || "local"}`;
+  const [messages, setMessages] = useState(() => readChatHistory(historyKey));
   const [input, setInput] = useState("");
   const [aiStatus, setAiStatus] = useState(() => aiService.getStatus());
+  const [actionLoading, setActionLoading] = useState("");
   const endRef = useRef(null);
   const { streamText, isStreaming, sendPrompt } = useAI();
+  const chatTier = aiService.chatTier || "barato";
+  const busy = isStreaming || Boolean(actionLoading);
 
   const send = useCallback(
-    (prompt = input) => {
-      if (!prompt.trim()) return;
+    async (prompt = input) => {
+      if (!prompt.trim() || busy) return;
       const historico = messages.map((message) => ({ role: message.role === "ai" ? "model" : "user", text: message.text }));
       setMessages((items) => [...items, { role: "user", text: prompt }]);
       setInput("");
 
-      const localAction = detectLocalAction(prompt);
-      let actionContext = "";
-      if (localAction?.type === "set-focus-programming") {
-        saveProgrammingFocus();
-        actionContext = "Ação local já executada: foco do aluno atualizado para Programação.";
+      let extraContext = {};
+      if (shouldUpdateStudyPlan(prompt)) {
+        setActionLoading("Atualizando seu plano");
+        try {
+          const result = await planoService.aplicarPedidoDoAssistente({
+            pedido: prompt,
+            user: perfil,
+            startDate: new Date(),
+            replaceGenerated: true,
+          });
+          extraContext = {
+            ferramentaExecutada: {
+              nome: "plano_de_estudos",
+              resultado: result,
+              instrucao: "Avise que o plano foi atualizado diretamente no calendario e resuma as primeiras atividades criadas. Nao diga que apenas sugeriu.",
+            },
+          };
+        } catch (error) {
+          extraContext = {
+            ferramentaExecutada: {
+              nome: "plano_de_estudos",
+              erro: error?.message || "Falha ao atualizar plano.",
+              instrucao: "Avise que tentou atualizar o plano, mas nao conseguiu salvar agora. Oriente o aluno a tentar novamente.",
+            },
+          };
+        } finally {
+          setActionLoading("");
+        }
       }
 
-      if (localAction?.type === "schedule-study") {
-        saveProgrammingFocus();
-        const created = saveSchedule(localAction.days, localAction.hour);
-        const dates = created.map((item) => item.date.split("-").reverse().join("/")).join(", ");
-        actionContext = `Ação local já executada: ${created.length} blocos de Programação criados no Plano de Estudos para ${dates}, às ${localAction.hour}.`;
-      }
-
-      sendPrompt(actionContext ? `${prompt}\n\n${actionContext}\nResponda ao aluno confirmando a ação e orientando o próximo passo.` : prompt, (text) => {
+      sendPrompt(prompt, (text) => {
         setAiStatus(aiService.getStatus());
         setMessages((items) => [...items, { role: "ai", text }]);
-      }, { perfil, desempenho, historico });
+      }, { perfil, desempenho, historico, tier: chatTier, extraContext });
     },
-    [desempenho, input, messages, perfil, sendPrompt]
+    [busy, chatTier, desempenho, input, messages, perfil, sendPrompt]
   );
 
   const gerarRelatorio = useCallback(async () => {
-    const prompt = "Gerar meu relatório de desempenho";
-    setMessages((items) => [...items, { role: "user", text: prompt }]);
-    setInput("");
-    const resposta = await aiService.gerarRelatorio(perfil, desempenho);
-    setAiStatus(aiService.getStatus());
-    setMessages((items) => [...items, { role: "ai", text: resposta }]);
-  }, [desempenho, perfil]);
+    send("Gerar meu relatório de desempenho");
+  }, [send]);
+
+  const clearHistory = useCallback(() => {
+    localStorage.removeItem(historyKey);
+    setMessages([welcomeMessage]);
+  }, [historyKey]);
+
+  useEffect(() => {
+    setMessages(readChatHistory(historyKey));
+  }, [historyKey]);
+
+  useEffect(() => {
+    localStorage.setItem(historyKey, JSON.stringify(messages.slice(-40)));
+  }, [historyKey, messages]);
 
   useEffect(() => {
     endRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [messages, streamText]);
+  }, [messages, streamText, actionLoading]);
 
   const quickPrompts = [
-    "Montar plano de estudos",
+    "Atualize meu plano de estudos",
     "Quais minhas matérias mais fracas?",
     "Estratégia para reta final",
     "Explicar última questão errada",
@@ -162,73 +121,92 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
   ];
 
   return (
-    <div className="ai-chat flex h-full flex-col">
-      <div className="ai-chat-hero mb-4 flex items-center gap-4 rounded-lg border border-blue-200 bg-blue-50 p-4 text-slate-800">
+    <div className="ai-chat mx-auto flex h-full min-h-[calc(100vh-150px)] w-full max-w-5xl flex-col rounded-lg border border-blue-100 bg-white shadow-sm">
+      <div className="ai-chat-hero flex flex-col gap-4 border-b border-blue-100 bg-blue-50/80 p-4 text-slate-800 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex min-w-0 items-center gap-4">
         <span className="grid size-12 shrink-0 place-items-center rounded-xl bg-blue-600 text-white">
           <BookOpenCheck size={24} />
         </span>
-        <div>
+        <div className="min-w-0">
           <p className="text-xs font-black uppercase tracking-wide text-blue-700">Aprova Assistente</p>
           <h2 className="text-xl font-black">Seu tutor de revisão e questões</h2>
           <p className="text-sm text-slate-600">Peça explicações, planos curtos, revisões por assunto ou análise do seu desempenho.</p>
+          <div className="mt-2 flex flex-wrap gap-2">
           <span className="mt-2 inline-flex rounded-full bg-white px-2.5 py-1 text-xs font-black text-blue-700 ring-1 ring-blue-200">
-            {aiService.isConfigured ? aiService.modelName : "Fallback local"}
+            {aiService.isConfigured ? "Aprovinho ativo" : "Aprovinho indisponivel"}
           </span>
-          <span className="ml-2 mt-2 inline-flex rounded-full bg-blue-600 px-2.5 py-1 text-xs font-black text-white">
-            {aiStatus.source === "code" ? "Calculado em codigo" : aiStatus.source === "cache" ? "Resposta em cache" : aiStatus.source === "gemini" ? "Resposta via Gemini" : aiStatus.source?.includes("fallback") ? "Fallback local" : aiStatus.source?.includes("error") ? "Erro na IA" : "Aguardando teste"}
+          <span className="mt-2 inline-flex rounded-full bg-blue-600 px-2.5 py-1 text-xs font-black text-white">
+            {getStatusLabel(aiStatus)}
           </span>
+          </div>
+        </div>
+        </div>
+        <Button size="sm" variant="secondary" icon={Trash2} onClick={clearHistory}>Limpar</Button>
+      </div>
+
+      <div className="ai-chat-messages flex-1 overflow-auto bg-slate-50 p-3 sm:p-5">
+        <div className="mx-auto flex max-w-3xl flex-col gap-3">
+          {messages.map((message, index) => (
+            <div key={`${message.role}-${index}`} className={`flex gap-2 ${message.role === "user" ? "justify-end" : "justify-start"}`}>
+              <div className={`max-w-[88%] whitespace-pre-wrap rounded-lg px-4 py-3 text-sm leading-relaxed shadow-sm ${message.role === "user" ? "bg-blue-600 text-white" : "border border-blue-100 bg-white text-slate-800"}`}>
+                {message.text}
+              </div>
+            </div>
+          ))}
+          {actionLoading ? (
+            <div className="flex justify-start">
+              <div className="inline-flex items-center gap-2 rounded-lg border border-emerald-100 bg-emerald-50 px-4 py-3 text-sm font-semibold text-emerald-700">
+                <CalendarCheck size={16} />
+                {actionLoading}
+              </div>
+            </div>
+          ) : null}
+          {isStreaming ? (
+            <div className="flex justify-start">
+              <div className="max-w-[88%] whitespace-pre-wrap rounded-lg border border-blue-100 bg-white px-4 py-3 text-sm leading-relaxed text-slate-800 shadow-sm">
+                {streamText || (
+                  <span className="inline-flex items-center gap-2 text-slate-500">
+                    <span className="flex gap-1">
+                      <span className="animate-bounce">.</span>
+                      <span className="animate-bounce [animation-delay:150ms]">.</span>
+                      <span className="animate-bounce [animation-delay:300ms]">.</span>
+                    </span>
+                    Assistente digitando
+                  </span>
+                )}
+                {streamText ? <span className="animate-pulse">|</span> : null}
+              </div>
+            </div>
+          ) : null}
+          <div ref={endRef} />
         </div>
       </div>
 
-      <div className="ai-chat-messages flex-1 overflow-auto rounded-lg border border-gray-800 bg-gray-950 p-4">
-        {messages.map((message, index) => (
-          <div key={`${message.role}-${index}`} className={`mb-3 flex gap-2 ${message.role === "user" ? "justify-end" : "justify-start"}`}>
-            <div className={`max-w-[82%] whitespace-pre-wrap rounded-lg p-3 text-sm ${message.role === "user" ? "bg-blue-600 text-white" : "bg-gray-900 text-gray-200"}`}>
-              {message.text}
-            </div>
-          </div>
-        ))}
-        {isStreaming ? (
-          <div className="flex items-center gap-2 text-sm text-gray-400">
-            <div className="max-w-[82%] whitespace-pre-wrap rounded-lg bg-gray-900 p-3 text-sm text-gray-200">
-              {streamText || (
-                <span className="inline-flex items-center gap-2 text-gray-400">
-                  <span className="flex gap-1">
-                    <span className="animate-bounce">.</span>
-                    <span className="animate-bounce [animation-delay:150ms]">.</span>
-                    <span className="animate-bounce [animation-delay:300ms]">.</span>
-                  </span>
-                  Assistente digitando
-                </span>
-              )}
-              {streamText ? <span className="animate-pulse">|</span> : null}
-            </div>
-          </div>
-        ) : null}
-        <div ref={endRef} />
-      </div>
-
-      <div className="ai-chat-prompts mt-3 flex flex-wrap gap-2">
+      <div className="ai-chat-prompts border-t border-blue-100 bg-white px-3 py-3 sm:px-5">
+        <div className="flex gap-2 overflow-x-auto pb-1">
         {quickPrompts.map((chip) => (
           <button
             key={chip}
+            disabled={busy}
             onClick={() => send(chip)}
-            className="rounded-full bg-gray-900 px-3 py-2 text-xs font-semibold text-gray-300 hover:bg-blue-600 hover:text-white"
+            className="shrink-0 rounded-full border border-blue-100 bg-blue-50 px-3 py-2 text-xs font-semibold text-blue-700 hover:bg-blue-600 hover:text-white disabled:cursor-not-allowed disabled:opacity-50"
             type="button"
           >
             {chip}
           </button>
         ))}
         <button
+          disabled={busy}
           onClick={gerarRelatorio}
-          className="rounded-full bg-blue-600 px-3 py-2 text-xs font-semibold text-white hover:bg-blue-700"
+          className="shrink-0 rounded-full bg-blue-600 px-3 py-2 text-xs font-semibold text-white hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-50"
           type="button"
         >
           Gerar meu relatório de desempenho
         </button>
+        </div>
       </div>
 
-      <div className="ai-chat-composer mt-3 flex gap-2">
+      <div className="ai-chat-composer flex gap-2 border-t border-blue-100 bg-white p-3 sm:p-5">
         <Input
           value={input}
           onChange={(event) => setInput(event.target.value)}
@@ -240,8 +218,9 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
           }}
           placeholder="Digite sua pergunta"
           className="flex-1"
+          disabled={busy}
         />
-        <Button className="ai-chat-send-button" icon={Send} onClick={() => send()} aria-label="Enviar mensagem">
+        <Button className="ai-chat-send-button" disabled={busy || !input.trim()} icon={Send} loading={busy} onClick={() => send()} aria-label="Enviar mensagem">
           Enviar
         </Button>
       </div>

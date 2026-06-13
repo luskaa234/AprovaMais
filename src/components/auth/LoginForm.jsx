@@ -1,5 +1,6 @@
 import { zodResolver } from "@hookform/resolvers/zod";
-import { Eye, LockKeyhole, Mail } from "lucide-react";
+import { Eye, EyeOff, LockKeyhole, Mail } from "lucide-react";
+import { useState } from "react";
 import { Controller, useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "sonner";
@@ -20,6 +21,7 @@ const loginSchema = z.object({
 function LoginForm() {
   const navigate = useNavigate();
   const { login, loginWithGoogle } = useUser();
+  const [showPassword, setShowPassword] = useState(false);
   const {
     register,
     control,
@@ -82,8 +84,16 @@ function LoginForm() {
         <Label htmlFor="password">Senha</Label>
         <div className="auth-input-wrap">
           <LockKeyhole size={18} />
-          <Input id="password" type="password" placeholder="Sua senha" {...register("password")} />
-          <Eye size={17} className="auth-input-action" />
+          <Input id="password" type={showPassword ? "text" : "password"} placeholder="Sua senha" {...register("password")} />
+          <button
+            aria-label={showPassword ? "Ocultar senha" : "Mostrar senha"}
+            aria-pressed={showPassword}
+            className="auth-input-action"
+            onClick={() => setShowPassword((current) => !current)}
+            type="button"
+          >
+            {showPassword ? <EyeOff size={17} /> : <Eye size={17} />}
+          </button>
         </div>
         {errors.password ? <p className="auth-error">{errors.password.message}</p> : null}
       </div>

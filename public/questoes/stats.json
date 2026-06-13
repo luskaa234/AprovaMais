@@ -1,6 +1,6 @@
 {
-  "totalDisponivel": 4376,
-  "totalExportado": 4376,
+  "totalDisponivel": 4414,
+  "totalExportado": 4414,
   "arquivos": [
     {
       "arquivo": "oab.json",
@@ -11,8 +11,8 @@
     {
       "arquivo": "militar.json",
       "area": "militar",
-      "total": 1811,
-      "exportado": 1811
+      "total": 1849,
+      "exportado": 1849
     }
   ]
 }

@@ -151,7 +151,7 @@ export const AdminLayout = memo(({ standalone = false }) => {
             <span className="text-xs font-black uppercase tracking-wide text-blue-600">Painel seguro</span>
             <h1 className="mt-1 text-3xl font-black text-slate-950">Administração Aprova+</h1>
             <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-500">
-              Ações sensíveis passam por Edge Functions com verificação de email admin e registro em auditoria.
+              Ações sensíveis exigem verificação de admin e ficam registradas em auditoria.
             </p>
           </div>
           <div className="flex flex-wrap gap-2">

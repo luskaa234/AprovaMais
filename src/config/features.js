@@ -1,1 +1,1 @@
-export const ASSISTENTE_ATIVO = false;
+export const ASSISTENTE_ATIVO = true;

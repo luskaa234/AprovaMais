@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { BarChart3, BookOpenCheck, Filter, RotateCcw, Search, Target, Trophy } from "lucide-react";
+import { BarChart3, BookOpenCheck, Filter, RotateCcw, Search, Sparkles, Target, Trophy } from "lucide-react";
 import { Button, Card, EmptyState, Input, Select } from "../../components";
 import { useNotifications, useUser } from "../../contexts";
 import { useQuestoes } from "../../hooks";
@@ -88,6 +88,8 @@ export default function QuestoesPage() {
   const caderno = useQuestoesStore((state) => state.caderno);
   const usingSupabaseUser = isSupabaseConfigured && Boolean(user?.id);
   const [remoteUserData, setRemoteUserData] = useState({ tentativas: [], salvas: [], caderno: [] });
+  const [generatedQuestions, setGeneratedQuestions] = useState([]);
+  const [generatingQuestions, setGeneratingQuestions] = useState(false);
 
   useEffect(() => {
     if (!usingSupabaseUser) return undefined;
@@ -174,6 +176,25 @@ export default function QuestoesPage() {
   }, [addNotification, usingSupabaseUser]);
 
   const onReport = useCallback(() => addNotification({ type: "warning", title: "Reporte enviado", message: "Nossa equipe revisará a questão." }), [addNotification]);
+  const generateAIQuestions = useCallback(async () => {
+    if (generatingQuestions) return;
+    setGeneratingQuestions(true);
+    try {
+      const rows = await questoesService.gerarQuestoesIA({
+        assunto: filters.assunto || filters.search || filters.materia || "treino geral",
+        materia: filters.materia || "",
+        concurso: filters.concurso || questoesService.getAreaLabel(filters.area || "geral"),
+        dificuldade: filters.dificuldade || "medio",
+        quantidade: 3,
+      });
+      setGeneratedQuestions((current) => [...rows, ...current]);
+      addNotification({ type: "success", title: "Questões geradas", message: `${rows.length} questões inéditas foram adicionadas ao topo do treino.` });
+    } catch {
+      addNotification({ type: "warning", title: "IA indisponível", message: "Não foi possível gerar questões agora." });
+    } finally {
+      setGeneratingQuestions(false);
+    }
+  }, [addNotification, filters, generatingQuestions]);
 
   const activeTentativas = usingSupabaseUser ? remoteUserData.tentativas : tentativas;
   const activeSalvas = usingSupabaseUser ? remoteUserData.salvas : salvas;
@@ -181,7 +202,14 @@ export default function QuestoesPage() {
   const resolved = activeTentativas.length;
   const correct = activeTentativas.filter((item) => item.acertou).length;
   const accuracy = resolved ? Math.round((correct / resolved) * 100) : 0;
-  const visible = questoes;
+  const visible = useMemo(() => {
+    const seen = new Set();
+    return [...generatedQuestions, ...questoes].filter((questao) => {
+      if (!questao?.id || seen.has(questao.id)) return false;
+      seen.add(questao.id);
+      return true;
+    });
+  }, [generatedQuestions, questoes]);
   const hasMore = visible.length < total;
   const isFirstLoading = isLoading && page === 1 && !visible.length;
   const visibleFilterCount = Object.entries(filters).filter(([key, value]) => !["area", "aleatorio", "seed", "questoesIds"].includes(key) && Boolean(value)).length;
@@ -254,6 +282,7 @@ export default function QuestoesPage() {
             {mobileFiltersOpen ? "Fechar filtros" : "Filtros"}{visibleFilterCount ? ` · ${visibleFilterCount}` : ""}
           </Button>
           <Button className="hidden xl:inline-flex" data-tour="tour-questoes-filters-toggle" icon={Filter} variant="secondary" onClick={() => setFiltersOpen((value) => !value)}>{filtersOpen ? "Ocultar filtros" : "Mostrar filtros"}</Button>
+          <Button icon={Sparkles} variant="secondary" loading={generatingQuestions} onClick={generateAIQuestions}>Gerar questões IA</Button>
           <Button icon={RotateCcw} variant="secondary" onClick={shuffleTraining}>Misturar treino</Button>
           <Button icon={RotateCcw} variant="ghost" onClick={() => resetTraining({ area: initialArea })}>Limpar</Button>
         </div>

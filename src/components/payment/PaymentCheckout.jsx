@@ -304,7 +304,7 @@ function PaymentCheckout() {
         )}
 
         {statusText ? <p className="payment-status">{statusText}</p> : null}
-        <p className="payment-security-note">A chave secreta e a confirmacao de acesso ficam nas Edge Functions. O numero do cartao e tokenizado pelo SDK oficial do Mercado Pago.</p>
+        <p className="payment-security-note">Seus dados sensiveis ficam protegidos no servidor. O numero do cartao e tokenizado pelo SDK oficial do Mercado Pago.</p>
       </div>
     </div>
   );

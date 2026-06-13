@@ -169,6 +169,7 @@ Responda APENAS em JSON, sem markdown:
         cache: true,
         cacheKey: `lei-flashcards:${artigo.id}`,
         cacheTtlDays: 180,
+        tier: "barato",
       });
       cards = parseJsonFromAi(resposta).slice(0, 5).map((card) => ({
         frente: normalizeContentText(card.frente),
@@ -210,6 +211,7 @@ JSON apenas: {"enunciado":"...","alternativas":[{"letra":"A","texto":"..."}],"ga
       cache: true,
       cacheKey: `lei-questao:${artigo.id}`,
       cacheTtlDays: 180,
+      tier: "forte",
     }));
     const questao = {
       id: `lei-${artigo.id}-${Date.now()}`,
@@ -244,6 +246,7 @@ ${artigo.texto}`;
       cache: true,
       cacheKey: `lei-explica:${artigo.id}:${normalize(objetivo)}`,
       cacheTtlDays: 180,
+      tier: "barato",
     });
   },
 
