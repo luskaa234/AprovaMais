@@ -246,7 +246,7 @@ export default function MapasMentaisPage() {
     if (filters.favorito === "sim" && !item.favorito) return false;
     if (filters.origem && item.origem !== filters.origem) return false;
     if (tab === "Favoritos" && !item.favorito) return false;
-    if (tab === "Recentes" && item.atualizadoEm < "2026-06-01") return false;
+    if (tab === "Recentes" && item.atualizadoEm < new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10)) return false;
     if (tab === "Meus mapas" && item.origem !== "usuario") return false;
     if (tab === "Plataforma" && item.origem !== "plataforma") return false;
     return true;
@@ -303,6 +303,20 @@ export default function MapasMentaisPage() {
     notify("Mapa removido", "O mapa saiu da lista ativa.");
   }, [notify]);
   const toggleFavorite = useCallback((map) => setOverrides((current) => ({ ...current, [map.id]: { ...(current[map.id] || {}), favorito: !map.favorito } })), []);
+  const shareMap = useCallback(async (map) => {
+    if (!map) return;
+    const shareData = { title: map.titulo, text: `Mapa mental: ${map.titulo} — ${map.materia}`, url: window.location.href };
+    try {
+      if (navigator.share) {
+        await navigator.share(shareData);
+      } else {
+        await navigator.clipboard.writeText(window.location.href);
+        notify("Link copiado", "Endereço da página copiado para a área de transferência.");
+      }
+    } catch {
+      // usuário cancelou — sem feedback de erro
+    }
+  }, [notify]);
   const markStudied = useCallback((map) => {
     setOverrides((current) => ({ ...current, [map.id]: { ...(current[map.id] || {}), estudado: true, atualizadoEm: new Date().toISOString().slice(0, 10) } }));
     notify("Mapa estudado", "Progresso registrado e plano atualizado.");
@@ -471,9 +485,9 @@ Nos principais: ${JSON.stringify(activeMap.root || {})}`, {
               <Button size="sm" variant="secondary" loading={aiLoading === "flashcards"} icon={Brain} onClick={generateFlashcards}>Gerar flashcards</Button>
               <Button size="sm" variant="secondary" loading={aiLoading === "summary"} icon={FileText} onClick={generateSummary}>Gerar resumo</Button>
               <Button size="sm" variant="secondary" loading={aiLoading === "questions"} icon={FileQuestion} onClick={generateQuestions}>Gerar questões</Button>
-              <Button size="sm" variant="ghost" icon={Download} onClick={() => notify("PDF preparado", "Download do mapa iniciado.")}>Baixar PDF</Button>
+              <Button size="sm" variant="ghost" icon={Download} onClick={() => window.print()}>Baixar PDF</Button>
               <Button size="sm" variant="ghost" icon={Printer} onClick={() => window.print()}>Imprimir</Button>
-              <Button size="sm" variant="ghost" icon={Share2} onClick={() => notify("Link copiado", "Mapa pronto para compartilhar.")}>Compartilhar</Button>
+              <Button size="sm" variant="ghost" icon={Share2} onClick={() => shareMap(activeMap)}>Compartilhar</Button>
               <Button size="sm" variant="ghost" icon={Edit3} onClick={() => activeMap && editMap(activeMap)}>Editar</Button>
               <Button size="sm" variant="danger" icon={Trash2} onClick={() => activeMap && deleteMap(activeMap)}>Excluir</Button>
             </div>

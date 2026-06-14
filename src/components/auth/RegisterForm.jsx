@@ -45,9 +45,13 @@ function RegisterForm() {
 
   const onSubmit = async ({ name, email, password }) => {
     try {
-      await createAccount(name, email, password);
-      toast.success("Conta criada. Seus 7 dias grátis foram iniciados.");
-      navigate("/");
+      const result = await createAccount(name, email, password);
+      if (result?.confirmationRequired) {
+        toast.success("Conta criada! Verifique seu e-mail para confirmar o cadastro.");
+      } else {
+        toast.success("Conta criada. Seus 7 dias grátis foram iniciados.");
+        navigate("/");
+      }
     } catch (error) {
       toast.error(error.message || "Não foi possível criar a conta.");
     }
@@ -122,7 +126,7 @@ function RegisterForm() {
             />
           )}
         />
-        <span>Li e aceito os termos de uso da Aprova+.</span>
+        <span>Li e aceito os termos de uso da VemAprovar.</span>
       </label>
       {errors.terms ? <p className="auth-error">{errors.terms.message}</p> : null}
 

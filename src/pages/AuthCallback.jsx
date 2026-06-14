@@ -9,23 +9,27 @@ export default function AuthCallback() {
   useEffect(() => {
     let alive = true;
 
-    async function finishAuth() {
-      try {
-        if (isSupabaseConfigured) {
-          const { error } = await supabase.auth.getSession();
-          if (error) throw error;
-        }
-        if (alive) navigate("/", { replace: true });
-      } catch (error) {
-        toast.error(error.message || "Não foi possível finalizar o login.");
-        if (alive) navigate("/login", { replace: true });
-      }
+    if (!isSupabaseConfigured) {
+      navigate("/", { replace: true });
+      return undefined;
     }
 
-    finishAuth();
+    // Wait for the SDK to complete the PKCE/implicit exchange before redirecting.
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+      if (!alive) return;
+      if ((event === "INITIAL_SESSION" || event === "SIGNED_IN") && session) {
+        subscription.unsubscribe();
+        navigate("/", { replace: true });
+      } else if (event === "INITIAL_SESSION" && !session) {
+        subscription.unsubscribe();
+        toast.error("Não foi possível finalizar o login. Tente novamente.");
+        navigate("/login", { replace: true });
+      }
+    });
 
     return () => {
       alive = false;
+      subscription.unsubscribe();
     };
   }, [navigate]);
 

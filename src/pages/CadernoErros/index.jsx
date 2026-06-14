@@ -2,9 +2,10 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { CheckCircle2, Filter, Layers, RefreshCw, Search, XCircle } from "lucide-react";
 import { Badge, Button, Card, EmptyState, Input, Select } from "../../components";
 import { StudyTimeChart } from "../../charts";
-import { useNotifications } from "../../contexts";
+import { useInternalRouter, useNotifications, useUser } from "../../contexts";
+import { isSupabaseConfigured, supabase } from "../../lib/supabase";
 import { Modal } from "../../modals";
-import { questoesService } from "../../services";
+import { flashcardsService, questoesService } from "../../services";
 import { useAsyncData } from "../../hooks";
 import { useQuestoesStore } from "../../stores";
 import { groupCount } from "../../utils";
@@ -15,10 +16,28 @@ export default function CadernoErrosPage() {
   const [extraQuestoes, setExtraQuestoes] = useState([]);
   const [superadas, setSuperadas] = useState([]);
   const { addNotification } = useNotifications();
+  const { navigate } = useInternalRouter();
+  const { user } = useUser();
   const caderno = useQuestoesStore((state) => state.caderno);
   const tentativas = useQuestoesStore((state) => state.tentativas);
   const errosSuperados = useQuestoesStore((state) => state.errosSuperados);
   const load = useCallback(() => questoesService.getAll(), []);
+
+  useEffect(() => {
+    if (!isSupabaseConfigured || !user?.id) return undefined;
+    let alive = true;
+    Promise.all([
+      supabase.from("tentativas").select("questao_id, acertou, created_at").eq("user_id", user.id),
+      supabase.from("caderno_erros").select("questao_id").eq("user_id", user.id),
+    ]).then(([tentativasRes, cadernoRes]) => {
+      if (!alive) return;
+      useQuestoesStore.setState({
+        tentativas: (tentativasRes.data || []).map((item) => ({ questaoId: item.questao_id, acertou: Boolean(item.acertou), data: item.created_at })),
+        caderno: (cadernoRes.data || []).map((item) => item.questao_id).filter(Boolean),
+      });
+    }).catch(() => {});
+    return () => { alive = false; };
+  }, [user?.id]);
   const { data = [] } = useAsyncData(load);
 
   const wrongMap = useMemo(() => new Map(tentativas.filter((item) => !item.acertou).map((item) => [item.questaoId, item])), [tentativas]);
@@ -57,6 +76,16 @@ export default function CadernoErrosPage() {
     addNotification({ type: "success", title: "Erro superado", message: "A questão saiu do caderno de erros." });
   }, [addNotification]);
 
+  const revisarAgora = useCallback((item) => {
+    sessionStorage.setItem("aprova-questoes-artigo-filter", JSON.stringify({ questoesIds: [item.id] }));
+    navigate("questoes");
+  }, [navigate]);
+
+  const criarFlashcard = useCallback(async (item) => {
+    await flashcardsService.criarFlashcard({ frente: item.enunciado, verso: item.comentario || item.gabarito, materia: item.materia });
+    addNotification({ type: "success", title: "Flashcard criado", message: "Erro convertido em card de revisão." });
+  }, [addNotification]);
+
   return (
     <div className="mx-auto max-w-[1500px]">
       <div className="mb-5 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
@@ -86,8 +115,8 @@ export default function CadernoErrosPage() {
                 <p className="mt-2 text-sm text-gray-400">Sua resposta: {String(tentativa?.resposta || "-").toUpperCase()} · Gabarito: {String(item.gabarito).toUpperCase()}</p>
                 <p className="mt-2 rounded-lg bg-gray-900 p-3 text-sm text-gray-300">{item.comentario}</p>
                 <div className="mt-3 flex flex-wrap gap-2">
-                  <Button size="sm" icon={RefreshCw}>Revisar agora</Button>
-                  <Button size="sm" variant="ghost" icon={Layers} onClick={() => addNotification({ type: "success", title: "Flashcard criado", message: "Erro convertido em card de revisão." })}>Criar flashcard</Button>
+                  <Button size="sm" icon={RefreshCw} onClick={() => revisarAgora(item)}>Revisar agora</Button>
+                  <Button size="sm" variant="ghost" icon={Layers} onClick={() => criarFlashcard(item)}>Criar flashcard</Button>
                   <Button size="sm" variant="ghost" icon={CheckCircle2} onClick={() => superado(item.id)}>Superado</Button>
                 </div>
               </Card>

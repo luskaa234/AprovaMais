@@ -606,6 +606,12 @@ export const questoesService = {
     return data.map(mapQuestao);
   },
   async getQuestoes(filters = {}) {
+    if (filters.aleatorio && isSupabaseConfigured) {
+      const state = useQuestoesStore.getState();
+      if (!state.tentativas.length && !state.caderno.length && !state.salvas.length) {
+        await this.loadUserState().catch(() => {});
+      }
+    }
     const limit = Number(filters.limit || 120);
     const candidates = [];
 
@@ -827,6 +833,25 @@ export const questoesService = {
       }
     }
     return { success: true, removed: localResult.removed };
+  },
+  async loadUserState() {
+    if (!isSupabaseConfigured) return null;
+    const userId = await getCurrentUserId();
+    if (!userId) return null;
+    try {
+      const [tentativasRes, salvasRes, cadernoRes] = await Promise.all([
+        supabase.from("tentativas").select("questao_id, acertou, created_at").eq("user_id", userId),
+        supabase.from("questoes_salvas").select("questao_id").eq("user_id", userId),
+        supabase.from("caderno_erros").select("questao_id").eq("user_id", userId),
+      ]);
+      const tentativas = (tentativasRes.data || []).map((item) => ({ questaoId: item.questao_id, acertou: Boolean(item.acertou), data: item.created_at }));
+      const salvas = (salvasRes.data || []).map((item) => item.questao_id).filter(Boolean);
+      const caderno = (cadernoRes.data || []).map((item) => item.questao_id).filter(Boolean);
+      useQuestoesStore.setState({ tentativas, salvas, caderno });
+      return { tentativas, salvas, caderno };
+    } catch {
+      return null;
+    }
   },
   async reportar() {
     return { success: true };

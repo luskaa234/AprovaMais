@@ -171,7 +171,7 @@ export default function SimuladosPage() {
     setResult(nextResult);
   }, [registrarResultado]);
 
-  if (result) return <SimuladoResultado result={result} onRedo={() => { setResult(null); startTemplate(templates[0]); }} onReview={() => setResult({ ...result, review: true })} />;
+  if (result) return <SimuladoResultado result={result} onRedo={() => { setResult(null); startTemplate(templates.find((t) => t.id === result.templateId) || templates[0]); }} onReview={() => setResult({ ...result, review: true })} />;
   if (active) return <SimuladoExecucao simulado={active} onFinish={finishSimulado} />;
 
   return (

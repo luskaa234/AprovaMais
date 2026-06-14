@@ -101,11 +101,13 @@ export default function QuestoesPage() {
         supabase.from("caderno_erros").select("questao_id").eq("user_id", user.id),
       ]);
       if (!alive) return;
-      setRemoteUserData({
+      const loaded = {
         tentativas: (tentativasRes.data || []).map((item) => ({ questaoId: item.questao_id, acertou: Boolean(item.acertou), data: item.created_at })),
         salvas: (salvasRes.data || []).map((item) => item.questao_id).filter(Boolean),
         caderno: (cadernoRes.data || []).map((item) => item.questao_id).filter(Boolean),
-      });
+      };
+      setRemoteUserData(loaded);
+      useQuestoesStore.setState(loaded);
     }
     loadUserQuestionState().catch(() => {
       if (alive) setRemoteUserData({ tentativas: [], salvas: [], caderno: [] });

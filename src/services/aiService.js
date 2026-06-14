@@ -79,8 +79,8 @@ function cleanJsonText(text = "") {
   return String(text || "").replace(/```json|```/g, "").trim();
 }
 
-function friendlyAIError(message = "") {
-  if (/autenticado|jwt|session|auth/i.test(message)) {
+function friendlyAIError(message = "", status) {
+  if (status === 401 || /autenticado|jwt|session|auth|401|unauthorized/i.test(message)) {
     return "Preciso que voce esteja logado para conversar com o Aprovinho. Entre novamente e tente de novo.";
   }
   return "Nao consegui falar com a IA agora. Tente de novo em instantes.";
@@ -127,8 +127,9 @@ async function invokeAI({ task = "chat", prompt = "", perfil = {}, desempenho = 
 
   if (error || data?.error) {
     const message = data?.error || error?.message || "Falha ao consultar IA.";
+    const status = error?.context?.status || error?.status;
     lastAIStatus = { source: "edge-error", modelName, error: message };
-    return { text: friendlyAIError(message), source: "edge-error", model: modelName };
+    return { text: friendlyAIError(message, status), source: "edge-error", model: modelName };
   }
 
   lastAIStatus = { source: data.source || "edge", modelName: data.model || modelName, error: "" };
@@ -262,7 +263,11 @@ export const aiService = {
       cacheTtlDays: 180,
       tier: "barato",
     });
-    return JSON.parse(cleanJsonText(text));
+    try {
+      return JSON.parse(cleanJsonText(text));
+    } catch {
+      return [];
+    }
   },
 
   stream(prompt, onChunk, onDone, perfil = {}, desempenho = {}, historico = [], options = {}) {

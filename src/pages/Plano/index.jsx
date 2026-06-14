@@ -148,7 +148,7 @@ function buildActivities(plano = [], monthDate, extraActivities = []) {
   return [...activities, ...extraActivities].sort((a, b) => `${a.date}-${a.hour}`.localeCompare(`${b.date}-${b.hour}`));
 }
 
-function applyFilters(activities, filters) {
+function applyFilters(activities, filters, viewedMonth) {
   return activities.filter((item) => {
     if (filters.materia && item.materia !== filters.materia) return false;
     if (filters.tipo && item.type !== filters.tipo) return false;
@@ -161,7 +161,7 @@ function applyFilters(activities, filters) {
       const current = new Date(item.date);
       if (current < start || current > end) return false;
     }
-    if (filters.periodo === "mes" && item.date.slice(0, 7) !== isoDate(new Date()).slice(0, 7)) return false;
+    if (filters.periodo === "mes" && item.date.slice(0, 7) !== isoDate(viewedMonth || new Date()).slice(0, 7)) return false;
     return true;
   });
 }
@@ -306,7 +306,7 @@ export default function PlanoPage() {
       timerStartedAt: timer.startedAt || null,
     };
   }), [baseActivities, nowMs, timers]);
-  const filteredActivities = useMemo(() => applyFilters(activities, filters), [activities, filters]);
+  const filteredActivities = useMemo(() => applyFilters(activities, filters, month), [activities, filters, month]);
   const monthDays = useMemo(() => buildMonthGrid(month), [month]);
   const selectedActivities = useMemo(() => filteredActivities.filter((item) => item.date === selectedDate), [filteredActivities, selectedDate]);
   const selectedMinutes = selectedActivities.reduce((sum, item) => sum + item.duration, 0);

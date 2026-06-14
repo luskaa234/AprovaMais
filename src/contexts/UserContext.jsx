@@ -70,7 +70,7 @@ async function upsertProfileWithFallback(payload, options = { onConflict: "id" }
 
   const minimalPayload = {
     id: normalizedPayload.id,
-    name: normalizedPayload.name || normalizedPayload.email?.split("@")?.[0] || "Aluno Aprova+",
+    name: normalizedPayload.name || normalizedPayload.email?.split("@")?.[0] || "Aluno VemAprovar",
     email: normalizedPayload.email,
     concurso_alvo: normalizedPayload.concurso_alvo,
     data_prova: normalizedPayload.data_prova,
@@ -149,7 +149,7 @@ export function UserProvider({ children }) {
 
     return upsertProfileWithFallback({
       id: user.id,
-      name: user.user_metadata?.name || user.email?.split("@")?.[0] || "Aluno Aprova+",
+      name: user.user_metadata?.name || user.email?.split("@")?.[0] || "Aluno VemAprovar",
       email: user.email,
       tour_completo: false,
       onboarding_completo: false,
@@ -171,7 +171,17 @@ export function UserProvider({ children }) {
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange(async (_event, session) => {
-      if (session?.user?.id) resetPersistedStudyStateForAuthUser(session.user.id);
+      if (session?.user?.id) {
+        resetPersistedStudyStateForAuthUser(session.user.id);
+        if (_event === "SIGNED_IN") {
+          const current = readLocalSession();
+          if (current?.registrationPending) {
+            const { registrationPending: _rp, planoAtivo: _pa, planoExpiraEm: _pe, emTeste: _et, ...rest } = current;
+            window.localStorage.setItem("aprovamais-session", JSON.stringify(rest));
+            setLocalSession(rest);
+          }
+        }
+      }
       setAuthUser(session?.user || null);
       setProfile(session?.user ? await ensureProfile(session.user) : null);
       setIsLoading(false);
@@ -198,12 +208,11 @@ export function UserProvider({ children }) {
 
   const register = useCallback(async (name, email, password) => {
     resetPersistedStudyStateForAuthUser(String(email || "").toLowerCase());
-    const trialEndsAt = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString();
-    const session = { email, name, registrationPending: true, loggedAt: new Date().toISOString(), planoAtivo: true, planoExpiraEm: trialEndsAt, emTeste: true };
+    const session = { email, name, registrationPending: true, loggedAt: new Date().toISOString() };
     if (!isSupabaseConfigured) {
       window.localStorage.setItem("aprovamais-session", JSON.stringify(session));
       setLocalSession(session);
-      updateUser({ name, email, onboardingComplete: false, planoAtivo: true, planoExpiraEm: trialEndsAt, emTeste: true, statusPlano: "trial" });
+      updateUser({ name, email, onboardingComplete: false, statusPlano: "trial" });
       return true;
     }
     const { data, error } = await supabase.auth.signUp({ email, password, options: { data: { name } } });
@@ -215,8 +224,9 @@ export function UserProvider({ children }) {
     }
     window.localStorage.setItem("aprovamais-session", JSON.stringify(session));
     setLocalSession(session);
-    updateUser({ name, email, onboardingComplete: false, loggedOut: false, planoAtivo: true, planoExpiraEm: trialEndsAt, emTeste: true, statusPlano: "trial" });
-    return true;
+    updateUser({ name, email, onboardingComplete: false, loggedOut: false, statusPlano: "trial" });
+    const confirmationRequired = !data.session && Boolean(data.user?.id);
+    return { confirmationRequired };
   }, [fetchProfile, updateUser]);
 
   const loginWithGoogle = useCallback(async () => {
@@ -363,7 +373,7 @@ export function UserProvider({ children }) {
       return {
         id: authUser.id,
         email: authUser.email,
-        name: authUser.user_metadata?.name || authUser.email?.split("@")[0] || "Aluno Aprova+",
+        name: authUser.user_metadata?.name || authUser.email?.split("@")[0] || "Aluno VemAprovar",
         role: "student",
         plano: "gratuito",
         statusPlano: "trial",
@@ -395,13 +405,13 @@ export function UserProvider({ children }) {
       return {
         id: null,
         email: localSession.email,
-        name: localSession.name || localSession.email?.split("@")?.[0] || "Aluno Aprova+",
+        name: localSession.name || localSession.email?.split("@")?.[0] || "Aluno VemAprovar",
         role: "student",
         plano: "gratuito",
         statusPlano: "trial",
-        planoAtivo: Boolean(localSession.planoAtivo),
-        planoExpiraEm: localSession.planoExpiraEm,
-        emTeste: Boolean(localSession.emTeste),
+        planoAtivo: false,
+        planoExpiraEm: null,
+        emTeste: false,
         onboardingComplete: Boolean(localUser.onboardingComplete),
         tourCompleto: Boolean(localUser.tourCompleto),
         targetContest: localUser.targetContest,

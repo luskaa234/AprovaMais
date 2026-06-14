@@ -87,6 +87,7 @@ export const simuladosService = {
 
     return {
       id: `${template.id}-${Date.now()}`,
+      templateId: template.id,
       nome: config.nome || template.nome,
       modo: template.modo,
       area,
@@ -108,6 +109,7 @@ export const simuladosService = {
     const porMateria = Object.entries(groupCount(questoes.filter((questao) => questao.correct), "materia")).map(([label, valor]) => ({ label, valor }));
     return {
       id: simulado.id,
+      templateId: simulado.templateId,
       nome: simulado.nome,
       modo: simulado.modo,
       data: new Date().toISOString(),

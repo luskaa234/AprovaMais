@@ -52,7 +52,8 @@ function hasActiveAccess(user) {
   if (user?.role === "admin") return true;
   if (!user) return false;
   if (!user.planoAtivo) return false;
-  if (!user.planoExpiraEm) return true;
+  if (user.vitalicio) return true;
+  if (!user.planoExpiraEm) return false;
   return new Date(user.planoExpiraEm).getTime() > Date.now();
 }
 
@@ -98,7 +99,7 @@ function TrialExpiredGate() {
 
           <div className="grid gap-4 p-5 sm:p-7 lg:p-10">
             <div>
-              <span className="text-xs font-black uppercase tracking-wide text-blue-600">Continuar no Aprova+</span>
+              <span className="text-xs font-black uppercase tracking-wide text-blue-600">Continuar no VemAprovar</span>
               <h2 className="mt-2 text-2xl font-black">Escolha uma assinatura</h2>
               <p className="mt-1 text-sm text-slate-500">Sem perder dados, plano ou histórico de estudo.</p>
             </div>
