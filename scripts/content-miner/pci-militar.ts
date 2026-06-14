@@ -104,7 +104,7 @@ type Report = {
 
 const CONFIG_PATH = path.resolve(process.cwd(), "scripts", "content-miner", "pci-militar.config.json");
 const PCI_BASE = "https://www.pciconcursos.com.br";
-const USER_AGENT = "Mozilla/5.0 (compatible; AprovaPCI-MilitarMiner/1.0; +https://aprovamais.local)";
+const USER_AGENT = "Mozilla/5.0 (compatible; AprovaPCI-MilitarMiner/1.0; +https://vemaprovar.com)";
 
 function log(message: string) {
   console.log(`[PCI Militar Miner] ${message}`);

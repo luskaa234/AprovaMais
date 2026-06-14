@@ -1,4 +1,4 @@
-﻿import "dotenv/config";
+import "dotenv/config";
 import axios, { type AxiosInstance } from "axios";
 import * as cheerio from "cheerio";
 import { PDFParse } from "pdf-parse";
@@ -285,7 +285,7 @@ function createClient() {
     maxRedirects: 5,
     timeout: 45_000,
     headers: {
-      "User-Agent": "AprovaContentMiner/1.0 (+https://aprovamais.local)",
+      "User-Agent": "AprovaContentMiner/1.0 (+https://vemaprovar.com)",
       Accept: "text/html,application/xhtml+xml,application/pdf;q=0.9,*/*;q=0.8",
     },
   });

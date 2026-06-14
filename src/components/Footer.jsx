@@ -20,7 +20,7 @@ function Footer() {
     <footer className="footer">
       <div className="section-shell footer-inner">
         <div className="footer-brand">
-          <a className="brand" href="#inicio" aria-label="Aprova+ - início">
+          <a className="brand" href="#inicio" aria-label="VemAprovar - início">
             <BrandLogo />
           </a>
           <p>
@@ -51,7 +51,7 @@ function Footer() {
       </div>
 
       <div className="section-shell footer-bottom">
-        <span>© 2026 Aprova+. Todos os direitos reservados.</span>
+        <span>© 2026 VemAprovar. Todos os direitos reservados.</span>
         <span>Estudo com estratégia, constância e aprovação.</span>
       </div>
     </footer>

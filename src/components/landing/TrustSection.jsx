@@ -20,7 +20,7 @@ function TrustSection() {
     <section className="section-shell trust-section">
       <div className="trust-panel">
         <div className="trust-heading">
-          <img className="trust-brand-mark" src="/favicon.svg" alt="Aprova+" />
+          <img className="trust-brand-mark" src="/favicon.svg" alt="VemAprovar" />
           <span className="eyebrow">
             <ShieldCheck size={15} />
             Preparação multi-edital

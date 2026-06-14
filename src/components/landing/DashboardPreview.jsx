@@ -38,7 +38,7 @@ function DashboardPreview() {
 
       <div className="dashboard-pro-shell">
         <aside className="dashboard-pro-sidebar">
-          <strong>Aprova+</strong>
+          <strong>VemAprovar</strong>
           <span className="is-active">Visão geral</span>
           <span>Cronograma</span>
           <span>Questões</span>

@@ -3,7 +3,7 @@ import { requireSupabase, supabase } from "../lib/supabase";
 export const paymentPlans = {
   essencial: {
     id: "essencial",
-    name: "Aprova+ Essencial",
+    name: "VemAprovar Essencial",
     type: "mensal",
     price: "R$ 39,90",
     priceInCents: 3990,
@@ -12,7 +12,7 @@ export const paymentPlans = {
   },
   pro: {
     id: "pro",
-    name: "Aprova+ Pro",
+    name: "VemAprovar Pro",
     type: "anual",
     price: "R$ 298,80",
     priceInCents: 29880,

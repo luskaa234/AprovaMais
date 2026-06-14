@@ -1,4 +1,5 @@
 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- TODO rebranding: substituir public/favicon.svg pelo favicon oficial da VemAprovar. -->
   <rect width="64" height="64" rx="14" fill="#F8FBFF"/>
   <defs>
     <linearGradient id="aprovaBlue" x1="13" y1="15" x2="52" y2="52" gradientUnits="userSpaceOnUse">

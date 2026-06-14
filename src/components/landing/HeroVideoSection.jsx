@@ -12,7 +12,7 @@ function HeroVideoSection() {
           animationStyle="from-center"
           videoSrc="/aprova-demo.mp4"
           thumbnailSrc="/thumbnail-demo.png"
-          thumbnailAlt="Demo Aprova+"
+          thumbnailAlt="Demo VemAprovar"
           className="w-full overflow-hidden rounded-2xl border border-[#DBEAFE]"
         />
       </div>

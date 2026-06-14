@@ -92,8 +92,8 @@ function HeroVideoDialog({
           <div className="hero-video-player-top">
             <img src="/favicon.svg" alt="" />
             <div>
-              <strong>Conheça o Aprova+</strong>
-              <span>Aprova+</span>
+              <strong>Conheça o VemAprovar</strong>
+              <span>VemAprovar</span>
             </div>
             <button type="button" aria-label={isMuted ? "Ativar som" : "Silenciar"} onClick={toggleMute}>
               {isMuted ? <VolumeX size={21} /> : <Volume2 size={21} />}

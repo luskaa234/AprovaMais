@@ -1,4 +1,6 @@
 const CACHE_NAME = "aprova-shell-v1";
+// TODO rebranding: substituir public/favicon.svg, public/pwa/pwa-192.png,
+// public/pwa/pwa-512.png e public/pwa/apple-touch-icon.png pela arte oficial da VemAprovar.
 const SHELL_ASSETS = [
   "/",
   "/manifest.webmanifest",

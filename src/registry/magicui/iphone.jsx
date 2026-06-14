@@ -70,7 +70,7 @@ function DefaultIphoneScreen() {
 
       <div className="magic-iphone-browser-bar" aria-hidden="true">
         <button type="button">‹</button>
-        <span>Aprova+.com</span>
+        <span>vemaprovar.com</span>
         <button type="button">↻</button>
         <button type="button">...</button>
       </div>

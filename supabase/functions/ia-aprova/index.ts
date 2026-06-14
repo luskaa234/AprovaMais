@@ -3,8 +3,8 @@ import { getAdminClient, getAuthUser } from "../_shared/supabase.ts";
 
 const OPENROUTER_API = "https://openrouter.ai/api/v1/chat/completions";
 const OPENROUTER_MODELS_API = "https://openrouter.ai/api/v1/models";
-const OPENROUTER_REFERER = "https://aprovamais.com";
-const OPENROUTER_TITLE = "Aprova+";
+const OPENROUTER_REFERER = "https://vemaprovar.app";
+const OPENROUTER_TITLE = "VemAprovar";
 
 // Fallback conferido em https://openrouter.ai/api/v1/models em 2026-06-13.
 // Em runtime a funcao busca a lista oficial e usa TODOS os modelos com preco zero.
@@ -60,7 +60,7 @@ const taskLimits: Record<string, number> = {
 const MAX_OUTPUT_TOKENS_CAP = 2048;
 
 const systemPrompt = `
-Voce e o Aprovinho, assistente de estudos do Aprova+.
+Voce e o Aprovinho, assistente de estudos do VemAprovar.
 Fale em portugues do Brasil, com tom claro, direto e encorajador.
 Ajude apenas no que a plataforma oferece: OAB, concursos de seguranca, estudo geral, questoes, revisao, lei seca, flashcards, redacao, TAF e plano de estudos.
 Use o contexto compacto recebido como fonte principal. Nao invente desempenho, metas, notas, atividades ou historico.

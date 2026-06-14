@@ -75,7 +75,7 @@ function Hero() {
   return (
     <section className="aprova-hero" id="inicio">
       <div className="aprova-hero-left">
-        <a className="aprova-hero-inline-logo" href="/" aria-label="Aprova+ - início">
+        <a className="aprova-hero-inline-logo" href="/" aria-label="VemAprovar - início">
           <BrandLogo />
         </a>
 
@@ -116,11 +116,11 @@ function Hero() {
         </div>
       </div>
 
-      <div className="aprova-hero-right" aria-label="Preview do app Aprova+">
+      <div className="aprova-hero-right" aria-label="Preview do app VemAprovar">
         <div className="aprova-hero-showcase">
           <div className="aprova-hero-glow" aria-hidden="true" />
 
-          <Safari className="aprova-hero-safari" url="Aprova+.com" mode="simple">
+          <Safari className="aprova-hero-safari" url="vemaprovar.com" mode="simple">
             <div className="aprova-hero-admin-preview">
               <aside className="aprova-hero-admin-sidebar">
                 <img src="/logo-light-readable.svg" alt="" />
@@ -137,7 +137,7 @@ function Hero() {
                   <strong>LA</strong>
                   <div>
                     <span>Lucas Andrade</span>
-                    <small>Aluno Aprova+</small>
+                    <small>Aluno VemAprovar</small>
                   </div>
                 </div>
               </aside>
@@ -245,7 +245,7 @@ function Hero() {
           </Safari>
 
           <div className="aprova-hero-iphone-wrap">
-            <img src="/screenshots/iphone-landing-reference.png" alt="Preview mobile da landing Aprova+" />
+            <img src="/screenshots/iphone-landing-reference.png" alt="Preview mobile da landing VemAprovar" />
           </div>
 
           {heroNotifications.map((notification, index) => {

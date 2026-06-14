@@ -75,7 +75,7 @@ function Features() {
           </span>
           <h2>Seu edital deixa de ser uma lista enorme e vira uma rotina possível</h2>
           <p>
-            A Aprova+ organiza edital, matérias, revisões e simulados em um
+            A VemAprovar organiza edital, matérias, revisões e simulados em um
             plano de ataque contínuo. Você enxerga o que estudar hoje, o que
             revisar amanhã e onde precisa recuperar pontos antes da prova.
           </p>

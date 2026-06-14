@@ -128,7 +128,7 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
           <BookOpenCheck size={24} />
         </span>
         <div className="min-w-0">
-          <p className="text-xs font-black uppercase tracking-wide text-blue-700">Aprova Assistente</p>
+          <p className="text-xs font-black uppercase tracking-wide text-blue-700">VemAprovar Assistente</p>
           <h2 className="text-xl font-black">Seu tutor de revisão e questões</h2>
           <p className="text-sm text-slate-600">Peça explicações, planos curtos, revisões por assunto ou análise do seu desempenho.</p>
           <div className="mt-2 flex flex-wrap gap-2">

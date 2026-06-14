@@ -1,14 +1,14 @@
-# Aprova+
+# VemAprovar
 
 **Plataforma inteligente de preparação para concursos e Exame de Ordem (OAB).**
 
-O Aprova+ reúne, em um só lugar, questões oficiais de provas reais, planos de estudo gerados por IA, simulados, revisão inteligente, flashcards, mapas mentais, legislação comentada e treino físico (TAF) — tudo pensado para quem se prepara para concursos públicos e para a OAB.
+O VemAprovar reúne, em um só lugar, questões oficiais de provas reais, planos de estudo gerados por IA, simulados, revisão inteligente, flashcards, mapas mentais, legislação comentada e treino físico (TAF) — tudo pensado para quem se prepara para concursos públicos e para a OAB.
 
 ---
 
 ## Visão geral
 
-O Aprova+ não é apenas um banco de questões: é um ecossistema de estudo que conecta conteúdo, prática e acompanhamento de desempenho.
+O VemAprovar não é apenas um banco de questões: é um ecossistema de estudo que conecta conteúdo, prática e acompanhamento de desempenho.
 
 - **Banco de questões oficiais** — questões de provas reais (FGV, Vunesp, Cebraspe, FCC, entre outras), com gabarito definitivo, filtráveis por banca, matéria e nível.
 - **Plano de estudos com IA** — cronograma personalizado a partir do objetivo, da disponibilidade e do desempenho do aluno.
@@ -116,4 +116,4 @@ Projeto em desenvolvimento ativo, em fase de testes com os primeiros usuários.
 
 ---
 
-© Aprova+. Todos os direitos reservados.
+© VemAprovar. Todos os direitos reservados.

@@ -89,8 +89,8 @@ create policy "pagamentos_do_usuario"
 
 insert into public.planos (id, nome, tipo, preco_centavos, dias_acesso, ativo)
 values
-  ('essencial', 'Aprova+ Essencial', 'mensal', 3990, 30, true),
-  ('pro', 'Aprova+ Pro Anual', 'anual', 29880, 365, true)
+  ('essencial', 'VemAprovar Essencial', 'mensal', 3990, 30, true),
+  ('pro', 'VemAprovar Pro Anual', 'anual', 29880, 365, true)
 on conflict (id) do update set
   nome = excluded.nome,
   tipo = excluded.tipo,

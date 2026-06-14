@@ -46,7 +46,7 @@ Deno.serve(async (req) => {
       body: JSON.stringify({
         transaction_amount: plan.preco_centavos / 100,
         token: cardToken,
-        description: `${plan.nome} - Aprova+`,
+        description: `${plan.nome} - VemAprovar`,
         installments: 1,
         payment_method_id: body.payment_method_id,
         issuer_id: body.issuer_id,

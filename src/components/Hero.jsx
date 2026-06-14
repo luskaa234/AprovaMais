@@ -97,7 +97,7 @@ function Hero() {
             </div>
           </div>
 
-          <div className="aprova-hero-panel" aria-label="Dashboard Aprova+">
+          <div className="aprova-hero-panel" aria-label="Dashboard VemAprovar">
             <div className="aprova-hero-panel-topbar">
               <div className="aprova-hero-window-dots" aria-hidden="true">
                 <span />
@@ -143,7 +143,7 @@ function Hero() {
         </div>
       </section>
 
-      <div className="aprova-hero-ticker" aria-label="Recursos da Aprova+">
+      <div className="aprova-hero-ticker" aria-label="Recursos da VemAprovar">
         <div>
           {tickerItems.map((item) => (
             <span key={item}>

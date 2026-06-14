@@ -58,7 +58,7 @@ alter table public.profiles
   add column if not exists updated_at timestamptz default now();
 
 alter table public.profiles
-  alter column name set default 'Aluno Aprova+',
+  alter column name set default 'Aluno VemAprovar',
   alter column role set default 'student',
   alter column plano set default 'gratuito',
   alter column status_plano set default 'trial',
@@ -68,7 +68,7 @@ alter table public.profiles
 
 update public.profiles
 set
-  name = coalesce(nullif(name, ''), split_part(email, '@', 1), 'Aluno Aprova+'),
+  name = coalesce(nullif(name, ''), split_part(email, '@', 1), 'Aluno VemAprovar'),
   plano = coalesce(plano, 'gratuito'),
   status_plano = coalesce(status_plano, 'trial'),
   plano_ativo = coalesce(plano_ativo, true),
@@ -139,7 +139,7 @@ begin
   )
   values (
     new.id,
-    coalesce(new.raw_user_meta_data->>'name', split_part(new.email, '@', 1), 'Aluno Aprova+'),
+    coalesce(new.raw_user_meta_data->>'name', split_part(new.email, '@', 1), 'Aluno VemAprovar'),
     new.email,
     'gratuito',
     'trial',

@@ -27,7 +27,7 @@ export default function AjudaPage() {
           <div className="flex items-center gap-4">
             <div>
               <p className="text-xs font-black uppercase tracking-wide text-blue-600">Central de Ajuda</p>
-              <h1 className="text-3xl font-black text-slate-950">Tutoriais guiados do Aprova Mais</h1>
+              <h1 className="text-3xl font-black text-slate-950">Tutoriais guiados do VemAprovar</h1>
               <p className="mt-1 max-w-2xl text-sm leading-6 text-slate-500">
                 Reabra o tour geral ou veja um passo a passo específico para cada área da plataforma.
               </p>

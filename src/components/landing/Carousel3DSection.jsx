@@ -55,7 +55,7 @@ function CarouselCard({ item, index, total }) {
         <span>
           <Icon size={20} />
         </span>
-        <small>Aprova+</small>
+        <small>VemAprovar</small>
       </div>
       <strong>{item.title}</strong>
       <p>{item.description}</p>
@@ -80,7 +80,7 @@ function Carousel3DSection() {
         </p>
       </div>
 
-      <div className="carousel-3d-stage" aria-label="Carrossel 3D de telas da Aprova+">
+      <div className="carousel-3d-stage" aria-label="Carrossel 3D de telas da VemAprovar">
         <div className="carousel-3d-orbit">
           {items.map((item, index) => (
             <CarouselCard item={item} index={index} total={items.length} key={item.title} />

@@ -1,4 +1,4 @@
--- Painel administrativo seguro do Aprova+.
+-- Painel administrativo seguro do VemAprovar.
 -- Rode este arquivo no SQL Editor do Supabase antes de usar as Edge Functions.
 
 create extension if not exists "uuid-ossp";

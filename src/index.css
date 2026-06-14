@@ -630,7 +630,7 @@
   color: var(--aprova-blue-700);
 }
 
-/* Aprova+ Hero identity */
+/* VemAprovar Hero identity */
 .aprova-hero {
   position: relative;
   overflow: hidden;
@@ -16693,7 +16693,7 @@ button {
   }
 }
 
-/* Aprova+ professional loading states. */
+/* VemAprovar professional loading states. */
 .aprova-loading-splash {
   position: fixed;
   inset: 0;

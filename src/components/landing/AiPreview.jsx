@@ -51,7 +51,7 @@ function AiPreview() {
             <span />
             <span />
           </div>
-          <img src="/logo-light-readable.svg" alt="Aprova+" />
+          <img src="/logo-light-readable.svg" alt="VemAprovar" />
           <small>online</small>
         </div>
 

@@ -26,7 +26,7 @@ function AuthLayout({ title, message, children, footer }) {
       <section className="auth-shell" aria-label={title}>
         <aside className="auth-sidebar">
           <div className="auth-sidebar-top">
-            <Link className="brand" to="/" aria-label="Aprova+ - início">
+            <Link className="brand" to="/" aria-label="VemAprovar - início">
               <BrandLogo />
             </Link>
           </div>

@@ -34,7 +34,7 @@ const stats = [
 
 function Stats() {
   return (
-    <section className="section-shell landing-stats-section" aria-label="Números da Aprova+">
+    <section className="section-shell landing-stats-section" aria-label="Números da VemAprovar">
       <div className="landing-stats-grid">
         {stats.map((item, index) => {
           const Icon = item.icon;

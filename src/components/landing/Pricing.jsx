@@ -31,7 +31,7 @@ function Pricing() {
       <div className="section-heading">
         <span className="section-kicker">
           <ShieldCheck size={16} />
-          Planos Aprova+
+          Planos VemAprovar
         </span>
         <h2>Um plano simples para estudar com método até a aprovação.</h2>
         <p>Comece com a estrutura completa da plataforma e mantenha seu preparo organizado todos os dias.</p>
@@ -47,7 +47,7 @@ function Pricing() {
         >
           <div>
             <span className="plan-eyebrow">Mensal</span>
-            <h3>Aprova+ Essencial</h3>
+            <h3>VemAprovar Essencial</h3>
             <p>Para quem quer organizar os estudos sem perder ritmo.</p>
           </div>
           <div className="plan-price">
@@ -85,7 +85,7 @@ function Pricing() {
           </div>
           <div>
             <span className="plan-eyebrow">Anual</span>
-            <h3>Aprova+ Pro</h3>
+            <h3>VemAprovar Pro</h3>
             <p>Para uma preparação mais longa, com acompanhamento completo.</p>
           </div>
           <div className="plan-price">

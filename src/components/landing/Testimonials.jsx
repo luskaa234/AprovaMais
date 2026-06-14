@@ -84,7 +84,7 @@ function Testimonials({ testimonials = defaultTestimonials }) {
     <section className="section-shell testimonials-section">
       <div className="section-heading">
         <span className="eyebrow">Resultados reais</span>
-        <h2>Quem já aprovou com a Aprova+</h2>
+        <h2>Quem já aprovou com a VemAprovar</h2>
       </div>
 
       <div className="testimonials-grid">

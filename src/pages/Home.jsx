@@ -133,7 +133,7 @@ export default function Home() {
 
         <section className="honest-section" id="recursos">
           <SectionHeading eyebrow="Tudo que você precisa" title="Uma plataforma, a preparação completa">
-            Recursos reais do Aprova+ para estudar, treinar, revisar e medir progresso.
+            Recursos reais do VemAprovar para estudar, treinar, revisar e medir progresso.
           </SectionHeading>
           <div className="honest-feature-grid">
             {features.map(({ icon: Icon, title, text }) => (
@@ -167,7 +167,7 @@ export default function Home() {
         </section>
 
         <section className="honest-section honest-differentials" id="diferenciais">
-          <SectionHeading eyebrow="Por que Aprova+" title="Diferente onde importa">
+          <SectionHeading eyebrow="Por que VemAprovar" title="Diferente onde importa">
             O diferencial está no que ajuda o aluno a evoluir de verdade.
           </SectionHeading>
           <div className="honest-differential-box">

@@ -1,12 +1,11 @@
 import BrandLogo from "./BrandLogo";
 
-export function BrandSplash({ label = "Carregando Aprova+" }) {
+export function BrandSplash({ label = "Carregando VemAprovar" }) {
   return (
     <div className="aprova-loading-splash" role="status" aria-live="polite" aria-label={label}>
       <div className="aprova-loading-brand">
         <BrandLogo />
-        <span>Aprova</span>
-        <b>+</b>
+        <span>VemAprovar</span>
       </div>
       <div className="aprova-loading-bar" aria-hidden="true">
         <span />
@@ -27,8 +26,7 @@ export function DashboardSkeleton({ embedded = false, label = "Preparando sua ar
         <aside className="aprova-dashboard-skeleton-side">
           <div className="aprova-loading-brand is-small">
             <BrandLogo />
-            <span>Aprova</span>
-            <b>+</b>
+            <span>VemAprovar</span>
           </div>
           {Array.from({ length: 8 }).map((_, index) => (
             <div className="aprova-dashboard-skeleton-nav" key={index}>

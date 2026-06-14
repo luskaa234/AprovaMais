@@ -2,14 +2,14 @@
 
 const plans = {
   essencial: {
-    title: "Aprova+ Essencial",
+    title: "VemAprovar Essencial",
     description: "Acesso mensal ao plano de estudos, questoes, simulados, revisao, TAF e IA.",
     price: Number(process.env.MP_PRICE_ESSENCIAL || 39.9),
     plan: "essencial",
   },
   pro: {
-    title: "Aprova+ Pro Anual",
-    description: "Acesso anual ao Aprova+ com desconto.",
+    title: "VemAprovar Pro Anual",
+    description: "Acesso anual ao VemAprovar com desconto.",
     price: Number(process.env.MP_PRICE_PRO || 298.8),
     plan: "pro",
   },
@@ -77,7 +77,7 @@ export default async function handler(req, res) {
       pending: process.env.PAYMENT_PENDING_URL || `${baseUrl}/?payment=pending&plan=${selected.plan}`,
     },
     auto_return: "approved",
-    statement_descriptor: "APROVA MAIS",
+    statement_descriptor: "VEMAPROVAR",
     notification_url: process.env.MP_WEBHOOK_URL || `${baseUrl}/api/payment-webhook`,
   };
 

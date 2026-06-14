@@ -64,7 +64,7 @@ function daysUntil(value) {
 
 function planName(planId) {
   if (planId === "gratuito") return "Teste grátis";
-  return paymentPlans[planId]?.name || "Aprova+";
+  return paymentPlans[planId]?.name || "VemAprovar";
 }
 
 function ToggleButton({ active, children, onClick }) {
@@ -221,7 +221,7 @@ export default function PerfilPage() {
                 <p className="text-xs font-black uppercase tracking-wide text-blue-100">Perfil do aluno</p>
                 <Badge variant="success">Conta ativa</Badge>
               </div>
-              <h1 className="mt-2 truncate text-3xl font-black text-white">{user?.name || "Aluno Aprova+"}</h1>
+              <h1 className="mt-2 truncate text-3xl font-black text-white">{user?.name || "Aluno VemAprovar"}</h1>
               <p className="mt-1 text-sm font-medium text-blue-50">{objectiveLabel(user)} - {user?.nivel || "intermediário"}</p>
             </div>
           </div>

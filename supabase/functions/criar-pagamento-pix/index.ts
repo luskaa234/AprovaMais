@@ -44,7 +44,7 @@ Deno.serve(async (req) => {
       headers: { "X-Idempotency-Key": crypto.randomUUID() },
       body: JSON.stringify({
         transaction_amount: plan.preco_centavos / 100,
-        description: `${plan.nome} - Aprova+`,
+        description: `${plan.nome} - VemAprovar`,
         payment_method_id: "pix",
         payer: {
           email: profile?.email || user.email,

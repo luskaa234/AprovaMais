@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const questions = [
   {
-    question: "A Aprova+ serve para diferentes concursos?",
+    question: "A VemAprovar serve para diferentes concursos?",
     answer:
       "Sim. A plataforma ajuda a organizar matérias, revisões, simulados e metas conforme o edital escolhido.",
   },

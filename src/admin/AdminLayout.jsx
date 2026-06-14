@@ -149,7 +149,7 @@ export const AdminLayout = memo(({ standalone = false }) => {
         <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <span className="text-xs font-black uppercase tracking-wide text-blue-600">Painel seguro</span>
-            <h1 className="mt-1 text-3xl font-black text-slate-950">Administração Aprova+</h1>
+            <h1 className="mt-1 text-3xl font-black text-slate-950">Administração VemAprovar</h1>
             <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-500">
               Ações sensíveis exigem verificação de admin e ficam registradas em auditoria.
             </p>

@@ -52,7 +52,7 @@ const Sidebar = memo(({ mobile = false, onNavigate }) => {
       <div className={cx("flex min-h-12 items-center", mobile ? "mb-3 pr-12" : "mb-6 px-2")}>
         {mobile ? (
           <div>
-            <p className="text-xs font-black uppercase tracking-wide text-blue-600">Aprova Mais</p>
+            <p className="text-xs font-black uppercase tracking-wide text-blue-600">VemAprovar</p>
             <h2 className="text-2xl font-black text-slate-950">Atalhos</h2>
           </div>
         ) : (

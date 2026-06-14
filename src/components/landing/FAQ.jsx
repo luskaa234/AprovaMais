@@ -2,7 +2,7 @@ import { ChevronDown, HelpCircle } from "lucide-react";
 
 const faqs = [
   {
-    question: "A Aprova+ serve para qualquer concurso?",
+    question: "A VemAprovar serve para qualquer concurso?",
     answer:
       "Sim. A plataforma foi pensada para concursos em geral, com cronograma por edital, matérias, revisões e simulados ajustáveis ao seu objetivo.",
   },
@@ -19,7 +19,7 @@ const faqs = [
   {
     question: "A plataforma substitui meu planejamento manual?",
     answer:
-      "A ideia é reduzir a desorganização. Você ainda decide prioridades, mas a Aprova+ transforma edital, revisões e metas em um plano visual.",
+      "A ideia é reduzir a desorganização. Você ainda decide prioridades, mas a VemAprovar transforma edital, revisões e metas em um plano visual.",
   },
   {
     question: "Tem área para redação e TAF?",

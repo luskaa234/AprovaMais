@@ -192,7 +192,7 @@ function PaymentCheckout() {
   if (!open) return null;
 
   return (
-    <div className="payment-checkout-overlay" role="dialog" aria-modal="true" aria-label="Checkout Aprova+">
+    <div className="payment-checkout-overlay" role="dialog" aria-modal="true" aria-label="Checkout VemAprovar">
       <div className="payment-checkout-panel">
         <button className="payment-checkout-close" type="button" onClick={close} aria-label="Fechar checkout">
           <X size={18} />

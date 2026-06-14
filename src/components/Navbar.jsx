@@ -18,8 +18,8 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="nav-inner">
-        <Link className="brand" to="/" aria-label="Aprova+ - início">
-          <img src="/logo-light-readable.svg" alt="Aprova+" style={{ height: "32px", width: "auto" }} />
+        <Link className="brand" to="/" aria-label="VemAprovar - início">
+          <img src="/logo-light-readable.svg" alt="VemAprovar" style={{ height: "32px", width: "auto" }} />
         </Link>
 
         <nav className="nav-links" aria-label="Navegação principal">

@@ -12,7 +12,7 @@ function Footer() {
     <footer className="landing-footer">
       <div className="section-shell landing-footer-inner">
         <div className="landing-footer-brand">
-          <img className="landing-footer-logo" src="/logo-light-readable.svg" alt="Aprova+" />
+          <img className="landing-footer-logo" src="/logo-light-readable.svg" alt="VemAprovar" />
           <p>
             Plataforma de estudos para OAB e carreiras policiais, com questões oficiais,
             plano por edital, TAF, revisão e IA.
@@ -28,7 +28,7 @@ function Footer() {
         </nav>
       </div>
       <div className="section-shell landing-footer-bottom">
-        <span>© 2026 Aprova+. Todos os direitos reservados.</span>
+        <span>© 2026 VemAprovar. Todos os direitos reservados.</span>
         <span>Questões oficiais, TAF e plano de estudos em uma rotina clara.</span>
       </div>
     </footer>

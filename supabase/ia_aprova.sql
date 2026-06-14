@@ -1,4 +1,4 @@
--- Cache e auditoria leve de uso da IA do Aprova+.
+-- Cache e auditoria leve de uso da IA do VemAprovar.
 -- Rode no SQL Editor antes de usar a Edge Function ia-aprova.
 -- Configure a chave apenas como secret server-side:
 -- supabase secrets set OPENROUTER_API_KEY=sk-or-...
