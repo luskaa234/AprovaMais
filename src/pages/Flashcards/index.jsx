@@ -4,6 +4,7 @@ import { Badge, Button, EmptyState, Input, cx } from "../../components";
 import { useNotifications } from "../../contexts";
 import { useAsyncData } from "../../hooks";
 import { flashcardsService } from "../../services";
+import { useFlashcardsStore } from "../../stores";
 
 const today = () => new Date().toISOString().slice(0, 10);
 
@@ -134,6 +135,8 @@ export default function FlashcardsPage() {
         proximaRevisao: addDays(days),
       },
     }));
+
+    useFlashcardsStore.getState().avaliar(card.id, quality);
 
     setShowAnswer(false);
     const currentIndex = filtered.findIndex((item) => item.id === card.id);

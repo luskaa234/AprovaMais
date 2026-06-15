@@ -134,7 +134,7 @@ export default function SimuladosPage() {
   const { addNotification } = useNotifications();
   const load = useCallback(() => simuladosService.getTemplates({ user }), [user]);
   const { data: templates = [] } = useAsyncData(load);
-  const [active, setActive] = useState(null);
+  const [active, setActive] = useState(() => useSimuladosStore.getState().ativo || null);
   const [result, setResult] = useState(null);
   const [configs, setConfigs] = useState({});
   const [loadingId, setLoadingId] = useState("");
@@ -155,6 +155,7 @@ export default function SimuladosPage() {
       const simulado = await simuladosService.iniciar(template, configs[template.id] || {});
       setResult(null);
       setActive(simulado);
+      useSimuladosStore.setState({ ativo: simulado });
     } catch (error) {
       addNotification({
         type: "warning",
@@ -168,7 +169,9 @@ export default function SimuladosPage() {
 
   const finishSimulado = useCallback((nextResult) => {
     registrarResultado(nextResult);
+    useSimuladosStore.setState({ ativo: null });
     setResult(nextResult);
+    setActive(null);
   }, [registrarResultado]);
 
   if (result) return <SimuladoResultado result={result} onRedo={() => { setResult(null); startTemplate(templates.find((t) => t.id === result.templateId) || templates[0]); }} onReview={() => setResult({ ...result, review: true })} />;

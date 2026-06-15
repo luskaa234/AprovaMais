@@ -1,6 +1,7 @@
-import { memo, useCallback, useEffect, useMemo, useState } from "react";
+import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Ban, CheckCircle2, RefreshCw, Search, ShieldCheck, Trash2, UserPlus, Wrench } from "lucide-react";
 import { Badge, Button, Card, Input, cx } from "../components";
+import { useUser } from "../contexts";
 import { adminService } from "../services";
 
 function formatDate(value) {
@@ -21,9 +22,11 @@ function planBadge(user) {
 }
 
 export const AdminLayout = memo(({ standalone = false }) => {
+  const { user } = useUser();
   const [usuarios, setUsuarios] = useState([]);
   const [count, setCount] = useState(0);
   const [search, setSearch] = useState("");
+  const searchDebounceRef = useRef(null);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
   const [actionId, setActionId] = useState("");
@@ -53,8 +56,9 @@ export const AdminLayout = memo(({ standalone = false }) => {
   }, []);
 
   useEffect(() => {
+    if (user && user.role !== "admin") return;
     load("");
-  }, [load]);
+  }, [load, user]);
 
   const stats = useMemo(() => ({
     total: count || usuarios.length,
@@ -121,6 +125,24 @@ export const AdminLayout = memo(({ standalone = false }) => {
       setActionId("");
     }
   }, [maintenance]);
+
+  if (user && user.role !== "admin") {
+    return (
+      <main className={cx("admin-layout", standalone && "mx-auto max-w-5xl p-4 sm:p-6")}>
+        <Card className="border-red-100 bg-white shadow-sm">
+          <div className="flex items-start gap-3">
+            <div className="grid size-11 place-items-center rounded-xl bg-red-50 text-red-600">
+              <ShieldCheck size={22} />
+            </div>
+            <div>
+              <h1 className="text-2xl font-black text-slate-950">Acesso restrito</h1>
+              <p className="mt-2 text-sm leading-6 text-slate-500">Esta área é exclusiva para administradores da plataforma.</p>
+            </div>
+          </div>
+        </Card>
+      </main>
+    );
+  }
 
   if (error && !usuarios.length && !loading) {
     return (
@@ -219,10 +241,21 @@ export const AdminLayout = memo(({ standalone = false }) => {
             className="flex gap-2"
             onSubmit={(event) => {
               event.preventDefault();
+              clearTimeout(searchDebounceRef.current);
               load(search);
             }}
           >
-            <Input icon={Search} onChange={(event) => setSearch(event.target.value)} placeholder="Buscar email ou nome" value={search} />
+            <Input
+              icon={Search}
+              onChange={(event) => {
+                const term = event.target.value;
+                setSearch(term);
+                clearTimeout(searchDebounceRef.current);
+                searchDebounceRef.current = setTimeout(() => load(term), 400);
+              }}
+              placeholder="Buscar email ou nome"
+              value={search}
+            />
             <Button type="submit" variant="secondary">Buscar</Button>
           </form>
         </div>

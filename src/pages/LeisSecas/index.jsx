@@ -84,7 +84,7 @@ function splitArticleText(rawArticle, lei, chapter) {
 
   return sourcePieces.map((piece, index) => {
     const numero = getArticleNumber(piece) || Number(rawArticle.numero) + index || index + 1;
-    const id = index === 0 ? rawArticle.id : `${rawArticle.id}-${numero}`;
+    const id = index === 0 ? rawArticle.id : `${rawArticle.id}-p${index}`;
     const cobrancas = rawArticle.cobrancas || importantByLaw[lei.id]?.[numero] || 0;
     return {
       ...rawArticle,

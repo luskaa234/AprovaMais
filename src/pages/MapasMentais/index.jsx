@@ -5,6 +5,7 @@ import { Modal } from "../../modals";
 import { useInternalRouter, useNotifications } from "../../contexts";
 import { useAsyncData } from "../../hooks";
 import { aiService, flashcardsService, mapasService, questoesService } from "../../services";
+import { useMapasStore } from "../../stores";
 
 const levelOptions = ["Básico", "Intermediário", "Avançado"];
 const tabs = ["Todos", "Favoritos", "Recentes", "Meus mapas", "Plataforma"];
@@ -221,10 +222,11 @@ export default function MapasMentaisPage() {
   const deferredQuery = useDeferredValue(query);
   const [tab, setTab] = useState("Todos");
   const [filters, setFilters] = useState({ concurso: "", materia: "", assunto: "", banca: "", nivel: "", favorito: "", origem: "" });
-  const [localMaps, setLocalMaps] = useState([]);
-  const [overrides, setOverrides] = useState({});
-  const [deleted, setDeleted] = useState([]);
-  const [activeId, setActiveId] = useState(null);
+  const localMaps = useMapasStore((state) => state.localMaps);
+  const overrides = useMapasStore((state) => state.overrides);
+  const deleted = useMapasStore((state) => state.deleted);
+  const activeId = useMapasStore((state) => state.activeId);
+  const { addMap, setOverride, removeMap, setActiveId } = useMapasStore();
   const [collapsed, setCollapsed] = useState({});
   const [zoom, setZoom] = useState(1);
   const [pan, setPan] = useState({ x: 0, y: 0 });
@@ -278,31 +280,31 @@ export default function MapasMentaisPage() {
   const selectMap = useCallback((id) => {
     setActiveId(id);
     resetViewer();
-  }, [resetViewer]);
+  }, [resetViewer, setActiveId]);
   const saveMap = useCallback(() => {
     if (!draft.titulo.trim()) return;
     const tags = draft.tagsText?.split(",").map((tag) => tag.trim()).filter(Boolean) || draft.tags || [];
     if (modal === "edit") {
-      setOverrides((current) => ({ ...current, [draft.id]: { ...draft, tags, root: draft.root || buildRootFromDraft(draft), atualizadoEm: new Date().toISOString().slice(0, 10) } }));
+      setOverride(draft.id, { ...draft, tags, root: draft.root || buildRootFromDraft(draft), atualizadoEm: new Date().toISOString().slice(0, 10) });
       notify("Mapa atualizado", "Alterações salvas.");
     } else {
       const map = { ...draft, id: `map-user-${Date.now()}`, origem: "usuario", favorito: false, tags, criadoEm: new Date().toISOString().slice(0, 10), atualizadoEm: new Date().toISOString().slice(0, 10), root: buildRootFromDraft(draft), flashcardsRelacionados: 0, questoesRelacionadas: 0 };
-      setLocalMaps((current) => [map, ...current]);
+      addMap(map);
       selectMap(map.id);
       notify("Mapa criado", "Novo mapa adicionado aos seus estudos.");
     }
     setDraft(emptyMap());
     setModal(null);
-  }, [draft, modal, notify, selectMap]);
+  }, [addMap, draft, modal, notify, selectMap, setOverride]);
   const editMap = useCallback((map) => {
     setDraft({ ...map, tagsText: (map.tags || []).join(", ") });
     setModal("edit");
   }, []);
   const deleteMap = useCallback((map) => {
-    setDeleted((current) => [...current, map.id]);
+    removeMap(map.id);
     notify("Mapa removido", "O mapa saiu da lista ativa.");
-  }, [notify]);
-  const toggleFavorite = useCallback((map) => setOverrides((current) => ({ ...current, [map.id]: { ...(current[map.id] || {}), favorito: !map.favorito } })), []);
+  }, [notify, removeMap]);
+  const toggleFavorite = useCallback((map) => setOverride(map.id, { favorito: !map.favorito }), [setOverride]);
   const shareMap = useCallback(async (map) => {
     if (!map) return;
     const shareData = { title: map.titulo, text: `Mapa mental: ${map.titulo} — ${map.materia}`, url: window.location.href };
@@ -318,9 +320,9 @@ export default function MapasMentaisPage() {
     }
   }, [notify]);
   const markStudied = useCallback((map) => {
-    setOverrides((current) => ({ ...current, [map.id]: { ...(current[map.id] || {}), estudado: true, atualizadoEm: new Date().toISOString().slice(0, 10) } }));
+    setOverride(map.id, { estudado: true, atualizadoEm: new Date().toISOString().slice(0, 10) });
     notify("Mapa estudado", "Progresso registrado e plano atualizado.");
-  }, [notify]);
+  }, [notify, setOverride]);
   const generateSummary = useCallback(async () => {
     if (!activeMap || aiLoading) return;
     setAiLoading("summary");
@@ -354,7 +356,7 @@ Nos principais: ${JSON.stringify(activeMap.root || {})}`, {
         concurso: activeMap.concurso,
         quantidade: 6,
       });
-      setOverrides((current) => ({ ...current, [activeMap.id]: { ...(current[activeMap.id] || {}), flashcardsRelacionados: (activeMap.flashcardsRelacionados || 0) + (deck.cards?.length || 0) } }));
+      setOverride(activeMap.id, { flashcardsRelacionados: (activeMap.flashcardsRelacionados || 0) + (deck.cards?.length || 0) });
       notify("Flashcards gerados", `${deck.cards?.length || 0} cards foram adicionados ao treino.`);
     } catch {
       addNotification({ type: "warning", title: "IA indisponível", message: "Não foi possível gerar flashcards agora." });
@@ -373,7 +375,7 @@ Nos principais: ${JSON.stringify(activeMap.root || {})}`, {
         quantidade: 3,
         contexto: JSON.stringify(activeMap.root || {}),
       });
-      setOverrides((current) => ({ ...current, [activeMap.id]: { ...(current[activeMap.id] || {}), questoesRelacionadas: (activeMap.questoesRelacionadas || 0) + rows.length } }));
+      setOverride(activeMap.id, { questoesRelacionadas: (activeMap.questoesRelacionadas || 0) + rows.length });
       sessionStorage.setItem("aprova-questoes-artigo-filter", JSON.stringify({ questoesIds: rows.map((item) => item.id), search: activeMap.assunto || activeMap.materia }));
       notify("Questões geradas", `${rows.length} questões foram adicionadas ao banco.`);
       navigate("questoes");

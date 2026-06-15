@@ -2,7 +2,7 @@ import { memo, useMemo } from "react";
 import { Area, AreaChart, Bar, BarChart, CartesianGrid, Cell, Legend, Line, LineChart, Pie, PieChart, PolarAngleAxis, PolarGrid, Radar, RadarChart, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
 const colors = ["#6366f1", "#8b5cf6", "#06b6d4", "#60a5fa", "#f59e0b", "#ef4444"];
-const responsiveProps = { width: "100%", height: "100%", minWidth: 1, minHeight: 1 };
+const responsiveProps = { width: "100%", height: 288, minWidth: 1 };
 
 export const ChartFrame = memo(({ children }) => <div className="h-72 min-h-72 w-full min-w-0">{children}</div>);
 ChartFrame.displayName = "ChartFrame";

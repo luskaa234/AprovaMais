@@ -507,8 +507,7 @@ export const questoesService = {
       if (filters.concurso) query = query.ilike("concurso", `%${filters.concurso}%`);
       if (filters.materia) query = query.eq("materia", filters.materia);
       if (filters.assunto) query = query.ilike("topico", `%${filters.assunto}%`);
-      if (filters.dificuldade) query = query.eq("dificuldade", filters.dificuldade);
-      if (filters.ano) query = query.eq("ano", filters.ano);
+      if (filters.dificuldade) query = query.ilike("dificuldade", `%${filters.dificuldade}%`);
       if (filters.search) query = query.textSearch("enunciado", filters.search, { config: "portuguese" });
       const { data, count, error } = await query;
       if (error) throw error;
@@ -594,9 +593,8 @@ export const questoesService = {
     if (filters.banca) query = query.ilike("banca", `%${filters.banca}%`);
     if (filters.concurso) query = query.ilike("concurso", `%${filters.concurso}%`);
     if (filters.materia) query = query.eq("materia", filters.materia);
-    if (filters.dificuldade) query = query.eq("dificuldade", filters.dificuldade);
+    if (filters.dificuldade) query = query.ilike("dificuldade", `%${filters.dificuldade}%`);
     if (filters.assunto || filters.topico) query = query.ilike("topico", `%${filters.assunto || filters.topico}%`);
-    if (filters.ano) query = query.eq("ano", filters.ano);
     if (filters.search) query = query.textSearch("enunciado", filters.search, { config: "portuguese" });
 
     const { data, error } = await query;
@@ -620,9 +618,8 @@ export const questoesService = {
       if (filters.banca) query = query.ilike("banca", `%${filters.banca}%`);
       if (filters.concurso) query = query.ilike("concurso", `%${filters.concurso}%`);
       if (filters.materia) query = query.eq("materia", filters.materia);
-      if (filters.dificuldade) query = query.eq("dificuldade", filters.dificuldade);
+      if (filters.dificuldade) query = query.ilike("dificuldade", `%${filters.dificuldade}%`);
       if (filters.assunto || filters.topico) query = query.ilike("topico", `%${filters.assunto || filters.topico}%`);
-      if (filters.ano) query = query.eq("ano", filters.ano);
       if (filters.search) query = query.textSearch("enunciado", filters.search, { config: "portuguese" });
       const { data } = await query;
       if (data?.length) candidates.push(...data.map(mapQuestao));
@@ -700,9 +697,14 @@ export const questoesService = {
   async getFilterOptions(filters = {}) {
     try {
       const catalog = await getLocalCatalog();
-      if (hasCatalogChunks(catalog)) return filterOptionsFromCatalog(catalog, filters);
+      if (hasCatalogChunks(catalog)) {
+        if (!hasActiveFilters(filters)) return filterOptionsFromCatalog(catalog, filters);
+        const chunks = getCatalogChunks(catalog, filters).slice(0, FILTER_CHUNK_LIMIT);
+        const rows = (await Promise.all(chunks.map((chunk) => getLocalChunk(chunk.path)))).flat();
+        return buildFilterOptions(rows, filters);
+      }
     } catch {
-      // O fallback abaixo preserva as opcoes a partir das fontes antigas.
+      // fallback abaixo
     }
     if (isSupabaseConfigured) {
       const area = filters.area || "geral";

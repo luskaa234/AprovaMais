@@ -29,7 +29,7 @@ export function useQuestoes({ page = 1, pageSize = 5, initialFilters = {} } = {}
   useEffect(() => {
     const timer = setTimeout(() => {
       refetch();
-    }, 0);
+    }, 300);
     return () => clearTimeout(timer);
   }, [refetch]);
 

@@ -152,13 +152,18 @@ export const useRankingStore = create(
   )
 );
 
+function toLocalDate(iso) {
+  const d = new Date(iso);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
 function refreshQuestionStats(tentativas = []) {
   const resolvidas = tentativas.length;
   const acertos = tentativas.filter((item) => item.acertou).length;
   useUserStore.getState().updateStats({
     questoesResolvidas: resolvidas,
     taxaAcertos: resolvidas ? Math.round((acertos / resolvidas) * 100) : 0,
-    sequenciaDias: new Set(tentativas.map((item) => item.data?.slice(0, 10)).filter(Boolean)).size,
+    sequenciaDias: new Set(tentativas.map((item) => item.data ? toLocalDate(item.data) : null).filter(Boolean)).size,
   });
 }
 
@@ -504,5 +509,21 @@ export const useMiscStore = create(
   persist(
     () => ({ mapas: mockMapas, biblioteca: mockBiblioteca }),
     { name: "aprova-misc" }
+  )
+);
+
+export const useMapasStore = create(
+  persist(
+    (set) => ({
+      localMaps: [],
+      overrides: {},
+      deleted: [],
+      activeId: null,
+      addMap: (map) => set((state) => ({ localMaps: [map, ...state.localMaps] })),
+      setOverride: (id, patch) => set((state) => ({ overrides: { ...state.overrides, [id]: { ...(state.overrides[id] || {}), ...patch } } })),
+      removeMap: (id) => set((state) => ({ deleted: [...state.deleted, id] })),
+      setActiveId: (activeId) => set({ activeId }),
+    }),
+    { name: "aprova-mapas" }
   )
 );

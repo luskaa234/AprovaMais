@@ -546,7 +546,7 @@ function parseManualPdfQuestions(text: string, source: ManualPdfSource) {
   const questions: PciQuestion[] = [];
   blocks.forEach((block, index) => {
     if (!normalizeText(block).includes(normalizeText(source.disciplina))) return;
-    const markers = [...block.matchAll(/(?:^|\s)([A-E])\s*[\).:-]\s+/g)].slice(0, 5);
+    const markers = [...block.matchAll(/^([A-E])\s*[\).:-]\s+/gm)].slice(0, 5);
     if (markers.length < 4) return;
     const alternatives = markers.map((marker, altIndex) => {
       const start = (marker.index || 0) + marker[0].length;
