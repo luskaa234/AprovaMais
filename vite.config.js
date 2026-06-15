@@ -4,6 +4,7 @@ import { fileURLToPath } from "url";
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
+import { visualizer } from "rollup-plugin-visualizer";
 import createCheckoutHandler from "./api/create-checkout.js";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -13,6 +14,7 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
+    visualizer({ open: false, filename: "dist/stats.html", gzipSize: true, brotliSize: true }),
     {
       name: "aprovamais-local-api",
       configureServer(server) {
@@ -53,6 +55,23 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+    },
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes("node_modules/@supabase") || id.includes("node_modules/phoenix") || id.includes("node_modules/isows")) {
+            return "supabase-vendor";
+          }
+          if (id.includes("node_modules/react-router")) {
+            return "react-router-vendor";
+          }
+          if (id.includes("node_modules/sonner")) {
+            return "sonner-vendor";
+          }
+        },
+      },
     },
   },
 });

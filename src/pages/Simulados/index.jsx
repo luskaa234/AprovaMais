@@ -1,7 +1,9 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from "react";
 import { CheckCircle2, Flag, Play, RotateCcw, Timer, XCircle } from "lucide-react";
 import { Badge, Button, Card, EmptyState, Select, cx } from "../../components";
-import { DistributionPieChart, PerformanceChart } from "../../charts";
+
+const DistributionPieChart = lazy(() => import("../../charts").then((m) => ({ default: m.DistributionPieChart })));
+const PerformanceChart = lazy(() => import("../../charts").then((m) => ({ default: m.PerformanceChart })));
 import { useAsyncData, useTimer } from "../../hooks";
 import { useNotifications, useUser } from "../../contexts";
 import { simuladosService } from "../../services";
@@ -28,7 +30,7 @@ function SimuladoResultado({ result, onRedo, onReview }) {
         </div>
       </Card>
       <div className="mt-4 grid gap-4">
-        <Card hover={false}><h2 className="mb-3 font-bold text-white">Acertos por matéria</h2><DistributionPieChart data={result.porMateria} /></Card>
+        <Card hover={false}><h2 className="mb-3 font-bold text-white">Acertos por matéria</h2><Suspense fallback={<div style={{ height: 200 }} />}><DistributionPieChart data={result.porMateria} /></Suspense></Card>
       </div>
       <Card hover={false} className="mt-4">
         <h2 className="mb-3 font-bold text-white">Questões</h2>
@@ -234,7 +236,7 @@ export default function SimuladosPage() {
         </Card>
         <Card hover={false}>
           <h2 className="mb-3 font-bold text-white">Evolução</h2>
-          {evolution.length ? <PerformanceChart data={evolution} /> : <EmptyState title="Sem evolução ainda" description="O gráfico aparece depois do primeiro simulado concluído." />}
+          {evolution.length ? <Suspense fallback={<div style={{ height: 200 }} />}><PerformanceChart data={evolution} /></Suspense> : <EmptyState title="Sem evolução ainda" description="O gráfico aparece depois do primeiro simulado concluído." />}
         </Card>
       </div>
     </div>

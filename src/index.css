@@ -530,6 +530,21 @@
   background: transparent;
 }
 
+.aprova-card-hover {
+  transition: transform 0.18s ease;
+}
+.aprova-card-hover:hover {
+  transform: translateY(-2px);
+}
+
+@keyframes aprova-toast-slide-in {
+  from { transform: translateY(-12px); opacity: 0; }
+  to   { transform: translateY(0);     opacity: 1; }
+}
+.aprova-toast-enter {
+  animation: aprova-toast-slide-in 0.22s ease forwards;
+}
+
 .aprova-input {
   border-color: var(--aprova-blue-100);
   background: #ffffff;
@@ -8708,8 +8723,8 @@ main {
   .trust-section,
   .landing-pricing-section,
   .landing-faq-section {
-    padding-top: 3.2rem;
-    padding-bottom: 3.2rem;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
   }
 
   .section-heading {
@@ -8721,8 +8736,10 @@ main {
   .flashcards-copy h2,
   .ai-preview-copy h2,
   .trust-panel h2 {
-    font-size: clamp(2rem, 10vw, 2.8rem);
-    line-height: 1.04;
+    font-size: clamp(1.4rem, 6vw, 2rem);
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
 
   .section-heading p,
@@ -8769,6 +8786,8 @@ main {
 
   .flashcard-face h3 {
     font-size: 1.65rem;
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
 
   .flashcard-face p,
@@ -9288,7 +9307,7 @@ main {
   .flashcards-copy h2,
   .ai-preview-copy h2,
   .trust-panel h2 {
-    font-size: clamp(1.75rem, 9vw, 2.35rem);
+    font-size: clamp(1.2rem, 5.5vw, 1.7rem);
   }
 
   .flashcard-stack-stage {
@@ -17315,6 +17334,15 @@ button {
     justify-content: center !important;
     padding-inline: 0.55rem !important;
     font-size: 0.78rem !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }
 

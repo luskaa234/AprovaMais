@@ -1,6 +1,7 @@
-import { useCallback, useMemo, useState } from "react";
+import { lazy, Suspense, useCallback, useMemo, useState } from "react";
 import { Badge, Card, ProgressBar, Select } from "../../components";
-import { EssayAreaChart } from "../../charts";
+
+const EssayAreaChart = lazy(() => import("../../charts").then((m) => ({ default: m.EssayAreaChart })));
 import { RedacaoEditor } from "../../forms";
 import { useAsyncData } from "../../hooks";
 import { redacaoService } from "../../services";
@@ -44,7 +45,7 @@ export default function RedacaoPage() {
         </Card>
         <Card data-tour="tour-redacao-history">
           <h2 className="mb-3 font-bold text-white">Histórico</h2>
-          <EssayAreaChart data={chartData} />
+          <Suspense fallback={<div style={{ height: 200 }} />}><EssayAreaChart data={chartData} /></Suspense>
           {historico.map((item) => (
             <div key={item.id} className="flex justify-between border-b border-gray-800 py-2 text-sm">
               <span className="text-gray-300">{item.titulo}</span>

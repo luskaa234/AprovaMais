@@ -1,6 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
 import { forwardRef, memo, useCallback, useEffect, useState } from "react";
-import { motion } from "framer-motion";
 import { Check, Loader2, Search, X } from "lucide-react";
 import { useDebounce } from "../hooks";
 
@@ -38,9 +37,7 @@ Badge.displayName = "Badge";
 
 export const Card = memo(({ children, variant = "default", hover = true, className = "", ...props }) => {
   const variants = { default: "aprova-card-default", elevated: "aprova-card-elevated", bordered: "aprova-card-bordered" };
-  const Wrapper = hover ? motion.section : "section";
-  const motionProps = hover ? { whileHover: { y: -2 } } : {};
-  return <Wrapper className={cx("rounded-[var(--aprova-radius)] border p-4 backdrop-blur", variants[variant], className)} {...motionProps} {...props}>{children}</Wrapper>;
+  return <section className={cx("rounded-[var(--aprova-radius)] border p-4 backdrop-blur", hover && "aprova-card-hover", variants[variant], className)} {...props}>{children}</section>;
 });
 Card.displayName = "Card";
 
@@ -152,10 +149,10 @@ export const SearchInput = memo(({ placeholder = "Buscar", onSearch }) => {
 SearchInput.displayName = "SearchInput";
 
 export const Toast = memo(({ toast, onClose }) => toast ? (
-  <motion.div initial={{ y: -12, opacity: 0 }} animate={{ y: 0, opacity: 1 }} className="fixed right-4 top-4 z-50 max-w-sm rounded-[var(--aprova-radius)] border border-blue-100 bg-white p-4 text-sm text-slate-700 shadow-[var(--aprova-shadow)]">
+  <div className="fixed right-4 top-4 z-50 max-w-sm rounded-[var(--aprova-radius)] border border-blue-100 bg-white p-4 text-sm text-slate-700 shadow-[var(--aprova-shadow)] aprova-toast-enter">
     <button aria-label="Fechar toast" onClick={onClose} className="absolute right-2 top-2 text-gray-500"><X size={14} /></button>
     <strong className="block">{toast.title || "Notificação"}</strong>
     <span className="text-gray-300">{toast.message}</span>
-  </motion.div>
+  </div>
 ) : null);
 Toast.displayName = "Toast";

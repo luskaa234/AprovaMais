@@ -748,8 +748,10 @@ main {
   }
 
   .honest-hero h1 {
-    font-size: 2.35rem;
-    line-height: 1.08;
+    font-size: clamp(1.6rem, 7vw, 2.5rem);
+    line-height: 1.15;
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
 
   .honest-hero-content > p {
@@ -771,11 +773,14 @@ main {
   }
 
   .honest-section {
-    padding: 3rem 0;
+    padding: 2rem 0;
   }
 
   .honest-section-heading h2 {
-    font-size: 1.9rem;
+    font-size: clamp(1.4rem, 6vw, 2rem);
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
 
   .honest-contest-grid,
@@ -808,7 +813,9 @@ main {
   }
 
   .honest-trial h2 {
-    font-size: 1.75rem;
+    font-size: clamp(1.3rem, 6vw, 1.75rem);
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
 }
 
@@ -1076,8 +1083,15 @@ main {
   .testimonials-section,
   .landing-pricing-section,
   .landing-faq-section {
-    padding-top: 3.2rem;
-    padding-bottom: 3.2rem;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+  }
+
+  .ai-preview-copy h2 {
+    font-size: clamp(1.4rem, 6vw, 2rem);
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
 }
 
@@ -1691,7 +1705,10 @@ main {
   }
 
   .aprova-hero-title {
-    font-size: 32px;
+    font-size: clamp(1.5rem, 7vw, 2rem);
+    line-height: 1.15;
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
 
   .aprova-hero-actions,
@@ -1705,7 +1722,9 @@ main {
   }
 
   .hero-video-inner h2 {
-    font-size: 28px;
+    font-size: clamp(1.3rem, 6vw, 1.9rem);
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
 }
 

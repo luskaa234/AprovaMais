@@ -1,8 +1,10 @@
-import { useEffect, useMemo, useState } from "react";
+import { lazy, Suspense, useEffect, useMemo, useState } from "react";
 import { Activity, Dumbbell, Heart, Play, Target } from "lucide-react";
 import { Badge, Button, Card, Input, ProgressBar, Tabs } from "../../components";
 import { ExercicioCard } from "../../components/taf/ExercicioCard";
-import { PerformanceChart, RetentionRadarChart } from "../../charts";
+
+const PerformanceChart = lazy(() => import("../../charts").then((m) => ({ default: m.PerformanceChart })));
+const RetentionRadarChart = lazy(() => import("../../charts").then((m) => ({ default: m.RetentionRadarChart })));
 import { tafService } from "../../services/tafService";
 import { useTafStore } from "../../stores";
 
@@ -102,8 +104,8 @@ function TAFOverview() {
         </Card>
       </div>
       <div className="grid gap-4 xl:grid-cols-2">
-        <Card><h2 className="mb-3 font-bold text-white">Evolução da nota</h2><PerformanceChart data={line} /></Card>
-        <Card><h2 className="mb-3 font-bold text-white">Perfil físico</h2><RetentionRadarChart data={radar} /></Card>
+        <Card><h2 className="mb-3 font-bold text-white">Evolução da nota</h2><Suspense fallback={<div style={{ height: 200 }} />}><PerformanceChart data={line} /></Suspense></Card>
+        <Card><h2 className="mb-3 font-bold text-white">Perfil físico</h2><Suspense fallback={<div style={{ height: 200 }} />}><RetentionRadarChart data={radar} /></Suspense></Card>
       </div>
     </div>
   );
@@ -171,7 +173,7 @@ function TAFSimulator() {
     return (
       <Card>
         <h2 className="text-3xl font-black text-blue-300">Nota final {finalNota ?? "..."} - {(finalNota ?? 0) >= 7 ? "APROVADO" : "REFAZER CICLO"}</h2>
-        <RetentionRadarChart data={TAF_TESTS.map((item) => ({ label: item.label, valor: Number(results[item.tipo] || 0), meta: item.meta }))} />
+        <Suspense fallback={<div style={{ height: 200 }} />}><RetentionRadarChart data={TAF_TESTS.map((item) => ({ label: item.label, valor: Number(results[item.tipo] || 0), meta: item.meta }))} /></Suspense>
         <Button className="mt-4" onClick={() => { setCurrent(0); setResults({}); setSeconds(720); setFinalNota(null); }}>Refazer</Button>
       </Card>
     );

@@ -1,7 +1,8 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from "react";
 import { CheckCircle2, Filter, Layers, RefreshCw, Search, XCircle } from "lucide-react";
 import { Badge, Button, Card, EmptyState, Input, Select } from "../../components";
-import { StudyTimeChart } from "../../charts";
+
+const StudyTimeChart = lazy(() => import("../../charts").then((m) => ({ default: m.StudyTimeChart })));
 import { useInternalRouter, useNotifications, useUser } from "../../contexts";
 import { isSupabaseConfigured, supabase } from "../../lib/supabase";
 import { Modal } from "../../modals";
@@ -131,7 +132,7 @@ export default function CadernoErrosPage() {
         </div>
         <Card hover={false}>
           <h2 className="mb-3 font-bold text-white">Distribuição de erros</h2>
-          {chart.length ? <StudyTimeChart data={chart} layout="vertical" /> : <p className="text-sm text-gray-400">Sem dados suficientes para montar o gráfico.</p>}
+          {chart.length ? <Suspense fallback={<div style={{ height: 200 }} />}><StudyTimeChart data={chart} layout="vertical" /></Suspense> : <p className="text-sm text-gray-400">Sem dados suficientes para montar o gráfico.</p>}
         </Card>
       </div>
       <Modal open={mobileFiltersOpen} title="Filtros" onClose={() => setMobileFiltersOpen(false)} footer={<Button onClick={() => setMobileFiltersOpen(false)}>Aplicar</Button>}>

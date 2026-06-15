@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { BadgeCheck, Check, ShieldCheck } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
@@ -38,12 +37,8 @@ function Pricing() {
       </div>
 
       <div className="landing-pricing-grid">
-        <motion.article
+        <article
           className="landing-price-card"
-          initial={{ opacity: 0, y: 22 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.35 }}
-          transition={{ duration: 0.45 }}
         >
           <div>
             <span className="plan-eyebrow">Mensal</span>
@@ -70,14 +65,10 @@ function Pricing() {
             primaryColor="#2563eb"
             text={loadingPlan === "essencial" ? "Abrindo pagamento..." : "Começar 7 dias grátis"}
           />
-        </motion.article>
+        </article>
 
-        <motion.article
+        <article
           className="landing-price-card is-featured"
-          initial={{ opacity: 0, y: 22 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.35 }}
-          transition={{ duration: 0.45, delay: 0.12 }}
         >
           <div className="plan-badge">
             <BadgeCheck size={15} />
@@ -108,7 +99,7 @@ function Pricing() {
             primaryColor="#2563eb"
             text={loadingPlan === "pro" ? "Abrindo pagamento..." : "Assinar plano anual com desconto"}
           />
-        </motion.article>
+        </article>
       </div>
     </section>
   );
