@@ -11,8 +11,10 @@ import { adminService } from "../services";
 import { paymentPlans, startCheckout } from "../services/paymentService";
 
 const DashboardPage = lazy(() => import("./Dashboard"));
+const CheckoutPage = lazy(() => import("./Checkout"));
 const views = {
   dashboard: DashboardPage,
+  checkout: CheckoutPage,
   oab: lazy(() => import("./OAB")),
   questoes: lazy(() => import("./Questoes")),
   simulados: lazy(() => import("./Simulados")),
@@ -146,8 +148,15 @@ function MaintenanceGate({ message }) {
 }
 
 function InternalRoutes() {
-  const { route, direction } = useInternalRouter();
+  const { route, direction, navigate } = useInternalRouter();
   const { isLoading, user } = useUser();
+
+  /* Escuta o evento de navegação para checkout — funciona mesmo sem AppShell (ex.: TrialExpiredGate) */
+  useEffect(() => {
+    const handler = () => navigate("checkout");
+    window.addEventListener("aprova:navigate-checkout", handler);
+    return () => window.removeEventListener("aprova:navigate-checkout", handler);
+  }, [navigate]);
   const [maintenance, setMaintenance] = useState({ enabled: false, message: "" });
   const [isMobile, setIsMobile] = useState(() => typeof window !== "undefined" && window.matchMedia("(max-width: 1279px)").matches);
   const [refreshToken, setRefreshToken] = useState(0);
@@ -200,6 +209,15 @@ function InternalRoutes() {
 
   if (!user?.onboardingComplete) {
     return <Onboarding />;
+  }
+
+  /* Checkout: página full-screen sem AppShell, acessível mesmo sem acesso ativo */
+  if (route === "checkout") {
+    return (
+      <Suspense fallback={<PageFallback />}>
+        <CheckoutPage />
+      </Suspense>
+    );
   }
 
   if (!hasActiveAccess(user)) {

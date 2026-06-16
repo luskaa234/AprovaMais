@@ -35,6 +35,9 @@ const mpPublicKey = import.meta.env.VITE_MP_PUBLIC_KEY;
 function openCheckoutModal(planId) {
   if (typeof window === "undefined") return false;
   window.localStorage.setItem("aprova-pending-plan", planId);
+  // Navega para a página de checkout dentro do app (InternalRoutes escuta este evento).
+  window.dispatchEvent(new CustomEvent("aprova:navigate-checkout", { detail: { planId } }));
+  // Mantém o evento legado para compatibilidade com o modal antigo (fallback).
   window.dispatchEvent(new CustomEvent("aprova:open-checkout", { detail: { planId } }));
   return true;
 }
