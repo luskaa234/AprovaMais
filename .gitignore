@@ -26,3 +26,11 @@ supabase/.temp
 *.njsproj
 *.sln
 *.sw?
+
+# Temporary bundle analysis files
+analyze-bundle*.js
+analyze-bundle*.cjs
+analyze-tmp*.cjs
+bundle-out.txt
+bundle-report.txt
+*.json.bak

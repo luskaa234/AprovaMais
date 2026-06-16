@@ -86,7 +86,7 @@ function friendlyAIError(message = "", status) {
   return "Nao consegui falar com a IA agora. Tente de novo em instantes.";
 }
 
-function getChatTier(message = "", requestedTier = "") {
+function getChatTier(_message = "", requestedTier = "") {
   if (requestedTier === "barato" || requestedTier === "forte") return requestedTier;
   return CHAT_DEFAULT_TIER;
 }

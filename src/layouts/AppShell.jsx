@@ -166,7 +166,7 @@ const Topbar = memo(() => {
       <div className="internal-topbar-row">
         <button
           aria-label="Abrir perfil"
-            className="mobile-top-profile flex min-w-0 flex-1 items-center gap-2 rounded-xl p-1.5 text-left xl:hidden"
+            className="mobile-top-profile flex min-w-0 flex-1 items-center gap-2 rounded-xl p-1.5 text-left md:hidden"
           data-tour="tour-perfil"
           onClick={() => navigate("perfil")}
           type="button"
@@ -178,12 +178,12 @@ const Topbar = memo(() => {
           </span>
         </button>
 
-        <div className="internal-topbar-heading hidden min-w-0 xl:block">
+        <div className="internal-topbar-heading hidden min-w-0 md:block">
           <p className="internal-topbar-eyebrow hidden text-xs sm:block">Área interna</p>
           <h1 className="internal-topbar-title truncate text-base font-black md:text-lg">{current?.label || "Dashboard"}</h1>
         </div>
 
-        <div className="topbar-search-wrap relative hidden min-w-0 flex-1 xl:block">
+        <div className="topbar-search-wrap relative hidden min-w-0 flex-1 lg:block">
           <Search className="topbar-search-icon absolute left-3 top-1/2 -translate-y-1/2" size={16} />
           <Input
             className="topbar-search-input w-full pl-9 pr-3 xl:pr-16"
@@ -205,7 +205,7 @@ const Topbar = memo(() => {
         <div className="topbar-actions">
           <button
             aria-label={searchOpen ? "Fechar busca" : "Abrir busca"}
-            className="topbar-icon-button xl:hidden"
+            className="topbar-icon-button lg:hidden"
             onClick={() => {
               setSearchOpen((value) => !value);
               window.requestAnimationFrame(() => searchRef.current?.focus());
@@ -285,7 +285,7 @@ const Topbar = memo(() => {
         {searchOpen ? (
           <motion.div
             animate={{ height: "auto", opacity: 1 }}
-            className="topbar-mobile-search relative xl:hidden"
+            className="topbar-mobile-search relative lg:hidden"
             exit={{ height: 0, opacity: 0 }}
             initial={{ height: 0, opacity: 0 }}
           >
@@ -413,7 +413,7 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
         "internal-app-light bg-gray-100 text-gray-950"
       )}
     >
-      <aside className="fixed left-0 top-0 hidden h-screen xl:block">
+      <aside className="fixed left-0 top-0 hidden h-screen md:block">
         <Sidebar />
       </aside>
 
@@ -449,7 +449,7 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
         ) : null}
       </AnimatePresence>
 
-      <div className="xl:pl-72">
+      <div className="md:pl-20 xl:pl-72">
         <Topbar />
         <main
           className="min-h-[calc(100vh-73px)] bg-slate-50 p-3 sm:p-4 md:p-6"

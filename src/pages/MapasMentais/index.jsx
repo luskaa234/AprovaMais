@@ -221,6 +221,7 @@ export default function MapasMentaisPage() {
   const [query, setQuery] = useState("");
   const deferredQuery = useDeferredValue(query);
   const [tab, setTab] = useState("Todos");
+  const [cutoff30d] = useState(() => new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10));
   const [filters, setFilters] = useState({ concurso: "", materia: "", assunto: "", banca: "", nivel: "", favorito: "", origem: "" });
   const localMaps = useMapasStore((state) => state.localMaps);
   const overrides = useMapasStore((state) => state.overrides);
@@ -248,11 +249,11 @@ export default function MapasMentaisPage() {
     if (filters.favorito === "sim" && !item.favorito) return false;
     if (filters.origem && item.origem !== filters.origem) return false;
     if (tab === "Favoritos" && !item.favorito) return false;
-    if (tab === "Recentes" && item.atualizadoEm < new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10)) return false;
+    if (tab === "Recentes" && item.atualizadoEm < cutoff30d) return false;
     if (tab === "Meus mapas" && item.origem !== "usuario") return false;
     if (tab === "Plataforma" && item.origem !== "plataforma") return false;
     return true;
-  }), [deferredQuery, filters, maps, tab]);
+  }), [cutoff30d, deferredQuery, filters, maps, tab]);
   const visibleMaps = filtered.slice(0, 80);
   const activeMap = maps.find((item) => item.id === activeId) || filtered[0];
   const groupedMaps = useMemo(() => visibleMaps.reduce((acc, item) => {
@@ -363,7 +364,7 @@ Nos principais: ${JSON.stringify(activeMap.root || {})}`, {
     } finally {
       setAiLoading("");
     }
-  }, [activeMap, addNotification, aiLoading, notify]);
+  }, [activeMap, addNotification, aiLoading, notify, setOverride]);
   const generateQuestions = useCallback(async () => {
     if (!activeMap || aiLoading) return;
     setAiLoading("questions");
@@ -384,7 +385,7 @@ Nos principais: ${JSON.stringify(activeMap.root || {})}`, {
     } finally {
       setAiLoading("");
     }
-  }, [activeMap, addNotification, aiLoading, navigate, notify]);
+  }, [activeMap, addNotification, aiLoading, navigate, notify, setOverride]);
 
   const filtersContent = (
     <>
