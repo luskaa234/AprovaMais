@@ -14,7 +14,35 @@ export default function AuthCallback() {
       return undefined;
     }
 
-    // Wait for the SDK to complete the PKCE/implicit exchange before redirecting.
+    const finishLogin = async () => {
+      const params = new URLSearchParams(window.location.search);
+      const hashParams = new URLSearchParams(window.location.hash.replace(/^#/, ""));
+      const errorDescription = params.get("error_description") || hashParams.get("error_description");
+      const code = params.get("code");
+
+      if (errorDescription) {
+        toast.error(decodeURIComponent(errorDescription));
+        navigate("/login", { replace: true });
+        return;
+      }
+
+      if (code) {
+        const { error } = await supabase.auth.exchangeCodeForSession(code);
+        if (!alive) return;
+
+        if (error) {
+          toast.error(error.message || "NÃ£o foi possÃ­vel finalizar o login. Tente novamente.");
+          navigate("/login", { replace: true });
+          return;
+        }
+
+        navigate("/", { replace: true });
+      }
+    };
+
+    finishLogin();
+
+    // Fallback for implicit/session-restored flows.
     const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
       if (!alive) return;
       if ((event === "INITIAL_SESSION" || event === "SIGNED_IN") && session) {

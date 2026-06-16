@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
-import { isSupabaseConfigured, supabase } from "../lib/supabase";
+import { getAuthRedirectUrl, isSupabaseConfigured, supabase } from "../lib/supabase";
 import { useNotificacoesStore, usePlanoStore, useQuestoesStore, useRankingStore, useRevisaoStore, useSimuladosStore, useUserStore } from "../stores";
 
 const UserContext = createContext(null);
@@ -234,7 +234,7 @@ export function UserProvider({ children }) {
       throw new Error("Supabase não configurado para login com Google.");
     }
 
-    const redirectTo = `${window.location.origin}/auth/callback`;
+    const redirectTo = getAuthRedirectUrl();
     const { error } = await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
