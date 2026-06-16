@@ -1,29 +1,25 @@
 /* eslint-disable react-refresh/only-export-components */
-import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
+import { createContext, useCallback, useContext, useMemo } from "react";
 
 const ThemeContext = createContext(null);
 
 export function ThemeProvider({ children }) {
-  const [theme, setTheme] = useState(() => {
-    if (typeof window === "undefined") return "light";
-    return localStorage.getItem("aprovamais-theme") || "light";
-  });
+  // Dark mode removed — app is always light.
+  // Clear any stored dark preference on first load.
+  if (typeof window !== "undefined") {
+    localStorage.removeItem("aprovamais-theme");
+    document.documentElement.classList.remove("dark");
+    document.documentElement.setAttribute("data-theme", "light");
+  }
 
-  useEffect(() => {
-    document.documentElement.classList.toggle("dark", theme === "dark");
-    document.documentElement.setAttribute("data-theme", theme);
-    localStorage.setItem("aprovamais-theme", theme);
-  }, [theme]);
+  const toggleTheme = useCallback(() => {}, []);
+  const setThemeMode = useCallback(() => {}, []);
 
-  const toggleTheme = useCallback(() => {
-    setTheme((current) => (current === "dark" ? "light" : "dark"));
-  }, []);
+  const value = useMemo(
+    () => ({ theme: "light", isDark: false, toggleTheme, setThemeMode }),
+    [toggleTheme, setThemeMode]
+  );
 
-  const setThemeMode = useCallback((nextTheme) => {
-    setTheme(nextTheme === "dark" ? "dark" : "light");
-  }, []);
-
-  const value = useMemo(() => ({ theme, isDark: theme === "dark", toggleTheme, setThemeMode }), [setThemeMode, theme, toggleTheme]);
   return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;
 }
 

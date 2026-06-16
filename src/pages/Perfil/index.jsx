@@ -1,8 +1,8 @@
 import { useCallback, useMemo, useState } from "react";
-import { Bell, BookOpenCheck, CalendarDays, Camera, Clock3, CreditCard, LogOut, Mail, MapPin, Moon, ShieldCheck, Sun, Target, Upload, UserRound } from "lucide-react";
+import { Bell, BookOpenCheck, CalendarDays, Camera, Clock3, CreditCard, LogOut, Mail, MapPin, ShieldCheck, Target, Upload, UserRound } from "lucide-react";
 import { Badge, Button, Card, ProgressBar, cx } from "../../components";
 import TourButton from "../../components/TourButton";
-import { useInternalRouter, useNotifications, usePreferences, useThemeMode, useUser } from "../../contexts";
+import { useInternalRouter, useNotifications, usePreferences, useUser } from "../../contexts";
 import { ProfileForm } from "../../forms";
 import { isSupabaseConfigured, supabase } from "../../lib/supabase";
 import { cancelCurrentSubscription, paymentPlans, startCheckout } from "../../services/paymentService";
@@ -93,7 +93,6 @@ export default function PerfilPage() {
   const { navigate } = useInternalRouter();
   const { addNotification } = useNotifications();
   const preferences = usePreferences();
-  const { isDark, toggleTheme } = useThemeMode();
   const [activeTab, setActiveTab] = useState("perfil");
   const [loadingPlan, setLoadingPlan] = useState("");
   const [canceling, setCanceling] = useState(false);
@@ -300,20 +299,6 @@ export default function PerfilPage() {
 
       {activeTab === "config" ? (
         <div className="grid gap-5 lg:grid-cols-2" data-tour="tour-profile-settings">
-          <Card hover={false} className="border-blue-100 bg-white shadow-sm">
-            <div className="mb-5 flex items-center gap-2">
-              {isDark ? <Moon className="text-blue-600" size={18} /> : <Sun className="text-blue-600" size={18} />}
-              <div>
-                <h2 className="font-bold text-slate-950">Aparencia</h2>
-                <p className="text-sm text-slate-500">Modo escuro discreto, sem alterar a sidebar.</p>
-              </div>
-            </div>
-            <div className="grid gap-3 sm:grid-cols-2">
-              <ToggleButton active={!isDark} onClick={() => { if (isDark) toggleTheme(); }}>Claro</ToggleButton>
-              <ToggleButton active={isDark} onClick={() => { if (!isDark) toggleTheme(); }}>Escuro discreto</ToggleButton>
-            </div>
-          </Card>
-
           <Card hover={false} className="border-blue-100 bg-white shadow-sm">
             <div className="mb-5 flex items-center gap-2">
               <Bell className="text-blue-600" size={18} />

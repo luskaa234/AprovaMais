@@ -1,10 +1,10 @@
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Bell, BookOpen, CalendarDays, Home, Moon, PlusCircle, Search, Settings2, Sun, X } from "lucide-react";
+import { Bell, BookOpen, CalendarDays, Home, PlusCircle, Search, Settings2, X } from "lucide-react";
 import { Avatar, Input, Toast, cx } from "../components";
 import BrandLogo from "../components/BrandLogo";
 import TourButton from "../components/TourButton";
-import { useInternalRouter, useNotifications, useThemeMode, useUser } from "../contexts";
+import { useInternalRouter, useNotifications, useUser } from "../contexts";
 import { navItems } from "./navigation";
 
 function isOabFocus(user) {
@@ -99,7 +99,6 @@ Sidebar.displayName = "Sidebar";
 const Topbar = memo(() => {
   const { route, navigate } = useInternalRouter();
   const { user, isAdmin } = useUser();
-  const { isDark, toggleTheme } = useThemeMode();
   const { notifications, unreadCount, markAsRead, clearAll, toast } = useNotifications();
   const [query, setQuery] = useState("");
   const [searchOpen, setSearchOpen] = useState(false);
@@ -252,15 +251,6 @@ const Topbar = memo(() => {
               </div>
             ) : null}
           </div>
-
-          <button
-            aria-label={isDark ? "Usar modo claro" : "Usar modo escuro"}
-            className="topbar-icon-button"
-            onClick={toggleTheme}
-            type="button"
-          >
-            {isDark ? <Sun size={18} /> : <Moon size={18} />}
-          </button>
 
           <TourButton className="hidden xl:inline-flex" />
 
