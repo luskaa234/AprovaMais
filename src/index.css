@@ -16559,7 +16559,7 @@ button {
   width: 100%;
 }
 
-/* Final mobile-only guard: long flashcard answers scroll fully, controls stay outside. */
+/* Mobile: answers and questions scroll inside the card; action buttons stay visible below. */
 @media (max-width: 767px) {
   .flashcards-session-inner {
     display: flex !important;
@@ -16578,38 +16578,42 @@ button {
     min-height: 0 !important;
   }
 
+  /* Card: auto height — the scroll containers below are the height-limiting element. */
   .flashcard-standard-card.flashcard-flip-inner {
-    height: clamp(12.5rem, calc(100svh - 28rem), 24rem) !important;
-    min-height: 12.5rem !important;
-    max-height: 24rem !important;
-    overflow: hidden !important;
+    height: auto !important;
+    min-height: 10rem !important;
+    max-height: none !important;
+    overflow: visible !important;
   }
 
   .flashcard-standard-card.flashcard-flip-inner.is-flipped {
-    height: clamp(12rem, calc(100svh - 30rem), 22rem) !important;
-    min-height: 12rem !important;
-    max-height: 22rem !important;
+    height: auto !important;
   }
 
+  /* Face: auto height, draws its own visual border. */
   .flashcard-standard-card .flashcard-flip-face {
-    height: 100% !important;
+    height: auto !important;
     min-height: 0 !important;
     max-height: none !important;
     overflow: hidden !important;
   }
 
   .flashcard-standard-card .flashcard-face-content {
-    height: 100% !important;
+    height: auto !important;
     min-height: 0 !important;
   }
 
+  /* Scroll containers: the only height-limiting element.
+     max-height caps long content so buttons are never pushed off-screen;
+     overflow-y: auto shows a scrollbar when content exceeds the cap. */
   .flashcard-standard-card .flashcard-card-scroll,
   .flashcard-standard-card .flashcard-card-scroll-back {
-    flex: 1 1 auto !important;
-    height: 100% !important;
-    min-height: 0 !important;
-    max-height: none !important;
+    flex: unset !important;
+    height: auto !important;
+    min-height: 3rem !important;
+    max-height: calc(100svh - 26rem - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px)) !important;
     overflow-y: auto !important;
+    overflow-x: hidden !important;
     overscroll-behavior: contain !important;
     -webkit-overflow-scrolling: touch !important;
     padding-bottom: 1.5rem !important;
