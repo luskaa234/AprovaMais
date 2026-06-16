@@ -18,7 +18,7 @@ export const isSupabaseConfigured = Boolean(normalizedSupabaseUrl && supabaseAno
 
 export const supabase = isSupabaseConfigured
   ? createClient(normalizedSupabaseUrl, supabaseAnonKey, {
-      auth: { persistSession: true, autoRefreshToken: true },
+      auth: { persistSession: true, autoRefreshToken: true, flowType: "pkce" },
     })
   : null;
 
