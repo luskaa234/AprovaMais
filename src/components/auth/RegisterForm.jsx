@@ -45,13 +45,15 @@ function RegisterForm() {
 
   const onSubmit = async ({ name, email, password }) => {
     try {
-      const result = await createAccount(name, email, password);
-      if (result?.confirmationRequired) {
-        toast.success("Conta criada! Verifique seu e-mail para confirmar o cadastro.");
-      } else {
-        toast.success("Conta criada. Seus 7 dias grátis foram iniciados.");
-        navigate("/");
-      }
+      await createAccount(name, email, password);
+      toast.success("Conta criada! Seus 7 dias grátis foram iniciados.");
+      navigate("/");
+      // Aviso não-bloqueante: sugere confirmar e-mail sem impedir o uso
+      setTimeout(() => {
+        toast.info(`Confirme seu e-mail (${email}) quando puder — não é necessário para usar o app.`, {
+          duration: 8000,
+        });
+      }, 1500);
     } catch (error) {
       toast.error(error.message || "Não foi possível criar a conta.");
     }

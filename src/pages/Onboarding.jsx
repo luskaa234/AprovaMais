@@ -310,7 +310,7 @@ export default function Onboarding() {
   };
 
   return (
-    <main className="min-h-screen bg-[linear-gradient(180deg,#f8fbff,#eef6ff)] px-4 py-6 text-slate-950 sm:px-6 lg:px-8">
+    <main className="min-h-screen bg-slate-50 px-4 py-6 text-slate-950 sm:px-6 lg:px-8">
       <div className="mx-auto flex min-h-[calc(100vh-3rem)] max-w-6xl flex-col">
         <div className="mb-6 flex items-center justify-between gap-4">
           <BrandLogo className="internal-brand-logo" />

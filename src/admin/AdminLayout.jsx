@@ -56,7 +56,7 @@ export const AdminLayout = memo(({ standalone = false }) => {
   }, []);
 
   useEffect(() => {
-    if (user && user.role !== "admin") return;
+    if (user && (user.role !== "admin" || user.email?.toLowerCase() !== "lucasmeireles591@gmail.com")) return;
     load("");
   }, [load, user]);
 
@@ -126,7 +126,7 @@ export const AdminLayout = memo(({ standalone = false }) => {
     }
   }, [maintenance]);
 
-  if (user && user.role !== "admin") {
+  if (user && (user.role !== "admin" || user.email?.toLowerCase() !== "lucasmeireles591@gmail.com")) {
     return (
       <main className={cx("admin-layout", standalone && "mx-auto max-w-5xl p-4 sm:p-6")}>
         <Card className="border-red-100 bg-white shadow-sm">

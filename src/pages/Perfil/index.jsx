@@ -153,13 +153,13 @@ export default function PerfilPage() {
       return;
     }
     if (!isSupabaseConfigured || !user.id) {
-      addNotification({ type: "error", title: "Upload indisponível", message: "Entre com uma conta Supabase para salvar sua foto." });
+      addNotification({ type: "error", title: "Upload indisponível", message: "Faça login para salvar sua foto de perfil." });
       return;
     }
 
     try {
       setAvatarUploading(true);
-      const path = `${user.id}/avatar-${Date.now()}.${fileExtension(file)}`;
+      const path = `${user.id}/avatar`;
       const { error } = await supabase.storage.from("avatars").upload(path, file, {
         cacheControl: "3600",
         contentType: file.type,
@@ -172,7 +172,7 @@ export default function PerfilPage() {
       await refreshProfile?.();
       addNotification({ type: "success", title: "Foto atualizada", message: "Seu avatar foi salvo no perfil." });
     } catch (error) {
-      addNotification({ type: "error", title: "Não foi possível enviar", message: error.message || "Verifique o bucket avatars no Supabase." });
+      addNotification({ type: "error", title: "Não foi possível enviar", message: "Não foi possível enviar a foto. Tente novamente." });
     } finally {
       setAvatarUploading(false);
     }

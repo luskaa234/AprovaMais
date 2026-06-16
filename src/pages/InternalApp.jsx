@@ -78,22 +78,22 @@ function TrialExpiredGate() {
   };
 
   return (
-    <main className="grid min-h-screen place-items-center bg-[linear-gradient(180deg,#f8fbff,#eaf3ff)] px-4 py-8 text-slate-950">
+    <main className="grid min-h-screen place-items-center bg-slate-50 px-4 py-8 text-slate-950">
       <section className="w-full max-w-5xl overflow-hidden rounded-2xl border border-blue-100 bg-white shadow-2xl shadow-blue-100/70">
         <div className="grid gap-0 lg:grid-cols-[0.9fr_1.1fr]">
-          <div className="bg-blue-600 p-7 text-white sm:p-10">
-            <div className="grid size-14 place-items-center rounded-2xl bg-white/15">
+          <div className="border-r border-blue-100 bg-white p-7 text-slate-950 sm:p-10">
+            <div className="grid size-14 place-items-center rounded-2xl bg-blue-50 text-blue-600">
               <LockKeyhole size={28} />
             </div>
             <h1 className="mt-6 text-3xl font-black leading-tight sm:text-4xl">Seu teste grátis terminou.</h1>
-            <p className="mt-4 max-w-md text-sm leading-6 text-blue-50">
+            <p className="mt-4 max-w-md text-sm leading-6 text-slate-600">
               Os 7 dias de acesso completo acabaram{user?.planoExpiraEm ? ` em ${formatDate(user.planoExpiraEm)}` : ""}. Para continuar estudando com plano, questões, simulados, revisões e IA, escolha uma assinatura.
             </p>
-            <div className="mt-6 rounded-xl border border-white/20 bg-white/10 p-4 text-sm text-blue-50">
+            <div className="mt-6 rounded-xl border border-blue-100 bg-slate-50 p-4 text-sm text-slate-600">
               <ShieldCheck className="mb-2" size={20} />
               Seu progresso fica salvo. Assim que o pagamento for confirmado, o app libera novamente.
             </div>
-            <button className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-blue-50 hover:text-white" onClick={logout} type="button">
+            <button className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-blue-600 hover:text-blue-700" onClick={logout} type="button">
               <LogOut size={17} />
               Sair da conta
             </button>
@@ -130,7 +130,7 @@ function MaintenanceGate({ message }) {
   const { logout } = useUser();
 
   return (
-    <main className="grid min-h-screen place-items-center bg-[linear-gradient(180deg,#f8fbff,#eaf3ff)] px-4 py-8 text-center text-slate-950">
+    <main className="grid min-h-screen place-items-center bg-slate-50 px-4 py-8 text-center text-slate-950">
       <section className="w-full max-w-xl rounded-2xl border border-blue-100 bg-white p-8 shadow-2xl shadow-blue-100/70">
         <div className="mx-auto grid size-14 place-items-center rounded-2xl bg-blue-50 text-blue-600">
           <Wrench size={28} />

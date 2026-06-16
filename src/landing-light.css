@@ -5346,3 +5346,146 @@ main {
     padding: 0 20px 22px !important;
   }
 }
+
+/* Unified light visual system: no gradients, no dark/blue content blocks. */
+html,
+body,
+#root,
+.internal-app-light,
+.internal-app-light > div > main,
+.internal-app-light main {
+  background-color: #f8fafc !important;
+  background-image: none !important;
+  color: #0f172a !important;
+}
+
+body *,
+.internal-app-light *,
+.internal-app-light *::before,
+.internal-app-light *::after {
+  background-image: none !important;
+}
+
+.internal-app-light header,
+.internal-app-light aside,
+.internal-app-light section,
+.internal-app-light article,
+.internal-app-light .aprova-card-default,
+.internal-app-light .aprova-card-elevated,
+.internal-app-light .aprova-card-bordered,
+.internal-app-light .rounded-lg,
+.internal-app-light .rounded-xl,
+.internal-app-light .rounded-2xl,
+.internal-app-light [class*="bg-gray-950"],
+.internal-app-light [class*="bg-gray-900"],
+.internal-app-light [class*="bg-gray-800"],
+.internal-app-light [class*="bg-slate-950"],
+.internal-app-light [class*="bg-slate-900"],
+.internal-app-light [class*="bg-slate-800"] {
+  border-color: #dbeafe !important;
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+}
+
+.internal-app-light main :is([class*="bg-blue-50"], [class*="bg-blue-100"], [class*="bg-blue-500/"], [class*="bg-blue-600/"], [class*="bg-indigo-"], [class*="bg-cyan-"], [class*="bg-sky-"], [class*="bg-violet-"], [class*="bg-purple-"]) {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+.internal-app-light main :is(h1, h2, h3, h4, strong, label, .text-white, .text-gray-100, .text-gray-200, .text-gray-300, .text-blue-50, .text-blue-100, .text-blue-300) {
+  color: #0f172a !important;
+}
+
+.internal-app-light main :is(p, small, .text-gray-400, .text-gray-500, .text-slate-400, .text-slate-500, .text-slate-600) {
+  color: #475569 !important;
+}
+
+.internal-app-light main :is(.text-blue-300, .text-blue-400, .text-blue-500, .text-blue-600, .text-blue-700),
+.internal-app-light main svg.text-blue-300,
+.internal-app-light main svg.text-blue-600,
+.internal-app-light main a {
+  color: #2563eb !important;
+}
+
+.internal-app-light .aprova-btn-primary,
+.internal-app-light .aprova-btn-primary *,
+.internal-app-light button.bg-blue-600,
+.internal-app-light button.bg-blue-600 *,
+.internal-app-light .internal-nav-active,
+.internal-app-light .internal-nav-active *,
+.internal-app-light .mobile-bottom-nav button.is-active,
+.internal-app-light .mobile-bottom-nav button.is-active *,
+.internal-app-light .payment-primary-button,
+.internal-app-light .payment-primary-button * {
+  border-color: #2563eb !important;
+  background-color: #2563eb !important;
+  color: #ffffff !important;
+}
+
+.internal-app-light .bg-blue-600:not(button):not(.aprova-btn-primary),
+.internal-app-light .bg-blue-500:not(button):not(.aprova-btn-primary) {
+  background-color: #2563eb !important;
+}
+
+.internal-app-light .mobile-study-hero {
+  display: block !important;
+  border: 1px solid #dbeafe !important;
+  border-left: 4px solid #2563eb !important;
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.06) !important;
+}
+
+.internal-app-light .mobile-study-hero :is(h1, p, span) {
+  color: #0f172a !important;
+}
+
+.internal-app-light .mobile-study-hero span,
+.internal-app-light .profile-summary-card [class*="text-blue"] {
+  color: #2563eb !important;
+}
+
+.internal-app-light .profile-summary-card,
+.internal-app-light .profile-summary-card > div,
+.internal-app-light .profile-summary-card [class*="bg-white/"] {
+  border-color: #dbeafe !important;
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+}
+
+.internal-app-light .profile-summary-card [class*="border-white"],
+.internal-app-light .profile-summary-card [class*="bg-white/"] {
+  border-color: #dbeafe !important;
+}
+
+.internal-app-light .profile-summary-card .bg-white {
+  background-color: #ffffff !important;
+}
+
+.internal-app-light .profile-summary-card [class*="text-white"] {
+  color: #0f172a !important;
+}
+
+.internal-app-light .profile-summary-card .aprova-btn-primary,
+.internal-app-light .profile-summary-card .aprova-btn-primary * {
+  color: #ffffff !important;
+}
+
+.internal-app-light input,
+.internal-app-light select,
+.internal-app-light textarea {
+  border-color: #dbeafe !important;
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+}
+
+.internal-app-light [class*="border-gray-800"],
+.internal-app-light [class*="border-gray-700"] {
+  border-color: #dbeafe !important;
+}
+
+.internal-app-light [class*="shadow-blue"],
+.internal-app-light [class*="shadow-gray"],
+.internal-app-light [class*="shadow-slate"] {
+  --tw-shadow-color: rgba(15, 23, 42, 0.08) !important;
+}

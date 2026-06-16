@@ -96,7 +96,7 @@ function PaymentCheckout() {
 
       if (data?.status === "recusado") {
         setPaymentState("rejected");
-        setStatusText("Pagamento recusado pelo Mercado Pago. Tente outro metodo.");
+        setStatusText("Pagamento não aprovado. Tente outro método.");
         window.clearInterval(timer);
       }
     }, 6000);
@@ -134,7 +134,7 @@ function PaymentCheckout() {
       setLastPaymentStatus(data.status || "pendente");
       setStatusText(data.live_mode === false
         ? "Pix gerado em ambiente de teste. Banco real não paga QR Code sandbox."
-        : "Pix gerado. Aguardando confirmacao do Mercado Pago.");
+        : "Pix gerado! Aguardando confirmação do pagamento.");
     } catch (error) {
       toast.error(error.message || "Não foi possível gerar Pix.");
       setStatusText("");
@@ -171,8 +171,8 @@ function PaymentCheckout() {
           setStatusText("Pagamento aprovado. Aguardando sincronização do acesso.");
         }
       } else {
-        toast.info("Pagamento enviado. O acesso libera quando o Mercado Pago confirmar.");
-        setStatusText("Aguardando confirmação do Mercado Pago.");
+        toast.info("Pagamento enviado! Seu acesso será liberado em instantes.");
+        setStatusText("Aguardando confirmação do pagamento.");
       }
     } catch (error) {
       toast.error(error.message || "Não foi possível processar o cartão.");
@@ -201,7 +201,7 @@ function PaymentCheckout() {
         <div className="payment-checkout-header">
           <span><ShieldCheck size={16} /> Checkout seguro</span>
           <h2>{plan.name}</h2>
-          <p>{plan.price} - acesso por {plan.accessDays} dias. O acesso so libera apos confirmacao do Mercado Pago.</p>
+          <p>{plan.price} — acesso por {plan.accessDays} dias. Liberado automaticamente após o pagamento.</p>
         </div>
 
         <div className={`payment-status-card payment-status-card-${paymentState}`}>
@@ -218,12 +218,12 @@ function PaymentCheckout() {
             </strong>
             <p>
               {paymentState === "approved"
-                ? "Seu perfil foi sincronizado com a confirmacao do backend."
+                ? "Seu acesso foi confirmado."
                 : paymentState === "rejected"
                   ? "Nenhum acesso foi liberado. Use Pix ou outro cartao."
                   : lastPaymentStatus
                     ? `Status atual: ${lastPaymentStatus}.`
-                    : "Pix, credito e debito sao processados pelo Mercado Pago."}
+                    : "Pagamento seguro."}
             </p>
           </div>
         </div>
@@ -248,10 +248,9 @@ function PaymentCheckout() {
                   <div className="payment-warning-card" role="alert">
                     <AlertCircle size={18} />
                     <div>
-                      <strong>Pix de teste detectado</strong>
+                      <strong>QR Code de teste</strong>
                       <p>
-                        Esta cobrança veio do sandbox do Mercado Pago. Apps de banco reais não pagam esse QR Code.
-                        Troque o secret MP_ACCESS_TOKEN no Supabase por uma credencial de producao antes de vender.
+                        Este é um QR Code de teste. Aplicativos de banco reais não conseguem pagar.
                       </p>
                     </div>
                   </div>
@@ -263,7 +262,7 @@ function PaymentCheckout() {
                 </button>
                 {pix.ticket_url ? (
                   <a className="payment-secondary-button payment-ticket-link" href={pix.ticket_url} target="_blank" rel="noreferrer">
-                    Abrir cobranca no Mercado Pago
+                    Ver comprovante
                   </a>
                 ) : null}
               </div>
@@ -304,7 +303,7 @@ function PaymentCheckout() {
         )}
 
         {statusText ? <p className="payment-status">{statusText}</p> : null}
-        <p className="payment-security-note">Seus dados sensiveis ficam protegidos no servidor. O numero do cartao e tokenizado pelo SDK oficial do Mercado Pago.</p>
+        <p className="payment-security-note">Pagamento seguro.</p>
       </div>
     </div>
   );

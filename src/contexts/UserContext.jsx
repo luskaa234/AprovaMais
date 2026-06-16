@@ -216,7 +216,19 @@ export function UserProvider({ children }) {
       return true;
     }
     const { data, error } = await supabase.auth.signUp({ email, password, options: { data: { name } } });
-    if (error) throw error;
+    if (error) {
+      const msg = String(error.message || "");
+      if (error.status === 422 || /already registered|already exists|email.*taken|user.*exist/i.test(msg)) {
+        throw new Error("Este e-mail já tem conta. Faça login.");
+      }
+      if (/signup.*disabled|sign.*up.*disabled/i.test(msg)) {
+        throw new Error("Cadastro temporariamente indisponível. Tente mais tarde.");
+      }
+      if (/password.*least|senha.*curta/i.test(msg)) {
+        throw new Error("A senha precisa ter pelo menos 6 caracteres.");
+      }
+      throw error;
+    }
 
     if (data.session?.user?.id) {
       const createdProfile = await fetchProfile(data.session.user);
@@ -446,7 +458,8 @@ export function UserProvider({ children }) {
   const isAuthenticated = isSupabaseConfigured
     ? Boolean(authUser || localSession?.registrationPending)
     : Boolean(localSession && !localUser?.loggedOut);
-  const value = useMemo(() => ({ user: appUser, isAdmin: appUser?.role === "admin", isAuthenticated, isLoading, login, loginWithGoogle, register, logout, updateProfile, refreshProfile }), [appUser, isAuthenticated, isLoading, login, loginWithGoogle, logout, refreshProfile, register, updateProfile]);
+  const isAdmin = appUser?.role === "admin" && appUser?.email?.toLowerCase() === "lucasmeireles591@gmail.com";
+  const value = useMemo(() => ({ user: appUser, isAdmin, isAuthenticated, isLoading, login, loginWithGoogle, register, logout, updateProfile, refreshProfile }), [appUser, isAdmin, isAuthenticated, isLoading, login, loginWithGoogle, logout, refreshProfile, register, updateProfile]);
   return <UserContext.Provider value={value}>{children}</UserContext.Provider>;
 }
 

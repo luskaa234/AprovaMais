@@ -6,7 +6,7 @@ function ShimmerCTA({
   href,
   className,
   shimmerColor = "#ffffff",
-  background = "linear-gradient(135deg, #2563eb, #60a5fa)",
+  background = "#2563eb",
   ...props
 }) {
   const Component = href ? "a" : "button";

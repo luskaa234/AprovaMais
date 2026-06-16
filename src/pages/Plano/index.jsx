@@ -419,7 +419,7 @@ export default function PlanoPage() {
     setPlanActivities((current) => current.map((item) => item.id === id ? { ...item, status } : item));
     setNowMs(now);
     await planoService.atualizarAtividade(id, { status }).catch(() => {
-      addNotification({ type: "warning", title: "Plano salvo localmente", message: "Não foi possível sincronizar com o Supabase agora." });
+      addNotification({ type: "warning", title: "Plano salvo localmente", message: "Não foi possível salvar na nuvem agora. Tente novamente mais tarde." });
     });
   }, [addNotification]);
   const goToday = useCallback(() => {
@@ -636,7 +636,7 @@ export default function PlanoPage() {
           </section>
 
           <section className="plano-activities overflow-hidden rounded-lg border border-blue-100 bg-white shadow-sm" data-tour="tour-studies-activities">
-            <div className="border-b border-blue-100 bg-gradient-to-r from-slate-50 to-blue-50/70 px-4 py-4">
+            <div className="border-b border-blue-100 bg-slate-50 px-4 py-4">
               <div className="flex flex-wrap items-start justify-between gap-3">
                 <div className="min-w-0">
                   <h2 className="text-lg font-black capitalize text-slate-950">{formatDate(new Date(selectedDate), { weekday: "long", day: "2-digit", month: "long" })}</h2>

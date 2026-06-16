@@ -17732,3 +17732,64 @@ button {
   color: #ffffff !important;
 }
 
+/* Final visual-system lock: keep dashboard/profile light after legacy overrides. */
+.internal-app-light,
+.internal-app-light > div > main,
+.internal-app-light main {
+  background: #f8fafc !important;
+  background-image: none !important;
+  color: #0f172a !important;
+}
+
+.internal-app-light *,
+.internal-app-light *::before,
+.internal-app-light *::after {
+  background-image: none !important;
+}
+
+.internal-app-light .mobile-study-hero,
+.internal-app-light main .mobile-study-hero {
+  border: 1px solid #dbeafe !important;
+  border-left: 4px solid #2563eb !important;
+  background: #ffffff !important;
+  background-image: none !important;
+  color: #0f172a !important;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.06) !important;
+}
+
+.internal-app-light .mobile-study-hero :is(h1, p, span),
+.internal-app-light main .mobile-study-hero :is(h1, p, span) {
+  color: #0f172a !important;
+}
+
+.internal-app-light .mobile-study-hero > div > span {
+  color: #2563eb !important;
+}
+
+.internal-app-light :is(button.bg-blue-600, .aprova-btn-primary, .payment-primary-button),
+.internal-app-light :is(button.bg-blue-600, .aprova-btn-primary, .payment-primary-button) * {
+  border-color: #2563eb !important;
+  background: #2563eb !important;
+  background-image: none !important;
+  color: #ffffff !important;
+}
+
+.internal-app-light .profile-tabs button.bg-blue-600,
+.internal-app-light .profile-tabs button.bg-blue-600 * {
+  border-color: #bfdbfe !important;
+  background: #eff6ff !important;
+  background-image: none !important;
+  color: #1d4ed8 !important;
+  box-shadow: none !important;
+}
+
+.internal-app-light .internal-nav-active,
+.internal-app-light .internal-nav-active *,
+.internal-app-light .internal-nav-active svg {
+  border-color: #bfdbfe !important;
+  background: #eff6ff !important;
+  background-image: none !important;
+  color: #1d4ed8 !important;
+  box-shadow: none !important;
+}
+

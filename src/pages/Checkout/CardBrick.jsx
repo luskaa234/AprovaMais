@@ -56,7 +56,7 @@ export default function CardBrick({ plan, validate, user, onSuccess }) {
                 if (data?.acesso_liberado) {
                   await onSuccessRef.current?.();
                 } else {
-                  toast.info("Pagamento enviado. O acesso é liberado após confirmação do Mercado Pago.");
+                  toast.info("Pagamento enviado! Seu acesso será liberado em instantes.");
                 }
               } catch (err) {
                 const msg = err?.message || "Não foi possível processar o cartão.";
@@ -111,7 +111,7 @@ export default function CardBrick({ plan, validate, user, onSuccess }) {
       <div className="rounded-xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">
         <strong>Erro ao carregar formulário:</strong> {brickError}
         <p className="mt-1 text-xs text-red-500">
-          Verifique se <code>VITE_MP_PUBLIC_KEY</code> está configurada.
+          Não foi possível carregar o formulário de pagamento. Tente novamente.
         </p>
       </div>
     );
@@ -137,10 +137,6 @@ export default function CardBrick({ plan, validate, user, onSuccess }) {
 
       {ready && (
         <>
-          <p className="mt-3 flex items-center gap-1.5 text-xs text-slate-400">
-            <span>🔒</span>
-            Não armazenamos dados do seu cartão. Tokenização feita pelo Mercado Pago.
-          </p>
           <div className="mt-4 flex flex-wrap gap-2">
             {["VISA", "MASTER", "ELO", "AMEX", "HIPERCARD"].map((f) => (
               <span

@@ -207,9 +207,8 @@ export default function CheckoutPage() {
 
           <div className="flex items-center gap-1.5 text-xs text-slate-500" aria-label="Pagamento seguro">
             <Lock size={13} className="text-emerald-500" aria-hidden />
-            <span className="hidden sm:inline">Pagamento seguro</span>
-            <span className="ml-1 hidden rounded-full bg-emerald-50 px-2 py-0.5 text-[11px] font-medium text-emerald-700 sm:inline">
-              Mercado Pago
+            <span className="hidden rounded-full bg-emerald-50 px-2 py-0.5 text-[11px] font-medium text-emerald-700 sm:inline">
+              Pagamento seguro
             </span>
           </div>
         </div>
@@ -365,7 +364,7 @@ export default function CheckoutPage() {
             {/* Rodapé de confiança */}
             <p className="pb-6 text-center text-xs text-slate-400">
               <Lock size={11} className="mr-1 inline" aria-hidden />
-              Seus dados são protegidos com criptografia SSL de 256 bits. Ao comprar você concorda com os{" "}
+              Pagamento seguro. Ao comprar você concorda com os{" "}
               <button type="button" className="underline hover:text-slate-600">
                 Termos de Uso
               </button>{" "}
@@ -476,14 +475,10 @@ function OrderSummaryCard({ plan, benefits, compact = false }) {
             ))}
           </div>
 
-          {/* Selo Mercado Pago */}
+          {/* Selo segurança */}
           <div className="flex items-center gap-2 rounded-xl bg-slate-50 px-3 py-2.5">
             <ShieldCheck size={15} className="shrink-0 text-emerald-500" aria-hidden />
-            <p className="text-xs text-slate-500">
-              Processado pelo{" "}
-              <span className="font-semibold text-slate-700">Mercado Pago</span>.
-              Seus dados estão seguros.
-            </p>
+            <p className="text-xs text-slate-500">Pagamento seguro.</p>
           </div>
         </>
       )}

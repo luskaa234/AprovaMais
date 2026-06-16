@@ -43,33 +43,33 @@ Card.displayName = "Card";
 
 export const Input = memo(forwardRef(({ label, error, helperText, icon: Icon, className = "", ...props }, ref) => (
   <label className={cx("grid gap-1 text-sm", className)}>
-    {label ? <span className="font-semibold text-gray-200">{label}</span> : null}
+    {label ? <span className="font-semibold text-slate-700">{label}</span> : null}
     <span className="relative">
       {Icon ? <Icon className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" size={16} /> : null}
       <input ref={ref} className={cx("aprova-input min-h-11 w-full rounded-[var(--aprova-radius-sm)] border px-3 text-sm outline-none transition", Icon && "pl-9", error && "aprova-input-error")} {...props} />
     </span>
-    {error || helperText ? <span className={cx("text-xs", error ? "text-red-300" : "text-gray-500")}>{error || helperText}</span> : null}
+    {error || helperText ? <span className={cx("text-xs", error ? "text-red-600" : "text-slate-500")}>{error || helperText}</span> : null}
   </label>
 )));
 Input.displayName = "Input";
 
 export const Select = memo(({ label, options = [], placeholder = "Selecione", error, className = "", ...props }) => (
   <label className={cx("grid gap-1 text-sm", className)}>
-    {label ? <span className="font-semibold text-gray-200">{label}</span> : null}
+    {label ? <span className="font-semibold text-slate-700">{label}</span> : null}
     <select className={cx("aprova-input min-h-11 rounded-[var(--aprova-radius-sm)] border px-3 text-sm outline-none", error && "aprova-input-error")} {...props}>
       <option value="">{placeholder}</option>
       {options.map((option) => <option key={option.value || option} value={option.value || option}>{option.label || option}</option>)}
     </select>
-    {error ? <span className="text-xs text-red-300">{error}</span> : null}
+    {error ? <span className="text-xs text-red-600">{error}</span> : null}
   </label>
 ));
 Select.displayName = "Select";
 
 export const Textarea = memo(({ label, maxLength, value = "", className = "", ...props }) => (
   <label className={cx("grid gap-1 text-sm", className)}>
-    {label ? <span className="font-semibold text-gray-200">{label}</span> : null}
+    {label ? <span className="font-semibold text-slate-700">{label}</span> : null}
     <textarea className="aprova-input min-h-36 rounded-[var(--aprova-radius-sm)] border px-3 py-3 text-sm outline-none" maxLength={maxLength} value={value} {...props} />
-    {maxLength ? <span className="text-right text-xs text-gray-500">{value.length}/{maxLength}</span> : null}
+    {maxLength ? <span className="text-right text-xs text-slate-500">{value.length}/{maxLength}</span> : null}
   </label>
 ));
 Textarea.displayName = "Textarea";
@@ -88,7 +88,7 @@ Avatar.displayName = "Avatar";
 
 export const ProgressBar = memo(({ value, max = 100, color = "bg-blue-500", label, animated = true }) => (
   <div>
-    {label ? <div className="mb-1 flex justify-between text-xs text-gray-400"><span>{label}</span><span>{Math.round((value / max) * 100)}%</span></div> : null}
+    {label ? <div className="mb-1 flex justify-between text-xs text-slate-500"><span>{label}</span><span>{Math.round((value / max) * 100)}%</span></div> : null}
     <div className="h-2 overflow-hidden rounded-full bg-blue-100"><div className={cx("h-full rounded-full", color, animated && "transition-all duration-500")} style={{ width: `${Math.min(100, (value / max) * 100)}%` }} /></div>
   </div>
 ));
@@ -100,9 +100,9 @@ export const ProgressRing = memo(({ value, max = 100, size = 84, strokeWidth = 8
   const offset = circumference - (value / max) * circumference;
   return (
     <svg width={size} height={size} className="-rotate-90">
-      <circle cx={size / 2} cy={size / 2} r={radius} stroke="#1f2937" strokeWidth={strokeWidth} fill="none" />
+      <circle cx={size / 2} cy={size / 2} r={radius} stroke="#dbeafe" strokeWidth={strokeWidth} fill="none" />
       <circle cx={size / 2} cy={size / 2} r={radius} stroke="#2563eb" strokeWidth={strokeWidth} fill="none" strokeLinecap="round" strokeDasharray={circumference} strokeDashoffset={offset} />
-      <text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" className="rotate-90 fill-white text-sm font-bold">{Math.round((value / max) * 100)}%</text>
+      <text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" className="rotate-90 fill-slate-950 text-sm font-bold">{Math.round((value / max) * 100)}%</text>
     </svg>
   );
 });
@@ -131,7 +131,7 @@ Tabs.displayName = "Tabs";
 export const Pagination = memo(({ page, totalPages, onPageChange }) => (
   <div className="flex items-center justify-end gap-2">
     <Button variant="outline" size="sm" disabled={page <= 1} onClick={() => onPageChange(page - 1)}>Anterior</Button>
-    <span className="text-sm text-gray-400">{page}/{totalPages}</span>
+    <span className="text-sm text-slate-500">{page}/{totalPages}</span>
     <Button variant="outline" size="sm" disabled={page >= totalPages} onClick={() => onPageChange(page + 1)}>Próxima</Button>
   </div>
 ));
@@ -152,7 +152,7 @@ export const Toast = memo(({ toast, onClose }) => toast ? (
   <div className="fixed right-4 top-4 z-50 max-w-sm rounded-[var(--aprova-radius)] border border-blue-100 bg-white p-4 text-sm text-slate-700 shadow-[var(--aprova-shadow)] aprova-toast-enter">
     <button aria-label="Fechar toast" onClick={onClose} className="absolute right-2 top-2 text-gray-500"><X size={14} /></button>
     <strong className="block">{toast.title || "Notificação"}</strong>
-    <span className="text-gray-300">{toast.message}</span>
+    <span className="text-slate-500">{toast.message}</span>
   </div>
 ) : null);
 Toast.displayName = "Toast";

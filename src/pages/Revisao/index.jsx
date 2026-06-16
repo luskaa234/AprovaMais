@@ -147,7 +147,7 @@ export default function RevisaoPage() {
             <p className="text-xs font-black uppercase tracking-wide text-blue-600">Central de revisão</p>
             <h1 className="mt-1 text-3xl font-black text-slate-950">Questões reais para revisar</h1>
             <p className="mt-1 max-w-2xl text-sm leading-6 text-slate-500">
-              A fila usa suas tentativas erradas e o caderno de erros. Refazer, dominar ou remover persiste no Supabase por usuário.
+              A fila usa suas tentativas erradas e o caderno de erros. Refazer, dominar ou remover fica salvo na sua conta.
             </p>
           </div>
           <div className="grid grid-cols-3 gap-2">

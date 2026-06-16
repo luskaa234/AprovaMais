@@ -74,8 +74,7 @@ export default function PixPanel({ pixData, onSuccess, onCancel }) {
         <div className="flex gap-2.5 rounded-xl border border-amber-200 bg-amber-50 p-3 text-sm text-amber-800">
           <AlertCircle size={16} className="mt-0.5 shrink-0" />
           <p>
-            <strong>Ambiente de teste.</strong> Este QR Code não pode ser pago por bancos reais.
-            Configure o <code className="rounded bg-amber-100 px-1 text-xs">MP_ACCESS_TOKEN</code> de produção no Supabase.
+            <strong>Ambiente de teste.</strong> Este QR Code não pode ser pago por aplicativos de banco reais.
           </p>
         </div>
       )}
@@ -84,7 +83,7 @@ export default function PixPanel({ pixData, onSuccess, onCancel }) {
       {status === "waiting" && (
         <div className="flex items-center gap-2 rounded-xl border border-blue-100 bg-blue-50 px-3.5 py-2.5 text-sm text-blue-700">
           <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-blue-500" />
-          Aguardando confirmação do pagamento...
+          Pix gerado! Assim que o pagamento cair, seu acesso é liberado automaticamente.
         </div>
       )}
       {status === "confirmed" && (
@@ -147,7 +146,7 @@ export default function PixPanel({ pixData, onSuccess, onCancel }) {
           className="flex items-center justify-center gap-1.5 text-xs text-slate-400 hover:text-slate-600"
         >
           <ExternalLink size={12} />
-          Abrir cobrança no Mercado Pago
+          Ver comprovante
         </a>
       )}
 
