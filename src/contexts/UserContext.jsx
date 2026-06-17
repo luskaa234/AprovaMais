@@ -289,8 +289,7 @@ export function UserProvider({ children }) {
   }, [authUser, fetchProfile]);
 
   useEffect(() => {
-    if (!isSupabaseConfigured || !authUser || !profile || !localSession?.registrationPending) return undefined;
-    if (localSession.email?.toLowerCase() !== authUser.email?.toLowerCase()) return undefined;
+    if (!isSupabaseConfigured || !authUser || !profile) return undefined;
 
     const dbUpdates = {};
     if (localUser.onboardingComplete === true && profile.onboarding_completo !== true) {
@@ -311,7 +310,7 @@ export function UserProvider({ children }) {
     return () => {
       alive = false;
     };
-  }, [authUser, localSession, localUser.onboardingComplete, localUser.tourCompleto, profile]);
+  }, [authUser, localUser.onboardingComplete, localUser.tourCompleto, profile]);
 
   const appUser = useMemo(() => {
     if (isSupabaseConfigured && authUser && profile) {
