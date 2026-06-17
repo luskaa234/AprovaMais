@@ -75,12 +75,24 @@ export default function QuestoesPage() {
   });
   const [page, setPage] = useState(1);
   const batchSize = 6;
-  const pageSize = page * batchSize;
   const [filtersOpen, setFiltersOpen] = useState(true);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [sessionSeed, setSessionSeed] = useState(() => `treino-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`);
   const baseTrainingFilters = useMemo(() => ({ area: initialArea, aleatorio: true, seed: sessionSeed, ...(articleTrainingFilter || {}) }), [articleTrainingFilter, initialArea, sessionSeed]);
-  const { questoes, filters, updateFilter, clearFilters, isLoading, total, stats, filterOptions } = useQuestoes({ page: 1, pageSize, initialFilters: baseTrainingFilters });
+  const { questoes: pageQuestoes, filters, updateFilter, clearFilters, isLoading, total, stats, filterOptions } = useQuestoes({ page, pageSize: batchSize, initialFilters: baseTrainingFilters });
+  const [accQuestoes, setAccQuestoes] = useState([]);
+  const [sessionAnswered, setSessionAnswered] = useState(new Set());
+
+  useEffect(() => {
+    if (isLoading) return;
+    setAccQuestoes((prev) => {
+      if (page === 1) return pageQuestoes;
+      const ids = new Set(prev.map((q) => q.id));
+      const fresh = pageQuestoes.filter((q) => !ids.has(q.id));
+      return fresh.length ? [...prev, ...fresh] : prev;
+    });
+  }, [pageQuestoes, page, isLoading]);
+
   const loaderRef = useRef(null);
   const { addNotification } = useNotifications();
   const tentativas = useQuestoesStore((state) => state.tentativas);
@@ -119,11 +131,15 @@ export default function QuestoesPage() {
 
   const setFilter = useCallback((key, value) => {
     setPage(1);
+    setAccQuestoes([]);
+    setSessionAnswered(new Set());
     updateFilter(key, value);
   }, [updateFilter]);
 
   const resetTraining = useCallback((nextFilters = {}) => {
     setPage(1);
+    setAccQuestoes([]);
+    setSessionAnswered(new Set());
     clearFilters({ ...baseTrainingFilters, ...nextFilters });
   }, [baseTrainingFilters, clearFilters]);
 
@@ -131,11 +147,14 @@ export default function QuestoesPage() {
     const nextSeed = `treino-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
     setSessionSeed(nextSeed);
     setPage(1);
+    setAccQuestoes([]);
+    setSessionAnswered(new Set());
     clearFilters({ ...filters, aleatorio: true, seed: nextSeed });
   }, [clearFilters, filters]);
 
   const onAnswer = useCallback(async (id, alternativa) => {
     const result = await questoesService.responder(id, alternativa);
+    setSessionAnswered((prev) => new Set([...prev, id]));
     if (usingSupabaseUser) {
       setRemoteUserData((current) => ({
         ...current,
@@ -206,16 +225,16 @@ export default function QuestoesPage() {
   const accuracy = resolved ? Math.round((correct / resolved) * 100) : 0;
   const visible = useMemo(() => {
     const seen = new Set();
-    return [...generatedQuestions, ...questoes].filter((questao) => {
+    return [...generatedQuestions, ...accQuestoes].filter((questao) => {
       if (!questao?.id || seen.has(questao.id)) return false;
       seen.add(questao.id);
       return true;
     });
-  }, [generatedQuestions, questoes]);
+  }, [generatedQuestions, accQuestoes]);
   const hasMore = visible.length < total;
   const isFirstLoading = isLoading && page === 1 && !visible.length;
   const visibleFilterCount = Object.entries(filters).filter(([key, value]) => !["area", "aleatorio", "seed", "questoesIds"].includes(key) && Boolean(value)).length;
-  const totalAvailable = stats?.totalDisponivel || total || visible.length || questoes.length;
+  const totalAvailable = stats?.totalDisponivel || total || visible.length || accQuestoes.length;
   const formatNumber = useCallback((value) => Number(value || 0).toLocaleString("pt-BR"), []);
   const materiaOptions = filterOptionEntries(filterOptions.materias);
   const bancaOptions = filterOptionEntries(filterOptions.bancas);
@@ -239,11 +258,10 @@ export default function QuestoesPage() {
 
   useEffect(() => {
     if (!visible.length || !hasMore || isLoading) return;
-    const answered = new Set(activeTentativas.map((item) => item.questaoId));
-    if (!visible.every((questao) => answered.has(questao.id))) return undefined;
-    const timer = window.setTimeout(loadNextPage, 0);
+    if (!visible.every((questao) => sessionAnswered.has(questao.id))) return undefined;
+    const timer = window.setTimeout(loadNextPage, 300);
     return () => window.clearTimeout(timer);
-  }, [activeTentativas, hasMore, isLoading, loadNextPage, visible]);
+  }, [hasMore, isLoading, loadNextPage, sessionAnswered, visible]);
 
   const filtersContent = (
     <>

@@ -407,37 +407,33 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
         <Sidebar />
       </aside>
 
-      <AnimatePresence>
-        {mobileOpen ? (
-          <motion.div
-            animate={{ opacity: 1 }}
-            className="fixed inset-0 z-50 bg-black/65 backdrop-blur-sm xl:hidden"
-            exit={{ opacity: 0 }}
-            initial={{ opacity: 0 }}
+      <motion.div
+        animate={{ opacity: mobileOpen ? 1 : 0 }}
+        className="fixed inset-0 z-50 bg-black/65 backdrop-blur-sm xl:hidden"
+        initial={{ opacity: 0 }}
+        onClick={closeMobile}
+        style={{ pointerEvents: mobileOpen ? "auto" : "none" }}
+        transition={{ duration: 0.2 }}
+      >
+        <motion.div
+          animate={{ y: mobileOpen ? 0 : "100%" }}
+          className="mobile-more-sheet absolute inset-x-0 bottom-0 max-h-[82svh] rounded-t-[2rem] bg-white shadow-2xl"
+          initial={{ y: "100%" }}
+          onClick={(event) => event.stopPropagation()}
+          transition={{ type: "spring", damping: 30, stiffness: 360 }}
+        >
+          <div className="mx-auto mt-3 h-1.5 w-14 rounded-full bg-slate-300" />
+          <button
+            aria-label="Fechar menu"
+            className="absolute right-4 top-4 z-10 grid size-10 place-items-center rounded-xl bg-slate-100 text-slate-500 shadow-sm"
             onClick={closeMobile}
+            type="button"
           >
-            <motion.div
-              animate={{ y: 0 }}
-              className="mobile-more-sheet absolute inset-x-0 bottom-0 max-h-[82svh] rounded-t-[2rem] bg-white shadow-2xl"
-              exit={{ y: "100%" }}
-              initial={{ y: "100%" }}
-              onClick={(event) => event.stopPropagation()}
-              transition={{ type: "spring", damping: 30, stiffness: 360 }}
-            >
-              <div className="mx-auto mt-3 h-1.5 w-14 rounded-full bg-slate-300" />
-              <button
-                aria-label="Fechar menu"
-                className="absolute right-4 top-4 z-10 grid size-10 place-items-center rounded-xl bg-slate-100 text-slate-500 shadow-sm"
-                onClick={closeMobile}
-                type="button"
-              >
-                <X size={21} />
-              </button>
-              <Sidebar mobile onNavigate={closeMobile} />
-            </motion.div>
-          </motion.div>
-        ) : null}
-      </AnimatePresence>
+            <X size={21} />
+          </button>
+          <Sidebar mobile onNavigate={closeMobile} />
+        </motion.div>
+      </motion.div>
 
       <div className="md:pl-20 xl:pl-72">
         <Topbar />
