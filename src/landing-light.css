@@ -3780,17 +3780,12 @@ main {
 
 .internal-app-light .internal-nav-active,
 .internal-app-light .internal-nav-active *,
-.internal-app-light .internal-nav-active svg,
-.internal-app-light .bg-blue-600,
-.internal-app-light .bg-blue-600 *,
-.internal-app-light .bg-red-600,
-.internal-app-light .bg-red-600 * {
+.internal-app-light .internal-nav-active svg {
   color: #ffffff !important;
   stroke: #ffffff !important;
 }
 
-.internal-app-light .internal-nav-active,
-.internal-app-light .bg-blue-600 {
+.internal-app-light .internal-nav-active {
   background-color: #2563eb !important;
   border-color: #2563eb !important;
   box-shadow: 0 12px 28px rgba(37, 99, 235, 0.2) !important;
@@ -5413,8 +5408,6 @@ body *,
 .internal-app-light button.bg-blue-600 *,
 .internal-app-light .internal-nav-active,
 .internal-app-light .internal-nav-active *,
-.internal-app-light .mobile-bottom-nav button.is-active,
-.internal-app-light .mobile-bottom-nav button.is-active *,
 .internal-app-light .payment-primary-button,
 .internal-app-light .payment-primary-button * {
   border-color: #2563eb !important;
