@@ -327,10 +327,14 @@ const refreshRoutes = new Set(["dashboard", "questoes"]);
 
 export const AppShell = memo(({ children, onMobileRefresh }) => {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [sheetMounted, setSheetMounted] = useState(false);
   const [pullDistance, setPullDistance] = useState(0);
   const [refreshing, setRefreshing] = useState(false);
   const closeMobile = useCallback(() => setMobileOpen(false), []);
-  const openMobile = useCallback(() => setMobileOpen(true), []);
+  const openMobile = useCallback(() => {
+    setSheetMounted(true);
+    setMobileOpen(true);
+  }, []);
   const { route, canGoBack, goBack } = useInternalRouter();
   const touchRef = useRef({ x: 0, y: 0, pulling: false, edge: false });
 
@@ -391,7 +395,11 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
   }, [mobileOpen]);
 
   useEffect(() => {
-    const onTourMenu = (event) => setMobileOpen(Boolean(event.detail?.open));
+    const onTourMenu = (event) => {
+      const open = Boolean(event.detail?.open);
+      if (open) { setSheetMounted(true); setMobileOpen(true); }
+      else { setMobileOpen(false); }
+    };
     window.addEventListener("aprova:mobile-menu", onTourMenu);
     return () => window.removeEventListener("aprova:mobile-menu", onTourMenu);
   }, []);
@@ -407,38 +415,41 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
         <Sidebar />
       </aside>
 
-      <motion.div
-        animate={{ opacity: mobileOpen ? 1 : 0 }}
-        className="fixed inset-0 z-50 bg-black/65 backdrop-blur-sm xl:hidden"
-        initial={{ opacity: 0 }}
-        onClick={closeMobile}
-        style={{ pointerEvents: mobileOpen ? "auto" : "none" }}
-        transition={{ duration: 0.2 }}
-      >
+      {sheetMounted && (
         <motion.div
-          animate={{ y: mobileOpen ? 0 : "100%" }}
-          className="mobile-more-sheet absolute inset-x-0 bottom-0 max-h-[82svh] rounded-t-[2rem] bg-white shadow-2xl"
-          initial={{ y: "100%" }}
-          onClick={(event) => event.stopPropagation()}
-          transition={{ type: "spring", damping: 30, stiffness: 360 }}
+          animate={{ opacity: mobileOpen ? 1 : 0 }}
+          className="fixed inset-0 z-50 bg-black/65 backdrop-blur-sm xl:hidden"
+          initial={{ opacity: 0 }}
+          onClick={closeMobile}
+          onAnimationComplete={() => { if (!mobileOpen) setSheetMounted(false); }}
+          style={{ pointerEvents: mobileOpen ? "auto" : "none" }}
+          transition={{ duration: 0.2 }}
         >
-          <div className="mx-auto mt-3 h-1.5 w-14 rounded-full bg-slate-300" />
-          <button
-            aria-label="Fechar menu"
-            className="absolute right-4 top-4 z-10 grid size-10 place-items-center rounded-xl bg-slate-100 text-slate-500 shadow-sm"
-            onClick={closeMobile}
-            type="button"
+          <motion.div
+            animate={{ y: mobileOpen ? 0 : "100%" }}
+            className="mobile-more-sheet absolute inset-x-0 bottom-0 max-h-[82svh] rounded-t-[2rem] bg-white shadow-2xl"
+            initial={{ y: "100%" }}
+            onClick={(event) => event.stopPropagation()}
+            transition={{ type: "spring", damping: 30, stiffness: 360 }}
           >
-            <X size={21} />
-          </button>
-          <Sidebar mobile onNavigate={closeMobile} />
+            <div className="mx-auto mt-3 h-1.5 w-14 rounded-full bg-slate-300" />
+            <button
+              aria-label="Fechar menu"
+              className="absolute right-4 top-4 z-10 grid size-10 place-items-center rounded-xl bg-slate-100 text-slate-500 shadow-sm"
+              onClick={closeMobile}
+              type="button"
+            >
+              <X size={21} />
+            </button>
+            <Sidebar mobile onNavigate={closeMobile} />
+          </motion.div>
         </motion.div>
-      </motion.div>
+      )}
 
       <div className="md:pl-20 xl:pl-72">
         <Topbar />
         <main
-          className="min-h-[calc(100vh-73px)] bg-slate-50 p-3 sm:p-4 md:p-6"
+          className="min-h-[calc(100svh-73px)] bg-slate-50 p-3 sm:p-4 md:p-6"
           onTouchEnd={handleTouchEnd}
           onTouchMove={handleTouchMove}
           onTouchStart={handleTouchStart}
