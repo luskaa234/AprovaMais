@@ -16940,6 +16940,38 @@ button {
   min-height: 7.25rem;
 }
 
+/* Viewer toolbar zoom buttons */
+.mindmap-zoom-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2rem;
+  height: 2rem;
+  padding: 0 0.4rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.6rem;
+  background: #ffffff;
+  color: #334155;
+  font-size: 0.78rem;
+  font-weight: 900;
+  transition: background 0.12s, color 0.12s;
+}
+
+.mindmap-zoom-btn:hover {
+  background: #f1f5f9;
+  color: #1e40af;
+}
+
+.mindmap-zoom-pct {
+  min-width: 2.9rem;
+}
+
+/* Mobile viewer: taller canvas, no min-height constraint */
+.mindmap-viewer-mobile .mindmap-canvas {
+  height: 58svh;
+  min-height: 22rem;
+}
+
 [data-theme="dark"] .mindmap-viewer.fixed,
 [data-theme="dark"] .mindmap-viewer-toolbar {
   border-color: rgba(125, 164, 215, 0.22) !important;
@@ -16962,38 +16994,22 @@ button {
 }
 
 @media (max-width: 767px) {
-  .mindmaps-layout {
-    display: flex !important;
-    flex-direction: column;
-  }
-
-  .mindmaps-list {
-    order: 2;
-  }
-
-  .mindmaps-side {
-    order: 3;
-  }
-
-  .mindmap-viewer {
+  .mindmap-viewer-toolbar {
+    gap: 0.5rem;
+    padding: 0.65rem 0.85rem;
     min-height: auto;
   }
 
-  .mindmap-viewer-toolbar {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
   .mindmap-canvas {
-    height: 62svh;
-    min-height: 24rem;
+    height: 60svh;
+    min-height: 22rem;
   }
 
   .mindmap-stage {
     padding: 1rem;
   }
 
-.mindmap-svg-image,
+  .mindmap-svg-image,
   .mindmap-generated-svg {
     width: 940px;
   }
