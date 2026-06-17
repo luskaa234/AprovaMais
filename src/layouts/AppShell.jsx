@@ -1,6 +1,6 @@
 import { memo, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Bell, BookOpen, CalendarDays, Home, PlusCircle, Search, Settings2, X } from "lucide-react";
+import { Bell, BookOpen, CalendarDays, ChevronsLeft, ChevronsRight, Home, PlusCircle, Search, Settings2, X } from "lucide-react";
 import { Avatar, Input, Toast, cx } from "../components";
 import BrandLogo from "../components/BrandLogo";
 import TourButton from "../components/TourButton";
@@ -24,7 +24,7 @@ function visibleNavItems(user, isAdmin) {
 
 const mobilePrimaryTabs = ["dashboard", "biblioteca", "questoes", "plano"];
 
-const Sidebar = memo(({ mobile = false, onNavigate }) => {
+const Sidebar = memo(({ mobile = false, onNavigate, collapsed = false, onToggle }) => {
   const { route, navigate } = useInternalRouter();
   const { user, isAdmin } = useUser();
   const items = useMemo(() => {
@@ -46,8 +46,11 @@ const Sidebar = memo(({ mobile = false, onNavigate }) => {
     <aside
       className={cx(
         "flex h-full flex-col",
-        mobile ? "mobile-more-menu w-full bg-white p-5 pt-4" : "w-20 border-r border-slate-200 bg-white p-3 xl:w-72 xl:p-4"
+        mobile
+          ? "mobile-more-menu w-full bg-white p-5 pt-4"
+          : cx("w-20 border-r border-slate-200 bg-white p-3", !collapsed && "xl:w-72 xl:p-4")
       )}
+      style={!mobile ? { transition: "width 200ms ease, padding 200ms ease" } : undefined}
     >
       <div className={cx("flex min-h-12 items-center", mobile ? "mb-3 pr-12" : "mb-6 px-2")}>
         {mobile ? (
@@ -55,9 +58,9 @@ const Sidebar = memo(({ mobile = false, onNavigate }) => {
             <p className="text-xs font-black uppercase tracking-wide text-blue-600">VemAprovar</p>
             <h2 className="text-2xl font-black text-slate-950">Atalhos</h2>
           </div>
-        ) : (
+        ) : !collapsed ? (
           <BrandLogo className="internal-brand-logo" />
-        )}
+        ) : null}
       </div>
 
       <nav className={cx("flex-1 overflow-auto pr-1", mobile ? "space-y-1.5" : "space-y-1")}>
@@ -65,7 +68,7 @@ const Sidebar = memo(({ mobile = false, onNavigate }) => {
           <button
             className={cx(
               "flex w-full items-center gap-3 rounded-xl text-left font-semibold transition",
-              mobile ? "min-h-11 px-3 py-2.5 text-sm" : "justify-center px-3 py-2.5 text-sm xl:justify-start",
+              mobile ? "min-h-11 px-3 py-2.5 text-sm" : cx("justify-center px-3 py-2.5 text-sm", !collapsed && "xl:justify-start"),
               route === key
                 ? "internal-nav-active bg-blue-600 text-white shadow-lg shadow-blue-500/20"
                 : "text-slate-500 hover:bg-slate-100 hover:text-slate-900"
@@ -77,12 +80,12 @@ const Sidebar = memo(({ mobile = false, onNavigate }) => {
             type="button"
           >
             <Icon size={mobile ? 18 : 16} strokeWidth={1.7} />
-            <span className={cx("min-w-0 flex-1 truncate", mobile ? "block" : "hidden xl:block")}>{label}</span>
+            <span className={cx("min-w-0 flex-1 truncate", mobile ? "block" : collapsed ? "hidden" : "hidden xl:block")}>{label}</span>
             {badge ? (
               <span
                 className={cx(
                   "rounded-full bg-blue-500 px-2 py-0.5 text-[10px] font-black text-white",
-                  mobile ? "inline-flex" : "hidden xl:inline-flex"
+                  mobile ? "inline-flex" : collapsed ? "hidden" : "hidden xl:inline-flex"
                 )}
               >
                 {badge}
@@ -91,6 +94,19 @@ const Sidebar = memo(({ mobile = false, onNavigate }) => {
           </button>
         ))}
       </nav>
+
+      {!mobile && (
+        <div className="mt-2 border-t border-slate-100 pt-2">
+          <button
+            aria-label={collapsed ? "Expandir menu" : "Minimizar menu"}
+            className="flex w-full items-center justify-center rounded-xl p-2 text-slate-400 transition hover:bg-slate-100 hover:text-slate-700"
+            onClick={onToggle}
+            type="button"
+          >
+            {collapsed ? <ChevronsRight size={16} /> : <ChevronsLeft size={16} />}
+          </button>
+        </div>
+      )}
     </aside>
   );
 });
@@ -312,7 +328,6 @@ const BottomNav = memo(({ onMore }) => {
         const active = key === "more" ? !mobilePrimaryTabs.includes(route) : route === key;
         return (
           <motion.button className={cx(active && "is-active")} data-tour={tourId} key={key} onClick={action} type="button" whileTap={{ scale: 0.94 }}>
-            {active ? <motion.i className="mobile-bottom-nav-pill" layoutId="mobile-bottom-nav-pill" transition={{ type: "spring", damping: 24, stiffness: 420 }} /> : null}
             <Icon size={20} strokeWidth={active ? 2.4 : 2} />
             <span>{label}</span>
           </motion.button>
@@ -328,12 +343,22 @@ const refreshRoutes = new Set(["dashboard", "questoes"]);
 export const AppShell = memo(({ children, onMobileRefresh }) => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [sheetMounted, setSheetMounted] = useState(false);
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(
+    () => localStorage.getItem("aprova-sidebar-collapsed") === "true"
+  );
   const [pullDistance, setPullDistance] = useState(0);
   const [refreshing, setRefreshing] = useState(false);
   const closeMobile = useCallback(() => setMobileOpen(false), []);
   const openMobile = useCallback(() => {
     setSheetMounted(true);
     setMobileOpen(true);
+  }, []);
+  const toggleSidebar = useCallback(() => {
+    setSidebarCollapsed((v) => {
+      const next = !v;
+      localStorage.setItem("aprova-sidebar-collapsed", String(next));
+      return next;
+    });
   }, []);
   const { route, canGoBack, goBack } = useInternalRouter();
   const touchRef = useRef({ x: 0, y: 0, pulling: false, edge: false });
@@ -412,7 +437,7 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
       )}
     >
       <aside className="fixed left-0 top-0 hidden h-screen md:block">
-        <Sidebar />
+        <Sidebar collapsed={sidebarCollapsed} onToggle={toggleSidebar} />
       </aside>
 
       {sheetMounted && (
@@ -446,7 +471,10 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
         </motion.div>
       )}
 
-      <div className="md:pl-20 xl:pl-72">
+      <div
+        className={cx("md:pl-20", sidebarCollapsed ? "xl:pl-20" : "xl:pl-72")}
+        style={{ transition: "padding-left 200ms ease" }}
+      >
         <Topbar />
         <main
           className="min-h-[calc(100svh-73px)] bg-slate-50 p-3 sm:p-4 md:p-6"

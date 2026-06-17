@@ -10423,30 +10423,27 @@ main {
   color: #64748b;
   font-size: 0.66rem;
   font-weight: 900;
-  overflow: hidden;
 }
 
 .mobile-bottom-nav button.is-active {
-  color: #ffffff;
+  color: #2563eb;
   background: transparent;
-  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.28);
+  box-shadow: none;
 }
 
-.mobile-bottom-nav button svg,
-.mobile-bottom-nav button span {
-  position: relative;
-  z-index: 1;
-}
-
-.mobile-bottom-nav-pill {
+.mobile-bottom-nav button.is-active::after {
+  content: "";
   position: absolute;
-  inset: 0;
-  border-radius: inherit;
+  bottom: 0;
+  left: 0.5rem;
+  right: 0.5rem;
+  height: 0.25rem;
+  border-radius: 999px 999px 0 0;
   background: #2563eb;
 }
 
 .mobile-bottom-nav button.is-active svg {
-  stroke: #ffffff;
+  stroke: #2563eb;
 }
 
 .mobile-more-sheet {
@@ -10538,23 +10535,6 @@ main {
     min-height: 3.85rem;
     border-radius: 1rem;
     font-size: 0.7rem;
-  }
-
-  .mobile-bottom-nav button.is-active {
-    color: #2563eb;
-    background: transparent;
-    box-shadow: none;
-  }
-
-  .mobile-bottom-nav-pill {
-    inset: auto 0.55rem 0;
-    height: 0.28rem;
-    border-radius: 999px 999px 0 0;
-    background: #2563eb;
-  }
-
-  .mobile-bottom-nav button.is-active svg {
-    stroke: #2563eb;
   }
 
   .profile-tabs {
