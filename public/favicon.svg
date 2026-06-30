@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- VemAprovar monograma VA — cores atualizadas para paleta oficial -->
+  <rect width="64" height="64" rx="14" fill="#F8FBFF"/>
+  <defs>
+    <linearGradient id="va-grad" x1="13" y1="15" x2="52" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D63C4"/>
+      <stop offset="1" stop-color="#2E97D4"/>
+    </linearGradient>
+  </defs>
+  <!-- V do monograma -->
+  <path d="M28 11L47 53H38.8L34.5 43.5H21.6L17.3 53H9L28 11ZM24.5 36.7H31.6L28.1 28.2L24.5 36.7Z" fill="#13386E"/>
+  <!-- Check/acento do A -->
+  <path d="M16.5 36.2L24.2 43.2L43.1 25L47.2 29.3L24.2 51.4L12.5 40.6L16.5 36.2Z" fill="url(#va-grad)"/>
+  <!-- A cross -->
+  <path d="M51.5 11V19.5H60V25.5H51.5V34H45.5V25.5H37V19.5H45.5V11H51.5Z" fill="#1D63C4"/>
+</svg>
