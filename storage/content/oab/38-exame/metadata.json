@@ -1,0 +1,170 @@
+{
+  "exam": "38º Exame de Ordem Unificado",
+  "source": "FGV/OAB",
+  "sourceUrl": "https://oab.fgv.br/home.aspx?key=641",
+  "collectedAt": "2026-06-10T00:01:30.063Z",
+  "files": [
+    {
+      "title": "Gabaritos Definitivos da Prova Objetiva (1ª fase)",
+      "type": "gabarito",
+      "url": "http://oab.fgv.br/arq/641/77411_GABARITOS%20DEFINITIVOS_XXXVIII_EXAME_DE_ORDEM_20230724.pdf",
+      "path": "storage/content/oab/38-exame/gabaritos/gabaritos-definitivos-da-prova-objetiva-1-fase-usmjo3.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 4",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/641/1188878_OABXXXVIII%20-%20Prova%20Tipo%204.pdf",
+      "path": "storage/content/oab/38-exame/provas/caderno-de-prova-tipo-4-1l5upb.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 3",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/641/1202995_OABXXXVIII%20-%20Prova%20Tipo%203.pdf",
+      "path": "storage/content/oab/38-exame/provas/caderno-de-prova-tipo-3-7avmbn.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 2",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/641/1190578_OABXXXVIII%20-%20Prova%20Tipo%202.pdf",
+      "path": "storage/content/oab/38-exame/provas/caderno-de-prova-tipo-2-1mav4h.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 1",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/641/1180933_OABXXXVIII%20-%20Prova%20Tipo%201.pdf",
+      "path": "storage/content/oab/38-exame/provas/caderno-de-prova-tipo-1-1nbviw.pdf"
+    },
+    {
+      "title": "Gabaritos Preliminares da Prova Objetiva (1ª fase)",
+      "type": "gabarito",
+      "url": "http://oab.fgv.br/arq/641/675049_OABXXXVIII%20-%20Gabaritos%20para%20publica%c3%a7%c3%a3o.pdf",
+      "path": "storage/content/oab/38-exame/gabaritos/gabaritos-preliminares-da-prova-objetiva-1-fase-1mpipe.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Penal)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/641/627571_OAB%20XXXVIII%20-%20CNS25%20-%20GABARITO%20JUSTIFICADO%20-%20DIREITO%20PENAL.pdf",
+      "path": "storage/content/oab/38-exame/segunda-fase/padrao-de-respostas-definitivo-direito-penal-1qv6tu.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Tributário)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/641/534846_OAB%20XXXVIII%20-%20CNS27%20-%20GABARITO%20JUSTIFICADO%20-%20DIREITO%20TRIBUT%c3%81RIO.pdf",
+      "path": "storage/content/oab/38-exame/segunda-fase/padrao-de-respostas-definitivo-direito-tributario-1ct25d.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Empresarial)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/641/484452_OAB%20XXXVIII%20-%20CNS24%20-%20GABARITO%20JUSTIFICADO%20-%20DIREITO%20EMPRESARIAL.pdf",
+      "path": "storage/content/oab/38-exame/segunda-fase/padrao-de-respostas-definitivo-direito-empresarial-o4wpjx.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito do Trabalho)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/641/534695_OAB%20XXXVIII%20-%20CNS26%20-%20GABARITO%20JUSTIFICADO%20-%20DIREITO%20DO%20TRABALHO.pdf",
+      "path": "storage/content/oab/38-exame/segunda-fase/padrao-de-respostas-definitivo-direito-do-trabalho-1grxnv.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Constitucional)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/641/551783_OAB%20XXXVIII%20-%20CNS23%20-%20GABARITO%20JUSTIFICADO%20-%20DIREITO%20CONSTITUCIONAL.pdf",
+      "path": "storage/content/oab/38-exame/segunda-fase/padrao-de-respostas-definitivo-direito-constitucional-wni1v0.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Civil)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/641/628224_OAB%20XXXVIII%20-%20CNS22%20-%20GABARITO%20JUSTIFICADO%20-%20DIREITO%20CIVIL.pdf",
+      "path": "storage/content/oab/38-exame/segunda-fase/padrao-de-respostas-definitivo-direito-civil-1mdt6c.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Administrativo)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/641/530162_OAB%20XXXVIII%20-%20CNS21%20-%20GABARITO%20JUSTIFICADO%20-%20DIREITO%20ADMINISTRATIVO.pdf",
+      "path": "storage/content/oab/38-exame/segunda-fase/padrao-de-respostas-definitivo-direito-administrativo-6os0md.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Penal)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/641/574257_OAB%20XXXVIII%20-%20CNS25%20-%20GABARITO%20JUSTIFICADO%20-%20DIREITO%20PENAL.pdf",
+      "path": "storage/content/oab/38-exame/segunda-fase/padrao-de-respostas-direito-penal-16mi7m.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Tributário)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/641/507824_OAB%20XXXVIII%20-%20CNS27%20-%20GABARITO%20JUSTIFICADO%20-%20DIREITO%20TRIBUT%c3%81RIO.pdf",
+      "path": "storage/content/oab/38-exame/segunda-fase/padrao-de-respostas-direito-tributario-1glj22.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito do Trabalho)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/641/517602_OAB%20XXXVIII%20-%20CNS26%20-%20GABARITO%20JUSTIFICADO%20-%20DIREITO%20DO%20TRABALHO.pdf",
+      "path": "storage/content/oab/38-exame/segunda-fase/padrao-de-respostas-direito-do-trabalho-dff67x.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Empresarial)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/641/456291_OAB%20XXXVIII%20-%20CNS24%20-%20GABARITO%20JUSTIFICADO%20-%20DIREITO%20EMPRESARIAL.pdf",
+      "path": "storage/content/oab/38-exame/segunda-fase/padrao-de-respostas-direito-empresarial-1ezgko.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Constitucional)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/641/526768_OAB%20XXXVIII%20-%20CNS23%20-%20GABARITO%20JUSTIFICADO%20-%20DIREITO%20CONSTITUCIONAL.pdf",
+      "path": "storage/content/oab/38-exame/segunda-fase/padrao-de-respostas-direito-constitucional-1tirm8.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Civil)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/641/584049_OAB%20XXXVIII%20-%20CNS22%20-%20GABARITO%20JUSTIFICADO%20-%20DIREITO%20CIVIL.pdf",
+      "path": "storage/content/oab/38-exame/segunda-fase/padrao-de-respostas-direito-civil-1l9t55.pdf"
+    },
+    {
+      "title": "Padrão de respostas (Direito Administrativo)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/641/502019_OAB%20XXXVIII%20-%20CNS21%20-%20GABARITO%20JUSTIFICADO%20-%20DIREITO%20ADMINISTRATIVO.pdf",
+      "path": "storage/content/oab/38-exame/segunda-fase/padrao-de-respostas-direito-administrativo-1jmz6a.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Penal)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/641/1227085_CNS25%20-%20DIREITO%20PENAL.pdf",
+      "path": "storage/content/oab/38-exame/provas/caderno-de-provas-direito-penal-1mu7gw.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Tributário)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/641/1208520_CNS27%20-%20DIREITO%20TRIBUT%c3%81RIO.pdf",
+      "path": "storage/content/oab/38-exame/provas/caderno-de-provas-direito-tributario-1cunam.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito do Trabalho)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/641/1086550_CNS26%20-%20DIREITO%20DO%20TRABALHO.pdf",
+      "path": "storage/content/oab/38-exame/provas/caderno-de-provas-direito-do-trabalho-hk3g3g.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Empresarial)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/641/1079870_CNS24%20-%20DIREITO%20EMPRESARIAL.pdf",
+      "path": "storage/content/oab/38-exame/provas/caderno-de-provas-direito-empresarial-fury8p.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Constitucional)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/641/1205689_CNS23%20-%20DIREITO%20CONSTITUCIONAL.pdf",
+      "path": "storage/content/oab/38-exame/provas/caderno-de-provas-direito-constitucional-18w6wa.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Administrativo)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/641/1198613_CNS21%20-%20DIREITO%20ADMINISTRATIVO.pdf",
+      "path": "storage/content/oab/38-exame/provas/caderno-de-provas-direito-administrativo-1bumpr.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Civil)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/641/1193789_CNS22%20-%20DIREITO%20CIVIL.pdf",
+      "path": "storage/content/oab/38-exame/provas/caderno-de-provas-direito-civil-5fj6zx.pdf"
+    }
+  ]
+}

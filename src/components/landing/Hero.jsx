@@ -76,7 +76,7 @@ function Hero() {
     <section className="aprova-hero" id="inicio">
       <div className="aprova-hero-left">
         <a className="aprova-hero-inline-logo" href="/" aria-label="VemAprovar - início">
-          <BrandLogo variant="white" />
+          <BrandLogo width={240} height={58} />
         </a>
 
         <span className="aprova-hero-live-badge">

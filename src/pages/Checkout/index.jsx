@@ -2,6 +2,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { toast } from "sonner";
 import { cx } from "../../components";
+import BrandLogo from "../../components/BrandLogo";
 import { useInternalRouter, useUser } from "../../contexts";
 import { createPixPayment, paymentPlans, verifyPremiumAccess } from "../../services/paymentService";
 import CardBrick from "./CardBrick";
@@ -205,7 +206,7 @@ export default function CheckoutPage() {
             <span className="hidden sm:inline">Voltar</span>
           </button>
 
-          <span className="text-base font-black tracking-tight text-navy">VemAprovar</span>
+          <BrandLogo width={142} height={38} />
 
           <div className="flex items-center gap-1.5 text-xs text-slate-500" aria-label="Pagamento seguro">
             <Lock size={13} className="text-emerald-500" aria-hidden />

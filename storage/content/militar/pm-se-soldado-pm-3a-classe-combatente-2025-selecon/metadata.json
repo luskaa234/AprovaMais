@@ -1,0 +1,26 @@
+{
+  "exame": "PM-SE Soldado PM - 3a Classe - Combatente 2025",
+  "banca": "SELECON",
+  "ano": 2025,
+  "aplicada_em": "2025-01-19",
+  "cargo": "Soldado PM - 3a Classe - Combatente",
+  "total_questoes": 60,
+  "fonte": "Oficial militar",
+  "sourceUrl": "https://www.pciconcursos.com.br/provas/download/soldado-pm-3-classe-combatente-policia-militar-se-selecon-2025",
+  "gabarito": "definitivo",
+  "origem": "oficial",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "url": "https://arquivos.qconcursos.com/prova/arquivo_prova/128295/selecon-2025-pm-se-soldado-pm-3-classe-combatente-prova.pdf",
+      "path": "storage/content/militar/pm-se-soldado-pm-3a-classe-combatente-2025-selecon/provas/pm-se-soldado-pm-3a-classe-combatente-2025-selecon-prova.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "url": "https://arquivos.qconcursos.com/prova/arquivo_gabarito/128295/selecon-2025-pm-se-soldado-pm-3-classe-combatente-gabarito.pdf",
+      "path": "storage/content/militar/pm-se-soldado-pm-3a-classe-combatente-2025-selecon/gabaritos/pm-se-soldado-pm-3a-classe-combatente-2025-selecon-gabarito-definitivo.pdf"
+    }
+  ]
+}

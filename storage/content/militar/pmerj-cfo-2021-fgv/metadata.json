@@ -1,0 +1,23 @@
+{
+  "exame": "PMERJ Oficial da PM (QOPM) 2021",
+  "banca": "FGV",
+  "ano": 2021,
+  "cargo": "Oficial da PM (QOPM)",
+  "total_questoes": 70,
+  "fonte": "Oficial FGV local",
+  "sourceUrl": "material-provas/fgv/provas PM/pmerj2021-curso-de-formacao-de-oficiais-da-pmerj-pmcfo01-tipo-1.pdf",
+  "gabarito": "definitivo",
+  "origem": "oficial",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "path": "material-provas/fgv/provas PM/pmerj2021-curso-de-formacao-de-oficiais-da-pmerj-pmcfo01-tipo-1.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "path": "material-provas/fgv/provas PM/pmerj2021_gabarito_definitivo.pdf"
+    }
+  ]
+}

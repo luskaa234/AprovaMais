@@ -1,0 +1,23 @@
+{
+  "exame": "PMSP Sargento PM 2024",
+  "banca": "FGV",
+  "ano": 2024,
+  "cargo": "Sargento PM",
+  "total_questoes": 60,
+  "fonte": "Oficial FGV local",
+  "sourceUrl": "material-provas/fgv/provas PM/pm-sargentocnm001-tipo-1.pdf",
+  "gabarito": "definitivo",
+  "origem": "oficial",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "path": "material-provas/fgv/provas PM/pm-sargentocnm001-tipo-1.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "path": "material-provas/fgv/provas PM/pmesp-sargento-2024-gabaritos-para-publicacao.pdf"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "exame": "PMSP Soldado PM de 2a Classe 2017",
+  "banca": "Vunesp",
+  "ano": 2017,
+  "aplicada_em": "2017-12-03",
+  "cargo": "Soldado PM de 2a Classe",
+  "total_questoes": 50,
+  "fonte": "Oficial militar",
+  "sourceUrl": "https://www.vunesp.com.br/PMES1703",
+  "gabarito": "definitivo",
+  "origem": "oficial",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "url": "https://arquivos.qconcursos.com/prova/arquivo_prova/56290/vunesp-2017-pm-sp-soldado-da-policia-militar-cfsd-prova.pdf",
+      "path": "storage/content/militar/pmsp-soldado-2017-vunesp/provas/pmsp-soldado-2017-vunesp-prova.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "url": "https://arquivos.qconcursos.com/prova/arquivo_gabarito/56290/vunesp-2017-pm-sp-soldado-da-policia-militar-cfsd-gabarito.pdf",
+      "path": "storage/content/militar/pmsp-soldado-2017-vunesp/gabaritos/pmsp-soldado-2017-vunesp-gabarito-definitivo.pdf"
+    }
+  ]
+}

@@ -44,6 +44,7 @@ function normalizeMap(item, index) {
     root: item.root || { label: title, children: [] },
     htmlUrl: item.htmlUrl || item.html_url || "",
     svgUrl: /\.svg($|\?)/i.test(svgUrl) ? svgUrl : "",
+    pdfUrl: item.pdfUrl || item.pdf_url || (/\.pdf($|\?)/i.test(item.url || "") ? (item.url || "") : ""),
     flashcardsRelacionados: item.flashcardsRelacionados || 5,
     questoesRelacionadas: item.questoesRelacionadas || 12,
   };
@@ -181,8 +182,16 @@ function MapViewer({ map, full, zoom, pan, collapsed, onCloseFull, onFullscreen,
   const pointers = useRef(new Map());
   const gesture = useRef({ panStart: pan, pointerStart: null, distanceStart: 0, zoomStart: zoom });
   const hasHtmlMap = Boolean(map.htmlUrl);
+  const hasPdf = Boolean(map.pdfUrl);
+  const [viewMode, setViewMode] = useState("map"); // "map" | "pdf"
 
-  useEffect(() => { pointers.current.clear(); }, [map?.id]);
+  useEffect(() => { pointers.current.clear(); setViewMode("map"); }, [map?.id]);
+
+  const pdfViewerUrl = hasPdf
+    ? (map.pdfUrl.startsWith("http")
+        ? `https://docs.google.com/viewer?url=${encodeURIComponent(map.pdfUrl)}&embedded=true`
+        : map.pdfUrl)
+    : "";
 
   const startGesture = useCallback((e) => {
     e.currentTarget.setPointerCapture?.(e.pointerId);
@@ -241,8 +250,26 @@ function MapViewer({ map, full, zoom, pan, collapsed, onCloseFull, onFullscreen,
             <p className="truncate text-xs text-slate-500">{map.concurso} · {map.materia}</p>
           </div>
         </div>
-        <div className="flex shrink-0 items-center gap-1">
-          {!hasHtmlMap && (
+        <div className="flex shrink-0 items-center gap-1.5">
+          {hasPdf && (
+            <div className="flex rounded-lg border border-slate-200 bg-slate-50 p-0.5 text-xs font-bold">
+              <button
+                onClick={() => setViewMode("map")}
+                className={cx("rounded-md px-2.5 py-1 transition", viewMode === "map" ? "bg-white text-slate-900 shadow-sm" : "text-slate-500 hover:text-slate-700")}
+                type="button"
+              >
+                Mapa
+              </button>
+              <button
+                onClick={() => setViewMode("pdf")}
+                className={cx("rounded-md px-2.5 py-1 transition", viewMode === "pdf" ? "bg-white text-slate-900 shadow-sm" : "text-slate-500 hover:text-slate-700")}
+                type="button"
+              >
+                PDF
+              </button>
+            </div>
+          )}
+          {!hasHtmlMap && viewMode === "map" && (
             <>
               <button aria-label="Reduzir" className="mindmap-zoom-btn" onClick={() => onZoom(Math.max(0.35, zoom - 0.14))} type="button"><Minus size={14} /></button>
               <button className="mindmap-zoom-btn mindmap-zoom-pct" onClick={centerMap} type="button">{Math.round(zoom * 100)}%</button>
@@ -250,7 +277,7 @@ function MapViewer({ map, full, zoom, pan, collapsed, onCloseFull, onFullscreen,
             </>
           )}
           {!mobile && (
-            <button className={cx("mindmap-zoom-btn", !hasHtmlMap && "ml-1")} onClick={full ? onCloseFull : onFullscreen} type="button">
+            <button className="mindmap-zoom-btn ml-1" onClick={full ? onCloseFull : onFullscreen} type="button">
               {full ? <X size={14} /> : <Maximize2 size={14} />}
             </button>
           )}
@@ -258,30 +285,42 @@ function MapViewer({ map, full, zoom, pan, collapsed, onCloseFull, onFullscreen,
       </div>
 
       {/* Canvas */}
-      <div
-        className={cx("mindmap-canvas", hasHtmlMap && "mindmap-canvas-html")}
-        onPointerDown={hasHtmlMap ? undefined : startGesture}
-        onPointerMove={hasHtmlMap ? undefined : moveGesture}
-        onPointerCancel={hasHtmlMap ? undefined : endGesture}
-        onPointerUp={hasHtmlMap ? undefined : endGesture}
-        onWheel={hasHtmlMap ? undefined : onWheel}
-      >
-        {hasHtmlMap ? (
+      {viewMode === "pdf" ? (
+        <div className="mindmap-canvas mindmap-canvas-html">
           <iframe
-            src={map.htmlUrl}
-            title={map.materia || map.titulo}
-            loading="lazy"
-            sandbox="allow-scripts allow-same-origin"
-            style={{ display: "block", width: "100%", height: "min(74svh, 52rem)", minHeight: "34rem", border: 0 }}
+            src={pdfViewerUrl}
+            title={`PDF: ${map.titulo}`}
+            className="block w-full border-0"
+            style={{ height: "min(74svh, 52rem)", minHeight: "34rem" }}
+            allow="fullscreen"
           />
-        ) : (
-          <div className="mindmap-stage" style={{ transform: `translate3d(${pan.x}px,${pan.y}px,0) scale(${zoom})` }}>
-            {map.svgUrl
-              ? <img className="mindmap-svg-image" src={map.svgUrl} alt={`Mapa: ${map.titulo}`} loading="lazy" draggable={false} />
-              : <MindMapSvg map={map} collapsed={collapsed} onToggle={onToggleNode} onNodeTap={onNodeTap} />}
-          </div>
-        )}
-      </div>
+        </div>
+      ) : (
+        <div
+          className={cx("mindmap-canvas", hasHtmlMap && "mindmap-canvas-html")}
+          onPointerDown={hasHtmlMap ? undefined : startGesture}
+          onPointerMove={hasHtmlMap ? undefined : moveGesture}
+          onPointerCancel={hasHtmlMap ? undefined : endGesture}
+          onPointerUp={hasHtmlMap ? undefined : endGesture}
+          onWheel={hasHtmlMap ? undefined : onWheel}
+        >
+          {hasHtmlMap ? (
+            <iframe
+              src={map.htmlUrl}
+              title={map.materia || map.titulo}
+              loading="lazy"
+              sandbox="allow-scripts allow-same-origin"
+              style={{ display: "block", width: "100%", height: "min(74svh, 52rem)", minHeight: "34rem", border: 0 }}
+            />
+          ) : (
+            <div className="mindmap-stage" style={{ transform: `translate3d(${pan.x}px,${pan.y}px,0) scale(${zoom})` }}>
+              {map.svgUrl
+                ? <img className="mindmap-svg-image" src={map.svgUrl} alt={`Mapa: ${map.titulo}`} loading="lazy" draggable={false} />
+                : <MindMapSvg map={map} collapsed={collapsed} onToggle={onToggleNode} onNodeTap={onNodeTap} />}
+            </div>
+          )}
+        </div>
+      )}
     </Card>
   );
 }
@@ -621,15 +660,47 @@ export default function MapasMentaisPage() {
       <div className={cx("xl:hidden", mobileView !== "viewer" && "hidden")}>
         {activeMap ? (
           <>
-            <button
-              className="mobile-mindmap-back"
-              onClick={() => setMobileView("list")}
-              type="button"
-            >
-              <ArrowLeft size={16} />
-              Lista de mapas
-            </button>
-            {activeMap.htmlUrl ? (
+            <div className="mb-3 flex items-center gap-2">
+              <button
+                className="mobile-mindmap-back"
+                onClick={() => setMobileView("list")}
+                type="button"
+              >
+                <ArrowLeft size={16} />
+                Lista de mapas
+              </button>
+              {activeMap.pdfUrl && (
+                <div className="flex rounded-lg border border-slate-200 bg-slate-50 p-0.5 text-xs font-bold">
+                  <button
+                    onClick={() => setMobileView("viewer")}
+                    className={cx("rounded-md px-2.5 py-1 transition", mobileView === "viewer" ? "bg-white text-slate-900 shadow-sm" : "text-slate-500")}
+                    type="button"
+                  >
+                    Mapa
+                  </button>
+                  <button
+                    onClick={() => setMobileView("viewer-pdf")}
+                    className={cx("rounded-md px-2.5 py-1 transition", mobileView === "viewer-pdf" ? "bg-white text-slate-900 shadow-sm" : "text-slate-500")}
+                    type="button"
+                  >
+                    PDF
+                  </button>
+                </div>
+              )}
+            </div>
+            {mobileView === "viewer-pdf" && activeMap.pdfUrl ? (
+              <div className="overflow-hidden rounded-2xl">
+                <iframe
+                  src={activeMap.pdfUrl.startsWith("http")
+                    ? `https://docs.google.com/viewer?url=${encodeURIComponent(activeMap.pdfUrl)}&embedded=true`
+                    : activeMap.pdfUrl}
+                  title={`PDF: ${activeMap.titulo}`}
+                  className="block w-full border-0"
+                  style={{ height: "75svh", minHeight: "28rem" }}
+                  allow="fullscreen"
+                />
+              </div>
+            ) : activeMap.htmlUrl ? (
               <div className="overflow-hidden rounded-2xl">
                 <iframe
                   src={activeMap.htmlUrl}

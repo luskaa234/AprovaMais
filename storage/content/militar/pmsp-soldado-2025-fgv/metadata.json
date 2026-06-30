@@ -1,0 +1,26 @@
+{
+  "exame": "PMSP Soldado PM de 2a Classe 2025",
+  "banca": "FGV",
+  "ano": 2025,
+  "aplicada_em": "2025-02-16",
+  "cargo": "Soldado PM de 2a Classe",
+  "total_questoes": 60,
+  "fonte": "Oficial militar",
+  "sourceUrl": "https://conhecimento.fgv.br/concursos/pmespsoldado25",
+  "gabarito": "definitivo",
+  "origem": "oficial",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/soldado-pm-de-2a-classe-cnm001-tipo-1_0.pdf",
+      "path": "storage/content/militar/pmsp-soldado-2025-fgv/provas/pmsp-soldado-2025-fgv-prova.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "url": "https://conhecimento.fgv.br/sites/default/files/concursos/doeco-04.321.25-gabarito-definitivo-ed.3.321.24.pdf",
+      "path": "storage/content/militar/pmsp-soldado-2025-fgv/gabaritos/pmsp-soldado-2025-fgv-gabarito-definitivo.pdf"
+    }
+  ]
+}

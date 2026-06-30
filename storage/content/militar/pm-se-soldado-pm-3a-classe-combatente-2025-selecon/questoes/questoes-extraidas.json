@@ -1,0 +1,2264 @@
+[
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q01",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q01",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 1,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O texto anterior tem como objetivo destacar uma descoberta científica. Um fato novo noticiado pelo texto é que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "há células-tronco nos cérebros humanos"
+      },
+      {
+        "letra": "B",
+        "texto": "o cérebro dos idosos não conta com vasos sanguíneos"
+      },
+      {
+        "letra": "C",
+        "texto": "o cérebro humano é capaz de construir novas células nervosas"
+      },
+      {
+        "letra": "D",
+        "texto": "pesquisas brasileiras comprovam que o cérebro humano não envelhece"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q02",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q02",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 2,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Considerando-se o veículo de comunicação em que foi divulgado o texto anterior, conclui-se que o seu público-alvo é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "os cientistas que atuam com neurologia"
+      },
+      {
+        "letra": "B",
+        "texto": "todos os estudantes de Biologia do país"
+      },
+      {
+        "letra": "C",
+        "texto": "as pessoas que foram acometidas por doenças cerebrais"
+      },
+      {
+        "letra": "D",
+        "texto": "todos os leitores do jornal interessados em ciência e atualidades"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q03",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q03",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 3,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“Hoje eu quero contar para vocês sobre um estudo inovador realizado na Columbia University, que confirma que as células cerebrais não envelhecem” (1º parágrafo). Se a forma verbal destacada estivesse flexionada no pretérito imperfeito do subjuntivo, teríamos:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "envelheçam"
+      },
+      {
+        "letra": "B",
+        "texto": "envelheciam"
+      },
+      {
+        "letra": "C",
+        "texto": "envelheceram"
+      },
+      {
+        "letra": "D",
+        "texto": "envelhecessem"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q04",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q04",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 4,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“Na verdade, o que se descobriu é que você tem exatamente o mesmo número de células nervosas (ou neurônios) quando jovem” (2º parágrafo). O conectivo destacado designa a ideia de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "causa"
+      },
+      {
+        "letra": "B",
+        "texto": "tempo"
+      },
+      {
+        "letra": "C",
+        "texto": "condição"
+      },
+      {
+        "letra": "D",
+        "texto": "consequência"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q06",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q06",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 6,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em “Eles provaram que o cérebro pode continuar criando novos neurônios para sempre” (4º parágrafo), as palavras destacadas são, respectivamente, classificadas como:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pronome relativo e adjetivo"
+      },
+      {
+        "letra": "B",
+        "texto": "pronome relativo e substantivo"
+      },
+      {
+        "letra": "C",
+        "texto": "conjunção integrante e adjetivo"
+      },
+      {
+        "letra": "D",
+        "texto": "conjunção integrante e substantivo"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q08",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q08",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 8,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“Os cientistas da Columbia estudaram cérebros doados por pessoas idosas que morreram de causas naturais” (8º parágrafo). Nesse trecho, a oração destacada é classificada como subordinada:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "adjetiva restritiva"
+      },
+      {
+        "letra": "B",
+        "texto": "adjetiva explicativa"
+      },
+      {
+        "letra": "C",
+        "texto": "substantiva apositiva"
+      },
+      {
+        "letra": "D",
+        "texto": "substantiva completiva nominal"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q05",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q05",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 5,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“Isso foi admitido inclusive como certo pelo diretor do Instituto Nacional de Saúde dos EUA”. (3º parágrafo). No texto, o pronome em destaque faz referência ao fato de que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "todos estamos sujeitos a declínios mentais"
+      },
+      {
+        "letra": "B",
+        "texto": "houve confirmação de que existem células no cérebro"
+      },
+      {
+        "letra": "C",
+        "texto": "todos temos o mesmo número de células nervosas ao longo de nossa vida"
+      },
+      {
+        "letra": "D",
+        "texto": "existia uma velha teoria de que não haveria criação de novos neurônios no cérebro"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q07",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q07",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 7,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em “Portanto, a velha teoria de que cérebros humanos não podem construir novos neurônios cai por terra!” (5º parágrafo), o verbo destacado classifica-se como:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "de ligação"
+      },
+      {
+        "letra": "B",
+        "texto": "transitivo direto"
+      },
+      {
+        "letra": "C",
+        "texto": "transitivo indireto"
+      },
+      {
+        "letra": "D",
+        "texto": "transitivo direto e indireto"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q09",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q09",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 9,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em “Além disso, eles também encontraram um número menor de células-tronco inativas, ou 'quiescentes', em uma área do cérebro ligada à resistência cognitivo-emocional” (9º parágrafo), a expressão destacada poderia ser substituída, sem significativa alteração de sentido, por:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ademais"
+      },
+      {
+        "letra": "B",
+        "texto": "Por um lado"
+      },
+      {
+        "letra": "C",
+        "texto": "Por outro lado"
+      },
+      {
+        "letra": "D",
+        "texto": "Em contrapartida"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q10",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q10",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 10,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "No texto, predomina uma determinada função da linguagem, que é a:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "metalinguística"
+      },
+      {
+        "letra": "B",
+        "texto": "referencial"
+      },
+      {
+        "letra": "C",
+        "texto": "conativa"
+      },
+      {
+        "letra": "D",
+        "texto": "fática SOLDADO PM - 3ª CLASSE - COMBATENTE GOVERNO DO ESTADO DE SERGIPE POLÍCIA MILITAR DO ESTADO DE SERGIPE - PMSE"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q12",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q12",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 12,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Valdomiro quitou uma dívida em dois meses. No primeiro mês pagou 32,15% da dívida e, no segundo mês, os 1.058,46 reais restantes. O valor total da dívida, em reais, corresponde a:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1.530"
+      },
+      {
+        "letra": "B",
+        "texto": "1.540"
+      },
+      {
+        "letra": "C",
+        "texto": "1.550"
+      },
+      {
+        "letra": "D",
+        "texto": "1.560"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q13",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q13",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 13,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "medio",
+    "enunciado": "Valdomiro possui mais de 1.000 reais e menos do que 1.040 reais. Se ele dividir essa quantia igualmente por seus quatro bisnetos ou por seus nove netos ou por seus doze sobrinhos ou por seus três filhos, cada um deles receberá um valor inteiro de reais e Valdomiro ficará com zero reais. Portanto, se Valdomiro decidir distribuir essa quantia pelos seus filhos, cada um receberá, em reais, o seguinte valor:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "326"
+      },
+      {
+        "letra": "B",
+        "texto": "329"
+      },
+      {
+        "letra": "C",
+        "texto": "336"
+      },
+      {
+        "letra": "D",
+        "texto": "339"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q14",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q14",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 14,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "medio",
+    "enunciado": "Valdomiro pratica, de segunda a sábado, as seguintes atividades físicas: natação, corrida, ciclismo, musculação, alongamento e judô, sendo apenas uma delas por dia, sem repetir atividade em uma mesma semana. O número máximo de maneiras diferentes de Valdomiro organizar a ordem dessas atividades em uma semana é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "360"
+      },
+      {
+        "letra": "B",
+        "texto": "480"
+      },
+      {
+        "letra": "C",
+        "texto": "720"
+      },
+      {
+        "letra": "D",
+        "texto": "840"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q16",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q16",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 16,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "A embalagem de certo produto tem a forma de um cilindro circular reto de altura 12 cm. A superfície lateral de tal embalagem é totalmente coberta, sem sobra nem falta, por um rótulo de papel com 216 cm² de área. Considerando = 3 e sendo desprezível a espessura do material, o volume que essa embalagem é capaz de receber internamente, em cm³, corresponde a:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "288"
+      },
+      {
+        "letra": "B",
+        "texto": "324"
+      },
+      {
+        "letra": "C",
+        "texto": "368"
+      },
+      {
+        "letra": "D",
+        "texto": "424"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q18",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q18",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 18,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "medio",
+    "enunciado": "Duas pistas de ciclismo circulares são concêntricas, e o diâmetro de uma é 20 metros maior que o da outra. Sabe-se que o comprimento da pista maior é 40% maior que o comprimento da pista menor. Se o raio da pista menor, em metros, é igual a R, a soma dos algarismos de R é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6"
+      },
+      {
+        "letra": "B",
+        "texto": "7"
+      },
+      {
+        "letra": "C",
+        "texto": "8"
+      },
+      {
+        "letra": "D",
+        "texto": "9"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q15",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q15",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 15,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Organizando seu computador, Valdomiro distribuiu N arquivos em três pastas. Na primeira pasta ele colocou 1/3 dos arquivos, mais 4 arquivos. Na segunda colocou 1/6 dos arquivos, mais 10 arquivos. Os 22 arquivos restantes foram colocados na terceira pasta. A soma dos algarismos de N é igual a:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "9"
+      },
+      {
+        "letra": "B",
+        "texto": "12"
+      },
+      {
+        "letra": "C",
+        "texto": "14"
+      },
+      {
+        "letra": "D",
+        "texto": "15"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q17",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q17",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 17,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Em certo dia, Valdomiro pintará vários círculos na parede de um quarto de criança. Na parte da manhã, ele vai pintar dois círculos, com diâmetros de 30 cm e 40 cm, respectivamente. À tarde, ele vai pintar N círculos inteiros com diâmetro de 20 cm, de forma que N seja o menor valor possível para que a área total pintada à tarde seja maior que a área total pintada pela manhã. O valor de N é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "4"
+      },
+      {
+        "letra": "B",
+        "texto": "5"
+      },
+      {
+        "letra": "C",
+        "texto": "6"
+      },
+      {
+        "letra": "D",
+        "texto": "7 MATEMÁTICA"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q11",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q11",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 11,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "medio",
+    "enunciado": "Ao finalizar o 6º nível em um jogo eletrônico, Valdomiro conquistou um total de 420.784 pontos. A tabela a seguir mostra a quantidade de pontos obtidos nos 5 níveis iniciais: O total de pontos obtidos no 6º nível é igual a:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "44.283"
+      },
+      {
+        "letra": "B",
+        "texto": "44.563"
+      },
+      {
+        "letra": "C",
+        "texto": "45.283"
+      },
+      {
+        "letra": "D",
+        "texto": "45.563"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q19",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q19",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 19,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "medio",
+    "enunciado": "O esquema a seguir mostra os cruzamentos entre as ruas A, B e C, assim como a praça triangular, com vértices P, Q e R, que fica entre essas ruas. Sabe-se que: • as ruas A e C são perpendiculares entre si; • PQ = 80 m; • PR = 60 m. Valdomiro se encontra no ponto P e deve andar, por dentro da praça, até chegar à rua",
+    "alternativas": [
+      {
+        "letra": "B",
+        "texto": "A menor distância que ele pode percorrer, em metros, corresponde a:"
+      },
+      {
+        "letra": "A",
+        "texto": "48 B) 54"
+      },
+      {
+        "letra": "C",
+        "texto": "60"
+      },
+      {
+        "letra": "D",
+        "texto": "66 SOLDADO PM - 3ª CLASSE - COMBATENTE GOVERNO DO ESTADO DE SERGIPE POLÍCIA MILITAR DO ESTADO DE SERGIPE - PMSE"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q24",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q24",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 24,
+    "materia": "Informatica",
+    "materia_original": "Informatica",
+    "dificuldade": "medio",
+    "enunciado": "Um usuário do MS PowerPoint 2013 BR precisa ajustar o tamanho dos slides para o padrão 4:3. Para acessar essa função de forma direta, ele precisa acessar a aba:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "APRESENTAÇÃO"
+      },
+      {
+        "letra": "B",
+        "texto": "DESIGN"
+      },
+      {
+        "letra": "C",
+        "texto": "EXIBIÇÃO"
+      },
+      {
+        "letra": "D",
+        "texto": "REVISÃO"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q26",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q26",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 26,
+    "materia": "Informatica",
+    "materia_original": "Informatica",
+    "dificuldade": "medio",
+    "enunciado": "No contexto da segurança da informação, de redes, na internet e na nuvem, um determinado termo representa um processo que consiste em criar uma cópia de segurança de dados, configurações ou aplicativos de um dispositivo, como computadores, servidores e celulares, tendo por objetivo proteger os dados e permitir a sua recuperação em caso de perdas, como falhas no sistema, erros humanos, desastres naturais, roubos ou extravios. Paralelamente, outro termo pode ser um dispositivo de hardware ou software, sendo um sistema de segurança que controla o que entra e sai de uma rede ou dispositivo, permitindo ou bloqueando o tráfego de acordo com regras de segurança, representando um recurso que funciona como uma barreira entre a rede interna e a internet pública, permitindo o tráfego não ameaçador e impedindo o tráfego perigoso. Esses dois termos são conhecidos, respectivamente, como:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "rootkit e firewall"
+      },
+      {
+        "letra": "B",
+        "texto": "backup e firewall"
+      },
+      {
+        "letra": "C",
+        "texto": "rootkit e backdoor"
+      },
+      {
+        "letra": "D",
+        "texto": "backup e backdoor"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q25",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q25",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 25,
+    "materia": "Informatica",
+    "materia_original": "Informatica",
+    "dificuldade": "medio",
+    "enunciado": "Durante a criação de uma planilha em um dos softwares mais utilizados no Brasil, como o Excel do MSOffice, numa célula foi inserida uma fórmula que adiciona exclusivamente os números mostrados em A2 e em A7. Em seguida, foi inserida outra fórmula que determina a média aritmética entre todos os números mostrados em A2, A3, A4, A5, A6 e A7. Nessas condições, nas fórmulas =SOMA(...) e =MÉDIA(...), os argumentos a serem inseridos entre os parênteses são, respectivamente:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A2;A7 e A2:A7"
+      },
+      {
+        "letra": "B",
+        "texto": "A2!A7 e A2%A7"
+      },
+      {
+        "letra": "C",
+        "texto": "A2&A7 e A2$A7"
+      },
+      {
+        "letra": "D",
+        "texto": "A2#A7 e A2@A7"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q27",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q27",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 27,
+    "materia": "Informatica",
+    "materia_original": "Informatica",
+    "dificuldade": "medio",
+    "enunciado": "No que diz respeito à implementação das redes de computadores, atualmente é comum empregar uma topologia, ilustrada na figura a seguir: Essa topologia apresenta um ponto de conexão central, normalmente ocupado por um concentrador, como um hub, um switch ou um roteador. Os dispositivos são normalmente conectados ao centro por meio de um cabo Ethernet de Par Trançado não blindado, conhecido pela sigla UTP. Como característica, uma rede implementada por essa topologia geralmente requer mais cabos, e uma falha em qualquer cabo de rede só irá impedir o acesso de apenas um computador e não da LAN inteira. No entanto, se houver uma falha no concentrador, nesse caso também cai a rede inteira. Nessa implementação, é utilizado um conector conhecido pela sigla RJ-45. Nesse contexto, a denominação dessa topologia e a imagem que identifica o conector estão indicadas, respectivamente, na seguinte opção:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "anel e"
+      },
+      {
+        "letra": "B",
+        "texto": "anel e"
+      },
+      {
+        "letra": "C",
+        "texto": "estrela e"
+      },
+      {
+        "letra": "D",
+        "texto": "estrela e"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q20",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q20",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 20,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Em um ponto de controle de segurança de certo aeroporto, um sistema automatizado escolhe ao acaso, para que seja feita uma revista minuciosa, algumas pessoas que por ali passam. Tal sistema foi programado para que a probabilidade de uma pessoa qualquer ser escolhida seja de 20 %. Valdomiro passará por essa segurança duas vezes em momentos distintos do mesmo dia. A probabilidade de que em nenhuma dessas duas ocasiões ele seja escolhido para a revista é de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "40 %"
+      },
+      {
+        "letra": "B",
+        "texto": "48 %"
+      },
+      {
+        "letra": "C",
+        "texto": "64 %"
+      },
+      {
+        "letra": "D",
+        "texto": "80 %"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q22",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q22",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 22,
+    "materia": "Informatica",
+    "materia_original": "Informatica",
+    "dificuldade": "medio",
+    "enunciado": "Um usuário de um computador com sistema operacional Linux precisa usar um comando para localizar outros comandos através de pesquisa por palavras-chave. O comando a ser utilizado é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "apropos"
+      },
+      {
+        "letra": "B",
+        "texto": "emacs"
+      },
+      {
+        "letra": "C",
+        "texto": "find"
+      },
+      {
+        "letra": "D",
+        "texto": "lsof"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q21",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q21",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 21,
+    "materia": "Informatica",
+    "materia_original": "Informatica",
+    "dificuldade": "medio",
+    "enunciado": "Um usuário do sistema operacional MS Windows 10 BR deseja capturar uma tela ativa usando uma tecla de atalho. Nesse caso, a tecla a ser digitada é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Caps"
+      },
+      {
+        "letra": "B",
+        "texto": "NmLk"
+      },
+      {
+        "letra": "C",
+        "texto": "PrtSc"
+      },
+      {
+        "letra": "D",
+        "texto": "ScrLk INFORMÁTICA BÁSICA SOLDADO PM - 3ª CLASSE - COMBATENTE GOVERNO DO ESTADO DE SERGIPE POLÍCIA MILITAR DO ESTADO DE SERGIPE - PMSE"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q36",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q36",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 36,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "A Convenção Americana sobre Direitos Humanos, de 22 de novembro de 1969, internalizada no Brasil por meio do Decreto n.º 678/1992, estabelece que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a pena de morte pode ser aplicada por delitos comuns conexos com delitos políticos"
+      },
+      {
+        "letra": "B",
+        "texto": "o direito à vida deve ser protegido pela lei e, em geral, desde o momento da concepção"
+      },
+      {
+        "letra": "C",
+        "texto": "o acusado absolvido por sentença passada em julgado poderá ser submetido a novo processo pelos mesmos fatos"
+      },
+      {
+        "letra": "D",
+        "texto": "toda pessoa tem direito a ser ouvida, com as devidas garantias e dentro de um prazo razoável, por um juiz competente, independente e parcial ATUALIDADES"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q29",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q29",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 29,
+    "materia": "Atualidades",
+    "materia_original": "Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "O direito à cidade é um tema que vem ganhando espaço na agenda travada por movimentos sociais na contemporaneidade brasileira. Tais movimentos, em sua maioria, apontam que a cidade é um ambiente hostil para determinados grupos sociais, pois o:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "racismo, a violência de gênero e a privatização do espaço público são elementos segregadores no espaço urbano"
+      },
+      {
+        "letra": "B",
+        "texto": "acesso ao lazer e à educação são fatores minoritários para a inserção social dos subalternizados"
+      },
+      {
+        "letra": "C",
+        "texto": "feminismo e a sororidade impedem a qualificação do grupo feminino para cargos públicos e de liderança"
+      },
+      {
+        "letra": "D",
+        "texto": "preconceito de classe favorece a integração socioeconômica horizontal nas metrópoles"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q32",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q32",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 32,
+    "materia": "Atualidades",
+    "materia_original": "Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "A COP30, a 30ª Conferência das Nações Unidas sobre Mudança do Clima (Conferência das Partes), será realizada na cidade de Belém, no estado do Pará, em novembro de 2025. Um dos motivos para a escolha da referida cidade e um dos focos do evento estão assinalados em:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "impor a Amazônia como área de controle cosmopolita; reativar projetos de mineração em hotspots globais"
+      },
+      {
+        "letra": "B",
+        "texto": "solidificar o papel do Brasil na diplomacia ambiental global; discutir o desenvolvimento sustentável da Amazônia"
+      },
+      {
+        "letra": "C",
+        "texto": "projetar a Amazônia para o mundo; debater o avanço dos hidrocarbonetos nas economias centrais"
+      },
+      {
+        "letra": "D",
+        "texto": "vender lotes da Amazônia para projetos estatais; buscar apoio para a preservação de florestas tropicais"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q28",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q28",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 28,
+    "materia": "Informatica",
+    "materia_original": "Informatica",
+    "dificuldade": "medio",
+    "enunciado": "Em suas versões atuais de 32 e 64 bits, em um notebook Intel com Windows 11 BR (x64), atualmente é de suma importância conhecer os recursos dos browsers e de softwares de correio eletrônico. Nesse contexto, tanto o Microsoft Edge como o Google Chrome possibilitam a navegação em sites na modalidade tela cheia, por meio do acionamento de uma tecla de função. No Mozilla Thunderbird, os e-mails que chegam da internet direcionados a um usuário são armazenados, por default, em uma caixa postal padrão. A tecla de função e a caixa postal padrão são, respectivamente:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "F12 e Correio"
+      },
+      {
+        "letra": "B",
+        "texto": "F12 e Entrada"
+      },
+      {
+        "letra": "C",
+        "texto": "F11 e Correio"
+      },
+      {
+        "letra": "D",
+        "texto": "F11 e Entrada"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q30",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q30",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 30,
+    "materia": "Atualidades",
+    "materia_original": "Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Nos últimos anos, o mercado brasileiro observou uma rápida expansão de empresas voltadas às apostas esportivas. Com esse cenário, o governo brasileiro tem trabalhado na criação de uma legislação que regule o funcionamento dessas empresas. A legalização e operação desse setor têm gerado debates intensos, com opiniões divididas entre pontos positivos e negativos. O tema é controverso porque:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a paixão dos apostadores por jogos de azar reduz os problemas emocionais da sociedade"
+      },
+      {
+        "letra": "B",
+        "texto": "todas as empresas deste setor são ligadas às atividades ilícitas em escala global"
+      },
+      {
+        "letra": "C",
+        "texto": "as pessoas deixarão de trabalhar porque enriquecerão com as apostas"
+      },
+      {
+        "letra": "D",
+        "texto": "a regulação do setor pode oferecer forte arrecadação fiscal ao governo"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q33",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q33",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 33,
+    "materia": "Atualidades",
+    "materia_original": "Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "A matriz elétrica brasileira é considerada uma das mais sustentáveis do mundo. Contudo, sob uma perspectiva crítica, algumas das principais fontes que a compõem enfrentam críticas devido aos impactos socioambientais que geram. Assinale a alternativa que apresenta uma dessas fontes e o impacto socioambiental correspondente:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "hídrica; expulsão de moradores para a construção de barragens"
+      },
+      {
+        "letra": "B",
+        "texto": "vento; remoção de populações ribeirinhas pelo som das geradoras"
+      },
+      {
+        "letra": "C",
+        "texto": "madeira; reflorestamento em massa pela necessidade de produção"
+      },
+      {
+        "letra": "D",
+        "texto": "sol; deslocamento de espécies pelo volume dos países fotovoltaicos"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q31",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q31",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 31,
+    "materia": "Atualidades",
+    "materia_original": "Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Entre as décadas de 1960 e 1970, o movimento do grafite apresentava um forte caráter marginal e contestador no espaço urbano. Na atualidade, sobretudo em diversas cidades pelo Brasil e pelo mundo, podemos reconhecer que o grafite:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "permanece como um movimento contestador aliado às causas supremacistas hegemônicas"
+      },
+      {
+        "letra": "B",
+        "texto": "se apresenta como um grito social exclusivamente vinculados às populações periféricas"
+      },
+      {
+        "letra": "C",
+        "texto": "ganhou destaque como arte comercial ao ser também inserido numa lógica de mercado"
+      },
+      {
+        "letra": "D",
+        "texto": "é criminalizado pelo movimento artístico em razão do padrão estético de suas obras"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q34",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q34",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 34,
+    "materia": "Atualidades",
+    "materia_original": "Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Nos últimos anos, o mundo contemporâneo tem sido marcado por profundas transformações nos campos tecnológico e produtivo. Um dos maiores símbolos dessas mudanças é a inteligência artificial, destacando-se como uma ferramenta versátil e cheia de potencial. Entre os impactos da inteligência artificial, destaca-se a possibilidade de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "banimento da propriedade privada"
+      },
+      {
+        "letra": "B",
+        "texto": "eliminação do desemprego em massa"
+      },
+      {
+        "letra": "C",
+        "texto": "propagação de fake news e deepfakes"
+      },
+      {
+        "letra": "D",
+        "texto": "extinção da criatividade humana"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q35",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q35",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 35,
+    "materia": "Atualidades",
+    "materia_original": "Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "O Oriente Médio e o Leste Europeu têm enfrentado conflitos intensos nos últimos anos, cujos desdobramentos afetam a geopolítica global. Sobre esses conflitos, podemos considerar:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a invasão da Rússia ao território ucraniano como a derrocada do poder estadunidense na Europa"
+      },
+      {
+        "letra": "B",
+        "texto": "a defesa ucraniana aos ataques russos como influência direta do capital político e militar da OTAN"
+      },
+      {
+        "letra": "C",
+        "texto": "a ação israelense em Gaza e no Líbano como um movimento de retirada da diplomacia chinesa na região"
+      },
+      {
+        "letra": "D",
+        "texto": "os ataques do Hamas aos civis israelenses como uma resposta satisfatória às décadas de opressão judaica SOLDADO PM - 3ª CLASSE - COMBATENTE GOVERNO DO ESTADO DE SERGIPE POLÍCIA MILITAR DO ESTADO DE SERGIPE - PMSE"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q48",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q48",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 48,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Nos anos 2000, a maioria dos estudantes sergipanos de Ensino Médio estava regularmente matriculada na rede:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "federal"
+      },
+      {
+        "letra": "B",
+        "texto": "privada"
+      },
+      {
+        "letra": "C",
+        "texto": "estadual"
+      },
+      {
+        "letra": "D",
+        "texto": "municipal"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q43",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q43",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 43,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com a lição de Alexandre Mazza, “a Administração Pública Indireta ou Descentralizada é composta por pessoas jurídicas autônomas com natureza de direito público ou de direito privado” (Mazza, 2022, p. 132). São pessoas jurídicas de direito privado:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Autarquias"
+      },
+      {
+        "letra": "B",
+        "texto": "Associações públicas"
+      },
+      {
+        "letra": "C",
+        "texto": "Agências reguladoras"
+      },
+      {
+        "letra": "D",
+        "texto": "Sociedades de economia mista"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q44",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q44",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 44,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "Joaquim, servidor público, ocupante do cargo de motorista, enquanto dirigia um veículo oficial, durante sua jornada de trabalho, atropelou o jovem Ananias, enquanto este atravessava a rua. Considerando somente o que foi informado neste enunciado, no caso em questão:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o motorista deve ser o único a ser responsabilizado pelo dano causado a Ananias, já que agiu com negligência"
+      },
+      {
+        "letra": "B",
+        "texto": "nem o motorista nem o Estado respondem pelo dano sofrido por Ananias, tendo em vista que o jovem foi imprudente ao atravessar a rua"
+      },
+      {
+        "letra": "C",
+        "texto": "para que o Estado responda pelo dano que seu agente causou a Ananias, é preciso verificar se houve culpa exclusiva por parte do agente, na medida em que a responsabilidade do Estado é subjetiva"
+      },
+      {
+        "letra": "D",
+        "texto": "o Estado responde pelo dano que seu agente causou, uma vez que sua responsabilidade é objetiva, mas tem direito de regresso contra o agente público se for constatado dolo ou culpa por parte deste"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q42",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q42",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 42,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "Os princípios administrativos expressos estão previstos no art. 37 da Constituição Federal de 1988. É considerado um desses princípios:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "eficácia"
+      },
+      {
+        "letra": "B",
+        "texto": "publicidade"
+      },
+      {
+        "letra": "C",
+        "texto": "moralidade"
+      },
+      {
+        "letra": "D",
+        "texto": "pessoalidade"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q47",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q47",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 47,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Entre o início e meados do século XIX, houve um período marcado pelo controle por parte de senhores de terra e de escravizados. Essa foi uma marca da estrutura sociopolítica daquele contexto. A principal atividade econômica desse período era a:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "cafeeira"
+      },
+      {
+        "letra": "B",
+        "texto": "açucareira"
+      },
+      {
+        "letra": "C",
+        "texto": "extrativista"
+      },
+      {
+        "letra": "D",
+        "texto": "mineradora"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q46",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q46",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 46,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "No período colonial brasileiro, durante muito tempo, Sergipe foi subordinado à capitania de(a):",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Bahia"
+      },
+      {
+        "letra": "B",
+        "texto": "Ilhéus"
+      },
+      {
+        "letra": "C",
+        "texto": "Itamaracá"
+      },
+      {
+        "letra": "D",
+        "texto": "Pernambuco CONHECIMENTOS GERAIS SOBRE O ESTADO DE SERGIPE"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q37",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q37",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 37,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "A Declaração Universal dos Direitos Humanos, documento que é considerado um marco na história dos direitos humanos e proclamado pela Assembleia Geral das Nações Unidas em 1948, assegura que todo ser humano tem direito:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "de procurar e de gozar asilo em outros países, em caso de perseguição legitimamente motivada por crimes de direito comum"
+      },
+      {
+        "letra": "B",
+        "texto": "à liberdade de locomoção e residência fora das fronteiras do seu próprio país"
+      },
+      {
+        "letra": "C",
+        "texto": "à vida, à liberdade e à segurança pessoal"
+      },
+      {
+        "letra": "D",
+        "texto": "à inviolabilidade do seu local de trabalho"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q38",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q38",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 38,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "Conforme mandamento constitucional, às polícias militares cabe:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "exercer as funções de polícia marítima, aeroportuária e de fronteiras"
+      },
+      {
+        "letra": "B",
+        "texto": "exercer, com exclusividade, as funções de polícia judiciária da União"
+      },
+      {
+        "letra": "C",
+        "texto": "a segurança dos estabelecimentos penais"
+      },
+      {
+        "letra": "D",
+        "texto": "o policiamento ostensivo e a preservação da ordem pública"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q39",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q39",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 39,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "Conforme previsão expressa da Constituição Federal de 1988, é da competência exclusiva do Congresso Nacional:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "escolher dois terços dos membros do Tribunal de Contas da União"
+      },
+      {
+        "letra": "B",
+        "texto": "exercer, com o auxílio dos Ministros de Estado, a direção superior da administração federal"
+      },
+      {
+        "letra": "C",
+        "texto": "conceder indulto e comutar penas, com audiência, se necessário, dos órgãos instituídos em lei"
+      },
+      {
+        "letra": "D",
+        "texto": "nomear os magistrados e o Advogado-Geral da União, nos casos previstos na Constituição Federal de 1988"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q41",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q41",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 41,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "Segundo o entendimento de Guilherme de Souza Nucci, o objetivo primordial do inquérito policial “é servir de lastro à formação da convicção do representante do Ministério Público (opinio delicti), mas também colher provas urgentes, que podem desaparecer, após o cometimento do crime” (Nucci, 2020, p. 320). O inquérito policial é um procedimento:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "nunca sigiloso"
+      },
+      {
+        "letra": "B",
+        "texto": "de caráter judicial"
+      },
+      {
+        "letra": "C",
+        "texto": "sempre indispensável"
+      },
+      {
+        "letra": "D",
+        "texto": "de natureza inquisitiva"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q40",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q40",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 40,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "Conforme previsão expressa da carta magna, constituem objetivos fundamentais da República Federativa do Brasil:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "os valores sociais do trabalho e da livre iniciativa"
+      },
+      {
+        "letra": "B",
+        "texto": "a prevalência dos direitos humanos e a dignidade da pessoa humana"
+      },
+      {
+        "letra": "C",
+        "texto": "a garantia do desenvolvimento nacional e a construção de uma sociedade livre, justa e solidária"
+      },
+      {
+        "letra": "D",
+        "texto": "a autodeterminação dos povos, a erradicação da pobreza e da marginalização SOLDADO PM - 3ª CLASSE - COMBATENTE GOVERNO DO ESTADO DE SERGIPE POLÍCIA MILITAR DO ESTADO DE SERGIPE - PMSE"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q49",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q49",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 49,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Os grupos indígenas que ocupavam o território sergipano no passado eram, em sua maioria, do tronco-linguístico:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "macro-jê"
+      },
+      {
+        "letra": "B",
+        "texto": "caraíba"
+      },
+      {
+        "letra": "C",
+        "texto": "tapuia"
+      },
+      {
+        "letra": "D",
+        "texto": "tupi"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q50",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q50",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 50,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "A diferenciação climática entre o litoral e o interior do estado de Sergipe está diretamente relacionada a fatores naturais como a maritimidade, a atuação de massas de ar, a presença de vegetação e o relevo. Nesse contexto:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o litoral é marcado por maior umidade nos meses de outono e inverno, enquanto o interior possui uma estação seca prolongada"
+      },
+      {
+        "letra": "B",
+        "texto": "o litoral apresenta um período seco no inverno, enquanto o interior registra chuvas abundantes na estação tórrida"
+      },
+      {
+        "letra": "C",
+        "texto": "a zona costeira apresenta reduzida amplitude térmica, enquanto o interior é caracterizado pela alta pluviosidade"
+      },
+      {
+        "letra": "D",
+        "texto": "a zona costeira sofre influência da continentalidade, e o interior é caracterizado por chuvas orográficas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q51",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q51",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 51,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "A educação no estado de Sergipe tem apresentado avanços nos últimos anos, com destaque em alguns aspectos em comparação aos demais estados do Nordeste. No entanto, o estado ainda enfrenta desafios significativos, mantendo-se abaixo da média nacional em vários indicadores educacionais. Nesse contexto, um fator positivo para o setor educacional em Sergipe seria:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "reduzir as vagas no ensino superior"
+      },
+      {
+        "letra": "B",
+        "texto": "suspender as escolas técnicas profissionalizantes"
+      },
+      {
+        "letra": "C",
+        "texto": "apoiar a privatização da educação pública"
+      },
+      {
+        "letra": "D",
+        "texto": "promover a modalidade de educação de jovens e adultos"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: C."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q53",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q53",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 53,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Embora Sergipe seja um estado de pequena extensão territorial e com população reduzida em comparação aos maiores estados do Brasil, o seu processo de urbanização apresenta dinâmicas semelhantes àquelas observadas no restante do país. Uma característica desse processo é a:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "expansão da desmetropolização em torno da Região Metropolitana de Aracaju"
+      },
+      {
+        "letra": "B",
+        "texto": "ausência de autossegregação e de enclaves territoriais urbanos do tráfico na capital"
+      },
+      {
+        "letra": "C",
+        "texto": "intensa verticalização em contraste com a presença de aglomerados subnormais na capital"
+      },
+      {
+        "letra": "D",
+        "texto": "política pública de fragmentação do tecido sociopolítico- espacial na região metropolitana de Aracaju"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q52",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q52",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 52,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Como aspectos físicos do estado de Sergipe, podemos destacar corretamente o(s):",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "predomínio da Caatinga em todo o estado, incluindo os tabuleiros litorâneos"
+      },
+      {
+        "letra": "B",
+        "texto": "relevo predominantemente plano, com altitudes em sua maioria inferiores a 300 metros"
+      },
+      {
+        "letra": "C",
+        "texto": "topografia altamente acidentada, com picos que ultrapassam 800 metros de altitude no interior sertanejo"
+      },
+      {
+        "letra": "D",
+        "texto": "extensos remanescentes de Mata Atlântica na zona costeira, contrastando com o interior impactado pela seca"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q55",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q55",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 55,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "O Código de Ética e Disciplina da Polícia Militar do Estado de Sergipe apresenta, em seus artigos 14, 15 e 16, as transgressões de natureza grave, média e leve respectivamente. É considerada uma transgressão grave, de acordo com esse código:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a execução de atividades particulares, causando prejuízo ao serviço"
+      },
+      {
+        "letra": "B",
+        "texto": "o não cumprimento de dever militar simulando incapacidade ou impedimento"
+      },
+      {
+        "letra": "C",
+        "texto": "o uso no uniforme de insígnia, medalha, condecoração ou distintivo, não regulamentar ou de forma indevida"
+      },
+      {
+        "letra": "D",
+        "texto": "a divulgação ou a contribuição para a divulgação de assunto de caráter sigiloso de que tenha conhecimento em razão do cargo ou função"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q56",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q56",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 56,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "O art. 2º da Lei nº 3.669 de 1995 prevê as competências da Polícia Militar do Estado de Sergipe. Uma dessas competências é a:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "atuação de maneira opressiva em casos de perturbação da ordem pública"
+      },
+      {
+        "letra": "B",
+        "texto": "atuação, de maneira preventiva, como força de dissuasão em locais ou áreas específicas"
+      },
+      {
+        "letra": "C",
+        "texto": "execução de atividades de polícia ostensiva relacionadas com a prevenção criminal, a preservação e a negligência com a ordem pública e defesa civil"
+      },
+      {
+        "letra": "D",
+        "texto": "garantia do exercício do poder de polícia dos órgãos públicos, com exceção daqueles das áreas fazendária, sanitária, de proteção ambiental, de uso e ocupação do solo e de outras cujas atividades interessem à segurança pública"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: B."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q57",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q57",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 57,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Os deveres policiais-militares emanam de vínculos racionais e morais que ligam o policial militar à comunidade e a sua segurança. Nos termos expressamente previstos no Estatuto dos Policiais Militares do Estado de Sergipe, está compreendido como um dever:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a obrigação de tratar o subordinado dignamente e com urbanidade"
+      },
+      {
+        "letra": "B",
+        "texto": "o amor à verdade e a responsabilidade como fundamento da dignidade pessoal"
+      },
+      {
+        "letra": "C",
+        "texto": "o exercício com autoridade, eficiência e probidade das funções que lhe couberem em decorrência do cargo"
+      },
+      {
+        "letra": "D",
+        "texto": "a abstenção de tratar, fora do âmbito apropriado, de matéria sigilosa relativa à Segurança Nacional"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q58",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q58",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 58,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "O sistema remuneratório dos Servidores Militares do Estado de Sergipe é regulado por lei própria que abrange vencimentos, indenizações, proventos e outros direitos. Entre esses está o que consiste no abatimento na remuneração ou proventos do servidor militar para cumprimento de obrigações assumidas ou impostas em virtude de disposições de Lei ou de decisão judicial. A descrição feita acima consiste no seguinte conceito:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "soldo"
+      },
+      {
+        "letra": "B",
+        "texto": "dedução"
+      },
+      {
+        "letra": "C",
+        "texto": "retenção"
+      },
+      {
+        "letra": "D",
+        "texto": "desconto"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q54",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q54",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 54,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Consoante o disposto na Lei nº 2.066 de 1976 (Estatuto da Polícia Militar do Estado de Sergipe), um dos preceitos da ética policial-militar é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a violação da dignidade da pessoa humana"
+      },
+      {
+        "letra": "B",
+        "texto": "o cumprimento e o fazer cumprir as leis, os regulamentos e as ordens das autoridades competentes"
+      },
+      {
+        "letra": "C",
+        "texto": "o exercício das funções que lhe couber, em decorrência do cargo, com autoridade, eficiência e improbidade"
+      },
+      {
+        "letra": "D",
+        "texto": "a justiça e a parcialidade no julgamento dos atos e na apreciação no mérito daqueles que lhes são subordinados LEGISLAÇÃO PMSE SOLDADO PM - 3ª CLASSE - COMBATENTE GOVERNO DO ESTADO DE SERGIPE POLÍCIA MILITAR DO ESTADO DE SERGIPE - PMSE"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q60",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q60",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 60,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "As Unidades de Polícia Militar compreendem diferentes categorias que se estruturam em unidades e subunidades de acordo com o disposto pela Lei de Organização Básica da PMSE. As Unidades que têm a seu cargo as missões de policiamento ostensivo normal, a pé, montado, ou motorizado são os/as:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Batalhões de Polícia Militar"
+      },
+      {
+        "letra": "B",
+        "texto": "Batalhões de Polícia de Guardas"
+      },
+      {
+        "letra": "C",
+        "texto": "Companhias de Operações Preventivas"
+      },
+      {
+        "letra": "D",
+        "texto": "Companhias ou Pelotões de Comando e Serviços A violência é um mal a ser combatido, para que todos os cidadãos possam viver em paz e em harmonia. Com base no texto apresentado e em sua reflexão, produza uma redação dissertativo-argumentativa com base na seguinte questão: Como o soldado combatente pode efetivamente contribuir para a redução da violência interpessoal?"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: D."
+  },
+  {
+    "id": "pm-se-soldado-pm-3a-classe-combatente-2025-selecon-q59",
+    "codigo": "PM-SE-SOLDADO-PM-3A-CLASSE-COMBATENTE-2025-SELECON-Q59",
+    "orgao": "PM-SE",
+    "cargo": "Soldado PM - 3a Classe - Combatente",
+    "ano": 2025,
+    "banca": "SELECON",
+    "formato": "multipla_escolha",
+    "numero": 59,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Na organização do pessoal da polícia militar, é forçoso observar as condições a que estão sujeitas as Praças Policiais Militares que estão agrupadas em Qualificações Policiais Militares Particulares. Compete à seguinte autoridade, através de Decreto, expedir as normas que devem definir a qualificação policial militar das praças:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Governador"
+      },
+      {
+        "letra": "B",
+        "texto": "Chefe do Estado Maior"
+      },
+      {
+        "letra": "C",
+        "texto": "Secretário de segurança"
+      },
+      {
+        "letra": "D",
+        "texto": "Comandante Geral da PM/SE Leia o texto a seguir: Tipologia da Violência A Organização Mundial da Saúde (OMS) estabelece uma tipologia de três grandes grupos segundo quem comete o ato violento: violência contra si mesmo (autoprovocada ou autoinfligida); violência interpessoal (doméstica e comunitária); e violência coletiva (grupos políticos, organizações terroristas, milícias). a) Violência autoprovocada/autoinfligida: a violência autoprovocada/autoinfligida compreende ideação suicida, autoagressões, tentativas de suicídio e suicídios. b) Violência interpessoal: violência doméstica/intrafamiliar: considera-se violência doméstica/intrafamiliar a que ocorre entre os parceiros íntimos e entre os membros da família, principalmente no ambiente da casa, mas não unicamente. É toda ação ou omissão que prejudique o bem-estar, a integridade física, psicológica ou a liberdade e o direito ao pleno desenvolvimento de outra pessoa da família. Pode ser cometida dentro ou fora de casa por algum membro da família, incluindo pessoas que passam a assumir função parental, ainda que sem laços de consanguinidade, e que tenha relação de poder. A violência doméstica/intrafamiliar não se refere apenas ao espaço físico onde a violência ocorre, mas também às relações em que se constrói e efetua. Esse tipo de violência também inclui outros membros do grupo, sem função parental, que convivam no espaço doméstico. Incluem-se aí empregados(as), pessoas que convivem esporadicamente, agregados. c) Violência interpessoal - violência extrafamiliar/comunitária: a violência extrafamiliar/comunitária é definida como aquela que ocorre no ambiente social em geral, entre conhecidos ou desconhecidos. É praticada por meio de agressão às pessoas, por atentado à sua integridade e vida e/ou a seus bens e constitui objeto de prevenção e repressão por parte das forças de segurança pública e sistema de justiça (polícias, Ministério Público e poder Judiciário). Fonte: https://www.cevs.rs.gov.br/tipologia-da-violencia. Texto adaptado. Acesso em 27/11/2024 REDAÇÃO Orientações:"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "SELECON",
+    "concurso": "PM-SE",
+    "comentario": "Questao oficial PM-SE Soldado PM - 3a Classe - Combatente 2025. Banca: SELECON. Gabarito definitivo: A."
+  }
+]

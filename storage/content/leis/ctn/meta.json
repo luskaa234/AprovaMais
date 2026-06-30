@@ -1,0 +1,9 @@
+{
+  "id": "ctn",
+  "nome": "Codigo Tributario Nacional",
+  "nome_curto": "CTN",
+  "tipo": "Codigo",
+  "categoria": "Tributario",
+  "materia": "Direito Tributario",
+  "fonte": "planalto.gov.br/ccivil_03/leis/l5172compilado.htm"
+}

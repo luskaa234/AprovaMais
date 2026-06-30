@@ -1,0 +1,23 @@
+{
+  "exame": "PMAM Aluno Soldado PM 2021",
+  "banca": "FGV",
+  "ano": 2021,
+  "cargo": "Aluno Soldado PM",
+  "total_questoes": 60,
+  "fonte": "Oficial FGV local",
+  "sourceUrl": "material-provas/fgv/provas PM/aluno_soldado_da_pmnm001_tipo_1.pdf",
+  "gabarito": "definitivo",
+  "origem": "oficial",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "path": "material-provas/fgv/provas PM/aluno_soldado_da_pmnm001_tipo_1.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "path": "material-provas/fgv/provas PM/pmam2021_gabarito_definitivo_retificado_26.04.2022.pdf"
+    }
+  ]
+}

@@ -1,0 +1,1589 @@
+[
+  {
+    "id": "pmsp-soldado-2025-fgv-q01",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q01",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 1,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Há uma série de palavras que correspondem a frases, em suas situações comunicativas. Assinale a palavra que mostra convencionalmente uma frase equivalente.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Perigo! / aviso de trabalho na estrada."
+      },
+      {
+        "letra": "B",
+        "texto": "Fogo! / ordem para parar de atirar."
+      },
+      {
+        "letra": "C",
+        "texto": "Devagar! / conselho para dirigir lentamente."
+      },
+      {
+        "letra": "D",
+        "texto": "Chega! / aviso de chegada a algum lugar."
+      },
+      {
+        "letra": "E",
+        "texto": "Depressa! / pedido de ajuda."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q02",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q02",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 2,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "As frases a seguir mostram um termo sublinhado que foi substituído por outro termo de valor pejorativo. Assinale a opção em que isso não ocorre.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Suas roupas eram de outro país / seus trajes."
+      },
+      {
+        "letra": "B",
+        "texto": "Seus pés tinham mau cheiro / fedor."
+      },
+      {
+        "letra": "C",
+        "texto": "O quarto se mostrava desarrumado / bagunçado."
+      },
+      {
+        "letra": "D",
+        "texto": "Ele não pôde escapar de suas mãos / garras."
+      },
+      {
+        "letra": "E",
+        "texto": "A capa do livro ficou pegajosa / grudenta."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q03",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q03",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 3,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A subjetividade é particularmente expressa pelos pronomes de primeira pessoa. Assinale a frase em que outro pronome se encarrega da subjetividade, equivalente aos pronomes de primeira pessoa.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Na Idade Média, preferia-se o campo à cidade."
+      },
+      {
+        "letra": "B",
+        "texto": "Afinal de contas, vai-se ao teatro ou não?"
+      },
+      {
+        "letra": "C",
+        "texto": "Então, você vai participar do concurso?"
+      },
+      {
+        "letra": "D",
+        "texto": "O ministro tem a honra de convidá-lo para o cargo."
+      },
+      {
+        "letra": "E",
+        "texto": "Os cidadãos honestos, esses devem enfrentar a realidade."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q04",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q04",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 4,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "As frases a seguir foram reescritas de forma a se eliminarem delas as marcas de subjetividade do emissor. Assinale a frase em que isso foi realizado de forma inadequada.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A televisão mostrou o triste fim de um episódio lamentável / A televisão mostrou o fim do episódio."
+      },
+      {
+        "letra": "B",
+        "texto": "A deplorável atitude do árbitro prejudicou a boa partida / A atitude do árbitro prejudicou a partida."
+      },
+      {
+        "letra": "C",
+        "texto": "Infelizmente, a atriz, inadequada para o papel, continua na peça interessante / Infelizmente a atriz continua na peça."
+      },
+      {
+        "letra": "D",
+        "texto": "Marcos emocionou-se com aquelas belas palavras / Marcos emocionou-se com aquelas palavras."
+      },
+      {
+        "letra": "E",
+        "texto": "A paisagem, romântica e agreste, estava mudando / A paisagem estava mudando."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q25",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q25",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 25,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "e 30 de agosto.",
+    "alternativas": [
+      {
+        "letra": "B",
+        "texto": "O deputado apresentou um projeto de lei / O deputado Francisco Mendes apresentou um projeto de lei sobre a adoção de crianças."
+      },
+      {
+        "letra": "C",
+        "texto": "A rua tinha ficado cheia de crianças / A rua, entre as avenidas principais do bairro, tinha ficado cheia de crianças."
+      },
+      {
+        "letra": "D",
+        "texto": "A lagoa Rodrigo de Freitas está situada no Rio de Janeiro / A lagoa Rodrigo de Freitas e a praia de Copacabana estão situadas no Rio de Janeiro."
+      },
+      {
+        "letra": "E",
+        "texto": "O pianista interpretou uma sonata / O pianista interpretou uma sonata de um moderno músico francês."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q06",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q06",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 6,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase que mostra a presença de antônimos.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Em certa idade da vida, se sua casa não se encher de crianças, ela se encherá de manias e de vícios."
+      },
+      {
+        "letra": "B",
+        "texto": "Às vezes você precisa conhecer alguém muito bem para saber que vocês não se conhecem."
+      },
+      {
+        "letra": "C",
+        "texto": "O suicídio foi a melhor cousa que ele fez enquanto vivo."
+      },
+      {
+        "letra": "D",
+        "texto": "Ganhei o prêmio porque os outros indicados já morreram."
+      },
+      {
+        "letra": "E",
+        "texto": "Seja a vida longa ou curta, depende completamente para que ela serviu."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q07",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q07",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 7,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "As frases a seguir mostram termos sublinhados e desses termos foram mostrados sinônimos. Assinale a frase em que o sinônimo indicado está incorreto.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Gatos são peritos em conforto. / especialistas."
+      },
+      {
+        "letra": "B",
+        "texto": "É praticamente impossível olhar para um pinguim e sentir raiva. / objetivamente."
+      },
+      {
+        "letra": "C",
+        "texto": "Um cão nunca demonstra intolerância quando escolhe um dono. / rejeição."
+      },
+      {
+        "letra": "D",
+        "texto": "Vimos até pegadas de onça, mas felizmente não chegamos a encarar a fera. / enfrentar."
+      },
+      {
+        "letra": "E",
+        "texto": "Não acho justo que minha cachorrinha ande solta por aí. / correto."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q09",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q09",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 9,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase cuja pontuação está inteiramente correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Uma sociedade, sem religião é como um navio, sem bússola."
+      },
+      {
+        "letra": "B",
+        "texto": "A noite é uma bela crença, na luz."
+      },
+      {
+        "letra": "C",
+        "texto": "Nenhum homem chegou a ser grande senão impelido, por divina inspiração."
+      },
+      {
+        "letra": "D",
+        "texto": "Algumas das maiores dádivas de Deus são preces, não atendidas."
+      },
+      {
+        "letra": "E",
+        "texto": "Ensina-me a vencer, se puderes."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q10",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q10",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 10,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que o emprego do acento grave indicativo da crase está correto.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Meu objetivo principal na vida é fazer às pessoas felizes."
+      },
+      {
+        "letra": "B",
+        "texto": "Encontre a paz e à preencha."
+      },
+      {
+        "letra": "C",
+        "texto": "Fique atento à tartaruga: ela sai do casco."
+      },
+      {
+        "letra": "D",
+        "texto": "Agora sei à metade do que já soube."
+      },
+      {
+        "letra": "E",
+        "texto": "Eu cheguei à iludir a velhice, mas parei."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q11",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q11",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 11,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que a forma verbal está conjugada corretamente.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O policial interviu na discussão."
+      },
+      {
+        "letra": "B",
+        "texto": "Nunca ouve nada igual."
+      },
+      {
+        "letra": "C",
+        "texto": "Espero que eles vão bem na prova."
+      },
+      {
+        "letra": "D",
+        "texto": "Não sei se haverão novas oportunidades."
+      },
+      {
+        "letra": "E",
+        "texto": "Quando você as ver, fale com elas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q12",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q12",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 12,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Nas frases a seguir, a forma do infinitivo foi substituída por um substantivo correspondente. Assinale a frase em que essa correspondência está correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Demolir o prédio / demolição do prédio."
+      },
+      {
+        "letra": "B",
+        "texto": "Prevenir o desastre / previsão do desastre."
+      },
+      {
+        "letra": "C",
+        "texto": "Ler o livro / legibilidade do livro."
+      },
+      {
+        "letra": "D",
+        "texto": "Intervir na briga / interação na briga."
+      },
+      {
+        "letra": "E",
+        "texto": "Observar a cena / observamento da cena."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q13",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q13",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 13,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que o pronome demonstrativo sublinhado está corretamente empregado, segundo a tradição gramatical.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Dê-me essa camisa que está nas suas mãos."
+      },
+      {
+        "letra": "B",
+        "texto": "João e Maria entraram na floresta; esta de botas, este de tênis."
+      },
+      {
+        "letra": "C",
+        "texto": "Eis aqui essa bolsa: a quem ela pertence?"
+      },
+      {
+        "letra": "D",
+        "texto": "Aqueles dias de agora são mais longos."
+      },
+      {
+        "letra": "E",
+        "texto": "Maria e Anita vieram cantar; este de roupa social, aquele de roupa esporte."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q14",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q14",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 14,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que a palavra meio/meia está bem empregada.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Minha irmã está meia adoentada."
+      },
+      {
+        "letra": "B",
+        "texto": "Nós estamos meios cansados."
+      },
+      {
+        "letra": "C",
+        "texto": "É meio-dia e meio."
+      },
+      {
+        "letra": "D",
+        "texto": "A chuva chegou meio fraca."
+      },
+      {
+        "letra": "E",
+        "texto": "A bola chegou ao gol meia fraca."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q15",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q15",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 15,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que a preposição DE tem valor de origem.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A caixa de papelão contém lápis."
+      },
+      {
+        "letra": "B",
+        "texto": "O vinho de Portugal é do tipo verde."
+      },
+      {
+        "letra": "C",
+        "texto": "Sapatos de couro são caros."
+      },
+      {
+        "letra": "D",
+        "texto": "De real em real, ele ficou rico."
+      },
+      {
+        "letra": "E",
+        "texto": "O depósito de bebidas estava cheio."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q16",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q16",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 16,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que o verbo preferir está corretamente utilizado.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Prefiro queijo do que presunto."
+      },
+      {
+        "letra": "B",
+        "texto": "Prefiro mais queijo do que presunto."
+      },
+      {
+        "letra": "C",
+        "texto": "Prefiro o queijo do que o presunto."
+      },
+      {
+        "letra": "D",
+        "texto": "Prefiro queijo a presunto."
+      },
+      {
+        "letra": "E",
+        "texto": "Mais prefiro queijo do que presunto."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q17",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q17",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 17,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que a colocação do pronome pessoal oblíquo está correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Me deram o presente antes da data."
+      },
+      {
+        "letra": "B",
+        "texto": "Não deram-me o presente que pedi."
+      },
+      {
+        "letra": "C",
+        "texto": "O presente que foi-me dado é caro."
+      },
+      {
+        "letra": "D",
+        "texto": "Quem me deu esse presente?"
+      },
+      {
+        "letra": "E",
+        "texto": "Quando viram-me em casa, ficaram tristes."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q18",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q18",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 18,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase em que a palavra sublinhada está no sentido figurado.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Nada mais comum do que julgar mal as coisas."
+      },
+      {
+        "letra": "B",
+        "texto": "Muitos são bons porque não sabem ser justos."
+      },
+      {
+        "letra": "C",
+        "texto": "Cada cabeça, uma sentença!"
+      },
+      {
+        "letra": "D",
+        "texto": "Mais vale bem de longe, que mal de perto."
+      },
+      {
+        "letra": "E",
+        "texto": "Felicidade é um subproduto."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q19",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q19",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 19,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Ele é tão ganancioso que não passaria 24 horas numa ilha habitada sem meter a mão nos bolsos dos selvagens nus. (Político britânico) Sobre o significado e a estruturação dessa frase, assinale a afirmação correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A oração precedida pela conjunção “que” tem valor de causa."
+      },
+      {
+        "letra": "B",
+        "texto": "A abreviatura de horas está feita de forma correta."
+      },
+      {
+        "letra": "C",
+        "texto": "O pronome “Ele” no início da frase vai se referir a alguém presente no futuro do discurso."
+      },
+      {
+        "letra": "D",
+        "texto": "A crítica da frase se dirige aos políticos britânicos em geral."
+      },
+      {
+        "letra": "E",
+        "texto": "Há uma contradição lógica no final da frase."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q20",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q20",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 20,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Creio na liberdade, esse vínculo entre o homem e a eternidade, essa condição indispensável para situar o ser à imagem e semelhança de seu criador. Sobre o significado e a estruturação dessa frase, assinale a afirmação correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A frase mostra um tom filosófico-materialista."
+      },
+      {
+        "letra": "B",
+        "texto": "Após a palavra “liberdade”, todo o restante da frase funciona como explicação dessa palavra."
+      },
+      {
+        "letra": "C",
+        "texto": "Todo o texto mostra a causa de o autor crer na liberdade."
+      },
+      {
+        "letra": "D",
+        "texto": "As duas orações finais mostram paralelismo em sua construção."
+      },
+      {
+        "letra": "E",
+        "texto": "O texto não mostra a opinião do emissor da frase, mas sim a do autor do texto religioso onde ele se fundamenta. POLÍCIA MILITAR DO ESTADO DE SÃO PAULO FGV CONHECIMENTO SOLDADO PM DE 2ª CLASSE – TARDE TIPO BRANCA – PÁGINA 4 MATEMÁTICA"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q21",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q21",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 21,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Um carro da PM transportou o major Roberto de São Paulo para Araçatuba e retornou, no dia seguinte, pela mesma estrada. A distância rodoviária entre essas duas cidades é de 520 km e o moderno carro que transportou o major percorreu 13 km por litro de gasolina. Nessa época, o litro de gasolina custava, em São Paulo, 6,10 reais por litro. O gasto com combustível dessa viagem foi de, aproximadamente,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "245 reais."
+      },
+      {
+        "letra": "B",
+        "texto": "350 reais."
+      },
+      {
+        "letra": "C",
+        "texto": "390 reais."
+      },
+      {
+        "letra": "D",
+        "texto": "460 reais."
+      },
+      {
+        "letra": "E",
+        "texto": "490 reais."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q22",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q22",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 22,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "O soldado Rafael dedica uma hora e quinze minutos por dia a seu treinamento físico, todos os dias, exceto aos domingos. No mês de agosto de 2024 Rafael cumpriu seu treinamento, e esse mês teve cinco domingos. No mês de agosto de 2024, o tempo total que Rafael dedicou a seu treinamento foi de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "trinta e uma horas e quinze minutos."
+      },
+      {
+        "letra": "B",
+        "texto": "trinta e uma horas e quarenta e cinco minutos."
+      },
+      {
+        "letra": "C",
+        "texto": "trinta e duas horas e trinta minutos."
+      },
+      {
+        "letra": "D",
+        "texto": "trinta e duas horas e cinquenta minutos."
+      },
+      {
+        "letra": "E",
+        "texto": "trinta e três horas e trinta minutos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q23",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q23",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 23,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Para receber o novo comandante, o 1º Tenente Ramiro deverá organizar, no pátio do quartel da PM, uma formação retangular com 72 soldados dispostos regularmente em linhas (horizontais) e colunas (verticais). Sabe-se que essa formação retangular deve ter, no mínimo, três linhas e, no mínimo, oito colunas. O número de arrumações diferentes que Ramiro poderá fazer é igual a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2."
+      },
+      {
+        "letra": "B",
+        "texto": "3."
+      },
+      {
+        "letra": "C",
+        "texto": "4."
+      },
+      {
+        "letra": "D",
+        "texto": "5."
+      },
+      {
+        "letra": "E",
+        "texto": "6."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q24",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q24",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 24,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Ricardo gasta atualmente 60% de seu salário em gastos essenciais. Segundo alguns especialistas, o ideal é que os gastos essenciais representem, no máximo, 50% do salário. Sem alterar seus gastos atuais de qualquer espécie, para que Ricardo passasse a ter os gastos essenciais dentro do que é considerado ideal, ele teria que ter um aumento salarial de, no mínimo,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "50%."
+      },
+      {
+        "letra": "B",
+        "texto": "40%."
+      },
+      {
+        "letra": "C",
+        "texto": "30%."
+      },
+      {
+        "letra": "D",
+        "texto": "20%."
+      },
+      {
+        "letra": "E",
+        "texto": "10%."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q26",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q26",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 26,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Um carro da PM precisa se deslocar do ponto A ao ponto B do Estado de São Paulo, no menor tempo possível. A figura a seguir mostra os pontos A e B, as estradas disponíveis e o tempo, em minutos, para percorrer cada trecho no momento da partida do carro. O menor tempo para o deslocamento de A até B é de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "80 minutos."
+      },
+      {
+        "letra": "B",
+        "texto": "85 minutos."
+      },
+      {
+        "letra": "C",
+        "texto": "90 minutos."
+      },
+      {
+        "letra": "D",
+        "texto": "95 minutos."
+      },
+      {
+        "letra": "E",
+        "texto": "100 minutos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q27",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q27",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 27,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Vicente foi encarregado de pintar o piso de uma área de estacionamento com 160 m2. A tinta que Vicente escolheu tem um rendimento de 14 m2 por litro de tinta, por demão. Vicente fará uma pintura com três demãos. O número mínimo de galões de 3,6 litros que deverá ser comprado para a pintura é igual a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "7."
+      },
+      {
+        "letra": "B",
+        "texto": "8."
+      },
+      {
+        "letra": "C",
+        "texto": "9."
+      },
+      {
+        "letra": "D",
+        "texto": "10."
+      },
+      {
+        "letra": "E",
+        "texto": "11. POLÍCIA MILITAR DO ESTADO DE SÃO PAULO FGV CONHECIMENTO SOLDADO PM DE 2ª CLASSE – TARDE TIPO BRANCA – PÁGINA 5"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q28",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q28",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 28,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "A tabela abaixo mostra alguns dados de estatística criminal do Estado de São Paulo, comparando os números de 2023 com os de 2024. 2023 2024 Nº de homicídios culposos por acidente de trânsito 3.200 3.560 Nº de infratores presos por mandado 57.000 65.500 Nº de veículos recuperados 38.000 46.800 Nº de armas de fogo apreendidas 9.300 11.800 Nº de autos de apreensão 5.700 6.400 Fonte: Dados da Secretaria de Segurança Pública do Estado de SP com valores ligeiramente arredondados para facilitar os cálculos. Acesso em 16/12/2024. A linha da tabela que mostra o maior crescimento percentual de 2023 para 2024 foi a de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Nº de homicídios culposos por acidente de trânsito."
+      },
+      {
+        "letra": "B",
+        "texto": "Nº de infratores presos por mandado."
+      },
+      {
+        "letra": "C",
+        "texto": "Nº de veículos recuperados."
+      },
+      {
+        "letra": "D",
+        "texto": "Nº de armas de fogo apreendidas."
+      },
+      {
+        "letra": "E",
+        "texto": "Nº de autos de apreensão."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q29",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q29",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 29,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "No site da Polícia Militar de SP pode-se observar, no Programa de Policiamento de Trânsito, o seguinte texto: Os policiais militares deste programa de policiamento são preparados e recebem instrução sobre legislação de trânsito e de técnicas e procedimentos operacionais padrão voltados ao melhor desempenho na atividade. Este programa atua em pontos previamente selecionados e estudados criteriosamente, visando também à redução de índices criminais. Adaptado do site da PM-SP, Programa de Policiamento de Trânsito. Acesso em 18/12/2024. Suponha que os policiais de certo ponto de fiscalização tenham recebido, entre diversas instruções, a seguinte ordem: Todos os caminhões transportando madeira devem ser revistados. A partir da ordem dada acima, considere as afirmativas a seguir. I. Se um caminhão não transporta madeira ele não deve ser revistado. II. Se um caminhão foi revistado então ele estava transportando madeira. III. Se um caminhão não foi revistado então ele não estava transportando madeira. Das afirmativas acima, aquela(s) que decorre(m) logicamente da ordem dada é(são):",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "II, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "III, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "I e II, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "II e III, apenas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q30",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q30",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 30,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "Em certa fazenda há um lago e, para reunir dados sobre a investigação de uma ocorrência criminal nessa fazenda, o tenente Renato foi encarregado de determinar a distância aproximada entre dois pontos A e B nas margens desse lago. A figura a seguir mostra o lago e os dois pontos A e",
+    "alternativas": [
+      {
+        "letra": "B",
+        "texto": "Para determinar a distância entre A e B, Renato fixou estacas em três pontos C, D e E, de forma que os ângulos ACD, CDE e DEB fossem retos, como mostra a figura. Em seguida, com uma trena, Renato mediu as seguintes distâncias: AC = 40 m, CD = 84 m, DE = 76 m e EB = 24 m. A distância, em metros, entre os pontos A e B é, aproximadamente,"
+      },
+      {
+        "letra": "A",
+        "texto": "63. (B) 66."
+      },
+      {
+        "letra": "C",
+        "texto": "70."
+      },
+      {
+        "letra": "D",
+        "texto": "73."
+      },
+      {
+        "letra": "E",
+        "texto": "77."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q31",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q31",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 31,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "Três soldados pintam uma área de 45 m2 de um muro em um determinado tempo. No mesmo tempo, e com a mesma eficiência, a área em m2 que cinco soldados pintam é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "75."
+      },
+      {
+        "letra": "B",
+        "texto": "60."
+      },
+      {
+        "letra": "C",
+        "texto": "55."
+      },
+      {
+        "letra": "D",
+        "texto": "45."
+      },
+      {
+        "letra": "E",
+        "texto": "40."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q32",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q32",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 32,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "Rosilene faz flexões todo dia ao acordar. A tabela a seguir mostra o número de flexões que Rosilene fez em cada dia de uma determinada semana. Domingo 89 Segunda-feira 63 Terça-feira 77 Quarta-feira 89 Quinta-feira 100 Sexta-feira 104 Sábado 99 Nessa semana, o número de dias em que Rosilene fez mais flexões do que a média da semana foi",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "2."
+      },
+      {
+        "letra": "B",
+        "texto": "3."
+      },
+      {
+        "letra": "C",
+        "texto": "4."
+      },
+      {
+        "letra": "D",
+        "texto": "5."
+      },
+      {
+        "letra": "E",
+        "texto": "6. POLÍCIA MILITAR DO ESTADO DE SÃO PAULO FGV CONHECIMENTO SOLDADO PM DE 2ª CLASSE – TARDE TIPO BRANCA – PÁGINA 6"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q34",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q34",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 34,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "Rafaela e Mariana ficaram de plantão juntas hoje, uma terça-feira. Rafaela fica de plantão de 4 em 4 dias e Mariana de 6 em 6 dias. Sem contar o dia de hoje, após 100 dias, o próximo dia em que Rafaela e Mariana ficarão de plantão juntas será",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "segunda-feira."
+      },
+      {
+        "letra": "B",
+        "texto": "terça-feira."
+      },
+      {
+        "letra": "C",
+        "texto": "quarta-feira."
+      },
+      {
+        "letra": "D",
+        "texto": "quinta-feira."
+      },
+      {
+        "letra": "E",
+        "texto": "sexta-feira."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q35",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q35",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 35,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "dificil",
+    "enunciado": "O soldado Arquimedes precisa encher de água um recipiente com capacidade de 80 litros e dispõe de um vasilhame cujo formato é um paralelepípedo com base quadrada de lado 15 cm e 18 cm de altura. Arquimedes deverá encher o vasilhame em uma bica e despejar a água no recipiente. Para encher o recipiente, o número de vezes que Arquimedes deverá encher e despejar a água do vasilhame no recipiente é igual a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "20."
+      },
+      {
+        "letra": "B",
+        "texto": "25."
+      },
+      {
+        "letra": "C",
+        "texto": "30."
+      },
+      {
+        "letra": "D",
+        "texto": "40."
+      },
+      {
+        "letra": "E",
+        "texto": "45. CONHECIMENTOS GERAIS"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q56",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q56",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 56,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "Um grupo de policiais militares foi convidado por certo militar reformado a formar uma associação civil sem fins lucrativos. O objetivo era permitir que os associados, todos com porte legal de arma de fogo, pudessem participar de patrulhamento voluntário das vias públicas, devidamente uniformizados com trajes contendo as cores e o símbolo da associação, de modo a dissuadir os interessados na prática de ilícitos e prender aqueles que se encontrassem em flagrante delito, submetendo-os à autoridade competente. Ao analisarem a Constituição da República, os policiais militares convidados concluíram corretamente que é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "vedada a formação de associação com essas características, por ter caráter paramilitar."
+      },
+      {
+        "letra": "B",
+        "texto": "vedada a formação de uma associação por militares, salvo se houver autorização dos respectivos comandantes."
+      },
+      {
+        "letra": "C",
+        "texto": "vedada a formação de associação com o objetivo almejado, pois a prisão em flagrante somente pode ser realizada pelo militar em serviço."
+      },
+      {
+        "letra": "D",
+        "texto": "permitida a formação da referida associação, independentemente de qualquer balizamento legal, pois o direito de associação é de natureza fundamental."
+      },
+      {
+        "letra": "E",
+        "texto": "permitida a formação de associação com essas características, independentemente de autorização dos respectivos comandantes, desde que os policiais militares atuem fora do horário de serviço."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q57",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q57",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 57,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "João, membro da Polícia Militar do Estado Alfa atuando como médico, foi aprovado em concurso público de provas e títulos para outro cargo efetivo de médico, no Município Beta. Como João não almejava deixar a Polícia Militar em razão da sólida carreira que construíra, consultou a Constituição da República em relação à possibilidade de acumular o cargo que já ocupava e o referido emprego público. João concluiu corretamente que a acumulação é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "possível, desde que haja compatibilidade de horários, com prevalência da atividade militar."
+      },
+      {
+        "letra": "B",
+        "texto": "impossível, pois apenas seria viável se ocorresse junto ao mesmo ente federativo."
+      },
+      {
+        "letra": "C",
+        "texto": "vedada, pois o novo cargo efetivo não é da área da educação."
+      },
+      {
+        "letra": "D",
+        "texto": "vedada, pois os policiais militares não podem cumular outro cargo ou emprego público."
+      },
+      {
+        "letra": "E",
+        "texto": "possível, desde que haja compatibilidade de horários e a carga horária somada, não ultrapasse 40 horas semanais."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q58",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q58",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 58,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "João, policial militar, estava conduzindo veículo da corporação durante o horário de expediente quando atropelou e matou Pedro, transeunte que atravessava a via pública no momento dos fatos. Irresignados, os familiares de Pedro informaram a alguns meios de comunicação social que ingressariam com ação de reparação de danos em face de João e do Estado Alfa, ao qual estava vinculada a sua corporação. À luz da Constituição da República, é correto afirmar que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "João e o Estado Alfa somente podem ser responsabilizados com a demonstração da culpa daquele."
+      },
+      {
+        "letra": "B",
+        "texto": "somente o Estado Alfa pode ser responsabilizado independentemente da demonstração da culpa de João."
+      },
+      {
+        "letra": "C",
+        "texto": "João pode ser responsabilizado independentemente da demonstração de culpa, o mesmo ocorrendo com o Estado Alfa."
+      },
+      {
+        "letra": "D",
+        "texto": "somente será possível a responsabilização de João e do Estado Alfa caso a família da vítima demonstre que esta última não teve culpa no atropelamento."
+      },
+      {
+        "letra": "E",
+        "texto": "como João estava conduzindo o veículo da corporação durante o horário de expediente, cumprindo um dever legal, não é possível a sua responsabilização pelo atropelamento."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q59",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q59",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 59,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "Ângelo, soldado da Polícia Militar do Estado de São Paulo, foi denunciado, pelo Ministério Público, pela alegada prática de crime militar contra civil. Ao tomar conhecimento do ocorrido, consultou a Constituição do Estado de São Paulo para verificar a autoridade ou órgão competente para processá-lo e julgá-lo. Ao fim de sua análise, Ângelo concluiu corretamente que a referida autoridade é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o Conselho de Justificação."
+      },
+      {
+        "letra": "B",
+        "texto": "o Tribunal de Justiça Militar."
+      },
+      {
+        "letra": "C",
+        "texto": "um juiz de direito do juízo militar."
+      },
+      {
+        "letra": "D",
+        "texto": "um juiz de direito do juízo comum, não militar."
+      },
+      {
+        "letra": "E",
+        "texto": "o Conselho de Justiça, sob presidência do juiz de direito."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2025-fgv-q60",
+    "codigo": "PMSP-SOLDADO-2025-FGV-Q60",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2025,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 60,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "Uma pessoa, credora de Pedro, soldado da Polícia Militar do Estado de São Paulo, encaminhou requerimento ao Comandante- Geral da corporação solicitando que fosse informado o valor da renda mensal do referido agente. Acresceu que o objetivo era utilizar essa informação na montagem da estratégia a ser utilizada para promover a cobrança do crédito que tinha com Pedro. O Comandante-Geral, após analisar a sistemática vigente, concluiu corretamente que a informação solicitada",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "diz respeito à intimidade de Pedro, logo, não pode ser fornecida."
+      },
+      {
+        "letra": "B",
+        "texto": "somente pode ser fornecida se a pessoa for titular de um crédito alimentar."
+      },
+      {
+        "letra": "C",
+        "texto": "somente pode ser fornecida se os documentos apresentados comprovarem que a pessoa, de fato, é credora de Pedro."
+      },
+      {
+        "letra": "D",
+        "texto": "deve ser divulgada, o que independe até mesmo de requerimento, por ser de interesse geral."
+      },
+      {
+        "letra": "E",
+        "texto": "deve ser divulgada, pois a administração pública não pode invocar sigilo em relação a nenhum requerimento de acesso à informação. POLÍCIA MILITAR DO ESTADO DE SÃO PAULO FGV CONHECIMENTO SOLDADO PM DE 2ª CLASSE – TARDE TIPO BRANCA – PÁGINA 14 REDAÇÃO Texto 1 Os jogos de aposta já fazem parte do cotidiano das pessoas há muito tempo, uma vez que começaram com dados, piões, cartas de baralho, roletas e bolas numeradas. Hoje, eles ocupam plataformas digitais e estão presentes até mesmo nos bolsos das pessoas, através dos smartphones. O jogo de azar online é um tipo de caça-níquel e não exige do usuário um conhecimento profundo da sua operação ou mecanismo interno. Isso porque não existem técnicas ou métodos concretos para ganhar e qualquer pessoa pode jogar sem precisar de habilidades específicas. Adelmo Lucena. Apostando alto: os riscos invisíveis dos jogos de azar on-line. Disponível em: https://www.diariodepernambuco.com.br/noticia/vidaurbana/2024/07/apostando- alto-os-riscos-invisiveis-dos-jogos-de-azar-on-line.html. 01.07.2024. Adaptado. Texto 2 As apostas online, mais conhecidas como bets, ganharam destaque em uma reportagem do jornal londrino The Economist. A publicação diz que o crescimento das apostas na América deve ser comemorado, e não temido. Além disso, sustenta que o avanço deveria ser celebrado como uma expansão da liberdade das pessoas em conduzirem as suas vidas como bem entenderem. O texto, publicado no dia 5 de dezembro de 2024, diz que, em 2018, as apostas em bets feitas nos Estados Unidos somavam R$ 42,27 bilhões, cifra que saltou para R$ 905,9 bilhões em 2024. Outros R$ 483,1 bilhões vieram de cassinos. A estimativa é a de que as apostas representem uma movimentação de R$ 3,8 trilhões até o final desta década. Segundo o The Economist, a expansão do negócio é tal que até a rede de TV ESPN, de propriedade da Disney, criou o seu próprio aplicativo de apostas. Para a publicação, o jogo é um vício para algumas pessoas. Entretanto, avalia que outros vícios de que os EUA desfrutam, tais como o do álcool, produzem danos muito piores. Segundo o The Economist, não se deve mensurar a autonomia apenas pela liberdade, mas pela capacidade de gastar o dinheiro como bem entender. Site Terra. Crescimento das apostas online é expressão de liberdade individual, diz ‘Economist’. Disponível em: www.terra.com.br/economia/crescimento-das-apostas-online-e- expressao-de-liberdade-individual-diz-economist,d69c2d381be5639d089060d9e3910f86z08q847c.html. 16.12.2024. Adaptado. Texto 3 O psiquiatra responsável pelo ambulatório do Programa de Orientação e Atendimento a Dependentes da Universidade Federal de São Paulo, Dr. Aderbal Vieira Junior, vê com preocupação o crescimento do número de apostadores de bets no Brasil. Em setembro de 2024, um levantamento do Banco Central acendeu o alerta para os impactos das bets na vida da população brasileira: 24 milhões de pessoas físicas participaram de jogos de azar e apostas online, pelo menos, com uma transferência via PIX. “A gente já passou por tudo. Começou tratando dependentes em jogo de corrida de cavalo, depois pegou os bingos e depois pegou o vídeo poker. À medida que as modalidades de jogos vão se modificando, a gente vai acompanhando. Agora a grande questão é a bet, ninguém mais aposta em cavalo”. O vício em jogos de azar é uma doença reconhecida pela Organização Mundial de Saúde desde 1980, mas a dependência especificamente em apostas virtuais e o crescimento expressivo de viciados é algo recente na sociedade, principalmente, no Brasil. Lívia Martins. ‘Não vai ter quem trate desse contingente de jogadores’, diz psiquiatra de programa gratuito para viciados em bets. Disponível em: https://g1.globo.com/sp/sao- paulo/noticia/2024/10/10/nao-vai-ter-quem-trate-desse-contingente-de-jogadores-diz-psiquiatra-de-programa-gratuito-para-viciados-em-bets.ghtml. 10.10.2024. Adaptado. Com base nos textos apresentados e em seus próprios conhecimentos, escreva um texto dissertativo-argumentativo de, no máximo,"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2025. Banca: FGV. Gabarito definitivo: D."
+  }
+]

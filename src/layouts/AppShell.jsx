@@ -48,11 +48,11 @@ const Sidebar = memo(({ mobile = false, onNavigate, collapsed = false, onToggle 
         "flex h-full flex-col",
         mobile
           ? "mobile-more-menu w-full bg-white p-5 pt-4"
-          : cx("w-20 border-r border-slate-200 bg-white p-3", !collapsed && "xl:w-72 xl:p-4")
+          : cx("w-16 border-r border-slate-200/80 bg-white p-2", !collapsed && "xl:w-[220px] xl:p-3")
       )}
       style={!mobile ? { transition: "width 200ms ease, padding 200ms ease" } : undefined}
     >
-      <div className={cx("flex min-h-12 items-center", mobile ? "mb-3 pr-12" : "mb-6 px-2")}>
+      <div className={cx("flex min-h-14 items-center", mobile ? "mb-3 pr-12" : collapsed ? "mb-5 justify-center" : "mb-5 px-1")}>
         {mobile ? (
           <div>
             <p className="text-xs font-black uppercase tracking-wide text-royal">VemAprovar</p>
@@ -63,14 +63,14 @@ const Sidebar = memo(({ mobile = false, onNavigate, collapsed = false, onToggle 
         ) : null}
       </div>
 
-      <nav className={cx("flex-1 overflow-auto pr-1", mobile ? "space-y-1.5" : "space-y-1")}>
+      <nav className={cx("flex-1 overflow-auto", mobile ? "space-y-1" : "space-y-0.5")}>
         {items.map(({ key, label, icon: Icon, badge, tourId }) => (
           <button
             className={cx(
-              "flex w-full items-center gap-3 rounded-xl text-left font-semibold transition",
-              mobile ? "min-h-11 px-3 py-2.5 text-sm" : cx("justify-center px-3 py-2.5 text-sm", !collapsed && "xl:justify-start"),
+              "flex w-full items-center gap-3 rounded-xl text-left font-semibold transition-all duration-150",
+              mobile ? "min-h-11 px-3 py-2.5 text-sm" : cx("justify-center px-2 py-2.5 text-sm", !collapsed && "xl:justify-start xl:px-3"),
               route === key
-                ? "internal-nav-active bg-royal text-white shadow-lg shadow-royal/20"
+                ? "internal-nav-active bg-blue-600 text-white shadow-[0_4px_16px_rgba(37,99,235,0.3)]"
                 : "text-slate-500 hover:bg-slate-100 hover:text-slate-900"
             )}
             data-tour={tourId}
@@ -79,15 +79,13 @@ const Sidebar = memo(({ mobile = false, onNavigate, collapsed = false, onToggle 
             onClick={() => handleNavigate(key)}
             type="button"
           >
-            <Icon size={mobile ? 18 : 16} strokeWidth={1.7} />
+            <Icon size={mobile ? 18 : 17} strokeWidth={route === key ? 2.2 : 1.7} className="shrink-0" />
             <span className={cx("min-w-0 flex-1 truncate", mobile ? "block" : collapsed ? "hidden" : "hidden xl:block")}>{label}</span>
             {badge ? (
-              <span
-                className={cx(
-                  "rounded-full bg-royal px-2 py-0.5 text-[10px] font-black text-white",
-                  mobile ? "inline-flex" : collapsed ? "hidden" : "hidden xl:inline-flex"
-                )}
-              >
+              <span className={cx(
+                "rounded-full bg-blue-600 px-2 py-0.5 text-[10px] font-black text-white",
+                mobile ? "inline-flex" : collapsed ? "hidden" : "hidden xl:inline-flex"
+              )}>
                 {badge}
               </span>
             ) : null}
@@ -99,11 +97,11 @@ const Sidebar = memo(({ mobile = false, onNavigate, collapsed = false, onToggle 
         <div className="mt-2 border-t border-slate-100 pt-2">
           <button
             aria-label={collapsed ? "Expandir menu" : "Minimizar menu"}
-            className="flex w-full items-center justify-center rounded-xl p-2 text-slate-400 transition hover:bg-slate-100 hover:text-slate-700"
+            className="flex w-full items-center justify-center rounded-xl p-2.5 text-slate-400 transition-all duration-150 hover:bg-slate-100 hover:text-slate-700"
             onClick={onToggle}
             type="button"
           >
-            {collapsed ? <ChevronsRight size={16} /> : <ChevronsLeft size={16} />}
+            {collapsed ? <ChevronsRight size={15} /> : <ChevronsLeft size={15} />}
           </button>
         </div>
       )}
@@ -457,7 +455,7 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
     <div
       className={cx(
         "internal-app min-h-screen",
-        "internal-app-light bg-gray-100 text-gray-950"
+        "internal-app-light bg-slate-100 text-slate-900"
       )}
     >
       <aside className="fixed left-0 top-0 hidden h-screen md:block">
@@ -476,12 +474,12 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
         >
           <motion.div
             animate={{ y: mobileOpen ? 0 : "100%" }}
-            className="mobile-more-sheet absolute inset-x-0 bottom-0 max-h-[82svh] rounded-t-[2rem] bg-white shadow-2xl"
+            className="mobile-more-sheet absolute inset-x-0 bottom-0 max-h-[84svh] rounded-t-[28px] bg-white shadow-[0_-8px_40px_rgba(15,23,42,0.18)]"
             initial={{ y: "100%" }}
             onClick={(event) => event.stopPropagation()}
-            transition={{ type: "spring", damping: 30, stiffness: 360 }}
+            transition={{ type: "spring", damping: 32, stiffness: 380 }}
           >
-            <div className="mx-auto mt-3 h-1.5 w-14 rounded-full bg-slate-300" />
+            <div className="mx-auto mt-3 h-1 w-12 rounded-full bg-slate-200" />
             <button
               aria-label="Fechar menu"
               className="absolute right-4 top-4 z-10 grid size-10 place-items-center rounded-xl bg-slate-100 text-slate-500 shadow-sm"
@@ -496,12 +494,12 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
       )}
 
       <div
-        className={cx("md:pl-20", sidebarCollapsed ? "xl:pl-20" : "xl:pl-72")}
+        className={cx("md:pl-16", sidebarCollapsed ? "xl:pl-16" : "xl:pl-[220px]")}
         style={{ transition: "padding-left 200ms ease" }}
       >
         <Topbar />
         <main
-          className="min-h-[calc(100svh-73px)] bg-slate-50 p-3 sm:p-4 md:p-6"
+          className="min-h-[calc(100svh-64px)] bg-slate-50 p-3 sm:p-4 md:p-5 xl:p-6"
           onTouchEnd={handleTouchEnd}
           onTouchMove={handleTouchMove}
           onTouchStart={handleTouchStart}

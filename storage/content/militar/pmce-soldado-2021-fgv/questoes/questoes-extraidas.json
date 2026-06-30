@@ -1,0 +1,3356 @@
+[
+  {
+    "id": "pmce-soldado-2021-fgv-q001",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q001",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 1,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“Se não houver frutos, valeu a beleza das flores; se não houver flores, valeu a sombra das folhas; se não houver folhas, valeu a intenção da semente.” Henfil, cartunista. Sobre a estruturação desse pensamento, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Os termos frutos, flores, folhas, semente indicam uma progressão de lugar e tempo."
+      },
+      {
+        "letra": "B",
+        "texto": "As três frases que compõem o pensamento apresentam paralelismo sintático, ou seja, mostram estruturação sintática idêntica."
+      },
+      {
+        "letra": "C",
+        "texto": "Cada uma das frases que compõem o pensamento de Henfil apresenta uma retificação da frase anterior."
+      },
+      {
+        "letra": "D",
+        "texto": "As formas verbais das frases componentes desse pensamento indicam uma ação futura."
+      },
+      {
+        "letra": "E",
+        "texto": "Os termos beleza, sombra e intenção indicam aspectos negativos da ação da natureza."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q002",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q002",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 2,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Avalie a frase a seguir. “Os fumantes são suicidas homeopáticos.” Isso significa que os fumantes",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não acreditam na medicina tradicional."
+      },
+      {
+        "letra": "B",
+        "texto": "preferem deixar de fumar a morrer."
+      },
+      {
+        "letra": "C",
+        "texto": "matam-se pouco a pouco."
+      },
+      {
+        "letra": "D",
+        "texto": "perdem a vida sem uma razão convincente."
+      },
+      {
+        "letra": "E",
+        "texto": "ingerem remédios prejudiciais à saúde."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q003",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q003",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 3,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“A imaginação muitas vezes nos conduz a mundos a que nunca fomos, mas sem ela não iremos a nenhum lugar.” Carl Sagan. Nessa frase podemos fazer substituições de termos ou expressões sem que se altere o significado pretendido. Assinale a opção em que a alteração proposta modifica o sentido original.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“ muitas vezes ” = frequentemente."
+      },
+      {
+        "letra": "B",
+        "texto": "“ nos conduz a ” = nos transporta para."
+      },
+      {
+        "letra": "C",
+        "texto": "“ a mundos ” = a lugares."
+      },
+      {
+        "letra": "D",
+        "texto": "“ mas ” = logo."
+      },
+      {
+        "letra": "E",
+        "texto": "“ a nenhum lugar ” = a lugar algum."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q004",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q004",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 4,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Todas as frases a seguir começam por uma metáfora. Assinale a opção que apresenta a frase em que essa metáfora inicial é explicada.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A loteria é um imposto para os que são ruins em Matemática."
+      },
+      {
+        "letra": "B",
+        "texto": "A humanidade é a imortalidade dos mortais."
+      },
+      {
+        "letra": "C",
+        "texto": "A modernidade é a tensão entre o efêmero e o eterno."
+      },
+      {
+        "letra": "D",
+        "texto": "A vida é uma tragédia: o ato final é a morte."
+      },
+      {
+        "letra": "E",
+        "texto": "Os homens tornaram-se ferramentas de suas ferramentas. Soldado da PM-CE"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q005",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q005",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 5,
+    "materia": "Matematica",
+    "materia_original": "Matematica",
+    "dificuldade": "medio",
+    "enunciado": "Analise o seguinte texto humorístico: “ Larguei a bebida. O ruim é que não lembro onde.” Nesse texto, o humor é provocado",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pelo fato de a segunda frase dar um novo sentido ao verbo “largar”."
+      },
+      {
+        "letra": "B",
+        "texto": "pela situação incômoda de procurar algo sem saber onde."
+      },
+      {
+        "letra": "C",
+        "texto": "pela decisão anunciada na primeira frase não ter sido bem- sucedida."
+      },
+      {
+        "letra": "D",
+        "texto": "pelos erros gramaticais cometidos nas duas frases."
+      },
+      {
+        "letra": "E",
+        "texto": "pela circunstância do esquecimento provocado pela bebida."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Matematica."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q006",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q006",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 6,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“ Eu amarei a luz porque ela me mostra o caminho. Contudo, eu suportarei a escuridão, pois ela me mostra as estrelas.” Assinale a opção que indica a mensagem contida nessa frase.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Todas as coisas criadas têm a finalidade de dar prazer ao homem."
+      },
+      {
+        "letra": "B",
+        "texto": "A natureza ensina os homens a viver de forma positiva."
+      },
+      {
+        "letra": "C",
+        "texto": "Os aspectos negativos da existência levam à depressão."
+      },
+      {
+        "letra": "D",
+        "texto": "Cada momento de nossas vidas traz aspectos positivos e negativos."
+      },
+      {
+        "letra": "E",
+        "texto": "O lado positivo das coisas deve ser procurado por todos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q007",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q007",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 7,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Leia a introdução de um pequeno conto de Carlos Drummond de Andrade: “O índio, informado de que aquela era a Semana do Índio, esperava na oca a chegada de visitantes, que certamente iriam cumprimentá-lo e levar-lhe algumas utilidades como presente. Chegou foi um homem de papel na mão, convidando-o a mudar- se com presteza, pois a terra fora adquirida por uma empresa de reflorestamento. ” Nas narrativas, como essa, aparece sempre uma situação inicial de harmonia, que é perturbada por uma desarmonia, que é o miolo da narrativa. A desarmonia neste caso é o fato de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a Semana do Índio não ser comemorada dignamente."
+      },
+      {
+        "letra": "B",
+        "texto": "a chegada de um homem convidando o índio a mudar-se."
+      },
+      {
+        "letra": "C",
+        "texto": "os visitantes não trazerem objetos de presente."
+      },
+      {
+        "letra": "D",
+        "texto": "o índio não ter recebido cumprimentos dos visitantes."
+      },
+      {
+        "letra": "E",
+        "texto": "a terra do índio ter sido adquirida por uma empresa."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q008",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q008",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 8,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "As frases a seguir estruturam-se a partir de uma comparação, à exceção de uma. Assinale-a.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Sonhos são como deuses: quando não se acredita neles, deixam de existir."
+      },
+      {
+        "letra": "B",
+        "texto": "Um acontecimento vivido é finito. Um acontecimento lembrado é ilimitado."
+      },
+      {
+        "letra": "C",
+        "texto": "O sonho é o domingo do pensamento."
+      },
+      {
+        "letra": "D",
+        "texto": "Pense como homem de ação e aja como homem de pensamento."
+      },
+      {
+        "letra": "E",
+        "texto": "Fantasia não é exatamente uma fuga da realidade. É um modo de entendê-la. ΠΜΧΕ Tipo 1 – Cor BRANCA – Página 2 Concurso Público PMCE 2021"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q009",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q009",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 9,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“Se não houver frutos, valeu a beleza das flores; se não houver flores, valeu a sombra das folhas; se não houver folhas, valeu a intenção da semente.” Henfil, cartunista. O que essa frase nos ensina é que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a natureza nos ensina a viver melhor."
+      },
+      {
+        "letra": "B",
+        "texto": "o otimismo deve guiar os nossos passos."
+      },
+      {
+        "letra": "C",
+        "texto": "as atitudes positivas devem pautar nossos julgamentos."
+      },
+      {
+        "letra": "D",
+        "texto": "a desistência diante da vida é algo inevitável."
+      },
+      {
+        "letra": "E",
+        "texto": "as intenções das ações é que as justificam."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q010",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q010",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 10,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Um texto argumentativo apresenta sempre uma tese defendida por argumentos adequados ao convencimento do leitor. Assinale a opção que indica a frase que mostra um argumento apoiado na intimidação pela vergonha.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Vacine-se! A ciência recomenda!"
+      },
+      {
+        "letra": "B",
+        "texto": "Toda a população do Reino Unido já se vacinou. Vacine-se também!"
+      },
+      {
+        "letra": "C",
+        "texto": "Vacine-se ou a Covid vai pegar você!"
+      },
+      {
+        "letra": "D",
+        "texto": "Todas as pessoas inteligentes se vacinaram. E você?"
+      },
+      {
+        "letra": "E",
+        "texto": "Vacine-se! É rápido e eficiente! Raciocínio Lógico"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q011",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q011",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 11,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Um fazendeiro plantou ao longo de uma das margens da estrada reta, que vai do portão de sua fazenda até a sua casa, vários coqueiros. Os coqueiros foram plantados em grupos de 6 coqueiros igualmente espaçados. A distância do portão ao primeiro coqueiro é de 10 metros e a distância entre o sexto coqueiro de um grupo e o primeiro coqueiro do grupo seguinte é o dobro da distância entre coqueiros consecutivos de um mesmo grupo. A distância do portão da fazenda ao quarto coqueiro é de 28 metros. A distância do terceiro ao décimo coqueiro, em metros, é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "48."
+      },
+      {
+        "letra": "B",
+        "texto": "49."
+      },
+      {
+        "letra": "C",
+        "texto": "54."
+      },
+      {
+        "letra": "D",
+        "texto": "56."
+      },
+      {
+        "letra": "E",
+        "texto": "60."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q012",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q012",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 12,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Em um grupo de 218 soldados, 147 são do sexo masculino e 71 do sexo feminino. Para um treinamento, esses 218 soldados são agrupados, aleatoriamente, formando 109 pares de soldados. Sabe-se que, exatamente, 21 pares têm dois soldados do sexo feminino. O número de pares de soldados que têm dois soldados do sexo masculino é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "61."
+      },
+      {
+        "letra": "B",
+        "texto": "59."
+      },
+      {
+        "letra": "C",
+        "texto": "57."
+      },
+      {
+        "letra": "D",
+        "texto": "55."
+      },
+      {
+        "letra": "E",
+        "texto": "53. Soldado da PM-CE"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q013",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q013",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 13,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "medio",
+    "enunciado": "Em uma tabela 4 x 3, isto é, com 4 linhas e 3 colunas, a soma dos elementos de cada uma das 4 linhas é sempre a mesma. A soma dos elementos de cada uma das 3 colunas também é sempre a mesma, mas não necessariamente igual à soma dos elementos de cada linha. Sabe-se que a soma dos elementos da primeira coluna com os elementos da primeira linha é igual a 35 e que a diferença entre a soma dos elementos da terceira coluna e a soma dos elementos da segunda linha é igual a 5. A soma de todos os elementos dessa tabela é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "84."
+      },
+      {
+        "letra": "B",
+        "texto": "75."
+      },
+      {
+        "letra": "C",
+        "texto": "72."
+      },
+      {
+        "letra": "D",
+        "texto": "60."
+      },
+      {
+        "letra": "E",
+        "texto": "48."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q014",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q014",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 14,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Uma urna A contém 20 bolas vermelhas e uma urna B contém 21 bolas azuis. Essas são as únicas bolas nas duas urnas. Transferem-se, aleatoriamente, 5 bolas da urna A para a urna B. A seguir, também aleatoriamente, transferem-se 6 bolas da urna B para a urna A. É correto concluir que, ao final,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "há exatamente uma bola azul na urna A."
+      },
+      {
+        "letra": "B",
+        "texto": "há exatamente 15 bolas azuis na urna B."
+      },
+      {
+        "letra": "C",
+        "texto": "não há bolas vermelhas na urna B."
+      },
+      {
+        "letra": "D",
+        "texto": "há, no mínimo, uma bola vermelha na urna B."
+      },
+      {
+        "letra": "E",
+        "texto": "há, no máximo, 6 bolas azuis na urna A."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q015",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q015",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 15,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "O soldado Ryan e sua irmã Rayane possuem, respectivamente, R$ 1172,35 e R$ 1732,75. Para que os dois fiquem com, exatamente, a mesma quantia, Rayane deve dar a Ryan",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 1452,55."
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 560,40."
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 540,60."
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 452,55."
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 280,20."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q016",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q016",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 16,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "medio",
+    "enunciado": "O sargento Garcia tem, sob seu comando, entre 100 e 200 soldados. O sargento Garcia observou que, formando os seus soldados em filas de 14 soldados cada uma ou em filas de 18 soldados cada uma, a formação fica perfeita, isto é, não sobra nem falta soldado em qualquer fila. Quando o sargento Garcia forma os seus soldados em filas de 14 soldados cada uma, o número de filas é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8."
+      },
+      {
+        "letra": "B",
+        "texto": "9."
+      },
+      {
+        "letra": "C",
+        "texto": "10."
+      },
+      {
+        "letra": "D",
+        "texto": "11."
+      },
+      {
+        "letra": "E",
+        "texto": "12. ΠΜΧΕ Tipo 1 – Cor BRANCA – Página 3 Concurso Público PMCE 2021"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q017",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q017",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 17,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "medio",
+    "enunciado": "Em uma prova de natação, os tempos costumam ser apresentados no formato 1:23.45, indicando, nesse caso, um tempo de 1 minuto, 23 segundos e 45 centésimos de segundo. Em uma prova de natação de 400 metros, 4 estilos, César obteve nos 4 estilos, respectivamente, os tempos 0:52.50, 1:02.12, 1:05.42 e 0:54.10. O tempo total de César, nessa prova, foi de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3:54.14"
+      },
+      {
+        "letra": "B",
+        "texto": "3:44.24"
+      },
+      {
+        "letra": "C",
+        "texto": "3:14.44"
+      },
+      {
+        "letra": "D",
+        "texto": "2:44.04"
+      },
+      {
+        "letra": "E",
+        "texto": "2:24.54"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q018",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q018",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 18,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "medio",
+    "enunciado": "Em um grupo de 120 soldados, 70 gostam de futebol e 60 gostam de dançar. É correto concluir que,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "no máximo, 10 soldados gostam de futebol e de dançar."
+      },
+      {
+        "letra": "B",
+        "texto": "no máximo, 50 soldados não gostam de futebol nem de dançar."
+      },
+      {
+        "letra": "C",
+        "texto": "no mínimo, 10 soldados não gostam de futebol nem de dançar."
+      },
+      {
+        "letra": "D",
+        "texto": "exatamente, 30 soldados gostam de futebol e de dançar."
+      },
+      {
+        "letra": "E",
+        "texto": "no mínimo, 60 soldados gostam de futebol e de dançar."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q019",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q019",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 19,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "medio",
+    "enunciado": "Um retângulo tem um de seus lados aumentado em 2/5 de seu valor e o outro lado diminuído de 1/4 de seu valor. Conclui-se que a área desse retângulo, em relação à área inicial,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "aumentou 3/20."
+      },
+      {
+        "letra": "B",
+        "texto": "aumentou 1/10."
+      },
+      {
+        "letra": "C",
+        "texto": "aumentou 1/20."
+      },
+      {
+        "letra": "D",
+        "texto": "diminuiu 3/20."
+      },
+      {
+        "letra": "E",
+        "texto": "diminuiu 1/5."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q020",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q020",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 20,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "medio",
+    "enunciado": "O raio de uma esfera aumentou 1/3 de seu valor. Sendo V o volume inicial da esfera, é correto afirmar que o novo volume",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "é menor do que V."
+      },
+      {
+        "letra": "B",
+        "texto": "está entre V e (4/3)V."
+      },
+      {
+        "letra": "C",
+        "texto": "está entre (4/3)V e 2V."
+      },
+      {
+        "letra": "D",
+        "texto": "está entre 2V e 3V."
+      },
+      {
+        "letra": "E",
+        "texto": "é maior que 3V. Soldado da PM-CE FGV Conhecimento Atualidades - História do Ceará"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Matematica e Raciocinio Logico."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q021",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q021",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 21,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "O TPI (Tribunal Penal Internacional) é o órgão que julga crimes que toda a comunidade internacional está interessada que sejam punidos, tamanha é a sua gravidade. É o caso dos crimes contra a humanidade, expressão que designa atos desumanos contra uma população civil, que causem intencionalmente grande sofrimento ou afetem gravemente a integridade física ou a saúde física ou mental. Além disso, para serem considerados contra a humanidade, esse ataque contra a população civil tem de ser generalizado e realizado em larga escala ou deve ser sistemático, cometido de forma organizada e persistente. Quem comete o crime deve ter conhecimento de que o ataque se insere num contexto mais amplo de uma política (estatal ou de uma organização) contra aquela população. Com base no exposto, as condutas listadas a seguir podem ser consideradas exemplos de crimes contra a humanidade, à exceção de uma. Assinale-a.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Extermínio de grupos indígenas."
+      },
+      {
+        "letra": "B",
+        "texto": "Escravização de trabalhadores."
+      },
+      {
+        "letra": "C",
+        "texto": "Desvio de verbas e fraude no erário público."
+      },
+      {
+        "letra": "D",
+        "texto": "Tortura e violência sexual dirigida a determinado grupo."
+      },
+      {
+        "letra": "E",
+        "texto": "Perseguição de um grupo em razão de sua identidade."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q022",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q022",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 22,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Entre final de outubro e início de novembro de 2021, Glasgow (Escócia) sediará uma conferência para debater como controlar as mudanças climáticas, a COP26. A respeito do vocabulário ambientalista recorrente no encontro, relacione as expressões listadas a seguir às suas respectivas caracterizações. 1. Acordo de Paris 2. Justiça climática 3. Painel Intergovernamental sobre Mudanças Climáticas ( ) Avalia as pesquisas mais atualizadas sobre mudanças climáticas e produz relatórios não prescritivos para as negociações internacionais que visam ao enfrentamento da mudança do clima. ( ) Vincula direitos humanos e desenvolvimento, para salvaguardar os direitos das pessoas mais vulneráveis e partilhar os encargos das mudanças climáticas de forma equitativa. ( ) Estabelece a meta de manter o aquecimento global abaixo de 2°C acima dos níveis pré-industriais, e tentar atingir a meta de 1,5°C, para evitar catástrofes climáticas. Assinale a opção que apresenta a sequência correta, segundo a ordem estabelecida.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1, 3 e 2."
+      },
+      {
+        "letra": "B",
+        "texto": "2, 3 e 1."
+      },
+      {
+        "letra": "C",
+        "texto": "3, 2 e 1."
+      },
+      {
+        "letra": "D",
+        "texto": "2, 1 e 3."
+      },
+      {
+        "letra": "E",
+        "texto": "1, 2 e 3. ΠΜΧΕ Tipo 1 – Cor BRANCA – Página 4 Concurso Público PMCE 2021"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q023",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q023",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 23,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "A entrada das mulheres na Polícia Militar se deu junto com o processo de redemocratização do país. A respeito da participação feminina na corporação, leia o trecho da entrevista de Tatiana Lima, Capitã da Polícia Militar do Rio de Janeiro, a seguir. Eu entrei em 2008, fiz a academia, me formei em 2010 e fui trabalhar nas ruas. Eu peguei um momento em que a entrada das mulheres nas UPPs foi muito valorizada, pois a imagem das policiais femininas ajudou muito na pacificação. A gente precisava do diálogo com a comunidade e as mulheres por serem mais humanas e acolhedoras conseguiram abrir esse espaço. Então, externamente foi bom. Internamente, principalmente nas missões operacionais, o preconceito continuou. A mulher continua sendo vista como mais fraca. Em uma operação com emprego de armas longas utilizadas em massa, sempre duvidam da performance da mulher. Hoje as mulheres estão começando a mostrar de forma positiva que também querem ocupar esse espaço. O importante é treinar e tentar igualar a eficiência da resposta física, apesar dos homens terem uma genética mais favorável. Tudo é treino. Adaptado de https://www.nexojornal.com.br/profissoes/2021/04/16 Segundo o testemunho da entrevistada, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A isonomia de fato entre homens e mulheres na PM foi atingida, por isso a participação feminina está aumentando."
+      },
+      {
+        "letra": "B",
+        "texto": "O cargo de PM é incompatível com o gênero feminino, por envolver situações de confronto violento."
+      },
+      {
+        "letra": "C",
+        "texto": "A atuação feminina na PM é válida, mas deve ser direcionada preferencialmente para missões de pacificação."
+      },
+      {
+        "letra": "D",
+        "texto": "O preparo físico é fundamental para o serviço operacional, independente do gênero."
+      },
+      {
+        "letra": "E",
+        "texto": "O espaço para a mulher na PM é reduzido, tanto em ações de confronto quanto em atividades de relações públicas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q024",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q024",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 24,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "Em 2021, depois de superada a fase mais aguda da pandemia, a cotação das commodities subiu e se somou ao desarranjo nas cadeias de produção. Essa interrupção provocou uma escassez de produtos, pressionando os preços. Assinale a opção que descreve corretamente um aspecto do atual cenário da economia brasileira.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A alta das commodities valorizou o real em relação ao dólar, pois o Brasil é um grande exportador de produtos básicos, como soja e milho."
+      },
+      {
+        "letra": "B",
+        "texto": "O desarranjo no setor de bens de consumo duráveis foi causado pela alta na demanda externa, difícil de ser atendida pela escassez de matéria-prima vinda da China."
+      },
+      {
+        "letra": "C",
+        "texto": "O fortalecimento da moeda brasileira em relação ao dólar é o resultado das exportações do agronegócio, que continuou forte, mesmo com a crise global da pandemia."
+      },
+      {
+        "letra": "D",
+        "texto": "A desordem nas cadeias produtivas resultou da crise sanitária, que paralisou ou reduziu a produção em diversos setores industriais e gerou desabastecimento de insumos."
+      },
+      {
+        "letra": "E",
+        "texto": "A alta nos preços dos combustíveis e da energia elétrica elevou os custos de produção e causou o desarranjo das cadeias produtivas nacionais. Soldado da PM-CE"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q025",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q025",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 25,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "Segundo o Financial Times, em agosto de 2021, a China testou, com relativo êxito, um míssil hipersônico. De acordo com as informações, o míssil hipersônico foi lançado pela China e circulou o globo terrestre, antes de acertar um alvo determinado, em terra. O míssil, que pode carregar em sua ponta uma ogiva nuclear, estava acoplado a um veículo planador capaz de alterar a própria rota para atingir o alvo. As agências de inteligência dos EUA estão surpresas com o progresso da potência asiática em armas de altíssimo alcance. Adaptado de https://canaltech.com.br/inovacao Com base no texto, analise as afirmativas a seguir. I. Mísseis hipersônicos são uma ameaça para os sistemas americanos de defesa contra mísseis, pois é difícil rastrear sua trajetória já que conseguem alterar a própria rota original. II. Mísseis que superam a velocidade do som são cobiçadas armas de guerra, por atingir alvos cada vez mais distantes e igualar os mísseis balísticos intercontinentais em velocidade e potência destrutiva. III. China e EUA protagonizam uma reedição da Guerra Fria na qual o discurso não é mais contra o comunismo, como na Guerra Fria contra os soviéticos, mas em favor da democracia, contra o regime autocrata de Pequim. Está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "I e II, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "I e III, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "II e III, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "I, II e III."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q026",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q026",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 26,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A ocupação do território cearense ocorreu tardiamente, ao contrário da rápida ocupação do litoral açucareiro, iniciada no século XVI. Somente no século XVII o interior do Ceará seria ocupado pelos portugueses. A colonização “tardia” do Ceará, em relação às capitanias de Pernambuco e Bahia, por exemplo, está relacionada aos fatores listados a seguir, à exceção de um. Assinale-o.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O desconhecimento do território pelos europeus e a resistência indígena."
+      },
+      {
+        "letra": "B",
+        "texto": "O impacto de fatores naturais, como as correntes marítimas, que dificultavam o acesso ao território."
+      },
+      {
+        "letra": "C",
+        "texto": "O fato de o Ceará não estar inserido nas rotas das especiarias, do ouro ou das riquezas litorâneas."
+      },
+      {
+        "letra": "D",
+        "texto": "O fracasso em expulsar os franceses, que tomaram posse do território e construíram o Forte de São Sebastião."
+      },
+      {
+        "letra": "E",
+        "texto": "Os conflitos em função da pirataria e da presença de franceses e holandeses na região. ΠΜΧΕ Tipo 1 – Cor BRANCA – Página 5 Concurso Público PMCE 2021"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q027",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q027",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 27,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Leia o fragmento a seguir. Está feita a nossa íntima união, quer de reciprocidade de sentimentos, quer de riscos e perigos. O Ceará não cede a Pernambuco em patriotismo e zelo da sua liberdade: ambas são províncias do Brasil, cheias de gás, e daqueles ilustres caracteres que a natureza gravou nos corações livres dos brasileiros honrados. Do papel junto verá V. Exª. os motivos que nos obrigarão a depor o Presidente do governo desta província dentro de quatorze dias. O senhor Pedro José da Costa Barros em tão pouco período de tempo tornou-se alvo dos ressentimentos desse povo brioso que já não sofre os enganos, e para melhor dizer, o descaramento do gabinete do Rio de Janeiro. Quis levar-nos como escravos nos ferros do despotismo, e pretendeu que o Ceará negasse a Pernambuco aqueles indispensáveis socorros que um irmão deve prestar a seu irmão consternado: propôs mesmo que nós fôssemos de todos opostos aos sentimentos dos [desolados] pernambucanos. O fragmento refere-se à participação do Ceará no movimento conhecido como",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Revolta da Cabanagem."
+      },
+      {
+        "letra": "B",
+        "texto": "Insurreição do Crato."
+      },
+      {
+        "letra": "C",
+        "texto": "Revolução Pernambucana."
+      },
+      {
+        "letra": "D",
+        "texto": "Confederação do Equador."
+      },
+      {
+        "letra": "E",
+        "texto": "Revolta da Balaiada."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q028",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q028",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 28,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A respeito da criação da Superintendência do Desenvolvimento do Nordeste (Sudene), avalie as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Sua instituição partiu da definição do espaço que seria compreendido como Nordeste e passaria a ser objeto da ação governamental: os estados do Ceará, Maranhão, Piauí, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas, Sergipe, Bahia e parte de Minas Gerais. ( ) Sua criação resultou da percepção de que, mesmo com o processo de industrialização, crescia a diferença entre o Nordeste e o Centro-Sul do Brasil, sendo necessário haver uma intervenção direta e planejada na região, para incentivar o seu desenvolvimento. ( ) A Sudene foi criada como uma autarquia subordinada diretamente à Presidência da República, e sua secretaria executiva coube a Celso Furtado que, de 1959 a 1964, foi responsável pela estratégia de atuação do órgão. As afirmativas são, na ordem apresentada, respectivamente,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "V – F – F."
+      },
+      {
+        "letra": "B",
+        "texto": "V – V– F."
+      },
+      {
+        "letra": "C",
+        "texto": "F – V – F."
+      },
+      {
+        "letra": "D",
+        "texto": "F – F – V."
+      },
+      {
+        "letra": "E",
+        "texto": "V – V – V. Soldado da PM-CE"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q029",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q029",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 29,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em depoimento recente, Maria do Perpétuo Socorro França, Secretaria de Proteção Social, Justiça, Mulheres e Direitos Humanos (SPS) do Ceará, relata as ações da Comissão Especial de Anistia, órgão vinculado à sua secretaria: “ Estamos selando nosso compromisso, enquanto Estado, para com todos os ex-presos políticos que lutaram pela democracia no Ceará durante a Ditadura Militar. As indenizações representam também nosso pedido de desculpas aos homens e mulheres que foram perseguidos neste período e que merecem todo nosso respeito. Somos o único Estado a indenizar ex-presos políticos da ditadura, e isso, reflete nossa preocupação com a efetivação das políticas que garantam de fato, direitos, liberdade e dignidade ao nosso povo ”. Sobre a Comissão Especial de Anistia, é correto afirmar que ela é o órgão responsável por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "analisar processos de pessoas detidas no Ceará sob acusação de ter participado de atividades políticas durante o período da ditadura militar."
+      },
+      {
+        "letra": "B",
+        "texto": "investigar casos de corrupção e desvio de verbas na administração pública estadual, durante o período da ditadura militar."
+      },
+      {
+        "letra": "C",
+        "texto": "promover um revisionismo histórico a respeito da gestão do estado durante o governo civil-militar dos anos 1961-1979, apurando a verdade dos fatos."
+      },
+      {
+        "letra": "D",
+        "texto": "avaliar a ideologia dos que exerceram algum tipo de militância política, cultural ou trabalhista no contexto da ditadura militar."
+      },
+      {
+        "letra": "E",
+        "texto": "indenizar todos os que foram presos injustamente no período do governo civil-militar e que possam demonstrar o erro cometido pelo judiciário."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q030",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q030",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 30,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em 1881, foi deflagrada a Greve dos Jangadeiros, liderada pelo pescador Francisco José do Nascimento, conhecido como o “dragão do mar”. O movimento recusava-se a embarcar, no porto de Fortaleza, os escravizados que seriam enviados às províncias do sul. Sobre o movimento dos jangadeiros em Fortaleza, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Paralisou o mercado escravista do porto da cidade, obrigando o redirecionamento dos escravos para Belém."
+      },
+      {
+        "letra": "B",
+        "texto": "Tornou o Ceará a primeira província a abolir a escravidão, em 1881, antes da assinatura da Lei Áurea."
+      },
+      {
+        "letra": "C",
+        "texto": "Teve um papel na abolição da escravidão no Ceará, mas não conseguiu o apoio da elite intelectual abolicionista."
+      },
+      {
+        "letra": "D",
+        "texto": "Impactou o tráfico intercontinental de escravos, o que facilitou a imposição da Lei Eusébio de Queiroz."
+      },
+      {
+        "letra": "E",
+        "texto": "Foi comemorado pela imprensa abolicionistas na Corte, que difundiu o epíteto “dragão do mar”. ΠΜΧΕ Tipo 1 – Cor BRANCA – Página 6 Concurso Público PMCE 2021 Administração Pública - Ética"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q031",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q031",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 31,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "A função pública deve ser exercida segundo os preceitos estabelecidos pela Administração Pública, tendo, como parâmetro, o Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal, materializado por meio do Decreto nº 1171/94. Com base no Decreto nº 1171/94, assinale a opção que indica um dever fundamental do servidor público.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Postergar a prestação de contas, quando for necessário ao interesse social."
+      },
+      {
+        "letra": "B",
+        "texto": "Respeitar à igualdade, afastando-se de comportamentos que podem favorecer a hierarquia funcional."
+      },
+      {
+        "letra": "C",
+        "texto": "Apresentar-se ao trabalho com vestimentas que considere mais confortáveis."
+      },
+      {
+        "letra": "D",
+        "texto": "Facilitar a fiscalização de todos os atos ou serviços por quem de direito."
+      },
+      {
+        "letra": "E",
+        "texto": "Exercer suas atribuições com calma e tranquilidade, sem apressar-se diante de imprevistos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q032",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q032",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 32,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "Ao longo da história, os estudos relacionados à ética deram origem a diversos conceitos e classificações sobre o termo. Acerca do apresentado, considere a situação na qual um policial, sozinho, encontra uma carteira no meio da rua, com elevada quantia em dinheiro, e decida devolvê-la a seu dono, em respeito ao dever, independentemente de qualquer recompensa ou risco de punição. Sobre a situação narrada, assinale a opção que indica o conceito de ética no qual se baseou a ação do policial.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Relativista."
+      },
+      {
+        "letra": "B",
+        "texto": "Formal."
+      },
+      {
+        "letra": "C",
+        "texto": "Utilitarista."
+      },
+      {
+        "letra": "D",
+        "texto": "Empírico."
+      },
+      {
+        "letra": "E",
+        "texto": "Proporcional."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q033",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q033",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 33,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Promover a motivação das pessoas que atuam nas organizações nem sempre é uma atividade trivial, tendo sido, por isso, objeto de diversos estudos por especialistas. Assinale a opção que se relaciona corretamente com a teoria motivacional dos dois fatores, de Frederick Herzberg.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A satisfação das necessidades dos empregados deve ser realizada respeitando a hierarquia."
+      },
+      {
+        "letra": "B",
+        "texto": "Os comportamentos desejáveis devem ser incentivados por meio de reforços positivos."
+      },
+      {
+        "letra": "C",
+        "texto": "O grau de atividade da valência é responsável por propiciar ou não a expectativa."
+      },
+      {
+        "letra": "D",
+        "texto": "Os elementos higiênicos são responsáveis por evitar a insatisfação."
+      },
+      {
+        "letra": "E",
+        "texto": "A comparação com os pares é a base para a análise de compatibilidade entre os esforços e as retribuições. Soldado da PM-CE"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q034",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q034",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 34,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Com base nas características utilizadas usualmente para a conceituação dos termos ética e moral, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A ética é uma normatização de comportamentos, enquanto a moral é uma disciplina filosófica."
+      },
+      {
+        "letra": "B",
+        "texto": "A ética possui caráter científico, enquanto a moral tem caráter prático."
+      },
+      {
+        "letra": "C",
+        "texto": "A ética possui caráter temporal, enquanto a moral tem caráter permanente."
+      },
+      {
+        "letra": "D",
+        "texto": "A ética está relacionada ao costume, enquanto a moral à qualidade do ser."
+      },
+      {
+        "letra": "E",
+        "texto": "A ética é cultural, enquanto a moral é teórica."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q035",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q035",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 35,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "No contexto da organização administrativa do Estado, e a responsabilidade pela instrumentalização das diretrizes estatais, a Polícia Militar do Ceará é um exemplo de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "órgão público."
+      },
+      {
+        "letra": "B",
+        "texto": "entidade administrativa."
+      },
+      {
+        "letra": "C",
+        "texto": "fundação concedente."
+      },
+      {
+        "letra": "D",
+        "texto": "entidade política."
+      },
+      {
+        "letra": "E",
+        "texto": "associação pública."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q036",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q036",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 36,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Considere uma situação na qual o Governo do Ceará tenha a intenção de criar uma empresa pública de fomento, visando a auxiliar o desenvolvimento do Estado. Acerca dessa empresa pública, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Será uma pessoa jurídica de direito privado, devendo sua criação ser autorizada por lei."
+      },
+      {
+        "letra": "B",
+        "texto": "Será uma pessoa jurídica de direito público, devendo ser criada por lei específica."
+      },
+      {
+        "letra": "C",
+        "texto": "Será um consórcio interno, devendo ser criado por decreto."
+      },
+      {
+        "letra": "D",
+        "texto": "Será uma delegatária, devendo ser instituída por convênio."
+      },
+      {
+        "letra": "E",
+        "texto": "Não possuirá personalidade jurídica, devendo ter a criação autorizada por portaria."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q037",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q037",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 37,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Acerca da organização administrativa, analise as afirmativas a seguir. I. As autarquias devem ser criadas com o objetivo precípuo de explorar atividade econômica de utilidade pública. II. As fundações públicas possuem natureza jurídica de organização social. III. As sociedades de economia mista podem ser responsáveis pela prestação de serviços públicos. Está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "II, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "III, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "I e II, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "I e III, apenas. ΠΜΧΕ Tipo 1 – Cor BRANCA – Página 7 Concurso Público PMCE 2021"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q038",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q038",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 38,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "As agências reguladoras são importantes inovações do Estado brasileiro, idealizadas, no contexto da reforma gerencial de 1995, com o intuito de regular atividades de determinados setores da economia. Acerca das agências reguladoras, é correto afirmar que elas foram criadas por meio do processo conhecido por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "desconcentração."
+      },
+      {
+        "letra": "B",
+        "texto": "concentração."
+      },
+      {
+        "letra": "C",
+        "texto": "descentralização."
+      },
+      {
+        "letra": "D",
+        "texto": "centralização."
+      },
+      {
+        "letra": "E",
+        "texto": "privatização."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q039",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q039",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 39,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Embora cada empresa tenha sua peculiaridade, existem atividades que são indispensáveis para os gestores, sendo conhecidas como funções administrativas. Assinale a opção que apresenta corretamente as funções administrativas.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Planejamento, organização, coordenação e coerção."
+      },
+      {
+        "letra": "B",
+        "texto": "Planejamento, organização, direção e controle."
+      },
+      {
+        "letra": "C",
+        "texto": "Organização, coordenação, controle e inovação."
+      },
+      {
+        "letra": "D",
+        "texto": "Coordenação, decisão, motivação e planejamento."
+      },
+      {
+        "letra": "E",
+        "texto": "Direção, premeditação, coerção e coordenação."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q040",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q040",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 40,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Ao analisar a estrutura de uma organização típica, é possível identificar a existência de três níveis hierárquicos: o tático, o operacional e o estratégico. Sabendo que cada um desses níveis é responsável por funções específicas na estrutura organizacional, o nível operacional tem foco, essencialmente, no",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "longo prazo e em unidades específicas."
+      },
+      {
+        "letra": "B",
+        "texto": "longo prazo e nas diretrizes departamentais."
+      },
+      {
+        "letra": "C",
+        "texto": "médio prazo no ambiente interno."
+      },
+      {
+        "letra": "D",
+        "texto": "curto prazo e no ambiente externo."
+      },
+      {
+        "letra": "E",
+        "texto": "curto prazo e em tarefas. Soldado da PM-CE FGV Conhecimento Direito Constitucional – Direitos Humanos"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q041",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q041",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 41,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "Maria, policial militar, constatou que parte do telhado de uma casa localizada em comunidade carente, em razão das fortes chuvas ocorridas na região, tinha desabado. Apesar do desabamento, o muro e o portão ao redor da casa, bem como suas paredes, permaneciam hígidos. À luz dessa narrativa, caso Maria identifique a existência de pessoa ferida no interior da casa, não estando presente outra que possa ajudá-la, ela",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "deve aguardar a chegada de outro morador e solicitar sua autorização para ingressar no local."
+      },
+      {
+        "letra": "B",
+        "texto": "deve comparecer perante o juízo da região e solicitar autorização para ingressar no local."
+      },
+      {
+        "letra": "C",
+        "texto": "pode apenas isolar a área e aguardar o órgão de salvamento, que está legalmente autorizado a ingressar no local."
+      },
+      {
+        "letra": "D",
+        "texto": "deve se comunicar com a pessoa ferida e, somente se ela exteriorizar seu consentimento, ingressar no local."
+      },
+      {
+        "letra": "E",
+        "texto": "pode ingressar no local, mesmo sem autorização do morador ou ordem judicial, para prestar socorro à pessoa ferida."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q042",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q042",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 42,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "Com o objetivo de estimular a abertura de igrejas, o que, ao ver dos idealizadores do projeto, contribuiria para aumentar o bem- estar da população, o Estado Alfa editou a Lei nº XX. De acordo com esse diploma normativo, as igrejas que preenchessem os requisitos exigidos teriam subvencionadas 50% de suas despesas regulares. Considerando a sistemática constitucional, é correto afirmar que a Lei nº XX é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "inconstitucional, em razão do caráter laico dos entes federativos."
+      },
+      {
+        "letra": "B",
+        "texto": "constitucional, em razão do elevado interesse público a ser atendido com a iniciativa."
+      },
+      {
+        "letra": "C",
+        "texto": "constitucional, pois é dever do Estado prestigiar a liberdade de crença, subvencionando as igrejas."
+      },
+      {
+        "letra": "D",
+        "texto": "inconstitucional, salvo se for assegurado que a subvenção alcance, de forma igualitária, todas as religiões."
+      },
+      {
+        "letra": "E",
+        "texto": "inconstitucional, pois a subvenção foi parcial e as entidades sem fins lucrativos devem recebê-la de modo integral."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q043",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q043",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 43,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "João foi condenado a quatro anos de prisão, substituídos por pena restritiva de direitos por igual período, em sentença criminal transitada em julgado. Como pretende concorrer a cargo eletivo na eleição a ser realizada no ano seguinte, consultou um advogado sobre essa possibilidade, o qual lhe respondeu, corretamente, que a referida condenação, enquanto produzir efeitos,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "impede João de concorrer a cargo eletivo somente no local em que foi proferida a sentença."
+      },
+      {
+        "letra": "B",
+        "texto": "não produz efeitos no âmbito eleitoral, em razão da independência das instâncias."
+      },
+      {
+        "letra": "C",
+        "texto": "apenas impede João de ocupar um cargo público, eletivo ou não."
+      },
+      {
+        "letra": "D",
+        "texto": "impede João de votar e ser votado."
+      },
+      {
+        "letra": "E",
+        "texto": "apenas impede João de ser votado. ΠΜΧΕ Tipo 1 – Cor BRANCA – Página 8 Concurso Público PMCE 2021"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q044",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q044",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 44,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "Joana, recém-eleita deputada estadual, pretendia apresentar um projeto de lei em matéria na qual, conforme a ordem constitucional, há competência legislativa concorrente entre a União e os Estados. Ao questionar sua assessoria sobre as características dessa espécie de competência, ela foi informada, corretamente, que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o Estado deve observar as normas gerais editadas pela União."
+      },
+      {
+        "letra": "B",
+        "texto": "as normas devem ser editadas em conjunto pela União e pelos Estados."
+      },
+      {
+        "letra": "C",
+        "texto": "o Estado exerce a competência legislativa plena e, a União, a competência subsidiária."
+      },
+      {
+        "letra": "D",
+        "texto": "o Estado pode legislar livremente sobre a matéria no âmbito local e a União no âmbito nacional."
+      },
+      {
+        "letra": "E",
+        "texto": "a norma específica editada pelo Estado prevalece sobre a norma geral da União, na hipótese de conflito."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q045",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q045",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 45,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "Jéssica, vereadora no Município Alfa, realizou sérias críticas ao sistema de transporte público de caráter coletivo oferecido aos munícipes. Na ocasião, ela afirmou que, além de a qualidade ser sofrível, não eram revertidos, em benefícios para a coletividade, as inúmeras vantagens oferecidas pelo Poder Público às sociedades empresárias do setor, que “ sangravam os cofres públicos e a coletividade sem piedade ”. Insatisfeitas, essas sociedades, no afã de promover a responsabilidade civil de Jéssica, procuraram a orientação de um advogado, que lhes respondeu, corretamente, que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a responsabilização de Jéssica somente seria possível caso sua opinião tivesse sido emitida fora do recinto da Câmara Municipal de Alfa."
+      },
+      {
+        "letra": "B",
+        "texto": "Jéssica, diversamente dos parlamentares federais e estaduais, não tinha inviolabilidade por suas opiniões e palavras, sendo possível responsabilizá-la."
+      },
+      {
+        "letra": "C",
+        "texto": "Jéssica tinha inviolabilidade idêntica à dos parlamentares federais e estaduais por suas opiniões e palavras, não sendo possível responsabilizá-la."
+      },
+      {
+        "letra": "D",
+        "texto": "a inviolabilidade de Jéssica somente alcançava as opiniões e palavras proferidas no exercício do mandato e na circunscrição do Município."
+      },
+      {
+        "letra": "E",
+        "texto": "a responsabilização de Jéssica estava condicionada ao fato de sua opinião não ter sido referendada, por maioria simples, pelos membros da Câmara Municipal de Alfa."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q046",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q046",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 46,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "Pedro, estudante de direito, questionou seu professor de direito constitucional a respeito de diversos aspectos relacionados ao órgão competente para processar e julgar o Presidente da República, caso ele seja acusado da prática de crime de responsabilidade. O professor respondeu corretamente que esse órgão é o(a)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Senado Federal."
+      },
+      {
+        "letra": "B",
+        "texto": "Congresso Nacional."
+      },
+      {
+        "letra": "C",
+        "texto": "Câmara dos Deputados."
+      },
+      {
+        "letra": "D",
+        "texto": "Supremo Tribunal Federal."
+      },
+      {
+        "letra": "E",
+        "texto": "Conselho Nacional de Justiça. Soldado da PM-CE"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q047",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q047",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 47,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "O Presidente da República recebeu sugestão de um assessor no sentido de que deveria ser editada medida provisória a respeito de certa matéria. Ao questioná-lo sobre os requisitos a serem observados na edição desse ato normativo, o assessor respondeu, corretamente, que ele",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "deve ser precedido de autorização do Congresso Nacional."
+      },
+      {
+        "letra": "B",
+        "texto": "pode ser editado em qualquer matéria de interesse público, em caso de urgência."
+      },
+      {
+        "letra": "C",
+        "texto": "não é suscetível de apreciação pelo Congresso Nacional e produz efeitos por 60 dias."
+      },
+      {
+        "letra": "D",
+        "texto": "pode ser editado em qualquer matéria de interesse público que exija disciplina uniforme."
+      },
+      {
+        "letra": "E",
+        "texto": "deve ser posteriormente apreciado pelo Congresso Nacional, perdendo sua eficácia caso não o seja."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q048",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q048",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 48,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "A Associação de Moradores do pequeno Município Alfa, insatisfeita com a conduta e com diversas decisões proferidas pelo Juiz de Direito da Comarca que abrangia esse Município, consultou um advogado sobre a possibilidade de ser requerida a remoção compulsória do referido magistrado, o que seria de suma importância para o bem-estar da coletividade. O advogado respondeu, corretamente, que essa medida",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "depende de sentença judicial transitada em julgado."
+      },
+      {
+        "letra": "B",
+        "texto": "exige decisão do respectivo Tribunal, referendada pelo Supremo Tribunal Federal."
+      },
+      {
+        "letra": "C",
+        "texto": "é incompatível com a ordem constitucional, em razão da garantia da inamovibilidade."
+      },
+      {
+        "letra": "D",
+        "texto": "exige decisão por voto da maioria absoluta do respectivo Tribunal ou do Conselho Nacional de Justiça."
+      },
+      {
+        "letra": "E",
+        "texto": "depende de prévia consulta à população local, daí decorrendo a instauração do processo próprio."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q049",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q049",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 49,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "Inácio dos Santos, servidor da Promotoria de Justiça da Comarca Beta, recebeu a incumbência de separar as representações, encaminhadas ao Ministério Público, que versassem sobre a tutela de interesses difusos. Entre as representações recebidas, estavam as indicadas a seguir. I. A primeira tratava de vazamento de resíduos sólidos de uma siderúrgica no Rio XX, comprometendo a pesca no local. II. A segunda tratava do aumento abusivo das mensalidades da escola particular YY. III. A terceira tratava do incômodo de um vizinho devido ao som na casa do vizinho limítrofe. Para atender à solicitação, Inácio deve separar as manifestações",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I e III, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "I e II, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "I, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "II, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "III, apenas. ΠΜΧΕ Tipo 1 – Cor BRANCA – Página 9 Concurso Público PMCE 2021"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q050",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q050",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 50,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "João, pessoa violenta, passou a adotar comportamento que expunha sua esposa, Maria, a iminente risco de vida. Nessa situação, João pode ser afastado do lar conjugal",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "apenas pela autoridade judicial, ainda que o Município não seja sede de comarca."
+      },
+      {
+        "letra": "B",
+        "texto": "pelo delegado de polícia, caso o Município não seja sede de comarca, com comunicação ao juízo competente."
+      },
+      {
+        "letra": "C",
+        "texto": "pelo delegado de polícia ou por policial, com prévia anuência do Ministério Público, caso a medida seja urgente."
+      },
+      {
+        "letra": "D",
+        "texto": "pela autoridade judicial, pelo Ministério Público ou pelo delegado de polícia, conforme a precedência na ciência dos fatos."
+      },
+      {
+        "letra": "E",
+        "texto": "pelo Ministério Público ou pelo delegado de polícia, caso o Município não seja sede de seção judiciária, com comunicação ao juízo competente."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q051",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q051",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 51,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "Populares solicitaram que uma guarnição da polícia militar comparecesse ao restaurante XX. Lá chegando, constataram que o segurança do estabelecimento estava negando o ingresso de um grupo de pessoas de cor negra, sob o argumento de que parte do restaurante estava ocupada pelos seguidores de determinada religião que considerava pecado a convivência inter- racial. À luz desse quadro, os policiais militares devem",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "prender o segurança do estabelecimento em razão da prática de crime."
+      },
+      {
+        "letra": "B",
+        "texto": "orientar os envolvidos a buscar uma solução de caráter conciliatório."
+      },
+      {
+        "letra": "C",
+        "texto": "informar ao segurança que apenas o eventual uso da força caracterizaria a prática de crime."
+      },
+      {
+        "letra": "D",
+        "texto": "assegurar que o grupo de pessoas de cor negra possa ingressar no restaurante em outro horário."
+      },
+      {
+        "letra": "E",
+        "texto": "orientar o grupo de pessoas de cor negra a procurar outro restaurante, em respeito à liberdade religiosa."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q052",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q052",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 52,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "Jeferson foi preso por estar comercializando substâncias entorpecentes de uso proibido. Na ocasião, entendeu que um, entre os diversos policiais militares que participaram da prisão, tinha se excedido. Por essa razão, solicitou que esse policial se identificasse, de modo que pudesse adotar as medidas legais que entendesse cabíveis na espécie. O policial, no entanto, negou a identificação solicitada. Nesse caso, a negativa de identificação do policial foi",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "incorreta, configurando a prática de crime."
+      },
+      {
+        "letra": "B",
+        "texto": "correta, considerando a necessidade de resguardar sua segurança."
+      },
+      {
+        "letra": "C",
+        "texto": "correta, se amparada em orientação formal do seu comandante."
+      },
+      {
+        "letra": "D",
+        "texto": "incorreta, podendo acarretar apenas a responsabilização administrativa do policial, não a criminal."
+      },
+      {
+        "letra": "E",
+        "texto": "correta, considerando que a prisão, por força do princípio da impessoalidade, é sempre atribuída à polícia militar. Soldado da PM-CE FGV Conhecimento Direito Penal Militar e Processual Militar"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q053",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q053",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 53,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Sobre o crime militar de abuso de autoridade, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Conforme previsão legal expressa, os institutos despenalizadores da Lei nº 9.099/1995 aplicam-se ao crime militar de abuso de autoridade."
+      },
+      {
+        "letra": "B",
+        "texto": "Apesar do disposto na Súmula 172 do STJ, a partir da edição da Lei nº 13.491/2017, é possível que a Justiça Militar processe e julgue militar pelo crime militar de abuso de autoridade."
+      },
+      {
+        "letra": "C",
+        "texto": "Constranger um padre, sob ameaça de prisão, a depor no interior do quartel para expor detalhes de uma confissão de um policial militar, não configura crime militar de abuso de autoridade."
+      },
+      {
+        "letra": "D",
+        "texto": "O crime militar de abuso de autoridade não comporta a pessoa jurídica como sujeito passivo do crime."
+      },
+      {
+        "letra": "E",
+        "texto": "Compete ao Conselho de Justiça processar e julgar crime militar de abuso de autoridade cometido por policial militar contra civil."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Legislacao PM e Direito Militar."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q054",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q054",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 54,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Com relação ao crime militar de tortura, assinale a afirmativa incorreta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O sargento que presencia a tortura de outro militar por um cabo, e nada fizer para impedi-lo, praticará o crime militar de tortura, incorrendo no mesmo tipo penal e pena que o cabo, em coautoria."
+      },
+      {
+        "letra": "B",
+        "texto": "O bem jurídico tutelado no crime de tortura é a dignidade da pessoa humana, visto que este tipo penal visa proteger tanto a integridade física quanto psíquica do ser humano."
+      },
+      {
+        "letra": "C",
+        "texto": "A ação penal no crime militar de tortura será sempre pública incondicionada."
+      },
+      {
+        "letra": "D",
+        "texto": "O crime de tortura é inafiançável e insuscetível de graça ou anistia."
+      },
+      {
+        "letra": "E",
+        "texto": "Se da prática do crime militar de tortura resultar lesão corporal grave, a pena aplicada será a de reclusão de quatro a dez anos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q055",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q055",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 55,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Sobre concurso de agentes, com base no Código Penal Militar, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Em regra, as circunstâncias de caráter pessoal se comunicam a todos aqueles que concorrem para a prática do crime militar."
+      },
+      {
+        "letra": "B",
+        "texto": "O oficial que instiga seus inferiores a cometer o delito, sem dar ordem direta ou organizar a ação criminosa, terá sua pena atenuada se o crime for consumado, pois é uma hipótese de participação de somenos importância."
+      },
+      {
+        "letra": "C",
+        "texto": "Tratando-se de coautoria, a punibilidade de um dos agentes depende da dos demais de modo que a absolvição de um se comunica aos demais réus."
+      },
+      {
+        "letra": "D",
+        "texto": "Quem, de qualquer modo, concorre para o crime incide nas penas a este cominadas."
+      },
+      {
+        "letra": "E",
+        "texto": "Se o crime for praticado com o concurso de dois ou mais oficiais, a pena desses oficiais deverá ser aplicada em dobro. ΠΜΧΕ Tipo 1 – Cor BRANCA – Página 10 Concurso Público PMCE 2021"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q056",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q056",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 56,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Com relação ao crime de deserção, assinale a afirmativa incorreta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Quando a ausência se verificar em subunidade isolada ou em destacamento, o respectivo comandante, oficial ou não, providenciará o inventário do desertor, devendo assinar com duas testemunhas idôneas."
+      },
+      {
+        "letra": "B",
+        "texto": "É um crime de perigo abstrato, uma vez que o risco advindo da conduta é presumida por lei, bastando a violação da norma para sua concretização."
+      },
+      {
+        "letra": "C",
+        "texto": "A contagem para a consumação do estado de ausência inicia- se a partir de zero hora do dia seguinte àquela em que é verificada a falta injustificada do militar."
+      },
+      {
+        "letra": "D",
+        "texto": "Uma vez que o desertor com estabilidade se apresente ao quartel, ele deverá ser submetido à inspeção de saúde e, quando julgado apto, será reincluído."
+      },
+      {
+        "letra": "E",
+        "texto": "A deserção é crime de mera conduta, porque se configura com a ausência sem licença pura e simples do militar, além do prazo estabelecido em lei."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Legislacao PM e Direito Militar."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q057",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q057",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 57,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Sobre as penas previstas no Código Penal Militar, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A pena de impedimento, aplicável à maioria dos crimes propriamente militares, sujeita o condenado a permanecer no quartel, sem prejuízo da instrução militar."
+      },
+      {
+        "letra": "B",
+        "texto": "Apesar de prevista no Código Penal Militar, a pena de morte não pode ser aplicada por vedação constitucional."
+      },
+      {
+        "letra": "C",
+        "texto": "São circunstâncias que sempre agravam a pena, quando não integrantes ou qualificativas do crime, ter o agente cometido o crime militar enquanto estava de serviço ou contra grávida, criança, velho ou enfermo, conforme previsão expressa no Código Penal Militar."
+      },
+      {
+        "letra": "D",
+        "texto": "A pena de inabilitação para o exercício de função pública pode ser aplicada pelo prazo de 2 a 20 anos, em virtude de crime militar praticado com abuso de poder ou violação do dever militar, mas está condicionada a estar expressamente imposta na sentença."
+      },
+      {
+        "letra": "E",
+        "texto": "A suspensão dos direitos políticos, prevista como pena acessória no Código Penal Militar, perdura enquanto o condenado estiver inabilitado para o exercício de função pública e, como consequência, o condenado pode votar mas não pode ser votado."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Legislacao PM e Direito Militar."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q058",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q058",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 58,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "O soldado Castro, militar da Polícia Militar do Estado do Ceará, pratica um delito durante a vigência de uma lei temporária. A referida lei determina que a pena do delito será agravada se o crime tiver sido praticado por militar. Ocorre que, na época de seu julgamento, a mencionada lei já não estava em vigor. Sobre a situação descrita, com base no disposto no Código Penal Militar, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Durante o julgamento, deve ser observada a lei mais benéfica para o réu."
+      },
+      {
+        "letra": "B",
+        "texto": "Durante o julgamento, deve ser aplicada a lei vigente."
+      },
+      {
+        "letra": "C",
+        "texto": "A lei temporária só será aplicada se for mais benéfica ao réu."
+      },
+      {
+        "letra": "D",
+        "texto": "A lei temporária, após o período de vigência, será aplicada ao fato ocorrido durante sua vigência, ainda que mais gravosa."
+      },
+      {
+        "letra": "E",
+        "texto": "A lei temporária não pode mais ser aplicada, uma vez decorrido seu período de vigência. Soldado da PM-CE"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Legislacao PM e Direito Militar."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q059",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q059",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 59,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Com base no Direito Penal Militar, assinale a afirmativa incorreta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O soldado José e o cabo Lima tiveram um desentendimento que culminou com José dando um soco no seu superior, que sofreu ferimentos leves. Com medo de represália, o soldado não comparece ao quartel por 10 dias. Sua esposa, Gabriela, empresta seu carro a José, para que ele possa se esconder em uma cabana em local ermo, dificultando a captura do soldado. É correto afirmar que Gabriela não responderá pelo crime de favorecimento a desertor."
+      },
+      {
+        "letra": "B",
+        "texto": "O soldado Batalha tenta subtrair para si o celular pertencente ao soldado Allan, mas antes que o delito de concretize, o soldado Batalha é pego pela sargento Aline. Enfurecido e inconformado com a tentativa de furto de um colega de farda, o soldado Allan se vinga, atropelando o pé do soldado Batalha com seu carro, o que lhe causa incapacidade para tirar serviço por 2 meses. Nesse caso, o soldado Batalha responderá pelo crime de furto, em sua forma tentada, enquanto o soldado Allan responderá pelo crime de lesão grave."
+      },
+      {
+        "letra": "C",
+        "texto": "Tendo em vista a festa de comemoração de seu aniversário, o soldado Eduardo instiga o soldado Ulysses a abandonar seu posto 1 hora antes do término do serviço. Inicialmente, o soldado Ulysses concorda em abandonar o posto para ir à festa, porém acaba desistindo e cumprindo o serviço regularmente. Nesse caso, o soldado Eduardo responderá pelo crime de instigação a abandono de posto."
+      },
+      {
+        "letra": "D",
+        "texto": "Com a intenção de formar um motim em protesto ao comandante do quartel, os soldados Franco e Allyson reúnem um grupo de 10 militares para ocupar a unidade militar. Para todos saberem a seriedade do protesto, o soldado Allyson sugere o uso de armas. Assim, metade dos militares faz a ocupação, portando arma de forma ostensiva e todos ocupam o quartel por dois dias. Nesse caso, é correto afirmar que todos responderão pelo crime de revolta."
+      },
+      {
+        "letra": "E",
+        "texto": "Após ser desrespeitada pelo soldado Bruno, a tenente Patrícia ameaça lavrar uma comunicação disciplinar ao comandante do quartel. A conduta da tenente Patrícia não caracteriza ameaça, ainda que seja provado que não houve desrespeito por parte do soldado Bruno."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q060",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q060",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 60,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Com base no Código Penal Militar, avalie as afirmativas a seguir. I. Para se reconhecer qual é a mais favorável, a lei posterior e a anterior devem ser consideradas separadamente, cada qual no conjunto de suas normas aplicáveis. II. O Código Penal Militar adota a teoria mista em relação ao tempo do crime, considerando-se praticado o crime tanto no momento da conduta ou omissão, quanto no momento do resultado do crime. III. Se uma lei posterior deixar de considerar um fato de um crime, nenhum agente poderá ser punido, salvo se já tiver sido condenado por sentença irrecorrível. Está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "II, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "I e II, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "I e III, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "II e III, apenas. ΠΜΧΕ Tipo 1 – Cor BRANCA – Página 11 Concurso Público PMCE 2021"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Legislacao PM e Direito Militar."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q061",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q061",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 61,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Com base no Código Penal Militar, assinale a afirmativa que é classificada como pena acessória.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Suspensão do exercício do posto, da graduação, do cargo ou da função."
+      },
+      {
+        "letra": "B",
+        "texto": "Perda do posto e da patente."
+      },
+      {
+        "letra": "C",
+        "texto": "Reforma."
+      },
+      {
+        "letra": "D",
+        "texto": "Detenção."
+      },
+      {
+        "letra": "E",
+        "texto": "Impedimento."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Legislacao PM e Direito Militar."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q062",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q062",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 62,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Com base no Código Penal Militar, avalie as afirmativas a seguir. I. O erro de direito do Código Penal Militar está relaciona com a ignorância ou falsa interpretação da lei. A regra castrense diverge da do Código Penal Comum, uma vez que mesmo sendo escusável, o erro não exclui o dolo, mas apenas atenua ou permite a substituição da pena. II. O erro de fato do Código Penal Militar não isenta o agente de pena, pois ao incidir sobre o fato que constitui o crime não importa se o erro é escusável ou inescusável, causando apenas uma atenuação da pena em medida proporcional ao erro. III. Nos crimes em que há violação do dever militar, as únicas hipóteses de coação, que podem ser invocadas pelo agente, são de ordem física ou material. Está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "II, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "III, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "I e II, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "I e III, apenas. Direito Penal"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Legislacao PM e Direito Militar."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q063",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q063",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 63,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Otávio foi preso em flagrante e, posteriormente, sua prisão foi convertida em temporária, em razão de ter sido encontrado portando uma arma de fogo de uso restrito, tendo a autoridade policial enquadrado a sua conduta no crime previsto no Art. 16 da Lei nº 10.826/03. Com relação à duração da prisão temporária de Otávio, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Terá a duração de 60 dias, podendo ser prorrogada por igual período em caso de extrema e comprovada necessidade."
+      },
+      {
+        "letra": "B",
+        "texto": "Terá a duração de 5 dias prorrogáveis por mais 5, uma vez que não se trata de crime hediondo."
+      },
+      {
+        "letra": "C",
+        "texto": "Terá a duração de 15 dias prorrogáveis por mais 15, em caso de extrema e comprovada necessidade, por se tratar de crime hediondo."
+      },
+      {
+        "letra": "D",
+        "texto": "Terá a duração de 90 dias, devendo ser relaxada ao término do referido prazo, caso não haja renovação de seus fundamentos por parte do Ministério Público."
+      },
+      {
+        "letra": "E",
+        "texto": "Terá a duração de 30 dias, prorrogáveis por mais 30, em caso de extrema e comprovada necessidade. Soldado da PM-CE"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q065",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q065",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 65,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "A polícia civil instaurou inquérito para investigar os delitos de tráfico de drogas e associação para o tráfico (artigos 33 e 35 da Lei nº 11.343/06), após a prisão em flagrante de Marcos e Mateus que, ao serem abordados, levavam consigo 2 quilos de maconha, cada um, e foram, assim, indiciados. A substância apreendida foi identificada por laudo de constatação provisório, elaborado por dois peritos não oficiais. Marcos e Mateus, por sua vez, tiveram a prisão em flagrante convertida em preventiva, ficando presos durante as investigações. Sobre o procedimento do caso apresentado, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O inquérito policial em questão deve ser concluído no prazo máximo de 90 dias, podendo ser duplicado pelo juiz, a pedido da autoridade policial, ouvido o Ministério Público."
+      },
+      {
+        "letra": "B",
+        "texto": "A Lei nº 11.343/06 dispõe que o laudo provisório só poderia ser elaborado por perito oficial."
+      },
+      {
+        "letra": "C",
+        "texto": "O inquérito policial em questão deve ser concluído no prazo máximo de 10 dias, podendo ser prorrogado pelo juiz, a pedido da autoridade policial, ouvido o Ministério Público."
+      },
+      {
+        "letra": "D",
+        "texto": "O inquérito policial em questão deve ser concluído no prazo máximo de 30 dias, podendo ser duplicado pelo juiz, a pedido da autoridade policial, ouvido o Ministério Público."
+      },
+      {
+        "letra": "E",
+        "texto": "A lei não exige a elaboração de laudo de constatação provisório para efeito de lavratura do auto de prisão em flagrante e estabelecimento da materialidade delitiva. ΠΜΧΕ Tipo 1 – Cor BRANCA – Página 12 Concurso Público PMCE 2021"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q066",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q066",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 66,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Pedro sofre escoriações no rosto após receber um soco de seu irmão João, durante uma discussão em um almoço familiar. Fica indeciso sobre comunicar o fato à polícia, e sua namorada, Mariana, inconformada, dirige-se à delegacia, onde faz notícia crime contra João. A autoridade policial imediatamente instaura inquérito para apurar o delito de lesão corporal leve qualificada pela violência doméstica, nos termos do Art. 129, § 9º, do Código Penal. O crime em questão é punido com pena de detenção de três meses a três anos, sendo a ação penal pública condicionada à representação. Com base nos dados fornecidos, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O delegado de polícia não pode instaurar inquérito, assim como o Ministério Público não pode oferecer denúncia sem a representação de Pedro."
+      },
+      {
+        "letra": "B",
+        "texto": "Embora a autoridade policial possa instaurar inquérito, o Ministério Público não pode oferecer denúncia sem a representação de Pedro."
+      },
+      {
+        "letra": "C",
+        "texto": "O inquérito pode ser instaurado pela autoridade policial e o Ministério Público pode oferecer denúncia, independentemente da manifestação de Pedro, pois trata-se de ação penal pública."
+      },
+      {
+        "letra": "D",
+        "texto": "O delegado de polícia não pode instaurar inquérito sem a representação de Pedro, mas o Ministério Público pode oferecer denúncia, ainda que a vítima não tenha manifestado seu interesse em ver instaurada a persecução."
+      },
+      {
+        "letra": "E",
+        "texto": "Ainda que a vítima seja homem, por se tratar de violência praticada contra irmão no âmbito doméstico, o delegado pode instaurar inquérito e o Ministério Público pode oferecer denúncia sem a manifestação da vítima."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q068",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q068",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 68,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Alberto foi preso preventivamente pela prática do crime de corrupção passiva, tendo a autoridade judiciária justificado a prisão na garantia da ordem pública, nos termos do pedido formulado pelo Ministério Público e em atenção aos ditames do Art. 312 do Código de Processo Penal. Após 4 meses de prisão, os familiares de Alberto procuram um advogado informando que o processo se encontrava parado desde a decretação da prisão, não tendo o Magistrado, ou o Ministério Público, feito qualquer manifestação desde então. A partir das informações apresentadas e com base exclusivamente na atual redação do Código de Processo Penal, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Nada poderá ser feito em favor de Alberto, uma vez que a prisão preventiva não tem prazo, podendo durar por tempo indeterminado até a revogação por parte do juiz."
+      },
+      {
+        "letra": "B",
+        "texto": "Nada poderá ser feito, uma vez que o Magistrado só precisa reanalisar os fundamentos da prisão preventiva após o transcurso de 180 dias, o que não se verificou na hipótese de Alberto."
+      },
+      {
+        "letra": "C",
+        "texto": "Nada poderá ser feito uma vez que o Magistrado só precisa reanalisar os fundamentos da prisão preventiva após o transcurso de 150 dias, o que não se verificou na hipótese de Alberto."
+      },
+      {
+        "letra": "D",
+        "texto": "O advogado deverá formular pedido de relaxamento de prisão, uma vez que o Ministério Público deveria ter renovado a necessidade de manutenção da prisão preventiva após 90 dias, o que, por não ter sido feito, torna a prisão ilegal."
+      },
+      {
+        "letra": "E",
+        "texto": "O advogado deverá formular pedido de relaxamento de prisão, uma vez que o Ministério Público deveria ter renovado a necessidade de manutenção da prisão preventiva após 60 dias, o que, por não ter sido feito, torna a prisão ilegal. ΠΜΧΕ Tipo 1 – Cor BRANCA – Página 13 Concurso Público PMCE 2021 Criminologia"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q069",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q069",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 69,
+    "materia": "Criminologia",
+    "materia_original": "Criminologia",
+    "dificuldade": "medio",
+    "enunciado": "Acerca das Escolas da Criminologia, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A Escola da Criminologia Clássica tem ênfase na implementação de políticas criminais preventivas."
+      },
+      {
+        "letra": "B",
+        "texto": "A Escola da Criminologia Científica Moderna tem como principais teóricos Césare Lombroso, Enrico Ferri e Rafael Garófalo."
+      },
+      {
+        "letra": "C",
+        "texto": "A Escola da Criminologia Crítica analisa a seletividade e propõe a deslegitimação do sistema penal."
+      },
+      {
+        "letra": "D",
+        "texto": "A Escola da Criminologia Positivista tem como principal expoente Césare Beccaria."
+      },
+      {
+        "letra": "E",
+        "texto": "A Escola da Criminologia Positivista rechaça a análise científica sobre a criminalidade."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Criminologia."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q070",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q070",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 70,
+    "materia": "Criminologia",
+    "materia_original": "Criminologia",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a opção que está de acordo com os postulados da Teoria Ecológica da Criminalidade.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A preservação do meio ambiente deve ser desenvolvida com ênfase em políticas criminais preventivas."
+      },
+      {
+        "letra": "B",
+        "texto": "A aprendizagem do comportamento criminal inclui técnicas e ocorre, na interação com o outro, pela comunicação com participação ativa."
+      },
+      {
+        "letra": "C",
+        "texto": "A desorganização social dos grandes centros urbanos pode produzir efeitos criminógenos."
+      },
+      {
+        "letra": "D",
+        "texto": "A tolerância zero no combate aos crimes ambientais contribui para a garantia da Segurança Pública."
+      },
+      {
+        "letra": "E",
+        "texto": "O crime não é uma qualidade intrínseca da conduta; é uma conduta qualificada como criminosa pelo controle social."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Criminologia."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q071",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q071",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 71,
+    "materia": "Criminologia",
+    "materia_original": "Criminologia",
+    "dificuldade": "medio",
+    "enunciado": "O conceito de crime como fato social é formulado pelo sociólogo",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Karl Marx."
+      },
+      {
+        "letra": "B",
+        "texto": "Max Weber."
+      },
+      {
+        "letra": "C",
+        "texto": "Zygmunt Bauman."
+      },
+      {
+        "letra": "D",
+        "texto": "Howard Becker."
+      },
+      {
+        "letra": "E",
+        "texto": "Émile Durkheim."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Criminologia."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q072",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q072",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 72,
+    "materia": "Criminologia",
+    "materia_original": "Criminologia",
+    "dificuldade": "medio",
+    "enunciado": "O conceito de controle social informal compreende as seguintes instituições:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Instituições penitenciárias, instituições policiais e varas criminais."
+      },
+      {
+        "letra": "B",
+        "texto": "Família, Igreja e organizações não governamentais."
+      },
+      {
+        "letra": "C",
+        "texto": "Poder Legislativo, Poder Executivo e Poder Judiciário."
+      },
+      {
+        "letra": "D",
+        "texto": "Sociedade civil, mídia e instituições policiais."
+      },
+      {
+        "letra": "E",
+        "texto": "Manicômios, prisões e conventos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Criminologia."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q073",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q073",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 73,
+    "materia": "Criminologia",
+    "materia_original": "Criminologia",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a opção que apresenta a tipologia de delinquência estabelecida pela Criminologia Positivista, de Cesare Lombroso.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Criminosos natos, ocasionais, loucos e passionais."
+      },
+      {
+        "letra": "B",
+        "texto": "Criminosos involuntários, natos, ocasionais, habituais, loucos e passionais."
+      },
+      {
+        "letra": "C",
+        "texto": "Criminoso cínicos, assassinos violentos ou enérgicos, ladrões ou neurastênicos."
+      },
+      {
+        "letra": "D",
+        "texto": "Criminosos recuperáveis e irrecuperáveis."
+      },
+      {
+        "letra": "E",
+        "texto": "Criminalidade de sangue e criminalidade de colarinho branco. Soldado da PM-CE"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Criminologia."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q074",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q074",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 74,
+    "materia": "Criminologia",
+    "materia_original": "Criminologia",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com a Convenção de Palermo, o conceito de crime organizado pressupõe um(a)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "grupo estruturado, de três ou mais pessoas, existente há algum tempo e atuando concertadamente com o propósito de cometer uma ou mais infrações graves."
+      },
+      {
+        "letra": "B",
+        "texto": "associação de três ou mais pessoas, para o fim específico de cometer crimes."
+      },
+      {
+        "letra": "C",
+        "texto": "organização paramilitar, milícia particular, grupo ou esquadrão com a finalidade de praticar qualquer dos crimes previstos no Código Penal."
+      },
+      {
+        "letra": "D",
+        "texto": "grupo composto para a prática de crimes motivados por razões de xenofobia, discriminação ou preconceito de raça, cor, etnia e religião."
+      },
+      {
+        "letra": "E",
+        "texto": "associação de três ou mais pessoas, para a submissão de alguém, sob sua guarda, poder ou autoridade, com emprego de violência ou grave ameaça, a intenso sofrimento físico ou mental, como forma de aplicar castigo pessoal ou medida de caráter preventivo. Segurança Pública"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Criminologia."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q075",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q075",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 75,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Em relação ao papel das instituições policiais no combate às distintas formas de discriminação, assinale a afirmativa incorreta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Apesar de não possuir fundamento na Constituição Federal de 1988, o combate ao preconceito no Estado Democrático de Direito é medida recomendada aos órgãos de Segurança Pública."
+      },
+      {
+        "letra": "B",
+        "texto": "A recusa ou o impedimento de acessar um estabelecimento público ou comercial por discriminação ou preconceito de cor, religião ou procedência nacional, constitui crime."
+      },
+      {
+        "letra": "C",
+        "texto": "O Supremo Tribunal Federal, em 2019, proferiu decisão equiparando a homofobia ao crime de racismo."
+      },
+      {
+        "letra": "D",
+        "texto": "As medidas protetivas de urgência previstas na Lei nº 11.340/06 (Lei Maria da Penha) não se aplicam ao homem vítima de violência."
+      },
+      {
+        "letra": "E",
+        "texto": "A Segurança Pública, como dever do Estado e direito fundamental dos cidadãos, não pode comportar quaisquer formas de discriminação."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q076",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q076",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 76,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Acerca do Programa Nacional de Segurança Pública com Cidadania (PRONASCI), assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Pretende erradicar operações conjuntas entre as polícias civis e militares."
+      },
+      {
+        "letra": "B",
+        "texto": "Pretende alterações legislativas para criação de novos delitos e aumento das penas."
+      },
+      {
+        "letra": "C",
+        "texto": "Pretende fomentar o comércio de armas de fogo."
+      },
+      {
+        "letra": "D",
+        "texto": "Pretende articular ações de segurança pública com políticas sociais."
+      },
+      {
+        "letra": "E",
+        "texto": "Pretende garantir privilégios aos agentes públicos dos órgãos de segurança. ΠΜΧΕ Tipo 1 – Cor BRANCA – Página 14 Concurso Público PMCE 2021"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q077",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q077",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 77,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Acerca da participação popular na Segurança Pública, assinale a afirmativa incorreta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Tem fundamento na Constituição Federal de 1988, que estabelece, em seu Art. 144, a Segurança Pública como dever do Estado, direito e responsabilidade de todos."
+      },
+      {
+        "letra": "B",
+        "texto": "As conferências estaduais e nacionais de Segurança Pública preconizam a construção de espaços de negociação, busca de consensos, democratização e corresponsabilidade entre o Estado e a sociedade civil."
+      },
+      {
+        "letra": "C",
+        "texto": "Possibilita a implementação de políticas de Segurança Pública dotadas de maior eficácia e caráter preventivo."
+      },
+      {
+        "letra": "D",
+        "texto": "Preconiza o incremento da credibilidade e confiança dos órgãos de Segurança Pública perante a sociedade civil."
+      },
+      {
+        "letra": "E",
+        "texto": "Tem ênfase na busca de planos de Segurança Pública democratizantes, orientados para maior efetividade a partir da confissão espontânea de autores de delitos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q078",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q078",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 78,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "David Bayley e Jerome Skolnick, os primeiros estudiosos sobre policiamento comunitário nos Estados Unidos, indicam quatro principais características desse tipo de policiamento. Nesse sentido, avalie os itens a seguir. 1. Construção de unidades policiais em áreas de conflito conflagrado. 2. Descentralização do comando por área 3. Emprego de civis na polícia e no trabalho de policiamento. 4. Ênfase no policiamento de confronto bélico 5. Estabelecer um plano de segurança pública prévio e, posteriormente, divulgá-lo para a comunidade 6. Relação de reciprocidade entre a polícia e a população 7. Relação verticalizada entre a polícia e a população 8. Reorientação da patrulha de modo a engajar a comunidade na prevenção do crime Assinale a opção que indica somente as características do policiamento comunitário.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1, 2, 3 e 7."
+      },
+      {
+        "letra": "B",
+        "texto": "1, 2, 5 e 6."
+      },
+      {
+        "letra": "C",
+        "texto": "2, 3, 6 e 8."
+      },
+      {
+        "letra": "D",
+        "texto": "3, 4, 6 e 7."
+      },
+      {
+        "letra": "E",
+        "texto": "4, 6, 7 e 8."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q079",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q079",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 79,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com o texto da Constituição Federal de 1988, assinale a opção que indica apenas órgãos de Segurança Pública.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Corpos de Bombeiros Militares; Polícia Rodoviária Federal; Polícia Ferroviária Federal e Polícias Penais."
+      },
+      {
+        "letra": "B",
+        "texto": "Polícia Federal; Polícias Militares; Polícias Civis e Guardas Municipais."
+      },
+      {
+        "letra": "C",
+        "texto": "Polícia Federal; Polícias Penais; Polícias Civis e Guardas Municipais."
+      },
+      {
+        "letra": "D",
+        "texto": "Corpos De Bombeiros Militares; Polícias Militares; Forças Armadas e Polícias Civis."
+      },
+      {
+        "letra": "E",
+        "texto": "Polícias Militares; Polícia Federal; Força Nacional De Segurança Pública e Polícias Civis. Soldado da PM-CE"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmce-soldado-2021-fgv-q080",
+    "codigo": "PMCE-SOLDADO-2021-FGV-Q080",
+    "orgao": "PMCE",
+    "cargo": "Soldado Policial Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 80,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "No combate à ação de milícias privadas, devem ser observados alguns critérios de identificação por parte dos órgãos de Segurança Pública. Alguns desses critérios estão listados à seguir, à exceção de um. Assinale-o.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Domínio territorial, ânimo de lucro e participação ativa e reconhecida de agentes do Estado."
+      },
+      {
+        "letra": "B",
+        "texto": "Organização paramilitar, milícia particular, grupo ou esquadrão."
+      },
+      {
+        "letra": "C",
+        "texto": "Controle territorial coativo e discurso de legitimação referido à proteção dos moradores e à instauração de uma ordem."
+      },
+      {
+        "letra": "D",
+        "texto": "Controle de um território e da população que nele habita por parte de um grupo armado irregular."
+      },
+      {
+        "letra": "E",
+        "texto": "Cooperação da sociedade civil armada com os órgãos de segurança pública. ΠΜΧΕ Tipo 1 – Cor BRANCA – Página 15 Realização"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMCE",
+    "comentario": "Questao oficial PMCE Soldado Policial Militar 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  }
+]

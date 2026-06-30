@@ -1,0 +1,23 @@
+{
+  "exame": "PCSC Delegado de Policia Substituto 2024",
+  "banca": "FGV",
+  "ano": 2024,
+  "cargo": "Delegado de Policia Substituto",
+  "total_questoes": 100,
+  "fonte": "Oficial FGV local",
+  "sourceUrl": "material-provas/fgv/provas PM/delegado-objetivacns100-tipo-1.pdf",
+  "gabarito": "definitivo",
+  "origem": "oficial",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "path": "material-provas/fgv/provas PM/delegado-objetivacns100-tipo-1.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "path": "material-provas/fgv/provas PM/pcscdelegado2024_gabarito_definitivo_20240220.pdf"
+    }
+  ]
+}

@@ -21,7 +21,7 @@ function TrustSection() {
     <section className="section-shell trust-section">
       <div className="trust-panel">
         <div className="trust-heading">
-          <BrandLogo className="trust-brand-mark" width={84} height={22} variant="white" />
+          <BrandLogo className="trust-brand-mark" width={58} height={58} variant="white" showText={false} />
           <span className="eyebrow">
             <ShieldCheck size={15} />
             Preparação multi-edital

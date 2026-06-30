@@ -1,0 +1,3098 @@
+[
+  {
+    "id": "pmpb-cfo-2022-fgv-q003",
+    "codigo": "PMPB-CFO-2022-FGV-Q003",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 3,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O texto 2 utiliza adequadamente o vocábulo “mandado”; a frase abaixo em que houve troca indevida entre os parônimos mandado/mandato é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Lopez conseguiu um mandado judicial que impede que Vasquez venda a filmagem sem a autorização del e. Folha de S.Paulo, 07/06/2011;"
+      },
+      {
+        "letra": "B",
+        "texto": "O mandado de prisão contra Bashir foi expedido pelo Tribunal Penal Internacional no dia 4 de março. Folha de S.Paulo, 03/07/2009;"
+      },
+      {
+        "letra": "C",
+        "texto": "Apesar de defender punições, ele disse que \"nenhum senador vai renunciar ao mandato, nenhum senador vai pedir as contas\". Folha de S.Paulo, 26/06/2009;"
+      },
+      {
+        "letra": "D",
+        "texto": "A empreitada, segundo críticos, seria uma manobra de Zelaya para tentar disputar um segundo mandato. Folha de S.Paulo, 02/09/2009;"
+      },
+      {
+        "letra": "E",
+        "texto": "De acordo com o CNJ, o motivo do atraso é o fim do mandado de 12 conselheiros. Folha de S.Paulo, 02/07/2009. Texto 3 - Operação Moto Segura vai intensificar combate aos veículos com canos de escape barulhentos"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q004",
+    "codigo": "PMPB-CFO-2022-FGV-Q004",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 4,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em relação aos componentes do texto 3, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o termo “veículos” da manchete do texto 3 se refere a qualquer tipo de veículo;"
+      },
+      {
+        "letra": "B",
+        "texto": "a fiscalização dos veículos citados não se limita ao problema de alterações nos canos de escape;"
+      },
+      {
+        "letra": "C",
+        "texto": "as denúncias públicas visam especi ficamente aos estabelecimentos que fazem as alterações nos canos;"
+      },
+      {
+        "letra": "D",
+        "texto": "a presença dos colchetes no início do segundo parágrafo indica que o texto a seguir foi alterado;"
+      },
+      {
+        "letra": "E",
+        "texto": "as blitzen, as rondas e as denúncias da população indicam as causas da fiscalização pretendida pela operação."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q005",
+    "codigo": "PMPB-CFO-2022-FGV-Q005",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 5,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Os textos 1 e 3 citam dois nomes dados a operações policiais: Operação Sossego e Operação Moto Segura. Seguindo o mesmo padrão, a operação informada no texto 2 poderia receber a designação de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Operação Conjunta;"
+      },
+      {
+        "letra": "B",
+        "texto": "Operação Armas de Fogo;"
+      },
+      {
+        "letra": "C",
+        "texto": "Operação Sertão;"
+      },
+      {
+        "letra": "D",
+        "texto": "Operação Tráfico;"
+      },
+      {
+        "letra": "E",
+        "texto": "Operação Tranquilidade. Њ  Tipo 1 – Cor BRANCA – Página 3 FORMAÇÃO DE OFICIAIS DA POLÍCIA MILITAR DO ESTADO DA PARAÍBA"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q006",
+    "codigo": "PMPB-CFO-2022-FGV-Q006",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 6,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Todos os segmentos abaixo provêm do texto 3; o termo precedido da preposição DE indica o agente, e não o paciente do termo anterior, no seguinte caso:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“objetivo de coibir”;"
+      },
+      {
+        "letra": "B",
+        "texto": "“circulação irregular de veículos”;"
+      },
+      {
+        "letra": "C",
+        "texto": "“previsão de cinco pontos na carteira”;"
+      },
+      {
+        "letra": "D",
+        "texto": "“levantamento de informações”;"
+      },
+      {
+        "letra": "E",
+        "texto": "“modificação do cano”. Texto 4 - Polícia Militar reforça presença para garantir proteção nas comunidades quilombolas da Paraíba"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q007",
+    "codigo": "PMPB-CFO-2022-FGV-Q007",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 7,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Nos segmentos abaixo, retirados do texto 4, o termo sublinhado que tem explicação EQUIVOCADA é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“comunidades quilombolas ” / que habitam ou são originárias de quilombos;"
+      },
+      {
+        "letra": "B",
+        "texto": "“a segurança e a interação ” / relação mútua, comunicação entre pessoas;"
+      },
+      {
+        "letra": "C",
+        "texto": "“acompanhar mais de perto ” / sob severa vigilância;"
+      },
+      {
+        "letra": "D",
+        "texto": "“polícia solidária ” / destinada a apoiar, a auxiliar;"
+      },
+      {
+        "letra": "E",
+        "texto": "“ prevenção ao furto de animais” / preparação antecipada de combate a um mal."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q008",
+    "codigo": "PMPB-CFO-2022-FGV-Q008",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 8,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A atuação da Polícia da Paraíba, citada no texto 4, se insere nas seguintes áreas:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "de segurança e proteção social;"
+      },
+      {
+        "letra": "B",
+        "texto": "proteção social e política;"
+      },
+      {
+        "letra": "C",
+        "texto": "política e ambiental;"
+      },
+      {
+        "letra": "D",
+        "texto": "ambiental e patrimonial;"
+      },
+      {
+        "letra": "E",
+        "texto": "patrimonial e de segurança."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q009",
+    "codigo": "PMPB-CFO-2022-FGV-Q009",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 9,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Numa pesquisa na Internet por meio do Google, é possível usar símbolos e/ou palavras no texto de busca, de modo que os resultados sejam mais precisos. Nesse contexto, a lista que contém somente caracteres e/ou palavras que podem representar alguma função específica é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "# @ $ -"
+      },
+      {
+        "letra": "B",
+        "texto": "# @ $ NOT"
+      },
+      {
+        "letra": "C",
+        "texto": "# @ - NOT"
+      },
+      {
+        "letra": "D",
+        "texto": "# $ - NOT"
+      },
+      {
+        "letra": "E",
+        "texto": "@ $ - NOT CURSO DE FORMAÇÃO DE OFICIAIS COMBATENTES DA PMPB"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q010",
+    "codigo": "PMPB-CFO-2022-FGV-Q010",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 10,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "No contexto das planilhas eletrônicas, analise a fórmula a seguir. =SOMA(A1:B3) - SOMA(C1:D5) Dentre as opções abaixo, essa fórmula estaria corretamente aplicada apenas quando digitada na célula:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A1"
+      },
+      {
+        "letra": "B",
+        "texto": "A5"
+      },
+      {
+        "letra": "C",
+        "texto": "B3"
+      },
+      {
+        "letra": "D",
+        "texto": "C1"
+      },
+      {
+        "letra": "E",
+        "texto": "C5"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q011",
+    "codigo": "PMPB-CFO-2022-FGV-Q011",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 11,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Utilizando seu notebook com Windows 10, Gabriel notou que o computador ficou excessivamente lento, e está tentando identificar a razão dessa lentidão. O recurso do Windows que é adequado para que Gabriel possa identificar, dentre os programas e processos ativos no seu sistema, o consumo de recursos como memória, disco, rede e outros, é denominado:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Assistência Rápida;"
+      },
+      {
+        "letra": "B",
+        "texto": "Desfragmentador de Disco;"
+      },
+      {
+        "letra": "C",
+        "texto": "Explorador de Arquivos;"
+      },
+      {
+        "letra": "D",
+        "texto": "Gerenciador de Tarefas;"
+      },
+      {
+        "letra": "E",
+        "texto": "Windows Defender Firewall."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q013",
+    "codigo": "PMPB-CFO-2022-FGV-Q013",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 13,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Sabe-se que é um número inteiro positivo. Sobre o valor de x, pode-se concluir que é múltiplo de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "12;"
+      },
+      {
+        "letra": "B",
+        "texto": "7;"
+      },
+      {
+        "letra": "C",
+        "texto": "6;"
+      },
+      {
+        "letra": "D",
+        "texto": "4;"
+      },
+      {
+        "letra": "E",
+        "texto": "3. Њ  Tipo 1 – Cor BRANCA – Página 4 FORMAÇÃO DE OFICIAIS DA POLÍCIA MILITAR DO ESTADO DA PARAÍBA"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q014",
+    "codigo": "PMPB-CFO-2022-FGV-Q014",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 14,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Sobre 3 números diferentes, sabe-se que:  a diferença entre os dois menores é 5;  a diferença entre os dois maiores é 8;  a soma do menor com o maior é 17. A soma desses 3 números é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "30;"
+      },
+      {
+        "letra": "B",
+        "texto": "28;"
+      },
+      {
+        "letra": "C",
+        "texto": "26;"
+      },
+      {
+        "letra": "D",
+        "texto": "24;"
+      },
+      {
+        "letra": "E",
+        "texto": "20."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q015",
+    "codigo": "PMPB-CFO-2022-FGV-Q015",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 15,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Cada vértice de um quadrado ABCD deverá ser pintado com uma cor. Há 5 cores diferentes disponíveis para essa tarefa. A única restrição é que os vértices que estejam em extremidades opostas de qualquer diagonal do quadrado (AC e BD) sejam pintados com cores diferentes. O número de maneiras diferentes de pintar os vértices desse quadrado é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "18;"
+      },
+      {
+        "letra": "B",
+        "texto": "60;"
+      },
+      {
+        "letra": "C",
+        "texto": "120;"
+      },
+      {
+        "letra": "D",
+        "texto": "240;"
+      },
+      {
+        "letra": "E",
+        "texto": "400."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q017",
+    "codigo": "PMPB-CFO-2022-FGV-Q017",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 17,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A entrada de homens a serviço da Coroa portuguesa nos sertões do Estado do Brasil produziu diversos conflitos entre indígenas e conquistadores. Apesar das diversas circunstâncias de cada embate, as autoridades régias denominaram Guerra dos Bárbaros os levantes indígenas no interior do nordeste em fins do século XVII e início do XVIII. A respeito da Guerra dos Bárbaros, analise as afirmativas a seguir, considerando V para a(s) afirmativa(s) verdadeira(s) e F para a(s) falsa(s). ( ) A Coroa lusa denominava de “gentios bravos” os índios rebeldes e, com base em informações obtidas por aliados tupi, os cronistas coloniais construíram um imaginário sobre os grupos que habitavam o sertão e que se rebelavam à ação colonizadora, definindo-os “tapuia”, sinônimo de bárbaro, inimigo, indomável. ( ) Os confrontos entre luso-brasileiros e comunidades tapuias nos sertões nordestinos foram motivados pela concessão de sesmarias à recém-criada Companhia de Comércio de Pernambuco e Paraíba, a quem caberia o controle do sertão paraibano após a expulsão dos holandeses. ( ) Devido ao despreparo das infantarias locais e à resistência oferecida pelos tapuias, os colonos nordestinos aliaram-se aos paulistas, a quem interessava reduzir os índios rebelados à escravidão, em nome da guerra justa, tornando a sua participação na Guerra dos Bárbaros um empreendimento lucrativo. A sequência correta é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "V – V – F;"
+      },
+      {
+        "letra": "B",
+        "texto": "V – F – V;"
+      },
+      {
+        "letra": "C",
+        "texto": "F – V – V;"
+      },
+      {
+        "letra": "D",
+        "texto": "F – F – V;"
+      },
+      {
+        "letra": "E",
+        "texto": "V – F – F. Њ  Tipo 1 – Cor BRANCA – Página 5 FORMAÇÃO DE OFICIAIS DA POLÍCIA MILITAR DO ESTADO DA PARAÍBA"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q018",
+    "codigo": "PMPB-CFO-2022-FGV-Q018",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 18,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "I. A foto a seguir retrata o corpo embalsamado de João Pessoa Cavalcanti de Albuquerque, governador da Paraíba, morto em julho de 1930. A foto circulou na imprensa com os dizeres “Vivo não te venceriam! Morto não te vencerão!”. Foto: Arquivo Pessoal/Eduardo Cavalcanti II. “O assassinato do político paraibano provocou forte comoção no país. Os líderes da Aliança Liberal trasladaram o corpo para o Rio de Janeiro, onde foi enterrado em meio a grande manifestação popular. Nas cidades por o nde passou, o cortejo fúnebre foi alvo de manifestações semelhantes. Tal clima contribuiu para que os preparativos revolucionários se acelerassem, resultando na deposição de Washington Luís, em outubro de 1930, e na ascensão de Vargas ao poder, no mês segu inte. Em setembro de 1930, a capital paraibana, até então denominada cidade da Paraíba, foi rebatizada com o seu nome. ” Adaptado de https://cpdoc.fgv.br/producao/dossies/AEraVargas1 Com base na imagem e no texto, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "João Pessoa era candidato a vice - presidente pela Aliança Liberal e o seu assassinato impulsionou a vitória eleitoral da sua chapa, que tinha como candidato à presidência da República o gaúcho Getúlio Vargas;"
+      },
+      {
+        "letra": "B",
+        "texto": "João Pessoa pertencia à oligarquia paraibana e, apesar de su a aliança com os liberais no cenário nacional, defendia o coronelismo e os interesses dos setores agroexportadores n a região e no seu porto de escoamento, em Recife;"
+      },
+      {
+        "letra": "C",
+        "texto": "João Pessoa negou - se a apoiar a candidatura situacionista de Júlio Prestes à presidênc ia da República, por isso na bandeira paraibana fez inscrever “nego”, como referê ncia à negativa em apoiar o projeto paulista de instaurar o Estado Novo;"
+      },
+      {
+        "letra": "D",
+        "texto": "a morte de João Pessoa ajudou Getúlio a alimentar uma consternação popular, a qual, somada à acusa ção de eleições fraudulentas e às consequências da crise de 1929, contribuiu para desencadear o movimento da Revolução de 1930;"
+      },
+      {
+        "letra": "E",
+        "texto": "o apoio de João Pessoa à candidatura do gaúcho Getúlio Vargas foi o estopim da Revolta da Princesa no sertão da Paraíba e da divisão política entre perrepistas e liberais, que se desdobr ou no cenário nacional na Revolução de 1930. CURSO DE FORMAÇÃO DE OFICIAIS COMBATENTES DA PMPB"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q019",
+    "codigo": "PMPB-CFO-2022-FGV-Q019",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 19,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Ainda no século XIX, a recém - fundada disciplina da Sociologia ocupou - se de fenômenos sociais que ganhavam maior expressão no contexto da modernidade. Marx e Durkheim foram dois intelectuais que refletiram sobre a complexidade do fenômeno criminal e contrib uíram para a elaboração de um conceito sociológico de crime. A respeito da perspectiva desses intelectuais, é correto afirmar que, para:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ambos, as forças sociais eram mais significativas para a ocorrência do ato criminoso do que os motivos individuais;"
+      },
+      {
+        "letra": "B",
+        "texto": "Durkheim, o crime est ava vinculado ao aparato estrutural e ideológico do Estado Moderno;"
+      },
+      {
+        "letra": "C",
+        "texto": "ambos, o sentimento moral era o critério para defin ir o que era ou deixa va de ser crime em qualquer sociedade;"
+      },
+      {
+        "letra": "D",
+        "texto": "Marx, o crime era um produto da consciência coletiva que convencionava padrões de comportamento;"
+      },
+      {
+        "letra": "E",
+        "texto": "ambos, o crime era um desvio de conduta e uma manifestação de uma patologia natural."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q020",
+    "codigo": "PMPB-CFO-2022-FGV-Q020",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 20,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“ Na década de 1990 começou-se a compreender a noção de segurança humana como a busca pela segurança fundada no fortalecimento das instituições democráticas e do Estado de Direito, proporcionando ao indivíduo condições adequadas para o seu desenvolvimento pessoal, familiar e social. Dessa forma, na atualidade, a segurança é vista pelo Programa das Nações Unidas para o Desenvolvimento (PNUD) como um assunto relacionado diretamente com o respeito à vida e à dignidade, que inclui segurança econômica, alimentar, sanitária, ambiental, pessoal, comunitária e política, dimensões estas relacionadas com as Metas de Desenvolvimento para o Milênio. ” Adaptado de VELÁSQUEZ, H. A. Os governos locais e a segurança cidadã. Brasília – DF: Secr. Nac. de Seg. Pública – PNUD, 2009, p. 44. Com base no texto, analise as afirmativas a seguir sobre esse novo paradigma de segurança pública. I. Fortalece a segurança nacional, entendida como a defesa da nação e de seus valores fundamentais em face de inimigos externos e internos que ameaçam a integridade do Estado. II. Preconiza a prevenção e a redução da violência e o aumento da sensação de segurança e pertencimento à cidade para promover a melhoria das condições de vida da população em uma ambiência mais pacífica. III. Facilita o acesso dos cidadãos a mecanismos de resolução de conflito e relaciona a segurança pública ao respeito à vida e à dignidade humana, tornando-a um pré-requisito para a consolidação da democracia. Está correto o que se afirma em:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "somente I;"
+      },
+      {
+        "letra": "B",
+        "texto": "somente II;"
+      },
+      {
+        "letra": "C",
+        "texto": "somente III;"
+      },
+      {
+        "letra": "D",
+        "texto": "somente I I e I I I;"
+      },
+      {
+        "letra": "E",
+        "texto": "I, II e III. Њ  Tipo 1 – Cor BRANCA – Página 6 FORMAÇÃO DE OFICIAIS DA POLÍCIA MILITAR DO ESTADO DA PARAÍBA"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q022",
+    "codigo": "PMPB-CFO-2022-FGV-Q022",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 22,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Leia o texto a seguir a respeito dos diversos saberes que compõem as atividades docentes. A formação docente é um processo que envolve os saberes ___________, que são os conteúdos das disciplinas; os saberes _____________, que são os conteúdos das ciências da educação; os saberes _______________, que são os conteúdos próprios da prática docente, como a didática, as técnicas de ensino e a relação professor-aluno; e os saberes ______________, que são os conteúdos do cotidiano, as atitudes e os valores tanto do professor quanto do aluno. Os itens que completam, na ordem correta, as lacunas do texto acima são:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "de experiência – pedagógicos – da ação pedagógica – específicos;"
+      },
+      {
+        "letra": "B",
+        "texto": "da ação pedagógica – específicos – de experiência – pedagó gicos;"
+      },
+      {
+        "letra": "C",
+        "texto": "específicos – pedagógicos – da ação pedagógica – de experiência;"
+      },
+      {
+        "letra": "D",
+        "texto": "pedagógicos – da ação pedagógica – específicos – de experiência;"
+      },
+      {
+        "letra": "E",
+        "texto": "específicos – de experiência – pedagógicos – da ação pedagógica. CURSO DE FORMAÇÃO DE OFICIAIS COMBATENTES DA PMPB"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q023",
+    "codigo": "PMPB-CFO-2022-FGV-Q023",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 23,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A ação de planejar é imprescindível à organização e ao desenvolvimento do trabalho pedagógico em instituições de ensino superior e inclui a seleção e a indicação: I. de procedimentos que o docente utiliza para facilitar a mediação da aprendizagem, considerando as especificidades culturais e sociais dos estudantes; II. dos resultados esperados ou das metas definidas, apontando o que os discentes deverão ser capazes de apresentar como resultado das atividades propostas, em termos de habilidades e saberes. Os itens I e II referem-se, respectivamente, aos elementos básicos do planejamento de ensino conhecidos como:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "metodologia de ensino e objetivos;"
+      },
+      {
+        "letra": "B",
+        "texto": "avaliação e conteúdos;"
+      },
+      {
+        "letra": "C",
+        "texto": "recursos de ensino e ementa;"
+      },
+      {
+        "letra": "D",
+        "texto": "currículo e programação;"
+      },
+      {
+        "letra": "E",
+        "texto": "justificativa e referências."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q024",
+    "codigo": "PMPB-CFO-2022-FGV-Q024",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 24,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O estresse é a resposta do organismo a determinados estímulos, que representam circunstâncias súbitas ou ameaçadoras, e pode tomar diferentes formas, contribuindo para sintomas de doenças. Os sintomas mais comuns incluem dor de cabeça, desordens do sono, dificuldade de concentração, temperamento explosivo, estômago perturbado, insatisfação no trabalho, moral baixo, depressão e ansiedade. Em relação ao estresse, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o uso de medicamentos para inibir os sintomas decorrentes do estresse indiretamente diminuem o próprio estresse;"
+      },
+      {
+        "letra": "B",
+        "texto": "u ma das formas de ajudar a lidar com o estr esse é o relaxamento, que inclui respiração profunda, i oga, meditação, uso terapêutico do álcool e massagens relaxantes;"
+      },
+      {
+        "letra": "C",
+        "texto": "o estresse associado à vida cotidiana e responsabilidades familiares influencia menos nas doenças do indivíduo do que o estresse do ambiente de trabalho;"
+      },
+      {
+        "letra": "D",
+        "texto": "o estresse pós - traumático é um transtorno ps icológico que provoca medo excessivo após situações em que há uma alteração repentina na vida decorrente de um trauma físico;"
+      },
+      {
+        "letra": "E",
+        "texto": "o trânsito, problemas financeiros e profissionais fazem o corpo produzir em excesso dois hormônios, a drenalina e c ortisol, que causam “reação de luta ou fuga”, uma das características do estresse. Њ  Tipo 1 – Cor BRANCA – Página 7 FORMAÇÃO DE OFICIAIS DA POLÍCIA MILITAR DO ESTADO DA PARAÍBA"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q025",
+    "codigo": "PMPB-CFO-2022-FGV-Q025",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 25,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Vários estudos científicos comprovam os benefícios à saúde associados à prática de exercícios. Em relação à prática de atividades físicas, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o exercício pode melhorar o controle glicêmico e a sensibilidade à insulina, e pode prevenir o diabetes tipo II;"
+      },
+      {
+        "letra": "B",
+        "texto": "as atividades aeróbicas e de resistência realizadas em grupo acarretam piores resultados em relação às praticadas individualmente;"
+      },
+      {
+        "letra": "C",
+        "texto": "a mortalidade cardiovascular é menor em indivíduos com índice de massa corporal normal e baixa aptidão física do que nos indivíduos obesos e com boa aptidão física;"
+      },
+      {
+        "letra": "D",
+        "texto": "os benefícios da saúde obtidos após se atingir o peso ideal com dieta e exercícios físicos podem ser perpetuados somente com a dieta;"
+      },
+      {
+        "letra": "E",
+        "texto": "a obesidade e a ativ idade física têm impacto na função neurocogn itiva, sendo que a primeira é apenas o resultado da falta da segunda. CURSO DE FORMAÇÃO DE OFICIAIS COMBATENTES DA PMPB FGV Conhecimento Conhecimentos Jurídicos"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q026",
+    "codigo": "PMPB-CFO-2022-FGV-Q026",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 26,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A policial militar Maria foi vítima dos crimes de ameaça e de lesão corporal, praticados no contexto da Lei Maria da Penha por seu marido, o policial militar João, no interior do Batalhão de Polícia Militar onde está lotado, por motivo de ciúmes. Consoante dispõe a Lei nº 11.340/2006, a inquirição da vítima Maria, no bojo de procedimento próprio, obedecerá a algumas diretrizes, entre as quais NÃO se encontra:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "salvaguarda da integridade física, psíquica e emocional d e Maria, considerada a sua condição peculiar de pessoa em situação de violência doméstica e familiar;"
+      },
+      {
+        "letra": "B",
+        "texto": "depoimento registrado, preferencialmente, em meio eletrônico ou magnético, deven do a degravação e a mídia integrar o inquérito;"
+      },
+      {
+        "letra": "C",
+        "texto": "sucessivas inquirições sobre o mesmo fato nos âmbitos criminal, cível e administrativo, para fins de ratificação de sua versão, inclusive c om questionamentos sobre su a vida privada;"
+      },
+      {
+        "letra": "D",
+        "texto": "inquirição, se for o caso, preferencialmente intermediada por profissional especializado em violência doméstica e familiar designado pela autoridade judiciária ou policial;"
+      },
+      {
+        "letra": "E",
+        "texto": "inquirição preferencialmente em recinto especialmente projetado para esse fim, o qual conterá os equipamentos próprios e adequados à idade de Maria e ao tipo e à gravidade da violência sofrida."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q027",
+    "codigo": "PMPB-CFO-2022-FGV-Q027",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 27,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Apesar de o Estado brasileiro ser laico, o ordenamento jurídico assegura o direito à liberdade religiosa para que o cidadão possa professar qualquer religião, realizar cultos ou tradições referentes a essas crenças e manifestar-se, em sua vida pessoal, conforme seus preceitos e crenças. Nesse contexto, de acordo com o Estatuto da Igualdade Racial (Lei nº 12.288/2010), o poder público adotará as medidas necessárias para o combate à intolerância com as religiões de matrizes africanas e à discriminação de seus seguidores, especialmente com o objetivo de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "asse gurar a participação proporcional de representantes das religiões de matrizes africanas, ao lado da representação das demais religiões, em comissões, conselhos, órgãos e outras instâncias de deliberação vinculadas ao poder público;"
+      },
+      {
+        "letra": "B",
+        "texto": "garantir que ninguém será privado de direitos por motivo de crença religiosa ou de convicção filosófica ou política, inclusive se as invocar para eximir - se de obrigação legal a todos imposta;"
+      },
+      {
+        "letra": "C",
+        "texto": "promover a liberdade de consciência e de crença, sendo assegurado o livre exercí cio dos cultos religiosos, vedada a coleta de contribuições financeiras de pessoas jurídicas de natureza privada para a manutenção das atividades religiosas e sociais das respectivas religiões;"
+      },
+      {
+        "letra": "D",
+        "texto": "coibir a utilização dos meios de comunicação social para a difusão de proposições ou abordagens que exponham pessoa ou grupo ao desprezo por motivos fundados na religiosidade de matrizes africanas, exceto se o ato for decorrente d e outro culto religioso televisionado;"
+      },
+      {
+        "letra": "E",
+        "texto": "estabelecer que ninguém será privado de d ireitos por motivo de crença religiosa ou de convicção filosófica ou política, inclusive se as invocar para recusar - se a cumprir prestação alternativa, fixada em lei. Њ  Tipo 1 – Cor BRANCA – Página 8 FORMAÇÃO DE OFICIAIS DA POLÍCIA MILITAR DO ESTADO DA PARAÍBA"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q028",
+    "codigo": "PMPB-CFO-2022-FGV-Q028",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 28,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Os policiais militares João e José são casados e, em razão de sua orientação sexual, no mês de agosto de 2021, sofreram discriminação praticada pelo policial militar Alberto, superior hierárquico, que os impediu de frequentar o refeitório do quartel, exclusivamente em razão de sua orientação sexual, fazendo piada em tom vexatório na frente de diversos colegas de farda. De acordo com o entendimento do Supremo Tribunal Federal no bojo da ADO 26 e MI 4733, o policial militar Alberto, em tese, deve ser responsabilizado:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "civil e administrativamente, diante do ato ilícito praticado, não havendo que se falar em ato criminoso, diante da ausência de tipo penal específico qu e tipifique como crime o ato de homofobia, sendo certo que pode sofrer a sanção da perda da função pública, pela prática de ato de improbidade administrativa;"
+      },
+      {
+        "letra": "B",
+        "texto": "civil e administrativamente, diante do ato ilícito praticado, não havendo que se falar em ato criminoso, diante da ausência de tipo penal específico que tipifique como crime o ato de homofobia, sendo certo que pode sofrer a sanção funcional da demissão, após regular processo administrativo disciplinar, em que lhe seja garantido o contraditório e a ampla defesa;"
+      },
+      {
+        "letra": "C",
+        "texto": "criminalmente, mediante a aplicação, por analogia, das penas dos crimes contra a honra previstos no Código Penal, com causa de aumento de pena pelo fato de o injusto ter sido praticado no exercício das funções, sendo aplicáveis as medida s despenalizadoras previstas na Lei nº 9.099/1995, que regula os juizados especiais criminais;"
+      },
+      {
+        "letra": "D",
+        "texto": "criminalmente, mediante a aplicação da Lei nº 7.716/1989, eis que, diante da reconhecida mora inconstitucional do Congresso Nacional, deve se estender a tipi ficação prevista para os crimes resultantes de discriminação ou preconceito de raça, cor, etnia, religião ou procedência nacional à discriminação por orientação sexual ou identidade de gênero;"
+      },
+      {
+        "letra": "E",
+        "texto": "criminalmente, mediante a aplicação do Decreto-lei nº 3.688 /1941, Lei das Contravenções Penais, eis que, diante da reconhecida mora inconstitucional do Congresso Nacional, deve se estender a tipificação prevista para os crimes resultantes de discriminação ou preconceito de raça, cor, etnia, religião ou procedência nacional à discriminação por orientação sexual ou identidade de gênero."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q029",
+    "codigo": "PMPB-CFO-2022-FGV-Q029",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 29,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Ana, nascida no território brasileiro enquanto seus pais, italianos, aqui se encontravam a trabalho em uma sociedade empresária privada italiana, procurou um advogado e o consultou sobre sua nacionalidade. O advogado respondeu, corretamente, que Ana é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "brasileira nata, independentemente de qualquer ato complementar;"
+      },
+      {
+        "letra": "B",
+        "texto": "estrangeira, mas pode se naturalizar brasileira a qualquer tempo;"
+      },
+      {
+        "letra": "C",
+        "texto": "brasileira nata, desde que opte por essa nacionalidade ao completar 18 anos;"
+      },
+      {
+        "letra": "D",
+        "texto": "estr angeira, mas pode adquirir a nacionalidade brasileira a qualquer tempo, a partir de requerimento dos seus pais;"
+      },
+      {
+        "letra": "E",
+        "texto": "brasileira nata ou naturalizada, conforme seja registrada no Brasil em momento anterior ou posterior à maioridade. CURSO DE FORMAÇÃO DE OFICIAIS COMBATENTES DA PMPB"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q030",
+    "codigo": "PMPB-CFO-2022-FGV-Q030",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 30,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "João, oficial da Polícia Militar do Estado Alfa, com 33 anos de idade, possui grande prestígio junto à comunidade, decorrente dos inúmeros atos de bravura que praticou durante os doze anos de serviço militar. Em razão desse prestígio, diversas pessoas procuraram convencê-lo da importância de concorrer ao cargo eletivo de Deputado Federal. À luz da sistemática constitucional, é correto afirmar que João é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "alistável, mas inelegível para o referido cargo, considerando o requisito de ordem etária exigido;"
+      },
+      {
+        "letra": "B",
+        "texto": "alist ável, mas inelegível para o referido cargo, considerando o tempo de serviço militar que possui;"
+      },
+      {
+        "letra": "C",
+        "texto": "alistável e elegível para o referido cargo, desde que seja agregado pela autoridade superior no momento próprio;"
+      },
+      {
+        "letra": "D",
+        "texto": "inalistável, salvo se for previamente t ransferido para a inatividade, o que o tornará elegível para o referido cargo;"
+      },
+      {
+        "letra": "E",
+        "texto": "alistável e elegível para o referido cargo, desde que se afaste da atividade no momento previsto na legislação de regência."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q032",
+    "codigo": "PMPB-CFO-2022-FGV-Q032",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 32,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Olavo, oficial médico da Polícia Militar do Estado Beta, consultou um advogado sobre a possibilidade de ocupar um segundo cargo público, considerando que tinha alguns horários vagos durante o serviço militar semanal, o qual teria prevalência em sua atuação. Em resposta, Olavo foi corretamente informado de que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não pode acumular outro cargo público de natureza civil;"
+      },
+      {
+        "letra": "B",
+        "texto": "pode acumular livremente cargos públicos de natureza civil;"
+      },
+      {
+        "letra": "C",
+        "texto": "pode acumular apenas um cargo público de prof essor, civil ou militar;"
+      },
+      {
+        "letra": "D",
+        "texto": "somente pode acumular outro cargo público de natureza civil caso passe para a reserva remunerada;"
+      },
+      {
+        "letra": "E",
+        "texto": "pode acumular outro cargo ou emprego público civil, privativo de quem exerça profissão regulamentada de saúde. Њ  Tipo 1 – Cor BRANCA – Página 9 FORMAÇÃO DE OFICIAIS DA POLÍCIA MILITAR DO ESTADO DA PARAÍBA"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q033",
+    "codigo": "PMPB-CFO-2022-FGV-Q033",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 33,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "O Presidente da República, com o objetivo de reduzir as despesas de pessoal e de evitar o seu aumento futuro, determinou que sua assessoria verificasse de que forma poderiam ser extintos determinados cargos públicos, criados por lei, que se encontravam vagos. A assessoria respondeu, corretamente, que a extinção dos referidos cargos:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "exige a edição de medida provisória ou de lei;"
+      },
+      {
+        "letra": "B",
+        "texto": "pode ser promovida por decreto do Presidente da República;"
+      },
+      {
+        "letra": "C",
+        "texto": "exige a edição de lei, consectário do princípio da paridade das formas;"
+      },
+      {
+        "letra": "D",
+        "texto": "exige autorização constitucional, em razão do princípio da continuidade do serviço público;"
+      },
+      {
+        "letra": "E",
+        "texto": "ocorrera de pleno direito, no momento em que foi detectada a sua vacância e a ausência de provimento."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q034",
+    "codigo": "PMPB-CFO-2022-FGV-Q034",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 34,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Inês, adolescente de 17 anos de idade, foi acusada da prática de ato infracional análogo ao crime de homicídio. À luz da sistemática constitucional, é correto afirmar que, na relação processual instituída perante o juízo competente, sem prejuízo de outras garantias, devem ser observados os seguintes aspectos:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "defesa técnica por profissional habilitado, limitada eventual aplicação de medida privativa de liberdade à metade da pena cominada aos imputáveis;"
+      },
+      {
+        "letra": "B",
+        "texto": "guarda legal durante o trâmite da relação processual e plena defesa a ser realizada pelos pais, assegurada a assistência por advogado sempre que requerida;"
+      },
+      {
+        "letra": "C",
+        "texto": "plena defesa, a ser realizada pelos pais, e igualdade na aplicação da medida privativa de liberdade, considerando as pe nas cominadas aos imputáveis;"
+      },
+      {
+        "letra": "D",
+        "texto": "garantia de pleno e formal conhecimento da acusação, bem como brevidade e excepcionalidade da medida privativa de liberdade que venha a ser aplicada;"
+      },
+      {
+        "letra": "E",
+        "texto": "igualdade na relação processual e regime de tutela durante todo o pe ríodo de cumprimento da medida privativa de liberdade que venha a ser aplicada até completar 25 anos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q035",
+    "codigo": "PMPB-CFO-2022-FGV-Q035",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 35,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Gérson, Prefeito do Município Alfa, decidiu adotar uma série de medidas com o objetivo de aprimorar os serviços de saúde oferecidos à coletividade. Entre essas medidas, (1) permitiu que instituições privadas participassem de forma complementar do Sistema Único de Saúde, celebrando um ajuste para este fim; (2) concedeu uma subvenção aos hospitais privados, com fins lucrativos, que comprovadamente atendessem pessoas de baixa renda em caráter oneroso; e (3) estabeleceu ampla e irrestrita igualdade de tratamento entre as sociedades empresárias de capital nacional e aquelas de capital estrangeiro, de modo a estimular a atuação dessas últimas na área de assistência à saúde. À luz da sistemática constitucional, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "t odas as medidas são constitucionais;"
+      },
+      {
+        "letra": "B",
+        "texto": "somente a medida (1) é constitucional;"
+      },
+      {
+        "letra": "C",
+        "texto": "somente a medida (3) é constitucional;"
+      },
+      {
+        "letra": "D",
+        "texto": "somente as medidas (1) e (2) são constitucionais;"
+      },
+      {
+        "letra": "E",
+        "texto": "todas as medidas são inconstitucionais. CURSO DE FORMAÇÃO DE OFICIAIS COMBATENTES DA PMPB"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q036",
+    "codigo": "PMPB-CFO-2022-FGV-Q036",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 36,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Um grupo de policiais militares do Estado Gama, aprovados no último concurso, insatisfeitos com o que consideram condições inadequadas de trabalho, desejam se organizar para criar um sindicato dos policiais militares estaduais e, após deliberação de seus futuros membros, decidirem se irão entrar em greve. De acordo com as normas de regência, a doutrina e a jurisprudência, a iniciativa da:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "sindicalização e da greve não merece prosperar, diante da expressa proibição constitucional;"
+      },
+      {
+        "letra": "B",
+        "texto": "sindicalização e da greve é possível, diante da inexistência de vedação constitucional e do direito à livre associação;"
+      },
+      {
+        "letra": "C",
+        "texto": "sindicalização é possível, por expressa permissão constitucional, mas a greve é vedada por analogia à proibição para os militares das forças armadas;"
+      },
+      {
+        "letra": "D",
+        "texto": "greve deve respeitar a continuidade do serviço público, para manter o mínimo indispensável de agentes de segurança pública em exercício, e a sindicalização é possível, por expressa permissão constitucional;"
+      },
+      {
+        "letra": "E",
+        "texto": "greve deve respeitar a continuidade do s erviço público, para manter o mínimo indispensável de agentes de segurança pública em exercício, mas a sindicalização é inviável, por expressa vedação constitucional."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q037",
+    "codigo": "PMPB-CFO-2022-FGV-Q037",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 37,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "No site da Polícia Militar do Estado da Paraíba, consta matéria com o título “ TECNOLOGIA: Polícia Militar da Paraíba avança e aprova Regulamento Interno de Segurança Cibernética ”, datada de 29/04/2021. No corpo da notícia, é informado que foi publicada a Resolução nº 003 de 2021, pelo Comandante-geral da Polícia Militar, com o objetivo de regular as ações de segurança cibernética da instituição para prevenir invasão de dispositivos eletrônicos, perdas, roubos, vazamento ou falsificação de dados, além de verificar fragilidades e apontar soluções para as demandas apresentadas, entre outros serviços. Ao final, é ressaltado que a resolução foi criada no âmbito da Lei nº 13.709/2018 – Lei Geral de Proteção de Dados Pessoais (LGPD). Com base na doutrina de Direito Administrativo, é correto afirmar que a resolução mencionada é um ato editado para complementar e facilitar a execução da lei e está diretamente baseado no poder administrativo:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "de polícia, eis que foi praticado pelo chefe da instituição, que detém competência privativa para tal;"
+      },
+      {
+        "letra": "B",
+        "texto": "disciplinar, eis que dispõe de forma vinculante sobre todos os policiais militares estaduais;"
+      },
+      {
+        "letra": "C",
+        "texto": "normativo, eis que regulamenta situação de caráter geral e abstrato;"
+      },
+      {
+        "letra": "D",
+        "texto": "hierárquico, eis que disciplina situaç ão de caráter específico e concreto;"
+      },
+      {
+        "letra": "E",
+        "texto": "de polícia, eis que dispõe de forma vinculante sobre tema de observância obrigatória por todos os policiais militares estaduais. Њ  Tipo 1 – Cor BRANCA – Página 10 FORMAÇÃO DE OFICIAIS DA POLÍCIA MILITAR DO ESTADO DA PARAÍBA"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q038",
+    "codigo": "PMPB-CFO-2022-FGV-Q038",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 38,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "O Comandante-Geral da Polícia Militar do Estado Beta, no regular exercício de suas funções, praticou ato administrativo de remoção do PM Moacir do BPM - Batalhão de Polícia Militar X para o BPM Y. O ato foi publicado no boletim interno da corporação no dia 5 de agosto de 2021, com efeitos a partir de 1º de setembro do mesmo ano. Ocorre que, em razão de grave conflito entre traficantes de drogas e milicianos em comunidade situada na área do BPM X, o Comandante-Geral, por motivo de oportunidade e conveniência, resolveu extinguir o ato administrativo de remoção do PM Moacir, de maneira que ele continuasse lotado no BPM X, em razão de novas operações policiais que estão sendo planejadas para os próximos meses, que demandarão o maior número possível de policiais. A mencionada extinção do ato administrativo de remoção do PM Moacir é chamada pela doutrina de Direito Administrativo de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "anulação, que é um ato vinculado;"
+      },
+      {
+        "letra": "B",
+        "texto": "invalidação, que é um ato de império;"
+      },
+      {
+        "letra": "C",
+        "texto": "revogação, que é um ato discricionário;"
+      },
+      {
+        "letra": "D",
+        "texto": "cass ação, que é um ato vinculado;"
+      },
+      {
+        "letra": "E",
+        "texto": "caducidade, que é um ato discricionário."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q039",
+    "codigo": "PMPB-CFO-2022-FGV-Q039",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 39,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "Em matéria de controle da administração pública, sabe-se que a Constituição do Estado Alfa reproduz, em nível estadual, as normas previstas na Constituição da República de 1988 que tratam do controle da União. Nesse contexto, a Polícia Militar do Estado Alfa é fiscalizada sob o aspecto contábil, financeiro, orçamentário, operacional e patrimonial, quanto à legalidade, legitimidade, economicidade, aplicação das subvenções e renúncia de receitas, mediante controle externo:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pela Controladoria Geral do Estado, sob a fiscalização do Ministério Público estadual;"
+      },
+      {
+        "letra": "B",
+        "texto": "pela Assembleia Legislativa, com auxílio do Tribunal de Contas Estadual;"
+      },
+      {
+        "letra": "C",
+        "texto": "pelo Ministério Público estadual, com auxílio da Controladoria Geral do Es tado;"
+      },
+      {
+        "letra": "D",
+        "texto": "pela Defensoria Pública, com apoio da Controladoria Geral do Estado;"
+      },
+      {
+        "letra": "E",
+        "texto": "pela Procuradoria Geral do Estado, sob a fiscalização do Ministério Público e stadual."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q040",
+    "codigo": "PMPB-CFO-2022-FGV-Q040",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 40,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A Polícia Militar do Estado Alfa integra a estrutura organizacional da Secretaria de Segurança Pública. Para melhor gestão dos serviços administrativos a cargo da Polícia Militar, foi editado regular ato normativo, pela autoridade competente, retirando a competência para atos de inteligência policial do Departamento de Tecnologia da Informação e incluindo-a em um novo órgão ora criado na estrutura da Polícia Militar, denominado Departamento de Segurança e Inteligência. De acordo com a doutrina de Direito Administrativo, tal medida consistente na criação do novo departamento representa o fenômeno administrativo da:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "desconcentração, que decorre do poder hierárquico;"
+      },
+      {
+        "letra": "B",
+        "texto": "descentralização, que decorre do poder normativo;"
+      },
+      {
+        "letra": "C",
+        "texto": "descentralização, que decorre do poder disciplinar;"
+      },
+      {
+        "letra": "D",
+        "texto": "delegação, que decorre do poder disciplinar;"
+      },
+      {
+        "letra": "E",
+        "texto": "delegação, que decorre do poder hierárquico. CURSO DE FORMAÇÃO DE OFICIAIS COMBATENTES DA PMPB"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q041",
+    "codigo": "PMPB-CFO-2022-FGV-Q041",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 41,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "João, policial militar do Estado da Paraíba, foi preso preventivamente pela prática do crime de concussão, no bojo de ação penal na qual ainda nem se iniciou a fase de instrução probatória. De acordo com o texto legal do Estatuto dos Policiais Militares do Estado da Paraíba (Lei Estadual nº 3.909/1977), João tem a prerrogativa de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "cumprimento da prisão preventiva somente em organização policial militar, cujo comandante, chefe ou diretor lhe tenha precedência hierárqui ca;"
+      },
+      {
+        "letra": "B",
+        "texto": "cumprimento da prisão preventiva somente em unidade da polícia civil, vedado seu ingresso no sistema penitenciário estadual, sob a supervisão direta do gabinete do Comandante - Geral da Polícia Militar;"
+      },
+      {
+        "letra": "C",
+        "texto": "conversão da prisão preventiva em prisão ad ministrativa, pelo período de até cento e oitenta dias, sob a supervisão de c omandante, chefe ou diretor que lhe tenha precedência hierárquica;"
+      },
+      {
+        "letra": "D",
+        "texto": "conversão da prisão preventiva em prisão administrativa, pelo período de até noventa dias, sob a supervisão de c omandante, chefe ou diretor que lhe tenha precedência hierárquica;"
+      },
+      {
+        "letra": "E",
+        "texto": "conversão da prisão preventiva em prisão domiciliar, em prazo e na forma determinada pelo juízo criminal, sob a supervisão direta do gabinete do Comandante - Geral da Polícia Militar."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q042",
+    "codigo": "PMPB-CFO-2022-FGV-Q042",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 42,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Os policiais militares João e José, em patrulhamento de rotina, perceberam que um jovem, posteriormente identificado como Joaquim, de 20 anos de idade, vendia maconha para turistas em movimentada praia do nordeste brasileiro. Para deixarem de prender em flagrante o jovem, os policiais militares receberam de Joaquim, para si, a quantia de mil reais em dinheiro, a título de presente. Em razão do ilícito praticado, de acordo com a Lei nº 8.429/1992, os policiais militares João e José:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não praticaram ato de improbidade administrativa, pois não houve dano efetivo e direto ao erário, que é imprescindível para tipicidade do ato ímprobo, mas respondem na esfera criminal e disciplinar;"
+      },
+      {
+        "letra": "B",
+        "texto": "não praticaram ato de improbidade administrati va, pois o valor do benefício ilícito auferido é inferior a um salário mínimo, razão por que se aplica o princípio da insignificância, mas respondem na esfera criminal e disciplinar;"
+      },
+      {
+        "letra": "C",
+        "texto": "praticaram ato de improbidade administrativa, razão pela qual estão s ujeitos, entre outras sanções, à perda da função pública e ao pagamento de multa civil, mas o particular Joaquim não pode ser responsabilizado por ato de improbidade, pois não é servidor público;"
+      },
+      {
+        "letra": "D",
+        "texto": "praticaram ato de improbidade administrativa, razão pela qual estão sujeitos, entre outras sanções, à perda da função pública e à cassação dos direitos políticos, mas o particular Joaquim não pode ser responsabilizado por ato de improbidade, pois não é servidor público;"
+      },
+      {
+        "letra": "E",
+        "texto": "praticaram ato de improbidade adminis trativa, na qualidade de agentes públicos, assim como o particular Joaquim, que concorreu e se beneficiou do ato, razão pela qual estão sujeitos, entre outras sanções, à perda da função pública e ao pagamento de multa civil. Њ  Tipo 1 – Cor BRANCA – Página 11 FORMAÇÃO DE OFICIAIS DA POLÍCIA MILITAR DO ESTADO DA PARAÍBA"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q043",
+    "codigo": "PMPB-CFO-2022-FGV-Q043",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 43,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Após visualizar a ordem emanada pelos policiais rodoviários estaduais, o agente, ciente de que seu veículo era produto de ilícito e no seu interior havia drogas, não obedeceu à ordem de parada, furando bloqueio policial e empreendendo fuga. O descumprimento de ordem de parada emanada de agente público na função de policiamento ostensivo:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não caracteriza o crime de desobediência, pois a intenção do agente era se ver livre de possível flagrante;"
+      },
+      {
+        "letra": "B",
+        "texto": "não caracteriza o crime de desobediência, pois a intenção do agente era resguardar a sua liberdade;"
+      },
+      {
+        "letra": "C",
+        "texto": "não caracteriza o cr ime de desobediência, pois a intenção do agente não era desprestigiar a administração pública;"
+      },
+      {
+        "letra": "D",
+        "texto": "caracteriza o crime de desobediência, pois há vontade livre e consciente de desobedecer ordem legal;"
+      },
+      {
+        "letra": "E",
+        "texto": "caracteriza o crime de desobediência, pois há o dolo específico exigido pelo tipo penal."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q044",
+    "codigo": "PMPB-CFO-2022-FGV-Q044",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 44,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "Em relação ao crime de casa de prostituição (Art. 229 do CP), é correto afirmar que impede a configuração do delito:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a ausência de intuito de lucro na exploração sexual;"
+      },
+      {
+        "letra": "B",
+        "texto": "a ausência de mediação direta do proprietário na exploração sexual;"
+      },
+      {
+        "letra": "C",
+        "texto": "por si só, a adequação social da mercancia carnal;"
+      },
+      {
+        "letra": "D",
+        "texto": "por si só, a manutenção de menores para realização de mercancia sexual;"
+      },
+      {
+        "letra": "E",
+        "texto": "por si só, a manutenção de casa para fins libidinosos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q045",
+    "codigo": "PMPB-CFO-2022-FGV-Q045",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 45,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "No que pertine ao delito de adulteração de sinal identificador de veículo automotor (Art. 311 do CP), é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o delito se consuma quando a adulteração ou remarcação de sinal identificador do veículo afeta o poder de polícia ou de fiscalização do Estado;"
+      },
+      {
+        "letra": "B",
+        "texto": "a tutela penal não alcança a adulteração ou remarcação de sinal identificador de componente ou equipamento de veículo automotor;"
+      },
+      {
+        "letra": "C",
+        "texto": "não se exige que a conduta do agente seja dirigida a uma finalidade específica, b astando que modifique qualquer sinal identificador de veículo automotor;"
+      },
+      {
+        "letra": "D",
+        "texto": "a ação material de modificar qualquer sinal identificador de veículo automotor deve ser dirigida a uma finalidade específica para a configuração do delito;"
+      },
+      {
+        "letra": "E",
+        "texto": "a configuração do d elito depende da efetiva utilização do veículo automotor com sinal identificador alterado. CURSO DE FORMAÇÃO DE OFICIAIS COMBATENTES DA PMPB"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q047",
+    "codigo": "PMPB-CFO-2022-FGV-Q047",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 47,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "Ao tentar sacar parcela do seguro-desemprego a que fazia jus, Mário foi informado, por funcionário da Caixa Econômica Federal, em Niterói/RJ, de que tais valores haviam sido previamente sacados por terceiro não identificado em agência da mesma instituição bancária, localizada em João Pessoa/PB. Investigada a ação, constatou-se que o modus operandi consistia em saques efetuados em autoatendimento ou lotéricas, com utilização de cartão cidadão emitido pelo Ministério do Trabalho, sem a prévia solicitação dos beneficiários, cujos endereços de entrega foram indevidamente alterados. Diante desse cenário, é correto afirmar que se trata de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "estelionato, consumado em João Pessoa;"
+      },
+      {
+        "letra": "B",
+        "texto": "furto mediante fraude, consumado em João Pessoa;"
+      },
+      {
+        "letra": "C",
+        "texto": "estelionato, consumado em Niterói;"
+      },
+      {
+        "letra": "D",
+        "texto": "furto mediante fraude, consumado em Niterói;"
+      },
+      {
+        "letra": "E",
+        "texto": "estelionato, consumado sem lugar definido. Њ  Tipo 1 – Cor BRANCA – Página 12 FORMAÇÃO DE OFICIAIS DA POLÍCIA MILITAR DO ESTADO DA PARAÍBA"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q048",
+    "codigo": "PMPB-CFO-2022-FGV-Q048",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 48,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "Ao assumir um dia de serviço, determinada guarnição recebeu uma ordem de policiamento, estabelecendo rotina e pontos de policiamento obrigatório, dentro de determinada área geográfica do Batalhão. Composta por um Sargento, um Cabo e dois Soldados, após cumprir os três primeiros pontos, por sugestão do Cabo, a guarnição se reteve no caminho até o quarto ponto, permanecendo dentro do estacionamento de uma loja de materiais de construção, em local não visível a partir da rua. A Supervisão de Dia, ao passar pelo local e ver o posto de policiamento descoberto, fez contato com a sala de operações, que, consultando o GPS da viatura, indicou onde ela estava parada. Ao chegar ao local, a Supervisão encontrou a guarnição descomposta, a saber: o Sargento flertando com uma funcionária da loja, o Cabo sem parte do uniforme, deitado numa cadeira de praia, e os Soldados jogando em seus celulares. Diante desse cenário, está configurado o delito de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "abandono de posto;"
+      },
+      {
+        "letra": "B",
+        "texto": "deserção;"
+      },
+      {
+        "letra": "C",
+        "texto": "retenção indevida;"
+      },
+      {
+        "letra": "D",
+        "texto": "descumprimen to de missão;"
+      },
+      {
+        "letra": "E",
+        "texto": "omissão de eficiência da força."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q049",
+    "codigo": "PMPB-CFO-2022-FGV-Q049",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 49,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "A vida militar tem regras próprias e também princípios próprios, que foram inclusive consagrados no texto constitucional de 1988, e devido a essa especialidade foi que o Código Penal Militar estabeleceu determinados ilícitos que alcançam tanto os integrantes das Forças Armadas como aqueles que integram as Forças Auxiliares. De igual forma, atento às especificidades da vida em caserna, estabeleceu uma Parte Geral com regras próprias, algumas vezes distintas daquelas praticadas no Código Penal comum. No que toca ao concurso de crimes, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "as regras de aplicação dos concursos material e formal são iguais nos dois Códigos;"
+      },
+      {
+        "letra": "B",
+        "texto": "a regra de cálculo das penas no caso de concurso formal é igual nos dois Códigos;"
+      },
+      {
+        "letra": "C",
+        "texto": "a regra de aplicação do concurso material é diferente nos dois Códigos;"
+      },
+      {
+        "letra": "D",
+        "texto": "o Código Penal Militar não tem previsão quanto à regra de aplicação do crime continuado;"
+      },
+      {
+        "letra": "E",
+        "texto": "a regra de aplicação do crime continuado é diferente nos dois Códigos. CURSO DE FORMAÇÃO DE OFICIAIS COMBATENTES DA PMPB FGV Conhecimento Texto 1 O artigo 5º, inciso XI, da Constituição da República de 1988 consagrou o direito fundamental à inviolabilidade do domicílio, ao dispor que a casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial. A jurisprudência do Supremo Tribunal Federal, de uma forma geral, afirma que as autoridades podem ingressar em domicílio, sem a autorização de seu dono, em hipóteses de flagrante delito de crime permanente. Por definição, nos crimes permanentes, há um intervalo entre a consumação e o exaurimento. Nesse intervalo, o crime está em curso. Assim, se dentro do local protegido o crime permanente está ocorrendo, o perpetrador estará cometendo o delito. No entanto, tanto o Supremo Tribunal Federal quanto o Superior Tribunal de Justiça reformularam suas orientações sobre o ingresso forçado no domicílio."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q050",
+    "codigo": "PMPB-CFO-2022-FGV-Q050",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 50,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em relação à prisão em flagrante (texto 1), é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a cláusula que limita o ingresso ao período da noite é aplicável apenas aos casos em que a busca é determinada por ordem judicial;"
+      },
+      {
+        "letra": "B",
+        "texto": "a constatação de situação de flagrância de crime permanente, posterior ao ingresso, justifica a medida sem prévia ordem escrita e fundamentada da autoridade judiciária competente;"
+      },
+      {
+        "letra": "C",
+        "texto": "o controle judicial prévio decorre tanto da interpretação da Constituição, quanto da aplicação da proteção consagrada em tratados internacionais sobre direitos humanos;"
+      },
+      {
+        "letra": "D",
+        "texto": "a inexistência de controle judicial, ainda que posterior à execução da medida, esvazia o núcleo fundamental da garantia contra a inviolabilidade da casa;"
+      },
+      {
+        "letra": "E",
+        "texto": "os agentes estatais devem demonstrar, com apreensões de bens de natureza ilícita, os elemento s mínimos a caracterizar fundadas razões para a medida."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q051",
+    "codigo": "PMPB-CFO-2022-FGV-Q051",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 51,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "Em relação às buscas incidentais à prisão em flagrante (texto 1), é correto afirmar que é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "inválida a ação de agente policial que atende ligação direcionada ao aparelho celular do capturado, durante a prisão em flagrante;"
+      },
+      {
+        "letra": "B",
+        "texto": "válida a ação de agente policial que determina ao capturado que atenda ligação direcionada ao seu aparelho celular, durante a prisão em flagrante;"
+      },
+      {
+        "letra": "C",
+        "texto": "inválida a ação de agente policial que acessa a agenda telefônica de aparelho celular do capturado, durante a p risão em flagrante;"
+      },
+      {
+        "letra": "D",
+        "texto": "válida a ação de agente policial que realiza o espelhamento do aplicativo de mensagens de aparelho celular do capturado, durante a prisão em flagrante;"
+      },
+      {
+        "letra": "E",
+        "texto": "válida a ação de agente policial que acessa conteúdo de aplicativo de mensa gens de aparelho celular do capturado, decorrente de apreensão determinada por ordem judicial. Њ  Tipo 1 – Cor BRANCA – Página 13 FORMAÇÃO DE OFICIAIS DA POLÍCIA MILITAR DO ESTADO DA PARAÍBA"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q052",
+    "codigo": "PMPB-CFO-2022-FGV-Q052",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 52,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Na hipótese de infrações penais comuns, realizadas por civis, a busca e apreensão:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pod e ser realizada pelas Polícias Civil, Federal ou Militar;"
+      },
+      {
+        "letra": "B",
+        "texto": "se realizada pela Polícia Militar, importa em usurpação de competência da Polícia Civil;"
+      },
+      {
+        "letra": "C",
+        "texto": "se realizada pela Polícia Militar, importa em usurpação de competência da Polícia Judiciária;"
+      },
+      {
+        "letra": "D",
+        "texto": "só pode ser realizada pela Polícia Militar quando esta exerce a função de Polícia Judiciária Militar;"
+      },
+      {
+        "letra": "E",
+        "texto": "é função exclusiva da Polícia Judiciária (Civil e Federal)."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q053",
+    "codigo": "PMPB-CFO-2022-FGV-Q053",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 53,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em relação à atividade probatória nos delitos sexuais, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a ausência do exame de corpo de delito, no crime de estupro, tem o condão de configurar nulidade absoluta do processo;"
+      },
+      {
+        "letra": "B",
+        "texto": "em razão das dificuldades que envolvem a obtenção de provas nos crimes sexuais, a palavra da vítima adquire relevo diferenciado;"
+      },
+      {
+        "letra": "C",
+        "texto": "a corroboração sem alterações das declarações da vítima constitui um dos requisitos para a validade desse meio de prova;"
+      },
+      {
+        "letra": "D",
+        "texto": "o reconhecimento formal, pes soal ou fotográfico, constitui um dos requisitos para a validade da sentença condenatória;"
+      },
+      {
+        "letra": "E",
+        "texto": "a palavra da vítima, por si só, não confere justa causa à denúncia, por não permitir inferir a materialidade e a autoria."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q054",
+    "codigo": "PMPB-CFO-2022-FGV-Q054",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 54,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em determinada ocorrência envolvendo a apreensão de cigarros, ficou consignado no talão de registro de ocorrência policial, a cargo da Polícia Militar, a apreensão de 1.050 maços, ao passo que o auto de apreensão e exibição da Polícia Civil registrou a quantidade de 10.050 maços. A Defesa Técnica, no processo, argumentou com a ocorrência da quebra da cadeia de custódia, a invalidar a persecução penal. Considerada a hipótese apresentada, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "qualquer interferência durante o trâmite in vestigatório ou processual resultará na imprestabilidade da prova;"
+      },
+      {
+        "letra": "B",
+        "texto": "a diferença constatada afeta a idoneidade do caminho a ser percorrido pela prova até sua análise pelo magistrado;"
+      },
+      {
+        "letra": "C",
+        "texto": "a divergência de quantidade, por si só, configura o efetivo prejuíz o para o processo, a ensejar a nulidade;"
+      },
+      {
+        "letra": "D",
+        "texto": "a divergência de quantidade não afeta a configuração do ilícito penal, não acarretando prejuízo para o processo;"
+      },
+      {
+        "letra": "E",
+        "texto": "a contradição n o número de maços afeta a configuração da materialidade do crime imputado. CURSO DE FORMAÇÃO DE OFICIAIS COMBATENTES DA PMPB"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q056",
+    "codigo": "PMPB-CFO-2022-FGV-Q056",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 56,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Será da competência da Auditoria da Justiça Militar Estadual o crime doloso contra a vida, praticado por policial militar, quando:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "estando no exercício da atividade militar, a vítima for civil;"
+      },
+      {
+        "letra": "B",
+        "texto": "estando ou não no exercício da atividade militar, a vítima for civil;"
+      },
+      {
+        "letra": "C",
+        "texto": "estando no exercício da atividade militar, a vítima for militar;"
+      },
+      {
+        "letra": "D",
+        "texto": "estando fora da atividade militar, a vítima for civil;"
+      },
+      {
+        "letra": "E",
+        "texto": "estando em operação de garantia da lei e da ordem, a vítima for civil."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q057",
+    "codigo": "PMPB-CFO-2022-FGV-Q057",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 57,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em relação ao Estatuto do Desarmamento (Lei nº 10.826/2003), é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a ausência de renovação do registro torna a posse de arma de fogo típica, por impedir que o Estado exerça seu controle;"
+      },
+      {
+        "letra": "B",
+        "texto": "o fato de o agente ser policial torna atípico o porte de arma de fogo de uso permitido com registro vencido;"
+      },
+      {
+        "letra": "C",
+        "texto": "é atípica a conduta de quem porta arma de fogo de uso restrito com registro vencido;"
+      },
+      {
+        "letra": "D",
+        "texto": "a posse de arma de fogo de uso permitido com registro vencido constitui irreg ularidade administrativa;"
+      },
+      {
+        "letra": "E",
+        "texto": "é atípica a conduta de quem porta arma de fogo de uso permitido com registro vencido. Њ  Tipo 1 – Cor BRANCA – Página 14 FORMAÇÃO DE OFICIAIS DA POLÍCIA MILITAR DO ESTADO DA PARAÍBA"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q058",
+    "codigo": "PMPB-CFO-2022-FGV-Q058",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 58,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Em relação à fixação da competência dos Juizados Especiais de Violência Doméstica e Familiar Contra a Mulher, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o decurso de lapso temporal desde a dissolução do matrimônio ou união afasta a competência do Juizado;"
+      },
+      {
+        "letra": "B",
+        "texto": "a tutela penal se restringe à proteção da vítima que coabita com o agressor;"
+      },
+      {
+        "letra": "C",
+        "texto": "a ausência de relação íntima de afeto entre vítima e agressor afasta a competência do Juizado;"
+      },
+      {
+        "letra": "D",
+        "texto": "a ausência de relação familiar entre vítima e agressor afasta a competência do Juizado;"
+      },
+      {
+        "letra": "E",
+        "texto": "sem coabitação ou relação familiar, a conduta imputada deve estar vinculada à relação íntima de afeto entre as partes."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q059",
+    "codigo": "PMPB-CFO-2022-FGV-Q059",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 59,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Em relação à perda do cargo como efeito da sentença penal condenatória, a Constituição da República de 1988 estabeleceu, no Art. 125, § 4º, um sistema especial em que cabe ao Tribunal competente a decisão. No entanto, por força de tratados internacionais, uma lei especial confere competência ao juiz de direito, em primeiro grau, para decretar a perda do cargo do militar como efeito automático da condenação penal. Trata-se da lei de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Tortura (Lei nº 9.455/1997);"
+      },
+      {
+        "letra": "B",
+        "texto": "Organizações Criminosas (Lei nº 12.85 0/2013);"
+      },
+      {
+        "letra": "C",
+        "texto": "Abuso de Autoridade (Lei nº 13.869/2019);"
+      },
+      {
+        "letra": "D",
+        "texto": "Crimes Hediondos (Lei nº 8.072/1990);"
+      },
+      {
+        "letra": "E",
+        "texto": "Terrorismo (Lei nº 13.260/2016)."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q060",
+    "codigo": "PMPB-CFO-2022-FGV-Q060",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 60,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Após flagrar uma negociação criminosa, determinado policial militar realiza a condução dos capturados à unidade de polícia judiciária. Após os trâmites legais, referentes à lavratura do auto de prisão em flagrante, fica sabendo que o agente capturado pretende fazer acordo de delação premiada, iniciando tratativas com o delegado de polícia, visando à diminuição de eventual pena. Insatisfeito com o rumo adotado, por acreditar que seria mais um caso de impunidade, o policial militar procura um contato da imprensa e revela a negociação, repassando os dados qualificativos e imagens do agente capturado. Agindo dessa forma, o policial militar pratica o crime de:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "abuso de autoridade, por constranger o preso a exibir - se ao público;"
+      },
+      {
+        "letra": "B",
+        "texto": "revelar a identidade de colaborador, sem sua prévia autorização por escrito;"
+      },
+      {
+        "letra": "C",
+        "texto": "abuso de auto ridade, por constranger delator a ter sua identidade revelada;"
+      },
+      {
+        "letra": "D",
+        "texto": "descumprir determinação de sigilo das investigações que envolvam organização criminosa;"
+      },
+      {
+        "letra": "E",
+        "texto": "abuso de autoridade, por inovar artificiosamente, no curso de investigação sobre o estado da pess oa. CURSO DE FORMAÇÃO DE OFICIAIS COMBATENTES DA PMPB FGV Conhecimento Conhecimentos de Administração"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q061",
+    "codigo": "PMPB-CFO-2022-FGV-Q061",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 61,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "A Teoria Clássica, a Teoria da Burocracia e a Escola das Relações Humanas, apesar das diferenças de foco e de suas contribuições diversas, têm como ponto comum:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o reconhecimento do papel do ambiente em moldar as estruturas organizacionais;"
+      },
+      {
+        "letra": "B",
+        "texto": "a visão da organização como um sistema fechado;"
+      },
+      {
+        "letra": "C",
+        "texto": "o reconhecimento da organização como um sistema sociotécnico;"
+      },
+      {
+        "letra": "D",
+        "texto": "o pressuposto de que a tecnologia adotada é o principal fator a explicar o desenho da estrutura organizacional;"
+      },
+      {
+        "letra": "E",
+        "texto": "a visão do ser humano como motivado, precipuamente, por incentivos financeiros."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q062",
+    "codigo": "PMPB-CFO-2022-FGV-Q062",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 62,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Henri Fayol foi um dos principais pensadores da Teoria Clássica da Administração. Entre outras contribuições, formulou as funções do administrador e propôs um conjunto de princípios da administração, influenciando o pensamento e a prática administrativa. Uma das funções do administrador e um princípio da administração, como propostos por Fayol, são, respectivamente:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "planejar; informação;"
+      },
+      {
+        "letra": "B",
+        "texto": "dirigir; controle;"
+      },
+      {
+        "letra": "C",
+        "texto": "comandar; orçamentação;"
+      },
+      {
+        "letra": "D",
+        "texto": "coordenar; centralização;"
+      },
+      {
+        "letra": "E",
+        "texto": "organizar; preparo dos trabalh adores."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q063",
+    "codigo": "PMPB-CFO-2022-FGV-Q063",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 63,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "A Escola de Relações Humanas nasceu a partir das pesquisas conduzidas por Elton Mayo na fábrica da Western Electric em Hawthorne. O movimento de relações humanas opunha-se à escola clássica de administração e trouxe os aspectos humanos para o foco de atenção no pensamento administrativo. No entanto, a Escola foi também alvo de críticas de estudiosos diversos, cujas pesquisas apontaram suas limitações e levaram à sua superação e a novos desenvolvimentos no campo da administração. Entre as limitações da Escola de Relações Humanas, posteriormente superadas, pode-se destacar:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a visão de que a autoridade do gerente deve derivar, principalmente, de sua competência técnica;"
+      },
+      {
+        "letra": "B",
+        "texto": "a crença de que as decisões participativas cabem aos escalões superiores da organização;"
+      },
+      {
+        "letra": "C",
+        "texto": "a correlação entre satisfação do trabalhador e produtividade;"
+      },
+      {
+        "letra": "D",
+        "texto": "a visão de que o conflito é positivo e deve ser canalizado para fins produtivos;"
+      },
+      {
+        "letra": "E",
+        "texto": "a crença de que o principal papel do administrador é o interpessoal, de símbolo. Њ  Tipo 1 – Cor BRANCA – Página 15 FORMAÇÃO DE OFICIAIS DA POLÍCIA MILITAR DO ESTADO DA PARAÍBA"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q064",
+    "codigo": "PMPB-CFO-2022-FGV-Q064",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 64,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "As disfunções da burocracia podem ser entendidas como um conjunto de consequências não previstas no modelo burocrático que levam a ineficiências e outros problemas para a gestão, quando seus princípios são aplicados. Entre as disfunções da burocracia, podem-se elencar:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "formalismo excessivo;"
+      },
+      {
+        "letra": "B",
+        "texto": "canais de comunicação limitados;"
+      },
+      {
+        "letra": "C",
+        "texto": "criação de uma cultura tecnocrática voltada à destruição criativa;"
+      },
+      {
+        "letra": "D",
+        "texto": "descentralização e perda de controle das decisões estratégicas;"
+      },
+      {
+        "letra": "E",
+        "texto": "atençã o às demandas de coalizões externas, com perda do foco nos processos internos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q065",
+    "codigo": "PMPB-CFO-2022-FGV-Q065",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 65,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "A Teoria da Burocracia, formulada por Max Weber, sustenta que a burocracia, como forma organizacional, é o modelo ideal de estruturação das organizações da sociedade capitalista. Weber propôs um conjunto de princípios da estrutura burocrática, entre eles:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "impessoalidade; princípio da publicidade;"
+      },
+      {
+        "letra": "B",
+        "texto": "especialização da administração; princípio da publicidade;"
+      },
+      {
+        "letra": "C",
+        "texto": "caráter formal das comunicações; princípio da moralidade;"
+      },
+      {
+        "letra": "D",
+        "texto": "car áter legal das normas e regulamentos; princípio da racionalidade substantiva;"
+      },
+      {
+        "letra": "E",
+        "texto": "caráter legal das normas e regulamentos; caráter formal das comunicações."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q066",
+    "codigo": "PMPB-CFO-2022-FGV-Q066",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 66,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "A Teoria Comportamental da Administração é fortemente influenciada pela Psicologia, especialmente por sua corrente behaviorista. A Teoria Comportamental ampliou e deu novos aportes ao pensamento administrativo, com contribuições expressivas para fenômenos como motivação e liderança. No entanto, ela também é alvo de críticas que apontam suas limitações, tais como:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "visão de que a motivação do trabalhador é efeito de uma liderança eficaz;"
+      },
+      {
+        "letra": "B",
+        "texto": "contradição entre o estudo da motivação e o foco de análise nas variáveis estruturais do ambiente;"
+      },
+      {
+        "letra": "C",
+        "texto": "abordagem essencialmente descritiva, com poucas prescrições para a prática organizacional;"
+      },
+      {
+        "letra": "D",
+        "texto": "concepção do ser humano como homem social, motivado principalmente por recompensas afetivas;"
+      },
+      {
+        "letra": "E",
+        "texto": "premissa de que o ser h umano tende a ser passivo e resistente a colaborar para o atingimento dos objetivos organizacionais. CURSO DE FORMAÇÃO DE OFICIAIS COMBATENTES DA PMPB"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q067",
+    "codigo": "PMPB-CFO-2022-FGV-Q067",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 67,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "A Teoria dos Sistemas tem como pressuposto que a organização deve ser vista como um sistema aberto, composto por subsistemas interdependentes e em contínua interação com o ambiente em que se insere. A teoria apoia-se também na crença de que o ser humano comporta-se como um sistema aberto, interagindo com outras pessoas e com o ambiente que o cerca. Assim, em uma organização, as pessoas desempenham papéis, administrando suas expectativas, comunicando-as aos demais e ajustando-se aos diversos papéis que lhes são atribuídos. Esse conceito de ser humano é conhecido como homem:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "funcional;"
+      },
+      {
+        "letra": "B",
+        "texto": "organizacional;"
+      },
+      {
+        "letra": "C",
+        "texto": "social;"
+      },
+      {
+        "letra": "D",
+        "texto": "administrativo;"
+      },
+      {
+        "letra": "E",
+        "texto": "complexo."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q068",
+    "codigo": "PMPB-CFO-2022-FGV-Q068",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 68,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "A rotatividade de pessoal ( turnover ) está presente em todas as organizações e tem impactos significativos nos diferentes processos de gestão de pessoas. Entre outros aspectos, a rotatividade gera custos diversos, tais como:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "custos de seleção, derivados da divulgação de vagas;"
+      },
+      {
+        "letra": "B",
+        "texto": "custos de desligamento, derivados do pagamento de verbas rescisórias;"
+      },
+      {
+        "letra": "C",
+        "texto": "custos de recrutamento, derivados de programas de integração;"
+      },
+      {
+        "letra": "D",
+        "texto": "custos de desligamento, derivados da queda de produtividade com a perda de funcionários;"
+      },
+      {
+        "letra": "E",
+        "texto": "custos de recrutamento, derivados do desenvolvimento de novas trilhas de carreira."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q069",
+    "codigo": "PMPB-CFO-2022-FGV-Q069",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 69,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "A evolução da gestão de pessoas é marcada, entre outros aspectos, pela mudança da visão acerca de seu papel nas organizações. Assim, no contexto contemporâneo, a gestão dos recursos humanos ganha relevância estratégica e é entendida como parte fundamental na sustentação da competitividade organizacional. A construção de organizações competitivas exige que o RH atue com múltiplos focos de atenção, assumindo quatro papéis nesse processo, como proposto inicialmente por Dave Ulrich: administração da infraestrutura da empresa, administração da contribuição dos funcionários, administração da transformação e da mudança e administração das estratégias de recursos humanos. Sobre o papel de administrador da transformação e da mudança, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "foca sua atuação no cotidiano operacional e nas pessoas;"
+      },
+      {
+        "letra": "B",
+        "texto": "tem como resultado a criação de uma organização renovada;"
+      },
+      {
+        "letra": "C",
+        "texto": "foca sua atuação nas estratégias futuras e nos processos internos;"
+      },
+      {
+        "letra": "D",
+        "texto": "tem como resultado o alinhamento da estratégia de RH à estratégia g lobal da organização;"
+      },
+      {
+        "letra": "E",
+        "texto": "tem como resultado o a umento do envolvimento e da capacidade dos funcion ários. Њ  Tipo 1 – Cor BRANCA – Página 16 FORMAÇÃO DE OFICIAIS DA POLÍCIA MILITAR DO ESTADO DA PARAÍBA"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q070",
+    "codigo": "PMPB-CFO-2022-FGV-Q070",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 70,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Os processos de avaliação de desempenho humano são sujeitos a distorções que podem impedir que o atingimento da eficácia pretendida. Um problema comumente observado é a tendência a se avaliar os colaboradores pela média, evitando-se avaliações extremas (excelentes ou muito fracas). Essa distorção é conhecida como:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "tendência de halo;"
+      },
+      {
+        "letra": "B",
+        "texto": "efeito de curva normal;"
+      },
+      {
+        "letra": "C",
+        "texto": "pressão reducionista;"
+      },
+      {
+        "letra": "D",
+        "texto": "efeito de proximidade;"
+      },
+      {
+        "letra": "E",
+        "texto": "tendência central."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q071",
+    "codigo": "PMPB-CFO-2022-FGV-Q071",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 71,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Certa organização pública realizou recentemente um treinamento voltado ao desenvolvimento de lideranças, envolvendo um número expressivo de colaboradores. O gerente responsável gostaria de avaliar os resultados do treinamento no nível organizacional. Seriam indicadores adequados:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "redução do absenteísmo; aumento da eficiência global;"
+      },
+      {
+        "letra": "B",
+        "texto": "alcance dos objetivos de treinamento; aumento da eficácia organiz acional;"
+      },
+      {
+        "letra": "C",
+        "texto": "melhora da imagem da organização; melhora do clima organizacional;"
+      },
+      {
+        "letra": "D",
+        "texto": "redução da rotatividade; aumento da satisfação dos empregados;"
+      },
+      {
+        "letra": "E",
+        "texto": "aumento da eficácia dos trabalhadores; redução do índice de retrabalho."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q072",
+    "codigo": "PMPB-CFO-2022-FGV-Q072",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 72,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Um gerente tem sob sua responsabilidade hierárquica um grupo de sete colaboradores. O grupo é pouco coeso, mas os membros são experientes e têm ótima qualificação. O gerente avalia que o grupo tem boa produtividade, mas, tendo em vista metas de desempenho recentemente estabelecidas, será necessário aumentá-la. O gerente, que estudou os fundamentos do comportamento em grupo, acredita que um caminho para aumentar a produtividade do grupo seria estimular sua coesão. Para estimular a coesão do grupo, seria adequado:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "reduzir o status do grupo;"
+      },
+      {
+        "letra": "B",
+        "texto": "incentivar a pressão por conformidade;"
+      },
+      {
+        "letra": "C",
+        "texto": "reduzir a competição com outros grupos;"
+      },
+      {
+        "letra": "D",
+        "texto": "diversificar e ampliar o número de membros do grupo;"
+      },
+      {
+        "letra": "E",
+        "texto": "estimular a concordância em relação aos objetivos do grupo. CURSO DE FORMAÇÃO DE OFICIAIS COMBATENTES DA PMPB"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q073",
+    "codigo": "PMPB-CFO-2022-FGV-Q073",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 73,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "ma organização adota sistema de reposição contínua para o estoque de um item de manutenção. O consumo mensal do item é, em média, de 120 unidades, o estoque de segurança é de 30 unidades e o tempo de ressuprimento é de nove dias corridos. O custo de pedido é de R$ 30,00 e o preço de compra do item é de R$ 55,00. Na situação descrita, o ponto de pedido é (considere que um mês tem trinta dias):",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "30 unidades;"
+      },
+      {
+        "letra": "B",
+        "texto": "40 unidades;"
+      },
+      {
+        "letra": "C",
+        "texto": "4 8 unidades;"
+      },
+      {
+        "letra": "D",
+        "texto": "50 unidades;"
+      },
+      {
+        "letra": "E",
+        "texto": "66 unidades."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q074",
+    "codigo": "PMPB-CFO-2022-FGV-Q074",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 74,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Uma organização consome semanalmente, em média, 20 cartuchos de tinta de impressora. A organização compra os cartuchos de um fornecedor em lotes de 130 unidades, a um preço de R$ 50 por unidade (cartucho). Um pedido leva, em média, 2 semanas para ser recebido, a um custo de R$ 6,00 por pedido. A firma mantém um estoque de segurança de 50 cartuchos. Os estoques máximo e médio de cartuchos de tinta na organização são, respectivamente:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "130 e 50 unidades;"
+      },
+      {
+        "letra": "B",
+        "texto": "130 e 65 unidades;"
+      },
+      {
+        "letra": "C",
+        "texto": "1 50 e 75 unidades;"
+      },
+      {
+        "letra": "D",
+        "texto": "180 e 90 unidades;"
+      },
+      {
+        "letra": "E",
+        "texto": "180 e 115 unidades."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q075",
+    "codigo": "PMPB-CFO-2022-FGV-Q075",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 75,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em uma organização, o consumo de determinado insumo é de 600 unidades ao ano. A organização adquire esse insumo por R$ 10,00 a unidade. O custo para fazer o pedido ao fornecedor é de R$ 6,00 e o custo anual de manutenção em estoque é de 20% do valor do insumo. Considerando-se o lote econômico de compra do insumo, o número de pedidos a serem feitos no ano será:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "8;"
+      },
+      {
+        "letra": "B",
+        "texto": "9;"
+      },
+      {
+        "letra": "C",
+        "texto": "10;"
+      },
+      {
+        "letra": "D",
+        "texto": "12;"
+      },
+      {
+        "letra": "E",
+        "texto": "17."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q076",
+    "codigo": "PMPB-CFO-2022-FGV-Q076",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 76,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A Receita Corrente Líquida (RCL) é um parâmetro que foi introduzido pela Lei de Responsabilidade Fiscal (LRF) como referência para indicadores de gestão fiscal. Na apuração desse parâmetro nos entes estaduais, é deduzido do montante das receitas correntes, entre outros, o valor das:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "receitas intraorçamentárias;"
+      },
+      {
+        "letra": "B",
+        "texto": "receitas extra orçamentárias;"
+      },
+      {
+        "letra": "C",
+        "texto": "c ontribuições para o PIS/PASEP;"
+      },
+      {
+        "letra": "D",
+        "texto": "c ontrib uições dos t rab alhadores para a seg uridade social;"
+      },
+      {
+        "letra": "E",
+        "texto": "c ontrib uições dos militares para cust eio das pensões militares. Њ  Tipo 1 – Cor BRANCA – Página 17 FORMAÇÃO DE OFICIAIS DA POLÍCIA MILITAR DO ESTADO DA PARAÍBA"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q077",
+    "codigo": "PMPB-CFO-2022-FGV-Q077",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 77,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com a legislação vigente no Brasil, o processo orçamentário conta com três instrumentos de planejamento, o PPA, a LDO e a LOA. No que tange ao conteúdo desses instrumentos, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o orçamento fiscal é estabelecido pela LDO;"
+      },
+      {
+        "letra": "B",
+        "texto": "o PPA estabelece as diretrizes d a política fiscal;"
+      },
+      {
+        "letra": "C",
+        "texto": "a forma de utilização e o montante da reserva de contingência são definidos na LOA;"
+      },
+      {
+        "letra": "D",
+        "texto": "a autorização para concessão de aumento de remuneração pelos órgãos da administração d iret a é dada pela LDO;"
+      },
+      {
+        "letra": "E",
+        "texto": "os limites para os investimento s das empresas estatais são estabelecidos no PPA."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q078",
+    "codigo": "PMPB-CFO-2022-FGV-Q078",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 78,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O montante da arrecadação dos entes estaduais está sujeito às regras constitucionais de repartição das receitas tributárias. De acordo com essas regras, os dois principais tributos de competência estadual – imposto sobre operações relativas à circulação de mercadorias e serviços (ICMS) e imposto sobre a propriedade de veículos automotores (IPVA) – são repartidos com os municípios do respectivo estado, de acordo com os seguintes percentuais, respectivamente:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "25 % e 25 %;"
+      },
+      {
+        "letra": "B",
+        "texto": "25 % e 50 %;"
+      },
+      {
+        "letra": "C",
+        "texto": "25% e 75 %;"
+      },
+      {
+        "letra": "D",
+        "texto": "50 % e 25%;"
+      },
+      {
+        "letra": "E",
+        "texto": "50 % e 50 %."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q079",
+    "codigo": "PMPB-CFO-2022-FGV-Q079",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 79,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A despesa pública é processada em estágios que permitem maior controle da aplicação regular dos recursos públicos. O primeiro estágio de execução da despesa se refere a uma reserva de dotação orçamentária para um fim específico. Uma das características desse estágio é que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pode ser registrado de forma estimativa;"
+      },
+      {
+        "letra": "B",
+        "texto": "não pode ser anulado antes do final do exercício;"
+      },
+      {
+        "letra": "C",
+        "texto": "realiza a verifica ção d a procedência do crédito fiscal;"
+      },
+      {
+        "letra": "D",
+        "texto": "realiza a verificação do direito adquirido pelo cred or;"
+      },
+      {
+        "letra": "E",
+        "texto": "tem por base os títulos e documentos comprobatórios do crédito."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmpb-cfo-2022-fgv-q080",
+    "codigo": "PMPB-CFO-2022-FGV-Q080",
+    "orgao": "PMPB",
+    "cargo": "Curso de Formacao de Oficiais PM",
+    "ano": 2022,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 80,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "As atividades de controle e avaliação da execução orçamentária no âmbito de cada ente federativo são de competência do respectivo Poder Legislativo, que as exercem com o auxílio do Tribunal de Contas. Um dos principais instrumentos utilizados ao longo do exercício financeiro é o Relatório Resumido da Execução Orçamentária (RREO). Esse relatório:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "tem periodicidade de publicação quadrimestral;"
+      },
+      {
+        "letra": "B",
+        "texto": "deve ser publicado separadamente por cada poder;"
+      },
+      {
+        "letra": "C",
+        "texto": "contém informações sobre limites de despesa com pessoal;"
+      },
+      {
+        "letra": "D",
+        "texto": "contém como anexo o d emonstrativo dos restos a pagar por poder e órgão;"
+      },
+      {
+        "letra": "E",
+        "texto": "apresenta demonstrativo da d isponibilidade de c aixa no fechamento do exercício financeiro. CURSO DE FORMAÇÃO DE OFICIAIS COMBATENTES DA PMPB FGV Conhecimento Њ  Tipo 1 – Cor BRANCA – Página 18 FORMAÇÃO DE OFICIAIS DA POLÍCIA MILITAR DO ESTADO DA PARAÍBA CURSO DE FORMAÇÃO DE OFICIAIS COMBATENTES DA PMPB FGV Conhecimento Њ  Realização"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMPB",
+    "comentario": "Questao oficial PMPB Curso de Formacao de Oficiais PM 2022. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  }
+]

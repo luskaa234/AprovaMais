@@ -20,7 +20,7 @@ function Navbar() {
     <header className="navbar">
       <div className="nav-inner">
         <Link className="brand" to="/" aria-label="VemAprovar - início">
-          <BrandLogo width={120} height={32} variant="white" />
+          <BrandLogo width={152} height={38} />
         </Link>
 
         <nav className="nav-links" aria-label="Navegação principal">

@@ -1,0 +1,2109 @@
+[
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q01",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q01",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 1,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a alternativa que apresenta a ideia global do Texto 1.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A linguagem simbólica que tem sido utilizada pelas polícias Militar e Civil interfere negativamente no desempenho dessas instituições."
+      },
+      {
+        "letra": "B",
+        "texto": "Termos e expressões próprios do universo policial cumprem a função de estabelecer uma comunicação eficiente entre os membros desse universo particular."
+      },
+      {
+        "letra": "C",
+        "texto": "É importante para a formação do jornalista policial que ele aprenda e empregue em suas reportagens a linguagem simbólica que circula entre policiais."
+      },
+      {
+        "letra": "D",
+        "texto": "A necessidade da incorporação da linguagem dos policiais pelo cidadão comum, e especialmente por repórteres, tem sido defendida por especialistas."
+      },
+      {
+        "letra": "E",
+        "texto": "Diversas gírias são criadas por bandidos, para despistar a ação da polícia, como a gíria “é cega”, recentemente criada no meio criminal e utilizada para desmentir uma afirmação."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q02",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q02",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 2,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "No Texto 1, o leitor encontra informações que esclarecem e justificam:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a existência de códigos que são usados somente entre os militares."
+      },
+      {
+        "letra": "B",
+        "texto": "por que é urgente que a linguagem policial seja ensinada a jornalistas."
+      },
+      {
+        "letra": "C",
+        "texto": "a necessidade de que a linguagem policial seja divulgada em programas de TV e rádio."
+      },
+      {
+        "letra": "D",
+        "texto": "o perigo da criação de gírias que circulam privilegiadamente no meio criminal."
+      },
+      {
+        "letra": "E",
+        "texto": "o emprego restrito de termos e expressões, por membros do mundo policial."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q03",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q03",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 3,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Sendo a língua heterogênea e variável, existe a possibilidade de os usuários empregarem termos diversos para expressar um mesmo significado. Essa característica das línguas naturais está exemplificada no seguinte trecho do Texto 1:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“Se você acompanha programas policiais, deve ter percebido que o texto acima faz parte da linguagem simbólica das polícias Militar e Civil”. (1º parágrafo)"
+      },
+      {
+        "letra": "B",
+        "texto": "“O objetivo é manter o conteúdo de mensagens importantes restrito a seus membros, evitando o vazamento desnecessário de informações”. (2º parágrafo)"
+      },
+      {
+        "letra": "C",
+        "texto": "“O repórter-foca (iniciante) é capaz de não compreender uma ocorrência policial registrada numa delegacia qualquer”. (3º parágrafo)"
+      },
+      {
+        "letra": "D",
+        "texto": "“É comum o repórter policial encontrar termos como mocó (esconderijo); meliante (bandido); invólucro (papelote de droga)”. (3º parágrafo)"
+      },
+      {
+        "letra": "E",
+        "texto": "“O delegado Márcio Moraes, titular da Delegacia de Homicídios, disse que a maioria das gírias é criada por bandidos, para despistar a ação da polícia”. (6º parágrafo) CONCURSO PÚBLICO – POLÍCIA MILITAR DO ESTADO DO PIAUÍ 4"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q04",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q04",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 4,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Presença de palavras ou expressões que revelam a intenção do autor de estabelecer um diálogo com o leitor, como: “Se você acompanha programas policiais...” (1º parágrafo) e “Pois bem.”. (4º parágrafo). São características do Texto 1, apenas:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1, 2 e 3."
+      },
+      {
+        "letra": "B",
+        "texto": "1 e 3."
+      },
+      {
+        "letra": "C",
+        "texto": "1 e 4."
+      },
+      {
+        "letra": "D",
+        "texto": "2 e 4."
+      },
+      {
+        "letra": "E",
+        "texto": "2, 3 e 4."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q05",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q05",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 5,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O terceiro parágrafo inicia-se com a seguinte informação: “O jornalista policial acaba aprendendo essa linguagem simbólica.” Em relação aos parágrafos anteriores, essa informação expressa uma",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "causa."
+      },
+      {
+        "letra": "B",
+        "texto": "concessão."
+      },
+      {
+        "letra": "C",
+        "texto": "consequência."
+      },
+      {
+        "letra": "D",
+        "texto": "finalidade."
+      },
+      {
+        "letra": "E",
+        "texto": "oposição."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q06",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q06",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 6,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“O repórter-foca (iniciante) é capaz de não compreender uma ocorrência policial registrada numa delegacia qualquer.” (3º parágrafo) No contexto do Texto 1, o segmento destacado expressa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "certeza."
+      },
+      {
+        "letra": "B",
+        "texto": "capacidade."
+      },
+      {
+        "letra": "C",
+        "texto": "possibilidade."
+      },
+      {
+        "letra": "D",
+        "texto": "simultaneidade."
+      },
+      {
+        "letra": "E",
+        "texto": "obrigatoriedade."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q09",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q09",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 9,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Observe o cumprimento das normas de regência verbal no seguinte trecho: “Imagine você que um repórter iniciante chega à delegacia logo pela manhã e se depara com a seguinte ocorrência:”. (4º parágrafo) Assinale a alternativa em que as alterações promovidas também cumprem as normas de regência e preservam a coerência do enunciado.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Imagine você que um repórter iniciante dirige- se a delegacia logo pela manhã e se vê diante à seguinte ocorrência:"
+      },
+      {
+        "letra": "B",
+        "texto": "Imagine você que um repórter iniciante vai à delegacia logo pela manhã e encontra a seguinte ocorrência:"
+      },
+      {
+        "letra": "C",
+        "texto": "Imagine você que um repórter iniciante adentra para a delegacia logo pela manhã e dá de cara na seguinte ocorrência:"
+      },
+      {
+        "letra": "D",
+        "texto": "Imagine você que um repórter iniciante, ao entrar a delegacia logo pela manhã, tem que enfrentar à seguinte ocorrência:"
+      },
+      {
+        "letra": "E",
+        "texto": "Imagine você que um repórter iniciante aparece na delegacia logo pela manhã e é surpreendido sobre a seguinte ocorrência:"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q10",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q10",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 10,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a alternativa em que o segmento sublinhado desempenha uma função de adjetivo.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "“Depois o meliante adentrou num matagal, tomando rumo ignorado.”"
+      },
+      {
+        "letra": "B",
+        "texto": "“o texto acima faz parte da linguagem simbólica das polícias Militar e Civil, um pouco mais da primeira instituição.”"
+      },
+      {
+        "letra": "C",
+        "texto": "“O repórter-foca (iniciante) é capaz de não compreender uma ocorrência policial registrada numa delegacia qualquer.”"
+      },
+      {
+        "letra": "D",
+        "texto": "“No ‘mundo policial’ há alguns termos e expressões que são entendidos apenas por aqueles que fazem parte da instituição.”"
+      },
+      {
+        "letra": "E",
+        "texto": "“De acordo com o contexto da história, a gíria pode ter um significado diferente, mas na maioria das vezes o seu uso é para desmentir algo.” CONCURSO PÚBLICO – POLÍCIA MILITAR DO ESTADO DO PIAUÍ 5"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q11",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q11",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 11,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a alternativa em que o termo destacado está corretamente grafado, segundo as normas ortográficas em vigor.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Evitar o vazamento de informações. É por essa rasão que foi criada uma linguagem simbólica entre os policiais."
+      },
+      {
+        "letra": "B",
+        "texto": "Há quem considere que é totalmente imprópio utilizar o jargão policial fora do ambiente de trabalho."
+      },
+      {
+        "letra": "C",
+        "texto": "A utilização de gírias é tão comum que se estende das patentes mais baixas até as mais altas."
+      },
+      {
+        "letra": "D",
+        "texto": "Algumas expressões se cristalizam como marcas da indentidade de uma determinada corporação."
+      },
+      {
+        "letra": "E",
+        "texto": "Todos os policiais, com a intensão de preservar informações, usam termos só entendidos por seus pares. TEXTO 2 Disponível em: https://www.uninassau.edu.br/noticias/combate-violencia-contra-mulher-em-salvador. Acesso em 13/06/17."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q12",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q12",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 12,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O argumento principal do Texto 2 é o de que a violência contra a mulher será superada se:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "os homens se acovardarem."
+      },
+      {
+        "letra": "B",
+        "texto": "as mulheres denunciarem."
+      },
+      {
+        "letra": "C",
+        "texto": "as pessoas se unirem mais."
+      },
+      {
+        "letra": "D",
+        "texto": "os homens pararem de bater."
+      },
+      {
+        "letra": "E",
+        "texto": "as mulheres vencerem os homens."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q14",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q14",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 14,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "A análise global do Texto 2 revela que ele tem, principalmente, uma função",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "lúdica."
+      },
+      {
+        "letra": "B",
+        "texto": "poética."
+      },
+      {
+        "letra": "C",
+        "texto": "expositiva."
+      },
+      {
+        "letra": "D",
+        "texto": "publicitária."
+      },
+      {
+        "letra": "E",
+        "texto": "informativa. CONCURSO PÚBLICO – POLÍCIA MILITAR DO ESTADO DO PIAUÍ 6 Matemática"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q15",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q15",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 15,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "medio",
+    "enunciado": "Toda a produção semanal de latas de suco de certa fábrica foi vendida a três lojas, aqui designadas por A, B e",
+    "alternativas": [
+      {
+        "letra": "C",
+        "texto": "Para a loja A, foi vendido um terço da produção, para a loja B, foi vendido 40% da produção, e, para a loja C, foram vendidas 11.360 unidades. Qual a produção semanal de latas de suco dessa fábrica?"
+      },
+      {
+        "letra": "A",
+        "texto": "42.000 latas."
+      },
+      {
+        "letra": "B",
+        "texto": "42.300 latas. C) 42.420 latas."
+      },
+      {
+        "letra": "D",
+        "texto": "42.540 latas."
+      },
+      {
+        "letra": "E",
+        "texto": "42.600 latas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q16",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q16",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 16,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Saindo da rodoviária de certa cidade, dois ônibus percorrem trajetos que só têm a rodoviária como ponto comum: um deles vai para o aeroporto, em percurso que leva 30 minutos, e o outro para a estação de metrô, em percurso que leva 24 minutos. Para cada um dos ônibus, os trajetos de ida e volta consomem o mesmo intervalo de tempo. Considerando as viagens de ida e volta, e supondo que os dois ônibus saem da rodoviária no mesmo instante, quanto tempo depois eles voltam a se encontrar, pela primeira vez, no ponto de partida?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "3 horas."
+      },
+      {
+        "letra": "B",
+        "texto": "4 horas."
+      },
+      {
+        "letra": "C",
+        "texto": "5 horas."
+      },
+      {
+        "letra": "D",
+        "texto": "6 horas."
+      },
+      {
+        "letra": "E",
+        "texto": "7 horas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q17",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q17",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 17,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Na tabela a seguir, temos o consumo mensal de água de uma família, durante os cinco primeiros meses de 2017. Se admitirmos que o preço do m3 de água é R$ 3,00, qual o valor médio, mensal, pago pelo consumo de água nessa família, nesses cinco meses?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 38,40"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 38,50"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 38,60"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 38,70"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 38,80"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q18",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q18",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 18,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Em uma expedição militar, 25 pessoas planejam levar alimento suficiente para 16 dias, contando com 3 refeições por dia. Próximo à data marcada para o início da expedição, 5 pessoas resolvem se juntar ao grupo inicial para participar da expedição. Se eles fizessem apenas 2 refeições por dia, para quantos dias a comida planejada inicialmente seria suficiente?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "18 dias."
+      },
+      {
+        "letra": "B",
+        "texto": "19 dias."
+      },
+      {
+        "letra": "C",
+        "texto": "20 dias."
+      },
+      {
+        "letra": "D",
+        "texto": "21 dias."
+      },
+      {
+        "letra": "E",
+        "texto": "22 dias."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q19",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q19",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 19,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Maria comprou um computador em 3 parcelas mensais e iguais de R$ 540,80, a primeira parcela paga no momento da compra. Se o preço do computador à vista era de R$ 1500,00, e se foram cobrados juros compostos de 4% ao mês, quanto Maria pagou de juros (em valores do momento da compra)?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 60,80"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 60,70"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 60,60"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 60,50"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 60,40"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q20",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q20",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 20,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Uma praça é formada por um retângulo e dois semicírculos com diâmetros justapostos ao lado menor do retângulo. Os lados do retângulo medem 40 m e 30 m. Uma calçada com 3 m de largura deve ser construída em torno de uma praça. Qual o valor total a ser pago por essa calçada, se o metro quadrado do pavimento é de R$ 30,00? A seguir, temos uma ilustração da situação, fora de escala. Obs.: adote a aproximação π ≃ 3,14. 30 m 40 m",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 16.525,40"
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 16.525,50"
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 16.525,60"
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 16.525,70"
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 16.525,80"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q21",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q21",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 21,
+    "materia": "Matematica e Raciocinio Logico",
+    "materia_original": "Matematica e Raciocinio Logico",
+    "dificuldade": "dificil",
+    "enunciado": "Para cercar um terreno retangular, com uma cerca formada por 3 fios, foram usados 114 m de arame. Se o terreno tem área medindo 78 m2, em quantos metros a largura do terreno excede sua altura? Admita que a largura do terreno é maior que sua altura, ambas medidas em metros.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "6 m"
+      },
+      {
+        "letra": "B",
+        "texto": "7 m"
+      },
+      {
+        "letra": "C",
+        "texto": "8 m"
+      },
+      {
+        "letra": "D",
+        "texto": "9 m"
+      },
+      {
+        "letra": "E",
+        "texto": "10 m Mês Consumo (em m3) Janeiro 12,8 Fevereiro 13,5 Março 11,9 Abril 13,6 Maio 12,7 CONCURSO PÚBLICO – POLÍCIA MILITAR DO ESTADO DO PIAUÍ 7 Conhecimentos Gerais"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q22",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q22",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 22,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Para o professor Milton Santos, em seu livro “Por uma outra globalização: do pensamento único à consciência universal”, a globalização “é, de certa forma, o ápice do processo de internacionalização do mundo capitalista” (2001, p. 23). Com base nesta compreensão do professor Milton Santos, é correto afirmar que a globalização é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o processo irreversível de internacionalização do capitalismo que levou a economia global ao ponto máximo de seu desenvolvimento."
+      },
+      {
+        "letra": "B",
+        "texto": "o processo que leva, necessariamente, à constituição de uma consciência universal e solidária."
+      },
+      {
+        "letra": "C",
+        "texto": "um movimento do mundo capitalista que visa à internacionalização de todos os povos."
+      },
+      {
+        "letra": "D",
+        "texto": "um processo, do mesmo jeito que a internacionalização, típico do capitalismo industrial."
+      },
+      {
+        "letra": "E",
+        "texto": "o centro da economia capitalista que fez surgir uma consciência universal, no lugar de um pensamento único."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q23",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q23",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 23,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Como uma das contradições do desenvolvimento capitalista, pode-se apontar o processo de fragmentação do espaço, na medida em que a globalização visa integrar os diferentes espaços geográficos. A fragmentação do espaço se caracteriza:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pela produção de espaços desiguais, advindos principalmente do processo de expansão econômica, característica do capitalismo globalizado."
+      },
+      {
+        "letra": "B",
+        "texto": "pela criação de novos espaços geográficos multifragmentados, visando ao desenvolvimento capitalista."
+      },
+      {
+        "letra": "C",
+        "texto": "pela divisão dos espaços sociais em diferentes parcelas do mundo globalizado."
+      },
+      {
+        "letra": "D",
+        "texto": "pelo aumento da quantidade de espaços geográficos, fruto do desenvolvimento capitalista."
+      },
+      {
+        "letra": "E",
+        "texto": "pela delimitação dos espaços sociogeográficos do mundo globalizado, permitindo, assim, um maior desenvolvimento econômico de todos os povos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q24",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q24",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 24,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "O desenvolvimento da humanidade apresentou em diversas épocas conflitos étnicos e religiosos que, em muitas situações, se transformaram em guerras de extermínio. É correto afirmar que os conflitos étnicos e religiosos:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "surgem exclusivamente das diversas crenças religiosas fundadoras de inúmeros credos."
+      },
+      {
+        "letra": "B",
+        "texto": "produzem situações de extermínio que são responsáveis pelo desenvolvimento da humanidade."
+      },
+      {
+        "letra": "C",
+        "texto": "estão baseados na intolerância e no não reconhecimento do direito de todos os povos à sua livre organização e expressão."
+      },
+      {
+        "letra": "D",
+        "texto": "modificam a história da humanidade, pois são a causa principal das guerras mundiais."
+      },
+      {
+        "letra": "E",
+        "texto": "são inerentes à condição humana e, por esse motivo, não há possibilidade de superá-los."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q25",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q25",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 25,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Organismos internacionais são instituições que congregam diferentes países com um objetivo comum, podendo ter este objetivo caráter político, social, econômico ou mesmo de ajuda mútua. Diante da crise internacional gerada pelo aumento do número de refugiados, particularmente da África e do Oriente, quais organismos internacionais têm atuado diretamente na busca de soluções internacionais ou de ações que amenizem os efeitos dessa situação?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "UNESCO, Save the Children, Green Peace."
+      },
+      {
+        "letra": "B",
+        "texto": "Cruz Vermelha, Green Peace, OCDE."
+      },
+      {
+        "letra": "C",
+        "texto": "UNICEF, OIT e Médicos sem Fronteiras."
+      },
+      {
+        "letra": "D",
+        "texto": "Alto Comissariado da ONU para os refugiados, Cruz Vermelha, UNICEF."
+      },
+      {
+        "letra": "E",
+        "texto": "OCDE, Alto Comissariado da ONU para os refugiados, Solidariedade Universal."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q26",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q26",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 26,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "O processo de aquecimento global tem gerado inúmeros impactos em diferentes países e regiões da Terra. Dentre as principais decisões tomadas pela Conferência do Clima (COP-21), realizada em Paris, em 2015, para combater o aquecimento global, estão:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "substituição imediata da energia elétrica pela energia eólica e diminuição da produção de carros a diesel."
+      },
+      {
+        "letra": "B",
+        "texto": "criação de áreas internacionais para reflorestamento e aumento de produtos orgânicos não industrializados."
+      },
+      {
+        "letra": "C",
+        "texto": "aplicação de multas a países produtores de gás carbônico e bonificação para países que reduzirem o consumo de energias não renováveis."
+      },
+      {
+        "letra": "D",
+        "texto": "diminuição do consumo de bens produzidos por energia não renovável e aumento da produção de bens à base de energia solar."
+      },
+      {
+        "letra": "E",
+        "texto": "manutenção do aquecimento global abaixo de 2o C em relação aos níveis da era pré- industrial, e redução drástica da emissão de gases do efeito estufa."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q27",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q27",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 27,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "O desmatamento e a poluição do ar estão entre as causas de degradação do meio ambiente, situação vivida em diversos países. Como consequência desse processo de degradação ambiental, podemos citar:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "aumento do calor nas capitais e esfriamento da temperatura nas cidades do interior com altitude elevada."
+      },
+      {
+        "letra": "B",
+        "texto": "aquecimento global e desertificação do planeta."
+      },
+      {
+        "letra": "C",
+        "texto": "crescimento dos casos de doenças respiratórias em crianças recém-nascidas e diminuição da expectativa de vida na população em geral."
+      },
+      {
+        "letra": "D",
+        "texto": "aumento do nível das águas dos oceanos e diminuição do nível das águas dos rios."
+      },
+      {
+        "letra": "E",
+        "texto": "aceleração do crescimento de plantas transgênicas e aumento da separação entre os continentes. CONCURSO PÚBLICO – POLÍCIA MILITAR DO ESTADO DO PIAUÍ 8"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q28",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q28",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 28,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Os blocos políticos e econômicos surgem como estratégia de países para o enfrentamento de crises em âmbito internacional e como forma de viabilizar ações conjuntas. Os principais blocos políticos e econômicos dos quais o Brasil faz parte são:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Alca, Nafta, Comunidade Europeia."
+      },
+      {
+        "letra": "B",
+        "texto": "CEE, Otan, Mercosul."
+      },
+      {
+        "letra": "C",
+        "texto": "ONU, União Europeia, Brics."
+      },
+      {
+        "letra": "D",
+        "texto": "Mercosul, Brics, G20."
+      },
+      {
+        "letra": "E",
+        "texto": "G20, Alca, Comunidade Andina."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q29",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q29",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 29,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "As relações internacionais incluem as chamadas “trocas comerciais”, que se caracterizam por acordos bilaterais. O Brasil possui diversos parceiros econômicos, com os quais desenvolve comércio em diversos setores da economia, sendo os principais parceiros:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Portugal, Alemanha e Israel."
+      },
+      {
+        "letra": "B",
+        "texto": "China, EUA e Argentina."
+      },
+      {
+        "letra": "C",
+        "texto": "Argentina, Paraguai e EUA."
+      },
+      {
+        "letra": "D",
+        "texto": "Alemanha, China e Portugal."
+      },
+      {
+        "letra": "E",
+        "texto": "Espanha, EUA e Paraguai."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q30",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q30",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 30,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "As relações internacionais da segunda metade do século XX foram marcadas pela disputa de dois blocos econômicos e políticos com características distintas. Essa disputa ficou conhecida como Guerra Fria, e teve como principais atores políticos:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Alemanha e Israel."
+      },
+      {
+        "letra": "B",
+        "texto": "União Soviética e China."
+      },
+      {
+        "letra": "C",
+        "texto": "Brasil e Rússia."
+      },
+      {
+        "letra": "D",
+        "texto": "Japão e EUA."
+      },
+      {
+        "letra": "E",
+        "texto": "EUA e União Soviética."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q31",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q31",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 31,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "A União Europeia (UE) une diversos países da Europa, principalmente através das relações comerciais, caracterizando a assim chamada “Zona do Euro”. Recentemente, um dos membros da UE decidiu, através de consulta popular, se retirar dessa Comunidade, o que ficou conhecido como “Brexit”. Estamos falando:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "do Reino Unido."
+      },
+      {
+        "letra": "B",
+        "texto": "de Portugal."
+      },
+      {
+        "letra": "C",
+        "texto": "da Alemanha."
+      },
+      {
+        "letra": "D",
+        "texto": "da França."
+      },
+      {
+        "letra": "E",
+        "texto": "do Japão."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q32",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q32",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 32,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "O Mercosul – Mercado Comum do Sul – foi criado para possibilitar a integração dos países latino-americanos e ampliar as relações entre os países membros. Esse bloco foi formado originalmente por Brasil, Argentina, Paraguai e Uruguai e tem como objetivos principais:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o enfrentamento da crise econômica mundial e a ampliação do comércio interno."
+      },
+      {
+        "letra": "B",
+        "texto": "a livre concorrência comercial dos países membros e a proteção aduaneira aos produtos nacionais."
+      },
+      {
+        "letra": "C",
+        "texto": "a política comercial comum e o livre- comércio entre os países-membros."
+      },
+      {
+        "letra": "D",
+        "texto": "o comércio direto entre os países membros e a eliminação das taxas alfandegárias dos produtos agrícolas."
+      },
+      {
+        "letra": "E",
+        "texto": "a proteção do comércio local e a criação da zona de livre comércio das Américas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q33",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q33",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 33,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "A expansão do capitalismo, ao longo do tempo, provocou mudanças no espaço geográfico mundial e local. Neste sentido, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o capitalismo se alimenta das mudanças no espaço geográfico, produzindo novas formas de relações internacionais."
+      },
+      {
+        "letra": "B",
+        "texto": "as mudanças sociogeográficas advindas do capitalismo produzem alterações na natureza de forma irreversível."
+      },
+      {
+        "letra": "C",
+        "texto": "o aumento da produção capitalista gera modificações na natureza e diminui as deficiências no espaço geográfico mundial."
+      },
+      {
+        "letra": "D",
+        "texto": "a exploração da natureza promovida pela expansão capitalista é fator responsável pelas modificações no espaço geográfico e social, implicando, também, a modificação das relações internacionais."
+      },
+      {
+        "letra": "E",
+        "texto": "o capitalismo expandido gera modificações sociais que implicam a reorganização do espaço geográfico social. CONCURSO PÚBLICO – POLÍCIA MILITAR DO ESTADO DO PIAUÍ 9 Noções de Informática"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q35",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q35",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 35,
+    "materia": "Informatica",
+    "materia_original": "Informatica",
+    "dificuldade": "medio",
+    "enunciado": "Ainda quanto à ferramenta MS Word 2007, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O botão Proteger Documento, na guia Revisão, grupo Proteger, permite restringir o modo como as pessoas podem acessar o documento."
+      },
+      {
+        "letra": "B",
+        "texto": "O menu de opções para proteção do documento pode ser acessado através do botão Proteger Documento, na guia Inserir."
+      },
+      {
+        "letra": "C",
+        "texto": "A opção Tabelas Rápidas, do grupo Tabelas, permite definer tabelas com colunas de larguras fixas e linhas com larguras variáveis."
+      },
+      {
+        "letra": "D",
+        "texto": "O botão Cabeçalho e Rodapé, na guia Inserir, grupo Cabeçalho e Rodapé, permite a inserção de um cabeçalho no alto de cada página impressa."
+      },
+      {
+        "letra": "E",
+        "texto": "O botão Bibliografia e Citação, na guia Referências, grupo Citações e Bibliografias, permite a inserção de uma bibliografia que lista todas as fontes citadas no texto."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q38",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q38",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 38,
+    "materia": "Informatica",
+    "materia_original": "Informatica",
+    "dificuldade": "medio",
+    "enunciado": "Considerando o gráfico a seguir, criado com o auxílio da ferramenta MS Excel 2007, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O gráfico pode ser criado através do botão Coluna, na guia Inserir, grupo Todos os Gráficos."
+      },
+      {
+        "letra": "B",
+        "texto": "O estilo do gráfico pode ser modificado através da guia Inserir, grupo Estilo de Gráfico."
+      },
+      {
+        "letra": "C",
+        "texto": "O botão Título dos Eixos, na guia Inserir, grupo Gráficos, permite a inserção do Título do Eixo Vertical Principal e do Título do Eixo Horizontal Principal do referido gráfico."
+      },
+      {
+        "letra": "D",
+        "texto": "Para editar o nome e os valores da Série1 do gráfico, deve-se usar a caixa de diálogo Selecionar Fonte de Dados."
+      },
+      {
+        "letra": "E",
+        "texto": "O número (valor) em que o eixo vertical do gráfico se inicia ou termina pode ser alterado ao clicar no botão Fixa e depois na opção Mínimo ou Máximo da caixa de diálogo Eixo. CONCURSO PÚBLICO – POLÍCIA MILITAR DO ESTADO DO PIAUÍ 11"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q40",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q40",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 40,
+    "materia": "Informatica",
+    "materia_original": "Informatica",
+    "dificuldade": "medio",
+    "enunciado": "Em relação aos sistemas operacionais Windows XP e Windows 7, e à ferramenta de navegação Web MS Internet Explorer 8, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Para excluir o histórico de navegação no MS Internet Explorer 8, clique no menu Segurança, escolha os tipos de dados e arquivos que você quer remover do computador e depois selecione Excluir."
+      },
+      {
+        "letra": "B",
+        "texto": "Para localizar o Painel de Controle no Windows 7, clique na caixa de pesquisa da barra de tarefas, digite painel de controle principal e selecione Painel de Controle."
+      },
+      {
+        "letra": "C",
+        "texto": "Para compartilhar pastas não públicas com outros computadores em uma rede local do Windows 7, clique em Iniciar e em Computador. Navegue até a pasta a ser compartilhada. Clique com o botão direito do mouse na pasta. Selecione Compartilhar Com."
+      },
+      {
+        "letra": "D",
+        "texto": "Para exportar a pasta Favoritos no MS Internet Explorer 8, clique em Favoritos, então clique em Adicionar aos Favoritos e depois em Exportar."
+      },
+      {
+        "letra": "E",
+        "texto": "O Windows XP possui uma ferramenta de backup que é acessível através do Menu Iniciar, Programas, Guia Grupo Acessórios, Grupo Ferramentas de Suporte, e opção Backup. CONCURSO PÚBLICO – POLÍCIA MILITAR DO ESTADO DO PIAUÍ 12 Legislação da Polícia Militar do Piauí"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q42",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q42",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 42,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Com base na Lei nº 3.729, de 27/05/1980, (Conselho de Disciplina da Polícia Militar e do Corpo de Bombeiros Militar do Estado do Piauí), qual o prazo que caberá, em princípio, ao Comandante Geral da Polícia Militar do Piauí, contado da data do recebimento do processo, para apreciar os recursos interpostos, oriundos de Conselho de Disciplina?",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "10 dias."
+      },
+      {
+        "letra": "B",
+        "texto": "15 dias."
+      },
+      {
+        "letra": "C",
+        "texto": "05 dias."
+      },
+      {
+        "letra": "D",
+        "texto": "08 dias."
+      },
+      {
+        "letra": "E",
+        "texto": "20 dias."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q43",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q43",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 43,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com o Regulamento Disciplinar da Polícia do Piauí (Decreto n.º 3.584, de 31 de janeiro de 1980, do Estado do Piauí), o comportamento do policial militar da praça deve ser classificado como excepcional, quando:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "no período de 06 anos de efetivo serviço, não tenha sofrido qualquer punição disciplinar."
+      },
+      {
+        "letra": "B",
+        "texto": "no período de 04 anos de efetivo serviço, não tenha sofrido qualquer punição disciplinar."
+      },
+      {
+        "letra": "C",
+        "texto": "no período de 03 anos de efetivo serviço, não tenha sofrido qualquer punição disciplinar."
+      },
+      {
+        "letra": "D",
+        "texto": "no período de 08 anos de efetivo serviço, não tenha sofrido qualquer punição disciplinar."
+      },
+      {
+        "letra": "E",
+        "texto": "no período de 05 anos de efetivo serviço, não tenha sofrido qualquer punição disciplinar."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q44",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q44",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 44,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "O Regulamento Disciplinar da Polícia Militar do Piauí (Decreto n.º 3.584, de 31 de janeiro de 1980, do Estado do Piauí) prevê que são recursos disciplinares:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o pedido de reconsideração de ato, a queixa e a revisão disciplinar."
+      },
+      {
+        "letra": "B",
+        "texto": "o pedido de reconsideração de ato, a queixa e a representação."
+      },
+      {
+        "letra": "C",
+        "texto": "o pedido de reconsideração de ato, a representação e a revisão disciplinar."
+      },
+      {
+        "letra": "D",
+        "texto": "a revisão disciplinar, a representação e a queixa."
+      },
+      {
+        "letra": "E",
+        "texto": "o pedido de reconsideração de ato, a queixa, a representação e a revisão disciplinar."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q45",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q45",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 45,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Segundo o Estatuto dos Policiais Militares do Estado do Piauí (Lei nº 3.808, de 16 de julho de 1981, do Estado do Piauí), as dispensas do serviço podem ser concedidas aos policiais militares:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "como recompensa, para desconto em férias e em decorrência de prescrição médica, e por ordem judicial."
+      },
+      {
+        "letra": "B",
+        "texto": "por ordem judicial, para desconto em férias e em decorrência de prescrição médica."
+      },
+      {
+        "letra": "C",
+        "texto": "como recompensa, para desconto em férias e em decorrência de prescrição médica."
+      },
+      {
+        "letra": "D",
+        "texto": "como recompensa, por ordem judicial e em decorrência de prescrição médica."
+      },
+      {
+        "letra": "E",
+        "texto": "como recompensa, para desconto em férias e por ordem judicial."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q46",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q46",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 46,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "O Estatuto dos Policiais Militares do Estado do Piauí (Lei nº 3.808, de 16 de julho de 1981, do Estado do Piauí) preconiza que fica sujeito à declaração de indignidade ou de incompatibilidade para o oficialato, por julgamento do órgão competente do Poder Judiciário, o oficial que for condenado por tribunal civil ou militar à pena restritiva de liberdade individual, em decorrência de sentença condenatória passada em julgado, com a declaração por expressa dessa medida, e desde que a referida pena seja superior a, pelo menos,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "02 anos."
+      },
+      {
+        "letra": "B",
+        "texto": "04 anos."
+      },
+      {
+        "letra": "C",
+        "texto": "05 anos."
+      },
+      {
+        "letra": "D",
+        "texto": "06 anos."
+      },
+      {
+        "letra": "E",
+        "texto": "08 anos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q47",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q47",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 47,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com a Lei Estadual nº 3.729, de 27/05/1980, o Conselho de Disciplina da Polícia Militar e do Corpo de Bombeiros Militar do Estado do Piauí será composto por:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "quatro (04) oficiais da corporação policial militar e pelo juiz auditor militar estadual."
+      },
+      {
+        "letra": "B",
+        "texto": "três (03) oficiais da corporação policial militar."
+      },
+      {
+        "letra": "C",
+        "texto": "cinco (05) oficiais da corporação policial militar."
+      },
+      {
+        "letra": "D",
+        "texto": "três (03) oficiais da corporação policial militar e pelo juiz auditor militar estadual."
+      },
+      {
+        "letra": "E",
+        "texto": "cinco (05) oficiais da corporação policial militar e pelo juiz auditor militar estadual. CONCURSO PÚBLICO – POLÍCIA MILITAR DO ESTADO DO PIAUÍ 13 Noções de Direito"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q48",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q48",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 48,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "Quanto aos direitos e garantias fundamentais, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ninguém será submetido à tortura, salvo por força de decisão hierárquica superior."
+      },
+      {
+        "letra": "B",
+        "texto": "é livre a expressão da atividade intelectual, independentemente de censura ou licença."
+      },
+      {
+        "letra": "C",
+        "texto": "é plena a liberdade de associação, inclusive a de caráter paramilitar."
+      },
+      {
+        "letra": "D",
+        "texto": "a lei penal não retroagirá, salvo para condenar o réu."
+      },
+      {
+        "letra": "E",
+        "texto": "é possível haver crime sem lei anterior que o defina."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q49",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q49",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 49,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com a Constituição Federal, quanto aos direitos sociais, é direito do trabalhador:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a irredutibilidade do salário, salvo o disposto em convenção ou acordo coletivo."
+      },
+      {
+        "letra": "B",
+        "texto": "a remuneração do trabalho noturno inferior à do diurno."
+      },
+      {
+        "letra": "C",
+        "texto": "o repouso semanal remunerado, preferencialmente aos sábados."
+      },
+      {
+        "letra": "D",
+        "texto": "o trabalho noturno, perigoso ou insalubre, a partir dos 17 anos de idade."
+      },
+      {
+        "letra": "E",
+        "texto": "o ato de votar e ser votado nas organizações sindicais, desde que não seja aposentado."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q50",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q50",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 50,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com a Constituição Federal, em relação à administração pública, é correto afirmar:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "os cargos, empregos e funções públicas são acessíveis aos brasileiros que preencham os requisitos estabelecidos em lei, mas são vedados aos estrangeiros."
+      },
+      {
+        "letra": "B",
+        "texto": "o prazo de validade do concurso público será de até um ano, prorrogável uma vez, por igual período."
+      },
+      {
+        "letra": "C",
+        "texto": "o direito de greve será exercido nos termos e nos limites definidos em lei específica."
+      },
+      {
+        "letra": "D",
+        "texto": "os vencimentos dos cargos do Poder Executivo e do Poder Judiciário não poderão ser superiores aos pagos pelo Poder Legislativo."
+      },
+      {
+        "letra": "E",
+        "texto": "é permitida a vinculação ou equiparação de quaisquer espécies remuneratórias para o efeito de remuneração de pessoal do serviço público."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q51",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q51",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 51,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com a Constituição Federal, em relação à segurança pública, é correto afirmar:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a polícia federal destina-se a exercer com exclusividade as funções de polícia judiciária da União e dos Estados."
+      },
+      {
+        "letra": "B",
+        "texto": "a polícia federal destina-se a apurar infrações penais em detrimento de bens, serviços e interesses da União e dos Municípios."
+      },
+      {
+        "letra": "C",
+        "texto": "às polícias civis incumbem, ressalvada a competência da União, as funções de polícia judiciária e a apuração de infrações penais, exceto as militares."
+      },
+      {
+        "letra": "D",
+        "texto": "as polícias militares, forças auxiliares e reserva do Exército subordinam-se ao Presidente da República."
+      },
+      {
+        "letra": "E",
+        "texto": "os municípios poderão constituir polícias municipais destinadas a apurar crimes de menor potencial ofensivo."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q52",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q52",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 52,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com o Código Penal Brasileiro, em relação ao crime, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a superveniência de causa relativamente independente exclui a imputação quando, por si só, produziu o resultado; os fatos anteriores, entretanto, imputam-se a quem os praticou."
+      },
+      {
+        "letra": "B",
+        "texto": "a omissão é penalmente irrelevante quando o omitente devia e podia agir para evitar o resultado."
+      },
+      {
+        "letra": "C",
+        "texto": "pune-se a tentativa quando, por ineficácia absoluta do meio ou por absoluta impropriedade do objeto, é impossível consumar-se o crime."
+      },
+      {
+        "letra": "D",
+        "texto": "o erro quanto à pessoa contra a qual o crime é praticado isenta de pena o agressor."
+      },
+      {
+        "letra": "E",
+        "texto": "se o fato é cometido em estrita obediência a ordem, manifestamente ilegal, de superior hierárquico, só é punível o autor da coação ou da ordem."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q54",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q54",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 54,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com o Código Penal Brasileiro, em relação aos crimes contra o patrimônio, é correto afirmar:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "roubo: subtrair, para si ou para outrem, coisa alheia móvel."
+      },
+      {
+        "letra": "B",
+        "texto": "usurpação: constranger alguém, mediante violência ou grave ameaça, e com o intuito de obter para si ou para outrem indevida vantagem econômica, a fazer, tolerar que se faça ou deixar de fazer alguma coisa."
+      },
+      {
+        "letra": "C",
+        "texto": "furto: apropriar-se de coisa alheia móvel, de que tem a posse ou a detenção."
+      },
+      {
+        "letra": "D",
+        "texto": "estelionato: obter, para si ou para outrem, vantagem ilícita, em prejuízo alheio, induzindo ou mantendo alguém em erro, mediante artifício, ardil, ou qualquer outro meio fraudulento."
+      },
+      {
+        "letra": "E",
+        "texto": "extorsão: adquirir, receber, transportar, conduzir ou ocultar, em proveito próprio ou alheio, coisa que sabe ser produto de crime, ou influir para que terceiro, de boa-fé, a adquira, receba ou oculte. CONCURSO PÚBLICO – POLÍCIA MILITAR DO ESTADO DO PIAUÍ 14"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q56",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q56",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 56,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com a Constituição do Estado do Piauí, em relação à segurança pública, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "os municípios não poderão constituir guardas municipais destinadas à proteção de seus bens, serviços e instalações."
+      },
+      {
+        "letra": "B",
+        "texto": "a Polícia Civil tem como atribuições exercer as funções de polícia judiciária e a apuração de infrações penais, inclusive as militares."
+      },
+      {
+        "letra": "C",
+        "texto": "à Polícia Militar cabe o policiamento ostensivo e a preservação da ordem pública."
+      },
+      {
+        "letra": "D",
+        "texto": "os comandos da Polícia Militar e do Corpo de Bombeiros Militar serão exercidos, em princípio, por oficial da ativa do último posto da própria corporação, nomeado por ato do Presidente da República."
+      },
+      {
+        "letra": "E",
+        "texto": "a Polícia Militar e o Corpo de Bombeiros Militar estão vinculados, operacionalmente, ao sistema de segurança pública da União."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q57",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q57",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 57,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "Considerando a Constituição Federal, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "É livre a manifestação do pensamento, sendo permitido o anonimato."
+      },
+      {
+        "letra": "B",
+        "texto": "Todos têm direito a receber dos órgãos públicos informações de seu interesse particular, mas não as de interesse coletivo."
+      },
+      {
+        "letra": "C",
+        "texto": "Não haverá juízo ou tribunal de exceção."
+      },
+      {
+        "letra": "D",
+        "texto": "Nenhuma pena passará da pessoa do condenado, salvo em caso de crime hediondo."
+      },
+      {
+        "letra": "E",
+        "texto": "Admite-se a pena de trabalhos forçados com finalidade de reparação de danos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q59",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q59",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 59,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com o Pacto Internacional dos Direitos Civis e Políticos, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "para a consecução de seus objetivos, todos os povos podem dispor livremente de suas riquezas e de seus recursos naturais, mesmo que em prejuízo das obrigações decorrentes da cooperação econômica internacional."
+      },
+      {
+        "letra": "B",
+        "texto": "nos países em que a pena de morte não tenha sido abolida, esta poderá ser imposta livremente, em conformidade com a legislação vigente na época em que o crime foi cometido."
+      },
+      {
+        "letra": "C",
+        "texto": "admite-se restrição ou suspensão dos direitos humanos fundamentais, reconhecidos ou vigentes em qualquer Estado Parte do Pacto Internacional dos Direitos Civis e Políticos, em virtude de leis, convenções, regulamentos ou costumes, sob o argumento de que o Pacto não os reconheça ou os reconheça em menor grau."
+      },
+      {
+        "letra": "D",
+        "texto": "toda pessoa privada de sua liberdade deverá ser tratada com humanidade e respeito à dignidade inerente à pessoa humana."
+      },
+      {
+        "letra": "E",
+        "texto": "o regime penitenciário consistirá num tratamento cujo objetivo principal é a reforma e a reabilitação normal dos prisioneiros, devendo os infratores juvenis serem encarcerados juntos com os adultos para fins de recuperação."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmpi-soldado-pm-2017-nucepe-uespi-q60",
+    "codigo": "PMPI-SOLDADO-PM-2017-NUCEPE-UESPI-Q60",
+    "orgao": "PMPI",
+    "cargo": "Soldado PM",
+    "ano": 2017,
+    "banca": "NUCEPE/UESPI",
+    "formato": "multipla_escolha",
+    "numero": 60,
+    "materia": "Nocoes de Direito",
+    "materia_original": "Nocoes de Direito",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com a Convenção Contra a Tortura e Outros Tratamentos ou Penas Cruéis, Desumanos ou Degradantes, é correto afirmar que:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "em circunstâncias excepcionais, tais como ameaça ou estado de guerra, instabilidade política interna ou qualquer outra emergência pública, justifica-se a tortura."
+      },
+      {
+        "letra": "B",
+        "texto": "nenhum Estado Parte procederá à expulsão, devolução ou extradição de uma pessoa para outro Estado, quando houver razões substanciais para crer que a mesma corre perigo de ali ser submetida a tortura."
+      },
+      {
+        "letra": "C",
+        "texto": "a ordem de um funcionário superior ou de uma autoridade pública poderá ser invocada como justificação para a tortura."
+      },
+      {
+        "letra": "D",
+        "texto": "não cabe à vítima de ato de tortura o direito à reparação e a uma indenização justa e adequada, sendo suficiente o pedido de desculpas pelo agente do Estado."
+      },
+      {
+        "letra": "E",
+        "texto": "serão consideradas tortura as dores ou sofrimentos que sejam consequência unicamente de sanções legítimas, ou que sejam inerentes a tais sanções ou delas decorram."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "NUCEPE/UESPI",
+    "concurso": "PMPI",
+    "comentario": "Questao oficial PMPI Soldado PM 2017. Banca: NUCEPE/UESPI. Gabarito definitivo: B."
+  }
+]

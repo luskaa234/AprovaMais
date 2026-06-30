@@ -1,0 +1,84 @@
+{
+  "mode": "test",
+  "pageLimit": 20,
+  "questionLimitPerDiscipline": 250,
+  "import": false,
+  "pageHints": {
+    "matematica": [93, 98],
+    "lingua-portuguesa": [],
+    "raciocinio-logico": []
+  },
+  "allowedSubjects": [
+    {
+      "id": "matematica",
+      "name": "Matemática",
+      "url": "https://www.pciconcursos.com.br/simulados/testes-anteriores/matematica"
+    },
+    {
+      "id": "lingua-portuguesa",
+      "name": "Português",
+      "url": "https://www.pciconcursos.com.br/simulados/testes-anteriores/lingua-portuguesa"
+    },
+    {
+      "id": "raciocinio-logico",
+      "name": "Raciocínio Lógico",
+      "url": "https://www.pciconcursos.com.br/simulados/testes-anteriores/raciocinio-logico"
+    }
+  ],
+  "militaryKeywords": [
+    "polícia militar",
+    "policia militar",
+    "bombeiro militar",
+    "corpo de bombeiros",
+    "guarda municipal",
+    "guarda civil municipal",
+    "soldado",
+    "oficial",
+    "cadete",
+    "cbm",
+    "pm-",
+    "pm/",
+    "pm ",
+    "cbm-",
+    "cbm/",
+    "agente de segurança",
+    "agente de seguranca",
+    "concurso militar"
+  ],
+  "excludedKeywords": [
+    "soldador",
+    "bombeiro hidráulico",
+    "bombeiro hidraulico",
+    "bombeiro brigadista",
+    "guarda de segurança patrimonial",
+    "guarda de seguranca patrimonial",
+    "vigia",
+    "segurança patrimonial",
+    "seguranca patrimonial"
+  ],
+  "proofDiscoveryUrls": [
+    "https://www.pciconcursos.com.br/provas/bombeiro",
+    "https://www.pciconcursos.com.br/provas/guarda-municipal",
+    "https://www.pciconcursos.com.br/provas/agente-de-policia"
+  ],
+  "proofSearchTerms": [
+    "policia militar",
+    "soldado policia militar",
+    "bombeiro militar",
+    "guarda municipal",
+    "cadete",
+    "oficial policia militar"
+  ],
+  "manualSources": {
+    "html": [],
+    "pdfs": []
+  },
+  "output": {
+    "storageRoot": "storage/content/concursos-militares/pci",
+    "preview": "storage/content/concursos-militares/pci/test-preview.json",
+    "report": "storage/content/concursos-militares/pci/report.json",
+    "publicQuestions": "public/questoes/militar.json",
+    "publicReport": "public/questoes/pci-militar-report.json",
+    "publicManifest": "public/materiais/pci-militar-manifest.json"
+  }
+}

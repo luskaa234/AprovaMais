@@ -1,0 +1,44 @@
+{
+  "exam": "46º Exame de Ordem Unificado",
+  "source": "FGV/OAB",
+  "sourceUrl": "https://oab.fgv.br/home.aspx?key=649",
+  "collectedAt": "2026-06-10T00:00:30.204Z",
+  "files": [
+    {
+      "title": "Gabaritos definitivos da prova objetiva (1ª fase)",
+      "type": "gabarito",
+      "url": "http://oab.fgv.br/arq/649/103500_oab261_gabarito_definitivo.pdf",
+      "path": "storage/content/oab/46-exame/gabaritos/gabaritos-definitivos-da-prova-objetiva-1-fase-1kizjh.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 1",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/649/561671_ADVOGADO%20OAB(CNS01)%20Tipo%201.pdf",
+      "path": "storage/content/oab/46-exame/provas/caderno-de-prova-tipo-1-1dfntz.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 2",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/649/576035_ADVOGADO%20OAB(CNS01)%20Tipo%202.pdf",
+      "path": "storage/content/oab/46-exame/provas/caderno-de-prova-tipo-2-1liuy6.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 3",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/649/560445_ADVOGADO%20OAB(CNS01)%20Tipo%203.pdf",
+      "path": "storage/content/oab/46-exame/provas/caderno-de-prova-tipo-3-18v5bp.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 4",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/649/559136_ADVOGADO%20OAB(CNS01)%20Tipo%204.pdf",
+      "path": "storage/content/oab/46-exame/provas/caderno-de-prova-tipo-4-8l7j5p.pdf"
+    },
+    {
+      "title": "Gabaritos Preliminares da Prova Objetiva (1ª Fase) - Atualizado em 04.05.2026",
+      "type": "gabarito",
+      "url": "http://oab.fgv.br/arq/649/402132_OAB46%20Gabaritos%20para%20publica%c3%a7%c3%a3o%20v20260504%20(1).pdf",
+      "path": "storage/content/oab/46-exame/gabaritos/gabaritos-preliminares-da-prova-objetiva-1-fase-atualizado-em-04.05.2026-1wy91d.pdf"
+    }
+  ]
+}

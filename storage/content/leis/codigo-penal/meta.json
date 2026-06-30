@@ -1,0 +1,9 @@
+{
+  "id": "codigo-penal",
+  "nome": "Codigo Penal",
+  "nome_curto": "Codigo Penal",
+  "tipo": "Codigo",
+  "categoria": "Penal",
+  "materia": "Direito Penal",
+  "fonte": "planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm"
+}

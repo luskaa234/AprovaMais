@@ -1,0 +1,50 @@
+{
+  "exam": "13º Exame de Ordem Unificado",
+  "source": "FGV/OAB",
+  "sourceUrl": "https://oab.fgv.br/home.aspx?key=421",
+  "collectedAt": "2026-06-10T00:01:58.971Z",
+  "files": [
+    {
+      "title": "Padrão de Respostas Definitivo - Direito Administrativo",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/421/20140624050152-padrao%20de%20resposta%20definitivo%20-%20direito%20administrativo.pdf",
+      "path": "storage/content/oab/13-exame/segunda-fase/padrao-de-respostas-definitivo-direito-administrativo-cxm10m.pdf"
+    },
+    {
+      "title": "Padrão de Respostas Definitivo - Direito Constitucional",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/421/20140624050248-padrao%20de%20resposta%20definitivo%20-%20direito%20constitucional.pdf",
+      "path": "storage/content/oab/13-exame/segunda-fase/padrao-de-respostas-definitivo-direito-constitucional-32ggt9.pdf"
+    },
+    {
+      "title": "Padrão de Respostas Definitivo - Direito Empresarial",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/421/20140624050350-padrao%20de%20resposta%20definitivo%20-%20direito%20empresarial.pdf",
+      "path": "storage/content/oab/13-exame/segunda-fase/padrao-de-respostas-definitivo-direito-empresarial-1ktle9.pdf"
+    },
+    {
+      "title": "Padrão de Respostas Definitivo - Direito Civil",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/421/20140624050439-padrao%20de%20resposta%20definitivo%20-%20direito%20civil.pdf",
+      "path": "storage/content/oab/13-exame/segunda-fase/padrao-de-respostas-definitivo-direito-civil-1uulqs.pdf"
+    },
+    {
+      "title": "Padrão de Respostas Definitivo - Direito Penal",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/421/20140624050530-padrao%20de%20resposta%20definitivo%20-%20direito%20penal.pdf",
+      "path": "storage/content/oab/13-exame/segunda-fase/padrao-de-respostas-definitivo-direito-penal-1qmwlk.pdf"
+    },
+    {
+      "title": "Padrão de Respostas Definitivo - Direito Tributário",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/421/20140624050617-padrao%20de%20resposta%20definitivo%20-%20direito%20tributario.pdf",
+      "path": "storage/content/oab/13-exame/segunda-fase/padrao-de-respostas-definitivo-direito-tributario-bvt3ot.pdf"
+    },
+    {
+      "title": "Padrão de Respostas Definitivo - Direito do Trabalho",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/421/20140625091937-padrao%20de%20resposta%20definitivo%20-%20direito%20do%20trabalho.pdf",
+      "path": "storage/content/oab/13-exame/segunda-fase/padrao-de-respostas-definitivo-direito-do-trabalho-1nnt0p.pdf"
+    }
+  ]
+}

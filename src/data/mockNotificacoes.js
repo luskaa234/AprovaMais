@@ -1,0 +1,1 @@
+export const mockNotificacoes = Array.from({ length: 8 }, (_, index) => ({ id: `n${index + 1}`, type: ["info", "success", "warning", "error"][index % 4], title: ["Revisão", "Meta", "Simulado", "Sistema"][index % 4], message: "Evento importante para sua rotina de estudos.", read: index > 2, date: `2026-06-0${index + 1}` }));

@@ -1,0 +1,3227 @@
+[
+  {
+    "id": "pmam-oficial-2021-fgv-q001",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q001",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 1,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": " Para fins de avaliação, serão levadas em consideração apenas as marcações realizadas n a folh a de respostas e no caderno de textos definitivos;  A FGV coletará as impressões digitais dos c andidatos na folha de respostas;  Os candidatos ser ão submetidos a o sistema de detecção de metais quando do ingresso e da saída de sanitários durante a realização das provas;  Boa sorte! Polícia Militar do Estado do Amazonas Língua Portuguesa Todas as questões desta prova se apoiam em pequenos textos e pretendem avaliar a sua capacidade de interpretar / compreender textos e de redigir de forma correta e adequada. ATENÇÃO: o texto a seguir refere - se às questões 1, 2 e 3. “Os deuses certamente não revelaram tudo aos mortais desde o princípio, mas, procurando, os homens encontram pouco a pouco o melhor”. (Xenófanes, poeta e filósofo grego) Nessa frase, a forma reduzida de gerúndio – procurando – equivale à forma desenvolvida",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "quando procuram."
+      },
+      {
+        "letra": "B",
+        "texto": "se procurarem."
+      },
+      {
+        "letra": "C",
+        "texto": "já que procuram."
+      },
+      {
+        "letra": "D",
+        "texto": "embora procurem."
+      },
+      {
+        "letra": "E",
+        "texto": "após procurarem."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q002",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q002",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 2,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Nessa mesma frase, a primeira oração – Os deuses certamente não revelaram tudo aos mortais desde o princípio – apresenta seus termos em ordem direta, ou seja, sujeito + verbo + complementos + adjunto adverbial. Assinale a frase a seguir cujos termos também se apresentam em ordem direta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A guerra, assim como é a mad rasta dos covardes, é mãe dos corajosos."
+      },
+      {
+        "letra": "B",
+        "texto": "Nunca houve uma guerra boa nem uma paz ruim."
+      },
+      {
+        "letra": "C",
+        "texto": "A guerra é menos provável se somos mais fortes."
+      },
+      {
+        "letra": "D",
+        "texto": "Em meio às armas, as leis calam."
+      },
+      {
+        "letra": "E",
+        "texto": "A guerra, quase sempre, nutre a si mesma."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q003",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q003",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 3,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Nessa mesma frase “Os deuses certamente não revelaram tudo aos mortais desde o princípio, mas, procurando, os homens encontram pouco a pouco o melhor”, há uma locução adverbial sublinhada que equivale adequadamente ao advérbio",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "vagarosamente."
+      },
+      {
+        "letra": "B",
+        "texto": "seguramente."
+      },
+      {
+        "letra": "C",
+        "texto": "firmemente."
+      },
+      {
+        "letra": "D",
+        "texto": "pa ulatinamente."
+      },
+      {
+        "letra": "E",
+        "texto": "progressivamente."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q004",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q004",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 4,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase a seguir que é construída sem qualquer palavra substantivada.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Os deuses certamente não revelaram tudo aos mortais desde o princípio, mas, procurando, os homens encontram pouco a pouco o melhor."
+      },
+      {
+        "letra": "B",
+        "texto": "A ciência consiste em substituir o saber que parecia seguro por uma teoria, ou seja, por algo problemático."
+      },
+      {
+        "letra": "C",
+        "texto": "São todos descobridores ruins, que pensam que não há terra quando conseguem ver apenas o mar."
+      },
+      {
+        "letra": "D",
+        "texto": "A descoberta consiste em ver o que todos vira m e em pensar o que ninguém pensou."
+      },
+      {
+        "letra": "E",
+        "texto": "O provar os frutos da árvore da ciência foi proibido por Deus. Aluno Oficial da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q005",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q005",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 5,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase que mostra uma visão positiva da ciência.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A ciência consiste em substituir o saber que parecia seguro por uma teoria, ou seja, por algo problemático."
+      },
+      {
+        "letra": "B",
+        "texto": "Essa é a essência da ciência: faça uma pergunta impertinente e você cairá no caminho da resposta pertinente."
+      },
+      {
+        "letra": "C",
+        "texto": "A ciência é o grande antídoto ao veneno do entusiasmo e da superstição."
+      },
+      {
+        "letra": "D",
+        "texto": "Creio que o único objetivo da ciência consi sta em aliviar a fadiga da existência humana."
+      },
+      {
+        "letra": "E",
+        "texto": "Todas as ciências exatas trabalham sem exatidão."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q006",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q006",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 6,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Observe a frase: “A ciência consiste em substituir o saber que parecia seguro por uma teoria, ou seja, por algo problemático”. Nessa frase, a expressão ou seja tem a função de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "explicar o significado de teoria para o autor."
+      },
+      {
+        "letra": "B",
+        "texto": "acrescentar uma informação ao que já tinha sido dito."
+      },
+      {
+        "letra": "C",
+        "texto": "retificar uma falha na afirmação anterior."
+      },
+      {
+        "letra": "D",
+        "texto": "confirmar, por redundância, uma ideia já expressa."
+      },
+      {
+        "letra": "E",
+        "texto": "tornar humorística u ma informação já prestada."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q007",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q007",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 7,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Observe a estruturação da seguinte frase: “A descoberta consiste em ver o que todos viram e em pensar o que ninguém pensou.” A mesma correspondência de tempos verbais aparece de forma adequada em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "manter o que todos manteram."
+      },
+      {
+        "letra": "B",
+        "texto": "prover o que todos provieram."
+      },
+      {
+        "letra": "C",
+        "texto": "trazer o que todos trazeram."
+      },
+      {
+        "letra": "D",
+        "texto": "intervir no que todos intervieram."
+      },
+      {
+        "letra": "E",
+        "texto": "requerer o que todos requiseram."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q008",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q008",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 8,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Observe a seguinte frase: “Os que se encantam com a prática sem a ciência são como os timoneiros que entram no navio sem timão nem bússola, nunca tendo certeza de seu destino.” A argumentação do presente pensamento se apoia em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "argumentos de autoridade."
+      },
+      {
+        "letra": "B",
+        "texto": "argumento de reciprocidade."
+      },
+      {
+        "letra": "C",
+        "texto": "demonstração pelo absurdo."
+      },
+      {
+        "letra": "D",
+        "texto": "citação de exemplos."
+      },
+      {
+        "letra": "E",
+        "texto": "raciocín io por analogia."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q009",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q009",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 9,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O célebre biólogo Pasteur disse: “A ciência não tem pátria!” Com isso, ele pretende dizer que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não importa o inventor, mas sim o invento."
+      },
+      {
+        "letra": "B",
+        "texto": "a ciência é um conhecimento abstrato, que não se prende a um país."
+      },
+      {
+        "letra": "C",
+        "texto": "o local onde algo foi criado não é importante."
+      },
+      {
+        "letra": "D",
+        "texto": "todos os homens colaboram para o desenvolvimento da ciência."
+      },
+      {
+        "letra": "E",
+        "texto": "os bens trazidos pela ciência pertencem à humanidade.  Tipo Branca – Página 3 Polícia Militar do Estado do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q010",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q010",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 10,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Observe o seguinte pensamento de C. Bernard: “O observador deve ser o fotógrafo da natureza, sua observação deve representar exatamente a natureza. É preciso observar sem ideias preconcebidas; o espírito do observador deve ser passivo, ou seja, deve calar - se; ele ouve a natureza e escreve o que ela dita.” Assinale a frase abaixo que mostra a completa isenção do observador diante da natureza observada.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O vento impressionante perturbava a paisagem."
+      },
+      {
+        "letra": "B",
+        "texto": "A ventania agitava as folhas das árvores."
+      },
+      {
+        "letra": "C",
+        "texto": "O vento trazia muita inquietação aos pobres moradores."
+      },
+      {
+        "letra": "D",
+        "texto": "Nunca ventara tanto naquele pequenino lugar."
+      },
+      {
+        "letra": "E",
+        "texto": "A aldeia tremia de medo sob a forte ventania. Geografia do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q011",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q011",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 11,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "“A Amazônia, segundo o modelo de desenvolvimento adotado pelo Brasil, é considerada como “terras inabitáveis”, “lugares inóspitos” e “estradas que ligam nada a lugar ne nhum”, ou alguns termos mais técnicos como “vazio demográfico”. Além de apontar ausências sobre as amazônias, localizam a região no plano em que nada há, tudo pode ser feito. Isso reforça a região como fronteira de expansão e/ou potencial fornecedora de ma térias - primas. O modelo de desenvolvimento ambientalmente predatório e socialmente excludente tem levado a violações de direitos recorrentes das populações que nela residem.” ( GONÇALVES, Carlos W. P. Amazônia, Amazônias. Ed. Contexto. São Paulo. 2001.) A e sse respeito, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Os atores presentes no território devem estabelecer um pacto de desenvolvimento sustentável, em harmonia com os interesses externos, com base no potencial energético e mineral ou como fronteira de expansão agrícola."
+      },
+      {
+        "letra": "B",
+        "texto": "Os conflitos pela terra entre “posseiros” e “grileiros”, que se concentram nos altos relevos da “terra - firme”, são resolvidos com a instalação de “assentamentos” que contam com infraestrutura para escoamento da produção."
+      },
+      {
+        "letra": "C",
+        "texto": "Os danos e ameaça s aos povos da floresta vêm tanto pela via da expropriação direta da terra quanto pela inviabilização da vida via degradação ambiental, com a contaminação de rios, o esgotamento dos solos e o extrativismo predatório."
+      },
+      {
+        "letra": "D",
+        "texto": "Os direitos de indígenas, de possei ros ou de ribeirinhos cabem nesse “desenvolvimento”, uma vez que a racionalidade do uso desse território, que só é “útil” uma parte do ano, sustenta a ideia de que as pessoas estariam no lugar certo."
+      },
+      {
+        "letra": "E",
+        "texto": "O uso das vias líquidas para escoamento da produção e acesso aos serviços de educação e saúde é garantido pela construção de grandes barragens que mantêm o ciclo de enchentes e vazantes dos rios, assim como o curso das águas fluviais. Aluno Oficial da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q012",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q012",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 12,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“As florestas amazônicas apresentam um funcionamento autossustentado. Para formar a densa biomassa que possuem, necessitam de uma alta taxa de fotossíntese e da disponibilidade de nutrientes. As condições climáticas locais permitem que a fotossíntese funcione com alto índice de produtividade e uma produção elevada de biomass a e o aspecto peculiar da floresta é que ela não vive dos nutrientes dos solos.” ( ROSS, Jurandyr (org.) Geografia do Brasil. EDUSP. São Paulo. 3ª. Ed. 2005.) A esse respeito, analise as afirmativas a seguir. I. As florestas vivem sobre o solo, realizando a ciclagem de nutrientes por meio de um sistema próprio no qual a principal fonte alimentar não são os estoques dos solos. II. A ciclagem é realizada pela própria floresta de forma rápida e eficiente, através do manto de detritos (folhas e troncos caídos), quase não havendo exportação para os rios. III. Nas áreas que sofreram desmatamento, o grande dano ambiental reside na perda do sistema de reciclagem e, em consequência, o rápido empobrecimento dos solos. Está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "I e II, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "I e III, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "II e III, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "I, II e III."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q013",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q013",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 13,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "“A Amazônia desempenha um papel importante no ciclo de carbono planetário, e pode ser considerada como uma região de grande risco do ponto de vista das influências das mudanças climáticas. O atual equilíbrio dinâmico da atmosfera amazônica está sujeito a forças de transformação que levam às variações climáticas.” ( NOBRE, Carlos A. SAMPAIO, Gilvan. SALAZAR, Luís. Mudanças climáticas e Amazônia.) A respeito dessas variações climáticas, analise as afirmativas a seguir. I. Podem ser decorrentes de causas naturais, como é o caso específico das variações climáticas decorrentes do aquecimento das águas do Oceano Pacífico ( El Niño ). II. Podem ser decorrentes das alterações no uso d a terra, como o desmatamento de sistemas florestais para transformação em sistemas agrícolas e/ou pastagens. III. Podem ser decorrentes das mudanças no ciclo hidrológico, como o aumento da evapotranspiração devido à derrubada da cobertura florestal. Está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "I e II, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "I e III, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "II e III, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "I, II e III.  Tipo Branca – Página 4 Polícia Militar do Estado do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q014",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q014",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 14,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "A demanda por terra, a principal responsável pelo desmatamento da floresta tropical úmida, deve continuar intensa. Com isso, a libe ração contínua de carbono para a atmosfera, proveniente da queima de árvores, deve se manter elevada. Sobre os impactos do desmatamento e das queimadas, assinale a afirmativa incorreta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A perda da biodiversidade: as espécies perdem seu habitat ou não conseguem sobreviver nos pequenos fragmentos florestais que restam."
+      },
+      {
+        "letra": "B",
+        "texto": "Os impactos sociais: a redução da floresta diminui a possibilidade de ribeirinhos usufruírem os benefícios dos recursos naturais que ela oferece."
+      },
+      {
+        "letra": "C",
+        "texto": "A alteração do ciclo hidrológico: o desmatamento reduz a evapotranspiração que gera a umidade dos “rios voadores” que se deslocam para o Centro - Sul."
+      },
+      {
+        "letra": "D",
+        "texto": "O aumento das emissões de carbono: o desmatamento reduz a capacidade de absorção do gás carbônico (CO 2 ) e as queimadas aumentam a quanti dade de CO 2 liberado para a atmosfera."
+      },
+      {
+        "letra": "E",
+        "texto": "A ruptura do equilíbrio solo/floresta: o desmatamento acelera o processo de lixiviação que dissolve e retira os nutrientes dos solos, principais responsáveis pela exuberância da floresta."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q015",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q015",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 15,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Analise o mapa a segui r. Como estratégia de colonização, predominou a construção das rodovias no sentido norte - sul, à exceção da Transamazônica, no sentido transversal (leste - oeste). O objetivo era estimular o acesso às áreas com possibilidade de exploração produtiva e de sol os mais favoráveis à implantação da agropecuária, além de privilegiar as relações da Amazônia com as demais regiões brasileiras. A esse respeito, analise as afirmativas a seguir e assinale V para a verdadeira e F para a falsa. ( ) Os eixos viários consol idaram o modelo de desmatamento e de extração madeireira para implantação da agropecuária, cujos agentes passaram a usar os eixos viários para escoar a produção. ( ) Os eixos de circulação reorganizaram as formas de vida coletiva na região, passando das margens dos rios, da produção e do cotidiano ribeirinho para as margens das estradas. ( ) As rodovias incorporaram a natureza ao circuito mercantil, criando uma infr aestrutura logística capaz de alimentar a biodiversidade e garantir o acesso aos mercados externos. As afirmativas são, na ordem apresentada, respectivamente,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "V – V – V."
+      },
+      {
+        "letra": "B",
+        "texto": "F – V – V."
+      },
+      {
+        "letra": "C",
+        "texto": "V – V – F."
+      },
+      {
+        "letra": "D",
+        "texto": "V – F – V."
+      },
+      {
+        "letra": "E",
+        "texto": "V – F – F. Aluno Oficial da PM FGV História do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q016",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q016",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 16,
+    "materia": "Historia, Geografia e Atualidades",
+    "materia_original": "Historia, Geografia e Atualidades",
+    "dificuldade": "medio",
+    "enunciado": "Leia o trecho a seguir sobre uma das expedições europeias de conquista da Amazônia. “As notícias que chegaram a Lima, através dos sobreviventes da expedição de 1545 - 1546 de Orellana, reavivaram no Peru a crença já existente de países fabulos amente ricos perdidos nas florestas equatoriais: o El Dorado, o Lago de Paititi, a Gran Omagua, o País das Esmeraldas. Nos anos seguintes, diversas expedições percorreram a vertente oriental dos Andes na procura inútil dessa miragem; a mais famosa, não pel o resultado, mas pelos dramas humanos que envolveu, foi a que desceu o Marañón e todo o Amazonas até o Atlântico, em 1560 - 61.” (Adaptado de SANTOS, Francisco Jorge dos. História Geral da Amazônia, Editora MemVavMem, 2007, p. 37.) Assinale a opção que identifica corretamente quem protagonizou a expedição “mais famosa” descrita no texto.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Pedro Teixeira."
+      },
+      {
+        "letra": "B",
+        "texto": "Gonzalo Pizarro."
+      },
+      {
+        "letra": "C",
+        "texto": "Vincente Pinzón."
+      },
+      {
+        "letra": "D",
+        "texto": "Francisco de Orellana."
+      },
+      {
+        "letra": "E",
+        "texto": "Pedro de Ursúa e Lope de Aguirre."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Historia, Geografia e Atualidades."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q017",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q017",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 17,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Os líderes do levante separatista na Barra do Rio Negro, reunidos em um Conselho Extraordinário em junho de 1832, deliberaram as providências necessárias para responder às queixas contra as autoridades da capital da província: Que a comarca do Rio Negro ficasse desligada da província do Pará e do seu governo; que se elegesse um governo temporário assim como um secretário, para dar direção aos negócios civis e políticos da comarca; que se nomeasse temporariamente um comandante mi litar, a quem ficaria pertencendo o regime da força armada. Enfim que se enviasse quanto antes à Corte um procurador com plenos poderes para tratar a aprovação destes atos Adaptação da Ata do Conselho Extraordinário de 22/06/1832, apud RAIOL, Domingos Ant ônio. Motins Políticos. Vol.1. Belém: Um. Federal do Pará, 1970, p. 257. Com base no trecho citado, é correto afirmar que o Levante da Barra de 1832 visava",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "regularizar o pagamento do soldo aos praças do quartel da Barra e criar um plano de carreira par a os militares."
+      },
+      {
+        "letra": "B",
+        "texto": "enviar para Lisboa um procurador que advogasse a causa dos revoltosos junto às Cortes lusas."
+      },
+      {
+        "letra": "C",
+        "texto": "lutar contra a subordinação política do Rio Negro ao Grão Pará com base em ideais autonomistas."
+      },
+      {
+        "letra": "D",
+        "texto": "restaurar as companhias de comércio mon opolistas que atuavam no Alto Amazonas"
+      },
+      {
+        "letra": "E",
+        "texto": "incorporar o Pará à nova província rionegrina e destituir o presidente do Grão Pará.  Tipo Branca – Página 5 Polícia Militar do Estado do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q018",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q018",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 18,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Francisco Xavier de Mendonça Furtado foi governador e capitão - general do Estado do Grão - Pará e Maranhão de 1751 a 1759, período durante o qual implementou um projeto de revitalização e de reordenamento administrativo da região amazônica, recém incorporada ao império luso pelo Tratado de Madri (1750). A respeito do projeto pombalino para a Amazônia colonial, assinale a afirmativa que descreve corretamente medidas do governo de Mendonça Furtado.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Emancipou os indígenas, que poderiam escolher se queriam se tornar súditos de Portugal ou da Espanha."
+      },
+      {
+        "letra": "B",
+        "texto": "Criou uma companhia geral de comércio para o Grão - Pará e Maranhão de caráter monopolista."
+      },
+      {
+        "letra": "C",
+        "texto": "Estabeleceu o Regimento das Missões, autorizando a guerra justa contra os índios destribalizados."
+      },
+      {
+        "letra": "D",
+        "texto": "Erigiu o Forte do Presépio em Belém e o integrou a um sistema de novas fortificações defensivas."
+      },
+      {
+        "letra": "E",
+        "texto": "Promulgou o Diretório dos Índios, para os missionários persuadirem os nativos a viver nos aldeamentos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q019",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q019",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 19,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "“A cidade de Manaus vivenciou, durante a segunda metade do século XIX, um surto modernizador proporcionado pela economia da extração da goma elástica. Ao experimentar essa dita modernidade, criou - se um discurso engrandecedor, enaltecedor que apresentava a cidade como um local de civilidade, de grandeza e riqueza e xacerbada, um local de elite e para elite na qual tudo se importava do exterior.” (BRAGA, B. Miranda. “A cidade, os índios e a belle époque: Manaus no final do século XIX” in Rev. Hist. UEG, 2016, p. 103.) As afirmativas a seguir descrevem corretamente a b elle époque manauara, à exceção de uma. Assinale - a.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A renovação da cidade foi influenciada pelas reformas urbanísticas de Haussmann em Paris."
+      },
+      {
+        "letra": "B",
+        "texto": "A ocidentalização da cidade era enfatizada pela adoção de estilos europeus, como art nouveau e eclético."
+      },
+      {
+        "letra": "C",
+        "texto": "A construção do Teatro Amazonas visava divulgar a ideia de uma cidade rica e civilizada em meio à selva"
+      },
+      {
+        "letra": "D",
+        "texto": "A valorização do passado colonial, índio e caboclo, era integrada ao processo de modernização."
+      },
+      {
+        "letra": "E",
+        "texto": "O Mercado Adolpho Lisboa foi erguido à margem do Rio Negro e simbolizava a moderna arquitetura em ferro."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q020",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q020",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 20,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Avalie se, a respeito da decadência da economia gomífera, pode - se afirmar que: I. o declínio dos preços internacionais da borracha deveu - se à produção asiática que, pós 1910, aumentou de forma expressiva, tornando - se forte concorrente da produção amazônica e acarretando queda nas exportações. II. a produção na Ásia foi feita com mudas brasileiras tecnicamente melhoradas, sobre as quais foi aplicado o modelo extrativista amazônico, que, em função do clima asiático, alcançou maior produtividade. III. para enfrentar a crise, o governo central buscou promover a ocupação do espaço amazônico com a imigração da população e com investimentos, inclusive estrangeiros, como de Henry Ford para a Fordlândia, no Pará. Está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "II, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "I e III, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "II e III, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "I, II e III. Aluno Oficial da PM FGV Legislação Institucional"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q021",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q021",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 21,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em tema de hierarquia e disciplina, como base institucional da Polícia Militar, o Estatuto dos Policiais Militares do Estado do Amazonas (Lei Estadual nº 1.154/75) dispõe que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "disciplina e respeito à hierarquia devem ser mantidos em todas as circunstâncias da vida dos policiais militares da ativa, excluída a obrigação em relação àque les que já passaram à reserva remunerada e foram reformados."
+      },
+      {
+        "letra": "B",
+        "texto": "respeito à hierarquia é consubstanciado no espírito de acatamento à sequência de autoridade, sendo que a graduação é o grau hierárquico do oficial, conferido pelo Secretário de Estado de Segu rança Pública."
+      },
+      {
+        "letra": "C",
+        "texto": "respeito à hierarquia é consubstanciado no espírito de acatamento à sequência de autoridade, sendo que a graduação é o grau hierárquico do oficial, conferido pelo Comandante - Geral da Polícia Militar."
+      },
+      {
+        "letra": "D",
+        "texto": "hierarquia policial militar é a ordenação da autoridade em níveis diferentes, dentro da estrutura da Polícia Militar, sendo que a ordenação se faz por classes ou graduações; dentro de uma mesma classe ou graduação se faz pelo merecimento na categoria."
+      },
+      {
+        "letra": "E",
+        "texto": "disciplina é a rigorosa observân cia e o acatamento integral das leis, regulamentos, normas e disposições que fundamentam o organismo policial militar e coordenam seu funcionamento regular e harmônico, traduzindo - o pelo perfeito cumprimento do dever por parte de todos e de cada um dos com ponentes desse organismo."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q022",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q022",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 22,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Em matéria de prisão de policial militar, o Estatuto dos Policiais Militares do Estado do Amazonas (Lei Estadual nº 1.154/75) prevê que somente em caso de flagrante delito, o policial militar poderá ser preso por autoridade",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "judicial, ficando esta obrigada a entregá - lo imediatamente à autoridade policial militar mais próxima, só podendo retê - lo na delegacia ou no fórum durante o tempo necessário à formalização da prisão."
+      },
+      {
+        "letra": "B",
+        "texto": "ministerial, ficando o Promotor de Justiça obrigad o a entregá - lo imediatamente à autoridade policial civil mais próxima, só podendo retê - lo no Ministério Público durante o tempo necessário à comunicação da prisão."
+      },
+      {
+        "letra": "C",
+        "texto": "judicial, ficando esta obrigada a entregá - lo imediatamente à autoridade policial civil mais próxima, só podendo retê - lo na delegacia ou no fórum durante o tempo necessário à comunicação da prisão."
+      },
+      {
+        "letra": "D",
+        "texto": "policial, ficando esta obrigada a entregá - lo imediatamente à autoridade policial militar mais próxima, só podendo retê - lo na delegacia ou pos to policial durante o tempo necessário à lavratura do flagrante."
+      },
+      {
+        "letra": "E",
+        "texto": "pública, ficando esta obrigada a entregá - lo imediatamente à autoridade policial civil mais próxima, só podendo retê - lo no órgão público durante o tempo necessário à comunicação da prisão.  Tipo Branca – Página 6 Polícia Militar do Estado do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q023",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q023",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 23,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "A Policial Militar Maria conta com seis anos de efetivo serviço prestado à Polícia Militar do Estado do Amazonas e deseja gozar licença para tratar de interesse particular, obtendo autorização para afastamento total do serviço. De acordo com o Estatuto dos Policiais Militares do Estado do Amazonas (Lei Estadual nº 1.154/75), Maria",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não faz jus à licença pretendida, que poderá ser obtida quando tiver mais de 10 (dez) anos de efetivo serviço e, caso deferida, será concedida com prejuízo da remuneração e da contagem do tempo de efetivo serviço."
+      },
+      {
+        "letra": "B",
+        "texto": "não faz jus à licença pretendida, que poderá ser obtida quando tiver mais de 15 (quinze) anos de efetivo serviço e, caso deferida, será concedida sem prejuízo da remuneração e da contagem do tempo de efetivo serviço."
+      },
+      {
+        "letra": "C",
+        "texto": "faz jus à licença pretendida, pois já conta mais de 5 (cinco) anos de efetivo serviço e, caso deferida, será concedida com prejuízo da remuneração e da contagem do tempo de efetivo serviço."
+      },
+      {
+        "letra": "D",
+        "texto": "faz jus à licença pretendida, pois já conta mais de 5 (cinco) anos de efetivo serviço e, caso deferida, será concedida sem prejuízo da remuneração e da contagem do tempo de efetivo serviço."
+      },
+      {
+        "letra": "E",
+        "texto": "faz jus à licença pretendida, pois já conta mais de 3 (três) anos de efetivo serviço e, caso deferida, será concedida com prejuízo da remuneração e da contagem do tempo de efetivo serviço."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q025",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q025",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 25,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "A Lei de Organização Básica da Polícia Militar do Estado do Amazonas (Lei nº 3.514/2010), em tema de estrutura organizacional, dispõe que os Órgãos de Execução se destinam",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ao atendimento das necessidades de recursos humanos, ensino e logística dentre outras, realizando as atividades - meio da Corporação, como a Diretoria de Apoio Logístico, que é o órgão de direção setorial responsável pela coordenação, fiscalização e controle das atividades de suprimento geral e manutenção de material."
+      },
+      {
+        "letra": "B",
+        "texto": "à realização das atividades - fim da instituição que, de acordo com as peculiaridades, compreendem, entre outros, as chamadas Unidades, que são organizações policiais militares, com responsabilidade territorial definida, consti tuídas em razão da reunião de Subunidades e de Frações, podendo receber as denominações de Batalhão ou Regimento."
+      },
+      {
+        "letra": "C",
+        "texto": "ao atendimento das atividades - meio da instituição, como a Diretoria de Finanças, que é o órgão de direção setorial responsável pela admini stração financeira, orçamentária, contábil, auditoria, convênios e contratos, a quem cabe supervisionar as atividades financeiras de todos os órgãos da corporação e distribuir recursos orçamentários."
+      },
+      {
+        "letra": "D",
+        "texto": "à realização das atividades - fim e meio da instituiçã o, de acordo com as peculiaridades, que compreendem, entre outros, a Diretoria de Treinamento e Capacitação, que é o órgão de direção setorial responsável pela coordenação, fiscalização e controle das atividades de treinamento e capacitação."
+      },
+      {
+        "letra": "E",
+        "texto": "à realizaç ão das atividades - fim e meio da instituição, de acordo com as peculiaridades, que compreendem, entre outros, a Diretoria de Tecnologia da Informação (DTI), que é o órgão de direção setorial responsável pelo planejamento, coordenação, operacionalização, con trole e execução das atividades de tecnologia da informação."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q026",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q026",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 26,
+    "materia": "Informatica",
+    "materia_original": "Informatica",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com a Lei nº 1.116/1974 (Lei de Promoção de Oficiais da Polícia Militar do Estado do Amazonas ), as promoções são efetuadas pelo critério de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "antiguidade e merecimento, sendo vedada promoção por bravura e em ressarcimento de preterição."
+      },
+      {
+        "letra": "B",
+        "texto": "merecimento e bravura, send o vedada promoção post mortem e em ressarcimento de preterição."
+      },
+      {
+        "letra": "C",
+        "texto": "antiguidade; merecimento; bravura; sendo vedada promoção post mortem e em ressarcimento de preterição."
+      },
+      {
+        "letra": "D",
+        "texto": "merecimento; antiguidade; bravura; de forma alternada, sendo vedada promoção em ressarcimento de preterição."
+      },
+      {
+        "letra": "E",
+        "texto": "antiguidade; merecimento; bravura; post mortem; e, em casos extraordinários, poderá haver promoção em ressarcimento de preterição.  Tipo Branca – Página 7 Polícia Militar do Estado do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Informatica."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q027",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q027",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 27,
+    "materia": "Informatica",
+    "materia_original": "Informatica",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com a Lei de Organização Básica da Polícia Militar do Estado do Amazonas (Lei nº 3.514/2010), o órgão que funciona co mo fórum de discussão, buscando soluções para os problemas complexos de interesse da Instituição e da defesa social é chamado",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Ouvidoria - Geral da Polícia Militar, que é responsável pelo estudo, planejamento, coordenação, fiscalização, controle e avaliação das atividades administrativas da Corporação, e é chefiada privativamente por um Coronel PM, da ativa, do Quadro de Oficiais Policiais Militares."
+      },
+      {
+        "letra": "B",
+        "texto": "Estado Maior, que é responsável pelo estudo, planejamento, coordenação, fiscalização, controle e avaliação das atividades administrativas da Corporação, competindo - lhe a elaboração de sugestão das diretrizes e ordens do comando que acionam os órgãos de direção setorial, de apoio e de execução."
+      },
+      {
+        "letra": "C",
+        "texto": "Estado Maior, que é responsável pelo estudo, planejam ento, coordenação, fiscalização, controle e avaliação das atividades administrativas da Corporação, e é chefiado privativamente por um Coronel PM, da ativa, do Quadro de Oficiais Policiais Militares que necessariamente tenha Curso Superior de Polícia ou cu rso militar correspondente."
+      },
+      {
+        "letra": "D",
+        "texto": "Conselho Consultivo Superior, que é constituído pelo Comandante Geral, pelo Subcomandante Geral, pelo Chefe do Estado Maior e pelos demais Coronéis do Quadro de Oficiais Policiais Militares da ativa da Instituição, sendo fac ultada a participação de Coronéis da inatividade, vedada a participação de pessoas estranhas à polícia militar."
+      },
+      {
+        "letra": "E",
+        "texto": "Conselho Consultivo Superior, que é constituído pelo Comandante Geral, pelo Subcomandante Geral, pelo Chefe do Estado Maior e pelos demais C oronéis do Quadro de Oficiais Policiais Militares da ativa da Instituição, sendo facultada a participação de Coronéis da inatividade, autoridades e/ou personalidades civis de notável saber sobre os assuntos em pauta."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Informatica."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q028",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q028",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 28,
+    "materia": "Informatica",
+    "materia_original": "Informatica",
+    "dificuldade": "medio",
+    "enunciado": "A Lei de Organização Básica da Políc ia Militar do Estado do Amazonas (Lei nº 3.514/2010) dispõe que a Polícia Militar do Estado do Amazonas se subordina diretamente ao Governador do Estado, integrando, para fins operacionais, a Secretaria de Estado de Segurança Pública, possuindo algumas car acterísticas, como por exemplo",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o custeio da execução dos seus programas por dotações globais consignadas no orçamento do Estado."
+      },
+      {
+        "letra": "B",
+        "texto": "a manutenção de contabilidade indireta e exclusiva pelo Tribunal de Contas estadual."
+      },
+      {
+        "letra": "C",
+        "texto": "o gerenciamento de crédito in direto decorrente de convênio para custeio de seus programas específicos, por meio da Secretaria de Fazenda."
+      },
+      {
+        "letra": "D",
+        "texto": "aquisição indireta de material, viaturas, armamentos e equipamentos por meio de ato complexo das Secretarias de Fazenda e de Segurança Pública."
+      },
+      {
+        "letra": "E",
+        "texto": "exercício, por órgãos externos da Secretaria de Segurança Pública, das atividades de administração geral e das atividades de programação. Aluno Oficial da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Informatica."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q029",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q029",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 29,
+    "materia": "Contabilidade",
+    "materia_original": "Contabilidade",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com o Estatuto dos Policiais Militares do Estado do Amazonas (Lei Estadual nº 1.154/75), o Aspirante a Oficial PM ou o praça com estabilidade assegurada que houver sido excluído a bem da disciplina só poderá readquirir a situação policial militar anterior por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "sentença do Conselho Permanente de Justiça e nas condições nela estabelecidas, se a exclusão for consequência de sentença daquele Conselho ou do Conselho de Disciplina, passado o prazo de 10 (dez) anos da condenação originária."
+      },
+      {
+        "letra": "B",
+        "texto": "sentença do Conselho Permanente de Justiça e nas condições nela estabelecidas, se a exclusão for consequência de sen tença daquele Conselho ou do Conselho de Disciplina, passado o prazo de 5 (cinco) anos da condenação originária."
+      },
+      {
+        "letra": "C",
+        "texto": "outra sentença do Conselho Permanente de Justiça e nas condições nela estabelecidas, se a exclusão for consequência de sentença daquele Con selho, e por decisão do Comandante - Geral da Polícia Militar, se a exclusão for consequência de ter sido julgado culpado em Conselho de Disciplina."
+      },
+      {
+        "letra": "D",
+        "texto": "outra sentença do Conselho Permanente de Justiça e nas condições nela estabelecidas, se a exclusão for consequência de sentença do Conselho de Disciplina, desde que haja parecer prévio do Comandante - Geral da Polícia Militar favorável à reabilitação."
+      },
+      {
+        "letra": "E",
+        "texto": "outra sentença do Conselho Permanente de Justiça e nas condições nela estabelecidas, se a exclusão for co nsequência de sentença daquele Conselho, desde que haja parecer prévio do Comandante - Geral da Polícia Militar favorável à reabilitação aprovado pelo Governador do Estado. Noções de Informática"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Contabilidade."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q030",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q030",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 30,
+    "materia": "Informatica",
+    "materia_original": "Informatica",
+    "dificuldade": "medio",
+    "enunciado": "No contexto do MS Word 2010, uma quebra de seçã o, acionada por meio da opção Quebras na guia Layout da Página, requer a escolha de um dos quatro modos distintos disponíveis. Assinale a lista que contém esses modos.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Colunado, Contínuo, Próxima Coluna, Próximo Parágrafo."
+      },
+      {
+        "letra": "B",
+        "texto": "Colunado, Próxima Página, Próximo Parágrafo, Repaginação."
+      },
+      {
+        "letra": "C",
+        "texto": "Contínuo, Página Impar, Página Par, Próxima Página."
+      },
+      {
+        "letra": "D",
+        "texto": "Contínuo, Próxima Coluna, Próxima Página, Repaginação."
+      },
+      {
+        "letra": "E",
+        "texto": "Página Impar, Página Par, Próxima Coluna, Próximo Parágrafo."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Informatica."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q031",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q031",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 31,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Numa planilha MS Excel 2010, a fórmula = SOMA(B1:B15) - C$4+2*($F$4) foi digitada na célula A1. Em seguida, A1 foi selecionada, copiada com Ctrl + C e colada com Ctrl + V na célula G3. Assinale a fórmula presente em G3 depois dessas operações.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "=SOMA(B1:C15) - I$4+2*($F$4)"
+      },
+      {
+        "letra": "B",
+        "texto": "=SOMA(B3:C18) - C$4+2*($F$6)"
+      },
+      {
+        "letra": "C",
+        "texto": "=SOMA(H2:H15) - I$6+2*($G$6)"
+      },
+      {
+        "letra": "D",
+        "texto": "=SOMA(H3:H17) - I$4+2*($F$4)"
+      },
+      {
+        "letra": "E",
+        "texto": "=SOMA(I3:I17) - I$6+2*($F$4)  Tipo Branca – Página 8 Polícia Militar do Estado do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q032",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q032",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 32,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Considere a série de procedimentos que João executou no Windows do seu notebook: 1. Conectou um pen - drive que aparece no Explorador d e Arquivos do Windows identificado como KINGSTON(E:); 2. No Explorador de Arquivos, visualizou o conteúdo da pasta C: \\ Empresas \\ Escolhas; 3. Nessa pasta, selecionou o arquivo tarefas.txt e clicou no mesmo com o botão direito do mouse; 4. No menu pop - up aberto pelo Explorador de Arquivos, clicou na opção Enviar para e, no menu subsequente, escolheu KINGSTON(E:). Após essas operações, assinale o ocorrido com o arquivo C: \\ Empresas \\ Escolhas \\ tarefas.txt.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Mantido e copiado como E: \\ Empresas \\ Escolhas \\ tarefa s.txt"
+      },
+      {
+        "letra": "B",
+        "texto": "Mantido e copiado como E: \\ tarefas.txt"
+      },
+      {
+        "letra": "C",
+        "texto": "Mantido e copiado como KINGSTON \\ Empresas \\ Escolhas \\ tarefas.txt"
+      },
+      {
+        "letra": "D",
+        "texto": "Removido e copiado como E: \\ tarefas.txt"
+      },
+      {
+        "letra": "E",
+        "texto": "Removido e copiado na pasta E: \\ Empresas \\ Escolhas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q033",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q033",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 33,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "No contexto do Windows 10, assinale a extensão que está associada a arquivos contendo imagens.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": ".CSV"
+      },
+      {
+        "letra": "B",
+        "texto": ".EXE"
+      },
+      {
+        "letra": "C",
+        "texto": ".PNG"
+      },
+      {
+        "letra": "D",
+        "texto": ".RAR"
+      },
+      {
+        "letra": "E",
+        "texto": ".TXT"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q034",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q034",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 34,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O Windows 10 permite que o usuário navegue por meio de janelas, menus e formulários projetados para encadear e estruturar a lida com o sistema. Contudo, é possível digitar comandos diretamente, sem a necessidade de percorrer diferentes menus e janelas para realizar funções administrativas e/ou solucionar certos tipos de problemas do Windows. Essas facilidades são acessíveis por meio do",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Agendad or de Tarefas."
+      },
+      {
+        "letra": "B",
+        "texto": "Explorador de Arquivos."
+      },
+      {
+        "letra": "C",
+        "texto": "Gerenciador de Tarefas."
+      },
+      {
+        "letra": "D",
+        "texto": "Gerenciador do Computador."
+      },
+      {
+        "letra": "E",
+        "texto": "Prompt de Comando. Aluno Oficial da PM FGV Conhecimentos Específicos Direito Constitucional"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q035",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q035",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 35,
+    "materia": "Direito Constitucional",
+    "materia_original": "Direito Constitucional",
+    "dificuldade": "medio",
+    "enunciado": "Maria, estudante de direito, questionou o seu professor a respeito da classificação, quanto à eficácia e à aplicabilidade, da norma que se extrai do disposto no art. 39, caput, da Constituição da República de 1988, com a redação dada pela Emenda Constituci onal nº 19/1998, preceito que foi considerado inconstitucional, pelo Supremo Tribunal Federal, em sede de cognição sumária. Eis o teor do preceito: “ a União, os Estados, o Distrito Federal e os Municípios instituirão conselho de política de administração e remuneração de pessoal, integrado por servidores designados pelos respectivos Poderes ”. O professor respondeu corretamente que estamos perante norma de eficácia",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "plena e aplicabilidade imediata."
+      },
+      {
+        "letra": "B",
+        "texto": "contida e aplicabilidade imediata."
+      },
+      {
+        "letra": "C",
+        "texto": "limitada e de princípio institutivo."
+      },
+      {
+        "letra": "D",
+        "texto": "relativa e aplicabilidade integrativa."
+      },
+      {
+        "letra": "E",
+        "texto": "limitada e de princípio programático."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direito Constitucional."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q036",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q036",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 36,
+    "materia": "Direito Constitucional",
+    "materia_original": "Direito Constitucional",
+    "dificuldade": "medio",
+    "enunciado": "Um grupo de vereadores do Município Alfa apresentou projeto de lei, à Câmara Municipal, em determinada temática que entendiam ser de grande relev ância para a coletividade. Para a sua surpresa, a assessoria de apoio à produção normativa constatou que o projeto era totalmente contrário a uma súmula vinculante editada pelo Supremo Tribunal Federal. À luz da sistemática constitucional, é correto afirma r que a Câmara Municipal de Alfa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pode aprovar o projeto de lei, pois apenas o Congresso Nacional está sujeito aos ditames da súmula vinculante."
+      },
+      {
+        "letra": "B",
+        "texto": "não pode aprovar o projeto de lei, pois a súmula vinculante deve ser obedecida por todas as estruturas e statais de poder."
+      },
+      {
+        "letra": "C",
+        "texto": "pode aprovar o projeto de lei, pois os órgãos do Poder Legislativo não estão sujeitos aos ditames da súmula vinculante."
+      },
+      {
+        "letra": "D",
+        "texto": "não pode aprovar o projeto de lei, salvo se o Supremo Tribunal Federal autorizar previamente que a súmula vinculante seja excepcionada."
+      },
+      {
+        "letra": "E",
+        "texto": "pode aprovar o projeto de lei, pois as normas municipais não estão sujeitas ao controle de constitucionalidade realizado pelo Supremo Tribunal Federal.  Tipo Branca – Página 9 Polícia Militar do Estado do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direito Constitucional."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q037",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q037",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 37,
+    "materia": "Direito Constitucional",
+    "materia_original": "Direito Constitucional",
+    "dificuldade": "medio",
+    "enunciado": "Joana ingressou com mandado de injunção perante o juízo competente, em razão da falta total de norma regulamentadora que tornasse viável o exercício de determinado direito constitucional. Conforme pesquisa que realizara, este foi o primeiro mandado de injunção ajuizado a respeito dessa omissão. Nesse caso, reconhecido o e stado de mora legislativa, o órgão jurisdicional deve",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "de imediato estabelecer as condições em que se dará o exercício do direito."
+      },
+      {
+        "letra": "B",
+        "texto": "determinar prazo razoável para que o impetrado edite a norma regulamentadora."
+      },
+      {
+        "letra": "C",
+        "texto": "encaminhar, ao impetrado, o esboço b ásico da norma regulamentadora, para fins de homologação."
+      },
+      {
+        "letra": "D",
+        "texto": "aguardar que outros mandados de injunção sejam impetrados, de modo a suprir a omissão coletivamente."
+      },
+      {
+        "letra": "E",
+        "texto": "determinar que o impetrado encaminhe o cronograma a ser observado no processo legislativo, com a data esperada de aprovação da norma."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Constitucional."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q038",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q038",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 38,
+    "materia": "Direito Constitucional",
+    "materia_original": "Direito Constitucional",
+    "dificuldade": "medio",
+    "enunciado": "Pedro, cidadão com elevada consciência política, encaminhou representação ao Prefeito do Município Alfa, que tem cerca de um milhão de habitantes, na qual insurgia - se contra a não disponibilização, na interne t, das informações afetas aos procedimentos licitatórios realizados no decorrer do ano, incluindo os contratos celebrados. A ausência de disponibilização das referidas informações está",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "incorreta, pois a lei de regência determina expressamente que tal seja feito."
+      },
+      {
+        "letra": "B",
+        "texto": "correta, já que os Municípios não são alcançados pela obrigação de adotar essa medida."
+      },
+      {
+        "letra": "C",
+        "texto": "correta, pois a necessidade de preservação do interesse público e da intimidade dos envolvidos impede que tal seja feito."
+      },
+      {
+        "letra": "D",
+        "texto": "incorreta, mas apenas e m relação às licitações e aos contratos administrativos afetos à prestação de serviços públicos."
+      },
+      {
+        "letra": "E",
+        "texto": "correta, pois as informações devem ser fornecidas apenas àqueles que as requererem, não devendo ser disponibilizadas na internet."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Constitucional."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q039",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q039",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 39,
+    "materia": "Direito Constitucional",
+    "materia_original": "Direito Constitucional",
+    "dificuldade": "medio",
+    "enunciado": "Assim que foi empossad o, o Prefeito do Município Beta foi informado do quantitativo de cargos de provimento efetivo, de cargos em comissão e de funções de confiança que careciam de preenchimento. Ato contínuo, questionou sua assessoria a respeito de quais deles somente estavam ao alcance dos servidores que já ocupavam cargos de provimento efetivo. Foi - lhe corretamente respondido que tal somente ocorria em relação",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "às funções de confiança."
+      },
+      {
+        "letra": "B",
+        "texto": "aos cargos em comissão."
+      },
+      {
+        "letra": "C",
+        "texto": "aos cargos em comissão e às funções de confiança."
+      },
+      {
+        "letra": "D",
+        "texto": "ao s cargos em comissão destinados às funções de direção, chefia e assessoramento."
+      },
+      {
+        "letra": "E",
+        "texto": "aos cargos de provimento efetivo destinados à ascensão interna e aos cargos em comissão. Aluno Oficial da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Constitucional."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q040",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q040",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 40,
+    "materia": "Direito Constitucional",
+    "materia_original": "Direito Constitucional",
+    "dificuldade": "medio",
+    "enunciado": "Antônia, adolescente que completará 17 (dezessete) anos de idade no final do pró ximo ano, comunicou a seus pais que não mais cursaria o ensino médio após a conclusão do segundo ano, o que se daria no presente exercício. Como justificativa, esclareceu que precisava trabalhar durante o dia para pagar a escola particular que cursava no p eríodo noturno, já que não havia vagas disponíveis em nenhuma escola pública, em nenhum turno de aula. À luz dessa narrativa, é correto afirmar que a frequência à escola de nível médio, por parte de Antônia, é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "obrigatória, até os dezesseis anos, devendo ser oferecida de maneira gratuita, cabendo ao Município atuar prioritariamente nesse nível de ensino."
+      },
+      {
+        "letra": "B",
+        "texto": "facultativa, pois, nesse nível de ensino, o acesso às vagas disponíveis deve observar a capacidade de cada um, o que norteia a distribuição da s vagas existentes."
+      },
+      {
+        "letra": "C",
+        "texto": "obrigatória, até os dezessete anos, devendo ser oferecida de maneira gratuita, cabendo ao Estado e ao Distrito Federal atuarem prioritariamente nesse nível de ensino."
+      },
+      {
+        "letra": "D",
+        "texto": "obrigatória, até os dezesseis anos, devendo ser oferecida de maneira gratuita apenas durante o dia, cabendo ao Estado e ao Distrito Federal atuarem prioritariamente nesse nível de ensino."
+      },
+      {
+        "letra": "E",
+        "texto": "facultativa, considerando a sua idade e o nível de ensino em que se encontra, mas isto não exclui a obrigatoriedade de sua oferta regular pelo Município, que atua prioritariamente nesse nível de ensino."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direito Constitucional."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q041",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q041",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 41,
+    "materia": "Direito Constitucional",
+    "materia_original": "Direito Constitucional",
+    "dificuldade": "medio",
+    "enunciado": "Determinado Senador foi denunciado perante o Supremo Tribunal Federal por ter alegadamente praticado uma infração penal no exercício e em razão de sua função. À luz da siste mática constitucional, é correto afirmar que a referida denúncia",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "deve ser apreciada pelo Tribunal e, caso seja recebida, a relação processual terá o seu curso normal sem qualquer ingerência do Poder Legislativo."
+      },
+      {
+        "letra": "B",
+        "texto": "somente pode ser apreciada pelo Trib unal caso haja prévia autorização do Congresso Nacional, conforme deliberação da maioria simples dos seus membros."
+      },
+      {
+        "letra": "C",
+        "texto": "somente pode ser apreciada pelo Tribunal caso haja prévia autorização do Senado Federal, conforme deliberação da maioria absoluta dos seu s membros."
+      },
+      {
+        "letra": "D",
+        "texto": "não pode ser apreciada pelo Tribunal enquanto estiver em curso o mandato eletivo do Senador, permanecendo o prazo prescricional suspenso durante esse período."
+      },
+      {
+        "letra": "E",
+        "texto": "deve ser apreciada pelo Tribunal e, uma vez recebida, poderá o Senado Federal sustar a sua tramitação, permanecendo suspensa a prescrição enquanto durar o mandato.  Tipo Branca – Página 10 Polícia Militar do Estado do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Direito Constitucional."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q042",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q042",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 42,
+    "materia": "Direito Constitucional",
+    "materia_original": "Direito Constitucional",
+    "dificuldade": "medio",
+    "enunciado": "Após ampla mobilização popular, o Estado Alfa editou a Lei nº XX/2020, que impunha aos estabelecimentos voltados à compra e venda de mercadorias o dever de oferecerem determinadas garantias aos consumidores. Ocorre que diversos juízes, em sede de controle difuso de constitucionalidade, afastavam a aplicação da Lei nº XX sob o argumento de que ela era materialmente inconstitucional. Sensível a esse quadro, o Partido Pol ítico WW consultou o seu advogado sobre a possibilidade de ser ajuizada ação declaratória de constitucionalidade (ADC), tendo como objeto o referido diploma normativo. O advogado respondeu corretamente que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "é possível o ajuizamento da ADC, o que deve s er feito perante o Tribunal de Justiça do Estado Alfa, sendo exigida a demonstração da controvérsia sobre a aplicação da Lei nº XX."
+      },
+      {
+        "letra": "B",
+        "texto": "é possível o ajuizamento da ADC, o que deve ser feito perante o Supremo Tribunal Federal, sendo exigida a demonstração da controvérsia sobre a aplicação da Lei nº XX."
+      },
+      {
+        "letra": "C",
+        "texto": "é possível o ajuizamento da ADC, observados os requisitos exigidos, desde que não tenha sido ajuizada ação direta de inconstitucionalidade em momento anterior."
+      },
+      {
+        "letra": "D",
+        "texto": "não é possível o ajuizamento da ADC, con siderando o seu reduzido lapso temporal de vigência."
+      },
+      {
+        "letra": "E",
+        "texto": "não é possível o ajuizamento da ADC, que não pode ter por objeto lei estadual. Direito Administrativo"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Direito Constitucional."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q043",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q043",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 43,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com as normas constitucionais aplicáveis em matéria de direito à greve e à sindicalização, ao Policial Militar do Estado do Amazonas",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "são proibidas a sindicalização e a greve."
+      },
+      {
+        "letra": "B",
+        "texto": "são permitidas a sindicalização e a greve."
+      },
+      {
+        "letra": "C",
+        "texto": "é permitida a sindicalização e proibida a greve."
+      },
+      {
+        "letra": "D",
+        "texto": "é permitida a gr eve e proibida a sindicalização."
+      },
+      {
+        "letra": "E",
+        "texto": "são permitidas a sindicalização e a greve, desde que previamente autorizadas pelo Comandante - Geral da Polícia Militar."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q044",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q044",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 44,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "Os Policiais Militares José e João, no regular exercício de suas funções, diante da negativa do p articular Joaquim de retirar seu veículo que estava irregularmente estacionado na calçada impedindo a circulação de pedestres, determinaram que o carro fosse guinchado, observando todas as formalidades legais. No caso em tela, o guincho foi um meio direto de execução do ato administrativo, sem necessidade de prévia intervenção do Poder Judiciário, que representa o atributo do ato administrativo da",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "exigibilidade."
+      },
+      {
+        "letra": "B",
+        "texto": "autoexecutoridade."
+      },
+      {
+        "letra": "C",
+        "texto": "tipicidade."
+      },
+      {
+        "letra": "D",
+        "texto": "presunção de legitimidade."
+      },
+      {
+        "letra": "E",
+        "texto": "presunção de verac idade. Aluno Oficial da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q045",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q045",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 45,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "A humanidade vem enfrentando situação de emergência de saúde pública de importância internacional decorrente do novo coronavírus. Com base em lei, autoridade estadual competente estabeleceu regularmente a medida do uso obrigatório de máscaras de proteção individual em locais públicos, com base em evidências científicas e em análises sobre as informações estratégicas em saúde, limitada no tempo e no espaço ao mínimo indispensável à promoção e à preservação da saúde pública. De acordo com a doutrina de Direito Administrativo, o poder administrativo que diretamente embasou a citada medida é o poder",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "disciplinar, que permite a regulamentação da vida em sociedade, com a fixação de sanções pelo descumprimento das normas."
+      },
+      {
+        "letra": "B",
+        "texto": "hierárquico, que permite a regulamentação da vida em sociedade, mediante normas verticalmente impostas pelo poder público, em prol do interesse público."
+      },
+      {
+        "letra": "C",
+        "texto": "de saúde pública, que permite limitar a liberdade individual, em prol do interesse público, sob pena de cometimento de crime de responsabilidade."
+      },
+      {
+        "letra": "D",
+        "texto": "de gestão, que permite a edição de atos normativos de gestão para limitar a propriedade e liberdade individuais, em prol do interesse da coletividade."
+      },
+      {
+        "letra": "E",
+        "texto": "de polícia, que permite a estipulação de restrições e limitações ao exercício de liberdades individuais, em razão da supremacia do interesse público."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q046",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q046",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 46,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "Não obstante a frota das viaturas da Polícia Militar do Estado Beta ser relativamente nova, dez veículos apresentam problemas mecânicos que demandam conserto. Foi instaura do um processo administrativo, no bojo do qual se constatou que será necessária a contratação de serviços de manutenção de veículos automotores com valor estimado de R$ 70.000,00 (setenta mil reais). No caso em tela, com base na nova Lei de Licitações (Le i nº 14.133/21), a Polícia Militar do Estado Beta",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pode proceder à contratação mediante dispensa de licitação, por expressa autorização legal."
+      },
+      {
+        "letra": "B",
+        "texto": "pode proceder à contratação mediante inexigibilidade de licitação, por expressa autorização legal."
+      },
+      {
+        "letra": "C",
+        "texto": "dev e proceder à contratação mediante prévia e indispensável licitação, preferencialmente na modalidade pregão."
+      },
+      {
+        "letra": "D",
+        "texto": "deve proceder à contratação mediante prévia e indispensável licitação, preferencialmente na modalidade convite."
+      },
+      {
+        "letra": "E",
+        "texto": "deve proceder à contratação mediante prévia e indispensável licitação, preferencialmente na modalidade concorrência.  Tipo Branca – Página 11 Polícia Militar do Estado do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q047",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q047",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 47,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "O PM José, da Polícia Militar do Estado Alfa, e sua equipe realizavam operação policial em determinada comunidade para reprimir o tráfico de drogas e, durante troca de tiros com criminosos, atingiu a perna da criança Maria, de 4 anos, moradora da localidade. O laudo de confronto balístico tornou incontestável o fato de que o projétil de arma de fogo que lesionou a criança partiu do fuzil do Policial José. A criança M aria, representada pelos seus pais, procurou a Defensoria Pública e ajuizou ação indenizatória em face",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "de José, por sua responsabilidade civil direta e objetiva, sendo desnecessária a comprovação de ter agido com dolo ou culpa, com base na teoria do ri sco administrativo."
+      },
+      {
+        "letra": "B",
+        "texto": "do Estado Alfa, por sua responsabilidade civil subjetiva, sendo necessária a comprovação de ter agido o PM José com dolo ou culpa."
+      },
+      {
+        "letra": "C",
+        "texto": "da Polícia Militar do Estado Alfa, por sua responsabilidade civil subjetiva, sendo necessária a comprovação de ter agido o PM José com dolo ou culpa."
+      },
+      {
+        "letra": "D",
+        "texto": "do Estado Alfa, por sua responsabilidade civil objetiva, sendo desnecessária a comprovação de ter agido o PM José com dolo ou culpa, com base na teoria do risco administrativo."
+      },
+      {
+        "letra": "E",
+        "texto": "da Polícia Milita r do Estado Alfa, por sua responsabilidade civil objetiva, sendo desnecessária a comprovação de ter agido o PM José com dolo ou culpa, com base na teoria do risco administrativo."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q048",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q048",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 48,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "A Corregedoria - Geral do Sistema de Segurança Pública do Estado Alfa recebe u denúncia anônima narrando, de forma circunstanciada e com detalhes, que os Oficiais da Polícia Militar João e Maria estão envolvidos em atos de corrupção, recebendo propina de determinada associação para tráfico de drogas. No caso em tela, de acordo com o entendimento do Superior Tribunal de Justiça, a instauração de processo administrativo disciplinar (PAD) pelo órgão competente, com base em denúncia anônima, é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "proibida, haja vista que a Constituição da República expressamente proíbe o anonimato para fins de início de processo administrativo sancionador."
+      },
+      {
+        "letra": "B",
+        "texto": "proibida, haja vista que o denunciante tem a obrigação legal de se identificar, inclusive para ser eventualmente responsabilizado em caso de denunciação caluniosa."
+      },
+      {
+        "letra": "C",
+        "texto": "proibida, diante da presunçã o de legalidade e legitimidade dos atos praticados por policiais militares, que só pode ser afastada por PAD iniciado a partir de denúncia não apócrifa."
+      },
+      {
+        "letra": "D",
+        "texto": "permitida, desde que haja prévia decisão judicial autorizando o início da investigação, diante do princípio da inafastabilidade do controle jurisdicional."
+      },
+      {
+        "letra": "E",
+        "texto": "permitida, desde que devidamente motivada e com amparo em investigação ou sindicância, diante do poder - dever de autotutela imposto à Admin istração Pública. Aluno Oficial da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q049",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q049",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 49,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Em matéria de controle externo da Administração Pública, a apreciação, para fins de registro, da legalidade dos atos de admissão de pessoal da Polícia Militar do Estado do Amazonas compete",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ao Ministério Público do Estado do Amazona s, incluídas as nomeações para cargo de provimento em comissão."
+      },
+      {
+        "letra": "B",
+        "texto": "à Procuradoria - Geral do Estado do Amazonas, excetuadas as nomeações para cargo de provimento em comissão."
+      },
+      {
+        "letra": "C",
+        "texto": "ao Tribunal de Contas do Estado do Amazonas, excetuadas as nomeações para carg o de provimento em comissão."
+      },
+      {
+        "letra": "D",
+        "texto": "à Controladoria - Geral do Estado do Amazonas, excetuadas as nomeações para cargo de provimento em comissão."
+      },
+      {
+        "letra": "E",
+        "texto": "ao Tribunal de Justiça do Estado do Amazonas, incluídas as nomeações para cargo de provimento em comissão."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q050",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q050",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 50,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "No mês de janeiro de 2022, o Policial Militar João, de forma dolosa, valendo - se de sua ascendência hierárquica sobre os Policiais Militares José e Joaquim, utilizou, em obra particular consistente na reforma de seu apartamento, o trabalho dos dois citados PM ’s, durante o horário de expediente. No caso em tela, consoante dispõe a Lei de Improbidade Administrativa (com as alterações introduzidas pela Lei nº 14.230/21), o Policial Militar João",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não praticou ato de improbidade administrativa, haja vista que n ão houve efetivo prejuízo ou dano ao erário, mas deve ser responsabilizado na esfera administrativa."
+      },
+      {
+        "letra": "B",
+        "texto": "não praticou ato de improbidade administrativa, haja vista que não houve efetivo prejuízo ou dano ao erário, mas deve ser responsabilizado nas esferas penal e administrativa."
+      },
+      {
+        "letra": "C",
+        "texto": "praticou ato de improbidade administrativa que causou prejuízo ao erário e está sujeito, entre outras, às sanções de suspensão dos direitos políticos até 8 (oito) anos e perda da função pública."
+      },
+      {
+        "letra": "D",
+        "texto": "praticou ato de improbidade a dministrativa que importou enriquecimento ilícito e está sujeito, entre outras, às sanções de suspensão dos direitos políticos até 14 (catorze) anos e pagamento de multa civil equivalente ao valor do acréscimo patrimonial."
+      },
+      {
+        "letra": "E",
+        "texto": "praticou ato de improbidade a dministrativa que atentou contra os princípios da administração pública e está sujeito, entre outras, às sanções de pagamento de multa civil de até"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Administrativo."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q051",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q051",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 51,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Sobre os crimes militares, em especial os crimes militares contra a flora, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Conforme previsão legal expressa, os institutos despenalizadores da Lei nº 9.099/1995 aplicam - se aos crimes militares."
+      },
+      {
+        "letra": "B",
+        "texto": "A partir da edição da Lei 13.491/2017, tornou - se possível que a Justiça Militar processe e julgue militar pelos crimes previstos na Lei nº 9.605/1998 que trata de sanções penais de condutas e atividades lesivas ao meio ambient e."
+      },
+      {
+        "letra": "C",
+        "texto": "É crime de perigo abstrato o ato de soltar balões que possam provocar incêndio nas florestas e demais formas de vegetação."
+      },
+      {
+        "letra": "D",
+        "texto": "Os crimes militares contra a flora são de competência exclusiva da Justiça Militar da União, visto que se trata de bem sob responsabilidade e tutela da União."
+      },
+      {
+        "letra": "E",
+        "texto": "Compete ao Conselho de Justiça processar e julgar crimes militares cometidos por civis."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Legislacao PM e Direito Militar."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q052",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q052",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 52,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "A Sargento Louise deu ordem para que os policiais militares recém - empossados permanecessem no quartel aguardando instruções para um treinamento de policiamento ostensivo. Agindo de forma contrária à determinação recebida pela superior, o Soldado Prima e o Soldado Flores reuniram um grupo de seis militares no bar ao lado do quartel, e passaram a criticar sua superior hierárquica de forma desrespeitosa. Nessa situação hipotética, os soldados militares",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "praticaram o crime de motim."
+      },
+      {
+        "letra": "B",
+        "texto": "praticaram o crime de omissão de lealdade."
+      },
+      {
+        "letra": "C",
+        "texto": "praticaram o crime de revolta."
+      },
+      {
+        "letra": "D",
+        "texto": "praticaram o crime de insubmissão."
+      },
+      {
+        "letra": "E",
+        "texto": "estavam corretos ao nega r - se a cumprir a ordem da Sargento Louise, pois a ordem é ilegal por violar o direito constitucional de ir e vir."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Legislacao PM e Direito Militar."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q055",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q055",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 55,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Sobre a aplicação da lei penal militar, assinale a assertiva correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Tendo em vista o princípio da especialidade aplicável à Justiça Militar, as previsões constitucionais atinentes ao dire ito processual penal não são aplicáveis quando da aplicação prática do direito processual penal militar."
+      },
+      {
+        "letra": "B",
+        "texto": "o Código de Processo Penal Militar rege o processo penal militar em tempo de paz, o que não ocorre em tempo de guerra, caso em que deve ser aplicad a legislação específica."
+      },
+      {
+        "letra": "C",
+        "texto": "a pena de impedimento, aplicável à maioria dos crimes propriamente militares, sujeita o condenado a permanecer no quartel, sem prejuízo da instrução militar."
+      },
+      {
+        "letra": "D",
+        "texto": "o oficial que instiga seus inferiores a cometer o delito, sem dar ordem direta ou organizar a ação criminosa, terá sua pena atenuada se o crime for consumado, pois é uma hipótese de participação de somenos importância."
+      },
+      {
+        "letra": "E",
+        "texto": "a pena de inabilitação para o exercício de função pública pode ser aplicada pelo prazo de 2 a 20 a nos, em virtude de crime militar praticado com abuso de poder ou violação do dever militar, mas está condicionada a estar expressamente imposta na sentença."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q056",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q056",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 56,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Com base no Código Penal Militar, é correto afirmar que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o princípio da insignificância se ap lica aos crimes militares de posse de entorpecente, desde que cumpridos os requisitos estabelecidos na jurisprudência do Supremo Tribunal Federal."
+      },
+      {
+        "letra": "B",
+        "texto": "a diferença entre motim e revolta é que, no motim, os agentes estão armados."
+      },
+      {
+        "letra": "C",
+        "texto": "o crime de conspiração o corre quando os militares se ajustam para a prática de motim ou revolta."
+      },
+      {
+        "letra": "D",
+        "texto": "o uso indevido de uniforme, quando praticado por militar, configura transgressão disciplinar e, quando praticado por civil, é crime."
+      },
+      {
+        "letra": "E",
+        "texto": "o crime de desrespeito a superior pode oco rrer na forma dolosa ou culposa.  Tipo Branca – Página 13 Polícia Militar do Estado do Amazonas Direito Processual Penal Militar"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Legislacao PM e Direito Militar."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q057",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q057",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 57,
+    "materia": "Direito Processual Penal",
+    "materia_original": "Direito Processual Penal",
+    "dificuldade": "medio",
+    "enunciado": "Sobre a aplicação da lei processual penal militar, assinale a assertiva correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Tendo em vista o princípio da especialidade aplicável à Justiça Militar, as previsões constitucionais atinentes ao direito processual penal não são aplicáveis quando da aplicação prática do direito processual penal militar."
+      },
+      {
+        "letra": "B",
+        "texto": "O Código de Processo Penal Militar rege o processo penal militar em tempo de paz, o que não ocorre em tempo de guerra, caso em que deve ser aplicada legislação específica."
+      },
+      {
+        "letra": "C",
+        "texto": "O Código de Processo Penal Militar estabelece a prevalência do Direito Internacional Público, tal como tratados e convenções."
+      },
+      {
+        "letra": "D",
+        "texto": "O Código de Processo Penal Militar aplica - se à Justiça Militar Estadual na execução de sentenças."
+      },
+      {
+        "letra": "E",
+        "texto": "A analogia não é admitida no Direito Processual Penal Militar, visto que prevalece a interpretação literal da norma."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direito Processual Penal."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q058",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q058",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 58,
+    "materia": "Direito Processual Penal",
+    "materia_original": "Direito Processual Penal",
+    "dificuldade": "medio",
+    "enunciado": "Sobre as normas que regem o inquérito policial militar, é correto af irmar que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não havendo dúvida sobre a inocorrência de fato típico, antijurídico e culpável, a instauração de inquérito policial militar é ilegal, podendo ser remediado através de habeas corpus."
+      },
+      {
+        "letra": "B",
+        "texto": "o policial militar de graduação superior atuará como encarregado do inquérito policial militar, sendo tal função indelegável."
+      },
+      {
+        "letra": "C",
+        "texto": "a polícia judiciária militar não pode representar pelo reconhecimento de insanidade mental do indiciado, pois trata - se de atr ibuição do Ministério Público a ser exercida após o recebimento da denúncia."
+      },
+      {
+        "letra": "D",
+        "texto": "em regra, o sigilo do inquérito policial militar é vedado, tendo em vista o princípio constitucional da transparência."
+      },
+      {
+        "letra": "E",
+        "texto": "o arquivamento do inquérito policial militar é defin itivo, obstando a instauração de outro que investiga os mesmos fatos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Processual Penal."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q059",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q059",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 59,
+    "materia": "Direito Processual Penal",
+    "materia_original": "Direito Processual Penal",
+    "dificuldade": "medio",
+    "enunciado": "Sobre a prisão cautelar, assinale a assertiva correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A detenção provisória pode ser determinada pelo Encarregado do Inquérito Policial Militar por até 30 dias nos crimes propria mente militares e nos crimes impropriamente militares."
+      },
+      {
+        "letra": "B",
+        "texto": "No crime de homicídio doloso ou culposo, o Encarregado do Inquérito Policial Militar pode determinar a detenção do indiciado."
+      },
+      {
+        "letra": "C",
+        "texto": "Apesar da previsão do Código de Processo Penal Militar, o ordenamen to constitucional não admite prisão cautelar pelo Encarregado do Inquérito Policial Militar."
+      },
+      {
+        "letra": "D",
+        "texto": "A detenção provisória pode ser determinada pelo Encarregado do Inquérito Policial Militar por até 20 dias no caso dos crimes impropriamente militares."
+      },
+      {
+        "letra": "E",
+        "texto": "O En carregado do IPM poderá determinar a detenção do indiciado até 30 dias, prorrogáveis por mais 20, durante as investigações policiais, comunicando imediatamente à autoridade judiciária competente, apenas nos casos de crime propriamente militar. Aluno Oficial da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Direito Processual Penal."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q060",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q060",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 60,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Sobre o c rime de deserção, assinale a assertiva correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Quando a ausência se verificar em subunidade isolada ou em destacamento, o respectivo comandante, oficial ou não, providenciará o inventário do desertor, devendo tal processo ser acompanhado de um familiar do desertor."
+      },
+      {
+        "letra": "B",
+        "texto": "Por ser crime de perigo abstrato, a denúncia deverá indicar, de forma clara e concreta, o prejuízo causado pela conduta do agente."
+      },
+      {
+        "letra": "C",
+        "texto": "Em termos procedimentais, a deserção especial independe da lavratura de Termo de Deserção."
+      },
+      {
+        "letra": "D",
+        "texto": "Uma vez que o desertor com estabilidade se apresente ao quartel, ele deverá ser submetido a inspeção de saúde e, quando julgado apto, será reincluído."
+      },
+      {
+        "letra": "E",
+        "texto": "A deserção é crime de mera conduta porque se configura com a ausência sem licença pura e simples do m ilitar, além do prazo estabelecido em lei."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Legislacao PM e Direito Militar."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q062",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q062",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 62,
+    "materia": "Legislacao PM e Direito Militar",
+    "materia_original": "Legislacao PM e Direito Militar",
+    "dificuldade": "medio",
+    "enunciado": "Avalie as assertivas a seguir. I. O flagran te irreal ou impróprio ocorre quando o agente é perseguido logo após cometer o ilícito em situação que faça presumir que ele é o autor da infração. II. A prisão preventiva com fundamento para a manutenção das normas e princípios da hierarquia e disciplina aplica - se apenas nos crimes propriamente militares. III. É vedada a realização de busca e apreensão no período noturno, salvo se houver consentimento do morador. Está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I e III, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "II e III, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "II, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "III, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "I, II e III.  Tipo Branca – Página 14 Polícia Militar do Estado do Amazonas Direito Penal"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Legislacao PM e Direito Militar."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q063",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q063",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 63,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "No tocante ao crime de perseguição ( stalking ), previsto no Art. 147 - A do Código Penal a partir de alteração legislativa promovida pela Lei nº 14.132/21, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Trata - se de delito que, pela magnitude da reprimenda penal, não se submete à competência dos Juizados Especiais Criminais."
+      },
+      {
+        "letra": "B",
+        "texto": "Procede - se mediante ação penal privada."
+      },
+      {
+        "letra": "C",
+        "texto": "Para sua caracterização, não se exige que o crime seja praticado contra mulher por razões da condição de sexo feminino."
+      },
+      {
+        "letra": "D",
+        "texto": "Aplica - se a pena em dobro se o crime for cometido contra criança, adolescente ou idoso."
+      },
+      {
+        "letra": "E",
+        "texto": "A figura típica do Art. 147 - A exige emprego de ameaça à integridade física, não se perfazendo o delito em caso de ameaça apenas à integridade psicológica."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q064",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q064",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 64,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a afirmativa incorreta em relação aos crimes contra a dignidade sexual.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Os crimes contra a liberdade sexual e os crimes s exuais contra vulnerável somente se procedem mediante ação penal pública incondicionada."
+      },
+      {
+        "letra": "B",
+        "texto": "O crime de importunação sexual, previsto no Art. 215 - A, não se amolda à competência dos Juizados Especiais Criminais."
+      },
+      {
+        "letra": "C",
+        "texto": "A Lei nº 13.772/2018 instituiu o crime de Registro não autorizado da intimidade sexual previsto no Art. 216 - B."
+      },
+      {
+        "letra": "D",
+        "texto": "Conforme dispõe o Art. 226 do Código Penal, o crime de estupro tem a pena em dobro se o delito for praticado mediante concurso de 2 (dois) ou mais agentes, ou se for praticado para controlar o comportamento social ou sexual da vítima."
+      },
+      {
+        "letra": "E",
+        "texto": "Não há crime quando o agente divulga cena de estupro em publicação de natureza jornalística, científica, cultural ou acadêmica com a adoção de recurso que impossibilite a identificação da vítima, ressalvada sua prévia autorização, caso seja maior de 18 (dezoito) anos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q065",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q065",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 65,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "A dogmática penal comporta diversas classificações de crimes. Acerca dessa matéria, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Nos crimes de mão própria exige - se uma qualidade específica d o sujeito ativo para sua prática. Ademais, nessa hipótese admite - se o concurso de pessoas na forma da autoria mediata, coautoria e participação."
+      },
+      {
+        "letra": "B",
+        "texto": "O tipo misto alternativo se notabiliza por possuir mais de um núcleo do tipo, sendo que a prática de apenas um deles é suficiente para a consumação. Noutro giro, a prática de mais de um deles, no mesmo contexto, configura crime único."
+      },
+      {
+        "letra": "C",
+        "texto": "Cuida - se de crime unissubjetivo quando a conduta do agente for exaurida num único ato, não sendo possível fracionar o iter c riminis."
+      },
+      {
+        "letra": "D",
+        "texto": "O crime continuado é aquele cuja consumação, pela natureza do bem jurídico ofendido, pode protrair - se no tempo."
+      },
+      {
+        "letra": "E",
+        "texto": "Trata - se de crime não transeunte quando o delito, em decorrência de seu modo de execução, não deixa vestígios. Aluno Oficial da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Direito Penal."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q066",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q066",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 66,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Durante operação policial, Alberto, ao incursionar por uma viela, se depara com Sérgio portando um guarda - chuva. Devido à tensão do momento, Alberto pensa que o objeto nas mãos de Sérgio é uma arma de fogo e, em razão disso, efetua disparo com sua arma, o que leva Sergio a óbito. Nesse caso, é correto afirmar que a hipótese é de erro de tipo",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "essencial, na modalidade erro provocado por terceiro."
+      },
+      {
+        "letra": "B",
+        "texto": "acidental, na modalidade erro na execução."
+      },
+      {
+        "letra": "C",
+        "texto": "acidental, na modalidade erro sobre a pessoa."
+      },
+      {
+        "letra": "D",
+        "texto": "essencial, na modalidade erro de tipo permissivo ou delito putativo por erro de tipo."
+      },
+      {
+        "letra": "E",
+        "texto": "essencial, na modalidade erro de tipo incriminador."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q067",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q067",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 67,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "João, desejando subtrair objetos da casa de Joaquim, sabendo que ele estaria viajando, arromba a porta e ingressa no local, de lá subtraindo relógios importados, dinheiro e duas televisões. Com relação à responsabilização penal de João é correto afirmar que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "responderá pelos crimes de furto qualificado pelo rompimento de obstáculo e violação de domicílio em concurso material."
+      },
+      {
+        "letra": "B",
+        "texto": "responderá pelos crimes de furto qualificado pelo rompimento de obstáculo e violação de domicílio em concurso formal."
+      },
+      {
+        "letra": "C",
+        "texto": "responderá apenas pelo crime de violação de domicílio, ficando o crime de furto qualificado pelo rompimento de obstáculo absorvi do pelo princípio da subsidiariedade expressa."
+      },
+      {
+        "letra": "D",
+        "texto": "responderá apenas pelo crime de furto qualificado pelo rompimento de obstáculo, ficando o crime de violação de domicílio absorvido em razão do princípio da consunção."
+      },
+      {
+        "letra": "E",
+        "texto": "responderá apenas pelo crime de vi olação de domicílio, ficando o crime de furto qualificado pelo rompimento de obstáculo absorvido pelo princípio da subsidiariedade tácita."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q068",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q068",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 68,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Acerca da aplicação da pena, o Código Penal estabelece o emprego do critério trifásico para a realização da dosime tria. Sobre o tema, é correto afirmar que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "na primeira fase o magistrado deve levar em consideração as atenuantes e agravantes, na segunda, as causas de diminuição e aumento de pena e, por último, as circunstâncias judiciais do Art. 59 do Código Penal."
+      },
+      {
+        "letra": "B",
+        "texto": "na primeira fase o magistrado deve levar em consideração as circunstâncias judiciais do Art. 59 do Código Penal, na segunda, as circunstâncias atenuantes e agravantes e, na terceira fase, as causas de diminuição e aumento de pena, nos termos do Art. 68 do Código Penal."
+      },
+      {
+        "letra": "C",
+        "texto": "a agravante da reincidência deve ser valorada na terceira fase da dosimetria, cabendo ao magistrado levar em consideração as causas de aumento na segunda e as circunstâncias judiciais do Art. 59 do Código Penal na primeira fase."
+      },
+      {
+        "letra": "D",
+        "texto": "n ão há previsão legal de circunstâncias preponderantes, podendo o Magistrado, em caso de incidência de agravantes e atenuantes, compensar umas com as outras."
+      },
+      {
+        "letra": "E",
+        "texto": "o mesmo processo anterior pode ser levado em consideração para considerar o réu reincidente e portador de maus antecedentes.  Tipo Branca – Página 15 Polícia Militar do Estado do Amazonas Direito Processual Penal"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Portugues."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q070",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q070",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 70,
+    "materia": "Direito Processual Penal",
+    "materia_original": "Direito Processual Penal",
+    "dificuldade": "medio",
+    "enunciado": "Durant e uma patrulha, por volta das 22h, dois policiais militares avistaram um corpo, já em decomposição, em uma rua sem movimento. O cadáver aparentava estar no local por vários dias. De fato, a vítima do crime de homicídio havia morrido uma semana antes. Próxi mo dali, os agentes viram uma pequena casa e, ao se aproximarem, constataram que era habitada, mas que ninguém nela se encontrava naquele momento. Sem mandado judicial, forçaram uma janela e conseguiram entrar. Já dentro da residência, após procurarem algu m objeto relacionado ao crime, visualizaram uma blusa rasgada e aparentemente manchada de sangue sobre um sofá. Assim, apreenderam a roupa para que posteriormente fosse feita a comparação com o cadáver. Com base nos dados fornecidos, assinale a afirmativa correta acerca do ingresso na residência e da apreensão da roupa narrados no enunciado.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O ingresso dos policiais na casa e a consequente apreensão se deram de acordo com a lei, pois, no caso concreto, o interesse em apurar o crime prevalecia sobre a in violabilidade domiciliar."
+      },
+      {
+        "letra": "B",
+        "texto": "O ingresso dos policiais na casa e a consequente apreensão se deram de acordo com a lei, pois, apesar de o local ser habitado, não havia morador presente naquele momento."
+      },
+      {
+        "letra": "C",
+        "texto": "O ingresso dos policiais na casa e a consequente ap reensão se deram de acordo com a lei, pois havia flagrante delito no interior da residência."
+      },
+      {
+        "letra": "D",
+        "texto": "A busca domiciliar não foi feita de acordo com o Código de Processo Penal e com a Constituição. Na situação concreta, o ingresso dos policiais na casa não era permitido e, na hipótese, a prova foi obtida por meios ilícitos."
+      },
+      {
+        "letra": "E",
+        "texto": "A busca domiciliar foi ilegal, mas se tivessem obtido autorização judicial, os policiais poderiam ter ingressado na casa em qualquer horário do dia ou da noite. Aluno Oficial da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direito Processual Penal."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q071",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q071",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 71,
+    "materia": "Direito Processual Penal",
+    "materia_original": "Direito Processual Penal",
+    "dificuldade": "medio",
+    "enunciado": "No dia 13/06/21, Mauríl io foi abordado por policiais militares em uma blitz, dirigindo veículo roubado, em seu próprio proveito. O roubo do carro havia sido praticado por Renan e comunicado pela vítima à autoridade policial no dia 5 de abril do mesmo ano. No momento da abordage m, Maurílio admitiu que, no dia 11/06/21, havia adquirido o carro por ele guiado sabendo se tratar de produto de crime. Assim, foi preso em flagrante pela prática de receptação, delito previsto no Art. 180, caput, CP, na modalidade “conduzir em proveito pr óprio ou alheio, coisa que sabe ser produto de crime”. Quanto ao núcleo “conduzir”, o crime em questão, punido com pena de 1 a 4 anos de reclusão e multa, é classificado como permanente. De acordo com os dados fornecidos, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A prisão de Maurílio foi lícita, pois, nos crimes permanentes, há flagrante delito enquanto não cessar a permanência."
+      },
+      {
+        "letra": "B",
+        "texto": "A prisão em flagrante de Maurílio foi ilegal, pois o crime de roubo ocorreu mais de dois meses antes da abordagem."
+      },
+      {
+        "letra": "C",
+        "texto": "A prisão de Ma urílio foi ilegal, pois o crime de receptação não admite prisão em flagrante."
+      },
+      {
+        "letra": "D",
+        "texto": "A prisão de Maurílio foi lícita, pois estava configurado o flagrante presumido em relação ao crime de roubo."
+      },
+      {
+        "letra": "E",
+        "texto": "A prisão de Maurílio foi ilícita, pois a situação flagrancial se esgotou dois dias antes, no momento da aquisição do veículo roubado."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Direito Processual Penal."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q072",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q072",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 72,
+    "materia": "Direito Processual Penal",
+    "materia_original": "Direito Processual Penal",
+    "dificuldade": "medio",
+    "enunciado": "Três policiais militares efetuaram a prisão em flagrante de Tadeu em razão da prática do crime de extorsão, previsto no Art. 158 do Código Penal. Concluído o inquérito policial, Ta deu foi acusado pelo Ministério Público e a denúncia recebida, observando - se o rito comum ordinário, aplicável no caso. Após a apresentação de resposta pelo acusado, não houve absolvição sumária e o juiz designou audiência de instrução e julgamento. Os pol iciais militares que efetuaram a prisão foram arrolados como testemunhas de acusação pelo Ministério Público. No dia da audiência, estavam presentes a vítima, os policiais, as testemunhas de defesa e o acusado. A partir dos dados apresentados, é correto di zer, de acordo com o Código de Processo Penal, que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "na audiência, os policiais militares devem prestar depoimento de modo separado, após o interrogatório do acusado."
+      },
+      {
+        "letra": "B",
+        "texto": "na audiência, os policiais militares devem prestar depoimento de modo separado, apó s as testemunhas de defesa."
+      },
+      {
+        "letra": "C",
+        "texto": "na audiência, os policiais militares devem prestar depoimento de modo separado, após a tomada das declarações do ofendido e antes de serem colhidos os depoimentos das testemunhas de defesa."
+      },
+      {
+        "letra": "D",
+        "texto": "os policiais militares que efe tuaram a prisão são proibidos de depor, por expressa previsão do Código de Processo Penal."
+      },
+      {
+        "letra": "E",
+        "texto": "na audiência, os policiais militares devem prestar depoimento juntos e ao mesmo tempo.  Tipo Branca – Página 16 Polícia Militar do Estado do Amazonas Legislação Especial Penal"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direito Processual Penal."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q073",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q073",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 73,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Ass inale a afirmativa verdadeira, no tocante ao tipo penal de abuso de autoridade previsto na Lei nº 13.869/2019.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Trata - se de crime de ação penal pública condicionada."
+      },
+      {
+        "letra": "B",
+        "texto": "Agentes públicos da administração pública indireta não podem figurar como sujeito ativo do delito."
+      },
+      {
+        "letra": "C",
+        "texto": "A Lei nº 13.869/2019 não admite a aplicação de penas restritivas de direitos substitutivas das privativas de liberdade."
+      },
+      {
+        "letra": "D",
+        "texto": "Dentre os possíveis sujeitos ativos encontram - se membros das Forças Armadas, do Poder Legislativo, do Poder Executivo, do Poder Judiciário, bem como dos tribunais de contas."
+      },
+      {
+        "letra": "E",
+        "texto": "O ato de identificar - se falsamente ao preso por ocasião de sua captura não constitui hipótese de abuso de autoridade nos moldes da Lei nº 13.869/2019."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q074",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q074",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 74,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Acerca do crime de tortura, tipi ficado na Lei nº 9.455/97, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A tipicidade objetiva do crime de tortura exige a imposição de sofrimento físico, não se amoldando à hipótese de imposição de sofrimento psicológico."
+      },
+      {
+        "letra": "B",
+        "texto": "A Lei nº 9.455/97 exige que o sujeito at ivo seja agente público para caracterização do delito de tortura."
+      },
+      {
+        "letra": "C",
+        "texto": "O tipo penal de tortura exige como especial fim de agir que a conduta do agente seja motivada por qualquer forma de discriminação."
+      },
+      {
+        "letra": "D",
+        "texto": "Se a tortura resulta em lesão corporal de natureza grave ou se resulta na morte da vítima, aplicam - se, respectivamente, causas de aumento de 1/3 e 2/3 da pena."
+      },
+      {
+        "letra": "E",
+        "texto": "As disposições da Lei nº 9.455/97 aplicam - se mesmo que o crime não tenha sido cometido em território nacional, sendo a vítima brasileira ou enc ontrando - se o agente em local sob jurisdição brasileira."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: E. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q075",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q075",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 75,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "A Lei nº 12.850/13 trata das Organizações Criminosas; entre os dispositivos legais nela previstos, encontra - se o Art. 4º, que trata da Colaboração Premiada. Dentre os benefícios penais que podem s er oferecidos ao acusado estão previstos o perdão judicial, a redução da pena em até 2/3 ou a substituição por pena restritiva de direitos. Para tanto, são apresentadas exigências, objetivando que a Colaboração seja efetiva. Dentre as exigências legais não está prevista",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a identificação dos demais coautores e partícipes da organização criminosa e das infrações penais por eles praticadas."
+      },
+      {
+        "letra": "B",
+        "texto": "a recuperação parcial do produto ou do proveito das infrações penais praticadas pela organização criminosa."
+      },
+      {
+        "letra": "C",
+        "texto": "a revelação da estrutura hierárquica e da divisão de tarefas da organização criminosa."
+      },
+      {
+        "letra": "D",
+        "texto": "a localização de eventual vítima, ainda que sua integridade física não tenha sido preservada."
+      },
+      {
+        "letra": "E",
+        "texto": "a prevenção de infrações penais decorrentes das atividades da organiz ação criminosa. Aluno Oficial da PM"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q076",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q076",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 76,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "Acerca dos crimes hediondos, previstos na Lei nº 8.072/90, assinale a opção que apresenta modalidade delitiva não incluída como hedionda.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Epidemia com resultado lesão corporal grave."
+      },
+      {
+        "letra": "B",
+        "texto": "Roubo qualificado pelo resultado lesão corpora l grave."
+      },
+      {
+        "letra": "C",
+        "texto": "Falsificação de produto destinado a fins terapêuticos ou medicinais."
+      },
+      {
+        "letra": "D",
+        "texto": "Extorsão mediante sequestro."
+      },
+      {
+        "letra": "E",
+        "texto": "Favorecimento da prostituição de criança, adolescente ou de vulnerável. Direitos Humanos"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: A. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q077",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q077",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 77,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "João é descendente de índios e há algum tempo reside em uma conhecida metrópole brasileira. Apesar de estar plenamente integrado aos hábitos e costumes da cidade, foi surpreendido com negativa de emprego, pelo diretor de uma sociedade empresária privada, sob o argumento de que “ índios não se ajustavam aos padrões do negócio, considerando as peculiaridades da clientela ”. Ao se consultar com um advogado a respeito da correção, ou não, dessa prática, foi - lhe informado corretamente que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o empregador, por força d o princípio da livre iniciativa, tinha liberdade para selecionar os seus empregados, não havendo ilicitude na referida conduta."
+      },
+      {
+        "letra": "B",
+        "texto": "como João não é negro, fica afastada a configuração do crime de racismo, o que não impede que seja postulada a reparação dos danos morais sofridos."
+      },
+      {
+        "letra": "C",
+        "texto": "a configuração do crime de racismo pressupõe a prática de atos de violência ou a imposição de intenso sofrimento psicológico, o que não ocorreu no caso."
+      },
+      {
+        "letra": "D",
+        "texto": "a negativa de emprego, pelo fato de João ser índio, conforme justificat iva apresentada pelo diretor da sociedade empresária, configura o crime de racismo."
+      },
+      {
+        "letra": "E",
+        "texto": "o empregador não estava obrigado a fornecer qualquer justificativa a João ao negar - lhe o emprego, logo, os motivos declinados não poderiam ser perquiridos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q078",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q078",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 78,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "Após ampl as investigações, as autoridades competentes lograram êxito em prender João, criminoso contumaz e que praticava inúmeros atos de violência contra suas vítimas, incluindo crianças. Apesar dessa prisão, os comparsas de João, conhecidos como Pedro e Maria, co ntinuavam a praticar crimes. Em razão da dificuldade na localização de Pedro e Maria, embora fosse sabido que João sabia do esconderijo que utilizavam, um agente levou a seus superiores a sugestão de que João fosse torturado para que fornecesse as informaç ões almejadas. A sugestão apresentada",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "pode ser acolhida apenas mediante supervisão judicial."
+      },
+      {
+        "letra": "B",
+        "texto": "pode ser acolhida apenas porque crianças foram vitimadas."
+      },
+      {
+        "letra": "C",
+        "texto": "não pode ser acolhida, já que incompatível com a ordem constitucional."
+      },
+      {
+        "letra": "D",
+        "texto": "somente pode ser a colhida caso João, previamente informado de que será torturado, mantenha o silêncio."
+      },
+      {
+        "letra": "E",
+        "texto": "pode ser acolhida, independente de supervisão judicial, desde que a tortura não ultrapasse o limite do necessário.  Tipo Branca – Página 17 Polícia Militar do Estado do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: C. Origem: oficial. Materia original: Direitos Humanos."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q079",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q079",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 79,
+    "materia": "Legislacao Especial",
+    "materia_original": "Legislacao Especial",
+    "dificuldade": "medio",
+    "enunciado": "João questionou José sobre a possibilidade de um tratado internacional de direitos humanos ser incorporado à ordem interna com natureza equivalente a emenda constitucional. José respondeu corretamente que isso",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não pode ocorrer, pois exigiria a alteração da ordem constitucional, que expressamente nive la os tratados internacionais à lei ordinária."
+      },
+      {
+        "letra": "B",
+        "texto": "pode ocorrer, desde que seja aprovado em dois turnos, por três quintos dos votos dos membros de cada Casa do Congresso Nacional."
+      },
+      {
+        "letra": "C",
+        "texto": "pode ocorrer, desde que seja aprovado pelo Congresso Nacional, em turno único de votação, pela maioria absoluta dos seus membros."
+      },
+      {
+        "letra": "D",
+        "texto": "não pode ocorrer, pois um ato de direito internacional jamais pode assumir a mesma natureza de uma norma constitucional."
+      },
+      {
+        "letra": "E",
+        "texto": "pode ocorrer, desde que seja aprovado pelo Senado Federal, em dois tu rnos de votação, pelo voto de dois terços dos seus membros."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: B. Origem: oficial. Materia original: Legislacao Especial."
+  },
+  {
+    "id": "pmam-oficial-2021-fgv-q080",
+    "codigo": "PMAM-OFICIAL-2021-FGV-Q080",
+    "orgao": "PMAM",
+    "cargo": "Aluno Oficial PM",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 80,
+    "materia": "Direitos Humanos",
+    "materia_original": "Direitos Humanos",
+    "dificuldade": "medio",
+    "enunciado": "Três gerações da família Silva viviam sob o mesmo teto, o que decorria, principalmente, das dificuldades econômicas enfrentadas para que cada núcleo familiar pudesse ter uma moradia independent e. Além disso, ainda moravam no local duas jovens, na faixa dos vinte anos, que foram acolhidas pela família, sendo reconhecidas por João e Maria, o casal de idosos dono da casa, como “filhas de criação”. Nesse ambiente de convivência, Pedro, neto de João e Maria, com dezoito anos de idade, proferiu diversas ofensas verbais contra uma das referidas “filhas de criação”, causando - lhe intenso sofrimento psicológico. À luz das normas vigentes, a conduta de Pedro",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não pode ser considerada violência familiar e doméstica contra a mulher, em razão da ausência de laço natural com a “filha de criação”."
+      },
+      {
+        "letra": "B",
+        "texto": "não pode ser considerada violência familiar e doméstica contra a mulher, já que a “filha de criação” somente mantém vínculo com João e Maria."
+      },
+      {
+        "letra": "C",
+        "texto": "não pode ser co nsiderada violência familiar e doméstica contra a “filha de criação”, pois ele é mais jovem que ela, não podendo subjugá - la psicologicamente."
+      },
+      {
+        "letra": "D",
+        "texto": "pode ser considerada violência familiar e doméstica, pois praticada no âmbito da família à qual estava integra da a “filha de criação” que sofreu as ofensas."
+      },
+      {
+        "letra": "E",
+        "texto": "pode ser considerada violência familiar e doméstica, desde que a “filha de criação” que sofreu as ofensas esteja residindo há mais de um ano com a família. Aluno Oficial da PM FGV  Tipo Branca – Página 18 REALIZAÇÃO"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "PMAM",
+    "comentario": "Questao oficial PMAM Aluno Oficial PM 2021. Banca: FGV. Gabarito definitivo: D. Origem: oficial. Materia original: Direitos Humanos."
+  }
+]

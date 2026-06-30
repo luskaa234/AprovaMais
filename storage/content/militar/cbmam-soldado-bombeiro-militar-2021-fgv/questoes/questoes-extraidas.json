@@ -1,0 +1,2410 @@
+[
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q01",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q01",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 1,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "“Frequentemente tenho longas conversas comigo mesmo, e sou tão inteligente que às vezes não entendo uma palavra do que estou dizendo.” (Oscar Wilde) O segmento sublinhado desempenha, em relação ao anterior, a mesma função que a seguinte oração destacada:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Sê breve em teus raciocínios, que a ninguém agrada seres longo."
+      },
+      {
+        "letra": "B",
+        "texto": "A palavra foi dada ao homem para disfarçar o próprio pensamento."
+      },
+      {
+        "letra": "C",
+        "texto": "Odeio os movimentos que ultrapassam as linhas."
+      },
+      {
+        "letra": "D",
+        "texto": "Não há livro tão mau que não tenha algo de bom."
+      },
+      {
+        "letra": "E",
+        "texto": "Grandes ideias são tão difíceis de serem reconhecidas, tão frágeis, que nunca são esquecidas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q02",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q02",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 2,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "“Um relato honesto se desenrola melhor se o fazem sem rodeios.” Assinale a frase a seguir em que o vocábulo melhor desempenha a mesma função que na frase acima.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A melhor frase é sempre dita em particular."
+      },
+      {
+        "letra": "B",
+        "texto": "A engenhosidade é o sal da conversação, não seu melhor alimento."
+      },
+      {
+        "letra": "C",
+        "texto": "As palavras são mais misteriosas que o melhor acontecimento."
+      },
+      {
+        "letra": "D",
+        "texto": "Quando os bens circulam melhor, as pessoas são mais felizes."
+      },
+      {
+        "letra": "E",
+        "texto": "Das palavras insignificantes nasce a melhor demanda."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q03",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q03",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 3,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "“A conversação: coisa tão supérflua e tão necessária, em que uns não dizem sempre o que sabem e em que outros não sabem sempre o que dizem.” Nessa frase, a crítica se dirige a dois tipos de pessoas, indicadas pelos segmentos sublinhados; a crítica se dirige, respectivamente, a pessoas que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "desconhecem o que estão falando / são falsas."
+      },
+      {
+        "letra": "B",
+        "texto": "ocultam fatos ou ideias / são ignorantes."
+      },
+      {
+        "letra": "C",
+        "texto": "mentem sobre o que dizem / são hipócritas."
+      },
+      {
+        "letra": "D",
+        "texto": "valorizam o que têm a dizer / são orgulhosas."
+      },
+      {
+        "letra": "E",
+        "texto": "se negam a falar o que sabem / são sábias."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q04",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q04",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 4,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "Nas opções a seguir foram destacados termos formados por adjetivo + substantivo. Assinale a frase a seguir em que a troca de posição dessas palavras entre si não modifica o significado expresso.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A melhor maneira de ter uma boa ideia é ter várias ideias."
+      },
+      {
+        "letra": "B",
+        "texto": "A mente humana, uma vez ampliada por uma nova ideia, nunca mais volta a seu tamanho original."
+      },
+      {
+        "letra": "C",
+        "texto": "As melhores ideias são propriedades de todos."
+      },
+      {
+        "letra": "D",
+        "texto": "As diversas ideias que temos devem ser compartilhadas."
+      },
+      {
+        "letra": "E",
+        "texto": "Nossas diferentes ideias sobrevivem mais facilmente."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q05",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q05",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 5,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "“Sê breve em teus raciocínios, que a ninguém agrada seres longo.” A frase está expressa na segunda pessoa do singular; assinale a opção que mostra a forma adequada se a reescrevermos na terceira pessoa do singular.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Seja breve em seus raciocínios, que a ninguém agrada seres longo."
+      },
+      {
+        "letra": "B",
+        "texto": "Seja breve em teus raciocínios, que a ninguém agrada ser longo."
+      },
+      {
+        "letra": "C",
+        "texto": "Sê breve em seus raciocínios, que a ninguém agrada seres longo."
+      },
+      {
+        "letra": "D",
+        "texto": "Sê breve em seus raciocínios, que a ninguém agrada ser longo."
+      },
+      {
+        "letra": "E",
+        "texto": "Seja breve em seus raciocínios, que a ninguém agrada ser longo."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q06",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q06",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 6,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "Nosso poeta Manuel Bandeira disse certa vez: “Brasileiro não sabe os nomes das plantas, nem das flores, e a qualquer objeto chama ‘coisa’, ‘troço’, ‘negócio’.” A falha apontada pelo poeta é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "designar uma realidade específica por um termo geral, que não a identifica."
+      },
+      {
+        "letra": "B",
+        "texto": "a ignorância dos nomes científicos das plantas e das flores, trocando-os por vocábulos coloquiais."
+      },
+      {
+        "letra": "C",
+        "texto": "a não utilização da linguagem culta, substituindo-a por vocábulos populares ou chulos."
+      },
+      {
+        "letra": "D",
+        "texto": "a substituição de vocábulos tradicionalmente portugueses por brasileirismos sem sentido."
+      },
+      {
+        "letra": "E",
+        "texto": "a troca de vocábulos de valor semântico positivo por outros de valor semântico negativo."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q07",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q07",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 7,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "“Quando um cachorro morde uma pessoa, isto não é notícia, mas quando uma pessoa morde um cachorro, isto é notícia.” Segundo essa frase, um fato vira notícia quando",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "traz prejuízo notório ao ser humano."
+      },
+      {
+        "letra": "B",
+        "texto": "mostra aspectos inesperados."
+      },
+      {
+        "letra": "C",
+        "texto": "envolve a relação homem X animal."
+      },
+      {
+        "letra": "D",
+        "texto": "contém detalhes mórbidos."
+      },
+      {
+        "letra": "E",
+        "texto": "desperta interesse por problemas sociais."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q08",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q08",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 8,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "“As pessoas não param de confundir com notícias o que leem nos jornais.” Essa frase critica um aspecto dos jornais, que é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o apelo às fake news."
+      },
+      {
+        "letra": "B",
+        "texto": "o desinteresse por temas nacionais importantes."
+      },
+      {
+        "letra": "C",
+        "texto": "a ausência de critério na seleção de notícias."
+      },
+      {
+        "letra": "D",
+        "texto": "a falta de credibilidade das fontes."
+      },
+      {
+        "letra": "E",
+        "texto": "o despreparo dos jornalistas em geral. CONCURSO PARA O CORPO DE BOMBEIROS MILITAR DO ESTADO DO AMAZONAS - CBMAM 2021 FGV Soldado Bombeiro Militar  Tipo Branca – Página 4"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q09",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q09",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 9,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "Todas as frases abaixo têm por tema o casamento. Assinale a frase que, ao contrário das demais, mostra uma visão positiva do matrimônio.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Sabe o que significa voltar para casa à noite e encontrar uma mulher que lhe dá amor, afeto e ternura? Significa que você entrou na casa errada, só isso."
+      },
+      {
+        "letra": "B",
+        "texto": "Todas as tragédias terminam com a morte. Todas as comédias terminam com o casamento."
+      },
+      {
+        "letra": "C",
+        "texto": "O casamento é uma escola onde se aprende tarde demais."
+      },
+      {
+        "letra": "D",
+        "texto": "Todas as mulheres honrarão os seus maridos, tanto os grandes quanto os pequenos."
+      },
+      {
+        "letra": "E",
+        "texto": "Quando um homem casa, ou trai sua natureza ou trai sua mulher."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q10",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q10",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 10,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a frase a seguir em que a expressão todo / todo o está bem empregada.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Alguns divórcios são amigáveis, mas todo o casamento é litigioso."
+      },
+      {
+        "letra": "B",
+        "texto": "Um estadista é um homem calmo que conta todo trabalho como algo sério e importante."
+      },
+      {
+        "letra": "C",
+        "texto": "Todo o mundo é oportunista, mas nem todos sabem sê-lo com oportunidade."
+      },
+      {
+        "letra": "D",
+        "texto": "A arte da guerra consiste em vencer todo o inimigo sem combater."
+      },
+      {
+        "letra": "E",
+        "texto": "Os ventos e as ondas estão sempre ao lado de todo o timoneiro. Geografia do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q11",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q11",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 11,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "“O proprietário era alguém que tinha posses suficientes para ter um barco a motor, no qual percorria os rios e igarapés da Amazônia trocando alimentos, utensílios e outros gêneros por produtos naturais tirados da floresta, que atingiam alto valor nos mercados das grandes cidades. Fosse à base de venda ou escambo, o resultado era sempre o ganho, em elevado percentual de lucro – em seu favor, é claro – daí o conceito negativo que desfrutavam, pois não faziam negócios para perder.” (Célio Simões. Folha de Óbidos. PA. Janeiro de 2015.) Assinale a opção que indica o nome dado ao tipo regional descrito no fragmento acima.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Rateiro, do verbo ratinhar."
+      },
+      {
+        "letra": "B",
+        "texto": "Regatão, do verbo regatear."
+      },
+      {
+        "letra": "C",
+        "texto": "Barateiro, do verbo baratear."
+      },
+      {
+        "letra": "D",
+        "texto": "Negociante, do verbo negociar."
+      },
+      {
+        "letra": "E",
+        "texto": "Pechincheiro, do verbo pechinchar."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q12",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q12",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 12,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "A cobertura florestal do Estados do Amazonas está dividida em dois subtipos: matas de planície de inundação (terminologia regional - mata de várzea e mata de igapó) e matas de terra firme. Sobre os subtipos da cobertura florestal amazonense, analise as afirmativas a seguir. I. A mata de várzea ocorre ao longo dos rios e das planícies inundáveis e apresenta menor diversidade florística porque poucas espécies dispõem de mecanismos que tolerem o ritmo sazonal das inundações. II. A mata de terra firme é o ecossistema que apresenta grande complexidade na composição, distribuição e densidade de espécies, caracterizando-se pela heterogeneidade florística. III. A mata de igapó apresenta grande diversidade fisionômica porque os indivíduos da mesma espécie sofreram diferentes processos de adaptação às variações do nível dos rios. Está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "I e II, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "I e III, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "II e III, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "I, II e III. CONCURSO PARA O CORPO DE BOMBEIROS MILITAR DO ESTADO DO AMAZONAS - CBMAM 2021 FGV Soldado Bombeiro Militar  Tipo Branca – Página 5"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q13",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q13",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 13,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "Analise o mapa a seguir. Assinale a opção que indica a cidade de maior índice pluviométrico.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "1 – Barcelos."
+      },
+      {
+        "letra": "B",
+        "texto": "2 – Atalaia do Norte."
+      },
+      {
+        "letra": "C",
+        "texto": "3 – Borba."
+      },
+      {
+        "letra": "D",
+        "texto": "4 – Humaitá."
+      },
+      {
+        "letra": "E",
+        "texto": "5 – São Gabriel da Cachoeira."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q14",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q14",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 14,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "“Os empreendimentos hidrelétricos podem ser criticados a partir dos problemas decorrentes da implantação da barragem e da sua interação com as características ambientais do seu local de construção.” (BERMANN, Célio. Impasses e controvérsias da hidroeletricidade. Estudos Avançados: Energia. São Paulo. 2007.) As afirmativas a seguir apresentam problemas ambientais em usinas hidrelétricas, à exceção de uma. Assinale-a.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A alteração do regime hidrológico comprometendo as atividades a jusante do reservatório."
+      },
+      {
+        "letra": "B",
+        "texto": "O assoreamento dos reservatórios em virtude do processo de desmatamento e da retirada da mata ciliar."
+      },
+      {
+        "letra": "C",
+        "texto": "O comprometimento da qualidade da água a montante da barragem em razão do aumento da velocidade de escoamento."
+      },
+      {
+        "letra": "D",
+        "texto": "A emissão de gases de efeito estufa, particularmente o metano, devido à decomposição da cobertura vegetal submersa nos reservatórios."
+      },
+      {
+        "letra": "E",
+        "texto": "Os problemas de saúde pública, pela formação de remansos nos reservatórios e a decorrente proliferação de vetores transmissores de doenças endêmicas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q15",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q15",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 15,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "Analise o mapa a seguir, que mostra a região de influência de Manaus. (Fonte: IBGE) Sobre a rede urbana de Manaus, assinale a afirmativa incorreta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "As grandes distâncias que separam a metrópole das demais cidades e vilas justificam a fragilidade da rede urbana de Manaus."
+      },
+      {
+        "letra": "B",
+        "texto": "O precário equipamento urbano das cidades-locais aumenta a dependência desses núcleos em relação à metrópole regional."
+      },
+      {
+        "letra": "C",
+        "texto": "As variadas funções urbanas exercidas pelos centros sub- regionais estimulam os fluxos entre eles e enfraquecem os fluxos com a metrópole."
+      },
+      {
+        "letra": "D",
+        "texto": "A deficiente infraestrutura de transporte e comunicação interfere nos fluxos de mercadorias e serviços entre Manaus e sua área de influência."
+      },
+      {
+        "letra": "E",
+        "texto": "A hipertrofia de Manaus em relação às demais cidades que compõem a rede manifesta-se na existência de poucos níveis hierárquicos intermediários."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q16",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q16",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 16,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "A característica migratória, muitas vezes ilegal, dos “garimpos” tem provocado graves impactos ambientais. Sobre os impactos ambientais do “garimpo”, assinale a afirmativa incorreta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Os garimpos provocam impactos ambientais imediatos, como a destruição da cobertura vegetal e o assoreamento do leito dos rios."
+      },
+      {
+        "letra": "B",
+        "texto": "A mecanização dos garimpos impacta a qualidade das águas porque aumenta a descarga de derivados de petróleo e de detergentes nos rios."
+      },
+      {
+        "letra": "C",
+        "texto": "Os garimpos ocasionam danos ambientais irreversíveis porque liberam mercúrio na forma metálica para rios e solos, e sob a forma de vapor para a atmosfera."
+      },
+      {
+        "letra": "D",
+        "texto": "Os garimpos, ao provocar a erosão das margens (barrancos) dos rios, levam sólidos em suspensão e mercúrio associado à matéria orgânica para o sistema de drenagem."
+      },
+      {
+        "letra": "E",
+        "texto": "Os garimpos, para contornar a legislação ambientalista, adotam práticas artesanais na retirada da lama e a usar o mercúrio apenas na separação das partículas de ouro. CONCURSO PARA O CORPO DE BOMBEIROS MILITAR DO ESTADO DO AMAZONAS - CBMAM 2021 FGV Soldado Bombeiro Militar  Tipo Branca – Página 6"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q17",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q17",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 17,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "A população de Manaus, estimada em 2.255.000 habitantes, em 2021, representa cerca de 60% da população estadual, o que confirma a forte tendência à concentração demográfica na metrópole. A respeito das causas dessa concentração, analise as afirmativas a seguir. I. A instalação da Zona Franca de Manaus definiu a estratégia de concentração da população na metrópole, ao atrair a maior parte dos fluxos econômicos e populacionais relativos ao mercado de trabalho. II. A ampliação e a regularidade dos fluxos do modal rodoviário garantiram o acesso aos mercados consumidores do Centro- Sul do país, o que estimulou os investimentos produtivos no Distrito Industrial. III. A assinatura do Marco Legal da Biodiversidade incentivou a exploração dos recursos da floresta, o que permitiu a instalação de laboratórios e fábricas no Distrito Industrial, com forte apelo sobre numerosa mão de obra qualificada. Está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "I e II, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "I e III, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "II e III, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "I, II e III."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q18",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q18",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 18,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "A poluição atmosférica de Manaus deu origem a uma “nuvem” de poluentes, que pode ser observada a cerca de 100 km de distância, sobre suas imediações. Sobre as razões para o aumento da poluição atmosférica na cidade de Manaus, analise as afirmativas a seguir. I. A opção pelo modal rodoviário aumentou a emissão de gases de efeito estufa (dióxido de carbono) devido à queima de combustíveis fósseis. II. O uso da energia elétrica nas fábricas instaladas no Distrito Industrial agravou a poluição atmosférica devido à emissão de gases e partículas sólidas. III. A instalação de termoelétricas movidas a gás natural (em substituição às movidas a Diesel) aumentou a poluição do ar, devido à maior emissão de poluentes. Está correto o que se afirma em",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "I, apenas."
+      },
+      {
+        "letra": "B",
+        "texto": "I e II, apenas."
+      },
+      {
+        "letra": "C",
+        "texto": "I e III, apenas."
+      },
+      {
+        "letra": "D",
+        "texto": "II e III, apenas."
+      },
+      {
+        "letra": "E",
+        "texto": "I, II e III."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q19",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q19",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 19,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "“Manaus é um ecossistema urbano complexo, cuja dinâmica acarreta efeitos sobre a saúde. Os dados de saneamento de 2010 mostram que o percentual de domicílios considerados adequados é de, aproximadamente, 50 %. A categoria considerada adequada diz respeito à disponibilidade simultânea de abastecimento de água por rede geral, esgotamento sanitário por rede geral ou fossa séptica e lixo coletado direta ou indiretamente.” (GIATTI, Leandro et alii. Manaus: uma análise ecossistêmica por meio de indicadores de sustentabilidade ambiental e de saúde. Ed. FIOCRUZ, Rio de Janeiro. 2014.) A esse respeito, assinale a afirmativa incorreta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "O número de domicílios com instalação sanitária ligada à rede geral de esgotos mostra um sério déficit, com graves repercussões ambientais."
+      },
+      {
+        "letra": "B",
+        "texto": "Os resíduos sólidos são encaminhados para um aterro controlado, situado na zona norte da cidade, e a taxa de cobertura para o município é de 100%."
+      },
+      {
+        "letra": "C",
+        "texto": "A ocupação de áreas distantes materializou uma cidade espraiada, privando a população de serviços essenciais e reproduzindo sérios problemas sanitários."
+      },
+      {
+        "letra": "D",
+        "texto": "A dinâmica do uso do solo conduziu a ocupação para periferias distantes o que inviabilizou a universalização dos serviços de esgotamento sanitário."
+      },
+      {
+        "letra": "E",
+        "texto": "A expansão do abastecimento d’água nas zonas norte e leste permitiu universalizar o serviço, porque essas áreas comportavam quase metade dos domicílios urbanos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q20",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q20",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 20,
+    "materia": "Conhecimentos Gerais",
+    "materia_original": "Conhecimentos Gerais",
+    "dificuldade": "medio",
+    "enunciado": "“Para definir uma pequena cidade, o primeiro critério ainda é o demográfico, mas este critério é capaz apenas de identificar a faixa à qual a cidade pertence. Como regra geral, as pequenas cidades são cidades locais, com atuação restrita à sua pequena área de influência. Tomando como exemplo o Estado do Amazonas, no censo de 2000, das 62 cidades existentes, 10 tinham menos de 5 mil habitantes e 21, entre 5 a 10 mil habitantes.” (OLIVEIRA, José",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "de A Cultura, as cidades e os rios na Amazônia. Ciência e Cultura. São Paulo. 2006) Sobre as pequenas cidades do Amazonas, as cidades-locais, analise as afirmativas a seguir e assinale (V) para a verdadeira e (F) para a falsa. ( ) Os pequenos núcleos, que se emanciparam com fraca ou nenhuma infraestrutura, têm como base econômica o repasse de recursos públicos e as atividades terciárias ligadas aos serviços públicos. ( ) As pequenas cidades não apresentam atividades econômicas urbanas diversificadas, o que faz com que sua população se dedique às atividades tradicionais, como a pesca e o extrativismo. ( ) As cidades-locais, que seguiam o padrão de organização espacial rio-várzea-floresta, foram enfraquecidas economicamente devido à construção dos novos eixos de circulação que estruturaram uma nova espacialidade: rodovia-terra firme-solo/subsolo. As afirmativas são, na ordem apresentada, respectivamente, (A) V – F – V."
+      },
+      {
+        "letra": "B",
+        "texto": "F – V – F."
+      },
+      {
+        "letra": "C",
+        "texto": "V – V – F."
+      },
+      {
+        "letra": "D",
+        "texto": "V – V – V."
+      },
+      {
+        "letra": "E",
+        "texto": "F – V – V. CONCURSO PARA O CORPO DE BOMBEIROS MILITAR DO ESTADO DO AMAZONAS - CBMAM 2021 FGV Soldado Bombeiro Militar  Tipo Branca – Página 7 História do Amazonas"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q21",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q21",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 21,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em meados do séc. XVIII, no reinado de",
+    "alternativas": [
+      {
+        "letra": "D",
+        "texto": "José I (1750-1777), seu principal ministro, o Marquês de Pombal, desenvolveu uma política que classificava os jesuítas como inimigos dos interesses da coroa portuguesa. Nesse contexto, os jesuítas eram acusados de"
+      },
+      {
+        "letra": "A",
+        "texto": "aproveitarem-se de sua condição de missionários para controlar o trabalho dos índios, prejudicando os colonos."
+      },
+      {
+        "letra": "B",
+        "texto": "serem agentes da coroa espanhola, motivo pelo qual foram substituídos pelos mercedários no vale amazônico."
+      },
+      {
+        "letra": "C",
+        "texto": "promoverem a secularização da administração dos aldeamentos que concentravam índios não cristianizados. (D) competirem com as companhias comerciais monopolistas lusas, sobretudo com a Companhia das Índias Orientais."
+      },
+      {
+        "letra": "E",
+        "texto": "Descuidarem da educação dos colonos, ofício ao qual deveriam se restringir a partir das reformas pombalinas."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q22",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q22",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 22,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Partindo de São Luís do Maranhão, em dezembro de 1615, o capitão Francisco Caldeira Castelo Branco, liderou uma expedição dirigida à foz do rio Amazonas. As afirmativas a seguir descrevem corretamente objetivos dessa expedição, à exceção de uma. Assinale-a.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Estabelecer uma fortificação que denominaram de Forte do Presépio, na região batizada de Feliz Lusitânia."
+      },
+      {
+        "letra": "B",
+        "texto": "Constituir uma base para a penetração e ocupação do território que ficava a oeste do Forte do Presépio."
+      },
+      {
+        "letra": "C",
+        "texto": "Expulsar eventuais estrangeiros, franceses, holandeses ou ingleses, que se tivessem estabelecido no Pará."
+      },
+      {
+        "letra": "D",
+        "texto": "Erguer um forte que delimitasse a posse territorial lusa contra as reivindicações da Espanha no Amazonas."
+      },
+      {
+        "letra": "E",
+        "texto": "Consolidar a presença ibérica na foz do Amazonas, ameaçada pela presença dos franceses em São Luís."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q23",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q23",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 23,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O etnólogo Curt Nimuendaju assinalou em seu mapa etno- histórico a existência de cerca 1400 povos indígenas no território que correspondia ao Brasil do descobrimento. A respeito das sociedades indígenas que habitavam o território americano correspondente ao Brasil, na primeira metade do século XVI, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Pertenciam a grandes famílias linguísticas, como os tupi- guarani, jê, karib, aruák, entre outros, com diversidade geográfica e de organização social."
+      },
+      {
+        "letra": "B",
+        "texto": "Em toda a costa encontravam-se os tapuias, ao passo que os guaranis povoavam o vale amazônico, onde dividiam o território com grupos da família aruák."
+      },
+      {
+        "letra": "C",
+        "texto": "As sociedades tupis, com quem os portugueses entraram em contato, eram nômades e praticavam o canibalismo, motivo pelo qual houve vários confrontos."
+      },
+      {
+        "letra": "D",
+        "texto": "Os povos indígenas foram descritos de modo fidedigno pelos cronistas coloniais, o que permitiu conhecer suas visões de mundo e o significado cultural de suas tradições."
+      },
+      {
+        "letra": "E",
+        "texto": "A necessidade dos portugueses de estabelecer alianças militares com grupos indígenas contribuiu para identificar genericamente os índios aliados como “tapuios”."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q24",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q24",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 24,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A respeito da Cabanagem, analise as afirmativas a seguir e assinale V para a verdadeira e F para a falsa. ( ) A Cabanagem foi um movimento político liderado por políticos regionais do Partido Caramuru (restaurador), que defendiam a manutenção da unidade política do Brasil com Portugal. ( ) A Cabanagem foi um levante liberal, inspirado nos ideais norte-americanos, que queria implementar no Brasil uma república federativa de pequenos proprietários escravistas. ( ) A Cabanagem foi politicamente heterogênea: para as oligarquias o Ato Adicional abriu a oportunidade de conquistar o poder; para os setores populares o levante era o meio para exigir melhores condições de vida e o fim da escravidão. A sequência correta, de cima para baixo, é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "V – V – F."
+      },
+      {
+        "letra": "B",
+        "texto": "V – F – F."
+      },
+      {
+        "letra": "C",
+        "texto": "F – F – V."
+      },
+      {
+        "letra": "D",
+        "texto": "F – V – F."
+      },
+      {
+        "letra": "E",
+        "texto": "V – V – V."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q26",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q26",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 26,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a afirmativa que descreve corretamente um aspecto dos ciclos da borracha no Brasil.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Extraída da seiva da seringueira, a borracha era desconhecida pelos índios da Amazônia, passando a ser comercializada após a invenção do processo de vulcanização."
+      },
+      {
+        "letra": "B",
+        "texto": "A economia da borracha amazônica teve como base a extração de látex em plantations de seringueiras cultivadas em terrenos argilosos e próximos a várzeas."
+      },
+      {
+        "letra": "C",
+        "texto": "O aumento da demanda internacional por borracha natural incentivou investimentos estatais em ferrovias e em iniciativas de reforma agrária para a região amazônica."
+      },
+      {
+        "letra": "D",
+        "texto": "Os ingleses, interessados na produção de látex em grande escala, contrabandearam sementes de Hevea brasiliensis e as enviaram para suas plantações na Índia."
+      },
+      {
+        "letra": "E",
+        "texto": "A exploração da seringueira no vale amazônico ativou um ciclo econômico que, a partir da segunda metade do século XIX, permitiu a reestruturação urbana de Belém e Manaus."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q27",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q27",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 27,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A respeito da crise diplomática conhecida como “questão do Acre”, assinale a afirmativa correta.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Começou com a proclamação da República Independente do Acre pelas autoridades bolivianas, preocupadas em frear o avanço da migração nordestina naquele território."
+      },
+      {
+        "letra": "B",
+        "texto": "Teve origem com os conflitos fronteiriços com a Bolívia, uma vez que os seringueiros, em sua busca pela borracha, cruzavam a fronteira que separava os dois países."
+      },
+      {
+        "letra": "C",
+        "texto": "Foi consequência da rebelião boliviana contra a empresa estadunidense Anglo Bolivian Syndicate, que obteve do Brasil a concessão para explorar economicamente a região."
+      },
+      {
+        "letra": "D",
+        "texto": "Foi motivada pela disputa, entre Brasil e Estados Unidos, sobre a exploração da ferrovia Madeira-Mamoré, que escoava a borracha pelos portos de Manaus e Belém."
+      },
+      {
+        "letra": "E",
+        "texto": "Findou com a assinatura do Tratado de Petrópolis (1903), articulado pelo Barão do Rio Branco, que conseguiu reestabelecer as fronteiras entre os dois países vigentes no Império."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q28",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q28",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 28,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A respeito da Zona Franca de Manaus (ZFM), analise as afirmativas a seguir e assinale V para a verdadeira e F para a falsa. ( ) A ZFM originou-se como uma política pública de orientação desenvolvimentista, tendo sido idealizada ainda nos anos 1950 e implementada em 1967, no governo militar. ( ) A partir da década de 1990, com a liberalização da economia e a ascensão dos Tigres Asiáticos, a ZFM passou a permitir a participação de capital estrangeiro, japonês, no Polo Industrial de Manaus. ( ) A partir da crise de 2008, com a retomada do protecionismo global, a ZFM voltou a atuar predominantemente no comércio e se tornou um polo de importação de produtos eletrônicos. Assinale a opção que apresenta a sequência correta, de cima para baixo.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "V – V – F."
+      },
+      {
+        "letra": "B",
+        "texto": "V – F – V"
+      },
+      {
+        "letra": "C",
+        "texto": "F – V – V."
+      },
+      {
+        "letra": "D",
+        "texto": "V – F – F."
+      },
+      {
+        "letra": "E",
+        "texto": "F – V – F."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q29",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q29",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 29,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Getúlio Vargas nas escadas do Palácio Rio Negro (Manaus) no dia 09 de outubro de 1940 (Foto: Acervo CPDOC/FGV) Leia o trecho a seguir do Discurso do Rio Amazonas, de Getúlio Vargas: “Até agora o clima caluniado impediu que de outras regiões com excesso demográfico viessem os contingentes humanos de que carece a Amazônia. É tempo de cuidarmos, de forma permanente, do povoamento amazônico, já que o seu quadro ainda é o da dispersão. O nomadismo do seringueiro e a instabilidade econômica dos povoadores ribeirinhos devem dar lugar a núcleos de cultura agrária, onde o colono nacional, recebendo a terra, desbravada, saneada e loteada, se fixe e estabeleça a família com saúde e conforto.” (Adaptado de VARGAS, Getúlio. Discurso do rio Amazonas. Revista Brasileira de Geografia. Abril-Junho de 1942. Vol. 4, Nº 2.) Assinale a afirmativa que caracteriza corretamente o projeto político do governo Vargas para a região amazônica, anunciado no discurso citado.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Para integrar a região à nação, Vargas determina a construção da rodovia Transamazônica e de outras redes de acesso."
+      },
+      {
+        "letra": "B",
+        "texto": "Para adensar o povoamento da região, Vargas convoca os nordestinos atingidos pela seca."
+      },
+      {
+        "letra": "C",
+        "texto": "Para produzir uma integração econômica nacional, Vargas propõe superar o extrativismo gumífero."
+      },
+      {
+        "letra": "D",
+        "texto": "Para retomar o desenvolvimento da região, Vargas cria áreas de livre comércio para os produtos amazônicos."
+      },
+      {
+        "letra": "E",
+        "texto": "Para fixar os colonos na região, Vargas estabelece a doação de lotes de terras ao lado das estradas a serem construídas. CONCURSO PARA O CORPO DE BOMBEIROS MILITAR DO ESTADO DO AMAZONAS - CBMAM 2021 FGV Soldado Bombeiro Militar  Tipo Branca – Página 9"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q30",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q30",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 30,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Leia o trecho a seguir: “Naquele momento, a imagem de uma cidade urbanizada e embelezada atendia às aspirações de uma elite ávida por demonstrar seu status perante a situação de prosperidade iniciada algumas décadas antes. A configuração da cidade fora definida pelo Plano de Embelezamento implantado na última década do século XIX e, graças aos excedentes econômicos provenientes da comercialização da borracha, foi possível concretizar os projetos. Assim, surgiram as obras arquitetônicas mais significativas do período, que posteriormente, viriam a se impor como referências na cidade.” (MESQUITA, Otoni Moreira de. La Belle Vitrine: O mito do progresso na refundação da cidade de Manaus (1890-1900). UFF, 2005. p. 13.) O autor se refere ao processo modernizador da cidade de Manaus ocorrido entre 1890 e 1910, período durante o qual a exploração da borracha ajudou a financiar a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "construção de edifícios em estilo barroco, como o Palácio da Justiça e o Reservatório de Mocó."
+      },
+      {
+        "letra": "B",
+        "texto": "adoção de modernos serviços públicos, como água encanada, rede de esgoto e iluminação."
+      },
+      {
+        "letra": "C",
+        "texto": "a política sanitarista contra as novas doenças vindas com os imigrantes: febre amarela, varíola e paludismo."
+      },
+      {
+        "letra": "D",
+        "texto": "adaptação dos modelos urbanísticos europeus à topografia local, com seus igarapés e colinas."
+      },
+      {
+        "letra": "E",
+        "texto": "conexão portuária com Belém, que continuava sendo o único porto para atracação de navios de grande calado. Raciocínio Lógico Matemático"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q31",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q31",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 31,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Um clube possuía, certo ano, mais de uma centena de sócios. No ano seguinte recebeu 54 novos sócios que correspondiam a 30% do número de sócios do ano anterior. No ano seguinte a esse, o clube recebeu novamente 54 novos sócios. A porcentagem que esses últimos novos sócios representam do número de sócios do ano anterior é, aproximadamente,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "30%."
+      },
+      {
+        "letra": "B",
+        "texto": "27%."
+      },
+      {
+        "letra": "C",
+        "texto": "25%."
+      },
+      {
+        "letra": "D",
+        "texto": "23%."
+      },
+      {
+        "letra": "E",
+        "texto": "21%."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q32",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q32",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 32,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A vazão de uma mangueira de bombeiro pode ser calculada, de forma aproximada, pela fórmula 𝑄 = 0,2 ∙ 𝐷2 ∙ √𝐻 onde 𝑄 é a vazão em litros por minuto, 𝐷 é o diâmetro mínimo do esguicho em milímetros e 𝐻 é a pressão dinâmica em metros de coluna de água (mca). Uma mangueira com diâmetro mínimo de esguicho de 38 mm e pressão dinâmica de 25 mca, ficou ligada por meia hora. A quantidade de água que passou por essa mangueira nessa meia hora foi cerca de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "36.000 litros."
+      },
+      {
+        "letra": "B",
+        "texto": "40.000 litros."
+      },
+      {
+        "letra": "C",
+        "texto": "43.000 litros."
+      },
+      {
+        "letra": "D",
+        "texto": "47.000 litros."
+      },
+      {
+        "letra": "E",
+        "texto": "51.000 litros."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q33",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q33",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 33,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "No plano cartesiano, a partir da origem, foi construído o caminho representado abaixo, mantendo o padrão do desenho. O comprimento da parte do caminho desde o início até o ponto (49, 1) é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "166."
+      },
+      {
+        "letra": "B",
+        "texto": "168."
+      },
+      {
+        "letra": "C",
+        "texto": "170."
+      },
+      {
+        "letra": "D",
+        "texto": "172."
+      },
+      {
+        "letra": "E",
+        "texto": "174."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q34",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q34",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 34,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Um antigo ditado diz: “Se há fumaça então há fogo”. Uma sentença logicamente equivalente é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "se há fogo então há fumaça."
+      },
+      {
+        "letra": "B",
+        "texto": "se não há fumaça então não há fogo."
+      },
+      {
+        "letra": "C",
+        "texto": "se não há fogo, então não há fumaça."
+      },
+      {
+        "letra": "D",
+        "texto": "se não há fumaça pode haver fogo."
+      },
+      {
+        "letra": "E",
+        "texto": "se há fogo então pode haver fumaça. CONCURSO PARA O CORPO DE BOMBEIROS MILITAR DO ESTADO DO AMAZONAS - CBMAM 2021 FGV Soldado Bombeiro Militar  Tipo Branca – Página 10"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q36",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q36",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 36,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Doze amigos foram a um restaurante e resolveram dividir a conta igualmente entre eles. Como um deles estava sem dinheiro, cada um dos outros onze amigos teve que pagar um adicional de R$ 5,40. O valor total da conta foi de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "R$ 724,80."
+      },
+      {
+        "letra": "B",
+        "texto": "R$ 712,80."
+      },
+      {
+        "letra": "C",
+        "texto": "R$ 684,00."
+      },
+      {
+        "letra": "D",
+        "texto": "R$ 674,40."
+      },
+      {
+        "letra": "E",
+        "texto": "R$ 653,40."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q37",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q37",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 37,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A soma de 8 números inteiros consecutivos é 5764. O maior desses números é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "724."
+      },
+      {
+        "letra": "B",
+        "texto": "723."
+      },
+      {
+        "letra": "C",
+        "texto": "720."
+      },
+      {
+        "letra": "D",
+        "texto": "717."
+      },
+      {
+        "letra": "E",
+        "texto": "707."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q39",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q39",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 39,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Um número inteiro positivo N de 2 algarismos é tal que quando somado ao número obtido invertendo-se a ordem dos seus algarismos o resultado da soma é 143. O número de valores possíveis de N é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "7."
+      },
+      {
+        "letra": "B",
+        "texto": "6."
+      },
+      {
+        "letra": "C",
+        "texto": "5."
+      },
+      {
+        "letra": "D",
+        "texto": "4."
+      },
+      {
+        "letra": "E",
+        "texto": "3."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q41",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q41",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 41,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A Lei Delegada do Estado do Amazonas nº 89/07 dispõe sobre o Corpo de Bombeiros Militar do Estado do Amazonas – CBMAM. De acordo com o mencionado diploma normativo, o CBMAM, força pública estadual, considerada força auxiliar e reserva",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "das Forças Armadas, é instituição permanente, organizada com base na hierarquia e na disciplina, que compõe a Administração Indireta do Poder Executivo."
+      },
+      {
+        "letra": "B",
+        "texto": "do Exército Brasileiro, é instituição permanente, organizada com base na democracia e na separação dos poderes, que compõe a Administração Direta do Poder Legislativo."
+      },
+      {
+        "letra": "C",
+        "texto": "do Exército Brasileiro, é instituição permanente, organizada com base na hierarquia e na disciplina, que compõe a Administração Direta do Poder Executivo."
+      },
+      {
+        "letra": "D",
+        "texto": "da Secretaria de Segurança Pública do Estado do Amazonas é instituição permanente, organizada com base na democracia e na separação dos poderes, que compõe a Administração Direta do Poder Legislativo."
+      },
+      {
+        "letra": "E",
+        "texto": "da Secretaria de Segurança Pública do Estado do Amazonas é instituição permanente, organizada com base na hierarquia e na disciplina, que compõe a Administração Direta do Poder Executivo."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q42",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q42",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 42,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em matéria de estrutura organizacional do Corpo de Bombeiros Militar do Estado do Amazonas - CBMAM, consoante dispõe a Lei Delegada do Estado do Amazonas nº 89/07, é correto afirmar que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a Comissão de Promoção de Praça (CPP) é presidida pelo Subcomandante Geral."
+      },
+      {
+        "letra": "B",
+        "texto": "são Órgãos de Execução as Diretorias de Recursos Humanos, Finanças, Logística, Saúde e de Serviços Técnicos."
+      },
+      {
+        "letra": "C",
+        "texto": "são Órgãos de Direção Geral o Conselho do Mérito Bombeiro Militar e as Comissões de Promoção de Oficiais e de Praças."
+      },
+      {
+        "letra": "D",
+        "texto": "o cargo de Comandante Geral é privativo de Oficial da ativa do Quadro de Oficiais Bombeiros Militares, em qualquer posto."
+      },
+      {
+        "letra": "E",
+        "texto": "os cargos de Subcomandante Geral e de Chefe do Estado Maior Geral são privativos de Oficial do Quadro de Oficiais Bombeiros Militares no posto de Coronel, da ativa ou da reserva."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q43",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q43",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 43,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com a redação da Lei Delegada do Estado do Amazonas nº 89/07, compete especificamente às Companhias Independentes de Bombeiro Militar, Pelotões Independentes de Bombeiro Militar e Destacamentos Independentes de Bombeiro Militar",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a coordenação, fiscalização, controle e execução de atividades administrativas e operacionais de salvamento, busca, resgate e emergências médicas."
+      },
+      {
+        "letra": "B",
+        "texto": "a execução de atividades de prevenção, combate a incêndio, busca e salvamento, atendimento de socorros de emergência e defesa civil."
+      },
+      {
+        "letra": "C",
+        "texto": "a execução das atividades de Secretaria, inclusive correspondência, correios, protocolo-geral, arquivo-geral e confecção do Boletim Ostensivo Geral da Corporação; serviço de embarque e desembarque da Corporação."
+      },
+      {
+        "letra": "D",
+        "texto": "o estudo, análise, planejamento e fiscalização das atividades atinentes à prevenção e segurança contra incêndios e pânico, além da realização de vistorias, emissão de pareceres e supervisão da instalação de hidrantes na rede pública."
+      },
+      {
+        "letra": "E",
+        "texto": "a execução das atividades de planejamento estratégico, coordenação e fiscalização do emprego das Unidades da Capital, quanto à execução de atividades de prevenção, combate a incêndio, busca e salvamento."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q44",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q44",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 44,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A Lei Delegada do Estado do Amazonas nº 89/07 dispõe que o Corpo de Bombeiros Militar do Estado do Amazonas - CBMAM, integra o Sistema de Segurança Pública do Estado do Amazonas, com subordinação ao Governador do Estado e vinculação, para fins operacionais, à Secretaria de Estado de Segurança Pública - SSP, e tem entre suas finalidades",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "proteção e salvamento aquáticos."
+      },
+      {
+        "letra": "B",
+        "texto": "atuação no socorro médico ordinário hospitalar."
+      },
+      {
+        "letra": "C",
+        "texto": "exercício geral das atividades de polícia judiciária para apuração de crimes e controle de edificações e seus projetos."
+      },
+      {
+        "letra": "D",
+        "texto": "atuação precípua na defesa civil municipal e nas funções de proteção dos bens, serviços e instalações locais."
+      },
+      {
+        "letra": "E",
+        "texto": "exercício geral das atividades de polícia judiciária para apuração de crimes, bem como prevenção e combate a incêndio."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q45",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q45",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 45,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em relação ao pagamento de tarifa no sistema de transporte coletivo intermunicipal rodoviário e aquaviário, a Constituição do Estado do Amazonas prevê que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "são isentos de pagamento os bombeiros militares em serviço."
+      },
+      {
+        "letra": "B",
+        "texto": "são isentos de pagamento os bombeiros militares, independentemente de estarem em serviço."
+      },
+      {
+        "letra": "C",
+        "texto": "são isentos de pagamento os bombeiros militares e seus familiares."
+      },
+      {
+        "letra": "D",
+        "texto": "não são isentos de pagamento os bombeiros militares, independentemente de estarem em serviço, pelo princípio da isonomia."
+      },
+      {
+        "letra": "E",
+        "texto": "não são isentos de pagamento os bombeiros militares, mas, se estiverem em serviço, fazem jus a desconto de 50% (cinquenta por cento). CONCURSO PARA O CORPO DE BOMBEIROS MILITAR DO ESTADO DO AMAZONAS - CBMAM 2021 FGV Soldado Bombeiro Militar  Tipo Branca – Página 12"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q46",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q46",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 46,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "De acordo com o texto da Constituição do Estado do Amazonas, compete ao Corpo de Bombeiros Militar",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "prevenção e combate a incêndios, busca e salvamento; orientação e instrução das guardas municipais, onde houver, e por solicitação do Município respectivo; realização ordinária de perícias criminais e médico-legais."
+      },
+      {
+        "letra": "B",
+        "texto": "socorro de emergência; prevenção e combate a incêndios, busca e salvamento; realização ordinária de perícias criminais e médico-legais; atuação na defesa civil estadual e nas funções de proteção da incolumidade pública."
+      },
+      {
+        "letra": "C",
+        "texto": "prevenção e combate a incêndio, busca e salvamento; realização de perícias de incêndio relacionadas com sua competência; socorro de emergência; planejamento, coordenação e execução de atividades de proteção e defesa civil."
+      },
+      {
+        "letra": "D",
+        "texto": "identificação civil e criminal; combate a incêndio e realização das respectivas perícias; atuação na defesa civil estadual e nas funções de proteção da incolumidade pública e do socorro das pessoas em casos de infortúnio ou de calamidade."
+      },
+      {
+        "letra": "E",
+        "texto": "funções da Polícia Judiciária e apuração de infrações penais, comuns e militares; realização de perícias criminais de qualquer natureza; combate a incêndio; atuação na defesa civil e nas funções de proteção da incolumidade e ordem pública."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q47",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q47",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 47,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a alternativa que contém uma atribuição que não é da Defesa Civil, consoante dispõe a Constituição do Estado do Amazonas.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Recomendar ao poder competente a interdição de áreas de risco identificadas."
+      },
+      {
+        "letra": "B",
+        "texto": "Mobilizar recursos para prevenção e minimização dos desastres."
+      },
+      {
+        "letra": "C",
+        "texto": "Propor à autoridade competente a decretação ou a homologação de situação de emergência e de estado de calamidade pública."
+      },
+      {
+        "letra": "D",
+        "texto": "Coordenar a elaboração do plano de contingência estadual e fomentar a elaboração dos planos de contingência municipais."
+      },
+      {
+        "letra": "E",
+        "texto": "Ajuizar ação civil pública para defesa do meio ambiente e mapeamento de área de risco geológico sujeita a desastres naturais ou provocados pelo homem."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q48",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q48",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 48,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "João, Soldado Bombeiro Militar do Estado do Amazonas, insatisfeito com sua remuneração, pretende mobilizar seus colegas para fundar um sindicato e, em seguida, realizar greve. De acordo com a Constituição do Estado do Amazonas, o intuito de João é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "inviável, pois aos servidores públicos estaduais são proibidas a sindicalização e a greve."
+      },
+      {
+        "letra": "B",
+        "texto": "inviável, pois ao militar são proibidas a sindicalização e a greve."
+      },
+      {
+        "letra": "C",
+        "texto": "viável, no que tange à sindicalização, e inviável, em relação à greve, que é vedada."
+      },
+      {
+        "letra": "D",
+        "texto": "viável, desde que ambas as providências sejam previamente aprovadas pela maioria absoluta da categoria."
+      },
+      {
+        "letra": "E",
+        "texto": "inviável, pois ao militar é proibida a sindicalização, mas é permitida a greve, desde que deliberada por toda a categoria."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q49",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q49",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 49,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Antônio, Bombeiro Militar do Estado do Amazonas, vai se casar no próximo mês e está planejando sua viagem de lua de mel. De acordo com a Lei Estadual do Amazonas nº 1.154/75, Antônio tem direito ao afastamento total do serviço por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "tantos dias quantos possua a título de férias vencidas, não havendo que se falar em afastamento específico em razão do casamento."
+      },
+      {
+        "letra": "B",
+        "texto": "tantos dias quantos possua a título de licença especial vencida, não havendo que se falar em afastamento específico em razão do casamento."
+      },
+      {
+        "letra": "C",
+        "texto": "8 (oito) dias, período que será computado como tempo de efetivo serviço para todos os efeitos legais."
+      },
+      {
+        "letra": "D",
+        "texto": "15 (quinze) dias, período que será computado como tempo de efetivo serviço para todos os efeitos legais."
+      },
+      {
+        "letra": "E",
+        "texto": "30 (trinta) dias, período que será computado como tempo de efetivo serviço para todos os efeitos legais."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: C."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q50",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q50",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 50,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Joana, militar estadual do Amazonas da ativa, no desempenho e em razão de serviço oficial consistente em operação realizada em caso de calamidade pública, está com paradeiro ignorado por todos há duas semanas. Consoante dispõe a Lei Estadual do Amazonas nº 1.154/75, Joana é considerada:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ausente."
+      },
+      {
+        "letra": "B",
+        "texto": "desertora."
+      },
+      {
+        "letra": "C",
+        "texto": "desaparecida."
+      },
+      {
+        "letra": "D",
+        "texto": "extraviada."
+      },
+      {
+        "letra": "E",
+        "texto": "desligada. CONCURSO PARA O CORPO DE BOMBEIROS MILITAR DO ESTADO DO AMAZONAS - CBMAM 2021 FGV Soldado Bombeiro Militar  Tipo Branca – Página 13 Noções de Direito Constitucional"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q51",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q51",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 51,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Marie, de nacionalidade francesa, está residindo no território nacional há alguns meses. Para se inteirar dos distintos aspectos de sua situação jurídica, procurou um advogado e o questionou se possuía, ou não, direitos fundamentais. O advogado respondeu corretamente que Marie",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "possui direitos fundamentais, desde que tenham sido provisoriamente deferidos no início do processo de naturalização."
+      },
+      {
+        "letra": "B",
+        "texto": "possui direitos fundamentais, desde que tenha requerido a sua fruição no momento de ingresso no território nacional."
+      },
+      {
+        "letra": "C",
+        "texto": "não possui direitos fundamentais, que somente são titularizados pelos brasileiros natos."
+      },
+      {
+        "letra": "D",
+        "texto": "não possui direitos fundamentais, que somente serão obtidos ao fim do processo de naturalização."
+      },
+      {
+        "letra": "E",
+        "texto": "possui direitos fundamentais, já que se encontra residindo no território nacional."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q52",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q52",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 52,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O Município Alfa decidiu construir uma escola para atender às crianças e aos adolescentes do Bairro XX. Após amplos estudos, constatou-se que a escola deveria ficar localizada em um prédio de propriedade de Antônio. Nesse caso, a aquisição da referida propriedade privada pelo Município",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "exige a indispensável concordância de Antônio em vender o imóvel."
+      },
+      {
+        "letra": "B",
+        "texto": "é expressamente vedada, considerando a separação entre o interesse público e o interesse privado."
+      },
+      {
+        "letra": "C",
+        "texto": "pode ocorrer sem a concordância de Antônio ou indenização, isso em razão do interesse público presente."
+      },
+      {
+        "letra": "D",
+        "texto": "exige a indispensável concordância de Antônio em vender, ou a oferta de imóvel, pelo Município, em permuta."
+      },
+      {
+        "letra": "E",
+        "texto": "pode ocorrer ainda que não haja concordância de Antônio, desde que haja justa e prévia indenização em dinheiro."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: E."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q53",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q53",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 53,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "João, soldado bombeiro militar, viu que Pedro estava furtando a bicicleta de Antônio: tinha rompido o cadeado, sentara no banco da bicicleta e estava começando a pedalar. Nesse caso, é correto afirmar que, no instante em que se desenvolvia a última parte da narrativa, Pedro",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "não poderia ser preso por João, já que essa atividade é própria da Polícia Civil."
+      },
+      {
+        "letra": "B",
+        "texto": "não poderia ser preso por João, já que essa atividade é própria da Polícia Penal."
+      },
+      {
+        "letra": "C",
+        "texto": "não poderia ser preso por João, já que essa atividade é própria da Polícia Militar."
+      },
+      {
+        "letra": "D",
+        "texto": "poderia ser preso por João ou por qualquer outra pessoa que tivesse conhecimento dos fatos."
+      },
+      {
+        "letra": "E",
+        "texto": "somente poderia ser preso por Antônio, em razão do desforço imediato em defesa do seu patrimônio."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q54",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q54",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 54,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Pedro, cidadão muito ativo na fiscalização das atividades dos governantes, tomou conhecimento de que o Prefeito do Município Alfa estava utilizando recursos públicos para fomentar determinada atividade privada, apesar de a lei expressamente vedar essa possibilidade. As despesas realizadas, portanto, eram ilícitas, causando dano ao patrimônio público. Por tal razão, Pedro procurou um advogado e informou que desejava ajuizar a ação constitucional cabível para obstar essa prática e requerer a devolução dos valores já dispendidos. Essa ação é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o habeas data."
+      },
+      {
+        "letra": "B",
+        "texto": "a ação popular."
+      },
+      {
+        "letra": "C",
+        "texto": "a ação civil pública."
+      },
+      {
+        "letra": "D",
+        "texto": "o mandado de segurança."
+      },
+      {
+        "letra": "E",
+        "texto": "a reclamação constitucional."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: B."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q55",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q55",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 55,
+    "materia": "Direito Administrativo",
+    "materia_original": "Direito Administrativo",
+    "dificuldade": "medio",
+    "enunciado": "João, servidor público, informou à sua amiga Maria que ele somente perderia o cargo em virtude de sentença judicial transitada em julgado, mediante processo administrativo ou, na forma da lei complementar, mediante avaliação periódica de desempenho. Isso significa dizer que João",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "ocupa cargo de provimento efetivo, em virtude de concurso público, e conta com mais de três anos de efetivo exercício."
+      },
+      {
+        "letra": "B",
+        "texto": "ocupa cargo de provimento efetivo, em virtude de concurso público, e conta com mais de dois anos de efetivo exercício."
+      },
+      {
+        "letra": "C",
+        "texto": "ocupa cargo de provimento efetivo, em virtude de concurso público, independente do lapso temporal desde a posse."
+      },
+      {
+        "letra": "D",
+        "texto": "ocupa cargo público, de natureza não eletiva, e conta com mais de dois anos de efetivo exercício."
+      },
+      {
+        "letra": "E",
+        "texto": "exerce função pública, independente do cargo ocupado e da forma de provimento."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q56",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q56",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 56,
+    "materia": "Direito Constitucional",
+    "materia_original": "Direito Constitucional",
+    "dificuldade": "medio",
+    "enunciado": "Um grande número de eleitores, com elevado prestígio junto à sociedade civil, decidiu criar o Partido Político WW. Esse partido teria caráter regional, atuando apenas na região norte do país. À luz da sistemática constitucional, é correto afirmar que o objetivo almejado é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "inconstitucional, pois os partidos políticos não podem ter caráter regional."
+      },
+      {
+        "letra": "B",
+        "texto": "constitucional, pois os partidos políticos podem ter caráter regional, atuando em apenas uma região."
+      },
+      {
+        "letra": "C",
+        "texto": "inconstitucional, pois os partidos políticos, embora possam ter caráter regional, devem estar vinculados a ao menos três regiões."
+      },
+      {
+        "letra": "D",
+        "texto": "inconstitucional, pois os partidos políticos, embora possam ter caráter regional, devem estar vinculados a ao menos duas regiões."
+      },
+      {
+        "letra": "E",
+        "texto": "constitucional, desde que o partido político tenha o seu caráter regional previamente autorizado pelo Tribunal Superior Eleitoral. CONCURSO PARA O CORPO DE BOMBEIROS MILITAR DO ESTADO DO AMAZONAS - CBMAM 2021 FGV Soldado Bombeiro Militar  Tipo Branca – Página 14"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q57",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q57",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 57,
+    "materia": "Direito Constitucional",
+    "materia_original": "Direito Constitucional",
+    "dificuldade": "medio",
+    "enunciado": "O Governador do Estado solicitou que sua assessoria elaborasse relatório a respeito das políticas públicas, da área de seguridade social, que atendiam ao maior número de pessoas. Entre as áreas abaixo, a única que se enquadra no conceito indicado pelo Governador é a de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "saúde."
+      },
+      {
+        "letra": "B",
+        "texto": "educação."
+      },
+      {
+        "letra": "C",
+        "texto": "alimentação."
+      },
+      {
+        "letra": "D",
+        "texto": "segurança pública."
+      },
+      {
+        "letra": "E",
+        "texto": "comunicação social."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q58",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q58",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 58,
+    "materia": "Direito Constitucional",
+    "materia_original": "Direito Constitucional",
+    "dificuldade": "medio",
+    "enunciado": "João perguntou a Maria, estudante de direito, se, à luz da forma federativa de Estado adotada no Brasil, os Municípios deveriam ser regidos por uma Constituição ou por uma Lei Orgânica. Maria respondeu corretamente que os Municípios são regidos por uma",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Lei Orgânica, editada pela Câmara Municipal."
+      },
+      {
+        "letra": "B",
+        "texto": "Constituição, editada pela Câmara Municipal."
+      },
+      {
+        "letra": "C",
+        "texto": "Lei Orgânica, editada pela Assembleia Legislativa do respectivo Estado."
+      },
+      {
+        "letra": "D",
+        "texto": "Constituição, editada pela Assembleia Legislativa do respectivo Estado."
+      },
+      {
+        "letra": "E",
+        "texto": "Constituição ou por uma Lei Orgânica, a depender da opção da Câmara Municipal."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: A."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q59",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q59",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 59,
+    "materia": "Direito Penal",
+    "materia_original": "Direito Penal",
+    "dificuldade": "medio",
+    "enunciado": "Mário logrou êxito em ser aprovado para o concurso da Polícia Penal do Estado Alfa. Após a posse no cargo e o início do regular exercício das respectivas funções, Mário atuará",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "no policiamento ostensivo."
+      },
+      {
+        "letra": "B",
+        "texto": "na apuração de infrações penais."
+      },
+      {
+        "letra": "C",
+        "texto": "na preservação da ordem pública."
+      },
+      {
+        "letra": "D",
+        "texto": "na segurança de unidades prisionais."
+      },
+      {
+        "letra": "E",
+        "texto": "na execução de atividades de defesa civil."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: D."
+  },
+  {
+    "id": "cbmam-soldado-bombeiro-militar-2021-fgv-q60",
+    "codigo": "CBMAM-SOLDADO-BOMBEIRO-MILITAR-2021-FGV-Q60",
+    "orgao": "CBMAM",
+    "cargo": "Soldado Bombeiro Militar",
+    "ano": 2021,
+    "banca": "FGV",
+    "formato": "multipla_escolha",
+    "numero": 60,
+    "materia": "Direito Constitucional",
+    "materia_original": "Direito Constitucional",
+    "dificuldade": "medio",
+    "enunciado": "O Presidente da República solicitou à sua assessoria que verificasse se, entre as competências privativas que a ordem constitucional lhe outorgou, era permitido a delegação de alguma delas. A assessoria respondeu corretamente que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "nenhuma competência privativa é suscetível de delegação."
+      },
+      {
+        "letra": "B",
+        "texto": "qualquer competência privativa exige lei para que seja delegada."
+      },
+      {
+        "letra": "C",
+        "texto": "todas as competências privativas são suscetíveis de delegação."
+      },
+      {
+        "letra": "D",
+        "texto": "apenas as competências privativas expressamente indicadas são suscetíveis de delegação."
+      },
+      {
+        "letra": "E",
+        "texto": "competências privativas somente podem ser delegadas mediante autorização do Congresso Nacional. REALIZAÇÃO"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "FGV",
+    "concurso": "CBMAM",
+    "comentario": "Questao oficial CBMAM Soldado Bombeiro Militar 2021. Banca: FGV. Gabarito definitivo: C."
+  }
+]

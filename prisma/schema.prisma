@@ -1,0 +1,50 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model ContentFile {
+  id          String   @id @default(cuid())
+  source      String
+  exam        String
+  examKey     String
+  title       String
+  type        String
+  url         String   @unique
+  path        String
+  collectedAt DateTime @default(now())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([source])
+  @@index([examKey])
+  @@index([type])
+}
+
+model Questao {
+  id            String   @id
+  codigo        String?
+  banca         String?
+  materia       String
+  topico        String?
+  dificuldade   String?
+  enunciado     String
+  alternativaA  String?  @map("alternativa_a")
+  alternativaB  String?  @map("alternativa_b")
+  alternativaC  String?  @map("alternativa_c")
+  alternativaD  String?  @map("alternativa_d")
+  alternativaE  String?  @map("alternativa_e")
+  gabarito      String
+  comentario    String?
+  concurso      String?  @default("PM")
+  createdAt     DateTime @default(now()) @map("created_at")
+
+  @@index([materia])
+  @@index([banca])
+  @@index([dificuldade])
+  @@index([topico])
+  @@map("questoes")
+}

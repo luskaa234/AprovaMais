@@ -1,0 +1,26 @@
+{
+  "exame": "PMMA Soldado do Quadro de Praca Policial 2017",
+  "banca": "Cebraspe",
+  "ano": 2017,
+  "aplicada_em": "2017-12-17",
+  "cargo": "Soldado do Quadro de Praca Policial",
+  "total_questoes": 120,
+  "fonte": "Oficial militar",
+  "sourceUrl": "https://www.cebraspe.org.br/concursos/PM_MA_17",
+  "gabarito": "definitivo",
+  "origem": "oficial",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "url": "https://arquivos.qconcursos.com/prova/arquivo_prova/56242/cespe-2017-pm-ma-soldado-da-policia-militar-prova.pdf",
+      "path": "storage/content/militar/pmma-soldado-do-quadro-de-praca-policial-2017-cebraspe/provas/pmma-soldado-do-quadro-de-praca-policial-2017-cebraspe-prova.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "url": "https://arquivos.qconcursos.com/prova/arquivo_gabarito/56242/cespe-2017-pm-ma-soldado-da-policia-militar-gabarito.pdf",
+      "path": "storage/content/militar/pmma-soldado-do-quadro-de-praca-policial-2017-cebraspe/gabaritos/pmma-soldado-do-quadro-de-praca-policial-2017-cebraspe-gabarito-definitivo.pdf"
+    }
+  ]
+}

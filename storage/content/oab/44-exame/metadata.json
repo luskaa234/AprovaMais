@@ -1,0 +1,170 @@
+{
+  "exam": "44º Exame de Ordem Unificado",
+  "source": "FGV/OAB",
+  "sourceUrl": "https://oab.fgv.br/home.aspx?key=647",
+  "collectedAt": "2026-06-10T00:00:34.288Z",
+  "files": [
+    {
+      "title": "Gabaritos definitivos da prova objetiva (1ª fase)",
+      "type": "gabarito",
+      "url": "http://oab.fgv.br/arq/647/158882_OAB44%20Gabaritos%20para%20publica%c3%a7%c3%a3o%20-%20definitivo.pdf",
+      "path": "storage/content/oab/44-exame/gabaritos/gabaritos-definitivos-da-prova-objetiva-1-fase-1ehcwq.pdf"
+    },
+    {
+      "title": "Gabaritos Preliminares da Prova Objetiva (1ª fase)",
+      "type": "gabarito",
+      "url": "http://oab.fgv.br/arq/647/253404_OAB44%20Gabaritos%20para%20publica%c3%a7%c3%a3o.pdf",
+      "path": "storage/content/oab/44-exame/gabaritos/gabaritos-preliminares-da-prova-objetiva-1-fase-lt9f0s.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 4",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/647/521435_ADVOGADO%20OAB(CNS01)%20Tipo%204%20(2).pdf",
+      "path": "storage/content/oab/44-exame/provas/caderno-de-prova-tipo-4-1kws1b.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 3",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/647/521248_ADVOGADO%20OAB(CNS01)%20Tipo%203%20(2).pdf",
+      "path": "storage/content/oab/44-exame/provas/caderno-de-prova-tipo-3-1asweo.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 2",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/647/520022_ADVOGADO%20OAB(CNS01)%20Tipo%202%20(2).pdf",
+      "path": "storage/content/oab/44-exame/provas/caderno-de-prova-tipo-2-rwnkr7.pdf"
+    },
+    {
+      "title": "Caderno de Prova - Tipo 1",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/647/519680_ADVOGADO%20OAB(CNS01)%20Tipo%201%20(2).pdf",
+      "path": "storage/content/oab/44-exame/provas/caderno-de-prova-tipo-1-bmn0xq.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Administrativo)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/647/135867_OAB44%20-%20B001%20(DIREITO%20ADMINISTRATIVO).pdf",
+      "path": "storage/content/oab/44-exame/segunda-fase/padrao-de-respostas-definitivo-direito-administrativo-45vjr7.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Civil)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/647/137203_OAB44%20-%20B002%20(DIREITO%20CIVIL).pdf",
+      "path": "storage/content/oab/44-exame/segunda-fase/padrao-de-respostas-definitivo-direito-civil-5hwkmr.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Constitucional)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/647/142752_OAB44%20-%20B003%20(DIREITO%20CONSTITUCIONAL).pdf",
+      "path": "storage/content/oab/44-exame/segunda-fase/padrao-de-respostas-definitivo-direito-constitucional-jchk01.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito do Trabalho)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/647/138566_OAB44%20-%20B007%20(DIREITO%20DO%20TRABALHO)%20-%20GABARITO%20PUBLICA%c3%87%c3%83O%20REVISADO%20(1).pdf",
+      "path": "storage/content/oab/44-exame/segunda-fase/padrao-de-respostas-definitivo-direito-do-trabalho-1i5z9n.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Empresarial)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/647/147446_OAB44%20-%20B004%20(DIREITO%20EMPRESARIAL)%20-%20GABARITO%20PUBLICA%c3%87%c3%83O%20%20%20TABELA%20DE%20PONTUA%c3%87%c3%83O%20CORRIGIDA.pdf",
+      "path": "storage/content/oab/44-exame/segunda-fase/padrao-de-respostas-definitivo-direito-empresarial-p9yyrx.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Penal)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/647/137646_OAB44%20-%20B005%20(DIREITO%20PENAL).pdf",
+      "path": "storage/content/oab/44-exame/segunda-fase/padrao-de-respostas-definitivo-direito-penal-11nkgy.pdf"
+    },
+    {
+      "title": "Padrão de respostas definitivo (Direito Tributário)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/647/133033_OAB44%20-%20B006%20(DIREITO%20TRIBUT%c3%81RIO).pdf",
+      "path": "storage/content/oab/44-exame/segunda-fase/padrao-de-respostas-definitivo-direito-tributario-vwnfrm.pdf"
+    },
+    {
+      "title": "Padrão de Respostas (Direito Administrativo)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/647/267669_OAB44%20-%20B001%20(DIREITO%20ADMINISTRATIVO)%20-%20GABARITO_PUBLICA%c3%87%c3%83O.pdf",
+      "path": "storage/content/oab/44-exame/segunda-fase/padrao-de-respostas-direito-administrativo-1p0r4s.pdf"
+    },
+    {
+      "title": "Padrão de Respostas (Direito Civil)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/647/274212_OAB44%20-%20B002%20(DIREITO%20CIVIL)%20-%20GABARITO%20PUBLICA%c3%87%c3%83O.pdf",
+      "path": "storage/content/oab/44-exame/segunda-fase/padrao-de-respostas-direito-civil-zr99gr.pdf"
+    },
+    {
+      "title": "Padrão de Respostas (Direito Constitucional)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/647/296637_OAB44%20-%20B003%20(DIREITO%20CONSTITUCIONAL)%20-%20GABARITO%20PUBLICA%c3%87%c3%83O.pdf",
+      "path": "storage/content/oab/44-exame/segunda-fase/padrao-de-respostas-direito-constitucional-1l5mjr.pdf"
+    },
+    {
+      "title": "Padrão de Respostas (Direito do Trabalho)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/647/293608_OAB44%20-%20B007%20(DIREITO%20DO%20TRABALHO)%20-%20GABARITO%20PUBLICA%c3%87%c3%83O.pdf",
+      "path": "storage/content/oab/44-exame/segunda-fase/padrao-de-respostas-direito-do-trabalho-1afbgb.pdf"
+    },
+    {
+      "title": "Padrão de Respostas (Direito Empresarial)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/647/292787_OAB44%20-%20B004%20(DIREITO%20EMPRESARIAL)%20-%20GABARITO%20PUBLICA%c3%87%c3%83O.pdf",
+      "path": "storage/content/oab/44-exame/segunda-fase/padrao-de-respostas-direito-empresarial-1oqrui.pdf"
+    },
+    {
+      "title": "Padrão de Respostas (Direito Tributário)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/647/281833_OAB44%20-%20B006%20(DIREITO%20TRIBUT%c3%81RIO)%20-%20GABARITO%20PUBLICA%c3%87%c3%83O.pdf",
+      "path": "storage/content/oab/44-exame/segunda-fase/padrao-de-respostas-direito-tributario-wv6ohs.pdf"
+    },
+    {
+      "title": "Padrão de Respostas (Direito Penal)",
+      "type": "segunda-fase",
+      "url": "http://oab.fgv.br/arq/647/272566_OAB44%20-%20B005%20(DIREITO%20PENAL)%20-%20GABARITO%20PUBLICACAO.pdf",
+      "path": "storage/content/oab/44-exame/segunda-fase/padrao-de-respostas-direito-penal-18sno5.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Administrativo)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/647/708199_OAB44%20-%20B001%20(DIREITO%20ADMINISTRATIVO).pdf",
+      "path": "storage/content/oab/44-exame/provas/caderno-de-provas-direito-administrativo-7xzvov.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Civil)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/647/780966_OAB44%20-%20B002%20(DIREITO%20CIVIL).pdf",
+      "path": "storage/content/oab/44-exame/provas/caderno-de-provas-direito-civil-11y2o9.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Constitucional)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/647/1143362_OAB44%20-%20B003%20(DIREITO%20CONSTITUCIONAL).pdf",
+      "path": "storage/content/oab/44-exame/provas/caderno-de-provas-direito-constitucional-bmq3a.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito do Trabalho)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/647/1154126_OAB44%20-%20B007%20(DIREITO%20DO%20TRABALHO).pdf",
+      "path": "storage/content/oab/44-exame/provas/caderno-de-provas-direito-do-trabalho-9htmgy.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Empresarial)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/647/713550_OAB44%20-%20B004%20(DIREITO%20EMPRESARIAL).pdf",
+      "path": "storage/content/oab/44-exame/provas/caderno-de-provas-direito-empresarial-1wr9ta.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Penal)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/647/714989_OAB44%20-%20B005%20(DIREITO%20PENAL).pdf",
+      "path": "storage/content/oab/44-exame/provas/caderno-de-provas-direito-penal-1xaiqz.pdf"
+    },
+    {
+      "title": "Caderno de Provas (Direito Tributário)",
+      "type": "prova",
+      "url": "http://oab.fgv.br/arq/647/683817_OAB44%20-%20B006%20(DIREITO%20TRIBUT%c3%81RIO).pdf",
+      "path": "storage/content/oab/44-exame/provas/caderno-de-provas-direito-tributario-195his.pdf"
+    }
+  ]
+}

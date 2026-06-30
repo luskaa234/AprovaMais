@@ -17,7 +17,7 @@ function AuthLayout({ title, description, children }) {
       <section className="auth-saas-shell" aria-label={title}>
         <div className="auth-saas-copy">
           <Link className="auth-saas-copy-logo" to="/" aria-label="VemAprovar - início">
-            <BrandLogo variant="white" />
+            <BrandLogo />
           </Link>
           <span className="auth-saas-badge">Área do candidato</span>
           <h1>Entre no ritmo certo para passar.</h1>

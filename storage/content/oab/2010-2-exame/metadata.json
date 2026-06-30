@@ -1,0 +1,140 @@
+{
+  "exam": "Exame de Ordem Unificado 2010.2",
+  "source": "FGV/OAB",
+  "sourceUrl": "https://oab.fgv.br/home.aspx?key=112",
+  "collectedAt": "2026-06-10T00:02:02.265Z",
+  "files": [
+    {
+      "title": "Gabarito do Caderno de Prova 01",
+      "type": "gabarito",
+      "url": "https://oab.fgv.br/arq/112/oab10_gab_preliminar_01.pdf",
+      "path": "storage/content/oab/2010-2-exame/gabaritos/gabarito-do-caderno-de-prova-01-uwdyvp.pdf"
+    },
+    {
+      "title": "Gabarito do Caderno de Prova 02",
+      "type": "gabarito",
+      "url": "https://oab.fgv.br/arq/112/oab10_gab_preliminar_02.pdf",
+      "path": "storage/content/oab/2010-2-exame/gabaritos/gabarito-do-caderno-de-prova-02-uwxrh2.pdf"
+    },
+    {
+      "title": "Gabarito do Caderno de Prova 03",
+      "type": "gabarito",
+      "url": "https://oab.fgv.br/arq/112/oab10_gab_preliminar_03.pdf",
+      "path": "storage/content/oab/2010-2-exame/gabaritos/gabarito-do-caderno-de-prova-03-uxhk2f.pdf"
+    },
+    {
+      "title": "Gabarito do Caderno de Prova 04",
+      "type": "gabarito",
+      "url": "https://oab.fgv.br/arq/112/oab10_gab_preliminar_04.pdf",
+      "path": "storage/content/oab/2010-2-exame/gabaritos/gabarito-do-caderno-de-prova-04-uy1cns.pdf"
+    },
+    {
+      "title": "Caderno de Prova 01",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/112/FECHADO_01.pdf",
+      "path": "storage/content/oab/2010-2-exame/provas/caderno-de-prova-01-1uw61u.pdf"
+    },
+    {
+      "title": "Caderno de Prova 02",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/112/FECHADO_02.pdf",
+      "path": "storage/content/oab/2010-2-exame/provas/caderno-de-prova-02-1uwpug.pdf"
+    },
+    {
+      "title": "Caderno de Prova 03",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/112/FECHADO_03.pdf",
+      "path": "storage/content/oab/2010-2-exame/provas/caderno-de-prova-03-1ux9n1.pdf"
+    },
+    {
+      "title": "Caderno de Prova 04",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/112/FECHADO_04.pdf",
+      "path": "storage/content/oab/2010-2-exame/provas/caderno-de-prova-04-1uxtfm.pdf"
+    },
+    {
+      "title": "Padrão de respostas - Direito Administrativo",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/112/GAB_COMENTADO_ADMINISTRATIVO_01.pdf",
+      "path": "storage/content/oab/2010-2-exame/segunda-fase/padrao-de-respostas-direito-administrativo-1lkr7r.pdf"
+    },
+    {
+      "title": "Padrão de respostas - Direito Civil",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/112/GAB_COMENTADO_CIVIL_01.pdf",
+      "path": "storage/content/oab/2010-2-exame/segunda-fase/padrao-de-respostas-direito-civil-g3a962.pdf"
+    },
+    {
+      "title": "Padrão de respostas - Direito Constitucional",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/112/GAB_COMENTADO_CONSTITUCIONAL_01.pdf",
+      "path": "storage/content/oab/2010-2-exame/segunda-fase/padrao-de-respostas-direito-constitucional-fcjkpg.pdf"
+    },
+    {
+      "title": "Padrão de respostas - Direito Empresarial",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/112/GAB_COMENTADO_EMPRESARIAL_01.pdf",
+      "path": "storage/content/oab/2010-2-exame/segunda-fase/padrao-de-respostas-direito-empresarial-am6cmq.pdf"
+    },
+    {
+      "title": "Padrão de respostas - Direito Penal",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/112/GAB_COMENTADO_PENAL_01.pdf",
+      "path": "storage/content/oab/2010-2-exame/segunda-fase/padrao-de-respostas-direito-penal-1o0fcp.pdf"
+    },
+    {
+      "title": "Padrão de respostas - Direito do Trabalho",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/112/GAB_COMENTADO_TRABALHO_01.pdf",
+      "path": "storage/content/oab/2010-2-exame/segunda-fase/padrao-de-respostas-direito-do-trabalho-cl8jmi.pdf"
+    },
+    {
+      "title": "Padrão de respostas - Direito Tributário",
+      "type": "segunda-fase",
+      "url": "https://oab.fgv.br/arq/112/GAB_COMENTADO_TRIBUTARIO_01.pdf",
+      "path": "storage/content/oab/2010-2-exame/segunda-fase/padrao-de-respostas-direito-tributario-al2eqm.pdf"
+    },
+    {
+      "title": "Caderno de Prova (Direito Administrativo)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/112/DIR_ADMINISTRATIVO.pdf",
+      "path": "storage/content/oab/2010-2-exame/provas/caderno-de-prova-direito-administrativo-1ws6qe.pdf"
+    },
+    {
+      "title": "Caderno de Prova (Direito Civil)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/112/DIR_CIVIL_ALTERADO.pdf",
+      "path": "storage/content/oab/2010-2-exame/provas/caderno-de-prova-direito-civil-dex9z1.pdf"
+    },
+    {
+      "title": "Caderno de Prova (Direito Constitucional)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/112/DIR_CONSTITUCIONAL_alterado.pdf",
+      "path": "storage/content/oab/2010-2-exame/provas/caderno-de-prova-direito-constitucional-1lxr7l.pdf"
+    },
+    {
+      "title": "Caderno de Prova (Direito do Trabalho)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/112/DIR_TRABALHO_editada.pdf",
+      "path": "storage/content/oab/2010-2-exame/provas/caderno-de-prova-direito-do-trabalho-fmjw4h.pdf"
+    },
+    {
+      "title": "Caderno de Prova (Direito Empresarial)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/112/DIR_EMPRESARIAL_alterado.pdf",
+      "path": "storage/content/oab/2010-2-exame/provas/caderno-de-prova-direito-empresarial-1ptnu8.pdf"
+    },
+    {
+      "title": "Caderno de Prova (Direito Penal)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/112/DIR_PENAL_editada.pdf",
+      "path": "storage/content/oab/2010-2-exame/provas/caderno-de-prova-direito-penal-10c8zo.pdf"
+    },
+    {
+      "title": "Caderno de Prova (Direito Tributário)",
+      "type": "prova",
+      "url": "https://oab.fgv.br/arq/112/DIR_TRIBUTARIO_ALTERADO.pdf",
+      "path": "storage/content/oab/2010-2-exame/provas/caderno-de-prova-direito-tributario-1nxefc.pdf"
+    }
+  ]
+}

@@ -4060,41 +4060,44 @@ main {
 }
 
 .brand-logo {
-  position: relative;
-  display: inline-grid;
-  width: 154px;
-  height: 44px;
+  display: inline-flex;
+  width: var(--brand-logo-width, 154px);
+  height: var(--brand-logo-height, 44px);
   align-items: center;
+  gap: clamp(6px, calc(var(--brand-logo-height, 44px) * 0.18), 12px);
+  min-width: 0;
+  overflow: hidden;
+  color: var(--brand-logo-text, #13386e);
+  line-height: 1;
 }
 
-.brand-logo img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
+.brand-logo-mark {
+  width: var(--brand-logo-mark-width, 72px);
   height: 100%;
   object-fit: contain;
   object-position: left center;
-  transition: opacity 0.2s ease;
+  flex: 0 0 auto;
+  display: block;
 }
 
-.brand-logo-light {
-  opacity: 0;
+.brand-logo-mark-only {
+  justify-content: center;
 }
 
-:root[data-theme="light"] .brand-logo-dark {
-  opacity: 0;
+.brand-logo-mark-only .brand-logo-mark {
+  width: min(100%, var(--brand-logo-mark-width, 72px));
+  object-position: center;
 }
 
-:root[data-theme="light"] .brand-logo-light {
-  opacity: 1;
-}
-
-.navbar .brand-logo-dark {
-  opacity: 0;
-}
-
-.navbar .brand-logo-light {
-  opacity: 1;
+.brand-logo-word {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: clip;
+  color: currentColor;
+  font-size: var(--brand-logo-font-size, 18px);
+  font-weight: 900;
+  letter-spacing: 0;
+  white-space: nowrap;
 }
 
 .brand-mark,
@@ -6010,8 +6013,8 @@ main {
 }
 
 .internal-app-light > aside .internal-brand-logo {
-  width: 100%;
-  justify-content: center;
+  width: min(100%, 176px);
+  justify-content: flex-start;
 }
 
 .internal-app-light > aside nav button:not(.internal-nav-active) {
@@ -9747,20 +9750,12 @@ main {
 }
 
 .internal-brand-logo {
-  width: 148px;
+  width: 176px;
   height: 44px;
 }
 
-.internal-app .brand-logo img {
+.internal-app .brand-logo-mark {
   object-fit: contain;
-}
-
-.internal-app-light .brand-logo-dark {
-  opacity: 0;
-}
-
-.internal-app-light .brand-logo-light {
-  opacity: 1;
 }
 
 .internal-app-light .internal-nav-active,
@@ -18486,4 +18481,288 @@ button {
 .internal-app-light main :is(button, a, span, label, div)[class~="bg-blue-500"] * {
   color: #ffffff !important;
   -webkit-text-fill-color: #ffffff !important;
+}
+
+/* ================================================================
+   DESIGN SYSTEM v2 — overrides all legacy conflicts
+   ================================================================ */
+
+/* 1. Typography: Geist everywhere */
+:root,
+body,
+.internal-app {
+  font-family: "Geist Variable", "Inter", system-ui, -apple-system, sans-serif;
+}
+
+/* 2. Fix nav active color conflict — always brand blue */
+.internal-app .internal-nav-active,
+.internal-app-light .internal-nav-active {
+  background: #1d63c4 !important;
+  background-color: #1d63c4 !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 16px rgba(29, 99, 196, 0.4) !important;
+}
+.internal-app .internal-nav-active *,
+.internal-app-light .internal-nav-active svg {
+  color: #ffffff !important;
+}
+
+/* 3. Internal app background */
+.internal-app-light {
+  background: #f1f5f9 !important;
+}
+.internal-app-light header {
+  background: rgba(255, 255, 255, 0.97) !important;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8) !important;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+}
+.internal-app-light main {
+  background: #f1f5f9 !important;
+}
+
+/* 4. Topbar height */
+.internal-topbar {
+  min-height: 60px !important;
+}
+.internal-topbar-row {
+  min-height: 60px !important;
+}
+
+/* 5. Topbar buttons */
+.topbar-icon-button {
+  width: 2.25rem !important;
+  height: 2.25rem !important;
+  border-radius: 9px !important;
+  border: 1px solid transparent !important;
+  color: #64748b !important;
+  transition: background 120ms ease, color 120ms ease, border-color 120ms ease !important;
+}
+.topbar-icon-button:hover {
+  background: #f1f5f9 !important;
+  color: #1d4f99 !important;
+  border-color: #e2e8f0 !important;
+}
+.topbar-profile-button {
+  border: 1px solid #e2e8f0 !important;
+  background: #f8fafc !important;
+  border-radius: 12px !important;
+  transition: background 120ms ease, border-color 120ms ease !important;
+}
+.topbar-profile-button:hover {
+  background: #eff6ff !important;
+  border-color: #bfdbfe !important;
+}
+
+/* 6. Search bar */
+.topbar-search-wrap input {
+  background: #f1f5f9 !important;
+  border-color: transparent !important;
+  border-radius: 10px !important;
+}
+.topbar-search-wrap input:focus {
+  background: #ffffff !important;
+  border-color: #3b82f6 !important;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1) !important;
+}
+.topbar-search-results {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 14px !important;
+  box-shadow: 0 8px 32px rgba(15, 23, 42, 0.12) !important;
+}
+
+/* 7. Notification panel */
+.notification-panel {
+  background: #ffffff !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 16px !important;
+  box-shadow: 0 8px 32px rgba(15, 23, 42, 0.12) !important;
+}
+.notification-item {
+  border-radius: 10px !important;
+  transition: background 120ms ease !important;
+}
+.notification-item:hover {
+  background: #f8fafc !important;
+}
+
+/* 8. Buttons legacy classes */
+.aprova-btn-primary {
+  background: linear-gradient(135deg, #1d63c4 0%, #13386e 100%) !important;
+  box-shadow: 0 4px 14px rgba(29, 99, 196, 0.28) !important;
+  border-radius: 10px !important;
+}
+.aprova-btn-primary:hover {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d63c4 100%) !important;
+  box-shadow: 0 6px 20px rgba(29, 99, 196, 0.36) !important;
+  transform: translateY(-1px) !important;
+}
+.aprova-btn-secondary,
+.aprova-btn-outline {
+  border-color: #e2e8f0 !important;
+  background: #ffffff !important;
+  color: #334155 !important;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.05) !important;
+  border-radius: 10px !important;
+}
+.aprova-btn-secondary:hover,
+.aprova-btn-outline:hover {
+  border-color: #bfdbfe !important;
+  background: #eff6ff !important;
+  color: #1d4f99 !important;
+}
+.aprova-btn-ghost:hover {
+  background: #f1f5f9 !important;
+  color: #13386e !important;
+}
+
+/* 9. Cards */
+.aprova-card-default {
+  border-color: #e2e8f0 !important;
+  background: #ffffff !important;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.05), 0 4px 12px rgba(29, 99, 196, 0.04) !important;
+  border-radius: 16px !important;
+}
+.aprova-card-elevated {
+  border-color: #e2e8f0 !important;
+  background: #ffffff !important;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08), 0 8px 32px rgba(29, 99, 196, 0.05) !important;
+  border-radius: 16px !important;
+}
+.aprova-card-hover:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 28px rgba(15, 23, 42, 0.1), 0 12px 40px rgba(29, 99, 196, 0.07) !important;
+}
+
+/* 10. Inputs */
+.aprova-input {
+  border-color: #e2e8f0 !important;
+  background: #f8fafc !important;
+  border-radius: 10px !important;
+}
+.aprova-input:focus {
+  border-color: #3b82f6 !important;
+  background: #ffffff !important;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1) !important;
+}
+
+/* 11. Mobile bottom nav */
+.mobile-bottom-nav {
+  background: rgba(255, 255, 255, 0.98) !important;
+  border: 1px solid rgba(226, 232, 240, 0.9) !important;
+  box-shadow: 0 -1px 0 rgba(226, 232, 240, 0.6), 0 8px 32px rgba(15, 23, 42, 0.1), 0 20px 56px rgba(15, 23, 42, 0.08) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+}
+.mobile-bottom-nav button {
+  transition: all 150ms ease !important;
+}
+.mobile-bottom-nav button.is-active {
+  color: #1d63c4 !important;
+}
+.mobile-bottom-nav button.is-active::after {
+  background: #1d63c4 !important;
+  height: 3px !important;
+  border-radius: 999px 999px 0 0 !important;
+}
+
+/* 12. Mobile study cards */
+.mobile-study-hero {
+  background: linear-gradient(140deg, #091a36 0%, #1d63c4 50%, #0f766e 100%) !important;
+  box-shadow: 0 12px 40px rgba(29, 99, 196, 0.28) !important;
+  border-radius: 20px !important;
+}
+.mobile-study-metric,
+.mobile-study-card,
+.mobile-study-progress,
+.mobile-study-action {
+  border-color: #e2e8f0 !important;
+  background: #ffffff !important;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.05), 0 4px 12px rgba(15, 23, 42, 0.04) !important;
+  border-radius: 16px !important;
+}
+
+/* 13. Badges */
+.aprova-badge-info {
+  background: #eff6ff !important;
+  color: #13386e !important;
+}
+.aprova-badge-success {
+  background: #ecfdf5 !important;
+  color: #065f46 !important;
+}
+.aprova-badge-error {
+  background: #fef2f2 !important;
+  color: #991b1b !important;
+}
+.aprova-badge-warning {
+  background: #fffbeb !important;
+  color: #92400e !important;
+}
+.aprova-badge-neutral {
+  background: #f8fafc !important;
+  color: #475569 !important;
+}
+
+/* 14. Focus rings */
+:focus-visible {
+  outline: 2px solid #1d63c4;
+  outline-offset: 2px;
+}
+
+/* 15. Selection */
+::selection {
+  background: rgba(29, 99, 196, 0.14);
+  color: #0f172a;
+}
+
+/* 16. Custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* 17. Sidebar light: clean white sidebar with brand blue active */
+.internal-app-light > aside {
+  background: #ffffff !important;
+  border-right: 1px solid #e8eef6 !important;
+  box-shadow: 2px 0 12px rgba(15, 23, 42, 0.04) !important;
+}
+
+.internal-app-light > aside nav button:not(.internal-nav-active) {
+  color: #4b607a !important;
+}
+.internal-app-light > aside nav button:not(.internal-nav-active) svg {
+  color: #4b607a !important;
+  stroke: #4b607a !important;
+}
+.internal-app-light > aside nav button:not(.internal-nav-active):hover {
+  background: #f0f6ff !important;
+  color: #1d4f99 !important;
+}
+.internal-app-light > aside nav button:not(.internal-nav-active):hover svg {
+  color: #1d4f99 !important;
+  stroke: #1d4f99 !important;
+}
+.internal-app-light > aside .internal-nav-active {
+  background: #1d63c4 !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 16px rgba(29, 99, 196, 0.3) !important;
+}
+.internal-app-light > aside .internal-nav-active svg,
+.internal-app-light > aside .internal-nav-active span {
+  color: #ffffff !important;
+  stroke: #ffffff !important;
 }

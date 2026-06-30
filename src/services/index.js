@@ -1,0 +1,15 @@
+export { questoesService } from "./questoesService";
+export { oabService } from "./oabService";
+export { militarService } from "./militarService";
+export { simuladosService } from "./simuladosService";
+export { flashcardsService } from "./flashcardsService";
+export { planoService } from "./planoService";
+export { redacaoService } from "./redacaoService";
+export { revisaoService } from "./revisaoService";
+export { bibliotecaService } from "./bibliotecaService";
+export { adminService } from "./adminService";
+export { aiService } from "./aiService";
+export { tafService } from "./tafService";
+export { leisService } from "./leisService";
+export { paymentService, startCheckout, paymentPlans } from "./paymentService";
+export { rankingService, mapasService, notificacoesService } from "./miscService";

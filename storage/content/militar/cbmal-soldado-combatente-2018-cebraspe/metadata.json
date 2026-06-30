@@ -1,0 +1,26 @@
+{
+  "exame": "CBMAL Soldado Combatente 2018",
+  "banca": "Cebraspe",
+  "ano": 2018,
+  "aplicada_em": "2017-10-29",
+  "cargo": "Soldado Combatente",
+  "total_questoes": 120,
+  "fonte": "Oficial militar",
+  "sourceUrl": "https://www.cebraspe.org.br/concursos/CBM_AL_17_COMBATENTE",
+  "gabarito": "definitivo",
+  "origem": "oficial",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "url": "https://arquivos.qconcursos.com/prova/arquivo_prova/55978/cespe-2017-cbm-al-soldado-combatente-prova.pdf",
+      "path": "storage/content/militar/cbmal-soldado-combatente-2018-cebraspe/provas/cbmal-soldado-combatente-2018-cebraspe-prova.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "url": "https://arquivos.qconcursos.com/prova/arquivo_gabarito/55978/cespe-2017-cbm-al-soldado-combatente-gabarito.pdf",
+      "path": "storage/content/militar/cbmal-soldado-combatente-2018-cebraspe/gabaritos/cbmal-soldado-combatente-2018-cebraspe-gabarito-definitivo.pdf"
+    }
+  ]
+}

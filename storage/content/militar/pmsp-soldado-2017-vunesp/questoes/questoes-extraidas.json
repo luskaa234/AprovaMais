@@ -1,0 +1,1808 @@
+[
+  {
+    "id": "pmsp-soldado-2017-vunesp-q01",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q01",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 1,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em seu texto, o autor fala",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "de seu prazer em escrever."
+      },
+      {
+        "letra": "B",
+        "texto": "da dificuldade em publicar o novo livro."
+      },
+      {
+        "letra": "C",
+        "texto": "do assunto de seu último livro."
+      },
+      {
+        "letra": "D",
+        "texto": "de seus planos para o futuro."
+      },
+      {
+        "letra": "E",
+        "texto": "da linguagem usada em seus textos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q02",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q02",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 2,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Após ler o livro que reúne entrevistas e textos de Ernest Hemingway sobre o ato de escrever, o autor Drauzio Varella",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "propôs-se a desenvolver uma escrita tão boa quanto a de Machado de Assis."
+      },
+      {
+        "letra": "B",
+        "texto": "procurou reproduzir os estilos de Tchékhov, Homero e padre Antônio Vieira."
+      },
+      {
+        "letra": "C",
+        "texto": "dedicou-se a treinar a escrita continuamente até que chegou à perfeição."
+      },
+      {
+        "letra": "D",
+        "texto": "convenceu-se de que era capaz de escrever tão bem quanto seus autores preferidos."
+      },
+      {
+        "letra": "E",
+        "texto": "resolveu escrever um livro sobre uma história que só cabia a ele contar."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q03",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q03",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 3,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Ao referir-se à maneira como escreve, o autor demonstra ter",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "facilidade para se concentrar, mesmo em ambientes barulhentos ou movimentados."
+      },
+      {
+        "letra": "B",
+        "texto": "necessidade de um espaço tranquilo e reservado para desenvolver suas histórias."
+      },
+      {
+        "letra": "C",
+        "texto": "determinação em adaptar as obras dos mestres da literatura para a realidade atual."
+      },
+      {
+        "letra": "D",
+        "texto": "interesse em tratar de assuntos que não se relacio- nem com o exercício da medicina."
+      },
+      {
+        "letra": "E",
+        "texto": "autocrítica excessiva, que o impede de ficar plena- mente satisfeito com seus textos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q04",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q04",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 4,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Na frase – Mal o avião levanta voo, puxo a mesinha e abro o computador. (4 o parágrafo) –, o termo destacado estabelece relação de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "intensidade."
+      },
+      {
+        "letra": "B",
+        "texto": "causa."
+      },
+      {
+        "letra": "C",
+        "texto": "negação."
+      },
+      {
+        "letra": "D",
+        "texto": "tempo."
+      },
+      {
+        "letra": "E",
+        "texto": "dúvida."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q08",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q08",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 8,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Verifica-se o emprego de palavras com sentido figurado em:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Consigo me concentrar apesar das vozes esgani- çadas... (3 o parágrafo)"
+      },
+      {
+        "letra": "B",
+        "texto": "... aprendi a escrever em qualquer lugar em que haja espaço para sentar com o computador. (3o parágrafo)"
+      },
+      {
+        "letra": "C",
+        "texto": "Seguindo o mesmo critério, publiquei outros livros. (10 o parágrafo)"
+      },
+      {
+        "letra": "D",
+        "texto": "Às cotoveladas, a literatura abriu espaço em minha agenda. (10 o parágrafo)"
+      },
+      {
+        "letra": "E",
+        "texto": "Há escritores que precisam de silêncio, solidão e ambiente adequado para a prática do ofício. (2 o parágrafo)"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q09",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q09",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 9,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "As formas destacadas em – De fato, se eu escrevesse melhor do que Machado de Assis, poderia recriar perso- nagens como Dom Casmurro... (8 o parágrafo) – expres- sam, respectivamente,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "certeza e ação duvidosa."
+      },
+      {
+        "letra": "B",
+        "texto": "convicção e ação testada."
+      },
+      {
+        "letra": "C",
+        "texto": "possibilidade e ação condicionada."
+      },
+      {
+        "letra": "D",
+        "texto": "probabilidade e ação comprovada."
+      },
+      {
+        "letra": "E",
+        "texto": "impossibilidade e ação concreta."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q10",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q10",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 10,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Considere os sentidos estabelecidos pelos vocábulos em destaque nas passagens do texto: • Foi tão grande o prazer de contar aquelas histórias, que senti ódio de mim mesmo por ter vivido meio século sem escrever livros. (5 o parágrafo) • Para mim, o que eu escrevesse seria fatalmente com- parado com Machado de Assis, Gógol, Faulkner, Joyce, Pushkin, Turgenev ou Dante Alighieri. (6 o parágrafo) Nos contextos em que são empregados, os vocábulos em destaque – que e ou – estabelecem, respectivamen- te, relação de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "finalidade e causa."
+      },
+      {
+        "letra": "B",
+        "texto": "causa e conformidade."
+      },
+      {
+        "letra": "C",
+        "texto": "consequência e alternância."
+      },
+      {
+        "letra": "D",
+        "texto": "conformidade e consequência."
+      },
+      {
+        "letra": "E",
+        "texto": "alternância e finalidade."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q05",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q05",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 5,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Ao afirmar – Estou nas nuvens, às portas do paraíso celestial. O telefone não vai tocar, ninguém me cobrará o texto que prometi, a presença na palestra para a qual fui convidado, os e-mails atrasados. (4 o parágrafo) –, o autor revela",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "sua ansiedade por voltar a se comunicar o quanto antes."
+      },
+      {
+        "letra": "B",
+        "texto": "seu alívio diante do fato de não ser importunado."
+      },
+      {
+        "letra": "C",
+        "texto": "seu receio de não dar conta de concluir suas tarefas."
+      },
+      {
+        "letra": "D",
+        "texto": "sua necessidade de estar constantemente conectado."
+      },
+      {
+        "letra": "E",
+        "texto": "sua hesitação em decidir o que deve fazer primeiro."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q06",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q06",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 6,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Com a interrogação – Depois do que disseram esses e outros gênios, que livro valeria a pena ser escrito? (6 o parágrafo) –, o autor expressa",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a curiosidade em conhecer autores contemporâneos que fossem tão bons quanto os clássicos."
+      },
+      {
+        "letra": "B",
+        "texto": "sua certeza de que os livros escritos hoje são cópias malfeitas das obras dos mestres falecidos."
+      },
+      {
+        "letra": "C",
+        "texto": "sua determinação em contar histórias que superas- sem em qualidade as dos mestres da literatura."
+      },
+      {
+        "letra": "D",
+        "texto": "seu empenho em colocar em prática o ensinamento colhido nos livros de autores de prestígio."
+      },
+      {
+        "letra": "E",
+        "texto": "a desconfiança de escrever algo que não fosse tão bom quanto os textos dos escritores que admirava."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q07",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q07",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 7,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A palavra destacada em – Há escritores talentosos que se queixam dos tormentos e da angústia inerentes ao processo de criação. Não é o meu caso, escrever só me traz alegria. (10 o parágrafo) – é empregada com o sen- tido de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "intrínsecos."
+      },
+      {
+        "letra": "B",
+        "texto": "inadequados."
+      },
+      {
+        "letra": "C",
+        "texto": "alheios."
+      },
+      {
+        "letra": "D",
+        "texto": "diversos."
+      },
+      {
+        "letra": "E",
+        "texto": "acrescidos."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q14",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q14",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 14,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a alternativa que preenche, correta e respectiva- mente, as lacunas do texto a seguir. Quase 30 anos depois de iniciar um trabalho de aten- dimento presos da Casa de Detenção, em São Paulo, o médico oncologista Drauzio Varella chega ao fim de uma trilogia com o livro “Prisioneiras”. Depois de “Estação Carandiru” (1999), que mostra entranhas daquela que foi maior prisão da América Latina, e de “Carcereiros” (2012), sobre os funcionários que traba- lham no sistema prisional, Varella agora faz um retrato das detentas da Penitenciária Feminina da Capital, tam- bém na capital paulista, onde cumprem pena mais de duas mil mulheres. (https://oglobo.globo.com. Adaptado)",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "à … às … a"
+      },
+      {
+        "letra": "B",
+        "texto": "a … as … a"
+      },
+      {
+        "letra": "C",
+        "texto": "a … às … a"
+      },
+      {
+        "letra": "D",
+        "texto": "à … às … à"
+      },
+      {
+        "letra": "E",
+        "texto": "a … as … à"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q15",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q15",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 15,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Leia a tirinha. (Mort Walker. Recruta Zero. http://cultura.estadao.com.br, 05.09.2017. Adaptado) Preenche corretamente as lacunas, conforme a norma- -padrão, o que se encontra em:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Não se preocupe ... onde ... os"
+      },
+      {
+        "letra": "B",
+        "texto": "Não preocupe-se ... onde ... o"
+      },
+      {
+        "letra": "C",
+        "texto": "Não preocupe-se ... aonde ... lhe"
+      },
+      {
+        "letra": "D",
+        "texto": "Não se preocupe ... onde ... lhes"
+      },
+      {
+        "letra": "E",
+        "texto": "Não se preocupe ... aonde ... o"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q11",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q11",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 11,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Nesse momento sou invadido por uma sensação de felici- dade plena que vai e volta por vários dias. (11 o parágrafo) Após o acréscimo das vírgulas, a frase permanece pon- tuada corretamente, conforme a norma-padrão da língua, em:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Nesse momento sou, invadido por uma sensação de felicidade plena, que vai e volta por vários dias."
+      },
+      {
+        "letra": "B",
+        "texto": "Nesse momento sou invadido, por uma sensação, de felicidade plena que vai e volta por vários dias."
+      },
+      {
+        "letra": "C",
+        "texto": "Nesse momento sou invadido, por uma sensação de felicidade, plena que vai, e volta por vários dias."
+      },
+      {
+        "letra": "D",
+        "texto": "Nesse momento sou invadido por, uma sensação de felicidade plena, que vai e volta por vários dias."
+      },
+      {
+        "letra": "E",
+        "texto": "Nesse momento, sou invadido por uma sensação de felicidade plena, que vai e volta por vários dias."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q12",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q12",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 12,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Assinale a alternativa em que o trecho do texto está re- escrito conforme a norma-padrão da língua portuguesa, com a expressão destacada substituída pelo pronome correspondente.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "... o prazer de contar aquelas histórias... → ... o prazer de contar-nas..."
+      },
+      {
+        "letra": "B",
+        "texto": "... meio século sem escrever livros. → ... meio século sem escrevê-los."
+      },
+      {
+        "letra": "C",
+        "texto": "... puxo a mesinha... → ... puxo-lhe..."
+      },
+      {
+        "letra": "D",
+        "texto": "... livro que reúne entrevistas e textos de Ernest Hemingway... → ... livro que reúne-as..."
+      },
+      {
+        "letra": "E",
+        "texto": "O médico que atendia pacientes... → O médico que lhe atendia..."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q13",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q13",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 13,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "No que se refere à concordância padrão, a frase correta é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Os tormentos e a angústia inerentes ao processo de criação são alvos de queixa de escritores talentosos."
+      },
+      {
+        "letra": "B",
+        "texto": "Silêncio e solidão estão entre os requisitos que escri- tores dizem serem essencial para realizar seu ofício."
+      },
+      {
+        "letra": "C",
+        "texto": "As vozes esganiçadas que repercute no aeroporto não chegam a ser um empecilho para ele escrever."
+      },
+      {
+        "letra": "D",
+        "texto": "A comparação com a obra de grandes autores, como Machado de Assis, Gógol, Faulkner e Dante Alighieri, inibiam o autor."
+      },
+      {
+        "letra": "E",
+        "texto": "Dois anos se passou para que, finalmente, Drauzio Varella terminasse de escrever seu último livro."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q21",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q21",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 21,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Um comerciante possui uma caixa com várias canetas e irá colocá-las em pacotinhos, cada um deles com o mesmo número de canetas. É possível colocar, em cada pacotinho, ou 6 canetas, ou 8 canetas ou 9 canetas e, em qualquer dessas opções, não restará caneta alguma na caixa. Desse modo, o menor número de canetas que pode haver nessa caixa é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "70."
+      },
+      {
+        "letra": "B",
+        "texto": "66."
+      },
+      {
+        "letra": "C",
+        "texto": "64."
+      },
+      {
+        "letra": "D",
+        "texto": "72."
+      },
+      {
+        "letra": "E",
+        "texto": "68. Leia o poema para responder às questões de números 16 e 17. Viagem O sono é uma viagem noturna: o corpo horizontal no escuro e, no silêncio do trem, avança, imperceptivelmente avança... Apenas o relógio picota a passagem do tempo. Sonha a alma deitada no seu ataúde*: lá longe lá fora no fundo do túnel, há uma estação de chegada (anunciam-na os galos agora) há uma estação de chegada com a sua tabuleta [ainda toda orvalhada... Há uma estação chamada... AURORA! (Mario Quintana. Baú de espantos, 2006) * ataúde: caixão, esquife."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q16",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q16",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 16,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "No poema, o sono é comparado a uma viagem e, também,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a um lugar tumultuado, o que se comprova em: “há uma estação de chegada”."
+      },
+      {
+        "letra": "B",
+        "texto": "à chuva fina, o que se comprova em: “sua tabuleta ainda toda orvalhada”."
+      },
+      {
+        "letra": "C",
+        "texto": "a um relógio mecânico, o que se comprova em: “o relógio picota a passagem do tempo”."
+      },
+      {
+        "letra": "D",
+        "texto": "ao dia ensolarado, o que se comprova em: “AURORA!”"
+      },
+      {
+        "letra": "E",
+        "texto": "à morte, o que se comprova em: “Sonha a alma dei- tada no seu ataúde”."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q17",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q17",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 17,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "No 11 o verso – (anunciam-na os galos agora) – a palavra em destaque sinaliza",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "o princípio da noite."
+      },
+      {
+        "letra": "B",
+        "texto": "o momento de despertar."
+      },
+      {
+        "letra": "C",
+        "texto": "a hora mais silenciosa da noite."
+      },
+      {
+        "letra": "D",
+        "texto": "a quietude própria do sono."
+      },
+      {
+        "letra": "E",
+        "texto": "o ponto de partida da viagem."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q18",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q18",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 18,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A frase escrita em conformidade com a norma-padrão da língua portuguesa, no que se refere à concordância, é:",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Muitas pessoas tem negligenciado as horas de sono, o que levam a vários problemas de saúde."
+      },
+      {
+        "letra": "B",
+        "texto": "É no período do sono que precede imediatamente o estado de vigília que ocorre os sonhos."
+      },
+      {
+        "letra": "C",
+        "texto": "As horas dedicadas ao sono devem ser respeitadas por quem deseja ter uma vida saudável."
+      },
+      {
+        "letra": "D",
+        "texto": "Alguns sonhos se tornam recorrente, e deve ser dado especial atenção a sua interpretação."
+      },
+      {
+        "letra": "E",
+        "texto": "O sono, segundo explicam os especialistas, é essen- cial para que seja consolidado a memória."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q23",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q23",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 23,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Uma loja comprou um lote com 60 carregadores para telefone celular e vendeu 15% deles na 1 a semana do mês. Entre os demais carregadores, 3 estavam com de- feito e foram devolvidos ao fornecedor. Dos carregado- res restantes, 75% deles foram vendidos até o final do mês. Após as vendas e a devolução efetuadas, restou ainda um determinado número de carregadores que, em relação ao número de carregadores comprados pela loja, correspondem a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "20%."
+      },
+      {
+        "letra": "B",
+        "texto": "15%."
+      },
+      {
+        "letra": "C",
+        "texto": "12%."
+      },
+      {
+        "letra": "D",
+        "texto": "17%."
+      },
+      {
+        "letra": "E",
+        "texto": "22%."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q24",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q24",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 24,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Uma indústria possui duas máquinas, A e B, que pro- duzem uma mesma peça. A máquina A produz 7 peças em 15 minutos, e a máquina B produz 8 peças em 20 minutos. Nessas condições, é correto afirmar que, no mesmo tempo gasto pela máquina B para produzir 36 peças, a máquina A irá produzir um número de peças igual a",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "40."
+      },
+      {
+        "letra": "B",
+        "texto": "48."
+      },
+      {
+        "letra": "C",
+        "texto": "42."
+      },
+      {
+        "letra": "D",
+        "texto": "46."
+      },
+      {
+        "letra": "E",
+        "texto": "44."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q25",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q25",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 25,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Um estudante fez quatro simulados, A, B, C e D, prepa- ratórios para uma prova de vestibular. A tabela mostra as notas obtidas por ele em cada um dos simulados. Simulados A B C D Notas 8,0 8,5 ? 9,0 Se a média aritmética das quatro notas foi 8,25, então, a nota obtida no simulado C foi",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "7,75."
+      },
+      {
+        "letra": "B",
+        "texto": "8,00."
+      },
+      {
+        "letra": "C",
+        "texto": "7,50."
+      },
+      {
+        "letra": "D",
+        "texto": "8,50."
+      },
+      {
+        "letra": "E",
+        "texto": "8,25."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q27",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q27",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 27,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Uma loja colocou 80 camisetas em promoção, algumas do modelo A e todas as restantes do modelo",
+    "alternativas": [
+      {
+        "letra": "B",
+        "texto": "Nessa promoção, cada camiseta do modelo A está sendo vendi- da a R$ 40,00 e cada camiseta do modelo B a R$ 32,00. Sabendo que o valor arrecadado com a venda das 80 camisetas foi R$ 2.840,00, o número de camisetas do modelo A vendidas foi"
+      },
+      {
+        "letra": "A",
+        "texto": "40. (B) 30."
+      },
+      {
+        "letra": "C",
+        "texto": "32."
+      },
+      {
+        "letra": "D",
+        "texto": "35."
+      },
+      {
+        "letra": "E",
+        "texto": "38."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q28",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q28",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 28,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Uma peça de madeira tem o formato de um prisma reto com 15 cm de altura e uma base retangular com 6 cm de comprimento, conforme mostra a figura. (Figura fora de escala) Sabendo que o volume dessa peça é 720 cm 3 , a área da base é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "44 cm 2 ."
+      },
+      {
+        "letra": "B",
+        "texto": "36 cm 2 ."
+      },
+      {
+        "letra": "C",
+        "texto": "40 cm 2 ."
+      },
+      {
+        "letra": "D",
+        "texto": "52 cm 2 ."
+      },
+      {
+        "letra": "E",
+        "texto": "48 cm 2 ."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q30",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q30",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 30,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O terreno retangular ABCD, mostrado na figura, cujas medidas estão indicadas em metros, tem 80 metros de perímetro. x + 10 B A x C D (Figura fora de escala) Sabendo que 12% da área desse terreno será destinada à construção de uma garagem, a área dessa garagem será de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "42 m 2 ."
+      },
+      {
+        "letra": "B",
+        "texto": "40 m 2 ."
+      },
+      {
+        "letra": "C",
+        "texto": "45 m 2 ."
+      },
+      {
+        "letra": "D",
+        "texto": "35 m 2 ."
+      },
+      {
+        "letra": "E",
+        "texto": "38 m 2 ."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q32",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q32",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 32,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O fim dos velhos impérios coloniais era previsível e, na verdade, em 1945, considerado iminente na Ásia, mas a futura orientação dos novos Estados pós-coloniais não estava nada clara. Foi nessa área que as duas superpo- tências continuaram a competir, por apoio e influência, d urante toda a Guerra Fria, e por isso a maior zona de atrito entre elas, aquela onde o conflito armado era mais provável, e onde de fato irrompeu. (Eric Hobsbawm, Era dos Extremos: o breve século XX (1914-1991). São Paulo: Companhia das Letras, 1995. Adaptado) Quanto aos exemplos de conflito entre as duas superpo- tências, é correto identificar",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a Ucrânia, em que os países da OTAN e do Pacto de Varsóvia disputaram o acesso ao Mar Negro, principal via de ligação marítima entre a Ásia Continental e o Mar Mediterrâneo."
+      },
+      {
+        "letra": "B",
+        "texto": "o Japão, em que Estados Unidos e União Soviética tentaram controlar os rumos políticos do país após a explosão das bombas atômicas, o que prolongou os conflitos do pós-guerra."
+      },
+      {
+        "letra": "C",
+        "texto": "a Índia, em que comunistas e liberais indianos luta- ram juntos contra o domínio britânico, mas depois se dividiram em choques internos que levaram à guerra civil no país."
+      },
+      {
+        "letra": "D",
+        "texto": "o Paquistão, em que os movimentos de libertação na- cional se voltaram para o anti-imperialismo e se apro- ximaram das lutas revolucionárias anticapitalistas."
+      },
+      {
+        "letra": "E",
+        "texto": "a Coreia, em que os coreanos do norte tiveram o apoio do bloco socialista contra os coreanos do sul, apoiados pelos EUA em um violento confronto que durou cerca de três anos. conHecimentos gerais H istória G eral"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q31",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q31",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 31,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O presidente dos EUA,Thomas Woodrow Wilson, presidira o comitê que redigiu os 30 artigos do pacto constitutivo da Liga das Nações, projeto de seu coração. O presidente via na Liga das Nações o órgão maior de um sistema de segu- rança coletiva das nações. Pensou grande, muito além do seu tempo e muito além dos tempos de hoje, a julgar pela experiência da ONU. As demonstrações de impotência da Liga das Nações para coibir o emprego da força foram se acumulando. (Luiz de Alencar Araripe, “Tratado de Versalhes”. Em: Demétrio Magnoli (org.), História da Paz. São Paulo: Contexto, 2008. Adaptado) Uma das “demonstrações de impotência” da entidade está corretamente identificada",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "na tomada da Etiópia pela Itália (1935), caracterizada pelo expansionismo fascista e apoiada por Hitler na geopolítica europeia da época."
+      },
+      {
+        "letra": "B",
+        "texto": "na anexação da Polônia pela URSS (1934), uma das marcas do expansionismo soviético que precedeu o início da Segunda Guerra Mundial."
+      },
+      {
+        "letra": "C",
+        "texto": "na militarização da Espanha pela França (1937), com o objetivo de conter o expansionismo naciona- lista no levante liderado pelo General Franco."
+      },
+      {
+        "letra": "D",
+        "texto": "na militarização da Normandia pela Inglaterra (1936), como tentativa de bloquear o possível avanço nazista sobre o norte da França e sobre o Canal da Mancha."
+      },
+      {
+        "letra": "E",
+        "texto": "na ocupação da Armênia pela Turquia (1933), o que levou ao chamado “genocídio armênio” no contexto de formação do Estado nacional turco."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q34",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q34",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 34,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O processo de descompressão do sistema político come- çara a ser orquestrado em 1975, pelos generais Ernesto Geisel e Golbery do Couto e Silva, ambos convencidos de que a ditadura deveria fazer suas escolhas e definir o momento mais conveniente para revogar os poderes de exceção. (Lilia Schwarcz e Heloisa Starling, Brasil: uma biografia. São Paulo: Companhia das Letras, 2015. P. 467. Adaptado) Tal processo se deu com o objetivo de",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "manter a oposição longe do Executivo, de modo a garantir que a transição se realizasse de maneira tu- telada, restrita aos círculos civis aliados e sem riscos institucionais."
+      },
+      {
+        "letra": "B",
+        "texto": "realizar uma abertura política plena, reestabelecen- do os direitos políticos e as liberdades civis no tempo mais curto possível, superando a situação autoritária na qual o país se encontrava."
+      },
+      {
+        "letra": "C",
+        "texto": "sustentar o bipartidarismo do MDB e da Arena na cena política nacional, impedindo, com isso, a legali- zação de partidos e grupos políticos mais à esquerda, tais como o Partido Comunista."
+      },
+      {
+        "letra": "D",
+        "texto": "efetivar um projeto de institucionalização da ditadura, de tal forma que os poderes de exceção fossem revo- gados, mas os militares ficassem no poder por tempo indeterminado."
+      },
+      {
+        "letra": "E",
+        "texto": "garantir uma abertura política em que os exilados não teriam o direito de voltar ao Brasil, assim como os presos políticos permaneceriam detidos até que se completasse a redemocratização. H istória do Brasil"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q33",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q33",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 33,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O regresso ao Rio de Janeiro do 1o Escalão da Força Expedicionária Brasileira em 18 de julho de 1945 estava sendo esperado e interpretado como um marco na campa- nha das forças oposicionistas. O desfile das tropas pelas ruas da cidade seria como uma grande festa da UDN e de seu candidato. (Angela de Castro Gomes, A invenção do trabalhismo. Rio de Janeiro: Editora FGV, 2005. P. 284-285. Adaptado) O trecho revela um momento importante da crise do Estado Novo associada ao retorno da FEB, que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "reforçaria a importância dos militares e da UDN na construção de uma saída negociada para o fim da ditadura, o que levou Getúlio a renunciar e se isolar politicamente, sem estabelecer relação com a cena política que viria a seguir."
+      },
+      {
+        "letra": "B",
+        "texto": "ressaltaria o vínculo entre os setores de oposição a Vargas e a participação do Brasil na Segunda Guerra Mundial ao lado dos Aliados, na medida em que Vargas tinha sido favorável à entrada na guerra ao lado do Eixo."
+      },
+      {
+        "letra": "C",
+        "texto": "consagraria a vitória da luta pela democracia e a repulsa à ditadura e a seu presidente, evidenciando a contradição entre uma política externa alinhada com os valores democráticos e uma política interna autoritária."
+      },
+      {
+        "letra": "D",
+        "texto": "evidenciaria a fraqueza do governo Vargas naquele contexto, dado o fato de que o governo teve poucos recursos para sustentar as tropas na guerra, o que reforçou as sensações de pobreza e precariedade disseminadas à época."
+      },
+      {
+        "letra": "E",
+        "texto": "consolidaria a aliança entre as elites civis organiza- das na UDN, economicamente intervencionistas e socialmente conservadoras, e os militares recém- -saídos da guerra, autoritários e com forte inspira- ção fascista."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q37",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q37",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 37,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A questão está relacionada ao mapa apresentado a seguir. Brasil – Bacias hidrográficas (ANA – Agência Nacional de Águas) Assinale a alternativa que identifica corretamente uma das bacias hidrográficas brasileiras.",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "A bacia 2 abrange uma importante reserva de miné- rios, reconhecida internacionalmente. Como grande parte dos solos da bacia não são férteis, há pequena atividade agrícola, mas, recentemente, observa-se o avanço da pecuária destinada à produção de leite."
+      },
+      {
+        "letra": "B",
+        "texto": "A bacia 3 tem grande importância histórica; seu rio principal atravessa área de clima semiárido. A agricultura é uma das mais importantes atividades econômicas, com destaque para a fruticultura. O potencial hidrelétrico da bacia é aproveitado por várias usinas."
+      },
+      {
+        "letra": "C",
+        "texto": "A bacia 5 ocupa área com relevo pouco ondulado, o que possibilita a existência de vários rios nave- gáveis, mas com pequeno potencial hidrelétrico. A área da bacia concentra a maior parte da população nas porções norte e oeste, onde estão as principais cidades."
+      },
+      {
+        "letra": "D",
+        "texto": "A bacia 1 destaca-se por apresentar elevada den- sidade demográfica, fato que provoca impacto ambiental, principalmente nas áreas próximas às áreas metropolitanas; os modernos cultivos de grãos representam a principal utilização dos solos da bacia."
+      },
+      {
+        "letra": "E",
+        "texto": "A bacia 4 tem a maior parte de sua área em pla- naltos, o que possibilita aos rios que a compõem grande potencial hidrelétrico já utilizado por várias usinas. Sob o aspecto econômico, as terras da bacia são utilizadas para cultivos de produtos desti- nados à exportação. G eoGrafia G eral"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q36",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q36",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 36,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A questão está relacionada à imagem e ao texto a seguir. (http://sistemasinter.cetesb.sp.gov.br/Ar/anexo.jpg) Esse fenômeno atmosférico é comum nos grandes cen- tros urbanos industrializados, principalmente naqueles localizados em áreas cercadas por serras ou montanhas. Esse processo ocorre quando o ar frio (mais denso) é im- pedido de circular por uma camada de ar quente (menos denso), dificultando a circulação do ar. Trata-se",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "do efeito estufa."
+      },
+      {
+        "letra": "B",
+        "texto": "da ilha de calor."
+      },
+      {
+        "letra": "C",
+        "texto": "do efeito Coriólis."
+      },
+      {
+        "letra": "D",
+        "texto": "da inversão térmica."
+      },
+      {
+        "letra": "E",
+        "texto": "do fog."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q39",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q39",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 39,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Em 19 de setembro, na Assembleia da ONU, Donald Trump discursou e atacou diretamente três países: A respeito do país 1, disse que se ele quer se armar com bombas nucleares e mísseis, a única alternativa dos Estados Unidos é destruir totalmente esse país. Depois, Trump falou do país 2, que chamou de dita- dura corrupta que patrocina o terrorismo, e que o acordo nuclear, fechado pelo presidente Barack Obama e pelas maiores potências mundiais, é uma vergonha para os E stados Unidos. A respeito do país 3, Trump disse que o governante é um ditador socialista que causou dor e sofrimento ao povo. O presidente americano lembrou que já impôs san- ções ao governo do país e falou que os Estados Unidos estão preparados para tomar outras atitudes se o ditador continuar a se impor autoritariamente. (G1 goo.gl/HUp924. Adaptado. Acesso em 21 set.2017) Os países 1, 2 e 3 citados por Trump são, respectiva- mente,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Iraque, Venezuela e Rússia."
+      },
+      {
+        "letra": "B",
+        "texto": "Israel, Coreia do Norte e Síria."
+      },
+      {
+        "letra": "C",
+        "texto": "Turquia, Arábia Saudita e Cuba."
+      },
+      {
+        "letra": "D",
+        "texto": "Afeganistão, Turquia e Colômbia."
+      },
+      {
+        "letra": "E",
+        "texto": "Coreia do Norte, Irã e Venezuela."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q40",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q40",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 40,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Leia a notícia de 01 de agosto. Balança comercial brasileira tem melhor julho da história (EBC – Agência Brasil – goo.gl/8Q7TyE. Acesso em 21set.2017) O principal motivo para o bom desempenho da balança foi o aumento",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "do volume de medicamentos destinados à Europa."
+      },
+      {
+        "letra": "B",
+        "texto": "da taxa de juros para investimentos estrangeiros."
+      },
+      {
+        "letra": "C",
+        "texto": "da venda de óleos e lubrificantes para a Alemanha."
+      },
+      {
+        "letra": "D",
+        "texto": "dos preços das commodities, como a soja e o milho."
+      },
+      {
+        "letra": "E",
+        "texto": "da exportação de têxteis e vestuário para a China."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q38",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q38",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 38,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Observe o gráfico para responder à questão. Brasil – Grandes regiões: Participação na produção de “X” (http://www.pac.gov.br/pub/up/imagem/acc174ed65a6bacb 90f4b4904bad5ccf.jpg Acesso em 21 set.2017) A leitura do gráfico e os conhecimentos sobre as ativi- dades econômicas brasileiras permitem afirmar que, no título do gráfico, o “X” deve ser substituído por",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "grãos."
+      },
+      {
+        "letra": "B",
+        "texto": "automóveis."
+      },
+      {
+        "letra": "C",
+        "texto": "cana-de-açúcar."
+      },
+      {
+        "letra": "D",
+        "texto": "aço."
+      },
+      {
+        "letra": "E",
+        "texto": "café."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q44",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q44",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 44,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "No Microsoft PowerPoint 2010, em sua configuração original, um slide mestre é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "um slide configurado para ser o modelo de todos os slides de uma apresentação."
+      },
+      {
+        "letra": "B",
+        "texto": "o último slide de uma apresentação."
+      },
+      {
+        "letra": "C",
+        "texto": "o primeiro slide da apresentação."
+      },
+      {
+        "letra": "D",
+        "texto": "um conjunto de anotações que ficam visíveis apenas para o apresentador, durante uma apresentação."
+      },
+      {
+        "letra": "E",
+        "texto": "uma exibição pequena do próximo slide que fica visível apenas para o apresentador, durante uma apresentação."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q45",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q45",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 45,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "O usuário Renato preparou uma mensagem de correio eletrônico usando o Microsoft Outlook 2010, em sua con- figuração padrão, e preencheu seu próprio endereço no campo Para. Ao clicar em Enviar, o Outlook",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "envia a mensagem, que não fica armazenada na pasta Itens Enviados, e fica armazenada apenas na pasta Caixa de Entrada."
+      },
+      {
+        "letra": "B",
+        "texto": "grava a mensagem na pasta"
+      },
+      {
+        "letra": "C",
+        "texto": "move a mensagem para a pasta Lixeira."
+      },
+      {
+        "letra": "D",
+        "texto": "envia a mensagem, que fica armazenada em ambas as pastas E-mails Enviados e Caixa de Entrada."
+      },
+      {
+        "letra": "E",
+        "texto": "não envia a mensagem porque o destinatário e o remetente são os mesmos. noções básicas de informática"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q41",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q41",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 41,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "No Microsoft Windows 7, em sua configuração original, uma formatação possível no aplicativo Bloco de Notas, acessada a partir do menu Formatar, é",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "Marcadores."
+      },
+      {
+        "letra": "B",
+        "texto": "Quebra Automática de Linha."
+      },
+      {
+        "letra": "C",
+        "texto": "Colunas."
+      },
+      {
+        "letra": "D",
+        "texto": "Tabela."
+      },
+      {
+        "letra": "E",
+        "texto": "Centralizar."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "b",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: B."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q49",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q49",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 49,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Suponha que, durante a execução de um determinado contrato de uma unidade da Polícia Militar, verifica-se que há vícios que podem invalidar o contrato. Nesse caso, a autoridade deve instaurar procedimento de invalidação e, nos termos da Lei Estadual n o 10.177/98, em seguida,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "realizar o contraditório com a empresa contratada."
+      },
+      {
+        "letra": "B",
+        "texto": "deliberar sobre a possibilidade de convalidação total ou parcial dos atos praticados."
+      },
+      {
+        "letra": "C",
+        "texto": "intimar todos os terceiros eventualmente interessados."
+      },
+      {
+        "letra": "D",
+        "texto": "ouvir o órgão de consultoria jurídica."
+      },
+      {
+        "letra": "E",
+        "texto": "determinar que a autoridade que firmou o contrato apresente defesa no prazo de 7 (sete) dias."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "d",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: D."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q50",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q50",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 50,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Segundo o Regulamento Disciplinar da Polícia Militar, quando a ordem parecer obscura, compete ao subordi- nado, ao recebê-la,",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "representar ao superior hierárquico daquele que pro- feriu a ordem."
+      },
+      {
+        "letra": "B",
+        "texto": "cumpri-la da melhor forma que puder, com seu e ntendimento."
+      },
+      {
+        "letra": "C",
+        "texto": "deixar de cumpri-la, registrando o fato por escrito."
+      },
+      {
+        "letra": "D",
+        "texto": "solicitar que a ordem seja direcionada a outro subor- dinado."
+      },
+      {
+        "letra": "E",
+        "texto": "solicitar os esclarecimentos necessários ao seu total entendimento. noções de administração pública"
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "e",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: E."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q46",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q46",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 46,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A Constituição Federal prevê, acerca dos militares dos Estados, que",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "caberá habeas corpus em relação a punições disci- plinares militares."
+      },
+      {
+        "letra": "B",
+        "texto": "aos pensionistas dos militares dos Estados aplica-se o que for fixado em lei federal."
+      },
+      {
+        "letra": "C",
+        "texto": "as patentes dos Oficiais são conferidas pelos res- pectivos Governadores."
+      },
+      {
+        "letra": "D",
+        "texto": "o militar, para ser elegível, deverá afastar-se da ati- vidade, se contar com mais de dez anos de serviço."
+      },
+      {
+        "letra": "E",
+        "texto": "o militar pode estar filiado a partidos políticos enquan- to em serviço ativo."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "c",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: C."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q47",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q47",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 47,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "A polícia ostensiva e a preservação da ordem pública são atribuições que a Constituição Estadual prevê para",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "a polícia militar."
+      },
+      {
+        "letra": "B",
+        "texto": "o corpo de bombeiros."
+      },
+      {
+        "letra": "C",
+        "texto": "a polícia civil."
+      },
+      {
+        "letra": "D",
+        "texto": "a polícia rodoviária."
+      },
+      {
+        "letra": "E",
+        "texto": "a polícia penitenciária."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: A."
+  },
+  {
+    "id": "pmsp-soldado-2017-vunesp-q48",
+    "codigo": "PMSP-SOLDADO-2017-VUNESP-Q48",
+    "orgao": "PMSP",
+    "cargo": "Soldado PM de 2a Classe",
+    "ano": 2017,
+    "banca": "Vunesp",
+    "formato": "multipla_escolha",
+    "numero": 48,
+    "materia": "Portugues",
+    "materia_original": "Portugues",
+    "dificuldade": "medio",
+    "enunciado": "Policial Militar lotado em Andradina passa, no interesse do serviço, a ter exercício no Município de São Bernardo do Campo. Como a ele é aplicável, no que não é derro- gado por lei especial, o Estatuto dos Servidores Públicos Civis do Estado, nesse caso, o Policial Militar em questão",
+    "alternativas": [
+      {
+        "letra": "A",
+        "texto": "poderá receber ajuda de custo, arbitrada pelo Secre- tário da Segurança Pública, que não poderá exceder importância correspondente a 3 (três) vezes o valor do padrão do cargo."
+      },
+      {
+        "letra": "B",
+        "texto": "não receberá ajuda de custo, caso tenha recebido esse benefício nos últimos dois anos."
+      },
+      {
+        "letra": "C",
+        "texto": "ficará obrigado a restituir a ajuda de custo, se for d eterminado seu regresso pela autoridade com- petente."
+      },
+      {
+        "letra": "D",
+        "texto": "poderá receber ajuda de custo, arbitrada pelo Gover- nador do Estado, que não poderá exceder impor- tância correspondente a 2 (duas) vezes o valor do p adrão do cargo."
+      },
+      {
+        "letra": "E",
+        "texto": "não receberá ajuda de custo, e sim diárias corres- pondentes ao período em trânsito, necessário à rea- lização da viagem e da instalação."
+      }
+    ],
+    "afirmacao": "",
+    "gabarito": "a",
+    "anulada": false,
+    "origem": "oficial",
+    "banca_selo": "Vunesp",
+    "concurso": "PMSP",
+    "comentario": "Questao oficial PMSP Soldado PM de 2a Classe 2017. Banca: Vunesp. Gabarito definitivo: A."
+  }
+]

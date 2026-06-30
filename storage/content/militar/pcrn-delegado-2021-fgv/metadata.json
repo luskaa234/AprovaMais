@@ -1,0 +1,23 @@
+{
+  "exame": "PCRN Delegado de Policia Civil Substituto 2021",
+  "banca": "FGV",
+  "ano": 2021,
+  "cargo": "Delegado de Policia Civil Substituto",
+  "total_questoes": 100,
+  "fonte": "Oficial FGV local",
+  "sourceUrl": "material-provas/fgv/provas PM/pcrn-delegado-de-policia-civil-substituto-deleg-01-tipo-1.pdf",
+  "gabarito": "definitivo",
+  "origem": "oficial",
+  "files": [
+    {
+      "title": "Prova oficial",
+      "type": "prova",
+      "path": "material-provas/fgv/provas PM/pcrn-delegado-de-policia-civil-substituto-deleg-01-tipo-1.pdf"
+    },
+    {
+      "title": "Gabarito definitivo",
+      "type": "gabarito",
+      "path": "material-provas/fgv/provas PM/pcrn_gabarito_definitivo.pdf"
+    }
+  ]
+}
