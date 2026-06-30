@@ -122,8 +122,8 @@ function MindMapSvg({ map, collapsed, onToggle, onNodeTap }) {
     <svg className="mindmap-generated-svg" viewBox="0 0 1200 760" role="img" aria-label={`Mapa: ${map?.titulo}`}>
       <defs>
         <linearGradient id="mmBlue" x1="0" x2="1" y1="0" y2="1">
-          <stop offset="0%" stopColor="#1d4ed8" />
-          <stop offset="100%" stopColor="#60a5fa" />
+          <stop offset="0%" stopColor="#13386e" />
+          <stop offset="100%" stopColor="#2e97d4" />
         </linearGradient>
       </defs>
       <rect width="1200" height="760" rx="20" fill="#f8fbff" />
@@ -134,7 +134,7 @@ function MindMapSvg({ map, collapsed, onToggle, onNodeTap }) {
       {points.map(({ branch, x, y }) => (
         <g key={branch.label}>
           <path d={`M600 380 C ${600 + (x - 600) * 0.38} 380, ${x - (x - 600) * 0.35} ${y}, ${x} ${y}`}
-            stroke="#60a5fa" strokeWidth="4" fill="none" strokeLinecap="round" />
+            stroke="#2e97d4" strokeWidth="4" fill="none" strokeLinecap="round" />
           {!collapsed[branch.label] && branch.children.map((child, ci) => {
             const spread = ci - (branch.children.length - 1) / 2;
             const cx2 = x + spread * 165;

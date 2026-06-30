@@ -101,7 +101,7 @@ export const ProgressRing = memo(({ value, max = 100, size = 84, strokeWidth = 8
   return (
     <svg width={size} height={size} className="-rotate-90">
       <circle cx={size / 2} cy={size / 2} r={radius} stroke="#dbeafe" strokeWidth={strokeWidth} fill="none" />
-      <circle cx={size / 2} cy={size / 2} r={radius} stroke="#2563eb" strokeWidth={strokeWidth} fill="none" strokeLinecap="round" strokeDasharray={circumference} strokeDashoffset={offset} />
+      <circle cx={size / 2} cy={size / 2} r={radius} stroke="#1d63c4" strokeWidth={strokeWidth} fill="none" strokeLinecap="round" strokeDasharray={circumference} strokeDashoffset={offset} />
       <text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" className="rotate-90 fill-slate-950 text-sm font-bold">{Math.round((value / max) * 100)}%</text>
     </svg>
   );
