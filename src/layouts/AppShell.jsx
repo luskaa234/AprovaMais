@@ -47,31 +47,31 @@ const Sidebar = memo(({ mobile = false, onNavigate, collapsed = false, onToggle 
       className={cx(
         "flex h-full flex-col",
         mobile
-          ? "mobile-more-menu w-full bg-white p-5 pt-4"
+          ? "mobile-more-menu w-full overflow-y-auto px-4 pb-4 pt-1"
           : cx("w-16 border-r border-slate-200/80 bg-white p-2", !collapsed && "xl:w-[220px] xl:p-3")
       )}
       style={!mobile ? { transition: "width 200ms ease, padding 200ms ease" } : undefined}
     >
-      <div className={cx("flex min-h-14 items-center", mobile ? "mb-3 pr-12" : collapsed ? "mb-5 justify-center" : "mb-5 px-1")}>
-        {mobile ? (
-          <div>
-            <p className="text-xs font-black uppercase tracking-wide text-royal">VemAprovar</p>
-            <h2 className="text-2xl font-black text-slate-950">Atalhos</h2>
-          </div>
-        ) : !collapsed ? (
-          <BrandLogo className="internal-brand-logo" />
-        ) : null}
-      </div>
+      {!mobile && (
+        <div className={cx("flex min-h-14 items-center", collapsed ? "mb-5 justify-center" : "mb-5 px-1")}>
+          {!collapsed && <BrandLogo className="internal-brand-logo" />}
+        </div>
+      )}
 
-      <nav className={cx("flex-1 overflow-auto", mobile ? "space-y-1" : "space-y-0.5")}>
+      <nav className={cx("flex-1 overflow-auto", mobile ? "more-nav-grid" : "space-y-0.5")}>
         {items.map(({ key, label, icon: Icon, badge, tourId }) => (
           <button
             className={cx(
-              "flex w-full items-center gap-3 rounded-xl text-left font-semibold transition-all duration-150",
-              mobile ? "min-h-11 px-3 py-2.5 text-sm" : cx("justify-center px-2 py-2.5 text-sm", !collapsed && "xl:justify-start xl:px-3"),
-              route === key
-                ? "internal-nav-active bg-blue-600 text-white shadow-[0_4px_16px_rgba(37,99,235,0.3)]"
-                : "text-slate-500 hover:bg-slate-100 hover:text-slate-900"
+              "transition-all duration-150",
+              mobile
+                ? cx("more-nav-card w-full text-left", route === key ? "internal-nav-active" : "")
+                : cx(
+                    "flex w-full items-center gap-3 rounded-xl text-left font-semibold justify-center px-2 py-2.5 text-sm",
+                    !collapsed && "xl:justify-start xl:px-3",
+                    route === key
+                      ? "internal-nav-active bg-blue-600 text-white shadow-[0_4px_16px_rgba(37,99,235,0.3)]"
+                      : "text-slate-500 hover:bg-slate-100 hover:text-slate-900"
+                  )
             )}
             data-tour={tourId}
             id={!mobile && tourId ? tourId : undefined}
@@ -79,16 +79,25 @@ const Sidebar = memo(({ mobile = false, onNavigate, collapsed = false, onToggle 
             onClick={() => handleNavigate(key)}
             type="button"
           >
-            <Icon size={mobile ? 18 : 17} strokeWidth={route === key ? 2.2 : 1.7} className="shrink-0" />
-            <span className={cx("min-w-0 flex-1 truncate", mobile ? "block" : collapsed ? "hidden" : "hidden xl:block")}>{label}</span>
-            {badge ? (
-              <span className={cx(
-                "rounded-full bg-blue-600 px-2 py-0.5 text-[10px] font-black text-white",
-                mobile ? "inline-flex" : collapsed ? "hidden" : "hidden xl:inline-flex"
-              )}>
-                {badge}
-              </span>
-            ) : null}
+            {mobile ? (
+              <>
+                <span className="more-nav-icon">
+                  <Icon size={17} strokeWidth={route === key ? 2.3 : 1.8} />
+                </span>
+                <span className="more-nav-label">{label}</span>
+                {badge ? <span className="more-nav-badge">{badge}</span> : null}
+              </>
+            ) : (
+              <>
+                <Icon size={17} strokeWidth={route === key ? 2.2 : 1.7} className="shrink-0" />
+                <span className={cx("min-w-0 flex-1 truncate", collapsed ? "hidden" : "hidden xl:block")}>{label}</span>
+                {badge ? (
+                  <span className={cx("rounded-full bg-blue-600 px-2 py-0.5 text-[10px] font-black text-white", collapsed ? "hidden" : "hidden xl:inline-flex")}>
+                    {badge}
+                  </span>
+                ) : null}
+              </>
+            )}
           </button>
         ))}
       </nav>
@@ -474,20 +483,28 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
         >
           <motion.div
             animate={{ y: mobileOpen ? 0 : "100%" }}
-            className="mobile-more-sheet absolute inset-x-0 bottom-0 max-h-[84svh] rounded-t-[28px] bg-white shadow-[0_-8px_40px_rgba(15,23,42,0.18)]"
+            className="mobile-more-sheet absolute inset-x-0 bottom-0 max-h-[88svh] overflow-hidden rounded-t-3xl bg-white"
             initial={{ y: "100%" }}
             onClick={(event) => event.stopPropagation()}
             transition={{ type: "spring", damping: 32, stiffness: 380 }}
           >
-            <div className="mx-auto mt-3 h-1 w-12 rounded-full bg-slate-200" />
-            <button
-              aria-label="Fechar menu"
-              className="absolute right-4 top-4 z-10 grid size-10 place-items-center rounded-xl bg-slate-100 text-slate-500 shadow-sm"
-              onClick={closeMobile}
-              type="button"
-            >
-              <X size={21} />
-            </button>
+            <div className="flex justify-center pt-3.5 pb-1">
+              <div className="h-1 w-10 rounded-full bg-slate-200" />
+            </div>
+            <div className="flex items-center justify-between px-5 pb-2">
+              <div>
+                <p className="text-[11px] font-black uppercase tracking-widest text-blue-600">VemAprovar</p>
+                <h2 className="text-xl font-black text-slate-900">Atalhos</h2>
+              </div>
+              <button
+                aria-label="Fechar menu"
+                className="grid size-9 place-items-center rounded-2xl bg-slate-100 text-slate-500 transition hover:bg-slate-200 hover:text-slate-800"
+                onClick={closeMobile}
+                type="button"
+              >
+                <X size={18} />
+              </button>
+            </div>
             <Sidebar mobile onNavigate={closeMobile} />
           </motion.div>
         </motion.div>
