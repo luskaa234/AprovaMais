@@ -1,0 +1,244 @@
+﻿import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from "react";
+import { CheckCircle2, Flag, Play, RotateCcw, Timer, XCircle } from "lucide-react";
+import { Badge, Button, Card, EmptyState, Select, cx } from "../../components";
+
+const DistributionPieChart = lazy(() => import("../../charts").then((m) => ({ default: m.DistributionPieChart })));
+const PerformanceChart = lazy(() => import("../../charts").then((m) => ({ default: m.PerformanceChart })));
+import { useAsyncData, useTimer } from "../../hooks";
+import { useNotifications, useUser } from "../../contexts";
+import { simuladosService } from "../../services";
+import { useSimuladosStore } from "../../stores";
+
+function SimuladoResultado({ result, onRedo, onReview }) {
+  const tone = result.percent >= 70 ? "text-blue-300" : result.percent >= 50 ? "text-amber-300" : "text-red-300";
+
+  return (
+    <div>
+      <Card hover={false}>
+        <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+          <div className="flex items-center gap-3">
+            <div>
+            <p className="text-sm text-gray-400">Resultado final</p>
+            <h1 className={cx("text-5xl font-black", tone)}>{result.percent}%</h1>
+            <p className="mt-1 text-gray-300">{result.correct}/{result.total} questões corretas · tempo {result.tempo}</p>
+            </div>
+          </div>
+          <div className="flex gap-2">
+            <Button icon={RotateCcw} onClick={onRedo}>Refazer</Button>
+            <Button variant="secondary" onClick={onReview}>Ver gabarito</Button>
+          </div>
+        </div>
+      </Card>
+      <div className="mt-4 grid gap-4">
+        <Card hover={false}><h2 className="mb-3 font-bold text-white">Acertos por matéria</h2><Suspense fallback={<div style={{ height: 200 }} />}><DistributionPieChart data={result.porMateria} /></Suspense></Card>
+      </div>
+      <Card hover={false} className="mt-4">
+        <h2 className="mb-3 font-bold text-white">Questões</h2>
+        <div className="grid gap-2 md:grid-cols-2">
+          {result.questoes.map((item, index) => (
+            <div key={item.id} className="flex items-center justify-between rounded-lg bg-gray-900 p-3 text-sm text-gray-300">
+              <span>{index + 1}. {item.materia} · gabarito {String(item.expected).toUpperCase()}</span>
+              {item.correct ? <CheckCircle2 className="text-blue-300" /> : <XCircle className="text-red-300" />}
+            </div>
+          ))}
+        </div>
+      </Card>
+    </div>
+  );
+}
+
+function SimuladoExecucao({ simulado, onFinish }) {
+  const [current, setCurrent] = useState(0);
+  const [answers, setAnswers] = useState({});
+  const [marked, setMarked] = useState({});
+  const { seconds, start, stop } = useTimer(simulado.tempoMinutos * 60);
+  const finish = useCallback(() => {
+    stop();
+    onFinish(simuladosService.calcularResultado(simulado, answers));
+  }, [answers, onFinish, simulado, stop]);
+  useEffect(() => {
+    start();
+  }, [start]);
+  useEffect(() => {
+    if (seconds === 0) finish();
+  }, [finish, seconds]);
+  const question = simulado.questoes[current];
+  const answer = useCallback((option) => setAnswers((items) => ({ ...items, [question.id]: option })), [question.id]);
+
+  return (
+    <div className="mx-auto grid max-w-[1400px] gap-4 xl:grid-cols-[minmax(0,1fr)_240px]">
+      <Card hover={false} className="self-start">
+        <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <h1 className="text-2xl font-black text-white">{simulado.nome}</h1>
+            <p className="text-sm text-gray-400">Progresso {current + 1}/{simulado.questoes.length}</p>
+          </div>
+          <Badge variant="error"><Timer size={14} /> {Math.floor(seconds / 60)}:{String(seconds % 60).padStart(2, "0")}</Badge>
+        </div>
+
+        <div className="rounded-lg bg-gray-900 p-4">
+          <div className="mb-3 flex flex-wrap gap-2">
+            <Badge>{question.materia}</Badge>
+            <Badge variant="neutral">{question.assunto}</Badge>
+            <Badge variant="neutral">{question.banca}</Badge>
+          </div>
+          <p className="text-gray-100">{question.enunciado}</p>
+        </div>
+
+        <div className="mt-4 grid gap-2">
+          {(question.alternativas || []).map((option) => (
+            <button
+              key={option.id}
+              onClick={() => answer(option.id)}
+              className={cx(
+                "rounded-lg border p-3 text-left text-sm transition",
+                answers[question.id] === option.id ? "border-royal bg-royal text-white shadow-sm" : "border-gray-800 bg-gray-900 text-gray-300 hover:border-blue-400 hover:bg-royal/10",
+              )}
+            >
+              <span className="font-bold">{option.letra}.</span> {option.texto}
+            </button>
+          ))}
+        </div>
+
+        <div className="mt-5 flex flex-wrap justify-between gap-2">
+          <Button variant="secondary" disabled={current === 0} onClick={() => setCurrent((value) => value - 1)}>Anterior</Button>
+          <Button variant="outline" icon={Flag} onClick={() => setMarked((items) => ({ ...items, [question.id]: !items[question.id] }))}>Marcar</Button>
+          <Button variant="secondary" disabled={current === simulado.questoes.length - 1} onClick={() => setCurrent((value) => value + 1)}>Próxima</Button>
+          <Button onClick={finish}>Finalizar</Button>
+        </div>
+      </Card>
+
+      <Card hover={false} className="order-first self-start xl:order-none xl:sticky xl:top-28">
+        <h2 className="mb-3 font-bold text-white">Paleta</h2>
+        <div className="grid grid-cols-6 gap-2 xl:grid-cols-5">
+          {simulado.questoes.map((item, index) => (
+            <button
+              key={item.id}
+              onClick={() => setCurrent(index)}
+              className={cx("size-10 rounded-lg text-sm font-bold", marked[item.id] ? "bg-amber-500 text-gray-950" : answers[item.id] ? "bg-royal text-white" : "bg-gray-800 text-gray-300", current === index && "ring-2 ring-blue-300")}
+            >
+              {index + 1}
+            </button>
+          ))}
+        </div>
+        <div className="mt-4 space-y-2 text-xs text-gray-400">
+          <p><i className="mr-2 inline-block size-3 rounded bg-gray-800" />Não visitada</p>
+          <p><i className="mr-2 inline-block size-3 rounded bg-royal" />Respondida</p>
+          <p><i className="mr-2 inline-block size-3 rounded bg-amber-500" />Marcada</p>
+        </div>
+      </Card>
+    </div>
+  );
+}
+
+export default function SimuladosPage() {
+  const { user } = useUser();
+  const { addNotification } = useNotifications();
+  const load = useCallback(() => simuladosService.getTemplates({ user }), [user]);
+  const { data: templates = [] } = useAsyncData(load);
+  const [active, setActive] = useState(() => useSimuladosStore.getState().ativo || null);
+  const [result, setResult] = useState(null);
+  const [configs, setConfigs] = useState({});
+  const [loadingId, setLoadingId] = useState("");
+  const history = useSimuladosStore((state) => state.simulados);
+  const registrarResultado = useSimuladosStore((state) => state.registrarResultado);
+  const evolution = useMemo(() => history.slice(0, 6).reverse().map((item, index) => ({
+    label: item.data ? new Intl.DateTimeFormat("pt-BR", { day: "2-digit", month: "2-digit" }).format(new Date(item.data)) : `S${index + 1}`,
+    acertos: Number(item.percent || 0),
+  })), [history]);
+
+  const updateConfig = useCallback((templateId, key, value) => {
+    setConfigs((current) => ({ ...current, [templateId]: { ...(current[templateId] || {}), [key]: value } }));
+  }, []);
+
+  const startTemplate = useCallback(async (template) => {
+    setLoadingId(template.id);
+    try {
+      const simulado = await simuladosService.iniciar(template, configs[template.id] || {});
+      setResult(null);
+      setActive(simulado);
+      useSimuladosStore.setState({ ativo: simulado });
+    } catch (error) {
+      addNotification({
+        type: "warning",
+        title: "Simulado indisponível",
+        message: error.message || "Não há questões oficiais suficientes para montar este simulado.",
+      });
+    } finally {
+      setLoadingId("");
+    }
+  }, [addNotification, configs]);
+
+  const finishSimulado = useCallback((nextResult) => {
+    registrarResultado(nextResult);
+    useSimuladosStore.setState({ ativo: null });
+    setResult(nextResult);
+    setActive(null);
+  }, [registrarResultado]);
+
+  if (result) return <SimuladoResultado result={result} onRedo={() => { setResult(null); startTemplate(templates.find((t) => t.id === result.templateId) || templates[0]); }} onReview={() => setResult({ ...result, review: true })} />;
+  if (active) return <SimuladoExecucao simulado={active} onFinish={finishSimulado} />;
+
+  return (
+    <div className="mx-auto max-w-[1500px]">
+      <div data-tour="tour-simulados-header">
+        <h1 className="mb-1 text-3xl font-black text-white">Simulados</h1>
+        <p className="mb-5 text-sm text-gray-400">Questões no mesmo padrão do banco: enunciado, alternativas, gabarito e comentário.</p>
+      </div>
+      {!templates.length ? (
+        <EmptyState title="Nenhum simulado disponível" description="Importe questões oficiais para liberar os simulados." />
+      ) : null}
+      <div className="grid gap-4 xl:grid-cols-3" data-tour="tour-simulados-config">
+        {templates.map((template) => (
+          <Card hover={false} key={template.id}>
+            <Badge>{template.modo}</Badge>
+            <h2 className="mt-3 text-xl font-bold text-white">{template.nome}</h2>
+            <p className="mt-1 text-sm text-gray-400">{template.totalDisponivel} questões oficiais em {template.areaLabel}.</p>
+            <div className="my-4 grid gap-3">
+              <Select label="Matérias" placeholder="Todas" options={template.materias || []} value={configs[template.id]?.materia || ""} onChange={(event) => updateConfig(template.id, "materia", event.target.value)} />
+              <Select
+                label="Filtro de questões"
+                placeholder="Todas"
+                options={[
+                  { value: "nao_respondidas", label: "Não respondidas" },
+                  { value: "erradas", label: "Erradas" },
+                  { value: "favoritas", label: "Favoritas" },
+                ]}
+                value={configs[template.id]?.status || ""}
+                onChange={(event) => updateConfig(template.id, "status", event.target.value)}
+              />
+              <Select
+                label="Tempo"
+                options={[
+                  { value: 40, label: "40 min" },
+                  { value: 90, label: "1h30" },
+                  { value: 180, label: "3h" },
+                ]}
+                value={configs[template.id]?.tempoMinutos || template.tempoMinutos}
+                onChange={(event) => updateConfig(template.id, "tempoMinutos", event.target.value)}
+              />
+            </div>
+            <Button disabled={template.disabled} icon={Play} loading={loadingId === template.id} onClick={() => startTemplate(template)}>Iniciar</Button>
+          </Card>
+        ))}
+      </div>
+      <div className="mt-4 grid gap-4 xl:grid-cols-2">
+        <Card hover={false} data-tour="tour-simulados-history">
+          <h2 className="mb-3 font-bold text-white">Meus simulados</h2>
+          {history.length ? history.slice(0, 6).map((item) => (
+            <div key={`${item.id}-${item.data}`} className="flex justify-between border-b border-gray-800 py-2 text-sm text-gray-300">
+              <span>{item.nome || "Simulado"}</span>
+              <Badge variant={Number(item.percent || 0) >= 70 ? "success" : "neutral"}>{item.percent || 0}%</Badge>
+            </div>
+          )) : (
+            <EmptyState title="Nenhum simulado feito ainda" description="Inicie seu primeiro simulado para criar histórico real." />
+          )}
+        </Card>
+        <Card hover={false}>
+          <h2 className="mb-3 font-bold text-white">Evolução</h2>
+          {evolution.length ? <Suspense fallback={<div style={{ height: 200 }} />}><PerformanceChart data={evolution} /></Suspense> : <EmptyState title="Sem evolução ainda" description="O gráfico aparece depois do primeiro simulado concluído." />}
+        </Card>
+      </div>
+    </div>
+  );
+}
