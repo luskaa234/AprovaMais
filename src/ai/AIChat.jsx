@@ -124,9 +124,11 @@ export const AIChat = memo(({ perfil = {}, desempenho = {} }) => {
     <div className="ai-chat mx-auto flex h-full min-h-[calc(100vh-150px)] w-full max-w-5xl flex-col rounded-lg border border-royal/20 bg-white shadow-sm">
       <div className="ai-chat-hero flex flex-col gap-4 border-b border-royal/20 bg-royal/10 p-4 text-slate-800 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex min-w-0 items-center gap-4">
-        <span className="grid size-12 shrink-0 place-items-center rounded-xl bg-royal text-white">
-          <BookOpenCheck size={24} />
-        </span>
+        <img
+          src="/pwa/pwa-512.png"
+          alt="VemAprovar"
+          className="size-12 shrink-0 rounded-xl object-contain"
+        />
         <div className="min-w-0">
           <p className="text-xs font-black uppercase tracking-wide text-navy">VemAprovar Assistente</p>
           <h2 className="text-xl font-black">Seu tutor de revisão e questões</h2>
