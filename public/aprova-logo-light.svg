@@ -1,0 +1,34 @@
+﻿<svg width="520" height="120" viewBox="0 0 520 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rebranding complete: VemAprovar light logo. -->
+  <defs>
+    <linearGradient id="aprovaGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1d63c4"/>
+      <stop offset="100%" stop-color="#2e97d4"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(10,10)">
+    <path
+      d="M50 0 L100 100 H78 L64 72 H36 L22 100 H0 L50 0Z"
+      fill="#13386e"
+    />
+
+    <path
+      d="M18 58 L38 76 L82 34 L92 42 L38 94 L8 66 Z"
+      fill="url(#aprovaGradient)"
+    />
+
+    <rect x="105" y="10" width="12" height="40" rx="2" fill="#1d63c4"/>
+    <rect x="91" y="24" width="40" height="12" rx="2" fill="#1d63c4"/>
+  </g>
+
+  <text
+    x="145"
+    y="72"
+    font-family="Inter, Arial, sans-serif"
+    font-size="46"
+    font-weight="700"
+    fill="url(#aprovaGradient)">
+    VemAprovar
+  </text>
+</svg>
