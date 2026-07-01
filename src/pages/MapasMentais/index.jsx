@@ -709,6 +709,7 @@ export default function MapasMentaisPage() {
                 { label: "Estudar", icon: <CalendarCheck size={14} />, action: () => markStudied(activeMap), primary: true },
                 { label: "Flashcards", icon: <Brain size={14} />, action: generateFlashcards, disabled: Boolean(aiLoading) },
                 { label: "Resumo", icon: <FileText size={14} />, action: generateSummary, disabled: Boolean(aiLoading) },
+                { label: "Questões", icon: <FileQuestion size={14} />, action: generateQuestions, disabled: Boolean(aiLoading) },
                 { label: "Compartilhar", icon: <Share2 size={14} />, action: () => shareMap(activeMap) },
               ].map(({ label, icon, action, primary, disabled }) => (
                 <button
