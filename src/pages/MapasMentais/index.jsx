@@ -5,7 +5,7 @@ import {
   FileText, Maximize2, Minus, Plus, Search, Share2, SlidersHorizontal,
   Trash2, X,
 } from "lucide-react";
-import { Badge, Button, Card, EmptyState, Input, Select, cx } from "../../components";
+import { Badge, Button, Card, EmptyState, HtmlFrameViewer, Input, Select, cx } from "../../components";
 import { Modal } from "../../modals";
 import { useInternalRouter, useNotifications } from "../../contexts";
 import { useAsyncData } from "../../hooks";
@@ -305,13 +305,9 @@ function MapViewer({ map, full, zoom, pan, collapsed, onCloseFull, onFullscreen,
           onWheel={hasHtmlMap ? undefined : onWheel}
         >
           {hasHtmlMap ? (
-            <iframe
-              src={map.htmlUrl}
-              title={map.materia || map.titulo}
-              loading="lazy"
-              sandbox="allow-scripts allow-same-origin"
-              style={{ display: "block", width: "100%", height: "min(74svh, 52rem)", minHeight: "34rem", border: 0 }}
-            />
+            <div style={{ width: "100%", height: "min(74svh, 52rem)", minHeight: "34rem" }}>
+              <HtmlFrameViewer url={map.htmlUrl} title={map.materia || map.titulo} />
+            </div>
           ) : (
             <div className="mindmap-stage" style={{ transform: `translate3d(${pan.x}px,${pan.y}px,0) scale(${zoom})` }}>
               {map.svgUrl
@@ -701,14 +697,8 @@ export default function MapasMentaisPage() {
                 />
               </div>
             ) : activeMap.htmlUrl ? (
-              <div className="overflow-hidden rounded-2xl">
-                <iframe
-                  src={activeMap.htmlUrl}
-                  title={activeMap.materia || activeMap.titulo}
-                  loading="lazy"
-                  sandbox="allow-scripts allow-same-origin"
-                  style={{ display: "block", width: "100%", height: "82svh", minHeight: "28rem", border: 0 }}
-                />
+              <div className="overflow-hidden rounded-2xl" style={{ width: "100%", height: "82svh", minHeight: "28rem" }}>
+                <HtmlFrameViewer url={activeMap.htmlUrl} title={activeMap.materia || activeMap.titulo} />
               </div>
             ) : (
               <MobileMindMap

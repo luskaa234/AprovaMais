@@ -39,7 +39,7 @@ export const mapasService = {
         acessos: 40 + index * 7,
         favorito: index % 4 === 0,
         materialUrl: item.url,
-        htmlUrl: item.htmlUrl,
+        htmlUrl: item.htmlUrl || (/\.html?($|\?)/i.test(item.url || "") ? item.url : undefined),
         svgUrl: /\.svg($|\?)/i.test(item.url || "") ? item.url : item.svgUrl,
         root: {
           label: item.materia,
