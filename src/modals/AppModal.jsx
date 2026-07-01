@@ -1,4 +1,5 @@
 import { memo, useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 import { Button, cx } from "../components";
@@ -18,7 +19,7 @@ function useMobileSheet() {
 export const Modal = memo(({ open, title, children, footer, onClose, size = "md" }) => {
   const sizes = { sm: "max-w-sm", md: "max-w-lg", lg: "max-w-3xl", xl: "max-w-5xl" };
   const isMobile = useMobileSheet();
-  return (
+  return createPortal(
     <AnimatePresence>
       {open ? (
         <motion.div className="native-modal-overlay fixed inset-0 z-[90] grid place-items-center bg-black/70 p-4" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
@@ -44,7 +45,8 @@ export const Modal = memo(({ open, title, children, footer, onClose, size = "md"
           </motion.div>
         </motion.div>
       ) : null}
-    </AnimatePresence>
+    </AnimatePresence>,
+    document.body
   );
 });
 Modal.displayName = "Modal";
