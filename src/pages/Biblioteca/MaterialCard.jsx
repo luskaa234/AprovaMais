@@ -1,6 +1,6 @@
 import { memo, useCallback, useState } from "react";
 import { Download, ExternalLink, FileText, Heart, Image, Map, Maximize2, X } from "lucide-react";
-import { Badge, Card, HtmlFrameViewer, cx } from "../../components";
+import { Badge, Card, HtmlFrameViewer, PdfFrameViewer, cx } from "../../components";
 
 /* ── tipos e estilos ─────────────────────────────────── */
 
@@ -32,14 +32,6 @@ function detectType(url = "", tipo = "") {
   if (/\.pdf($|\?)/.test(lower)) return "pdf";
   if (/\.html?($|\?)/.test(lower) || tipo === "Mapas mentais") return "html";
   return "pdf"; // padrão para tipos desconhecidos
-}
-
-function buildPdfUrl(url) {
-  if (!url) return "";
-  if (url.startsWith("http")) {
-    return `https://docs.google.com/viewer?url=${encodeURIComponent(url)}&embedded=true`;
-  }
-  return url;
 }
 
 /* ── viewer principal ────────────────────────────────── */
@@ -99,14 +91,8 @@ function MaterialViewer({ material, onClose }) {
         ) : contentType === "html" ? (
           <HtmlFrameViewer url={url} title={titulo} sandbox="allow-scripts allow-same-origin allow-popups allow-forms" />
         ) : (
-          /* PDF via Google Docs Viewer */
-          <iframe
-            key={url}
-            src={buildPdfUrl(url)}
-            title={titulo}
-            className="h-full w-full border-0"
-            allow="fullscreen"
-          />
+          /* PDF via Google Docs Viewer, com fallback pra abrir direto no mobile */
+          <PdfFrameViewer key={url} url={url} title={titulo} />
         )}
       </div>
     </div>

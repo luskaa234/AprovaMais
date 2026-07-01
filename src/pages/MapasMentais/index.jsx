@@ -5,7 +5,7 @@ import {
   FileText, Maximize2, Minus, Plus, Search, Share2, SlidersHorizontal,
   Trash2, X,
 } from "lucide-react";
-import { Badge, Button, Card, EmptyState, HtmlFrameViewer, Input, Select, cx } from "../../components";
+import { Badge, Button, Card, EmptyState, HtmlFrameViewer, Input, PdfFrameViewer, Select, cx } from "../../components";
 import { Modal } from "../../modals";
 import { useInternalRouter, useNotifications } from "../../contexts";
 import { useAsyncData } from "../../hooks";
@@ -191,12 +191,6 @@ function MapViewer({ map, full, zoom, pan, collapsed, onCloseFull, onFullscreen,
 
   useEffect(() => { pointers.current.clear(); setViewMode("map"); }, [map?.id]);
 
-  const pdfViewerUrl = hasPdf
-    ? (map.pdfUrl.startsWith("http")
-        ? `https://docs.google.com/viewer?url=${encodeURIComponent(map.pdfUrl)}&embedded=true`
-        : map.pdfUrl)
-    : "";
-
   const startGesture = useCallback((e) => {
     e.currentTarget.setPointerCapture?.(e.pointerId);
     pointers.current.set(e.pointerId, e);
@@ -290,14 +284,8 @@ function MapViewer({ map, full, zoom, pan, collapsed, onCloseFull, onFullscreen,
 
       {/* Canvas */}
       {viewMode === "pdf" ? (
-        <div className="mindmap-canvas mindmap-canvas-html">
-          <iframe
-            src={pdfViewerUrl}
-            title={`PDF: ${map.titulo}`}
-            className="block w-full border-0"
-            style={{ height: "min(74svh, 52rem)", minHeight: "34rem" }}
-            allow="fullscreen"
-          />
+        <div className="mindmap-canvas mindmap-canvas-html" style={{ height: "min(74svh, 52rem)", minHeight: "34rem" }}>
+          <PdfFrameViewer key={map.pdfUrl} url={map.pdfUrl} title={`PDF: ${map.titulo}`} />
         </div>
       ) : (
         <div
@@ -689,19 +677,11 @@ export default function MapasMentaisPage() {
               )}
             </div>
             {mobileView === "viewer-pdf" && activeMap.pdfUrl ? (
-              <div className="overflow-hidden rounded-2xl">
-                <iframe
-                  src={activeMap.pdfUrl.startsWith("http")
-                    ? `https://docs.google.com/viewer?url=${encodeURIComponent(activeMap.pdfUrl)}&embedded=true`
-                    : activeMap.pdfUrl}
-                  title={`PDF: ${activeMap.titulo}`}
-                  className="block w-full border-0"
-                  style={{ height: "75svh", minHeight: "28rem" }}
-                  allow="fullscreen"
-                />
+              <div className="overflow-hidden rounded-2xl" style={{ height: "62svh", minHeight: "24rem" }}>
+                <PdfFrameViewer key={activeMap.pdfUrl} url={activeMap.pdfUrl} title={`PDF: ${activeMap.titulo}`} />
               </div>
             ) : activeMap.htmlUrl ? (
-              <div className="overflow-hidden rounded-2xl" style={{ width: "100%", height: "82svh", minHeight: "28rem" }}>
+              <div className="overflow-hidden rounded-2xl" style={{ width: "100%", height: "64svh", minHeight: "24rem" }}>
                 <HtmlFrameViewer url={activeMap.htmlUrl} title={activeMap.materia || activeMap.titulo} />
               </div>
             ) : (
