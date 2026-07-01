@@ -75,6 +75,9 @@ function dist(a, b) {
 
 /* ─── Bottom sheet ─── */
 function Sheet({ open, title, onClose, children, footer }) {
+  const [mounted, setMounted] = useState(open);
+  if (open && !mounted) setMounted(true);
+
   useEffect(() => {
     if (!open) return undefined;
     const prev = document.body.style.overflow;
@@ -82,37 +85,38 @@ function Sheet({ open, title, onClose, children, footer }) {
     return () => { document.body.style.overflow = prev; };
   }, [open]);
 
+  if (!mounted) return null;
+
   return (
-    <AnimatePresence>
-      {open && (
-        <motion.div
-          className="fixed inset-0 z-[85] flex items-end"
-          initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-          style={{ background: "rgba(0,0,0,0.45)" }}
-          onClick={onClose}
-        >
-          <motion.div
-            className="relative w-full rounded-t-3xl bg-white px-4 pb-[calc(1.25rem+env(safe-area-inset-bottom))] pt-3 shadow-2xl"
-            style={{ maxHeight: "90svh", overflowY: "auto" }}
-            initial={{ y: "100%" }} animate={{ y: 0 }} exit={{ y: "100%" }}
-            transition={{ type: "spring", damping: 30, stiffness: 340 }}
-            drag="y" dragConstraints={{ top: 0, bottom: 0 }}
-            onDragEnd={(_, info) => { if (info.offset.y > 72) onClose(); }}
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-slate-200" />
-            <div className="mb-4 flex items-center justify-between gap-3">
-              <h2 className="text-base font-black text-slate-900">{title}</h2>
-              <button aria-label="Fechar" className="rounded-xl p-1.5 text-slate-400 hover:bg-slate-100" onClick={onClose} type="button">
-                <X size={17} />
-              </button>
-            </div>
-            {children}
-            {footer && <div className="mt-4 flex gap-2">{footer}</div>}
-          </motion.div>
-        </motion.div>
-      )}
-    </AnimatePresence>
+    <motion.div
+      className="fixed inset-0 z-[85] flex items-end"
+      style={{ background: "rgba(0,0,0,0.45)", pointerEvents: open ? "auto" : "none", overscrollBehavior: "contain" }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: open ? 1 : 0 }}
+      onAnimationComplete={() => { if (!open) setMounted(false); }}
+      onClick={onClose}
+    >
+      <motion.div
+        className="relative w-full rounded-t-3xl bg-white px-4 pb-[calc(1.25rem+env(safe-area-inset-bottom))] pt-3 shadow-2xl"
+        style={{ maxHeight: "90svh", overflowY: "auto" }}
+        initial={{ y: "100%" }}
+        animate={{ y: open ? 0 : "100%" }}
+        transition={{ type: "spring", damping: 30, stiffness: 340 }}
+        drag="y" dragConstraints={{ top: 0, bottom: 0 }}
+        onDragEnd={(_, info) => { if (info.offset.y > 72) onClose(); }}
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-slate-200" />
+        <div className="mb-4 flex items-center justify-between gap-3">
+          <h2 className="text-base font-black text-slate-900">{title}</h2>
+          <button aria-label="Fechar" className="rounded-xl p-1.5 text-slate-400 hover:bg-slate-100" onClick={onClose} type="button">
+            <X size={17} />
+          </button>
+        </div>
+        {children}
+        {footer && <div className="mt-4 flex gap-2">{footer}</div>}
+      </motion.div>
+    </motion.div>
   );
 }
 
