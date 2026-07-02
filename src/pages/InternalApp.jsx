@@ -49,9 +49,9 @@ function isOabFocus(user) {
   return objective === "oab" || target.includes("oab");
 }
 
-function hasActiveAccess(user) {
+function hasActiveAccess(user, isAdmin = false) {
   if (!isSupabaseConfigured) return true;
-  if (user?.role === "admin") return true;
+  if (isAdmin) return true;
   if (!user) return false;
   if (!user.planoAtivo) return false;
   if (user.vitalicio) return true;
@@ -158,7 +158,7 @@ function isNewRegistration() {
 
 function InternalRoutes() {
   const { route, direction, navigate } = useInternalRouter();
-  const { isLoading, user } = useUser();
+  const { isAdmin, isLoading, user } = useUser();
 
   /* Escuta o evento de navegação para checkout — funciona mesmo sem AppShell (ex.: TrialExpiredGate) */
   useEffect(() => {
@@ -212,7 +212,7 @@ function InternalRoutes() {
 
   if (isLoading) return <DashboardSkeleton label="Carregando sua area de estudos" />;
 
-  if (maintenance.enabled && user?.role !== "admin" && route !== "admin") {
+  if (maintenance.enabled && !isAdmin && route !== "admin") {
     return <MaintenanceGate message={maintenance.message} />;
   }
 
@@ -229,7 +229,7 @@ function InternalRoutes() {
     );
   }
 
-  if (!hasActiveAccess(user)) {
+  if (!hasActiveAccess(user, isAdmin)) {
     return <TrialExpiredGate />;
   }
 

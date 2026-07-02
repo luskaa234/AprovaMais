@@ -232,12 +232,12 @@ async function getLocalQuestoesFromCatalog(filters = {}, limit = 120) {
   }
 }
 
-function isOabFilter(filters = {}) {
+function _isOabFilter(filters = {}) {
   return [filters.concurso, filters.banca, filters.search, filters.materia, filters.assunto]
     .some((value) => normalize(value).includes("oab") || normalize(value).includes("fgv"));
 }
 
-function isMilitarFilter(filters = {}) {
+function _isMilitarFilter(filters = {}) {
   return [filters.concurso, filters.banca, filters.search, filters.materia, filters.assunto]
     .some((value) => ["pm", "pmsp", "policia", "polícia", "militar", "bombeiro", "cbm", "vunesp", "cebraspe"].some((term) => normalize(value).includes(normalize(term))));
 }
@@ -511,18 +511,6 @@ export const questoesService = {
       if (filters.search) query = query.textSearch("enunciado", filters.search, { config: "portuguese" });
       const { data, count, error } = await query;
       if (error) throw error;
-      if ((!data || data.length === 0) && isMilitarFilter(filters)) {
-        const localMilitar = await getLocalQuestoesFromCatalog({ ...filters, area: "militar" }, to + 1);
-        const offset = (page - 1) * pageSize;
-        const stats = await this.getStats();
-        return { items: localMilitar.slice(offset, offset + pageSize), total: localMilitar.length, stats: { ...stats, militarLocal: localMilitar.length } };
-      }
-      if ((!data || data.length === 0) && (isOabFilter(filters) || count === 0)) {
-        const localOab = await getLocalQuestoesFromCatalog({ ...filters, area: "oab" }, to + 1);
-        const offset = (page - 1) * pageSize;
-        const stats = await this.getStats();
-        return { items: localOab.slice(offset, offset + pageSize), total: localOab.length, stats: { ...stats, oabLocal: localOab.length } };
-      }
       const stats = await this.getStats();
       return { items: data.map(mapQuestao), total: count || 0, stats };
     }
@@ -599,15 +587,15 @@ export const questoesService = {
 
     const { data, error } = await query;
     if (error) throw error;
-    if ((!data || data.length === 0) && isOabFilter(filters)) return this.filter(await getLocalOabQuestions(), filters);
-    if ((!data || data.length === 0) && isMilitarFilter(filters)) return this.filter(await getLocalMilitarQuestions(), filters);
     return data.map(mapQuestao);
   },
   async getQuestoes(filters = {}) {
     if (filters.aleatorio && isSupabaseConfigured) {
       const state = useQuestoesStore.getState();
       if (!state.tentativas.length && !state.caderno.length && !state.salvas.length) {
-        await this.loadUserState().catch(() => {});
+        await this.loadUserState().catch((error) => {
+          console.warn("Falha ao carregar estado das questões.", error?.message || error);
+        });
       }
     }
     const limit = Number(filters.limit || 120);
@@ -621,7 +609,8 @@ export const questoesService = {
       if (filters.dificuldade) query = query.ilike("dificuldade", `%${filters.dificuldade}%`);
       if (filters.assunto || filters.topico) query = query.ilike("topico", `%${filters.assunto || filters.topico}%`);
       if (filters.search) query = query.textSearch("enunciado", filters.search, { config: "portuguese" });
-      const { data } = await query;
+      const { data, error } = await query;
+      if (error) throw error;
       if (data?.length) candidates.push(...data.map(mapQuestao));
     } else {
       try {
@@ -642,7 +631,7 @@ export const questoesService = {
       }
     }
 
-    if (!candidates.length) candidates.push(...(await getLocalOabQuestions()), ...(await getLocalMilitarQuestions()));
+    if (!isSupabaseConfigured && !candidates.length) candidates.push(...(await getLocalOabQuestions()), ...(await getLocalMilitarQuestions()));
     candidates.push(...useQuestoesStore.getState().questoes.map(mapQuestao));
     const rows = this.filter(uniqueById(candidates), filters).filter((questao) => {
       if (filters.apenasOficiais) return questao.official;
@@ -652,6 +641,10 @@ export const questoesService = {
     return ordered.slice(0, limit);
   },
   async getMateriasPorArea(area = "geral") {
+    if (isSupabaseConfigured) {
+      const questoes = await this.getQuestoes({ area, limit: 5000 });
+      return [...new Set(questoes.map((questao) => questao.materia).filter(Boolean))].sort((a, b) => a.localeCompare(b, "pt-BR"));
+    }
     try {
       const catalog = await getLocalCatalog();
       if (hasCatalogChunks(catalog)) return Object.keys(getCatalogAreaStats(catalog, area).materias || {}).sort((a, b) => a.localeCompare(b, "pt-BR"));
@@ -665,23 +658,7 @@ export const questoesService = {
     if (isSupabaseConfigured) {
       const { count } = await supabase.from("questoes").select("id", { count: "exact", head: true });
       if (count) return { totalDisponivel: count, amostraLocal: false };
-      try {
-        const catalog = await getLocalCatalog();
-        if (hasCatalogChunks(catalog)) {
-          return {
-            totalDisponivel: catalog.totalDisponivel || catalog.totalExportado || 0,
-            totalExportado: catalog.totalExportado || 0,
-            amostraLocal: true,
-            oabLocal: catalog.areas?.oab?.total || 0,
-            militarLocal: catalog.areas?.militar?.total || 0,
-          };
-        }
-      } catch {
-        // Fallback legado abaixo.
-      }
-      const localOab = await getLocalOabQuestions();
-      const localMilitar = await getLocalMilitarQuestions();
-      return { totalDisponivel: localOab.length + localMilitar.length || 0, amostraLocal: localOab.length > 0 || localMilitar.length > 0, oabLocal: localOab.length, militarLocal: localMilitar.length };
+      return { totalDisponivel: 0, amostraLocal: false };
     }
     try {
       if (!localStatsCache) {
@@ -695,6 +672,10 @@ export const questoesService = {
     }
   },
   async getFilterOptions(filters = {}) {
+    if (isSupabaseConfigured) {
+      const rows = await this.getQuestoes({ area: filters.area || "geral", limit: 10000 });
+      return buildFilterOptions(rows, filters);
+    }
     try {
       const catalog = await getLocalCatalog();
       if (hasCatalogChunks(catalog)) {
@@ -722,11 +703,7 @@ export const questoesService = {
   async getById(id) {
     if (isSupabaseConfigured) {
       const { data, error } = await supabase.from("questoes").select("*").eq("id", id).single();
-      if (error) {
-        const local = [...(await getLocalOabQuestions()), ...(await getLocalMilitarQuestions())].find((questao) => questao.id === id);
-        if (local) return local;
-        throw error;
-      }
+      if (error) throw error;
       return mapQuestao(data);
     }
     return findCachedQuestaoById(id) || [...(await getLocalOabQuestions()), ...(await getLocalMilitarQuestions())].find((questao) => questao.id === id) || useQuestoesStore.getState().questoes.find((questao) => questao.id === id);
@@ -751,13 +728,13 @@ export const questoesService = {
         });
       }
     }
-    if (found.size < wanted.size) {
+    if (!isSupabaseConfigured && found.size < wanted.size) {
       const official = [...(await getLocalOabQuestions()), ...(await getLocalMilitarQuestions())];
       official.forEach((questao) => {
         if (wanted.has(questao.id)) found.set(questao.id, questao);
       });
     }
-    if (found.size < wanted.size) {
+    if (!isSupabaseConfigured && found.size < wanted.size) {
       try {
         const catalog = await getLocalCatalog();
         for (const chunk of catalog.chunks.slice(0, FILTER_CHUNK_LIMIT)) {
@@ -792,13 +769,13 @@ export const questoesService = {
           const acertou = isCorrectAnswer(questao, alternativaId);
           await insertTentativaSupabase({ userId, questao, alternativaId, acertou, tempo });
           if (!acertou) await upsertCadernoSupabase({ userId, questaoId: id });
-          await supabase.rpc("incrementar_pontos", { uid: userId, pts: acertou ? 10 : 2 });
+          await supabase.rpc("incrementar_pontos", { pts: acertou ? 10 : 2 });
         }
       } catch (error) {
-        console.warn("Falha ao sincronizar tentativa no Supabase.", error);
+        return { ...result, syncPending: true, syncError: error?.message || "Falha ao sincronizar tentativa." };
       }
     }
-    return result;
+    return { ...result, synced: true };
   },
   async salvar(id) {
     const localResult = useQuestoesStore.getState().salvar(id);
@@ -807,10 +784,10 @@ export const questoesService = {
         const userId = await getCurrentUserId();
         if (userId) await syncSalvaSupabase({ userId, questaoId: id, saved: localResult.saved });
       } catch (error) {
-        console.warn("Falha ao sincronizar questao salva no Supabase.", error);
+        return { success: true, saved: localResult.saved, syncPending: true, syncError: error?.message || "Falha ao sincronizar questão salva." };
       }
     }
-    return { success: true, saved: localResult.saved };
+    return { success: true, saved: localResult.saved, synced: true };
   },
   async adicionarAoCaderno(id) {
     const localResult = useQuestoesStore.getState().addCaderno(id);
@@ -819,10 +796,10 @@ export const questoesService = {
         const userId = await getCurrentUserId();
         if (userId) await upsertCadernoSupabase({ userId, questaoId: id });
       } catch (error) {
-        console.warn("Falha ao sincronizar caderno de erros no Supabase.", error);
+        return { success: true, added: localResult.added, syncPending: true, syncError: error?.message || "Falha ao sincronizar caderno de erros." };
       }
     }
-    return { success: true, added: localResult.added };
+    return { success: true, added: localResult.added, synced: true };
   },
   async removerDoCaderno(id) {
     const localResult = useQuestoesStore.getState().removerCaderno(id);
@@ -831,10 +808,10 @@ export const questoesService = {
         const userId = await getCurrentUserId();
         if (userId) await removeCadernoSupabase({ userId, questaoId: id });
       } catch (error) {
-        console.warn("Falha ao remover questao do caderno no Supabase.", error);
+        return { success: true, removed: localResult.removed, syncPending: true, syncError: error?.message || "Falha ao sincronizar caderno de erros." };
       }
     }
-    return { success: true, removed: localResult.removed };
+    return { success: true, removed: localResult.removed, synced: true };
   },
   async loadUserState() {
     if (!isSupabaseConfigured) return null;
@@ -851,8 +828,9 @@ export const questoesService = {
       const caderno = (cadernoRes.data || []).map((item) => item.questao_id).filter(Boolean);
       useQuestoesStore.setState({ tentativas, salvas, caderno });
       return { tentativas, salvas, caderno };
-    } catch {
-      return null;
+    } catch (error) {
+      console.warn("Falha ao carregar estado das questões no Supabase.", error?.message || error);
+      return { syncPending: true, syncError: error?.message || "Falha ao carregar estado das questões." };
     }
   },
   async reportar() {

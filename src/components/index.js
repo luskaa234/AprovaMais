@@ -2,3 +2,4 @@ export { Button, Badge, Card, Input, Select, Textarea, Avatar, ProgressBar, Prog
 export { BrandSplash, DashboardGate, DashboardSkeleton } from "./AprovaLoading";
 export { default as TourButton } from "./TourButton";
 export { HtmlFrameViewer } from "./HtmlFrameViewer";
+export { PdfFrameViewer } from "./PdfFrameViewer";

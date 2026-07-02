@@ -233,8 +233,7 @@ function TAFPlan() {
   useEffect(() => {
     let alive = true;
     async function load() {
-      const groups = await Promise.all(TAF_TESTS.map(async (test) => (await tafService.buscarExercicios(test.tipo)).slice(0, 1)));
-      const next = groups.flat();
+      const next = await tafService.buscarExercicios();
       if (alive) {
         setExercicios(next);
         setExerciciosHoje(next);
@@ -244,6 +243,9 @@ function TAFPlan() {
     load();
     return () => { alive = false; };
   }, [setExerciciosHoje]);
+
+  const exerciciosProvas = exercicios.filter((item) => !item.complementar);
+  const exerciciosComplementares = exercicios.filter((item) => item.complementar);
 
   return (
     <div className="taf-plan-layout grid gap-4 xl:grid-cols-[1.25fr_0.75fr]">
@@ -291,10 +293,17 @@ function TAFPlan() {
         {loading ? (
           <div className="grid gap-3 sm:grid-cols-2">{TAF_TESTS.map((item) => <div key={item.tipo} className="h-80 w-full animate-pulse rounded-lg bg-gray-800" />)}</div>
         ) : (
-          <div className="grid gap-3 sm:grid-cols-2">{exercicios.map((exercicio, index) => {
-            const test = TAF_TESTS.find((item) => item.tipo === exercicio.tafTipo);
-            return <ExercicioCard key={exercicio.id} exercicio={exercicio} index={index} onRegistrar={(tipo) => tafService.registrarTreino(tipo, latest[tipo] || 1, test?.unidade || "repeticoes")} />;
-          })}</div>
+          <>
+            <h3 className="mb-3 font-bold text-white">Provas do TAF</h3>
+            <div className="mb-6 grid gap-3 sm:grid-cols-2">{exerciciosProvas.map((exercicio, index) => {
+              const test = TAF_TESTS.find((item) => item.tipo === exercicio.tafTipo);
+              return <ExercicioCard key={exercicio.id} exercicio={exercicio} index={index} onRegistrar={(tipo) => tafService.registrarTreino(tipo, latest[tipo] || 1, test?.unidade || "repeticoes")} />;
+            })}</div>
+            <h3 className="mb-3 font-bold text-white">Preparo complementar</h3>
+            <div className="grid gap-3 sm:grid-cols-2">{exerciciosComplementares.map((exercicio, index) => (
+              <ExercicioCard key={exercicio.id} exercicio={exercicio} index={index} onRegistrar={(tipo) => tafService.registrarTreino(tipo, 1, "repeticoes")} />
+            ))}</div>
+          </>
         )}
       </Card>
       <div className="taf-secondary-panel grid gap-4">

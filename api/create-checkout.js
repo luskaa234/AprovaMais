@@ -43,6 +43,10 @@ export default async function handler(req, res) {
   if (!accessToken) {
     return send(res, 503, { error: "MP_ACCESS_TOKEN nao configurado no ambiente da Vercel." });
   }
+  const webhookUrl = process.env.MP_WEBHOOK_URL;
+  if (!webhookUrl || !/^https:\/\//i.test(webhookUrl)) {
+    return send(res, 503, { error: "MP_WEBHOOK_URL seguro (https) nao configurado. Checkout bloqueado para evitar webhook inseguro." });
+  }
 
   const body = typeof req.body === "string" ? JSON.parse(req.body || "{}") : req.body || {};
   const selected = plans[body.plan] || plans.essencial;
@@ -78,7 +82,7 @@ export default async function handler(req, res) {
     },
     auto_return: "approved",
     statement_descriptor: "VEMAPROVAR",
-    notification_url: process.env.MP_WEBHOOK_URL || `${baseUrl}/api/payment-webhook`,
+    notification_url: webhookUrl,
   };
 
   const response = await fetch("https://api.mercadopago.com/checkout/preferences", {

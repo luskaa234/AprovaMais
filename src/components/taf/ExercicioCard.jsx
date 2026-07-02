@@ -1,6 +1,6 @@
 ﻿import { useState } from "react";
 import { motion } from "framer-motion";
-import { CheckCircle2, Dumbbell, Plus, Target } from "lucide-react";
+import { Activity, CheckCircle2, Dumbbell, HeartPulse, PersonStanding, Plus, Target } from "lucide-react";
 
 const equipmentNames = {
   "body weight": "peso corporal",
@@ -30,18 +30,14 @@ const muscleNames = {
   biceps: "bíceps",
 };
 
-const exerciseNames = {
-  "short stride run": "Corrida curta em ritmo controlado",
-  "raise single arm push-up": "Flexão com apoio alternado",
-  "push-up": "Flexão de braço",
-  "sit-up": "Abdominal",
-  "crunch": "Abdominal supra",
-  "pull-up": "Barra fixa",
-  "pull up (neutral grip)": "Barra fixa com pegada neutra",
-  "chin-up": "Barra fixa supinada",
-  "janda sit-up": "Abdominal Janda",
-  "mountain climber": "Escalador",
-};
+const legMuscles = new Set(["quadriceps", "hamstrings", "calves", "hip flexors", "lower back", "back"]);
+
+function MuscleIcon({ target = "", ...props }) {
+  const key = String(target).toLowerCase();
+  if (key === "cardiovascular" || key === "cardiovascular system") return <HeartPulse {...props} />;
+  if (legMuscles.has(key)) return <PersonStanding {...props} />;
+  return <Activity {...props} />;
+}
 
 const instructionTranslations = [
   [/find an open space or a treadmill to perform the exercise/i, "Use um espaço livre ou esteira para executar o exercício."],
@@ -62,21 +58,12 @@ const instructionTranslations = [
   [/continue pulling until your chin is above the bar/i, "Continue a subida até o queixo ultrapassar a barra."],
 ];
 
-function prettify(value = "") {
-  return String(value).replace(/\b\w/g, (char) => char.toUpperCase());
-}
-
 function translateEquipment(value = "") {
   return equipmentNames[String(value).toLowerCase()] || value || "peso corporal";
 }
 
 function translateMuscle(value = "") {
   return muscleNames[String(value).toLowerCase()] || value;
-}
-
-function translateExerciseName(value = "") {
-  const key = String(value).toLowerCase();
-  return exerciseNames[key] || prettify(value);
 }
 
 function translateInstruction(step = "") {
@@ -107,7 +94,10 @@ export function ExercicioCard({ exercicio, tipo, index = 0, onRegistrar }) {
         {!imgError && exercicio.gifUrl ? (
           <img src={exercicio.gifUrl} alt={exercicio.name} className="h-full w-full object-contain" onError={() => setImgError(true)} />
         ) : (
-          <span className="text-sm text-gray-400">Exercício TAF</span>
+          <div className="flex flex-col items-center gap-2 px-4 text-center">
+            <MuscleIcon target={exercicio.target} size={40} strokeWidth={1.5} className="text-gray-500" />
+            <span className="text-xs font-semibold text-gray-400">{exercicio.name}</span>
+          </div>
         )}
         <span className="absolute right-2 top-2 rounded-full bg-royal/10 px-2 py-1 text-xs font-semibold text-navy ring-1 ring-royal/30">
           {equipment}
@@ -119,7 +109,7 @@ export function ExercicioCard({ exercicio, tipo, index = 0, onRegistrar }) {
           <span className="inline-flex items-center gap-1 rounded-full bg-royal/10 px-2 py-1 text-xs font-semibold text-navy ring-1 ring-royal/30"><Target size={13} />{exercicio.tafLabel || "TAF"}</span>
           <span className="inline-flex items-center gap-1 rounded-full bg-slate-100 px-2 py-1 text-xs font-semibold text-slate-700 ring-1 ring-slate-200"><Dumbbell size={13} />{equipment}</span>
         </div>
-        <h3 className="font-bold text-white">{translateExerciseName(exercicio.name)}</h3>
+        <h3 className="font-bold text-white">{exercicio.name}</h3>
         <p className="mt-1 text-xs text-royal">{exercicio.tafGoal}</p>
         <p className="mt-2 text-xs text-gray-400">Músculos trabalhados: {muscles}</p>
         <ol className="mt-3 list-decimal space-y-1 pl-4 text-xs leading-relaxed text-gray-300">

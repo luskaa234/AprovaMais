@@ -1,19 +1,20 @@
 import { mockBiblioteca } from "../data";
 import { isSupabaseConfigured, supabase } from "../lib/supabase";
 import { normalize } from "../utils";
+import { getContentPath, getSignedContentUrl } from "./contentAccessService";
 
 let materialCache = null;
 
 async function getMaterialManifest() {
   if (materialCache) return materialCache;
+  if (isSupabaseConfigured) {
+    const { data, error } = await supabase.from("materiais").select("*");
+    if (error) throw new Error(error.message || "Acesso aos materiais recusado.");
+    materialCache = (data || []).map(normalizeMaterialTitle);
+    return materialCache;
+  }
+
   try {
-    if (isSupabaseConfigured) {
-      const { data, error } = await supabase.from("materiais").select("*");
-      if (!error && data?.length) {
-        materialCache = data.map(normalizeMaterialTitle);
-        return materialCache;
-      }
-    }
     const response = await fetch("/materiais/manifest.json");
     if (!response.ok) throw new Error("Manifest não encontrado.");
     const base = (await response.json()).map(normalizeMaterialTitle);
@@ -75,10 +76,15 @@ function sortMaterials(items) {
 
 export const bibliotecaService = {
   async getAll(filters = {}) {
-    return sortMaterials(this.filter(await getMaterialManifest(), filters));
+    const apostilas = (await getMaterialManifest()).filter((item) => item.tipo === "Apostila");
+    return sortMaterials(this.filter(apostilas, filters));
   },
   async favoritar() {
-    return { success: true };
+    throw new Error("Favoritos de materiais ainda não estão sincronizados no backend.");
+  },
+  async getSecureUrl(material) {
+    if (!isSupabaseConfigured) return material.url;
+    return getSignedContentUrl(getContentPath(material));
   },
   filter(materiais, filters = {}) {
     return sortMaterials(materiais.filter((item) =>

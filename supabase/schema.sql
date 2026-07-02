@@ -265,15 +265,6 @@ create trigger on_auth_user_created
   after insert on auth.users
   for each row execute procedure public.handle_new_user();
 
-create or replace function public.incrementar_pontos(uid uuid, pts integer)
-returns void language plpgsql security definer as $$
-begin
-  insert into public.ranking (user_id, pontos) values (uid, pts)
-  on conflict (user_id) do update set pontos = ranking.pontos + pts, updated_at = now();
-  update public.profiles set pontos = coalesce(pontos, 0) + pts where id = uid;
-end;
-$$;
-
 insert into public.leis (id, nome, nome_curto, categoria, url_planalto) values
   ('cf88','Constituicao Federal de 1988','CF/88','constitucional','https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm'),
   ('cp','Codigo Penal','CP','penal','https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm'),

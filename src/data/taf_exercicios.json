@@ -1,0 +1,428 @@
+{
+  "_meta": {
+    "pacote": "TAF Militar — exercícios (padrão ExerciseDB)",
+    "versao": "1.0",
+    "esquema": "Compatível com ExerciseDB (bodyPart, equipment, target, secondaryMuscles, instructions, description, difficulty, category, taxonomy) + bloco 'taf' com contexto militar.",
+    "gifs": "Os GIFs NÃO vêm do CDN externo (que saiu do ar). Baixe o GIF de cada exercício pelo campo 'source_exercisedb' e hospede no seu projeto/bucket no caminho indicado em 'gif'.",
+    "ressalva_edital": "Contagem, tempo, amplitude e tabelas de pontuação VARIAM por edital, sexo e idade. Este material é referência de execução; confira sempre a norma oficial do concurso antes de publicar tabelas de nota."
+  },
+  "exercicios": [
+    {
+      "id": "taf-001",
+      "name": "Flexão de braço (apoio de frente sobre o solo)",
+      "source_exercisedb": "push-up",
+      "gif": "/taf/gifs/taf-001.gif",
+      "bodyPart": "peito",
+      "equipment": "peso corporal",
+      "target": "peitoral",
+      "secondaryMuscles": [
+        "tríceps",
+        "deltoides anterior",
+        "core"
+      ],
+      "instructions": [
+        "Apoie as mãos no solo, um pouco mais abertas que a largura dos ombros, dedos apontados à frente.",
+        "Mantenha o corpo reto da cabeça aos calcanhares (prancha), com o core contraído.",
+        "Desça flexionando os cotovelos até o peito quase tocar o solo, cotovelos próximos ao tronco.",
+        "Empurre o solo estendendo os cotovelos e retorne à posição inicial sem 'quebrar' o quadril.",
+        "Cada repetição válida vai da extensão total à flexão completa, sem apoiar o abdômen no chão."
+      ],
+      "description": "Movimento-base do TAF militar. Avalia a resistência de força de membros superiores e a estabilidade do tronco. A repetição só conta se a amplitude for completa e o corpo permanecer alinhado.",
+      "difficulty": "iniciante",
+      "category": "resistência de força",
+      "taxonomy": {
+        "movementFamily": "flexão de braço",
+        "movementPattern": "empurrar horizontal",
+        "mechanic": "composto",
+        "forceType": "empurrar",
+        "planeOfMotion": "sagital",
+        "laterality": "bilateral",
+        "bodyPosition": "prono",
+        "equipmentCategory": "peso_corporal",
+        "primaryRegion": "membros_superiores",
+        "isCompound": true,
+        "isWeighted": false
+      },
+      "taf": {
+        "prova": "Flexão de braço",
+        "contagem": "repetições em tempo determinado (varia por edital, comum 1 a 2 min)",
+        "erros_comuns": [
+          "quadril elevado ou 'caído'",
+          "amplitude parcial",
+          "apoiar o abdômen no solo"
+        ],
+        "concursos": [
+          "ESA",
+          "EsPCEx",
+          "EEAR",
+          "PM/PC",
+          "CBM"
+        ]
+      }
+    },
+    {
+      "id": "taf-002",
+      "name": "Barra fixa (flexão na barra — pegada pronada)",
+      "source_exercisedb": "pull up (neutral grip)",
+      "gif": "/taf/gifs/taf-002.gif",
+      "bodyPart": "costas",
+      "equipment": "peso corporal",
+      "target": "grande dorsal",
+      "secondaryMuscles": [
+        "bíceps",
+        "antebraço",
+        "trapézio inferior"
+      ],
+      "instructions": [
+        "Segure a barra com pegada pronada (palmas para frente), mãos na largura dos ombros.",
+        "Parta da suspensão com os braços totalmente estendidos (posição morta).",
+        "Puxe o corpo para cima até o queixo ultrapassar a linha da barra, sem impulso de pernas.",
+        "Desça de forma controlada até a extensão total dos braços.",
+        "A repetição só é válida com extensão completa embaixo e queixo acima da barra em cima."
+      ],
+      "description": "Exercício clássico do TAF masculino. Mede a força de tração dos membros superiores. Impulso (balanço/'quipe') costuma invalidar a repetição conforme o edital.",
+      "difficulty": "avançado",
+      "category": "resistência de força",
+      "taxonomy": {
+        "movementFamily": "barra fixa",
+        "movementPattern": "puxar vertical",
+        "mechanic": "composto",
+        "forceType": "puxar",
+        "planeOfMotion": "frontal",
+        "laterality": "bilateral",
+        "bodyPosition": "suspenso",
+        "equipmentCategory": "peso_corporal",
+        "primaryRegion": "membros_superiores",
+        "isCompound": true,
+        "isWeighted": false
+      },
+      "taf": {
+        "prova": "Barra fixa",
+        "contagem": "número máximo de repetições (sem tempo, até a falha na maioria dos editais)",
+        "erros_comuns": [
+          "usar impulso de pernas (quipe)",
+          "não estender os braços embaixo",
+          "queixo não ultrapassa a barra"
+        ],
+        "concursos": [
+          "ESA",
+          "EsPCEx",
+          "EEAR",
+          "PM/PC",
+          "CBM"
+        ]
+      }
+    },
+    {
+      "id": "taf-003",
+      "name": "Barra fixa isométrica (sustentação na barra)",
+      "source_exercisedb": "chin-up",
+      "gif": "/taf/gifs/taf-003.gif",
+      "bodyPart": "costas",
+      "equipment": "peso corporal",
+      "target": "grande dorsal",
+      "secondaryMuscles": [
+        "bíceps",
+        "antebraço",
+        "core"
+      ],
+      "instructions": [
+        "Segure a barra com pegada supinada (palmas para você) ou conforme o edital.",
+        "Suba até o queixo ficar acima da barra e MANTENHA a posição parado.",
+        "Não descanse o queixo na barra; mantenha o queixo livre, acima da linha.",
+        "O tempo é cronometrado enquanto o queixo permanecer acima da barra.",
+        "O teste encerra quando o queixo desce abaixo da linha da barra."
+      ],
+      "description": "Versão isométrica usada em vários TAF femininos (e alguns masculinos). Avalia a resistência de força em sustentação estática. Pontua-se pelo TEMPO de permanência, não por repetições.",
+      "difficulty": "intermediário",
+      "category": "isometria",
+      "taxonomy": {
+        "movementFamily": "barra fixa",
+        "movementPattern": "sustentação isométrica",
+        "mechanic": "composto",
+        "forceType": "puxar",
+        "planeOfMotion": "frontal",
+        "laterality": "bilateral",
+        "bodyPosition": "suspenso",
+        "equipmentCategory": "peso_corporal",
+        "primaryRegion": "membros_superiores",
+        "isCompound": true,
+        "isWeighted": false
+      },
+      "taf": {
+        "prova": "Barra fixa isométrica",
+        "contagem": "tempo de permanência (segundos)",
+        "erros_comuns": [
+          "apoiar o queixo na barra",
+          "queixo abaixo da linha",
+          "balançar o corpo"
+        ],
+        "concursos": [
+          "ESA (feminino)",
+          "EEAR (feminino)",
+          "PM/PC",
+          "CBM"
+        ]
+      }
+    },
+    {
+      "id": "taf-004",
+      "name": "Abdominal (tipo remador / supra em 1 minuto)",
+      "source_exercisedb": "3/4 sit-up",
+      "gif": "/taf/gifs/taf-004.gif",
+      "bodyPart": "abdômen",
+      "equipment": "peso corporal",
+      "target": "reto abdominal",
+      "secondaryMuscles": [
+        "oblíquos",
+        "flexores do quadril"
+      ],
+      "instructions": [
+        "Deite em decúbito dorsal, joelhos flexionados e pés apoiados no solo.",
+        "Posicione os braços conforme o edital (cruzados no peito ou mãos na nuca).",
+        "Eleve o tronco até tocar os cotovelos nos joelhos (ou conforme protocolo).",
+        "Retorne até as escápulas tocarem o solo — isso completa 1 repetição.",
+        "Execute o máximo de repetições válidas no tempo determinado (geralmente 1 minuto)."
+      ],
+      "description": "Mede a resistência da musculatura abdominal. O protocolo (remador, tipo 1 min, com ou sem apoio dos pés) varia por edital — confira sempre a norma do concurso.",
+      "difficulty": "iniciante",
+      "category": "resistência de força",
+      "taxonomy": {
+        "movementFamily": "abdominal",
+        "movementPattern": "flexão de tronco",
+        "mechanic": "composto",
+        "forceType": "puxar",
+        "planeOfMotion": "sagital",
+        "laterality": "bilateral",
+        "bodyPosition": "supino",
+        "equipmentCategory": "peso_corporal",
+        "primaryRegion": "core",
+        "isCompound": false,
+        "isWeighted": false
+      },
+      "taf": {
+        "prova": "Abdominal",
+        "contagem": "repetições em 1 minuto (padrão comum)",
+        "erros_comuns": [
+          "não tocar as escápulas no solo no retorno",
+          "amplitude parcial",
+          "puxar o pescoço com as mãos"
+        ],
+        "concursos": [
+          "ESA",
+          "EsPCEx",
+          "EEAR",
+          "PM/PC",
+          "CBM"
+        ]
+      }
+    },
+    {
+      "id": "taf-005",
+      "name": "Corrida (teste de 12 minutos — Cooper)",
+      "source_exercisedb": "run (on treadmill)",
+      "gif": "/taf/gifs/taf-005.gif",
+      "bodyPart": "cardio",
+      "equipment": "peso corporal",
+      "target": "sistema cardiovascular",
+      "secondaryMuscles": [
+        "quadríceps",
+        "posteriores de coxa",
+        "panturrilhas",
+        "glúteos"
+      ],
+      "instructions": [
+        "Aqueça com caminhada leve e mobilidade antes de iniciar.",
+        "No teste de Cooper, corra a MAIOR distância possível em 12 minutos.",
+        "Mantenha um ritmo constante e sustentável; evite disparar no início.",
+        "É permitido alternar corrida e caminhada, mas o objetivo é maximizar a distância.",
+        "A nota vem da distância total percorrida (metros), conforme a tabela do edital por sexo e idade."
+      ],
+      "description": "Teste aeróbio mais cobrado no TAF. Avalia a capacidade cardiorrespiratória. Alguns editais usam distância fixa (2400 m, 3000 m) em vez dos 12 minutos — verifique o protocolo.",
+      "difficulty": "intermediário",
+      "category": "aeróbio",
+      "taxonomy": {
+        "movementFamily": "corrida",
+        "movementPattern": "locomoção",
+        "mechanic": "composto",
+        "forceType": "empurrar",
+        "planeOfMotion": "sagital",
+        "laterality": "bilateral",
+        "bodyPosition": "em pé",
+        "equipmentCategory": "peso_corporal",
+        "primaryRegion": "corpo_inteiro",
+        "isCompound": true,
+        "isWeighted": false
+      },
+      "taf": {
+        "prova": "Corrida",
+        "contagem": "distância em 12 min (Cooper) OU tempo em distância fixa",
+        "erros_comuns": [
+          "ritmo inicial rápido demais",
+          "não aquecer",
+          "hidratação inadequada"
+        ],
+        "concursos": [
+          "ESA",
+          "EsPCEx",
+          "EEAR",
+          "PM/PC",
+          "CBM"
+        ]
+      }
+    },
+    {
+      "id": "taf-006",
+      "name": "Prancha isométrica (core)",
+      "source_exercisedb": "front plank",
+      "gif": "/taf/gifs/taf-006.gif",
+      "bodyPart": "abdômen",
+      "equipment": "peso corporal",
+      "target": "core",
+      "secondaryMuscles": [
+        "reto abdominal",
+        "transverso",
+        "lombar",
+        "glúteos"
+      ],
+      "instructions": [
+        "Apoie os antebraços no solo, cotovelos sob os ombros, pés na largura do quadril.",
+        "Mantenha o corpo reto da cabeça aos calcanhares, sem elevar nem deixar cair o quadril.",
+        "Contraia abdômen e glúteos; olhe para o chão para manter o pescoço neutro.",
+        "Segure a posição pelo tempo determinado, respirando de forma controlada.",
+        "Encerre quando perder o alinhamento (quadril cai ou sobe demais)."
+      ],
+      "description": "Exercício de fortalecimento do core, usado no preparo e em alguns protocolos novos de TAF. Ótimo para sustentar a postura na flexão e na corrida.",
+      "difficulty": "iniciante",
+      "category": "isometria",
+      "taxonomy": {
+        "movementFamily": "prancha",
+        "movementPattern": "anti-extensão",
+        "mechanic": "composto",
+        "forceType": "estático",
+        "planeOfMotion": "sagital",
+        "laterality": "bilateral",
+        "bodyPosition": "prono",
+        "equipmentCategory": "peso_corporal",
+        "primaryRegion": "core",
+        "isCompound": false,
+        "isWeighted": false
+      },
+      "taf": {
+        "prova": "Prancha (preparo/alguns protocolos)",
+        "contagem": "tempo de permanência (segundos)",
+        "erros_comuns": [
+          "quadril elevado",
+          "quadril caído (lombar em risco)",
+          "apneia"
+        ],
+        "concursos": [
+          "Preparo geral",
+          "PM/PC (alguns)",
+          "CBM (alguns)"
+        ]
+      }
+    },
+    {
+      "id": "taf-007",
+      "name": "Flexão de braço tipo militar (mãos alinhadas ao peito)",
+      "source_exercisedb": "close-grip push-up",
+      "gif": "/taf/gifs/taf-007.gif",
+      "bodyPart": "peito",
+      "equipment": "peso corporal",
+      "target": "tríceps",
+      "secondaryMuscles": [
+        "peitoral",
+        "deltoides anterior",
+        "core"
+      ],
+      "instructions": [
+        "Apoie as mãos no solo mais próximas (pegada fechada), alinhadas ao peito.",
+        "Corpo reto em prancha, cotovelos rentes ao tronco durante todo o movimento.",
+        "Desça até o peito quase tocar o solo, mantendo os cotovelos junto ao corpo.",
+        "Empurre de volta à extensão total sem elevar o quadril.",
+        "Repetição válida = amplitude completa com cotovelos rentes."
+      ],
+      "description": "Variação de pegada fechada que enfatiza o tríceps. Alguns editais e escolas militares adotam a flexão com mãos mais próximas — confira o padrão exigido no seu concurso.",
+      "difficulty": "intermediário",
+      "category": "resistência de força",
+      "taxonomy": {
+        "movementFamily": "flexão de braço",
+        "movementPattern": "empurrar horizontal",
+        "mechanic": "composto",
+        "forceType": "empurrar",
+        "planeOfMotion": "sagital",
+        "laterality": "bilateral",
+        "bodyPosition": "prono",
+        "equipmentCategory": "peso_corporal",
+        "primaryRegion": "membros_superiores",
+        "isCompound": true,
+        "isWeighted": false
+      },
+      "taf": {
+        "prova": "Flexão de braço (variação militar)",
+        "contagem": "repetições em tempo determinado",
+        "erros_comuns": [
+          "cotovelos abertos",
+          "amplitude parcial",
+          "quadril desalinhado"
+        ],
+        "concursos": [
+          "ESA",
+          "EsPCEx",
+          "EEAR"
+        ]
+      }
+    },
+    {
+      "id": "taf-008",
+      "name": "Burpee (preparo físico geral)",
+      "source_exercisedb": "burpee",
+      "gif": "/taf/gifs/taf-008.gif",
+      "bodyPart": "corpo inteiro",
+      "equipment": "peso corporal",
+      "target": "corpo inteiro",
+      "secondaryMuscles": [
+        "peitoral",
+        "quadríceps",
+        "core",
+        "ombros"
+      ],
+      "instructions": [
+        "Em pé, agache e apoie as mãos no solo.",
+        "Jogue os pés para trás chegando à posição de prancha e faça uma flexão (opcional conforme o padrão).",
+        "Traga os pés de volta para perto das mãos.",
+        "Salte para cima estendendo o corpo, com os braços acima da cabeça.",
+        "Aterrisse com controle e repita de forma fluida."
+      ],
+      "description": "Não é prova padrão de TAF, mas é excelente no preparo — trabalha força, potência e condicionamento ao mesmo tempo, útil para quem prepara flexão + corrida.",
+      "difficulty": "intermediário",
+      "category": "condicionamento",
+      "taxonomy": {
+        "movementFamily": "burpee",
+        "movementPattern": "misto (empurrar + salto)",
+        "mechanic": "composto",
+        "forceType": "misto",
+        "planeOfMotion": "multiplanar",
+        "laterality": "bilateral",
+        "bodyPosition": "transição",
+        "equipmentCategory": "peso_corporal",
+        "primaryRegion": "corpo_inteiro",
+        "isCompound": true,
+        "isWeighted": false
+      },
+      "taf": {
+        "prova": "Preparo (não é prova oficial)",
+        "contagem": "repetições ou tempo (treino)",
+        "erros_comuns": [
+          "quadril caído na prancha",
+          "salto sem extensão completa",
+          "aterrissagem dura"
+        ],
+        "concursos": [
+          "Preparo geral"
+        ]
+      }
+    }
+  ]
+}

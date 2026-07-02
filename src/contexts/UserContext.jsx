@@ -39,7 +39,6 @@ function toProfileUpdates(updates) {
     "horas_semanais",
     "dias_disponiveis",
     "onboarding_completo",
-    "plano",
     "tour_completo",
     "avatar_url",
   ]);
@@ -133,6 +132,7 @@ export function UserProvider({ children }) {
   const updateUser = useUserStore((state) => state.updateUser);
   const [authUser, setAuthUser] = useState(null);
   const [profile, setProfile] = useState(null);
+  const [adminInfo, setAdminInfo] = useState({ isAdmin: false });
   const [localSession, setLocalSession] = useState(() => readLocalSession());
   const [isLoading, setIsLoading] = useState(isSupabaseConfigured);
 
@@ -192,6 +192,26 @@ export function UserProvider({ children }) {
       subscription.unsubscribe();
     };
   }, [ensureProfile]);
+
+  useEffect(() => {
+    if (!isSupabaseConfigured || !authUser) {
+      return undefined;
+    }
+
+    let alive = true;
+    supabase.functions.invoke("admin-me", { body: {} })
+      .then(({ data, error }) => {
+        if (!alive) return;
+        setAdminInfo({ userId: authUser.id, isAdmin: Boolean(!error && data?.isAdmin), role: data?.role, email: data?.email });
+      })
+      .catch(() => {
+        if (alive) setAdminInfo({ userId: authUser.id, isAdmin: false });
+      });
+
+    return () => {
+      alive = false;
+    };
+  }, [authUser]);
 
   const login = useCallback(async (email, password) => {
     if (!isSupabaseConfigured) {
@@ -305,7 +325,9 @@ export function UserProvider({ children }) {
       .then((data) => {
         if (alive) setProfile(data);
       })
-      .catch(() => {});
+      .catch((error) => {
+        console.warn("Falha ao sincronizar flags do perfil.", error?.message || error);
+      });
 
     return () => {
       alive = false;
@@ -388,7 +410,7 @@ export function UserProvider({ children }) {
         role: "student",
         plano: "gratuito",
         statusPlano: "trial",
-        planoAtivo: true,
+        planoAtivo: false,
         planoExpiraEm: null,
         emTeste: true,
         targetContest: "",
@@ -457,7 +479,7 @@ export function UserProvider({ children }) {
   const isAuthenticated = isSupabaseConfigured
     ? Boolean(authUser || localSession?.registrationPending)
     : Boolean(localSession && !localUser?.loggedOut);
-  const isAdmin = appUser?.role === "admin" && appUser?.email?.toLowerCase() === "lucasmeireles591@gmail.com";
+  const isAdmin = Boolean(authUser && adminInfo.userId === authUser.id && adminInfo.isAdmin);
   const value = useMemo(() => ({ user: appUser, isAdmin, isAuthenticated, isLoading, login, loginWithGoogle, register, logout, updateProfile, refreshProfile }), [appUser, isAdmin, isAuthenticated, isLoading, login, loginWithGoogle, logout, refreshProfile, register, updateProfile]);
   return <UserContext.Provider value={value}>{children}</UserContext.Provider>;
 }

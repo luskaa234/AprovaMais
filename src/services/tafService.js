@@ -1,68 +1,38 @@
 import { getCurrentUserId, isSupabaseConfigured, supabase } from "../lib/supabase";
 import { useTafStore } from "../stores";
+import tafExerciciosData from "../data/taf_exercicios.json";
 
-const EXERCISE_BASE = "https://oss.exercisedb.dev/api/v1";
-
-const TAF_EXERCISES = {
-  corrida: {
-    bodyPart: "cardio",
-    label: "Corrida 12 min",
-    goal: "ganhar ritmo, resistência e controle respiratório",
-    keywords: ["run", "running", "jumping jack", "high knee", "mountain climber", "burpee", "skater"],
-    avoid: ["dumbbell", "barbell", "kettlebell", "weighted", "band", "medicine ball"],
-  },
-  flexao: {
-    bodyPart: "chest",
-    label: "Flexão de braço",
-    goal: "melhorar repetições válidas com tronco alinhado",
-    keywords: ["push-up", "push up", "press-up", "chest dip"],
-    avoid: ["bench", "dumbbell", "barbell", "machine", "cable", "bosu", "ball", "suspended"],
-  },
-  abdominal: {
-    bodyPart: "waist",
-    label: "Abdominal",
-    goal: "fortalecer core para abdominal remador/supra",
-    keywords: ["sit-up", "sit up", "crunch", "leg raise", "plank", "v-up", "mountain climber"],
-    avoid: ["cable", "machine", "dumbbell", "barbell", "band", "ball", "weighted"],
-  },
-  barra: {
-    bodyPart: "back",
-    label: "Barra fixa",
-    goal: "desenvolver puxada, escápulas e pegada",
-    keywords: ["pull-up", "pull up", "chin-up", "chin up", "inverted row"],
-    avoid: ["cable", "machine", "dumbbell", "barbell", "lever", "band"],
-  },
-  natacao: {
-    bodyPart: "cardio",
-    label: "Natação",
-    goal: "condicionamento aeróbico geral",
-    keywords: ["swim", "jumping jack", "burpee", "mountain climber"],
-    avoid: ["dumbbell", "barbell", "kettlebell", "weighted", "band", "medicine ball"],
-  },
+// Mapeia cada exercicio do dataset local pro "tipo" oficial usado pelo resto
+// do app (TAF_TESTS em src/pages/TAF/index.jsx, tabela de notas em
+// calcularNota). Exercicios de preparo (prancha, burpee) nao correspondem a
+// nenhuma prova oficial, entao usam o proprio id como tipo.
+const TIPO_POR_ID = {
+  "taf-001": "flexao",
+  "taf-002": "barra",
+  "taf-003": "barra",
+  "taf-004": "abdominal",
+  "taf-005": "corrida",
+  "taf-007": "flexao",
 };
 
-function adaptExercise(item, tipo) {
-  const taf = TAF_EXERCISES[tipo] || TAF_EXERCISES.corrida;
-  return {
-    ...item,
-    id: item.exerciseId || item.id || `${tipo}-${item.name}`,
-    equipment: item.equipment || item.equipments?.[0] || "peso corporal",
-    target: item.target || item.targetMuscles?.[0] || item.bodyParts?.[0] || "geral",
-    secondaryMuscles: item.secondaryMuscles || item.targetMuscles || [],
-    instructions: item.instructions || [],
-    tafLabel: taf.label,
-    tafGoal: taf.goal,
-    tafTipo: tipo,
-  };
+function isComplementar(item) {
+  return String(item.taf?.prova || "").toLowerCase().includes("preparo");
 }
 
-function scoreExercise(item, taf) {
-  const text = `${item.name || ""} ${(item.equipments || []).join(" ")} ${(item.targetMuscles || []).join(" ")}`.toLowerCase();
-  const hasAvoided = taf.avoid.some((word) => text.includes(word));
-  const keywordScore = taf.keywords.reduce((score, word) => score + (text.includes(word) ? 4 : 0), 0);
-  const bodyWeightScore = text.includes("body weight") ? 2 : 0;
-  const gifScore = item.gifUrl ? 1 : 0;
-  return keywordScore + bodyWeightScore + gifScore - (hasAvoided ? 20 : 0);
+function adaptLocalExercise(item) {
+  return {
+    id: item.id,
+    name: item.name,
+    gifUrl: item.gif || "",
+    equipment: item.equipment || "peso corporal",
+    target: item.target || "geral",
+    secondaryMuscles: item.secondaryMuscles || [],
+    instructions: item.instructions || [],
+    tafLabel: item.taf?.prova || item.name,
+    tafGoal: item.description || "",
+    tafTipo: TIPO_POR_ID[item.id] || item.id,
+    complementar: isComplementar(item),
+  };
 }
 
 /**
@@ -74,77 +44,8 @@ function scoreExercise(item, taf) {
  */
 export const tafService = {
   async getEditais() { return useTafStore.getState().editais; },
-  async buscarExercicios(tipo) {
-    const taf = TAF_EXERCISES[tipo] || TAF_EXERCISES.corrida;
-
-    try {
-      const res = await fetch(`${EXERCISE_BASE}/exercises?bodyParts=${taf.bodyPart}&limit=80`);
-      if (!res.ok) throw new Error("ExerciseDB indisponível.");
-      const data = await res.json();
-      const items = data.exercises || data.data || data;
-      const ranked = items
-        .map((item) => ({ item, score: scoreExercise(item, taf) }))
-        .filter(({ score }) => score > 0)
-        .sort((a, b) => b.score - a.score)
-        .slice(0, 4)
-        .map(({ item }) => adaptExercise(item, tipo));
-      return ranked.length ? ranked : tafService.getExerciciosEstaticos(tipo);
-    } catch {
-      return tafService.getExerciciosEstaticos(tipo);
-    }
-  },
-  getExerciciosEstaticos(tipo) {
-    const estaticos = {
-      corrida: [
-        {
-          id: "fb-cardio-1",
-          name: "corrida estacionária",
-          gifUrl: "",
-          equipment: "peso corporal",
-          target: "cardiovascular",
-          secondaryMuscles: ["quadriceps", "panturrilhas"],
-          instructions: ["Aqueça por 5 minutos.", "Mantenha postura alta.", "Alterne ritmo moderado e forte.", "Desacelere ao final."],
-          tafTipo: "corrida",
-        },
-      ],
-      flexao: [
-        {
-          id: "fb-chest-1",
-          name: "flexão de braço",
-          gifUrl: "",
-          equipment: "peso corporal",
-          target: "peitoral",
-          secondaryMuscles: ["triceps", "deltoides"],
-          instructions: ["Alinhe as mãos abaixo dos ombros.", "Desça com tronco firme.", "Suba sem travar os cotovelos.", "Mantenha o abdômen contraído."],
-          tafTipo: "flexao",
-        },
-      ],
-      abdominal: [
-        {
-          id: "fb-waist-1",
-          name: "abdominal remador",
-          gifUrl: "",
-          equipment: "peso corporal",
-          target: "abdômen",
-          secondaryMuscles: ["flexores do quadril"],
-          instructions: ["Deite com pernas estendidas.", "Suba tronco e joelhos juntos.", "Toque os pés próximos ao corpo.", "Retorne controlando a descida."],
-          tafTipo: "abdominal",
-        },
-      ],
-      barra: [
-        {
-          id: "fb-back-1",
-          name: "barra fixa",
-          gifUrl: "",
-          equipment: "barra",
-          target: "dorsal",
-          secondaryMuscles: ["bíceps", "antebraço"],
-          instructions: ["Segure a barra com pegada firme.", "Inicie com braços estendidos.", "Puxe até o queixo passar da barra.", "Desça com controle."],
-          tafTipo: "barra",
-        },
-      ],
-    };
-    return estaticos[tipo] || estaticos.corrida;
+  async buscarExercicios() {
+    return (tafExerciciosData.exercicios || []).map(adaptLocalExercise);
   },
   async getHistorico(userId = null) {
     if (isSupabaseConfigured) {

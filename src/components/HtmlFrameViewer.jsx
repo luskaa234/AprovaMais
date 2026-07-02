@@ -10,12 +10,12 @@ import { cx } from "./AppUI";
  */
 export function HtmlFrameViewer({ url, title, className, sandbox = "allow-scripts allow-same-origin" }) {
   const iframeRef = useRef(null);
-  const [status, setStatus] = useState("loading"); // loading | ready | error
+  const [loadState, setLoadState] = useState({ url: "", status: "loading" }); // loading | ready | error
   const blobUrlRef = useRef(null);
+  const status = !url ? "error" : loadState.url === url ? loadState.status : "loading";
 
   useEffect(() => {
-    if (!url) { setStatus("error"); return undefined; }
-    setStatus("loading");
+    if (!url) return undefined;
 
     let cancelled = false;
     fetch(url)
@@ -29,10 +29,10 @@ export function HtmlFrameViewer({ url, title, className, sandbox = "allow-script
         const blobUrl = URL.createObjectURL(blob);
         blobUrlRef.current = blobUrl;
         if (iframeRef.current) iframeRef.current.src = blobUrl;
-        setStatus("ready");
+        setLoadState({ url, status: "ready" });
       })
       .catch(() => {
-        if (!cancelled) setStatus("error");
+        if (!cancelled) setLoadState({ url, status: "error" });
       });
 
     return () => {

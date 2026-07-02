@@ -1,82 +1,6 @@
--- =============================================================
--- LEGACY MIGRATION - REVIEW BEFORE RUNNING
--- =============================================================
--- This file exists only to support the old local-content import flow.
--- Prefer the numbered migrations in supabase/migrations for production.
---
--- Do not execute this file blindly on a live project. It changes tables,
--- storage metadata and RLS policies for paid content. If it must be used,
--- review the policies below and keep paid files in the private "conteudo"
--- bucket. User-facing file URLs must be created only by the conteudo-url
--- Edge Function after auth, active-plan and expiration checks.
--- =============================================================
+-- Fecha leitura de conteudo pago no backend.
+-- Aplique depois dos schemas existentes.
 
--- 1. Extend questoes to support military exam format.
-alter table if exists public.questoes
-  add column if not exists orgao text,
-  add column if not exists cargo text,
-  add column if not exists ano integer,
-  add column if not exists alternativas_json jsonb,
-  add column if not exists formato text,
-  add column if not exists afirmacao text,
-  add column if not exists anulada boolean default false,
-  add column if not exists origem text,
-  add column if not exists banca_selo text,
-  add column if not exists is_public boolean not null default false;
-
--- 2. Extend leis with local JSON metadata.
-alter table if exists public.leis
-  add column if not exists tipo text,
-  add column if not exists materia text,
-  add column if not exists fonte text,
-  add column if not exists is_public boolean not null default false;
-
--- 3. Extend leis_artigos with structured data.
-alter table if exists public.leis_artigos
-  add column if not exists lei_nome text,
-  add column if not exists secao text,
-  add column if not exists incisos jsonb default '[]',
-  add column if not exists paragrafos jsonb default '[]',
-  add column if not exists revogado boolean default false,
-  add column if not exists cobrancas jsonb default '[]',
-  add column if not exists is_public boolean not null default false;
-
--- 4. Create/extend materiais. Paid content stores only storage metadata.
-create table if not exists public.materiais (
-  id text primary key,
-  tipo text,
-  categoria text,
-  titulo text,
-  materia text,
-  descricao text,
-  url text,
-  public_url text,
-  bucket text,
-  storage_path text,
-  filename text,
-  mime_type text,
-  size bigint,
-  is_public boolean not null default false,
-  source text,
-  source_path text,
-  created_at timestamptz default now()
-);
-
-alter table if exists public.materiais
-  add column if not exists public_url text,
-  add column if not exists bucket text,
-  add column if not exists storage_path text,
-  add column if not exists filename text,
-  add column if not exists mime_type text,
-  add column if not exists size bigint,
-  add column if not exists is_public boolean not null default false;
-
-update public.materiais
-set url = null,
-    public_url = null
-where coalesce(is_public, false) = false;
-
--- 5. Shared access predicate for paid content.
 create or replace function public.has_active_access(uid uuid default auth.uid())
 returns boolean
 language sql
@@ -110,7 +34,11 @@ alter table if exists public.questoes enable row level security;
 alter table if exists public.leis enable row level security;
 alter table if exists public.leis_artigos enable row level security;
 
--- 6. Replace unsafe legacy read policies with paid-content policies.
+alter table if exists public.materiais add column if not exists is_public boolean not null default false;
+alter table if exists public.questoes add column if not exists is_public boolean not null default false;
+alter table if exists public.leis add column if not exists is_public boolean not null default false;
+alter table if exists public.leis_artigos add column if not exists is_public boolean not null default false;
+
 do $$
 begin
   if to_regclass('public.materiais') is not null then
@@ -161,7 +89,6 @@ begin
   end if;
 end $$;
 
--- 7. Keep paid content in a private storage bucket.
 do $$
 begin
   if exists (select 1 from information_schema.schemata where schema_name = 'storage')

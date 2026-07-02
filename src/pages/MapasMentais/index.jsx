@@ -5,7 +5,7 @@ import {
   FileText, Maximize2, Minus, Plus, Search, Share2, SlidersHorizontal,
   Trash2, X,
 } from "lucide-react";
-import { Badge, Button, Card, EmptyState, HtmlFrameViewer, Input, Select, cx } from "../../components";
+import { Badge, Button, Card, EmptyState, HtmlFrameViewer, Input, PdfFrameViewer, Select, cx } from "../../components";
 import { Modal } from "../../modals";
 import { useInternalRouter, useNotifications } from "../../contexts";
 import { useAsyncData } from "../../hooks";
@@ -75,6 +75,9 @@ function dist(a, b) {
 
 /* ─── Bottom sheet ─── */
 function Sheet({ open, title, onClose, children, footer }) {
+  const [mounted, setMounted] = useState(open);
+  if (open && !mounted) setMounted(true);
+
   useEffect(() => {
     if (!open) return undefined;
     const prev = document.body.style.overflow;
@@ -82,37 +85,38 @@ function Sheet({ open, title, onClose, children, footer }) {
     return () => { document.body.style.overflow = prev; };
   }, [open]);
 
+  if (!mounted) return null;
+
   return (
-    <AnimatePresence>
-      {open && (
-        <motion.div
-          className="fixed inset-0 z-[85] flex items-end"
-          initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-          style={{ background: "rgba(0,0,0,0.45)" }}
-          onClick={onClose}
-        >
-          <motion.div
-            className="relative w-full rounded-t-3xl bg-white px-4 pb-[calc(1.25rem+env(safe-area-inset-bottom))] pt-3 shadow-2xl"
-            style={{ maxHeight: "90svh", overflowY: "auto" }}
-            initial={{ y: "100%" }} animate={{ y: 0 }} exit={{ y: "100%" }}
-            transition={{ type: "spring", damping: 30, stiffness: 340 }}
-            drag="y" dragConstraints={{ top: 0, bottom: 0 }}
-            onDragEnd={(_, info) => { if (info.offset.y > 72) onClose(); }}
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-slate-200" />
-            <div className="mb-4 flex items-center justify-between gap-3">
-              <h2 className="text-base font-black text-slate-900">{title}</h2>
-              <button aria-label="Fechar" className="rounded-xl p-1.5 text-slate-400 hover:bg-slate-100" onClick={onClose} type="button">
-                <X size={17} />
-              </button>
-            </div>
-            {children}
-            {footer && <div className="mt-4 flex gap-2">{footer}</div>}
-          </motion.div>
-        </motion.div>
-      )}
-    </AnimatePresence>
+    <motion.div
+      className="fixed inset-0 z-[85] flex items-end"
+      style={{ background: "rgba(0,0,0,0.45)", pointerEvents: open ? "auto" : "none", overscrollBehavior: "contain" }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: open ? 1 : 0 }}
+      onAnimationComplete={() => { if (!open) setMounted(false); }}
+      onClick={onClose}
+    >
+      <motion.div
+        className="relative w-full rounded-t-3xl bg-white px-4 pb-[calc(1.25rem+env(safe-area-inset-bottom))] pt-3 shadow-2xl"
+        style={{ maxHeight: "90svh", overflowY: "auto" }}
+        initial={{ y: "100%" }}
+        animate={{ y: open ? 0 : "100%" }}
+        transition={{ type: "spring", damping: 30, stiffness: 340 }}
+        drag="y" dragConstraints={{ top: 0, bottom: 0 }}
+        onDragEnd={(_, info) => { if (info.offset.y > 72) onClose(); }}
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-slate-200" />
+        <div className="mb-4 flex items-center justify-between gap-3">
+          <h2 className="text-base font-black text-slate-900">{title}</h2>
+          <button aria-label="Fechar" className="rounded-xl p-1.5 text-slate-400 hover:bg-slate-100" onClick={onClose} type="button">
+            <X size={17} />
+          </button>
+        </div>
+        {children}
+        {footer && <div className="mt-4 flex gap-2">{footer}</div>}
+      </motion.div>
+    </motion.div>
   );
 }
 
@@ -183,15 +187,12 @@ function MapViewer({ map, full, zoom, pan, collapsed, onCloseFull, onFullscreen,
   const gesture = useRef({ panStart: pan, pointerStart: null, distanceStart: 0, zoomStart: zoom });
   const hasHtmlMap = Boolean(map.htmlUrl);
   const hasPdf = Boolean(map.pdfUrl);
-  const [viewMode, setViewMode] = useState("map"); // "map" | "pdf"
+  const mapId = map?.id;
+  const [viewModeState, setViewModeState] = useState({ mapId, mode: "map" }); // "map" | "pdf"
+  const viewMode = viewModeState.mapId === mapId ? viewModeState.mode : "map";
+  const setViewMode = useCallback((mode) => setViewModeState({ mapId, mode }), [mapId]);
 
-  useEffect(() => { pointers.current.clear(); setViewMode("map"); }, [map?.id]);
-
-  const pdfViewerUrl = hasPdf
-    ? (map.pdfUrl.startsWith("http")
-        ? `https://docs.google.com/viewer?url=${encodeURIComponent(map.pdfUrl)}&embedded=true`
-        : map.pdfUrl)
-    : "";
+  useEffect(() => { pointers.current.clear(); }, [mapId]);
 
   const startGesture = useCallback((e) => {
     e.currentTarget.setPointerCapture?.(e.pointerId);
@@ -286,14 +287,8 @@ function MapViewer({ map, full, zoom, pan, collapsed, onCloseFull, onFullscreen,
 
       {/* Canvas */}
       {viewMode === "pdf" ? (
-        <div className="mindmap-canvas mindmap-canvas-html">
-          <iframe
-            src={pdfViewerUrl}
-            title={`PDF: ${map.titulo}`}
-            className="block w-full border-0"
-            style={{ height: "min(74svh, 52rem)", minHeight: "34rem" }}
-            allow="fullscreen"
-          />
+        <div className="mindmap-canvas mindmap-canvas-html" style={{ height: "min(74svh, 52rem)", minHeight: "34rem" }}>
+          <PdfFrameViewer key={map.pdfUrl} url={map.pdfUrl} title={`PDF: ${map.titulo}`} />
         </div>
       ) : (
         <div
@@ -625,11 +620,13 @@ export default function MapasMentaisPage() {
         ) : (
           <div className="space-y-2.5">
             {visibleMaps.map((m) => (
-              <button
+              <div
                 key={m.id}
+                role="button"
+                tabIndex={0}
                 onClick={() => selectMap(m.id)}
-                className="w-full rounded-2xl border border-royal/20 bg-white p-4 text-left shadow-sm transition active:scale-[0.985]"
-                type="button"
+                onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); selectMap(m.id); } }}
+                className="w-full cursor-pointer rounded-2xl border border-royal/20 bg-white p-4 text-left shadow-sm transition active:scale-[0.985]"
               >
                 <div className="flex items-start justify-between gap-2">
                   <div className="min-w-0">
@@ -646,7 +643,7 @@ export default function MapasMentaisPage() {
                   {m.estudado && <span className="rounded-full border border-emerald-100 bg-emerald-50 px-2 py-0.5 text-[11px] font-black text-emerald-700">Estudado</span>}
                   {m.svgUrl && <span className="rounded-full border border-violet-100 bg-violet-50 px-2 py-0.5 text-[11px] font-black text-violet-700">SVG</span>}
                 </div>
-              </button>
+              </div>
             ))}
           </div>
         )}
@@ -685,19 +682,11 @@ export default function MapasMentaisPage() {
               )}
             </div>
             {mobileView === "viewer-pdf" && activeMap.pdfUrl ? (
-              <div className="overflow-hidden rounded-2xl">
-                <iframe
-                  src={activeMap.pdfUrl.startsWith("http")
-                    ? `https://docs.google.com/viewer?url=${encodeURIComponent(activeMap.pdfUrl)}&embedded=true`
-                    : activeMap.pdfUrl}
-                  title={`PDF: ${activeMap.titulo}`}
-                  className="block w-full border-0"
-                  style={{ height: "75svh", minHeight: "28rem" }}
-                  allow="fullscreen"
-                />
+              <div className="overflow-hidden rounded-2xl" style={{ height: "62svh", minHeight: "24rem" }}>
+                <PdfFrameViewer key={activeMap.pdfUrl} url={activeMap.pdfUrl} title={`PDF: ${activeMap.titulo}`} />
               </div>
             ) : activeMap.htmlUrl ? (
-              <div className="overflow-hidden rounded-2xl" style={{ width: "100%", height: "82svh", minHeight: "28rem" }}>
+              <div className="overflow-hidden rounded-2xl" style={{ width: "100%", height: "64svh", minHeight: "24rem" }}>
                 <HtmlFrameViewer url={activeMap.htmlUrl} title={activeMap.materia || activeMap.titulo} />
               </div>
             ) : (
@@ -725,6 +714,7 @@ export default function MapasMentaisPage() {
                 { label: "Estudar", icon: <CalendarCheck size={14} />, action: () => markStudied(activeMap), primary: true },
                 { label: "Flashcards", icon: <Brain size={14} />, action: generateFlashcards, disabled: Boolean(aiLoading) },
                 { label: "Resumo", icon: <FileText size={14} />, action: generateSummary, disabled: Boolean(aiLoading) },
+                { label: "Questões", icon: <FileQuestion size={14} />, action: generateQuestions, disabled: Boolean(aiLoading) },
                 { label: "Compartilhar", icon: <Share2 size={14} />, action: () => shareMap(activeMap) },
               ].map(({ label, icon, action, primary, disabled }) => (
                 <button

@@ -22,7 +22,7 @@ function planBadge(user) {
 }
 
 export const AdminLayout = memo(({ standalone = false }) => {
-  const { user } = useUser();
+  const { user, isAdmin, isLoading: userLoading } = useUser();
   const [usuarios, setUsuarios] = useState([]);
   const [count, setCount] = useState(0);
   const [search, setSearch] = useState("");
@@ -56,9 +56,9 @@ export const AdminLayout = memo(({ standalone = false }) => {
   }, []);
 
   useEffect(() => {
-    if (user && (user.role !== "admin" || user.email?.toLowerCase() !== "lucasmeireles591@gmail.com")) return;
+    if (userLoading || !isAdmin) return;
     load("");
-  }, [load, user]);
+  }, [isAdmin, load, userLoading]);
 
   const stats = useMemo(() => ({
     total: count || usuarios.length,
@@ -126,7 +126,7 @@ export const AdminLayout = memo(({ standalone = false }) => {
     }
   }, [maintenance]);
 
-  if (user && (user.role !== "admin" || user.email?.toLowerCase() !== "lucasmeireles591@gmail.com")) {
+  if (!userLoading && user && !isAdmin) {
     return (
       <main className={cx("admin-layout", standalone && "mx-auto max-w-5xl p-4 sm:p-6")}>
         <Card className="border-red-100 bg-white shadow-sm">
@@ -262,7 +262,45 @@ export const AdminLayout = memo(({ standalone = false }) => {
 
         {error ? <p className="mb-3 rounded-xl bg-red-50 p-3 text-sm font-semibold text-red-700">{error}</p> : null}
 
-        <div className="overflow-x-auto">
+        {/* Mobile: cards empilhados (evita rolagem horizontal de tabela larga) */}
+        <div className="grid gap-3 xl:hidden">
+          {usuarios.map((user) => {
+            const badge = planBadge(user);
+            return (
+              <div key={user.id} className="admin-user-card rounded-xl border border-royal/20 bg-slate-50 p-4">
+                <div className="flex items-start justify-between gap-2">
+                  <div className="min-w-0">
+                    <strong className="block truncate text-slate-950">{user.name || "Aluno"}</strong>
+                    <span className="block truncate text-sm text-slate-500">{user.email}</span>
+                  </div>
+                  <Badge variant={badge.variant}>{badge.label}</Badge>
+                </div>
+                <div className="mt-3 grid grid-cols-2 gap-2 text-xs text-slate-600">
+                  <p><span className="font-bold text-slate-500">Plano:</span> {user.plano || "gratuito"}</p>
+                  <p><span className="font-bold text-slate-500">Expira:</span> {formatDate(user.plano_expira_em)}</p>
+                  <p><span className="font-bold text-slate-500">Criado:</span> {formatDate(user.created_at)}</p>
+                  <p><span className="font-bold text-slate-500">Atividade:</span> {formatDate(user.updated_at)}</p>
+                </div>
+                <div className="admin-user-card-actions mt-3 grid grid-cols-3 gap-2">
+                  <Button icon={CheckCircle2} loading={actionId === `vitalicio-${user.id}`} onClick={() => runAction(user.id, "vitalicio")} size="sm">Vitalício</Button>
+                  <Button icon={Ban} loading={actionId === `cancelar-${user.id}`} onClick={() => runAction(user.id, "cancelar")} size="sm" variant="danger">Cancelar</Button>
+                  <Button
+                    icon={Trash2}
+                    loading={actionId === `delete-${user.id}`}
+                    onClick={() => { setDeleteTarget(user); setDeleteConfirmation(""); }}
+                    size="sm"
+                    variant="danger"
+                  >
+                    Deletar
+                  </Button>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Desktop: tabela */}
+        <div className="hidden overflow-x-auto xl:block">
           <table className="w-full min-w-[900px] border-separate border-spacing-y-2 text-left text-sm">
             <thead>
               <tr className="text-xs font-black uppercase text-slate-500">
