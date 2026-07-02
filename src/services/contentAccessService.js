@@ -1,5 +1,18 @@
 import { requireSupabase } from "../lib/supabase";
 
+async function extractFunctionErrorMessage(error, fallback) {
+  const response = error?.context;
+  if (response && typeof response.json === "function") {
+    try {
+      const payload = await response.clone().json();
+      if (payload?.error) return payload.error;
+    } catch {
+      // Mantem fallback abaixo.
+    }
+  }
+  return error?.message || fallback;
+}
+
 export async function getSignedContentUrl(path, { bucket = "conteudo", expiresIn = 300 } = {}) {
   const client = requireSupabase();
   const cleanPath = String(path || "").trim().replace(/^\/+/, "");
@@ -10,7 +23,8 @@ export async function getSignedContentUrl(path, { bucket = "conteudo", expiresIn
   });
 
   if (error || data?.error || !data?.signedUrl) {
-    throw new Error(data?.error || error?.message || "Não foi possível gerar acesso seguro ao conteúdo.");
+    const fallback = "Não foi possível gerar acesso seguro ao conteúdo.";
+    throw new Error(data?.error || (await extractFunctionErrorMessage(error, fallback)));
   }
 
   return data.signedUrl;
