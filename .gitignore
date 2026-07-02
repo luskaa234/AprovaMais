@@ -37,6 +37,10 @@ bundle-report.txt
 
 # Android / TWA build artifacts (nao versionar - chave de assinatura e binarios)
 android.keystore
+*.keystore
+*.jks
+key.properties
+keystore.properties
 *.apk
 *.apk.idsig
 *.aab
