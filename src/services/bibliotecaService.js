@@ -75,7 +75,8 @@ function sortMaterials(items) {
 
 export const bibliotecaService = {
   async getAll(filters = {}) {
-    return sortMaterials(this.filter(await getMaterialManifest(), filters));
+    const apostilas = (await getMaterialManifest()).filter((item) => item.tipo === "Apostila");
+    return sortMaterials(this.filter(apostilas, filters));
   },
   async favoritar() {
     return { success: true };
