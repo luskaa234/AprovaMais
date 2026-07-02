@@ -516,7 +516,7 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
       >
         <Topbar />
         <main
-          className="min-h-[calc(100svh-64px)] bg-slate-50 p-3 sm:p-4 md:p-5 xl:p-6"
+          className={cx("min-h-[calc(100svh-64px)] bg-slate-50 p-3 sm:p-4 md:p-5 xl:p-6", pullDistance > 0 && "is-pulling")}
           onTouchEnd={handleTouchEnd}
           onTouchMove={handleTouchMove}
           onTouchStart={handleTouchStart}

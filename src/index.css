@@ -9924,9 +9924,12 @@ main {
   .internal-app main {
     position: relative;
     padding-bottom: calc(6.4rem + env(safe-area-inset-bottom)) !important;
-    transform: translateY(var(--pull-distance, 0));
     transition: transform 180ms ease;
     -webkit-overflow-scrolling: touch;
+  }
+
+  .internal-app main.is-pulling {
+    transform: translateY(var(--pull-distance, 0));
   }
 
   .internal-app main,
