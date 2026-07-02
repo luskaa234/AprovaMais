@@ -2,6 +2,7 @@
 import { Activity, BarChart3, Calculator, Dumbbell, Heart, Lightbulb, ListChecks, Play, Target } from "lucide-react";
 import { Badge, Button, Card, Input, ProgressBar, cx } from "../../components";
 import { ExercicioCard } from "../../components/taf/ExercicioCard";
+import { useNotifications } from "../../contexts";
 
 const PerformanceChart = lazy(() => import("../../charts").then((m) => ({ default: m.PerformanceChart })));
 const RetentionRadarChart = lazy(() => import("../../charts").then((m) => ({ default: m.RetentionRadarChart })));
@@ -112,6 +113,7 @@ function TAFOverview() {
 }
 
 function TAFCalculator() {
+  const { addNotification } = useNotifications();
   const [values, setValues] = useState({ corrida: 0, flexao: 0, abdominal: 0, barra: 0 });
   const [saving, setSaving] = useState(false);
   const score = useMemo(
@@ -122,6 +124,9 @@ function TAFCalculator() {
     setSaving(true);
     try {
       await tafService.registrarTeste(values);
+      addNotification({ type: "success", title: "Resultado salvo", message: "Seu desempenho no TAF foi registrado." });
+    } catch (error) {
+      addNotification({ type: "error", title: "Não foi possível salvar", message: error.message || "Tente novamente em instantes." });
     } finally {
       setSaving(false);
     }
@@ -154,6 +159,7 @@ function TAFCalculator() {
 }
 
 function TAFSimulator() {
+  const { addNotification } = useNotifications();
   const [current, setCurrent] = useState(0);
   const [running, setRunning] = useState(false);
   const [seconds, setSeconds] = useState(720);
@@ -190,6 +196,8 @@ function TAFSimulator() {
       try {
         const result = await tafService.registrarTeste(nextResults);
         setFinalNota(result?.nota ?? 0);
+      } catch (error) {
+        addNotification({ type: "error", title: "Não foi possível salvar o simulado", message: error.message || "Tente novamente em instantes." });
       } finally {
         setSaving(false);
       }
