@@ -48,3 +48,13 @@ keystore.properties
 build/
 app/build/
 local.properties
+
+# Android/Gradle generated files
+app/build/
+build/
+.gradle/
+local.properties
+*.apk
+*.aab
+*.ap_
+
