@@ -618,7 +618,7 @@ export default function MapasMentaisPage() {
             <EmptyState icon={Search} title="Nenhum mapa encontrado" description="Ajuste os filtros ou crie um novo mapa." />
           </div>
         ) : (
-          <div className="space-y-2.5">
+          <div className="grid grid-cols-2 gap-2.5">
             {visibleMaps.map((m) => (
               <div
                 key={m.id}
@@ -626,22 +626,22 @@ export default function MapasMentaisPage() {
                 tabIndex={0}
                 onClick={() => selectMap(m.id)}
                 onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); selectMap(m.id); } }}
-                className="w-full cursor-pointer rounded-2xl border border-royal/20 bg-white p-4 text-left shadow-sm transition active:scale-[0.985]"
+                className="cursor-pointer rounded-2xl border border-royal/20 bg-white p-3 text-left shadow-sm transition active:scale-[0.985]"
               >
-                <div className="flex items-start justify-between gap-2">
+                <div className="flex items-start justify-between gap-1">
                   <div className="min-w-0">
                     <strong className="block truncate text-sm font-black text-slate-900">{m.titulo}</strong>
-                    <p className="mt-0.5 text-xs text-slate-500">{m.materia} · {m.assunto}</p>
+                    <p className="mt-0.5 truncate text-[11px] text-slate-500">{m.materia} · {m.assunto}</p>
                   </div>
-                  <button onClick={(e) => { e.stopPropagation(); toggleFavorite(m); }} className="shrink-0 p-1 text-amber-400 transition active:scale-90" type="button" aria-label="Favoritar">
-                    <Bookmark size={16} className={m.favorito ? "fill-current" : ""} />
+                  <button onClick={(e) => { e.stopPropagation(); toggleFavorite(m); }} className="shrink-0 p-0.5 text-amber-400 transition active:scale-90" type="button" aria-label="Favoritar">
+                    <Bookmark size={15} className={m.favorito ? "fill-current" : ""} />
                   </button>
                 </div>
-                <div className="mt-2.5 flex flex-wrap gap-1.5">
-                  <span className="rounded-full border border-royal/20 bg-royal/10 px-2 py-0.5 text-[11px] font-black text-navy">{m.nivel}</span>
-                  <span className="rounded-full border border-slate-200 bg-slate-50 px-2 py-0.5 text-[11px] font-bold text-slate-500">{m.banca}</span>
-                  {m.estudado && <span className="rounded-full border border-emerald-100 bg-emerald-50 px-2 py-0.5 text-[11px] font-black text-emerald-700">Estudado</span>}
-                  {m.svgUrl && <span className="rounded-full border border-violet-100 bg-violet-50 px-2 py-0.5 text-[11px] font-black text-violet-700">SVG</span>}
+                <div className="mt-2 flex flex-wrap gap-1">
+                  <span className="rounded-full border border-royal/20 bg-royal/10 px-1.5 py-0.5 text-[10px] font-black text-navy">{m.nivel}</span>
+                  <span className="rounded-full border border-slate-200 bg-slate-50 px-1.5 py-0.5 text-[10px] font-bold text-slate-500">{m.banca}</span>
+                  {m.estudado && <span className="rounded-full border border-emerald-100 bg-emerald-50 px-1.5 py-0.5 text-[10px] font-black text-emerald-700">Estudado</span>}
+                  {m.svgUrl && <span className="rounded-full border border-violet-100 bg-violet-50 px-1.5 py-0.5 text-[10px] font-black text-violet-700">SVG</span>}
                 </div>
               </div>
             ))}
