@@ -48,7 +48,7 @@ const Sidebar = memo(({ mobile = false, onNavigate, collapsed = false, onToggle 
         "flex h-full flex-col",
         mobile
           ? "mobile-more-menu w-full overflow-y-auto px-4 pb-4 pt-1"
-          : cx("w-16 border-r border-slate-200/80 bg-white p-2", !collapsed && "xl:w-[220px] xl:p-3")
+          : cx("w-16 border-r border-slate-200/80 bg-white p-2", !collapsed && "md:w-[220px] md:p-3")
       )}
       style={!mobile ? { transition: "width 200ms ease, padding 200ms ease" } : undefined}
     >
@@ -90,9 +90,9 @@ const Sidebar = memo(({ mobile = false, onNavigate, collapsed = false, onToggle 
             ) : (
               <>
                 <Icon size={17} strokeWidth={route === key ? 2.2 : 1.7} className="shrink-0" />
-                <span className={cx("min-w-0 flex-1 truncate", collapsed ? "hidden" : "hidden xl:block")}>{label}</span>
+                <span className={cx("min-w-0 flex-1 truncate", collapsed ? "hidden" : "hidden md:block")}>{label}</span>
                 {badge ? (
-                  <span className={cx("rounded-full bg-blue-600 px-2 py-0.5 text-[10px] font-black text-white", collapsed ? "hidden" : "hidden xl:inline-flex")}>
+                  <span className={cx("rounded-full bg-blue-600 px-2 py-0.5 text-[10px] font-black text-white", collapsed ? "hidden" : "hidden md:inline-flex")}>
                     {badge}
                   </span>
                 ) : null}
@@ -466,6 +466,8 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
         "internal-app min-h-screen",
         "internal-app-light bg-slate-100 text-slate-900"
       )}
+      data-route={route}
+      data-sidebar-collapsed={sidebarCollapsed ? "true" : "false"}
     >
       <aside className="fixed left-0 top-0 hidden h-screen md:block">
         <Sidebar collapsed={sidebarCollapsed} onToggle={toggleSidebar} />
@@ -511,7 +513,7 @@ export const AppShell = memo(({ children, onMobileRefresh }) => {
       )}
 
       <div
-        className={cx("md:pl-16", sidebarCollapsed ? "xl:pl-16" : "xl:pl-[220px]")}
+        className={cx(sidebarCollapsed ? "md:pl-16" : "md:pl-[220px]")}
         style={{ transition: "padding-left 200ms ease" }}
       >
         <Topbar />

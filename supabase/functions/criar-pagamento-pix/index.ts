@@ -12,6 +12,8 @@ Deno.serve(async (req) => {
     const body = await req.json().catch(() => ({}));
     const planoId = body.plano_id || "essencial";
     assertProductionMercadoPagoToken();
+    const webhookUrl = Deno.env.get("MP_WEBHOOK_URL") || "";
+    if (!/^https:\/\//i.test(webhookUrl)) return jsonResponse({ error: "MP_WEBHOOK_URL seguro nao configurado." }, 503);
     const supabase = getAdminClient();
 
     const { data: plan, error: planError } = await supabase
@@ -61,7 +63,7 @@ Deno.serve(async (req) => {
           plano_id: plan.id,
           assinatura_id: assinatura.id,
         },
-        notification_url: Deno.env.get("MP_WEBHOOK_URL") || undefined,
+        notification_url: webhookUrl,
       }),
     });
 

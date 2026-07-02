@@ -2,6 +2,7 @@ import { getCurrentUserId, isSupabaseConfigured, supabase } from "../lib/supabas
 import { useFlashcardsStore } from "../stores";
 import { applySm2 } from "../utils";
 import { aiService } from "./aiService";
+import { getSignedContentUrl } from "./contentAccessService";
 
 let localDecksCache = null;
 
@@ -11,16 +12,13 @@ async function getLocalDecks() {
     // Tenta buscar de /flashcards/decks.json (local ou CDN)
     const localUrl = "/flashcards/decks.json";
     // Se Supabase configurado, prefere a URL do Storage
-    let fetchUrl = localUrl;
-    if (isSupabaseConfigured) {
-      const { data } = supabase.storage.from("conteudo").getPublicUrl("flashcards/decks.json");
-      if (data?.publicUrl) fetchUrl = data.publicUrl;
-    }
+    const fetchUrl = isSupabaseConfigured ? await getSignedContentUrl("flashcards/decks.json") : localUrl;
     const response = await fetch(fetchUrl);
     if (!response.ok) throw new Error("Decks não encontrados.");
     localDecksCache = await response.json();
     return localDecksCache;
-  } catch {
+  } catch (error) {
+    if (isSupabaseConfigured) throw error;
     localDecksCache = useFlashcardsStore.getState().decks;
     return localDecksCache;
   }
@@ -64,12 +62,13 @@ export const flashcardsService = {
     if (isSupabaseConfigured) {
       try {
         const userId = await getCurrentUserId();
-        if (!userId) return getLocalDecks();
+        if (!userId) throw new Error("Faça login para acessar os flashcards.");
         const { data, error } = await supabase.from("flashcard_decks").select("*, flashcards(*)").eq("user_id", userId).order("created_at", { ascending: false });
         if (error) throw error;
         const remoteDecks = (data || []).map(mapDeck).filter((deck) => deck.cards.length);
         if (remoteDecks.length) return remoteDecks;
-      } catch {
+      } catch (error) {
+        if (/premium|login|acesso/i.test(error?.message || "")) throw error;
         // Sem decks no banco ou sem sessão: usa a base local preservada.
       }
     }

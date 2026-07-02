@@ -440,12 +440,19 @@ export default function PlanoPage() {
       materia: draft.materia || "Geral",
       duration: Number(draft.duration || 60),
     };
-    if (editingId) {
-      setPlanActivities((current) => current.map((item) => item.id === editingId ? { ...item, ...payload } : item));
-      await planoService.atualizarAtividade(editingId, payload);
-    } else {
-      const created = await planoService.criarAtividade(payload);
-      setPlanActivities((current) => [created, ...current.filter((item) => item.id !== created.id)]);
+    try {
+      if (editingId) {
+        setPlanActivities((current) => current.map((item) => item.id === editingId ? { ...item, ...payload } : item));
+        await planoService.atualizarAtividade(editingId, payload);
+      } else {
+        const created = await planoService.criarAtividade(payload);
+        setPlanActivities((current) => [created, ...current.filter((item) => item.id !== created.id)]);
+      }
+    } catch (error) {
+      if (error.localResult) {
+        setPlanActivities((current) => [error.localResult, ...current.filter((item) => item.id !== error.localResult.id)]);
+      }
+      addNotification({ type: "warning", title: "Plano salvo localmente", message: "Não foi possível salvar na nuvem agora. Tente novamente mais tarde." });
     }
     setModal(false);
     setEditingId("");
@@ -491,8 +498,12 @@ export default function PlanoPage() {
 
   const deleteActivity = useCallback(async (id) => {
     setPlanActivities((current) => current.filter((item) => item.id !== id));
-    await planoService.removerAtividade(id);
-    addNotification({ type: "success", title: "Atividade removida", message: "Seu plano foi atualizado." });
+    try {
+      await planoService.removerAtividade(id);
+      addNotification({ type: "success", title: "Atividade removida", message: "Seu plano foi atualizado." });
+    } catch {
+      addNotification({ type: "warning", title: "Remoção local", message: "A atividade saiu da tela, mas a nuvem não confirmou a remoção." });
+    }
   }, [addNotification]);
 
   const openActivity = useCallback((activity) => {

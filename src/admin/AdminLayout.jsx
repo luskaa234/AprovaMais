@@ -22,7 +22,7 @@ function planBadge(user) {
 }
 
 export const AdminLayout = memo(({ standalone = false }) => {
-  const { user } = useUser();
+  const { user, isAdmin, isLoading: userLoading } = useUser();
   const [usuarios, setUsuarios] = useState([]);
   const [count, setCount] = useState(0);
   const [search, setSearch] = useState("");
@@ -56,9 +56,9 @@ export const AdminLayout = memo(({ standalone = false }) => {
   }, []);
 
   useEffect(() => {
-    if (user && (user.role !== "admin" || user.email?.toLowerCase() !== "lucasmeireles591@gmail.com")) return;
+    if (userLoading || !isAdmin) return;
     load("");
-  }, [load, user]);
+  }, [isAdmin, load, userLoading]);
 
   const stats = useMemo(() => ({
     total: count || usuarios.length,
@@ -126,7 +126,7 @@ export const AdminLayout = memo(({ standalone = false }) => {
     }
   }, [maintenance]);
 
-  if (user && (user.role !== "admin" || user.email?.toLowerCase() !== "lucasmeireles591@gmail.com")) {
+  if (!userLoading && user && !isAdmin) {
     return (
       <main className={cx("admin-layout", standalone && "mx-auto max-w-5xl p-4 sm:p-6")}>
         <Card className="border-red-100 bg-white shadow-sm">

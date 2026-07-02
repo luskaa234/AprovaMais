@@ -96,6 +96,7 @@ Deno.serve(async (req) => {
     const id = body?.data?.id || body.id || url.searchParams.get("id");
 
     if (!id || !String(topic || "").includes("payment")) {
+      console.info("[mp-webhook] evento ignorado", { topic: String(topic || ""), id: String(id || "") });
       return new Response("Evento ignorado", { status: 200 });
     }
 
@@ -107,7 +108,10 @@ Deno.serve(async (req) => {
     const planId = metadata.plano_id || reference.plano_id;
     const assinaturaId = metadata.assinatura_id || reference.assinatura_id;
 
-    if (!userId || !planId) return new Response("Pagamento sem referencia interna", { status: 200 });
+    if (!userId || !planId) {
+      console.warn("[mp-webhook] pagamento sem referencia interna", { paymentId: String(payment.id || id), status: String(payment.status || "") });
+      return new Response("Pagamento sem referencia interna", { status: 200 });
+    }
 
     const normalized = normalizeStatus(payment.status);
     const dbStatus = normalized === "aprovado" ? "aprovado" : normalized === "recusado" ? "recusado" : "pendente";
@@ -151,9 +155,11 @@ Deno.serve(async (req) => {
       await activateAccess(supabase, userId, planId, assinaturaId);
     }
 
+    console.info("[mp-webhook] processado", { paymentId: String(payment.id || id), status: dbStatus, userId });
     return new Response("ok", { status: 200 });
   } catch (error) {
-    console.error(error);
-    return new Response("ok", { status: 200 });
+    const message = error instanceof Error ? error.message : String(error || "Erro interno.");
+    console.error("[mp-webhook] erro interno", message);
+    return jsonResponse({ error: "Erro interno ao processar webhook." }, 500);
   }
 });

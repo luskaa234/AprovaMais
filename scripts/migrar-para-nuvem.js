@@ -44,9 +44,12 @@ async function upsertBatch(supabase, table, rows, conflict) {
   }
 }
 
-async function ensureBucket(supabase, name) {
-  const { error } = await supabase.storage.createBucket(name, { public: true });
+async function ensurePrivateBucket(supabase, name) {
+  const { error } = await supabase.storage.createBucket(name, { public: false });
   if (error && !error.message.includes("already exists")) throw error;
+
+  const { error: updateError } = await supabase.storage.updateBucket(name, { public: false });
+  if (updateError) throw updateError;
 }
 
 async function uploadFile(supabase, bucket, storagePath, filePath, mimeType) {
@@ -55,7 +58,13 @@ async function uploadFile(supabase, bucket, storagePath, filePath, mimeType) {
     .from(bucket)
     .upload(storagePath, bytes, { contentType: mimeType, upsert: true });
   if (error) throw new Error(`Upload ${storagePath}: ${error.message}`);
-  return supabase.storage.from(bucket).getPublicUrl(storagePath).data.publicUrl;
+  return {
+    bucket,
+    storage_path: storagePath,
+    filename: storagePath.split("/").pop(),
+    mime_type: mimeType,
+    size: bytes.length,
+  };
 }
 
 // ─── 1. Questões OAB ────────────────────────────────────────────────────────
@@ -197,11 +206,9 @@ async function importarArtigos(supabase) {
 async function uploadStorage(supabase) {
   console.log("\n[5/6] Upload para Storage...");
 
-  await ensureBucket(supabase, "materiais");
-  await ensureBucket(supabase, "mapas");
-  await ensureBucket(supabase, "conteudo");
+  await ensurePrivateBucket(supabase, "conteudo");
 
-  const urlMap = {};
+  const storageMap = {};
 
   // PDFs das apostilas
   const apostilasDir = join(ROOT, "public/materiais/apostilas");
@@ -209,8 +216,8 @@ async function uploadStorage(supabase) {
     const pdfs = readdirSync(apostilasDir).filter((f) => f.endsWith(".pdf"));
     console.log(`  Enviando ${pdfs.length} PDFs...`);
     for (const pdf of pdfs) {
-      const url = await uploadFile(supabase, "materiais", `apostilas/${pdf}`, join(apostilasDir, pdf), "application/pdf");
-      urlMap[`/materiais/apostilas/${pdf}`] = url;
+      const metadata = await uploadFile(supabase, "conteudo", `materiais/apostilas/${pdf}`, join(apostilasDir, pdf), "application/pdf");
+      storageMap[`/materiais/apostilas/${pdf}`] = metadata;
       process.stdout.write(`    ${pdf}\r`);
     }
     console.log(`\n  ${pdfs.length} PDFs enviados.`);
@@ -222,8 +229,8 @@ async function uploadStorage(supabase) {
     const htmls = readdirSync(mapasDir).filter((f) => f.endsWith(".html"));
     console.log(`  Enviando ${htmls.length} mapas mentais...`);
     for (const html of htmls) {
-      const url = await uploadFile(supabase, "mapas", html, join(mapasDir, html), "text/html");
-      urlMap[`/mapas/${html}`] = url;
+      const metadata = await uploadFile(supabase, "conteudo", `mapas/${html}`, join(mapasDir, html), "text/html");
+      storageMap[`/mapas/${html}`] = metadata;
       process.stdout.write(`    ${html}\r`);
     }
     console.log(`\n  ${htmls.length} HTMLs enviados.`);
@@ -236,27 +243,39 @@ async function uploadStorage(supabase) {
     console.log("  decks.json enviado.");
   }
 
-  return urlMap;
+  return storageMap;
 }
 
 // ─── 6. Materiais (manifest → tabela) ────────────────────────────────────────
 
-async function importarMateriais(supabase, urlMap) {
+async function importarMateriais(supabase, storageMap) {
   console.log("\n[6/6] Materiais (manifest → tabela)...");
   const manifest = readJson("public/materiais/manifest.json");
   if (!manifest) return console.log("  Arquivo não encontrado, pulando.");
 
-  const rows = manifest.map((item) => ({
-    id: item.id,
-    tipo: item.tipo || null,
-    categoria: item.categoria || null,
-    titulo: normalizeContentText(item.titulo || item.id),
-    materia: item.materia || null,
-    descricao: item.descricao || null,
-    url: urlMap[item.url] || item.url,
-    source: item.source || null,
-    source_path: item.sourcePath || null,
-  }));
+  const rows = manifest.map((item) => {
+    const storage = storageMap[item.url] || {};
+    const isPublic = item.is_public === true;
+
+    return {
+      id: item.id,
+      tipo: item.tipo || null,
+      categoria: item.categoria || null,
+      titulo: normalizeContentText(item.titulo || item.id),
+      materia: item.materia || null,
+      descricao: item.descricao || null,
+      url: isPublic ? item.url : null,
+      public_url: null,
+      bucket: storage.bucket || null,
+      storage_path: storage.storage_path || null,
+      filename: storage.filename || null,
+      mime_type: storage.mime_type || null,
+      size: storage.size || null,
+      is_public: isPublic,
+      source: item.source || null,
+      source_path: item.sourcePath || null,
+    };
+  });
 
   const { error } = await supabase.from("materiais").upsert(rows, { onConflict: "id", ignoreDuplicates: true });
   if (error) throw new Error(`[materiais] ${error.message}`);
@@ -284,8 +303,8 @@ async function main() {
   await importarQuestoesMilitar(supabase);
   await importarLeis(supabase);
   await importarArtigos(supabase);
-  const urlMap = await uploadStorage(supabase);
-  await importarMateriais(supabase, urlMap);
+  const storageMap = await uploadStorage(supabase);
+  await importarMateriais(supabase, storageMap);
 
   console.log("\n✓ Migração concluída!");
 

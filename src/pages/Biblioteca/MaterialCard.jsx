@@ -1,6 +1,7 @@
 import { memo, useCallback, useState } from "react";
 import { Download, ExternalLink, FileText, Heart, Image, Map, Maximize2, X } from "lucide-react";
 import { Badge, Card, HtmlFrameViewer, PdfFrameViewer, cx } from "../../components";
+import { bibliotecaService } from "../../services";
 
 /* ── tipos e estilos ─────────────────────────────────── */
 
@@ -103,12 +104,38 @@ function MaterialViewer({ material, onClose }) {
 
 function MaterialCardBase({ material, favorite, onFavorite }) {
   const [viewerOpen, setViewerOpen] = useState(false);
+  const [secureMaterial, setSecureMaterial] = useState(null);
+  const [loadingUrl, setLoadingUrl] = useState(false);
+  const [urlError, setUrlError] = useState("");
   const Icon = typeIcon[material.tipo] || FileText;
   const color = typeColor[material.tipo] || "bg-blue-50 text-blue-600";
   const variant = badgeVariant[material.tipo] || "neutral";
 
-  const handleOpen = useCallback(() => setViewerOpen(true), []);
+  const prepareSecureMaterial = useCallback(async () => {
+    setLoadingUrl(true);
+    setUrlError("");
+    try {
+      const url = await bibliotecaService.getSecureUrl(material);
+      const next = { ...material, url };
+      setSecureMaterial(next);
+      return next;
+    } catch (error) {
+      setUrlError(error?.message || "Não foi possível liberar o material.");
+      return null;
+    } finally {
+      setLoadingUrl(false);
+    }
+  }, [material]);
+
+  const handleOpen = useCallback(async () => {
+    const next = await prepareSecureMaterial();
+    if (next) setViewerOpen(true);
+  }, [prepareSecureMaterial]);
   const handleClose = useCallback(() => setViewerOpen(false), []);
+  const handleDownload = useCallback(async () => {
+    const next = await prepareSecureMaterial();
+    if (next?.url) window.open(next.url, "_blank", "noopener,noreferrer");
+  }, [prepareSecureMaterial]);
 
   return (
     <>
@@ -136,19 +163,21 @@ function MaterialCardBase({ material, favorite, onFavorite }) {
         <div className="flex gap-2">
           <button
             onClick={handleOpen}
+            disabled={loadingUrl}
             className="inline-flex min-h-9 flex-1 items-center justify-center gap-1.5 rounded-xl bg-blue-600 px-3 text-xs font-bold text-white transition hover:bg-blue-700 active:scale-[0.98]"
           >
             <Maximize2 size={13} />
-            Visualizar
+            {loadingUrl ? "Liberando..." : "Visualizar"}
           </button>
-          <a
-            href={material.url}
-            download
+          <button
+            type="button"
+            onClick={handleDownload}
+            disabled={loadingUrl}
             title="Baixar"
             className="inline-flex min-h-9 items-center justify-center rounded-xl border border-slate-200 bg-white px-3 text-slate-600 transition hover:bg-slate-50"
           >
             <Download size={14} />
-          </a>
+          </button>
           <button
             aria-label={favorite ? "Remover dos favoritos" : "Adicionar aos favoritos"}
             onClick={() => onFavorite(material.id)}
@@ -162,10 +191,11 @@ function MaterialCardBase({ material, favorite, onFavorite }) {
             <Heart size={14} fill={favorite ? "currentColor" : "none"} />
           </button>
         </div>
+        {urlError ? <p className="text-xs font-semibold text-red-600">{urlError}</p> : null}
       </Card>
 
       {viewerOpen && (
-        <MaterialViewer material={material} onClose={handleClose} />
+        <MaterialViewer material={secureMaterial || material} onClose={handleClose} />
       )}
     </>
   );

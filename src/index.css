@@ -6153,8 +6153,12 @@ main {
     padding: 1.15rem clamp(1rem, 2vw, 1.6rem) 1.6rem !important;
   }
 
-  .internal-app-light > aside {
+  .internal-app-light[data-sidebar-collapsed="true"] > aside {
     width: 5rem !important;
+  }
+
+  .internal-app-light[data-sidebar-collapsed="false"] > aside {
+    width: 13.75rem !important;
   }
 
   .internal-app-light > aside .internal-brand-logo img {
@@ -6171,9 +6175,21 @@ main {
     border-radius: 1rem !important;
   }
 
-  .internal-app-light > aside nav button span,
-  .internal-app-light > aside nav button [class*="rounded-full"] {
+  .internal-app-light[data-sidebar-collapsed="false"] > aside nav button {
+    justify-content: flex-start !important;
+  }
+
+  .internal-app-light[data-sidebar-collapsed="true"] > aside nav button span,
+  .internal-app-light[data-sidebar-collapsed="true"] > aside nav button [class*="rounded-full"] {
     display: none !important;
+  }
+
+  .internal-app-light[data-sidebar-collapsed="false"] > aside nav button span {
+    display: block !important;
+  }
+
+  .internal-app-light[data-sidebar-collapsed="false"] > aside nav button [class*="rounded-full"] {
+    display: inline-flex !important;
   }
 
   .mobile-study-home,
@@ -9910,6 +9926,24 @@ main {
 .admin-user-card-actions button:nth-child(3) {
   --admin-btn-from: #ef4444;
   --admin-btn-to: #dc2626;
+}
+
+@media (max-width: 767px) {
+  .internal-app-light[data-route="admin"] .mobile-bottom-nav {
+    box-shadow: none !important;
+  }
+
+  .internal-app-light .admin-layout,
+  .internal-app-light .admin-layout :is(section, article, button, a, [role="button"], .admin-user-card) {
+    transition: none !important;
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+  .internal-app-light .admin-layout :is(section, article, button, a, [role="button"], .admin-user-card):is(:hover, :active, :focus, :focus-visible) {
+    transform: none !important;
+    box-shadow: none !important;
+  }
 }
 
 @media (max-width: 767px) {
@@ -17754,14 +17788,25 @@ button {
 
   .internal-app-light > aside {
     display: block !important;
-    width: 5rem !important;
     border-right: 1px solid #d7e3f5 !important;
     background: #ffffff !important;
     box-shadow: 18px 0 44px rgba(15, 23, 42, 0.06) !important;
   }
 
-  .internal-app-light > div {
+  .internal-app-light[data-sidebar-collapsed="true"] > aside {
+    width: 5rem !important;
+  }
+
+  .internal-app-light[data-sidebar-collapsed="false"] > aside {
+    width: 13.75rem !important;
+  }
+
+  .internal-app-light[data-sidebar-collapsed="true"] > div {
     padding-left: 5rem !important;
+  }
+
+  .internal-app-light[data-sidebar-collapsed="false"] > div {
+    padding-left: 13.75rem !important;
   }
 
   .internal-app-light .internal-topbar-row {
@@ -18874,20 +18919,21 @@ body,
   color: #ffffff !important;
 }
 .mobile-more-menu .internal-nav-active.more-nav-card {
-  background: #eff6ff !important;
-  border-color: #1d63c4 !important;
-  border-width: 2px !important;
-  color: #1d4ed8 !important;
-  box-shadow: 0 2px 10px rgba(29, 99, 196, 0.12) !important;
+  border: 1.5px solid #e8eef6 !important;
+  background: #f8fafd !important;
+  color: #334155 !important;
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.04) !important;
 }
 .mobile-more-menu .internal-nav-active .more-nav-icon {
-  background: #1d63c4 !important;
+  background: #dbeafe !important;
 }
 .mobile-more-menu .internal-nav-active .more-nav-icon svg {
-  color: #ffffff !important;
-  stroke: #ffffff !important;
+  background: transparent !important;
+  color: #1d63c4 !important;
+  stroke: #1d63c4 !important;
 }
 .mobile-more-menu .internal-nav-active .more-nav-label {
-  color: #1d4ed8 !important;
-  font-weight: 800 !important;
+  background: transparent !important;
+  color: #334155 !important;
+  font-weight: 700 !important;
 }

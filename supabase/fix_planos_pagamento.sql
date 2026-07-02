@@ -5,13 +5,19 @@
 
 create extension if not exists "uuid-ossp";
 
+-- Trial deve ser concedido explicitamente com plano_expira_em; nunca por
+-- default automatico de plano premium.
+
 alter table public.profiles
   add column if not exists plano text default 'gratuito',
   add column if not exists status_plano text default 'trial',
-  add column if not exists plano_ativo boolean not null default true,
+  add column if not exists plano_ativo boolean not null default false,
   add column if not exists plano_expira_em timestamptz,
   add column if not exists em_teste boolean not null default true,
   add column if not exists trial_inicio timestamptz;
+
+alter table public.profiles
+  alter column plano_ativo set default false;
 
 create table if not exists public.planos (
   id text primary key,

@@ -179,9 +179,7 @@ export const planoService = {
       .order("data", { ascending: true })
       .order("hora", { ascending: true });
     if (error) {
-      console.warn("[planoService] Falha ao carregar plano_atividades:", error.message);
-      usePlanoStore.getState().setAtividades([]);
-      return [];
+      throw new Error(error.message || "Falha ao carregar plano na nuvem.");
     }
     const rows = (data || []).map(normalizeActivity);
     usePlanoStore.getState().setAtividades(rows);
@@ -198,8 +196,9 @@ export const planoService = {
       .select("*")
       .single();
     if (error) {
-      console.warn("[planoService] Falha ao criar atividade:", error.message);
-      return local;
+      const wrapped = new Error(error.message || "Falha ao criar atividade na nuvem.");
+      wrapped.localResult = local;
+      throw wrapped;
     }
     const saved = normalizeActivity(data);
     usePlanoStore.setState((state) => ({ atividades: state.atividades.map((item) => item.id === local.id ? saved : item) }));
@@ -218,8 +217,9 @@ export const planoService = {
       .select("*")
       .maybeSingle();
     if (error) {
-      console.warn("[planoService] Falha ao atualizar atividade:", error.message);
-      return local;
+      const wrapped = new Error(error.message || "Falha ao atualizar atividade na nuvem.");
+      wrapped.localResult = local;
+      throw wrapped;
     }
     const saved = data ? normalizeActivity(data) : local;
     updateLocal(id, saved);
@@ -236,7 +236,7 @@ export const planoService = {
     const userId = await getCurrentUserId();
     if (!userId) return true;
     const { error } = await supabase.from("plano_atividades").delete().eq("id", id).eq("user_id", userId);
-    if (error) console.warn("[planoService] Falha ao remover atividade:", error.message);
+    if (error) throw new Error(error.message || "Falha ao remover atividade na nuvem.");
     return true;
   },
   async gerarSemanaInteligente({ user = {}, startDate = new Date() } = {}) {

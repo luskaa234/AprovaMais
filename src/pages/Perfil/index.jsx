@@ -7,7 +7,6 @@ import { ProfileForm } from "../../forms";
 import { isSupabaseConfigured, supabase } from "../../lib/supabase";
 import { cancelCurrentSubscription, paymentPlans, startCheckout } from "../../services/paymentService";
 
-const adminShortcutEmails = new Set(["lucasmeireles591@gmail.com"]);
 const avatarTypes = new Set(["image/jpeg", "image/png", "image/webp"]);
 const avatarMaxBytes = 3 * 1024 * 1024;
 
@@ -107,7 +106,7 @@ export default function PerfilPage() {
   const remainingDays = daysUntil(user.planoExpiraEm);
   const isTrial = user.statusPlano === "trial" || user.emTeste;
   const isActive = Boolean(user.planoAtivo && (remainingDays === null || remainingDays > 0));
-  const showAdminShortcut = isAdmin || adminShortcutEmails.has(String(user.email || "").toLowerCase());
+  const showAdminShortcut = isAdmin;
 
   const openPlan = useCallback(async (nextPlanId) => {
     try {

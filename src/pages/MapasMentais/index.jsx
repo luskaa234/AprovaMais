@@ -187,9 +187,12 @@ function MapViewer({ map, full, zoom, pan, collapsed, onCloseFull, onFullscreen,
   const gesture = useRef({ panStart: pan, pointerStart: null, distanceStart: 0, zoomStart: zoom });
   const hasHtmlMap = Boolean(map.htmlUrl);
   const hasPdf = Boolean(map.pdfUrl);
-  const [viewMode, setViewMode] = useState("map"); // "map" | "pdf"
+  const mapId = map?.id;
+  const [viewModeState, setViewModeState] = useState({ mapId, mode: "map" }); // "map" | "pdf"
+  const viewMode = viewModeState.mapId === mapId ? viewModeState.mode : "map";
+  const setViewMode = useCallback((mode) => setViewModeState({ mapId, mode }), [mapId]);
 
-  useEffect(() => { pointers.current.clear(); setViewMode("map"); }, [map?.id]);
+  useEffect(() => { pointers.current.clear(); }, [mapId]);
 
   const startGesture = useCallback((e) => {
     e.currentTarget.setPointerCapture?.(e.pointerId);

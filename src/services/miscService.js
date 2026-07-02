@@ -1,12 +1,15 @@
 import { isSupabaseConfigured, supabase } from "../lib/supabase";
 import { useLeisStore, useMiscStore, useNotificacoesStore, useRankingStore } from "../stores";
+import { getContentPath, getSignedContentUrl } from "./contentAccessService";
 
 async function getManifest() {
+  if (isSupabaseConfigured) {
+    const { data, error } = await supabase.from("materiais").select("*");
+    if (error) throw new Error(error.message || "Acesso aos materiais recusado.");
+    return data || [];
+  }
+
   try {
-    if (isSupabaseConfigured) {
-      const { data, error } = await supabase.from("materiais").select("*");
-      if (!error && data?.length) return data;
-    }
     const response = await fetch("/materiais/manifest.json");
     if (!response.ok) return [];
     return response.json();
@@ -24,9 +27,13 @@ async function getManifest() {
 export const rankingService = { async getRanking() { return useRankingStore.getState().ranking; } };
 export const mapasService = {
   async getMapas() {
-    const imported = (await getManifest())
+    const importedRows = (await getManifest())
       .filter((item) => item.categoria === "Mapas mentais")
-      .map((item, index) => ({
+    const imported = await Promise.all(importedRows.map(async (item, index) => {
+      const signedUrl = isSupabaseConfigured && (item.url || item.sourcePath || item.storage_path)
+        ? await getSignedContentUrl(getContentPath(item))
+        : item.url;
+      return {
         id: item.id,
         titulo: item.titulo,
         materia: item.materia || item.titulo,
@@ -38,9 +45,10 @@ export const mapasService = {
         tags: [item.tipo, item.categoria, item.materia].filter(Boolean),
         acessos: 40 + index * 7,
         favorito: index % 4 === 0,
-        materialUrl: item.url,
-        htmlUrl: item.htmlUrl || (/\.html?($|\?)/i.test(item.url || "") ? item.url : undefined),
-        svgUrl: /\.svg($|\?)/i.test(item.url || "") ? item.url : item.svgUrl,
+        url: signedUrl,
+        materialUrl: signedUrl,
+        htmlUrl: item.htmlUrl || (/\.html?($|\?)/i.test(signedUrl || "") ? signedUrl : undefined),
+        svgUrl: /\.svg($|\?)/i.test(signedUrl || "") ? signedUrl : item.svgUrl,
         root: {
           label: item.materia,
           children: [
@@ -48,7 +56,8 @@ export const mapasService = {
             { label: "Aplicação em prova", children: [{ label: item.materia, children: [] }, { label: "Revisão rápida", children: [] }] },
           ],
         },
-      }));
+      };
+    }));
     const local = useMiscStore.getState().mapas.map((item, index) => ({
       ...item,
       titulo: item.titulo || item.materia,
