@@ -617,11 +617,13 @@ export default function MapasMentaisPage() {
         ) : (
           <div className="space-y-2.5">
             {visibleMaps.map((m) => (
-              <button
+              <div
                 key={m.id}
+                role="button"
+                tabIndex={0}
                 onClick={() => selectMap(m.id)}
-                className="w-full rounded-2xl border border-royal/20 bg-white p-4 text-left shadow-sm transition active:scale-[0.985]"
-                type="button"
+                onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); selectMap(m.id); } }}
+                className="w-full cursor-pointer rounded-2xl border border-royal/20 bg-white p-4 text-left shadow-sm transition active:scale-[0.985]"
               >
                 <div className="flex items-start justify-between gap-2">
                   <div className="min-w-0">
@@ -638,7 +640,7 @@ export default function MapasMentaisPage() {
                   {m.estudado && <span className="rounded-full border border-emerald-100 bg-emerald-50 px-2 py-0.5 text-[11px] font-black text-emerald-700">Estudado</span>}
                   {m.svgUrl && <span className="rounded-full border border-violet-100 bg-violet-50 px-2 py-0.5 text-[11px] font-black text-violet-700">SVG</span>}
                 </div>
-              </button>
+              </div>
             ))}
           </div>
         )}
