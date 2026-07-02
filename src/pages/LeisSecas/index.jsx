@@ -369,10 +369,12 @@ export default function LeisSecasPage() {
     try {
       await leisService.gerarFlashcardsDeArtigo(selectedArticle);
       notify("Flashcard criado", "O card entrou no deck de Lei Seca.");
+    } catch (error) {
+      addNotification({ type: "error", title: "Não foi possível gerar o flashcard", message: error.message || "Tente novamente em instantes." });
     } finally {
       setLoadingAction("");
     }
-  }, [notify, selectedArticle]);
+  }, [addNotification, notify, selectedArticle]);
 
   const practiceQuestions = useCallback(async () => {
     if (!selectedArticle) return;
@@ -388,10 +390,12 @@ export default function LeisSecasPage() {
       }));
       navigate("questoes");
       notify("Filtro preparado", "Abrindo o banco de questões com foco neste artigo.");
+    } catch (error) {
+      addNotification({ type: "error", title: "Não foi possível gerar questões", message: error.message || "Tente novamente em instantes." });
     } finally {
       setLoadingAction("");
     }
-  }, [navigate, notify, selectedArticle]);
+  }, [addNotification, navigate, notify, selectedArticle]);
 
   const explainArticle = useCallback(async () => {
     if (!selectedArticle) return;
@@ -399,10 +403,12 @@ export default function LeisSecasPage() {
     try {
       const text = await leisService.explicarArtigo(selectedArticle, user?.targetContest || user?.objective || "concurso publico");
       setExplanation(text);
+    } catch (error) {
+      addNotification({ type: "error", title: "Não foi possível explicar o artigo", message: error.message || "Tente novamente em instantes." });
     } finally {
       setLoadingAction("");
     }
-  }, [selectedArticle, user]);
+  }, [addNotification, selectedArticle, user]);
 
   if (isLoading) return <DashboardSkeleton embedded label="Carregando leis secas" />;
 
