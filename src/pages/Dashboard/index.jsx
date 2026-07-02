@@ -3,7 +3,7 @@ import { BookOpen, CalendarCheck, ChevronRight, Clock, ClipboardList, Dumbbell, 
 import { AIPanel } from "../../ai";
 import { Badge, Button, Card, ProgressBar, cx } from "../../components";
 import { ASSISTENTE_ATIVO } from "../../config/features";
-import { useInternalRouter, useUser } from "../../contexts";
+import { useInternalRouter, useNotifications, useUser } from "../../contexts";
 import { isSupabaseConfigured, supabase } from "../../lib/supabase";
 import { aiService, questoesService } from "../../services";
 import { useApostilaStore, usePlanoStore, useQuestoesStore, useRankingStore, useRevisaoStore } from "../../stores";
@@ -169,6 +169,7 @@ function ChartFallback() {
 export default function DashboardPage() {
   const { user } = useUser();
   const { navigate } = useInternalRouter();
+  const { addNotification } = useNotifications();
   const tentativas = useQuestoesStore((state) => state.tentativas);
   const apostilaTentativas = useApostilaStore((state) => state.tentativas);
   const apostilaRevisoes = useApostilaStore((state) => state.revisoes);
@@ -328,6 +329,8 @@ export default function DashboardPage() {
     try {
       const texto = await aiService.gerarRelatorio(user, desempenhoIA, "geral");
       setRelatorio(texto);
+    } catch (error) {
+      addNotification({ type: "error", title: "Não foi possível gerar o relatório", message: error.message || "Tente novamente em instantes." });
     } finally {
       setGerandoRelatorio(false);
     }
