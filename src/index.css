@@ -9885,6 +9885,33 @@ main {
   }
 }
 
+/* Cards de usuario do admin: sem nenhum efeito de hover/active nos botoes
+   de acao (Vitalicio/Cancelar/Deletar) - nada de "lift", sombra crescendo,
+   ou troca de cor do degrade ao passar o cursor/dedo pela lista. */
+.admin-user-card-actions button,
+.admin-user-card-actions button:hover,
+.admin-user-card-actions button:active,
+.admin-user-card-actions button:focus,
+.admin-user-card-actions button:focus-visible {
+  transition: none !important;
+  transform: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  --tw-gradient-from: var(--admin-btn-from) !important;
+  --tw-gradient-to: var(--admin-btn-to) !important;
+}
+
+.admin-user-card-actions button:nth-child(1) {
+  --admin-btn-from: #2563eb;
+  --admin-btn-to: #1d4ed8;
+}
+
+.admin-user-card-actions button:nth-child(2),
+.admin-user-card-actions button:nth-child(3) {
+  --admin-btn-from: #ef4444;
+  --admin-btn-to: #dc2626;
+}
+
 @media (max-width: 767px) {
   html {
     min-height: 100%;
@@ -9930,14 +9957,6 @@ main {
 
   .internal-app main.is-pulling {
     transform: translateY(var(--pull-distance, 0));
-  }
-
-  /* Cards de usuario do admin: cancela o "lift" de hover dos botoes
-     (util no mouse/trackpad, mas fica estranho ao passar/rolar pela lista
-     num dispositivo com ponteiro fino, ex.: emulacao mobile ou S-Pen). */
-  .admin-user-card-actions button:hover,
-  .admin-user-card-actions button:active {
-    transform: none !important;
   }
 
   .internal-app main,
