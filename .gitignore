@@ -34,3 +34,13 @@ analyze-tmp*.cjs
 bundle-out.txt
 bundle-report.txt
 *.json.bak
+
+# Android / TWA build artifacts (nao versionar - chave de assinatura e binarios)
+android.keystore
+*.apk
+*.apk.idsig
+*.aab
+.gradle/
+build/
+app/build/
+local.properties
