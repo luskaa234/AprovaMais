@@ -1,6 +1,6 @@
 ﻿import { useState } from "react";
 import { motion } from "framer-motion";
-import { CheckCircle2, Dumbbell, Plus, Target } from "lucide-react";
+import { Activity, CheckCircle2, Dumbbell, HeartPulse, PersonStanding, Plus, Target } from "lucide-react";
 
 const equipmentNames = {
   "body weight": "peso corporal",
@@ -29,6 +29,15 @@ const muscleNames = {
   back: "costas",
   biceps: "bíceps",
 };
+
+const legMuscles = new Set(["quadriceps", "hamstrings", "calves", "hip flexors", "lower back", "back"]);
+
+function MuscleIcon({ target = "", ...props }) {
+  const key = String(target).toLowerCase();
+  if (key === "cardiovascular" || key === "cardiovascular system") return <HeartPulse {...props} />;
+  if (legMuscles.has(key)) return <PersonStanding {...props} />;
+  return <Activity {...props} />;
+}
 
 const exerciseNames = {
   "short stride run": "Corrida curta em ritmo controlado",
@@ -107,7 +116,10 @@ export function ExercicioCard({ exercicio, tipo, index = 0, onRegistrar }) {
         {!imgError && exercicio.gifUrl ? (
           <img src={exercicio.gifUrl} alt={exercicio.name} className="h-full w-full object-contain" onError={() => setImgError(true)} />
         ) : (
-          <span className="text-sm text-gray-400">Exercício TAF</span>
+          <div className="flex flex-col items-center gap-2 px-4 text-center">
+            <MuscleIcon target={exercicio.target} size={40} strokeWidth={1.5} className="text-gray-500" />
+            <span className="text-xs font-semibold text-gray-400">{translateExerciseName(exercicio.name)}</span>
+          </div>
         )}
         <span className="absolute right-2 top-2 rounded-full bg-royal/10 px-2 py-1 text-xs font-semibold text-navy ring-1 ring-royal/30">
           {equipment}
