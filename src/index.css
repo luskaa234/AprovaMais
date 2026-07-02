@@ -9932,6 +9932,14 @@ main {
     transform: translateY(var(--pull-distance, 0));
   }
 
+  /* Cards de usuario do admin: cancela o "lift" de hover dos botoes
+     (util no mouse/trackpad, mas fica estranho ao passar/rolar pela lista
+     num dispositivo com ponteiro fino, ex.: emulacao mobile ou S-Pen). */
+  .admin-user-card-actions button:hover,
+  .admin-user-card-actions button:active {
+    transform: none !important;
+  }
+
   .internal-app main,
   .internal-app .overflow-auto,
   .internal-app .overflow-y-auto,

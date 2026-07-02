@@ -267,7 +267,7 @@ export const AdminLayout = memo(({ standalone = false }) => {
           {usuarios.map((user) => {
             const badge = planBadge(user);
             return (
-              <div key={user.id} className="rounded-xl border border-royal/20 bg-slate-50 p-4">
+              <div key={user.id} className="admin-user-card rounded-xl border border-royal/20 bg-slate-50 p-4">
                 <div className="flex items-start justify-between gap-2">
                   <div className="min-w-0">
                     <strong className="block truncate text-slate-950">{user.name || "Aluno"}</strong>
@@ -281,7 +281,7 @@ export const AdminLayout = memo(({ standalone = false }) => {
                   <p><span className="font-bold text-slate-500">Criado:</span> {formatDate(user.created_at)}</p>
                   <p><span className="font-bold text-slate-500">Atividade:</span> {formatDate(user.updated_at)}</p>
                 </div>
-                <div className="mt-3 grid grid-cols-3 gap-2">
+                <div className="admin-user-card-actions mt-3 grid grid-cols-3 gap-2">
                   <Button icon={CheckCircle2} loading={actionId === `vitalicio-${user.id}`} onClick={() => runAction(user.id, "vitalicio")} size="sm">Vitalício</Button>
                   <Button icon={Ban} loading={actionId === `cancelar-${user.id}`} onClick={() => runAction(user.id, "cancelar")} size="sm" variant="danger">Cancelar</Button>
                   <Button
