@@ -508,7 +508,7 @@ export const questoesService = {
       if (filters.materia) query = query.eq("materia", filters.materia);
       if (filters.assunto) query = query.ilike("topico", `%${filters.assunto}%`);
       if (filters.dificuldade) query = query.ilike("dificuldade", `%${filters.dificuldade}%`);
-      if (filters.search) query = query.textSearch("enunciado", filters.search, { config: "portuguese" });
+      if (filters.search) query = query.textSearch("enunciado", filters.search, { config: "portuguese", type: "websearch" });
       const { data, count, error } = await query;
       if (error) throw error;
       const stats = await this.getStats();
@@ -583,7 +583,7 @@ export const questoesService = {
     if (filters.materia) query = query.eq("materia", filters.materia);
     if (filters.dificuldade) query = query.ilike("dificuldade", `%${filters.dificuldade}%`);
     if (filters.assunto || filters.topico) query = query.ilike("topico", `%${filters.assunto || filters.topico}%`);
-    if (filters.search) query = query.textSearch("enunciado", filters.search, { config: "portuguese" });
+    if (filters.search) query = query.textSearch("enunciado", filters.search, { config: "portuguese", type: "websearch" });
 
     const { data, error } = await query;
     if (error) throw error;
@@ -608,7 +608,7 @@ export const questoesService = {
       if (filters.materia) query = query.eq("materia", filters.materia);
       if (filters.dificuldade) query = query.ilike("dificuldade", `%${filters.dificuldade}%`);
       if (filters.assunto || filters.topico) query = query.ilike("topico", `%${filters.assunto || filters.topico}%`);
-      if (filters.search) query = query.textSearch("enunciado", filters.search, { config: "portuguese" });
+      if (filters.search) query = query.textSearch("enunciado", filters.search, { config: "portuguese", type: "websearch" });
       const { data, error } = await query;
       if (error) throw error;
       if (data?.length) candidates.push(...data.map(mapQuestao));
