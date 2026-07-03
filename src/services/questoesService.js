@@ -259,6 +259,12 @@ function inferQuestionArea(questao = {}) {
   return "geral";
 }
 
+function resolveQuestionArea(row = {}, questao = {}) {
+  const explicit = normalize(row.trilha);
+  if (["militar", "oab", "geral"].includes(explicit)) return explicit;
+  return inferQuestionArea(questao);
+}
+
 function matchesArea(questao = {}, area = "") {
   if (!area || normalizeArea(area) === "geral") return true;
   return inferQuestionArea(questao) === normalizeArea(area);
@@ -396,12 +402,15 @@ function mapQuestao(row) {
   const gabarito = String(row.gabarito || "").toLowerCase();
   const enunciado = normalizeContentText(row.enunciado);
   const ano = row.ano || enunciado.match(/\b(20\d{2})\b/)?.[1] || "";
+  const richAlternativas = Array.isArray(row.alternativas_json) ? row.alternativas_json : null;
   const rowAlternativas = Array.isArray(row.alternativas)
     ? Object.fromEntries(row.alternativas.map((item) => [`alternativa_${String(item.letra || "").toLowerCase()}`, normalizeContentText(item.texto)]))
     : {};
   const isCertoErrado = row.formato === "certo_errado";
   const materia = normalizeContentText(row.materia);
   const topico = normalizeContentText(row.topico);
+  const assunto = normalizeContentText(row.assunto) || topico || materia;
+  const competencia = normalizeContentText(row.competencia);
   const origem = normalizeContentText(row.origem);
   const comentario = normalizeContentText(row.comentario || "Comentário ainda não disponível.");
   const mapped = {
@@ -415,16 +424,24 @@ function mapQuestao(row) {
         { id: "e", letra: "E", texto: "Errado", correta: gabarito === "e" },
       ]
       : letras
-        .map((letra) => ({ id: letra, letra: letra.toUpperCase(), texto: normalizeContentText(row[`alternativa_${letra}`] || rowAlternativas[`alternativa_${letra}`]), correta: letra === gabarito }))
-        .filter((alt) => alt.texto),
+        .map((letra) => {
+          const rich = richAlternativas?.find((item) => String(item.letra || "").toLowerCase() === letra);
+          const texto = normalizeContentText(rich?.texto || row[`alternativa_${letra}`] || rowAlternativas[`alternativa_${letra}`]);
+          if (!texto) return null;
+          return { id: letra, letra: letra.toUpperCase(), texto, correta: letra === gabarito, motivo: normalizeContentText(rich?.motivo || "") };
+        })
+        .filter(Boolean),
     gabarito,
     comentario,
+    rotulo: normalizeContentText(row.rotulo),
+    fundamento: normalizeContentText(row.fundamento),
     banca: normalizeContentText(row.banca || "PM"),
     concurso: normalizeContentText(row.concurso || row.orgao || "PM"),
     orgao: normalizeContentText(row.orgao || row.concurso || "PM"),
     cargo: normalizeContentText(row.cargo || "Soldado"),
     materia,
-    assunto: topico || materia,
+    assunto,
+    competencia,
     materiaLabel: getSubjectLabel(materia),
     assuntoLabel: getSubjectLabel(materia),
     concursoLabel: getContestLabel(row.concurso || row.orgao || "PM"),
@@ -436,7 +453,7 @@ function mapQuestao(row) {
     tags: [materia, topico, origem].filter(Boolean),
     estatisticas: { tentativas: 0, acertos: 0 },
   };
-  return { ...mapped, area: inferQuestionArea(mapped) };
+  return { ...mapped, area: resolveQuestionArea(row, mapped) };
 }
 
 function findCachedQuestaoById(id) {
