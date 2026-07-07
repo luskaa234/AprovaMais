@@ -364,7 +364,84 @@ function TAFPlan() {
 function TAFTips() {
   const dicas = useTafStore((state) => state.dicas);
   const [favorites, setFavorites] = useState([]);
-  return <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">{dicas.map((item) => <Card key={item.id}><Badge>{item.tipo}</Badge><h2 className="mt-3 font-bold text-white">{item.titulo}</h2><p className="text-sm text-gray-400">{item.resumo}</p><button className="mt-4 text-gray-300" aria-label="Favoritar dica" onClick={() => setFavorites((items) => items.includes(item.id) ? items.filter((id) => id !== item.id) : [...items, item.id])}><Heart fill={favorites.includes(item.id) ? "currentColor" : "none"} /></button></Card>)}</div>;
+  const featured = dicas[0];
+  const focus = [...new Set(dicas.map((item) => item.categoria).filter(Boolean))];
+  const weeklyRules = [
+    "Aqueça antes de medir desempenho",
+    "Registre distância, reps e descanso",
+    "Treine técnica antes de aumentar volume",
+    "Faça simulado quando estiver descansado",
+  ];
+
+  return (
+    <div className="taf-tips-view">
+      <section className="taf-tips-hero">
+        <div className="taf-tips-hero-copy">
+          <Badge variant="info">Preparacao inteligente</Badge>
+          <h2>TAF sem improviso</h2>
+          <p>Use as dicas como checklist de treino: corrida, flexao, abdominal, barra, recuperacao e semana de prova no mesmo fluxo.</p>
+          <div className="taf-tips-focus">
+            {focus.map((item) => <span key={item}>{item}</span>)}
+          </div>
+        </div>
+        <div className="taf-tips-featured">
+          <span><Lightbulb size={18} /> Destaque da semana</span>
+          <strong>{featured?.titulo}</strong>
+          <p>{featured?.resumo}</p>
+          <div>
+            <Badge variant="success">{featured?.intensidade}</Badge>
+            <Badge variant="neutral">{featured?.duracao}</Badge>
+          </div>
+        </div>
+      </section>
+
+      <section className="taf-tips-rules">
+        {weeklyRules.map((item, index) => (
+          <div key={item} className="taf-tip-rule">
+            <span>{index + 1}</span>
+            <strong>{item}</strong>
+          </div>
+        ))}
+      </section>
+
+      <section className="taf-tips-grid">
+        {dicas.map((item, index) => {
+          const active = favorites.includes(item.id);
+          return (
+            <Card className="taf-tip-card" key={item.id}>
+              <div className="taf-tip-card-head">
+                <div>
+                  <Badge variant={index % 3 === 0 ? "info" : index % 3 === 1 ? "success" : "warning"}>{item.tipo}</Badge>
+                  <span>{item.categoria}</span>
+                </div>
+                <button
+                  className={cx("taf-tip-favorite", active && "is-active")}
+                  aria-label="Favoritar dica"
+                  onClick={() => setFavorites((items) => items.includes(item.id) ? items.filter((id) => id !== item.id) : [...items, item.id])}
+                  type="button"
+                >
+                  <Heart fill={active ? "currentColor" : "none"} size={20} />
+                </button>
+              </div>
+              <h2>{item.titulo}</h2>
+              <p>{item.resumo}</p>
+              <div className="taf-tip-meta">
+                <span><Target size={14} /> {item.foco || "Tecnica"}</span>
+                <span><Activity size={14} /> {item.intensidade || "Media"}</span>
+              </div>
+              <ul>
+                {(item.checklist || []).map((step) => <li key={step}>{step}</li>)}
+              </ul>
+              <div className="taf-tip-footer">
+                <span>{item.duracao}</span>
+                <strong>{active ? "Salvo" : "Dica pronta"}</strong>
+              </div>
+            </Card>
+          );
+        })}
+      </section>
+    </div>
+  );
 }
 
 export default function TAFPage() {

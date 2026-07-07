@@ -6,7 +6,7 @@ import { ASSISTENTE_ATIVO } from "../../config/features";
 import { useInternalRouter, useUser } from "../../contexts";
 import { isSupabaseConfigured, supabase } from "../../lib/supabase";
 import { aiService, questoesService } from "../../services";
-import { usePlanoStore, useQuestoesStore, useRankingStore, useRevisaoStore } from "../../stores";
+import { useApostilaStore, usePlanoStore, useQuestoesStore, useRankingStore, useRevisaoStore } from "../../stores";
 
 const PerformanceChart = lazy(() => import("../../charts").then((module) => ({ default: module.PerformanceChart })));
 const StudyTimeChart = lazy(() => import("../../charts").then((module) => ({ default: module.StudyTimeChart })));
@@ -139,7 +139,7 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
         </div>
         {revisoes.slice(0, 3).map((item) => (
           <div className="mobile-study-list-item" key={item.id || item.assuntoId}>
-            <span>{item.frente || item.assunto}</span>
+            <span>{item.frente || item.assunto}{item.tarefa ? ` - ${item.tarefa}` : ""}</span>
             <Badge variant="warning">{item.urgencia || item.proxima || "hoje"}</Badge>
           </div>
         ))}
@@ -170,6 +170,8 @@ export default function DashboardPage() {
   const { user } = useUser();
   const { navigate } = useInternalRouter();
   const tentativas = useQuestoesStore((state) => state.tentativas);
+  const apostilaTentativas = useApostilaStore((state) => state.tentativas);
+  const apostilaRevisoes = useApostilaStore((state) => state.revisoes);
   const questoes = useQuestoesStore((state) => state.questoes);
   const rankingLocal = useRankingStore((state) => state.ranking);
   const revisoesLocais = useRevisaoStore((state) => state.revisoes);
@@ -185,21 +187,12 @@ export default function DashboardPage() {
   const objectiveContent = useMemo(() => getObjectiveContent(user), [user]);
   const objectiveArea = useMemo(() => questoesService.resolveAreaFromUser(user), [user]);
   const revisoesLocal = useMemo(
-    () => revisoesLocais.filter((item) => item.proximaRevisao <= hojeDashboard),
-    [hojeDashboard, revisoesLocais]
+    () => [
+      ...revisoesLocais.filter((item) => item.proximaRevisao <= hojeDashboard),
+      ...apostilaRevisoes.filter((item) => item.proximaRevisao <= hojeDashboard || item.gatilhoErro),
+    ],
+    [apostilaRevisoes, hojeDashboard, revisoesLocais]
   );
-
-  const localPerformance = useMemo(() => {
-    const labels = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sab"];
-    return Array.from({ length: 7 }, (_, offset) => {
-      const date = new Date();
-      date.setDate(date.getDate() - (6 - offset));
-      const key = date.toISOString().slice(0, 10);
-      const doDia = tentativas.filter((item) => item.data?.slice(0, 10) === key);
-      const acertos = doDia.filter((item) => item.acertou).length;
-      return { label: labels[date.getDay()], acertos: doDia.length ? Math.round((acertos / doDia.length) * 100) : 0 };
-    });
-  }, [tentativas]);
 
   useEffect(() => {
     const showCharts = () => setChartsReady(true);
@@ -274,18 +267,35 @@ export default function DashboardPage() {
     };
   }, [objectiveArea]);
 
-  const activeTentativas = useMemo(() => (usingSupabaseUser ? (remote.tentativas || EMPTY_ARRAY) : tentativas), [remote.tentativas, tentativas, usingSupabaseUser]);
+  const activeTentativas = useMemo(
+    () => [...(usingSupabaseUser ? (remote.tentativas || EMPTY_ARRAY) : tentativas), ...apostilaTentativas],
+    [apostilaTentativas, remote.tentativas, tentativas, usingSupabaseUser]
+  );
+  const performance = useMemo(() => {
+    const labels = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sab"];
+    const gradedAttempts = activeTentativas.filter((item) => typeof item.acertou === "boolean");
+    return Array.from({ length: 7 }, (_, offset) => {
+      const date = new Date();
+      date.setDate(date.getDate() - (6 - offset));
+      const key = date.toISOString().slice(0, 10);
+      const doDia = gradedAttempts.filter((item) => item.data?.slice(0, 10) === key);
+      const acertos = doDia.filter((item) => item.acertou).length;
+      return { label: labels[date.getDay()], acertos: doDia.length ? Math.round((acertos / doDia.length) * 100) : 0 };
+    });
+  }, [activeTentativas]);
   const tempo = useMemo(() => {
     if (usingSupabaseUser) return [];
     return Object.entries(progressoPorDisciplina).map(([label, valor]) => ({ label, valor }));
   }, [progressoPorDisciplina, usingSupabaseUser]);
   const stats = remote.profile || user.rawStats || {};
-  const revisoes = usingSupabaseUser ? (remote.revisoes || EMPTY_ARRAY) : revisoesLocal;
+  const revisoes = usingSupabaseUser
+    ? [...(remote.revisoes || EMPTY_ARRAY), ...apostilaRevisoes.filter((item) => item.proximaRevisao <= hojeDashboard || item.gatilhoErro)]
+    : revisoesLocal;
   const ranking = usingSupabaseUser ? (remote.ranking || EMPTY_ARRAY) : rankingLocal;
-  const performance = usingSupabaseUser ? (remote.performance || EMPTY_ARRAY) : localPerformance;
   const questoesResolvidas = activeTentativas.length;
-  const acertos = activeTentativas.filter((item) => item.acertou).length;
-  const taxaAcertos = questoesResolvidas ? Math.round((acertos / questoesResolvidas) * 100) : 0;
+  const gradedTentativas = activeTentativas.filter((item) => typeof item.acertou === "boolean");
+  const acertos = gradedTentativas.filter((item) => item.acertou).length;
+  const taxaAcertos = gradedTentativas.length ? Math.round((acertos / gradedTentativas.length) * 100) : 0;
   const sequenciaTentativas = new Set(activeTentativas.map((item) => item.data?.slice(0, 10)).filter(Boolean)).size;
   const desempenhoIA = useMemo(() => {
     const porMateria = activeTentativas.reduce((acc, tentativa) => {
@@ -294,8 +304,8 @@ export default function DashboardPage() {
       if (!materia || materia === "Nao informada" || materia === "Não informada") return acc;
       acc[materia] ||= { acertos: 0, total: 0, erros: 0 };
       acc[materia].total += 1;
-      if (tentativa.acertou) acc[materia].acertos += 1;
-      else acc[materia].erros += 1;
+      if (tentativa.acertou === true) acc[materia].acertos += 1;
+      if (tentativa.acertou === false) acc[materia].erros += 1;
       return acc;
     }, {});
     const materiasFracas = Object.entries(porMateria)
@@ -511,9 +521,12 @@ export default function DashboardPage() {
           <h2 className="mb-3 font-bold text-white">Próximas revisões</h2>
           {revisoes.length ? (
             revisoes.slice(0, 4).map((item) => (
-              <div key={item.id || item.assuntoId} className="mb-2 flex justify-between rounded-lg bg-gray-900 p-3 text-sm text-gray-300">
-                <span>{item.frente || item.assunto}</span>
-                <Badge variant="warning">{item.urgencia || item.proxima || "hoje"}</Badge>
+              <div key={item.id || item.assuntoId} className="mb-2 rounded-lg bg-gray-900 p-3 text-sm text-gray-300">
+                <div className="flex justify-between gap-3">
+                  <span>{item.frente || item.assunto}</span>
+                  <Badge variant="warning">{item.urgencia || item.proxima || "hoje"}</Badge>
+                </div>
+                {item.tarefa ? <p className="mt-2 text-xs leading-relaxed text-gray-400">{item.tarefa}</p> : null}
               </div>
             ))
           ) : (

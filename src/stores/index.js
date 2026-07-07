@@ -167,6 +167,51 @@ function refreshQuestionStats(tentativas = []) {
   });
 }
 
+function addDays(days) {
+  const date = new Date();
+  date.setDate(date.getDate() + days);
+  return toLocalDate(date.toISOString());
+}
+
+function buildApostilaReview(attempts = [], chapter = {}) {
+  const chapterAttempts = attempts.filter((item) => item.chapterId === chapter.id);
+  const gradedAttempts = chapterAttempts.filter((item) => typeof item.acertou === "boolean");
+  const correct = gradedAttempts.filter((item) => item.acertou).length;
+  const wrong = gradedAttempts.filter((item) => !item.acertou);
+  const accuracy = gradedAttempts.length ? Math.round((correct / gradedAttempts.length) * 100) : 0;
+  const triggerAttempt = wrong.find((item) => item.questionIndex === 2 || item.questionIndex === 3);
+  const wrongLabels = [...new Set(wrong.map((item) => `q${Number(item.questionIndex || 0) + 1}`))];
+  const openAnswered = chapterAttempts.some((item) => item.tipo === "resposta_curta" || item.tipo === "comparacao_conceitual");
+  const mastered = gradedAttempts.length >= 5 && accuracy >= 90 && openAnswered;
+  const dueDays = triggerAttempt || wrong.length ? 1 : mastered ? 30 : gradedAttempts.length >= 3 ? 7 : 1;
+  const task = triggerAttempt
+    ? (chapter.revisaoProgramada?.gatilhoErro || "Voltar para a explicacao simples e gerar nova questao pela IA.")
+    : wrongLabels.length
+      ? `refazer ${wrongLabels.join(" e ")} + revisar flashcards`
+      : mastered
+        ? (chapter.revisaoProgramada?.criterioDominio || "Dominio ideal atingido. Manter revisao espacada.")
+        : "resolver mais questoes do capitulo antes de avancar a revisao";
+
+  return {
+    id: `apostila-review-${chapter.id}`,
+    assuntoId: `apostila-${chapter.id}`,
+    assunto: chapter.title,
+    frente: chapter.title,
+    materia: chapter.subject || "Apostila",
+    source: "Biblioteca",
+    proximaRevisao: addDays(dueDays),
+    urgencia: triggerAttempt || wrong.length ? "corrigir erro" : mastered ? "30 dias" : dueDays === 7 ? "7 dias" : "24h",
+    acertos: correct,
+    total: gradedAttempts.length,
+    taxaAcertos: accuracy,
+    erros: wrong.length,
+    tarefa: task,
+    criterioDominio: chapter.revisaoProgramada?.criterioDominio || "dominio ideal: 90% de acerto + explicacao simples correta + identificacao da pegadinha",
+    gatilhoErro: Boolean(triggerAttempt),
+    updatedAt: new Date().toISOString(),
+  };
+}
+
 export const useQuestoesStore = create(
   persist(
     (set, get) => ({
@@ -230,6 +275,45 @@ export const useQuestoesStore = create(
       },
     }),
     { name: "aprova-questoes" }
+  )
+);
+
+export const useApostilaStore = create(
+  persist(
+    (set, get) => ({
+      tentativas: [],
+      revisoes: [],
+      registrarTentativa: ({ chapter, question, questionIndex, resposta, acertou }) => {
+        if (!chapter?.id || !question?.id) return null;
+        const tentativa = {
+          id: uid("apostila-tentativa"),
+          questaoId: question.id,
+          chapterId: chapter.id,
+          chapterTitle: chapter.title,
+          materialTitle: chapter.materialTitle,
+          materia: chapter.subject || "Apostila",
+          assunto: chapter.assunto || chapter.title,
+          tipo: question.tipo || "questao",
+          questionIndex,
+          resposta,
+          acertou,
+          data: new Date().toISOString(),
+          source: "Biblioteca",
+        };
+        const nextAttempts = [tentativa, ...get().tentativas];
+        const review = buildApostilaReview(nextAttempts, chapter);
+        set((state) => ({
+          tentativas: nextAttempts,
+          revisoes: [review, ...state.revisoes.filter((item) => item.assuntoId !== review.assuntoId)],
+        }));
+        useRankingStore.getState().adicionarPontos(acertou === true ? 8 : acertou === false ? 2 : 4);
+        return tentativa;
+      },
+      concluirRevisao: (assuntoId) => set((state) => ({
+        revisoes: state.revisoes.map((item) => item.assuntoId === assuntoId ? { ...item, proximaRevisao: addDays(7), urgencia: "7 dias" } : item),
+      })),
+    }),
+    { name: "aprova-apostilas-desempenho" }
   )
 );
 
