@@ -6,11 +6,11 @@
 export const direitoDigitalLgpdAvancado = [
   {
     "id": "fundamentos-do-direito-digital",
-    "materialTitle": "Direito Digital/LGPD Avançado",
+    "materialTitle": "Direito Digital/LGPD Avançado 10/10 Plus Revisado",
     "subject": "Direito Digital/LGPD Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Digital/LGPD Avançado",
+    "moduleTitle": "Direito Digital/LGPD Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Fundamentos do Direito Digital",
@@ -143,13 +143,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Fundamentos do Direito Digital, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Direito Digital regula relações mediadas por tecnologia, dados, plataformas e riscos informacionais.",
           "Tratar tecnologia como zona sem norma.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Fundamentos do Direito Digital como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados.",
+          "Direito Digital regula relações mediadas por tecnologia, dados, plataformas e riscos informacionais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Direito Digital regula relações mediadas por tecnologia, dados, plataformas e riscos informacionais."
       },
       {
@@ -180,13 +181,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Fundamentos do Direito Digital quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Não é só informática: envolve responsabilidade, prova, consumo, privacidade e segurança.",
           "Tratar tecnologia como zona sem norma.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Não é só informática: envolve responsabilidade, prova, consumo, privacidade e segurança.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Fundamentos do Direito Digital como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -215,13 +217,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Fundamentos do Direito Digital?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Direito Digital regula relações mediadas por tecnologia, dados, plataformas e riscos informacionais.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Tratar tecnologia como zona sem norma.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Fundamentos do Direito Digital como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Direito Digital regula relações mediadas por tecnologia, dados, plataformas e riscos informacionais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -236,11 +239,11 @@ export const direitoDigitalLgpdAvancado = [
   },
   {
     "id": "marco-civil-da-internet",
-    "materialTitle": "Direito Digital/LGPD Avançado",
+    "materialTitle": "Direito Digital/LGPD Avançado 10/10 Plus Revisado",
     "subject": "Direito Digital/LGPD Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Digital/LGPD Avançado",
+    "moduleTitle": "Direito Digital/LGPD Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Marco Civil da Internet",
@@ -373,13 +376,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Marco Civil da Internet, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Marco Civil organiza direitos, deveres e princípios de uso da internet no Brasil.",
           "Achar que provedor responde sempre por conteúdo de terceiro.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Marco Civil organiza direitos, deveres e princípios de uso da internet no Brasil.",
+          "Tratar Marco Civil da Internet como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Marco Civil organiza direitos, deveres e princípios de uso da internet no Brasil."
       },
       {
@@ -412,8 +416,9 @@ export const direitoDigitalLgpdAvancado = [
         "alternativas": [
           "Neutralidade, privacidade, registros e responsabilidade de provedores são centrais.",
           "Achar que provedor responde sempre por conteúdo de terceiro.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Marco Civil da Internet como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -445,13 +450,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Marco Civil da Internet?",
         "alternativas": [
+          "Achar que provedor responde sempre por conteúdo de terceiro.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Marco Civil organiza direitos, deveres e princípios de uso da internet no Brasil.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Marco Civil da Internet como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -466,11 +472,11 @@ export const direitoDigitalLgpdAvancado = [
   },
   {
     "id": "lgpd-fundamentos-e-conceitos",
-    "materialTitle": "Direito Digital/LGPD Avançado",
+    "materialTitle": "Direito Digital/LGPD Avançado 10/10 Plus Revisado",
     "subject": "Direito Digital/LGPD Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Digital/LGPD Avançado",
+    "moduleTitle": "Direito Digital/LGPD Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "LGPD: fundamentos e conceitos",
@@ -603,13 +609,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre LGPD: fundamentos e conceitos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "LGPD protege dados pessoais e disciplina tratamento por agentes públicos e privados.",
           "Confundir dado anonimizado com dado pseudonimizado.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "LGPD protege dados pessoais e disciplina tratamento por agentes públicos e privados.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar LGPD: fundamentos e conceitos como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: LGPD protege dados pessoais e disciplina tratamento por agentes públicos e privados."
       },
       {
@@ -640,13 +647,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em LGPD: fundamentos e conceitos quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Dado pessoal, sensível, controlador, operador e encarregado são conceitos básicos.",
           "Confundir dado anonimizado com dado pseudonimizado.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar LGPD: fundamentos e conceitos como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados.",
+          "Dado pessoal, sensível, controlador, operador e encarregado são conceitos básicos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -675,13 +683,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre LGPD: fundamentos e conceitos?",
         "alternativas": [
+          "Confundir dado anonimizado com dado pseudonimizado.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: LGPD protege dados pessoais e disciplina tratamento por agentes públicos e privados.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar LGPD: fundamentos e conceitos como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -696,11 +705,11 @@ export const direitoDigitalLgpdAvancado = [
   },
   {
     "id": "bases-legais-de-tratamento",
-    "materialTitle": "Direito Digital/LGPD Avançado",
+    "materialTitle": "Direito Digital/LGPD Avançado 10/10 Plus Revisado",
     "subject": "Direito Digital/LGPD Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Digital/LGPD Avançado",
+    "moduleTitle": "Direito Digital/LGPD Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Bases legais de tratamento",
@@ -833,13 +842,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Bases legais de tratamento, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Tratamento precisa de base legal adequada, não apenas consentimento.",
           "Achar que consentimento resolve tudo.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Tratamento precisa de base legal adequada, não apenas consentimento.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Bases legais de tratamento como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Tratamento precisa de base legal adequada, não apenas consentimento."
       },
       {
@@ -870,13 +880,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Bases legais de tratamento quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Obrigação legal, execução de contrato, legítimo interesse e tutela da saúde podem ser bases.",
           "Achar que consentimento resolve tudo.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Obrigação legal, execução de contrato, legítimo interesse e tutela da saúde podem ser bases.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Bases legais de tratamento como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -905,13 +916,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Bases legais de tratamento?",
         "alternativas": [
+          "Achar que consentimento resolve tudo.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Tratamento precisa de base legal adequada, não apenas consentimento.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Bases legais de tratamento como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -926,11 +938,11 @@ export const direitoDigitalLgpdAvancado = [
   },
   {
     "id": "direitos-do-titular",
-    "materialTitle": "Direito Digital/LGPD Avançado",
+    "materialTitle": "Direito Digital/LGPD Avançado 10/10 Plus Revisado",
     "subject": "Direito Digital/LGPD Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Digital/LGPD Avançado",
+    "moduleTitle": "Direito Digital/LGPD Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Direitos do titular",
@@ -1063,13 +1075,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Direitos do titular, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Titular pode acessar, corrigir, eliminar, portar, informar e revogar consentimento conforme hipóteses legais.",
           "Negar direito do titular por padrão.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Direitos do titular como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados.",
+          "Titular pode acessar, corrigir, eliminar, portar, informar e revogar consentimento conforme hipóteses legais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Titular pode acessar, corrigir, eliminar, portar, informar e revogar consentimento conforme hipóteses legais."
       },
       {
@@ -1100,13 +1113,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Direitos do titular quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Atendimento ao titular deve ser documentado e seguro.",
           "Negar direito do titular por padrão.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Direitos do titular como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados.",
+          "Atendimento ao titular deve ser documentado e seguro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1135,13 +1149,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Direitos do titular?",
         "alternativas": [
+          "Negar direito do titular por padrão.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Titular pode acessar, corrigir, eliminar, portar, informar e revogar consentimento conforme hipóteses legais.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Tratar Direitos do titular como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1156,11 +1171,11 @@ export const direitoDigitalLgpdAvancado = [
   },
   {
     "id": "seguranca-da-informacao-e-incidentes",
-    "materialTitle": "Direito Digital/LGPD Avançado",
+    "materialTitle": "Direito Digital/LGPD Avançado 10/10 Plus Revisado",
     "subject": "Direito Digital/LGPD Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Digital/LGPD Avançado",
+    "moduleTitle": "Direito Digital/LGPD Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Segurança da informação e incidentes",
@@ -1293,13 +1308,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Segurança da informação e incidentes, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Segurança envolve medidas técnicas e administrativas para proteger dados.",
           "Achar que vazamento é só problema técnico.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Segurança da informação e incidentes como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados.",
+          "Segurança envolve medidas técnicas e administrativas para proteger dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Segurança envolve medidas técnicas e administrativas para proteger dados."
       },
       {
@@ -1330,13 +1346,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Segurança da informação e incidentes quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Incidente relevante pode exigir comunicação e mitigação.",
           "Achar que vazamento é só problema técnico.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Incidente relevante pode exigir comunicação e mitigação.",
+          "Tratar Segurança da informação e incidentes como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1366,9 +1383,10 @@ export const direitoDigitalLgpdAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Segurança da informação e incidentes?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Segurança envolve medidas técnicas e administrativas para proteger dados.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Achar que vazamento é só problema técnico.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Segurança da informação e incidentes como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1386,11 +1404,11 @@ export const direitoDigitalLgpdAvancado = [
   },
   {
     "id": "responsabilidade-e-sancoes-na-lgpd",
-    "materialTitle": "Direito Digital/LGPD Avançado",
+    "materialTitle": "Direito Digital/LGPD Avançado 10/10 Plus Revisado",
     "subject": "Direito Digital/LGPD Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Digital/LGPD Avançado",
+    "moduleTitle": "Direito Digital/LGPD Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Responsabilidade e sanções na LGPD",
@@ -1523,13 +1541,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Responsabilidade e sanções na LGPD, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Agentes de tratamento podem responder por danos e sofrer sanções administrativas.",
           "Achar que política no site basta.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Agentes de tratamento podem responder por danos e sofrer sanções administrativas.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Responsabilidade e sanções na LGPD como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Agentes de tratamento podem responder por danos e sofrer sanções administrativas."
       },
       {
@@ -1560,13 +1579,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Responsabilidade e sanções na LGPD quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Accountability exige prova de governança e boas práticas.",
           "Achar que política no site basta.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Accountability exige prova de governança e boas práticas.",
+          "Tratar Responsabilidade e sanções na LGPD como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1595,13 +1615,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Responsabilidade e sanções na LGPD?",
         "alternativas": [
+          "Achar que política no site basta.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Agentes de tratamento podem responder por danos e sofrer sanções administrativas.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Tratar Responsabilidade e sanções na LGPD como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1616,11 +1637,11 @@ export const direitoDigitalLgpdAvancado = [
   },
   {
     "id": "crimes-ciberneticos",
-    "materialTitle": "Direito Digital/LGPD Avançado",
+    "materialTitle": "Direito Digital/LGPD Avançado 10/10 Plus Revisado",
     "subject": "Direito Digital/LGPD Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Digital/LGPD Avançado",
+    "moduleTitle": "Direito Digital/LGPD Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Crimes cibernéticos",
@@ -1753,13 +1774,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Crimes cibernéticos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Crimes digitais podem envolver invasão, fraude, dano, falsidade, perseguição e uso indevido de dados.",
           "Chamar todo golpe online de invasão de dispositivo.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Crimes digitais podem envolver invasão, fraude, dano, falsidade, perseguição e uso indevido de dados.",
+          "Tratar Crimes cibernéticos como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Crimes digitais podem envolver invasão, fraude, dano, falsidade, perseguição e uso indevido de dados."
       },
       {
@@ -1790,13 +1812,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Crimes cibernéticos quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "O meio digital não elimina elementos típicos do crime.",
           "Chamar todo golpe online de invasão de dispositivo.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "O meio digital não elimina elementos típicos do crime.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Crimes cibernéticos como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1826,9 +1849,10 @@ export const direitoDigitalLgpdAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Crimes cibernéticos?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Crimes digitais podem envolver invasão, fraude, dano, falsidade, perseguição e uso indevido de dados.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Chamar todo golpe online de invasão de dispositivo.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Crimes cibernéticos como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1846,11 +1870,11 @@ export const direitoDigitalLgpdAvancado = [
   },
   {
     "id": "prova-digital",
-    "materialTitle": "Direito Digital/LGPD Avançado",
+    "materialTitle": "Direito Digital/LGPD Avançado 10/10 Plus Revisado",
     "subject": "Direito Digital/LGPD Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Digital/LGPD Avançado",
+    "moduleTitle": "Direito Digital/LGPD Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Prova digital",
@@ -1985,8 +2009,9 @@ export const direitoDigitalLgpdAvancado = [
         "alternativas": [
           "Prova digital exige integridade, cadeia de custódia, metadados e coleta adequada.",
           "Achar que qualquer screenshot prova tudo.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Prova digital como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2020,13 +2045,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Prova digital quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Print isolado pode ser frágil sem contexto e autenticidade.",
           "Achar que qualquer screenshot prova tudo.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Print isolado pode ser frágil sem contexto e autenticidade.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Prova digital como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2056,9 +2082,10 @@ export const direitoDigitalLgpdAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Prova digital?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Prova digital exige integridade, cadeia de custódia, metadados e coleta adequada.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Achar que qualquer screenshot prova tudo.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Prova digital como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2076,11 +2103,11 @@ export const direitoDigitalLgpdAvancado = [
   },
   {
     "id": "ia-algoritmos-e-governanca-digital",
-    "materialTitle": "Direito Digital/LGPD Avançado",
+    "materialTitle": "Direito Digital/LGPD Avançado 10/10 Plus Revisado",
     "subject": "Direito Digital/LGPD Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Digital/LGPD Avançado",
+    "moduleTitle": "Direito Digital/LGPD Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "IA, algoritmos e governança digital",
@@ -2213,13 +2240,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre IA, algoritmos e governança digital, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "IA amplia riscos de discriminação, opacidade, segurança e responsabilidade.",
           "Tratar algoritmo como decisão neutra infalível.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "IA amplia riscos de discriminação, opacidade, segurança e responsabilidade.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar IA, algoritmos e governança digital como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: IA amplia riscos de discriminação, opacidade, segurança e responsabilidade."
       },
       {
@@ -2250,13 +2278,14 @@ export const direitoDigitalLgpdAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em IA, algoritmos e governança digital quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Governança exige transparência proporcional, gestão de risco e supervisão humana.",
           "Tratar algoritmo como decisão neutra infalível.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Governança exige transparência proporcional, gestão de risco e supervisão humana.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar IA, algoritmos e governança digital como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2286,9 +2315,10 @@ export const direitoDigitalLgpdAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre IA, algoritmos e governança digital?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: IA amplia riscos de discriminação, opacidade, segurança e responsabilidade.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Tratar algoritmo como decisão neutra infalível.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar IA, algoritmos e governança digital como tema puramente tecnológico, sem base legal, finalidade, segurança e responsabilidade pelo tratamento de dados."
         ],
         "correta": 0,
         "gabaritoLetra": "A",

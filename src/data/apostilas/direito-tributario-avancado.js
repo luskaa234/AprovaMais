@@ -6,11 +6,11 @@
 export const direitoTributarioAvancado = [
   {
     "id": "sistema-tributario-e-especies-tributarias",
-    "materialTitle": "Direito Tributário Avançado",
+    "materialTitle": "Direito Tributário Avançado 10/10 Plus Revisado",
     "subject": "Direito Tributário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Tributário Avançado",
+    "moduleTitle": "Direito Tributário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Sistema tributário e espécies tributárias",
@@ -143,13 +143,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Sistema tributário e espécies tributárias, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Tributo é prestação compulsória instituída em lei; espécies se distinguem por fato gerador, vinculação e destinação quando relevante.",
           "Confundir taxa com preço público.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Sistema tributário e espécies tributárias como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento.",
+          "Tributo é prestação compulsória instituída em lei; espécies se distinguem por fato gerador, vinculação e destinação quando relevante."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Tributo é prestação compulsória instituída em lei; espécies se distinguem por fato gerador, vinculação e destinação quando relevante."
       },
       {
@@ -180,13 +181,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Sistema tributário e espécies tributárias quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Taxa exige atividade estatal específica; imposto não é vinculado.",
           "Confundir taxa com preço público.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Taxa exige atividade estatal específica; imposto não é vinculado.",
+          "Tratar Sistema tributário e espécies tributárias como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -215,10 +217,11 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Sistema tributário e espécies tributárias?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Tributo é prestação compulsória instituída em lei; espécies se distinguem por fato gerador, vinculação e de...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Identificar o instituto, seus requisitos e a consequência adequada: Tributo é prestação compulsória instituída em lei; espécies se distinguem por fato gerador, vinculação e destinação quando relevante.",
+          "Confundir taxa com preço público.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Sistema tributário e espécies tributárias como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -236,11 +239,11 @@ export const direitoTributarioAvancado = [
   },
   {
     "id": "competencia-tributaria-e-limitacoes-ao-poder-de-tributar",
-    "materialTitle": "Direito Tributário Avançado",
+    "materialTitle": "Direito Tributário Avançado 10/10 Plus Revisado",
     "subject": "Direito Tributário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Tributário Avançado",
+    "moduleTitle": "Direito Tributário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Competência tributária e limitações ao poder de tributar",
@@ -373,13 +376,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Competência tributária e limitações ao poder de tributar, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Competência é parcela constitucional de poder; limitações protegem legalidade, anterioridade, igualdade e imunidades.",
           "Confundir imunidade com isenção.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Competência tributária e limitações ao poder de tributar como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento.",
+          "Competência é parcela constitucional de poder; limitações protegem legalidade, anterioridade, igualdade e imunidades."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Competência é parcela constitucional de poder; limitações protegem legalidade, anterioridade, igualdade e imunidades."
       },
       {
@@ -412,8 +416,9 @@ export const direitoTributarioAvancado = [
         "alternativas": [
           "Aumento de tributo exige lei e respeito às anterioridades aplicáveis.",
           "Confundir imunidade com isenção.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Competência tributária e limitações ao poder de tributar como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -445,13 +450,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Competência tributária e limitações ao poder de tributar?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Competência é parcela constitucional de poder; limitações protegem legalidade, anterioridade, igualdade e i...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir imunidade com isenção.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Competência é parcela constitucional de poder; limitações protegem legalidade, anterioridade, igualdade e imunidades.",
+          "Tratar Competência tributária e limitações ao poder de tributar como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -466,11 +472,11 @@ export const direitoTributarioAvancado = [
   },
   {
     "id": "obrigacao-tributaria-e-fato-gerador",
-    "materialTitle": "Direito Tributário Avançado",
+    "materialTitle": "Direito Tributário Avançado 10/10 Plus Revisado",
     "subject": "Direito Tributário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Tributário Avançado",
+    "moduleTitle": "Direito Tributário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Obrigação tributária e fato gerador",
@@ -603,13 +609,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Obrigação tributária e fato gerador, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Obrigação principal nasce com fato gerador e tem por objeto tributo ou penalidade; acessória decorre de dever instrumental.",
           "Achar que acessória é sempre irrelevante.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Obrigação tributária e fato gerador como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento.",
+          "Obrigação principal nasce com fato gerador e tem por objeto tributo ou penalidade; acessória decorre de dever instrumental."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Obrigação principal nasce com fato gerador e tem por objeto tributo ou penalidade; acessória decorre de dever instrumental."
       },
       {
@@ -640,13 +647,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Obrigação tributária e fato gerador quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Descumprir obrigação acessória pode gerar multa mesmo sem tributo devido.",
           "Achar que acessória é sempre irrelevante.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Descumprir obrigação acessória pode gerar multa mesmo sem tributo devido.",
+          "Tratar Obrigação tributária e fato gerador como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -675,10 +683,11 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Obrigação tributária e fato gerador?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Obrigação principal nasce com fato gerador e tem por objeto tributo ou penalidade; acessória decorre de dev...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Identificar o instituto, seus requisitos e a consequência adequada: Obrigação principal nasce com fato gerador e tem por objeto tributo ou penalidade; acessória decorre de dever instrumental.",
+          "Achar que acessória é sempre irrelevante.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Obrigação tributária e fato gerador como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -696,11 +705,11 @@ export const direitoTributarioAvancado = [
   },
   {
     "id": "credito-tributario-lancamento-e-revisao",
-    "materialTitle": "Direito Tributário Avançado",
+    "materialTitle": "Direito Tributário Avançado 10/10 Plus Revisado",
     "subject": "Direito Tributário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Tributário Avançado",
+    "moduleTitle": "Direito Tributário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Crédito tributário, lançamento e revisão",
@@ -835,8 +844,9 @@ export const direitoTributarioAvancado = [
         "alternativas": [
           "Lançamento constitui crédito tributário e pode ser de ofício, por declaração ou homologação.",
           "Confundir constituição do crédito com nascimento da obrigação.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Crédito tributário, lançamento e revisão como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -870,13 +880,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Crédito tributário, lançamento e revisão quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "No lançamento por homologação, o contribuinte antecipa pagamento sob posterior homologação.",
           "Confundir constituição do crédito com nascimento da obrigação.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "No lançamento por homologação, o contribuinte antecipa pagamento sob posterior homologação.",
+          "Tratar Crédito tributário, lançamento e revisão como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -905,13 +916,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Crédito tributário, lançamento e revisão?",
         "alternativas": [
+          "Confundir constituição do crédito com nascimento da obrigação.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Lançamento constitui crédito tributário e pode ser de ofício, por declaração ou homologação.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Crédito tributário, lançamento e revisão como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -926,11 +938,11 @@ export const direitoTributarioAvancado = [
   },
   {
     "id": "suspensao-extincao-e-exclusao-do-credito",
-    "materialTitle": "Direito Tributário Avançado",
+    "materialTitle": "Direito Tributário Avançado 10/10 Plus Revisado",
     "subject": "Direito Tributário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Tributário Avançado",
+    "moduleTitle": "Direito Tributário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Suspensão, extinção e exclusão do crédito",
@@ -1063,13 +1075,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Suspensão, extinção e exclusão do crédito, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Suspensão impede exigibilidade; extinção elimina crédito; exclusão impede constituição em certas hipóteses.",
           "Tratar moratória como extinção.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Suspensão impede exigibilidade; extinção elimina crédito; exclusão impede constituição em certas hipóteses.",
+          "Tratar Suspensão, extinção e exclusão do crédito como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Suspensão impede exigibilidade; extinção elimina crédito; exclusão impede constituição em certas hipóteses."
       },
       {
@@ -1100,13 +1113,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Suspensão, extinção e exclusão do crédito quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Parcelamento suspende exigibilidade, pagamento extingue e isenção exclui.",
           "Tratar moratória como extinção.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Parcelamento suspende exigibilidade, pagamento extingue e isenção exclui.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Suspensão, extinção e exclusão do crédito como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1135,13 +1149,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Suspensão, extinção e exclusão do crédito?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Suspensão impede exigibilidade; extinção elimina crédito; exclusão impede constituição em certas hipóteses.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Tratar moratória como extinção.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Suspensão, extinção e exclusão do crédito como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Suspensão impede exigibilidade; extinção elimina crédito; exclusão impede constituição em certas hipóteses."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1156,11 +1171,11 @@ export const direitoTributarioAvancado = [
   },
   {
     "id": "responsabilidade-tributaria",
-    "materialTitle": "Direito Tributário Avançado",
+    "materialTitle": "Direito Tributário Avançado 10/10 Plus Revisado",
     "subject": "Direito Tributário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Tributário Avançado",
+    "moduleTitle": "Direito Tributário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Responsabilidade tributária",
@@ -1293,13 +1308,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Responsabilidade tributária, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Responsabilidade transfere ou atribui dever de pagar a terceiro conforme lei, sucessão, infração ou substituição.",
           "Presumir responsabilidade pessoal do administrador por qualquer inadimplência.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Responsabilidade transfere ou atribui dever de pagar a terceiro conforme lei, sucessão, infração ou substituição.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Responsabilidade tributária como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Responsabilidade transfere ou atribui dever de pagar a terceiro conforme lei, sucessão, infração ou substituição."
       },
       {
@@ -1330,13 +1346,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Responsabilidade tributária quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Sócio não responde automaticamente por dívida da empresa sem hipótese legal.",
           "Presumir responsabilidade pessoal do administrador por qualquer inadimplência.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Sócio não responde automaticamente por dívida da empresa sem hipótese legal.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Responsabilidade tributária como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1365,13 +1382,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Responsabilidade tributária?",
         "alternativas": [
+          "Presumir responsabilidade pessoal do administrador por qualquer inadimplência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Responsabilidade transfere ou atribui dever de pagar a terceiro conforme lei, sucessão, infração ou substituição.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Responsabilidade tributária como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1386,11 +1404,11 @@ export const direitoTributarioAvancado = [
   },
   {
     "id": "garantias-privilegios-e-execucao-fiscal",
-    "materialTitle": "Direito Tributário Avançado",
+    "materialTitle": "Direito Tributário Avançado 10/10 Plus Revisado",
     "subject": "Direito Tributário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Tributário Avançado",
+    "moduleTitle": "Direito Tributário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Garantias, privilégios e execução fiscal",
@@ -1523,13 +1541,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Garantias, privilégios e execução fiscal, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Crédito tributário tem garantias próprias e é cobrado por execução fiscal com regras especiais.",
           "Confundir CDA com sentença.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Crédito tributário tem garantias próprias e é cobrado por execução fiscal com regras especiais.",
+          "Tratar Garantias, privilégios e execução fiscal como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Crédito tributário tem garantias próprias e é cobrado por execução fiscal com regras especiais."
       },
       {
@@ -1560,13 +1579,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Garantias, privilégios e execução fiscal quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Inscrição em dívida ativa gera título executivo extrajudicial.",
           "Confundir CDA com sentença.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Inscrição em dívida ativa gera título executivo extrajudicial.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Garantias, privilégios e execução fiscal como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1595,13 +1615,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Garantias, privilégios e execução fiscal?",
         "alternativas": [
+          "Confundir CDA com sentença.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Crédito tributário tem garantias próprias e é cobrado por execução fiscal com regras especiais.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Garantias, privilégios e execução fiscal como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1616,11 +1637,11 @@ export const direitoTributarioAvancado = [
   },
   {
     "id": "impostos-em-especie",
-    "materialTitle": "Direito Tributário Avançado",
+    "materialTitle": "Direito Tributário Avançado 10/10 Plus Revisado",
     "subject": "Direito Tributário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Tributário Avançado",
+    "moduleTitle": "Direito Tributário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Impostos em espécie",
@@ -1753,13 +1774,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Impostos em espécie, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Impostos têm competências e fatos geradores próprios: renda, consumo, propriedade, circulação e serviços.",
           "Aplicar imposto errado só pelo nome da operação.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Impostos têm competências e fatos geradores próprios: renda, consumo, propriedade, circulação e serviços.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Impostos em espécie como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Impostos têm competências e fatos geradores próprios: renda, consumo, propriedade, circulação e serviços."
       },
       {
@@ -1790,13 +1812,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Impostos em espécie quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "ICMS, ISS e IPI exigem atenção a materialidade e competência.",
           "Aplicar imposto errado só pelo nome da operação.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "ICMS, ISS e IPI exigem atenção a materialidade e competência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Impostos em espécie como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1826,9 +1849,10 @@ export const direitoTributarioAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Impostos em espécie?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Impostos têm competências e fatos geradores próprios: renda, consumo, propriedade, circulação e serviços.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Aplicar imposto errado só pelo nome da operação.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Impostos em espécie como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1846,11 +1870,11 @@ export const direitoTributarioAvancado = [
   },
   {
     "id": "processo-administrativo-e-judicial-tributario",
-    "materialTitle": "Direito Tributário Avançado",
+    "materialTitle": "Direito Tributário Avançado 10/10 Plus Revisado",
     "subject": "Direito Tributário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Tributário Avançado",
+    "moduleTitle": "Direito Tributário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Processo administrativo e judicial tributário",
@@ -1985,8 +2009,9 @@ export const direitoTributarioAvancado = [
         "alternativas": [
           "Defesa administrativa e ações judiciais possuem efeitos distintos sobre exigibilidade e prova.",
           "Achar que qualquer ação judicial suspende automaticamente o crédito.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Processo administrativo e judicial tributário como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2020,13 +2045,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Processo administrativo e judicial tributário quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Impugnação administrativa pode suspender exigibilidade conforme regime.",
           "Achar que qualquer ação judicial suspende automaticamente o crédito.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Impugnação administrativa pode suspender exigibilidade conforme regime.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Processo administrativo e judicial tributário como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2055,13 +2081,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Processo administrativo e judicial tributário?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Defesa administrativa e ações judiciais possuem efeitos distintos sobre exigibilidade e prova.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Achar que qualquer ação judicial suspende automaticamente o crédito.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Processo administrativo e judicial tributário como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Defesa administrativa e ações judiciais possuem efeitos distintos sobre exigibilidade e prova."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -2076,11 +2103,11 @@ export const direitoTributarioAvancado = [
   },
   {
     "id": "planejamento-tributario-e-abuso",
-    "materialTitle": "Direito Tributário Avançado",
+    "materialTitle": "Direito Tributário Avançado 10/10 Plus Revisado",
     "subject": "Direito Tributário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Tributário Avançado",
+    "moduleTitle": "Direito Tributário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Planejamento tributário e abuso",
@@ -2213,13 +2240,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Planejamento tributário e abuso, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Planejamento lícito reduz carga dentro da lei; simulação e abuso podem ser desconsiderados.",
           "Confundir economia lícita com fraude sempre.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Planejamento lícito reduz carga dentro da lei; simulação e abuso podem ser desconsiderados.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Planejamento tributário e abuso como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Planejamento lícito reduz carga dentro da lei; simulação e abuso podem ser desconsiderados."
       },
       {
@@ -2250,13 +2278,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Planejamento tributário e abuso quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Estrutura negocial sem substância pode ser questionada pelo Fisco.",
           "Confundir economia lícita com fraude sempre.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Planejamento tributário e abuso como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento.",
+          "Estrutura negocial sem substância pode ser questionada pelo Fisco."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2285,13 +2314,14 @@ export const direitoTributarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Planejamento tributário e abuso?",
         "alternativas": [
+          "Confundir economia lícita com fraude sempre.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Planejamento lícito reduz carga dentro da lei; simulação e abuso podem ser desconsiderados.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Planejamento tributário e abuso como simples cobrança administrativa, sem fato gerador, sujeito passivo, base de cálculo e lançamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {

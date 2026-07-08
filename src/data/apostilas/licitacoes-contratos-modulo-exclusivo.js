@@ -7,11 +7,11 @@
 export const licitacoesContratosModuloExclusivo = [
   {
     "id": "licitacoes-e-contratos-modulo-exclusivo-01-contratacao-publica-finalidade-planejamento-e-governanca",
-    "materialTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "materialTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "subject": "Licitações e Contratos — Módulo Exclusivo",
     "contest": "Tribunais / Administração / Controle / Prefeituras",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Contratação pública: finalidade, planejamento e governança",
@@ -179,19 +179,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Contratação pública: finalidade, planejamento e governança, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar licitação como instrumento para contratar solução vantajosa e controlar risco, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Pular planejamento e tentar corrigir tudo na disputa.",
+          "Publicar edital de Contratação pública: finalidade, planejamento e governança antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório.",
+          "Identificar licitação como instrumento para contratar solução vantajosa e controlar risco, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: definir necessidade, solução, risco, orçamento e fiscalização, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Pular planejamento e tentar corrigir tudo na disputa.",
+          "Errada: Publicar edital de Contratação pública: finalidade, planejamento e governança antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório.",
+          "Correta: Identificar licitação como instrumento para contratar solução vantajosa e controlar risco, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ]
       },
       {
@@ -220,19 +222,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Contratação pública: finalidade, planejamento e governança é:",
         "alternativas": [
-          "contratar bem começa antes do edital, com problema e necessidade definidos",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Pular planejamento e tentar corrigir tudo na disputa.",
+          "Publicar edital de Contratação pública: finalidade, planejamento e governança antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Contratar bem começa antes do edital, com problema e necessidade definidos.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Pular planejamento e tentar corrigir tudo na disputa.",
+          "Errada: Publicar edital de Contratação pública: finalidade, planejamento e governança antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Correta: Contratar bem começa antes do edital, com problema e necessidade definidos.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -261,19 +265,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Contratação pública: finalidade, planejamento e governança?",
         "alternativas": [
-          "Supor que pular planejamento e tentar corrigir tudo na disputa é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Pular planejamento e tentar corrigir tudo na disputa.",
+          "Publicar edital de Contratação pública: finalidade, planejamento e governança antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório.",
+          "Supor que pular planejamento e tentar corrigir tudo na disputa é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Pular planejamento e tentar corrigir tudo na disputa.",
+          "Errada: Publicar edital de Contratação pública: finalidade, planejamento e governança antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório.",
+          "Correta: Supor que pular planejamento e tentar corrigir tudo na disputa é aceitável porque simplifica o trabalho."
         ]
       },
       {
@@ -287,11 +293,11 @@ export const licitacoesContratosModuloExclusivo = [
   },
   {
     "id": "licitacoes-e-contratos-modulo-exclusivo-02-principios-e-objetivos-da-licitacao",
-    "materialTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "materialTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "subject": "Licitações e Contratos — Módulo Exclusivo",
     "contest": "Tribunais / Administração / Controle / Prefeituras",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Princípios e objetivos da licitação",
@@ -459,19 +465,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Princípios e objetivos da licitação, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar legalidade, impessoalidade, competitividade, julgamento objetivo, eficiência e desenvolvimento sustentável, verificar competência, observar o procedimento e registrar a dec...",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Usar formalismo para afastar proposta vantajosa sem risco real.",
+          "Publicar edital de Princípios e objetivos da licitação antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: legalidade, impessoalidade, competitividade, julgamento objetivo, eficiência e desenvolvimento sustentável.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar princípio afetado e consequência no caso, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Usar formalismo para afastar proposta vantajosa sem risco real.",
+          "Errada: Publicar edital de Princípios e objetivos da licitação antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Correta: Identificar o instituto, seus requisitos e a consequência adequada: legalidade, impessoalidade, competitividade, julgamento objetivo, eficiência e desenvolvimento sustentável.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -500,19 +508,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Princípios e objetivos da licitação é:",
         "alternativas": [
-          "princípio orienta interpretação quando a regra não basta",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Usar formalismo para afastar proposta vantajosa sem risco real.",
+          "Publicar edital de Princípios e objetivos da licitação antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Princípio orienta interpretação quando a regra não basta.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Usar formalismo para afastar proposta vantajosa sem risco real.",
+          "Errada: Publicar edital de Princípios e objetivos da licitação antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Correta: Princípio orienta interpretação quando a regra não basta.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -541,19 +551,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Princípios e objetivos da licitação?",
         "alternativas": [
-          "Supor que usar formalismo para afastar proposta vantajosa sem risco real é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Usar formalismo para afastar proposta vantajosa sem risco real.",
+          "Publicar edital de Princípios e objetivos da licitação antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório.",
+          "Supor que usar formalismo para afastar proposta vantajosa sem risco real é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Usar formalismo para afastar proposta vantajosa sem risco real.",
+          "Errada: Publicar edital de Princípios e objetivos da licitação antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório.",
+          "Correta: Supor que usar formalismo para afastar proposta vantajosa sem risco real é aceitável porque simplifica o trabalho."
         ]
       },
       {
@@ -567,11 +579,11 @@ export const licitacoesContratosModuloExclusivo = [
   },
   {
     "id": "licitacoes-e-contratos-modulo-exclusivo-03-fase-preparatoria-e-estudo-tecnico-preliminar",
-    "materialTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "materialTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "subject": "Licitações e Contratos — Módulo Exclusivo",
     "contest": "Tribunais / Administração / Controle / Prefeituras",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Fase preparatória e estudo técnico preliminar",
@@ -739,19 +751,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Fase preparatória e estudo técnico preliminar, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar diagnóstico da necessidade, mercado, riscos e solução adequada, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Copiar objeto antigo sem justificar necessidade atual.",
+          "Publicar edital de Fase preparatória e estudo técnico preliminar antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório.",
+          "Identificar diagnóstico da necessidade, mercado, riscos e solução adequada, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: conectar problema, solução, requisitos e risco, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Copiar objeto antigo sem justificar necessidade atual.",
+          "Errada: Publicar edital de Fase preparatória e estudo técnico preliminar antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório.",
+          "Correta: Identificar diagnóstico da necessidade, mercado, riscos e solução adequada, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ]
       },
       {
@@ -780,19 +794,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Fase preparatória e estudo técnico preliminar é:",
         "alternativas": [
-          "ETP malfeito gera edital frágil e contrato problemático",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Copiar objeto antigo sem justificar necessidade atual.",
+          "ETP malfeito gera edital frágil e contrato problemático.",
+          "Publicar edital de Fase preparatória e estudo técnico preliminar antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Copiar objeto antigo sem justificar necessidade atual.",
+          "Correta: ETP malfeito gera edital frágil e contrato problemático.",
+          "Errada: Publicar edital de Fase preparatória e estudo técnico preliminar antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -821,19 +837,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Fase preparatória e estudo técnico preliminar?",
         "alternativas": [
+          "Copiar objeto antigo sem justificar necessidade atual.",
           "Supor que copiar objeto antigo sem justificar necessidade atual é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Publicar edital de Fase preparatória e estudo técnico preliminar antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Copiar objeto antigo sem justificar necessidade atual.",
+          "Correta: Supor que copiar objeto antigo sem justificar necessidade atual é aceitável porque simplifica o trabalho.",
+          "Errada: Publicar edital de Fase preparatória e estudo técnico preliminar antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -847,11 +865,11 @@ export const licitacoesContratosModuloExclusivo = [
   },
   {
     "id": "licitacoes-e-contratos-modulo-exclusivo-04-termo-de-referencia-projeto-basico-e-matriz-de-riscos",
-    "materialTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "materialTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "subject": "Licitações e Contratos — Módulo Exclusivo",
     "contest": "Tribunais / Administração / Controle / Prefeituras",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Termo de referência, projeto básico e matriz de riscos",
@@ -1020,18 +1038,20 @@ export const licitacoesContratosModuloExclusivo = [
         "enunciado": "Em Termo de referência, projeto básico e matriz de riscos, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar documentos que detalham objeto, critérios, obrigações e distribuição de riscos, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Descrever objeto genérico e exigir resultado específico depois.",
+          "Publicar edital de Termo de referência, projeto básico e matriz de riscos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: verificar clareza, mensuração e alocação de riscos, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar documentos que detalham objeto, critérios, obrigações e distribuição de riscos, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Descrever objeto genérico e exigir resultado específico depois.",
+          "Errada: Publicar edital de Termo de referência, projeto básico e matriz de riscos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -1060,19 +1080,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Termo de referência, projeto básico e matriz de riscos é:",
         "alternativas": [
-          "objeto claro reduz disputa, aditivo indevido e execução ruim",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Objeto claro reduz disputa, aditivo indevido e execução ruim.",
+          "Descrever objeto genérico e exigir resultado específico depois.",
+          "Publicar edital de Termo de referência, projeto básico e matriz de riscos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: Objeto claro reduz disputa, aditivo indevido e execução ruim.",
+          "Errada: Descrever objeto genérico e exigir resultado específico depois.",
+          "Errada: Publicar edital de Termo de referência, projeto básico e matriz de riscos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -1101,19 +1123,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Termo de referência, projeto básico e matriz de riscos?",
         "alternativas": [
+          "Descrever objeto genérico e exigir resultado específico depois.",
           "Supor que descrever objeto genérico e exigir resultado específico depois é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Publicar edital de Termo de referência, projeto básico e matriz de riscos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Descrever objeto genérico e exigir resultado específico depois.",
+          "Correta: Supor que descrever objeto genérico e exigir resultado específico depois é aceitável porque simplifica o trabalho.",
+          "Errada: Publicar edital de Termo de referência, projeto básico e matriz de riscos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -1127,11 +1151,11 @@ export const licitacoesContratosModuloExclusivo = [
   },
   {
     "id": "licitacoes-e-contratos-modulo-exclusivo-05-modalidades-criterios-de-julgamento-e-procedimentos",
-    "materialTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "materialTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "subject": "Licitações e Contratos — Módulo Exclusivo",
     "contest": "Tribunais / Administração / Controle / Prefeituras",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Modalidades, critérios de julgamento e procedimentos",
@@ -1299,19 +1323,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Modalidades, critérios de julgamento e procedimentos, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Usar menor preço quando técnica define qualidade essencial.",
+          "Publicar edital de Modalidades, critérios de julgamento e procedimentos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
           "Identificar seleção conforme objeto, disputa, julgamento e procedimento adequado, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar objeto, modalidade e critério coerente, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Usar menor preço quando técnica define qualidade essencial.",
+          "Errada: Publicar edital de Modalidades, critérios de julgamento e procedimentos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Correta: Identificar seleção conforme objeto, disputa, julgamento e procedimento adequado, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -1340,19 +1366,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Modalidades, critérios de julgamento e procedimentos é:",
         "alternativas": [
-          "critério precisa medir o que torna a contratação vantajosa",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Usar menor preço quando técnica define qualidade essencial.",
+          "Publicar edital de Modalidades, critérios de julgamento e procedimentos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório.",
+          "Critério precisa medir o que torna a contratação vantajosa."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Usar menor preço quando técnica define qualidade essencial.",
+          "Errada: Publicar edital de Modalidades, critérios de julgamento e procedimentos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório.",
+          "Correta: Critério precisa medir o que torna a contratação vantajosa."
         ]
       },
       {
@@ -1381,19 +1409,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Modalidades, critérios de julgamento e procedimentos?",
         "alternativas": [
+          "Usar menor preço quando técnica define qualidade essencial.",
+          "Publicar edital de Modalidades, critérios de julgamento e procedimentos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
           "Supor que usar menor preço quando técnica define qualidade essencial é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Usar menor preço quando técnica define qualidade essencial.",
+          "Errada: Publicar edital de Modalidades, critérios de julgamento e procedimentos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Correta: Supor que usar menor preço quando técnica define qualidade essencial é aceitável porque simplifica o trabalho.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -1407,11 +1437,11 @@ export const licitacoesContratosModuloExclusivo = [
   },
   {
     "id": "licitacoes-e-contratos-modulo-exclusivo-06-contratacao-direta-dispensa-e-inexigibilidade",
-    "materialTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "materialTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "subject": "Licitações e Contratos — Módulo Exclusivo",
     "contest": "Tribunais / Administração / Controle / Prefeituras",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Contratação direta: dispensa e inexigibilidade",
@@ -1580,18 +1610,20 @@ export const licitacoesContratosModuloExclusivo = [
         "enunciado": "Em Contratação direta: dispensa e inexigibilidade, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar hipóteses excepcionais com justificativa, preço e controle, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Achar que urgência permite qualquer escolha sem prova.",
+          "Publicar edital de Contratação direta: dispensa e inexigibilidade antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: checar hipótese legal, justificativa e preço compatível, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar hipóteses excepcionais com justificativa, preço e controle, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Achar que urgência permite qualquer escolha sem prova.",
+          "Errada: Publicar edital de Contratação direta: dispensa e inexigibilidade antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -1620,19 +1652,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Contratação direta: dispensa e inexigibilidade é:",
         "alternativas": [
-          "contratação direta não dispensa processo formal nem motivação",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Achar que urgência permite qualquer escolha sem prova.",
+          "Publicar edital de Contratação direta: dispensa e inexigibilidade antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Contratação direta não dispensa processo formal nem motivação.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Achar que urgência permite qualquer escolha sem prova.",
+          "Errada: Publicar edital de Contratação direta: dispensa e inexigibilidade antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Correta: Contratação direta não dispensa processo formal nem motivação.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -1661,19 +1695,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Contratação direta: dispensa e inexigibilidade?",
         "alternativas": [
+          "Achar que urgência permite qualquer escolha sem prova.",
+          "Publicar edital de Contratação direta: dispensa e inexigibilidade antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
           "Supor que achar que urgência permite qualquer escolha sem prova é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Achar que urgência permite qualquer escolha sem prova.",
+          "Errada: Publicar edital de Contratação direta: dispensa e inexigibilidade antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Correta: Supor que achar que urgência permite qualquer escolha sem prova é aceitável porque simplifica o trabalho.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -1687,11 +1723,11 @@ export const licitacoesContratosModuloExclusivo = [
   },
   {
     "id": "licitacoes-e-contratos-modulo-exclusivo-07-habilitacao-julgamento-e-recursos",
-    "materialTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "materialTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "subject": "Licitações e Contratos — Módulo Exclusivo",
     "contest": "Tribunais / Administração / Controle / Prefeituras",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Habilitação, julgamento e recursos",
@@ -1859,19 +1895,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Habilitação, julgamento e recursos, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Exigir documento sem relação com execução do objeto.",
+          "Publicar edital de Habilitação, julgamento e recursos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
           "Identificar verificação de capacidade, proposta e direito de impugnação ou recurso, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: separar requisito necessário de restrição competitiva, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Exigir documento sem relação com execução do objeto.",
+          "Errada: Publicar edital de Habilitação, julgamento e recursos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Correta: Identificar verificação de capacidade, proposta e direito de impugnação ou recurso, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -1900,19 +1938,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Habilitação, julgamento e recursos é:",
         "alternativas": [
-          "habilitação não pode virar barreira indevida à competição",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Habilitação não pode virar barreira indevida à competição.",
+          "Exigir documento sem relação com execução do objeto.",
+          "Publicar edital de Habilitação, julgamento e recursos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: Habilitação não pode virar barreira indevida à competição.",
+          "Errada: Exigir documento sem relação com execução do objeto.",
+          "Errada: Publicar edital de Habilitação, julgamento e recursos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -1942,18 +1982,20 @@ export const licitacoesContratosModuloExclusivo = [
         "enunciado": "Qual alternativa revela erro de banca em Habilitação, julgamento e recursos?",
         "alternativas": [
           "Supor que exigir documento sem relação com execução do objeto é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Exigir documento sem relação com execução do objeto.",
+          "Publicar edital de Habilitação, julgamento e recursos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Correta: Supor que exigir documento sem relação com execução do objeto é aceitável porque simplifica o trabalho.",
+          "Errada: Exigir documento sem relação com execução do objeto.",
+          "Errada: Publicar edital de Habilitação, julgamento e recursos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -1967,11 +2009,11 @@ export const licitacoesContratosModuloExclusivo = [
   },
   {
     "id": "licitacoes-e-contratos-modulo-exclusivo-08-contratos-administrativos-clausulas-garantias-e-alteracoes",
-    "materialTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "materialTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "subject": "Licitações e Contratos — Módulo Exclusivo",
     "contest": "Tribunais / Administração / Controle / Prefeituras",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Contratos administrativos: cláusulas, garantias e alterações",
@@ -2139,19 +2181,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Contratos administrativos: cláusulas, garantias e alterações, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Alterar objeto para corrigir planejamento ruim sem fundamento.",
+          "Publicar edital de Contratos administrativos: cláusulas, garantias e alterações antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
           "Identificar execução contratual com obrigações, prazos, equilíbrio e fiscalização, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: avaliar motivo, limite, impacto e formalização, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Alterar objeto para corrigir planejamento ruim sem fundamento.",
+          "Errada: Publicar edital de Contratos administrativos: cláusulas, garantias e alterações antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Correta: Identificar execução contratual com obrigações, prazos, equilíbrio e fiscalização, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -2180,19 +2224,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Contratos administrativos: cláusulas, garantias e alterações é:",
         "alternativas": [
-          "contrato público permite prerrogativas, mas exige motivação e limite",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Alterar objeto para corrigir planejamento ruim sem fundamento.",
+          "Contrato público permite prerrogativas, mas exige motivação e limite.",
+          "Publicar edital de Contratos administrativos: cláusulas, garantias e alterações antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Alterar objeto para corrigir planejamento ruim sem fundamento.",
+          "Correta: Contrato público permite prerrogativas, mas exige motivação e limite.",
+          "Errada: Publicar edital de Contratos administrativos: cláusulas, garantias e alterações antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -2221,19 +2267,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Contratos administrativos: cláusulas, garantias e alterações?",
         "alternativas": [
+          "Alterar objeto para corrigir planejamento ruim sem fundamento.",
+          "Publicar edital de Contratos administrativos: cláusulas, garantias e alterações antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
           "Supor que alterar objeto para corrigir planejamento ruim sem fundamento é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Alterar objeto para corrigir planejamento ruim sem fundamento.",
+          "Errada: Publicar edital de Contratos administrativos: cláusulas, garantias e alterações antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Correta: Supor que alterar objeto para corrigir planejamento ruim sem fundamento é aceitável porque simplifica o trabalho.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -2247,11 +2295,11 @@ export const licitacoesContratosModuloExclusivo = [
   },
   {
     "id": "licitacoes-e-contratos-modulo-exclusivo-09-fiscalizacao-gestao-contratual-e-sancoes",
-    "materialTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "materialTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "subject": "Licitações e Contratos — Módulo Exclusivo",
     "contest": "Tribunais / Administração / Controle / Prefeituras",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Fiscalização, gestão contratual e sanções",
@@ -2419,19 +2467,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Fiscalização, gestão contratual e sanções, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar acompanhamento da execução, medição, recebimento, penalidades e registro, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Pagar por entrega sem conferência formal.",
+          "Publicar edital de Fiscalização, gestão contratual e sanções antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório.",
+          "Identificar acompanhamento da execução, medição, recebimento, penalidades e registro, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: registrar ocorrência, notificar, medir e decidir, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Pagar por entrega sem conferência formal.",
+          "Errada: Publicar edital de Fiscalização, gestão contratual e sanções antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório.",
+          "Correta: Identificar acompanhamento da execução, medição, recebimento, penalidades e registro, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ]
       },
       {
@@ -2460,19 +2510,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Fiscalização, gestão contratual e sanções é:",
         "alternativas": [
-          "fiscalizar é produzir evidência antes do pagamento e da sanção",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Pagar por entrega sem conferência formal.",
+          "Publicar edital de Fiscalização, gestão contratual e sanções antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Fiscalizar é produzir evidência antes do pagamento e da sanção.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Pagar por entrega sem conferência formal.",
+          "Errada: Publicar edital de Fiscalização, gestão contratual e sanções antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Correta: Fiscalizar é produzir evidência antes do pagamento e da sanção.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -2501,19 +2553,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Fiscalização, gestão contratual e sanções?",
         "alternativas": [
+          "Pagar por entrega sem conferência formal.",
           "Supor que pagar por entrega sem conferência formal é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Publicar edital de Fiscalização, gestão contratual e sanções antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Pagar por entrega sem conferência formal.",
+          "Correta: Supor que pagar por entrega sem conferência formal é aceitável porque simplifica o trabalho.",
+          "Errada: Publicar edital de Fiscalização, gestão contratual e sanções antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -2527,11 +2581,11 @@ export const licitacoesContratosModuloExclusivo = [
   },
   {
     "id": "licitacoes-e-contratos-modulo-exclusivo-10-casos-integrados-de-licitacoes-e-contratos",
-    "materialTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "materialTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "subject": "Licitações e Contratos — Módulo Exclusivo",
     "contest": "Tribunais / Administração / Controle / Prefeituras",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo",
+    "moduleTitle": "Licitações e Contratos — Módulo Exclusivo 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Casos integrados de licitações e contratos",
@@ -2700,18 +2754,20 @@ export const licitacoesContratosModuloExclusivo = [
         "enunciado": "Em Casos integrados de licitações e contratos, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar questões com planejamento, disputa, contratação direta, contrato e fiscalização, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Marcar solução rápida que ignora fase preparatória.",
+          "Publicar edital de Casos integrados de licitações e contratos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: resolver pelo ciclo completo da contratação, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar questões com planejamento, disputa, contratação direta, contrato e fiscalização, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Marcar solução rápida que ignora fase preparatória.",
+          "Errada: Publicar edital de Casos integrados de licitações e contratos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -2740,19 +2796,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Casos integrados de licitações e contratos é:",
         "alternativas": [
-          "a banca cobra coerência entre necessidade, procedimento e controle",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Marcar solução rápida que ignora fase preparatória.",
+          "A banca cobra coerência entre necessidade, procedimento e controle.",
+          "Publicar edital de Casos integrados de licitações e contratos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Marcar solução rápida que ignora fase preparatória.",
+          "Correta: A banca cobra coerência entre necessidade, procedimento e controle.",
+          "Errada: Publicar edital de Casos integrados de licitações e contratos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {
@@ -2781,19 +2839,21 @@ export const licitacoesContratosModuloExclusivo = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Casos integrados de licitações e contratos?",
         "alternativas": [
+          "Marcar solução rápida que ignora fase preparatória.",
+          "Publicar edital de Casos integrados de licitações e contratos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
           "Supor que marcar solução rápida que ignora fase preparatória é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Marcar solução rápida que ignora fase preparatória.",
+          "Errada: Publicar edital de Casos integrados de licitações e contratos antes de justificar necessidade, estimar preço e definir critério de fiscalização.",
+          "Errada: Escolher contratação direta por conveniência administrativa, sem hipótese legal, justificativa do preço e controle do processo.",
+          "Correta: Supor que marcar solução rápida que ignora fase preparatória é aceitável porque simplifica o trabalho.",
+          "Errada: Misturar habilitação com julgamento da proposta, eliminando licitante por requisito não previsto no instrumento convocatório."
         ]
       },
       {

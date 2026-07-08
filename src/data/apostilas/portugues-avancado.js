@@ -7,11 +7,11 @@
 export const portuguesAvancado = [
   {
     "id": "interpretacao-de-textos-tese-inferencia-e-pressupostos",
-    "materialTitle": "Português Avançado",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Interpretação de textos: tese, inferência e pressupostos",
@@ -128,13 +128,14 @@ export const portuguesAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Interpretação de textos: tese, inferência e pressupostos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Interpretar é reconstruir sentido a partir de marcas textuais, não adivinhar intenção do autor.",
           "Confundir informação verdadeira com resposta ao comando.",
           "Marcar opinião pessoal quando a pergunta exige sentido do texto.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Marcar Interpretação de textos: tese, inferência e pressupostos por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Interpretar é reconstruir sentido a partir de marcas textuais, não adivinhar intenção do autor.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta resume o núcleo do tema: Interpretar é reconstruir sentido a partir de marcas textuais, não adivinhar intenção do autor."
       },
       {
@@ -179,13 +180,14 @@ export const portuguesAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Pressupostos e subentendidos aparecem por escolhas lexicais, conectivos e organização argumentativa.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Marcar opinião pessoal quando a pergunta exige sentido do texto."
+          "Confundir informação verdadeira com resposta ao comando.",
+          "Marcar opinião pessoal quando a pergunta exige sentido do texto.",
+          "Marcar Interpretação de textos: tese, inferência e pressupostos por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite.",
+          "Pressupostos e subentendidos aparecem por escolhas lexicais, conectivos e organização argumentativa."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -214,11 +216,11 @@ export const portuguesAvancado = [
   },
   {
     "id": "tipologia-e-generos-textuais",
-    "materialTitle": "Português Avançado",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Tipologia e gêneros textuais",
@@ -338,7 +340,8 @@ export const portuguesAvancado = [
           "Narração organiza acontecimentos no tempo; descrição caracteriza seres, espaços ou situações.",
           "Dizer que todo texto com opinião é dissertação argumentativa completa.",
           "Confundir tipo textual predominante com presença de trechos de outro tipo.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Marcar Tipologia e gêneros textuais por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -386,13 +389,14 @@ export const portuguesAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Dizer que todo texto com opinião é dissertação argumentativa completa.",
+          "Confundir tipo textual predominante com presença de trechos de outro tipo.",
           "Injunção orienta condutas por comandos, instruções ou procedimentos.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Confundir tipo textual predominante com presença de trechos de outro tipo."
+          "Marcar Tipologia e gêneros textuais por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -421,11 +425,11 @@ export const portuguesAvancado = [
   },
   {
     "id": "coesao-e-coerencia",
-    "materialTitle": "Português Avançado",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Coesão e coerência",
@@ -542,13 +546,14 @@ export const portuguesAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Coesão e coerência, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Coesão usa pronomes, elipses, sinônimos e conectivos para ligar partes do texto.",
           "Trocar conectivo por outro gramaticalmente possível, mas semanticamente errado.",
           "Achar que repetição sempre é erro; às vezes garante clareza referencial.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Marcar Coesão e coerência por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Coesão usa pronomes, elipses, sinônimos e conectivos para ligar partes do texto.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta resume o núcleo do tema: Coesão usa pronomes, elipses, sinônimos e conectivos para ligar partes do texto."
       },
       {
@@ -593,13 +598,14 @@ export const portuguesAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Conectivo altera relação lógica: “porém” opõe, “portanto” conclui, “pois” demonstra ou justifica.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Achar que repetição sempre é erro; às vezes garante clareza referencial."
+          "Trocar conectivo por outro gramaticalmente possível, mas semanticamente errado.",
+          "Conectivo altera relação lógica: \"porém\" opõe, \"portanto\" conclui, \"pois\" demonstra ou justifica.",
+          "Achar que repetição sempre é erro; às vezes garante clareza referencial.",
+          "Marcar Coesão e coerência por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -628,11 +634,11 @@ export const portuguesAvancado = [
   },
   {
     "id": "morfologia-aplicada",
-    "materialTitle": "Português Avançado",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Morfologia aplicada",
@@ -749,13 +755,14 @@ export const portuguesAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Morfologia aplicada, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Substantivo nomeia; adjetivo qualifica; advérbio modifica verbo, adjetivo ou outro advérbio.",
           "Classificar palavra sem observar função na frase.",
           "Decorar lista de conjunções sem analisar valor contextual.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Substantivo nomeia; adjetivo qualifica; advérbio modifica verbo, adjetivo ou outro advérbio.",
+          "Marcar Morfologia aplicada por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: Substantivo nomeia; adjetivo qualifica; advérbio modifica verbo, adjetivo ou outro advérbio."
       },
       {
@@ -800,13 +807,14 @@ export const portuguesAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Conjunções são cobradas pelo valor semântico, não apenas pela classificação.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Decorar lista de conjunções sem analisar valor contextual."
+          "Classificar palavra sem observar função na frase.",
+          "Decorar lista de conjunções sem analisar valor contextual.",
+          "Marcar Morfologia aplicada por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite.",
+          "Conjunções são cobradas pelo valor semântico, não apenas pela classificação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -835,11 +843,11 @@ export const portuguesAvancado = [
   },
   {
     "id": "sintaxe-do-periodo-simples-e-composto",
-    "materialTitle": "Português Avançado",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Sintaxe do período simples e composto",
@@ -956,13 +964,14 @@ export const portuguesAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Sintaxe do período simples e composto, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Termos essenciais, integrantes e acessórios organizam a função de cada expressão na oração.",
           "Confundir sujeito com termo próximo ao verbo.",
+          "Termos essenciais, integrantes e acessórios organizam a função de cada expressão na oração.",
           "Achar que toda oração iniciada por “que” tem a mesma função.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Marcar Sintaxe do período simples e composto por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta resume o núcleo do tema: Termos essenciais, integrantes e acessórios organizam a função de cada expressão na oração."
       },
       {
@@ -1007,13 +1016,14 @@ export const portuguesAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Confundir sujeito com termo próximo ao verbo.",
+          "Achar que toda oração iniciada por “que” tem a mesma função.",
+          "Marcar Sintaxe do período simples e composto por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
           "Coordenação une orações independentes sintaticamente, mas relacionadas pelo sentido.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Achar que toda oração iniciada por “que” tem a mesma função."
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1042,11 +1052,11 @@ export const portuguesAvancado = [
   },
   {
     "id": "concordancia-verbal-e-nominal",
-    "materialTitle": "Português Avançado",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Concordância verbal e nominal",
@@ -1166,7 +1176,8 @@ export const portuguesAvancado = [
           "Verbo concorda com núcleo do sujeito, não com termo intercalado.",
           "Concordar com palavra mais próxima por atração indevida.",
           "Ignorar núcleo do sujeito longo.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Marcar Concordância verbal e nominal por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1214,13 +1225,14 @@ export const portuguesAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Concordância nominal considera gênero e número do termo determinado.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Ignorar núcleo do sujeito longo."
+          "Concordar com palavra mais próxima por atração indevida.",
+          "Ignorar núcleo do sujeito longo.",
+          "Marcar Concordância verbal e nominal por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite.",
+          "Concordância nominal considera gênero e número do termo determinado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1249,11 +1261,11 @@ export const portuguesAvancado = [
   },
   {
     "id": "regencia-crase-e-colocacao-pronominal",
-    "materialTitle": "Português Avançado",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Regência, crase e colocação pronominal",
@@ -1370,13 +1382,14 @@ export const portuguesAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Regência, crase e colocação pronominal, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Regência define a preposição exigida por verbos e nomes.",
           "Colocar crase por intuição sonora.",
+          "Regência define a preposição exigida por verbos e nomes.",
           "Usar próclise formalmente proibida sem atrator em início de oração.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Marcar Regência, crase e colocação pronominal por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta resume o núcleo do tema: Regência define a preposição exigida por verbos e nomes."
       },
       {
@@ -1421,13 +1434,14 @@ export const portuguesAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Colocar crase por intuição sonora.",
+          "Usar próclise formalmente proibida sem atrator em início de oração.",
           "Não há crase antes de verbo, masculino comum ou pronome que não aceite artigo.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Usar próclise formalmente proibida sem atrator em início de oração."
+          "Marcar Regência, crase e colocação pronominal por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1456,11 +1470,11 @@ export const portuguesAvancado = [
   },
   {
     "id": "pontuacao-e-reescrita",
-    "materialTitle": "Português Avançado",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Pontuação e reescrita",
@@ -1577,13 +1591,14 @@ export const portuguesAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Pontuação e reescrita, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Vírgula não separa sujeito de predicado em ordem direta.",
           "Inserir vírgula entre sujeito longo e verbo.",
           "Aceitar reescrita gramaticalmente correta mas semanticamente diferente.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Marcar Pontuação e reescrita por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Vírgula não separa sujeito de predicado em ordem direta.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta resume o núcleo do tema: Vírgula não separa sujeito de predicado em ordem direta."
       },
       {
@@ -1628,13 +1643,14 @@ export const portuguesAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Inserir vírgula entre sujeito longo e verbo.",
           "Reescrita correta preserva sentido, correção gramatical e ênfase essencial.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Aceitar reescrita gramaticalmente correta mas semanticamente diferente."
+          "Aceitar reescrita gramaticalmente correta mas semanticamente diferente.",
+          "Marcar Pontuação e reescrita por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1663,11 +1679,11 @@ export const portuguesAvancado = [
   },
   {
     "id": "semantica-figuras-e-variacao-linguistica",
-    "materialTitle": "Português Avançado",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Semântica, figuras e variação linguística",
@@ -1784,13 +1800,14 @@ export const portuguesAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Semântica, figuras e variação linguística, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Sinonímia perfeita é rara; a banca cobra adequação ao contexto.",
           "Tratar toda linguagem informal como defeito universal.",
           "Confundir ironia com mentira literal.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Marcar Semântica, figuras e variação linguística por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite.",
+          "Sinonímia perfeita é rara; a banca cobra adequação ao contexto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: Sinonímia perfeita é rara; a banca cobra adequação ao contexto."
       },
       {
@@ -1836,9 +1853,10 @@ export const portuguesAvancado = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Figuras de linguagem produzem efeitos expressivos, como comparação, metáfora, metonímia e ironia.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Confundir ironia com mentira literal."
+          "Tratar toda linguagem informal como defeito universal.",
+          "Confundir ironia com mentira literal.",
+          "Marcar Semântica, figuras e variação linguística por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1870,11 +1888,11 @@ export const portuguesAvancado = [
   },
   {
     "id": "redacao-oficial-e-revisao-final",
-    "materialTitle": "Português Avançado",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Redação oficial e revisão final",
@@ -1994,7 +2012,8 @@ export const portuguesAvancado = [
           "Redação oficial deve ser clara, impessoal, concisa, formal e padronizada.",
           "Usar linguagem rebuscada achando que formalidade é dificuldade.",
           "Confundir impessoalidade com texto frio e incompreensível.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Marcar Redação oficial e revisão final por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2042,13 +2061,14 @@ export const portuguesAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Usar linguagem rebuscada achando que formalidade é dificuldade.",
+          "Confundir impessoalidade com texto frio e incompreensível.",
           "Clareza exige ordem lógica, termos precisos e eliminação de ambiguidade.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Confundir impessoalidade com texto frio e incompreensível."
+          "Marcar Redação oficial e revisão final por impressão de leitura, sem localizar tese, referente, conectivo ou efeito de sentido no texto.",
+          "Trocar inferência autorizada por opinião externa ao texto, acrescentando informação que o enunciado não permite."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {

@@ -7,11 +7,11 @@
 export const matematicaRaciocinioLogicoAvancado = [
   {
     "id": "proposicoes-e-conectivos",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Proposições e conectivos",
@@ -128,13 +128,14 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Proposições e conectivos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Proposição é frase declarativa com valor lógico; pergunta, ordem e expressão subjetiva não entram na tabela.",
           "Negar “e” trocando só uma parte.",
+          "Proposição é frase declarativa com valor lógico; pergunta, ordem e expressão subjetiva não entram na tabela.",
           "Achar que “se... então” exige relação causal real.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Resolver Proposições e conectivos escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta resume o núcleo do tema: Proposição é frase declarativa com valor lógico; pergunta, ordem e expressão subjetiva não entram na tabela."
       },
       {
@@ -180,9 +181,10 @@ export const matematicaRaciocinioLogicoAvancado = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Condicional só é falsa quando antecedente verdadeiro leva a consequente falso.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Achar que “se... então” exige relação causal real."
+          "Negar “e” trocando só uma parte.",
+          "Achar que “se... então” exige relação causal real.",
+          "Resolver Proposições e conectivos escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -214,11 +216,11 @@ export const matematicaRaciocinioLogicoAvancado = [
   },
   {
     "id": "equivalencias-negacoes-e-quantificadores",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Equivalências, negações e quantificadores",
@@ -335,13 +337,14 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Equivalências, negações e quantificadores, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Negar conjunção transforma em disjunção de negações; negar disjunção transforma em conjunção de negações.",
           "Negar “todos” com “nenhum” quando basta um contraexemplo.",
           "Confundir inversa com contrapositiva.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Negar conjunção transforma em disjunção de negações; negar disjunção transforma em conjunção de negações.",
+          "Resolver Equivalências, negações e quantificadores escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: Negar conjunção transforma em disjunção de negações; negar disjunção transforma em conjunção de negações."
       },
       {
@@ -386,13 +389,14 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Negar “todo” produz “existe pelo menos um que não”.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Confundir inversa com contrapositiva."
+          "Negar “todos” com “nenhum” quando basta um contraexemplo.",
+          "Confundir inversa com contrapositiva.",
+          "Resolver Equivalências, negações e quantificadores escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos.",
+          "Negar \"todo\" produz \"existe pelo menos um que não\"."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -421,11 +425,11 @@ export const matematicaRaciocinioLogicoAvancado = [
   },
   {
     "id": "argumentacao-e-validade",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Argumentação e validade",
@@ -545,7 +549,8 @@ export const matematicaRaciocinioLogicoAvancado = [
           "Argumento válido é aquele em que a conclusão decorre necessariamente das premissas.",
           "Chamar argumento verdadeiro de válido sem testar forma.",
           "Aceitar conclusão provável como necessária.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Resolver Argumentação e validade escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -593,13 +598,14 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Chamar argumento verdadeiro de válido sem testar forma.",
+          "Aceitar conclusão provável como necessária.",
           "Silogismos categóricos exigem cuidado com distribuição dos termos.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Aceitar conclusão provável como necessária."
+          "Resolver Argumentação e validade escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -628,11 +634,11 @@ export const matematicaRaciocinioLogicoAvancado = [
   },
   {
     "id": "conjuntos-e-diagramas",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Conjuntos e diagramas",
@@ -749,13 +755,14 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Conjuntos e diagramas, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "União reúne elementos de pelo menos um conjunto; interseção reúne elementos comuns.",
           "Somar grupos sem descontar interseções.",
           "Esquecer elementos fora de todos os conjuntos.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Resolver Conjuntos e diagramas escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
+          "União reúne elementos de pelo menos um conjunto; interseção reúne elementos comuns.",
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta resume o núcleo do tema: União reúne elementos de pelo menos um conjunto; interseção reúne elementos comuns."
       },
       {
@@ -800,13 +807,14 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Diagramas de Venn ajudam a evitar dupla contagem.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Esquecer elementos fora de todos os conjuntos."
+          "Somar grupos sem descontar interseções.",
+          "Esquecer elementos fora de todos os conjuntos.",
+          "Resolver Conjuntos e diagramas escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos.",
+          "Diagramas de Venn ajudam a evitar dupla contagem."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -835,11 +843,11 @@ export const matematicaRaciocinioLogicoAvancado = [
   },
   {
     "id": "razao-proporcao-e-porcentagem",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Razão, proporção e porcentagem",
@@ -956,13 +964,14 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Razão, proporção e porcentagem, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Razão compara grandezas; proporção iguala razões.",
           "Somar aumento de 20% e desconto de 20% como se voltasse ao início.",
           "Aplicar regra direta em grandezas inversas.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Resolver Razão, proporção e porcentagem escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
+          "Razão compara grandezas; proporção iguala razões.",
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta resume o núcleo do tema: Razão compara grandezas; proporção iguala razões."
       },
       {
@@ -1007,13 +1016,14 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Somar aumento de 20% e desconto de 20% como se voltasse ao início.",
           "Porcentagem é razão de base 100, mas a base muda em aumentos sucessivos.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Aplicar regra direta em grandezas inversas."
+          "Aplicar regra direta em grandezas inversas.",
+          "Resolver Razão, proporção e porcentagem escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1042,11 +1052,11 @@ export const matematicaRaciocinioLogicoAvancado = [
   },
   {
     "id": "juros-e-equivalencia-financeira",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Juros e equivalência financeira",
@@ -1166,7 +1176,8 @@ export const matematicaRaciocinioLogicoAvancado = [
           "Juros simples crescem linearmente sobre capital inicial.",
           "Usar fórmula composta em juros simples.",
           "Misturar taxa mensal com prazo anual sem converter.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Resolver Juros e equivalência financeira escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1214,13 +1225,14 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Usar fórmula composta em juros simples.",
+          "Misturar taxa mensal com prazo anual sem converter.",
+          "Resolver Juros e equivalência financeira escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
           "Taxas devem estar na mesma unidade do tempo antes do cálculo.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Misturar taxa mensal com prazo anual sem converter."
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1249,11 +1261,11 @@ export const matematicaRaciocinioLogicoAvancado = [
   },
   {
     "id": "combinatoria-e-probabilidade",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Combinatória e probabilidade",
@@ -1370,13 +1382,14 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Combinatória e probabilidade, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Princípio multiplicativo conta escolhas sucessivas independentes.",
           "Usar combinação quando a ordem altera o resultado.",
           "Contar caso impossível no denominador.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Princípio multiplicativo conta escolhas sucessivas independentes.",
+          "Resolver Combinatória e probabilidade escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: Princípio multiplicativo conta escolhas sucessivas independentes."
       },
       {
@@ -1421,13 +1434,14 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Usar combinação quando a ordem altera o resultado.",
           "Permutação organiza todos os elementos, com ajustes para repetição quando houver.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Contar caso impossível no denominador."
+          "Contar caso impossível no denominador.",
+          "Resolver Combinatória e probabilidade escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1456,11 +1470,11 @@ export const matematicaRaciocinioLogicoAvancado = [
   },
   {
     "id": "sequencias-e-padroes",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Sequências e padrões",
@@ -1577,13 +1591,14 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Sequências e padrões, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Progressão aritmética soma razão constante; progressão geométrica multiplica razão constante.",
           "Forçar PA onde há alternância.",
           "Usar diferença entre dois termos e ignorar os demais.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Progressão aritmética soma razão constante; progressão geométrica multiplica razão constante.",
+          "Resolver Sequências e padrões escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: Progressão aritmética soma razão constante; progressão geométrica multiplica razão constante."
       },
       {
@@ -1628,13 +1643,14 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Forçar PA onde há alternância.",
           "Recorrência define termo a partir de termos anteriores.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Usar diferença entre dois termos e ignorar os demais."
+          "Usar diferença entre dois termos e ignorar os demais.",
+          "Resolver Sequências e padrões escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1663,11 +1679,11 @@ export const matematicaRaciocinioLogicoAvancado = [
   },
   {
     "id": "algebra-e-problemas",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Álgebra e problemas",
@@ -1784,13 +1800,14 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Álgebra e problemas, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Traduzir texto em variável é metade da resolução.",
           "Resolver conta certa para pergunta errada.",
           "Esquecer restrição de valores positivos, inteiros ou possíveis.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Resolver Álgebra e problemas escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos.",
+          "Traduzir texto em variável é metade da resolução."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: Traduzir texto em variável é metade da resolução."
       },
       {
@@ -1836,9 +1853,10 @@ export const matematicaRaciocinioLogicoAvancado = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Sistemas combinam informações independentes para determinar incógnitas.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Esquecer restrição de valores positivos, inteiros ou possíveis."
+          "Resolver conta certa para pergunta errada.",
+          "Esquecer restrição de valores positivos, inteiros ou possíveis.",
+          "Resolver Álgebra e problemas escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1870,11 +1888,11 @@ export const matematicaRaciocinioLogicoAvancado = [
   },
   {
     "id": "estatistica-e-graficos",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Estatística e gráficos",
@@ -1991,13 +2009,14 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Estatística e gráficos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Média é sensível a extremos; mediana indica posição central.",
           "Comparar barras sem observar escala quebrada.",
           "Confundir aumento em pontos percentuais com aumento percentual.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Resolver Estatística e gráficos escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos.",
+          "Média é sensível a extremos; mediana indica posição central."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: Média é sensível a extremos; mediana indica posição central."
       },
       {
@@ -2042,13 +2061,14 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Comparar barras sem observar escala quebrada.",
+          "Confundir aumento em pontos percentuais com aumento percentual.",
+          "Resolver Estatística e gráficos escolhendo operação pelo enunciado verbal, sem montar proposição, razão, equação ou contagem adequada.",
           "Gráfico precisa ser lido com escala, unidade, fonte e intervalo.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Confundir aumento em pontos percentuais com aumento percentual."
+          "Trocar condição necessária por suficiente, concluindo validade lógica onde há apenas coincidência de exemplos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {

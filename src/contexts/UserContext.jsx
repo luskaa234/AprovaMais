@@ -164,7 +164,12 @@ export function UserProvider({ children }) {
       if (!alive) return;
       if (session?.user?.id) resetPersistedStudyStateForAuthUser(session.user.id);
       setAuthUser(session?.user || null);
-      setProfile(session?.user ? await ensureProfile(session.user) : null);
+      try {
+        setProfile(session?.user ? await ensureProfile(session.user) : null);
+      } catch (error) {
+        console.warn("Falha ao sincronizar perfil do usuário.", error?.message || error);
+        setProfile(null);
+      }
       setIsLoading(false);
     });
 
@@ -183,7 +188,12 @@ export function UserProvider({ children }) {
         }
       }
       setAuthUser(session?.user || null);
-      setProfile(session?.user ? await ensureProfile(session.user) : null);
+      try {
+        setProfile(session?.user ? await ensureProfile(session.user) : null);
+      } catch (error) {
+        console.warn("Falha ao sincronizar perfil do usuário.", error?.message || error);
+        setProfile(null);
+      }
       setIsLoading(false);
     });
 

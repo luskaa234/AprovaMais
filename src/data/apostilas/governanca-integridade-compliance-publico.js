@@ -7,11 +7,11 @@
 export const governancaIntegridadeCompliancePublico = [
   {
     "id": "governanca-integridade-e-compliance-publico-01-governanca-publica-conceito-objetivos-e-mecanismos",
-    "materialTitle": "Governança, Integridade e Compliance Público",
+    "materialTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "subject": "Governança, Integridade e Compliance Público",
     "contest": "Tribunais / Controle / Gestão pública / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Governança, Integridade e Compliance Público",
+    "moduleTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Governança pública: conceito, objetivos e mecanismos",
@@ -179,19 +179,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Governança pública: conceito, objetivos e mecanismos, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar direção, monitoramento e avaliação para entregar valor público com controle, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Confundir governança com gestão operacional diária.",
+          "Reduzir Governança pública: conceito, objetivos e mecanismos a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão.",
+          "Identificar direção, monitoramento e avaliação para entregar valor público com controle, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: separar direção, execução, controle e prestação de contas, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Confundir governança com gestão operacional diária.",
+          "Errada: Reduzir Governança pública: conceito, objetivos e mecanismos a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão.",
+          "Correta: Identificar direção, monitoramento e avaliação para entregar valor público com controle, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ]
       },
       {
@@ -220,19 +222,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Governança pública: conceito, objetivos e mecanismos é:",
         "alternativas": [
-          "governança define quem decide, com que critério e como presta contas",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Confundir governança com gestão operacional diária.",
+          "Governança define quem decide, com que critério e como presta contas.",
+          "Reduzir Governança pública: conceito, objetivos e mecanismos a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Confundir governança com gestão operacional diária.",
+          "Correta: Governança define quem decide, com que critério e como presta contas.",
+          "Errada: Reduzir Governança pública: conceito, objetivos e mecanismos a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -261,19 +265,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Governança pública: conceito, objetivos e mecanismos?",
         "alternativas": [
+          "Confundir governança com gestão operacional diária.",
+          "Reduzir Governança pública: conceito, objetivos e mecanismos a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
           "Supor que confundir governança com gestão operacional diária é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Confundir governança com gestão operacional diária.",
+          "Errada: Reduzir Governança pública: conceito, objetivos e mecanismos a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Correta: Supor que confundir governança com gestão operacional diária é aceitável porque simplifica o trabalho.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -287,11 +293,11 @@ export const governancaIntegridadeCompliancePublico = [
   },
   {
     "id": "governanca-integridade-e-compliance-publico-02-principios-de-governanca-e-valor-publico",
-    "materialTitle": "Governança, Integridade e Compliance Público",
+    "materialTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "subject": "Governança, Integridade e Compliance Público",
     "contest": "Tribunais / Controle / Gestão pública / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Governança, Integridade e Compliance Público",
+    "moduleTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Princípios de governança e valor público",
@@ -459,19 +465,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Princípios de governança e valor público, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar liderança, estratégia, controle, transparência, equidade e responsividade, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Medir sucesso só por gasto executado.",
+          "Reduzir Princípios de governança e valor público a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão.",
+          "Identificar liderança, estratégia, controle, transparência, equidade e responsividade, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: ligar objetivo institucional a benefício para o cidadão, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Medir sucesso só por gasto executado.",
+          "Errada: Reduzir Princípios de governança e valor público a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão.",
+          "Correta: Identificar liderança, estratégia, controle, transparência, equidade e responsividade, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ]
       },
       {
@@ -500,19 +508,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Princípios de governança e valor público é:",
         "alternativas": [
-          "valor público nasce quando resultado atende necessidade legítima da sociedade",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Valor público nasce quando resultado atende necessidade legítima da sociedade.",
+          "Medir sucesso só por gasto executado.",
+          "Reduzir Princípios de governança e valor público a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: Valor público nasce quando resultado atende necessidade legítima da sociedade.",
+          "Errada: Medir sucesso só por gasto executado.",
+          "Errada: Reduzir Princípios de governança e valor público a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -541,19 +551,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Princípios de governança e valor público?",
         "alternativas": [
+          "Medir sucesso só por gasto executado.",
           "Supor que medir sucesso só por gasto executado é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Reduzir Princípios de governança e valor público a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Medir sucesso só por gasto executado.",
+          "Correta: Supor que medir sucesso só por gasto executado é aceitável porque simplifica o trabalho.",
+          "Errada: Reduzir Princípios de governança e valor público a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -567,11 +579,11 @@ export const governancaIntegridadeCompliancePublico = [
   },
   {
     "id": "governanca-integridade-e-compliance-publico-03-gestao-de-riscos-no-setor-publico",
-    "materialTitle": "Governança, Integridade e Compliance Público",
+    "materialTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "subject": "Governança, Integridade e Compliance Público",
     "contest": "Tribunais / Controle / Gestão pública / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Governança, Integridade e Compliance Público",
+    "moduleTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Gestão de riscos no setor público",
@@ -740,18 +752,20 @@ export const governancaIntegridadeCompliancePublico = [
         "enunciado": "Em Gestão de riscos no setor público, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar identificação, análise, tratamento e monitoramento de riscos institucionais, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Agir apenas depois do dano.",
+          "Reduzir Gestão de riscos no setor público a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: mapear objetivo, evento, causa, impacto e resposta, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar identificação, análise, tratamento e monitoramento de riscos institucionais, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Agir apenas depois do dano.",
+          "Errada: Reduzir Gestão de riscos no setor público a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -780,19 +794,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Gestão de riscos no setor público é:",
         "alternativas": [
-          "risco não é só problema ocorrido; é incerteza sobre objetivo",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Risco não é só problema ocorrido; é incerteza sobre objetivo.",
+          "Agir apenas depois do dano.",
+          "Reduzir Gestão de riscos no setor público a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: Risco não é só problema ocorrido; é incerteza sobre objetivo.",
+          "Errada: Agir apenas depois do dano.",
+          "Errada: Reduzir Gestão de riscos no setor público a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -822,18 +838,20 @@ export const governancaIntegridadeCompliancePublico = [
         "enunciado": "Qual alternativa revela erro de banca em Gestão de riscos no setor público?",
         "alternativas": [
           "Supor que agir apenas depois do dano é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Agir apenas depois do dano.",
+          "Reduzir Gestão de riscos no setor público a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Correta: Supor que agir apenas depois do dano é aceitável porque simplifica o trabalho.",
+          "Errada: Agir apenas depois do dano.",
+          "Errada: Reduzir Gestão de riscos no setor público a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -847,11 +865,11 @@ export const governancaIntegridadeCompliancePublico = [
   },
   {
     "id": "governanca-integridade-e-compliance-publico-04-controles-internos-administrativos",
-    "materialTitle": "Governança, Integridade e Compliance Público",
+    "materialTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "subject": "Governança, Integridade e Compliance Público",
     "contest": "Tribunais / Controle / Gestão pública / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Governança, Integridade e Compliance Público",
+    "moduleTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Controles internos administrativos",
@@ -1019,19 +1037,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Controles internos administrativos, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Criar controle excessivo que impede entrega.",
+          "Reduzir Controles internos administrativos a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
           "Identificar controles preventivos, detectivos e corretivos proporcionais ao risco, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: avaliar risco, custo, benefício e evidência, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Criar controle excessivo que impede entrega.",
+          "Errada: Reduzir Controles internos administrativos a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Correta: Identificar controles preventivos, detectivos e corretivos proporcionais ao risco, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -1060,19 +1080,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Controles internos administrativos é:",
         "alternativas": [
-          "controle bom reduz risco sem paralisar a atividade pública",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Criar controle excessivo que impede entrega.",
+          "Reduzir Controles internos administrativos a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão.",
+          "Controle bom reduz risco sem paralisar a atividade pública."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Criar controle excessivo que impede entrega.",
+          "Errada: Reduzir Controles internos administrativos a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão.",
+          "Correta: Controle bom reduz risco sem paralisar a atividade pública."
         ]
       },
       {
@@ -1101,19 +1123,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Controles internos administrativos?",
         "alternativas": [
-          "Supor que criar controle excessivo que impede entrega é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Criar controle excessivo que impede entrega.",
+          "Reduzir Controles internos administrativos a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão.",
+          "Supor que criar controle excessivo que impede entrega é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Criar controle excessivo que impede entrega.",
+          "Errada: Reduzir Controles internos administrativos a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão.",
+          "Correta: Supor que criar controle excessivo que impede entrega é aceitável porque simplifica o trabalho."
         ]
       },
       {
@@ -1127,11 +1151,11 @@ export const governancaIntegridadeCompliancePublico = [
   },
   {
     "id": "governanca-integridade-e-compliance-publico-05-programas-de-integridade",
-    "materialTitle": "Governança, Integridade e Compliance Público",
+    "materialTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "subject": "Governança, Integridade e Compliance Público",
     "contest": "Tribunais / Controle / Gestão pública / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Governança, Integridade e Compliance Público",
+    "moduleTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Programas de integridade",
@@ -1299,19 +1323,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Programas de integridade, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Achar que código de ética sozinho resolve integridade.",
           "Identificar medidas de prevenção, detecção e resposta a fraude, corrupção e desvios, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Reduzir Programas de integridade a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: verificar comprometimento, risco, canal e resposta, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Achar que código de ética sozinho resolve integridade.",
+          "Correta: Identificar medidas de prevenção, detecção e resposta a fraude, corrupção e desvios, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Reduzir Programas de integridade a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -1340,19 +1366,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Programas de integridade é:",
         "alternativas": [
-          "integridade depende de liderança, canal, treinamento e consequência",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Achar que código de ética sozinho resolve integridade.",
+          "Integridade depende de liderança, canal, treinamento e consequência.",
+          "Reduzir Programas de integridade a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Achar que código de ética sozinho resolve integridade.",
+          "Correta: Integridade depende de liderança, canal, treinamento e consequência.",
+          "Errada: Reduzir Programas de integridade a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -1382,18 +1410,20 @@ export const governancaIntegridadeCompliancePublico = [
         "enunciado": "Qual alternativa revela erro de banca em Programas de integridade?",
         "alternativas": [
           "Supor que achar que código de ética sozinho resolve integridade é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Achar que código de ética sozinho resolve integridade.",
+          "Reduzir Programas de integridade a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Correta: Supor que achar que código de ética sozinho resolve integridade é aceitável porque simplifica o trabalho.",
+          "Errada: Achar que código de ética sozinho resolve integridade.",
+          "Errada: Reduzir Programas de integridade a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -1407,11 +1437,11 @@ export const governancaIntegridadeCompliancePublico = [
   },
   {
     "id": "governanca-integridade-e-compliance-publico-06-compliance-publico-e-conformidade-normativa",
-    "materialTitle": "Governança, Integridade e Compliance Público",
+    "materialTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "subject": "Governança, Integridade e Compliance Público",
     "contest": "Tribunais / Controle / Gestão pública / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Governança, Integridade e Compliance Público",
+    "moduleTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Compliance público e conformidade normativa",
@@ -1579,19 +1609,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Compliance público e conformidade normativa, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Usar conformidade como desculpa para omissão injustificada.",
+          "Reduzir Compliance público e conformidade normativa a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
           "Identificar cumprimento de regras com orientação prática e monitoramento, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: analisar norma, procedimento, evidência e finalidade, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Usar conformidade como desculpa para omissão injustificada.",
+          "Errada: Reduzir Compliance público e conformidade normativa a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Correta: Identificar cumprimento de regras com orientação prática e monitoramento, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -1620,19 +1652,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Compliance público e conformidade normativa é:",
         "alternativas": [
-          "compliance não é medo de agir; é agir conforme regra e finalidade",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Usar conformidade como desculpa para omissão injustificada.",
+          "Reduzir Compliance público e conformidade normativa a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Compliance não é medo de agir; é agir conforme regra e finalidade.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Usar conformidade como desculpa para omissão injustificada.",
+          "Errada: Reduzir Compliance público e conformidade normativa a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Correta: Compliance não é medo de agir; é agir conforme regra e finalidade.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -1661,19 +1695,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Compliance público e conformidade normativa?",
         "alternativas": [
+          "Usar conformidade como desculpa para omissão injustificada.",
+          "Reduzir Compliance público e conformidade normativa a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
           "Supor que usar conformidade como desculpa para omissão injustificada é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Usar conformidade como desculpa para omissão injustificada.",
+          "Errada: Reduzir Compliance público e conformidade normativa a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Correta: Supor que usar conformidade como desculpa para omissão injustificada é aceitável porque simplifica o trabalho.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -1687,11 +1723,11 @@ export const governancaIntegridadeCompliancePublico = [
   },
   {
     "id": "governanca-integridade-e-compliance-publico-07-etica-conflito-de-interesses-e-nepotismo",
-    "materialTitle": "Governança, Integridade e Compliance Público",
+    "materialTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "subject": "Governança, Integridade e Compliance Público",
     "contest": "Tribunais / Controle / Gestão pública / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Governança, Integridade e Compliance Público",
+    "moduleTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Ética, conflito de interesses e nepotismo",
@@ -1859,19 +1895,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Ética, conflito de interesses e nepotismo, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Só reconhecer desvio quando há dinheiro envolvido.",
+          "Reduzir Ética, conflito de interesses e nepotismo a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
           "Identificar situações de vantagem indevida, conflito e favorecimento no serviço público, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar interesse privado, poder público e risco de favorecimento, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Só reconhecer desvio quando há dinheiro envolvido.",
+          "Errada: Reduzir Ética, conflito de interesses e nepotismo a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Correta: Identificar situações de vantagem indevida, conflito e favorecimento no serviço público, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -1900,19 +1938,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Ética, conflito de interesses e nepotismo é:",
         "alternativas": [
-          "ética pública exige aparência de imparcialidade e prevenção de favorecimento",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Só reconhecer desvio quando há dinheiro envolvido.",
+          "Reduzir Ética, conflito de interesses e nepotismo a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão.",
+          "Ética pública exige aparência de imparcialidade e prevenção de favorecimento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Só reconhecer desvio quando há dinheiro envolvido.",
+          "Errada: Reduzir Ética, conflito de interesses e nepotismo a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão.",
+          "Correta: Ética pública exige aparência de imparcialidade e prevenção de favorecimento."
         ]
       },
       {
@@ -1941,19 +1981,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Ética, conflito de interesses e nepotismo?",
         "alternativas": [
+          "Só reconhecer desvio quando há dinheiro envolvido.",
+          "Reduzir Ética, conflito de interesses e nepotismo a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
           "Supor que só reconhecer desvio quando há dinheiro envolvido é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Só reconhecer desvio quando há dinheiro envolvido.",
+          "Errada: Reduzir Ética, conflito de interesses e nepotismo a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Correta: Supor que só reconhecer desvio quando há dinheiro envolvido é aceitável porque simplifica o trabalho.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -1967,11 +2009,11 @@ export const governancaIntegridadeCompliancePublico = [
   },
   {
     "id": "governanca-integridade-e-compliance-publico-08-transparencia-dados-abertos-e-prestacao-de-contas",
-    "materialTitle": "Governança, Integridade e Compliance Público",
+    "materialTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "subject": "Governança, Integridade e Compliance Público",
     "contest": "Tribunais / Controle / Gestão pública / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Governança, Integridade e Compliance Público",
+    "moduleTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Transparência, dados abertos e prestação de contas",
@@ -2139,19 +2181,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Transparência, dados abertos e prestação de contas, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Publicar PDF confuso e chamar de dados abertos.",
           "Identificar informação pública útil, íntegra, tempestiva e compreensível, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Reduzir Transparência, dados abertos e prestação de contas a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: avaliar acessibilidade, formato e capacidade de fiscalização, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Publicar PDF confuso e chamar de dados abertos.",
+          "Correta: Identificar informação pública útil, íntegra, tempestiva e compreensível, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Reduzir Transparência, dados abertos e prestação de contas a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -2180,19 +2224,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Transparência, dados abertos e prestação de contas é:",
         "alternativas": [
-          "transparência efetiva permite controle social real",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Publicar PDF confuso e chamar de dados abertos.",
+          "Reduzir Transparência, dados abertos e prestação de contas a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Transparência efetiva permite controle social real.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Publicar PDF confuso e chamar de dados abertos.",
+          "Errada: Reduzir Transparência, dados abertos e prestação de contas a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Correta: Transparência efetiva permite controle social real.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -2221,19 +2267,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Transparência, dados abertos e prestação de contas?",
         "alternativas": [
+          "Publicar PDF confuso e chamar de dados abertos.",
+          "Reduzir Transparência, dados abertos e prestação de contas a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
           "Supor que publicar PDF confuso e chamar de dados abertos é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Publicar PDF confuso e chamar de dados abertos.",
+          "Errada: Reduzir Transparência, dados abertos e prestação de contas a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Correta: Supor que publicar PDF confuso e chamar de dados abertos é aceitável porque simplifica o trabalho.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -2247,11 +2295,11 @@ export const governancaIntegridadeCompliancePublico = [
   },
   {
     "id": "governanca-integridade-e-compliance-publico-09-canais-de-denuncia-protecao-e-apuracao",
-    "materialTitle": "Governança, Integridade e Compliance Público",
+    "materialTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "subject": "Governança, Integridade e Compliance Público",
     "contest": "Tribunais / Controle / Gestão pública / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Governança, Integridade e Compliance Público",
+    "moduleTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Canais de denúncia, proteção e apuração",
@@ -2419,19 +2467,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Canais de denúncia, proteção e apuração, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Expor denunciante ou ignorar triagem.",
           "Identificar mecanismos seguros para receber, tratar e apurar relatos de irregularidade, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Reduzir Canais de denúncia, proteção e apuração a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: garantir sigilo, fluxo, prazo e resposta, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Expor denunciante ou ignorar triagem.",
+          "Correta: Identificar mecanismos seguros para receber, tratar e apurar relatos de irregularidade, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Reduzir Canais de denúncia, proteção e apuração a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -2460,19 +2510,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Canais de denúncia, proteção e apuração é:",
         "alternativas": [
-          "canal sem proteção afasta denúncias e piora risco institucional",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Expor denunciante ou ignorar triagem.",
+          "Reduzir Canais de denúncia, proteção e apuração a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão.",
+          "Canal sem proteção afasta denúncias e piora risco institucional."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Expor denunciante ou ignorar triagem.",
+          "Errada: Reduzir Canais de denúncia, proteção e apuração a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão.",
+          "Correta: Canal sem proteção afasta denúncias e piora risco institucional."
         ]
       },
       {
@@ -2501,19 +2553,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Canais de denúncia, proteção e apuração?",
         "alternativas": [
+          "Expor denunciante ou ignorar triagem.",
+          "Reduzir Canais de denúncia, proteção e apuração a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
           "Supor que expor denunciante ou ignorar triagem é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Expor denunciante ou ignorar triagem.",
+          "Errada: Reduzir Canais de denúncia, proteção e apuração a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Correta: Supor que expor denunciante ou ignorar triagem é aceitável porque simplifica o trabalho.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -2527,11 +2581,11 @@ export const governancaIntegridadeCompliancePublico = [
   },
   {
     "id": "governanca-integridade-e-compliance-publico-10-casos-praticos-de-governanca-para-tribunais",
-    "materialTitle": "Governança, Integridade e Compliance Público",
+    "materialTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "subject": "Governança, Integridade e Compliance Público",
     "contest": "Tribunais / Controle / Gestão pública / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Governança, Integridade e Compliance Público",
+    "moduleTitle": "Governança, Integridade e Compliance Público 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Casos práticos de governança para tribunais",
@@ -2700,18 +2754,20 @@ export const governancaIntegridadeCompliancePublico = [
         "enunciado": "Em Casos práticos de governança para tribunais, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar decisões sobre risco, controle, integridade e prestação de contas, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Escolher resposta moralista sem procedimento.",
+          "Reduzir Casos práticos de governança para tribunais a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: montar matriz: risco, controle, responsável, evidência e resposta, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar decisões sobre risco, controle, integridade e prestação de contas, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Escolher resposta moralista sem procedimento.",
+          "Errada: Reduzir Casos práticos de governança para tribunais a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -2740,19 +2796,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Casos práticos de governança para tribunais é:",
         "alternativas": [
-          "a alternativa correta equilibra entrega, controle e ética",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Escolher resposta moralista sem procedimento.",
+          "Reduzir Casos práticos de governança para tribunais a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "A alternativa correta equilibra entrega, controle e ética.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Escolher resposta moralista sem procedimento.",
+          "Errada: Reduzir Casos práticos de governança para tribunais a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Correta: A alternativa correta equilibra entrega, controle e ética.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {
@@ -2781,19 +2839,21 @@ export const governancaIntegridadeCompliancePublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Casos práticos de governança para tribunais?",
         "alternativas": [
+          "Escolher resposta moralista sem procedimento.",
+          "Reduzir Casos práticos de governança para tribunais a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
           "Supor que escolher resposta moralista sem procedimento é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Escolher resposta moralista sem procedimento.",
+          "Errada: Reduzir Casos práticos de governança para tribunais a documento de fachada, sem risco mapeado, responsável definido e monitoramento contínuo.",
+          "Errada: Tratar controle interno como carimbo posterior, incapaz de prevenir falhas antes da decisão administrativa.",
+          "Correta: Supor que escolher resposta moralista sem procedimento é aceitável porque simplifica o trabalho.",
+          "Errada: Confundir transparência com simples publicação de arquivo incompreensível, desatualizado ou sem dado útil ao cidadão."
         ]
       },
       {

@@ -1,11 +1,11 @@
 export const direitoCivilAvancado = [
   {
     "id": "pessoa-natural-personalidade-capacidade-e-direitos-da-personalidade",
-    "materialTitle": "Direito Civil Avançado",
+    "materialTitle": "Direito Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Civil Avançado",
+    "moduleTitle": "Direito Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Pessoa natural, personalidade, capacidade e direitos da personalidade",
@@ -138,13 +138,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Pessoa natural, personalidade, capacidade e direitos da personalidade, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A personalidade jurídica começa com o nascimento com vida, mas a lei protege interesses do nascituro; capacidade de direito não se confunde com capacidade de exercício.",
           "Dizer que incapacidade retira personalidade ou que todo ato de incapaz é inexistente.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "A personalidade jurídica começa com o nascimento com vida, mas a lei protege interesses do nascituro; capacidade de direito não se confunde com capacidade de exercício.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Pessoa natural, personalidade, capacidade e direitos da personalidade com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: A personalidade jurídica começa com o nascimento com vida, mas a lei protege interesses do nascituro; capacidade de direito não se confunde com capacidade de exercício."
       },
       {
@@ -175,13 +176,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Pessoa natural, personalidade, capacidade e direitos da personalidade quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "A banca explora menoridade, incapacidade relativa, emancipação, curatela e proteção da imagem, honra, nome e privacidade.",
           "Dizer que incapacidade retira personalidade ou que todo ato de incapaz é inexistente.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "A banca explora menoridade, incapacidade relativa, emancipação, curatela e proteção da imagem, honra, nome e privacidade.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Pessoa natural, personalidade, capacidade e direitos da personalidade com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -210,13 +212,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Pessoa natural, personalidade, capacidade e direitos da personalidade?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: A personalidade jurídica começa com o nascimento com vida, mas a lei protege interesses do nascituro; capac...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Dizer que incapacidade retira personalidade ou que todo ato de incapaz é inexistente.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Pessoa natural, personalidade, capacidade e direitos da personalidade com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: A personalidade jurídica começa com o nascimento com vida, mas a lei protege interesses do nascituro; capacidade de direito não se confunde com capacidade de exercício."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -231,11 +234,11 @@ export const direitoCivilAvancado = [
   },
   {
     "id": "pessoa-juridica-desconsideracao-e-responsabilidade-patrimonial",
-    "materialTitle": "Direito Civil Avançado",
+    "materialTitle": "Direito Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Civil Avançado",
+    "moduleTitle": "Direito Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Pessoa jurídica, desconsideração e responsabilidade patrimonial",
@@ -368,13 +371,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Pessoa jurídica, desconsideração e responsabilidade patrimonial, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Pessoa jurídica tem autonomia patrimonial, mas essa autonomia pode ser afastada quando usada com abuso, desvio de finalidade ou confusão patrimonial.",
           "Aplicar desconsideração só porque a empresa não pagou dívida.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Pessoa jurídica tem autonomia patrimonial, mas essa autonomia pode ser afastada quando usada com abuso, desvio de finalidade ou confusão patrimonial.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Pessoa jurídica, desconsideração e responsabilidade patrimonial com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Pessoa jurídica tem autonomia patrimonial, mas essa autonomia pode ser afastada quando usada com abuso, desvio de finalidade ou confusão patrimonial."
       },
       {
@@ -407,8 +411,9 @@ export const direitoCivilAvancado = [
         "alternativas": [
           "O ponto avançado é separar inadimplemento comum de abuso da personalidade jurídica.",
           "Aplicar desconsideração só porque a empresa não pagou dívida.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Pessoa jurídica, desconsideração e responsabilidade patrimonial com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -440,13 +445,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Pessoa jurídica, desconsideração e responsabilidade patrimonial?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Pessoa jurídica tem autonomia patrimonial, mas essa autonomia pode ser afastada quando usada com abuso, des...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Aplicar desconsideração só porque a empresa não pagou dívida.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Pessoa jurídica tem autonomia patrimonial, mas essa autonomia pode ser afastada quando usada com abuso, desvio de finalidade ou confusão patrimonial.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Pessoa jurídica, desconsideração e responsabilidade patrimonial com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -461,11 +467,11 @@ export const direitoCivilAvancado = [
   },
   {
     "id": "bens-patrimonio-pertencas-frutos-e-benfeitorias",
-    "materialTitle": "Direito Civil Avançado",
+    "materialTitle": "Direito Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Civil Avançado",
+    "moduleTitle": "Direito Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Bens, patrimônio, pertenças, frutos e benfeitorias",
@@ -600,8 +606,9 @@ export const direitoCivilAvancado = [
         "alternativas": [
           "Bem jurídico é utilidade com valor econômico ou existencial; a classificação dos bens define efeitos sobre alienação, posse, responsabilidade e indenização.",
           "Confundir pertença com parte integrante ou fruto com produto.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Bens, patrimônio, pertenças, frutos e benfeitorias com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -635,13 +642,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Bens, patrimônio, pertenças, frutos e benfeitorias quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Frutos, produtos, pertenças e benfeitorias aparecem em problemas de posse, contratos e direito das coisas.",
           "Confundir pertença com parte integrante ou fruto com produto.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Frutos, produtos, pertenças e benfeitorias aparecem em problemas de posse, contratos e direito das coisas.",
+          "Confundir Bens, patrimônio, pertenças, frutos e benfeitorias com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -670,13 +678,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Bens, patrimônio, pertenças, frutos e benfeitorias?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Bem jurídico é utilidade com valor econômico ou existencial; a classificação dos bens define efeitos sobre...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir pertença com parte integrante ou fruto com produto.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Bem jurídico é utilidade com valor econômico ou existencial; a classificação dos bens define efeitos sobre alienação, posse, responsabilidade e indenização.",
+          "Confundir Bens, patrimônio, pertenças, frutos e benfeitorias com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -691,11 +700,11 @@ export const direitoCivilAvancado = [
   },
   {
     "id": "fatos-juridicos-atos-juridicos-e-negocio-juridico",
-    "materialTitle": "Direito Civil Avançado",
+    "materialTitle": "Direito Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Civil Avançado",
+    "moduleTitle": "Direito Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Fatos jurídicos, atos jurídicos e negócio jurídico",
@@ -828,13 +837,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Fatos jurídicos, atos jurídicos e negócio jurídico, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Fato jurídico é o gênero; ato jurídico e negócio jurídico são espécies que produzem efeitos conforme vontade, lei e validade.",
           "Tratar forma sempre como livre ou sempre como requisito absoluto.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Fato jurídico é o gênero; ato jurídico e negócio jurídico são espécies que produzem efeitos conforme vontade, lei e validade.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Fatos jurídicos, atos jurídicos e negócio jurídico com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Fato jurídico é o gênero; ato jurídico e negócio jurídico são espécies que produzem efeitos conforme vontade, lei e validade."
       },
       {
@@ -867,8 +877,9 @@ export const direitoCivilAvancado = [
         "alternativas": [
           "A validade do negócio exige agente capaz, objeto lícito possível determinado ou determinável e forma adequada quando exigida.",
           "Tratar forma sempre como livre ou sempre como requisito absoluto.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Fatos jurídicos, atos jurídicos e negócio jurídico com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -900,13 +911,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Fatos jurídicos, atos jurídicos e negócio jurídico?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Fato jurídico é o gênero; ato jurídico e negócio jurídico são espécies que produzem efeitos conforme vontad...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Tratar forma sempre como livre ou sempre como requisito absoluto.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Fato jurídico é o gênero; ato jurídico e negócio jurídico são espécies que produzem efeitos conforme vontade, lei e validade.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Fatos jurídicos, atos jurídicos e negócio jurídico com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -921,11 +933,11 @@ export const direitoCivilAvancado = [
   },
   {
     "id": "defeitos-do-negocio-juridico-e-invalidade",
-    "materialTitle": "Direito Civil Avançado",
+    "materialTitle": "Direito Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Civil Avançado",
+    "moduleTitle": "Direito Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Defeitos do negócio jurídico e invalidade",
@@ -1060,8 +1072,9 @@ export const direitoCivilAvancado = [
         "alternativas": [
           "Erro, dolo, coação, estado de perigo, lesão e fraude contra credores atingem a formação livre e honesta da vontade negocial.",
           "Confundir fraude contra credores com simulação ou coação com mero arrependimento.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Defeitos do negócio jurídico e invalidade com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1095,13 +1108,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Defeitos do negócio jurídico e invalidade quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "A banca cobra diferença entre anulabilidade e nulidade, prazo, interesse protegido e possibilidade de confirmação.",
           "Confundir fraude contra credores com simulação ou coação com mero arrependimento.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "A banca cobra diferença entre anulabilidade e nulidade, prazo, interesse protegido e possibilidade de confirmação.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Defeitos do negócio jurídico e invalidade com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1130,13 +1144,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Defeitos do negócio jurídico e invalidade?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Erro, dolo, coação, estado de perigo, lesão e fraude contra credores atingem a formação livre e honesta da...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir fraude contra credores com simulação ou coação com mero arrependimento.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Defeitos do negócio jurídico e invalidade com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Erro, dolo, coação, estado de perigo, lesão e fraude contra credores atingem a formação livre e honesta da vontade negocial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1151,11 +1166,11 @@ export const direitoCivilAvancado = [
   },
   {
     "id": "prescricao-decadencia-e-prova-do-tempo",
-    "materialTitle": "Direito Civil Avançado",
+    "materialTitle": "Direito Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Civil Avançado",
+    "moduleTitle": "Direito Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Prescrição, decadência e prova do tempo",
@@ -1288,13 +1303,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Prescrição, decadência e prova do tempo, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Prescrição atinge a pretensão; decadência atinge o próprio direito potestativo. A diferença orienta prazos, renúncia, reconhecimento e atuação do juiz.",
           "Dizer que prescrição extingue automaticamente o direito material em toda hipótese.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Prescrição atinge a pretensão; decadência atinge o próprio direito potestativo. A diferença orienta prazos, renúncia, reconhecimento e atuação do juiz.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Prescrição, decadência e prova do tempo com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Prescrição atinge a pretensão; decadência atinge o próprio direito potestativo. A diferença orienta prazos, renúncia, reconhecimento e atuação do juiz."
       },
       {
@@ -1325,13 +1341,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Prescrição, decadência e prova do tempo quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Em prova, expressões como pretensão, direito potestativo, anulação e cobrança ajudam a identificar o instituto.",
           "Dizer que prescrição extingue automaticamente o direito material em toda hipótese.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Em prova, expressões como pretensão, direito potestativo, anulação e cobrança ajudam a identificar o instituto.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Prescrição, decadência e prova do tempo com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1360,13 +1377,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Prescrição, decadência e prova do tempo?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Prescrição atinge a pretensão; decadência atinge o próprio direito potestativo. A diferença orienta prazos...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Dizer que prescrição extingue automaticamente o direito material em toda hipótese.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Prescrição atinge a pretensão; decadência atinge o próprio direito potestativo. A diferença orienta prazos, renúncia, reconhecimento e atuação do juiz.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Prescrição, decadência e prova do tempo com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1381,11 +1399,11 @@ export const direitoCivilAvancado = [
   },
   {
     "id": "obrigacoes-pagamento-inadimplemento-e-perdas-e-danos",
-    "materialTitle": "Direito Civil Avançado",
+    "materialTitle": "Direito Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Civil Avançado",
+    "moduleTitle": "Direito Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Obrigações: pagamento, inadimplemento e perdas e danos",
@@ -1518,13 +1536,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Obrigações: pagamento, inadimplemento e perdas e danos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Obrigação liga credor e devedor em prestação economicamente apreciável; pagamento correto extingue a relação, inadimplemento gera consequências patrimoniais.",
           "Confundir todo atraso com impossibilidade definitiva.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Obrigação liga credor e devedor em prestação economicamente apreciável; pagamento correto extingue a relação, inadimplemento gera consequências patrimoniais.",
+          "Confundir Obrigações: pagamento, inadimplemento e perdas e danos com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Obrigação liga credor e devedor em prestação economicamente apreciável; pagamento correto extingue a relação, inadimplemento gera consequências patrimoniais."
       },
       {
@@ -1557,8 +1576,9 @@ export const direitoCivilAvancado = [
         "alternativas": [
           "O domínio avançado exige separar mora, inadimplemento absoluto, perdas e danos, juros, cláusula penal e arras.",
           "Confundir todo atraso com impossibilidade definitiva.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Obrigações: pagamento, inadimplemento e perdas e danos com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1590,13 +1610,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Obrigações: pagamento, inadimplemento e perdas e danos?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Obrigação liga credor e devedor em prestação economicamente apreciável; pagamento correto extingue a relaçã...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir todo atraso com impossibilidade definitiva.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Obrigação liga credor e devedor em prestação economicamente apreciável; pagamento correto extingue a relação, inadimplemento gera consequências patrimoniais.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Obrigações: pagamento, inadimplemento e perdas e danos com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1611,11 +1632,11 @@ export const direitoCivilAvancado = [
   },
   {
     "id": "contratos-formacao-interpretacao-funcao-social-e-boa-fe",
-    "materialTitle": "Direito Civil Avançado",
+    "materialTitle": "Direito Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Civil Avançado",
+    "moduleTitle": "Direito Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Contratos: formação, interpretação, função social e boa-fé",
@@ -1748,13 +1769,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Contratos: formação, interpretação, função social e boa-fé, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Contrato é instrumento de autonomia privada limitado por boa-fé objetiva, função social, equilíbrio e proteção contra abuso.",
           "Ler contrato só pela vontade interna das partes, ignorando conduta objetiva.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Contratos: formação, interpretação, função social e boa-fé com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial.",
+          "Contrato é instrumento de autonomia privada limitado por boa-fé objetiva, função social, equilíbrio e proteção contra abuso."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Contrato é instrumento de autonomia privada limitado por boa-fé objetiva, função social, equilíbrio e proteção contra abuso."
       },
       {
@@ -1785,13 +1807,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Contratos: formação, interpretação, função social e boa-fé quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "A boa-fé objetiva impõe deveres laterais de informação, cooperação, lealdade e mitigação do próprio prejuízo.",
           "Ler contrato só pela vontade interna das partes, ignorando conduta objetiva.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Contratos: formação, interpretação, função social e boa-fé com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial.",
+          "A boa-fé objetiva impõe deveres laterais de informação, cooperação, lealdade e mitigação do próprio prejuízo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1820,13 +1843,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Contratos: formação, interpretação, função social e boa-fé?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Contrato é instrumento de autonomia privada limitado por boa-fé objetiva, função social, equilíbrio e prote...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Ler contrato só pela vontade interna das partes, ignorando conduta objetiva.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Contrato é instrumento de autonomia privada limitado por boa-fé objetiva, função social, equilíbrio e proteção contra abuso.",
+          "Confundir Contratos: formação, interpretação, função social e boa-fé com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1841,11 +1865,11 @@ export const direitoCivilAvancado = [
   },
   {
     "id": "responsabilidade-civil-dano-nexo-culpa-e-risco",
-    "materialTitle": "Direito Civil Avançado",
+    "materialTitle": "Direito Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Civil Avançado",
+    "moduleTitle": "Direito Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Responsabilidade civil: dano, nexo, culpa e risco",
@@ -1980,8 +2004,9 @@ export const direitoCivilAvancado = [
         "alternativas": [
           "Responsabilidade civil exige dano, nexo causal e fundamento de imputação; pode ser subjetiva ou objetiva conforme a situação.",
           "Afirmar que todo dano gera indenização sem nexo causal.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Responsabilidade civil: dano, nexo, culpa e risco com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2015,13 +2040,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Responsabilidade civil: dano, nexo, culpa e risco quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "A prova costuma trocar culpa por risco, responsabilidade por obrigação de resultado e dano moral por mero aborrecimento.",
           "Afirmar que todo dano gera indenização sem nexo causal.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "A prova costuma trocar culpa por risco, responsabilidade por obrigação de resultado e dano moral por mero aborrecimento.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Responsabilidade civil: dano, nexo, culpa e risco com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2050,13 +2076,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Responsabilidade civil: dano, nexo, culpa e risco?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Responsabilidade civil exige dano, nexo causal e fundamento de imputação; pode ser subjetiva ou objetiva co...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Afirmar que todo dano gera indenização sem nexo causal.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Responsabilidade civil: dano, nexo, culpa e risco com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Responsabilidade civil exige dano, nexo causal e fundamento de imputação; pode ser subjetiva ou objetiva conforme a situação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -2071,11 +2098,11 @@ export const direitoCivilAvancado = [
   },
   {
     "id": "familia-sucessoes-e-revisao-civil-integrada",
-    "materialTitle": "Direito Civil Avançado",
+    "materialTitle": "Direito Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Civil Avançado",
+    "moduleTitle": "Direito Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Família, sucessões e revisão civil integrada",
@@ -2208,13 +2235,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Família, sucessões e revisão civil integrada, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Direito de família e sucessões combinam autonomia, proteção de vulneráveis, afetividade, igualdade entre filhos, regime de bens e transmissão patrimonial.",
           "Confundir meeiro com herdeiro ou tratar todos os regimes de bens do mesmo modo.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Família, sucessões e revisão civil integrada com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial.",
+          "Direito de família e sucessões combinam autonomia, proteção de vulneráveis, afetividade, igualdade entre filhos, regime de bens e transmissão patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Direito de família e sucessões combinam autonomia, proteção de vulneráveis, afetividade, igualdade entre filhos, regime de bens e transmissão patrimonial."
       },
       {
@@ -2245,13 +2273,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Família, sucessões e revisão civil integrada quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "O foco de concurso é reconhecer efeitos patrimoniais, ordem sucessória, meação versus herança e proteção de incapazes.",
           "Confundir meeiro com herdeiro ou tratar todos os regimes de bens do mesmo modo.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "O foco de concurso é reconhecer efeitos patrimoniais, ordem sucessória, meação versus herança e proteção de incapazes.",
+          "Confundir Família, sucessões e revisão civil integrada com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2280,13 +2309,14 @@ export const direitoCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Família, sucessões e revisão civil integrada?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Direito de família e sucessões combinam autonomia, proteção de vulneráveis, afetividade, igualdade entre fi...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir meeiro com herdeiro ou tratar todos os regimes de bens do mesmo modo.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Direito de família e sucessões combinam autonomia, proteção de vulneráveis, afetividade, igualdade entre filhos, regime de bens e transmissão patrimonial.",
+          "Confundir Família, sucessões e revisão civil integrada com instituto civil próximo, trocando validade, eficácia, responsabilidade e consequência patrimonial."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {

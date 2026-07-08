@@ -6,11 +6,11 @@
 export const direitoProcessualCivilAvancado = [
   {
     "id": "principios-processuais-acesso-a-justica-e-cooperacao",
-    "materialTitle": "Direito Processual Civil Avançado",
+    "materialTitle": "Direito Processual Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual Civil Avançado",
+    "moduleTitle": "Direito Processual Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Princípios processuais, acesso à justiça e cooperação",
@@ -145,8 +145,9 @@ export const direitoProcessualCivilAvancado = [
         "alternativas": [
           "O processo civil moderno busca decisão justa, efetiva e em tempo razoável, com contraditório substancial e cooperação entre sujeitos processuais.",
           "Confundir contraditório com simples ciência do ato processual.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Princípios processuais, acesso à justiça e cooperação sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -180,13 +181,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Princípios processuais, acesso à justiça e cooperação quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Não basta ouvir formalmente a parte: ela deve poder influenciar a decisão, especialmente quando houver fundamento não debatido.",
           "Confundir contraditório com simples ciência do ato processual.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Não basta ouvir formalmente a parte: ela deve poder influenciar a decisão, especialmente quando houver fundamento não debatido.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Princípios processuais, acesso à justiça e cooperação sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -215,13 +217,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Princípios processuais, acesso à justiça e cooperação?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: O processo civil moderno busca decisão justa, efetiva e em tempo razoável, com contraditório substancial e...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir contraditório com simples ciência do ato processual.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: O processo civil moderno busca decisão justa, efetiva e em tempo razoável, com contraditório substancial e cooperação entre sujeitos processuais.",
+          "Escolher medida processual em Princípios processuais, acesso à justiça e cooperação sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -236,11 +239,11 @@ export const direitoProcessualCivilAvancado = [
   },
   {
     "id": "jurisdicao-acao-competencia-e-pressupostos-processuais",
-    "materialTitle": "Direito Processual Civil Avançado",
+    "materialTitle": "Direito Processual Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual Civil Avançado",
+    "moduleTitle": "Direito Processual Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Jurisdição, ação, competência e pressupostos processuais",
@@ -373,13 +376,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Jurisdição, ação, competência e pressupostos processuais, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Jurisdição resolve conflitos com definitividade; competência distribui essa função entre órgãos jurisdicionais e pode ser absoluta ou relativa.",
           "Tratar toda incompetência como nulidade automática insanável.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Jurisdição, ação, competência e pressupostos processuais sem conferir competência, interesse, legitimidade e cabimento do ato.",
+          "Jurisdição resolve conflitos com definitividade; competência distribui essa função entre órgãos jurisdicionais e pode ser absoluta ou relativa."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Jurisdição resolve conflitos com definitividade; competência distribui essa função entre órgãos jurisdicionais e pode ser absoluta ou relativa."
       },
       {
@@ -412,8 +416,9 @@ export const direitoProcessualCivilAvancado = [
         "alternativas": [
           "O aluno deve separar condições da ação, pressupostos processuais, competência e mérito.",
           "Tratar toda incompetência como nulidade automática insanável.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Jurisdição, ação, competência e pressupostos processuais sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -445,13 +450,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Jurisdição, ação, competência e pressupostos processuais?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Jurisdição resolve conflitos com definitividade; competência distribui essa função entre órgãos jurisdicion...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Tratar toda incompetência como nulidade automática insanável.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Jurisdição resolve conflitos com definitividade; competência distribui essa função entre órgãos jurisdicionais e pode ser absoluta ou relativa.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Jurisdição, ação, competência e pressupostos processuais sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -466,11 +472,11 @@ export const direitoProcessualCivilAvancado = [
   },
   {
     "id": "partes-procuradores-litisconsorcio-e-intervencao-de-terceiros",
-    "materialTitle": "Direito Processual Civil Avançado",
+    "materialTitle": "Direito Processual Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual Civil Avançado",
+    "moduleTitle": "Direito Processual Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Partes, procuradores, litisconsórcio e intervenção de terceiros",
@@ -603,13 +609,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Partes, procuradores, litisconsórcio e intervenção de terceiros, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A correta formação subjetiva do processo evita nulidades e assegura que a decisão alcance quem deve ser atingido.",
           "Usar intervenção de terceiros como sinônimo de litisconsórcio.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "A correta formação subjetiva do processo evita nulidades e assegura que a decisão alcance quem deve ser atingido.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Partes, procuradores, litisconsórcio e intervenção de terceiros sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: A correta formação subjetiva do processo evita nulidades e assegura que a decisão alcance quem deve ser atingido."
       },
       {
@@ -640,13 +647,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Partes, procuradores, litisconsórcio e intervenção de terceiros quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Litisconsórcio necessário, assistência, denunciação e chamamento têm finalidades diferentes.",
           "Usar intervenção de terceiros como sinônimo de litisconsórcio.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Litisconsórcio necessário, assistência, denunciação e chamamento têm finalidades diferentes.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Partes, procuradores, litisconsórcio e intervenção de terceiros sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -675,13 +683,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Partes, procuradores, litisconsórcio e intervenção de terceiros?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: A correta formação subjetiva do processo evita nulidades e assegura que a decisão alcance quem deve ser atingido.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Usar intervenção de terceiros como sinônimo de litisconsórcio.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Partes, procuradores, litisconsórcio e intervenção de terceiros sem conferir competência, interesse, legitimidade e cabimento do ato.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: A correta formação subjetiva do processo evita nulidades e assegura que a decisão alcance quem deve ser atingido."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -696,11 +705,11 @@ export const direitoProcessualCivilAvancado = [
   },
   {
     "id": "peticao-inicial-resposta-do-reu-e-saneamento",
-    "materialTitle": "Direito Processual Civil Avançado",
+    "materialTitle": "Direito Processual Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual Civil Avançado",
+    "moduleTitle": "Direito Processual Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Petição inicial, resposta do réu e saneamento",
@@ -833,13 +842,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Petição inicial, resposta do réu e saneamento, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A fase postulatória delimita pedidos, causa de pedir, defesas e questões que serão organizadas no saneamento.",
           "Confundir preliminar com prejudicial de mérito.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "A fase postulatória delimita pedidos, causa de pedir, defesas e questões que serão organizadas no saneamento.",
+          "Escolher medida processual em Petição inicial, resposta do réu e saneamento sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: A fase postulatória delimita pedidos, causa de pedir, defesas e questões que serão organizadas no saneamento."
       },
       {
@@ -870,13 +880,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Petição inicial, resposta do réu e saneamento quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Contestação concentra defesas; reconvenção permite pretensão própria do réu contra o autor.",
           "Confundir preliminar com prejudicial de mérito.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Contestação concentra defesas; reconvenção permite pretensão própria do réu contra o autor.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Petição inicial, resposta do réu e saneamento sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -905,13 +916,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Petição inicial, resposta do réu e saneamento?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: A fase postulatória delimita pedidos, causa de pedir, defesas e questões que serão organizadas no saneamento.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir preliminar com prejudicial de mérito.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Petição inicial, resposta do réu e saneamento sem conferir competência, interesse, legitimidade e cabimento do ato.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: A fase postulatória delimita pedidos, causa de pedir, defesas e questões que serão organizadas no saneamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -926,11 +938,11 @@ export const direitoProcessualCivilAvancado = [
   },
   {
     "id": "tutelas-provisorias-urgencia-evidencia-e-estabilizacao",
-    "materialTitle": "Direito Processual Civil Avançado",
+    "materialTitle": "Direito Processual Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual Civil Avançado",
+    "moduleTitle": "Direito Processual Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Tutelas provisórias: urgência, evidência e estabilização",
@@ -1063,13 +1075,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Tutelas provisórias: urgência, evidência e estabilização, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Tutela provisória antecipa ou assegura efeitos antes do julgamento final; pode fundar-se em urgência ou evidência.",
           "Achar que toda tutela antecipada estabiliza automaticamente.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tutela provisória antecipa ou assegura efeitos antes do julgamento final; pode fundar-se em urgência ou evidência.",
+          "Escolher medida processual em Tutelas provisórias: urgência, evidência e estabilização sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Tutela provisória antecipa ou assegura efeitos antes do julgamento final; pode fundar-se em urgência ou evidência."
       },
       {
@@ -1102,8 +1115,9 @@ export const direitoProcessualCivilAvancado = [
         "alternativas": [
           "Urgência exige probabilidade do direito e perigo; evidência dispensa urgência em hipóteses legais.",
           "Achar que toda tutela antecipada estabiliza automaticamente.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Tutelas provisórias: urgência, evidência e estabilização sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1135,13 +1149,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Tutelas provisórias: urgência, evidência e estabilização?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Tutela provisória antecipa ou assegura efeitos antes do julgamento final; pode fundar-se em urgência ou evi...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Achar que toda tutela antecipada estabiliza automaticamente.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Tutela provisória antecipa ou assegura efeitos antes do julgamento final; pode fundar-se em urgência ou evidência.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Tutelas provisórias: urgência, evidência e estabilização sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1156,11 +1171,11 @@ export const direitoProcessualCivilAvancado = [
   },
   {
     "id": "provas-onus-probatorio-e-poderes-instrutorios",
-    "materialTitle": "Direito Processual Civil Avançado",
+    "materialTitle": "Direito Processual Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual Civil Avançado",
+    "moduleTitle": "Direito Processual Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Provas, ônus probatório e poderes instrutórios",
@@ -1295,8 +1310,9 @@ export const direitoProcessualCivilAvancado = [
         "alternativas": [
           "Prova forma convencimento racional sobre fatos relevantes; ônus da prova orienta risco de não provar.",
           "Tratar ônus da prova como dever moral da parte, não como regra de julgamento.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Provas, ônus probatório e poderes instrutórios sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1330,13 +1346,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Provas, ônus probatório e poderes instrutórios quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Distribuição dinâmica pode ocorrer quando peculiaridades do caso justificam deslocamento do ônus.",
           "Tratar ônus da prova como dever moral da parte, não como regra de julgamento.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Distribuição dinâmica pode ocorrer quando peculiaridades do caso justificam deslocamento do ônus.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Provas, ônus probatório e poderes instrutórios sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1365,13 +1382,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Provas, ônus probatório e poderes instrutórios?",
         "alternativas": [
+          "Tratar ônus da prova como dever moral da parte, não como regra de julgamento.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Prova forma convencimento racional sobre fatos relevantes; ônus da prova orienta risco de não provar.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Provas, ônus probatório e poderes instrutórios sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1386,11 +1404,11 @@ export const direitoProcessualCivilAvancado = [
   },
   {
     "id": "sentenca-coisa-julgada-e-precedentes",
-    "materialTitle": "Direito Processual Civil Avançado",
+    "materialTitle": "Direito Processual Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual Civil Avançado",
+    "moduleTitle": "Direito Processual Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Sentença, coisa julgada e precedentes",
@@ -1523,13 +1541,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Sentença, coisa julgada e precedentes, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Sentença resolve o processo ou o mérito; coisa julgada estabiliza decisão de mérito; precedentes vinculantes orientam coerência decisória.",
           "Achar que qualquer decisão de tribunal é precedente vinculante.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Sentença resolve o processo ou o mérito; coisa julgada estabiliza decisão de mérito; precedentes vinculantes orientam coerência decisória.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Sentença, coisa julgada e precedentes sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Sentença resolve o processo ou o mérito; coisa julgada estabiliza decisão de mérito; precedentes vinculantes orientam coerência decisória."
       },
       {
@@ -1560,13 +1579,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Sentença, coisa julgada e precedentes quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "A prova cobra distinção entre fundamentação, dispositivo, coisa julgada formal/material e eficácia preclusiva.",
           "Achar que qualquer decisão de tribunal é precedente vinculante.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "A prova cobra distinção entre fundamentação, dispositivo, coisa julgada formal/material e eficácia preclusiva.",
+          "Escolher medida processual em Sentença, coisa julgada e precedentes sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1595,13 +1615,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Sentença, coisa julgada e precedentes?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Sentença resolve o processo ou o mérito; coisa julgada estabiliza decisão de mérito; precedentes vinculante...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Achar que qualquer decisão de tribunal é precedente vinculante.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Sentença resolve o processo ou o mérito; coisa julgada estabiliza decisão de mérito; precedentes vinculantes orientam coerência decisória.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Sentença, coisa julgada e precedentes sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1616,11 +1637,11 @@ export const direitoProcessualCivilAvancado = [
   },
   {
     "id": "recursos-teoria-geral-apelacao-agravos-e-embargos",
-    "materialTitle": "Direito Processual Civil Avançado",
+    "materialTitle": "Direito Processual Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual Civil Avançado",
+    "moduleTitle": "Direito Processual Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Recursos: teoria geral, apelação, agravos e embargos",
@@ -1753,13 +1774,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Recursos: teoria geral, apelação, agravos e embargos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Recursos controlam decisões judiciais dentro do mesmo processo, observando cabimento, prazo, legitimidade, interesse e preparo.",
           "Usar embargos de declaração como mera segunda chance argumentativa.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Recursos: teoria geral, apelação, agravos e embargos sem conferir competência, interesse, legitimidade e cabimento do ato.",
+          "Recursos controlam decisões judiciais dentro do mesmo processo, observando cabimento, prazo, legitimidade, interesse e preparo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Recursos controlam decisões judiciais dentro do mesmo processo, observando cabimento, prazo, legitimidade, interesse e preparo."
       },
       {
@@ -1792,8 +1814,9 @@ export const direitoProcessualCivilAvancado = [
         "alternativas": [
           "A banca troca agravo por apelação e confunde embargos de declaração com recurso para rediscutir mérito.",
           "Usar embargos de declaração como mera segunda chance argumentativa.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Recursos: teoria geral, apelação, agravos e embargos sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1825,13 +1848,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Recursos: teoria geral, apelação, agravos e embargos?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Recursos controlam decisões judiciais dentro do mesmo processo, observando cabimento, prazo, legitimidade...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Usar embargos de declaração como mera segunda chance argumentativa.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Recursos controlam decisões judiciais dentro do mesmo processo, observando cabimento, prazo, legitimidade, interesse e preparo.",
+          "Escolher medida processual em Recursos: teoria geral, apelação, agravos e embargos sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1846,11 +1870,11 @@ export const direitoProcessualCivilAvancado = [
   },
   {
     "id": "execucao-e-cumprimento-de-sentenca",
-    "materialTitle": "Direito Processual Civil Avançado",
+    "materialTitle": "Direito Processual Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual Civil Avançado",
+    "moduleTitle": "Direito Processual Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Execução e cumprimento de sentença",
@@ -1983,13 +2007,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Execução e cumprimento de sentença, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Cumprimento de sentença executa título judicial; processo de execução cobra título extrajudicial. Ambos exigem título certo, líquido e exigível.",
           "Confundir liquidez do título com certeza da vitória do credor.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Cumprimento de sentença executa título judicial; processo de execução cobra título extrajudicial. Ambos exigem título certo, líquido e exigível.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Execução e cumprimento de sentença sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Cumprimento de sentença executa título judicial; processo de execução cobra título extrajudicial. Ambos exigem título certo, líquido e exigível."
       },
       {
@@ -2020,13 +2045,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Execução e cumprimento de sentença quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "O foco avançado é distinguir impugnação, embargos à execução, penhora, expropriação e meios atípicos.",
           "Confundir liquidez do título com certeza da vitória do credor.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "O foco avançado é distinguir impugnação, embargos à execução, penhora, expropriação e meios atípicos.",
+          "Escolher medida processual em Execução e cumprimento de sentença sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2055,13 +2081,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Execução e cumprimento de sentença?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Cumprimento de sentença executa título judicial; processo de execução cobra título extrajudicial. Ambos exi...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir liquidez do título com certeza da vitória do credor.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Execução e cumprimento de sentença sem conferir competência, interesse, legitimidade e cabimento do ato.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Cumprimento de sentença executa título judicial; processo de execução cobra título extrajudicial. Ambos exigem título certo, líquido e exigível."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -2076,11 +2103,11 @@ export const direitoProcessualCivilAvancado = [
   },
   {
     "id": "processos-nos-tribunais-e-tecnicas-de-julgamento",
-    "materialTitle": "Direito Processual Civil Avançado",
+    "materialTitle": "Direito Processual Civil Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual Civil Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual Civil Avançado",
+    "moduleTitle": "Direito Processual Civil Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Processos nos tribunais e técnicas de julgamento",
@@ -2213,13 +2240,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Processos nos tribunais e técnicas de julgamento, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Tribunais julgam recursos, ações originárias, incidentes e uniformizam interpretação por precedentes qualificados.",
           "Aplicar incidente de repetitivos a qualquer volume alto de processos sem questão comum de direito.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Tribunais julgam recursos, ações originárias, incidentes e uniformizam interpretação por precedentes qualificados.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Processos nos tribunais e técnicas de julgamento sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Tribunais julgam recursos, ações originárias, incidentes e uniformizam interpretação por precedentes qualificados."
       },
       {
@@ -2250,13 +2278,14 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Processos nos tribunais e técnicas de julgamento quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "IRDR, IAC, repetitivos e repercussão geral têm funções próprias de estabilização e racionalização.",
           "Aplicar incidente de repetitivos a qualquer volume alto de processos sem questão comum de direito.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Processos nos tribunais e técnicas de julgamento sem conferir competência, interesse, legitimidade e cabimento do ato.",
+          "IRDR, IAC, repetitivos e repercussão geral têm funções próprias de estabilização e racionalização."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2285,10 +2314,11 @@ export const direitoProcessualCivilAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Processos nos tribunais e técnicas de julgamento?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Tribunais julgam recursos, ações originárias, incidentes e uniformizam interpretação por precedentes qualif...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Identificar o instituto, seus requisitos e a consequência adequada: Tribunais julgam recursos, ações originárias, incidentes e uniformizam interpretação por precedentes qualificados.",
+          "Aplicar incidente de repetitivos a qualquer volume alto de processos sem questão comum de direito.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher medida processual em Processos nos tribunais e técnicas de julgamento sem conferir competência, interesse, legitimidade e cabimento do ato."
         ],
         "correta": 0,
         "gabaritoLetra": "A",

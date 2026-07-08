@@ -7,11 +7,11 @@
 export const administracaoFinanceiraOrcamentaria = [
   {
     "id": "administracao-financeira-e-orcamentaria-01-orcamento-publico-conceito-funcoes-e-principios",
-    "materialTitle": "Administração Financeira e Orçamentária",
+    "materialTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "subject": "Administração Financeira e Orçamentária",
     "contest": "Tribunais / Área fiscal / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Financeira e Orçamentária",
+    "moduleTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Orçamento público: conceito, funções e princípios",
@@ -180,19 +180,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Orçamento público: conceito, funções e princípios, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Confundir orçamento aprovado com dinheiro automaticamente disponível.",
           "Identificar orçamento como lei, plano financeiro e instrumento de controle democrático, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Tratar Orçamento público: conceito, funções e princípios como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de orçamento como lei, plano financeiro e instrumento de controle democrático com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: separar autorização, arrecadação, empenho e pagamento, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Confundir orçamento aprovado com dinheiro automaticamente disponível.",
+          "Correta: Identificar orçamento como lei, plano financeiro e instrumento de controle democrático, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Tratar Orçamento público: conceito, funções e princípios como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de orçamento como lei, plano financeiro e instrumento de controle democrático com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -221,19 +223,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Orçamento público: conceito, funções e princípios é:",
         "alternativas": [
-          "não é só tabela de gastos; orienta políticas e limita execução",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Confundir orçamento aprovado com dinheiro automaticamente disponível.",
+          "Tratar Orçamento público: conceito, funções e princípios como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de orçamento como lei, plano financeiro e instrumento de controle democrático com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual.",
+          "Não é só tabela de gastos; orienta políticas e limita execução."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Confundir orçamento aprovado com dinheiro automaticamente disponível.",
+          "Errada: Tratar Orçamento público: conceito, funções e princípios como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de orçamento como lei, plano financeiro e instrumento de controle democrático com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual.",
+          "Correta: Não é só tabela de gastos; orienta políticas e limita execução."
         ]
       },
       {
@@ -263,18 +267,20 @@ export const administracaoFinanceiraOrcamentaria = [
         "enunciado": "Qual alternativa revela erro de banca em Orçamento público: conceito, funções e princípios?",
         "alternativas": [
           "Supor que confundir orçamento aprovado com dinheiro automaticamente disponível é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir orçamento aprovado com dinheiro automaticamente disponível.",
+          "Tratar Orçamento público: conceito, funções e princípios como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de orçamento como lei, plano financeiro e instrumento de controle democrático com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Correta: Supor que confundir orçamento aprovado com dinheiro automaticamente disponível é aceitável porque simplifica o trabalho.",
+          "Errada: Confundir orçamento aprovado com dinheiro automaticamente disponível.",
+          "Errada: Tratar Orçamento público: conceito, funções e princípios como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de orçamento como lei, plano financeiro e instrumento de controle democrático com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -288,11 +294,11 @@ export const administracaoFinanceiraOrcamentaria = [
   },
   {
     "id": "administracao-financeira-e-orcamentaria-02-instrumentos-de-planejamento-ppa-ldo-e-loa",
-    "materialTitle": "Administração Financeira e Orçamentária",
+    "materialTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "subject": "Administração Financeira e Orçamentária",
     "contest": "Tribunais / Área fiscal / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Financeira e Orçamentária",
+    "moduleTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Instrumentos de planejamento: PPA, LDO e LOA",
@@ -461,19 +467,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Instrumentos de planejamento: PPA, LDO e LOA, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Trocar função de PPA, LDO e LOA.",
           "Identificar integração entre planejamento de médio prazo, diretrizes anuais e orçamento anual, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Tratar Instrumentos de planejamento: PPA, LDO e LOA como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de integração entre planejamento de médio prazo, diretrizes anuais e orçamento anual com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: montar linha do tempo e função de cada instrumento, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Trocar função de PPA, LDO e LOA.",
+          "Correta: Identificar integração entre planejamento de médio prazo, diretrizes anuais e orçamento anual, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Tratar Instrumentos de planejamento: PPA, LDO e LOA como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de integração entre planejamento de médio prazo, diretrizes anuais e orçamento anual com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -502,19 +510,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Instrumentos de planejamento: PPA, LDO e LOA é:",
         "alternativas": [
-          "PPA estrutura programas; LDO orienta; LOA estima receita e fixa despesa",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Trocar função de PPA, LDO e LOA.",
+          "PPA estrutura programas; LDO orienta; LOA estima receita e fixa despesa.",
+          "Tratar Instrumentos de planejamento: PPA, LDO e LOA como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de integração entre planejamento de médio prazo, diretrizes anuais e orçamento anual com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Trocar função de PPA, LDO e LOA.",
+          "Correta: PPA estrutura programas; LDO orienta; LOA estima receita e fixa despesa.",
+          "Errada: Tratar Instrumentos de planejamento: PPA, LDO e LOA como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de integração entre planejamento de médio prazo, diretrizes anuais e orçamento anual com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -543,19 +553,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Instrumentos de planejamento: PPA, LDO e LOA?",
         "alternativas": [
+          "Trocar função de PPA, LDO e LOA.",
+          "Tratar Instrumentos de planejamento: PPA, LDO e LOA como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de integração entre planejamento de médio prazo, diretrizes anuais e orçamento anual com dinheiro imediatamente disponível no caixa do órgão.",
           "Supor que trocar função de PPA, LDO e LOA é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Trocar função de PPA, LDO e LOA.",
+          "Errada: Tratar Instrumentos de planejamento: PPA, LDO e LOA como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de integração entre planejamento de médio prazo, diretrizes anuais e orçamento anual com dinheiro imediatamente disponível no caixa do órgão.",
+          "Correta: Supor que trocar função de PPA, LDO e LOA é aceitável porque simplifica o trabalho.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -569,11 +581,11 @@ export const administracaoFinanceiraOrcamentaria = [
   },
   {
     "id": "administracao-financeira-e-orcamentaria-03-ciclo-orcamentario",
-    "materialTitle": "Administração Financeira e Orçamentária",
+    "materialTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "subject": "Administração Financeira e Orçamentária",
     "contest": "Tribunais / Área fiscal / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Financeira e Orçamentária",
+    "moduleTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Ciclo orçamentário",
@@ -742,19 +754,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Ciclo orçamentário, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Achar que ciclo termina na aprovação da lei.",
+          "Tratar Ciclo orçamentário como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de elaboração, discussão, aprovação, execução, controle e avaliação com dinheiro imediatamente disponível no caixa do órgão.",
           "Identificar elaboração, discussão, aprovação, execução, controle e avaliação, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar em qual fase ocorreu o fato do enunciado, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Achar que ciclo termina na aprovação da lei.",
+          "Errada: Tratar Ciclo orçamentário como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de elaboração, discussão, aprovação, execução, controle e avaliação com dinheiro imediatamente disponível no caixa do órgão.",
+          "Correta: Identificar elaboração, discussão, aprovação, execução, controle e avaliação, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -783,19 +797,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Ciclo orçamentário é:",
         "alternativas": [
-          "orçamento passa por fases políticas, técnicas e de fiscalização",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Orçamento passa por fases políticas, técnicas e de fiscalização.",
+          "Achar que ciclo termina na aprovação da lei.",
+          "Tratar Ciclo orçamentário como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de elaboração, discussão, aprovação, execução, controle e avaliação com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: Orçamento passa por fases políticas, técnicas e de fiscalização.",
+          "Errada: Achar que ciclo termina na aprovação da lei.",
+          "Errada: Tratar Ciclo orçamentário como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de elaboração, discussão, aprovação, execução, controle e avaliação com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -824,19 +840,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Ciclo orçamentário?",
         "alternativas": [
+          "Achar que ciclo termina na aprovação da lei.",
+          "Tratar Ciclo orçamentário como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de elaboração, discussão, aprovação, execução, controle e avaliação com dinheiro imediatamente disponível no caixa do órgão.",
           "Supor que achar que ciclo termina na aprovação da lei é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Achar que ciclo termina na aprovação da lei.",
+          "Errada: Tratar Ciclo orçamentário como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de elaboração, discussão, aprovação, execução, controle e avaliação com dinheiro imediatamente disponível no caixa do órgão.",
+          "Correta: Supor que achar que ciclo termina na aprovação da lei é aceitável porque simplifica o trabalho.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -850,11 +868,11 @@ export const administracaoFinanceiraOrcamentaria = [
   },
   {
     "id": "administracao-financeira-e-orcamentaria-04-receita-publica",
-    "materialTitle": "Administração Financeira e Orçamentária",
+    "materialTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "subject": "Administração Financeira e Orçamentária",
     "contest": "Tribunais / Área fiscal / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Financeira e Orçamentária",
+    "moduleTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Receita pública",
@@ -1023,19 +1041,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Receita pública, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Confundir ingresso extraorçamentário com receita orçamentária.",
           "Identificar classificação, previsão, lançamento, arrecadação e recolhimento, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Tratar Receita pública como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de classificação, previsão, lançamento, arrecadação e recolhimento com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: verificar natureza, etapa e destinação, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Confundir ingresso extraorçamentário com receita orçamentária.",
+          "Correta: Identificar classificação, previsão, lançamento, arrecadação e recolhimento, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Tratar Receita pública como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de classificação, previsão, lançamento, arrecadação e recolhimento com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -1064,19 +1084,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Receita pública é:",
         "alternativas": [
-          "receita orçamentária financia despesa e exige classificação correta",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Confundir ingresso extraorçamentário com receita orçamentária.",
+          "Tratar Receita pública como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Receita orçamentária financia despesa e exige classificação correta.",
+          "Confundir planejamento orçamentário de classificação, previsão, lançamento, arrecadação e recolhimento com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Confundir ingresso extraorçamentário com receita orçamentária.",
+          "Errada: Tratar Receita pública como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Correta: Receita orçamentária financia despesa e exige classificação correta.",
+          "Errada: Confundir planejamento orçamentário de classificação, previsão, lançamento, arrecadação e recolhimento com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -1106,18 +1128,20 @@ export const administracaoFinanceiraOrcamentaria = [
         "enunciado": "Qual alternativa revela erro de banca em Receita pública?",
         "alternativas": [
           "Supor que confundir ingresso extraorçamentário com receita orçamentária é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir ingresso extraorçamentário com receita orçamentária.",
+          "Tratar Receita pública como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de classificação, previsão, lançamento, arrecadação e recolhimento com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Correta: Supor que confundir ingresso extraorçamentário com receita orçamentária é aceitável porque simplifica o trabalho.",
+          "Errada: Confundir ingresso extraorçamentário com receita orçamentária.",
+          "Errada: Tratar Receita pública como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de classificação, previsão, lançamento, arrecadação e recolhimento com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -1131,11 +1155,11 @@ export const administracaoFinanceiraOrcamentaria = [
   },
   {
     "id": "administracao-financeira-e-orcamentaria-05-despesa-publica-classificacao-e-estagios",
-    "materialTitle": "Administração Financeira e Orçamentária",
+    "materialTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "subject": "Administração Financeira e Orçamentária",
     "contest": "Tribunais / Área fiscal / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Financeira e Orçamentária",
+    "moduleTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Despesa pública: classificação e estágios",
@@ -1304,19 +1328,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Despesa pública: classificação e estágios, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar fixação, empenho, liquidação e pagamento com controle formal, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Dizer que pagamento pode ocorrer antes da liquidação.",
+          "Tratar Despesa pública: classificação e estágios como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de fixação, empenho, liquidação e pagamento com controle formal com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual.",
+          "Identificar fixação, empenho, liquidação e pagamento com controle formal, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: seguir a sequência lógica da despesa, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Dizer que pagamento pode ocorrer antes da liquidação.",
+          "Errada: Tratar Despesa pública: classificação e estágios como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de fixação, empenho, liquidação e pagamento com controle formal com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual.",
+          "Correta: Identificar fixação, empenho, liquidação e pagamento com controle formal, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ]
       },
       {
@@ -1345,19 +1371,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Despesa pública: classificação e estágios é:",
         "alternativas": [
-          "empenho reserva dotação; liquidação verifica direito do credor",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Dizer que pagamento pode ocorrer antes da liquidação.",
+          "Tratar Despesa pública: classificação e estágios como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de fixação, empenho, liquidação e pagamento com controle formal com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual.",
+          "Empenho reserva dotação; liquidação verifica direito do credor."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Dizer que pagamento pode ocorrer antes da liquidação.",
+          "Errada: Tratar Despesa pública: classificação e estágios como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de fixação, empenho, liquidação e pagamento com controle formal com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual.",
+          "Correta: Empenho reserva dotação; liquidação verifica direito do credor."
         ]
       },
       {
@@ -1386,19 +1414,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Despesa pública: classificação e estágios?",
         "alternativas": [
-          "Supor que dizer que pagamento pode ocorrer antes da liquidação é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Dizer que pagamento pode ocorrer antes da liquidação.",
+          "Tratar Despesa pública: classificação e estágios como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de fixação, empenho, liquidação e pagamento com controle formal com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual.",
+          "Supor que dizer que pagamento pode ocorrer antes da liquidação é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Dizer que pagamento pode ocorrer antes da liquidação.",
+          "Errada: Tratar Despesa pública: classificação e estágios como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de fixação, empenho, liquidação e pagamento com controle formal com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual.",
+          "Correta: Supor que dizer que pagamento pode ocorrer antes da liquidação é aceitável porque simplifica o trabalho."
         ]
       },
       {
@@ -1412,11 +1442,11 @@ export const administracaoFinanceiraOrcamentaria = [
   },
   {
     "id": "administracao-financeira-e-orcamentaria-06-creditos-adicionais",
-    "materialTitle": "Administração Financeira e Orçamentária",
+    "materialTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "subject": "Administração Financeira e Orçamentária",
     "contest": "Tribunais / Área fiscal / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Financeira e Orçamentária",
+    "moduleTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Créditos adicionais",
@@ -1585,19 +1615,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Créditos adicionais, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Usar crédito extraordinário para despesa comum previsível.",
+          "Tratar Créditos adicionais como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
           "Identificar suplementares, especiais e extraordinários conforme finalidade e autorização, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Confundir planejamento orçamentário de suplementares, especiais e extraordinários conforme finalidade e autorização com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar se há dotação, urgência e tipo de autorização, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Usar crédito extraordinário para despesa comum previsível.",
+          "Errada: Tratar Créditos adicionais como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Correta: Identificar suplementares, especiais e extraordinários conforme finalidade e autorização, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Confundir planejamento orçamentário de suplementares, especiais e extraordinários conforme finalidade e autorização com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -1626,19 +1658,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Créditos adicionais é:",
         "alternativas": [
-          "crédito adicional altera autorização orçamentária em hipóteses específicas",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Crédito adicional altera autorização orçamentária em hipóteses específicas.",
+          "Usar crédito extraordinário para despesa comum previsível.",
+          "Tratar Créditos adicionais como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de suplementares, especiais e extraordinários conforme finalidade e autorização com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: Crédito adicional altera autorização orçamentária em hipóteses específicas.",
+          "Errada: Usar crédito extraordinário para despesa comum previsível.",
+          "Errada: Tratar Créditos adicionais como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de suplementares, especiais e extraordinários conforme finalidade e autorização com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -1667,19 +1701,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Créditos adicionais?",
         "alternativas": [
+          "Usar crédito extraordinário para despesa comum previsível.",
+          "Tratar Créditos adicionais como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de suplementares, especiais e extraordinários conforme finalidade e autorização com dinheiro imediatamente disponível no caixa do órgão.",
           "Supor que usar crédito extraordinário para despesa comum previsível é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Usar crédito extraordinário para despesa comum previsível.",
+          "Errada: Tratar Créditos adicionais como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de suplementares, especiais e extraordinários conforme finalidade e autorização com dinheiro imediatamente disponível no caixa do órgão.",
+          "Correta: Supor que usar crédito extraordinário para despesa comum previsível é aceitável porque simplifica o trabalho.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -1693,11 +1729,11 @@ export const administracaoFinanceiraOrcamentaria = [
   },
   {
     "id": "administracao-financeira-e-orcamentaria-07-restos-a-pagar-despesas-de-exercicios-anteriores-e-suprimento-de-fundos",
-    "materialTitle": "Administração Financeira e Orçamentária",
+    "materialTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "subject": "Administração Financeira e Orçamentária",
     "contest": "Tribunais / Área fiscal / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Financeira e Orçamentária",
+    "moduleTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Restos a pagar, despesas de exercícios anteriores e suprimento de fundos",
@@ -1866,19 +1902,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Restos a pagar, despesas de exercícios anteriores e suprimento de fundos, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Misturar restos a pagar com despesa de exercício anterior.",
           "Identificar tratamento de obrigações pendentes e pequenas despesas sob controle, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Tratar Restos a pagar, despesas de exercícios anteriores e suprimento de fundos como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de tratamento de obrigações pendentes e pequenas despesas sob controle com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: perguntar quando nasceu a obrigação e em que estágio estava, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Misturar restos a pagar com despesa de exercício anterior.",
+          "Correta: Identificar tratamento de obrigações pendentes e pequenas despesas sob controle, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Tratar Restos a pagar, despesas de exercícios anteriores e suprimento de fundos como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de tratamento de obrigações pendentes e pequenas despesas sob controle com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -1907,19 +1945,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Restos a pagar, despesas de exercícios anteriores e suprimento de fundos é:",
         "alternativas": [
-          "cada instituto tem finalidade e limite próprio",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Misturar restos a pagar com despesa de exercício anterior.",
+          "Tratar Restos a pagar, despesas de exercícios anteriores e suprimento de fundos como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de tratamento de obrigações pendentes e pequenas despesas sob controle com dinheiro imediatamente disponível no caixa do órgão.",
+          "Cada instituto tem finalidade e limite próprio.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Misturar restos a pagar com despesa de exercício anterior.",
+          "Errada: Tratar Restos a pagar, despesas de exercícios anteriores e suprimento de fundos como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de tratamento de obrigações pendentes e pequenas despesas sob controle com dinheiro imediatamente disponível no caixa do órgão.",
+          "Correta: Cada instituto tem finalidade e limite próprio.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -1948,19 +1988,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Restos a pagar, despesas de exercícios anteriores e suprimento de fundos?",
         "alternativas": [
+          "Misturar restos a pagar com despesa de exercício anterior.",
           "Supor que misturar restos a pagar com despesa de exercício anterior é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Tratar Restos a pagar, despesas de exercícios anteriores e suprimento de fundos como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de tratamento de obrigações pendentes e pequenas despesas sob controle com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Misturar restos a pagar com despesa de exercício anterior.",
+          "Correta: Supor que misturar restos a pagar com despesa de exercício anterior é aceitável porque simplifica o trabalho.",
+          "Errada: Tratar Restos a pagar, despesas de exercícios anteriores e suprimento de fundos como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de tratamento de obrigações pendentes e pequenas despesas sob controle com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -1974,11 +2016,11 @@ export const administracaoFinanceiraOrcamentaria = [
   },
   {
     "id": "administracao-financeira-e-orcamentaria-08-execucao-financeira-programacao-e-contingenciamento",
-    "materialTitle": "Administração Financeira e Orçamentária",
+    "materialTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "subject": "Administração Financeira e Orçamentária",
     "contest": "Tribunais / Área fiscal / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Financeira e Orçamentária",
+    "moduleTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Execução financeira, programação e contingenciamento",
@@ -2147,19 +2189,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Execução financeira, programação e contingenciamento, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Achar que toda dotação pode ser gasta imediatamente.",
+          "Tratar Execução financeira, programação e contingenciamento como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
           "Identificar compatibilização entre orçamento autorizado e fluxo real de caixa, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Confundir planejamento orçamentário de compatibilização entre orçamento autorizado e fluxo real de caixa com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: analisar arrecadação, programação e limite de empenho, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Achar que toda dotação pode ser gasta imediatamente.",
+          "Errada: Tratar Execução financeira, programação e contingenciamento como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Correta: Identificar compatibilização entre orçamento autorizado e fluxo real de caixa, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Confundir planejamento orçamentário de compatibilização entre orçamento autorizado e fluxo real de caixa com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -2188,19 +2232,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Execução financeira, programação e contingenciamento é:",
         "alternativas": [
-          "limite financeiro pode restringir execução sem apagar autorização orçamentária",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Achar que toda dotação pode ser gasta imediatamente.",
+          "Tratar Execução financeira, programação e contingenciamento como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de compatibilização entre orçamento autorizado e fluxo real de caixa com dinheiro imediatamente disponível no caixa do órgão.",
+          "Limite financeiro pode restringir execução sem apagar autorização orçamentária.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Achar que toda dotação pode ser gasta imediatamente.",
+          "Errada: Tratar Execução financeira, programação e contingenciamento como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de compatibilização entre orçamento autorizado e fluxo real de caixa com dinheiro imediatamente disponível no caixa do órgão.",
+          "Correta: Limite financeiro pode restringir execução sem apagar autorização orçamentária.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -2229,19 +2275,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Execução financeira, programação e contingenciamento?",
         "alternativas": [
-          "Supor que achar que toda dotação pode ser gasta imediatamente é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Achar que toda dotação pode ser gasta imediatamente.",
+          "Tratar Execução financeira, programação e contingenciamento como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de compatibilização entre orçamento autorizado e fluxo real de caixa com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual.",
+          "Supor que achar que toda dotação pode ser gasta imediatamente é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Achar que toda dotação pode ser gasta imediatamente.",
+          "Errada: Tratar Execução financeira, programação e contingenciamento como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de compatibilização entre orçamento autorizado e fluxo real de caixa com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual.",
+          "Correta: Supor que achar que toda dotação pode ser gasta imediatamente é aceitável porque simplifica o trabalho."
         ]
       },
       {
@@ -2255,11 +2303,11 @@ export const administracaoFinanceiraOrcamentaria = [
   },
   {
     "id": "administracao-financeira-e-orcamentaria-09-controle-orcamentario-e-responsabilidade-fiscal",
-    "materialTitle": "Administração Financeira e Orçamentária",
+    "materialTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "subject": "Administração Financeira e Orçamentária",
     "contest": "Tribunais / Área fiscal / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Financeira e Orçamentária",
+    "moduleTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Controle orçamentário e responsabilidade fiscal",
@@ -2429,18 +2477,20 @@ export const administracaoFinanceiraOrcamentaria = [
         "enunciado": "Em Controle orçamentário e responsabilidade fiscal, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar controle da execução, metas, transparência e equilíbrio fiscal, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Tratar controle como formalidade posterior.",
+          "Tratar Controle orçamentário e responsabilidade fiscal como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de controle da execução, metas, transparência e equilíbrio fiscal com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: vincular gasto, meta, limite e transparência, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar controle da execução, metas, transparência e equilíbrio fiscal, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Tratar controle como formalidade posterior.",
+          "Errada: Tratar Controle orçamentário e responsabilidade fiscal como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de controle da execução, metas, transparência e equilíbrio fiscal com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -2469,19 +2519,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Controle orçamentário e responsabilidade fiscal é:",
         "alternativas": [
-          "responsabilidade fiscal exige planejamento, limites e prestação de contas",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Tratar controle como formalidade posterior.",
+          "Tratar Controle orçamentário e responsabilidade fiscal como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Responsabilidade fiscal exige planejamento, limites e prestação de contas.",
+          "Confundir planejamento orçamentário de controle da execução, metas, transparência e equilíbrio fiscal com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Tratar controle como formalidade posterior.",
+          "Errada: Tratar Controle orçamentário e responsabilidade fiscal como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Correta: Responsabilidade fiscal exige planejamento, limites e prestação de contas.",
+          "Errada: Confundir planejamento orçamentário de controle da execução, metas, transparência e equilíbrio fiscal com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -2511,18 +2563,20 @@ export const administracaoFinanceiraOrcamentaria = [
         "enunciado": "Qual alternativa revela erro de banca em Controle orçamentário e responsabilidade fiscal?",
         "alternativas": [
           "Supor que tratar controle como formalidade posterior é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Tratar controle como formalidade posterior.",
+          "Tratar Controle orçamentário e responsabilidade fiscal como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de controle da execução, metas, transparência e equilíbrio fiscal com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Correta: Supor que tratar controle como formalidade posterior é aceitável porque simplifica o trabalho.",
+          "Errada: Tratar controle como formalidade posterior.",
+          "Errada: Tratar Controle orçamentário e responsabilidade fiscal como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de controle da execução, metas, transparência e equilíbrio fiscal com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -2536,11 +2590,11 @@ export const administracaoFinanceiraOrcamentaria = [
   },
   {
     "id": "administracao-financeira-e-orcamentaria-10-casos-praticos-de-afo-para-tribunais",
-    "materialTitle": "Administração Financeira e Orçamentária",
+    "materialTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "subject": "Administração Financeira e Orçamentária",
     "contest": "Tribunais / Área fiscal / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Financeira e Orçamentária",
+    "moduleTitle": "Administração Financeira e Orçamentária 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Casos práticos de AFO para tribunais",
@@ -2709,19 +2763,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Casos práticos de AFO para tribunais, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Marcar pela palavra conhecida sem olhar o estágio.",
+          "Tratar Casos práticos de AFO para tribunais como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
           "Identificar questões integradas sobre PPA, LDO, LOA, receita, despesa e controle, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Confundir planejamento orçamentário de questões integradas sobre PPA, LDO, LOA, receita, despesa e controle com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: desenhar fluxo orçamentário do caso, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Marcar pela palavra conhecida sem olhar o estágio.",
+          "Errada: Tratar Casos práticos de AFO para tribunais como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Correta: Identificar questões integradas sobre PPA, LDO, LOA, receita, despesa e controle, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Confundir planejamento orçamentário de questões integradas sobre PPA, LDO, LOA, receita, despesa e controle com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -2750,19 +2806,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Casos práticos de AFO para tribunais é:",
         "alternativas": [
-          "a prova cobra sequência e função dos instrumentos",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Marcar pela palavra conhecida sem olhar o estágio.",
+          "Tratar Casos práticos de AFO para tribunais como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "A prova cobra sequência e função dos instrumentos.",
+          "Confundir planejamento orçamentário de questões integradas sobre PPA, LDO, LOA, receita, despesa e controle com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Marcar pela palavra conhecida sem olhar o estágio.",
+          "Errada: Tratar Casos práticos de AFO para tribunais como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Correta: A prova cobra sequência e função dos instrumentos.",
+          "Errada: Confundir planejamento orçamentário de questões integradas sobre PPA, LDO, LOA, receita, despesa e controle com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual."
         ]
       },
       {
@@ -2791,19 +2849,21 @@ export const administracaoFinanceiraOrcamentaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Casos práticos de AFO para tribunais?",
         "alternativas": [
-          "Supor que marcar pela palavra conhecida sem olhar o estágio é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Marcar pela palavra conhecida sem olhar o estágio.",
+          "Tratar Casos práticos de AFO para tribunais como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Confundir planejamento orçamentário de questões integradas sobre PPA, LDO, LOA, receita, despesa e controle com dinheiro imediatamente disponível no caixa do órgão.",
+          "Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual.",
+          "Supor que marcar pela palavra conhecida sem olhar o estágio é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Marcar pela palavra conhecida sem olhar o estágio.",
+          "Errada: Tratar Casos práticos de AFO para tribunais como autorização para gastar sem empenho, liquidação e registro da etapa correspondente.",
+          "Errada: Confundir planejamento orçamentário de questões integradas sobre PPA, LDO, LOA, receita, despesa e controle com dinheiro imediatamente disponível no caixa do órgão.",
+          "Errada: Separar PPA, LDO e LOA como peças isoladas, sem compatibilidade entre plano, diretrizes e orçamento anual.",
+          "Correta: Supor que marcar pela palavra conhecida sem olhar o estágio é aceitável porque simplifica o trabalho."
         ]
       },
       {

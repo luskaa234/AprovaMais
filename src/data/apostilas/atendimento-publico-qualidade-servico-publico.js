@@ -7,11 +7,11 @@
 export const atendimentoPublicoQualidadeServicoPublico = [
   {
     "id": "atendimento-ao-publico-e-qualidade-no-servico-publico-01-atendimento-publico-como-dever-institucional",
-    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "subject": "Atendimento ao Público e Qualidade no Serviço Público",
     "contest": "Tribunais / Área administrativa / Atendimento / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Atendimento público como dever institucional",
@@ -179,19 +179,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Atendimento público como dever institucional, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Tratar atendimento como simpatia individual sem processo.",
+          "Encerrar atendimento sobre Atendimento público como dever institucional sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
           "Identificar atendimento como expressão concreta de cidadania, eficiência e respeito, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar direito do usuário e dever do órgão, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Tratar atendimento como simpatia individual sem processo.",
+          "Errada: Encerrar atendimento sobre Atendimento público como dever institucional sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Correta: Identificar atendimento como expressão concreta de cidadania, eficiência e respeito, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -220,19 +222,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Atendimento público como dever institucional é:",
         "alternativas": [
-          "o usuário não pede favor; exerce direito a serviço adequado",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Tratar atendimento como simpatia individual sem processo.",
+          "O usuário não pede favor; exerce direito a serviço adequado.",
+          "Encerrar atendimento sobre Atendimento público como dever institucional sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Tratar atendimento como simpatia individual sem processo.",
+          "Correta: O usuário não pede favor; exerce direito a serviço adequado.",
+          "Errada: Encerrar atendimento sobre Atendimento público como dever institucional sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -261,19 +265,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Atendimento público como dever institucional?",
         "alternativas": [
+          "Tratar atendimento como simpatia individual sem processo.",
           "Supor que tratar atendimento como simpatia individual sem processo é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Encerrar atendimento sobre Atendimento público como dever institucional sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Tratar atendimento como simpatia individual sem processo.",
+          "Correta: Supor que tratar atendimento como simpatia individual sem processo é aceitável porque simplifica o trabalho.",
+          "Errada: Encerrar atendimento sobre Atendimento público como dever institucional sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -287,11 +293,11 @@ export const atendimentoPublicoQualidadeServicoPublico = [
   },
   {
     "id": "atendimento-ao-publico-e-qualidade-no-servico-publico-02-comunicacao-clara-escuta-ativa-e-linguagem-cidada",
-    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "subject": "Atendimento ao Público e Qualidade no Serviço Público",
     "contest": "Tribunais / Área administrativa / Atendimento / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Comunicação clara, escuta ativa e linguagem cidadã",
@@ -459,19 +465,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Comunicação clara, escuta ativa e linguagem cidadã, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Usar jargão técnico para encerrar conversa.",
+          "Encerrar atendimento sobre Comunicação clara, escuta ativa e linguagem cidadã sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
           "Identificar transmitir informação correta, compreensível e útil ao cidadão, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: confirmar demanda, adaptar linguagem e registrar orientação, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Usar jargão técnico para encerrar conversa.",
+          "Errada: Encerrar atendimento sobre Comunicação clara, escuta ativa e linguagem cidadã sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Correta: Identificar transmitir informação correta, compreensível e útil ao cidadão, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -500,19 +508,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Comunicação clara, escuta ativa e linguagem cidadã é:",
         "alternativas": [
-          "clareza reduz erro, retrabalho e conflito",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Clareza reduz erro, retrabalho e conflito.",
+          "Usar jargão técnico para encerrar conversa.",
+          "Encerrar atendimento sobre Comunicação clara, escuta ativa e linguagem cidadã sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: Clareza reduz erro, retrabalho e conflito.",
+          "Errada: Usar jargão técnico para encerrar conversa.",
+          "Errada: Encerrar atendimento sobre Comunicação clara, escuta ativa e linguagem cidadã sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -541,19 +551,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Comunicação clara, escuta ativa e linguagem cidadã?",
         "alternativas": [
-          "Supor que usar jargão técnico para encerrar conversa é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Usar jargão técnico para encerrar conversa.",
+          "Encerrar atendimento sobre Comunicação clara, escuta ativa e linguagem cidadã sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado.",
+          "Supor que usar jargão técnico para encerrar conversa é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Usar jargão técnico para encerrar conversa.",
+          "Errada: Encerrar atendimento sobre Comunicação clara, escuta ativa e linguagem cidadã sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado.",
+          "Correta: Supor que usar jargão técnico para encerrar conversa é aceitável porque simplifica o trabalho."
         ]
       },
       {
@@ -567,11 +579,11 @@ export const atendimentoPublicoQualidadeServicoPublico = [
   },
   {
     "id": "atendimento-ao-publico-e-qualidade-no-servico-publico-03-postura-profissional-etica-e-urbanidade",
-    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "subject": "Atendimento ao Público e Qualidade no Serviço Público",
     "contest": "Tribunais / Área administrativa / Atendimento / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Postura profissional, ética e urbanidade",
@@ -739,19 +751,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Postura profissional, ética e urbanidade, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar conduta respeitosa, impessoal e responsável no contato com o público, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Responder grosseria com grosseria ou privilégio pessoal.",
+          "Encerrar atendimento sobre Postura profissional, ética e urbanidade sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado.",
+          "Identificar conduta respeitosa, impessoal e responsável no contato com o público, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: manter padrão, registrar fato e acionar protocolo, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Responder grosseria com grosseria ou privilégio pessoal.",
+          "Errada: Encerrar atendimento sobre Postura profissional, ética e urbanidade sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado.",
+          "Correta: Identificar conduta respeitosa, impessoal e responsável no contato com o público, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ]
       },
       {
@@ -780,19 +794,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Postura profissional, ética e urbanidade é:",
         "alternativas": [
-          "urbanidade não depende do comportamento do usuário",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Responder grosseria com grosseria ou privilégio pessoal.",
+          "Encerrar atendimento sobre Postura profissional, ética e urbanidade sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Urbanidade não depende do comportamento do usuário.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Responder grosseria com grosseria ou privilégio pessoal.",
+          "Errada: Encerrar atendimento sobre Postura profissional, ética e urbanidade sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Correta: Urbanidade não depende do comportamento do usuário.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -822,18 +838,20 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "enunciado": "Qual alternativa revela erro de banca em Postura profissional, ética e urbanidade?",
         "alternativas": [
           "Supor que responder grosseria com grosseria ou privilégio pessoal é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Responder grosseria com grosseria ou privilégio pessoal.",
+          "Encerrar atendimento sobre Postura profissional, ética e urbanidade sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Correta: Supor que responder grosseria com grosseria ou privilégio pessoal é aceitável porque simplifica o trabalho.",
+          "Errada: Responder grosseria com grosseria ou privilégio pessoal.",
+          "Errada: Encerrar atendimento sobre Postura profissional, ética e urbanidade sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -847,11 +865,11 @@ export const atendimentoPublicoQualidadeServicoPublico = [
   },
   {
     "id": "atendimento-ao-publico-e-qualidade-no-servico-publico-04-gestao-de-conflitos-no-atendimento",
-    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "subject": "Atendimento ao Público e Qualidade no Serviço Público",
     "contest": "Tribunais / Área administrativa / Atendimento / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Gestão de conflitos no atendimento",
@@ -1019,19 +1037,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Gestão de conflitos no atendimento, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Prometer solução impossível para acalmar usuário.",
+          "Encerrar atendimento sobre Gestão de conflitos no atendimento sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
           "Identificar desescalar tensão, separar emoção de demanda e buscar encaminhamento correto, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: escutar, delimitar pedido, explicar regra e encaminhar, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Prometer solução impossível para acalmar usuário.",
+          "Errada: Encerrar atendimento sobre Gestão de conflitos no atendimento sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Correta: Identificar desescalar tensão, separar emoção de demanda e buscar encaminhamento correto, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -1060,19 +1080,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Gestão de conflitos no atendimento é:",
         "alternativas": [
-          "conflito muitas vezes nasce de informação incompleta ou processo confuso",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Prometer solução impossível para acalmar usuário.",
+          "Encerrar atendimento sobre Gestão de conflitos no atendimento sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Conflito muitas vezes nasce de informação incompleta ou processo confuso.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Prometer solução impossível para acalmar usuário.",
+          "Errada: Encerrar atendimento sobre Gestão de conflitos no atendimento sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Correta: Conflito muitas vezes nasce de informação incompleta ou processo confuso.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -1101,19 +1123,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Gestão de conflitos no atendimento?",
         "alternativas": [
+          "Prometer solução impossível para acalmar usuário.",
+          "Encerrar atendimento sobre Gestão de conflitos no atendimento sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
           "Supor que prometer solução impossível para acalmar usuário é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Prometer solução impossível para acalmar usuário.",
+          "Errada: Encerrar atendimento sobre Gestão de conflitos no atendimento sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Correta: Supor que prometer solução impossível para acalmar usuário é aceitável porque simplifica o trabalho.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -1127,11 +1151,11 @@ export const atendimentoPublicoQualidadeServicoPublico = [
   },
   {
     "id": "atendimento-ao-publico-e-qualidade-no-servico-publico-05-acessibilidade-inclusao-e-atendimento-prioritario",
-    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "subject": "Atendimento ao Público e Qualidade no Serviço Público",
     "contest": "Tribunais / Área administrativa / Atendimento / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Acessibilidade, inclusão e atendimento prioritário",
@@ -1299,19 +1323,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Acessibilidade, inclusão e atendimento prioritário, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar serviço adequado a pessoas com deficiência, idosos e públicos vulneráveis, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Tratar acessibilidade como exceção ou gentileza.",
+          "Encerrar atendimento sobre Acessibilidade, inclusão e atendimento prioritário sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado.",
+          "Identificar serviço adequado a pessoas com deficiência, idosos e públicos vulneráveis, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: verificar barreira, necessidade e ajuste possível, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Tratar acessibilidade como exceção ou gentileza.",
+          "Errada: Encerrar atendimento sobre Acessibilidade, inclusão e atendimento prioritário sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado.",
+          "Correta: Identificar serviço adequado a pessoas com deficiência, idosos e públicos vulneráveis, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ]
       },
       {
@@ -1340,19 +1366,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Acessibilidade, inclusão e atendimento prioritário é:",
         "alternativas": [
-          "igualdade real exige adaptação razoável e prioridade quando prevista",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Tratar acessibilidade como exceção ou gentileza.",
+          "Igualdade real exige adaptação razoável e prioridade quando prevista.",
+          "Encerrar atendimento sobre Acessibilidade, inclusão e atendimento prioritário sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Tratar acessibilidade como exceção ou gentileza.",
+          "Correta: Igualdade real exige adaptação razoável e prioridade quando prevista.",
+          "Errada: Encerrar atendimento sobre Acessibilidade, inclusão e atendimento prioritário sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -1381,19 +1409,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Acessibilidade, inclusão e atendimento prioritário?",
         "alternativas": [
+          "Tratar acessibilidade como exceção ou gentileza.",
+          "Encerrar atendimento sobre Acessibilidade, inclusão e atendimento prioritário sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
           "Supor que tratar acessibilidade como exceção ou gentileza é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Tratar acessibilidade como exceção ou gentileza.",
+          "Errada: Encerrar atendimento sobre Acessibilidade, inclusão e atendimento prioritário sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Correta: Supor que tratar acessibilidade como exceção ou gentileza é aceitável porque simplifica o trabalho.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -1407,11 +1437,11 @@ export const atendimentoPublicoQualidadeServicoPublico = [
   },
   {
     "id": "atendimento-ao-publico-e-qualidade-no-servico-publico-06-qualidade-em-servicos-publicos",
-    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "subject": "Atendimento ao Público e Qualidade no Serviço Público",
     "contest": "Tribunais / Área administrativa / Atendimento / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Qualidade em serviços públicos",
@@ -1580,18 +1610,20 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "enunciado": "Em Qualidade em serviços públicos, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar qualidade medida por acesso, tempo, precisão, resolutividade e satisfação, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Medir qualidade só por número de atendimentos.",
+          "Encerrar atendimento sobre Qualidade em serviços públicos sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: acompanhar prazo, erro, retrabalho e satisfação, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar qualidade medida por acesso, tempo, precisão, resolutividade e satisfação, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Medir qualidade só por número de atendimentos.",
+          "Errada: Encerrar atendimento sobre Qualidade em serviços públicos sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -1620,19 +1652,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Qualidade em serviços públicos é:",
         "alternativas": [
-          "serviço bom resolve a demanda com segurança e respeito",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Medir qualidade só por número de atendimentos.",
+          "Encerrar atendimento sobre Qualidade em serviços públicos sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Serviço bom resolve a demanda com segurança e respeito.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Medir qualidade só por número de atendimentos.",
+          "Errada: Encerrar atendimento sobre Qualidade em serviços públicos sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Correta: Serviço bom resolve a demanda com segurança e respeito.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -1661,19 +1695,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Qualidade em serviços públicos?",
         "alternativas": [
-          "Supor que medir qualidade só por número de atendimentos é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Medir qualidade só por número de atendimentos.",
+          "Encerrar atendimento sobre Qualidade em serviços públicos sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado.",
+          "Supor que medir qualidade só por número de atendimentos é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Medir qualidade só por número de atendimentos.",
+          "Errada: Encerrar atendimento sobre Qualidade em serviços públicos sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado.",
+          "Correta: Supor que medir qualidade só por número de atendimentos é aceitável porque simplifica o trabalho."
         ]
       },
       {
@@ -1687,11 +1723,11 @@ export const atendimentoPublicoQualidadeServicoPublico = [
   },
   {
     "id": "atendimento-ao-publico-e-qualidade-no-servico-publico-07-carta-de-servicos-ouvidoria-e-canais-digitais",
-    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "subject": "Atendimento ao Público e Qualidade no Serviço Público",
     "contest": "Tribunais / Área administrativa / Atendimento / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Carta de serviços, ouvidoria e canais digitais",
@@ -1859,19 +1895,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Carta de serviços, ouvidoria e canais digitais, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar instrumentos de informação, participação, reclamação e melhoria do serviço, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Ignorar reclamação repetida como caso isolado.",
+          "Encerrar atendimento sobre Carta de serviços, ouvidoria e canais digitais sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado.",
+          "Identificar instrumentos de informação, participação, reclamação e melhoria do serviço, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: registrar manifestação, classificar causa e propor melhoria, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Ignorar reclamação repetida como caso isolado.",
+          "Errada: Encerrar atendimento sobre Carta de serviços, ouvidoria e canais digitais sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado.",
+          "Correta: Identificar instrumentos de informação, participação, reclamação e melhoria do serviço, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ]
       },
       {
@@ -1900,19 +1938,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Carta de serviços, ouvidoria e canais digitais é:",
         "alternativas": [
-          "ouvidoria é canal de melhoria e controle social, não mero SAC decorativo",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Ignorar reclamação repetida como caso isolado.",
+          "Encerrar atendimento sobre Carta de serviços, ouvidoria e canais digitais sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Ouvidoria é canal de melhoria e controle social, não mero SAC decorativo.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Ignorar reclamação repetida como caso isolado.",
+          "Errada: Encerrar atendimento sobre Carta de serviços, ouvidoria e canais digitais sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Correta: Ouvidoria é canal de melhoria e controle social, não mero SAC decorativo.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -1941,19 +1981,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Carta de serviços, ouvidoria e canais digitais?",
         "alternativas": [
+          "Ignorar reclamação repetida como caso isolado.",
           "Supor que ignorar reclamação repetida como caso isolado é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Encerrar atendimento sobre Carta de serviços, ouvidoria e canais digitais sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Ignorar reclamação repetida como caso isolado.",
+          "Correta: Supor que ignorar reclamação repetida como caso isolado é aceitável porque simplifica o trabalho.",
+          "Errada: Encerrar atendimento sobre Carta de serviços, ouvidoria e canais digitais sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -1967,11 +2009,11 @@ export const atendimentoPublicoQualidadeServicoPublico = [
   },
   {
     "id": "atendimento-ao-publico-e-qualidade-no-servico-publico-08-protecao-de-dados-e-sigilo-no-atendimento",
-    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "subject": "Atendimento ao Público e Qualidade no Serviço Público",
     "contest": "Tribunais / Área administrativa / Atendimento / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Proteção de dados e sigilo no atendimento",
@@ -2140,18 +2182,20 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "enunciado": "Em Proteção de dados e sigilo no atendimento, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar informação pessoal deve ser tratada com necessidade, segurança e finalidade, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Falar dados sensíveis em ambiente aberto ou para terceiro não autorizado.",
+          "Encerrar atendimento sobre Proteção de dados e sigilo no atendimento sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: confirmar identidade, limitar informação e registrar acesso, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar informação pessoal deve ser tratada com necessidade, segurança e finalidade, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Falar dados sensíveis em ambiente aberto ou para terceiro não autorizado.",
+          "Errada: Encerrar atendimento sobre Proteção de dados e sigilo no atendimento sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -2180,19 +2224,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Proteção de dados e sigilo no atendimento é:",
         "alternativas": [
-          "atendente deve orientar sem expor dados indevidos",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Falar dados sensíveis em ambiente aberto ou para terceiro não autorizado.",
+          "Atendente deve orientar sem expor dados indevidos.",
+          "Encerrar atendimento sobre Proteção de dados e sigilo no atendimento sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Falar dados sensíveis em ambiente aberto ou para terceiro não autorizado.",
+          "Correta: Atendente deve orientar sem expor dados indevidos.",
+          "Errada: Encerrar atendimento sobre Proteção de dados e sigilo no atendimento sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -2221,19 +2267,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Proteção de dados e sigilo no atendimento?",
         "alternativas": [
+          "Falar dados sensíveis em ambiente aberto ou para terceiro não autorizado.",
+          "Encerrar atendimento sobre Proteção de dados e sigilo no atendimento sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
           "Supor que falar dados sensíveis em ambiente aberto ou para terceiro não autorizado é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Falar dados sensíveis em ambiente aberto ou para terceiro não autorizado.",
+          "Errada: Encerrar atendimento sobre Proteção de dados e sigilo no atendimento sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Correta: Supor que falar dados sensíveis em ambiente aberto ou para terceiro não autorizado é aceitável porque simplifica o trabalho.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -2247,11 +2295,11 @@ export const atendimentoPublicoQualidadeServicoPublico = [
   },
   {
     "id": "atendimento-ao-publico-e-qualidade-no-servico-publico-09-processos-de-atendimento-e-melhoria-continua",
-    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "subject": "Atendimento ao Público e Qualidade no Serviço Público",
     "contest": "Tribunais / Área administrativa / Atendimento / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Processos de atendimento e melhoria contínua",
@@ -2420,18 +2468,20 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "enunciado": "Em Processos de atendimento e melhoria contínua, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar organizar fluxo, filas, protocolos e indicadores para reduzir falhas, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Culpar apenas o atendente por falha estrutural.",
+          "Encerrar atendimento sobre Processos de atendimento e melhoria contínua sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: mapear jornada, gargalo e causa raiz, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar organizar fluxo, filas, protocolos e indicadores para reduzir falhas, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Culpar apenas o atendente por falha estrutural.",
+          "Errada: Encerrar atendimento sobre Processos de atendimento e melhoria contínua sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -2460,19 +2510,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Processos de atendimento e melhoria contínua é:",
         "alternativas": [
-          "qualidade depende de processo previsível e equipe treinada",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Culpar apenas o atendente por falha estrutural.",
+          "Encerrar atendimento sobre Processos de atendimento e melhoria contínua sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Qualidade depende de processo previsível e equipe treinada.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Culpar apenas o atendente por falha estrutural.",
+          "Errada: Encerrar atendimento sobre Processos de atendimento e melhoria contínua sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Correta: Qualidade depende de processo previsível e equipe treinada.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -2501,19 +2553,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Processos de atendimento e melhoria contínua?",
         "alternativas": [
+          "Culpar apenas o atendente por falha estrutural.",
           "Supor que culpar apenas o atendente por falha estrutural é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Encerrar atendimento sobre Processos de atendimento e melhoria contínua sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Culpar apenas o atendente por falha estrutural.",
+          "Correta: Supor que culpar apenas o atendente por falha estrutural é aceitável porque simplifica o trabalho.",
+          "Errada: Encerrar atendimento sobre Processos de atendimento e melhoria contínua sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -2527,11 +2581,11 @@ export const atendimentoPublicoQualidadeServicoPublico = [
   },
   {
     "id": "atendimento-ao-publico-e-qualidade-no-servico-publico-10-casos-praticos-de-atendimento-em-tribunais-e-orgaos-publicos",
-    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "materialTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "subject": "Atendimento ao Público e Qualidade no Serviço Público",
     "contest": "Tribunais / Área administrativa / Atendimento / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público",
+    "moduleTitle": "Atendimento ao Público e Qualidade no Serviço Público 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Casos práticos de atendimento em tribunais e órgãos públicos",
@@ -2700,18 +2754,20 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "enunciado": "Em Casos práticos de atendimento em tribunais e órgãos públicos, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar situações com conflito, sigilo, prioridade, informação e ouvidoria, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Escolher alternativa cordial, mas ilegal ou insegura.",
+          "Encerrar atendimento sobre Casos práticos de atendimento em tribunais e órgãos públicos sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: aplicar roteiro: ouvir, confirmar, orientar, registrar e acompanhar, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar situações com conflito, sigilo, prioridade, informação e ouvidoria, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Escolher alternativa cordial, mas ilegal ou insegura.",
+          "Errada: Encerrar atendimento sobre Casos práticos de atendimento em tribunais e órgãos públicos sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -2740,19 +2796,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Casos práticos de atendimento em tribunais e órgãos públicos é:",
         "alternativas": [
-          "a resposta correta equilibra respeito, regra e resolutividade",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Escolher alternativa cordial, mas ilegal ou insegura.",
+          "Encerrar atendimento sobre Casos práticos de atendimento em tribunais e órgãos públicos sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "A resposta correta equilibra respeito, regra e resolutividade.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Escolher alternativa cordial, mas ilegal ou insegura.",
+          "Errada: Encerrar atendimento sobre Casos práticos de atendimento em tribunais e órgãos públicos sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Correta: A resposta correta equilibra respeito, regra e resolutividade.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado."
         ]
       },
       {
@@ -2781,19 +2839,21 @@ export const atendimentoPublicoQualidadeServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Casos práticos de atendimento em tribunais e órgãos públicos?",
         "alternativas": [
-          "Supor que escolher alternativa cordial, mas ilegal ou insegura é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Escolher alternativa cordial, mas ilegal ou insegura.",
+          "Encerrar atendimento sobre Casos práticos de atendimento em tribunais e órgãos públicos sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado.",
+          "Supor que escolher alternativa cordial, mas ilegal ou insegura é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Escolher alternativa cordial, mas ilegal ou insegura.",
+          "Errada: Encerrar atendimento sobre Casos práticos de atendimento em tribunais e órgãos públicos sem protocolo, encaminhamento responsável ou informação compreensível ao cidadão.",
+          "Errada: Usar linguagem interna do órgão para negar informação simples, sem adaptar a comunicação ao usuário do serviço.",
+          "Errada: Exigir que pessoa com prioridade ou deficiência siga fluxo comum, ignorando acessibilidade e atendimento adequado.",
+          "Correta: Supor que escolher alternativa cordial, mas ilegal ou insegura é aceitável porque simplifica o trabalho."
         ]
       },
       {

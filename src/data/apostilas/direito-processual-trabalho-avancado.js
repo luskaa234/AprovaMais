@@ -6,11 +6,11 @@
 export const direitoProcessualTrabalhoAvancado = [
   {
     "id": "competencia-da-justica-do-trabalho",
-    "materialTitle": "Direito Processual do Trabalho Avançado",
+    "materialTitle": "Direito Processual do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual do Trabalho Avançado",
+    "moduleTitle": "Direito Processual do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Competência da Justiça do Trabalho",
@@ -143,13 +143,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Competência da Justiça do Trabalho, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Competência trabalhista decorre da matéria e da relação jurídica; não se limita a empregado formal.",
           "Confundir competência material com local da prestação.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Competência trabalhista decorre da matéria e da relação jurídica; não se limita a empregado formal.",
+          "Escolher rito ou recurso em Competência da Justiça do Trabalho sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Competência trabalhista decorre da matéria e da relação jurídica; não se limita a empregado formal."
       },
       {
@@ -180,13 +181,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Competência da Justiça do Trabalho quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Ação sobre vínculo e verbas trabalhistas vai à Justiça do Trabalho mesmo se o empregador nega vínculo.",
           "Confundir competência material com local da prestação.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Ação sobre vínculo e verbas trabalhistas vai à Justiça do Trabalho mesmo se o empregador nega vínculo.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Competência da Justiça do Trabalho sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -215,13 +217,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Competência da Justiça do Trabalho?",
         "alternativas": [
+          "Confundir competência material com local da prestação.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Competência trabalhista decorre da matéria e da relação jurídica; não se limita a empregado formal.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Competência da Justiça do Trabalho sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -236,11 +239,11 @@ export const direitoProcessualTrabalhoAvancado = [
   },
   {
     "id": "partes-representacao-e-jus-postulandi",
-    "materialTitle": "Direito Processual do Trabalho Avançado",
+    "materialTitle": "Direito Processual do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual do Trabalho Avançado",
+    "moduleTitle": "Direito Processual do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Partes, representação e jus postulandi",
@@ -373,13 +376,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Partes, representação e jus postulandi, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Processo do trabalho simplifica acesso, mas representação técnica e limites do jus postulandi exigem atenção.",
           "Achar que jus postulandi vale irrestritamente para tudo.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Processo do trabalho simplifica acesso, mas representação técnica e limites do jus postulandi exigem atenção.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Partes, representação e jus postulandi sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Processo do trabalho simplifica acesso, mas representação técnica e limites do jus postulandi exigem atenção."
       },
       {
@@ -410,13 +414,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Partes, representação e jus postulandi quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Recurso a tribunal superior pode exigir advogado conforme entendimento aplicável.",
           "Achar que jus postulandi vale irrestritamente para tudo.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Partes, representação e jus postulandi sem conferir valor da causa, fase do processo e pressupostos recursais.",
+          "Recurso a tribunal superior pode exigir advogado conforme entendimento aplicável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -445,13 +450,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Partes, representação e jus postulandi?",
         "alternativas": [
+          "Achar que jus postulandi vale irrestritamente para tudo.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Processo do trabalho simplifica acesso, mas representação técnica e limites do jus postulandi exigem atenção.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Escolher rito ou recurso em Partes, representação e jus postulandi sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -466,11 +472,11 @@ export const direitoProcessualTrabalhoAvancado = [
   },
   {
     "id": "peticao-inicial-audiencia-e-defesa",
-    "materialTitle": "Direito Processual do Trabalho Avançado",
+    "materialTitle": "Direito Processual do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual do Trabalho Avançado",
+    "moduleTitle": "Direito Processual do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Petição inicial, audiência e defesa",
@@ -605,8 +611,9 @@ export const direitoProcessualTrabalhoAvancado = [
         "alternativas": [
           "Audiência concentra conciliação, defesa e instrução; ausência pode gerar consequências graves.",
           "Confundir revelia com procedência automática.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Petição inicial, audiência e defesa sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -640,13 +647,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Petição inicial, audiência e defesa quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Reclamada ausente pode sofrer revelia e confissão quanto à matéria fática.",
           "Confundir revelia com procedência automática.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Petição inicial, audiência e defesa sem conferir valor da causa, fase do processo e pressupostos recursais.",
+          "Reclamada ausente pode sofrer revelia e confissão quanto à matéria fática."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -675,13 +683,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Petição inicial, audiência e defesa?",
         "alternativas": [
+          "Confundir revelia com procedência automática.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Audiência concentra conciliação, defesa e instrução; ausência pode gerar consequências graves.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Petição inicial, audiência e defesa sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -696,11 +705,11 @@ export const direitoProcessualTrabalhoAvancado = [
   },
   {
     "id": "provas-no-processo-do-trabalho",
-    "materialTitle": "Direito Processual do Trabalho Avançado",
+    "materialTitle": "Direito Processual do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual do Trabalho Avançado",
+    "moduleTitle": "Direito Processual do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Provas no processo do trabalho",
@@ -833,13 +842,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Provas no processo do trabalho, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Prova oral, documental e pericial são centrais; ônus acompanha fatos constitutivos, impeditivos, modificativos e extintivos.",
           "Ignorar que prova documental pode ser relativizada.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Prova oral, documental e pericial são centrais; ônus acompanha fatos constitutivos, impeditivos, modificativos e extintivos.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Provas no processo do trabalho sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Prova oral, documental e pericial são centrais; ônus acompanha fatos constitutivos, impeditivos, modificativos e extintivos."
       },
       {
@@ -870,13 +880,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Provas no processo do trabalho quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Cartões de ponto inválidos deslocam discussão para prova testemunhal.",
           "Ignorar que prova documental pode ser relativizada.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Cartões de ponto inválidos deslocam discussão para prova testemunhal.",
+          "Escolher rito ou recurso em Provas no processo do trabalho sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -905,13 +916,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Provas no processo do trabalho?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Prova oral, documental e pericial são centrais; ônus acompanha fatos constitutivos, impeditivos, modificati...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Ignorar que prova documental pode ser relativizada.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Provas no processo do trabalho sem conferir valor da causa, fase do processo e pressupostos recursais.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Prova oral, documental e pericial são centrais; ônus acompanha fatos constitutivos, impeditivos, modificativos e extintivos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -926,11 +938,11 @@ export const direitoProcessualTrabalhoAvancado = [
   },
   {
     "id": "sentenca-liquidacao-e-execucao-trabalhista",
-    "materialTitle": "Direito Processual do Trabalho Avançado",
+    "materialTitle": "Direito Processual do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual do Trabalho Avançado",
+    "moduleTitle": "Direito Processual do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Sentença, liquidação e execução trabalhista",
@@ -1063,13 +1075,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Sentença, liquidação e execução trabalhista, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Sentença trabalhista deve ser liquidada quando necessário; execução busca efetividade do crédito alimentar.",
           "Misturar liquidação com rediscussão do mérito.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Sentença, liquidação e execução trabalhista sem conferir valor da causa, fase do processo e pressupostos recursais.",
+          "Sentença trabalhista deve ser liquidada quando necessário; execução busca efetividade do crédito alimentar."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Sentença trabalhista deve ser liquidada quando necessário; execução busca efetividade do crédito alimentar."
       },
       {
@@ -1100,13 +1113,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Sentença, liquidação e execução trabalhista quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Cálculos podem ser discutidos por impugnação adequada conforme fase.",
           "Misturar liquidação com rediscussão do mérito.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Cálculos podem ser discutidos por impugnação adequada conforme fase.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Sentença, liquidação e execução trabalhista sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1135,13 +1149,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Sentença, liquidação e execução trabalhista?",
         "alternativas": [
+          "Misturar liquidação com rediscussão do mérito.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Sentença trabalhista deve ser liquidada quando necessário; execução busca efetividade do crédito alimentar.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Escolher rito ou recurso em Sentença, liquidação e execução trabalhista sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1156,11 +1171,11 @@ export const direitoProcessualTrabalhoAvancado = [
   },
   {
     "id": "recursos-trabalhistas-e-pressupostos",
-    "materialTitle": "Direito Processual do Trabalho Avançado",
+    "materialTitle": "Direito Processual do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual do Trabalho Avançado",
+    "moduleTitle": "Direito Processual do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Recursos trabalhistas e pressupostos",
@@ -1295,8 +1310,9 @@ export const direitoProcessualTrabalhoAvancado = [
         "alternativas": [
           "Recursos exigem prazo, preparo, depósito quando cabível, representação e adequação.",
           "Usar recurso errado por analogia civil automática.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Recursos trabalhistas e pressupostos sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1332,8 +1348,9 @@ export const direitoProcessualTrabalhoAvancado = [
         "alternativas": [
           "Recurso ordinário não se confunde com agravo de petição na execução.",
           "Usar recurso errado por analogia civil automática.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Recursos trabalhistas e pressupostos sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1366,9 +1383,10 @@ export const direitoProcessualTrabalhoAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Recursos trabalhistas e pressupostos?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Recursos exigem prazo, preparo, depósito quando cabível, representação e adequação.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Usar recurso errado por analogia civil automática.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Recursos trabalhistas e pressupostos sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1386,11 +1404,11 @@ export const direitoProcessualTrabalhoAvancado = [
   },
   {
     "id": "dissidios-coletivos-e-negociacao-processual",
-    "materialTitle": "Direito Processual do Trabalho Avançado",
+    "materialTitle": "Direito Processual do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual do Trabalho Avançado",
+    "moduleTitle": "Direito Processual do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Dissídios coletivos e negociação processual",
@@ -1523,13 +1541,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Dissídios coletivos e negociação processual, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Conflitos coletivos envolvem categorias, sindicatos, greve e instrumentos normativos.",
           "Confundir ação coletiva com dissídio coletivo.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Conflitos coletivos envolvem categorias, sindicatos, greve e instrumentos normativos.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Dissídios coletivos e negociação processual sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Conflitos coletivos envolvem categorias, sindicatos, greve e instrumentos normativos."
       },
       {
@@ -1560,13 +1579,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Dissídios coletivos e negociação processual quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Dissídio coletivo pode ter natureza econômica ou jurídica.",
           "Confundir ação coletiva com dissídio coletivo.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Dissídios coletivos e negociação processual sem conferir valor da causa, fase do processo e pressupostos recursais.",
+          "Dissídio coletivo pode ter natureza econômica ou jurídica."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1595,13 +1615,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Dissídios coletivos e negociação processual?",
         "alternativas": [
+          "Confundir ação coletiva com dissídio coletivo.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Conflitos coletivos envolvem categorias, sindicatos, greve e instrumentos normativos.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Escolher rito ou recurso em Dissídios coletivos e negociação processual sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1616,11 +1637,11 @@ export const direitoProcessualTrabalhoAvancado = [
   },
   {
     "id": "tutelas-de-urgencia-no-processo-do-trabalho",
-    "materialTitle": "Direito Processual do Trabalho Avançado",
+    "materialTitle": "Direito Processual do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual do Trabalho Avançado",
+    "moduleTitle": "Direito Processual do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Tutelas de urgência no processo do trabalho",
@@ -1753,13 +1774,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Tutelas de urgência no processo do trabalho, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Tutelas provisórias protegem créditos e situações urgentes, com aplicação compatível do CPC.",
           "Achar que urgência não existe no processo do trabalho.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Tutelas provisórias protegem créditos e situações urgentes, com aplicação compatível do CPC.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Tutelas de urgência no processo do trabalho sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Tutelas provisórias protegem créditos e situações urgentes, com aplicação compatível do CPC."
       },
       {
@@ -1790,13 +1812,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Tutelas de urgência no processo do trabalho quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Reintegração de empregado estável pode ser buscada liminarmente se presentes requisitos.",
           "Achar que urgência não existe no processo do trabalho.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Reintegração de empregado estável pode ser buscada liminarmente se presentes requisitos.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Tutelas de urgência no processo do trabalho sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1825,13 +1848,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Tutelas de urgência no processo do trabalho?",
         "alternativas": [
+          "Achar que urgência não existe no processo do trabalho.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Tutelas provisórias protegem créditos e situações urgentes, com aplicação compatível do CPC.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Escolher rito ou recurso em Tutelas de urgência no processo do trabalho sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1846,11 +1870,11 @@ export const direitoProcessualTrabalhoAvancado = [
   },
   {
     "id": "execucao-contra-empresas-socios-e-grupos",
-    "materialTitle": "Direito Processual do Trabalho Avançado",
+    "materialTitle": "Direito Processual do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual do Trabalho Avançado",
+    "moduleTitle": "Direito Processual do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Execução contra empresas, sócios e grupos",
@@ -1983,13 +2007,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Execução contra empresas, sócios e grupos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Execução trabalhista pode atingir responsáveis conforme contraditório, incidente e requisitos legais.",
           "Penhorar sócio sem qualquer contraditório.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Execução trabalhista pode atingir responsáveis conforme contraditório, incidente e requisitos legais.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Execução contra empresas, sócios e grupos sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Execução trabalhista pode atingir responsáveis conforme contraditório, incidente e requisitos legais."
       },
       {
@@ -2022,8 +2047,9 @@ export const direitoProcessualTrabalhoAvancado = [
         "alternativas": [
           "Desconsideração exige observância procedimental e fundamentação.",
           "Penhorar sócio sem qualquer contraditório.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Execução contra empresas, sócios e grupos sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2055,13 +2081,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Execução contra empresas, sócios e grupos?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Execução trabalhista pode atingir responsáveis conforme contraditório, incidente e requisitos legais.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Penhorar sócio sem qualquer contraditório.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Execução contra empresas, sócios e grupos sem conferir valor da causa, fase do processo e pressupostos recursais.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Execução trabalhista pode atingir responsáveis conforme contraditório, incidente e requisitos legais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -2076,11 +2103,11 @@ export const direitoProcessualTrabalhoAvancado = [
   },
   {
     "id": "procedimentos-especiais-e-pratica-de-prova",
-    "materialTitle": "Direito Processual do Trabalho Avançado",
+    "materialTitle": "Direito Processual do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Processual do Trabalho Avançado",
+    "moduleTitle": "Direito Processual do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Procedimentos especiais e prática de prova",
@@ -2213,13 +2240,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Procedimentos especiais e prática de prova, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Inquérito para apuração de falta grave, consignação e ações coletivas exigem técnica própria.",
           "Aplicar rito comum sem observar procedimento especial.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Inquérito para apuração de falta grave, consignação e ações coletivas exigem técnica própria.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Procedimentos especiais e prática de prova sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Inquérito para apuração de falta grave, consignação e ações coletivas exigem técnica própria."
       },
       {
@@ -2252,8 +2280,9 @@ export const direitoProcessualTrabalhoAvancado = [
         "alternativas": [
           "Dirigente sindical estável pode demandar procedimento específico para justa causa.",
           "Aplicar rito comum sem observar procedimento especial.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Procedimentos especiais e prática de prova sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2285,13 +2314,14 @@ export const direitoProcessualTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Procedimentos especiais e prática de prova?",
         "alternativas": [
+          "Aplicar rito comum sem observar procedimento especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Inquérito para apuração de falta grave, consignação e ações coletivas exigem técnica própria.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Escolher rito ou recurso em Procedimentos especiais e prática de prova sem conferir valor da causa, fase do processo e pressupostos recursais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {

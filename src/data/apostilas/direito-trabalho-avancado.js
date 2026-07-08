@@ -6,11 +6,11 @@
 export const direitoTrabalhoAvancado = [
   {
     "id": "relacao-de-emprego-e-trabalho-autonomo",
-    "materialTitle": "Direito do Trabalho Avançado",
+    "materialTitle": "Direito do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Trabalho Avançado",
+    "moduleTitle": "Direito do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Relação de emprego e trabalho autônomo",
@@ -143,13 +143,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Relação de emprego e trabalho autônomo, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Emprego exige pessoalidade, não eventualidade, subordinação e onerosidade; autonomia real afasta vínculo, mas fraude contratual não prevalece.",
           "Achar que contrato escrito define sozinho a natureza da relação.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Emprego exige pessoalidade, não eventualidade, subordinação e onerosidade; autonomia real afasta vínculo, mas fraude contratual não prevalece.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Relação de emprego e trabalho autônomo apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Emprego exige pessoalidade, não eventualidade, subordinação e onerosidade; autonomia real afasta vínculo, mas fraude contratual não prevalece."
       },
       {
@@ -180,13 +181,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Relação de emprego e trabalho autônomo quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Motorista com ordens diárias, controle e punições pode revelar subordinação apesar de contrato civil.",
           "Achar que contrato escrito define sozinho a natureza da relação.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Motorista com ordens diárias, controle e punições pode revelar subordinação apesar de contrato civil.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Relação de emprego e trabalho autônomo apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -215,13 +217,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Relação de emprego e trabalho autônomo?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Emprego exige pessoalidade, não eventualidade, subordinação e onerosidade; autonomia real afasta vínculo, m...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Achar que contrato escrito define sozinho a natureza da relação.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Emprego exige pessoalidade, não eventualidade, subordinação e onerosidade; autonomia real afasta vínculo, mas fraude contratual não prevalece.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Relação de emprego e trabalho autônomo apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -236,11 +239,11 @@ export const direitoTrabalhoAvancado = [
   },
   {
     "id": "principios-trabalhistas-e-protecao-do-hipossuficiente",
-    "materialTitle": "Direito do Trabalho Avançado",
+    "materialTitle": "Direito do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Trabalho Avançado",
+    "moduleTitle": "Direito do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Princípios trabalhistas e proteção do hipossuficiente",
@@ -373,13 +376,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Princípios trabalhistas e proteção do hipossuficiente, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Princípios trabalhistas equilibram desigualdade material, mas não autorizam ignorar prova, lei e negociação válida.",
           "Aplicar proteção como vitória automática do empregado.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Princípios trabalhistas equilibram desigualdade material, mas não autorizam ignorar prova, lei e negociação válida.",
+          "Reconhecer vínculo ou verba em Princípios trabalhistas e proteção do hipossuficiente apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Princípios trabalhistas equilibram desigualdade material, mas não autorizam ignorar prova, lei e negociação válida."
       },
       {
@@ -410,13 +414,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Princípios trabalhistas e proteção do hipossuficiente quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Dúvida sobre norma mais favorável exige comparar conjuntos normativos, não escolher cláusula isolada.",
           "Aplicar proteção como vitória automática do empregado.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Dúvida sobre norma mais favorável exige comparar conjuntos normativos, não escolher cláusula isolada.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Princípios trabalhistas e proteção do hipossuficiente apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -445,10 +450,11 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Princípios trabalhistas e proteção do hipossuficiente?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Princípios trabalhistas equilibram desigualdade material, mas não autorizam ignorar prova, lei e negociação...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Identificar o instituto, seus requisitos e a consequência adequada: Princípios trabalhistas equilibram desigualdade material, mas não autorizam ignorar prova, lei e negociação válida.",
+          "Aplicar proteção como vitória automática do empregado.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Princípios trabalhistas e proteção do hipossuficiente apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -466,11 +472,11 @@ export const direitoTrabalhoAvancado = [
   },
   {
     "id": "contrato-individual-alteracoes-e-suspensao",
-    "materialTitle": "Direito do Trabalho Avançado",
+    "materialTitle": "Direito do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Trabalho Avançado",
+    "moduleTitle": "Direito do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Contrato individual, alterações e suspensão",
@@ -603,13 +609,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Contrato individual, alterações e suspensão, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Alteração contratual lesiva tende a ser inválida; suspensão e interrupção diferenciam prestação de serviço, salário e contagem de tempo.",
           "Confundir suspensão com interrupção.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Alteração contratual lesiva tende a ser inválida; suspensão e interrupção diferenciam prestação de serviço, salário e contagem de tempo.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Contrato individual, alterações e suspensão apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Alteração contratual lesiva tende a ser inválida; suspensão e interrupção diferenciam prestação de serviço, salário e contagem de tempo."
       },
       {
@@ -640,13 +647,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Contrato individual, alterações e suspensão quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Redução unilateral de salário sem base válida viola núcleo protetivo do contrato.",
           "Confundir suspensão com interrupção.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Redução unilateral de salário sem base válida viola núcleo protetivo do contrato.",
+          "Reconhecer vínculo ou verba em Contrato individual, alterações e suspensão apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -675,13 +683,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Contrato individual, alterações e suspensão?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Alteração contratual lesiva tende a ser inválida; suspensão e interrupção diferenciam prestação de serviço...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir suspensão com interrupção.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Contrato individual, alterações e suspensão apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Alteração contratual lesiva tende a ser inválida; suspensão e interrupção diferenciam prestação de serviço, salário e contagem de tempo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -696,11 +705,11 @@ export const direitoTrabalhoAvancado = [
   },
   {
     "id": "jornada-descanso-e-horas-extras",
-    "materialTitle": "Direito do Trabalho Avançado",
+    "materialTitle": "Direito do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Trabalho Avançado",
+    "moduleTitle": "Direito do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Jornada, descanso e horas extras",
@@ -833,13 +842,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Jornada, descanso e horas extras, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Jornada envolve controle de tempo, intervalos, banco de horas, turnos, sobreaviso e limites constitucionais.",
           "Tratar todo tempo no local como hora extra sem analisar disponibilidade.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Jornada, descanso e horas extras apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato.",
+          "Jornada envolve controle de tempo, intervalos, banco de horas, turnos, sobreaviso e limites constitucionais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Jornada envolve controle de tempo, intervalos, banco de horas, turnos, sobreaviso e limites constitucionais."
       },
       {
@@ -870,13 +880,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Jornada, descanso e horas extras quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Supressão de intervalo pode gerar consequência remuneratória própria conforme regime aplicável.",
           "Tratar todo tempo no local como hora extra sem analisar disponibilidade.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Supressão de intervalo pode gerar consequência remuneratória própria conforme regime aplicável.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Jornada, descanso e horas extras apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -906,9 +917,10 @@ export const direitoTrabalhoAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Jornada, descanso e horas extras?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Jornada envolve controle de tempo, intervalos, banco de horas, turnos, sobreaviso e limites constitucionais.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Tratar todo tempo no local como hora extra sem analisar disponibilidade.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Jornada, descanso e horas extras apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -926,11 +938,11 @@ export const direitoTrabalhoAvancado = [
   },
   {
     "id": "remuneracao-salario-e-parcelas-indenizatorias",
-    "materialTitle": "Direito do Trabalho Avançado",
+    "materialTitle": "Direito do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Trabalho Avançado",
+    "moduleTitle": "Direito do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Remuneração, salário e parcelas indenizatórias",
@@ -1063,13 +1075,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Remuneração, salário e parcelas indenizatórias, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Salário contrapresta trabalho; parcelas indenizatórias reparam ou ressarcem e não se confundem com remuneração habitual.",
           "Confundir remuneração com salário-base.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Salário contrapresta trabalho; parcelas indenizatórias reparam ou ressarcem e não se confundem com remuneração habitual.",
+          "Reconhecer vínculo ou verba em Remuneração, salário e parcelas indenizatórias apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Salário contrapresta trabalho; parcelas indenizatórias reparam ou ressarcem e não se confundem com remuneração habitual."
       },
       {
@@ -1100,13 +1113,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Remuneração, salário e parcelas indenizatórias quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Ajuda de custo verdadeira não tem mesma natureza de comissão habitual.",
           "Confundir remuneração com salário-base.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Ajuda de custo verdadeira não tem mesma natureza de comissão habitual.",
+          "Reconhecer vínculo ou verba em Remuneração, salário e parcelas indenizatórias apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1135,13 +1149,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Remuneração, salário e parcelas indenizatórias?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Salário contrapresta trabalho; parcelas indenizatórias reparam ou ressarcem e não se confundem com remunera...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir remuneração com salário-base.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Salário contrapresta trabalho; parcelas indenizatórias reparam ou ressarcem e não se confundem com remuneração habitual.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Remuneração, salário e parcelas indenizatórias apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1156,11 +1171,11 @@ export const direitoTrabalhoAvancado = [
   },
   {
     "id": "estabilidades-e-garantias-provisorias",
-    "materialTitle": "Direito do Trabalho Avançado",
+    "materialTitle": "Direito do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Trabalho Avançado",
+    "moduleTitle": "Direito do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Estabilidades e garantias provisórias",
@@ -1293,13 +1308,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Estabilidades e garantias provisórias, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Garantias provisórias protegem situações específicas: gestante, dirigente sindical, acidente e outras hipóteses legais.",
           "Achar que toda estabilidade é vitalícia.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Garantias provisórias protegem situações específicas: gestante, dirigente sindical, acidente e outras hipóteses legais.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Estabilidades e garantias provisórias apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Garantias provisórias protegem situações específicas: gestante, dirigente sindical, acidente e outras hipóteses legais."
       },
       {
@@ -1330,13 +1346,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Estabilidades e garantias provisórias quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Dispensa de gestante no período protegido pode gerar reintegração ou indenização.",
           "Achar que toda estabilidade é vitalícia.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Dispensa de gestante no período protegido pode gerar reintegração ou indenização.",
+          "Reconhecer vínculo ou verba em Estabilidades e garantias provisórias apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1365,13 +1382,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Estabilidades e garantias provisórias?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Garantias provisórias protegem situações específicas: gestante, dirigente sindical, acidente e outras hipót...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Achar que toda estabilidade é vitalícia.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Garantias provisórias protegem situações específicas: gestante, dirigente sindical, acidente e outras hipóteses legais.",
+          "Reconhecer vínculo ou verba em Estabilidades e garantias provisórias apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1386,11 +1404,11 @@ export const direitoTrabalhoAvancado = [
   },
   {
     "id": "rescisao-verbas-e-justa-causa",
-    "materialTitle": "Direito do Trabalho Avançado",
+    "materialTitle": "Direito do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Trabalho Avançado",
+    "moduleTitle": "Direito do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Rescisão, verbas e justa causa",
@@ -1523,13 +1541,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Rescisão, verbas e justa causa, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Modalidade de ruptura define verbas, aviso, multa e saque; justa causa exige gravidade, proporcionalidade e imediatidade.",
           "Presumir justa causa sem prova robusta.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Modalidade de ruptura define verbas, aviso, multa e saque; justa causa exige gravidade, proporcionalidade e imediatidade.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Rescisão, verbas e justa causa apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Modalidade de ruptura define verbas, aviso, multa e saque; justa causa exige gravidade, proporcionalidade e imediatidade."
       },
       {
@@ -1560,13 +1579,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Rescisão, verbas e justa causa quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Ato faltoso leve não justifica pena máxima se desproporcional.",
           "Presumir justa causa sem prova robusta.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Rescisão, verbas e justa causa apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato.",
+          "Ato faltoso leve não justifica pena máxima se desproporcional."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1595,13 +1615,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Rescisão, verbas e justa causa?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Modalidade de ruptura define verbas, aviso, multa e saque; justa causa exige gravidade, proporcionalidade e...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Presumir justa causa sem prova robusta.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Rescisão, verbas e justa causa apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Modalidade de ruptura define verbas, aviso, multa e saque; justa causa exige gravidade, proporcionalidade e imediatidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1616,11 +1637,11 @@ export const direitoTrabalhoAvancado = [
   },
   {
     "id": "terceirizacao-grupo-economico-e-responsabilidade",
-    "materialTitle": "Direito do Trabalho Avançado",
+    "materialTitle": "Direito do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Trabalho Avançado",
+    "moduleTitle": "Direito do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Terceirização, grupo econômico e responsabilidade",
@@ -1753,13 +1774,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Terceirização, grupo econômico e responsabilidade, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Terceirização lícita não elimina responsabilidade em toda hipótese; grupo econômico depende de elementos jurídicos e econômicos relevantes.",
           "Dizer que terceirização sempre gera vínculo com tomador.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Terceirização, grupo econômico e responsabilidade apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato.",
+          "Terceirização lícita não elimina responsabilidade em toda hipótese; grupo econômico depende de elementos jurídicos e econômicos relevantes."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Terceirização lícita não elimina responsabilidade em toda hipótese; grupo econômico depende de elementos jurídicos e econômicos relevantes."
       },
       {
@@ -1790,13 +1812,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Terceirização, grupo econômico e responsabilidade quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Tomador pode responder conforme regime de responsabilidade aplicável ao caso.",
           "Dizer que terceirização sempre gera vínculo com tomador.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Terceirização, grupo econômico e responsabilidade apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato.",
+          "Tomador pode responder conforme regime de responsabilidade aplicável ao caso."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1825,10 +1848,11 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Terceirização, grupo econômico e responsabilidade?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Terceirização lícita não elimina responsabilidade em toda hipótese; grupo econômico depende de elementos ju...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Identificar o instituto, seus requisitos e a consequência adequada: Terceirização lícita não elimina responsabilidade em toda hipótese; grupo econômico depende de elementos jurídicos e econômicos relevantes.",
+          "Dizer que terceirização sempre gera vínculo com tomador.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Terceirização, grupo econômico e responsabilidade apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1846,11 +1870,11 @@ export const direitoTrabalhoAvancado = [
   },
   {
     "id": "saude-seguranca-e-dano-trabalhista",
-    "materialTitle": "Direito do Trabalho Avançado",
+    "materialTitle": "Direito do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Trabalho Avançado",
+    "moduleTitle": "Direito do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Saúde, segurança e dano trabalhista",
@@ -1983,13 +2007,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Saúde, segurança e dano trabalhista, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Meio ambiente do trabalho exige prevenção; acidente e doença ocupacional podem repercutir em estabilidade, indenização e benefícios.",
           "Tratar EPI entregue como prova absoluta de segurança.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Meio ambiente do trabalho exige prevenção; acidente e doença ocupacional podem repercutir em estabilidade, indenização e benefícios.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Saúde, segurança e dano trabalhista apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Meio ambiente do trabalho exige prevenção; acidente e doença ocupacional podem repercutir em estabilidade, indenização e benefícios."
       },
       {
@@ -2020,13 +2045,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Saúde, segurança e dano trabalhista quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Falha em EPI e treinamento pode indicar culpa patronal.",
           "Tratar EPI entregue como prova absoluta de segurança.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Falha em EPI e treinamento pode indicar culpa patronal.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Saúde, segurança e dano trabalhista apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2055,10 +2081,11 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Saúde, segurança e dano trabalhista?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Meio ambiente do trabalho exige prevenção; acidente e doença ocupacional podem repercutir em estabilidade...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Identificar o instituto, seus requisitos e a consequência adequada: Meio ambiente do trabalho exige prevenção; acidente e doença ocupacional podem repercutir em estabilidade, indenização e benefícios.",
+          "Tratar EPI entregue como prova absoluta de segurança.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Saúde, segurança e dano trabalhista apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2076,11 +2103,11 @@ export const direitoTrabalhoAvancado = [
   },
   {
     "id": "negociacao-coletiva-e-reforma-trabalhista",
-    "materialTitle": "Direito do Trabalho Avançado",
+    "materialTitle": "Direito do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Trabalho Avançado",
+    "moduleTitle": "Direito do Trabalho Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Negociação coletiva e reforma trabalhista",
@@ -2215,8 +2242,9 @@ export const direitoTrabalhoAvancado = [
         "alternativas": [
           "Negociado pode prevalecer em temas admitidos, mas encontra limites em direitos indisponíveis e patamar civilizatório mínimo.",
           "Achar que acordo coletivo pode tudo.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Negociação coletiva e reforma trabalhista apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2250,13 +2278,14 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Negociação coletiva e reforma trabalhista quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Cláusula coletiva precisa ser interpretada com Constituição, lei e validade negocial.",
           "Achar que acordo coletivo pode tudo.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Cláusula coletiva precisa ser interpretada com Constituição, lei e validade negocial.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Negociação coletiva e reforma trabalhista apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2285,10 +2314,11 @@ export const direitoTrabalhoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Negociação coletiva e reforma trabalhista?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Negociado pode prevalecer em temas admitidos, mas encontra limites em direitos indisponíveis e patamar civi...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Identificar o instituto, seus requisitos e a consequência adequada: Negociado pode prevalecer em temas admitidos, mas encontra limites em direitos indisponíveis e patamar civilizatório mínimo.",
+          "Achar que acordo coletivo pode tudo.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Reconhecer vínculo ou verba em Negociação coletiva e reforma trabalhista apenas pelo nome dado pelas partes, sem verificar subordinação e realidade do contrato."
         ],
         "correta": 0,
         "gabaritoLetra": "A",

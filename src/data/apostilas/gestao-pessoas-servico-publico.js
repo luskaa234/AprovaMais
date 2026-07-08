@@ -7,11 +7,11 @@
 export const gestaoPessoasServicoPublico = [
   {
     "id": "gestao-de-pessoas-no-servico-publico-01-papel-estrategico-da-gestao-de-pessoas-no-setor-publico",
-    "materialTitle": "Gestão de Pessoas no Serviço Público",
+    "materialTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "subject": "Gestão de Pessoas no Serviço Público",
     "contest": "Tribunais / Área administrativa / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Gestão de Pessoas no Serviço Público",
+    "moduleTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Papel estratégico da gestão de pessoas no setor público",
@@ -179,19 +179,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Papel estratégico da gestão de pessoas no setor público, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Reduzir RH a cadastro, férias e pagamento.",
           "Identificar gestão de pessoas como alinhamento entre servidores, competências e entrega pública, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Usar Papel estratégico da gestão de pessoas no setor público para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: ligar necessidade do serviço às competências da equipe, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Reduzir RH a cadastro, férias e pagamento.",
+          "Correta: Identificar gestão de pessoas como alinhamento entre servidores, competências e entrega pública, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Usar Papel estratégico da gestão de pessoas no setor público para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -220,19 +222,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Papel estratégico da gestão de pessoas no setor público é:",
         "alternativas": [
-          "não é setor apenas de folha; é área que sustenta desempenho institucional",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Reduzir RH a cadastro, férias e pagamento.",
+          "Não é setor apenas de folha; é área que sustenta desempenho institucional.",
+          "Usar Papel estratégico da gestão de pessoas no setor público para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Reduzir RH a cadastro, férias e pagamento.",
+          "Correta: Não é setor apenas de folha; é área que sustenta desempenho institucional.",
+          "Errada: Usar Papel estratégico da gestão de pessoas no setor público para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -262,18 +266,20 @@ export const gestaoPessoasServicoPublico = [
         "enunciado": "Qual alternativa revela erro de banca em Papel estratégico da gestão de pessoas no setor público?",
         "alternativas": [
           "Supor que reduzir RH a cadastro, férias e pagamento é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Reduzir RH a cadastro, férias e pagamento.",
+          "Usar Papel estratégico da gestão de pessoas no setor público para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Correta: Supor que reduzir RH a cadastro, férias e pagamento é aceitável porque simplifica o trabalho.",
+          "Errada: Reduzir RH a cadastro, férias e pagamento.",
+          "Errada: Usar Papel estratégico da gestão de pessoas no setor público para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -287,11 +293,11 @@ export const gestaoPessoasServicoPublico = [
   },
   {
     "id": "gestao-de-pessoas-no-servico-publico-02-recrutamento-selecao-e-provimento-logica-publica",
-    "materialTitle": "Gestão de Pessoas no Serviço Público",
+    "materialTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "subject": "Gestão de Pessoas no Serviço Público",
     "contest": "Tribunais / Área administrativa / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Gestão de Pessoas no Serviço Público",
+    "moduleTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Recrutamento, seleção e provimento: lógica pública",
@@ -460,18 +466,20 @@ export const gestaoPessoasServicoPublico = [
         "enunciado": "Em Recrutamento, seleção e provimento: lógica pública, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar seleção pública por mérito, requisitos legais e adequação ao cargo, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Achar que aprovação no concurso encerra gestão de pessoas.",
+          "Usar Recrutamento, seleção e provimento: lógica pública para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: separar ingresso, lotação, integração e desenvolvimento, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar seleção pública por mérito, requisitos legais e adequação ao cargo, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Achar que aprovação no concurso encerra gestão de pessoas.",
+          "Errada: Usar Recrutamento, seleção e provimento: lógica pública para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -500,19 +508,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Recrutamento, seleção e provimento: lógica pública é:",
         "alternativas": [
-          "concurso protege impessoalidade, mas gestão posterior define desempenho",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Achar que aprovação no concurso encerra gestão de pessoas.",
+          "Usar Recrutamento, seleção e provimento: lógica pública para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Concurso protege impessoalidade, mas gestão posterior define desempenho.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Achar que aprovação no concurso encerra gestão de pessoas.",
+          "Errada: Usar Recrutamento, seleção e provimento: lógica pública para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Correta: Concurso protege impessoalidade, mas gestão posterior define desempenho.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -541,19 +551,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Recrutamento, seleção e provimento: lógica pública?",
         "alternativas": [
+          "Achar que aprovação no concurso encerra gestão de pessoas.",
           "Supor que achar que aprovação no concurso encerra gestão de pessoas é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Usar Recrutamento, seleção e provimento: lógica pública para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Achar que aprovação no concurso encerra gestão de pessoas.",
+          "Correta: Supor que achar que aprovação no concurso encerra gestão de pessoas é aceitável porque simplifica o trabalho.",
+          "Errada: Usar Recrutamento, seleção e provimento: lógica pública para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -567,11 +579,11 @@ export const gestaoPessoasServicoPublico = [
   },
   {
     "id": "gestao-de-pessoas-no-servico-publico-03-gestao-por-competencias",
-    "materialTitle": "Gestão de Pessoas no Serviço Público",
+    "materialTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "subject": "Gestão de Pessoas no Serviço Público",
     "contest": "Tribunais / Área administrativa / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Gestão de Pessoas no Serviço Público",
+    "moduleTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Gestão por competências",
@@ -739,19 +751,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Gestão por competências, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Confundir curso feito com competência consolidada.",
           "Identificar mapeamento de conhecimentos, habilidades e atitudes necessários à entrega, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Usar Gestão por competências para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar entrega esperada e lacuna de competência, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Confundir curso feito com competência consolidada.",
+          "Correta: Identificar mapeamento de conhecimentos, habilidades e atitudes necessários à entrega, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Usar Gestão por competências para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -780,19 +794,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Gestão por competências é:",
         "alternativas": [
-          "competência é demonstrada em comportamento e resultado, não só em certificado",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Confundir curso feito com competência consolidada.",
+          "Usar Gestão por competências para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Competência é demonstrada em comportamento e resultado, não só em certificado.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Confundir curso feito com competência consolidada.",
+          "Errada: Usar Gestão por competências para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Correta: Competência é demonstrada em comportamento e resultado, não só em certificado.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -821,19 +837,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Gestão por competências?",
         "alternativas": [
+          "Confundir curso feito com competência consolidada.",
           "Supor que confundir curso feito com competência consolidada é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Usar Gestão por competências para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Confundir curso feito com competência consolidada.",
+          "Correta: Supor que confundir curso feito com competência consolidada é aceitável porque simplifica o trabalho.",
+          "Errada: Usar Gestão por competências para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -847,11 +865,11 @@ export const gestaoPessoasServicoPublico = [
   },
   {
     "id": "gestao-de-pessoas-no-servico-publico-04-treinamento-desenvolvimento-e-educacao-corporativa",
-    "materialTitle": "Gestão de Pessoas no Serviço Público",
+    "materialTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "subject": "Gestão de Pessoas no Serviço Público",
     "contest": "Tribunais / Área administrativa / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Gestão de Pessoas no Serviço Público",
+    "moduleTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Treinamento, desenvolvimento e educação corporativa",
@@ -1019,19 +1037,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Treinamento, desenvolvimento e educação corporativa, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar capacitação vinculada a diagnóstico, aplicação no trabalho e avaliação, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Escolher curso antes de diagnosticar problema.",
+          "Usar Treinamento, desenvolvimento e educação corporativa para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro.",
+          "Identificar capacitação vinculada a diagnóstico, aplicação no trabalho e avaliação, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: definir objetivo, público, método e avaliação, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Escolher curso antes de diagnosticar problema.",
+          "Errada: Usar Treinamento, desenvolvimento e educação corporativa para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro.",
+          "Correta: Identificar capacitação vinculada a diagnóstico, aplicação no trabalho e avaliação, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ]
       },
       {
@@ -1060,19 +1080,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Treinamento, desenvolvimento e educação corporativa é:",
         "alternativas": [
-          "treinamento bom resolve lacuna real; treinamento aleatório vira evento",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Escolher curso antes de diagnosticar problema.",
+          "Usar Treinamento, desenvolvimento e educação corporativa para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro.",
+          "Treinamento bom resolve lacuna real; treinamento aleatório vira evento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Escolher curso antes de diagnosticar problema.",
+          "Errada: Usar Treinamento, desenvolvimento e educação corporativa para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro.",
+          "Correta: Treinamento bom resolve lacuna real; treinamento aleatório vira evento."
         ]
       },
       {
@@ -1102,18 +1124,20 @@ export const gestaoPessoasServicoPublico = [
         "enunciado": "Qual alternativa revela erro de banca em Treinamento, desenvolvimento e educação corporativa?",
         "alternativas": [
           "Supor que escolher curso antes de diagnosticar problema é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Escolher curso antes de diagnosticar problema.",
+          "Usar Treinamento, desenvolvimento e educação corporativa para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Correta: Supor que escolher curso antes de diagnosticar problema é aceitável porque simplifica o trabalho.",
+          "Errada: Escolher curso antes de diagnosticar problema.",
+          "Errada: Usar Treinamento, desenvolvimento e educação corporativa para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -1127,11 +1151,11 @@ export const gestaoPessoasServicoPublico = [
   },
   {
     "id": "gestao-de-pessoas-no-servico-publico-05-avaliacao-de-desempenho-e-feedback",
-    "materialTitle": "Gestão de Pessoas no Serviço Público",
+    "materialTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "subject": "Gestão de Pessoas no Serviço Público",
     "contest": "Tribunais / Área administrativa / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Gestão de Pessoas no Serviço Público",
+    "moduleTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Avaliação de desempenho e feedback",
@@ -1299,19 +1323,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Avaliação de desempenho e feedback, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Usar avaliação para punição informal sem critério.",
+          "Usar Avaliação de desempenho e feedback para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
           "Identificar avaliação como instrumento de melhoria, alinhamento e decisão administrativa, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: diferenciar indicador, evidência e impressão pessoal, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Usar avaliação para punição informal sem critério.",
+          "Errada: Usar Avaliação de desempenho e feedback para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Correta: Identificar avaliação como instrumento de melhoria, alinhamento e decisão administrativa, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -1340,19 +1366,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Avaliação de desempenho e feedback é:",
         "alternativas": [
-          "feedback útil descreve comportamento, impacto e ajuste esperado",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Usar avaliação para punição informal sem critério.",
+          "Usar Avaliação de desempenho e feedback para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Feedback útil descreve comportamento, impacto e ajuste esperado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Usar avaliação para punição informal sem critério.",
+          "Errada: Usar Avaliação de desempenho e feedback para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Correta: Feedback útil descreve comportamento, impacto e ajuste esperado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -1381,19 +1409,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Avaliação de desempenho e feedback?",
         "alternativas": [
-          "Supor que usar avaliação para punição informal sem critério é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Usar avaliação para punição informal sem critério.",
+          "Usar Avaliação de desempenho e feedback para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro.",
+          "Supor que usar avaliação para punição informal sem critério é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Usar avaliação para punição informal sem critério.",
+          "Errada: Usar Avaliação de desempenho e feedback para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro.",
+          "Correta: Supor que usar avaliação para punição informal sem critério é aceitável porque simplifica o trabalho."
         ]
       },
       {
@@ -1407,11 +1437,11 @@ export const gestaoPessoasServicoPublico = [
   },
   {
     "id": "gestao-de-pessoas-no-servico-publico-06-lideranca-motivacao-e-equipes-no-servico-publico",
-    "materialTitle": "Gestão de Pessoas no Serviço Público",
+    "materialTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "subject": "Gestão de Pessoas no Serviço Público",
     "contest": "Tribunais / Área administrativa / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Gestão de Pessoas no Serviço Público",
+    "moduleTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Liderança, motivação e equipes no serviço público",
@@ -1579,19 +1609,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Liderança, motivação e equipes no serviço público, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Achar que liderança é apenas autoridade hierárquica.",
+          "Usar Liderança, motivação e equipes no serviço público para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
           "Identificar liderança orientada por missão pública, ética e coordenação de pessoas, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: analisar estilo, maturidade da equipe e contexto, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Achar que liderança é apenas autoridade hierárquica.",
+          "Errada: Usar Liderança, motivação e equipes no serviço público para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Correta: Identificar liderança orientada por missão pública, ética e coordenação de pessoas, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -1620,19 +1652,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Liderança, motivação e equipes no serviço público é:",
         "alternativas": [
-          "motivação envolve sentido, condições, reconhecimento e autonomia responsável",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Achar que liderança é apenas autoridade hierárquica.",
+          "Usar Liderança, motivação e equipes no serviço público para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Motivação envolve sentido, condições, reconhecimento e autonomia responsável.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Achar que liderança é apenas autoridade hierárquica.",
+          "Errada: Usar Liderança, motivação e equipes no serviço público para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Correta: Motivação envolve sentido, condições, reconhecimento e autonomia responsável.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -1661,19 +1695,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Liderança, motivação e equipes no serviço público?",
         "alternativas": [
+          "Achar que liderança é apenas autoridade hierárquica.",
+          "Usar Liderança, motivação e equipes no serviço público para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
           "Supor que achar que liderança é apenas autoridade hierárquica é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Achar que liderança é apenas autoridade hierárquica.",
+          "Errada: Usar Liderança, motivação e equipes no serviço público para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Correta: Supor que achar que liderança é apenas autoridade hierárquica é aceitável porque simplifica o trabalho.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -1687,11 +1723,11 @@ export const gestaoPessoasServicoPublico = [
   },
   {
     "id": "gestao-de-pessoas-no-servico-publico-07-clima-organizacional-e-qualidade-de-vida-no-trabalho",
-    "materialTitle": "Gestão de Pessoas no Serviço Público",
+    "materialTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "subject": "Gestão de Pessoas no Serviço Público",
     "contest": "Tribunais / Área administrativa / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Gestão de Pessoas no Serviço Público",
+    "moduleTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Clima organizacional e qualidade de vida no trabalho",
@@ -1859,19 +1895,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Clima organizacional e qualidade de vida no trabalho, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Confundir clima com benefício isolado.",
+          "Usar Clima organizacional e qualidade de vida no trabalho para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
           "Identificar ambiente de trabalho como fator de produtividade, saúde e retenção, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: ler sinais, causas e ações de prevenção, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Confundir clima com benefício isolado.",
+          "Errada: Usar Clima organizacional e qualidade de vida no trabalho para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Correta: Identificar ambiente de trabalho como fator de produtividade, saúde e retenção, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -1900,19 +1938,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Clima organizacional e qualidade de vida no trabalho é:",
         "alternativas": [
-          "clima ruim aparece em absenteísmo, conflito e queda de qualidade",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Confundir clima com benefício isolado.",
+          "Usar Clima organizacional e qualidade de vida no trabalho para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Clima ruim aparece em absenteísmo, conflito e queda de qualidade.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Confundir clima com benefício isolado.",
+          "Errada: Usar Clima organizacional e qualidade de vida no trabalho para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Correta: Clima ruim aparece em absenteísmo, conflito e queda de qualidade.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -1941,19 +1981,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Clima organizacional e qualidade de vida no trabalho?",
         "alternativas": [
-          "Supor que confundir clima com benefício isolado é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir clima com benefício isolado.",
+          "Usar Clima organizacional e qualidade de vida no trabalho para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro.",
+          "Supor que confundir clima com benefício isolado é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Confundir clima com benefício isolado.",
+          "Errada: Usar Clima organizacional e qualidade de vida no trabalho para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro.",
+          "Correta: Supor que confundir clima com benefício isolado é aceitável porque simplifica o trabalho."
         ]
       },
       {
@@ -1967,11 +2009,11 @@ export const gestaoPessoasServicoPublico = [
   },
   {
     "id": "gestao-de-pessoas-no-servico-publico-08-conflitos-negociacao-e-comunicacao-interna",
-    "materialTitle": "Gestão de Pessoas no Serviço Público",
+    "materialTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "subject": "Gestão de Pessoas no Serviço Público",
     "contest": "Tribunais / Área administrativa / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Gestão de Pessoas no Serviço Público",
+    "moduleTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Conflitos, negociação e comunicação interna",
@@ -2139,19 +2181,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Conflitos, negociação e comunicação interna, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Ignorar conflito até virar processo disciplinar.",
+          "Usar Conflitos, negociação e comunicação interna para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
           "Identificar tratamento profissional de conflitos com escuta, regra clara e solução institucional, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: separar fato, interesse, norma e encaminhamento, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Ignorar conflito até virar processo disciplinar.",
+          "Errada: Usar Conflitos, negociação e comunicação interna para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Correta: Identificar tratamento profissional de conflitos com escuta, regra clara e solução institucional, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -2180,19 +2224,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Conflitos, negociação e comunicação interna é:",
         "alternativas": [
-          "conflito pode revelar falha de processo, papel ou comunicação",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Ignorar conflito até virar processo disciplinar.",
+          "Usar Conflitos, negociação e comunicação interna para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Conflito pode revelar falha de processo, papel ou comunicação.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Ignorar conflito até virar processo disciplinar.",
+          "Errada: Usar Conflitos, negociação e comunicação interna para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Correta: Conflito pode revelar falha de processo, papel ou comunicação.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -2221,19 +2267,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Conflitos, negociação e comunicação interna?",
         "alternativas": [
+          "Ignorar conflito até virar processo disciplinar.",
+          "Usar Conflitos, negociação e comunicação interna para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
           "Supor que ignorar conflito até virar processo disciplinar é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Ignorar conflito até virar processo disciplinar.",
+          "Errada: Usar Conflitos, negociação e comunicação interna para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Correta: Supor que ignorar conflito até virar processo disciplinar é aceitável porque simplifica o trabalho.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -2247,11 +2295,11 @@ export const gestaoPessoasServicoPublico = [
   },
   {
     "id": "gestao-de-pessoas-no-servico-publico-09-etica-assedio-diversidade-e-inclusao",
-    "materialTitle": "Gestão de Pessoas no Serviço Público",
+    "materialTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "subject": "Gestão de Pessoas no Serviço Público",
     "contest": "Tribunais / Área administrativa / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Gestão de Pessoas no Serviço Público",
+    "moduleTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Ética, assédio, diversidade e inclusão",
@@ -2419,19 +2467,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Ética, assédio, diversidade e inclusão, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar gestão de pessoas comprometida com respeito, igualdade e prevenção de abusos, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Tratar assédio como mero conflito interpessoal.",
+          "Usar Ética, assédio, diversidade e inclusão para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro.",
+          "Identificar gestão de pessoas comprometida com respeito, igualdade e prevenção de abusos, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar conduta, impacto, dever institucional e proteção, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Tratar assédio como mero conflito interpessoal.",
+          "Errada: Usar Ética, assédio, diversidade e inclusão para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro.",
+          "Correta: Identificar gestão de pessoas comprometida com respeito, igualdade e prevenção de abusos, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ]
       },
       {
@@ -2460,19 +2510,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Ética, assédio, diversidade e inclusão é:",
         "alternativas": [
-          "ambiente ético depende de canais, proteção e responsabilização",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Tratar assédio como mero conflito interpessoal.",
+          "Usar Ética, assédio, diversidade e inclusão para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro.",
+          "Ambiente ético depende de canais, proteção e responsabilização."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Tratar assédio como mero conflito interpessoal.",
+          "Errada: Usar Ética, assédio, diversidade e inclusão para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro.",
+          "Correta: Ambiente ético depende de canais, proteção e responsabilização."
         ]
       },
       {
@@ -2501,19 +2553,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Ética, assédio, diversidade e inclusão?",
         "alternativas": [
+          "Tratar assédio como mero conflito interpessoal.",
           "Supor que tratar assédio como mero conflito interpessoal é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Usar Ética, assédio, diversidade e inclusão para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Tratar assédio como mero conflito interpessoal.",
+          "Correta: Supor que tratar assédio como mero conflito interpessoal é aceitável porque simplifica o trabalho.",
+          "Errada: Usar Ética, assédio, diversidade e inclusão para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -2527,11 +2581,11 @@ export const gestaoPessoasServicoPublico = [
   },
   {
     "id": "gestao-de-pessoas-no-servico-publico-10-casos-praticos-de-gestao-de-pessoas-em-orgaos-publicos",
-    "materialTitle": "Gestão de Pessoas no Serviço Público",
+    "materialTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "subject": "Gestão de Pessoas no Serviço Público",
     "contest": "Tribunais / Área administrativa / Gestão pública",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Gestão de Pessoas no Serviço Público",
+    "moduleTitle": "Gestão de Pessoas no Serviço Público 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Casos práticos de gestão de pessoas em órgãos públicos",
@@ -2700,18 +2754,20 @@ export const gestaoPessoasServicoPublico = [
         "enunciado": "Em Casos práticos de gestão de pessoas em órgãos públicos, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar situações integradas de lotação, desempenho, conflito, capacitação e clima, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Escolher solução rápida que viola impessoalidade ou ignora prova.",
+          "Usar Casos práticos de gestão de pessoas em órgãos públicos para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: montar diagnóstico antes da decisão, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar situações integradas de lotação, desempenho, conflito, capacitação e clima, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Escolher solução rápida que viola impessoalidade ou ignora prova.",
+          "Errada: Usar Casos práticos de gestão de pessoas em órgãos públicos para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -2740,19 +2796,21 @@ export const gestaoPessoasServicoPublico = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Casos práticos de gestão de pessoas em órgãos públicos é:",
         "alternativas": [
-          "a resposta correta preserva mérito, legalidade, evidência e finalidade pública",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "A resposta correta preserva mérito, legalidade, evidência e finalidade pública.",
+          "Escolher solução rápida que viola impessoalidade ou ignora prova.",
+          "Usar Casos práticos de gestão de pessoas em órgãos públicos para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: A resposta correta preserva mérito, legalidade, evidência e finalidade pública.",
+          "Errada: Escolher solução rápida que viola impessoalidade ou ignora prova.",
+          "Errada: Usar Casos práticos de gestão de pessoas em órgãos públicos para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {
@@ -2782,18 +2840,20 @@ export const gestaoPessoasServicoPublico = [
         "enunciado": "Qual alternativa revela erro de banca em Casos práticos de gestão de pessoas em órgãos públicos?",
         "alternativas": [
           "Supor que escolher solução rápida que viola impessoalidade ou ignora prova é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Escolher solução rápida que viola impessoalidade ou ignora prova.",
+          "Usar Casos práticos de gestão de pessoas em órgãos públicos para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Correta: Supor que escolher solução rápida que viola impessoalidade ou ignora prova é aceitável porque simplifica o trabalho.",
+          "Errada: Escolher solução rápida que viola impessoalidade ou ignora prova.",
+          "Errada: Usar Casos práticos de gestão de pessoas em órgãos públicos para premiar afinidade pessoal, sem critério objetivo de mérito, competência ou entrega pública.",
+          "Errada: Aplicar treinamento sem diagnóstico de lacuna, sem vínculo com o trabalho e sem avaliação posterior de resultado.",
+          "Errada: Transformar avaliação de desempenho em punição informal, sem feedback, critérios previamente conhecidos e registro."
         ]
       },
       {

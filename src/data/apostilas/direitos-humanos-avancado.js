@@ -7,11 +7,11 @@
 export const direitosHumanosAvancado = [
   {
     "id": "teoria-geral-universalidade-historicidade-e-indivisibilidade",
-    "materialTitle": "Direitos Humanos Avançado",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Teoria geral: universalidade, historicidade e indivisibilidade",
@@ -133,7 +133,8 @@ export const direitosHumanosAvancado = [
           "Direitos humanos são parâmetros mínimos de proteção da pessoa contra abusos, omissões e discriminações, inclusive praticados pelo próprio Estado.",
           "Dizer que direitos humanos protegem apenas “pessoas boas”.",
           "Tratar direitos sociais como favores do governo.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Limitar Teoria geral: universalidade, historicidade e indivisibilidade à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -181,13 +182,14 @@ export const direitosHumanosAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Dizer que direitos humanos protegem apenas “pessoas boas”.",
           "Historicidade indica construção progressiva: novas violações e novos contextos exigem novas formas de proteção.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Tratar direitos sociais como favores do governo."
+          "Tratar direitos sociais como favores do governo.",
+          "Limitar Teoria geral: universalidade, historicidade e indivisibilidade à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -216,11 +218,11 @@ export const direitosHumanosAvancado = [
   },
   {
     "id": "dignidade-igualdade-e-nao-discriminacao",
-    "materialTitle": "Direitos Humanos Avançado",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Dignidade, igualdade e não discriminação",
@@ -339,13 +341,14 @@ export const direitosHumanosAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Dignidade, igualdade e não discriminação, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Dignidade funciona como critério de interpretação: nenhuma política pública pode transformar pessoa em objeto descartável.",
           "Confundir tratamento diferenciado legítimo com privilégio.",
           "Usar neutralidade aparente para manter desigualdade concreta.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Limitar Dignidade, igualdade e não discriminação à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
+          "Dignidade funciona como critério de interpretação: nenhuma política pública pode transformar pessoa em objeto descartável.",
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta resume o núcleo do tema: Dignidade funciona como critério de interpretação: nenhuma política pública pode transformar pessoa em objeto descartável."
       },
       {
@@ -390,13 +393,14 @@ export const direitosHumanosAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Não discriminação alcança raça, gênero, origem, deficiência, religião, idade, orientação sexual e outras condições vulnerabilizantes.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Usar neutralidade aparente para manter desigualdade concreta."
+          "Confundir tratamento diferenciado legítimo com privilégio.",
+          "Usar neutralidade aparente para manter desigualdade concreta.",
+          "Limitar Dignidade, igualdade e não discriminação à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva.",
+          "Não discriminação alcança raça, gênero, origem, deficiência, religião, idade, orientação sexual e outras condições vulnerabilizantes."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -425,11 +429,11 @@ export const direitosHumanosAvancado = [
   },
   {
     "id": "sistema-global-onu-declaracoes-pactos-e-mecanismos",
-    "materialTitle": "Direitos Humanos Avançado",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Sistema global: ONU, declarações, pactos e mecanismos",
@@ -548,13 +552,14 @@ export const direitosHumanosAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Sistema global: ONU, declarações, pactos e mecanismos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "O sistema global organiza parâmetros internacionais de proteção, combinando documentos declaratórios, tratados e mecanismos de monitoramento.",
           "Afirmar que toda declaração tem o mesmo efeito de tratado ratificado.",
+          "O sistema global organiza parâmetros internacionais de proteção, combinando documentos declaratórios, tratados e mecanismos de monitoramento.",
           "Imaginar que sistema global substitui automaticamente juiz nacional.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Limitar Sistema global: ONU, declarações, pactos e mecanismos à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta resume o núcleo do tema: O sistema global organiza parâmetros internacionais de proteção, combinando documentos declaratórios, tratados e mecanismos de monitoramento."
       },
       {
@@ -599,13 +604,14 @@ export const direitosHumanosAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Comitês internacionais analisam relatórios, recomendações e comunicações quando o Estado aceita a competência correspondente.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Imaginar que sistema global substitui automaticamente juiz nacional."
+          "Afirmar que toda declaração tem o mesmo efeito de tratado ratificado.",
+          "Imaginar que sistema global substitui automaticamente juiz nacional.",
+          "Limitar Sistema global: ONU, declarações, pactos e mecanismos à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva.",
+          "Comitês internacionais analisam relatórios, recomendações e comunicações quando o Estado aceita a competência correspondente."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -634,11 +640,11 @@ export const direitosHumanosAvancado = [
   },
   {
     "id": "sistema-interamericano-comissao-corte-e-convencao-americana",
-    "materialTitle": "Direitos Humanos Avançado",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Sistema interamericano: Comissão, Corte e Convenção Americana",
@@ -757,13 +763,14 @@ export const direitosHumanosAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Sistema interamericano: Comissão, Corte e Convenção Americana, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "O sistema interamericano atua quando há violação de direitos humanos atribuível ao Estado e insuficiência de resposta interna efetiva.",
           "Confundir Comissão com Corte.",
+          "O sistema interamericano atua quando há violação de direitos humanos atribuível ao Estado e insuficiência de resposta interna efetiva.",
           "Achar que só há responsabilidade internacional se houver lei interna autorizando a violação.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Limitar Sistema interamericano: Comissão, Corte e Convenção Americana à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta resume o núcleo do tema: O sistema interamericano atua quando há violação de direitos humanos atribuível ao Estado e insuficiência de resposta interna efetiva."
       },
       {
@@ -808,13 +815,14 @@ export const direitosHumanosAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Confundir Comissão com Corte.",
+          "Achar que só há responsabilidade internacional se houver lei interna autorizando a violação.",
+          "Limitar Sistema interamericano: Comissão, Corte e Convenção Americana à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
           "A Corte Interamericana julga Estados que reconheceram sua competência e pode determinar reparações, garantias de não repetição e mudanças institucionais.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Achar que só há responsabilidade internacional se houver lei interna autorizando a violação."
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -843,11 +851,11 @@ export const direitosHumanosAvancado = [
   },
   {
     "id": "direitos-humanos-na-constituicao-e-tratados-no-brasil",
-    "materialTitle": "Direitos Humanos Avançado",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Direitos humanos na Constituição e tratados no Brasil",
@@ -966,13 +974,14 @@ export const direitosHumanosAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Direitos humanos na Constituição e tratados no Brasil, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A Constituição brasileira adota a dignidade, a cidadania e a prevalência dos direitos humanos como eixos de interpretação do poder estatal.",
           "Tratar tratado internacional como conselho sem relevância jurídica.",
           "Confundir controle de constitucionalidade com controle de convencionalidade.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Limitar Direitos humanos na Constituição e tratados no Brasil à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva.",
+          "A Constituição brasileira adota a dignidade, a cidadania e a prevalência dos direitos humanos como eixos de interpretação do poder estatal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: A Constituição brasileira adota a dignidade, a cidadania e a prevalência dos direitos humanos como eixos de interpretação do poder estatal."
       },
       {
@@ -1017,13 +1026,14 @@ export const direitosHumanosAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "A força normativa do tratado depende do procedimento de incorporação e da posição reconhecida pelo ordenamento jurídico.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Confundir controle de constitucionalidade com controle de convencionalidade."
+          "Tratar tratado internacional como conselho sem relevância jurídica.",
+          "Confundir controle de constitucionalidade com controle de convencionalidade.",
+          "Limitar Direitos humanos na Constituição e tratados no Brasil à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva.",
+          "A força normativa do tratado depende do procedimento de incorporação e da posição reconhecida pelo ordenamento jurídico."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1052,11 +1062,11 @@ export const direitosHumanosAvancado = [
   },
   {
     "id": "atividade-policial-abordagem-e-uso-legitimo-da-forca",
-    "materialTitle": "Direitos Humanos Avançado",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Atividade policial, abordagem e uso legítimo da força",
@@ -1175,13 +1185,14 @@ export const direitosHumanosAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Atividade policial, abordagem e uso legítimo da força, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Direitos humanos orientam a atuação policial legítima: a força estatal deve ser legal, necessária, proporcional e controlável.",
           "Pensar que direitos humanos impedem atuação firme.",
           "Achar que suspeita autoriza qualquer revista ou violência.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Direitos humanos orientam a atuação policial legítima: a força estatal deve ser legal, necessária, proporcional e controlável.",
+          "Limitar Atividade policial, abordagem e uso legítimo da força à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: Direitos humanos orientam a atuação policial legítima: a força estatal deve ser legal, necessária, proporcional e controlável."
       },
       {
@@ -1227,9 +1238,10 @@ export const direitosHumanosAvancado = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Uso progressivo da força não é escada automática, mas escolha técnica conforme risco, resistência e possibilidade de meio menos gravoso.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Achar que suspeita autoriza qualquer revista ou violência."
+          "Pensar que direitos humanos impedem atuação firme.",
+          "Achar que suspeita autoriza qualquer revista ou violência.",
+          "Limitar Atividade policial, abordagem e uso legítimo da força à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1261,11 +1273,11 @@ export const direitosHumanosAvancado = [
   },
   {
     "id": "tortura-tratamento-degradante-e-pessoa-custodiada",
-    "materialTitle": "Direitos Humanos Avançado",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Tortura, tratamento degradante e pessoa custodiada",
@@ -1387,7 +1399,8 @@ export const direitosHumanosAvancado = [
           "Pessoa presa ou apreendida permanece titular de direitos; a custódia aumenta o dever estatal de proteção e documentação.",
           "Achar que confissão obtida sob sofrimento pode ser aproveitada.",
           "Dizer que custódia elimina dever de integridade.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Limitar Tortura, tratamento degradante e pessoa custodiada à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1435,13 +1448,14 @@ export const direitosHumanosAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Achar que confissão obtida sob sofrimento pode ser aproveitada.",
+          "Dizer que custódia elimina dever de integridade.",
+          "Limitar Tortura, tratamento degradante e pessoa custodiada à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
           "Tratamento degradante reduz a pessoa a condição humilhante, ainda que não alcance a intensidade típica da tortura.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Dizer que custódia elimina dever de integridade."
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1470,11 +1484,11 @@ export const direitosHumanosAvancado = [
   },
   {
     "id": "grupos-vulneraveis-e-protecao-especial",
-    "materialTitle": "Direitos Humanos Avançado",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Grupos vulneráveis e proteção especial",
@@ -1593,13 +1607,14 @@ export const direitosHumanosAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Grupos vulneráveis e proteção especial, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Vulnerabilidade não significa incapacidade; indica exposição maior a riscos, barreiras ou discriminação que exigem resposta adequada.",
           "Tratar vulnerabilidade como privilégio.",
           "Aplicar o mesmo procedimento a todos, ignorando barreiras reais.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Vulnerabilidade não significa incapacidade; indica exposição maior a riscos, barreiras ou discriminação que exigem resposta adequada.",
+          "Limitar Grupos vulneráveis e proteção especial à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: Vulnerabilidade não significa incapacidade; indica exposição maior a riscos, barreiras ou discriminação que exigem resposta adequada."
       },
       {
@@ -1645,9 +1660,10 @@ export const direitosHumanosAvancado = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Proteção especial combina atendimento humanizado, prioridade, acessibilidade, escuta adequada e encaminhamento à rede de serviços.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Aplicar o mesmo procedimento a todos, ignorando barreiras reais."
+          "Tratar vulnerabilidade como privilégio.",
+          "Aplicar o mesmo procedimento a todos, ignorando barreiras reais.",
+          "Limitar Grupos vulneráveis e proteção especial à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1679,11 +1695,11 @@ export const direitosHumanosAvancado = [
   },
   {
     "id": "direitos-sociais-e-politicas-publicas",
-    "materialTitle": "Direitos Humanos Avançado",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Direitos sociais e políticas públicas",
@@ -1802,13 +1818,14 @@ export const direitosHumanosAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Direitos sociais e políticas públicas, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Direitos sociais exigem prestações estatais e políticas públicas planejadas, financiadas e avaliadas.",
           "Afirmar que direito social é mera promessa política.",
           "Tratar segurança pública como tema isolado de desigualdade e serviços básicos.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Direitos sociais exigem prestações estatais e políticas públicas planejadas, financiadas e avaliadas.",
+          "Limitar Direitos sociais e políticas públicas à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: Direitos sociais exigem prestações estatais e políticas públicas planejadas, financiadas e avaliadas."
       },
       {
@@ -1853,13 +1870,14 @@ export const direitosHumanosAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Afirmar que direito social é mera promessa política.",
+          "Tratar segurança pública como tema isolado de desigualdade e serviços básicos.",
+          "Limitar Direitos sociais e políticas públicas à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
           "Reserva do possível não pode ser desculpa automática para negar prestações mínimas; deve dialogar com prioridade, orçamento e prova.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Tratar segurança pública como tema isolado de desigualdade e serviços básicos."
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1888,11 +1906,11 @@ export const direitosHumanosAvancado = [
   },
   {
     "id": "responsabilizacao-reparacoes-e-garantias-de-nao-repeticao",
-    "materialTitle": "Direitos Humanos Avançado",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Responsabilização, reparações e garantias de não repetição",
@@ -2011,13 +2029,14 @@ export const direitosHumanosAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Responsabilização, reparações e garantias de não repetição, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Violação de direitos humanos pode gerar responsabilidade administrativa, civil, penal e internacional, conforme o caso.",
           "Limitar reparação a dinheiro.",
+          "Violação de direitos humanos pode gerar responsabilidade administrativa, civil, penal e internacional, conforme o caso.",
           "Achar que punição de um agente sempre resolve falha estrutural.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Limitar Responsabilização, reparações e garantias de não repetição à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta resume o núcleo do tema: Violação de direitos humanos pode gerar responsabilidade administrativa, civil, penal e internacional, conforme o caso."
       },
       {
@@ -2062,13 +2081,14 @@ export const direitosHumanosAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Limitar reparação a dinheiro.",
+          "Achar que punição de um agente sempre resolve falha estrutural.",
           "Garantias de não repetição buscam alterar práticas, treinamentos e controles para impedir que a violação se repita.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Achar que punição de um agente sempre resolve falha estrutural."
+          "Limitar Responsabilização, reparações e garantias de não repetição à proteção de pessoas consideradas inocentes, negando dignidade a suspeitos, presos ou grupos vulneráveis.",
+          "Tratar direito social como favor do governo, sem reconhecer dever estatal mínimo e controle contra omissão abusiva."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {

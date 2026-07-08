@@ -6,11 +6,11 @@
 export const direitoEleitoralAvancado = [
   {
     "id": "direitos-politicos-e-alistamento",
-    "materialTitle": "Direito Eleitoral Avançado",
+    "materialTitle": "Direito Eleitoral Avançado 10/10 Plus Revisado",
     "subject": "Direito Eleitoral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Eleitoral Avançado",
+    "moduleTitle": "Direito Eleitoral Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Direitos políticos e alistamento",
@@ -143,13 +143,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Direitos políticos e alistamento, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Direitos políticos permitem participação; alistamento, elegibilidade e voto têm requisitos próprios.",
           "Confundir suspensão com perda de direitos políticos.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Direitos políticos e alistamento sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas.",
+          "Direitos políticos permitem participação; alistamento, elegibilidade e voto têm requisitos próprios."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Direitos políticos permitem participação; alistamento, elegibilidade e voto têm requisitos próprios."
       },
       {
@@ -180,13 +181,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Direitos políticos e alistamento quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Alistamento obrigatório, facultativo e inelegibilidade são temas frequentes.",
           "Confundir suspensão com perda de direitos políticos.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Direitos políticos e alistamento sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas.",
+          "Alistamento obrigatório, facultativo e inelegibilidade são temas frequentes."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -215,13 +217,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Direitos políticos e alistamento?",
         "alternativas": [
+          "Confundir suspensão com perda de direitos políticos.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Direitos políticos permitem participação; alistamento, elegibilidade e voto têm requisitos próprios.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver Direitos políticos e alistamento sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -236,11 +239,11 @@ export const direitoEleitoralAvancado = [
   },
   {
     "id": "elegibilidade-e-inelegibilidades",
-    "materialTitle": "Direito Eleitoral Avançado",
+    "materialTitle": "Direito Eleitoral Avançado 10/10 Plus Revisado",
     "subject": "Direito Eleitoral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Eleitoral Avançado",
+    "moduleTitle": "Direito Eleitoral Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Elegibilidade e inelegibilidades",
@@ -373,13 +376,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Elegibilidade e inelegibilidades, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Elegibilidade é aptidão para candidatura; inelegibilidade impede candidatura por proteção da normalidade eleitoral.",
           "Achar que filiação partidária é inelegibilidade.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Elegibilidade é aptidão para candidatura; inelegibilidade impede candidatura por proteção da normalidade eleitoral.",
+          "Resolver Elegibilidade e inelegibilidades sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Elegibilidade é aptidão para candidatura; inelegibilidade impede candidatura por proteção da normalidade eleitoral."
       },
       {
@@ -410,13 +414,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Elegibilidade e inelegibilidades quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Condições de elegibilidade e causas de inelegibilidade não são sinônimos.",
           "Achar que filiação partidária é inelegibilidade.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Condições de elegibilidade e causas de inelegibilidade não são sinônimos.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Elegibilidade e inelegibilidades sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -445,10 +450,11 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Elegibilidade e inelegibilidades?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Elegibilidade é aptidão para candidatura; inelegibilidade impede candidatura por proteção da normalidade el...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Identificar o instituto, seus requisitos e a consequência adequada: Elegibilidade é aptidão para candidatura; inelegibilidade impede candidatura por proteção da normalidade eleitoral.",
+          "Achar que filiação partidária é inelegibilidade.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Elegibilidade e inelegibilidades sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -466,11 +472,11 @@ export const direitoEleitoralAvancado = [
   },
   {
     "id": "partidos-politicos-e-federacoes",
-    "materialTitle": "Direito Eleitoral Avançado",
+    "materialTitle": "Direito Eleitoral Avançado 10/10 Plus Revisado",
     "subject": "Direito Eleitoral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Eleitoral Avançado",
+    "moduleTitle": "Direito Eleitoral Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Partidos políticos e federações",
@@ -603,13 +609,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Partidos políticos e federações, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Partidos organizam representação política e têm autonomia dentro da Constituição e da lei.",
           "Confundir coligação proporcional com federação.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Partidos organizam representação política e têm autonomia dentro da Constituição e da lei.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Partidos políticos e federações sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Partidos organizam representação política e têm autonomia dentro da Constituição e da lei."
       },
       {
@@ -642,8 +649,9 @@ export const direitoEleitoralAvancado = [
         "alternativas": [
           "Federação partidária não é coligação comum.",
           "Confundir coligação proporcional com federação.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Partidos políticos e federações sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -675,13 +683,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Partidos políticos e federações?",
         "alternativas": [
+          "Confundir coligação proporcional com federação.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Partidos organizam representação política e têm autonomia dentro da Constituição e da lei.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Partidos políticos e federações sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -696,11 +705,11 @@ export const direitoEleitoralAvancado = [
   },
   {
     "id": "registro-de-candidatura",
-    "materialTitle": "Direito Eleitoral Avançado",
+    "materialTitle": "Direito Eleitoral Avançado 10/10 Plus Revisado",
     "subject": "Direito Eleitoral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Eleitoral Avançado",
+    "moduleTitle": "Direito Eleitoral Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Registro de candidatura",
@@ -833,13 +842,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Registro de candidatura, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Registro formaliza candidatura e permite controle de requisitos, documentos e impugnações.",
           "Achar que convenção partidária basta para candidatura válida.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Registro formaliza candidatura e permite controle de requisitos, documentos e impugnações.",
+          "Resolver Registro de candidatura sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Registro formaliza candidatura e permite controle de requisitos, documentos e impugnações."
       },
       {
@@ -872,8 +882,9 @@ export const direitoEleitoralAvancado = [
         "alternativas": [
           "A Justiça Eleitoral examina elegibilidade e inelegibilidades.",
           "Achar que convenção partidária basta para candidatura válida.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Registro de candidatura sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -905,13 +916,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Registro de candidatura?",
         "alternativas": [
+          "Achar que convenção partidária basta para candidatura válida.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Registro formaliza candidatura e permite controle de requisitos, documentos e impugnações.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Registro de candidatura sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -926,11 +938,11 @@ export const direitoEleitoralAvancado = [
   },
   {
     "id": "propaganda-eleitoral",
-    "materialTitle": "Direito Eleitoral Avançado",
+    "materialTitle": "Direito Eleitoral Avançado 10/10 Plus Revisado",
     "subject": "Direito Eleitoral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Eleitoral Avançado",
+    "moduleTitle": "Direito Eleitoral Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Propaganda eleitoral",
@@ -1065,8 +1077,9 @@ export const direitoEleitoralAvancado = [
         "alternativas": [
           "Propaganda tem período, meios, limites e sanções para proteger igualdade e liberdade do voto.",
           "Achar que internet é terra sem regra.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Propaganda eleitoral sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1100,13 +1113,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Propaganda eleitoral quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Impulsionamento, outdoor, bens públicos e internet são pontos de prova.",
           "Achar que internet é terra sem regra.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Propaganda eleitoral sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas.",
+          "Impulsionamento, outdoor, bens públicos e internet são pontos de prova."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1135,13 +1149,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Propaganda eleitoral?",
         "alternativas": [
+          "Achar que internet é terra sem regra.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Propaganda tem período, meios, limites e sanções para proteger igualdade e liberdade do voto.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver Propaganda eleitoral sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1156,11 +1171,11 @@ export const direitoEleitoralAvancado = [
   },
   {
     "id": "financiamento-e-prestacao-de-contas",
-    "materialTitle": "Direito Eleitoral Avançado",
+    "materialTitle": "Direito Eleitoral Avançado 10/10 Plus Revisado",
     "subject": "Direito Eleitoral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Eleitoral Avançado",
+    "moduleTitle": "Direito Eleitoral Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Financiamento e prestação de contas",
@@ -1293,13 +1308,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Financiamento e prestação de contas, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Arrecadação e gastos exigem fontes lícitas, conta específica, recibos e prestação de contas.",
           "Confundir desaprovação de contas com cassação automática.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Arrecadação e gastos exigem fontes lícitas, conta específica, recibos e prestação de contas.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Financiamento e prestação de contas sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Arrecadação e gastos exigem fontes lícitas, conta específica, recibos e prestação de contas."
       },
       {
@@ -1330,13 +1346,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Financiamento e prestação de contas quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Irregularidade financeira pode afetar diploma ou mandato conforme gravidade.",
           "Confundir desaprovação de contas com cassação automática.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Irregularidade financeira pode afetar diploma ou mandato conforme gravidade.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Financiamento e prestação de contas sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1365,13 +1382,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Financiamento e prestação de contas?",
         "alternativas": [
+          "Confundir desaprovação de contas com cassação automática.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Arrecadação e gastos exigem fontes lícitas, conta específica, recibos e prestação de contas.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Financiamento e prestação de contas sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1386,11 +1404,11 @@ export const direitoEleitoralAvancado = [
   },
   {
     "id": "abuso-de-poder-e-condutas-vedadas",
-    "materialTitle": "Direito Eleitoral Avançado",
+    "materialTitle": "Direito Eleitoral Avançado 10/10 Plus Revisado",
     "subject": "Direito Eleitoral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Eleitoral Avançado",
+    "moduleTitle": "Direito Eleitoral Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Abuso de poder e condutas vedadas",
@@ -1523,13 +1541,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Abuso de poder e condutas vedadas, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Abuso econômico, político e uso indevido de meios comprometem legitimidade da eleição.",
           "Ver qualquer irregularidade como abuso cassatório.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Abuso econômico, político e uso indevido de meios comprometem legitimidade da eleição.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Abuso de poder e condutas vedadas sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Abuso econômico, político e uso indevido de meios comprometem legitimidade da eleição."
       },
       {
@@ -1560,13 +1579,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Abuso de poder e condutas vedadas quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Potencialidade/gravidade e prova robusta são essenciais.",
           "Ver qualquer irregularidade como abuso cassatório.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Potencialidade/gravidade e prova robusta são essenciais.",
+          "Resolver Abuso de poder e condutas vedadas sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1596,9 +1616,10 @@ export const direitoEleitoralAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Abuso de poder e condutas vedadas?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Abuso econômico, político e uso indevido de meios comprometem legitimidade da eleição.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Ver qualquer irregularidade como abuso cassatório.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Abuso de poder e condutas vedadas sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1616,11 +1637,11 @@ export const direitoEleitoralAvancado = [
   },
   {
     "id": "acoes-eleitorais",
-    "materialTitle": "Direito Eleitoral Avançado",
+    "materialTitle": "Direito Eleitoral Avançado 10/10 Plus Revisado",
     "subject": "Direito Eleitoral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Eleitoral Avançado",
+    "moduleTitle": "Direito Eleitoral Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Ações eleitorais",
@@ -1753,13 +1774,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Ações eleitorais, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "AIJE, AIME, RCED e representações têm objetos, prazos e efeitos distintos.",
           "Usar uma ação eleitoral como se todas fossem iguais.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "AIJE, AIME, RCED e representações têm objetos, prazos e efeitos distintos.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Ações eleitorais sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: AIJE, AIME, RCED e representações têm objetos, prazos e efeitos distintos."
       },
       {
@@ -1790,13 +1812,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Ações eleitorais quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Identificar ação correta é metade da questão.",
           "Usar uma ação eleitoral como se todas fossem iguais.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Identificar ação correta é metade da questão.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Ações eleitorais sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1825,13 +1848,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Ações eleitorais?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: AIJE, AIME, RCED e representações têm objetos, prazos e efeitos distintos.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Usar uma ação eleitoral como se todas fossem iguais.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Ações eleitorais sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: AIJE, AIME, RCED e representações têm objetos, prazos e efeitos distintos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1846,11 +1870,11 @@ export const direitoEleitoralAvancado = [
   },
   {
     "id": "crimes-eleitorais",
-    "materialTitle": "Direito Eleitoral Avançado",
+    "materialTitle": "Direito Eleitoral Avançado 10/10 Plus Revisado",
     "subject": "Direito Eleitoral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Eleitoral Avançado",
+    "moduleTitle": "Direito Eleitoral Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Crimes eleitorais",
@@ -1983,13 +2007,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Crimes eleitorais, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Crimes eleitorais protegem liberdade do voto, fé pública eleitoral e lisura do processo.",
           "Confundir ilícito administrativo com crime.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Crimes eleitorais protegem liberdade do voto, fé pública eleitoral e lisura do processo.",
+          "Resolver Crimes eleitorais sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Crimes eleitorais protegem liberdade do voto, fé pública eleitoral e lisura do processo."
       },
       {
@@ -2020,13 +2045,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Crimes eleitorais quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Boca de urna, corrupção eleitoral e falsidades exigem elementos típicos.",
           "Confundir ilícito administrativo com crime.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Crimes eleitorais sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas.",
+          "Boca de urna, corrupção eleitoral e falsidades exigem elementos típicos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2055,13 +2081,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Crimes eleitorais?",
         "alternativas": [
+          "Confundir ilícito administrativo com crime.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Crimes eleitorais protegem liberdade do voto, fé pública eleitoral e lisura do processo.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Crimes eleitorais sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -2076,11 +2103,11 @@ export const direitoEleitoralAvancado = [
   },
   {
     "id": "justica-eleitoral-e-processo-eleitoral",
-    "materialTitle": "Direito Eleitoral Avançado",
+    "materialTitle": "Direito Eleitoral Avançado 10/10 Plus Revisado",
     "subject": "Direito Eleitoral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Eleitoral Avançado",
+    "moduleTitle": "Direito Eleitoral Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Justiça Eleitoral e processo eleitoral",
@@ -2215,8 +2242,9 @@ export const direitoEleitoralAvancado = [
         "alternativas": [
           "Justiça Eleitoral organiza, fiscaliza e julga etapas do processo eleitoral.",
           "Ignorar prazos curtíssimos eleitorais.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Justiça Eleitoral e processo eleitoral sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2250,13 +2278,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Justiça Eleitoral e processo eleitoral quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Competência e calendário eleitoral orientam validade dos atos.",
           "Ignorar prazos curtíssimos eleitorais.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Competência e calendário eleitoral orientam validade dos atos.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Justiça Eleitoral e processo eleitoral sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2285,13 +2314,14 @@ export const direitoEleitoralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Justiça Eleitoral e processo eleitoral?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Justiça Eleitoral organiza, fiscaliza e julga etapas do processo eleitoral.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Ignorar prazos curtíssimos eleitorais.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Justiça Eleitoral e processo eleitoral sem distinguir alistamento, elegibilidade, inelegibilidade, campanha e prestação de contas.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Justiça Eleitoral organiza, fiscaliza e julga etapas do processo eleitoral."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {

@@ -7,11 +7,11 @@
 export const organizacaoJudiciaria = [
   {
     "id": "organizacao-judiciaria-01-poder-judiciario-estrutura-e-funcao-constitucional",
-    "materialTitle": "Organização Judiciária",
+    "materialTitle": "Organização Judiciária 10/10 Plus",
     "subject": "Organização Judiciária",
     "contest": "Tribunais / Área judiciária / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Organização Judiciária",
+    "moduleTitle": "Organização Judiciária 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Poder Judiciário: estrutura e função constitucional",
@@ -180,18 +180,20 @@ export const organizacaoJudiciaria = [
         "enunciado": "Em Poder Judiciário: estrutura e função constitucional, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar organização do Judiciário como função estatal de solução de conflitos e controle de direitos, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Confundir Poder Judiciário com qualquer órgão que resolve conflito.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Poder Judiciário: estrutura e função constitucional.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar ramo, órgão e função exercida, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar organização do Judiciário como função estatal de solução de conflitos e controle de direitos, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Confundir Poder Judiciário com qualquer órgão que resolve conflito.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Poder Judiciário: estrutura e função constitucional.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -220,19 +222,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Poder Judiciário: estrutura e função constitucional é:",
         "alternativas": [
-          "estrutura judiciária combina independência, competência e serviço ao cidadão",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Estrutura judiciária combina independência, competência e serviço ao cidadão.",
+          "Confundir Poder Judiciário com qualquer órgão que resolve conflito.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Poder Judiciário: estrutura e função constitucional.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: Estrutura judiciária combina independência, competência e serviço ao cidadão.",
+          "Errada: Confundir Poder Judiciário com qualquer órgão que resolve conflito.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Poder Judiciário: estrutura e função constitucional.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -261,19 +265,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Poder Judiciário: estrutura e função constitucional?",
         "alternativas": [
+          "Confundir Poder Judiciário com qualquer órgão que resolve conflito.",
           "Supor que confundir Poder Judiciário com qualquer órgão que resolve conflito é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Poder Judiciário: estrutura e função constitucional.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Confundir Poder Judiciário com qualquer órgão que resolve conflito.",
+          "Correta: Supor que confundir Poder Judiciário com qualquer órgão que resolve conflito é aceitável porque simplifica o trabalho.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Poder Judiciário: estrutura e função constitucional.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -287,11 +293,11 @@ export const organizacaoJudiciaria = [
   },
   {
     "id": "organizacao-judiciaria-02-justicas-comum-e-especializada",
-    "materialTitle": "Organização Judiciária",
+    "materialTitle": "Organização Judiciária 10/10 Plus",
     "subject": "Organização Judiciária",
     "contest": "Tribunais / Área judiciária / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Organização Judiciária",
+    "moduleTitle": "Organização Judiciária 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Justiças comum e especializada",
@@ -460,18 +466,20 @@ export const organizacaoJudiciaria = [
         "enunciado": "Em Justiças comum e especializada, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar diferenças entre Justiça Estadual, Federal, Trabalho, Eleitoral e Militar, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Achar que todas as causas podem ir a qualquer justiça.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Justiças comum e especializada.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: classificar matéria, pessoa envolvida e competência, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar diferenças entre Justiça Estadual, Federal, Trabalho, Eleitoral e Militar, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Achar que todas as causas podem ir a qualquer justiça.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Justiças comum e especializada.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -500,19 +508,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Justiças comum e especializada é:",
         "alternativas": [
-          "cada ramo possui competência material e estrutura própria",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Achar que todas as causas podem ir a qualquer justiça.",
+          "Cada ramo possui competência material e estrutura própria.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Justiças comum e especializada.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Achar que todas as causas podem ir a qualquer justiça.",
+          "Correta: Cada ramo possui competência material e estrutura própria.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Justiças comum e especializada.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -541,19 +551,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Justiças comum e especializada?",
         "alternativas": [
-          "Supor que achar que todas as causas podem ir a qualquer justiça é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Achar que todas as causas podem ir a qualquer justiça.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Justiças comum e especializada.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição.",
+          "Supor que achar que todas as causas podem ir a qualquer justiça é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Achar que todas as causas podem ir a qualquer justiça.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Justiças comum e especializada.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição.",
+          "Correta: Supor que achar que todas as causas podem ir a qualquer justiça é aceitável porque simplifica o trabalho."
         ]
       },
       {
@@ -567,11 +579,11 @@ export const organizacaoJudiciaria = [
   },
   {
     "id": "organizacao-judiciaria-03-instancias-graus-de-jurisdicao-e-orgaos-colegiados",
-    "materialTitle": "Organização Judiciária",
+    "materialTitle": "Organização Judiciária 10/10 Plus",
     "subject": "Organização Judiciária",
     "contest": "Tribunais / Área judiciária / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Organização Judiciária",
+    "moduleTitle": "Organização Judiciária 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Instâncias, graus de jurisdição e órgãos colegiados",
@@ -739,19 +751,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Instâncias, graus de jurisdição e órgãos colegiados, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Confundir tribunal superior com segunda instância comum.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Instâncias, graus de jurisdição e órgãos colegiados.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
           "Identificar primeiro grau, tribunais, cortes superiores e funções recursais, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: desenhar percurso do processo, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Confundir tribunal superior com segunda instância comum.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Instâncias, graus de jurisdição e órgãos colegiados.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Correta: Identificar primeiro grau, tribunais, cortes superiores e funções recursais, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -780,19 +794,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Instâncias, graus de jurisdição e órgãos colegiados é:",
         "alternativas": [
-          "grau de jurisdição não é sinônimo de hierarquia administrativa simples",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Confundir tribunal superior com segunda instância comum.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Instâncias, graus de jurisdição e órgãos colegiados.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Grau de jurisdição não é sinônimo de hierarquia administrativa simples.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Confundir tribunal superior com segunda instância comum.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Instâncias, graus de jurisdição e órgãos colegiados.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Correta: Grau de jurisdição não é sinônimo de hierarquia administrativa simples.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -821,19 +837,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Instâncias, graus de jurisdição e órgãos colegiados?",
         "alternativas": [
+          "Confundir tribunal superior com segunda instância comum.",
           "Supor que confundir tribunal superior com segunda instância comum é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Instâncias, graus de jurisdição e órgãos colegiados.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Confundir tribunal superior com segunda instância comum.",
+          "Correta: Supor que confundir tribunal superior com segunda instância comum é aceitável porque simplifica o trabalho.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Instâncias, graus de jurisdição e órgãos colegiados.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -847,11 +865,11 @@ export const organizacaoJudiciaria = [
   },
   {
     "id": "organizacao-judiciaria-04-comarcas-varas-juizados-e-unidades-judiciais",
-    "materialTitle": "Organização Judiciária",
+    "materialTitle": "Organização Judiciária 10/10 Plus",
     "subject": "Organização Judiciária",
     "contest": "Tribunais / Área judiciária / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Organização Judiciária",
+    "moduleTitle": "Organização Judiciária 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Comarcas, varas, juizados e unidades judiciais",
@@ -1019,19 +1037,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Comarcas, varas, juizados e unidades judiciais, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Tratar comarca, vara e foro como sinônimos perfeitos.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Comarcas, varas, juizados e unidades judiciais.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
           "Identificar organização territorial e funcional dos serviços judiciais, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: separar território, unidade e competência, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Tratar comarca, vara e foro como sinônimos perfeitos.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Comarcas, varas, juizados e unidades judiciais.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Correta: Identificar organização territorial e funcional dos serviços judiciais, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -1060,19 +1080,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Comarcas, varas, juizados e unidades judiciais é:",
         "alternativas": [
-          "unidade judiciária define atendimento, distribuição e competência local",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Tratar comarca, vara e foro como sinônimos perfeitos.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Comarcas, varas, juizados e unidades judiciais.",
+          "Unidade judiciária define atendimento, distribuição e competência local.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Tratar comarca, vara e foro como sinônimos perfeitos.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Comarcas, varas, juizados e unidades judiciais.",
+          "Correta: Unidade judiciária define atendimento, distribuição e competência local.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -1101,19 +1123,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Comarcas, varas, juizados e unidades judiciais?",
         "alternativas": [
+          "Tratar comarca, vara e foro como sinônimos perfeitos.",
           "Supor que tratar comarca, vara e foro como sinônimos perfeitos é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Comarcas, varas, juizados e unidades judiciais.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Tratar comarca, vara e foro como sinônimos perfeitos.",
+          "Correta: Supor que tratar comarca, vara e foro como sinônimos perfeitos é aceitável porque simplifica o trabalho.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Comarcas, varas, juizados e unidades judiciais.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -1127,11 +1151,11 @@ export const organizacaoJudiciaria = [
   },
   {
     "id": "organizacao-judiciaria-05-magistrados-servidores-e-servicos-auxiliares",
-    "materialTitle": "Organização Judiciária",
+    "materialTitle": "Organização Judiciária 10/10 Plus",
     "subject": "Organização Judiciária",
     "contest": "Tribunais / Área judiciária / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Organização Judiciária",
+    "moduleTitle": "Organização Judiciária 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Magistrados, servidores e serviços auxiliares",
@@ -1299,19 +1323,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Magistrados, servidores e serviços auxiliares, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Atribuir ao servidor ato decisório privativo do juiz.",
           "Identificar papéis de juízes, servidores, oficiais, secretarias e auxiliares da justiça, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Magistrados, servidores e serviços auxiliares.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar quem pratica ato decisório e quem executa apoio, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Atribuir ao servidor ato decisório privativo do juiz.",
+          "Correta: Identificar papéis de juízes, servidores, oficiais, secretarias e auxiliares da justiça, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Magistrados, servidores e serviços auxiliares.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -1340,19 +1366,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Magistrados, servidores e serviços auxiliares é:",
         "alternativas": [
-          "atividade jurisdicional depende de atos administrativos de apoio confiáveis",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Atribuir ao servidor ato decisório privativo do juiz.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Magistrados, servidores e serviços auxiliares.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atividade jurisdicional depende de atos administrativos de apoio confiáveis.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Atribuir ao servidor ato decisório privativo do juiz.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Magistrados, servidores e serviços auxiliares.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Correta: Atividade jurisdicional depende de atos administrativos de apoio confiáveis.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -1381,19 +1409,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Magistrados, servidores e serviços auxiliares?",
         "alternativas": [
+          "Atribuir ao servidor ato decisório privativo do juiz.",
           "Supor que atribuir ao servidor ato decisório privativo do juiz é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Magistrados, servidores e serviços auxiliares.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Atribuir ao servidor ato decisório privativo do juiz.",
+          "Correta: Supor que atribuir ao servidor ato decisório privativo do juiz é aceitável porque simplifica o trabalho.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Magistrados, servidores e serviços auxiliares.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -1407,11 +1437,11 @@ export const organizacaoJudiciaria = [
   },
   {
     "id": "organizacao-judiciaria-06-distribuicao-autuacao-e-movimentacao-processual",
-    "materialTitle": "Organização Judiciária",
+    "materialTitle": "Organização Judiciária 10/10 Plus",
     "subject": "Organização Judiciária",
     "contest": "Tribunais / Área judiciária / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Organização Judiciária",
+    "moduleTitle": "Organização Judiciária 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Distribuição, autuação e movimentação processual",
@@ -1579,19 +1609,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Distribuição, autuação e movimentação processual, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Manipular distribuição por conveniência.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Distribuição, autuação e movimentação processual.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
           "Identificar entrada, registro, classificação e encaminhamento do processo, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: seguir fluxo: protocolo, autuação, distribuição e conclusão, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Manipular distribuição por conveniência.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Distribuição, autuação e movimentação processual.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Correta: Identificar entrada, registro, classificação e encaminhamento do processo, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -1620,19 +1652,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Distribuição, autuação e movimentação processual é:",
         "alternativas": [
-          "organização judiciária garante rastreabilidade e imparcialidade na distribuição",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Manipular distribuição por conveniência.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Distribuição, autuação e movimentação processual.",
+          "Organização judiciária garante rastreabilidade e imparcialidade na distribuição.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Manipular distribuição por conveniência.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Distribuição, autuação e movimentação processual.",
+          "Correta: Organização judiciária garante rastreabilidade e imparcialidade na distribuição.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -1661,19 +1695,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Distribuição, autuação e movimentação processual?",
         "alternativas": [
-          "Supor que manipular distribuição por conveniência é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Manipular distribuição por conveniência.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Distribuição, autuação e movimentação processual.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição.",
+          "Supor que manipular distribuição por conveniência é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Manipular distribuição por conveniência.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Distribuição, autuação e movimentação processual.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição.",
+          "Correta: Supor que manipular distribuição por conveniência é aceitável porque simplifica o trabalho."
         ]
       },
       {
@@ -1687,11 +1723,11 @@ export const organizacaoJudiciaria = [
   },
   {
     "id": "organizacao-judiciaria-07-competencia-administrativa-dos-tribunais",
-    "materialTitle": "Organização Judiciária",
+    "materialTitle": "Organização Judiciária 10/10 Plus",
     "subject": "Organização Judiciária",
     "contest": "Tribunais / Área judiciária / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Organização Judiciária",
+    "moduleTitle": "Organização Judiciária 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Competência administrativa dos tribunais",
@@ -1859,19 +1895,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Competência administrativa dos tribunais, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar gestão de pessoal, orçamento, serviços, tecnologia e unidades judiciárias, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Confundir competência administrativa interna com julgamento de causa.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Competência administrativa dos tribunais.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição.",
+          "Identificar gestão de pessoal, orçamento, serviços, tecnologia e unidades judiciárias, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: separar gestão institucional e decisão jurisdicional, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Confundir competência administrativa interna com julgamento de causa.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Competência administrativa dos tribunais.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição.",
+          "Correta: Identificar gestão de pessoal, orçamento, serviços, tecnologia e unidades judiciárias, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ]
       },
       {
@@ -1900,19 +1938,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Competência administrativa dos tribunais é:",
         "alternativas": [
-          "tribunal administra sua estrutura sem substituir função legislativa geral",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Tribunal administra sua estrutura sem substituir função legislativa geral.",
+          "Confundir competência administrativa interna com julgamento de causa.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Competência administrativa dos tribunais.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: Tribunal administra sua estrutura sem substituir função legislativa geral.",
+          "Errada: Confundir competência administrativa interna com julgamento de causa.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Competência administrativa dos tribunais.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -1941,19 +1981,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Competência administrativa dos tribunais?",
         "alternativas": [
+          "Confundir competência administrativa interna com julgamento de causa.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Competência administrativa dos tribunais.",
           "Supor que confundir competência administrativa interna com julgamento de causa é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Confundir competência administrativa interna com julgamento de causa.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Competência administrativa dos tribunais.",
+          "Correta: Supor que confundir competência administrativa interna com julgamento de causa é aceitável porque simplifica o trabalho.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -1967,11 +2009,11 @@ export const organizacaoJudiciaria = [
   },
   {
     "id": "organizacao-judiciaria-08-corregedorias-e-fiscalizacao-dos-servicos-judiciais",
-    "materialTitle": "Organização Judiciária",
+    "materialTitle": "Organização Judiciária 10/10 Plus",
     "subject": "Organização Judiciária",
     "contest": "Tribunais / Área judiciária / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Organização Judiciária",
+    "moduleTitle": "Organização Judiciária 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Corregedorias e fiscalização dos serviços judiciais",
@@ -2139,19 +2181,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Corregedorias e fiscalização dos serviços judiciais, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Usar correição como recurso contra sentença.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Corregedorias e fiscalização dos serviços judiciais.",
           "Identificar controle de regularidade, disciplina e qualidade dos serviços judiciais, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: verificar objeto: serviço, conduta ou decisão judicial, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Usar correição como recurso contra sentença.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Corregedorias e fiscalização dos serviços judiciais.",
+          "Correta: Identificar controle de regularidade, disciplina e qualidade dos serviços judiciais, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -2180,19 +2224,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Corregedorias e fiscalização dos serviços judiciais é:",
         "alternativas": [
-          "corregedoria melhora serviço e apura irregularidades administrativas",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Usar correição como recurso contra sentença.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Corregedorias e fiscalização dos serviços judiciais.",
+          "Corregedoria melhora serviço e apura irregularidades administrativas.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Usar correição como recurso contra sentença.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Corregedorias e fiscalização dos serviços judiciais.",
+          "Correta: Corregedoria melhora serviço e apura irregularidades administrativas.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -2221,19 +2267,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Corregedorias e fiscalização dos serviços judiciais?",
         "alternativas": [
+          "Usar correição como recurso contra sentença.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Corregedorias e fiscalização dos serviços judiciais.",
           "Supor que usar correição como recurso contra sentença é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Usar correição como recurso contra sentença.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Corregedorias e fiscalização dos serviços judiciais.",
+          "Correta: Supor que usar correição como recurso contra sentença é aceitável porque simplifica o trabalho.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -2247,11 +2295,11 @@ export const organizacaoJudiciaria = [
   },
   {
     "id": "organizacao-judiciaria-09-acesso-a-justica-atendimento-e-prioridade-processual",
-    "materialTitle": "Organização Judiciária",
+    "materialTitle": "Organização Judiciária 10/10 Plus",
     "subject": "Organização Judiciária",
     "contest": "Tribunais / Área judiciária / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Organização Judiciária",
+    "moduleTitle": "Organização Judiciária 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Acesso à justiça, atendimento e prioridade processual",
@@ -2419,19 +2467,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Acesso à justiça, atendimento e prioridade processual, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar mecanismos de acesso, gratuidade, prioridade e atendimento ao público, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Confundir prioridade legal com preferência informal.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Acesso à justiça, atendimento e prioridade processual.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição.",
+          "Identificar mecanismos de acesso, gratuidade, prioridade e atendimento ao público, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar fundamento, público protegido e procedimento, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Confundir prioridade legal com preferência informal.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Acesso à justiça, atendimento e prioridade processual.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição.",
+          "Correta: Identificar mecanismos de acesso, gratuidade, prioridade e atendimento ao público, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ]
       },
       {
@@ -2460,19 +2510,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Acesso à justiça, atendimento e prioridade processual é:",
         "alternativas": [
-          "organização judiciária deve reduzir barreiras ao serviço judicial",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Organização judiciária deve reduzir barreiras ao serviço judicial.",
+          "Confundir prioridade legal com preferência informal.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Acesso à justiça, atendimento e prioridade processual.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: Organização judiciária deve reduzir barreiras ao serviço judicial.",
+          "Errada: Confundir prioridade legal com preferência informal.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Acesso à justiça, atendimento e prioridade processual.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -2501,19 +2553,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Acesso à justiça, atendimento e prioridade processual?",
         "alternativas": [
-          "Supor que confundir prioridade legal com preferência informal é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir prioridade legal com preferência informal.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Acesso à justiça, atendimento e prioridade processual.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição.",
+          "Supor que confundir prioridade legal com preferência informal é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Confundir prioridade legal com preferência informal.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Acesso à justiça, atendimento e prioridade processual.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição.",
+          "Correta: Supor que confundir prioridade legal com preferência informal é aceitável porque simplifica o trabalho."
         ]
       },
       {
@@ -2527,11 +2581,11 @@ export const organizacaoJudiciaria = [
   },
   {
     "id": "organizacao-judiciaria-10-casos-praticos-de-organizacao-judiciaria",
-    "materialTitle": "Organização Judiciária",
+    "materialTitle": "Organização Judiciária 10/10 Plus",
     "subject": "Organização Judiciária",
     "contest": "Tribunais / Área judiciária / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Organização Judiciária",
+    "moduleTitle": "Organização Judiciária 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Casos práticos de organização judiciária",
@@ -2699,19 +2753,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Casos práticos de organização judiciária, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Responder por senso comum de hierarquia.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Casos práticos de organização judiciária.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
           "Identificar questões integradas sobre estrutura, competência, unidades e serviços auxiliares, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: aplicar matriz: ramo, órgão, unidade, ato e responsável, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Responder por senso comum de hierarquia.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Casos práticos de organização judiciária.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Correta: Identificar questões integradas sobre estrutura, competência, unidades e serviços auxiliares, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {
@@ -2740,19 +2796,21 @@ export const organizacaoJudiciaria = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Casos práticos de organização judiciária é:",
         "alternativas": [
-          "a banca cobra o caminho correto do processo e do órgão",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Responder por senso comum de hierarquia.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Casos práticos de organização judiciária.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição.",
+          "A banca cobra o caminho correto do processo e do órgão."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Responder por senso comum de hierarquia.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Casos práticos de organização judiciária.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição.",
+          "Correta: A banca cobra o caminho correto do processo e do órgão."
         ]
       },
       {
@@ -2782,18 +2840,20 @@ export const organizacaoJudiciaria = [
         "enunciado": "Qual alternativa revela erro de banca em Casos práticos de organização judiciária?",
         "alternativas": [
           "Supor que responder por senso comum de hierarquia é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Responder por senso comum de hierarquia.",
+          "Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Casos práticos de organização judiciária.",
+          "Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Correta: Supor que responder por senso comum de hierarquia é aceitável porque simplifica o trabalho.",
+          "Errada: Responder por senso comum de hierarquia.",
+          "Errada: Confundir comarca, vara, tribunal e órgão colegiado como se todos exercessem a mesma função em Casos práticos de organização judiciária.",
+          "Errada: Enviar processo ao órgão errado por ignorar competência territorial, material ou funcional indicada no enunciado.",
+          "Errada: Atribuir ao servidor ato decisório reservado ao magistrado, confundindo serviço auxiliar com jurisdição."
         ]
       },
       {

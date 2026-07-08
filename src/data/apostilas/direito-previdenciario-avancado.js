@@ -6,11 +6,11 @@
 export const direitoPrevidenciarioAvancado = [
   {
     "id": "seguridade-social-e-previdencia",
-    "materialTitle": "Direito Previdenciário Avançado",
+    "materialTitle": "Direito Previdenciário Avançado 10/10 Plus Revisado",
     "subject": "Direito Previdenciário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Previdenciário Avançado",
+    "moduleTitle": "Direito Previdenciário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Seguridade Social e Previdência",
@@ -143,13 +143,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Seguridade Social e Previdência, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Seguridade integra saúde, previdência e assistência; previdência exige contribuição e filiação.",
           "Confundir assistência com previdência contributiva.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Seguridade integra saúde, previdência e assistência; previdência exige contribuição e filiação.",
+          "Conceder benefício em Seguridade Social e Previdência apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Seguridade integra saúde, previdência e assistência; previdência exige contribuição e filiação."
       },
       {
@@ -180,13 +181,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Seguridade Social e Previdência quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Universalidade e seletividade aparecem como princípios distintos.",
           "Confundir assistência com previdência contributiva.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Universalidade e seletividade aparecem como princípios distintos.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Seguridade Social e Previdência apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -215,13 +217,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Seguridade Social e Previdência?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Seguridade integra saúde, previdência e assistência; previdência exige contribuição e filiação.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir assistência com previdência contributiva.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Seguridade Social e Previdência apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Seguridade integra saúde, previdência e assistência; previdência exige contribuição e filiação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -236,11 +239,11 @@ export const direitoPrevidenciarioAvancado = [
   },
   {
     "id": "segurados-e-dependentes",
-    "materialTitle": "Direito Previdenciário Avançado",
+    "materialTitle": "Direito Previdenciário Avançado 10/10 Plus Revisado",
     "subject": "Direito Previdenciário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Previdenciário Avançado",
+    "moduleTitle": "Direito Previdenciário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Segurados e dependentes",
@@ -373,13 +376,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Segurados e dependentes, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Segurado mantém vínculo próprio; dependente deriva proteção de relação familiar/econômica.",
           "Achar que todo familiar é dependente automático.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Segurado mantém vínculo próprio; dependente deriva proteção de relação familiar/econômica.",
+          "Conceder benefício em Segurados e dependentes apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Segurado mantém vínculo próprio; dependente deriva proteção de relação familiar/econômica."
       },
       {
@@ -410,13 +414,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Segurados e dependentes quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Qualidade de segurado e carência são filtros essenciais.",
           "Achar que todo familiar é dependente automático.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Qualidade de segurado e carência são filtros essenciais.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Segurados e dependentes apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -445,13 +450,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Segurados e dependentes?",
         "alternativas": [
+          "Achar que todo familiar é dependente automático.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Segurado mantém vínculo próprio; dependente deriva proteção de relação familiar/econômica.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Segurados e dependentes apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -466,11 +472,11 @@ export const direitoPrevidenciarioAvancado = [
   },
   {
     "id": "filiacao-inscricao-e-manutencao-da-qualidade",
-    "materialTitle": "Direito Previdenciário Avançado",
+    "materialTitle": "Direito Previdenciário Avançado 10/10 Plus Revisado",
     "subject": "Direito Previdenciário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Previdenciário Avançado",
+    "moduleTitle": "Direito Previdenciário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Filiação, inscrição e manutenção da qualidade",
@@ -603,13 +609,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Filiação, inscrição e manutenção da qualidade, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Filiação pode ser obrigatória ou facultativa; qualidade pode permanecer por período de graça.",
           "Ignorar período de graça.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Filiação, inscrição e manutenção da qualidade apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto.",
+          "Filiação pode ser obrigatória ou facultativa; qualidade pode permanecer por período de graça."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Filiação pode ser obrigatória ou facultativa; qualidade pode permanecer por período de graça."
       },
       {
@@ -640,13 +647,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Filiação, inscrição e manutenção da qualidade quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Perda da qualidade afeta benefícios conforme regra aplicável.",
           "Ignorar período de graça.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Filiação, inscrição e manutenção da qualidade apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto.",
+          "Perda da qualidade afeta benefícios conforme regra aplicável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -676,9 +684,10 @@ export const direitoPrevidenciarioAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Filiação, inscrição e manutenção da qualidade?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Filiação pode ser obrigatória ou facultativa; qualidade pode permanecer por período de graça.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Ignorar período de graça.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Filiação, inscrição e manutenção da qualidade apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -696,11 +705,11 @@ export const direitoPrevidenciarioAvancado = [
   },
   {
     "id": "carencia-e-tempo-de-contribuicao",
-    "materialTitle": "Direito Previdenciário Avançado",
+    "materialTitle": "Direito Previdenciário Avançado 10/10 Plus Revisado",
     "subject": "Direito Previdenciário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Previdenciário Avançado",
+    "moduleTitle": "Direito Previdenciário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Carência e tempo de contribuição",
@@ -833,13 +842,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Carência e tempo de contribuição, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Carência é número mínimo de contribuições; tempo de contribuição mede histórico laboral/contributivo.",
           "Confundir carência com tempo total.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Carência é número mínimo de contribuições; tempo de contribuição mede histórico laboral/contributivo.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Carência e tempo de contribuição apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Carência é número mínimo de contribuições; tempo de contribuição mede histórico laboral/contributivo."
       },
       {
@@ -870,13 +880,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Carência e tempo de contribuição quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Alguns benefícios dispensam carência em hipóteses específicas.",
           "Confundir carência com tempo total.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Alguns benefícios dispensam carência em hipóteses específicas.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Carência e tempo de contribuição apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -905,13 +916,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Carência e tempo de contribuição?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Carência é número mínimo de contribuições; tempo de contribuição mede histórico laboral/contributivo.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir carência com tempo total.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Carência e tempo de contribuição apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Carência é número mínimo de contribuições; tempo de contribuição mede histórico laboral/contributivo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -926,11 +938,11 @@ export const direitoPrevidenciarioAvancado = [
   },
   {
     "id": "beneficios-por-incapacidade",
-    "materialTitle": "Direito Previdenciário Avançado",
+    "materialTitle": "Direito Previdenciário Avançado 10/10 Plus Revisado",
     "subject": "Direito Previdenciário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Previdenciário Avançado",
+    "moduleTitle": "Direito Previdenciário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Benefícios por incapacidade",
@@ -1063,13 +1075,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Benefícios por incapacidade, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Incapacidade pode gerar auxílio ou aposentadoria conforme duração, grau e avaliação.",
           "Achar que diagnóstico basta sem incapacidade laboral.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Incapacidade pode gerar auxílio ou aposentadoria conforme duração, grau e avaliação.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Benefícios por incapacidade apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Incapacidade pode gerar auxílio ou aposentadoria conforme duração, grau e avaliação."
       },
       {
@@ -1100,13 +1113,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Benefícios por incapacidade quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Doença preexistente exige análise de agravamento e filiação.",
           "Achar que diagnóstico basta sem incapacidade laboral.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Doença preexistente exige análise de agravamento e filiação.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Benefícios por incapacidade apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1136,9 +1150,10 @@ export const direitoPrevidenciarioAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Benefícios por incapacidade?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Incapacidade pode gerar auxílio ou aposentadoria conforme duração, grau e avaliação.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Achar que diagnóstico basta sem incapacidade laboral.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Benefícios por incapacidade apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1156,11 +1171,11 @@ export const direitoPrevidenciarioAvancado = [
   },
   {
     "id": "aposentadorias-programaveis",
-    "materialTitle": "Direito Previdenciário Avançado",
+    "materialTitle": "Direito Previdenciário Avançado 10/10 Plus Revisado",
     "subject": "Direito Previdenciário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Previdenciário Avançado",
+    "moduleTitle": "Direito Previdenciário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Aposentadorias programáveis",
@@ -1295,8 +1310,9 @@ export const direitoPrevidenciarioAvancado = [
         "alternativas": [
           "Aposentadorias exigem idade, tempo, regras de transição ou critérios específicos.",
           "Aplicar regra antiga sem transição.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Aposentadorias programáveis apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1332,8 +1348,9 @@ export const direitoPrevidenciarioAvancado = [
         "alternativas": [
           "O aluno deve sempre verificar regra aplicável ao período.",
           "Aplicar regra antiga sem transição.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Aposentadorias programáveis apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1365,13 +1382,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Aposentadorias programáveis?",
         "alternativas": [
+          "Aplicar regra antiga sem transição.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Aposentadorias exigem idade, tempo, regras de transição ou critérios específicos.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Aposentadorias programáveis apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1386,11 +1404,11 @@ export const direitoPrevidenciarioAvancado = [
   },
   {
     "id": "pensao-por-morte-e-auxilio-reclusao",
-    "materialTitle": "Direito Previdenciário Avançado",
+    "materialTitle": "Direito Previdenciário Avançado 10/10 Plus Revisado",
     "subject": "Direito Previdenciário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Previdenciário Avançado",
+    "moduleTitle": "Direito Previdenciário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Pensão por morte e auxílio-reclusão",
@@ -1523,13 +1541,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Pensão por morte e auxílio-reclusão, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Benefícios a dependentes exigem evento, qualidade do segurado e dependência conforme classe.",
           "Confundir pensão com herança.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Benefícios a dependentes exigem evento, qualidade do segurado e dependência conforme classe.",
+          "Conceder benefício em Pensão por morte e auxílio-reclusão apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Benefícios a dependentes exigem evento, qualidade do segurado e dependência conforme classe."
       },
       {
@@ -1562,8 +1581,9 @@ export const direitoPrevidenciarioAvancado = [
         "alternativas": [
           "Duração e requisitos variam conforme idade, tempo e situação.",
           "Confundir pensão com herança.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Pensão por morte e auxílio-reclusão apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1595,13 +1615,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Pensão por morte e auxílio-reclusão?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Benefícios a dependentes exigem evento, qualidade do segurado e dependência conforme classe.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir pensão com herança.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Pensão por morte e auxílio-reclusão apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Benefícios a dependentes exigem evento, qualidade do segurado e dependência conforme classe."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1616,11 +1637,11 @@ export const direitoPrevidenciarioAvancado = [
   },
   {
     "id": "beneficios-assistenciais",
-    "materialTitle": "Direito Previdenciário Avançado",
+    "materialTitle": "Direito Previdenciário Avançado 10/10 Plus Revisado",
     "subject": "Direito Previdenciário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Previdenciário Avançado",
+    "moduleTitle": "Direito Previdenciário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Benefícios assistenciais",
@@ -1753,13 +1774,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Benefícios assistenciais, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Benefício assistencial não exige contribuição, mas exige vulnerabilidade e critérios legais.",
           "Achar que BPC é aposentadoria.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Benefício assistencial não exige contribuição, mas exige vulnerabilidade e critérios legais.",
+          "Conceder benefício em Benefícios assistenciais apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Benefício assistencial não exige contribuição, mas exige vulnerabilidade e critérios legais."
       },
       {
@@ -1790,13 +1812,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Benefícios assistenciais quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Pessoa idosa ou com deficiência pode ter análise socioeconômica.",
           "Achar que BPC é aposentadoria.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Benefícios assistenciais apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto.",
+          "Pessoa idosa ou com deficiência pode ter análise socioeconômica."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1825,13 +1848,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Benefícios assistenciais?",
         "alternativas": [
+          "Achar que BPC é aposentadoria.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Benefício assistencial não exige contribuição, mas exige vulnerabilidade e critérios legais.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Benefícios assistenciais apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1846,11 +1870,11 @@ export const direitoPrevidenciarioAvancado = [
   },
   {
     "id": "custeio-previdenciario",
-    "materialTitle": "Direito Previdenciário Avançado",
+    "materialTitle": "Direito Previdenciário Avançado 10/10 Plus Revisado",
     "subject": "Direito Previdenciário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Previdenciário Avançado",
+    "moduleTitle": "Direito Previdenciário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Custeio previdenciário",
@@ -1983,13 +2007,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Custeio previdenciário, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Financiamento envolve contribuições de segurados, empregadores e outras fontes.",
           "Cobrar contribuição sobre verba indenizatória sem análise.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Financiamento envolve contribuições de segurados, empregadores e outras fontes.",
+          "Conceder benefício em Custeio previdenciário apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Financiamento envolve contribuições de segurados, empregadores e outras fontes."
       },
       {
@@ -2020,13 +2045,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Custeio previdenciário quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Base de cálculo e natureza da verba são recorrentes.",
           "Cobrar contribuição sobre verba indenizatória sem análise.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Base de cálculo e natureza da verba são recorrentes.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Custeio previdenciário apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2055,13 +2081,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Custeio previdenciário?",
         "alternativas": [
+          "Cobrar contribuição sobre verba indenizatória sem análise.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Financiamento envolve contribuições de segurados, empregadores e outras fontes.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Custeio previdenciário apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -2076,11 +2103,11 @@ export const direitoPrevidenciarioAvancado = [
   },
   {
     "id": "processo-administrativo-e-judicial-previdenciario",
-    "materialTitle": "Direito Previdenciário Avançado",
+    "materialTitle": "Direito Previdenciário Avançado 10/10 Plus Revisado",
     "subject": "Direito Previdenciário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Previdenciário Avançado",
+    "moduleTitle": "Direito Previdenciário Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Processo administrativo e judicial previdenciário",
@@ -2213,13 +2240,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Processo administrativo e judicial previdenciário, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Requerimento, prova, recurso e ação judicial exigem organização documental e tese clara.",
           "Judicializar sem pedido administrativo quando exigido.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Requerimento, prova, recurso e ação judicial exigem organização documental e tese clara.",
+          "Conceder benefício em Processo administrativo e judicial previdenciário apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Requerimento, prova, recurso e ação judicial exigem organização documental e tese clara."
       },
       {
@@ -2252,8 +2280,9 @@ export const direitoPrevidenciarioAvancado = [
         "alternativas": [
           "Data de início do benefício e prova material são pontos centrais.",
           "Judicializar sem pedido administrativo quando exigido.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Processo administrativo e judicial previdenciário apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2285,13 +2314,14 @@ export const direitoPrevidenciarioAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Processo administrativo e judicial previdenciário?",
         "alternativas": [
+          "Judicializar sem pedido administrativo quando exigido.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Requerimento, prova, recurso e ação judicial exigem organização documental e tese clara.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Conceder benefício em Processo administrativo e judicial previdenciário apenas por situação social difícil, sem qualidade de segurado, carência e evento coberto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
