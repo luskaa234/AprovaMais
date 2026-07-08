@@ -7,9 +7,9 @@ const scoreRows = [
 ];
 
 export const mockEditaisTAF = [
-  { id: "pmsp", nome: "PMSP Soldado PM", provas: [{ id: "corrida", nome: "Corrida 12min", tipo: "distancia", unidade: "m", minimo: 2200, tempo: 720, tabela: scoreRows }, { id: "flexao", nome: "Flexão", tipo: "repeticoes", unidade: "rep", minimo: 20, tempo: 60, tabela: [{ min: 0, max: 19, pontos: 0, eliminatorio: true }, { min: 20, max: 29, pontos: 7 }, { min: 30, max: 99, pontos: 10 }] }, { id: "abdominal", nome: "Abdominal", tipo: "repeticoes", unidade: "rep", minimo: 30, tempo: 60, tabela: [{ min: 0, max: 29, pontos: 0, eliminatorio: true }, { min: 30, max: 39, pontos: 7 }, { min: 40, max: 99, pontos: 10 }] }] },
-  { id: "pcsp", nome: "PCSP Investigador", provas: [{ id: "corrida", nome: "Corrida 2400m", tipo: "tempo_minimo", unidade: "s", minimo: 780, tempo: 900, tabela: scoreRows }, { id: "flexao", nome: "Flexão", tipo: "repeticoes", unidade: "rep", minimo: 18, tempo: 60, tabela: scoreRows }, { id: "abdominal", nome: "Abdominal", tipo: "repeticoes", unidade: "rep", minimo: 28, tempo: 60, tabela: scoreRows }] },
-  { id: "prf", nome: "PRF Policial Rodoviário Federal", provas: [{ id: "corrida", nome: "Corrida 12min", tipo: "distancia", unidade: "m", minimo: 2300, tempo: 720, tabela: scoreRows }, { id: "natacao", nome: "Natação 50m", tipo: "tempo_minimo", unidade: "s", minimo: 55, tempo: 90, tabela: scoreRows }, { id: "barra", nome: "Barra/Flexão", tipo: "repeticoes", unidade: "rep", minimo: 3, tempo: 60, tabela: scoreRows }] },
+  { id: "pmsp", nome: "PMSP Soldado PM", provas: [{ id: "corrida", nome: "Corrida 12min", tipo: "distancia", unidade: "m", minimo: 2200, tempo: 720, tabela: scoreRows }, { id: "flexao", nome: "Flexao", tipo: "repeticoes", unidade: "rep", minimo: 20, tempo: 60, tabela: [{ min: 0, max: 19, pontos: 0, eliminatorio: true }, { min: 20, max: 29, pontos: 7 }, { min: 30, max: 99, pontos: 10 }] }, { id: "abdominal", nome: "Abdominal", tipo: "repeticoes", unidade: "rep", minimo: 30, tempo: 60, tabela: [{ min: 0, max: 29, pontos: 0, eliminatorio: true }, { min: 30, max: 39, pontos: 7 }, { min: 40, max: 99, pontos: 10 }] }] },
+  { id: "pcsp", nome: "PCSP Investigador", provas: [{ id: "corrida", nome: "Corrida 2400m", tipo: "tempo_minimo", unidade: "s", minimo: 780, tempo: 900, tabela: scoreRows }, { id: "flexao", nome: "Flexao", tipo: "repeticoes", unidade: "rep", minimo: 18, tempo: 60, tabela: scoreRows }, { id: "abdominal", nome: "Abdominal", tipo: "repeticoes", unidade: "rep", minimo: 28, tempo: 60, tabela: scoreRows }] },
+  { id: "prf", nome: "PRF Policial Rodoviario Federal", provas: [{ id: "corrida", nome: "Corrida 12min", tipo: "distancia", unidade: "m", minimo: 2300, tempo: 720, tabela: scoreRows }, { id: "natacao", nome: "Natacao 50m", tipo: "tempo_minimo", unidade: "s", minimo: 55, tempo: 90, tabela: scoreRows }, { id: "barra", nome: "Barra/Flexao", tipo: "repeticoes", unidade: "rep", minimo: 3, tempo: 60, tabela: scoreRows }] },
   { id: "eb", nome: "EB Sargento", provas: [{ id: "corrida", nome: "Corrida 3000m", tipo: "tempo_minimo", unidade: "s", minimo: 900, tempo: 1080, tabela: scoreRows }, { id: "barra", nome: "Barra", tipo: "repeticoes", unidade: "rep", minimo: 4, tempo: 60, tabela: scoreRows }, { id: "abdominal", nome: "Abdominal", tipo: "repeticoes", unidade: "rep", minimo: 32, tempo: 60, tabela: scoreRows }] },
 ];
 
@@ -21,17 +21,99 @@ export const mockHistoricoTAF = [
   { id: "t5", data: "2026-06-01", concurso: "PMSP", corrida: 2650, flexao: 35, abdominal: 45, nota: 9.0, situacao: "Aprovado" },
 ];
 
-export const mockPlanoTAF = ["Adaptação", "Base", "Específico", "Pico"].map((fase, index) => ({
+export const mockPlanoTAF = ["Adaptacao", "Base", "Especifico", "Pico"].map((fase, index) => ({
   semana: index + 1,
   fase,
-  treinos: ["Seg", "Ter", "Qui", "Sáb"].map((dia, slot) => ({ dia, nome: ["Corrida intervalada", "Força superior", "Core e abdominal", "Longão leve"][slot], duracao: 45 + slot * 10, alvo: ["corrida", "musculacao", "abdominal", "corrida"][slot], done: slot < 2 })),
+  treinos: ["Seg", "Ter", "Qui", "Sab"].map((dia, slot) => ({ dia, nome: ["Corrida intervalada", "Forca superior", "Core e abdominal", "Longao leve"][slot], duracao: 45 + slot * 10, alvo: ["corrida", "musculacao", "abdominal", "corrida"][slot], done: slot < 2 })),
 }));
 
-export const mockDicasTAF = Array.from({ length: 10 }, (_, index) => ({
-  id: `tip${index + 1}`,
-  tipo: index % 3 ? "Artigo" : "Vídeo",
-  categoria: ["Corrida", "Musculação", "Flexibilidade", "Nutrição", "Psicológico", "Técnica"][index % 6],
-  titulo: `Preparação TAF ${index + 1}`,
-  resumo: "Orientação objetiva para evoluir com segurança e consistência.",
-  duracao: index % 3 ? `${4 + index} min de leitura` : "8:32",
-}));
+export const mockDicasTAF = [
+  {
+    id: "tip-corrida-12min",
+    tipo: "Guia",
+    categoria: "Corrida",
+    titulo: "Como evoluir na corrida de 12 minutos",
+    resumo: "Use treinos intervalados curtos, corrida leve e simulado semanal para ganhar ritmo sem acumular fadiga.",
+    duracao: "6 min leitura",
+    foco: "Resistencia",
+    intensidade: "Alta",
+    checklist: ["2 treinos de ritmo na semana", "1 rodagem leve", "Anotar distancia final"],
+  },
+  {
+    id: "tip-flexao-valida",
+    tipo: "Tecnica",
+    categoria: "Flexao",
+    titulo: "Flexao que conta ponto",
+    resumo: "Priorize amplitude, tronco firme e repeticoes submaximas. Treinar ate falhar todos os dias costuma atrasar a evolucao.",
+    duracao: "4 min leitura",
+    foco: "Execucao",
+    intensidade: "Media",
+    checklist: ["Corpo alinhado", "Peito desce controlado", "Series antes da falha"],
+  },
+  {
+    id: "tip-barra",
+    tipo: "Treino",
+    categoria: "Barra",
+    titulo: "Barra fixa para sair do zero",
+    resumo: "Combine isometria, negativas lentas e puxadas assistidas. O objetivo inicial e aumentar controle e forca de pegada.",
+    duracao: "5 min leitura",
+    foco: "Forca",
+    intensidade: "Alta",
+    checklist: ["3 a 5 negativas lentas", "Isometria no topo", "Descanso completo"],
+  },
+  {
+    id: "tip-abdominal",
+    tipo: "Checklist",
+    categoria: "Abdominal",
+    titulo: "Abdominal sem perder repeticao",
+    resumo: "Treine no mesmo padrao do edital e mantenha cadencia constante. Comecar rapido demais queima o core antes do tempo.",
+    duracao: "3 min leitura",
+    foco: "Cadencia",
+    intensidade: "Media",
+    checklist: ["Cronometrar 60 segundos", "Respirar a cada repeticao", "Evitar arrancadas"],
+  },
+  {
+    id: "tip-simulado",
+    tipo: "Rotina",
+    categoria: "Simulado",
+    titulo: "Simulado TAF do jeito certo",
+    resumo: "Faca um simulado por semana, na ordem mais parecida possivel com o edital, e registre resultados logo depois.",
+    duracao: "5 min leitura",
+    foco: "Controle",
+    intensidade: "Teste",
+    checklist: ["Aquecimento igual ao dia da prova", "Ordem do edital", "Registrar nota"],
+  },
+  {
+    id: "tip-recuperacao",
+    tipo: "Saude",
+    categoria: "Recuperacao",
+    titulo: "Recuperacao tambem aprova",
+    resumo: "Sono, mobilidade e dias leves protegem sua evolucao. Dor articular persistente nao deve ser ignorada.",
+    duracao: "4 min leitura",
+    foco: "Seguranca",
+    intensidade: "Leve",
+    checklist: ["Dormir bem", "Alongar depois do treino", "Reduzir carga com dor"],
+  },
+  {
+    id: "tip-semana-prova",
+    tipo: "Estrategia",
+    categoria: "Semana da prova",
+    titulo: "O que fazer na semana do TAF",
+    resumo: "A semana final e para chegar inteiro. Reduza volume, mantenha tecnica e evite inventar treino novo.",
+    duracao: "4 min leitura",
+    foco: "Polimento",
+    intensidade: "Leve",
+    checklist: ["Diminuir volume", "Manter ativacao", "Separar roupa e documentos"],
+  },
+  {
+    id: "tip-aquecimento",
+    tipo: "Video",
+    categoria: "Aquecimento",
+    titulo: "Aquecimento rapido antes do treino",
+    resumo: "Ative tornozelos, quadril, ombros e core antes das provas. O aquecimento deve preparar, nao cansar.",
+    duracao: "8:32",
+    foco: "Preparacao",
+    intensidade: "Leve",
+    checklist: ["Mobilidade articular", "Educativos leves", "2 aceleracoes curtas"],
+  },
+];
