@@ -1,6 +1,6 @@
 import { memo, useMemo, useState } from "react";
 import { AlertTriangle, BookOpenCheck, Brain, CheckCircle2, ChevronLeft, ChevronRight, Clock, Layers3, ListChecks, MessageSquareText, Send, StickyNote, Target } from "lucide-react";
-import { Badge, Button, cx } from "../../components";
+import { Button, cx } from "../../components";
 import { aiService } from "../../services";
 import { useApostilaStore } from "../../stores";
 
@@ -18,6 +18,95 @@ function renderValue(value) {
   if (Array.isArray(value)) return value.join(", ");
   if (value && typeof value === "object") return Object.values(value).join(" | ");
   return value;
+}
+
+function asArray(value) {
+  if (!value) return [];
+  return Array.isArray(value) ? value : [value];
+}
+
+function firstValue(value) {
+  return asArray(value).find(Boolean);
+}
+
+function normalizeTextList(value) {
+  return asArray(value).flatMap((item) => {
+    if (!item) return [];
+    if (typeof item === "string") return [item];
+    if (typeof item === "object") return Object.values(item).filter(Boolean).map(String);
+    return [String(item)];
+  });
+}
+
+function normalizeExplanation(value) {
+  return asArray(value).flatMap((item) => {
+    if (!item) return [];
+    if (typeof item === "string") return [{ titulo: "Explicacao", texto: item }];
+    if (typeof item === "object") {
+      const titulo = item.titulo || item.title || item.nome || "Explicacao";
+      const texto = item.texto || item.descricao || item.conteudo || item.explicacao || Object.values(item).filter((entry) => typeof entry === "string").join(" ");
+      return texto ? [{ titulo, texto }] : [];
+    }
+    return [{ titulo: "Explicacao", texto: String(item) }];
+  });
+}
+
+function normalizeQuickChecks(value) {
+  return asArray(value).flatMap((item) => {
+    if (!item) return [];
+    if (typeof item === "string") return [{ pergunta: "Check rapido", resposta: item }];
+    if (typeof item === "object") return [item];
+    return [{ pergunta: "Check rapido", resposta: String(item) }];
+  });
+}
+
+function normalizeMindMap(map) {
+  if (!map) return null;
+
+  if (Array.isArray(map)) {
+    return {
+      centro: "Mapa mental",
+      ramos: map.map((item) => ({ titulo: String(item), itens: [] })),
+    };
+  }
+
+  if (typeof map !== "object") {
+    return {
+      centro: "Mapa mental",
+      ramos: [{ titulo: String(map), itens: [] }],
+    };
+  }
+
+  const rawBranches = asArray(map.ramos || map.itens || map.fluxo);
+  const ramos = rawBranches.map((branch) => {
+    if (typeof branch === "string") return { titulo: branch, itens: [] };
+    return {
+      titulo: branch?.titulo || branch?.nome || branch?.label || "Topico",
+      itens: normalizeTextList(branch?.itens || branch?.children || branch?.detalhes),
+    };
+  });
+
+  return {
+    centro: map.centro || map.titulo || "Mapa mental",
+    ramos,
+  };
+}
+
+function normalizeQuestionComments(comments = []) {
+  return asArray(comments).map((item, index) => {
+    if (typeof item === "string") {
+      return {
+        alternativa: answerLetters[index] || String(index + 1),
+        comentario: item,
+        correta: /^correta/i.test(item),
+      };
+    }
+    return {
+      ...item,
+      alternativa: item?.alternativa || answerLetters[index] || String(index + 1),
+      comentario: item?.comentario || item?.texto || "",
+    };
+  });
 }
 
 function normalizeAnswer(value) {
@@ -53,10 +142,10 @@ ${message}`;
 
 function buildLocalTutorResponse(chapter, message) {
   const normalized = normalizeAnswer(message);
-  const keywords = chapter.termosChave || [];
+  const keywords = normalizeTextList(chapter.termosChave);
   const hits = keywords.filter((keyword) => normalized.includes(normalizeAnswer(keyword)));
-  const mainRule = chapter.resumoFrase || chapter.pontosChave?.[0] || chapter.explicacaoComoSeTivesse12 || "Use a estrutura do capitulo para resolver a questao.";
-  const trap = chapter.pegadinhas?.[0] || chapter.armadilhaDaBanca || "Nao troque a regra central por uma impressao do enunciado.";
+  const mainRule = chapter.resumoFrase || firstValue(chapter.pontosChave) || chapter.explicacaoComoSeTivesse12 || "Use a estrutura do capitulo para resolver a questao.";
+  const trap = firstValue(chapter.pegadinhas) || chapter.armadilhaDaBanca || "Nao troque a regra central por uma impressao do enunciado.";
   const subject = chapter.assunto || chapter.title || "o tema";
 
   if (/questao|questão|parecida|inedita|inédita/.test(normalized)) {
@@ -109,7 +198,7 @@ function buildLocalTutorResponse(chapter, message) {
 }
 
 function initialTutorMessages(chapter) {
-  const firstQuestion = chapter.tutorIA?.perguntasDiagnostico?.[0] || "Explique a regra central deste capitulo com suas palavras.";
+  const firstQuestion = firstValue(chapter.tutorIA?.perguntasDiagnostico) || "Explique a regra central deste capitulo com suas palavras.";
   return [
     {
       role: "ai",
@@ -138,6 +227,11 @@ function InfoBlock({ title, children, tone = "blue" }) {
 }
 
 function KeyValueGrid({ data }) {
+  if (!data) return null;
+  if (typeof data !== "object") {
+    return <p>{String(data)}</p>;
+  }
+
   const entries = Object.entries(data || {}).filter(([, value]) => value);
   if (!entries.length) return null;
 
@@ -158,10 +252,11 @@ function QuestionCard({ question, index, chapter, onAnswered }) {
   const [writtenAnswer, setWrittenAnswer] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const correctIndex = Number.isInteger(question.correta) ? question.correta : null;
+  const alternatives = asArray(question.alternativas);
   const isJudgment = question.tipo === "certo_errado" || typeof question.correta === "boolean";
-  const isOpenAnswer = !question.alternativas?.length && !isJudgment;
+  const isOpenAnswer = !alternatives.length && !isJudgment;
   const answer = question.gabaritoLetra || question.gabarito || (correctIndex !== null ? answerLetters[correctIndex] : question.respostaEsperada);
-  const comments = Array.isArray(question.alternativasComentadas) ? question.alternativasComentadas : [];
+  const comments = normalizeQuestionComments(question.alternativasComentadas);
   const criteria = Array.isArray(question.criteriosCorrecao) ? question.criteriosCorrecao : [];
   const hasResponse = isOpenAnswer ? writtenAnswer.trim().length > 0 : selectedAnswer !== null;
   const selectedComment = comments.find((item) => normalizeAnswer(item.alternativa) === normalizeAnswer(selectedAnswer));
@@ -201,9 +296,9 @@ function QuestionCard({ question, index, chapter, onAnswered }) {
 
       <p className="apostila-question-enunciado">{question.enunciado}</p>
 
-      {question.alternativas?.length ? (
+      {alternatives.length ? (
         <div className="apostila-question-options">
-          {question.alternativas.map((option, optionIndex) => (
+          {alternatives.map((option, optionIndex) => (
             <button
               className={cx(
                 selectedAnswer === answerLetters[optionIndex] && "is-selected",
@@ -322,15 +417,16 @@ function QuestionCard({ question, index, chapter, onAnswered }) {
 }
 
 function FlashcardsBlock({ flashcards = [] }) {
-  if (!flashcards.length) return null;
+  const cards = asArray(flashcards);
+  if (!cards.length) return null;
 
   return (
     <InfoBlock title="Flashcards" tone="green">
       <div className="apostila-flashcards">
-        {flashcards.map((card, index) => (
-          <article key={`${card.frente}-${index}`}>
-            <strong>{card.frente}</strong>
-            <p>{card.verso}</p>
+        {cards.map((card, index) => (
+          <article key={`${card.frente || index}-${index}`}>
+            <strong>{card.frente || card.pergunta || `Flashcard ${index + 1}`}</strong>
+            <p>{card.verso || card.resposta || String(card)}</p>
             {card.nivel ? <span>{card.nivel}</span> : null}
           </article>
         ))}
@@ -340,13 +436,14 @@ function FlashcardsBlock({ flashcards = [] }) {
 }
 
 function MindMapBlock({ map }) {
-  if (!map?.ramos?.length) return null;
+  const normalizedMap = normalizeMindMap(map);
+  if (!normalizedMap?.ramos?.length) return null;
 
   return (
     <InfoBlock title="Mapa mental" tone="blue">
       <div className="apostila-map">
-        <strong>{map.centro}</strong>
-        {map.ramos.map((branch, index) => (
+        <strong>{normalizedMap.centro}</strong>
+        {normalizedMap.ramos.map((branch, index) => (
           <section key={`${branch.titulo}-${index}`}>
             <h4>{branch.titulo}</h4>
             <ul>
@@ -406,7 +503,7 @@ function ReviewPlanBlock({ chapter, review }) {
 
 function TutorBlock({ chapter }) {
   const quickPrompts = [
-    ...(chapter.tutorIA?.perguntasDiagnostico || []),
+    ...normalizeTextList(chapter.tutorIA?.perguntasDiagnostico),
     "Me explica facil",
     "Gere uma questao parecida",
   ].filter(Boolean);
@@ -456,8 +553,8 @@ function TutorBlock({ chapter }) {
   return (
     <InfoBlock title="Tutor IA" tone="blue">
       <div className="apostila-tutor-grid">
-        <span><Brain size={16} /> {chapter.tutorIA.objetivo}</span>
-        <span><MessageSquareText size={16} /> {chapter.tutorIA.comportamento}</span>
+        <span><Brain size={16} /> {chapter.tutorIA.objetivo || chapter.tutorIA.prompt || "Treinar este capitulo com base no conteudo."}</span>
+        <span><MessageSquareText size={16} /> {chapter.tutorIA.comportamento || "Explicacao direta, diagnostico do erro e tarefa curta de revisao."}</span>
         {chapter.tutorIA.limites ? <span><Layers3 size={16} /> {chapter.tutorIA.limites}</span> : null}
       </div>
 
@@ -506,11 +603,20 @@ function TutorBlock({ chapter }) {
   );
 }
 
-function ApostilaChapterReaderBase({ chapters = [] }) {
+function ApostilaChapterReaderBase({ chapters = [], material = null }) {
   const registrarTentativa = useApostilaStore((state) => state.registrarTentativa);
   const apostilaReviews = useApostilaStore((state) => state.revisoes);
   const [activeIndex, setActiveIndex] = useState(0);
   const chapter = chapters[activeIndex] || chapters[0] || {};
+  const materialTitle = material?.titulo || chapter.materialTitle || "Apostila";
+  const materialSubject = material?.materia || chapter.subject || "Geral";
+  const topLine = [materialSubject, chapter.contest].filter(Boolean).join(" - ");
+  const bodyParagraphs = normalizeTextList(chapter.corpo);
+  const keyPoints = normalizeTextList(chapter.pontosChave);
+  const explanations = normalizeExplanation(chapter.explicacao);
+  const quickChecks = normalizeQuickChecks(chapter.checkRapido);
+  const traps = normalizeTextList(chapter.pegadinhas);
+  const questions = asArray(chapter.questoes);
   const progress = chapters.length ? Math.round(((activeIndex + 1) / chapters.length) * 100) : 0;
   const ratings = useMemo(() => Object.entries(chapter.bancaRatings || {}), [chapter.bancaRatings]);
   const chapterReview = useMemo(
@@ -532,7 +638,7 @@ function ApostilaChapterReaderBase({ chapters = [] }) {
     <div className="apostila-reader">
       <aside className="apostila-reader-sidebar">
         <div className="apostila-reader-sidebar-head">
-          <strong>{chapter.materialTitle || "Apostila"}</strong>
+          <strong>{materialTitle}</strong>
           <span>{chapters.length} capitulos</span>
         </div>
         <div className="apostila-progress" aria-label={`Progresso ${progress}%`}>
@@ -557,10 +663,10 @@ function ApostilaChapterReaderBase({ chapters = [] }) {
       <main className="apostila-reader-content">
         <div className="apostila-reader-top">
           <div>
-            <p>{chapter.subject} - {chapter.contest}</p>
+            <p>{topLine}</p>
             <h2>{chapter.title}</h2>
           </div>
-          <Badge variant="info">{chapter.dificuldade || "Nivel"}</Badge>
+          <span className="apostila-difficulty-badge">{chapter.dificuldade || "Nivel"}</span>
         </div>
 
         <div className="apostila-meta-grid">
@@ -589,20 +695,20 @@ function ApostilaChapterReaderBase({ chapters = [] }) {
         ) : null}
 
         <article className="apostila-body">
-          {(chapter.corpo || []).map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+          {bodyParagraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
         </article>
 
-        {chapter.pontosChave?.length ? (
+        {keyPoints.length ? (
           <InfoBlock title="Pontos-chave" tone="green">
             <ul>
-              {chapter.pontosChave.map((item, index) => <li key={index}>{item}</li>)}
+              {keyPoints.map((item, index) => <li key={index}>{item}</li>)}
             </ul>
           </InfoBlock>
         ) : null}
 
-        {chapter.explicacao?.length ? (
+        {explanations.length ? (
           <div className="apostila-explain-grid">
-            {chapter.explicacao.map((item, index) => (
+            {explanations.map((item, index) => (
               <InfoBlock key={`${item.titulo}-${index}`} title={item.titulo || "Explicacao"} tone="neutral">
                 <p>{item.texto}</p>
               </InfoBlock>
@@ -610,35 +716,42 @@ function ApostilaChapterReaderBase({ chapters = [] }) {
           </div>
         ) : null}
 
-        {chapter.checkRapido ? (
+        {quickChecks.length ? (
           <InfoBlock title="Check rapido" tone="violet">
-            <p className="apostila-check-question">{chapter.checkRapido.pergunta}</p>
-            <div className="apostila-check-options">
-              {(chapter.checkRapido.opcoes || []).map((option, index) => (
-                <span className={index === chapter.checkRapido.correta ? "is-correct" : ""} key={`${option}-${index}`}>
-                  {index === chapter.checkRapido.correta ? <CheckCircle2 size={14} /> : null}
-                  {option}
-                </span>
-              ))}
-            </div>
-            {chapter.checkRapido.justificativa ? <p>{chapter.checkRapido.justificativa}</p> : null}
+            {quickChecks.map((check, checkIndex) => (
+              <div className="apostila-check-item" key={`${check.pergunta || checkIndex}-${checkIndex}`}>
+                <p className="apostila-check-question">{check.pergunta || `Pergunta ${checkIndex + 1}`}</p>
+                {asArray(check.opcoes).length ? (
+                  <div className="apostila-check-options">
+                    {asArray(check.opcoes).map((option, index) => (
+                      <span className={index === check.correta ? "is-correct" : ""} key={`${option}-${index}`}>
+                        {index === check.correta ? <CheckCircle2 size={14} /> : null}
+                        {option}
+                      </span>
+                    ))}
+                  </div>
+                ) : null}
+                {check.resposta ? <p>{check.resposta}</p> : null}
+                {check.justificativa ? <p>{check.justificativa}</p> : null}
+              </div>
+            ))}
           </InfoBlock>
         ) : null}
 
-        {chapter.pegadinhas?.length ? (
+        {traps.length ? (
           <InfoBlock title="Pegadinhas" tone="amber">
             <ul>
-              {chapter.pegadinhas.map((item, index) => <li key={index}>{item}</li>)}
+              {traps.map((item, index) => <li key={index}>{item}</li>)}
             </ul>
           </InfoBlock>
         ) : null}
 
         <FlashcardsBlock flashcards={chapter.flashcards} />
 
-        {chapter.questoes?.length ? (
-          <InfoBlock title={`Questoes premium (${chapter.questoes.length})`} tone="violet">
+        {questions.length ? (
+          <InfoBlock title={`Questoes premium (${questions.length})`} tone="violet">
             <div className="apostila-questions">
-              {chapter.questoes.map((question, index) => (
+              {questions.map((question, index) => (
                 <QuestionCard
                   chapter={chapter}
                   key={question.id || index}
@@ -668,7 +781,7 @@ function ApostilaChapterReaderBase({ chapters = [] }) {
           <ReviewPlanBlock chapter={chapter} review={chapterReview} />
         ) : null}
 
-        <MindMapBlock map={chapter.mapaMentalTexto} />
+        <MindMapBlock map={chapter.mapaMentalTexto || chapter.mapaMentalTextual} />
 
         {chapter.rubricaDominio ? (
           <InfoBlock title="Dominio do capitulo" tone="neutral">
@@ -679,9 +792,9 @@ function ApostilaChapterReaderBase({ chapters = [] }) {
         {chapter.tutorIA ? <TutorBlock key={chapter.id || chapter.title} chapter={chapter} /> : null}
 
         <div className="apostila-reader-actions">
-          <Button variant="secondary" icon={ChevronLeft} disabled={activeIndex === 0} onClick={() => setActiveIndex((index) => Math.max(0, index - 1))}>Anterior</Button>
+          <Button variant="secondary" icon={ChevronLeft} className="apostila-reader-nav-button" disabled={activeIndex === 0} onClick={() => setActiveIndex((index) => Math.max(0, index - 1))}>Anterior</Button>
           <span>Capitulo {activeIndex + 1} de {chapters.length}</span>
-          <Button icon={ChevronRight} disabled={activeIndex >= chapters.length - 1} onClick={() => setActiveIndex((index) => Math.min(chapters.length - 1, index + 1))}>Proximo</Button>
+          <Button icon={ChevronRight} className="apostila-reader-nav-button" disabled={activeIndex >= chapters.length - 1} onClick={() => setActiveIndex((index) => Math.min(chapters.length - 1, index + 1))}>Proximo</Button>
         </div>
       </main>
     </div>

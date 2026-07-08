@@ -6,11 +6,11 @@
 export const direitoAmbientalAvancado = [
   {
     "id": "meio-ambiente-e-principios-ambientais",
-    "materialTitle": "Direito Ambiental Avançado",
+    "materialTitle": "Direito Ambiental Avançado 10/10 Plus Revisado",
     "subject": "Direito Ambiental Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Ambiental Avançado",
+    "moduleTitle": "Direito Ambiental Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Meio ambiente e princípios ambientais",
@@ -143,13 +143,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Meio ambiente e princípios ambientais, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Meio ambiente equilibrado é bem coletivo ligado às presentes e futuras gerações.",
           "Confundir prevenção com reparação posterior.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Meio ambiente e princípios ambientais sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação.",
+          "Meio ambiente equilibrado é bem coletivo ligado às presentes e futuras gerações."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Meio ambiente equilibrado é bem coletivo ligado às presentes e futuras gerações."
       },
       {
@@ -180,13 +181,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Meio ambiente e princípios ambientais quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Prevenção e precaução orientam atuação antes do dano.",
           "Confundir prevenção com reparação posterior.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Prevenção e precaução orientam atuação antes do dano.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Meio ambiente e princípios ambientais sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -215,13 +217,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Meio ambiente e princípios ambientais?",
         "alternativas": [
+          "Confundir prevenção com reparação posterior.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Meio ambiente equilibrado é bem coletivo ligado às presentes e futuras gerações.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Meio ambiente e princípios ambientais sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -236,11 +239,11 @@ export const direitoAmbientalAvancado = [
   },
   {
     "id": "competencias-ambientais",
-    "materialTitle": "Direito Ambiental Avançado",
+    "materialTitle": "Direito Ambiental Avançado 10/10 Plus Revisado",
     "subject": "Direito Ambiental Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Ambiental Avançado",
+    "moduleTitle": "Direito Ambiental Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Competências ambientais",
@@ -373,13 +376,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Competências ambientais, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Proteção ambiental envolve competências comuns, concorrentes e atuação administrativa integrada.",
           "Achar que só União protege meio ambiente.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Competências ambientais sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação.",
+          "Proteção ambiental envolve competências comuns, concorrentes e atuação administrativa integrada."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Proteção ambiental envolve competências comuns, concorrentes e atuação administrativa integrada."
       },
       {
@@ -410,13 +414,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Competências ambientais quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Município pode atuar em interesse local, mas deve respeitar normas gerais.",
           "Achar que só União protege meio ambiente.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Competências ambientais sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação.",
+          "Município pode atuar em interesse local, mas deve respeitar normas gerais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -445,13 +450,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Competências ambientais?",
         "alternativas": [
+          "Achar que só União protege meio ambiente.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Proteção ambiental envolve competências comuns, concorrentes e atuação administrativa integrada.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Autorizar atividade em Competências ambientais sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -466,11 +472,11 @@ export const direitoAmbientalAvancado = [
   },
   {
     "id": "licenciamento-ambiental",
-    "materialTitle": "Direito Ambiental Avançado",
+    "materialTitle": "Direito Ambiental Avançado 10/10 Plus Revisado",
     "subject": "Direito Ambiental Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Ambiental Avançado",
+    "moduleTitle": "Direito Ambiental Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Licenciamento ambiental",
@@ -603,13 +609,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Licenciamento ambiental, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Licenciamento controla atividades potencialmente poluidoras por estudos, condicionantes e fiscalização.",
           "Tratar licença como direito adquirido absoluto.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Licenciamento controla atividades potencialmente poluidoras por estudos, condicionantes e fiscalização.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Licenciamento ambiental sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Licenciamento controla atividades potencialmente poluidoras por estudos, condicionantes e fiscalização."
       },
       {
@@ -640,13 +647,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Licenciamento ambiental quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Licença não é autorização para degradar sem limite.",
           "Tratar licença como direito adquirido absoluto.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Licença não é autorização para degradar sem limite.",
+          "Autorizar atividade em Licenciamento ambiental sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -675,13 +683,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Licenciamento ambiental?",
         "alternativas": [
+          "Tratar licença como direito adquirido absoluto.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Licenciamento controla atividades potencialmente poluidoras por estudos, condicionantes e fiscalização.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Licenciamento ambiental sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -696,11 +705,11 @@ export const direitoAmbientalAvancado = [
   },
   {
     "id": "responsabilidade-ambiental",
-    "materialTitle": "Direito Ambiental Avançado",
+    "materialTitle": "Direito Ambiental Avançado 10/10 Plus Revisado",
     "subject": "Direito Ambiental Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Ambiental Avançado",
+    "moduleTitle": "Direito Ambiental Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Responsabilidade ambiental",
@@ -833,13 +842,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Responsabilidade ambiental, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Responsabilidade civil ambiental tende à objetividade e busca reparação integral do dano.",
           "Achar que multa substitui reparação.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Responsabilidade civil ambiental tende à objetividade e busca reparação integral do dano.",
+          "Autorizar atividade em Responsabilidade ambiental sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Responsabilidade civil ambiental tende à objetividade e busca reparação integral do dano."
       },
       {
@@ -870,13 +880,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Responsabilidade ambiental quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Esferas civil, administrativa e penal podem coexistir.",
           "Achar que multa substitui reparação.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Esferas civil, administrativa e penal podem coexistir.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Responsabilidade ambiental sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -906,9 +917,10 @@ export const direitoAmbientalAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Responsabilidade ambiental?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Responsabilidade civil ambiental tende à objetividade e busca reparação integral do dano.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Achar que multa substitui reparação.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Responsabilidade ambiental sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -926,11 +938,11 @@ export const direitoAmbientalAvancado = [
   },
   {
     "id": "dano-ambiental-e-reparacao",
-    "materialTitle": "Direito Ambiental Avançado",
+    "materialTitle": "Direito Ambiental Avançado 10/10 Plus Revisado",
     "subject": "Direito Ambiental Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Ambiental Avançado",
+    "moduleTitle": "Direito Ambiental Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Dano ambiental e reparação",
@@ -1063,13 +1075,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Dano ambiental e reparação, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Dano ambiental pode ser difuso, coletivo e de difícil mensuração.",
           "Monetizar dano e ignorar restauração.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Dano ambiental pode ser difuso, coletivo e de difícil mensuração.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Dano ambiental e reparação sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Dano ambiental pode ser difuso, coletivo e de difícil mensuração."
       },
       {
@@ -1100,13 +1113,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Dano ambiental e reparação quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Prioridade é recomposição; indenização é subsidiária ou complementar.",
           "Monetizar dano e ignorar restauração.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Prioridade é recomposição; indenização é subsidiária ou complementar.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Dano ambiental e reparação sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1135,13 +1149,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Dano ambiental e reparação?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Dano ambiental pode ser difuso, coletivo e de difícil mensuração.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Monetizar dano e ignorar restauração.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Dano ambiental e reparação sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Dano ambiental pode ser difuso, coletivo e de difícil mensuração."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1156,11 +1171,11 @@ export const direitoAmbientalAvancado = [
   },
   {
     "id": "unidades-de-conservacao",
-    "materialTitle": "Direito Ambiental Avançado",
+    "materialTitle": "Direito Ambiental Avançado 10/10 Plus Revisado",
     "subject": "Direito Ambiental Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Ambiental Avançado",
+    "moduleTitle": "Direito Ambiental Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Unidades de conservação",
@@ -1293,13 +1308,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Unidades de conservação, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Unidades de conservação têm categorias, objetivos e restrições próprias.",
           "Confundir parque com APA.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Unidades de conservação sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação.",
+          "Unidades de conservação têm categorias, objetivos e restrições próprias."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Unidades de conservação têm categorias, objetivos e restrições próprias."
       },
       {
@@ -1330,13 +1346,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Unidades de conservação quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Proteção integral e uso sustentável não são a mesma coisa.",
           "Confundir parque com APA.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Proteção integral e uso sustentável não são a mesma coisa.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Unidades de conservação sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1366,9 +1383,10 @@ export const direitoAmbientalAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Unidades de conservação?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Unidades de conservação têm categorias, objetivos e restrições próprias.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir parque com APA.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Unidades de conservação sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1386,11 +1404,11 @@ export const direitoAmbientalAvancado = [
   },
   {
     "id": "recursos-hidricos-e-saneamento",
-    "materialTitle": "Direito Ambiental Avançado",
+    "materialTitle": "Direito Ambiental Avançado 10/10 Plus Revisado",
     "subject": "Direito Ambiental Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Ambiental Avançado",
+    "moduleTitle": "Direito Ambiental Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Recursos hídricos e saneamento",
@@ -1523,13 +1541,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Recursos hídricos e saneamento, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Água é bem público e recurso limitado; gestão considera bacia, uso múltiplo e prioridade.",
           "Tratar água como bem privado absoluto.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Água é bem público e recurso limitado; gestão considera bacia, uso múltiplo e prioridade.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Recursos hídricos e saneamento sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Água é bem público e recurso limitado; gestão considera bacia, uso múltiplo e prioridade."
       },
       {
@@ -1560,13 +1579,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Recursos hídricos e saneamento quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Saneamento conecta saúde, ambiente e dignidade.",
           "Tratar água como bem privado absoluto.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Saneamento conecta saúde, ambiente e dignidade.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Recursos hídricos e saneamento sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1595,13 +1615,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Recursos hídricos e saneamento?",
         "alternativas": [
+          "Tratar água como bem privado absoluto.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Água é bem público e recurso limitado; gestão considera bacia, uso múltiplo e prioridade.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Autorizar atividade em Recursos hídricos e saneamento sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1616,11 +1637,11 @@ export const direitoAmbientalAvancado = [
   },
   {
     "id": "florestas-e-areas-protegidas",
-    "materialTitle": "Direito Ambiental Avançado",
+    "materialTitle": "Direito Ambiental Avançado 10/10 Plus Revisado",
     "subject": "Direito Ambiental Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Ambiental Avançado",
+    "moduleTitle": "Direito Ambiental Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Florestas e áreas protegidas",
@@ -1755,8 +1776,9 @@ export const direitoAmbientalAvancado = [
         "alternativas": [
           "APP e reserva legal têm finalidades distintas de proteção ecológica.",
           "Achar que propriedade rural afasta limitações ambientais.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Florestas e áreas protegidas sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1790,13 +1812,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Florestas e áreas protegidas quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Supressão depende de hipóteses e requisitos específicos.",
           "Achar que propriedade rural afasta limitações ambientais.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Supressão depende de hipóteses e requisitos específicos.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Florestas e áreas protegidas sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1826,9 +1849,10 @@ export const direitoAmbientalAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Florestas e áreas protegidas?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: APP e reserva legal têm finalidades distintas de proteção ecológica.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Achar que propriedade rural afasta limitações ambientais.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Florestas e áreas protegidas sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1846,11 +1870,11 @@ export const direitoAmbientalAvancado = [
   },
   {
     "id": "crimes-ambientais",
-    "materialTitle": "Direito Ambiental Avançado",
+    "materialTitle": "Direito Ambiental Avançado 10/10 Plus Revisado",
     "subject": "Direito Ambiental Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Ambiental Avançado",
+    "moduleTitle": "Direito Ambiental Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Crimes ambientais",
@@ -1983,13 +2007,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Crimes ambientais, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Crimes ambientais protegem bens ecológicos e podem alcançar pessoas físicas e jurídicas.",
           "Confundir infração administrativa com crime automaticamente.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Crimes ambientais protegem bens ecológicos e podem alcançar pessoas físicas e jurídicas.",
+          "Autorizar atividade em Crimes ambientais sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Crimes ambientais protegem bens ecológicos e podem alcançar pessoas físicas e jurídicas."
       },
       {
@@ -2022,8 +2047,9 @@ export const direitoAmbientalAvancado = [
         "alternativas": [
           "Tipicidade exige conduta prevista e elemento subjetivo conforme tipo.",
           "Confundir infração administrativa com crime automaticamente.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Crimes ambientais sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2055,13 +2081,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Crimes ambientais?",
         "alternativas": [
+          "Confundir infração administrativa com crime automaticamente.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Crimes ambientais protegem bens ecológicos e podem alcançar pessoas físicas e jurídicas.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Crimes ambientais sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -2076,11 +2103,11 @@ export const direitoAmbientalAvancado = [
   },
   {
     "id": "governanca-climatica-e-sustentabilidade",
-    "materialTitle": "Direito Ambiental Avançado",
+    "materialTitle": "Direito Ambiental Avançado 10/10 Plus Revisado",
     "subject": "Direito Ambiental Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Ambiental Avançado",
+    "moduleTitle": "Direito Ambiental Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Governança climática e sustentabilidade",
@@ -2213,13 +2240,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Governança climática e sustentabilidade, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Mudança climática exige mitigação, adaptação, gestão de risco e justiça ambiental.",
           "Tratar sustentabilidade como slogan sem efeito jurídico.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Governança climática e sustentabilidade sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação.",
+          "Mudança climática exige mitigação, adaptação, gestão de risco e justiça ambiental."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Mudança climática exige mitigação, adaptação, gestão de risco e justiça ambiental."
       },
       {
@@ -2252,8 +2280,9 @@ export const direitoAmbientalAvancado = [
         "alternativas": [
           "Políticas públicas ambientais devem considerar vulnerabilidades.",
           "Tratar sustentabilidade como slogan sem efeito jurídico.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Autorizar atividade em Governança climática e sustentabilidade sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2285,13 +2314,14 @@ export const direitoAmbientalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Governança climática e sustentabilidade?",
         "alternativas": [
+          "Tratar sustentabilidade como slogan sem efeito jurídico.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Mudança climática exige mitigação, adaptação, gestão de risco e justiça ambiental.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Autorizar atividade em Governança climática e sustentabilidade sem avaliar dano, licença, competência ambiental e medida de prevenção ou reparação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {

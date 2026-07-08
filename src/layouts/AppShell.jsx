@@ -347,7 +347,7 @@ const BottomNav = memo(({ onMore }) => {
   const { route, navigate } = useInternalRouter();
   const items = useMemo(() => [
     { key: "dashboard", label: "Início", icon: Home, tourId: "tour-dashboard", action: () => navigate("dashboard") },
-    { key: "biblioteca", label: "Edital", icon: BookOpen, action: () => navigate("biblioteca") },
+    { key: "biblioteca", label: "Biblioteca", icon: BookOpen, action: () => navigate("biblioteca") },
     { key: "questoes", label: "Questões", icon: PlusCircle, tourId: "tour-questoes", action: () => navigate("questoes") },
     { key: "plano", label: "Plano", icon: CalendarDays, tourId: "tour-estudos", action: () => navigate("plano") },
     { key: "more", label: "Ver mais", icon: MoreHorizontal, action: onMore },

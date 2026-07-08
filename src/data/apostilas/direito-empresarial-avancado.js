@@ -6,11 +6,11 @@
 export const direitoEmpresarialAvancado = [
   {
     "id": "empresa-empresario-e-estabelecimento",
-    "materialTitle": "Direito Empresarial Avançado",
+    "materialTitle": "Direito Empresarial Avançado 10/10 Plus Revisado",
     "subject": "Direito Empresarial Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Empresarial Avançado",
+    "moduleTitle": "Direito Empresarial Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Empresa, empresário e estabelecimento",
@@ -143,13 +143,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Empresa, empresário e estabelecimento, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Empresa é atividade econômica organizada; empresário exerce profissionalmente atividade de produção ou circulação.",
           "Confundir empresa com prédio ou pessoa jurídica.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Empresa é atividade econômica organizada; empresário exerce profissionalmente atividade de produção ou circulação.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Empresa, empresário e estabelecimento, trocando sujeito, patrimônio e atividade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Empresa é atividade econômica organizada; empresário exerce profissionalmente atividade de produção ou circulação."
       },
       {
@@ -180,13 +181,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Empresa, empresário e estabelecimento quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Estabelecimento é complexo de bens organizado para a empresa.",
           "Confundir empresa com prédio ou pessoa jurídica.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Empresa, empresário e estabelecimento, trocando sujeito, patrimônio e atividade.",
+          "Estabelecimento é complexo de bens organizado para a empresa."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -215,13 +217,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Empresa, empresário e estabelecimento?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Empresa é atividade econômica organizada; empresário exerce profissionalmente atividade de produção ou circ...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir empresa com prédio ou pessoa jurídica.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Empresa, empresário e estabelecimento, trocando sujeito, patrimônio e atividade.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Empresa é atividade econômica organizada; empresário exerce profissionalmente atividade de produção ou circulação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -236,11 +239,11 @@ export const direitoEmpresarialAvancado = [
   },
   {
     "id": "registro-nome-empresarial-e-escrituracao",
-    "materialTitle": "Direito Empresarial Avançado",
+    "materialTitle": "Direito Empresarial Avançado 10/10 Plus Revisado",
     "subject": "Direito Empresarial Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Empresarial Avançado",
+    "moduleTitle": "Direito Empresarial Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Registro, nome empresarial e escrituração",
@@ -373,13 +376,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Registro, nome empresarial e escrituração, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Registro dá regularidade; nome empresarial identifica o empresário; escrituração registra fatos contábeis relevantes.",
           "Achar que sem registro não existe atividade empresarial.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Registro dá regularidade; nome empresarial identifica o empresário; escrituração registra fatos contábeis relevantes.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Registro, nome empresarial e escrituração, trocando sujeito, patrimônio e atividade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Registro dá regularidade; nome empresarial identifica o empresário; escrituração registra fatos contábeis relevantes."
       },
       {
@@ -412,8 +416,9 @@ export const direitoEmpresarialAvancado = [
         "alternativas": [
           "Empresário irregular não deixa de ser empresário, mas sofre restrições.",
           "Achar que sem registro não existe atividade empresarial.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Registro, nome empresarial e escrituração, trocando sujeito, patrimônio e atividade."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -445,13 +450,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Registro, nome empresarial e escrituração?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Registro dá regularidade; nome empresarial identifica o empresário; escrituração registra fatos contábeis r...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Achar que sem registro não existe atividade empresarial.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Registro dá regularidade; nome empresarial identifica o empresário; escrituração registra fatos contábeis relevantes.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Registro, nome empresarial e escrituração, trocando sujeito, patrimônio e atividade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -466,11 +472,11 @@ export const direitoEmpresarialAvancado = [
   },
   {
     "id": "sociedades-empresarias-e-simples",
-    "materialTitle": "Direito Empresarial Avançado",
+    "materialTitle": "Direito Empresarial Avançado 10/10 Plus Revisado",
     "subject": "Direito Empresarial Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Empresarial Avançado",
+    "moduleTitle": "Direito Empresarial Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Sociedades empresárias e simples",
@@ -603,13 +609,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Sociedades empresárias e simples, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Sociedade empresária explora empresa; sociedade simples tem outra lógica de atuação.",
           "Confundir sociedade simples com pequena empresa.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Sociedade empresária explora empresa; sociedade simples tem outra lógica de atuação.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Sociedades empresárias e simples, trocando sujeito, patrimônio e atividade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Sociedade empresária explora empresa; sociedade simples tem outra lógica de atuação."
       },
       {
@@ -640,13 +647,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Sociedades empresárias e simples quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Tipo societário e objeto social orientam responsabilidade e registro.",
           "Confundir sociedade simples com pequena empresa.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Sociedades empresárias e simples, trocando sujeito, patrimônio e atividade.",
+          "Tipo societário e objeto social orientam responsabilidade e registro."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -675,13 +683,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Sociedades empresárias e simples?",
         "alternativas": [
+          "Confundir sociedade simples com pequena empresa.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Sociedade empresária explora empresa; sociedade simples tem outra lógica de atuação.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Sociedades empresárias e simples, trocando sujeito, patrimônio e atividade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -696,11 +705,11 @@ export const direitoEmpresarialAvancado = [
   },
   {
     "id": "responsabilidade-de-socios-e-administradores",
-    "materialTitle": "Direito Empresarial Avançado",
+    "materialTitle": "Direito Empresarial Avançado 10/10 Plus Revisado",
     "subject": "Direito Empresarial Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Empresarial Avançado",
+    "moduleTitle": "Direito Empresarial Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Responsabilidade de sócios e administradores",
@@ -833,13 +842,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Responsabilidade de sócios e administradores, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Limitação de responsabilidade não protege abuso, fraude ou confusão patrimonial.",
           "Achar que sócio nunca responde.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Limitação de responsabilidade não protege abuso, fraude ou confusão patrimonial.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Responsabilidade de sócios e administradores, trocando sujeito, patrimônio e atividade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Limitação de responsabilidade não protege abuso, fraude ou confusão patrimonial."
       },
       {
@@ -872,8 +882,9 @@ export const direitoEmpresarialAvancado = [
         "alternativas": [
           "Administrador responde por excesso de poderes ou violação legal/contratual.",
           "Achar que sócio nunca responde.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Responsabilidade de sócios e administradores, trocando sujeito, patrimônio e atividade."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -905,13 +916,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Responsabilidade de sócios e administradores?",
         "alternativas": [
+          "Achar que sócio nunca responde.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Limitação de responsabilidade não protege abuso, fraude ou confusão patrimonial.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Responsabilidade de sócios e administradores, trocando sujeito, patrimônio e atividade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -926,11 +938,11 @@ export const direitoEmpresarialAvancado = [
   },
   {
     "id": "titulos-de-credito",
-    "materialTitle": "Direito Empresarial Avançado",
+    "materialTitle": "Direito Empresarial Avançado 10/10 Plus Revisado",
     "subject": "Direito Empresarial Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Empresarial Avançado",
+    "moduleTitle": "Direito Empresarial Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Títulos de crédito",
@@ -1063,13 +1075,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Títulos de crédito, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Títulos de crédito incorporam obrigação cartular com literalidade, autonomia e circulação.",
           "Confundir aval com fiança.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Títulos de crédito incorporam obrigação cartular com literalidade, autonomia e circulação.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Títulos de crédito, trocando sujeito, patrimônio e atividade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Títulos de crédito incorporam obrigação cartular com literalidade, autonomia e circulação."
       },
       {
@@ -1102,8 +1115,9 @@ export const direitoEmpresarialAvancado = [
         "alternativas": [
           "Endosso, aval e aceite têm funções diferentes.",
           "Confundir aval com fiança.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Títulos de crédito, trocando sujeito, patrimônio e atividade."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1135,13 +1149,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Títulos de crédito?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Títulos de crédito incorporam obrigação cartular com literalidade, autonomia e circulação.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir aval com fiança.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Títulos de crédito, trocando sujeito, patrimônio e atividade.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Títulos de crédito incorporam obrigação cartular com literalidade, autonomia e circulação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1156,11 +1171,11 @@ export const direitoEmpresarialAvancado = [
   },
   {
     "id": "recuperacao-judicial",
-    "materialTitle": "Direito Empresarial Avançado",
+    "materialTitle": "Direito Empresarial Avançado 10/10 Plus Revisado",
     "subject": "Direito Empresarial Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Empresarial Avançado",
+    "moduleTitle": "Direito Empresarial Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Recuperação judicial",
@@ -1293,13 +1308,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Recuperação judicial, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Recuperação busca superar crise viável preservando empresa, empregos e credores.",
           "Tratar recuperação como perdão automático de dívida.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Recuperação busca superar crise viável preservando empresa, empregos e credores.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Recuperação judicial, trocando sujeito, patrimônio e atividade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Recuperação busca superar crise viável preservando empresa, empregos e credores."
       },
       {
@@ -1332,8 +1348,9 @@ export const direitoEmpresarialAvancado = [
         "alternativas": [
           "Plano precisa ser aprovado e cumprido conforme procedimento.",
           "Tratar recuperação como perdão automático de dívida.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Recuperação judicial, trocando sujeito, patrimônio e atividade."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1365,13 +1382,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Recuperação judicial?",
         "alternativas": [
+          "Tratar recuperação como perdão automático de dívida.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Recuperação busca superar crise viável preservando empresa, empregos e credores.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Recuperação judicial, trocando sujeito, patrimônio e atividade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1386,11 +1404,11 @@ export const direitoEmpresarialAvancado = [
   },
   {
     "id": "falencia-e-classificacao-de-creditos",
-    "materialTitle": "Direito Empresarial Avançado",
+    "materialTitle": "Direito Empresarial Avançado 10/10 Plus Revisado",
     "subject": "Direito Empresarial Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Empresarial Avançado",
+    "moduleTitle": "Direito Empresarial Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Falência e classificação de créditos",
@@ -1523,13 +1541,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Falência e classificação de créditos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Falência liquida patrimônio do devedor insolvente conforme ordem legal e procedimento.",
           "Achar que todos os credores recebem igualmente.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Falência liquida patrimônio do devedor insolvente conforme ordem legal e procedimento.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Falência e classificação de créditos, trocando sujeito, patrimônio e atividade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Falência liquida patrimônio do devedor insolvente conforme ordem legal e procedimento."
       },
       {
@@ -1560,13 +1579,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Falência e classificação de créditos quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Classificação dos créditos define prioridade de pagamento.",
           "Achar que todos os credores recebem igualmente.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Classificação dos créditos define prioridade de pagamento.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Falência e classificação de créditos, trocando sujeito, patrimônio e atividade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1596,9 +1616,10 @@ export const direitoEmpresarialAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Falência e classificação de créditos?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Falência liquida patrimônio do devedor insolvente conforme ordem legal e procedimento.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Achar que todos os credores recebem igualmente.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Falência e classificação de créditos, trocando sujeito, patrimônio e atividade."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1616,11 +1637,11 @@ export const direitoEmpresarialAvancado = [
   },
   {
     "id": "propriedade-industrial",
-    "materialTitle": "Direito Empresarial Avançado",
+    "materialTitle": "Direito Empresarial Avançado 10/10 Plus Revisado",
     "subject": "Direito Empresarial Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Empresarial Avançado",
+    "moduleTitle": "Direito Empresarial Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Propriedade industrial",
@@ -1753,13 +1774,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Propriedade industrial, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Marcas e patentes protegem sinais e invenções conforme requisitos próprios.",
           "Confundir registro de marca com patente.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Marcas e patentes protegem sinais e invenções conforme requisitos próprios.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Propriedade industrial, trocando sujeito, patrimônio e atividade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Marcas e patentes protegem sinais e invenções conforme requisitos próprios."
       },
       {
@@ -1790,13 +1812,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Propriedade industrial quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Marca distingue produto/serviço; patente protege invenção ou modelo de utilidade.",
           "Confundir registro de marca com patente.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Marca distingue produto/serviço; patente protege invenção ou modelo de utilidade.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Propriedade industrial, trocando sujeito, patrimônio e atividade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1825,13 +1848,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Propriedade industrial?",
         "alternativas": [
+          "Confundir registro de marca com patente.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Marcas e patentes protegem sinais e invenções conforme requisitos próprios.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Propriedade industrial, trocando sujeito, patrimônio e atividade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1846,11 +1870,11 @@ export const direitoEmpresarialAvancado = [
   },
   {
     "id": "contratos-empresariais",
-    "materialTitle": "Direito Empresarial Avançado",
+    "materialTitle": "Direito Empresarial Avançado 10/10 Plus Revisado",
     "subject": "Direito Empresarial Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Empresarial Avançado",
+    "moduleTitle": "Direito Empresarial Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Contratos empresariais",
@@ -1983,13 +2007,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Contratos empresariais, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Contratos empresariais valorizam risco, informação, função econômica e boa-fé.",
           "Aplicar regra de consumo automaticamente a toda relação empresarial.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Contratos empresariais valorizam risco, informação, função econômica e boa-fé.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Contratos empresariais, trocando sujeito, patrimônio e atividade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Contratos empresariais valorizam risco, informação, função econômica e boa-fé."
       },
       {
@@ -2020,13 +2045,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Contratos empresariais quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Franquia, distribuição e representação têm regimes próprios.",
           "Aplicar regra de consumo automaticamente a toda relação empresarial.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Contratos empresariais, trocando sujeito, patrimônio e atividade.",
+          "Franquia, distribuição e representação têm regimes próprios."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2055,13 +2081,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Contratos empresariais?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Contratos empresariais valorizam risco, informação, função econômica e boa-fé.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Aplicar regra de consumo automaticamente a toda relação empresarial.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Contratos empresariais, trocando sujeito, patrimônio e atividade.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Contratos empresariais valorizam risco, informação, função econômica e boa-fé."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -2076,11 +2103,11 @@ export const direitoEmpresarialAvancado = [
   },
   {
     "id": "concorrencia-compliance-e-revisao-empresarial",
-    "materialTitle": "Direito Empresarial Avançado",
+    "materialTitle": "Direito Empresarial Avançado 10/10 Plus Revisado",
     "subject": "Direito Empresarial Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Empresarial Avançado",
+    "moduleTitle": "Direito Empresarial Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Concorrência, compliance e revisão empresarial",
@@ -2215,8 +2242,9 @@ export const direitoEmpresarialAvancado = [
         "alternativas": [
           "Atividade empresarial deve observar lealdade concorrencial, governança e prevenção de abuso.",
           "Usar compliance de fachada como imunidade.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Concorrência, compliance e revisão empresarial, trocando sujeito, patrimônio e atividade."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2250,13 +2278,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Concorrência, compliance e revisão empresarial quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Compliance reduz riscos, mas não elimina responsabilidade por atos ilícitos.",
           "Usar compliance de fachada como imunidade.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Compliance reduz riscos, mas não elimina responsabilidade por atos ilícitos.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Concorrência, compliance e revisão empresarial, trocando sujeito, patrimônio e atividade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2285,13 +2314,14 @@ export const direitoEmpresarialAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Concorrência, compliance e revisão empresarial?",
         "alternativas": [
+          "Usar compliance de fachada como imunidade.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Atividade empresarial deve observar lealdade concorrencial, governança e prevenção de abuso.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir empresário, sociedade empresária e estabelecimento ao analisar Concorrência, compliance e revisão empresarial, trocando sujeito, patrimônio e atividade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {

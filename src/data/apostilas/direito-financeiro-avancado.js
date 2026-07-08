@@ -6,11 +6,11 @@
 export const direitoFinanceiroAvancado = [
   {
     "id": "atividade-financeira-do-estado",
-    "materialTitle": "Direito Financeiro Avançado",
+    "materialTitle": "Direito Financeiro Avançado 10/10 Plus Revisado",
     "subject": "Direito Financeiro Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Financeiro Avançado",
+    "moduleTitle": "Direito Financeiro Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Atividade financeira do Estado",
@@ -143,13 +143,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Atividade financeira do Estado, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Direito financeiro regula receita, despesa, orçamento e crédito público para realizar políticas públicas.",
           "Reduzir financeiro a imposto.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Direito financeiro regula receita, despesa, orçamento e crédito público para realizar políticas públicas.",
+          "Confundir Atividade financeira do Estado com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Direito financeiro regula receita, despesa, orçamento e crédito público para realizar políticas públicas."
       },
       {
@@ -180,13 +181,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Atividade financeira do Estado quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Não se confunde com tributário, embora ambos dialoguem.",
           "Reduzir financeiro a imposto.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Não se confunde com tributário, embora ambos dialoguem.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Atividade financeira do Estado com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -215,13 +217,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Atividade financeira do Estado?",
         "alternativas": [
+          "Reduzir financeiro a imposto.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Direito financeiro regula receita, despesa, orçamento e crédito público para realizar políticas públicas.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Atividade financeira do Estado com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -236,11 +239,11 @@ export const direitoFinanceiroAvancado = [
   },
   {
     "id": "orcamento-publico-e-principios",
-    "materialTitle": "Direito Financeiro Avançado",
+    "materialTitle": "Direito Financeiro Avançado 10/10 Plus Revisado",
     "subject": "Direito Financeiro Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Financeiro Avançado",
+    "moduleTitle": "Direito Financeiro Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Orçamento público e princípios",
@@ -373,13 +376,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Orçamento público e princípios, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Orçamento planeja e autoriza receitas e despesas, guiado por princípios como unidade, universalidade e anualidade.",
           "Achar que orçamento é simples previsão sem efeitos.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Orçamento planeja e autoriza receitas e despesas, guiado por princípios como unidade, universalidade e anualidade.",
+          "Confundir Orçamento público e princípios com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Orçamento planeja e autoriza receitas e despesas, guiado por princípios como unidade, universalidade e anualidade."
       },
       {
@@ -410,13 +414,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Orçamento público e princípios quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Princípios orçamentários orientam validade e transparência.",
           "Achar que orçamento é simples previsão sem efeitos.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Princípios orçamentários orientam validade e transparência.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Orçamento público e princípios com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -445,13 +450,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Orçamento público e princípios?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Orçamento planeja e autoriza receitas e despesas, guiado por princípios como unidade, universalidade e anua...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Achar que orçamento é simples previsão sem efeitos.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Orçamento planeja e autoriza receitas e despesas, guiado por princípios como unidade, universalidade e anualidade.",
+          "Confundir Orçamento público e princípios com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -466,11 +472,11 @@ export const direitoFinanceiroAvancado = [
   },
   {
     "id": "ppa-ldo-e-loa",
-    "materialTitle": "Direito Financeiro Avançado",
+    "materialTitle": "Direito Financeiro Avançado 10/10 Plus Revisado",
     "subject": "Direito Financeiro Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Financeiro Avançado",
+    "moduleTitle": "Direito Financeiro Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "PPA, LDO e LOA",
@@ -605,8 +611,9 @@ export const direitoFinanceiroAvancado = [
         "alternativas": [
           "PPA planeja médio prazo; LDO orienta prioridades; LOA estima receita e fixa despesa anual.",
           "Confundir LDO com LOA.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir PPA, LDO e LOA com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -640,13 +647,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em PPA, LDO e LOA quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Hierarquia funcional entre peças é muito cobrada.",
           "Confundir LDO com LOA.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Hierarquia funcional entre peças é muito cobrada.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir PPA, LDO e LOA com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -676,9 +684,10 @@ export const direitoFinanceiroAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre PPA, LDO e LOA?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: PPA planeja médio prazo; LDO orienta prioridades; LOA estima receita e fixa despesa anual.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir LDO com LOA.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir PPA, LDO e LOA com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -696,11 +705,11 @@ export const direitoFinanceiroAvancado = [
   },
   {
     "id": "receita-publica",
-    "materialTitle": "Direito Financeiro Avançado",
+    "materialTitle": "Direito Financeiro Avançado 10/10 Plus Revisado",
     "subject": "Direito Financeiro Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Financeiro Avançado",
+    "moduleTitle": "Direito Financeiro Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Receita pública",
@@ -835,8 +844,9 @@ export const direitoFinanceiroAvancado = [
         "alternativas": [
           "Receitas podem ser originárias, derivadas, correntes, de capital e extraorçamentárias.",
           "Tratar todo ingresso como receita orçamentária.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Receita pública com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -870,13 +880,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Receita pública quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Classificação define registro e análise fiscal.",
           "Tratar todo ingresso como receita orçamentária.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Classificação define registro e análise fiscal.",
+          "Confundir Receita pública com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -905,13 +916,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Receita pública?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Receitas podem ser originárias, derivadas, correntes, de capital e extraorçamentárias.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Tratar todo ingresso como receita orçamentária.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Receita pública com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Receitas podem ser originárias, derivadas, correntes, de capital e extraorçamentárias."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -926,11 +938,11 @@ export const direitoFinanceiroAvancado = [
   },
   {
     "id": "despesa-publica",
-    "materialTitle": "Direito Financeiro Avançado",
+    "materialTitle": "Direito Financeiro Avançado 10/10 Plus Revisado",
     "subject": "Direito Financeiro Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Financeiro Avançado",
+    "moduleTitle": "Direito Financeiro Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Despesa pública",
@@ -1065,8 +1077,9 @@ export const direitoFinanceiroAvancado = [
         "alternativas": [
           "Despesa exige autorização, empenho, liquidação e pagamento, com controle de finalidade.",
           "Confundir empenho com pagamento.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Despesa pública com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1102,8 +1115,9 @@ export const direitoFinanceiroAvancado = [
         "alternativas": [
           "Empenho reserva dotação; liquidação verifica direito do credor.",
           "Confundir empenho com pagamento.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Despesa pública com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1135,13 +1149,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Despesa pública?",
         "alternativas": [
+          "Confundir empenho com pagamento.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Despesa exige autorização, empenho, liquidação e pagamento, com controle de finalidade.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Despesa pública com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1156,11 +1171,11 @@ export const direitoFinanceiroAvancado = [
   },
   {
     "id": "creditos-adicionais",
-    "materialTitle": "Direito Financeiro Avançado",
+    "materialTitle": "Direito Financeiro Avançado 10/10 Plus Revisado",
     "subject": "Direito Financeiro Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Financeiro Avançado",
+    "moduleTitle": "Direito Financeiro Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Créditos adicionais",
@@ -1293,13 +1308,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Créditos adicionais, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Créditos adicionais ajustam orçamento: suplementares, especiais e extraordinários.",
           "Usar crédito extraordinário para despesa comum.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Créditos adicionais com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos.",
+          "Créditos adicionais ajustam orçamento: suplementares, especiais e extraordinários."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Créditos adicionais ajustam orçamento: suplementares, especiais e extraordinários."
       },
       {
@@ -1330,13 +1346,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Créditos adicionais quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Cada espécie tem finalidade e requisito próprio.",
           "Usar crédito extraordinário para despesa comum.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Créditos adicionais com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos.",
+          "Cada espécie tem finalidade e requisito próprio."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1365,13 +1382,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Créditos adicionais?",
         "alternativas": [
+          "Usar crédito extraordinário para despesa comum.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Créditos adicionais ajustam orçamento: suplementares, especiais e extraordinários.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir Créditos adicionais com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1386,11 +1404,11 @@ export const direitoFinanceiroAvancado = [
   },
   {
     "id": "responsabilidade-fiscal",
-    "materialTitle": "Direito Financeiro Avançado",
+    "materialTitle": "Direito Financeiro Avançado 10/10 Plus Revisado",
     "subject": "Direito Financeiro Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Financeiro Avançado",
+    "moduleTitle": "Direito Financeiro Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Responsabilidade fiscal",
@@ -1523,13 +1541,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Responsabilidade fiscal, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "LRF busca equilíbrio, metas, limites, transparência e controle de endividamento e pessoal.",
           "Achar que transparência fiscal é facultativa.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "LRF busca equilíbrio, metas, limites, transparência e controle de endividamento e pessoal.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Responsabilidade fiscal com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: LRF busca equilíbrio, metas, limites, transparência e controle de endividamento e pessoal."
       },
       {
@@ -1560,13 +1579,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Responsabilidade fiscal quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Limites fiscais geram vedações e medidas de recondução.",
           "Achar que transparência fiscal é facultativa.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Limites fiscais geram vedações e medidas de recondução.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Responsabilidade fiscal com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1595,13 +1615,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Responsabilidade fiscal?",
         "alternativas": [
+          "Achar que transparência fiscal é facultativa.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: LRF busca equilíbrio, metas, limites, transparência e controle de endividamento e pessoal.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Responsabilidade fiscal com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1616,11 +1637,11 @@ export const direitoFinanceiroAvancado = [
   },
   {
     "id": "divida-e-credito-publico",
-    "materialTitle": "Direito Financeiro Avançado",
+    "materialTitle": "Direito Financeiro Avançado 10/10 Plus Revisado",
     "subject": "Direito Financeiro Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Financeiro Avançado",
+    "moduleTitle": "Direito Financeiro Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Dívida e crédito público",
@@ -1753,13 +1774,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Dívida e crédito público, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Crédito público financia atividades, mas exige limites, autorização e sustentabilidade.",
           "Confundir dívida fundada com restos a pagar.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Crédito público financia atividades, mas exige limites, autorização e sustentabilidade.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Dívida e crédito público com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Crédito público financia atividades, mas exige limites, autorização e sustentabilidade."
       },
       {
@@ -1790,13 +1812,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Dívida e crédito público quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Operações de crédito não são receita livre.",
           "Confundir dívida fundada com restos a pagar.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Dívida e crédito público com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos.",
+          "Operações de crédito não são receita livre."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1825,13 +1848,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Dívida e crédito público?",
         "alternativas": [
+          "Confundir dívida fundada com restos a pagar.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Crédito público financia atividades, mas exige limites, autorização e sustentabilidade.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Dívida e crédito público com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1846,11 +1870,11 @@ export const direitoFinanceiroAvancado = [
   },
   {
     "id": "controle-e-fiscalizacao-financeira",
-    "materialTitle": "Direito Financeiro Avançado",
+    "materialTitle": "Direito Financeiro Avançado 10/10 Plus Revisado",
     "subject": "Direito Financeiro Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Financeiro Avançado",
+    "moduleTitle": "Direito Financeiro Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Controle e fiscalização financeira",
@@ -1985,8 +2009,9 @@ export const direitoFinanceiroAvancado = [
         "alternativas": [
           "Controle interno, externo e social verificam legalidade, legitimidade, economicidade e resultados.",
           "Achar que tribunal de contas integra Judiciário.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Controle e fiscalização financeira com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2020,13 +2045,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Controle e fiscalização financeira quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Tribunais de contas auxiliam Legislativo no controle externo.",
           "Achar que tribunal de contas integra Judiciário.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Controle e fiscalização financeira com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos.",
+          "Tribunais de contas auxiliam Legislativo no controle externo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2055,13 +2081,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Controle e fiscalização financeira?",
         "alternativas": [
+          "Achar que tribunal de contas integra Judiciário.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Controle interno, externo e social verificam legalidade, legitimidade, economicidade e resultados.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Controle e fiscalização financeira com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -2076,11 +2103,11 @@ export const direitoFinanceiroAvancado = [
   },
   {
     "id": "fundos-transferencias-e-execucao-fiscal-planejada",
-    "materialTitle": "Direito Financeiro Avançado",
+    "materialTitle": "Direito Financeiro Avançado 10/10 Plus Revisado",
     "subject": "Direito Financeiro Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Financeiro Avançado",
+    "moduleTitle": "Direito Financeiro Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Fundos, transferências e execução fiscal planejada",
@@ -2213,13 +2240,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Fundos, transferências e execução fiscal planejada, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Fundos e transferências vinculam recursos a políticas, exigindo prestação de contas.",
           "Usar verba vinculada para qualquer gasto.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Fundos e transferências vinculam recursos a políticas, exigindo prestação de contas.",
+          "Confundir Fundos, transferências e execução fiscal planejada com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Fundos e transferências vinculam recursos a políticas, exigindo prestação de contas."
       },
       {
@@ -2250,13 +2278,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Fundos, transferências e execução fiscal planejada quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Execução orçamentária deve respeitar planejamento e finalidade.",
           "Usar verba vinculada para qualquer gasto.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Fundos, transferências e execução fiscal planejada com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos.",
+          "Execução orçamentária deve respeitar planejamento e finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2285,13 +2314,14 @@ export const direitoFinanceiroAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Fundos, transferências e execução fiscal planejada?",
         "alternativas": [
+          "Usar verba vinculada para qualquer gasto.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Fundos e transferências vinculam recursos a políticas, exigindo prestação de contas.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Confundir Fundos, transferências e execução fiscal planejada com direito tributário, tratando receita, despesa e orçamento como se fossem apenas cobrança de tributos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {

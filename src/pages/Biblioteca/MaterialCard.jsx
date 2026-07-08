@@ -34,6 +34,32 @@ function canFetchPreview(url = "") {
   }
 }
 
+function normalizeLabel(value = "") {
+  return String(value)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
+
+function isSameLabel(a, b) {
+  return normalizeLabel(a) === normalizeLabel(b);
+}
+
+function getMaterialSubtitle(material) {
+  if (!material.materia) return material.categoria || material.tipo || "Material";
+  if (isSameLabel(material.titulo, material.materia)) return material.descricao || material.categoria || material.tipo || "Apostila";
+  return material.materia;
+}
+
+function getViewerSubtitle(material) {
+  const parts = [];
+  if (material.materia && !isSameLabel(material.titulo, material.materia)) parts.push(material.materia);
+  if (material.categoria && !parts.some((part) => isSameLabel(part, material.categoria))) parts.push(material.categoria);
+  return parts.join(" - ") || material.categoria || material.tipo || "Apostila";
+}
+
 function MaterialViewer({ material, onClose }) {
   const hasChapters = Array.isArray(material.chapters) && material.chapters.length > 0;
   const canPreviewAsPdf = isPdfUrl(material.url);
@@ -75,7 +101,7 @@ function MaterialViewer({ material, onClose }) {
       <div className="library-viewer-bar">
         <div className="min-w-0">
           <p>{material.titulo}</p>
-          <span>{material.materia || "Geral"}{material.categoria ? ` - ${material.categoria}` : ""}</span>
+          <span>{getViewerSubtitle(material)}</span>
         </div>
         <div className="library-viewer-actions">
           {material.url ? (
@@ -91,7 +117,7 @@ function MaterialViewer({ material, onClose }) {
       </div>
 
       {hasChapters ? (
-        <ApostilaChapterReader chapters={material.chapters} />
+        <ApostilaChapterReader chapters={material.chapters} material={material} />
       ) : isLoadingPreview ? (
         <div className="library-preview-state">
           <FileText size={34} />
@@ -120,6 +146,7 @@ function MaterialViewer({ material, onClose }) {
 function MaterialCardBase({ material, favorite, canDelete = false, onDelete, onFavorite }) {
   const [viewerOpen, setViewerOpen] = useState(false);
   const config = useMemo(() => getConfig(material), [material]);
+  const subtitle = useMemo(() => getMaterialSubtitle(material), [material]);
   const Icon = config.icon;
   const canOpen = Boolean(material.url || material.chapters?.length);
 
@@ -134,7 +161,7 @@ function MaterialCardBase({ material, favorite, canDelete = false, onDelete, onF
           <div className="library-card-title-row">
             <div className="min-w-0">
               <h2>{material.titulo}</h2>
-              <p>{material.materia || "Geral"}</p>
+              <p>{subtitle}</p>
             </div>
           </div>
         </div>

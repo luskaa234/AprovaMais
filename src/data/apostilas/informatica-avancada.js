@@ -7,11 +7,11 @@
 export const informaticaAvancada = [
   {
     "id": "hardware-software-e-sistemas",
-    "materialTitle": "Informática Avançada",
+    "materialTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "subject": "Informática Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Informática Avançada",
+    "moduleTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Hardware, software e sistemas",
@@ -131,7 +131,8 @@ export const informaticaAvancada = [
           "Hardware é componente físico; software é conjunto de instruções que orienta o processamento.",
           "Achar que SSD aumenta processamento da CPU.",
           "Confundir memória RAM com armazenamento permanente.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Confundir Hardware, software e sistemas com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -179,13 +180,14 @@ export const informaticaAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Achar que SSD aumenta processamento da CPU.",
+          "Confundir memória RAM com armazenamento permanente.",
+          "Confundir Hardware, software e sistemas com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
           "Firmware faz ponte entre hardware e software, comum em placas, roteadores e dispositivos embarcados.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Confundir memória RAM com armazenamento permanente."
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -214,11 +216,11 @@ export const informaticaAvancada = [
   },
   {
     "id": "windows-linux-e-arquivos",
-    "materialTitle": "Informática Avançada",
+    "materialTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "subject": "Informática Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Informática Avançada",
+    "moduleTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Windows, Linux e arquivos",
@@ -335,13 +337,14 @@ export const informaticaAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Windows, Linux e arquivos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Caminhos, extensões e permissões determinam localização, tipo e acesso a arquivos.",
           "Abrir executável achando que PDF só pela aparência do ícone.",
+          "Caminhos, extensões e permissões determinam localização, tipo e acesso a arquivos.",
           "Confundir mover com copiar.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Confundir Windows, Linux e arquivos com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta resume o núcleo do tema: Caminhos, extensões e permissões determinam localização, tipo e acesso a arquivos."
       },
       {
@@ -387,9 +390,10 @@ export const informaticaAvancada = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Extensão sugere tipo de arquivo, mas não garante conteúdo seguro.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Confundir mover com copiar."
+          "Abrir executável achando que PDF só pela aparência do ícone.",
+          "Confundir mover com copiar.",
+          "Confundir Windows, Linux e arquivos com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -421,11 +425,11 @@ export const informaticaAvancada = [
   },
   {
     "id": "office-e-libreoffice",
-    "materialTitle": "Informática Avançada",
+    "materialTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "subject": "Informática Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Informática Avançada",
+    "moduleTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Office e LibreOffice",
@@ -545,7 +549,8 @@ export const informaticaAvancada = [
           "Editor de texto cobra estilos, margens, sumário, mala direta, cabeçalho e controle de alterações.",
           "Confundir fórmula com valor exibido.",
           "Achar que copiar célula mantém referência relativa fixa.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Confundir Office e LibreOffice com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -594,9 +599,10 @@ export const informaticaAvancada = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Apresentações exigem layout, mestre de slides, transições e exportação.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Achar que copiar célula mantém referência relativa fixa."
+          "Confundir fórmula com valor exibido.",
+          "Achar que copiar célula mantém referência relativa fixa.",
+          "Confundir Office e LibreOffice com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -628,11 +634,11 @@ export const informaticaAvancada = [
   },
   {
     "id": "internet-navegadores-e-e-mail",
-    "materialTitle": "Informática Avançada",
+    "materialTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "subject": "Informática Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Informática Avançada",
+    "moduleTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Internet, navegadores e e-mail",
@@ -749,13 +755,14 @@ export const informaticaAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Internet, navegadores e e-mail, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "URL, domínio, protocolo e caminho identificam recurso na web.",
           "Achar que cadeado do navegador garante loja confiável.",
           "Responder a todos quando deveria responder só ao remetente.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "URL, domínio, protocolo e caminho identificam recurso na web.",
+          "Confundir Internet, navegadores e e-mail com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: URL, domínio, protocolo e caminho identificam recurso na web."
       },
       {
@@ -800,13 +807,14 @@ export const informaticaAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Achar que cadeado do navegador garante loja confiável.",
           "Cookies, cache e histórico têm funções diferentes em navegação.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Responder a todos quando deveria responder só ao remetente."
+          "Responder a todos quando deveria responder só ao remetente.",
+          "Confundir Internet, navegadores e e-mail com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -835,11 +843,11 @@ export const informaticaAvancada = [
   },
   {
     "id": "redes-e-protocolos",
-    "materialTitle": "Informática Avançada",
+    "materialTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "subject": "Informática Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Informática Avançada",
+    "moduleTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Redes e protocolos",
@@ -956,13 +964,14 @@ export const informaticaAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Redes e protocolos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "IP identifica host na rede; porta identifica serviço em execução.",
           "Confundir DNS com provedor de internet.",
           "Chamar todo equipamento de modem.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Confundir Redes e protocolos com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital.",
+          "IP identifica host na rede; porta identifica serviço em execução."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: IP identifica host na rede; porta identifica serviço em execução."
       },
       {
@@ -1007,13 +1016,14 @@ export const informaticaAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Confundir DNS com provedor de internet.",
+          "Chamar todo equipamento de modem.",
           "Roteador encaminha pacotes entre redes; switch conecta dispositivos em rede local.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Chamar todo equipamento de modem."
+          "Confundir Redes e protocolos com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1042,11 +1052,11 @@ export const informaticaAvancada = [
   },
   {
     "id": "seguranca-da-informacao",
-    "materialTitle": "Informática Avançada",
+    "materialTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "subject": "Informática Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Informática Avançada",
+    "moduleTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Segurança da informação",
@@ -1163,13 +1173,14 @@ export const informaticaAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Segurança da informação, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Confidencialidade protege contra acesso indevido; integridade contra alteração; disponibilidade contra interrupção.",
           "Achar que antivírus elimina necessidade de cuidado.",
           "Confundir vírus com qualquer malware.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Confundir Segurança da informação com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
+          "Confidencialidade protege contra acesso indevido; integridade contra alteração; disponibilidade contra interrupção.",
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta resume o núcleo do tema: Confidencialidade protege contra acesso indevido; integridade contra alteração; disponibilidade contra interrupção."
       },
       {
@@ -1214,13 +1225,14 @@ export const informaticaAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Achar que antivírus elimina necessidade de cuidado.",
+          "Confundir vírus com qualquer malware.",
           "Engenharia social explora comportamento humano mais que falha técnica.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Confundir vírus com qualquer malware."
+          "Confundir Segurança da informação com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1249,11 +1261,11 @@ export const informaticaAvancada = [
   },
   {
     "id": "senhas-autenticacao-e-criptografia",
-    "materialTitle": "Informática Avançada",
+    "materialTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "subject": "Informática Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Informática Avançada",
+    "moduleTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Senhas, autenticação e criptografia",
@@ -1370,13 +1382,14 @@ export const informaticaAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Senhas, autenticação e criptografia, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Senha forte deve ser longa, única e difícil de adivinhar, preferencialmente gerenciada por cofre confiável.",
           "Reutilizar senha forte em vários serviços.",
           "Dizer que hash pode ser descriptografado normalmente.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Confundir Senhas, autenticação e criptografia com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital.",
+          "Senha forte deve ser longa, única e difícil de adivinhar, preferencialmente gerenciada por cofre confiável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: Senha forte deve ser longa, única e difícil de adivinhar, preferencialmente gerenciada por cofre confiável."
       },
       {
@@ -1421,13 +1434,14 @@ export const informaticaAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Reutilizar senha forte em vários serviços.",
+          "Dizer que hash pode ser descriptografado normalmente.",
+          "Confundir Senhas, autenticação e criptografia com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
           "Criptografia protege dados em trânsito ou repouso, conforme aplicação.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Dizer que hash pode ser descriptografado normalmente."
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1456,11 +1470,11 @@ export const informaticaAvancada = [
   },
   {
     "id": "nuvem-backup-e-colaboracao",
-    "materialTitle": "Informática Avançada",
+    "materialTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "subject": "Informática Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Informática Avançada",
+    "moduleTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Nuvem, backup e colaboração",
@@ -1577,13 +1591,14 @@ export const informaticaAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Nuvem, backup e colaboração, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Nuvem oferece armazenamento, processamento ou software pela rede, com responsabilidade compartilhada.",
           "Achar que arquivo sincronizado está protegido contra exclusão acidental.",
           "Compartilhar link público com dados sensíveis.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Confundir Nuvem, backup e colaboração com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital.",
+          "Nuvem oferece armazenamento, processamento ou software pela rede, com responsabilidade compartilhada."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: Nuvem oferece armazenamento, processamento ou software pela rede, com responsabilidade compartilhada."
       },
       {
@@ -1628,13 +1643,14 @@ export const informaticaAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Achar que arquivo sincronizado está protegido contra exclusão acidental.",
           "Permissões de compartilhamento definem quem visualiza, comenta, edita ou administra.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Compartilhar link público com dados sensíveis."
+          "Compartilhar link público com dados sensíveis.",
+          "Confundir Nuvem, backup e colaboração com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1663,11 +1679,11 @@ export const informaticaAvancada = [
   },
   {
     "id": "dados-bancos-e-lgpd-aplicada",
-    "materialTitle": "Informática Avançada",
+    "materialTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "subject": "Informática Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Informática Avançada",
+    "moduleTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Dados, bancos e LGPD aplicada",
@@ -1784,13 +1800,14 @@ export const informaticaAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Dados, bancos e LGPD aplicada, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Banco de dados organiza registros, tabelas, campos, consultas e relacionamentos.",
           "Coletar dado “por garantia” sem finalidade definida.",
           "Achar que dado público pode ser usado sem limites.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Banco de dados organiza registros, tabelas, campos, consultas e relacionamentos.",
+          "Confundir Dados, bancos e LGPD aplicada com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: Banco de dados organiza registros, tabelas, campos, consultas e relacionamentos."
       },
       {
@@ -1835,13 +1852,14 @@ export const informaticaAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Coletar dado “por garantia” sem finalidade definida.",
           "Tratamento de dados exige finalidade, necessidade, segurança e base adequada.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Achar que dado público pode ser usado sem limites."
+          "Achar que dado público pode ser usado sem limites.",
+          "Confundir Dados, bancos e LGPD aplicada com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1870,11 +1888,11 @@ export const informaticaAvancada = [
   },
   {
     "id": "ia-automacao-e-cidadania-digital",
-    "materialTitle": "Informática Avançada",
+    "materialTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "subject": "Informática Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Informática Avançada",
+    "moduleTitle": "Informática Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "IA, automação e cidadania digital",
@@ -1991,13 +2009,14 @@ export const informaticaAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a IA, automação e cidadania digital, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "IA identifica padrões e gera respostas, mas pode errar, enviesar ou inventar informações.",
           "Tratar saída de IA como verdade oficial.",
           "Automatizar processo sensível sem auditoria.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Confundir IA, automação e cidadania digital com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital.",
+          "IA identifica padrões e gera respostas, mas pode errar, enviesar ou inventar informações."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: IA identifica padrões e gera respostas, mas pode errar, enviesar ou inventar informações."
       },
       {
@@ -2042,13 +2061,14 @@ export const informaticaAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Tratar saída de IA como verdade oficial.",
+          "Automatizar processo sensível sem auditoria.",
+          "Confundir IA, automação e cidadania digital com recurso de aparência semelhante, como se hardware, software, rede e segurança tivessem a mesma função.",
           "Cidadania digital envolve direitos, deveres, privacidade, respeito e verificação de informação.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Automatizar processo sensível sem auditoria."
+          "Acreditar que backup dispensa autenticação, atualização e controle de acesso no ambiente digital."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {

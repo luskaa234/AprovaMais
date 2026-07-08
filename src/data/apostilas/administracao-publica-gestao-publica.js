@@ -7,11 +7,11 @@
 export const administracaoPublicaGestaoPublica = [
   {
     "id": "administracao-publica-e-gestao-publica-01-estado-governo-e-administracao-publica",
-    "materialTitle": "Administração Pública e Gestão Pública",
+    "materialTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "subject": "Administração Pública e Gestão Pública",
     "contest": "Tribunais / Prefeitura / Estado / União / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Pública e Gestão Pública",
+    "moduleTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Estado, governo e Administração Pública",
@@ -179,19 +179,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Estado, governo e Administração Pública, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar diferença entre Estado, governo e Administração, separando função política de execução administrativa, verificar competência, observar o procedimento e registrar a decisão...",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Confundir mudança de governo com mudança da Administração Pública permanente.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Estado, governo e Administração Pública.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: diferença entre Estado, governo e Administração, separando função política de execução administrativa.",
+          "Medir diferença entre Estado, governo e Administração, separando função política de execução administrativa apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar sujeito, finalidade e tipo de função antes de responder, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Confundir mudança de governo com mudança da Administração Pública permanente.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Estado, governo e Administração Pública.",
+          "Correta: Identificar o instituto, seus requisitos e a consequência adequada: diferença entre Estado, governo e Administração, separando função política de execução administrativa.",
+          "Errada: Medir diferença entre Estado, governo e Administração, separando função política de execução administrativa apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -220,19 +222,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Estado, governo e Administração Pública é:",
         "alternativas": [
-          "Estado é estrutura permanente; governo é direção política; Administração executa serviços e políticas públicas",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Confundir mudança de governo com mudança da Administração Pública permanente.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Estado, governo e Administração Pública.",
+          "Medir diferença entre Estado, governo e Administração, separando função política de execução administrativa apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Estado é estrutura permanente; governo é direção política; Administração executa serviços e políticas públicas.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Confundir mudança de governo com mudança da Administração Pública permanente.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Estado, governo e Administração Pública.",
+          "Errada: Medir diferença entre Estado, governo e Administração, separando função política de execução administrativa apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Correta: Estado é estrutura permanente; governo é direção política; Administração executa serviços e políticas públicas.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -261,19 +265,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Estado, governo e Administração Pública?",
         "alternativas": [
+          "Confundir mudança de governo com mudança da Administração Pública permanente.",
           "Supor que confundir mudança de governo com mudança da Administração Pública permanente é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Estado, governo e Administração Pública.",
+          "Medir diferença entre Estado, governo e Administração, separando função política de execução administrativa apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Confundir mudança de governo com mudança da Administração Pública permanente.",
+          "Correta: Supor que confundir mudança de governo com mudança da Administração Pública permanente é aceitável porque simplifica o trabalho.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Estado, governo e Administração Pública.",
+          "Errada: Medir diferença entre Estado, governo e Administração, separando função política de execução administrativa apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -287,11 +293,11 @@ export const administracaoPublicaGestaoPublica = [
   },
   {
     "id": "administracao-publica-e-gestao-publica-02-modelos-de-administracao-patrimonial-burocratica-e-gerencial",
-    "materialTitle": "Administração Pública e Gestão Pública",
+    "materialTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "subject": "Administração Pública e Gestão Pública",
     "contest": "Tribunais / Prefeitura / Estado / União / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Pública e Gestão Pública",
+    "moduleTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Modelos de Administração: patrimonial, burocrática e gerencial",
@@ -460,18 +466,20 @@ export const administracaoPublicaGestaoPublica = [
         "enunciado": "Em Modelos de Administração: patrimonial, burocrática e gerencial, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar evolução dos modelos administrativos e seus efeitos em concursos, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Dizer que modelo gerencial elimina legalidade e controle.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Modelos de Administração: patrimonial, burocrática e gerencial.",
+          "Medir evolução dos modelos administrativos e seus efeitos em concursos apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: comparar foco, instrumento de controle e risco de cada modelo, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar evolução dos modelos administrativos e seus efeitos em concursos, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Dizer que modelo gerencial elimina legalidade e controle.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Modelos de Administração: patrimonial, burocrática e gerencial.",
+          "Errada: Medir evolução dos modelos administrativos e seus efeitos em concursos apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -500,19 +508,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Modelos de Administração: patrimonial, burocrática e gerencial é:",
         "alternativas": [
-          "patrimonialismo confunde público e privado; burocracia formaliza; gerencial mede resultado",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Dizer que modelo gerencial elimina legalidade e controle.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Modelos de Administração: patrimonial, burocrática e gerencial.",
+          "Patrimonialismo confunde público e privado; burocracia formaliza; gerencial mede resultado.",
+          "Medir evolução dos modelos administrativos e seus efeitos em concursos apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Dizer que modelo gerencial elimina legalidade e controle.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Modelos de Administração: patrimonial, burocrática e gerencial.",
+          "Correta: Patrimonialismo confunde público e privado; burocracia formaliza; gerencial mede resultado.",
+          "Errada: Medir evolução dos modelos administrativos e seus efeitos em concursos apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -542,18 +552,20 @@ export const administracaoPublicaGestaoPublica = [
         "enunciado": "Qual alternativa revela erro de banca em Modelos de Administração: patrimonial, burocrática e gerencial?",
         "alternativas": [
           "Supor que dizer que modelo gerencial elimina legalidade e controle é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Dizer que modelo gerencial elimina legalidade e controle.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Modelos de Administração: patrimonial, burocrática e gerencial.",
+          "Medir evolução dos modelos administrativos e seus efeitos em concursos apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Correta: Supor que dizer que modelo gerencial elimina legalidade e controle é aceitável porque simplifica o trabalho.",
+          "Errada: Dizer que modelo gerencial elimina legalidade e controle.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Modelos de Administração: patrimonial, burocrática e gerencial.",
+          "Errada: Medir evolução dos modelos administrativos e seus efeitos em concursos apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -567,11 +579,11 @@ export const administracaoPublicaGestaoPublica = [
   },
   {
     "id": "administracao-publica-e-gestao-publica-03-planejamento-publico-missao-objetivos-metas-e-indicadores",
-    "materialTitle": "Administração Pública e Gestão Pública",
+    "materialTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "subject": "Administração Pública e Gestão Pública",
     "contest": "Tribunais / Prefeitura / Estado / União / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Pública e Gestão Pública",
+    "moduleTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Planejamento público: missão, objetivos, metas e indicadores",
@@ -739,19 +751,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Planejamento público: missão, objetivos, metas e indicadores, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar planejamento como ponte entre problema público, ação estatal e resultado mensurável, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Decorar nomes sem saber transformar problema em objetivo e indicador.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Planejamento público: missão, objetivos, metas e indicadores.",
+          "Medir planejamento como ponte entre problema público, ação estatal e resultado mensurável apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável.",
+          "Identificar planejamento como ponte entre problema público, ação estatal e resultado mensurável, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: descrever problema, público-alvo, meta, indicador e prazo, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Decorar nomes sem saber transformar problema em objetivo e indicador.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Planejamento público: missão, objetivos, metas e indicadores.",
+          "Errada: Medir planejamento como ponte entre problema público, ação estatal e resultado mensurável apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável.",
+          "Correta: Identificar planejamento como ponte entre problema público, ação estatal e resultado mensurável, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ]
       },
       {
@@ -780,19 +794,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Planejamento público: missão, objetivos, metas e indicadores é:",
         "alternativas": [
-          "meta sem indicador vira promessa; indicador sem meta não orienta decisão",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Meta sem indicador vira promessa; indicador sem meta não orienta decisão.",
+          "Decorar nomes sem saber transformar problema em objetivo e indicador.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Planejamento público: missão, objetivos, metas e indicadores.",
+          "Medir planejamento como ponte entre problema público, ação estatal e resultado mensurável apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: Meta sem indicador vira promessa; indicador sem meta não orienta decisão.",
+          "Errada: Decorar nomes sem saber transformar problema em objetivo e indicador.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Planejamento público: missão, objetivos, metas e indicadores.",
+          "Errada: Medir planejamento como ponte entre problema público, ação estatal e resultado mensurável apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -821,19 +837,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Planejamento público: missão, objetivos, metas e indicadores?",
         "alternativas": [
-          "Supor que decorar nomes sem saber transformar problema em objetivo e indicador é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Decorar nomes sem saber transformar problema em objetivo e indicador.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Planejamento público: missão, objetivos, metas e indicadores.",
+          "Medir planejamento como ponte entre problema público, ação estatal e resultado mensurável apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável.",
+          "Supor que decorar nomes sem saber transformar problema em objetivo e indicador é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Decorar nomes sem saber transformar problema em objetivo e indicador.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Planejamento público: missão, objetivos, metas e indicadores.",
+          "Errada: Medir planejamento como ponte entre problema público, ação estatal e resultado mensurável apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável.",
+          "Correta: Supor que decorar nomes sem saber transformar problema em objetivo e indicador é aceitável porque simplifica o trabalho."
         ]
       },
       {
@@ -847,11 +865,11 @@ export const administracaoPublicaGestaoPublica = [
   },
   {
     "id": "administracao-publica-e-gestao-publica-04-politicas-publicas-ciclo-agenda-formulacao-execucao-e-avaliacao",
-    "materialTitle": "Administração Pública e Gestão Pública",
+    "materialTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "subject": "Administração Pública e Gestão Pública",
     "contest": "Tribunais / Prefeitura / Estado / União / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Pública e Gestão Pública",
+    "moduleTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Políticas públicas: ciclo, agenda, formulação, execução e avaliação",
@@ -1019,19 +1037,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Políticas públicas: ciclo, agenda, formulação, execução e avaliação, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Achar que qualquer anúncio governamental já é política pública efetiva.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Políticas públicas: ciclo, agenda, formulação, execução e avaliação.",
+          "Medir ciclo de políticas públicas com análise de problema, decisão, implementação e avaliação apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
           "Identificar ciclo de políticas públicas com análise de problema, decisão, implementação e avaliação, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: localizar etapa do ciclo cobrada no enunciado, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Achar que qualquer anúncio governamental já é política pública efetiva.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Políticas públicas: ciclo, agenda, formulação, execução e avaliação.",
+          "Errada: Medir ciclo de políticas públicas com análise de problema, decisão, implementação e avaliação apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Correta: Identificar ciclo de políticas públicas com análise de problema, decisão, implementação e avaliação, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -1060,19 +1080,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Políticas públicas: ciclo, agenda, formulação, execução e avaliação é:",
         "alternativas": [
-          "política pública não termina com a lei; precisa de execução, recurso e avaliação",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Achar que qualquer anúncio governamental já é política pública efetiva.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Políticas públicas: ciclo, agenda, formulação, execução e avaliação.",
+          "Medir ciclo de políticas públicas com análise de problema, decisão, implementação e avaliação apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Política pública não termina com a lei; precisa de execução, recurso e avaliação.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Achar que qualquer anúncio governamental já é política pública efetiva.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Políticas públicas: ciclo, agenda, formulação, execução e avaliação.",
+          "Errada: Medir ciclo de políticas públicas com análise de problema, decisão, implementação e avaliação apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Correta: Política pública não termina com a lei; precisa de execução, recurso e avaliação.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -1101,19 +1123,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Políticas públicas: ciclo, agenda, formulação, execução e avaliação?",
         "alternativas": [
+          "Achar que qualquer anúncio governamental já é política pública efetiva.",
           "Supor que achar que qualquer anúncio governamental já é política pública efetiva é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Políticas públicas: ciclo, agenda, formulação, execução e avaliação.",
+          "Medir ciclo de políticas públicas com análise de problema, decisão, implementação e avaliação apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Achar que qualquer anúncio governamental já é política pública efetiva.",
+          "Correta: Supor que achar que qualquer anúncio governamental já é política pública efetiva é aceitável porque simplifica o trabalho.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Políticas públicas: ciclo, agenda, formulação, execução e avaliação.",
+          "Errada: Medir ciclo de políticas públicas com análise de problema, decisão, implementação e avaliação apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -1127,11 +1151,11 @@ export const administracaoPublicaGestaoPublica = [
   },
   {
     "id": "administracao-publica-e-gestao-publica-05-gestao-por-resultados-e-indicadores-no-setor-publico",
-    "materialTitle": "Administração Pública e Gestão Pública",
+    "materialTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "subject": "Administração Pública e Gestão Pública",
     "contest": "Tribunais / Prefeitura / Estado / União / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Pública e Gestão Pública",
+    "moduleTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Gestão por resultados e indicadores no setor público",
@@ -1300,18 +1324,20 @@ export const administracaoPublicaGestaoPublica = [
         "enunciado": "Em Gestão por resultados e indicadores no setor público, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar uso de metas, produtos, resultados e impacto sem perder legalidade, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Confundir quantidade de atendimento com melhoria real do problema.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Gestão por resultados e indicadores no setor público.",
+          "Medir uso de metas, produtos, resultados e impacto sem perder legalidade apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: separar insumo, processo, produto, resultado e impacto, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar uso de metas, produtos, resultados e impacto sem perder legalidade, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Confundir quantidade de atendimento com melhoria real do problema.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Gestão por resultados e indicadores no setor público.",
+          "Errada: Medir uso de metas, produtos, resultados e impacto sem perder legalidade apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -1340,19 +1366,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Gestão por resultados e indicadores no setor público é:",
         "alternativas": [
-          "produto é entrega; resultado é mudança produzida; impacto é efeito mais amplo",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Confundir quantidade de atendimento com melhoria real do problema.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Gestão por resultados e indicadores no setor público.",
+          "Produto é entrega; resultado é mudança produzida; impacto é efeito mais amplo.",
+          "Medir uso de metas, produtos, resultados e impacto sem perder legalidade apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Confundir quantidade de atendimento com melhoria real do problema.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Gestão por resultados e indicadores no setor público.",
+          "Correta: Produto é entrega; resultado é mudança produzida; impacto é efeito mais amplo.",
+          "Errada: Medir uso de metas, produtos, resultados e impacto sem perder legalidade apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -1381,19 +1409,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Gestão por resultados e indicadores no setor público?",
         "alternativas": [
+          "Confundir quantidade de atendimento com melhoria real do problema.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Gestão por resultados e indicadores no setor público.",
           "Supor que confundir quantidade de atendimento com melhoria real do problema é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Medir uso de metas, produtos, resultados e impacto sem perder legalidade apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Confundir quantidade de atendimento com melhoria real do problema.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Gestão por resultados e indicadores no setor público.",
+          "Correta: Supor que confundir quantidade de atendimento com melhoria real do problema é aceitável porque simplifica o trabalho.",
+          "Errada: Medir uso de metas, produtos, resultados e impacto sem perder legalidade apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -1407,11 +1437,11 @@ export const administracaoPublicaGestaoPublica = [
   },
   {
     "id": "administracao-publica-e-gestao-publica-06-descentralizacao-coordenacao-e-redes-de-governanca",
-    "materialTitle": "Administração Pública e Gestão Pública",
+    "materialTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "subject": "Administração Pública e Gestão Pública",
     "contest": "Tribunais / Prefeitura / Estado / União / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Pública e Gestão Pública",
+    "moduleTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Descentralização, coordenação e redes de governança",
@@ -1579,19 +1609,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Descentralização, coordenação e redes de governança, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Tratar parceria como transferência sem responsabilidade pública.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Descentralização, coordenação e redes de governança.",
+          "Medir atuação estatal em rede com órgãos, entidades, consórcios, organizações sociais e parceiros apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
           "Identificar atuação estatal em rede com órgãos, entidades, consórcios, organizações sociais e parceiros, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: mapear atores, responsabilidades, fluxo de decisão e controle, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Tratar parceria como transferência sem responsabilidade pública.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Descentralização, coordenação e redes de governança.",
+          "Errada: Medir atuação estatal em rede com órgãos, entidades, consórcios, organizações sociais e parceiros apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Correta: Identificar atuação estatal em rede com órgãos, entidades, consórcios, organizações sociais e parceiros, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -1620,19 +1652,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Descentralização, coordenação e redes de governança é:",
         "alternativas": [
-          "rede exige coordenação, prestação de contas e papel claro de cada ator",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Rede exige coordenação, prestação de contas e papel claro de cada ator.",
+          "Tratar parceria como transferência sem responsabilidade pública.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Descentralização, coordenação e redes de governança.",
+          "Medir atuação estatal em rede com órgãos, entidades, consórcios, organizações sociais e parceiros apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: Rede exige coordenação, prestação de contas e papel claro de cada ator.",
+          "Errada: Tratar parceria como transferência sem responsabilidade pública.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Descentralização, coordenação e redes de governança.",
+          "Errada: Medir atuação estatal em rede com órgãos, entidades, consórcios, organizações sociais e parceiros apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -1661,19 +1695,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Descentralização, coordenação e redes de governança?",
         "alternativas": [
+          "Tratar parceria como transferência sem responsabilidade pública.",
           "Supor que tratar parceria como transferência sem responsabilidade pública é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Descentralização, coordenação e redes de governança.",
+          "Medir atuação estatal em rede com órgãos, entidades, consórcios, organizações sociais e parceiros apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Tratar parceria como transferência sem responsabilidade pública.",
+          "Correta: Supor que tratar parceria como transferência sem responsabilidade pública é aceitável porque simplifica o trabalho.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Descentralização, coordenação e redes de governança.",
+          "Errada: Medir atuação estatal em rede com órgãos, entidades, consórcios, organizações sociais e parceiros apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -1687,11 +1723,11 @@ export const administracaoPublicaGestaoPublica = [
   },
   {
     "id": "administracao-publica-e-gestao-publica-07-gestao-de-processos-e-melhoria-continua",
-    "materialTitle": "Administração Pública e Gestão Pública",
+    "materialTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "subject": "Administração Pública e Gestão Pública",
     "contest": "Tribunais / Prefeitura / Estado / União / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Pública e Gestão Pública",
+    "moduleTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Gestão de processos e melhoria contínua",
@@ -1859,19 +1895,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Gestão de processos e melhoria contínua, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar processos administrativos com entrada, atividade, saída, responsável e ponto de controle, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Confundir organograma com fluxo de trabalho.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Gestão de processos e melhoria contínua.",
+          "Medir processos administrativos com entrada, atividade, saída, responsável e ponto de controle apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável.",
+          "Identificar processos administrativos com entrada, atividade, saída, responsável e ponto de controle, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: desenhar fluxo, gargalo, responsável e indicador, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Confundir organograma com fluxo de trabalho.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Gestão de processos e melhoria contínua.",
+          "Errada: Medir processos administrativos com entrada, atividade, saída, responsável e ponto de controle apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável.",
+          "Correta: Identificar processos administrativos com entrada, atividade, saída, responsável e ponto de controle, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ]
       },
       {
@@ -1900,19 +1938,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Gestão de processos e melhoria contínua é:",
         "alternativas": [
-          "processo bom reduz retrabalho e torna decisão rastreável",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Confundir organograma com fluxo de trabalho.",
+          "Processo bom reduz retrabalho e torna decisão rastreável.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Gestão de processos e melhoria contínua.",
+          "Medir processos administrativos com entrada, atividade, saída, responsável e ponto de controle apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Confundir organograma com fluxo de trabalho.",
+          "Correta: Processo bom reduz retrabalho e torna decisão rastreável.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Gestão de processos e melhoria contínua.",
+          "Errada: Medir processos administrativos com entrada, atividade, saída, responsável e ponto de controle apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -1941,19 +1981,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Gestão de processos e melhoria contínua?",
         "alternativas": [
-          "Supor que confundir organograma com fluxo de trabalho é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir organograma com fluxo de trabalho.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Gestão de processos e melhoria contínua.",
+          "Medir processos administrativos com entrada, atividade, saída, responsável e ponto de controle apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável.",
+          "Supor que confundir organograma com fluxo de trabalho é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Confundir organograma com fluxo de trabalho.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Gestão de processos e melhoria contínua.",
+          "Errada: Medir processos administrativos com entrada, atividade, saída, responsável e ponto de controle apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável.",
+          "Correta: Supor que confundir organograma com fluxo de trabalho é aceitável porque simplifica o trabalho."
         ]
       },
       {
@@ -1967,11 +2009,11 @@ export const administracaoPublicaGestaoPublica = [
   },
   {
     "id": "administracao-publica-e-gestao-publica-08-controle-accountability-e-transparencia-na-gestao-publica",
-    "materialTitle": "Administração Pública e Gestão Pública",
+    "materialTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "subject": "Administração Pública e Gestão Pública",
     "contest": "Tribunais / Prefeitura / Estado / União / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Pública e Gestão Pública",
+    "moduleTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Controle, accountability e transparência na gestão pública",
@@ -2139,19 +2181,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Controle, accountability e transparência na gestão pública, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Pensar que transparência é só publicar arquivo sem utilidade.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Controle, accountability e transparência na gestão pública.",
+          "Medir controle interno, externo e social como proteção do interesse público apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
           "Identificar controle interno, externo e social como proteção do interesse público, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: avaliar se dado é acessível, compreensível e fiscalizável, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Pensar que transparência é só publicar arquivo sem utilidade.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Controle, accountability e transparência na gestão pública.",
+          "Errada: Medir controle interno, externo e social como proteção do interesse público apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Correta: Identificar controle interno, externo e social como proteção do interesse público, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -2180,19 +2224,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Controle, accountability e transparência na gestão pública é:",
         "alternativas": [
-          "accountability une dever de informar, justificar e sofrer consequência",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Accountability une dever de informar, justificar e sofrer consequência.",
+          "Pensar que transparência é só publicar arquivo sem utilidade.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Controle, accountability e transparência na gestão pública.",
+          "Medir controle interno, externo e social como proteção do interesse público apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: Accountability une dever de informar, justificar e sofrer consequência.",
+          "Errada: Pensar que transparência é só publicar arquivo sem utilidade.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Controle, accountability e transparência na gestão pública.",
+          "Errada: Medir controle interno, externo e social como proteção do interesse público apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -2221,19 +2267,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Controle, accountability e transparência na gestão pública?",
         "alternativas": [
+          "Pensar que transparência é só publicar arquivo sem utilidade.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Controle, accountability e transparência na gestão pública.",
+          "Medir controle interno, externo e social como proteção do interesse público apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
           "Supor que pensar que transparência é só publicar arquivo sem utilidade é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Pensar que transparência é só publicar arquivo sem utilidade.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Controle, accountability e transparência na gestão pública.",
+          "Errada: Medir controle interno, externo e social como proteção do interesse público apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Correta: Supor que pensar que transparência é só publicar arquivo sem utilidade é aceitável porque simplifica o trabalho.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -2247,11 +2295,11 @@ export const administracaoPublicaGestaoPublica = [
   },
   {
     "id": "administracao-publica-e-gestao-publica-09-inovacao-transformacao-digital-e-governo-orientado-ao-cidadao",
-    "materialTitle": "Administração Pública e Gestão Pública",
+    "materialTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "subject": "Administração Pública e Gestão Pública",
     "contest": "Tribunais / Prefeitura / Estado / União / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Pública e Gestão Pública",
+    "moduleTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Inovação, transformação digital e governo orientado ao cidadão",
@@ -2419,19 +2467,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Inovação, transformação digital e governo orientado ao cidadão, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Achar que tecnologia resolve processo mal desenhado.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Inovação, transformação digital e governo orientado ao cidadão.",
           "Identificar digitalização com foco no usuário, simplificação e proteção de dados, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Medir digitalização com foco no usuário, simplificação e proteção de dados apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: revisar jornada do usuário antes de automatizar, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Achar que tecnologia resolve processo mal desenhado.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Inovação, transformação digital e governo orientado ao cidadão.",
+          "Correta: Identificar digitalização com foco no usuário, simplificação e proteção de dados, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Medir digitalização com foco no usuário, simplificação e proteção de dados apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -2460,19 +2510,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Inovação, transformação digital e governo orientado ao cidadão é:",
         "alternativas": [
-          "serviço digital ruim apenas transfere burocracia para a tela",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Achar que tecnologia resolve processo mal desenhado.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Inovação, transformação digital e governo orientado ao cidadão.",
+          "Medir digitalização com foco no usuário, simplificação e proteção de dados apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável.",
+          "Serviço digital ruim apenas transfere burocracia para a tela."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Achar que tecnologia resolve processo mal desenhado.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Inovação, transformação digital e governo orientado ao cidadão.",
+          "Errada: Medir digitalização com foco no usuário, simplificação e proteção de dados apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável.",
+          "Correta: Serviço digital ruim apenas transfere burocracia para a tela."
         ]
       },
       {
@@ -2501,19 +2553,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Inovação, transformação digital e governo orientado ao cidadão?",
         "alternativas": [
-          "Supor que achar que tecnologia resolve processo mal desenhado é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Achar que tecnologia resolve processo mal desenhado.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Inovação, transformação digital e governo orientado ao cidadão.",
+          "Medir digitalização com foco no usuário, simplificação e proteção de dados apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável.",
+          "Supor que achar que tecnologia resolve processo mal desenhado é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Achar que tecnologia resolve processo mal desenhado.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Inovação, transformação digital e governo orientado ao cidadão.",
+          "Errada: Medir digitalização com foco no usuário, simplificação e proteção de dados apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável.",
+          "Correta: Supor que achar que tecnologia resolve processo mal desenhado é aceitável porque simplifica o trabalho."
         ]
       },
       {
@@ -2527,11 +2581,11 @@ export const administracaoPublicaGestaoPublica = [
   },
   {
     "id": "administracao-publica-e-gestao-publica-10-casos-integrados-de-gestao-publica-para-tribunais-e-concursos",
-    "materialTitle": "Administração Pública e Gestão Pública",
+    "materialTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "subject": "Administração Pública e Gestão Pública",
     "contest": "Tribunais / Prefeitura / Estado / União / Área administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Administração Pública e Gestão Pública",
+    "moduleTitle": "Administração Pública e Gestão Pública 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Casos integrados de gestão pública para tribunais e concursos",
@@ -2699,19 +2753,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Casos integrados de gestão pública para tribunais e concursos, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Marcar alternativa bonita, mas sem indicador ou controle.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Casos integrados de gestão pública para tribunais e concursos.",
           "Identificar resolução de casos mistos envolvendo planejamento, execução, controle e atendimento, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Medir resolução de casos mistos envolvendo planejamento, execução, controle e atendimento apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: usar matriz: problema, ação, responsável, indicador, risco e controle, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Marcar alternativa bonita, mas sem indicador ou controle.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Casos integrados de gestão pública para tribunais e concursos.",
+          "Correta: Identificar resolução de casos mistos envolvendo planejamento, execução, controle e atendimento, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Medir resolução de casos mistos envolvendo planejamento, execução, controle e atendimento apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -2740,19 +2796,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Casos integrados de gestão pública para tribunais e concursos é:",
         "alternativas": [
-          "o candidato deve decidir com base em finalidade pública, legalidade, resultado e controle",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Marcar alternativa bonita, mas sem indicador ou controle.",
+          "O candidato deve decidir com base em finalidade pública, legalidade, resultado e controle.",
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Casos integrados de gestão pública para tribunais e concursos.",
+          "Medir resolução de casos mistos envolvendo planejamento, execução, controle e atendimento apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Marcar alternativa bonita, mas sem indicador ou controle.",
+          "Correta: O candidato deve decidir com base em finalidade pública, legalidade, resultado e controle.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Casos integrados de gestão pública para tribunais e concursos.",
+          "Errada: Medir resolução de casos mistos envolvendo planejamento, execução, controle e atendimento apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {
@@ -2781,19 +2839,21 @@ export const administracaoPublicaGestaoPublica = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Casos integrados de gestão pública para tribunais e concursos?",
         "alternativas": [
+          "Marcar alternativa bonita, mas sem indicador ou controle.",
           "Supor que marcar alternativa bonita, mas sem indicador ou controle é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Casos integrados de gestão pública para tribunais e concursos.",
+          "Medir resolução de casos mistos envolvendo planejamento, execução, controle e atendimento apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Marcar alternativa bonita, mas sem indicador ou controle.",
+          "Correta: Supor que marcar alternativa bonita, mas sem indicador ou controle é aceitável porque simplifica o trabalho.",
+          "Errada: Confundir mudança de governo com alteração automática da estrutura permanente da Administração Pública em Casos integrados de gestão pública para tribunais e concursos.",
+          "Errada: Medir resolução de casos mistos envolvendo planejamento, execução, controle e atendimento apenas pelo ato publicado, sem comparar objetivo, indicador e resultado entregue ao cidadão.",
+          "Errada: Usar indicador de produto como se fosse impacto final da política pública, sem demonstrar mudança social mensurável."
         ]
       },
       {

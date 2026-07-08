@@ -17579,7 +17579,7 @@ button {
 
 .apostila-ratings-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
   gap: 0.55rem;
 }
 
@@ -17588,14 +17588,22 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: 0.7rem;
+  min-width: 0;
   border: 1px solid #dbeafe;
   border-radius: 0.75rem;
   background: #f8fbff;
   padding: 0.65rem;
 }
 
+.apostila-ratings-grid > span strong {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  line-height: 1.2;
+}
+
 .apostila-rating {
   display: inline-flex;
+  flex: 0 0 auto;
   gap: 0.2rem;
 }
 
@@ -18060,7 +18068,7 @@ button {
   max-width: 980px;
   margin-top: 1rem;
   border-top: 1px solid #dbeafe;
-  padding-top: 1rem;
+  padding: 1rem 0 1.25rem;
 }
 
 .apostila-reader-actions > span {
@@ -18105,6 +18113,10 @@ button {
 [data-theme="dark"] .library-icon-action {
   border-color: rgba(125, 164, 215, 0.22);
   background: #111b2d;
+}
+
+[data-theme="dark"] .library-icon-action {
+  color: #cbd5f5;
 }
 
 [data-theme="dark"] .library-hero h1,
@@ -18490,11 +18502,43 @@ button {
   }
 
   .library-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .library-card {
     min-height: 0;
+  }
+
+  .library-card-body {
+    gap: 0.4rem;
+    padding: 0.6rem 0.6rem 0.5rem;
+  }
+
+  .library-card h2 {
+    font-size: 0.82rem;
+  }
+
+  .library-card-actions {
+    gap: 0.35rem;
+    padding: 0 0.6rem 0.6rem;
+  }
+
+  .library-icon-action {
+    width: 1.9rem;
+  }
+
+  .library-card-actions-admin {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .library-card-actions-admin .library-primary-action {
+    flex: 1 1 100%;
+  }
+
+  .library-card-actions-admin .library-icon-action {
+    flex: 1 1 0;
+    width: auto;
   }
 
   .library-cover {
@@ -20290,6 +20334,353 @@ button {
   background: rgba(16, 185, 129, 0.2) !important;
 }
 
+/* Last mobile guard for Biblioteca apostila reader controls. */
+.library-viewer .apostila-reader .apostila-reader-actions .apostila-reader-nav-button,
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button,
+.library-viewer .apostila-reader .apostila-reader-actions .apostila-reader-nav-button:disabled,
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button:disabled {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+.library-viewer .apostila-reader .apostila-reader-actions .apostila-reader-nav-button *,
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button *,
+.library-viewer .apostila-reader .apostila-reader-actions .apostila-reader-nav-button:disabled *,
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button:disabled * {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+.library-viewer .apostila-reader .apostila-meta-grid span {
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+.library-viewer .apostila-reader .apostila-meta-grid span:nth-child(3) {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+.library-viewer .apostila-reader .apostila-meta-grid span:nth-child(3) svg {
+  flex: 0 0 auto !important;
+}
+
+@media (max-width: 720px) {
+  .library-viewer .apostila-reader {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar {
+    flex: 0 0 auto !important;
+    max-height: 12.75rem !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid rgba(125, 164, 215, 0.24) !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar-head {
+    gap: 0.15rem !important;
+    padding: 0.85rem 1rem 0.7rem !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar-head strong {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar nav {
+    display: flex !important;
+    gap: 0.55rem !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    padding: 0.65rem 0.9rem 0.85rem !important;
+    scroll-snap-type: x proximity !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar nav button {
+    flex: 0 0 min(82vw, 21rem) !important;
+    min-height: 4.4rem !important;
+    max-height: 4.4rem !important;
+    padding: 0.65rem !important;
+    scroll-snap-align: start !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar nav button strong,
+  .library-viewer .apostila-reader-sidebar nav button small {
+    display: -webkit-box !important;
+    overflow: hidden !important;
+    -webkit-box-orient: vertical !important;
+    white-space: normal !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar nav button strong,
+  .library-viewer .apostila-reader-sidebar nav button small {
+    -webkit-line-clamp: 1 !important;
+  }
+
+  .library-viewer .apostila-reader-content {
+    flex: 1 1 auto !important;
+    padding: 1rem 0.85rem 0 !important;
+  }
+
+  .library-viewer .apostila-reader-top {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 0.65rem !important;
+  }
+
+  .library-viewer .apostila-reader-top h2 {
+    font-size: 1.25rem !important;
+    line-height: 1.15 !important;
+  }
+
+  .library-viewer .apostila-reader-top .apostila-difficulty-badge {
+    justify-self: start !important;
+  }
+
+  .library-viewer .apostila-meta-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 0.45rem !important;
+  }
+
+  .library-viewer .apostila-meta-grid span {
+    width: 100% !important;
+    min-height: 2.15rem !important;
+    justify-content: flex-start !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+
+  .library-viewer .apostila-meta-grid span:nth-child(3),
+  .library-viewer .apostila-meta-grid span:nth-child(4) {
+    grid-column: 1 / -1 !important;
+  }
+
+  .library-viewer .apostila-reader-actions {
+    display: grid !important;
+    grid-template-columns: minmax(5.4rem, 1fr) auto minmax(5.4rem, 1fr) !important;
+    gap: 0.45rem !important;
+    margin-right: -0.85rem !important;
+    margin-left: -0.85rem !important;
+    padding-right: 0.85rem !important;
+    padding-left: 0.85rem !important;
+  }
+
+  .library-viewer .apostila-reader-actions button,
+  .library-viewer .apostila-reader-actions .apostila-reader-nav-button {
+    min-width: 0 !important;
+    width: 100% !important;
+    padding-inline: 0.7rem !important;
+  }
+
+  .library-viewer .apostila-reader-actions > span {
+    min-width: max-content !important;
+    font-size: 0.78rem !important;
+  }
+}
+
+/* Final contrast guard for apostila reader header/footer controls. */
+.library-viewer .apostila-reader .apostila-reader-top .apostila-difficulty-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  align-self: start !important;
+  width: auto !important;
+  min-width: max-content !important;
+  max-width: none !important;
+  min-height: 1.9rem !important;
+  padding: 0.45rem 0.9rem !important;
+  border: 1px solid rgba(147, 197, 253, 0.86) !important;
+  border-radius: 999px !important;
+  background: #1d4ed8 !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  font-size: 0.75rem !important;
+  font-weight: 950 !important;
+  line-height: 1 !important;
+  text-shadow: none !important;
+  box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.45), 0 8px 18px rgba(15, 23, 42, 0.28) !important;
+  white-space: nowrap !important;
+}
+
+.library-viewer .apostila-reader .apostila-reader-actions .apostila-reader-nav-button:disabled,
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button:disabled {
+  opacity: 1 !important;
+  border: 1px solid rgba(100, 116, 139, 0.95) !important;
+  background: #253247 !important;
+  color: #e2e8f0 !important;
+  -webkit-text-fill-color: #e2e8f0 !important;
+  box-shadow: none !important;
+}
+
+.library-viewer .apostila-reader .apostila-reader-actions .apostila-reader-nav-button:disabled *,
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button:disabled * {
+  color: #e2e8f0 !important;
+  -webkit-text-fill-color: #e2e8f0 !important;
+  stroke: #cbd5e1 !important;
+}
+
+.library-viewer .apostila-reader .apostila-reader-actions .apostila-reader-nav-button:disabled:hover,
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button:disabled:hover {
+  transform: none !important;
+}
+
+.library-viewer .apostila-reader .apostila-reader-actions .apostila-reader-nav-button,
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+.library-viewer .apostila-reader .apostila-reader-actions .apostila-reader-nav-button *,
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button * {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+.library-viewer .apostila-reader .apostila-meta-grid span {
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+.library-viewer .apostila-reader .apostila-meta-grid span:nth-child(3) {
+  max-width: min(100%, 34rem) !important;
+}
+
+.library-viewer .apostila-reader .apostila-meta-grid span:nth-child(3) {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+.library-viewer .apostila-reader .apostila-meta-grid span:nth-child(3) svg {
+  flex: 0 0 auto !important;
+}
+
+@media (max-width: 720px) {
+  .library-viewer .apostila-reader {
+    display: flex !important;
+    min-height: 0 !important;
+    flex-direction: column !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar {
+    flex: 0 0 auto !important;
+    max-height: 12.75rem !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid rgba(125, 164, 215, 0.24) !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar-head {
+    gap: 0.15rem !important;
+    padding: 0.85rem 1rem 0.7rem !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar-head strong {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar nav {
+    display: flex !important;
+    gap: 0.55rem !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    padding: 0.65rem 0.9rem 0.85rem !important;
+    scroll-snap-type: x proximity !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar nav button {
+    flex: 0 0 min(82vw, 21rem) !important;
+    min-height: 4.4rem !important;
+    max-height: 4.4rem !important;
+    padding: 0.65rem !important;
+    scroll-snap-align: start !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar nav button strong,
+  .library-viewer .apostila-reader-sidebar nav button small {
+    display: -webkit-box !important;
+    overflow: hidden !important;
+    -webkit-box-orient: vertical !important;
+    white-space: normal !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar nav button strong {
+    -webkit-line-clamp: 1 !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar nav button small {
+    -webkit-line-clamp: 1 !important;
+  }
+
+  .library-viewer .apostila-reader-content {
+    flex: 1 1 auto !important;
+    padding: 1rem 0.85rem 0 !important;
+  }
+
+  .library-viewer .apostila-reader-top {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 0.65rem !important;
+  }
+
+  .library-viewer .apostila-reader-top h2 {
+    font-size: 1.25rem !important;
+    line-height: 1.15 !important;
+  }
+
+  .library-viewer .apostila-reader-top .apostila-difficulty-badge {
+    justify-self: start !important;
+  }
+
+  .library-viewer .apostila-meta-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 0.45rem !important;
+  }
+
+  .library-viewer .apostila-meta-grid span {
+    width: 100% !important;
+    min-height: 2.15rem !important;
+    justify-content: flex-start !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+
+  .library-viewer .apostila-meta-grid span:nth-child(3),
+  .library-viewer .apostila-meta-grid span:nth-child(4) {
+    grid-column: 1 / -1 !important;
+  }
+
+  .library-viewer .apostila-reader-actions {
+    display: grid !important;
+    grid-template-columns: minmax(5.4rem, 1fr) auto minmax(5.4rem, 1fr) !important;
+    gap: 0.45rem !important;
+    margin-right: -0.85rem !important;
+    margin-left: -0.85rem !important;
+    padding-right: 0.85rem !important;
+    padding-left: 0.85rem !important;
+  }
+
+  .library-viewer .apostila-reader-actions button,
+  .library-viewer .apostila-reader-actions .apostila-reader-nav-button {
+    min-width: 0 !important;
+    width: 100% !important;
+    padding-inline: 0.7rem !important;
+  }
+
+  .library-viewer .apostila-reader-actions > span {
+    min-width: max-content !important;
+    font-size: 0.78rem !important;
+  }
+}
+
 .library-viewer .apostila-tutor-chat,
 .library-viewer .apostila-tutor-messages,
 .library-viewer .apostila-tutor-composer textarea {
@@ -20856,16 +21247,92 @@ body,
   line-height: 1.05 !important;
 }
 
+.library-viewer .apostila-reader-top > span,
 .library-viewer .apostila-reader-top .aprova-badge {
+  display: inline-flex !important;
+  width: auto !important;
+  min-width: max-content !important;
+  max-width: none !important;
   min-height: 1.85rem !important;
+  height: auto !important;
   align-self: start !important;
-  border-color: rgba(147, 197, 253, 0.5) !important;
-  background: #2563eb !important;
+  justify-self: end !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: 1px solid rgba(147, 197, 253, 0.55) !important;
+  border-radius: 999px !important;
+  background: #1d4ed8 !important;
+  box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.35), 0 8px 18px rgba(15, 23, 42, 0.25) !important;
   color: #ffffff !important;
+  font-weight: 900 !important;
   line-height: 1 !important;
-  padding: 0.45rem 0.7rem !important;
+  padding: 0.45rem 0.85rem !important;
+  text-shadow: none !important;
   white-space: nowrap !important;
   -webkit-text-fill-color: #ffffff !important;
+}
+
+.library-viewer .apostila-reader-top > span *,
+.library-viewer .apostila-reader-top .aprova-badge * {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+.library-viewer .apostila-ratings-grid {
+  grid-template-columns: repeat(auto-fit, minmax(122px, 1fr)) !important;
+}
+
+.library-viewer .apostila-ratings-grid > span {
+  gap: 0.55rem !important;
+  padding: 0.7rem 0.75rem !important;
+}
+
+.library-viewer .apostila-ratings-grid > span strong {
+  min-width: 0 !important;
+  overflow-wrap: anywhere !important;
+  line-height: 1.18 !important;
+}
+
+.library-viewer .apostila-rating {
+  flex: 0 0 auto !important;
+}
+
+.library-viewer .apostila-reader-actions {
+  position: sticky !important;
+  bottom: 0 !important;
+  z-index: 8 !important;
+  max-width: none !important;
+  margin: 1.25rem -1rem 0 !important;
+  padding: 0.85rem 1rem calc(0.9rem + env(safe-area-inset-bottom)) !important;
+  border-top: 1px solid rgba(125, 164, 215, 0.24) !important;
+  background: rgba(11, 17, 32, 0.96) !important;
+  backdrop-filter: blur(14px) !important;
+}
+
+.library-viewer .apostila-reader-actions button {
+  min-width: 6.75rem !important;
+}
+
+.library-viewer .apostila-reader-actions button:disabled {
+  border: 1px solid rgba(71, 85, 105, 0.85) !important;
+  background: #1e293b !important;
+  color: #cbd5e1 !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #cbd5e1 !important;
+}
+
+.library-viewer .apostila-reader-actions button:disabled * {
+  color: #cbd5e1 !important;
+  -webkit-text-fill-color: #cbd5e1 !important;
+}
+
+.library-viewer .apostila-reader-actions button:disabled svg {
+  color: #94a3b8 !important;
+  stroke: #94a3b8 !important;
+}
+
+.library-viewer .apostila-reader-content {
+  padding-bottom: 1rem !important;
 }
 
 @media (max-width: 640px) {
@@ -20873,8 +21340,9 @@ body,
     grid-template-columns: 1fr !important;
   }
 
-.library-viewer .apostila-reader-top .aprova-badge {
-  justify-self: start;
+  .library-viewer .apostila-reader-top > span,
+  .library-viewer .apostila-reader-top .aprova-badge {
+    justify-self: start !important;
   }
 }
 
@@ -21262,4 +21730,149 @@ body,
 .library-viewer .apostila-question-feedback.is-correct {
   border-color: rgba(52, 211, 153, 0.48) !important;
   background: rgba(16, 185, 129, 0.2) !important;
+}
+
+/* Last mobile guard for Biblioteca apostila reader controls. */
+.library-viewer .apostila-reader .apostila-reader-actions .apostila-reader-nav-button,
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button,
+.library-viewer .apostila-reader .apostila-reader-actions .apostila-reader-nav-button:disabled,
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button:disabled {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+.library-viewer .apostila-reader .apostila-reader-actions .apostila-reader-nav-button *,
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button *,
+.library-viewer .apostila-reader .apostila-reader-actions .apostila-reader-nav-button:disabled *,
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button:disabled * {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+.library-viewer .apostila-reader .apostila-meta-grid span {
+  min-width: 0 !important;
+  max-width: 100% !important;
+}
+
+.library-viewer .apostila-reader .apostila-meta-grid span:nth-child(3) {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+.library-viewer .apostila-reader .apostila-meta-grid span:nth-child(3) svg {
+  flex: 0 0 auto !important;
+}
+
+@media (max-width: 720px) {
+  .library-viewer .apostila-reader {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar {
+    flex: 0 0 auto !important;
+    max-height: 12.75rem !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid rgba(125, 164, 215, 0.24) !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar-head {
+    gap: 0.15rem !important;
+    padding: 0.85rem 1rem 0.7rem !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar-head strong {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar nav {
+    display: flex !important;
+    gap: 0.55rem !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    padding: 0.65rem 0.9rem 0.85rem !important;
+    scroll-snap-type: x proximity !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar nav button {
+    flex: 0 0 min(82vw, 21rem) !important;
+    min-height: 4.4rem !important;
+    max-height: 4.4rem !important;
+    padding: 0.65rem !important;
+    scroll-snap-align: start !important;
+  }
+
+  .library-viewer .apostila-reader-sidebar nav button strong,
+  .library-viewer .apostila-reader-sidebar nav button small {
+    display: -webkit-box !important;
+    overflow: hidden !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-line-clamp: 1 !important;
+    white-space: normal !important;
+  }
+
+  .library-viewer .apostila-reader-content {
+    flex: 1 1 auto !important;
+    padding: 1rem 0.85rem 0 !important;
+  }
+
+  .library-viewer .apostila-reader-top {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 0.65rem !important;
+  }
+
+  .library-viewer .apostila-reader-top h2 {
+    font-size: 1.25rem !important;
+    line-height: 1.15 !important;
+  }
+
+  .library-viewer .apostila-reader-top .apostila-difficulty-badge {
+    justify-self: start !important;
+  }
+
+  .library-viewer .apostila-meta-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 0.45rem !important;
+  }
+
+  .library-viewer .apostila-meta-grid span {
+    width: 100% !important;
+    min-height: 2.15rem !important;
+    justify-content: flex-start !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+
+  .library-viewer .apostila-meta-grid span:nth-child(3),
+  .library-viewer .apostila-meta-grid span:nth-child(4) {
+    grid-column: 1 / -1 !important;
+  }
+
+  .library-viewer .apostila-reader-actions {
+    display: grid !important;
+    grid-template-columns: minmax(5.4rem, 1fr) auto minmax(5.4rem, 1fr) !important;
+    gap: 0.45rem !important;
+    margin-right: -0.85rem !important;
+    margin-left: -0.85rem !important;
+    padding-right: 0.85rem !important;
+    padding-left: 0.85rem !important;
+  }
+
+  .library-viewer .apostila-reader-actions button,
+  .library-viewer .apostila-reader-actions .apostila-reader-nav-button {
+    min-width: 0 !important;
+    width: 100% !important;
+    padding-inline: 0.7rem !important;
+  }
+
+  .library-viewer .apostila-reader-actions > span {
+    min-width: max-content !important;
+    font-size: 0.78rem !important;
+  }
 }

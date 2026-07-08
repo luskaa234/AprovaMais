@@ -7,11 +7,11 @@
 export const direitoConstitucionalAvancado = [
   {
     "id": "supremacia-constitucional-rigidez-e-poder-constituinte",
-    "materialTitle": "Direito Constitucional Avançado",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Supremacia constitucional, rigidez e poder constituinte",
@@ -133,7 +133,8 @@ export const direitoConstitucionalAvancado = [
           "Constituição rígida ocupa posição superior e só pode ser alterada por procedimento mais difícil que o das leis comuns.",
           "Dizer que emenda constitucional pode tudo porque é aprovada pelo Congresso.",
           "Confundir poder constituinte originário com poder de reforma.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Tratar Supremacia constitucional, rigidez e poder constituinte como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -181,13 +182,14 @@ export const direitoConstitucionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Dizer que emenda constitucional pode tudo porque é aprovada pelo Congresso.",
+          "Confundir poder constituinte originário com poder de reforma.",
           "Supremacia constitucional justifica controle de constitucionalidade e invalidação de leis incompatíveis com a Constituição.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Confundir poder constituinte originário com poder de reforma."
+          "Tratar Supremacia constitucional, rigidez e poder constituinte como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -216,11 +218,11 @@ export const direitoConstitucionalAvancado = [
   },
   {
     "id": "principios-fundamentais-e-objetivos-da-republica",
-    "materialTitle": "Direito Constitucional Avançado",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Princípios fundamentais e objetivos da República",
@@ -339,13 +341,14 @@ export const direitoConstitucionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Princípios fundamentais e objetivos da República, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Fundamentos são bases de existência do Estado, como soberania, cidadania, dignidade, valores sociais do trabalho e pluralismo político.",
           "Chamar redução de desigualdades de fundamento, quando é objetivo.",
+          "Fundamentos são bases de existência do Estado, como soberania, cidadania, dignidade, valores sociais do trabalho e pluralismo político.",
           "Tratar princípios fundamentais como frases sem efeito jurídico.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Tratar Princípios fundamentais e objetivos da República como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta resume o núcleo do tema: Fundamentos são bases de existência do Estado, como soberania, cidadania, dignidade, valores sociais do trabalho e pluralismo político."
       },
       {
@@ -390,13 +393,14 @@ export const direitoConstitucionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Chamar redução de desigualdades de fundamento, quando é objetivo.",
           "Princípios de relações internacionais direcionam a atuação externa do Brasil, incluindo prevalência dos direitos humanos e solução pacífica de conflitos.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Tratar princípios fundamentais como frases sem efeito jurídico."
+          "Tratar princípios fundamentais como frases sem efeito jurídico.",
+          "Tratar Princípios fundamentais e objetivos da República como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -425,11 +429,11 @@ export const direitoConstitucionalAvancado = [
   },
   {
     "id": "direitos-e-garantias-individuais-e-coletivos",
-    "materialTitle": "Direito Constitucional Avançado",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Direitos e garantias individuais e coletivos",
@@ -548,13 +552,14 @@ export const direitoConstitucionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Direitos e garantias individuais e coletivos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Direitos indicam posições protegidas; garantias são instrumentos para defender esses direitos contra ameaça ou violação.",
           "Achar que direito fundamental é absoluto.",
           "Usar mandado de segurança quando há necessidade de habeas corpus.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Direitos indicam posições protegidas; garantias são instrumentos para defender esses direitos contra ameaça ou violação.",
+          "Tratar Direitos e garantias individuais e coletivos como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: Direitos indicam posições protegidas; garantias são instrumentos para defender esses direitos contra ameaça ou violação."
       },
       {
@@ -599,13 +604,14 @@ export const direitoConstitucionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Remédios constitucionais, como habeas corpus e mandado de segurança, têm hipóteses próprias e não são intercambiáveis.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Usar mandado de segurança quando há necessidade de habeas corpus."
+          "Achar que direito fundamental é absoluto.",
+          "Usar mandado de segurança quando há necessidade de habeas corpus.",
+          "Tratar Direitos e garantias individuais e coletivos como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado.",
+          "Remédios constitucionais, como habeas corpus e mandado de segurança, têm hipóteses próprias e não são intercambiáveis."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -634,11 +640,11 @@ export const direitoConstitucionalAvancado = [
   },
   {
     "id": "direitos-sociais-nacionalidade-direitos-politicos-e-partidos",
-    "materialTitle": "Direito Constitucional Avançado",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Direitos sociais, nacionalidade, direitos políticos e partidos",
@@ -760,7 +766,8 @@ export const direitoConstitucionalAvancado = [
           "Direitos sociais conectam liberdade formal a condições mínimas de participação social.",
           "Confundir nacionalidade com naturalidade.",
           "Dizer que todo direito político é permitido a qualquer residente.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Tratar Direitos sociais, nacionalidade, direitos políticos e partidos como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -808,13 +815,14 @@ export const direitoConstitucionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Confundir nacionalidade com naturalidade.",
+          "Dizer que todo direito político é permitido a qualquer residente.",
+          "Tratar Direitos sociais, nacionalidade, direitos políticos e partidos como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
           "Direitos políticos envolvem votar, ser votado, participar de partidos e respeitar condições de elegibilidade e inelegibilidades.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Dizer que todo direito político é permitido a qualquer residente."
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -843,11 +851,11 @@ export const direitoConstitucionalAvancado = [
   },
   {
     "id": "federacao-e-reparticao-de-competencias",
-    "materialTitle": "Direito Constitucional Avançado",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Federação e repartição de competências",
@@ -969,7 +977,8 @@ export const direitoConstitucionalAvancado = [
           "Federação distribui autonomia entre União, Estados, Distrito Federal e Municípios, impedindo concentração total de poder.",
           "Achar que hierarquia política permite União mandar em tudo.",
           "Confundir competência comum com concorrente.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Tratar Federação e repartição de competências como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1017,13 +1026,14 @@ export const direitoConstitucionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Competência concorrente permite normas gerais pela União e suplementação pelos Estados, conforme o tema.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Confundir competência comum com concorrente."
+          "Achar que hierarquia política permite União mandar em tudo.",
+          "Confundir competência comum com concorrente.",
+          "Tratar Federação e repartição de competências como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado.",
+          "Competência concorrente permite normas gerais pela União e suplementação pelos Estados, conforme o tema."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1052,11 +1062,11 @@ export const direitoConstitucionalAvancado = [
   },
   {
     "id": "administracao-publica-constitucional",
-    "materialTitle": "Direito Constitucional Avançado",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Administração Pública constitucional",
@@ -1175,13 +1185,14 @@ export const direitoConstitucionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Administração Pública constitucional, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Legalidade administrativa exige atuação autorizada pelo Direito, não simples vontade do agente público.",
           "Confundir publicidade com propaganda pessoal.",
           "Achar que eficiência permite descumprir legalidade.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Tratar Administração Pública constitucional como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado.",
+          "Legalidade administrativa exige atuação autorizada pelo Direito, não simples vontade do agente público."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: Legalidade administrativa exige atuação autorizada pelo Direito, não simples vontade do agente público."
       },
       {
@@ -1226,13 +1237,14 @@ export const direitoConstitucionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Confundir publicidade com propaganda pessoal.",
+          "Achar que eficiência permite descumprir legalidade.",
+          "Tratar Administração Pública constitucional como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
           "Moralidade, publicidade e eficiência ampliam o controle sobre finalidade, transparência e resultado da atuação administrativa.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Achar que eficiência permite descumprir legalidade."
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1261,11 +1273,11 @@ export const direitoConstitucionalAvancado = [
   },
   {
     "id": "poder-legislativo-e-processo-legislativo",
-    "materialTitle": "Direito Constitucional Avançado",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Poder Legislativo e processo legislativo",
@@ -1384,13 +1396,14 @@ export const direitoConstitucionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Poder Legislativo e processo legislativo, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "O Legislativo legisla, fiscaliza e representa a sociedade, não se limitando à criação de leis.",
           "Dizer que CPI pode decretar prisão como pena.",
           "Confundir sanção presidencial com promulgação legislativa.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "O Legislativo legisla, fiscaliza e representa a sociedade, não se limitando à criação de leis.",
+          "Tratar Poder Legislativo e processo legislativo como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: O Legislativo legisla, fiscaliza e representa a sociedade, não se limitando à criação de leis."
       },
       {
@@ -1436,9 +1449,10 @@ export const direitoConstitucionalAvancado = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Comissões parlamentares de inquérito possuem poderes de investigação próprios de autoridades judiciais, mas não podem julgar ou condenar.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Confundir sanção presidencial com promulgação legislativa."
+          "Dizer que CPI pode decretar prisão como pena.",
+          "Confundir sanção presidencial com promulgação legislativa.",
+          "Tratar Poder Legislativo e processo legislativo como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1470,11 +1484,11 @@ export const direitoConstitucionalAvancado = [
   },
   {
     "id": "poder-executivo-responsabilidade-e-defesa-do-estado",
-    "materialTitle": "Direito Constitucional Avançado",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Poder Executivo, responsabilidade e defesa do Estado",
@@ -1593,13 +1607,14 @@ export const direitoConstitucionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Poder Executivo, responsabilidade e defesa do Estado, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "O Executivo acumula funções de chefia de Estado, chefia de governo e direção superior da administração.",
           "Tratar medida excepcional como suspensão total da Constituição.",
+          "O Executivo acumula funções de chefia de Estado, chefia de governo e direção superior da administração.",
           "Confundir crime comum com crime de responsabilidade.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Tratar Poder Executivo, responsabilidade e defesa do Estado como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta resume o núcleo do tema: O Executivo acumula funções de chefia de Estado, chefia de governo e direção superior da administração."
       },
       {
@@ -1644,13 +1659,14 @@ export const direitoConstitucionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Tratar medida excepcional como suspensão total da Constituição.",
           "Estado de defesa e estado de sítio são regimes excepcionais, temporários e controlados, não carta branca para arbitrariedade.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Confundir crime comum com crime de responsabilidade."
+          "Confundir crime comum com crime de responsabilidade.",
+          "Tratar Poder Executivo, responsabilidade e defesa do Estado como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1679,11 +1695,11 @@ export const direitoConstitucionalAvancado = [
   },
   {
     "id": "poder-judiciario-funcoes-essenciais-e-controle-de-constitucionalidade",
-    "materialTitle": "Direito Constitucional Avançado",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Poder Judiciário, funções essenciais e controle de constitucionalidade",
@@ -1802,13 +1818,14 @@ export const direitoConstitucionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Poder Judiciário, funções essenciais e controle de constitucionalidade, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Judiciário aplica a Constituição e controla validade de atos normativos, preservando supremacia constitucional.",
           "Confundir controle difuso com concentrado.",
           "Achar que toda decisão judicial produz efeito geral automático.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Tratar Poder Judiciário, funções essenciais e controle de constitucionalidade como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
+          "Judiciário aplica a Constituição e controla validade de atos normativos, preservando supremacia constitucional.",
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta resume o núcleo do tema: Judiciário aplica a Constituição e controla validade de atos normativos, preservando supremacia constitucional."
       },
       {
@@ -1853,13 +1870,14 @@ export const direitoConstitucionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Ministério Público, advocacia pública, defensoria e advocacia privada exercem funções essenciais à justiça com papéis distintos.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Achar que toda decisão judicial produz efeito geral automático."
+          "Confundir controle difuso com concentrado.",
+          "Achar que toda decisão judicial produz efeito geral automático.",
+          "Tratar Poder Judiciário, funções essenciais e controle de constitucionalidade como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado.",
+          "Ministério Público, advocacia pública, defensoria e advocacia privada exercem funções essenciais à justiça com papéis distintos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1888,11 +1906,11 @@ export const direitoConstitucionalAvancado = [
   },
   {
     "id": "ordem-social-seguranca-publica-e-revisao-integrada",
-    "materialTitle": "Direito Constitucional Avançado",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Ordem social, segurança pública e revisão integrada",
@@ -2011,13 +2029,14 @@ export const direitoConstitucionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Ordem social, segurança pública e revisão integrada, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Ordem social busca bem-estar e justiça social por meio de saúde, previdência, assistência, educação, cultura, meio ambiente e família.",
           "Achar que segurança pública é só repressão.",
           "Misturar atribuições constitucionais de órgãos policiais.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Tratar Ordem social, segurança pública e revisão integrada como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
+          "Ordem social busca bem-estar e justiça social por meio de saúde, previdência, assistência, educação, cultura, meio ambiente e família.",
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta resume o núcleo do tema: Ordem social busca bem-estar e justiça social por meio de saúde, previdência, assistência, educação, cultura, meio ambiente e família."
       },
       {
@@ -2062,13 +2081,14 @@ export const direitoConstitucionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Achar que segurança pública é só repressão.",
+          "Misturar atribuições constitucionais de órgãos policiais.",
           "Polícia ostensiva, judiciária e penal possuem funções distintas, embora atuem em sistema de proteção social mais amplo.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Misturar atribuições constitucionais de órgãos policiais."
+          "Tratar Ordem social, segurança pública e revisão integrada como conselho político sem força normativa, ignorando supremacia constitucional e controle de validade.",
+          "Restringir direito fundamental sem base constitucional, proporcionalidade ou situação excepcional indicada no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {

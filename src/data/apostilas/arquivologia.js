@@ -7,11 +7,11 @@
 export const arquivologia = [
   {
     "id": "arquivologia-01-conceitos-fundamentais-arquivo-documento-e-informacao",
-    "materialTitle": "Arquivologia",
+    "materialTitle": "Arquivologia 10/10 Plus",
     "subject": "Arquivologia",
     "contest": "Tribunais / Área administrativa / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Arquivologia",
+    "moduleTitle": "Arquivologia 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Conceitos fundamentais: arquivo, documento e informação",
@@ -179,19 +179,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Conceitos fundamentais: arquivo, documento e informação, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Confundir arquivo com biblioteca ou coleção temática.",
           "Identificar arquivo como conjunto orgânico de documentos produzidos por atividade institucional, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Classificar documento de Conceitos fundamentais: arquivo, documento e informação apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar produtor, função e relação orgânica, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Confundir arquivo com biblioteca ou coleção temática.",
+          "Correta: Identificar arquivo como conjunto orgânico de documentos produzidos por atividade institucional, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Classificar documento de Conceitos fundamentais: arquivo, documento e informação apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -220,19 +222,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Conceitos fundamentais: arquivo, documento e informação é:",
         "alternativas": [
-          "documento arquivístico vale pelo contexto de produção e função",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Confundir arquivo com biblioteca ou coleção temática.",
+          "Classificar documento de Conceitos fundamentais: arquivo, documento e informação apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação.",
+          "Documento arquivístico vale pelo contexto de produção e função."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Confundir arquivo com biblioteca ou coleção temática.",
+          "Errada: Classificar documento de Conceitos fundamentais: arquivo, documento e informação apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação.",
+          "Correta: Documento arquivístico vale pelo contexto de produção e função."
         ]
       },
       {
@@ -261,19 +265,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Conceitos fundamentais: arquivo, documento e informação?",
         "alternativas": [
+          "Confundir arquivo com biblioteca ou coleção temática.",
           "Supor que confundir arquivo com biblioteca ou coleção temática é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Classificar documento de Conceitos fundamentais: arquivo, documento e informação apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Confundir arquivo com biblioteca ou coleção temática.",
+          "Correta: Supor que confundir arquivo com biblioteca ou coleção temática é aceitável porque simplifica o trabalho.",
+          "Errada: Classificar documento de Conceitos fundamentais: arquivo, documento e informação apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -287,11 +293,11 @@ export const arquivologia = [
   },
   {
     "id": "arquivologia-02-principios-arquivisticos",
-    "materialTitle": "Arquivologia",
+    "materialTitle": "Arquivologia 10/10 Plus",
     "subject": "Arquivologia",
     "contest": "Tribunais / Área administrativa / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Arquivologia",
+    "moduleTitle": "Arquivologia 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Princípios arquivísticos",
@@ -459,19 +465,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Princípios arquivísticos, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Organizar só por assunto e romper vínculo de origem.",
           "Identificar proveniência, organicidade, unicidade, indivisibilidade e cumulatividade, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Classificar documento de Princípios arquivísticos apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: perguntar quem produziu, por quê e em qual processo, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Organizar só por assunto e romper vínculo de origem.",
+          "Correta: Identificar proveniência, organicidade, unicidade, indivisibilidade e cumulatividade, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Classificar documento de Princípios arquivísticos apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -500,19 +508,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Princípios arquivísticos é:",
         "alternativas": [
-          "manter contexto evita perda de prova e sentido administrativo",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Organizar só por assunto e romper vínculo de origem.",
+          "Manter contexto evita perda de prova e sentido administrativo.",
+          "Classificar documento de Princípios arquivísticos apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Organizar só por assunto e romper vínculo de origem.",
+          "Correta: Manter contexto evita perda de prova e sentido administrativo.",
+          "Errada: Classificar documento de Princípios arquivísticos apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -541,19 +551,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Princípios arquivísticos?",
         "alternativas": [
+          "Organizar só por assunto e romper vínculo de origem.",
+          "Classificar documento de Princípios arquivísticos apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
           "Supor que organizar só por assunto e romper vínculo de origem é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Organizar só por assunto e romper vínculo de origem.",
+          "Errada: Classificar documento de Princípios arquivísticos apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Correta: Supor que organizar só por assunto e romper vínculo de origem é aceitável porque simplifica o trabalho.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -567,11 +579,11 @@ export const arquivologia = [
   },
   {
     "id": "arquivologia-03-ciclo-vital-dos-documentos",
-    "materialTitle": "Arquivologia",
+    "materialTitle": "Arquivologia 10/10 Plus",
     "subject": "Arquivologia",
     "contest": "Tribunais / Área administrativa / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Arquivologia",
+    "moduleTitle": "Arquivologia 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Ciclo vital dos documentos",
@@ -739,19 +751,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Ciclo vital dos documentos, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Achar que documento antigo sempre é permanente.",
+          "Classificar documento de Ciclo vital dos documentos apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
           "Identificar fases corrente, intermediária e permanente conforme uso e valor, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: avaliar uso administrativo e valor secundário, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Achar que documento antigo sempre é permanente.",
+          "Errada: Classificar documento de Ciclo vital dos documentos apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Correta: Identificar fases corrente, intermediária e permanente conforme uso e valor, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -780,19 +794,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Ciclo vital dos documentos é:",
         "alternativas": [
-          "fase não depende de idade apenas, mas da frequência e valor do documento",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Achar que documento antigo sempre é permanente.",
+          "Classificar documento de Ciclo vital dos documentos apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação.",
+          "Fase não depende de idade apenas, mas da frequência e valor do documento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Achar que documento antigo sempre é permanente.",
+          "Errada: Classificar documento de Ciclo vital dos documentos apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação.",
+          "Correta: Fase não depende de idade apenas, mas da frequência e valor do documento."
         ]
       },
       {
@@ -822,18 +838,20 @@ export const arquivologia = [
         "enunciado": "Qual alternativa revela erro de banca em Ciclo vital dos documentos?",
         "alternativas": [
           "Supor que achar que documento antigo sempre é permanente é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Achar que documento antigo sempre é permanente.",
+          "Classificar documento de Ciclo vital dos documentos apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Correta: Supor que achar que documento antigo sempre é permanente é aceitável porque simplifica o trabalho.",
+          "Errada: Achar que documento antigo sempre é permanente.",
+          "Errada: Classificar documento de Ciclo vital dos documentos apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -847,11 +865,11 @@ export const arquivologia = [
   },
   {
     "id": "arquivologia-04-protocolo-tramitacao-e-controle-de-documentos",
-    "materialTitle": "Arquivologia",
+    "materialTitle": "Arquivologia 10/10 Plus",
     "subject": "Arquivologia",
     "contest": "Tribunais / Área administrativa / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Arquivologia",
+    "moduleTitle": "Arquivologia 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Protocolo, tramitação e controle de documentos",
@@ -1019,19 +1037,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Protocolo, tramitação e controle de documentos, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Receber documento sem registro formal.",
+          "Classificar documento de Protocolo, tramitação e controle de documentos apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
           "Identificar registro, autuação, distribuição, movimentação e encerramento com rastreabilidade, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: acompanhar entrada, número, responsável e destino, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Receber documento sem registro formal.",
+          "Errada: Classificar documento de Protocolo, tramitação e controle de documentos apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Correta: Identificar registro, autuação, distribuição, movimentação e encerramento com rastreabilidade, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -1060,19 +1080,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Protocolo, tramitação e controle de documentos é:",
         "alternativas": [
-          "protocolo protege prazo, responsabilidade e localização",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Receber documento sem registro formal.",
+          "Classificar documento de Protocolo, tramitação e controle de documentos apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação.",
+          "Protocolo protege prazo, responsabilidade e localização."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Receber documento sem registro formal.",
+          "Errada: Classificar documento de Protocolo, tramitação e controle de documentos apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação.",
+          "Correta: Protocolo protege prazo, responsabilidade e localização."
         ]
       },
       {
@@ -1101,19 +1123,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Protocolo, tramitação e controle de documentos?",
         "alternativas": [
-          "Supor que receber documento sem registro formal é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Receber documento sem registro formal.",
+          "Classificar documento de Protocolo, tramitação e controle de documentos apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação.",
+          "Supor que receber documento sem registro formal é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Receber documento sem registro formal.",
+          "Errada: Classificar documento de Protocolo, tramitação e controle de documentos apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação.",
+          "Correta: Supor que receber documento sem registro formal é aceitável porque simplifica o trabalho."
         ]
       },
       {
@@ -1127,11 +1151,11 @@ export const arquivologia = [
   },
   {
     "id": "arquivologia-05-classificacao-documental",
-    "materialTitle": "Arquivologia",
+    "materialTitle": "Arquivologia 10/10 Plus",
     "subject": "Arquivologia",
     "contest": "Tribunais / Área administrativa / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Arquivologia",
+    "moduleTitle": "Arquivologia 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Classificação documental",
@@ -1299,19 +1323,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Classificação documental, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Classificar pelo nome popular do documento sem função.",
+          "Classificar documento de Classificação documental apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
           "Identificar plano de classificação baseado em função, atividade e assunto institucional, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: localizar função administrativa e código adequado, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Classificar pelo nome popular do documento sem função.",
+          "Errada: Classificar documento de Classificação documental apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Correta: Identificar plano de classificação baseado em função, atividade e assunto institucional, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -1340,19 +1366,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Classificação documental é:",
         "alternativas": [
-          "classificação correta facilita recuperação e temporalidade",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Classificar pelo nome popular do documento sem função.",
+          "Classificar documento de Classificação documental apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação.",
+          "Classificação correta facilita recuperação e temporalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Classificar pelo nome popular do documento sem função.",
+          "Errada: Classificar documento de Classificação documental apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação.",
+          "Correta: Classificação correta facilita recuperação e temporalidade."
         ]
       },
       {
@@ -1382,18 +1410,20 @@ export const arquivologia = [
         "enunciado": "Qual alternativa revela erro de banca em Classificação documental?",
         "alternativas": [
           "Supor que classificar pelo nome popular do documento sem função é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Classificar pelo nome popular do documento sem função.",
+          "Classificar documento de Classificação documental apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Correta: Supor que classificar pelo nome popular do documento sem função é aceitável porque simplifica o trabalho.",
+          "Errada: Classificar pelo nome popular do documento sem função.",
+          "Errada: Classificar documento de Classificação documental apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -1407,11 +1437,11 @@ export const arquivologia = [
   },
   {
     "id": "arquivologia-06-tabela-de-temporalidade-e-destinacao",
-    "materialTitle": "Arquivologia",
+    "materialTitle": "Arquivologia 10/10 Plus",
     "subject": "Arquivologia",
     "contest": "Tribunais / Área administrativa / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Arquivologia",
+    "moduleTitle": "Arquivologia 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Tabela de temporalidade e destinação",
@@ -1579,19 +1609,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Tabela de temporalidade e destinação, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Eliminar documento sem autorização e listagem.",
+          "Classificar documento de Tabela de temporalidade e destinação apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
           "Identificar prazos de guarda, eliminação e recolhimento segundo valor documental, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: aplicar prazo, destinação e procedimento de eliminação, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Eliminar documento sem autorização e listagem.",
+          "Errada: Classificar documento de Tabela de temporalidade e destinação apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Correta: Identificar prazos de guarda, eliminação e recolhimento segundo valor documental, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -1620,19 +1652,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Tabela de temporalidade e destinação é:",
         "alternativas": [
-          "eliminação exige critério formal, não conveniência de espaço",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Eliminar documento sem autorização e listagem.",
+          "Classificar documento de Tabela de temporalidade e destinação apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminação exige critério formal, não conveniência de espaço.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Eliminar documento sem autorização e listagem.",
+          "Errada: Classificar documento de Tabela de temporalidade e destinação apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Correta: Eliminação exige critério formal, não conveniência de espaço.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -1661,19 +1695,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Tabela de temporalidade e destinação?",
         "alternativas": [
+          "Eliminar documento sem autorização e listagem.",
+          "Classificar documento de Tabela de temporalidade e destinação apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
           "Supor que eliminar documento sem autorização e listagem é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Eliminar documento sem autorização e listagem.",
+          "Errada: Classificar documento de Tabela de temporalidade e destinação apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Correta: Supor que eliminar documento sem autorização e listagem é aceitável porque simplifica o trabalho.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -1687,11 +1723,11 @@ export const arquivologia = [
   },
   {
     "id": "arquivologia-07-gestao-eletronica-de-documentos-e-documentos-digitais",
-    "materialTitle": "Arquivologia",
+    "materialTitle": "Arquivologia 10/10 Plus",
     "subject": "Arquivologia",
     "contest": "Tribunais / Área administrativa / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Arquivologia",
+    "moduleTitle": "Arquivologia 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Gestão eletrônica de documentos e documentos digitais",
@@ -1859,19 +1895,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Gestão eletrônica de documentos e documentos digitais, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Confundir cópia digital simples com documento arquivístico confiável.",
+          "Classificar documento de Gestão eletrônica de documentos e documentos digitais apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
           "Identificar documento digital exige autenticidade, integridade, preservação e metadados, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: checar metadados, assinatura, integridade e política de preservação, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Confundir cópia digital simples com documento arquivístico confiável.",
+          "Errada: Classificar documento de Gestão eletrônica de documentos e documentos digitais apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Correta: Identificar documento digital exige autenticidade, integridade, preservação e metadados, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -1900,19 +1938,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Gestão eletrônica de documentos e documentos digitais é:",
         "alternativas": [
-          "digitalizar não elimina automaticamente o original nem resolve preservação",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Confundir cópia digital simples com documento arquivístico confiável.",
+          "Classificar documento de Gestão eletrônica de documentos e documentos digitais apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Digitalizar não elimina automaticamente o original nem resolve preservação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Confundir cópia digital simples com documento arquivístico confiável.",
+          "Errada: Classificar documento de Gestão eletrônica de documentos e documentos digitais apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Correta: Digitalizar não elimina automaticamente o original nem resolve preservação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -1941,19 +1981,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Gestão eletrônica de documentos e documentos digitais?",
         "alternativas": [
+          "Confundir cópia digital simples com documento arquivístico confiável.",
           "Supor que confundir cópia digital simples com documento arquivístico confiável é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Classificar documento de Gestão eletrônica de documentos e documentos digitais apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Confundir cópia digital simples com documento arquivístico confiável.",
+          "Correta: Supor que confundir cópia digital simples com documento arquivístico confiável é aceitável porque simplifica o trabalho.",
+          "Errada: Classificar documento de Gestão eletrônica de documentos e documentos digitais apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -1967,11 +2009,11 @@ export const arquivologia = [
   },
   {
     "id": "arquivologia-08-preservacao-conservacao-e-seguranca-do-acervo",
-    "materialTitle": "Arquivologia",
+    "materialTitle": "Arquivologia 10/10 Plus",
     "subject": "Arquivologia",
     "contest": "Tribunais / Área administrativa / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Arquivologia",
+    "moduleTitle": "Arquivologia 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Preservação, conservação e segurança do acervo",
@@ -2140,18 +2182,20 @@ export const arquivologia = [
         "enunciado": "Em Preservação, conservação e segurança do acervo, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar proteção física e lógica contra perda, dano, acesso indevido e obsolescência, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Pensar só em restauração depois do dano.",
+          "Classificar documento de Preservação, conservação e segurança do acervo apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: prevenir por acondicionamento, backup e controle, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar proteção física e lógica contra perda, dano, acesso indevido e obsolescência, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Pensar só em restauração depois do dano.",
+          "Errada: Classificar documento de Preservação, conservação e segurança do acervo apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -2180,19 +2224,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Preservação, conservação e segurança do acervo é:",
         "alternativas": [
-          "preservação começa no controle de ambiente, acesso e manuseio",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Preservação começa no controle de ambiente, acesso e manuseio.",
+          "Pensar só em restauração depois do dano.",
+          "Classificar documento de Preservação, conservação e segurança do acervo apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: Preservação começa no controle de ambiente, acesso e manuseio.",
+          "Errada: Pensar só em restauração depois do dano.",
+          "Errada: Classificar documento de Preservação, conservação e segurança do acervo apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -2222,18 +2268,20 @@ export const arquivologia = [
         "enunciado": "Qual alternativa revela erro de banca em Preservação, conservação e segurança do acervo?",
         "alternativas": [
           "Supor que pensar só em restauração depois do dano é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Pensar só em restauração depois do dano.",
+          "Classificar documento de Preservação, conservação e segurança do acervo apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Correta: Supor que pensar só em restauração depois do dano é aceitável porque simplifica o trabalho.",
+          "Errada: Pensar só em restauração depois do dano.",
+          "Errada: Classificar documento de Preservação, conservação e segurança do acervo apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -2247,11 +2295,11 @@ export const arquivologia = [
   },
   {
     "id": "arquivologia-09-acesso-sigilo-e-transparencia-documental",
-    "materialTitle": "Arquivologia",
+    "materialTitle": "Arquivologia 10/10 Plus",
     "subject": "Arquivologia",
     "contest": "Tribunais / Área administrativa / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Arquivologia",
+    "moduleTitle": "Arquivologia 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Acesso, sigilo e transparência documental",
@@ -2419,19 +2467,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Acesso, sigilo e transparência documental, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Negar tudo por medo ou liberar tudo sem análise.",
+          "Classificar documento de Acesso, sigilo e transparência documental apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
           "Identificar acesso à informação com proteção de dados pessoais e documentos sigilosos, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar base de acesso, restrição e prazo, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Negar tudo por medo ou liberar tudo sem análise.",
+          "Errada: Classificar documento de Acesso, sigilo e transparência documental apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Correta: Identificar acesso à informação com proteção de dados pessoais e documentos sigilosos, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -2460,19 +2510,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Acesso, sigilo e transparência documental é:",
         "alternativas": [
-          "transparência e sigilo exigem fundamento e classificação adequada",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Negar tudo por medo ou liberar tudo sem análise.",
+          "Classificar documento de Acesso, sigilo e transparência documental apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação.",
+          "Transparência e sigilo exigem fundamento e classificação adequada."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Negar tudo por medo ou liberar tudo sem análise.",
+          "Errada: Classificar documento de Acesso, sigilo e transparência documental apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação.",
+          "Correta: Transparência e sigilo exigem fundamento e classificação adequada."
         ]
       },
       {
@@ -2501,19 +2553,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Acesso, sigilo e transparência documental?",
         "alternativas": [
+          "Negar tudo por medo ou liberar tudo sem análise.",
+          "Classificar documento de Acesso, sigilo e transparência documental apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
           "Supor que negar tudo por medo ou liberar tudo sem análise é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Negar tudo por medo ou liberar tudo sem análise.",
+          "Errada: Classificar documento de Acesso, sigilo e transparência documental apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Correta: Supor que negar tudo por medo ou liberar tudo sem análise é aceitável porque simplifica o trabalho.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -2527,11 +2581,11 @@ export const arquivologia = [
   },
   {
     "id": "arquivologia-10-questoes-integradas-de-arquivologia-para-tribunais",
-    "materialTitle": "Arquivologia",
+    "materialTitle": "Arquivologia 10/10 Plus",
     "subject": "Arquivologia",
     "contest": "Tribunais / Área administrativa / Técnico e analista",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Arquivologia",
+    "moduleTitle": "Arquivologia 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Questões integradas de arquivologia para tribunais",
@@ -2699,19 +2753,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Questões integradas de arquivologia para tribunais, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Memorizar termos sem aplicá-los ao fluxo documental.",
+          "Classificar documento de Questões integradas de arquivologia para tribunais apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
           "Identificar casos que misturam protocolo, classificação, temporalidade e documento digital, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: resolver pelo caminho do documento no órgão, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Memorizar termos sem aplicá-los ao fluxo documental.",
+          "Errada: Classificar documento de Questões integradas de arquivologia para tribunais apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Correta: Identificar casos que misturam protocolo, classificação, temporalidade e documento digital, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -2740,19 +2796,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Questões integradas de arquivologia para tribunais é:",
         "alternativas": [
-          "a banca cobra sequência correta e finalidade arquivística",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "A banca cobra sequência correta e finalidade arquivística.",
+          "Memorizar termos sem aplicá-los ao fluxo documental.",
+          "Classificar documento de Questões integradas de arquivologia para tribunais apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: A banca cobra sequência correta e finalidade arquivística.",
+          "Errada: Memorizar termos sem aplicá-los ao fluxo documental.",
+          "Errada: Classificar documento de Questões integradas de arquivologia para tribunais apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {
@@ -2781,19 +2839,21 @@ export const arquivologia = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Questões integradas de arquivologia para tribunais?",
         "alternativas": [
+          "Memorizar termos sem aplicá-los ao fluxo documental.",
           "Supor que memorizar termos sem aplicá-los ao fluxo documental é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Classificar documento de Questões integradas de arquivologia para tribunais apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Memorizar termos sem aplicá-los ao fluxo documental.",
+          "Correta: Supor que memorizar termos sem aplicá-los ao fluxo documental é aceitável porque simplifica o trabalho.",
+          "Errada: Classificar documento de Questões integradas de arquivologia para tribunais apenas pelo assunto aparente, sem preservar órgão produtor e função administrativa.",
+          "Errada: Eliminar documento que perdeu uso corrente sem tabela de temporalidade, avaliação formal e registro de destinação.",
+          "Errada: Tratar documento digital como simples arquivo escaneado, sem autenticidade, integridade, metadados e preservação."
         ]
       },
       {

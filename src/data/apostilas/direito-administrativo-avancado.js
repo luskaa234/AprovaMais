@@ -7,11 +7,11 @@
 export const direitoAdministrativoAvancado = [
   {
     "id": "regime-juridico-administrativo-e-principios",
-    "materialTitle": "Direito Administrativo Avançado",
+    "materialTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Administrativo Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Administrativo Avançado",
+    "moduleTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Regime jurídico administrativo e princípios",
@@ -130,13 +130,14 @@ export const direitoAdministrativoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Regime jurídico administrativo e princípios, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "O regime jurídico administrativo combina prerrogativas públicas e restrições especiais: a Administração tem poderes porque serve ao interesse público.",
           "Usar interesse público para justificar qualquer abuso.",
+          "O regime jurídico administrativo combina prerrogativas públicas e restrições especiais: a Administração tem poderes porque serve ao interesse público.",
           "Confundir interesse do governo com interesse público primário.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Tratar Regime jurídico administrativo e princípios como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta resume o núcleo do tema: O regime jurídico administrativo combina prerrogativas públicas e restrições especiais: a Administração tem poderes porque serve ao interesse público."
       },
       {
@@ -181,13 +182,14 @@ export const direitoAdministrativoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Indisponibilidade do interesse público impede o agente de agir como dono da coisa pública.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Confundir interesse do governo com interesse público primário."
+          "Usar interesse público para justificar qualquer abuso.",
+          "Confundir interesse do governo com interesse público primário.",
+          "Tratar Regime jurídico administrativo e princípios como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência.",
+          "Indisponibilidade do interesse público impede o agente de agir como dono da coisa pública."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -216,11 +218,11 @@ export const direitoAdministrativoAvancado = [
   },
   {
     "id": "organizacao-administrativa",
-    "materialTitle": "Direito Administrativo Avançado",
+    "materialTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Administrativo Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Administrativo Avançado",
+    "moduleTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Organização administrativa",
@@ -339,13 +341,14 @@ export const direitoAdministrativoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Organização administrativa, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Desconcentração distribui competências dentro da mesma pessoa jurídica; descentralização transfere execução a outra pessoa ou particular.",
           "Confundir órgão com entidade.",
           "Achar que descentralização cria hierarquia automática.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Tratar Organização administrativa como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência.",
+          "Desconcentração distribui competências dentro da mesma pessoa jurídica; descentralização transfere execução a outra pessoa ou particular."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: Desconcentração distribui competências dentro da mesma pessoa jurídica; descentralização transfere execução a outra pessoa ou particular."
       },
       {
@@ -390,13 +393,14 @@ export const direitoAdministrativoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Confundir órgão com entidade.",
           "Autarquia executa atividade típica de Estado; empresa pública e sociedade de economia mista atuam com personalidade de direito privado.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Achar que descentralização cria hierarquia automática."
+          "Achar que descentralização cria hierarquia automática.",
+          "Tratar Organização administrativa como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -425,11 +429,11 @@ export const direitoAdministrativoAvancado = [
   },
   {
     "id": "poderes-administrativos",
-    "materialTitle": "Direito Administrativo Avançado",
+    "materialTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Administrativo Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Administrativo Avançado",
+    "moduleTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Poderes administrativos",
@@ -551,7 +555,8 @@ export const direitoAdministrativoAvancado = [
           "Poder hierárquico organiza distribuição interna, revisão de atos e delegação ou avocação nos limites legais.",
           "Achar que regulamento pode criar obrigação sem base legal.",
           "Usar poder de polícia como sinônimo de polícia militar.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Tratar Poderes administrativos como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -599,13 +604,14 @@ export const direitoAdministrativoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Achar que regulamento pode criar obrigação sem base legal.",
+          "Usar poder de polícia como sinônimo de polícia militar.",
           "Poder regulamentar detalha a lei para execução, mas não pode inovar contra ou além da lei.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Usar poder de polícia como sinônimo de polícia militar."
+          "Tratar Poderes administrativos como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -634,11 +640,11 @@ export const direitoAdministrativoAvancado = [
   },
   {
     "id": "atos-administrativos",
-    "materialTitle": "Direito Administrativo Avançado",
+    "materialTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Administrativo Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Administrativo Avançado",
+    "moduleTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Atos administrativos",
@@ -757,13 +763,14 @@ export const direitoAdministrativoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Atos administrativos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Competência, finalidade, forma, motivo e objeto estruturam a validade do ato administrativo.",
           "Confundir motivo com motivação.",
           "Revogar ato ilegal em vez de anulá-lo.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Tratar Atos administrativos como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Competência, finalidade, forma, motivo e objeto estruturam a validade do ato administrativo.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta resume o núcleo do tema: Competência, finalidade, forma, motivo e objeto estruturam a validade do ato administrativo."
       },
       {
@@ -808,13 +815,14 @@ export const direitoAdministrativoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Autoexecutoriedade só existe quando prevista em lei ou em situações urgentes; não é atributo universal.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Revogar ato ilegal em vez de anulá-lo."
+          "Confundir motivo com motivação.",
+          "Revogar ato ilegal em vez de anulá-lo.",
+          "Tratar Atos administrativos como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência.",
+          "Autoexecutoriedade só existe quando prevista em lei ou em situações urgentes; não é atributo universal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -843,11 +851,11 @@ export const direitoAdministrativoAvancado = [
   },
   {
     "id": "processo-administrativo-e-controle-da-decisao",
-    "materialTitle": "Direito Administrativo Avançado",
+    "materialTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Administrativo Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Administrativo Avançado",
+    "moduleTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Processo administrativo e controle da decisão",
@@ -966,13 +974,14 @@ export const direitoAdministrativoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Processo administrativo e controle da decisão, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Processo administrativo organiza decisão estatal e protege o administrado contra surpresa, arbitrariedade e motivação insuficiente.",
           "Abrir prazo formal e ignorar todos os argumentos apresentados.",
           "Motivar com frase genérica sem enfrentar o caso.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Processo administrativo organiza decisão estatal e protege o administrado contra surpresa, arbitrariedade e motivação insuficiente.",
+          "Tratar Processo administrativo e controle da decisão como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: Processo administrativo organiza decisão estatal e protege o administrado contra surpresa, arbitrariedade e motivação insuficiente."
       },
       {
@@ -1017,13 +1026,14 @@ export const direitoAdministrativoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Abrir prazo formal e ignorar todos os argumentos apresentados.",
           "Motivação deve demonstrar fatos, fundamentos jurídicos e relação lógica entre eles.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Motivar com frase genérica sem enfrentar o caso."
+          "Motivar com frase genérica sem enfrentar o caso.",
+          "Tratar Processo administrativo e controle da decisão como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1052,11 +1062,11 @@ export const direitoAdministrativoAvancado = [
   },
   {
     "id": "servicos-publicos-e-delegacao",
-    "materialTitle": "Direito Administrativo Avançado",
+    "materialTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Administrativo Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Administrativo Avançado",
+    "moduleTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Serviços públicos e delegação",
@@ -1175,13 +1185,14 @@ export const direitoAdministrativoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Serviços públicos e delegação, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Serviço público atende necessidade coletiva assumida pelo Estado, direta ou indiretamente.",
           "Achar que concessão privatiza a titularidade do serviço.",
+          "Serviço público atende necessidade coletiva assumida pelo Estado, direta ou indiretamente.",
           "Usar continuidade para negar toda interrupção possível.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Tratar Serviços públicos e delegação como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta resume o núcleo do tema: Serviço público atende necessidade coletiva assumida pelo Estado, direta ou indiretamente."
       },
       {
@@ -1226,13 +1237,14 @@ export const direitoAdministrativoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Achar que concessão privatiza a titularidade do serviço.",
+          "Usar continuidade para negar toda interrupção possível.",
+          "Tratar Serviços públicos e delegação como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
           "Continuidade não impede interrupção em hipóteses legais, mas serviços essenciais exigem cautela e proporcionalidade.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Usar continuidade para negar toda interrupção possível."
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1261,11 +1273,11 @@ export const direitoAdministrativoAvancado = [
   },
   {
     "id": "licitacoes-e-contratos-administrativos",
-    "materialTitle": "Direito Administrativo Avançado",
+    "materialTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Administrativo Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Administrativo Avançado",
+    "moduleTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Licitações e contratos administrativos",
@@ -1384,13 +1396,14 @@ export const direitoAdministrativoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Licitações e contratos administrativos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Licitação busca proposta vantajosa, isonomia, planejamento, julgamento objetivo e prevenção de contratações direcionadas.",
           "Confundir inexigibilidade com preço alto.",
           "Achar que emergência permite contratar qualquer objeto sem justificativa.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Tratar Licitações e contratos administrativos como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Licitação busca proposta vantajosa, isonomia, planejamento, julgamento objetivo e prevenção de contratações direcionadas.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta resume o núcleo do tema: Licitação busca proposta vantajosa, isonomia, planejamento, julgamento objetivo e prevenção de contratações direcionadas."
       },
       {
@@ -1436,9 +1449,10 @@ export const direitoAdministrativoAvancado = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Contratos administrativos têm cláusulas exorbitantes, mas alterações e sanções dependem de motivação e contraditório quando afetarem o contratado.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Achar que emergência permite contratar qualquer objeto sem justificativa."
+          "Confundir inexigibilidade com preço alto.",
+          "Achar que emergência permite contratar qualquer objeto sem justificativa.",
+          "Tratar Licitações e contratos administrativos como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1470,11 +1484,11 @@ export const direitoAdministrativoAvancado = [
   },
   {
     "id": "agentes-publicos-e-responsabilidade-disciplinar",
-    "materialTitle": "Direito Administrativo Avançado",
+    "materialTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Administrativo Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Administrativo Avançado",
+    "moduleTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Agentes públicos e responsabilidade disciplinar",
@@ -1593,13 +1607,14 @@ export const direitoAdministrativoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Agentes públicos e responsabilidade disciplinar, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Agente público é categoria ampla que inclui servidores, empregados públicos, temporários e particulares em colaboração.",
           "Achar que todo agente público é servidor estatutário.",
           "Punir sem individualizar conduta.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Tratar Agentes públicos e responsabilidade disciplinar como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência.",
+          "Agente público é categoria ampla que inclui servidores, empregados públicos, temporários e particulares em colaboração."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: Agente público é categoria ampla que inclui servidores, empregados públicos, temporários e particulares em colaboração."
       },
       {
@@ -1645,9 +1660,10 @@ export const direitoAdministrativoAvancado = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "PAD apura infração e exige comissão adequada, descrição dos fatos, defesa e decisão motivada.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Punir sem individualizar conduta."
+          "Achar que todo agente público é servidor estatutário.",
+          "Punir sem individualizar conduta.",
+          "Tratar Agentes públicos e responsabilidade disciplinar como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1679,11 +1695,11 @@ export const direitoAdministrativoAvancado = [
   },
   {
     "id": "responsabilidade-civil-do-estado",
-    "materialTitle": "Direito Administrativo Avançado",
+    "materialTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Administrativo Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Administrativo Avançado",
+    "moduleTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Responsabilidade civil do Estado",
@@ -1802,13 +1818,14 @@ export const direitoAdministrativoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Responsabilidade civil do Estado, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Responsabilidade estatal por dano causado por agente público normalmente exige conduta, dano e nexo causal.",
           "Achar que todo dano ocorrido em prédio público gera indenização automática.",
           "Confundir responsabilidade objetiva do Estado com responsabilidade objetiva do servidor.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Tratar Responsabilidade civil do Estado como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Responsabilidade estatal por dano causado por agente público normalmente exige conduta, dano e nexo causal.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta resume o núcleo do tema: Responsabilidade estatal por dano causado por agente público normalmente exige conduta, dano e nexo causal."
       },
       {
@@ -1854,9 +1871,10 @@ export const direitoAdministrativoAvancado = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Culpa exclusiva da vítima, caso fortuito externo e fato de terceiro podem romper ou reduzir o nexo causal.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Confundir responsabilidade objetiva do Estado com responsabilidade objetiva do servidor."
+          "Achar que todo dano ocorrido em prédio público gera indenização automática.",
+          "Confundir responsabilidade objetiva do Estado com responsabilidade objetiva do servidor.",
+          "Tratar Responsabilidade civil do Estado como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1888,11 +1906,11 @@ export const direitoAdministrativoAvancado = [
   },
   {
     "id": "controle-improbidade-transparencia-e-bens-publicos",
-    "materialTitle": "Direito Administrativo Avançado",
+    "materialTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Administrativo Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Administrativo Avançado",
+    "moduleTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Controle, improbidade, transparência e bens públicos",
@@ -2011,13 +2029,14 @@ export const direitoAdministrativoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Controle, improbidade, transparência e bens públicos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Controle administrativo, legislativo e judicial examina legalidade, legitimidade, economicidade e finalidade da atuação pública.",
           "Tratar toda ilegalidade como improbidade automática.",
           "Achar que bem público pode ser alienado como bem privado comum.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Controle administrativo, legislativo e judicial examina legalidade, legitimidade, economicidade e finalidade da atuação pública.",
+          "Tratar Controle, improbidade, transparência e bens públicos como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: Controle administrativo, legislativo e judicial examina legalidade, legitimidade, economicidade e finalidade da atuação pública."
       },
       {
@@ -2062,13 +2081,14 @@ export const direitoAdministrativoAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Tratar toda ilegalidade como improbidade automática.",
+          "Achar que bem público pode ser alienado como bem privado comum.",
           "Improbidade exige análise cuidadosa de conduta, elemento subjetivo e lesão ao patrimônio ou aos princípios conforme a hipótese.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Achar que bem público pode ser alienado como bem privado comum."
+          "Tratar Controle, improbidade, transparência e bens públicos como liberdade pessoal do gestor, sem finalidade pública, motivação e controle administrativo.",
+          "Confundir ato vinculado com ato discricionário, revisando mérito onde a prova cobrava legalidade ou competência."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {

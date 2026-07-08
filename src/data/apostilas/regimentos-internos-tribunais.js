@@ -7,11 +7,11 @@
 export const regimentosInternosTribunais = [
   {
     "id": "regimentos-internos-de-tribunais-01-como-estudar-regimento-interno-de-tribunal",
-    "materialTitle": "Regimentos Internos de Tribunais",
+    "materialTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "subject": "Regimentos Internos de Tribunais",
     "contest": "Tribunais / Técnico judiciário / Analista judiciário",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Regimentos Internos de Tribunais",
+    "moduleTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Como estudar regimento interno de tribunal",
@@ -180,18 +180,20 @@ export const regimentosInternosTribunais = [
         "enunciado": "Em Como estudar regimento interno de tribunal, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar método para transformar artigos regimentais em mapa de competência e procedimento, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Ler artigos em sequência sem criar mapa de função.",
+          "Decorar o nome do órgão em Como estudar regimento interno de tribunal, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: montar tabela de órgão, competência, quórum e ato, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar método para transformar artigos regimentais em mapa de competência e procedimento, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Ler artigos em sequência sem criar mapa de função.",
+          "Errada: Decorar o nome do órgão em Como estudar regimento interno de tribunal, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -220,19 +222,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Como estudar regimento interno de tribunal é:",
         "alternativas": [
-          "regimento cobra quem faz, quando faz, como decide e qual recurso cabe",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Ler artigos em sequência sem criar mapa de função.",
+          "Decorar o nome do órgão em Como estudar regimento interno de tribunal, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal.",
+          "Regimento cobra quem faz, quando faz, como decide e qual recurso cabe."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Ler artigos em sequência sem criar mapa de função.",
+          "Errada: Decorar o nome do órgão em Como estudar regimento interno de tribunal, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal.",
+          "Correta: Regimento cobra quem faz, quando faz, como decide e qual recurso cabe."
         ]
       },
       {
@@ -261,19 +265,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Como estudar regimento interno de tribunal?",
         "alternativas": [
+          "Ler artigos em sequência sem criar mapa de função.",
+          "Decorar o nome do órgão em Como estudar regimento interno de tribunal, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
           "Supor que ler artigos em sequência sem criar mapa de função é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Ler artigos em sequência sem criar mapa de função.",
+          "Errada: Decorar o nome do órgão em Como estudar regimento interno de tribunal, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Correta: Supor que ler artigos em sequência sem criar mapa de função é aceitável porque simplifica o trabalho.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -287,11 +293,11 @@ export const regimentosInternosTribunais = [
   },
   {
     "id": "regimentos-internos-de-tribunais-02-estrutura-do-tribunal-e-orgaos-julgadores",
-    "materialTitle": "Regimentos Internos de Tribunais",
+    "materialTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "subject": "Regimentos Internos de Tribunais",
     "contest": "Tribunais / Técnico judiciário / Analista judiciário",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Regimentos Internos de Tribunais",
+    "moduleTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Estrutura do tribunal e órgãos julgadores",
@@ -460,18 +466,20 @@ export const regimentosInternosTribunais = [
         "enunciado": "Em Estrutura do tribunal e órgãos julgadores, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar pleno, órgão especial, câmaras, turmas, seções e presidência conforme regimento, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Achar que todo órgão colegiado julga tudo.",
+          "Decorar o nome do órgão em Estrutura do tribunal e órgãos julgadores, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar órgão, composição e competência, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar pleno, órgão especial, câmaras, turmas, seções e presidência conforme regimento, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Achar que todo órgão colegiado julga tudo.",
+          "Errada: Decorar o nome do órgão em Estrutura do tribunal e órgãos julgadores, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -500,19 +508,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Estrutura do tribunal e órgãos julgadores é:",
         "alternativas": [
-          "cada órgão tem competência própria e regras de funcionamento",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Cada órgão tem competência própria e regras de funcionamento.",
+          "Achar que todo órgão colegiado julga tudo.",
+          "Decorar o nome do órgão em Estrutura do tribunal e órgãos julgadores, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: Cada órgão tem competência própria e regras de funcionamento.",
+          "Errada: Achar que todo órgão colegiado julga tudo.",
+          "Errada: Decorar o nome do órgão em Estrutura do tribunal e órgãos julgadores, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -541,19 +551,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Estrutura do tribunal e órgãos julgadores?",
         "alternativas": [
+          "Achar que todo órgão colegiado julga tudo.",
+          "Decorar o nome do órgão em Estrutura do tribunal e órgãos julgadores, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
           "Supor que achar que todo órgão colegiado julga tudo é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Achar que todo órgão colegiado julga tudo.",
+          "Errada: Decorar o nome do órgão em Estrutura do tribunal e órgãos julgadores, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Correta: Supor que achar que todo órgão colegiado julga tudo é aceitável porque simplifica o trabalho.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -567,11 +579,11 @@ export const regimentosInternosTribunais = [
   },
   {
     "id": "regimentos-internos-de-tribunais-03-presidencia-vice-presidencia-e-corregedoria",
-    "materialTitle": "Regimentos Internos de Tribunais",
+    "materialTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "subject": "Regimentos Internos de Tribunais",
     "contest": "Tribunais / Técnico judiciário / Analista judiciário",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Regimentos Internos de Tribunais",
+    "moduleTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Presidência, vice-presidência e corregedoria",
@@ -739,19 +751,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Presidência, vice-presidência e corregedoria, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Atribuir à presidência decisão típica de órgão colegiado sem previsão.",
           "Identificar atribuições administrativas, disciplinares, correicionais e de representação, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Decorar o nome do órgão em Presidência, vice-presidência e corregedoria, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: separar administração, representação, correição e julgamento, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Atribuir à presidência decisão típica de órgão colegiado sem previsão.",
+          "Correta: Identificar atribuições administrativas, disciplinares, correicionais e de representação, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Decorar o nome do órgão em Presidência, vice-presidência e corregedoria, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -780,19 +794,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Presidência, vice-presidência e corregedoria é:",
         "alternativas": [
-          "função diretiva não se confunde com competência julgadora de mérito",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Atribuir à presidência decisão típica de órgão colegiado sem previsão.",
+          "Decorar o nome do órgão em Presidência, vice-presidência e corregedoria, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Função diretiva não se confunde com competência julgadora de mérito.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Atribuir à presidência decisão típica de órgão colegiado sem previsão.",
+          "Errada: Decorar o nome do órgão em Presidência, vice-presidência e corregedoria, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Correta: Função diretiva não se confunde com competência julgadora de mérito.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -821,19 +837,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Presidência, vice-presidência e corregedoria?",
         "alternativas": [
+          "Atribuir à presidência decisão típica de órgão colegiado sem previsão.",
           "Supor que atribuir à presidência decisão típica de órgão colegiado sem previsão é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Decorar o nome do órgão em Presidência, vice-presidência e corregedoria, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Atribuir à presidência decisão típica de órgão colegiado sem previsão.",
+          "Correta: Supor que atribuir à presidência decisão típica de órgão colegiado sem previsão é aceitável porque simplifica o trabalho.",
+          "Errada: Decorar o nome do órgão em Presidência, vice-presidência e corregedoria, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -847,11 +865,11 @@ export const regimentosInternosTribunais = [
   },
   {
     "id": "regimentos-internos-de-tribunais-04-competencia-originaria-e-recursal-interna",
-    "materialTitle": "Regimentos Internos de Tribunais",
+    "materialTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "subject": "Regimentos Internos de Tribunais",
     "contest": "Tribunais / Técnico judiciário / Analista judiciário",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Regimentos Internos de Tribunais",
+    "moduleTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Competência originária e recursal interna",
@@ -1019,19 +1037,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Competência originária e recursal interna, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar definição de onde o processo nasce e para onde pode seguir dentro do tribunal, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Confundir instância com órgão interno.",
+          "Decorar o nome do órgão em Competência originária e recursal interna, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal.",
+          "Identificar definição de onde o processo nasce e para onde pode seguir dentro do tribunal, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: mapear origem, recurso, órgão competente e exceção, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Confundir instância com órgão interno.",
+          "Errada: Decorar o nome do órgão em Competência originária e recursal interna, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal.",
+          "Correta: Identificar definição de onde o processo nasce e para onde pode seguir dentro do tribunal, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ]
       },
       {
@@ -1060,19 +1080,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Competência originária e recursal interna é:",
         "alternativas": [
-          "competência interna evita nulidade e distribui responsabilidades",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Confundir instância com órgão interno.",
+          "Competência interna evita nulidade e distribui responsabilidades.",
+          "Decorar o nome do órgão em Competência originária e recursal interna, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Confundir instância com órgão interno.",
+          "Correta: Competência interna evita nulidade e distribui responsabilidades.",
+          "Errada: Decorar o nome do órgão em Competência originária e recursal interna, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -1102,18 +1124,20 @@ export const regimentosInternosTribunais = [
         "enunciado": "Qual alternativa revela erro de banca em Competência originária e recursal interna?",
         "alternativas": [
           "Supor que confundir instância com órgão interno é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir instância com órgão interno.",
+          "Decorar o nome do órgão em Competência originária e recursal interna, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Correta: Supor que confundir instância com órgão interno é aceitável porque simplifica o trabalho.",
+          "Errada: Confundir instância com órgão interno.",
+          "Errada: Decorar o nome do órgão em Competência originária e recursal interna, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -1127,11 +1151,11 @@ export const regimentosInternosTribunais = [
   },
   {
     "id": "regimentos-internos-de-tribunais-05-sessoes-pautas-quorum-e-votacao",
-    "materialTitle": "Regimentos Internos de Tribunais",
+    "materialTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "subject": "Regimentos Internos de Tribunais",
     "contest": "Tribunais / Técnico judiciário / Analista judiciário",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Regimentos Internos de Tribunais",
+    "moduleTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Sessões, pautas, quórum e votação",
@@ -1299,19 +1323,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Sessões, pautas, quórum e votação, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Ignorar exigência de presença ou ordem de julgamento.",
+          "Decorar o nome do órgão em Sessões, pautas, quórum e votação, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
           "Identificar funcionamento das sessões, ordem dos trabalhos, sustentação e deliberação, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: verificar convocação, quórum, voto e proclamação, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Ignorar exigência de presença ou ordem de julgamento.",
+          "Errada: Decorar o nome do órgão em Sessões, pautas, quórum e votação, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Correta: Identificar funcionamento das sessões, ordem dos trabalhos, sustentação e deliberação, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -1340,19 +1366,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Sessões, pautas, quórum e votação é:",
         "alternativas": [
-          "quórum e pauta condicionam validade da decisão colegiada",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Ignorar exigência de presença ou ordem de julgamento.",
+          "Decorar o nome do órgão em Sessões, pautas, quórum e votação, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal.",
+          "Quórum e pauta condicionam validade da decisão colegiada."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Ignorar exigência de presença ou ordem de julgamento.",
+          "Errada: Decorar o nome do órgão em Sessões, pautas, quórum e votação, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal.",
+          "Correta: Quórum e pauta condicionam validade da decisão colegiada."
         ]
       },
       {
@@ -1381,19 +1409,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Sessões, pautas, quórum e votação?",
         "alternativas": [
+          "Ignorar exigência de presença ou ordem de julgamento.",
+          "Decorar o nome do órgão em Sessões, pautas, quórum e votação, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
           "Supor que ignorar exigência de presença ou ordem de julgamento é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Ignorar exigência de presença ou ordem de julgamento.",
+          "Errada: Decorar o nome do órgão em Sessões, pautas, quórum e votação, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Correta: Supor que ignorar exigência de presença ou ordem de julgamento é aceitável porque simplifica o trabalho.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -1407,11 +1437,11 @@ export const regimentosInternosTribunais = [
   },
   {
     "id": "regimentos-internos-de-tribunais-06-distribuicao-relatoria-e-prevencao",
-    "materialTitle": "Regimentos Internos de Tribunais",
+    "materialTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "subject": "Regimentos Internos de Tribunais",
     "contest": "Tribunais / Técnico judiciário / Analista judiciário",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Regimentos Internos de Tribunais",
+    "moduleTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Distribuição, relatoria e prevenção",
@@ -1579,19 +1609,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Distribuição, relatoria e prevenção, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Achar que relator substitui colegiado em todo caso.",
+          "Decorar o nome do órgão em Distribuição, relatoria e prevenção, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
           "Identificar regras de distribuição de processos e atribuições do relator, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar ato monocrático e ato colegiado, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Achar que relator substitui colegiado em todo caso.",
+          "Errada: Decorar o nome do órgão em Distribuição, relatoria e prevenção, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Correta: Identificar regras de distribuição de processos e atribuições do relator, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -1620,19 +1652,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Distribuição, relatoria e prevenção é:",
         "alternativas": [
-          "relator conduz instrução e voto, mas nem sempre decide sozinho",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Achar que relator substitui colegiado em todo caso.",
+          "Relator conduz instrução e voto, mas nem sempre decide sozinho.",
+          "Decorar o nome do órgão em Distribuição, relatoria e prevenção, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Achar que relator substitui colegiado em todo caso.",
+          "Correta: Relator conduz instrução e voto, mas nem sempre decide sozinho.",
+          "Errada: Decorar o nome do órgão em Distribuição, relatoria e prevenção, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -1661,19 +1695,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Distribuição, relatoria e prevenção?",
         "alternativas": [
-          "Supor que achar que relator substitui colegiado em todo caso é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Achar que relator substitui colegiado em todo caso.",
+          "Decorar o nome do órgão em Distribuição, relatoria e prevenção, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal.",
+          "Supor que achar que relator substitui colegiado em todo caso é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Achar que relator substitui colegiado em todo caso.",
+          "Errada: Decorar o nome do órgão em Distribuição, relatoria e prevenção, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal.",
+          "Correta: Supor que achar que relator substitui colegiado em todo caso é aceitável porque simplifica o trabalho."
         ]
       },
       {
@@ -1687,11 +1723,11 @@ export const regimentosInternosTribunais = [
   },
   {
     "id": "regimentos-internos-de-tribunais-07-processos-administrativos-internos",
-    "materialTitle": "Regimentos Internos de Tribunais",
+    "materialTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "subject": "Regimentos Internos de Tribunais",
     "contest": "Tribunais / Técnico judiciário / Analista judiciário",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Regimentos Internos de Tribunais",
+    "moduleTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Processos administrativos internos",
@@ -1859,19 +1895,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Processos administrativos internos, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Tratar todo procedimento interno como jurisdicional.",
           "Identificar procedimentos de gestão, disciplina, remoção, promoção e organização interna, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Decorar o nome do órgão em Processos administrativos internos, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: separar natureza administrativa e jurisdicional, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Tratar todo procedimento interno como jurisdicional.",
+          "Correta: Identificar procedimentos de gestão, disciplina, remoção, promoção e organização interna, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Decorar o nome do órgão em Processos administrativos internos, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -1900,19 +1938,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Processos administrativos internos é:",
         "alternativas": [
-          "tribunal também pratica atos administrativos regidos por competência e rito",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Tratar todo procedimento interno como jurisdicional.",
+          "Decorar o nome do órgão em Processos administrativos internos, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal.",
+          "Tribunal também pratica atos administrativos regidos por competência e rito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Tratar todo procedimento interno como jurisdicional.",
+          "Errada: Decorar o nome do órgão em Processos administrativos internos, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal.",
+          "Correta: Tribunal também pratica atos administrativos regidos por competência e rito."
         ]
       },
       {
@@ -1941,19 +1981,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Processos administrativos internos?",
         "alternativas": [
+          "Tratar todo procedimento interno como jurisdicional.",
           "Supor que tratar todo procedimento interno como jurisdicional é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Decorar o nome do órgão em Processos administrativos internos, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Tratar todo procedimento interno como jurisdicional.",
+          "Correta: Supor que tratar todo procedimento interno como jurisdicional é aceitável porque simplifica o trabalho.",
+          "Errada: Decorar o nome do órgão em Processos administrativos internos, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -1967,11 +2009,11 @@ export const regimentosInternosTribunais = [
   },
   {
     "id": "regimentos-internos-de-tribunais-08-correicao-disciplina-e-deveres-funcionais",
-    "materialTitle": "Regimentos Internos de Tribunais",
+    "materialTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "subject": "Regimentos Internos de Tribunais",
     "contest": "Tribunais / Técnico judiciário / Analista judiciário",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Regimentos Internos de Tribunais",
+    "moduleTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Correição, disciplina e deveres funcionais",
@@ -2139,19 +2181,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Correição, disciplina e deveres funcionais, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Confundir correição com recurso contra decisão judicial.",
+          "Decorar o nome do órgão em Correição, disciplina e deveres funcionais, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
           "Identificar fiscalização interna de serviços judiciais e conduta funcional, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar objeto da correição e autoridade competente, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Confundir correição com recurso contra decisão judicial.",
+          "Errada: Decorar o nome do órgão em Correição, disciplina e deveres funcionais, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Correta: Identificar fiscalização interna de serviços judiciais e conduta funcional, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -2180,19 +2224,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Correição, disciplina e deveres funcionais é:",
         "alternativas": [
-          "correição busca regularidade, eficiência e disciplina institucional",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Confundir correição com recurso contra decisão judicial.",
+          "Decorar o nome do órgão em Correição, disciplina e deveres funcionais, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Correição busca regularidade, eficiência e disciplina institucional.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Confundir correição com recurso contra decisão judicial.",
+          "Errada: Decorar o nome do órgão em Correição, disciplina e deveres funcionais, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Correta: Correição busca regularidade, eficiência e disciplina institucional.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -2221,19 +2267,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Correição, disciplina e deveres funcionais?",
         "alternativas": [
+          "Confundir correição com recurso contra decisão judicial.",
+          "Decorar o nome do órgão em Correição, disciplina e deveres funcionais, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
           "Supor que confundir correição com recurso contra decisão judicial é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Confundir correição com recurso contra decisão judicial.",
+          "Errada: Decorar o nome do órgão em Correição, disciplina e deveres funcionais, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Correta: Supor que confundir correição com recurso contra decisão judicial é aceitável porque simplifica o trabalho.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -2247,11 +2295,11 @@ export const regimentosInternosTribunais = [
   },
   {
     "id": "regimentos-internos-de-tribunais-09-tecnica-de-memorizacao-para-regimentos",
-    "materialTitle": "Regimentos Internos de Tribunais",
+    "materialTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "subject": "Regimentos Internos de Tribunais",
     "contest": "Tribunais / Técnico judiciário / Analista judiciário",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Regimentos Internos de Tribunais",
+    "moduleTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Técnica de memorização para regimentos",
@@ -2419,19 +2467,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Técnica de memorização para regimentos, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Marcar alternativa por familiaridade com o termo.",
+          "Decorar o nome do órgão em Técnica de memorização para regimentos, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
           "Identificar quadros comparativos, siglas, fluxos e revisão por artigos-chave, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: treinar artigos em grupos: órgão, competência, procedimento, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Marcar alternativa por familiaridade com o termo.",
+          "Errada: Decorar o nome do órgão em Técnica de memorização para regimentos, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Correta: Identificar quadros comparativos, siglas, fluxos e revisão por artigos-chave, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -2460,19 +2510,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Técnica de memorização para regimentos é:",
         "alternativas": [
-          "regimento se aprende por estrutura, não por leitura solta",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Regimento se aprende por estrutura, não por leitura solta.",
+          "Marcar alternativa por familiaridade com o termo.",
+          "Decorar o nome do órgão em Técnica de memorização para regimentos, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: Regimento se aprende por estrutura, não por leitura solta.",
+          "Errada: Marcar alternativa por familiaridade com o termo.",
+          "Errada: Decorar o nome do órgão em Técnica de memorização para regimentos, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -2501,19 +2553,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Técnica de memorização para regimentos?",
         "alternativas": [
+          "Marcar alternativa por familiaridade com o termo.",
+          "Decorar o nome do órgão em Técnica de memorização para regimentos, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
           "Supor que marcar alternativa por familiaridade com o termo é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Marcar alternativa por familiaridade com o termo.",
+          "Errada: Decorar o nome do órgão em Técnica de memorização para regimentos, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Correta: Supor que marcar alternativa por familiaridade com o termo é aceitável porque simplifica o trabalho.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -2527,11 +2581,11 @@ export const regimentosInternosTribunais = [
   },
   {
     "id": "regimentos-internos-de-tribunais-10-simulado-comentado-de-regimentos-internos",
-    "materialTitle": "Regimentos Internos de Tribunais",
+    "materialTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "subject": "Regimentos Internos de Tribunais",
     "contest": "Tribunais / Técnico judiciário / Analista judiciário",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Regimentos Internos de Tribunais",
+    "moduleTitle": "Regimentos Internos de Tribunais 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Simulado comentado de regimentos internos",
@@ -2699,19 +2753,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Simulado comentado de regimentos internos, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Escolher autoridade hierarquicamente maior sem previsão.",
+          "Decorar o nome do órgão em Simulado comentado de regimentos internos, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
           "Identificar casos sobre competência, sessão, relatoria, presidência e corregedoria, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: resolver pelo caminho: ato, órgão, quórum, prazo e consequência, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Escolher autoridade hierarquicamente maior sem previsão.",
+          "Errada: Decorar o nome do órgão em Simulado comentado de regimentos internos, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Correta: Identificar casos sobre competência, sessão, relatoria, presidência e corregedoria, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -2740,19 +2796,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Simulado comentado de regimentos internos é:",
         "alternativas": [
-          "a resposta certa respeita órgão competente e rito regimental",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "A resposta certa respeita órgão competente e rito regimental.",
+          "Escolher autoridade hierarquicamente maior sem previsão.",
+          "Decorar o nome do órgão em Simulado comentado de regimentos internos, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: A resposta certa respeita órgão competente e rito regimental.",
+          "Errada: Escolher autoridade hierarquicamente maior sem previsão.",
+          "Errada: Decorar o nome do órgão em Simulado comentado de regimentos internos, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal."
         ]
       },
       {
@@ -2781,19 +2839,21 @@ export const regimentosInternosTribunais = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Simulado comentado de regimentos internos?",
         "alternativas": [
-          "Supor que escolher autoridade hierarquicamente maior sem previsão é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Escolher autoridade hierarquicamente maior sem previsão.",
+          "Decorar o nome do órgão em Simulado comentado de regimentos internos, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal.",
+          "Supor que escolher autoridade hierarquicamente maior sem previsão é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Escolher autoridade hierarquicamente maior sem previsão.",
+          "Errada: Decorar o nome do órgão em Simulado comentado de regimentos internos, mas trocar presidência, corregedoria, relatoria e órgão julgador no caso.",
+          "Errada: Aplicar regra de sessão e quórum sem conferir pauta, competência interna e forma de votação prevista no regimento.",
+          "Errada: Atribuir ao relator providência administrativa própria da presidência ou da corregedoria do tribunal.",
+          "Correta: Supor que escolher autoridade hierarquicamente maior sem previsão é aceitável porque simplifica o trabalho."
         ]
       },
       {

@@ -6,11 +6,11 @@
 export const ecaAvancado = [
   {
     "id": "protecao-integral-e-prioridade-absoluta",
-    "materialTitle": "ECA Avançado",
+    "materialTitle": "ECA Avançado 10/10 Plus Revisado",
     "subject": "ECA Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "ECA Avançado",
+    "moduleTitle": "ECA Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Proteção integral e prioridade absoluta",
@@ -143,13 +143,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Proteção integral e prioridade absoluta, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Criança e adolescente são sujeitos de direitos, com prioridade absoluta e proteção integral.",
           "Ver adolescente apenas como problema social.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Criança e adolescente são sujeitos de direitos, com prioridade absoluta e proteção integral.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Proteção integral e prioridade absoluta como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Criança e adolescente são sujeitos de direitos, com prioridade absoluta e proteção integral."
       },
       {
@@ -182,8 +183,9 @@ export const ecaAvancado = [
         "alternativas": [
           "A prova troca objeto de tutela por mero assistencialismo.",
           "Ver adolescente apenas como problema social.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Proteção integral e prioridade absoluta como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -215,13 +217,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Proteção integral e prioridade absoluta?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Criança e adolescente são sujeitos de direitos, com prioridade absoluta e proteção integral.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Ver adolescente apenas como problema social.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Proteção integral e prioridade absoluta como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Criança e adolescente são sujeitos de direitos, com prioridade absoluta e proteção integral."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -236,11 +239,11 @@ export const ecaAvancado = [
   },
   {
     "id": "direitos-fundamentais-no-eca",
-    "materialTitle": "ECA Avançado",
+    "materialTitle": "ECA Avançado 10/10 Plus Revisado",
     "subject": "ECA Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "ECA Avançado",
+    "moduleTitle": "ECA Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Direitos fundamentais no ECA",
@@ -373,13 +376,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Direitos fundamentais no ECA, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Vida, saúde, educação, convivência familiar, dignidade e liberdade formam núcleo de proteção.",
           "Achar que proteção depende só dos pais.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Vida, saúde, educação, convivência familiar, dignidade e liberdade formam núcleo de proteção.",
+          "Tratar Direitos fundamentais no ECA como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Vida, saúde, educação, convivência familiar, dignidade e liberdade formam núcleo de proteção."
       },
       {
@@ -410,13 +414,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Direitos fundamentais no ECA quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "O Estado, família e sociedade têm deveres corresponsáveis.",
           "Achar que proteção depende só dos pais.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "O Estado, família e sociedade têm deveres corresponsáveis.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Direitos fundamentais no ECA como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -445,13 +450,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Direitos fundamentais no ECA?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Vida, saúde, educação, convivência familiar, dignidade e liberdade formam núcleo de proteção.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Achar que proteção depende só dos pais.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Direitos fundamentais no ECA como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Vida, saúde, educação, convivência familiar, dignidade e liberdade formam núcleo de proteção."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -466,11 +472,11 @@ export const ecaAvancado = [
   },
   {
     "id": "familia-natural-extensa-e-substituta",
-    "materialTitle": "ECA Avançado",
+    "materialTitle": "ECA Avançado 10/10 Plus Revisado",
     "subject": "ECA Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "ECA Avançado",
+    "moduleTitle": "ECA Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Família natural, extensa e substituta",
@@ -603,13 +609,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Família natural, extensa e substituta, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A convivência familiar deve ser preservada quando possível; família substituta é medida excepcional.",
           "Confundir guarda com adoção.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "A convivência familiar deve ser preservada quando possível; família substituta é medida excepcional.",
+          "Tratar Família natural, extensa e substituta como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: A convivência familiar deve ser preservada quando possível; família substituta é medida excepcional."
       },
       {
@@ -640,13 +647,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Família natural, extensa e substituta quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Guarda, tutela e adoção têm efeitos distintos.",
           "Confundir guarda com adoção.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Família natural, extensa e substituta como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta.",
+          "Guarda, tutela e adoção têm efeitos distintos."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -676,9 +684,10 @@ export const ecaAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Família natural, extensa e substituta?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: A convivência familiar deve ser preservada quando possível; família substituta é medida excepcional.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir guarda com adoção.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Família natural, extensa e substituta como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -696,11 +705,11 @@ export const ecaAvancado = [
   },
   {
     "id": "medidas-de-protecao",
-    "materialTitle": "ECA Avançado",
+    "materialTitle": "ECA Avançado 10/10 Plus Revisado",
     "subject": "ECA Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "ECA Avançado",
+    "moduleTitle": "ECA Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Medidas de proteção",
@@ -833,13 +842,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Medidas de proteção, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Medidas de proteção respondem a ameaça ou violação de direitos, sem caráter punitivo.",
           "Usar medida protetiva como sanção penal.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Medidas de proteção respondem a ameaça ou violação de direitos, sem caráter punitivo.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Medidas de proteção como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Medidas de proteção respondem a ameaça ou violação de direitos, sem caráter punitivo."
       },
       {
@@ -870,13 +880,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Medidas de proteção quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Aplicam-se conforme necessidade pedagógica e protetiva.",
           "Usar medida protetiva como sanção penal.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Medidas de proteção como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta.",
+          "Aplicam-se conforme necessidade pedagógica e protetiva."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -906,9 +917,10 @@ export const ecaAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Medidas de proteção?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Medidas de proteção respondem a ameaça ou violação de direitos, sem caráter punitivo.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Usar medida protetiva como sanção penal.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Medidas de proteção como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -926,11 +938,11 @@ export const ecaAvancado = [
   },
   {
     "id": "ato-infracional",
-    "materialTitle": "ECA Avançado",
+    "materialTitle": "ECA Avançado 10/10 Plus Revisado",
     "subject": "ECA Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "ECA Avançado",
+    "moduleTitle": "ECA Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Ato infracional",
@@ -1063,13 +1075,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Ato infracional, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Ato infracional é conduta descrita como crime ou contravenção praticada por adolescente.",
           "Chamar medida socioeducativa de pena.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Ato infracional é conduta descrita como crime ou contravenção praticada por adolescente.",
+          "Tratar Ato infracional como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Ato infracional é conduta descrita como crime ou contravenção praticada por adolescente."
       },
       {
@@ -1100,13 +1113,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Ato infracional quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Apuração exige devido processo, defesa e proporcionalidade.",
           "Chamar medida socioeducativa de pena.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Apuração exige devido processo, defesa e proporcionalidade.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Ato infracional como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1135,13 +1149,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Ato infracional?",
         "alternativas": [
+          "Chamar medida socioeducativa de pena.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Ato infracional é conduta descrita como crime ou contravenção praticada por adolescente.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Ato infracional como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1156,11 +1171,11 @@ export const ecaAvancado = [
   },
   {
     "id": "medidas-socioeducativas",
-    "materialTitle": "ECA Avançado",
+    "materialTitle": "ECA Avançado 10/10 Plus Revisado",
     "subject": "ECA Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "ECA Avançado",
+    "moduleTitle": "ECA Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Medidas socioeducativas",
@@ -1293,13 +1308,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Medidas socioeducativas, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Advertência, reparação, prestação de serviços, liberdade assistida, semiliberdade e internação têm gradação.",
           "Achar que ato grave sempre gera internação automática.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Advertência, reparação, prestação de serviços, liberdade assistida, semiliberdade e internação têm gradação.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Medidas socioeducativas como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Advertência, reparação, prestação de serviços, liberdade assistida, semiliberdade e internação têm gradação."
       },
       {
@@ -1330,13 +1346,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Medidas socioeducativas quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Internação é excepcional e sujeita a requisitos.",
           "Achar que ato grave sempre gera internação automática.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Internação é excepcional e sujeita a requisitos.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Medidas socioeducativas como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1365,13 +1382,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Medidas socioeducativas?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Advertência, reparação, prestação de serviços, liberdade assistida, semiliberdade e internação têm gradação.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Achar que ato grave sempre gera internação automática.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Medidas socioeducativas como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Advertência, reparação, prestação de serviços, liberdade assistida, semiliberdade e internação têm gradação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1386,11 +1404,11 @@ export const ecaAvancado = [
   },
   {
     "id": "conselho-tutelar",
-    "materialTitle": "ECA Avançado",
+    "materialTitle": "ECA Avançado 10/10 Plus Revisado",
     "subject": "ECA Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "ECA Avançado",
+    "moduleTitle": "ECA Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Conselho Tutelar",
@@ -1523,13 +1541,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Conselho Tutelar, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Conselho Tutelar é órgão permanente e autônomo de proteção, não jurisdicional.",
           "Confundir Conselho Tutelar com polícia ou juiz.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Conselho Tutelar é órgão permanente e autônomo de proteção, não jurisdicional.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Conselho Tutelar como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Conselho Tutelar é órgão permanente e autônomo de proteção, não jurisdicional."
       },
       {
@@ -1560,13 +1579,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Conselho Tutelar quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Pode requisitar serviços e aplicar medidas protetivas.",
           "Confundir Conselho Tutelar com polícia ou juiz.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Pode requisitar serviços e aplicar medidas protetivas.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Conselho Tutelar como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1595,13 +1615,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Conselho Tutelar?",
         "alternativas": [
+          "Confundir Conselho Tutelar com polícia ou juiz.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Conselho Tutelar é órgão permanente e autônomo de proteção, não jurisdicional.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Tratar Conselho Tutelar como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1616,11 +1637,11 @@ export const ecaAvancado = [
   },
   {
     "id": "crimes-e-infracoes-administrativas",
-    "materialTitle": "ECA Avançado",
+    "materialTitle": "ECA Avançado 10/10 Plus Revisado",
     "subject": "ECA Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "ECA Avançado",
+    "moduleTitle": "ECA Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Crimes e infrações administrativas",
@@ -1755,8 +1776,9 @@ export const ecaAvancado = [
         "alternativas": [
           "ECA prevê crimes e infrações para proteção de crianças e adolescentes.",
           "Achar que só responsáveis legais cometem infrações.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Crimes e infrações administrativas como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1790,13 +1812,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Crimes e infrações administrativas quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "A prova cobra sujeito ativo, conduta e finalidade protetiva.",
           "Achar que só responsáveis legais cometem infrações.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "A prova cobra sujeito ativo, conduta e finalidade protetiva.",
+          "Tratar Crimes e infrações administrativas como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1825,13 +1848,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Crimes e infrações administrativas?",
         "alternativas": [
+          "Achar que só responsáveis legais cometem infrações.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: ECA prevê crimes e infrações para proteção de crianças e adolescentes.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Crimes e infrações administrativas como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1846,11 +1870,11 @@ export const ecaAvancado = [
   },
   {
     "id": "adocao-e-acolhimento",
-    "materialTitle": "ECA Avançado",
+    "materialTitle": "ECA Avançado 10/10 Plus Revisado",
     "subject": "ECA Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "ECA Avançado",
+    "moduleTitle": "ECA Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Adoção e acolhimento",
@@ -1985,8 +2009,9 @@ export const ecaAvancado = [
         "alternativas": [
           "Acolhimento é excepcional e provisório; adoção exige procedimento e proteção do melhor interesse.",
           "Confundir acolhimento institucional com punição familiar.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Adoção e acolhimento como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2020,13 +2045,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Adoção e acolhimento quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Cadastro e estágio de convivência podem ser relevantes.",
           "Confundir acolhimento institucional com punição familiar.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Adoção e acolhimento como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta.",
+          "Cadastro e estágio de convivência podem ser relevantes."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2056,9 +2082,10 @@ export const ecaAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Adoção e acolhimento?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Acolhimento é excepcional e provisório; adoção exige procedimento e proteção do melhor interesse.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir acolhimento institucional com punição familiar.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Adoção e acolhimento como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2076,11 +2103,11 @@ export const ecaAvancado = [
   },
   {
     "id": "sistema-de-garantia-de-direitos",
-    "materialTitle": "ECA Avançado",
+    "materialTitle": "ECA Avançado 10/10 Plus Revisado",
     "subject": "ECA Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "ECA Avançado",
+    "moduleTitle": "ECA Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Sistema de garantia de direitos",
@@ -2213,13 +2240,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Sistema de garantia de direitos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Rede de proteção integra Judiciário, MP, Defensoria, assistência, saúde, educação e conselhos.",
           "Resolver tudo apenas com internação ou afastamento.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Rede de proteção integra Judiciário, MP, Defensoria, assistência, saúde, educação e conselhos.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Sistema de garantia de direitos como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Rede de proteção integra Judiciário, MP, Defensoria, assistência, saúde, educação e conselhos."
       },
       {
@@ -2250,13 +2278,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Sistema de garantia de direitos quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "O caso concreto deve indicar fluxo correto de atuação.",
           "Resolver tudo apenas com internação ou afastamento.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "O caso concreto deve indicar fluxo correto de atuação.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Tratar Sistema de garantia de direitos como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2285,13 +2314,14 @@ export const ecaAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Sistema de garantia de direitos?",
         "alternativas": [
+          "Resolver tudo apenas com internação ou afastamento.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Rede de proteção integra Judiciário, MP, Defensoria, assistência, saúde, educação e conselhos.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Tratar Sistema de garantia de direitos como favor familiar ou ato de caridade, ignorando proteção integral e prioridade absoluta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {

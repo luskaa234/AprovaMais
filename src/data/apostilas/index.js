@@ -127,17 +127,94 @@ import { sociologiaEnem } from "./sociologia-enem";
 import { taf } from "./taf";
 import { usoDiferenciadoDaForcaAtuacaoPolicial } from "./uso-diferenciado-da-forca-atuacao-policial";
 
+function compactText(value = "") {
+  return String(value).replace(/\s+/g, " ").trim();
+}
+
+function cleanQualitySuffix(value = "") {
+  return compactText(String(value)
+    .replace(/\s+10\/10(?:\s+plus|\s+premium)?(?:\s+revisad[oa]|\s+reescrit[oa]\s+de\s+verdade)?/gi, "")
+    .replace(/\s+plus\s+revisad[oa]/gi, "")
+    .replace(/\s+reescrit[oa]\s+de\s+verdade/gi, "")
+    .replace(/\s+premium\s+10\/10/gi, "")
+    .replace(/\s+apostila\s+premium/gi, ""))
+    .replace(/\s+[-–—]\s*$/g, "");
+}
+
+function normalizeKey(value = "") {
+  return compactText(value)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
+function cleanDisplayTitle(value = "") {
+  return cleanQualitySuffix(value || "Apostila");
+}
+
+function cleanSubject(value = "", fallback = "") {
+  const raw = cleanQualitySuffix(value || fallback || "Geral")
+    .replace(/\bAvan[cç]ad[oa]\b/gi, "")
+    .replace(/\bB[aá]sic[ao]\b/gi, "")
+    .replace(/\bParte\s+(Geral|Especial)\b/gi, "")
+    .replace(/\bPMMA\b/gi, "")
+    .replace(/\s+para\s*$/gi, "");
+  const normalized = normalizeKey(raw);
+
+  if (normalized.includes("matematica")) return "Matemática";
+  if (normalized.includes("portugues")) return "Português";
+  if (normalized.includes("informatica")) return "Informática";
+  if (normalized.includes("atualidades")) return "Atualidades";
+  if (normalized.includes("redacao")) return "Redação";
+  if (normalized.includes("direito digital")) return "Direito Digital";
+  if (normalized.includes("direito penal militar")) return "Direito Penal Militar";
+  if (normalized.includes("direito processual penal militar")) return "Direito Processual Penal Militar";
+  if (normalized.includes("direito processual penal")) return "Direito Processual Penal";
+  if (normalized.includes("direito processual civil")) return "Direito Processual Civil";
+  if (normalized.includes("direito processual trabalho")) return "Direito Processual do Trabalho";
+  if (normalized.includes("direito trabalho")) return "Direito do Trabalho";
+  if (normalized.includes("direito penal")) return "Direito Penal";
+  if (normalized.includes("direito administrativo")) return "Direito Administrativo";
+  if (normalized.includes("direito constitucional")) return "Direito Constitucional";
+  if (normalized.includes("direito civil")) return "Direito Civil";
+  if (normalized.includes("direito consumidor")) return "Direito do Consumidor";
+  if (normalized.includes("direito ambiental")) return "Direito Ambiental";
+  if (normalized.includes("direito eleitoral")) return "Direito Eleitoral";
+  if (normalized.includes("direito empresarial")) return "Direito Empresarial";
+  if (normalized.includes("direito financeiro")) return "Direito Financeiro";
+  if (normalized.includes("direito internacional")) return "Direito Internacional";
+  if (normalized.includes("direito previdenciario")) return "Direito Previdenciário";
+  if (normalized.includes("direito tributario")) return "Direito Tributário";
+  if (normalized.includes("direitos humanos")) return "Direitos Humanos";
+  if (normalized === "eca") return "ECA";
+
+  return compactText(raw) || "Geral";
+}
+
+function cleanChapter(chapter, materialTitle, subject) {
+  return {
+    ...chapter,
+    materialTitle,
+    moduleTitle: cleanDisplayTitle(chapter.moduleTitle || materialTitle),
+    subject,
+  };
+}
+
 function buildApostila(id, chapters) {
   const first = chapters[0] || {};
+  const title = cleanDisplayTitle(first.materialTitle || first.moduleTitle || "Apostila");
+  const subject = cleanSubject(first.subject, title);
+  const normalizedChapters = chapters.map((chapter) => cleanChapter(chapter, title, subject));
+
   return {
     id,
     tipo: "Apostila",
     categoria: "Apostila",
-    titulo: first.materialTitle || first.moduleTitle || "Apostila",
-    materia: first.subject || "Geral",
-    descricao: `${chapters.length} capitulos para ${first.contest || "concurso"}${first.role ? ` (${first.role})` : ""}.`,
+    titulo: title,
+    materia: subject,
+    descricao: `${normalizedChapters.length} capitulos para ${first.contest || "concurso"}${first.role ? ` (${first.role})` : ""}.`,
     source: "VemAprovar Top1",
-    chapters,
+    chapters: normalizedChapters,
   };
 }
 

@@ -7,11 +7,11 @@
 export const direitoPenalParteGeralAvancado = [
   {
     "id": "funcoes-fontes-e-principios-penais",
-    "materialTitle": "Direito Penal Parte Geral Avançado",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Funções, fontes e princípios penais",
@@ -128,13 +128,14 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Funções, fontes e princípios penais, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Direito Penal protege bens jurídicos relevantes, mas deve ser usado como última ratio.",
           "Usar clamor social para afastar legalidade.",
           "Tratar Direito Penal como solução para todo problema social.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Punir Funções, fontes e princípios penais apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime.",
+          "Direito Penal protege bens jurídicos relevantes, mas deve ser usado como última ratio."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: Direito Penal protege bens jurídicos relevantes, mas deve ser usado como última ratio."
       },
       {
@@ -179,13 +180,14 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Intervenção mínima, fragmentariedade e subsidiariedade limitam expansão penal desnecessária.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Tratar Direito Penal como solução para todo problema social."
+          "Usar clamor social para afastar legalidade.",
+          "Tratar Direito Penal como solução para todo problema social.",
+          "Punir Funções, fontes e princípios penais apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime.",
+          "Intervenção mínima, fragmentariedade e subsidiariedade limitam expansão penal desnecessária."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -214,11 +216,11 @@ export const direitoPenalParteGeralAvancado = [
   },
   {
     "id": "lei-penal-no-tempo",
-    "materialTitle": "Direito Penal Parte Geral Avançado",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Lei penal no tempo",
@@ -335,13 +337,14 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Lei penal no tempo, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Regra geral é irretroatividade da lei penal mais gravosa.",
           "Aplicar lei nova mais grave a fato passado.",
           "Confundir abolitio criminis com perdão judicial.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Regra geral é irretroatividade da lei penal mais gravosa.",
+          "Punir Lei penal no tempo apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: Regra geral é irretroatividade da lei penal mais gravosa."
       },
       {
@@ -387,9 +390,10 @@ export const direitoPenalParteGeralAvancado = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Abolitio criminis extingue punibilidade porque o fato deixa de ser crime.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Confundir abolitio criminis com perdão judicial."
+          "Aplicar lei nova mais grave a fato passado.",
+          "Confundir abolitio criminis com perdão judicial.",
+          "Punir Lei penal no tempo apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -421,11 +425,11 @@ export const direitoPenalParteGeralAvancado = [
   },
   {
     "id": "lei-penal-no-espaco",
-    "materialTitle": "Direito Penal Parte Geral Avançado",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Lei penal no espaço",
@@ -542,13 +546,14 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Lei penal no espaço, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Territorialidade aplica lei brasileira a crimes praticados no território nacional, com extensões legais.",
           "Achar que nacionalidade da vítima sempre define lei aplicável.",
           "Esquecer condições da extraterritorialidade condicionada.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Territorialidade aplica lei brasileira a crimes praticados no território nacional, com extensões legais.",
+          "Punir Lei penal no espaço apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: Territorialidade aplica lei brasileira a crimes praticados no território nacional, com extensões legais."
       },
       {
@@ -593,13 +598,14 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Achar que nacionalidade da vítima sempre define lei aplicável.",
           "Extraterritorialidade exige hipóteses específicas e, em certos casos, condições de procedibilidade.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Esquecer condições da extraterritorialidade condicionada."
+          "Esquecer condições da extraterritorialidade condicionada.",
+          "Punir Lei penal no espaço apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -628,11 +634,11 @@ export const direitoPenalParteGeralAvancado = [
   },
   {
     "id": "teoria-do-crime",
-    "materialTitle": "Direito Penal Parte Geral Avançado",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Teoria do crime",
@@ -749,13 +755,14 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Teoria do crime, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Conceito analítico usual divide crime em fato típico, ilicitude e culpabilidade.",
           "Misturar excludente de ilicitude com excludente de culpabilidade.",
           "Achar que fato típico sempre gera condenação.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Conceito analítico usual divide crime em fato típico, ilicitude e culpabilidade.",
+          "Punir Teoria do crime apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: Conceito analítico usual divide crime em fato típico, ilicitude e culpabilidade."
       },
       {
@@ -800,13 +807,14 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Misturar excludente de ilicitude com excludente de culpabilidade.",
+          "Achar que fato típico sempre gera condenação.",
+          "Punir Teoria do crime apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
           "Ilicitude pode ser afastada por causas justificantes.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Achar que fato típico sempre gera condenação."
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -835,11 +843,11 @@ export const direitoPenalParteGeralAvancado = [
   },
   {
     "id": "conduta-resultado-e-nexo-causal",
-    "materialTitle": "Direito Penal Parte Geral Avançado",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Conduta, resultado e nexo causal",
@@ -956,13 +964,14 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Conduta, resultado e nexo causal, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Conduta penalmente relevante pode ser ação ou omissão quando houver dever jurídico de agir.",
           "Punir omissão sem dever jurídico.",
           "Exigir resultado naturalístico em crime de mera conduta.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Conduta penalmente relevante pode ser ação ou omissão quando houver dever jurídico de agir.",
+          "Punir Conduta, resultado e nexo causal apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: Conduta penalmente relevante pode ser ação ou omissão quando houver dever jurídico de agir."
       },
       {
@@ -1007,13 +1016,14 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Punir omissão sem dever jurídico.",
           "Nexo causal liga conduta ao resultado, com filtros de imputação quando houver causas independentes.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Exigir resultado naturalístico em crime de mera conduta."
+          "Exigir resultado naturalístico em crime de mera conduta.",
+          "Punir Conduta, resultado e nexo causal apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1042,11 +1052,11 @@ export const direitoPenalParteGeralAvancado = [
   },
   {
     "id": "dolo-culpa-e-erro",
-    "materialTitle": "Direito Penal Parte Geral Avançado",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Dolo, culpa e erro",
@@ -1163,13 +1173,14 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Dolo, culpa e erro, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Dolo envolve consciência e vontade de realizar o tipo, podendo admitir modalidades conforme o caso.",
           "Confundir dolo eventual com culpa consciente sem analisar aceitação do risco.",
           "Tratar todo erro como erro de proibição.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Punir Dolo, culpa e erro apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime.",
+          "Dolo envolve consciência e vontade de realizar o tipo, podendo admitir modalidades conforme o caso."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: Dolo envolve consciência e vontade de realizar o tipo, podendo admitir modalidades conforme o caso."
       },
       {
@@ -1215,9 +1226,10 @@ export const direitoPenalParteGeralAvancado = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Preterdolo combina dolo no antecedente e culpa no resultado agravador.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Tratar todo erro como erro de proibição."
+          "Confundir dolo eventual com culpa consciente sem analisar aceitação do risco.",
+          "Tratar todo erro como erro de proibição.",
+          "Punir Dolo, culpa e erro apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1249,11 +1261,11 @@ export const direitoPenalParteGeralAvancado = [
   },
   {
     "id": "ilicitude-e-justificantes",
-    "materialTitle": "Direito Penal Parte Geral Avançado",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Ilicitude e justificantes",
@@ -1370,13 +1382,14 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Ilicitude e justificantes, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Estado de necessidade envolve conflito entre bens jurídicos e sacrifício de um para salvar outro de perigo atual.",
           "Chamar vingança posterior de legítima defesa.",
           "Ignorar moderação dos meios empregados.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Punir Ilicitude e justificantes apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime.",
+          "Estado de necessidade envolve conflito entre bens jurídicos e sacrifício de um para salvar outro de perigo atual."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: Estado de necessidade envolve conflito entre bens jurídicos e sacrifício de um para salvar outro de perigo atual."
       },
       {
@@ -1421,13 +1434,14 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Chamar vingança posterior de legítima defesa.",
+          "Ignorar moderação dos meios empregados.",
+          "Punir Ilicitude e justificantes apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
           "Estrito cumprimento do dever legal protege atuação imposta pelo ordenamento.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Ignorar moderação dos meios empregados."
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1456,11 +1470,11 @@ export const direitoPenalParteGeralAvancado = [
   },
   {
     "id": "culpabilidade",
-    "materialTitle": "Direito Penal Parte Geral Avançado",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Culpabilidade",
@@ -1577,13 +1591,14 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Culpabilidade, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Culpabilidade reúne imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.",
           "Confundir desconhecimento da lei com erro de proibição automaticamente aceito.",
+          "Culpabilidade reúne imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.",
           "Aceitar obediência a ordem manifestamente ilegal.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Punir Culpabilidade apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta resume o núcleo do tema: Culpabilidade reúne imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa."
       },
       {
@@ -1629,9 +1644,10 @@ export const direitoPenalParteGeralAvancado = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Erro de proibição inevitável exclui culpabilidade; evitável pode reduzir pena.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Aceitar obediência a ordem manifestamente ilegal."
+          "Confundir desconhecimento da lei com erro de proibição automaticamente aceito.",
+          "Aceitar obediência a ordem manifestamente ilegal.",
+          "Punir Culpabilidade apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1663,11 +1679,11 @@ export const direitoPenalParteGeralAvancado = [
   },
   {
     "id": "iter-criminis-e-tentativa",
-    "materialTitle": "Direito Penal Parte Geral Avançado",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Iter criminis e tentativa",
@@ -1784,13 +1800,14 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Iter criminis e tentativa, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Cogitação não é punível; atos preparatórios em regra não são, salvo criminalização autônoma.",
           "Confundir desistência voluntária com tentativa perfeita.",
           "Punir cogitação isolada.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Punir Iter criminis e tentativa apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
+          "Cogitação não é punível; atos preparatórios em regra não são, salvo criminalização autônoma.",
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta resume o núcleo do tema: Cogitação não é punível; atos preparatórios em regra não são, salvo criminalização autônoma."
       },
       {
@@ -1836,9 +1853,10 @@ export const direitoPenalParteGeralAvancado = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Tentativa ocorre quando o crime não se consuma por circunstâncias alheias à vontade do agente.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Punir cogitação isolada."
+          "Confundir desistência voluntária com tentativa perfeita.",
+          "Punir cogitação isolada.",
+          "Punir Iter criminis e tentativa apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1870,11 +1888,11 @@ export const direitoPenalParteGeralAvancado = [
   },
   {
     "id": "concurso-de-pessoas-crimes-penas-e-extincao-da-punibilidade",
-    "materialTitle": "Direito Penal Parte Geral Avançado",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Concurso de pessoas, crimes, penas e extinção da punibilidade",
@@ -1991,13 +2009,14 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Concurso de pessoas, crimes, penas e extinção da punibilidade, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Concurso de pessoas exige pluralidade de agentes, relevância causal, vínculo subjetivo e identidade de infração.",
           "Dizer que presença no local sempre configura participação.",
           "Confundir concurso formal com continuidade delitiva.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Punir Concurso de pessoas, crimes, penas e extinção da punibilidade apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
+          "Concurso de pessoas exige pluralidade de agentes, relevância causal, vínculo subjetivo e identidade de infração.",
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta resume o núcleo do tema: Concurso de pessoas exige pluralidade de agentes, relevância causal, vínculo subjetivo e identidade de infração."
       },
       {
@@ -2042,13 +2061,14 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Dizer que presença no local sempre configura participação.",
           "Pena deve observar culpabilidade, antecedentes, circunstâncias e finalidades de reprovação e prevenção.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Confundir concurso formal com continuidade delitiva."
+          "Confundir concurso formal com continuidade delitiva.",
+          "Punir Concurso de pessoas, crimes, penas e extinção da punibilidade apenas pelo resultado, sem examinar conduta, dolo ou culpa, nexo causal e tipicidade.",
+          "Confundir ilicitude com culpabilidade, absolvendo ou condenando sem passar pelas etapas analíticas do crime."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {

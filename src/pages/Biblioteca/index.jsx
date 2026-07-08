@@ -15,6 +15,36 @@ function unique(items) {
   return [...new Set(items.filter(Boolean))].sort((a, b) => String(a).localeCompare(String(b), "pt-BR"));
 }
 
+function normalizeMaterialKey(value = "") {
+  return String(value)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
+
+function dedupeMaterials(items) {
+  const byId = new Set();
+  const byContent = new Set();
+
+  return items.filter((item) => {
+    if (!item?.id || byId.has(item.id)) return false;
+
+    const contentKey = [
+      normalizeMaterialKey(item.titulo),
+      normalizeMaterialKey(item.materia),
+      normalizeMaterialKey(item.tipo || item.categoria),
+    ].join("|");
+
+    if (byContent.has(contentKey)) return false;
+
+    byId.add(item.id);
+    byContent.add(contentKey);
+    return true;
+  });
+}
+
 function includesText(item, query) {
   const text = [item.titulo, item.descricao, item.materia, item.source]
     .filter(Boolean)
@@ -78,7 +108,7 @@ export default function BibliotecaPage() {
       .filter((item) => item?.id && !officialIds.has(item.id) && !deletedSet.has(item.id))
       .map((item) => ({ ...item, tipo: "Apostila", categoria: "Apostila" }));
 
-    return [...oficiais, ...extras];
+    return dedupeMaterials([...oficiais, ...extras]);
   }, [adminMaterials, deletedSet, officialIds, sourceMaterials]);
   const materiaOptions = useMemo(() => unique(materiais.map((item) => item.materia)), [materiais]);
 

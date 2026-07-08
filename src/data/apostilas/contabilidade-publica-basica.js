@@ -7,11 +7,11 @@
 export const contabilidadePublicaBasica = [
   {
     "id": "contabilidade-publica-basica-01-objeto-finalidade-e-campo-da-contabilidade-aplicada-ao-setor-publico",
-    "materialTitle": "Contabilidade Pública Básica",
+    "materialTitle": "Contabilidade Pública Básica 10/10 Plus",
     "subject": "Contabilidade Pública Básica",
     "contest": "Tribunais / Prefeituras / Área contábil e administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Contabilidade Pública Básica",
+    "moduleTitle": "Contabilidade Pública Básica 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Objeto, finalidade e campo da contabilidade aplicada ao setor público",
@@ -179,19 +179,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Objeto, finalidade e campo da contabilidade aplicada ao setor público, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar registro, evidenciação e controle do patrimônio público e atos relevantes, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Limitar contabilidade pública à execução orçamentária.",
+          "Lançar Objeto, finalidade e campo da contabilidade aplicada ao setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade.",
+          "Identificar registro, evidenciação e controle do patrimônio público e atos relevantes, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: separar dimensão orçamentária, patrimonial e de controle, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Limitar contabilidade pública à execução orçamentária.",
+          "Errada: Lançar Objeto, finalidade e campo da contabilidade aplicada ao setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade.",
+          "Correta: Identificar registro, evidenciação e controle do patrimônio público e atos relevantes, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ]
       },
       {
@@ -220,19 +222,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Objeto, finalidade e campo da contabilidade aplicada ao setor público é:",
         "alternativas": [
-          "a contabilidade pública não registra só orçamento; também mostra patrimônio",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Limitar contabilidade pública à execução orçamentária.",
+          "A contabilidade pública não registra só orçamento; também mostra patrimônio.",
+          "Lançar Objeto, finalidade e campo da contabilidade aplicada ao setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Limitar contabilidade pública à execução orçamentária.",
+          "Correta: A contabilidade pública não registra só orçamento; também mostra patrimônio.",
+          "Errada: Lançar Objeto, finalidade e campo da contabilidade aplicada ao setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -262,18 +266,20 @@ export const contabilidadePublicaBasica = [
         "enunciado": "Qual alternativa revela erro de banca em Objeto, finalidade e campo da contabilidade aplicada ao setor público?",
         "alternativas": [
           "Supor que limitar contabilidade pública à execução orçamentária é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Limitar contabilidade pública à execução orçamentária.",
+          "Lançar Objeto, finalidade e campo da contabilidade aplicada ao setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Correta: Supor que limitar contabilidade pública à execução orçamentária é aceitável porque simplifica o trabalho.",
+          "Errada: Limitar contabilidade pública à execução orçamentária.",
+          "Errada: Lançar Objeto, finalidade e campo da contabilidade aplicada ao setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -287,11 +293,11 @@ export const contabilidadePublicaBasica = [
   },
   {
     "id": "contabilidade-publica-basica-02-patrimonio-publico-ativos-passivos-e-patrimonio-liquido",
-    "materialTitle": "Contabilidade Pública Básica",
+    "materialTitle": "Contabilidade Pública Básica 10/10 Plus",
     "subject": "Contabilidade Pública Básica",
     "contest": "Tribunais / Prefeituras / Área contábil e administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Contabilidade Pública Básica",
+    "moduleTitle": "Contabilidade Pública Básica 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Patrimônio público: ativos, passivos e patrimônio líquido",
@@ -460,18 +466,20 @@ export const contabilidadePublicaBasica = [
         "enunciado": "Em Patrimônio público: ativos, passivos e patrimônio líquido, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar bens, direitos, obrigações e situação patrimonial da entidade pública, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Confundir bem público com recurso orçamentário.",
+          "Lançar Patrimônio público: ativos, passivos e patrimônio líquido apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar ativo, passivo e variação patrimonial, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar bens, direitos, obrigações e situação patrimonial da entidade pública, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Confundir bem público com recurso orçamentário.",
+          "Errada: Lançar Patrimônio público: ativos, passivos e patrimônio líquido apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -500,19 +508,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Patrimônio público: ativos, passivos e patrimônio líquido é:",
         "alternativas": [
-          "patrimônio revela capacidade e obrigações, não apenas caixa",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Patrimônio revela capacidade e obrigações, não apenas caixa.",
+          "Confundir bem público com recurso orçamentário.",
+          "Lançar Patrimônio público: ativos, passivos e patrimônio líquido apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Correta: Patrimônio revela capacidade e obrigações, não apenas caixa.",
+          "Errada: Confundir bem público com recurso orçamentário.",
+          "Errada: Lançar Patrimônio público: ativos, passivos e patrimônio líquido apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -541,19 +551,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Patrimônio público: ativos, passivos e patrimônio líquido?",
         "alternativas": [
+          "Confundir bem público com recurso orçamentário.",
           "Supor que confundir bem público com recurso orçamentário é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Lançar Patrimônio público: ativos, passivos e patrimônio líquido apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Confundir bem público com recurso orçamentário.",
+          "Correta: Supor que confundir bem público com recurso orçamentário é aceitável porque simplifica o trabalho.",
+          "Errada: Lançar Patrimônio público: ativos, passivos e patrimônio líquido apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -567,11 +579,11 @@ export const contabilidadePublicaBasica = [
   },
   {
     "id": "contabilidade-publica-basica-03-regimes-contabeis-no-setor-publico",
-    "materialTitle": "Contabilidade Pública Básica",
+    "materialTitle": "Contabilidade Pública Básica 10/10 Plus",
     "subject": "Contabilidade Pública Básica",
     "contest": "Tribunais / Prefeituras / Área contábil e administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Contabilidade Pública Básica",
+    "moduleTitle": "Contabilidade Pública Básica 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Regimes contábeis no setor público",
@@ -739,19 +751,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Regimes contábeis no setor público, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Usar caixa para tudo e errar reconhecimento patrimonial.",
           "Identificar competência patrimonial e enfoques próprios da receita e despesa orçamentária, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Lançar Regimes contábeis no setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: distinguir orçamento, finanças e patrimônio, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Usar caixa para tudo e errar reconhecimento patrimonial.",
+          "Correta: Identificar competência patrimonial e enfoques próprios da receita e despesa orçamentária, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Lançar Regimes contábeis no setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -780,19 +794,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Regimes contábeis no setor público é:",
         "alternativas": [
-          "fato patrimonial pode existir antes ou depois do fluxo financeiro",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Usar caixa para tudo e errar reconhecimento patrimonial.",
+          "Lançar Regimes contábeis no setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Fato patrimonial pode existir antes ou depois do fluxo financeiro.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Usar caixa para tudo e errar reconhecimento patrimonial.",
+          "Errada: Lançar Regimes contábeis no setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Correta: Fato patrimonial pode existir antes ou depois do fluxo financeiro.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -821,19 +837,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Regimes contábeis no setor público?",
         "alternativas": [
-          "Supor que usar caixa para tudo e errar reconhecimento patrimonial é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Usar caixa para tudo e errar reconhecimento patrimonial.",
+          "Lançar Regimes contábeis no setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade.",
+          "Supor que usar caixa para tudo e errar reconhecimento patrimonial é aceitável porque simplifica o trabalho."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Usar caixa para tudo e errar reconhecimento patrimonial.",
+          "Errada: Lançar Regimes contábeis no setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade.",
+          "Correta: Supor que usar caixa para tudo e errar reconhecimento patrimonial é aceitável porque simplifica o trabalho."
         ]
       },
       {
@@ -847,11 +865,11 @@ export const contabilidadePublicaBasica = [
   },
   {
     "id": "contabilidade-publica-basica-04-plano-de-contas-aplicado-ao-setor-publico",
-    "materialTitle": "Contabilidade Pública Básica",
+    "materialTitle": "Contabilidade Pública Básica 10/10 Plus",
     "subject": "Contabilidade Pública Básica",
     "contest": "Tribunais / Prefeituras / Área contábil e administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Contabilidade Pública Básica",
+    "moduleTitle": "Contabilidade Pública Básica 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Plano de contas aplicado ao setor público",
@@ -1019,19 +1037,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Plano de contas aplicado ao setor público, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Decorar classe sem entender a informação registrada.",
+          "Lançar Plano de contas aplicado ao setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
           "Identificar organização das contas para registrar natureza da informação, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: identificar se a conta é patrimonial, orçamentária ou de controle, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Decorar classe sem entender a informação registrada.",
+          "Errada: Lançar Plano de contas aplicado ao setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Correta: Identificar organização das contas para registrar natureza da informação, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -1060,19 +1080,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Plano de contas aplicado ao setor público é:",
         "alternativas": [
-          "PCASP permite padronização e comparabilidade entre entes",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Decorar classe sem entender a informação registrada.",
+          "Lançar Plano de contas aplicado ao setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "PCASP permite padronização e comparabilidade entre entes.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Decorar classe sem entender a informação registrada.",
+          "Errada: Lançar Plano de contas aplicado ao setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Correta: PCASP permite padronização e comparabilidade entre entes.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -1101,19 +1123,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Plano de contas aplicado ao setor público?",
         "alternativas": [
+          "Decorar classe sem entender a informação registrada.",
           "Supor que decorar classe sem entender a informação registrada é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Lançar Plano de contas aplicado ao setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Decorar classe sem entender a informação registrada.",
+          "Correta: Supor que decorar classe sem entender a informação registrada é aceitável porque simplifica o trabalho.",
+          "Errada: Lançar Plano de contas aplicado ao setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -1127,11 +1151,11 @@ export const contabilidadePublicaBasica = [
   },
   {
     "id": "contabilidade-publica-basica-05-receita-e-despesa-sob-enfoque-contabil",
-    "materialTitle": "Contabilidade Pública Básica",
+    "materialTitle": "Contabilidade Pública Básica 10/10 Plus",
     "subject": "Contabilidade Pública Básica",
     "contest": "Tribunais / Prefeituras / Área contábil e administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Contabilidade Pública Básica",
+    "moduleTitle": "Contabilidade Pública Básica 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Receita e despesa sob enfoque contábil",
@@ -1299,19 +1323,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Receita e despesa sob enfoque contábil, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
-          "Identificar tratamento contábil de ingressos, dispêndios e variações patrimoniais, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Igualar classificação orçamentária a resultado patrimonial.",
+          "Lançar Receita e despesa sob enfoque contábil apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade.",
+          "Identificar tratamento contábil de ingressos, dispêndios e variações patrimoniais, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: analisar fato gerador, arrecadação e impacto patrimonial, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Igualar classificação orçamentária a resultado patrimonial.",
+          "Errada: Lançar Receita e despesa sob enfoque contábil apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade.",
+          "Correta: Identificar tratamento contábil de ingressos, dispêndios e variações patrimoniais, verificar competência, observar o procedimento e registrar a decisão com fundamento."
         ]
       },
       {
@@ -1340,19 +1366,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Receita e despesa sob enfoque contábil é:",
         "alternativas": [
-          "receita orçamentária nem sempre equivale a variação patrimonial aumentativa",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Igualar classificação orçamentária a resultado patrimonial.",
+          "Lançar Receita e despesa sob enfoque contábil apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade.",
+          "Receita orçamentária nem sempre equivale a variação patrimonial aumentativa."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Igualar classificação orçamentária a resultado patrimonial.",
+          "Errada: Lançar Receita e despesa sob enfoque contábil apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade.",
+          "Correta: Receita orçamentária nem sempre equivale a variação patrimonial aumentativa."
         ]
       },
       {
@@ -1382,18 +1410,20 @@ export const contabilidadePublicaBasica = [
         "enunciado": "Qual alternativa revela erro de banca em Receita e despesa sob enfoque contábil?",
         "alternativas": [
           "Supor que igualar classificação orçamentária a resultado patrimonial é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Igualar classificação orçamentária a resultado patrimonial.",
+          "Lançar Receita e despesa sob enfoque contábil apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Correta: Supor que igualar classificação orçamentária a resultado patrimonial é aceitável porque simplifica o trabalho.",
+          "Errada: Igualar classificação orçamentária a resultado patrimonial.",
+          "Errada: Lançar Receita e despesa sob enfoque contábil apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -1407,11 +1437,11 @@ export const contabilidadePublicaBasica = [
   },
   {
     "id": "contabilidade-publica-basica-06-variacoes-patrimoniais-aumentativas-e-diminutivas",
-    "materialTitle": "Contabilidade Pública Básica",
+    "materialTitle": "Contabilidade Pública Básica 10/10 Plus",
     "subject": "Contabilidade Pública Básica",
     "contest": "Tribunais / Prefeituras / Área contábil e administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Contabilidade Pública Básica",
+    "moduleTitle": "Contabilidade Pública Básica 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Variações patrimoniais aumentativas e diminutivas",
@@ -1579,19 +1609,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Variações patrimoniais aumentativas e diminutivas, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Confundir recebimento de empréstimo com aumento patrimonial definitivo.",
+          "Lançar Variações patrimoniais aumentativas e diminutivas apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
           "Identificar eventos que aumentam ou reduzem a situação patrimonial líquida, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: verificar se houve ganho, perda ou mera troca patrimonial, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Confundir recebimento de empréstimo com aumento patrimonial definitivo.",
+          "Errada: Lançar Variações patrimoniais aumentativas e diminutivas apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Correta: Identificar eventos que aumentam ou reduzem a situação patrimonial líquida, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -1620,19 +1652,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Variações patrimoniais aumentativas e diminutivas é:",
         "alternativas": [
-          "VPA e VPD medem impacto econômico no patrimônio",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Confundir recebimento de empréstimo com aumento patrimonial definitivo.",
+          "VPA e VPD medem impacto econômico no patrimônio.",
+          "Lançar Variações patrimoniais aumentativas e diminutivas apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Confundir recebimento de empréstimo com aumento patrimonial definitivo.",
+          "Correta: VPA e VPD medem impacto econômico no patrimônio.",
+          "Errada: Lançar Variações patrimoniais aumentativas e diminutivas apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -1661,19 +1695,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Variações patrimoniais aumentativas e diminutivas?",
         "alternativas": [
+          "Confundir recebimento de empréstimo com aumento patrimonial definitivo.",
+          "Lançar Variações patrimoniais aumentativas e diminutivas apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
           "Supor que confundir recebimento de empréstimo com aumento patrimonial definitivo é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Confundir recebimento de empréstimo com aumento patrimonial definitivo.",
+          "Errada: Lançar Variações patrimoniais aumentativas e diminutivas apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Correta: Supor que confundir recebimento de empréstimo com aumento patrimonial definitivo é aceitável porque simplifica o trabalho.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -1687,11 +1723,11 @@ export const contabilidadePublicaBasica = [
   },
   {
     "id": "contabilidade-publica-basica-07-demonstracoes-contabeis-aplicadas-ao-setor-publico",
-    "materialTitle": "Contabilidade Pública Básica",
+    "materialTitle": "Contabilidade Pública Básica 10/10 Plus",
     "subject": "Contabilidade Pública Básica",
     "contest": "Tribunais / Prefeituras / Área contábil e administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Contabilidade Pública Básica",
+    "moduleTitle": "Contabilidade Pública Básica 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Demonstrações contábeis aplicadas ao setor público",
@@ -1860,18 +1896,20 @@ export const contabilidadePublicaBasica = [
         "enunciado": "Em Demonstrações contábeis aplicadas ao setor público, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar balanços e demonstrativos para evidenciar orçamento, finanças e patrimônio, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Procurar dado patrimonial no demonstrativo errado.",
+          "Lançar Demonstrações contábeis aplicadas ao setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: relacionar pergunta da banca à demonstração correta, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar balanços e demonstrativos para evidenciar orçamento, finanças e patrimônio, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Procurar dado patrimonial no demonstrativo errado.",
+          "Errada: Lançar Demonstrações contábeis aplicadas ao setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -1900,19 +1938,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Demonstrações contábeis aplicadas ao setor público é:",
         "alternativas": [
-          "cada demonstração responde pergunta diferente sobre a entidade",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Procurar dado patrimonial no demonstrativo errado.",
+          "Lançar Demonstrações contábeis aplicadas ao setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Cada demonstração responde pergunta diferente sobre a entidade.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Procurar dado patrimonial no demonstrativo errado.",
+          "Errada: Lançar Demonstrações contábeis aplicadas ao setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Correta: Cada demonstração responde pergunta diferente sobre a entidade.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -1941,19 +1981,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Demonstrações contábeis aplicadas ao setor público?",
         "alternativas": [
+          "Procurar dado patrimonial no demonstrativo errado.",
+          "Lançar Demonstrações contábeis aplicadas ao setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
           "Supor que procurar dado patrimonial no demonstrativo errado é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Procurar dado patrimonial no demonstrativo errado.",
+          "Errada: Lançar Demonstrações contábeis aplicadas ao setor público apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Correta: Supor que procurar dado patrimonial no demonstrativo errado é aceitável porque simplifica o trabalho.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -1967,11 +2009,11 @@ export const contabilidadePublicaBasica = [
   },
   {
     "id": "contabilidade-publica-basica-08-balanco-orcamentario-financeiro-e-patrimonial",
-    "materialTitle": "Contabilidade Pública Básica",
+    "materialTitle": "Contabilidade Pública Básica 10/10 Plus",
     "subject": "Contabilidade Pública Básica",
     "contest": "Tribunais / Prefeituras / Área contábil e administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Contabilidade Pública Básica",
+    "moduleTitle": "Contabilidade Pública Básica 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Balanço orçamentário, financeiro e patrimonial",
@@ -2139,19 +2181,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Balanço orçamentário, financeiro e patrimonial, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Achar que superávit financeiro é lucro.",
+          "Lançar Balanço orçamentário, financeiro e patrimonial apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
           "Identificar diferenças entre execução do orçamento, fluxo financeiro e situação patrimonial, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: comparar finalidade e base de cada balanço, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Achar que superávit financeiro é lucro.",
+          "Errada: Lançar Balanço orçamentário, financeiro e patrimonial apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Correta: Identificar diferenças entre execução do orçamento, fluxo financeiro e situação patrimonial, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -2180,19 +2224,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Balanço orçamentário, financeiro e patrimonial é:",
         "alternativas": [
-          "um mesmo fato pode afetar demonstrativos de modo distinto",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Achar que superávit financeiro é lucro.",
+          "Lançar Balanço orçamentário, financeiro e patrimonial apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade.",
+          "Um mesmo fato pode afetar demonstrativos de modo distinto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Achar que superávit financeiro é lucro.",
+          "Errada: Lançar Balanço orçamentário, financeiro e patrimonial apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade.",
+          "Correta: Um mesmo fato pode afetar demonstrativos de modo distinto."
         ]
       },
       {
@@ -2221,19 +2267,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Balanço orçamentário, financeiro e patrimonial?",
         "alternativas": [
+          "Achar que superávit financeiro é lucro.",
+          "Lançar Balanço orçamentário, financeiro e patrimonial apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
           "Supor que achar que superávit financeiro é lucro é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Achar que superávit financeiro é lucro.",
+          "Errada: Lançar Balanço orçamentário, financeiro e patrimonial apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Correta: Supor que achar que superávit financeiro é lucro é aceitável porque simplifica o trabalho.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -2247,11 +2295,11 @@ export const contabilidadePublicaBasica = [
   },
   {
     "id": "contabilidade-publica-basica-09-controle-interno-prestacao-de-contas-e-transparencia-contabil",
-    "materialTitle": "Contabilidade Pública Básica",
+    "materialTitle": "Contabilidade Pública Básica 10/10 Plus",
     "subject": "Contabilidade Pública Básica",
     "contest": "Tribunais / Prefeituras / Área contábil e administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Contabilidade Pública Básica",
+    "moduleTitle": "Contabilidade Pública Básica 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Controle interno, prestação de contas e transparência contábil",
@@ -2419,19 +2467,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "Em Controle interno, prestação de contas e transparência contábil, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
+          "Tratar lançamento como etapa burocrática sem efeito de controle.",
+          "Lançar Controle interno, prestação de contas e transparência contábil apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
           "Identificar contabilidade como base para controle, auditoria e responsabilização, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: vincular fato, documento, conta e evidência, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Errada: Tratar lançamento como etapa burocrática sem efeito de controle.",
+          "Errada: Lançar Controle interno, prestação de contas e transparência contábil apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Correta: Identificar contabilidade como base para controle, auditoria e responsabilização, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -2460,19 +2510,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Controle interno, prestação de contas e transparência contábil é:",
         "alternativas": [
-          "registro correto sustenta decisão, transparência e fiscalização",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Tratar lançamento como etapa burocrática sem efeito de controle.",
+          "Lançar Controle interno, prestação de contas e transparência contábil apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Registro correto sustenta decisão, transparência e fiscalização.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Tratar lançamento como etapa burocrática sem efeito de controle.",
+          "Errada: Lançar Controle interno, prestação de contas e transparência contábil apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Correta: Registro correto sustenta decisão, transparência e fiscalização.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -2501,19 +2553,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Controle interno, prestação de contas e transparência contábil?",
         "alternativas": [
+          "Tratar lançamento como etapa burocrática sem efeito de controle.",
+          "Lançar Controle interno, prestação de contas e transparência contábil apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
           "Supor que tratar lançamento como etapa burocrática sem efeito de controle é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Tratar lançamento como etapa burocrática sem efeito de controle.",
+          "Errada: Lançar Controle interno, prestação de contas e transparência contábil apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Correta: Supor que tratar lançamento como etapa burocrática sem efeito de controle é aceitável porque simplifica o trabalho.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -2527,11 +2581,11 @@ export const contabilidadePublicaBasica = [
   },
   {
     "id": "contabilidade-publica-basica-10-questoes-integradas-de-contabilidade-publica-basica",
-    "materialTitle": "Contabilidade Pública Básica",
+    "materialTitle": "Contabilidade Pública Básica 10/10 Plus",
     "subject": "Contabilidade Pública Básica",
     "contest": "Tribunais / Prefeituras / Área contábil e administrativa",
     "role": "Aluno VemAprovar",
-    "moduleTitle": "Contabilidade Pública Básica",
+    "moduleTitle": "Contabilidade Pública Básica 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Questões integradas de contabilidade pública básica",
@@ -2700,18 +2754,20 @@ export const contabilidadePublicaBasica = [
         "enunciado": "Em Questões integradas de contabilidade pública básica, qual conduta demonstra domínio do conteúdo em uma questão prática de concurso?",
         "alternativas": [
           "Identificar casos com receita, despesa, patrimônio, variações e demonstrativos, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
-          "Escolher a alternativa mais rápida, ainda que não explique competência, documento ou consequência.",
-          "Resolver o caso apenas por hierarquia, presumindo que a autoridade superior sempre pode praticar qualquer ato.",
-          "Ignorar a finalidade pública e responder com base em conveniência pessoal ou costume informal."
+          "Resolver por palavra-chave isolada.",
+          "Lançar Questões integradas de contabilidade pública básica apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
         "comentario": "A alternativa correta transforma o tema em decisão verificável: perguntar qual dimensão está sendo cobrada, sem perder legalidade e controle.",
         "alternativasComentadas": [
-          "Correta: une conteúdo, competência, procedimento e registro.",
-          "Errada: rapidez sem fundamento costuma gerar nulidade ou falha de controle.",
-          "Errada: hierarquia não substitui competência legal ou regimental.",
-          "Errada: conveniência pessoal não é critério de decisão pública."
+          "Correta: Identificar casos com receita, despesa, patrimônio, variações e demonstrativos, verificar competência, observar o procedimento e registrar a decisão com fundamento.",
+          "Errada: Resolver por palavra-chave isolada.",
+          "Errada: Lançar Questões integradas de contabilidade pública básica apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {
@@ -2740,19 +2796,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "A frase que melhor resume Questões integradas de contabilidade pública básica é:",
         "alternativas": [
-          "a prova exige classificar o fato antes de calcular ou concluir",
-          "Toda providência administrativa é válida quando produz economia de tempo.",
-          "O atendimento ao interesse público dispensa registro quando a intenção é boa.",
-          "A experiência do servidor substitui procedimento, motivação e controle."
+          "Resolver por palavra-chave isolada.",
+          "Lançar Questões integradas de contabilidade pública básica apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade.",
+          "A prova exige classificar o fato antes de calcular ou concluir."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A tese correta preserva finalidade pública e técnica de decisão.",
         "alternativasComentadas": [
-          "Correta: expressa o núcleo aplicável ao caso.",
-          "Errada: economia de tempo não autoriza violar regra.",
-          "Errada: boa intenção não substitui formalidade essencial.",
-          "Errada: experiência ajuda, mas não elimina procedimento."
+          "Errada: Resolver por palavra-chave isolada.",
+          "Errada: Lançar Questões integradas de contabilidade pública básica apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade.",
+          "Correta: A prova exige classificar o fato antes de calcular ou concluir."
         ]
       },
       {
@@ -2781,19 +2839,21 @@ export const contabilidadePublicaBasica = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa revela erro de banca em Questões integradas de contabilidade pública básica?",
         "alternativas": [
+          "Resolver por palavra-chave isolada.",
           "Supor que resolver por palavra-chave isolada é aceitável porque simplifica o trabalho.",
-          "Conferir competência antes de praticar o ato.",
-          "Documentar o motivo da decisão administrativa.",
-          "Usar indicador para verificar se a providência funcionou."
+          "Lançar Questões integradas de contabilidade pública básica apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A descreve justamente a armadilha do capítulo.",
         "alternativasComentadas": [
-          "Correta: é o erro típico.",
-          "Errada: conferir competência é boa prática.",
-          "Errada: motivação protege o ato.",
-          "Errada: indicador melhora gestão e controle."
+          "Errada: Resolver por palavra-chave isolada.",
+          "Correta: Supor que resolver por palavra-chave isolada é aceitável porque simplifica o trabalho.",
+          "Errada: Lançar Questões integradas de contabilidade pública básica apenas pelo efeito no orçamento, sem evidenciar patrimônio, variação patrimonial e natureza da informação.",
+          "Errada: Confundir ativo com ingresso financeiro momentâneo, ignorando controle de bens, direitos e obrigações públicas.",
+          "Errada: Tratar balanço orçamentário, financeiro e patrimonial como demonstrativos idênticos, com a mesma finalidade."
         ]
       },
       {

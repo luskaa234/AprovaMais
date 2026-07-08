@@ -7,11 +7,11 @@
 export const redacaoConcursosPoliciais = [
   {
     "id": "estrutura-da-redacao-policial-tese-problema-e-caminho-de-solucao",
-    "materialTitle": "Redação para Concursos Policiais",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Estrutura da redação policial: tese, problema e caminho de solução",
@@ -131,13 +131,14 @@ export const redacaoConcursosPoliciais = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Estrutura da redação policial: tese, problema e caminho de solução, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A redação policial precisa defender uma tese clara sobre segurança pública sem cair em discurso meramente emocional ou punitivista.",
           "Começar com frase de efeito vazia e só depois tentar descobrir a tese.",
           "Prometer solução milagrosa, vaga ou incompatível com a Constituição.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Confundir tese com opinião solta sobre Estrutura da redação policial: tese, problema e caminho de solução, sem apresentar problema delimitado e caminho argumentativo.",
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável.",
+          "A redação policial precisa defender uma tese clara sobre segurança pública sem cair em discurso meramente emocional ou punitivista."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: A redação policial precisa defender uma tese clara sobre segurança pública sem cair em discurso meramente emocional ou punitivista."
       },
       {
@@ -182,13 +183,14 @@ export const redacaoConcursosPoliciais = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "O desenvolvimento combina causa, consequência e medida institucional, sempre conectando o argumento ao comando da proposta.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Prometer solução milagrosa, vaga ou incompatível com a Constituição."
+          "Começar com frase de efeito vazia e só depois tentar descobrir a tese.",
+          "Prometer solução milagrosa, vaga ou incompatível com a Constituição.",
+          "Confundir tese com opinião solta sobre Estrutura da redação policial: tese, problema e caminho de solução, sem apresentar problema delimitado e caminho argumentativo.",
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável.",
+          "O desenvolvimento combina causa, consequência e medida institucional, sempre conectando o argumento ao comando da proposta."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -217,11 +219,11 @@ export const redacaoConcursosPoliciais = [
   },
   {
     "id": "leitura-do-tema-e-recorte-como-nao-fugir-da-proposta",
-    "materialTitle": "Redação para Concursos Policiais",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Leitura do tema e recorte: como não fugir da proposta",
@@ -341,13 +343,14 @@ export const redacaoConcursosPoliciais = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Leitura do tema e recorte: como não fugir da proposta, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "O primeiro passo é separar assunto amplo, tema específico e comando da banca; cada elemento orienta uma parte diferente do texto.",
           "Tratar qualquer tema policial como autorização para escrever sobre aumento de penas.",
+          "O primeiro passo é separar assunto amplo, tema específico e comando da banca; cada elemento orienta uma parte diferente do texto.",
           "Ignorar o verbo do comando e responder apenas ao assunto genérico.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Confundir tese com opinião solta sobre Leitura do tema e recorte: como não fugir da proposta, sem apresentar problema delimitado e caminho argumentativo.",
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta resume o núcleo do tema: O primeiro passo é separar assunto amplo, tema específico e comando da banca; cada elemento orienta uma parte diferente do texto."
       },
       {
@@ -392,13 +395,14 @@ export const redacaoConcursosPoliciais = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Tratar qualquer tema policial como autorização para escrever sobre aumento de penas.",
+          "Ignorar o verbo do comando e responder apenas ao assunto genérico.",
           "Recorte correto impede fuga parcial: falar de criminalidade em geral quando o tema pede policiamento comunitário reduz a aderência ao comando.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Ignorar o verbo do comando e responder apenas ao assunto genérico."
+          "Confundir tese com opinião solta sobre Leitura do tema e recorte: como não fugir da proposta, sem apresentar problema delimitado e caminho argumentativo.",
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -427,11 +431,11 @@ export const redacaoConcursosPoliciais = [
   },
   {
     "id": "tese-e-projeto-de-texto-promessa-que-o-desenvolvimento-precisa-cumprir",
-    "materialTitle": "Redação para Concursos Policiais",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Tese e projeto de texto: promessa que o desenvolvimento precisa cumprir",
@@ -550,13 +554,14 @@ export const redacaoConcursosPoliciais = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Tese e projeto de texto: promessa que o desenvolvimento precisa cumprir, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Tese é a resposta do candidato ao problema proposto; não deve ser uma frase neutra que apenas repete o tema.",
           "Confundir tese com opinião solta: “segurança pública é importante”.",
           "Apresentar dois argumentos na introdução e desenvolver outros diferentes.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Tese é a resposta do candidato ao problema proposto; não deve ser uma frase neutra que apenas repete o tema.",
+          "Confundir tese com opinião solta sobre Tese e projeto de texto: promessa que o desenvolvimento precisa cumprir, sem apresentar problema delimitado e caminho argumentativo.",
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: Tese é a resposta do candidato ao problema proposto; não deve ser uma frase neutra que apenas repete o tema."
       },
       {
@@ -602,9 +607,10 @@ export const redacaoConcursosPoliciais = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Uma tese forte em concursos policiais costuma equilibrar eficiência estatal, legalidade, prevenção e respeito à dignidade humana.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Apresentar dois argumentos na introdução e desenvolver outros diferentes."
+          "Confundir tese com opinião solta: “segurança pública é importante”.",
+          "Apresentar dois argumentos na introdução e desenvolver outros diferentes.",
+          "Confundir tese com opinião solta sobre Tese e projeto de texto: promessa que o desenvolvimento precisa cumprir, sem apresentar problema delimitado e caminho argumentativo.",
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -636,11 +642,11 @@ export const redacaoConcursosPoliciais = [
   },
   {
     "id": "introducao-nota-alta-contextualizacao-sem-enrolacao",
-    "materialTitle": "Redação para Concursos Policiais",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Introdução nota alta: contextualização sem enrolação",
@@ -759,13 +765,14 @@ export const redacaoConcursosPoliciais = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Introdução nota alta: contextualização sem enrolação, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Contextualizar não é contar história longa; é situar o leitor em um problema público concreto e relacionado ao comando.",
           "Usar dado estatístico sem fonte ou número improvável.",
           "Abrir com citação decorada que não será usada no argumento.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Confundir tese com opinião solta sobre Introdução nota alta: contextualização sem enrolação, sem apresentar problema delimitado e caminho argumentativo.",
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável.",
+          "Contextualizar não é contar história longa; é situar o leitor em um problema público concreto e relacionado ao comando."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: Contextualizar não é contar história longa; é situar o leitor em um problema público concreto e relacionado ao comando."
       },
       {
@@ -810,13 +817,14 @@ export const redacaoConcursosPoliciais = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Usar dado estatístico sem fonte ou número improvável.",
+          "Abrir com citação decorada que não será usada no argumento.",
+          "Confundir tese com opinião solta sobre Introdução nota alta: contextualização sem enrolação, sem apresentar problema delimitado e caminho argumentativo.",
           "Em redação policial, repertórios sobre Estado, cidadania, prevenção e direitos fundamentais costumam ser mais seguros que dados inventados.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Abrir com citação decorada que não será usada no argumento."
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -845,11 +853,11 @@ export const redacaoConcursosPoliciais = [
   },
   {
     "id": "desenvolvimento-topico-frasal-repertorio-e-analise",
-    "materialTitle": "Redação para Concursos Policiais",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Desenvolvimento: tópico frasal, repertório e análise",
@@ -968,13 +976,14 @@ export const redacaoConcursosPoliciais = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Desenvolvimento: tópico frasal, repertório e análise, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Todo desenvolvimento deve começar com tópico frasal que antecipa a ideia central do parágrafo.",
           "Empilhar repertórios sem interpretar.",
+          "Todo desenvolvimento deve começar com tópico frasal que antecipa a ideia central do parágrafo.",
           "Transformar o parágrafo em lista de problemas sem causalidade.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Confundir tese com opinião solta sobre Desenvolvimento: tópico frasal, repertório e análise, sem apresentar problema delimitado e caminho argumentativo.",
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta resume o núcleo do tema: Todo desenvolvimento deve começar com tópico frasal que antecipa a ideia central do parágrafo."
       },
       {
@@ -1019,13 +1028,14 @@ export const redacaoConcursosPoliciais = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Empilhar repertórios sem interpretar.",
+          "Transformar o parágrafo em lista de problemas sem causalidade.",
           "Um bom parágrafo combina afirmação, justificativa, exemplo e fechamento parcial conectado à tese.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Transformar o parágrafo em lista de problemas sem causalidade."
+          "Confundir tese com opinião solta sobre Desenvolvimento: tópico frasal, repertório e análise, sem apresentar problema delimitado e caminho argumentativo.",
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1054,11 +1064,11 @@ export const redacaoConcursosPoliciais = [
   },
   {
     "id": "coesao-e-progressao-conectivos-que-realmente-organizam-o-raciocinio",
-    "materialTitle": "Redação para Concursos Policiais",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Coesão e progressão: conectivos que realmente organizam o raciocínio",
@@ -1180,7 +1190,8 @@ export const redacaoConcursosPoliciais = [
           "Coesão não é enfeitar com conectivos; é mostrar relação lógica entre ideias: causa, oposição, consequência, exemplificação e conclusão.",
           "Usar “outrossim” e “destarte” de modo artificial.",
           "Repetir “segurança pública” em todas as frases sem avanço argumentativo.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Confundir tese com opinião solta sobre Coesão e progressão: conectivos que realmente organizam o raciocínio, sem apresentar problema delimitado e caminho argumentativo.",
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1228,13 +1239,14 @@ export const redacaoConcursosPoliciais = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Usar “outrossim” e “destarte” de modo artificial.",
+          "Repetir “segurança pública” em todas as frases sem avanço argumentativo.",
+          "Confundir tese com opinião solta sobre Coesão e progressão: conectivos que realmente organizam o raciocínio, sem apresentar problema delimitado e caminho argumentativo.",
           "Progressão textual ocorre quando cada período acrescenta algo ao anterior, sem repetir o tema com palavras diferentes.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Repetir “segurança pública” em todas as frases sem avanço argumentativo."
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1263,11 +1275,11 @@ export const redacaoConcursosPoliciais = [
   },
   {
     "id": "conclusao-fechamento-consistente-e-medida-institucional",
-    "materialTitle": "Redação para Concursos Policiais",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Conclusão: fechamento consistente e medida institucional",
@@ -1386,13 +1398,14 @@ export const redacaoConcursosPoliciais = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Conclusão: fechamento consistente e medida institucional, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Conclusão não deve trazer argumento novo; ela retoma a tese e mostra que o caminho defendido foi demonstrado.",
           "Encerrar com “conscientizar a população” sem agente ou mecanismo.",
           "Criar proposta que viola direitos fundamentais.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Conclusão não deve trazer argumento novo; ela retoma a tese e mostra que o caminho defendido foi demonstrado.",
+          "Confundir tese com opinião solta sobre Conclusão: fechamento consistente e medida institucional, sem apresentar problema delimitado e caminho argumentativo.",
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: Conclusão não deve trazer argumento novo; ela retoma a tese e mostra que o caminho defendido foi demonstrado."
       },
       {
@@ -1437,13 +1450,14 @@ export const redacaoConcursosPoliciais = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Encerrar com “conscientizar a população” sem agente ou mecanismo.",
+          "Criar proposta que viola direitos fundamentais.",
+          "Confundir tese com opinião solta sobre Conclusão: fechamento consistente e medida institucional, sem apresentar problema delimitado e caminho argumentativo.",
           "Em tema policial, boas medidas incluem formação continuada, inteligência, integração de dados, controle interno e ações preventivas.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Criar proposta que viola direitos fundamentais."
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1472,11 +1486,11 @@ export const redacaoConcursosPoliciais = [
   },
   {
     "id": "repertorios-seguros-para-seguranca-publica-e-direitos-humanos",
-    "materialTitle": "Redação para Concursos Policiais",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Repertórios seguros para segurança pública e direitos humanos",
@@ -1595,13 +1609,14 @@ export const redacaoConcursosPoliciais = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Repertórios seguros para segurança pública e direitos humanos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Repertório seguro é aquele que o candidato consegue demonstrar em função do tema, não apenas mencionar para parecer culto.",
           "Tratar direitos humanos como obstáculo à polícia.",
           "Usar repertório histórico sem ligação com o problema atual.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Confundir tese com opinião solta sobre Repertórios seguros para segurança pública e direitos humanos, sem apresentar problema delimitado e caminho argumentativo.",
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável.",
+          "Repertório seguro é aquele que o candidato consegue demonstrar em função do tema, não apenas mencionar para parecer culto."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: Repertório seguro é aquele que o candidato consegue demonstrar em função do tema, não apenas mencionar para parecer culto."
       },
       {
@@ -1647,9 +1662,10 @@ export const redacaoConcursosPoliciais = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Direitos humanos não enfraquecem segurança pública; delimitam a atuação legítima do Estado e protegem a credibilidade institucional.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Usar repertório histórico sem ligação com o problema atual."
+          "Tratar direitos humanos como obstáculo à polícia.",
+          "Usar repertório histórico sem ligação com o problema atual.",
+          "Confundir tese com opinião solta sobre Repertórios seguros para segurança pública e direitos humanos, sem apresentar problema delimitado e caminho argumentativo.",
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1681,11 +1697,11 @@ export const redacaoConcursosPoliciais = [
   },
   {
     "id": "temas-provaveis-e-matriz-de-argumentos-policiais",
-    "materialTitle": "Redação para Concursos Policiais",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Temas prováveis e matriz de argumentos policiais",
@@ -1807,7 +1823,8 @@ export const redacaoConcursosPoliciais = [
           "Temas policiais costumam girar em torno de prevenção, violência urbana, juventude, tecnologia, confiança institucional e controle da atividade estatal.",
           "Decorar texto pronto e tentar encaixar em qualquer tema.",
           "Responder tema complexo com “mais policiamento” sem demonstrar estratégia.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Confundir tese com opinião solta sobre Temas prováveis e matriz de argumentos policiais, sem apresentar problema delimitado e caminho argumentativo.",
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1855,13 +1872,14 @@ export const redacaoConcursosPoliciais = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Decorar texto pronto e tentar encaixar em qualquer tema.",
           "Para cada tema, o aluno deve preparar uma causa estrutural, uma falha de gestão e uma medida institucional realista.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Responder tema complexo com “mais policiamento” sem demonstrar estratégia."
+          "Responder tema complexo com “mais policiamento” sem demonstrar estratégia.",
+          "Confundir tese com opinião solta sobre Temas prováveis e matriz de argumentos policiais, sem apresentar problema delimitado e caminho argumentativo.",
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1890,11 +1908,11 @@ export const redacaoConcursosPoliciais = [
   },
   {
     "id": "reescrita-por-rubrica-como-transformar-nota-6-em-nota-9",
-    "materialTitle": "Redação para Concursos Policiais",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Reescrita por rubrica: como transformar nota 6 em nota 9",
@@ -2013,13 +2031,14 @@ export const redacaoConcursosPoliciais = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Reescrita por rubrica: como transformar nota 6 em nota 9, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Reescrever é mais eficiente que apenas produzir textos novos, porque revela padrões de erro em tese, coesão e análise.",
           "Corrigir só acento e vírgula, ignorando tese e argumento.",
+          "Reescrever é mais eficiente que apenas produzir textos novos, porque revela padrões de erro em tese, coesão e análise.",
           "Achar que texto bonito compensa fuga parcial ao tema.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Confundir tese com opinião solta sobre Reescrita por rubrica: como transformar nota 6 em nota 9, sem apresentar problema delimitado e caminho argumentativo.",
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta resume o núcleo do tema: Reescrever é mais eficiente que apenas produzir textos novos, porque revela padrões de erro em tese, coesão e análise."
       },
       {
@@ -2064,13 +2083,14 @@ export const redacaoConcursosPoliciais = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Corrigir só acento e vírgula, ignorando tese e argumento.",
+          "Achar que texto bonito compensa fuga parcial ao tema.",
+          "Confundir tese com opinião solta sobre Reescrita por rubrica: como transformar nota 6 em nota 9, sem apresentar problema delimitado e caminho argumentativo.",
           "Um parágrafo fraco normalmente melhora quando recebe tópico frasal claro e exemplo analisado.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Achar que texto bonito compensa fuga parcial ao tema."
+          "Prometer solução policial milagrosa, sem agente responsável, limite constitucional e medida executável."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {

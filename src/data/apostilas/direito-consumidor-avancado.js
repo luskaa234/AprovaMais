@@ -6,11 +6,11 @@
 export const direitoConsumidorAvancado = [
   {
     "id": "relacao-de-consumo-e-vulnerabilidade",
-    "materialTitle": "Direito do Consumidor Avançado",
+    "materialTitle": "Direito do Consumidor Avançado 10/10 Plus Revisado",
     "subject": "Direito do Consumidor Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Consumidor Avançado",
+    "moduleTitle": "Direito do Consumidor Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Relação de consumo e vulnerabilidade",
@@ -143,13 +143,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Relação de consumo e vulnerabilidade, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Consumidor e fornecedor são definidos pela relação; vulnerabilidade é premissa do sistema, mas deve ser aplicada ao caso.",
           "Achar que toda pessoa física é consumidora sempre.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Consumidor e fornecedor são definidos pela relação; vulnerabilidade é premissa do sistema, mas deve ser aplicada ao caso.",
+          "Resolver Relação de consumo e vulnerabilidade como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Consumidor e fornecedor são definidos pela relação; vulnerabilidade é premissa do sistema, mas deve ser aplicada ao caso."
       },
       {
@@ -182,8 +183,9 @@ export const direitoConsumidorAvancado = [
         "alternativas": [
           "Destinatário final, equiparação e cadeia de fornecimento são pontos de prova.",
           "Achar que toda pessoa física é consumidora sempre.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Relação de consumo e vulnerabilidade como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -215,13 +217,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Relação de consumo e vulnerabilidade?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Consumidor e fornecedor são definidos pela relação; vulnerabilidade é premissa do sistema, mas deve ser apl...",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Achar que toda pessoa física é consumidora sempre.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Relação de consumo e vulnerabilidade como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo.",
+          "Identificar o instituto, seus requisitos e a consequência adequada: Consumidor e fornecedor são definidos pela relação; vulnerabilidade é premissa do sistema, mas deve ser aplicada ao caso."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -236,11 +239,11 @@ export const direitoConsumidorAvancado = [
   },
   {
     "id": "principios-e-politica-nacional-de-consumo",
-    "materialTitle": "Direito do Consumidor Avançado",
+    "materialTitle": "Direito do Consumidor Avançado 10/10 Plus Revisado",
     "subject": "Direito do Consumidor Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Consumidor Avançado",
+    "moduleTitle": "Direito do Consumidor Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Princípios e política nacional de consumo",
@@ -373,13 +376,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Princípios e política nacional de consumo, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "CDC busca equilíbrio, transparência, segurança, educação e harmonização entre mercado e proteção.",
           "Reduzir CDC a regra de devolução de produto.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "CDC busca equilíbrio, transparência, segurança, educação e harmonização entre mercado e proteção.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Princípios e política nacional de consumo como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: CDC busca equilíbrio, transparência, segurança, educação e harmonização entre mercado e proteção."
       },
       {
@@ -410,13 +414,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Princípios e política nacional de consumo quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Boa-fé objetiva e informação adequada estruturam a relação.",
           "Reduzir CDC a regra de devolução de produto.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Boa-fé objetiva e informação adequada estruturam a relação.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Princípios e política nacional de consumo como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -446,9 +451,10 @@ export const direitoConsumidorAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Princípios e política nacional de consumo?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: CDC busca equilíbrio, transparência, segurança, educação e harmonização entre mercado e proteção.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Reduzir CDC a regra de devolução de produto.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Princípios e política nacional de consumo como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -466,11 +472,11 @@ export const direitoConsumidorAvancado = [
   },
   {
     "id": "direitos-basicos-e-informacao",
-    "materialTitle": "Direito do Consumidor Avançado",
+    "materialTitle": "Direito do Consumidor Avançado 10/10 Plus Revisado",
     "subject": "Direito do Consumidor Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Consumidor Avançado",
+    "moduleTitle": "Direito do Consumidor Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Direitos básicos e informação",
@@ -603,13 +609,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Direitos básicos e informação, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Informação clara e adequada permite escolha consciente e previne dano.",
           "Achar que contrato pequeno exclui dever de informar.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Informação clara e adequada permite escolha consciente e previne dano.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Direitos básicos e informação como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Informação clara e adequada permite escolha consciente e previne dano."
       },
       {
@@ -640,13 +647,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Direitos básicos e informação quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Omissão relevante pode gerar responsabilidade mesmo sem defeito material.",
           "Achar que contrato pequeno exclui dever de informar.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Omissão relevante pode gerar responsabilidade mesmo sem defeito material.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Direitos básicos e informação como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -675,13 +683,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Direitos básicos e informação?",
         "alternativas": [
+          "Achar que contrato pequeno exclui dever de informar.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Informação clara e adequada permite escolha consciente e previne dano.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver Direitos básicos e informação como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -696,11 +705,11 @@ export const direitoConsumidorAvancado = [
   },
   {
     "id": "responsabilidade-pelo-fato-do-produto-e-servico",
-    "materialTitle": "Direito do Consumidor Avançado",
+    "materialTitle": "Direito do Consumidor Avançado 10/10 Plus Revisado",
     "subject": "Direito do Consumidor Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Consumidor Avançado",
+    "moduleTitle": "Direito do Consumidor Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Responsabilidade pelo fato do produto e serviço",
@@ -833,13 +842,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Responsabilidade pelo fato do produto e serviço, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Fato do produto/serviço envolve acidente de consumo e dano à segurança.",
           "Confundir vício com fato.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Fato do produto/serviço envolve acidente de consumo e dano à segurança.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Responsabilidade pelo fato do produto e serviço como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Fato do produto/serviço envolve acidente de consumo e dano à segurança."
       },
       {
@@ -872,8 +882,9 @@ export const direitoConsumidorAvancado = [
         "alternativas": [
           "Responsabilidade objetiva não dispensa dano e nexo causal.",
           "Confundir vício com fato.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Responsabilidade pelo fato do produto e serviço como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -905,13 +916,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Responsabilidade pelo fato do produto e serviço?",
         "alternativas": [
+          "Confundir vício com fato.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Fato do produto/serviço envolve acidente de consumo e dano à segurança.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver Responsabilidade pelo fato do produto e serviço como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -926,11 +938,11 @@ export const direitoConsumidorAvancado = [
   },
   {
     "id": "responsabilidade-por-vicio",
-    "materialTitle": "Direito do Consumidor Avançado",
+    "materialTitle": "Direito do Consumidor Avançado 10/10 Plus Revisado",
     "subject": "Direito do Consumidor Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Consumidor Avançado",
+    "moduleTitle": "Direito do Consumidor Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Responsabilidade por vício",
@@ -1063,13 +1075,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Responsabilidade por vício, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Vício afeta qualidade, quantidade ou adequação do produto/serviço.",
           "Tratar todo vício como dano moral automático.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Responsabilidade por vício como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo.",
+          "Vício afeta qualidade, quantidade ou adequação do produto/serviço."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Vício afeta qualidade, quantidade ou adequação do produto/serviço."
       },
       {
@@ -1100,13 +1113,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Responsabilidade por vício quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Prazos e alternativas dependem da natureza do vício e solução pelo fornecedor.",
           "Tratar todo vício como dano moral automático.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Prazos e alternativas dependem da natureza do vício e solução pelo fornecedor.",
+          "Resolver Responsabilidade por vício como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1135,13 +1149,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Responsabilidade por vício?",
         "alternativas": [
+          "Tratar todo vício como dano moral automático.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Vício afeta qualidade, quantidade ou adequação do produto/serviço.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Responsabilidade por vício como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1156,11 +1171,11 @@ export const direitoConsumidorAvancado = [
   },
   {
     "id": "praticas-comerciais-abusivas",
-    "materialTitle": "Direito do Consumidor Avançado",
+    "materialTitle": "Direito do Consumidor Avançado 10/10 Plus Revisado",
     "subject": "Direito do Consumidor Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Consumidor Avançado",
+    "moduleTitle": "Direito do Consumidor Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Práticas comerciais abusivas",
@@ -1295,8 +1310,9 @@ export const direitoConsumidorAvancado = [
         "alternativas": [
           "Venda casada, publicidade enganosa, cobrança vexatória e vantagem excessiva são temas recorrentes.",
           "Aceitar qualquer prática se houver assinatura do consumidor.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Práticas comerciais abusivas como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1330,13 +1346,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Práticas comerciais abusivas quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "A conduta é avaliada pelo efeito no consumidor e pelo equilíbrio da relação.",
           "Aceitar qualquer prática se houver assinatura do consumidor.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Práticas comerciais abusivas como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo.",
+          "A conduta é avaliada pelo efeito no consumidor e pelo equilíbrio da relação."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1366,9 +1383,10 @@ export const direitoConsumidorAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Práticas comerciais abusivas?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Venda casada, publicidade enganosa, cobrança vexatória e vantagem excessiva são temas recorrentes.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Aceitar qualquer prática se houver assinatura do consumidor.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Práticas comerciais abusivas como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1386,11 +1404,11 @@ export const direitoConsumidorAvancado = [
   },
   {
     "id": "contratos-de-consumo-e-clausulas-abusivas",
-    "materialTitle": "Direito do Consumidor Avançado",
+    "materialTitle": "Direito do Consumidor Avançado 10/10 Plus Revisado",
     "subject": "Direito do Consumidor Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Consumidor Avançado",
+    "moduleTitle": "Direito do Consumidor Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Contratos de consumo e cláusulas abusivas",
@@ -1523,13 +1541,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Contratos de consumo e cláusulas abusivas, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Cláusulas abusivas podem ser nulas mesmo quando formalmente aceitas.",
           "Achar que assinatura valida abuso.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Cláusulas abusivas podem ser nulas mesmo quando formalmente aceitas.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Contratos de consumo e cláusulas abusivas como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Cláusulas abusivas podem ser nulas mesmo quando formalmente aceitas."
       },
       {
@@ -1560,13 +1579,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Contratos de consumo e cláusulas abusivas quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Interpretação favorece consumidor quando houver ambiguidade relevante.",
           "Achar que assinatura valida abuso.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Contratos de consumo e cláusulas abusivas como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo.",
+          "Interpretação favorece consumidor quando houver ambiguidade relevante."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1595,13 +1615,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Contratos de consumo e cláusulas abusivas?",
         "alternativas": [
+          "Achar que assinatura valida abuso.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Cláusulas abusivas podem ser nulas mesmo quando formalmente aceitas.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Contratos de consumo e cláusulas abusivas como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1616,11 +1637,11 @@ export const direitoConsumidorAvancado = [
   },
   {
     "id": "protecao-contratual-bancaria-planos-e-servicos",
-    "materialTitle": "Direito do Consumidor Avançado",
+    "materialTitle": "Direito do Consumidor Avançado 10/10 Plus Revisado",
     "subject": "Direito do Consumidor Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Consumidor Avançado",
+    "moduleTitle": "Direito do Consumidor Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Proteção contratual bancária, planos e serviços",
@@ -1753,13 +1774,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Proteção contratual bancária, planos e serviços, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Serviços regulados também podem sofrer controle consumerista quando há relação de consumo.",
           "Aplicar CDC sem verificar regime especial.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Serviços regulados também podem sofrer controle consumerista quando há relação de consumo.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Proteção contratual bancária, planos e serviços como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Serviços regulados também podem sofrer controle consumerista quando há relação de consumo."
       },
       {
@@ -1790,13 +1812,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Proteção contratual bancária, planos e serviços quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Banco, telefonia e planos têm problemas recorrentes de informação, cobrança e falha.",
           "Aplicar CDC sem verificar regime especial.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Banco, telefonia e planos têm problemas recorrentes de informação, cobrança e falha.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Proteção contratual bancária, planos e serviços como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1825,13 +1848,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Proteção contratual bancária, planos e serviços?",
         "alternativas": [
-          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Serviços regulados também podem sofrer controle consumerista quando há relação de consumo.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Aplicar CDC sem verificar regime especial.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Proteção contratual bancária, planos e serviços como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo.",
+          "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Serviços regulados também podem sofrer controle consumerista quando há relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1846,11 +1870,11 @@ export const direitoConsumidorAvancado = [
   },
   {
     "id": "tutela-coletiva-do-consumidor",
-    "materialTitle": "Direito do Consumidor Avançado",
+    "materialTitle": "Direito do Consumidor Avançado 10/10 Plus Revisado",
     "subject": "Direito do Consumidor Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Consumidor Avançado",
+    "moduleTitle": "Direito do Consumidor Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Tutela coletiva do consumidor",
@@ -1983,13 +2007,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Tutela coletiva do consumidor, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Interesses difusos, coletivos e individuais homogêneos permitem atuação coletiva.",
           "Confundir ação individual repetida com tutela coletiva.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Interesses difusos, coletivos e individuais homogêneos permitem atuação coletiva.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Tutela coletiva do consumidor como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Interesses difusos, coletivos e individuais homogêneos permitem atuação coletiva."
       },
       {
@@ -2020,13 +2045,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Tutela coletiva do consumidor quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Dano de massa exige raciocínio de tutela coletiva e prova adequada.",
           "Confundir ação individual repetida com tutela coletiva.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Tutela coletiva do consumidor como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo.",
+          "Dano de massa exige raciocínio de tutela coletiva e prova adequada."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2056,9 +2082,10 @@ export const direitoConsumidorAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Tutela coletiva do consumidor?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Interesses difusos, coletivos e individuais homogêneos permitem atuação coletiva.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir ação individual repetida com tutela coletiva.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Tutela coletiva do consumidor como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2076,11 +2103,11 @@ export const direitoConsumidorAvancado = [
   },
   {
     "id": "superendividamento-e-prevencao",
-    "materialTitle": "Direito do Consumidor Avançado",
+    "materialTitle": "Direito do Consumidor Avançado 10/10 Plus Revisado",
     "subject": "Direito do Consumidor Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito do Consumidor Avançado",
+    "moduleTitle": "Direito do Consumidor Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Superendividamento e prevenção",
@@ -2213,13 +2240,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Superendividamento e prevenção, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Superendividamento envolve impossibilidade global de pagar dívidas de consumo preservando mínimo existencial.",
           "Tratar má-fé como regra em todo devedor.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Superendividamento envolve impossibilidade global de pagar dívidas de consumo preservando mínimo existencial.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Superendividamento e prevenção como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Superendividamento envolve impossibilidade global de pagar dívidas de consumo preservando mínimo existencial."
       },
       {
@@ -2250,13 +2278,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Superendividamento e prevenção quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Crédito responsável e repactuação são ideias centrais.",
           "Tratar má-fé como regra em todo devedor.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Crédito responsável e repactuação são ideias centrais.",
+          "Resolver Superendividamento e prevenção como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2285,13 +2314,14 @@ export const direitoConsumidorAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Superendividamento e prevenção?",
         "alternativas": [
+          "Tratar má-fé como regra em todo devedor.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Superendividamento envolve impossibilidade global de pagar dívidas de consumo preservando mínimo existencial.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver Superendividamento e prevenção como contrato civil comum, ignorando vulnerabilidade, fornecedor, produto ou serviço da relação de consumo."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {

@@ -6,11 +6,11 @@
 export const direitoInternacionalAvancado = [
   {
     "id": "fontes-do-direito-internacional",
-    "materialTitle": "Direito Internacional Avançado",
+    "materialTitle": "Direito Internacional Avançado 10/10 Plus Revisado",
     "subject": "Direito Internacional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Internacional Avançado",
+    "moduleTitle": "Direito Internacional Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Fontes do Direito Internacional",
@@ -143,13 +143,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Fontes do Direito Internacional, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Tratados, costumes, princípios gerais, jurisprudência e doutrina orientam relações internacionais.",
           "Achar que só tratado cria obrigação internacional.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Tratados, costumes, princípios gerais, jurisprudência e doutrina orientam relações internacionais.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Fontes do Direito Internacional como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Tratados, costumes, princípios gerais, jurisprudência e doutrina orientam relações internacionais."
       },
       {
@@ -180,13 +181,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Fontes do Direito Internacional quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Costume exige prática e opinio juris.",
           "Achar que só tratado cria obrigação internacional.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Fontes do Direito Internacional como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito.",
+          "Costume exige prática e opinio juris."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -215,13 +217,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Fontes do Direito Internacional?",
         "alternativas": [
+          "Achar que só tratado cria obrigação internacional.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Tratados, costumes, princípios gerais, jurisprudência e doutrina orientam relações internacionais.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver Fontes do Direito Internacional como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -236,11 +239,11 @@ export const direitoInternacionalAvancado = [
   },
   {
     "id": "sujeitos-internacionais",
-    "materialTitle": "Direito Internacional Avançado",
+    "materialTitle": "Direito Internacional Avançado 10/10 Plus Revisado",
     "subject": "Direito Internacional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Internacional Avançado",
+    "moduleTitle": "Direito Internacional Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Sujeitos internacionais",
@@ -373,13 +376,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Sujeitos internacionais, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Estados, organizações internacionais, indivíduos e outros atores têm posições jurídicas distintas.",
           "Achar que indivíduo nunca é sujeito internacional.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Estados, organizações internacionais, indivíduos e outros atores têm posições jurídicas distintas.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Sujeitos internacionais como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Estados, organizações internacionais, indivíduos e outros atores têm posições jurídicas distintas."
       },
       {
@@ -410,13 +414,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Sujeitos internacionais quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Personalidade internacional varia conforme capacidade e reconhecimento.",
           "Achar que indivíduo nunca é sujeito internacional.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Sujeitos internacionais como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito.",
+          "Personalidade internacional varia conforme capacidade e reconhecimento."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -446,9 +451,10 @@ export const direitoInternacionalAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Sujeitos internacionais?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Estados, organizações internacionais, indivíduos e outros atores têm posições jurídicas distintas.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Achar que indivíduo nunca é sujeito internacional.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Sujeitos internacionais como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -466,11 +472,11 @@ export const direitoInternacionalAvancado = [
   },
   {
     "id": "tratados-internacionais",
-    "materialTitle": "Direito Internacional Avançado",
+    "materialTitle": "Direito Internacional Avançado 10/10 Plus Revisado",
     "subject": "Direito Internacional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Internacional Avançado",
+    "moduleTitle": "Direito Internacional Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Tratados internacionais",
@@ -603,13 +609,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Tratados internacionais, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Tratados passam por negociação, assinatura, aprovação, ratificação e incorporação conforme sistema interno.",
           "Confundir assinatura com vigência interna automática.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Tratados passam por negociação, assinatura, aprovação, ratificação e incorporação conforme sistema interno.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Tratados internacionais como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Tratados passam por negociação, assinatura, aprovação, ratificação e incorporação conforme sistema interno."
       },
       {
@@ -640,13 +647,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Tratados internacionais quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Reserva, denúncia e hierarquia no direito interno são cobradas.",
           "Confundir assinatura com vigência interna automática.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Tratados internacionais como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito.",
+          "Reserva, denúncia e hierarquia no direito interno são cobradas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -676,9 +684,10 @@ export const direitoInternacionalAvancado = [
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Tratados internacionais?",
         "alternativas": [
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Tratados passam por negociação, assinatura, aprovação, ratificação e incorporação conforme sistema interno.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir assinatura com vigência interna automática.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Tratados internacionais como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -696,11 +705,11 @@ export const direitoInternacionalAvancado = [
   },
   {
     "id": "responsabilidade-internacional",
-    "materialTitle": "Direito Internacional Avançado",
+    "materialTitle": "Direito Internacional Avançado 10/10 Plus Revisado",
     "subject": "Direito Internacional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Internacional Avançado",
+    "moduleTitle": "Direito Internacional Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Responsabilidade internacional",
@@ -833,13 +842,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Responsabilidade internacional, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Violação de obrigação internacional pode gerar cessação, reparação e garantias de não repetição.",
           "Achar que lei interna autoriza descumprir tratado.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Responsabilidade internacional como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito.",
+          "Violação de obrigação internacional pode gerar cessação, reparação e garantias de não repetição."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Violação de obrigação internacional pode gerar cessação, reparação e garantias de não repetição."
       },
       {
@@ -872,8 +882,9 @@ export const direitoInternacionalAvancado = [
         "alternativas": [
           "Responsabilidade do Estado independe de direito interno como desculpa.",
           "Achar que lei interna autoriza descumprir tratado.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Responsabilidade internacional como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -905,13 +916,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Responsabilidade internacional?",
         "alternativas": [
+          "Achar que lei interna autoriza descumprir tratado.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Violação de obrigação internacional pode gerar cessação, reparação e garantias de não repetição.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver Responsabilidade internacional como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -926,11 +938,11 @@ export const direitoInternacionalAvancado = [
   },
   {
     "id": "direitos-humanos-internacionais",
-    "materialTitle": "Direito Internacional Avançado",
+    "materialTitle": "Direito Internacional Avançado 10/10 Plus Revisado",
     "subject": "Direito Internacional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Internacional Avançado",
+    "moduleTitle": "Direito Internacional Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Direitos humanos internacionais",
@@ -1065,8 +1077,9 @@ export const direitoInternacionalAvancado = [
         "alternativas": [
           "Sistemas global e regionais protegem direitos por tratados, comissões, cortes e relatórios.",
           "Tratar corte internacional como quarta instância comum.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Direitos humanos internacionais como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1100,13 +1113,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Direitos humanos internacionais quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Subsidiariedade exige atuação interna antes de instância internacional.",
           "Tratar corte internacional como quarta instância comum.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Direitos humanos internacionais como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito.",
+          "Subsidiariedade exige atuação interna antes de instância internacional."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1135,13 +1149,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Direitos humanos internacionais?",
         "alternativas": [
+          "Tratar corte internacional como quarta instância comum.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Sistemas global e regionais protegem direitos por tratados, comissões, cortes e relatórios.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver Direitos humanos internacionais como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1156,11 +1171,11 @@ export const direitoInternacionalAvancado = [
   },
   {
     "id": "direito-internacional-humanitario",
-    "materialTitle": "Direito Internacional Avançado",
+    "materialTitle": "Direito Internacional Avançado 10/10 Plus Revisado",
     "subject": "Direito Internacional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Internacional Avançado",
+    "moduleTitle": "Direito Internacional Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Direito Internacional Humanitário",
@@ -1293,13 +1308,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Direito Internacional Humanitário, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "DIH regula conflitos armados, protegendo pessoas e limitando meios e métodos de guerra.",
           "Confundir DIH com direitos humanos em tempos de paz apenas.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "DIH regula conflitos armados, protegendo pessoas e limitando meios e métodos de guerra.",
+          "Resolver Direito Internacional Humanitário como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: DIH regula conflitos armados, protegendo pessoas e limitando meios e métodos de guerra."
       },
       {
@@ -1332,8 +1348,9 @@ export const direitoInternacionalAvancado = [
         "alternativas": [
           "Distingue combatentes, civis, proporcionalidade e necessidade militar.",
           "Confundir DIH com direitos humanos em tempos de paz apenas.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Direito Internacional Humanitário como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1365,13 +1382,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Direito Internacional Humanitário?",
         "alternativas": [
+          "Confundir DIH com direitos humanos em tempos de paz apenas.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: DIH regula conflitos armados, protegendo pessoas e limitando meios e métodos de guerra.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver Direito Internacional Humanitário como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1386,11 +1404,11 @@ export const direitoInternacionalAvancado = [
   },
   {
     "id": "nacionalidade-estrangeiros-e-migracao",
-    "materialTitle": "Direito Internacional Avançado",
+    "materialTitle": "Direito Internacional Avançado 10/10 Plus Revisado",
     "subject": "Direito Internacional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Internacional Avançado",
+    "moduleTitle": "Direito Internacional Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Nacionalidade, estrangeiros e migração",
@@ -1523,13 +1541,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Nacionalidade, estrangeiros e migração, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Nacionalidade liga pessoa ao Estado; migração envolve direitos, documentação e proteção contra arbitrariedade.",
           "Confundir deportação com extradição.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Nacionalidade liga pessoa ao Estado; migração envolve direitos, documentação e proteção contra arbitrariedade.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Nacionalidade, estrangeiros e migração como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Nacionalidade liga pessoa ao Estado; migração envolve direitos, documentação e proteção contra arbitrariedade."
       },
       {
@@ -1560,13 +1579,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Nacionalidade, estrangeiros e migração quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Extradição, deportação e expulsão têm requisitos diferentes.",
           "Confundir deportação com extradição.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Extradição, deportação e expulsão têm requisitos diferentes.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Nacionalidade, estrangeiros e migração como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1595,13 +1615,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Nacionalidade, estrangeiros e migração?",
         "alternativas": [
+          "Confundir deportação com extradição.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Nacionalidade liga pessoa ao Estado; migração envolve direitos, documentação e proteção contra arbitrariedade.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Nacionalidade, estrangeiros e migração como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1616,11 +1637,11 @@ export const direitoInternacionalAvancado = [
   },
   {
     "id": "cooperacao-juridica-internacional",
-    "materialTitle": "Direito Internacional Avançado",
+    "materialTitle": "Direito Internacional Avançado 10/10 Plus Revisado",
     "subject": "Direito Internacional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Internacional Avançado",
+    "moduleTitle": "Direito Internacional Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Cooperação jurídica internacional",
@@ -1753,13 +1774,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Cooperação jurídica internacional, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Cartas rogatórias, auxílio direto e homologação permitem cooperação entre jurisdições.",
           "Achar que decisão estrangeira produz efeito automático sempre.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Cartas rogatórias, auxílio direto e homologação permitem cooperação entre jurisdições.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Cooperação jurídica internacional como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Cartas rogatórias, auxílio direto e homologação permitem cooperação entre jurisdições."
       },
       {
@@ -1790,13 +1812,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Cooperação jurídica internacional quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "Competência e autoridade central importam.",
           "Achar que decisão estrangeira produz efeito automático sempre.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Competência e autoridade central importam.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Cooperação jurídica internacional como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -1825,13 +1848,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Cooperação jurídica internacional?",
         "alternativas": [
+          "Achar que decisão estrangeira produz efeito automático sempre.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Cartas rogatórias, auxílio direto e homologação permitem cooperação entre jurisdições.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver Cooperação jurídica internacional como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -1846,11 +1870,11 @@ export const direitoInternacionalAvancado = [
   },
   {
     "id": "direito-internacional-privado",
-    "materialTitle": "Direito Internacional Avançado",
+    "materialTitle": "Direito Internacional Avançado 10/10 Plus Revisado",
     "subject": "Direito Internacional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Internacional Avançado",
+    "moduleTitle": "Direito Internacional Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Direito Internacional Privado",
@@ -1983,13 +2007,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Direito Internacional Privado, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Conflitos de leis no espaço exigem elemento de conexão: domicílio, lugar do ato, situação do bem.",
           "Aplicar sempre a lei brasileira sem análise de conexão.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Conflitos de leis no espaço exigem elemento de conexão: domicílio, lugar do ato, situação do bem.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Direito Internacional Privado como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Conflitos de leis no espaço exigem elemento de conexão: domicílio, lugar do ato, situação do bem."
       },
       {
@@ -2020,13 +2045,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "A banca costuma errar o aluno em Direito Internacional Privado quando apresenta uma afirmação aparentemente correta, mas incompleta. Qual alternativa evita esse erro?",
         "alternativas": [
-          "LINDB é base importante para provas.",
           "Aplicar sempre a lei brasileira sem análise de conexão.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Direito Internacional Privado como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito.",
+          "LINDB é base importante para provas."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta preserva requisito e limite do instituto."
       },
       {
@@ -2055,13 +2081,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Direito Internacional Privado?",
         "alternativas": [
+          "Aplicar sempre a lei brasileira sem análise de conexão.",
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Conflitos de leis no espaço exigem elemento de conexão: domicílio, lugar do ato, situação do bem.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Direito Internacional Privado como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {
@@ -2076,11 +2103,11 @@ export const direitoInternacionalAvancado = [
   },
   {
     "id": "organizacoes-internacionais-e-geopolitica-juridica",
-    "materialTitle": "Direito Internacional Avançado",
+    "materialTitle": "Direito Internacional Avançado 10/10 Plus Revisado",
     "subject": "Direito Internacional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Internacional Avançado",
+    "moduleTitle": "Direito Internacional Avançado — Módulo Avançado 10/10 Plus",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Organizações internacionais e geopolítica jurídica",
@@ -2213,13 +2240,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Sobre Organizações internacionais e geopolítica jurídica, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Organizações internacionais possuem competências atribuídas por seus tratados constitutivos.",
           "Achar que toda resolução internacional é automaticamente vinculante internamente.",
-          "A solução depende apenas de decorar o nome do instituto, sem examinar requisitos.",
-          "O caso sempre se resolve pela regra mais ampla, mesmo quando houver norma especial."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Organizações internacionais possuem competências atribuídas por seus tratados constitutivos.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Organizações internacionais e geopolítica jurídica como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa A está correta porque expressa o núcleo do tema: Organizações internacionais possuem competências atribuídas por seus tratados constitutivos."
       },
       {
@@ -2252,8 +2280,9 @@ export const direitoInternacionalAvancado = [
         "alternativas": [
           "ONU, OEA, OMC e outros organismos têm funções distintas.",
           "Achar que toda resolução internacional é automaticamente vinculante internamente.",
-          "A consequência jurídica é sempre a mesma, independentemente do sujeito e do momento.",
-          "A presença de uma palavra técnica dispensa análise do caso concreto."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Organizações internacionais e geopolítica jurídica como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -2285,13 +2314,14 @@ export const direitoInternacionalAvancado = [
         "tipo": "multipla_escolha",
         "enunciado": "Em um simulado avançado, qual seria a melhor justificativa para resolver uma questão sobre Organizações internacionais e geopolítica jurídica?",
         "alternativas": [
+          "Achar que toda resolução internacional é automaticamente vinculante internamente.",
           "Identificar o instituto, seus requisitos e a consequência jurídica adequada: Organizações internacionais possuem competências atribuídas por seus tratados constitutivos.",
-          "Marcar a alternativa com expressão mais parecida com o título do capítulo.",
-          "Desconsiderar o caso concreto e aplicar sempre a solução mais gravosa.",
-          "Trocar o instituto por outro semelhante sempre que houver dúvida."
+          "Resolver por palavra-chave sem examinar requisito e consequência.",
+          "Confundir regra geral, exceção e regime especial.",
+          "Resolver Organizações internacionais e geopolítica jurídica como se tratado, costume, jurisdição e responsabilidade internacional tivessem a mesma fonte e efeito."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A justificativa correta usa técnica de prova: instituto, requisito, consequência e exclusão das alternativas falsas."
       },
       {

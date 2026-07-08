@@ -7,11 +7,11 @@
 export const atualidadesAvancada = [
   {
     "id": "metodo-de-estudo-de-atualidades",
-    "materialTitle": "Atualidades Avançada",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 1,
     "totalChapters": 10,
     "title": "Método de estudo de atualidades",
@@ -128,13 +128,14 @@ export const atualidadesAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Método de estudo de atualidades, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Atualidades não é decorar notícia; é entender fato, causa, atores, consequência e possíveis soluções.",
           "Memorizar manchetes sem entender contexto.",
           "Responder com opinião pessoal polarizada.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Usar Método de estudo de atualidades como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Citar acontecimento recente sem explicar relação com Método, estudo ou com o problema público cobrado no enunciado.",
+          "Atualidades não é decorar notícia; é entender fato, causa, atores, consequência e possíveis soluções."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: Atualidades não é decorar notícia; é entender fato, causa, atores, consequência e possíveis soluções."
       },
       {
@@ -179,13 +180,14 @@ export const atualidadesAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Memorizar manchetes sem entender contexto.",
+          "Responder com opinião pessoal polarizada.",
+          "Usar Método de estudo de atualidades como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
           "É preciso separar dado verificável, opinião, interpretação e proposta.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Responder com opinião pessoal polarizada."
+          "Citar acontecimento recente sem explicar relação com Método, estudo ou com o problema público cobrado no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -214,11 +216,11 @@ export const atualidadesAvancada = [
   },
   {
     "id": "democracia-cidadania-e-instituicoes",
-    "materialTitle": "Atualidades Avançada",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 2,
     "totalChapters": 10,
     "title": "Democracia, cidadania e instituições",
@@ -335,13 +337,14 @@ export const atualidadesAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Democracia, cidadania e instituições, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Democracia depende de eleições, separação de poderes, liberdade de expressão, controle social e respeito a direitos fundamentais.",
           "Confundir crítica a governo com ataque à democracia.",
           "Achar que cidadania se limita a votar.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Usar Democracia, cidadania e instituições como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Democracia depende de eleições, separação de poderes, liberdade de expressão, controle social e respeito a direitos fundamentais.",
+          "Citar acontecimento recente sem explicar relação com Democracia, cidadania ou com o problema público cobrado no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta resume o núcleo do tema: Democracia depende de eleições, separação de poderes, liberdade de expressão, controle social e respeito a direitos fundamentais."
       },
       {
@@ -387,9 +390,10 @@ export const atualidadesAvancada = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Instituições fortes reduzem personalismo e arbitrariedade.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Achar que cidadania se limita a votar."
+          "Confundir crítica a governo com ataque à democracia.",
+          "Achar que cidadania se limita a votar.",
+          "Usar Democracia, cidadania e instituições como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Citar acontecimento recente sem explicar relação com Democracia, cidadania ou com o problema público cobrado no enunciado."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -421,11 +425,11 @@ export const atualidadesAvancada = [
   },
   {
     "id": "seguranca-publica-e-prevencao",
-    "materialTitle": "Atualidades Avançada",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Segurança pública e prevenção",
@@ -542,13 +546,14 @@ export const atualidadesAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Segurança pública e prevenção, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Segurança pública envolve prevenção, investigação, repressão qualificada, justiça, reinserção e políticas sociais.",
           "Reduzir segurança a aumento de pena.",
+          "Segurança pública envolve prevenção, investigação, repressão qualificada, justiça, reinserção e políticas sociais.",
           "Opor direitos humanos e eficiência policial.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Usar Segurança pública e prevenção como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Citar acontecimento recente sem explicar relação com Segurança, pública ou com o problema público cobrado no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta resume o núcleo do tema: Segurança pública envolve prevenção, investigação, repressão qualificada, justiça, reinserção e políticas sociais."
       },
       {
@@ -593,13 +598,14 @@ export const atualidadesAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Reduzir segurança a aumento de pena.",
+          "Opor direitos humanos e eficiência policial.",
           "Dados e inteligência ajudam a direcionar recursos e avaliar resultados.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Opor direitos humanos e eficiência policial."
+          "Usar Segurança pública e prevenção como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Citar acontecimento recente sem explicar relação com Segurança, pública ou com o problema público cobrado no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -628,11 +634,11 @@ export const atualidadesAvancada = [
   },
   {
     "id": "meio-ambiente-e-clima",
-    "materialTitle": "Atualidades Avançada",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Meio ambiente e clima",
@@ -749,13 +755,14 @@ export const atualidadesAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Meio ambiente e clima, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Mudanças climáticas ampliam eventos extremos e pressionam infraestrutura urbana.",
           "Tratar desastre como evento puramente natural.",
           "Ignorar população vulnerável em áreas de risco.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Usar Meio ambiente e clima como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Mudanças climáticas ampliam eventos extremos e pressionam infraestrutura urbana.",
+          "Citar acontecimento recente sem explicar relação com Meio, ambiente ou com o problema público cobrado no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta resume o núcleo do tema: Mudanças climáticas ampliam eventos extremos e pressionam infraestrutura urbana."
       },
       {
@@ -800,13 +807,14 @@ export const atualidadesAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Justiça climática observa que populações vulneráveis sofrem mais com riscos ambientais.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Ignorar população vulnerável em áreas de risco."
+          "Tratar desastre como evento puramente natural.",
+          "Ignorar população vulnerável em áreas de risco.",
+          "Usar Meio ambiente e clima como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Citar acontecimento recente sem explicar relação com Meio, ambiente ou com o problema público cobrado no enunciado.",
+          "Justiça climática observa que populações vulneráveis sofrem mais com riscos ambientais."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -835,11 +843,11 @@ export const atualidadesAvancada = [
   },
   {
     "id": "economia-trabalho-e-desigualdade",
-    "materialTitle": "Atualidades Avançada",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 5,
     "totalChapters": 10,
     "title": "Economia, trabalho e desigualdade",
@@ -956,13 +964,14 @@ export const atualidadesAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Economia, trabalho e desigualdade, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Inflação corrói poder de compra, especialmente de famílias de baixa renda.",
           "Confundir crescimento econômico com redução automática de desigualdade.",
           "Analisar inflação sem impacto social.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Usar Economia, trabalho e desigualdade como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Citar acontecimento recente sem explicar relação com Economia, trabalho ou com o problema público cobrado no enunciado.",
+          "Inflação corrói poder de compra, especialmente de famílias de baixa renda."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A alternativa correta resume o núcleo do tema: Inflação corrói poder de compra, especialmente de famílias de baixa renda."
       },
       {
@@ -1007,13 +1016,14 @@ export const atualidadesAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Confundir crescimento econômico com redução automática de desigualdade.",
           "Desigualdade limita acesso a educação, saúde, moradia e segurança.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Analisar inflação sem impacto social."
+          "Analisar inflação sem impacto social.",
+          "Usar Economia, trabalho e desigualdade como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Citar acontecimento recente sem explicar relação com Economia, trabalho ou com o problema público cobrado no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1042,11 +1052,11 @@ export const atualidadesAvancada = [
   },
   {
     "id": "tecnologia-ia-e-plataformas",
-    "materialTitle": "Atualidades Avançada",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 6,
     "totalChapters": 10,
     "title": "Tecnologia, IA e plataformas",
@@ -1163,13 +1173,14 @@ export const atualidadesAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Tecnologia, IA e plataformas, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Plataformas digitais reorganizam trabalho, consumo, comunicação e política.",
           "Achar que tecnologia é neutra em todos os contextos.",
           "Tratar regulação como inimiga automática da inovação.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Usar Tecnologia, IA e plataformas como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Plataformas digitais reorganizam trabalho, consumo, comunicação e política.",
+          "Citar acontecimento recente sem explicar relação com Tecnologia, plataformas ou com o problema público cobrado no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 3,
+        "gabaritoLetra": "D",
         "comentario": "A alternativa correta resume o núcleo do tema: Plataformas digitais reorganizam trabalho, consumo, comunicação e política."
       },
       {
@@ -1215,9 +1226,10 @@ export const atualidadesAvancada = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Proteção de dados, transparência e alfabetização digital são temas centrais.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Tratar regulação como inimiga automática da inovação."
+          "Achar que tecnologia é neutra em todos os contextos.",
+          "Tratar regulação como inimiga automática da inovação.",
+          "Usar Tecnologia, IA e plataformas como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Citar acontecimento recente sem explicar relação com Tecnologia, plataformas ou com o problema público cobrado no enunciado."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1249,11 +1261,11 @@ export const atualidadesAvancada = [
   },
   {
     "id": "saude-educacao-e-ciencia",
-    "materialTitle": "Atualidades Avançada",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Saúde, educação e ciência",
@@ -1373,7 +1385,8 @@ export const atualidadesAvancada = [
           "Saúde pública envolve prevenção, atenção básica, vigilância, financiamento e resposta a emergências.",
           "Discutir saúde só como hospital.",
           "Discutir educação só como matrícula.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Usar Saúde, educação e ciência como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Citar acontecimento recente sem explicar relação com Saúde, educação ou com o problema público cobrado no enunciado."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1421,13 +1434,14 @@ export const atualidadesAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Discutir saúde só como hospital.",
+          "Discutir educação só como matrícula.",
           "Ciência orienta políticas baseadas em evidência e combate soluções improvisadas.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Discutir educação só como matrícula."
+          "Usar Saúde, educação e ciência como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Citar acontecimento recente sem explicar relação com Saúde, educação ou com o problema público cobrado no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1456,11 +1470,11 @@ export const atualidadesAvancada = [
   },
   {
     "id": "geopolitica-e-globalizacao",
-    "materialTitle": "Atualidades Avançada",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 8,
     "totalChapters": 10,
     "title": "Geopolítica e globalização",
@@ -1577,13 +1591,14 @@ export const atualidadesAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Geopolítica e globalização, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Conflitos internacionais afetam energia, alimentos, migrações, comércio e segurança.",
           "Ver conflito externo como assunto sem efeito interno.",
           "Confundir refugiado com migrante econômico em qualquer situação.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Conflitos internacionais afetam energia, alimentos, migrações, comércio e segurança.",
+          "Usar Geopolítica e globalização como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Citar acontecimento recente sem explicar relação com Geopolítica, globalização ou com o problema público cobrado no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A alternativa correta resume o núcleo do tema: Conflitos internacionais afetam energia, alimentos, migrações, comércio e segurança."
       },
       {
@@ -1629,9 +1644,10 @@ export const atualidadesAvancada = [
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
           "Organismos internacionais coordenam respostas, mas dependem de interesses dos Estados.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Confundir refugiado com migrante econômico em qualquer situação."
+          "Ver conflito externo como assunto sem efeito interno.",
+          "Confundir refugiado com migrante econômico em qualquer situação.",
+          "Usar Geopolítica e globalização como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Citar acontecimento recente sem explicar relação com Geopolítica, globalização ou com o problema público cobrado no enunciado."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
@@ -1663,11 +1679,11 @@ export const atualidadesAvancada = [
   },
   {
     "id": "cultura-diversidade-e-comunicacao",
-    "materialTitle": "Atualidades Avançada",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Cultura, diversidade e comunicação",
@@ -1784,13 +1800,14 @@ export const atualidadesAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Cultura, diversidade e comunicação, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Cultura expressa identidades, memórias e formas de participação social.",
           "Tratar diversidade como tema separado de cidadania.",
+          "Cultura expressa identidades, memórias e formas de participação social.",
           "Compartilhar conteúdo viral sem checar fonte.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Usar Cultura, diversidade e comunicação como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Citar acontecimento recente sem explicar relação com Cultura, diversidade ou com o problema público cobrado no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta resume o núcleo do tema: Cultura expressa identidades, memórias e formas de participação social."
       },
       {
@@ -1835,13 +1852,14 @@ export const atualidadesAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
+          "Tratar diversidade como tema separado de cidadania.",
+          "Compartilhar conteúdo viral sem checar fonte.",
           "Mídia e redes sociais influenciam agenda pública e percepção de risco.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Compartilhar conteúdo viral sem checar fonte."
+          "Usar Cultura, diversidade e comunicação como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Citar acontecimento recente sem explicar relação com Cultura, diversidade ou com o problema público cobrado no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 2,
+        "gabaritoLetra": "C",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
@@ -1870,11 +1888,11 @@ export const atualidadesAvancada = [
   },
   {
     "id": "atualidades-na-redacao",
-    "materialTitle": "Atualidades Avançada",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 10,
     "totalChapters": 10,
     "title": "Atualidades na redação",
@@ -1991,13 +2009,14 @@ export const atualidadesAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Em relação a Atualidades na redação, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Atualidade vira repertório quando é explicada e conectada à tese.",
           "Citar notícia solta sem análise.",
+          "Atualidade vira repertório quando é explicada e conectada à tese.",
           "Transformar redação em opinião partidária.",
-          "Ignorar o comando da questão e responder por associação de palavras."
+          "Usar Atualidades na redação como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Citar acontecimento recente sem explicar relação com Atualidades, redação ou com o problema público cobrado no enunciado."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 1,
+        "gabaritoLetra": "B",
         "comentario": "A alternativa correta resume o núcleo do tema: Atualidade vira repertório quando é explicada e conectada à tese."
       },
       {
@@ -2042,13 +2061,14 @@ export const atualidadesAvancada = [
         "tipo": "multipla_escolha",
         "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Repertórios coringa devem ser adaptados ao recorte: cidadania, gestão pública, tecnologia, desigualdade e prevenção.",
-          "Ignorar o comando da questão e responder por associação de palavras.",
-          "Aplicar regra absoluta sem observar exceções e contexto.",
-          "Transformar redação em opinião partidária."
+          "Citar notícia solta sem análise.",
+          "Transformar redação em opinião partidária.",
+          "Usar Atualidades na redação como opinião pronta, sem separar fato, interpretação, causa provável e consequência social verificável.",
+          "Citar acontecimento recente sem explicar relação com Atualidades, redação ou com o problema público cobrado no enunciado.",
+          "Repertórios coringa devem ser adaptados ao recorte: cidadania, gestão pública, tecnologia, desigualdade e prevenção."
         ],
-        "correta": 0,
-        "gabaritoLetra": "A",
+        "correta": 4,
+        "gabaritoLetra": "E",
         "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
