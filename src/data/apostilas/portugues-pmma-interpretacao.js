@@ -11,7 +11,7 @@
 export const apostilaPortuguesInterpretacao = [
   {
     "id": "ideia-central",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Interpretação de Textos",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -802,7 +802,7 @@ export const apostilaPortuguesInterpretacao = [
   },
   {
     "id": "inferencia",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Interpretação de Textos",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -1593,7 +1593,7 @@ export const apostilaPortuguesInterpretacao = [
   },
   {
     "id": "tipologia-textual",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Interpretação de Textos",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -2395,7 +2395,7 @@ export const apostilaPortuguesInterpretacao = [
   },
   {
     "id": "generos-textuais",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Interpretação de Textos",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -3174,7 +3174,7 @@ export const apostilaPortuguesInterpretacao = [
   },
   {
     "id": "coesao-textual",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Interpretação de Textos",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -3965,7 +3965,7 @@ export const apostilaPortuguesInterpretacao = [
   },
   {
     "id": "coerencia-textual",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Interpretação de Textos",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -4756,7 +4756,7 @@ export const apostilaPortuguesInterpretacao = [
   },
   {
     "id": "tese-argumentos-conclusao",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Interpretação de Textos",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -5547,7 +5547,7 @@ export const apostilaPortuguesInterpretacao = [
   },
   {
     "id": "ponto-de-vista-ironia",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Interpretação de Textos",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -6338,7 +6338,7 @@ export const apostilaPortuguesInterpretacao = [
   },
   {
     "id": "ambiguidade-semantica",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Interpretação de Textos",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -7129,7 +7129,7 @@ export const apostilaPortuguesInterpretacao = [
   },
   {
     "id": "textos-institucionais",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Interpretação de Textos",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",

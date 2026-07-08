@@ -11,7 +11,7 @@
 export const apostilaPortuguesOrtografiaMorfologia = [
   {
     "id": "acentuacao-grafica",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Ortografia e Morfologia",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -802,7 +802,7 @@ export const apostilaPortuguesOrtografiaMorfologia = [
   },
   {
     "id": "uso-do-hifen",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Ortografia e Morfologia",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -1581,7 +1581,7 @@ export const apostilaPortuguesOrtografiaMorfologia = [
   },
   {
     "id": "paronimos-homonimos",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Ortografia e Morfologia",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -2360,7 +2360,7 @@ export const apostilaPortuguesOrtografiaMorfologia = [
   },
   {
     "id": "porque-por-que",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Ortografia e Morfologia",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -3162,7 +3162,7 @@ export const apostilaPortuguesOrtografiaMorfologia = [
   },
   {
     "id": "mau-mal-mas-mais",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Ortografia e Morfologia",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -3976,7 +3976,7 @@ export const apostilaPortuguesOrtografiaMorfologia = [
   },
   {
     "id": "onde-aonde-senao",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Ortografia e Morfologia",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -4788,7 +4788,7 @@ export const apostilaPortuguesOrtografiaMorfologia = [
   },
   {
     "id": "substantivo-adjetivo-artigo",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Ortografia e Morfologia",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -5579,7 +5579,7 @@ export const apostilaPortuguesOrtografiaMorfologia = [
   },
   {
     "id": "pronomes-pessoais-possessivos",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Ortografia e Morfologia",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -6370,7 +6370,7 @@ export const apostilaPortuguesOrtografiaMorfologia = [
   },
   {
     "id": "pronomes-relativos-colocacao",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Ortografia e Morfologia",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -7172,7 +7172,7 @@ export const apostilaPortuguesOrtografiaMorfologia = [
   },
   {
     "id": "verbos-tempos-modos-vozes",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Ortografia e Morfologia",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",

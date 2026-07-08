@@ -11,7 +11,7 @@
 export const legislacaoInstitucionalPMMAAvancada = [
   {
     "id": "estatuto-pmma-matriz-avancada",
-    "materialTitle": "Legislação Institucional PMMA Avançada 10/10 Plus",
+    "materialTitle": "Legislação Institucional PMMA Avançada",
     "subject": "Legislação Institucional",
     "contest": "Polícia Militar do Maranhão",
     "role": "Soldado PMMA / Cadete / Concursos Militares",
@@ -582,7 +582,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
   },
   {
     "id": "hierarquia-disciplina-valores-militares",
-    "materialTitle": "Legislação Institucional PMMA Avançada 10/10 Plus",
+    "materialTitle": "Legislação Institucional PMMA Avançada",
     "subject": "Legislação Institucional",
     "contest": "Polícia Militar do Maranhão",
     "role": "Soldado PMMA / Cadete / Concursos Militares",
@@ -1153,7 +1153,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
   },
   {
     "id": "direitos-deveres-prerrogativas-vedacoes",
-    "materialTitle": "Legislação Institucional PMMA Avançada 10/10 Plus",
+    "materialTitle": "Legislação Institucional PMMA Avançada",
     "subject": "Legislação Institucional",
     "contest": "Polícia Militar do Maranhão",
     "role": "Soldado PMMA / Cadete / Concursos Militares",
@@ -1725,7 +1725,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
   },
   {
     "id": "ingresso-formacao-carreira-situacoes-funcionais",
-    "materialTitle": "Legislação Institucional PMMA Avançada 10/10 Plus",
+    "materialTitle": "Legislação Institucional PMMA Avançada",
     "subject": "Legislação Institucional",
     "contest": "Polícia Militar do Maranhão",
     "role": "Soldado PMMA / Cadete / Concursos Militares",
@@ -2296,7 +2296,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
   },
   {
     "id": "disciplina-transgressao-sancao-devido-processo",
-    "materialTitle": "Legislação Institucional PMMA Avançada 10/10 Plus",
+    "materialTitle": "Legislação Institucional PMMA Avançada",
     "subject": "Legislação Institucional",
     "contest": "Polícia Militar do Maranhão",
     "role": "Soldado PMMA / Cadete / Concursos Militares",
@@ -2867,7 +2867,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
   },
   {
     "id": "promocoes-quadros-antiguidade-merecimento",
-    "materialTitle": "Legislação Institucional PMMA Avançada 10/10 Plus",
+    "materialTitle": "Legislação Institucional PMMA Avançada",
     "subject": "Legislação Institucional",
     "contest": "Polícia Militar do Maranhão",
     "role": "Soldado PMMA / Cadete / Concursos Militares",
@@ -3438,7 +3438,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
   },
   {
     "id": "organizacao-basica-comando-orgaos-unidades",
-    "materialTitle": "Legislação Institucional PMMA Avançada 10/10 Plus",
+    "materialTitle": "Legislação Institucional PMMA Avançada",
     "subject": "Legislação Institucional",
     "contest": "Polícia Militar do Maranhão",
     "role": "Soldado PMMA / Cadete / Concursos Militares",
@@ -4009,7 +4009,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
   },
   {
     "id": "policiamento-ostensivo-preservacao-ordem-pmma",
-    "materialTitle": "Legislação Institucional PMMA Avançada 10/10 Plus",
+    "materialTitle": "Legislação Institucional PMMA Avançada",
     "subject": "Legislação Institucional",
     "contest": "Polícia Militar do Maranhão",
     "role": "Soldado PMMA / Cadete / Concursos Militares",
@@ -4580,7 +4580,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
   },
   {
     "id": "policia-judiciaria-militar-ipm-crimes-militares",
-    "materialTitle": "Legislação Institucional PMMA Avançada 10/10 Plus",
+    "materialTitle": "Legislação Institucional PMMA Avançada",
     "subject": "Legislação Institucional",
     "contest": "Polícia Militar do Maranhão",
     "role": "Soldado PMMA / Cadete / Concursos Militares",
@@ -5151,7 +5151,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
   },
   {
     "id": "atualizacoes-legislativas-diario-oficial-edital",
-    "materialTitle": "Legislação Institucional PMMA Avançada 10/10 Plus",
+    "materialTitle": "Legislação Institucional PMMA Avançada",
     "subject": "Legislação Institucional",
     "contest": "Polícia Militar do Maranhão",
     "role": "Soldado PMMA / Cadete / Concursos Militares",
@@ -5722,7 +5722,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
   },
   {
     "id": "simulado-integrado-pmma-casos-avancados",
-    "materialTitle": "Legislação Institucional PMMA Avançada 10/10 Plus",
+    "materialTitle": "Legislação Institucional PMMA Avançada",
     "subject": "Legislação Institucional",
     "contest": "Polícia Militar do Maranhão",
     "role": "Soldado PMMA / Cadete / Concursos Militares",

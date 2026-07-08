@@ -11,7 +11,7 @@
 export const apostilaPortuguesSintaxe = [
   {
     "id": "concordancia-verbal-geral",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Sintaxe",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -801,7 +801,7 @@ export const apostilaPortuguesSintaxe = [
   },
   {
     "id": "concordancia-verbal-casos-especiais",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Sintaxe",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -1592,7 +1592,7 @@ export const apostilaPortuguesSintaxe = [
   },
   {
     "id": "concordancia-nominal",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Sintaxe",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -2371,7 +2371,7 @@ export const apostilaPortuguesSintaxe = [
   },
   {
     "id": "regencia-verbal",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Sintaxe",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -3150,7 +3150,7 @@ export const apostilaPortuguesSintaxe = [
   },
   {
     "id": "regencia-nominal",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Sintaxe",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -3929,7 +3929,7 @@ export const apostilaPortuguesSintaxe = [
   },
   {
     "id": "crase-regra-geral",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Sintaxe",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -4720,7 +4720,7 @@ export const apostilaPortuguesSintaxe = [
   },
   {
     "id": "crase-proibida-facultativa",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Sintaxe",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -5499,7 +5499,7 @@ export const apostilaPortuguesSintaxe = [
   },
   {
     "id": "pontuacao-virgula",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Sintaxe",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -6290,7 +6290,7 @@ export const apostilaPortuguesSintaxe = [
   },
   {
     "id": "pontuacao-outros-sinais",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Sintaxe",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
@@ -7081,7 +7081,7 @@ export const apostilaPortuguesSintaxe = [
   },
   {
     "id": "reescrita-de-frases",
-    "materialTitle": "Português para PMMA",
+    "materialTitle": "Português para PMMA — Sintaxe",
     "subject": "Português",
     "contest": "Polícia Militar",
     "role": "Soldado",
