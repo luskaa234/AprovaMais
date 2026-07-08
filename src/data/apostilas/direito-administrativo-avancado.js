@@ -112,7 +112,7 @@ export const direitoAdministrativoAvancado = [
       {
         "id": "direito-administrativo-avancado-01-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Usar interesse público para justificar qualquer abuso.",
+        "verso": "Usar interesse público para justificar qualquer abuso. Revisão ampliada: em Regime jurídico administrativo e princípios, o aluno deve identificar lógica da Administração Pública, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -144,14 +144,16 @@ export const direitoAdministrativoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Supremacia do interesse público não autoriza arbitrariedade; ela deve ser compatibilizada com direitos fundamentais e legalidade.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de lógica da Administração Pública."
+        "comentario": "A assertiva está correta porque expressa ponto central de lógica da Administração Pública.",
+        "correta": true
       },
       {
         "id": "direito-administrativo-avancado-01-q03",
         "tipo": "certo_errado",
         "enunciado": "Usar interesse público para justificar qualquer abuso.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-administrativo-avancado-01-q04",
@@ -351,14 +353,16 @@ export const direitoAdministrativoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Órgão público não tem personalidade jurídica própria; é centro de competências dentro da entidade.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de órgãos, entidades e formas de execução."
+        "comentario": "A assertiva está correta porque expressa ponto central de órgãos, entidades e formas de execução.",
+        "correta": true
       },
       {
         "id": "direito-administrativo-avancado-02-q03",
         "tipo": "certo_errado",
         "enunciado": "Confundir órgão com entidade.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-administrativo-avancado-02-q04",
@@ -526,7 +530,7 @@ export const direitoAdministrativoAvancado = [
       {
         "id": "direito-administrativo-avancado-03-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Achar que regulamento pode criar obrigação sem base legal.",
+        "verso": "Achar que regulamento pode criar obrigação sem base legal. Revisão ampliada: em Poderes administrativos, o aluno deve identificar instrumentos e limites do agir administrativo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -558,14 +562,16 @@ export const direitoAdministrativoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Poder disciplinar permite apurar e punir infrações funcionais, respeitando contraditório e proporcionalidade.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de instrumentos e limites do agir administrativo."
+        "comentario": "A assertiva está correta porque expressa ponto central de instrumentos e limites do agir administrativo.",
+        "correta": true
       },
       {
         "id": "direito-administrativo-avancado-03-q03",
         "tipo": "certo_errado",
         "enunciado": "Achar que regulamento pode criar obrigação sem base legal.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-administrativo-avancado-03-q04",
@@ -765,14 +771,16 @@ export const direitoAdministrativoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Presunção de legitimidade permite execução inicial do ato, mas não impede controle nem prova em contrário.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de elementos, atributos e extinção."
+        "comentario": "A assertiva está correta porque expressa ponto central de elementos, atributos e extinção.",
+        "correta": true
       },
       {
         "id": "direito-administrativo-avancado-04-q03",
         "tipo": "certo_errado",
         "enunciado": "Confundir motivo com motivação.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-administrativo-avancado-04-q04",
@@ -940,7 +948,7 @@ export const direitoAdministrativoAvancado = [
       {
         "id": "direito-administrativo-avancado-05-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Abrir prazo formal e ignorar todos os argumentos apresentados.",
+        "verso": "Abrir prazo formal e ignorar todos os argumentos apresentados. Revisão ampliada: em Processo administrativo e controle da decisão, o aluno deve identificar garantias procedimentais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -972,14 +980,16 @@ export const direitoAdministrativoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Contraditório e ampla defesa exigem ciência, possibilidade de manifestação e consideração real dos argumentos.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de garantias procedimentais."
+        "comentario": "A assertiva está correta porque expressa ponto central de garantias procedimentais.",
+        "correta": true
       },
       {
         "id": "direito-administrativo-avancado-05-q03",
         "tipo": "certo_errado",
         "enunciado": "Abrir prazo formal e ignorar todos os argumentos apresentados.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-administrativo-avancado-05-q04",
@@ -1147,7 +1157,7 @@ export const direitoAdministrativoAvancado = [
       {
         "id": "direito-administrativo-avancado-06-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Achar que concessão privatiza a titularidade do serviço.",
+        "verso": "Achar que concessão privatiza a titularidade do serviço. Revisão ampliada: em Serviços públicos e delegação, o aluno deve identificar prestação ao usuário, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1179,14 +1189,16 @@ export const direitoAdministrativoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Concessão e permissão transferem execução ao particular, mantendo titularidade, regulação e fiscalização estatais.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de prestação ao usuário."
+        "comentario": "A assertiva está correta porque expressa ponto central de prestação ao usuário.",
+        "correta": true
       },
       {
         "id": "direito-administrativo-avancado-06-q03",
         "tipo": "certo_errado",
         "enunciado": "Achar que concessão privatiza a titularidade do serviço.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-administrativo-avancado-06-q04",
@@ -1386,14 +1398,16 @@ export const direitoAdministrativoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Fase preparatória é decisiva: definição do objeto, estudo técnico, orçamento estimado e matriz de riscos reduzem falhas futuras.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de seleção e contratação pública."
+        "comentario": "A assertiva está correta porque expressa ponto central de seleção e contratação pública.",
+        "correta": true
       },
       {
         "id": "direito-administrativo-avancado-07-q03",
         "tipo": "certo_errado",
         "enunciado": "Confundir inexigibilidade com preço alto.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-administrativo-avancado-07-q04",
@@ -1561,7 +1575,7 @@ export const direitoAdministrativoAvancado = [
       {
         "id": "direito-administrativo-avancado-08-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Achar que todo agente público é servidor estatutário.",
+        "verso": "Achar que todo agente público é servidor estatutário. Revisão ampliada: em Agentes públicos e responsabilidade disciplinar, o aluno deve identificar vínculos e deveres funcionais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1593,14 +1607,16 @@ export const direitoAdministrativoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Cargo efetivo depende de concurso e pode gerar estabilidade após requisitos constitucionais e avaliação.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de vínculos e deveres funcionais."
+        "comentario": "A assertiva está correta porque expressa ponto central de vínculos e deveres funcionais.",
+        "correta": true
       },
       {
         "id": "direito-administrativo-avancado-08-q03",
         "tipo": "certo_errado",
         "enunciado": "Achar que todo agente público é servidor estatutário.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-administrativo-avancado-08-q04",
@@ -1761,14 +1777,14 @@ export const direitoAdministrativoAvancado = [
       {
         "id": "direito-administrativo-avancado-09-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em dano, nexo e excludentes?",
-        "verso": "Teoria objetiva dispensa prova de culpa do Estado, mas não dispensa dano nem nexo.",
+        "verso": "Teoria objetiva dispensa prova de culpa do Estado, mas não dispensa dano nem nexo. Revisão ampliada: em Responsabilidade civil do Estado, o aluno deve identificar dano, nexo e excludentes, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "direito-administrativo-avancado-09-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Achar que todo dano ocorrido em prédio público gera indenização automática.",
+        "verso": "Achar que todo dano ocorrido em prédio público gera indenização automática. Revisão ampliada: em Responsabilidade civil do Estado, o aluno deve identificar dano, nexo e excludentes, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1800,14 +1816,16 @@ export const direitoAdministrativoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Teoria objetiva dispensa prova de culpa do Estado, mas não dispensa dano nem nexo.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de dano, nexo e excludentes."
+        "comentario": "A assertiva está correta porque expressa ponto central de dano, nexo e excludentes.",
+        "correta": true
       },
       {
         "id": "direito-administrativo-avancado-09-q03",
         "tipo": "certo_errado",
         "enunciado": "Achar que todo dano ocorrido em prédio público gera indenização automática.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-administrativo-avancado-09-q04",
@@ -1975,7 +1993,7 @@ export const direitoAdministrativoAvancado = [
       {
         "id": "direito-administrativo-avancado-10-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Tratar toda ilegalidade como improbidade automática.",
+        "verso": "Tratar toda ilegalidade como improbidade automática. Revisão ampliada: em Controle, improbidade, transparência e bens públicos, o aluno deve identificar limites e fiscalização da gestão, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -2007,14 +2025,16 @@ export const direitoAdministrativoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Transparência permite controle social e reduz espaço para favorecimento, desperdício e corrupção.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de limites e fiscalização da gestão."
+        "comentario": "A assertiva está correta porque expressa ponto central de limites e fiscalização da gestão.",
+        "correta": true
       },
       {
         "id": "direito-administrativo-avancado-10-q03",
         "tipo": "certo_errado",
         "enunciado": "Tratar toda ilegalidade como improbidade automática.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-administrativo-avancado-10-q04",

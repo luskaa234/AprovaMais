@@ -596,13 +596,13 @@ export const apostilaPortuguesInterpretacao = [
       },
       {
         "frente": "Palavra-chave: ideia central",
-        "verso": "ideia central: Ideia central percorre o texto inteiro; ideia secundária vive em um parágrafo só. Informação explícita se resolve por localização, não por interpretação. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "verso": "núcleo do texto: Ideia central percorre o texto inteiro; ideia secundária vive em um parágrafo só. Informação explícita se resolve por localização, não por interpretação. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
         "nivel": "conceito",
         "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Ideia central e informações explícitas",
-        "verso": "Transformar um exemplo ou dado do texto na 'ideia principal'.",
+        "verso": "Transformar um exemplo ou dado do texto na 'ideia principal'. Revisão ampliada: em Ideia central e informações explícitas, o aluno deve identificar Interpretação de texto, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -2975,7 +2975,7 @@ export const apostilaPortuguesInterpretacao = [
       },
       {
         "frente": "Pegadinha comum em Gêneros textuais e finalidade comunicativa",
-        "verso": "Tratar gênero e tipologia como sinônimos.",
+        "verso": "Tratar gênero e tipologia como sinônimos. Revisão ampliada: em Gêneros textuais e finalidade comunicativa, o aluno deve identificar Gêneros textuais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -4556,7 +4556,7 @@ export const apostilaPortuguesInterpretacao = [
       },
       {
         "frente": "Pegadinha comum em Coerência e progressão de ideias",
-        "verso": "Focar só em frases vizinhas e não perceber a contradição entre parágrafos distantes.",
+        "verso": "Focar só em frases vizinhas e não perceber a contradição entre parágrafos distantes. Revisão ampliada: em Coerência e progressão de ideias, o aluno deve identificar Coerência textual, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -5347,7 +5347,7 @@ export const apostilaPortuguesInterpretacao = [
       },
       {
         "frente": "Pegadinha comum em Tese, argumentos e conclusão",
-        "verso": "Confundir um exemplo (argumento) com a tese principal do texto.",
+        "verso": "Confundir um exemplo (argumento) com a tese principal do texto. Revisão ampliada: em Tese, argumentos e conclusão, o aluno deve identificar Estrutura argumentativa, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -6138,7 +6138,7 @@ export const apostilaPortuguesInterpretacao = [
       },
       {
         "frente": "Pegadinha comum em Ponto de vista, crítica e ironia",
-        "verso": "Marcar 'elogioso' quando há contraste irônico entre o vocabulário e os fatos.",
+        "verso": "Marcar 'elogioso' quando há contraste irônico entre o vocabulário e os fatos. Revisão ampliada: em Ponto de vista, crítica e ironia, o aluno deve identificar Interpretação de tom e intenção, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -7720,7 +7720,7 @@ export const apostilaPortuguesInterpretacao = [
       },
       {
         "frente": "Pegadinha comum em Textos institucionais e linguagem oficial",
-        "verso": "Usar primeira pessoa do singular em documento que deveria ser impessoal.",
+        "verso": "Usar primeira pessoa do singular em documento que deveria ser impessoal. Revisão ampliada: em Textos institucionais e linguagem oficial, o aluno deve identificar Redação e linguagem institucional, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],

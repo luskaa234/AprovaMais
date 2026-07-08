@@ -142,14 +142,16 @@ export const atualidadesAvancada = [
         "tipo": "certo_errado",
         "enunciado": "A banca transforma temas recentes em problemas estruturais, como desigualdade, meio ambiente, tecnologia e segurança.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de leitura crítica de fatos."
+        "comentario": "A assertiva está correta porque expressa ponto central de leitura crítica de fatos.",
+        "correta": true
       },
       {
         "id": "atualidades-avancada-01-q03",
         "tipo": "certo_errado",
         "enunciado": "Memorizar manchetes sem entender contexto.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "atualidades-avancada-01-q04",
@@ -315,14 +317,14 @@ export const atualidadesAvancada = [
       {
         "id": "atualidades-avancada-02-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Confundir crítica a governo com ataque à democracia.",
+        "verso": "Confundir crítica a governo com ataque à democracia. Revisão ampliada: em Democracia, cidadania e instituições, o aluno deve identificar vida pública brasileira, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
       {
         "id": "atualidades-avancada-02-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "Controle social de orçamento municipal é prática cidadã além do voto.",
+        "verso": "Controle social de orçamento municipal é prática cidadã além do voto. Revisão ampliada: em Democracia, cidadania e instituições, o aluno deve identificar vida pública brasileira, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -347,14 +349,16 @@ export const atualidadesAvancada = [
         "tipo": "certo_errado",
         "enunciado": "Cidadania envolve participação, deveres, acesso a políticas públicas e capacidade de fiscalizar o Estado.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de vida pública brasileira."
+        "comentario": "A assertiva está correta porque expressa ponto central de vida pública brasileira.",
+        "correta": true
       },
       {
         "id": "atualidades-avancada-02-q03",
         "tipo": "certo_errado",
         "enunciado": "Confundir crítica a governo com ataque à democracia.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "atualidades-avancada-02-q04",
@@ -552,14 +556,16 @@ export const atualidadesAvancada = [
         "tipo": "certo_errado",
         "enunciado": "Violência urbana tem causas múltiplas: desigualdade, armas, facções, território, baixa confiança e falhas de gestão.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de violência como problema complexo."
+        "comentario": "A assertiva está correta porque expressa ponto central de violência como problema complexo.",
+        "correta": true
       },
       {
         "id": "atualidades-avancada-03-q03",
         "tipo": "certo_errado",
         "enunciado": "Reduzir segurança a aumento de pena.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "atualidades-avancada-03-q04",
@@ -711,21 +717,21 @@ export const atualidadesAvancada = [
       {
         "id": "atualidades-avancada-04-fc01",
         "frente": "Qual é a ideia central de Meio ambiente e clima?",
-        "verso": "Mudanças climáticas ampliam eventos extremos e pressionam infraestrutura urbana.",
+        "verso": "Mudanças climáticas ampliam eventos extremos e pressionam infraestrutura urbana. Revisão ampliada: em Meio ambiente e clima, o aluno deve identificar risco socioambiental, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
       {
         "id": "atualidades-avancada-04-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em risco socioambiental?",
-        "verso": "Desmatamento, queimadas e poluição afetam saúde, economia e segurança hídrica.",
+        "verso": "Desmatamento, queimadas e poluição afetam saúde, economia e segurança hídrica. Revisão ampliada: em Meio ambiente e clima, o aluno deve identificar risco socioambiental, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "atualidades-avancada-04-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Tratar desastre como evento puramente natural.",
+        "verso": "Tratar desastre como evento puramente natural. Revisão ampliada: em Meio ambiente e clima, o aluno deve identificar risco socioambiental, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -757,14 +763,16 @@ export const atualidadesAvancada = [
         "tipo": "certo_errado",
         "enunciado": "Desmatamento, queimadas e poluição afetam saúde, economia e segurança hídrica.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de risco socioambiental."
+        "comentario": "A assertiva está correta porque expressa ponto central de risco socioambiental.",
+        "correta": true
       },
       {
         "id": "atualidades-avancada-04-q03",
         "tipo": "certo_errado",
         "enunciado": "Tratar desastre como evento puramente natural.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "atualidades-avancada-04-q04",
@@ -916,21 +924,21 @@ export const atualidadesAvancada = [
       {
         "id": "atualidades-avancada-05-fc01",
         "frente": "Qual é a ideia central de Economia, trabalho e desigualdade?",
-        "verso": "Inflação corrói poder de compra, especialmente de famílias de baixa renda.",
+        "verso": "Inflação corrói poder de compra, especialmente de famílias de baixa renda. Revisão ampliada: em Economia, trabalho e desigualdade, o aluno deve identificar impactos sociais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
       {
         "id": "atualidades-avancada-05-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em impactos sociais?",
-        "verso": "Desemprego e informalidade reduzem renda, proteção social e arrecadação.",
+        "verso": "Desemprego e informalidade reduzem renda, proteção social e arrecadação. Revisão ampliada: em Economia, trabalho e desigualdade, o aluno deve identificar impactos sociais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "atualidades-avancada-05-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Confundir crescimento econômico com redução automática de desigualdade.",
+        "verso": "Confundir crescimento econômico com redução automática de desigualdade. Revisão ampliada: em Economia, trabalho e desigualdade, o aluno deve identificar impactos sociais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -962,14 +970,16 @@ export const atualidadesAvancada = [
         "tipo": "certo_errado",
         "enunciado": "Desemprego e informalidade reduzem renda, proteção social e arrecadação.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de impactos sociais."
+        "comentario": "A assertiva está correta porque expressa ponto central de impactos sociais.",
+        "correta": true
       },
       {
         "id": "atualidades-avancada-05-q03",
         "tipo": "certo_errado",
         "enunciado": "Confundir crescimento econômico com redução automática de desigualdade.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "atualidades-avancada-05-q04",
@@ -1121,7 +1131,7 @@ export const atualidadesAvancada = [
       {
         "id": "atualidades-avancada-06-fc01",
         "frente": "Qual é a ideia central de Tecnologia, IA e plataformas?",
-        "verso": "Plataformas digitais reorganizam trabalho, consumo, comunicação e política.",
+        "verso": "Plataformas digitais reorganizam trabalho, consumo, comunicação e política. Revisão ampliada: em Tecnologia, IA e plataformas, o aluno deve identificar transformação digital, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
@@ -1135,14 +1145,14 @@ export const atualidadesAvancada = [
       {
         "id": "atualidades-avancada-06-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Achar que tecnologia é neutra em todos os contextos.",
+        "verso": "Achar que tecnologia é neutra em todos os contextos. Revisão ampliada: em Tecnologia, IA e plataformas, o aluno deve identificar transformação digital, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
       {
         "id": "atualidades-avancada-06-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "Algoritmo de recomendação pode reforçar desinformação se otimiza só engajamento.",
+        "verso": "Algoritmo de recomendação pode reforçar desinformação se otimiza só engajamento. Revisão ampliada: em Tecnologia, IA e plataformas, o aluno deve identificar transformação digital, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -1167,14 +1177,16 @@ export const atualidadesAvancada = [
         "tipo": "certo_errado",
         "enunciado": "IA pode ampliar produtividade, mas também gerar viés, opacidade e dependência tecnológica.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de transformação digital."
+        "comentario": "A assertiva está correta porque expressa ponto central de transformação digital.",
+        "correta": true
       },
       {
         "id": "atualidades-avancada-06-q03",
         "tipo": "certo_errado",
         "enunciado": "Achar que tecnologia é neutra em todos os contextos.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "atualidades-avancada-06-q04",
@@ -1347,7 +1359,7 @@ export const atualidadesAvancada = [
       {
         "id": "atualidades-avancada-07-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "Vacinação é política preventiva; reduz doença, custo hospitalar e risco coletivo.",
+        "verso": "Vacinação é política preventiva; reduz doença, custo hospitalar e risco coletivo. Revisão ampliada: em Saúde, educação e ciência, o aluno deve identificar políticas públicas essenciais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -1372,14 +1384,16 @@ export const atualidadesAvancada = [
         "tipo": "certo_errado",
         "enunciado": "Educação reduz desigualdade quando combina acesso, permanência, aprendizagem e infraestrutura.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de políticas públicas essenciais."
+        "comentario": "A assertiva está correta porque expressa ponto central de políticas públicas essenciais.",
+        "correta": true
       },
       {
         "id": "atualidades-avancada-07-q03",
         "tipo": "certo_errado",
         "enunciado": "Discutir saúde só como hospital.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "atualidades-avancada-07-q04",
@@ -1531,7 +1545,7 @@ export const atualidadesAvancada = [
       {
         "id": "atualidades-avancada-08-fc01",
         "frente": "Qual é a ideia central de Geopolítica e globalização?",
-        "verso": "Conflitos internacionais afetam energia, alimentos, migrações, comércio e segurança.",
+        "verso": "Conflitos internacionais afetam energia, alimentos, migrações, comércio e segurança. Revisão ampliada: em Geopolítica e globalização, o aluno deve identificar relações internacionais contemporâneas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
@@ -1545,7 +1559,7 @@ export const atualidadesAvancada = [
       {
         "id": "atualidades-avancada-08-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Ver conflito externo como assunto sem efeito interno.",
+        "verso": "Ver conflito externo como assunto sem efeito interno. Revisão ampliada: em Geopolítica e globalização, o aluno deve identificar relações internacionais contemporâneas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1577,14 +1591,16 @@ export const atualidadesAvancada = [
         "tipo": "certo_errado",
         "enunciado": "Globalização conecta mercados e culturas, mas também cria dependências e vulnerabilidades.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de relações internacionais contemporâneas."
+        "comentario": "A assertiva está correta porque expressa ponto central de relações internacionais contemporâneas.",
+        "correta": true
       },
       {
         "id": "atualidades-avancada-08-q03",
         "tipo": "certo_errado",
         "enunciado": "Ver conflito externo como assunto sem efeito interno.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "atualidades-avancada-08-q04",
@@ -1736,28 +1752,28 @@ export const atualidadesAvancada = [
       {
         "id": "atualidades-avancada-09-fc01",
         "frente": "Qual é a ideia central de Cultura, diversidade e comunicação?",
-        "verso": "Cultura expressa identidades, memórias e formas de participação social.",
+        "verso": "Cultura expressa identidades, memórias e formas de participação social. Revisão ampliada: em Cultura, diversidade e comunicação, o aluno deve identificar disputa de narrativas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
       {
         "id": "atualidades-avancada-09-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em disputa de narrativas?",
-        "verso": "Diversidade envolve reconhecimento e combate a discriminações históricas.",
+        "verso": "Diversidade envolve reconhecimento e combate a discriminações históricas. Revisão ampliada: em Cultura, diversidade e comunicação, o aluno deve identificar disputa de narrativas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "atualidades-avancada-09-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Tratar diversidade como tema separado de cidadania.",
+        "verso": "Tratar diversidade como tema separado de cidadania. Revisão ampliada: em Cultura, diversidade e comunicação, o aluno deve identificar disputa de narrativas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
       {
         "id": "atualidades-avancada-09-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "Boato sobre segurança pode gerar pânico e prejudicar atuação de serviços públicos.",
+        "verso": "Boato sobre segurança pode gerar pânico e prejudicar atuação de serviços públicos. Revisão ampliada: em Cultura, diversidade e comunicação, o aluno deve identificar disputa de narrativas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -1782,14 +1798,16 @@ export const atualidadesAvancada = [
         "tipo": "certo_errado",
         "enunciado": "Diversidade envolve reconhecimento e combate a discriminações históricas.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de disputa de narrativas."
+        "comentario": "A assertiva está correta porque expressa ponto central de disputa de narrativas.",
+        "correta": true
       },
       {
         "id": "atualidades-avancada-09-q03",
         "tipo": "certo_errado",
         "enunciado": "Tratar diversidade como tema separado de cidadania.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "atualidades-avancada-09-q04",
@@ -1941,7 +1959,7 @@ export const atualidadesAvancada = [
       {
         "id": "atualidades-avancada-10-fc01",
         "frente": "Qual é a ideia central de Atualidades na redação?",
-        "verso": "Atualidade vira repertório quando é explicada e conectada à tese.",
+        "verso": "Atualidade vira repertório quando é explicada e conectada à tese. Revisão ampliada: em Atualidades na redação, o aluno deve identificar uso equilibrado de repertório, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
@@ -1987,14 +2005,16 @@ export const atualidadesAvancada = [
         "tipo": "certo_errado",
         "enunciado": "O aluno deve evitar dado específico sem fonte segura ou número impossível de verificar.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de uso equilibrado de repertório."
+        "comentario": "A assertiva está correta porque expressa ponto central de uso equilibrado de repertório.",
+        "correta": true
       },
       {
         "id": "atualidades-avancada-10-q03",
         "tipo": "certo_errado",
         "enunciado": "Citar notícia solta sem análise.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "atualidades-avancada-10-q04",

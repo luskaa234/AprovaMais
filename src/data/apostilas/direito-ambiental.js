@@ -127,7 +127,7 @@ export const direitoAmbiental = [
     "flashcards": [
       {
         "frente": "O que significa art. 225 neste capítulo?",
-        "verso": "Meio ambiente equilibrado é direito fundamental de titularidade coletiva."
+        "verso": "Meio ambiente equilibrado é direito fundamental de titularidade coletiva. Revisão ampliada: em Direito ambiental constitucional e princípios estruturantes, o aluno deve identificar Meio ambiente na Constituição e princípios ambientais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha sobre Direito ambiental constitucional e princípios estruturantes?",
@@ -555,11 +555,11 @@ export const direitoAmbiental = [
     "flashcards": [
       {
         "frente": "O que significa PNMA neste capítulo?",
-        "verso": "PNMA é a base legal da política ambiental brasileira."
+        "verso": "PNMA é a base legal da política ambiental brasileira. Revisão ampliada: em Política Nacional do Meio Ambiente, SISNAMA e instrumentos de gestão, o aluno deve identificar Lei 6.938/1981, SISNAMA e instrumentos da PNMA, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha sobre Política Nacional do Meio Ambiente, SISNAMA e instrumentos de gestão?",
-        "verso": "A banca mistura instrumentos da PNMA como se todos tivessem a mesma finalidade."
+        "verso": "A banca mistura instrumentos da PNMA como se todos tivessem a mesma finalidade. Revisão ampliada: em Política Nacional do Meio Ambiente, SISNAMA e instrumentos de gestão, o aluno deve identificar Lei 6.938/1981, SISNAMA e instrumentos da PNMA, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como a banca transforma esse tema em caso prático?",
@@ -983,7 +983,7 @@ export const direitoAmbiental = [
     "flashcards": [
       {
         "frente": "O que significa licenciamento ambiental neste capítulo?",
-        "verso": "Licenciamento é procedimento preventivo e administrativo."
+        "verso": "Licenciamento é procedimento preventivo e administrativo. Revisão ampliada: em Licenciamento ambiental, estudo de impacto e condicionantes, o aluno deve identificar Licenciamento, EIA/RIMA e controle prévio de atividades poluidoras, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha sobre Licenciamento ambiental, estudo de impacto e condicionantes?",
@@ -1411,7 +1411,7 @@ export const direitoAmbiental = [
     "flashcards": [
       {
         "frente": "O que significa responsabilidade objetiva neste capítulo?",
-        "verso": "Responsabilidade civil ambiental é objetiva."
+        "verso": "Responsabilidade civil ambiental é objetiva. Revisão ampliada: em Responsabilidade civil ambiental e reparação integral do dano, o aluno deve identificar Responsabilidade civil objetiva, solidariedade e reparação integral, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha sobre Responsabilidade civil ambiental e reparação integral do dano?",
@@ -1839,11 +1839,11 @@ export const direitoAmbiental = [
     "flashcards": [
       {
         "frente": "O que significa infração administrativa neste capítulo?",
-        "verso": "Poder de polícia ambiental permite fiscalizar e sancionar."
+        "verso": "Poder de polícia ambiental permite fiscalizar e sancionar. Revisão ampliada: em Responsabilidade administrativa ambiental e poder de polícia, o aluno deve identificar Infração administrativa, fiscalização, auto de infração e sanções, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha sobre Responsabilidade administrativa ambiental e poder de polícia?",
-        "verso": "A banca diz que uma punição em uma esfera apaga todas as demais consequências."
+        "verso": "A banca diz que uma punição em uma esfera apaga todas as demais consequências. Revisão ampliada: em Responsabilidade administrativa ambiental e poder de polícia, o aluno deve identificar Infração administrativa, fiscalização, auto de infração e sanções, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como a banca transforma esse tema em caso prático?",
@@ -2267,7 +2267,7 @@ export const direitoAmbiental = [
     "flashcards": [
       {
         "frente": "O que significa Lei 9.605/1998 neste capítulo?",
-        "verso": "Lei 9.605/1998 organiza crimes e sanções ambientais."
+        "verso": "Lei 9.605/1998 organiza crimes e sanções ambientais. Revisão ampliada: em Crimes ambientais e responsabilidade penal da pessoa jurídica, o aluno deve identificar Lei 9.605/1998, crimes ambientais e pessoa jurídica, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha sobre Crimes ambientais e responsabilidade penal da pessoa jurídica?",
@@ -2695,11 +2695,11 @@ export const direitoAmbiental = [
     "flashcards": [
       {
         "frente": "O que significa Código Florestal neste capítulo?",
-        "verso": "APP protege áreas ambientalmente sensíveis, cobertas ou não por vegetação."
+        "verso": "APP protege áreas ambientalmente sensíveis, cobertas ou não por vegetação. Revisão ampliada: em Código Florestal: APP, Reserva Legal, CAR e uso consolidado, o aluno deve identificar Lei 12.651/2012, áreas protegidas em imóveis rurais e urbanos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha sobre Código Florestal: APP, Reserva Legal, CAR e uso consolidado?",
-        "verso": "A banca transforma cadastro em autorização e mistura APP com Reserva Legal."
+        "verso": "A banca transforma cadastro em autorização e mistura APP com Reserva Legal. Revisão ampliada: em Código Florestal: APP, Reserva Legal, CAR e uso consolidado, o aluno deve identificar Lei 12.651/2012, áreas protegidas em imóveis rurais e urbanos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como a banca transforma esse tema em caso prático?",
@@ -3123,7 +3123,7 @@ export const direitoAmbiental = [
     "flashcards": [
       {
         "frente": "O que significa SNUC neste capítulo?",
-        "verso": "SNUC organiza unidades de conservação."
+        "verso": "SNUC organiza unidades de conservação. Revisão ampliada: em Unidades de Conservação, SNUC e proteção da biodiversidade, o aluno deve identificar Lei 9.985/2000, categorias de unidades de conservação e biodiversidade, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha sobre Unidades de Conservação, SNUC e proteção da biodiversidade?",
@@ -3551,7 +3551,7 @@ export const direitoAmbiental = [
     "flashcards": [
       {
         "frente": "O que significa recursos hídricos neste capítulo?",
-        "verso": "Água é bem público e recurso limitado."
+        "verso": "Água é bem público e recurso limitado. Revisão ampliada: em Recursos hídricos, saneamento básico e resíduos sólidos, o aluno deve identificar Águas, saneamento e Política Nacional de Resíduos Sólidos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha sobre Recursos hídricos, saneamento básico e resíduos sólidos?",
@@ -3979,7 +3979,7 @@ export const direitoAmbiental = [
     "flashcards": [
       {
         "frente": "O que significa ação civil pública neste capítulo?",
-        "verso": "Ação civil pública protege interesses difusos, como meio ambiente."
+        "verso": "Ação civil pública protege interesses difusos, como meio ambiente. Revisão ampliada: em Tutela processual ambiental: ação civil pública, inquérito civil e TAC, o aluno deve identificar Instrumentos judiciais e extrajudiciais de proteção ambiental coletiva, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha sobre Tutela processual ambiental: ação civil pública, inquérito civil e TAC?",

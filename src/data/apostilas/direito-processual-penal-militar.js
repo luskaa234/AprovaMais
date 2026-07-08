@@ -602,7 +602,7 @@ export const direitoProcessualPenalMilitar = [
       },
       {
         "frente": "Pegadinha comum em Inquérito Policial Militar (IPM): natureza e procedimento",
-        "verso": "Achar que o IPM é presidido por delegado de polícia civil, como o inquérito comum.",
+        "verso": "Achar que o IPM é presidido por delegado de polícia civil, como o inquérito comum. Revisão ampliada: em Inquérito Policial Militar (IPM): natureza e procedimento, o aluno deve identificar Inquérito Policial Militar, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],

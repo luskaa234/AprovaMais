@@ -133,11 +133,11 @@ export const direitoInternacional = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Achar que só Estado é sujeito de Direito Internacional."
+        "verso": "Achar que só Estado é sujeito de Direito Internacional. Revisão ampliada: em Direito Internacional Público: fontes, sujeitos e princípios, o aluno deve identificar Fontes, sujeitos e princípios do Direito Internacional Público, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Separar fonte normativa, sujeito internacional e princípio aplicável ao caso"
+        "verso": "Separar fonte normativa, sujeito internacional e princípio aplicável ao caso Revisão ampliada: em Direito Internacional Público: fontes, sujeitos e princípios, o aluno deve identificar Fontes, sujeitos e princípios do Direito Internacional Público, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -222,7 +222,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "fontes-sujeitos-direito-internacional-publico-q03",
@@ -248,7 +249,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "fontes-sujeitos-direito-internacional-publico-q04",
@@ -558,11 +560,11 @@ export const direitoInternacional = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Achar que assinatura já torna o tratado plenamente executável internamente."
+        "verso": "Achar que assinatura já torna o tratado plenamente executável internamente. Revisão ampliada: em Tratados internacionais: formação, incorporação e hierarquia no Brasil, o aluno deve identificar Tratados internacionais, incorporação ao direito brasileiro e hierarquia normativa, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Distinguir assinatura, aprovação, ratificação, promulgação e hierarquia do tratado"
+        "verso": "Distinguir assinatura, aprovação, ratificação, promulgação e hierarquia do tratado Revisão ampliada: em Tratados internacionais: formação, incorporação e hierarquia no Brasil, o aluno deve identificar Tratados internacionais, incorporação ao direito brasileiro e hierarquia normativa, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -647,7 +649,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "tratados-internacionais-formacao-incorporacao-hierarquia-q03",
@@ -673,7 +676,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "tratados-internacionais-formacao-incorporacao-hierarquia-q04",
@@ -984,7 +988,7 @@ export const direitoInternacional = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Achar que soberania significa ausência total de limites."
+        "verso": "Achar que soberania significa ausência total de limites. Revisão ampliada: em Estado, soberania, território, nacionalidade e condição jurídica do estrangeiro, o aluno deve identificar Elementos do Estado, soberania, território, nacionalidade e estrangeiros, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -1073,7 +1077,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "estado-soberania-territorio-nacionalidade-estrangeiro-q03",
@@ -1099,7 +1104,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "estado-soberania-territorio-nacionalidade-estrangeiro-q04",
@@ -1409,7 +1415,7 @@ export const direitoInternacional = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Achar que toda decisão da ONU é automaticamente igual a lei interna."
+        "verso": "Achar que toda decisão da ONU é automaticamente igual a lei interna. Revisão ampliada: em Organizações internacionais e ONU, o aluno deve identificar Organizações internacionais, ONU, personalidade jurídica internacional e competências, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -1498,7 +1504,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "organizacoes-internacionais-onu-q03",
@@ -1524,7 +1531,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "organizacoes-internacionais-onu-q04",
@@ -1834,7 +1842,7 @@ export const direitoInternacional = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Confundir mediação com arbitragem."
+        "verso": "Confundir mediação com arbitragem. Revisão ampliada: em Responsabilidade internacional e solução pacífica de controvérsias, o aluno deve identificar Responsabilidade internacional do Estado e métodos de solução de controvérsias, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -1923,7 +1931,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "responsabilidade-internacional-solucao-pacifica-controversias-q03",
@@ -1949,7 +1958,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "responsabilidade-internacional-solucao-pacifica-controversias-q04",
@@ -2259,7 +2269,7 @@ export const direitoInternacional = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Confundir Comissão Interamericana com Corte Interamericana."
+        "verso": "Confundir Comissão Interamericana com Corte Interamericana. Revisão ampliada: em Direitos humanos internacionais e sistemas de proteção, o aluno deve identificar Sistema global e sistemas regionais de proteção dos direitos humanos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -2348,7 +2358,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "direitos-humanos-internacionais-sistemas-protecao-q03",
@@ -2374,7 +2385,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "direitos-humanos-internacionais-sistemas-protecao-q04",
@@ -2685,11 +2697,11 @@ export const direitoInternacional = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Confundir DIH com Direito Internacional dos Direitos Humanos."
+        "verso": "Confundir DIH com Direito Internacional dos Direitos Humanos. Revisão ampliada: em Direito Internacional Humanitário, refugiados e proteção migratória, o aluno deve identificar DIH, refugiados, asilo, migração e proteção internacional da pessoa, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Distinguir direitos humanos, direito humanitário, refúgio, asilo e migração comum"
+        "verso": "Distinguir direitos humanos, direito humanitário, refúgio, asilo e migração comum Revisão ampliada: em Direito Internacional Humanitário, refugiados e proteção migratória, o aluno deve identificar DIH, refugiados, asilo, migração e proteção internacional da pessoa, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -2774,7 +2786,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "direito-internacional-humanitario-refugiados-protecao-migratoria-q03",
@@ -2800,7 +2813,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "direito-internacional-humanitario-refugiados-protecao-migratoria-q04",
@@ -3110,11 +3124,11 @@ export const direitoInternacional = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Confundir Direito Internacional Privado com Direito Internacional Público."
+        "verso": "Confundir Direito Internacional Privado com Direito Internacional Público. Revisão ampliada: em Direito Internacional Privado: LINDB, conexão e conflito de leis, o aluno deve identificar Conflito de leis no espaço, LINDB e elementos de conexão, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Identificar o elemento de conexão correto antes de escolher a lei aplicável"
+        "verso": "Identificar o elemento de conexão correto antes de escolher a lei aplicável Revisão ampliada: em Direito Internacional Privado: LINDB, conexão e conflito de leis, o aluno deve identificar Conflito de leis no espaço, LINDB e elementos de conexão, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -3199,7 +3213,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "direito-internacional-privado-lindb-conexao-conflito-leis-q03",
@@ -3225,7 +3240,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "direito-internacional-privado-lindb-conexao-conflito-leis-q04",
@@ -3535,7 +3551,7 @@ export const direitoInternacional = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Achar que sentença estrangeira vale automaticamente no Brasil em qualquer situação."
+        "verso": "Achar que sentença estrangeira vale automaticamente no Brasil em qualquer situação. Revisão ampliada: em Cooperação jurídica internacional, homologação de sentença estrangeira e cartas rogatórias, o aluno deve identificar Cooperação jurídica internacional no CPC, homologação de decisão estrangeira, auxílio direto e carta rogatória, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -3624,7 +3640,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "cooperacao-juridica-internacional-homologacao-sentenca-carta-rogatoria-q03",
@@ -3650,7 +3667,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "cooperacao-juridica-internacional-homologacao-sentenca-carta-rogatoria-q04",
@@ -3960,7 +3978,7 @@ export const direitoInternacional = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Achar que todo bloco econômico funciona como a União Europeia."
+        "verso": "Achar que todo bloco econômico funciona como a União Europeia. Revisão ampliada: em Comércio internacional, Mercosul e integração regional, o aluno deve identificar Comércio internacional, Mercosul, integração regional e solução de conflitos econômicos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -4049,7 +4067,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "comercio-internacional-mercosul-integracao-regional-q03",
@@ -4075,7 +4094,8 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "comercio-internacional-mercosul-integracao-regional-q04",

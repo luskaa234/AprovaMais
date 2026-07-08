@@ -1393,7 +1393,7 @@ export const atualidades = [
       },
       {
         "frente": "Pegadinha comum em Segurança pública no Brasil: estrutura e desafios",
-        "verso": "Achar que o SUSP unifica ou extingue as corporações estaduais/federais existentes.",
+        "verso": "Achar que o SUSP unifica ou extingue as corporações estaduais/federais existentes. Revisão ampliada: em Segurança pública no Brasil: estrutura e desafios, o aluno deve identificar Segurança pública, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],

@@ -1396,7 +1396,7 @@ export const direitoProcessualPenal = [
       },
       {
         "frente": "Pegadinha comum em Inquérito policial: natureza e valor probatório",
-        "verso": "Achar que a autoridade policial pode arquivar o inquérito por conta própria.",
+        "verso": "Achar que a autoridade policial pode arquivar o inquérito por conta própria. Revisão ampliada: em Inquérito policial: natureza e valor probatório, o aluno deve identificar Inquérito policial, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],

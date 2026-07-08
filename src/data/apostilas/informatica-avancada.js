@@ -142,14 +142,16 @@ export const informaticaAvancada = [
         "tipo": "certo_errado",
         "enunciado": "Sistema operacional gerencia memória, arquivos, processos, dispositivos e permissões.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de base computacional."
+        "comentario": "A assertiva está correta porque expressa ponto central de base computacional.",
+        "correta": true
       },
       {
         "id": "informatica-avancada-01-q03",
         "tipo": "certo_errado",
         "enunciado": "Achar que SSD aumenta processamento da CPU.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "informatica-avancada-01-q04",
@@ -301,7 +303,7 @@ export const informaticaAvancada = [
       {
         "id": "informatica-avancada-02-fc01",
         "frente": "Qual é a ideia central de Windows, Linux e arquivos?",
-        "verso": "Caminhos, extensões e permissões determinam localização, tipo e acesso a arquivos.",
+        "verso": "Caminhos, extensões e permissões determinam localização, tipo e acesso a arquivos. Revisão ampliada: em Windows, Linux e arquivos, o aluno deve identificar uso de sistema operacional, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
@@ -315,7 +317,7 @@ export const informaticaAvancada = [
       {
         "id": "informatica-avancada-02-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Abrir executável achando que PDF só pela aparência do ícone.",
+        "verso": "Abrir executável achando que PDF só pela aparência do ícone. Revisão ampliada: em Windows, Linux e arquivos, o aluno deve identificar uso de sistema operacional, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -347,14 +349,16 @@ export const informaticaAvancada = [
         "tipo": "certo_errado",
         "enunciado": "Windows usa registro, unidades e permissões NTFS; Linux organiza tudo a partir de uma árvore de diretórios.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de uso de sistema operacional."
+        "comentario": "A assertiva está correta porque expressa ponto central de uso de sistema operacional.",
+        "correta": true
       },
       {
         "id": "informatica-avancada-02-q03",
         "tipo": "certo_errado",
         "enunciado": "Abrir executável achando que PDF só pela aparência do ícone.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "informatica-avancada-02-q04",
@@ -527,7 +531,7 @@ export const informaticaAvancada = [
       {
         "id": "informatica-avancada-03-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "Ao copiar =A1 para baixo, a referência vira A2; com =$A$1 ela permanece fixa.",
+        "verso": "Ao copiar =A1 para baixo, a referência vira A2; com =$A$1 ela permanece fixa. Revisão ampliada: em Office e LibreOffice, o aluno deve identificar produtividade em prova, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -552,14 +556,16 @@ export const informaticaAvancada = [
         "tipo": "certo_errado",
         "enunciado": "Planilhas cobram referências relativas, absolutas e mistas, além de funções e gráficos.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de produtividade em prova."
+        "comentario": "A assertiva está correta porque expressa ponto central de produtividade em prova.",
+        "correta": true
       },
       {
         "id": "informatica-avancada-03-q03",
         "tipo": "certo_errado",
         "enunciado": "Confundir fórmula com valor exibido.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "informatica-avancada-03-q04",
@@ -711,28 +717,28 @@ export const informaticaAvancada = [
       {
         "id": "informatica-avancada-04-fc01",
         "frente": "Qual é a ideia central de Internet, navegadores e e-mail?",
-        "verso": "URL, domínio, protocolo e caminho identificam recurso na web.",
+        "verso": "URL, domínio, protocolo e caminho identificam recurso na web. Revisão ampliada: em Internet, navegadores e e-mail, o aluno deve identificar serviços de rede, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
       {
         "id": "informatica-avancada-04-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em serviços de rede?",
-        "verso": "HTTPS protege comunicação, mas não garante que o site seja honesto.",
+        "verso": "HTTPS protege comunicação, mas não garante que o site seja honesto. Revisão ampliada: em Internet, navegadores e e-mail, o aluno deve identificar serviços de rede, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "informatica-avancada-04-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Achar que cadeado do navegador garante loja confiável.",
+        "verso": "Achar que cadeado do navegador garante loja confiável. Revisão ampliada: em Internet, navegadores e e-mail, o aluno deve identificar serviços de rede, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
       {
         "id": "informatica-avancada-04-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "Phishing pode usar página HTTPS e ainda roubar senha por imitar serviço legítimo.",
+        "verso": "Phishing pode usar página HTTPS e ainda roubar senha por imitar serviço legítimo. Revisão ampliada: em Internet, navegadores e e-mail, o aluno deve identificar serviços de rede, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -757,14 +763,16 @@ export const informaticaAvancada = [
         "tipo": "certo_errado",
         "enunciado": "HTTPS protege comunicação, mas não garante que o site seja honesto.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de serviços de rede."
+        "comentario": "A assertiva está correta porque expressa ponto central de serviços de rede.",
+        "correta": true
       },
       {
         "id": "informatica-avancada-04-q03",
         "tipo": "certo_errado",
         "enunciado": "Achar que cadeado do navegador garante loja confiável.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "informatica-avancada-04-q04",
@@ -916,7 +924,7 @@ export const informaticaAvancada = [
       {
         "id": "informatica-avancada-05-fc01",
         "frente": "Qual é a ideia central de Redes e protocolos?",
-        "verso": "IP identifica host na rede; porta identifica serviço em execução.",
+        "verso": "IP identifica host na rede; porta identifica serviço em execução. Revisão ampliada: em Redes e protocolos, o aluno deve identificar comunicação entre dispositivos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
@@ -937,7 +945,7 @@ export const informaticaAvancada = [
       {
         "id": "informatica-avancada-05-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "Acessar site por nome depende de consulta DNS antes da conexão ao servidor.",
+        "verso": "Acessar site por nome depende de consulta DNS antes da conexão ao servidor. Revisão ampliada: em Redes e protocolos, o aluno deve identificar comunicação entre dispositivos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -962,14 +970,16 @@ export const informaticaAvancada = [
         "tipo": "certo_errado",
         "enunciado": "DNS traduz nomes de domínio em endereços IP.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de comunicação entre dispositivos."
+        "comentario": "A assertiva está correta porque expressa ponto central de comunicação entre dispositivos.",
+        "correta": true
       },
       {
         "id": "informatica-avancada-05-q03",
         "tipo": "certo_errado",
         "enunciado": "Confundir DNS com provedor de internet.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "informatica-avancada-05-q04",
@@ -1128,14 +1138,14 @@ export const informaticaAvancada = [
       {
         "id": "informatica-avancada-06-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em ameaças e princípios?",
-        "verso": "Malware inclui vírus, worm, trojan, ransomware, spyware e outras categorias.",
+        "verso": "Malware inclui vírus, worm, trojan, ransomware, spyware e outras categorias. Revisão ampliada: em Segurança da informação, o aluno deve identificar ameaças e princípios, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "informatica-avancada-06-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Achar que antivírus elimina necessidade de cuidado.",
+        "verso": "Achar que antivírus elimina necessidade de cuidado. Revisão ampliada: em Segurança da informação, o aluno deve identificar ameaças e princípios, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1167,14 +1177,16 @@ export const informaticaAvancada = [
         "tipo": "certo_errado",
         "enunciado": "Malware inclui vírus, worm, trojan, ransomware, spyware e outras categorias.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de ameaças e princípios."
+        "comentario": "A assertiva está correta porque expressa ponto central de ameaças e princípios.",
+        "correta": true
       },
       {
         "id": "informatica-avancada-06-q03",
         "tipo": "certo_errado",
         "enunciado": "Achar que antivírus elimina necessidade de cuidado.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "informatica-avancada-06-q04",
@@ -1333,7 +1345,7 @@ export const informaticaAvancada = [
       {
         "id": "informatica-avancada-07-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em proteção de acesso?",
-        "verso": "Autenticação em dois fatores reduz risco mesmo se a senha vazar.",
+        "verso": "Autenticação em dois fatores reduz risco mesmo se a senha vazar. Revisão ampliada: em Senhas, autenticação e criptografia, o aluno deve identificar proteção de acesso, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
@@ -1372,14 +1384,16 @@ export const informaticaAvancada = [
         "tipo": "certo_errado",
         "enunciado": "Autenticação em dois fatores reduz risco mesmo se a senha vazar.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de proteção de acesso."
+        "comentario": "A assertiva está correta porque expressa ponto central de proteção de acesso.",
+        "correta": true
       },
       {
         "id": "informatica-avancada-07-q03",
         "tipo": "certo_errado",
         "enunciado": "Reutilizar senha forte em vários serviços.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "informatica-avancada-07-q04",
@@ -1545,7 +1559,7 @@ export const informaticaAvancada = [
       {
         "id": "informatica-avancada-08-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Achar que arquivo sincronizado está protegido contra exclusão acidental.",
+        "verso": "Achar que arquivo sincronizado está protegido contra exclusão acidental. Revisão ampliada: em Nuvem, backup e colaboração, o aluno deve identificar serviços online, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1577,14 +1591,16 @@ export const informaticaAvancada = [
         "tipo": "certo_errado",
         "enunciado": "Sincronização replica alterações; backup deve permitir recuperação de versões e exclusões acidentais.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de serviços online."
+        "comentario": "A assertiva está correta porque expressa ponto central de serviços online.",
+        "correta": true
       },
       {
         "id": "informatica-avancada-08-q03",
         "tipo": "certo_errado",
         "enunciado": "Achar que arquivo sincronizado está protegido contra exclusão acidental.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "informatica-avancada-08-q04",
@@ -1736,21 +1752,21 @@ export const informaticaAvancada = [
       {
         "id": "informatica-avancada-09-fc01",
         "frente": "Qual é a ideia central de Dados, bancos e LGPD aplicada?",
-        "verso": "Banco de dados organiza registros, tabelas, campos, consultas e relacionamentos.",
+        "verso": "Banco de dados organiza registros, tabelas, campos, consultas e relacionamentos. Revisão ampliada: em Dados, bancos e LGPD aplicada, o aluno deve identificar informação e proteção, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
       {
         "id": "informatica-avancada-09-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em informação e proteção?",
-        "verso": "Dado pessoal identifica ou torna identificável uma pessoa natural.",
+        "verso": "Dado pessoal identifica ou torna identificável uma pessoa natural. Revisão ampliada: em Dados, bancos e LGPD aplicada, o aluno deve identificar informação e proteção, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "informatica-avancada-09-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Coletar dado “por garantia” sem finalidade definida.",
+        "verso": "Coletar dado “por garantia” sem finalidade definida. Revisão ampliada: em Dados, bancos e LGPD aplicada, o aluno deve identificar informação e proteção, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1782,14 +1798,16 @@ export const informaticaAvancada = [
         "tipo": "certo_errado",
         "enunciado": "Dado pessoal identifica ou torna identificável uma pessoa natural.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de informação e proteção."
+        "comentario": "A assertiva está correta porque expressa ponto central de informação e proteção.",
+        "correta": true
       },
       {
         "id": "informatica-avancada-09-q03",
         "tipo": "certo_errado",
         "enunciado": "Coletar dado “por garantia” sem finalidade definida.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "informatica-avancada-09-q04",
@@ -1987,14 +2005,16 @@ export const informaticaAvancada = [
         "tipo": "certo_errado",
         "enunciado": "Automação melhora produtividade quando tarefa é repetitiva, mensurável e supervisionada.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de tecnologia contemporânea."
+        "comentario": "A assertiva está correta porque expressa ponto central de tecnologia contemporânea.",
+        "correta": true
       },
       {
         "id": "informatica-avancada-10-q03",
         "tipo": "certo_errado",
         "enunciado": "Tratar saída de IA como verdade oficial.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "informatica-avancada-10-q04",

@@ -146,11 +146,11 @@ export const direitoTrabalho = [
       },
       {
         "frente": "Pegadinha comum em Princípios trabalhistas",
-        "verso": "Achar que proteção permite ignorar a lei."
+        "verso": "Achar que proteção permite ignorar a lei. Revisão ampliada: em Princípios do Direito do Trabalho, o aluno deve identificar Princípios trabalhistas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "proteção, norma mais favorável, primazia da realidade"
+        "verso": "proteção, norma mais favorável, primazia da realidade Revisão ampliada: em Princípios do Direito do Trabalho, o aluno deve identificar Princípios trabalhistas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -696,11 +696,11 @@ export const direitoTrabalho = [
       },
       {
         "frente": "Pegadinha comum em Vínculo empregatício",
-        "verso": "Confundir autônomo com empregado apenas porque há pagamento."
+        "verso": "Confundir autônomo com empregado apenas porque há pagamento. Revisão ampliada: em Relação de trabalho e relação de emprego, o aluno deve identificar Vínculo empregatício, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "pessoalidade, subordinação, onerosidade, não eventualidade"
+        "verso": "pessoalidade, subordinação, onerosidade, não eventualidade Revisão ampliada: em Relação de trabalho e relação de emprego, o aluno deve identificar Vínculo empregatício, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -1242,15 +1242,15 @@ export const direitoTrabalho = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Empregado, empregador e grupo econômico?",
-        "verso": "Quem controla o negócio assume o risco do negócio."
+        "verso": "Quem controla o negócio assume o risco do negócio. Revisão ampliada: em Empregado, empregador e grupo econômico, o aluno deve identificar Sujeitos da relação de emprego, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Sujeitos da relação de emprego",
-        "verso": "Achar que sócios em comum bastam para grupo econômico."
+        "verso": "Achar que sócios em comum bastam para grupo econômico. Revisão ampliada: em Empregado, empregador e grupo econômico, o aluno deve identificar Sujeitos da relação de emprego, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "empregador, alteridade, grupo econômico, responsabilidade solidária"
+        "verso": "empregador, alteridade, grupo econômico, responsabilidade solidária Revisão ampliada: em Empregado, empregador e grupo econômico, o aluno deve identificar Sujeitos da relação de emprego, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -1792,11 +1792,11 @@ export const direitoTrabalho = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Contrato individual de trabalho?",
-        "verso": "Contrato escrito ajuda, mas não cria nem apaga sozinho a realidade trabalhista."
+        "verso": "Contrato escrito ajuda, mas não cria nem apaga sozinho a realidade trabalhista. Revisão ampliada: em Contrato individual de trabalho, o aluno deve identificar Formação e modalidades contratuais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Formação e modalidades contratuais",
-        "verso": "Achar que sem papel não há vínculo."
+        "verso": "Achar que sem papel não há vínculo. Revisão ampliada: em Contrato individual de trabalho, o aluno deve identificar Formação e modalidades contratuais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
@@ -2346,11 +2346,11 @@ export const direitoTrabalho = [
       },
       {
         "frente": "Pegadinha comum em Duração do trabalho",
-        "verso": "Confundir intervalo intrajornada com interjornada."
+        "verso": "Confundir intervalo intrajornada com interjornada. Revisão ampliada: em Jornada de trabalho e horas extras, o aluno deve identificar Duração do trabalho, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "jornada, horas extras, intervalo intrajornada, banco de horas"
+        "verso": "jornada, horas extras, intervalo intrajornada, banco de horas Revisão ampliada: em Jornada de trabalho e horas extras, o aluno deve identificar Duração do trabalho, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -2896,11 +2896,11 @@ export const direitoTrabalho = [
       },
       {
         "frente": "Pegadinha comum em Parcelas trabalhistas",
-        "verso": "Tratar toda verba paga como salário."
+        "verso": "Tratar toda verba paga como salário. Revisão ampliada: em Salário, remuneração e adicionais, o aluno deve identificar Parcelas trabalhistas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "salário, remuneração, adicional de insalubridade, adicional de periculosidade"
+        "verso": "salário, remuneração, adicional de insalubridade, adicional de periculosidade Revisão ampliada: em Salário, remuneração e adicionais, o aluno deve identificar Parcelas trabalhistas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -3442,15 +3442,15 @@ export const direitoTrabalho = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Férias, 13º salário e repouso semanal remunerado?",
-        "verso": "Férias descansam o ano; RSR descansa a semana; 13º reforça a renda anual."
+        "verso": "Férias descansam o ano; RSR descansa a semana; 13º reforça a renda anual. Revisão ampliada: em Férias, 13º salário e repouso semanal remunerado, o aluno deve identificar Descansos e gratificação natalina, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Descansos e gratificação natalina",
-        "verso": "Confundir férias com repouso semanal."
+        "verso": "Confundir férias com repouso semanal. Revisão ampliada: em Férias, 13º salário e repouso semanal remunerado, o aluno deve identificar Descansos e gratificação natalina, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "férias, terço constitucional, 13º salário, repouso semanal remunerado"
+        "verso": "férias, terço constitucional, 13º salário, repouso semanal remunerado Revisão ampliada: em Férias, 13º salário e repouso semanal remunerado, o aluno deve identificar Descansos e gratificação natalina, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -3996,11 +3996,11 @@ export const direitoTrabalho = [
       },
       {
         "frente": "Pegadinha comum em Modificações e paralisações contratuais",
-        "verso": "Confundir suspensão com interrupção."
+        "verso": "Confundir suspensão com interrupção. Revisão ampliada: em Alteração, suspensão e interrupção do contrato, o aluno deve identificar Modificações e paralisações contratuais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "alteração contratual, jus variandi, suspensão, interrupção"
+        "verso": "alteração contratual, jus variandi, suspensão, interrupção Revisão ampliada: em Alteração, suspensão e interrupção do contrato, o aluno deve identificar Modificações e paralisações contratuais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -4542,15 +4542,15 @@ export const direitoTrabalho = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Rescisão do contrato de trabalho?",
-        "verso": "Na rescisão, primeiro descubra quem rompeu e por quê; depois vêm as verbas."
+        "verso": "Na rescisão, primeiro descubra quem rompeu e por quê; depois vêm as verbas. Revisão ampliada: em Rescisão do contrato de trabalho, o aluno deve identificar Término do vínculo empregatício, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Término do vínculo empregatício",
-        "verso": "Achar que qualquer erro do empregado gera justa causa."
+        "verso": "Achar que qualquer erro do empregado gera justa causa. Revisão ampliada: em Rescisão do contrato de trabalho, o aluno deve identificar Término do vínculo empregatício, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "dispensa sem justa causa, justa causa, pedido de demissão, rescisão indireta"
+        "verso": "dispensa sem justa causa, justa causa, pedido de demissão, rescisão indireta Revisão ampliada: em Rescisão do contrato de trabalho, o aluno deve identificar Término do vínculo empregatício, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -5096,11 +5096,11 @@ export const direitoTrabalho = [
       },
       {
         "frente": "Pegadinha comum em Garantias trabalhistas",
-        "verso": "Achar que FGTS é descontado do salário."
+        "verso": "Achar que FGTS é descontado do salário. Revisão ampliada: em FGTS, estabilidade e direitos constitucionais trabalhistas, o aluno deve identificar Garantias trabalhistas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "FGTS, estabilidade provisória, direitos sociais, artigo 7º"
+        "verso": "FGTS, estabilidade provisória, direitos sociais, artigo 7º Revisão ampliada: em FGTS, estabilidade e direitos constitucionais trabalhistas, o aluno deve identificar Garantias trabalhistas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {

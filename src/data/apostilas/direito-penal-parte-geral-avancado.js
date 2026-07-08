@@ -117,7 +117,7 @@ export const direitoPenalParteGeralAvancado = [
       {
         "id": "direito-penal-parte-geral-avancado-01-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "Conduta imoral, sem tipo penal anterior, não pode ser punida criminalmente.",
+        "verso": "Conduta imoral, sem tipo penal anterior, não pode ser punida criminalmente. Revisão ampliada: em Funções, fontes e princípios penais, o aluno deve identificar limites do poder punitivo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -142,14 +142,16 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Legalidade exige lei anterior que defina crime e pena de forma suficientemente certa.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de limites do poder punitivo."
+        "comentario": "A assertiva está correta porque expressa ponto central de limites do poder punitivo.",
+        "correta": true
       },
       {
         "id": "direito-penal-parte-geral-avancado-01-q03",
         "tipo": "certo_errado",
         "enunciado": "Usar clamor social para afastar legalidade.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-penal-parte-geral-avancado-01-q04",
@@ -301,7 +303,7 @@ export const direitoPenalParteGeralAvancado = [
       {
         "id": "direito-penal-parte-geral-avancado-02-fc01",
         "frente": "Qual é a ideia central de Lei penal no tempo?",
-        "verso": "Regra geral é irretroatividade da lei penal mais gravosa.",
+        "verso": "Regra geral é irretroatividade da lei penal mais gravosa. Revisão ampliada: em Lei penal no tempo, o aluno deve identificar sucessão de leis penais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
@@ -347,14 +349,16 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Lei penal mais benéfica retroage para alcançar fatos anteriores, mesmo após condenação, conforme hipótese.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de sucessão de leis penais."
+        "comentario": "A assertiva está correta porque expressa ponto central de sucessão de leis penais.",
+        "correta": true
       },
       {
         "id": "direito-penal-parte-geral-avancado-02-q03",
         "tipo": "certo_errado",
         "enunciado": "Aplicar lei nova mais grave a fato passado.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-penal-parte-geral-avancado-02-q04",
@@ -513,14 +517,14 @@ export const direitoPenalParteGeralAvancado = [
       {
         "id": "direito-penal-parte-geral-avancado-03-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em territorialidade e extraterritorialidade?",
-        "verso": "Lugar do crime pode ser analisado por teorias da atividade, resultado ou ubiquidade.",
+        "verso": "Lugar do crime pode ser analisado por teorias da atividade, resultado ou ubiquidade. Revisão ampliada: em Lei penal no espaço, o aluno deve identificar territorialidade e extraterritorialidade, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "direito-penal-parte-geral-avancado-03-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Achar que nacionalidade da vítima sempre define lei aplicável.",
+        "verso": "Achar que nacionalidade da vítima sempre define lei aplicável. Revisão ampliada: em Lei penal no espaço, o aluno deve identificar territorialidade e extraterritorialidade, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -552,14 +556,16 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Lugar do crime pode ser analisado por teorias da atividade, resultado ou ubiquidade.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de territorialidade e extraterritorialidade."
+        "comentario": "A assertiva está correta porque expressa ponto central de territorialidade e extraterritorialidade.",
+        "correta": true
       },
       {
         "id": "direito-penal-parte-geral-avancado-03-q03",
         "tipo": "certo_errado",
         "enunciado": "Achar que nacionalidade da vítima sempre define lei aplicável.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-penal-parte-geral-avancado-03-q04",
@@ -711,28 +717,28 @@ export const direitoPenalParteGeralAvancado = [
       {
         "id": "direito-penal-parte-geral-avancado-04-fc01",
         "frente": "Qual é a ideia central de Teoria do crime?",
-        "verso": "Conceito analítico usual divide crime em fato típico, ilicitude e culpabilidade.",
+        "verso": "Conceito analítico usual divide crime em fato típico, ilicitude e culpabilidade. Revisão ampliada: em Teoria do crime, o aluno deve identificar estrutura analítica, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
       {
         "id": "direito-penal-parte-geral-avancado-04-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em estrutura analítica?",
-        "verso": "Fato típico reúne conduta, resultado quando exigido, nexo causal e tipicidade.",
+        "verso": "Fato típico reúne conduta, resultado quando exigido, nexo causal e tipicidade. Revisão ampliada: em Teoria do crime, o aluno deve identificar estrutura analítica, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "direito-penal-parte-geral-avancado-04-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Misturar excludente de ilicitude com excludente de culpabilidade.",
+        "verso": "Misturar excludente de ilicitude com excludente de culpabilidade. Revisão ampliada: em Teoria do crime, o aluno deve identificar estrutura analítica, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
       {
         "id": "direito-penal-parte-geral-avancado-04-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "Legítima defesa exclui ilicitude; inimputabilidade afeta culpabilidade.",
+        "verso": "Legítima defesa exclui ilicitude; inimputabilidade afeta culpabilidade. Revisão ampliada: em Teoria do crime, o aluno deve identificar estrutura analítica, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -757,14 +763,16 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Fato típico reúne conduta, resultado quando exigido, nexo causal e tipicidade.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de estrutura analítica."
+        "comentario": "A assertiva está correta porque expressa ponto central de estrutura analítica.",
+        "correta": true
       },
       {
         "id": "direito-penal-parte-geral-avancado-04-q03",
         "tipo": "certo_errado",
         "enunciado": "Misturar excludente de ilicitude com excludente de culpabilidade.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-penal-parte-geral-avancado-04-q04",
@@ -962,14 +970,16 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Resultado naturalístico é exigido em crimes materiais, mas não em crimes formais ou de mera conduta.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de imputação do fato."
+        "comentario": "A assertiva está correta porque expressa ponto central de imputação do fato.",
+        "correta": true
       },
       {
         "id": "direito-penal-parte-geral-avancado-05-q03",
         "tipo": "certo_errado",
         "enunciado": "Punir omissão sem dever jurídico.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-penal-parte-geral-avancado-05-q04",
@@ -1135,7 +1145,7 @@ export const direitoPenalParteGeralAvancado = [
       {
         "id": "direito-penal-parte-geral-avancado-06-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Confundir dolo eventual com culpa consciente sem analisar aceitação do risco.",
+        "verso": "Confundir dolo eventual com culpa consciente sem analisar aceitação do risco. Revisão ampliada: em Dolo, culpa e erro, o aluno deve identificar elemento subjetivo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1167,14 +1177,16 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Culpa exige violação de dever objetivo de cuidado, previsibilidade e resultado involuntário.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de elemento subjetivo."
+        "comentario": "A assertiva está correta porque expressa ponto central de elemento subjetivo.",
+        "correta": true
       },
       {
         "id": "direito-penal-parte-geral-avancado-06-q03",
         "tipo": "certo_errado",
         "enunciado": "Confundir dolo eventual com culpa consciente sem analisar aceitação do risco.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-penal-parte-geral-avancado-06-q04",
@@ -1340,7 +1352,7 @@ export const direitoPenalParteGeralAvancado = [
       {
         "id": "direito-penal-parte-geral-avancado-07-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Chamar vingança posterior de legítima defesa.",
+        "verso": "Chamar vingança posterior de legítima defesa. Revisão ampliada: em Ilicitude e justificantes, o aluno deve identificar causas de exclusão da antijuridicidade, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1372,14 +1384,16 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Legítima defesa exige agressão injusta, atual ou iminente, uso moderado dos meios necessários e defesa de direito.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de causas de exclusão da antijuridicidade."
+        "comentario": "A assertiva está correta porque expressa ponto central de causas de exclusão da antijuridicidade.",
+        "correta": true
       },
       {
         "id": "direito-penal-parte-geral-avancado-07-q03",
         "tipo": "certo_errado",
         "enunciado": "Chamar vingança posterior de legítima defesa.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-penal-parte-geral-avancado-07-q04",
@@ -1545,7 +1559,7 @@ export const direitoPenalParteGeralAvancado = [
       {
         "id": "direito-penal-parte-geral-avancado-08-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Confundir desconhecimento da lei com erro de proibição automaticamente aceito.",
+        "verso": "Confundir desconhecimento da lei com erro de proibição automaticamente aceito. Revisão ampliada: em Culpabilidade, o aluno deve identificar juízo de reprovação pessoal, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1577,14 +1591,16 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Inimputabilidade pode decorrer de menoridade ou condição mental conforme critérios legais.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de juízo de reprovação pessoal."
+        "comentario": "A assertiva está correta porque expressa ponto central de juízo de reprovação pessoal.",
+        "correta": true
       },
       {
         "id": "direito-penal-parte-geral-avancado-08-q03",
         "tipo": "certo_errado",
         "enunciado": "Confundir desconhecimento da lei com erro de proibição automaticamente aceito.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-penal-parte-geral-avancado-08-q04",
@@ -1750,7 +1766,7 @@ export const direitoPenalParteGeralAvancado = [
       {
         "id": "direito-penal-parte-geral-avancado-09-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Confundir desistência voluntária com tentativa perfeita.",
+        "verso": "Confundir desistência voluntária com tentativa perfeita. Revisão ampliada: em Iter criminis e tentativa, o aluno deve identificar caminho do crime, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1782,14 +1798,16 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Execução inicia quando o agente começa a realizar o núcleo do tipo ou atos imediatamente ligados a ele.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de caminho do crime."
+        "comentario": "A assertiva está correta porque expressa ponto central de caminho do crime.",
+        "correta": true
       },
       {
         "id": "direito-penal-parte-geral-avancado-09-q03",
         "tipo": "certo_errado",
         "enunciado": "Confundir desistência voluntária com tentativa perfeita.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-penal-parte-geral-avancado-09-q04",
@@ -1955,7 +1973,7 @@ export const direitoPenalParteGeralAvancado = [
       {
         "id": "direito-penal-parte-geral-avancado-10-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Dizer que presença no local sempre configura participação.",
+        "verso": "Dizer que presença no local sempre configura participação. Revisão ampliada: em Concurso de pessoas, crimes, penas e extinção da punibilidade, o aluno deve identificar fechamento da Parte Geral, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1987,14 +2005,16 @@ export const direitoPenalParteGeralAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Concurso material, formal e crime continuado têm regimes distintos de aplicação de pena.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de fechamento da Parte Geral."
+        "comentario": "A assertiva está correta porque expressa ponto central de fechamento da Parte Geral.",
+        "correta": true
       },
       {
         "id": "direito-penal-parte-geral-avancado-10-q03",
         "tipo": "certo_errado",
         "enunciado": "Dizer que presença no local sempre configura participação.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-penal-parte-geral-avancado-10-q04",

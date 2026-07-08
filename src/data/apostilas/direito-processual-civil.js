@@ -6912,7 +6912,7 @@ export const direitoProcessualCivil = [
       },
       {
         "frente": "Pegadinha comum em Recursos no processo civil",
-        "verso": "Usar embargos de declaração para tentar rediscutir o mérito, função que não é dele.",
+        "verso": "Usar embargos de declaração para tentar rediscutir o mérito, função que não é dele. Revisão ampliada: em Recursos no processo civil, o aluno deve identificar Sistema recursal civil, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],

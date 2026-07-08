@@ -131,11 +131,11 @@ export const direitoEleitoral = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Confundir votar com ser votado."
+        "verso": "Confundir votar com ser votado. Revisão ampliada: em Direitos políticos, soberania popular, alistamento e voto, o aluno deve identificar Direitos políticos, soberania popular, alistamento e voto, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Separar capacidade eleitoral ativa, capacidade eleitoral passiva e exercício do voto"
+        "verso": "Separar capacidade eleitoral ativa, capacidade eleitoral passiva e exercício do voto Revisão ampliada: em Direitos políticos, soberania popular, alistamento e voto, o aluno deve identificar Direitos políticos, soberania popular, alistamento e voto, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -617,7 +617,7 @@ export const direitoEleitoral = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Afirmar que o TSE pode criar regra contrária à lei."
+        "verso": "Afirmar que o TSE pode criar regra contrária à lei. Revisão ampliada: em Justiça Eleitoral: órgãos, funções e competências, o aluno deve identificar Justiça Eleitoral: órgãos, funções e competências, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -1107,7 +1107,7 @@ export const direitoEleitoral = [
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Identificar primeiro o cargo disputado para depois escolher o sistema de apuração"
+        "verso": "Identificar primeiro o cargo disputado para depois escolher o sistema de apuração Revisão ampliada: em Sistemas eleitorais: majoritário, proporcional, quociente e federações, o aluno deve identificar Sistemas eleitorais: majoritário, proporcional, quociente e federações, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -1588,11 +1588,11 @@ export const direitoEleitoral = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Chamar toda inelegibilidade de ausência de elegibilidade."
+        "verso": "Chamar toda inelegibilidade de ausência de elegibilidade. Revisão ampliada: em Elegibilidade, inelegibilidades e desincompatibilização, o aluno deve identificar Elegibilidade, inelegibilidades e desincompatibilização, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Separar requisitos para concorrer das causas que impedem a candidatura"
+        "verso": "Separar requisitos para concorrer das causas que impedem a candidatura Revisão ampliada: em Elegibilidade, inelegibilidades e desincompatibilização, o aluno deve identificar Elegibilidade, inelegibilidades e desincompatibilização, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -2073,7 +2073,7 @@ export const direitoEleitoral = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Tratar federação como coligação meramente eleitoral e temporária."
+        "verso": "Tratar federação como coligação meramente eleitoral e temporária. Revisão ampliada: em Partidos políticos, filiação, federações e convenções, o aluno deve identificar Partidos políticos, filiação, federações e convenções, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -2563,7 +2563,7 @@ export const direitoEleitoral = [
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Ver o registro como controle jurídico da candidatura antes da urna"
+        "verso": "Ver o registro como controle jurídico da candidatura antes da urna Revisão ampliada: em Registro de candidatura, impugnação, substituição e DRAP, o aluno deve identificar Registro de candidatura, impugnação, substituição e DRAP, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -3041,11 +3041,11 @@ export const direitoEleitoral = [
     "flashcards": [
       {
         "frente": "O que é essencial em Propaganda eleitoral, pré-campanha, internet e poder de polícia?",
-        "verso": "Propaganda eleitoral tem tempo, forma e limites; internet não é terra sem lei."
+        "verso": "Propaganda eleitoral tem tempo, forma e limites; internet não é terra sem lei. Revisão ampliada: em Propaganda eleitoral, pré-campanha, internet e poder de polícia, o aluno deve identificar Propaganda eleitoral, pré-campanha, internet e poder de polícia, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Confundir menção a pré-candidatura com pedido explícito de voto."
+        "verso": "Confundir menção a pré-candidatura com pedido explícito de voto. Revisão ampliada: em Propaganda eleitoral, pré-campanha, internet e poder de polícia, o aluno deve identificar Propaganda eleitoral, pré-campanha, internet e poder de polícia, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -3530,7 +3530,7 @@ export const direitoEleitoral = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Achar que todo recurso privado é permitido."
+        "verso": "Achar que todo recurso privado é permitido. Revisão ampliada: em Financiamento de campanha, prestação de contas e arrecadação, o aluno deve identificar Financiamento de campanha, prestação de contas e arrecadação, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -4015,7 +4015,7 @@ export const direitoEleitoral = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Confundir promessa programática geral com compra de voto individualizada."
+        "verso": "Confundir promessa programática geral com compra de voto individualizada. Revisão ampliada: em Condutas vedadas, abuso de poder e captação ilícita de sufrágio, o aluno deve identificar Condutas vedadas, abuso de poder e captação ilícita de sufrágio, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -4506,11 +4506,11 @@ export const direitoEleitoral = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Achar que diplomação torna impossível qualquer questionamento."
+        "verso": "Achar que diplomação torna impossível qualquer questionamento. Revisão ampliada: em Votação, apuração, diplomação, ações, ilícitos e recursos eleitorais, o aluno deve identificar Votação, apuração, diplomação, ações, ilícitos e recursos eleitorais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Organizar a linha do tempo: antes, durante e depois da eleição"
+        "verso": "Organizar a linha do tempo: antes, durante e depois da eleição Revisão ampliada: em Votação, apuração, diplomação, ações, ilícitos e recursos eleitorais, o aluno deve identificar Votação, apuração, diplomação, ações, ilícitos e recursos eleitorais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {

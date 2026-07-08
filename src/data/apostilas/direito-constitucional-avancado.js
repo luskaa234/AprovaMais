@@ -112,7 +112,7 @@ export const direitoConstitucionalAvancado = [
       {
         "id": "direito-constitucional-avancado-01-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Dizer que emenda constitucional pode tudo porque é aprovada pelo Congresso.",
+        "verso": "Dizer que emenda constitucional pode tudo porque é aprovada pelo Congresso. Revisão ampliada: em Supremacia constitucional, rigidez e poder constituinte, o aluno deve identificar base do sistema constitucional, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -144,14 +144,16 @@ export const direitoConstitucionalAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Poder constituinte originário cria nova ordem constitucional; poder derivado atua dentro dos limites materiais, formais e circunstanciais.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de base do sistema constitucional."
+        "comentario": "A assertiva está correta porque expressa ponto central de base do sistema constitucional.",
+        "correta": true
       },
       {
         "id": "direito-constitucional-avancado-01-q03",
         "tipo": "certo_errado",
         "enunciado": "Dizer que emenda constitucional pode tudo porque é aprovada pelo Congresso.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-constitucional-avancado-01-q04",
@@ -319,7 +321,7 @@ export const direitoConstitucionalAvancado = [
       {
         "id": "direito-constitucional-avancado-02-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Chamar redução de desigualdades de fundamento, quando é objetivo.",
+        "verso": "Chamar redução de desigualdades de fundamento, quando é objetivo. Revisão ampliada: em Princípios fundamentais e objetivos da República, o aluno deve identificar fundamentos do Estado brasileiro, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -351,14 +353,16 @@ export const direitoConstitucionalAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Objetivos fundamentais orientam políticas públicas, como construir sociedade livre, reduzir desigualdades e promover o bem de todos.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de fundamentos do Estado brasileiro."
+        "comentario": "A assertiva está correta porque expressa ponto central de fundamentos do Estado brasileiro.",
+        "correta": true
       },
       {
         "id": "direito-constitucional-avancado-02-q03",
         "tipo": "certo_errado",
         "enunciado": "Chamar redução de desigualdades de fundamento, quando é objetivo.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-constitucional-avancado-02-q04",
@@ -558,14 +562,16 @@ export const direitoConstitucionalAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Liberdade, propriedade, intimidade, devido processo e inviolabilidade domiciliar possuem limites e exigem interpretação proporcional.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de núcleo das liberdades públicas."
+        "comentario": "A assertiva está correta porque expressa ponto central de núcleo das liberdades públicas.",
+        "correta": true
       },
       {
         "id": "direito-constitucional-avancado-03-q03",
         "tipo": "certo_errado",
         "enunciado": "Achar que direito fundamental é absoluto.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-constitucional-avancado-03-q04",
@@ -765,14 +771,16 @@ export const direitoConstitucionalAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Nacionalidade define vínculo jurídico-político com o Estado e influencia direitos políticos e proteção diplomática.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de cidadania em sentido amplo."
+        "comentario": "A assertiva está correta porque expressa ponto central de cidadania em sentido amplo.",
+        "correta": true
       },
       {
         "id": "direito-constitucional-avancado-04-q03",
         "tipo": "certo_errado",
         "enunciado": "Confundir nacionalidade com naturalidade.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-constitucional-avancado-04-q04",
@@ -940,7 +948,7 @@ export const direitoConstitucionalAvancado = [
       {
         "id": "direito-constitucional-avancado-05-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Achar que hierarquia política permite União mandar em tudo.",
+        "verso": "Achar que hierarquia política permite União mandar em tudo. Revisão ampliada: em Federação e repartição de competências, o aluno deve identificar organização territorial do poder, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -972,14 +980,16 @@ export const direitoConstitucionalAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Competências privativas, comuns, concorrentes e municipais possuem lógicas diferentes de repartição.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de organização territorial do poder."
+        "comentario": "A assertiva está correta porque expressa ponto central de organização territorial do poder.",
+        "correta": true
       },
       {
         "id": "direito-constitucional-avancado-05-q03",
         "tipo": "certo_errado",
         "enunciado": "Achar que hierarquia política permite União mandar em tudo.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-constitucional-avancado-05-q04",
@@ -1147,7 +1157,7 @@ export const direitoConstitucionalAvancado = [
       {
         "id": "direito-constitucional-avancado-06-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Confundir publicidade com propaganda pessoal.",
+        "verso": "Confundir publicidade com propaganda pessoal. Revisão ampliada: em Administração Pública constitucional, o aluno deve identificar princípios e agentes públicos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1179,14 +1189,16 @@ export const direitoConstitucionalAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Impessoalidade proíbe favorecimento, perseguição e promoção pessoal com recursos públicos.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de princípios e agentes públicos."
+        "comentario": "A assertiva está correta porque expressa ponto central de princípios e agentes públicos.",
+        "correta": true
       },
       {
         "id": "direito-constitucional-avancado-06-q03",
         "tipo": "certo_errado",
         "enunciado": "Confundir publicidade com propaganda pessoal.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-constitucional-avancado-06-q04",
@@ -1354,7 +1366,7 @@ export const direitoConstitucionalAvancado = [
       {
         "id": "direito-constitucional-avancado-07-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Dizer que CPI pode decretar prisão como pena.",
+        "verso": "Dizer que CPI pode decretar prisão como pena. Revisão ampliada: em Poder Legislativo e processo legislativo, o aluno deve identificar produção normativa e fiscalização, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1386,14 +1398,16 @@ export const direitoConstitucionalAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Processo legislativo tem iniciativa, discussão, votação, sanção ou veto, promulgação e publicação conforme a espécie normativa.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de produção normativa e fiscalização."
+        "comentario": "A assertiva está correta porque expressa ponto central de produção normativa e fiscalização.",
+        "correta": true
       },
       {
         "id": "direito-constitucional-avancado-07-q03",
         "tipo": "certo_errado",
         "enunciado": "Dizer que CPI pode decretar prisão como pena.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-constitucional-avancado-07-q04",
@@ -1561,7 +1575,7 @@ export const direitoConstitucionalAvancado = [
       {
         "id": "direito-constitucional-avancado-08-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Tratar medida excepcional como suspensão total da Constituição.",
+        "verso": "Tratar medida excepcional como suspensão total da Constituição. Revisão ampliada: em Poder Executivo, responsabilidade e defesa do Estado, o aluno deve identificar chefia, governo e situações excepcionais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1593,14 +1607,16 @@ export const direitoConstitucionalAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Responsabilidade política envolve mecanismos próprios, como crimes de responsabilidade, distintos de infrações penais comuns.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de chefia, governo e situações excepcionais."
+        "comentario": "A assertiva está correta porque expressa ponto central de chefia, governo e situações excepcionais.",
+        "correta": true
       },
       {
         "id": "direito-constitucional-avancado-08-q03",
         "tipo": "certo_errado",
         "enunciado": "Tratar medida excepcional como suspensão total da Constituição.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-constitucional-avancado-08-q04",
@@ -1800,14 +1816,16 @@ export const direitoConstitucionalAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Controle difuso ocorre em caso concreto; controle concentrado discute a norma em tese por ações próprias.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de garantia jurisdicional da Constituição."
+        "comentario": "A assertiva está correta porque expressa ponto central de garantia jurisdicional da Constituição.",
+        "correta": true
       },
       {
         "id": "direito-constitucional-avancado-09-q03",
         "tipo": "certo_errado",
         "enunciado": "Confundir controle difuso com concentrado.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-constitucional-avancado-09-q04",
@@ -2007,14 +2025,16 @@ export const direitoConstitucionalAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Segurança pública é dever do Estado, direito e responsabilidade de todos, exercida por órgãos definidos constitucionalmente.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de direitos coletivos e proteção institucional."
+        "comentario": "A assertiva está correta porque expressa ponto central de direitos coletivos e proteção institucional.",
+        "correta": true
       },
       {
         "id": "direito-constitucional-avancado-10-q03",
         "tipo": "certo_errado",
         "enunciado": "Achar que segurança pública é só repressão.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direito-constitucional-avancado-10-q04",

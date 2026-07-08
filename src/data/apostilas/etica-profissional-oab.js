@@ -150,11 +150,11 @@ export const eticaProfissionalOab = [
       },
       {
         "frente": "Pegadinha comum em Função social da advocacia e regras deontológicas fundamentais",
-        "verso": "Confundir independência com autorização para agir sem limites."
+        "verso": "Confundir independência com autorização para agir sem limites. Revisão ampliada: em Função social da advocacia e regras deontológicas fundamentais, o aluno deve identificar Regras deontológicas fundamentais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "função social, independência, deontologia, mercantilização"
+        "verso": "função social, independência, deontologia, mercantilização Revisão ampliada: em Função social da advocacia e regras deontológicas fundamentais, o aluno deve identificar Regras deontológicas fundamentais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -685,11 +685,11 @@ export const eticaProfissionalOab = [
       },
       {
         "frente": "Pegadinha comum em Atividades privativas, inscrição, incompatibilidades e impedimentos",
-        "verso": "Achar que todo servidor público é incompatível."
+        "verso": "Achar que todo servidor público é incompatível. Revisão ampliada: em Atividades privativas, inscrição, incompatibilidades e impedimentos, o aluno deve identificar Exercício da advocacia e limites subjetivos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "atividade privativa, inscrição, incompatibilidade, impedimento"
+        "verso": "atividade privativa, inscrição, incompatibilidade, impedimento Revisão ampliada: em Atividades privativas, inscrição, incompatibilidades e impedimentos, o aluno deve identificar Exercício da advocacia e limites subjetivos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -1216,15 +1216,15 @@ export const eticaProfissionalOab = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Direitos e prerrogativas do advogado?",
-        "verso": "Prerrogativa existe para proteger a defesa do cidadão; não é licença para abuso."
+        "verso": "Prerrogativa existe para proteger a defesa do cidadão; não é licença para abuso. Revisão ampliada: em Direitos e prerrogativas do advogado, o aluno deve identificar Prerrogativas profissionais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Direitos e prerrogativas do advogado",
-        "verso": "Tratar prerrogativa como privilégio."
+        "verso": "Tratar prerrogativa como privilégio. Revisão ampliada: em Direitos e prerrogativas do advogado, o aluno deve identificar Prerrogativas profissionais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "prerrogativas, inviolabilidade, comunicação reservada, desagravo"
+        "verso": "prerrogativas, inviolabilidade, comunicação reservada, desagravo Revisão ampliada: em Direitos e prerrogativas do advogado, o aluno deve identificar Prerrogativas profissionais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -1755,11 +1755,11 @@ export const eticaProfissionalOab = [
       },
       {
         "frente": "Pegadinha comum em Relação com o cliente: mandato, renúncia, substabelecimento e prestação de contas",
-        "verso": "Achar que renúncia apaga responsabilidade imediatamente."
+        "verso": "Achar que renúncia apaga responsabilidade imediatamente. Revisão ampliada: em Relação com o cliente: mandato, renúncia, substabelecimento e prestação de contas, o aluno deve identificar Relação advogado-cliente, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "mandato, renúncia, substabelecimento, prestação de contas"
+        "verso": "mandato, renúncia, substabelecimento, prestação de contas Revisão ampliada: em Relação com o cliente: mandato, renúncia, substabelecimento e prestação de contas, o aluno deve identificar Relação advogado-cliente, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -2290,11 +2290,11 @@ export const eticaProfissionalOab = [
       },
       {
         "frente": "Pegadinha comum em Sigilo profissional e conflito de interesses",
-        "verso": "Achar que autorização do cliente sempre elimina qualquer proteção ao sigilo."
+        "verso": "Achar que autorização do cliente sempre elimina qualquer proteção ao sigilo. Revisão ampliada: em Sigilo profissional e conflito de interesses, o aluno deve identificar Sigilo e conflitos éticos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "sigilo, confidencialidade, conflito de interesses, ex-cliente"
+        "verso": "sigilo, confidencialidade, conflito de interesses, ex-cliente Revisão ampliada: em Sigilo profissional e conflito de interesses, o aluno deve identificar Sigilo e conflitos éticos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -2825,11 +2825,11 @@ export const eticaProfissionalOab = [
       },
       {
         "frente": "Pegadinha comum em Honorários advocatícios: contrato, sucumbência, quota litis e cobrança",
-        "verso": "Achar que sucumbência apaga contrato."
+        "verso": "Achar que sucumbência apaga contrato. Revisão ampliada: em Honorários advocatícios: contrato, sucumbência, quota litis e cobrança, o aluno deve identificar Honorários advocatícios, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "honorários, sucumbência, quota litis, contrato escrito"
+        "verso": "honorários, sucumbência, quota litis, contrato escrito Revisão ampliada: em Honorários advocatícios: contrato, sucumbência, quota litis e cobrança, o aluno deve identificar Honorários advocatícios, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -3356,15 +3356,15 @@ export const eticaProfissionalOab = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Publicidade profissional, marketing jurídico e captação indevida?",
-        "verso": "Na advocacia, pode informar com sobriedade; não pode vender promessa de vitória."
+        "verso": "Na advocacia, pode informar com sobriedade; não pode vender promessa de vitória. Revisão ampliada: em Publicidade profissional, marketing jurídico e captação indevida, o aluno deve identificar Publicidade e marketing jurídico, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Publicidade profissional, marketing jurídico e captação indevida",
-        "verso": "Achar que o digital liberou tudo."
+        "verso": "Achar que o digital liberou tudo. Revisão ampliada: em Publicidade profissional, marketing jurídico e captação indevida, o aluno deve identificar Publicidade e marketing jurídico, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "publicidade, marketing jurídico, captação de clientela, sobriedade"
+        "verso": "publicidade, marketing jurídico, captação de clientela, sobriedade Revisão ampliada: em Publicidade profissional, marketing jurídico e captação indevida, o aluno deve identificar Publicidade e marketing jurídico, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -3897,11 +3897,11 @@ export const eticaProfissionalOab = [
       },
       {
         "frente": "Pegadinha comum em Infrações disciplinares e sanções",
-        "verso": "Aplicar exclusão automaticamente."
+        "verso": "Aplicar exclusão automaticamente. Revisão ampliada: em Infrações disciplinares e sanções, o aluno deve identificar Responsabilidade disciplinar, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "infração disciplinar, censura, suspensão, exclusão, multa"
+        "verso": "infração disciplinar, censura, suspensão, exclusão, multa Revisão ampliada: em Infrações disciplinares e sanções, o aluno deve identificar Responsabilidade disciplinar, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -4433,11 +4433,11 @@ export const eticaProfissionalOab = [
       },
       {
         "frente": "Pegadinha comum em Processo disciplinar na OAB",
-        "verso": "Confundir representação com condenação."
+        "verso": "Confundir representação com condenação. Revisão ampliada: em Processo disciplinar na OAB, o aluno deve identificar Processo disciplinar, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "processo disciplinar, Tribunal de Ética, contraditório, sigilo"
+        "verso": "processo disciplinar, Tribunal de Ética, contraditório, sigilo Revisão ampliada: em Processo disciplinar na OAB, o aluno deve identificar Processo disciplinar, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -4965,15 +4965,15 @@ export const eticaProfissionalOab = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Sociedade de advogados, advogado empregado e advocacia pública?",
-        "verso": "A forma de trabalho muda; os deveres éticos da advocacia permanecem."
+        "verso": "A forma de trabalho muda; os deveres éticos da advocacia permanecem. Revisão ampliada: em Sociedade de advogados, advogado empregado e advocacia pública, o aluno deve identificar Formas de exercício da advocacia, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Sociedade de advogados, advogado empregado e advocacia pública",
-        "verso": "Tratar sociedade de advogados como empresa comercial comum."
+        "verso": "Tratar sociedade de advogados como empresa comercial comum. Revisão ampliada: em Sociedade de advogados, advogado empregado e advocacia pública, o aluno deve identificar Formas de exercício da advocacia, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "sociedade de advogados, advogado empregado, advocacia pública, autonomia técnica"
+        "verso": "sociedade de advogados, advogado empregado, advocacia pública, autonomia técnica Revisão ampliada: em Sociedade de advogados, advogado empregado e advocacia pública, o aluno deve identificar Formas de exercício da advocacia, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {

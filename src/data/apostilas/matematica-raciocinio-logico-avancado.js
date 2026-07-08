@@ -117,7 +117,7 @@ export const matematicaRaciocinioLogicoAvancado = [
       {
         "id": "matematica-e-raciocinio-logico-avancado-01-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "“Se estudo, passo” é falso apenas se estudo e não passo dentro da lógica formal.",
+        "verso": "“Se estudo, passo” é falso apenas se estudo e não passo dentro da lógica formal. Revisão ampliada: em Proposições e conectivos, o aluno deve identificar lógica proposicional, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -142,14 +142,16 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Negação, conjunção, disjunção, condicional e bicondicional têm regras próprias de verdade.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de lógica proposicional."
+        "comentario": "A assertiva está correta porque expressa ponto central de lógica proposicional.",
+        "correta": true
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-01-q03",
         "tipo": "certo_errado",
         "enunciado": "Negar “e” trocando só uma parte.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-01-q04",
@@ -308,21 +310,21 @@ export const matematicaRaciocinioLogicoAvancado = [
       {
         "id": "matematica-e-raciocinio-logico-avancado-02-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em transformações lógicas?",
-        "verso": "Condicional P→Q equivale a não P ou Q e à contrapositiva não Q→não P.",
+        "verso": "Condicional P→Q equivale a não P ou Q e à contrapositiva não Q→não P. Revisão ampliada: em Equivalências, negações e quantificadores, o aluno deve identificar transformações lógicas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-02-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Negar “todos” com “nenhum” quando basta um contraexemplo.",
+        "verso": "Negar “todos” com “nenhum” quando basta um contraexemplo. Revisão ampliada: em Equivalências, negações e quantificadores, o aluno deve identificar transformações lógicas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-02-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "Negação de “todos os candidatos estudam” é “algum candidato não estuda”.",
+        "verso": "Negação de “todos os candidatos estudam” é “algum candidato não estuda”. Revisão ampliada: em Equivalências, negações e quantificadores, o aluno deve identificar transformações lógicas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -347,14 +349,16 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Condicional P→Q equivale a não P ou Q e à contrapositiva não Q→não P.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de transformações lógicas."
+        "comentario": "A assertiva está correta porque expressa ponto central de transformações lógicas.",
+        "correta": true
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-02-q03",
         "tipo": "certo_errado",
         "enunciado": "Negar “todos” com “nenhum” quando basta um contraexemplo.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-02-q04",
@@ -506,28 +510,28 @@ export const matematicaRaciocinioLogicoAvancado = [
       {
         "id": "matematica-e-raciocinio-logico-avancado-03-fc01",
         "frente": "Qual é a ideia central de Argumentação e validade?",
-        "verso": "Argumento válido é aquele em que a conclusão decorre necessariamente das premissas.",
+        "verso": "Argumento válido é aquele em que a conclusão decorre necessariamente das premissas. Revisão ampliada: em Argumentação e validade, o aluno deve identificar inferência lógica, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-03-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em inferência lógica?",
-        "verso": "Validade não depende de premissas verdadeiras no mundo, mas da forma lógica.",
+        "verso": "Validade não depende de premissas verdadeiras no mundo, mas da forma lógica. Revisão ampliada: em Argumentação e validade, o aluno deve identificar inferência lógica, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-03-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Chamar argumento verdadeiro de válido sem testar forma.",
+        "verso": "Chamar argumento verdadeiro de válido sem testar forma. Revisão ampliada: em Argumentação e validade, o aluno deve identificar inferência lógica, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-03-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "Premissas verdadeiras podem gerar conclusão inválida se houver salto lógico.",
+        "verso": "Premissas verdadeiras podem gerar conclusão inválida se houver salto lógico. Revisão ampliada: em Argumentação e validade, o aluno deve identificar inferência lógica, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -552,14 +556,16 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Validade não depende de premissas verdadeiras no mundo, mas da forma lógica.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de inferência lógica."
+        "comentario": "A assertiva está correta porque expressa ponto central de inferência lógica.",
+        "correta": true
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-03-q03",
         "tipo": "certo_errado",
         "enunciado": "Chamar argumento verdadeiro de válido sem testar forma.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-03-q04",
@@ -711,14 +717,14 @@ export const matematicaRaciocinioLogicoAvancado = [
       {
         "id": "matematica-e-raciocinio-logico-avancado-04-fc01",
         "frente": "Qual é a ideia central de Conjuntos e diagramas?",
-        "verso": "União reúne elementos de pelo menos um conjunto; interseção reúne elementos comuns.",
+        "verso": "União reúne elementos de pelo menos um conjunto; interseção reúne elementos comuns. Revisão ampliada: em Conjuntos e diagramas, o aluno deve identificar operações e contagem, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-04-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em operações e contagem?",
-        "verso": "Complementar depende do universo definido no problema.",
+        "verso": "Complementar depende do universo definido no problema. Revisão ampliada: em Conjuntos e diagramas, o aluno deve identificar operações e contagem, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
@@ -732,7 +738,7 @@ export const matematicaRaciocinioLogicoAvancado = [
       {
         "id": "matematica-e-raciocinio-logico-avancado-04-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "Se 20 gostam de A, 15 de B e 5 de ambos, o total em A ou B é 30, não 35.",
+        "verso": "Se 20 gostam de A, 15 de B e 5 de ambos, o total em A ou B é 30, não 35. Revisão ampliada: em Conjuntos e diagramas, o aluno deve identificar operações e contagem, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -757,14 +763,16 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Complementar depende do universo definido no problema.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de operações e contagem."
+        "comentario": "A assertiva está correta porque expressa ponto central de operações e contagem.",
+        "correta": true
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-04-q03",
         "tipo": "certo_errado",
         "enunciado": "Somar grupos sem descontar interseções.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-04-q04",
@@ -916,28 +924,28 @@ export const matematicaRaciocinioLogicoAvancado = [
       {
         "id": "matematica-e-raciocinio-logico-avancado-05-fc01",
         "frente": "Qual é a ideia central de Razão, proporção e porcentagem?",
-        "verso": "Razão compara grandezas; proporção iguala razões.",
+        "verso": "Razão compara grandezas; proporção iguala razões. Revisão ampliada: em Razão, proporção e porcentagem, o aluno deve identificar relações numéricas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-05-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em relações numéricas?",
-        "verso": "Regra de três exige identificar se a relação é direta ou inversa.",
+        "verso": "Regra de três exige identificar se a relação é direta ou inversa. Revisão ampliada: em Razão, proporção e porcentagem, o aluno deve identificar relações numéricas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-05-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Somar aumento de 20% e desconto de 20% como se voltasse ao início.",
+        "verso": "Somar aumento de 20% e desconto de 20% como se voltasse ao início. Revisão ampliada: em Razão, proporção e porcentagem, o aluno deve identificar relações numéricas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-05-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "Aumentar 20% e depois reduzir 20% gera 96% do valor inicial.",
+        "verso": "Aumentar 20% e depois reduzir 20% gera 96% do valor inicial. Revisão ampliada: em Razão, proporção e porcentagem, o aluno deve identificar relações numéricas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -962,14 +970,16 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Regra de três exige identificar se a relação é direta ou inversa.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de relações numéricas."
+        "comentario": "A assertiva está correta porque expressa ponto central de relações numéricas.",
+        "correta": true
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-05-q03",
         "tipo": "certo_errado",
         "enunciado": "Somar aumento de 20% e desconto de 20% como se voltasse ao início.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-05-q04",
@@ -1121,14 +1131,14 @@ export const matematicaRaciocinioLogicoAvancado = [
       {
         "id": "matematica-e-raciocinio-logico-avancado-06-fc01",
         "frente": "Qual é a ideia central de Juros e equivalência financeira?",
-        "verso": "Juros simples crescem linearmente sobre capital inicial.",
+        "verso": "Juros simples crescem linearmente sobre capital inicial. Revisão ampliada: em Juros e equivalência financeira, o aluno deve identificar matemática financeira, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-06-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em matemática financeira?",
-        "verso": "Juros compostos incorporam juros ao capital a cada período.",
+        "verso": "Juros compostos incorporam juros ao capital a cada período. Revisão ampliada: em Juros e equivalência financeira, o aluno deve identificar matemática financeira, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
@@ -1142,7 +1152,7 @@ export const matematicaRaciocinioLogicoAvancado = [
       {
         "id": "matematica-e-raciocinio-logico-avancado-06-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "2% ao mês por 6 meses em juros compostos não é simplesmente 12% exatos.",
+        "verso": "2% ao mês por 6 meses em juros compostos não é simplesmente 12% exatos. Revisão ampliada: em Juros e equivalência financeira, o aluno deve identificar matemática financeira, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -1167,14 +1177,16 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Juros compostos incorporam juros ao capital a cada período.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de matemática financeira."
+        "comentario": "A assertiva está correta porque expressa ponto central de matemática financeira.",
+        "correta": true
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-06-q03",
         "tipo": "certo_errado",
         "enunciado": "Usar fórmula composta em juros simples.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-06-q04",
@@ -1326,28 +1338,28 @@ export const matematicaRaciocinioLogicoAvancado = [
       {
         "id": "matematica-e-raciocinio-logico-avancado-07-fc01",
         "frente": "Qual é a ideia central de Combinatória e probabilidade?",
-        "verso": "Princípio multiplicativo conta escolhas sucessivas independentes.",
+        "verso": "Princípio multiplicativo conta escolhas sucessivas independentes. Revisão ampliada: em Combinatória e probabilidade, o aluno deve identificar contagem sem enumerar tudo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-07-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em contagem sem enumerar tudo?",
-        "verso": "Arranjo considera ordem; combinação ignora ordem.",
+        "verso": "Arranjo considera ordem; combinação ignora ordem. Revisão ampliada: em Combinatória e probabilidade, o aluno deve identificar contagem sem enumerar tudo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-07-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Usar combinação quando a ordem altera o resultado.",
+        "verso": "Usar combinação quando a ordem altera o resultado. Revisão ampliada: em Combinatória e probabilidade, o aluno deve identificar contagem sem enumerar tudo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-07-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "Senha 123 difere de 321; comissão com Ana e Bia não difere de Bia e Ana.",
+        "verso": "Senha 123 difere de 321; comissão com Ana e Bia não difere de Bia e Ana. Revisão ampliada: em Combinatória e probabilidade, o aluno deve identificar contagem sem enumerar tudo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -1372,14 +1384,16 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Arranjo considera ordem; combinação ignora ordem.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de contagem sem enumerar tudo."
+        "comentario": "A assertiva está correta porque expressa ponto central de contagem sem enumerar tudo.",
+        "correta": true
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-07-q03",
         "tipo": "certo_errado",
         "enunciado": "Usar combinação quando a ordem altera o resultado.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-07-q04",
@@ -1538,7 +1552,7 @@ export const matematicaRaciocinioLogicoAvancado = [
       {
         "id": "matematica-e-raciocinio-logico-avancado-08-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em regularidades?",
-        "verso": "Sequências podem alternar operações, posições pares/ímpares ou padrões por blocos.",
+        "verso": "Sequências podem alternar operações, posições pares/ímpares ou padrões por blocos. Revisão ampliada: em Sequências e padrões, o aluno deve identificar regularidades, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
@@ -1552,7 +1566,7 @@ export const matematicaRaciocinioLogicoAvancado = [
       {
         "id": "matematica-e-raciocinio-logico-avancado-08-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "2, 5, 10, 17 pode seguir acréscimos ímpares 3, 5, 7.",
+        "verso": "2, 5, 10, 17 pode seguir acréscimos ímpares 3, 5, 7. Revisão ampliada: em Sequências e padrões, o aluno deve identificar regularidades, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -1577,14 +1591,16 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Sequências podem alternar operações, posições pares/ímpares ou padrões por blocos.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de regularidades."
+        "comentario": "A assertiva está correta porque expressa ponto central de regularidades.",
+        "correta": true
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-08-q03",
         "tipo": "certo_errado",
         "enunciado": "Forçar PA onde há alternância.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-08-q04",
@@ -1736,14 +1752,14 @@ export const matematicaRaciocinioLogicoAvancado = [
       {
         "id": "matematica-e-raciocinio-logico-avancado-09-fc01",
         "frente": "Qual é a ideia central de Álgebra e problemas?",
-        "verso": "Traduzir texto em variável é metade da resolução.",
+        "verso": "Traduzir texto em variável é metade da resolução. Revisão ampliada: em Álgebra e problemas, o aluno deve identificar equações aplicadas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-09-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em equações aplicadas?",
-        "verso": "Equação representa igualdade; inequação representa intervalo de possibilidades.",
+        "verso": "Equação representa igualdade; inequação representa intervalo de possibilidades. Revisão ampliada: em Álgebra e problemas, o aluno deve identificar equações aplicadas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
@@ -1757,7 +1773,7 @@ export const matematicaRaciocinioLogicoAvancado = [
       {
         "id": "matematica-e-raciocinio-logico-avancado-09-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "Se a idade deve ser inteira e positiva, solução algébrica negativa não serve.",
+        "verso": "Se a idade deve ser inteira e positiva, solução algébrica negativa não serve. Revisão ampliada: em Álgebra e problemas, o aluno deve identificar equações aplicadas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -1782,14 +1798,16 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Equação representa igualdade; inequação representa intervalo de possibilidades.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de equações aplicadas."
+        "comentario": "A assertiva está correta porque expressa ponto central de equações aplicadas.",
+        "correta": true
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-09-q03",
         "tipo": "certo_errado",
         "enunciado": "Resolver conta certa para pergunta errada.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-09-q04",
@@ -1941,21 +1959,21 @@ export const matematicaRaciocinioLogicoAvancado = [
       {
         "id": "matematica-e-raciocinio-logico-avancado-10-fc01",
         "frente": "Qual é a ideia central de Estatística e gráficos?",
-        "verso": "Média é sensível a extremos; mediana indica posição central.",
+        "verso": "Média é sensível a extremos; mediana indica posição central. Revisão ampliada: em Estatística e gráficos, o aluno deve identificar leitura de dados, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-10-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em leitura de dados?",
-        "verso": "Moda é valor mais frequente e pode não existir ou ser múltipla.",
+        "verso": "Moda é valor mais frequente e pode não existir ou ser múltipla. Revisão ampliada: em Estatística e gráficos, o aluno deve identificar leitura de dados, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-10-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Comparar barras sem observar escala quebrada.",
+        "verso": "Comparar barras sem observar escala quebrada. Revisão ampliada: em Estatística e gráficos, o aluno deve identificar leitura de dados, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1987,14 +2005,16 @@ export const matematicaRaciocinioLogicoAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Moda é valor mais frequente e pode não existir ou ser múltipla.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de leitura de dados."
+        "comentario": "A assertiva está correta porque expressa ponto central de leitura de dados.",
+        "correta": true
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-10-q03",
         "tipo": "certo_errado",
         "enunciado": "Comparar barras sem observar escala quebrada.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "matematica-e-raciocinio-logico-avancado-10-q04",

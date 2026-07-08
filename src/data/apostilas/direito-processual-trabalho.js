@@ -149,11 +149,11 @@ export const direitoProcessualTrabalho = [
       },
       {
         "frente": "Pegadinha comum em Princípios processuais trabalhistas",
-        "verso": "Aplicar automaticamente o CPC sem verificar compatibilidade."
+        "verso": "Aplicar automaticamente o CPC sem verificar compatibilidade. Revisão ampliada: em Princípios e lógica do Processo do Trabalho, o aluno deve identificar Princípios processuais trabalhistas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "celeridade, oralidade, conciliação, subsidiariedade"
+        "verso": "celeridade, oralidade, conciliação, subsidiariedade Revisão ampliada: em Princípios e lógica do Processo do Trabalho, o aluno deve identificar Princípios processuais trabalhistas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -708,7 +708,7 @@ export const direitoProcessualTrabalho = [
       },
       {
         "frente": "Pegadinha comum em Competência material e territorial",
-        "verso": "Confundir competência material com territorial."
+        "verso": "Confundir competência material com territorial. Revisão ampliada: em Competência da Justiça do Trabalho, o aluno deve identificar Competência material e territorial, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
@@ -1263,15 +1263,15 @@ export const direitoProcessualTrabalho = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Reclamação trabalhista e petição inicial?",
-        "verso": "A inicial pode ser simples, mas precisa dizer quem pede, por quê e o que quer."
+        "verso": "A inicial pode ser simples, mas precisa dizer quem pede, por quê e o que quer. Revisão ampliada: em Reclamação trabalhista e petição inicial, o aluno deve identificar Início do processo trabalhista, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Início do processo trabalhista",
-        "verso": "Confundir simplicidade com ausência de pedido."
+        "verso": "Confundir simplicidade com ausência de pedido. Revisão ampliada: em Reclamação trabalhista e petição inicial, o aluno deve identificar Início do processo trabalhista, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "reclamação trabalhista, petição inicial, pedido certo, valor do pedido"
+        "verso": "reclamação trabalhista, petição inicial, pedido certo, valor do pedido Revisão ampliada: em Reclamação trabalhista e petição inicial, o aluno deve identificar Início do processo trabalhista, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -1826,11 +1826,11 @@ export const direitoProcessualTrabalho = [
       },
       {
         "frente": "Pegadinha comum em Sujeitos do processo trabalhista",
-        "verso": "Tratar jus postulandi como absoluto."
+        "verso": "Tratar jus postulandi como absoluto. Revisão ampliada: em Partes, representação, jus postulandi e honorários, o aluno deve identificar Sujeitos do processo trabalhista, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "reclamante, reclamado, jus postulandi, honorários"
+        "verso": "reclamante, reclamado, jus postulandi, honorários Revisão ampliada: em Partes, representação, jus postulandi e honorários, o aluno deve identificar Sujeitos do processo trabalhista, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -2385,11 +2385,11 @@ export const direitoProcessualTrabalho = [
       },
       {
         "frente": "Pegadinha comum em Audiência e efeitos da ausência",
-        "verso": "Confundir ausência do reclamante com ausência do reclamado."
+        "verso": "Confundir ausência do reclamante com ausência do reclamado. Revisão ampliada: em Audiência trabalhista, conciliação e revelia, o aluno deve identificar Audiência e efeitos da ausência, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "audiência, conciliação, revelia, confissão ficta"
+        "verso": "audiência, conciliação, revelia, confissão ficta Revisão ampliada: em Audiência trabalhista, conciliação e revelia, o aluno deve identificar Audiência e efeitos da ausência, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -2944,11 +2944,11 @@ export const direitoProcessualTrabalho = [
       },
       {
         "frente": "Pegadinha comum em Resposta do reclamado",
-        "verso": "Confundir reconvenção com contestação simples."
+        "verso": "Confundir reconvenção com contestação simples. Revisão ampliada: em Defesa do reclamado: contestação, exceções e reconvenção, o aluno deve identificar Resposta do reclamado, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "contestação, preliminar, mérito, reconvenção"
+        "verso": "contestação, preliminar, mérito, reconvenção Revisão ampliada: em Defesa do reclamado: contestação, exceções e reconvenção, o aluno deve identificar Resposta do reclamado, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -3499,15 +3499,15 @@ export const direitoProcessualTrabalho = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Provas e ônus da prova no Processo do Trabalho?",
-        "verso": "Para saber quem prova, pergunte qual fato está em jogo e quem se beneficia dele."
+        "verso": "Para saber quem prova, pergunte qual fato está em jogo e quem se beneficia dele. Revisão ampliada: em Provas e ônus da prova no Processo do Trabalho, o aluno deve identificar Provas, documentos, testemunhas e ônus probatório, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Provas, documentos, testemunhas e ônus probatório",
-        "verso": "Achar que toda prova cabe sempre ao empregado."
+        "verso": "Achar que toda prova cabe sempre ao empregado. Revisão ampliada: em Provas e ônus da prova no Processo do Trabalho, o aluno deve identificar Provas, documentos, testemunhas e ônus probatório, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "ônus da prova, fato constitutivo, fato extintivo, prova testemunhal"
+        "verso": "ônus da prova, fato constitutivo, fato extintivo, prova testemunhal Revisão ampliada: em Provas e ônus da prova no Processo do Trabalho, o aluno deve identificar Provas, documentos, testemunhas e ônus probatório, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -4062,11 +4062,11 @@ export const direitoProcessualTrabalho = [
       },
       {
         "frente": "Pegadinha comum em Decisão, cálculo e estabilidade",
-        "verso": "Confundir liquidação com novo julgamento."
+        "verso": "Confundir liquidação com novo julgamento. Revisão ampliada: em Sentença, liquidação e coisa julgada trabalhista, o aluno deve identificar Decisão, cálculo e estabilidade, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "sentença, liquidação, coisa julgada, cálculos"
+        "verso": "sentença, liquidação, coisa julgada, cálculos Revisão ampliada: em Sentença, liquidação e coisa julgada trabalhista, o aluno deve identificar Decisão, cálculo e estabilidade, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -4617,15 +4617,15 @@ export const direitoProcessualTrabalho = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Recursos trabalhistas: RO, RR, agravos e embargos?",
-        "verso": "Recurso não é chute: descubra a decisão, a fase e a finalidade."
+        "verso": "Recurso não é chute: descubra a decisão, a fase e a finalidade. Revisão ampliada: em Recursos trabalhistas: RO, RR, agravos e embargos, o aluno deve identificar Sistema recursal trabalhista, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Sistema recursal trabalhista",
-        "verso": "Usar recurso de revista como recurso comum amplo."
+        "verso": "Usar recurso de revista como recurso comum amplo. Revisão ampliada: em Recursos trabalhistas: RO, RR, agravos e embargos, o aluno deve identificar Sistema recursal trabalhista, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "recurso ordinário, recurso de revista, agravo de petição, embargos de declaração"
+        "verso": "recurso ordinário, recurso de revista, agravo de petição, embargos de declaração Revisão ampliada: em Recursos trabalhistas: RO, RR, agravos e embargos, o aluno deve identificar Sistema recursal trabalhista, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -5182,11 +5182,11 @@ export const direitoProcessualTrabalho = [
       },
       {
         "frente": "Pegadinha comum em Execução, penhora, embargos, mandado de segurança e ação rescisória",
-        "verso": "Rediscutir mérito já decidido na execução."
+        "verso": "Rediscutir mérito já decidido na execução. Revisão ampliada: em Execução trabalhista e medidas especiais, o aluno deve identificar Execução, penhora, embargos, mandado de segurança e ação rescisória, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "execução, penhora, embargos à execução, mandado de segurança, ação rescisória"
+        "verso": "execução, penhora, embargos à execução, mandado de segurança, ação rescisória Revisão ampliada: em Execução trabalhista e medidas especiais, o aluno deve identificar Execução, penhora, embargos, mandado de segurança e ação rescisória, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {

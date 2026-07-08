@@ -603,7 +603,7 @@ export const redacao = [
       },
       {
         "frente": "Pegadinha comum em Estrutura dissertativa-argumentativa: introdução, desenvolvimento, conclusão",
-        "verso": "Escrever introdução tão genérica que não compromete o texto com uma tese específica.",
+        "verso": "Escrever introdução tão genérica que não compromete o texto com uma tese específica. Revisão ampliada: em Estrutura dissertativa-argumentativa: introdução, desenvolvimento, conclusão, o aluno deve identificar Estrutura textual, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -6156,7 +6156,7 @@ export const redacao = [
       },
       {
         "frente": "Pegadinha comum em Correspondência oficial: ofício, memorando e ata",
-        "verso": "Confundir ofício (externo) com memorando (interno) na escolha do gênero adequado.",
+        "verso": "Confundir ofício (externo) com memorando (interno) na escolha do gênero adequado. Revisão ampliada: em Correspondência oficial: ofício, memorando e ata, o aluno deve identificar Redação oficial, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],

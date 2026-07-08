@@ -137,7 +137,7 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Achar que todo conflito na internet é automaticamente crime."
+        "verso": "Achar que todo conflito na internet é automaticamente crime. Revisão ampliada: em Direito Digital: conceito, fontes e lógica de prova, o aluno deve identificar Noções iniciais de Direito Digital, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -226,7 +226,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "fundamentos-direito-digital-q03",
@@ -252,7 +253,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "fundamentos-direito-digital-q04",
@@ -578,7 +580,7 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Confundir provedor de conexão com provedor de aplicação."
+        "verso": "Confundir provedor de conexão com provedor de aplicação. Revisão ampliada: em Marco Civil da Internet: princípios, direitos dos usuários e registros, o aluno deve identificar Marco Civil da Internet, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -667,7 +669,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "marco-civil-internet-q03",
@@ -693,7 +696,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "marco-civil-internet-q04",
@@ -1020,7 +1024,7 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Achar que só CPF é dado pessoal."
+        "verso": "Achar que só CPF é dado pessoal. Revisão ampliada: em LGPD: dados pessoais, dados sensíveis, agentes e princípios, o aluno deve identificar Conceitos fundamentais da LGPD, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -1109,7 +1113,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "lgpd-conceitos-principios-q03",
@@ -1135,7 +1140,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "lgpd-conceitos-principios-q04",
@@ -1461,7 +1467,7 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Responder “precisa de consentimento” em todo caso."
+        "verso": "Responder “precisa de consentimento” em todo caso. Revisão ampliada: em Bases legais, consentimento e direitos do titular, o aluno deve identificar Bases legais e direitos na LGPD, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -1550,7 +1556,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "bases-legais-direitos-titular-q03",
@@ -1576,7 +1583,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "bases-legais-direitos-titular-q04",
@@ -1906,7 +1914,7 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Analisar prevenção, medidas técnicas, risco, dano, comunicação e prova do incidente"
+        "verso": "Analisar prevenção, medidas técnicas, risco, dano, comunicação e prova do incidente Revisão ampliada: em Segurança da informação, incidentes e responsabilidade na LGPD, o aluno deve identificar Segurança, vazamentos e responsabilização, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -1991,7 +1999,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "seguranca-incidentes-responsabilidade-lgpd-q03",
@@ -2017,7 +2026,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "seguranca-incidentes-responsabilidade-lgpd-q04",
@@ -2343,11 +2353,11 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Achar que plataforma sempre responde por qualquer postagem de usuário."
+        "verso": "Achar que plataforma sempre responde por qualquer postagem de usuário. Revisão ampliada: em Responsabilidade de plataformas, remoção de conteúdo e liberdade de expressão, o aluno deve identificar Responsabilidade civil na internet, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Separar conteúdo de terceiro, autoria, ordem judicial, notificação e exceções legais"
+        "verso": "Separar conteúdo de terceiro, autoria, ordem judicial, notificação e exceções legais Revisão ampliada: em Responsabilidade de plataformas, remoção de conteúdo e liberdade de expressão, o aluno deve identificar Responsabilidade civil na internet, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -2432,7 +2442,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "responsabilidade-plataformas-conteudo-q03",
@@ -2458,7 +2469,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "responsabilidade-plataformas-conteudo-q04",
@@ -2784,7 +2796,7 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Chamar todo golpe digital de invasão de dispositivo."
+        "verso": "Chamar todo golpe digital de invasão de dispositivo. Revisão ampliada: em Crimes cibernéticos: invasão de dispositivo, fraude eletrônica e golpes digitais, o aluno deve identificar Crimes digitais patrimoniais e invasão de dispositivo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -2873,7 +2885,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "crimes-ciberneticos-invasao-fraudes-q03",
@@ -2899,7 +2912,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "crimes-ciberneticos-invasao-fraudes-q04",
@@ -3225,7 +3239,7 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Achar que perfil falso impede investigação."
+        "verso": "Achar que perfil falso impede investigação. Revisão ampliada: em Crimes contra honra, ameaça, stalking e intimidade no ambiente digital, o aluno deve identificar Violência digital, honra e intimidade, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -3314,7 +3328,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "crimes-honra-ameaca-stalking-intimidade-online-q03",
@@ -3340,7 +3355,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "crimes-honra-ameaca-stalking-intimidade-online-q04",
@@ -3666,7 +3682,7 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Achar que todo print é prova absoluta."
+        "verso": "Achar que todo print é prova absoluta. Revisão ampliada: em Prova digital, cadeia de custódia, prints, metadados e perícia, o aluno deve identificar Prova digital no processo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -3755,7 +3771,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "prova-digital-cadeia-custodia-pericia-q03",
@@ -3781,7 +3798,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "prova-digital-cadeia-custodia-pericia-q04",
@@ -4108,7 +4126,7 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Achar que algoritmo é neutro por natureza ou que segurança é só ferramenta técnica."
+        "verso": "Achar que algoritmo é neutro por natureza ou que segurança é só ferramenta técnica. Revisão ampliada: em IA, algoritmos, governança e segurança cibernética, o aluno deve identificar IA, algoritmos, decisões automatizadas, governança e cibersegurança, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -4197,7 +4215,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": true
       },
       {
         "id": "ia-algoritmos-governanca-ciberseguranca-q03",
@@ -4223,7 +4242,8 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
-        }
+        },
+        "correta": false
       },
       {
         "id": "ia-algoritmos-governanca-ciberseguranca-q04",

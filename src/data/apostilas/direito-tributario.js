@@ -148,11 +148,11 @@ export const direitoTributario = [
       },
       {
         "frente": "Pegadinha comum em Sistema Tributário Nacional e conceito de tributo",
-        "verso": "Chamar multa de tributo só porque é cobrada pelo Estado."
+        "verso": "Chamar multa de tributo só porque é cobrada pelo Estado. Revisão ampliada: em Sistema Tributário Nacional e conceito de tributo, o aluno deve identificar Sistema Tributário Nacional e conceito de tributo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "tributo, CTN art. 3º, prestação compulsória"
+        "verso": "tributo, CTN art. 3º, prestação compulsória Revisão ampliada: em Sistema Tributário Nacional e conceito de tributo, o aluno deve identificar Sistema Tributário Nacional e conceito de tributo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -683,11 +683,11 @@ export const direitoTributario = [
       },
       {
         "frente": "Pegadinha comum em Espécies tributárias",
-        "verso": "Dizer que imposto exige serviço específico."
+        "verso": "Dizer que imposto exige serviço específico. Revisão ampliada: em Espécies tributárias: impostos, taxas, contribuição de melhoria, empréstimos compulsórios e contribuições especiais, o aluno deve identificar Espécies tributárias, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "impostos, taxas, contribuições"
+        "verso": "impostos, taxas, contribuições Revisão ampliada: em Espécies tributárias: impostos, taxas, contribuição de melhoria, empréstimos compulsórios e contribuições especiais, o aluno deve identificar Espécies tributárias, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -1213,15 +1213,15 @@ export const direitoTributario = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Competência tributária e capacidade tributária ativa?",
-        "verso": "Criar tributo é competência; cobrar e fiscalizar é capacidade ativa."
+        "verso": "Criar tributo é competência; cobrar e fiscalizar é capacidade ativa. Revisão ampliada: em Competência tributária e capacidade tributária ativa, o aluno deve identificar Competência tributária, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Competência tributária",
-        "verso": "Dizer que Município pode criar imposto federal por convênio."
+        "verso": "Dizer que Município pode criar imposto federal por convênio. Revisão ampliada: em Competência tributária e capacidade tributária ativa, o aluno deve identificar Competência tributária, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "competência tributária, capacidade ativa, indelegabilidade"
+        "verso": "competência tributária, capacidade ativa, indelegabilidade Revisão ampliada: em Competência tributária e capacidade tributária ativa, o aluno deve identificar Competência tributária, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -1751,11 +1751,11 @@ export const direitoTributario = [
       },
       {
         "frente": "Pegadinha comum em Limitações constitucionais ao poder de tributar",
-        "verso": "Achar que anterioridade e noventena são a mesma coisa."
+        "verso": "Achar que anterioridade e noventena são a mesma coisa. Revisão ampliada: em Princípios constitucionais tributários, o aluno deve identificar Limitações constitucionais ao poder de tributar, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "legalidade, anterioridade, noventena"
+        "verso": "legalidade, anterioridade, noventena Revisão ampliada: em Princípios constitucionais tributários, o aluno deve identificar Limitações constitucionais ao poder de tributar, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -2281,15 +2281,15 @@ export const direitoTributario = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Imunidades tributárias e limitações ao poder de tributar?",
-        "verso": "Imunidade é bloqueio constitucional; isenção é dispensa legal."
+        "verso": "Imunidade é bloqueio constitucional; isenção é dispensa legal. Revisão ampliada: em Imunidades tributárias e limitações ao poder de tributar, o aluno deve identificar Imunidades tributárias, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Imunidades tributárias",
-        "verso": "Tratar imunidade como benefício fiscal comum."
+        "verso": "Tratar imunidade como benefício fiscal comum. Revisão ampliada: em Imunidades tributárias e limitações ao poder de tributar, o aluno deve identificar Imunidades tributárias, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "imunidade, isenção, limitação constitucional"
+        "verso": "imunidade, isenção, limitação constitucional Revisão ampliada: em Imunidades tributárias e limitações ao poder de tributar, o aluno deve identificar Imunidades tributárias, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -2815,7 +2815,7 @@ export const direitoTributario = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Obrigação tributária: fato gerador, sujeitos e responsabilidade?",
-        "verso": "Fato gerador acende a obrigação; sujeitos dizem quem cobra e quem deve cumprir."
+        "verso": "Fato gerador acende a obrigação; sujeitos dizem quem cobra e quem deve cumprir. Revisão ampliada: em Obrigação tributária: fato gerador, sujeitos e responsabilidade, o aluno deve identificar Obrigação tributária, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Obrigação tributária",
@@ -2823,7 +2823,7 @@ export const direitoTributario = [
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "fato gerador, sujeito passivo, responsabilidade tributária"
+        "verso": "fato gerador, sujeito passivo, responsabilidade tributária Revisão ampliada: em Obrigação tributária: fato gerador, sujeitos e responsabilidade, o aluno deve identificar Obrigação tributária, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -3349,15 +3349,15 @@ export const direitoTributario = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Crédito tributário e lançamento?",
-        "verso": "Obrigação nasce com o fato gerador; crédito ganha forma pelo lançamento."
+        "verso": "Obrigação nasce com o fato gerador; crédito ganha forma pelo lançamento. Revisão ampliada: em Crédito tributário e lançamento, o aluno deve identificar Crédito tributário e lançamento, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Crédito tributário e lançamento",
-        "verso": "Dizer que lançamento cria a obrigação tributária."
+        "verso": "Dizer que lançamento cria a obrigação tributária. Revisão ampliada: em Crédito tributário e lançamento, o aluno deve identificar Crédito tributário e lançamento, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "crédito tributário, lançamento, homologação"
+        "verso": "crédito tributário, lançamento, homologação Revisão ampliada: em Crédito tributário e lançamento, o aluno deve identificar Crédito tributário e lançamento, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -3887,11 +3887,11 @@ export const direitoTributario = [
       },
       {
         "frente": "Pegadinha comum em Crédito tributário: suspensão, extinção e exclusão",
-        "verso": "Dizer que parcelamento extingue o crédito."
+        "verso": "Dizer que parcelamento extingue o crédito. Revisão ampliada: em Suspensão, extinção e exclusão do crédito tributário, o aluno deve identificar Crédito tributário: suspensão, extinção e exclusão, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "suspensão, extinção, exclusão"
+        "verso": "suspensão, extinção, exclusão Revisão ampliada: em Suspensão, extinção e exclusão do crédito tributário, o aluno deve identificar Crédito tributário: suspensão, extinção e exclusão, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -4421,11 +4421,11 @@ export const direitoTributario = [
       },
       {
         "frente": "Pegadinha comum em Administração tributária",
-        "verso": "Achar que qualquer débito impede certidão com efeito de negativa."
+        "verso": "Achar que qualquer débito impede certidão com efeito de negativa. Revisão ampliada: em Administração tributária, fiscalização, dívida ativa e certidões, o aluno deve identificar Administração tributária, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "fiscalização, dívida ativa, certidão negativa"
+        "verso": "fiscalização, dívida ativa, certidão negativa Revisão ampliada: em Administração tributária, fiscalização, dívida ativa e certidões, o aluno deve identificar Administração tributária, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -4955,11 +4955,11 @@ export const direitoTributario = [
       },
       {
         "frente": "Pegadinha comum em Reforma tributária do consumo",
-        "verso": "Tratar a reforma como totalmente implementada de uma vez."
+        "verso": "Tratar a reforma como totalmente implementada de uma vez. Revisão ampliada: em Reforma tributária do consumo: IBS, CBS e Imposto Seletivo, o aluno deve identificar Reforma tributária do consumo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "IBS, CBS, Imposto Seletivo"
+        "verso": "IBS, CBS, Imposto Seletivo Revisão ampliada: em Reforma tributária do consumo: IBS, CBS e Imposto Seletivo, o aluno deve identificar Reforma tributária do consumo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {

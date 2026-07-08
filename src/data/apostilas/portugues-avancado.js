@@ -110,7 +110,7 @@ export const portuguesAvancado = [
       {
         "id": "portugues-avancado-01-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Confundir informação verdadeira com resposta ao comando.",
+        "verso": "Confundir informação verdadeira com resposta ao comando. Revisão ampliada: em Interpretação de textos: tese, inferência e pressupostos, o aluno deve identificar leitura estratégica, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -142,14 +142,16 @@ export const portuguesAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Inferência legítima depende de pistas do texto; extrapolação acrescenta informação sem base.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de leitura estratégica."
+        "comentario": "A assertiva está correta porque expressa ponto central de leitura estratégica.",
+        "correta": true
       },
       {
         "id": "portugues-avancado-01-q03",
         "tipo": "certo_errado",
         "enunciado": "Confundir informação verdadeira com resposta ao comando.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "portugues-avancado-01-q04",
@@ -308,14 +310,14 @@ export const portuguesAvancado = [
       {
         "id": "portugues-avancado-02-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em formas de organização do texto?",
-        "verso": "Dissertação defende ou demonstra uma ideia por argumentos e relações lógicas.",
+        "verso": "Dissertação defende ou demonstra uma ideia por argumentos e relações lógicas. Revisão ampliada: em Tipologia e gêneros textuais, o aluno deve identificar formas de organização do texto, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "portugues-avancado-02-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Dizer que todo texto com opinião é dissertação argumentativa completa.",
+        "verso": "Dizer que todo texto com opinião é dissertação argumentativa completa. Revisão ampliada: em Tipologia e gêneros textuais, o aluno deve identificar formas de organização do texto, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -347,14 +349,16 @@ export const portuguesAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Dissertação defende ou demonstra uma ideia por argumentos e relações lógicas.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de formas de organização do texto."
+        "comentario": "A assertiva está correta porque expressa ponto central de formas de organização do texto.",
+        "correta": true
       },
       {
         "id": "portugues-avancado-02-q03",
         "tipo": "certo_errado",
         "enunciado": "Dizer que todo texto com opinião é dissertação argumentativa completa.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "portugues-avancado-02-q04",
@@ -506,21 +510,21 @@ export const portuguesAvancado = [
       {
         "id": "portugues-avancado-03-fc01",
         "frente": "Qual é a ideia central de Coesão e coerência?",
-        "verso": "Coesão usa pronomes, elipses, sinônimos e conectivos para ligar partes do texto.",
+        "verso": "Coesão usa pronomes, elipses, sinônimos e conectivos para ligar partes do texto. Revisão ampliada: em Coesão e coerência, o aluno deve identificar conexão entre ideias, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
       {
         "id": "portugues-avancado-03-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em conexão entre ideias?",
-        "verso": "Coerência depende de sentido global sem contradições internas.",
+        "verso": "Coerência depende de sentido global sem contradições internas. Revisão ampliada: em Coesão e coerência, o aluno deve identificar conexão entre ideias, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "portugues-avancado-03-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Trocar conectivo por outro gramaticalmente possível, mas semanticamente errado.",
+        "verso": "Trocar conectivo por outro gramaticalmente possível, mas semanticamente errado. Revisão ampliada: em Coesão e coerência, o aluno deve identificar conexão entre ideias, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -552,14 +556,16 @@ export const portuguesAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Coerência depende de sentido global sem contradições internas.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de conexão entre ideias."
+        "comentario": "A assertiva está correta porque expressa ponto central de conexão entre ideias.",
+        "correta": true
       },
       {
         "id": "portugues-avancado-03-q03",
         "tipo": "certo_errado",
         "enunciado": "Trocar conectivo por outro gramaticalmente possível, mas semanticamente errado.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "portugues-avancado-03-q04",
@@ -718,21 +724,21 @@ export const portuguesAvancado = [
       {
         "id": "portugues-avancado-04-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em classes de palavras em uso?",
-        "verso": "Pronome pode retomar termo anterior ou antecipar informação posterior.",
+        "verso": "Pronome pode retomar termo anterior ou antecipar informação posterior. Revisão ampliada: em Morfologia aplicada, o aluno deve identificar classes de palavras em uso, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "portugues-avancado-04-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Classificar palavra sem observar função na frase.",
+        "verso": "Classificar palavra sem observar função na frase. Revisão ampliada: em Morfologia aplicada, o aluno deve identificar classes de palavras em uso, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
       {
         "id": "portugues-avancado-04-fc04",
         "frente": "Como aplicar isso em caso concreto?",
-        "verso": "“Como” pode indicar causa, comparação ou conformidade, conforme a construção.",
+        "verso": "“Como” pode indicar causa, comparação ou conformidade, conforme a construção. Revisão ampliada: em Morfologia aplicada, o aluno deve identificar classes de palavras em uso, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "aplicacao",
         "nivel": "avancado"
       }
@@ -757,14 +763,16 @@ export const portuguesAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Pronome pode retomar termo anterior ou antecipar informação posterior.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de classes de palavras em uso."
+        "comentario": "A assertiva está correta porque expressa ponto central de classes de palavras em uso.",
+        "correta": true
       },
       {
         "id": "portugues-avancado-04-q03",
         "tipo": "certo_errado",
         "enunciado": "Classificar palavra sem observar função na frase.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "portugues-avancado-04-q04",
@@ -923,14 +931,14 @@ export const portuguesAvancado = [
       {
         "id": "portugues-avancado-05-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em funções e relações oracionais?",
-        "verso": "Oração subordinada exerce função sintática em relação a outra oração.",
+        "verso": "Oração subordinada exerce função sintática em relação a outra oração. Revisão ampliada: em Sintaxe do período simples e composto, o aluno deve identificar funções e relações oracionais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "portugues-avancado-05-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Confundir sujeito com termo próximo ao verbo.",
+        "verso": "Confundir sujeito com termo próximo ao verbo. Revisão ampliada: em Sintaxe do período simples e composto, o aluno deve identificar funções e relações oracionais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -962,14 +970,16 @@ export const portuguesAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Oração subordinada exerce função sintática em relação a outra oração.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de funções e relações oracionais."
+        "comentario": "A assertiva está correta porque expressa ponto central de funções e relações oracionais.",
+        "correta": true
       },
       {
         "id": "portugues-avancado-05-q03",
         "tipo": "certo_errado",
         "enunciado": "Confundir sujeito com termo próximo ao verbo.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "portugues-avancado-05-q04",
@@ -1121,7 +1131,7 @@ export const portuguesAvancado = [
       {
         "id": "portugues-avancado-06-fc01",
         "frente": "Qual é a ideia central de Concordância verbal e nominal?",
-        "verso": "Verbo concorda com núcleo do sujeito, não com termo intercalado.",
+        "verso": "Verbo concorda com núcleo do sujeito, não com termo intercalado. Revisão ampliada: em Concordância verbal e nominal, o aluno deve identificar harmonia flexional, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
@@ -1135,7 +1145,7 @@ export const portuguesAvancado = [
       {
         "id": "portugues-avancado-06-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Concordar com palavra mais próxima por atração indevida.",
+        "verso": "Concordar com palavra mais próxima por atração indevida. Revisão ampliada: em Concordância verbal e nominal, o aluno deve identificar harmonia flexional, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1167,14 +1177,16 @@ export const portuguesAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Sujeito composto antes do verbo normalmente leva plural; após o verbo, há casos específicos de concordância.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de harmonia flexional."
+        "comentario": "A assertiva está correta porque expressa ponto central de harmonia flexional.",
+        "correta": true
       },
       {
         "id": "portugues-avancado-06-q03",
         "tipo": "certo_errado",
         "enunciado": "Concordar com palavra mais próxima por atração indevida.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "portugues-avancado-06-q04",
@@ -1326,14 +1338,14 @@ export const portuguesAvancado = [
       {
         "id": "portugues-avancado-07-fc01",
         "frente": "Qual é a ideia central de Regência, crase e colocação pronominal?",
-        "verso": "Regência define a preposição exigida por verbos e nomes.",
+        "verso": "Regência define a preposição exigida por verbos e nomes. Revisão ampliada: em Regência, crase e colocação pronominal, o aluno deve identificar relações entre termos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
       {
         "id": "portugues-avancado-07-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em relações entre termos?",
-        "verso": "Crase resulta da fusão de preposição “a” com artigo ou pronome compatível.",
+        "verso": "Crase resulta da fusão de preposição “a” com artigo ou pronome compatível. Revisão ampliada: em Regência, crase e colocação pronominal, o aluno deve identificar relações entre termos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
@@ -1372,14 +1384,16 @@ export const portuguesAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Crase resulta da fusão de preposição “a” com artigo ou pronome compatível.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de relações entre termos."
+        "comentario": "A assertiva está correta porque expressa ponto central de relações entre termos.",
+        "correta": true
       },
       {
         "id": "portugues-avancado-07-q03",
         "tipo": "certo_errado",
         "enunciado": "Colocar crase por intuição sonora.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "portugues-avancado-07-q04",
@@ -1531,7 +1545,7 @@ export const portuguesAvancado = [
       {
         "id": "portugues-avancado-08-fc01",
         "frente": "Qual é a ideia central de Pontuação e reescrita?",
-        "verso": "Vírgula não separa sujeito de predicado em ordem direta.",
+        "verso": "Vírgula não separa sujeito de predicado em ordem direta. Revisão ampliada: em Pontuação e reescrita, o aluno deve identificar sinais e preservação de sentido, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
@@ -1577,14 +1591,16 @@ export const portuguesAvancado = [
         "tipo": "certo_errado",
         "enunciado": "A vírgula marca deslocamentos, intercalações, enumerações e certas orações subordinadas.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de sinais e preservação de sentido."
+        "comentario": "A assertiva está correta porque expressa ponto central de sinais e preservação de sentido.",
+        "correta": true
       },
       {
         "id": "portugues-avancado-08-q03",
         "tipo": "certo_errado",
         "enunciado": "Inserir vírgula entre sujeito longo e verbo.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "portugues-avancado-08-q04",
@@ -1736,21 +1752,21 @@ export const portuguesAvancado = [
       {
         "id": "portugues-avancado-09-fc01",
         "frente": "Qual é a ideia central de Semântica, figuras e variação linguística?",
-        "verso": "Sinonímia perfeita é rara; a banca cobra adequação ao contexto.",
+        "verso": "Sinonímia perfeita é rara; a banca cobra adequação ao contexto. Revisão ampliada: em Semântica, figuras e variação linguística, o aluno deve identificar sentidos e usos sociais da língua, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
       {
         "id": "portugues-avancado-09-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em sentidos e usos sociais da língua?",
-        "verso": "Antônimos, hipônimos e hiperônimos ajudam a interpretar relações de sentido.",
+        "verso": "Antônimos, hipônimos e hiperônimos ajudam a interpretar relações de sentido. Revisão ampliada: em Semântica, figuras e variação linguística, o aluno deve identificar sentidos e usos sociais da língua, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "portugues-avancado-09-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Tratar toda linguagem informal como defeito universal.",
+        "verso": "Tratar toda linguagem informal como defeito universal. Revisão ampliada: em Semântica, figuras e variação linguística, o aluno deve identificar sentidos e usos sociais da língua, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1782,14 +1798,16 @@ export const portuguesAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Antônimos, hipônimos e hiperônimos ajudam a interpretar relações de sentido.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de sentidos e usos sociais da língua."
+        "comentario": "A assertiva está correta porque expressa ponto central de sentidos e usos sociais da língua.",
+        "correta": true
       },
       {
         "id": "portugues-avancado-09-q03",
         "tipo": "certo_errado",
         "enunciado": "Tratar toda linguagem informal como defeito universal.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "portugues-avancado-09-q04",
@@ -1941,21 +1959,21 @@ export const portuguesAvancado = [
       {
         "id": "portugues-avancado-10-fc01",
         "frente": "Qual é a ideia central de Redação oficial e revisão final?",
-        "verso": "Redação oficial deve ser clara, impessoal, concisa, formal e padronizada.",
+        "verso": "Redação oficial deve ser clara, impessoal, concisa, formal e padronizada. Revisão ampliada: em Redação oficial e revisão final, o aluno deve identificar comunicação administrativa, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "conceito",
         "nivel": "essencial"
       },
       {
         "id": "portugues-avancado-10-fc02",
         "frente": "Qual detalhe a banca costuma cobrar em comunicação administrativa?",
-        "verso": "Impessoalidade evita opinião subjetiva, elogio pessoal e linguagem emocional.",
+        "verso": "Impessoalidade evita opinião subjetiva, elogio pessoal e linguagem emocional. Revisão ampliada: em Redação oficial e revisão final, o aluno deve identificar comunicação administrativa, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "banca",
         "nivel": "intermediario"
       },
       {
         "id": "portugues-avancado-10-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Usar linguagem rebuscada achando que formalidade é dificuldade.",
+        "verso": "Usar linguagem rebuscada achando que formalidade é dificuldade. Revisão ampliada: em Redação oficial e revisão final, o aluno deve identificar comunicação administrativa, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1987,14 +2005,16 @@ export const portuguesAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Impessoalidade evita opinião subjetiva, elogio pessoal e linguagem emocional.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de comunicação administrativa."
+        "comentario": "A assertiva está correta porque expressa ponto central de comunicação administrativa.",
+        "correta": true
       },
       {
         "id": "portugues-avancado-10-q03",
         "tipo": "certo_errado",
         "enunciado": "Usar linguagem rebuscada achando que formalidade é dificuldade.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "portugues-avancado-10-q04",

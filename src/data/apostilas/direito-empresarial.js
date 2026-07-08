@@ -152,11 +152,11 @@ export const direitoEmpresarial = [
       },
       {
         "frente": "Pegadinha comum em Teoria da empresa, empresário e atividade empresarial",
-        "verso": "Chamar todo CNPJ de empresa em sentido técnico."
+        "verso": "Chamar todo CNPJ de empresa em sentido técnico. Revisão ampliada: em Teoria da empresa, empresário e atividade empresarial, o aluno deve identificar Empresário e empresa, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "empresa, empresário, atividade econômica organizada, profissão intelectual"
+        "verso": "empresa, empresário, atividade econômica organizada, profissão intelectual Revisão ampliada: em Teoria da empresa, empresário e atividade empresarial, o aluno deve identificar Empresário e empresa, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -695,11 +695,11 @@ export const direitoEmpresarial = [
       },
       {
         "frente": "Pegadinha comum em Registro público de empresas mercantis e escrituração",
-        "verso": "Achar que sem registro a atividade não existe."
+        "verso": "Achar que sem registro a atividade não existe. Revisão ampliada: em Registro público de empresas mercantis e escrituração, o aluno deve identificar Registro empresarial e livros comerciais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "Junta Comercial, registro, empresário irregular, escrituração"
+        "verso": "Junta Comercial, registro, empresário irregular, escrituração Revisão ampliada: em Registro público de empresas mercantis e escrituração, o aluno deve identificar Registro empresarial e livros comerciais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -1238,11 +1238,11 @@ export const direitoEmpresarial = [
       },
       {
         "frente": "Pegadinha comum em Estabelecimento empresarial, aviamento e ponto comercial",
-        "verso": "Confundir estabelecimento com imóvel."
+        "verso": "Confundir estabelecimento com imóvel. Revisão ampliada: em Estabelecimento empresarial, aviamento e ponto comercial, o aluno deve identificar Estabelecimento empresarial, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "estabelecimento, aviamento, ponto comercial, trespasse"
+        "verso": "estabelecimento, aviamento, ponto comercial, trespasse Revisão ampliada: em Estabelecimento empresarial, aviamento e ponto comercial, o aluno deve identificar Estabelecimento empresarial, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -1781,11 +1781,11 @@ export const direitoEmpresarial = [
       },
       {
         "frente": "Pegadinha comum em Nome empresarial, marca e propriedade industrial",
-        "verso": "Dizer que nome empresarial e marca são sempre a mesma coisa."
+        "verso": "Dizer que nome empresarial e marca são sempre a mesma coisa. Revisão ampliada: em Nome empresarial, marca e propriedade industrial, o aluno deve identificar Identificação empresarial e proteção concorrencial, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "nome empresarial, marca, patente, propriedade industrial"
+        "verso": "nome empresarial, marca, patente, propriedade industrial Revisão ampliada: em Nome empresarial, marca e propriedade industrial, o aluno deve identificar Identificação empresarial e proteção concorrencial, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -2324,11 +2324,11 @@ export const direitoEmpresarial = [
       },
       {
         "frente": "Pegadinha comum em Sociedades empresárias, personalidade jurídica e desconsideração",
-        "verso": "Achar que todo sócio responde automaticamente por dívida social."
+        "verso": "Achar que todo sócio responde automaticamente por dívida social. Revisão ampliada: em Sociedades empresárias, personalidade jurídica e desconsideração, o aluno deve identificar Sociedades e responsabilidade patrimonial, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "sociedade empresária, personalidade jurídica, autonomia patrimonial, desconsideração"
+        "verso": "sociedade empresária, personalidade jurídica, autonomia patrimonial, desconsideração Revisão ampliada: em Sociedades empresárias, personalidade jurídica e desconsideração, o aluno deve identificar Sociedades e responsabilidade patrimonial, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -2867,11 +2867,11 @@ export const direitoEmpresarial = [
       },
       {
         "frente": "Pegadinha comum em Sociedade limitada: quotas, administração e responsabilidade",
-        "verso": "Achar que sócio de limitada nunca responde por nada."
+        "verso": "Achar que sócio de limitada nunca responde por nada. Revisão ampliada: em Sociedade limitada: quotas, administração e responsabilidade, o aluno deve identificar Sociedade limitada, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "sociedade limitada, quotas, capital social, integralização"
+        "verso": "sociedade limitada, quotas, capital social, integralização Revisão ampliada: em Sociedade limitada: quotas, administração e responsabilidade, o aluno deve identificar Sociedade limitada, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -3410,11 +3410,11 @@ export const direitoEmpresarial = [
       },
       {
         "frente": "Pegadinha comum em Sociedade anônima: ações, órgãos sociais e mercado de capitais",
-        "verso": "Confundir S.A. com limitada."
+        "verso": "Confundir S.A. com limitada. Revisão ampliada: em Sociedade anônima: ações, órgãos sociais e mercado de capitais, o aluno deve identificar Sociedades por ações, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "sociedade anônima, ações, companhia aberta, assembleia geral"
+        "verso": "sociedade anônima, ações, companhia aberta, assembleia geral Revisão ampliada: em Sociedade anônima: ações, órgãos sociais e mercado de capitais, o aluno deve identificar Sociedades por ações, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -3957,11 +3957,11 @@ export const direitoEmpresarial = [
       },
       {
         "frente": "Pegadinha comum em Títulos de crédito: princípios, circulação e cobrança",
-        "verso": "Confundir aval com fiança."
+        "verso": "Confundir aval com fiança. Revisão ampliada: em Títulos de crédito: princípios, circulação e cobrança, o aluno deve identificar Títulos de crédito, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "título de crédito, cartularidade, literalidade, autonomia, aval"
+        "verso": "título de crédito, cartularidade, literalidade, autonomia, aval Revisão ampliada: em Títulos de crédito: princípios, circulação e cobrança, o aluno deve identificar Títulos de crédito, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -4500,11 +4500,11 @@ export const direitoEmpresarial = [
       },
       {
         "frente": "Pegadinha comum em Contratos empresariais e relações de mercado",
-        "verso": "Achar que entre empresários vale qualquer cláusula abusiva sem controle."
+        "verso": "Achar que entre empresários vale qualquer cláusula abusiva sem controle. Revisão ampliada: em Contratos empresariais e relações de mercado, o aluno deve identificar Contratos empresariais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "contratos empresariais, boa-fé objetiva, franquia, distribuição"
+        "verso": "contratos empresariais, boa-fé objetiva, franquia, distribuição Revisão ampliada: em Contratos empresariais e relações de mercado, o aluno deve identificar Contratos empresariais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -5045,11 +5045,11 @@ export const direitoEmpresarial = [
       },
       {
         "frente": "Pegadinha comum em Recuperação judicial, recuperação extrajudicial e falência",
-        "verso": "Confundir recuperação judicial com falência."
+        "verso": "Confundir recuperação judicial com falência. Revisão ampliada: em Recuperação judicial, recuperação extrajudicial e falência, o aluno deve identificar Crise da empresa, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "recuperação judicial, falência, crise econômico-financeira, preservação da empresa"
+        "verso": "recuperação judicial, falência, crise econômico-financeira, preservação da empresa Revisão ampliada: em Recuperação judicial, recuperação extrajudicial e falência, o aluno deve identificar Crise da empresa, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {

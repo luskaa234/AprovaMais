@@ -150,11 +150,11 @@ export const direitoPrevidenciario = [
       },
       {
         "frente": "Pegadinha comum em Seguridade Social, Previdência Social e RGPS",
-        "verso": "Confundir seguridade social com previdência social."
+        "verso": "Confundir seguridade social com previdência social. Revisão ampliada: em Seguridade Social, Previdência Social e RGPS, o aluno deve identificar Seguridade Social, Previdência Social e RGPS, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "seguridade social, previdência social, RGPS"
+        "verso": "seguridade social, previdência social, RGPS Revisão ampliada: em Seguridade Social, Previdência Social e RGPS, o aluno deve identificar Seguridade Social, Previdência Social e RGPS, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -670,11 +670,11 @@ export const direitoPrevidenciario = [
       },
       {
         "frente": "Pegadinha comum em Filiação, inscrição e segurados do RGPS",
-        "verso": "Dizer que contribuinte individual é facultativo."
+        "verso": "Dizer que contribuinte individual é facultativo. Revisão ampliada: em Filiação, inscrição e segurados do RGPS, o aluno deve identificar Filiação, inscrição e segurados do RGPS, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "segurado obrigatório, segurado facultativo, filiação"
+        "verso": "segurado obrigatório, segurado facultativo, filiação Revisão ampliada: em Filiação, inscrição e segurados do RGPS, o aluno deve identificar Filiação, inscrição e segurados do RGPS, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -1190,11 +1190,11 @@ export const direitoPrevidenciario = [
       },
       {
         "frente": "Pegadinha comum em Qualidade de segurado e período de graça",
-        "verso": "Achar que a proteção acaba no dia seguinte à última contribuição."
+        "verso": "Achar que a proteção acaba no dia seguinte à última contribuição. Revisão ampliada: em Qualidade de segurado e período de graça, o aluno deve identificar Qualidade de segurado e período de graça, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "qualidade de segurado, período de graça, perda da qualidade"
+        "verso": "qualidade de segurado, período de graça, perda da qualidade Revisão ampliada: em Qualidade de segurado e período de graça, o aluno deve identificar Qualidade de segurado e período de graça, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -1706,15 +1706,15 @@ export const direitoPrevidenciario = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Dependentes previdenciários e classes de dependência?",
-        "verso": "Dependentes são organizados em classes; a classe anterior exclui a seguinte."
+        "verso": "Dependentes são organizados em classes; a classe anterior exclui a seguinte. Revisão ampliada: em Dependentes previdenciários e classes de dependência, o aluno deve identificar Dependentes previdenciários e classes de dependência, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Dependentes previdenciários e classes de dependência",
-        "verso": "Confundir segurado com dependente."
+        "verso": "Confundir segurado com dependente. Revisão ampliada: em Dependentes previdenciários e classes de dependência, o aluno deve identificar Dependentes previdenciários e classes de dependência, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "dependentes, classe I, dependência econômica"
+        "verso": "dependentes, classe I, dependência econômica Revisão ampliada: em Dependentes previdenciários e classes de dependência, o aluno deve identificar Dependentes previdenciários e classes de dependência, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -2230,11 +2230,11 @@ export const direitoPrevidenciario = [
       },
       {
         "frente": "Pegadinha comum em Carência, tempo de contribuição e salário de contribuição",
-        "verso": "Usar carência e tempo de contribuição como sinônimos absolutos."
+        "verso": "Usar carência e tempo de contribuição como sinônimos absolutos. Revisão ampliada: em Carência, tempo de contribuição e salário de contribuição, o aluno deve identificar Carência, tempo de contribuição e salário de contribuição, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "carência, tempo de contribuição, salário de contribuição"
+        "verso": "carência, tempo de contribuição, salário de contribuição Revisão ampliada: em Carência, tempo de contribuição e salário de contribuição, o aluno deve identificar Carência, tempo de contribuição e salário de contribuição, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -2751,11 +2751,11 @@ export const direitoPrevidenciario = [
       },
       {
         "frente": "Pegadinha comum em Aposentadoria programada, idade mínima e regras de transição",
-        "verso": "Confundir direito adquirido com simples expectativa."
+        "verso": "Confundir direito adquirido com simples expectativa. Revisão ampliada: em Aposentadoria programada, idade mínima e regras de transição, o aluno deve identificar Aposentadoria programada, idade mínima e regras de transição, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "aposentadoria programada, EC 103/2019, regras de transição"
+        "verso": "aposentadoria programada, EC 103/2019, regras de transição Revisão ampliada: em Aposentadoria programada, idade mínima e regras de transição, o aluno deve identificar Aposentadoria programada, idade mínima e regras de transição, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -3271,11 +3271,11 @@ export const direitoPrevidenciario = [
       },
       {
         "frente": "Pegadinha comum em Benefícios por incapacidade e auxílio-acidente",
-        "verso": "Conceder benefício por simples diagnóstico sem incapacidade."
+        "verso": "Conceder benefício por simples diagnóstico sem incapacidade. Revisão ampliada: em Benefícios por incapacidade e auxílio-acidente, o aluno deve identificar Benefícios por incapacidade e auxílio-acidente, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "incapacidade temporária, incapacidade permanente, auxílio-acidente"
+        "verso": "incapacidade temporária, incapacidade permanente, auxílio-acidente Revisão ampliada: em Benefícios por incapacidade e auxílio-acidente, o aluno deve identificar Benefícios por incapacidade e auxílio-acidente, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -3791,11 +3791,11 @@ export const direitoPrevidenciario = [
       },
       {
         "frente": "Pegadinha comum em Salário-maternidade e salário-família",
-        "verso": "Confundir salário-família com pensão por morte."
+        "verso": "Confundir salário-família com pensão por morte. Revisão ampliada: em Salário-maternidade e salário-família, o aluno deve identificar Salário-maternidade e salário-família, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "salário-maternidade, salário-família, baixa renda"
+        "verso": "salário-maternidade, salário-família, baixa renda Revisão ampliada: em Salário-maternidade e salário-família, o aluno deve identificar Salário-maternidade e salário-família, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -4311,11 +4311,11 @@ export const direitoPrevidenciario = [
       },
       {
         "frente": "Pegadinha comum em Pensão por morte e auxílio-reclusão",
-        "verso": "Dizer que auxílio-reclusão é pago diretamente ao preso."
+        "verso": "Dizer que auxílio-reclusão é pago diretamente ao preso. Revisão ampliada: em Pensão por morte e auxílio-reclusão, o aluno deve identificar Pensão por morte e auxílio-reclusão, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "pensão por morte, auxílio-reclusão, dependentes"
+        "verso": "pensão por morte, auxílio-reclusão, dependentes Revisão ampliada: em Pensão por morte e auxílio-reclusão, o aluno deve identificar Pensão por morte e auxílio-reclusão, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -4829,15 +4829,15 @@ export const direitoPrevidenciario = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Processo administrativo previdenciário, recursos, revisão, decadência e prescrição?",
-        "verso": "No INSS, saiba diferenciar pedido, recurso, revisão, decadência e prescrição."
+        "verso": "No INSS, saiba diferenciar pedido, recurso, revisão, decadência e prescrição. Revisão ampliada: em Processo administrativo previdenciário, recursos, revisão, decadência e prescrição, o aluno deve identificar Processo administrativo previdenciário, recursos, revisão, decadência e prescrição, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Processo administrativo previdenciário, recursos, revisão, decadência e prescrição",
-        "verso": "Tratar revisão como novo benefício sem analisar o ato anterior."
+        "verso": "Tratar revisão como novo benefício sem analisar o ato anterior. Revisão ampliada: em Processo administrativo previdenciário, recursos, revisão, decadência e prescrição, o aluno deve identificar Processo administrativo previdenciário, recursos, revisão, decadência e prescrição, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "processo administrativo, recurso, decadência, prescrição"
+        "verso": "processo administrativo, recurso, decadência, prescrição Revisão ampliada: em Processo administrativo previdenciário, recursos, revisão, decadência e prescrição, o aluno deve identificar Processo administrativo previdenciário, recursos, revisão, decadência e prescrição, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {

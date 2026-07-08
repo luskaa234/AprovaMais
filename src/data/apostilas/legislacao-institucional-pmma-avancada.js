@@ -141,7 +141,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
       },
       {
         "frente": "Qual pegadinha mais perigosa em Estatuto dos Policiais Militares do Maranhão?",
-        "verso": "Trocar Lei 6.513/1995 por Lei 4.570/1984."
+        "verso": "Trocar Lei 6.513/1995 por Lei 4.570/1984. Revisão ampliada: em Estatuto da PMMA: matriz normativa, situação militar e leitura de edital, o aluno deve identificar Estatuto dos Policiais Militares do Maranhão, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como estudar Estatuto dos Policiais Militares do Maranhão para PMMA?",
@@ -149,7 +149,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
       },
       {
         "frente": "Frase de memória: Estatuto da PMMA: matriz normativa, situação militar e leitura de edital",
-        "verso": "Estatuto cuida da vida funcional; Organização Básica cuida da estrutura da PMMA."
+        "verso": "Estatuto cuida da vida funcional; Organização Básica cuida da estrutura da PMMA. Revisão ampliada: em Estatuto da PMMA: matriz normativa, situação militar e leitura de edital, o aluno deve identificar Estatuto dos Policiais Militares do Maranhão, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -712,15 +712,15 @@ export const legislacaoInstitucionalPMMAAvancada = [
       },
       {
         "frente": "Qual pegadinha mais perigosa em Princípios institucionais militares?",
-        "verso": "Confundir disciplina com obediência cega."
+        "verso": "Confundir disciplina com obediência cega. Revisão ampliada: em Hierarquia, disciplina, valores militares e obediência legítima, o aluno deve identificar Princípios institucionais militares, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como estudar Princípios institucionais militares para PMMA?",
-        "verso": "Separar obediência hierárquica, disciplina consciente e ordem manifestamente ilegal"
+        "verso": "Separar obediência hierárquica, disciplina consciente e ordem manifestamente ilegal Revisão ampliada: em Hierarquia, disciplina, valores militares e obediência legítima, o aluno deve identificar Princípios institucionais militares, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Frase de memória: Hierarquia, disciplina, valores militares e obediência legítima",
-        "verso": "Disciplina forte é disciplina legal, consciente e orientada ao serviço público."
+        "verso": "Disciplina forte é disciplina legal, consciente e orientada ao serviço público. Revisão ampliada: em Hierarquia, disciplina, valores militares e obediência legítima, o aluno deve identificar Princípios institucionais militares, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -1283,7 +1283,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
       },
       {
         "frente": "Qual pegadinha mais perigosa em Regime jurídico funcional do policial militar?",
-        "verso": "Chamar prerrogativa funcional de privilégio absoluto."
+        "verso": "Chamar prerrogativa funcional de privilégio absoluto. Revisão ampliada: em Direitos, deveres, prerrogativas, vedações e responsabilidade funcional, o aluno deve identificar Regime jurídico funcional do policial militar, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como estudar Regime jurídico funcional do policial militar para PMMA?",
@@ -1855,7 +1855,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
       },
       {
         "frente": "Qual pegadinha mais perigosa em Carreira e situação funcional?",
-        "verso": "Tratar todo afastamento como desligamento."
+        "verso": "Tratar todo afastamento como desligamento. Revisão ampliada: em Ingresso, formação, carreira e situações funcionais do policial militar, o aluno deve identificar Carreira e situação funcional, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como estudar Carreira e situação funcional para PMMA?",
@@ -1863,7 +1863,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
       },
       {
         "frente": "Frase de memória: Ingresso, formação, carreira e situações funcionais do policial militar",
-        "verso": "Em situação funcional, não decore rótulo: pergunte quais efeitos ele produz."
+        "verso": "Em situação funcional, não decore rótulo: pergunte quais efeitos ele produz. Revisão ampliada: em Ingresso, formação, carreira e situações funcionais do policial militar, o aluno deve identificar Carreira e situação funcional, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -2426,15 +2426,15 @@ export const legislacaoInstitucionalPMMAAvancada = [
       },
       {
         "frente": "Qual pegadinha mais perigosa em Processo e responsabilidade disciplinar?",
-        "verso": "Achar que hierarquia elimina contraditório."
+        "verso": "Achar que hierarquia elimina contraditório. Revisão ampliada: em Regime disciplinar: transgressão, sanção, contraditório e proporcionalidade, o aluno deve identificar Processo e responsabilidade disciplinar, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como estudar Processo e responsabilidade disciplinar para PMMA?",
-        "verso": "Separar fato, enquadramento, autoria, defesa, decisão e sanção proporcional"
+        "verso": "Separar fato, enquadramento, autoria, defesa, decisão e sanção proporcional Revisão ampliada: em Regime disciplinar: transgressão, sanção, contraditório e proporcionalidade, o aluno deve identificar Processo e responsabilidade disciplinar, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Frase de memória: Regime disciplinar: transgressão, sanção, contraditório e proporcionalidade",
-        "verso": "Disciplina militar forte exige legalidade, defesa, motivação e proporcionalidade."
+        "verso": "Disciplina militar forte exige legalidade, defesa, motivação e proporcionalidade. Revisão ampliada: em Regime disciplinar: transgressão, sanção, contraditório e proporcionalidade, o aluno deve identificar Processo e responsabilidade disciplinar, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -3001,11 +3001,11 @@ export const legislacaoInstitucionalPMMAAvancada = [
       },
       {
         "frente": "Como estudar Carreira, promoções e quadros para PMMA?",
-        "verso": "Estudar promoção por critérios, não por lista solta de prazos sujeitos a atualização"
+        "verso": "Estudar promoção por critérios, não por lista solta de prazos sujeitos a atualização Revisão ampliada: em Promoções, quadros, antiguidade, merecimento e evolução na carreira, o aluno deve identificar Carreira, promoções e quadros, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Frase de memória: Promoções, quadros, antiguidade, merecimento e evolução na carreira",
-        "verso": "Em promoção, entenda a lógica antes dos números; os números mudam, a lógica orienta."
+        "verso": "Em promoção, entenda a lógica antes dos números; os números mudam, a lógica orienta. Revisão ampliada: em Promoções, quadros, antiguidade, merecimento e evolução na carreira, o aluno deve identificar Carreira, promoções e quadros, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -3568,15 +3568,15 @@ export const legislacaoInstitucionalPMMAAvancada = [
       },
       {
         "frente": "Qual pegadinha mais perigosa em Lei de Organização Básica da PMMA?",
-        "verso": "Confundir Organização Básica com Estatuto."
+        "verso": "Confundir Organização Básica com Estatuto. Revisão ampliada: em Organização Básica da PMMA: comando, órgãos, unidades e subunidades, o aluno deve identificar Lei de Organização Básica da PMMA, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como estudar Lei de Organização Básica da PMMA para PMMA?",
-        "verso": "Desenhar organograma: direção, apoio, execução e unidades operacionais"
+        "verso": "Desenhar organograma: direção, apoio, execução e unidades operacionais Revisão ampliada: em Organização Básica da PMMA: comando, órgãos, unidades e subunidades, o aluno deve identificar Lei de Organização Básica da PMMA, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Frase de memória: Organização Básica da PMMA: comando, órgãos, unidades e subunidades",
-        "verso": "Organização Básica é o mapa da corporação; Estatuto é o regime da pessoa militar."
+        "verso": "Organização Básica é o mapa da corporação; Estatuto é o regime da pessoa militar. Revisão ampliada: em Organização Básica da PMMA: comando, órgãos, unidades e subunidades, o aluno deve identificar Lei de Organização Básica da PMMA, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -4139,11 +4139,11 @@ export const legislacaoInstitucionalPMMAAvancada = [
       },
       {
         "frente": "Qual pegadinha mais perigosa em Missão constitucional e atuação operacional institucional?",
-        "verso": "Achar que PM é polícia judiciária comum."
+        "verso": "Achar que PM é polícia judiciária comum. Revisão ampliada: em Policiamento ostensivo, preservação da ordem pública e atuação territorial, o aluno deve identificar Missão constitucional e atuação operacional institucional, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como estudar Missão constitucional e atuação operacional institucional para PMMA?",
-        "verso": "Ligar missão constitucional à atuação preventiva e à presença visível do Estado"
+        "verso": "Ligar missão constitucional à atuação preventiva e à presença visível do Estado Revisão ampliada: em Policiamento ostensivo, preservação da ordem pública e atuação territorial, o aluno deve identificar Missão constitucional e atuação operacional institucional, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Frase de memória: Policiamento ostensivo, preservação da ordem pública e atuação territorial",
@@ -4710,15 +4710,15 @@ export const legislacaoInstitucionalPMMAAvancada = [
       },
       {
         "frente": "Qual pegadinha mais perigosa em PJM, IPM e responsabilização penal militar?",
-        "verso": "Tratar toda falta funcional como crime militar."
+        "verso": "Tratar toda falta funcional como crime militar. Revisão ampliada: em Polícia Judiciária Militar, IPM e interface com crimes militares, o aluno deve identificar PJM, IPM e responsabilização penal militar, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como estudar PJM, IPM e responsabilização penal militar para PMMA?",
-        "verso": "Separar disciplina administrativa, crime militar, IPM e processo judicial militar"
+        "verso": "Separar disciplina administrativa, crime militar, IPM e processo judicial militar Revisão ampliada: em Polícia Judiciária Militar, IPM e interface com crimes militares, o aluno deve identificar PJM, IPM e responsabilização penal militar, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Frase de memória: Polícia Judiciária Militar, IPM e interface com crimes militares",
-        "verso": "Disciplina, IPM e processo penal militar conversam, mas não são a mesma coisa."
+        "verso": "Disciplina, IPM e processo penal militar conversam, mas não são a mesma coisa. Revisão ampliada: em Polícia Judiciária Militar, IPM e interface com crimes militares, o aluno deve identificar PJM, IPM e responsabilização penal militar, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -5281,7 +5281,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
       },
       {
         "frente": "Qual pegadinha mais perigosa em Atualização normativa e estudo por edital?",
-        "verso": "Estudar print antigo de lei."
+        "verso": "Estudar print antigo de lei. Revisão ampliada: em Atualizações legislativas, Diário Oficial, texto consolidado e estratégia de prova PMMA, o aluno deve identificar Atualização normativa e estudo por edital, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como estudar Atualização normativa e estudo por edital para PMMA?",
@@ -5289,7 +5289,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
       },
       {
         "frente": "Frase de memória: Atualizações legislativas, Diário Oficial, texto consolidado e estratégia de prova PMMA",
-        "verso": "Em legislação PMMA, quem estuda por versão antiga treina para errar questão atual."
+        "verso": "Em legislação PMMA, quem estuda por versão antiga treina para errar questão atual. Revisão ampliada: em Atualizações legislativas, Diário Oficial, texto consolidado e estratégia de prova PMMA, o aluno deve identificar Atualização normativa e estudo por edital, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -5852,7 +5852,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
       },
       {
         "frente": "Qual pegadinha mais perigosa em Revisão integrada e aplicação em casos?",
-        "verso": "Responder pela palavra mais familiar sem identificar norma aplicável."
+        "verso": "Responder pela palavra mais familiar sem identificar norma aplicável. Revisão ampliada: em Simulado integrado PMMA: casos avançados de Estatuto, organização, disciplina e missão constitucional, o aluno deve identificar Revisão integrada e aplicação em casos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como estudar Revisão integrada e aplicação em casos para PMMA?",

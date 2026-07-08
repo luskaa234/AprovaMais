@@ -153,11 +153,11 @@ export const direitoFinanceiro = [
       },
       {
         "frente": "Pegadinha comum em Direito Financeiro: conceito, objeto, fontes e autonomia",
-        "verso": "Dizer que Direito Financeiro é sinônimo de Direito Tributário."
+        "verso": "Dizer que Direito Financeiro é sinônimo de Direito Tributário. Revisão ampliada: em Direito Financeiro: conceito, objeto, fontes e autonomia, o aluno deve identificar Direito Financeiro: conceito, objeto, fontes e autonomia, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "Direito Financeiro, receita pública, despesa pública, orçamento público"
+        "verso": "Direito Financeiro, receita pública, despesa pública, orçamento público Revisão ampliada: em Direito Financeiro: conceito, objeto, fontes e autonomia, o aluno deve identificar Direito Financeiro: conceito, objeto, fontes e autonomia, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -680,11 +680,11 @@ export const direitoFinanceiro = [
       },
       {
         "frente": "Pegadinha comum em Orçamento público: natureza, funções e ciclo orçamentário",
-        "verso": "Achar que orçamento é só documento contábil sem força jurídica."
+        "verso": "Achar que orçamento é só documento contábil sem força jurídica. Revisão ampliada: em Orçamento público: natureza, funções e ciclo orçamentário, o aluno deve identificar Orçamento público: natureza, funções e ciclo orçamentário, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "orçamento público, lei orçamentária, ciclo orçamentário"
+        "verso": "orçamento público, lei orçamentária, ciclo orçamentário Revisão ampliada: em Orçamento público: natureza, funções e ciclo orçamentário, o aluno deve identificar Orçamento público: natureza, funções e ciclo orçamentário, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -1202,7 +1202,7 @@ export const direitoFinanceiro = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Leis orçamentárias: PPA, LDO e LOA?",
-        "verso": "PPA é o plano; LDO é a ponte; LOA é o orçamento anual."
+        "verso": "PPA é o plano; LDO é a ponte; LOA é o orçamento anual. Revisão ampliada: em Leis orçamentárias: PPA, LDO e LOA, o aluno deve identificar Leis orçamentárias: PPA, LDO e LOA, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Leis orçamentárias: PPA, LDO e LOA",
@@ -1732,15 +1732,15 @@ export const direitoFinanceiro = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Princípios orçamentários?",
-        "verso": "Princípios orçamentários são travas para o orçamento não virar bagunça jurídica."
+        "verso": "Princípios orçamentários são travas para o orçamento não virar bagunça jurídica. Revisão ampliada: em Princípios orçamentários, o aluno deve identificar Princípios orçamentários, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Princípios orçamentários",
-        "verso": "Confundir universalidade com unidade."
+        "verso": "Confundir universalidade com unidade. Revisão ampliada: em Princípios orçamentários, o aluno deve identificar Princípios orçamentários, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "unidade, universalidade, anualidade, exclusividade, não afetação"
+        "verso": "unidade, universalidade, anualidade, exclusividade, não afetação Revisão ampliada: em Princípios orçamentários, o aluno deve identificar Princípios orçamentários, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -2266,11 +2266,11 @@ export const direitoFinanceiro = [
       },
       {
         "frente": "Pegadinha comum em Receita pública: classificação, estágios e renúncia de receita",
-        "verso": "Confundir receita com qualquer entrada de dinheiro."
+        "verso": "Confundir receita com qualquer entrada de dinheiro. Revisão ampliada: em Receita pública: classificação, estágios e renúncia de receita, o aluno deve identificar Receita pública: classificação, estágios e renúncia de receita, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "receita pública, arrecadação, recolhimento, renúncia de receita"
+        "verso": "receita pública, arrecadação, recolhimento, renúncia de receita Revisão ampliada: em Receita pública: classificação, estágios e renúncia de receita, o aluno deve identificar Receita pública: classificação, estágios e renúncia de receita, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -2791,15 +2791,15 @@ export const direitoFinanceiro = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Despesa pública: classificação, empenho, liquidação e pagamento?",
-        "verso": "Despesa pública segue uma escada: empenha, liquida e paga."
+        "verso": "Despesa pública segue uma escada: empenha, liquida e paga. Revisão ampliada: em Despesa pública: classificação, empenho, liquidação e pagamento, o aluno deve identificar Despesa pública: classificação, empenho, liquidação e pagamento, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Despesa pública: classificação, empenho, liquidação e pagamento",
-        "verso": "Achar que empenho é pagamento."
+        "verso": "Achar que empenho é pagamento. Revisão ampliada: em Despesa pública: classificação, empenho, liquidação e pagamento, o aluno deve identificar Despesa pública: classificação, empenho, liquidação e pagamento, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "despesa pública, empenho, liquidação, pagamento"
+        "verso": "despesa pública, empenho, liquidação, pagamento Revisão ampliada: em Despesa pública: classificação, empenho, liquidação e pagamento, o aluno deve identificar Despesa pública: classificação, empenho, liquidação e pagamento, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -3320,15 +3320,15 @@ export const direitoFinanceiro = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Créditos adicionais: suplementares, especiais e extraordinários?",
-        "verso": "Suplementar reforça; especial cria; extraordinário socorre urgência imprevisível."
+        "verso": "Suplementar reforça; especial cria; extraordinário socorre urgência imprevisível. Revisão ampliada: em Créditos adicionais: suplementares, especiais e extraordinários, o aluno deve identificar Créditos adicionais: suplementares, especiais e extraordinários, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Créditos adicionais: suplementares, especiais e extraordinários",
-        "verso": "Chamar todo crédito adicional de suplementar."
+        "verso": "Chamar todo crédito adicional de suplementar. Revisão ampliada: em Créditos adicionais: suplementares, especiais e extraordinários, o aluno deve identificar Créditos adicionais: suplementares, especiais e extraordinários, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "créditos adicionais, suplementar, especial, extraordinário"
+        "verso": "créditos adicionais, suplementar, especial, extraordinário Revisão ampliada: em Créditos adicionais: suplementares, especiais e extraordinários, o aluno deve identificar Créditos adicionais: suplementares, especiais e extraordinários, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -3851,11 +3851,11 @@ export const direitoFinanceiro = [
       },
       {
         "frente": "Pegadinha comum em Restos a pagar, despesas de exercícios anteriores e suprimento de fundos",
-        "verso": "Confundir restos a pagar com qualquer dívida pública."
+        "verso": "Confundir restos a pagar com qualquer dívida pública. Revisão ampliada: em Restos a pagar, despesas de exercícios anteriores e suprimento de fundos, o aluno deve identificar Restos a pagar, despesas de exercícios anteriores e suprimento de fundos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "restos a pagar, despesas de exercícios anteriores, suprimento de fundos"
+        "verso": "restos a pagar, despesas de exercícios anteriores, suprimento de fundos Revisão ampliada: em Restos a pagar, despesas de exercícios anteriores e suprimento de fundos, o aluno deve identificar Restos a pagar, despesas de exercícios anteriores e suprimento de fundos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -4375,15 +4375,15 @@ export const direitoFinanceiro = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Lei de Responsabilidade Fiscal: metas, limites, transparência e controle?",
-        "verso": "LRF é a lei do “não gaste sem planejar, comprovar, controlar e prestar contas”."
+        "verso": "LRF é a lei do “não gaste sem planejar, comprovar, controlar e prestar contas”. Revisão ampliada: em Lei de Responsabilidade Fiscal: metas, limites, transparência e controle, o aluno deve identificar Lei de Responsabilidade Fiscal: metas, limites, transparência e controle, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Lei de Responsabilidade Fiscal: metas, limites, transparência e controle",
-        "verso": "Reduzir a LRF a uma lei apenas de punição."
+        "verso": "Reduzir a LRF a uma lei apenas de punição. Revisão ampliada: em Lei de Responsabilidade Fiscal: metas, limites, transparência e controle, o aluno deve identificar Lei de Responsabilidade Fiscal: metas, limites, transparência e controle, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "LRF, responsabilidade fiscal, metas fiscais, transparência"
+        "verso": "LRF, responsabilidade fiscal, metas fiscais, transparência Revisão ampliada: em Lei de Responsabilidade Fiscal: metas, limites, transparência e controle, o aluno deve identificar Lei de Responsabilidade Fiscal: metas, limites, transparência e controle, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -4908,11 +4908,11 @@ export const direitoFinanceiro = [
       },
       {
         "frente": "Pegadinha comum em Dívida pública, operações de crédito e regime fiscal sustentável",
-        "verso": "Confundir dívida pública com déficit anual."
+        "verso": "Confundir dívida pública com déficit anual. Revisão ampliada: em Dívida pública, operações de crédito e regime fiscal sustentável, o aluno deve identificar Dívida pública, operações de crédito e regime fiscal sustentável, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "dívida pública, operações de crédito, garantia, regime fiscal sustentável"
+        "verso": "dívida pública, operações de crédito, garantia, regime fiscal sustentável Revisão ampliada: em Dívida pública, operações de crédito e regime fiscal sustentável, o aluno deve identificar Dívida pública, operações de crédito e regime fiscal sustentável, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {

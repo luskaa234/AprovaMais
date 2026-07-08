@@ -2974,7 +2974,7 @@ export const matematicaBasica = [
       },
       {
         "frente": "Pegadinha comum em Juros simples e compostos",
-        "verso": "Aplicar a fórmula de juros compostos em um problema de juros simples, ou vice-versa.",
+        "verso": "Aplicar a fórmula de juros compostos em um problema de juros simples, ou vice-versa. Revisão ampliada: em Juros simples e compostos, o aluno deve identificar Matemática financeira, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -4556,7 +4556,7 @@ export const matematicaBasica = [
       },
       {
         "frente": "Pegadinha comum em Equações do 2º grau",
-        "verso": "Errar o sinal ao calcular Δ = b² - 4ac, especialmente quando b ou c são negativos.",
+        "verso": "Errar o sinal ao calcular Δ = b² - 4ac, especialmente quando b ou c são negativos. Revisão ampliada: em Equações do 2º grau, o aluno deve identificar Álgebra básica, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -6138,7 +6138,7 @@ export const matematicaBasica = [
       },
       {
         "frente": "Pegadinha comum em Geometria plana: áreas e perímetros",
-        "verso": "Confundir área com perímetro, aplicando a fórmula errada para o que foi pedido.",
+        "verso": "Confundir área com perímetro, aplicando a fórmula errada para o que foi pedido. Revisão ampliada: em Geometria plana: áreas e perímetros, o aluno deve identificar Geometria plana, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -7720,7 +7720,7 @@ export const matematicaBasica = [
       },
       {
         "frente": "Pegadinha comum em Estatística básica: média, moda e mediana",
-        "verso": "Calcular a mediana sem ordenar os dados primeiro.",
+        "verso": "Calcular a mediana sem ordenar os dados primeiro. Revisão ampliada: em Estatística básica: média, moda e mediana, o aluno deve identificar Estatística descritiva, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],

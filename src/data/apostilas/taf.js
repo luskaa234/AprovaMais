@@ -1393,7 +1393,7 @@ export const taf = [
       },
       {
         "frente": "Pegadinha comum em Treino de corrida: base aeróbica",
-        "verso": "Pular a fase de construção de base aeróbica, indo direto para treinos intensos.",
+        "verso": "Pular a fase de construção de base aeróbica, indo direto para treinos intensos. Revisão ampliada: em Treino de corrida: base aeróbica, o aluno deve identificar Treino aeróbico, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],

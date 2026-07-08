@@ -184,7 +184,7 @@ export const ctbCodigoTransitoBrasileiro = [
       },
       {
         "frente": "Como fechar uma questão difícil de CTB?",
-        "verso": "Separe fato, norma, competência, consequência e eventual processo."
+        "verso": "Separe fato, norma, competência, consequência e eventual processo. Revisão ampliada: em Sistema Nacional de Trânsito: órgãos, entidades e competências, o aluno deve identificar Sistema Nacional de Trânsito, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -579,11 +579,11 @@ export const ctbCodigoTransitoBrasileiro = [
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Resolver por segurança, preferência, sinalização e dever de cuidado"
+        "verso": "Resolver por segurança, preferência, sinalização e dever de cuidado Revisão ampliada: em Normas gerais de circulação e conduta, o aluno deve identificar Circulação e conduta, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como fechar uma questão difícil de CTB?",
-        "verso": "Separe fato, norma, competência, consequência e eventual processo."
+        "verso": "Separe fato, norma, competência, consequência e eventual processo. Revisão ampliada: em Normas gerais de circulação e conduta, o aluno deve identificar Circulação e conduta, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -971,19 +971,19 @@ export const ctbCodigoTransitoBrasileiro = [
     "flashcards": [
       {
         "frente": "O que é essencial em Pedestres, ciclistas, educação para o trânsito e cidadania viária?",
-        "verso": "Trânsito seguro é convivência: condutor, pedestre e ciclista têm direitos e deveres."
+        "verso": "Trânsito seguro é convivência: condutor, pedestre e ciclista têm direitos e deveres. Revisão ampliada: em Pedestres, ciclistas, educação para o trânsito e cidadania viária, o aluno deve identificar Usuários vulneráveis e educação, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Tratar pedestre e ciclista como figuras irrelevantes ou sem deveres no trânsito."
+        "verso": "Tratar pedestre e ciclista como figuras irrelevantes ou sem deveres no trânsito. Revisão ampliada: em Pedestres, ciclistas, educação para o trânsito e cidadania viária, o aluno deve identificar Usuários vulneráveis e educação, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Pensar em proteção do usuário vulnerável e dever coletivo de segurança"
+        "verso": "Pensar em proteção do usuário vulnerável e dever coletivo de segurança Revisão ampliada: em Pedestres, ciclistas, educação para o trânsito e cidadania viária, o aluno deve identificar Usuários vulneráveis e educação, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como fechar uma questão difícil de CTB?",
-        "verso": "Separe fato, norma, competência, consequência e eventual processo."
+        "verso": "Separe fato, norma, competência, consequência e eventual processo. Revisão ampliada: em Pedestres, ciclistas, educação para o trânsito e cidadania viária, o aluno deve identificar Usuários vulneráveis e educação, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -1369,7 +1369,7 @@ export const ctbCodigoTransitoBrasileiro = [
     "flashcards": [
       {
         "frente": "O que é essencial em Sinalização de trânsito e ordem de prevalência?",
-        "verso": "No conflito de sinais, a ordem do agente prevalece sobre os demais comandos."
+        "verso": "No conflito de sinais, a ordem do agente prevalece sobre os demais comandos. Revisão ampliada: em Sinalização de trânsito e ordem de prevalência, o aluno deve identificar Sinalização viária, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha?",
@@ -1377,11 +1377,11 @@ export const ctbCodigoTransitoBrasileiro = [
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Aplicar a hierarquia: agente, sinalização semafórica, placas e demais sinais"
+        "verso": "Aplicar a hierarquia: agente, sinalização semafórica, placas e demais sinais Revisão ampliada: em Sinalização de trânsito e ordem de prevalência, o aluno deve identificar Sinalização viária, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como fechar uma questão difícil de CTB?",
-        "verso": "Separe fato, norma, competência, consequência e eventual processo."
+        "verso": "Separe fato, norma, competência, consequência e eventual processo. Revisão ampliada: em Sinalização de trânsito e ordem de prevalência, o aluno deve identificar Sinalização viária, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -1779,7 +1779,7 @@ export const ctbCodigoTransitoBrasileiro = [
       },
       {
         "frente": "Como fechar uma questão difícil de CTB?",
-        "verso": "Separe fato, norma, competência, consequência e eventual processo."
+        "verso": "Separe fato, norma, competência, consequência e eventual processo. Revisão ampliada: em Veículos: classificação, registro, licenciamento e equipamentos obrigatórios, o aluno deve identificar Veículos e documentação, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -2178,7 +2178,7 @@ export const ctbCodigoTransitoBrasileiro = [
       },
       {
         "frente": "Como fechar uma questão difícil de CTB?",
-        "verso": "Separe fato, norma, competência, consequência e eventual processo."
+        "verso": "Separe fato, norma, competência, consequência e eventual processo. Revisão ampliada: em Habilitação: CNH, PPD, categorias, exames e cursos especializados, o aluno deve identificar Habilitação de condutores, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -2563,7 +2563,7 @@ export const ctbCodigoTransitoBrasileiro = [
     "flashcards": [
       {
         "frente": "O que é essencial em Infrações de trânsito: classificação, pontuação, multas e reincidência?",
-        "verso": "Infração não é só multa: pode envolver pontos, penalidade e medida administrativa."
+        "verso": "Infração não é só multa: pode envolver pontos, penalidade e medida administrativa. Revisão ampliada: em Infrações de trânsito: classificação, pontuação, multas e reincidência, o aluno deve identificar Infrações, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha?",
@@ -2575,7 +2575,7 @@ export const ctbCodigoTransitoBrasileiro = [
       },
       {
         "frente": "Como fechar uma questão difícil de CTB?",
-        "verso": "Separe fato, norma, competência, consequência e eventual processo."
+        "verso": "Separe fato, norma, competência, consequência e eventual processo. Revisão ampliada: em Infrações de trânsito: classificação, pontuação, multas e reincidência, o aluno deve identificar Infrações, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -2963,15 +2963,15 @@ export const ctbCodigoTransitoBrasileiro = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Dizer que retenção, remoção e recolhimento são sempre penalidades definitivas."
+        "verso": "Dizer que retenção, remoção e recolhimento são sempre penalidades definitivas. Revisão ampliada: em Penalidades e medidas administrativas: retenção, remoção, recolhimento, suspensão e cassação, o aluno deve identificar Sanções administrativas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Separar resposta punitiva final de providência imediata de fiscalização"
+        "verso": "Separar resposta punitiva final de providência imediata de fiscalização Revisão ampliada: em Penalidades e medidas administrativas: retenção, remoção, recolhimento, suspensão e cassação, o aluno deve identificar Sanções administrativas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como fechar uma questão difícil de CTB?",
-        "verso": "Separe fato, norma, competência, consequência e eventual processo."
+        "verso": "Separe fato, norma, competência, consequência e eventual processo. Revisão ampliada: em Penalidades e medidas administrativas: retenção, remoção, recolhimento, suspensão e cassação, o aluno deve identificar Sanções administrativas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -3365,11 +3365,11 @@ export const ctbCodigoTransitoBrasileiro = [
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Montar a linha do tempo: autuação, notificação, defesa, penalidade e recurso"
+        "verso": "Montar a linha do tempo: autuação, notificação, defesa, penalidade e recurso Revisão ampliada: em Processo administrativo de trânsito: autuação, notificação, defesa e recursos, o aluno deve identificar Processo administrativo de trânsito, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como fechar uma questão difícil de CTB?",
-        "verso": "Separe fato, norma, competência, consequência e eventual processo."
+        "verso": "Separe fato, norma, competência, consequência e eventual processo. Revisão ampliada: em Processo administrativo de trânsito: autuação, notificação, defesa e recursos, o aluno deve identificar Processo administrativo de trânsito, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -3763,11 +3763,11 @@ export const ctbCodigoTransitoBrasileiro = [
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Separar infração administrativa, crime de trânsito, dolo/culpa e situação agravante"
+        "verso": "Separar infração administrativa, crime de trânsito, dolo/culpa e situação agravante Revisão ampliada: em Crimes de trânsito: embriaguez, racha, homicídio, lesão e omissão de socorro, o aluno deve identificar Crimes de trânsito, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como fechar uma questão difícil de CTB?",
-        "verso": "Separe fato, norma, competência, consequência e eventual processo."
+        "verso": "Separe fato, norma, competência, consequência e eventual processo. Revisão ampliada: em Crimes de trânsito: embriaguez, racha, homicídio, lesão e omissão de socorro, o aluno deve identificar Crimes de trânsito, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {

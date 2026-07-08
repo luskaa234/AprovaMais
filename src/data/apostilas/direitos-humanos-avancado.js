@@ -112,7 +112,7 @@ export const direitosHumanosAvancado = [
       {
         "id": "direitos-humanos-avancado-01-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Dizer que direitos humanos protegem apenas “pessoas boas”.",
+        "verso": "Dizer que direitos humanos protegem apenas “pessoas boas”. Revisão ampliada: em Teoria geral: universalidade, historicidade e indivisibilidade, o aluno deve identificar fundamentos dos direitos humanos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -144,14 +144,16 @@ export const direitosHumanosAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Universalidade significa titularidade por todas as pessoas; não depende de nacionalidade, profissão, conduta moral ou aprovação social.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de fundamentos dos direitos humanos."
+        "comentario": "A assertiva está correta porque expressa ponto central de fundamentos dos direitos humanos.",
+        "correta": true
       },
       {
         "id": "direitos-humanos-avancado-01-q03",
         "tipo": "certo_errado",
         "enunciado": "Dizer que direitos humanos protegem apenas “pessoas boas”.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direitos-humanos-avancado-01-q04",
@@ -319,7 +321,7 @@ export const direitosHumanosAvancado = [
       {
         "id": "direitos-humanos-avancado-02-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Confundir tratamento diferenciado legítimo com privilégio.",
+        "verso": "Confundir tratamento diferenciado legítimo com privilégio. Revisão ampliada: em Dignidade, igualdade e não discriminação, o aluno deve identificar núcleo material da proteção, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -351,14 +353,16 @@ export const direitosHumanosAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Igualdade formal proíbe distinções arbitrárias; igualdade material permite medidas específicas para corrigir desvantagens reais.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de núcleo material da proteção."
+        "comentario": "A assertiva está correta porque expressa ponto central de núcleo material da proteção.",
+        "correta": true
       },
       {
         "id": "direitos-humanos-avancado-02-q03",
         "tipo": "certo_errado",
         "enunciado": "Confundir tratamento diferenciado legítimo com privilégio.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direitos-humanos-avancado-02-q04",
@@ -526,7 +530,7 @@ export const direitosHumanosAvancado = [
       {
         "id": "direitos-humanos-avancado-03-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Afirmar que toda declaração tem o mesmo efeito de tratado ratificado.",
+        "verso": "Afirmar que toda declaração tem o mesmo efeito de tratado ratificado. Revisão ampliada: em Sistema global: ONU, declarações, pactos e mecanismos, o aluno deve identificar proteção internacional universal, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -558,14 +562,16 @@ export const direitosHumanosAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Declarações orientam interpretação e consolidam valores; tratados criam obrigações jurídicas quando ratificados pelo Estado.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de proteção internacional universal."
+        "comentario": "A assertiva está correta porque expressa ponto central de proteção internacional universal.",
+        "correta": true
       },
       {
         "id": "direitos-humanos-avancado-03-q03",
         "tipo": "certo_errado",
         "enunciado": "Afirmar que toda declaração tem o mesmo efeito de tratado ratificado.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direitos-humanos-avancado-03-q04",
@@ -765,14 +771,16 @@ export const direitosHumanosAvancado = [
         "tipo": "certo_errado",
         "enunciado": "A Comissão Interamericana recebe petições, examina admissibilidade, busca solução amistosa e pode submeter caso à Corte.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de proteção regional nas Américas."
+        "comentario": "A assertiva está correta porque expressa ponto central de proteção regional nas Américas.",
+        "correta": true
       },
       {
         "id": "direitos-humanos-avancado-04-q03",
         "tipo": "certo_errado",
         "enunciado": "Confundir Comissão com Corte.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direitos-humanos-avancado-04-q04",
@@ -940,7 +948,7 @@ export const direitosHumanosAvancado = [
       {
         "id": "direitos-humanos-avancado-05-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Tratar tratado internacional como conselho sem relevância jurídica.",
+        "verso": "Tratar tratado internacional como conselho sem relevância jurídica. Revisão ampliada: em Direitos humanos na Constituição e tratados no Brasil, o aluno deve identificar integração entre ordem interna e internacional, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -972,14 +980,16 @@ export const direitosHumanosAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Tratados de direitos humanos influenciam leis, políticas públicas, decisões judiciais e protocolos administrativos.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de integração entre ordem interna e internacional."
+        "comentario": "A assertiva está correta porque expressa ponto central de integração entre ordem interna e internacional.",
+        "correta": true
       },
       {
         "id": "direitos-humanos-avancado-05-q03",
         "tipo": "certo_errado",
         "enunciado": "Tratar tratado internacional como conselho sem relevância jurídica.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direitos-humanos-avancado-05-q04",
@@ -1147,7 +1157,7 @@ export const direitosHumanosAvancado = [
       {
         "id": "direitos-humanos-avancado-06-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Pensar que direitos humanos impedem atuação firme.",
+        "verso": "Pensar que direitos humanos impedem atuação firme. Revisão ampliada: em Atividade policial, abordagem e uso legítimo da força, o aluno deve identificar direitos humanos na prática policial, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1179,14 +1189,16 @@ export const direitosHumanosAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Abordagem exige motivo verificável e conduta profissional; humilhação, ameaça gratuita e exposição indevida comprometem legalidade.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de direitos humanos na prática policial."
+        "comentario": "A assertiva está correta porque expressa ponto central de direitos humanos na prática policial.",
+        "correta": true
       },
       {
         "id": "direitos-humanos-avancado-06-q03",
         "tipo": "certo_errado",
         "enunciado": "Pensar que direitos humanos impedem atuação firme.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direitos-humanos-avancado-06-q04",
@@ -1354,7 +1366,7 @@ export const direitosHumanosAvancado = [
       {
         "id": "direitos-humanos-avancado-07-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Achar que confissão obtida sob sofrimento pode ser aproveitada.",
+        "verso": "Achar que confissão obtida sob sofrimento pode ser aproveitada. Revisão ampliada: em Tortura, tratamento degradante e pessoa custodiada, o aluno deve identificar proteção em privação de liberdade, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1386,14 +1398,16 @@ export const direitosHumanosAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Tortura envolve sofrimento físico ou mental grave com finalidade específica, como obter informação, punir ou discriminar.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de proteção em privação de liberdade."
+        "comentario": "A assertiva está correta porque expressa ponto central de proteção em privação de liberdade.",
+        "correta": true
       },
       {
         "id": "direitos-humanos-avancado-07-q03",
         "tipo": "certo_errado",
         "enunciado": "Achar que confissão obtida sob sofrimento pode ser aproveitada.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direitos-humanos-avancado-07-q04",
@@ -1593,14 +1607,16 @@ export const direitosHumanosAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Crianças, adolescentes, idosos, pessoas com deficiência, mulheres em violência, população em situação de rua e minorias demandam protocolos específicos.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de vulnerabilidade e políticas de proteção."
+        "comentario": "A assertiva está correta porque expressa ponto central de vulnerabilidade e políticas de proteção.",
+        "correta": true
       },
       {
         "id": "direitos-humanos-avancado-08-q03",
         "tipo": "certo_errado",
         "enunciado": "Tratar vulnerabilidade como privilégio.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direitos-humanos-avancado-08-q04",
@@ -1768,7 +1784,7 @@ export const direitosHumanosAvancado = [
       {
         "id": "direitos-humanos-avancado-09-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Afirmar que direito social é mera promessa política.",
+        "verso": "Afirmar que direito social é mera promessa política. Revisão ampliada: em Direitos sociais e políticas públicas, o aluno deve identificar mínimo existencial e dever estatal, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1800,14 +1816,16 @@ export const direitosHumanosAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Saúde, educação, moradia, assistência e trabalho têm relação direta com prevenção de conflitos e segurança pública.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de mínimo existencial e dever estatal."
+        "comentario": "A assertiva está correta porque expressa ponto central de mínimo existencial e dever estatal.",
+        "correta": true
       },
       {
         "id": "direitos-humanos-avancado-09-q03",
         "tipo": "certo_errado",
         "enunciado": "Afirmar que direito social é mera promessa política.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direitos-humanos-avancado-09-q04",
@@ -2007,14 +2025,16 @@ export const direitosHumanosAvancado = [
         "tipo": "certo_errado",
         "enunciado": "Reparação não é só indenização; pode envolver investigação, pedido público de desculpas, tratamento médico e reforma institucional.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de consequências das violações."
+        "comentario": "A assertiva está correta porque expressa ponto central de consequências das violações.",
+        "correta": true
       },
       {
         "id": "direitos-humanos-avancado-10-q03",
         "tipo": "certo_errado",
         "enunciado": "Limitar reparação a dinheiro.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "direitos-humanos-avancado-10-q04",

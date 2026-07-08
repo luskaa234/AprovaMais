@@ -1393,7 +1393,7 @@ export const informatica = [
       },
       {
         "frente": "Pegadinha comum em Sistemas operacionais: Windows e Linux básico",
-        "verso": "Confundir Ctrl+C (copiar, mantém original) com Ctrl+X (recortar, remove original).",
+        "verso": "Confundir Ctrl+C (copiar, mantém original) com Ctrl+X (recortar, remove original). Revisão ampliada: em Sistemas operacionais: Windows e Linux básico, o aluno deve identificar Sistemas operacionais, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -2975,7 +2975,7 @@ export const informatica = [
       },
       {
         "frente": "Pegadinha comum em Internet: navegadores, e-mail e nuvem",
-        "verso": "Confundir HTTP com HTTPS, ignorando a diferença de criptografia entre os dois.",
+        "verso": "Confundir HTTP com HTTPS, ignorando a diferença de criptografia entre os dois. Revisão ampliada: em Internet: navegadores, e-mail e nuvem, o aluno deve identificar Internet e serviços web, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -3766,7 +3766,7 @@ export const informatica = [
       },
       {
         "frente": "Pegadinha comum em Segurança da informação: malware e phishing",
-        "verso": "Confundir vírus (precisa de ação do usuário) com worm (se espalha sozinho).",
+        "verso": "Confundir vírus (precisa de ação do usuário) com worm (se espalha sozinho). Revisão ampliada: em Segurança da informação: malware e phishing, o aluno deve identificar Segurança da informação, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],

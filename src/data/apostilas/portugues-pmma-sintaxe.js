@@ -3730,7 +3730,7 @@ export const apostilaPortuguesSintaxe = [
       },
       {
         "frente": "Pegadinha comum em Regência nominal e uso de preposições",
-        "verso": "Usar 'diferente que' em vez de 'diferente de'.",
+        "verso": "Usar 'diferente que' em vez de 'diferente de'. Revisão ampliada: em Regência nominal e uso de preposições, o aluno deve identificar Regência nominal, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -5300,7 +5300,7 @@ export const apostilaPortuguesSintaxe = [
       },
       {
         "frente": "Pegadinha comum em Crase: casos proibidos e facultativos",
-        "verso": "Colocar crase em 'a pé', 'a lápis', 'a prazo' por soarem femininas ao ouvido.",
+        "verso": "Colocar crase em 'a pé', 'a lápis', 'a prazo' por soarem femininas ao ouvido. Revisão ampliada: em Crase: casos proibidos e facultativos, o aluno deve identificar Crase, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],

@@ -154,11 +154,11 @@ export const eca = [
       },
       {
         "frente": "Pegadinha comum em Proteção integral, prioridade absoluta e conceitos básicos do ECA",
-        "verso": "Confundir proteção integral com simples proteção assistencialista."
+        "verso": "Confundir proteção integral com simples proteção assistencialista. Revisão ampliada: em Proteção integral, prioridade absoluta e conceitos básicos do ECA, o aluno deve identificar Princípios estruturantes do ECA, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "proteção integral, prioridade absoluta, criança, adolescente, sujeito de direitos"
+        "verso": "proteção integral, prioridade absoluta, criança, adolescente, sujeito de direitos Revisão ampliada: em Proteção integral, prioridade absoluta e conceitos básicos do ECA, o aluno deve identificar Princípios estruturantes do ECA, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -581,11 +581,11 @@ export const eca = [
       },
       {
         "frente": "Pegadinha comum em Direitos fundamentais: vida, saúde, liberdade, respeito, dignidade e convivência familiar",
-        "verso": "Tratar pobreza como motivo suficiente para retirada da criança da família."
+        "verso": "Tratar pobreza como motivo suficiente para retirada da criança da família. Revisão ampliada: em Direitos fundamentais: vida, saúde, liberdade, respeito, dignidade e convivência familiar, o aluno deve identificar Direitos fundamentais no ECA, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "vida, saúde, liberdade, respeito, dignidade, convivência familiar"
+        "verso": "vida, saúde, liberdade, respeito, dignidade, convivência familiar Revisão ampliada: em Direitos fundamentais: vida, saúde, liberdade, respeito, dignidade e convivência familiar, o aluno deve identificar Direitos fundamentais no ECA, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -1008,11 +1008,11 @@ export const eca = [
       },
       {
         "frente": "Pegadinha comum em Família natural, família extensa, família substituta, guarda, tutela e adoção",
-        "verso": "Confundir guarda com adoção definitiva."
+        "verso": "Confundir guarda com adoção definitiva. Revisão ampliada: em Família natural, família extensa, família substituta, guarda, tutela e adoção, o aluno deve identificar Convivência familiar e colocação em família substituta, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "família natural, família extensa, família substituta, guarda, tutela, adoção"
+        "verso": "família natural, família extensa, família substituta, guarda, tutela, adoção Revisão ampliada: em Família natural, família extensa, família substituta, guarda, tutela e adoção, o aluno deve identificar Convivência familiar e colocação em família substituta, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -1437,7 +1437,7 @@ export const eca = [
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "educação, escola, aprendizagem, trabalho infantil, profissionalização"
+        "verso": "educação, escola, aprendizagem, trabalho infantil, profissionalização Revisão ampliada: em Educação, cultura, esporte, lazer, profissionalização e proteção no trabalho, o aluno deve identificar Direitos sociais e proteção contra trabalho infantil, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -1858,11 +1858,11 @@ export const eca = [
       },
       {
         "frente": "Pegadinha comum em Prevenção, produtos, serviços, autorização para viagem e proteção contra violência",
-        "verso": "Achar que o ECA só age depois do dano consumado."
+        "verso": "Achar que o ECA só age depois do dano consumado. Revisão ampliada: em Prevenção, produtos, serviços, autorização para viagem e proteção contra violência, o aluno deve identificar Prevenção especial e proteção contra riscos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "prevenção, autorização para viagem, violência, produtos proibidos, proteção especial"
+        "verso": "prevenção, autorização para viagem, violência, produtos proibidos, proteção especial Revisão ampliada: em Prevenção, produtos, serviços, autorização para viagem e proteção contra violência, o aluno deve identificar Prevenção especial e proteção contra riscos, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -2283,7 +2283,7 @@ export const eca = [
       },
       {
         "frente": "Pegadinha comum em Medidas de proteção e atuação do Conselho Tutelar",
-        "verso": "Achar que Conselho Tutelar aplica internação socioeducativa."
+        "verso": "Achar que Conselho Tutelar aplica internação socioeducativa. Revisão ampliada: em Medidas de proteção e atuação do Conselho Tutelar, o aluno deve identificar Sistema protetivo e Conselho Tutelar, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
@@ -2708,11 +2708,11 @@ export const eca = [
       },
       {
         "frente": "Pegadinha comum em Ato infracional: conceito, apreensão e garantias do adolescente",
-        "verso": "Chamar medida socioeducativa de pena criminal comum."
+        "verso": "Chamar medida socioeducativa de pena criminal comum. Revisão ampliada: em Ato infracional: conceito, apreensão e garantias do adolescente, o aluno deve identificar Responsabilização do adolescente autor de ato infracional, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "ato infracional, adolescente, apreensão, garantias, devido processo"
+        "verso": "ato infracional, adolescente, apreensão, garantias, devido processo Revisão ampliada: em Ato infracional: conceito, apreensão e garantias do adolescente, o aluno deve identificar Responsabilização do adolescente autor de ato infracional, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -3135,7 +3135,7 @@ export const eca = [
       },
       {
         "frente": "Pegadinha comum em Medidas socioeducativas: advertência, reparação, PSC, liberdade assistida, semiliberdade e internação",
-        "verso": "Achar que ato infracional grave gera internação automática."
+        "verso": "Achar que ato infracional grave gera internação automática. Revisão ampliada: em Medidas socioeducativas: advertência, reparação, PSC, liberdade assistida, semiliberdade e internação, o aluno deve identificar Espécies de medidas socioeducativas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
@@ -3560,7 +3560,7 @@ export const eca = [
       },
       {
         "frente": "Pegadinha comum em Justiça da Infância e Juventude: competência, procedimentos e atores do sistema",
-        "verso": "Achar que o Conselho Tutelar julga ato infracional."
+        "verso": "Achar que o Conselho Tutelar julga ato infracional. Revisão ampliada: em Justiça da Infância e Juventude: competência, procedimentos e atores do sistema, o aluno deve identificar Sistema de justiça infantojuvenil, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
@@ -3985,7 +3985,7 @@ export const eca = [
       },
       {
         "frente": "Pegadinha comum em Crimes e infrações administrativas no ECA",
-        "verso": "Confundir crime do ECA com ato infracional."
+        "verso": "Confundir crime do ECA com ato infracional. Revisão ampliada: em Crimes e infrações administrativas no ECA, o aluno deve identificar Responsabilização de adultos e proteção penal-administrativa, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",

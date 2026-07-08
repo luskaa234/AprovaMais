@@ -602,7 +602,7 @@ export const raciocinioLogico = [
       },
       {
         "frente": "Pegadinha comum em Proposições e conectivos lógicos",
-        "verso": "Tratar pergunta retórica ou frase de opinião como proposição lógica.",
+        "verso": "Tratar pergunta retórica ou frase de opinião como proposição lógica. Revisão ampliada: em Proposições e conectivos lógicos, o aluno deve identificar Lógica proposicional, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -2975,7 +2975,7 @@ export const raciocinioLogico = [
       },
       {
         "frente": "Pegadinha comum em Argumentos válidos e silogismos",
-        "verso": "Aceitar como válida a falácia de afirmar o consequente ou negar o antecedente.",
+        "verso": "Aceitar como válida a falácia de afirmar o consequente ou negar o antecedente. Revisão ampliada: em Argumentos válidos e silogismos, o aluno deve identificar Argumentação lógica, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -7721,7 +7721,7 @@ export const raciocinioLogico = [
       },
       {
         "frente": "Pegadinha comum em Análise combinatória e probabilidade lógica básica",
-        "verso": "Usar arranjo quando a ordem não importa (deveria ser combinação), ou vice-versa.",
+        "verso": "Usar arranjo quando a ordem não importa (deveria ser combinação), ou vice-versa. Revisão ampliada: em Análise combinatória e probabilidade lógica básica, o aluno deve identificar Combinatória e probabilidade, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],

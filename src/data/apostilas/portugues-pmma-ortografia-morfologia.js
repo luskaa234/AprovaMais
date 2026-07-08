@@ -1382,7 +1382,7 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       },
       {
         "frente": "Pegadinha comum em Uso do hífen no Acordo Ortográfico",
-        "verso": "Aplicar a regra antiga (pré-acordo), que usava hífen com muito mais frequência.",
+        "verso": "Aplicar a regra antiga (pré-acordo), que usava hífen com muito mais frequência. Revisão ampliada: em Uso do hífen no Acordo Ortográfico, o aluno deve identificar Ortografia, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -2961,7 +2961,7 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       },
       {
         "frente": "Pegadinha comum em Por que, porque, por quê e porquê",
-        "verso": "Usar 'porque' junto em uma pergunta direta, quando deveria ser 'por que' separado.",
+        "verso": "Usar 'porque' junto em uma pergunta direta, quando deveria ser 'por que' separado. Revisão ampliada: em Por que, porque, por quê e porquê, o aluno deve identificar Ortografia, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -3773,7 +3773,7 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       },
       {
         "frente": "Pegadinha comum em Mau, mal, mas, mais, há e a",
-        "verso": "Usar 'a' quando o contexto indica tempo passado decorrido (deveria ser 'há').",
+        "verso": "Usar 'a' quando o contexto indica tempo passado decorrido (deveria ser 'há'). Revisão ampliada: em Mau, mal, mas, mais, há e a, o aluno deve identificar Ortografia, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -4586,7 +4586,7 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       },
       {
         "frente": "Pegadinha comum em Onde, aonde, senão, se não e afim, a fim",
-        "verso": "Usar 'onde' com verbo de movimento explícito (deveria ser 'aonde').",
+        "verso": "Usar 'onde' com verbo de movimento explícito (deveria ser 'aonde'). Revisão ampliada: em Onde, aonde, senão, se não e afim, a fim, o aluno deve identificar Ortografia, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -6971,7 +6971,7 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       },
       {
         "frente": "Pegadinha comum em Pronomes relativos e colocação pronominal",
-        "verso": "Usar artigo depois de 'cujo' ('cujo o filho'), erro clássico e recorrente.",
+        "verso": "Usar artigo depois de 'cujo' ('cujo o filho'), erro clássico e recorrente. Revisão ampliada: em Pronomes relativos e colocação pronominal, o aluno deve identificar Morfologia e sintaxe, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],
@@ -7763,7 +7763,7 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       },
       {
         "frente": "Pegadinha comum em Verbos: tempos, modos e vozes verbais",
-        "verso": "Deixar o verbo no singular em passiva sintética com sujeito paciente plural.",
+        "verso": "Deixar o verbo no singular em passiva sintética com sujeito paciente plural. Revisão ampliada: em Verbos: tempos, modos e vozes verbais, o aluno deve identificar Morfologia verbal, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "nivel": "banca"
       }
     ],

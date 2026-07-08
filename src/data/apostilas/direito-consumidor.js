@@ -153,11 +153,11 @@ export const direitoConsumidor = [
       },
       {
         "frente": "Pegadinha comum em Relação de consumo: consumidor, fornecedor, produto e serviço",
-        "verso": "Aplicar CDC em qualquer contrato, mesmo sem fornecedor profissional."
+        "verso": "Aplicar CDC em qualquer contrato, mesmo sem fornecedor profissional. Revisão ampliada: em Relação de consumo: consumidor, fornecedor, produto e serviço, o aluno deve identificar Elementos da relação de consumo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "consumidor, fornecedor, produto, serviço, consumidor equiparado"
+        "verso": "consumidor, fornecedor, produto, serviço, consumidor equiparado Revisão ampliada: em Relação de consumo: consumidor, fornecedor, produto e serviço, o aluno deve identificar Elementos da relação de consumo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -586,7 +586,7 @@ export const direitoConsumidor = [
     "dataConferenciaPedagogica": "2026-07-07",
     "precisaConferenciaOficialAntesDePublicar": true,
     "corpo": [
-      "O CDC parte de uma ideia central: o consumidor é vulnerável no mercado. Isso não significa que todo consumidor seja pobre ou incapaz; significa que, diante do fornecedor, normalmente tem menos informação técnica, menos força econômica, menos controle sobre contratos e menos domínio sobre riscos do produto ou serviço.",
+      "O CDC parte de um núcleo conceitual: o consumidor é vulnerável no mercado. Isso não significa que todo consumidor seja pobre ou incapaz; significa que, diante do fornecedor, normalmente tem menos informação técnica, menos força econômica, menos controle sobre contratos e menos domínio sobre riscos do produto ou serviço.",
       "Os direitos básicos funcionam como ferramentas de equilíbrio: proteção da vida e segurança, informação clara, educação para o consumo, liberdade de escolha, proteção contra publicidade enganosa e abusiva, revisão de cláusulas desproporcionais, reparação de danos e facilitação da defesa em juízo.",
       "Em prova, a banca gosta de trocar vulnerabilidade por hipossuficiência. Vulnerabilidade é presunção geral do consumidor no mercado. Hipossuficiência é análise mais concreta, muito relevante para medidas como inversão do ônus da prova."
     ],
@@ -660,7 +660,7 @@ export const direitoConsumidor = [
         {
           "titulo": "ideia central",
           "itens": [
-            "O CDC parte de uma ideia central: o consumidor é vulnerável no mercado. Isso não significa que todo consumidor seja pobre ou incapaz; significa que, diante do fornecedor, normalmente tem menos informação técnica, menos força econômica, menos controle sobre contratos e menos domínio sobre riscos do produto ou serviço."
+            "O CDC parte de um núcleo conceitual: o consumidor é vulnerável no mercado. Isso não significa que todo consumidor seja pobre ou incapaz; significa que, diante do fornecedor, normalmente tem menos informação técnica, menos força econômica, menos controle sobre contratos e menos domínio sobre riscos do produto ou serviço."
           ]
         },
         {
@@ -688,11 +688,11 @@ export const direitoConsumidor = [
       },
       {
         "frente": "Pegadinha comum em Princípios e direitos básicos do consumidor",
-        "verso": "Confundir vulnerabilidade com pobreza."
+        "verso": "Confundir vulnerabilidade com pobreza. Revisão ampliada: em Princípios e direitos básicos do consumidor, o aluno deve identificar Vulnerabilidade, informação e proteção básica, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "vulnerabilidade, informação, segurança, boa-fé, equilíbrio"
+        "verso": "vulnerabilidade, informação, segurança, boa-fé, equilíbrio Revisão ampliada: em Princípios e direitos básicos do consumidor, o aluno deve identificar Vulnerabilidade, informação e proteção básica, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -1223,11 +1223,11 @@ export const direitoConsumidor = [
       },
       {
         "frente": "Pegadinha comum em Responsabilidade pelo fato do produto e do serviço",
-        "verso": "Confundir defeito de segurança com simples vício de qualidade."
+        "verso": "Confundir defeito de segurança com simples vício de qualidade. Revisão ampliada: em Responsabilidade pelo fato do produto e do serviço, o aluno deve identificar Acidente de consumo e dever de indenizar, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "fato do produto, fato do serviço, defeito, dano, responsabilidade objetiva"
+        "verso": "fato do produto, fato do serviço, defeito, dano, responsabilidade objetiva Revisão ampliada: em Responsabilidade pelo fato do produto e do serviço, o aluno deve identificar Acidente de consumo e dever de indenizar, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -1758,11 +1758,11 @@ export const direitoConsumidor = [
       },
       {
         "frente": "Pegadinha comum em Responsabilidade por vício do produto e do serviço",
-        "verso": "Confundir prazo para vício com prescrição de acidente de consumo."
+        "verso": "Confundir prazo para vício com prescrição de acidente de consumo. Revisão ampliada: em Responsabilidade por vício do produto e do serviço, o aluno deve identificar Vício, prazos e alternativas do consumidor, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "vício, produto durável, produto não durável, prazo decadencial, abatimento"
+        "verso": "vício, produto durável, produto não durável, prazo decadencial, abatimento Revisão ampliada: em Responsabilidade por vício do produto e do serviço, o aluno deve identificar Vício, prazos e alternativas do consumidor, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -2293,11 +2293,11 @@ export const direitoConsumidor = [
       },
       {
         "frente": "Pegadinha comum em Oferta, publicidade e práticas abusivas",
-        "verso": "Confundir publicidade enganosa com abusiva."
+        "verso": "Confundir publicidade enganosa com abusiva. Revisão ampliada: em Oferta, publicidade e práticas abusivas, o aluno deve identificar Proteção pré-contratual e condutas vedadas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "oferta, publicidade enganosa, publicidade abusiva, venda casada, prática abusiva"
+        "verso": "oferta, publicidade enganosa, publicidade abusiva, venda casada, prática abusiva Revisão ampliada: em Oferta, publicidade e práticas abusivas, o aluno deve identificar Proteção pré-contratual e condutas vedadas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {
@@ -2824,11 +2824,11 @@ export const direitoConsumidor = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Cobrança de dívidas e bancos de dados de consumidores?",
-        "verso": "Cobrança de dívida deve respeitar dignidade, informação correta e limites legais."
+        "verso": "Cobrança de dívida deve respeitar dignidade, informação correta e limites legais. Revisão ampliada: em Cobrança de dívidas e bancos de dados de consumidores, o aluno deve identificar Cobrança, negativação e cadastro de inadimplentes, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Pegadinha comum em Cobrança de dívidas e bancos de dados de consumidores",
-        "verso": "Achar que dívida autoriza qualquer forma de cobrança."
+        "verso": "Achar que dívida autoriza qualquer forma de cobrança. Revisão ampliada: em Cobrança de dívidas e bancos de dados de consumidores, o aluno deve identificar Cobrança, negativação e cadastro de inadimplentes, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
@@ -3363,7 +3363,7 @@ export const direitoConsumidor = [
       },
       {
         "frente": "Pegadinha comum em Proteção contratual, cláusulas abusivas e contratos de adesão",
-        "verso": "Achar que todo contrato assinado é válido integralmente."
+        "verso": "Achar que todo contrato assinado é válido integralmente. Revisão ampliada: em Proteção contratual, cláusulas abusivas e contratos de adesão, o aluno deve identificar Controle de abusividade nos contratos de consumo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
@@ -3898,7 +3898,7 @@ export const direitoConsumidor = [
       },
       {
         "frente": "Pegadinha comum em Direito de arrependimento e comércio eletrônico",
-        "verso": "Confundir arrependimento com garantia por vício."
+        "verso": "Confundir arrependimento com garantia por vício. Revisão ampliada: em Direito de arrependimento e comércio eletrônico, o aluno deve identificar Contratação fora do estabelecimento e compras online, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
@@ -4433,7 +4433,7 @@ export const direitoConsumidor = [
       },
       {
         "frente": "Pegadinha comum em Defesa do consumidor em juízo e inversão do ônus da prova",
-        "verso": "Achar que inversão do ônus da prova é automática em todo caso."
+        "verso": "Achar que inversão do ônus da prova é automática em todo caso. Revisão ampliada: em Defesa do consumidor em juízo e inversão do ônus da prova, o aluno deve identificar Processo, facilitação da defesa e tutela coletiva, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
@@ -4968,11 +4968,11 @@ export const direitoConsumidor = [
       },
       {
         "frente": "Pegadinha comum em Sistema Nacional de Defesa do Consumidor, sanções e crimes consumeristas",
-        "verso": "Achar que consumidor só se defende por ação individual."
+        "verso": "Achar que consumidor só se defende por ação individual. Revisão ampliada: em Sistema Nacional de Defesa do Consumidor, sanções e crimes consumeristas, o aluno deve identificar Proteção administrativa e penal do consumidor, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "SNDC, Procon, sanções administrativas, multa, crimes contra o consumidor"
+        "verso": "SNDC, Procon, sanções administrativas, multa, crimes contra o consumidor Revisão ampliada: em Sistema Nacional de Defesa do Consumidor, sanções e crimes consumeristas, o aluno deve identificar Proteção administrativa e penal do consumidor, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "rubricaDominio": {

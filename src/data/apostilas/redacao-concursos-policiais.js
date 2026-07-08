@@ -113,7 +113,7 @@ export const redacaoConcursosPoliciais = [
       {
         "id": "redacao-para-concursos-policiais-01-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Começar com frase de efeito vazia e só depois tentar descobrir a tese.",
+        "verso": "Começar com frase de efeito vazia e só depois tentar descobrir a tese. Revisão ampliada: em Estrutura da redação policial: tese, problema e caminho de solução, o aluno deve identificar montagem do texto dissertativo para banca policial, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -145,14 +145,16 @@ export const redacaoConcursosPoliciais = [
         "tipo": "certo_errado",
         "enunciado": "A introdução deve apresentar o problema, delimitar o recorte e indicar a linha de raciocínio que será desenvolvida nos parágrafos seguintes.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de montagem do texto dissertativo para banca policial."
+        "comentario": "A assertiva está correta porque expressa ponto central de montagem do texto dissertativo para banca policial.",
+        "correta": true
       },
       {
         "id": "redacao-para-concursos-policiais-01-q03",
         "tipo": "certo_errado",
         "enunciado": "Começar com frase de efeito vazia e só depois tentar descobrir a tese.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "redacao-para-concursos-policiais-01-q04",
@@ -321,7 +323,7 @@ export const redacaoConcursosPoliciais = [
       {
         "id": "redacao-para-concursos-policiais-02-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Tratar qualquer tema policial como autorização para escrever sobre aumento de penas.",
+        "verso": "Tratar qualquer tema policial como autorização para escrever sobre aumento de penas. Revisão ampliada: em Leitura do tema e recorte: como não fugir da proposta, o aluno deve identificar interpretação do comando da redação, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -353,14 +355,16 @@ export const redacaoConcursosPoliciais = [
         "tipo": "certo_errado",
         "enunciado": "Quando a proposta menciona segurança pública, o aluno deve identificar se o foco é prevenção, repressão qualificada, direitos humanos, tecnologia ou gestão.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de interpretação do comando da redação."
+        "comentario": "A assertiva está correta porque expressa ponto central de interpretação do comando da redação.",
+        "correta": true
       },
       {
         "id": "redacao-para-concursos-policiais-02-q03",
         "tipo": "certo_errado",
         "enunciado": "Tratar qualquer tema policial como autorização para escrever sobre aumento de penas.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "redacao-para-concursos-policiais-02-q04",
@@ -528,7 +532,7 @@ export const redacaoConcursosPoliciais = [
       {
         "id": "redacao-para-concursos-policiais-03-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Confundir tese com opinião solta: “segurança pública é importante”.",
+        "verso": "Confundir tese com opinião solta: “segurança pública é importante”. Revisão ampliada: em Tese e projeto de texto: promessa que o desenvolvimento precisa cumprir, o aluno deve identificar planejamento argumentativo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -560,14 +564,16 @@ export const redacaoConcursosPoliciais = [
         "tipo": "certo_errado",
         "enunciado": "Projeto de texto é o mapa dos argumentos: cada desenvolvimento precisa cumprir uma parte da promessa feita na introdução.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de planejamento argumentativo."
+        "comentario": "A assertiva está correta porque expressa ponto central de planejamento argumentativo.",
+        "correta": true
       },
       {
         "id": "redacao-para-concursos-policiais-03-q03",
         "tipo": "certo_errado",
         "enunciado": "Confundir tese com opinião solta: “segurança pública é importante”.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "redacao-para-concursos-policiais-03-q04",
@@ -735,7 +741,7 @@ export const redacaoConcursosPoliciais = [
       {
         "id": "redacao-para-concursos-policiais-04-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Usar dado estatístico sem fonte ou número improvável.",
+        "verso": "Usar dado estatístico sem fonte ou número improvável. Revisão ampliada: em Introdução nota alta: contextualização sem enrolação, o aluno deve identificar abertura do texto, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -767,14 +773,16 @@ export const redacaoConcursosPoliciais = [
         "tipo": "certo_errado",
         "enunciado": "A introdução ideal tem três movimentos: cenário, problema e tese; isso dá clareza sem consumir espaço do desenvolvimento.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de abertura do texto."
+        "comentario": "A assertiva está correta porque expressa ponto central de abertura do texto.",
+        "correta": true
       },
       {
         "id": "redacao-para-concursos-policiais-04-q03",
         "tipo": "certo_errado",
         "enunciado": "Usar dado estatístico sem fonte ou número improvável.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "redacao-para-concursos-policiais-04-q04",
@@ -974,14 +982,16 @@ export const redacaoConcursosPoliciais = [
         "tipo": "certo_errado",
         "enunciado": "Repertório só vale quando é analisado: citar Constituição, política pública ou caso social sem demonstrar a relação com a tese não aumenta a nota.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de construção do parágrafo argumentativo."
+        "comentario": "A assertiva está correta porque expressa ponto central de construção do parágrafo argumentativo.",
+        "correta": true
       },
       {
         "id": "redacao-para-concursos-policiais-05-q03",
         "tipo": "certo_errado",
         "enunciado": "Empilhar repertórios sem interpretar.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "redacao-para-concursos-policiais-05-q04",
@@ -1149,7 +1159,7 @@ export const redacaoConcursosPoliciais = [
       {
         "id": "redacao-para-concursos-policiais-06-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Usar “outrossim” e “destarte” de modo artificial.",
+        "verso": "Usar “outrossim” e “destarte” de modo artificial. Revisão ampliada: em Coesão e progressão: conectivos que realmente organizam o raciocínio, o aluno deve identificar encadeamento textual, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1181,14 +1191,16 @@ export const redacaoConcursosPoliciais = [
         "tipo": "certo_errado",
         "enunciado": "Conectivos como “portanto” exigem conclusão real; usar depois de uma ideia sem consequência produz salto lógico.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de encadeamento textual."
+        "comentario": "A assertiva está correta porque expressa ponto central de encadeamento textual.",
+        "correta": true
       },
       {
         "id": "redacao-para-concursos-policiais-06-q03",
         "tipo": "certo_errado",
         "enunciado": "Usar “outrossim” e “destarte” de modo artificial.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "redacao-para-concursos-policiais-06-q04",
@@ -1356,7 +1368,7 @@ export const redacaoConcursosPoliciais = [
       {
         "id": "redacao-para-concursos-policiais-07-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Encerrar com “conscientizar a população” sem agente ou mecanismo.",
+        "verso": "Encerrar com “conscientizar a população” sem agente ou mecanismo. Revisão ampliada: em Conclusão: fechamento consistente e medida institucional, o aluno deve identificar fechamento do texto, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1388,14 +1400,16 @@ export const redacaoConcursosPoliciais = [
         "tipo": "certo_errado",
         "enunciado": "Quando houver proposta, ela precisa indicar agente, ação, finalidade e limite de legalidade, sem prometer resultado absoluto.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de fechamento do texto."
+        "comentario": "A assertiva está correta porque expressa ponto central de fechamento do texto.",
+        "correta": true
       },
       {
         "id": "redacao-para-concursos-policiais-07-q03",
         "tipo": "certo_errado",
         "enunciado": "Encerrar com “conscientizar a população” sem agente ou mecanismo.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "redacao-para-concursos-policiais-07-q04",
@@ -1563,7 +1577,7 @@ export const redacaoConcursosPoliciais = [
       {
         "id": "redacao-para-concursos-policiais-08-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Tratar direitos humanos como obstáculo à polícia.",
+        "verso": "Tratar direitos humanos como obstáculo à polícia. Revisão ampliada: em Repertórios seguros para segurança pública e direitos humanos, o aluno deve identificar uso de referências sem decorar frases, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1595,14 +1609,16 @@ export const redacaoConcursosPoliciais = [
         "tipo": "certo_errado",
         "enunciado": "Constituição, cidadania, dignidade humana, eficiência administrativa e prevenção são eixos versáteis para concursos policiais.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de uso de referências sem decorar frases."
+        "comentario": "A assertiva está correta porque expressa ponto central de uso de referências sem decorar frases.",
+        "correta": true
       },
       {
         "id": "redacao-para-concursos-policiais-08-q03",
         "tipo": "certo_errado",
         "enunciado": "Tratar direitos humanos como obstáculo à polícia.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "redacao-para-concursos-policiais-08-q04",
@@ -1770,7 +1786,7 @@ export const redacaoConcursosPoliciais = [
       {
         "id": "redacao-para-concursos-policiais-09-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Decorar texto pronto e tentar encaixar em qualquer tema.",
+        "verso": "Decorar texto pronto e tentar encaixar em qualquer tema. Revisão ampliada: em Temas prováveis e matriz de argumentos policiais, o aluno deve identificar preparação temática, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -1802,14 +1818,16 @@ export const redacaoConcursosPoliciais = [
         "tipo": "certo_errado",
         "enunciado": "A matriz causa-consequência-solução permite adaptar repertórios sem decorar redações prontas.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de preparação temática."
+        "comentario": "A assertiva está correta porque expressa ponto central de preparação temática.",
+        "correta": true
       },
       {
         "id": "redacao-para-concursos-policiais-09-q03",
         "tipo": "certo_errado",
         "enunciado": "Decorar texto pronto e tentar encaixar em qualquer tema.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "redacao-para-concursos-policiais-09-q04",
@@ -1977,7 +1995,7 @@ export const redacaoConcursosPoliciais = [
       {
         "id": "redacao-para-concursos-policiais-10-fc03",
         "frente": "Qual pegadinha deve ser evitada?",
-        "verso": "Corrigir só acento e vírgula, ignorando tese e argumento.",
+        "verso": "Corrigir só acento e vírgula, ignorando tese e argumento. Revisão ampliada: em Reescrita por rubrica: como transformar nota 6 em nota 9, o aluno deve identificar correção e melhoria do texto, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada.",
         "tag": "pegadinha",
         "nivel": "intermediario"
       },
@@ -2009,14 +2027,16 @@ export const redacaoConcursosPoliciais = [
         "tipo": "certo_errado",
         "enunciado": "A rubrica deve separar aderência ao tema, estrutura, argumentação, repertório, norma-padrão e conclusão.",
         "gabarito": "Certo",
-        "comentario": "A assertiva está correta porque expressa ponto central de correção e melhoria do texto."
+        "comentario": "A assertiva está correta porque expressa ponto central de correção e melhoria do texto.",
+        "correta": true
       },
       {
         "id": "redacao-para-concursos-policiais-10-q03",
         "tipo": "certo_errado",
         "enunciado": "Corrigir só acento e vírgula, ignorando tese e argumento.",
         "gabarito": "Errado",
-        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto.",
+        "correta": false
       },
       {
         "id": "redacao-para-concursos-policiais-10-q04",

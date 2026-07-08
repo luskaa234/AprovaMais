@@ -171,15 +171,15 @@ export const criminologiaSegurancaPublicaAvancada = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Dizer que Criminologia cria crimes e penas."
+        "verso": "Dizer que Criminologia cria crimes e penas. Revisão ampliada: em Criminologia: conceito, objeto, método e funções, o aluno deve identificar Fundamentos da Criminologia, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Separar Criminologia, Direito Penal e Política Criminal antes de responder"
+        "verso": "Separar Criminologia, Direito Penal e Política Criminal antes de responder Revisão ampliada: em Criminologia: conceito, objeto, método e funções, o aluno deve identificar Fundamentos da Criminologia, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como fechar uma questão difícil?",
-        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática."
+        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática. Revisão ampliada: em Criminologia: conceito, objeto, método e funções, o aluno deve identificar Fundamentos da Criminologia, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -250,7 +250,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "criminologia-conceito-objeto-metodo-funcoes-q03",
@@ -269,7 +270,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "criminologia-conceito-objeto-metodo-funcoes-q04",
@@ -288,7 +290,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": false
       },
       {
         "id": "criminologia-conceito-objeto-metodo-funcoes-q05",
@@ -650,7 +653,7 @@ export const criminologiaSegurancaPublicaAvancada = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Atribuir determinismo biológico à escola clássica."
+        "verso": "Atribuir determinismo biológico à escola clássica. Revisão ampliada: em Escolas criminológicas: clássica, positiva, sociológica e crítica, o aluno deve identificar Evolução das escolas criminológicas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -658,7 +661,7 @@ export const criminologiaSegurancaPublicaAvancada = [
       },
       {
         "frente": "Como fechar uma questão difícil?",
-        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática."
+        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática. Revisão ampliada: em Escolas criminológicas: clássica, positiva, sociológica e crítica, o aluno deve identificar Evolução das escolas criminológicas, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -729,7 +732,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "escolas-criminologicas-classica-positiva-sociologica-critica-q03",
@@ -748,7 +752,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "escolas-criminologicas-classica-positiva-sociologica-critica-q04",
@@ -767,7 +772,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": false
       },
       {
         "id": "escolas-criminologicas-classica-positiva-sociologica-critica-q05",
@@ -1129,7 +1135,7 @@ export const criminologiaSegurancaPublicaAvancada = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Confundir associação diferencial com etiquetamento."
+        "verso": "Confundir associação diferencial com etiquetamento. Revisão ampliada: em Teorias do crime: anomia, associação diferencial, controle social e etiquetamento, o aluno deve identificar Teorias sociológicas do crime, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -1137,7 +1143,7 @@ export const criminologiaSegurancaPublicaAvancada = [
       },
       {
         "frente": "Como fechar uma questão difícil?",
-        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática."
+        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática. Revisão ampliada: em Teorias do crime: anomia, associação diferencial, controle social e etiquetamento, o aluno deve identificar Teorias sociológicas do crime, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -1208,7 +1214,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "teorias-crime-anomia-associacao-controle-etiquetamento-q03",
@@ -1227,7 +1234,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "teorias-crime-anomia-associacao-controle-etiquetamento-q04",
@@ -1246,7 +1254,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": false
       },
       {
         "id": "teorias-crime-anomia-associacao-controle-etiquetamento-q05",
@@ -1608,7 +1617,7 @@ export const criminologiaSegurancaPublicaAvancada = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Tratar vulnerabilidade da vítima como culpa."
+        "verso": "Tratar vulnerabilidade da vítima como culpa. Revisão ampliada: em Vitimologia e prevenção criminal, o aluno deve identificar Vítima, vulnerabilidade e prevenção, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -1616,7 +1625,7 @@ export const criminologiaSegurancaPublicaAvancada = [
       },
       {
         "frente": "Como fechar uma questão difícil?",
-        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática."
+        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática. Revisão ampliada: em Vitimologia e prevenção criminal, o aluno deve identificar Vítima, vulnerabilidade e prevenção, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -1687,7 +1696,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "vitimologia-prevencao-criminal-q03",
@@ -1706,7 +1716,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "vitimologia-prevencao-criminal-q04",
@@ -1725,7 +1736,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": false
       },
       {
         "id": "vitimologia-prevencao-criminal-q05",
@@ -2087,15 +2099,15 @@ export const criminologiaSegurancaPublicaAvancada = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Atribuir investigação de infrações comuns estaduais à PM como regra."
+        "verso": "Atribuir investigação de infrações comuns estaduais à PM como regra. Revisão ampliada: em Segurança pública constitucional: art. 144, órgãos e competências, o aluno deve identificar Constituição e órgãos de segurança pública, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Separar órgão, natureza da atividade, competência e ente federativo responsável"
+        "verso": "Separar órgão, natureza da atividade, competência e ente federativo responsável Revisão ampliada: em Segurança pública constitucional: art. 144, órgãos e competências, o aluno deve identificar Constituição e órgãos de segurança pública, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como fechar uma questão difícil?",
-        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática."
+        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática. Revisão ampliada: em Segurança pública constitucional: art. 144, órgãos e competências, o aluno deve identificar Constituição e órgãos de segurança pública, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -2166,7 +2178,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "seguranca-publica-constitucional-artigo-144-q03",
@@ -2185,7 +2198,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "seguranca-publica-constitucional-artigo-144-q04",
@@ -2204,7 +2218,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": false
       },
       {
         "id": "seguranca-publica-constitucional-artigo-144-q05",
@@ -2566,15 +2581,15 @@ export const criminologiaSegurancaPublicaAvancada = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Dizer que o SUSP extingue competências dos órgãos."
+        "verso": "Dizer que o SUSP extingue competências dos órgãos. Revisão ampliada: em SUSP, PNSPDS, integração e gestão por evidências, o aluno deve identificar Sistema Único de Segurança Pública, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Ler SUSP como sistema de integração, dados, cooperação, planejamento e governança"
+        "verso": "Ler SUSP como sistema de integração, dados, cooperação, planejamento e governança Revisão ampliada: em SUSP, PNSPDS, integração e gestão por evidências, o aluno deve identificar Sistema Único de Segurança Pública, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como fechar uma questão difícil?",
-        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática."
+        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática. Revisão ampliada: em SUSP, PNSPDS, integração e gestão por evidências, o aluno deve identificar Sistema Único de Segurança Pública, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -2645,7 +2660,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "susp-pnspds-integracao-gestao-evidencias-q03",
@@ -2664,7 +2680,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "susp-pnspds-integracao-gestao-evidencias-q04",
@@ -2683,7 +2700,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": false
       },
       {
         "id": "susp-pnspds-integracao-gestao-evidencias-q05",
@@ -3045,7 +3063,7 @@ export const criminologiaSegurancaPublicaAvancada = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Misturar patrulhamento ostensivo com investigação formal."
+        "verso": "Misturar patrulhamento ostensivo com investigação formal. Revisão ampliada: em Polícia ostensiva, polícia judiciária, ciclo de polícia e preservação da ordem, o aluno deve identificar Funções policiais e ciclo de atuação, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -3053,7 +3071,7 @@ export const criminologiaSegurancaPublicaAvancada = [
       },
       {
         "frente": "Como fechar uma questão difícil?",
-        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática."
+        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática. Revisão ampliada: em Polícia ostensiva, polícia judiciária, ciclo de polícia e preservação da ordem, o aluno deve identificar Funções policiais e ciclo de atuação, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -3124,7 +3142,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "policia-ostensiva-judiciaria-ciclo-preservacao-ordem-q03",
@@ -3143,7 +3162,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "policia-ostensiva-judiciaria-ciclo-preservacao-ordem-q04",
@@ -3162,7 +3182,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": false
       },
       {
         "id": "policia-ostensiva-judiciaria-ciclo-preservacao-ordem-q05",
@@ -3524,7 +3545,7 @@ export const criminologiaSegurancaPublicaAvancada = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Achar que direitos humanos impedem ação legítima."
+        "verso": "Achar que direitos humanos impedem ação legítima. Revisão ampliada: em Uso diferenciado da força, direitos humanos e accountability, o aluno deve identificar Limites da atuação estatal e controle, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -3532,7 +3553,7 @@ export const criminologiaSegurancaPublicaAvancada = [
       },
       {
         "frente": "Como fechar uma questão difícil?",
-        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática."
+        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática. Revisão ampliada: em Uso diferenciado da força, direitos humanos e accountability, o aluno deve identificar Limites da atuação estatal e controle, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -3603,7 +3624,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "uso-diferenciado-forca-direitos-humanos-accountability-q03",
@@ -3622,7 +3644,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "uso-diferenciado-forca-direitos-humanos-accountability-q04",
@@ -3641,7 +3664,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": false
       },
       {
         "id": "uso-diferenciado-forca-direitos-humanos-accountability-q05",
@@ -4003,15 +4027,15 @@ export const criminologiaSegurancaPublicaAvancada = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Confundir inteligência com prova processual automática."
+        "verso": "Confundir inteligência com prova processual automática. Revisão ampliada: em Inteligência de segurança pública, investigação e produção de conhecimento, o aluno deve identificar Inteligência aplicada à segurança pública, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
-        "verso": "Separar dado, informação, conhecimento, inteligência, investigação e prova judicial"
+        "verso": "Separar dado, informação, conhecimento, inteligência, investigação e prova judicial Revisão ampliada: em Inteligência de segurança pública, investigação e produção de conhecimento, o aluno deve identificar Inteligência aplicada à segurança pública, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como fechar uma questão difícil?",
-        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática."
+        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática. Revisão ampliada: em Inteligência de segurança pública, investigação e produção de conhecimento, o aluno deve identificar Inteligência aplicada à segurança pública, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -4082,7 +4106,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "inteligencia-seguranca-publica-investigacao-conhecimento-q03",
@@ -4101,7 +4126,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "inteligencia-seguranca-publica-investigacao-conhecimento-q04",
@@ -4120,7 +4146,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": false
       },
       {
         "id": "inteligencia-seguranca-publica-investigacao-conhecimento-q05",
@@ -4482,7 +4509,7 @@ export const criminologiaSegurancaPublicaAvancada = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Achar que política pública é só operação policial."
+        "verso": "Achar que política pública é só operação policial. Revisão ampliada: em Políticas públicas de segurança: prevenção, repressão qualificada, policiamento comunitário e indicadores, o aluno deve identificar Gestão de políticas de segurança pública, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -4490,7 +4517,7 @@ export const criminologiaSegurancaPublicaAvancada = [
       },
       {
         "frente": "Como fechar uma questão difícil?",
-        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática."
+        "verso": "Separe conceito, competência, limite legal, finalidade e consequência prática. Revisão ampliada: em Políticas públicas de segurança: prevenção, repressão qualificada, policiamento comunitário e indicadores, o aluno deve identificar Gestão de políticas de segurança pública, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "tutorIA": {
@@ -4561,7 +4588,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "politicas-publicas-seguranca-prevencao-comunitaria-indicadores-q03",
@@ -4580,7 +4608,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": true
       },
       {
         "id": "politicas-publicas-seguranca-prevencao-comunitaria-indicadores-q04",
@@ -4599,7 +4628,8 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
-        }
+        },
+        "correta": false
       },
       {
         "id": "politicas-publicas-seguranca-prevencao-comunitaria-indicadores-q05",

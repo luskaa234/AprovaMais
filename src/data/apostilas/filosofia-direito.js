@@ -126,15 +126,15 @@ export const filosofiaDireito = [
     "flashcards": [
       {
         "frente": "O que significa filosofia do direito neste capítulo?",
-        "verso": "Filosofia do Direito pergunta pelos fundamentos e limites do direito."
+        "verso": "Filosofia do Direito pergunta pelos fundamentos e limites do direito. Revisão ampliada: em Filosofia do Direito e dogmática jurídica, o aluno deve identificar Conceito de Filosofia do Direito, dogmática jurídica e pensamento crítico, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha em Filosofia do Direito e dogmática jurídica?",
-        "verso": "Confundir Filosofia do Direito com mera memorização de lei."
+        "verso": "Confundir Filosofia do Direito com mera memorização de lei. Revisão ampliada: em Filosofia do Direito e dogmática jurídica, o aluno deve identificar Conceito de Filosofia do Direito, dogmática jurídica e pensamento crítico, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como esse tema costuma cair em prova?",
-        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas."
+        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas. Revisão ampliada: em Filosofia do Direito e dogmática jurídica, o aluno deve identificar Conceito de Filosofia do Direito, dogmática jurídica e pensamento crítico, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "mapaMentalTextual": {
@@ -245,7 +245,8 @@ export const filosofiaDireito = [
             "confundiu teoria oposta"
           ]
         },
-        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo."
+        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo.",
+        "correta": true
       },
       {
         "id": "filosofia-direito-filosofia-do-direito-e-dogmatica-juridica-q03",
@@ -266,7 +267,8 @@ export const filosofiaDireito = [
             "troca de conceito"
           ]
         },
-        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa."
+        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa.",
+        "correta": false
       },
       {
         "id": "filosofia-direito-filosofia-do-direito-e-dogmatica-juridica-q04",
@@ -583,15 +585,15 @@ export const filosofiaDireito = [
     "flashcards": [
       {
         "frente": "O que significa justiça neste capítulo?",
-        "verso": "Validade é critério jurídico-formal."
+        "verso": "Validade é critério jurídico-formal. Revisão ampliada: em Justiça, validade e eficácia da norma jurídica, o aluno deve identificar Distinção entre justiça, validade e eficácia, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha em Justiça, validade e eficácia da norma jurídica?",
-        "verso": "Dizer que toda norma válida é automaticamente justa."
+        "verso": "Dizer que toda norma válida é automaticamente justa. Revisão ampliada: em Justiça, validade e eficácia da norma jurídica, o aluno deve identificar Distinção entre justiça, validade e eficácia, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como esse tema costuma cair em prova?",
-        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas."
+        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas. Revisão ampliada: em Justiça, validade e eficácia da norma jurídica, o aluno deve identificar Distinção entre justiça, validade e eficácia, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "mapaMentalTextual": {
@@ -702,7 +704,8 @@ export const filosofiaDireito = [
             "confundiu teoria oposta"
           ]
         },
-        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo."
+        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo.",
+        "correta": true
       },
       {
         "id": "filosofia-direito-justica-validade-e-eficacia-da-norma-q03",
@@ -723,7 +726,8 @@ export const filosofiaDireito = [
             "troca de conceito"
           ]
         },
-        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa."
+        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa.",
+        "correta": false
       },
       {
         "id": "filosofia-direito-justica-validade-e-eficacia-da-norma-q04",
@@ -1040,15 +1044,15 @@ export const filosofiaDireito = [
     "flashcards": [
       {
         "frente": "O que significa jusnaturalismo neste capítulo?",
-        "verso": "Jusnaturalismo admite um padrão de justiça superior ao direito positivo."
+        "verso": "Jusnaturalismo admite um padrão de justiça superior ao direito positivo. Revisão ampliada: em Jusnaturalismo: direito natural e limites ao poder, o aluno deve identificar Direito natural, justiça superior e crítica ao direito positivo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha em Jusnaturalismo: direito natural e limites ao poder?",
-        "verso": "Achar que jusnaturalismo significa ausência de leis escritas."
+        "verso": "Achar que jusnaturalismo significa ausência de leis escritas. Revisão ampliada: em Jusnaturalismo: direito natural e limites ao poder, o aluno deve identificar Direito natural, justiça superior e crítica ao direito positivo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como esse tema costuma cair em prova?",
-        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas."
+        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas. Revisão ampliada: em Jusnaturalismo: direito natural e limites ao poder, o aluno deve identificar Direito natural, justiça superior e crítica ao direito positivo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "mapaMentalTextual": {
@@ -1159,7 +1163,8 @@ export const filosofiaDireito = [
             "confundiu teoria oposta"
           ]
         },
-        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo."
+        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo.",
+        "correta": true
       },
       {
         "id": "filosofia-direito-jusnaturalismo-q03",
@@ -1180,7 +1185,8 @@ export const filosofiaDireito = [
             "troca de conceito"
           ]
         },
-        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa."
+        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa.",
+        "correta": false
       },
       {
         "id": "filosofia-direito-jusnaturalismo-q04",
@@ -1497,15 +1503,15 @@ export const filosofiaDireito = [
     "flashcards": [
       {
         "frente": "O que significa positivismo jurídico neste capítulo?",
-        "verso": "Positivismo identifica o direito por critérios formais e sociais."
+        "verso": "Positivismo identifica o direito por critérios formais e sociais. Revisão ampliada: em Positivismo jurídico: validade, sistema e segurança jurídica, o aluno deve identificar Positivismo jurídico, separação metodológica entre direito e moral e sistema normativo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha em Positivismo jurídico: validade, sistema e segurança jurídica?",
-        "verso": "Dizer que positivismo afirma que toda lei é moralmente boa."
+        "verso": "Dizer que positivismo afirma que toda lei é moralmente boa. Revisão ampliada: em Positivismo jurídico: validade, sistema e segurança jurídica, o aluno deve identificar Positivismo jurídico, separação metodológica entre direito e moral e sistema normativo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como esse tema costuma cair em prova?",
-        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas."
+        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas. Revisão ampliada: em Positivismo jurídico: validade, sistema e segurança jurídica, o aluno deve identificar Positivismo jurídico, separação metodológica entre direito e moral e sistema normativo, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "mapaMentalTextual": {
@@ -1616,7 +1622,8 @@ export const filosofiaDireito = [
             "confundiu teoria oposta"
           ]
         },
-        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo."
+        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo.",
+        "correta": true
       },
       {
         "id": "filosofia-direito-positivismo-juridico-q03",
@@ -1637,7 +1644,8 @@ export const filosofiaDireito = [
             "troca de conceito"
           ]
         },
-        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa."
+        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa.",
+        "correta": false
       },
       {
         "id": "filosofia-direito-positivismo-juridico-q04",
@@ -1954,15 +1962,15 @@ export const filosofiaDireito = [
     "flashcards": [
       {
         "frente": "O que significa pós-positivismo neste capítulo?",
-        "verso": "Princípios têm força normativa."
+        "verso": "Princípios têm força normativa. Revisão ampliada: em Pós-positivismo, princípios e ponderação, o aluno deve identificar Força normativa dos princípios, proporcionalidade e ponderação, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha em Pós-positivismo, princípios e ponderação?",
-        "verso": "Tratar princípios como enfeites sem força jurídica."
+        "verso": "Tratar princípios como enfeites sem força jurídica. Revisão ampliada: em Pós-positivismo, princípios e ponderação, o aluno deve identificar Força normativa dos princípios, proporcionalidade e ponderação, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como esse tema costuma cair em prova?",
-        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas."
+        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas. Revisão ampliada: em Pós-positivismo, princípios e ponderação, o aluno deve identificar Força normativa dos princípios, proporcionalidade e ponderação, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "mapaMentalTextual": {
@@ -2073,7 +2081,8 @@ export const filosofiaDireito = [
             "confundiu teoria oposta"
           ]
         },
-        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo."
+        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo.",
+        "correta": true
       },
       {
         "id": "filosofia-direito-pos-positivismo-principios-e-ponderacao-q03",
@@ -2094,7 +2103,8 @@ export const filosofiaDireito = [
             "troca de conceito"
           ]
         },
-        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa."
+        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa.",
+        "correta": false
       },
       {
         "id": "filosofia-direito-pos-positivismo-principios-e-ponderacao-q04",
@@ -2411,15 +2421,15 @@ export const filosofiaDireito = [
     "flashcards": [
       {
         "frente": "O que significa direito e moral neste capítulo?",
-        "verso": "Direito e moral se comunicam, mas não se confundem."
+        "verso": "Direito e moral se comunicam, mas não se confundem. Revisão ampliada: em Direito, moral e obediência à lei, o aluno deve identificar Relação entre direito e moral, desobediência civil e legitimidade, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha em Direito, moral e obediência à lei?",
-        "verso": "Dizer que moral e direito são sempre idênticos."
+        "verso": "Dizer que moral e direito são sempre idênticos. Revisão ampliada: em Direito, moral e obediência à lei, o aluno deve identificar Relação entre direito e moral, desobediência civil e legitimidade, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como esse tema costuma cair em prova?",
-        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas."
+        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas. Revisão ampliada: em Direito, moral e obediência à lei, o aluno deve identificar Relação entre direito e moral, desobediência civil e legitimidade, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "mapaMentalTextual": {
@@ -2530,7 +2540,8 @@ export const filosofiaDireito = [
             "confundiu teoria oposta"
           ]
         },
-        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo."
+        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo.",
+        "correta": true
       },
       {
         "id": "filosofia-direito-direito-moral-e-obediencia-a-lei-q03",
@@ -2551,7 +2562,8 @@ export const filosofiaDireito = [
             "troca de conceito"
           ]
         },
-        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa."
+        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa.",
+        "correta": false
       },
       {
         "id": "filosofia-direito-direito-moral-e-obediencia-a-lei-q04",
@@ -2868,15 +2880,15 @@ export const filosofiaDireito = [
     "flashcards": [
       {
         "frente": "O que significa hermenêutica neste capítulo?",
-        "verso": "Interpretar não é apenas repetir palavras da lei."
+        "verso": "Interpretar não é apenas repetir palavras da lei. Revisão ampliada: em Hermenêutica jurídica e interpretação do Direito, o aluno deve identificar Métodos de interpretação, texto, contexto e finalidade da norma, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha em Hermenêutica jurídica e interpretação do Direito?",
-        "verso": "Achar que só existe interpretação literal."
+        "verso": "Achar que só existe interpretação literal. Revisão ampliada: em Hermenêutica jurídica e interpretação do Direito, o aluno deve identificar Métodos de interpretação, texto, contexto e finalidade da norma, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como esse tema costuma cair em prova?",
-        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas."
+        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas. Revisão ampliada: em Hermenêutica jurídica e interpretação do Direito, o aluno deve identificar Métodos de interpretação, texto, contexto e finalidade da norma, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "mapaMentalTextual": {
@@ -2987,7 +2999,8 @@ export const filosofiaDireito = [
             "confundiu teoria oposta"
           ]
         },
-        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo."
+        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo.",
+        "correta": true
       },
       {
         "id": "filosofia-direito-hermeneutica-juridica-e-interpretacao-q03",
@@ -3008,7 +3021,8 @@ export const filosofiaDireito = [
             "troca de conceito"
           ]
         },
-        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa."
+        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa.",
+        "correta": false
       },
       {
         "id": "filosofia-direito-hermeneutica-juridica-e-interpretacao-q04",
@@ -3325,15 +3339,15 @@ export const filosofiaDireito = [
     "flashcards": [
       {
         "frente": "O que significa Aristóteles neste capítulo?",
-        "verso": "Aristóteles destaca proporcionalidade e justiça distributiva."
+        "verso": "Aristóteles destaca proporcionalidade e justiça distributiva. Revisão ampliada: em Teorias da justiça: Aristóteles, Kant e Rawls, o aluno deve identificar Justiça distributiva, autonomia moral e justiça como equidade, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha em Teorias da justiça: Aristóteles, Kant e Rawls?",
-        "verso": "Dizer que justiça distributiva é sempre igualdade matemática."
+        "verso": "Dizer que justiça distributiva é sempre igualdade matemática. Revisão ampliada: em Teorias da justiça: Aristóteles, Kant e Rawls, o aluno deve identificar Justiça distributiva, autonomia moral e justiça como equidade, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como esse tema costuma cair em prova?",
-        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas."
+        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas. Revisão ampliada: em Teorias da justiça: Aristóteles, Kant e Rawls, o aluno deve identificar Justiça distributiva, autonomia moral e justiça como equidade, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "mapaMentalTextual": {
@@ -3444,7 +3458,8 @@ export const filosofiaDireito = [
             "confundiu teoria oposta"
           ]
         },
-        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo."
+        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo.",
+        "correta": true
       },
       {
         "id": "filosofia-direito-teorias-da-justica-aristoteles-kant-rawls-q03",
@@ -3465,7 +3480,8 @@ export const filosofiaDireito = [
             "troca de conceito"
           ]
         },
-        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa."
+        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa.",
+        "correta": false
       },
       {
         "id": "filosofia-direito-teorias-da-justica-aristoteles-kant-rawls-q04",
@@ -3784,15 +3800,15 @@ export const filosofiaDireito = [
     "flashcards": [
       {
         "frente": "O que significa contrato social neste capítulo?",
-        "verso": "Hobbes associa Estado forte à busca de segurança."
+        "verso": "Hobbes associa Estado forte à busca de segurança. Revisão ampliada: em Direito, poder e Estado moderno: contrato social e separação de poderes, o aluno deve identificar Hobbes, Locke, Rousseau, Montesquieu e fundamentos do Estado, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha em Direito, poder e Estado moderno: contrato social e separação de poderes?",
-        "verso": "Atribuir separação de poderes a Hobbes em vez de Montesquieu."
+        "verso": "Atribuir separação de poderes a Hobbes em vez de Montesquieu. Revisão ampliada: em Direito, poder e Estado moderno: contrato social e separação de poderes, o aluno deve identificar Hobbes, Locke, Rousseau, Montesquieu e fundamentos do Estado, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como esse tema costuma cair em prova?",
-        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas."
+        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas. Revisão ampliada: em Direito, poder e Estado moderno: contrato social e separação de poderes, o aluno deve identificar Hobbes, Locke, Rousseau, Montesquieu e fundamentos do Estado, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "mapaMentalTextual": {
@@ -3903,7 +3919,8 @@ export const filosofiaDireito = [
             "confundiu teoria oposta"
           ]
         },
-        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo."
+        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo.",
+        "correta": true
       },
       {
         "id": "filosofia-direito-direito-poder-e-estado-moderno-q03",
@@ -3924,7 +3941,8 @@ export const filosofiaDireito = [
             "troca de conceito"
           ]
         },
-        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa."
+        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa.",
+        "correta": false
       },
       {
         "id": "filosofia-direito-direito-poder-e-estado-moderno-q04",
@@ -4241,15 +4259,15 @@ export const filosofiaDireito = [
     "flashcards": [
       {
         "frente": "O que significa direitos humanos neste capítulo?",
-        "verso": "Democracia constitucional combina vontade popular e direitos fundamentais."
+        "verso": "Democracia constitucional combina vontade popular e direitos fundamentais. Revisão ampliada: em Direitos humanos, democracia e constitucionalismo contemporâneo, o aluno deve identificar Dignidade humana, constitucionalismo, democracia e proteção de minorias, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Qual a principal pegadinha em Direitos humanos, democracia e constitucionalismo contemporâneo?",
-        "verso": "Achar que maioria pode eliminar qualquer direito fundamental."
+        "verso": "Achar que maioria pode eliminar qualquer direito fundamental. Revisão ampliada: em Direitos humanos, democracia e constitucionalismo contemporâneo, o aluno deve identificar Dignidade humana, constitucionalismo, democracia e proteção de minorias, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       },
       {
         "frente": "Como esse tema costuma cair em prova?",
-        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas."
+        "verso": "Por comparação de conceitos, autores, fundamentos e consequências práticas. Revisão ampliada: em Direitos humanos, democracia e constitucionalismo contemporâneo, o aluno deve identificar Dignidade humana, constitucionalismo, democracia e proteção de minorias, aplicar ao caso concreto, comparar com institutos próximos e justificar a resposta sem usar frase decorada."
       }
     ],
     "mapaMentalTextual": {
@@ -4360,7 +4378,8 @@ export const filosofiaDireito = [
             "confundiu teoria oposta"
           ]
         },
-        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo."
+        "habilidadeCobrada": "Reconhecer afirmação conceitual correta em formato de item objetivo.",
+        "correta": true
       },
       {
         "id": "filosofia-direito-direitos-humanos-democracia-e-constitucionalismo-q03",
@@ -4381,7 +4400,8 @@ export const filosofiaDireito = [
             "troca de conceito"
           ]
         },
-        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa."
+        "habilidadeCobrada": "Detectar afirmação sedutora, mas conceitualmente falsa.",
+        "correta": false
       },
       {
         "id": "filosofia-direito-direitos-humanos-democracia-e-constitucionalismo-q04",
