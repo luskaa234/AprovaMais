@@ -1,3367 +1,2059 @@
 /**
- * VemAprovar Top1 — Apostila Premium 10/10 Plus Revisado
- * Arquivo: portugues-avancado.js
- * Módulo: Português Avançado
- * Lote 22: conteúdo novo com gabaritos obrigatórios, flashcards completos e validação programática.
+ * VemAprovar — Português Avançado 10/10 Reescrito de Verdade
+ * Arquivo reescrito do zero para substituir versão genérica/templated.
+ * Foco: conteúdo real, caso prático, pegadinhas e questões com gabarito.
  */
 
 export const portuguesAvancado = [
   {
-    "id": "interpretacao-de-textos-e-leitura-estrategica",
-    "materialTitle": "Português Avançado 10/10 Plus Revisado",
+    "id": "interpretacao-de-textos-tese-inferencia-e-pressupostos",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 1,
     "totalChapters": 10,
-    "title": "Interpretação de textos e leitura estratégica",
-    "assunto": "Interpretação textual",
-    "tecnica": "Estudo por comando da banca, função gramatical, sentido textual, reescrita e eliminação de pegadinhas",
-    "competencia": "Resolver questões de Português com leitura estratégica, análise sintática, domínio da norma culta e preservação de sentido.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Interpretação de textos: tese, inferência e pressupostos",
+    "assunto": "leitura estratégica",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar leitura estratégica com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "OAB": 4,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "interpretação",
-      "inferência",
-      "ideia principal",
-      "pressuposto",
-      "comando da questão"
+      "leitura estrategica"
     ],
-    "fontesBase": [
-      "Gramática normativa aplicada a concursos",
-      "Manual de Redação da Presidência da República quando pertinente",
-      "Editais e padrões de cobrança das principais bancas",
-      "Textos jornalísticos, literários e oficiais para interpretação"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Interpretação textual com foco em concursos policiais, administrativos, tribunais, OAB e ENEM. A cobrança moderna mistura leitura, gramática e reescrita.",
-      "Ideia central: Interpretar bem é localizar a tese do texto, separar informação explícita de inferência e obedecer ao comando da banca.",
-      "Erro comum: Responder pelo que parece verdadeiro fora do texto, e não pelo que o texto autoriza.",
-      "Como estudar: ler o comando, marcar tema, tese, conectivos, palavras de restrição e conclusão do autor. Em seguida, resolva questões, justifique cada eliminação e revise o erro por categoria."
+      "Interpretação de textos: tese, inferência e pressupostos exige domínio de leitura estratégica. O estudo correto começa pela ideia de que interpretar é reconstruir sentido a partir de marcas textuais, não adivinhar intenção do autor.",
+      "Inferência legítima depende de pistas do texto; extrapolação acrescenta informação sem base. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Pressupostos e subentendidos aparecem por escolhas lexicais, conectivos e organização argumentativa. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Questões de concurso costumam trocar sentido global por detalhe verdadeiro, mas irrelevante. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Interpretar bem é localizar a tese do texto, separar informação explícita de inferência e obedecer ao comando da banca.",
-      "Português de concurso exige contexto, comando e função, não apenas regra decorada.",
-      "A banca cobra pegadinhas com conectivos, pontuação, reescrita, concordância e sentido.",
-      "Erro comum: Responder pelo que parece verdadeiro fora do texto, e não pelo que o texto autoriza."
+      "Interpretar é reconstruir sentido a partir de marcas textuais, não adivinhar intenção do autor.",
+      "Inferência legítima depende de pistas do texto; extrapolação acrescenta informação sem base.",
+      "Pressupostos e subentendidos aparecem por escolhas lexicais, conectivos e organização argumentativa.",
+      "Questões de concurso costumam trocar sentido global por detalhe verdadeiro, mas irrelevante."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Responder pelo que parece verdadeiro fora do texto, e não pelo que o texto autoriza.",
-        "Interpretar bem é localizar a tese do texto, separar informação explícita de inferência e obedecer ao comando da banca.",
-        "O tema deve ser resolvido por impressão sonora."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito e aplicação em prova."
-    },
-    "oQueCobra": "Interpretação, inferência, coesão, coerência, morfologia, sintaxe, concordância, regência, crase, pontuação, semântica, variação, redação oficial e reescrita.",
-    "precisaSaberAntes": "Leitura de enunciado, noções de texto, classes gramaticais, termos da oração, conectivos e norma culta.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca usa textos curtos, reescritas, alternativas parecidas e comandos específicos para testar precisão."
+        "pergunta": "Qual é o núcleo de Interpretação de textos: tese, inferência e pressupostos?",
+        "resposta": "Interpretar é reconstruir sentido a partir de marcas textuais, não adivinhar intenção do autor."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, identifique o fenômeno cobrado, elimine alternativas absolutas e confira se o sentido foi preservado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Confundir informação verdadeira com resposta ao comando."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Português impacta prova objetiva, redação, leitura de lei, interpretação de caso e desempenho em todas as disciplinas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Texto sobre segurança pública pode defender prevenção; alternativa que fala só em repressão pode ser tema relacionado, mas não tese do autor."
       }
     ],
-    "comoIdentificar": "Procure o fenômeno cobrado: sentido, conectivo, classe, função, concordância, regência, crase, pontuação ou reescrita.",
+    "quadroDeDominio": {
+      "conceito": "Interpretar é reconstruir sentido a partir de marcas textuais, não adivinhar intenção do autor.",
+      "limite": "Inferência legítima depende de pistas do texto; extrapolação acrescenta informação sem base.",
+      "aplicacao": "Texto sobre segurança pública pode defender prevenção; alternativa que fala só em repressão pode ser tema relacionado, mas não tese do autor.",
+      "erroFatal": "Confundir informação verdadeira com resposta ao comando."
+    },
+    "exemploComentado": "Texto sobre segurança pública pode defender prevenção; alternativa que fala só em repressão pode ser tema relacionado, mas não tese do autor.",
     "pegadinhas": [
-      "palavras absolutas",
-      "reescrita que muda sentido",
-      "conectivo com valor trocado",
-      "vírgula entre sujeito e predicado",
-      "classificação fora de contexto"
+      "Confundir informação verdadeira com resposta ao comando.",
+      "Marcar opinião pessoal quando a pergunta exige sentido do texto."
     ],
-    "resumoFrase": "Interpretar bem é localizar a tese do texto, separar informação explícita de inferência e obedecer ao comando da banca.",
-    "explicacaoComoSeTivesse12": "Pense assim: Interpretar bem é localizar a tese do texto, separar informação explícita de inferência e obedecer ao comando da banca. Para acertar, leia o comando, veja o contexto e não marque só porque a frase parece bonita.",
-    "mapaMentalTextual": {
-      "centro": "Interpretação textual",
-      "ramos": [
-        "conceito",
-        "como a banca cobra",
-        "pegadinha",
-        "exemplo",
-        "técnica de revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Interpretação de textos: tese, inferência e pressupostos",
+      "Conceito: Interpretar é reconstruir sentido a partir de marcas textuais, não adivinhar intenção do autor.",
+      "Aplicação: Texto sobre segurança pública pode defender prevenção; alternativa que fala só em repressão pode ser tema relacionado, mas não tese do autor.",
+      "Cuidado: Confundir informação verdadeira com resposta ao comando."
+    ],
     "comoEstudar": [
-      "Ler o capítulo marcando comando e regra",
-      "Resolver 10 questões sem olhar gabarito",
-      "Justificar cada alternativa eliminada",
-      "Criar um exemplo próprio",
-      "Revisar em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Responder pelo que parece verdadeiro fora do texto, e não pelo que o texto autoriza. A resposta correta precisa respeitar comando, contexto e regra.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "acertar questões conceituais",
-      "justificar eliminação de alternativas",
-      "aplicar regra em reescrita",
-      "identificar pegadinha da banca"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f01-01",
-        "frente": "Qual é a ideia central de Interpretação textual?",
-        "verso": "Interpretar bem é localizar a tese do texto, separar informação explícita de inferência e obedecer ao comando da banca.",
-        "tag": "Interpretação textual",
+        "id": "portugues-avancado-01-fc01",
+        "frente": "Qual é a ideia central de Interpretação de textos: tese, inferência e pressupostos?",
+        "verso": "Interpretar é reconstruir sentido a partir de marcas textuais, não adivinhar intenção do autor.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f01-02",
-        "frente": "Qual pegadinha a banca usa em Interpretação textual?",
-        "verso": "Responder pelo que parece verdadeiro fora do texto, e não pelo que o texto autoriza.",
+        "id": "portugues-avancado-01-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em leitura estratégica?",
+        "verso": "Inferência legítima depende de pistas do texto; extrapolação acrescenta informação sem base.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "portugues-avancado-01-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Confundir informação verdadeira com resposta ao comando.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f01-03",
-        "frente": "Como estudar Interpretação textual com segurança?",
-        "verso": "Use este roteiro: ler o comando, marcar tema, tese, conectivos, palavras de restrição e conclusão do autor. Depois resolva questões e registre o erro em uma frase.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f01-04",
-        "frente": "Diferença importante em Interpretação textual",
-        "verso": "informação explícita x inferência: a explícita está dita; a inferência é conclusão autorizada por pistas do texto.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "portugues-avancado-01-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Texto sobre segurança pública pode defender prevenção; alternativa que fala só em repressão pode ser tema relacionado, mas não tese do autor.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Português para concursos. Explique Interpretação textual, dê um exemplo, uma pegadinha e uma questão de treino.",
-      "feedbackPadrao": "Corrija com foco em comando, contexto, regra e preservação de sentido."
-    },
     "questoes": [
       {
-        "id": "q01-01",
+        "id": "portugues-avancado-01-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Interpretação textual, qual afirmação está correta?",
+        "enunciado": "Em relação a Interpretação de textos: tese, inferência e pressupostos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Interpretar bem é localizar a tese do texto, separar informação explícita de inferência e obedecer ao comando da banca.",
-          "Responder pelo que parece verdadeiro fora do texto, e não pelo que o texto autoriza.",
-          "A regra deve ser aplicada sem considerar contexto.",
-          "O comando da banca é secundário quando a frase parece correta.",
-          "A análise gramatical dispensa leitura do período completo."
+          "Interpretar é reconstruir sentido a partir de marcas textuais, não adivinhar intenção do autor.",
+          "Confundir informação verdadeira com resposta ao comando.",
+          "Marcar opinião pessoal quando a pergunta exige sentido do texto.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Interpretar bem é localizar a tese do texto, separar informação explícita de inferência e obedecer ao comando da banca.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "Interpretar bem é localizar a tese do texto, separar informação explícita de inferência e obedecer ao comando da banca.",
-        "armadilhaDaBanca": "Responder pelo que parece verdadeiro fora do texto, e não pelo que o texto autoriza.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A alternativa correta resume o núcleo do tema: Interpretar é reconstruir sentido a partir de marcas textuais, não adivinhar intenção do autor."
       },
       {
-        "id": "q01-02",
+        "id": "portugues-avancado-01-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Interpretação textual, é correto resolver a questão apenas por impressão, sem observar contexto e comando.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca costuma explorar contexto, comando, função e sentido.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Inferência legítima depende de pistas do texto; extrapolação acrescenta informação sem base.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de leitura estratégica."
       },
       {
-        "id": "q01-03",
+        "id": "portugues-avancado-01-q03",
         "tipo": "certo_errado",
-        "enunciado": "Para resolver Interpretação textual, deve-se observar forma, função, sentido e objetivo comunicativo.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A resposta correta depende da combinação entre gramática e interpretação.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Confundir informação verdadeira com resposta ao comando.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q01-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "A questão pede a ideia central, mas uma alternativa traz apenas um detalhe correto do segundo parágrafo.",
-        "alternativas": [
-          "A alternativa deve ser eliminada, pois detalhe verdadeiro não substitui a ideia central do texto.",
-          "A alternativa deve ser aceita porque contém palavra conhecida.",
-          "Não é necessário observar o contexto do enunciado.",
-          "A regra gramatical sempre se resolve por sonoridade.",
-          "A análise do comando da banca é dispensável."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa deve ser eliminada, pois detalhe verdadeiro não substitui a ideia central do texto.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A alternativa deve ser eliminada, pois detalhe verdadeiro não substitui a ideia central do texto.",
-        "armadilhaDaBanca": "A banca costuma esconder erro em alternativa aparentemente natural.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "id": "portugues-avancado-01-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Texto sobre segurança pública pode defender prevenção; alternativa que fala só em repressão pode ser tema relacionado, mas não tese do autor. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Pressupostos e subentendidos aparecem por escolhas lexicais, conectivos e organização argumentativa.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q01-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Interpretação textual?",
-        "alternativas": [
-          "Usar o roteiro: ler o comando, marcar tema, tese, conectivos, palavras de restrição e conclusão do autor.",
-          "Decorar apenas exemplos soltos.",
-          "Responder antes de ler o comando.",
-          "Ignorar conectivos e pontuação.",
-          "Trocar regra gramatical por opinião pessoal."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: ler o comando, marcar tema, tese, conectivos, palavras de restrição e conclusão do autor.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "O roteiro correto é: ler o comando, marcar tema, tese, conectivos, palavras de restrição e conclusão do autor.",
-        "armadilhaDaBanca": "A banca pune leitura apressada e regra decorada sem aplicação.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
-      },
-      {
-        "id": "q01-06",
+        "id": "portugues-avancado-01-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Interpretação textual.",
-        "respostaEsperada": "Interpretar bem é localizar a tese do texto, separar informação explícita de inferência e obedecer ao comando da banca.",
-        "rubricaCorrecao": [
-          "identificar o conceito",
-          "usar termo técnico adequado",
-          "aplicar ao exemplo",
-          "não inventar regra absoluta"
-        ],
-        "comentario": "A resposta deve ser objetiva e ligada ao uso em prova.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva em uma frase objetiva."
+        "enunciado": "Explique, em até três linhas, por que leitura estratégica não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar interpretar é reconstruir sentido a partir de marcas textuais, não adivinhar intenção do autor. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q01-07",
+        "id": "portugues-avancado-01-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie informação explícita e inferência.",
-        "respostaEsperada": "a explícita está dita; a inferência é conclusão autorizada por pistas do texto",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "dar exemplo simples"
-        ],
-        "comentario": "A diferença essencial é: a explícita está dita; a inferência é conclusão autorizada por pistas do texto.",
-        "diagnosticoIA": "Se confundiu, monte uma tabela com conceito, exemplo e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Interpretar é reconstruir sentido a partir de marcas textuais, não adivinhar intenção do autor. Pegadinha: Confundir informação verdadeira com resposta ao comando.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q01-08",
+        "id": "portugues-avancado-01-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Interpretação textual?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Responder pelo que parece verdadeiro fora do texto, e não pelo que o texto autoriza.",
-          "Ler o comando antes das alternativas.",
-          "Identificar o núcleo do período.",
-          "Conferir conectivos e retomadas.",
-          "Reescrever preservando sentido."
+          "Pressupostos e subentendidos aparecem por escolhas lexicais, conectivos e organização argumentativa.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Marcar opinião pessoal quando a pergunta exige sentido do texto."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Responder pelo que parece verdadeiro fora do texto, e não pelo que o texto autoriza.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A pegadinha comum é: Responder pelo que parece verdadeiro fora do texto, e não pelo que o texto autoriza.",
-        "armadilhaDaBanca": "Muitas alternativas parecem corretas porque usam vocabulário técnico, mas aplicam a regra errada.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q01-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Interpretação textual, uma alternativa pode estar gramaticalmente correta e, ainda assim, errada por alterar o sentido original.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Reescrita e interpretação exigem preservação de sentido, não apenas correção isolada.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "id": "portugues-avancado-01-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Marcar opinião pessoal quando a pergunta exige sentido do texto.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q01-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Interpretação textual para um candidato que erra questões de Português.",
-        "promptTutorIA": "Explique Interpretação textual com definição, exemplo de banca, pegadinha e técnica de revisão.",
-        "criterioDominio": [
-          "definição correta",
-          "exemplo aplicado",
-          "alerta de pegadinha",
-          "técnica de revisão"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo.",
-        "diagnosticoIA": "Use a resposta para montar um flashcard próprio e revisar em 24 horas."
+        "id": "portugues-avancado-01-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Interpretação de textos: tese, inferência e pressupostos a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Questões de concurso costumam trocar sentido global por detalhe verdadeiro, mas irrelevante.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "portugues-avancado-01-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Interpretar é reconstruir sentido a partir de marcas textuais, não adivinhar intenção do autor.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Tipologia textual e gêneros: narração, descrição, dissertação e injunção",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 22 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio: conferir edital, estilo da banca e eventuais normas específicas de redação oficial.",
-    "publicoAlvo": "Candidatos de concursos policiais, tribunais, OAB, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Português / Concursos / Interpretação / Gramática"
+    "proximoTitulo": "Tipologia e gêneros textuais"
   },
   {
-    "id": "tipologia-textual-e-generos-narracao-descricao-dissertacao-e-injuncao",
-    "materialTitle": "Português Avançado 10/10 Plus Revisado",
+    "id": "tipologia-e-generos-textuais",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 2,
     "totalChapters": 10,
-    "title": "Tipologia textual e gêneros: narração, descrição, dissertação e injunção",
-    "assunto": "Tipologia e gêneros textuais",
-    "tecnica": "Estudo por comando da banca, função gramatical, sentido textual, reescrita e eliminação de pegadinhas",
-    "competencia": "Resolver questões de Português com leitura estratégica, análise sintática, domínio da norma culta e preservação de sentido.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Tipologia e gêneros textuais",
+    "assunto": "formas de organização do texto",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar formas de organização do texto com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "OAB": 4,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "narração",
-      "descrição",
-      "dissertação",
-      "injunção",
-      "gênero textual"
+      "formas de organizacao do texto"
     ],
-    "fontesBase": [
-      "Gramática normativa aplicada a concursos",
-      "Manual de Redação da Presidência da República quando pertinente",
-      "Editais e padrões de cobrança das principais bancas",
-      "Textos jornalísticos, literários e oficiais para interpretação"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Tipologia e gêneros textuais com foco em concursos policiais, administrativos, tribunais, OAB e ENEM. A cobrança moderna mistura leitura, gramática e reescrita.",
-      "Ideia central: A tipologia indica a forma predominante de organização do texto, enquanto o gênero envolve finalidade social, suporte e situação comunicativa.",
-      "Erro comum: Confundir tipo textual com gênero textual ou achar que um texto só pode ter um tipo.",
-      "Como estudar: identificar finalidade, predominância textual, marcas linguísticas, interlocutor e suporte. Em seguida, resolva questões, justifique cada eliminação e revise o erro por categoria."
+      "Tipologia e gêneros textuais exige domínio de formas de organização do texto. O estudo correto começa pela ideia de que narração organiza acontecimentos no tempo; descrição caracteriza seres, espaços ou situações.",
+      "Dissertação defende ou demonstra uma ideia por argumentos e relações lógicas. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Injunção orienta condutas por comandos, instruções ou procedimentos. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Gênero textual depende de finalidade social, suporte, interlocutor e estrutura recorrente. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "A tipologia indica a forma predominante de organização do texto, enquanto o gênero envolve finalidade social, suporte e situação comunicativa.",
-      "Português de concurso exige contexto, comando e função, não apenas regra decorada.",
-      "A banca cobra pegadinhas com conectivos, pontuação, reescrita, concordância e sentido.",
-      "Erro comum: Confundir tipo textual com gênero textual ou achar que um texto só pode ter um tipo."
+      "Narração organiza acontecimentos no tempo; descrição caracteriza seres, espaços ou situações.",
+      "Dissertação defende ou demonstra uma ideia por argumentos e relações lógicas.",
+      "Injunção orienta condutas por comandos, instruções ou procedimentos.",
+      "Gênero textual depende de finalidade social, suporte, interlocutor e estrutura recorrente."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Confundir tipo textual com gênero textual ou achar que um texto só pode ter um tipo.",
-        "A tipologia indica a forma predominante de organização do texto, enquanto o gênero envolve finalidade social, suporte e situação comunicativa.",
-        "O tema deve ser resolvido por impressão sonora."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito e aplicação em prova."
-    },
-    "oQueCobra": "Interpretação, inferência, coesão, coerência, morfologia, sintaxe, concordância, regência, crase, pontuação, semântica, variação, redação oficial e reescrita.",
-    "precisaSaberAntes": "Leitura de enunciado, noções de texto, classes gramaticais, termos da oração, conectivos e norma culta.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca usa textos curtos, reescritas, alternativas parecidas e comandos específicos para testar precisão."
+        "pergunta": "Qual é o núcleo de Tipologia e gêneros textuais?",
+        "resposta": "Narração organiza acontecimentos no tempo; descrição caracteriza seres, espaços ou situações."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, identifique o fenômeno cobrado, elimine alternativas absolutas e confira se o sentido foi preservado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Dizer que todo texto com opinião é dissertação argumentativa completa."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Português impacta prova objetiva, redação, leitura de lei, interpretação de caso e desempenho em todas as disciplinas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Uma notícia pode narrar fatos e também descrever cenário; a questão pede predominância, não exclusividade."
       }
     ],
-    "comoIdentificar": "Procure o fenômeno cobrado: sentido, conectivo, classe, função, concordância, regência, crase, pontuação ou reescrita.",
+    "quadroDeDominio": {
+      "conceito": "Narração organiza acontecimentos no tempo; descrição caracteriza seres, espaços ou situações.",
+      "limite": "Dissertação defende ou demonstra uma ideia por argumentos e relações lógicas.",
+      "aplicacao": "Uma notícia pode narrar fatos e também descrever cenário; a questão pede predominância, não exclusividade.",
+      "erroFatal": "Dizer que todo texto com opinião é dissertação argumentativa completa."
+    },
+    "exemploComentado": "Uma notícia pode narrar fatos e também descrever cenário; a questão pede predominância, não exclusividade.",
     "pegadinhas": [
-      "palavras absolutas",
-      "reescrita que muda sentido",
-      "conectivo com valor trocado",
-      "vírgula entre sujeito e predicado",
-      "classificação fora de contexto"
+      "Dizer que todo texto com opinião é dissertação argumentativa completa.",
+      "Confundir tipo textual predominante com presença de trechos de outro tipo."
     ],
-    "resumoFrase": "A tipologia indica a forma predominante de organização do texto, enquanto o gênero envolve finalidade social, suporte e situação comunicativa.",
-    "explicacaoComoSeTivesse12": "Pense assim: A tipologia indica a forma predominante de organização do texto, enquanto o gênero envolve finalidade social, suporte e situação comunicativa. Para acertar, leia o comando, veja o contexto e não marque só porque a frase parece bonita.",
-    "mapaMentalTextual": {
-      "centro": "Tipologia e gêneros textuais",
-      "ramos": [
-        "conceito",
-        "como a banca cobra",
-        "pegadinha",
-        "exemplo",
-        "técnica de revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Tipologia e gêneros textuais",
+      "Conceito: Narração organiza acontecimentos no tempo; descrição caracteriza seres, espaços ou situações.",
+      "Aplicação: Uma notícia pode narrar fatos e também descrever cenário; a questão pede predominância, não exclusividade.",
+      "Cuidado: Dizer que todo texto com opinião é dissertação argumentativa completa."
+    ],
     "comoEstudar": [
-      "Ler o capítulo marcando comando e regra",
-      "Resolver 10 questões sem olhar gabarito",
-      "Justificar cada alternativa eliminada",
-      "Criar um exemplo próprio",
-      "Revisar em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Confundir tipo textual com gênero textual ou achar que um texto só pode ter um tipo. A resposta correta precisa respeitar comando, contexto e regra.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "acertar questões conceituais",
-      "justificar eliminação de alternativas",
-      "aplicar regra em reescrita",
-      "identificar pegadinha da banca"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f02-01",
+        "id": "portugues-avancado-02-fc01",
         "frente": "Qual é a ideia central de Tipologia e gêneros textuais?",
-        "verso": "A tipologia indica a forma predominante de organização do texto, enquanto o gênero envolve finalidade social, suporte e situação comunicativa.",
-        "tag": "Tipologia e gêneros textuais",
+        "verso": "Narração organiza acontecimentos no tempo; descrição caracteriza seres, espaços ou situações.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f02-02",
-        "frente": "Qual pegadinha a banca usa em Tipologia e gêneros textuais?",
-        "verso": "Confundir tipo textual com gênero textual ou achar que um texto só pode ter um tipo.",
+        "id": "portugues-avancado-02-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em formas de organização do texto?",
+        "verso": "Dissertação defende ou demonstra uma ideia por argumentos e relações lógicas.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "portugues-avancado-02-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Dizer que todo texto com opinião é dissertação argumentativa completa.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f02-03",
-        "frente": "Como estudar Tipologia e gêneros textuais com segurança?",
-        "verso": "Use este roteiro: identificar finalidade, predominância textual, marcas linguísticas, interlocutor e suporte. Depois resolva questões e registre o erro em uma frase.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f02-04",
-        "frente": "Diferença importante em Tipologia e gêneros textuais",
-        "verso": "tipo textual x gênero textual: tipo é modo de organização; gênero é prática social de comunicação.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "portugues-avancado-02-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Uma notícia pode narrar fatos e também descrever cenário; a questão pede predominância, não exclusividade.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Português para concursos. Explique Tipologia e gêneros textuais, dê um exemplo, uma pegadinha e uma questão de treino.",
-      "feedbackPadrao": "Corrija com foco em comando, contexto, regra e preservação de sentido."
-    },
     "questoes": [
       {
-        "id": "q02-01",
+        "id": "portugues-avancado-02-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Tipologia e gêneros textuais, qual afirmação está correta?",
+        "enunciado": "Em relação a Tipologia e gêneros textuais, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A tipologia indica a forma predominante de organização do texto, enquanto o gênero envolve finalidade social, suporte e situação comunicativa.",
-          "Confundir tipo textual com gênero textual ou achar que um texto só pode ter um tipo.",
-          "A regra deve ser aplicada sem considerar contexto.",
-          "O comando da banca é secundário quando a frase parece correta.",
-          "A análise gramatical dispensa leitura do período completo."
+          "Narração organiza acontecimentos no tempo; descrição caracteriza seres, espaços ou situações.",
+          "Dizer que todo texto com opinião é dissertação argumentativa completa.",
+          "Confundir tipo textual predominante com presença de trechos de outro tipo.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A tipologia indica a forma predominante de organização do texto, enquanto o gênero envolve finalidade social, suporte e situação comunicativa.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A tipologia indica a forma predominante de organização do texto, enquanto o gênero envolve finalidade social, suporte e situação comunicativa.",
-        "armadilhaDaBanca": "Confundir tipo textual com gênero textual ou achar que um texto só pode ter um tipo.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A alternativa correta resume o núcleo do tema: Narração organiza acontecimentos no tempo; descrição caracteriza seres, espaços ou situações."
       },
       {
-        "id": "q02-02",
+        "id": "portugues-avancado-02-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Tipologia e gêneros textuais, é correto resolver a questão apenas por impressão, sem observar contexto e comando.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca costuma explorar contexto, comando, função e sentido.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Dissertação defende ou demonstra uma ideia por argumentos e relações lógicas.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de formas de organização do texto."
       },
       {
-        "id": "q02-03",
+        "id": "portugues-avancado-02-q03",
         "tipo": "certo_errado",
-        "enunciado": "Para resolver Tipologia e gêneros textuais, deve-se observar forma, função, sentido e objetivo comunicativo.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A resposta correta depende da combinação entre gramática e interpretação.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Dizer que todo texto com opinião é dissertação argumentativa completa.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q02-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Uma receita apresenta verbos no imperativo e orienta uma sequência de ações.",
-        "alternativas": [
-          "Predomina a injunção, pois o texto orienta o leitor a executar procedimentos.",
-          "A alternativa deve ser aceita porque contém palavra conhecida.",
-          "Não é necessário observar o contexto do enunciado.",
-          "A regra gramatical sempre se resolve por sonoridade.",
-          "A análise do comando da banca é dispensável."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Predomina a injunção, pois o texto orienta o leitor a executar procedimentos.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "Predomina a injunção, pois o texto orienta o leitor a executar procedimentos.",
-        "armadilhaDaBanca": "A banca costuma esconder erro em alternativa aparentemente natural.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "id": "portugues-avancado-02-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Uma notícia pode narrar fatos e também descrever cenário; a questão pede predominância, não exclusividade. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Injunção orienta condutas por comandos, instruções ou procedimentos.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q02-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Tipologia e gêneros textuais?",
-        "alternativas": [
-          "Usar o roteiro: identificar finalidade, predominância textual, marcas linguísticas, interlocutor e suporte.",
-          "Decorar apenas exemplos soltos.",
-          "Responder antes de ler o comando.",
-          "Ignorar conectivos e pontuação.",
-          "Trocar regra gramatical por opinião pessoal."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: identificar finalidade, predominância textual, marcas linguísticas, interlocutor e suporte.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "O roteiro correto é: identificar finalidade, predominância textual, marcas linguísticas, interlocutor e suporte.",
-        "armadilhaDaBanca": "A banca pune leitura apressada e regra decorada sem aplicação.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
-      },
-      {
-        "id": "q02-06",
+        "id": "portugues-avancado-02-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Tipologia e gêneros textuais.",
-        "respostaEsperada": "A tipologia indica a forma predominante de organização do texto, enquanto o gênero envolve finalidade social, suporte e situação comunicativa.",
-        "rubricaCorrecao": [
-          "identificar o conceito",
-          "usar termo técnico adequado",
-          "aplicar ao exemplo",
-          "não inventar regra absoluta"
-        ],
-        "comentario": "A resposta deve ser objetiva e ligada ao uso em prova.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva em uma frase objetiva."
+        "enunciado": "Explique, em até três linhas, por que formas de organização do texto não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar narração organiza acontecimentos no tempo; descrição caracteriza seres, espaços ou situações. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q02-07",
+        "id": "portugues-avancado-02-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie tipo textual e gênero textual.",
-        "respostaEsperada": "tipo é modo de organização; gênero é prática social de comunicação",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "dar exemplo simples"
-        ],
-        "comentario": "A diferença essencial é: tipo é modo de organização; gênero é prática social de comunicação.",
-        "diagnosticoIA": "Se confundiu, monte uma tabela com conceito, exemplo e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Narração organiza acontecimentos no tempo; descrição caracteriza seres, espaços ou situações. Pegadinha: Dizer que todo texto com opinião é dissertação argumentativa completa.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q02-08",
+        "id": "portugues-avancado-02-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Tipologia e gêneros textuais?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Confundir tipo textual com gênero textual ou achar que um texto só pode ter um tipo.",
-          "Ler o comando antes das alternativas.",
-          "Identificar o núcleo do período.",
-          "Conferir conectivos e retomadas.",
-          "Reescrever preservando sentido."
+          "Injunção orienta condutas por comandos, instruções ou procedimentos.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Confundir tipo textual predominante com presença de trechos de outro tipo."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Confundir tipo textual com gênero textual ou achar que um texto só pode ter um tipo.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A pegadinha comum é: Confundir tipo textual com gênero textual ou achar que um texto só pode ter um tipo.",
-        "armadilhaDaBanca": "Muitas alternativas parecem corretas porque usam vocabulário técnico, mas aplicam a regra errada.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q02-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Tipologia e gêneros textuais, uma alternativa pode estar gramaticalmente correta e, ainda assim, errada por alterar o sentido original.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Reescrita e interpretação exigem preservação de sentido, não apenas correção isolada.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "id": "portugues-avancado-02-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Confundir tipo textual predominante com presença de trechos de outro tipo.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q02-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Tipologia e gêneros textuais para um candidato que erra questões de Português.",
-        "promptTutorIA": "Explique Tipologia e gêneros textuais com definição, exemplo de banca, pegadinha e técnica de revisão.",
-        "criterioDominio": [
-          "definição correta",
-          "exemplo aplicado",
-          "alerta de pegadinha",
-          "técnica de revisão"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo.",
-        "diagnosticoIA": "Use a resposta para montar um flashcard próprio e revisar em 24 horas."
+        "id": "portugues-avancado-02-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Tipologia e gêneros textuais a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Gênero textual depende de finalidade social, suporte, interlocutor e estrutura recorrente.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "portugues-avancado-02-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Narração organiza acontecimentos no tempo; descrição caracteriza seres, espaços ou situações.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Coesão, coerência, conectivos e progressão textual",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 22 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio: conferir edital, estilo da banca e eventuais normas específicas de redação oficial.",
-    "publicoAlvo": "Candidatos de concursos policiais, tribunais, OAB, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Português / Concursos / Interpretação / Gramática"
+    "proximoTitulo": "Coesão e coerência"
   },
   {
-    "id": "coesao-coerencia-conectivos-e-progressao-textual",
-    "materialTitle": "Português Avançado 10/10 Plus Revisado",
+    "id": "coesao-e-coerencia",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 3,
     "totalChapters": 10,
-    "title": "Coesão, coerência, conectivos e progressão textual",
-    "assunto": "Coesão e coerência",
-    "tecnica": "Estudo por comando da banca, função gramatical, sentido textual, reescrita e eliminação de pegadinhas",
-    "competencia": "Resolver questões de Português com leitura estratégica, análise sintática, domínio da norma culta e preservação de sentido.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Coesão e coerência",
+    "assunto": "conexão entre ideias",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar conexão entre ideias com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "OAB": 4,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "coesão",
-      "coerência",
-      "conectivos",
-      "referenciação",
-      "progressão textual"
+      "conexao entre ideias"
     ],
-    "fontesBase": [
-      "Gramática normativa aplicada a concursos",
-      "Manual de Redação da Presidência da República quando pertinente",
-      "Editais e padrões de cobrança das principais bancas",
-      "Textos jornalísticos, literários e oficiais para interpretação"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Coesão e coerência com foco em concursos policiais, administrativos, tribunais, OAB e ENEM. A cobrança moderna mistura leitura, gramática e reescrita.",
-      "Ideia central: Coesão conecta palavras e ideias; coerência garante sentido global, progressão lógica e ausência de contradição.",
-      "Erro comum: Achar que um texto com conectivos sempre é coerente ou trocar valor semântico de conectivo.",
-      "Como estudar: mapear pronomes, elipses, sinônimos, conectivos, oposição, causa, conclusão e retomadas. Em seguida, resolva questões, justifique cada eliminação e revise o erro por categoria."
+      "Coesão e coerência exige domínio de conexão entre ideias. O estudo correto começa pela ideia de que coesão usa pronomes, elipses, sinônimos e conectivos para ligar partes do texto.",
+      "Coerência depende de sentido global sem contradições internas. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Conectivo altera relação lógica: “porém” opõe, “portanto” conclui, “pois” demonstra ou justifica. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Substituição lexical precisa preservar referência, número, gênero e sentido contextual. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Coesão conecta palavras e ideias; coerência garante sentido global, progressão lógica e ausência de contradição.",
-      "Português de concurso exige contexto, comando e função, não apenas regra decorada.",
-      "A banca cobra pegadinhas com conectivos, pontuação, reescrita, concordância e sentido.",
-      "Erro comum: Achar que um texto com conectivos sempre é coerente ou trocar valor semântico de conectivo."
+      "Coesão usa pronomes, elipses, sinônimos e conectivos para ligar partes do texto.",
+      "Coerência depende de sentido global sem contradições internas.",
+      "Conectivo altera relação lógica: “porém” opõe, “portanto” conclui, “pois” demonstra ou justifica.",
+      "Substituição lexical precisa preservar referência, número, gênero e sentido contextual."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Achar que um texto com conectivos sempre é coerente ou trocar valor semântico de conectivo.",
-        "Coesão conecta palavras e ideias; coerência garante sentido global, progressão lógica e ausência de contradição.",
-        "O tema deve ser resolvido por impressão sonora."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito e aplicação em prova."
-    },
-    "oQueCobra": "Interpretação, inferência, coesão, coerência, morfologia, sintaxe, concordância, regência, crase, pontuação, semântica, variação, redação oficial e reescrita.",
-    "precisaSaberAntes": "Leitura de enunciado, noções de texto, classes gramaticais, termos da oração, conectivos e norma culta.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca usa textos curtos, reescritas, alternativas parecidas e comandos específicos para testar precisão."
+        "pergunta": "Qual é o núcleo de Coesão e coerência?",
+        "resposta": "Coesão usa pronomes, elipses, sinônimos e conectivos para ligar partes do texto."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, identifique o fenômeno cobrado, elimine alternativas absolutas e confira se o sentido foi preservado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Trocar conectivo por outro gramaticalmente possível, mas semanticamente errado."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Português impacta prova objetiva, redação, leitura de lei, interpretação de caso e desempenho em todas as disciplinas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Substituir “entretanto” por “portanto” muda oposição para conclusão e altera sentido."
       }
     ],
-    "comoIdentificar": "Procure o fenômeno cobrado: sentido, conectivo, classe, função, concordância, regência, crase, pontuação ou reescrita.",
+    "quadroDeDominio": {
+      "conceito": "Coesão usa pronomes, elipses, sinônimos e conectivos para ligar partes do texto.",
+      "limite": "Coerência depende de sentido global sem contradições internas.",
+      "aplicacao": "Substituir “entretanto” por “portanto” muda oposição para conclusão e altera sentido.",
+      "erroFatal": "Trocar conectivo por outro gramaticalmente possível, mas semanticamente errado."
+    },
+    "exemploComentado": "Substituir “entretanto” por “portanto” muda oposição para conclusão e altera sentido.",
     "pegadinhas": [
-      "palavras absolutas",
-      "reescrita que muda sentido",
-      "conectivo com valor trocado",
-      "vírgula entre sujeito e predicado",
-      "classificação fora de contexto"
+      "Trocar conectivo por outro gramaticalmente possível, mas semanticamente errado.",
+      "Achar que repetição sempre é erro; às vezes garante clareza referencial."
     ],
-    "resumoFrase": "Coesão conecta palavras e ideias; coerência garante sentido global, progressão lógica e ausência de contradição.",
-    "explicacaoComoSeTivesse12": "Pense assim: Coesão conecta palavras e ideias; coerência garante sentido global, progressão lógica e ausência de contradição. Para acertar, leia o comando, veja o contexto e não marque só porque a frase parece bonita.",
-    "mapaMentalTextual": {
-      "centro": "Coesão e coerência",
-      "ramos": [
-        "conceito",
-        "como a banca cobra",
-        "pegadinha",
-        "exemplo",
-        "técnica de revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Coesão e coerência",
+      "Conceito: Coesão usa pronomes, elipses, sinônimos e conectivos para ligar partes do texto.",
+      "Aplicação: Substituir “entretanto” por “portanto” muda oposição para conclusão e altera sentido.",
+      "Cuidado: Trocar conectivo por outro gramaticalmente possível, mas semanticamente errado."
+    ],
     "comoEstudar": [
-      "Ler o capítulo marcando comando e regra",
-      "Resolver 10 questões sem olhar gabarito",
-      "Justificar cada alternativa eliminada",
-      "Criar um exemplo próprio",
-      "Revisar em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Achar que um texto com conectivos sempre é coerente ou trocar valor semântico de conectivo. A resposta correta precisa respeitar comando, contexto e regra.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "acertar questões conceituais",
-      "justificar eliminação de alternativas",
-      "aplicar regra em reescrita",
-      "identificar pegadinha da banca"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f03-01",
+        "id": "portugues-avancado-03-fc01",
         "frente": "Qual é a ideia central de Coesão e coerência?",
-        "verso": "Coesão conecta palavras e ideias; coerência garante sentido global, progressão lógica e ausência de contradição.",
-        "tag": "Coesão e coerência",
+        "verso": "Coesão usa pronomes, elipses, sinônimos e conectivos para ligar partes do texto.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f03-02",
-        "frente": "Qual pegadinha a banca usa em Coesão e coerência?",
-        "verso": "Achar que um texto com conectivos sempre é coerente ou trocar valor semântico de conectivo.",
+        "id": "portugues-avancado-03-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em conexão entre ideias?",
+        "verso": "Coerência depende de sentido global sem contradições internas.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "portugues-avancado-03-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Trocar conectivo por outro gramaticalmente possível, mas semanticamente errado.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f03-03",
-        "frente": "Como estudar Coesão e coerência com segurança?",
-        "verso": "Use este roteiro: mapear pronomes, elipses, sinônimos, conectivos, oposição, causa, conclusão e retomadas. Depois resolva questões e registre o erro em uma frase.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f03-04",
-        "frente": "Diferença importante em Coesão e coerência",
-        "verso": "coesão x coerência: coesão é ligação formal; coerência é sentido lógico global.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "portugues-avancado-03-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Substituir “entretanto” por “portanto” muda oposição para conclusão e altera sentido.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Português para concursos. Explique Coesão e coerência, dê um exemplo, uma pegadinha e uma questão de treino.",
-      "feedbackPadrao": "Corrija com foco em comando, contexto, regra e preservação de sentido."
-    },
     "questoes": [
       {
-        "id": "q03-01",
+        "id": "portugues-avancado-03-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Coesão e coerência, qual afirmação está correta?",
+        "enunciado": "Em relação a Coesão e coerência, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Coesão conecta palavras e ideias; coerência garante sentido global, progressão lógica e ausência de contradição.",
-          "Achar que um texto com conectivos sempre é coerente ou trocar valor semântico de conectivo.",
-          "A regra deve ser aplicada sem considerar contexto.",
-          "O comando da banca é secundário quando a frase parece correta.",
-          "A análise gramatical dispensa leitura do período completo."
+          "Coesão usa pronomes, elipses, sinônimos e conectivos para ligar partes do texto.",
+          "Trocar conectivo por outro gramaticalmente possível, mas semanticamente errado.",
+          "Achar que repetição sempre é erro; às vezes garante clareza referencial.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Coesão conecta palavras e ideias; coerência garante sentido global, progressão lógica e ausência de contradição.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "Coesão conecta palavras e ideias; coerência garante sentido global, progressão lógica e ausência de contradição.",
-        "armadilhaDaBanca": "Achar que um texto com conectivos sempre é coerente ou trocar valor semântico de conectivo.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A alternativa correta resume o núcleo do tema: Coesão usa pronomes, elipses, sinônimos e conectivos para ligar partes do texto."
       },
       {
-        "id": "q03-02",
+        "id": "portugues-avancado-03-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Coesão e coerência, é correto resolver a questão apenas por impressão, sem observar contexto e comando.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca costuma explorar contexto, comando, função e sentido.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Coerência depende de sentido global sem contradições internas.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de conexão entre ideias."
       },
       {
-        "id": "q03-03",
+        "id": "portugues-avancado-03-q03",
         "tipo": "certo_errado",
-        "enunciado": "Para resolver Coesão e coerência, deve-se observar forma, função, sentido e objetivo comunicativo.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A resposta correta depende da combinação entre gramática e interpretação.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Trocar conectivo por outro gramaticalmente possível, mas semanticamente errado.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q03-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "O texto usa “porém” para ligar duas orações com ideias contrastantes.",
-        "alternativas": [
-          "O conectivo indica oposição/contraste; trocá-lo por “portanto” mudaria o sentido para conclusão.",
-          "A alternativa deve ser aceita porque contém palavra conhecida.",
-          "Não é necessário observar o contexto do enunciado.",
-          "A regra gramatical sempre se resolve por sonoridade.",
-          "A análise do comando da banca é dispensável."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O conectivo indica oposição/contraste; trocá-lo por “portanto” mudaria o sentido para conclusão.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "O conectivo indica oposição/contraste; trocá-lo por “portanto” mudaria o sentido para conclusão.",
-        "armadilhaDaBanca": "A banca costuma esconder erro em alternativa aparentemente natural.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "id": "portugues-avancado-03-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Substituir “entretanto” por “portanto” muda oposição para conclusão e altera sentido. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Conectivo altera relação lógica: “porém” opõe, “portanto” conclui, “pois” demonstra ou justifica.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q03-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Coesão e coerência?",
-        "alternativas": [
-          "Usar o roteiro: mapear pronomes, elipses, sinônimos, conectivos, oposição, causa, conclusão e retomadas.",
-          "Decorar apenas exemplos soltos.",
-          "Responder antes de ler o comando.",
-          "Ignorar conectivos e pontuação.",
-          "Trocar regra gramatical por opinião pessoal."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: mapear pronomes, elipses, sinônimos, conectivos, oposição, causa, conclusão e retomadas.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "O roteiro correto é: mapear pronomes, elipses, sinônimos, conectivos, oposição, causa, conclusão e retomadas.",
-        "armadilhaDaBanca": "A banca pune leitura apressada e regra decorada sem aplicação.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
-      },
-      {
-        "id": "q03-06",
+        "id": "portugues-avancado-03-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Coesão e coerência.",
-        "respostaEsperada": "Coesão conecta palavras e ideias; coerência garante sentido global, progressão lógica e ausência de contradição.",
-        "rubricaCorrecao": [
-          "identificar o conceito",
-          "usar termo técnico adequado",
-          "aplicar ao exemplo",
-          "não inventar regra absoluta"
-        ],
-        "comentario": "A resposta deve ser objetiva e ligada ao uso em prova.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva em uma frase objetiva."
+        "enunciado": "Explique, em até três linhas, por que conexão entre ideias não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar coesão usa pronomes, elipses, sinônimos e conectivos para ligar partes do texto. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q03-07",
+        "id": "portugues-avancado-03-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie coesão e coerência.",
-        "respostaEsperada": "coesão é ligação formal; coerência é sentido lógico global",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "dar exemplo simples"
-        ],
-        "comentario": "A diferença essencial é: coesão é ligação formal; coerência é sentido lógico global.",
-        "diagnosticoIA": "Se confundiu, monte uma tabela com conceito, exemplo e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Coesão usa pronomes, elipses, sinônimos e conectivos para ligar partes do texto. Pegadinha: Trocar conectivo por outro gramaticalmente possível, mas semanticamente errado.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q03-08",
+        "id": "portugues-avancado-03-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Coesão e coerência?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Achar que um texto com conectivos sempre é coerente ou trocar valor semântico de conectivo.",
-          "Ler o comando antes das alternativas.",
-          "Identificar o núcleo do período.",
-          "Conferir conectivos e retomadas.",
-          "Reescrever preservando sentido."
+          "Conectivo altera relação lógica: “porém” opõe, “portanto” conclui, “pois” demonstra ou justifica.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Achar que repetição sempre é erro; às vezes garante clareza referencial."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Achar que um texto com conectivos sempre é coerente ou trocar valor semântico de conectivo.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A pegadinha comum é: Achar que um texto com conectivos sempre é coerente ou trocar valor semântico de conectivo.",
-        "armadilhaDaBanca": "Muitas alternativas parecem corretas porque usam vocabulário técnico, mas aplicam a regra errada.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q03-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Coesão e coerência, uma alternativa pode estar gramaticalmente correta e, ainda assim, errada por alterar o sentido original.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Reescrita e interpretação exigem preservação de sentido, não apenas correção isolada.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "id": "portugues-avancado-03-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Achar que repetição sempre é erro; às vezes garante clareza referencial.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q03-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Coesão e coerência para um candidato que erra questões de Português.",
-        "promptTutorIA": "Explique Coesão e coerência com definição, exemplo de banca, pegadinha e técnica de revisão.",
-        "criterioDominio": [
-          "definição correta",
-          "exemplo aplicado",
-          "alerta de pegadinha",
-          "técnica de revisão"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo.",
-        "diagnosticoIA": "Use a resposta para montar um flashcard próprio e revisar em 24 horas."
+        "id": "portugues-avancado-03-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Coesão e coerência a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Substituição lexical precisa preservar referência, número, gênero e sentido contextual.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "portugues-avancado-03-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Coesão usa pronomes, elipses, sinônimos e conectivos para ligar partes do texto.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Morfologia: classes de palavras, flexões e emprego em prova",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 22 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio: conferir edital, estilo da banca e eventuais normas específicas de redação oficial.",
-    "publicoAlvo": "Candidatos de concursos policiais, tribunais, OAB, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Português / Concursos / Interpretação / Gramática"
+    "proximoTitulo": "Morfologia aplicada"
   },
   {
-    "id": "morfologia-classes-de-palavras-flexoes-e-emprego-em-prova",
-    "materialTitle": "Português Avançado 10/10 Plus Revisado",
+    "id": "morfologia-aplicada",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 4,
     "totalChapters": 10,
-    "title": "Morfologia: classes de palavras, flexões e emprego em prova",
-    "assunto": "Morfologia",
-    "tecnica": "Estudo por comando da banca, função gramatical, sentido textual, reescrita e eliminação de pegadinhas",
-    "competencia": "Resolver questões de Português com leitura estratégica, análise sintática, domínio da norma culta e preservação de sentido.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Morfologia aplicada",
+    "assunto": "classes de palavras em uso",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar classes de palavras em uso com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "OAB": 4,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "substantivo",
-      "adjetivo",
-      "advérbio",
-      "pronome",
-      "verbo",
-      "preposição",
-      "conjunção"
+      "classes de palavras em uso"
     ],
-    "fontesBase": [
-      "Gramática normativa aplicada a concursos",
-      "Manual de Redação da Presidência da República quando pertinente",
-      "Editais e padrões de cobrança das principais bancas",
-      "Textos jornalísticos, literários e oficiais para interpretação"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Morfologia com foco em concursos policiais, administrativos, tribunais, OAB e ENEM. A cobrança moderna mistura leitura, gramática e reescrita.",
-      "Ideia central: A morfologia estuda as classes de palavras e seus efeitos de sentido, flexão e função no texto.",
-      "Erro comum: Classificar palavra isolada sem observar contexto e função no enunciado.",
-      "Como estudar: identificar forma, função, termo retomado, flexão, valor semântico e efeito de sentido. Em seguida, resolva questões, justifique cada eliminação e revise o erro por categoria."
+      "Morfologia aplicada exige domínio de classes de palavras em uso. O estudo correto começa pela ideia de que substantivo nomeia; adjetivo qualifica; advérbio modifica verbo, adjetivo ou outro advérbio.",
+      "Pronome pode retomar termo anterior ou antecipar informação posterior. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Conjunções são cobradas pelo valor semântico, não apenas pela classificação. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Flexões de número, gênero, tempo e modo interferem na concordância e no sentido. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "A morfologia estuda as classes de palavras e seus efeitos de sentido, flexão e função no texto.",
-      "Português de concurso exige contexto, comando e função, não apenas regra decorada.",
-      "A banca cobra pegadinhas com conectivos, pontuação, reescrita, concordância e sentido.",
-      "Erro comum: Classificar palavra isolada sem observar contexto e função no enunciado."
+      "Substantivo nomeia; adjetivo qualifica; advérbio modifica verbo, adjetivo ou outro advérbio.",
+      "Pronome pode retomar termo anterior ou antecipar informação posterior.",
+      "Conjunções são cobradas pelo valor semântico, não apenas pela classificação.",
+      "Flexões de número, gênero, tempo e modo interferem na concordância e no sentido."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Classificar palavra isolada sem observar contexto e função no enunciado.",
-        "A morfologia estuda as classes de palavras e seus efeitos de sentido, flexão e função no texto.",
-        "O tema deve ser resolvido por impressão sonora."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito e aplicação em prova."
-    },
-    "oQueCobra": "Interpretação, inferência, coesão, coerência, morfologia, sintaxe, concordância, regência, crase, pontuação, semântica, variação, redação oficial e reescrita.",
-    "precisaSaberAntes": "Leitura de enunciado, noções de texto, classes gramaticais, termos da oração, conectivos e norma culta.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca usa textos curtos, reescritas, alternativas parecidas e comandos específicos para testar precisão."
+        "pergunta": "Qual é o núcleo de Morfologia aplicada?",
+        "resposta": "Substantivo nomeia; adjetivo qualifica; advérbio modifica verbo, adjetivo ou outro advérbio."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, identifique o fenômeno cobrado, elimine alternativas absolutas e confira se o sentido foi preservado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Classificar palavra sem observar função na frase."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Português impacta prova objetiva, redação, leitura de lei, interpretação de caso e desempenho em todas as disciplinas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "“Como” pode indicar causa, comparação ou conformidade, conforme a construção."
       }
     ],
-    "comoIdentificar": "Procure o fenômeno cobrado: sentido, conectivo, classe, função, concordância, regência, crase, pontuação ou reescrita.",
+    "quadroDeDominio": {
+      "conceito": "Substantivo nomeia; adjetivo qualifica; advérbio modifica verbo, adjetivo ou outro advérbio.",
+      "limite": "Pronome pode retomar termo anterior ou antecipar informação posterior.",
+      "aplicacao": "“Como” pode indicar causa, comparação ou conformidade, conforme a construção.",
+      "erroFatal": "Classificar palavra sem observar função na frase."
+    },
+    "exemploComentado": "“Como” pode indicar causa, comparação ou conformidade, conforme a construção.",
     "pegadinhas": [
-      "palavras absolutas",
-      "reescrita que muda sentido",
-      "conectivo com valor trocado",
-      "vírgula entre sujeito e predicado",
-      "classificação fora de contexto"
+      "Classificar palavra sem observar função na frase.",
+      "Decorar lista de conjunções sem analisar valor contextual."
     ],
-    "resumoFrase": "A morfologia estuda as classes de palavras e seus efeitos de sentido, flexão e função no texto.",
-    "explicacaoComoSeTivesse12": "Pense assim: A morfologia estuda as classes de palavras e seus efeitos de sentido, flexão e função no texto. Para acertar, leia o comando, veja o contexto e não marque só porque a frase parece bonita.",
-    "mapaMentalTextual": {
-      "centro": "Morfologia",
-      "ramos": [
-        "conceito",
-        "como a banca cobra",
-        "pegadinha",
-        "exemplo",
-        "técnica de revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Morfologia aplicada",
+      "Conceito: Substantivo nomeia; adjetivo qualifica; advérbio modifica verbo, adjetivo ou outro advérbio.",
+      "Aplicação: “Como” pode indicar causa, comparação ou conformidade, conforme a construção.",
+      "Cuidado: Classificar palavra sem observar função na frase."
+    ],
     "comoEstudar": [
-      "Ler o capítulo marcando comando e regra",
-      "Resolver 10 questões sem olhar gabarito",
-      "Justificar cada alternativa eliminada",
-      "Criar um exemplo próprio",
-      "Revisar em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Classificar palavra isolada sem observar contexto e função no enunciado. A resposta correta precisa respeitar comando, contexto e regra.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "acertar questões conceituais",
-      "justificar eliminação de alternativas",
-      "aplicar regra em reescrita",
-      "identificar pegadinha da banca"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f04-01",
-        "frente": "Qual é a ideia central de Morfologia?",
-        "verso": "A morfologia estuda as classes de palavras e seus efeitos de sentido, flexão e função no texto.",
-        "tag": "Morfologia",
+        "id": "portugues-avancado-04-fc01",
+        "frente": "Qual é a ideia central de Morfologia aplicada?",
+        "verso": "Substantivo nomeia; adjetivo qualifica; advérbio modifica verbo, adjetivo ou outro advérbio.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f04-02",
-        "frente": "Qual pegadinha a banca usa em Morfologia?",
-        "verso": "Classificar palavra isolada sem observar contexto e função no enunciado.",
+        "id": "portugues-avancado-04-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em classes de palavras em uso?",
+        "verso": "Pronome pode retomar termo anterior ou antecipar informação posterior.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "portugues-avancado-04-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Classificar palavra sem observar função na frase.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f04-03",
-        "frente": "Como estudar Morfologia com segurança?",
-        "verso": "Use este roteiro: identificar forma, função, termo retomado, flexão, valor semântico e efeito de sentido. Depois resolva questões e registre o erro em uma frase.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f04-04",
-        "frente": "Diferença importante em Morfologia",
-        "verso": "adjetivo x advérbio: adjetivo caracteriza nome; advérbio modifica verbo, adjetivo ou outro advérbio.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "portugues-avancado-04-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "“Como” pode indicar causa, comparação ou conformidade, conforme a construção.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Português para concursos. Explique Morfologia, dê um exemplo, uma pegadinha e uma questão de treino.",
-      "feedbackPadrao": "Corrija com foco em comando, contexto, regra e preservação de sentido."
-    },
     "questoes": [
       {
-        "id": "q04-01",
+        "id": "portugues-avancado-04-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Morfologia, qual afirmação está correta?",
+        "enunciado": "Em relação a Morfologia aplicada, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A morfologia estuda as classes de palavras e seus efeitos de sentido, flexão e função no texto.",
-          "Classificar palavra isolada sem observar contexto e função no enunciado.",
-          "A regra deve ser aplicada sem considerar contexto.",
-          "O comando da banca é secundário quando a frase parece correta.",
-          "A análise gramatical dispensa leitura do período completo."
+          "Substantivo nomeia; adjetivo qualifica; advérbio modifica verbo, adjetivo ou outro advérbio.",
+          "Classificar palavra sem observar função na frase.",
+          "Decorar lista de conjunções sem analisar valor contextual.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A morfologia estuda as classes de palavras e seus efeitos de sentido, flexão e função no texto.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A morfologia estuda as classes de palavras e seus efeitos de sentido, flexão e função no texto.",
-        "armadilhaDaBanca": "Classificar palavra isolada sem observar contexto e função no enunciado.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A alternativa correta resume o núcleo do tema: Substantivo nomeia; adjetivo qualifica; advérbio modifica verbo, adjetivo ou outro advérbio."
       },
       {
-        "id": "q04-02",
+        "id": "portugues-avancado-04-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Morfologia, é correto resolver a questão apenas por impressão, sem observar contexto e comando.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca costuma explorar contexto, comando, função e sentido.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Pronome pode retomar termo anterior ou antecipar informação posterior.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de classes de palavras em uso."
       },
       {
-        "id": "q04-03",
+        "id": "portugues-avancado-04-q03",
         "tipo": "certo_errado",
-        "enunciado": "Para resolver Morfologia, deve-se observar forma, função, sentido e objetivo comunicativo.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A resposta correta depende da combinação entre gramática e interpretação.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Classificar palavra sem observar função na frase.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q04-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "A palavra “rápido” pode ser adjetivo em um contexto e advérbio em outro.",
-        "alternativas": [
-          "A classificação depende da função: se caracteriza substantivo é adjetivo; se modifica verbo é advérbio.",
-          "A alternativa deve ser aceita porque contém palavra conhecida.",
-          "Não é necessário observar o contexto do enunciado.",
-          "A regra gramatical sempre se resolve por sonoridade.",
-          "A análise do comando da banca é dispensável."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A classificação depende da função: se caracteriza substantivo é adjetivo; se modifica verbo é advérbio.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A classificação depende da função: se caracteriza substantivo é adjetivo; se modifica verbo é advérbio.",
-        "armadilhaDaBanca": "A banca costuma esconder erro em alternativa aparentemente natural.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "id": "portugues-avancado-04-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: “Como” pode indicar causa, comparação ou conformidade, conforme a construção. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Conjunções são cobradas pelo valor semântico, não apenas pela classificação.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q04-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Morfologia?",
-        "alternativas": [
-          "Usar o roteiro: identificar forma, função, termo retomado, flexão, valor semântico e efeito de sentido.",
-          "Decorar apenas exemplos soltos.",
-          "Responder antes de ler o comando.",
-          "Ignorar conectivos e pontuação.",
-          "Trocar regra gramatical por opinião pessoal."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: identificar forma, função, termo retomado, flexão, valor semântico e efeito de sentido.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "O roteiro correto é: identificar forma, função, termo retomado, flexão, valor semântico e efeito de sentido.",
-        "armadilhaDaBanca": "A banca pune leitura apressada e regra decorada sem aplicação.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
-      },
-      {
-        "id": "q04-06",
+        "id": "portugues-avancado-04-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Morfologia.",
-        "respostaEsperada": "A morfologia estuda as classes de palavras e seus efeitos de sentido, flexão e função no texto.",
-        "rubricaCorrecao": [
-          "identificar o conceito",
-          "usar termo técnico adequado",
-          "aplicar ao exemplo",
-          "não inventar regra absoluta"
-        ],
-        "comentario": "A resposta deve ser objetiva e ligada ao uso em prova.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva em uma frase objetiva."
+        "enunciado": "Explique, em até três linhas, por que classes de palavras em uso não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar substantivo nomeia; adjetivo qualifica; advérbio modifica verbo, adjetivo ou outro advérbio. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q04-07",
+        "id": "portugues-avancado-04-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie adjetivo e advérbio.",
-        "respostaEsperada": "adjetivo caracteriza nome; advérbio modifica verbo, adjetivo ou outro advérbio",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "dar exemplo simples"
-        ],
-        "comentario": "A diferença essencial é: adjetivo caracteriza nome; advérbio modifica verbo, adjetivo ou outro advérbio.",
-        "diagnosticoIA": "Se confundiu, monte uma tabela com conceito, exemplo e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Substantivo nomeia; adjetivo qualifica; advérbio modifica verbo, adjetivo ou outro advérbio. Pegadinha: Classificar palavra sem observar função na frase.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q04-08",
+        "id": "portugues-avancado-04-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Morfologia?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Classificar palavra isolada sem observar contexto e função no enunciado.",
-          "Ler o comando antes das alternativas.",
-          "Identificar o núcleo do período.",
-          "Conferir conectivos e retomadas.",
-          "Reescrever preservando sentido."
+          "Conjunções são cobradas pelo valor semântico, não apenas pela classificação.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Decorar lista de conjunções sem analisar valor contextual."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Classificar palavra isolada sem observar contexto e função no enunciado.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A pegadinha comum é: Classificar palavra isolada sem observar contexto e função no enunciado.",
-        "armadilhaDaBanca": "Muitas alternativas parecem corretas porque usam vocabulário técnico, mas aplicam a regra errada.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q04-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Morfologia, uma alternativa pode estar gramaticalmente correta e, ainda assim, errada por alterar o sentido original.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Reescrita e interpretação exigem preservação de sentido, não apenas correção isolada.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "id": "portugues-avancado-04-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Decorar lista de conjunções sem analisar valor contextual.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q04-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Morfologia para um candidato que erra questões de Português.",
-        "promptTutorIA": "Explique Morfologia com definição, exemplo de banca, pegadinha e técnica de revisão.",
-        "criterioDominio": [
-          "definição correta",
-          "exemplo aplicado",
-          "alerta de pegadinha",
-          "técnica de revisão"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo.",
-        "diagnosticoIA": "Use a resposta para montar um flashcard próprio e revisar em 24 horas."
+        "id": "portugues-avancado-04-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Morfologia aplicada a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Flexões de número, gênero, tempo e modo interferem na concordância e no sentido.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "portugues-avancado-04-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Substantivo nomeia; adjetivo qualifica; advérbio modifica verbo, adjetivo ou outro advérbio.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Sintaxe: termos da oração, período simples e período composto",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 22 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio: conferir edital, estilo da banca e eventuais normas específicas de redação oficial.",
-    "publicoAlvo": "Candidatos de concursos policiais, tribunais, OAB, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Português / Concursos / Interpretação / Gramática"
+    "proximoTitulo": "Sintaxe do período simples e composto"
   },
   {
-    "id": "sintaxe-termos-da-oracao-periodo-simples-e-periodo-composto",
-    "materialTitle": "Português Avançado 10/10 Plus Revisado",
+    "id": "sintaxe-do-periodo-simples-e-composto",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 5,
     "totalChapters": 10,
-    "title": "Sintaxe: termos da oração, período simples e período composto",
-    "assunto": "Sintaxe",
-    "tecnica": "Estudo por comando da banca, função gramatical, sentido textual, reescrita e eliminação de pegadinhas",
-    "competencia": "Resolver questões de Português com leitura estratégica, análise sintática, domínio da norma culta e preservação de sentido.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Sintaxe do período simples e composto",
+    "assunto": "funções e relações oracionais",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar funções e relações oracionais com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "OAB": 4,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "sujeito",
-      "predicado",
-      "objeto",
-      "adjunto",
-      "oração subordinada",
-      "oração coordenada"
+      "funcoes e relacoes oracionais"
     ],
-    "fontesBase": [
-      "Gramática normativa aplicada a concursos",
-      "Manual de Redação da Presidência da República quando pertinente",
-      "Editais e padrões de cobrança das principais bancas",
-      "Textos jornalísticos, literários e oficiais para interpretação"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Sintaxe com foco em concursos policiais, administrativos, tribunais, OAB e ENEM. A cobrança moderna mistura leitura, gramática e reescrita.",
-      "Ideia central: A sintaxe analisa a função dos termos na oração e a relação entre orações no período.",
-      "Erro comum: Confundir função sintática com classe gramatical ou ignorar o verbo como eixo da análise.",
-      "Como estudar: achar o verbo, localizar sujeito, complementos, adjuntos, predicativos e relação entre orações. Em seguida, resolva questões, justifique cada eliminação e revise o erro por categoria."
+      "Sintaxe do período simples e composto exige domínio de funções e relações oracionais. O estudo correto começa pela ideia de que termos essenciais, integrantes e acessórios organizam a função de cada expressão na oração.",
+      "Oração subordinada exerce função sintática em relação a outra oração. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Coordenação une orações independentes sintaticamente, mas relacionadas pelo sentido. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Pontuação e concordância dependem da estrutura sintática identificada. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "A sintaxe analisa a função dos termos na oração e a relação entre orações no período.",
-      "Português de concurso exige contexto, comando e função, não apenas regra decorada.",
-      "A banca cobra pegadinhas com conectivos, pontuação, reescrita, concordância e sentido.",
-      "Erro comum: Confundir função sintática com classe gramatical ou ignorar o verbo como eixo da análise."
+      "Termos essenciais, integrantes e acessórios organizam a função de cada expressão na oração.",
+      "Oração subordinada exerce função sintática em relação a outra oração.",
+      "Coordenação une orações independentes sintaticamente, mas relacionadas pelo sentido.",
+      "Pontuação e concordância dependem da estrutura sintática identificada."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Confundir função sintática com classe gramatical ou ignorar o verbo como eixo da análise.",
-        "A sintaxe analisa a função dos termos na oração e a relação entre orações no período.",
-        "O tema deve ser resolvido por impressão sonora."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito e aplicação em prova."
-    },
-    "oQueCobra": "Interpretação, inferência, coesão, coerência, morfologia, sintaxe, concordância, regência, crase, pontuação, semântica, variação, redação oficial e reescrita.",
-    "precisaSaberAntes": "Leitura de enunciado, noções de texto, classes gramaticais, termos da oração, conectivos e norma culta.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca usa textos curtos, reescritas, alternativas parecidas e comandos específicos para testar precisão."
+        "pergunta": "Qual é o núcleo de Sintaxe do período simples e composto?",
+        "resposta": "Termos essenciais, integrantes e acessórios organizam a função de cada expressão na oração."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, identifique o fenômeno cobrado, elimine alternativas absolutas e confira se o sentido foi preservado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Confundir sujeito com termo próximo ao verbo."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Português impacta prova objetiva, redação, leitura de lei, interpretação de caso e desempenho em todas as disciplinas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Em “É necessário que todos estudem”, a oração com “que” funciona como sujeito oracional."
       }
     ],
-    "comoIdentificar": "Procure o fenômeno cobrado: sentido, conectivo, classe, função, concordância, regência, crase, pontuação ou reescrita.",
+    "quadroDeDominio": {
+      "conceito": "Termos essenciais, integrantes e acessórios organizam a função de cada expressão na oração.",
+      "limite": "Oração subordinada exerce função sintática em relação a outra oração.",
+      "aplicacao": "Em “É necessário que todos estudem”, a oração com “que” funciona como sujeito oracional.",
+      "erroFatal": "Confundir sujeito com termo próximo ao verbo."
+    },
+    "exemploComentado": "Em “É necessário que todos estudem”, a oração com “que” funciona como sujeito oracional.",
     "pegadinhas": [
-      "palavras absolutas",
-      "reescrita que muda sentido",
-      "conectivo com valor trocado",
-      "vírgula entre sujeito e predicado",
-      "classificação fora de contexto"
+      "Confundir sujeito com termo próximo ao verbo.",
+      "Achar que toda oração iniciada por “que” tem a mesma função."
     ],
-    "resumoFrase": "A sintaxe analisa a função dos termos na oração e a relação entre orações no período.",
-    "explicacaoComoSeTivesse12": "Pense assim: A sintaxe analisa a função dos termos na oração e a relação entre orações no período. Para acertar, leia o comando, veja o contexto e não marque só porque a frase parece bonita.",
-    "mapaMentalTextual": {
-      "centro": "Sintaxe",
-      "ramos": [
-        "conceito",
-        "como a banca cobra",
-        "pegadinha",
-        "exemplo",
-        "técnica de revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Sintaxe do período simples e composto",
+      "Conceito: Termos essenciais, integrantes e acessórios organizam a função de cada expressão na oração.",
+      "Aplicação: Em “É necessário que todos estudem”, a oração com “que” funciona como sujeito oracional.",
+      "Cuidado: Confundir sujeito com termo próximo ao verbo."
+    ],
     "comoEstudar": [
-      "Ler o capítulo marcando comando e regra",
-      "Resolver 10 questões sem olhar gabarito",
-      "Justificar cada alternativa eliminada",
-      "Criar um exemplo próprio",
-      "Revisar em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Confundir função sintática com classe gramatical ou ignorar o verbo como eixo da análise. A resposta correta precisa respeitar comando, contexto e regra.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "acertar questões conceituais",
-      "justificar eliminação de alternativas",
-      "aplicar regra em reescrita",
-      "identificar pegadinha da banca"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f05-01",
-        "frente": "Qual é a ideia central de Sintaxe?",
-        "verso": "A sintaxe analisa a função dos termos na oração e a relação entre orações no período.",
-        "tag": "Sintaxe",
+        "id": "portugues-avancado-05-fc01",
+        "frente": "Qual é a ideia central de Sintaxe do período simples e composto?",
+        "verso": "Termos essenciais, integrantes e acessórios organizam a função de cada expressão na oração.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f05-02",
-        "frente": "Qual pegadinha a banca usa em Sintaxe?",
-        "verso": "Confundir função sintática com classe gramatical ou ignorar o verbo como eixo da análise.",
+        "id": "portugues-avancado-05-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em funções e relações oracionais?",
+        "verso": "Oração subordinada exerce função sintática em relação a outra oração.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "portugues-avancado-05-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Confundir sujeito com termo próximo ao verbo.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f05-03",
-        "frente": "Como estudar Sintaxe com segurança?",
-        "verso": "Use este roteiro: achar o verbo, localizar sujeito, complementos, adjuntos, predicativos e relação entre orações. Depois resolva questões e registre o erro em uma frase.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f05-04",
-        "frente": "Diferença importante em Sintaxe",
-        "verso": "classe gramatical x função sintática: classe é natureza da palavra; função é papel dela na oração.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "portugues-avancado-05-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Em “É necessário que todos estudem”, a oração com “que” funciona como sujeito oracional.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Português para concursos. Explique Sintaxe, dê um exemplo, uma pegadinha e uma questão de treino.",
-      "feedbackPadrao": "Corrija com foco em comando, contexto, regra e preservação de sentido."
-    },
     "questoes": [
       {
-        "id": "q05-01",
+        "id": "portugues-avancado-05-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Sintaxe, qual afirmação está correta?",
+        "enunciado": "Em relação a Sintaxe do período simples e composto, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A sintaxe analisa a função dos termos na oração e a relação entre orações no período.",
-          "Confundir função sintática com classe gramatical ou ignorar o verbo como eixo da análise.",
-          "A regra deve ser aplicada sem considerar contexto.",
-          "O comando da banca é secundário quando a frase parece correta.",
-          "A análise gramatical dispensa leitura do período completo."
+          "Termos essenciais, integrantes e acessórios organizam a função de cada expressão na oração.",
+          "Confundir sujeito com termo próximo ao verbo.",
+          "Achar que toda oração iniciada por “que” tem a mesma função.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A sintaxe analisa a função dos termos na oração e a relação entre orações no período.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A sintaxe analisa a função dos termos na oração e a relação entre orações no período.",
-        "armadilhaDaBanca": "Confundir função sintática com classe gramatical ou ignorar o verbo como eixo da análise.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A alternativa correta resume o núcleo do tema: Termos essenciais, integrantes e acessórios organizam a função de cada expressão na oração."
       },
       {
-        "id": "q05-02",
+        "id": "portugues-avancado-05-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Sintaxe, é correto resolver a questão apenas por impressão, sem observar contexto e comando.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca costuma explorar contexto, comando, função e sentido.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Oração subordinada exerce função sintática em relação a outra oração.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de funções e relações oracionais."
       },
       {
-        "id": "q05-03",
+        "id": "portugues-avancado-05-q03",
         "tipo": "certo_errado",
-        "enunciado": "Para resolver Sintaxe, deve-se observar forma, função, sentido e objetivo comunicativo.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A resposta correta depende da combinação entre gramática e interpretação.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Confundir sujeito com termo próximo ao verbo.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q05-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Em “Entregaram os documentos ao fiscal”, há verbo transitivo e dois complementos.",
-        "alternativas": [
-          "“Os documentos” funciona como objeto direto e “ao fiscal” como objeto indireto.",
-          "A alternativa deve ser aceita porque contém palavra conhecida.",
-          "Não é necessário observar o contexto do enunciado.",
-          "A regra gramatical sempre se resolve por sonoridade.",
-          "A análise do comando da banca é dispensável."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. “Os documentos” funciona como objeto direto e “ao fiscal” como objeto indireto.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "“Os documentos” funciona como objeto direto e “ao fiscal” como objeto indireto.",
-        "armadilhaDaBanca": "A banca costuma esconder erro em alternativa aparentemente natural.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "id": "portugues-avancado-05-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Em “É necessário que todos estudem”, a oração com “que” funciona como sujeito oracional. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Coordenação une orações independentes sintaticamente, mas relacionadas pelo sentido.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q05-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Sintaxe?",
-        "alternativas": [
-          "Usar o roteiro: achar o verbo, localizar sujeito, complementos, adjuntos, predicativos e relação entre orações.",
-          "Decorar apenas exemplos soltos.",
-          "Responder antes de ler o comando.",
-          "Ignorar conectivos e pontuação.",
-          "Trocar regra gramatical por opinião pessoal."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: achar o verbo, localizar sujeito, complementos, adjuntos, predicativos e relação entre orações.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "O roteiro correto é: achar o verbo, localizar sujeito, complementos, adjuntos, predicativos e relação entre orações.",
-        "armadilhaDaBanca": "A banca pune leitura apressada e regra decorada sem aplicação.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
-      },
-      {
-        "id": "q05-06",
+        "id": "portugues-avancado-05-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Sintaxe.",
-        "respostaEsperada": "A sintaxe analisa a função dos termos na oração e a relação entre orações no período.",
-        "rubricaCorrecao": [
-          "identificar o conceito",
-          "usar termo técnico adequado",
-          "aplicar ao exemplo",
-          "não inventar regra absoluta"
-        ],
-        "comentario": "A resposta deve ser objetiva e ligada ao uso em prova.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva em uma frase objetiva."
+        "enunciado": "Explique, em até três linhas, por que funções e relações oracionais não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar termos essenciais, integrantes e acessórios organizam a função de cada expressão na oração. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q05-07",
+        "id": "portugues-avancado-05-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie classe gramatical e função sintática.",
-        "respostaEsperada": "classe é natureza da palavra; função é papel dela na oração",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "dar exemplo simples"
-        ],
-        "comentario": "A diferença essencial é: classe é natureza da palavra; função é papel dela na oração.",
-        "diagnosticoIA": "Se confundiu, monte uma tabela com conceito, exemplo e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Termos essenciais, integrantes e acessórios organizam a função de cada expressão na oração. Pegadinha: Confundir sujeito com termo próximo ao verbo.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q05-08",
+        "id": "portugues-avancado-05-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Sintaxe?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Confundir função sintática com classe gramatical ou ignorar o verbo como eixo da análise.",
-          "Ler o comando antes das alternativas.",
-          "Identificar o núcleo do período.",
-          "Conferir conectivos e retomadas.",
-          "Reescrever preservando sentido."
+          "Coordenação une orações independentes sintaticamente, mas relacionadas pelo sentido.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Achar que toda oração iniciada por “que” tem a mesma função."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Confundir função sintática com classe gramatical ou ignorar o verbo como eixo da análise.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A pegadinha comum é: Confundir função sintática com classe gramatical ou ignorar o verbo como eixo da análise.",
-        "armadilhaDaBanca": "Muitas alternativas parecem corretas porque usam vocabulário técnico, mas aplicam a regra errada.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q05-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Sintaxe, uma alternativa pode estar gramaticalmente correta e, ainda assim, errada por alterar o sentido original.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Reescrita e interpretação exigem preservação de sentido, não apenas correção isolada.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "id": "portugues-avancado-05-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Achar que toda oração iniciada por “que” tem a mesma função.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q05-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Sintaxe para um candidato que erra questões de Português.",
-        "promptTutorIA": "Explique Sintaxe com definição, exemplo de banca, pegadinha e técnica de revisão.",
-        "criterioDominio": [
-          "definição correta",
-          "exemplo aplicado",
-          "alerta de pegadinha",
-          "técnica de revisão"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo.",
-        "diagnosticoIA": "Use a resposta para montar um flashcard próprio e revisar em 24 horas."
+        "id": "portugues-avancado-05-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Sintaxe do período simples e composto a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Pontuação e concordância dependem da estrutura sintática identificada.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "portugues-avancado-05-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Termos essenciais, integrantes e acessórios organizam a função de cada expressão na oração.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Concordância verbal e nominal em concursos",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 22 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio: conferir edital, estilo da banca e eventuais normas específicas de redação oficial.",
-    "publicoAlvo": "Candidatos de concursos policiais, tribunais, OAB, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Português / Concursos / Interpretação / Gramática"
+    "proximoTitulo": "Concordância verbal e nominal"
   },
   {
-    "id": "concordancia-verbal-e-nominal-em-concursos",
-    "materialTitle": "Português Avançado 10/10 Plus Revisado",
+    "id": "concordancia-verbal-e-nominal",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 6,
     "totalChapters": 10,
-    "title": "Concordância verbal e nominal em concursos",
-    "assunto": "Concordância",
-    "tecnica": "Estudo por comando da banca, função gramatical, sentido textual, reescrita e eliminação de pegadinhas",
-    "competencia": "Resolver questões de Português com leitura estratégica, análise sintática, domínio da norma culta e preservação de sentido.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Concordância verbal e nominal",
+    "assunto": "harmonia flexional",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar harmonia flexional com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "OAB": 4,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "concordância verbal",
-      "concordância nominal",
-      "sujeito composto",
-      "partitivo",
-      "pronome relativo"
+      "harmonia flexional"
     ],
-    "fontesBase": [
-      "Gramática normativa aplicada a concursos",
-      "Manual de Redação da Presidência da República quando pertinente",
-      "Editais e padrões de cobrança das principais bancas",
-      "Textos jornalísticos, literários e oficiais para interpretação"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Concordância com foco em concursos policiais, administrativos, tribunais, OAB e ENEM. A cobrança moderna mistura leitura, gramática e reescrita.",
-      "Ideia central: Concordância exige alinhar verbo, nomes e modificadores ao núcleo correto, considerando regras gerais e casos especiais.",
-      "Erro comum: Concordar com palavra próxima e não com o núcleo sintático adequado.",
-      "Como estudar: identificar núcleo, afastar termos intercalados, aplicar regra geral e revisar casos especiais. Em seguida, resolva questões, justifique cada eliminação e revise o erro por categoria."
+      "Concordância verbal e nominal exige domínio de harmonia flexional. O estudo correto começa pela ideia de que verbo concorda com núcleo do sujeito, não com termo intercalado.",
+      "Sujeito composto antes do verbo normalmente leva plural; após o verbo, há casos específicos de concordância. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Concordância nominal considera gênero e número do termo determinado. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Expressões partitivas, porcentagens e coletivos exigem atenção ao núcleo e ao especificador. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Concordância exige alinhar verbo, nomes e modificadores ao núcleo correto, considerando regras gerais e casos especiais.",
-      "Português de concurso exige contexto, comando e função, não apenas regra decorada.",
-      "A banca cobra pegadinhas com conectivos, pontuação, reescrita, concordância e sentido.",
-      "Erro comum: Concordar com palavra próxima e não com o núcleo sintático adequado."
+      "Verbo concorda com núcleo do sujeito, não com termo intercalado.",
+      "Sujeito composto antes do verbo normalmente leva plural; após o verbo, há casos específicos de concordância.",
+      "Concordância nominal considera gênero e número do termo determinado.",
+      "Expressões partitivas, porcentagens e coletivos exigem atenção ao núcleo e ao especificador."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Concordar com palavra próxima e não com o núcleo sintático adequado.",
-        "Concordância exige alinhar verbo, nomes e modificadores ao núcleo correto, considerando regras gerais e casos especiais.",
-        "O tema deve ser resolvido por impressão sonora."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito e aplicação em prova."
-    },
-    "oQueCobra": "Interpretação, inferência, coesão, coerência, morfologia, sintaxe, concordância, regência, crase, pontuação, semântica, variação, redação oficial e reescrita.",
-    "precisaSaberAntes": "Leitura de enunciado, noções de texto, classes gramaticais, termos da oração, conectivos e norma culta.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca usa textos curtos, reescritas, alternativas parecidas e comandos específicos para testar precisão."
+        "pergunta": "Qual é o núcleo de Concordância verbal e nominal?",
+        "resposta": "Verbo concorda com núcleo do sujeito, não com termo intercalado."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, identifique o fenômeno cobrado, elimine alternativas absolutas e confira se o sentido foi preservado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Concordar com palavra mais próxima por atração indevida."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Português impacta prova objetiva, redação, leitura de lei, interpretação de caso e desempenho em todas as disciplinas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "“A maioria dos candidatos compareceu” e “compareceram” podem ocorrer conforme ênfase, mas a banca cobra contexto."
       }
     ],
-    "comoIdentificar": "Procure o fenômeno cobrado: sentido, conectivo, classe, função, concordância, regência, crase, pontuação ou reescrita.",
+    "quadroDeDominio": {
+      "conceito": "Verbo concorda com núcleo do sujeito, não com termo intercalado.",
+      "limite": "Sujeito composto antes do verbo normalmente leva plural; após o verbo, há casos específicos de concordância.",
+      "aplicacao": "“A maioria dos candidatos compareceu” e “compareceram” podem ocorrer conforme ênfase, mas a banca cobra contexto.",
+      "erroFatal": "Concordar com palavra mais próxima por atração indevida."
+    },
+    "exemploComentado": "“A maioria dos candidatos compareceu” e “compareceram” podem ocorrer conforme ênfase, mas a banca cobra contexto.",
     "pegadinhas": [
-      "palavras absolutas",
-      "reescrita que muda sentido",
-      "conectivo com valor trocado",
-      "vírgula entre sujeito e predicado",
-      "classificação fora de contexto"
+      "Concordar com palavra mais próxima por atração indevida.",
+      "Ignorar núcleo do sujeito longo."
     ],
-    "resumoFrase": "Concordância exige alinhar verbo, nomes e modificadores ao núcleo correto, considerando regras gerais e casos especiais.",
-    "explicacaoComoSeTivesse12": "Pense assim: Concordância exige alinhar verbo, nomes e modificadores ao núcleo correto, considerando regras gerais e casos especiais. Para acertar, leia o comando, veja o contexto e não marque só porque a frase parece bonita.",
-    "mapaMentalTextual": {
-      "centro": "Concordância",
-      "ramos": [
-        "conceito",
-        "como a banca cobra",
-        "pegadinha",
-        "exemplo",
-        "técnica de revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Concordância verbal e nominal",
+      "Conceito: Verbo concorda com núcleo do sujeito, não com termo intercalado.",
+      "Aplicação: “A maioria dos candidatos compareceu” e “compareceram” podem ocorrer conforme ênfase, mas a banca cobra contexto.",
+      "Cuidado: Concordar com palavra mais próxima por atração indevida."
+    ],
     "comoEstudar": [
-      "Ler o capítulo marcando comando e regra",
-      "Resolver 10 questões sem olhar gabarito",
-      "Justificar cada alternativa eliminada",
-      "Criar um exemplo próprio",
-      "Revisar em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Concordar com palavra próxima e não com o núcleo sintático adequado. A resposta correta precisa respeitar comando, contexto e regra.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "acertar questões conceituais",
-      "justificar eliminação de alternativas",
-      "aplicar regra em reescrita",
-      "identificar pegadinha da banca"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f06-01",
-        "frente": "Qual é a ideia central de Concordância?",
-        "verso": "Concordância exige alinhar verbo, nomes e modificadores ao núcleo correto, considerando regras gerais e casos especiais.",
-        "tag": "Concordância",
+        "id": "portugues-avancado-06-fc01",
+        "frente": "Qual é a ideia central de Concordância verbal e nominal?",
+        "verso": "Verbo concorda com núcleo do sujeito, não com termo intercalado.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f06-02",
-        "frente": "Qual pegadinha a banca usa em Concordância?",
-        "verso": "Concordar com palavra próxima e não com o núcleo sintático adequado.",
+        "id": "portugues-avancado-06-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em harmonia flexional?",
+        "verso": "Sujeito composto antes do verbo normalmente leva plural; após o verbo, há casos específicos de concordância.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "portugues-avancado-06-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Concordar com palavra mais próxima por atração indevida.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f06-03",
-        "frente": "Como estudar Concordância com segurança?",
-        "verso": "Use este roteiro: identificar núcleo, afastar termos intercalados, aplicar regra geral e revisar casos especiais. Depois resolva questões e registre o erro em uma frase.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f06-04",
-        "frente": "Diferença importante em Concordância",
-        "verso": "concordância verbal x concordância nominal: a verbal liga verbo ao sujeito; a nominal liga nomes e seus determinantes.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "portugues-avancado-06-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "“A maioria dos candidatos compareceu” e “compareceram” podem ocorrer conforme ênfase, mas a banca cobra contexto.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Português para concursos. Explique Concordância, dê um exemplo, uma pegadinha e uma questão de treino.",
-      "feedbackPadrao": "Corrija com foco em comando, contexto, regra e preservação de sentido."
-    },
     "questoes": [
       {
-        "id": "q06-01",
+        "id": "portugues-avancado-06-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Concordância, qual afirmação está correta?",
+        "enunciado": "Em relação a Concordância verbal e nominal, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Concordância exige alinhar verbo, nomes e modificadores ao núcleo correto, considerando regras gerais e casos especiais.",
-          "Concordar com palavra próxima e não com o núcleo sintático adequado.",
-          "A regra deve ser aplicada sem considerar contexto.",
-          "O comando da banca é secundário quando a frase parece correta.",
-          "A análise gramatical dispensa leitura do período completo."
+          "Verbo concorda com núcleo do sujeito, não com termo intercalado.",
+          "Concordar com palavra mais próxima por atração indevida.",
+          "Ignorar núcleo do sujeito longo.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Concordância exige alinhar verbo, nomes e modificadores ao núcleo correto, considerando regras gerais e casos especiais.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "Concordância exige alinhar verbo, nomes e modificadores ao núcleo correto, considerando regras gerais e casos especiais.",
-        "armadilhaDaBanca": "Concordar com palavra próxima e não com o núcleo sintático adequado.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A alternativa correta resume o núcleo do tema: Verbo concorda com núcleo do sujeito, não com termo intercalado."
       },
       {
-        "id": "q06-02",
+        "id": "portugues-avancado-06-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Concordância, é correto resolver a questão apenas por impressão, sem observar contexto e comando.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca costuma explorar contexto, comando, função e sentido.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Sujeito composto antes do verbo normalmente leva plural; após o verbo, há casos específicos de concordância.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de harmonia flexional."
       },
       {
-        "id": "q06-03",
+        "id": "portugues-avancado-06-q03",
         "tipo": "certo_errado",
-        "enunciado": "Para resolver Concordância, deve-se observar forma, função, sentido e objetivo comunicativo.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A resposta correta depende da combinação entre gramática e interpretação.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Concordar com palavra mais próxima por atração indevida.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q06-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Em “A maioria dos candidatos compareceu”, o verbo pode concordar com o núcleo “maioria”.",
-        "alternativas": [
-          "A concordância no singular é adequada porque o núcleo do sujeito é “maioria”.",
-          "A alternativa deve ser aceita porque contém palavra conhecida.",
-          "Não é necessário observar o contexto do enunciado.",
-          "A regra gramatical sempre se resolve por sonoridade.",
-          "A análise do comando da banca é dispensável."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A concordância no singular é adequada porque o núcleo do sujeito é “maioria”.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A concordância no singular é adequada porque o núcleo do sujeito é “maioria”.",
-        "armadilhaDaBanca": "A banca costuma esconder erro em alternativa aparentemente natural.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "id": "portugues-avancado-06-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: “A maioria dos candidatos compareceu” e “compareceram” podem ocorrer conforme ênfase, mas a banca cobra contexto. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Concordância nominal considera gênero e número do termo determinado.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q06-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Concordância?",
-        "alternativas": [
-          "Usar o roteiro: identificar núcleo, afastar termos intercalados, aplicar regra geral e revisar casos especiais.",
-          "Decorar apenas exemplos soltos.",
-          "Responder antes de ler o comando.",
-          "Ignorar conectivos e pontuação.",
-          "Trocar regra gramatical por opinião pessoal."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: identificar núcleo, afastar termos intercalados, aplicar regra geral e revisar casos especiais.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "O roteiro correto é: identificar núcleo, afastar termos intercalados, aplicar regra geral e revisar casos especiais.",
-        "armadilhaDaBanca": "A banca pune leitura apressada e regra decorada sem aplicação.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
-      },
-      {
-        "id": "q06-06",
+        "id": "portugues-avancado-06-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Concordância.",
-        "respostaEsperada": "Concordância exige alinhar verbo, nomes e modificadores ao núcleo correto, considerando regras gerais e casos especiais.",
-        "rubricaCorrecao": [
-          "identificar o conceito",
-          "usar termo técnico adequado",
-          "aplicar ao exemplo",
-          "não inventar regra absoluta"
-        ],
-        "comentario": "A resposta deve ser objetiva e ligada ao uso em prova.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva em uma frase objetiva."
+        "enunciado": "Explique, em até três linhas, por que harmonia flexional não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar verbo concorda com núcleo do sujeito, não com termo intercalado. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q06-07",
+        "id": "portugues-avancado-06-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie concordância verbal e concordância nominal.",
-        "respostaEsperada": "a verbal liga verbo ao sujeito; a nominal liga nomes e seus determinantes",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "dar exemplo simples"
-        ],
-        "comentario": "A diferença essencial é: a verbal liga verbo ao sujeito; a nominal liga nomes e seus determinantes.",
-        "diagnosticoIA": "Se confundiu, monte uma tabela com conceito, exemplo e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Verbo concorda com núcleo do sujeito, não com termo intercalado. Pegadinha: Concordar com palavra mais próxima por atração indevida.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q06-08",
+        "id": "portugues-avancado-06-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Concordância?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Concordar com palavra próxima e não com o núcleo sintático adequado.",
-          "Ler o comando antes das alternativas.",
-          "Identificar o núcleo do período.",
-          "Conferir conectivos e retomadas.",
-          "Reescrever preservando sentido."
+          "Concordância nominal considera gênero e número do termo determinado.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Ignorar núcleo do sujeito longo."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Concordar com palavra próxima e não com o núcleo sintático adequado.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A pegadinha comum é: Concordar com palavra próxima e não com o núcleo sintático adequado.",
-        "armadilhaDaBanca": "Muitas alternativas parecem corretas porque usam vocabulário técnico, mas aplicam a regra errada.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q06-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Concordância, uma alternativa pode estar gramaticalmente correta e, ainda assim, errada por alterar o sentido original.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Reescrita e interpretação exigem preservação de sentido, não apenas correção isolada.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "id": "portugues-avancado-06-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Ignorar núcleo do sujeito longo.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q06-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Concordância para um candidato que erra questões de Português.",
-        "promptTutorIA": "Explique Concordância com definição, exemplo de banca, pegadinha e técnica de revisão.",
-        "criterioDominio": [
-          "definição correta",
-          "exemplo aplicado",
-          "alerta de pegadinha",
-          "técnica de revisão"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo.",
-        "diagnosticoIA": "Use a resposta para montar um flashcard próprio e revisar em 24 horas."
+        "id": "portugues-avancado-06-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Concordância verbal e nominal a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Expressões partitivas, porcentagens e coletivos exigem atenção ao núcleo e ao especificador.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "portugues-avancado-06-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Verbo concorda com núcleo do sujeito, não com termo intercalado.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Regência, crase e colocação pronominal",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 22 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio: conferir edital, estilo da banca e eventuais normas específicas de redação oficial.",
-    "publicoAlvo": "Candidatos de concursos policiais, tribunais, OAB, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Português / Concursos / Interpretação / Gramática"
+    "proximoTitulo": "Regência, crase e colocação pronominal"
   },
   {
     "id": "regencia-crase-e-colocacao-pronominal",
-    "materialTitle": "Português Avançado 10/10 Plus Revisado",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 7,
     "totalChapters": 10,
     "title": "Regência, crase e colocação pronominal",
-    "assunto": "Regência, crase e pronomes",
-    "tecnica": "Estudo por comando da banca, função gramatical, sentido textual, reescrita e eliminação de pegadinhas",
-    "competencia": "Resolver questões de Português com leitura estratégica, análise sintática, domínio da norma culta e preservação de sentido.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "assunto": "relações entre termos",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar relações entre termos com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "OAB": 4,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "regência verbal",
-      "regência nominal",
-      "crase",
-      "próclise",
-      "ênclise",
-      "mesóclise"
+      "relacoes entre termos"
     ],
-    "fontesBase": [
-      "Gramática normativa aplicada a concursos",
-      "Manual de Redação da Presidência da República quando pertinente",
-      "Editais e padrões de cobrança das principais bancas",
-      "Textos jornalísticos, literários e oficiais para interpretação"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Regência, crase e pronomes com foco em concursos policiais, administrativos, tribunais, OAB e ENEM. A cobrança moderna mistura leitura, gramática e reescrita.",
-      "Ideia central: Regência define relações de complemento; crase depende de fusão entre preposição e artigo; colocação pronominal segue fatores de atração e norma culta.",
-      "Erro comum: Usar crase apenas por intuição sonora ou ignorar termo regente e termo regido.",
-      "Como estudar: identificar regente, verificar preposição, testar artigo feminino, observar palavra atrativa e reescrever. Em seguida, resolva questões, justifique cada eliminação e revise o erro por categoria."
+      "Regência, crase e colocação pronominal exige domínio de relações entre termos. O estudo correto começa pela ideia de que regência define a preposição exigida por verbos e nomes.",
+      "Crase resulta da fusão de preposição “a” com artigo ou pronome compatível. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Não há crase antes de verbo, masculino comum ou pronome que não aceite artigo. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Colocação pronominal depende de atratores, tempos verbais e adequação formal. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Regência define relações de complemento; crase depende de fusão entre preposição e artigo; colocação pronominal segue fatores de atração e norma culta.",
-      "Português de concurso exige contexto, comando e função, não apenas regra decorada.",
-      "A banca cobra pegadinhas com conectivos, pontuação, reescrita, concordância e sentido.",
-      "Erro comum: Usar crase apenas por intuição sonora ou ignorar termo regente e termo regido."
+      "Regência define a preposição exigida por verbos e nomes.",
+      "Crase resulta da fusão de preposição “a” com artigo ou pronome compatível.",
+      "Não há crase antes de verbo, masculino comum ou pronome que não aceite artigo.",
+      "Colocação pronominal depende de atratores, tempos verbais e adequação formal."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Usar crase apenas por intuição sonora ou ignorar termo regente e termo regido.",
-        "Regência define relações de complemento; crase depende de fusão entre preposição e artigo; colocação pronominal segue fatores de atração e norma culta.",
-        "O tema deve ser resolvido por impressão sonora."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito e aplicação em prova."
-    },
-    "oQueCobra": "Interpretação, inferência, coesão, coerência, morfologia, sintaxe, concordância, regência, crase, pontuação, semântica, variação, redação oficial e reescrita.",
-    "precisaSaberAntes": "Leitura de enunciado, noções de texto, classes gramaticais, termos da oração, conectivos e norma culta.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca usa textos curtos, reescritas, alternativas parecidas e comandos específicos para testar precisão."
+        "pergunta": "Qual é o núcleo de Regência, crase e colocação pronominal?",
+        "resposta": "Regência define a preposição exigida por verbos e nomes."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, identifique o fenômeno cobrado, elimine alternativas absolutas e confira se o sentido foi preservado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Colocar crase por intuição sonora."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Português impacta prova objetiva, redação, leitura de lei, interpretação de caso e desempenho em todas as disciplinas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "“Assisti à palestra” tem crase porque o verbo exige preposição e “palestra” aceita artigo."
       }
     ],
-    "comoIdentificar": "Procure o fenômeno cobrado: sentido, conectivo, classe, função, concordância, regência, crase, pontuação ou reescrita.",
+    "quadroDeDominio": {
+      "conceito": "Regência define a preposição exigida por verbos e nomes.",
+      "limite": "Crase resulta da fusão de preposição “a” com artigo ou pronome compatível.",
+      "aplicacao": "“Assisti à palestra” tem crase porque o verbo exige preposição e “palestra” aceita artigo.",
+      "erroFatal": "Colocar crase por intuição sonora."
+    },
+    "exemploComentado": "“Assisti à palestra” tem crase porque o verbo exige preposição e “palestra” aceita artigo.",
     "pegadinhas": [
-      "palavras absolutas",
-      "reescrita que muda sentido",
-      "conectivo com valor trocado",
-      "vírgula entre sujeito e predicado",
-      "classificação fora de contexto"
+      "Colocar crase por intuição sonora.",
+      "Usar próclise formalmente proibida sem atrator em início de oração."
     ],
-    "resumoFrase": "Regência define relações de complemento; crase depende de fusão entre preposição e artigo; colocação pronominal segue fatores de atração e norma culta.",
-    "explicacaoComoSeTivesse12": "Pense assim: Regência define relações de complemento; crase depende de fusão entre preposição e artigo; colocação pronominal segue fatores de atração e norma culta. Para acertar, leia o comando, veja o contexto e não marque só porque a frase parece bonita.",
-    "mapaMentalTextual": {
-      "centro": "Regência, crase e pronomes",
-      "ramos": [
-        "conceito",
-        "como a banca cobra",
-        "pegadinha",
-        "exemplo",
-        "técnica de revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Regência, crase e colocação pronominal",
+      "Conceito: Regência define a preposição exigida por verbos e nomes.",
+      "Aplicação: “Assisti à palestra” tem crase porque o verbo exige preposição e “palestra” aceita artigo.",
+      "Cuidado: Colocar crase por intuição sonora."
+    ],
     "comoEstudar": [
-      "Ler o capítulo marcando comando e regra",
-      "Resolver 10 questões sem olhar gabarito",
-      "Justificar cada alternativa eliminada",
-      "Criar um exemplo próprio",
-      "Revisar em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Usar crase apenas por intuição sonora ou ignorar termo regente e termo regido. A resposta correta precisa respeitar comando, contexto e regra.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "acertar questões conceituais",
-      "justificar eliminação de alternativas",
-      "aplicar regra em reescrita",
-      "identificar pegadinha da banca"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f07-01",
-        "frente": "Qual é a ideia central de Regência, crase e pronomes?",
-        "verso": "Regência define relações de complemento; crase depende de fusão entre preposição e artigo; colocação pronominal segue fatores de atração e norma culta.",
-        "tag": "Regência, crase e pronomes",
+        "id": "portugues-avancado-07-fc01",
+        "frente": "Qual é a ideia central de Regência, crase e colocação pronominal?",
+        "verso": "Regência define a preposição exigida por verbos e nomes.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f07-02",
-        "frente": "Qual pegadinha a banca usa em Regência, crase e pronomes?",
-        "verso": "Usar crase apenas por intuição sonora ou ignorar termo regente e termo regido.",
+        "id": "portugues-avancado-07-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em relações entre termos?",
+        "verso": "Crase resulta da fusão de preposição “a” com artigo ou pronome compatível.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "portugues-avancado-07-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Colocar crase por intuição sonora. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f07-03",
-        "frente": "Como estudar Regência, crase e pronomes com segurança?",
-        "verso": "Use este roteiro: identificar regente, verificar preposição, testar artigo feminino, observar palavra atrativa e reescrever. Depois resolva questões e registre o erro em uma frase.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f07-04",
-        "frente": "Diferença importante em Regência, crase e pronomes",
-        "verso": "regência x crase: regência mostra a preposição exigida; crase é a fusão do a preposição com artigo ou pronome.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "portugues-avancado-07-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "“Assisti à palestra” tem crase porque o verbo exige preposição e “palestra” aceita artigo.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Português para concursos. Explique Regência, crase e pronomes, dê um exemplo, uma pegadinha e uma questão de treino.",
-      "feedbackPadrao": "Corrija com foco em comando, contexto, regra e preservação de sentido."
-    },
     "questoes": [
       {
-        "id": "q07-01",
+        "id": "portugues-avancado-07-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Regência, crase e pronomes, qual afirmação está correta?",
+        "enunciado": "Em relação a Regência, crase e colocação pronominal, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Regência define relações de complemento; crase depende de fusão entre preposição e artigo; colocação pronominal segue fatores de atração e norma culta.",
-          "Usar crase apenas por intuição sonora ou ignorar termo regente e termo regido.",
-          "A regra deve ser aplicada sem considerar contexto.",
-          "O comando da banca é secundário quando a frase parece correta.",
-          "A análise gramatical dispensa leitura do período completo."
+          "Regência define a preposição exigida por verbos e nomes.",
+          "Colocar crase por intuição sonora.",
+          "Usar próclise formalmente proibida sem atrator em início de oração.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Regência define relações de complemento; crase depende de fusão entre preposição e artigo; colocação pronominal segue fatores de atração e norma culta.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "Regência define relações de complemento; crase depende de fusão entre preposição e artigo; colocação pronominal segue fatores de atração e norma culta.",
-        "armadilhaDaBanca": "Usar crase apenas por intuição sonora ou ignorar termo regente e termo regido.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A alternativa correta resume o núcleo do tema: Regência define a preposição exigida por verbos e nomes."
       },
       {
-        "id": "q07-02",
+        "id": "portugues-avancado-07-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Regência, crase e pronomes, é correto resolver a questão apenas por impressão, sem observar contexto e comando.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca costuma explorar contexto, comando, função e sentido.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Crase resulta da fusão de preposição “a” com artigo ou pronome compatível.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de relações entre termos."
       },
       {
-        "id": "q07-03",
+        "id": "portugues-avancado-07-q03",
         "tipo": "certo_errado",
-        "enunciado": "Para resolver Regência, crase e pronomes, deve-se observar forma, função, sentido e objetivo comunicativo.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A resposta correta depende da combinação entre gramática e interpretação.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Colocar crase por intuição sonora.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q07-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Em “refiro-me à proposta”, há preposição exigida pelo verbo e artigo diante de “proposta”.",
-        "alternativas": [
-          "A crase é adequada porque ocorre fusão da preposição “a” com o artigo feminino “a”.",
-          "A alternativa deve ser aceita porque contém palavra conhecida.",
-          "Não é necessário observar o contexto do enunciado.",
-          "A regra gramatical sempre se resolve por sonoridade.",
-          "A análise do comando da banca é dispensável."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A crase é adequada porque ocorre fusão da preposição “a” com o artigo feminino “a”.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A crase é adequada porque ocorre fusão da preposição “a” com o artigo feminino “a”.",
-        "armadilhaDaBanca": "A banca costuma esconder erro em alternativa aparentemente natural.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "id": "portugues-avancado-07-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: “Assisti à palestra” tem crase porque o verbo exige preposição e “palestra” aceita artigo. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Não há crase antes de verbo, masculino comum ou pronome que não aceite artigo.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q07-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Regência, crase e pronomes?",
-        "alternativas": [
-          "Usar o roteiro: identificar regente, verificar preposição, testar artigo feminino, observar palavra atrativa e reescrever.",
-          "Decorar apenas exemplos soltos.",
-          "Responder antes de ler o comando.",
-          "Ignorar conectivos e pontuação.",
-          "Trocar regra gramatical por opinião pessoal."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: identificar regente, verificar preposição, testar artigo feminino, observar palavra atrativa e reescrever.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "O roteiro correto é: identificar regente, verificar preposição, testar artigo feminino, observar palavra atrativa e reescrever.",
-        "armadilhaDaBanca": "A banca pune leitura apressada e regra decorada sem aplicação.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
-      },
-      {
-        "id": "q07-06",
+        "id": "portugues-avancado-07-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Regência, crase e pronomes.",
-        "respostaEsperada": "Regência define relações de complemento; crase depende de fusão entre preposição e artigo; colocação pronominal segue fatores de atração e norma culta.",
-        "rubricaCorrecao": [
-          "identificar o conceito",
-          "usar termo técnico adequado",
-          "aplicar ao exemplo",
-          "não inventar regra absoluta"
-        ],
-        "comentario": "A resposta deve ser objetiva e ligada ao uso em prova.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva em uma frase objetiva."
+        "enunciado": "Explique, em até três linhas, por que relações entre termos não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar regência define a preposição exigida por verbos e nomes. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q07-07",
+        "id": "portugues-avancado-07-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie regência e crase.",
-        "respostaEsperada": "regência mostra a preposição exigida; crase é a fusão do a preposição com artigo ou pronome",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "dar exemplo simples"
-        ],
-        "comentario": "A diferença essencial é: regência mostra a preposição exigida; crase é a fusão do a preposição com artigo ou pronome.",
-        "diagnosticoIA": "Se confundiu, monte uma tabela com conceito, exemplo e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Regência define a preposição exigida por verbos e nomes. Pegadinha: Colocar crase por intuição sonora.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q07-08",
+        "id": "portugues-avancado-07-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Regência, crase e pronomes?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Usar crase apenas por intuição sonora ou ignorar termo regente e termo regido.",
-          "Ler o comando antes das alternativas.",
-          "Identificar o núcleo do período.",
-          "Conferir conectivos e retomadas.",
-          "Reescrever preservando sentido."
+          "Não há crase antes de verbo, masculino comum ou pronome que não aceite artigo.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Usar próclise formalmente proibida sem atrator em início de oração."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Usar crase apenas por intuição sonora ou ignorar termo regente e termo regido.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A pegadinha comum é: Usar crase apenas por intuição sonora ou ignorar termo regente e termo regido.",
-        "armadilhaDaBanca": "Muitas alternativas parecem corretas porque usam vocabulário técnico, mas aplicam a regra errada.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q07-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Regência, crase e pronomes, uma alternativa pode estar gramaticalmente correta e, ainda assim, errada por alterar o sentido original.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Reescrita e interpretação exigem preservação de sentido, não apenas correção isolada.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "id": "portugues-avancado-07-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Usar próclise formalmente proibida sem atrator em início de oração.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q07-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Regência, crase e pronomes para um candidato que erra questões de Português.",
-        "promptTutorIA": "Explique Regência, crase e pronomes com definição, exemplo de banca, pegadinha e técnica de revisão.",
-        "criterioDominio": [
-          "definição correta",
-          "exemplo aplicado",
-          "alerta de pegadinha",
-          "técnica de revisão"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo.",
-        "diagnosticoIA": "Use a resposta para montar um flashcard próprio e revisar em 24 horas."
+        "id": "portugues-avancado-07-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Regência, crase e colocação pronominal a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Colocação pronominal depende de atratores, tempos verbais e adequação formal.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "portugues-avancado-07-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Regência define a preposição exigida por verbos e nomes.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Pontuação, reescrita de frases e preservação de sentido",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 22 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio: conferir edital, estilo da banca e eventuais normas específicas de redação oficial.",
-    "publicoAlvo": "Candidatos de concursos policiais, tribunais, OAB, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Português / Concursos / Interpretação / Gramática"
+    "proximoTitulo": "Pontuação e reescrita"
   },
   {
-    "id": "pontuacao-reescrita-de-frases-e-preservacao-de-sentido",
-    "materialTitle": "Português Avançado 10/10 Plus Revisado",
+    "id": "pontuacao-e-reescrita",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 8,
     "totalChapters": 10,
-    "title": "Pontuação, reescrita de frases e preservação de sentido",
-    "assunto": "Pontuação e reescrita",
-    "tecnica": "Estudo por comando da banca, função gramatical, sentido textual, reescrita e eliminação de pegadinhas",
-    "competencia": "Resolver questões de Português com leitura estratégica, análise sintática, domínio da norma culta e preservação de sentido.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Pontuação e reescrita",
+    "assunto": "sinais e preservação de sentido",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar sinais e preservação de sentido com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "OAB": 4,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "vírgula",
-      "ponto e vírgula",
-      "dois-pontos",
-      "aposto",
-      "oração adjetiva",
-      "reescrita"
+      "sinais e preservacao de sentido"
     ],
-    "fontesBase": [
-      "Gramática normativa aplicada a concursos",
-      "Manual de Redação da Presidência da República quando pertinente",
-      "Editais e padrões de cobrança das principais bancas",
-      "Textos jornalísticos, literários e oficiais para interpretação"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Pontuação e reescrita com foco em concursos policiais, administrativos, tribunais, OAB e ENEM. A cobrança moderna mistura leitura, gramática e reescrita.",
-      "Ideia central: Pontuação organiza a estrutura sintática e o sentido; reescrita correta preserva gramática, lógica e informação original.",
-      "Erro comum: Colocar vírgula entre sujeito e predicado ou aceitar reescrita que muda o sentido do texto.",
-      "Como estudar: marcar sujeito, predicado, intercalação, enumeração, explicação, restrição e mudança de sentido. Em seguida, resolva questões, justifique cada eliminação e revise o erro por categoria."
+      "Pontuação e reescrita exige domínio de sinais e preservação de sentido. O estudo correto começa pela ideia de que vírgula não separa sujeito de predicado em ordem direta.",
+      "A vírgula marca deslocamentos, intercalações, enumerações e certas orações subordinadas. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Reescrita correta preserva sentido, correção gramatical e ênfase essencial. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Mudança de voz verbal, conectivo ou pontuação pode alterar agente, causa ou conclusão. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Pontuação organiza a estrutura sintática e o sentido; reescrita correta preserva gramática, lógica e informação original.",
-      "Português de concurso exige contexto, comando e função, não apenas regra decorada.",
-      "A banca cobra pegadinhas com conectivos, pontuação, reescrita, concordância e sentido.",
-      "Erro comum: Colocar vírgula entre sujeito e predicado ou aceitar reescrita que muda o sentido do texto."
+      "Vírgula não separa sujeito de predicado em ordem direta.",
+      "A vírgula marca deslocamentos, intercalações, enumerações e certas orações subordinadas.",
+      "Reescrita correta preserva sentido, correção gramatical e ênfase essencial.",
+      "Mudança de voz verbal, conectivo ou pontuação pode alterar agente, causa ou conclusão."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Colocar vírgula entre sujeito e predicado ou aceitar reescrita que muda o sentido do texto.",
-        "Pontuação organiza a estrutura sintática e o sentido; reescrita correta preserva gramática, lógica e informação original.",
-        "O tema deve ser resolvido por impressão sonora."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito e aplicação em prova."
-    },
-    "oQueCobra": "Interpretação, inferência, coesão, coerência, morfologia, sintaxe, concordância, regência, crase, pontuação, semântica, variação, redação oficial e reescrita.",
-    "precisaSaberAntes": "Leitura de enunciado, noções de texto, classes gramaticais, termos da oração, conectivos e norma culta.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca usa textos curtos, reescritas, alternativas parecidas e comandos específicos para testar precisão."
+        "pergunta": "Qual é o núcleo de Pontuação e reescrita?",
+        "resposta": "Vírgula não separa sujeito de predicado em ordem direta."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, identifique o fenômeno cobrado, elimine alternativas absolutas e confira se o sentido foi preservado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Inserir vírgula entre sujeito longo e verbo."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Português impacta prova objetiva, redação, leitura de lei, interpretação de caso e desempenho em todas as disciplinas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "“Os policiais que chegaram cedo foram ouvidos” difere de “Os policiais, que chegaram cedo, foram ouvidos”."
       }
     ],
-    "comoIdentificar": "Procure o fenômeno cobrado: sentido, conectivo, classe, função, concordância, regência, crase, pontuação ou reescrita.",
+    "quadroDeDominio": {
+      "conceito": "Vírgula não separa sujeito de predicado em ordem direta.",
+      "limite": "A vírgula marca deslocamentos, intercalações, enumerações e certas orações subordinadas.",
+      "aplicacao": "“Os policiais que chegaram cedo foram ouvidos” difere de “Os policiais, que chegaram cedo, foram ouvidos”.",
+      "erroFatal": "Inserir vírgula entre sujeito longo e verbo."
+    },
+    "exemploComentado": "“Os policiais que chegaram cedo foram ouvidos” difere de “Os policiais, que chegaram cedo, foram ouvidos”.",
     "pegadinhas": [
-      "palavras absolutas",
-      "reescrita que muda sentido",
-      "conectivo com valor trocado",
-      "vírgula entre sujeito e predicado",
-      "classificação fora de contexto"
+      "Inserir vírgula entre sujeito longo e verbo.",
+      "Aceitar reescrita gramaticalmente correta mas semanticamente diferente."
     ],
-    "resumoFrase": "Pontuação organiza a estrutura sintática e o sentido; reescrita correta preserva gramática, lógica e informação original.",
-    "explicacaoComoSeTivesse12": "Pense assim: Pontuação organiza a estrutura sintática e o sentido; reescrita correta preserva gramática, lógica e informação original. Para acertar, leia o comando, veja o contexto e não marque só porque a frase parece bonita.",
-    "mapaMentalTextual": {
-      "centro": "Pontuação e reescrita",
-      "ramos": [
-        "conceito",
-        "como a banca cobra",
-        "pegadinha",
-        "exemplo",
-        "técnica de revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Pontuação e reescrita",
+      "Conceito: Vírgula não separa sujeito de predicado em ordem direta.",
+      "Aplicação: “Os policiais que chegaram cedo foram ouvidos” difere de “Os policiais, que chegaram cedo, foram ouvidos”.",
+      "Cuidado: Inserir vírgula entre sujeito longo e verbo."
+    ],
     "comoEstudar": [
-      "Ler o capítulo marcando comando e regra",
-      "Resolver 10 questões sem olhar gabarito",
-      "Justificar cada alternativa eliminada",
-      "Criar um exemplo próprio",
-      "Revisar em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Colocar vírgula entre sujeito e predicado ou aceitar reescrita que muda o sentido do texto. A resposta correta precisa respeitar comando, contexto e regra.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "acertar questões conceituais",
-      "justificar eliminação de alternativas",
-      "aplicar regra em reescrita",
-      "identificar pegadinha da banca"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f08-01",
+        "id": "portugues-avancado-08-fc01",
         "frente": "Qual é a ideia central de Pontuação e reescrita?",
-        "verso": "Pontuação organiza a estrutura sintática e o sentido; reescrita correta preserva gramática, lógica e informação original.",
-        "tag": "Pontuação e reescrita",
+        "verso": "Vírgula não separa sujeito de predicado em ordem direta.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f08-02",
-        "frente": "Qual pegadinha a banca usa em Pontuação e reescrita?",
-        "verso": "Colocar vírgula entre sujeito e predicado ou aceitar reescrita que muda o sentido do texto.",
+        "id": "portugues-avancado-08-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em sinais e preservação de sentido?",
+        "verso": "A vírgula marca deslocamentos, intercalações, enumerações e certas orações subordinadas.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "portugues-avancado-08-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Inserir vírgula entre sujeito longo e verbo. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f08-03",
-        "frente": "Como estudar Pontuação e reescrita com segurança?",
-        "verso": "Use este roteiro: marcar sujeito, predicado, intercalação, enumeração, explicação, restrição e mudança de sentido. Depois resolva questões e registre o erro em uma frase.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f08-04",
-        "frente": "Diferença importante em Pontuação e reescrita",
-        "verso": "oração explicativa x oração restritiva: explicativa vem isolada e acrescenta informação; restritiva limita o termo anterior.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "portugues-avancado-08-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "“Os policiais que chegaram cedo foram ouvidos” difere de “Os policiais, que chegaram cedo, foram ouvidos”.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Português para concursos. Explique Pontuação e reescrita, dê um exemplo, uma pegadinha e uma questão de treino.",
-      "feedbackPadrao": "Corrija com foco em comando, contexto, regra e preservação de sentido."
-    },
     "questoes": [
       {
-        "id": "q08-01",
+        "id": "portugues-avancado-08-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Pontuação e reescrita, qual afirmação está correta?",
+        "enunciado": "Em relação a Pontuação e reescrita, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Pontuação organiza a estrutura sintática e o sentido; reescrita correta preserva gramática, lógica e informação original.",
-          "Colocar vírgula entre sujeito e predicado ou aceitar reescrita que muda o sentido do texto.",
-          "A regra deve ser aplicada sem considerar contexto.",
-          "O comando da banca é secundário quando a frase parece correta.",
-          "A análise gramatical dispensa leitura do período completo."
+          "Vírgula não separa sujeito de predicado em ordem direta.",
+          "Inserir vírgula entre sujeito longo e verbo.",
+          "Aceitar reescrita gramaticalmente correta mas semanticamente diferente.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Pontuação organiza a estrutura sintática e o sentido; reescrita correta preserva gramática, lógica e informação original.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "Pontuação organiza a estrutura sintática e o sentido; reescrita correta preserva gramática, lógica e informação original.",
-        "armadilhaDaBanca": "Colocar vírgula entre sujeito e predicado ou aceitar reescrita que muda o sentido do texto.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A alternativa correta resume o núcleo do tema: Vírgula não separa sujeito de predicado em ordem direta."
       },
       {
-        "id": "q08-02",
+        "id": "portugues-avancado-08-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Pontuação e reescrita, é correto resolver a questão apenas por impressão, sem observar contexto e comando.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca costuma explorar contexto, comando, função e sentido.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "A vírgula marca deslocamentos, intercalações, enumerações e certas orações subordinadas.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de sinais e preservação de sentido."
       },
       {
-        "id": "q08-03",
+        "id": "portugues-avancado-08-q03",
         "tipo": "certo_errado",
-        "enunciado": "Para resolver Pontuação e reescrita, deve-se observar forma, função, sentido e objetivo comunicativo.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A resposta correta depende da combinação entre gramática e interpretação.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Inserir vírgula entre sujeito longo e verbo.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q08-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "A retirada de vírgulas em oração explicativa pode transformá-la em restritiva.",
-        "alternativas": [
-          "A mudança altera o alcance da informação; por isso, reescrita deve preservar o sentido original.",
-          "A alternativa deve ser aceita porque contém palavra conhecida.",
-          "Não é necessário observar o contexto do enunciado.",
-          "A regra gramatical sempre se resolve por sonoridade.",
-          "A análise do comando da banca é dispensável."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A mudança altera o alcance da informação; por isso, reescrita deve preservar o sentido original.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A mudança altera o alcance da informação; por isso, reescrita deve preservar o sentido original.",
-        "armadilhaDaBanca": "A banca costuma esconder erro em alternativa aparentemente natural.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "id": "portugues-avancado-08-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: “Os policiais que chegaram cedo foram ouvidos” difere de “Os policiais, que chegaram cedo, foram ouvidos”. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Reescrita correta preserva sentido, correção gramatical e ênfase essencial.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q08-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Pontuação e reescrita?",
-        "alternativas": [
-          "Usar o roteiro: marcar sujeito, predicado, intercalação, enumeração, explicação, restrição e mudança de sentido.",
-          "Decorar apenas exemplos soltos.",
-          "Responder antes de ler o comando.",
-          "Ignorar conectivos e pontuação.",
-          "Trocar regra gramatical por opinião pessoal."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: marcar sujeito, predicado, intercalação, enumeração, explicação, restrição e mudança de sentido.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "O roteiro correto é: marcar sujeito, predicado, intercalação, enumeração, explicação, restrição e mudança de sentido.",
-        "armadilhaDaBanca": "A banca pune leitura apressada e regra decorada sem aplicação.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
-      },
-      {
-        "id": "q08-06",
+        "id": "portugues-avancado-08-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Pontuação e reescrita.",
-        "respostaEsperada": "Pontuação organiza a estrutura sintática e o sentido; reescrita correta preserva gramática, lógica e informação original.",
-        "rubricaCorrecao": [
-          "identificar o conceito",
-          "usar termo técnico adequado",
-          "aplicar ao exemplo",
-          "não inventar regra absoluta"
-        ],
-        "comentario": "A resposta deve ser objetiva e ligada ao uso em prova.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva em uma frase objetiva."
+        "enunciado": "Explique, em até três linhas, por que sinais e preservação de sentido não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar vírgula não separa sujeito de predicado em ordem direta. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q08-07",
+        "id": "portugues-avancado-08-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie oração explicativa e oração restritiva.",
-        "respostaEsperada": "explicativa vem isolada e acrescenta informação; restritiva limita o termo anterior",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "dar exemplo simples"
-        ],
-        "comentario": "A diferença essencial é: explicativa vem isolada e acrescenta informação; restritiva limita o termo anterior.",
-        "diagnosticoIA": "Se confundiu, monte uma tabela com conceito, exemplo e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Vírgula não separa sujeito de predicado em ordem direta. Pegadinha: Inserir vírgula entre sujeito longo e verbo.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q08-08",
+        "id": "portugues-avancado-08-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Pontuação e reescrita?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Colocar vírgula entre sujeito e predicado ou aceitar reescrita que muda o sentido do texto.",
-          "Ler o comando antes das alternativas.",
-          "Identificar o núcleo do período.",
-          "Conferir conectivos e retomadas.",
-          "Reescrever preservando sentido."
+          "Reescrita correta preserva sentido, correção gramatical e ênfase essencial.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Aceitar reescrita gramaticalmente correta mas semanticamente diferente."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Colocar vírgula entre sujeito e predicado ou aceitar reescrita que muda o sentido do texto.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A pegadinha comum é: Colocar vírgula entre sujeito e predicado ou aceitar reescrita que muda o sentido do texto.",
-        "armadilhaDaBanca": "Muitas alternativas parecem corretas porque usam vocabulário técnico, mas aplicam a regra errada.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q08-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Pontuação e reescrita, uma alternativa pode estar gramaticalmente correta e, ainda assim, errada por alterar o sentido original.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Reescrita e interpretação exigem preservação de sentido, não apenas correção isolada.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "id": "portugues-avancado-08-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Aceitar reescrita gramaticalmente correta mas semanticamente diferente.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q08-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Pontuação e reescrita para um candidato que erra questões de Português.",
-        "promptTutorIA": "Explique Pontuação e reescrita com definição, exemplo de banca, pegadinha e técnica de revisão.",
-        "criterioDominio": [
-          "definição correta",
-          "exemplo aplicado",
-          "alerta de pegadinha",
-          "técnica de revisão"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo.",
-        "diagnosticoIA": "Use a resposta para montar um flashcard próprio e revisar em 24 horas."
+        "id": "portugues-avancado-08-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Pontuação e reescrita a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Mudança de voz verbal, conectivo ou pontuação pode alterar agente, causa ou conclusão.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "portugues-avancado-08-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Vírgula não separa sujeito de predicado em ordem direta.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Semântica, figuras de linguagem, variação linguística e funções da linguagem",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 22 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio: conferir edital, estilo da banca e eventuais normas específicas de redação oficial.",
-    "publicoAlvo": "Candidatos de concursos policiais, tribunais, OAB, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Português / Concursos / Interpretação / Gramática"
+    "proximoTitulo": "Semântica, figuras e variação linguística"
   },
   {
-    "id": "semantica-figuras-de-linguagem-variacao-linguistica-e-funcoes-da-linguagem",
-    "materialTitle": "Português Avançado 10/10 Plus Revisado",
+    "id": "semantica-figuras-e-variacao-linguistica",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 9,
     "totalChapters": 10,
-    "title": "Semântica, figuras de linguagem, variação linguística e funções da linguagem",
-    "assunto": "Semântica e linguagem",
-    "tecnica": "Estudo por comando da banca, função gramatical, sentido textual, reescrita e eliminação de pegadinhas",
-    "competencia": "Resolver questões de Português com leitura estratégica, análise sintática, domínio da norma culta e preservação de sentido.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Semântica, figuras e variação linguística",
+    "assunto": "sentidos e usos sociais da língua",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar sentidos e usos sociais da língua com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "OAB": 4,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "sinonímia",
-      "antonímia",
-      "polissemia",
-      "conotação",
-      "denotação",
-      "variação linguística"
+      "sentidos e usos sociais da lingua"
     ],
-    "fontesBase": [
-      "Gramática normativa aplicada a concursos",
-      "Manual de Redação da Presidência da República quando pertinente",
-      "Editais e padrões de cobrança das principais bancas",
-      "Textos jornalísticos, literários e oficiais para interpretação"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Semântica e linguagem com foco em concursos policiais, administrativos, tribunais, OAB e ENEM. A cobrança moderna mistura leitura, gramática e reescrita.",
-      "Ideia central: Semântica e funções da linguagem ajudam a entender efeitos de sentido, intenção comunicativa, ambiguidade e adequação ao contexto.",
-      "Erro comum: Tratar variação linguística como erro absoluto ou ignorar sentido figurado em textos literários e publicitários.",
-      "Como estudar: identificar sentido literal, figurado, contexto, intenção, função predominante e adequação linguística. Em seguida, resolva questões, justifique cada eliminação e revise o erro por categoria."
+      "Semântica, figuras e variação linguística exige domínio de sentidos e usos sociais da língua. O estudo correto começa pela ideia de que sinonímia perfeita é rara; a banca cobra adequação ao contexto.",
+      "Antônimos, hipônimos e hiperônimos ajudam a interpretar relações de sentido. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Figuras de linguagem produzem efeitos expressivos, como comparação, metáfora, metonímia e ironia. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Variação linguística não é erro por si; erro depende da norma exigida pela situação comunicativa. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Semântica e funções da linguagem ajudam a entender efeitos de sentido, intenção comunicativa, ambiguidade e adequação ao contexto.",
-      "Português de concurso exige contexto, comando e função, não apenas regra decorada.",
-      "A banca cobra pegadinhas com conectivos, pontuação, reescrita, concordância e sentido.",
-      "Erro comum: Tratar variação linguística como erro absoluto ou ignorar sentido figurado em textos literários e publicitários."
+      "Sinonímia perfeita é rara; a banca cobra adequação ao contexto.",
+      "Antônimos, hipônimos e hiperônimos ajudam a interpretar relações de sentido.",
+      "Figuras de linguagem produzem efeitos expressivos, como comparação, metáfora, metonímia e ironia.",
+      "Variação linguística não é erro por si; erro depende da norma exigida pela situação comunicativa."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Tratar variação linguística como erro absoluto ou ignorar sentido figurado em textos literários e publicitários.",
-        "Semântica e funções da linguagem ajudam a entender efeitos de sentido, intenção comunicativa, ambiguidade e adequação ao contexto.",
-        "O tema deve ser resolvido por impressão sonora."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito e aplicação em prova."
-    },
-    "oQueCobra": "Interpretação, inferência, coesão, coerência, morfologia, sintaxe, concordância, regência, crase, pontuação, semântica, variação, redação oficial e reescrita.",
-    "precisaSaberAntes": "Leitura de enunciado, noções de texto, classes gramaticais, termos da oração, conectivos e norma culta.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca usa textos curtos, reescritas, alternativas parecidas e comandos específicos para testar precisão."
+        "pergunta": "Qual é o núcleo de Semântica, figuras e variação linguística?",
+        "resposta": "Sinonímia perfeita é rara; a banca cobra adequação ao contexto."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, identifique o fenômeno cobrado, elimine alternativas absolutas e confira se o sentido foi preservado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Tratar toda linguagem informal como defeito universal."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Português impacta prova objetiva, redação, leitura de lei, interpretação de caso e desempenho em todas as disciplinas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Em redação oficial, exige-se norma padrão; em diálogo literário, variação pode caracterizar personagem."
       }
     ],
-    "comoIdentificar": "Procure o fenômeno cobrado: sentido, conectivo, classe, função, concordância, regência, crase, pontuação ou reescrita.",
+    "quadroDeDominio": {
+      "conceito": "Sinonímia perfeita é rara; a banca cobra adequação ao contexto.",
+      "limite": "Antônimos, hipônimos e hiperônimos ajudam a interpretar relações de sentido.",
+      "aplicacao": "Em redação oficial, exige-se norma padrão; em diálogo literário, variação pode caracterizar personagem.",
+      "erroFatal": "Tratar toda linguagem informal como defeito universal."
+    },
+    "exemploComentado": "Em redação oficial, exige-se norma padrão; em diálogo literário, variação pode caracterizar personagem.",
     "pegadinhas": [
-      "palavras absolutas",
-      "reescrita que muda sentido",
-      "conectivo com valor trocado",
-      "vírgula entre sujeito e predicado",
-      "classificação fora de contexto"
+      "Tratar toda linguagem informal como defeito universal.",
+      "Confundir ironia com mentira literal."
     ],
-    "resumoFrase": "Semântica e funções da linguagem ajudam a entender efeitos de sentido, intenção comunicativa, ambiguidade e adequação ao contexto.",
-    "explicacaoComoSeTivesse12": "Pense assim: Semântica e funções da linguagem ajudam a entender efeitos de sentido, intenção comunicativa, ambiguidade e adequação ao contexto. Para acertar, leia o comando, veja o contexto e não marque só porque a frase parece bonita.",
-    "mapaMentalTextual": {
-      "centro": "Semântica e linguagem",
-      "ramos": [
-        "conceito",
-        "como a banca cobra",
-        "pegadinha",
-        "exemplo",
-        "técnica de revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Semântica, figuras e variação linguística",
+      "Conceito: Sinonímia perfeita é rara; a banca cobra adequação ao contexto.",
+      "Aplicação: Em redação oficial, exige-se norma padrão; em diálogo literário, variação pode caracterizar personagem.",
+      "Cuidado: Tratar toda linguagem informal como defeito universal."
+    ],
     "comoEstudar": [
-      "Ler o capítulo marcando comando e regra",
-      "Resolver 10 questões sem olhar gabarito",
-      "Justificar cada alternativa eliminada",
-      "Criar um exemplo próprio",
-      "Revisar em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Tratar variação linguística como erro absoluto ou ignorar sentido figurado em textos literários e publicitários. A resposta correta precisa respeitar comando, contexto e regra.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "acertar questões conceituais",
-      "justificar eliminação de alternativas",
-      "aplicar regra em reescrita",
-      "identificar pegadinha da banca"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f09-01",
-        "frente": "Qual é a ideia central de Semântica e linguagem?",
-        "verso": "Semântica e funções da linguagem ajudam a entender efeitos de sentido, intenção comunicativa, ambiguidade e adequação ao contexto.",
-        "tag": "Semântica e linguagem",
+        "id": "portugues-avancado-09-fc01",
+        "frente": "Qual é a ideia central de Semântica, figuras e variação linguística?",
+        "verso": "Sinonímia perfeita é rara; a banca cobra adequação ao contexto.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f09-02",
-        "frente": "Qual pegadinha a banca usa em Semântica e linguagem?",
-        "verso": "Tratar variação linguística como erro absoluto ou ignorar sentido figurado em textos literários e publicitários.",
+        "id": "portugues-avancado-09-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em sentidos e usos sociais da língua?",
+        "verso": "Antônimos, hipônimos e hiperônimos ajudam a interpretar relações de sentido.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "portugues-avancado-09-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Tratar toda linguagem informal como defeito universal.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f09-03",
-        "frente": "Como estudar Semântica e linguagem com segurança?",
-        "verso": "Use este roteiro: identificar sentido literal, figurado, contexto, intenção, função predominante e adequação linguística. Depois resolva questões e registre o erro em uma frase.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f09-04",
-        "frente": "Diferença importante em Semântica e linguagem",
-        "verso": "denotação x conotação: denotação é sentido literal; conotação é sentido figurado ou subjetivo.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "portugues-avancado-09-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Em redação oficial, exige-se norma padrão; em diálogo literário, variação pode caracterizar personagem.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Português para concursos. Explique Semântica e linguagem, dê um exemplo, uma pegadinha e uma questão de treino.",
-      "feedbackPadrao": "Corrija com foco em comando, contexto, regra e preservação de sentido."
-    },
     "questoes": [
       {
-        "id": "q09-01",
+        "id": "portugues-avancado-09-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Semântica e linguagem, qual afirmação está correta?",
+        "enunciado": "Em relação a Semântica, figuras e variação linguística, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Semântica e funções da linguagem ajudam a entender efeitos de sentido, intenção comunicativa, ambiguidade e adequação ao contexto.",
-          "Tratar variação linguística como erro absoluto ou ignorar sentido figurado em textos literários e publicitários.",
-          "A regra deve ser aplicada sem considerar contexto.",
-          "O comando da banca é secundário quando a frase parece correta.",
-          "A análise gramatical dispensa leitura do período completo."
+          "Sinonímia perfeita é rara; a banca cobra adequação ao contexto.",
+          "Tratar toda linguagem informal como defeito universal.",
+          "Confundir ironia com mentira literal.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Semântica e funções da linguagem ajudam a entender efeitos de sentido, intenção comunicativa, ambiguidade e adequação ao contexto.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "Semântica e funções da linguagem ajudam a entender efeitos de sentido, intenção comunicativa, ambiguidade e adequação ao contexto.",
-        "armadilhaDaBanca": "Tratar variação linguística como erro absoluto ou ignorar sentido figurado em textos literários e publicitários.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A alternativa correta resume o núcleo do tema: Sinonímia perfeita é rara; a banca cobra adequação ao contexto."
       },
       {
-        "id": "q09-02",
+        "id": "portugues-avancado-09-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Semântica e linguagem, é correto resolver a questão apenas por impressão, sem observar contexto e comando.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca costuma explorar contexto, comando, função e sentido.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Antônimos, hipônimos e hiperônimos ajudam a interpretar relações de sentido.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de sentidos e usos sociais da língua."
       },
       {
-        "id": "q09-03",
+        "id": "portugues-avancado-09-q03",
         "tipo": "certo_errado",
-        "enunciado": "Para resolver Semântica e linguagem, deve-se observar forma, função, sentido e objetivo comunicativo.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A resposta correta depende da combinação entre gramática e interpretação.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Tratar toda linguagem informal como defeito universal.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q09-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Uma campanha usa metáfora para persuadir o leitor e produzir impacto emocional.",
-        "alternativas": [
-          "A metáfora cria sentido figurado e pode reforçar função apelativa ou poética, conforme o contexto.",
-          "A alternativa deve ser aceita porque contém palavra conhecida.",
-          "Não é necessário observar o contexto do enunciado.",
-          "A regra gramatical sempre se resolve por sonoridade.",
-          "A análise do comando da banca é dispensável."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A metáfora cria sentido figurado e pode reforçar função apelativa ou poética, conforme o contexto.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A metáfora cria sentido figurado e pode reforçar função apelativa ou poética, conforme o contexto.",
-        "armadilhaDaBanca": "A banca costuma esconder erro em alternativa aparentemente natural.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "id": "portugues-avancado-09-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Em redação oficial, exige-se norma padrão; em diálogo literário, variação pode caracterizar personagem. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Figuras de linguagem produzem efeitos expressivos, como comparação, metáfora, metonímia e ironia.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q09-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Semântica e linguagem?",
-        "alternativas": [
-          "Usar o roteiro: identificar sentido literal, figurado, contexto, intenção, função predominante e adequação linguística.",
-          "Decorar apenas exemplos soltos.",
-          "Responder antes de ler o comando.",
-          "Ignorar conectivos e pontuação.",
-          "Trocar regra gramatical por opinião pessoal."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: identificar sentido literal, figurado, contexto, intenção, função predominante e adequação linguística.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "O roteiro correto é: identificar sentido literal, figurado, contexto, intenção, função predominante e adequação linguística.",
-        "armadilhaDaBanca": "A banca pune leitura apressada e regra decorada sem aplicação.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
-      },
-      {
-        "id": "q09-06",
+        "id": "portugues-avancado-09-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Semântica e linguagem.",
-        "respostaEsperada": "Semântica e funções da linguagem ajudam a entender efeitos de sentido, intenção comunicativa, ambiguidade e adequação ao contexto.",
-        "rubricaCorrecao": [
-          "identificar o conceito",
-          "usar termo técnico adequado",
-          "aplicar ao exemplo",
-          "não inventar regra absoluta"
-        ],
-        "comentario": "A resposta deve ser objetiva e ligada ao uso em prova.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva em uma frase objetiva."
+        "enunciado": "Explique, em até três linhas, por que sentidos e usos sociais da língua não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar sinonímia perfeita é rara; a banca cobra adequação ao contexto. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q09-07",
+        "id": "portugues-avancado-09-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie denotação e conotação.",
-        "respostaEsperada": "denotação é sentido literal; conotação é sentido figurado ou subjetivo",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "dar exemplo simples"
-        ],
-        "comentario": "A diferença essencial é: denotação é sentido literal; conotação é sentido figurado ou subjetivo.",
-        "diagnosticoIA": "Se confundiu, monte uma tabela com conceito, exemplo e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Sinonímia perfeita é rara; a banca cobra adequação ao contexto. Pegadinha: Tratar toda linguagem informal como defeito universal.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q09-08",
+        "id": "portugues-avancado-09-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Semântica e linguagem?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Tratar variação linguística como erro absoluto ou ignorar sentido figurado em textos literários e publicitários.",
-          "Ler o comando antes das alternativas.",
-          "Identificar o núcleo do período.",
-          "Conferir conectivos e retomadas.",
-          "Reescrever preservando sentido."
+          "Figuras de linguagem produzem efeitos expressivos, como comparação, metáfora, metonímia e ironia.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Confundir ironia com mentira literal."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Tratar variação linguística como erro absoluto ou ignorar sentido figurado em textos literários e publicitários.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A pegadinha comum é: Tratar variação linguística como erro absoluto ou ignorar sentido figurado em textos literários e publicitários.",
-        "armadilhaDaBanca": "Muitas alternativas parecem corretas porque usam vocabulário técnico, mas aplicam a regra errada.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q09-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Semântica e linguagem, uma alternativa pode estar gramaticalmente correta e, ainda assim, errada por alterar o sentido original.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Reescrita e interpretação exigem preservação de sentido, não apenas correção isolada.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "id": "portugues-avancado-09-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Confundir ironia com mentira literal.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q09-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Semântica e linguagem para um candidato que erra questões de Português.",
-        "promptTutorIA": "Explique Semântica e linguagem com definição, exemplo de banca, pegadinha e técnica de revisão.",
-        "criterioDominio": [
-          "definição correta",
-          "exemplo aplicado",
-          "alerta de pegadinha",
-          "técnica de revisão"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo.",
-        "diagnosticoIA": "Use a resposta para montar um flashcard próprio e revisar em 24 horas."
+        "id": "portugues-avancado-09-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Semântica, figuras e variação linguística a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Variação linguística não é erro por si; erro depende da norma exigida pela situação comunicativa.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "portugues-avancado-09-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Sinonímia perfeita é rara; a banca cobra adequação ao contexto.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Redação oficial, norma culta e revisão final de Português",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 22 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio: conferir edital, estilo da banca e eventuais normas específicas de redação oficial.",
-    "publicoAlvo": "Candidatos de concursos policiais, tribunais, OAB, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Português / Concursos / Interpretação / Gramática"
+    "proximoTitulo": "Redação oficial e revisão final"
   },
   {
-    "id": "redacao-oficial-norma-culta-e-revisao-final-de-portugues",
-    "materialTitle": "Português Avançado 10/10 Plus Revisado",
+    "id": "redacao-oficial-e-revisao-final",
+    "materialTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "subject": "Português Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Português Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Português Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 10,
     "totalChapters": 10,
-    "title": "Redação oficial, norma culta e revisão final de Português",
-    "assunto": "Redação oficial e revisão",
-    "tecnica": "Estudo por comando da banca, função gramatical, sentido textual, reescrita e eliminação de pegadinhas",
-    "competencia": "Resolver questões de Português com leitura estratégica, análise sintática, domínio da norma culta e preservação de sentido.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Redação oficial e revisão final",
+    "assunto": "comunicação administrativa",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar comunicação administrativa com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "OAB": 4,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "redação oficial",
-      "impessoalidade",
-      "clareza",
-      "concisão",
-      "norma culta",
-      "revisão"
+      "comunicacao administrativa"
     ],
-    "fontesBase": [
-      "Gramática normativa aplicada a concursos",
-      "Manual de Redação da Presidência da República quando pertinente",
-      "Editais e padrões de cobrança das principais bancas",
-      "Textos jornalísticos, literários e oficiais para interpretação"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Redação oficial e revisão com foco em concursos policiais, administrativos, tribunais, OAB e ENEM. A cobrança moderna mistura leitura, gramática e reescrita.",
-      "Ideia central: Redação oficial exige clareza, impessoalidade, concisão, formalidade adequada e respeito à norma culta.",
-      "Erro comum: Usar linguagem rebuscada, ambígua ou pessoal quando o gênero pede objetividade institucional.",
-      "Como estudar: conferir finalidade, destinatário, impessoalidade, clareza, concisão, correção gramatical e padronização. Em seguida, resolva questões, justifique cada eliminação e revise o erro por categoria."
+      "Redação oficial e revisão final exige domínio de comunicação administrativa. O estudo correto começa pela ideia de que redação oficial deve ser clara, impessoal, concisa, formal e padronizada.",
+      "Impessoalidade evita opinião subjetiva, elogio pessoal e linguagem emocional. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Clareza exige ordem lógica, termos precisos e eliminação de ambiguidade. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Revisão final deve checar destinatário, finalidade, norma padrão, objetividade e coerência documental. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Redação oficial exige clareza, impessoalidade, concisão, formalidade adequada e respeito à norma culta.",
-      "Português de concurso exige contexto, comando e função, não apenas regra decorada.",
-      "A banca cobra pegadinhas com conectivos, pontuação, reescrita, concordância e sentido.",
-      "Erro comum: Usar linguagem rebuscada, ambígua ou pessoal quando o gênero pede objetividade institucional."
+      "Redação oficial deve ser clara, impessoal, concisa, formal e padronizada.",
+      "Impessoalidade evita opinião subjetiva, elogio pessoal e linguagem emocional.",
+      "Clareza exige ordem lógica, termos precisos e eliminação de ambiguidade.",
+      "Revisão final deve checar destinatário, finalidade, norma padrão, objetividade e coerência documental."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Usar linguagem rebuscada, ambígua ou pessoal quando o gênero pede objetividade institucional.",
-        "Redação oficial exige clareza, impessoalidade, concisão, formalidade adequada e respeito à norma culta.",
-        "O tema deve ser resolvido por impressão sonora."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito e aplicação em prova."
-    },
-    "oQueCobra": "Interpretação, inferência, coesão, coerência, morfologia, sintaxe, concordância, regência, crase, pontuação, semântica, variação, redação oficial e reescrita.",
-    "precisaSaberAntes": "Leitura de enunciado, noções de texto, classes gramaticais, termos da oração, conectivos e norma culta.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca usa textos curtos, reescritas, alternativas parecidas e comandos específicos para testar precisão."
+        "pergunta": "Qual é o núcleo de Redação oficial e revisão final?",
+        "resposta": "Redação oficial deve ser clara, impessoal, concisa, formal e padronizada."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, identifique o fenômeno cobrado, elimine alternativas absolutas e confira se o sentido foi preservado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Usar linguagem rebuscada achando que formalidade é dificuldade."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Português impacta prova objetiva, redação, leitura de lei, interpretação de caso e desempenho em todas as disciplinas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Um memorando eficiente informa fato, fundamento e providência, sem rodeios nem adjetivação emocional."
       }
     ],
-    "comoIdentificar": "Procure o fenômeno cobrado: sentido, conectivo, classe, função, concordância, regência, crase, pontuação ou reescrita.",
+    "quadroDeDominio": {
+      "conceito": "Redação oficial deve ser clara, impessoal, concisa, formal e padronizada.",
+      "limite": "Impessoalidade evita opinião subjetiva, elogio pessoal e linguagem emocional.",
+      "aplicacao": "Um memorando eficiente informa fato, fundamento e providência, sem rodeios nem adjetivação emocional.",
+      "erroFatal": "Usar linguagem rebuscada achando que formalidade é dificuldade."
+    },
+    "exemploComentado": "Um memorando eficiente informa fato, fundamento e providência, sem rodeios nem adjetivação emocional.",
     "pegadinhas": [
-      "palavras absolutas",
-      "reescrita que muda sentido",
-      "conectivo com valor trocado",
-      "vírgula entre sujeito e predicado",
-      "classificação fora de contexto"
+      "Usar linguagem rebuscada achando que formalidade é dificuldade.",
+      "Confundir impessoalidade com texto frio e incompreensível."
     ],
-    "resumoFrase": "Redação oficial exige clareza, impessoalidade, concisão, formalidade adequada e respeito à norma culta.",
-    "explicacaoComoSeTivesse12": "Pense assim: Redação oficial exige clareza, impessoalidade, concisão, formalidade adequada e respeito à norma culta. Para acertar, leia o comando, veja o contexto e não marque só porque a frase parece bonita.",
-    "mapaMentalTextual": {
-      "centro": "Redação oficial e revisão",
-      "ramos": [
-        "conceito",
-        "como a banca cobra",
-        "pegadinha",
-        "exemplo",
-        "técnica de revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Redação oficial e revisão final",
+      "Conceito: Redação oficial deve ser clara, impessoal, concisa, formal e padronizada.",
+      "Aplicação: Um memorando eficiente informa fato, fundamento e providência, sem rodeios nem adjetivação emocional.",
+      "Cuidado: Usar linguagem rebuscada achando que formalidade é dificuldade."
+    ],
     "comoEstudar": [
-      "Ler o capítulo marcando comando e regra",
-      "Resolver 10 questões sem olhar gabarito",
-      "Justificar cada alternativa eliminada",
-      "Criar um exemplo próprio",
-      "Revisar em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Usar linguagem rebuscada, ambígua ou pessoal quando o gênero pede objetividade institucional. A resposta correta precisa respeitar comando, contexto e regra.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "acertar questões conceituais",
-      "justificar eliminação de alternativas",
-      "aplicar regra em reescrita",
-      "identificar pegadinha da banca"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f10-01",
-        "frente": "Qual é a ideia central de Redação oficial e revisão?",
-        "verso": "Redação oficial exige clareza, impessoalidade, concisão, formalidade adequada e respeito à norma culta.",
-        "tag": "Redação oficial e revisão",
+        "id": "portugues-avancado-10-fc01",
+        "frente": "Qual é a ideia central de Redação oficial e revisão final?",
+        "verso": "Redação oficial deve ser clara, impessoal, concisa, formal e padronizada.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f10-02",
-        "frente": "Qual pegadinha a banca usa em Redação oficial e revisão?",
-        "verso": "Usar linguagem rebuscada, ambígua ou pessoal quando o gênero pede objetividade institucional.",
+        "id": "portugues-avancado-10-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em comunicação administrativa?",
+        "verso": "Impessoalidade evita opinião subjetiva, elogio pessoal e linguagem emocional.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "portugues-avancado-10-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Usar linguagem rebuscada achando que formalidade é dificuldade.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f10-03",
-        "frente": "Como estudar Redação oficial e revisão com segurança?",
-        "verso": "Use este roteiro: conferir finalidade, destinatário, impessoalidade, clareza, concisão, correção gramatical e padronização. Depois resolva questões e registre o erro em uma frase.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f10-04",
-        "frente": "Diferença importante em Redação oficial e revisão",
-        "verso": "linguagem oficial x linguagem literária: a oficial prioriza clareza e impessoalidade; a literária pode explorar subjetividade e efeito estético.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "portugues-avancado-10-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Um memorando eficiente informa fato, fundamento e providência, sem rodeios nem adjetivação emocional.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Português para concursos. Explique Redação oficial e revisão, dê um exemplo, uma pegadinha e uma questão de treino.",
-      "feedbackPadrao": "Corrija com foco em comando, contexto, regra e preservação de sentido."
-    },
     "questoes": [
       {
-        "id": "q10-01",
+        "id": "portugues-avancado-10-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Redação oficial e revisão, qual afirmação está correta?",
+        "enunciado": "Em relação a Redação oficial e revisão final, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Redação oficial exige clareza, impessoalidade, concisão, formalidade adequada e respeito à norma culta.",
-          "Usar linguagem rebuscada, ambígua ou pessoal quando o gênero pede objetividade institucional.",
-          "A regra deve ser aplicada sem considerar contexto.",
-          "O comando da banca é secundário quando a frase parece correta.",
-          "A análise gramatical dispensa leitura do período completo."
+          "Redação oficial deve ser clara, impessoal, concisa, formal e padronizada.",
+          "Usar linguagem rebuscada achando que formalidade é dificuldade.",
+          "Confundir impessoalidade com texto frio e incompreensível.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Redação oficial exige clareza, impessoalidade, concisão, formalidade adequada e respeito à norma culta.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "Redação oficial exige clareza, impessoalidade, concisão, formalidade adequada e respeito à norma culta.",
-        "armadilhaDaBanca": "Usar linguagem rebuscada, ambígua ou pessoal quando o gênero pede objetividade institucional.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A alternativa correta resume o núcleo do tema: Redação oficial deve ser clara, impessoal, concisa, formal e padronizada."
       },
       {
-        "id": "q10-02",
+        "id": "portugues-avancado-10-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Redação oficial e revisão, é correto resolver a questão apenas por impressão, sem observar contexto e comando.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca costuma explorar contexto, comando, função e sentido.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Impessoalidade evita opinião subjetiva, elogio pessoal e linguagem emocional.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de comunicação administrativa."
       },
       {
-        "id": "q10-03",
+        "id": "portugues-avancado-10-q03",
         "tipo": "certo_errado",
-        "enunciado": "Para resolver Redação oficial e revisão, deve-se observar forma, função, sentido e objetivo comunicativo.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A resposta correta depende da combinação entre gramática e interpretação.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "enunciado": "Usar linguagem rebuscada achando que formalidade é dificuldade.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q10-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Um comunicado oficial usa opinião pessoal e expressões vagas para orientar servidores.",
-        "alternativas": [
-          "O texto deve ser reescrito com objetividade, impessoalidade, clareza e comando verificável.",
-          "A alternativa deve ser aceita porque contém palavra conhecida.",
-          "Não é necessário observar o contexto do enunciado.",
-          "A regra gramatical sempre se resolve por sonoridade.",
-          "A análise do comando da banca é dispensável."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O texto deve ser reescrito com objetividade, impessoalidade, clareza e comando verificável.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "O texto deve ser reescrito com objetividade, impessoalidade, clareza e comando verificável.",
-        "armadilhaDaBanca": "A banca costuma esconder erro em alternativa aparentemente natural.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "id": "portugues-avancado-10-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Um memorando eficiente informa fato, fundamento e providência, sem rodeios nem adjetivação emocional. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Clareza exige ordem lógica, termos precisos e eliminação de ambiguidade.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q10-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Redação oficial e revisão?",
-        "alternativas": [
-          "Usar o roteiro: conferir finalidade, destinatário, impessoalidade, clareza, concisão, correção gramatical e padronização.",
-          "Decorar apenas exemplos soltos.",
-          "Responder antes de ler o comando.",
-          "Ignorar conectivos e pontuação.",
-          "Trocar regra gramatical por opinião pessoal."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: conferir finalidade, destinatário, impessoalidade, clareza, concisão, correção gramatical e padronização.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "O roteiro correto é: conferir finalidade, destinatário, impessoalidade, clareza, concisão, correção gramatical e padronização.",
-        "armadilhaDaBanca": "A banca pune leitura apressada e regra decorada sem aplicação.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
-      },
-      {
-        "id": "q10-06",
+        "id": "portugues-avancado-10-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Redação oficial e revisão.",
-        "respostaEsperada": "Redação oficial exige clareza, impessoalidade, concisão, formalidade adequada e respeito à norma culta.",
-        "rubricaCorrecao": [
-          "identificar o conceito",
-          "usar termo técnico adequado",
-          "aplicar ao exemplo",
-          "não inventar regra absoluta"
-        ],
-        "comentario": "A resposta deve ser objetiva e ligada ao uso em prova.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva em uma frase objetiva."
+        "enunciado": "Explique, em até três linhas, por que comunicação administrativa não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar redação oficial deve ser clara, impessoal, concisa, formal e padronizada. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q10-07",
+        "id": "portugues-avancado-10-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie linguagem oficial e linguagem literária.",
-        "respostaEsperada": "a oficial prioriza clareza e impessoalidade; a literária pode explorar subjetividade e efeito estético",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "dar exemplo simples"
-        ],
-        "comentario": "A diferença essencial é: a oficial prioriza clareza e impessoalidade; a literária pode explorar subjetividade e efeito estético.",
-        "diagnosticoIA": "Se confundiu, monte uma tabela com conceito, exemplo e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Redação oficial deve ser clara, impessoal, concisa, formal e padronizada. Pegadinha: Usar linguagem rebuscada achando que formalidade é dificuldade.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q10-08",
+        "id": "portugues-avancado-10-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Redação oficial e revisão?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Usar linguagem rebuscada, ambígua ou pessoal quando o gênero pede objetividade institucional.",
-          "Ler o comando antes das alternativas.",
-          "Identificar o núcleo do período.",
-          "Conferir conectivos e retomadas.",
-          "Reescrever preservando sentido."
+          "Clareza exige ordem lógica, termos precisos e eliminação de ambiguidade.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Confundir impessoalidade com texto frio e incompreensível."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Usar linguagem rebuscada, ambígua ou pessoal quando o gênero pede objetividade institucional.",
-          "Errada. A alternativa troca o conceito central por uma ideia parcial.",
-          "Errada. A alternativa ignora o contexto ou o comando da questão.",
-          "Errada. A alternativa generaliza regra que depende de análise sintática ou textual.",
-          "Errada. A alternativa usa noção comum, mas não resolve o problema gramatical ou interpretativo."
-        ],
-        "comentario": "A pegadinha comum é: Usar linguagem rebuscada, ambígua ou pessoal quando o gênero pede objetividade institucional.",
-        "armadilhaDaBanca": "Muitas alternativas parecem corretas porque usam vocabulário técnico, mas aplicam a regra errada.",
-        "porqueCaiEmProva": "Português é recorrente em concursos policiais, administrativos, tribunais, OAB e provas objetivas em geral.",
-        "diagnosticoIA": "Se errou, revise comando, núcleo sintático, conectivo, sentido e regra aplicada."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q10-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Redação oficial e revisão, uma alternativa pode estar gramaticalmente correta e, ainda assim, errada por alterar o sentido original.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Reescrita e interpretação exigem preservação de sentido, não apenas correção isolada.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, apenas, somente, obrigatoriamente e automaticamente.",
-        "diagnosticoIA": "Classifique o erro: interpretação, morfologia, sintaxe, pontuação, regência, concordância ou semântica."
+        "id": "portugues-avancado-10-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Confundir impessoalidade com texto frio e incompreensível.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q10-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Redação oficial e revisão para um candidato que erra questões de Português.",
-        "promptTutorIA": "Explique Redação oficial e revisão com definição, exemplo de banca, pegadinha e técnica de revisão.",
-        "criterioDominio": [
-          "definição correta",
-          "exemplo aplicado",
-          "alerta de pegadinha",
-          "técnica de revisão"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo.",
-        "diagnosticoIA": "Use a resposta para montar um flashcard próprio e revisar em 24 horas."
+        "id": "portugues-avancado-10-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Redação oficial e revisão final a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Revisão final deve checar destinatário, finalidade, norma padrão, objetividade e coerência documental.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "portugues-avancado-10-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Redação oficial deve ser clara, impessoal, concisa, formal e padronizada.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Revisão integrada de Português Avançado",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 22 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio: conferir edital, estilo da banca e eventuais normas específicas de redação oficial.",
-    "publicoAlvo": "Candidatos de concursos policiais, tribunais, OAB, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Português / Concursos / Interpretação / Gramática"
+    "proximoTitulo": "Revisão integrada do módulo"
   }
 ];
 

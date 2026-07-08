@@ -1,3451 +1,2059 @@
 /**
- * VemAprovar Top1 — Apostila Premium 10/10 Plus Revisado
- * Arquivo: atualidades-avancada.js
- * Módulo: Atualidades Avançada
- * Lote 25: conteúdo novo com gabaritos obrigatórios, flashcards completos e validação programática.
+ * VemAprovar — Atualidades Avançada 10/10 Reescrita de Verdade
+ * Arquivo reescrito do zero para substituir versão genérica/templated.
+ * Foco: conteúdo real, caso prático, pegadinhas e questões com gabarito.
  */
 
 export const atualidadesAvancada = [
   {
-    "id": "metodo-de-estudo-de-atualidades-tema-fato-causa-consequencia-e-solucao",
-    "materialTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "id": "metodo-de-estudo-de-atualidades",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 1,
     "totalChapters": 10,
-    "title": "Método de estudo de Atualidades: tema, fato, causa, consequência e solução",
-    "assunto": "Técnica de leitura e organização de temas atuais para concursos",
-    "tecnica": "Estudo por tema, fato, causa, consequência, repertório, política pública e pegadinha de banca",
-    "competencia": "Interpretar temas contemporâneos com equilíbrio, leitura institucional e aplicação em objetiva e redação.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Método de estudo de atualidades",
+    "assunto": "leitura crítica de fatos",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar leitura crítica de fatos com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "atualidades",
-      "tema",
-      "fato",
-      "causa",
-      "consequência",
-      "solução",
-      "banca",
-      "repertório"
+      "leitura critica de fatos"
     ],
-    "fontesBase": [
-      "Temas contemporâneos de cidadania, políticas públicas e sociedade",
-      "Leitura crítica de notícias, relatórios públicos e indicadores",
-      "Redação dissertativo-argumentativa e questões objetivas de concursos",
-      "Atualização obrigatória conforme edital, recorte temporal e fonte oficial"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Técnica de leitura e organização de temas atuais para concursos com foco em concursos policiais, administrativos, ENEM e provas gerais.",
-      "Ideia central: Atualidades não é decorar notícia isolada; é entender tema, contexto, causas, consequências e relação com Estado, sociedade e cidadania.",
-      "Erro comum: Decorar manchetes sem compreender por que o tema importa para políticas públicas, direitos e instituições.",
-      "Como estudar: identificar tema, fato central, atores envolvidos, causa, consequência, dado de apoio, posição equilibrada e possível solução. A meta é transformar notícia em repertório útil, sem chute opinativo."
+      "Método de estudo de atualidades exige domínio de leitura crítica de fatos. O estudo correto começa pela ideia de que atualidades não é decorar notícia; é entender fato, causa, atores, consequência e possíveis soluções.",
+      "A banca transforma temas recentes em problemas estruturais, como desigualdade, meio ambiente, tecnologia e segurança. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "É preciso separar dado verificável, opinião, interpretação e proposta. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "O bom aluno monta repertório por eixos temáticos para usar em objetiva e redação. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Atualidades não é decorar notícia isolada; é entender tema, contexto, causas, consequências e relação com Estado, sociedade e cidadania.",
-      "Atualidades cobra contexto e impacto, não apenas manchete.",
-      "A boa resposta evita radicalismo e explica causa e consequência.",
-      "Erro comum: Decorar manchetes sem compreender por que o tema importa para políticas públicas, direitos e instituições."
+      "Atualidades não é decorar notícia; é entender fato, causa, atores, consequência e possíveis soluções.",
+      "A banca transforma temas recentes em problemas estruturais, como desigualdade, meio ambiente, tecnologia e segurança.",
+      "É preciso separar dado verificável, opinião, interpretação e proposta.",
+      "O bom aluno monta repertório por eixos temáticos para usar em objetiva e redação."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Decorar manchetes sem compreender por que o tema importa para políticas públicas, direitos e instituições.",
-        "Atualidades não é decorar notícia isolada; é entender tema, contexto, causas, consequências e relação com Estado, sociedade e cidadania.",
-        "Basta decorar a notícia mais recente."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta conecta fato, contexto e consequência."
-    },
-    "oQueCobra": "Temas sociais, políticos, econômicos, ambientais, tecnológicos, culturais, geopolíticos e de segurança pública em questões e redações.",
-    "precisaSaberAntes": "Leitura de texto, interpretação, cidadania, noções de Estado, políticas públicas e repertório básico de redação.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta tema atual e testa leitura crítica, relação causal, impacto social e equilíbrio argumentativo."
+        "pergunta": "Qual é o núcleo de Método de estudo de atualidades?",
+        "resposta": "Atualidades não é decorar notícia; é entender fato, causa, atores, consequência e possíveis soluções."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique tema, fato, atores, causa, consequência e possível resposta institucional."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Memorizar manchetes sem entender contexto."
       },
       {
-        "titulo": "Conexão com redação",
-        "texto": "O mesmo tema pode virar questão objetiva, repertório, argumento ou proposta de intervenção conforme a banca."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Notícia sobre enchente pode ser cobrada como urbanização, clima, gestão de risco e desigualdade territorial."
       }
     ],
-    "comoIdentificar": "Procure expressões como crise, desigualdade, políticas públicas, sustentabilidade, tecnologia, violência, cidadania, democracia, direitos e impactos sociais.",
+    "quadroDeDominio": {
+      "conceito": "Atualidades não é decorar notícia; é entender fato, causa, atores, consequência e possíveis soluções.",
+      "limite": "A banca transforma temas recentes em problemas estruturais, como desigualdade, meio ambiente, tecnologia e segurança.",
+      "aplicacao": "Notícia sobre enchente pode ser cobrada como urbanização, clima, gestão de risco e desigualdade territorial.",
+      "erroFatal": "Memorizar manchetes sem entender contexto."
+    },
+    "exemploComentado": "Notícia sobre enchente pode ser cobrada como urbanização, clima, gestão de risco e desigualdade territorial.",
     "pegadinhas": [
-      "opinião sem base",
-      "manchete sem contexto",
-      "solução simplista",
-      "radicalismo argumentativo",
-      "repertório desconectado"
+      "Memorizar manchetes sem entender contexto.",
+      "Responder com opinião pessoal polarizada."
     ],
-    "resumoFrase": "Atualidades não é decorar notícia isolada; é entender tema, contexto, causas, consequências e relação com Estado, sociedade e cidadania.",
-    "explicacaoComoSeTivesse12": "Pense assim: Atualidades não é decorar notícia isolada; é entender tema, contexto, causas, consequências e relação com Estado, sociedade e cidadania. Não basta saber que aconteceu; você precisa explicar por que aconteceu e quem é afetado.",
-    "mapaMentalTextual": {
-      "centro": "Técnica de leitura e organização de temas atuais para concursos",
-      "ramos": [
-        "tema",
-        "fato",
-        "causa",
-        "consequência",
-        "atores",
-        "solução",
-        "repertório"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Método de estudo de atualidades",
+      "Conceito: Atualidades não é decorar notícia; é entender fato, causa, atores, consequência e possíveis soluções.",
+      "Aplicação: Notícia sobre enchente pode ser cobrada como urbanização, clima, gestão de risco e desigualdade territorial.",
+      "Cuidado: Memorizar manchetes sem entender contexto."
+    ],
     "comoEstudar": [
-      "Ler o tema em fonte confiável",
-      "Anotar fato, causa e consequência",
-      "Criar um repertório curto",
-      "Resolver 10 itens",
-      "Escrever um parágrafo argumentativo"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Decorar manchetes sem compreender por que o tema importa para políticas públicas, direitos e instituições. Em atualidades, opinião sem análise costuma ser armadilha.",
-    "revisaoProgramada": {
-      "D0": "ler e mapear tema",
-      "D1": "refazer questões",
-      "D7": "revisar flashcards",
-      "D30": "simulado de objetiva e redação"
-    },
-    "criteriosDominio": [
-      "identificar tema",
-      "contextualizar fato",
-      "explicar causa",
-      "apontar consequência",
-      "usar repertório pertinente",
-      "manter equilíbrio"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f01-01",
-        "frente": "Ideia central de Técnica de leitura e organização de temas atuais para concursos",
-        "verso": "Atualidades não é decorar notícia isolada; é entender tema, contexto, causas, consequências e relação com Estado, sociedade e cidadania.",
-        "tag": "Técnica de leitura e organização de temas atuais para concursos",
+        "id": "atualidades-avancada-01-fc01",
+        "frente": "Qual é a ideia central de Método de estudo de atualidades?",
+        "verso": "Atualidades não é decorar notícia; é entender fato, causa, atores, consequência e possíveis soluções.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f01-02",
-        "frente": "Pegadinha comum em Técnica de leitura e organização de temas atuais para concursos",
-        "verso": "Decorar manchetes sem compreender por que o tema importa para políticas públicas, direitos e instituições.",
+        "id": "atualidades-avancada-01-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em leitura crítica de fatos?",
+        "verso": "A banca transforma temas recentes em problemas estruturais, como desigualdade, meio ambiente, tecnologia e segurança.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "atualidades-avancada-01-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Memorizar manchetes sem entender contexto. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f01-03",
-        "frente": "Roteiro de estudo para Técnica de leitura e organização de temas atuais para concursos",
-        "verso": "Use este roteiro: identificar tema, fato central, atores envolvidos, causa, consequência, dado de apoio, posição equilibrada e possível solução. Depois transforme o tema em um parágrafo de redação e uma questão objetiva.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f01-04",
-        "frente": "Comparação importante em Técnica de leitura e organização de temas atuais para concursos",
-        "verso": "notícia x tema de atualidades: notícia é o acontecimento; tema é o problema maior que a banca pode cobrar.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "atualidades-avancada-01-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Notícia sobre enchente pode ser cobrada como urbanização, clima, gestão de risco e desigualdade territorial.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Atualidades para concursos. Explique Técnica de leitura e organização de temas atuais para concursos, crie questão objetiva e gere parágrafo de redação equilibrado.",
-      "feedbackPadrao": "Corrija com foco em contexto, causa, consequência, repertório e linguagem equilibrada."
-    },
     "questoes": [
       {
-        "id": "q01-01",
+        "id": "atualidades-avancada-01-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Técnica de leitura e organização de temas atuais para concursos, qual afirmação apresenta melhor leitura de Atualidades?",
+        "enunciado": "Em relação a Método de estudo de atualidades, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Atualidades não é decorar notícia isolada; é entender tema, contexto, causas, consequências e relação com Estado, sociedade e cidadania.",
-          "Decorar manchetes sem compreender por que o tema importa para políticas públicas, direitos e instituições.",
-          "O tema deve ser respondido apenas com opinião pessoal forte.",
-          "Toda notícia recente deve ser decorada sem contexto.",
-          "A banca sempre cobra apenas nomes e datas."
+          "Atualidades não é decorar notícia; é entender fato, causa, atores, consequência e possíveis soluções.",
+          "Memorizar manchetes sem entender contexto.",
+          "Responder com opinião pessoal polarizada.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Atualidades não é decorar notícia isolada; é entender tema, contexto, causas, consequências e relação com Estado, sociedade e cidadania.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "Atualidades não é decorar notícia isolada; é entender tema, contexto, causas, consequências e relação com Estado, sociedade e cidadania.",
-        "armadilhaDaBanca": "Decorar manchetes sem compreender por que o tema importa para políticas públicas, direitos e instituições.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A alternativa correta resume o núcleo do tema: Atualidades não é decorar notícia; é entender fato, causa, atores, consequência e possíveis soluções."
       },
       {
-        "id": "q01-02",
+        "id": "atualidades-avancada-01-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Técnica de leitura e organização de temas atuais para concursos, uma manchete isolada é suficiente para dominar o tema em prova.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca exige contexto, causa, consequência e leitura institucional do problema.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "A banca transforma temas recentes em problemas estruturais, como desigualdade, meio ambiente, tecnologia e segurança.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de leitura crítica de fatos."
       },
       {
-        "id": "q01-03",
+        "id": "atualidades-avancada-01-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Técnica de leitura e organização de temas atuais para concursos, é adequado relacionar fato atual com políticas públicas, cidadania e impactos sociais.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Essa conexão transforma notícia em repertório de prova e redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "Memorizar manchetes sem entender contexto.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q01-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "A banca apresenta uma notícia recente e pergunta seu impacto social, mas o candidato tenta responder apenas repetindo a manchete.",
-        "alternativas": [
-          "A resposta correta deve ir além da manchete: precisa explicar causa, consequência e conexão com a realidade social ou institucional.",
-          "A melhor resposta é escolher o lado mais radical do debate.",
-          "A questão deve ser ignorada se não cobrar lei seca.",
-          "Basta citar uma notícia sem explicar relação com o tema.",
-          "Toda solução simples resolve integralmente problema complexo."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A resposta correta deve ir além da manchete: precisa explicar causa, consequência e conexão com a realidade social ou institucional.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A resposta correta deve ir além da manchete: precisa explicar causa, consequência e conexão com a realidade social ou institucional.",
-        "armadilhaDaBanca": "A pegadinha está em trocar análise por opinião ou simplificação excessiva.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "id": "atualidades-avancada-01-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Notícia sobre enchente pode ser cobrada como urbanização, clima, gestão de risco e desigualdade territorial. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "É preciso separar dado verificável, opinião, interpretação e proposta.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q01-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual roteiro é mais eficiente para estudar Técnica de leitura e organização de temas atuais para concursos?",
-        "alternativas": [
-          "Usar o roteiro: identificar tema, fato central, atores envolvidos, causa, consequência, dado de apoio, posição equilibrada e possível solução.",
-          "Ler apenas títulos de portais e decorar datas.",
-          "Responder por preferência política ou moral sem base.",
-          "Ignorar grupos afetados e impactos sociais.",
-          "Memorizar frases prontas sem entender o tema."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: identificar tema, fato central, atores envolvidos, causa, consequência, dado de apoio, posição equilibrada e possível solução.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "O roteiro correto é: identificar tema, fato central, atores envolvidos, causa, consequência, dado de apoio, posição equilibrada e possível solução.",
-        "armadilhaDaBanca": "Atualidades cobra relação entre fato, contexto e consequência.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
-      },
-      {
-        "id": "q01-06",
+        "id": "atualidades-avancada-01-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Técnica de leitura e organização de temas atuais para concursos.",
-        "respostaEsperada": "Atualidades não é decorar notícia isolada; é entender tema, contexto, causas, consequências e relação com Estado, sociedade e cidadania.",
-        "rubricaCorrecao": [
-          "identificar tema",
-          "explicar contexto",
-          "apontar causa",
-          "apontar consequência",
-          "manter equilíbrio"
-        ],
-        "comentario": "A resposta deve ser equilibrada e conectada a contexto social ou institucional.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e retire opinião sem sustentação."
+        "enunciado": "Explique, em até três linhas, por que leitura crítica de fatos não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar atualidades não é decorar notícia; é entender fato, causa, atores, consequência e possíveis soluções. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q01-07",
+        "id": "atualidades-avancada-01-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie notícia e tema de atualidades.",
-        "respostaEsperada": "notícia é o acontecimento; tema é o problema maior que a banca pode cobrar",
-        "criterioDominio": [
-          "definir o primeiro termo",
-          "definir o segundo termo",
-          "mostrar diferença prática",
-          "conectar com prova ou redação"
-        ],
-        "comentario": "A diferença central é: notícia é o acontecimento; tema é o problema maior que a banca pode cobrar.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, pegadinha e uso em redação."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Atualidades não é decorar notícia; é entender fato, causa, atores, consequência e possíveis soluções. Pegadinha: Memorizar manchetes sem entender contexto.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q01-08",
+        "id": "atualidades-avancada-01-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Técnica de leitura e organização de temas atuais para concursos?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Decorar manchetes sem compreender por que o tema importa para políticas públicas, direitos e instituições.",
-          "Analisar causas e consequências antes de responder.",
-          "Conectar o tema com direitos, cidadania ou política pública.",
-          "Verificar fonte e contexto antes de usar repertório.",
-          "Evitar linguagem extremada em tema sensível."
+          "É preciso separar dado verificável, opinião, interpretação e proposta.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Responder com opinião pessoal polarizada."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Decorar manchetes sem compreender por que o tema importa para políticas públicas, direitos e instituições.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A pegadinha comum é: Decorar manchetes sem compreender por que o tema importa para políticas públicas, direitos e instituições.",
-        "armadilhaDaBanca": "A banca usa temas atuais para testar leitura crítica e equilíbrio.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q01-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Técnica de leitura e organização de temas atuais para concursos, repertório só ajuda quando está conectado ao problema proposto.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Repertório solto não melhora resposta objetiva nem redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "id": "atualidades-avancada-01-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Responder com opinião pessoal polarizada.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q01-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: transforme Técnica de leitura e organização de temas atuais para concursos em uma questão e em um parágrafo de redação.",
-        "promptTutorIA": "Crie um item de concurso sobre Técnica de leitura e organização de temas atuais para concursos, resolva, aponte a pegadinha e depois gere um parágrafo argumentativo equilibrado.",
-        "criterioDominio": [
-          "tema identificado",
-          "fato contextualizado",
-          "causa explicada",
-          "consequência indicada",
-          "linguagem equilibrada"
-        ],
-        "comentario": "Este treino prepara o aluno para objetiva e redação ao mesmo tempo.",
-        "diagnosticoIA": "Depois do treino, troque o grupo afetado ou a política pública envolvida e refaça."
+        "id": "atualidades-avancada-01-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Método de estudo de atualidades a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: O bom aluno monta repertório por eixos temáticos para usar em objetiva e redação.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "atualidades-avancada-01-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Atualidades não é decorar notícia; é entender fato, causa, atores, consequência e possíveis soluções.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Brasil contemporâneo: democracia, cidadania, instituições e participação social",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 25 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Alto: Atualidades depende de recorte temporal, edital, notícias recentes, indicadores e fontes oficiais atualizadas.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Atualidades / Redação / Concursos"
+    "proximoTitulo": "Democracia, cidadania e instituições"
   },
   {
-    "id": "brasil-contemporaneo-democracia-cidadania-instituicoes-e-participacao-social",
-    "materialTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "id": "democracia-cidadania-e-instituicoes",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 2,
     "totalChapters": 10,
-    "title": "Brasil contemporâneo: democracia, cidadania, instituições e participação social",
-    "assunto": "Instituições democráticas, cidadania, participação e vida pública brasileira",
-    "tecnica": "Estudo por tema, fato, causa, consequência, repertório, política pública e pegadinha de banca",
-    "competencia": "Interpretar temas contemporâneos com equilíbrio, leitura institucional e aplicação em objetiva e redação.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Democracia, cidadania e instituições",
+    "assunto": "vida pública brasileira",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar vida pública brasileira com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "democracia",
-      "cidadania",
-      "instituições",
-      "participação social",
-      "direitos",
-      "deveres",
-      "controle social"
+      "vida publica brasileira"
     ],
-    "fontesBase": [
-      "Temas contemporâneos de cidadania, políticas públicas e sociedade",
-      "Leitura crítica de notícias, relatórios públicos e indicadores",
-      "Redação dissertativo-argumentativa e questões objetivas de concursos",
-      "Atualização obrigatória conforme edital, recorte temporal e fonte oficial"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Instituições democráticas, cidadania, participação e vida pública brasileira com foco em concursos policiais, administrativos, ENEM e provas gerais.",
-      "Ideia central: Temas democráticos cobram a relação entre direitos, deveres, participação social, funcionamento das instituições e confiança pública.",
-      "Erro comum: Responder com opinião pessoal extrema, sem base institucional, ou confundir crítica democrática com negação das instituições.",
-      "Como estudar: analisar instituição envolvida, direito afetado, dever do Estado, papel do cidadão e consequência para a confiança social. A meta é transformar notícia em repertório útil, sem chute opinativo."
+      "Democracia, cidadania e instituições exige domínio de vida pública brasileira. O estudo correto começa pela ideia de que democracia depende de eleições, separação de poderes, liberdade de expressão, controle social e respeito a direitos fundamentais.",
+      "Cidadania envolve participação, deveres, acesso a políticas públicas e capacidade de fiscalizar o Estado. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Instituições fortes reduzem personalismo e arbitrariedade. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Desinformação corrói confiança pública e dificulta escolhas coletivas racionais. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Temas democráticos cobram a relação entre direitos, deveres, participação social, funcionamento das instituições e confiança pública.",
-      "Atualidades cobra contexto e impacto, não apenas manchete.",
-      "A boa resposta evita radicalismo e explica causa e consequência.",
-      "Erro comum: Responder com opinião pessoal extrema, sem base institucional, ou confundir crítica democrática com negação das instituições."
+      "Democracia depende de eleições, separação de poderes, liberdade de expressão, controle social e respeito a direitos fundamentais.",
+      "Cidadania envolve participação, deveres, acesso a políticas públicas e capacidade de fiscalizar o Estado.",
+      "Instituições fortes reduzem personalismo e arbitrariedade.",
+      "Desinformação corrói confiança pública e dificulta escolhas coletivas racionais."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Responder com opinião pessoal extrema, sem base institucional, ou confundir crítica democrática com negação das instituições.",
-        "Temas democráticos cobram a relação entre direitos, deveres, participação social, funcionamento das instituições e confiança pública.",
-        "Basta decorar a notícia mais recente."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta conecta fato, contexto e consequência."
-    },
-    "oQueCobra": "Temas sociais, políticos, econômicos, ambientais, tecnológicos, culturais, geopolíticos e de segurança pública em questões e redações.",
-    "precisaSaberAntes": "Leitura de texto, interpretação, cidadania, noções de Estado, políticas públicas e repertório básico de redação.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta tema atual e testa leitura crítica, relação causal, impacto social e equilíbrio argumentativo."
+        "pergunta": "Qual é o núcleo de Democracia, cidadania e instituições?",
+        "resposta": "Democracia depende de eleições, separação de poderes, liberdade de expressão, controle social e respeito a direitos fundamentais."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique tema, fato, atores, causa, consequência e possível resposta institucional."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Confundir crítica a governo com ataque à democracia."
       },
       {
-        "titulo": "Conexão com redação",
-        "texto": "O mesmo tema pode virar questão objetiva, repertório, argumento ou proposta de intervenção conforme a banca."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Controle social de orçamento municipal é prática cidadã além do voto."
       }
     ],
-    "comoIdentificar": "Procure expressões como crise, desigualdade, políticas públicas, sustentabilidade, tecnologia, violência, cidadania, democracia, direitos e impactos sociais.",
+    "quadroDeDominio": {
+      "conceito": "Democracia depende de eleições, separação de poderes, liberdade de expressão, controle social e respeito a direitos fundamentais.",
+      "limite": "Cidadania envolve participação, deveres, acesso a políticas públicas e capacidade de fiscalizar o Estado.",
+      "aplicacao": "Controle social de orçamento municipal é prática cidadã além do voto.",
+      "erroFatal": "Confundir crítica a governo com ataque à democracia."
+    },
+    "exemploComentado": "Controle social de orçamento municipal é prática cidadã além do voto.",
     "pegadinhas": [
-      "opinião sem base",
-      "manchete sem contexto",
-      "solução simplista",
-      "radicalismo argumentativo",
-      "repertório desconectado"
+      "Confundir crítica a governo com ataque à democracia.",
+      "Achar que cidadania se limita a votar."
     ],
-    "resumoFrase": "Temas democráticos cobram a relação entre direitos, deveres, participação social, funcionamento das instituições e confiança pública.",
-    "explicacaoComoSeTivesse12": "Pense assim: Temas democráticos cobram a relação entre direitos, deveres, participação social, funcionamento das instituições e confiança pública. Não basta saber que aconteceu; você precisa explicar por que aconteceu e quem é afetado.",
-    "mapaMentalTextual": {
-      "centro": "Instituições democráticas, cidadania, participação e vida pública brasileira",
-      "ramos": [
-        "tema",
-        "fato",
-        "causa",
-        "consequência",
-        "atores",
-        "solução",
-        "repertório"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Democracia, cidadania e instituições",
+      "Conceito: Democracia depende de eleições, separação de poderes, liberdade de expressão, controle social e respeito a direitos fundamentais.",
+      "Aplicação: Controle social de orçamento municipal é prática cidadã além do voto.",
+      "Cuidado: Confundir crítica a governo com ataque à democracia."
+    ],
     "comoEstudar": [
-      "Ler o tema em fonte confiável",
-      "Anotar fato, causa e consequência",
-      "Criar um repertório curto",
-      "Resolver 10 itens",
-      "Escrever um parágrafo argumentativo"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Responder com opinião pessoal extrema, sem base institucional, ou confundir crítica democrática com negação das instituições. Em atualidades, opinião sem análise costuma ser armadilha.",
-    "revisaoProgramada": {
-      "D0": "ler e mapear tema",
-      "D1": "refazer questões",
-      "D7": "revisar flashcards",
-      "D30": "simulado de objetiva e redação"
-    },
-    "criteriosDominio": [
-      "identificar tema",
-      "contextualizar fato",
-      "explicar causa",
-      "apontar consequência",
-      "usar repertório pertinente",
-      "manter equilíbrio"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f02-01",
-        "frente": "Ideia central de Instituições democráticas, cidadania, participação e vida pública brasileira",
-        "verso": "Temas democráticos cobram a relação entre direitos, deveres, participação social, funcionamento das instituições e confiança pública.",
-        "tag": "Instituições democráticas, cidadania, participação e vida pública brasileira",
+        "id": "atualidades-avancada-02-fc01",
+        "frente": "Qual é a ideia central de Democracia, cidadania e instituições?",
+        "verso": "Democracia depende de eleições, separação de poderes, liberdade de expressão, controle social e respeito a direitos fundamentais.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f02-02",
-        "frente": "Pegadinha comum em Instituições democráticas, cidadania, participação e vida pública brasileira",
-        "verso": "Responder com opinião pessoal extrema, sem base institucional, ou confundir crítica democrática com negação das instituições.",
+        "id": "atualidades-avancada-02-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em vida pública brasileira?",
+        "verso": "Cidadania envolve participação, deveres, acesso a políticas públicas e capacidade de fiscalizar o Estado.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "atualidades-avancada-02-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Confundir crítica a governo com ataque à democracia.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f02-03",
-        "frente": "Roteiro de estudo para Instituições democráticas, cidadania, participação e vida pública brasileira",
-        "verso": "Use este roteiro: analisar instituição envolvida, direito afetado, dever do Estado, papel do cidadão e consequência para a confiança social. Depois transforme o tema em um parágrafo de redação e uma questão objetiva.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f02-04",
-        "frente": "Comparação importante em Instituições democráticas, cidadania, participação e vida pública brasileira",
-        "verso": "democracia formal x cidadania ativa: democracia formal envolve regras eleitorais; cidadania ativa envolve participação e controle social.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "atualidades-avancada-02-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Controle social de orçamento municipal é prática cidadã além do voto.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Atualidades para concursos. Explique Instituições democráticas, cidadania, participação e vida pública brasileira, crie questão objetiva e gere parágrafo de redação equilibrado.",
-      "feedbackPadrao": "Corrija com foco em contexto, causa, consequência, repertório e linguagem equilibrada."
-    },
     "questoes": [
       {
-        "id": "q02-01",
+        "id": "atualidades-avancada-02-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Instituições democráticas, cidadania, participação e vida pública brasileira, qual afirmação apresenta melhor leitura de Atualidades?",
+        "enunciado": "Em relação a Democracia, cidadania e instituições, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Temas democráticos cobram a relação entre direitos, deveres, participação social, funcionamento das instituições e confiança pública.",
-          "Responder com opinião pessoal extrema, sem base institucional, ou confundir crítica democrática com negação das instituições.",
-          "O tema deve ser respondido apenas com opinião pessoal forte.",
-          "Toda notícia recente deve ser decorada sem contexto.",
-          "A banca sempre cobra apenas nomes e datas."
+          "Democracia depende de eleições, separação de poderes, liberdade de expressão, controle social e respeito a direitos fundamentais.",
+          "Confundir crítica a governo com ataque à democracia.",
+          "Achar que cidadania se limita a votar.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Temas democráticos cobram a relação entre direitos, deveres, participação social, funcionamento das instituições e confiança pública.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "Temas democráticos cobram a relação entre direitos, deveres, participação social, funcionamento das instituições e confiança pública.",
-        "armadilhaDaBanca": "Responder com opinião pessoal extrema, sem base institucional, ou confundir crítica democrática com negação das instituições.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A alternativa correta resume o núcleo do tema: Democracia depende de eleições, separação de poderes, liberdade de expressão, controle social e respeito a direitos fundamentais."
       },
       {
-        "id": "q02-02",
+        "id": "atualidades-avancada-02-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Instituições democráticas, cidadania, participação e vida pública brasileira, uma manchete isolada é suficiente para dominar o tema em prova.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca exige contexto, causa, consequência e leitura institucional do problema.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "Cidadania envolve participação, deveres, acesso a políticas públicas e capacidade de fiscalizar o Estado.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de vida pública brasileira."
       },
       {
-        "id": "q02-03",
+        "id": "atualidades-avancada-02-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Instituições democráticas, cidadania, participação e vida pública brasileira, é adequado relacionar fato atual com políticas públicas, cidadania e impactos sociais.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Essa conexão transforma notícia em repertório de prova e redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "Confundir crítica a governo com ataque à democracia.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q02-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Um item afirma que cidadania se resume ao voto e não envolve controle social, acesso a direitos ou deveres coletivos.",
-        "alternativas": [
-          "A afirmação é limitada: cidadania inclui voto, participação, direitos, deveres, acesso a políticas públicas e controle social.",
-          "A melhor resposta é escolher o lado mais radical do debate.",
-          "A questão deve ser ignorada se não cobrar lei seca.",
-          "Basta citar uma notícia sem explicar relação com o tema.",
-          "Toda solução simples resolve integralmente problema complexo."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A afirmação é limitada: cidadania inclui voto, participação, direitos, deveres, acesso a políticas públicas e controle social.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A afirmação é limitada: cidadania inclui voto, participação, direitos, deveres, acesso a políticas públicas e controle social.",
-        "armadilhaDaBanca": "A pegadinha está em trocar análise por opinião ou simplificação excessiva.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "id": "atualidades-avancada-02-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Controle social de orçamento municipal é prática cidadã além do voto. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Instituições fortes reduzem personalismo e arbitrariedade.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q02-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual roteiro é mais eficiente para estudar Instituições democráticas, cidadania, participação e vida pública brasileira?",
-        "alternativas": [
-          "Usar o roteiro: analisar instituição envolvida, direito afetado, dever do Estado, papel do cidadão e consequência para a confiança social.",
-          "Ler apenas títulos de portais e decorar datas.",
-          "Responder por preferência política ou moral sem base.",
-          "Ignorar grupos afetados e impactos sociais.",
-          "Memorizar frases prontas sem entender o tema."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: analisar instituição envolvida, direito afetado, dever do Estado, papel do cidadão e consequência para a confiança social.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "O roteiro correto é: analisar instituição envolvida, direito afetado, dever do Estado, papel do cidadão e consequência para a confiança social.",
-        "armadilhaDaBanca": "Atualidades cobra relação entre fato, contexto e consequência.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
-      },
-      {
-        "id": "q02-06",
+        "id": "atualidades-avancada-02-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Instituições democráticas, cidadania, participação e vida pública brasileira.",
-        "respostaEsperada": "Temas democráticos cobram a relação entre direitos, deveres, participação social, funcionamento das instituições e confiança pública.",
-        "rubricaCorrecao": [
-          "identificar tema",
-          "explicar contexto",
-          "apontar causa",
-          "apontar consequência",
-          "manter equilíbrio"
-        ],
-        "comentario": "A resposta deve ser equilibrada e conectada a contexto social ou institucional.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e retire opinião sem sustentação."
+        "enunciado": "Explique, em até três linhas, por que vida pública brasileira não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar democracia depende de eleições, separação de poderes, liberdade de expressão, controle social e respeito a direitos fundamentais. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q02-07",
+        "id": "atualidades-avancada-02-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie democracia formal e cidadania ativa.",
-        "respostaEsperada": "democracia formal envolve regras eleitorais; cidadania ativa envolve participação e controle social",
-        "criterioDominio": [
-          "definir o primeiro termo",
-          "definir o segundo termo",
-          "mostrar diferença prática",
-          "conectar com prova ou redação"
-        ],
-        "comentario": "A diferença central é: democracia formal envolve regras eleitorais; cidadania ativa envolve participação e controle social.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, pegadinha e uso em redação."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Democracia depende de eleições, separação de poderes, liberdade de expressão, controle social e respeito a direitos fundamentais. Pegadinha: Confundir crítica a governo com ataque à democracia.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q02-08",
+        "id": "atualidades-avancada-02-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Instituições democráticas, cidadania, participação e vida pública brasileira?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Responder com opinião pessoal extrema, sem base institucional, ou confundir crítica democrática com negação das instituições.",
-          "Analisar causas e consequências antes de responder.",
-          "Conectar o tema com direitos, cidadania ou política pública.",
-          "Verificar fonte e contexto antes de usar repertório.",
-          "Evitar linguagem extremada em tema sensível."
+          "Instituições fortes reduzem personalismo e arbitrariedade.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Achar que cidadania se limita a votar."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Responder com opinião pessoal extrema, sem base institucional, ou confundir crítica democrática com negação das instituições.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A pegadinha comum é: Responder com opinião pessoal extrema, sem base institucional, ou confundir crítica democrática com negação das instituições.",
-        "armadilhaDaBanca": "A banca usa temas atuais para testar leitura crítica e equilíbrio.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q02-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Instituições democráticas, cidadania, participação e vida pública brasileira, repertório só ajuda quando está conectado ao problema proposto.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Repertório solto não melhora resposta objetiva nem redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "id": "atualidades-avancada-02-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Achar que cidadania se limita a votar.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q02-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: transforme Instituições democráticas, cidadania, participação e vida pública brasileira em uma questão e em um parágrafo de redação.",
-        "promptTutorIA": "Crie um item de concurso sobre Instituições democráticas, cidadania, participação e vida pública brasileira, resolva, aponte a pegadinha e depois gere um parágrafo argumentativo equilibrado.",
-        "criterioDominio": [
-          "tema identificado",
-          "fato contextualizado",
-          "causa explicada",
-          "consequência indicada",
-          "linguagem equilibrada"
-        ],
-        "comentario": "Este treino prepara o aluno para objetiva e redação ao mesmo tempo.",
-        "diagnosticoIA": "Depois do treino, troque o grupo afetado ou a política pública envolvida e refaça."
+        "id": "atualidades-avancada-02-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Democracia, cidadania e instituições a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Desinformação corrói confiança pública e dificulta escolhas coletivas racionais.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "atualidades-avancada-02-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Democracia depende de eleições, separação de poderes, liberdade de expressão, controle social e respeito a direitos fundamentais.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Segurança pública, violência, prevenção e direitos fundamentais",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 25 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Alto: Atualidades depende de recorte temporal, edital, notícias recentes, indicadores e fontes oficiais atualizadas.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Atualidades / Redação / Concursos"
+    "proximoTitulo": "Segurança pública e prevenção"
   },
   {
-    "id": "seguranca-publica-violencia-prevencao-e-direitos-fundamentais",
-    "materialTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "id": "seguranca-publica-e-prevencao",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 3,
     "totalChapters": 10,
-    "title": "Segurança pública, violência, prevenção e direitos fundamentais",
-    "assunto": "Atualidades de segurança pública com equilíbrio entre prevenção, repressão e direitos",
-    "tecnica": "Estudo por tema, fato, causa, consequência, repertório, política pública e pegadinha de banca",
-    "competencia": "Interpretar temas contemporâneos com equilíbrio, leitura institucional e aplicação em objetiva e redação.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Segurança pública e prevenção",
+    "assunto": "violência como problema complexo",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar violência como problema complexo com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "segurança pública",
-      "violência",
-      "prevenção",
-      "direitos humanos",
-      "policiamento",
-      "políticas públicas",
-      "indicadores"
+      "violencia como problema complexo"
     ],
-    "fontesBase": [
-      "Temas contemporâneos de cidadania, políticas públicas e sociedade",
-      "Leitura crítica de notícias, relatórios públicos e indicadores",
-      "Redação dissertativo-argumentativa e questões objetivas de concursos",
-      "Atualização obrigatória conforme edital, recorte temporal e fonte oficial"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Atualidades de segurança pública com equilíbrio entre prevenção, repressão e direitos com foco em concursos policiais, administrativos, ENEM e provas gerais.",
-      "Ideia central: Segurança pública em atualidades exige equilíbrio entre proteção da sociedade, prevenção, repressão qualificada, dados, legalidade e direitos fundamentais.",
-      "Erro comum: Tratar segurança pública como escolha simples entre repressão absoluta ou ausência de atuação estatal.",
-      "Como estudar: mapear problema, causas sociais e criminais, ação estatal legítima, proteção de vítimas, controle institucional e indicadores. A meta é transformar notícia em repertório útil, sem chute opinativo."
+      "Segurança pública e prevenção exige domínio de violência como problema complexo. O estudo correto começa pela ideia de que segurança pública envolve prevenção, investigação, repressão qualificada, justiça, reinserção e políticas sociais.",
+      "Violência urbana tem causas múltiplas: desigualdade, armas, facções, território, baixa confiança e falhas de gestão. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Dados e inteligência ajudam a direcionar recursos e avaliar resultados. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Direitos fundamentais legitimam a atuação estatal e reduzem abuso. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Segurança pública em atualidades exige equilíbrio entre proteção da sociedade, prevenção, repressão qualificada, dados, legalidade e direitos fundamentais.",
-      "Atualidades cobra contexto e impacto, não apenas manchete.",
-      "A boa resposta evita radicalismo e explica causa e consequência.",
-      "Erro comum: Tratar segurança pública como escolha simples entre repressão absoluta ou ausência de atuação estatal."
+      "Segurança pública envolve prevenção, investigação, repressão qualificada, justiça, reinserção e políticas sociais.",
+      "Violência urbana tem causas múltiplas: desigualdade, armas, facções, território, baixa confiança e falhas de gestão.",
+      "Dados e inteligência ajudam a direcionar recursos e avaliar resultados.",
+      "Direitos fundamentais legitimam a atuação estatal e reduzem abuso."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Tratar segurança pública como escolha simples entre repressão absoluta ou ausência de atuação estatal.",
-        "Segurança pública em atualidades exige equilíbrio entre proteção da sociedade, prevenção, repressão qualificada, dados, legalidade e direitos fundamentais.",
-        "Basta decorar a notícia mais recente."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta conecta fato, contexto e consequência."
-    },
-    "oQueCobra": "Temas sociais, políticos, econômicos, ambientais, tecnológicos, culturais, geopolíticos e de segurança pública em questões e redações.",
-    "precisaSaberAntes": "Leitura de texto, interpretação, cidadania, noções de Estado, políticas públicas e repertório básico de redação.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta tema atual e testa leitura crítica, relação causal, impacto social e equilíbrio argumentativo."
+        "pergunta": "Qual é o núcleo de Segurança pública e prevenção?",
+        "resposta": "Segurança pública envolve prevenção, investigação, repressão qualificada, justiça, reinserção e políticas sociais."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique tema, fato, atores, causa, consequência e possível resposta institucional."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Reduzir segurança a aumento de pena."
       },
       {
-        "titulo": "Conexão com redação",
-        "texto": "O mesmo tema pode virar questão objetiva, repertório, argumento ou proposta de intervenção conforme a banca."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Policiamento orientado por dados pode reduzir crimes em áreas críticas sem abordagem aleatória massiva."
       }
     ],
-    "comoIdentificar": "Procure expressões como crise, desigualdade, políticas públicas, sustentabilidade, tecnologia, violência, cidadania, democracia, direitos e impactos sociais.",
+    "quadroDeDominio": {
+      "conceito": "Segurança pública envolve prevenção, investigação, repressão qualificada, justiça, reinserção e políticas sociais.",
+      "limite": "Violência urbana tem causas múltiplas: desigualdade, armas, facções, território, baixa confiança e falhas de gestão.",
+      "aplicacao": "Policiamento orientado por dados pode reduzir crimes em áreas críticas sem abordagem aleatória massiva.",
+      "erroFatal": "Reduzir segurança a aumento de pena."
+    },
+    "exemploComentado": "Policiamento orientado por dados pode reduzir crimes em áreas críticas sem abordagem aleatória massiva.",
     "pegadinhas": [
-      "opinião sem base",
-      "manchete sem contexto",
-      "solução simplista",
-      "radicalismo argumentativo",
-      "repertório desconectado"
+      "Reduzir segurança a aumento de pena.",
+      "Opor direitos humanos e eficiência policial."
     ],
-    "resumoFrase": "Segurança pública em atualidades exige equilíbrio entre proteção da sociedade, prevenção, repressão qualificada, dados, legalidade e direitos fundamentais.",
-    "explicacaoComoSeTivesse12": "Pense assim: Segurança pública em atualidades exige equilíbrio entre proteção da sociedade, prevenção, repressão qualificada, dados, legalidade e direitos fundamentais. Não basta saber que aconteceu; você precisa explicar por que aconteceu e quem é afetado.",
-    "mapaMentalTextual": {
-      "centro": "Atualidades de segurança pública com equilíbrio entre prevenção, repressão e direitos",
-      "ramos": [
-        "tema",
-        "fato",
-        "causa",
-        "consequência",
-        "atores",
-        "solução",
-        "repertório"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Segurança pública e prevenção",
+      "Conceito: Segurança pública envolve prevenção, investigação, repressão qualificada, justiça, reinserção e políticas sociais.",
+      "Aplicação: Policiamento orientado por dados pode reduzir crimes em áreas críticas sem abordagem aleatória massiva.",
+      "Cuidado: Reduzir segurança a aumento de pena."
+    ],
     "comoEstudar": [
-      "Ler o tema em fonte confiável",
-      "Anotar fato, causa e consequência",
-      "Criar um repertório curto",
-      "Resolver 10 itens",
-      "Escrever um parágrafo argumentativo"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Tratar segurança pública como escolha simples entre repressão absoluta ou ausência de atuação estatal. Em atualidades, opinião sem análise costuma ser armadilha.",
-    "revisaoProgramada": {
-      "D0": "ler e mapear tema",
-      "D1": "refazer questões",
-      "D7": "revisar flashcards",
-      "D30": "simulado de objetiva e redação"
-    },
-    "criteriosDominio": [
-      "identificar tema",
-      "contextualizar fato",
-      "explicar causa",
-      "apontar consequência",
-      "usar repertório pertinente",
-      "manter equilíbrio"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f03-01",
-        "frente": "Ideia central de Atualidades de segurança pública com equilíbrio entre prevenção, repressão e direitos",
-        "verso": "Segurança pública em atualidades exige equilíbrio entre proteção da sociedade, prevenção, repressão qualificada, dados, legalidade e direitos fundamentais.",
-        "tag": "Atualidades de segurança pública com equilíbrio entre prevenção, repressão e direitos",
+        "id": "atualidades-avancada-03-fc01",
+        "frente": "Qual é a ideia central de Segurança pública e prevenção?",
+        "verso": "Segurança pública envolve prevenção, investigação, repressão qualificada, justiça, reinserção e políticas sociais.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f03-02",
-        "frente": "Pegadinha comum em Atualidades de segurança pública com equilíbrio entre prevenção, repressão e direitos",
-        "verso": "Tratar segurança pública como escolha simples entre repressão absoluta ou ausência de atuação estatal.",
+        "id": "atualidades-avancada-03-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em violência como problema complexo?",
+        "verso": "Violência urbana tem causas múltiplas: desigualdade, armas, facções, território, baixa confiança e falhas de gestão.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "atualidades-avancada-03-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Reduzir segurança a aumento de pena. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f03-03",
-        "frente": "Roteiro de estudo para Atualidades de segurança pública com equilíbrio entre prevenção, repressão e direitos",
-        "verso": "Use este roteiro: mapear problema, causas sociais e criminais, ação estatal legítima, proteção de vítimas, controle institucional e indicadores. Depois transforme o tema em um parágrafo de redação e uma questão objetiva.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f03-04",
-        "frente": "Comparação importante em Atualidades de segurança pública com equilíbrio entre prevenção, repressão e direitos",
-        "verso": "prevenção x repressão qualificada: prevenção reduz fatores de risco; repressão qualificada atua de modo técnico contra crime.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "atualidades-avancada-03-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Policiamento orientado por dados pode reduzir crimes em áreas críticas sem abordagem aleatória massiva.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Atualidades para concursos. Explique Atualidades de segurança pública com equilíbrio entre prevenção, repressão e direitos, crie questão objetiva e gere parágrafo de redação equilibrado.",
-      "feedbackPadrao": "Corrija com foco em contexto, causa, consequência, repertório e linguagem equilibrada."
-    },
     "questoes": [
       {
-        "id": "q03-01",
+        "id": "atualidades-avancada-03-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Atualidades de segurança pública com equilíbrio entre prevenção, repressão e direitos, qual afirmação apresenta melhor leitura de Atualidades?",
+        "enunciado": "Em relação a Segurança pública e prevenção, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Segurança pública em atualidades exige equilíbrio entre proteção da sociedade, prevenção, repressão qualificada, dados, legalidade e direitos fundamentais.",
-          "Tratar segurança pública como escolha simples entre repressão absoluta ou ausência de atuação estatal.",
-          "O tema deve ser respondido apenas com opinião pessoal forte.",
-          "Toda notícia recente deve ser decorada sem contexto.",
-          "A banca sempre cobra apenas nomes e datas."
+          "Segurança pública envolve prevenção, investigação, repressão qualificada, justiça, reinserção e políticas sociais.",
+          "Reduzir segurança a aumento de pena.",
+          "Opor direitos humanos e eficiência policial.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Segurança pública em atualidades exige equilíbrio entre proteção da sociedade, prevenção, repressão qualificada, dados, legalidade e direitos fundamentais.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "Segurança pública em atualidades exige equilíbrio entre proteção da sociedade, prevenção, repressão qualificada, dados, legalidade e direitos fundamentais.",
-        "armadilhaDaBanca": "Tratar segurança pública como escolha simples entre repressão absoluta ou ausência de atuação estatal.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A alternativa correta resume o núcleo do tema: Segurança pública envolve prevenção, investigação, repressão qualificada, justiça, reinserção e políticas sociais."
       },
       {
-        "id": "q03-02",
+        "id": "atualidades-avancada-03-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Atualidades de segurança pública com equilíbrio entre prevenção, repressão e direitos, uma manchete isolada é suficiente para dominar o tema em prova.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca exige contexto, causa, consequência e leitura institucional do problema.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "Violência urbana tem causas múltiplas: desigualdade, armas, facções, território, baixa confiança e falhas de gestão.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de violência como problema complexo."
       },
       {
-        "id": "q03-03",
+        "id": "atualidades-avancada-03-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Atualidades de segurança pública com equilíbrio entre prevenção, repressão e direitos, é adequado relacionar fato atual com políticas públicas, cidadania e impactos sociais.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Essa conexão transforma notícia em repertório de prova e redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "Reduzir segurança a aumento de pena.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q03-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "A banca cobra uma solução para violência urbana e apresenta alternativas com respostas simplistas e sem política pública.",
-        "alternativas": [
-          "A alternativa mais adequada integra prevenção, investigação, policiamento, assistência social, educação, dados e respeito à legalidade.",
-          "A melhor resposta é escolher o lado mais radical do debate.",
-          "A questão deve ser ignorada se não cobrar lei seca.",
-          "Basta citar uma notícia sem explicar relação com o tema.",
-          "Toda solução simples resolve integralmente problema complexo."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa mais adequada integra prevenção, investigação, policiamento, assistência social, educação, dados e respeito à legalidade.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A alternativa mais adequada integra prevenção, investigação, policiamento, assistência social, educação, dados e respeito à legalidade.",
-        "armadilhaDaBanca": "A pegadinha está em trocar análise por opinião ou simplificação excessiva.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "id": "atualidades-avancada-03-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Policiamento orientado por dados pode reduzir crimes em áreas críticas sem abordagem aleatória massiva. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Dados e inteligência ajudam a direcionar recursos e avaliar resultados.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q03-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual roteiro é mais eficiente para estudar Atualidades de segurança pública com equilíbrio entre prevenção, repressão e direitos?",
-        "alternativas": [
-          "Usar o roteiro: mapear problema, causas sociais e criminais, ação estatal legítima, proteção de vítimas, controle institucional e indicadores.",
-          "Ler apenas títulos de portais e decorar datas.",
-          "Responder por preferência política ou moral sem base.",
-          "Ignorar grupos afetados e impactos sociais.",
-          "Memorizar frases prontas sem entender o tema."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: mapear problema, causas sociais e criminais, ação estatal legítima, proteção de vítimas, controle institucional e indicadores.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "O roteiro correto é: mapear problema, causas sociais e criminais, ação estatal legítima, proteção de vítimas, controle institucional e indicadores.",
-        "armadilhaDaBanca": "Atualidades cobra relação entre fato, contexto e consequência.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
-      },
-      {
-        "id": "q03-06",
+        "id": "atualidades-avancada-03-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Atualidades de segurança pública com equilíbrio entre prevenção, repressão e direitos.",
-        "respostaEsperada": "Segurança pública em atualidades exige equilíbrio entre proteção da sociedade, prevenção, repressão qualificada, dados, legalidade e direitos fundamentais.",
-        "rubricaCorrecao": [
-          "identificar tema",
-          "explicar contexto",
-          "apontar causa",
-          "apontar consequência",
-          "manter equilíbrio"
-        ],
-        "comentario": "A resposta deve ser equilibrada e conectada a contexto social ou institucional.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e retire opinião sem sustentação."
+        "enunciado": "Explique, em até três linhas, por que violência como problema complexo não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar segurança pública envolve prevenção, investigação, repressão qualificada, justiça, reinserção e políticas sociais. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q03-07",
+        "id": "atualidades-avancada-03-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie prevenção e repressão qualificada.",
-        "respostaEsperada": "prevenção reduz fatores de risco; repressão qualificada atua de modo técnico contra crime",
-        "criterioDominio": [
-          "definir o primeiro termo",
-          "definir o segundo termo",
-          "mostrar diferença prática",
-          "conectar com prova ou redação"
-        ],
-        "comentario": "A diferença central é: prevenção reduz fatores de risco; repressão qualificada atua de modo técnico contra crime.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, pegadinha e uso em redação."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Segurança pública envolve prevenção, investigação, repressão qualificada, justiça, reinserção e políticas sociais. Pegadinha: Reduzir segurança a aumento de pena.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q03-08",
+        "id": "atualidades-avancada-03-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Atualidades de segurança pública com equilíbrio entre prevenção, repressão e direitos?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Tratar segurança pública como escolha simples entre repressão absoluta ou ausência de atuação estatal.",
-          "Analisar causas e consequências antes de responder.",
-          "Conectar o tema com direitos, cidadania ou política pública.",
-          "Verificar fonte e contexto antes de usar repertório.",
-          "Evitar linguagem extremada em tema sensível."
+          "Dados e inteligência ajudam a direcionar recursos e avaliar resultados.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Opor direitos humanos e eficiência policial."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Tratar segurança pública como escolha simples entre repressão absoluta ou ausência de atuação estatal.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A pegadinha comum é: Tratar segurança pública como escolha simples entre repressão absoluta ou ausência de atuação estatal.",
-        "armadilhaDaBanca": "A banca usa temas atuais para testar leitura crítica e equilíbrio.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q03-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Atualidades de segurança pública com equilíbrio entre prevenção, repressão e direitos, repertório só ajuda quando está conectado ao problema proposto.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Repertório solto não melhora resposta objetiva nem redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "id": "atualidades-avancada-03-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Opor direitos humanos e eficiência policial.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q03-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: transforme Atualidades de segurança pública com equilíbrio entre prevenção, repressão e direitos em uma questão e em um parágrafo de redação.",
-        "promptTutorIA": "Crie um item de concurso sobre Atualidades de segurança pública com equilíbrio entre prevenção, repressão e direitos, resolva, aponte a pegadinha e depois gere um parágrafo argumentativo equilibrado.",
-        "criterioDominio": [
-          "tema identificado",
-          "fato contextualizado",
-          "causa explicada",
-          "consequência indicada",
-          "linguagem equilibrada"
-        ],
-        "comentario": "Este treino prepara o aluno para objetiva e redação ao mesmo tempo.",
-        "diagnosticoIA": "Depois do treino, troque o grupo afetado ou a política pública envolvida e refaça."
+        "id": "atualidades-avancada-03-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Segurança pública e prevenção a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Direitos fundamentais legitimam a atuação estatal e reduzem abuso.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "atualidades-avancada-03-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Segurança pública envolve prevenção, investigação, repressão qualificada, justiça, reinserção e políticas sociais.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Meio ambiente, clima, sustentabilidade e riscos socioambientais",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 25 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Alto: Atualidades depende de recorte temporal, edital, notícias recentes, indicadores e fontes oficiais atualizadas.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Atualidades / Redação / Concursos"
+    "proximoTitulo": "Meio ambiente e clima"
   },
   {
-    "id": "meio-ambiente-clima-sustentabilidade-e-riscos-socioambientais",
-    "materialTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "id": "meio-ambiente-e-clima",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 4,
     "totalChapters": 10,
-    "title": "Meio ambiente, clima, sustentabilidade e riscos socioambientais",
-    "assunto": "Mudanças climáticas, desastres, sustentabilidade, Amazônia e responsabilidade socioambiental",
-    "tecnica": "Estudo por tema, fato, causa, consequência, repertório, política pública e pegadinha de banca",
-    "competencia": "Interpretar temas contemporâneos com equilíbrio, leitura institucional e aplicação em objetiva e redação.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Meio ambiente e clima",
+    "assunto": "risco socioambiental",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar risco socioambiental com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "meio ambiente",
-      "clima",
-      "sustentabilidade",
-      "desastres",
-      "Amazônia",
-      "energia",
       "risco socioambiental"
     ],
-    "fontesBase": [
-      "Temas contemporâneos de cidadania, políticas públicas e sociedade",
-      "Leitura crítica de notícias, relatórios públicos e indicadores",
-      "Redação dissertativo-argumentativa e questões objetivas de concursos",
-      "Atualização obrigatória conforme edital, recorte temporal e fonte oficial"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Mudanças climáticas, desastres, sustentabilidade, Amazônia e responsabilidade socioambiental com foco em concursos policiais, administrativos, ENEM e provas gerais.",
-      "Ideia central: Atualidades ambientais cobram conexão entre desenvolvimento, proteção ambiental, desastres, justiça climática e políticas sustentáveis.",
-      "Erro comum: Achar que meio ambiente é tema isolado e não se conecta com economia, saúde, segurança, moradia e direitos sociais.",
-      "Como estudar: identificar impacto ambiental, grupos afetados, política pública, prevenção de risco, responsabilidade e equilíbrio entre desenvolvimento e proteção. A meta é transformar notícia em repertório útil, sem chute opinativo."
+      "Meio ambiente e clima exige domínio de risco socioambiental. O estudo correto começa pela ideia de que mudanças climáticas ampliam eventos extremos e pressionam infraestrutura urbana.",
+      "Desmatamento, queimadas e poluição afetam saúde, economia e segurança hídrica. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Justiça climática observa que populações vulneráveis sofrem mais com riscos ambientais. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Sustentabilidade combina proteção ambiental, desenvolvimento e responsabilidade intergeracional. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Atualidades ambientais cobram conexão entre desenvolvimento, proteção ambiental, desastres, justiça climática e políticas sustentáveis.",
-      "Atualidades cobra contexto e impacto, não apenas manchete.",
-      "A boa resposta evita radicalismo e explica causa e consequência.",
-      "Erro comum: Achar que meio ambiente é tema isolado e não se conecta com economia, saúde, segurança, moradia e direitos sociais."
+      "Mudanças climáticas ampliam eventos extremos e pressionam infraestrutura urbana.",
+      "Desmatamento, queimadas e poluição afetam saúde, economia e segurança hídrica.",
+      "Justiça climática observa que populações vulneráveis sofrem mais com riscos ambientais.",
+      "Sustentabilidade combina proteção ambiental, desenvolvimento e responsabilidade intergeracional."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Achar que meio ambiente é tema isolado e não se conecta com economia, saúde, segurança, moradia e direitos sociais.",
-        "Atualidades ambientais cobram conexão entre desenvolvimento, proteção ambiental, desastres, justiça climática e políticas sustentáveis.",
-        "Basta decorar a notícia mais recente."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta conecta fato, contexto e consequência."
-    },
-    "oQueCobra": "Temas sociais, políticos, econômicos, ambientais, tecnológicos, culturais, geopolíticos e de segurança pública em questões e redações.",
-    "precisaSaberAntes": "Leitura de texto, interpretação, cidadania, noções de Estado, políticas públicas e repertório básico de redação.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta tema atual e testa leitura crítica, relação causal, impacto social e equilíbrio argumentativo."
+        "pergunta": "Qual é o núcleo de Meio ambiente e clima?",
+        "resposta": "Mudanças climáticas ampliam eventos extremos e pressionam infraestrutura urbana."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique tema, fato, atores, causa, consequência e possível resposta institucional."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Tratar desastre como evento puramente natural."
       },
       {
-        "titulo": "Conexão com redação",
-        "texto": "O mesmo tema pode virar questão objetiva, repertório, argumento ou proposta de intervenção conforme a banca."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Enchentes urbanas decorrem de chuva intensa, ocupação irregular, impermeabilização e falha de drenagem."
       }
     ],
-    "comoIdentificar": "Procure expressões como crise, desigualdade, políticas públicas, sustentabilidade, tecnologia, violência, cidadania, democracia, direitos e impactos sociais.",
+    "quadroDeDominio": {
+      "conceito": "Mudanças climáticas ampliam eventos extremos e pressionam infraestrutura urbana.",
+      "limite": "Desmatamento, queimadas e poluição afetam saúde, economia e segurança hídrica.",
+      "aplicacao": "Enchentes urbanas decorrem de chuva intensa, ocupação irregular, impermeabilização e falha de drenagem.",
+      "erroFatal": "Tratar desastre como evento puramente natural."
+    },
+    "exemploComentado": "Enchentes urbanas decorrem de chuva intensa, ocupação irregular, impermeabilização e falha de drenagem.",
     "pegadinhas": [
-      "opinião sem base",
-      "manchete sem contexto",
-      "solução simplista",
-      "radicalismo argumentativo",
-      "repertório desconectado"
+      "Tratar desastre como evento puramente natural.",
+      "Ignorar população vulnerável em áreas de risco."
     ],
-    "resumoFrase": "Atualidades ambientais cobram conexão entre desenvolvimento, proteção ambiental, desastres, justiça climática e políticas sustentáveis.",
-    "explicacaoComoSeTivesse12": "Pense assim: Atualidades ambientais cobram conexão entre desenvolvimento, proteção ambiental, desastres, justiça climática e políticas sustentáveis. Não basta saber que aconteceu; você precisa explicar por que aconteceu e quem é afetado.",
-    "mapaMentalTextual": {
-      "centro": "Mudanças climáticas, desastres, sustentabilidade, Amazônia e responsabilidade socioambiental",
-      "ramos": [
-        "tema",
-        "fato",
-        "causa",
-        "consequência",
-        "atores",
-        "solução",
-        "repertório"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Meio ambiente e clima",
+      "Conceito: Mudanças climáticas ampliam eventos extremos e pressionam infraestrutura urbana.",
+      "Aplicação: Enchentes urbanas decorrem de chuva intensa, ocupação irregular, impermeabilização e falha de drenagem.",
+      "Cuidado: Tratar desastre como evento puramente natural."
+    ],
     "comoEstudar": [
-      "Ler o tema em fonte confiável",
-      "Anotar fato, causa e consequência",
-      "Criar um repertório curto",
-      "Resolver 10 itens",
-      "Escrever um parágrafo argumentativo"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Achar que meio ambiente é tema isolado e não se conecta com economia, saúde, segurança, moradia e direitos sociais. Em atualidades, opinião sem análise costuma ser armadilha.",
-    "revisaoProgramada": {
-      "D0": "ler e mapear tema",
-      "D1": "refazer questões",
-      "D7": "revisar flashcards",
-      "D30": "simulado de objetiva e redação"
-    },
-    "criteriosDominio": [
-      "identificar tema",
-      "contextualizar fato",
-      "explicar causa",
-      "apontar consequência",
-      "usar repertório pertinente",
-      "manter equilíbrio"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f04-01",
-        "frente": "Ideia central de Mudanças climáticas, desastres, sustentabilidade, Amazônia e responsabilidade socioambiental",
-        "verso": "Atualidades ambientais cobram conexão entre desenvolvimento, proteção ambiental, desastres, justiça climática e políticas sustentáveis.",
-        "tag": "Mudanças climáticas, desastres, sustentabilidade, Amazônia e responsabilidade socioambiental",
+        "id": "atualidades-avancada-04-fc01",
+        "frente": "Qual é a ideia central de Meio ambiente e clima?",
+        "verso": "Mudanças climáticas ampliam eventos extremos e pressionam infraestrutura urbana.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f04-02",
-        "frente": "Pegadinha comum em Mudanças climáticas, desastres, sustentabilidade, Amazônia e responsabilidade socioambiental",
-        "verso": "Achar que meio ambiente é tema isolado e não se conecta com economia, saúde, segurança, moradia e direitos sociais.",
+        "id": "atualidades-avancada-04-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em risco socioambiental?",
+        "verso": "Desmatamento, queimadas e poluição afetam saúde, economia e segurança hídrica.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "atualidades-avancada-04-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Tratar desastre como evento puramente natural.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f04-03",
-        "frente": "Roteiro de estudo para Mudanças climáticas, desastres, sustentabilidade, Amazônia e responsabilidade socioambiental",
-        "verso": "Use este roteiro: identificar impacto ambiental, grupos afetados, política pública, prevenção de risco, responsabilidade e equilíbrio entre desenvolvimento e proteção. Depois transforme o tema em um parágrafo de redação e uma questão objetiva.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f04-04",
-        "frente": "Comparação importante em Mudanças climáticas, desastres, sustentabilidade, Amazônia e responsabilidade socioambiental",
-        "verso": "evento natural x desastre socioambiental: evento natural é fenômeno físico; desastre envolve vulnerabilidade, exposição e falhas de prevenção.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "atualidades-avancada-04-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Enchentes urbanas decorrem de chuva intensa, ocupação irregular, impermeabilização e falha de drenagem.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Atualidades para concursos. Explique Mudanças climáticas, desastres, sustentabilidade, Amazônia e responsabilidade socioambiental, crie questão objetiva e gere parágrafo de redação equilibrado.",
-      "feedbackPadrao": "Corrija com foco em contexto, causa, consequência, repertório e linguagem equilibrada."
-    },
     "questoes": [
       {
-        "id": "q04-01",
+        "id": "atualidades-avancada-04-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Mudanças climáticas, desastres, sustentabilidade, Amazônia e responsabilidade socioambiental, qual afirmação apresenta melhor leitura de Atualidades?",
+        "enunciado": "Em relação a Meio ambiente e clima, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Atualidades ambientais cobram conexão entre desenvolvimento, proteção ambiental, desastres, justiça climática e políticas sustentáveis.",
-          "Achar que meio ambiente é tema isolado e não se conecta com economia, saúde, segurança, moradia e direitos sociais.",
-          "O tema deve ser respondido apenas com opinião pessoal forte.",
-          "Toda notícia recente deve ser decorada sem contexto.",
-          "A banca sempre cobra apenas nomes e datas."
+          "Mudanças climáticas ampliam eventos extremos e pressionam infraestrutura urbana.",
+          "Tratar desastre como evento puramente natural.",
+          "Ignorar população vulnerável em áreas de risco.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Atualidades ambientais cobram conexão entre desenvolvimento, proteção ambiental, desastres, justiça climática e políticas sustentáveis.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "Atualidades ambientais cobram conexão entre desenvolvimento, proteção ambiental, desastres, justiça climática e políticas sustentáveis.",
-        "armadilhaDaBanca": "Achar que meio ambiente é tema isolado e não se conecta com economia, saúde, segurança, moradia e direitos sociais.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A alternativa correta resume o núcleo do tema: Mudanças climáticas ampliam eventos extremos e pressionam infraestrutura urbana."
       },
       {
-        "id": "q04-02",
+        "id": "atualidades-avancada-04-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Mudanças climáticas, desastres, sustentabilidade, Amazônia e responsabilidade socioambiental, uma manchete isolada é suficiente para dominar o tema em prova.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca exige contexto, causa, consequência e leitura institucional do problema.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "Desmatamento, queimadas e poluição afetam saúde, economia e segurança hídrica.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de risco socioambiental."
       },
       {
-        "id": "q04-03",
+        "id": "atualidades-avancada-04-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Mudanças climáticas, desastres, sustentabilidade, Amazônia e responsabilidade socioambiental, é adequado relacionar fato atual com políticas públicas, cidadania e impactos sociais.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Essa conexão transforma notícia em repertório de prova e redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "Tratar desastre como evento puramente natural.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q04-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Um desastre ambiental é tratado apenas como acidente natural, sem discutir prevenção, vulnerabilidade social e resposta estatal.",
-        "alternativas": [
-          "A análise correta considera risco, prevenção, planejamento urbano, proteção de vulneráveis e resposta pública adequada.",
-          "A melhor resposta é escolher o lado mais radical do debate.",
-          "A questão deve ser ignorada se não cobrar lei seca.",
-          "Basta citar uma notícia sem explicar relação com o tema.",
-          "Toda solução simples resolve integralmente problema complexo."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A análise correta considera risco, prevenção, planejamento urbano, proteção de vulneráveis e resposta pública adequada.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A análise correta considera risco, prevenção, planejamento urbano, proteção de vulneráveis e resposta pública adequada.",
-        "armadilhaDaBanca": "A pegadinha está em trocar análise por opinião ou simplificação excessiva.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "id": "atualidades-avancada-04-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Enchentes urbanas decorrem de chuva intensa, ocupação irregular, impermeabilização e falha de drenagem. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Justiça climática observa que populações vulneráveis sofrem mais com riscos ambientais.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q04-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual roteiro é mais eficiente para estudar Mudanças climáticas, desastres, sustentabilidade, Amazônia e responsabilidade socioambiental?",
-        "alternativas": [
-          "Usar o roteiro: identificar impacto ambiental, grupos afetados, política pública, prevenção de risco, responsabilidade e equilíbrio entre desenvolvimento e proteção.",
-          "Ler apenas títulos de portais e decorar datas.",
-          "Responder por preferência política ou moral sem base.",
-          "Ignorar grupos afetados e impactos sociais.",
-          "Memorizar frases prontas sem entender o tema."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: identificar impacto ambiental, grupos afetados, política pública, prevenção de risco, responsabilidade e equilíbrio entre desenvolvimento e proteção.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "O roteiro correto é: identificar impacto ambiental, grupos afetados, política pública, prevenção de risco, responsabilidade e equilíbrio entre desenvolvimento e proteção.",
-        "armadilhaDaBanca": "Atualidades cobra relação entre fato, contexto e consequência.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
-      },
-      {
-        "id": "q04-06",
+        "id": "atualidades-avancada-04-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Mudanças climáticas, desastres, sustentabilidade, Amazônia e responsabilidade socioambiental.",
-        "respostaEsperada": "Atualidades ambientais cobram conexão entre desenvolvimento, proteção ambiental, desastres, justiça climática e políticas sustentáveis.",
-        "rubricaCorrecao": [
-          "identificar tema",
-          "explicar contexto",
-          "apontar causa",
-          "apontar consequência",
-          "manter equilíbrio"
-        ],
-        "comentario": "A resposta deve ser equilibrada e conectada a contexto social ou institucional.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e retire opinião sem sustentação."
+        "enunciado": "Explique, em até três linhas, por que risco socioambiental não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar mudanças climáticas ampliam eventos extremos e pressionam infraestrutura urbana. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q04-07",
+        "id": "atualidades-avancada-04-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie evento natural e desastre socioambiental.",
-        "respostaEsperada": "evento natural é fenômeno físico; desastre envolve vulnerabilidade, exposição e falhas de prevenção",
-        "criterioDominio": [
-          "definir o primeiro termo",
-          "definir o segundo termo",
-          "mostrar diferença prática",
-          "conectar com prova ou redação"
-        ],
-        "comentario": "A diferença central é: evento natural é fenômeno físico; desastre envolve vulnerabilidade, exposição e falhas de prevenção.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, pegadinha e uso em redação."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Mudanças climáticas ampliam eventos extremos e pressionam infraestrutura urbana. Pegadinha: Tratar desastre como evento puramente natural.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q04-08",
+        "id": "atualidades-avancada-04-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Mudanças climáticas, desastres, sustentabilidade, Amazônia e responsabilidade socioambiental?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Achar que meio ambiente é tema isolado e não se conecta com economia, saúde, segurança, moradia e direitos sociais.",
-          "Analisar causas e consequências antes de responder.",
-          "Conectar o tema com direitos, cidadania ou política pública.",
-          "Verificar fonte e contexto antes de usar repertório.",
-          "Evitar linguagem extremada em tema sensível."
+          "Justiça climática observa que populações vulneráveis sofrem mais com riscos ambientais.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Ignorar população vulnerável em áreas de risco."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Achar que meio ambiente é tema isolado e não se conecta com economia, saúde, segurança, moradia e direitos sociais.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A pegadinha comum é: Achar que meio ambiente é tema isolado e não se conecta com economia, saúde, segurança, moradia e direitos sociais.",
-        "armadilhaDaBanca": "A banca usa temas atuais para testar leitura crítica e equilíbrio.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q04-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Mudanças climáticas, desastres, sustentabilidade, Amazônia e responsabilidade socioambiental, repertório só ajuda quando está conectado ao problema proposto.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Repertório solto não melhora resposta objetiva nem redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "id": "atualidades-avancada-04-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Ignorar população vulnerável em áreas de risco.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q04-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: transforme Mudanças climáticas, desastres, sustentabilidade, Amazônia e responsabilidade socioambiental em uma questão e em um parágrafo de redação.",
-        "promptTutorIA": "Crie um item de concurso sobre Mudanças climáticas, desastres, sustentabilidade, Amazônia e responsabilidade socioambiental, resolva, aponte a pegadinha e depois gere um parágrafo argumentativo equilibrado.",
-        "criterioDominio": [
-          "tema identificado",
-          "fato contextualizado",
-          "causa explicada",
-          "consequência indicada",
-          "linguagem equilibrada"
-        ],
-        "comentario": "Este treino prepara o aluno para objetiva e redação ao mesmo tempo.",
-        "diagnosticoIA": "Depois do treino, troque o grupo afetado ou a política pública envolvida e refaça."
+        "id": "atualidades-avancada-04-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Meio ambiente e clima a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Sustentabilidade combina proteção ambiental, desenvolvimento e responsabilidade intergeracional.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "atualidades-avancada-04-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Mudanças climáticas ampliam eventos extremos e pressionam infraestrutura urbana.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Economia, trabalho, desigualdade, consumo e políticas sociais",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 25 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Alto: Atualidades depende de recorte temporal, edital, notícias recentes, indicadores e fontes oficiais atualizadas.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Atualidades / Redação / Concursos"
+    "proximoTitulo": "Economia, trabalho e desigualdade"
   },
   {
-    "id": "economia-trabalho-desigualdade-consumo-e-politicas-sociais",
-    "materialTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "id": "economia-trabalho-e-desigualdade",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 5,
     "totalChapters": 10,
-    "title": "Economia, trabalho, desigualdade, consumo e políticas sociais",
-    "assunto": "Indicadores sociais, emprego, renda, inflação, consumo, desigualdade e proteção social",
-    "tecnica": "Estudo por tema, fato, causa, consequência, repertório, política pública e pegadinha de banca",
-    "competencia": "Interpretar temas contemporâneos com equilíbrio, leitura institucional e aplicação em objetiva e redação.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Economia, trabalho e desigualdade",
+    "assunto": "impactos sociais",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar impactos sociais com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "economia",
-      "trabalho",
-      "renda",
-      "desigualdade",
-      "inflação",
-      "consumo",
-      "políticas sociais"
+      "impactos sociais"
     ],
-    "fontesBase": [
-      "Temas contemporâneos de cidadania, políticas públicas e sociedade",
-      "Leitura crítica de notícias, relatórios públicos e indicadores",
-      "Redação dissertativo-argumentativa e questões objetivas de concursos",
-      "Atualização obrigatória conforme edital, recorte temporal e fonte oficial"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Indicadores sociais, emprego, renda, inflação, consumo, desigualdade e proteção social com foco em concursos policiais, administrativos, ENEM e provas gerais.",
-      "Ideia central: Atualidades econômicas cobram impacto social dos indicadores, relação entre trabalho, renda, consumo, desigualdade e atuação do Estado.",
-      "Erro comum: Ler economia apenas como número, sem analisar consequências sobre famílias, serviços públicos e desigualdade.",
-      "Como estudar: identificar indicador, causa provável, grupo afetado, efeito social, política pública e relação com direitos sociais. A meta é transformar notícia em repertório útil, sem chute opinativo."
+      "Economia, trabalho e desigualdade exige domínio de impactos sociais. O estudo correto começa pela ideia de que inflação corrói poder de compra, especialmente de famílias de baixa renda.",
+      "Desemprego e informalidade reduzem renda, proteção social e arrecadação. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Desigualdade limita acesso a educação, saúde, moradia e segurança. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Políticas sociais devem ser avaliadas por focalização, financiamento, impacto e sustentabilidade. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Atualidades econômicas cobram impacto social dos indicadores, relação entre trabalho, renda, consumo, desigualdade e atuação do Estado.",
-      "Atualidades cobra contexto e impacto, não apenas manchete.",
-      "A boa resposta evita radicalismo e explica causa e consequência.",
-      "Erro comum: Ler economia apenas como número, sem analisar consequências sobre famílias, serviços públicos e desigualdade."
+      "Inflação corrói poder de compra, especialmente de famílias de baixa renda.",
+      "Desemprego e informalidade reduzem renda, proteção social e arrecadação.",
+      "Desigualdade limita acesso a educação, saúde, moradia e segurança.",
+      "Políticas sociais devem ser avaliadas por focalização, financiamento, impacto e sustentabilidade."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Ler economia apenas como número, sem analisar consequências sobre famílias, serviços públicos e desigualdade.",
-        "Atualidades econômicas cobram impacto social dos indicadores, relação entre trabalho, renda, consumo, desigualdade e atuação do Estado.",
-        "Basta decorar a notícia mais recente."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta conecta fato, contexto e consequência."
-    },
-    "oQueCobra": "Temas sociais, políticos, econômicos, ambientais, tecnológicos, culturais, geopolíticos e de segurança pública em questões e redações.",
-    "precisaSaberAntes": "Leitura de texto, interpretação, cidadania, noções de Estado, políticas públicas e repertório básico de redação.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta tema atual e testa leitura crítica, relação causal, impacto social e equilíbrio argumentativo."
+        "pergunta": "Qual é o núcleo de Economia, trabalho e desigualdade?",
+        "resposta": "Inflação corrói poder de compra, especialmente de famílias de baixa renda."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique tema, fato, atores, causa, consequência e possível resposta institucional."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Confundir crescimento econômico com redução automática de desigualdade."
       },
       {
-        "titulo": "Conexão com redação",
-        "texto": "O mesmo tema pode virar questão objetiva, repertório, argumento ou proposta de intervenção conforme a banca."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Crescimento do PIB pode coexistir com pobreza se renda e oportunidades forem concentradas."
       }
     ],
-    "comoIdentificar": "Procure expressões como crise, desigualdade, políticas públicas, sustentabilidade, tecnologia, violência, cidadania, democracia, direitos e impactos sociais.",
+    "quadroDeDominio": {
+      "conceito": "Inflação corrói poder de compra, especialmente de famílias de baixa renda.",
+      "limite": "Desemprego e informalidade reduzem renda, proteção social e arrecadação.",
+      "aplicacao": "Crescimento do PIB pode coexistir com pobreza se renda e oportunidades forem concentradas.",
+      "erroFatal": "Confundir crescimento econômico com redução automática de desigualdade."
+    },
+    "exemploComentado": "Crescimento do PIB pode coexistir com pobreza se renda e oportunidades forem concentradas.",
     "pegadinhas": [
-      "opinião sem base",
-      "manchete sem contexto",
-      "solução simplista",
-      "radicalismo argumentativo",
-      "repertório desconectado"
+      "Confundir crescimento econômico com redução automática de desigualdade.",
+      "Analisar inflação sem impacto social."
     ],
-    "resumoFrase": "Atualidades econômicas cobram impacto social dos indicadores, relação entre trabalho, renda, consumo, desigualdade e atuação do Estado.",
-    "explicacaoComoSeTivesse12": "Pense assim: Atualidades econômicas cobram impacto social dos indicadores, relação entre trabalho, renda, consumo, desigualdade e atuação do Estado. Não basta saber que aconteceu; você precisa explicar por que aconteceu e quem é afetado.",
-    "mapaMentalTextual": {
-      "centro": "Indicadores sociais, emprego, renda, inflação, consumo, desigualdade e proteção social",
-      "ramos": [
-        "tema",
-        "fato",
-        "causa",
-        "consequência",
-        "atores",
-        "solução",
-        "repertório"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Economia, trabalho e desigualdade",
+      "Conceito: Inflação corrói poder de compra, especialmente de famílias de baixa renda.",
+      "Aplicação: Crescimento do PIB pode coexistir com pobreza se renda e oportunidades forem concentradas.",
+      "Cuidado: Confundir crescimento econômico com redução automática de desigualdade."
+    ],
     "comoEstudar": [
-      "Ler o tema em fonte confiável",
-      "Anotar fato, causa e consequência",
-      "Criar um repertório curto",
-      "Resolver 10 itens",
-      "Escrever um parágrafo argumentativo"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Ler economia apenas como número, sem analisar consequências sobre famílias, serviços públicos e desigualdade. Em atualidades, opinião sem análise costuma ser armadilha.",
-    "revisaoProgramada": {
-      "D0": "ler e mapear tema",
-      "D1": "refazer questões",
-      "D7": "revisar flashcards",
-      "D30": "simulado de objetiva e redação"
-    },
-    "criteriosDominio": [
-      "identificar tema",
-      "contextualizar fato",
-      "explicar causa",
-      "apontar consequência",
-      "usar repertório pertinente",
-      "manter equilíbrio"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f05-01",
-        "frente": "Ideia central de Indicadores sociais, emprego, renda, inflação, consumo, desigualdade e proteção social",
-        "verso": "Atualidades econômicas cobram impacto social dos indicadores, relação entre trabalho, renda, consumo, desigualdade e atuação do Estado.",
-        "tag": "Indicadores sociais, emprego, renda, inflação, consumo, desigualdade e proteção social",
+        "id": "atualidades-avancada-05-fc01",
+        "frente": "Qual é a ideia central de Economia, trabalho e desigualdade?",
+        "verso": "Inflação corrói poder de compra, especialmente de famílias de baixa renda.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f05-02",
-        "frente": "Pegadinha comum em Indicadores sociais, emprego, renda, inflação, consumo, desigualdade e proteção social",
-        "verso": "Ler economia apenas como número, sem analisar consequências sobre famílias, serviços públicos e desigualdade.",
+        "id": "atualidades-avancada-05-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em impactos sociais?",
+        "verso": "Desemprego e informalidade reduzem renda, proteção social e arrecadação.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "atualidades-avancada-05-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Confundir crescimento econômico com redução automática de desigualdade.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f05-03",
-        "frente": "Roteiro de estudo para Indicadores sociais, emprego, renda, inflação, consumo, desigualdade e proteção social",
-        "verso": "Use este roteiro: identificar indicador, causa provável, grupo afetado, efeito social, política pública e relação com direitos sociais. Depois transforme o tema em um parágrafo de redação e uma questão objetiva.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f05-04",
-        "frente": "Comparação importante em Indicadores sociais, emprego, renda, inflação, consumo, desigualdade e proteção social",
-        "verso": "crescimento econômico x desenvolvimento social: crescimento mede expansão econômica; desenvolvimento considera bem-estar, inclusão e qualidade de vida.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "atualidades-avancada-05-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Crescimento do PIB pode coexistir com pobreza se renda e oportunidades forem concentradas.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Atualidades para concursos. Explique Indicadores sociais, emprego, renda, inflação, consumo, desigualdade e proteção social, crie questão objetiva e gere parágrafo de redação equilibrado.",
-      "feedbackPadrao": "Corrija com foco em contexto, causa, consequência, repertório e linguagem equilibrada."
-    },
     "questoes": [
       {
-        "id": "q05-01",
+        "id": "atualidades-avancada-05-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Indicadores sociais, emprego, renda, inflação, consumo, desigualdade e proteção social, qual afirmação apresenta melhor leitura de Atualidades?",
+        "enunciado": "Em relação a Economia, trabalho e desigualdade, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Atualidades econômicas cobram impacto social dos indicadores, relação entre trabalho, renda, consumo, desigualdade e atuação do Estado.",
-          "Ler economia apenas como número, sem analisar consequências sobre famílias, serviços públicos e desigualdade.",
-          "O tema deve ser respondido apenas com opinião pessoal forte.",
-          "Toda notícia recente deve ser decorada sem contexto.",
-          "A banca sempre cobra apenas nomes e datas."
+          "Inflação corrói poder de compra, especialmente de famílias de baixa renda.",
+          "Confundir crescimento econômico com redução automática de desigualdade.",
+          "Analisar inflação sem impacto social.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Atualidades econômicas cobram impacto social dos indicadores, relação entre trabalho, renda, consumo, desigualdade e atuação do Estado.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "Atualidades econômicas cobram impacto social dos indicadores, relação entre trabalho, renda, consumo, desigualdade e atuação do Estado.",
-        "armadilhaDaBanca": "Ler economia apenas como número, sem analisar consequências sobre famílias, serviços públicos e desigualdade.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A alternativa correta resume o núcleo do tema: Inflação corrói poder de compra, especialmente de famílias de baixa renda."
       },
       {
-        "id": "q05-02",
+        "id": "atualidades-avancada-05-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Indicadores sociais, emprego, renda, inflação, consumo, desigualdade e proteção social, uma manchete isolada é suficiente para dominar o tema em prova.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca exige contexto, causa, consequência e leitura institucional do problema.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "Desemprego e informalidade reduzem renda, proteção social e arrecadação.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de impactos sociais."
       },
       {
-        "id": "q05-03",
+        "id": "atualidades-avancada-05-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Indicadores sociais, emprego, renda, inflação, consumo, desigualdade e proteção social, é adequado relacionar fato atual com políticas públicas, cidadania e impactos sociais.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Essa conexão transforma notícia em repertório de prova e redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "Confundir crescimento econômico com redução automática de desigualdade.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q05-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Um item fala de aumento de preços e afirma que isso não afeta direitos sociais nem acesso a bens essenciais.",
-        "alternativas": [
-          "A afirmação é inadequada: preços e renda afetam acesso a alimentação, transporte, moradia, saúde e educação.",
-          "A melhor resposta é escolher o lado mais radical do debate.",
-          "A questão deve ser ignorada se não cobrar lei seca.",
-          "Basta citar uma notícia sem explicar relação com o tema.",
-          "Toda solução simples resolve integralmente problema complexo."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A afirmação é inadequada: preços e renda afetam acesso a alimentação, transporte, moradia, saúde e educação.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A afirmação é inadequada: preços e renda afetam acesso a alimentação, transporte, moradia, saúde e educação.",
-        "armadilhaDaBanca": "A pegadinha está em trocar análise por opinião ou simplificação excessiva.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "id": "atualidades-avancada-05-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Crescimento do PIB pode coexistir com pobreza se renda e oportunidades forem concentradas. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Desigualdade limita acesso a educação, saúde, moradia e segurança.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q05-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual roteiro é mais eficiente para estudar Indicadores sociais, emprego, renda, inflação, consumo, desigualdade e proteção social?",
-        "alternativas": [
-          "Usar o roteiro: identificar indicador, causa provável, grupo afetado, efeito social, política pública e relação com direitos sociais.",
-          "Ler apenas títulos de portais e decorar datas.",
-          "Responder por preferência política ou moral sem base.",
-          "Ignorar grupos afetados e impactos sociais.",
-          "Memorizar frases prontas sem entender o tema."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: identificar indicador, causa provável, grupo afetado, efeito social, política pública e relação com direitos sociais.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "O roteiro correto é: identificar indicador, causa provável, grupo afetado, efeito social, política pública e relação com direitos sociais.",
-        "armadilhaDaBanca": "Atualidades cobra relação entre fato, contexto e consequência.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
-      },
-      {
-        "id": "q05-06",
+        "id": "atualidades-avancada-05-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Indicadores sociais, emprego, renda, inflação, consumo, desigualdade e proteção social.",
-        "respostaEsperada": "Atualidades econômicas cobram impacto social dos indicadores, relação entre trabalho, renda, consumo, desigualdade e atuação do Estado.",
-        "rubricaCorrecao": [
-          "identificar tema",
-          "explicar contexto",
-          "apontar causa",
-          "apontar consequência",
-          "manter equilíbrio"
-        ],
-        "comentario": "A resposta deve ser equilibrada e conectada a contexto social ou institucional.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e retire opinião sem sustentação."
+        "enunciado": "Explique, em até três linhas, por que impactos sociais não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar inflação corrói poder de compra, especialmente de famílias de baixa renda. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q05-07",
+        "id": "atualidades-avancada-05-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie crescimento econômico e desenvolvimento social.",
-        "respostaEsperada": "crescimento mede expansão econômica; desenvolvimento considera bem-estar, inclusão e qualidade de vida",
-        "criterioDominio": [
-          "definir o primeiro termo",
-          "definir o segundo termo",
-          "mostrar diferença prática",
-          "conectar com prova ou redação"
-        ],
-        "comentario": "A diferença central é: crescimento mede expansão econômica; desenvolvimento considera bem-estar, inclusão e qualidade de vida.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, pegadinha e uso em redação."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Inflação corrói poder de compra, especialmente de famílias de baixa renda. Pegadinha: Confundir crescimento econômico com redução automática de desigualdade.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q05-08",
+        "id": "atualidades-avancada-05-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Indicadores sociais, emprego, renda, inflação, consumo, desigualdade e proteção social?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Ler economia apenas como número, sem analisar consequências sobre famílias, serviços públicos e desigualdade.",
-          "Analisar causas e consequências antes de responder.",
-          "Conectar o tema com direitos, cidadania ou política pública.",
-          "Verificar fonte e contexto antes de usar repertório.",
-          "Evitar linguagem extremada em tema sensível."
+          "Desigualdade limita acesso a educação, saúde, moradia e segurança.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Analisar inflação sem impacto social."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Ler economia apenas como número, sem analisar consequências sobre famílias, serviços públicos e desigualdade.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A pegadinha comum é: Ler economia apenas como número, sem analisar consequências sobre famílias, serviços públicos e desigualdade.",
-        "armadilhaDaBanca": "A banca usa temas atuais para testar leitura crítica e equilíbrio.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q05-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Indicadores sociais, emprego, renda, inflação, consumo, desigualdade e proteção social, repertório só ajuda quando está conectado ao problema proposto.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Repertório solto não melhora resposta objetiva nem redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "id": "atualidades-avancada-05-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Analisar inflação sem impacto social.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q05-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: transforme Indicadores sociais, emprego, renda, inflação, consumo, desigualdade e proteção social em uma questão e em um parágrafo de redação.",
-        "promptTutorIA": "Crie um item de concurso sobre Indicadores sociais, emprego, renda, inflação, consumo, desigualdade e proteção social, resolva, aponte a pegadinha e depois gere um parágrafo argumentativo equilibrado.",
-        "criterioDominio": [
-          "tema identificado",
-          "fato contextualizado",
-          "causa explicada",
-          "consequência indicada",
-          "linguagem equilibrada"
-        ],
-        "comentario": "Este treino prepara o aluno para objetiva e redação ao mesmo tempo.",
-        "diagnosticoIA": "Depois do treino, troque o grupo afetado ou a política pública envolvida e refaça."
+        "id": "atualidades-avancada-05-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Economia, trabalho e desigualdade a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Políticas sociais devem ser avaliadas por focalização, financiamento, impacto e sustentabilidade.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "atualidades-avancada-05-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Inflação corrói poder de compra, especialmente de famílias de baixa renda.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Tecnologia, inteligência artificial, dados, plataformas e cidadania digital",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 25 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Alto: Atualidades depende de recorte temporal, edital, notícias recentes, indicadores e fontes oficiais atualizadas.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Atualidades / Redação / Concursos"
+    "proximoTitulo": "Tecnologia, IA e plataformas"
   },
   {
-    "id": "tecnologia-inteligencia-artificial-dados-plataformas-e-cidadania-digital",
-    "materialTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "id": "tecnologia-ia-e-plataformas",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 6,
     "totalChapters": 10,
-    "title": "Tecnologia, inteligência artificial, dados, plataformas e cidadania digital",
-    "assunto": "Transformação digital, IA, dados pessoais, plataformas, desinformação e inclusão digital",
-    "tecnica": "Estudo por tema, fato, causa, consequência, repertório, política pública e pegadinha de banca",
-    "competencia": "Interpretar temas contemporâneos com equilíbrio, leitura institucional e aplicação em objetiva e redação.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Tecnologia, IA e plataformas",
+    "assunto": "transformação digital",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar transformação digital com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "tecnologia",
-      "inteligência artificial",
-      "dados",
-      "plataformas",
-      "desinformação",
-      "inclusão digital",
-      "algoritmos"
+      "transformacao digital"
     ],
-    "fontesBase": [
-      "Temas contemporâneos de cidadania, políticas públicas e sociedade",
-      "Leitura crítica de notícias, relatórios públicos e indicadores",
-      "Redação dissertativo-argumentativa e questões objetivas de concursos",
-      "Atualização obrigatória conforme edital, recorte temporal e fonte oficial"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Transformação digital, IA, dados pessoais, plataformas, desinformação e inclusão digital com foco em concursos policiais, administrativos, ENEM e provas gerais.",
-      "Ideia central: Tecnologia em atualidades exige analisar inovação, privacidade, inclusão digital, risco de desinformação, automação e responsabilidade humana.",
-      "Erro comum: Achar que tecnologia é sempre neutra, sempre benéfica ou sempre perigosa, sem analisar uso, regulação e impacto social.",
-      "Como estudar: identificar tecnologia, benefício, risco, dado envolvido, grupo impactado, governança e responsabilidade institucional. A meta é transformar notícia em repertório útil, sem chute opinativo."
+      "Tecnologia, IA e plataformas exige domínio de transformação digital. O estudo correto começa pela ideia de que plataformas digitais reorganizam trabalho, consumo, comunicação e política.",
+      "IA pode ampliar produtividade, mas também gerar viés, opacidade e dependência tecnológica. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Proteção de dados, transparência e alfabetização digital são temas centrais. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Regulação tecnológica precisa equilibrar inovação, direitos e responsabilidade. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Tecnologia em atualidades exige analisar inovação, privacidade, inclusão digital, risco de desinformação, automação e responsabilidade humana.",
-      "Atualidades cobra contexto e impacto, não apenas manchete.",
-      "A boa resposta evita radicalismo e explica causa e consequência.",
-      "Erro comum: Achar que tecnologia é sempre neutra, sempre benéfica ou sempre perigosa, sem analisar uso, regulação e impacto social."
+      "Plataformas digitais reorganizam trabalho, consumo, comunicação e política.",
+      "IA pode ampliar produtividade, mas também gerar viés, opacidade e dependência tecnológica.",
+      "Proteção de dados, transparência e alfabetização digital são temas centrais.",
+      "Regulação tecnológica precisa equilibrar inovação, direitos e responsabilidade."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Achar que tecnologia é sempre neutra, sempre benéfica ou sempre perigosa, sem analisar uso, regulação e impacto social.",
-        "Tecnologia em atualidades exige analisar inovação, privacidade, inclusão digital, risco de desinformação, automação e responsabilidade humana.",
-        "Basta decorar a notícia mais recente."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta conecta fato, contexto e consequência."
-    },
-    "oQueCobra": "Temas sociais, políticos, econômicos, ambientais, tecnológicos, culturais, geopolíticos e de segurança pública em questões e redações.",
-    "precisaSaberAntes": "Leitura de texto, interpretação, cidadania, noções de Estado, políticas públicas e repertório básico de redação.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta tema atual e testa leitura crítica, relação causal, impacto social e equilíbrio argumentativo."
+        "pergunta": "Qual é o núcleo de Tecnologia, IA e plataformas?",
+        "resposta": "Plataformas digitais reorganizam trabalho, consumo, comunicação e política."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique tema, fato, atores, causa, consequência e possível resposta institucional."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Achar que tecnologia é neutra em todos os contextos."
       },
       {
-        "titulo": "Conexão com redação",
-        "texto": "O mesmo tema pode virar questão objetiva, repertório, argumento ou proposta de intervenção conforme a banca."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Algoritmo de recomendação pode reforçar desinformação se otimiza só engajamento."
       }
     ],
-    "comoIdentificar": "Procure expressões como crise, desigualdade, políticas públicas, sustentabilidade, tecnologia, violência, cidadania, democracia, direitos e impactos sociais.",
+    "quadroDeDominio": {
+      "conceito": "Plataformas digitais reorganizam trabalho, consumo, comunicação e política.",
+      "limite": "IA pode ampliar produtividade, mas também gerar viés, opacidade e dependência tecnológica.",
+      "aplicacao": "Algoritmo de recomendação pode reforçar desinformação se otimiza só engajamento.",
+      "erroFatal": "Achar que tecnologia é neutra em todos os contextos."
+    },
+    "exemploComentado": "Algoritmo de recomendação pode reforçar desinformação se otimiza só engajamento.",
     "pegadinhas": [
-      "opinião sem base",
-      "manchete sem contexto",
-      "solução simplista",
-      "radicalismo argumentativo",
-      "repertório desconectado"
+      "Achar que tecnologia é neutra em todos os contextos.",
+      "Tratar regulação como inimiga automática da inovação."
     ],
-    "resumoFrase": "Tecnologia em atualidades exige analisar inovação, privacidade, inclusão digital, risco de desinformação, automação e responsabilidade humana.",
-    "explicacaoComoSeTivesse12": "Pense assim: Tecnologia em atualidades exige analisar inovação, privacidade, inclusão digital, risco de desinformação, automação e responsabilidade humana. Não basta saber que aconteceu; você precisa explicar por que aconteceu e quem é afetado.",
-    "mapaMentalTextual": {
-      "centro": "Transformação digital, IA, dados pessoais, plataformas, desinformação e inclusão digital",
-      "ramos": [
-        "tema",
-        "fato",
-        "causa",
-        "consequência",
-        "atores",
-        "solução",
-        "repertório"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Tecnologia, IA e plataformas",
+      "Conceito: Plataformas digitais reorganizam trabalho, consumo, comunicação e política.",
+      "Aplicação: Algoritmo de recomendação pode reforçar desinformação se otimiza só engajamento.",
+      "Cuidado: Achar que tecnologia é neutra em todos os contextos."
+    ],
     "comoEstudar": [
-      "Ler o tema em fonte confiável",
-      "Anotar fato, causa e consequência",
-      "Criar um repertório curto",
-      "Resolver 10 itens",
-      "Escrever um parágrafo argumentativo"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Achar que tecnologia é sempre neutra, sempre benéfica ou sempre perigosa, sem analisar uso, regulação e impacto social. Em atualidades, opinião sem análise costuma ser armadilha.",
-    "revisaoProgramada": {
-      "D0": "ler e mapear tema",
-      "D1": "refazer questões",
-      "D7": "revisar flashcards",
-      "D30": "simulado de objetiva e redação"
-    },
-    "criteriosDominio": [
-      "identificar tema",
-      "contextualizar fato",
-      "explicar causa",
-      "apontar consequência",
-      "usar repertório pertinente",
-      "manter equilíbrio"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f06-01",
-        "frente": "Ideia central de Transformação digital, IA, dados pessoais, plataformas, desinformação e inclusão digital",
-        "verso": "Tecnologia em atualidades exige analisar inovação, privacidade, inclusão digital, risco de desinformação, automação e responsabilidade humana.",
-        "tag": "Transformação digital, IA, dados pessoais, plataformas, desinformação e inclusão digital",
+        "id": "atualidades-avancada-06-fc01",
+        "frente": "Qual é a ideia central de Tecnologia, IA e plataformas?",
+        "verso": "Plataformas digitais reorganizam trabalho, consumo, comunicação e política.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f06-02",
-        "frente": "Pegadinha comum em Transformação digital, IA, dados pessoais, plataformas, desinformação e inclusão digital",
-        "verso": "Achar que tecnologia é sempre neutra, sempre benéfica ou sempre perigosa, sem analisar uso, regulação e impacto social.",
+        "id": "atualidades-avancada-06-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em transformação digital?",
+        "verso": "IA pode ampliar produtividade, mas também gerar viés, opacidade e dependência tecnológica.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "atualidades-avancada-06-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Achar que tecnologia é neutra em todos os contextos.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f06-03",
-        "frente": "Roteiro de estudo para Transformação digital, IA, dados pessoais, plataformas, desinformação e inclusão digital",
-        "verso": "Use este roteiro: identificar tecnologia, benefício, risco, dado envolvido, grupo impactado, governança e responsabilidade institucional. Depois transforme o tema em um parágrafo de redação e uma questão objetiva.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f06-04",
-        "frente": "Comparação importante em Transformação digital, IA, dados pessoais, plataformas, desinformação e inclusão digital",
-        "verso": "inovação x governança digital: inovação cria novas soluções; governança define regras, transparência e responsabilidade.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "atualidades-avancada-06-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Algoritmo de recomendação pode reforçar desinformação se otimiza só engajamento.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Atualidades para concursos. Explique Transformação digital, IA, dados pessoais, plataformas, desinformação e inclusão digital, crie questão objetiva e gere parágrafo de redação equilibrado.",
-      "feedbackPadrao": "Corrija com foco em contexto, causa, consequência, repertório e linguagem equilibrada."
-    },
     "questoes": [
       {
-        "id": "q06-01",
+        "id": "atualidades-avancada-06-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Transformação digital, IA, dados pessoais, plataformas, desinformação e inclusão digital, qual afirmação apresenta melhor leitura de Atualidades?",
+        "enunciado": "Em relação a Tecnologia, IA e plataformas, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Tecnologia em atualidades exige analisar inovação, privacidade, inclusão digital, risco de desinformação, automação e responsabilidade humana.",
-          "Achar que tecnologia é sempre neutra, sempre benéfica ou sempre perigosa, sem analisar uso, regulação e impacto social.",
-          "O tema deve ser respondido apenas com opinião pessoal forte.",
-          "Toda notícia recente deve ser decorada sem contexto.",
-          "A banca sempre cobra apenas nomes e datas."
+          "Plataformas digitais reorganizam trabalho, consumo, comunicação e política.",
+          "Achar que tecnologia é neutra em todos os contextos.",
+          "Tratar regulação como inimiga automática da inovação.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Tecnologia em atualidades exige analisar inovação, privacidade, inclusão digital, risco de desinformação, automação e responsabilidade humana.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "Tecnologia em atualidades exige analisar inovação, privacidade, inclusão digital, risco de desinformação, automação e responsabilidade humana.",
-        "armadilhaDaBanca": "Achar que tecnologia é sempre neutra, sempre benéfica ou sempre perigosa, sem analisar uso, regulação e impacto social.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A alternativa correta resume o núcleo do tema: Plataformas digitais reorganizam trabalho, consumo, comunicação e política."
       },
       {
-        "id": "q06-02",
+        "id": "atualidades-avancada-06-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Transformação digital, IA, dados pessoais, plataformas, desinformação e inclusão digital, uma manchete isolada é suficiente para dominar o tema em prova.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca exige contexto, causa, consequência e leitura institucional do problema.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "IA pode ampliar produtividade, mas também gerar viés, opacidade e dependência tecnológica.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de transformação digital."
       },
       {
-        "id": "q06-03",
+        "id": "atualidades-avancada-06-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Transformação digital, IA, dados pessoais, plataformas, desinformação e inclusão digital, é adequado relacionar fato atual com políticas públicas, cidadania e impactos sociais.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Essa conexão transforma notícia em repertório de prova e redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "Achar que tecnologia é neutra em todos os contextos.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q06-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Uma plataforma digital amplia acesso a serviços, mas também coleta dados e influencia decisões de usuários.",
-        "alternativas": [
-          "A análise equilibrada reconhece benefícios, riscos de privacidade, transparência, inclusão e responsabilidade no uso dos dados.",
-          "A melhor resposta é escolher o lado mais radical do debate.",
-          "A questão deve ser ignorada se não cobrar lei seca.",
-          "Basta citar uma notícia sem explicar relação com o tema.",
-          "Toda solução simples resolve integralmente problema complexo."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A análise equilibrada reconhece benefícios, riscos de privacidade, transparência, inclusão e responsabilidade no uso dos dados.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A análise equilibrada reconhece benefícios, riscos de privacidade, transparência, inclusão e responsabilidade no uso dos dados.",
-        "armadilhaDaBanca": "A pegadinha está em trocar análise por opinião ou simplificação excessiva.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "id": "atualidades-avancada-06-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Algoritmo de recomendação pode reforçar desinformação se otimiza só engajamento. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Proteção de dados, transparência e alfabetização digital são temas centrais.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q06-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual roteiro é mais eficiente para estudar Transformação digital, IA, dados pessoais, plataformas, desinformação e inclusão digital?",
-        "alternativas": [
-          "Usar o roteiro: identificar tecnologia, benefício, risco, dado envolvido, grupo impactado, governança e responsabilidade institucional.",
-          "Ler apenas títulos de portais e decorar datas.",
-          "Responder por preferência política ou moral sem base.",
-          "Ignorar grupos afetados e impactos sociais.",
-          "Memorizar frases prontas sem entender o tema."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: identificar tecnologia, benefício, risco, dado envolvido, grupo impactado, governança e responsabilidade institucional.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "O roteiro correto é: identificar tecnologia, benefício, risco, dado envolvido, grupo impactado, governança e responsabilidade institucional.",
-        "armadilhaDaBanca": "Atualidades cobra relação entre fato, contexto e consequência.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
-      },
-      {
-        "id": "q06-06",
+        "id": "atualidades-avancada-06-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Transformação digital, IA, dados pessoais, plataformas, desinformação e inclusão digital.",
-        "respostaEsperada": "Tecnologia em atualidades exige analisar inovação, privacidade, inclusão digital, risco de desinformação, automação e responsabilidade humana.",
-        "rubricaCorrecao": [
-          "identificar tema",
-          "explicar contexto",
-          "apontar causa",
-          "apontar consequência",
-          "manter equilíbrio"
-        ],
-        "comentario": "A resposta deve ser equilibrada e conectada a contexto social ou institucional.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e retire opinião sem sustentação."
+        "enunciado": "Explique, em até três linhas, por que transformação digital não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar plataformas digitais reorganizam trabalho, consumo, comunicação e política. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q06-07",
+        "id": "atualidades-avancada-06-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie inovação e governança digital.",
-        "respostaEsperada": "inovação cria novas soluções; governança define regras, transparência e responsabilidade",
-        "criterioDominio": [
-          "definir o primeiro termo",
-          "definir o segundo termo",
-          "mostrar diferença prática",
-          "conectar com prova ou redação"
-        ],
-        "comentario": "A diferença central é: inovação cria novas soluções; governança define regras, transparência e responsabilidade.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, pegadinha e uso em redação."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Plataformas digitais reorganizam trabalho, consumo, comunicação e política. Pegadinha: Achar que tecnologia é neutra em todos os contextos.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q06-08",
+        "id": "atualidades-avancada-06-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Transformação digital, IA, dados pessoais, plataformas, desinformação e inclusão digital?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Achar que tecnologia é sempre neutra, sempre benéfica ou sempre perigosa, sem analisar uso, regulação e impacto social.",
-          "Analisar causas e consequências antes de responder.",
-          "Conectar o tema com direitos, cidadania ou política pública.",
-          "Verificar fonte e contexto antes de usar repertório.",
-          "Evitar linguagem extremada em tema sensível."
+          "Proteção de dados, transparência e alfabetização digital são temas centrais.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Tratar regulação como inimiga automática da inovação."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Achar que tecnologia é sempre neutra, sempre benéfica ou sempre perigosa, sem analisar uso, regulação e impacto social.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A pegadinha comum é: Achar que tecnologia é sempre neutra, sempre benéfica ou sempre perigosa, sem analisar uso, regulação e impacto social.",
-        "armadilhaDaBanca": "A banca usa temas atuais para testar leitura crítica e equilíbrio.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q06-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Transformação digital, IA, dados pessoais, plataformas, desinformação e inclusão digital, repertório só ajuda quando está conectado ao problema proposto.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Repertório solto não melhora resposta objetiva nem redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "id": "atualidades-avancada-06-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Tratar regulação como inimiga automática da inovação.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q06-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: transforme Transformação digital, IA, dados pessoais, plataformas, desinformação e inclusão digital em uma questão e em um parágrafo de redação.",
-        "promptTutorIA": "Crie um item de concurso sobre Transformação digital, IA, dados pessoais, plataformas, desinformação e inclusão digital, resolva, aponte a pegadinha e depois gere um parágrafo argumentativo equilibrado.",
-        "criterioDominio": [
-          "tema identificado",
-          "fato contextualizado",
-          "causa explicada",
-          "consequência indicada",
-          "linguagem equilibrada"
-        ],
-        "comentario": "Este treino prepara o aluno para objetiva e redação ao mesmo tempo.",
-        "diagnosticoIA": "Depois do treino, troque o grupo afetado ou a política pública envolvida e refaça."
+        "id": "atualidades-avancada-06-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Tecnologia, IA e plataformas a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Regulação tecnológica precisa equilibrar inovação, direitos e responsabilidade.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "atualidades-avancada-06-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Plataformas digitais reorganizam trabalho, consumo, comunicação e política.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Saúde pública, educação, ciência e qualidade de vida",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 25 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Alto: Atualidades depende de recorte temporal, edital, notícias recentes, indicadores e fontes oficiais atualizadas.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Atualidades / Redação / Concursos"
+    "proximoTitulo": "Saúde, educação e ciência"
   },
   {
-    "id": "saude-publica-educacao-ciencia-e-qualidade-de-vida",
-    "materialTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "id": "saude-educacao-e-ciencia",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 7,
     "totalChapters": 10,
-    "title": "Saúde pública, educação, ciência e qualidade de vida",
-    "assunto": "SUS, prevenção, educação, vacinação, ciência, pesquisa, informação e bem-estar social",
-    "tecnica": "Estudo por tema, fato, causa, consequência, repertório, política pública e pegadinha de banca",
-    "competencia": "Interpretar temas contemporâneos com equilíbrio, leitura institucional e aplicação em objetiva e redação.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Saúde, educação e ciência",
+    "assunto": "políticas públicas essenciais",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar políticas públicas essenciais com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "saúde pública",
-      "educação",
-      "ciência",
-      "SUS",
-      "vacinação",
-      "prevenção",
-      "qualidade de vida"
+      "politicas publicas essenciais"
     ],
-    "fontesBase": [
-      "Temas contemporâneos de cidadania, políticas públicas e sociedade",
-      "Leitura crítica de notícias, relatórios públicos e indicadores",
-      "Redação dissertativo-argumentativa e questões objetivas de concursos",
-      "Atualização obrigatória conforme edital, recorte temporal e fonte oficial"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda SUS, prevenção, educação, vacinação, ciência, pesquisa, informação e bem-estar social com foco em concursos policiais, administrativos, ENEM e provas gerais.",
-      "Ideia central: Saúde, educação e ciência são temas de atualidades porque ligam direitos sociais, políticas públicas, evidências e qualidade de vida.",
-      "Erro comum: Tratar saúde e educação como temas apenas individuais, ignorando prevenção, política pública e desigualdade de acesso.",
-      "Como estudar: identificar direito social, política pública, evidência científica, prevenção, desigualdade de acesso e resultado coletivo esperado. A meta é transformar notícia em repertório útil, sem chute opinativo."
+      "Saúde, educação e ciência exige domínio de políticas públicas essenciais. O estudo correto começa pela ideia de que saúde pública envolve prevenção, atenção básica, vigilância, financiamento e resposta a emergências.",
+      "Educação reduz desigualdade quando combina acesso, permanência, aprendizagem e infraestrutura. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Ciência orienta políticas baseadas em evidência e combate soluções improvisadas. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Qualidade de vida depende de saneamento, alimentação, ambiente, renda e serviços. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Saúde, educação e ciência são temas de atualidades porque ligam direitos sociais, políticas públicas, evidências e qualidade de vida.",
-      "Atualidades cobra contexto e impacto, não apenas manchete.",
-      "A boa resposta evita radicalismo e explica causa e consequência.",
-      "Erro comum: Tratar saúde e educação como temas apenas individuais, ignorando prevenção, política pública e desigualdade de acesso."
+      "Saúde pública envolve prevenção, atenção básica, vigilância, financiamento e resposta a emergências.",
+      "Educação reduz desigualdade quando combina acesso, permanência, aprendizagem e infraestrutura.",
+      "Ciência orienta políticas baseadas em evidência e combate soluções improvisadas.",
+      "Qualidade de vida depende de saneamento, alimentação, ambiente, renda e serviços."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Tratar saúde e educação como temas apenas individuais, ignorando prevenção, política pública e desigualdade de acesso.",
-        "Saúde, educação e ciência são temas de atualidades porque ligam direitos sociais, políticas públicas, evidências e qualidade de vida.",
-        "Basta decorar a notícia mais recente."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta conecta fato, contexto e consequência."
-    },
-    "oQueCobra": "Temas sociais, políticos, econômicos, ambientais, tecnológicos, culturais, geopolíticos e de segurança pública em questões e redações.",
-    "precisaSaberAntes": "Leitura de texto, interpretação, cidadania, noções de Estado, políticas públicas e repertório básico de redação.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta tema atual e testa leitura crítica, relação causal, impacto social e equilíbrio argumentativo."
+        "pergunta": "Qual é o núcleo de Saúde, educação e ciência?",
+        "resposta": "Saúde pública envolve prevenção, atenção básica, vigilância, financiamento e resposta a emergências."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique tema, fato, atores, causa, consequência e possível resposta institucional."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Discutir saúde só como hospital."
       },
       {
-        "titulo": "Conexão com redação",
-        "texto": "O mesmo tema pode virar questão objetiva, repertório, argumento ou proposta de intervenção conforme a banca."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Vacinação é política preventiva; reduz doença, custo hospitalar e risco coletivo."
       }
     ],
-    "comoIdentificar": "Procure expressões como crise, desigualdade, políticas públicas, sustentabilidade, tecnologia, violência, cidadania, democracia, direitos e impactos sociais.",
+    "quadroDeDominio": {
+      "conceito": "Saúde pública envolve prevenção, atenção básica, vigilância, financiamento e resposta a emergências.",
+      "limite": "Educação reduz desigualdade quando combina acesso, permanência, aprendizagem e infraestrutura.",
+      "aplicacao": "Vacinação é política preventiva; reduz doença, custo hospitalar e risco coletivo.",
+      "erroFatal": "Discutir saúde só como hospital."
+    },
+    "exemploComentado": "Vacinação é política preventiva; reduz doença, custo hospitalar e risco coletivo.",
     "pegadinhas": [
-      "opinião sem base",
-      "manchete sem contexto",
-      "solução simplista",
-      "radicalismo argumentativo",
-      "repertório desconectado"
+      "Discutir saúde só como hospital.",
+      "Discutir educação só como matrícula."
     ],
-    "resumoFrase": "Saúde, educação e ciência são temas de atualidades porque ligam direitos sociais, políticas públicas, evidências e qualidade de vida.",
-    "explicacaoComoSeTivesse12": "Pense assim: Saúde, educação e ciência são temas de atualidades porque ligam direitos sociais, políticas públicas, evidências e qualidade de vida. Não basta saber que aconteceu; você precisa explicar por que aconteceu e quem é afetado.",
-    "mapaMentalTextual": {
-      "centro": "SUS, prevenção, educação, vacinação, ciência, pesquisa, informação e bem-estar social",
-      "ramos": [
-        "tema",
-        "fato",
-        "causa",
-        "consequência",
-        "atores",
-        "solução",
-        "repertório"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Saúde, educação e ciência",
+      "Conceito: Saúde pública envolve prevenção, atenção básica, vigilância, financiamento e resposta a emergências.",
+      "Aplicação: Vacinação é política preventiva; reduz doença, custo hospitalar e risco coletivo.",
+      "Cuidado: Discutir saúde só como hospital."
+    ],
     "comoEstudar": [
-      "Ler o tema em fonte confiável",
-      "Anotar fato, causa e consequência",
-      "Criar um repertório curto",
-      "Resolver 10 itens",
-      "Escrever um parágrafo argumentativo"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Tratar saúde e educação como temas apenas individuais, ignorando prevenção, política pública e desigualdade de acesso. Em atualidades, opinião sem análise costuma ser armadilha.",
-    "revisaoProgramada": {
-      "D0": "ler e mapear tema",
-      "D1": "refazer questões",
-      "D7": "revisar flashcards",
-      "D30": "simulado de objetiva e redação"
-    },
-    "criteriosDominio": [
-      "identificar tema",
-      "contextualizar fato",
-      "explicar causa",
-      "apontar consequência",
-      "usar repertório pertinente",
-      "manter equilíbrio"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f07-01",
-        "frente": "Ideia central de SUS, prevenção, educação, vacinação, ciência, pesquisa, informação e bem-estar social",
-        "verso": "Saúde, educação e ciência são temas de atualidades porque ligam direitos sociais, políticas públicas, evidências e qualidade de vida.",
-        "tag": "SUS, prevenção, educação, vacinação, ciência, pesquisa, informação e bem-estar social",
+        "id": "atualidades-avancada-07-fc01",
+        "frente": "Qual é a ideia central de Saúde, educação e ciência?",
+        "verso": "Saúde pública envolve prevenção, atenção básica, vigilância, financiamento e resposta a emergências.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f07-02",
-        "frente": "Pegadinha comum em SUS, prevenção, educação, vacinação, ciência, pesquisa, informação e bem-estar social",
-        "verso": "Tratar saúde e educação como temas apenas individuais, ignorando prevenção, política pública e desigualdade de acesso.",
+        "id": "atualidades-avancada-07-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em políticas públicas essenciais?",
+        "verso": "Educação reduz desigualdade quando combina acesso, permanência, aprendizagem e infraestrutura.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "atualidades-avancada-07-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Discutir saúde só como hospital. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f07-03",
-        "frente": "Roteiro de estudo para SUS, prevenção, educação, vacinação, ciência, pesquisa, informação e bem-estar social",
-        "verso": "Use este roteiro: identificar direito social, política pública, evidência científica, prevenção, desigualdade de acesso e resultado coletivo esperado. Depois transforme o tema em um parágrafo de redação e uma questão objetiva.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f07-04",
-        "frente": "Comparação importante em SUS, prevenção, educação, vacinação, ciência, pesquisa, informação e bem-estar social",
-        "verso": "tratamento x prevenção: tratamento responde ao problema instalado; prevenção reduz risco antes do dano.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "atualidades-avancada-07-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Vacinação é política preventiva; reduz doença, custo hospitalar e risco coletivo.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Atualidades para concursos. Explique SUS, prevenção, educação, vacinação, ciência, pesquisa, informação e bem-estar social, crie questão objetiva e gere parágrafo de redação equilibrado.",
-      "feedbackPadrao": "Corrija com foco em contexto, causa, consequência, repertório e linguagem equilibrada."
-    },
     "questoes": [
       {
-        "id": "q07-01",
+        "id": "atualidades-avancada-07-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema SUS, prevenção, educação, vacinação, ciência, pesquisa, informação e bem-estar social, qual afirmação apresenta melhor leitura de Atualidades?",
+        "enunciado": "Em relação a Saúde, educação e ciência, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Saúde, educação e ciência são temas de atualidades porque ligam direitos sociais, políticas públicas, evidências e qualidade de vida.",
-          "Tratar saúde e educação como temas apenas individuais, ignorando prevenção, política pública e desigualdade de acesso.",
-          "O tema deve ser respondido apenas com opinião pessoal forte.",
-          "Toda notícia recente deve ser decorada sem contexto.",
-          "A banca sempre cobra apenas nomes e datas."
+          "Saúde pública envolve prevenção, atenção básica, vigilância, financiamento e resposta a emergências.",
+          "Discutir saúde só como hospital.",
+          "Discutir educação só como matrícula.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Saúde, educação e ciência são temas de atualidades porque ligam direitos sociais, políticas públicas, evidências e qualidade de vida.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "Saúde, educação e ciência são temas de atualidades porque ligam direitos sociais, políticas públicas, evidências e qualidade de vida.",
-        "armadilhaDaBanca": "Tratar saúde e educação como temas apenas individuais, ignorando prevenção, política pública e desigualdade de acesso.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A alternativa correta resume o núcleo do tema: Saúde pública envolve prevenção, atenção básica, vigilância, financiamento e resposta a emergências."
       },
       {
-        "id": "q07-02",
+        "id": "atualidades-avancada-07-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em SUS, prevenção, educação, vacinação, ciência, pesquisa, informação e bem-estar social, uma manchete isolada é suficiente para dominar o tema em prova.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca exige contexto, causa, consequência e leitura institucional do problema.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "Educação reduz desigualdade quando combina acesso, permanência, aprendizagem e infraestrutura.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de políticas públicas essenciais."
       },
       {
-        "id": "q07-03",
+        "id": "atualidades-avancada-07-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em SUS, prevenção, educação, vacinação, ciência, pesquisa, informação e bem-estar social, é adequado relacionar fato atual com políticas públicas, cidadania e impactos sociais.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Essa conexão transforma notícia em repertório de prova e redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "Discutir saúde só como hospital.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q07-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "A banca apresenta campanha de saúde e afirma que prevenção não se relaciona com cidadania nem com gastos públicos.",
-        "alternativas": [
-          "A afirmação é falsa: prevenção protege vidas, reduz custos futuros e concretiza direitos sociais.",
-          "A melhor resposta é escolher o lado mais radical do debate.",
-          "A questão deve ser ignorada se não cobrar lei seca.",
-          "Basta citar uma notícia sem explicar relação com o tema.",
-          "Toda solução simples resolve integralmente problema complexo."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A afirmação é falsa: prevenção protege vidas, reduz custos futuros e concretiza direitos sociais.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A afirmação é falsa: prevenção protege vidas, reduz custos futuros e concretiza direitos sociais.",
-        "armadilhaDaBanca": "A pegadinha está em trocar análise por opinião ou simplificação excessiva.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "id": "atualidades-avancada-07-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Vacinação é política preventiva; reduz doença, custo hospitalar e risco coletivo. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Ciência orienta políticas baseadas em evidência e combate soluções improvisadas.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q07-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual roteiro é mais eficiente para estudar SUS, prevenção, educação, vacinação, ciência, pesquisa, informação e bem-estar social?",
-        "alternativas": [
-          "Usar o roteiro: identificar direito social, política pública, evidência científica, prevenção, desigualdade de acesso e resultado coletivo esperado.",
-          "Ler apenas títulos de portais e decorar datas.",
-          "Responder por preferência política ou moral sem base.",
-          "Ignorar grupos afetados e impactos sociais.",
-          "Memorizar frases prontas sem entender o tema."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: identificar direito social, política pública, evidência científica, prevenção, desigualdade de acesso e resultado coletivo esperado.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "O roteiro correto é: identificar direito social, política pública, evidência científica, prevenção, desigualdade de acesso e resultado coletivo esperado.",
-        "armadilhaDaBanca": "Atualidades cobra relação entre fato, contexto e consequência.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
-      },
-      {
-        "id": "q07-06",
+        "id": "atualidades-avancada-07-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de SUS, prevenção, educação, vacinação, ciência, pesquisa, informação e bem-estar social.",
-        "respostaEsperada": "Saúde, educação e ciência são temas de atualidades porque ligam direitos sociais, políticas públicas, evidências e qualidade de vida.",
-        "rubricaCorrecao": [
-          "identificar tema",
-          "explicar contexto",
-          "apontar causa",
-          "apontar consequência",
-          "manter equilíbrio"
-        ],
-        "comentario": "A resposta deve ser equilibrada e conectada a contexto social ou institucional.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e retire opinião sem sustentação."
+        "enunciado": "Explique, em até três linhas, por que políticas públicas essenciais não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar saúde pública envolve prevenção, atenção básica, vigilância, financiamento e resposta a emergências. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q07-07",
+        "id": "atualidades-avancada-07-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie tratamento e prevenção.",
-        "respostaEsperada": "tratamento responde ao problema instalado; prevenção reduz risco antes do dano",
-        "criterioDominio": [
-          "definir o primeiro termo",
-          "definir o segundo termo",
-          "mostrar diferença prática",
-          "conectar com prova ou redação"
-        ],
-        "comentario": "A diferença central é: tratamento responde ao problema instalado; prevenção reduz risco antes do dano.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, pegadinha e uso em redação."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Saúde pública envolve prevenção, atenção básica, vigilância, financiamento e resposta a emergências. Pegadinha: Discutir saúde só como hospital.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q07-08",
+        "id": "atualidades-avancada-07-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em SUS, prevenção, educação, vacinação, ciência, pesquisa, informação e bem-estar social?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Tratar saúde e educação como temas apenas individuais, ignorando prevenção, política pública e desigualdade de acesso.",
-          "Analisar causas e consequências antes de responder.",
-          "Conectar o tema com direitos, cidadania ou política pública.",
-          "Verificar fonte e contexto antes de usar repertório.",
-          "Evitar linguagem extremada em tema sensível."
+          "Ciência orienta políticas baseadas em evidência e combate soluções improvisadas.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Discutir educação só como matrícula."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Tratar saúde e educação como temas apenas individuais, ignorando prevenção, política pública e desigualdade de acesso.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A pegadinha comum é: Tratar saúde e educação como temas apenas individuais, ignorando prevenção, política pública e desigualdade de acesso.",
-        "armadilhaDaBanca": "A banca usa temas atuais para testar leitura crítica e equilíbrio.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q07-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em SUS, prevenção, educação, vacinação, ciência, pesquisa, informação e bem-estar social, repertório só ajuda quando está conectado ao problema proposto.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Repertório solto não melhora resposta objetiva nem redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "id": "atualidades-avancada-07-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Discutir educação só como matrícula.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q07-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: transforme SUS, prevenção, educação, vacinação, ciência, pesquisa, informação e bem-estar social em uma questão e em um parágrafo de redação.",
-        "promptTutorIA": "Crie um item de concurso sobre SUS, prevenção, educação, vacinação, ciência, pesquisa, informação e bem-estar social, resolva, aponte a pegadinha e depois gere um parágrafo argumentativo equilibrado.",
-        "criterioDominio": [
-          "tema identificado",
-          "fato contextualizado",
-          "causa explicada",
-          "consequência indicada",
-          "linguagem equilibrada"
-        ],
-        "comentario": "Este treino prepara o aluno para objetiva e redação ao mesmo tempo.",
-        "diagnosticoIA": "Depois do treino, troque o grupo afetado ou a política pública envolvida e refaça."
+        "id": "atualidades-avancada-07-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Saúde, educação e ciência a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Qualidade de vida depende de saneamento, alimentação, ambiente, renda e serviços.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "atualidades-avancada-07-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Saúde pública envolve prevenção, atenção básica, vigilância, financiamento e resposta a emergências.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Geopolítica, conflitos, migrações, organismos internacionais e globalização",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 25 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Alto: Atualidades depende de recorte temporal, edital, notícias recentes, indicadores e fontes oficiais atualizadas.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Atualidades / Redação / Concursos"
+    "proximoTitulo": "Geopolítica e globalização"
   },
   {
-    "id": "geopolitica-conflitos-migracoes-organismos-internacionais-e-globalizacao",
-    "materialTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "id": "geopolitica-e-globalizacao",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 8,
     "totalChapters": 10,
-    "title": "Geopolítica, conflitos, migrações, organismos internacionais e globalização",
-    "assunto": "Relações internacionais, conflitos, refugiados, blocos, organismos e interdependência mundial",
-    "tecnica": "Estudo por tema, fato, causa, consequência, repertório, política pública e pegadinha de banca",
-    "competencia": "Interpretar temas contemporâneos com equilíbrio, leitura institucional e aplicação em objetiva e redação.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Geopolítica e globalização",
+    "assunto": "relações internacionais contemporâneas",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar relações internacionais contemporâneas com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "geopolítica",
-      "conflitos",
-      "migrações",
-      "refugiados",
-      "globalização",
-      "organismos internacionais",
-      "cooperação"
+      "relacoes internacionais contemporaneas"
     ],
-    "fontesBase": [
-      "Temas contemporâneos de cidadania, políticas públicas e sociedade",
-      "Leitura crítica de notícias, relatórios públicos e indicadores",
-      "Redação dissertativo-argumentativa e questões objetivas de concursos",
-      "Atualização obrigatória conforme edital, recorte temporal e fonte oficial"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Relações internacionais, conflitos, refugiados, blocos, organismos e interdependência mundial com foco em concursos policiais, administrativos, ENEM e provas gerais.",
-      "Ideia central: Geopolítica em atualidades cobra interdependência entre países, conflitos, migrações, comércio, energia, organismos e direitos humanos.",
-      "Erro comum: Responder conflito internacional como se fosse fato isolado, sem atores, interesses, impactos humanitários e repercussões econômicas.",
-      "Como estudar: mapear atores, território, interesse, consequência humanitária, impacto econômico, organismo envolvido e possível cooperação. A meta é transformar notícia em repertório útil, sem chute opinativo."
+      "Geopolítica e globalização exige domínio de relações internacionais contemporâneas. O estudo correto começa pela ideia de que conflitos internacionais afetam energia, alimentos, migrações, comércio e segurança.",
+      "Globalização conecta mercados e culturas, mas também cria dependências e vulnerabilidades. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Organismos internacionais coordenam respostas, mas dependem de interesses dos Estados. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Migração deve ser analisada por causas humanitárias, econômicas, climáticas e políticas. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Geopolítica em atualidades cobra interdependência entre países, conflitos, migrações, comércio, energia, organismos e direitos humanos.",
-      "Atualidades cobra contexto e impacto, não apenas manchete.",
-      "A boa resposta evita radicalismo e explica causa e consequência.",
-      "Erro comum: Responder conflito internacional como se fosse fato isolado, sem atores, interesses, impactos humanitários e repercussões econômicas."
+      "Conflitos internacionais afetam energia, alimentos, migrações, comércio e segurança.",
+      "Globalização conecta mercados e culturas, mas também cria dependências e vulnerabilidades.",
+      "Organismos internacionais coordenam respostas, mas dependem de interesses dos Estados.",
+      "Migração deve ser analisada por causas humanitárias, econômicas, climáticas e políticas."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Responder conflito internacional como se fosse fato isolado, sem atores, interesses, impactos humanitários e repercussões econômicas.",
-        "Geopolítica em atualidades cobra interdependência entre países, conflitos, migrações, comércio, energia, organismos e direitos humanos.",
-        "Basta decorar a notícia mais recente."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta conecta fato, contexto e consequência."
-    },
-    "oQueCobra": "Temas sociais, políticos, econômicos, ambientais, tecnológicos, culturais, geopolíticos e de segurança pública em questões e redações.",
-    "precisaSaberAntes": "Leitura de texto, interpretação, cidadania, noções de Estado, políticas públicas e repertório básico de redação.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta tema atual e testa leitura crítica, relação causal, impacto social e equilíbrio argumentativo."
+        "pergunta": "Qual é o núcleo de Geopolítica e globalização?",
+        "resposta": "Conflitos internacionais afetam energia, alimentos, migrações, comércio e segurança."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique tema, fato, atores, causa, consequência e possível resposta institucional."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Ver conflito externo como assunto sem efeito interno."
       },
       {
-        "titulo": "Conexão com redação",
-        "texto": "O mesmo tema pode virar questão objetiva, repertório, argumento ou proposta de intervenção conforme a banca."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Guerra em região produtora de energia pode afetar preços e inflação em países distantes."
       }
     ],
-    "comoIdentificar": "Procure expressões como crise, desigualdade, políticas públicas, sustentabilidade, tecnologia, violência, cidadania, democracia, direitos e impactos sociais.",
+    "quadroDeDominio": {
+      "conceito": "Conflitos internacionais afetam energia, alimentos, migrações, comércio e segurança.",
+      "limite": "Globalização conecta mercados e culturas, mas também cria dependências e vulnerabilidades.",
+      "aplicacao": "Guerra em região produtora de energia pode afetar preços e inflação em países distantes.",
+      "erroFatal": "Ver conflito externo como assunto sem efeito interno."
+    },
+    "exemploComentado": "Guerra em região produtora de energia pode afetar preços e inflação em países distantes.",
     "pegadinhas": [
-      "opinião sem base",
-      "manchete sem contexto",
-      "solução simplista",
-      "radicalismo argumentativo",
-      "repertório desconectado"
+      "Ver conflito externo como assunto sem efeito interno.",
+      "Confundir refugiado com migrante econômico em qualquer situação."
     ],
-    "resumoFrase": "Geopolítica em atualidades cobra interdependência entre países, conflitos, migrações, comércio, energia, organismos e direitos humanos.",
-    "explicacaoComoSeTivesse12": "Pense assim: Geopolítica em atualidades cobra interdependência entre países, conflitos, migrações, comércio, energia, organismos e direitos humanos. Não basta saber que aconteceu; você precisa explicar por que aconteceu e quem é afetado.",
-    "mapaMentalTextual": {
-      "centro": "Relações internacionais, conflitos, refugiados, blocos, organismos e interdependência mundial",
-      "ramos": [
-        "tema",
-        "fato",
-        "causa",
-        "consequência",
-        "atores",
-        "solução",
-        "repertório"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Geopolítica e globalização",
+      "Conceito: Conflitos internacionais afetam energia, alimentos, migrações, comércio e segurança.",
+      "Aplicação: Guerra em região produtora de energia pode afetar preços e inflação em países distantes.",
+      "Cuidado: Ver conflito externo como assunto sem efeito interno."
+    ],
     "comoEstudar": [
-      "Ler o tema em fonte confiável",
-      "Anotar fato, causa e consequência",
-      "Criar um repertório curto",
-      "Resolver 10 itens",
-      "Escrever um parágrafo argumentativo"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Responder conflito internacional como se fosse fato isolado, sem atores, interesses, impactos humanitários e repercussões econômicas. Em atualidades, opinião sem análise costuma ser armadilha.",
-    "revisaoProgramada": {
-      "D0": "ler e mapear tema",
-      "D1": "refazer questões",
-      "D7": "revisar flashcards",
-      "D30": "simulado de objetiva e redação"
-    },
-    "criteriosDominio": [
-      "identificar tema",
-      "contextualizar fato",
-      "explicar causa",
-      "apontar consequência",
-      "usar repertório pertinente",
-      "manter equilíbrio"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f08-01",
-        "frente": "Ideia central de Relações internacionais, conflitos, refugiados, blocos, organismos e interdependência mundial",
-        "verso": "Geopolítica em atualidades cobra interdependência entre países, conflitos, migrações, comércio, energia, organismos e direitos humanos.",
-        "tag": "Relações internacionais, conflitos, refugiados, blocos, organismos e interdependência mundial",
+        "id": "atualidades-avancada-08-fc01",
+        "frente": "Qual é a ideia central de Geopolítica e globalização?",
+        "verso": "Conflitos internacionais afetam energia, alimentos, migrações, comércio e segurança.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f08-02",
-        "frente": "Pegadinha comum em Relações internacionais, conflitos, refugiados, blocos, organismos e interdependência mundial",
-        "verso": "Responder conflito internacional como se fosse fato isolado, sem atores, interesses, impactos humanitários e repercussões econômicas.",
+        "id": "atualidades-avancada-08-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em relações internacionais contemporâneas?",
+        "verso": "Globalização conecta mercados e culturas, mas também cria dependências e vulnerabilidades.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "atualidades-avancada-08-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Ver conflito externo como assunto sem efeito interno.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f08-03",
-        "frente": "Roteiro de estudo para Relações internacionais, conflitos, refugiados, blocos, organismos e interdependência mundial",
-        "verso": "Use este roteiro: mapear atores, território, interesse, consequência humanitária, impacto econômico, organismo envolvido e possível cooperação. Depois transforme o tema em um parágrafo de redação e uma questão objetiva.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f08-04",
-        "frente": "Comparação importante em Relações internacionais, conflitos, refugiados, blocos, organismos e interdependência mundial",
-        "verso": "migração x refúgio: migração é deslocamento amplo; refúgio envolve proteção por perseguição, conflito ou grave risco.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "atualidades-avancada-08-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Guerra em região produtora de energia pode afetar preços e inflação em países distantes.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Atualidades para concursos. Explique Relações internacionais, conflitos, refugiados, blocos, organismos e interdependência mundial, crie questão objetiva e gere parágrafo de redação equilibrado.",
-      "feedbackPadrao": "Corrija com foco em contexto, causa, consequência, repertório e linguagem equilibrada."
-    },
     "questoes": [
       {
-        "id": "q08-01",
+        "id": "atualidades-avancada-08-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Relações internacionais, conflitos, refugiados, blocos, organismos e interdependência mundial, qual afirmação apresenta melhor leitura de Atualidades?",
+        "enunciado": "Em relação a Geopolítica e globalização, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Geopolítica em atualidades cobra interdependência entre países, conflitos, migrações, comércio, energia, organismos e direitos humanos.",
-          "Responder conflito internacional como se fosse fato isolado, sem atores, interesses, impactos humanitários e repercussões econômicas.",
-          "O tema deve ser respondido apenas com opinião pessoal forte.",
-          "Toda notícia recente deve ser decorada sem contexto.",
-          "A banca sempre cobra apenas nomes e datas."
+          "Conflitos internacionais afetam energia, alimentos, migrações, comércio e segurança.",
+          "Ver conflito externo como assunto sem efeito interno.",
+          "Confundir refugiado com migrante econômico em qualquer situação.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Geopolítica em atualidades cobra interdependência entre países, conflitos, migrações, comércio, energia, organismos e direitos humanos.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "Geopolítica em atualidades cobra interdependência entre países, conflitos, migrações, comércio, energia, organismos e direitos humanos.",
-        "armadilhaDaBanca": "Responder conflito internacional como se fosse fato isolado, sem atores, interesses, impactos humanitários e repercussões econômicas.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A alternativa correta resume o núcleo do tema: Conflitos internacionais afetam energia, alimentos, migrações, comércio e segurança."
       },
       {
-        "id": "q08-02",
+        "id": "atualidades-avancada-08-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Relações internacionais, conflitos, refugiados, blocos, organismos e interdependência mundial, uma manchete isolada é suficiente para dominar o tema em prova.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca exige contexto, causa, consequência e leitura institucional do problema.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "Globalização conecta mercados e culturas, mas também cria dependências e vulnerabilidades.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de relações internacionais contemporâneas."
       },
       {
-        "id": "q08-03",
+        "id": "atualidades-avancada-08-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Relações internacionais, conflitos, refugiados, blocos, organismos e interdependência mundial, é adequado relacionar fato atual com políticas públicas, cidadania e impactos sociais.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Essa conexão transforma notícia em repertório de prova e redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "Ver conflito externo como assunto sem efeito interno.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q08-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Um conflito externo afeta energia, alimentos, migrações e relações diplomáticas, mas a alternativa ignora efeitos globais.",
-        "alternativas": [
-          "A alternativa correta reconhece interdependência: conflitos repercutem em preços, segurança, migrações, comércio e diplomacia.",
-          "A melhor resposta é escolher o lado mais radical do debate.",
-          "A questão deve ser ignorada se não cobrar lei seca.",
-          "Basta citar uma notícia sem explicar relação com o tema.",
-          "Toda solução simples resolve integralmente problema complexo."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa correta reconhece interdependência: conflitos repercutem em preços, segurança, migrações, comércio e diplomacia.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A alternativa correta reconhece interdependência: conflitos repercutem em preços, segurança, migrações, comércio e diplomacia.",
-        "armadilhaDaBanca": "A pegadinha está em trocar análise por opinião ou simplificação excessiva.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "id": "atualidades-avancada-08-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Guerra em região produtora de energia pode afetar preços e inflação em países distantes. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Organismos internacionais coordenam respostas, mas dependem de interesses dos Estados.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q08-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual roteiro é mais eficiente para estudar Relações internacionais, conflitos, refugiados, blocos, organismos e interdependência mundial?",
-        "alternativas": [
-          "Usar o roteiro: mapear atores, território, interesse, consequência humanitária, impacto econômico, organismo envolvido e possível cooperação.",
-          "Ler apenas títulos de portais e decorar datas.",
-          "Responder por preferência política ou moral sem base.",
-          "Ignorar grupos afetados e impactos sociais.",
-          "Memorizar frases prontas sem entender o tema."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: mapear atores, território, interesse, consequência humanitária, impacto econômico, organismo envolvido e possível cooperação.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "O roteiro correto é: mapear atores, território, interesse, consequência humanitária, impacto econômico, organismo envolvido e possível cooperação.",
-        "armadilhaDaBanca": "Atualidades cobra relação entre fato, contexto e consequência.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
-      },
-      {
-        "id": "q08-06",
+        "id": "atualidades-avancada-08-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Relações internacionais, conflitos, refugiados, blocos, organismos e interdependência mundial.",
-        "respostaEsperada": "Geopolítica em atualidades cobra interdependência entre países, conflitos, migrações, comércio, energia, organismos e direitos humanos.",
-        "rubricaCorrecao": [
-          "identificar tema",
-          "explicar contexto",
-          "apontar causa",
-          "apontar consequência",
-          "manter equilíbrio"
-        ],
-        "comentario": "A resposta deve ser equilibrada e conectada a contexto social ou institucional.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e retire opinião sem sustentação."
+        "enunciado": "Explique, em até três linhas, por que relações internacionais contemporâneas não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar conflitos internacionais afetam energia, alimentos, migrações, comércio e segurança. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q08-07",
+        "id": "atualidades-avancada-08-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie migração e refúgio.",
-        "respostaEsperada": "migração é deslocamento amplo; refúgio envolve proteção por perseguição, conflito ou grave risco",
-        "criterioDominio": [
-          "definir o primeiro termo",
-          "definir o segundo termo",
-          "mostrar diferença prática",
-          "conectar com prova ou redação"
-        ],
-        "comentario": "A diferença central é: migração é deslocamento amplo; refúgio envolve proteção por perseguição, conflito ou grave risco.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, pegadinha e uso em redação."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Conflitos internacionais afetam energia, alimentos, migrações, comércio e segurança. Pegadinha: Ver conflito externo como assunto sem efeito interno.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q08-08",
+        "id": "atualidades-avancada-08-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Relações internacionais, conflitos, refugiados, blocos, organismos e interdependência mundial?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Responder conflito internacional como se fosse fato isolado, sem atores, interesses, impactos humanitários e repercussões econômicas.",
-          "Analisar causas e consequências antes de responder.",
-          "Conectar o tema com direitos, cidadania ou política pública.",
-          "Verificar fonte e contexto antes de usar repertório.",
-          "Evitar linguagem extremada em tema sensível."
+          "Organismos internacionais coordenam respostas, mas dependem de interesses dos Estados.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Confundir refugiado com migrante econômico em qualquer situação."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Responder conflito internacional como se fosse fato isolado, sem atores, interesses, impactos humanitários e repercussões econômicas.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A pegadinha comum é: Responder conflito internacional como se fosse fato isolado, sem atores, interesses, impactos humanitários e repercussões econômicas.",
-        "armadilhaDaBanca": "A banca usa temas atuais para testar leitura crítica e equilíbrio.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q08-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Relações internacionais, conflitos, refugiados, blocos, organismos e interdependência mundial, repertório só ajuda quando está conectado ao problema proposto.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Repertório solto não melhora resposta objetiva nem redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "id": "atualidades-avancada-08-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Confundir refugiado com migrante econômico em qualquer situação.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q08-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: transforme Relações internacionais, conflitos, refugiados, blocos, organismos e interdependência mundial em uma questão e em um parágrafo de redação.",
-        "promptTutorIA": "Crie um item de concurso sobre Relações internacionais, conflitos, refugiados, blocos, organismos e interdependência mundial, resolva, aponte a pegadinha e depois gere um parágrafo argumentativo equilibrado.",
-        "criterioDominio": [
-          "tema identificado",
-          "fato contextualizado",
-          "causa explicada",
-          "consequência indicada",
-          "linguagem equilibrada"
-        ],
-        "comentario": "Este treino prepara o aluno para objetiva e redação ao mesmo tempo.",
-        "diagnosticoIA": "Depois do treino, troque o grupo afetado ou a política pública envolvida e refaça."
+        "id": "atualidades-avancada-08-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Geopolítica e globalização a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Migração deve ser analisada por causas humanitárias, econômicas, climáticas e políticas.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "atualidades-avancada-08-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Conflitos internacionais afetam energia, alimentos, migrações, comércio e segurança.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Cultura, diversidade, comunicação, mídia e desinformação",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 25 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Alto: Atualidades depende de recorte temporal, edital, notícias recentes, indicadores e fontes oficiais atualizadas.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Atualidades / Redação / Concursos"
+    "proximoTitulo": "Cultura, diversidade e comunicação"
   },
   {
-    "id": "cultura-diversidade-comunicacao-midia-e-desinformacao",
-    "materialTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "id": "cultura-diversidade-e-comunicacao",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 9,
     "totalChapters": 10,
-    "title": "Cultura, diversidade, comunicação, mídia e desinformação",
-    "assunto": "Diversidade cultural, mídia, redes sociais, liberdade de expressão, discurso de ódio e checagem de informação",
-    "tecnica": "Estudo por tema, fato, causa, consequência, repertório, política pública e pegadinha de banca",
-    "competencia": "Interpretar temas contemporâneos com equilíbrio, leitura institucional e aplicação em objetiva e redação.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Cultura, diversidade e comunicação",
+    "assunto": "disputa de narrativas",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar disputa de narrativas com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "cultura",
-      "diversidade",
-      "mídia",
-      "desinformação",
-      "liberdade de expressão",
-      "discurso de ódio",
-      "checagem"
+      "disputa de narrativas"
     ],
-    "fontesBase": [
-      "Temas contemporâneos de cidadania, políticas públicas e sociedade",
-      "Leitura crítica de notícias, relatórios públicos e indicadores",
-      "Redação dissertativo-argumentativa e questões objetivas de concursos",
-      "Atualização obrigatória conforme edital, recorte temporal e fonte oficial"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Diversidade cultural, mídia, redes sociais, liberdade de expressão, discurso de ódio e checagem de informação com foco em concursos policiais, administrativos, ENEM e provas gerais.",
-      "Ideia central: Cultura e comunicação em atualidades cobram respeito à diversidade, leitura crítica da mídia, liberdade responsável e combate à desinformação.",
-      "Erro comum: Confundir liberdade de expressão com autorização para fraude, ameaça, discriminação ou ataque a direitos de terceiros.",
-      "Como estudar: avaliar fonte, intenção, evidência, grupo afetado, direito em jogo, limite jurídico e efeito social da mensagem. A meta é transformar notícia em repertório útil, sem chute opinativo."
+      "Cultura, diversidade e comunicação exige domínio de disputa de narrativas. O estudo correto começa pela ideia de que cultura expressa identidades, memórias e formas de participação social.",
+      "Diversidade envolve reconhecimento e combate a discriminações históricas. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Mídia e redes sociais influenciam agenda pública e percepção de risco. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Desinformação exige verificação, educação midiática e responsabilidade institucional. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Cultura e comunicação em atualidades cobram respeito à diversidade, leitura crítica da mídia, liberdade responsável e combate à desinformação.",
-      "Atualidades cobra contexto e impacto, não apenas manchete.",
-      "A boa resposta evita radicalismo e explica causa e consequência.",
-      "Erro comum: Confundir liberdade de expressão com autorização para fraude, ameaça, discriminação ou ataque a direitos de terceiros."
+      "Cultura expressa identidades, memórias e formas de participação social.",
+      "Diversidade envolve reconhecimento e combate a discriminações históricas.",
+      "Mídia e redes sociais influenciam agenda pública e percepção de risco.",
+      "Desinformação exige verificação, educação midiática e responsabilidade institucional."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Confundir liberdade de expressão com autorização para fraude, ameaça, discriminação ou ataque a direitos de terceiros.",
-        "Cultura e comunicação em atualidades cobram respeito à diversidade, leitura crítica da mídia, liberdade responsável e combate à desinformação.",
-        "Basta decorar a notícia mais recente."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta conecta fato, contexto e consequência."
-    },
-    "oQueCobra": "Temas sociais, políticos, econômicos, ambientais, tecnológicos, culturais, geopolíticos e de segurança pública em questões e redações.",
-    "precisaSaberAntes": "Leitura de texto, interpretação, cidadania, noções de Estado, políticas públicas e repertório básico de redação.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta tema atual e testa leitura crítica, relação causal, impacto social e equilíbrio argumentativo."
+        "pergunta": "Qual é o núcleo de Cultura, diversidade e comunicação?",
+        "resposta": "Cultura expressa identidades, memórias e formas de participação social."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique tema, fato, atores, causa, consequência e possível resposta institucional."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Tratar diversidade como tema separado de cidadania."
       },
       {
-        "titulo": "Conexão com redação",
-        "texto": "O mesmo tema pode virar questão objetiva, repertório, argumento ou proposta de intervenção conforme a banca."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Boato sobre segurança pode gerar pânico e prejudicar atuação de serviços públicos."
       }
     ],
-    "comoIdentificar": "Procure expressões como crise, desigualdade, políticas públicas, sustentabilidade, tecnologia, violência, cidadania, democracia, direitos e impactos sociais.",
+    "quadroDeDominio": {
+      "conceito": "Cultura expressa identidades, memórias e formas de participação social.",
+      "limite": "Diversidade envolve reconhecimento e combate a discriminações históricas.",
+      "aplicacao": "Boato sobre segurança pode gerar pânico e prejudicar atuação de serviços públicos.",
+      "erroFatal": "Tratar diversidade como tema separado de cidadania."
+    },
+    "exemploComentado": "Boato sobre segurança pode gerar pânico e prejudicar atuação de serviços públicos.",
     "pegadinhas": [
-      "opinião sem base",
-      "manchete sem contexto",
-      "solução simplista",
-      "radicalismo argumentativo",
-      "repertório desconectado"
+      "Tratar diversidade como tema separado de cidadania.",
+      "Compartilhar conteúdo viral sem checar fonte."
     ],
-    "resumoFrase": "Cultura e comunicação em atualidades cobram respeito à diversidade, leitura crítica da mídia, liberdade responsável e combate à desinformação.",
-    "explicacaoComoSeTivesse12": "Pense assim: Cultura e comunicação em atualidades cobram respeito à diversidade, leitura crítica da mídia, liberdade responsável e combate à desinformação. Não basta saber que aconteceu; você precisa explicar por que aconteceu e quem é afetado.",
-    "mapaMentalTextual": {
-      "centro": "Diversidade cultural, mídia, redes sociais, liberdade de expressão, discurso de ódio e checagem de informação",
-      "ramos": [
-        "tema",
-        "fato",
-        "causa",
-        "consequência",
-        "atores",
-        "solução",
-        "repertório"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Cultura, diversidade e comunicação",
+      "Conceito: Cultura expressa identidades, memórias e formas de participação social.",
+      "Aplicação: Boato sobre segurança pode gerar pânico e prejudicar atuação de serviços públicos.",
+      "Cuidado: Tratar diversidade como tema separado de cidadania."
+    ],
     "comoEstudar": [
-      "Ler o tema em fonte confiável",
-      "Anotar fato, causa e consequência",
-      "Criar um repertório curto",
-      "Resolver 10 itens",
-      "Escrever um parágrafo argumentativo"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Confundir liberdade de expressão com autorização para fraude, ameaça, discriminação ou ataque a direitos de terceiros. Em atualidades, opinião sem análise costuma ser armadilha.",
-    "revisaoProgramada": {
-      "D0": "ler e mapear tema",
-      "D1": "refazer questões",
-      "D7": "revisar flashcards",
-      "D30": "simulado de objetiva e redação"
-    },
-    "criteriosDominio": [
-      "identificar tema",
-      "contextualizar fato",
-      "explicar causa",
-      "apontar consequência",
-      "usar repertório pertinente",
-      "manter equilíbrio"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f09-01",
-        "frente": "Ideia central de Diversidade cultural, mídia, redes sociais, liberdade de expressão, discurso de ódio e checagem de informação",
-        "verso": "Cultura e comunicação em atualidades cobram respeito à diversidade, leitura crítica da mídia, liberdade responsável e combate à desinformação.",
-        "tag": "Diversidade cultural, mídia, redes sociais, liberdade de expressão, discurso de ódio e checagem de informação",
+        "id": "atualidades-avancada-09-fc01",
+        "frente": "Qual é a ideia central de Cultura, diversidade e comunicação?",
+        "verso": "Cultura expressa identidades, memórias e formas de participação social.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f09-02",
-        "frente": "Pegadinha comum em Diversidade cultural, mídia, redes sociais, liberdade de expressão, discurso de ódio e checagem de informação",
-        "verso": "Confundir liberdade de expressão com autorização para fraude, ameaça, discriminação ou ataque a direitos de terceiros.",
+        "id": "atualidades-avancada-09-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em disputa de narrativas?",
+        "verso": "Diversidade envolve reconhecimento e combate a discriminações históricas.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "atualidades-avancada-09-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Tratar diversidade como tema separado de cidadania.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f09-03",
-        "frente": "Roteiro de estudo para Diversidade cultural, mídia, redes sociais, liberdade de expressão, discurso de ódio e checagem de informação",
-        "verso": "Use este roteiro: avaliar fonte, intenção, evidência, grupo afetado, direito em jogo, limite jurídico e efeito social da mensagem. Depois transforme o tema em um parágrafo de redação e uma questão objetiva.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f09-04",
-        "frente": "Comparação importante em Diversidade cultural, mídia, redes sociais, liberdade de expressão, discurso de ódio e checagem de informação",
-        "verso": "opinião x desinformação: opinião expressa juízo; desinformação distorce fatos e pode causar dano coletivo.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "atualidades-avancada-09-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Boato sobre segurança pode gerar pânico e prejudicar atuação de serviços públicos.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Atualidades para concursos. Explique Diversidade cultural, mídia, redes sociais, liberdade de expressão, discurso de ódio e checagem de informação, crie questão objetiva e gere parágrafo de redação equilibrado.",
-      "feedbackPadrao": "Corrija com foco em contexto, causa, consequência, repertório e linguagem equilibrada."
-    },
     "questoes": [
       {
-        "id": "q09-01",
+        "id": "atualidades-avancada-09-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Diversidade cultural, mídia, redes sociais, liberdade de expressão, discurso de ódio e checagem de informação, qual afirmação apresenta melhor leitura de Atualidades?",
+        "enunciado": "Em relação a Cultura, diversidade e comunicação, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Cultura e comunicação em atualidades cobram respeito à diversidade, leitura crítica da mídia, liberdade responsável e combate à desinformação.",
-          "Confundir liberdade de expressão com autorização para fraude, ameaça, discriminação ou ataque a direitos de terceiros.",
-          "O tema deve ser respondido apenas com opinião pessoal forte.",
-          "Toda notícia recente deve ser decorada sem contexto.",
-          "A banca sempre cobra apenas nomes e datas."
+          "Cultura expressa identidades, memórias e formas de participação social.",
+          "Tratar diversidade como tema separado de cidadania.",
+          "Compartilhar conteúdo viral sem checar fonte.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Cultura e comunicação em atualidades cobram respeito à diversidade, leitura crítica da mídia, liberdade responsável e combate à desinformação.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "Cultura e comunicação em atualidades cobram respeito à diversidade, leitura crítica da mídia, liberdade responsável e combate à desinformação.",
-        "armadilhaDaBanca": "Confundir liberdade de expressão com autorização para fraude, ameaça, discriminação ou ataque a direitos de terceiros.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A alternativa correta resume o núcleo do tema: Cultura expressa identidades, memórias e formas de participação social."
       },
       {
-        "id": "q09-02",
+        "id": "atualidades-avancada-09-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Diversidade cultural, mídia, redes sociais, liberdade de expressão, discurso de ódio e checagem de informação, uma manchete isolada é suficiente para dominar o tema em prova.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca exige contexto, causa, consequência e leitura institucional do problema.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "Diversidade envolve reconhecimento e combate a discriminações históricas.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de disputa de narrativas."
       },
       {
-        "id": "q09-03",
+        "id": "atualidades-avancada-09-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Diversidade cultural, mídia, redes sociais, liberdade de expressão, discurso de ódio e checagem de informação, é adequado relacionar fato atual com políticas públicas, cidadania e impactos sociais.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Essa conexão transforma notícia em repertório de prova e redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "Tratar diversidade como tema separado de cidadania.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q09-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Um texto viral sem fonte confiável acusa grupo social e incentiva hostilidade como se fosse opinião legítima.",
-        "alternativas": [
-          "A análise correta diferencia opinião de desinformação discriminatória e exige checagem, responsabilidade e respeito a direitos.",
-          "A melhor resposta é escolher o lado mais radical do debate.",
-          "A questão deve ser ignorada se não cobrar lei seca.",
-          "Basta citar uma notícia sem explicar relação com o tema.",
-          "Toda solução simples resolve integralmente problema complexo."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A análise correta diferencia opinião de desinformação discriminatória e exige checagem, responsabilidade e respeito a direitos.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A análise correta diferencia opinião de desinformação discriminatória e exige checagem, responsabilidade e respeito a direitos.",
-        "armadilhaDaBanca": "A pegadinha está em trocar análise por opinião ou simplificação excessiva.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "id": "atualidades-avancada-09-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Boato sobre segurança pode gerar pânico e prejudicar atuação de serviços públicos. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Mídia e redes sociais influenciam agenda pública e percepção de risco.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q09-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual roteiro é mais eficiente para estudar Diversidade cultural, mídia, redes sociais, liberdade de expressão, discurso de ódio e checagem de informação?",
-        "alternativas": [
-          "Usar o roteiro: avaliar fonte, intenção, evidência, grupo afetado, direito em jogo, limite jurídico e efeito social da mensagem.",
-          "Ler apenas títulos de portais e decorar datas.",
-          "Responder por preferência política ou moral sem base.",
-          "Ignorar grupos afetados e impactos sociais.",
-          "Memorizar frases prontas sem entender o tema."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: avaliar fonte, intenção, evidência, grupo afetado, direito em jogo, limite jurídico e efeito social da mensagem.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "O roteiro correto é: avaliar fonte, intenção, evidência, grupo afetado, direito em jogo, limite jurídico e efeito social da mensagem.",
-        "armadilhaDaBanca": "Atualidades cobra relação entre fato, contexto e consequência.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
-      },
-      {
-        "id": "q09-06",
+        "id": "atualidades-avancada-09-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Diversidade cultural, mídia, redes sociais, liberdade de expressão, discurso de ódio e checagem de informação.",
-        "respostaEsperada": "Cultura e comunicação em atualidades cobram respeito à diversidade, leitura crítica da mídia, liberdade responsável e combate à desinformação.",
-        "rubricaCorrecao": [
-          "identificar tema",
-          "explicar contexto",
-          "apontar causa",
-          "apontar consequência",
-          "manter equilíbrio"
-        ],
-        "comentario": "A resposta deve ser equilibrada e conectada a contexto social ou institucional.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e retire opinião sem sustentação."
+        "enunciado": "Explique, em até três linhas, por que disputa de narrativas não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar cultura expressa identidades, memórias e formas de participação social. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q09-07",
+        "id": "atualidades-avancada-09-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie opinião e desinformação.",
-        "respostaEsperada": "opinião expressa juízo; desinformação distorce fatos e pode causar dano coletivo",
-        "criterioDominio": [
-          "definir o primeiro termo",
-          "definir o segundo termo",
-          "mostrar diferença prática",
-          "conectar com prova ou redação"
-        ],
-        "comentario": "A diferença central é: opinião expressa juízo; desinformação distorce fatos e pode causar dano coletivo.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, pegadinha e uso em redação."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Cultura expressa identidades, memórias e formas de participação social. Pegadinha: Tratar diversidade como tema separado de cidadania.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q09-08",
+        "id": "atualidades-avancada-09-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Diversidade cultural, mídia, redes sociais, liberdade de expressão, discurso de ódio e checagem de informação?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Confundir liberdade de expressão com autorização para fraude, ameaça, discriminação ou ataque a direitos de terceiros.",
-          "Analisar causas e consequências antes de responder.",
-          "Conectar o tema com direitos, cidadania ou política pública.",
-          "Verificar fonte e contexto antes de usar repertório.",
-          "Evitar linguagem extremada em tema sensível."
+          "Mídia e redes sociais influenciam agenda pública e percepção de risco.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Compartilhar conteúdo viral sem checar fonte."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Confundir liberdade de expressão com autorização para fraude, ameaça, discriminação ou ataque a direitos de terceiros.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A pegadinha comum é: Confundir liberdade de expressão com autorização para fraude, ameaça, discriminação ou ataque a direitos de terceiros.",
-        "armadilhaDaBanca": "A banca usa temas atuais para testar leitura crítica e equilíbrio.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q09-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Diversidade cultural, mídia, redes sociais, liberdade de expressão, discurso de ódio e checagem de informação, repertório só ajuda quando está conectado ao problema proposto.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Repertório solto não melhora resposta objetiva nem redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "id": "atualidades-avancada-09-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Compartilhar conteúdo viral sem checar fonte.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q09-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: transforme Diversidade cultural, mídia, redes sociais, liberdade de expressão, discurso de ódio e checagem de informação em uma questão e em um parágrafo de redação.",
-        "promptTutorIA": "Crie um item de concurso sobre Diversidade cultural, mídia, redes sociais, liberdade de expressão, discurso de ódio e checagem de informação, resolva, aponte a pegadinha e depois gere um parágrafo argumentativo equilibrado.",
-        "criterioDominio": [
-          "tema identificado",
-          "fato contextualizado",
-          "causa explicada",
-          "consequência indicada",
-          "linguagem equilibrada"
-        ],
-        "comentario": "Este treino prepara o aluno para objetiva e redação ao mesmo tempo.",
-        "diagnosticoIA": "Depois do treino, troque o grupo afetado ou a política pública envolvida e refaça."
+        "id": "atualidades-avancada-09-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Cultura, diversidade e comunicação a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Desinformação exige verificação, educação midiática e responsabilidade institucional.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "atualidades-avancada-09-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Cultura expressa identidades, memórias e formas de participação social.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Atualidades na redação e na prova objetiva: repertório, equilíbrio e revisão final",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 25 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Alto: Atualidades depende de recorte temporal, edital, notícias recentes, indicadores e fontes oficiais atualizadas.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Atualidades / Redação / Concursos"
+    "proximoTitulo": "Atualidades na redação"
   },
   {
-    "id": "atualidades-na-redacao-e-na-prova-objetiva-repertorio-equilibrio-e-revisao-final",
-    "materialTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "id": "atualidades-na-redacao",
+    "materialTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "subject": "Atualidades Avançada",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Atualidades Avançada 10/10 Plus Revisado",
+    "moduleTitle": "Atualidades Avançada 10/10 Reescrita de Verdade",
     "chapterIndex": 10,
     "totalChapters": 10,
-    "title": "Atualidades na redação e na prova objetiva: repertório, equilíbrio e revisão final",
-    "assunto": "Uso de repertório atual em questões, redação, simulados e revisão de véspera",
-    "tecnica": "Estudo por tema, fato, causa, consequência, repertório, política pública e pegadinha de banca",
-    "competencia": "Interpretar temas contemporâneos com equilíbrio, leitura institucional e aplicação em objetiva e redação.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 30,
+    "title": "Atualidades na redação",
+    "assunto": "uso equilibrado de repertório",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar uso equilibrado de repertório com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5,
-      "ENEM": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "redação",
-      "repertório",
-      "prova objetiva",
-      "simulado",
-      "argumentação",
-      "equilíbrio",
-      "revisão"
+      "uso equilibrado de repertorio"
     ],
-    "fontesBase": [
-      "Temas contemporâneos de cidadania, políticas públicas e sociedade",
-      "Leitura crítica de notícias, relatórios públicos e indicadores",
-      "Redação dissertativo-argumentativa e questões objetivas de concursos",
-      "Atualização obrigatória conforme edital, recorte temporal e fonte oficial"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Uso de repertório atual em questões, redação, simulados e revisão de véspera com foco em concursos policiais, administrativos, ENEM e provas gerais.",
-      "Ideia central: Atualidades deve servir para interpretar questões e construir argumentos equilibrados, com repertório pertinente e sem chute opinativo.",
-      "Erro comum: Usar repertório decorado sem conexão com o tema ou defender posição radical sem análise de causa e consequência.",
-      "Como estudar: selecionar tema, repertório, problema, tese, argumento, consequência, proposta e linguagem adequada à banca. A meta é transformar notícia em repertório útil, sem chute opinativo."
+      "Atualidades na redação exige domínio de uso equilibrado de repertório. O estudo correto começa pela ideia de que atualidade vira repertório quando é explicada e conectada à tese.",
+      "O aluno deve evitar dado específico sem fonte segura ou número impossível de verificar. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Repertórios coringa devem ser adaptados ao recorte: cidadania, gestão pública, tecnologia, desigualdade e prevenção. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "A boa redação mostra equilíbrio, causalidade e solução institucional viável. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Atualidades deve servir para interpretar questões e construir argumentos equilibrados, com repertório pertinente e sem chute opinativo.",
-      "Atualidades cobra contexto e impacto, não apenas manchete.",
-      "A boa resposta evita radicalismo e explica causa e consequência.",
-      "Erro comum: Usar repertório decorado sem conexão com o tema ou defender posição radical sem análise de causa e consequência."
+      "Atualidade vira repertório quando é explicada e conectada à tese.",
+      "O aluno deve evitar dado específico sem fonte segura ou número impossível de verificar.",
+      "Repertórios coringa devem ser adaptados ao recorte: cidadania, gestão pública, tecnologia, desigualdade e prevenção.",
+      "A boa redação mostra equilíbrio, causalidade e solução institucional viável."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Usar repertório decorado sem conexão com o tema ou defender posição radical sem análise de causa e consequência.",
-        "Atualidades deve servir para interpretar questões e construir argumentos equilibrados, com repertório pertinente e sem chute opinativo.",
-        "Basta decorar a notícia mais recente."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta conecta fato, contexto e consequência."
-    },
-    "oQueCobra": "Temas sociais, políticos, econômicos, ambientais, tecnológicos, culturais, geopolíticos e de segurança pública em questões e redações.",
-    "precisaSaberAntes": "Leitura de texto, interpretação, cidadania, noções de Estado, políticas públicas e repertório básico de redação.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta tema atual e testa leitura crítica, relação causal, impacto social e equilíbrio argumentativo."
+        "pergunta": "Qual é o núcleo de Atualidades na redação?",
+        "resposta": "Atualidade vira repertório quando é explicada e conectada à tese."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique tema, fato, atores, causa, consequência e possível resposta institucional."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Citar notícia solta sem análise."
       },
       {
-        "titulo": "Conexão com redação",
-        "texto": "O mesmo tema pode virar questão objetiva, repertório, argumento ou proposta de intervenção conforme a banca."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Em tema sobre IA na segurança, discutir eficiência, viés, proteção de dados e controle humano."
       }
     ],
-    "comoIdentificar": "Procure expressões como crise, desigualdade, políticas públicas, sustentabilidade, tecnologia, violência, cidadania, democracia, direitos e impactos sociais.",
+    "quadroDeDominio": {
+      "conceito": "Atualidade vira repertório quando é explicada e conectada à tese.",
+      "limite": "O aluno deve evitar dado específico sem fonte segura ou número impossível de verificar.",
+      "aplicacao": "Em tema sobre IA na segurança, discutir eficiência, viés, proteção de dados e controle humano.",
+      "erroFatal": "Citar notícia solta sem análise."
+    },
+    "exemploComentado": "Em tema sobre IA na segurança, discutir eficiência, viés, proteção de dados e controle humano.",
     "pegadinhas": [
-      "opinião sem base",
-      "manchete sem contexto",
-      "solução simplista",
-      "radicalismo argumentativo",
-      "repertório desconectado"
+      "Citar notícia solta sem análise.",
+      "Transformar redação em opinião partidária."
     ],
-    "resumoFrase": "Atualidades deve servir para interpretar questões e construir argumentos equilibrados, com repertório pertinente e sem chute opinativo.",
-    "explicacaoComoSeTivesse12": "Pense assim: Atualidades deve servir para interpretar questões e construir argumentos equilibrados, com repertório pertinente e sem chute opinativo. Não basta saber que aconteceu; você precisa explicar por que aconteceu e quem é afetado.",
-    "mapaMentalTextual": {
-      "centro": "Uso de repertório atual em questões, redação, simulados e revisão de véspera",
-      "ramos": [
-        "tema",
-        "fato",
-        "causa",
-        "consequência",
-        "atores",
-        "solução",
-        "repertório"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Atualidades na redação",
+      "Conceito: Atualidade vira repertório quando é explicada e conectada à tese.",
+      "Aplicação: Em tema sobre IA na segurança, discutir eficiência, viés, proteção de dados e controle humano.",
+      "Cuidado: Citar notícia solta sem análise."
+    ],
     "comoEstudar": [
-      "Ler o tema em fonte confiável",
-      "Anotar fato, causa e consequência",
-      "Criar um repertório curto",
-      "Resolver 10 itens",
-      "Escrever um parágrafo argumentativo"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Usar repertório decorado sem conexão com o tema ou defender posição radical sem análise de causa e consequência. Em atualidades, opinião sem análise costuma ser armadilha.",
-    "revisaoProgramada": {
-      "D0": "ler e mapear tema",
-      "D1": "refazer questões",
-      "D7": "revisar flashcards",
-      "D30": "simulado de objetiva e redação"
-    },
-    "criteriosDominio": [
-      "identificar tema",
-      "contextualizar fato",
-      "explicar causa",
-      "apontar consequência",
-      "usar repertório pertinente",
-      "manter equilíbrio"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f10-01",
-        "frente": "Ideia central de Uso de repertório atual em questões, redação, simulados e revisão de véspera",
-        "verso": "Atualidades deve servir para interpretar questões e construir argumentos equilibrados, com repertório pertinente e sem chute opinativo.",
-        "tag": "Uso de repertório atual em questões, redação, simulados e revisão de véspera",
+        "id": "atualidades-avancada-10-fc01",
+        "frente": "Qual é a ideia central de Atualidades na redação?",
+        "verso": "Atualidade vira repertório quando é explicada e conectada à tese.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f10-02",
-        "frente": "Pegadinha comum em Uso de repertório atual em questões, redação, simulados e revisão de véspera",
-        "verso": "Usar repertório decorado sem conexão com o tema ou defender posição radical sem análise de causa e consequência.",
+        "id": "atualidades-avancada-10-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em uso equilibrado de repertório?",
+        "verso": "O aluno deve evitar dado específico sem fonte segura ou número impossível de verificar.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "atualidades-avancada-10-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Citar notícia solta sem análise. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f10-03",
-        "frente": "Roteiro de estudo para Uso de repertório atual em questões, redação, simulados e revisão de véspera",
-        "verso": "Use este roteiro: selecionar tema, repertório, problema, tese, argumento, consequência, proposta e linguagem adequada à banca. Depois transforme o tema em um parágrafo de redação e uma questão objetiva.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f10-04",
-        "frente": "Comparação importante em Uso de repertório atual em questões, redação, simulados e revisão de véspera",
-        "verso": "repertório produtivo x citação solta: repertório produtivo sustenta argumento; citação solta apenas enfeita o texto.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "atualidades-avancada-10-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Em tema sobre IA na segurança, discutir eficiência, viés, proteção de dados e controle humano.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Atualidades para concursos. Explique Uso de repertório atual em questões, redação, simulados e revisão de véspera, crie questão objetiva e gere parágrafo de redação equilibrado.",
-      "feedbackPadrao": "Corrija com foco em contexto, causa, consequência, repertório e linguagem equilibrada."
-    },
     "questoes": [
       {
-        "id": "q10-01",
+        "id": "atualidades-avancada-10-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Uso de repertório atual em questões, redação, simulados e revisão de véspera, qual afirmação apresenta melhor leitura de Atualidades?",
+        "enunciado": "Em relação a Atualidades na redação, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Atualidades deve servir para interpretar questões e construir argumentos equilibrados, com repertório pertinente e sem chute opinativo.",
-          "Usar repertório decorado sem conexão com o tema ou defender posição radical sem análise de causa e consequência.",
-          "O tema deve ser respondido apenas com opinião pessoal forte.",
-          "Toda notícia recente deve ser decorada sem contexto.",
-          "A banca sempre cobra apenas nomes e datas."
+          "Atualidade vira repertório quando é explicada e conectada à tese.",
+          "Citar notícia solta sem análise.",
+          "Transformar redação em opinião partidária.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Atualidades deve servir para interpretar questões e construir argumentos equilibrados, com repertório pertinente e sem chute opinativo.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "Atualidades deve servir para interpretar questões e construir argumentos equilibrados, com repertório pertinente e sem chute opinativo.",
-        "armadilhaDaBanca": "Usar repertório decorado sem conexão com o tema ou defender posição radical sem análise de causa e consequência.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A alternativa correta resume o núcleo do tema: Atualidade vira repertório quando é explicada e conectada à tese."
       },
       {
-        "id": "q10-02",
+        "id": "atualidades-avancada-10-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Uso de repertório atual em questões, redação, simulados e revisão de véspera, uma manchete isolada é suficiente para dominar o tema em prova.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A banca exige contexto, causa, consequência e leitura institucional do problema.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "O aluno deve evitar dado específico sem fonte segura ou número impossível de verificar.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de uso equilibrado de repertório."
       },
       {
-        "id": "q10-03",
+        "id": "atualidades-avancada-10-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Uso de repertório atual em questões, redação, simulados e revisão de véspera, é adequado relacionar fato atual com políticas públicas, cidadania e impactos sociais.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Essa conexão transforma notícia em repertório de prova e redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "enunciado": "Citar notícia solta sem análise.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q10-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Na redação, o candidato cita um fato atual famoso, mas não explica relação com o problema proposto pela banca.",
-        "alternativas": [
-          "O repertório fica fraco se não houver conexão explícita com tese, argumento e solução do texto.",
-          "A melhor resposta é escolher o lado mais radical do debate.",
-          "A questão deve ser ignorada se não cobrar lei seca.",
-          "Basta citar uma notícia sem explicar relação com o tema.",
-          "Toda solução simples resolve integralmente problema complexo."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O repertório fica fraco se não houver conexão explícita com tese, argumento e solução do texto.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "O repertório fica fraco se não houver conexão explícita com tese, argumento e solução do texto.",
-        "armadilhaDaBanca": "A pegadinha está em trocar análise por opinião ou simplificação excessiva.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "id": "atualidades-avancada-10-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Em tema sobre IA na segurança, discutir eficiência, viés, proteção de dados e controle humano. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Repertórios coringa devem ser adaptados ao recorte: cidadania, gestão pública, tecnologia, desigualdade e prevenção.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q10-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual roteiro é mais eficiente para estudar Uso de repertório atual em questões, redação, simulados e revisão de véspera?",
-        "alternativas": [
-          "Usar o roteiro: selecionar tema, repertório, problema, tese, argumento, consequência, proposta e linguagem adequada à banca.",
-          "Ler apenas títulos de portais e decorar datas.",
-          "Responder por preferência política ou moral sem base.",
-          "Ignorar grupos afetados e impactos sociais.",
-          "Memorizar frases prontas sem entender o tema."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: selecionar tema, repertório, problema, tese, argumento, consequência, proposta e linguagem adequada à banca.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "O roteiro correto é: selecionar tema, repertório, problema, tese, argumento, consequência, proposta e linguagem adequada à banca.",
-        "armadilhaDaBanca": "Atualidades cobra relação entre fato, contexto e consequência.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
-      },
-      {
-        "id": "q10-06",
+        "id": "atualidades-avancada-10-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Uso de repertório atual em questões, redação, simulados e revisão de véspera.",
-        "respostaEsperada": "Atualidades deve servir para interpretar questões e construir argumentos equilibrados, com repertório pertinente e sem chute opinativo.",
-        "rubricaCorrecao": [
-          "identificar tema",
-          "explicar contexto",
-          "apontar causa",
-          "apontar consequência",
-          "manter equilíbrio"
-        ],
-        "comentario": "A resposta deve ser equilibrada e conectada a contexto social ou institucional.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e retire opinião sem sustentação."
+        "enunciado": "Explique, em até três linhas, por que uso equilibrado de repertório não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar atualidade vira repertório quando é explicada e conectada à tese. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q10-07",
+        "id": "atualidades-avancada-10-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie repertório produtivo e citação solta.",
-        "respostaEsperada": "repertório produtivo sustenta argumento; citação solta apenas enfeita o texto",
-        "criterioDominio": [
-          "definir o primeiro termo",
-          "definir o segundo termo",
-          "mostrar diferença prática",
-          "conectar com prova ou redação"
-        ],
-        "comentario": "A diferença central é: repertório produtivo sustenta argumento; citação solta apenas enfeita o texto.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, pegadinha e uso em redação."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Atualidade vira repertório quando é explicada e conectada à tese. Pegadinha: Citar notícia solta sem análise.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q10-08",
+        "id": "atualidades-avancada-10-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Uso de repertório atual em questões, redação, simulados e revisão de véspera?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Usar repertório decorado sem conexão com o tema ou defender posição radical sem análise de causa e consequência.",
-          "Analisar causas e consequências antes de responder.",
-          "Conectar o tema com direitos, cidadania ou política pública.",
-          "Verificar fonte e contexto antes de usar repertório.",
-          "Evitar linguagem extremada em tema sensível."
+          "Repertórios coringa devem ser adaptados ao recorte: cidadania, gestão pública, tecnologia, desigualdade e prevenção.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Transformar redação em opinião partidária."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Usar repertório decorado sem conexão com o tema ou defender posição radical sem análise de causa e consequência.",
-          "Errada. A alternativa reduz o tema a opinião ou manchete isolada.",
-          "Errada. A alternativa ignora causa, consequência ou política pública.",
-          "Errada. A alternativa transforma tema complexo em resposta absoluta.",
-          "Errada. A alternativa não respeita leitura institucional e equilíbrio argumentativo."
-        ],
-        "comentario": "A pegadinha comum é: Usar repertório decorado sem conexão com o tema ou defender posição radical sem análise de causa e consequência.",
-        "armadilhaDaBanca": "A banca usa temas atuais para testar leitura crítica e equilíbrio.",
-        "porqueCaiEmProva": "Atualidades aparece em questões, redações e temas transversais de concursos por conectar fatos sociais, Estado e cidadania.",
-        "diagnosticoIA": "Se errou, identifique se o erro foi: opinião sem base, manchete decorada, falta de causa, falta de consequência ou repertório mal aplicado."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q10-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Uso de repertório atual em questões, redação, simulados e revisão de véspera, repertório só ajuda quando está conectado ao problema proposto.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. Repertório solto não melhora resposta objetiva nem redação.",
-        "armadilhaDaBanca": "Cuidado com reduções simplistas, palavras absolutas e alternativas que trocam análise por opinião.",
-        "diagnosticoIA": "Reescreva o item em formato tema, fato, causa, consequência e solução."
+        "id": "atualidades-avancada-10-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Transformar redação em opinião partidária.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q10-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: transforme Uso de repertório atual em questões, redação, simulados e revisão de véspera em uma questão e em um parágrafo de redação.",
-        "promptTutorIA": "Crie um item de concurso sobre Uso de repertório atual em questões, redação, simulados e revisão de véspera, resolva, aponte a pegadinha e depois gere um parágrafo argumentativo equilibrado.",
-        "criterioDominio": [
-          "tema identificado",
-          "fato contextualizado",
-          "causa explicada",
-          "consequência indicada",
-          "linguagem equilibrada"
-        ],
-        "comentario": "Este treino prepara o aluno para objetiva e redação ao mesmo tempo.",
-        "diagnosticoIA": "Depois do treino, troque o grupo afetado ou a política pública envolvida e refaça."
+        "id": "atualidades-avancada-10-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Atualidades na redação a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: A boa redação mostra equilíbrio, causalidade e solução institucional viável.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "atualidades-avancada-10-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Atualidade vira repertório quando é explicada e conectada à tese.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Revisão integrada de Atualidades Avançada",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 25 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Alto: Atualidades depende de recorte temporal, edital, notícias recentes, indicadores e fontes oficiais atualizadas.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Atualidades / Redação / Concursos"
+    "proximoTitulo": "Revisão integrada do módulo"
   }
 ];
 

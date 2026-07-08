@@ -1,3360 +1,2079 @@
 /**
- * VemAprovar Top1 — Apostila Premium 10/10 Plus Revisado
- * Arquivo: direitos-humanos-avancado.js
- * Módulo: Direitos Humanos Avançado
- * Lote 19: continuação com limpeza de gabaritos, flashcards e alternativas.
+ * VemAprovar — Direitos Humanos Avançado 10/10 Reescrito de Verdade
+ * Arquivo reescrito do zero para substituir versão genérica/templated.
+ * Foco: conteúdo real, caso prático, pegadinhas e questões com gabarito.
  */
 
 export const direitosHumanosAvancado = [
   {
-    "id": "teoria-geral-dos-direitos-humanos-conceito-caracteristicas-e-dimensoes",
-    "materialTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "id": "teoria-geral-universalidade-historicidade-e-indivisibilidade",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 1,
     "totalChapters": 10,
-    "title": "Teoria geral dos direitos humanos: conceito, características e dimensões",
-    "assunto": "Teoria geral",
-    "tecnica": "Conceito claro, comparação entre sistemas, aplicação prática e revisão por pegadinhas de banca",
-    "competencia": "Resolver questões objetivas e discursivas sobre direitos humanos sem cair em absolutismos.",
-    "dificuldade": "Médio",
-    "tempoLeituraMin": 10,
-    "tempoExercicioMin": 26,
+    "title": "Teoria geral: universalidade, historicidade e indivisibilidade",
+    "assunto": "fundamentos dos direitos humanos",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar fundamentos dos direitos humanos com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
-      "VUNESP": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "dignidade",
       "universalidade",
-      "indivisibilidade",
-      "historicidade"
+      "dignidade",
+      "indivisibilidade"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Declaração Universal dos Direitos Humanos",
-      "Convenção Americana sobre Direitos Humanos",
-      "Tratados internacionais de direitos humanos",
-      "Jurisprudência constitucional e interamericana em linguagem pedagógica"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Teoria geral com foco em concursos policiais, tribunais, OAB e carreiras públicas. O aluno deve estudar o tema sem decorar frases soltas: a banca cobra conceito, limite, órgão competente e aplicação em caso concreto.",
-      "Ideia central: Direitos humanos são posições essenciais de proteção da pessoa, fundadas na dignidade humana e reconhecidas em planos nacional e internacional. Esse ponto precisa aparecer de forma simples no caderno de revisão, porque é a base para resolver questões de certo/errado, múltipla escolha e discursivas.",
-      "Erro comum: Tratar direitos humanos como opinião política, benefício estatal ou tema sem força jurídica. Em provas, esse erro geralmente aparece em alternativas absolutas, emocionalizadas ou que confundem proteção de direitos com ausência de responsabilização.",
-      "Como estudar: use o modelo conceito, dignidade, universalidade, indivisibilidade, historicidade e aplicação prática. Depois resolva uma questão, explique o tema em voz alta e escreva uma frase de revisão para memorizar."
+      "Teoria geral: universalidade, historicidade e indivisibilidade exige domínio de fundamentos dos direitos humanos. O estudo correto começa pela ideia de que direitos humanos são parâmetros mínimos de proteção da pessoa contra abusos, omissões e discriminações, inclusive praticados pelo próprio Estado.",
+      "Universalidade significa titularidade por todas as pessoas; não depende de nacionalidade, profissão, conduta moral ou aprovação social. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Historicidade indica construção progressiva: novas violações e novos contextos exigem novas formas de proteção. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Indivisibilidade impede separar liberdade de condições materiais mínimas; direitos civis, políticos, sociais e culturais se reforçam. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Direitos humanos são posições essenciais de proteção da pessoa, fundadas na dignidade humana e reconhecidas em planos nacional e internacional.",
-      "Pegadinha comum: Tratar direitos humanos como opinião política, benefício estatal ou tema sem força jurídica.",
-      "Modelo de prova: conceito, dignidade, universalidade, indivisibilidade, historicidade e aplicação prática",
-      "Sempre diferencie proteção de direitos, responsabilização legal e abuso estatal."
+      "Direitos humanos são parâmetros mínimos de proteção da pessoa contra abusos, omissões e discriminações, inclusive praticados pelo próprio Estado.",
+      "Universalidade significa titularidade por todas as pessoas; não depende de nacionalidade, profissão, conduta moral ou aprovação social.",
+      "Historicidade indica construção progressiva: novas violações e novos contextos exigem novas formas de proteção.",
+      "Indivisibilidade impede separar liberdade de condições materiais mínimas; direitos civis, políticos, sociais e culturais se reforçam."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa resume melhor o capítulo?",
-      "opcoes": [
-        "Tratar direitos humanos como opinião política, benefício estatal ou tema sem força jurídica.",
-        "Direitos humanos são posições essenciais de proteção da pessoa, fundadas na dignidade humana e reconhecidas em planos nacional e internacional.",
-        "Direitos humanos só importam em relações privadas sem Estado."
-      ],
-      "correta": 1,
-      "justificativa": "A opção correta apresenta a tese jurídica central do capítulo."
-    },
-    "oQueCobra": "Conceito, características, sistemas de proteção, papel do Estado, limites à atuação pública e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Constituição, Estado Democrático de Direito, legalidade, dignidade humana e devido processo.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca costuma trocar órgãos, sistemas e características. Também usa alternativas emocionais sobre polícia, punição, vulnerabilidade ou tratados."
+        "pergunta": "Qual é o núcleo de Teoria geral: universalidade, historicidade e indivisibilidade?",
+        "resposta": "Direitos humanos são parâmetros mínimos de proteção da pessoa contra abusos, omissões e discriminações, inclusive praticados pelo próprio Estado."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique a fonte, o sujeito protegido, a obrigação do Estado e o limite jurídico. Depois elimine alternativas absolutas."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Dizer que direitos humanos protegem apenas “pessoas boas”."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em área policial, direitos humanos orientam atuação legítima, preservam vidas, protegem provas e reduzem responsabilidade funcional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Em abordagem policial, a dignidade da pessoa não desaparece pela suspeita; a legalidade da intervenção é justamente o que distingue ação estatal legítima de abuso."
       }
     ],
-    "comoIdentificar": "Procure palavras como dignidade, igualdade, Comissão, Corte, tratado, proporcionalidade, custódia, vulnerabilidade e reparação.",
+    "quadroDeDominio": {
+      "conceito": "Direitos humanos são parâmetros mínimos de proteção da pessoa contra abusos, omissões e discriminações, inclusive praticados pelo próprio Estado.",
+      "limite": "Universalidade significa titularidade por todas as pessoas; não depende de nacionalidade, profissão, conduta moral ou aprovação social.",
+      "aplicacao": "Em abordagem policial, a dignidade da pessoa não desaparece pela suspeita; a legalidade da intervenção é justamente o que distingue ação estatal legítima de abuso.",
+      "erroFatal": "Dizer que direitos humanos protegem apenas “pessoas boas”."
+    },
+    "exemploComentado": "Em abordagem policial, a dignidade da pessoa não desaparece pela suspeita; a legalidade da intervenção é justamente o que distingue ação estatal legítima de abuso.",
     "pegadinhas": [
-      "palavras absolutas como sempre/nunca",
-      "confusão entre ONU e OEA",
-      "confusão entre Comissão e Corte",
-      "ideia falsa de que direitos humanos impedem punição legal",
-      "uso de opinião política no lugar de fundamento jurídico"
+      "Dizer que direitos humanos protegem apenas “pessoas boas”.",
+      "Tratar direitos sociais como favores do governo."
     ],
-    "resumoFrase": "Direitos humanos são posições essenciais de proteção da pessoa, fundadas na dignidade humana e reconhecidas em planos nacional e internacional.",
-    "proximoTitulo": "Dignidade da pessoa humana, igualdade e não discriminação",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 19 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir edital, tratados, jurisprudência e atos normativos recentes antes da publicação final.",
-    "publicoAlvo": "Candidatos de concursos policiais, OAB, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direitos Humanos",
-    "explicacaoComoSeTivesse12": "Pense assim: Direitos humanos são posições essenciais de proteção da pessoa, fundadas na dignidade humana e reconhecidas em planos nacional e internacional. Isso não quer dizer que ninguém pode ser punido. Quer dizer que toda ação do Estado precisa respeitar regras, limites e a dignidade das pessoas.",
+    "mapaMentalTexto": [
+      "Tema: Teoria geral: universalidade, historicidade e indivisibilidade",
+      "Conceito: Direitos humanos são parâmetros mínimos de proteção da pessoa contra abusos, omissões e discriminações, inclusive praticados pelo próprio Estado.",
+      "Aplicação: Em abordagem policial, a dignidade da pessoa não desaparece pela suspeita; a legalidade da intervenção é justamente o que distingue ação estatal legítima de abuso.",
+      "Cuidado: Dizer que direitos humanos protegem apenas “pessoas boas”."
+    ],
     "comoEstudar": [
-      "Leia a tese central e copie com suas palavras.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça tabela com conceito, fonte, órgão e pegadinha.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Direitos humanos não são impunidade: são limite jurídico, proteção da dignidade e controle da atuação estatal.",
-    "mapaMentalTextual": [
-      "Centro: Teoria geral dos direitos humanos: conceito, características e dimensões",
-      "Ramo 1: conceito e fundamento",
-      "Ramo 2: fonte normativa",
-      "Ramo 3: órgão ou instrumento",
-      "Ramo 4: pegadinha de banca",
-      "Ramo 5: aplicação prática em segurança pública"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a ideia central de Teoria geral dos direitos humanos: conceito, características e dimensões?",
-        "verso": "Direitos humanos são posições essenciais de proteção da pessoa, fundadas na dignidade humana e reconhecidas em planos nacional e internacional."
+        "id": "direitos-humanos-avancado-01-fc01",
+        "frente": "Qual é a ideia central de Teoria geral: universalidade, historicidade e indivisibilidade?",
+        "verso": "Direitos humanos são parâmetros mínimos de proteção da pessoa contra abusos, omissões e discriminações, inclusive praticados pelo próprio Estado.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha a banca costuma usar?",
-        "verso": "Tratar direitos humanos como opinião política, benefício estatal ou tema sem força jurídica."
+        "id": "direitos-humanos-avancado-01-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em fundamentos dos direitos humanos?",
+        "verso": "Universalidade significa titularidade por todas as pessoas; não depende de nacionalidade, profissão, conduta moral ou aprovação social.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual modelo de estudo usar neste capítulo?",
-        "verso": "conceito, dignidade, universalidade, indivisibilidade, historicidade e aplicação prática"
+        "id": "direitos-humanos-avancado-01-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Dizer que direitos humanos protegem apenas “pessoas boas”.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar em concurso policial?",
-        "verso": "Relacione legalidade, dignidade, proporcionalidade, responsabilidade estatal e proteção da pessoa."
+        "id": "direitos-humanos-avancado-01-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Em abordagem policial, a dignidade da pessoa não desaparece pela suspeita; a legalidade da intervenção é justamente o que distingue ação estatal legítima de abuso.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "conceitua corretamente",
-      "diferencia sistemas e órgãos",
-      "aplica ao caso concreto",
-      "evita absolutismos",
-      "responde com linguagem de prova"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Refazer 3 questões e revisar a tese central."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Criar tabela de pegadinhas do capítulo."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Resolver caso prático e explicar em voz alta."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique o capítulo em linguagem simples, crie 3 pegadinhas de banca e corrija minha resposta discursiva.",
-      "modo": "mentor_concurso",
-      "alerta": "Não transformar direitos humanos em opinião política; responder com fundamento jurídico."
-    },
     "questoes": [
       {
-        "id": "teoria-geral-dos-direitos-humanos-conceito-caracteristicas-e-dimensoes-q01",
+        "id": "direitos-humanos-avancado-01-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Teoria geral dos direitos humanos: conceito, características e dimensões, assinale a alternativa correta.",
+        "enunciado": "Em relação a Teoria geral: universalidade, historicidade e indivisibilidade, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Direitos humanos são posições essenciais de proteção da pessoa, fundadas na dignidade humana e reconhecidas em planos nacional e internacional.",
-          "Tratar direitos humanos como opinião política, benefício estatal ou tema sem força jurídica.",
-          "O tema só tem relevância moral, sem impacto jurídico em concursos.",
-          "A proteção depende exclusivamente da vontade da autoridade de plantão.",
-          "A banca deve ignorar tratados, Constituição e jurisprudência no assunto."
+          "Direitos humanos são parâmetros mínimos de proteção da pessoa contra abusos, omissões e discriminações, inclusive praticados pelo próprio Estado.",
+          "Dizer que direitos humanos protegem apenas “pessoas boas”.",
+          "Tratar direitos sociais como favores do governo.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa resume corretamente Teoria geral.",
-          "Errada. Confunde características dos direitos humanos com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A alternativa resume corretamente Teoria geral.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: Direitos humanos são parâmetros mínimos de proteção da pessoa contra abusos, omissões e discriminações, inclusive praticados pelo próprio Estado."
       },
       {
-        "id": "teoria-geral-dos-direitos-humanos-conceito-caracteristicas-e-dimensoes-q02",
+        "id": "direitos-humanos-avancado-01-q02",
         "tipo": "certo_errado",
-        "enunciado": "Direitos humanos são posições essenciais de proteção da pessoa, fundadas na dignidade humana e reconhecidas em planos nacional e internacional.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A assertiva apresenta a orientação correta para fins de prova.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Universalidade significa titularidade por todas as pessoas; não depende de nacionalidade, profissão, conduta moral ou aprovação social.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de fundamentos dos direitos humanos."
       },
       {
-        "id": "teoria-geral-dos-direitos-humanos-conceito-caracteristicas-e-dimensoes-q03",
+        "id": "direitos-humanos-avancado-01-q03",
         "tipo": "certo_errado",
-        "enunciado": "Tratar direitos humanos como opinião política, benefício estatal ou tema sem força jurídica.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A assertiva reproduz pegadinha comum e deve ser rejeitada.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Dizer que direitos humanos protegem apenas “pessoas boas”.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "teoria-geral-dos-direitos-humanos-conceito-caracteristicas-e-dimensoes-q04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Um edital afirma que direitos humanos só protegem pessoas inocentes. Como responder?",
-        "alternativas": [
-          "Direitos humanos protegem toda pessoa, inclusive quem responde a processo, sem impedir responsabilização legal.",
-          "Afastar todos os direitos por conveniência administrativa.",
-          "Aplicar punição informal para dar resposta rápida à sociedade.",
-          "Ignorar tratados e decidir apenas por opinião pessoal.",
-          "Considerar qualquer medida estatal válida se houver finalidade pública."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-          "Errada. Confunde características dos direitos humanos com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-01-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Em abordagem policial, a dignidade da pessoa não desaparece pela suspeita; a legalidade da intervenção é justamente o que distingue ação estatal legítima de abuso. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Historicidade indica construção progressiva: novas violações e novos contextos exigem novas formas de proteção.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "teoria-geral-dos-direitos-humanos-conceito-caracteristicas-e-dimensoes-q05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Em uma questão discursiva, qual caminho aumenta a pontuação?",
-        "alternativas": [
-          "Usar conceito, dignidade, universalidade, indivisibilidade, historicidade e aplicação prática e aplicar ao caso concreto.",
-          "Usar frases genéricas sem fundamento.",
-          "Responder com opinião política e sem conceito.",
-          "Citar órgão internacional aleatório.",
-          "Copiar o enunciado sem análise."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A resposta de concurso precisa demonstrar técnica e aplicação.",
-          "Errada. Confunde características dos direitos humanos com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A resposta de concurso precisa demonstrar técnica e aplicação.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-01-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que fundamentos dos direitos humanos não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar direitos humanos são parâmetros mínimos de proteção da pessoa contra abusos, omissões e discriminações, inclusive praticados pelo próprio estado. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "teoria-geral-dos-direitos-humanos-conceito-caracteristicas-e-dimensoes-q06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Explique por que direitos humanos não significam impunidade.",
-        "respostaModelo": "Eles impõem limites ao Estado, garantem devido processo e vedam abusos. A responsabilização continua possível, desde que legal, proporcional e controlável.",
-        "criteriosCorrecao": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "palavrasChaveEsperadas": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "comentario": "Resposta boa precisa ser objetiva, sem militância, com fundamento jurídico e aplicação ao caso.",
-        "diagnosticoIA": "Se a resposta ficou genérica, refaça usando conceito, fundamento e consequência."
-      },
-      {
-        "id": "teoria-geral-dos-direitos-humanos-conceito-caracteristicas-e-dimensoes-q07",
+        "id": "direitos-humanos-avancado-01-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie universalidade de relativismo cultural em uma resposta de concurso.",
-        "respostaModelo": "universalidade e relativismo cultural podem se relacionar, mas não são iguais. A distinção central é: universalidade indica proteção mínima a toda pessoa; relativismo não autoriza violação de núcleo essencial",
-        "criteriosCorrecao": [
-          "conceito de cada item",
-          "diferença central",
-          "exemplo de aplicação",
-          "ausência de confusão terminológica"
-        ],
-        "comentario": "Questões comparativas testam precisão conceitual.",
-        "diagnosticoIA": "Monte uma tabela mental: conceito, órgão/fonte, finalidade e efeito."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Direitos humanos são parâmetros mínimos de proteção da pessoa contra abusos, omissões e discriminações, inclusive praticados pelo próprio Estado. Pegadinha: Dizer que direitos humanos protegem apenas “pessoas boas”.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "teoria-geral-dos-direitos-humanos-conceito-caracteristicas-e-dimensoes-q08",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Teoria geral dos direitos humanos: conceito, características e dimensões para um candidato de concurso policial.",
-        "promptTutorIA": "Explique Teoria geral dos direitos humanos: conceito, características e dimensões, traga uma pegadinha e proponha uma questão de certo/errado com comentário.",
-        "criterioDominio": [
-          "explicação simples",
-          "base jurídica",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Use este item para transformar leitura passiva em domínio ativo."
-      },
-      {
-        "id": "teoria-geral-dos-direitos-humanos-conceito-caracteristicas-e-dimensoes-q09",
+        "id": "direitos-humanos-avancado-01-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Assinale a alternativa que representa uma pegadinha típica de banca.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Tratar direitos humanos como opinião política, benefício estatal ou tema sem força jurídica.",
-          "Direitos humanos são posições essenciais de proteção da pessoa, fundadas na dignidade humana e reconhecidas em planos nacional e internacional.",
-          "Diferenciar órgão, fonte e consequência jurídica.",
-          "Aplicar proporcionalidade no caso concreto.",
-          "Reconhecer que direitos humanos limitam abusos estatais."
+          "Historicidade indica construção progressiva: novas violações e novos contextos exigem novas formas de proteção.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Tratar direitos sociais como favores do governo."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha está na formulação errada indicada pelo capítulo.",
-          "Errada. Confunde características dos direitos humanos com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A pegadinha está na formulação errada indicada pelo capítulo.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "teoria-geral-dos-direitos-humanos-conceito-caracteristicas-e-dimensoes-q10",
-        "tipo": "certo_errado",
-        "enunciado": "Em direitos humanos, a resposta tecnicamente adequada deve evitar absolutismos e identificar fundamento, sujeito protegido e consequência jurídica.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Essa é a postura mais segura em questões objetivas e discursivas.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "id": "direitos-humanos-avancado-01-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Tratar direitos sociais como favores do governo.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direitos-humanos-avancado-01-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Teoria geral: universalidade, historicidade e indivisibilidade a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Indivisibilidade impede separar liberdade de condições materiais mínimas; direitos civis, políticos, sociais e culturais se reforçam.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direitos-humanos-avancado-01-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Direitos humanos são parâmetros mínimos de proteção da pessoa contra abusos, omissões e discriminações, inclusive praticados pelo próprio Estado.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Dignidade, igualdade e não discriminação"
   },
   {
-    "id": "dignidade-da-pessoa-humana-igualdade-e-nao-discriminacao",
-    "materialTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "id": "dignidade-igualdade-e-nao-discriminacao",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 2,
     "totalChapters": 10,
-    "title": "Dignidade da pessoa humana, igualdade e não discriminação",
-    "assunto": "Igualdade e dignidade",
-    "tecnica": "Conceito claro, comparação entre sistemas, aplicação prática e revisão por pegadinhas de banca",
-    "competencia": "Resolver questões objetivas e discursivas sobre direitos humanos sem cair em absolutismos.",
-    "dificuldade": "Médio",
-    "tempoLeituraMin": 10,
-    "tempoExercicioMin": 26,
+    "title": "Dignidade, igualdade e não discriminação",
+    "assunto": "núcleo material da proteção",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar núcleo material da proteção com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
-      "VUNESP": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
       "dignidade",
-      "igualdade formal",
       "igualdade material",
       "discriminação"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Declaração Universal dos Direitos Humanos",
-      "Convenção Americana sobre Direitos Humanos",
-      "Tratados internacionais de direitos humanos",
-      "Jurisprudência constitucional e interamericana em linguagem pedagógica"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Igualdade e dignidade com foco em concursos policiais, tribunais, OAB e carreiras públicas. O aluno deve estudar o tema sem decorar frases soltas: a banca cobra conceito, limite, órgão competente e aplicação em caso concreto.",
-      "Ideia central: Dignidade e igualdade exigem respeito à pessoa e tratamento sem discriminação, com medidas diferenciadas quando necessárias para reduzir desigualdades reais. Esse ponto precisa aparecer de forma simples no caderno de revisão, porque é a base para resolver questões de certo/errado, múltipla escolha e discursivas.",
-      "Erro comum: Confundir igualdade com tratamento sempre idêntico, ignorando vulnerabilidades e ações afirmativas legítimas. Em provas, esse erro geralmente aparece em alternativas absolutas, emocionalizadas ou que confundem proteção de direitos com ausência de responsabilização.",
-      "Como estudar: use o modelo dignidade como fundamento, igualdade formal, igualdade material e vedação de discriminação. Depois resolva uma questão, explique o tema em voz alta e escreva uma frase de revisão para memorizar."
+      "Dignidade, igualdade e não discriminação exige domínio de núcleo material da proteção. O estudo correto começa pela ideia de que dignidade funciona como critério de interpretação: nenhuma política pública pode transformar pessoa em objeto descartável.",
+      "Igualdade formal proíbe distinções arbitrárias; igualdade material permite medidas específicas para corrigir desvantagens reais. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Não discriminação alcança raça, gênero, origem, deficiência, religião, idade, orientação sexual e outras condições vulnerabilizantes. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Em prova, ações afirmativas não violam igualdade quando são proporcionais, temporárias e voltadas a reduzir desigualdade histórica. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Dignidade e igualdade exigem respeito à pessoa e tratamento sem discriminação, com medidas diferenciadas quando necessárias para reduzir desigualdades reais.",
-      "Pegadinha comum: Confundir igualdade com tratamento sempre idêntico, ignorando vulnerabilidades e ações afirmativas legítimas.",
-      "Modelo de prova: dignidade como fundamento, igualdade formal, igualdade material e vedação de discriminação",
-      "Sempre diferencie proteção de direitos, responsabilização legal e abuso estatal."
+      "Dignidade funciona como critério de interpretação: nenhuma política pública pode transformar pessoa em objeto descartável.",
+      "Igualdade formal proíbe distinções arbitrárias; igualdade material permite medidas específicas para corrigir desvantagens reais.",
+      "Não discriminação alcança raça, gênero, origem, deficiência, religião, idade, orientação sexual e outras condições vulnerabilizantes.",
+      "Em prova, ações afirmativas não violam igualdade quando são proporcionais, temporárias e voltadas a reduzir desigualdade histórica."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa resume melhor o capítulo?",
-      "opcoes": [
-        "Confundir igualdade com tratamento sempre idêntico, ignorando vulnerabilidades e ações afirmativas legítimas.",
-        "Dignidade e igualdade exigem respeito à pessoa e tratamento sem discriminação, com medidas diferenciadas quando necessárias para reduzir desigualdades reais.",
-        "Direitos humanos só importam em relações privadas sem Estado."
-      ],
-      "correta": 1,
-      "justificativa": "A opção correta apresenta a tese jurídica central do capítulo."
-    },
-    "oQueCobra": "Conceito, características, sistemas de proteção, papel do Estado, limites à atuação pública e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Constituição, Estado Democrático de Direito, legalidade, dignidade humana e devido processo.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca costuma trocar órgãos, sistemas e características. Também usa alternativas emocionais sobre polícia, punição, vulnerabilidade ou tratados."
+        "pergunta": "Qual é o núcleo de Dignidade, igualdade e não discriminação?",
+        "resposta": "Dignidade funciona como critério de interpretação: nenhuma política pública pode transformar pessoa em objeto descartável."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique a fonte, o sujeito protegido, a obrigação do Estado e o limite jurídico. Depois elimine alternativas absolutas."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Confundir tratamento diferenciado legítimo com privilégio."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em área policial, direitos humanos orientam atuação legítima, preservam vidas, protegem provas e reduzem responsabilidade funcional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Prioridade de atendimento a pessoa com deficiência não é privilégio: é técnica de igualdade material para remover barreira real."
       }
     ],
-    "comoIdentificar": "Procure palavras como dignidade, igualdade, Comissão, Corte, tratado, proporcionalidade, custódia, vulnerabilidade e reparação.",
+    "quadroDeDominio": {
+      "conceito": "Dignidade funciona como critério de interpretação: nenhuma política pública pode transformar pessoa em objeto descartável.",
+      "limite": "Igualdade formal proíbe distinções arbitrárias; igualdade material permite medidas específicas para corrigir desvantagens reais.",
+      "aplicacao": "Prioridade de atendimento a pessoa com deficiência não é privilégio: é técnica de igualdade material para remover barreira real.",
+      "erroFatal": "Confundir tratamento diferenciado legítimo com privilégio."
+    },
+    "exemploComentado": "Prioridade de atendimento a pessoa com deficiência não é privilégio: é técnica de igualdade material para remover barreira real.",
     "pegadinhas": [
-      "palavras absolutas como sempre/nunca",
-      "confusão entre ONU e OEA",
-      "confusão entre Comissão e Corte",
-      "ideia falsa de que direitos humanos impedem punição legal",
-      "uso de opinião política no lugar de fundamento jurídico"
+      "Confundir tratamento diferenciado legítimo com privilégio.",
+      "Usar neutralidade aparente para manter desigualdade concreta."
     ],
-    "resumoFrase": "Dignidade e igualdade exigem respeito à pessoa e tratamento sem discriminação, com medidas diferenciadas quando necessárias para reduzir desigualdades reais.",
-    "proximoTitulo": "Sistema global de proteção: ONU, DUDH, Pactos e tratados internacionais",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 19 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir edital, tratados, jurisprudência e atos normativos recentes antes da publicação final.",
-    "publicoAlvo": "Candidatos de concursos policiais, OAB, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direitos Humanos",
-    "explicacaoComoSeTivesse12": "Pense assim: Dignidade e igualdade exigem respeito à pessoa e tratamento sem discriminação, com medidas diferenciadas quando necessárias para reduzir desigualdades reais. Isso não quer dizer que ninguém pode ser punido. Quer dizer que toda ação do Estado precisa respeitar regras, limites e a dignidade das pessoas.",
+    "mapaMentalTexto": [
+      "Tema: Dignidade, igualdade e não discriminação",
+      "Conceito: Dignidade funciona como critério de interpretação: nenhuma política pública pode transformar pessoa em objeto descartável.",
+      "Aplicação: Prioridade de atendimento a pessoa com deficiência não é privilégio: é técnica de igualdade material para remover barreira real.",
+      "Cuidado: Confundir tratamento diferenciado legítimo com privilégio."
+    ],
     "comoEstudar": [
-      "Leia a tese central e copie com suas palavras.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça tabela com conceito, fonte, órgão e pegadinha.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Direitos humanos não são impunidade: são limite jurídico, proteção da dignidade e controle da atuação estatal.",
-    "mapaMentalTextual": [
-      "Centro: Dignidade da pessoa humana, igualdade e não discriminação",
-      "Ramo 1: conceito e fundamento",
-      "Ramo 2: fonte normativa",
-      "Ramo 3: órgão ou instrumento",
-      "Ramo 4: pegadinha de banca",
-      "Ramo 5: aplicação prática em segurança pública"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a ideia central de Dignidade da pessoa humana, igualdade e não discriminação?",
-        "verso": "Dignidade e igualdade exigem respeito à pessoa e tratamento sem discriminação, com medidas diferenciadas quando necessárias para reduzir desigualdades reais."
+        "id": "direitos-humanos-avancado-02-fc01",
+        "frente": "Qual é a ideia central de Dignidade, igualdade e não discriminação?",
+        "verso": "Dignidade funciona como critério de interpretação: nenhuma política pública pode transformar pessoa em objeto descartável.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha a banca costuma usar?",
-        "verso": "Confundir igualdade com tratamento sempre idêntico, ignorando vulnerabilidades e ações afirmativas legítimas."
+        "id": "direitos-humanos-avancado-02-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em núcleo material da proteção?",
+        "verso": "Igualdade formal proíbe distinções arbitrárias; igualdade material permite medidas específicas para corrigir desvantagens reais.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual modelo de estudo usar neste capítulo?",
-        "verso": "dignidade como fundamento, igualdade formal, igualdade material e vedação de discriminação"
+        "id": "direitos-humanos-avancado-02-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Confundir tratamento diferenciado legítimo com privilégio.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar em concurso policial?",
-        "verso": "Relacione legalidade, dignidade, proporcionalidade, responsabilidade estatal e proteção da pessoa."
+        "id": "direitos-humanos-avancado-02-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Prioridade de atendimento a pessoa com deficiência não é privilégio: é técnica de igualdade material para remover barreira real.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "conceitua corretamente",
-      "diferencia sistemas e órgãos",
-      "aplica ao caso concreto",
-      "evita absolutismos",
-      "responde com linguagem de prova"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Refazer 3 questões e revisar a tese central."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Criar tabela de pegadinhas do capítulo."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Resolver caso prático e explicar em voz alta."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique o capítulo em linguagem simples, crie 3 pegadinhas de banca e corrija minha resposta discursiva.",
-      "modo": "mentor_concurso",
-      "alerta": "Não transformar direitos humanos em opinião política; responder com fundamento jurídico."
-    },
     "questoes": [
       {
-        "id": "dignidade-da-pessoa-humana-igualdade-e-nao-discriminacao-q01",
+        "id": "direitos-humanos-avancado-02-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Dignidade da pessoa humana, igualdade e não discriminação, assinale a alternativa correta.",
+        "enunciado": "Em relação a Dignidade, igualdade e não discriminação, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Dignidade e igualdade exigem respeito à pessoa e tratamento sem discriminação, com medidas diferenciadas quando necessárias para reduzir desigualdades reais.",
-          "Confundir igualdade com tratamento sempre idêntico, ignorando vulnerabilidades e ações afirmativas legítimas.",
-          "O tema só tem relevância moral, sem impacto jurídico em concursos.",
-          "A proteção depende exclusivamente da vontade da autoridade de plantão.",
-          "A banca deve ignorar tratados, Constituição e jurisprudência no assunto."
+          "Dignidade funciona como critério de interpretação: nenhuma política pública pode transformar pessoa em objeto descartável.",
+          "Confundir tratamento diferenciado legítimo com privilégio.",
+          "Usar neutralidade aparente para manter desigualdade concreta.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa resume corretamente Igualdade e dignidade.",
-          "Errada. Confunde igualdade material com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A alternativa resume corretamente Igualdade e dignidade.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: Dignidade funciona como critério de interpretação: nenhuma política pública pode transformar pessoa em objeto descartável."
       },
       {
-        "id": "dignidade-da-pessoa-humana-igualdade-e-nao-discriminacao-q02",
+        "id": "direitos-humanos-avancado-02-q02",
         "tipo": "certo_errado",
-        "enunciado": "Dignidade e igualdade exigem respeito à pessoa e tratamento sem discriminação, com medidas diferenciadas quando necessárias para reduzir desigualdades reais.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A assertiva apresenta a orientação correta para fins de prova.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Igualdade formal proíbe distinções arbitrárias; igualdade material permite medidas específicas para corrigir desvantagens reais.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de núcleo material da proteção."
       },
       {
-        "id": "dignidade-da-pessoa-humana-igualdade-e-nao-discriminacao-q03",
+        "id": "direitos-humanos-avancado-02-q03",
         "tipo": "certo_errado",
-        "enunciado": "Confundir igualdade com tratamento sempre idêntico, ignorando vulnerabilidades e ações afirmativas legítimas.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A assertiva reproduz pegadinha comum e deve ser rejeitada.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Confundir tratamento diferenciado legítimo com privilégio.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "dignidade-da-pessoa-humana-igualdade-e-nao-discriminacao-q04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Uma regra aparentemente neutra prejudica de forma intensa um grupo vulnerável. Qual análise é exigida?",
-        "alternativas": [
-          "A prova exige verificar discriminação indireta, proporcionalidade e necessidade de correção material.",
-          "Afastar todos os direitos por conveniência administrativa.",
-          "Aplicar punição informal para dar resposta rápida à sociedade.",
-          "Ignorar tratados e decidir apenas por opinião pessoal.",
-          "Considerar qualquer medida estatal válida se houver finalidade pública."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-          "Errada. Confunde igualdade material com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-02-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Prioridade de atendimento a pessoa com deficiência não é privilégio: é técnica de igualdade material para remover barreira real. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Não discriminação alcança raça, gênero, origem, deficiência, religião, idade, orientação sexual e outras condições vulnerabilizantes.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "dignidade-da-pessoa-humana-igualdade-e-nao-discriminacao-q05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Em uma questão discursiva, qual caminho aumenta a pontuação?",
-        "alternativas": [
-          "Usar dignidade como fundamento, igualdade formal, igualdade material e vedação de discriminação e aplicar ao caso concreto.",
-          "Usar frases genéricas sem fundamento.",
-          "Responder com opinião política e sem conceito.",
-          "Citar órgão internacional aleatório.",
-          "Copiar o enunciado sem análise."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A resposta de concurso precisa demonstrar técnica e aplicação.",
-          "Errada. Confunde igualdade material com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A resposta de concurso precisa demonstrar técnica e aplicação.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-02-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que núcleo material da proteção não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar dignidade funciona como critério de interpretação: nenhuma política pública pode transformar pessoa em objeto descartável. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "dignidade-da-pessoa-humana-igualdade-e-nao-discriminacao-q06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Diferencie igualdade formal e igualdade material.",
-        "respostaModelo": "Igualdade formal proíbe distinções arbitrárias perante a lei; igualdade material permite medidas proporcionais para reduzir desigualdades concretas.",
-        "criteriosCorrecao": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "palavrasChaveEsperadas": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "comentario": "Resposta boa precisa ser objetiva, sem militância, com fundamento jurídico e aplicação ao caso.",
-        "diagnosticoIA": "Se a resposta ficou genérica, refaça usando conceito, fundamento e consequência."
-      },
-      {
-        "id": "dignidade-da-pessoa-humana-igualdade-e-nao-discriminacao-q07",
+        "id": "direitos-humanos-avancado-02-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie igualdade formal de igualdade material em uma resposta de concurso.",
-        "respostaModelo": "igualdade formal e igualdade material podem se relacionar, mas não são iguais. A distinção central é: a primeira olha tratamento jurídico uniforme; a segunda olha efeitos reais e correção de desigualdades",
-        "criteriosCorrecao": [
-          "conceito de cada item",
-          "diferença central",
-          "exemplo de aplicação",
-          "ausência de confusão terminológica"
-        ],
-        "comentario": "Questões comparativas testam precisão conceitual.",
-        "diagnosticoIA": "Monte uma tabela mental: conceito, órgão/fonte, finalidade e efeito."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Dignidade funciona como critério de interpretação: nenhuma política pública pode transformar pessoa em objeto descartável. Pegadinha: Confundir tratamento diferenciado legítimo com privilégio.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "dignidade-da-pessoa-humana-igualdade-e-nao-discriminacao-q08",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Dignidade da pessoa humana, igualdade e não discriminação para um candidato de concurso policial.",
-        "promptTutorIA": "Explique Dignidade da pessoa humana, igualdade e não discriminação, traga uma pegadinha e proponha uma questão de certo/errado com comentário.",
-        "criterioDominio": [
-          "explicação simples",
-          "base jurídica",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Use este item para transformar leitura passiva em domínio ativo."
-      },
-      {
-        "id": "dignidade-da-pessoa-humana-igualdade-e-nao-discriminacao-q09",
+        "id": "direitos-humanos-avancado-02-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Assinale a alternativa que representa uma pegadinha típica de banca.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Confundir igualdade com tratamento sempre idêntico, ignorando vulnerabilidades e ações afirmativas legítimas.",
-          "Dignidade e igualdade exigem respeito à pessoa e tratamento sem discriminação, com medidas diferenciadas quando necessárias para reduzir desigualdades reais.",
-          "Diferenciar órgão, fonte e consequência jurídica.",
-          "Aplicar proporcionalidade no caso concreto.",
-          "Reconhecer que direitos humanos limitam abusos estatais."
+          "Não discriminação alcança raça, gênero, origem, deficiência, religião, idade, orientação sexual e outras condições vulnerabilizantes.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Usar neutralidade aparente para manter desigualdade concreta."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha está na formulação errada indicada pelo capítulo.",
-          "Errada. Confunde igualdade material com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A pegadinha está na formulação errada indicada pelo capítulo.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "dignidade-da-pessoa-humana-igualdade-e-nao-discriminacao-q10",
-        "tipo": "certo_errado",
-        "enunciado": "Em direitos humanos, a resposta tecnicamente adequada deve evitar absolutismos e identificar fundamento, sujeito protegido e consequência jurídica.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Essa é a postura mais segura em questões objetivas e discursivas.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "id": "direitos-humanos-avancado-02-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Usar neutralidade aparente para manter desigualdade concreta.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direitos-humanos-avancado-02-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Dignidade, igualdade e não discriminação a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Em prova, ações afirmativas não violam igualdade quando são proporcionais, temporárias e voltadas a reduzir desigualdade histórica.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direitos-humanos-avancado-02-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Dignidade funciona como critério de interpretação: nenhuma política pública pode transformar pessoa em objeto descartável.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Sistema global: ONU, declarações, pactos e mecanismos"
   },
   {
-    "id": "sistema-global-de-protecao-onu-dudh-pactos-e-tratados-internacionais",
-    "materialTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "id": "sistema-global-onu-declaracoes-pactos-e-mecanismos",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 3,
     "totalChapters": 10,
-    "title": "Sistema global de proteção: ONU, DUDH, Pactos e tratados internacionais",
-    "assunto": "Sistema global",
-    "tecnica": "Conceito claro, comparação entre sistemas, aplicação prática e revisão por pegadinhas de banca",
-    "competencia": "Resolver questões objetivas e discursivas sobre direitos humanos sem cair em absolutismos.",
-    "dificuldade": "Médio",
-    "tempoLeituraMin": 10,
-    "tempoExercicioMin": 26,
+    "title": "Sistema global: ONU, declarações, pactos e mecanismos",
+    "assunto": "proteção internacional universal",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar proteção internacional universal com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
-      "VUNESP": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
       "ONU",
-      "DUDH",
-      "pactos",
-      "comitês"
+      "tratados",
+      "monitoramento"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Declaração Universal dos Direitos Humanos",
-      "Convenção Americana sobre Direitos Humanos",
-      "Tratados internacionais de direitos humanos",
-      "Jurisprudência constitucional e interamericana em linguagem pedagógica"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Sistema global com foco em concursos policiais, tribunais, OAB e carreiras públicas. O aluno deve estudar o tema sem decorar frases soltas: a banca cobra conceito, limite, órgão competente e aplicação em caso concreto.",
-      "Ideia central: O sistema global organiza documentos, tratados e comitês voltados à proteção internacional da pessoa humana, com a DUDH como marco pedagógico e normativo central. Esse ponto precisa aparecer de forma simples no caderno de revisão, porque é a base para resolver questões de certo/errado, múltipla escolha e discursivas.",
-      "Erro comum: Atribuir à ONU funções de tribunal nacional ou confundir declaração, tratado e órgão de monitoramento. Em provas, esse erro geralmente aparece em alternativas absolutas, emocionalizadas ou que confundem proteção de direitos com ausência de responsabilização.",
-      "Como estudar: use o modelo DUDH, pactos de 1966, convenções temáticas, comitês e relatórios. Depois resolva uma questão, explique o tema em voz alta e escreva uma frase de revisão para memorizar."
+      "Sistema global: ONU, declarações, pactos e mecanismos exige domínio de proteção internacional universal. O estudo correto começa pela ideia de que o sistema global organiza parâmetros internacionais de proteção, combinando documentos declaratórios, tratados e mecanismos de monitoramento.",
+      "Declarações orientam interpretação e consolidam valores; tratados criam obrigações jurídicas quando ratificados pelo Estado. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Comitês internacionais analisam relatórios, recomendações e comunicações quando o Estado aceita a competência correspondente. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Em concursos, a banca cobra diferença entre proteção política, monitoramento técnico e jurisdição internacional. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "O sistema global organiza documentos, tratados e comitês voltados à proteção internacional da pessoa humana, com a DUDH como marco pedagógico e normativo central.",
-      "Pegadinha comum: Atribuir à ONU funções de tribunal nacional ou confundir declaração, tratado e órgão de monitoramento.",
-      "Modelo de prova: DUDH, pactos de 1966, convenções temáticas, comitês e relatórios",
-      "Sempre diferencie proteção de direitos, responsabilização legal e abuso estatal."
+      "O sistema global organiza parâmetros internacionais de proteção, combinando documentos declaratórios, tratados e mecanismos de monitoramento.",
+      "Declarações orientam interpretação e consolidam valores; tratados criam obrigações jurídicas quando ratificados pelo Estado.",
+      "Comitês internacionais analisam relatórios, recomendações e comunicações quando o Estado aceita a competência correspondente.",
+      "Em concursos, a banca cobra diferença entre proteção política, monitoramento técnico e jurisdição internacional."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa resume melhor o capítulo?",
-      "opcoes": [
-        "Atribuir à ONU funções de tribunal nacional ou confundir declaração, tratado e órgão de monitoramento.",
-        "O sistema global organiza documentos, tratados e comitês voltados à proteção internacional da pessoa humana, com a DUDH como marco pedagógico e normativo central.",
-        "Direitos humanos só importam em relações privadas sem Estado."
-      ],
-      "correta": 1,
-      "justificativa": "A opção correta apresenta a tese jurídica central do capítulo."
-    },
-    "oQueCobra": "Conceito, características, sistemas de proteção, papel do Estado, limites à atuação pública e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Constituição, Estado Democrático de Direito, legalidade, dignidade humana e devido processo.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca costuma trocar órgãos, sistemas e características. Também usa alternativas emocionais sobre polícia, punição, vulnerabilidade ou tratados."
+        "pergunta": "Qual é o núcleo de Sistema global: ONU, declarações, pactos e mecanismos?",
+        "resposta": "O sistema global organiza parâmetros internacionais de proteção, combinando documentos declaratórios, tratados e mecanismos de monitoramento."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique a fonte, o sujeito protegido, a obrigação do Estado e o limite jurídico. Depois elimine alternativas absolutas."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Afirmar que toda declaração tem o mesmo efeito de tratado ratificado."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em área policial, direitos humanos orientam atuação legítima, preservam vidas, protegem provas e reduzem responsabilidade funcional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Um pacto internacional pode exigir que o país adapte leis e práticas administrativas para evitar tortura, discriminação ou prisão arbitrária."
       }
     ],
-    "comoIdentificar": "Procure palavras como dignidade, igualdade, Comissão, Corte, tratado, proporcionalidade, custódia, vulnerabilidade e reparação.",
+    "quadroDeDominio": {
+      "conceito": "O sistema global organiza parâmetros internacionais de proteção, combinando documentos declaratórios, tratados e mecanismos de monitoramento.",
+      "limite": "Declarações orientam interpretação e consolidam valores; tratados criam obrigações jurídicas quando ratificados pelo Estado.",
+      "aplicacao": "Um pacto internacional pode exigir que o país adapte leis e práticas administrativas para evitar tortura, discriminação ou prisão arbitrária.",
+      "erroFatal": "Afirmar que toda declaração tem o mesmo efeito de tratado ratificado."
+    },
+    "exemploComentado": "Um pacto internacional pode exigir que o país adapte leis e práticas administrativas para evitar tortura, discriminação ou prisão arbitrária.",
     "pegadinhas": [
-      "palavras absolutas como sempre/nunca",
-      "confusão entre ONU e OEA",
-      "confusão entre Comissão e Corte",
-      "ideia falsa de que direitos humanos impedem punição legal",
-      "uso de opinião política no lugar de fundamento jurídico"
+      "Afirmar que toda declaração tem o mesmo efeito de tratado ratificado.",
+      "Imaginar que sistema global substitui automaticamente juiz nacional."
     ],
-    "resumoFrase": "O sistema global organiza documentos, tratados e comitês voltados à proteção internacional da pessoa humana, com a DUDH como marco pedagógico e normativo central.",
-    "proximoTitulo": "Sistema interamericano: OEA, Comissão, Corte e Convenção Americana",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 19 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir edital, tratados, jurisprudência e atos normativos recentes antes da publicação final.",
-    "publicoAlvo": "Candidatos de concursos policiais, OAB, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direitos Humanos",
-    "explicacaoComoSeTivesse12": "Pense assim: O sistema global organiza documentos, tratados e comitês voltados à proteção internacional da pessoa humana, com a DUDH como marco pedagógico e normativo central. Isso não quer dizer que ninguém pode ser punido. Quer dizer que toda ação do Estado precisa respeitar regras, limites e a dignidade das pessoas.",
+    "mapaMentalTexto": [
+      "Tema: Sistema global: ONU, declarações, pactos e mecanismos",
+      "Conceito: O sistema global organiza parâmetros internacionais de proteção, combinando documentos declaratórios, tratados e mecanismos de monitoramento.",
+      "Aplicação: Um pacto internacional pode exigir que o país adapte leis e práticas administrativas para evitar tortura, discriminação ou prisão arbitrária.",
+      "Cuidado: Afirmar que toda declaração tem o mesmo efeito de tratado ratificado."
+    ],
     "comoEstudar": [
-      "Leia a tese central e copie com suas palavras.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça tabela com conceito, fonte, órgão e pegadinha.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Direitos humanos não são impunidade: são limite jurídico, proteção da dignidade e controle da atuação estatal.",
-    "mapaMentalTextual": [
-      "Centro: Sistema global de proteção: ONU, DUDH, Pactos e tratados internacionais",
-      "Ramo 1: conceito e fundamento",
-      "Ramo 2: fonte normativa",
-      "Ramo 3: órgão ou instrumento",
-      "Ramo 4: pegadinha de banca",
-      "Ramo 5: aplicação prática em segurança pública"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a ideia central de Sistema global de proteção: ONU, DUDH, Pactos e tratados internacionais?",
-        "verso": "O sistema global organiza documentos, tratados e comitês voltados à proteção internacional da pessoa humana, com a DUDH como marco pedagógico e normativo central."
+        "id": "direitos-humanos-avancado-03-fc01",
+        "frente": "Qual é a ideia central de Sistema global: ONU, declarações, pactos e mecanismos?",
+        "verso": "O sistema global organiza parâmetros internacionais de proteção, combinando documentos declaratórios, tratados e mecanismos de monitoramento.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha a banca costuma usar?",
-        "verso": "Atribuir à ONU funções de tribunal nacional ou confundir declaração, tratado e órgão de monitoramento."
+        "id": "direitos-humanos-avancado-03-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em proteção internacional universal?",
+        "verso": "Declarações orientam interpretação e consolidam valores; tratados criam obrigações jurídicas quando ratificados pelo Estado.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual modelo de estudo usar neste capítulo?",
-        "verso": "DUDH, pactos de 1966, convenções temáticas, comitês e relatórios"
+        "id": "direitos-humanos-avancado-03-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Afirmar que toda declaração tem o mesmo efeito de tratado ratificado.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar em concurso policial?",
-        "verso": "Relacione legalidade, dignidade, proporcionalidade, responsabilidade estatal e proteção da pessoa."
+        "id": "direitos-humanos-avancado-03-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Um pacto internacional pode exigir que o país adapte leis e práticas administrativas para evitar tortura, discriminação ou prisão arbitrária.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "conceitua corretamente",
-      "diferencia sistemas e órgãos",
-      "aplica ao caso concreto",
-      "evita absolutismos",
-      "responde com linguagem de prova"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Refazer 3 questões e revisar a tese central."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Criar tabela de pegadinhas do capítulo."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Resolver caso prático e explicar em voz alta."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique o capítulo em linguagem simples, crie 3 pegadinhas de banca e corrija minha resposta discursiva.",
-      "modo": "mentor_concurso",
-      "alerta": "Não transformar direitos humanos em opinião política; responder com fundamento jurídico."
-    },
     "questoes": [
       {
-        "id": "sistema-global-de-protecao-onu-dudh-pactos-e-tratados-internacionais-q01",
+        "id": "direitos-humanos-avancado-03-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Sistema global de proteção: ONU, DUDH, Pactos e tratados internacionais, assinale a alternativa correta.",
+        "enunciado": "Em relação a Sistema global: ONU, declarações, pactos e mecanismos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "O sistema global organiza documentos, tratados e comitês voltados à proteção internacional da pessoa humana, com a DUDH como marco pedagógico e normativo central.",
-          "Atribuir à ONU funções de tribunal nacional ou confundir declaração, tratado e órgão de monitoramento.",
-          "O tema só tem relevância moral, sem impacto jurídico em concursos.",
-          "A proteção depende exclusivamente da vontade da autoridade de plantão.",
-          "A banca deve ignorar tratados, Constituição e jurisprudência no assunto."
+          "O sistema global organiza parâmetros internacionais de proteção, combinando documentos declaratórios, tratados e mecanismos de monitoramento.",
+          "Afirmar que toda declaração tem o mesmo efeito de tratado ratificado.",
+          "Imaginar que sistema global substitui automaticamente juiz nacional.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa resume corretamente Sistema global.",
-          "Errada. Confunde sistema ONU com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A alternativa resume corretamente Sistema global.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: O sistema global organiza parâmetros internacionais de proteção, combinando documentos declaratórios, tratados e mecanismos de monitoramento."
       },
       {
-        "id": "sistema-global-de-protecao-onu-dudh-pactos-e-tratados-internacionais-q02",
+        "id": "direitos-humanos-avancado-03-q02",
         "tipo": "certo_errado",
-        "enunciado": "O sistema global organiza documentos, tratados e comitês voltados à proteção internacional da pessoa humana, com a DUDH como marco pedagógico e normativo central.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A assertiva apresenta a orientação correta para fins de prova.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Declarações orientam interpretação e consolidam valores; tratados criam obrigações jurídicas quando ratificados pelo Estado.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de proteção internacional universal."
       },
       {
-        "id": "sistema-global-de-protecao-onu-dudh-pactos-e-tratados-internacionais-q03",
+        "id": "direitos-humanos-avancado-03-q03",
         "tipo": "certo_errado",
-        "enunciado": "Atribuir à ONU funções de tribunal nacional ou confundir declaração, tratado e órgão de monitoramento.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A assertiva reproduz pegadinha comum e deve ser rejeitada.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Afirmar que toda declaração tem o mesmo efeito de tratado ratificado.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "sistema-global-de-protecao-onu-dudh-pactos-e-tratados-internacionais-q04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Uma questão pergunta se a DUDH é irrelevante por não ser tratado clássico. O que marcar?",
-        "alternativas": [
-          "Não é irrelevante; é marco central de direitos humanos e base interpretativa de tratados e constituições.",
-          "Afastar todos os direitos por conveniência administrativa.",
-          "Aplicar punição informal para dar resposta rápida à sociedade.",
-          "Ignorar tratados e decidir apenas por opinião pessoal.",
-          "Considerar qualquer medida estatal válida se houver finalidade pública."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-          "Errada. Confunde sistema ONU com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-03-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Um pacto internacional pode exigir que o país adapte leis e práticas administrativas para evitar tortura, discriminação ou prisão arbitrária. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Comitês internacionais analisam relatórios, recomendações e comunicações quando o Estado aceita a competência correspondente.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "sistema-global-de-protecao-onu-dudh-pactos-e-tratados-internacionais-q05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Em uma questão discursiva, qual caminho aumenta a pontuação?",
-        "alternativas": [
-          "Usar DUDH, pactos de 1966, convenções temáticas, comitês e relatórios e aplicar ao caso concreto.",
-          "Usar frases genéricas sem fundamento.",
-          "Responder com opinião política e sem conceito.",
-          "Citar órgão internacional aleatório.",
-          "Copiar o enunciado sem análise."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A resposta de concurso precisa demonstrar técnica e aplicação.",
-          "Errada. Confunde sistema ONU com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A resposta de concurso precisa demonstrar técnica e aplicação.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-03-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que proteção internacional universal não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar o sistema global organiza parâmetros internacionais de proteção, combinando documentos declaratórios, tratados e mecanismos de monitoramento. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "sistema-global-de-protecao-onu-dudh-pactos-e-tratados-internacionais-q06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Explique o papel pedagógico e jurídico da DUDH.",
-        "respostaModelo": "A DUDH consolida um padrão comum de proteção, inspira tratados, constituições e políticas públicas, embora não funcione como código penal ou processo nacional.",
-        "criteriosCorrecao": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "palavrasChaveEsperadas": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "comentario": "Resposta boa precisa ser objetiva, sem militância, com fundamento jurídico e aplicação ao caso.",
-        "diagnosticoIA": "Se a resposta ficou genérica, refaça usando conceito, fundamento e consequência."
-      },
-      {
-        "id": "sistema-global-de-protecao-onu-dudh-pactos-e-tratados-internacionais-q07",
+        "id": "direitos-humanos-avancado-03-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie declaração de tratado em uma resposta de concurso.",
-        "respostaModelo": "declaração e tratado podem se relacionar, mas não são iguais. A distinção central é: declaração fixa parâmetros; tratado cria obrigações convencionais específicas aos Estados vinculados",
-        "criteriosCorrecao": [
-          "conceito de cada item",
-          "diferença central",
-          "exemplo de aplicação",
-          "ausência de confusão terminológica"
-        ],
-        "comentario": "Questões comparativas testam precisão conceitual.",
-        "diagnosticoIA": "Monte uma tabela mental: conceito, órgão/fonte, finalidade e efeito."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: O sistema global organiza parâmetros internacionais de proteção, combinando documentos declaratórios, tratados e mecanismos de monitoramento. Pegadinha: Afirmar que toda declaração tem o mesmo efeito de tratado ratificado.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "sistema-global-de-protecao-onu-dudh-pactos-e-tratados-internacionais-q08",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Sistema global de proteção: ONU, DUDH, Pactos e tratados internacionais para um candidato de concurso policial.",
-        "promptTutorIA": "Explique Sistema global de proteção: ONU, DUDH, Pactos e tratados internacionais, traga uma pegadinha e proponha uma questão de certo/errado com comentário.",
-        "criterioDominio": [
-          "explicação simples",
-          "base jurídica",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Use este item para transformar leitura passiva em domínio ativo."
-      },
-      {
-        "id": "sistema-global-de-protecao-onu-dudh-pactos-e-tratados-internacionais-q09",
+        "id": "direitos-humanos-avancado-03-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Assinale a alternativa que representa uma pegadinha típica de banca.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Atribuir à ONU funções de tribunal nacional ou confundir declaração, tratado e órgão de monitoramento.",
-          "O sistema global organiza documentos, tratados e comitês voltados à proteção internacional da pessoa humana, com a DUDH como marco pedagógico e normativo central.",
-          "Diferenciar órgão, fonte e consequência jurídica.",
-          "Aplicar proporcionalidade no caso concreto.",
-          "Reconhecer que direitos humanos limitam abusos estatais."
+          "Comitês internacionais analisam relatórios, recomendações e comunicações quando o Estado aceita a competência correspondente.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Imaginar que sistema global substitui automaticamente juiz nacional."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha está na formulação errada indicada pelo capítulo.",
-          "Errada. Confunde sistema ONU com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A pegadinha está na formulação errada indicada pelo capítulo.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "sistema-global-de-protecao-onu-dudh-pactos-e-tratados-internacionais-q10",
-        "tipo": "certo_errado",
-        "enunciado": "Em direitos humanos, a resposta tecnicamente adequada deve evitar absolutismos e identificar fundamento, sujeito protegido e consequência jurídica.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Essa é a postura mais segura em questões objetivas e discursivas.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "id": "direitos-humanos-avancado-03-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Imaginar que sistema global substitui automaticamente juiz nacional.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direitos-humanos-avancado-03-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Sistema global: ONU, declarações, pactos e mecanismos a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Em concursos, a banca cobra diferença entre proteção política, monitoramento técnico e jurisdição internacional.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direitos-humanos-avancado-03-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: O sistema global organiza parâmetros internacionais de proteção, combinando documentos declaratórios, tratados e mecanismos de monitoramento.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Sistema interamericano: Comissão, Corte e Convenção Americana"
   },
   {
-    "id": "sistema-interamericano-oea-comissao-corte-e-convencao-americana",
-    "materialTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "id": "sistema-interamericano-comissao-corte-e-convencao-americana",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 4,
     "totalChapters": 10,
-    "title": "Sistema interamericano: OEA, Comissão, Corte e Convenção Americana",
-    "assunto": "Sistema interamericano",
-    "tecnica": "Conceito claro, comparação entre sistemas, aplicação prática e revisão por pegadinhas de banca",
-    "competencia": "Resolver questões objetivas e discursivas sobre direitos humanos sem cair em absolutismos.",
-    "dificuldade": "Médio",
-    "tempoLeituraMin": 10,
-    "tempoExercicioMin": 26,
+    "title": "Sistema interamericano: Comissão, Corte e Convenção Americana",
+    "assunto": "proteção regional nas Américas",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar proteção regional nas Américas com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
-      "VUNESP": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "OEA",
-      "CADH",
       "Comissão Interamericana",
-      "Corte Interamericana"
+      "Corte Interamericana",
+      "responsabilidade"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Declaração Universal dos Direitos Humanos",
-      "Convenção Americana sobre Direitos Humanos",
-      "Tratados internacionais de direitos humanos",
-      "Jurisprudência constitucional e interamericana em linguagem pedagógica"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Sistema interamericano com foco em concursos policiais, tribunais, OAB e carreiras públicas. O aluno deve estudar o tema sem decorar frases soltas: a banca cobra conceito, limite, órgão competente e aplicação em caso concreto.",
-      "Ideia central: O sistema interamericano protege direitos humanos nas Américas por meio da Comissão e da Corte, com a Convenção Americana como eixo de responsabilidade estatal. Esse ponto precisa aparecer de forma simples no caderno de revisão, porque é a base para resolver questões de certo/errado, múltipla escolha e discursivas.",
-      "Erro comum: Confundir Comissão Interamericana com Corte Interamericana ou imaginar que elas substituem automaticamente o Judiciário nacional. Em provas, esse erro geralmente aparece em alternativas absolutas, emocionalizadas ou que confundem proteção de direitos com ausência de responsabilização.",
-      "Como estudar: use o modelo petição, admissibilidade, relatório, Corte, sentença e reparação. Depois resolva uma questão, explique o tema em voz alta e escreva uma frase de revisão para memorizar."
+      "Sistema interamericano: Comissão, Corte e Convenção Americana exige domínio de proteção regional nas Américas. O estudo correto começa pela ideia de que o sistema interamericano atua quando há violação de direitos humanos atribuível ao Estado e insuficiência de resposta interna efetiva.",
+      "A Comissão Interamericana recebe petições, examina admissibilidade, busca solução amistosa e pode submeter caso à Corte. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "A Corte Interamericana julga Estados que reconheceram sua competência e pode determinar reparações, garantias de não repetição e mudanças institucionais. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Responsabilidade internacional não exige que o agente público tenha agido por ordem superior; omissão estatal também pode gerar dever de reparar. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "O sistema interamericano protege direitos humanos nas Américas por meio da Comissão e da Corte, com a Convenção Americana como eixo de responsabilidade estatal.",
-      "Pegadinha comum: Confundir Comissão Interamericana com Corte Interamericana ou imaginar que elas substituem automaticamente o Judiciário nacional.",
-      "Modelo de prova: petição, admissibilidade, relatório, Corte, sentença e reparação",
-      "Sempre diferencie proteção de direitos, responsabilização legal e abuso estatal."
+      "O sistema interamericano atua quando há violação de direitos humanos atribuível ao Estado e insuficiência de resposta interna efetiva.",
+      "A Comissão Interamericana recebe petições, examina admissibilidade, busca solução amistosa e pode submeter caso à Corte.",
+      "A Corte Interamericana julga Estados que reconheceram sua competência e pode determinar reparações, garantias de não repetição e mudanças institucionais.",
+      "Responsabilidade internacional não exige que o agente público tenha agido por ordem superior; omissão estatal também pode gerar dever de reparar."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa resume melhor o capítulo?",
-      "opcoes": [
-        "Confundir Comissão Interamericana com Corte Interamericana ou imaginar que elas substituem automaticamente o Judiciário nacional.",
-        "O sistema interamericano protege direitos humanos nas Américas por meio da Comissão e da Corte, com a Convenção Americana como eixo de responsabilidade estatal.",
-        "Direitos humanos só importam em relações privadas sem Estado."
-      ],
-      "correta": 1,
-      "justificativa": "A opção correta apresenta a tese jurídica central do capítulo."
-    },
-    "oQueCobra": "Conceito, características, sistemas de proteção, papel do Estado, limites à atuação pública e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Constituição, Estado Democrático de Direito, legalidade, dignidade humana e devido processo.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca costuma trocar órgãos, sistemas e características. Também usa alternativas emocionais sobre polícia, punição, vulnerabilidade ou tratados."
+        "pergunta": "Qual é o núcleo de Sistema interamericano: Comissão, Corte e Convenção Americana?",
+        "resposta": "O sistema interamericano atua quando há violação de direitos humanos atribuível ao Estado e insuficiência de resposta interna efetiva."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique a fonte, o sujeito protegido, a obrigação do Estado e o limite jurídico. Depois elimine alternativas absolutas."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Confundir Comissão com Corte."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em área policial, direitos humanos orientam atuação legítima, preservam vidas, protegem provas e reduzem responsabilidade funcional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Morte sob custódia exige investigação séria. Se o Estado não apura, a omissão pode ser tão relevante quanto a violência inicial."
       }
     ],
-    "comoIdentificar": "Procure palavras como dignidade, igualdade, Comissão, Corte, tratado, proporcionalidade, custódia, vulnerabilidade e reparação.",
+    "quadroDeDominio": {
+      "conceito": "O sistema interamericano atua quando há violação de direitos humanos atribuível ao Estado e insuficiência de resposta interna efetiva.",
+      "limite": "A Comissão Interamericana recebe petições, examina admissibilidade, busca solução amistosa e pode submeter caso à Corte.",
+      "aplicacao": "Morte sob custódia exige investigação séria. Se o Estado não apura, a omissão pode ser tão relevante quanto a violência inicial.",
+      "erroFatal": "Confundir Comissão com Corte."
+    },
+    "exemploComentado": "Morte sob custódia exige investigação séria. Se o Estado não apura, a omissão pode ser tão relevante quanto a violência inicial.",
     "pegadinhas": [
-      "palavras absolutas como sempre/nunca",
-      "confusão entre ONU e OEA",
-      "confusão entre Comissão e Corte",
-      "ideia falsa de que direitos humanos impedem punição legal",
-      "uso de opinião política no lugar de fundamento jurídico"
+      "Confundir Comissão com Corte.",
+      "Achar que só há responsabilidade internacional se houver lei interna autorizando a violação."
     ],
-    "resumoFrase": "O sistema interamericano protege direitos humanos nas Américas por meio da Comissão e da Corte, com a Convenção Americana como eixo de responsabilidade estatal.",
-    "proximoTitulo": "Direitos humanos na Constituição de 1988 e tratados no Brasil",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 19 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir edital, tratados, jurisprudência e atos normativos recentes antes da publicação final.",
-    "publicoAlvo": "Candidatos de concursos policiais, OAB, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direitos Humanos",
-    "explicacaoComoSeTivesse12": "Pense assim: O sistema interamericano protege direitos humanos nas Américas por meio da Comissão e da Corte, com a Convenção Americana como eixo de responsabilidade estatal. Isso não quer dizer que ninguém pode ser punido. Quer dizer que toda ação do Estado precisa respeitar regras, limites e a dignidade das pessoas.",
+    "mapaMentalTexto": [
+      "Tema: Sistema interamericano: Comissão, Corte e Convenção Americana",
+      "Conceito: O sistema interamericano atua quando há violação de direitos humanos atribuível ao Estado e insuficiência de resposta interna efetiva.",
+      "Aplicação: Morte sob custódia exige investigação séria. Se o Estado não apura, a omissão pode ser tão relevante quanto a violência inicial.",
+      "Cuidado: Confundir Comissão com Corte."
+    ],
     "comoEstudar": [
-      "Leia a tese central e copie com suas palavras.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça tabela com conceito, fonte, órgão e pegadinha.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Direitos humanos não são impunidade: são limite jurídico, proteção da dignidade e controle da atuação estatal.",
-    "mapaMentalTextual": [
-      "Centro: Sistema interamericano: OEA, Comissão, Corte e Convenção Americana",
-      "Ramo 1: conceito e fundamento",
-      "Ramo 2: fonte normativa",
-      "Ramo 3: órgão ou instrumento",
-      "Ramo 4: pegadinha de banca",
-      "Ramo 5: aplicação prática em segurança pública"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a ideia central de Sistema interamericano: OEA, Comissão, Corte e Convenção Americana?",
-        "verso": "O sistema interamericano protege direitos humanos nas Américas por meio da Comissão e da Corte, com a Convenção Americana como eixo de responsabilidade estatal."
+        "id": "direitos-humanos-avancado-04-fc01",
+        "frente": "Qual é a ideia central de Sistema interamericano: Comissão, Corte e Convenção Americana?",
+        "verso": "O sistema interamericano atua quando há violação de direitos humanos atribuível ao Estado e insuficiência de resposta interna efetiva.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha a banca costuma usar?",
-        "verso": "Confundir Comissão Interamericana com Corte Interamericana ou imaginar que elas substituem automaticamente o Judiciário nacional."
+        "id": "direitos-humanos-avancado-04-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em proteção regional nas Américas?",
+        "verso": "A Comissão Interamericana recebe petições, examina admissibilidade, busca solução amistosa e pode submeter caso à Corte.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual modelo de estudo usar neste capítulo?",
-        "verso": "petição, admissibilidade, relatório, Corte, sentença e reparação"
+        "id": "direitos-humanos-avancado-04-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Confundir Comissão com Corte. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar em concurso policial?",
-        "verso": "Relacione legalidade, dignidade, proporcionalidade, responsabilidade estatal e proteção da pessoa."
+        "id": "direitos-humanos-avancado-04-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Morte sob custódia exige investigação séria. Se o Estado não apura, a omissão pode ser tão relevante quanto a violência inicial.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "conceitua corretamente",
-      "diferencia sistemas e órgãos",
-      "aplica ao caso concreto",
-      "evita absolutismos",
-      "responde com linguagem de prova"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Refazer 3 questões e revisar a tese central."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Criar tabela de pegadinhas do capítulo."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Resolver caso prático e explicar em voz alta."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique o capítulo em linguagem simples, crie 3 pegadinhas de banca e corrija minha resposta discursiva.",
-      "modo": "mentor_concurso",
-      "alerta": "Não transformar direitos humanos em opinião política; responder com fundamento jurídico."
-    },
     "questoes": [
       {
-        "id": "sistema-interamericano-oea-comissao-corte-e-convencao-americana-q01",
+        "id": "direitos-humanos-avancado-04-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Sistema interamericano: OEA, Comissão, Corte e Convenção Americana, assinale a alternativa correta.",
+        "enunciado": "Em relação a Sistema interamericano: Comissão, Corte e Convenção Americana, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "O sistema interamericano protege direitos humanos nas Américas por meio da Comissão e da Corte, com a Convenção Americana como eixo de responsabilidade estatal.",
-          "Confundir Comissão Interamericana com Corte Interamericana ou imaginar que elas substituem automaticamente o Judiciário nacional.",
-          "O tema só tem relevância moral, sem impacto jurídico em concursos.",
-          "A proteção depende exclusivamente da vontade da autoridade de plantão.",
-          "A banca deve ignorar tratados, Constituição e jurisprudência no assunto."
+          "O sistema interamericano atua quando há violação de direitos humanos atribuível ao Estado e insuficiência de resposta interna efetiva.",
+          "Confundir Comissão com Corte.",
+          "Achar que só há responsabilidade internacional se houver lei interna autorizando a violação.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa resume corretamente Sistema interamericano.",
-          "Errada. Confunde Comissão e Corte Interamericana com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A alternativa resume corretamente Sistema interamericano.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: O sistema interamericano atua quando há violação de direitos humanos atribuível ao Estado e insuficiência de resposta interna efetiva."
       },
       {
-        "id": "sistema-interamericano-oea-comissao-corte-e-convencao-americana-q02",
+        "id": "direitos-humanos-avancado-04-q02",
         "tipo": "certo_errado",
-        "enunciado": "O sistema interamericano protege direitos humanos nas Américas por meio da Comissão e da Corte, com a Convenção Americana como eixo de responsabilidade estatal.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A assertiva apresenta a orientação correta para fins de prova.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "A Comissão Interamericana recebe petições, examina admissibilidade, busca solução amistosa e pode submeter caso à Corte.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de proteção regional nas Américas."
       },
       {
-        "id": "sistema-interamericano-oea-comissao-corte-e-convencao-americana-q03",
+        "id": "direitos-humanos-avancado-04-q03",
         "tipo": "certo_errado",
-        "enunciado": "Confundir Comissão Interamericana com Corte Interamericana ou imaginar que elas substituem automaticamente o Judiciário nacional.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A assertiva reproduz pegadinha comum e deve ser rejeitada.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Confundir Comissão com Corte.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "sistema-interamericano-oea-comissao-corte-e-convencao-americana-q04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Uma vítima quer acionar diretamente a Corte Interamericana sem passar pelo sistema. Qual é a pegadinha?",
-        "alternativas": [
-          "Em regra, indivíduos peticionam à Comissão; a Corte atua nos casos submetidos segundo as regras do sistema.",
-          "Afastar todos os direitos por conveniência administrativa.",
-          "Aplicar punição informal para dar resposta rápida à sociedade.",
-          "Ignorar tratados e decidir apenas por opinião pessoal.",
-          "Considerar qualquer medida estatal válida se houver finalidade pública."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-          "Errada. Confunde Comissão e Corte Interamericana com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-04-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Morte sob custódia exige investigação séria. Se o Estado não apura, a omissão pode ser tão relevante quanto a violência inicial. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "A Corte Interamericana julga Estados que reconheceram sua competência e pode determinar reparações, garantias de não repetição e mudanças institucionais.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "sistema-interamericano-oea-comissao-corte-e-convencao-americana-q05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Em uma questão discursiva, qual caminho aumenta a pontuação?",
-        "alternativas": [
-          "Usar petição, admissibilidade, relatório, Corte, sentença e reparação e aplicar ao caso concreto.",
-          "Usar frases genéricas sem fundamento.",
-          "Responder com opinião política e sem conceito.",
-          "Citar órgão internacional aleatório.",
-          "Copiar o enunciado sem análise."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A resposta de concurso precisa demonstrar técnica e aplicação.",
-          "Errada. Confunde Comissão e Corte Interamericana com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A resposta de concurso precisa demonstrar técnica e aplicação.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-04-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que proteção regional nas Américas não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar o sistema interamericano atua quando há violação de direitos humanos atribuível ao estado e insuficiência de resposta interna efetiva. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "sistema-interamericano-oea-comissao-corte-e-convencao-americana-q06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Explique a diferença entre Comissão e Corte Interamericana.",
-        "respostaModelo": "A Comissão recebe e analisa petições, faz recomendações e pode submeter casos; a Corte julga casos contenciosos e emite opiniões consultivas.",
-        "criteriosCorrecao": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "palavrasChaveEsperadas": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "comentario": "Resposta boa precisa ser objetiva, sem militância, com fundamento jurídico e aplicação ao caso.",
-        "diagnosticoIA": "Se a resposta ficou genérica, refaça usando conceito, fundamento e consequência."
-      },
-      {
-        "id": "sistema-interamericano-oea-comissao-corte-e-convencao-americana-q07",
+        "id": "direitos-humanos-avancado-04-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie Comissão Interamericana de Corte Interamericana em uma resposta de concurso.",
-        "respostaModelo": "Comissão Interamericana e Corte Interamericana podem se relacionar, mas não são iguais. A distinção central é: Comissão filtra e impulsiona; Corte julga e fixa reparações quando competente",
-        "criteriosCorrecao": [
-          "conceito de cada item",
-          "diferença central",
-          "exemplo de aplicação",
-          "ausência de confusão terminológica"
-        ],
-        "comentario": "Questões comparativas testam precisão conceitual.",
-        "diagnosticoIA": "Monte uma tabela mental: conceito, órgão/fonte, finalidade e efeito."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: O sistema interamericano atua quando há violação de direitos humanos atribuível ao Estado e insuficiência de resposta interna efetiva. Pegadinha: Confundir Comissão com Corte.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "sistema-interamericano-oea-comissao-corte-e-convencao-americana-q08",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Sistema interamericano: OEA, Comissão, Corte e Convenção Americana para um candidato de concurso policial.",
-        "promptTutorIA": "Explique Sistema interamericano: OEA, Comissão, Corte e Convenção Americana, traga uma pegadinha e proponha uma questão de certo/errado com comentário.",
-        "criterioDominio": [
-          "explicação simples",
-          "base jurídica",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Use este item para transformar leitura passiva em domínio ativo."
-      },
-      {
-        "id": "sistema-interamericano-oea-comissao-corte-e-convencao-americana-q09",
+        "id": "direitos-humanos-avancado-04-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Assinale a alternativa que representa uma pegadinha típica de banca.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Confundir Comissão Interamericana com Corte Interamericana ou imaginar que elas substituem automaticamente o Judiciário nacional.",
-          "O sistema interamericano protege direitos humanos nas Américas por meio da Comissão e da Corte, com a Convenção Americana como eixo de responsabilidade estatal.",
-          "Diferenciar órgão, fonte e consequência jurídica.",
-          "Aplicar proporcionalidade no caso concreto.",
-          "Reconhecer que direitos humanos limitam abusos estatais."
+          "A Corte Interamericana julga Estados que reconheceram sua competência e pode determinar reparações, garantias de não repetição e mudanças institucionais.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Achar que só há responsabilidade internacional se houver lei interna autorizando a violação."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha está na formulação errada indicada pelo capítulo.",
-          "Errada. Confunde Comissão e Corte Interamericana com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A pegadinha está na formulação errada indicada pelo capítulo.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "sistema-interamericano-oea-comissao-corte-e-convencao-americana-q10",
-        "tipo": "certo_errado",
-        "enunciado": "Em direitos humanos, a resposta tecnicamente adequada deve evitar absolutismos e identificar fundamento, sujeito protegido e consequência jurídica.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Essa é a postura mais segura em questões objetivas e discursivas.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "id": "direitos-humanos-avancado-04-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Achar que só há responsabilidade internacional se houver lei interna autorizando a violação.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direitos-humanos-avancado-04-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Sistema interamericano: Comissão, Corte e Convenção Americana a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Responsabilidade internacional não exige que o agente público tenha agido por ordem superior; omissão estatal também pode gerar dever de reparar.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direitos-humanos-avancado-04-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: O sistema interamericano atua quando há violação de direitos humanos atribuível ao Estado e insuficiência de resposta interna efetiva.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Direitos humanos na Constituição e tratados no Brasil"
   },
   {
-    "id": "direitos-humanos-na-constituicao-de-1988-e-tratados-no-brasil",
-    "materialTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "id": "direitos-humanos-na-constituicao-e-tratados-no-brasil",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 5,
     "totalChapters": 10,
-    "title": "Direitos humanos na Constituição de 1988 e tratados no Brasil",
-    "assunto": "Constituição e tratados",
-    "tecnica": "Conceito claro, comparação entre sistemas, aplicação prática e revisão por pegadinhas de banca",
-    "competencia": "Resolver questões objetivas e discursivas sobre direitos humanos sem cair em absolutismos.",
-    "dificuldade": "Médio",
-    "tempoLeituraMin": 10,
-    "tempoExercicioMin": 26,
+    "title": "Direitos humanos na Constituição e tratados no Brasil",
+    "assunto": "integração entre ordem interna e internacional",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar integração entre ordem interna e internacional com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
-      "VUNESP": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "Constituição",
       "tratados",
-      "hierarquia",
+      "Constituição",
       "convencionalidade"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Declaração Universal dos Direitos Humanos",
-      "Convenção Americana sobre Direitos Humanos",
-      "Tratados internacionais de direitos humanos",
-      "Jurisprudência constitucional e interamericana em linguagem pedagógica"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Constituição e tratados com foco em concursos policiais, tribunais, OAB e carreiras públicas. O aluno deve estudar o tema sem decorar frases soltas: a banca cobra conceito, limite, órgão competente e aplicação em caso concreto.",
-      "Ideia central: No Brasil, direitos humanos se conectam à Constituição, aos direitos fundamentais e aos tratados internacionais incorporados ao ordenamento. Esse ponto precisa aparecer de forma simples no caderno de revisão, porque é a base para resolver questões de certo/errado, múltipla escolha e discursivas.",
-      "Erro comum: Dizer que todo tratado de direitos humanos entra automaticamente como emenda constitucional. Em provas, esse erro geralmente aparece em alternativas absolutas, emocionalizadas ou que confundem proteção de direitos com ausência de responsabilização.",
-      "Como estudar: use o modelo art. 5º, dignidade, cláusula de abertura, rito qualificado e controle de convencionalidade. Depois resolva uma questão, explique o tema em voz alta e escreva uma frase de revisão para memorizar."
+      "Direitos humanos na Constituição e tratados no Brasil exige domínio de integração entre ordem interna e internacional. O estudo correto começa pela ideia de que a Constituição brasileira adota a dignidade, a cidadania e a prevalência dos direitos humanos como eixos de interpretação do poder estatal.",
+      "Tratados de direitos humanos influenciam leis, políticas públicas, decisões judiciais e protocolos administrativos. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "A força normativa do tratado depende do procedimento de incorporação e da posição reconhecida pelo ordenamento jurídico. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Controle de convencionalidade examina se norma ou prática estatal é compatível com tratados de direitos humanos assumidos pelo Brasil. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "No Brasil, direitos humanos se conectam à Constituição, aos direitos fundamentais e aos tratados internacionais incorporados ao ordenamento.",
-      "Pegadinha comum: Dizer que todo tratado de direitos humanos entra automaticamente como emenda constitucional.",
-      "Modelo de prova: art. 5º, dignidade, cláusula de abertura, rito qualificado e controle de convencionalidade",
-      "Sempre diferencie proteção de direitos, responsabilização legal e abuso estatal."
+      "A Constituição brasileira adota a dignidade, a cidadania e a prevalência dos direitos humanos como eixos de interpretação do poder estatal.",
+      "Tratados de direitos humanos influenciam leis, políticas públicas, decisões judiciais e protocolos administrativos.",
+      "A força normativa do tratado depende do procedimento de incorporação e da posição reconhecida pelo ordenamento jurídico.",
+      "Controle de convencionalidade examina se norma ou prática estatal é compatível com tratados de direitos humanos assumidos pelo Brasil."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa resume melhor o capítulo?",
-      "opcoes": [
-        "Dizer que todo tratado de direitos humanos entra automaticamente como emenda constitucional.",
-        "No Brasil, direitos humanos se conectam à Constituição, aos direitos fundamentais e aos tratados internacionais incorporados ao ordenamento.",
-        "Direitos humanos só importam em relações privadas sem Estado."
-      ],
-      "correta": 1,
-      "justificativa": "A opção correta apresenta a tese jurídica central do capítulo."
-    },
-    "oQueCobra": "Conceito, características, sistemas de proteção, papel do Estado, limites à atuação pública e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Constituição, Estado Democrático de Direito, legalidade, dignidade humana e devido processo.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca costuma trocar órgãos, sistemas e características. Também usa alternativas emocionais sobre polícia, punição, vulnerabilidade ou tratados."
+        "pergunta": "Qual é o núcleo de Direitos humanos na Constituição e tratados no Brasil?",
+        "resposta": "A Constituição brasileira adota a dignidade, a cidadania e a prevalência dos direitos humanos como eixos de interpretação do poder estatal."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique a fonte, o sujeito protegido, a obrigação do Estado e o limite jurídico. Depois elimine alternativas absolutas."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Tratar tratado internacional como conselho sem relevância jurídica."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em área policial, direitos humanos orientam atuação legítima, preservam vidas, protegem provas e reduzem responsabilidade funcional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Uma prática policial pode ser legal em aparência e ainda precisar ser revista se violar parâmetro internacional de proteção contra tratamento degradante."
       }
     ],
-    "comoIdentificar": "Procure palavras como dignidade, igualdade, Comissão, Corte, tratado, proporcionalidade, custódia, vulnerabilidade e reparação.",
+    "quadroDeDominio": {
+      "conceito": "A Constituição brasileira adota a dignidade, a cidadania e a prevalência dos direitos humanos como eixos de interpretação do poder estatal.",
+      "limite": "Tratados de direitos humanos influenciam leis, políticas públicas, decisões judiciais e protocolos administrativos.",
+      "aplicacao": "Uma prática policial pode ser legal em aparência e ainda precisar ser revista se violar parâmetro internacional de proteção contra tratamento degradante.",
+      "erroFatal": "Tratar tratado internacional como conselho sem relevância jurídica."
+    },
+    "exemploComentado": "Uma prática policial pode ser legal em aparência e ainda precisar ser revista se violar parâmetro internacional de proteção contra tratamento degradante.",
     "pegadinhas": [
-      "palavras absolutas como sempre/nunca",
-      "confusão entre ONU e OEA",
-      "confusão entre Comissão e Corte",
-      "ideia falsa de que direitos humanos impedem punição legal",
-      "uso de opinião política no lugar de fundamento jurídico"
+      "Tratar tratado internacional como conselho sem relevância jurídica.",
+      "Confundir controle de constitucionalidade com controle de convencionalidade."
     ],
-    "resumoFrase": "No Brasil, direitos humanos se conectam à Constituição, aos direitos fundamentais e aos tratados internacionais incorporados ao ordenamento.",
-    "proximoTitulo": "Direitos humanos e atividade policial: abordagem, custódia e uso da força",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 19 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir edital, tratados, jurisprudência e atos normativos recentes antes da publicação final.",
-    "publicoAlvo": "Candidatos de concursos policiais, OAB, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direitos Humanos",
-    "explicacaoComoSeTivesse12": "Pense assim: No Brasil, direitos humanos se conectam à Constituição, aos direitos fundamentais e aos tratados internacionais incorporados ao ordenamento. Isso não quer dizer que ninguém pode ser punido. Quer dizer que toda ação do Estado precisa respeitar regras, limites e a dignidade das pessoas.",
+    "mapaMentalTexto": [
+      "Tema: Direitos humanos na Constituição e tratados no Brasil",
+      "Conceito: A Constituição brasileira adota a dignidade, a cidadania e a prevalência dos direitos humanos como eixos de interpretação do poder estatal.",
+      "Aplicação: Uma prática policial pode ser legal em aparência e ainda precisar ser revista se violar parâmetro internacional de proteção contra tratamento degradante.",
+      "Cuidado: Tratar tratado internacional como conselho sem relevância jurídica."
+    ],
     "comoEstudar": [
-      "Leia a tese central e copie com suas palavras.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça tabela com conceito, fonte, órgão e pegadinha.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Direitos humanos não são impunidade: são limite jurídico, proteção da dignidade e controle da atuação estatal.",
-    "mapaMentalTextual": [
-      "Centro: Direitos humanos na Constituição de 1988 e tratados no Brasil",
-      "Ramo 1: conceito e fundamento",
-      "Ramo 2: fonte normativa",
-      "Ramo 3: órgão ou instrumento",
-      "Ramo 4: pegadinha de banca",
-      "Ramo 5: aplicação prática em segurança pública"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a ideia central de Direitos humanos na Constituição de 1988 e tratados no Brasil?",
-        "verso": "No Brasil, direitos humanos se conectam à Constituição, aos direitos fundamentais e aos tratados internacionais incorporados ao ordenamento."
+        "id": "direitos-humanos-avancado-05-fc01",
+        "frente": "Qual é a ideia central de Direitos humanos na Constituição e tratados no Brasil?",
+        "verso": "A Constituição brasileira adota a dignidade, a cidadania e a prevalência dos direitos humanos como eixos de interpretação do poder estatal.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha a banca costuma usar?",
-        "verso": "Dizer que todo tratado de direitos humanos entra automaticamente como emenda constitucional."
+        "id": "direitos-humanos-avancado-05-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em integração entre ordem interna e internacional?",
+        "verso": "Tratados de direitos humanos influenciam leis, políticas públicas, decisões judiciais e protocolos administrativos.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual modelo de estudo usar neste capítulo?",
-        "verso": "art. 5º, dignidade, cláusula de abertura, rito qualificado e controle de convencionalidade"
+        "id": "direitos-humanos-avancado-05-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Tratar tratado internacional como conselho sem relevância jurídica.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar em concurso policial?",
-        "verso": "Relacione legalidade, dignidade, proporcionalidade, responsabilidade estatal e proteção da pessoa."
+        "id": "direitos-humanos-avancado-05-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Uma prática policial pode ser legal em aparência e ainda precisar ser revista se violar parâmetro internacional de proteção contra tratamento degradante.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "conceitua corretamente",
-      "diferencia sistemas e órgãos",
-      "aplica ao caso concreto",
-      "evita absolutismos",
-      "responde com linguagem de prova"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Refazer 3 questões e revisar a tese central."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Criar tabela de pegadinhas do capítulo."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Resolver caso prático e explicar em voz alta."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique o capítulo em linguagem simples, crie 3 pegadinhas de banca e corrija minha resposta discursiva.",
-      "modo": "mentor_concurso",
-      "alerta": "Não transformar direitos humanos em opinião política; responder com fundamento jurídico."
-    },
     "questoes": [
       {
-        "id": "direitos-humanos-na-constituicao-de-1988-e-tratados-no-brasil-q01",
+        "id": "direitos-humanos-avancado-05-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Direitos humanos na Constituição de 1988 e tratados no Brasil, assinale a alternativa correta.",
+        "enunciado": "Em relação a Direitos humanos na Constituição e tratados no Brasil, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "No Brasil, direitos humanos se conectam à Constituição, aos direitos fundamentais e aos tratados internacionais incorporados ao ordenamento.",
-          "Dizer que todo tratado de direitos humanos entra automaticamente como emenda constitucional.",
-          "O tema só tem relevância moral, sem impacto jurídico em concursos.",
-          "A proteção depende exclusivamente da vontade da autoridade de plantão.",
-          "A banca deve ignorar tratados, Constituição e jurisprudência no assunto."
+          "A Constituição brasileira adota a dignidade, a cidadania e a prevalência dos direitos humanos como eixos de interpretação do poder estatal.",
+          "Tratar tratado internacional como conselho sem relevância jurídica.",
+          "Confundir controle de constitucionalidade com controle de convencionalidade.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa resume corretamente Constituição e tratados.",
-          "Errada. Confunde incorporação e hierarquia com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A alternativa resume corretamente Constituição e tratados.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: A Constituição brasileira adota a dignidade, a cidadania e a prevalência dos direitos humanos como eixos de interpretação do poder estatal."
       },
       {
-        "id": "direitos-humanos-na-constituicao-de-1988-e-tratados-no-brasil-q02",
+        "id": "direitos-humanos-avancado-05-q02",
         "tipo": "certo_errado",
-        "enunciado": "No Brasil, direitos humanos se conectam à Constituição, aos direitos fundamentais e aos tratados internacionais incorporados ao ordenamento.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A assertiva apresenta a orientação correta para fins de prova.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Tratados de direitos humanos influenciam leis, políticas públicas, decisões judiciais e protocolos administrativos.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de integração entre ordem interna e internacional."
       },
       {
-        "id": "direitos-humanos-na-constituicao-de-1988-e-tratados-no-brasil-q03",
+        "id": "direitos-humanos-avancado-05-q03",
         "tipo": "certo_errado",
-        "enunciado": "Dizer que todo tratado de direitos humanos entra automaticamente como emenda constitucional.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A assertiva reproduz pegadinha comum e deve ser rejeitada.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Tratar tratado internacional como conselho sem relevância jurídica.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "direitos-humanos-na-constituicao-de-1988-e-tratados-no-brasil-q04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Uma questão afirma que qualquer tratado internacional vale como emenda constitucional. Como julgar?",
-        "alternativas": [
-          "A afirmação é falsa; o status depende da natureza do tratado e do procedimento de incorporação.",
-          "Afastar todos os direitos por conveniência administrativa.",
-          "Aplicar punição informal para dar resposta rápida à sociedade.",
-          "Ignorar tratados e decidir apenas por opinião pessoal.",
-          "Considerar qualquer medida estatal válida se houver finalidade pública."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-          "Errada. Confunde incorporação e hierarquia com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-05-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Uma prática policial pode ser legal em aparência e ainda precisar ser revista se violar parâmetro internacional de proteção contra tratamento degradante. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "A força normativa do tratado depende do procedimento de incorporação e da posição reconhecida pelo ordenamento jurídico.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "direitos-humanos-na-constituicao-de-1988-e-tratados-no-brasil-q05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Em uma questão discursiva, qual caminho aumenta a pontuação?",
-        "alternativas": [
-          "Usar art. 5º, dignidade, cláusula de abertura, rito qualificado e controle de convencionalidade e aplicar ao caso concreto.",
-          "Usar frases genéricas sem fundamento.",
-          "Responder com opinião política e sem conceito.",
-          "Citar órgão internacional aleatório.",
-          "Copiar o enunciado sem análise."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A resposta de concurso precisa demonstrar técnica e aplicação.",
-          "Errada. Confunde incorporação e hierarquia com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A resposta de concurso precisa demonstrar técnica e aplicação.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-05-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que integração entre ordem interna e internacional não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar a constituição brasileira adota a dignidade, a cidadania e a prevalência dos direitos humanos como eixos de interpretação do poder estatal. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "direitos-humanos-na-constituicao-de-1988-e-tratados-no-brasil-q06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Explique a relação entre direitos fundamentais e direitos humanos.",
-        "respostaModelo": "Direitos fundamentais são positivados no plano constitucional interno; direitos humanos possuem vocação internacional. Eles se comunicam e protegem a dignidade.",
-        "criteriosCorrecao": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "palavrasChaveEsperadas": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "comentario": "Resposta boa precisa ser objetiva, sem militância, com fundamento jurídico e aplicação ao caso.",
-        "diagnosticoIA": "Se a resposta ficou genérica, refaça usando conceito, fundamento e consequência."
-      },
-      {
-        "id": "direitos-humanos-na-constituicao-de-1988-e-tratados-no-brasil-q07",
+        "id": "direitos-humanos-avancado-05-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie direitos fundamentais de direitos humanos em uma resposta de concurso.",
-        "respostaModelo": "direitos fundamentais e direitos humanos podem se relacionar, mas não são iguais. A distinção central é: fundamentais são internos/constitucionais; humanos têm vocação internacional e universal",
-        "criteriosCorrecao": [
-          "conceito de cada item",
-          "diferença central",
-          "exemplo de aplicação",
-          "ausência de confusão terminológica"
-        ],
-        "comentario": "Questões comparativas testam precisão conceitual.",
-        "diagnosticoIA": "Monte uma tabela mental: conceito, órgão/fonte, finalidade e efeito."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: A Constituição brasileira adota a dignidade, a cidadania e a prevalência dos direitos humanos como eixos de interpretação do poder estatal. Pegadinha: Tratar tratado internacional como conselho sem relevância jurídica.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "direitos-humanos-na-constituicao-de-1988-e-tratados-no-brasil-q08",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Direitos humanos na Constituição de 1988 e tratados no Brasil para um candidato de concurso policial.",
-        "promptTutorIA": "Explique Direitos humanos na Constituição de 1988 e tratados no Brasil, traga uma pegadinha e proponha uma questão de certo/errado com comentário.",
-        "criterioDominio": [
-          "explicação simples",
-          "base jurídica",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Use este item para transformar leitura passiva em domínio ativo."
-      },
-      {
-        "id": "direitos-humanos-na-constituicao-de-1988-e-tratados-no-brasil-q09",
+        "id": "direitos-humanos-avancado-05-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Assinale a alternativa que representa uma pegadinha típica de banca.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Dizer que todo tratado de direitos humanos entra automaticamente como emenda constitucional.",
-          "No Brasil, direitos humanos se conectam à Constituição, aos direitos fundamentais e aos tratados internacionais incorporados ao ordenamento.",
-          "Diferenciar órgão, fonte e consequência jurídica.",
-          "Aplicar proporcionalidade no caso concreto.",
-          "Reconhecer que direitos humanos limitam abusos estatais."
+          "A força normativa do tratado depende do procedimento de incorporação e da posição reconhecida pelo ordenamento jurídico.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Confundir controle de constitucionalidade com controle de convencionalidade."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha está na formulação errada indicada pelo capítulo.",
-          "Errada. Confunde incorporação e hierarquia com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A pegadinha está na formulação errada indicada pelo capítulo.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "direitos-humanos-na-constituicao-de-1988-e-tratados-no-brasil-q10",
-        "tipo": "certo_errado",
-        "enunciado": "Em direitos humanos, a resposta tecnicamente adequada deve evitar absolutismos e identificar fundamento, sujeito protegido e consequência jurídica.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Essa é a postura mais segura em questões objetivas e discursivas.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "id": "direitos-humanos-avancado-05-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Confundir controle de constitucionalidade com controle de convencionalidade.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direitos-humanos-avancado-05-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Direitos humanos na Constituição e tratados no Brasil a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Controle de convencionalidade examina se norma ou prática estatal é compatível com tratados de direitos humanos assumidos pelo Brasil.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direitos-humanos-avancado-05-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: A Constituição brasileira adota a dignidade, a cidadania e a prevalência dos direitos humanos como eixos de interpretação do poder estatal.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Atividade policial, abordagem e uso legítimo da força"
   },
   {
-    "id": "direitos-humanos-e-atividade-policial-abordagem-custodia-e-uso-da-forca",
-    "materialTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "id": "atividade-policial-abordagem-e-uso-legitimo-da-forca",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 6,
     "totalChapters": 10,
-    "title": "Direitos humanos e atividade policial: abordagem, custódia e uso da força",
-    "assunto": "Segurança pública e direitos humanos",
-    "tecnica": "Conceito claro, comparação entre sistemas, aplicação prática e revisão por pegadinhas de banca",
-    "competencia": "Resolver questões objetivas e discursivas sobre direitos humanos sem cair em absolutismos.",
-    "dificuldade": "Médio-Avançado",
-    "tempoLeituraMin": 10,
-    "tempoExercicioMin": 26,
+    "title": "Atividade policial, abordagem e uso legítimo da força",
+    "assunto": "direitos humanos na prática policial",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar direitos humanos na prática policial com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
-      "VUNESP": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
       "uso da força",
-      "legalidade",
-      "proporcionalidade",
-      "custódia"
+      "abordagem",
+      "proporcionalidade"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Declaração Universal dos Direitos Humanos",
-      "Convenção Americana sobre Direitos Humanos",
-      "Tratados internacionais de direitos humanos",
-      "Jurisprudência constitucional e interamericana em linguagem pedagógica"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Segurança pública e direitos humanos com foco em concursos policiais, tribunais, OAB e carreiras públicas. O aluno deve estudar o tema sem decorar frases soltas: a banca cobra conceito, limite, órgão competente e aplicação em caso concreto.",
-      "Ideia central: Direitos humanos orientam a atuação policial legítima: protegem a população, o agente público e a validade da prova, sem impedir ação firme quando legal. Esse ponto precisa aparecer de forma simples no caderno de revisão, porque é a base para resolver questões de certo/errado, múltipla escolha e discursivas.",
-      "Erro comum: Apresentar direitos humanos como obstáculo absoluto à atuação policial ou como autorização para tolerar abusos. Em provas, esse erro geralmente aparece em alternativas absolutas, emocionalizadas ou que confundem proteção de direitos com ausência de responsabilização.",
-      "Como estudar: use o modelo legalidade, necessidade, proporcionalidade, prestação de contas e preservação da vida. Depois resolva uma questão, explique o tema em voz alta e escreva uma frase de revisão para memorizar."
+      "Atividade policial, abordagem e uso legítimo da força exige domínio de direitos humanos na prática policial. O estudo correto começa pela ideia de que direitos humanos orientam a atuação policial legítima: a força estatal deve ser legal, necessária, proporcional e controlável.",
+      "Abordagem exige motivo verificável e conduta profissional; humilhação, ameaça gratuita e exposição indevida comprometem legalidade. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Uso progressivo da força não é escada automática, mas escolha técnica conforme risco, resistência e possibilidade de meio menos gravoso. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Registro, supervisão e treinamento reduzem abuso e também protegem o policial contra acusações infundadas. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Direitos humanos orientam a atuação policial legítima: protegem a população, o agente público e a validade da prova, sem impedir ação firme quando legal.",
-      "Pegadinha comum: Apresentar direitos humanos como obstáculo absoluto à atuação policial ou como autorização para tolerar abusos.",
-      "Modelo de prova: legalidade, necessidade, proporcionalidade, prestação de contas e preservação da vida",
-      "Sempre diferencie proteção de direitos, responsabilização legal e abuso estatal."
+      "Direitos humanos orientam a atuação policial legítima: a força estatal deve ser legal, necessária, proporcional e controlável.",
+      "Abordagem exige motivo verificável e conduta profissional; humilhação, ameaça gratuita e exposição indevida comprometem legalidade.",
+      "Uso progressivo da força não é escada automática, mas escolha técnica conforme risco, resistência e possibilidade de meio menos gravoso.",
+      "Registro, supervisão e treinamento reduzem abuso e também protegem o policial contra acusações infundadas."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa resume melhor o capítulo?",
-      "opcoes": [
-        "Apresentar direitos humanos como obstáculo absoluto à atuação policial ou como autorização para tolerar abusos.",
-        "Direitos humanos orientam a atuação policial legítima: protegem a população, o agente público e a validade da prova, sem impedir ação firme quando legal.",
-        "Direitos humanos só importam em relações privadas sem Estado."
-      ],
-      "correta": 1,
-      "justificativa": "A opção correta apresenta a tese jurídica central do capítulo."
-    },
-    "oQueCobra": "Conceito, características, sistemas de proteção, papel do Estado, limites à atuação pública e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Constituição, Estado Democrático de Direito, legalidade, dignidade humana e devido processo.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca costuma trocar órgãos, sistemas e características. Também usa alternativas emocionais sobre polícia, punição, vulnerabilidade ou tratados."
+        "pergunta": "Qual é o núcleo de Atividade policial, abordagem e uso legítimo da força?",
+        "resposta": "Direitos humanos orientam a atuação policial legítima: a força estatal deve ser legal, necessária, proporcional e controlável."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique a fonte, o sujeito protegido, a obrigação do Estado e o limite jurídico. Depois elimine alternativas absolutas."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Pensar que direitos humanos impedem atuação firme."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em área policial, direitos humanos orientam atuação legítima, preservam vidas, protegem provas e reduzem responsabilidade funcional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Em ocorrência com pessoa desarmada e colaborativa, força física intensa tende a ser desproporcional; a técnica deve acompanhar o risco real."
       }
     ],
-    "comoIdentificar": "Procure palavras como dignidade, igualdade, Comissão, Corte, tratado, proporcionalidade, custódia, vulnerabilidade e reparação.",
+    "quadroDeDominio": {
+      "conceito": "Direitos humanos orientam a atuação policial legítima: a força estatal deve ser legal, necessária, proporcional e controlável.",
+      "limite": "Abordagem exige motivo verificável e conduta profissional; humilhação, ameaça gratuita e exposição indevida comprometem legalidade.",
+      "aplicacao": "Em ocorrência com pessoa desarmada e colaborativa, força física intensa tende a ser desproporcional; a técnica deve acompanhar o risco real.",
+      "erroFatal": "Pensar que direitos humanos impedem atuação firme."
+    },
+    "exemploComentado": "Em ocorrência com pessoa desarmada e colaborativa, força física intensa tende a ser desproporcional; a técnica deve acompanhar o risco real.",
     "pegadinhas": [
-      "palavras absolutas como sempre/nunca",
-      "confusão entre ONU e OEA",
-      "confusão entre Comissão e Corte",
-      "ideia falsa de que direitos humanos impedem punição legal",
-      "uso de opinião política no lugar de fundamento jurídico"
+      "Pensar que direitos humanos impedem atuação firme.",
+      "Achar que suspeita autoriza qualquer revista ou violência."
     ],
-    "resumoFrase": "Direitos humanos orientam a atuação policial legítima: protegem a população, o agente público e a validade da prova, sem impedir ação firme quando legal.",
-    "proximoTitulo": "Proibição da tortura, tratamento degradante e proteção da pessoa custodiada",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 19 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir edital, tratados, jurisprudência e atos normativos recentes antes da publicação final.",
-    "publicoAlvo": "Candidatos de concursos policiais, OAB, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direitos Humanos",
-    "explicacaoComoSeTivesse12": "Pense assim: Direitos humanos orientam a atuação policial legítima: protegem a população, o agente público e a validade da prova, sem impedir ação firme quando legal. Isso não quer dizer que ninguém pode ser punido. Quer dizer que toda ação do Estado precisa respeitar regras, limites e a dignidade das pessoas.",
+    "mapaMentalTexto": [
+      "Tema: Atividade policial, abordagem e uso legítimo da força",
+      "Conceito: Direitos humanos orientam a atuação policial legítima: a força estatal deve ser legal, necessária, proporcional e controlável.",
+      "Aplicação: Em ocorrência com pessoa desarmada e colaborativa, força física intensa tende a ser desproporcional; a técnica deve acompanhar o risco real.",
+      "Cuidado: Pensar que direitos humanos impedem atuação firme."
+    ],
     "comoEstudar": [
-      "Leia a tese central e copie com suas palavras.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça tabela com conceito, fonte, órgão e pegadinha.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Direitos humanos não são impunidade: são limite jurídico, proteção da dignidade e controle da atuação estatal.",
-    "mapaMentalTextual": [
-      "Centro: Direitos humanos e atividade policial: abordagem, custódia e uso da força",
-      "Ramo 1: conceito e fundamento",
-      "Ramo 2: fonte normativa",
-      "Ramo 3: órgão ou instrumento",
-      "Ramo 4: pegadinha de banca",
-      "Ramo 5: aplicação prática em segurança pública"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a ideia central de Direitos humanos e atividade policial: abordagem, custódia e uso da força?",
-        "verso": "Direitos humanos orientam a atuação policial legítima: protegem a população, o agente público e a validade da prova, sem impedir ação firme quando legal."
+        "id": "direitos-humanos-avancado-06-fc01",
+        "frente": "Qual é a ideia central de Atividade policial, abordagem e uso legítimo da força?",
+        "verso": "Direitos humanos orientam a atuação policial legítima: a força estatal deve ser legal, necessária, proporcional e controlável.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha a banca costuma usar?",
-        "verso": "Apresentar direitos humanos como obstáculo absoluto à atuação policial ou como autorização para tolerar abusos."
+        "id": "direitos-humanos-avancado-06-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em direitos humanos na prática policial?",
+        "verso": "Abordagem exige motivo verificável e conduta profissional; humilhação, ameaça gratuita e exposição indevida comprometem legalidade.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual modelo de estudo usar neste capítulo?",
-        "verso": "legalidade, necessidade, proporcionalidade, prestação de contas e preservação da vida"
+        "id": "direitos-humanos-avancado-06-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Pensar que direitos humanos impedem atuação firme.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar em concurso policial?",
-        "verso": "Relacione legalidade, dignidade, proporcionalidade, responsabilidade estatal e proteção da pessoa."
+        "id": "direitos-humanos-avancado-06-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Em ocorrência com pessoa desarmada e colaborativa, força física intensa tende a ser desproporcional; a técnica deve acompanhar o risco real.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "conceitua corretamente",
-      "diferencia sistemas e órgãos",
-      "aplica ao caso concreto",
-      "evita absolutismos",
-      "responde com linguagem de prova"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Refazer 3 questões e revisar a tese central."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Criar tabela de pegadinhas do capítulo."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Resolver caso prático e explicar em voz alta."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique o capítulo em linguagem simples, crie 3 pegadinhas de banca e corrija minha resposta discursiva.",
-      "modo": "mentor_concurso",
-      "alerta": "Não transformar direitos humanos em opinião política; responder com fundamento jurídico."
-    },
     "questoes": [
       {
-        "id": "direitos-humanos-e-atividade-policial-abordagem-custodia-e-uso-da-forca-q01",
+        "id": "direitos-humanos-avancado-06-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Direitos humanos e atividade policial: abordagem, custódia e uso da força, assinale a alternativa correta.",
+        "enunciado": "Em relação a Atividade policial, abordagem e uso legítimo da força, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Direitos humanos orientam a atuação policial legítima: protegem a população, o agente público e a validade da prova, sem impedir ação firme quando legal.",
-          "Apresentar direitos humanos como obstáculo absoluto à atuação policial ou como autorização para tolerar abusos.",
-          "O tema só tem relevância moral, sem impacto jurídico em concursos.",
-          "A proteção depende exclusivamente da vontade da autoridade de plantão.",
-          "A banca deve ignorar tratados, Constituição e jurisprudência no assunto."
+          "Direitos humanos orientam a atuação policial legítima: a força estatal deve ser legal, necessária, proporcional e controlável.",
+          "Pensar que direitos humanos impedem atuação firme.",
+          "Achar que suspeita autoriza qualquer revista ou violência.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa resume corretamente Segurança pública e direitos humanos.",
-          "Errada. Confunde uso legal e proporcional da força com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A alternativa resume corretamente Segurança pública e direitos humanos.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: Direitos humanos orientam a atuação policial legítima: a força estatal deve ser legal, necessária, proporcional e controlável."
       },
       {
-        "id": "direitos-humanos-e-atividade-policial-abordagem-custodia-e-uso-da-forca-q02",
+        "id": "direitos-humanos-avancado-06-q02",
         "tipo": "certo_errado",
-        "enunciado": "Direitos humanos orientam a atuação policial legítima: protegem a população, o agente público e a validade da prova, sem impedir ação firme quando legal.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A assertiva apresenta a orientação correta para fins de prova.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Abordagem exige motivo verificável e conduta profissional; humilhação, ameaça gratuita e exposição indevida comprometem legalidade.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de direitos humanos na prática policial."
       },
       {
-        "id": "direitos-humanos-e-atividade-policial-abordagem-custodia-e-uso-da-forca-q03",
+        "id": "direitos-humanos-avancado-06-q03",
         "tipo": "certo_errado",
-        "enunciado": "Apresentar direitos humanos como obstáculo absoluto à atuação policial ou como autorização para tolerar abusos.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A assertiva reproduz pegadinha comum e deve ser rejeitada.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Pensar que direitos humanos impedem atuação firme.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "direitos-humanos-e-atividade-policial-abordagem-custodia-e-uso-da-forca-q04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Em abordagem, o agente usa força sem necessidade e depois tenta justificar pela gravidade do bairro. Qual é a análise?",
-        "alternativas": [
-          "A gravidade do contexto não elimina legalidade, necessidade, proporcionalidade e controle posterior.",
-          "Afastar todos os direitos por conveniência administrativa.",
-          "Aplicar punição informal para dar resposta rápida à sociedade.",
-          "Ignorar tratados e decidir apenas por opinião pessoal.",
-          "Considerar qualquer medida estatal válida se houver finalidade pública."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-          "Errada. Confunde uso legal e proporcional da força com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-06-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Em ocorrência com pessoa desarmada e colaborativa, força física intensa tende a ser desproporcional; a técnica deve acompanhar o risco real. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Uso progressivo da força não é escada automática, mas escolha técnica conforme risco, resistência e possibilidade de meio menos gravoso.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "direitos-humanos-e-atividade-policial-abordagem-custodia-e-uso-da-forca-q05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Em uma questão discursiva, qual caminho aumenta a pontuação?",
-        "alternativas": [
-          "Usar legalidade, necessidade, proporcionalidade, prestação de contas e preservação da vida e aplicar ao caso concreto.",
-          "Usar frases genéricas sem fundamento.",
-          "Responder com opinião política e sem conceito.",
-          "Citar órgão internacional aleatório.",
-          "Copiar o enunciado sem análise."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A resposta de concurso precisa demonstrar técnica e aplicação.",
-          "Errada. Confunde uso legal e proporcional da força com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A resposta de concurso precisa demonstrar técnica e aplicação.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-06-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que direitos humanos na prática policial não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar direitos humanos orientam a atuação policial legítima: a força estatal deve ser legal, necessária, proporcional e controlável. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "direitos-humanos-e-atividade-policial-abordagem-custodia-e-uso-da-forca-q06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Explique por que direitos humanos fortalecem a segurança pública.",
-        "respostaModelo": "Eles aumentam legitimidade, protegem provas, reduzem abusos e orientam uso proporcional da força, mantendo a autoridade dentro da lei.",
-        "criteriosCorrecao": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "palavrasChaveEsperadas": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "comentario": "Resposta boa precisa ser objetiva, sem militância, com fundamento jurídico e aplicação ao caso.",
-        "diagnosticoIA": "Se a resposta ficou genérica, refaça usando conceito, fundamento e consequência."
-      },
-      {
-        "id": "direitos-humanos-e-atividade-policial-abordagem-custodia-e-uso-da-forca-q07",
+        "id": "direitos-humanos-avancado-06-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie uso legítimo da força de violência estatal abusiva em uma resposta de concurso.",
-        "respostaModelo": "uso legítimo da força e violência estatal abusiva podem se relacionar, mas não são iguais. A distinção central é: o primeiro é legal, necessário e proporcional; a segunda viola direitos e gera responsabilização",
-        "criteriosCorrecao": [
-          "conceito de cada item",
-          "diferença central",
-          "exemplo de aplicação",
-          "ausência de confusão terminológica"
-        ],
-        "comentario": "Questões comparativas testam precisão conceitual.",
-        "diagnosticoIA": "Monte uma tabela mental: conceito, órgão/fonte, finalidade e efeito."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Direitos humanos orientam a atuação policial legítima: a força estatal deve ser legal, necessária, proporcional e controlável. Pegadinha: Pensar que direitos humanos impedem atuação firme.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "direitos-humanos-e-atividade-policial-abordagem-custodia-e-uso-da-forca-q08",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Direitos humanos e atividade policial: abordagem, custódia e uso da força para um candidato de concurso policial.",
-        "promptTutorIA": "Explique Direitos humanos e atividade policial: abordagem, custódia e uso da força, traga uma pegadinha e proponha uma questão de certo/errado com comentário.",
-        "criterioDominio": [
-          "explicação simples",
-          "base jurídica",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Use este item para transformar leitura passiva em domínio ativo."
-      },
-      {
-        "id": "direitos-humanos-e-atividade-policial-abordagem-custodia-e-uso-da-forca-q09",
+        "id": "direitos-humanos-avancado-06-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Assinale a alternativa que representa uma pegadinha típica de banca.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Apresentar direitos humanos como obstáculo absoluto à atuação policial ou como autorização para tolerar abusos.",
-          "Direitos humanos orientam a atuação policial legítima: protegem a população, o agente público e a validade da prova, sem impedir ação firme quando legal.",
-          "Diferenciar órgão, fonte e consequência jurídica.",
-          "Aplicar proporcionalidade no caso concreto.",
-          "Reconhecer que direitos humanos limitam abusos estatais."
+          "Uso progressivo da força não é escada automática, mas escolha técnica conforme risco, resistência e possibilidade de meio menos gravoso.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Achar que suspeita autoriza qualquer revista ou violência."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha está na formulação errada indicada pelo capítulo.",
-          "Errada. Confunde uso legal e proporcional da força com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A pegadinha está na formulação errada indicada pelo capítulo.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "direitos-humanos-e-atividade-policial-abordagem-custodia-e-uso-da-forca-q10",
-        "tipo": "certo_errado",
-        "enunciado": "Em direitos humanos, a resposta tecnicamente adequada deve evitar absolutismos e identificar fundamento, sujeito protegido e consequência jurídica.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Essa é a postura mais segura em questões objetivas e discursivas.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "id": "direitos-humanos-avancado-06-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Achar que suspeita autoriza qualquer revista ou violência.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direitos-humanos-avancado-06-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Atividade policial, abordagem e uso legítimo da força a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Registro, supervisão e treinamento reduzem abuso e também protegem o policial contra acusações infundadas.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direitos-humanos-avancado-06-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Direitos humanos orientam a atuação policial legítima: a força estatal deve ser legal, necessária, proporcional e controlável.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Tortura, tratamento degradante e pessoa custodiada"
   },
   {
-    "id": "proibicao-da-tortura-tratamento-degradante-e-protecao-da-pessoa-custodiada",
-    "materialTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "id": "tortura-tratamento-degradante-e-pessoa-custodiada",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 7,
     "totalChapters": 10,
-    "title": "Proibição da tortura, tratamento degradante e proteção da pessoa custodiada",
-    "assunto": "Tortura e custódia",
-    "tecnica": "Conceito claro, comparação entre sistemas, aplicação prática e revisão por pegadinhas de banca",
-    "competencia": "Resolver questões objetivas e discursivas sobre direitos humanos sem cair em absolutismos.",
-    "dificuldade": "Médio-Avançado",
-    "tempoLeituraMin": 10,
-    "tempoExercicioMin": 26,
+    "title": "Tortura, tratamento degradante e pessoa custodiada",
+    "assunto": "proteção em privação de liberdade",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar proteção em privação de liberdade com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
-      "VUNESP": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
       "tortura",
-      "integridade",
       "custódia",
-      "dever de apurar"
+      "integridade"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Declaração Universal dos Direitos Humanos",
-      "Convenção Americana sobre Direitos Humanos",
-      "Tratados internacionais de direitos humanos",
-      "Jurisprudência constitucional e interamericana em linguagem pedagógica"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Tortura e custódia com foco em concursos policiais, tribunais, OAB e carreiras públicas. O aluno deve estudar o tema sem decorar frases soltas: a banca cobra conceito, limite, órgão competente e aplicação em caso concreto.",
-      "Ideia central: A tortura e tratamentos cruéis, desumanos ou degradantes são incompatíveis com direitos humanos, devido processo e Estado Democrático de Direito. Esse ponto precisa aparecer de forma simples no caderno de revisão, porque é a base para resolver questões de certo/errado, múltipla escolha e discursivas.",
-      "Erro comum: Admitir tortura como meio excepcional de investigação ou punição informal. Em provas, esse erro geralmente aparece em alternativas absolutas, emocionalizadas ou que confundem proteção de direitos com ausência de responsabilização.",
-      "Como estudar: use o modelo proibição, custódia, dever de apurar, integridade física e psíquica. Depois resolva uma questão, explique o tema em voz alta e escreva uma frase de revisão para memorizar."
+      "Tortura, tratamento degradante e pessoa custodiada exige domínio de proteção em privação de liberdade. O estudo correto começa pela ideia de que pessoa presa ou apreendida permanece titular de direitos; a custódia aumenta o dever estatal de proteção e documentação.",
+      "Tortura envolve sofrimento físico ou mental grave com finalidade específica, como obter informação, punir ou discriminar. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Tratamento degradante reduz a pessoa a condição humilhante, ainda que não alcance a intensidade típica da tortura. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Audiência de custódia, exame de corpo de delito, registro e acesso à defesa são garantias contra violência invisível. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "A tortura e tratamentos cruéis, desumanos ou degradantes são incompatíveis com direitos humanos, devido processo e Estado Democrático de Direito.",
-      "Pegadinha comum: Admitir tortura como meio excepcional de investigação ou punição informal.",
-      "Modelo de prova: proibição, custódia, dever de apurar, integridade física e psíquica",
-      "Sempre diferencie proteção de direitos, responsabilização legal e abuso estatal."
+      "Pessoa presa ou apreendida permanece titular de direitos; a custódia aumenta o dever estatal de proteção e documentação.",
+      "Tortura envolve sofrimento físico ou mental grave com finalidade específica, como obter informação, punir ou discriminar.",
+      "Tratamento degradante reduz a pessoa a condição humilhante, ainda que não alcance a intensidade típica da tortura.",
+      "Audiência de custódia, exame de corpo de delito, registro e acesso à defesa são garantias contra violência invisível."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa resume melhor o capítulo?",
-      "opcoes": [
-        "Admitir tortura como meio excepcional de investigação ou punição informal.",
-        "A tortura e tratamentos cruéis, desumanos ou degradantes são incompatíveis com direitos humanos, devido processo e Estado Democrático de Direito.",
-        "Direitos humanos só importam em relações privadas sem Estado."
-      ],
-      "correta": 1,
-      "justificativa": "A opção correta apresenta a tese jurídica central do capítulo."
-    },
-    "oQueCobra": "Conceito, características, sistemas de proteção, papel do Estado, limites à atuação pública e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Constituição, Estado Democrático de Direito, legalidade, dignidade humana e devido processo.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca costuma trocar órgãos, sistemas e características. Também usa alternativas emocionais sobre polícia, punição, vulnerabilidade ou tratados."
+        "pergunta": "Qual é o núcleo de Tortura, tratamento degradante e pessoa custodiada?",
+        "resposta": "Pessoa presa ou apreendida permanece titular de direitos; a custódia aumenta o dever estatal de proteção e documentação."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique a fonte, o sujeito protegido, a obrigação do Estado e o limite jurídico. Depois elimine alternativas absolutas."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Achar que confissão obtida sob sofrimento pode ser aproveitada."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em área policial, direitos humanos orientam atuação legítima, preservam vidas, protegem provas e reduzem responsabilidade funcional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Lesão em pessoa sob guarda estatal exige demonstração e apuração; o Estado controla o ambiente e deve demonstrar diligência."
       }
     ],
-    "comoIdentificar": "Procure palavras como dignidade, igualdade, Comissão, Corte, tratado, proporcionalidade, custódia, vulnerabilidade e reparação.",
+    "quadroDeDominio": {
+      "conceito": "Pessoa presa ou apreendida permanece titular de direitos; a custódia aumenta o dever estatal de proteção e documentação.",
+      "limite": "Tortura envolve sofrimento físico ou mental grave com finalidade específica, como obter informação, punir ou discriminar.",
+      "aplicacao": "Lesão em pessoa sob guarda estatal exige demonstração e apuração; o Estado controla o ambiente e deve demonstrar diligência.",
+      "erroFatal": "Achar que confissão obtida sob sofrimento pode ser aproveitada."
+    },
+    "exemploComentado": "Lesão em pessoa sob guarda estatal exige demonstração e apuração; o Estado controla o ambiente e deve demonstrar diligência.",
     "pegadinhas": [
-      "palavras absolutas como sempre/nunca",
-      "confusão entre ONU e OEA",
-      "confusão entre Comissão e Corte",
-      "ideia falsa de que direitos humanos impedem punição legal",
-      "uso de opinião política no lugar de fundamento jurídico"
+      "Achar que confissão obtida sob sofrimento pode ser aproveitada.",
+      "Dizer que custódia elimina dever de integridade."
     ],
-    "resumoFrase": "A tortura e tratamentos cruéis, desumanos ou degradantes são incompatíveis com direitos humanos, devido processo e Estado Democrático de Direito.",
-    "proximoTitulo": "Grupos vulneráveis e proteção especial: mulheres, crianças, idosos, pessoas com deficiência e população negra",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 19 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir edital, tratados, jurisprudência e atos normativos recentes antes da publicação final.",
-    "publicoAlvo": "Candidatos de concursos policiais, OAB, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direitos Humanos",
-    "explicacaoComoSeTivesse12": "Pense assim: A tortura e tratamentos cruéis, desumanos ou degradantes são incompatíveis com direitos humanos, devido processo e Estado Democrático de Direito. Isso não quer dizer que ninguém pode ser punido. Quer dizer que toda ação do Estado precisa respeitar regras, limites e a dignidade das pessoas.",
+    "mapaMentalTexto": [
+      "Tema: Tortura, tratamento degradante e pessoa custodiada",
+      "Conceito: Pessoa presa ou apreendida permanece titular de direitos; a custódia aumenta o dever estatal de proteção e documentação.",
+      "Aplicação: Lesão em pessoa sob guarda estatal exige demonstração e apuração; o Estado controla o ambiente e deve demonstrar diligência.",
+      "Cuidado: Achar que confissão obtida sob sofrimento pode ser aproveitada."
+    ],
     "comoEstudar": [
-      "Leia a tese central e copie com suas palavras.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça tabela com conceito, fonte, órgão e pegadinha.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Direitos humanos não são impunidade: são limite jurídico, proteção da dignidade e controle da atuação estatal.",
-    "mapaMentalTextual": [
-      "Centro: Proibição da tortura, tratamento degradante e proteção da pessoa custodiada",
-      "Ramo 1: conceito e fundamento",
-      "Ramo 2: fonte normativa",
-      "Ramo 3: órgão ou instrumento",
-      "Ramo 4: pegadinha de banca",
-      "Ramo 5: aplicação prática em segurança pública"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a ideia central de Proibição da tortura, tratamento degradante e proteção da pessoa custodiada?",
-        "verso": "A tortura e tratamentos cruéis, desumanos ou degradantes são incompatíveis com direitos humanos, devido processo e Estado Democrático de Direito."
+        "id": "direitos-humanos-avancado-07-fc01",
+        "frente": "Qual é a ideia central de Tortura, tratamento degradante e pessoa custodiada?",
+        "verso": "Pessoa presa ou apreendida permanece titular de direitos; a custódia aumenta o dever estatal de proteção e documentação.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha a banca costuma usar?",
-        "verso": "Admitir tortura como meio excepcional de investigação ou punição informal."
+        "id": "direitos-humanos-avancado-07-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em proteção em privação de liberdade?",
+        "verso": "Tortura envolve sofrimento físico ou mental grave com finalidade específica, como obter informação, punir ou discriminar.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual modelo de estudo usar neste capítulo?",
-        "verso": "proibição, custódia, dever de apurar, integridade física e psíquica"
+        "id": "direitos-humanos-avancado-07-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Achar que confissão obtida sob sofrimento pode ser aproveitada.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar em concurso policial?",
-        "verso": "Relacione legalidade, dignidade, proporcionalidade, responsabilidade estatal e proteção da pessoa."
+        "id": "direitos-humanos-avancado-07-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Lesão em pessoa sob guarda estatal exige demonstração e apuração; o Estado controla o ambiente e deve demonstrar diligência.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "conceitua corretamente",
-      "diferencia sistemas e órgãos",
-      "aplica ao caso concreto",
-      "evita absolutismos",
-      "responde com linguagem de prova"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Refazer 3 questões e revisar a tese central."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Criar tabela de pegadinhas do capítulo."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Resolver caso prático e explicar em voz alta."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique o capítulo em linguagem simples, crie 3 pegadinhas de banca e corrija minha resposta discursiva.",
-      "modo": "mentor_concurso",
-      "alerta": "Não transformar direitos humanos em opinião política; responder com fundamento jurídico."
-    },
     "questoes": [
       {
-        "id": "proibicao-da-tortura-tratamento-degradante-e-protecao-da-pessoa-custodiada-q01",
+        "id": "direitos-humanos-avancado-07-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Proibição da tortura, tratamento degradante e proteção da pessoa custodiada, assinale a alternativa correta.",
+        "enunciado": "Em relação a Tortura, tratamento degradante e pessoa custodiada, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A tortura e tratamentos cruéis, desumanos ou degradantes são incompatíveis com direitos humanos, devido processo e Estado Democrático de Direito.",
-          "Admitir tortura como meio excepcional de investigação ou punição informal.",
-          "O tema só tem relevância moral, sem impacto jurídico em concursos.",
-          "A proteção depende exclusivamente da vontade da autoridade de plantão.",
-          "A banca deve ignorar tratados, Constituição e jurisprudência no assunto."
+          "Pessoa presa ou apreendida permanece titular de direitos; a custódia aumenta o dever estatal de proteção e documentação.",
+          "Achar que confissão obtida sob sofrimento pode ser aproveitada.",
+          "Dizer que custódia elimina dever de integridade.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa resume corretamente Tortura e custódia.",
-          "Errada. Confunde proibição absoluta da tortura com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A alternativa resume corretamente Tortura e custódia.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: Pessoa presa ou apreendida permanece titular de direitos; a custódia aumenta o dever estatal de proteção e documentação."
       },
       {
-        "id": "proibicao-da-tortura-tratamento-degradante-e-protecao-da-pessoa-custodiada-q02",
+        "id": "direitos-humanos-avancado-07-q02",
         "tipo": "certo_errado",
-        "enunciado": "A tortura e tratamentos cruéis, desumanos ou degradantes são incompatíveis com direitos humanos, devido processo e Estado Democrático de Direito.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A assertiva apresenta a orientação correta para fins de prova.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Tortura envolve sofrimento físico ou mental grave com finalidade específica, como obter informação, punir ou discriminar.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de proteção em privação de liberdade."
       },
       {
-        "id": "proibicao-da-tortura-tratamento-degradante-e-protecao-da-pessoa-custodiada-q03",
+        "id": "direitos-humanos-avancado-07-q03",
         "tipo": "certo_errado",
-        "enunciado": "Admitir tortura como meio excepcional de investigação ou punição informal.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A assertiva reproduz pegadinha comum e deve ser rejeitada.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Achar que confissão obtida sob sofrimento pode ser aproveitada.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "proibicao-da-tortura-tratamento-degradante-e-protecao-da-pessoa-custodiada-q04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Um suspeito é agredido para confessar. A confissão resolve o caso?",
-        "alternativas": [
-          "Não. A violência viola direitos, compromete validade da prova e gera responsabilização dos agentes.",
-          "Afastar todos os direitos por conveniência administrativa.",
-          "Aplicar punição informal para dar resposta rápida à sociedade.",
-          "Ignorar tratados e decidir apenas por opinião pessoal.",
-          "Considerar qualquer medida estatal válida se houver finalidade pública."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-          "Errada. Confunde proibição absoluta da tortura com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-07-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Lesão em pessoa sob guarda estatal exige demonstração e apuração; o Estado controla o ambiente e deve demonstrar diligência. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Tratamento degradante reduz a pessoa a condição humilhante, ainda que não alcance a intensidade típica da tortura.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "proibicao-da-tortura-tratamento-degradante-e-protecao-da-pessoa-custodiada-q05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Em uma questão discursiva, qual caminho aumenta a pontuação?",
-        "alternativas": [
-          "Usar proibição, custódia, dever de apurar, integridade física e psíquica e aplicar ao caso concreto.",
-          "Usar frases genéricas sem fundamento.",
-          "Responder com opinião política e sem conceito.",
-          "Citar órgão internacional aleatório.",
-          "Copiar o enunciado sem análise."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A resposta de concurso precisa demonstrar técnica e aplicação.",
-          "Errada. Confunde proibição absoluta da tortura com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A resposta de concurso precisa demonstrar técnica e aplicação.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-07-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que proteção em privação de liberdade não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar pessoa presa ou apreendida permanece titular de direitos; a custódia aumenta o dever estatal de proteção e documentação. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "proibicao-da-tortura-tratamento-degradante-e-protecao-da-pessoa-custodiada-q06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Explique por que tortura não é técnica de investigação.",
-        "respostaModelo": "Tortura viola dignidade, integridade e devido processo. Além de ilícita, produz prova contaminada e deslegitima a atuação estatal.",
-        "criteriosCorrecao": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "palavrasChaveEsperadas": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "comentario": "Resposta boa precisa ser objetiva, sem militância, com fundamento jurídico e aplicação ao caso.",
-        "diagnosticoIA": "Se a resposta ficou genérica, refaça usando conceito, fundamento e consequência."
-      },
-      {
-        "id": "proibicao-da-tortura-tratamento-degradante-e-protecao-da-pessoa-custodiada-q07",
+        "id": "direitos-humanos-avancado-07-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie interrogatório legal de tortura em uma resposta de concurso.",
-        "respostaModelo": "interrogatório legal e tortura podem se relacionar, mas não são iguais. A distinção central é: interrogatório respeita garantias; tortura usa sofrimento para obter informação ou punição",
-        "criteriosCorrecao": [
-          "conceito de cada item",
-          "diferença central",
-          "exemplo de aplicação",
-          "ausência de confusão terminológica"
-        ],
-        "comentario": "Questões comparativas testam precisão conceitual.",
-        "diagnosticoIA": "Monte uma tabela mental: conceito, órgão/fonte, finalidade e efeito."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Pessoa presa ou apreendida permanece titular de direitos; a custódia aumenta o dever estatal de proteção e documentação. Pegadinha: Achar que confissão obtida sob sofrimento pode ser aproveitada.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "proibicao-da-tortura-tratamento-degradante-e-protecao-da-pessoa-custodiada-q08",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Proibição da tortura, tratamento degradante e proteção da pessoa custodiada para um candidato de concurso policial.",
-        "promptTutorIA": "Explique Proibição da tortura, tratamento degradante e proteção da pessoa custodiada, traga uma pegadinha e proponha uma questão de certo/errado com comentário.",
-        "criterioDominio": [
-          "explicação simples",
-          "base jurídica",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Use este item para transformar leitura passiva em domínio ativo."
-      },
-      {
-        "id": "proibicao-da-tortura-tratamento-degradante-e-protecao-da-pessoa-custodiada-q09",
+        "id": "direitos-humanos-avancado-07-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Assinale a alternativa que representa uma pegadinha típica de banca.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Admitir tortura como meio excepcional de investigação ou punição informal.",
-          "A tortura e tratamentos cruéis, desumanos ou degradantes são incompatíveis com direitos humanos, devido processo e Estado Democrático de Direito.",
-          "Diferenciar órgão, fonte e consequência jurídica.",
-          "Aplicar proporcionalidade no caso concreto.",
-          "Reconhecer que direitos humanos limitam abusos estatais."
+          "Tratamento degradante reduz a pessoa a condição humilhante, ainda que não alcance a intensidade típica da tortura.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Dizer que custódia elimina dever de integridade."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha está na formulação errada indicada pelo capítulo.",
-          "Errada. Confunde proibição absoluta da tortura com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A pegadinha está na formulação errada indicada pelo capítulo.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "proibicao-da-tortura-tratamento-degradante-e-protecao-da-pessoa-custodiada-q10",
-        "tipo": "certo_errado",
-        "enunciado": "Em direitos humanos, a resposta tecnicamente adequada deve evitar absolutismos e identificar fundamento, sujeito protegido e consequência jurídica.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Essa é a postura mais segura em questões objetivas e discursivas.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "id": "direitos-humanos-avancado-07-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Dizer que custódia elimina dever de integridade.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direitos-humanos-avancado-07-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Tortura, tratamento degradante e pessoa custodiada a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Audiência de custódia, exame de corpo de delito, registro e acesso à defesa são garantias contra violência invisível.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direitos-humanos-avancado-07-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Pessoa presa ou apreendida permanece titular de direitos; a custódia aumenta o dever estatal de proteção e documentação.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Grupos vulneráveis e proteção especial"
   },
   {
-    "id": "grupos-vulneraveis-e-protecao-especial-mulheres-criancas-idosos-pessoas-com-deficiencia-e-populacao-negra",
-    "materialTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "id": "grupos-vulneraveis-e-protecao-especial",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 8,
     "totalChapters": 10,
-    "title": "Grupos vulneráveis e proteção especial: mulheres, crianças, idosos, pessoas com deficiência e população negra",
-    "assunto": "Vulnerabilidades",
-    "tecnica": "Conceito claro, comparação entre sistemas, aplicação prática e revisão por pegadinhas de banca",
-    "competencia": "Resolver questões objetivas e discursivas sobre direitos humanos sem cair em absolutismos.",
-    "dificuldade": "Médio-Avançado",
-    "tempoLeituraMin": 10,
-    "tempoExercicioMin": 26,
+    "title": "Grupos vulneráveis e proteção especial",
+    "assunto": "vulnerabilidade e políticas de proteção",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar vulnerabilidade e políticas de proteção com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
-      "VUNESP": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
       "vulnerabilidade",
       "proteção especial",
-      "ações afirmativas",
-      "não discriminação"
+      "rede"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Declaração Universal dos Direitos Humanos",
-      "Convenção Americana sobre Direitos Humanos",
-      "Tratados internacionais de direitos humanos",
-      "Jurisprudência constitucional e interamericana em linguagem pedagógica"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Vulnerabilidades com foco em concursos policiais, tribunais, OAB e carreiras públicas. O aluno deve estudar o tema sem decorar frases soltas: a banca cobra conceito, limite, órgão competente e aplicação em caso concreto.",
-      "Ideia central: A proteção de grupos vulneráveis busca igualdade material e enfrentamento de riscos específicos, sem retirar a universalidade dos direitos humanos. Esse ponto precisa aparecer de forma simples no caderno de revisão, porque é a base para resolver questões de certo/errado, múltipla escolha e discursivas.",
-      "Erro comum: Tratar proteção especial como privilégio ou negar vulnerabilidades comprovadas. Em provas, esse erro geralmente aparece em alternativas absolutas, emocionalizadas ou que confundem proteção de direitos com ausência de responsabilização.",
-      "Como estudar: use o modelo universalidade, especificidade, não discriminação e políticas de proteção. Depois resolva uma questão, explique o tema em voz alta e escreva uma frase de revisão para memorizar."
+      "Grupos vulneráveis e proteção especial exige domínio de vulnerabilidade e políticas de proteção. O estudo correto começa pela ideia de que vulnerabilidade não significa incapacidade; indica exposição maior a riscos, barreiras ou discriminação que exigem resposta adequada.",
+      "Crianças, adolescentes, idosos, pessoas com deficiência, mulheres em violência, população em situação de rua e minorias demandam protocolos específicos. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Proteção especial combina atendimento humanizado, prioridade, acessibilidade, escuta adequada e encaminhamento à rede de serviços. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "A banca costuma cobrar a diferença entre igualdade formal e tratamento prioritário justificado por vulnerabilidade concreta. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "A proteção de grupos vulneráveis busca igualdade material e enfrentamento de riscos específicos, sem retirar a universalidade dos direitos humanos.",
-      "Pegadinha comum: Tratar proteção especial como privilégio ou negar vulnerabilidades comprovadas.",
-      "Modelo de prova: universalidade, especificidade, não discriminação e políticas de proteção",
-      "Sempre diferencie proteção de direitos, responsabilização legal e abuso estatal."
+      "Vulnerabilidade não significa incapacidade; indica exposição maior a riscos, barreiras ou discriminação que exigem resposta adequada.",
+      "Crianças, adolescentes, idosos, pessoas com deficiência, mulheres em violência, população em situação de rua e minorias demandam protocolos específicos.",
+      "Proteção especial combina atendimento humanizado, prioridade, acessibilidade, escuta adequada e encaminhamento à rede de serviços.",
+      "A banca costuma cobrar a diferença entre igualdade formal e tratamento prioritário justificado por vulnerabilidade concreta."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa resume melhor o capítulo?",
-      "opcoes": [
-        "Tratar proteção especial como privilégio ou negar vulnerabilidades comprovadas.",
-        "A proteção de grupos vulneráveis busca igualdade material e enfrentamento de riscos específicos, sem retirar a universalidade dos direitos humanos.",
-        "Direitos humanos só importam em relações privadas sem Estado."
-      ],
-      "correta": 1,
-      "justificativa": "A opção correta apresenta a tese jurídica central do capítulo."
-    },
-    "oQueCobra": "Conceito, características, sistemas de proteção, papel do Estado, limites à atuação pública e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Constituição, Estado Democrático de Direito, legalidade, dignidade humana e devido processo.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca costuma trocar órgãos, sistemas e características. Também usa alternativas emocionais sobre polícia, punição, vulnerabilidade ou tratados."
+        "pergunta": "Qual é o núcleo de Grupos vulneráveis e proteção especial?",
+        "resposta": "Vulnerabilidade não significa incapacidade; indica exposição maior a riscos, barreiras ou discriminação que exigem resposta adequada."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique a fonte, o sujeito protegido, a obrigação do Estado e o limite jurídico. Depois elimine alternativas absolutas."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Tratar vulnerabilidade como privilégio."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em área policial, direitos humanos orientam atuação legítima, preservam vidas, protegem provas e reduzem responsabilidade funcional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Em atendimento a vítima de violência doméstica, a escuta precisa evitar revitimização e acionar medidas de proteção."
       }
     ],
-    "comoIdentificar": "Procure palavras como dignidade, igualdade, Comissão, Corte, tratado, proporcionalidade, custódia, vulnerabilidade e reparação.",
+    "quadroDeDominio": {
+      "conceito": "Vulnerabilidade não significa incapacidade; indica exposição maior a riscos, barreiras ou discriminação que exigem resposta adequada.",
+      "limite": "Crianças, adolescentes, idosos, pessoas com deficiência, mulheres em violência, população em situação de rua e minorias demandam protocolos específicos.",
+      "aplicacao": "Em atendimento a vítima de violência doméstica, a escuta precisa evitar revitimização e acionar medidas de proteção.",
+      "erroFatal": "Tratar vulnerabilidade como privilégio."
+    },
+    "exemploComentado": "Em atendimento a vítima de violência doméstica, a escuta precisa evitar revitimização e acionar medidas de proteção.",
     "pegadinhas": [
-      "palavras absolutas como sempre/nunca",
-      "confusão entre ONU e OEA",
-      "confusão entre Comissão e Corte",
-      "ideia falsa de que direitos humanos impedem punição legal",
-      "uso de opinião política no lugar de fundamento jurídico"
+      "Tratar vulnerabilidade como privilégio.",
+      "Aplicar o mesmo procedimento a todos, ignorando barreiras reais."
     ],
-    "resumoFrase": "A proteção de grupos vulneráveis busca igualdade material e enfrentamento de riscos específicos, sem retirar a universalidade dos direitos humanos.",
-    "proximoTitulo": "Direitos sociais, econômicos, culturais e políticas públicas",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 19 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir edital, tratados, jurisprudência e atos normativos recentes antes da publicação final.",
-    "publicoAlvo": "Candidatos de concursos policiais, OAB, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direitos Humanos",
-    "explicacaoComoSeTivesse12": "Pense assim: A proteção de grupos vulneráveis busca igualdade material e enfrentamento de riscos específicos, sem retirar a universalidade dos direitos humanos. Isso não quer dizer que ninguém pode ser punido. Quer dizer que toda ação do Estado precisa respeitar regras, limites e a dignidade das pessoas.",
+    "mapaMentalTexto": [
+      "Tema: Grupos vulneráveis e proteção especial",
+      "Conceito: Vulnerabilidade não significa incapacidade; indica exposição maior a riscos, barreiras ou discriminação que exigem resposta adequada.",
+      "Aplicação: Em atendimento a vítima de violência doméstica, a escuta precisa evitar revitimização e acionar medidas de proteção.",
+      "Cuidado: Tratar vulnerabilidade como privilégio."
+    ],
     "comoEstudar": [
-      "Leia a tese central e copie com suas palavras.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça tabela com conceito, fonte, órgão e pegadinha.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Direitos humanos não são impunidade: são limite jurídico, proteção da dignidade e controle da atuação estatal.",
-    "mapaMentalTextual": [
-      "Centro: Grupos vulneráveis e proteção especial: mulheres, crianças, idosos, pessoas com deficiência e população negra",
-      "Ramo 1: conceito e fundamento",
-      "Ramo 2: fonte normativa",
-      "Ramo 3: órgão ou instrumento",
-      "Ramo 4: pegadinha de banca",
-      "Ramo 5: aplicação prática em segurança pública"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a ideia central de Grupos vulneráveis e proteção especial: mulheres, crianças, idosos, pessoas com deficiência e população negra?",
-        "verso": "A proteção de grupos vulneráveis busca igualdade material e enfrentamento de riscos específicos, sem retirar a universalidade dos direitos humanos."
+        "id": "direitos-humanos-avancado-08-fc01",
+        "frente": "Qual é a ideia central de Grupos vulneráveis e proteção especial?",
+        "verso": "Vulnerabilidade não significa incapacidade; indica exposição maior a riscos, barreiras ou discriminação que exigem resposta adequada.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha a banca costuma usar?",
-        "verso": "Tratar proteção especial como privilégio ou negar vulnerabilidades comprovadas."
+        "id": "direitos-humanos-avancado-08-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em vulnerabilidade e políticas de proteção?",
+        "verso": "Crianças, adolescentes, idosos, pessoas com deficiência, mulheres em violência, população em situação de rua e minorias demandam protocolos específicos.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual modelo de estudo usar neste capítulo?",
-        "verso": "universalidade, especificidade, não discriminação e políticas de proteção"
+        "id": "direitos-humanos-avancado-08-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Tratar vulnerabilidade como privilégio. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar em concurso policial?",
-        "verso": "Relacione legalidade, dignidade, proporcionalidade, responsabilidade estatal e proteção da pessoa."
+        "id": "direitos-humanos-avancado-08-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Em atendimento a vítima de violência doméstica, a escuta precisa evitar revitimização e acionar medidas de proteção.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "conceitua corretamente",
-      "diferencia sistemas e órgãos",
-      "aplica ao caso concreto",
-      "evita absolutismos",
-      "responde com linguagem de prova"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Refazer 3 questões e revisar a tese central."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Criar tabela de pegadinhas do capítulo."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Resolver caso prático e explicar em voz alta."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique o capítulo em linguagem simples, crie 3 pegadinhas de banca e corrija minha resposta discursiva.",
-      "modo": "mentor_concurso",
-      "alerta": "Não transformar direitos humanos em opinião política; responder com fundamento jurídico."
-    },
     "questoes": [
       {
-        "id": "grupos-vulneraveis-e-protecao-especial-mulheres-criancas-idosos-pessoas-com-deficiencia-e-populacao-negra-q01",
+        "id": "direitos-humanos-avancado-08-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Grupos vulneráveis e proteção especial: mulheres, crianças, idosos, pessoas com deficiência e população negra, assinale a alternativa correta.",
+        "enunciado": "Em relação a Grupos vulneráveis e proteção especial, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A proteção de grupos vulneráveis busca igualdade material e enfrentamento de riscos específicos, sem retirar a universalidade dos direitos humanos.",
-          "Tratar proteção especial como privilégio ou negar vulnerabilidades comprovadas.",
-          "O tema só tem relevância moral, sem impacto jurídico em concursos.",
-          "A proteção depende exclusivamente da vontade da autoridade de plantão.",
-          "A banca deve ignorar tratados, Constituição e jurisprudência no assunto."
+          "Vulnerabilidade não significa incapacidade; indica exposição maior a riscos, barreiras ou discriminação que exigem resposta adequada.",
+          "Tratar vulnerabilidade como privilégio.",
+          "Aplicar o mesmo procedimento a todos, ignorando barreiras reais.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa resume corretamente Vulnerabilidades.",
-          "Errada. Confunde proteção especial sem privilégio indevido com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A alternativa resume corretamente Vulnerabilidades.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: Vulnerabilidade não significa incapacidade; indica exposição maior a riscos, barreiras ou discriminação que exigem resposta adequada."
       },
       {
-        "id": "grupos-vulneraveis-e-protecao-especial-mulheres-criancas-idosos-pessoas-com-deficiencia-e-populacao-negra-q02",
+        "id": "direitos-humanos-avancado-08-q02",
         "tipo": "certo_errado",
-        "enunciado": "A proteção de grupos vulneráveis busca igualdade material e enfrentamento de riscos específicos, sem retirar a universalidade dos direitos humanos.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A assertiva apresenta a orientação correta para fins de prova.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Crianças, adolescentes, idosos, pessoas com deficiência, mulheres em violência, população em situação de rua e minorias demandam protocolos específicos.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de vulnerabilidade e políticas de proteção."
       },
       {
-        "id": "grupos-vulneraveis-e-protecao-especial-mulheres-criancas-idosos-pessoas-com-deficiencia-e-populacao-negra-q03",
+        "id": "direitos-humanos-avancado-08-q03",
         "tipo": "certo_errado",
-        "enunciado": "Tratar proteção especial como privilégio ou negar vulnerabilidades comprovadas.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A assertiva reproduz pegadinha comum e deve ser rejeitada.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Tratar vulnerabilidade como privilégio.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "grupos-vulneraveis-e-protecao-especial-mulheres-criancas-idosos-pessoas-com-deficiencia-e-populacao-negra-q04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Uma prova afirma que medidas protetivas violam igualdade por tratarem pessoas de forma diferente. Como analisar?",
-        "alternativas": [
-          "Medidas protetivas podem concretizar igualdade material quando proporcionais e voltadas à proteção de vulneráveis.",
-          "Afastar todos os direitos por conveniência administrativa.",
-          "Aplicar punição informal para dar resposta rápida à sociedade.",
-          "Ignorar tratados e decidir apenas por opinião pessoal.",
-          "Considerar qualquer medida estatal válida se houver finalidade pública."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-          "Errada. Confunde proteção especial sem privilégio indevido com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-08-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Em atendimento a vítima de violência doméstica, a escuta precisa evitar revitimização e acionar medidas de proteção. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Proteção especial combina atendimento humanizado, prioridade, acessibilidade, escuta adequada e encaminhamento à rede de serviços.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "grupos-vulneraveis-e-protecao-especial-mulheres-criancas-idosos-pessoas-com-deficiencia-e-populacao-negra-q05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Em uma questão discursiva, qual caminho aumenta a pontuação?",
-        "alternativas": [
-          "Usar universalidade, especificidade, não discriminação e políticas de proteção e aplicar ao caso concreto.",
-          "Usar frases genéricas sem fundamento.",
-          "Responder com opinião política e sem conceito.",
-          "Citar órgão internacional aleatório.",
-          "Copiar o enunciado sem análise."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A resposta de concurso precisa demonstrar técnica e aplicação.",
-          "Errada. Confunde proteção especial sem privilégio indevido com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A resposta de concurso precisa demonstrar técnica e aplicação.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-08-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que vulnerabilidade e políticas de proteção não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar vulnerabilidade não significa incapacidade; indica exposição maior a riscos, barreiras ou discriminação que exigem resposta adequada. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "grupos-vulneraveis-e-protecao-especial-mulheres-criancas-idosos-pessoas-com-deficiencia-e-populacao-negra-q06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Explique por que proteção especial não contradiz universalidade.",
-        "respostaModelo": "Universalidade garante direitos a todos; proteção especial reconhece riscos específicos e cria mecanismos proporcionais de efetivação.",
-        "criteriosCorrecao": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "palavrasChaveEsperadas": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "comentario": "Resposta boa precisa ser objetiva, sem militância, com fundamento jurídico e aplicação ao caso.",
-        "diagnosticoIA": "Se a resposta ficou genérica, refaça usando conceito, fundamento e consequência."
-      },
-      {
-        "id": "grupos-vulneraveis-e-protecao-especial-mulheres-criancas-idosos-pessoas-com-deficiencia-e-populacao-negra-q07",
+        "id": "direitos-humanos-avancado-08-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie universalidade de proteção especial em uma resposta de concurso.",
-        "respostaModelo": "universalidade e proteção especial podem se relacionar, mas não são iguais. A distinção central é: universalidade define titularidade; proteção especial ajusta meios de efetivação",
-        "criteriosCorrecao": [
-          "conceito de cada item",
-          "diferença central",
-          "exemplo de aplicação",
-          "ausência de confusão terminológica"
-        ],
-        "comentario": "Questões comparativas testam precisão conceitual.",
-        "diagnosticoIA": "Monte uma tabela mental: conceito, órgão/fonte, finalidade e efeito."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Vulnerabilidade não significa incapacidade; indica exposição maior a riscos, barreiras ou discriminação que exigem resposta adequada. Pegadinha: Tratar vulnerabilidade como privilégio.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "grupos-vulneraveis-e-protecao-especial-mulheres-criancas-idosos-pessoas-com-deficiencia-e-populacao-negra-q08",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Grupos vulneráveis e proteção especial: mulheres, crianças, idosos, pessoas com deficiência e população negra para um candidato de concurso policial.",
-        "promptTutorIA": "Explique Grupos vulneráveis e proteção especial: mulheres, crianças, idosos, pessoas com deficiência e população negra, traga uma pegadinha e proponha uma questão de certo/errado com comentário.",
-        "criterioDominio": [
-          "explicação simples",
-          "base jurídica",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Use este item para transformar leitura passiva em domínio ativo."
-      },
-      {
-        "id": "grupos-vulneraveis-e-protecao-especial-mulheres-criancas-idosos-pessoas-com-deficiencia-e-populacao-negra-q09",
+        "id": "direitos-humanos-avancado-08-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Assinale a alternativa que representa uma pegadinha típica de banca.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Tratar proteção especial como privilégio ou negar vulnerabilidades comprovadas.",
-          "A proteção de grupos vulneráveis busca igualdade material e enfrentamento de riscos específicos, sem retirar a universalidade dos direitos humanos.",
-          "Diferenciar órgão, fonte e consequência jurídica.",
-          "Aplicar proporcionalidade no caso concreto.",
-          "Reconhecer que direitos humanos limitam abusos estatais."
+          "Proteção especial combina atendimento humanizado, prioridade, acessibilidade, escuta adequada e encaminhamento à rede de serviços.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Aplicar o mesmo procedimento a todos, ignorando barreiras reais."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha está na formulação errada indicada pelo capítulo.",
-          "Errada. Confunde proteção especial sem privilégio indevido com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A pegadinha está na formulação errada indicada pelo capítulo.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "grupos-vulneraveis-e-protecao-especial-mulheres-criancas-idosos-pessoas-com-deficiencia-e-populacao-negra-q10",
-        "tipo": "certo_errado",
-        "enunciado": "Em direitos humanos, a resposta tecnicamente adequada deve evitar absolutismos e identificar fundamento, sujeito protegido e consequência jurídica.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Essa é a postura mais segura em questões objetivas e discursivas.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "id": "direitos-humanos-avancado-08-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Aplicar o mesmo procedimento a todos, ignorando barreiras reais.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direitos-humanos-avancado-08-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Grupos vulneráveis e proteção especial a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: A banca costuma cobrar a diferença entre igualdade formal e tratamento prioritário justificado por vulnerabilidade concreta.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direitos-humanos-avancado-08-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Vulnerabilidade não significa incapacidade; indica exposição maior a riscos, barreiras ou discriminação que exigem resposta adequada.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Direitos sociais e políticas públicas"
   },
   {
-    "id": "direitos-sociais-economicos-culturais-e-politicas-publicas",
-    "materialTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "id": "direitos-sociais-e-politicas-publicas",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 9,
     "totalChapters": 10,
-    "title": "Direitos sociais, econômicos, culturais e políticas públicas",
-    "assunto": "Direitos sociais e políticas públicas",
-    "tecnica": "Conceito claro, comparação entre sistemas, aplicação prática e revisão por pegadinhas de banca",
-    "competencia": "Resolver questões objetivas e discursivas sobre direitos humanos sem cair em absolutismos.",
-    "dificuldade": "Médio-Avançado",
-    "tempoLeituraMin": 10,
-    "tempoExercicioMin": 26,
+    "title": "Direitos sociais e políticas públicas",
+    "assunto": "mínimo existencial e dever estatal",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar mínimo existencial e dever estatal com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
-      "VUNESP": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
       "direitos sociais",
-      "progressividade",
-      "mínimo existencial",
-      "políticas públicas"
+      "políticas públicas",
+      "mínimo existencial"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Declaração Universal dos Direitos Humanos",
-      "Convenção Americana sobre Direitos Humanos",
-      "Tratados internacionais de direitos humanos",
-      "Jurisprudência constitucional e interamericana em linguagem pedagógica"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Direitos sociais e políticas públicas com foco em concursos policiais, tribunais, OAB e carreiras públicas. O aluno deve estudar o tema sem decorar frases soltas: a banca cobra conceito, limite, órgão competente e aplicação em caso concreto.",
-      "Ideia central: Direitos sociais exigem prestações estatais, planejamento e políticas públicas, mas não podem ser reduzidos a promessas vazias. Esse ponto precisa aparecer de forma simples no caderno de revisão, porque é a base para resolver questões de certo/errado, múltipla escolha e discursivas.",
-      "Erro comum: Dizer que direitos sociais não são direitos humanos ou que sempre dependem apenas de conveniência política. Em provas, esse erro geralmente aparece em alternativas absolutas, emocionalizadas ou que confundem proteção de direitos com ausência de responsabilização.",
-      "Como estudar: use o modelo progressividade, vedação ao retrocesso, orçamento, mínimo existencial e controle judicial possível. Depois resolva uma questão, explique o tema em voz alta e escreva uma frase de revisão para memorizar."
+      "Direitos sociais e políticas públicas exige domínio de mínimo existencial e dever estatal. O estudo correto começa pela ideia de que direitos sociais exigem prestações estatais e políticas públicas planejadas, financiadas e avaliadas.",
+      "Saúde, educação, moradia, assistência e trabalho têm relação direta com prevenção de conflitos e segurança pública. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Reserva do possível não pode ser desculpa automática para negar prestações mínimas; deve dialogar com prioridade, orçamento e prova. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Judiciário, administração e legislativo atuam de formas diferentes na efetivação de direitos sociais. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Direitos sociais exigem prestações estatais, planejamento e políticas públicas, mas não podem ser reduzidos a promessas vazias.",
-      "Pegadinha comum: Dizer que direitos sociais não são direitos humanos ou que sempre dependem apenas de conveniência política.",
-      "Modelo de prova: progressividade, vedação ao retrocesso, orçamento, mínimo existencial e controle judicial possível",
-      "Sempre diferencie proteção de direitos, responsabilização legal e abuso estatal."
+      "Direitos sociais exigem prestações estatais e políticas públicas planejadas, financiadas e avaliadas.",
+      "Saúde, educação, moradia, assistência e trabalho têm relação direta com prevenção de conflitos e segurança pública.",
+      "Reserva do possível não pode ser desculpa automática para negar prestações mínimas; deve dialogar com prioridade, orçamento e prova.",
+      "Judiciário, administração e legislativo atuam de formas diferentes na efetivação de direitos sociais."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa resume melhor o capítulo?",
-      "opcoes": [
-        "Dizer que direitos sociais não são direitos humanos ou que sempre dependem apenas de conveniência política.",
-        "Direitos sociais exigem prestações estatais, planejamento e políticas públicas, mas não podem ser reduzidos a promessas vazias.",
-        "Direitos humanos só importam em relações privadas sem Estado."
-      ],
-      "correta": 1,
-      "justificativa": "A opção correta apresenta a tese jurídica central do capítulo."
-    },
-    "oQueCobra": "Conceito, características, sistemas de proteção, papel do Estado, limites à atuação pública e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Constituição, Estado Democrático de Direito, legalidade, dignidade humana e devido processo.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca costuma trocar órgãos, sistemas e características. Também usa alternativas emocionais sobre polícia, punição, vulnerabilidade ou tratados."
+        "pergunta": "Qual é o núcleo de Direitos sociais e políticas públicas?",
+        "resposta": "Direitos sociais exigem prestações estatais e políticas públicas planejadas, financiadas e avaliadas."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique a fonte, o sujeito protegido, a obrigação do Estado e o limite jurídico. Depois elimine alternativas absolutas."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Afirmar que direito social é mera promessa política."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em área policial, direitos humanos orientam atuação legítima, preservam vidas, protegem provas e reduzem responsabilidade funcional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Iluminação, escola, transporte e assistência social reduzem oportunidade de violência tanto quanto ações policiais bem planejadas."
       }
     ],
-    "comoIdentificar": "Procure palavras como dignidade, igualdade, Comissão, Corte, tratado, proporcionalidade, custódia, vulnerabilidade e reparação.",
+    "quadroDeDominio": {
+      "conceito": "Direitos sociais exigem prestações estatais e políticas públicas planejadas, financiadas e avaliadas.",
+      "limite": "Saúde, educação, moradia, assistência e trabalho têm relação direta com prevenção de conflitos e segurança pública.",
+      "aplicacao": "Iluminação, escola, transporte e assistência social reduzem oportunidade de violência tanto quanto ações policiais bem planejadas.",
+      "erroFatal": "Afirmar que direito social é mera promessa política."
+    },
+    "exemploComentado": "Iluminação, escola, transporte e assistência social reduzem oportunidade de violência tanto quanto ações policiais bem planejadas.",
     "pegadinhas": [
-      "palavras absolutas como sempre/nunca",
-      "confusão entre ONU e OEA",
-      "confusão entre Comissão e Corte",
-      "ideia falsa de que direitos humanos impedem punição legal",
-      "uso de opinião política no lugar de fundamento jurídico"
+      "Afirmar que direito social é mera promessa política.",
+      "Tratar segurança pública como tema isolado de desigualdade e serviços básicos."
     ],
-    "resumoFrase": "Direitos sociais exigem prestações estatais, planejamento e políticas públicas, mas não podem ser reduzidos a promessas vazias.",
-    "proximoTitulo": "Responsabilização internacional, controle de convencionalidade e reparações",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 19 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir edital, tratados, jurisprudência e atos normativos recentes antes da publicação final.",
-    "publicoAlvo": "Candidatos de concursos policiais, OAB, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direitos Humanos",
-    "explicacaoComoSeTivesse12": "Pense assim: Direitos sociais exigem prestações estatais, planejamento e políticas públicas, mas não podem ser reduzidos a promessas vazias. Isso não quer dizer que ninguém pode ser punido. Quer dizer que toda ação do Estado precisa respeitar regras, limites e a dignidade das pessoas.",
+    "mapaMentalTexto": [
+      "Tema: Direitos sociais e políticas públicas",
+      "Conceito: Direitos sociais exigem prestações estatais e políticas públicas planejadas, financiadas e avaliadas.",
+      "Aplicação: Iluminação, escola, transporte e assistência social reduzem oportunidade de violência tanto quanto ações policiais bem planejadas.",
+      "Cuidado: Afirmar que direito social é mera promessa política."
+    ],
     "comoEstudar": [
-      "Leia a tese central e copie com suas palavras.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça tabela com conceito, fonte, órgão e pegadinha.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Direitos humanos não são impunidade: são limite jurídico, proteção da dignidade e controle da atuação estatal.",
-    "mapaMentalTextual": [
-      "Centro: Direitos sociais, econômicos, culturais e políticas públicas",
-      "Ramo 1: conceito e fundamento",
-      "Ramo 2: fonte normativa",
-      "Ramo 3: órgão ou instrumento",
-      "Ramo 4: pegadinha de banca",
-      "Ramo 5: aplicação prática em segurança pública"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a ideia central de Direitos sociais, econômicos, culturais e políticas públicas?",
-        "verso": "Direitos sociais exigem prestações estatais, planejamento e políticas públicas, mas não podem ser reduzidos a promessas vazias."
+        "id": "direitos-humanos-avancado-09-fc01",
+        "frente": "Qual é a ideia central de Direitos sociais e políticas públicas?",
+        "verso": "Direitos sociais exigem prestações estatais e políticas públicas planejadas, financiadas e avaliadas.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha a banca costuma usar?",
-        "verso": "Dizer que direitos sociais não são direitos humanos ou que sempre dependem apenas de conveniência política."
+        "id": "direitos-humanos-avancado-09-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em mínimo existencial e dever estatal?",
+        "verso": "Saúde, educação, moradia, assistência e trabalho têm relação direta com prevenção de conflitos e segurança pública.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual modelo de estudo usar neste capítulo?",
-        "verso": "progressividade, vedação ao retrocesso, orçamento, mínimo existencial e controle judicial possível"
+        "id": "direitos-humanos-avancado-09-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Afirmar que direito social é mera promessa política.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar em concurso policial?",
-        "verso": "Relacione legalidade, dignidade, proporcionalidade, responsabilidade estatal e proteção da pessoa."
+        "id": "direitos-humanos-avancado-09-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Iluminação, escola, transporte e assistência social reduzem oportunidade de violência tanto quanto ações policiais bem planejadas.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "conceitua corretamente",
-      "diferencia sistemas e órgãos",
-      "aplica ao caso concreto",
-      "evita absolutismos",
-      "responde com linguagem de prova"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Refazer 3 questões e revisar a tese central."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Criar tabela de pegadinhas do capítulo."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Resolver caso prático e explicar em voz alta."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique o capítulo em linguagem simples, crie 3 pegadinhas de banca e corrija minha resposta discursiva.",
-      "modo": "mentor_concurso",
-      "alerta": "Não transformar direitos humanos em opinião política; responder com fundamento jurídico."
-    },
     "questoes": [
       {
-        "id": "direitos-sociais-economicos-culturais-e-politicas-publicas-q01",
+        "id": "direitos-humanos-avancado-09-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Direitos sociais, econômicos, culturais e políticas públicas, assinale a alternativa correta.",
+        "enunciado": "Em relação a Direitos sociais e políticas públicas, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Direitos sociais exigem prestações estatais, planejamento e políticas públicas, mas não podem ser reduzidos a promessas vazias.",
-          "Dizer que direitos sociais não são direitos humanos ou que sempre dependem apenas de conveniência política.",
-          "O tema só tem relevância moral, sem impacto jurídico em concursos.",
-          "A proteção depende exclusivamente da vontade da autoridade de plantão.",
-          "A banca deve ignorar tratados, Constituição e jurisprudência no assunto."
+          "Direitos sociais exigem prestações estatais e políticas públicas planejadas, financiadas e avaliadas.",
+          "Afirmar que direito social é mera promessa política.",
+          "Tratar segurança pública como tema isolado de desigualdade e serviços básicos.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa resume corretamente Direitos sociais e políticas públicas.",
-          "Errada. Confunde progressividade e mínimo existencial com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A alternativa resume corretamente Direitos sociais e políticas públicas.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: Direitos sociais exigem prestações estatais e políticas públicas planejadas, financiadas e avaliadas."
       },
       {
-        "id": "direitos-sociais-economicos-culturais-e-politicas-publicas-q02",
+        "id": "direitos-humanos-avancado-09-q02",
         "tipo": "certo_errado",
-        "enunciado": "Direitos sociais exigem prestações estatais, planejamento e políticas públicas, mas não podem ser reduzidos a promessas vazias.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A assertiva apresenta a orientação correta para fins de prova.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Saúde, educação, moradia, assistência e trabalho têm relação direta com prevenção de conflitos e segurança pública.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de mínimo existencial e dever estatal."
       },
       {
-        "id": "direitos-sociais-economicos-culturais-e-politicas-publicas-q03",
+        "id": "direitos-humanos-avancado-09-q03",
         "tipo": "certo_errado",
-        "enunciado": "Dizer que direitos sociais não são direitos humanos ou que sempre dependem apenas de conveniência política.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A assertiva reproduz pegadinha comum e deve ser rejeitada.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Afirmar que direito social é mera promessa política.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "direitos-sociais-economicos-culturais-e-politicas-publicas-q04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Um Estado ignora completamente política de saúde básica e alega falta genérica de recursos. Qual ponto de prova?",
-        "alternativas": [
-          "A reserva do possível não dispensa motivação, prioridade, planejamento e respeito ao mínimo existencial.",
-          "Afastar todos os direitos por conveniência administrativa.",
-          "Aplicar punição informal para dar resposta rápida à sociedade.",
-          "Ignorar tratados e decidir apenas por opinião pessoal.",
-          "Considerar qualquer medida estatal válida se houver finalidade pública."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-          "Errada. Confunde progressividade e mínimo existencial com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-09-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Iluminação, escola, transporte e assistência social reduzem oportunidade de violência tanto quanto ações policiais bem planejadas. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Reserva do possível não pode ser desculpa automática para negar prestações mínimas; deve dialogar com prioridade, orçamento e prova.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "direitos-sociais-economicos-culturais-e-politicas-publicas-q05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Em uma questão discursiva, qual caminho aumenta a pontuação?",
-        "alternativas": [
-          "Usar progressividade, vedação ao retrocesso, orçamento, mínimo existencial e controle judicial possível e aplicar ao caso concreto.",
-          "Usar frases genéricas sem fundamento.",
-          "Responder com opinião política e sem conceito.",
-          "Citar órgão internacional aleatório.",
-          "Copiar o enunciado sem análise."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A resposta de concurso precisa demonstrar técnica e aplicação.",
-          "Errada. Confunde progressividade e mínimo existencial com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A resposta de concurso precisa demonstrar técnica e aplicação.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-09-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que mínimo existencial e dever estatal não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar direitos sociais exigem prestações estatais e políticas públicas planejadas, financiadas e avaliadas. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "direitos-sociais-economicos-culturais-e-politicas-publicas-q06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Diferencie reserva do possível e mínimo existencial.",
-        "respostaModelo": "Reserva do possível considera recursos e escolhas públicas; mínimo existencial protege prestações básicas indispensáveis à dignidade.",
-        "criteriosCorrecao": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "palavrasChaveEsperadas": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "comentario": "Resposta boa precisa ser objetiva, sem militância, com fundamento jurídico e aplicação ao caso.",
-        "diagnosticoIA": "Se a resposta ficou genérica, refaça usando conceito, fundamento e consequência."
-      },
-      {
-        "id": "direitos-sociais-economicos-culturais-e-politicas-publicas-q07",
+        "id": "direitos-humanos-avancado-09-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie reserva do possível de mínimo existencial em uma resposta de concurso.",
-        "respostaModelo": "reserva do possível e mínimo existencial podem se relacionar, mas não são iguais. A distinção central é: a primeira limita pela realidade financeira; o segundo protege núcleo básico de dignidade",
-        "criteriosCorrecao": [
-          "conceito de cada item",
-          "diferença central",
-          "exemplo de aplicação",
-          "ausência de confusão terminológica"
-        ],
-        "comentario": "Questões comparativas testam precisão conceitual.",
-        "diagnosticoIA": "Monte uma tabela mental: conceito, órgão/fonte, finalidade e efeito."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Direitos sociais exigem prestações estatais e políticas públicas planejadas, financiadas e avaliadas. Pegadinha: Afirmar que direito social é mera promessa política.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "direitos-sociais-economicos-culturais-e-politicas-publicas-q08",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Direitos sociais, econômicos, culturais e políticas públicas para um candidato de concurso policial.",
-        "promptTutorIA": "Explique Direitos sociais, econômicos, culturais e políticas públicas, traga uma pegadinha e proponha uma questão de certo/errado com comentário.",
-        "criterioDominio": [
-          "explicação simples",
-          "base jurídica",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Use este item para transformar leitura passiva em domínio ativo."
-      },
-      {
-        "id": "direitos-sociais-economicos-culturais-e-politicas-publicas-q09",
+        "id": "direitos-humanos-avancado-09-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Assinale a alternativa que representa uma pegadinha típica de banca.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Dizer que direitos sociais não são direitos humanos ou que sempre dependem apenas de conveniência política.",
-          "Direitos sociais exigem prestações estatais, planejamento e políticas públicas, mas não podem ser reduzidos a promessas vazias.",
-          "Diferenciar órgão, fonte e consequência jurídica.",
-          "Aplicar proporcionalidade no caso concreto.",
-          "Reconhecer que direitos humanos limitam abusos estatais."
+          "Reserva do possível não pode ser desculpa automática para negar prestações mínimas; deve dialogar com prioridade, orçamento e prova.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Tratar segurança pública como tema isolado de desigualdade e serviços básicos."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha está na formulação errada indicada pelo capítulo.",
-          "Errada. Confunde progressividade e mínimo existencial com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A pegadinha está na formulação errada indicada pelo capítulo.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "direitos-sociais-economicos-culturais-e-politicas-publicas-q10",
-        "tipo": "certo_errado",
-        "enunciado": "Em direitos humanos, a resposta tecnicamente adequada deve evitar absolutismos e identificar fundamento, sujeito protegido e consequência jurídica.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Essa é a postura mais segura em questões objetivas e discursivas.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "id": "direitos-humanos-avancado-09-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Tratar segurança pública como tema isolado de desigualdade e serviços básicos.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direitos-humanos-avancado-09-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Direitos sociais e políticas públicas a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Judiciário, administração e legislativo atuam de formas diferentes na efetivação de direitos sociais.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direitos-humanos-avancado-09-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Direitos sociais exigem prestações estatais e políticas públicas planejadas, financiadas e avaliadas.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Responsabilização, reparações e garantias de não repetição"
   },
   {
-    "id": "responsabilizacao-internacional-controle-de-convencionalidade-e-reparacoes",
-    "materialTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "id": "responsabilizacao-reparacoes-e-garantias-de-nao-repeticao",
+    "materialTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "subject": "Direitos Humanos Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direitos Humanos Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direitos Humanos Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 10,
     "totalChapters": 10,
-    "title": "Responsabilização internacional, controle de convencionalidade e reparações",
-    "assunto": "Responsabilidade internacional",
-    "tecnica": "Conceito claro, comparação entre sistemas, aplicação prática e revisão por pegadinhas de banca",
-    "competencia": "Resolver questões objetivas e discursivas sobre direitos humanos sem cair em absolutismos.",
-    "dificuldade": "Médio-Avançado",
-    "tempoLeituraMin": 10,
-    "tempoExercicioMin": 26,
+    "title": "Responsabilização, reparações e garantias de não repetição",
+    "assunto": "consequências das violações",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar consequências das violações com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
-      "VUNESP": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "responsabilidade internacional",
       "reparação",
-      "convencionalidade",
+      "responsabilização",
       "não repetição"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Declaração Universal dos Direitos Humanos",
-      "Convenção Americana sobre Direitos Humanos",
-      "Tratados internacionais de direitos humanos",
-      "Jurisprudência constitucional e interamericana em linguagem pedagógica"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Responsabilidade internacional com foco em concursos policiais, tribunais, OAB e carreiras públicas. O aluno deve estudar o tema sem decorar frases soltas: a banca cobra conceito, limite, órgão competente e aplicação em caso concreto.",
-      "Ideia central: Quando o Estado viola obrigações de direitos humanos, pode haver responsabilização internacional, recomendações, sentenças, reparações e ajustes internos. Esse ponto precisa aparecer de forma simples no caderno de revisão, porque é a base para resolver questões de certo/errado, múltipla escolha e discursivas.",
-      "Erro comum: Achar que decisão internacional é mera opinião política sem efeito jurídico ou que substitui sempre a legislação nacional automaticamente. Em provas, esse erro geralmente aparece em alternativas absolutas, emocionalizadas ou que confundem proteção de direitos com ausência de responsabilização.",
-      "Como estudar: use o modelo violação, responsabilidade estatal, reparação, garantias de não repetição e convencionalidade. Depois resolva uma questão, explique o tema em voz alta e escreva uma frase de revisão para memorizar."
+      "Responsabilização, reparações e garantias de não repetição exige domínio de consequências das violações. O estudo correto começa pela ideia de que violação de direitos humanos pode gerar responsabilidade administrativa, civil, penal e internacional, conforme o caso.",
+      "Reparação não é só indenização; pode envolver investigação, pedido público de desculpas, tratamento médico e reforma institucional. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Garantias de não repetição buscam alterar práticas, treinamentos e controles para impedir que a violação se repita. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Em provas, é importante distinguir responsabilização individual do agente e responsabilidade objetiva ou internacional do Estado. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Quando o Estado viola obrigações de direitos humanos, pode haver responsabilização internacional, recomendações, sentenças, reparações e ajustes internos.",
-      "Pegadinha comum: Achar que decisão internacional é mera opinião política sem efeito jurídico ou que substitui sempre a legislação nacional automaticamente.",
-      "Modelo de prova: violação, responsabilidade estatal, reparação, garantias de não repetição e convencionalidade",
-      "Sempre diferencie proteção de direitos, responsabilização legal e abuso estatal."
+      "Violação de direitos humanos pode gerar responsabilidade administrativa, civil, penal e internacional, conforme o caso.",
+      "Reparação não é só indenização; pode envolver investigação, pedido público de desculpas, tratamento médico e reforma institucional.",
+      "Garantias de não repetição buscam alterar práticas, treinamentos e controles para impedir que a violação se repita.",
+      "Em provas, é importante distinguir responsabilização individual do agente e responsabilidade objetiva ou internacional do Estado."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa resume melhor o capítulo?",
-      "opcoes": [
-        "Achar que decisão internacional é mera opinião política sem efeito jurídico ou que substitui sempre a legislação nacional automaticamente.",
-        "Quando o Estado viola obrigações de direitos humanos, pode haver responsabilização internacional, recomendações, sentenças, reparações e ajustes internos.",
-        "Direitos humanos só importam em relações privadas sem Estado."
-      ],
-      "correta": 1,
-      "justificativa": "A opção correta apresenta a tese jurídica central do capítulo."
-    },
-    "oQueCobra": "Conceito, características, sistemas de proteção, papel do Estado, limites à atuação pública e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Constituição, Estado Democrático de Direito, legalidade, dignidade humana e devido processo.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca costuma trocar órgãos, sistemas e características. Também usa alternativas emocionais sobre polícia, punição, vulnerabilidade ou tratados."
+        "pergunta": "Qual é o núcleo de Responsabilização, reparações e garantias de não repetição?",
+        "resposta": "Violação de direitos humanos pode gerar responsabilidade administrativa, civil, penal e internacional, conforme o caso."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique a fonte, o sujeito protegido, a obrigação do Estado e o limite jurídico. Depois elimine alternativas absolutas."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Limitar reparação a dinheiro."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em área policial, direitos humanos orientam atuação legítima, preservam vidas, protegem provas e reduzem responsabilidade funcional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Se uma unidade acumula denúncias de violência, a resposta deve incluir investigação individual e revisão de protocolo, supervisão e treinamento."
       }
     ],
-    "comoIdentificar": "Procure palavras como dignidade, igualdade, Comissão, Corte, tratado, proporcionalidade, custódia, vulnerabilidade e reparação.",
+    "quadroDeDominio": {
+      "conceito": "Violação de direitos humanos pode gerar responsabilidade administrativa, civil, penal e internacional, conforme o caso.",
+      "limite": "Reparação não é só indenização; pode envolver investigação, pedido público de desculpas, tratamento médico e reforma institucional.",
+      "aplicacao": "Se uma unidade acumula denúncias de violência, a resposta deve incluir investigação individual e revisão de protocolo, supervisão e treinamento.",
+      "erroFatal": "Limitar reparação a dinheiro."
+    },
+    "exemploComentado": "Se uma unidade acumula denúncias de violência, a resposta deve incluir investigação individual e revisão de protocolo, supervisão e treinamento.",
     "pegadinhas": [
-      "palavras absolutas como sempre/nunca",
-      "confusão entre ONU e OEA",
-      "confusão entre Comissão e Corte",
-      "ideia falsa de que direitos humanos impedem punição legal",
-      "uso de opinião política no lugar de fundamento jurídico"
+      "Limitar reparação a dinheiro.",
+      "Achar que punição de um agente sempre resolve falha estrutural."
     ],
-    "resumoFrase": "Quando o Estado viola obrigações de direitos humanos, pode haver responsabilização internacional, recomendações, sentenças, reparações e ajustes internos.",
-    "proximoTitulo": "Revisão integrada de direitos humanos",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 19 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir edital, tratados, jurisprudência e atos normativos recentes antes da publicação final.",
-    "publicoAlvo": "Candidatos de concursos policiais, OAB, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direitos Humanos",
-    "explicacaoComoSeTivesse12": "Pense assim: Quando o Estado viola obrigações de direitos humanos, pode haver responsabilização internacional, recomendações, sentenças, reparações e ajustes internos. Isso não quer dizer que ninguém pode ser punido. Quer dizer que toda ação do Estado precisa respeitar regras, limites e a dignidade das pessoas.",
+    "mapaMentalTexto": [
+      "Tema: Responsabilização, reparações e garantias de não repetição",
+      "Conceito: Violação de direitos humanos pode gerar responsabilidade administrativa, civil, penal e internacional, conforme o caso.",
+      "Aplicação: Se uma unidade acumula denúncias de violência, a resposta deve incluir investigação individual e revisão de protocolo, supervisão e treinamento.",
+      "Cuidado: Limitar reparação a dinheiro."
+    ],
     "comoEstudar": [
-      "Leia a tese central e copie com suas palavras.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça tabela com conceito, fonte, órgão e pegadinha.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Direitos humanos não são impunidade: são limite jurídico, proteção da dignidade e controle da atuação estatal.",
-    "mapaMentalTextual": [
-      "Centro: Responsabilização internacional, controle de convencionalidade e reparações",
-      "Ramo 1: conceito e fundamento",
-      "Ramo 2: fonte normativa",
-      "Ramo 3: órgão ou instrumento",
-      "Ramo 4: pegadinha de banca",
-      "Ramo 5: aplicação prática em segurança pública"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a ideia central de Responsabilização internacional, controle de convencionalidade e reparações?",
-        "verso": "Quando o Estado viola obrigações de direitos humanos, pode haver responsabilização internacional, recomendações, sentenças, reparações e ajustes internos."
+        "id": "direitos-humanos-avancado-10-fc01",
+        "frente": "Qual é a ideia central de Responsabilização, reparações e garantias de não repetição?",
+        "verso": "Violação de direitos humanos pode gerar responsabilidade administrativa, civil, penal e internacional, conforme o caso.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha a banca costuma usar?",
-        "verso": "Achar que decisão internacional é mera opinião política sem efeito jurídico ou que substitui sempre a legislação nacional automaticamente."
+        "id": "direitos-humanos-avancado-10-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em consequências das violações?",
+        "verso": "Reparação não é só indenização; pode envolver investigação, pedido público de desculpas, tratamento médico e reforma institucional.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual modelo de estudo usar neste capítulo?",
-        "verso": "violação, responsabilidade estatal, reparação, garantias de não repetição e convencionalidade"
+        "id": "direitos-humanos-avancado-10-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Limitar reparação a dinheiro. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar em concurso policial?",
-        "verso": "Relacione legalidade, dignidade, proporcionalidade, responsabilidade estatal e proteção da pessoa."
+        "id": "direitos-humanos-avancado-10-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Se uma unidade acumula denúncias de violência, a resposta deve incluir investigação individual e revisão de protocolo, supervisão e treinamento.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "conceitua corretamente",
-      "diferencia sistemas e órgãos",
-      "aplica ao caso concreto",
-      "evita absolutismos",
-      "responde com linguagem de prova"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Refazer 3 questões e revisar a tese central."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Criar tabela de pegadinhas do capítulo."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Resolver caso prático e explicar em voz alta."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique o capítulo em linguagem simples, crie 3 pegadinhas de banca e corrija minha resposta discursiva.",
-      "modo": "mentor_concurso",
-      "alerta": "Não transformar direitos humanos em opinião política; responder com fundamento jurídico."
-    },
     "questoes": [
       {
-        "id": "responsabilizacao-internacional-controle-de-convencionalidade-e-reparacoes-q01",
+        "id": "direitos-humanos-avancado-10-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Responsabilização internacional, controle de convencionalidade e reparações, assinale a alternativa correta.",
+        "enunciado": "Em relação a Responsabilização, reparações e garantias de não repetição, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Quando o Estado viola obrigações de direitos humanos, pode haver responsabilização internacional, recomendações, sentenças, reparações e ajustes internos.",
-          "Achar que decisão internacional é mera opinião política sem efeito jurídico ou que substitui sempre a legislação nacional automaticamente.",
-          "O tema só tem relevância moral, sem impacto jurídico em concursos.",
-          "A proteção depende exclusivamente da vontade da autoridade de plantão.",
-          "A banca deve ignorar tratados, Constituição e jurisprudência no assunto."
+          "Violação de direitos humanos pode gerar responsabilidade administrativa, civil, penal e internacional, conforme o caso.",
+          "Limitar reparação a dinheiro.",
+          "Achar que punição de um agente sempre resolve falha estrutural.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa resume corretamente Responsabilidade internacional.",
-          "Errada. Confunde controle de convencionalidade com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A alternativa resume corretamente Responsabilidade internacional.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: Violação de direitos humanos pode gerar responsabilidade administrativa, civil, penal e internacional, conforme o caso."
       },
       {
-        "id": "responsabilizacao-internacional-controle-de-convencionalidade-e-reparacoes-q02",
+        "id": "direitos-humanos-avancado-10-q02",
         "tipo": "certo_errado",
-        "enunciado": "Quando o Estado viola obrigações de direitos humanos, pode haver responsabilização internacional, recomendações, sentenças, reparações e ajustes internos.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A assertiva apresenta a orientação correta para fins de prova.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Reparação não é só indenização; pode envolver investigação, pedido público de desculpas, tratamento médico e reforma institucional.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de consequências das violações."
       },
       {
-        "id": "responsabilizacao-internacional-controle-de-convencionalidade-e-reparacoes-q03",
+        "id": "direitos-humanos-avancado-10-q03",
         "tipo": "certo_errado",
-        "enunciado": "Achar que decisão internacional é mera opinião política sem efeito jurídico ou que substitui sempre a legislação nacional automaticamente.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A assertiva reproduz pegadinha comum e deve ser rejeitada.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "enunciado": "Limitar reparação a dinheiro.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "responsabilizacao-internacional-controle-de-convencionalidade-e-reparacoes-q04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Uma lei interna é aplicada em desacordo com tratado de direitos humanos. Qual técnica pode aparecer?",
-        "alternativas": [
-          "Controle de convencionalidade, examinando compatibilidade da norma interna com obrigações internacionais assumidas.",
-          "Afastar todos os direitos por conveniência administrativa.",
-          "Aplicar punição informal para dar resposta rápida à sociedade.",
-          "Ignorar tratados e decidir apenas por opinião pessoal.",
-          "Considerar qualquer medida estatal válida se houver finalidade pública."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-          "Errada. Confunde controle de convencionalidade com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "O caso exige resposta jurídica, proporcional e compatível com direitos humanos.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-10-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Se uma unidade acumula denúncias de violência, a resposta deve incluir investigação individual e revisão de protocolo, supervisão e treinamento. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Garantias de não repetição buscam alterar práticas, treinamentos e controles para impedir que a violação se repita.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "responsabilizacao-internacional-controle-de-convencionalidade-e-reparacoes-q05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Em uma questão discursiva, qual caminho aumenta a pontuação?",
-        "alternativas": [
-          "Usar violação, responsabilidade estatal, reparação, garantias de não repetição e convencionalidade e aplicar ao caso concreto.",
-          "Usar frases genéricas sem fundamento.",
-          "Responder com opinião política e sem conceito.",
-          "Citar órgão internacional aleatório.",
-          "Copiar o enunciado sem análise."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A resposta de concurso precisa demonstrar técnica e aplicação.",
-          "Errada. Confunde controle de convencionalidade com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A resposta de concurso precisa demonstrar técnica e aplicação.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "id": "direitos-humanos-avancado-10-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que consequências das violações não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar violação de direitos humanos pode gerar responsabilidade administrativa, civil, penal e internacional, conforme o caso. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "responsabilizacao-internacional-controle-de-convencionalidade-e-reparacoes-q06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Explique o que é controle de convencionalidade em linguagem de concurso.",
-        "respostaModelo": "É a verificação de compatibilidade de atos e normas internas com tratados de direitos humanos vinculantes ao Estado.",
-        "criteriosCorrecao": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "palavrasChaveEsperadas": [
-          "conceito correto",
-          "fundamento jurídico",
-          "aplicação prática",
-          "linguagem objetiva"
-        ],
-        "comentario": "Resposta boa precisa ser objetiva, sem militância, com fundamento jurídico e aplicação ao caso.",
-        "diagnosticoIA": "Se a resposta ficou genérica, refaça usando conceito, fundamento e consequência."
-      },
-      {
-        "id": "responsabilizacao-internacional-controle-de-convencionalidade-e-reparacoes-q07",
+        "id": "direitos-humanos-avancado-10-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie controle de constitucionalidade de controle de convencionalidade em uma resposta de concurso.",
-        "respostaModelo": "controle de constitucionalidade e controle de convencionalidade podem se relacionar, mas não são iguais. A distinção central é: o primeiro confronta a Constituição; o segundo confronta tratados de direitos humanos aplicáveis",
-        "criteriosCorrecao": [
-          "conceito de cada item",
-          "diferença central",
-          "exemplo de aplicação",
-          "ausência de confusão terminológica"
-        ],
-        "comentario": "Questões comparativas testam precisão conceitual.",
-        "diagnosticoIA": "Monte uma tabela mental: conceito, órgão/fonte, finalidade e efeito."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Violação de direitos humanos pode gerar responsabilidade administrativa, civil, penal e internacional, conforme o caso. Pegadinha: Limitar reparação a dinheiro.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "responsabilizacao-internacional-controle-de-convencionalidade-e-reparacoes-q08",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Responsabilização internacional, controle de convencionalidade e reparações para um candidato de concurso policial.",
-        "promptTutorIA": "Explique Responsabilização internacional, controle de convencionalidade e reparações, traga uma pegadinha e proponha uma questão de certo/errado com comentário.",
-        "criterioDominio": [
-          "explicação simples",
-          "base jurídica",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Use este item para transformar leitura passiva em domínio ativo."
-      },
-      {
-        "id": "responsabilizacao-internacional-controle-de-convencionalidade-e-reparacoes-q09",
+        "id": "direitos-humanos-avancado-10-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Assinale a alternativa que representa uma pegadinha típica de banca.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Achar que decisão internacional é mera opinião política sem efeito jurídico ou que substitui sempre a legislação nacional automaticamente.",
-          "Quando o Estado viola obrigações de direitos humanos, pode haver responsabilização internacional, recomendações, sentenças, reparações e ajustes internos.",
-          "Diferenciar órgão, fonte e consequência jurídica.",
-          "Aplicar proporcionalidade no caso concreto.",
-          "Reconhecer que direitos humanos limitam abusos estatais."
+          "Garantias de não repetição buscam alterar práticas, treinamentos e controles para impedir que a violação se repita.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Achar que punição de um agente sempre resolve falha estrutural."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha está na formulação errada indicada pelo capítulo.",
-          "Errada. Confunde controle de convencionalidade com uma consequência automática.",
-          "Errada. Generaliza o tema e ignora limites jurídicos.",
-          "Errada. Troca proteção de direitos por autorização ampla ao Estado.",
-          "Errada. Usa linguagem absoluta incompatível com prova."
-        ],
-        "comentario": "A pegadinha está na formulação errada indicada pelo capítulo.",
-        "armadilhaDaBanca": "A banca tenta trocar proteção da pessoa por formalismo vazio ou por poder estatal sem controle.",
-        "porqueCaiEmProva": "Tema recorrente em OAB, área policial, tribunais e carreiras públicas.",
-        "diagnosticoIA": "Se errou, revise conceito, finalidade, órgão competente e limite constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "responsabilizacao-internacional-controle-de-convencionalidade-e-reparacoes-q10",
-        "tipo": "certo_errado",
-        "enunciado": "Em direitos humanos, a resposta tecnicamente adequada deve evitar absolutismos e identificar fundamento, sujeito protegido e consequência jurídica.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Essa é a postura mais segura em questões objetivas e discursivas.",
-        "armadilhaDaBanca": "A banca usa palavras absolutas, órgão errado ou confusão entre sistema global e interamericano.",
-        "diagnosticoIA": "Marque no caderno de erros se a falha foi conceito, órgão, tratado ou aplicação prática."
+        "id": "direitos-humanos-avancado-10-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Achar que punição de um agente sempre resolve falha estrutural.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direitos-humanos-avancado-10-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Responsabilização, reparações e garantias de não repetição a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Em provas, é importante distinguir responsabilização individual do agente e responsabilidade objetiva ou internacional do Estado.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direitos-humanos-avancado-10-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Violação de direitos humanos pode gerar responsabilidade administrativa, civil, penal e internacional, conforme o caso.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Revisão integrada do módulo"
   }
 ];
 

@@ -5,14 +5,18 @@ import { portuguesAvancado } from "./portugues-avancado";
 import { apostilaPortuguesOrtografiaMorfologia } from "./portugues-pmma-ortografia-morfologia";
 import { apostilaPortuguesSintaxe } from "./portugues-pmma-sintaxe";
 import { direitoProcessualPenal } from "./direito-processual-penal";
+import { direitoProcessualPenalAvancado } from "./direito-processual-penal-avancado";
 import { direitoProcessualCivil } from "./direito-processual-civil";
 import { direitoProcessualPenalMilitar } from "./direito-processual-penal-militar";
+import { direitoProcessualPenalMilitarAvancado } from "./direito-processual-penal-militar-avancado";
 import { direitoProcessualTrabalho } from "./direito-processual-trabalho";
 import { direitosHumanos } from "./direitos-humanos";
 import { direitosHumanosAvancado } from "./direitos-humanos-avancado";
 import { legislacaoPenalEspecial } from "./legislacao-penal-especial";
+import { legislacaoPenalEspecialAvancada } from "./legislacao-penal-especial-avancada";
 import { legislacaoInstitucionalPMMA } from "./legislacao-institucional-pmma";
 import { legislacaoInstitucionalPMMAAvancada } from "./legislacao-institucional-pmma-avancada";
+import { legislacaoInstitucionalPmmaSimuladosComentados } from "./legislacao-institucional-pmma-simulados-comentados";
 import { direitoAdministrativo } from "./direito-administrativo";
 import { direitoAdministrativoAvancado } from "./direito-administrativo-avancado";
 import { direitoConstitucional } from "./direito-constitucional";
@@ -34,6 +38,11 @@ import { direitoDigitalLgpdCrimesCiberneticos } from "./direito-digital-lgpd-cri
 import { criminologiaSegurancaPublicaAvancada } from "./criminologia-seguranca-publica-avancada";
 import { ctbCodigoTransitoBrasileiro } from "./ctb-codigo-transito-brasileiro";
 import { direitoPenalMilitar } from "./direito-penal-militar";
+import { direitoPenalMilitarAvancado } from "./direito-penal-militar-avancado";
+import { direitoPenalParteEspecialAvancado } from "./direito-penal-parte-especial-avancado";
+import { ordemPublicaDefesaSocialSegurancaCidada } from "./ordem-publica-defesa-social-seguranca-cidada";
+import { policiaComunitariaMediacaoConflitos } from "./policia-comunitaria-mediacao-conflitos";
+import { usoDiferenciadoDaForcaAtuacaoPolicial } from "./uso-diferenciado-da-forca-atuacao-policial";
 import { atualidades } from "./atualidades";
 import { atualidadesAvancada } from "./atualidades-avancada";
 import { etica } from "./etica";
@@ -68,14 +77,18 @@ export const apostilasBiblioteca = [
   buildApostila("apostila-direito-penal-parte-geral", direitoPenalParteGeral),
   buildApostila("apostila-direito-penal-parte-geral-avancado", direitoPenalParteGeralAvancado),
   buildApostila("apostila-direito-processual-penal", direitoProcessualPenal),
+  buildApostila("apostila-direito-processual-penal-avancado", direitoProcessualPenalAvancado),
   buildApostila("apostila-direito-processual-civil", direitoProcessualCivil),
   buildApostila("apostila-direito-processual-trabalho", direitoProcessualTrabalho),
   buildApostila("apostila-direito-processual-penal-militar", direitoProcessualPenalMilitar),
+  buildApostila("apostila-direito-processual-penal-militar-avancado", direitoProcessualPenalMilitarAvancado),
   buildApostila("apostila-direitos-humanos", direitosHumanos),
   buildApostila("apostila-direitos-humanos-avancado", direitosHumanosAvancado),
   buildApostila("apostila-legislacao-penal-especial", legislacaoPenalEspecial),
+  buildApostila("apostila-legislacao-penal-especial-avancada", legislacaoPenalEspecialAvancada),
   buildApostila("apostila-legislacao-institucional-pmma", legislacaoInstitucionalPMMA),
   buildApostila("apostila-legislacao-institucional-pmma-avancada", legislacaoInstitucionalPMMAAvancada),
+  buildApostila("apostila-legislacao-institucional-pmma-simulados-comentados", legislacaoInstitucionalPmmaSimuladosComentados),
   buildApostila("apostila-direito-administrativo", direitoAdministrativo),
   buildApostila("apostila-direito-administrativo-avancado", direitoAdministrativoAvancado),
   buildApostila("apostila-direito-constitucional", direitoConstitucional),
@@ -97,6 +110,11 @@ export const apostilasBiblioteca = [
   buildApostila("apostila-criminologia-seguranca-publica-avancada", criminologiaSegurancaPublicaAvancada),
   buildApostila("apostila-ctb-codigo-transito-brasileiro", ctbCodigoTransitoBrasileiro),
   buildApostila("apostila-direito-penal-militar", direitoPenalMilitar),
+  buildApostila("apostila-direito-penal-militar-avancado", direitoPenalMilitarAvancado),
+  buildApostila("apostila-direito-penal-parte-especial-avancado", direitoPenalParteEspecialAvancado),
+  buildApostila("apostila-ordem-publica-defesa-social-seguranca-cidada", ordemPublicaDefesaSocialSegurancaCidada),
+  buildApostila("apostila-policia-comunitaria-mediacao-conflitos", policiaComunitariaMediacaoConflitos),
+  buildApostila("apostila-uso-diferenciado-da-forca-atuacao-policial", usoDiferenciadoDaForcaAtuacaoPolicial),
   buildApostila("apostila-atualidades", atualidades),
   buildApostila("apostila-atualidades-avancada", atualidadesAvancada),
   buildApostila("apostila-etica", etica),

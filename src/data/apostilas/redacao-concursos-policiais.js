@@ -1,4564 +1,2081 @@
 /**
- * VemAprovar Top1 — Apostila Premium 10/10 Plus Revisado
- * Arquivo: redacao-concursos-policiais.js
- * Módulo: Redação para Concursos Policiais
- * Lote 18: continuação com revisão de qualidade dos lotes anteriores.
- * Atualização pedagógica: 2026-07-07
- *
- * Padrão novo: 10 questões por capítulo, 4 flashcards por capítulo, gabarito obrigatório em múltipla escolha,
- * flashcards sem placeholder e validação programática do pacote.
+ * VemAprovar — Redação para Concursos Policiais 10/10 Reescrita de Verdade
+ * Arquivo reescrito do zero para substituir versão genérica/templated.
+ * Foco: conteúdo real, caso prático, pegadinhas e questões com gabarito.
  */
 
 export const redacaoConcursosPoliciais = [
   {
-    "id": "estrutura-da-redacao-dissertativo-argumentativa-para-concursos-policiais",
-    "materialTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "id": "estrutura-da-redacao-policial-tese-problema-e-caminho-de-solucao",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas Municipais / Concursos Policiais",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 1,
     "totalChapters": 10,
-    "title": "Estrutura da redação dissertativo-argumentativa para concursos policiais",
-    "assunto": "Estrutura textual",
-    "tecnica": "Escrita objetiva, leitura de comando, tese clara, repertório pertinente e reescrita por rubrica",
-    "competencia": "Montar introdução, desenvolvimento e conclusão com unidade temática.",
-    "dificuldade": "Médio",
-    "tempoLeituraMin": 9,
-    "tempoExercicioMin": 24,
+    "title": "Estrutura da redação policial: tese, problema e caminho de solução",
+    "assunto": "montagem do texto dissertativo para banca policial",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar montagem do texto dissertativo para banca policial com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
-      "FGV": 4,
-      "CESPE": 5,
+      "FGV": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
       "IBFC": 4,
       "AOCP": 4,
-      "OAB": 2,
-      "ENEM": 3
+      "Instituto Consulplan": 4
     },
     "termosChave": [
       "tese",
-      "parágrafo",
-      "argumentação",
-      "coesão"
+      "estrutura",
+      "segurança pública",
+      "solução"
     ],
-    "fontesBase": [
-      "Técnica de redação dissertativo-argumentativa",
-      "Critérios usuais de correção discursiva em concursos",
-      "Temas de segurança pública e cidadania",
-      "Norma-padrão da Língua Portuguesa",
-      "Rubrica pedagógica VemAprovar"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
-    "precisaConferenciaOficialAntesDePublicar": false,
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
+    "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo ensina estrutura textual com foco em prova discursiva de concursos policiais. A redação não é um texto livre: ela precisa responder ao comando, demonstrar organização e sustentar uma tese com argumentos verificáveis.",
-      "O ponto central é: A redação de concurso policial exige resposta objetiva ao tema, tese clara e argumentos compatíveis com Estado Democrático de Direito. Para isso, o candidato deve planejar antes de escrever, escolher repertório pertinente e explicar a relação entre o repertório e o problema proposto.",
-      "O erro mais comum é: Fazer texto genérico, sem tese e sem responder ao comando da banca. Em redação policial, isso costuma gerar perda de nota porque o corretor avalia domínio do tema, progressão textual, equilíbrio argumentativo e uso adequado da norma-padrão."
+      "Estrutura da redação policial: tese, problema e caminho de solução exige domínio de montagem do texto dissertativo para banca policial. O estudo correto começa pela ideia de que a redação policial precisa defender uma tese clara sobre segurança pública sem cair em discurso meramente emocional ou punitivista.",
+      "A introdução deve apresentar o problema, delimitar o recorte e indicar a linha de raciocínio que será desenvolvida nos parágrafos seguintes. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "O desenvolvimento combina causa, consequência e medida institucional, sempre conectando o argumento ao comando da proposta. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "A conclusão deve fechar o raciocínio e, quando a banca permitir, apontar providência viável, proporcional e compatível com direitos fundamentais. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "A redação de concurso policial exige resposta objetiva ao tema, tese clara e argumentos compatíveis com Estado Democrático de Direito.",
-      "Erro a evitar: Fazer texto genérico, sem tese e sem responder ao comando da banca.",
-      "Repertório útil: Constituição, cidadania, segurança pública, direitos fundamentais e prevenção social.",
-      "Modelo operacional: Introdução com tema e tese; desenvolvimento com dois argumentos; conclusão com fechamento coerente."
+      "A redação policial precisa defender uma tese clara sobre segurança pública sem cair em discurso meramente emocional ou punitivista.",
+      "A introdução deve apresentar o problema, delimitar o recorte e indicar a linha de raciocínio que será desenvolvida nos parágrafos seguintes.",
+      "O desenvolvimento combina causa, consequência e medida institucional, sempre conectando o argumento ao comando da proposta.",
+      "A conclusão deve fechar o raciocínio e, quando a banca permitir, apontar providência viável, proporcional e compatível com direitos fundamentais."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a técnica central deste capítulo?",
-      "opcoes": [
-        "Fazer texto genérico, sem tese e sem responder ao comando da banca.",
-        "Introdução com tema e tese; desenvolvimento com dois argumentos; conclusão com fechamento coerente.",
-        "escrever o máximo de linhas sem planejamento"
-      ],
-      "correta": 1,
-      "justificativa": "O modelo correto é: Introdução com tema e tese; desenvolvimento com dois argumentos; conclusão com fechamento coerente."
-    },
-    "oQueCobra": "Leitura de tema, projeto de texto, argumentação, coesão, repertório, norma-padrão e conclusão adequada.",
-    "precisaSaberAntes": "Interpretação de texto, pontuação básica, coesão e noções de segurança pública/cidadania.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta um tema amplo ou recortado e avalia se o candidato consegue defender uma ideia com clareza, equilíbrio e domínio da escrita formal."
+        "pergunta": "Qual é o núcleo de Estrutura da redação policial: tese, problema e caminho de solução?",
+        "resposta": "A redação policial precisa defender uma tese clara sobre segurança pública sem cair em discurso meramente emocional ou punitivista."
       },
       {
-        "titulo": "Como treinar",
-        "texto": "Faça primeiro o projeto de texto, depois escreva em tempo cronometrado e finalize reescrevendo os trechos mais fracos."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Começar com frase de efeito vazia e só depois tentar descobrir a tese."
+      },
+      {
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Tema: violência urbana e policiamento preventivo. Uma boa tese pode defender integração entre inteligência, presença territorial e políticas sociais, sem negar limites legais da atuação policial."
       }
     ],
-    "comoIdentificar": "Procure a palavra central do tema, o verbo do comando e o limite do recorte. Depois transforme tudo em uma frase-tese.",
-    "pegadinhas": [
-      "Fuga ao tema",
-      "Tese genérica",
-      "Repertório citado sem análise",
-      "Conclusão vaga",
-      "Opinião radical sem fundamento"
-    ],
-    "resumoFrase": "A redação de concurso policial exige resposta objetiva ao tema, tese clara e argumentos compatíveis com Estado Democrático de Direito.",
-    "proximoTitulo": "Interpretação do tema, recorte e comando da banca",
-    "padraoPlataforma": "VemAprovar Top1 — 10/10 Plus Revisado",
-    "versaoConteudo": "premium-18.0-redacao-policial-plus-revisado",
-    "statusRevisao": "revisado_com_validacao_de_gabarito_flashcards_e_campos",
-    "riscoAtualizacao": "baixo_medio",
-    "publicoAlvo": [
-      "PM",
-      "PC",
-      "PRF",
-      "Polícia Penal",
-      "Guardas Municipais",
-      "Concursos Militares"
-    ],
-    "areaPlataforma": "redacao_concursos_policiais",
-    "explicacaoComoSeTivesse12": "Pense na redação como uma construção. O tema é o terreno, a tese é a planta da casa, os argumentos são as paredes e a conclusão é o telhado. Se você muda de ideia no meio, a casa fica torta. Neste capítulo, a regra é: Introdução com tema e tese; desenvolvimento com dois argumentos; conclusão com fechamento coerente.",
-    "comoEstudar": [
-      "Leia o capítulo e escreva uma frase-tese.",
-      "Monte dois argumentos em tópicos.",
-      "Escreva um parágrafo em 8 minutos.",
-      "Corrija pela rubrica.",
-      "Reescreva o trecho mais fraco."
-    ],
-    "paraNaoEsquecer": [
-      "A redação de concurso policial exige resposta objetiva ao tema, tese clara e argumentos compatíveis com Estado Democrático de Direito.",
-      "Erro a evitar: Fazer texto genérico, sem tese e sem responder ao comando da banca.",
-      "Repertório útil: Constituição, cidadania, segurança pública, direitos fundamentais e prevenção social.",
-      "Modelo operacional: Introdução com tema e tese; desenvolvimento com dois argumentos; conclusão com fechamento coerente."
-    ],
-    "mapaMentalTextual": {
-      "centro": "Estrutura da redação dissertativo-argumentativa para concursos policiais",
-      "ramos": [
-        {
-          "titulo": "Técnica",
-          "itens": [
-            "Introdução com tema e tese; desenvolvimento com dois argumentos; conclusão com fechamento coerente."
-          ]
-        },
-        {
-          "titulo": "Erro comum",
-          "itens": [
-            "Fazer texto genérico, sem tese e sem responder ao comando da banca."
-          ]
-        },
-        {
-          "titulo": "Repertório",
-          "itens": [
-            "Constituição, cidadania, segurança pública, direitos fundamentais e prevenção social."
-          ]
-        },
-        {
-          "titulo": "Critério de correção",
-          "itens": [
-            "tema",
-            "tese",
-            "argumento",
-            "coesão",
-            "norma-padrão"
-          ]
-        }
-      ]
+    "quadroDeDominio": {
+      "conceito": "A redação policial precisa defender uma tese clara sobre segurança pública sem cair em discurso meramente emocional ou punitivista.",
+      "limite": "A introdução deve apresentar o problema, delimitar o recorte e indicar a linha de raciocínio que será desenvolvida nos parágrafos seguintes.",
+      "aplicacao": "Tema: violência urbana e policiamento preventivo. Uma boa tese pode defender integração entre inteligência, presença territorial e políticas sociais, sem negar limites legais da atuação policial.",
+      "erroFatal": "Começar com frase de efeito vazia e só depois tentar descobrir a tese."
     },
+    "exemploComentado": "Tema: violência urbana e policiamento preventivo. Uma boa tese pode defender integração entre inteligência, presença territorial e políticas sociais, sem negar limites legais da atuação policial.",
+    "pegadinhas": [
+      "Começar com frase de efeito vazia e só depois tentar descobrir a tese.",
+      "Prometer solução milagrosa, vaga ou incompatível com a Constituição."
+    ],
+    "mapaMentalTexto": [
+      "Tema: Estrutura da redação policial: tese, problema e caminho de solução",
+      "Conceito: A redação policial precisa defender uma tese clara sobre segurança pública sem cair em discurso meramente emocional ou punitivista.",
+      "Aplicação: Tema: violência urbana e policiamento preventivo. Uma boa tese pode defender integração entre inteligência, presença territorial e políticas sociais, sem negar limites legais da atuação policial.",
+      "Cuidado: Começar com frase de efeito vazia e só depois tentar descobrir a tese."
+    ],
+    "comoEstudar": [
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
+    ],
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
+    ],
     "flashcards": [
       {
-        "frente": "O que é essencial em Estrutura textual?",
-        "verso": "A redação de concurso policial exige resposta objetiva ao tema, tese clara e argumentos compatíveis com Estado Democrático de Direito."
+        "id": "redacao-para-concursos-policiais-01-fc01",
+        "frente": "Qual é a ideia central de Estrutura da redação policial: tese, problema e caminho de solução?",
+        "verso": "A redação policial precisa defender uma tese clara sobre segurança pública sem cair em discurso meramente emocional ou punitivista.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Erro comum em Estrutura da redação dissertativo-argumentativa para concursos policiais",
-        "verso": "Fazer texto genérico, sem tese e sem responder ao comando da banca."
+        "id": "redacao-para-concursos-policiais-01-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em montagem do texto dissertativo para banca policial?",
+        "verso": "A introdução deve apresentar o problema, delimitar o recorte e indicar a linha de raciocínio que será desenvolvida nos parágrafos seguintes.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Repertório útil",
-        "verso": "Constituição, cidadania, segurança pública, direitos fundamentais e prevenção social."
+        "id": "redacao-para-concursos-policiais-01-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Começar com frase de efeito vazia e só depois tentar descobrir a tese.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Modelo operacional",
-        "verso": "Introdução com tema e tese; desenvolvimento com dois argumentos; conclusão com fechamento coerente."
+        "id": "redacao-para-concursos-policiais-01-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Tema: violência urbana e policiamento preventivo. Uma boa tese pode defender integração entre inteligência, presença territorial e políticas sociais, sem negar limites legais da atuação policial.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": {
-      "iniciante": "escreve sem planejamento ou com tese vaga",
-      "intermediario": "planeja, mas ainda usa repertório pouco explicado",
-      "avancado": "responde ao tema com tese clara, argumento, repertório e coesão"
-    },
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "reescrever a tese e um tópico frasal"
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "produzir um parágrafo completo"
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "fazer simulado cronometrado e corrigir por rubrica"
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Atue como corretor de redação para concursos policiais. Corrija texto do aluno sobre Estrutura da redação dissertativo-argumentativa para concursos policiais por rubrica, explique os erros e proponha reescrita.",
-      "naoFazer": [
-        "não inventar fatos",
-        "não estimular discurso violento ou discriminatório",
-        "não dar nota sem justificar"
-      ],
-      "feedbackEsperado": [
-        "tema",
-        "tese",
-        "argumentação",
-        "coesão",
-        "norma-padrão",
-        "reescrita"
-      ]
-    },
     "questoes": [
       {
-        "id": "estrutura-da-redacao-dissertativo-argumentativa-para-concursos-policiais-q01",
+        "id": "redacao-para-concursos-policiais-01-q01",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Estrutura da redação dissertativo-argumentativa para concursos policiais, assinale a alternativa correta.",
+        "enunciado": "Em relação a Estrutura da redação policial: tese, problema e caminho de solução, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A redação de concurso policial exige resposta objetiva ao tema, tese clara e argumentos compatíveis com Estado Democrático de Direito.",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "A redação policial precisa defender uma tese clara sobre segurança pública sem cair em discurso meramente emocional ou punitivista.",
+          "Começar com frase de efeito vazia e só depois tentar descobrir a tese.",
+          "Prometer solução milagrosa, vaga ou incompatível com a Constituição.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: A redação de concurso policial exige resposta objetiva ao tema, tese clara e argumentos compatíveis com Estado Democrático de Direito.",
-        "armadilhaDaBanca": "Fazer texto genérico, sem tese e sem responder ao comando da banca.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A alternativa correta resume o núcleo do tema: A redação policial precisa defender uma tese clara sobre segurança pública sem cair em discurso meramente emocional ou punitivista."
       },
       {
-        "id": "estrutura-da-redacao-dissertativo-argumentativa-para-concursos-policiais-q02",
+        "id": "redacao-para-concursos-policiais-01-q02",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: A redação de concurso policial exige resposta objetiva ao tema, tese clara e argumentos compatíveis com Estado Democrático de Direito.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "O item está correto porque reflete técnica de escrita para banca.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "A introdução deve apresentar o problema, delimitar o recorte e indicar a linha de raciocínio que será desenvolvida nos parágrafos seguintes.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de montagem do texto dissertativo para banca policial."
       },
       {
-        "id": "estrutura-da-redacao-dissertativo-argumentativa-para-concursos-policiais-q03",
+        "id": "redacao-para-concursos-policiais-01-q03",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: Em redação policial, basta defender opinião forte; estrutura, tese e coerência são secundárias.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "O item está errado: opinião sem estrutura, prova e coerência costuma reduzir a nota.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "Começar com frase de efeito vazia e só depois tentar descobrir a tese.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "estrutura-da-redacao-dissertativo-argumentativa-para-concursos-policiais-q04",
+        "id": "redacao-para-concursos-policiais-01-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Tema: violência urbana e policiamento preventivo. Uma boa tese pode defender integração entre inteligência, presença territorial e políticas sociais, sem negar limites legais da atuação policial. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "O desenvolvimento combina causa, consequência e medida institucional, sempre conectando o argumento ao comando da proposta.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-01-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que montagem do texto dissertativo para banca policial não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar a redação policial precisa defender uma tese clara sobre segurança pública sem cair em discurso meramente emocional ou punitivista. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-01-q06",
+        "tipo": "comparativa",
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: A redação policial precisa defender uma tese clara sobre segurança pública sem cair em discurso meramente emocional ou punitivista. Pegadinha: Começar com frase de efeito vazia e só depois tentar descobrir a tese.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-01-q07",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Estrutura da redação dissertativo-argumentativa para concursos policiais, assinale a alternativa correta.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "O melhor procedimento é: Introdução com tema e tese; desenvolvimento com dois argumentos; conclusão com fechamento coerente.",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "O desenvolvimento combina causa, consequência e medida institucional, sempre conectando o argumento ao comando da proposta.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Prometer solução milagrosa, vaga ou incompatível com a Constituição."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: A redação de concurso policial exige resposta objetiva ao tema, tese clara e argumentos compatíveis com Estado Democrático de Direito.",
-        "armadilhaDaBanca": "Fazer texto genérico, sem tese e sem responder ao comando da banca.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "estrutura-da-redacao-dissertativo-argumentativa-para-concursos-policiais-q05",
-        "tipo": "analise_de_trecho",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Estrutura da redação dissertativo-argumentativa para concursos policiais\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que A redação de concurso policial exige resposta objetiva ao tema, tese clara e argumentos compatíveis com Estado Democrático de Direito. Deve trazer Constituição, cidadania, segurança pública, direitos fundamentais e prevenção social. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "tese",
-          "parágrafo",
-          "argumentação",
-          "coesão"
-        ],
-        "erroComum": "Fazer texto genérico, sem tese e sem responder ao comando da banca.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
+        "id": "redacao-para-concursos-policiais-01-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Prometer solução milagrosa, vaga ou incompatível com a Constituição.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "estrutura-da-redacao-dissertativo-argumentativa-para-concursos-policiais-q06",
-        "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "dificil",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_incorreta",
-        "enunciado": "Sobre Estrutura da redação dissertativo-argumentativa para concursos policiais, assinale a alternativa correta.",
-        "alternativas": [
-          "Fazer texto genérico, sem tese e sem responder ao comando da banca.",
-          "A redação de concurso policial exige resposta objetiva ao tema, tese clara e argumentos compatíveis com Estado Democrático de Direito.",
-          "Um repertório possível é: Constituição, cidadania, segurança pública, direitos fundamentais e prevenção social.",
-          "A banca cobra: Montar introdução, desenvolvimento e conclusão com unidade temática.",
-          "A reescrita ajuda a corrigir vícios de estrutura."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: A redação de concurso policial exige resposta objetiva ao tema, tese clara e argumentos compatíveis com Estado Democrático de Direito.",
-        "armadilhaDaBanca": "Fazer texto genérico, sem tese e sem responder ao comando da banca.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "id": "redacao-para-concursos-policiais-01-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Estrutura da redação policial: tese, problema e caminho de solução a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: A conclusão deve fechar o raciocínio e, quando a banca permitir, apontar providência viável, proporcional e compatível com direitos fundamentais.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
       },
       {
-        "id": "estrutura-da-redacao-dissertativo-argumentativa-para-concursos-policiais-q07",
-        "tipo": "planejamento_redacao",
-        "bancaEstilo": "Treino VemAprovar",
-        "nivel": "alto",
-        "eixoCognitivo": "planejamento",
-        "temaTreino": "Estrutura textual em concursos policiais",
-        "comando": "Monte um projeto de texto com tese, argumento 1, argumento 2 e conclusão.",
-        "respostaModelo": {
-          "tese": "A redação de concurso policial exige resposta objetiva ao tema, tese clara e argumentos compatíveis com Estado Democrático de Direito.",
-          "argumento1": "Causa ou fundamento: Constituição, cidadania, segurança pública, direitos fundamentais e prevenção social..",
-          "argumento2": "Consequência prática para segurança pública, cidadania ou confiança institucional.",
-          "conclusao": "Fechamento coerente: Introdução com tema e tese; desenvolvimento com dois argumentos; conclusão com fechamento coerente."
-        },
-        "criteriosCorrecao": [
-          "tese defensável",
-          "argumentos conectados",
-          "repertório pertinente",
-          "conclusão compatível"
-        ],
-        "diagnosticoIA": {
-          "acao": "Gerar feedback em rubrica e sugerir uma versão mais objetiva da tese."
-        }
-      },
-      {
-        "id": "estrutura-da-redacao-dissertativo-argumentativa-para-concursos-policiais-q08",
-        "tipo": "resposta_aberta",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Estrutura da redação dissertativo-argumentativa para concursos policiais\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que A redação de concurso policial exige resposta objetiva ao tema, tese clara e argumentos compatíveis com Estado Democrático de Direito. Deve trazer Constituição, cidadania, segurança pública, direitos fundamentais e prevenção social. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "tese",
-          "parágrafo",
-          "argumentação",
-          "coesão"
-        ],
-        "erroComum": "Fazer texto genérico, sem tese e sem responder ao comando da banca.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
-      },
-      {
-        "id": "estrutura-da-redacao-dissertativo-argumentativa-para-concursos-policiais-q09",
-        "tipo": "checklist_correcao",
-        "bancaEstilo": "Rubrica VemAprovar",
-        "nivel": "medio",
-        "eixoCognitivo": "autoavaliacao",
-        "comando": "Marque se o trecho produzido cumpre os critérios mínimos.",
-        "itens": [
-          {
-            "criterio": "Responde exatamente ao tema?",
-            "esperado": true
-          },
-          {
-            "criterio": "Tem tese ou ideia central clara?",
-            "esperado": true
-          },
-          {
-            "criterio": "Usa repertório explicado, não apenas citado?",
-            "esperado": true
-          },
-          {
-            "criterio": "Evita generalização, radicalismo e senso comum?",
-            "esperado": true
-          },
-          {
-            "criterio": "Mantém coesão e progressão?",
-            "esperado": true
-          }
-        ],
-        "respostaModelo": "A redação só deve avançar para versão final se todos os critérios forem atendidos ou reescritos.",
-        "diagnosticoIA": {
-          "acao": "Classificar o texto em pronto, precisa reescrever ou precisa refazer o projeto de texto."
-        }
-      },
-      {
-        "id": "estrutura-da-redacao-dissertativo-argumentativa-para-concursos-policiais-q10",
-        "tipo": "treino_adaptativo_ia",
-        "bancaEstilo": "Tutor IA VemAprovar",
-        "nivel": "adaptativo",
-        "eixoCognitivo": "reescrita_orientada",
-        "promptTutorIA": "Corrija um trecho de redação do aluno sobre Estrutura da redação dissertativo-argumentativa para concursos policiais. Aponte fuga ao tema, tese, repertório, coesão, norma-padrão e sugira reescrita objetiva.",
-        "criterioDominio": "Domina quando consegue planejar, escrever e reescrever o trecho sem fuga ao tema e com argumentação clara.",
-        "saidaEsperada": "Feedback por rubrica, nota estimada, três ajustes prioritários e versão reescrita do trecho."
+        "id": "redacao-para-concursos-policiais-01-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: A redação policial precisa defender uma tese clara sobre segurança pública sem cair em discurso meramente emocional ou punitivista.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "qualidadeConteudo": {
-      "revisaoAutomaticaCampos": true,
-      "mcComGabaritoObrigatorio": true,
-      "flashcardsSemPlaceholder": true,
-      "dataRevisaoQualidade": "2026-07-07"
-    }
+    "proximoTitulo": "Leitura do tema e recorte: como não fugir da proposta"
   },
   {
-    "id": "interpretacao-do-tema-recorte-e-comando-da-banca",
-    "materialTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "id": "leitura-do-tema-e-recorte-como-nao-fugir-da-proposta",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas Municipais / Concursos Policiais",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 2,
     "totalChapters": 10,
-    "title": "Interpretação do tema, recorte e comando da banca",
-    "assunto": "Leitura do tema",
-    "tecnica": "Escrita objetiva, leitura de comando, tese clara, repertório pertinente e reescrita por rubrica",
-    "competencia": "Identificar palavra-chave, limite temático e tarefa pedida pela banca.",
-    "dificuldade": "Médio",
-    "tempoLeituraMin": 9,
-    "tempoExercicioMin": 24,
+    "title": "Leitura do tema e recorte: como não fugir da proposta",
+    "assunto": "interpretação do comando da redação",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar interpretação do comando da redação com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
-      "FGV": 4,
-      "CESPE": 5,
+      "FGV": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
       "IBFC": 4,
       "AOCP": 4,
-      "OAB": 2,
-      "ENEM": 3
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "recorte temático",
+      "tema",
+      "recorte",
       "comando",
-      "fuga ao tema",
-      "tangenciamento"
+      "fuga"
     ],
-    "fontesBase": [
-      "Técnica de redação dissertativo-argumentativa",
-      "Critérios usuais de correção discursiva em concursos",
-      "Temas de segurança pública e cidadania",
-      "Norma-padrão da Língua Portuguesa",
-      "Rubrica pedagógica VemAprovar"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
-    "precisaConferenciaOficialAntesDePublicar": false,
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
+    "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo ensina leitura do tema com foco em prova discursiva de concursos policiais. A redação não é um texto livre: ela precisa responder ao comando, demonstrar organização e sustentar uma tese com argumentos verificáveis.",
-      "O ponto central é: Interpretar o tema antes de escrever evita fuga, tangenciamento e argumentação fora do recorte exigido. Para isso, o candidato deve planejar antes de escrever, escolher repertório pertinente e explicar a relação entre o repertório e o problema proposto.",
-      "O erro mais comum é: Responder um assunto parecido, mas não exatamente o tema cobrado. Em redação policial, isso costuma gerar perda de nota porque o corretor avalia domínio do tema, progressão textual, equilíbrio argumentativo e uso adequado da norma-padrão."
+      "Leitura do tema e recorte: como não fugir da proposta exige domínio de interpretação do comando da redação. O estudo correto começa pela ideia de que o primeiro passo é separar assunto amplo, tema específico e comando da banca; cada elemento orienta uma parte diferente do texto.",
+      "Quando a proposta menciona segurança pública, o aluno deve identificar se o foco é prevenção, repressão qualificada, direitos humanos, tecnologia ou gestão. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Recorte correto impede fuga parcial: falar de criminalidade em geral quando o tema pede policiamento comunitário reduz a aderência ao comando. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Palavras como discorra, analise, relacione e proponha indicam operações diferentes: explicar, avaliar, comparar ou sugerir medidas. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Interpretar o tema antes de escrever evita fuga, tangenciamento e argumentação fora do recorte exigido.",
-      "Erro a evitar: Responder um assunto parecido, mas não exatamente o tema cobrado.",
-      "Repertório útil: Leitura ativa, grifo de palavras centrais, paráfrase do comando e planejamento prévio.",
-      "Modelo operacional: Antes do rascunho, transforme o tema em pergunta e responda em uma frase-tese."
+      "O primeiro passo é separar assunto amplo, tema específico e comando da banca; cada elemento orienta uma parte diferente do texto.",
+      "Quando a proposta menciona segurança pública, o aluno deve identificar se o foco é prevenção, repressão qualificada, direitos humanos, tecnologia ou gestão.",
+      "Recorte correto impede fuga parcial: falar de criminalidade em geral quando o tema pede policiamento comunitário reduz a aderência ao comando.",
+      "Palavras como discorra, analise, relacione e proponha indicam operações diferentes: explicar, avaliar, comparar ou sugerir medidas."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a técnica central deste capítulo?",
-      "opcoes": [
-        "Responder um assunto parecido, mas não exatamente o tema cobrado.",
-        "Antes do rascunho, transforme o tema em pergunta e responda em uma frase-tese.",
-        "escrever o máximo de linhas sem planejamento"
-      ],
-      "correta": 1,
-      "justificativa": "O modelo correto é: Antes do rascunho, transforme o tema em pergunta e responda em uma frase-tese."
-    },
-    "oQueCobra": "Leitura de tema, projeto de texto, argumentação, coesão, repertório, norma-padrão e conclusão adequada.",
-    "precisaSaberAntes": "Interpretação de texto, pontuação básica, coesão e noções de segurança pública/cidadania.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta um tema amplo ou recortado e avalia se o candidato consegue defender uma ideia com clareza, equilíbrio e domínio da escrita formal."
+        "pergunta": "Qual é o núcleo de Leitura do tema e recorte: como não fugir da proposta?",
+        "resposta": "O primeiro passo é separar assunto amplo, tema específico e comando da banca; cada elemento orienta uma parte diferente do texto."
       },
       {
-        "titulo": "Como treinar",
-        "texto": "Faça primeiro o projeto de texto, depois escreva em tempo cronometrado e finalize reescrevendo os trechos mais fracos."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Tratar qualquer tema policial como autorização para escrever sobre aumento de penas."
+      },
+      {
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Se a proposta pede “o papel da polícia comunitária na prevenção”, não basta falar de violência; é preciso demonstrar proximidade, confiança, informação local e prevenção."
       }
     ],
-    "comoIdentificar": "Procure a palavra central do tema, o verbo do comando e o limite do recorte. Depois transforme tudo em uma frase-tese.",
-    "pegadinhas": [
-      "Fuga ao tema",
-      "Tese genérica",
-      "Repertório citado sem análise",
-      "Conclusão vaga",
-      "Opinião radical sem fundamento"
-    ],
-    "resumoFrase": "Interpretar o tema antes de escrever evita fuga, tangenciamento e argumentação fora do recorte exigido.",
-    "proximoTitulo": "Tese, projeto de texto e linha argumentativa",
-    "padraoPlataforma": "VemAprovar Top1 — 10/10 Plus Revisado",
-    "versaoConteudo": "premium-18.0-redacao-policial-plus-revisado",
-    "statusRevisao": "revisado_com_validacao_de_gabarito_flashcards_e_campos",
-    "riscoAtualizacao": "baixo_medio",
-    "publicoAlvo": [
-      "PM",
-      "PC",
-      "PRF",
-      "Polícia Penal",
-      "Guardas Municipais",
-      "Concursos Militares"
-    ],
-    "areaPlataforma": "redacao_concursos_policiais",
-    "explicacaoComoSeTivesse12": "Pense na redação como uma construção. O tema é o terreno, a tese é a planta da casa, os argumentos são as paredes e a conclusão é o telhado. Se você muda de ideia no meio, a casa fica torta. Neste capítulo, a regra é: Antes do rascunho, transforme o tema em pergunta e responda em uma frase-tese.",
-    "comoEstudar": [
-      "Leia o capítulo e escreva uma frase-tese.",
-      "Monte dois argumentos em tópicos.",
-      "Escreva um parágrafo em 8 minutos.",
-      "Corrija pela rubrica.",
-      "Reescreva o trecho mais fraco."
-    ],
-    "paraNaoEsquecer": [
-      "Interpretar o tema antes de escrever evita fuga, tangenciamento e argumentação fora do recorte exigido.",
-      "Erro a evitar: Responder um assunto parecido, mas não exatamente o tema cobrado.",
-      "Repertório útil: Leitura ativa, grifo de palavras centrais, paráfrase do comando e planejamento prévio.",
-      "Modelo operacional: Antes do rascunho, transforme o tema em pergunta e responda em uma frase-tese."
-    ],
-    "mapaMentalTextual": {
-      "centro": "Interpretação do tema, recorte e comando da banca",
-      "ramos": [
-        {
-          "titulo": "Técnica",
-          "itens": [
-            "Antes do rascunho, transforme o tema em pergunta e responda em uma frase-tese."
-          ]
-        },
-        {
-          "titulo": "Erro comum",
-          "itens": [
-            "Responder um assunto parecido, mas não exatamente o tema cobrado."
-          ]
-        },
-        {
-          "titulo": "Repertório",
-          "itens": [
-            "Leitura ativa, grifo de palavras centrais, paráfrase do comando e planejamento prévio."
-          ]
-        },
-        {
-          "titulo": "Critério de correção",
-          "itens": [
-            "tema",
-            "tese",
-            "argumento",
-            "coesão",
-            "norma-padrão"
-          ]
-        }
-      ]
+    "quadroDeDominio": {
+      "conceito": "O primeiro passo é separar assunto amplo, tema específico e comando da banca; cada elemento orienta uma parte diferente do texto.",
+      "limite": "Quando a proposta menciona segurança pública, o aluno deve identificar se o foco é prevenção, repressão qualificada, direitos humanos, tecnologia ou gestão.",
+      "aplicacao": "Se a proposta pede “o papel da polícia comunitária na prevenção”, não basta falar de violência; é preciso demonstrar proximidade, confiança, informação local e prevenção.",
+      "erroFatal": "Tratar qualquer tema policial como autorização para escrever sobre aumento de penas."
     },
+    "exemploComentado": "Se a proposta pede “o papel da polícia comunitária na prevenção”, não basta falar de violência; é preciso demonstrar proximidade, confiança, informação local e prevenção.",
+    "pegadinhas": [
+      "Tratar qualquer tema policial como autorização para escrever sobre aumento de penas.",
+      "Ignorar o verbo do comando e responder apenas ao assunto genérico."
+    ],
+    "mapaMentalTexto": [
+      "Tema: Leitura do tema e recorte: como não fugir da proposta",
+      "Conceito: O primeiro passo é separar assunto amplo, tema específico e comando da banca; cada elemento orienta uma parte diferente do texto.",
+      "Aplicação: Se a proposta pede “o papel da polícia comunitária na prevenção”, não basta falar de violência; é preciso demonstrar proximidade, confiança, informação local e prevenção.",
+      "Cuidado: Tratar qualquer tema policial como autorização para escrever sobre aumento de penas."
+    ],
+    "comoEstudar": [
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
+    ],
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
+    ],
     "flashcards": [
       {
-        "frente": "O que é essencial em Leitura do tema?",
-        "verso": "Interpretar o tema antes de escrever evita fuga, tangenciamento e argumentação fora do recorte exigido."
+        "id": "redacao-para-concursos-policiais-02-fc01",
+        "frente": "Qual é a ideia central de Leitura do tema e recorte: como não fugir da proposta?",
+        "verso": "O primeiro passo é separar assunto amplo, tema específico e comando da banca; cada elemento orienta uma parte diferente do texto.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Erro comum em Interpretação do tema, recorte e comando da banca",
-        "verso": "Responder um assunto parecido, mas não exatamente o tema cobrado."
+        "id": "redacao-para-concursos-policiais-02-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em interpretação do comando da redação?",
+        "verso": "Quando a proposta menciona segurança pública, o aluno deve identificar se o foco é prevenção, repressão qualificada, direitos humanos, tecnologia ou gestão.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Repertório útil",
-        "verso": "Leitura ativa, grifo de palavras centrais, paráfrase do comando e planejamento prévio."
+        "id": "redacao-para-concursos-policiais-02-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Tratar qualquer tema policial como autorização para escrever sobre aumento de penas.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Modelo operacional",
-        "verso": "Antes do rascunho, transforme o tema em pergunta e responda em uma frase-tese."
+        "id": "redacao-para-concursos-policiais-02-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Se a proposta pede “o papel da polícia comunitária na prevenção”, não basta falar de violência; é preciso demonstrar proximidade, confiança, informação local e prevenção.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": {
-      "iniciante": "escreve sem planejamento ou com tese vaga",
-      "intermediario": "planeja, mas ainda usa repertório pouco explicado",
-      "avancado": "responde ao tema com tese clara, argumento, repertório e coesão"
-    },
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "reescrever a tese e um tópico frasal"
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "produzir um parágrafo completo"
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "fazer simulado cronometrado e corrigir por rubrica"
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Atue como corretor de redação para concursos policiais. Corrija texto do aluno sobre Interpretação do tema, recorte e comando da banca por rubrica, explique os erros e proponha reescrita.",
-      "naoFazer": [
-        "não inventar fatos",
-        "não estimular discurso violento ou discriminatório",
-        "não dar nota sem justificar"
-      ],
-      "feedbackEsperado": [
-        "tema",
-        "tese",
-        "argumentação",
-        "coesão",
-        "norma-padrão",
-        "reescrita"
-      ]
-    },
     "questoes": [
       {
-        "id": "interpretacao-do-tema-recorte-e-comando-da-banca-q01",
+        "id": "redacao-para-concursos-policiais-02-q01",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Interpretação do tema, recorte e comando da banca, assinale a alternativa correta.",
+        "enunciado": "Em relação a Leitura do tema e recorte: como não fugir da proposta, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Interpretar o tema antes de escrever evita fuga, tangenciamento e argumentação fora do recorte exigido.",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "O primeiro passo é separar assunto amplo, tema específico e comando da banca; cada elemento orienta uma parte diferente do texto.",
+          "Tratar qualquer tema policial como autorização para escrever sobre aumento de penas.",
+          "Ignorar o verbo do comando e responder apenas ao assunto genérico.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: Interpretar o tema antes de escrever evita fuga, tangenciamento e argumentação fora do recorte exigido.",
-        "armadilhaDaBanca": "Responder um assunto parecido, mas não exatamente o tema cobrado.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A alternativa correta resume o núcleo do tema: O primeiro passo é separar assunto amplo, tema específico e comando da banca; cada elemento orienta uma parte diferente do texto."
       },
       {
-        "id": "interpretacao-do-tema-recorte-e-comando-da-banca-q02",
+        "id": "redacao-para-concursos-policiais-02-q02",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: Interpretar o tema antes de escrever evita fuga, tangenciamento e argumentação fora do recorte exigido.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "O item está correto porque reflete técnica de escrita para banca.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "Quando a proposta menciona segurança pública, o aluno deve identificar se o foco é prevenção, repressão qualificada, direitos humanos, tecnologia ou gestão.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de interpretação do comando da redação."
       },
       {
-        "id": "interpretacao-do-tema-recorte-e-comando-da-banca-q03",
+        "id": "redacao-para-concursos-policiais-02-q03",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: Em redação policial, basta defender opinião forte; estrutura, tese e coerência são secundárias.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "O item está errado: opinião sem estrutura, prova e coerência costuma reduzir a nota.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "Tratar qualquer tema policial como autorização para escrever sobre aumento de penas.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "interpretacao-do-tema-recorte-e-comando-da-banca-q04",
+        "id": "redacao-para-concursos-policiais-02-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Se a proposta pede “o papel da polícia comunitária na prevenção”, não basta falar de violência; é preciso demonstrar proximidade, confiança, informação local e prevenção. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Recorte correto impede fuga parcial: falar de criminalidade em geral quando o tema pede policiamento comunitário reduz a aderência ao comando.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-02-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que interpretação do comando da redação não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar o primeiro passo é separar assunto amplo, tema específico e comando da banca; cada elemento orienta uma parte diferente do texto. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-02-q06",
+        "tipo": "comparativa",
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: O primeiro passo é separar assunto amplo, tema específico e comando da banca; cada elemento orienta uma parte diferente do texto. Pegadinha: Tratar qualquer tema policial como autorização para escrever sobre aumento de penas.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-02-q07",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Interpretação do tema, recorte e comando da banca, assinale a alternativa correta.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "O melhor procedimento é: Antes do rascunho, transforme o tema em pergunta e responda em uma frase-tese.",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "Recorte correto impede fuga parcial: falar de criminalidade em geral quando o tema pede policiamento comunitário reduz a aderência ao comando.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Ignorar o verbo do comando e responder apenas ao assunto genérico."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: Interpretar o tema antes de escrever evita fuga, tangenciamento e argumentação fora do recorte exigido.",
-        "armadilhaDaBanca": "Responder um assunto parecido, mas não exatamente o tema cobrado.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "interpretacao-do-tema-recorte-e-comando-da-banca-q05",
-        "tipo": "analise_de_trecho",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Interpretação do tema, recorte e comando da banca\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que Interpretar o tema antes de escrever evita fuga, tangenciamento e argumentação fora do recorte exigido. Deve trazer Leitura ativa, grifo de palavras centrais, paráfrase do comando e planejamento prévio. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "recorte temático",
-          "comando",
-          "fuga ao tema",
-          "tangenciamento"
-        ],
-        "erroComum": "Responder um assunto parecido, mas não exatamente o tema cobrado.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
+        "id": "redacao-para-concursos-policiais-02-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Ignorar o verbo do comando e responder apenas ao assunto genérico.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "interpretacao-do-tema-recorte-e-comando-da-banca-q06",
-        "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "dificil",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_incorreta",
-        "enunciado": "Sobre Interpretação do tema, recorte e comando da banca, assinale a alternativa correta.",
-        "alternativas": [
-          "Responder um assunto parecido, mas não exatamente o tema cobrado.",
-          "Interpretar o tema antes de escrever evita fuga, tangenciamento e argumentação fora do recorte exigido.",
-          "Um repertório possível é: Leitura ativa, grifo de palavras centrais, paráfrase do comando e planejamento prévio.",
-          "A banca cobra: Identificar palavra-chave, limite temático e tarefa pedida pela banca.",
-          "A reescrita ajuda a corrigir vícios de estrutura."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: Interpretar o tema antes de escrever evita fuga, tangenciamento e argumentação fora do recorte exigido.",
-        "armadilhaDaBanca": "Responder um assunto parecido, mas não exatamente o tema cobrado.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "id": "redacao-para-concursos-policiais-02-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Leitura do tema e recorte: como não fugir da proposta a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Palavras como discorra, analise, relacione e proponha indicam operações diferentes: explicar, avaliar, comparar ou sugerir medidas.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
       },
       {
-        "id": "interpretacao-do-tema-recorte-e-comando-da-banca-q07",
-        "tipo": "planejamento_redacao",
-        "bancaEstilo": "Treino VemAprovar",
-        "nivel": "alto",
-        "eixoCognitivo": "planejamento",
-        "temaTreino": "Leitura do tema em concursos policiais",
-        "comando": "Monte um projeto de texto com tese, argumento 1, argumento 2 e conclusão.",
-        "respostaModelo": {
-          "tese": "Interpretar o tema antes de escrever evita fuga, tangenciamento e argumentação fora do recorte exigido.",
-          "argumento1": "Causa ou fundamento: Leitura ativa, grifo de palavras centrais, paráfrase do comando e planejamento prévio..",
-          "argumento2": "Consequência prática para segurança pública, cidadania ou confiança institucional.",
-          "conclusao": "Fechamento coerente: Antes do rascunho, transforme o tema em pergunta e responda em uma frase-tese."
-        },
-        "criteriosCorrecao": [
-          "tese defensável",
-          "argumentos conectados",
-          "repertório pertinente",
-          "conclusão compatível"
-        ],
-        "diagnosticoIA": {
-          "acao": "Gerar feedback em rubrica e sugerir uma versão mais objetiva da tese."
-        }
-      },
-      {
-        "id": "interpretacao-do-tema-recorte-e-comando-da-banca-q08",
-        "tipo": "resposta_aberta",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Interpretação do tema, recorte e comando da banca\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que Interpretar o tema antes de escrever evita fuga, tangenciamento e argumentação fora do recorte exigido. Deve trazer Leitura ativa, grifo de palavras centrais, paráfrase do comando e planejamento prévio. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "recorte temático",
-          "comando",
-          "fuga ao tema",
-          "tangenciamento"
-        ],
-        "erroComum": "Responder um assunto parecido, mas não exatamente o tema cobrado.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
-      },
-      {
-        "id": "interpretacao-do-tema-recorte-e-comando-da-banca-q09",
-        "tipo": "checklist_correcao",
-        "bancaEstilo": "Rubrica VemAprovar",
-        "nivel": "medio",
-        "eixoCognitivo": "autoavaliacao",
-        "comando": "Marque se o trecho produzido cumpre os critérios mínimos.",
-        "itens": [
-          {
-            "criterio": "Responde exatamente ao tema?",
-            "esperado": true
-          },
-          {
-            "criterio": "Tem tese ou ideia central clara?",
-            "esperado": true
-          },
-          {
-            "criterio": "Usa repertório explicado, não apenas citado?",
-            "esperado": true
-          },
-          {
-            "criterio": "Evita generalização, radicalismo e senso comum?",
-            "esperado": true
-          },
-          {
-            "criterio": "Mantém coesão e progressão?",
-            "esperado": true
-          }
-        ],
-        "respostaModelo": "A redação só deve avançar para versão final se todos os critérios forem atendidos ou reescritos.",
-        "diagnosticoIA": {
-          "acao": "Classificar o texto em pronto, precisa reescrever ou precisa refazer o projeto de texto."
-        }
-      },
-      {
-        "id": "interpretacao-do-tema-recorte-e-comando-da-banca-q10",
-        "tipo": "treino_adaptativo_ia",
-        "bancaEstilo": "Tutor IA VemAprovar",
-        "nivel": "adaptativo",
-        "eixoCognitivo": "reescrita_orientada",
-        "promptTutorIA": "Corrija um trecho de redação do aluno sobre Interpretação do tema, recorte e comando da banca. Aponte fuga ao tema, tese, repertório, coesão, norma-padrão e sugira reescrita objetiva.",
-        "criterioDominio": "Domina quando consegue planejar, escrever e reescrever o trecho sem fuga ao tema e com argumentação clara.",
-        "saidaEsperada": "Feedback por rubrica, nota estimada, três ajustes prioritários e versão reescrita do trecho."
+        "id": "redacao-para-concursos-policiais-02-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: O primeiro passo é separar assunto amplo, tema específico e comando da banca; cada elemento orienta uma parte diferente do texto.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "qualidadeConteudo": {
-      "revisaoAutomaticaCampos": true,
-      "mcComGabaritoObrigatorio": true,
-      "flashcardsSemPlaceholder": true,
-      "dataRevisaoQualidade": "2026-07-07"
-    }
+    "proximoTitulo": "Tese e projeto de texto: promessa que o desenvolvimento precisa cumprir"
   },
   {
-    "id": "tese-projeto-de-texto-e-linha-argumentativa",
-    "materialTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "id": "tese-e-projeto-de-texto-promessa-que-o-desenvolvimento-precisa-cumprir",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas Municipais / Concursos Policiais",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 3,
     "totalChapters": 10,
-    "title": "Tese, projeto de texto e linha argumentativa",
-    "assunto": "Planejamento argumentativo",
-    "tecnica": "Escrita objetiva, leitura de comando, tese clara, repertório pertinente e reescrita por rubrica",
-    "competencia": "Criar tese defensável e organizar dois argumentos conectados.",
-    "dificuldade": "Médio",
-    "tempoLeituraMin": 9,
-    "tempoExercicioMin": 24,
+    "title": "Tese e projeto de texto: promessa que o desenvolvimento precisa cumprir",
+    "assunto": "planejamento argumentativo",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar planejamento argumentativo com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
-      "FGV": 4,
-      "CESPE": 5,
+      "FGV": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
       "IBFC": 4,
       "AOCP": 4,
-      "OAB": 2,
-      "ENEM": 3
+      "Instituto Consulplan": 4
     },
     "termosChave": [
+      "tese",
       "projeto de texto",
-      "linha argumentativa",
-      "argumento",
-      "progressão"
+      "argumento"
     ],
-    "fontesBase": [
-      "Técnica de redação dissertativo-argumentativa",
-      "Critérios usuais de correção discursiva em concursos",
-      "Temas de segurança pública e cidadania",
-      "Norma-padrão da Língua Portuguesa",
-      "Rubrica pedagógica VemAprovar"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
-    "precisaConferenciaOficialAntesDePublicar": false,
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
+    "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo ensina planejamento argumentativo com foco em prova discursiva de concursos policiais. A redação não é um texto livre: ela precisa responder ao comando, demonstrar organização e sustentar uma tese com argumentos verificáveis.",
-      "O ponto central é: Uma redação forte nasce de tese simples, argumentos hierarquizados e conclusão compatível com a linha adotada. Para isso, o candidato deve planejar antes de escrever, escolher repertório pertinente e explicar a relação entre o repertório e o problema proposto.",
-      "O erro mais comum é: Trocar de ideia ao longo do texto ou apresentar argumentos soltos. Em redação policial, isso costuma gerar perda de nota porque o corretor avalia domínio do tema, progressão textual, equilíbrio argumentativo e uso adequado da norma-padrão."
+      "Tese e projeto de texto: promessa que o desenvolvimento precisa cumprir exige domínio de planejamento argumentativo. O estudo correto começa pela ideia de que tese é a resposta do candidato ao problema proposto; não deve ser uma frase neutra que apenas repete o tema.",
+      "Projeto de texto é o mapa dos argumentos: cada desenvolvimento precisa cumprir uma parte da promessa feita na introdução. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Uma tese forte em concursos policiais costuma equilibrar eficiência estatal, legalidade, prevenção e respeito à dignidade humana. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "O aluno deve evitar tese dupla sem conexão, porque ela gera parágrafos soltos e conclusão artificial. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Uma redação forte nasce de tese simples, argumentos hierarquizados e conclusão compatível com a linha adotada.",
-      "Erro a evitar: Trocar de ideia ao longo do texto ou apresentar argumentos soltos.",
-      "Repertório útil: Causa, consequência, comparação, dado institucional e princípio constitucional.",
-      "Modelo operacional: Tese + argumento 1 de causa + argumento 2 de consequência + conclusão de síntese."
+      "Tese é a resposta do candidato ao problema proposto; não deve ser uma frase neutra que apenas repete o tema.",
+      "Projeto de texto é o mapa dos argumentos: cada desenvolvimento precisa cumprir uma parte da promessa feita na introdução.",
+      "Uma tese forte em concursos policiais costuma equilibrar eficiência estatal, legalidade, prevenção e respeito à dignidade humana.",
+      "O aluno deve evitar tese dupla sem conexão, porque ela gera parágrafos soltos e conclusão artificial."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a técnica central deste capítulo?",
-      "opcoes": [
-        "Trocar de ideia ao longo do texto ou apresentar argumentos soltos.",
-        "Tese + argumento 1 de causa + argumento 2 de consequência + conclusão de síntese.",
-        "escrever o máximo de linhas sem planejamento"
-      ],
-      "correta": 1,
-      "justificativa": "O modelo correto é: Tese + argumento 1 de causa + argumento 2 de consequência + conclusão de síntese."
-    },
-    "oQueCobra": "Leitura de tema, projeto de texto, argumentação, coesão, repertório, norma-padrão e conclusão adequada.",
-    "precisaSaberAntes": "Interpretação de texto, pontuação básica, coesão e noções de segurança pública/cidadania.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta um tema amplo ou recortado e avalia se o candidato consegue defender uma ideia com clareza, equilíbrio e domínio da escrita formal."
+        "pergunta": "Qual é o núcleo de Tese e projeto de texto: promessa que o desenvolvimento precisa cumprir?",
+        "resposta": "Tese é a resposta do candidato ao problema proposto; não deve ser uma frase neutra que apenas repete o tema."
       },
       {
-        "titulo": "Como treinar",
-        "texto": "Faça primeiro o projeto de texto, depois escreva em tempo cronometrado e finalize reescrevendo os trechos mais fracos."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Confundir tese com opinião solta: “segurança pública é importante”."
+      },
+      {
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Tese boa: “A redução da violência exige policiamento baseado em inteligência e integração social, pois a repressão isolada não enfrenta causas nem reduz reincidência.”"
       }
     ],
-    "comoIdentificar": "Procure a palavra central do tema, o verbo do comando e o limite do recorte. Depois transforme tudo em uma frase-tese.",
-    "pegadinhas": [
-      "Fuga ao tema",
-      "Tese genérica",
-      "Repertório citado sem análise",
-      "Conclusão vaga",
-      "Opinião radical sem fundamento"
-    ],
-    "resumoFrase": "Uma redação forte nasce de tese simples, argumentos hierarquizados e conclusão compatível com a linha adotada.",
-    "proximoTitulo": "Introdução: contextualização, problematização e tese",
-    "padraoPlataforma": "VemAprovar Top1 — 10/10 Plus Revisado",
-    "versaoConteudo": "premium-18.0-redacao-policial-plus-revisado",
-    "statusRevisao": "revisado_com_validacao_de_gabarito_flashcards_e_campos",
-    "riscoAtualizacao": "baixo_medio",
-    "publicoAlvo": [
-      "PM",
-      "PC",
-      "PRF",
-      "Polícia Penal",
-      "Guardas Municipais",
-      "Concursos Militares"
-    ],
-    "areaPlataforma": "redacao_concursos_policiais",
-    "explicacaoComoSeTivesse12": "Pense na redação como uma construção. O tema é o terreno, a tese é a planta da casa, os argumentos são as paredes e a conclusão é o telhado. Se você muda de ideia no meio, a casa fica torta. Neste capítulo, a regra é: Tese + argumento 1 de causa + argumento 2 de consequência + conclusão de síntese.",
-    "comoEstudar": [
-      "Leia o capítulo e escreva uma frase-tese.",
-      "Monte dois argumentos em tópicos.",
-      "Escreva um parágrafo em 8 minutos.",
-      "Corrija pela rubrica.",
-      "Reescreva o trecho mais fraco."
-    ],
-    "paraNaoEsquecer": [
-      "Uma redação forte nasce de tese simples, argumentos hierarquizados e conclusão compatível com a linha adotada.",
-      "Erro a evitar: Trocar de ideia ao longo do texto ou apresentar argumentos soltos.",
-      "Repertório útil: Causa, consequência, comparação, dado institucional e princípio constitucional.",
-      "Modelo operacional: Tese + argumento 1 de causa + argumento 2 de consequência + conclusão de síntese."
-    ],
-    "mapaMentalTextual": {
-      "centro": "Tese, projeto de texto e linha argumentativa",
-      "ramos": [
-        {
-          "titulo": "Técnica",
-          "itens": [
-            "Tese + argumento 1 de causa + argumento 2 de consequência + conclusão de síntese."
-          ]
-        },
-        {
-          "titulo": "Erro comum",
-          "itens": [
-            "Trocar de ideia ao longo do texto ou apresentar argumentos soltos."
-          ]
-        },
-        {
-          "titulo": "Repertório",
-          "itens": [
-            "Causa, consequência, comparação, dado institucional e princípio constitucional."
-          ]
-        },
-        {
-          "titulo": "Critério de correção",
-          "itens": [
-            "tema",
-            "tese",
-            "argumento",
-            "coesão",
-            "norma-padrão"
-          ]
-        }
-      ]
+    "quadroDeDominio": {
+      "conceito": "Tese é a resposta do candidato ao problema proposto; não deve ser uma frase neutra que apenas repete o tema.",
+      "limite": "Projeto de texto é o mapa dos argumentos: cada desenvolvimento precisa cumprir uma parte da promessa feita na introdução.",
+      "aplicacao": "Tese boa: “A redução da violência exige policiamento baseado em inteligência e integração social, pois a repressão isolada não enfrenta causas nem reduz reincidência.”",
+      "erroFatal": "Confundir tese com opinião solta: “segurança pública é importante”."
     },
+    "exemploComentado": "Tese boa: “A redução da violência exige policiamento baseado em inteligência e integração social, pois a repressão isolada não enfrenta causas nem reduz reincidência.”",
+    "pegadinhas": [
+      "Confundir tese com opinião solta: “segurança pública é importante”.",
+      "Apresentar dois argumentos na introdução e desenvolver outros diferentes."
+    ],
+    "mapaMentalTexto": [
+      "Tema: Tese e projeto de texto: promessa que o desenvolvimento precisa cumprir",
+      "Conceito: Tese é a resposta do candidato ao problema proposto; não deve ser uma frase neutra que apenas repete o tema.",
+      "Aplicação: Tese boa: “A redução da violência exige policiamento baseado em inteligência e integração social, pois a repressão isolada não enfrenta causas nem reduz reincidência.”",
+      "Cuidado: Confundir tese com opinião solta: “segurança pública é importante”."
+    ],
+    "comoEstudar": [
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
+    ],
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
+    ],
     "flashcards": [
       {
-        "frente": "O que é essencial em Planejamento argumentativo?",
-        "verso": "Uma redação forte nasce de tese simples, argumentos hierarquizados e conclusão compatível com a linha adotada."
+        "id": "redacao-para-concursos-policiais-03-fc01",
+        "frente": "Qual é a ideia central de Tese e projeto de texto: promessa que o desenvolvimento precisa cumprir?",
+        "verso": "Tese é a resposta do candidato ao problema proposto; não deve ser uma frase neutra que apenas repete o tema.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Erro comum em Tese, projeto de texto e linha argumentativa",
-        "verso": "Trocar de ideia ao longo do texto ou apresentar argumentos soltos."
+        "id": "redacao-para-concursos-policiais-03-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em planejamento argumentativo?",
+        "verso": "Projeto de texto é o mapa dos argumentos: cada desenvolvimento precisa cumprir uma parte da promessa feita na introdução.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Repertório útil",
-        "verso": "Causa, consequência, comparação, dado institucional e princípio constitucional."
+        "id": "redacao-para-concursos-policiais-03-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Confundir tese com opinião solta: “segurança pública é importante”.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Modelo operacional",
-        "verso": "Tese + argumento 1 de causa + argumento 2 de consequência + conclusão de síntese."
+        "id": "redacao-para-concursos-policiais-03-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Tese boa: “A redução da violência exige policiamento baseado em inteligência e integração social, pois a repressão isolada não enfrenta causas nem reduz reincidência.”",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": {
-      "iniciante": "escreve sem planejamento ou com tese vaga",
-      "intermediario": "planeja, mas ainda usa repertório pouco explicado",
-      "avancado": "responde ao tema com tese clara, argumento, repertório e coesão"
-    },
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "reescrever a tese e um tópico frasal"
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "produzir um parágrafo completo"
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "fazer simulado cronometrado e corrigir por rubrica"
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Atue como corretor de redação para concursos policiais. Corrija texto do aluno sobre Tese, projeto de texto e linha argumentativa por rubrica, explique os erros e proponha reescrita.",
-      "naoFazer": [
-        "não inventar fatos",
-        "não estimular discurso violento ou discriminatório",
-        "não dar nota sem justificar"
-      ],
-      "feedbackEsperado": [
-        "tema",
-        "tese",
-        "argumentação",
-        "coesão",
-        "norma-padrão",
-        "reescrita"
-      ]
-    },
     "questoes": [
       {
-        "id": "tese-projeto-de-texto-e-linha-argumentativa-q01",
+        "id": "redacao-para-concursos-policiais-03-q01",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Tese, projeto de texto e linha argumentativa, assinale a alternativa correta.",
+        "enunciado": "Em relação a Tese e projeto de texto: promessa que o desenvolvimento precisa cumprir, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Uma redação forte nasce de tese simples, argumentos hierarquizados e conclusão compatível com a linha adotada.",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "Tese é a resposta do candidato ao problema proposto; não deve ser uma frase neutra que apenas repete o tema.",
+          "Confundir tese com opinião solta: “segurança pública é importante”.",
+          "Apresentar dois argumentos na introdução e desenvolver outros diferentes.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: Uma redação forte nasce de tese simples, argumentos hierarquizados e conclusão compatível com a linha adotada.",
-        "armadilhaDaBanca": "Trocar de ideia ao longo do texto ou apresentar argumentos soltos.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A alternativa correta resume o núcleo do tema: Tese é a resposta do candidato ao problema proposto; não deve ser uma frase neutra que apenas repete o tema."
       },
       {
-        "id": "tese-projeto-de-texto-e-linha-argumentativa-q02",
+        "id": "redacao-para-concursos-policiais-03-q02",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: Uma redação forte nasce de tese simples, argumentos hierarquizados e conclusão compatível com a linha adotada.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "O item está correto porque reflete técnica de escrita para banca.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "Projeto de texto é o mapa dos argumentos: cada desenvolvimento precisa cumprir uma parte da promessa feita na introdução.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de planejamento argumentativo."
       },
       {
-        "id": "tese-projeto-de-texto-e-linha-argumentativa-q03",
+        "id": "redacao-para-concursos-policiais-03-q03",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: Em redação policial, basta defender opinião forte; estrutura, tese e coerência são secundárias.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "O item está errado: opinião sem estrutura, prova e coerência costuma reduzir a nota.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "Confundir tese com opinião solta: “segurança pública é importante”.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "tese-projeto-de-texto-e-linha-argumentativa-q04",
+        "id": "redacao-para-concursos-policiais-03-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Tese boa: “A redução da violência exige policiamento baseado em inteligência e integração social, pois a repressão isolada não enfrenta causas nem reduz reincidência.” Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Uma tese forte em concursos policiais costuma equilibrar eficiência estatal, legalidade, prevenção e respeito à dignidade humana.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-03-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que planejamento argumentativo não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar tese é a resposta do candidato ao problema proposto; não deve ser uma frase neutra que apenas repete o tema. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-03-q06",
+        "tipo": "comparativa",
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Tese é a resposta do candidato ao problema proposto; não deve ser uma frase neutra que apenas repete o tema. Pegadinha: Confundir tese com opinião solta: “segurança pública é importante”.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-03-q07",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Tese, projeto de texto e linha argumentativa, assinale a alternativa correta.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "O melhor procedimento é: Tese + argumento 1 de causa + argumento 2 de consequência + conclusão de síntese.",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "Uma tese forte em concursos policiais costuma equilibrar eficiência estatal, legalidade, prevenção e respeito à dignidade humana.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Apresentar dois argumentos na introdução e desenvolver outros diferentes."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: Uma redação forte nasce de tese simples, argumentos hierarquizados e conclusão compatível com a linha adotada.",
-        "armadilhaDaBanca": "Trocar de ideia ao longo do texto ou apresentar argumentos soltos.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "tese-projeto-de-texto-e-linha-argumentativa-q05",
-        "tipo": "analise_de_trecho",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Tese, projeto de texto e linha argumentativa\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que Uma redação forte nasce de tese simples, argumentos hierarquizados e conclusão compatível com a linha adotada. Deve trazer Causa, consequência, comparação, dado institucional e princípio constitucional. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "projeto de texto",
-          "linha argumentativa",
-          "argumento",
-          "progressão"
-        ],
-        "erroComum": "Trocar de ideia ao longo do texto ou apresentar argumentos soltos.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
+        "id": "redacao-para-concursos-policiais-03-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Apresentar dois argumentos na introdução e desenvolver outros diferentes.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "tese-projeto-de-texto-e-linha-argumentativa-q06",
-        "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "dificil",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_incorreta",
-        "enunciado": "Sobre Tese, projeto de texto e linha argumentativa, assinale a alternativa correta.",
-        "alternativas": [
-          "Trocar de ideia ao longo do texto ou apresentar argumentos soltos.",
-          "Uma redação forte nasce de tese simples, argumentos hierarquizados e conclusão compatível com a linha adotada.",
-          "Um repertório possível é: Causa, consequência, comparação, dado institucional e princípio constitucional.",
-          "A banca cobra: Criar tese defensável e organizar dois argumentos conectados.",
-          "A reescrita ajuda a corrigir vícios de estrutura."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: Uma redação forte nasce de tese simples, argumentos hierarquizados e conclusão compatível com a linha adotada.",
-        "armadilhaDaBanca": "Trocar de ideia ao longo do texto ou apresentar argumentos soltos.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "id": "redacao-para-concursos-policiais-03-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Tese e projeto de texto: promessa que o desenvolvimento precisa cumprir a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: O aluno deve evitar tese dupla sem conexão, porque ela gera parágrafos soltos e conclusão artificial.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
       },
       {
-        "id": "tese-projeto-de-texto-e-linha-argumentativa-q07",
-        "tipo": "planejamento_redacao",
-        "bancaEstilo": "Treino VemAprovar",
-        "nivel": "alto",
-        "eixoCognitivo": "planejamento",
-        "temaTreino": "Planejamento argumentativo em concursos policiais",
-        "comando": "Monte um projeto de texto com tese, argumento 1, argumento 2 e conclusão.",
-        "respostaModelo": {
-          "tese": "Uma redação forte nasce de tese simples, argumentos hierarquizados e conclusão compatível com a linha adotada.",
-          "argumento1": "Causa ou fundamento: Causa, consequência, comparação, dado institucional e princípio constitucional..",
-          "argumento2": "Consequência prática para segurança pública, cidadania ou confiança institucional.",
-          "conclusao": "Fechamento coerente: Tese + argumento 1 de causa + argumento 2 de consequência + conclusão de síntese."
-        },
-        "criteriosCorrecao": [
-          "tese defensável",
-          "argumentos conectados",
-          "repertório pertinente",
-          "conclusão compatível"
-        ],
-        "diagnosticoIA": {
-          "acao": "Gerar feedback em rubrica e sugerir uma versão mais objetiva da tese."
-        }
-      },
-      {
-        "id": "tese-projeto-de-texto-e-linha-argumentativa-q08",
-        "tipo": "resposta_aberta",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Tese, projeto de texto e linha argumentativa\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que Uma redação forte nasce de tese simples, argumentos hierarquizados e conclusão compatível com a linha adotada. Deve trazer Causa, consequência, comparação, dado institucional e princípio constitucional. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "projeto de texto",
-          "linha argumentativa",
-          "argumento",
-          "progressão"
-        ],
-        "erroComum": "Trocar de ideia ao longo do texto ou apresentar argumentos soltos.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
-      },
-      {
-        "id": "tese-projeto-de-texto-e-linha-argumentativa-q09",
-        "tipo": "checklist_correcao",
-        "bancaEstilo": "Rubrica VemAprovar",
-        "nivel": "medio",
-        "eixoCognitivo": "autoavaliacao",
-        "comando": "Marque se o trecho produzido cumpre os critérios mínimos.",
-        "itens": [
-          {
-            "criterio": "Responde exatamente ao tema?",
-            "esperado": true
-          },
-          {
-            "criterio": "Tem tese ou ideia central clara?",
-            "esperado": true
-          },
-          {
-            "criterio": "Usa repertório explicado, não apenas citado?",
-            "esperado": true
-          },
-          {
-            "criterio": "Evita generalização, radicalismo e senso comum?",
-            "esperado": true
-          },
-          {
-            "criterio": "Mantém coesão e progressão?",
-            "esperado": true
-          }
-        ],
-        "respostaModelo": "A redação só deve avançar para versão final se todos os critérios forem atendidos ou reescritos.",
-        "diagnosticoIA": {
-          "acao": "Classificar o texto em pronto, precisa reescrever ou precisa refazer o projeto de texto."
-        }
-      },
-      {
-        "id": "tese-projeto-de-texto-e-linha-argumentativa-q10",
-        "tipo": "treino_adaptativo_ia",
-        "bancaEstilo": "Tutor IA VemAprovar",
-        "nivel": "adaptativo",
-        "eixoCognitivo": "reescrita_orientada",
-        "promptTutorIA": "Corrija um trecho de redação do aluno sobre Tese, projeto de texto e linha argumentativa. Aponte fuga ao tema, tese, repertório, coesão, norma-padrão e sugira reescrita objetiva.",
-        "criterioDominio": "Domina quando consegue planejar, escrever e reescrever o trecho sem fuga ao tema e com argumentação clara.",
-        "saidaEsperada": "Feedback por rubrica, nota estimada, três ajustes prioritários e versão reescrita do trecho."
+        "id": "redacao-para-concursos-policiais-03-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Tese é a resposta do candidato ao problema proposto; não deve ser uma frase neutra que apenas repete o tema.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "qualidadeConteudo": {
-      "revisaoAutomaticaCampos": true,
-      "mcComGabaritoObrigatorio": true,
-      "flashcardsSemPlaceholder": true,
-      "dataRevisaoQualidade": "2026-07-07"
-    }
+    "proximoTitulo": "Introdução nota alta: contextualização sem enrolação"
   },
   {
-    "id": "introducao-contextualizacao-problematizacao-e-tese",
-    "materialTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "id": "introducao-nota-alta-contextualizacao-sem-enrolacao",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas Municipais / Concursos Policiais",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 4,
     "totalChapters": 10,
-    "title": "Introdução: contextualização, problematização e tese",
-    "assunto": "Abertura do texto",
-    "tecnica": "Escrita objetiva, leitura de comando, tese clara, repertório pertinente e reescrita por rubrica",
-    "competencia": "Escrever uma introdução direta, sem enrolação, com tese explícita.",
-    "dificuldade": "Médio",
-    "tempoLeituraMin": 9,
-    "tempoExercicioMin": 24,
+    "title": "Introdução nota alta: contextualização sem enrolação",
+    "assunto": "abertura do texto",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar abertura do texto com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
-      "FGV": 4,
-      "CESPE": 5,
+      "FGV": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
       "IBFC": 4,
       "AOCP": 4,
-      "OAB": 2,
-      "ENEM": 3
+      "Instituto Consulplan": 4
     },
     "termosChave": [
+      "introdução",
       "contextualização",
-      "problematização",
-      "tese explícita",
-      "gancho"
+      "clichê"
     ],
-    "fontesBase": [
-      "Técnica de redação dissertativo-argumentativa",
-      "Critérios usuais de correção discursiva em concursos",
-      "Temas de segurança pública e cidadania",
-      "Norma-padrão da Língua Portuguesa",
-      "Rubrica pedagógica VemAprovar"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
-    "precisaConferenciaOficialAntesDePublicar": false,
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
+    "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo ensina abertura do texto com foco em prova discursiva de concursos policiais. A redação não é um texto livre: ela precisa responder ao comando, demonstrar organização e sustentar uma tese com argumentos verificáveis.",
-      "O ponto central é: A introdução deve apresentar o tema, indicar o problema e declarar a tese sem copiar literalmente a proposta. Para isso, o candidato deve planejar antes de escrever, escolher repertório pertinente e explicar a relação entre o repertório e o problema proposto.",
-      "O erro mais comum é: Começar com frases prontas vagas ou prometer discussão que não será desenvolvida. Em redação policial, isso costuma gerar perda de nota porque o corretor avalia domínio do tema, progressão textual, equilíbrio argumentativo e uso adequado da norma-padrão."
+      "Introdução nota alta: contextualização sem enrolação exige domínio de abertura do texto. O estudo correto começa pela ideia de que contextualizar não é contar história longa; é situar o leitor em um problema público concreto e relacionado ao comando.",
+      "A introdução ideal tem três movimentos: cenário, problema e tese; isso dá clareza sem consumir espaço do desenvolvimento. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Em redação policial, repertórios sobre Estado, cidadania, prevenção e direitos fundamentais costumam ser mais seguros que dados inventados. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "O parágrafo inicial deve evitar generalizações absolutas como “desde sempre a sociedade sofre”, pois a banca lê isso como clichê. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "A introdução deve apresentar o tema, indicar o problema e declarar a tese sem copiar literalmente a proposta.",
-      "Erro a evitar: Começar com frases prontas vagas ou prometer discussão que não será desenvolvida.",
-      "Repertório útil: Constituição, segurança cidadã, políticas públicas e dignidade da pessoa humana.",
-      "Modelo operacional: No contexto brasileiro, [tema] revela [problema]. Nesse sentido, defende-se que [tese]."
+      "Contextualizar não é contar história longa; é situar o leitor em um problema público concreto e relacionado ao comando.",
+      "A introdução ideal tem três movimentos: cenário, problema e tese; isso dá clareza sem consumir espaço do desenvolvimento.",
+      "Em redação policial, repertórios sobre Estado, cidadania, prevenção e direitos fundamentais costumam ser mais seguros que dados inventados.",
+      "O parágrafo inicial deve evitar generalizações absolutas como “desde sempre a sociedade sofre”, pois a banca lê isso como clichê."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a técnica central deste capítulo?",
-      "opcoes": [
-        "Começar com frases prontas vagas ou prometer discussão que não será desenvolvida.",
-        "No contexto brasileiro, [tema] revela [problema]. Nesse sentido, defende-se que [tese].",
-        "escrever o máximo de linhas sem planejamento"
-      ],
-      "correta": 1,
-      "justificativa": "O modelo correto é: No contexto brasileiro, [tema] revela [problema]. Nesse sentido, defende-se que [tese]."
-    },
-    "oQueCobra": "Leitura de tema, projeto de texto, argumentação, coesão, repertório, norma-padrão e conclusão adequada.",
-    "precisaSaberAntes": "Interpretação de texto, pontuação básica, coesão e noções de segurança pública/cidadania.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta um tema amplo ou recortado e avalia se o candidato consegue defender uma ideia com clareza, equilíbrio e domínio da escrita formal."
+        "pergunta": "Qual é o núcleo de Introdução nota alta: contextualização sem enrolação?",
+        "resposta": "Contextualizar não é contar história longa; é situar o leitor em um problema público concreto e relacionado ao comando."
       },
       {
-        "titulo": "Como treinar",
-        "texto": "Faça primeiro o projeto de texto, depois escreva em tempo cronometrado e finalize reescrevendo os trechos mais fracos."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Usar dado estatístico sem fonte ou número improvável."
+      },
+      {
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Abertura enxuta: “A segurança pública é dever estatal e direito social. No Brasil, sua efetividade depende de estratégias que unam prevenção, inteligência e controle da legalidade.”"
       }
     ],
-    "comoIdentificar": "Procure a palavra central do tema, o verbo do comando e o limite do recorte. Depois transforme tudo em uma frase-tese.",
-    "pegadinhas": [
-      "Fuga ao tema",
-      "Tese genérica",
-      "Repertório citado sem análise",
-      "Conclusão vaga",
-      "Opinião radical sem fundamento"
-    ],
-    "resumoFrase": "A introdução deve apresentar o tema, indicar o problema e declarar a tese sem copiar literalmente a proposta.",
-    "proximoTitulo": "Desenvolvimento: tópico frasal, repertório e análise crítica",
-    "padraoPlataforma": "VemAprovar Top1 — 10/10 Plus Revisado",
-    "versaoConteudo": "premium-18.0-redacao-policial-plus-revisado",
-    "statusRevisao": "revisado_com_validacao_de_gabarito_flashcards_e_campos",
-    "riscoAtualizacao": "baixo_medio",
-    "publicoAlvo": [
-      "PM",
-      "PC",
-      "PRF",
-      "Polícia Penal",
-      "Guardas Municipais",
-      "Concursos Militares"
-    ],
-    "areaPlataforma": "redacao_concursos_policiais",
-    "explicacaoComoSeTivesse12": "Pense na redação como uma construção. O tema é o terreno, a tese é a planta da casa, os argumentos são as paredes e a conclusão é o telhado. Se você muda de ideia no meio, a casa fica torta. Neste capítulo, a regra é: No contexto brasileiro, [tema] revela [problema]. Nesse sentido, defende-se que [tese].",
-    "comoEstudar": [
-      "Leia o capítulo e escreva uma frase-tese.",
-      "Monte dois argumentos em tópicos.",
-      "Escreva um parágrafo em 8 minutos.",
-      "Corrija pela rubrica.",
-      "Reescreva o trecho mais fraco."
-    ],
-    "paraNaoEsquecer": [
-      "A introdução deve apresentar o tema, indicar o problema e declarar a tese sem copiar literalmente a proposta.",
-      "Erro a evitar: Começar com frases prontas vagas ou prometer discussão que não será desenvolvida.",
-      "Repertório útil: Constituição, segurança cidadã, políticas públicas e dignidade da pessoa humana.",
-      "Modelo operacional: No contexto brasileiro, [tema] revela [problema]. Nesse sentido, defende-se que [tese]."
-    ],
-    "mapaMentalTextual": {
-      "centro": "Introdução: contextualização, problematização e tese",
-      "ramos": [
-        {
-          "titulo": "Técnica",
-          "itens": [
-            "No contexto brasileiro, [tema] revela [problema]. Nesse sentido, defende-se que [tese]."
-          ]
-        },
-        {
-          "titulo": "Erro comum",
-          "itens": [
-            "Começar com frases prontas vagas ou prometer discussão que não será desenvolvida."
-          ]
-        },
-        {
-          "titulo": "Repertório",
-          "itens": [
-            "Constituição, segurança cidadã, políticas públicas e dignidade da pessoa humana."
-          ]
-        },
-        {
-          "titulo": "Critério de correção",
-          "itens": [
-            "tema",
-            "tese",
-            "argumento",
-            "coesão",
-            "norma-padrão"
-          ]
-        }
-      ]
+    "quadroDeDominio": {
+      "conceito": "Contextualizar não é contar história longa; é situar o leitor em um problema público concreto e relacionado ao comando.",
+      "limite": "A introdução ideal tem três movimentos: cenário, problema e tese; isso dá clareza sem consumir espaço do desenvolvimento.",
+      "aplicacao": "Abertura enxuta: “A segurança pública é dever estatal e direito social. No Brasil, sua efetividade depende de estratégias que unam prevenção, inteligência e controle da legalidade.”",
+      "erroFatal": "Usar dado estatístico sem fonte ou número improvável."
     },
+    "exemploComentado": "Abertura enxuta: “A segurança pública é dever estatal e direito social. No Brasil, sua efetividade depende de estratégias que unam prevenção, inteligência e controle da legalidade.”",
+    "pegadinhas": [
+      "Usar dado estatístico sem fonte ou número improvável.",
+      "Abrir com citação decorada que não será usada no argumento."
+    ],
+    "mapaMentalTexto": [
+      "Tema: Introdução nota alta: contextualização sem enrolação",
+      "Conceito: Contextualizar não é contar história longa; é situar o leitor em um problema público concreto e relacionado ao comando.",
+      "Aplicação: Abertura enxuta: “A segurança pública é dever estatal e direito social. No Brasil, sua efetividade depende de estratégias que unam prevenção, inteligência e controle da legalidade.”",
+      "Cuidado: Usar dado estatístico sem fonte ou número improvável."
+    ],
+    "comoEstudar": [
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
+    ],
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
+    ],
     "flashcards": [
       {
-        "frente": "O que é essencial em Abertura do texto?",
-        "verso": "A introdução deve apresentar o tema, indicar o problema e declarar a tese sem copiar literalmente a proposta."
+        "id": "redacao-para-concursos-policiais-04-fc01",
+        "frente": "Qual é a ideia central de Introdução nota alta: contextualização sem enrolação?",
+        "verso": "Contextualizar não é contar história longa; é situar o leitor em um problema público concreto e relacionado ao comando.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Erro comum em Introdução: contextualização, problematização e tese",
-        "verso": "Começar com frases prontas vagas ou prometer discussão que não será desenvolvida."
+        "id": "redacao-para-concursos-policiais-04-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em abertura do texto?",
+        "verso": "A introdução ideal tem três movimentos: cenário, problema e tese; isso dá clareza sem consumir espaço do desenvolvimento.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Repertório útil",
-        "verso": "Constituição, segurança cidadã, políticas públicas e dignidade da pessoa humana."
+        "id": "redacao-para-concursos-policiais-04-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Usar dado estatístico sem fonte ou número improvável.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Modelo operacional",
-        "verso": "No contexto brasileiro, [tema] revela [problema]. Nesse sentido, defende-se que [tese]."
+        "id": "redacao-para-concursos-policiais-04-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Abertura enxuta: “A segurança pública é dever estatal e direito social. No Brasil, sua efetividade depende de estratégias que unam prevenção, inteligência e controle da legalidade.”",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": {
-      "iniciante": "escreve sem planejamento ou com tese vaga",
-      "intermediario": "planeja, mas ainda usa repertório pouco explicado",
-      "avancado": "responde ao tema com tese clara, argumento, repertório e coesão"
-    },
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "reescrever a tese e um tópico frasal"
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "produzir um parágrafo completo"
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "fazer simulado cronometrado e corrigir por rubrica"
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Atue como corretor de redação para concursos policiais. Corrija texto do aluno sobre Introdução: contextualização, problematização e tese por rubrica, explique os erros e proponha reescrita.",
-      "naoFazer": [
-        "não inventar fatos",
-        "não estimular discurso violento ou discriminatório",
-        "não dar nota sem justificar"
-      ],
-      "feedbackEsperado": [
-        "tema",
-        "tese",
-        "argumentação",
-        "coesão",
-        "norma-padrão",
-        "reescrita"
-      ]
-    },
     "questoes": [
       {
-        "id": "introducao-contextualizacao-problematizacao-e-tese-q01",
+        "id": "redacao-para-concursos-policiais-04-q01",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Introdução: contextualização, problematização e tese, assinale a alternativa correta.",
+        "enunciado": "Em relação a Introdução nota alta: contextualização sem enrolação, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A introdução deve apresentar o tema, indicar o problema e declarar a tese sem copiar literalmente a proposta.",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "Contextualizar não é contar história longa; é situar o leitor em um problema público concreto e relacionado ao comando.",
+          "Usar dado estatístico sem fonte ou número improvável.",
+          "Abrir com citação decorada que não será usada no argumento.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: A introdução deve apresentar o tema, indicar o problema e declarar a tese sem copiar literalmente a proposta.",
-        "armadilhaDaBanca": "Começar com frases prontas vagas ou prometer discussão que não será desenvolvida.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A alternativa correta resume o núcleo do tema: Contextualizar não é contar história longa; é situar o leitor em um problema público concreto e relacionado ao comando."
       },
       {
-        "id": "introducao-contextualizacao-problematizacao-e-tese-q02",
+        "id": "redacao-para-concursos-policiais-04-q02",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: A introdução deve apresentar o tema, indicar o problema e declarar a tese sem copiar literalmente a proposta.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "O item está correto porque reflete técnica de escrita para banca.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "A introdução ideal tem três movimentos: cenário, problema e tese; isso dá clareza sem consumir espaço do desenvolvimento.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de abertura do texto."
       },
       {
-        "id": "introducao-contextualizacao-problematizacao-e-tese-q03",
+        "id": "redacao-para-concursos-policiais-04-q03",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: Em redação policial, basta defender opinião forte; estrutura, tese e coerência são secundárias.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "O item está errado: opinião sem estrutura, prova e coerência costuma reduzir a nota.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "Usar dado estatístico sem fonte ou número improvável.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "introducao-contextualizacao-problematizacao-e-tese-q04",
+        "id": "redacao-para-concursos-policiais-04-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Abertura enxuta: “A segurança pública é dever estatal e direito social. No Brasil, sua efetividade depende de estratégias que unam prevenção, inteligência e controle da legalidade.” Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Em redação policial, repertórios sobre Estado, cidadania, prevenção e direitos fundamentais costumam ser mais seguros que dados inventados.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-04-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que abertura do texto não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar contextualizar não é contar história longa; é situar o leitor em um problema público concreto e relacionado ao comando. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-04-q06",
+        "tipo": "comparativa",
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Contextualizar não é contar história longa; é situar o leitor em um problema público concreto e relacionado ao comando. Pegadinha: Usar dado estatístico sem fonte ou número improvável.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-04-q07",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Introdução: contextualização, problematização e tese, assinale a alternativa correta.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "O melhor procedimento é: No contexto brasileiro, [tema] revela [problema]. Nesse sentido, defende-se que [tese].",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "Em redação policial, repertórios sobre Estado, cidadania, prevenção e direitos fundamentais costumam ser mais seguros que dados inventados.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Abrir com citação decorada que não será usada no argumento."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: A introdução deve apresentar o tema, indicar o problema e declarar a tese sem copiar literalmente a proposta.",
-        "armadilhaDaBanca": "Começar com frases prontas vagas ou prometer discussão que não será desenvolvida.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "introducao-contextualizacao-problematizacao-e-tese-q05",
-        "tipo": "analise_de_trecho",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Introdução: contextualização, problematização e tese\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que A introdução deve apresentar o tema, indicar o problema e declarar a tese sem copiar literalmente a proposta. Deve trazer Constituição, segurança cidadã, políticas públicas e dignidade da pessoa humana. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "contextualização",
-          "problematização",
-          "tese explícita",
-          "gancho"
-        ],
-        "erroComum": "Começar com frases prontas vagas ou prometer discussão que não será desenvolvida.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
+        "id": "redacao-para-concursos-policiais-04-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Abrir com citação decorada que não será usada no argumento.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "introducao-contextualizacao-problematizacao-e-tese-q06",
-        "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "dificil",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_incorreta",
-        "enunciado": "Sobre Introdução: contextualização, problematização e tese, assinale a alternativa correta.",
-        "alternativas": [
-          "Começar com frases prontas vagas ou prometer discussão que não será desenvolvida.",
-          "A introdução deve apresentar o tema, indicar o problema e declarar a tese sem copiar literalmente a proposta.",
-          "Um repertório possível é: Constituição, segurança cidadã, políticas públicas e dignidade da pessoa humana.",
-          "A banca cobra: Escrever uma introdução direta, sem enrolação, com tese explícita.",
-          "A reescrita ajuda a corrigir vícios de estrutura."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: A introdução deve apresentar o tema, indicar o problema e declarar a tese sem copiar literalmente a proposta.",
-        "armadilhaDaBanca": "Começar com frases prontas vagas ou prometer discussão que não será desenvolvida.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "id": "redacao-para-concursos-policiais-04-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Introdução nota alta: contextualização sem enrolação a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: O parágrafo inicial deve evitar generalizações absolutas como “desde sempre a sociedade sofre”, pois a banca lê isso como clichê.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
       },
       {
-        "id": "introducao-contextualizacao-problematizacao-e-tese-q07",
-        "tipo": "planejamento_redacao",
-        "bancaEstilo": "Treino VemAprovar",
-        "nivel": "alto",
-        "eixoCognitivo": "planejamento",
-        "temaTreino": "Abertura do texto em concursos policiais",
-        "comando": "Monte um projeto de texto com tese, argumento 1, argumento 2 e conclusão.",
-        "respostaModelo": {
-          "tese": "A introdução deve apresentar o tema, indicar o problema e declarar a tese sem copiar literalmente a proposta.",
-          "argumento1": "Causa ou fundamento: Constituição, segurança cidadã, políticas públicas e dignidade da pessoa humana..",
-          "argumento2": "Consequência prática para segurança pública, cidadania ou confiança institucional.",
-          "conclusao": "Fechamento coerente: No contexto brasileiro, [tema] revela [problema]. Nesse sentido, defende-se que [tese]."
-        },
-        "criteriosCorrecao": [
-          "tese defensável",
-          "argumentos conectados",
-          "repertório pertinente",
-          "conclusão compatível"
-        ],
-        "diagnosticoIA": {
-          "acao": "Gerar feedback em rubrica e sugerir uma versão mais objetiva da tese."
-        }
-      },
-      {
-        "id": "introducao-contextualizacao-problematizacao-e-tese-q08",
-        "tipo": "resposta_aberta",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Introdução: contextualização, problematização e tese\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que A introdução deve apresentar o tema, indicar o problema e declarar a tese sem copiar literalmente a proposta. Deve trazer Constituição, segurança cidadã, políticas públicas e dignidade da pessoa humana. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "contextualização",
-          "problematização",
-          "tese explícita",
-          "gancho"
-        ],
-        "erroComum": "Começar com frases prontas vagas ou prometer discussão que não será desenvolvida.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
-      },
-      {
-        "id": "introducao-contextualizacao-problematizacao-e-tese-q09",
-        "tipo": "checklist_correcao",
-        "bancaEstilo": "Rubrica VemAprovar",
-        "nivel": "medio",
-        "eixoCognitivo": "autoavaliacao",
-        "comando": "Marque se o trecho produzido cumpre os critérios mínimos.",
-        "itens": [
-          {
-            "criterio": "Responde exatamente ao tema?",
-            "esperado": true
-          },
-          {
-            "criterio": "Tem tese ou ideia central clara?",
-            "esperado": true
-          },
-          {
-            "criterio": "Usa repertório explicado, não apenas citado?",
-            "esperado": true
-          },
-          {
-            "criterio": "Evita generalização, radicalismo e senso comum?",
-            "esperado": true
-          },
-          {
-            "criterio": "Mantém coesão e progressão?",
-            "esperado": true
-          }
-        ],
-        "respostaModelo": "A redação só deve avançar para versão final se todos os critérios forem atendidos ou reescritos.",
-        "diagnosticoIA": {
-          "acao": "Classificar o texto em pronto, precisa reescrever ou precisa refazer o projeto de texto."
-        }
-      },
-      {
-        "id": "introducao-contextualizacao-problematizacao-e-tese-q10",
-        "tipo": "treino_adaptativo_ia",
-        "bancaEstilo": "Tutor IA VemAprovar",
-        "nivel": "adaptativo",
-        "eixoCognitivo": "reescrita_orientada",
-        "promptTutorIA": "Corrija um trecho de redação do aluno sobre Introdução: contextualização, problematização e tese. Aponte fuga ao tema, tese, repertório, coesão, norma-padrão e sugira reescrita objetiva.",
-        "criterioDominio": "Domina quando consegue planejar, escrever e reescrever o trecho sem fuga ao tema e com argumentação clara.",
-        "saidaEsperada": "Feedback por rubrica, nota estimada, três ajustes prioritários e versão reescrita do trecho."
+        "id": "redacao-para-concursos-policiais-04-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Contextualizar não é contar história longa; é situar o leitor em um problema público concreto e relacionado ao comando.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "qualidadeConteudo": {
-      "revisaoAutomaticaCampos": true,
-      "mcComGabaritoObrigatorio": true,
-      "flashcardsSemPlaceholder": true,
-      "dataRevisaoQualidade": "2026-07-07"
-    }
+    "proximoTitulo": "Desenvolvimento: tópico frasal, repertório e análise"
   },
   {
-    "id": "desenvolvimento-topico-frasal-repertorio-e-analise-critica",
-    "materialTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "id": "desenvolvimento-topico-frasal-repertorio-e-analise",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas Municipais / Concursos Policiais",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 5,
     "totalChapters": 10,
-    "title": "Desenvolvimento: tópico frasal, repertório e análise crítica",
-    "assunto": "Argumentação",
-    "tecnica": "Escrita objetiva, leitura de comando, tese clara, repertório pertinente e reescrita por rubrica",
-    "competencia": "Construir parágrafos com ideia central, prova/repertório e análise.",
-    "dificuldade": "Médio-alto",
-    "tempoLeituraMin": 9,
-    "tempoExercicioMin": 24,
+    "title": "Desenvolvimento: tópico frasal, repertório e análise",
+    "assunto": "construção do parágrafo argumentativo",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar construção do parágrafo argumentativo com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
-      "FGV": 4,
-      "CESPE": 5,
+      "FGV": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
       "IBFC": 4,
       "AOCP": 4,
-      "OAB": 2,
-      "ENEM": 3
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "tópico frasal",
+      "desenvolvimento",
       "repertório",
-      "análise",
-      "exemplo"
+      "análise"
     ],
-    "fontesBase": [
-      "Técnica de redação dissertativo-argumentativa",
-      "Critérios usuais de correção discursiva em concursos",
-      "Temas de segurança pública e cidadania",
-      "Norma-padrão da Língua Portuguesa",
-      "Rubrica pedagógica VemAprovar"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
-    "precisaConferenciaOficialAntesDePublicar": false,
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
+    "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo ensina argumentação com foco em prova discursiva de concursos policiais. A redação não é um texto livre: ela precisa responder ao comando, demonstrar organização e sustentar uma tese com argumentos verificáveis.",
-      "O ponto central é: O desenvolvimento não deve só citar repertório; precisa explicar como ele confirma a tese. Para isso, o candidato deve planejar antes de escrever, escolher repertório pertinente e explicar a relação entre o repertório e o problema proposto.",
-      "O erro mais comum é: Jogar uma citação ou dado sem analisar sua relação com o tema. Em redação policial, isso costuma gerar perda de nota porque o corretor avalia domínio do tema, progressão textual, equilíbrio argumentativo e uso adequado da norma-padrão."
+      "Desenvolvimento: tópico frasal, repertório e análise exige domínio de construção do parágrafo argumentativo. O estudo correto começa pela ideia de que todo desenvolvimento deve começar com tópico frasal que antecipa a ideia central do parágrafo.",
+      "Repertório só vale quando é analisado: citar Constituição, política pública ou caso social sem demonstrar a relação com a tese não aumenta a nota. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Um bom parágrafo combina afirmação, justificativa, exemplo e fechamento parcial conectado à tese. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Na área policial, argumento maduro evita simplificação: eficiência operacional e limites legais não são opostos, mas condições de legitimidade. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "O desenvolvimento não deve só citar repertório; precisa explicar como ele confirma a tese.",
-      "Erro a evitar: Jogar uma citação ou dado sem analisar sua relação com o tema.",
-      "Repertório útil: Art. 144, prevenção, controle institucional, educação, desigualdade, tecnologia e direitos humanos.",
-      "Modelo operacional: Tópico frasal + repertório pertinente + explicação + fechamento parcial."
+      "Todo desenvolvimento deve começar com tópico frasal que antecipa a ideia central do parágrafo.",
+      "Repertório só vale quando é analisado: citar Constituição, política pública ou caso social sem demonstrar a relação com a tese não aumenta a nota.",
+      "Um bom parágrafo combina afirmação, justificativa, exemplo e fechamento parcial conectado à tese.",
+      "Na área policial, argumento maduro evita simplificação: eficiência operacional e limites legais não são opostos, mas condições de legitimidade."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a técnica central deste capítulo?",
-      "opcoes": [
-        "Jogar uma citação ou dado sem analisar sua relação com o tema.",
-        "Tópico frasal + repertório pertinente + explicação + fechamento parcial.",
-        "escrever o máximo de linhas sem planejamento"
-      ],
-      "correta": 1,
-      "justificativa": "O modelo correto é: Tópico frasal + repertório pertinente + explicação + fechamento parcial."
-    },
-    "oQueCobra": "Leitura de tema, projeto de texto, argumentação, coesão, repertório, norma-padrão e conclusão adequada.",
-    "precisaSaberAntes": "Interpretação de texto, pontuação básica, coesão e noções de segurança pública/cidadania.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta um tema amplo ou recortado e avalia se o candidato consegue defender uma ideia com clareza, equilíbrio e domínio da escrita formal."
+        "pergunta": "Qual é o núcleo de Desenvolvimento: tópico frasal, repertório e análise?",
+        "resposta": "Todo desenvolvimento deve começar com tópico frasal que antecipa a ideia central do parágrafo."
       },
       {
-        "titulo": "Como treinar",
-        "texto": "Faça primeiro o projeto de texto, depois escreva em tempo cronometrado e finalize reescrevendo os trechos mais fracos."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Empilhar repertórios sem interpretar."
+      },
+      {
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Argumento: câmeras corporais, protocolos e treinamento podem proteger cidadão e policial, pois registram a atuação e reduzem conflito narrativo sobre abuso ou resistência."
       }
     ],
-    "comoIdentificar": "Procure a palavra central do tema, o verbo do comando e o limite do recorte. Depois transforme tudo em uma frase-tese.",
-    "pegadinhas": [
-      "Fuga ao tema",
-      "Tese genérica",
-      "Repertório citado sem análise",
-      "Conclusão vaga",
-      "Opinião radical sem fundamento"
-    ],
-    "resumoFrase": "O desenvolvimento não deve só citar repertório; precisa explicar como ele confirma a tese.",
-    "proximoTitulo": "Coesão, coerência, conectivos e progressão textual",
-    "padraoPlataforma": "VemAprovar Top1 — 10/10 Plus Revisado",
-    "versaoConteudo": "premium-18.0-redacao-policial-plus-revisado",
-    "statusRevisao": "revisado_com_validacao_de_gabarito_flashcards_e_campos",
-    "riscoAtualizacao": "baixo_medio",
-    "publicoAlvo": [
-      "PM",
-      "PC",
-      "PRF",
-      "Polícia Penal",
-      "Guardas Municipais",
-      "Concursos Militares"
-    ],
-    "areaPlataforma": "redacao_concursos_policiais",
-    "explicacaoComoSeTivesse12": "Pense na redação como uma construção. O tema é o terreno, a tese é a planta da casa, os argumentos são as paredes e a conclusão é o telhado. Se você muda de ideia no meio, a casa fica torta. Neste capítulo, a regra é: Tópico frasal + repertório pertinente + explicação + fechamento parcial.",
-    "comoEstudar": [
-      "Leia o capítulo e escreva uma frase-tese.",
-      "Monte dois argumentos em tópicos.",
-      "Escreva um parágrafo em 8 minutos.",
-      "Corrija pela rubrica.",
-      "Reescreva o trecho mais fraco."
-    ],
-    "paraNaoEsquecer": [
-      "O desenvolvimento não deve só citar repertório; precisa explicar como ele confirma a tese.",
-      "Erro a evitar: Jogar uma citação ou dado sem analisar sua relação com o tema.",
-      "Repertório útil: Art. 144, prevenção, controle institucional, educação, desigualdade, tecnologia e direitos humanos.",
-      "Modelo operacional: Tópico frasal + repertório pertinente + explicação + fechamento parcial."
-    ],
-    "mapaMentalTextual": {
-      "centro": "Desenvolvimento: tópico frasal, repertório e análise crítica",
-      "ramos": [
-        {
-          "titulo": "Técnica",
-          "itens": [
-            "Tópico frasal + repertório pertinente + explicação + fechamento parcial."
-          ]
-        },
-        {
-          "titulo": "Erro comum",
-          "itens": [
-            "Jogar uma citação ou dado sem analisar sua relação com o tema."
-          ]
-        },
-        {
-          "titulo": "Repertório",
-          "itens": [
-            "Art. 144, prevenção, controle institucional, educação, desigualdade, tecnologia e direitos humanos."
-          ]
-        },
-        {
-          "titulo": "Critério de correção",
-          "itens": [
-            "tema",
-            "tese",
-            "argumento",
-            "coesão",
-            "norma-padrão"
-          ]
-        }
-      ]
+    "quadroDeDominio": {
+      "conceito": "Todo desenvolvimento deve começar com tópico frasal que antecipa a ideia central do parágrafo.",
+      "limite": "Repertório só vale quando é analisado: citar Constituição, política pública ou caso social sem demonstrar a relação com a tese não aumenta a nota.",
+      "aplicacao": "Argumento: câmeras corporais, protocolos e treinamento podem proteger cidadão e policial, pois registram a atuação e reduzem conflito narrativo sobre abuso ou resistência.",
+      "erroFatal": "Empilhar repertórios sem interpretar."
     },
+    "exemploComentado": "Argumento: câmeras corporais, protocolos e treinamento podem proteger cidadão e policial, pois registram a atuação e reduzem conflito narrativo sobre abuso ou resistência.",
+    "pegadinhas": [
+      "Empilhar repertórios sem interpretar.",
+      "Transformar o parágrafo em lista de problemas sem causalidade."
+    ],
+    "mapaMentalTexto": [
+      "Tema: Desenvolvimento: tópico frasal, repertório e análise",
+      "Conceito: Todo desenvolvimento deve começar com tópico frasal que antecipa a ideia central do parágrafo.",
+      "Aplicação: Argumento: câmeras corporais, protocolos e treinamento podem proteger cidadão e policial, pois registram a atuação e reduzem conflito narrativo sobre abuso ou resistência.",
+      "Cuidado: Empilhar repertórios sem interpretar."
+    ],
+    "comoEstudar": [
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
+    ],
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
+    ],
     "flashcards": [
       {
-        "frente": "O que é essencial em Argumentação?",
-        "verso": "O desenvolvimento não deve só citar repertório; precisa explicar como ele confirma a tese."
+        "id": "redacao-para-concursos-policiais-05-fc01",
+        "frente": "Qual é a ideia central de Desenvolvimento: tópico frasal, repertório e análise?",
+        "verso": "Todo desenvolvimento deve começar com tópico frasal que antecipa a ideia central do parágrafo.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Erro comum em Desenvolvimento: tópico frasal, repertório e análise crítica",
-        "verso": "Jogar uma citação ou dado sem analisar sua relação com o tema."
+        "id": "redacao-para-concursos-policiais-05-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em construção do parágrafo argumentativo?",
+        "verso": "Repertório só vale quando é analisado: citar Constituição, política pública ou caso social sem demonstrar a relação com a tese não aumenta a nota.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Repertório útil",
-        "verso": "Art. 144, prevenção, controle institucional, educação, desigualdade, tecnologia e direitos humanos."
+        "id": "redacao-para-concursos-policiais-05-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Empilhar repertórios sem interpretar. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Modelo operacional",
-        "verso": "Tópico frasal + repertório pertinente + explicação + fechamento parcial."
+        "id": "redacao-para-concursos-policiais-05-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Argumento: câmeras corporais, protocolos e treinamento podem proteger cidadão e policial, pois registram a atuação e reduzem conflito narrativo sobre abuso ou resistência.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": {
-      "iniciante": "escreve sem planejamento ou com tese vaga",
-      "intermediario": "planeja, mas ainda usa repertório pouco explicado",
-      "avancado": "responde ao tema com tese clara, argumento, repertório e coesão"
-    },
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "reescrever a tese e um tópico frasal"
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "produzir um parágrafo completo"
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "fazer simulado cronometrado e corrigir por rubrica"
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Atue como corretor de redação para concursos policiais. Corrija texto do aluno sobre Desenvolvimento: tópico frasal, repertório e análise crítica por rubrica, explique os erros e proponha reescrita.",
-      "naoFazer": [
-        "não inventar fatos",
-        "não estimular discurso violento ou discriminatório",
-        "não dar nota sem justificar"
-      ],
-      "feedbackEsperado": [
-        "tema",
-        "tese",
-        "argumentação",
-        "coesão",
-        "norma-padrão",
-        "reescrita"
-      ]
-    },
     "questoes": [
       {
-        "id": "desenvolvimento-topico-frasal-repertorio-e-analise-critica-q01",
+        "id": "redacao-para-concursos-policiais-05-q01",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Desenvolvimento: tópico frasal, repertório e análise crítica, assinale a alternativa correta.",
+        "enunciado": "Em relação a Desenvolvimento: tópico frasal, repertório e análise, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "O desenvolvimento não deve só citar repertório; precisa explicar como ele confirma a tese.",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "Todo desenvolvimento deve começar com tópico frasal que antecipa a ideia central do parágrafo.",
+          "Empilhar repertórios sem interpretar.",
+          "Transformar o parágrafo em lista de problemas sem causalidade.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: O desenvolvimento não deve só citar repertório; precisa explicar como ele confirma a tese.",
-        "armadilhaDaBanca": "Jogar uma citação ou dado sem analisar sua relação com o tema.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A alternativa correta resume o núcleo do tema: Todo desenvolvimento deve começar com tópico frasal que antecipa a ideia central do parágrafo."
       },
       {
-        "id": "desenvolvimento-topico-frasal-repertorio-e-analise-critica-q02",
+        "id": "redacao-para-concursos-policiais-05-q02",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: O desenvolvimento não deve só citar repertório; precisa explicar como ele confirma a tese.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "O item está correto porque reflete técnica de escrita para banca.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "Repertório só vale quando é analisado: citar Constituição, política pública ou caso social sem demonstrar a relação com a tese não aumenta a nota.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de construção do parágrafo argumentativo."
       },
       {
-        "id": "desenvolvimento-topico-frasal-repertorio-e-analise-critica-q03",
+        "id": "redacao-para-concursos-policiais-05-q03",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: Em redação policial, basta defender opinião forte; estrutura, tese e coerência são secundárias.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "O item está errado: opinião sem estrutura, prova e coerência costuma reduzir a nota.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "Empilhar repertórios sem interpretar.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "desenvolvimento-topico-frasal-repertorio-e-analise-critica-q04",
+        "id": "redacao-para-concursos-policiais-05-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Argumento: câmeras corporais, protocolos e treinamento podem proteger cidadão e policial, pois registram a atuação e reduzem conflito narrativo sobre abuso ou resistência. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Um bom parágrafo combina afirmação, justificativa, exemplo e fechamento parcial conectado à tese.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-05-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que construção do parágrafo argumentativo não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar todo desenvolvimento deve começar com tópico frasal que antecipa a ideia central do parágrafo. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-05-q06",
+        "tipo": "comparativa",
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Todo desenvolvimento deve começar com tópico frasal que antecipa a ideia central do parágrafo. Pegadinha: Empilhar repertórios sem interpretar.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-05-q07",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Desenvolvimento: tópico frasal, repertório e análise crítica, assinale a alternativa correta.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "O melhor procedimento é: Tópico frasal + repertório pertinente + explicação + fechamento parcial.",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "Um bom parágrafo combina afirmação, justificativa, exemplo e fechamento parcial conectado à tese.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Transformar o parágrafo em lista de problemas sem causalidade."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: O desenvolvimento não deve só citar repertório; precisa explicar como ele confirma a tese.",
-        "armadilhaDaBanca": "Jogar uma citação ou dado sem analisar sua relação com o tema.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "desenvolvimento-topico-frasal-repertorio-e-analise-critica-q05",
-        "tipo": "analise_de_trecho",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Desenvolvimento: tópico frasal, repertório e análise crítica\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que O desenvolvimento não deve só citar repertório; precisa explicar como ele confirma a tese. Deve trazer Art. 144, prevenção, controle institucional, educação, desigualdade, tecnologia e direitos humanos. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "tópico frasal",
-          "repertório",
-          "análise",
-          "exemplo"
-        ],
-        "erroComum": "Jogar uma citação ou dado sem analisar sua relação com o tema.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
+        "id": "redacao-para-concursos-policiais-05-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Transformar o parágrafo em lista de problemas sem causalidade.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "desenvolvimento-topico-frasal-repertorio-e-analise-critica-q06",
-        "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "dificil",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_incorreta",
-        "enunciado": "Sobre Desenvolvimento: tópico frasal, repertório e análise crítica, assinale a alternativa correta.",
-        "alternativas": [
-          "Jogar uma citação ou dado sem analisar sua relação com o tema.",
-          "O desenvolvimento não deve só citar repertório; precisa explicar como ele confirma a tese.",
-          "Um repertório possível é: Art. 144, prevenção, controle institucional, educação, desigualdade, tecnologia e direitos humanos.",
-          "A banca cobra: Construir parágrafos com ideia central, prova/repertório e análise.",
-          "A reescrita ajuda a corrigir vícios de estrutura."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: O desenvolvimento não deve só citar repertório; precisa explicar como ele confirma a tese.",
-        "armadilhaDaBanca": "Jogar uma citação ou dado sem analisar sua relação com o tema.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "id": "redacao-para-concursos-policiais-05-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Desenvolvimento: tópico frasal, repertório e análise a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Na área policial, argumento maduro evita simplificação: eficiência operacional e limites legais não são opostos, mas condições de legitimidade.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
       },
       {
-        "id": "desenvolvimento-topico-frasal-repertorio-e-analise-critica-q07",
-        "tipo": "planejamento_redacao",
-        "bancaEstilo": "Treino VemAprovar",
-        "nivel": "alto",
-        "eixoCognitivo": "planejamento",
-        "temaTreino": "Argumentação em concursos policiais",
-        "comando": "Monte um projeto de texto com tese, argumento 1, argumento 2 e conclusão.",
-        "respostaModelo": {
-          "tese": "O desenvolvimento não deve só citar repertório; precisa explicar como ele confirma a tese.",
-          "argumento1": "Causa ou fundamento: Art. 144, prevenção, controle institucional, educação, desigualdade, tecnologia e direitos humanos..",
-          "argumento2": "Consequência prática para segurança pública, cidadania ou confiança institucional.",
-          "conclusao": "Fechamento coerente: Tópico frasal + repertório pertinente + explicação + fechamento parcial."
-        },
-        "criteriosCorrecao": [
-          "tese defensável",
-          "argumentos conectados",
-          "repertório pertinente",
-          "conclusão compatível"
-        ],
-        "diagnosticoIA": {
-          "acao": "Gerar feedback em rubrica e sugerir uma versão mais objetiva da tese."
-        }
-      },
-      {
-        "id": "desenvolvimento-topico-frasal-repertorio-e-analise-critica-q08",
-        "tipo": "resposta_aberta",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Desenvolvimento: tópico frasal, repertório e análise crítica\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que O desenvolvimento não deve só citar repertório; precisa explicar como ele confirma a tese. Deve trazer Art. 144, prevenção, controle institucional, educação, desigualdade, tecnologia e direitos humanos. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "tópico frasal",
-          "repertório",
-          "análise",
-          "exemplo"
-        ],
-        "erroComum": "Jogar uma citação ou dado sem analisar sua relação com o tema.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
-      },
-      {
-        "id": "desenvolvimento-topico-frasal-repertorio-e-analise-critica-q09",
-        "tipo": "checklist_correcao",
-        "bancaEstilo": "Rubrica VemAprovar",
-        "nivel": "medio",
-        "eixoCognitivo": "autoavaliacao",
-        "comando": "Marque se o trecho produzido cumpre os critérios mínimos.",
-        "itens": [
-          {
-            "criterio": "Responde exatamente ao tema?",
-            "esperado": true
-          },
-          {
-            "criterio": "Tem tese ou ideia central clara?",
-            "esperado": true
-          },
-          {
-            "criterio": "Usa repertório explicado, não apenas citado?",
-            "esperado": true
-          },
-          {
-            "criterio": "Evita generalização, radicalismo e senso comum?",
-            "esperado": true
-          },
-          {
-            "criterio": "Mantém coesão e progressão?",
-            "esperado": true
-          }
-        ],
-        "respostaModelo": "A redação só deve avançar para versão final se todos os critérios forem atendidos ou reescritos.",
-        "diagnosticoIA": {
-          "acao": "Classificar o texto em pronto, precisa reescrever ou precisa refazer o projeto de texto."
-        }
-      },
-      {
-        "id": "desenvolvimento-topico-frasal-repertorio-e-analise-critica-q10",
-        "tipo": "treino_adaptativo_ia",
-        "bancaEstilo": "Tutor IA VemAprovar",
-        "nivel": "adaptativo",
-        "eixoCognitivo": "reescrita_orientada",
-        "promptTutorIA": "Corrija um trecho de redação do aluno sobre Desenvolvimento: tópico frasal, repertório e análise crítica. Aponte fuga ao tema, tese, repertório, coesão, norma-padrão e sugira reescrita objetiva.",
-        "criterioDominio": "Domina quando consegue planejar, escrever e reescrever o trecho sem fuga ao tema e com argumentação clara.",
-        "saidaEsperada": "Feedback por rubrica, nota estimada, três ajustes prioritários e versão reescrita do trecho."
+        "id": "redacao-para-concursos-policiais-05-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Todo desenvolvimento deve começar com tópico frasal que antecipa a ideia central do parágrafo.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "qualidadeConteudo": {
-      "revisaoAutomaticaCampos": true,
-      "mcComGabaritoObrigatorio": true,
-      "flashcardsSemPlaceholder": true,
-      "dataRevisaoQualidade": "2026-07-07"
-    }
+    "proximoTitulo": "Coesão e progressão: conectivos que realmente organizam o raciocínio"
   },
   {
-    "id": "coesao-coerencia-conectivos-e-progressao-textual",
-    "materialTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "id": "coesao-e-progressao-conectivos-que-realmente-organizam-o-raciocinio",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas Municipais / Concursos Policiais",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 6,
     "totalChapters": 10,
-    "title": "Coesão, coerência, conectivos e progressão textual",
-    "assunto": "Linguagem e organização",
-    "tecnica": "Escrita objetiva, leitura de comando, tese clara, repertório pertinente e reescrita por rubrica",
-    "competencia": "Usar conectivos, retomadas e progressão sem repetição excessiva.",
-    "dificuldade": "Médio-alto",
-    "tempoLeituraMin": 9,
-    "tempoExercicioMin": 24,
+    "title": "Coesão e progressão: conectivos que realmente organizam o raciocínio",
+    "assunto": "encadeamento textual",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar encadeamento textual com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
-      "FGV": 4,
-      "CESPE": 5,
+      "FGV": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
       "IBFC": 4,
       "AOCP": 4,
-      "OAB": 2,
-      "ENEM": 3
+      "Instituto Consulplan": 4
     },
     "termosChave": [
       "coesão",
       "coerência",
-      "conectivos",
-      "progressão textual"
+      "conectivos"
     ],
-    "fontesBase": [
-      "Técnica de redação dissertativo-argumentativa",
-      "Critérios usuais de correção discursiva em concursos",
-      "Temas de segurança pública e cidadania",
-      "Norma-padrão da Língua Portuguesa",
-      "Rubrica pedagógica VemAprovar"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
-    "precisaConferenciaOficialAntesDePublicar": false,
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
+    "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo ensina linguagem e organização com foco em prova discursiva de concursos policiais. A redação não é um texto livre: ela precisa responder ao comando, demonstrar organização e sustentar uma tese com argumentos verificáveis.",
-      "O ponto central é: Coesão liga frases; coerência garante sentido; progressão evita texto circular. Para isso, o candidato deve planejar antes de escrever, escolher repertório pertinente e explicar a relação entre o repertório e o problema proposto.",
-      "O erro mais comum é: Repetir a mesma ideia em todos os parágrafos ou usar conectivo sem relação lógica. Em redação policial, isso costuma gerar perda de nota porque o corretor avalia domínio do tema, progressão textual, equilíbrio argumentativo e uso adequado da norma-padrão."
+      "Coesão e progressão: conectivos que realmente organizam o raciocínio exige domínio de encadeamento textual. O estudo correto começa pela ideia de que coesão não é enfeitar com conectivos; é mostrar relação lógica entre ideias: causa, oposição, consequência, exemplificação e conclusão.",
+      "Conectivos como “portanto” exigem conclusão real; usar depois de uma ideia sem consequência produz salto lógico. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Progressão textual ocorre quando cada período acrescenta algo ao anterior, sem repetir o tema com palavras diferentes. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "A redação policial precisa de linguagem objetiva, sem gírias, alarmismo ou expressão de torcida. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Coesão liga frases; coerência garante sentido; progressão evita texto circular.",
-      "Erro a evitar: Repetir a mesma ideia em todos os parágrafos ou usar conectivo sem relação lógica.",
-      "Repertório útil: Conectivos de causa, consequência, contraste, adição, exemplificação e conclusão.",
-      "Modelo operacional: Além disso, por outro lado, nesse sentido, consequentemente, portanto e em síntese."
+      "Coesão não é enfeitar com conectivos; é mostrar relação lógica entre ideias: causa, oposição, consequência, exemplificação e conclusão.",
+      "Conectivos como “portanto” exigem conclusão real; usar depois de uma ideia sem consequência produz salto lógico.",
+      "Progressão textual ocorre quando cada período acrescenta algo ao anterior, sem repetir o tema com palavras diferentes.",
+      "A redação policial precisa de linguagem objetiva, sem gírias, alarmismo ou expressão de torcida."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a técnica central deste capítulo?",
-      "opcoes": [
-        "Repetir a mesma ideia em todos os parágrafos ou usar conectivo sem relação lógica.",
-        "Além disso, por outro lado, nesse sentido, consequentemente, portanto e em síntese.",
-        "escrever o máximo de linhas sem planejamento"
-      ],
-      "correta": 1,
-      "justificativa": "O modelo correto é: Além disso, por outro lado, nesse sentido, consequentemente, portanto e em síntese."
-    },
-    "oQueCobra": "Leitura de tema, projeto de texto, argumentação, coesão, repertório, norma-padrão e conclusão adequada.",
-    "precisaSaberAntes": "Interpretação de texto, pontuação básica, coesão e noções de segurança pública/cidadania.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta um tema amplo ou recortado e avalia se o candidato consegue defender uma ideia com clareza, equilíbrio e domínio da escrita formal."
+        "pergunta": "Qual é o núcleo de Coesão e progressão: conectivos que realmente organizam o raciocínio?",
+        "resposta": "Coesão não é enfeitar com conectivos; é mostrar relação lógica entre ideias: causa, oposição, consequência, exemplificação e conclusão."
       },
       {
-        "titulo": "Como treinar",
-        "texto": "Faça primeiro o projeto de texto, depois escreva em tempo cronometrado e finalize reescrevendo os trechos mais fracos."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Usar “outrossim” e “destarte” de modo artificial."
+      },
+      {
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Parágrafo coeso: problema → causa administrativa → consequência social → medida institucional. Essa ordem impede circularidade."
       }
     ],
-    "comoIdentificar": "Procure a palavra central do tema, o verbo do comando e o limite do recorte. Depois transforme tudo em uma frase-tese.",
-    "pegadinhas": [
-      "Fuga ao tema",
-      "Tese genérica",
-      "Repertório citado sem análise",
-      "Conclusão vaga",
-      "Opinião radical sem fundamento"
-    ],
-    "resumoFrase": "Coesão liga frases; coerência garante sentido; progressão evita texto circular.",
-    "proximoTitulo": "Conclusão: fechamento, encaminhamento e proposta conforme a banca",
-    "padraoPlataforma": "VemAprovar Top1 — 10/10 Plus Revisado",
-    "versaoConteudo": "premium-18.0-redacao-policial-plus-revisado",
-    "statusRevisao": "revisado_com_validacao_de_gabarito_flashcards_e_campos",
-    "riscoAtualizacao": "baixo_medio",
-    "publicoAlvo": [
-      "PM",
-      "PC",
-      "PRF",
-      "Polícia Penal",
-      "Guardas Municipais",
-      "Concursos Militares"
-    ],
-    "areaPlataforma": "redacao_concursos_policiais",
-    "explicacaoComoSeTivesse12": "Pense na redação como uma construção. O tema é o terreno, a tese é a planta da casa, os argumentos são as paredes e a conclusão é o telhado. Se você muda de ideia no meio, a casa fica torta. Neste capítulo, a regra é: Além disso, por outro lado, nesse sentido, consequentemente, portanto e em síntese.",
-    "comoEstudar": [
-      "Leia o capítulo e escreva uma frase-tese.",
-      "Monte dois argumentos em tópicos.",
-      "Escreva um parágrafo em 8 minutos.",
-      "Corrija pela rubrica.",
-      "Reescreva o trecho mais fraco."
-    ],
-    "paraNaoEsquecer": [
-      "Coesão liga frases; coerência garante sentido; progressão evita texto circular.",
-      "Erro a evitar: Repetir a mesma ideia em todos os parágrafos ou usar conectivo sem relação lógica.",
-      "Repertório útil: Conectivos de causa, consequência, contraste, adição, exemplificação e conclusão.",
-      "Modelo operacional: Além disso, por outro lado, nesse sentido, consequentemente, portanto e em síntese."
-    ],
-    "mapaMentalTextual": {
-      "centro": "Coesão, coerência, conectivos e progressão textual",
-      "ramos": [
-        {
-          "titulo": "Técnica",
-          "itens": [
-            "Além disso, por outro lado, nesse sentido, consequentemente, portanto e em síntese."
-          ]
-        },
-        {
-          "titulo": "Erro comum",
-          "itens": [
-            "Repetir a mesma ideia em todos os parágrafos ou usar conectivo sem relação lógica."
-          ]
-        },
-        {
-          "titulo": "Repertório",
-          "itens": [
-            "Conectivos de causa, consequência, contraste, adição, exemplificação e conclusão."
-          ]
-        },
-        {
-          "titulo": "Critério de correção",
-          "itens": [
-            "tema",
-            "tese",
-            "argumento",
-            "coesão",
-            "norma-padrão"
-          ]
-        }
-      ]
+    "quadroDeDominio": {
+      "conceito": "Coesão não é enfeitar com conectivos; é mostrar relação lógica entre ideias: causa, oposição, consequência, exemplificação e conclusão.",
+      "limite": "Conectivos como “portanto” exigem conclusão real; usar depois de uma ideia sem consequência produz salto lógico.",
+      "aplicacao": "Parágrafo coeso: problema → causa administrativa → consequência social → medida institucional. Essa ordem impede circularidade.",
+      "erroFatal": "Usar “outrossim” e “destarte” de modo artificial."
     },
+    "exemploComentado": "Parágrafo coeso: problema → causa administrativa → consequência social → medida institucional. Essa ordem impede circularidade.",
+    "pegadinhas": [
+      "Usar “outrossim” e “destarte” de modo artificial.",
+      "Repetir “segurança pública” em todas as frases sem avanço argumentativo."
+    ],
+    "mapaMentalTexto": [
+      "Tema: Coesão e progressão: conectivos que realmente organizam o raciocínio",
+      "Conceito: Coesão não é enfeitar com conectivos; é mostrar relação lógica entre ideias: causa, oposição, consequência, exemplificação e conclusão.",
+      "Aplicação: Parágrafo coeso: problema → causa administrativa → consequência social → medida institucional. Essa ordem impede circularidade.",
+      "Cuidado: Usar “outrossim” e “destarte” de modo artificial."
+    ],
+    "comoEstudar": [
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
+    ],
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
+    ],
     "flashcards": [
       {
-        "frente": "O que é essencial em Linguagem e organização?",
-        "verso": "Coesão liga frases; coerência garante sentido; progressão evita texto circular."
+        "id": "redacao-para-concursos-policiais-06-fc01",
+        "frente": "Qual é a ideia central de Coesão e progressão: conectivos que realmente organizam o raciocínio?",
+        "verso": "Coesão não é enfeitar com conectivos; é mostrar relação lógica entre ideias: causa, oposição, consequência, exemplificação e conclusão.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Erro comum em Coesão, coerência, conectivos e progressão textual",
-        "verso": "Repetir a mesma ideia em todos os parágrafos ou usar conectivo sem relação lógica."
+        "id": "redacao-para-concursos-policiais-06-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em encadeamento textual?",
+        "verso": "Conectivos como “portanto” exigem conclusão real; usar depois de uma ideia sem consequência produz salto lógico.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Repertório útil",
-        "verso": "Conectivos de causa, consequência, contraste, adição, exemplificação e conclusão."
+        "id": "redacao-para-concursos-policiais-06-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Usar “outrossim” e “destarte” de modo artificial.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Modelo operacional",
-        "verso": "Além disso, por outro lado, nesse sentido, consequentemente, portanto e em síntese."
+        "id": "redacao-para-concursos-policiais-06-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Parágrafo coeso: problema → causa administrativa → consequência social → medida institucional. Essa ordem impede circularidade.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": {
-      "iniciante": "escreve sem planejamento ou com tese vaga",
-      "intermediario": "planeja, mas ainda usa repertório pouco explicado",
-      "avancado": "responde ao tema com tese clara, argumento, repertório e coesão"
-    },
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "reescrever a tese e um tópico frasal"
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "produzir um parágrafo completo"
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "fazer simulado cronometrado e corrigir por rubrica"
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Atue como corretor de redação para concursos policiais. Corrija texto do aluno sobre Coesão, coerência, conectivos e progressão textual por rubrica, explique os erros e proponha reescrita.",
-      "naoFazer": [
-        "não inventar fatos",
-        "não estimular discurso violento ou discriminatório",
-        "não dar nota sem justificar"
-      ],
-      "feedbackEsperado": [
-        "tema",
-        "tese",
-        "argumentação",
-        "coesão",
-        "norma-padrão",
-        "reescrita"
-      ]
-    },
     "questoes": [
       {
-        "id": "coesao-coerencia-conectivos-e-progressao-textual-q01",
+        "id": "redacao-para-concursos-policiais-06-q01",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Coesão, coerência, conectivos e progressão textual, assinale a alternativa correta.",
+        "enunciado": "Em relação a Coesão e progressão: conectivos que realmente organizam o raciocínio, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Coesão liga frases; coerência garante sentido; progressão evita texto circular.",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "Coesão não é enfeitar com conectivos; é mostrar relação lógica entre ideias: causa, oposição, consequência, exemplificação e conclusão.",
+          "Usar “outrossim” e “destarte” de modo artificial.",
+          "Repetir “segurança pública” em todas as frases sem avanço argumentativo.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: Coesão liga frases; coerência garante sentido; progressão evita texto circular.",
-        "armadilhaDaBanca": "Repetir a mesma ideia em todos os parágrafos ou usar conectivo sem relação lógica.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A alternativa correta resume o núcleo do tema: Coesão não é enfeitar com conectivos; é mostrar relação lógica entre ideias: causa, oposição, consequência, exemplificação e conclusão."
       },
       {
-        "id": "coesao-coerencia-conectivos-e-progressao-textual-q02",
+        "id": "redacao-para-concursos-policiais-06-q02",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: Coesão liga frases; coerência garante sentido; progressão evita texto circular.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "O item está correto porque reflete técnica de escrita para banca.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "Conectivos como “portanto” exigem conclusão real; usar depois de uma ideia sem consequência produz salto lógico.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de encadeamento textual."
       },
       {
-        "id": "coesao-coerencia-conectivos-e-progressao-textual-q03",
+        "id": "redacao-para-concursos-policiais-06-q03",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: Em redação policial, basta defender opinião forte; estrutura, tese e coerência são secundárias.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "O item está errado: opinião sem estrutura, prova e coerência costuma reduzir a nota.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "Usar “outrossim” e “destarte” de modo artificial.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "coesao-coerencia-conectivos-e-progressao-textual-q04",
+        "id": "redacao-para-concursos-policiais-06-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Parágrafo coeso: problema → causa administrativa → consequência social → medida institucional. Essa ordem impede circularidade. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Progressão textual ocorre quando cada período acrescenta algo ao anterior, sem repetir o tema com palavras diferentes.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-06-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que encadeamento textual não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar coesão não é enfeitar com conectivos; é mostrar relação lógica entre ideias: causa, oposição, consequência, exemplificação e conclusão. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-06-q06",
+        "tipo": "comparativa",
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Coesão não é enfeitar com conectivos; é mostrar relação lógica entre ideias: causa, oposição, consequência, exemplificação e conclusão. Pegadinha: Usar “outrossim” e “destarte” de modo artificial.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-06-q07",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Coesão, coerência, conectivos e progressão textual, assinale a alternativa correta.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "O melhor procedimento é: Além disso, por outro lado, nesse sentido, consequentemente, portanto e em síntese.",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "Progressão textual ocorre quando cada período acrescenta algo ao anterior, sem repetir o tema com palavras diferentes.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Repetir “segurança pública” em todas as frases sem avanço argumentativo."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: Coesão liga frases; coerência garante sentido; progressão evita texto circular.",
-        "armadilhaDaBanca": "Repetir a mesma ideia em todos os parágrafos ou usar conectivo sem relação lógica.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "coesao-coerencia-conectivos-e-progressao-textual-q05",
-        "tipo": "analise_de_trecho",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Coesão, coerência, conectivos e progressão textual\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que Coesão liga frases; coerência garante sentido; progressão evita texto circular. Deve trazer Conectivos de causa, consequência, contraste, adição, exemplificação e conclusão. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "coesão",
-          "coerência",
-          "conectivos",
-          "progressão textual"
-        ],
-        "erroComum": "Repetir a mesma ideia em todos os parágrafos ou usar conectivo sem relação lógica.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
+        "id": "redacao-para-concursos-policiais-06-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Repetir “segurança pública” em todas as frases sem avanço argumentativo.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "coesao-coerencia-conectivos-e-progressao-textual-q06",
-        "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "dificil",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_incorreta",
-        "enunciado": "Sobre Coesão, coerência, conectivos e progressão textual, assinale a alternativa correta.",
-        "alternativas": [
-          "Repetir a mesma ideia em todos os parágrafos ou usar conectivo sem relação lógica.",
-          "Coesão liga frases; coerência garante sentido; progressão evita texto circular.",
-          "Um repertório possível é: Conectivos de causa, consequência, contraste, adição, exemplificação e conclusão.",
-          "A banca cobra: Usar conectivos, retomadas e progressão sem repetição excessiva.",
-          "A reescrita ajuda a corrigir vícios de estrutura."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: Coesão liga frases; coerência garante sentido; progressão evita texto circular.",
-        "armadilhaDaBanca": "Repetir a mesma ideia em todos os parágrafos ou usar conectivo sem relação lógica.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "id": "redacao-para-concursos-policiais-06-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Coesão e progressão: conectivos que realmente organizam o raciocínio a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: A redação policial precisa de linguagem objetiva, sem gírias, alarmismo ou expressão de torcida.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
       },
       {
-        "id": "coesao-coerencia-conectivos-e-progressao-textual-q07",
-        "tipo": "planejamento_redacao",
-        "bancaEstilo": "Treino VemAprovar",
-        "nivel": "alto",
-        "eixoCognitivo": "planejamento",
-        "temaTreino": "Linguagem e organização em concursos policiais",
-        "comando": "Monte um projeto de texto com tese, argumento 1, argumento 2 e conclusão.",
-        "respostaModelo": {
-          "tese": "Coesão liga frases; coerência garante sentido; progressão evita texto circular.",
-          "argumento1": "Causa ou fundamento: Conectivos de causa, consequência, contraste, adição, exemplificação e conclusão..",
-          "argumento2": "Consequência prática para segurança pública, cidadania ou confiança institucional.",
-          "conclusao": "Fechamento coerente: Além disso, por outro lado, nesse sentido, consequentemente, portanto e em síntese."
-        },
-        "criteriosCorrecao": [
-          "tese defensável",
-          "argumentos conectados",
-          "repertório pertinente",
-          "conclusão compatível"
-        ],
-        "diagnosticoIA": {
-          "acao": "Gerar feedback em rubrica e sugerir uma versão mais objetiva da tese."
-        }
-      },
-      {
-        "id": "coesao-coerencia-conectivos-e-progressao-textual-q08",
-        "tipo": "resposta_aberta",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Coesão, coerência, conectivos e progressão textual\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que Coesão liga frases; coerência garante sentido; progressão evita texto circular. Deve trazer Conectivos de causa, consequência, contraste, adição, exemplificação e conclusão. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "coesão",
-          "coerência",
-          "conectivos",
-          "progressão textual"
-        ],
-        "erroComum": "Repetir a mesma ideia em todos os parágrafos ou usar conectivo sem relação lógica.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
-      },
-      {
-        "id": "coesao-coerencia-conectivos-e-progressao-textual-q09",
-        "tipo": "checklist_correcao",
-        "bancaEstilo": "Rubrica VemAprovar",
-        "nivel": "medio",
-        "eixoCognitivo": "autoavaliacao",
-        "comando": "Marque se o trecho produzido cumpre os critérios mínimos.",
-        "itens": [
-          {
-            "criterio": "Responde exatamente ao tema?",
-            "esperado": true
-          },
-          {
-            "criterio": "Tem tese ou ideia central clara?",
-            "esperado": true
-          },
-          {
-            "criterio": "Usa repertório explicado, não apenas citado?",
-            "esperado": true
-          },
-          {
-            "criterio": "Evita generalização, radicalismo e senso comum?",
-            "esperado": true
-          },
-          {
-            "criterio": "Mantém coesão e progressão?",
-            "esperado": true
-          }
-        ],
-        "respostaModelo": "A redação só deve avançar para versão final se todos os critérios forem atendidos ou reescritos.",
-        "diagnosticoIA": {
-          "acao": "Classificar o texto em pronto, precisa reescrever ou precisa refazer o projeto de texto."
-        }
-      },
-      {
-        "id": "coesao-coerencia-conectivos-e-progressao-textual-q10",
-        "tipo": "treino_adaptativo_ia",
-        "bancaEstilo": "Tutor IA VemAprovar",
-        "nivel": "adaptativo",
-        "eixoCognitivo": "reescrita_orientada",
-        "promptTutorIA": "Corrija um trecho de redação do aluno sobre Coesão, coerência, conectivos e progressão textual. Aponte fuga ao tema, tese, repertório, coesão, norma-padrão e sugira reescrita objetiva.",
-        "criterioDominio": "Domina quando consegue planejar, escrever e reescrever o trecho sem fuga ao tema e com argumentação clara.",
-        "saidaEsperada": "Feedback por rubrica, nota estimada, três ajustes prioritários e versão reescrita do trecho."
+        "id": "redacao-para-concursos-policiais-06-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Coesão não é enfeitar com conectivos; é mostrar relação lógica entre ideias: causa, oposição, consequência, exemplificação e conclusão.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "qualidadeConteudo": {
-      "revisaoAutomaticaCampos": true,
-      "mcComGabaritoObrigatorio": true,
-      "flashcardsSemPlaceholder": true,
-      "dataRevisaoQualidade": "2026-07-07"
-    }
+    "proximoTitulo": "Conclusão: fechamento consistente e medida institucional"
   },
   {
-    "id": "conclusao-fechamento-encaminhamento-e-proposta-conforme-a-banca",
-    "materialTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "id": "conclusao-fechamento-consistente-e-medida-institucional",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas Municipais / Concursos Policiais",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 7,
     "totalChapters": 10,
-    "title": "Conclusão: fechamento, encaminhamento e proposta conforme a banca",
-    "assunto": "Fechamento textual",
-    "tecnica": "Escrita objetiva, leitura de comando, tese clara, repertório pertinente e reescrita por rubrica",
-    "competencia": "Concluir retomando a tese e entregando solução ou síntese conforme o edital.",
-    "dificuldade": "Médio-alto",
-    "tempoLeituraMin": 9,
-    "tempoExercicioMin": 24,
+    "title": "Conclusão: fechamento consistente e medida institucional",
+    "assunto": "fechamento do texto",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar fechamento do texto com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
-      "FGV": 4,
-      "CESPE": 5,
+      "FGV": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
       "IBFC": 4,
       "AOCP": 4,
-      "OAB": 2,
-      "ENEM": 3
+      "Instituto Consulplan": 4
     },
     "termosChave": [
       "conclusão",
-      "síntese",
-      "encaminhamento",
-      "proposta"
+      "proposta",
+      "síntese"
     ],
-    "fontesBase": [
-      "Técnica de redação dissertativo-argumentativa",
-      "Critérios usuais de correção discursiva em concursos",
-      "Temas de segurança pública e cidadania",
-      "Norma-padrão da Língua Portuguesa",
-      "Rubrica pedagógica VemAprovar"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
-    "precisaConferenciaOficialAntesDePublicar": false,
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
+    "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo ensina fechamento textual com foco em prova discursiva de concursos policiais. A redação não é um texto livre: ela precisa responder ao comando, demonstrar organização e sustentar uma tese com argumentos verificáveis.",
-      "O ponto central é: A conclusão fecha o raciocínio, não inaugura tema novo nem contradiz a tese. Para isso, o candidato deve planejar antes de escrever, escolher repertório pertinente e explicar a relação entre o repertório e o problema proposto.",
-      "O erro mais comum é: Criar solução milagrosa, vaga ou desconectada dos argumentos. Em redação policial, isso costuma gerar perda de nota porque o corretor avalia domínio do tema, progressão textual, equilíbrio argumentativo e uso adequado da norma-padrão."
+      "Conclusão: fechamento consistente e medida institucional exige domínio de fechamento do texto. O estudo correto começa pela ideia de que conclusão não deve trazer argumento novo; ela retoma a tese e mostra que o caminho defendido foi demonstrado.",
+      "Quando houver proposta, ela precisa indicar agente, ação, finalidade e limite de legalidade, sem prometer resultado absoluto. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Em tema policial, boas medidas incluem formação continuada, inteligência, integração de dados, controle interno e ações preventivas. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Fechamento forte substitui frases genéricas por síntese precisa do raciocínio construído. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "A conclusão fecha o raciocínio, não inaugura tema novo nem contradiz a tese.",
-      "Erro a evitar: Criar solução milagrosa, vaga ou desconectada dos argumentos.",
-      "Repertório útil: Ação institucional, prevenção, capacitação, fiscalização, tecnologia, transparência e educação cidadã.",
-      "Modelo operacional: Portanto, [retomada da tese]. Para tanto, [encaminhamento compatível], a fim de [resultado esperado]."
+      "Conclusão não deve trazer argumento novo; ela retoma a tese e mostra que o caminho defendido foi demonstrado.",
+      "Quando houver proposta, ela precisa indicar agente, ação, finalidade e limite de legalidade, sem prometer resultado absoluto.",
+      "Em tema policial, boas medidas incluem formação continuada, inteligência, integração de dados, controle interno e ações preventivas.",
+      "Fechamento forte substitui frases genéricas por síntese precisa do raciocínio construído."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a técnica central deste capítulo?",
-      "opcoes": [
-        "Criar solução milagrosa, vaga ou desconectada dos argumentos.",
-        "Portanto, [retomada da tese]. Para tanto, [encaminhamento compatível], a fim de [resultado esperado].",
-        "escrever o máximo de linhas sem planejamento"
-      ],
-      "correta": 1,
-      "justificativa": "O modelo correto é: Portanto, [retomada da tese]. Para tanto, [encaminhamento compatível], a fim de [resultado esperado]."
-    },
-    "oQueCobra": "Leitura de tema, projeto de texto, argumentação, coesão, repertório, norma-padrão e conclusão adequada.",
-    "precisaSaberAntes": "Interpretação de texto, pontuação básica, coesão e noções de segurança pública/cidadania.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta um tema amplo ou recortado e avalia se o candidato consegue defender uma ideia com clareza, equilíbrio e domínio da escrita formal."
+        "pergunta": "Qual é o núcleo de Conclusão: fechamento consistente e medida institucional?",
+        "resposta": "Conclusão não deve trazer argumento novo; ela retoma a tese e mostra que o caminho defendido foi demonstrado."
       },
       {
-        "titulo": "Como treinar",
-        "texto": "Faça primeiro o projeto de texto, depois escreva em tempo cronometrado e finalize reescrevendo os trechos mais fracos."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Encerrar com “conscientizar a população” sem agente ou mecanismo."
+      },
+      {
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Boa conclusão: “Assim, a prevenção qualificada exige gestão baseada em dados, aproximação comunitária e atuação policial controlada por protocolos.”"
       }
     ],
-    "comoIdentificar": "Procure a palavra central do tema, o verbo do comando e o limite do recorte. Depois transforme tudo em uma frase-tese.",
-    "pegadinhas": [
-      "Fuga ao tema",
-      "Tese genérica",
-      "Repertório citado sem análise",
-      "Conclusão vaga",
-      "Opinião radical sem fundamento"
-    ],
-    "resumoFrase": "A conclusão fecha o raciocínio, não inaugura tema novo nem contradiz a tese.",
-    "proximoTitulo": "Repertórios para segurança pública, cidadania e direitos humanos",
-    "padraoPlataforma": "VemAprovar Top1 — 10/10 Plus Revisado",
-    "versaoConteudo": "premium-18.0-redacao-policial-plus-revisado",
-    "statusRevisao": "revisado_com_validacao_de_gabarito_flashcards_e_campos",
-    "riscoAtualizacao": "baixo_medio",
-    "publicoAlvo": [
-      "PM",
-      "PC",
-      "PRF",
-      "Polícia Penal",
-      "Guardas Municipais",
-      "Concursos Militares"
-    ],
-    "areaPlataforma": "redacao_concursos_policiais",
-    "explicacaoComoSeTivesse12": "Pense na redação como uma construção. O tema é o terreno, a tese é a planta da casa, os argumentos são as paredes e a conclusão é o telhado. Se você muda de ideia no meio, a casa fica torta. Neste capítulo, a regra é: Portanto, [retomada da tese]. Para tanto, [encaminhamento compatível], a fim de [resultado esperado].",
-    "comoEstudar": [
-      "Leia o capítulo e escreva uma frase-tese.",
-      "Monte dois argumentos em tópicos.",
-      "Escreva um parágrafo em 8 minutos.",
-      "Corrija pela rubrica.",
-      "Reescreva o trecho mais fraco."
-    ],
-    "paraNaoEsquecer": [
-      "A conclusão fecha o raciocínio, não inaugura tema novo nem contradiz a tese.",
-      "Erro a evitar: Criar solução milagrosa, vaga ou desconectada dos argumentos.",
-      "Repertório útil: Ação institucional, prevenção, capacitação, fiscalização, tecnologia, transparência e educação cidadã.",
-      "Modelo operacional: Portanto, [retomada da tese]. Para tanto, [encaminhamento compatível], a fim de [resultado esperado]."
-    ],
-    "mapaMentalTextual": {
-      "centro": "Conclusão: fechamento, encaminhamento e proposta conforme a banca",
-      "ramos": [
-        {
-          "titulo": "Técnica",
-          "itens": [
-            "Portanto, [retomada da tese]. Para tanto, [encaminhamento compatível], a fim de [resultado esperado]."
-          ]
-        },
-        {
-          "titulo": "Erro comum",
-          "itens": [
-            "Criar solução milagrosa, vaga ou desconectada dos argumentos."
-          ]
-        },
-        {
-          "titulo": "Repertório",
-          "itens": [
-            "Ação institucional, prevenção, capacitação, fiscalização, tecnologia, transparência e educação cidadã."
-          ]
-        },
-        {
-          "titulo": "Critério de correção",
-          "itens": [
-            "tema",
-            "tese",
-            "argumento",
-            "coesão",
-            "norma-padrão"
-          ]
-        }
-      ]
+    "quadroDeDominio": {
+      "conceito": "Conclusão não deve trazer argumento novo; ela retoma a tese e mostra que o caminho defendido foi demonstrado.",
+      "limite": "Quando houver proposta, ela precisa indicar agente, ação, finalidade e limite de legalidade, sem prometer resultado absoluto.",
+      "aplicacao": "Boa conclusão: “Assim, a prevenção qualificada exige gestão baseada em dados, aproximação comunitária e atuação policial controlada por protocolos.”",
+      "erroFatal": "Encerrar com “conscientizar a população” sem agente ou mecanismo."
     },
+    "exemploComentado": "Boa conclusão: “Assim, a prevenção qualificada exige gestão baseada em dados, aproximação comunitária e atuação policial controlada por protocolos.”",
+    "pegadinhas": [
+      "Encerrar com “conscientizar a população” sem agente ou mecanismo.",
+      "Criar proposta que viola direitos fundamentais."
+    ],
+    "mapaMentalTexto": [
+      "Tema: Conclusão: fechamento consistente e medida institucional",
+      "Conceito: Conclusão não deve trazer argumento novo; ela retoma a tese e mostra que o caminho defendido foi demonstrado.",
+      "Aplicação: Boa conclusão: “Assim, a prevenção qualificada exige gestão baseada em dados, aproximação comunitária e atuação policial controlada por protocolos.”",
+      "Cuidado: Encerrar com “conscientizar a população” sem agente ou mecanismo."
+    ],
+    "comoEstudar": [
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
+    ],
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
+    ],
     "flashcards": [
       {
-        "frente": "O que é essencial em Fechamento textual?",
-        "verso": "A conclusão fecha o raciocínio, não inaugura tema novo nem contradiz a tese."
+        "id": "redacao-para-concursos-policiais-07-fc01",
+        "frente": "Qual é a ideia central de Conclusão: fechamento consistente e medida institucional?",
+        "verso": "Conclusão não deve trazer argumento novo; ela retoma a tese e mostra que o caminho defendido foi demonstrado.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Erro comum em Conclusão: fechamento, encaminhamento e proposta conforme a banca",
-        "verso": "Criar solução milagrosa, vaga ou desconectada dos argumentos."
+        "id": "redacao-para-concursos-policiais-07-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em fechamento do texto?",
+        "verso": "Quando houver proposta, ela precisa indicar agente, ação, finalidade e limite de legalidade, sem prometer resultado absoluto.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Repertório útil",
-        "verso": "Ação institucional, prevenção, capacitação, fiscalização, tecnologia, transparência e educação cidadã."
+        "id": "redacao-para-concursos-policiais-07-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Encerrar com “conscientizar a população” sem agente ou mecanismo.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Modelo operacional",
-        "verso": "Portanto, [retomada da tese]. Para tanto, [encaminhamento compatível], a fim de [resultado esperado]."
+        "id": "redacao-para-concursos-policiais-07-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Boa conclusão: “Assim, a prevenção qualificada exige gestão baseada em dados, aproximação comunitária e atuação policial controlada por protocolos.”",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": {
-      "iniciante": "escreve sem planejamento ou com tese vaga",
-      "intermediario": "planeja, mas ainda usa repertório pouco explicado",
-      "avancado": "responde ao tema com tese clara, argumento, repertório e coesão"
-    },
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "reescrever a tese e um tópico frasal"
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "produzir um parágrafo completo"
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "fazer simulado cronometrado e corrigir por rubrica"
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Atue como corretor de redação para concursos policiais. Corrija texto do aluno sobre Conclusão: fechamento, encaminhamento e proposta conforme a banca por rubrica, explique os erros e proponha reescrita.",
-      "naoFazer": [
-        "não inventar fatos",
-        "não estimular discurso violento ou discriminatório",
-        "não dar nota sem justificar"
-      ],
-      "feedbackEsperado": [
-        "tema",
-        "tese",
-        "argumentação",
-        "coesão",
-        "norma-padrão",
-        "reescrita"
-      ]
-    },
     "questoes": [
       {
-        "id": "conclusao-fechamento-encaminhamento-e-proposta-conforme-a-banca-q01",
+        "id": "redacao-para-concursos-policiais-07-q01",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Conclusão: fechamento, encaminhamento e proposta conforme a banca, assinale a alternativa correta.",
+        "enunciado": "Em relação a Conclusão: fechamento consistente e medida institucional, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A conclusão fecha o raciocínio, não inaugura tema novo nem contradiz a tese.",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "Conclusão não deve trazer argumento novo; ela retoma a tese e mostra que o caminho defendido foi demonstrado.",
+          "Encerrar com “conscientizar a população” sem agente ou mecanismo.",
+          "Criar proposta que viola direitos fundamentais.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: A conclusão fecha o raciocínio, não inaugura tema novo nem contradiz a tese.",
-        "armadilhaDaBanca": "Criar solução milagrosa, vaga ou desconectada dos argumentos.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A alternativa correta resume o núcleo do tema: Conclusão não deve trazer argumento novo; ela retoma a tese e mostra que o caminho defendido foi demonstrado."
       },
       {
-        "id": "conclusao-fechamento-encaminhamento-e-proposta-conforme-a-banca-q02",
+        "id": "redacao-para-concursos-policiais-07-q02",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: A conclusão fecha o raciocínio, não inaugura tema novo nem contradiz a tese.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "O item está correto porque reflete técnica de escrita para banca.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "Quando houver proposta, ela precisa indicar agente, ação, finalidade e limite de legalidade, sem prometer resultado absoluto.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de fechamento do texto."
       },
       {
-        "id": "conclusao-fechamento-encaminhamento-e-proposta-conforme-a-banca-q03",
+        "id": "redacao-para-concursos-policiais-07-q03",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: Em redação policial, basta defender opinião forte; estrutura, tese e coerência são secundárias.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "O item está errado: opinião sem estrutura, prova e coerência costuma reduzir a nota.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "Encerrar com “conscientizar a população” sem agente ou mecanismo.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "conclusao-fechamento-encaminhamento-e-proposta-conforme-a-banca-q04",
+        "id": "redacao-para-concursos-policiais-07-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Boa conclusão: “Assim, a prevenção qualificada exige gestão baseada em dados, aproximação comunitária e atuação policial controlada por protocolos.” Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Em tema policial, boas medidas incluem formação continuada, inteligência, integração de dados, controle interno e ações preventivas.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-07-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que fechamento do texto não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar conclusão não deve trazer argumento novo; ela retoma a tese e mostra que o caminho defendido foi demonstrado. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-07-q06",
+        "tipo": "comparativa",
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Conclusão não deve trazer argumento novo; ela retoma a tese e mostra que o caminho defendido foi demonstrado. Pegadinha: Encerrar com “conscientizar a população” sem agente ou mecanismo.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-07-q07",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Conclusão: fechamento, encaminhamento e proposta conforme a banca, assinale a alternativa correta.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "O melhor procedimento é: Portanto, [retomada da tese]. Para tanto, [encaminhamento compatível], a fim de [resultado esperado].",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "Em tema policial, boas medidas incluem formação continuada, inteligência, integração de dados, controle interno e ações preventivas.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Criar proposta que viola direitos fundamentais."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: A conclusão fecha o raciocínio, não inaugura tema novo nem contradiz a tese.",
-        "armadilhaDaBanca": "Criar solução milagrosa, vaga ou desconectada dos argumentos.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "conclusao-fechamento-encaminhamento-e-proposta-conforme-a-banca-q05",
-        "tipo": "analise_de_trecho",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Conclusão: fechamento, encaminhamento e proposta conforme a banca\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que A conclusão fecha o raciocínio, não inaugura tema novo nem contradiz a tese. Deve trazer Ação institucional, prevenção, capacitação, fiscalização, tecnologia, transparência e educação cidadã. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "conclusão",
-          "síntese",
-          "encaminhamento",
-          "proposta"
-        ],
-        "erroComum": "Criar solução milagrosa, vaga ou desconectada dos argumentos.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
+        "id": "redacao-para-concursos-policiais-07-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Criar proposta que viola direitos fundamentais.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "conclusao-fechamento-encaminhamento-e-proposta-conforme-a-banca-q06",
-        "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "dificil",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_incorreta",
-        "enunciado": "Sobre Conclusão: fechamento, encaminhamento e proposta conforme a banca, assinale a alternativa correta.",
-        "alternativas": [
-          "Criar solução milagrosa, vaga ou desconectada dos argumentos.",
-          "A conclusão fecha o raciocínio, não inaugura tema novo nem contradiz a tese.",
-          "Um repertório possível é: Ação institucional, prevenção, capacitação, fiscalização, tecnologia, transparência e educação cidadã.",
-          "A banca cobra: Concluir retomando a tese e entregando solução ou síntese conforme o edital.",
-          "A reescrita ajuda a corrigir vícios de estrutura."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: A conclusão fecha o raciocínio, não inaugura tema novo nem contradiz a tese.",
-        "armadilhaDaBanca": "Criar solução milagrosa, vaga ou desconectada dos argumentos.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "id": "redacao-para-concursos-policiais-07-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Conclusão: fechamento consistente e medida institucional a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Fechamento forte substitui frases genéricas por síntese precisa do raciocínio construído.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
       },
       {
-        "id": "conclusao-fechamento-encaminhamento-e-proposta-conforme-a-banca-q07",
-        "tipo": "planejamento_redacao",
-        "bancaEstilo": "Treino VemAprovar",
-        "nivel": "alto",
-        "eixoCognitivo": "planejamento",
-        "temaTreino": "Fechamento textual em concursos policiais",
-        "comando": "Monte um projeto de texto com tese, argumento 1, argumento 2 e conclusão.",
-        "respostaModelo": {
-          "tese": "A conclusão fecha o raciocínio, não inaugura tema novo nem contradiz a tese.",
-          "argumento1": "Causa ou fundamento: Ação institucional, prevenção, capacitação, fiscalização, tecnologia, transparência e educação cidadã..",
-          "argumento2": "Consequência prática para segurança pública, cidadania ou confiança institucional.",
-          "conclusao": "Fechamento coerente: Portanto, [retomada da tese]. Para tanto, [encaminhamento compatível], a fim de [resultado esperado]."
-        },
-        "criteriosCorrecao": [
-          "tese defensável",
-          "argumentos conectados",
-          "repertório pertinente",
-          "conclusão compatível"
-        ],
-        "diagnosticoIA": {
-          "acao": "Gerar feedback em rubrica e sugerir uma versão mais objetiva da tese."
-        }
-      },
-      {
-        "id": "conclusao-fechamento-encaminhamento-e-proposta-conforme-a-banca-q08",
-        "tipo": "resposta_aberta",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Conclusão: fechamento, encaminhamento e proposta conforme a banca\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que A conclusão fecha o raciocínio, não inaugura tema novo nem contradiz a tese. Deve trazer Ação institucional, prevenção, capacitação, fiscalização, tecnologia, transparência e educação cidadã. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "conclusão",
-          "síntese",
-          "encaminhamento",
-          "proposta"
-        ],
-        "erroComum": "Criar solução milagrosa, vaga ou desconectada dos argumentos.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
-      },
-      {
-        "id": "conclusao-fechamento-encaminhamento-e-proposta-conforme-a-banca-q09",
-        "tipo": "checklist_correcao",
-        "bancaEstilo": "Rubrica VemAprovar",
-        "nivel": "medio",
-        "eixoCognitivo": "autoavaliacao",
-        "comando": "Marque se o trecho produzido cumpre os critérios mínimos.",
-        "itens": [
-          {
-            "criterio": "Responde exatamente ao tema?",
-            "esperado": true
-          },
-          {
-            "criterio": "Tem tese ou ideia central clara?",
-            "esperado": true
-          },
-          {
-            "criterio": "Usa repertório explicado, não apenas citado?",
-            "esperado": true
-          },
-          {
-            "criterio": "Evita generalização, radicalismo e senso comum?",
-            "esperado": true
-          },
-          {
-            "criterio": "Mantém coesão e progressão?",
-            "esperado": true
-          }
-        ],
-        "respostaModelo": "A redação só deve avançar para versão final se todos os critérios forem atendidos ou reescritos.",
-        "diagnosticoIA": {
-          "acao": "Classificar o texto em pronto, precisa reescrever ou precisa refazer o projeto de texto."
-        }
-      },
-      {
-        "id": "conclusao-fechamento-encaminhamento-e-proposta-conforme-a-banca-q10",
-        "tipo": "treino_adaptativo_ia",
-        "bancaEstilo": "Tutor IA VemAprovar",
-        "nivel": "adaptativo",
-        "eixoCognitivo": "reescrita_orientada",
-        "promptTutorIA": "Corrija um trecho de redação do aluno sobre Conclusão: fechamento, encaminhamento e proposta conforme a banca. Aponte fuga ao tema, tese, repertório, coesão, norma-padrão e sugira reescrita objetiva.",
-        "criterioDominio": "Domina quando consegue planejar, escrever e reescrever o trecho sem fuga ao tema e com argumentação clara.",
-        "saidaEsperada": "Feedback por rubrica, nota estimada, três ajustes prioritários e versão reescrita do trecho."
+        "id": "redacao-para-concursos-policiais-07-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Conclusão não deve trazer argumento novo; ela retoma a tese e mostra que o caminho defendido foi demonstrado.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "qualidadeConteudo": {
-      "revisaoAutomaticaCampos": true,
-      "mcComGabaritoObrigatorio": true,
-      "flashcardsSemPlaceholder": true,
-      "dataRevisaoQualidade": "2026-07-07"
-    }
+    "proximoTitulo": "Repertórios seguros para segurança pública e direitos humanos"
   },
   {
-    "id": "repertorios-para-seguranca-publica-cidadania-e-direitos-humanos",
-    "materialTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "id": "repertorios-seguros-para-seguranca-publica-e-direitos-humanos",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas Municipais / Concursos Policiais",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 8,
     "totalChapters": 10,
-    "title": "Repertórios para segurança pública, cidadania e direitos humanos",
-    "assunto": "Repertório argumentativo",
-    "tecnica": "Escrita objetiva, leitura de comando, tese clara, repertório pertinente e reescrita por rubrica",
-    "competencia": "Usar repertório pertinente sem parecer decorado.",
-    "dificuldade": "Médio-alto",
-    "tempoLeituraMin": 9,
-    "tempoExercicioMin": 24,
+    "title": "Repertórios seguros para segurança pública e direitos humanos",
+    "assunto": "uso de referências sem decorar frases",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar uso de referências sem decorar frases com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
-      "FGV": 4,
-      "CESPE": 5,
+      "FGV": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
       "IBFC": 4,
       "AOCP": 4,
-      "OAB": 2,
-      "ENEM": 3
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "segurança pública",
-      "cidadania",
+      "repertório",
       "direitos humanos",
-      "prevenção"
+      "legalidade"
     ],
-    "fontesBase": [
-      "Técnica de redação dissertativo-argumentativa",
-      "Critérios usuais de correção discursiva em concursos",
-      "Temas de segurança pública e cidadania",
-      "Norma-padrão da Língua Portuguesa",
-      "Rubrica pedagógica VemAprovar"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
-    "precisaConferenciaOficialAntesDePublicar": false,
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
+    "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo ensina repertório argumentativo com foco em prova discursiva de concursos policiais. A redação não é um texto livre: ela precisa responder ao comando, demonstrar organização e sustentar uma tese com argumentos verificáveis.",
-      "O ponto central é: Repertório bom é aquele que explica o tema, respeita direitos fundamentais e fortalece a argumentação. Para isso, o candidato deve planejar antes de escrever, escolher repertório pertinente e explicar a relação entre o repertório e o problema proposto.",
-      "O erro mais comum é: Usar direitos humanos como frase de efeito ou como oposição simplista à segurança pública. Em redação policial, isso costuma gerar perda de nota porque o corretor avalia domínio do tema, progressão textual, equilíbrio argumentativo e uso adequado da norma-padrão."
+      "Repertórios seguros para segurança pública e direitos humanos exige domínio de uso de referências sem decorar frases. O estudo correto começa pela ideia de que repertório seguro é aquele que o candidato consegue demonstrar em função do tema, não apenas mencionar para parecer culto.",
+      "Constituição, cidadania, dignidade humana, eficiência administrativa e prevenção são eixos versáteis para concursos policiais. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Direitos humanos não enfraquecem segurança pública; delimitam a atuação legítima do Estado e protegem a credibilidade institucional. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Tecnologia, dados e inteligência precisam aparecer com controle, transparência e finalidade pública. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Repertório bom é aquele que explica o tema, respeita direitos fundamentais e fortalece a argumentação.",
-      "Erro a evitar: Usar direitos humanos como frase de efeito ou como oposição simplista à segurança pública.",
-      "Repertório útil: Constituição, art. 144, dignidade humana, legalidade, prevenção, polícia comunitária e controle social.",
-      "Modelo operacional: Segurança pública eficiente deve combinar prevenção, inteligência, respeito à legalidade e confiança social."
+      "Repertório seguro é aquele que o candidato consegue demonstrar em função do tema, não apenas mencionar para parecer culto.",
+      "Constituição, cidadania, dignidade humana, eficiência administrativa e prevenção são eixos versáteis para concursos policiais.",
+      "Direitos humanos não enfraquecem segurança pública; delimitam a atuação legítima do Estado e protegem a credibilidade institucional.",
+      "Tecnologia, dados e inteligência precisam aparecer com controle, transparência e finalidade pública."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a técnica central deste capítulo?",
-      "opcoes": [
-        "Usar direitos humanos como frase de efeito ou como oposição simplista à segurança pública.",
-        "Segurança pública eficiente deve combinar prevenção, inteligência, respeito à legalidade e confiança social.",
-        "escrever o máximo de linhas sem planejamento"
-      ],
-      "correta": 1,
-      "justificativa": "O modelo correto é: Segurança pública eficiente deve combinar prevenção, inteligência, respeito à legalidade e confiança social."
-    },
-    "oQueCobra": "Leitura de tema, projeto de texto, argumentação, coesão, repertório, norma-padrão e conclusão adequada.",
-    "precisaSaberAntes": "Interpretação de texto, pontuação básica, coesão e noções de segurança pública/cidadania.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta um tema amplo ou recortado e avalia se o candidato consegue defender uma ideia com clareza, equilíbrio e domínio da escrita formal."
+        "pergunta": "Qual é o núcleo de Repertórios seguros para segurança pública e direitos humanos?",
+        "resposta": "Repertório seguro é aquele que o candidato consegue demonstrar em função do tema, não apenas mencionar para parecer culto."
       },
       {
-        "titulo": "Como treinar",
-        "texto": "Faça primeiro o projeto de texto, depois escreva em tempo cronometrado e finalize reescrevendo os trechos mais fracos."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Tratar direitos humanos como obstáculo à polícia."
+      },
+      {
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Em tema sobre abordagem policial, repertório adequado envolve legalidade, fundada suspeita, proporcionalidade e treinamento para reduzir abusos."
       }
     ],
-    "comoIdentificar": "Procure a palavra central do tema, o verbo do comando e o limite do recorte. Depois transforme tudo em uma frase-tese.",
-    "pegadinhas": [
-      "Fuga ao tema",
-      "Tese genérica",
-      "Repertório citado sem análise",
-      "Conclusão vaga",
-      "Opinião radical sem fundamento"
-    ],
-    "resumoFrase": "Repertório bom é aquele que explica o tema, respeita direitos fundamentais e fortalece a argumentação.",
-    "proximoTitulo": "Temas fortes para concursos policiais e como argumentar com equilíbrio",
-    "padraoPlataforma": "VemAprovar Top1 — 10/10 Plus Revisado",
-    "versaoConteudo": "premium-18.0-redacao-policial-plus-revisado",
-    "statusRevisao": "revisado_com_validacao_de_gabarito_flashcards_e_campos",
-    "riscoAtualizacao": "baixo_medio",
-    "publicoAlvo": [
-      "PM",
-      "PC",
-      "PRF",
-      "Polícia Penal",
-      "Guardas Municipais",
-      "Concursos Militares"
-    ],
-    "areaPlataforma": "redacao_concursos_policiais",
-    "explicacaoComoSeTivesse12": "Pense na redação como uma construção. O tema é o terreno, a tese é a planta da casa, os argumentos são as paredes e a conclusão é o telhado. Se você muda de ideia no meio, a casa fica torta. Neste capítulo, a regra é: Segurança pública eficiente deve combinar prevenção, inteligência, respeito à legalidade e confiança social.",
-    "comoEstudar": [
-      "Leia o capítulo e escreva uma frase-tese.",
-      "Monte dois argumentos em tópicos.",
-      "Escreva um parágrafo em 8 minutos.",
-      "Corrija pela rubrica.",
-      "Reescreva o trecho mais fraco."
-    ],
-    "paraNaoEsquecer": [
-      "Repertório bom é aquele que explica o tema, respeita direitos fundamentais e fortalece a argumentação.",
-      "Erro a evitar: Usar direitos humanos como frase de efeito ou como oposição simplista à segurança pública.",
-      "Repertório útil: Constituição, art. 144, dignidade humana, legalidade, prevenção, polícia comunitária e controle social.",
-      "Modelo operacional: Segurança pública eficiente deve combinar prevenção, inteligência, respeito à legalidade e confiança social."
-    ],
-    "mapaMentalTextual": {
-      "centro": "Repertórios para segurança pública, cidadania e direitos humanos",
-      "ramos": [
-        {
-          "titulo": "Técnica",
-          "itens": [
-            "Segurança pública eficiente deve combinar prevenção, inteligência, respeito à legalidade e confiança social."
-          ]
-        },
-        {
-          "titulo": "Erro comum",
-          "itens": [
-            "Usar direitos humanos como frase de efeito ou como oposição simplista à segurança pública."
-          ]
-        },
-        {
-          "titulo": "Repertório",
-          "itens": [
-            "Constituição, art. 144, dignidade humana, legalidade, prevenção, polícia comunitária e controle social."
-          ]
-        },
-        {
-          "titulo": "Critério de correção",
-          "itens": [
-            "tema",
-            "tese",
-            "argumento",
-            "coesão",
-            "norma-padrão"
-          ]
-        }
-      ]
+    "quadroDeDominio": {
+      "conceito": "Repertório seguro é aquele que o candidato consegue demonstrar em função do tema, não apenas mencionar para parecer culto.",
+      "limite": "Constituição, cidadania, dignidade humana, eficiência administrativa e prevenção são eixos versáteis para concursos policiais.",
+      "aplicacao": "Em tema sobre abordagem policial, repertório adequado envolve legalidade, fundada suspeita, proporcionalidade e treinamento para reduzir abusos.",
+      "erroFatal": "Tratar direitos humanos como obstáculo à polícia."
     },
+    "exemploComentado": "Em tema sobre abordagem policial, repertório adequado envolve legalidade, fundada suspeita, proporcionalidade e treinamento para reduzir abusos.",
+    "pegadinhas": [
+      "Tratar direitos humanos como obstáculo à polícia.",
+      "Usar repertório histórico sem ligação com o problema atual."
+    ],
+    "mapaMentalTexto": [
+      "Tema: Repertórios seguros para segurança pública e direitos humanos",
+      "Conceito: Repertório seguro é aquele que o candidato consegue demonstrar em função do tema, não apenas mencionar para parecer culto.",
+      "Aplicação: Em tema sobre abordagem policial, repertório adequado envolve legalidade, fundada suspeita, proporcionalidade e treinamento para reduzir abusos.",
+      "Cuidado: Tratar direitos humanos como obstáculo à polícia."
+    ],
+    "comoEstudar": [
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
+    ],
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
+    ],
     "flashcards": [
       {
-        "frente": "O que é essencial em Repertório argumentativo?",
-        "verso": "Repertório bom é aquele que explica o tema, respeita direitos fundamentais e fortalece a argumentação."
+        "id": "redacao-para-concursos-policiais-08-fc01",
+        "frente": "Qual é a ideia central de Repertórios seguros para segurança pública e direitos humanos?",
+        "verso": "Repertório seguro é aquele que o candidato consegue demonstrar em função do tema, não apenas mencionar para parecer culto.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Erro comum em Repertórios para segurança pública, cidadania e direitos humanos",
-        "verso": "Usar direitos humanos como frase de efeito ou como oposição simplista à segurança pública."
+        "id": "redacao-para-concursos-policiais-08-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em uso de referências sem decorar frases?",
+        "verso": "Constituição, cidadania, dignidade humana, eficiência administrativa e prevenção são eixos versáteis para concursos policiais.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Repertório útil",
-        "verso": "Constituição, art. 144, dignidade humana, legalidade, prevenção, polícia comunitária e controle social."
+        "id": "redacao-para-concursos-policiais-08-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Tratar direitos humanos como obstáculo à polícia.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Modelo operacional",
-        "verso": "Segurança pública eficiente deve combinar prevenção, inteligência, respeito à legalidade e confiança social."
+        "id": "redacao-para-concursos-policiais-08-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Em tema sobre abordagem policial, repertório adequado envolve legalidade, fundada suspeita, proporcionalidade e treinamento para reduzir abusos.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": {
-      "iniciante": "escreve sem planejamento ou com tese vaga",
-      "intermediario": "planeja, mas ainda usa repertório pouco explicado",
-      "avancado": "responde ao tema com tese clara, argumento, repertório e coesão"
-    },
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "reescrever a tese e um tópico frasal"
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "produzir um parágrafo completo"
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "fazer simulado cronometrado e corrigir por rubrica"
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Atue como corretor de redação para concursos policiais. Corrija texto do aluno sobre Repertórios para segurança pública, cidadania e direitos humanos por rubrica, explique os erros e proponha reescrita.",
-      "naoFazer": [
-        "não inventar fatos",
-        "não estimular discurso violento ou discriminatório",
-        "não dar nota sem justificar"
-      ],
-      "feedbackEsperado": [
-        "tema",
-        "tese",
-        "argumentação",
-        "coesão",
-        "norma-padrão",
-        "reescrita"
-      ]
-    },
     "questoes": [
       {
-        "id": "repertorios-para-seguranca-publica-cidadania-e-direitos-humanos-q01",
+        "id": "redacao-para-concursos-policiais-08-q01",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Repertórios para segurança pública, cidadania e direitos humanos, assinale a alternativa correta.",
+        "enunciado": "Em relação a Repertórios seguros para segurança pública e direitos humanos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Repertório bom é aquele que explica o tema, respeita direitos fundamentais e fortalece a argumentação.",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "Repertório seguro é aquele que o candidato consegue demonstrar em função do tema, não apenas mencionar para parecer culto.",
+          "Tratar direitos humanos como obstáculo à polícia.",
+          "Usar repertório histórico sem ligação com o problema atual.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: Repertório bom é aquele que explica o tema, respeita direitos fundamentais e fortalece a argumentação.",
-        "armadilhaDaBanca": "Usar direitos humanos como frase de efeito ou como oposição simplista à segurança pública.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A alternativa correta resume o núcleo do tema: Repertório seguro é aquele que o candidato consegue demonstrar em função do tema, não apenas mencionar para parecer culto."
       },
       {
-        "id": "repertorios-para-seguranca-publica-cidadania-e-direitos-humanos-q02",
+        "id": "redacao-para-concursos-policiais-08-q02",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: Repertório bom é aquele que explica o tema, respeita direitos fundamentais e fortalece a argumentação.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "O item está correto porque reflete técnica de escrita para banca.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "Constituição, cidadania, dignidade humana, eficiência administrativa e prevenção são eixos versáteis para concursos policiais.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de uso de referências sem decorar frases."
       },
       {
-        "id": "repertorios-para-seguranca-publica-cidadania-e-direitos-humanos-q03",
+        "id": "redacao-para-concursos-policiais-08-q03",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: Em redação policial, basta defender opinião forte; estrutura, tese e coerência são secundárias.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "O item está errado: opinião sem estrutura, prova e coerência costuma reduzir a nota.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "Tratar direitos humanos como obstáculo à polícia.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "repertorios-para-seguranca-publica-cidadania-e-direitos-humanos-q04",
+        "id": "redacao-para-concursos-policiais-08-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Em tema sobre abordagem policial, repertório adequado envolve legalidade, fundada suspeita, proporcionalidade e treinamento para reduzir abusos. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Direitos humanos não enfraquecem segurança pública; delimitam a atuação legítima do Estado e protegem a credibilidade institucional.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-08-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que uso de referências sem decorar frases não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar repertório seguro é aquele que o candidato consegue demonstrar em função do tema, não apenas mencionar para parecer culto. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-08-q06",
+        "tipo": "comparativa",
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Repertório seguro é aquele que o candidato consegue demonstrar em função do tema, não apenas mencionar para parecer culto. Pegadinha: Tratar direitos humanos como obstáculo à polícia.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-08-q07",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Repertórios para segurança pública, cidadania e direitos humanos, assinale a alternativa correta.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "O melhor procedimento é: Segurança pública eficiente deve combinar prevenção, inteligência, respeito à legalidade e confiança social.",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "Direitos humanos não enfraquecem segurança pública; delimitam a atuação legítima do Estado e protegem a credibilidade institucional.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Usar repertório histórico sem ligação com o problema atual."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: Repertório bom é aquele que explica o tema, respeita direitos fundamentais e fortalece a argumentação.",
-        "armadilhaDaBanca": "Usar direitos humanos como frase de efeito ou como oposição simplista à segurança pública.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "repertorios-para-seguranca-publica-cidadania-e-direitos-humanos-q05",
-        "tipo": "analise_de_trecho",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Repertórios para segurança pública, cidadania e direitos humanos\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que Repertório bom é aquele que explica o tema, respeita direitos fundamentais e fortalece a argumentação. Deve trazer Constituição, art. 144, dignidade humana, legalidade, prevenção, polícia comunitária e controle social. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "segurança pública",
-          "cidadania",
-          "direitos humanos",
-          "prevenção"
-        ],
-        "erroComum": "Usar direitos humanos como frase de efeito ou como oposição simplista à segurança pública.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
+        "id": "redacao-para-concursos-policiais-08-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Usar repertório histórico sem ligação com o problema atual.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "repertorios-para-seguranca-publica-cidadania-e-direitos-humanos-q06",
-        "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "dificil",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_incorreta",
-        "enunciado": "Sobre Repertórios para segurança pública, cidadania e direitos humanos, assinale a alternativa correta.",
-        "alternativas": [
-          "Usar direitos humanos como frase de efeito ou como oposição simplista à segurança pública.",
-          "Repertório bom é aquele que explica o tema, respeita direitos fundamentais e fortalece a argumentação.",
-          "Um repertório possível é: Constituição, art. 144, dignidade humana, legalidade, prevenção, polícia comunitária e controle social.",
-          "A banca cobra: Usar repertório pertinente sem parecer decorado.",
-          "A reescrita ajuda a corrigir vícios de estrutura."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: Repertório bom é aquele que explica o tema, respeita direitos fundamentais e fortalece a argumentação.",
-        "armadilhaDaBanca": "Usar direitos humanos como frase de efeito ou como oposição simplista à segurança pública.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "id": "redacao-para-concursos-policiais-08-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Repertórios seguros para segurança pública e direitos humanos a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Tecnologia, dados e inteligência precisam aparecer com controle, transparência e finalidade pública.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
       },
       {
-        "id": "repertorios-para-seguranca-publica-cidadania-e-direitos-humanos-q07",
-        "tipo": "planejamento_redacao",
-        "bancaEstilo": "Treino VemAprovar",
-        "nivel": "alto",
-        "eixoCognitivo": "planejamento",
-        "temaTreino": "Repertório argumentativo em concursos policiais",
-        "comando": "Monte um projeto de texto com tese, argumento 1, argumento 2 e conclusão.",
-        "respostaModelo": {
-          "tese": "Repertório bom é aquele que explica o tema, respeita direitos fundamentais e fortalece a argumentação.",
-          "argumento1": "Causa ou fundamento: Constituição, art. 144, dignidade humana, legalidade, prevenção, polícia comunitária e controle social..",
-          "argumento2": "Consequência prática para segurança pública, cidadania ou confiança institucional.",
-          "conclusao": "Fechamento coerente: Segurança pública eficiente deve combinar prevenção, inteligência, respeito à legalidade e confiança social."
-        },
-        "criteriosCorrecao": [
-          "tese defensável",
-          "argumentos conectados",
-          "repertório pertinente",
-          "conclusão compatível"
-        ],
-        "diagnosticoIA": {
-          "acao": "Gerar feedback em rubrica e sugerir uma versão mais objetiva da tese."
-        }
-      },
-      {
-        "id": "repertorios-para-seguranca-publica-cidadania-e-direitos-humanos-q08",
-        "tipo": "resposta_aberta",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Repertórios para segurança pública, cidadania e direitos humanos\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que Repertório bom é aquele que explica o tema, respeita direitos fundamentais e fortalece a argumentação. Deve trazer Constituição, art. 144, dignidade humana, legalidade, prevenção, polícia comunitária e controle social. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "segurança pública",
-          "cidadania",
-          "direitos humanos",
-          "prevenção"
-        ],
-        "erroComum": "Usar direitos humanos como frase de efeito ou como oposição simplista à segurança pública.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
-      },
-      {
-        "id": "repertorios-para-seguranca-publica-cidadania-e-direitos-humanos-q09",
-        "tipo": "checklist_correcao",
-        "bancaEstilo": "Rubrica VemAprovar",
-        "nivel": "medio",
-        "eixoCognitivo": "autoavaliacao",
-        "comando": "Marque se o trecho produzido cumpre os critérios mínimos.",
-        "itens": [
-          {
-            "criterio": "Responde exatamente ao tema?",
-            "esperado": true
-          },
-          {
-            "criterio": "Tem tese ou ideia central clara?",
-            "esperado": true
-          },
-          {
-            "criterio": "Usa repertório explicado, não apenas citado?",
-            "esperado": true
-          },
-          {
-            "criterio": "Evita generalização, radicalismo e senso comum?",
-            "esperado": true
-          },
-          {
-            "criterio": "Mantém coesão e progressão?",
-            "esperado": true
-          }
-        ],
-        "respostaModelo": "A redação só deve avançar para versão final se todos os critérios forem atendidos ou reescritos.",
-        "diagnosticoIA": {
-          "acao": "Classificar o texto em pronto, precisa reescrever ou precisa refazer o projeto de texto."
-        }
-      },
-      {
-        "id": "repertorios-para-seguranca-publica-cidadania-e-direitos-humanos-q10",
-        "tipo": "treino_adaptativo_ia",
-        "bancaEstilo": "Tutor IA VemAprovar",
-        "nivel": "adaptativo",
-        "eixoCognitivo": "reescrita_orientada",
-        "promptTutorIA": "Corrija um trecho de redação do aluno sobre Repertórios para segurança pública, cidadania e direitos humanos. Aponte fuga ao tema, tese, repertório, coesão, norma-padrão e sugira reescrita objetiva.",
-        "criterioDominio": "Domina quando consegue planejar, escrever e reescrever o trecho sem fuga ao tema e com argumentação clara.",
-        "saidaEsperada": "Feedback por rubrica, nota estimada, três ajustes prioritários e versão reescrita do trecho."
+        "id": "redacao-para-concursos-policiais-08-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Repertório seguro é aquele que o candidato consegue demonstrar em função do tema, não apenas mencionar para parecer culto.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "qualidadeConteudo": {
-      "revisaoAutomaticaCampos": true,
-      "mcComGabaritoObrigatorio": true,
-      "flashcardsSemPlaceholder": true,
-      "dataRevisaoQualidade": "2026-07-07"
-    }
+    "proximoTitulo": "Temas prováveis e matriz de argumentos policiais"
   },
   {
-    "id": "temas-fortes-para-concursos-policiais-e-como-argumentar-com-equilibrio",
-    "materialTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "id": "temas-provaveis-e-matriz-de-argumentos-policiais",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas Municipais / Concursos Policiais",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 9,
     "totalChapters": 10,
-    "title": "Temas fortes para concursos policiais e como argumentar com equilíbrio",
-    "assunto": "Banco de temas",
-    "tecnica": "Escrita objetiva, leitura de comando, tese clara, repertório pertinente e reescrita por rubrica",
-    "competencia": "Preparar argumentos para temas prováveis sem cair em opinião radical.",
-    "dificuldade": "Médio-alto",
-    "tempoLeituraMin": 9,
-    "tempoExercicioMin": 24,
+    "title": "Temas prováveis e matriz de argumentos policiais",
+    "assunto": "preparação temática",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar preparação temática com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
-      "FGV": 4,
-      "CESPE": 5,
+      "FGV": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
       "IBFC": 4,
       "AOCP": 4,
-      "OAB": 2,
-      "ENEM": 3
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "violência urbana",
-      "tecnologia",
-      "polícia comunitária",
-      "prevenção criminal"
+      "temas",
+      "matriz",
+      "prevenção"
     ],
-    "fontesBase": [
-      "Técnica de redação dissertativo-argumentativa",
-      "Critérios usuais de correção discursiva em concursos",
-      "Temas de segurança pública e cidadania",
-      "Norma-padrão da Língua Portuguesa",
-      "Rubrica pedagógica VemAprovar"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
-    "precisaConferenciaOficialAntesDePublicar": false,
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
+    "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo ensina banco de temas com foco em prova discursiva de concursos policiais. A redação não é um texto livre: ela precisa responder ao comando, demonstrar organização e sustentar uma tese com argumentos verificáveis.",
-      "O ponto central é: Temas policiais exigem equilíbrio entre eficiência estatal, legalidade, prevenção e proteção de direitos. Para isso, o candidato deve planejar antes de escrever, escolher repertório pertinente e explicar a relação entre o repertório e o problema proposto.",
-      "O erro mais comum é: Responder com senso comum punitivista ou com discurso abstrato sem política pública. Em redação policial, isso costuma gerar perda de nota porque o corretor avalia domínio do tema, progressão textual, equilíbrio argumentativo e uso adequado da norma-padrão."
+      "Temas prováveis e matriz de argumentos policiais exige domínio de preparação temática. O estudo correto começa pela ideia de que temas policiais costumam girar em torno de prevenção, violência urbana, juventude, tecnologia, confiança institucional e controle da atividade estatal.",
+      "A matriz causa-consequência-solução permite adaptar repertórios sem decorar redações prontas. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Para cada tema, o aluno deve preparar uma causa estrutural, uma falha de gestão e uma medida institucional realista. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "A resposta madura evita soluções únicas: segurança pública envolve polícia, justiça, assistência, educação, urbanismo e dados. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Temas policiais exigem equilíbrio entre eficiência estatal, legalidade, prevenção e proteção de direitos.",
-      "Erro a evitar: Responder com senso comum punitivista ou com discurso abstrato sem política pública.",
-      "Repertório útil: Violência contra grupos vulneráveis, facções, drogas, tecnologia, fronteiras, trânsito, escolas e juventude.",
-      "Modelo operacional: Problema + causa estrutural + resposta institucional + limite constitucional."
+      "Temas policiais costumam girar em torno de prevenção, violência urbana, juventude, tecnologia, confiança institucional e controle da atividade estatal.",
+      "A matriz causa-consequência-solução permite adaptar repertórios sem decorar redações prontas.",
+      "Para cada tema, o aluno deve preparar uma causa estrutural, uma falha de gestão e uma medida institucional realista.",
+      "A resposta madura evita soluções únicas: segurança pública envolve polícia, justiça, assistência, educação, urbanismo e dados."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a técnica central deste capítulo?",
-      "opcoes": [
-        "Responder com senso comum punitivista ou com discurso abstrato sem política pública.",
-        "Problema + causa estrutural + resposta institucional + limite constitucional.",
-        "escrever o máximo de linhas sem planejamento"
-      ],
-      "correta": 1,
-      "justificativa": "O modelo correto é: Problema + causa estrutural + resposta institucional + limite constitucional."
-    },
-    "oQueCobra": "Leitura de tema, projeto de texto, argumentação, coesão, repertório, norma-padrão e conclusão adequada.",
-    "precisaSaberAntes": "Interpretação de texto, pontuação básica, coesão e noções de segurança pública/cidadania.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta um tema amplo ou recortado e avalia se o candidato consegue defender uma ideia com clareza, equilíbrio e domínio da escrita formal."
+        "pergunta": "Qual é o núcleo de Temas prováveis e matriz de argumentos policiais?",
+        "resposta": "Temas policiais costumam girar em torno de prevenção, violência urbana, juventude, tecnologia, confiança institucional e controle da atividade estatal."
       },
       {
-        "titulo": "Como treinar",
-        "texto": "Faça primeiro o projeto de texto, depois escreva em tempo cronometrado e finalize reescrevendo os trechos mais fracos."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Decorar texto pronto e tentar encaixar em qualquer tema."
+      },
+      {
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Tema “facções e juventude”: discutir vulnerabilidade social, recrutamento, inteligência policial, escola, família e oportunidades locais."
       }
     ],
-    "comoIdentificar": "Procure a palavra central do tema, o verbo do comando e o limite do recorte. Depois transforme tudo em uma frase-tese.",
-    "pegadinhas": [
-      "Fuga ao tema",
-      "Tese genérica",
-      "Repertório citado sem análise",
-      "Conclusão vaga",
-      "Opinião radical sem fundamento"
-    ],
-    "resumoFrase": "Temas policiais exigem equilíbrio entre eficiência estatal, legalidade, prevenção e proteção de direitos.",
-    "proximoTitulo": "Correção por rubrica, reescrita, caderno de erros e simulado final",
-    "padraoPlataforma": "VemAprovar Top1 — 10/10 Plus Revisado",
-    "versaoConteudo": "premium-18.0-redacao-policial-plus-revisado",
-    "statusRevisao": "revisado_com_validacao_de_gabarito_flashcards_e_campos",
-    "riscoAtualizacao": "baixo_medio",
-    "publicoAlvo": [
-      "PM",
-      "PC",
-      "PRF",
-      "Polícia Penal",
-      "Guardas Municipais",
-      "Concursos Militares"
-    ],
-    "areaPlataforma": "redacao_concursos_policiais",
-    "explicacaoComoSeTivesse12": "Pense na redação como uma construção. O tema é o terreno, a tese é a planta da casa, os argumentos são as paredes e a conclusão é o telhado. Se você muda de ideia no meio, a casa fica torta. Neste capítulo, a regra é: Problema + causa estrutural + resposta institucional + limite constitucional.",
-    "comoEstudar": [
-      "Leia o capítulo e escreva uma frase-tese.",
-      "Monte dois argumentos em tópicos.",
-      "Escreva um parágrafo em 8 minutos.",
-      "Corrija pela rubrica.",
-      "Reescreva o trecho mais fraco."
-    ],
-    "paraNaoEsquecer": [
-      "Temas policiais exigem equilíbrio entre eficiência estatal, legalidade, prevenção e proteção de direitos.",
-      "Erro a evitar: Responder com senso comum punitivista ou com discurso abstrato sem política pública.",
-      "Repertório útil: Violência contra grupos vulneráveis, facções, drogas, tecnologia, fronteiras, trânsito, escolas e juventude.",
-      "Modelo operacional: Problema + causa estrutural + resposta institucional + limite constitucional."
-    ],
-    "mapaMentalTextual": {
-      "centro": "Temas fortes para concursos policiais e como argumentar com equilíbrio",
-      "ramos": [
-        {
-          "titulo": "Técnica",
-          "itens": [
-            "Problema + causa estrutural + resposta institucional + limite constitucional."
-          ]
-        },
-        {
-          "titulo": "Erro comum",
-          "itens": [
-            "Responder com senso comum punitivista ou com discurso abstrato sem política pública."
-          ]
-        },
-        {
-          "titulo": "Repertório",
-          "itens": [
-            "Violência contra grupos vulneráveis, facções, drogas, tecnologia, fronteiras, trânsito, escolas e juventude."
-          ]
-        },
-        {
-          "titulo": "Critério de correção",
-          "itens": [
-            "tema",
-            "tese",
-            "argumento",
-            "coesão",
-            "norma-padrão"
-          ]
-        }
-      ]
+    "quadroDeDominio": {
+      "conceito": "Temas policiais costumam girar em torno de prevenção, violência urbana, juventude, tecnologia, confiança institucional e controle da atividade estatal.",
+      "limite": "A matriz causa-consequência-solução permite adaptar repertórios sem decorar redações prontas.",
+      "aplicacao": "Tema “facções e juventude”: discutir vulnerabilidade social, recrutamento, inteligência policial, escola, família e oportunidades locais.",
+      "erroFatal": "Decorar texto pronto e tentar encaixar em qualquer tema."
     },
+    "exemploComentado": "Tema “facções e juventude”: discutir vulnerabilidade social, recrutamento, inteligência policial, escola, família e oportunidades locais.",
+    "pegadinhas": [
+      "Decorar texto pronto e tentar encaixar em qualquer tema.",
+      "Responder tema complexo com “mais policiamento” sem demonstrar estratégia."
+    ],
+    "mapaMentalTexto": [
+      "Tema: Temas prováveis e matriz de argumentos policiais",
+      "Conceito: Temas policiais costumam girar em torno de prevenção, violência urbana, juventude, tecnologia, confiança institucional e controle da atividade estatal.",
+      "Aplicação: Tema “facções e juventude”: discutir vulnerabilidade social, recrutamento, inteligência policial, escola, família e oportunidades locais.",
+      "Cuidado: Decorar texto pronto e tentar encaixar em qualquer tema."
+    ],
+    "comoEstudar": [
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
+    ],
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
+    ],
     "flashcards": [
       {
-        "frente": "O que é essencial em Banco de temas?",
-        "verso": "Temas policiais exigem equilíbrio entre eficiência estatal, legalidade, prevenção e proteção de direitos."
+        "id": "redacao-para-concursos-policiais-09-fc01",
+        "frente": "Qual é a ideia central de Temas prováveis e matriz de argumentos policiais?",
+        "verso": "Temas policiais costumam girar em torno de prevenção, violência urbana, juventude, tecnologia, confiança institucional e controle da atividade estatal.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Erro comum em Temas fortes para concursos policiais e como argumentar com equilíbrio",
-        "verso": "Responder com senso comum punitivista ou com discurso abstrato sem política pública."
+        "id": "redacao-para-concursos-policiais-09-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em preparação temática?",
+        "verso": "A matriz causa-consequência-solução permite adaptar repertórios sem decorar redações prontas.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Repertório útil",
-        "verso": "Violência contra grupos vulneráveis, facções, drogas, tecnologia, fronteiras, trânsito, escolas e juventude."
+        "id": "redacao-para-concursos-policiais-09-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Decorar texto pronto e tentar encaixar em qualquer tema.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Modelo operacional",
-        "verso": "Problema + causa estrutural + resposta institucional + limite constitucional."
+        "id": "redacao-para-concursos-policiais-09-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Tema “facções e juventude”: discutir vulnerabilidade social, recrutamento, inteligência policial, escola, família e oportunidades locais.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": {
-      "iniciante": "escreve sem planejamento ou com tese vaga",
-      "intermediario": "planeja, mas ainda usa repertório pouco explicado",
-      "avancado": "responde ao tema com tese clara, argumento, repertório e coesão"
-    },
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "reescrever a tese e um tópico frasal"
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "produzir um parágrafo completo"
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "fazer simulado cronometrado e corrigir por rubrica"
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Atue como corretor de redação para concursos policiais. Corrija texto do aluno sobre Temas fortes para concursos policiais e como argumentar com equilíbrio por rubrica, explique os erros e proponha reescrita.",
-      "naoFazer": [
-        "não inventar fatos",
-        "não estimular discurso violento ou discriminatório",
-        "não dar nota sem justificar"
-      ],
-      "feedbackEsperado": [
-        "tema",
-        "tese",
-        "argumentação",
-        "coesão",
-        "norma-padrão",
-        "reescrita"
-      ]
-    },
     "questoes": [
       {
-        "id": "temas-fortes-para-concursos-policiais-e-como-argumentar-com-equilibrio-q01",
+        "id": "redacao-para-concursos-policiais-09-q01",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Temas fortes para concursos policiais e como argumentar com equilíbrio, assinale a alternativa correta.",
+        "enunciado": "Em relação a Temas prováveis e matriz de argumentos policiais, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Temas policiais exigem equilíbrio entre eficiência estatal, legalidade, prevenção e proteção de direitos.",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "Temas policiais costumam girar em torno de prevenção, violência urbana, juventude, tecnologia, confiança institucional e controle da atividade estatal.",
+          "Decorar texto pronto e tentar encaixar em qualquer tema.",
+          "Responder tema complexo com “mais policiamento” sem demonstrar estratégia.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: Temas policiais exigem equilíbrio entre eficiência estatal, legalidade, prevenção e proteção de direitos.",
-        "armadilhaDaBanca": "Responder com senso comum punitivista ou com discurso abstrato sem política pública.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A alternativa correta resume o núcleo do tema: Temas policiais costumam girar em torno de prevenção, violência urbana, juventude, tecnologia, confiança institucional e controle da atividade estatal."
       },
       {
-        "id": "temas-fortes-para-concursos-policiais-e-como-argumentar-com-equilibrio-q02",
+        "id": "redacao-para-concursos-policiais-09-q02",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: Temas policiais exigem equilíbrio entre eficiência estatal, legalidade, prevenção e proteção de direitos.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "O item está correto porque reflete técnica de escrita para banca.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "A matriz causa-consequência-solução permite adaptar repertórios sem decorar redações prontas.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de preparação temática."
       },
       {
-        "id": "temas-fortes-para-concursos-policiais-e-como-argumentar-com-equilibrio-q03",
+        "id": "redacao-para-concursos-policiais-09-q03",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: Em redação policial, basta defender opinião forte; estrutura, tese e coerência são secundárias.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "O item está errado: opinião sem estrutura, prova e coerência costuma reduzir a nota.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "Decorar texto pronto e tentar encaixar em qualquer tema.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "temas-fortes-para-concursos-policiais-e-como-argumentar-com-equilibrio-q04",
+        "id": "redacao-para-concursos-policiais-09-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Tema “facções e juventude”: discutir vulnerabilidade social, recrutamento, inteligência policial, escola, família e oportunidades locais. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Para cada tema, o aluno deve preparar uma causa estrutural, uma falha de gestão e uma medida institucional realista.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-09-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que preparação temática não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar temas policiais costumam girar em torno de prevenção, violência urbana, juventude, tecnologia, confiança institucional e controle da atividade estatal. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-09-q06",
+        "tipo": "comparativa",
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Temas policiais costumam girar em torno de prevenção, violência urbana, juventude, tecnologia, confiança institucional e controle da atividade estatal. Pegadinha: Decorar texto pronto e tentar encaixar em qualquer tema.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-09-q07",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Temas fortes para concursos policiais e como argumentar com equilíbrio, assinale a alternativa correta.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "O melhor procedimento é: Problema + causa estrutural + resposta institucional + limite constitucional.",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "Para cada tema, o aluno deve preparar uma causa estrutural, uma falha de gestão e uma medida institucional realista.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Responder tema complexo com “mais policiamento” sem demonstrar estratégia."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: Temas policiais exigem equilíbrio entre eficiência estatal, legalidade, prevenção e proteção de direitos.",
-        "armadilhaDaBanca": "Responder com senso comum punitivista ou com discurso abstrato sem política pública.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "temas-fortes-para-concursos-policiais-e-como-argumentar-com-equilibrio-q05",
-        "tipo": "analise_de_trecho",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Temas fortes para concursos policiais e como argumentar com equilíbrio\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que Temas policiais exigem equilíbrio entre eficiência estatal, legalidade, prevenção e proteção de direitos. Deve trazer Violência contra grupos vulneráveis, facções, drogas, tecnologia, fronteiras, trânsito, escolas e juventude. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "violência urbana",
-          "tecnologia",
-          "polícia comunitária",
-          "prevenção criminal"
-        ],
-        "erroComum": "Responder com senso comum punitivista ou com discurso abstrato sem política pública.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
+        "id": "redacao-para-concursos-policiais-09-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Responder tema complexo com “mais policiamento” sem demonstrar estratégia.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "temas-fortes-para-concursos-policiais-e-como-argumentar-com-equilibrio-q06",
-        "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "dificil",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_incorreta",
-        "enunciado": "Sobre Temas fortes para concursos policiais e como argumentar com equilíbrio, assinale a alternativa correta.",
-        "alternativas": [
-          "Responder com senso comum punitivista ou com discurso abstrato sem política pública.",
-          "Temas policiais exigem equilíbrio entre eficiência estatal, legalidade, prevenção e proteção de direitos.",
-          "Um repertório possível é: Violência contra grupos vulneráveis, facções, drogas, tecnologia, fronteiras, trânsito, escolas e juventude.",
-          "A banca cobra: Preparar argumentos para temas prováveis sem cair em opinião radical.",
-          "A reescrita ajuda a corrigir vícios de estrutura."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: Temas policiais exigem equilíbrio entre eficiência estatal, legalidade, prevenção e proteção de direitos.",
-        "armadilhaDaBanca": "Responder com senso comum punitivista ou com discurso abstrato sem política pública.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "id": "redacao-para-concursos-policiais-09-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Temas prováveis e matriz de argumentos policiais a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: A resposta madura evita soluções únicas: segurança pública envolve polícia, justiça, assistência, educação, urbanismo e dados.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
       },
       {
-        "id": "temas-fortes-para-concursos-policiais-e-como-argumentar-com-equilibrio-q07",
-        "tipo": "planejamento_redacao",
-        "bancaEstilo": "Treino VemAprovar",
-        "nivel": "alto",
-        "eixoCognitivo": "planejamento",
-        "temaTreino": "Banco de temas em concursos policiais",
-        "comando": "Monte um projeto de texto com tese, argumento 1, argumento 2 e conclusão.",
-        "respostaModelo": {
-          "tese": "Temas policiais exigem equilíbrio entre eficiência estatal, legalidade, prevenção e proteção de direitos.",
-          "argumento1": "Causa ou fundamento: Violência contra grupos vulneráveis, facções, drogas, tecnologia, fronteiras, trânsito, escolas e juventude..",
-          "argumento2": "Consequência prática para segurança pública, cidadania ou confiança institucional.",
-          "conclusao": "Fechamento coerente: Problema + causa estrutural + resposta institucional + limite constitucional."
-        },
-        "criteriosCorrecao": [
-          "tese defensável",
-          "argumentos conectados",
-          "repertório pertinente",
-          "conclusão compatível"
-        ],
-        "diagnosticoIA": {
-          "acao": "Gerar feedback em rubrica e sugerir uma versão mais objetiva da tese."
-        }
-      },
-      {
-        "id": "temas-fortes-para-concursos-policiais-e-como-argumentar-com-equilibrio-q08",
-        "tipo": "resposta_aberta",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Temas fortes para concursos policiais e como argumentar com equilíbrio\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que Temas policiais exigem equilíbrio entre eficiência estatal, legalidade, prevenção e proteção de direitos. Deve trazer Violência contra grupos vulneráveis, facções, drogas, tecnologia, fronteiras, trânsito, escolas e juventude. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "violência urbana",
-          "tecnologia",
-          "polícia comunitária",
-          "prevenção criminal"
-        ],
-        "erroComum": "Responder com senso comum punitivista ou com discurso abstrato sem política pública.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
-      },
-      {
-        "id": "temas-fortes-para-concursos-policiais-e-como-argumentar-com-equilibrio-q09",
-        "tipo": "checklist_correcao",
-        "bancaEstilo": "Rubrica VemAprovar",
-        "nivel": "medio",
-        "eixoCognitivo": "autoavaliacao",
-        "comando": "Marque se o trecho produzido cumpre os critérios mínimos.",
-        "itens": [
-          {
-            "criterio": "Responde exatamente ao tema?",
-            "esperado": true
-          },
-          {
-            "criterio": "Tem tese ou ideia central clara?",
-            "esperado": true
-          },
-          {
-            "criterio": "Usa repertório explicado, não apenas citado?",
-            "esperado": true
-          },
-          {
-            "criterio": "Evita generalização, radicalismo e senso comum?",
-            "esperado": true
-          },
-          {
-            "criterio": "Mantém coesão e progressão?",
-            "esperado": true
-          }
-        ],
-        "respostaModelo": "A redação só deve avançar para versão final se todos os critérios forem atendidos ou reescritos.",
-        "diagnosticoIA": {
-          "acao": "Classificar o texto em pronto, precisa reescrever ou precisa refazer o projeto de texto."
-        }
-      },
-      {
-        "id": "temas-fortes-para-concursos-policiais-e-como-argumentar-com-equilibrio-q10",
-        "tipo": "treino_adaptativo_ia",
-        "bancaEstilo": "Tutor IA VemAprovar",
-        "nivel": "adaptativo",
-        "eixoCognitivo": "reescrita_orientada",
-        "promptTutorIA": "Corrija um trecho de redação do aluno sobre Temas fortes para concursos policiais e como argumentar com equilíbrio. Aponte fuga ao tema, tese, repertório, coesão, norma-padrão e sugira reescrita objetiva.",
-        "criterioDominio": "Domina quando consegue planejar, escrever e reescrever o trecho sem fuga ao tema e com argumentação clara.",
-        "saidaEsperada": "Feedback por rubrica, nota estimada, três ajustes prioritários e versão reescrita do trecho."
+        "id": "redacao-para-concursos-policiais-09-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Temas policiais costumam girar em torno de prevenção, violência urbana, juventude, tecnologia, confiança institucional e controle da atividade estatal.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "qualidadeConteudo": {
-      "revisaoAutomaticaCampos": true,
-      "mcComGabaritoObrigatorio": true,
-      "flashcardsSemPlaceholder": true,
-      "dataRevisaoQualidade": "2026-07-07"
-    }
+    "proximoTitulo": "Reescrita por rubrica: como transformar nota 6 em nota 9"
   },
   {
-    "id": "correcao-por-rubrica-reescrita-caderno-de-erros-e-simulado-final",
-    "materialTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "id": "reescrita-por-rubrica-como-transformar-nota-6-em-nota-9",
+    "materialTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "subject": "Redação para Concursos Policiais",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas Municipais / Concursos Policiais",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Redação para Concursos Policiais 10/10 Plus Revisado",
+    "moduleTitle": "Redação para Concursos Policiais 10/10 Reescrita de Verdade",
     "chapterIndex": 10,
     "totalChapters": 10,
-    "title": "Correção por rubrica, reescrita, caderno de erros e simulado final",
-    "assunto": "Treino e correção",
-    "tecnica": "Escrita objetiva, leitura de comando, tese clara, repertório pertinente e reescrita por rubrica",
-    "competencia": "Avaliar a própria redação por critérios de banca e reescrever com método.",
-    "dificuldade": "Médio-alto",
-    "tempoLeituraMin": 9,
-    "tempoExercicioMin": 24,
+    "title": "Reescrita por rubrica: como transformar nota 6 em nota 9",
+    "assunto": "correção e melhoria do texto",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar correção e melhoria do texto com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
-      "FGV": 4,
-      "CESPE": 5,
+      "FGV": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
       "IBFC": 4,
       "AOCP": 4,
-      "OAB": 2,
-      "ENEM": 3
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "rubrica",
       "reescrita",
-      "caderno de erros",
-      "simulado"
+      "rubrica",
+      "caderno de erros"
     ],
-    "fontesBase": [
-      "Técnica de redação dissertativo-argumentativa",
-      "Critérios usuais de correção discursiva em concursos",
-      "Temas de segurança pública e cidadania",
-      "Norma-padrão da Língua Portuguesa",
-      "Rubrica pedagógica VemAprovar"
-    ],
-    "dataConferenciaPedagogica": "2026-07-07",
-    "precisaConferenciaOficialAntesDePublicar": false,
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
+    "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo ensina treino e correção com foco em prova discursiva de concursos policiais. A redação não é um texto livre: ela precisa responder ao comando, demonstrar organização e sustentar uma tese com argumentos verificáveis.",
-      "O ponto central é: A melhora real vem de escrever, corrigir por critérios objetivos e reescrever trechos fracos. Para isso, o candidato deve planejar antes de escrever, escolher repertório pertinente e explicar a relação entre o repertório e o problema proposto.",
-      "O erro mais comum é: Ler modelos prontos sem produzir texto completo e sem corrigir os próprios vícios. Em redação policial, isso costuma gerar perda de nota porque o corretor avalia domínio do tema, progressão textual, equilíbrio argumentativo e uso adequado da norma-padrão."
+      "Reescrita por rubrica: como transformar nota 6 em nota 9 exige domínio de correção e melhoria do texto. O estudo correto começa pela ideia de que reescrever é mais eficiente que apenas produzir textos novos, porque revela padrões de erro em tese, coesão e análise.",
+      "A rubrica deve separar aderência ao tema, estrutura, argumentação, repertório, norma-padrão e conclusão. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Um parágrafo fraco normalmente melhora quando recebe tópico frasal claro e exemplo analisado. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Caderno de erros deve registrar problema, exemplo do próprio texto e versão corrigida. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "A melhora real vem de escrever, corrigir por critérios objetivos e reescrever trechos fracos.",
-      "Erro a evitar: Ler modelos prontos sem produzir texto completo e sem corrigir os próprios vícios.",
-      "Repertório útil: Critérios: tema, tese, argumentação, coesão, norma-padrão, repertório e conclusão.",
-      "Modelo operacional: Produza em tempo real, corrija por rubrica, reescreva dois parágrafos e registre o erro recorrente."
+      "Reescrever é mais eficiente que apenas produzir textos novos, porque revela padrões de erro em tese, coesão e análise.",
+      "A rubrica deve separar aderência ao tema, estrutura, argumentação, repertório, norma-padrão e conclusão.",
+      "Um parágrafo fraco normalmente melhora quando recebe tópico frasal claro e exemplo analisado.",
+      "Caderno de erros deve registrar problema, exemplo do próprio texto e versão corrigida."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a técnica central deste capítulo?",
-      "opcoes": [
-        "Ler modelos prontos sem produzir texto completo e sem corrigir os próprios vícios.",
-        "Produza em tempo real, corrija por rubrica, reescreva dois parágrafos e registre o erro recorrente.",
-        "escrever o máximo de linhas sem planejamento"
-      ],
-      "correta": 1,
-      "justificativa": "O modelo correto é: Produza em tempo real, corrija por rubrica, reescreva dois parágrafos e registre o erro recorrente."
-    },
-    "oQueCobra": "Leitura de tema, projeto de texto, argumentação, coesão, repertório, norma-padrão e conclusão adequada.",
-    "precisaSaberAntes": "Interpretação de texto, pontuação básica, coesão e noções de segurança pública/cidadania.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta um tema amplo ou recortado e avalia se o candidato consegue defender uma ideia com clareza, equilíbrio e domínio da escrita formal."
+        "pergunta": "Qual é o núcleo de Reescrita por rubrica: como transformar nota 6 em nota 9?",
+        "resposta": "Reescrever é mais eficiente que apenas produzir textos novos, porque revela padrões de erro em tese, coesão e análise."
       },
       {
-        "titulo": "Como treinar",
-        "texto": "Faça primeiro o projeto de texto, depois escreva em tempo cronometrado e finalize reescrevendo os trechos mais fracos."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Corrigir só acento e vírgula, ignorando tese e argumento."
+      },
+      {
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Pegue um desenvolvimento genérico e acrescente causa concreta, exemplo institucional e fechamento ligado à tese. Essa é a reescrita de alto impacto."
       }
     ],
-    "comoIdentificar": "Procure a palavra central do tema, o verbo do comando e o limite do recorte. Depois transforme tudo em uma frase-tese.",
-    "pegadinhas": [
-      "Fuga ao tema",
-      "Tese genérica",
-      "Repertório citado sem análise",
-      "Conclusão vaga",
-      "Opinião radical sem fundamento"
-    ],
-    "resumoFrase": "A melhora real vem de escrever, corrigir por critérios objetivos e reescrever trechos fracos.",
-    "proximoTitulo": "Próximo módulo da trilha",
-    "padraoPlataforma": "VemAprovar Top1 — 10/10 Plus Revisado",
-    "versaoConteudo": "premium-18.0-redacao-policial-plus-revisado",
-    "statusRevisao": "revisado_com_validacao_de_gabarito_flashcards_e_campos",
-    "riscoAtualizacao": "baixo_medio",
-    "publicoAlvo": [
-      "PM",
-      "PC",
-      "PRF",
-      "Polícia Penal",
-      "Guardas Municipais",
-      "Concursos Militares"
-    ],
-    "areaPlataforma": "redacao_concursos_policiais",
-    "explicacaoComoSeTivesse12": "Pense na redação como uma construção. O tema é o terreno, a tese é a planta da casa, os argumentos são as paredes e a conclusão é o telhado. Se você muda de ideia no meio, a casa fica torta. Neste capítulo, a regra é: Produza em tempo real, corrija por rubrica, reescreva dois parágrafos e registre o erro recorrente.",
-    "comoEstudar": [
-      "Leia o capítulo e escreva uma frase-tese.",
-      "Monte dois argumentos em tópicos.",
-      "Escreva um parágrafo em 8 minutos.",
-      "Corrija pela rubrica.",
-      "Reescreva o trecho mais fraco."
-    ],
-    "paraNaoEsquecer": [
-      "A melhora real vem de escrever, corrigir por critérios objetivos e reescrever trechos fracos.",
-      "Erro a evitar: Ler modelos prontos sem produzir texto completo e sem corrigir os próprios vícios.",
-      "Repertório útil: Critérios: tema, tese, argumentação, coesão, norma-padrão, repertório e conclusão.",
-      "Modelo operacional: Produza em tempo real, corrija por rubrica, reescreva dois parágrafos e registre o erro recorrente."
-    ],
-    "mapaMentalTextual": {
-      "centro": "Correção por rubrica, reescrita, caderno de erros e simulado final",
-      "ramos": [
-        {
-          "titulo": "Técnica",
-          "itens": [
-            "Produza em tempo real, corrija por rubrica, reescreva dois parágrafos e registre o erro recorrente."
-          ]
-        },
-        {
-          "titulo": "Erro comum",
-          "itens": [
-            "Ler modelos prontos sem produzir texto completo e sem corrigir os próprios vícios."
-          ]
-        },
-        {
-          "titulo": "Repertório",
-          "itens": [
-            "Critérios: tema, tese, argumentação, coesão, norma-padrão, repertório e conclusão."
-          ]
-        },
-        {
-          "titulo": "Critério de correção",
-          "itens": [
-            "tema",
-            "tese",
-            "argumento",
-            "coesão",
-            "norma-padrão"
-          ]
-        }
-      ]
+    "quadroDeDominio": {
+      "conceito": "Reescrever é mais eficiente que apenas produzir textos novos, porque revela padrões de erro em tese, coesão e análise.",
+      "limite": "A rubrica deve separar aderência ao tema, estrutura, argumentação, repertório, norma-padrão e conclusão.",
+      "aplicacao": "Pegue um desenvolvimento genérico e acrescente causa concreta, exemplo institucional e fechamento ligado à tese. Essa é a reescrita de alto impacto.",
+      "erroFatal": "Corrigir só acento e vírgula, ignorando tese e argumento."
     },
+    "exemploComentado": "Pegue um desenvolvimento genérico e acrescente causa concreta, exemplo institucional e fechamento ligado à tese. Essa é a reescrita de alto impacto.",
+    "pegadinhas": [
+      "Corrigir só acento e vírgula, ignorando tese e argumento.",
+      "Achar que texto bonito compensa fuga parcial ao tema."
+    ],
+    "mapaMentalTexto": [
+      "Tema: Reescrita por rubrica: como transformar nota 6 em nota 9",
+      "Conceito: Reescrever é mais eficiente que apenas produzir textos novos, porque revela padrões de erro em tese, coesão e análise.",
+      "Aplicação: Pegue um desenvolvimento genérico e acrescente causa concreta, exemplo institucional e fechamento ligado à tese. Essa é a reescrita de alto impacto.",
+      "Cuidado: Corrigir só acento e vírgula, ignorando tese e argumento."
+    ],
+    "comoEstudar": [
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
+    ],
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
+    ],
     "flashcards": [
       {
-        "frente": "O que é essencial em Treino e correção?",
-        "verso": "A melhora real vem de escrever, corrigir por critérios objetivos e reescrever trechos fracos."
+        "id": "redacao-para-concursos-policiais-10-fc01",
+        "frente": "Qual é a ideia central de Reescrita por rubrica: como transformar nota 6 em nota 9?",
+        "verso": "Reescrever é mais eficiente que apenas produzir textos novos, porque revela padrões de erro em tese, coesão e análise.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Erro comum em Correção por rubrica, reescrita, caderno de erros e simulado final",
-        "verso": "Ler modelos prontos sem produzir texto completo e sem corrigir os próprios vícios."
+        "id": "redacao-para-concursos-policiais-10-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em correção e melhoria do texto?",
+        "verso": "A rubrica deve separar aderência ao tema, estrutura, argumentação, repertório, norma-padrão e conclusão.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Repertório útil",
-        "verso": "Critérios: tema, tese, argumentação, coesão, norma-padrão, repertório e conclusão."
+        "id": "redacao-para-concursos-policiais-10-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Corrigir só acento e vírgula, ignorando tese e argumento.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Modelo operacional",
-        "verso": "Produza em tempo real, corrija por rubrica, reescreva dois parágrafos e registre o erro recorrente."
+        "id": "redacao-para-concursos-policiais-10-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Pegue um desenvolvimento genérico e acrescente causa concreta, exemplo institucional e fechamento ligado à tese. Essa é a reescrita de alto impacto.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": {
-      "iniciante": "escreve sem planejamento ou com tese vaga",
-      "intermediario": "planeja, mas ainda usa repertório pouco explicado",
-      "avancado": "responde ao tema com tese clara, argumento, repertório e coesão"
-    },
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "reescrever a tese e um tópico frasal"
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "produzir um parágrafo completo"
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "fazer simulado cronometrado e corrigir por rubrica"
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Atue como corretor de redação para concursos policiais. Corrija texto do aluno sobre Correção por rubrica, reescrita, caderno de erros e simulado final por rubrica, explique os erros e proponha reescrita.",
-      "naoFazer": [
-        "não inventar fatos",
-        "não estimular discurso violento ou discriminatório",
-        "não dar nota sem justificar"
-      ],
-      "feedbackEsperado": [
-        "tema",
-        "tese",
-        "argumentação",
-        "coesão",
-        "norma-padrão",
-        "reescrita"
-      ]
-    },
     "questoes": [
       {
-        "id": "correcao-por-rubrica-reescrita-caderno-de-erros-e-simulado-final-q01",
+        "id": "redacao-para-concursos-policiais-10-q01",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Correção por rubrica, reescrita, caderno de erros e simulado final, assinale a alternativa correta.",
+        "enunciado": "Em relação a Reescrita por rubrica: como transformar nota 6 em nota 9, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A melhora real vem de escrever, corrigir por critérios objetivos e reescrever trechos fracos.",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "Reescrever é mais eficiente que apenas produzir textos novos, porque revela padrões de erro em tese, coesão e análise.",
+          "Corrigir só acento e vírgula, ignorando tese e argumento.",
+          "Achar que texto bonito compensa fuga parcial ao tema.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: A melhora real vem de escrever, corrigir por critérios objetivos e reescrever trechos fracos.",
-        "armadilhaDaBanca": "Ler modelos prontos sem produzir texto completo e sem corrigir os próprios vícios.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A alternativa correta resume o núcleo do tema: Reescrever é mais eficiente que apenas produzir textos novos, porque revela padrões de erro em tese, coesão e análise."
       },
       {
-        "id": "correcao-por-rubrica-reescrita-caderno-de-erros-e-simulado-final-q02",
+        "id": "redacao-para-concursos-policiais-10-q02",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: A melhora real vem de escrever, corrigir por critérios objetivos e reescrever trechos fracos.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "O item está correto porque reflete técnica de escrita para banca.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "A rubrica deve separar aderência ao tema, estrutura, argumentação, repertório, norma-padrão e conclusão.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de correção e melhoria do texto."
       },
       {
-        "id": "correcao-por-rubrica-reescrita-caderno-de-erros-e-simulado-final-q03",
+        "id": "redacao-para-concursos-policiais-10-q03",
         "tipo": "certo_errado",
-        "bancaEstilo": "Cebraspe/Concursos Policiais",
-        "nivel": "medio",
-        "eixoCognitivo": "analise",
-        "enunciado": "Julgue o item: Em redação policial, basta defender opinião forte; estrutura, tese e coerência são secundárias.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "O item está errado: opinião sem estrutura, prova e coerência costuma reduzir a nota.",
-        "armadilhaDaBanca": "Confundir posicionamento com texto argumentativo tecnicamente avaliado.",
-        "diagnosticoIA": {
-          "se_errou": "Separar opinião, tese, argumento e repertório em quatro linhas diferentes."
-        }
+        "enunciado": "Corrigir só acento e vírgula, ignorando tese e argumento.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "correcao-por-rubrica-reescrita-caderno-de-erros-e-simulado-final-q04",
+        "id": "redacao-para-concursos-policiais-10-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Pegue um desenvolvimento genérico e acrescente causa concreta, exemplo institucional e fechamento ligado à tese. Essa é a reescrita de alto impacto. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Um parágrafo fraco normalmente melhora quando recebe tópico frasal claro e exemplo analisado.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-10-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que correção e melhoria do texto não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar reescrever é mais eficiente que apenas produzir textos novos, porque revela padrões de erro em tese, coesão e análise. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-10-q06",
+        "tipo": "comparativa",
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Reescrever é mais eficiente que apenas produzir textos novos, porque revela padrões de erro em tese, coesão e análise. Pegadinha: Corrigir só acento e vírgula, ignorando tese e argumento.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
+      },
+      {
+        "id": "redacao-para-concursos-policiais-10-q07",
         "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_correta",
-        "enunciado": "Sobre Correção por rubrica, reescrita, caderno de erros e simulado final, assinale a alternativa correta.",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "O melhor procedimento é: Produza em tempo real, corrija por rubrica, reescreva dois parágrafos e registre o erro recorrente.",
-          "A redação deve priorizar opinião pessoal, mesmo sem relação com o tema.",
-          "O repertório pode ser citado sem explicação, pois a banca avalia apenas memória.",
-          "A conclusão deve abrir um tema novo para impressionar o corretor.",
-          "A norma-padrão é irrelevante quando o assunto é segurança pública."
+          "Um parágrafo fraco normalmente melhora quando recebe tópico frasal claro e exemplo analisado.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Achar que texto bonito compensa fuga parcial ao tema."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: A melhora real vem de escrever, corrigir por critérios objetivos e reescrever trechos fracos.",
-        "armadilhaDaBanca": "Ler modelos prontos sem produzir texto completo e sem corrigir os próprios vícios.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "correcao-por-rubrica-reescrita-caderno-de-erros-e-simulado-final-q05",
-        "tipo": "analise_de_trecho",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Correção por rubrica, reescrita, caderno de erros e simulado final\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que A melhora real vem de escrever, corrigir por critérios objetivos e reescrever trechos fracos. Deve trazer Critérios: tema, tese, argumentação, coesão, norma-padrão, repertório e conclusão. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "rubrica",
-          "reescrita",
-          "caderno de erros",
-          "simulado"
-        ],
-        "erroComum": "Ler modelos prontos sem produzir texto completo e sem corrigir os próprios vícios.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
+        "id": "redacao-para-concursos-policiais-10-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Achar que texto bonito compensa fuga parcial ao tema.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "correcao-por-rubrica-reescrita-caderno-de-erros-e-simulado-final-q06",
-        "tipo": "multipla_escolha",
-        "bancaEstilo": "FGV/Cebraspe/FCC/Vunesp/Concursos Policiais",
-        "nivel": "dificil",
-        "eixoCognitivo": "aplicacao",
-        "comandoBanca": "assinale_a_incorreta",
-        "enunciado": "Sobre Correção por rubrica, reescrita, caderno de erros e simulado final, assinale a alternativa correta.",
-        "alternativas": [
-          "Ler modelos prontos sem produzir texto completo e sem corrigir os próprios vícios.",
-          "A melhora real vem de escrever, corrigir por critérios objetivos e reescrever trechos fracos.",
-          "Um repertório possível é: Critérios: tema, tese, argumentação, coesão, norma-padrão, repertório e conclusão.",
-          "A banca cobra: Avaliar a própria redação por critérios de banca e reescrever com método.",
-          "A reescrita ajuda a corrigir vícios de estrutura."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta: representa a técnica exigida para redação de concurso.",
-          "Incorreta: generaliza ou ignora o comando da banca.",
-          "Incorreta: confunde opinião solta com argumentação técnica.",
-          "Incorreta: enfraquece a estrutura textual ou a progressão lógica.",
-          "Incorreta: cria promessa que o texto não consegue cumprir."
-        ],
-        "comentario": "A alternativa correta aplica o núcleo do capítulo: A melhora real vem de escrever, corrigir por critérios objetivos e reescrever trechos fracos.",
-        "armadilhaDaBanca": "Ler modelos prontos sem produzir texto completo e sem corrigir os próprios vícios.",
-        "porqueCaiEmProva": "Redação é avaliada por critérios objetivos; a banca pune fuga ao tema, tese fraca, repertório solto e incoerência.",
-        "diagnosticoIA": {
-          "se_errou": "Releia o comando, destaque a palavra central e escreva uma frase-tese de até 25 palavras.",
-          "se_acertou": "Treine uma variação do mesmo tema com outro recorte da banca.",
-          "revisao_ativa": "Reescreva a introdução ou o tópico frasal usando a resposta correta como critério."
-        }
+        "id": "redacao-para-concursos-policiais-10-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Reescrita por rubrica: como transformar nota 6 em nota 9 a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Caderno de erros deve registrar problema, exemplo do próprio texto e versão corrigida.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
       },
       {
-        "id": "correcao-por-rubrica-reescrita-caderno-de-erros-e-simulado-final-q07",
-        "tipo": "planejamento_redacao",
-        "bancaEstilo": "Treino VemAprovar",
-        "nivel": "alto",
-        "eixoCognitivo": "planejamento",
-        "temaTreino": "Treino e correção em concursos policiais",
-        "comando": "Monte um projeto de texto com tese, argumento 1, argumento 2 e conclusão.",
-        "respostaModelo": {
-          "tese": "A melhora real vem de escrever, corrigir por critérios objetivos e reescrever trechos fracos.",
-          "argumento1": "Causa ou fundamento: Critérios: tema, tese, argumentação, coesão, norma-padrão, repertório e conclusão..",
-          "argumento2": "Consequência prática para segurança pública, cidadania ou confiança institucional.",
-          "conclusao": "Fechamento coerente: Produza em tempo real, corrija por rubrica, reescreva dois parágrafos e registre o erro recorrente."
-        },
-        "criteriosCorrecao": [
-          "tese defensável",
-          "argumentos conectados",
-          "repertório pertinente",
-          "conclusão compatível"
-        ],
-        "diagnosticoIA": {
-          "acao": "Gerar feedback em rubrica e sugerir uma versão mais objetiva da tese."
-        }
-      },
-      {
-        "id": "correcao-por-rubrica-reescrita-caderno-de-erros-e-simulado-final-q08",
-        "tipo": "resposta_aberta",
-        "bancaEstilo": "Discursiva/Redação",
-        "nivel": "medio_alto",
-        "eixoCognitivo": "producao_textual",
-        "enunciado": "Produza um trecho curto aplicando o capítulo \"Correção por rubrica, reescrita, caderno de erros e simulado final\" ao tema segurança pública e cidadania.",
-        "respostaModelo": "Um bom trecho deve afirmar que A melhora real vem de escrever, corrigir por critérios objetivos e reescrever trechos fracos. Deve trazer Critérios: tema, tese, argumentação, coesão, norma-padrão, repertório e conclusão. e explicar a relação com o tema, sem fuga nem frase decorada.",
-        "criteriosCorrecao": [
-          "responde ao comando",
-          "apresenta tese ou ideia central clara",
-          "usa repertório pertinente",
-          "explica a relação entre repertório e tema",
-          "mantém coesão e norma-padrão"
-        ],
-        "palavrasChaveEsperadas": [
-          "rubrica",
-          "reescrita",
-          "caderno de erros",
-          "simulado"
-        ],
-        "erroComum": "Ler modelos prontos sem produzir texto completo e sem corrigir os próprios vícios.",
-        "diagnosticoIA": {
-          "feedback": "Avaliar clareza, objetividade, pertinência do repertório e progressão textual."
-        }
-      },
-      {
-        "id": "correcao-por-rubrica-reescrita-caderno-de-erros-e-simulado-final-q09",
-        "tipo": "checklist_correcao",
-        "bancaEstilo": "Rubrica VemAprovar",
-        "nivel": "medio",
-        "eixoCognitivo": "autoavaliacao",
-        "comando": "Marque se o trecho produzido cumpre os critérios mínimos.",
-        "itens": [
-          {
-            "criterio": "Responde exatamente ao tema?",
-            "esperado": true
-          },
-          {
-            "criterio": "Tem tese ou ideia central clara?",
-            "esperado": true
-          },
-          {
-            "criterio": "Usa repertório explicado, não apenas citado?",
-            "esperado": true
-          },
-          {
-            "criterio": "Evita generalização, radicalismo e senso comum?",
-            "esperado": true
-          },
-          {
-            "criterio": "Mantém coesão e progressão?",
-            "esperado": true
-          }
-        ],
-        "respostaModelo": "A redação só deve avançar para versão final se todos os critérios forem atendidos ou reescritos.",
-        "diagnosticoIA": {
-          "acao": "Classificar o texto em pronto, precisa reescrever ou precisa refazer o projeto de texto."
-        }
-      },
-      {
-        "id": "correcao-por-rubrica-reescrita-caderno-de-erros-e-simulado-final-q10",
-        "tipo": "treino_adaptativo_ia",
-        "bancaEstilo": "Tutor IA VemAprovar",
-        "nivel": "adaptativo",
-        "eixoCognitivo": "reescrita_orientada",
-        "promptTutorIA": "Corrija um trecho de redação do aluno sobre Correção por rubrica, reescrita, caderno de erros e simulado final. Aponte fuga ao tema, tese, repertório, coesão, norma-padrão e sugira reescrita objetiva.",
-        "criterioDominio": "Domina quando consegue planejar, escrever e reescrever o trecho sem fuga ao tema e com argumentação clara.",
-        "saidaEsperada": "Feedback por rubrica, nota estimada, três ajustes prioritários e versão reescrita do trecho."
+        "id": "redacao-para-concursos-policiais-10-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Reescrever é mais eficiente que apenas produzir textos novos, porque revela padrões de erro em tese, coesão e análise.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "qualidadeConteudo": {
-      "revisaoAutomaticaCampos": true,
-      "mcComGabaritoObrigatorio": true,
-      "flashcardsSemPlaceholder": true,
-      "dataRevisaoQualidade": "2026-07-07"
-    }
+    "proximoTitulo": "Revisão integrada do módulo"
   }
 ];
 

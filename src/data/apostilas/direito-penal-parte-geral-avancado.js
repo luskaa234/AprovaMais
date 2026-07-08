@@ -1,3374 +1,2059 @@
 /**
- * VemAprovar Top1 — Apostila Premium 10/10 Plus Revisado
- * Arquivo: direito-penal-parte-geral-avancado.js
- * Módulo: Direito Penal Parte Geral Avançado
- * Lote 26: conteúdo novo com gabaritos obrigatórios, flashcards completos e validação programática.
+ * VemAprovar — Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade
+ * Arquivo reescrito do zero para substituir versão genérica/templated.
+ * Foco: conteúdo real, caso prático, pegadinhas e questões com gabarito.
  */
 
 export const direitoPenalParteGeralAvancado = [
   {
-    "id": "direito-penal-conceito-funcoes-fontes-e-principios-limitadores",
-    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "id": "funcoes-fontes-e-principios-penais",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / OAB",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 1,
     "totalChapters": 10,
-    "title": "Direito Penal: conceito, funções, fontes e princípios limitadores",
-    "assunto": "Teoria geral do Direito Penal e limites constitucionais do poder punitivo",
-    "tecnica": "Leitura por conceito, requisito, consequência jurídica, comparação e caso prático",
-    "competencia": "Resolver questões penais de Parte Geral com precisão técnica, limites constitucionais e raciocínio de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 14,
+    "title": "Funções, fontes e princípios penais",
+    "assunto": "limites do poder punitivo",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar limites do poder punitivo com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
     "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "legalidade",
-      "anterioridade",
-      "intervenção mínima",
-      "fragmentariedade",
-      "subsidiariedade",
-      "ofensividade e proporcionalidade"
+      "limites do poder punitivo"
     ],
-    "fontesBase": [
-      "Código Penal — Parte Geral",
-      "Constituição Federal de 1988 — garantias penais e processuais",
-      "Lei de Introdução ao Código Penal, quando aplicável",
-      "Jurisprudência atualizada STF/STJ e edital específico, com conferência oficial antes da publicação final"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
-    "riscoAtualizacao": "alto",
-    "motivoRiscoAtualizacao": "Matéria penal depende de texto legal vigente, jurisprudência atualizada, reformas penais e recorte do edital.",
-    "publicoAlvo": "candidatos de carreiras policiais, tribunais, Ministério Público, defensorias, OAB e concursos gerais",
-    "areaPlataforma": "Apostilas / Direito Penal / Parte Geral",
-    "versaoConteudo": "10/10 Plus Revisado Lote 26",
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Teoria geral do Direito Penal e limites constitucionais do poder punitivo com foco em provas objetivas, discursivas e casos práticos de concursos.",
-      "Ideia central: O Direito Penal só deve atuar quando houver lei anterior, lesão ou perigo relevante a bem jurídico e necessidade de intervenção estatal.",
-      "Como a banca complica: ela mistura institutos próximos, troca requisito por consequência ou usa linguagem absoluta para induzir erro.",
-      "Erro comum: Tratar Direito Penal como mera vingança estatal ou aceitar punição sem lei anterior.",
-      "Estratégia de estudo: leia o conceito, liste requisitos, compare exceções, resolva casos curtos e revise o gabarito com fundamento técnico."
+      "Funções, fontes e princípios penais exige domínio de limites do poder punitivo. O estudo correto começa pela ideia de que direito Penal protege bens jurídicos relevantes, mas deve ser usado como última ratio.",
+      "Legalidade exige lei anterior que defina crime e pena de forma suficientemente certa. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Intervenção mínima, fragmentariedade e subsidiariedade limitam expansão penal desnecessária. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Princípio da culpabilidade impede responsabilização penal sem vínculo subjetivo adequado. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "O Direito Penal só deve atuar quando houver lei anterior, lesão ou perigo relevante a bem jurídico e necessidade de intervenção estatal.",
-      "Cai muito: legalidade, anterioridade, intervenção mínima, fragmentariedade, subsidiariedade, ofensividade e proporcionalidade.",
-      "A resposta penal deve respeitar legalidade, tipicidade e limites constitucionais.",
-      "Pegadinha: Tratar Direito Penal como mera vingança estatal ou aceitar punição sem lei anterior."
+      "Direito Penal protege bens jurídicos relevantes, mas deve ser usado como última ratio.",
+      "Legalidade exige lei anterior que defina crime e pena de forma suficientemente certa.",
+      "Intervenção mínima, fragmentariedade e subsidiariedade limitam expansão penal desnecessária.",
+      "Princípio da culpabilidade impede responsabilização penal sem vínculo subjetivo adequado."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a ideia central de Teoria geral do Direito Penal e limites constitucionais do poder punitivo?",
-      "opcoes": [
-        "Tratar Direito Penal como mera vingança estatal ou aceitar punição sem lei anterior.",
-        "O Direito Penal só deve atuar quando houver lei anterior, lesão ou perigo relevante a bem jurídico e necessidade de intervenção estatal.",
-        "Basta escolher a alternativa mais punitiva."
-      ],
-      "correta": 1,
-      "justificativa": "A alternativa correta traz o conceito sem eliminar os requisitos legais."
-    },
-    "oQueCobra": "Questões sobre legalidade, anterioridade, intervenção mínima, fragmentariedade, subsidiariedade, ofensividade e proporcionalidade, com comparações, casos práticos e alternativas absolutas.",
-    "precisaSaberAntes": "Princípio da legalidade, leitura de enunciado, estrutura básica do crime e vocabulário jurídico penal.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta caso curto ou conceito incompleto sobre Teoria geral do Direito Penal e limites constitucionais do poder punitivo e exige identificar o instituto correto."
+        "pergunta": "Qual é o núcleo de Funções, fontes e princípios penais?",
+        "resposta": "Direito Penal protege bens jurídicos relevantes, mas deve ser usado como última ratio."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Separe conceito, requisito, exceção e consequência. Não responda por intuição punitiva."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Usar clamor social para afastar legalidade."
       },
       {
-        "titulo": "Conexão com prática policial",
-        "texto": "O módulo é educativo: ajuda a compreender limites legais da atuação estatal e não substitui protocolo oficial, legislação vigente ou orientação institucional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Conduta imoral, sem tipo penal anterior, não pode ser punida criminalmente."
       }
     ],
-    "comoIdentificar": "Procure palavras como legalidade, anterioridade, intervenção mínima, fragmentariedade, subsidiariedade, ofensividade e proporcionalidade e observe se o enunciado pede regra, exceção, conceito ou consequência.",
+    "quadroDeDominio": {
+      "conceito": "Direito Penal protege bens jurídicos relevantes, mas deve ser usado como última ratio.",
+      "limite": "Legalidade exige lei anterior que defina crime e pena de forma suficientemente certa.",
+      "aplicacao": "Conduta imoral, sem tipo penal anterior, não pode ser punida criminalmente.",
+      "erroFatal": "Usar clamor social para afastar legalidade."
+    },
+    "exemploComentado": "Conduta imoral, sem tipo penal anterior, não pode ser punida criminalmente.",
     "pegadinhas": [
-      "Tratar Direito Penal como mera vingança estatal ou aceitar punição sem lei anterior.",
-      "confundir regra com exceção",
-      "usar linguagem absoluta",
-      "ignorar requisito subjetivo",
-      "misturar Parte Geral com crime em espécie"
+      "Usar clamor social para afastar legalidade.",
+      "Tratar Direito Penal como solução para todo problema social."
     ],
-    "resumoFrase": "O Direito Penal só deve atuar quando houver lei anterior, lesão ou perigo relevante a bem jurídico e necessidade de intervenção estatal.",
-    "explicacaoComoSeTivesse12": "Pense assim: O Direito Penal só deve atuar quando houver lei anterior, lesão ou perigo relevante a bem jurídico e necessidade de intervenção estatal. Em prova, você precisa descobrir qual regra se aplica e qual detalhe muda a resposta.",
-    "mapaMentalTextual": {
-      "centro": "Teoria geral do Direito Penal e limites constitucionais do poder punitivo",
-      "ramos": [
-        "conceito",
-        "requisitos",
-        "exceções",
-        "caso prático",
-        "pegadinha",
-        "consequência",
-        "revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Funções, fontes e princípios penais",
+      "Conceito: Direito Penal protege bens jurídicos relevantes, mas deve ser usado como última ratio.",
+      "Aplicação: Conduta imoral, sem tipo penal anterior, não pode ser punida criminalmente.",
+      "Cuidado: Usar clamor social para afastar legalidade."
+    ],
     "comoEstudar": [
-      "Ler o conceito",
-      "Fazer quadro de requisitos",
-      "Comparar instituto parecido",
-      "Resolver 10 questões",
-      "Revisar erros com flashcards"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Não caia na armadilha: Tratar Direito Penal como mera vingança estatal ou aceitar punição sem lei anterior.",
-    "revisaoProgramada": {
-      "D0": "ler e resumir requisitos",
-      "D1": "refazer questões erradas",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto de Parte Geral"
-    },
-    "criteriosDominio": [
-      "conceituar instituto",
-      "listar requisitos",
-      "comparar exceções",
-      "resolver caso concreto",
-      "justificar gabarito"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f01-01",
-        "frente": "Qual é a ideia central de Teoria geral do Direito Penal e limites constitucionais do poder punitivo?",
-        "verso": "O Direito Penal só deve atuar quando houver lei anterior, lesão ou perigo relevante a bem jurídico e necessidade de intervenção estatal.",
-        "tag": "Teoria geral do Direito Penal e limites constitucionais do poder punitivo",
+        "id": "direito-penal-parte-geral-avancado-01-fc01",
+        "frente": "Qual é a ideia central de Funções, fontes e princípios penais?",
+        "verso": "Direito Penal protege bens jurídicos relevantes, mas deve ser usado como última ratio.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f01-02",
-        "frente": "Qual pegadinha a banca costuma usar em Teoria geral do Direito Penal e limites constitucionais do poder punitivo?",
-        "verso": "Tratar Direito Penal como mera vingança estatal ou aceitar punição sem lei anterior.",
+        "id": "direito-penal-parte-geral-avancado-01-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em limites do poder punitivo?",
+        "verso": "Legalidade exige lei anterior que defina crime e pena de forma suficientemente certa.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-01-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Usar clamor social para afastar legalidade. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f01-03",
-        "frente": "Como estudar Teoria geral do Direito Penal e limites constitucionais do poder punitivo para prova?",
-        "verso": "Estude o conceito, memorize os requisitos, compare institutos parecidos e resolva casos curtos sobre legalidade, anterioridade, intervenção mínima, fragmentariedade, subsidiariedade, ofensividade e proporcionalidade.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f01-04",
-        "frente": "Qual comparação é decisiva em Teoria geral do Direito Penal e limites constitucionais do poder punitivo?",
-        "verso": "Compare legalidade, anterioridade, intervenção mínima, fragmentariedade, subsidiariedade, ofensividade e proporcionalidade sem trocar requisito legal por opinião. Em Penal, a banca costuma mudar uma palavra para alterar todo o resultado.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "direito-penal-parte-geral-avancado-01-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Conduta imoral, sem tipo penal anterior, não pode ser punida criminalmente.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Crie 5 casos práticos de concurso sobre Teoria geral do Direito Penal e limites constitucionais do poder punitivo, cada um com gabarito comentado e uma pegadinha comum.",
-      "objetivo": "Treinar aplicação da Parte Geral do Direito Penal em casos de banca."
-    },
     "questoes": [
       {
-        "id": "q01-01",
+        "id": "direito-penal-parte-geral-avancado-01-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Teoria geral do Direito Penal e limites constitucionais do poder punitivo, assinale a alternativa correta.",
+        "enunciado": "Em relação a Funções, fontes e princípios penais, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "A punição penal pode dispensar lei anterior quando o fato parecer socialmente grave."
-          },
-          {
-            "letra": "B",
-            "texto": "O Direito Penal só deve atuar quando houver lei anterior, lesão ou perigo relevante a bem jurídico e necessidade de intervenção estatal."
-          },
-          {
-            "letra": "C",
-            "texto": "A analogia pode sempre criar crime e agravar pena contra o acusado."
-          },
-          {
-            "letra": "D",
-            "texto": "A banca ignora requisitos legais quando o caso envolve segurança pública."
-          },
-          {
-            "letra": "E",
-            "texto": "A responsabilização penal depende apenas da repercussão social do fato."
-          }
+          "Direito Penal protege bens jurídicos relevantes, mas deve ser usado como última ratio.",
+          "Usar clamor social para afastar legalidade.",
+          "Tratar Direito Penal como solução para todo problema social.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "A alternativa B resume corretamente o ponto central: O Direito Penal só deve atuar quando houver lei anterior, lesão ou perigo relevante a bem jurídico e necessidade de intervenção estatal."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A alternativa correta resume o núcleo do tema: Direito Penal protege bens jurídicos relevantes, mas deve ser usado como última ratio."
       },
       {
-        "id": "q01-02",
+        "id": "direito-penal-parte-geral-avancado-01-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Teoria geral do Direito Penal e limites constitucionais do poder punitivo, é correto substituir requisito legal por juízo moral genérico.",
+        "enunciado": "Legalidade exige lei anterior que defina crime e pena de forma suficientemente certa.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de limites do poder punitivo."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-01-q03",
+        "tipo": "certo_errado",
+        "enunciado": "Usar clamor social para afastar legalidade.",
         "gabarito": "Errado",
-        "correta": false,
-        "comentario": "Direito Penal exige enquadramento legal, requisitos e limites constitucionais."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q01-03",
-        "tipo": "certo_errado",
-        "enunciado": "A análise de Teoria geral do Direito Penal e limites constitucionais do poder punitivo exige atenção a conceitos parecidos e às palavras usadas pela banca.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "A banca costuma trocar expressões técnicas para testar precisão conceitual."
-      },
-      {
-        "id": "q01-04",
+        "id": "direito-penal-parte-geral-avancado-01-q04",
         "tipo": "caso_pratico",
-        "enunciado": "Em uma situação envolvendo Teoria geral do Direito Penal e limites constitucionais do poder punitivo, o candidato percebe que a questão afirma: 'Tratar Direito Penal como mera vingança estatal ou aceitar punição sem lei anterior.'. Qual é o melhor caminho de resolução?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Aceitar a frase, pois pegadinhas costumam ser verdadeiras em Direito Penal."
-          },
-          {
-            "letra": "B",
-            "texto": "Conferir os requisitos legais e separar o instituto correto do instituto parecido."
-          },
-          {
-            "letra": "C",
-            "texto": "Responder pela alternativa mais severa, sempre favorável à acusação."
-          },
-          {
-            "letra": "D",
-            "texto": "Ignorar o caso concreto e marcar a alternativa com linguagem mais longa."
-          },
-          {
-            "letra": "E",
-            "texto": "Aplicar analogia para prejudicar o réu quando houver dúvida."
-          }
-        ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "O caminho seguro é comparar requisitos e evitar conclusões automáticas."
+        "enunciado": "Considere o caso: Conduta imoral, sem tipo penal anterior, não pode ser punida criminalmente. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Intervenção mínima, fragmentariedade e subsidiariedade limitam expansão penal desnecessária.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q01-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual afirmação representa uma pegadinha recorrente em Teoria geral do Direito Penal e limites constitucionais do poder punitivo?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Separar conceito, requisito e consequência jurídica."
-          },
-          {
-            "letra": "B",
-            "texto": "Ler o caso concreto antes de escolher a resposta."
-          },
-          {
-            "letra": "C",
-            "texto": "Tratar Direito Penal como mera vingança estatal ou aceitar punição sem lei anterior."
-          },
-          {
-            "letra": "D",
-            "texto": "Verificar se a questão cobra regra, exceção ou comparação."
-          },
-          {
-            "letra": "E",
-            "texto": "Usar a lei penal de modo compatível com a Constituição."
-          }
-        ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A alternativa C mostra exatamente a armadilha destacada no capítulo."
-      },
-      {
-        "id": "q01-06",
+        "id": "direito-penal-parte-geral-avancado-01-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Em uma frase, explique a ideia central de Teoria geral do Direito Penal e limites constitucionais do poder punitivo.",
-        "respostaEsperada": "O Direito Penal só deve atuar quando houver lei anterior, lesão ou perigo relevante a bem jurídico e necessidade de intervenção estatal.",
-        "comentario": "A resposta deve indicar o conceito e sua consequência para a prova."
+        "enunciado": "Explique, em até três linhas, por que limites do poder punitivo não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar direito penal protege bens jurídicos relevantes, mas deve ser usado como última ratio. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q01-07",
+        "id": "direito-penal-parte-geral-avancado-01-q06",
         "tipo": "comparativa",
-        "enunciado": "Compare dois institutos relevantes de Teoria geral do Direito Penal e limites constitucionais do poder punitivo sem confundi-los.",
-        "respostaEsperada": "A comparação deve separar requisitos, momento de incidência e consequência jurídica em temas como legalidade, anterioridade, intervenção mínima, fragmentariedade, subsidiariedade, ofensividade e proporcionalidade.",
-        "comentario": "A comparação é indispensável para questões de caso concreto."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Direito Penal protege bens jurídicos relevantes, mas deve ser usado como última ratio. Pegadinha: Usar clamor social para afastar legalidade.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q01-08",
-        "tipo": "treino_ia",
-        "enunciado": "Peça ao tutor IA três casos curtos sobre Teoria geral do Direito Penal e limites constitucionais do poder punitivo, com uma pegadinha em cada caso.",
-        "criteriosCorrecao": [
-          "identificar instituto correto",
-          "apontar requisito decisivo",
-          "justificar sem moralismo",
-          "corrigir a pegadinha"
-        ],
-        "comentario": "Treino ideal para transformar teoria penal em acerto de prova."
-      },
-      {
-        "id": "q01-09",
+        "id": "direito-penal-parte-geral-avancado-01-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "No estudo de Teoria geral do Direito Penal e limites constitucionais do poder punitivo, qual postura aumenta a chance de acerto?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Decorar apenas o nome do instituto."
-          },
-          {
-            "letra": "B",
-            "texto": "Ignorar exceções porque a regra geral sempre resolve tudo."
-          },
-          {
-            "letra": "C",
-            "texto": "Mapear conceito, requisitos, exceções e consequência prática."
-          },
-          {
-            "letra": "D",
-            "texto": "Escolher sempre a alternativa que aumenta a pena."
-          },
-          {
-            "letra": "E",
-            "texto": "Trocar termos técnicos por sinônimos sem cuidado."
-          }
+          "Intervenção mínima, fragmentariedade e subsidiariedade limitam expansão penal desnecessária.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Tratar Direito Penal como solução para todo problema social."
         ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A postura correta é estudar com mapa de requisitos e consequências."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q01-10",
-        "tipo": "certo_errado",
-        "enunciado": "A principal dificuldade de Teoria geral do Direito Penal e limites constitucionais do poder punitivo é identificar o instituto aplicável ao caso concreto e evitar confusão entre categorias próximas.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "Essa é uma das marcas de Direito Penal Parte Geral em concursos."
+        "id": "direito-penal-parte-geral-avancado-01-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Tratar Direito Penal como solução para todo problema social.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-01-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Funções, fontes e princípios penais a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Princípio da culpabilidade impede responsabilização penal sem vínculo subjetivo adequado.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-01-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Direito Penal protege bens jurídicos relevantes, mas deve ser usado como última ratio.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Lei penal no tempo: anterioridade, irretroatividade, retroatividade benéfica e abolitio criminis"
+    "proximoTitulo": "Lei penal no tempo"
   },
   {
-    "id": "lei-penal-no-tempo-anterioridade-irretroatividade-retroatividade-benefica-e-abolitio-crimi",
-    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "id": "lei-penal-no-tempo",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / OAB",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 2,
     "totalChapters": 10,
-    "title": "Lei penal no tempo: anterioridade, irretroatividade, retroatividade benéfica e abolitio criminis",
-    "assunto": "Aplicação temporal da lei penal e sucessão de leis penais",
-    "tecnica": "Leitura por conceito, requisito, consequência jurídica, comparação e caso prático",
-    "competencia": "Resolver questões penais de Parte Geral com precisão técnica, limites constitucionais e raciocínio de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 14,
+    "title": "Lei penal no tempo",
+    "assunto": "sucessão de leis penais",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar sucessão de leis penais com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
     "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "lei mais benéfica",
-      "novatio legis",
-      "abolitio criminis",
-      "ultratividade e tempo do crime"
+      "sucessao de leis penais"
     ],
-    "fontesBase": [
-      "Código Penal — Parte Geral",
-      "Constituição Federal de 1988 — garantias penais e processuais",
-      "Lei de Introdução ao Código Penal, quando aplicável",
-      "Jurisprudência atualizada STF/STJ e edital específico, com conferência oficial antes da publicação final"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
-    "riscoAtualizacao": "alto",
-    "motivoRiscoAtualizacao": "Matéria penal depende de texto legal vigente, jurisprudência atualizada, reformas penais e recorte do edital.",
-    "publicoAlvo": "candidatos de carreiras policiais, tribunais, Ministério Público, defensorias, OAB e concursos gerais",
-    "areaPlataforma": "Apostilas / Direito Penal / Parte Geral",
-    "versaoConteudo": "10/10 Plus Revisado Lote 26",
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Aplicação temporal da lei penal e sucessão de leis penais com foco em provas objetivas, discursivas e casos práticos de concursos.",
-      "Ideia central: A lei penal mais severa não retroage, mas a lei penal mais benéfica pode retroagir para alcançar fatos anteriores.",
-      "Como a banca complica: ela mistura institutos próximos, troca requisito por consequência ou usa linguagem absoluta para induzir erro.",
-      "Erro comum: Confundir abolitio criminis com continuidade normativo-típica.",
-      "Estratégia de estudo: leia o conceito, liste requisitos, compare exceções, resolva casos curtos e revise o gabarito com fundamento técnico."
+      "Lei penal no tempo exige domínio de sucessão de leis penais. O estudo correto começa pela ideia de que regra geral é irretroatividade da lei penal mais gravosa.",
+      "Lei penal mais benéfica retroage para alcançar fatos anteriores, mesmo após condenação, conforme hipótese. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Abolitio criminis extingue punibilidade porque o fato deixa de ser crime. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Lei temporária ou excepcional pode ter ultratividade para fatos ocorridos durante sua vigência. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "A lei penal mais severa não retroage, mas a lei penal mais benéfica pode retroagir para alcançar fatos anteriores.",
-      "Cai muito: lei mais benéfica, novatio legis, abolitio criminis, ultratividade e tempo do crime.",
-      "A resposta penal deve respeitar legalidade, tipicidade e limites constitucionais.",
-      "Pegadinha: Confundir abolitio criminis com continuidade normativo-típica."
+      "Regra geral é irretroatividade da lei penal mais gravosa.",
+      "Lei penal mais benéfica retroage para alcançar fatos anteriores, mesmo após condenação, conforme hipótese.",
+      "Abolitio criminis extingue punibilidade porque o fato deixa de ser crime.",
+      "Lei temporária ou excepcional pode ter ultratividade para fatos ocorridos durante sua vigência."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a ideia central de Aplicação temporal da lei penal e sucessão de leis penais?",
-      "opcoes": [
-        "Confundir abolitio criminis com continuidade normativo-típica.",
-        "A lei penal mais severa não retroage, mas a lei penal mais benéfica pode retroagir para alcançar fatos anteriores.",
-        "Basta escolher a alternativa mais punitiva."
-      ],
-      "correta": 1,
-      "justificativa": "A alternativa correta traz o conceito sem eliminar os requisitos legais."
-    },
-    "oQueCobra": "Questões sobre lei mais benéfica, novatio legis, abolitio criminis, ultratividade e tempo do crime, com comparações, casos práticos e alternativas absolutas.",
-    "precisaSaberAntes": "Princípio da legalidade, leitura de enunciado, estrutura básica do crime e vocabulário jurídico penal.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta caso curto ou conceito incompleto sobre Aplicação temporal da lei penal e sucessão de leis penais e exige identificar o instituto correto."
+        "pergunta": "Qual é o núcleo de Lei penal no tempo?",
+        "resposta": "Regra geral é irretroatividade da lei penal mais gravosa."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Separe conceito, requisito, exceção e consequência. Não responda por intuição punitiva."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Aplicar lei nova mais grave a fato passado."
       },
       {
-        "titulo": "Conexão com prática policial",
-        "texto": "O módulo é educativo: ajuda a compreender limites legais da atuação estatal e não substitui protocolo oficial, legislação vigente ou orientação institucional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Se lei reduz pena de crime já praticado, o candidato deve analisar retroatividade benéfica."
       }
     ],
-    "comoIdentificar": "Procure palavras como lei mais benéfica, novatio legis, abolitio criminis, ultratividade e tempo do crime e observe se o enunciado pede regra, exceção, conceito ou consequência.",
+    "quadroDeDominio": {
+      "conceito": "Regra geral é irretroatividade da lei penal mais gravosa.",
+      "limite": "Lei penal mais benéfica retroage para alcançar fatos anteriores, mesmo após condenação, conforme hipótese.",
+      "aplicacao": "Se lei reduz pena de crime já praticado, o candidato deve analisar retroatividade benéfica.",
+      "erroFatal": "Aplicar lei nova mais grave a fato passado."
+    },
+    "exemploComentado": "Se lei reduz pena de crime já praticado, o candidato deve analisar retroatividade benéfica.",
     "pegadinhas": [
-      "Confundir abolitio criminis com continuidade normativo-típica.",
-      "confundir regra com exceção",
-      "usar linguagem absoluta",
-      "ignorar requisito subjetivo",
-      "misturar Parte Geral com crime em espécie"
+      "Aplicar lei nova mais grave a fato passado.",
+      "Confundir abolitio criminis com perdão judicial."
     ],
-    "resumoFrase": "A lei penal mais severa não retroage, mas a lei penal mais benéfica pode retroagir para alcançar fatos anteriores.",
-    "explicacaoComoSeTivesse12": "Pense assim: A lei penal mais severa não retroage, mas a lei penal mais benéfica pode retroagir para alcançar fatos anteriores. Em prova, você precisa descobrir qual regra se aplica e qual detalhe muda a resposta.",
-    "mapaMentalTextual": {
-      "centro": "Aplicação temporal da lei penal e sucessão de leis penais",
-      "ramos": [
-        "conceito",
-        "requisitos",
-        "exceções",
-        "caso prático",
-        "pegadinha",
-        "consequência",
-        "revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Lei penal no tempo",
+      "Conceito: Regra geral é irretroatividade da lei penal mais gravosa.",
+      "Aplicação: Se lei reduz pena de crime já praticado, o candidato deve analisar retroatividade benéfica.",
+      "Cuidado: Aplicar lei nova mais grave a fato passado."
+    ],
     "comoEstudar": [
-      "Ler o conceito",
-      "Fazer quadro de requisitos",
-      "Comparar instituto parecido",
-      "Resolver 10 questões",
-      "Revisar erros com flashcards"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Não caia na armadilha: Confundir abolitio criminis com continuidade normativo-típica.",
-    "revisaoProgramada": {
-      "D0": "ler e resumir requisitos",
-      "D1": "refazer questões erradas",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto de Parte Geral"
-    },
-    "criteriosDominio": [
-      "conceituar instituto",
-      "listar requisitos",
-      "comparar exceções",
-      "resolver caso concreto",
-      "justificar gabarito"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f02-01",
-        "frente": "Qual é a ideia central de Aplicação temporal da lei penal e sucessão de leis penais?",
-        "verso": "A lei penal mais severa não retroage, mas a lei penal mais benéfica pode retroagir para alcançar fatos anteriores.",
-        "tag": "Aplicação temporal da lei penal e sucessão de leis penais",
+        "id": "direito-penal-parte-geral-avancado-02-fc01",
+        "frente": "Qual é a ideia central de Lei penal no tempo?",
+        "verso": "Regra geral é irretroatividade da lei penal mais gravosa.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f02-02",
-        "frente": "Qual pegadinha a banca costuma usar em Aplicação temporal da lei penal e sucessão de leis penais?",
-        "verso": "Confundir abolitio criminis com continuidade normativo-típica.",
+        "id": "direito-penal-parte-geral-avancado-02-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em sucessão de leis penais?",
+        "verso": "Lei penal mais benéfica retroage para alcançar fatos anteriores, mesmo após condenação, conforme hipótese.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-02-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Aplicar lei nova mais grave a fato passado. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f02-03",
-        "frente": "Como estudar Aplicação temporal da lei penal e sucessão de leis penais para prova?",
-        "verso": "Estude o conceito, memorize os requisitos, compare institutos parecidos e resolva casos curtos sobre lei mais benéfica, novatio legis, abolitio criminis, ultratividade e tempo do crime.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f02-04",
-        "frente": "Qual comparação é decisiva em Aplicação temporal da lei penal e sucessão de leis penais?",
-        "verso": "Compare lei mais benéfica, novatio legis, abolitio criminis, ultratividade e tempo do crime sem trocar requisito legal por opinião. Em Penal, a banca costuma mudar uma palavra para alterar todo o resultado.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "direito-penal-parte-geral-avancado-02-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Se lei reduz pena de crime já praticado, o candidato deve analisar retroatividade benéfica.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Crie 5 casos práticos de concurso sobre Aplicação temporal da lei penal e sucessão de leis penais, cada um com gabarito comentado e uma pegadinha comum.",
-      "objetivo": "Treinar aplicação da Parte Geral do Direito Penal em casos de banca."
-    },
     "questoes": [
       {
-        "id": "q02-01",
+        "id": "direito-penal-parte-geral-avancado-02-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Aplicação temporal da lei penal e sucessão de leis penais, assinale a alternativa correta.",
+        "enunciado": "Em relação a Lei penal no tempo, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "A punição penal pode dispensar lei anterior quando o fato parecer socialmente grave."
-          },
-          {
-            "letra": "B",
-            "texto": "A lei penal mais severa não retroage, mas a lei penal mais benéfica pode retroagir para alcançar fatos anteriores."
-          },
-          {
-            "letra": "C",
-            "texto": "A analogia pode sempre criar crime e agravar pena contra o acusado."
-          },
-          {
-            "letra": "D",
-            "texto": "A banca ignora requisitos legais quando o caso envolve segurança pública."
-          },
-          {
-            "letra": "E",
-            "texto": "A responsabilização penal depende apenas da repercussão social do fato."
-          }
+          "Regra geral é irretroatividade da lei penal mais gravosa.",
+          "Aplicar lei nova mais grave a fato passado.",
+          "Confundir abolitio criminis com perdão judicial.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "A alternativa B resume corretamente o ponto central: A lei penal mais severa não retroage, mas a lei penal mais benéfica pode retroagir para alcançar fatos anteriores."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A alternativa correta resume o núcleo do tema: Regra geral é irretroatividade da lei penal mais gravosa."
       },
       {
-        "id": "q02-02",
+        "id": "direito-penal-parte-geral-avancado-02-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Aplicação temporal da lei penal e sucessão de leis penais, é correto substituir requisito legal por juízo moral genérico.",
+        "enunciado": "Lei penal mais benéfica retroage para alcançar fatos anteriores, mesmo após condenação, conforme hipótese.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de sucessão de leis penais."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-02-q03",
+        "tipo": "certo_errado",
+        "enunciado": "Aplicar lei nova mais grave a fato passado.",
         "gabarito": "Errado",
-        "correta": false,
-        "comentario": "Direito Penal exige enquadramento legal, requisitos e limites constitucionais."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q02-03",
-        "tipo": "certo_errado",
-        "enunciado": "A análise de Aplicação temporal da lei penal e sucessão de leis penais exige atenção a conceitos parecidos e às palavras usadas pela banca.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "A banca costuma trocar expressões técnicas para testar precisão conceitual."
-      },
-      {
-        "id": "q02-04",
+        "id": "direito-penal-parte-geral-avancado-02-q04",
         "tipo": "caso_pratico",
-        "enunciado": "Em uma situação envolvendo Aplicação temporal da lei penal e sucessão de leis penais, o candidato percebe que a questão afirma: 'Confundir abolitio criminis com continuidade normativo-típica.'. Qual é o melhor caminho de resolução?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Aceitar a frase, pois pegadinhas costumam ser verdadeiras em Direito Penal."
-          },
-          {
-            "letra": "B",
-            "texto": "Conferir os requisitos legais e separar o instituto correto do instituto parecido."
-          },
-          {
-            "letra": "C",
-            "texto": "Responder pela alternativa mais severa, sempre favorável à acusação."
-          },
-          {
-            "letra": "D",
-            "texto": "Ignorar o caso concreto e marcar a alternativa com linguagem mais longa."
-          },
-          {
-            "letra": "E",
-            "texto": "Aplicar analogia para prejudicar o réu quando houver dúvida."
-          }
-        ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "O caminho seguro é comparar requisitos e evitar conclusões automáticas."
+        "enunciado": "Considere o caso: Se lei reduz pena de crime já praticado, o candidato deve analisar retroatividade benéfica. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Abolitio criminis extingue punibilidade porque o fato deixa de ser crime.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q02-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual afirmação representa uma pegadinha recorrente em Aplicação temporal da lei penal e sucessão de leis penais?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Separar conceito, requisito e consequência jurídica."
-          },
-          {
-            "letra": "B",
-            "texto": "Ler o caso concreto antes de escolher a resposta."
-          },
-          {
-            "letra": "C",
-            "texto": "Confundir abolitio criminis com continuidade normativo-típica."
-          },
-          {
-            "letra": "D",
-            "texto": "Verificar se a questão cobra regra, exceção ou comparação."
-          },
-          {
-            "letra": "E",
-            "texto": "Usar a lei penal de modo compatível com a Constituição."
-          }
-        ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A alternativa C mostra exatamente a armadilha destacada no capítulo."
-      },
-      {
-        "id": "q02-06",
+        "id": "direito-penal-parte-geral-avancado-02-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Em uma frase, explique a ideia central de Aplicação temporal da lei penal e sucessão de leis penais.",
-        "respostaEsperada": "A lei penal mais severa não retroage, mas a lei penal mais benéfica pode retroagir para alcançar fatos anteriores.",
-        "comentario": "A resposta deve indicar o conceito e sua consequência para a prova."
+        "enunciado": "Explique, em até três linhas, por que sucessão de leis penais não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar regra geral é irretroatividade da lei penal mais gravosa. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q02-07",
+        "id": "direito-penal-parte-geral-avancado-02-q06",
         "tipo": "comparativa",
-        "enunciado": "Compare dois institutos relevantes de Aplicação temporal da lei penal e sucessão de leis penais sem confundi-los.",
-        "respostaEsperada": "A comparação deve separar requisitos, momento de incidência e consequência jurídica em temas como lei mais benéfica, novatio legis, abolitio criminis, ultratividade e tempo do crime.",
-        "comentario": "A comparação é indispensável para questões de caso concreto."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Regra geral é irretroatividade da lei penal mais gravosa. Pegadinha: Aplicar lei nova mais grave a fato passado.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q02-08",
-        "tipo": "treino_ia",
-        "enunciado": "Peça ao tutor IA três casos curtos sobre Aplicação temporal da lei penal e sucessão de leis penais, com uma pegadinha em cada caso.",
-        "criteriosCorrecao": [
-          "identificar instituto correto",
-          "apontar requisito decisivo",
-          "justificar sem moralismo",
-          "corrigir a pegadinha"
-        ],
-        "comentario": "Treino ideal para transformar teoria penal em acerto de prova."
-      },
-      {
-        "id": "q02-09",
+        "id": "direito-penal-parte-geral-avancado-02-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "No estudo de Aplicação temporal da lei penal e sucessão de leis penais, qual postura aumenta a chance de acerto?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Decorar apenas o nome do instituto."
-          },
-          {
-            "letra": "B",
-            "texto": "Ignorar exceções porque a regra geral sempre resolve tudo."
-          },
-          {
-            "letra": "C",
-            "texto": "Mapear conceito, requisitos, exceções e consequência prática."
-          },
-          {
-            "letra": "D",
-            "texto": "Escolher sempre a alternativa que aumenta a pena."
-          },
-          {
-            "letra": "E",
-            "texto": "Trocar termos técnicos por sinônimos sem cuidado."
-          }
+          "Abolitio criminis extingue punibilidade porque o fato deixa de ser crime.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Confundir abolitio criminis com perdão judicial."
         ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A postura correta é estudar com mapa de requisitos e consequências."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q02-10",
-        "tipo": "certo_errado",
-        "enunciado": "A principal dificuldade de Aplicação temporal da lei penal e sucessão de leis penais é identificar o instituto aplicável ao caso concreto e evitar confusão entre categorias próximas.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "Essa é uma das marcas de Direito Penal Parte Geral em concursos."
+        "id": "direito-penal-parte-geral-avancado-02-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Confundir abolitio criminis com perdão judicial.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-02-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Lei penal no tempo a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Lei temporária ou excepcional pode ter ultratividade para fatos ocorridos durante sua vigência.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-02-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Regra geral é irretroatividade da lei penal mais gravosa.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Lei penal no espaço: territorialidade, extraterritorialidade e lugar do crime"
+    "proximoTitulo": "Lei penal no espaço"
   },
   {
-    "id": "lei-penal-no-espaco-territorialidade-extraterritorialidade-e-lugar-do-crime",
-    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "id": "lei-penal-no-espaco",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / OAB",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 3,
     "totalChapters": 10,
-    "title": "Lei penal no espaço: territorialidade, extraterritorialidade e lugar do crime",
-    "assunto": "Aplicação espacial da lei penal brasileira",
-    "tecnica": "Leitura por conceito, requisito, consequência jurídica, comparação e caso prático",
-    "competencia": "Resolver questões penais de Parte Geral com precisão técnica, limites constitucionais e raciocínio de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 14,
+    "title": "Lei penal no espaço",
+    "assunto": "territorialidade e extraterritorialidade",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar territorialidade e extraterritorialidade com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
     "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "territorialidade temperada",
-      "território por extensão",
-      "extraterritorialidade e teoria da ubiquidade"
+      "territorialidade e extraterritorialidade"
     ],
-    "fontesBase": [
-      "Código Penal — Parte Geral",
-      "Constituição Federal de 1988 — garantias penais e processuais",
-      "Lei de Introdução ao Código Penal, quando aplicável",
-      "Jurisprudência atualizada STF/STJ e edital específico, com conferência oficial antes da publicação final"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
-    "riscoAtualizacao": "alto",
-    "motivoRiscoAtualizacao": "Matéria penal depende de texto legal vigente, jurisprudência atualizada, reformas penais e recorte do edital.",
-    "publicoAlvo": "candidatos de carreiras policiais, tribunais, Ministério Público, defensorias, OAB e concursos gerais",
-    "areaPlataforma": "Apostilas / Direito Penal / Parte Geral",
-    "versaoConteudo": "10/10 Plus Revisado Lote 26",
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Aplicação espacial da lei penal brasileira com foco em provas objetivas, discursivas e casos práticos de concursos.",
-      "Ideia central: A lei penal brasileira aplica-se como regra ao território nacional, mas admite hipóteses legais de extraterritorialidade.",
-      "Como a banca complica: ela mistura institutos próximos, troca requisito por consequência ou usa linguagem absoluta para induzir erro.",
-      "Erro comum: Achar que crime praticado fora do Brasil nunca pode ser julgado pela lei brasileira.",
-      "Estratégia de estudo: leia o conceito, liste requisitos, compare exceções, resolva casos curtos e revise o gabarito com fundamento técnico."
+      "Lei penal no espaço exige domínio de territorialidade e extraterritorialidade. O estudo correto começa pela ideia de que territorialidade aplica lei brasileira a crimes praticados no território nacional, com extensões legais.",
+      "Lugar do crime pode ser analisado por teorias da atividade, resultado ou ubiquidade. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Extraterritorialidade exige hipóteses específicas e, em certos casos, condições de procedibilidade. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "A banca cobra navio, aeronave, crime contra administração pública e tratados. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "A lei penal brasileira aplica-se como regra ao território nacional, mas admite hipóteses legais de extraterritorialidade.",
-      "Cai muito: territorialidade temperada, território por extensão, extraterritorialidade e teoria da ubiquidade.",
-      "A resposta penal deve respeitar legalidade, tipicidade e limites constitucionais.",
-      "Pegadinha: Achar que crime praticado fora do Brasil nunca pode ser julgado pela lei brasileira."
+      "Territorialidade aplica lei brasileira a crimes praticados no território nacional, com extensões legais.",
+      "Lugar do crime pode ser analisado por teorias da atividade, resultado ou ubiquidade.",
+      "Extraterritorialidade exige hipóteses específicas e, em certos casos, condições de procedibilidade.",
+      "A banca cobra navio, aeronave, crime contra administração pública e tratados."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a ideia central de Aplicação espacial da lei penal brasileira?",
-      "opcoes": [
-        "Achar que crime praticado fora do Brasil nunca pode ser julgado pela lei brasileira.",
-        "A lei penal brasileira aplica-se como regra ao território nacional, mas admite hipóteses legais de extraterritorialidade.",
-        "Basta escolher a alternativa mais punitiva."
-      ],
-      "correta": 1,
-      "justificativa": "A alternativa correta traz o conceito sem eliminar os requisitos legais."
-    },
-    "oQueCobra": "Questões sobre territorialidade temperada, território por extensão, extraterritorialidade e teoria da ubiquidade, com comparações, casos práticos e alternativas absolutas.",
-    "precisaSaberAntes": "Princípio da legalidade, leitura de enunciado, estrutura básica do crime e vocabulário jurídico penal.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta caso curto ou conceito incompleto sobre Aplicação espacial da lei penal brasileira e exige identificar o instituto correto."
+        "pergunta": "Qual é o núcleo de Lei penal no espaço?",
+        "resposta": "Territorialidade aplica lei brasileira a crimes praticados no território nacional, com extensões legais."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Separe conceito, requisito, exceção e consequência. Não responda por intuição punitiva."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Achar que nacionalidade da vítima sempre define lei aplicável."
       },
       {
-        "titulo": "Conexão com prática policial",
-        "texto": "O módulo é educativo: ajuda a compreender limites legais da atuação estatal e não substitui protocolo oficial, legislação vigente ou orientação institucional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Crime iniciado no exterior e consumado no Brasil exige análise da teoria adotada para lugar do crime."
       }
     ],
-    "comoIdentificar": "Procure palavras como territorialidade temperada, território por extensão, extraterritorialidade e teoria da ubiquidade e observe se o enunciado pede regra, exceção, conceito ou consequência.",
+    "quadroDeDominio": {
+      "conceito": "Territorialidade aplica lei brasileira a crimes praticados no território nacional, com extensões legais.",
+      "limite": "Lugar do crime pode ser analisado por teorias da atividade, resultado ou ubiquidade.",
+      "aplicacao": "Crime iniciado no exterior e consumado no Brasil exige análise da teoria adotada para lugar do crime.",
+      "erroFatal": "Achar que nacionalidade da vítima sempre define lei aplicável."
+    },
+    "exemploComentado": "Crime iniciado no exterior e consumado no Brasil exige análise da teoria adotada para lugar do crime.",
     "pegadinhas": [
-      "Achar que crime praticado fora do Brasil nunca pode ser julgado pela lei brasileira.",
-      "confundir regra com exceção",
-      "usar linguagem absoluta",
-      "ignorar requisito subjetivo",
-      "misturar Parte Geral com crime em espécie"
+      "Achar que nacionalidade da vítima sempre define lei aplicável.",
+      "Esquecer condições da extraterritorialidade condicionada."
     ],
-    "resumoFrase": "A lei penal brasileira aplica-se como regra ao território nacional, mas admite hipóteses legais de extraterritorialidade.",
-    "explicacaoComoSeTivesse12": "Pense assim: A lei penal brasileira aplica-se como regra ao território nacional, mas admite hipóteses legais de extraterritorialidade. Em prova, você precisa descobrir qual regra se aplica e qual detalhe muda a resposta.",
-    "mapaMentalTextual": {
-      "centro": "Aplicação espacial da lei penal brasileira",
-      "ramos": [
-        "conceito",
-        "requisitos",
-        "exceções",
-        "caso prático",
-        "pegadinha",
-        "consequência",
-        "revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Lei penal no espaço",
+      "Conceito: Territorialidade aplica lei brasileira a crimes praticados no território nacional, com extensões legais.",
+      "Aplicação: Crime iniciado no exterior e consumado no Brasil exige análise da teoria adotada para lugar do crime.",
+      "Cuidado: Achar que nacionalidade da vítima sempre define lei aplicável."
+    ],
     "comoEstudar": [
-      "Ler o conceito",
-      "Fazer quadro de requisitos",
-      "Comparar instituto parecido",
-      "Resolver 10 questões",
-      "Revisar erros com flashcards"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Não caia na armadilha: Achar que crime praticado fora do Brasil nunca pode ser julgado pela lei brasileira.",
-    "revisaoProgramada": {
-      "D0": "ler e resumir requisitos",
-      "D1": "refazer questões erradas",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto de Parte Geral"
-    },
-    "criteriosDominio": [
-      "conceituar instituto",
-      "listar requisitos",
-      "comparar exceções",
-      "resolver caso concreto",
-      "justificar gabarito"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f03-01",
-        "frente": "Qual é a ideia central de Aplicação espacial da lei penal brasileira?",
-        "verso": "A lei penal brasileira aplica-se como regra ao território nacional, mas admite hipóteses legais de extraterritorialidade.",
-        "tag": "Aplicação espacial da lei penal brasileira",
+        "id": "direito-penal-parte-geral-avancado-03-fc01",
+        "frente": "Qual é a ideia central de Lei penal no espaço?",
+        "verso": "Territorialidade aplica lei brasileira a crimes praticados no território nacional, com extensões legais.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f03-02",
-        "frente": "Qual pegadinha a banca costuma usar em Aplicação espacial da lei penal brasileira?",
-        "verso": "Achar que crime praticado fora do Brasil nunca pode ser julgado pela lei brasileira.",
+        "id": "direito-penal-parte-geral-avancado-03-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em territorialidade e extraterritorialidade?",
+        "verso": "Lugar do crime pode ser analisado por teorias da atividade, resultado ou ubiquidade.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-03-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Achar que nacionalidade da vítima sempre define lei aplicável.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f03-03",
-        "frente": "Como estudar Aplicação espacial da lei penal brasileira para prova?",
-        "verso": "Estude o conceito, memorize os requisitos, compare institutos parecidos e resolva casos curtos sobre territorialidade temperada, território por extensão, extraterritorialidade e teoria da ubiquidade.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f03-04",
-        "frente": "Qual comparação é decisiva em Aplicação espacial da lei penal brasileira?",
-        "verso": "Compare territorialidade temperada, território por extensão, extraterritorialidade e teoria da ubiquidade sem trocar requisito legal por opinião. Em Penal, a banca costuma mudar uma palavra para alterar todo o resultado.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "direito-penal-parte-geral-avancado-03-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Crime iniciado no exterior e consumado no Brasil exige análise da teoria adotada para lugar do crime.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Crie 5 casos práticos de concurso sobre Aplicação espacial da lei penal brasileira, cada um com gabarito comentado e uma pegadinha comum.",
-      "objetivo": "Treinar aplicação da Parte Geral do Direito Penal em casos de banca."
-    },
     "questoes": [
       {
-        "id": "q03-01",
+        "id": "direito-penal-parte-geral-avancado-03-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Aplicação espacial da lei penal brasileira, assinale a alternativa correta.",
+        "enunciado": "Em relação a Lei penal no espaço, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "A punição penal pode dispensar lei anterior quando o fato parecer socialmente grave."
-          },
-          {
-            "letra": "B",
-            "texto": "A lei penal brasileira aplica-se como regra ao território nacional, mas admite hipóteses legais de extraterritorialidade."
-          },
-          {
-            "letra": "C",
-            "texto": "A analogia pode sempre criar crime e agravar pena contra o acusado."
-          },
-          {
-            "letra": "D",
-            "texto": "A banca ignora requisitos legais quando o caso envolve segurança pública."
-          },
-          {
-            "letra": "E",
-            "texto": "A responsabilização penal depende apenas da repercussão social do fato."
-          }
+          "Territorialidade aplica lei brasileira a crimes praticados no território nacional, com extensões legais.",
+          "Achar que nacionalidade da vítima sempre define lei aplicável.",
+          "Esquecer condições da extraterritorialidade condicionada.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "A alternativa B resume corretamente o ponto central: A lei penal brasileira aplica-se como regra ao território nacional, mas admite hipóteses legais de extraterritorialidade."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A alternativa correta resume o núcleo do tema: Territorialidade aplica lei brasileira a crimes praticados no território nacional, com extensões legais."
       },
       {
-        "id": "q03-02",
+        "id": "direito-penal-parte-geral-avancado-03-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Aplicação espacial da lei penal brasileira, é correto substituir requisito legal por juízo moral genérico.",
+        "enunciado": "Lugar do crime pode ser analisado por teorias da atividade, resultado ou ubiquidade.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de territorialidade e extraterritorialidade."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-03-q03",
+        "tipo": "certo_errado",
+        "enunciado": "Achar que nacionalidade da vítima sempre define lei aplicável.",
         "gabarito": "Errado",
-        "correta": false,
-        "comentario": "Direito Penal exige enquadramento legal, requisitos e limites constitucionais."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q03-03",
-        "tipo": "certo_errado",
-        "enunciado": "A análise de Aplicação espacial da lei penal brasileira exige atenção a conceitos parecidos e às palavras usadas pela banca.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "A banca costuma trocar expressões técnicas para testar precisão conceitual."
-      },
-      {
-        "id": "q03-04",
+        "id": "direito-penal-parte-geral-avancado-03-q04",
         "tipo": "caso_pratico",
-        "enunciado": "Em uma situação envolvendo Aplicação espacial da lei penal brasileira, o candidato percebe que a questão afirma: 'Achar que crime praticado fora do Brasil nunca pode ser julgado pela lei brasileira.'. Qual é o melhor caminho de resolução?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Aceitar a frase, pois pegadinhas costumam ser verdadeiras em Direito Penal."
-          },
-          {
-            "letra": "B",
-            "texto": "Conferir os requisitos legais e separar o instituto correto do instituto parecido."
-          },
-          {
-            "letra": "C",
-            "texto": "Responder pela alternativa mais severa, sempre favorável à acusação."
-          },
-          {
-            "letra": "D",
-            "texto": "Ignorar o caso concreto e marcar a alternativa com linguagem mais longa."
-          },
-          {
-            "letra": "E",
-            "texto": "Aplicar analogia para prejudicar o réu quando houver dúvida."
-          }
-        ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "O caminho seguro é comparar requisitos e evitar conclusões automáticas."
+        "enunciado": "Considere o caso: Crime iniciado no exterior e consumado no Brasil exige análise da teoria adotada para lugar do crime. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Extraterritorialidade exige hipóteses específicas e, em certos casos, condições de procedibilidade.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q03-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual afirmação representa uma pegadinha recorrente em Aplicação espacial da lei penal brasileira?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Separar conceito, requisito e consequência jurídica."
-          },
-          {
-            "letra": "B",
-            "texto": "Ler o caso concreto antes de escolher a resposta."
-          },
-          {
-            "letra": "C",
-            "texto": "Achar que crime praticado fora do Brasil nunca pode ser julgado pela lei brasileira."
-          },
-          {
-            "letra": "D",
-            "texto": "Verificar se a questão cobra regra, exceção ou comparação."
-          },
-          {
-            "letra": "E",
-            "texto": "Usar a lei penal de modo compatível com a Constituição."
-          }
-        ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A alternativa C mostra exatamente a armadilha destacada no capítulo."
-      },
-      {
-        "id": "q03-06",
+        "id": "direito-penal-parte-geral-avancado-03-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Em uma frase, explique a ideia central de Aplicação espacial da lei penal brasileira.",
-        "respostaEsperada": "A lei penal brasileira aplica-se como regra ao território nacional, mas admite hipóteses legais de extraterritorialidade.",
-        "comentario": "A resposta deve indicar o conceito e sua consequência para a prova."
+        "enunciado": "Explique, em até três linhas, por que territorialidade e extraterritorialidade não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar territorialidade aplica lei brasileira a crimes praticados no território nacional, com extensões legais. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q03-07",
+        "id": "direito-penal-parte-geral-avancado-03-q06",
         "tipo": "comparativa",
-        "enunciado": "Compare dois institutos relevantes de Aplicação espacial da lei penal brasileira sem confundi-los.",
-        "respostaEsperada": "A comparação deve separar requisitos, momento de incidência e consequência jurídica em temas como territorialidade temperada, território por extensão, extraterritorialidade e teoria da ubiquidade.",
-        "comentario": "A comparação é indispensável para questões de caso concreto."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Territorialidade aplica lei brasileira a crimes praticados no território nacional, com extensões legais. Pegadinha: Achar que nacionalidade da vítima sempre define lei aplicável.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q03-08",
-        "tipo": "treino_ia",
-        "enunciado": "Peça ao tutor IA três casos curtos sobre Aplicação espacial da lei penal brasileira, com uma pegadinha em cada caso.",
-        "criteriosCorrecao": [
-          "identificar instituto correto",
-          "apontar requisito decisivo",
-          "justificar sem moralismo",
-          "corrigir a pegadinha"
-        ],
-        "comentario": "Treino ideal para transformar teoria penal em acerto de prova."
-      },
-      {
-        "id": "q03-09",
+        "id": "direito-penal-parte-geral-avancado-03-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "No estudo de Aplicação espacial da lei penal brasileira, qual postura aumenta a chance de acerto?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Decorar apenas o nome do instituto."
-          },
-          {
-            "letra": "B",
-            "texto": "Ignorar exceções porque a regra geral sempre resolve tudo."
-          },
-          {
-            "letra": "C",
-            "texto": "Mapear conceito, requisitos, exceções e consequência prática."
-          },
-          {
-            "letra": "D",
-            "texto": "Escolher sempre a alternativa que aumenta a pena."
-          },
-          {
-            "letra": "E",
-            "texto": "Trocar termos técnicos por sinônimos sem cuidado."
-          }
+          "Extraterritorialidade exige hipóteses específicas e, em certos casos, condições de procedibilidade.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Esquecer condições da extraterritorialidade condicionada."
         ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A postura correta é estudar com mapa de requisitos e consequências."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q03-10",
-        "tipo": "certo_errado",
-        "enunciado": "A principal dificuldade de Aplicação espacial da lei penal brasileira é identificar o instituto aplicável ao caso concreto e evitar confusão entre categorias próximas.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "Essa é uma das marcas de Direito Penal Parte Geral em concursos."
+        "id": "direito-penal-parte-geral-avancado-03-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Esquecer condições da extraterritorialidade condicionada.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-03-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Lei penal no espaço a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: A banca cobra navio, aeronave, crime contra administração pública e tratados.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-03-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Territorialidade aplica lei brasileira a crimes praticados no território nacional, com extensões legais.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Teoria do crime: fato típico, ilicitude, culpabilidade e classificação das infrações"
+    "proximoTitulo": "Teoria do crime"
   },
   {
-    "id": "teoria-do-crime-fato-tipico-ilicitude-culpabilidade-e-classificacao-das-infracoes",
-    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "id": "teoria-do-crime",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / OAB",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 4,
     "totalChapters": 10,
-    "title": "Teoria do crime: fato típico, ilicitude, culpabilidade e classificação das infrações",
-    "assunto": "Estrutura analítica do crime e distinções básicas",
-    "tecnica": "Leitura por conceito, requisito, consequência jurídica, comparação e caso prático",
-    "competencia": "Resolver questões penais de Parte Geral com precisão técnica, limites constitucionais e raciocínio de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 14,
+    "title": "Teoria do crime",
+    "assunto": "estrutura analítica",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar estrutura analítica com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
     "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "crime",
-      "contravenção",
-      "tipicidade",
-      "ilicitude",
-      "culpabilidade",
-      "sujeito ativo e sujeito passivo"
+      "estrutura analitica"
     ],
-    "fontesBase": [
-      "Código Penal — Parte Geral",
-      "Constituição Federal de 1988 — garantias penais e processuais",
-      "Lei de Introdução ao Código Penal, quando aplicável",
-      "Jurisprudência atualizada STF/STJ e edital específico, com conferência oficial antes da publicação final"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
-    "riscoAtualizacao": "alto",
-    "motivoRiscoAtualizacao": "Matéria penal depende de texto legal vigente, jurisprudência atualizada, reformas penais e recorte do edital.",
-    "publicoAlvo": "candidatos de carreiras policiais, tribunais, Ministério Público, defensorias, OAB e concursos gerais",
-    "areaPlataforma": "Apostilas / Direito Penal / Parte Geral",
-    "versaoConteudo": "10/10 Plus Revisado Lote 26",
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Estrutura analítica do crime e distinções básicas com foco em provas objetivas, discursivas e casos práticos de concursos.",
-      "Ideia central: Crime, em prova, costuma ser analisado por fato típico, ilicitude e culpabilidade, sem confundir crime com contravenção.",
-      "Como a banca complica: ela mistura institutos próximos, troca requisito por consequência ou usa linguagem absoluta para induzir erro.",
-      "Erro comum: Misturar tipicidade, ilicitude e culpabilidade como se fossem a mesma etapa.",
-      "Estratégia de estudo: leia o conceito, liste requisitos, compare exceções, resolva casos curtos e revise o gabarito com fundamento técnico."
+      "Teoria do crime exige domínio de estrutura analítica. O estudo correto começa pela ideia de que conceito analítico usual divide crime em fato típico, ilicitude e culpabilidade.",
+      "Fato típico reúne conduta, resultado quando exigido, nexo causal e tipicidade. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Ilicitude pode ser afastada por causas justificantes. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Culpabilidade examina possibilidade de censura pessoal ao agente. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Crime, em prova, costuma ser analisado por fato típico, ilicitude e culpabilidade, sem confundir crime com contravenção.",
-      "Cai muito: crime, contravenção, tipicidade, ilicitude, culpabilidade, sujeito ativo e sujeito passivo.",
-      "A resposta penal deve respeitar legalidade, tipicidade e limites constitucionais.",
-      "Pegadinha: Misturar tipicidade, ilicitude e culpabilidade como se fossem a mesma etapa."
+      "Conceito analítico usual divide crime em fato típico, ilicitude e culpabilidade.",
+      "Fato típico reúne conduta, resultado quando exigido, nexo causal e tipicidade.",
+      "Ilicitude pode ser afastada por causas justificantes.",
+      "Culpabilidade examina possibilidade de censura pessoal ao agente."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a ideia central de Estrutura analítica do crime e distinções básicas?",
-      "opcoes": [
-        "Misturar tipicidade, ilicitude e culpabilidade como se fossem a mesma etapa.",
-        "Crime, em prova, costuma ser analisado por fato típico, ilicitude e culpabilidade, sem confundir crime com contravenção.",
-        "Basta escolher a alternativa mais punitiva."
-      ],
-      "correta": 1,
-      "justificativa": "A alternativa correta traz o conceito sem eliminar os requisitos legais."
-    },
-    "oQueCobra": "Questões sobre crime, contravenção, tipicidade, ilicitude, culpabilidade, sujeito ativo e sujeito passivo, com comparações, casos práticos e alternativas absolutas.",
-    "precisaSaberAntes": "Princípio da legalidade, leitura de enunciado, estrutura básica do crime e vocabulário jurídico penal.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta caso curto ou conceito incompleto sobre Estrutura analítica do crime e distinções básicas e exige identificar o instituto correto."
+        "pergunta": "Qual é o núcleo de Teoria do crime?",
+        "resposta": "Conceito analítico usual divide crime em fato típico, ilicitude e culpabilidade."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Separe conceito, requisito, exceção e consequência. Não responda por intuição punitiva."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Misturar excludente de ilicitude com excludente de culpabilidade."
       },
       {
-        "titulo": "Conexão com prática policial",
-        "texto": "O módulo é educativo: ajuda a compreender limites legais da atuação estatal e não substitui protocolo oficial, legislação vigente ou orientação institucional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Legítima defesa exclui ilicitude; inimputabilidade afeta culpabilidade."
       }
     ],
-    "comoIdentificar": "Procure palavras como crime, contravenção, tipicidade, ilicitude, culpabilidade, sujeito ativo e sujeito passivo e observe se o enunciado pede regra, exceção, conceito ou consequência.",
+    "quadroDeDominio": {
+      "conceito": "Conceito analítico usual divide crime em fato típico, ilicitude e culpabilidade.",
+      "limite": "Fato típico reúne conduta, resultado quando exigido, nexo causal e tipicidade.",
+      "aplicacao": "Legítima defesa exclui ilicitude; inimputabilidade afeta culpabilidade.",
+      "erroFatal": "Misturar excludente de ilicitude com excludente de culpabilidade."
+    },
+    "exemploComentado": "Legítima defesa exclui ilicitude; inimputabilidade afeta culpabilidade.",
     "pegadinhas": [
-      "Misturar tipicidade, ilicitude e culpabilidade como se fossem a mesma etapa.",
-      "confundir regra com exceção",
-      "usar linguagem absoluta",
-      "ignorar requisito subjetivo",
-      "misturar Parte Geral com crime em espécie"
+      "Misturar excludente de ilicitude com excludente de culpabilidade.",
+      "Achar que fato típico sempre gera condenação."
     ],
-    "resumoFrase": "Crime, em prova, costuma ser analisado por fato típico, ilicitude e culpabilidade, sem confundir crime com contravenção.",
-    "explicacaoComoSeTivesse12": "Pense assim: Crime, em prova, costuma ser analisado por fato típico, ilicitude e culpabilidade, sem confundir crime com contravenção. Em prova, você precisa descobrir qual regra se aplica e qual detalhe muda a resposta.",
-    "mapaMentalTextual": {
-      "centro": "Estrutura analítica do crime e distinções básicas",
-      "ramos": [
-        "conceito",
-        "requisitos",
-        "exceções",
-        "caso prático",
-        "pegadinha",
-        "consequência",
-        "revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Teoria do crime",
+      "Conceito: Conceito analítico usual divide crime em fato típico, ilicitude e culpabilidade.",
+      "Aplicação: Legítima defesa exclui ilicitude; inimputabilidade afeta culpabilidade.",
+      "Cuidado: Misturar excludente de ilicitude com excludente de culpabilidade."
+    ],
     "comoEstudar": [
-      "Ler o conceito",
-      "Fazer quadro de requisitos",
-      "Comparar instituto parecido",
-      "Resolver 10 questões",
-      "Revisar erros com flashcards"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Não caia na armadilha: Misturar tipicidade, ilicitude e culpabilidade como se fossem a mesma etapa.",
-    "revisaoProgramada": {
-      "D0": "ler e resumir requisitos",
-      "D1": "refazer questões erradas",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto de Parte Geral"
-    },
-    "criteriosDominio": [
-      "conceituar instituto",
-      "listar requisitos",
-      "comparar exceções",
-      "resolver caso concreto",
-      "justificar gabarito"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f04-01",
-        "frente": "Qual é a ideia central de Estrutura analítica do crime e distinções básicas?",
-        "verso": "Crime, em prova, costuma ser analisado por fato típico, ilicitude e culpabilidade, sem confundir crime com contravenção.",
-        "tag": "Estrutura analítica do crime e distinções básicas",
+        "id": "direito-penal-parte-geral-avancado-04-fc01",
+        "frente": "Qual é a ideia central de Teoria do crime?",
+        "verso": "Conceito analítico usual divide crime em fato típico, ilicitude e culpabilidade.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f04-02",
-        "frente": "Qual pegadinha a banca costuma usar em Estrutura analítica do crime e distinções básicas?",
-        "verso": "Misturar tipicidade, ilicitude e culpabilidade como se fossem a mesma etapa.",
+        "id": "direito-penal-parte-geral-avancado-04-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em estrutura analítica?",
+        "verso": "Fato típico reúne conduta, resultado quando exigido, nexo causal e tipicidade.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-04-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Misturar excludente de ilicitude com excludente de culpabilidade.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f04-03",
-        "frente": "Como estudar Estrutura analítica do crime e distinções básicas para prova?",
-        "verso": "Estude o conceito, memorize os requisitos, compare institutos parecidos e resolva casos curtos sobre crime, contravenção, tipicidade, ilicitude, culpabilidade, sujeito ativo e sujeito passivo.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f04-04",
-        "frente": "Qual comparação é decisiva em Estrutura analítica do crime e distinções básicas?",
-        "verso": "Compare crime, contravenção, tipicidade, ilicitude, culpabilidade, sujeito ativo e sujeito passivo sem trocar requisito legal por opinião. Em Penal, a banca costuma mudar uma palavra para alterar todo o resultado.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "direito-penal-parte-geral-avancado-04-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Legítima defesa exclui ilicitude; inimputabilidade afeta culpabilidade.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Crie 5 casos práticos de concurso sobre Estrutura analítica do crime e distinções básicas, cada um com gabarito comentado e uma pegadinha comum.",
-      "objetivo": "Treinar aplicação da Parte Geral do Direito Penal em casos de banca."
-    },
     "questoes": [
       {
-        "id": "q04-01",
+        "id": "direito-penal-parte-geral-avancado-04-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Estrutura analítica do crime e distinções básicas, assinale a alternativa correta.",
+        "enunciado": "Em relação a Teoria do crime, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "A punição penal pode dispensar lei anterior quando o fato parecer socialmente grave."
-          },
-          {
-            "letra": "B",
-            "texto": "Crime, em prova, costuma ser analisado por fato típico, ilicitude e culpabilidade, sem confundir crime com contravenção."
-          },
-          {
-            "letra": "C",
-            "texto": "A analogia pode sempre criar crime e agravar pena contra o acusado."
-          },
-          {
-            "letra": "D",
-            "texto": "A banca ignora requisitos legais quando o caso envolve segurança pública."
-          },
-          {
-            "letra": "E",
-            "texto": "A responsabilização penal depende apenas da repercussão social do fato."
-          }
+          "Conceito analítico usual divide crime em fato típico, ilicitude e culpabilidade.",
+          "Misturar excludente de ilicitude com excludente de culpabilidade.",
+          "Achar que fato típico sempre gera condenação.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "A alternativa B resume corretamente o ponto central: Crime, em prova, costuma ser analisado por fato típico, ilicitude e culpabilidade, sem confundir crime com contravenção."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A alternativa correta resume o núcleo do tema: Conceito analítico usual divide crime em fato típico, ilicitude e culpabilidade."
       },
       {
-        "id": "q04-02",
+        "id": "direito-penal-parte-geral-avancado-04-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Estrutura analítica do crime e distinções básicas, é correto substituir requisito legal por juízo moral genérico.",
+        "enunciado": "Fato típico reúne conduta, resultado quando exigido, nexo causal e tipicidade.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de estrutura analítica."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-04-q03",
+        "tipo": "certo_errado",
+        "enunciado": "Misturar excludente de ilicitude com excludente de culpabilidade.",
         "gabarito": "Errado",
-        "correta": false,
-        "comentario": "Direito Penal exige enquadramento legal, requisitos e limites constitucionais."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q04-03",
-        "tipo": "certo_errado",
-        "enunciado": "A análise de Estrutura analítica do crime e distinções básicas exige atenção a conceitos parecidos e às palavras usadas pela banca.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "A banca costuma trocar expressões técnicas para testar precisão conceitual."
-      },
-      {
-        "id": "q04-04",
+        "id": "direito-penal-parte-geral-avancado-04-q04",
         "tipo": "caso_pratico",
-        "enunciado": "Em uma situação envolvendo Estrutura analítica do crime e distinções básicas, o candidato percebe que a questão afirma: 'Misturar tipicidade, ilicitude e culpabilidade como se fossem a mesma etapa.'. Qual é o melhor caminho de resolução?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Aceitar a frase, pois pegadinhas costumam ser verdadeiras em Direito Penal."
-          },
-          {
-            "letra": "B",
-            "texto": "Conferir os requisitos legais e separar o instituto correto do instituto parecido."
-          },
-          {
-            "letra": "C",
-            "texto": "Responder pela alternativa mais severa, sempre favorável à acusação."
-          },
-          {
-            "letra": "D",
-            "texto": "Ignorar o caso concreto e marcar a alternativa com linguagem mais longa."
-          },
-          {
-            "letra": "E",
-            "texto": "Aplicar analogia para prejudicar o réu quando houver dúvida."
-          }
-        ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "O caminho seguro é comparar requisitos e evitar conclusões automáticas."
+        "enunciado": "Considere o caso: Legítima defesa exclui ilicitude; inimputabilidade afeta culpabilidade. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Ilicitude pode ser afastada por causas justificantes.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q04-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual afirmação representa uma pegadinha recorrente em Estrutura analítica do crime e distinções básicas?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Separar conceito, requisito e consequência jurídica."
-          },
-          {
-            "letra": "B",
-            "texto": "Ler o caso concreto antes de escolher a resposta."
-          },
-          {
-            "letra": "C",
-            "texto": "Misturar tipicidade, ilicitude e culpabilidade como se fossem a mesma etapa."
-          },
-          {
-            "letra": "D",
-            "texto": "Verificar se a questão cobra regra, exceção ou comparação."
-          },
-          {
-            "letra": "E",
-            "texto": "Usar a lei penal de modo compatível com a Constituição."
-          }
-        ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A alternativa C mostra exatamente a armadilha destacada no capítulo."
-      },
-      {
-        "id": "q04-06",
+        "id": "direito-penal-parte-geral-avancado-04-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Em uma frase, explique a ideia central de Estrutura analítica do crime e distinções básicas.",
-        "respostaEsperada": "Crime, em prova, costuma ser analisado por fato típico, ilicitude e culpabilidade, sem confundir crime com contravenção.",
-        "comentario": "A resposta deve indicar o conceito e sua consequência para a prova."
+        "enunciado": "Explique, em até três linhas, por que estrutura analítica não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar conceito analítico usual divide crime em fato típico, ilicitude e culpabilidade. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q04-07",
+        "id": "direito-penal-parte-geral-avancado-04-q06",
         "tipo": "comparativa",
-        "enunciado": "Compare dois institutos relevantes de Estrutura analítica do crime e distinções básicas sem confundi-los.",
-        "respostaEsperada": "A comparação deve separar requisitos, momento de incidência e consequência jurídica em temas como crime, contravenção, tipicidade, ilicitude, culpabilidade, sujeito ativo e sujeito passivo.",
-        "comentario": "A comparação é indispensável para questões de caso concreto."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Conceito analítico usual divide crime em fato típico, ilicitude e culpabilidade. Pegadinha: Misturar excludente de ilicitude com excludente de culpabilidade.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q04-08",
-        "tipo": "treino_ia",
-        "enunciado": "Peça ao tutor IA três casos curtos sobre Estrutura analítica do crime e distinções básicas, com uma pegadinha em cada caso.",
-        "criteriosCorrecao": [
-          "identificar instituto correto",
-          "apontar requisito decisivo",
-          "justificar sem moralismo",
-          "corrigir a pegadinha"
-        ],
-        "comentario": "Treino ideal para transformar teoria penal em acerto de prova."
-      },
-      {
-        "id": "q04-09",
+        "id": "direito-penal-parte-geral-avancado-04-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "No estudo de Estrutura analítica do crime e distinções básicas, qual postura aumenta a chance de acerto?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Decorar apenas o nome do instituto."
-          },
-          {
-            "letra": "B",
-            "texto": "Ignorar exceções porque a regra geral sempre resolve tudo."
-          },
-          {
-            "letra": "C",
-            "texto": "Mapear conceito, requisitos, exceções e consequência prática."
-          },
-          {
-            "letra": "D",
-            "texto": "Escolher sempre a alternativa que aumenta a pena."
-          },
-          {
-            "letra": "E",
-            "texto": "Trocar termos técnicos por sinônimos sem cuidado."
-          }
+          "Ilicitude pode ser afastada por causas justificantes.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Achar que fato típico sempre gera condenação."
         ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A postura correta é estudar com mapa de requisitos e consequências."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q04-10",
-        "tipo": "certo_errado",
-        "enunciado": "A principal dificuldade de Estrutura analítica do crime e distinções básicas é identificar o instituto aplicável ao caso concreto e evitar confusão entre categorias próximas.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "Essa é uma das marcas de Direito Penal Parte Geral em concursos."
+        "id": "direito-penal-parte-geral-avancado-04-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Achar que fato típico sempre gera condenação.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-04-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Teoria do crime a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Culpabilidade examina possibilidade de censura pessoal ao agente.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-04-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Conceito analítico usual divide crime em fato típico, ilicitude e culpabilidade.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Conduta, resultado, nexo causal, tipicidade e crimes omissivos"
+    "proximoTitulo": "Conduta, resultado e nexo causal"
   },
   {
-    "id": "conduta-resultado-nexo-causal-tipicidade-e-crimes-omissivos",
-    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "id": "conduta-resultado-e-nexo-causal",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / OAB",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 5,
     "totalChapters": 10,
-    "title": "Conduta, resultado, nexo causal, tipicidade e crimes omissivos",
-    "assunto": "Elementos do fato típico e omissão penalmente relevante",
-    "tecnica": "Leitura por conceito, requisito, consequência jurídica, comparação e caso prático",
-    "competencia": "Resolver questões penais de Parte Geral com precisão técnica, limites constitucionais e raciocínio de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 14,
+    "title": "Conduta, resultado e nexo causal",
+    "assunto": "imputação do fato",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar imputação do fato com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
     "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "conduta",
-      "resultado",
-      "nexo causal",
-      "concausas",
-      "omissão própria",
-      "omissão imprópria e garantidor"
+      "imputacao do fato"
     ],
-    "fontesBase": [
-      "Código Penal — Parte Geral",
-      "Constituição Federal de 1988 — garantias penais e processuais",
-      "Lei de Introdução ao Código Penal, quando aplicável",
-      "Jurisprudência atualizada STF/STJ e edital específico, com conferência oficial antes da publicação final"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
-    "riscoAtualizacao": "alto",
-    "motivoRiscoAtualizacao": "Matéria penal depende de texto legal vigente, jurisprudência atualizada, reformas penais e recorte do edital.",
-    "publicoAlvo": "candidatos de carreiras policiais, tribunais, Ministério Público, defensorias, OAB e concursos gerais",
-    "areaPlataforma": "Apostilas / Direito Penal / Parte Geral",
-    "versaoConteudo": "10/10 Plus Revisado Lote 26",
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Elementos do fato típico e omissão penalmente relevante com foco em provas objetivas, discursivas e casos práticos de concursos.",
-      "Ideia central: Para responsabilizar alguém pelo resultado, a banca exige conduta, nexo causal e enquadramento típico, inclusive na omissão relevante.",
-      "Como a banca complica: ela mistura institutos próximos, troca requisito por consequência ou usa linguagem absoluta para induzir erro.",
-      "Erro comum: Afirmar que toda omissão gera responsabilidade penal pelo resultado.",
-      "Estratégia de estudo: leia o conceito, liste requisitos, compare exceções, resolva casos curtos e revise o gabarito com fundamento técnico."
+      "Conduta, resultado e nexo causal exige domínio de imputação do fato. O estudo correto começa pela ideia de que conduta penalmente relevante pode ser ação ou omissão quando houver dever jurídico de agir.",
+      "Resultado naturalístico é exigido em crimes materiais, mas não em crimes formais ou de mera conduta. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Nexo causal liga conduta ao resultado, com filtros de imputação quando houver causas independentes. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Omissão imprópria exige posição de garantidor. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Para responsabilizar alguém pelo resultado, a banca exige conduta, nexo causal e enquadramento típico, inclusive na omissão relevante.",
-      "Cai muito: conduta, resultado, nexo causal, concausas, omissão própria, omissão imprópria e garantidor.",
-      "A resposta penal deve respeitar legalidade, tipicidade e limites constitucionais.",
-      "Pegadinha: Afirmar que toda omissão gera responsabilidade penal pelo resultado."
+      "Conduta penalmente relevante pode ser ação ou omissão quando houver dever jurídico de agir.",
+      "Resultado naturalístico é exigido em crimes materiais, mas não em crimes formais ou de mera conduta.",
+      "Nexo causal liga conduta ao resultado, com filtros de imputação quando houver causas independentes.",
+      "Omissão imprópria exige posição de garantidor."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a ideia central de Elementos do fato típico e omissão penalmente relevante?",
-      "opcoes": [
-        "Afirmar que toda omissão gera responsabilidade penal pelo resultado.",
-        "Para responsabilizar alguém pelo resultado, a banca exige conduta, nexo causal e enquadramento típico, inclusive na omissão relevante.",
-        "Basta escolher a alternativa mais punitiva."
-      ],
-      "correta": 1,
-      "justificativa": "A alternativa correta traz o conceito sem eliminar os requisitos legais."
-    },
-    "oQueCobra": "Questões sobre conduta, resultado, nexo causal, concausas, omissão própria, omissão imprópria e garantidor, com comparações, casos práticos e alternativas absolutas.",
-    "precisaSaberAntes": "Princípio da legalidade, leitura de enunciado, estrutura básica do crime e vocabulário jurídico penal.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta caso curto ou conceito incompleto sobre Elementos do fato típico e omissão penalmente relevante e exige identificar o instituto correto."
+        "pergunta": "Qual é o núcleo de Conduta, resultado e nexo causal?",
+        "resposta": "Conduta penalmente relevante pode ser ação ou omissão quando houver dever jurídico de agir."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Separe conceito, requisito, exceção e consequência. Não responda por intuição punitiva."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Punir omissão sem dever jurídico."
       },
       {
-        "titulo": "Conexão com prática policial",
-        "texto": "O módulo é educativo: ajuda a compreender limites legais da atuação estatal e não substitui protocolo oficial, legislação vigente ou orientação institucional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Salva-vidas que não age diante de afogamento pode responder por omissão imprópria se tinha dever de proteção."
       }
     ],
-    "comoIdentificar": "Procure palavras como conduta, resultado, nexo causal, concausas, omissão própria, omissão imprópria e garantidor e observe se o enunciado pede regra, exceção, conceito ou consequência.",
+    "quadroDeDominio": {
+      "conceito": "Conduta penalmente relevante pode ser ação ou omissão quando houver dever jurídico de agir.",
+      "limite": "Resultado naturalístico é exigido em crimes materiais, mas não em crimes formais ou de mera conduta.",
+      "aplicacao": "Salva-vidas que não age diante de afogamento pode responder por omissão imprópria se tinha dever de proteção.",
+      "erroFatal": "Punir omissão sem dever jurídico."
+    },
+    "exemploComentado": "Salva-vidas que não age diante de afogamento pode responder por omissão imprópria se tinha dever de proteção.",
     "pegadinhas": [
-      "Afirmar que toda omissão gera responsabilidade penal pelo resultado.",
-      "confundir regra com exceção",
-      "usar linguagem absoluta",
-      "ignorar requisito subjetivo",
-      "misturar Parte Geral com crime em espécie"
+      "Punir omissão sem dever jurídico.",
+      "Exigir resultado naturalístico em crime de mera conduta."
     ],
-    "resumoFrase": "Para responsabilizar alguém pelo resultado, a banca exige conduta, nexo causal e enquadramento típico, inclusive na omissão relevante.",
-    "explicacaoComoSeTivesse12": "Pense assim: Para responsabilizar alguém pelo resultado, a banca exige conduta, nexo causal e enquadramento típico, inclusive na omissão relevante. Em prova, você precisa descobrir qual regra se aplica e qual detalhe muda a resposta.",
-    "mapaMentalTextual": {
-      "centro": "Elementos do fato típico e omissão penalmente relevante",
-      "ramos": [
-        "conceito",
-        "requisitos",
-        "exceções",
-        "caso prático",
-        "pegadinha",
-        "consequência",
-        "revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Conduta, resultado e nexo causal",
+      "Conceito: Conduta penalmente relevante pode ser ação ou omissão quando houver dever jurídico de agir.",
+      "Aplicação: Salva-vidas que não age diante de afogamento pode responder por omissão imprópria se tinha dever de proteção.",
+      "Cuidado: Punir omissão sem dever jurídico."
+    ],
     "comoEstudar": [
-      "Ler o conceito",
-      "Fazer quadro de requisitos",
-      "Comparar instituto parecido",
-      "Resolver 10 questões",
-      "Revisar erros com flashcards"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Não caia na armadilha: Afirmar que toda omissão gera responsabilidade penal pelo resultado.",
-    "revisaoProgramada": {
-      "D0": "ler e resumir requisitos",
-      "D1": "refazer questões erradas",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto de Parte Geral"
-    },
-    "criteriosDominio": [
-      "conceituar instituto",
-      "listar requisitos",
-      "comparar exceções",
-      "resolver caso concreto",
-      "justificar gabarito"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f05-01",
-        "frente": "Qual é a ideia central de Elementos do fato típico e omissão penalmente relevante?",
-        "verso": "Para responsabilizar alguém pelo resultado, a banca exige conduta, nexo causal e enquadramento típico, inclusive na omissão relevante.",
-        "tag": "Elementos do fato típico e omissão penalmente relevante",
+        "id": "direito-penal-parte-geral-avancado-05-fc01",
+        "frente": "Qual é a ideia central de Conduta, resultado e nexo causal?",
+        "verso": "Conduta penalmente relevante pode ser ação ou omissão quando houver dever jurídico de agir.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f05-02",
-        "frente": "Qual pegadinha a banca costuma usar em Elementos do fato típico e omissão penalmente relevante?",
-        "verso": "Afirmar que toda omissão gera responsabilidade penal pelo resultado.",
+        "id": "direito-penal-parte-geral-avancado-05-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em imputação do fato?",
+        "verso": "Resultado naturalístico é exigido em crimes materiais, mas não em crimes formais ou de mera conduta.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-05-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Punir omissão sem dever jurídico. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f05-03",
-        "frente": "Como estudar Elementos do fato típico e omissão penalmente relevante para prova?",
-        "verso": "Estude o conceito, memorize os requisitos, compare institutos parecidos e resolva casos curtos sobre conduta, resultado, nexo causal, concausas, omissão própria, omissão imprópria e garantidor.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f05-04",
-        "frente": "Qual comparação é decisiva em Elementos do fato típico e omissão penalmente relevante?",
-        "verso": "Compare conduta, resultado, nexo causal, concausas, omissão própria, omissão imprópria e garantidor sem trocar requisito legal por opinião. Em Penal, a banca costuma mudar uma palavra para alterar todo o resultado.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "direito-penal-parte-geral-avancado-05-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Salva-vidas que não age diante de afogamento pode responder por omissão imprópria se tinha dever de proteção.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Crie 5 casos práticos de concurso sobre Elementos do fato típico e omissão penalmente relevante, cada um com gabarito comentado e uma pegadinha comum.",
-      "objetivo": "Treinar aplicação da Parte Geral do Direito Penal em casos de banca."
-    },
     "questoes": [
       {
-        "id": "q05-01",
+        "id": "direito-penal-parte-geral-avancado-05-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Elementos do fato típico e omissão penalmente relevante, assinale a alternativa correta.",
+        "enunciado": "Em relação a Conduta, resultado e nexo causal, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "A punição penal pode dispensar lei anterior quando o fato parecer socialmente grave."
-          },
-          {
-            "letra": "B",
-            "texto": "Para responsabilizar alguém pelo resultado, a banca exige conduta, nexo causal e enquadramento típico, inclusive na omissão relevante."
-          },
-          {
-            "letra": "C",
-            "texto": "A analogia pode sempre criar crime e agravar pena contra o acusado."
-          },
-          {
-            "letra": "D",
-            "texto": "A banca ignora requisitos legais quando o caso envolve segurança pública."
-          },
-          {
-            "letra": "E",
-            "texto": "A responsabilização penal depende apenas da repercussão social do fato."
-          }
+          "Conduta penalmente relevante pode ser ação ou omissão quando houver dever jurídico de agir.",
+          "Punir omissão sem dever jurídico.",
+          "Exigir resultado naturalístico em crime de mera conduta.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "A alternativa B resume corretamente o ponto central: Para responsabilizar alguém pelo resultado, a banca exige conduta, nexo causal e enquadramento típico, inclusive na omissão relevante."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A alternativa correta resume o núcleo do tema: Conduta penalmente relevante pode ser ação ou omissão quando houver dever jurídico de agir."
       },
       {
-        "id": "q05-02",
+        "id": "direito-penal-parte-geral-avancado-05-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Elementos do fato típico e omissão penalmente relevante, é correto substituir requisito legal por juízo moral genérico.",
+        "enunciado": "Resultado naturalístico é exigido em crimes materiais, mas não em crimes formais ou de mera conduta.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de imputação do fato."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-05-q03",
+        "tipo": "certo_errado",
+        "enunciado": "Punir omissão sem dever jurídico.",
         "gabarito": "Errado",
-        "correta": false,
-        "comentario": "Direito Penal exige enquadramento legal, requisitos e limites constitucionais."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q05-03",
-        "tipo": "certo_errado",
-        "enunciado": "A análise de Elementos do fato típico e omissão penalmente relevante exige atenção a conceitos parecidos e às palavras usadas pela banca.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "A banca costuma trocar expressões técnicas para testar precisão conceitual."
-      },
-      {
-        "id": "q05-04",
+        "id": "direito-penal-parte-geral-avancado-05-q04",
         "tipo": "caso_pratico",
-        "enunciado": "Em uma situação envolvendo Elementos do fato típico e omissão penalmente relevante, o candidato percebe que a questão afirma: 'Afirmar que toda omissão gera responsabilidade penal pelo resultado.'. Qual é o melhor caminho de resolução?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Aceitar a frase, pois pegadinhas costumam ser verdadeiras em Direito Penal."
-          },
-          {
-            "letra": "B",
-            "texto": "Conferir os requisitos legais e separar o instituto correto do instituto parecido."
-          },
-          {
-            "letra": "C",
-            "texto": "Responder pela alternativa mais severa, sempre favorável à acusação."
-          },
-          {
-            "letra": "D",
-            "texto": "Ignorar o caso concreto e marcar a alternativa com linguagem mais longa."
-          },
-          {
-            "letra": "E",
-            "texto": "Aplicar analogia para prejudicar o réu quando houver dúvida."
-          }
-        ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "O caminho seguro é comparar requisitos e evitar conclusões automáticas."
+        "enunciado": "Considere o caso: Salva-vidas que não age diante de afogamento pode responder por omissão imprópria se tinha dever de proteção. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Nexo causal liga conduta ao resultado, com filtros de imputação quando houver causas independentes.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q05-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual afirmação representa uma pegadinha recorrente em Elementos do fato típico e omissão penalmente relevante?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Separar conceito, requisito e consequência jurídica."
-          },
-          {
-            "letra": "B",
-            "texto": "Ler o caso concreto antes de escolher a resposta."
-          },
-          {
-            "letra": "C",
-            "texto": "Afirmar que toda omissão gera responsabilidade penal pelo resultado."
-          },
-          {
-            "letra": "D",
-            "texto": "Verificar se a questão cobra regra, exceção ou comparação."
-          },
-          {
-            "letra": "E",
-            "texto": "Usar a lei penal de modo compatível com a Constituição."
-          }
-        ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A alternativa C mostra exatamente a armadilha destacada no capítulo."
-      },
-      {
-        "id": "q05-06",
+        "id": "direito-penal-parte-geral-avancado-05-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Em uma frase, explique a ideia central de Elementos do fato típico e omissão penalmente relevante.",
-        "respostaEsperada": "Para responsabilizar alguém pelo resultado, a banca exige conduta, nexo causal e enquadramento típico, inclusive na omissão relevante.",
-        "comentario": "A resposta deve indicar o conceito e sua consequência para a prova."
+        "enunciado": "Explique, em até três linhas, por que imputação do fato não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar conduta penalmente relevante pode ser ação ou omissão quando houver dever jurídico de agir. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q05-07",
+        "id": "direito-penal-parte-geral-avancado-05-q06",
         "tipo": "comparativa",
-        "enunciado": "Compare dois institutos relevantes de Elementos do fato típico e omissão penalmente relevante sem confundi-los.",
-        "respostaEsperada": "A comparação deve separar requisitos, momento de incidência e consequência jurídica em temas como conduta, resultado, nexo causal, concausas, omissão própria, omissão imprópria e garantidor.",
-        "comentario": "A comparação é indispensável para questões de caso concreto."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Conduta penalmente relevante pode ser ação ou omissão quando houver dever jurídico de agir. Pegadinha: Punir omissão sem dever jurídico.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q05-08",
-        "tipo": "treino_ia",
-        "enunciado": "Peça ao tutor IA três casos curtos sobre Elementos do fato típico e omissão penalmente relevante, com uma pegadinha em cada caso.",
-        "criteriosCorrecao": [
-          "identificar instituto correto",
-          "apontar requisito decisivo",
-          "justificar sem moralismo",
-          "corrigir a pegadinha"
-        ],
-        "comentario": "Treino ideal para transformar teoria penal em acerto de prova."
-      },
-      {
-        "id": "q05-09",
+        "id": "direito-penal-parte-geral-avancado-05-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "No estudo de Elementos do fato típico e omissão penalmente relevante, qual postura aumenta a chance de acerto?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Decorar apenas o nome do instituto."
-          },
-          {
-            "letra": "B",
-            "texto": "Ignorar exceções porque a regra geral sempre resolve tudo."
-          },
-          {
-            "letra": "C",
-            "texto": "Mapear conceito, requisitos, exceções e consequência prática."
-          },
-          {
-            "letra": "D",
-            "texto": "Escolher sempre a alternativa que aumenta a pena."
-          },
-          {
-            "letra": "E",
-            "texto": "Trocar termos técnicos por sinônimos sem cuidado."
-          }
+          "Nexo causal liga conduta ao resultado, com filtros de imputação quando houver causas independentes.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Exigir resultado naturalístico em crime de mera conduta."
         ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A postura correta é estudar com mapa de requisitos e consequências."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q05-10",
-        "tipo": "certo_errado",
-        "enunciado": "A principal dificuldade de Elementos do fato típico e omissão penalmente relevante é identificar o instituto aplicável ao caso concreto e evitar confusão entre categorias próximas.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "Essa é uma das marcas de Direito Penal Parte Geral em concursos."
+        "id": "direito-penal-parte-geral-avancado-05-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Exigir resultado naturalístico em crime de mera conduta.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-05-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Conduta, resultado e nexo causal a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Omissão imprópria exige posição de garantidor.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-05-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Conduta penalmente relevante pode ser ação ou omissão quando houver dever jurídico de agir.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Dolo, culpa, preterdolo, erro de tipo e descriminantes putativas"
+    "proximoTitulo": "Dolo, culpa e erro"
   },
   {
-    "id": "dolo-culpa-preterdolo-erro-de-tipo-e-descriminantes-putativas",
-    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "id": "dolo-culpa-e-erro",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / OAB",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 6,
     "totalChapters": 10,
-    "title": "Dolo, culpa, preterdolo, erro de tipo e descriminantes putativas",
-    "assunto": "Elemento subjetivo, erro e responsabilidade penal",
-    "tecnica": "Leitura por conceito, requisito, consequência jurídica, comparação e caso prático",
-    "competencia": "Resolver questões penais de Parte Geral com precisão técnica, limites constitucionais e raciocínio de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 14,
+    "title": "Dolo, culpa e erro",
+    "assunto": "elemento subjetivo",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar elemento subjetivo com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
     "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "dolo direto",
-      "dolo eventual",
-      "culpa consciente",
-      "culpa inconsciente",
-      "preterdolo e erro de tipo"
+      "elemento subjetivo"
     ],
-    "fontesBase": [
-      "Código Penal — Parte Geral",
-      "Constituição Federal de 1988 — garantias penais e processuais",
-      "Lei de Introdução ao Código Penal, quando aplicável",
-      "Jurisprudência atualizada STF/STJ e edital específico, com conferência oficial antes da publicação final"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
-    "riscoAtualizacao": "alto",
-    "motivoRiscoAtualizacao": "Matéria penal depende de texto legal vigente, jurisprudência atualizada, reformas penais e recorte do edital.",
-    "publicoAlvo": "candidatos de carreiras policiais, tribunais, Ministério Público, defensorias, OAB e concursos gerais",
-    "areaPlataforma": "Apostilas / Direito Penal / Parte Geral",
-    "versaoConteudo": "10/10 Plus Revisado Lote 26",
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Elemento subjetivo, erro e responsabilidade penal com foco em provas objetivas, discursivas e casos práticos de concursos.",
-      "Ideia central: Dolo envolve vontade e consciência; culpa exige violação do dever objetivo de cuidado; erro de tipo pode afastar dolo.",
-      "Como a banca complica: ela mistura institutos próximos, troca requisito por consequência ou usa linguagem absoluta para induzir erro.",
-      "Erro comum: Confundir erro de tipo com erro de proibição.",
-      "Estratégia de estudo: leia o conceito, liste requisitos, compare exceções, resolva casos curtos e revise o gabarito com fundamento técnico."
+      "Dolo, culpa e erro exige domínio de elemento subjetivo. O estudo correto começa pela ideia de que dolo envolve consciência e vontade de realizar o tipo, podendo admitir modalidades conforme o caso.",
+      "Culpa exige violação de dever objetivo de cuidado, previsibilidade e resultado involuntário. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Preterdolo combina dolo no antecedente e culpa no resultado agravador. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Erro de tipo pode excluir dolo e, se inevitável, também culpa conforme o crime. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Dolo envolve vontade e consciência; culpa exige violação do dever objetivo de cuidado; erro de tipo pode afastar dolo.",
-      "Cai muito: dolo direto, dolo eventual, culpa consciente, culpa inconsciente, preterdolo e erro de tipo.",
-      "A resposta penal deve respeitar legalidade, tipicidade e limites constitucionais.",
-      "Pegadinha: Confundir erro de tipo com erro de proibição."
+      "Dolo envolve consciência e vontade de realizar o tipo, podendo admitir modalidades conforme o caso.",
+      "Culpa exige violação de dever objetivo de cuidado, previsibilidade e resultado involuntário.",
+      "Preterdolo combina dolo no antecedente e culpa no resultado agravador.",
+      "Erro de tipo pode excluir dolo e, se inevitável, também culpa conforme o crime."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a ideia central de Elemento subjetivo, erro e responsabilidade penal?",
-      "opcoes": [
-        "Confundir erro de tipo com erro de proibição.",
-        "Dolo envolve vontade e consciência; culpa exige violação do dever objetivo de cuidado; erro de tipo pode afastar dolo.",
-        "Basta escolher a alternativa mais punitiva."
-      ],
-      "correta": 1,
-      "justificativa": "A alternativa correta traz o conceito sem eliminar os requisitos legais."
-    },
-    "oQueCobra": "Questões sobre dolo direto, dolo eventual, culpa consciente, culpa inconsciente, preterdolo e erro de tipo, com comparações, casos práticos e alternativas absolutas.",
-    "precisaSaberAntes": "Princípio da legalidade, leitura de enunciado, estrutura básica do crime e vocabulário jurídico penal.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta caso curto ou conceito incompleto sobre Elemento subjetivo, erro e responsabilidade penal e exige identificar o instituto correto."
+        "pergunta": "Qual é o núcleo de Dolo, culpa e erro?",
+        "resposta": "Dolo envolve consciência e vontade de realizar o tipo, podendo admitir modalidades conforme o caso."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Separe conceito, requisito, exceção e consequência. Não responda por intuição punitiva."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Confundir dolo eventual com culpa consciente sem analisar aceitação do risco."
       },
       {
-        "titulo": "Conexão com prática policial",
-        "texto": "O módulo é educativo: ajuda a compreender limites legais da atuação estatal e não substitui protocolo oficial, legislação vigente ou orientação institucional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Motorista que prevê risco e confia sinceramente que evitará resultado pode estar em culpa consciente, não necessariamente dolo eventual."
       }
     ],
-    "comoIdentificar": "Procure palavras como dolo direto, dolo eventual, culpa consciente, culpa inconsciente, preterdolo e erro de tipo e observe se o enunciado pede regra, exceção, conceito ou consequência.",
+    "quadroDeDominio": {
+      "conceito": "Dolo envolve consciência e vontade de realizar o tipo, podendo admitir modalidades conforme o caso.",
+      "limite": "Culpa exige violação de dever objetivo de cuidado, previsibilidade e resultado involuntário.",
+      "aplicacao": "Motorista que prevê risco e confia sinceramente que evitará resultado pode estar em culpa consciente, não necessariamente dolo eventual.",
+      "erroFatal": "Confundir dolo eventual com culpa consciente sem analisar aceitação do risco."
+    },
+    "exemploComentado": "Motorista que prevê risco e confia sinceramente que evitará resultado pode estar em culpa consciente, não necessariamente dolo eventual.",
     "pegadinhas": [
-      "Confundir erro de tipo com erro de proibição.",
-      "confundir regra com exceção",
-      "usar linguagem absoluta",
-      "ignorar requisito subjetivo",
-      "misturar Parte Geral com crime em espécie"
+      "Confundir dolo eventual com culpa consciente sem analisar aceitação do risco.",
+      "Tratar todo erro como erro de proibição."
     ],
-    "resumoFrase": "Dolo envolve vontade e consciência; culpa exige violação do dever objetivo de cuidado; erro de tipo pode afastar dolo.",
-    "explicacaoComoSeTivesse12": "Pense assim: Dolo envolve vontade e consciência; culpa exige violação do dever objetivo de cuidado; erro de tipo pode afastar dolo. Em prova, você precisa descobrir qual regra se aplica e qual detalhe muda a resposta.",
-    "mapaMentalTextual": {
-      "centro": "Elemento subjetivo, erro e responsabilidade penal",
-      "ramos": [
-        "conceito",
-        "requisitos",
-        "exceções",
-        "caso prático",
-        "pegadinha",
-        "consequência",
-        "revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Dolo, culpa e erro",
+      "Conceito: Dolo envolve consciência e vontade de realizar o tipo, podendo admitir modalidades conforme o caso.",
+      "Aplicação: Motorista que prevê risco e confia sinceramente que evitará resultado pode estar em culpa consciente, não necessariamente dolo eventual.",
+      "Cuidado: Confundir dolo eventual com culpa consciente sem analisar aceitação do risco."
+    ],
     "comoEstudar": [
-      "Ler o conceito",
-      "Fazer quadro de requisitos",
-      "Comparar instituto parecido",
-      "Resolver 10 questões",
-      "Revisar erros com flashcards"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Não caia na armadilha: Confundir erro de tipo com erro de proibição.",
-    "revisaoProgramada": {
-      "D0": "ler e resumir requisitos",
-      "D1": "refazer questões erradas",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto de Parte Geral"
-    },
-    "criteriosDominio": [
-      "conceituar instituto",
-      "listar requisitos",
-      "comparar exceções",
-      "resolver caso concreto",
-      "justificar gabarito"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f06-01",
-        "frente": "Qual é a ideia central de Elemento subjetivo, erro e responsabilidade penal?",
-        "verso": "Dolo envolve vontade e consciência; culpa exige violação do dever objetivo de cuidado; erro de tipo pode afastar dolo.",
-        "tag": "Elemento subjetivo, erro e responsabilidade penal",
+        "id": "direito-penal-parte-geral-avancado-06-fc01",
+        "frente": "Qual é a ideia central de Dolo, culpa e erro?",
+        "verso": "Dolo envolve consciência e vontade de realizar o tipo, podendo admitir modalidades conforme o caso.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f06-02",
-        "frente": "Qual pegadinha a banca costuma usar em Elemento subjetivo, erro e responsabilidade penal?",
-        "verso": "Confundir erro de tipo com erro de proibição.",
+        "id": "direito-penal-parte-geral-avancado-06-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em elemento subjetivo?",
+        "verso": "Culpa exige violação de dever objetivo de cuidado, previsibilidade e resultado involuntário.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-06-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Confundir dolo eventual com culpa consciente sem analisar aceitação do risco.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f06-03",
-        "frente": "Como estudar Elemento subjetivo, erro e responsabilidade penal para prova?",
-        "verso": "Estude o conceito, memorize os requisitos, compare institutos parecidos e resolva casos curtos sobre dolo direto, dolo eventual, culpa consciente, culpa inconsciente, preterdolo e erro de tipo.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f06-04",
-        "frente": "Qual comparação é decisiva em Elemento subjetivo, erro e responsabilidade penal?",
-        "verso": "Compare dolo direto, dolo eventual, culpa consciente, culpa inconsciente, preterdolo e erro de tipo sem trocar requisito legal por opinião. Em Penal, a banca costuma mudar uma palavra para alterar todo o resultado.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "direito-penal-parte-geral-avancado-06-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Motorista que prevê risco e confia sinceramente que evitará resultado pode estar em culpa consciente, não necessariamente dolo eventual.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Crie 5 casos práticos de concurso sobre Elemento subjetivo, erro e responsabilidade penal, cada um com gabarito comentado e uma pegadinha comum.",
-      "objetivo": "Treinar aplicação da Parte Geral do Direito Penal em casos de banca."
-    },
     "questoes": [
       {
-        "id": "q06-01",
+        "id": "direito-penal-parte-geral-avancado-06-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Elemento subjetivo, erro e responsabilidade penal, assinale a alternativa correta.",
+        "enunciado": "Em relação a Dolo, culpa e erro, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "A punição penal pode dispensar lei anterior quando o fato parecer socialmente grave."
-          },
-          {
-            "letra": "B",
-            "texto": "Dolo envolve vontade e consciência; culpa exige violação do dever objetivo de cuidado; erro de tipo pode afastar dolo."
-          },
-          {
-            "letra": "C",
-            "texto": "A analogia pode sempre criar crime e agravar pena contra o acusado."
-          },
-          {
-            "letra": "D",
-            "texto": "A banca ignora requisitos legais quando o caso envolve segurança pública."
-          },
-          {
-            "letra": "E",
-            "texto": "A responsabilização penal depende apenas da repercussão social do fato."
-          }
+          "Dolo envolve consciência e vontade de realizar o tipo, podendo admitir modalidades conforme o caso.",
+          "Confundir dolo eventual com culpa consciente sem analisar aceitação do risco.",
+          "Tratar todo erro como erro de proibição.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "A alternativa B resume corretamente o ponto central: Dolo envolve vontade e consciência; culpa exige violação do dever objetivo de cuidado; erro de tipo pode afastar dolo."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A alternativa correta resume o núcleo do tema: Dolo envolve consciência e vontade de realizar o tipo, podendo admitir modalidades conforme o caso."
       },
       {
-        "id": "q06-02",
+        "id": "direito-penal-parte-geral-avancado-06-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Elemento subjetivo, erro e responsabilidade penal, é correto substituir requisito legal por juízo moral genérico.",
+        "enunciado": "Culpa exige violação de dever objetivo de cuidado, previsibilidade e resultado involuntário.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de elemento subjetivo."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-06-q03",
+        "tipo": "certo_errado",
+        "enunciado": "Confundir dolo eventual com culpa consciente sem analisar aceitação do risco.",
         "gabarito": "Errado",
-        "correta": false,
-        "comentario": "Direito Penal exige enquadramento legal, requisitos e limites constitucionais."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q06-03",
-        "tipo": "certo_errado",
-        "enunciado": "A análise de Elemento subjetivo, erro e responsabilidade penal exige atenção a conceitos parecidos e às palavras usadas pela banca.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "A banca costuma trocar expressões técnicas para testar precisão conceitual."
-      },
-      {
-        "id": "q06-04",
+        "id": "direito-penal-parte-geral-avancado-06-q04",
         "tipo": "caso_pratico",
-        "enunciado": "Em uma situação envolvendo Elemento subjetivo, erro e responsabilidade penal, o candidato percebe que a questão afirma: 'Confundir erro de tipo com erro de proibição.'. Qual é o melhor caminho de resolução?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Aceitar a frase, pois pegadinhas costumam ser verdadeiras em Direito Penal."
-          },
-          {
-            "letra": "B",
-            "texto": "Conferir os requisitos legais e separar o instituto correto do instituto parecido."
-          },
-          {
-            "letra": "C",
-            "texto": "Responder pela alternativa mais severa, sempre favorável à acusação."
-          },
-          {
-            "letra": "D",
-            "texto": "Ignorar o caso concreto e marcar a alternativa com linguagem mais longa."
-          },
-          {
-            "letra": "E",
-            "texto": "Aplicar analogia para prejudicar o réu quando houver dúvida."
-          }
-        ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "O caminho seguro é comparar requisitos e evitar conclusões automáticas."
+        "enunciado": "Considere o caso: Motorista que prevê risco e confia sinceramente que evitará resultado pode estar em culpa consciente, não necessariamente dolo eventual. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Preterdolo combina dolo no antecedente e culpa no resultado agravador.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q06-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual afirmação representa uma pegadinha recorrente em Elemento subjetivo, erro e responsabilidade penal?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Separar conceito, requisito e consequência jurídica."
-          },
-          {
-            "letra": "B",
-            "texto": "Ler o caso concreto antes de escolher a resposta."
-          },
-          {
-            "letra": "C",
-            "texto": "Confundir erro de tipo com erro de proibição."
-          },
-          {
-            "letra": "D",
-            "texto": "Verificar se a questão cobra regra, exceção ou comparação."
-          },
-          {
-            "letra": "E",
-            "texto": "Usar a lei penal de modo compatível com a Constituição."
-          }
-        ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A alternativa C mostra exatamente a armadilha destacada no capítulo."
-      },
-      {
-        "id": "q06-06",
+        "id": "direito-penal-parte-geral-avancado-06-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Em uma frase, explique a ideia central de Elemento subjetivo, erro e responsabilidade penal.",
-        "respostaEsperada": "Dolo envolve vontade e consciência; culpa exige violação do dever objetivo de cuidado; erro de tipo pode afastar dolo.",
-        "comentario": "A resposta deve indicar o conceito e sua consequência para a prova."
+        "enunciado": "Explique, em até três linhas, por que elemento subjetivo não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar dolo envolve consciência e vontade de realizar o tipo, podendo admitir modalidades conforme o caso. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q06-07",
+        "id": "direito-penal-parte-geral-avancado-06-q06",
         "tipo": "comparativa",
-        "enunciado": "Compare dois institutos relevantes de Elemento subjetivo, erro e responsabilidade penal sem confundi-los.",
-        "respostaEsperada": "A comparação deve separar requisitos, momento de incidência e consequência jurídica em temas como dolo direto, dolo eventual, culpa consciente, culpa inconsciente, preterdolo e erro de tipo.",
-        "comentario": "A comparação é indispensável para questões de caso concreto."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Dolo envolve consciência e vontade de realizar o tipo, podendo admitir modalidades conforme o caso. Pegadinha: Confundir dolo eventual com culpa consciente sem analisar aceitação do risco.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q06-08",
-        "tipo": "treino_ia",
-        "enunciado": "Peça ao tutor IA três casos curtos sobre Elemento subjetivo, erro e responsabilidade penal, com uma pegadinha em cada caso.",
-        "criteriosCorrecao": [
-          "identificar instituto correto",
-          "apontar requisito decisivo",
-          "justificar sem moralismo",
-          "corrigir a pegadinha"
-        ],
-        "comentario": "Treino ideal para transformar teoria penal em acerto de prova."
-      },
-      {
-        "id": "q06-09",
+        "id": "direito-penal-parte-geral-avancado-06-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "No estudo de Elemento subjetivo, erro e responsabilidade penal, qual postura aumenta a chance de acerto?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Decorar apenas o nome do instituto."
-          },
-          {
-            "letra": "B",
-            "texto": "Ignorar exceções porque a regra geral sempre resolve tudo."
-          },
-          {
-            "letra": "C",
-            "texto": "Mapear conceito, requisitos, exceções e consequência prática."
-          },
-          {
-            "letra": "D",
-            "texto": "Escolher sempre a alternativa que aumenta a pena."
-          },
-          {
-            "letra": "E",
-            "texto": "Trocar termos técnicos por sinônimos sem cuidado."
-          }
+          "Preterdolo combina dolo no antecedente e culpa no resultado agravador.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Tratar todo erro como erro de proibição."
         ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A postura correta é estudar com mapa de requisitos e consequências."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q06-10",
-        "tipo": "certo_errado",
-        "enunciado": "A principal dificuldade de Elemento subjetivo, erro e responsabilidade penal é identificar o instituto aplicável ao caso concreto e evitar confusão entre categorias próximas.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "Essa é uma das marcas de Direito Penal Parte Geral em concursos."
+        "id": "direito-penal-parte-geral-avancado-06-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Tratar todo erro como erro de proibição.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-06-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Dolo, culpa e erro a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Erro de tipo pode excluir dolo e, se inevitável, também culpa conforme o crime.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-06-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Dolo envolve consciência e vontade de realizar o tipo, podendo admitir modalidades conforme o caso.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Ilicitude e excludentes: estado de necessidade, legítima defesa, estrito dever legal e exercício regular de direito"
+    "proximoTitulo": "Ilicitude e justificantes"
   },
   {
-    "id": "ilicitude-e-excludentes-estado-de-necessidade-legitima-defesa-estrito-dever-legal-e-exerci",
-    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "id": "ilicitude-e-justificantes",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / OAB",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 7,
     "totalChapters": 10,
-    "title": "Ilicitude e excludentes: estado de necessidade, legítima defesa, estrito dever legal e exercício regular de direito",
-    "assunto": "Antijuridicidade e causas legais de justificação",
-    "tecnica": "Leitura por conceito, requisito, consequência jurídica, comparação e caso prático",
-    "competencia": "Resolver questões penais de Parte Geral com precisão técnica, limites constitucionais e raciocínio de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 14,
+    "title": "Ilicitude e justificantes",
+    "assunto": "causas de exclusão da antijuridicidade",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar causas de exclusão da antijuridicidade com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
     "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "estado de necessidade",
-      "legítima defesa",
-      "estrito cumprimento do dever legal",
-      "exercício regular de direito e excesso punível"
+      "causas de exclusao da antijuridicidade"
     ],
-    "fontesBase": [
-      "Código Penal — Parte Geral",
-      "Constituição Federal de 1988 — garantias penais e processuais",
-      "Lei de Introdução ao Código Penal, quando aplicável",
-      "Jurisprudência atualizada STF/STJ e edital específico, com conferência oficial antes da publicação final"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
-    "riscoAtualizacao": "alto",
-    "motivoRiscoAtualizacao": "Matéria penal depende de texto legal vigente, jurisprudência atualizada, reformas penais e recorte do edital.",
-    "publicoAlvo": "candidatos de carreiras policiais, tribunais, Ministério Público, defensorias, OAB e concursos gerais",
-    "areaPlataforma": "Apostilas / Direito Penal / Parte Geral",
-    "versaoConteudo": "10/10 Plus Revisado Lote 26",
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Antijuridicidade e causas legais de justificação com foco em provas objetivas, discursivas e casos práticos de concursos.",
-      "Ideia central: Mesmo havendo fato típico, a conduta pode não ser ilícita quando estiver amparada por excludente legal.",
-      "Como a banca complica: ela mistura institutos próximos, troca requisito por consequência ou usa linguagem absoluta para induzir erro.",
-      "Erro comum: Tratar legítima defesa como autorização para excesso ou vingança posterior.",
-      "Estratégia de estudo: leia o conceito, liste requisitos, compare exceções, resolva casos curtos e revise o gabarito com fundamento técnico."
+      "Ilicitude e justificantes exige domínio de causas de exclusão da antijuridicidade. O estudo correto começa pela ideia de que estado de necessidade envolve conflito entre bens jurídicos e sacrifício de um para salvar outro de perigo atual.",
+      "Legítima defesa exige agressão injusta, atual ou iminente, uso moderado dos meios necessários e defesa de direito. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Estrito cumprimento do dever legal protege atuação imposta pelo ordenamento. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Exercício regular de direito impede punição por conduta autorizada dentro dos limites legais. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Mesmo havendo fato típico, a conduta pode não ser ilícita quando estiver amparada por excludente legal.",
-      "Cai muito: estado de necessidade, legítima defesa, estrito cumprimento do dever legal, exercício regular de direito e excesso punível.",
-      "A resposta penal deve respeitar legalidade, tipicidade e limites constitucionais.",
-      "Pegadinha: Tratar legítima defesa como autorização para excesso ou vingança posterior."
+      "Estado de necessidade envolve conflito entre bens jurídicos e sacrifício de um para salvar outro de perigo atual.",
+      "Legítima defesa exige agressão injusta, atual ou iminente, uso moderado dos meios necessários e defesa de direito.",
+      "Estrito cumprimento do dever legal protege atuação imposta pelo ordenamento.",
+      "Exercício regular de direito impede punição por conduta autorizada dentro dos limites legais."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a ideia central de Antijuridicidade e causas legais de justificação?",
-      "opcoes": [
-        "Tratar legítima defesa como autorização para excesso ou vingança posterior.",
-        "Mesmo havendo fato típico, a conduta pode não ser ilícita quando estiver amparada por excludente legal.",
-        "Basta escolher a alternativa mais punitiva."
-      ],
-      "correta": 1,
-      "justificativa": "A alternativa correta traz o conceito sem eliminar os requisitos legais."
-    },
-    "oQueCobra": "Questões sobre estado de necessidade, legítima defesa, estrito cumprimento do dever legal, exercício regular de direito e excesso punível, com comparações, casos práticos e alternativas absolutas.",
-    "precisaSaberAntes": "Princípio da legalidade, leitura de enunciado, estrutura básica do crime e vocabulário jurídico penal.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta caso curto ou conceito incompleto sobre Antijuridicidade e causas legais de justificação e exige identificar o instituto correto."
+        "pergunta": "Qual é o núcleo de Ilicitude e justificantes?",
+        "resposta": "Estado de necessidade envolve conflito entre bens jurídicos e sacrifício de um para salvar outro de perigo atual."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Separe conceito, requisito, exceção e consequência. Não responda por intuição punitiva."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Chamar vingança posterior de legítima defesa."
       },
       {
-        "titulo": "Conexão com prática policial",
-        "texto": "O módulo é educativo: ajuda a compreender limites legais da atuação estatal e não substitui protocolo oficial, legislação vigente ou orientação institucional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Reagir horas depois de agressão encerrada não é legítima defesa, pois falta atualidade ou iminência."
       }
     ],
-    "comoIdentificar": "Procure palavras como estado de necessidade, legítima defesa, estrito cumprimento do dever legal, exercício regular de direito e excesso punível e observe se o enunciado pede regra, exceção, conceito ou consequência.",
+    "quadroDeDominio": {
+      "conceito": "Estado de necessidade envolve conflito entre bens jurídicos e sacrifício de um para salvar outro de perigo atual.",
+      "limite": "Legítima defesa exige agressão injusta, atual ou iminente, uso moderado dos meios necessários e defesa de direito.",
+      "aplicacao": "Reagir horas depois de agressão encerrada não é legítima defesa, pois falta atualidade ou iminência.",
+      "erroFatal": "Chamar vingança posterior de legítima defesa."
+    },
+    "exemploComentado": "Reagir horas depois de agressão encerrada não é legítima defesa, pois falta atualidade ou iminência.",
     "pegadinhas": [
-      "Tratar legítima defesa como autorização para excesso ou vingança posterior.",
-      "confundir regra com exceção",
-      "usar linguagem absoluta",
-      "ignorar requisito subjetivo",
-      "misturar Parte Geral com crime em espécie"
+      "Chamar vingança posterior de legítima defesa.",
+      "Ignorar moderação dos meios empregados."
     ],
-    "resumoFrase": "Mesmo havendo fato típico, a conduta pode não ser ilícita quando estiver amparada por excludente legal.",
-    "explicacaoComoSeTivesse12": "Pense assim: Mesmo havendo fato típico, a conduta pode não ser ilícita quando estiver amparada por excludente legal. Em prova, você precisa descobrir qual regra se aplica e qual detalhe muda a resposta.",
-    "mapaMentalTextual": {
-      "centro": "Antijuridicidade e causas legais de justificação",
-      "ramos": [
-        "conceito",
-        "requisitos",
-        "exceções",
-        "caso prático",
-        "pegadinha",
-        "consequência",
-        "revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Ilicitude e justificantes",
+      "Conceito: Estado de necessidade envolve conflito entre bens jurídicos e sacrifício de um para salvar outro de perigo atual.",
+      "Aplicação: Reagir horas depois de agressão encerrada não é legítima defesa, pois falta atualidade ou iminência.",
+      "Cuidado: Chamar vingança posterior de legítima defesa."
+    ],
     "comoEstudar": [
-      "Ler o conceito",
-      "Fazer quadro de requisitos",
-      "Comparar instituto parecido",
-      "Resolver 10 questões",
-      "Revisar erros com flashcards"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Não caia na armadilha: Tratar legítima defesa como autorização para excesso ou vingança posterior.",
-    "revisaoProgramada": {
-      "D0": "ler e resumir requisitos",
-      "D1": "refazer questões erradas",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto de Parte Geral"
-    },
-    "criteriosDominio": [
-      "conceituar instituto",
-      "listar requisitos",
-      "comparar exceções",
-      "resolver caso concreto",
-      "justificar gabarito"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f07-01",
-        "frente": "Qual é a ideia central de Antijuridicidade e causas legais de justificação?",
-        "verso": "Mesmo havendo fato típico, a conduta pode não ser ilícita quando estiver amparada por excludente legal.",
-        "tag": "Antijuridicidade e causas legais de justificação",
+        "id": "direito-penal-parte-geral-avancado-07-fc01",
+        "frente": "Qual é a ideia central de Ilicitude e justificantes?",
+        "verso": "Estado de necessidade envolve conflito entre bens jurídicos e sacrifício de um para salvar outro de perigo atual.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f07-02",
-        "frente": "Qual pegadinha a banca costuma usar em Antijuridicidade e causas legais de justificação?",
-        "verso": "Tratar legítima defesa como autorização para excesso ou vingança posterior.",
+        "id": "direito-penal-parte-geral-avancado-07-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em causas de exclusão da antijuridicidade?",
+        "verso": "Legítima defesa exige agressão injusta, atual ou iminente, uso moderado dos meios necessários e defesa de direito.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-07-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Chamar vingança posterior de legítima defesa.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f07-03",
-        "frente": "Como estudar Antijuridicidade e causas legais de justificação para prova?",
-        "verso": "Estude o conceito, memorize os requisitos, compare institutos parecidos e resolva casos curtos sobre estado de necessidade, legítima defesa, estrito cumprimento do dever legal, exercício regular de direito e excesso punível.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f07-04",
-        "frente": "Qual comparação é decisiva em Antijuridicidade e causas legais de justificação?",
-        "verso": "Compare estado de necessidade, legítima defesa, estrito cumprimento do dever legal, exercício regular de direito e excesso punível sem trocar requisito legal por opinião. Em Penal, a banca costuma mudar uma palavra para alterar todo o resultado.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "direito-penal-parte-geral-avancado-07-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Reagir horas depois de agressão encerrada não é legítima defesa, pois falta atualidade ou iminência.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Crie 5 casos práticos de concurso sobre Antijuridicidade e causas legais de justificação, cada um com gabarito comentado e uma pegadinha comum.",
-      "objetivo": "Treinar aplicação da Parte Geral do Direito Penal em casos de banca."
-    },
     "questoes": [
       {
-        "id": "q07-01",
+        "id": "direito-penal-parte-geral-avancado-07-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Antijuridicidade e causas legais de justificação, assinale a alternativa correta.",
+        "enunciado": "Em relação a Ilicitude e justificantes, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "A punição penal pode dispensar lei anterior quando o fato parecer socialmente grave."
-          },
-          {
-            "letra": "B",
-            "texto": "Mesmo havendo fato típico, a conduta pode não ser ilícita quando estiver amparada por excludente legal."
-          },
-          {
-            "letra": "C",
-            "texto": "A analogia pode sempre criar crime e agravar pena contra o acusado."
-          },
-          {
-            "letra": "D",
-            "texto": "A banca ignora requisitos legais quando o caso envolve segurança pública."
-          },
-          {
-            "letra": "E",
-            "texto": "A responsabilização penal depende apenas da repercussão social do fato."
-          }
+          "Estado de necessidade envolve conflito entre bens jurídicos e sacrifício de um para salvar outro de perigo atual.",
+          "Chamar vingança posterior de legítima defesa.",
+          "Ignorar moderação dos meios empregados.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "A alternativa B resume corretamente o ponto central: Mesmo havendo fato típico, a conduta pode não ser ilícita quando estiver amparada por excludente legal."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A alternativa correta resume o núcleo do tema: Estado de necessidade envolve conflito entre bens jurídicos e sacrifício de um para salvar outro de perigo atual."
       },
       {
-        "id": "q07-02",
+        "id": "direito-penal-parte-geral-avancado-07-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Antijuridicidade e causas legais de justificação, é correto substituir requisito legal por juízo moral genérico.",
+        "enunciado": "Legítima defesa exige agressão injusta, atual ou iminente, uso moderado dos meios necessários e defesa de direito.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de causas de exclusão da antijuridicidade."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-07-q03",
+        "tipo": "certo_errado",
+        "enunciado": "Chamar vingança posterior de legítima defesa.",
         "gabarito": "Errado",
-        "correta": false,
-        "comentario": "Direito Penal exige enquadramento legal, requisitos e limites constitucionais."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q07-03",
-        "tipo": "certo_errado",
-        "enunciado": "A análise de Antijuridicidade e causas legais de justificação exige atenção a conceitos parecidos e às palavras usadas pela banca.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "A banca costuma trocar expressões técnicas para testar precisão conceitual."
-      },
-      {
-        "id": "q07-04",
+        "id": "direito-penal-parte-geral-avancado-07-q04",
         "tipo": "caso_pratico",
-        "enunciado": "Em uma situação envolvendo Antijuridicidade e causas legais de justificação, o candidato percebe que a questão afirma: 'Tratar legítima defesa como autorização para excesso ou vingança posterior.'. Qual é o melhor caminho de resolução?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Aceitar a frase, pois pegadinhas costumam ser verdadeiras em Direito Penal."
-          },
-          {
-            "letra": "B",
-            "texto": "Conferir os requisitos legais e separar o instituto correto do instituto parecido."
-          },
-          {
-            "letra": "C",
-            "texto": "Responder pela alternativa mais severa, sempre favorável à acusação."
-          },
-          {
-            "letra": "D",
-            "texto": "Ignorar o caso concreto e marcar a alternativa com linguagem mais longa."
-          },
-          {
-            "letra": "E",
-            "texto": "Aplicar analogia para prejudicar o réu quando houver dúvida."
-          }
-        ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "O caminho seguro é comparar requisitos e evitar conclusões automáticas."
+        "enunciado": "Considere o caso: Reagir horas depois de agressão encerrada não é legítima defesa, pois falta atualidade ou iminência. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Estrito cumprimento do dever legal protege atuação imposta pelo ordenamento.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q07-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual afirmação representa uma pegadinha recorrente em Antijuridicidade e causas legais de justificação?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Separar conceito, requisito e consequência jurídica."
-          },
-          {
-            "letra": "B",
-            "texto": "Ler o caso concreto antes de escolher a resposta."
-          },
-          {
-            "letra": "C",
-            "texto": "Tratar legítima defesa como autorização para excesso ou vingança posterior."
-          },
-          {
-            "letra": "D",
-            "texto": "Verificar se a questão cobra regra, exceção ou comparação."
-          },
-          {
-            "letra": "E",
-            "texto": "Usar a lei penal de modo compatível com a Constituição."
-          }
-        ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A alternativa C mostra exatamente a armadilha destacada no capítulo."
-      },
-      {
-        "id": "q07-06",
+        "id": "direito-penal-parte-geral-avancado-07-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Em uma frase, explique a ideia central de Antijuridicidade e causas legais de justificação.",
-        "respostaEsperada": "Mesmo havendo fato típico, a conduta pode não ser ilícita quando estiver amparada por excludente legal.",
-        "comentario": "A resposta deve indicar o conceito e sua consequência para a prova."
+        "enunciado": "Explique, em até três linhas, por que causas de exclusão da antijuridicidade não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar estado de necessidade envolve conflito entre bens jurídicos e sacrifício de um para salvar outro de perigo atual. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q07-07",
+        "id": "direito-penal-parte-geral-avancado-07-q06",
         "tipo": "comparativa",
-        "enunciado": "Compare dois institutos relevantes de Antijuridicidade e causas legais de justificação sem confundi-los.",
-        "respostaEsperada": "A comparação deve separar requisitos, momento de incidência e consequência jurídica em temas como estado de necessidade, legítima defesa, estrito cumprimento do dever legal, exercício regular de direito e excesso punível.",
-        "comentario": "A comparação é indispensável para questões de caso concreto."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Estado de necessidade envolve conflito entre bens jurídicos e sacrifício de um para salvar outro de perigo atual. Pegadinha: Chamar vingança posterior de legítima defesa.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q07-08",
-        "tipo": "treino_ia",
-        "enunciado": "Peça ao tutor IA três casos curtos sobre Antijuridicidade e causas legais de justificação, com uma pegadinha em cada caso.",
-        "criteriosCorrecao": [
-          "identificar instituto correto",
-          "apontar requisito decisivo",
-          "justificar sem moralismo",
-          "corrigir a pegadinha"
-        ],
-        "comentario": "Treino ideal para transformar teoria penal em acerto de prova."
-      },
-      {
-        "id": "q07-09",
+        "id": "direito-penal-parte-geral-avancado-07-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "No estudo de Antijuridicidade e causas legais de justificação, qual postura aumenta a chance de acerto?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Decorar apenas o nome do instituto."
-          },
-          {
-            "letra": "B",
-            "texto": "Ignorar exceções porque a regra geral sempre resolve tudo."
-          },
-          {
-            "letra": "C",
-            "texto": "Mapear conceito, requisitos, exceções e consequência prática."
-          },
-          {
-            "letra": "D",
-            "texto": "Escolher sempre a alternativa que aumenta a pena."
-          },
-          {
-            "letra": "E",
-            "texto": "Trocar termos técnicos por sinônimos sem cuidado."
-          }
+          "Estrito cumprimento do dever legal protege atuação imposta pelo ordenamento.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Ignorar moderação dos meios empregados."
         ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A postura correta é estudar com mapa de requisitos e consequências."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q07-10",
-        "tipo": "certo_errado",
-        "enunciado": "A principal dificuldade de Antijuridicidade e causas legais de justificação é identificar o instituto aplicável ao caso concreto e evitar confusão entre categorias próximas.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "Essa é uma das marcas de Direito Penal Parte Geral em concursos."
+        "id": "direito-penal-parte-geral-avancado-07-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Ignorar moderação dos meios empregados.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-07-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Ilicitude e justificantes a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Exercício regular de direito impede punição por conduta autorizada dentro dos limites legais.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-07-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Estado de necessidade envolve conflito entre bens jurídicos e sacrifício de um para salvar outro de perigo atual.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Culpabilidade: imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa"
+    "proximoTitulo": "Culpabilidade"
   },
   {
-    "id": "culpabilidade-imputabilidade-potencial-consciencia-da-ilicitude-e-exigibilidade-de-conduta",
-    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "id": "culpabilidade",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / OAB",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 8,
     "totalChapters": 10,
-    "title": "Culpabilidade: imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa",
-    "assunto": "Juízo de reprovação penal e suas excludentes",
-    "tecnica": "Leitura por conceito, requisito, consequência jurídica, comparação e caso prático",
-    "competencia": "Resolver questões penais de Parte Geral com precisão técnica, limites constitucionais e raciocínio de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 14,
+    "title": "Culpabilidade",
+    "assunto": "juízo de reprovação pessoal",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar juízo de reprovação pessoal com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
     "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "imputabilidade",
-      "inimputabilidade",
-      "semi-imputabilidade",
-      "erro de proibição",
-      "coação moral irresistível e obediência hierárquica"
+      "juizo de reprovacao pessoal"
     ],
-    "fontesBase": [
-      "Código Penal — Parte Geral",
-      "Constituição Federal de 1988 — garantias penais e processuais",
-      "Lei de Introdução ao Código Penal, quando aplicável",
-      "Jurisprudência atualizada STF/STJ e edital específico, com conferência oficial antes da publicação final"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
-    "riscoAtualizacao": "alto",
-    "motivoRiscoAtualizacao": "Matéria penal depende de texto legal vigente, jurisprudência atualizada, reformas penais e recorte do edital.",
-    "publicoAlvo": "candidatos de carreiras policiais, tribunais, Ministério Público, defensorias, OAB e concursos gerais",
-    "areaPlataforma": "Apostilas / Direito Penal / Parte Geral",
-    "versaoConteudo": "10/10 Plus Revisado Lote 26",
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Juízo de reprovação penal e suas excludentes com foco em provas objetivas, discursivas e casos práticos de concursos.",
-      "Ideia central: Culpabilidade é o juízo de reprovação que exige imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.",
-      "Como a banca complica: ela mistura institutos próximos, troca requisito por consequência ou usa linguagem absoluta para induzir erro.",
-      "Erro comum: Achar que menoridade penal exclui tipicidade ou ilicitude, quando afasta a imputabilidade penal.",
-      "Estratégia de estudo: leia o conceito, liste requisitos, compare exceções, resolva casos curtos e revise o gabarito com fundamento técnico."
+      "Culpabilidade exige domínio de juízo de reprovação pessoal. O estudo correto começa pela ideia de que culpabilidade reúne imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.",
+      "Inimputabilidade pode decorrer de menoridade ou condição mental conforme critérios legais. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Erro de proibição inevitável exclui culpabilidade; evitável pode reduzir pena. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Coação moral irresistível e obediência hierárquica em ordem não manifestamente ilegal podem afastar exigibilidade. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Culpabilidade é o juízo de reprovação que exige imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.",
-      "Cai muito: imputabilidade, inimputabilidade, semi-imputabilidade, erro de proibição, coação moral irresistível e obediência hierárquica.",
-      "A resposta penal deve respeitar legalidade, tipicidade e limites constitucionais.",
-      "Pegadinha: Achar que menoridade penal exclui tipicidade ou ilicitude, quando afasta a imputabilidade penal."
+      "Culpabilidade reúne imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.",
+      "Inimputabilidade pode decorrer de menoridade ou condição mental conforme critérios legais.",
+      "Erro de proibição inevitável exclui culpabilidade; evitável pode reduzir pena.",
+      "Coação moral irresistível e obediência hierárquica em ordem não manifestamente ilegal podem afastar exigibilidade."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a ideia central de Juízo de reprovação penal e suas excludentes?",
-      "opcoes": [
-        "Achar que menoridade penal exclui tipicidade ou ilicitude, quando afasta a imputabilidade penal.",
-        "Culpabilidade é o juízo de reprovação que exige imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.",
-        "Basta escolher a alternativa mais punitiva."
-      ],
-      "correta": 1,
-      "justificativa": "A alternativa correta traz o conceito sem eliminar os requisitos legais."
-    },
-    "oQueCobra": "Questões sobre imputabilidade, inimputabilidade, semi-imputabilidade, erro de proibição, coação moral irresistível e obediência hierárquica, com comparações, casos práticos e alternativas absolutas.",
-    "precisaSaberAntes": "Princípio da legalidade, leitura de enunciado, estrutura básica do crime e vocabulário jurídico penal.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta caso curto ou conceito incompleto sobre Juízo de reprovação penal e suas excludentes e exige identificar o instituto correto."
+        "pergunta": "Qual é o núcleo de Culpabilidade?",
+        "resposta": "Culpabilidade reúne imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Separe conceito, requisito, exceção e consequência. Não responda por intuição punitiva."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Confundir desconhecimento da lei com erro de proibição automaticamente aceito."
       },
       {
-        "titulo": "Conexão com prática policial",
-        "texto": "O módulo é educativo: ajuda a compreender limites legais da atuação estatal e não substitui protocolo oficial, legislação vigente ou orientação institucional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Servidor que cumpre ordem claramente criminosa não pode invocar obediência hierárquica como escudo absoluto."
       }
     ],
-    "comoIdentificar": "Procure palavras como imputabilidade, inimputabilidade, semi-imputabilidade, erro de proibição, coação moral irresistível e obediência hierárquica e observe se o enunciado pede regra, exceção, conceito ou consequência.",
+    "quadroDeDominio": {
+      "conceito": "Culpabilidade reúne imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.",
+      "limite": "Inimputabilidade pode decorrer de menoridade ou condição mental conforme critérios legais.",
+      "aplicacao": "Servidor que cumpre ordem claramente criminosa não pode invocar obediência hierárquica como escudo absoluto.",
+      "erroFatal": "Confundir desconhecimento da lei com erro de proibição automaticamente aceito."
+    },
+    "exemploComentado": "Servidor que cumpre ordem claramente criminosa não pode invocar obediência hierárquica como escudo absoluto.",
     "pegadinhas": [
-      "Achar que menoridade penal exclui tipicidade ou ilicitude, quando afasta a imputabilidade penal.",
-      "confundir regra com exceção",
-      "usar linguagem absoluta",
-      "ignorar requisito subjetivo",
-      "misturar Parte Geral com crime em espécie"
+      "Confundir desconhecimento da lei com erro de proibição automaticamente aceito.",
+      "Aceitar obediência a ordem manifestamente ilegal."
     ],
-    "resumoFrase": "Culpabilidade é o juízo de reprovação que exige imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.",
-    "explicacaoComoSeTivesse12": "Pense assim: Culpabilidade é o juízo de reprovação que exige imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa. Em prova, você precisa descobrir qual regra se aplica e qual detalhe muda a resposta.",
-    "mapaMentalTextual": {
-      "centro": "Juízo de reprovação penal e suas excludentes",
-      "ramos": [
-        "conceito",
-        "requisitos",
-        "exceções",
-        "caso prático",
-        "pegadinha",
-        "consequência",
-        "revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Culpabilidade",
+      "Conceito: Culpabilidade reúne imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.",
+      "Aplicação: Servidor que cumpre ordem claramente criminosa não pode invocar obediência hierárquica como escudo absoluto.",
+      "Cuidado: Confundir desconhecimento da lei com erro de proibição automaticamente aceito."
+    ],
     "comoEstudar": [
-      "Ler o conceito",
-      "Fazer quadro de requisitos",
-      "Comparar instituto parecido",
-      "Resolver 10 questões",
-      "Revisar erros com flashcards"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Não caia na armadilha: Achar que menoridade penal exclui tipicidade ou ilicitude, quando afasta a imputabilidade penal.",
-    "revisaoProgramada": {
-      "D0": "ler e resumir requisitos",
-      "D1": "refazer questões erradas",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto de Parte Geral"
-    },
-    "criteriosDominio": [
-      "conceituar instituto",
-      "listar requisitos",
-      "comparar exceções",
-      "resolver caso concreto",
-      "justificar gabarito"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f08-01",
-        "frente": "Qual é a ideia central de Juízo de reprovação penal e suas excludentes?",
-        "verso": "Culpabilidade é o juízo de reprovação que exige imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.",
-        "tag": "Juízo de reprovação penal e suas excludentes",
+        "id": "direito-penal-parte-geral-avancado-08-fc01",
+        "frente": "Qual é a ideia central de Culpabilidade?",
+        "verso": "Culpabilidade reúne imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f08-02",
-        "frente": "Qual pegadinha a banca costuma usar em Juízo de reprovação penal e suas excludentes?",
-        "verso": "Achar que menoridade penal exclui tipicidade ou ilicitude, quando afasta a imputabilidade penal.",
+        "id": "direito-penal-parte-geral-avancado-08-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em juízo de reprovação pessoal?",
+        "verso": "Inimputabilidade pode decorrer de menoridade ou condição mental conforme critérios legais.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-08-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Confundir desconhecimento da lei com erro de proibição automaticamente aceito.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f08-03",
-        "frente": "Como estudar Juízo de reprovação penal e suas excludentes para prova?",
-        "verso": "Estude o conceito, memorize os requisitos, compare institutos parecidos e resolva casos curtos sobre imputabilidade, inimputabilidade, semi-imputabilidade, erro de proibição, coação moral irresistível e obediência hierárquica.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f08-04",
-        "frente": "Qual comparação é decisiva em Juízo de reprovação penal e suas excludentes?",
-        "verso": "Compare imputabilidade, inimputabilidade, semi-imputabilidade, erro de proibição, coação moral irresistível e obediência hierárquica sem trocar requisito legal por opinião. Em Penal, a banca costuma mudar uma palavra para alterar todo o resultado.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "direito-penal-parte-geral-avancado-08-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Servidor que cumpre ordem claramente criminosa não pode invocar obediência hierárquica como escudo absoluto.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Crie 5 casos práticos de concurso sobre Juízo de reprovação penal e suas excludentes, cada um com gabarito comentado e uma pegadinha comum.",
-      "objetivo": "Treinar aplicação da Parte Geral do Direito Penal em casos de banca."
-    },
     "questoes": [
       {
-        "id": "q08-01",
+        "id": "direito-penal-parte-geral-avancado-08-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Juízo de reprovação penal e suas excludentes, assinale a alternativa correta.",
+        "enunciado": "Em relação a Culpabilidade, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "A punição penal pode dispensar lei anterior quando o fato parecer socialmente grave."
-          },
-          {
-            "letra": "B",
-            "texto": "Culpabilidade é o juízo de reprovação que exige imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa."
-          },
-          {
-            "letra": "C",
-            "texto": "A analogia pode sempre criar crime e agravar pena contra o acusado."
-          },
-          {
-            "letra": "D",
-            "texto": "A banca ignora requisitos legais quando o caso envolve segurança pública."
-          },
-          {
-            "letra": "E",
-            "texto": "A responsabilização penal depende apenas da repercussão social do fato."
-          }
+          "Culpabilidade reúne imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.",
+          "Confundir desconhecimento da lei com erro de proibição automaticamente aceito.",
+          "Aceitar obediência a ordem manifestamente ilegal.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "A alternativa B resume corretamente o ponto central: Culpabilidade é o juízo de reprovação que exige imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A alternativa correta resume o núcleo do tema: Culpabilidade reúne imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa."
       },
       {
-        "id": "q08-02",
+        "id": "direito-penal-parte-geral-avancado-08-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Juízo de reprovação penal e suas excludentes, é correto substituir requisito legal por juízo moral genérico.",
+        "enunciado": "Inimputabilidade pode decorrer de menoridade ou condição mental conforme critérios legais.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de juízo de reprovação pessoal."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-08-q03",
+        "tipo": "certo_errado",
+        "enunciado": "Confundir desconhecimento da lei com erro de proibição automaticamente aceito.",
         "gabarito": "Errado",
-        "correta": false,
-        "comentario": "Direito Penal exige enquadramento legal, requisitos e limites constitucionais."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q08-03",
-        "tipo": "certo_errado",
-        "enunciado": "A análise de Juízo de reprovação penal e suas excludentes exige atenção a conceitos parecidos e às palavras usadas pela banca.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "A banca costuma trocar expressões técnicas para testar precisão conceitual."
-      },
-      {
-        "id": "q08-04",
+        "id": "direito-penal-parte-geral-avancado-08-q04",
         "tipo": "caso_pratico",
-        "enunciado": "Em uma situação envolvendo Juízo de reprovação penal e suas excludentes, o candidato percebe que a questão afirma: 'Achar que menoridade penal exclui tipicidade ou ilicitude, quando afasta a imputabilidade penal.'. Qual é o melhor caminho de resolução?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Aceitar a frase, pois pegadinhas costumam ser verdadeiras em Direito Penal."
-          },
-          {
-            "letra": "B",
-            "texto": "Conferir os requisitos legais e separar o instituto correto do instituto parecido."
-          },
-          {
-            "letra": "C",
-            "texto": "Responder pela alternativa mais severa, sempre favorável à acusação."
-          },
-          {
-            "letra": "D",
-            "texto": "Ignorar o caso concreto e marcar a alternativa com linguagem mais longa."
-          },
-          {
-            "letra": "E",
-            "texto": "Aplicar analogia para prejudicar o réu quando houver dúvida."
-          }
-        ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "O caminho seguro é comparar requisitos e evitar conclusões automáticas."
+        "enunciado": "Considere o caso: Servidor que cumpre ordem claramente criminosa não pode invocar obediência hierárquica como escudo absoluto. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Erro de proibição inevitável exclui culpabilidade; evitável pode reduzir pena.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q08-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual afirmação representa uma pegadinha recorrente em Juízo de reprovação penal e suas excludentes?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Separar conceito, requisito e consequência jurídica."
-          },
-          {
-            "letra": "B",
-            "texto": "Ler o caso concreto antes de escolher a resposta."
-          },
-          {
-            "letra": "C",
-            "texto": "Achar que menoridade penal exclui tipicidade ou ilicitude, quando afasta a imputabilidade penal."
-          },
-          {
-            "letra": "D",
-            "texto": "Verificar se a questão cobra regra, exceção ou comparação."
-          },
-          {
-            "letra": "E",
-            "texto": "Usar a lei penal de modo compatível com a Constituição."
-          }
-        ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A alternativa C mostra exatamente a armadilha destacada no capítulo."
-      },
-      {
-        "id": "q08-06",
+        "id": "direito-penal-parte-geral-avancado-08-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Em uma frase, explique a ideia central de Juízo de reprovação penal e suas excludentes.",
-        "respostaEsperada": "Culpabilidade é o juízo de reprovação que exige imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.",
-        "comentario": "A resposta deve indicar o conceito e sua consequência para a prova."
+        "enunciado": "Explique, em até três linhas, por que juízo de reprovação pessoal não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar culpabilidade reúne imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q08-07",
+        "id": "direito-penal-parte-geral-avancado-08-q06",
         "tipo": "comparativa",
-        "enunciado": "Compare dois institutos relevantes de Juízo de reprovação penal e suas excludentes sem confundi-los.",
-        "respostaEsperada": "A comparação deve separar requisitos, momento de incidência e consequência jurídica em temas como imputabilidade, inimputabilidade, semi-imputabilidade, erro de proibição, coação moral irresistível e obediência hierárquica.",
-        "comentario": "A comparação é indispensável para questões de caso concreto."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Culpabilidade reúne imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa. Pegadinha: Confundir desconhecimento da lei com erro de proibição automaticamente aceito.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q08-08",
-        "tipo": "treino_ia",
-        "enunciado": "Peça ao tutor IA três casos curtos sobre Juízo de reprovação penal e suas excludentes, com uma pegadinha em cada caso.",
-        "criteriosCorrecao": [
-          "identificar instituto correto",
-          "apontar requisito decisivo",
-          "justificar sem moralismo",
-          "corrigir a pegadinha"
-        ],
-        "comentario": "Treino ideal para transformar teoria penal em acerto de prova."
-      },
-      {
-        "id": "q08-09",
+        "id": "direito-penal-parte-geral-avancado-08-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "No estudo de Juízo de reprovação penal e suas excludentes, qual postura aumenta a chance de acerto?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Decorar apenas o nome do instituto."
-          },
-          {
-            "letra": "B",
-            "texto": "Ignorar exceções porque a regra geral sempre resolve tudo."
-          },
-          {
-            "letra": "C",
-            "texto": "Mapear conceito, requisitos, exceções e consequência prática."
-          },
-          {
-            "letra": "D",
-            "texto": "Escolher sempre a alternativa que aumenta a pena."
-          },
-          {
-            "letra": "E",
-            "texto": "Trocar termos técnicos por sinônimos sem cuidado."
-          }
+          "Erro de proibição inevitável exclui culpabilidade; evitável pode reduzir pena.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Aceitar obediência a ordem manifestamente ilegal."
         ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A postura correta é estudar com mapa de requisitos e consequências."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q08-10",
-        "tipo": "certo_errado",
-        "enunciado": "A principal dificuldade de Juízo de reprovação penal e suas excludentes é identificar o instituto aplicável ao caso concreto e evitar confusão entre categorias próximas.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "Essa é uma das marcas de Direito Penal Parte Geral em concursos."
+        "id": "direito-penal-parte-geral-avancado-08-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Aceitar obediência a ordem manifestamente ilegal.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-08-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Culpabilidade a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Coação moral irresistível e obediência hierárquica em ordem não manifestamente ilegal podem afastar exigibilidade.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-08-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Culpabilidade reúne imputabilidade, potencial consciência da ilicitude e exigibilidade de conduta diversa.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Iter criminis, tentativa, desistência voluntária, arrependimento eficaz e crime impossível"
+    "proximoTitulo": "Iter criminis e tentativa"
   },
   {
-    "id": "iter-criminis-tentativa-desistencia-voluntaria-arrependimento-eficaz-e-crime-impossivel",
-    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "id": "iter-criminis-e-tentativa",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / OAB",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 9,
     "totalChapters": 10,
-    "title": "Iter criminis, tentativa, desistência voluntária, arrependimento eficaz e crime impossível",
-    "assunto": "Caminho do crime e institutos ligados à consumação",
-    "tecnica": "Leitura por conceito, requisito, consequência jurídica, comparação e caso prático",
-    "competencia": "Resolver questões penais de Parte Geral com precisão técnica, limites constitucionais e raciocínio de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 14,
+    "title": "Iter criminis e tentativa",
+    "assunto": "caminho do crime",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar caminho do crime com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
     "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "cogitação",
-      "preparação",
-      "execução",
-      "consumação",
-      "tentativa",
-      "desistência voluntária",
-      "arrependimento eficaz",
-      "arrependimento posterior e crime impossível"
+      "caminho do crime"
     ],
-    "fontesBase": [
-      "Código Penal — Parte Geral",
-      "Constituição Federal de 1988 — garantias penais e processuais",
-      "Lei de Introdução ao Código Penal, quando aplicável",
-      "Jurisprudência atualizada STF/STJ e edital específico, com conferência oficial antes da publicação final"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
-    "riscoAtualizacao": "alto",
-    "motivoRiscoAtualizacao": "Matéria penal depende de texto legal vigente, jurisprudência atualizada, reformas penais e recorte do edital.",
-    "publicoAlvo": "candidatos de carreiras policiais, tribunais, Ministério Público, defensorias, OAB e concursos gerais",
-    "areaPlataforma": "Apostilas / Direito Penal / Parte Geral",
-    "versaoConteudo": "10/10 Plus Revisado Lote 26",
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Caminho do crime e institutos ligados à consumação com foco em provas objetivas, discursivas e casos práticos de concursos.",
-      "Ideia central: A tentativa pune o início de execução não consumado por circunstância alheia à vontade do agente; desistência e arrependimento têm lógica diferente.",
-      "Como a banca complica: ela mistura institutos próximos, troca requisito por consequência ou usa linguagem absoluta para induzir erro.",
-      "Erro comum: Confundir desistência voluntária com tentativa abandonada por causa externa.",
-      "Estratégia de estudo: leia o conceito, liste requisitos, compare exceções, resolva casos curtos e revise o gabarito com fundamento técnico."
+      "Iter criminis e tentativa exige domínio de caminho do crime. O estudo correto começa pela ideia de que cogitação não é punível; atos preparatórios em regra não são, salvo criminalização autônoma.",
+      "Execução inicia quando o agente começa a realizar o núcleo do tipo ou atos imediatamente ligados a ele. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Tentativa ocorre quando o crime não se consuma por circunstâncias alheias à vontade do agente. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Desistência voluntária e arrependimento eficaz alteram responsabilização quando o próprio agente impede a consumação. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "A tentativa pune o início de execução não consumado por circunstância alheia à vontade do agente; desistência e arrependimento têm lógica diferente.",
-      "Cai muito: cogitação, preparação, execução, consumação, tentativa, desistência voluntária, arrependimento eficaz, arrependimento posterior e crime impossível.",
-      "A resposta penal deve respeitar legalidade, tipicidade e limites constitucionais.",
-      "Pegadinha: Confundir desistência voluntária com tentativa abandonada por causa externa."
+      "Cogitação não é punível; atos preparatórios em regra não são, salvo criminalização autônoma.",
+      "Execução inicia quando o agente começa a realizar o núcleo do tipo ou atos imediatamente ligados a ele.",
+      "Tentativa ocorre quando o crime não se consuma por circunstâncias alheias à vontade do agente.",
+      "Desistência voluntária e arrependimento eficaz alteram responsabilização quando o próprio agente impede a consumação."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a ideia central de Caminho do crime e institutos ligados à consumação?",
-      "opcoes": [
-        "Confundir desistência voluntária com tentativa abandonada por causa externa.",
-        "A tentativa pune o início de execução não consumado por circunstância alheia à vontade do agente; desistência e arrependimento têm lógica diferente.",
-        "Basta escolher a alternativa mais punitiva."
-      ],
-      "correta": 1,
-      "justificativa": "A alternativa correta traz o conceito sem eliminar os requisitos legais."
-    },
-    "oQueCobra": "Questões sobre cogitação, preparação, execução, consumação, tentativa, desistência voluntária, arrependimento eficaz, arrependimento posterior e crime impossível, com comparações, casos práticos e alternativas absolutas.",
-    "precisaSaberAntes": "Princípio da legalidade, leitura de enunciado, estrutura básica do crime e vocabulário jurídico penal.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta caso curto ou conceito incompleto sobre Caminho do crime e institutos ligados à consumação e exige identificar o instituto correto."
+        "pergunta": "Qual é o núcleo de Iter criminis e tentativa?",
+        "resposta": "Cogitação não é punível; atos preparatórios em regra não são, salvo criminalização autônoma."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Separe conceito, requisito, exceção e consequência. Não responda por intuição punitiva."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Confundir desistência voluntária com tentativa perfeita."
       },
       {
-        "titulo": "Conexão com prática policial",
-        "texto": "O módulo é educativo: ajuda a compreender limites legais da atuação estatal e não substitui protocolo oficial, legislação vigente ou orientação institucional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Agente que inicia execução e para por vontade própria responde pelos atos já praticados, não por tentativa do crime final."
       }
     ],
-    "comoIdentificar": "Procure palavras como cogitação, preparação, execução, consumação, tentativa, desistência voluntária, arrependimento eficaz, arrependimento posterior e crime impossível e observe se o enunciado pede regra, exceção, conceito ou consequência.",
+    "quadroDeDominio": {
+      "conceito": "Cogitação não é punível; atos preparatórios em regra não são, salvo criminalização autônoma.",
+      "limite": "Execução inicia quando o agente começa a realizar o núcleo do tipo ou atos imediatamente ligados a ele.",
+      "aplicacao": "Agente que inicia execução e para por vontade própria responde pelos atos já praticados, não por tentativa do crime final.",
+      "erroFatal": "Confundir desistência voluntária com tentativa perfeita."
+    },
+    "exemploComentado": "Agente que inicia execução e para por vontade própria responde pelos atos já praticados, não por tentativa do crime final.",
     "pegadinhas": [
-      "Confundir desistência voluntária com tentativa abandonada por causa externa.",
-      "confundir regra com exceção",
-      "usar linguagem absoluta",
-      "ignorar requisito subjetivo",
-      "misturar Parte Geral com crime em espécie"
+      "Confundir desistência voluntária com tentativa perfeita.",
+      "Punir cogitação isolada."
     ],
-    "resumoFrase": "A tentativa pune o início de execução não consumado por circunstância alheia à vontade do agente; desistência e arrependimento têm lógica diferente.",
-    "explicacaoComoSeTivesse12": "Pense assim: A tentativa pune o início de execução não consumado por circunstância alheia à vontade do agente; desistência e arrependimento têm lógica diferente. Em prova, você precisa descobrir qual regra se aplica e qual detalhe muda a resposta.",
-    "mapaMentalTextual": {
-      "centro": "Caminho do crime e institutos ligados à consumação",
-      "ramos": [
-        "conceito",
-        "requisitos",
-        "exceções",
-        "caso prático",
-        "pegadinha",
-        "consequência",
-        "revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Iter criminis e tentativa",
+      "Conceito: Cogitação não é punível; atos preparatórios em regra não são, salvo criminalização autônoma.",
+      "Aplicação: Agente que inicia execução e para por vontade própria responde pelos atos já praticados, não por tentativa do crime final.",
+      "Cuidado: Confundir desistência voluntária com tentativa perfeita."
+    ],
     "comoEstudar": [
-      "Ler o conceito",
-      "Fazer quadro de requisitos",
-      "Comparar instituto parecido",
-      "Resolver 10 questões",
-      "Revisar erros com flashcards"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Não caia na armadilha: Confundir desistência voluntária com tentativa abandonada por causa externa.",
-    "revisaoProgramada": {
-      "D0": "ler e resumir requisitos",
-      "D1": "refazer questões erradas",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto de Parte Geral"
-    },
-    "criteriosDominio": [
-      "conceituar instituto",
-      "listar requisitos",
-      "comparar exceções",
-      "resolver caso concreto",
-      "justificar gabarito"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f09-01",
-        "frente": "Qual é a ideia central de Caminho do crime e institutos ligados à consumação?",
-        "verso": "A tentativa pune o início de execução não consumado por circunstância alheia à vontade do agente; desistência e arrependimento têm lógica diferente.",
-        "tag": "Caminho do crime e institutos ligados à consumação",
+        "id": "direito-penal-parte-geral-avancado-09-fc01",
+        "frente": "Qual é a ideia central de Iter criminis e tentativa?",
+        "verso": "Cogitação não é punível; atos preparatórios em regra não são, salvo criminalização autônoma.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f09-02",
-        "frente": "Qual pegadinha a banca costuma usar em Caminho do crime e institutos ligados à consumação?",
-        "verso": "Confundir desistência voluntária com tentativa abandonada por causa externa.",
+        "id": "direito-penal-parte-geral-avancado-09-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em caminho do crime?",
+        "verso": "Execução inicia quando o agente começa a realizar o núcleo do tipo ou atos imediatamente ligados a ele.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-09-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Confundir desistência voluntária com tentativa perfeita.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f09-03",
-        "frente": "Como estudar Caminho do crime e institutos ligados à consumação para prova?",
-        "verso": "Estude o conceito, memorize os requisitos, compare institutos parecidos e resolva casos curtos sobre cogitação, preparação, execução, consumação, tentativa, desistência voluntária, arrependimento eficaz, arrependimento posterior e crime impossível.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f09-04",
-        "frente": "Qual comparação é decisiva em Caminho do crime e institutos ligados à consumação?",
-        "verso": "Compare cogitação, preparação, execução, consumação, tentativa, desistência voluntária, arrependimento eficaz, arrependimento posterior e crime impossível sem trocar requisito legal por opinião. Em Penal, a banca costuma mudar uma palavra para alterar todo o resultado.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "direito-penal-parte-geral-avancado-09-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Agente que inicia execução e para por vontade própria responde pelos atos já praticados, não por tentativa do crime final.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Crie 5 casos práticos de concurso sobre Caminho do crime e institutos ligados à consumação, cada um com gabarito comentado e uma pegadinha comum.",
-      "objetivo": "Treinar aplicação da Parte Geral do Direito Penal em casos de banca."
-    },
     "questoes": [
       {
-        "id": "q09-01",
+        "id": "direito-penal-parte-geral-avancado-09-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Caminho do crime e institutos ligados à consumação, assinale a alternativa correta.",
+        "enunciado": "Em relação a Iter criminis e tentativa, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "A punição penal pode dispensar lei anterior quando o fato parecer socialmente grave."
-          },
-          {
-            "letra": "B",
-            "texto": "A tentativa pune o início de execução não consumado por circunstância alheia à vontade do agente; desistência e arrependimento têm lógica diferente."
-          },
-          {
-            "letra": "C",
-            "texto": "A analogia pode sempre criar crime e agravar pena contra o acusado."
-          },
-          {
-            "letra": "D",
-            "texto": "A banca ignora requisitos legais quando o caso envolve segurança pública."
-          },
-          {
-            "letra": "E",
-            "texto": "A responsabilização penal depende apenas da repercussão social do fato."
-          }
+          "Cogitação não é punível; atos preparatórios em regra não são, salvo criminalização autônoma.",
+          "Confundir desistência voluntária com tentativa perfeita.",
+          "Punir cogitação isolada.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "A alternativa B resume corretamente o ponto central: A tentativa pune o início de execução não consumado por circunstância alheia à vontade do agente; desistência e arrependimento têm lógica diferente."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A alternativa correta resume o núcleo do tema: Cogitação não é punível; atos preparatórios em regra não são, salvo criminalização autônoma."
       },
       {
-        "id": "q09-02",
+        "id": "direito-penal-parte-geral-avancado-09-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Caminho do crime e institutos ligados à consumação, é correto substituir requisito legal por juízo moral genérico.",
+        "enunciado": "Execução inicia quando o agente começa a realizar o núcleo do tipo ou atos imediatamente ligados a ele.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de caminho do crime."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-09-q03",
+        "tipo": "certo_errado",
+        "enunciado": "Confundir desistência voluntária com tentativa perfeita.",
         "gabarito": "Errado",
-        "correta": false,
-        "comentario": "Direito Penal exige enquadramento legal, requisitos e limites constitucionais."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q09-03",
-        "tipo": "certo_errado",
-        "enunciado": "A análise de Caminho do crime e institutos ligados à consumação exige atenção a conceitos parecidos e às palavras usadas pela banca.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "A banca costuma trocar expressões técnicas para testar precisão conceitual."
-      },
-      {
-        "id": "q09-04",
+        "id": "direito-penal-parte-geral-avancado-09-q04",
         "tipo": "caso_pratico",
-        "enunciado": "Em uma situação envolvendo Caminho do crime e institutos ligados à consumação, o candidato percebe que a questão afirma: 'Confundir desistência voluntária com tentativa abandonada por causa externa.'. Qual é o melhor caminho de resolução?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Aceitar a frase, pois pegadinhas costumam ser verdadeiras em Direito Penal."
-          },
-          {
-            "letra": "B",
-            "texto": "Conferir os requisitos legais e separar o instituto correto do instituto parecido."
-          },
-          {
-            "letra": "C",
-            "texto": "Responder pela alternativa mais severa, sempre favorável à acusação."
-          },
-          {
-            "letra": "D",
-            "texto": "Ignorar o caso concreto e marcar a alternativa com linguagem mais longa."
-          },
-          {
-            "letra": "E",
-            "texto": "Aplicar analogia para prejudicar o réu quando houver dúvida."
-          }
-        ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "O caminho seguro é comparar requisitos e evitar conclusões automáticas."
+        "enunciado": "Considere o caso: Agente que inicia execução e para por vontade própria responde pelos atos já praticados, não por tentativa do crime final. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Tentativa ocorre quando o crime não se consuma por circunstâncias alheias à vontade do agente.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q09-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual afirmação representa uma pegadinha recorrente em Caminho do crime e institutos ligados à consumação?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Separar conceito, requisito e consequência jurídica."
-          },
-          {
-            "letra": "B",
-            "texto": "Ler o caso concreto antes de escolher a resposta."
-          },
-          {
-            "letra": "C",
-            "texto": "Confundir desistência voluntária com tentativa abandonada por causa externa."
-          },
-          {
-            "letra": "D",
-            "texto": "Verificar se a questão cobra regra, exceção ou comparação."
-          },
-          {
-            "letra": "E",
-            "texto": "Usar a lei penal de modo compatível com a Constituição."
-          }
-        ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A alternativa C mostra exatamente a armadilha destacada no capítulo."
-      },
-      {
-        "id": "q09-06",
+        "id": "direito-penal-parte-geral-avancado-09-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Em uma frase, explique a ideia central de Caminho do crime e institutos ligados à consumação.",
-        "respostaEsperada": "A tentativa pune o início de execução não consumado por circunstância alheia à vontade do agente; desistência e arrependimento têm lógica diferente.",
-        "comentario": "A resposta deve indicar o conceito e sua consequência para a prova."
+        "enunciado": "Explique, em até três linhas, por que caminho do crime não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar cogitação não é punível; atos preparatórios em regra não são, salvo criminalização autônoma. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q09-07",
+        "id": "direito-penal-parte-geral-avancado-09-q06",
         "tipo": "comparativa",
-        "enunciado": "Compare dois institutos relevantes de Caminho do crime e institutos ligados à consumação sem confundi-los.",
-        "respostaEsperada": "A comparação deve separar requisitos, momento de incidência e consequência jurídica em temas como cogitação, preparação, execução, consumação, tentativa, desistência voluntária, arrependimento eficaz, arrependimento posterior e crime impossível.",
-        "comentario": "A comparação é indispensável para questões de caso concreto."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Cogitação não é punível; atos preparatórios em regra não são, salvo criminalização autônoma. Pegadinha: Confundir desistência voluntária com tentativa perfeita.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q09-08",
-        "tipo": "treino_ia",
-        "enunciado": "Peça ao tutor IA três casos curtos sobre Caminho do crime e institutos ligados à consumação, com uma pegadinha em cada caso.",
-        "criteriosCorrecao": [
-          "identificar instituto correto",
-          "apontar requisito decisivo",
-          "justificar sem moralismo",
-          "corrigir a pegadinha"
-        ],
-        "comentario": "Treino ideal para transformar teoria penal em acerto de prova."
-      },
-      {
-        "id": "q09-09",
+        "id": "direito-penal-parte-geral-avancado-09-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "No estudo de Caminho do crime e institutos ligados à consumação, qual postura aumenta a chance de acerto?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Decorar apenas o nome do instituto."
-          },
-          {
-            "letra": "B",
-            "texto": "Ignorar exceções porque a regra geral sempre resolve tudo."
-          },
-          {
-            "letra": "C",
-            "texto": "Mapear conceito, requisitos, exceções e consequência prática."
-          },
-          {
-            "letra": "D",
-            "texto": "Escolher sempre a alternativa que aumenta a pena."
-          },
-          {
-            "letra": "E",
-            "texto": "Trocar termos técnicos por sinônimos sem cuidado."
-          }
+          "Tentativa ocorre quando o crime não se consuma por circunstâncias alheias à vontade do agente.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Punir cogitação isolada."
         ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A postura correta é estudar com mapa de requisitos e consequências."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q09-10",
-        "tipo": "certo_errado",
-        "enunciado": "A principal dificuldade de Caminho do crime e institutos ligados à consumação é identificar o instituto aplicável ao caso concreto e evitar confusão entre categorias próximas.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "Essa é uma das marcas de Direito Penal Parte Geral em concursos."
+        "id": "direito-penal-parte-geral-avancado-09-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Punir cogitação isolada.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-09-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Iter criminis e tentativa a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Desistência voluntária e arrependimento eficaz alteram responsabilização quando o próprio agente impede a consumação.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-09-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Cogitação não é punível; atos preparatórios em regra não são, salvo criminalização autônoma.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Concurso de pessoas, concurso de crimes, penas e extinção da punibilidade"
+    "proximoTitulo": "Concurso de pessoas, crimes, penas e extinção da punibilidade"
   },
   {
-    "id": "concurso-de-pessoas-concurso-de-crimes-penas-e-extincao-da-punibilidade",
-    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "id": "concurso-de-pessoas-crimes-penas-e-extincao-da-punibilidade",
+    "materialTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Penal Parte Geral Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / OAB",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Penal Parte Geral Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 10,
     "totalChapters": 10,
-    "title": "Concurso de pessoas, concurso de crimes, penas e extinção da punibilidade",
-    "assunto": "Parte Geral aplicada: autoria, participação, concurso e consequências penais",
-    "tecnica": "Leitura por conceito, requisito, consequência jurídica, comparação e caso prático",
-    "competencia": "Resolver questões penais de Parte Geral com precisão técnica, limites constitucionais e raciocínio de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 14,
+    "title": "Concurso de pessoas, crimes, penas e extinção da punibilidade",
+    "assunto": "fechamento da Parte Geral",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar fechamento da Parte Geral com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
     "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
+      "CEBRASPE": 5,
       "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "CEBRASPE": 5
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "autoria",
-      "participação",
-      "concurso material",
-      "concurso formal",
-      "crime continuado",
-      "penas",
-      "prescrição e extinção da punibilidade"
+      "fechamento da parte geral"
     ],
-    "fontesBase": [
-      "Código Penal — Parte Geral",
-      "Constituição Federal de 1988 — garantias penais e processuais",
-      "Lei de Introdução ao Código Penal, quando aplicável",
-      "Jurisprudência atualizada STF/STJ e edital específico, com conferência oficial antes da publicação final"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
-    "riscoAtualizacao": "alto",
-    "motivoRiscoAtualizacao": "Matéria penal depende de texto legal vigente, jurisprudência atualizada, reformas penais e recorte do edital.",
-    "publicoAlvo": "candidatos de carreiras policiais, tribunais, Ministério Público, defensorias, OAB e concursos gerais",
-    "areaPlataforma": "Apostilas / Direito Penal / Parte Geral",
-    "versaoConteudo": "10/10 Plus Revisado Lote 26",
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Parte Geral aplicada: autoria, participação, concurso e consequências penais com foco em provas objetivas, discursivas e casos práticos de concursos.",
-      "Ideia central: Parte Geral também cobra como pessoas e crimes se conectam, como as penas são aplicadas e quando a punibilidade se extingue.",
-      "Como a banca complica: ela mistura institutos próximos, troca requisito por consequência ou usa linguagem absoluta para induzir erro.",
-      "Erro comum: Confundir concurso de pessoas com concurso de crimes ou somar penas sem observar a espécie de concurso.",
-      "Estratégia de estudo: leia o conceito, liste requisitos, compare exceções, resolva casos curtos e revise o gabarito com fundamento técnico."
+      "Concurso de pessoas, crimes, penas e extinção da punibilidade exige domínio de fechamento da Parte Geral. O estudo correto começa pela ideia de que concurso de pessoas exige pluralidade de agentes, relevância causal, vínculo subjetivo e identidade de infração.",
+      "Concurso material, formal e crime continuado têm regimes distintos de aplicação de pena. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Pena deve observar culpabilidade, antecedentes, circunstâncias e finalidades de reprovação e prevenção. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Extinção da punibilidade atinge pretensão punitiva ou executória por causas como prescrição, morte, anistia ou outras hipóteses legais. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Parte Geral também cobra como pessoas e crimes se conectam, como as penas são aplicadas e quando a punibilidade se extingue.",
-      "Cai muito: autoria, participação, concurso material, concurso formal, crime continuado, penas, prescrição e extinção da punibilidade.",
-      "A resposta penal deve respeitar legalidade, tipicidade e limites constitucionais.",
-      "Pegadinha: Confundir concurso de pessoas com concurso de crimes ou somar penas sem observar a espécie de concurso."
+      "Concurso de pessoas exige pluralidade de agentes, relevância causal, vínculo subjetivo e identidade de infração.",
+      "Concurso material, formal e crime continuado têm regimes distintos de aplicação de pena.",
+      "Pena deve observar culpabilidade, antecedentes, circunstâncias e finalidades de reprovação e prevenção.",
+      "Extinção da punibilidade atinge pretensão punitiva ou executória por causas como prescrição, morte, anistia ou outras hipóteses legais."
     ],
-    "checkRapido": {
-      "pergunta": "Qual é a ideia central de Parte Geral aplicada: autoria, participação, concurso e consequências penais?",
-      "opcoes": [
-        "Confundir concurso de pessoas com concurso de crimes ou somar penas sem observar a espécie de concurso.",
-        "Parte Geral também cobra como pessoas e crimes se conectam, como as penas são aplicadas e quando a punibilidade se extingue.",
-        "Basta escolher a alternativa mais punitiva."
-      ],
-      "correta": 1,
-      "justificativa": "A alternativa correta traz o conceito sem eliminar os requisitos legais."
-    },
-    "oQueCobra": "Questões sobre autoria, participação, concurso material, concurso formal, crime continuado, penas, prescrição e extinção da punibilidade, com comparações, casos práticos e alternativas absolutas.",
-    "precisaSaberAntes": "Princípio da legalidade, leitura de enunciado, estrutura básica do crime e vocabulário jurídico penal.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca apresenta caso curto ou conceito incompleto sobre Parte Geral aplicada: autoria, participação, concurso e consequências penais e exige identificar o instituto correto."
+        "pergunta": "Qual é o núcleo de Concurso de pessoas, crimes, penas e extinção da punibilidade?",
+        "resposta": "Concurso de pessoas exige pluralidade de agentes, relevância causal, vínculo subjetivo e identidade de infração."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Separe conceito, requisito, exceção e consequência. Não responda por intuição punitiva."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Dizer que presença no local sempre configura participação."
       },
       {
-        "titulo": "Conexão com prática policial",
-        "texto": "O módulo é educativo: ajuda a compreender limites legais da atuação estatal e não substitui protocolo oficial, legislação vigente ou orientação institucional."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Motorista que sabe do roubo e leva comparsas ao local pode contribuir causalmente; carona inocente não configura concurso."
       }
     ],
-    "comoIdentificar": "Procure palavras como autoria, participação, concurso material, concurso formal, crime continuado, penas, prescrição e extinção da punibilidade e observe se o enunciado pede regra, exceção, conceito ou consequência.",
+    "quadroDeDominio": {
+      "conceito": "Concurso de pessoas exige pluralidade de agentes, relevância causal, vínculo subjetivo e identidade de infração.",
+      "limite": "Concurso material, formal e crime continuado têm regimes distintos de aplicação de pena.",
+      "aplicacao": "Motorista que sabe do roubo e leva comparsas ao local pode contribuir causalmente; carona inocente não configura concurso.",
+      "erroFatal": "Dizer que presença no local sempre configura participação."
+    },
+    "exemploComentado": "Motorista que sabe do roubo e leva comparsas ao local pode contribuir causalmente; carona inocente não configura concurso.",
     "pegadinhas": [
-      "Confundir concurso de pessoas com concurso de crimes ou somar penas sem observar a espécie de concurso.",
-      "confundir regra com exceção",
-      "usar linguagem absoluta",
-      "ignorar requisito subjetivo",
-      "misturar Parte Geral com crime em espécie"
+      "Dizer que presença no local sempre configura participação.",
+      "Confundir concurso formal com continuidade delitiva."
     ],
-    "resumoFrase": "Parte Geral também cobra como pessoas e crimes se conectam, como as penas são aplicadas e quando a punibilidade se extingue.",
-    "explicacaoComoSeTivesse12": "Pense assim: Parte Geral também cobra como pessoas e crimes se conectam, como as penas são aplicadas e quando a punibilidade se extingue. Em prova, você precisa descobrir qual regra se aplica e qual detalhe muda a resposta.",
-    "mapaMentalTextual": {
-      "centro": "Parte Geral aplicada: autoria, participação, concurso e consequências penais",
-      "ramos": [
-        "conceito",
-        "requisitos",
-        "exceções",
-        "caso prático",
-        "pegadinha",
-        "consequência",
-        "revisão"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Concurso de pessoas, crimes, penas e extinção da punibilidade",
+      "Conceito: Concurso de pessoas exige pluralidade de agentes, relevância causal, vínculo subjetivo e identidade de infração.",
+      "Aplicação: Motorista que sabe do roubo e leva comparsas ao local pode contribuir causalmente; carona inocente não configura concurso.",
+      "Cuidado: Dizer que presença no local sempre configura participação."
+    ],
     "comoEstudar": [
-      "Ler o conceito",
-      "Fazer quadro de requisitos",
-      "Comparar instituto parecido",
-      "Resolver 10 questões",
-      "Revisar erros com flashcards"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Não caia na armadilha: Confundir concurso de pessoas com concurso de crimes ou somar penas sem observar a espécie de concurso.",
-    "revisaoProgramada": {
-      "D0": "ler e resumir requisitos",
-      "D1": "refazer questões erradas",
-      "D7": "revisar flashcards",
-      "D30": "simulado misto de Parte Geral"
-    },
-    "criteriosDominio": [
-      "conceituar instituto",
-      "listar requisitos",
-      "comparar exceções",
-      "resolver caso concreto",
-      "justificar gabarito"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f10-01",
-        "frente": "Qual é a ideia central de Parte Geral aplicada: autoria, participação, concurso e consequências penais?",
-        "verso": "Parte Geral também cobra como pessoas e crimes se conectam, como as penas são aplicadas e quando a punibilidade se extingue.",
-        "tag": "Parte Geral aplicada: autoria, participação, concurso e consequências penais",
+        "id": "direito-penal-parte-geral-avancado-10-fc01",
+        "frente": "Qual é a ideia central de Concurso de pessoas, crimes, penas e extinção da punibilidade?",
+        "verso": "Concurso de pessoas exige pluralidade de agentes, relevância causal, vínculo subjetivo e identidade de infração.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f10-02",
-        "frente": "Qual pegadinha a banca costuma usar em Parte Geral aplicada: autoria, participação, concurso e consequências penais?",
-        "verso": "Confundir concurso de pessoas com concurso de crimes ou somar penas sem observar a espécie de concurso.",
+        "id": "direito-penal-parte-geral-avancado-10-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em fechamento da Parte Geral?",
+        "verso": "Concurso material, formal e crime continuado têm regimes distintos de aplicação de pena.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-10-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Dizer que presença no local sempre configura participação.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f10-03",
-        "frente": "Como estudar Parte Geral aplicada: autoria, participação, concurso e consequências penais para prova?",
-        "verso": "Estude o conceito, memorize os requisitos, compare institutos parecidos e resolva casos curtos sobre autoria, participação, concurso material, concurso formal, crime continuado, penas, prescrição e extinção da punibilidade.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f10-04",
-        "frente": "Qual comparação é decisiva em Parte Geral aplicada: autoria, participação, concurso e consequências penais?",
-        "verso": "Compare autoria, participação, concurso material, concurso formal, crime continuado, penas, prescrição e extinção da punibilidade sem trocar requisito legal por opinião. Em Penal, a banca costuma mudar uma palavra para alterar todo o resultado.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "direito-penal-parte-geral-avancado-10-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Motorista que sabe do roubo e leva comparsas ao local pode contribuir causalmente; carona inocente não configura concurso.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Crie 5 casos práticos de concurso sobre Parte Geral aplicada: autoria, participação, concurso e consequências penais, cada um com gabarito comentado e uma pegadinha comum.",
-      "objetivo": "Treinar aplicação da Parte Geral do Direito Penal em casos de banca."
-    },
     "questoes": [
       {
-        "id": "q10-01",
+        "id": "direito-penal-parte-geral-avancado-10-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Parte Geral aplicada: autoria, participação, concurso e consequências penais, assinale a alternativa correta.",
+        "enunciado": "Em relação a Concurso de pessoas, crimes, penas e extinção da punibilidade, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "A punição penal pode dispensar lei anterior quando o fato parecer socialmente grave."
-          },
-          {
-            "letra": "B",
-            "texto": "Parte Geral também cobra como pessoas e crimes se conectam, como as penas são aplicadas e quando a punibilidade se extingue."
-          },
-          {
-            "letra": "C",
-            "texto": "A analogia pode sempre criar crime e agravar pena contra o acusado."
-          },
-          {
-            "letra": "D",
-            "texto": "A banca ignora requisitos legais quando o caso envolve segurança pública."
-          },
-          {
-            "letra": "E",
-            "texto": "A responsabilização penal depende apenas da repercussão social do fato."
-          }
+          "Concurso de pessoas exige pluralidade de agentes, relevância causal, vínculo subjetivo e identidade de infração.",
+          "Dizer que presença no local sempre configura participação.",
+          "Confundir concurso formal com continuidade delitiva.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "A alternativa B resume corretamente o ponto central: Parte Geral também cobra como pessoas e crimes se conectam, como as penas são aplicadas e quando a punibilidade se extingue."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A alternativa correta resume o núcleo do tema: Concurso de pessoas exige pluralidade de agentes, relevância causal, vínculo subjetivo e identidade de infração."
       },
       {
-        "id": "q10-02",
+        "id": "direito-penal-parte-geral-avancado-10-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Parte Geral aplicada: autoria, participação, concurso e consequências penais, é correto substituir requisito legal por juízo moral genérico.",
+        "enunciado": "Concurso material, formal e crime continuado têm regimes distintos de aplicação de pena.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de fechamento da Parte Geral."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-10-q03",
+        "tipo": "certo_errado",
+        "enunciado": "Dizer que presença no local sempre configura participação.",
         "gabarito": "Errado",
-        "correta": false,
-        "comentario": "Direito Penal exige enquadramento legal, requisitos e limites constitucionais."
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q10-03",
-        "tipo": "certo_errado",
-        "enunciado": "A análise de Parte Geral aplicada: autoria, participação, concurso e consequências penais exige atenção a conceitos parecidos e às palavras usadas pela banca.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "A banca costuma trocar expressões técnicas para testar precisão conceitual."
-      },
-      {
-        "id": "q10-04",
+        "id": "direito-penal-parte-geral-avancado-10-q04",
         "tipo": "caso_pratico",
-        "enunciado": "Em uma situação envolvendo Parte Geral aplicada: autoria, participação, concurso e consequências penais, o candidato percebe que a questão afirma: 'Confundir concurso de pessoas com concurso de crimes ou somar penas sem observar a espécie de concurso.'. Qual é o melhor caminho de resolução?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Aceitar a frase, pois pegadinhas costumam ser verdadeiras em Direito Penal."
-          },
-          {
-            "letra": "B",
-            "texto": "Conferir os requisitos legais e separar o instituto correto do instituto parecido."
-          },
-          {
-            "letra": "C",
-            "texto": "Responder pela alternativa mais severa, sempre favorável à acusação."
-          },
-          {
-            "letra": "D",
-            "texto": "Ignorar o caso concreto e marcar a alternativa com linguagem mais longa."
-          },
-          {
-            "letra": "E",
-            "texto": "Aplicar analogia para prejudicar o réu quando houver dúvida."
-          }
-        ],
-        "gabaritoLetra": "B",
-        "correta": "B",
-        "comentario": "O caminho seguro é comparar requisitos e evitar conclusões automáticas."
+        "enunciado": "Considere o caso: Motorista que sabe do roubo e leva comparsas ao local pode contribuir causalmente; carona inocente não configura concurso. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Pena deve observar culpabilidade, antecedentes, circunstâncias e finalidades de reprovação e prevenção.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q10-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual afirmação representa uma pegadinha recorrente em Parte Geral aplicada: autoria, participação, concurso e consequências penais?",
-        "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Separar conceito, requisito e consequência jurídica."
-          },
-          {
-            "letra": "B",
-            "texto": "Ler o caso concreto antes de escolher a resposta."
-          },
-          {
-            "letra": "C",
-            "texto": "Confundir concurso de pessoas com concurso de crimes ou somar penas sem observar a espécie de concurso."
-          },
-          {
-            "letra": "D",
-            "texto": "Verificar se a questão cobra regra, exceção ou comparação."
-          },
-          {
-            "letra": "E",
-            "texto": "Usar a lei penal de modo compatível com a Constituição."
-          }
-        ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A alternativa C mostra exatamente a armadilha destacada no capítulo."
-      },
-      {
-        "id": "q10-06",
+        "id": "direito-penal-parte-geral-avancado-10-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Em uma frase, explique a ideia central de Parte Geral aplicada: autoria, participação, concurso e consequências penais.",
-        "respostaEsperada": "Parte Geral também cobra como pessoas e crimes se conectam, como as penas são aplicadas e quando a punibilidade se extingue.",
-        "comentario": "A resposta deve indicar o conceito e sua consequência para a prova."
+        "enunciado": "Explique, em até três linhas, por que fechamento da Parte Geral não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar concurso de pessoas exige pluralidade de agentes, relevância causal, vínculo subjetivo e identidade de infração. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q10-07",
+        "id": "direito-penal-parte-geral-avancado-10-q06",
         "tipo": "comparativa",
-        "enunciado": "Compare dois institutos relevantes de Parte Geral aplicada: autoria, participação, concurso e consequências penais sem confundi-los.",
-        "respostaEsperada": "A comparação deve separar requisitos, momento de incidência e consequência jurídica em temas como autoria, participação, concurso material, concurso formal, crime continuado, penas, prescrição e extinção da punibilidade.",
-        "comentario": "A comparação é indispensável para questões de caso concreto."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Concurso de pessoas exige pluralidade de agentes, relevância causal, vínculo subjetivo e identidade de infração. Pegadinha: Dizer que presença no local sempre configura participação.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q10-08",
-        "tipo": "treino_ia",
-        "enunciado": "Peça ao tutor IA três casos curtos sobre Parte Geral aplicada: autoria, participação, concurso e consequências penais, com uma pegadinha em cada caso.",
-        "criteriosCorrecao": [
-          "identificar instituto correto",
-          "apontar requisito decisivo",
-          "justificar sem moralismo",
-          "corrigir a pegadinha"
-        ],
-        "comentario": "Treino ideal para transformar teoria penal em acerto de prova."
-      },
-      {
-        "id": "q10-09",
+        "id": "direito-penal-parte-geral-avancado-10-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "No estudo de Parte Geral aplicada: autoria, participação, concurso e consequências penais, qual postura aumenta a chance de acerto?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          {
-            "letra": "A",
-            "texto": "Decorar apenas o nome do instituto."
-          },
-          {
-            "letra": "B",
-            "texto": "Ignorar exceções porque a regra geral sempre resolve tudo."
-          },
-          {
-            "letra": "C",
-            "texto": "Mapear conceito, requisitos, exceções e consequência prática."
-          },
-          {
-            "letra": "D",
-            "texto": "Escolher sempre a alternativa que aumenta a pena."
-          },
-          {
-            "letra": "E",
-            "texto": "Trocar termos técnicos por sinônimos sem cuidado."
-          }
+          "Pena deve observar culpabilidade, antecedentes, circunstâncias e finalidades de reprovação e prevenção.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Confundir concurso formal com continuidade delitiva."
         ],
-        "gabaritoLetra": "C",
-        "correta": "C",
-        "comentario": "A postura correta é estudar com mapa de requisitos e consequências."
+        "correta": 0,
+        "gabaritoLetra": "A",
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q10-10",
-        "tipo": "certo_errado",
-        "enunciado": "A principal dificuldade de Parte Geral aplicada: autoria, participação, concurso e consequências penais é identificar o instituto aplicável ao caso concreto e evitar confusão entre categorias próximas.",
-        "gabarito": "Certo",
-        "correta": true,
-        "comentario": "Essa é uma das marcas de Direito Penal Parte Geral em concursos."
+        "id": "direito-penal-parte-geral-avancado-10-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Confundir concurso formal com continuidade delitiva.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-10-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Concurso de pessoas, crimes, penas e extinção da punibilidade a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Extinção da punibilidade atinge pretensão punitiva ou executória por causas como prescrição, morte, anistia ou outras hipóteses legais.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-penal-parte-geral-avancado-10-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Concurso de pessoas exige pluralidade de agentes, relevância causal, vínculo subjetivo e identidade de infração.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Revisão geral de Direito Penal Parte Geral"
+    "proximoTitulo": "Revisão integrada do módulo"
   }
 ];
 

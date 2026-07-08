@@ -1,6 +1,6 @@
 # Apostilas - Biblioteca VemAprovar
 
-## Modulos disponiveis (47 apostilas)
+## Modulos disponiveis (56 apostilas)
 
 1. Portugues PMMA - Ortografia e Morfologia
 2. Portugues PMMA - Interpretacao
@@ -9,46 +9,55 @@
 5. Direito Penal - Parte Geral
 6. Direito Penal - Parte Geral Avancado
 7. Direito Processual Penal
-8. Direito Processual Civil
-9. Direito Processual do Trabalho
-10. Direito Processual Penal Militar
-11. Direitos Humanos
-12. Direitos Humanos Avancado
-13. Legislacao Penal Especial
-14. Legislacao Institucional PMMA
-15. Legislacao Institucional PMMA Avancada
-16. Direito Administrativo
-17. Direito Administrativo Avancado
-18. Direito Constitucional
-19. Direito Constitucional Avancado
-20. Direito Civil
-21. Direito do Trabalho
-22. Direito Tributario
-23. Etica Profissional OAB
-24. Direito Empresarial
-25. Direito do Consumidor
-26. ECA
-27. Direito Ambiental
-28. Filosofia do Direito
-29. Direito Previdenciario
-30. Direito Financeiro
-31. Direito Eleitoral
-32. Direito Internacional
-33. Direito Digital, LGPD e Crimes Ciberneticos
-34. Criminologia e Seguranca Publica Avancada
-35. CTB - Codigo de Transito Brasileiro
-36. Direito Penal Militar
-37. Atualidades
-38. Atualidades Avancada
-39. Etica
-40. Informatica
-41. Informatica Avancada
-42. Matematica Basica
-43. Matematica e Raciocinio Logico Avancado
-44. Raciocinio Logico
-45. Redacao
-46. Redacao para Concursos Policiais
-47. TAF
+8. Direito Processual Penal Avancado
+9. Direito Processual Civil
+10. Direito Processual do Trabalho
+11. Direito Processual Penal Militar
+12. Direito Processual Penal Militar Avancado
+13. Direitos Humanos
+14. Direitos Humanos Avancado
+15. Legislacao Penal Especial
+16. Legislacao Penal Especial Avancada
+17. Legislacao Institucional PMMA
+18. Legislacao Institucional PMMA Avancada
+19. Legislacao Institucional PMMA - Simulados Comentados
+20. Direito Administrativo
+21. Direito Administrativo Avancado
+22. Direito Constitucional
+23. Direito Constitucional Avancado
+24. Direito Civil
+25. Direito do Trabalho
+26. Direito Tributario
+27. Etica Profissional OAB
+28. Direito Empresarial
+29. Direito do Consumidor
+30. ECA
+31. Direito Ambiental
+32. Filosofia do Direito
+33. Direito Previdenciario
+34. Direito Financeiro
+35. Direito Eleitoral
+36. Direito Internacional
+37. Direito Digital, LGPD e Crimes Ciberneticos
+38. Criminologia e Seguranca Publica Avancada
+39. CTB - Codigo de Transito Brasileiro
+40. Direito Penal Militar
+41. Direito Penal Militar Avancado
+42. Direito Penal - Parte Especial Avancado
+43. Ordem Publica, Defesa Social e Seguranca Cidada
+44. Policia Comunitaria e Mediacao de Conflitos
+45. Uso Diferenciado da Forca e Atuacao Policial
+46. Atualidades
+47. Atualidades Avancada
+48. Etica
+49. Informatica
+50. Informatica Avancada
+51. Matematica Basica
+52. Matematica e Raciocinio Logico Avancado
+53. Raciocinio Logico
+54. Redacao
+55. Redacao para Concursos Policiais
+56. TAF
 
 ## Estrutura dos arquivos
 

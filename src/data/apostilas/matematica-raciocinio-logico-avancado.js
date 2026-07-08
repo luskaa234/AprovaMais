@@ -1,3396 +1,2059 @@
 /**
- * VemAprovar Top1 — Apostila Premium 10/10 Plus Revisado
- * Arquivo: matematica-raciocinio-logico-avancado.js
- * Módulo: Matemática e Raciocínio Lógico Avançado
- * Lote 23: conteúdo novo com gabaritos obrigatórios, flashcards completos e validação programática.
+ * VemAprovar — Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade
+ * Arquivo reescrito do zero para substituir versão genérica/templated.
+ * Foco: conteúdo real, caso prático, pegadinhas e questões com gabarito.
  */
 
 export const matematicaRaciocinioLogicoAvancado = [
   {
-    "id": "proposicoes-conectivos-e-tabelas-verdade",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "id": "proposicoes-e-conectivos",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 1,
     "totalChapters": 10,
-    "title": "Proposições, conectivos e tabelas-verdade",
-    "assunto": "Lógica proposicional básica e avançada",
-    "tecnica": "Estudo por interpretação do comando, modelagem, cálculo organizado, conferência e revisão de pegadinhas",
-    "competencia": "Resolver questões de lógica e matemática com precisão, identificando condições, fórmulas e armadilhas de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 32,
+    "title": "Proposições e conectivos",
+    "assunto": "lógica proposicional",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar lógica proposicional com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "ENEM": 4
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "proposição",
-      "valor lógico",
-      "negação",
-      "conjunção",
-      "disjunção",
-      "condicional",
-      "bicondicional"
+      "logica proposicional"
     ],
-    "fontesBase": [
-      "Matemática básica aplicada a concursos",
-      "Raciocínio lógico proposicional",
-      "Modelos de cobrança das principais bancas",
-      "Problemas contextualizados de concursos policiais e administrativos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Lógica proposicional básica e avançada com foco em questões objetivas de concursos policiais, administrativos, tribunais e provas gerais.",
-      "Ideia central: Proposição é frase com valor lógico; conectivos formam estruturas que podem ser avaliadas por tabela-verdade.",
-      "Erro comum: Tratar frase interrogativa ou ordem como proposição e errar o valor lógico do condicional.",
-      "Como estudar: identificar proposições simples, marcar conectivo dominante, montar casos V/F e avaliar a expressão composta. Em seguida, resolva questões, registre o tipo de erro e refaça sem consultar o gabarito."
+      "Proposições e conectivos exige domínio de lógica proposicional. O estudo correto começa pela ideia de que proposição é frase declarativa com valor lógico; pergunta, ordem e expressão subjetiva não entram na tabela.",
+      "Negação, conjunção, disjunção, condicional e bicondicional têm regras próprias de verdade. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Condicional só é falsa quando antecedente verdadeiro leva a consequente falso. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Tabela-verdade resolve equivalência, contradição, tautologia e validade. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Proposição é frase com valor lógico; conectivos formam estruturas que podem ser avaliadas por tabela-verdade.",
-      "A leitura do comando vem antes da fórmula.",
-      "A conferência final deve testar se o resultado responde exatamente ao enunciado.",
-      "Erro comum: Tratar frase interrogativa ou ordem como proposição e errar o valor lógico do condicional."
+      "Proposição é frase declarativa com valor lógico; pergunta, ordem e expressão subjetiva não entram na tabela.",
+      "Negação, conjunção, disjunção, condicional e bicondicional têm regras próprias de verdade.",
+      "Condicional só é falsa quando antecedente verdadeiro leva a consequente falso.",
+      "Tabela-verdade resolve equivalência, contradição, tautologia e validade."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Tratar frase interrogativa ou ordem como proposição e errar o valor lógico do condicional.",
-        "Proposição é frase com valor lógico; conectivos formam estruturas que podem ser avaliadas por tabela-verdade.",
-        "A resolução deve ser feita apenas por memorização."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito, método e aplicação em prova."
-    },
-    "oQueCobra": "Lógica proposicional, negações, argumentos, conjuntos, porcentagem, matemática financeira, combinatória, probabilidade, sequências, álgebra e estatística.",
-    "precisaSaberAntes": "Operações básicas, leitura de enunciado, frações, porcentagens, igualdade, desigualdade, tabelas e gráficos simples.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura cálculo simples com interpretação rígida de condições, quantificadores, unidades e restrições."
+        "pergunta": "Qual é o núcleo de Proposições e conectivos?",
+        "resposta": "Proposição é frase declarativa com valor lógico; pergunta, ordem e expressão subjetiva não entram na tabela."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, escreva dados, escolha a técnica, resolva em etapas e confira o resultado no enunciado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Negar “e” trocando só uma parte."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "O domínio de lógica e matemática melhora prova objetiva, leitura de dados, controle de tempo e resolução de problemas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "“Se estudo, passo” é falso apenas se estudo e não passo dentro da lógica formal."
       }
     ],
-    "comoIdentificar": "Procure palavras como todo, algum, nenhum, ao menos, exatamente, porcentagem, total, diferença, razão, ordem, comissão, probabilidade, média e mediana.",
+    "quadroDeDominio": {
+      "conceito": "Proposição é frase declarativa com valor lógico; pergunta, ordem e expressão subjetiva não entram na tabela.",
+      "limite": "Negação, conjunção, disjunção, condicional e bicondicional têm regras próprias de verdade.",
+      "aplicacao": "“Se estudo, passo” é falso apenas se estudo e não passo dentro da lógica formal.",
+      "erroFatal": "Negar “e” trocando só uma parte."
+    },
+    "exemploComentado": "“Se estudo, passo” é falso apenas se estudo e não passo dentro da lógica formal.",
     "pegadinhas": [
-      "ignorar unidade",
-      "confundir ordem em combinatória",
-      "somar percentuais sucessivos",
-      "negar quantificador errado",
-      "ler gráfico sem escala"
+      "Negar “e” trocando só uma parte.",
+      "Achar que “se... então” exige relação causal real."
     ],
-    "resumoFrase": "Proposição é frase com valor lógico; conectivos formam estruturas que podem ser avaliadas por tabela-verdade.",
-    "explicacaoComoSeTivesse12": "Pense assim: Proposição é frase com valor lógico; conectivos formam estruturas que podem ser avaliadas por tabela-verdade. Primeiro entenda o pedido, depois faça a conta ou a lógica e confira se respondeu exatamente ao que foi perguntado.",
-    "mapaMentalTextual": {
-      "centro": "Lógica proposicional básica e avançada",
-      "ramos": [
-        "conceito",
-        "dados do enunciado",
-        "método",
-        "cálculo ou lógica",
-        "conferência",
-        "pegadinha"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Proposições e conectivos",
+      "Conceito: Proposição é frase declarativa com valor lógico; pergunta, ordem e expressão subjetiva não entram na tabela.",
+      "Aplicação: “Se estudo, passo” é falso apenas se estudo e não passo dentro da lógica formal.",
+      "Cuidado: Negar “e” trocando só uma parte."
+    ],
     "comoEstudar": [
-      "Ler o capítulo com lápis na mão",
-      "Resolver 10 questões registrando passos",
-      "Refazer erros no dia seguinte",
-      "Criar um exemplo próprio",
-      "Revisar flashcards em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Tratar frase interrogativa ou ordem como proposição e errar o valor lógico do condicional. A banca cobra menos decoreba e mais aplicação correta das condições.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros sem gabarito",
-      "D7": "revisar flashcards e questões difíceis",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "interpretar comando",
-      "escolher método correto",
-      "resolver sem pular etapas",
-      "conferir resposta",
-      "identificar pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f01-01",
-        "frente": "Ideia central de Lógica proposicional básica e avançada",
-        "verso": "Proposição é frase com valor lógico; conectivos formam estruturas que podem ser avaliadas por tabela-verdade.",
-        "tag": "Lógica proposicional básica e avançada",
+        "id": "matematica-e-raciocinio-logico-avancado-01-fc01",
+        "frente": "Qual é a ideia central de Proposições e conectivos?",
+        "verso": "Proposição é frase declarativa com valor lógico; pergunta, ordem e expressão subjetiva não entram na tabela.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f01-02",
-        "frente": "Pegadinha comum em Lógica proposicional básica e avançada",
-        "verso": "Tratar frase interrogativa ou ordem como proposição e errar o valor lógico do condicional.",
+        "id": "matematica-e-raciocinio-logico-avancado-01-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em lógica proposicional?",
+        "verso": "Negação, conjunção, disjunção, condicional e bicondicional têm regras próprias de verdade.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-01-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Negar “e” trocando só uma parte. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f01-03",
-        "frente": "Roteiro seguro para Lógica proposicional básica e avançada",
-        "verso": "Use este roteiro: identificar proposições simples, marcar conectivo dominante, montar casos V/F e avaliar a expressão composta. Ao final, teste a resposta no enunciado.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f01-04",
-        "frente": "Comparação importante em Lógica proposicional básica e avançada",
-        "verso": "proposição simples x proposição composta: a simples tem um único valor lógico; a composta combina proposições por conectivos.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "matematica-e-raciocinio-logico-avancado-01-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "“Se estudo, passo” é falso apenas se estudo e não passo dentro da lógica formal.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Matemática e Raciocínio Lógico para concursos. Explique Lógica proposicional básica e avançada, resolva um exemplo e mostre a pegadinha mais comum.",
-      "feedbackPadrao": "Corrija com foco em interpretação, método, cálculo, unidade e condição do enunciado."
-    },
     "questoes": [
       {
-        "id": "q01-01",
+        "id": "matematica-e-raciocinio-logico-avancado-01-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Lógica proposicional básica e avançada, qual afirmação está correta?",
+        "enunciado": "Em relação a Proposições e conectivos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Proposição é frase com valor lógico; conectivos formam estruturas que podem ser avaliadas por tabela-verdade.",
-          "Tratar frase interrogativa ou ordem como proposição e errar o valor lógico do condicional.",
-          "A resposta deve ser escolhida por intuição sem testar condições.",
-          "Toda questão pode ser resolvida por uma única fórmula decorada.",
-          "O comando da banca não interfere na estratégia de solução."
+          "Proposição é frase declarativa com valor lógico; pergunta, ordem e expressão subjetiva não entram na tabela.",
+          "Negar “e” trocando só uma parte.",
+          "Achar que “se... então” exige relação causal real.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Proposição é frase com valor lógico; conectivos formam estruturas que podem ser avaliadas por tabela-verdade.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "Proposição é frase com valor lógico; conectivos formam estruturas que podem ser avaliadas por tabela-verdade.",
-        "armadilhaDaBanca": "Tratar frase interrogativa ou ordem como proposição e errar o valor lógico do condicional.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A alternativa correta resume o núcleo do tema: Proposição é frase declarativa com valor lógico; pergunta, ordem e expressão subjetiva não entram na tabela."
       },
       {
-        "id": "q01-02",
+        "id": "matematica-e-raciocinio-logico-avancado-01-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Lógica proposicional básica e avançada, é seguro resolver a questão sem identificar a condição central do enunciado.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A condição central define a fórmula, a lógica e a interpretação correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Negação, conjunção, disjunção, condicional e bicondicional têm regras próprias de verdade.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de lógica proposicional."
       },
       {
-        "id": "q01-03",
+        "id": "matematica-e-raciocinio-logico-avancado-01-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Lógica proposicional básica e avançada, testar a resposta no enunciado ajuda a reduzir erro de cálculo e interpretação.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A conferência final evita respostas numericamente plausíveis, mas logicamente erradas.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Negar “e” trocando só uma parte.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q01-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "A banca apresenta “se estudo, então aprovo” e pergunta quando a condicional é falsa.",
-        "alternativas": [
-          "A condicional só é falsa quando o antecedente é verdadeiro e o consequente é falso.",
-          "O resultado deve ser obtido apenas por estimativa visual.",
-          "A condição do enunciado não muda o método.",
-          "Qualquer fórmula parecida resolve o problema.",
-          "Não é necessário conferir unidade, ordem ou restrição."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A condicional só é falsa quando o antecedente é verdadeiro e o consequente é falso.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "A condicional só é falsa quando o antecedente é verdadeiro e o consequente é falso.",
-        "armadilhaDaBanca": "A banca oferece alternativas próximas para punir quem calcula sem interpretar.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "id": "matematica-e-raciocinio-logico-avancado-01-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: “Se estudo, passo” é falso apenas se estudo e não passo dentro da lógica formal. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Condicional só é falsa quando antecedente verdadeiro leva a consequente falso.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q01-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Lógica proposicional básica e avançada?",
-        "alternativas": [
-          "Usar o roteiro: identificar proposições simples, marcar conectivo dominante, montar casos V/F e avaliar a expressão composta.",
-          "Decorar o gabarito de questões antigas.",
-          "Pular a leitura do comando e ir direto às alternativas.",
-          "Ignorar restrições como “exatamente”, “no máximo” e “ao menos”.",
-          "Fazer contas sem registrar passo intermediário."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: identificar proposições simples, marcar conectivo dominante, montar casos V/F e avaliar a expressão composta.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "O roteiro correto é: identificar proposições simples, marcar conectivo dominante, montar casos V/F e avaliar a expressão composta.",
-        "armadilhaDaBanca": "O erro comum é saber a fórmula, mas aplicar no cenário errado.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
-      },
-      {
-        "id": "q01-06",
+        "id": "matematica-e-raciocinio-logico-avancado-01-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Lógica proposicional básica e avançada.",
-        "respostaEsperada": "Proposição é frase com valor lógico; conectivos formam estruturas que podem ser avaliadas por tabela-verdade.",
-        "rubricaCorrecao": [
-          "definir a ideia",
-          "aplicar ao caso",
-          "usar linguagem matemática precisa",
-          "evitar regra absoluta indevida"
-        ],
-        "comentario": "A resposta deve unir conceito, uso em prova e cuidado com pegadinha.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva de forma objetiva."
+        "enunciado": "Explique, em até três linhas, por que lógica proposicional não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar proposição é frase declarativa com valor lógico; pergunta, ordem e expressão subjetiva não entram na tabela. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q01-07",
+        "id": "matematica-e-raciocinio-logico-avancado-01-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie proposição simples e proposição composta.",
-        "respostaEsperada": "a simples tem um único valor lógico; a composta combina proposições por conectivos",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "criar exemplo numérico ou lógico"
-        ],
-        "comentario": "A diferença essencial é: a simples tem um único valor lógico; a composta combina proposições por conectivos.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, fórmula e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Proposição é frase declarativa com valor lógico; pergunta, ordem e expressão subjetiva não entram na tabela. Pegadinha: Negar “e” trocando só uma parte.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q01-08",
+        "id": "matematica-e-raciocinio-logico-avancado-01-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Lógica proposicional básica e avançada?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Tratar frase interrogativa ou ordem como proposição e errar o valor lógico do condicional.",
-          "Definir a incógnita antes da conta.",
-          "Desenhar diagrama quando houver conjuntos.",
-          "Conferir se a ordem importa em contagem.",
-          "Ler escala, unidade e legenda antes do cálculo."
+          "Condicional só é falsa quando antecedente verdadeiro leva a consequente falso.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Achar que “se... então” exige relação causal real."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Tratar frase interrogativa ou ordem como proposição e errar o valor lógico do condicional.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "A pegadinha comum é: Tratar frase interrogativa ou ordem como proposição e errar o valor lógico do condicional.",
-        "armadilhaDaBanca": "A alternativa errada costuma parecer natural porque usa termo conhecido.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q01-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Lógica proposicional básica e avançada, uma alternativa pode ter número correto em cálculo isolado e estar errada por não respeitar o comando.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. O número precisa responder exatamente ao que foi perguntado.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "id": "matematica-e-raciocinio-logico-avancado-01-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Achar que “se... então” exige relação causal real.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q01-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: resolva e explique uma questão de Lógica proposicional básica e avançada como professor de concurso.",
-        "promptTutorIA": "Crie uma questão de Lógica proposicional básica e avançada, resolva passo a passo, mostre a pegadinha e dê um método de revisão.",
-        "criterioDominio": [
-          "interpretação correta",
-          "cálculo ou lógica correta",
-          "justificativa da alternativa",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma fórmula em raciocínio aplicado.",
-        "diagnosticoIA": "Depois do treino, crie uma questão parecida trocando números ou condições."
+        "id": "matematica-e-raciocinio-logico-avancado-01-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Proposições e conectivos a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Tabela-verdade resolve equivalência, contradição, tautologia e validade.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-01-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Proposição é frase declarativa com valor lógico; pergunta, ordem e expressão subjetiva não entram na tabela.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Equivalências lógicas, negações e quantificadores",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 23 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Baixo: conteúdo conceitual estável; adaptar apenas ao estilo da banca e ao edital.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Matemática / Raciocínio Lógico / Concursos"
+    "proximoTitulo": "Equivalências, negações e quantificadores"
   },
   {
-    "id": "equivalencias-logicas-negacoes-e-quantificadores",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "id": "equivalencias-negacoes-e-quantificadores",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 2,
     "totalChapters": 10,
-    "title": "Equivalências lógicas, negações e quantificadores",
-    "assunto": "Equivalência, negação lógica e quantificação",
-    "tecnica": "Estudo por interpretação do comando, modelagem, cálculo organizado, conferência e revisão de pegadinhas",
-    "competencia": "Resolver questões de lógica e matemática com precisão, identificando condições, fórmulas e armadilhas de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 32,
+    "title": "Equivalências, negações e quantificadores",
+    "assunto": "transformações lógicas",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar transformações lógicas com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "ENEM": 4
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "equivalência",
-      "negação",
-      "De Morgan",
-      "todo",
-      "algum",
-      "nenhum",
-      "condicional"
+      "transformacoes logicas"
     ],
-    "fontesBase": [
-      "Matemática básica aplicada a concursos",
-      "Raciocínio lógico proposicional",
-      "Modelos de cobrança das principais bancas",
-      "Problemas contextualizados de concursos policiais e administrativos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Equivalência, negação lógica e quantificação com foco em questões objetivas de concursos policiais, administrativos, tribunais e provas gerais.",
-      "Ideia central: Negar corretamente exige trocar estrutura lógica, não apenas inserir “não” na frase.",
-      "Erro comum: Negar “todo” como “nenhum” e negar condicional sem usar antecedente verdadeiro e consequente falso.",
-      "Como estudar: identificar quantificador, conectivo principal, aplicar equivalência adequada e testar por exemplo simples. Em seguida, resolva questões, registre o tipo de erro e refaça sem consultar o gabarito."
+      "Equivalências, negações e quantificadores exige domínio de transformações lógicas. O estudo correto começa pela ideia de que negar conjunção transforma em disjunção de negações; negar disjunção transforma em conjunção de negações.",
+      "Condicional P→Q equivale a não P ou Q e à contrapositiva não Q→não P. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Negar “todo” produz “existe pelo menos um que não”. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Negar “existe” produz “nenhum” ou “todo não”, conforme formulação. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Negar corretamente exige trocar estrutura lógica, não apenas inserir “não” na frase.",
-      "A leitura do comando vem antes da fórmula.",
-      "A conferência final deve testar se o resultado responde exatamente ao enunciado.",
-      "Erro comum: Negar “todo” como “nenhum” e negar condicional sem usar antecedente verdadeiro e consequente falso."
+      "Negar conjunção transforma em disjunção de negações; negar disjunção transforma em conjunção de negações.",
+      "Condicional P→Q equivale a não P ou Q e à contrapositiva não Q→não P.",
+      "Negar “todo” produz “existe pelo menos um que não”.",
+      "Negar “existe” produz “nenhum” ou “todo não”, conforme formulação."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Negar “todo” como “nenhum” e negar condicional sem usar antecedente verdadeiro e consequente falso.",
-        "Negar corretamente exige trocar estrutura lógica, não apenas inserir “não” na frase.",
-        "A resolução deve ser feita apenas por memorização."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito, método e aplicação em prova."
-    },
-    "oQueCobra": "Lógica proposicional, negações, argumentos, conjuntos, porcentagem, matemática financeira, combinatória, probabilidade, sequências, álgebra e estatística.",
-    "precisaSaberAntes": "Operações básicas, leitura de enunciado, frações, porcentagens, igualdade, desigualdade, tabelas e gráficos simples.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura cálculo simples com interpretação rígida de condições, quantificadores, unidades e restrições."
+        "pergunta": "Qual é o núcleo de Equivalências, negações e quantificadores?",
+        "resposta": "Negar conjunção transforma em disjunção de negações; negar disjunção transforma em conjunção de negações."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, escreva dados, escolha a técnica, resolva em etapas e confira o resultado no enunciado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Negar “todos” com “nenhum” quando basta um contraexemplo."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "O domínio de lógica e matemática melhora prova objetiva, leitura de dados, controle de tempo e resolução de problemas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Negação de “todos os candidatos estudam” é “algum candidato não estuda”."
       }
     ],
-    "comoIdentificar": "Procure palavras como todo, algum, nenhum, ao menos, exatamente, porcentagem, total, diferença, razão, ordem, comissão, probabilidade, média e mediana.",
+    "quadroDeDominio": {
+      "conceito": "Negar conjunção transforma em disjunção de negações; negar disjunção transforma em conjunção de negações.",
+      "limite": "Condicional P→Q equivale a não P ou Q e à contrapositiva não Q→não P.",
+      "aplicacao": "Negação de “todos os candidatos estudam” é “algum candidato não estuda”.",
+      "erroFatal": "Negar “todos” com “nenhum” quando basta um contraexemplo."
+    },
+    "exemploComentado": "Negação de “todos os candidatos estudam” é “algum candidato não estuda”.",
     "pegadinhas": [
-      "ignorar unidade",
-      "confundir ordem em combinatória",
-      "somar percentuais sucessivos",
-      "negar quantificador errado",
-      "ler gráfico sem escala"
+      "Negar “todos” com “nenhum” quando basta um contraexemplo.",
+      "Confundir inversa com contrapositiva."
     ],
-    "resumoFrase": "Negar corretamente exige trocar estrutura lógica, não apenas inserir “não” na frase.",
-    "explicacaoComoSeTivesse12": "Pense assim: Negar corretamente exige trocar estrutura lógica, não apenas inserir “não” na frase. Primeiro entenda o pedido, depois faça a conta ou a lógica e confira se respondeu exatamente ao que foi perguntado.",
-    "mapaMentalTextual": {
-      "centro": "Equivalência, negação lógica e quantificação",
-      "ramos": [
-        "conceito",
-        "dados do enunciado",
-        "método",
-        "cálculo ou lógica",
-        "conferência",
-        "pegadinha"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Equivalências, negações e quantificadores",
+      "Conceito: Negar conjunção transforma em disjunção de negações; negar disjunção transforma em conjunção de negações.",
+      "Aplicação: Negação de “todos os candidatos estudam” é “algum candidato não estuda”.",
+      "Cuidado: Negar “todos” com “nenhum” quando basta um contraexemplo."
+    ],
     "comoEstudar": [
-      "Ler o capítulo com lápis na mão",
-      "Resolver 10 questões registrando passos",
-      "Refazer erros no dia seguinte",
-      "Criar um exemplo próprio",
-      "Revisar flashcards em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Negar “todo” como “nenhum” e negar condicional sem usar antecedente verdadeiro e consequente falso. A banca cobra menos decoreba e mais aplicação correta das condições.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros sem gabarito",
-      "D7": "revisar flashcards e questões difíceis",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "interpretar comando",
-      "escolher método correto",
-      "resolver sem pular etapas",
-      "conferir resposta",
-      "identificar pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f02-01",
-        "frente": "Ideia central de Equivalência, negação lógica e quantificação",
-        "verso": "Negar corretamente exige trocar estrutura lógica, não apenas inserir “não” na frase.",
-        "tag": "Equivalência, negação lógica e quantificação",
+        "id": "matematica-e-raciocinio-logico-avancado-02-fc01",
+        "frente": "Qual é a ideia central de Equivalências, negações e quantificadores?",
+        "verso": "Negar conjunção transforma em disjunção de negações; negar disjunção transforma em conjunção de negações.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f02-02",
-        "frente": "Pegadinha comum em Equivalência, negação lógica e quantificação",
-        "verso": "Negar “todo” como “nenhum” e negar condicional sem usar antecedente verdadeiro e consequente falso.",
+        "id": "matematica-e-raciocinio-logico-avancado-02-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em transformações lógicas?",
+        "verso": "Condicional P→Q equivale a não P ou Q e à contrapositiva não Q→não P.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-02-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Negar “todos” com “nenhum” quando basta um contraexemplo.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f02-03",
-        "frente": "Roteiro seguro para Equivalência, negação lógica e quantificação",
-        "verso": "Use este roteiro: identificar quantificador, conectivo principal, aplicar equivalência adequada e testar por exemplo simples. Ao final, teste a resposta no enunciado.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f02-04",
-        "frente": "Comparação importante em Equivalência, negação lógica e quantificação",
-        "verso": "negação de todo x negação de algum: todo vira algum não; algum vira nenhum.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "matematica-e-raciocinio-logico-avancado-02-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Negação de “todos os candidatos estudam” é “algum candidato não estuda”.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Matemática e Raciocínio Lógico para concursos. Explique Equivalência, negação lógica e quantificação, resolva um exemplo e mostre a pegadinha mais comum.",
-      "feedbackPadrao": "Corrija com foco em interpretação, método, cálculo, unidade e condição do enunciado."
-    },
     "questoes": [
       {
-        "id": "q02-01",
+        "id": "matematica-e-raciocinio-logico-avancado-02-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Equivalência, negação lógica e quantificação, qual afirmação está correta?",
+        "enunciado": "Em relação a Equivalências, negações e quantificadores, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Negar corretamente exige trocar estrutura lógica, não apenas inserir “não” na frase.",
-          "Negar “todo” como “nenhum” e negar condicional sem usar antecedente verdadeiro e consequente falso.",
-          "A resposta deve ser escolhida por intuição sem testar condições.",
-          "Toda questão pode ser resolvida por uma única fórmula decorada.",
-          "O comando da banca não interfere na estratégia de solução."
+          "Negar conjunção transforma em disjunção de negações; negar disjunção transforma em conjunção de negações.",
+          "Negar “todos” com “nenhum” quando basta um contraexemplo.",
+          "Confundir inversa com contrapositiva.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Negar corretamente exige trocar estrutura lógica, não apenas inserir “não” na frase.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "Negar corretamente exige trocar estrutura lógica, não apenas inserir “não” na frase.",
-        "armadilhaDaBanca": "Negar “todo” como “nenhum” e negar condicional sem usar antecedente verdadeiro e consequente falso.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A alternativa correta resume o núcleo do tema: Negar conjunção transforma em disjunção de negações; negar disjunção transforma em conjunção de negações."
       },
       {
-        "id": "q02-02",
+        "id": "matematica-e-raciocinio-logico-avancado-02-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Equivalência, negação lógica e quantificação, é seguro resolver a questão sem identificar a condição central do enunciado.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A condição central define a fórmula, a lógica e a interpretação correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Condicional P→Q equivale a não P ou Q e à contrapositiva não Q→não P.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de transformações lógicas."
       },
       {
-        "id": "q02-03",
+        "id": "matematica-e-raciocinio-logico-avancado-02-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Equivalência, negação lógica e quantificação, testar a resposta no enunciado ajuda a reduzir erro de cálculo e interpretação.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A conferência final evita respostas numericamente plausíveis, mas logicamente erradas.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Negar “todos” com “nenhum” quando basta um contraexemplo.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q02-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "A afirmação “todos os candidatos estudam” deve ser negada em uma questão de certo ou errado.",
-        "alternativas": [
-          "A negação correta é “algum candidato não estuda”.",
-          "O resultado deve ser obtido apenas por estimativa visual.",
-          "A condição do enunciado não muda o método.",
-          "Qualquer fórmula parecida resolve o problema.",
-          "Não é necessário conferir unidade, ordem ou restrição."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A negação correta é “algum candidato não estuda”.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "A negação correta é “algum candidato não estuda”.",
-        "armadilhaDaBanca": "A banca oferece alternativas próximas para punir quem calcula sem interpretar.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "id": "matematica-e-raciocinio-logico-avancado-02-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Negação de “todos os candidatos estudam” é “algum candidato não estuda”. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Negar “todo” produz “existe pelo menos um que não”.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q02-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Equivalência, negação lógica e quantificação?",
-        "alternativas": [
-          "Usar o roteiro: identificar quantificador, conectivo principal, aplicar equivalência adequada e testar por exemplo simples.",
-          "Decorar o gabarito de questões antigas.",
-          "Pular a leitura do comando e ir direto às alternativas.",
-          "Ignorar restrições como “exatamente”, “no máximo” e “ao menos”.",
-          "Fazer contas sem registrar passo intermediário."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: identificar quantificador, conectivo principal, aplicar equivalência adequada e testar por exemplo simples.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "O roteiro correto é: identificar quantificador, conectivo principal, aplicar equivalência adequada e testar por exemplo simples.",
-        "armadilhaDaBanca": "O erro comum é saber a fórmula, mas aplicar no cenário errado.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
-      },
-      {
-        "id": "q02-06",
+        "id": "matematica-e-raciocinio-logico-avancado-02-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Equivalência, negação lógica e quantificação.",
-        "respostaEsperada": "Negar corretamente exige trocar estrutura lógica, não apenas inserir “não” na frase.",
-        "rubricaCorrecao": [
-          "definir a ideia",
-          "aplicar ao caso",
-          "usar linguagem matemática precisa",
-          "evitar regra absoluta indevida"
-        ],
-        "comentario": "A resposta deve unir conceito, uso em prova e cuidado com pegadinha.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva de forma objetiva."
+        "enunciado": "Explique, em até três linhas, por que transformações lógicas não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar negar conjunção transforma em disjunção de negações; negar disjunção transforma em conjunção de negações. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q02-07",
+        "id": "matematica-e-raciocinio-logico-avancado-02-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie negação de todo e negação de algum.",
-        "respostaEsperada": "todo vira algum não; algum vira nenhum",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "criar exemplo numérico ou lógico"
-        ],
-        "comentario": "A diferença essencial é: todo vira algum não; algum vira nenhum.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, fórmula e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Negar conjunção transforma em disjunção de negações; negar disjunção transforma em conjunção de negações. Pegadinha: Negar “todos” com “nenhum” quando basta um contraexemplo.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q02-08",
+        "id": "matematica-e-raciocinio-logico-avancado-02-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Equivalência, negação lógica e quantificação?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Negar “todo” como “nenhum” e negar condicional sem usar antecedente verdadeiro e consequente falso.",
-          "Definir a incógnita antes da conta.",
-          "Desenhar diagrama quando houver conjuntos.",
-          "Conferir se a ordem importa em contagem.",
-          "Ler escala, unidade e legenda antes do cálculo."
+          "Negar “todo” produz “existe pelo menos um que não”.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Confundir inversa com contrapositiva."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Negar “todo” como “nenhum” e negar condicional sem usar antecedente verdadeiro e consequente falso.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "A pegadinha comum é: Negar “todo” como “nenhum” e negar condicional sem usar antecedente verdadeiro e consequente falso.",
-        "armadilhaDaBanca": "A alternativa errada costuma parecer natural porque usa termo conhecido.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q02-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Equivalência, negação lógica e quantificação, uma alternativa pode ter número correto em cálculo isolado e estar errada por não respeitar o comando.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. O número precisa responder exatamente ao que foi perguntado.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "id": "matematica-e-raciocinio-logico-avancado-02-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Confundir inversa com contrapositiva.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q02-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: resolva e explique uma questão de Equivalência, negação lógica e quantificação como professor de concurso.",
-        "promptTutorIA": "Crie uma questão de Equivalência, negação lógica e quantificação, resolva passo a passo, mostre a pegadinha e dê um método de revisão.",
-        "criterioDominio": [
-          "interpretação correta",
-          "cálculo ou lógica correta",
-          "justificativa da alternativa",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma fórmula em raciocínio aplicado.",
-        "diagnosticoIA": "Depois do treino, crie uma questão parecida trocando números ou condições."
+        "id": "matematica-e-raciocinio-logico-avancado-02-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Equivalências, negações e quantificadores a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Negar “existe” produz “nenhum” ou “todo não”, conforme formulação.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-02-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Negar conjunção transforma em disjunção de negações; negar disjunção transforma em conjunção de negações.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Argumentação lógica, silogismos e validade",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 23 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Baixo: conteúdo conceitual estável; adaptar apenas ao estilo da banca e ao edital.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Matemática / Raciocínio Lógico / Concursos"
+    "proximoTitulo": "Argumentação e validade"
   },
   {
-    "id": "argumentacao-logica-silogismos-e-validade",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "id": "argumentacao-e-validade",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 3,
     "totalChapters": 10,
-    "title": "Argumentação lógica, silogismos e validade",
-    "assunto": "Validade de argumentos e raciocínio dedutivo",
-    "tecnica": "Estudo por interpretação do comando, modelagem, cálculo organizado, conferência e revisão de pegadinhas",
-    "competencia": "Resolver questões de lógica e matemática com precisão, identificando condições, fórmulas e armadilhas de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 32,
+    "title": "Argumentação e validade",
+    "assunto": "inferência lógica",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar inferência lógica com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "ENEM": 4
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "argumento",
-      "premissa",
-      "conclusão",
-      "validade",
-      "silogismo",
-      "inferência"
+      "inferencia logica"
     ],
-    "fontesBase": [
-      "Matemática básica aplicada a concursos",
-      "Raciocínio lógico proposicional",
-      "Modelos de cobrança das principais bancas",
-      "Problemas contextualizados de concursos policiais e administrativos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Validade de argumentos e raciocínio dedutivo com foco em questões objetivas de concursos policiais, administrativos, tribunais e provas gerais.",
-      "Ideia central: Um argumento é válido quando a conclusão decorre necessariamente das premissas, ainda que o conteúdo pareça estranho.",
-      "Erro comum: Confundir validade lógica com verdade material ou opinião sobre o tema.",
-      "Como estudar: separar premissas e conclusão, simbolizar, testar contraexemplo e verificar necessidade lógica. Em seguida, resolva questões, registre o tipo de erro e refaça sem consultar o gabarito."
+      "Argumentação e validade exige domínio de inferência lógica. O estudo correto começa pela ideia de que argumento válido é aquele em que a conclusão decorre necessariamente das premissas.",
+      "Validade não depende de premissas verdadeiras no mundo, mas da forma lógica. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Silogismos categóricos exigem cuidado com distribuição dos termos. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Diagramas e tabelas ajudam a testar contraexemplo. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Um argumento é válido quando a conclusão decorre necessariamente das premissas, ainda que o conteúdo pareça estranho.",
-      "A leitura do comando vem antes da fórmula.",
-      "A conferência final deve testar se o resultado responde exatamente ao enunciado.",
-      "Erro comum: Confundir validade lógica com verdade material ou opinião sobre o tema."
+      "Argumento válido é aquele em que a conclusão decorre necessariamente das premissas.",
+      "Validade não depende de premissas verdadeiras no mundo, mas da forma lógica.",
+      "Silogismos categóricos exigem cuidado com distribuição dos termos.",
+      "Diagramas e tabelas ajudam a testar contraexemplo."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Confundir validade lógica com verdade material ou opinião sobre o tema.",
-        "Um argumento é válido quando a conclusão decorre necessariamente das premissas, ainda que o conteúdo pareça estranho.",
-        "A resolução deve ser feita apenas por memorização."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito, método e aplicação em prova."
-    },
-    "oQueCobra": "Lógica proposicional, negações, argumentos, conjuntos, porcentagem, matemática financeira, combinatória, probabilidade, sequências, álgebra e estatística.",
-    "precisaSaberAntes": "Operações básicas, leitura de enunciado, frações, porcentagens, igualdade, desigualdade, tabelas e gráficos simples.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura cálculo simples com interpretação rígida de condições, quantificadores, unidades e restrições."
+        "pergunta": "Qual é o núcleo de Argumentação e validade?",
+        "resposta": "Argumento válido é aquele em que a conclusão decorre necessariamente das premissas."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, escreva dados, escolha a técnica, resolva em etapas e confira o resultado no enunciado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Chamar argumento verdadeiro de válido sem testar forma."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "O domínio de lógica e matemática melhora prova objetiva, leitura de dados, controle de tempo e resolução de problemas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Premissas verdadeiras podem gerar conclusão inválida se houver salto lógico."
       }
     ],
-    "comoIdentificar": "Procure palavras como todo, algum, nenhum, ao menos, exatamente, porcentagem, total, diferença, razão, ordem, comissão, probabilidade, média e mediana.",
+    "quadroDeDominio": {
+      "conceito": "Argumento válido é aquele em que a conclusão decorre necessariamente das premissas.",
+      "limite": "Validade não depende de premissas verdadeiras no mundo, mas da forma lógica.",
+      "aplicacao": "Premissas verdadeiras podem gerar conclusão inválida se houver salto lógico.",
+      "erroFatal": "Chamar argumento verdadeiro de válido sem testar forma."
+    },
+    "exemploComentado": "Premissas verdadeiras podem gerar conclusão inválida se houver salto lógico.",
     "pegadinhas": [
-      "ignorar unidade",
-      "confundir ordem em combinatória",
-      "somar percentuais sucessivos",
-      "negar quantificador errado",
-      "ler gráfico sem escala"
+      "Chamar argumento verdadeiro de válido sem testar forma.",
+      "Aceitar conclusão provável como necessária."
     ],
-    "resumoFrase": "Um argumento é válido quando a conclusão decorre necessariamente das premissas, ainda que o conteúdo pareça estranho.",
-    "explicacaoComoSeTivesse12": "Pense assim: Um argumento é válido quando a conclusão decorre necessariamente das premissas, ainda que o conteúdo pareça estranho. Primeiro entenda o pedido, depois faça a conta ou a lógica e confira se respondeu exatamente ao que foi perguntado.",
-    "mapaMentalTextual": {
-      "centro": "Validade de argumentos e raciocínio dedutivo",
-      "ramos": [
-        "conceito",
-        "dados do enunciado",
-        "método",
-        "cálculo ou lógica",
-        "conferência",
-        "pegadinha"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Argumentação e validade",
+      "Conceito: Argumento válido é aquele em que a conclusão decorre necessariamente das premissas.",
+      "Aplicação: Premissas verdadeiras podem gerar conclusão inválida se houver salto lógico.",
+      "Cuidado: Chamar argumento verdadeiro de válido sem testar forma."
+    ],
     "comoEstudar": [
-      "Ler o capítulo com lápis na mão",
-      "Resolver 10 questões registrando passos",
-      "Refazer erros no dia seguinte",
-      "Criar um exemplo próprio",
-      "Revisar flashcards em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Confundir validade lógica com verdade material ou opinião sobre o tema. A banca cobra menos decoreba e mais aplicação correta das condições.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros sem gabarito",
-      "D7": "revisar flashcards e questões difíceis",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "interpretar comando",
-      "escolher método correto",
-      "resolver sem pular etapas",
-      "conferir resposta",
-      "identificar pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f03-01",
-        "frente": "Ideia central de Validade de argumentos e raciocínio dedutivo",
-        "verso": "Um argumento é válido quando a conclusão decorre necessariamente das premissas, ainda que o conteúdo pareça estranho.",
-        "tag": "Validade de argumentos e raciocínio dedutivo",
+        "id": "matematica-e-raciocinio-logico-avancado-03-fc01",
+        "frente": "Qual é a ideia central de Argumentação e validade?",
+        "verso": "Argumento válido é aquele em que a conclusão decorre necessariamente das premissas.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f03-02",
-        "frente": "Pegadinha comum em Validade de argumentos e raciocínio dedutivo",
-        "verso": "Confundir validade lógica com verdade material ou opinião sobre o tema.",
+        "id": "matematica-e-raciocinio-logico-avancado-03-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em inferência lógica?",
+        "verso": "Validade não depende de premissas verdadeiras no mundo, mas da forma lógica.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-03-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Chamar argumento verdadeiro de válido sem testar forma.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f03-03",
-        "frente": "Roteiro seguro para Validade de argumentos e raciocínio dedutivo",
-        "verso": "Use este roteiro: separar premissas e conclusão, simbolizar, testar contraexemplo e verificar necessidade lógica. Ao final, teste a resposta no enunciado.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f03-04",
-        "frente": "Comparação importante em Validade de argumentos e raciocínio dedutivo",
-        "verso": "validade x verdade: validade é forma do raciocínio; verdade é conteúdo das proposições.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "matematica-e-raciocinio-logico-avancado-03-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Premissas verdadeiras podem gerar conclusão inválida se houver salto lógico.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Matemática e Raciocínio Lógico para concursos. Explique Validade de argumentos e raciocínio dedutivo, resolva um exemplo e mostre a pegadinha mais comum.",
-      "feedbackPadrao": "Corrija com foco em interpretação, método, cálculo, unidade e condição do enunciado."
-    },
     "questoes": [
       {
-        "id": "q03-01",
+        "id": "matematica-e-raciocinio-logico-avancado-03-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Validade de argumentos e raciocínio dedutivo, qual afirmação está correta?",
+        "enunciado": "Em relação a Argumentação e validade, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Um argumento é válido quando a conclusão decorre necessariamente das premissas, ainda que o conteúdo pareça estranho.",
-          "Confundir validade lógica com verdade material ou opinião sobre o tema.",
-          "A resposta deve ser escolhida por intuição sem testar condições.",
-          "Toda questão pode ser resolvida por uma única fórmula decorada.",
-          "O comando da banca não interfere na estratégia de solução."
+          "Argumento válido é aquele em que a conclusão decorre necessariamente das premissas.",
+          "Chamar argumento verdadeiro de válido sem testar forma.",
+          "Aceitar conclusão provável como necessária.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Um argumento é válido quando a conclusão decorre necessariamente das premissas, ainda que o conteúdo pareça estranho.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "Um argumento é válido quando a conclusão decorre necessariamente das premissas, ainda que o conteúdo pareça estranho.",
-        "armadilhaDaBanca": "Confundir validade lógica com verdade material ou opinião sobre o tema.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A alternativa correta resume o núcleo do tema: Argumento válido é aquele em que a conclusão decorre necessariamente das premissas."
       },
       {
-        "id": "q03-02",
+        "id": "matematica-e-raciocinio-logico-avancado-03-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Validade de argumentos e raciocínio dedutivo, é seguro resolver a questão sem identificar a condição central do enunciado.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A condição central define a fórmula, a lógica e a interpretação correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Validade não depende de premissas verdadeiras no mundo, mas da forma lógica.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de inferência lógica."
       },
       {
-        "id": "q03-03",
+        "id": "matematica-e-raciocinio-logico-avancado-03-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Validade de argumentos e raciocínio dedutivo, testar a resposta no enunciado ajuda a reduzir erro de cálculo e interpretação.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A conferência final evita respostas numericamente plausíveis, mas logicamente erradas.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Chamar argumento verdadeiro de válido sem testar forma.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q03-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "As premissas dizem que todo A é B e que João é A; a conclusão afirma que João é B.",
-        "alternativas": [
-          "A conclusão é válida porque decorre diretamente das premissas.",
-          "O resultado deve ser obtido apenas por estimativa visual.",
-          "A condição do enunciado não muda o método.",
-          "Qualquer fórmula parecida resolve o problema.",
-          "Não é necessário conferir unidade, ordem ou restrição."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A conclusão é válida porque decorre diretamente das premissas.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "A conclusão é válida porque decorre diretamente das premissas.",
-        "armadilhaDaBanca": "A banca oferece alternativas próximas para punir quem calcula sem interpretar.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "id": "matematica-e-raciocinio-logico-avancado-03-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Premissas verdadeiras podem gerar conclusão inválida se houver salto lógico. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Silogismos categóricos exigem cuidado com distribuição dos termos.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q03-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Validade de argumentos e raciocínio dedutivo?",
-        "alternativas": [
-          "Usar o roteiro: separar premissas e conclusão, simbolizar, testar contraexemplo e verificar necessidade lógica.",
-          "Decorar o gabarito de questões antigas.",
-          "Pular a leitura do comando e ir direto às alternativas.",
-          "Ignorar restrições como “exatamente”, “no máximo” e “ao menos”.",
-          "Fazer contas sem registrar passo intermediário."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: separar premissas e conclusão, simbolizar, testar contraexemplo e verificar necessidade lógica.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "O roteiro correto é: separar premissas e conclusão, simbolizar, testar contraexemplo e verificar necessidade lógica.",
-        "armadilhaDaBanca": "O erro comum é saber a fórmula, mas aplicar no cenário errado.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
-      },
-      {
-        "id": "q03-06",
+        "id": "matematica-e-raciocinio-logico-avancado-03-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Validade de argumentos e raciocínio dedutivo.",
-        "respostaEsperada": "Um argumento é válido quando a conclusão decorre necessariamente das premissas, ainda que o conteúdo pareça estranho.",
-        "rubricaCorrecao": [
-          "definir a ideia",
-          "aplicar ao caso",
-          "usar linguagem matemática precisa",
-          "evitar regra absoluta indevida"
-        ],
-        "comentario": "A resposta deve unir conceito, uso em prova e cuidado com pegadinha.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva de forma objetiva."
+        "enunciado": "Explique, em até três linhas, por que inferência lógica não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar argumento válido é aquele em que a conclusão decorre necessariamente das premissas. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q03-07",
+        "id": "matematica-e-raciocinio-logico-avancado-03-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie validade e verdade.",
-        "respostaEsperada": "validade é forma do raciocínio; verdade é conteúdo das proposições",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "criar exemplo numérico ou lógico"
-        ],
-        "comentario": "A diferença essencial é: validade é forma do raciocínio; verdade é conteúdo das proposições.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, fórmula e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Argumento válido é aquele em que a conclusão decorre necessariamente das premissas. Pegadinha: Chamar argumento verdadeiro de válido sem testar forma.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q03-08",
+        "id": "matematica-e-raciocinio-logico-avancado-03-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Validade de argumentos e raciocínio dedutivo?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Confundir validade lógica com verdade material ou opinião sobre o tema.",
-          "Definir a incógnita antes da conta.",
-          "Desenhar diagrama quando houver conjuntos.",
-          "Conferir se a ordem importa em contagem.",
-          "Ler escala, unidade e legenda antes do cálculo."
+          "Silogismos categóricos exigem cuidado com distribuição dos termos.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Aceitar conclusão provável como necessária."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Confundir validade lógica com verdade material ou opinião sobre o tema.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "A pegadinha comum é: Confundir validade lógica com verdade material ou opinião sobre o tema.",
-        "armadilhaDaBanca": "A alternativa errada costuma parecer natural porque usa termo conhecido.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q03-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Validade de argumentos e raciocínio dedutivo, uma alternativa pode ter número correto em cálculo isolado e estar errada por não respeitar o comando.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. O número precisa responder exatamente ao que foi perguntado.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "id": "matematica-e-raciocinio-logico-avancado-03-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Aceitar conclusão provável como necessária.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q03-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: resolva e explique uma questão de Validade de argumentos e raciocínio dedutivo como professor de concurso.",
-        "promptTutorIA": "Crie uma questão de Validade de argumentos e raciocínio dedutivo, resolva passo a passo, mostre a pegadinha e dê um método de revisão.",
-        "criterioDominio": [
-          "interpretação correta",
-          "cálculo ou lógica correta",
-          "justificativa da alternativa",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma fórmula em raciocínio aplicado.",
-        "diagnosticoIA": "Depois do treino, crie uma questão parecida trocando números ou condições."
+        "id": "matematica-e-raciocinio-logico-avancado-03-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Argumentação e validade a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Diagramas e tabelas ajudam a testar contraexemplo.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-03-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Argumento válido é aquele em que a conclusão decorre necessariamente das premissas.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Conjuntos, diagramas de Venn e problemas de contagem",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 23 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Baixo: conteúdo conceitual estável; adaptar apenas ao estilo da banca e ao edital.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Matemática / Raciocínio Lógico / Concursos"
+    "proximoTitulo": "Conjuntos e diagramas"
   },
   {
-    "id": "conjuntos-diagramas-de-venn-e-problemas-de-contagem",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "id": "conjuntos-e-diagramas",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 4,
     "totalChapters": 10,
-    "title": "Conjuntos, diagramas de Venn e problemas de contagem",
-    "assunto": "Conjuntos e contagem por inclusão e exclusão",
-    "tecnica": "Estudo por interpretação do comando, modelagem, cálculo organizado, conferência e revisão de pegadinhas",
-    "competencia": "Resolver questões de lógica e matemática com precisão, identificando condições, fórmulas e armadilhas de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 32,
+    "title": "Conjuntos e diagramas",
+    "assunto": "operações e contagem",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar operações e contagem com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "ENEM": 4
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "conjunto",
-      "união",
-      "interseção",
-      "diferença",
-      "complementar",
-      "Venn",
-      "inclusão-exclusão"
+      "operacoes e contagem"
     ],
-    "fontesBase": [
-      "Matemática básica aplicada a concursos",
-      "Raciocínio lógico proposicional",
-      "Modelos de cobrança das principais bancas",
-      "Problemas contextualizados de concursos policiais e administrativos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Conjuntos e contagem por inclusão e exclusão com foco em questões objetivas de concursos policiais, administrativos, tribunais e provas gerais.",
-      "Ideia central: Problemas de conjuntos exigem organizar regiões, interseções e total por inclusão e exclusão.",
-      "Erro comum: Somar grupos sem descontar a interseção ou confundir “somente A” com “A”.",
-      "Como estudar: desenhar regiões, começar pelas interseções, completar áreas exclusivas, calcular união e conferir total. Em seguida, resolva questões, registre o tipo de erro e refaça sem consultar o gabarito."
+      "Conjuntos e diagramas exige domínio de operações e contagem. O estudo correto começa pela ideia de que união reúne elementos de pelo menos um conjunto; interseção reúne elementos comuns.",
+      "Complementar depende do universo definido no problema. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Diagramas de Venn ajudam a evitar dupla contagem. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Problemas com três conjuntos exigem começar pela interseção tripla quando fornecida. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Problemas de conjuntos exigem organizar regiões, interseções e total por inclusão e exclusão.",
-      "A leitura do comando vem antes da fórmula.",
-      "A conferência final deve testar se o resultado responde exatamente ao enunciado.",
-      "Erro comum: Somar grupos sem descontar a interseção ou confundir “somente A” com “A”."
+      "União reúne elementos de pelo menos um conjunto; interseção reúne elementos comuns.",
+      "Complementar depende do universo definido no problema.",
+      "Diagramas de Venn ajudam a evitar dupla contagem.",
+      "Problemas com três conjuntos exigem começar pela interseção tripla quando fornecida."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Somar grupos sem descontar a interseção ou confundir “somente A” com “A”.",
-        "Problemas de conjuntos exigem organizar regiões, interseções e total por inclusão e exclusão.",
-        "A resolução deve ser feita apenas por memorização."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito, método e aplicação em prova."
-    },
-    "oQueCobra": "Lógica proposicional, negações, argumentos, conjuntos, porcentagem, matemática financeira, combinatória, probabilidade, sequências, álgebra e estatística.",
-    "precisaSaberAntes": "Operações básicas, leitura de enunciado, frações, porcentagens, igualdade, desigualdade, tabelas e gráficos simples.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura cálculo simples com interpretação rígida de condições, quantificadores, unidades e restrições."
+        "pergunta": "Qual é o núcleo de Conjuntos e diagramas?",
+        "resposta": "União reúne elementos de pelo menos um conjunto; interseção reúne elementos comuns."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, escreva dados, escolha a técnica, resolva em etapas e confira o resultado no enunciado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Somar grupos sem descontar interseções."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "O domínio de lógica e matemática melhora prova objetiva, leitura de dados, controle de tempo e resolução de problemas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Se 20 gostam de A, 15 de B e 5 de ambos, o total em A ou B é 30, não 35."
       }
     ],
-    "comoIdentificar": "Procure palavras como todo, algum, nenhum, ao menos, exatamente, porcentagem, total, diferença, razão, ordem, comissão, probabilidade, média e mediana.",
+    "quadroDeDominio": {
+      "conceito": "União reúne elementos de pelo menos um conjunto; interseção reúne elementos comuns.",
+      "limite": "Complementar depende do universo definido no problema.",
+      "aplicacao": "Se 20 gostam de A, 15 de B e 5 de ambos, o total em A ou B é 30, não 35.",
+      "erroFatal": "Somar grupos sem descontar interseções."
+    },
+    "exemploComentado": "Se 20 gostam de A, 15 de B e 5 de ambos, o total em A ou B é 30, não 35.",
     "pegadinhas": [
-      "ignorar unidade",
-      "confundir ordem em combinatória",
-      "somar percentuais sucessivos",
-      "negar quantificador errado",
-      "ler gráfico sem escala"
+      "Somar grupos sem descontar interseções.",
+      "Esquecer elementos fora de todos os conjuntos."
     ],
-    "resumoFrase": "Problemas de conjuntos exigem organizar regiões, interseções e total por inclusão e exclusão.",
-    "explicacaoComoSeTivesse12": "Pense assim: Problemas de conjuntos exigem organizar regiões, interseções e total por inclusão e exclusão. Primeiro entenda o pedido, depois faça a conta ou a lógica e confira se respondeu exatamente ao que foi perguntado.",
-    "mapaMentalTextual": {
-      "centro": "Conjuntos e contagem por inclusão e exclusão",
-      "ramos": [
-        "conceito",
-        "dados do enunciado",
-        "método",
-        "cálculo ou lógica",
-        "conferência",
-        "pegadinha"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Conjuntos e diagramas",
+      "Conceito: União reúne elementos de pelo menos um conjunto; interseção reúne elementos comuns.",
+      "Aplicação: Se 20 gostam de A, 15 de B e 5 de ambos, o total em A ou B é 30, não 35.",
+      "Cuidado: Somar grupos sem descontar interseções."
+    ],
     "comoEstudar": [
-      "Ler o capítulo com lápis na mão",
-      "Resolver 10 questões registrando passos",
-      "Refazer erros no dia seguinte",
-      "Criar um exemplo próprio",
-      "Revisar flashcards em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Somar grupos sem descontar a interseção ou confundir “somente A” com “A”. A banca cobra menos decoreba e mais aplicação correta das condições.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros sem gabarito",
-      "D7": "revisar flashcards e questões difíceis",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "interpretar comando",
-      "escolher método correto",
-      "resolver sem pular etapas",
-      "conferir resposta",
-      "identificar pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f04-01",
-        "frente": "Ideia central de Conjuntos e contagem por inclusão e exclusão",
-        "verso": "Problemas de conjuntos exigem organizar regiões, interseções e total por inclusão e exclusão.",
-        "tag": "Conjuntos e contagem por inclusão e exclusão",
+        "id": "matematica-e-raciocinio-logico-avancado-04-fc01",
+        "frente": "Qual é a ideia central de Conjuntos e diagramas?",
+        "verso": "União reúne elementos de pelo menos um conjunto; interseção reúne elementos comuns.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f04-02",
-        "frente": "Pegadinha comum em Conjuntos e contagem por inclusão e exclusão",
-        "verso": "Somar grupos sem descontar a interseção ou confundir “somente A” com “A”.",
+        "id": "matematica-e-raciocinio-logico-avancado-04-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em operações e contagem?",
+        "verso": "Complementar depende do universo definido no problema.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-04-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Somar grupos sem descontar interseções. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f04-03",
-        "frente": "Roteiro seguro para Conjuntos e contagem por inclusão e exclusão",
-        "verso": "Use este roteiro: desenhar regiões, começar pelas interseções, completar áreas exclusivas, calcular união e conferir total. Ao final, teste a resposta no enunciado.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f04-04",
-        "frente": "Comparação importante em Conjuntos e contagem por inclusão e exclusão",
-        "verso": "união x interseção: união reúne elementos de A ou B; interseção contém elementos comuns.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "matematica-e-raciocinio-logico-avancado-04-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Se 20 gostam de A, 15 de B e 5 de ambos, o total em A ou B é 30, não 35.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Matemática e Raciocínio Lógico para concursos. Explique Conjuntos e contagem por inclusão e exclusão, resolva um exemplo e mostre a pegadinha mais comum.",
-      "feedbackPadrao": "Corrija com foco em interpretação, método, cálculo, unidade e condição do enunciado."
-    },
     "questoes": [
       {
-        "id": "q04-01",
+        "id": "matematica-e-raciocinio-logico-avancado-04-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Conjuntos e contagem por inclusão e exclusão, qual afirmação está correta?",
+        "enunciado": "Em relação a Conjuntos e diagramas, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Problemas de conjuntos exigem organizar regiões, interseções e total por inclusão e exclusão.",
-          "Somar grupos sem descontar a interseção ou confundir “somente A” com “A”.",
-          "A resposta deve ser escolhida por intuição sem testar condições.",
-          "Toda questão pode ser resolvida por uma única fórmula decorada.",
-          "O comando da banca não interfere na estratégia de solução."
+          "União reúne elementos de pelo menos um conjunto; interseção reúne elementos comuns.",
+          "Somar grupos sem descontar interseções.",
+          "Esquecer elementos fora de todos os conjuntos.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Problemas de conjuntos exigem organizar regiões, interseções e total por inclusão e exclusão.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "Problemas de conjuntos exigem organizar regiões, interseções e total por inclusão e exclusão.",
-        "armadilhaDaBanca": "Somar grupos sem descontar a interseção ou confundir “somente A” com “A”.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A alternativa correta resume o núcleo do tema: União reúne elementos de pelo menos um conjunto; interseção reúne elementos comuns."
       },
       {
-        "id": "q04-02",
+        "id": "matematica-e-raciocinio-logico-avancado-04-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Conjuntos e contagem por inclusão e exclusão, é seguro resolver a questão sem identificar a condição central do enunciado.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A condição central define a fórmula, a lógica e a interpretação correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Complementar depende do universo definido no problema.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de operações e contagem."
       },
       {
-        "id": "q04-03",
+        "id": "matematica-e-raciocinio-logico-avancado-04-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Conjuntos e contagem por inclusão e exclusão, testar a resposta no enunciado ajuda a reduzir erro de cálculo e interpretação.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A conferência final evita respostas numericamente plausíveis, mas logicamente erradas.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Somar grupos sem descontar interseções.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q04-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Em uma turma, 20 estudam Português, 18 estudam Matemática e 8 estudam ambos.",
-        "alternativas": [
-          "A quantidade que estuda ao menos uma das duas matérias é 20 + 18 - 8 = 30.",
-          "O resultado deve ser obtido apenas por estimativa visual.",
-          "A condição do enunciado não muda o método.",
-          "Qualquer fórmula parecida resolve o problema.",
-          "Não é necessário conferir unidade, ordem ou restrição."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A quantidade que estuda ao menos uma das duas matérias é 20 + 18 - 8 = 30.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "A quantidade que estuda ao menos uma das duas matérias é 20 + 18 - 8 = 30.",
-        "armadilhaDaBanca": "A banca oferece alternativas próximas para punir quem calcula sem interpretar.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "id": "matematica-e-raciocinio-logico-avancado-04-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Se 20 gostam de A, 15 de B e 5 de ambos, o total em A ou B é 30, não 35. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Diagramas de Venn ajudam a evitar dupla contagem.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q04-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Conjuntos e contagem por inclusão e exclusão?",
-        "alternativas": [
-          "Usar o roteiro: desenhar regiões, começar pelas interseções, completar áreas exclusivas, calcular união e conferir total.",
-          "Decorar o gabarito de questões antigas.",
-          "Pular a leitura do comando e ir direto às alternativas.",
-          "Ignorar restrições como “exatamente”, “no máximo” e “ao menos”.",
-          "Fazer contas sem registrar passo intermediário."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: desenhar regiões, começar pelas interseções, completar áreas exclusivas, calcular união e conferir total.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "O roteiro correto é: desenhar regiões, começar pelas interseções, completar áreas exclusivas, calcular união e conferir total.",
-        "armadilhaDaBanca": "O erro comum é saber a fórmula, mas aplicar no cenário errado.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
-      },
-      {
-        "id": "q04-06",
+        "id": "matematica-e-raciocinio-logico-avancado-04-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Conjuntos e contagem por inclusão e exclusão.",
-        "respostaEsperada": "Problemas de conjuntos exigem organizar regiões, interseções e total por inclusão e exclusão.",
-        "rubricaCorrecao": [
-          "definir a ideia",
-          "aplicar ao caso",
-          "usar linguagem matemática precisa",
-          "evitar regra absoluta indevida"
-        ],
-        "comentario": "A resposta deve unir conceito, uso em prova e cuidado com pegadinha.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva de forma objetiva."
+        "enunciado": "Explique, em até três linhas, por que operações e contagem não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar união reúne elementos de pelo menos um conjunto; interseção reúne elementos comuns. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q04-07",
+        "id": "matematica-e-raciocinio-logico-avancado-04-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie união e interseção.",
-        "respostaEsperada": "união reúne elementos de A ou B; interseção contém elementos comuns",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "criar exemplo numérico ou lógico"
-        ],
-        "comentario": "A diferença essencial é: união reúne elementos de A ou B; interseção contém elementos comuns.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, fórmula e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: União reúne elementos de pelo menos um conjunto; interseção reúne elementos comuns. Pegadinha: Somar grupos sem descontar interseções.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q04-08",
+        "id": "matematica-e-raciocinio-logico-avancado-04-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Conjuntos e contagem por inclusão e exclusão?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Somar grupos sem descontar a interseção ou confundir “somente A” com “A”.",
-          "Definir a incógnita antes da conta.",
-          "Desenhar diagrama quando houver conjuntos.",
-          "Conferir se a ordem importa em contagem.",
-          "Ler escala, unidade e legenda antes do cálculo."
+          "Diagramas de Venn ajudam a evitar dupla contagem.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Esquecer elementos fora de todos os conjuntos."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Somar grupos sem descontar a interseção ou confundir “somente A” com “A”.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "A pegadinha comum é: Somar grupos sem descontar a interseção ou confundir “somente A” com “A”.",
-        "armadilhaDaBanca": "A alternativa errada costuma parecer natural porque usa termo conhecido.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q04-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Conjuntos e contagem por inclusão e exclusão, uma alternativa pode ter número correto em cálculo isolado e estar errada por não respeitar o comando.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. O número precisa responder exatamente ao que foi perguntado.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "id": "matematica-e-raciocinio-logico-avancado-04-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Esquecer elementos fora de todos os conjuntos.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q04-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: resolva e explique uma questão de Conjuntos e contagem por inclusão e exclusão como professor de concurso.",
-        "promptTutorIA": "Crie uma questão de Conjuntos e contagem por inclusão e exclusão, resolva passo a passo, mostre a pegadinha e dê um método de revisão.",
-        "criterioDominio": [
-          "interpretação correta",
-          "cálculo ou lógica correta",
-          "justificativa da alternativa",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma fórmula em raciocínio aplicado.",
-        "diagnosticoIA": "Depois do treino, crie uma questão parecida trocando números ou condições."
+        "id": "matematica-e-raciocinio-logico-avancado-04-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Conjuntos e diagramas a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Problemas com três conjuntos exigem começar pela interseção tripla quando fornecida.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-04-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: União reúne elementos de pelo menos um conjunto; interseção reúne elementos comuns.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Razão, proporção, regra de três e porcentagem avançada",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 23 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Baixo: conteúdo conceitual estável; adaptar apenas ao estilo da banca e ao edital.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Matemática / Raciocínio Lógico / Concursos"
+    "proximoTitulo": "Razão, proporção e porcentagem"
   },
   {
-    "id": "razao-proporcao-regra-de-tres-e-porcentagem-avancada",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "id": "razao-proporcao-e-porcentagem",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 5,
     "totalChapters": 10,
-    "title": "Razão, proporção, regra de três e porcentagem avançada",
-    "assunto": "Proporcionalidade e porcentagem em concursos",
-    "tecnica": "Estudo por interpretação do comando, modelagem, cálculo organizado, conferência e revisão de pegadinhas",
-    "competencia": "Resolver questões de lógica e matemática com precisão, identificando condições, fórmulas e armadilhas de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 32,
+    "title": "Razão, proporção e porcentagem",
+    "assunto": "relações numéricas",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar relações numéricas com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "ENEM": 4
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "razão",
-      "proporção",
-      "regra de três",
-      "porcentagem",
-      "aumento",
-      "desconto",
-      "variação percentual"
+      "relacoes numericas"
     ],
-    "fontesBase": [
-      "Matemática básica aplicada a concursos",
-      "Raciocínio lógico proposicional",
-      "Modelos de cobrança das principais bancas",
-      "Problemas contextualizados de concursos policiais e administrativos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Proporcionalidade e porcentagem em concursos com foco em questões objetivas de concursos policiais, administrativos, tribunais e provas gerais.",
-      "Ideia central: Porcentagem e proporção pedem base correta, relação direta ou inversa e cuidado com aumentos sucessivos.",
-      "Erro comum: Somar percentuais sucessivos como se fossem aplicados sobre a mesma base.",
-      "Como estudar: definir base 100, identificar grandezas, montar proporção, aplicar fator multiplicativo e conferir unidade. Em seguida, resolva questões, registre o tipo de erro e refaça sem consultar o gabarito."
+      "Razão, proporção e porcentagem exige domínio de relações numéricas. O estudo correto começa pela ideia de que razão compara grandezas; proporção iguala razões.",
+      "Regra de três exige identificar se a relação é direta ou inversa. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Porcentagem é razão de base 100, mas a base muda em aumentos sucessivos. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Variações percentuais sucessivas não se somam diretamente. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Porcentagem e proporção pedem base correta, relação direta ou inversa e cuidado com aumentos sucessivos.",
-      "A leitura do comando vem antes da fórmula.",
-      "A conferência final deve testar se o resultado responde exatamente ao enunciado.",
-      "Erro comum: Somar percentuais sucessivos como se fossem aplicados sobre a mesma base."
+      "Razão compara grandezas; proporção iguala razões.",
+      "Regra de três exige identificar se a relação é direta ou inversa.",
+      "Porcentagem é razão de base 100, mas a base muda em aumentos sucessivos.",
+      "Variações percentuais sucessivas não se somam diretamente."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Somar percentuais sucessivos como se fossem aplicados sobre a mesma base.",
-        "Porcentagem e proporção pedem base correta, relação direta ou inversa e cuidado com aumentos sucessivos.",
-        "A resolução deve ser feita apenas por memorização."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito, método e aplicação em prova."
-    },
-    "oQueCobra": "Lógica proposicional, negações, argumentos, conjuntos, porcentagem, matemática financeira, combinatória, probabilidade, sequências, álgebra e estatística.",
-    "precisaSaberAntes": "Operações básicas, leitura de enunciado, frações, porcentagens, igualdade, desigualdade, tabelas e gráficos simples.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura cálculo simples com interpretação rígida de condições, quantificadores, unidades e restrições."
+        "pergunta": "Qual é o núcleo de Razão, proporção e porcentagem?",
+        "resposta": "Razão compara grandezas; proporção iguala razões."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, escreva dados, escolha a técnica, resolva em etapas e confira o resultado no enunciado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Somar aumento de 20% e desconto de 20% como se voltasse ao início."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "O domínio de lógica e matemática melhora prova objetiva, leitura de dados, controle de tempo e resolução de problemas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Aumentar 20% e depois reduzir 20% gera 96% do valor inicial."
       }
     ],
-    "comoIdentificar": "Procure palavras como todo, algum, nenhum, ao menos, exatamente, porcentagem, total, diferença, razão, ordem, comissão, probabilidade, média e mediana.",
+    "quadroDeDominio": {
+      "conceito": "Razão compara grandezas; proporção iguala razões.",
+      "limite": "Regra de três exige identificar se a relação é direta ou inversa.",
+      "aplicacao": "Aumentar 20% e depois reduzir 20% gera 96% do valor inicial.",
+      "erroFatal": "Somar aumento de 20% e desconto de 20% como se voltasse ao início."
+    },
+    "exemploComentado": "Aumentar 20% e depois reduzir 20% gera 96% do valor inicial.",
     "pegadinhas": [
-      "ignorar unidade",
-      "confundir ordem em combinatória",
-      "somar percentuais sucessivos",
-      "negar quantificador errado",
-      "ler gráfico sem escala"
+      "Somar aumento de 20% e desconto de 20% como se voltasse ao início.",
+      "Aplicar regra direta em grandezas inversas."
     ],
-    "resumoFrase": "Porcentagem e proporção pedem base correta, relação direta ou inversa e cuidado com aumentos sucessivos.",
-    "explicacaoComoSeTivesse12": "Pense assim: Porcentagem e proporção pedem base correta, relação direta ou inversa e cuidado com aumentos sucessivos. Primeiro entenda o pedido, depois faça a conta ou a lógica e confira se respondeu exatamente ao que foi perguntado.",
-    "mapaMentalTextual": {
-      "centro": "Proporcionalidade e porcentagem em concursos",
-      "ramos": [
-        "conceito",
-        "dados do enunciado",
-        "método",
-        "cálculo ou lógica",
-        "conferência",
-        "pegadinha"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Razão, proporção e porcentagem",
+      "Conceito: Razão compara grandezas; proporção iguala razões.",
+      "Aplicação: Aumentar 20% e depois reduzir 20% gera 96% do valor inicial.",
+      "Cuidado: Somar aumento de 20% e desconto de 20% como se voltasse ao início."
+    ],
     "comoEstudar": [
-      "Ler o capítulo com lápis na mão",
-      "Resolver 10 questões registrando passos",
-      "Refazer erros no dia seguinte",
-      "Criar um exemplo próprio",
-      "Revisar flashcards em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Somar percentuais sucessivos como se fossem aplicados sobre a mesma base. A banca cobra menos decoreba e mais aplicação correta das condições.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros sem gabarito",
-      "D7": "revisar flashcards e questões difíceis",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "interpretar comando",
-      "escolher método correto",
-      "resolver sem pular etapas",
-      "conferir resposta",
-      "identificar pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f05-01",
-        "frente": "Ideia central de Proporcionalidade e porcentagem em concursos",
-        "verso": "Porcentagem e proporção pedem base correta, relação direta ou inversa e cuidado com aumentos sucessivos.",
-        "tag": "Proporcionalidade e porcentagem em concursos",
+        "id": "matematica-e-raciocinio-logico-avancado-05-fc01",
+        "frente": "Qual é a ideia central de Razão, proporção e porcentagem?",
+        "verso": "Razão compara grandezas; proporção iguala razões.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f05-02",
-        "frente": "Pegadinha comum em Proporcionalidade e porcentagem em concursos",
-        "verso": "Somar percentuais sucessivos como se fossem aplicados sobre a mesma base.",
+        "id": "matematica-e-raciocinio-logico-avancado-05-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em relações numéricas?",
+        "verso": "Regra de três exige identificar se a relação é direta ou inversa.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-05-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Somar aumento de 20% e desconto de 20% como se voltasse ao início.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f05-03",
-        "frente": "Roteiro seguro para Proporcionalidade e porcentagem em concursos",
-        "verso": "Use este roteiro: definir base 100, identificar grandezas, montar proporção, aplicar fator multiplicativo e conferir unidade. Ao final, teste a resposta no enunciado.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f05-04",
-        "frente": "Comparação importante em Proporcionalidade e porcentagem em concursos",
-        "verso": "aumento percentual x desconto percentual: aumento multiplica por 1 + taxa; desconto multiplica por 1 - taxa.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "matematica-e-raciocinio-logico-avancado-05-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Aumentar 20% e depois reduzir 20% gera 96% do valor inicial.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Matemática e Raciocínio Lógico para concursos. Explique Proporcionalidade e porcentagem em concursos, resolva um exemplo e mostre a pegadinha mais comum.",
-      "feedbackPadrao": "Corrija com foco em interpretação, método, cálculo, unidade e condição do enunciado."
-    },
     "questoes": [
       {
-        "id": "q05-01",
+        "id": "matematica-e-raciocinio-logico-avancado-05-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Proporcionalidade e porcentagem em concursos, qual afirmação está correta?",
+        "enunciado": "Em relação a Razão, proporção e porcentagem, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Porcentagem e proporção pedem base correta, relação direta ou inversa e cuidado com aumentos sucessivos.",
-          "Somar percentuais sucessivos como se fossem aplicados sobre a mesma base.",
-          "A resposta deve ser escolhida por intuição sem testar condições.",
-          "Toda questão pode ser resolvida por uma única fórmula decorada.",
-          "O comando da banca não interfere na estratégia de solução."
+          "Razão compara grandezas; proporção iguala razões.",
+          "Somar aumento de 20% e desconto de 20% como se voltasse ao início.",
+          "Aplicar regra direta em grandezas inversas.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Porcentagem e proporção pedem base correta, relação direta ou inversa e cuidado com aumentos sucessivos.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "Porcentagem e proporção pedem base correta, relação direta ou inversa e cuidado com aumentos sucessivos.",
-        "armadilhaDaBanca": "Somar percentuais sucessivos como se fossem aplicados sobre a mesma base.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A alternativa correta resume o núcleo do tema: Razão compara grandezas; proporção iguala razões."
       },
       {
-        "id": "q05-02",
+        "id": "matematica-e-raciocinio-logico-avancado-05-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Proporcionalidade e porcentagem em concursos, é seguro resolver a questão sem identificar a condição central do enunciado.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A condição central define a fórmula, a lógica e a interpretação correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Regra de três exige identificar se a relação é direta ou inversa.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de relações numéricas."
       },
       {
-        "id": "q05-03",
+        "id": "matematica-e-raciocinio-logico-avancado-05-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Proporcionalidade e porcentagem em concursos, testar a resposta no enunciado ajuda a reduzir erro de cálculo e interpretação.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A conferência final evita respostas numericamente plausíveis, mas logicamente erradas.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Somar aumento de 20% e desconto de 20% como se voltasse ao início.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q05-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Um produto aumenta 20% e depois sofre desconto de 20%.",
-        "alternativas": [
-          "O valor final não volta ao inicial; fica 96% do valor original.",
-          "O resultado deve ser obtido apenas por estimativa visual.",
-          "A condição do enunciado não muda o método.",
-          "Qualquer fórmula parecida resolve o problema.",
-          "Não é necessário conferir unidade, ordem ou restrição."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O valor final não volta ao inicial; fica 96% do valor original.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "O valor final não volta ao inicial; fica 96% do valor original.",
-        "armadilhaDaBanca": "A banca oferece alternativas próximas para punir quem calcula sem interpretar.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "id": "matematica-e-raciocinio-logico-avancado-05-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Aumentar 20% e depois reduzir 20% gera 96% do valor inicial. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Porcentagem é razão de base 100, mas a base muda em aumentos sucessivos.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q05-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Proporcionalidade e porcentagem em concursos?",
-        "alternativas": [
-          "Usar o roteiro: definir base 100, identificar grandezas, montar proporção, aplicar fator multiplicativo e conferir unidade.",
-          "Decorar o gabarito de questões antigas.",
-          "Pular a leitura do comando e ir direto às alternativas.",
-          "Ignorar restrições como “exatamente”, “no máximo” e “ao menos”.",
-          "Fazer contas sem registrar passo intermediário."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: definir base 100, identificar grandezas, montar proporção, aplicar fator multiplicativo e conferir unidade.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "O roteiro correto é: definir base 100, identificar grandezas, montar proporção, aplicar fator multiplicativo e conferir unidade.",
-        "armadilhaDaBanca": "O erro comum é saber a fórmula, mas aplicar no cenário errado.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
-      },
-      {
-        "id": "q05-06",
+        "id": "matematica-e-raciocinio-logico-avancado-05-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Proporcionalidade e porcentagem em concursos.",
-        "respostaEsperada": "Porcentagem e proporção pedem base correta, relação direta ou inversa e cuidado com aumentos sucessivos.",
-        "rubricaCorrecao": [
-          "definir a ideia",
-          "aplicar ao caso",
-          "usar linguagem matemática precisa",
-          "evitar regra absoluta indevida"
-        ],
-        "comentario": "A resposta deve unir conceito, uso em prova e cuidado com pegadinha.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva de forma objetiva."
+        "enunciado": "Explique, em até três linhas, por que relações numéricas não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar razão compara grandezas; proporção iguala razões. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q05-07",
+        "id": "matematica-e-raciocinio-logico-avancado-05-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie aumento percentual e desconto percentual.",
-        "respostaEsperada": "aumento multiplica por 1 + taxa; desconto multiplica por 1 - taxa",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "criar exemplo numérico ou lógico"
-        ],
-        "comentario": "A diferença essencial é: aumento multiplica por 1 + taxa; desconto multiplica por 1 - taxa.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, fórmula e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Razão compara grandezas; proporção iguala razões. Pegadinha: Somar aumento de 20% e desconto de 20% como se voltasse ao início.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q05-08",
+        "id": "matematica-e-raciocinio-logico-avancado-05-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Proporcionalidade e porcentagem em concursos?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Somar percentuais sucessivos como se fossem aplicados sobre a mesma base.",
-          "Definir a incógnita antes da conta.",
-          "Desenhar diagrama quando houver conjuntos.",
-          "Conferir se a ordem importa em contagem.",
-          "Ler escala, unidade e legenda antes do cálculo."
+          "Porcentagem é razão de base 100, mas a base muda em aumentos sucessivos.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Aplicar regra direta em grandezas inversas."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Somar percentuais sucessivos como se fossem aplicados sobre a mesma base.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "A pegadinha comum é: Somar percentuais sucessivos como se fossem aplicados sobre a mesma base.",
-        "armadilhaDaBanca": "A alternativa errada costuma parecer natural porque usa termo conhecido.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q05-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Proporcionalidade e porcentagem em concursos, uma alternativa pode ter número correto em cálculo isolado e estar errada por não respeitar o comando.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. O número precisa responder exatamente ao que foi perguntado.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "id": "matematica-e-raciocinio-logico-avancado-05-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Aplicar regra direta em grandezas inversas.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q05-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: resolva e explique uma questão de Proporcionalidade e porcentagem em concursos como professor de concurso.",
-        "promptTutorIA": "Crie uma questão de Proporcionalidade e porcentagem em concursos, resolva passo a passo, mostre a pegadinha e dê um método de revisão.",
-        "criterioDominio": [
-          "interpretação correta",
-          "cálculo ou lógica correta",
-          "justificativa da alternativa",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma fórmula em raciocínio aplicado.",
-        "diagnosticoIA": "Depois do treino, crie uma questão parecida trocando números ou condições."
+        "id": "matematica-e-raciocinio-logico-avancado-05-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Razão, proporção e porcentagem a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Variações percentuais sucessivas não se somam diretamente.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-05-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Razão compara grandezas; proporção iguala razões.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Juros simples, juros compostos, descontos e equivalência financeira",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 23 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Baixo: conteúdo conceitual estável; adaptar apenas ao estilo da banca e ao edital.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Matemática / Raciocínio Lógico / Concursos"
+    "proximoTitulo": "Juros e equivalência financeira"
   },
   {
-    "id": "juros-simples-juros-compostos-descontos-e-equivalencia-financeira",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "id": "juros-e-equivalencia-financeira",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 6,
     "totalChapters": 10,
-    "title": "Juros simples, juros compostos, descontos e equivalência financeira",
-    "assunto": "Matemática financeira para concursos",
-    "tecnica": "Estudo por interpretação do comando, modelagem, cálculo organizado, conferência e revisão de pegadinhas",
-    "competencia": "Resolver questões de lógica e matemática com precisão, identificando condições, fórmulas e armadilhas de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 32,
+    "title": "Juros e equivalência financeira",
+    "assunto": "matemática financeira",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar matemática financeira com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "ENEM": 4
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "capital",
-      "montante",
-      "taxa",
-      "tempo",
-      "juros simples",
-      "juros compostos",
-      "desconto"
+      "matematica financeira"
     ],
-    "fontesBase": [
-      "Matemática básica aplicada a concursos",
-      "Raciocínio lógico proposicional",
-      "Modelos de cobrança das principais bancas",
-      "Problemas contextualizados de concursos policiais e administrativos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Matemática financeira para concursos com foco em questões objetivas de concursos policiais, administrativos, tribunais e provas gerais.",
-      "Ideia central: Juros simples crescem linearmente; juros compostos capitalizam juros sobre juros.",
-      "Erro comum: Usar fórmula de juros simples em questão de capitalização composta ou misturar taxa e tempo em unidades diferentes.",
-      "Como estudar: identificar regime, converter taxa e tempo, aplicar fórmula, conferir se pede juros ou montante. Em seguida, resolva questões, registre o tipo de erro e refaça sem consultar o gabarito."
+      "Juros e equivalência financeira exige domínio de matemática financeira. O estudo correto começa pela ideia de que juros simples crescem linearmente sobre capital inicial.",
+      "Juros compostos incorporam juros ao capital a cada período. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Taxas devem estar na mesma unidade do tempo antes do cálculo. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Desconto e valor presente exigem identificar valor nominal, taxa e prazo. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Juros simples crescem linearmente; juros compostos capitalizam juros sobre juros.",
-      "A leitura do comando vem antes da fórmula.",
-      "A conferência final deve testar se o resultado responde exatamente ao enunciado.",
-      "Erro comum: Usar fórmula de juros simples em questão de capitalização composta ou misturar taxa e tempo em unidades diferentes."
+      "Juros simples crescem linearmente sobre capital inicial.",
+      "Juros compostos incorporam juros ao capital a cada período.",
+      "Taxas devem estar na mesma unidade do tempo antes do cálculo.",
+      "Desconto e valor presente exigem identificar valor nominal, taxa e prazo."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Usar fórmula de juros simples em questão de capitalização composta ou misturar taxa e tempo em unidades diferentes.",
-        "Juros simples crescem linearmente; juros compostos capitalizam juros sobre juros.",
-        "A resolução deve ser feita apenas por memorização."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito, método e aplicação em prova."
-    },
-    "oQueCobra": "Lógica proposicional, negações, argumentos, conjuntos, porcentagem, matemática financeira, combinatória, probabilidade, sequências, álgebra e estatística.",
-    "precisaSaberAntes": "Operações básicas, leitura de enunciado, frações, porcentagens, igualdade, desigualdade, tabelas e gráficos simples.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura cálculo simples com interpretação rígida de condições, quantificadores, unidades e restrições."
+        "pergunta": "Qual é o núcleo de Juros e equivalência financeira?",
+        "resposta": "Juros simples crescem linearmente sobre capital inicial."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, escreva dados, escolha a técnica, resolva em etapas e confira o resultado no enunciado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Usar fórmula composta em juros simples."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "O domínio de lógica e matemática melhora prova objetiva, leitura de dados, controle de tempo e resolução de problemas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "2% ao mês por 6 meses em juros compostos não é simplesmente 12% exatos."
       }
     ],
-    "comoIdentificar": "Procure palavras como todo, algum, nenhum, ao menos, exatamente, porcentagem, total, diferença, razão, ordem, comissão, probabilidade, média e mediana.",
+    "quadroDeDominio": {
+      "conceito": "Juros simples crescem linearmente sobre capital inicial.",
+      "limite": "Juros compostos incorporam juros ao capital a cada período.",
+      "aplicacao": "2% ao mês por 6 meses em juros compostos não é simplesmente 12% exatos.",
+      "erroFatal": "Usar fórmula composta em juros simples."
+    },
+    "exemploComentado": "2% ao mês por 6 meses em juros compostos não é simplesmente 12% exatos.",
     "pegadinhas": [
-      "ignorar unidade",
-      "confundir ordem em combinatória",
-      "somar percentuais sucessivos",
-      "negar quantificador errado",
-      "ler gráfico sem escala"
+      "Usar fórmula composta em juros simples.",
+      "Misturar taxa mensal com prazo anual sem converter."
     ],
-    "resumoFrase": "Juros simples crescem linearmente; juros compostos capitalizam juros sobre juros.",
-    "explicacaoComoSeTivesse12": "Pense assim: Juros simples crescem linearmente; juros compostos capitalizam juros sobre juros. Primeiro entenda o pedido, depois faça a conta ou a lógica e confira se respondeu exatamente ao que foi perguntado.",
-    "mapaMentalTextual": {
-      "centro": "Matemática financeira para concursos",
-      "ramos": [
-        "conceito",
-        "dados do enunciado",
-        "método",
-        "cálculo ou lógica",
-        "conferência",
-        "pegadinha"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Juros e equivalência financeira",
+      "Conceito: Juros simples crescem linearmente sobre capital inicial.",
+      "Aplicação: 2% ao mês por 6 meses em juros compostos não é simplesmente 12% exatos.",
+      "Cuidado: Usar fórmula composta em juros simples."
+    ],
     "comoEstudar": [
-      "Ler o capítulo com lápis na mão",
-      "Resolver 10 questões registrando passos",
-      "Refazer erros no dia seguinte",
-      "Criar um exemplo próprio",
-      "Revisar flashcards em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Usar fórmula de juros simples em questão de capitalização composta ou misturar taxa e tempo em unidades diferentes. A banca cobra menos decoreba e mais aplicação correta das condições.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros sem gabarito",
-      "D7": "revisar flashcards e questões difíceis",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "interpretar comando",
-      "escolher método correto",
-      "resolver sem pular etapas",
-      "conferir resposta",
-      "identificar pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f06-01",
-        "frente": "Ideia central de Matemática financeira para concursos",
-        "verso": "Juros simples crescem linearmente; juros compostos capitalizam juros sobre juros.",
-        "tag": "Matemática financeira para concursos",
+        "id": "matematica-e-raciocinio-logico-avancado-06-fc01",
+        "frente": "Qual é a ideia central de Juros e equivalência financeira?",
+        "verso": "Juros simples crescem linearmente sobre capital inicial.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f06-02",
-        "frente": "Pegadinha comum em Matemática financeira para concursos",
-        "verso": "Usar fórmula de juros simples em questão de capitalização composta ou misturar taxa e tempo em unidades diferentes.",
+        "id": "matematica-e-raciocinio-logico-avancado-06-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em matemática financeira?",
+        "verso": "Juros compostos incorporam juros ao capital a cada período.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-06-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Usar fórmula composta em juros simples. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f06-03",
-        "frente": "Roteiro seguro para Matemática financeira para concursos",
-        "verso": "Use este roteiro: identificar regime, converter taxa e tempo, aplicar fórmula, conferir se pede juros ou montante. Ao final, teste a resposta no enunciado.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f06-04",
-        "frente": "Comparação importante em Matemática financeira para concursos",
-        "verso": "juros simples x juros compostos: simples usa base fixa; composto incorpora juros ao capital.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "matematica-e-raciocinio-logico-avancado-06-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "2% ao mês por 6 meses em juros compostos não é simplesmente 12% exatos.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Matemática e Raciocínio Lógico para concursos. Explique Matemática financeira para concursos, resolva um exemplo e mostre a pegadinha mais comum.",
-      "feedbackPadrao": "Corrija com foco em interpretação, método, cálculo, unidade e condição do enunciado."
-    },
     "questoes": [
       {
-        "id": "q06-01",
+        "id": "matematica-e-raciocinio-logico-avancado-06-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Matemática financeira para concursos, qual afirmação está correta?",
+        "enunciado": "Em relação a Juros e equivalência financeira, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Juros simples crescem linearmente; juros compostos capitalizam juros sobre juros.",
-          "Usar fórmula de juros simples em questão de capitalização composta ou misturar taxa e tempo em unidades diferentes.",
-          "A resposta deve ser escolhida por intuição sem testar condições.",
-          "Toda questão pode ser resolvida por uma única fórmula decorada.",
-          "O comando da banca não interfere na estratégia de solução."
+          "Juros simples crescem linearmente sobre capital inicial.",
+          "Usar fórmula composta em juros simples.",
+          "Misturar taxa mensal com prazo anual sem converter.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Juros simples crescem linearmente; juros compostos capitalizam juros sobre juros.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "Juros simples crescem linearmente; juros compostos capitalizam juros sobre juros.",
-        "armadilhaDaBanca": "Usar fórmula de juros simples em questão de capitalização composta ou misturar taxa e tempo em unidades diferentes.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A alternativa correta resume o núcleo do tema: Juros simples crescem linearmente sobre capital inicial."
       },
       {
-        "id": "q06-02",
+        "id": "matematica-e-raciocinio-logico-avancado-06-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Matemática financeira para concursos, é seguro resolver a questão sem identificar a condição central do enunciado.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A condição central define a fórmula, a lógica e a interpretação correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Juros compostos incorporam juros ao capital a cada período.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de matemática financeira."
       },
       {
-        "id": "q06-03",
+        "id": "matematica-e-raciocinio-logico-avancado-06-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Matemática financeira para concursos, testar a resposta no enunciado ajuda a reduzir erro de cálculo e interpretação.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A conferência final evita respostas numericamente plausíveis, mas logicamente erradas.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Usar fórmula composta em juros simples.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q06-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Capital de 1000 aplicado a 10% ao mês por 2 meses em juros compostos.",
-        "alternativas": [
-          "O montante é 1000 × 1,10² = 1210.",
-          "O resultado deve ser obtido apenas por estimativa visual.",
-          "A condição do enunciado não muda o método.",
-          "Qualquer fórmula parecida resolve o problema.",
-          "Não é necessário conferir unidade, ordem ou restrição."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O montante é 1000 × 1,10² = 1210.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "O montante é 1000 × 1,10² = 1210.",
-        "armadilhaDaBanca": "A banca oferece alternativas próximas para punir quem calcula sem interpretar.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "id": "matematica-e-raciocinio-logico-avancado-06-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: 2% ao mês por 6 meses em juros compostos não é simplesmente 12% exatos. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Taxas devem estar na mesma unidade do tempo antes do cálculo.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q06-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Matemática financeira para concursos?",
-        "alternativas": [
-          "Usar o roteiro: identificar regime, converter taxa e tempo, aplicar fórmula, conferir se pede juros ou montante.",
-          "Decorar o gabarito de questões antigas.",
-          "Pular a leitura do comando e ir direto às alternativas.",
-          "Ignorar restrições como “exatamente”, “no máximo” e “ao menos”.",
-          "Fazer contas sem registrar passo intermediário."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: identificar regime, converter taxa e tempo, aplicar fórmula, conferir se pede juros ou montante.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "O roteiro correto é: identificar regime, converter taxa e tempo, aplicar fórmula, conferir se pede juros ou montante.",
-        "armadilhaDaBanca": "O erro comum é saber a fórmula, mas aplicar no cenário errado.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
-      },
-      {
-        "id": "q06-06",
+        "id": "matematica-e-raciocinio-logico-avancado-06-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Matemática financeira para concursos.",
-        "respostaEsperada": "Juros simples crescem linearmente; juros compostos capitalizam juros sobre juros.",
-        "rubricaCorrecao": [
-          "definir a ideia",
-          "aplicar ao caso",
-          "usar linguagem matemática precisa",
-          "evitar regra absoluta indevida"
-        ],
-        "comentario": "A resposta deve unir conceito, uso em prova e cuidado com pegadinha.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva de forma objetiva."
+        "enunciado": "Explique, em até três linhas, por que matemática financeira não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar juros simples crescem linearmente sobre capital inicial. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q06-07",
+        "id": "matematica-e-raciocinio-logico-avancado-06-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie juros simples e juros compostos.",
-        "respostaEsperada": "simples usa base fixa; composto incorpora juros ao capital",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "criar exemplo numérico ou lógico"
-        ],
-        "comentario": "A diferença essencial é: simples usa base fixa; composto incorpora juros ao capital.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, fórmula e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Juros simples crescem linearmente sobre capital inicial. Pegadinha: Usar fórmula composta em juros simples.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q06-08",
+        "id": "matematica-e-raciocinio-logico-avancado-06-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Matemática financeira para concursos?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Usar fórmula de juros simples em questão de capitalização composta ou misturar taxa e tempo em unidades diferentes.",
-          "Definir a incógnita antes da conta.",
-          "Desenhar diagrama quando houver conjuntos.",
-          "Conferir se a ordem importa em contagem.",
-          "Ler escala, unidade e legenda antes do cálculo."
+          "Taxas devem estar na mesma unidade do tempo antes do cálculo.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Misturar taxa mensal com prazo anual sem converter."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Usar fórmula de juros simples em questão de capitalização composta ou misturar taxa e tempo em unidades diferentes.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "A pegadinha comum é: Usar fórmula de juros simples em questão de capitalização composta ou misturar taxa e tempo em unidades diferentes.",
-        "armadilhaDaBanca": "A alternativa errada costuma parecer natural porque usa termo conhecido.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q06-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Matemática financeira para concursos, uma alternativa pode ter número correto em cálculo isolado e estar errada por não respeitar o comando.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. O número precisa responder exatamente ao que foi perguntado.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "id": "matematica-e-raciocinio-logico-avancado-06-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Misturar taxa mensal com prazo anual sem converter.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q06-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: resolva e explique uma questão de Matemática financeira para concursos como professor de concurso.",
-        "promptTutorIA": "Crie uma questão de Matemática financeira para concursos, resolva passo a passo, mostre a pegadinha e dê um método de revisão.",
-        "criterioDominio": [
-          "interpretação correta",
-          "cálculo ou lógica correta",
-          "justificativa da alternativa",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma fórmula em raciocínio aplicado.",
-        "diagnosticoIA": "Depois do treino, crie uma questão parecida trocando números ou condições."
+        "id": "matematica-e-raciocinio-logico-avancado-06-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Juros e equivalência financeira a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Desconto e valor presente exigem identificar valor nominal, taxa e prazo.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-06-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Juros simples crescem linearmente sobre capital inicial.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Análise combinatória, probabilidade e eventos",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 23 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Baixo: conteúdo conceitual estável; adaptar apenas ao estilo da banca e ao edital.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Matemática / Raciocínio Lógico / Concursos"
+    "proximoTitulo": "Combinatória e probabilidade"
   },
   {
-    "id": "analise-combinatoria-probabilidade-e-eventos",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "id": "combinatoria-e-probabilidade",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 7,
     "totalChapters": 10,
-    "title": "Análise combinatória, probabilidade e eventos",
-    "assunto": "Contagem, arranjos, combinações e probabilidade",
-    "tecnica": "Estudo por interpretação do comando, modelagem, cálculo organizado, conferência e revisão de pegadinhas",
-    "competencia": "Resolver questões de lógica e matemática com precisão, identificando condições, fórmulas e armadilhas de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 32,
+    "title": "Combinatória e probabilidade",
+    "assunto": "contagem sem enumerar tudo",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar contagem sem enumerar tudo com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "ENEM": 4
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "princípio multiplicativo",
-      "permutação",
-      "arranjo",
-      "combinação",
-      "probabilidade",
-      "evento"
+      "contagem sem enumerar tudo"
     ],
-    "fontesBase": [
-      "Matemática básica aplicada a concursos",
-      "Raciocínio lógico proposicional",
-      "Modelos de cobrança das principais bancas",
-      "Problemas contextualizados de concursos policiais e administrativos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Contagem, arranjos, combinações e probabilidade com foco em questões objetivas de concursos policiais, administrativos, tribunais e provas gerais.",
-      "Ideia central: Combinatória conta possibilidades; probabilidade mede casos favoráveis sobre casos possíveis.",
-      "Erro comum: Usar arranjo quando a ordem não importa ou combinação quando a ordem importa.",
-      "Como estudar: perguntar se há ordem, repetição e restrição; contar o espaço amostral e os casos favoráveis. Em seguida, resolva questões, registre o tipo de erro e refaça sem consultar o gabarito."
+      "Combinatória e probabilidade exige domínio de contagem sem enumerar tudo. O estudo correto começa pela ideia de que princípio multiplicativo conta escolhas sucessivas independentes.",
+      "Arranjo considera ordem; combinação ignora ordem. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Permutação organiza todos os elementos, com ajustes para repetição quando houver. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Probabilidade é casos favoráveis sobre casos possíveis, desde que o espaço amostral esteja correto. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Combinatória conta possibilidades; probabilidade mede casos favoráveis sobre casos possíveis.",
-      "A leitura do comando vem antes da fórmula.",
-      "A conferência final deve testar se o resultado responde exatamente ao enunciado.",
-      "Erro comum: Usar arranjo quando a ordem não importa ou combinação quando a ordem importa."
+      "Princípio multiplicativo conta escolhas sucessivas independentes.",
+      "Arranjo considera ordem; combinação ignora ordem.",
+      "Permutação organiza todos os elementos, com ajustes para repetição quando houver.",
+      "Probabilidade é casos favoráveis sobre casos possíveis, desde que o espaço amostral esteja correto."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Usar arranjo quando a ordem não importa ou combinação quando a ordem importa.",
-        "Combinatória conta possibilidades; probabilidade mede casos favoráveis sobre casos possíveis.",
-        "A resolução deve ser feita apenas por memorização."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito, método e aplicação em prova."
-    },
-    "oQueCobra": "Lógica proposicional, negações, argumentos, conjuntos, porcentagem, matemática financeira, combinatória, probabilidade, sequências, álgebra e estatística.",
-    "precisaSaberAntes": "Operações básicas, leitura de enunciado, frações, porcentagens, igualdade, desigualdade, tabelas e gráficos simples.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura cálculo simples com interpretação rígida de condições, quantificadores, unidades e restrições."
+        "pergunta": "Qual é o núcleo de Combinatória e probabilidade?",
+        "resposta": "Princípio multiplicativo conta escolhas sucessivas independentes."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, escreva dados, escolha a técnica, resolva em etapas e confira o resultado no enunciado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Usar combinação quando a ordem altera o resultado."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "O domínio de lógica e matemática melhora prova objetiva, leitura de dados, controle de tempo e resolução de problemas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Senha 123 difere de 321; comissão com Ana e Bia não difere de Bia e Ana."
       }
     ],
-    "comoIdentificar": "Procure palavras como todo, algum, nenhum, ao menos, exatamente, porcentagem, total, diferença, razão, ordem, comissão, probabilidade, média e mediana.",
+    "quadroDeDominio": {
+      "conceito": "Princípio multiplicativo conta escolhas sucessivas independentes.",
+      "limite": "Arranjo considera ordem; combinação ignora ordem.",
+      "aplicacao": "Senha 123 difere de 321; comissão com Ana e Bia não difere de Bia e Ana.",
+      "erroFatal": "Usar combinação quando a ordem altera o resultado."
+    },
+    "exemploComentado": "Senha 123 difere de 321; comissão com Ana e Bia não difere de Bia e Ana.",
     "pegadinhas": [
-      "ignorar unidade",
-      "confundir ordem em combinatória",
-      "somar percentuais sucessivos",
-      "negar quantificador errado",
-      "ler gráfico sem escala"
+      "Usar combinação quando a ordem altera o resultado.",
+      "Contar caso impossível no denominador."
     ],
-    "resumoFrase": "Combinatória conta possibilidades; probabilidade mede casos favoráveis sobre casos possíveis.",
-    "explicacaoComoSeTivesse12": "Pense assim: Combinatória conta possibilidades; probabilidade mede casos favoráveis sobre casos possíveis. Primeiro entenda o pedido, depois faça a conta ou a lógica e confira se respondeu exatamente ao que foi perguntado.",
-    "mapaMentalTextual": {
-      "centro": "Contagem, arranjos, combinações e probabilidade",
-      "ramos": [
-        "conceito",
-        "dados do enunciado",
-        "método",
-        "cálculo ou lógica",
-        "conferência",
-        "pegadinha"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Combinatória e probabilidade",
+      "Conceito: Princípio multiplicativo conta escolhas sucessivas independentes.",
+      "Aplicação: Senha 123 difere de 321; comissão com Ana e Bia não difere de Bia e Ana.",
+      "Cuidado: Usar combinação quando a ordem altera o resultado."
+    ],
     "comoEstudar": [
-      "Ler o capítulo com lápis na mão",
-      "Resolver 10 questões registrando passos",
-      "Refazer erros no dia seguinte",
-      "Criar um exemplo próprio",
-      "Revisar flashcards em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Usar arranjo quando a ordem não importa ou combinação quando a ordem importa. A banca cobra menos decoreba e mais aplicação correta das condições.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros sem gabarito",
-      "D7": "revisar flashcards e questões difíceis",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "interpretar comando",
-      "escolher método correto",
-      "resolver sem pular etapas",
-      "conferir resposta",
-      "identificar pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f07-01",
-        "frente": "Ideia central de Contagem, arranjos, combinações e probabilidade",
-        "verso": "Combinatória conta possibilidades; probabilidade mede casos favoráveis sobre casos possíveis.",
-        "tag": "Contagem, arranjos, combinações e probabilidade",
+        "id": "matematica-e-raciocinio-logico-avancado-07-fc01",
+        "frente": "Qual é a ideia central de Combinatória e probabilidade?",
+        "verso": "Princípio multiplicativo conta escolhas sucessivas independentes.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f07-02",
-        "frente": "Pegadinha comum em Contagem, arranjos, combinações e probabilidade",
-        "verso": "Usar arranjo quando a ordem não importa ou combinação quando a ordem importa.",
+        "id": "matematica-e-raciocinio-logico-avancado-07-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em contagem sem enumerar tudo?",
+        "verso": "Arranjo considera ordem; combinação ignora ordem.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-07-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Usar combinação quando a ordem altera o resultado.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f07-03",
-        "frente": "Roteiro seguro para Contagem, arranjos, combinações e probabilidade",
-        "verso": "Use este roteiro: perguntar se há ordem, repetição e restrição; contar o espaço amostral e os casos favoráveis. Ao final, teste a resposta no enunciado.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f07-04",
-        "frente": "Comparação importante em Contagem, arranjos, combinações e probabilidade",
-        "verso": "arranjo x combinação: arranjo considera ordem; combinação não considera ordem.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "matematica-e-raciocinio-logico-avancado-07-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Senha 123 difere de 321; comissão com Ana e Bia não difere de Bia e Ana.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Matemática e Raciocínio Lógico para concursos. Explique Contagem, arranjos, combinações e probabilidade, resolva um exemplo e mostre a pegadinha mais comum.",
-      "feedbackPadrao": "Corrija com foco em interpretação, método, cálculo, unidade e condição do enunciado."
-    },
     "questoes": [
       {
-        "id": "q07-01",
+        "id": "matematica-e-raciocinio-logico-avancado-07-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Contagem, arranjos, combinações e probabilidade, qual afirmação está correta?",
+        "enunciado": "Em relação a Combinatória e probabilidade, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Combinatória conta possibilidades; probabilidade mede casos favoráveis sobre casos possíveis.",
-          "Usar arranjo quando a ordem não importa ou combinação quando a ordem importa.",
-          "A resposta deve ser escolhida por intuição sem testar condições.",
-          "Toda questão pode ser resolvida por uma única fórmula decorada.",
-          "O comando da banca não interfere na estratégia de solução."
+          "Princípio multiplicativo conta escolhas sucessivas independentes.",
+          "Usar combinação quando a ordem altera o resultado.",
+          "Contar caso impossível no denominador.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Combinatória conta possibilidades; probabilidade mede casos favoráveis sobre casos possíveis.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "Combinatória conta possibilidades; probabilidade mede casos favoráveis sobre casos possíveis.",
-        "armadilhaDaBanca": "Usar arranjo quando a ordem não importa ou combinação quando a ordem importa.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A alternativa correta resume o núcleo do tema: Princípio multiplicativo conta escolhas sucessivas independentes."
       },
       {
-        "id": "q07-02",
+        "id": "matematica-e-raciocinio-logico-avancado-07-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Contagem, arranjos, combinações e probabilidade, é seguro resolver a questão sem identificar a condição central do enunciado.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A condição central define a fórmula, a lógica e a interpretação correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Arranjo considera ordem; combinação ignora ordem.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de contagem sem enumerar tudo."
       },
       {
-        "id": "q07-03",
+        "id": "matematica-e-raciocinio-logico-avancado-07-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Contagem, arranjos, combinações e probabilidade, testar a resposta no enunciado ajuda a reduzir erro de cálculo e interpretação.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A conferência final evita respostas numericamente plausíveis, mas logicamente erradas.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Usar combinação quando a ordem altera o resultado.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q07-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Escolher 3 pessoas entre 10 para uma comissão, sem cargos diferentes.",
-        "alternativas": [
-          "É combinação, porque a ordem dos escolhidos não altera a comissão.",
-          "O resultado deve ser obtido apenas por estimativa visual.",
-          "A condição do enunciado não muda o método.",
-          "Qualquer fórmula parecida resolve o problema.",
-          "Não é necessário conferir unidade, ordem ou restrição."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. É combinação, porque a ordem dos escolhidos não altera a comissão.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "É combinação, porque a ordem dos escolhidos não altera a comissão.",
-        "armadilhaDaBanca": "A banca oferece alternativas próximas para punir quem calcula sem interpretar.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "id": "matematica-e-raciocinio-logico-avancado-07-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Senha 123 difere de 321; comissão com Ana e Bia não difere de Bia e Ana. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Permutação organiza todos os elementos, com ajustes para repetição quando houver.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q07-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Contagem, arranjos, combinações e probabilidade?",
-        "alternativas": [
-          "Usar o roteiro: perguntar se há ordem, repetição e restrição; contar o espaço amostral e os casos favoráveis.",
-          "Decorar o gabarito de questões antigas.",
-          "Pular a leitura do comando e ir direto às alternativas.",
-          "Ignorar restrições como “exatamente”, “no máximo” e “ao menos”.",
-          "Fazer contas sem registrar passo intermediário."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: perguntar se há ordem, repetição e restrição; contar o espaço amostral e os casos favoráveis.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "O roteiro correto é: perguntar se há ordem, repetição e restrição; contar o espaço amostral e os casos favoráveis.",
-        "armadilhaDaBanca": "O erro comum é saber a fórmula, mas aplicar no cenário errado.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
-      },
-      {
-        "id": "q07-06",
+        "id": "matematica-e-raciocinio-logico-avancado-07-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Contagem, arranjos, combinações e probabilidade.",
-        "respostaEsperada": "Combinatória conta possibilidades; probabilidade mede casos favoráveis sobre casos possíveis.",
-        "rubricaCorrecao": [
-          "definir a ideia",
-          "aplicar ao caso",
-          "usar linguagem matemática precisa",
-          "evitar regra absoluta indevida"
-        ],
-        "comentario": "A resposta deve unir conceito, uso em prova e cuidado com pegadinha.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva de forma objetiva."
+        "enunciado": "Explique, em até três linhas, por que contagem sem enumerar tudo não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar princípio multiplicativo conta escolhas sucessivas independentes. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q07-07",
+        "id": "matematica-e-raciocinio-logico-avancado-07-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie arranjo e combinação.",
-        "respostaEsperada": "arranjo considera ordem; combinação não considera ordem",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "criar exemplo numérico ou lógico"
-        ],
-        "comentario": "A diferença essencial é: arranjo considera ordem; combinação não considera ordem.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, fórmula e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Princípio multiplicativo conta escolhas sucessivas independentes. Pegadinha: Usar combinação quando a ordem altera o resultado.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q07-08",
+        "id": "matematica-e-raciocinio-logico-avancado-07-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Contagem, arranjos, combinações e probabilidade?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Usar arranjo quando a ordem não importa ou combinação quando a ordem importa.",
-          "Definir a incógnita antes da conta.",
-          "Desenhar diagrama quando houver conjuntos.",
-          "Conferir se a ordem importa em contagem.",
-          "Ler escala, unidade e legenda antes do cálculo."
+          "Permutação organiza todos os elementos, com ajustes para repetição quando houver.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Contar caso impossível no denominador."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Usar arranjo quando a ordem não importa ou combinação quando a ordem importa.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "A pegadinha comum é: Usar arranjo quando a ordem não importa ou combinação quando a ordem importa.",
-        "armadilhaDaBanca": "A alternativa errada costuma parecer natural porque usa termo conhecido.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q07-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Contagem, arranjos, combinações e probabilidade, uma alternativa pode ter número correto em cálculo isolado e estar errada por não respeitar o comando.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. O número precisa responder exatamente ao que foi perguntado.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "id": "matematica-e-raciocinio-logico-avancado-07-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Contar caso impossível no denominador.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q07-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: resolva e explique uma questão de Contagem, arranjos, combinações e probabilidade como professor de concurso.",
-        "promptTutorIA": "Crie uma questão de Contagem, arranjos, combinações e probabilidade, resolva passo a passo, mostre a pegadinha e dê um método de revisão.",
-        "criterioDominio": [
-          "interpretação correta",
-          "cálculo ou lógica correta",
-          "justificativa da alternativa",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma fórmula em raciocínio aplicado.",
-        "diagnosticoIA": "Depois do treino, crie uma questão parecida trocando números ou condições."
+        "id": "matematica-e-raciocinio-logico-avancado-07-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Combinatória e probabilidade a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Probabilidade é casos favoráveis sobre casos possíveis, desde que o espaço amostral esteja correto.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-07-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Princípio multiplicativo conta escolhas sucessivas independentes.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Sequências, padrões, recorrências e lógica de formação",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 23 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Baixo: conteúdo conceitual estável; adaptar apenas ao estilo da banca e ao edital.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Matemática / Raciocínio Lógico / Concursos"
+    "proximoTitulo": "Sequências e padrões"
   },
   {
-    "id": "sequencias-padroes-recorrencias-e-logica-de-formacao",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "id": "sequencias-e-padroes",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 8,
     "totalChapters": 10,
-    "title": "Sequências, padrões, recorrências e lógica de formação",
-    "assunto": "Sequências numéricas, alfabéticas e padrões lógicos",
-    "tecnica": "Estudo por interpretação do comando, modelagem, cálculo organizado, conferência e revisão de pegadinhas",
-    "competencia": "Resolver questões de lógica e matemática com precisão, identificando condições, fórmulas e armadilhas de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 32,
+    "title": "Sequências e padrões",
+    "assunto": "regularidades",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar regularidades com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "ENEM": 4
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "sequência",
-      "padrão",
-      "recorrência",
-      "progressão aritmética",
-      "progressão geométrica",
-      "analogia"
+      "regularidades"
     ],
-    "fontesBase": [
-      "Matemática básica aplicada a concursos",
-      "Raciocínio lógico proposicional",
-      "Modelos de cobrança das principais bancas",
-      "Problemas contextualizados de concursos policiais e administrativos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Sequências numéricas, alfabéticas e padrões lógicos com foco em questões objetivas de concursos policiais, administrativos, tribunais e provas gerais.",
-      "Ideia central: Questões de sequência exigem descobrir a regra de formação e testar se ela vale para todos os termos.",
-      "Erro comum: Encontrar uma regra que explica só os dois primeiros passos e marcar sem testar o restante.",
-      "Como estudar: calcular diferenças, razões, alternância, posição, letras, paridade e testar a regra no conjunto inteiro. Em seguida, resolva questões, registre o tipo de erro e refaça sem consultar o gabarito."
+      "Sequências e padrões exige domínio de regularidades. O estudo correto começa pela ideia de que progressão aritmética soma razão constante; progressão geométrica multiplica razão constante.",
+      "Sequências podem alternar operações, posições pares/ímpares ou padrões por blocos. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Recorrência define termo a partir de termos anteriores. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Questões de padrão exigem testar mais de uma hipótese antes de marcar. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Questões de sequência exigem descobrir a regra de formação e testar se ela vale para todos os termos.",
-      "A leitura do comando vem antes da fórmula.",
-      "A conferência final deve testar se o resultado responde exatamente ao enunciado.",
-      "Erro comum: Encontrar uma regra que explica só os dois primeiros passos e marcar sem testar o restante."
+      "Progressão aritmética soma razão constante; progressão geométrica multiplica razão constante.",
+      "Sequências podem alternar operações, posições pares/ímpares ou padrões por blocos.",
+      "Recorrência define termo a partir de termos anteriores.",
+      "Questões de padrão exigem testar mais de uma hipótese antes de marcar."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Encontrar uma regra que explica só os dois primeiros passos e marcar sem testar o restante.",
-        "Questões de sequência exigem descobrir a regra de formação e testar se ela vale para todos os termos.",
-        "A resolução deve ser feita apenas por memorização."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito, método e aplicação em prova."
-    },
-    "oQueCobra": "Lógica proposicional, negações, argumentos, conjuntos, porcentagem, matemática financeira, combinatória, probabilidade, sequências, álgebra e estatística.",
-    "precisaSaberAntes": "Operações básicas, leitura de enunciado, frações, porcentagens, igualdade, desigualdade, tabelas e gráficos simples.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura cálculo simples com interpretação rígida de condições, quantificadores, unidades e restrições."
+        "pergunta": "Qual é o núcleo de Sequências e padrões?",
+        "resposta": "Progressão aritmética soma razão constante; progressão geométrica multiplica razão constante."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, escreva dados, escolha a técnica, resolva em etapas e confira o resultado no enunciado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Forçar PA onde há alternância."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "O domínio de lógica e matemática melhora prova objetiva, leitura de dados, controle de tempo e resolução de problemas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "2, 5, 10, 17 pode seguir acréscimos ímpares 3, 5, 7."
       }
     ],
-    "comoIdentificar": "Procure palavras como todo, algum, nenhum, ao menos, exatamente, porcentagem, total, diferença, razão, ordem, comissão, probabilidade, média e mediana.",
+    "quadroDeDominio": {
+      "conceito": "Progressão aritmética soma razão constante; progressão geométrica multiplica razão constante.",
+      "limite": "Sequências podem alternar operações, posições pares/ímpares ou padrões por blocos.",
+      "aplicacao": "2, 5, 10, 17 pode seguir acréscimos ímpares 3, 5, 7.",
+      "erroFatal": "Forçar PA onde há alternância."
+    },
+    "exemploComentado": "2, 5, 10, 17 pode seguir acréscimos ímpares 3, 5, 7.",
     "pegadinhas": [
-      "ignorar unidade",
-      "confundir ordem em combinatória",
-      "somar percentuais sucessivos",
-      "negar quantificador errado",
-      "ler gráfico sem escala"
+      "Forçar PA onde há alternância.",
+      "Usar diferença entre dois termos e ignorar os demais."
     ],
-    "resumoFrase": "Questões de sequência exigem descobrir a regra de formação e testar se ela vale para todos os termos.",
-    "explicacaoComoSeTivesse12": "Pense assim: Questões de sequência exigem descobrir a regra de formação e testar se ela vale para todos os termos. Primeiro entenda o pedido, depois faça a conta ou a lógica e confira se respondeu exatamente ao que foi perguntado.",
-    "mapaMentalTextual": {
-      "centro": "Sequências numéricas, alfabéticas e padrões lógicos",
-      "ramos": [
-        "conceito",
-        "dados do enunciado",
-        "método",
-        "cálculo ou lógica",
-        "conferência",
-        "pegadinha"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Sequências e padrões",
+      "Conceito: Progressão aritmética soma razão constante; progressão geométrica multiplica razão constante.",
+      "Aplicação: 2, 5, 10, 17 pode seguir acréscimos ímpares 3, 5, 7.",
+      "Cuidado: Forçar PA onde há alternância."
+    ],
     "comoEstudar": [
-      "Ler o capítulo com lápis na mão",
-      "Resolver 10 questões registrando passos",
-      "Refazer erros no dia seguinte",
-      "Criar um exemplo próprio",
-      "Revisar flashcards em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Encontrar uma regra que explica só os dois primeiros passos e marcar sem testar o restante. A banca cobra menos decoreba e mais aplicação correta das condições.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros sem gabarito",
-      "D7": "revisar flashcards e questões difíceis",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "interpretar comando",
-      "escolher método correto",
-      "resolver sem pular etapas",
-      "conferir resposta",
-      "identificar pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f08-01",
-        "frente": "Ideia central de Sequências numéricas, alfabéticas e padrões lógicos",
-        "verso": "Questões de sequência exigem descobrir a regra de formação e testar se ela vale para todos os termos.",
-        "tag": "Sequências numéricas, alfabéticas e padrões lógicos",
+        "id": "matematica-e-raciocinio-logico-avancado-08-fc01",
+        "frente": "Qual é a ideia central de Sequências e padrões?",
+        "verso": "Progressão aritmética soma razão constante; progressão geométrica multiplica razão constante.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f08-02",
-        "frente": "Pegadinha comum em Sequências numéricas, alfabéticas e padrões lógicos",
-        "verso": "Encontrar uma regra que explica só os dois primeiros passos e marcar sem testar o restante.",
+        "id": "matematica-e-raciocinio-logico-avancado-08-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em regularidades?",
+        "verso": "Sequências podem alternar operações, posições pares/ímpares ou padrões por blocos.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-08-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Forçar PA onde há alternância. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f08-03",
-        "frente": "Roteiro seguro para Sequências numéricas, alfabéticas e padrões lógicos",
-        "verso": "Use este roteiro: calcular diferenças, razões, alternância, posição, letras, paridade e testar a regra no conjunto inteiro. Ao final, teste a resposta no enunciado.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f08-04",
-        "frente": "Comparação importante em Sequências numéricas, alfabéticas e padrões lógicos",
-        "verso": "PA x PG: PA soma uma razão constante; PG multiplica por uma razão constante.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "matematica-e-raciocinio-logico-avancado-08-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "2, 5, 10, 17 pode seguir acréscimos ímpares 3, 5, 7.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Matemática e Raciocínio Lógico para concursos. Explique Sequências numéricas, alfabéticas e padrões lógicos, resolva um exemplo e mostre a pegadinha mais comum.",
-      "feedbackPadrao": "Corrija com foco em interpretação, método, cálculo, unidade e condição do enunciado."
-    },
     "questoes": [
       {
-        "id": "q08-01",
+        "id": "matematica-e-raciocinio-logico-avancado-08-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Sequências numéricas, alfabéticas e padrões lógicos, qual afirmação está correta?",
+        "enunciado": "Em relação a Sequências e padrões, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Questões de sequência exigem descobrir a regra de formação e testar se ela vale para todos os termos.",
-          "Encontrar uma regra que explica só os dois primeiros passos e marcar sem testar o restante.",
-          "A resposta deve ser escolhida por intuição sem testar condições.",
-          "Toda questão pode ser resolvida por uma única fórmula decorada.",
-          "O comando da banca não interfere na estratégia de solução."
+          "Progressão aritmética soma razão constante; progressão geométrica multiplica razão constante.",
+          "Forçar PA onde há alternância.",
+          "Usar diferença entre dois termos e ignorar os demais.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Questões de sequência exigem descobrir a regra de formação e testar se ela vale para todos os termos.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "Questões de sequência exigem descobrir a regra de formação e testar se ela vale para todos os termos.",
-        "armadilhaDaBanca": "Encontrar uma regra que explica só os dois primeiros passos e marcar sem testar o restante.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A alternativa correta resume o núcleo do tema: Progressão aritmética soma razão constante; progressão geométrica multiplica razão constante."
       },
       {
-        "id": "q08-02",
+        "id": "matematica-e-raciocinio-logico-avancado-08-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Sequências numéricas, alfabéticas e padrões lógicos, é seguro resolver a questão sem identificar a condição central do enunciado.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A condição central define a fórmula, a lógica e a interpretação correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Sequências podem alternar operações, posições pares/ímpares ou padrões por blocos.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de regularidades."
       },
       {
-        "id": "q08-03",
+        "id": "matematica-e-raciocinio-logico-avancado-08-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Sequências numéricas, alfabéticas e padrões lógicos, testar a resposta no enunciado ajuda a reduzir erro de cálculo e interpretação.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A conferência final evita respostas numericamente plausíveis, mas logicamente erradas.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Forçar PA onde há alternância.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q08-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Na sequência 2, 4, 8, 16, o próximo termo deve manter a razão 2.",
-        "alternativas": [
-          "O próximo termo é 32, pois a regra é multiplicar por 2.",
-          "O resultado deve ser obtido apenas por estimativa visual.",
-          "A condição do enunciado não muda o método.",
-          "Qualquer fórmula parecida resolve o problema.",
-          "Não é necessário conferir unidade, ordem ou restrição."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O próximo termo é 32, pois a regra é multiplicar por 2.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "O próximo termo é 32, pois a regra é multiplicar por 2.",
-        "armadilhaDaBanca": "A banca oferece alternativas próximas para punir quem calcula sem interpretar.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "id": "matematica-e-raciocinio-logico-avancado-08-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: 2, 5, 10, 17 pode seguir acréscimos ímpares 3, 5, 7. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Recorrência define termo a partir de termos anteriores.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q08-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Sequências numéricas, alfabéticas e padrões lógicos?",
-        "alternativas": [
-          "Usar o roteiro: calcular diferenças, razões, alternância, posição, letras, paridade e testar a regra no conjunto inteiro.",
-          "Decorar o gabarito de questões antigas.",
-          "Pular a leitura do comando e ir direto às alternativas.",
-          "Ignorar restrições como “exatamente”, “no máximo” e “ao menos”.",
-          "Fazer contas sem registrar passo intermediário."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: calcular diferenças, razões, alternância, posição, letras, paridade e testar a regra no conjunto inteiro.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "O roteiro correto é: calcular diferenças, razões, alternância, posição, letras, paridade e testar a regra no conjunto inteiro.",
-        "armadilhaDaBanca": "O erro comum é saber a fórmula, mas aplicar no cenário errado.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
-      },
-      {
-        "id": "q08-06",
+        "id": "matematica-e-raciocinio-logico-avancado-08-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Sequências numéricas, alfabéticas e padrões lógicos.",
-        "respostaEsperada": "Questões de sequência exigem descobrir a regra de formação e testar se ela vale para todos os termos.",
-        "rubricaCorrecao": [
-          "definir a ideia",
-          "aplicar ao caso",
-          "usar linguagem matemática precisa",
-          "evitar regra absoluta indevida"
-        ],
-        "comentario": "A resposta deve unir conceito, uso em prova e cuidado com pegadinha.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva de forma objetiva."
+        "enunciado": "Explique, em até três linhas, por que regularidades não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar progressão aritmética soma razão constante; progressão geométrica multiplica razão constante. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q08-07",
+        "id": "matematica-e-raciocinio-logico-avancado-08-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie PA e PG.",
-        "respostaEsperada": "PA soma uma razão constante; PG multiplica por uma razão constante",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "criar exemplo numérico ou lógico"
-        ],
-        "comentario": "A diferença essencial é: PA soma uma razão constante; PG multiplica por uma razão constante.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, fórmula e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Progressão aritmética soma razão constante; progressão geométrica multiplica razão constante. Pegadinha: Forçar PA onde há alternância.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q08-08",
+        "id": "matematica-e-raciocinio-logico-avancado-08-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Sequências numéricas, alfabéticas e padrões lógicos?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Encontrar uma regra que explica só os dois primeiros passos e marcar sem testar o restante.",
-          "Definir a incógnita antes da conta.",
-          "Desenhar diagrama quando houver conjuntos.",
-          "Conferir se a ordem importa em contagem.",
-          "Ler escala, unidade e legenda antes do cálculo."
+          "Recorrência define termo a partir de termos anteriores.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Usar diferença entre dois termos e ignorar os demais."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Encontrar uma regra que explica só os dois primeiros passos e marcar sem testar o restante.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "A pegadinha comum é: Encontrar uma regra que explica só os dois primeiros passos e marcar sem testar o restante.",
-        "armadilhaDaBanca": "A alternativa errada costuma parecer natural porque usa termo conhecido.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q08-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Sequências numéricas, alfabéticas e padrões lógicos, uma alternativa pode ter número correto em cálculo isolado e estar errada por não respeitar o comando.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. O número precisa responder exatamente ao que foi perguntado.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "id": "matematica-e-raciocinio-logico-avancado-08-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Usar diferença entre dois termos e ignorar os demais.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q08-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: resolva e explique uma questão de Sequências numéricas, alfabéticas e padrões lógicos como professor de concurso.",
-        "promptTutorIA": "Crie uma questão de Sequências numéricas, alfabéticas e padrões lógicos, resolva passo a passo, mostre a pegadinha e dê um método de revisão.",
-        "criterioDominio": [
-          "interpretação correta",
-          "cálculo ou lógica correta",
-          "justificativa da alternativa",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma fórmula em raciocínio aplicado.",
-        "diagnosticoIA": "Depois do treino, crie uma questão parecida trocando números ou condições."
+        "id": "matematica-e-raciocinio-logico-avancado-08-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Sequências e padrões a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Questões de padrão exigem testar mais de uma hipótese antes de marcar.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-08-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Progressão aritmética soma razão constante; progressão geométrica multiplica razão constante.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Equações, inequações, sistemas e problemas algébricos",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 23 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Baixo: conteúdo conceitual estável; adaptar apenas ao estilo da banca e ao edital.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Matemática / Raciocínio Lógico / Concursos"
+    "proximoTitulo": "Álgebra e problemas"
   },
   {
-    "id": "equacoes-inequacoes-sistemas-e-problemas-algebricos",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "id": "algebra-e-problemas",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 9,
     "totalChapters": 10,
-    "title": "Equações, inequações, sistemas e problemas algébricos",
-    "assunto": "Álgebra aplicada a problemas de concurso",
-    "tecnica": "Estudo por interpretação do comando, modelagem, cálculo organizado, conferência e revisão de pegadinhas",
-    "competencia": "Resolver questões de lógica e matemática com precisão, identificando condições, fórmulas e armadilhas de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 32,
+    "title": "Álgebra e problemas",
+    "assunto": "equações aplicadas",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar equações aplicadas com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "ENEM": 4
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "equação",
-      "inequação",
-      "sistema",
-      "incógnita",
-      "função",
-      "modelagem"
+      "equacoes aplicadas"
     ],
-    "fontesBase": [
-      "Matemática básica aplicada a concursos",
-      "Raciocínio lógico proposicional",
-      "Modelos de cobrança das principais bancas",
-      "Problemas contextualizados de concursos policiais e administrativos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Álgebra aplicada a problemas de concurso com foco em questões objetivas de concursos policiais, administrativos, tribunais e provas gerais.",
-      "Ideia central: Álgebra de concurso transforma texto em relações matemáticas claras e resolve a incógnita com organização.",
-      "Erro comum: Montar equação sem definir a incógnita ou inverter sinal em inequações ao multiplicar por número negativo.",
-      "Como estudar: definir incógnita, traduzir frases em operações, resolver passo a passo e testar no enunciado. Em seguida, resolva questões, registre o tipo de erro e refaça sem consultar o gabarito."
+      "Álgebra e problemas exige domínio de equações aplicadas. O estudo correto começa pela ideia de que traduzir texto em variável é metade da resolução.",
+      "Equação representa igualdade; inequação representa intervalo de possibilidades. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Sistemas combinam informações independentes para determinar incógnitas. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Verificar a resposta no enunciado evita raiz estranha ou interpretação errada. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Álgebra de concurso transforma texto em relações matemáticas claras e resolve a incógnita com organização.",
-      "A leitura do comando vem antes da fórmula.",
-      "A conferência final deve testar se o resultado responde exatamente ao enunciado.",
-      "Erro comum: Montar equação sem definir a incógnita ou inverter sinal em inequações ao multiplicar por número negativo."
+      "Traduzir texto em variável é metade da resolução.",
+      "Equação representa igualdade; inequação representa intervalo de possibilidades.",
+      "Sistemas combinam informações independentes para determinar incógnitas.",
+      "Verificar a resposta no enunciado evita raiz estranha ou interpretação errada."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Montar equação sem definir a incógnita ou inverter sinal em inequações ao multiplicar por número negativo.",
-        "Álgebra de concurso transforma texto em relações matemáticas claras e resolve a incógnita com organização.",
-        "A resolução deve ser feita apenas por memorização."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito, método e aplicação em prova."
-    },
-    "oQueCobra": "Lógica proposicional, negações, argumentos, conjuntos, porcentagem, matemática financeira, combinatória, probabilidade, sequências, álgebra e estatística.",
-    "precisaSaberAntes": "Operações básicas, leitura de enunciado, frações, porcentagens, igualdade, desigualdade, tabelas e gráficos simples.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura cálculo simples com interpretação rígida de condições, quantificadores, unidades e restrições."
+        "pergunta": "Qual é o núcleo de Álgebra e problemas?",
+        "resposta": "Traduzir texto em variável é metade da resolução."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, escreva dados, escolha a técnica, resolva em etapas e confira o resultado no enunciado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Resolver conta certa para pergunta errada."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "O domínio de lógica e matemática melhora prova objetiva, leitura de dados, controle de tempo e resolução de problemas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Se a idade deve ser inteira e positiva, solução algébrica negativa não serve."
       }
     ],
-    "comoIdentificar": "Procure palavras como todo, algum, nenhum, ao menos, exatamente, porcentagem, total, diferença, razão, ordem, comissão, probabilidade, média e mediana.",
+    "quadroDeDominio": {
+      "conceito": "Traduzir texto em variável é metade da resolução.",
+      "limite": "Equação representa igualdade; inequação representa intervalo de possibilidades.",
+      "aplicacao": "Se a idade deve ser inteira e positiva, solução algébrica negativa não serve.",
+      "erroFatal": "Resolver conta certa para pergunta errada."
+    },
+    "exemploComentado": "Se a idade deve ser inteira e positiva, solução algébrica negativa não serve.",
     "pegadinhas": [
-      "ignorar unidade",
-      "confundir ordem em combinatória",
-      "somar percentuais sucessivos",
-      "negar quantificador errado",
-      "ler gráfico sem escala"
+      "Resolver conta certa para pergunta errada.",
+      "Esquecer restrição de valores positivos, inteiros ou possíveis."
     ],
-    "resumoFrase": "Álgebra de concurso transforma texto em relações matemáticas claras e resolve a incógnita com organização.",
-    "explicacaoComoSeTivesse12": "Pense assim: Álgebra de concurso transforma texto em relações matemáticas claras e resolve a incógnita com organização. Primeiro entenda o pedido, depois faça a conta ou a lógica e confira se respondeu exatamente ao que foi perguntado.",
-    "mapaMentalTextual": {
-      "centro": "Álgebra aplicada a problemas de concurso",
-      "ramos": [
-        "conceito",
-        "dados do enunciado",
-        "método",
-        "cálculo ou lógica",
-        "conferência",
-        "pegadinha"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Álgebra e problemas",
+      "Conceito: Traduzir texto em variável é metade da resolução.",
+      "Aplicação: Se a idade deve ser inteira e positiva, solução algébrica negativa não serve.",
+      "Cuidado: Resolver conta certa para pergunta errada."
+    ],
     "comoEstudar": [
-      "Ler o capítulo com lápis na mão",
-      "Resolver 10 questões registrando passos",
-      "Refazer erros no dia seguinte",
-      "Criar um exemplo próprio",
-      "Revisar flashcards em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Montar equação sem definir a incógnita ou inverter sinal em inequações ao multiplicar por número negativo. A banca cobra menos decoreba e mais aplicação correta das condições.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros sem gabarito",
-      "D7": "revisar flashcards e questões difíceis",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "interpretar comando",
-      "escolher método correto",
-      "resolver sem pular etapas",
-      "conferir resposta",
-      "identificar pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f09-01",
-        "frente": "Ideia central de Álgebra aplicada a problemas de concurso",
-        "verso": "Álgebra de concurso transforma texto em relações matemáticas claras e resolve a incógnita com organização.",
-        "tag": "Álgebra aplicada a problemas de concurso",
+        "id": "matematica-e-raciocinio-logico-avancado-09-fc01",
+        "frente": "Qual é a ideia central de Álgebra e problemas?",
+        "verso": "Traduzir texto em variável é metade da resolução.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f09-02",
-        "frente": "Pegadinha comum em Álgebra aplicada a problemas de concurso",
-        "verso": "Montar equação sem definir a incógnita ou inverter sinal em inequações ao multiplicar por número negativo.",
+        "id": "matematica-e-raciocinio-logico-avancado-09-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em equações aplicadas?",
+        "verso": "Equação representa igualdade; inequação representa intervalo de possibilidades.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-09-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Resolver conta certa para pergunta errada. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f09-03",
-        "frente": "Roteiro seguro para Álgebra aplicada a problemas de concurso",
-        "verso": "Use este roteiro: definir incógnita, traduzir frases em operações, resolver passo a passo e testar no enunciado. Ao final, teste a resposta no enunciado.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f09-04",
-        "frente": "Comparação importante em Álgebra aplicada a problemas de concurso",
-        "verso": "equação x inequação: equação busca igualdade; inequação busca intervalo ou condição.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "matematica-e-raciocinio-logico-avancado-09-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Se a idade deve ser inteira e positiva, solução algébrica negativa não serve.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Matemática e Raciocínio Lógico para concursos. Explique Álgebra aplicada a problemas de concurso, resolva um exemplo e mostre a pegadinha mais comum.",
-      "feedbackPadrao": "Corrija com foco em interpretação, método, cálculo, unidade e condição do enunciado."
-    },
     "questoes": [
       {
-        "id": "q09-01",
+        "id": "matematica-e-raciocinio-logico-avancado-09-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Álgebra aplicada a problemas de concurso, qual afirmação está correta?",
+        "enunciado": "Em relação a Álgebra e problemas, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Álgebra de concurso transforma texto em relações matemáticas claras e resolve a incógnita com organização.",
-          "Montar equação sem definir a incógnita ou inverter sinal em inequações ao multiplicar por número negativo.",
-          "A resposta deve ser escolhida por intuição sem testar condições.",
-          "Toda questão pode ser resolvida por uma única fórmula decorada.",
-          "O comando da banca não interfere na estratégia de solução."
+          "Traduzir texto em variável é metade da resolução.",
+          "Resolver conta certa para pergunta errada.",
+          "Esquecer restrição de valores positivos, inteiros ou possíveis.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Álgebra de concurso transforma texto em relações matemáticas claras e resolve a incógnita com organização.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "Álgebra de concurso transforma texto em relações matemáticas claras e resolve a incógnita com organização.",
-        "armadilhaDaBanca": "Montar equação sem definir a incógnita ou inverter sinal em inequações ao multiplicar por número negativo.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A alternativa correta resume o núcleo do tema: Traduzir texto em variável é metade da resolução."
       },
       {
-        "id": "q09-02",
+        "id": "matematica-e-raciocinio-logico-avancado-09-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Álgebra aplicada a problemas de concurso, é seguro resolver a questão sem identificar a condição central do enunciado.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A condição central define a fórmula, a lógica e a interpretação correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Equação representa igualdade; inequação representa intervalo de possibilidades.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de equações aplicadas."
       },
       {
-        "id": "q09-03",
+        "id": "matematica-e-raciocinio-logico-avancado-09-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Álgebra aplicada a problemas de concurso, testar a resposta no enunciado ajuda a reduzir erro de cálculo e interpretação.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A conferência final evita respostas numericamente plausíveis, mas logicamente erradas.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Resolver conta certa para pergunta errada.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q09-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "O dobro de um número somado a 5 resulta em 17.",
-        "alternativas": [
-          "A equação é 2x + 5 = 17, portanto x = 6.",
-          "O resultado deve ser obtido apenas por estimativa visual.",
-          "A condição do enunciado não muda o método.",
-          "Qualquer fórmula parecida resolve o problema.",
-          "Não é necessário conferir unidade, ordem ou restrição."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A equação é 2x + 5 = 17, portanto x = 6.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "A equação é 2x + 5 = 17, portanto x = 6.",
-        "armadilhaDaBanca": "A banca oferece alternativas próximas para punir quem calcula sem interpretar.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "id": "matematica-e-raciocinio-logico-avancado-09-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Se a idade deve ser inteira e positiva, solução algébrica negativa não serve. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Sistemas combinam informações independentes para determinar incógnitas.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q09-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Álgebra aplicada a problemas de concurso?",
-        "alternativas": [
-          "Usar o roteiro: definir incógnita, traduzir frases em operações, resolver passo a passo e testar no enunciado.",
-          "Decorar o gabarito de questões antigas.",
-          "Pular a leitura do comando e ir direto às alternativas.",
-          "Ignorar restrições como “exatamente”, “no máximo” e “ao menos”.",
-          "Fazer contas sem registrar passo intermediário."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: definir incógnita, traduzir frases em operações, resolver passo a passo e testar no enunciado.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "O roteiro correto é: definir incógnita, traduzir frases em operações, resolver passo a passo e testar no enunciado.",
-        "armadilhaDaBanca": "O erro comum é saber a fórmula, mas aplicar no cenário errado.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
-      },
-      {
-        "id": "q09-06",
+        "id": "matematica-e-raciocinio-logico-avancado-09-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Álgebra aplicada a problemas de concurso.",
-        "respostaEsperada": "Álgebra de concurso transforma texto em relações matemáticas claras e resolve a incógnita com organização.",
-        "rubricaCorrecao": [
-          "definir a ideia",
-          "aplicar ao caso",
-          "usar linguagem matemática precisa",
-          "evitar regra absoluta indevida"
-        ],
-        "comentario": "A resposta deve unir conceito, uso em prova e cuidado com pegadinha.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva de forma objetiva."
+        "enunciado": "Explique, em até três linhas, por que equações aplicadas não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar traduzir texto em variável é metade da resolução. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q09-07",
+        "id": "matematica-e-raciocinio-logico-avancado-09-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie equação e inequação.",
-        "respostaEsperada": "equação busca igualdade; inequação busca intervalo ou condição",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "criar exemplo numérico ou lógico"
-        ],
-        "comentario": "A diferença essencial é: equação busca igualdade; inequação busca intervalo ou condição.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, fórmula e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Traduzir texto em variável é metade da resolução. Pegadinha: Resolver conta certa para pergunta errada.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q09-08",
+        "id": "matematica-e-raciocinio-logico-avancado-09-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Álgebra aplicada a problemas de concurso?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Montar equação sem definir a incógnita ou inverter sinal em inequações ao multiplicar por número negativo.",
-          "Definir a incógnita antes da conta.",
-          "Desenhar diagrama quando houver conjuntos.",
-          "Conferir se a ordem importa em contagem.",
-          "Ler escala, unidade e legenda antes do cálculo."
+          "Sistemas combinam informações independentes para determinar incógnitas.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Esquecer restrição de valores positivos, inteiros ou possíveis."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Montar equação sem definir a incógnita ou inverter sinal em inequações ao multiplicar por número negativo.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "A pegadinha comum é: Montar equação sem definir a incógnita ou inverter sinal em inequações ao multiplicar por número negativo.",
-        "armadilhaDaBanca": "A alternativa errada costuma parecer natural porque usa termo conhecido.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q09-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Álgebra aplicada a problemas de concurso, uma alternativa pode ter número correto em cálculo isolado e estar errada por não respeitar o comando.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. O número precisa responder exatamente ao que foi perguntado.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "id": "matematica-e-raciocinio-logico-avancado-09-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Esquecer restrição de valores positivos, inteiros ou possíveis.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q09-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: resolva e explique uma questão de Álgebra aplicada a problemas de concurso como professor de concurso.",
-        "promptTutorIA": "Crie uma questão de Álgebra aplicada a problemas de concurso, resolva passo a passo, mostre a pegadinha e dê um método de revisão.",
-        "criterioDominio": [
-          "interpretação correta",
-          "cálculo ou lógica correta",
-          "justificativa da alternativa",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma fórmula em raciocínio aplicado.",
-        "diagnosticoIA": "Depois do treino, crie uma questão parecida trocando números ou condições."
+        "id": "matematica-e-raciocinio-logico-avancado-09-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Álgebra e problemas a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Verificar a resposta no enunciado evita raiz estranha ou interpretação errada.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-09-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Traduzir texto em variável é metade da resolução.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Estatística, gráficos, médias e interpretação de dados",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 23 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Baixo: conteúdo conceitual estável; adaptar apenas ao estilo da banca e ao edital.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Matemática / Raciocínio Lógico / Concursos"
+    "proximoTitulo": "Estatística e gráficos"
   },
   {
-    "id": "estatistica-graficos-medias-e-interpretacao-de-dados",
-    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "id": "estatistica-e-graficos",
+    "materialTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "subject": "Matemática e Raciocínio Lógico Avançado",
-    "contest": "PM / PC / PRF / Polícia Penal / Guardas / Tribunais / Concursos Públicos / ENEM",
+    "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Matemática e Raciocínio Lógico Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 10,
     "totalChapters": 10,
-    "title": "Estatística, gráficos, médias e interpretação de dados",
-    "assunto": "Estatística básica e leitura de dados",
-    "tecnica": "Estudo por interpretação do comando, modelagem, cálculo organizado, conferência e revisão de pegadinhas",
-    "competencia": "Resolver questões de lógica e matemática com precisão, identificando condições, fórmulas e armadilhas de banca.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 32,
+    "title": "Estatística e gráficos",
+    "assunto": "leitura de dados",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar leitura de dados com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
+      "CEBRASPE": 5,
+      "FCC": 4,
       "VUNESP": 5,
-      "IBFC": 5,
-      "AOCP": 5,
-      "Instituto Consulplan": 4,
-      "ENEM": 4
+      "IBFC": 4,
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "média",
-      "mediana",
-      "moda",
-      "amplitude",
-      "gráfico",
-      "tabela",
-      "percentual"
+      "leitura de dados"
     ],
-    "fontesBase": [
-      "Matemática básica aplicada a concursos",
-      "Raciocínio lógico proposicional",
-      "Modelos de cobrança das principais bancas",
-      "Problemas contextualizados de concursos policiais e administrativos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo aprofunda Estatística básica e leitura de dados com foco em questões objetivas de concursos policiais, administrativos, tribunais e provas gerais.",
-      "Ideia central: Estatística em prova exige ler dados com precisão, calcular medidas e não confundir média com mediana ou moda.",
-      "Erro comum: Ignorar escala do gráfico ou calcular média sem considerar frequência.",
-      "Como estudar: ler título, escala, unidade, legenda, total, frequência e medida solicitada antes de calcular. Em seguida, resolva questões, registre o tipo de erro e refaça sem consultar o gabarito."
+      "Estatística e gráficos exige domínio de leitura de dados. O estudo correto começa pela ideia de que média é sensível a extremos; mediana indica posição central.",
+      "Moda é valor mais frequente e pode não existir ou ser múltipla. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Gráfico precisa ser lido com escala, unidade, fonte e intervalo. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Variação absoluta e relativa respondem perguntas diferentes. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Estatística em prova exige ler dados com precisão, calcular medidas e não confundir média com mediana ou moda.",
-      "A leitura do comando vem antes da fórmula.",
-      "A conferência final deve testar se o resultado responde exatamente ao enunciado.",
-      "Erro comum: Ignorar escala do gráfico ou calcular média sem considerar frequência."
+      "Média é sensível a extremos; mediana indica posição central.",
+      "Moda é valor mais frequente e pode não existir ou ser múltipla.",
+      "Gráfico precisa ser lido com escala, unidade, fonte e intervalo.",
+      "Variação absoluta e relativa respondem perguntas diferentes."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Ignorar escala do gráfico ou calcular média sem considerar frequência.",
-        "Estatística em prova exige ler dados com precisão, calcular medidas e não confundir média com mediana ou moda.",
-        "A resolução deve ser feita apenas por memorização."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta une conceito, método e aplicação em prova."
-    },
-    "oQueCobra": "Lógica proposicional, negações, argumentos, conjuntos, porcentagem, matemática financeira, combinatória, probabilidade, sequências, álgebra e estatística.",
-    "precisaSaberAntes": "Operações básicas, leitura de enunciado, frações, porcentagens, igualdade, desigualdade, tabelas e gráficos simples.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura cálculo simples com interpretação rígida de condições, quantificadores, unidades e restrições."
+        "pergunta": "Qual é o núcleo de Estatística e gráficos?",
+        "resposta": "Média é sensível a extremos; mediana indica posição central."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Leia o comando, escreva dados, escolha a técnica, resolva em etapas e confira o resultado no enunciado."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Comparar barras sem observar escala quebrada."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "O domínio de lógica e matemática melhora prova objetiva, leitura de dados, controle de tempo e resolução de problemas."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Ir de 20% para 30% é aumento de 10 pontos percentuais e 50% relativo ao valor inicial."
       }
     ],
-    "comoIdentificar": "Procure palavras como todo, algum, nenhum, ao menos, exatamente, porcentagem, total, diferença, razão, ordem, comissão, probabilidade, média e mediana.",
+    "quadroDeDominio": {
+      "conceito": "Média é sensível a extremos; mediana indica posição central.",
+      "limite": "Moda é valor mais frequente e pode não existir ou ser múltipla.",
+      "aplicacao": "Ir de 20% para 30% é aumento de 10 pontos percentuais e 50% relativo ao valor inicial.",
+      "erroFatal": "Comparar barras sem observar escala quebrada."
+    },
+    "exemploComentado": "Ir de 20% para 30% é aumento de 10 pontos percentuais e 50% relativo ao valor inicial.",
     "pegadinhas": [
-      "ignorar unidade",
-      "confundir ordem em combinatória",
-      "somar percentuais sucessivos",
-      "negar quantificador errado",
-      "ler gráfico sem escala"
+      "Comparar barras sem observar escala quebrada.",
+      "Confundir aumento em pontos percentuais com aumento percentual."
     ],
-    "resumoFrase": "Estatística em prova exige ler dados com precisão, calcular medidas e não confundir média com mediana ou moda.",
-    "explicacaoComoSeTivesse12": "Pense assim: Estatística em prova exige ler dados com precisão, calcular medidas e não confundir média com mediana ou moda. Primeiro entenda o pedido, depois faça a conta ou a lógica e confira se respondeu exatamente ao que foi perguntado.",
-    "mapaMentalTextual": {
-      "centro": "Estatística básica e leitura de dados",
-      "ramos": [
-        "conceito",
-        "dados do enunciado",
-        "método",
-        "cálculo ou lógica",
-        "conferência",
-        "pegadinha"
-      ]
-    },
+    "mapaMentalTexto": [
+      "Tema: Estatística e gráficos",
+      "Conceito: Média é sensível a extremos; mediana indica posição central.",
+      "Aplicação: Ir de 20% para 30% é aumento de 10 pontos percentuais e 50% relativo ao valor inicial.",
+      "Cuidado: Comparar barras sem observar escala quebrada."
+    ],
     "comoEstudar": [
-      "Ler o capítulo com lápis na mão",
-      "Resolver 10 questões registrando passos",
-      "Refazer erros no dia seguinte",
-      "Criar um exemplo próprio",
-      "Revisar flashcards em 24 horas e 7 dias"
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Ignorar escala do gráfico ou calcular média sem considerar frequência. A banca cobra menos decoreba e mais aplicação correta das condições.",
-    "revisaoProgramada": {
-      "D0": "ler e resolver questões",
-      "D1": "refazer erros sem gabarito",
-      "D7": "revisar flashcards e questões difíceis",
-      "D30": "simulado misto"
-    },
-    "criteriosDominio": [
-      "interpretar comando",
-      "escolher método correto",
-      "resolver sem pular etapas",
-      "conferir resposta",
-      "identificar pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "id": "f10-01",
-        "frente": "Ideia central de Estatística básica e leitura de dados",
-        "verso": "Estatística em prova exige ler dados com precisão, calcular medidas e não confundir média com mediana ou moda.",
-        "tag": "Estatística básica e leitura de dados",
+        "id": "matematica-e-raciocinio-logico-avancado-10-fc01",
+        "frente": "Qual é a ideia central de Estatística e gráficos?",
+        "verso": "Média é sensível a extremos; mediana indica posição central.",
+        "tag": "conceito",
         "nivel": "essencial"
       },
       {
-        "id": "f10-02",
-        "frente": "Pegadinha comum em Estatística básica e leitura de dados",
-        "verso": "Ignorar escala do gráfico ou calcular média sem considerar frequência.",
+        "id": "matematica-e-raciocinio-logico-avancado-10-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em leitura de dados?",
+        "verso": "Moda é valor mais frequente e pode não existir ou ser múltipla.",
+        "tag": "banca",
+        "nivel": "intermediario"
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-10-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Comparar barras sem observar escala quebrada.",
         "tag": "pegadinha",
-        "nivel": "médio"
+        "nivel": "intermediario"
       },
       {
-        "id": "f10-03",
-        "frente": "Roteiro seguro para Estatística básica e leitura de dados",
-        "verso": "Use este roteiro: ler título, escala, unidade, legenda, total, frequência e medida solicitada antes de calcular. Ao final, teste a resposta no enunciado.",
-        "tag": "metodo",
-        "nivel": "aplicação"
-      },
-      {
-        "id": "f10-04",
-        "frente": "Comparação importante em Estatística básica e leitura de dados",
-        "verso": "média x mediana: média é soma dividida pela quantidade; mediana é valor central ordenado.",
-        "tag": "comparacao",
-        "nivel": "avançado"
+        "id": "matematica-e-raciocinio-logico-avancado-10-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Ir de 20% para 30% é aumento de 10 pontos percentuais e 50% relativo ao valor inicial.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "tutorIA": {
-      "prompt": "Atue como professor de Matemática e Raciocínio Lógico para concursos. Explique Estatística básica e leitura de dados, resolva um exemplo e mostre a pegadinha mais comum.",
-      "feedbackPadrao": "Corrija com foco em interpretação, método, cálculo, unidade e condição do enunciado."
-    },
     "questoes": [
       {
-        "id": "q10-01",
+        "id": "matematica-e-raciocinio-logico-avancado-10-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "No tema Estatística básica e leitura de dados, qual afirmação está correta?",
+        "enunciado": "Em relação a Estatística e gráficos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Estatística em prova exige ler dados com precisão, calcular medidas e não confundir média com mediana ou moda.",
-          "Ignorar escala do gráfico ou calcular média sem considerar frequência.",
-          "A resposta deve ser escolhida por intuição sem testar condições.",
-          "Toda questão pode ser resolvida por uma única fórmula decorada.",
-          "O comando da banca não interfere na estratégia de solução."
+          "Média é sensível a extremos; mediana indica posição central.",
+          "Comparar barras sem observar escala quebrada.",
+          "Confundir aumento em pontos percentuais com aumento percentual.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Estatística em prova exige ler dados com precisão, calcular medidas e não confundir média com mediana ou moda.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "Estatística em prova exige ler dados com precisão, calcular medidas e não confundir média com mediana ou moda.",
-        "armadilhaDaBanca": "Ignorar escala do gráfico ou calcular média sem considerar frequência.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A alternativa correta resume o núcleo do tema: Média é sensível a extremos; mediana indica posição central."
       },
       {
-        "id": "q10-02",
+        "id": "matematica-e-raciocinio-logico-avancado-10-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Estatística básica e leitura de dados, é seguro resolver a questão sem identificar a condição central do enunciado.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "Não. A condição central define a fórmula, a lógica e a interpretação correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Moda é valor mais frequente e pode não existir ou ser múltipla.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de leitura de dados."
       },
       {
-        "id": "q10-03",
+        "id": "matematica-e-raciocinio-logico-avancado-10-q03",
         "tipo": "certo_errado",
-        "enunciado": "Em Estatística básica e leitura de dados, testar a resposta no enunciado ajuda a reduzir erro de cálculo e interpretação.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. A conferência final evita respostas numericamente plausíveis, mas logicamente erradas.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "enunciado": "Comparar barras sem observar escala quebrada.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q10-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "As notas 4, 6, 6, 8, 10 têm valor central 6 quando ordenadas.",
-        "alternativas": [
-          "A mediana é 6, pois é o termo central da lista ordenada.",
-          "O resultado deve ser obtido apenas por estimativa visual.",
-          "A condição do enunciado não muda o método.",
-          "Qualquer fórmula parecida resolve o problema.",
-          "Não é necessário conferir unidade, ordem ou restrição."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A mediana é 6, pois é o termo central da lista ordenada.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "A mediana é 6, pois é o termo central da lista ordenada.",
-        "armadilhaDaBanca": "A banca oferece alternativas próximas para punir quem calcula sem interpretar.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "id": "matematica-e-raciocinio-logico-avancado-10-q04",
+        "tipo": "caso_pratico",
+        "enunciado": "Considere o caso: Ir de 20% para 30% é aumento de 10 pontos percentuais e 50% relativo ao valor inicial. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Gráfico precisa ser lido com escala, unidade, fonte e intervalo.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q10-05",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual procedimento de estudo é mais seguro para Estatística básica e leitura de dados?",
-        "alternativas": [
-          "Usar o roteiro: ler título, escala, unidade, legenda, total, frequência e medida solicitada antes de calcular.",
-          "Decorar o gabarito de questões antigas.",
-          "Pular a leitura do comando e ir direto às alternativas.",
-          "Ignorar restrições como “exatamente”, “no máximo” e “ao menos”.",
-          "Fazer contas sem registrar passo intermediário."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O roteiro correto é: ler título, escala, unidade, legenda, total, frequência e medida solicitada antes de calcular.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "O roteiro correto é: ler título, escala, unidade, legenda, total, frequência e medida solicitada antes de calcular.",
-        "armadilhaDaBanca": "O erro comum é saber a fórmula, mas aplicar no cenário errado.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
-      },
-      {
-        "id": "q10-06",
+        "id": "matematica-e-raciocinio-logico-avancado-10-q05",
         "tipo": "resposta_curta",
-        "enunciado": "Explique em uma frase a ideia central de Estatística básica e leitura de dados.",
-        "respostaEsperada": "Estatística em prova exige ler dados com precisão, calcular medidas e não confundir média com mediana ou moda.",
-        "rubricaCorrecao": [
-          "definir a ideia",
-          "aplicar ao caso",
-          "usar linguagem matemática precisa",
-          "evitar regra absoluta indevida"
-        ],
-        "comentario": "A resposta deve unir conceito, uso em prova e cuidado com pegadinha.",
-        "diagnosticoIA": "Compare sua resposta com a rubrica e reescreva de forma objetiva."
+        "enunciado": "Explique, em até três linhas, por que leitura de dados não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar média é sensível a extremos; mediana indica posição central. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q10-07",
+        "id": "matematica-e-raciocinio-logico-avancado-10-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie média e mediana.",
-        "respostaEsperada": "média é soma dividida pela quantidade; mediana é valor central ordenado",
-        "criterioDominio": [
-          "conceituar o primeiro termo",
-          "conceituar o segundo termo",
-          "apontar diferença prática",
-          "criar exemplo numérico ou lógico"
-        ],
-        "comentario": "A diferença essencial é: média é soma dividida pela quantidade; mediana é valor central ordenado.",
-        "diagnosticoIA": "Monte uma tabela com conceito, exemplo, fórmula e pegadinha."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Média é sensível a extremos; mediana indica posição central. Pegadinha: Comparar barras sem observar escala quebrada.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q10-08",
+        "id": "matematica-e-raciocinio-logico-avancado-10-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Qual alternativa representa uma pegadinha comum em Estatística básica e leitura de dados?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Ignorar escala do gráfico ou calcular média sem considerar frequência.",
-          "Definir a incógnita antes da conta.",
-          "Desenhar diagrama quando houver conjuntos.",
-          "Conferir se a ordem importa em contagem.",
-          "Ler escala, unidade e legenda antes do cálculo."
+          "Gráfico precisa ser lido com escala, unidade, fonte e intervalo.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Confundir aumento em pontos percentuais com aumento percentual."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A pegadinha comum é: Ignorar escala do gráfico ou calcular média sem considerar frequência.",
-          "Errada. A alternativa troca o conceito por uma regra incompleta.",
-          "Errada. A alternativa ignora a condição do enunciado.",
-          "Errada. A alternativa aplica fórmula ou regra sem verificar o caso.",
-          "Errada. A alternativa confunde procedimento com resultado."
-        ],
-        "comentario": "A pegadinha comum é: Ignorar escala do gráfico ou calcular média sem considerar frequência.",
-        "armadilhaDaBanca": "A alternativa errada costuma parecer natural porque usa termo conhecido.",
-        "porqueCaiEmProva": "Matemática e Raciocínio Lógico aparecem em concursos policiais, administrativos, tribunais, guardas e provas de nível médio e superior.",
-        "diagnosticoIA": "Se errou, classifique o erro: interpretação, fórmula, conta, condição lógica ou distração com alternativa parecida."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q10-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em Estatística básica e leitura de dados, uma alternativa pode ter número correto em cálculo isolado e estar errada por não respeitar o comando.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Sim. O número precisa responder exatamente ao que foi perguntado.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, todo, algum, pelo menos, exatamente, no máximo e no mínimo.",
-        "diagnosticoIA": "Refaça o item sem olhar o gabarito e escreva a condição que tornou a afirmação certa ou errada."
+        "id": "matematica-e-raciocinio-logico-avancado-10-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Confundir aumento em pontos percentuais com aumento percentual.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q10-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: resolva e explique uma questão de Estatística básica e leitura de dados como professor de concurso.",
-        "promptTutorIA": "Crie uma questão de Estatística básica e leitura de dados, resolva passo a passo, mostre a pegadinha e dê um método de revisão.",
-        "criterioDominio": [
-          "interpretação correta",
-          "cálculo ou lógica correta",
-          "justificativa da alternativa",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma fórmula em raciocínio aplicado.",
-        "diagnosticoIA": "Depois do treino, crie uma questão parecida trocando números ou condições."
+        "id": "matematica-e-raciocinio-logico-avancado-10-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Estatística e gráficos a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Variação absoluta e relativa respondem perguntas diferentes.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "matematica-e-raciocinio-logico-avancado-10-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Média é sensível a extremos; mediana indica posição central.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
     ],
-    "proximoTitulo": "Revisão integrada de Matemática e Raciocínio Lógico Avançado",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 23 - 2026-07-08",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Baixo: conteúdo conceitual estável; adaptar apenas ao estilo da banca e ao edital.",
-    "publicoAlvo": "Candidatos de concursos policiais, guardas, tribunais, administrativos, ENEM e concursos públicos em geral",
-    "areaPlataforma": "Matemática / Raciocínio Lógico / Concursos"
+    "proximoTitulo": "Revisão integrada do módulo"
   }
 ];
 

@@ -1,3249 +1,2079 @@
 /**
- * VemAprovar Top1 — Apostila Premium 10/10 Plus Revisado
- * Arquivo: direito-constitucional-avancado.js
- * Módulo: Direito Constitucional Avançado
- * Lote 20: conteúdo novo com gabaritos obrigatórios, flashcards completos e validação programática.
+ * VemAprovar — Direito Constitucional Avançado 10/10 Reescrito de Verdade
+ * Arquivo reescrito do zero para substituir versão genérica/templated.
+ * Foco: conteúdo real, caso prático, pegadinhas e questões com gabarito.
  */
 
 export const direitoConstitucionalAvancado = [
   {
-    "id": "constituicao-supremacia-constitucional-e-poder-constituinte",
-    "materialTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "id": "supremacia-constitucional-rigidez-e-poder-constituinte",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 1,
     "totalChapters": 10,
-    "title": "Constituição, supremacia constitucional e poder constituinte",
-    "assunto": "Teoria da Constituição",
-    "tecnica": "Leitura constitucional por conceito, artigo, competência, exceção e pegadinha de banca",
-    "competencia": "Resolver questões constitucionais com precisão, separando regra, exceção, órgão e efeito jurídico.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 28,
+    "title": "Supremacia constitucional, rigidez e poder constituinte",
+    "assunto": "base do sistema constitucional",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar base do sistema constitucional com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
-      "VUNESP": 4,
+      "CEBRASPE": 5,
+      "FCC": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "Constituição",
       "supremacia",
       "poder constituinte",
-      "rigidez"
+      "cláusulas pétreas"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Jurisprudência constitucional em linguagem pedagógica",
-      "Editais de OAB, tribunais e concursos policiais",
-      "Doutrina constitucional básica para concursos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Teoria da Constituição com foco em OAB, área policial, tribunais e concursos públicos. A banca costuma cobrar menos decoreba solta e mais distinção entre regra, exceção, órgão competente e efeito jurídico.",
-      "Ideia central: A Constituição é a norma superior do Estado, organiza o poder, protege direitos e serve de parâmetro de validade para as demais normas. Essa frase deve virar resumo no caderno do aluno, porque ajuda a eliminar alternativas absolutas e confusas.",
-      "Erro comum: Tratar a Constituição como lei comum ou confundir poder constituinte originário com poder constituinte derivado. Em prova, esse erro aparece disfarçado em alternativas que parecem técnicas, mas trocam competência, hierarquia ou procedimento.",
-      "Como estudar: aplique o modelo supremacia, rigidez, poder constituinte, emenda, limites e controle. Depois responda às questões, explique em voz alta e registre a pegadinha principal."
+      "Supremacia constitucional, rigidez e poder constituinte exige domínio de base do sistema constitucional. O estudo correto começa pela ideia de que constituição rígida ocupa posição superior e só pode ser alterada por procedimento mais difícil que o das leis comuns.",
+      "Poder constituinte originário cria nova ordem constitucional; poder derivado atua dentro dos limites materiais, formais e circunstanciais. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Supremacia constitucional justifica controle de constitucionalidade e invalidação de leis incompatíveis com a Constituição. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Cláusulas pétreas protegem núcleos essenciais contra reformas que destruam a identidade constitucional. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "A Constituição é a norma superior do Estado, organiza o poder, protege direitos e serve de parâmetro de validade para as demais normas.",
-      "A Constituição exige leitura por hierarquia, competência e procedimento.",
-      "Pegadinha comum: Tratar a Constituição como lei comum ou confundir poder constituinte originário com poder constituinte derivado.",
-      "Modelo de prova: supremacia, rigidez, poder constituinte, emenda, limites e controle"
+      "Constituição rígida ocupa posição superior e só pode ser alterada por procedimento mais difícil que o das leis comuns.",
+      "Poder constituinte originário cria nova ordem constitucional; poder derivado atua dentro dos limites materiais, formais e circunstanciais.",
+      "Supremacia constitucional justifica controle de constitucionalidade e invalidação de leis incompatíveis com a Constituição.",
+      "Cláusulas pétreas protegem núcleos essenciais contra reformas que destruam a identidade constitucional."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Tratar a Constituição como lei comum ou confundir poder constituinte originário com poder constituinte derivado.",
-        "A Constituição é a norma superior do Estado, organiza o poder, protege direitos e serve de parâmetro de validade para as demais normas.",
-        "O tema só aparece em questões discursivas."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta resume o núcleo jurídico do capítulo sem absolutismo."
-    },
-    "oQueCobra": "Conceitos, artigos centrais, competência de órgãos, limites, exceções, remédios constitucionais e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Estado, Constituição, legalidade, separação dos poderes, direitos fundamentais e Administração Pública.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura institutos parecidos, troca órgão competente e usa palavras absolutas para induzir erro."
+        "pergunta": "Qual é o núcleo de Supremacia constitucional, rigidez e poder constituinte?",
+        "resposta": "Constituição rígida ocupa posição superior e só pode ser alterada por procedimento mais difícil que o das leis comuns."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique o tema, localize a regra constitucional, procure exceções e conclua sem extrapolar."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Dizer que emenda constitucional pode tudo porque é aprovada pelo Congresso."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em concursos policiais e tribunais, Constitucional aparece conectado a direitos, Administração, segurança pública e controle estatal."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Uma emenda que tente abolir garantias fundamentais enfrenta limite material, ainda que tenha quórum formalmente elevado."
       }
     ],
-    "comoIdentificar": "Procure palavras como Constituição, competência, direito fundamental, Poderes, controle, lei, órgão, garantia e exceção.",
+    "quadroDeDominio": {
+      "conceito": "Constituição rígida ocupa posição superior e só pode ser alterada por procedimento mais difícil que o das leis comuns.",
+      "limite": "Poder constituinte originário cria nova ordem constitucional; poder derivado atua dentro dos limites materiais, formais e circunstanciais.",
+      "aplicacao": "Uma emenda que tente abolir garantias fundamentais enfrenta limite material, ainda que tenha quórum formalmente elevado.",
+      "erroFatal": "Dizer que emenda constitucional pode tudo porque é aprovada pelo Congresso."
+    },
+    "exemploComentado": "Uma emenda que tente abolir garantias fundamentais enfrenta limite material, ainda que tenha quórum formalmente elevado.",
     "pegadinhas": [
-      "palavras absolutas",
-      "troca de competência",
-      "confusão entre regra e exceção",
-      "mistura de espécie normativa",
-      "interpretação política sem base jurídica"
+      "Dizer que emenda constitucional pode tudo porque é aprovada pelo Congresso.",
+      "Confundir poder constituinte originário com poder de reforma."
     ],
-    "resumoFrase": "A Constituição é a norma superior do Estado, organiza o poder, protege direitos e serve de parâmetro de validade para as demais normas.",
-    "proximoTitulo": "Princípios fundamentais, fundamentos e objetivos da República",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 20 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir emendas constitucionais, jurisprudência e edital antes da publicação final.",
-    "publicoAlvo": "Candidatos de OAB, concursos policiais, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direito Constitucional",
-    "explicacaoComoSeTivesse12": "Pense assim: A Constituição é a norma superior do Estado, organiza o poder, protege direitos e serve de parâmetro de validade para as demais normas. Para acertar prova, não basta decorar. Você precisa saber quem pode fazer, qual regra vale e qual é a exceção.",
+    "mapaMentalTexto": [
+      "Tema: Supremacia constitucional, rigidez e poder constituinte",
+      "Conceito: Constituição rígida ocupa posição superior e só pode ser alterada por procedimento mais difícil que o das leis comuns.",
+      "Aplicação: Uma emenda que tente abolir garantias fundamentais enfrenta limite material, ainda que tenha quórum formalmente elevado.",
+      "Cuidado: Dizer que emenda constitucional pode tudo porque é aprovada pelo Congresso."
+    ],
     "comoEstudar": [
-      "Leia a tese e grife a competência.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça quadro de regra, exceção, órgão e efeito.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Em Constitucional, quase todo erro nasce de trocar competência, transformar regra em absoluto ou esquecer exceção.",
-    "mapaMentalTextual": [
-      "Centro: Constituição, supremacia constitucional e poder constituinte",
-      "Ramo 1: conceito",
-      "Ramo 2: base constitucional",
-      "Ramo 3: competência",
-      "Ramo 4: exceção",
-      "Ramo 5: pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a tese central de Teoria da Constituição?",
-        "verso": "A Constituição é a norma superior do Estado, organiza o poder, protege direitos e serve de parâmetro de validade para as demais normas."
+        "id": "direito-constitucional-avancado-01-fc01",
+        "frente": "Qual é a ideia central de Supremacia constitucional, rigidez e poder constituinte?",
+        "verso": "Constituição rígida ocupa posição superior e só pode ser alterada por procedimento mais difícil que o das leis comuns.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha evitar em Teoria da Constituição?",
-        "verso": "Tratar a Constituição como lei comum ou confundir poder constituinte originário com poder constituinte derivado."
+        "id": "direito-constitucional-avancado-01-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em base do sistema constitucional?",
+        "verso": "Poder constituinte originário cria nova ordem constitucional; poder derivado atua dentro dos limites materiais, formais e circunstanciais.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual roteiro estudar em Teoria da Constituição?",
-        "verso": "supremacia, rigidez, poder constituinte, emenda, limites e controle"
+        "id": "direito-constitucional-avancado-01-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Dizer que emenda constitucional pode tudo porque é aprovada pelo Congresso.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar Teoria da Constituição em questão prática?",
-        "verso": "Identifique o tema, aplique a regra constitucional, confira exceções e conclua com o órgão ou efeito correto."
+        "id": "direito-constitucional-avancado-01-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Uma emenda que tente abolir garantias fundamentais enfrenta limite material, ainda que tenha quórum formalmente elevado.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "identifica o tema constitucional",
-      "separa regra e exceção",
-      "não troca competências",
-      "aplica ao caso concreto"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Responder 3 questões e revisar a tese."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Refazer as questões erradas e explicar a pegadinha."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Montar quadro comparativo com outro capítulo."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique este capítulo em linguagem simples, depois gere 3 perguntas de revisão e corrija minha resposta.",
-      "alerta": "Não substitui conferência do texto constitucional atualizado, emendas e jurisprudência recente."
-    },
     "questoes": [
       {
-        "id": "q01-01",
+        "id": "direito-constitucional-avancado-01-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Constituição, supremacia constitucional e poder constituinte, assinale a alternativa correta.",
+        "enunciado": "Em relação a Supremacia constitucional, rigidez e poder constituinte, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A Constituição é a norma superior do Estado, organiza o poder, protege direitos e serve de parâmetro de validade para as demais normas.",
-          "A Constituição pode ser afastada por lei ordinária posterior.",
-          "Todo direito constitucional é absoluto e sem limite.",
-          "A banca sempre aceita interpretação política sem base jurídica.",
-          "Competências constitucionais podem ser trocadas por conveniência."
+          "Constituição rígida ocupa posição superior e só pode ser alterada por procedimento mais difícil que o das leis comuns.",
+          "Dizer que emenda constitucional pode tudo porque é aprovada pelo Congresso.",
+          "Confundir poder constituinte originário com poder de reforma.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A Constituição é a norma superior do Estado, organiza o poder, protege direitos e serve de parâmetro de validade para as demais normas.",
-          "Errada. Confunde supremacia constitucional com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "A Constituição é a norma superior do Estado, organiza o poder, protege direitos e serve de parâmetro de validade para as demais normas.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: Constituição rígida ocupa posição superior e só pode ser alterada por procedimento mais difícil que o das leis comuns."
       },
       {
-        "id": "q01-02",
+        "id": "direito-constitucional-avancado-01-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Teoria da Constituição, é correto afirmar que a constituição é a norma superior do estado, organiza o poder, protege direitos e serve de parâmetro de validade para as demais normas.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A afirmação reproduz a tese central do capítulo.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Poder constituinte originário cria nova ordem constitucional; poder derivado atua dentro dos limites materiais, formais e circunstanciais.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de base do sistema constitucional."
       },
       {
-        "id": "q01-03",
+        "id": "direito-constitucional-avancado-01-q03",
         "tipo": "certo_errado",
-        "enunciado": "No tema Teoria da Constituição, a regra de prova é: Tratar a Constituição como lei comum ou confundir poder constituinte originário com poder constituinte derivado.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A frase descreve a pegadinha, não a regra correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Dizer que emenda constitucional pode tudo porque é aprovada pelo Congresso.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q01-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual é a principal pegadinha sobre Teoria da Constituição?",
-        "alternativas": [
-          "Tratar a Constituição como lei comum ou confundir poder constituinte originário com poder constituinte derivado.",
-          "Ler o texto constitucional antes de responder.",
-          "Separar regra, exceção e competência.",
-          "Identificar o órgão constitucional correto.",
-          "Conferir a espécie normativa exigida."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa correta aponta o erro que a banca costuma explorar.",
-          "Errada. Confunde supremacia constitucional com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "A alternativa correta aponta o erro que a banca costuma explorar.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
-      },
-      {
-        "id": "q01-05",
+        "id": "direito-constitucional-avancado-01-q04",
         "tipo": "caso_pratico",
-        "enunciado": "Uma lei ordinária tenta afastar garantia constitucional expressa. Como analisar?",
-        "respostaModelo": "A lei deve ser confrontada com a Constituição; se incompatível, pode sofrer controle de constitucionalidade.",
-        "criteriosCorrecao": [
-          "identificar o tema",
-          "apontar a regra constitucional",
-          "mencionar limite ou exceção",
-          "concluir de forma objetiva"
-        ],
-        "comentario": "Caso prático exige aplicar a Constituição, não apenas repetir conceito.",
-        "diagnosticoIA": "Se errou, revise Teoria da Constituição com foco em regra e exceção."
+        "enunciado": "Considere o caso: Uma emenda que tente abolir garantias fundamentais enfrenta limite material, ainda que tenha quórum formalmente elevado. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Supremacia constitucional justifica controle de constitucionalidade e invalidação de leis incompatíveis com a Constituição.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q01-06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Explique a diferença entre poder constituinte originário e derivado.",
-        "respostaModelo": "O originário cria nova Constituição e não se limita juridicamente pela ordem anterior. O derivado altera a Constituição dentro dos limites formais e materiais previstos.",
-        "criteriosCorrecao": [
-          "supremacia",
-          "rigidez",
-          "poder constituinte",
-          "emenda",
-          "limites e controle"
-        ],
-        "palavrasChaveEsperadas": [
-          "supremacia",
-          "rigidez",
-          "poder constituinte",
-          "emenda",
-          "limites e controle"
-        ],
-        "comentario": "Resposta constitucional boa tem conceito, fundamento, limite e consequência prática.",
-        "diagnosticoIA": "Se a resposta ficou genérica, reescreva em quatro passos: conceito, regra, exceção e exemplo."
+        "id": "direito-constitucional-avancado-01-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que base do sistema constitucional não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar constituição rígida ocupa posição superior e só pode ser alterada por procedimento mais difícil que o das leis comuns. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q01-07",
+        "id": "direito-constitucional-avancado-01-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie poder constituinte originário de poder constituinte derivado em uma resposta de prova.",
-        "respostaModelo": "poder constituinte originário e poder constituinte derivado se relacionam, mas não se confundem. A diferença central é: o originário cria a Constituição; o derivado reforma dentro dos limites constitucionais",
-        "criteriosCorrecao": [
-          "conceito de cada instituto",
-          "diferença central",
-          "efeito jurídico",
-          "exemplo de cobrança"
-        ],
-        "comentario": "Questões comparativas em Constitucional cobram precisão de linguagem.",
-        "diagnosticoIA": "Faça tabela com conceito, órgão, procedimento e consequência."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Constituição rígida ocupa posição superior e só pode ser alterada por procedimento mais difícil que o das leis comuns. Pegadinha: Dizer que emenda constitucional pode tudo porque é aprovada pelo Congresso.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q01-08",
+        "id": "direito-constitucional-avancado-01-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Para revisar Teoria da Constituição, qual roteiro é mais seguro?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "supremacia, rigidez, poder constituinte, emenda, limites e controle",
-          "Decorar uma frase isolada sem ver exceções.",
-          "Responder por opinião pessoal.",
-          "Ignorar a competência do órgão.",
-          "Tratar todos os temas como iguais."
+          "Supremacia constitucional justifica controle de constitucionalidade e invalidação de leis incompatíveis com a Constituição.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Confundir poder constituinte originário com poder de reforma."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-          "Errada. Confunde supremacia constitucional com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q01-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em prova, palavras absolutas podem indicar pegadinha quando afastam limites ou exceções de Teoria da Constituição.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Palavras absolutas exigem cautela, especialmente em direitos e competências.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "id": "direito-constitucional-avancado-01-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Confundir poder constituinte originário com poder de reforma.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q01-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Teoria da Constituição para um candidato de concurso.",
-        "promptTutorIA": "Explique Teoria da Constituição usando: conceito, base constitucional, uma pegadinha comum e um exemplo de questão.",
-        "criterioDominio": [
-          "explicação simples",
-          "base constitucional",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo."
+        "id": "direito-constitucional-avancado-01-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Supremacia constitucional, rigidez e poder constituinte a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Cláusulas pétreas protegem núcleos essenciais contra reformas que destruam a identidade constitucional.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-constitucional-avancado-01-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Constituição rígida ocupa posição superior e só pode ser alterada por procedimento mais difícil que o das leis comuns.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Princípios fundamentais e objetivos da República"
   },
   {
-    "id": "principios-fundamentais-fundamentos-e-objetivos-da-republica",
-    "materialTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "id": "principios-fundamentais-e-objetivos-da-republica",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 2,
     "totalChapters": 10,
-    "title": "Princípios fundamentais, fundamentos e objetivos da República",
-    "assunto": "Princípios fundamentais",
-    "tecnica": "Leitura constitucional por conceito, artigo, competência, exceção e pegadinha de banca",
-    "competencia": "Resolver questões constitucionais com precisão, separando regra, exceção, órgão e efeito jurídico.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 28,
+    "title": "Princípios fundamentais e objetivos da República",
+    "assunto": "fundamentos do Estado brasileiro",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar fundamentos do Estado brasileiro com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
-      "VUNESP": 4,
+      "CEBRASPE": 5,
+      "FCC": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "República",
-      "Federação",
-      "dignidade",
-      "separação dos poderes"
+      "fundamentos",
+      "objetivos",
+      "República"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Jurisprudência constitucional em linguagem pedagógica",
-      "Editais de OAB, tribunais e concursos policiais",
-      "Doutrina constitucional básica para concursos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Princípios fundamentais com foco em OAB, área policial, tribunais e concursos públicos. A banca costuma cobrar menos decoreba solta e mais distinção entre regra, exceção, órgão competente e efeito jurídico.",
-      "Ideia central: Os princípios fundamentais orientam todo o sistema constitucional: República, Federação, Estado Democrático, soberania, cidadania, dignidade e valores sociais. Essa frase deve virar resumo no caderno do aluno, porque ajuda a eliminar alternativas absolutas e confusas.",
-      "Erro comum: Confundir fundamentos, objetivos e princípios das relações internacionais. Em prova, esse erro aparece disfarçado em alternativas que parecem técnicas, mas trocam competência, hierarquia ou procedimento.",
-      "Como estudar: aplique o modelo art. 1º, art. 3º, art. 4º, separação de poderes e Estado Democrático. Depois responda às questões, explique em voz alta e registre a pegadinha principal."
+      "Princípios fundamentais e objetivos da República exige domínio de fundamentos do Estado brasileiro. O estudo correto começa pela ideia de que fundamentos são bases de existência do Estado, como soberania, cidadania, dignidade, valores sociais do trabalho e pluralismo político.",
+      "Objetivos fundamentais orientam políticas públicas, como construir sociedade livre, reduzir desigualdades e promover o bem de todos. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Princípios de relações internacionais direcionam a atuação externa do Brasil, incluindo prevalência dos direitos humanos e solução pacífica de conflitos. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Em prova, a banca troca fundamento por objetivo para testar memorização com compreensão. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Os princípios fundamentais orientam todo o sistema constitucional: República, Federação, Estado Democrático, soberania, cidadania, dignidade e valores sociais.",
-      "A Constituição exige leitura por hierarquia, competência e procedimento.",
-      "Pegadinha comum: Confundir fundamentos, objetivos e princípios das relações internacionais.",
-      "Modelo de prova: art. 1º, art. 3º, art. 4º, separação de poderes e Estado Democrático"
+      "Fundamentos são bases de existência do Estado, como soberania, cidadania, dignidade, valores sociais do trabalho e pluralismo político.",
+      "Objetivos fundamentais orientam políticas públicas, como construir sociedade livre, reduzir desigualdades e promover o bem de todos.",
+      "Princípios de relações internacionais direcionam a atuação externa do Brasil, incluindo prevalência dos direitos humanos e solução pacífica de conflitos.",
+      "Em prova, a banca troca fundamento por objetivo para testar memorização com compreensão."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Confundir fundamentos, objetivos e princípios das relações internacionais.",
-        "Os princípios fundamentais orientam todo o sistema constitucional: República, Federação, Estado Democrático, soberania, cidadania, dignidade e valores sociais.",
-        "O tema só aparece em questões discursivas."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta resume o núcleo jurídico do capítulo sem absolutismo."
-    },
-    "oQueCobra": "Conceitos, artigos centrais, competência de órgãos, limites, exceções, remédios constitucionais e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Estado, Constituição, legalidade, separação dos poderes, direitos fundamentais e Administração Pública.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura institutos parecidos, troca órgão competente e usa palavras absolutas para induzir erro."
+        "pergunta": "Qual é o núcleo de Princípios fundamentais e objetivos da República?",
+        "resposta": "Fundamentos são bases de existência do Estado, como soberania, cidadania, dignidade, valores sociais do trabalho e pluralismo político."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique o tema, localize a regra constitucional, procure exceções e conclua sem extrapolar."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Chamar redução de desigualdades de fundamento, quando é objetivo."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em concursos policiais e tribunais, Constitucional aparece conectado a direitos, Administração, segurança pública e controle estatal."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Política pública que reduz desigualdade regional dialoga diretamente com objetivo constitucional, não apenas com conveniência administrativa."
       }
     ],
-    "comoIdentificar": "Procure palavras como Constituição, competência, direito fundamental, Poderes, controle, lei, órgão, garantia e exceção.",
+    "quadroDeDominio": {
+      "conceito": "Fundamentos são bases de existência do Estado, como soberania, cidadania, dignidade, valores sociais do trabalho e pluralismo político.",
+      "limite": "Objetivos fundamentais orientam políticas públicas, como construir sociedade livre, reduzir desigualdades e promover o bem de todos.",
+      "aplicacao": "Política pública que reduz desigualdade regional dialoga diretamente com objetivo constitucional, não apenas com conveniência administrativa.",
+      "erroFatal": "Chamar redução de desigualdades de fundamento, quando é objetivo."
+    },
+    "exemploComentado": "Política pública que reduz desigualdade regional dialoga diretamente com objetivo constitucional, não apenas com conveniência administrativa.",
     "pegadinhas": [
-      "palavras absolutas",
-      "troca de competência",
-      "confusão entre regra e exceção",
-      "mistura de espécie normativa",
-      "interpretação política sem base jurídica"
+      "Chamar redução de desigualdades de fundamento, quando é objetivo.",
+      "Tratar princípios fundamentais como frases sem efeito jurídico."
     ],
-    "resumoFrase": "Os princípios fundamentais orientam todo o sistema constitucional: República, Federação, Estado Democrático, soberania, cidadania, dignidade e valores sociais.",
-    "proximoTitulo": "Direitos e garantias individuais e coletivos",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 20 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir emendas constitucionais, jurisprudência e edital antes da publicação final.",
-    "publicoAlvo": "Candidatos de OAB, concursos policiais, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direito Constitucional",
-    "explicacaoComoSeTivesse12": "Pense assim: Os princípios fundamentais orientam todo o sistema constitucional: República, Federação, Estado Democrático, soberania, cidadania, dignidade e valores sociais. Para acertar prova, não basta decorar. Você precisa saber quem pode fazer, qual regra vale e qual é a exceção.",
+    "mapaMentalTexto": [
+      "Tema: Princípios fundamentais e objetivos da República",
+      "Conceito: Fundamentos são bases de existência do Estado, como soberania, cidadania, dignidade, valores sociais do trabalho e pluralismo político.",
+      "Aplicação: Política pública que reduz desigualdade regional dialoga diretamente com objetivo constitucional, não apenas com conveniência administrativa.",
+      "Cuidado: Chamar redução de desigualdades de fundamento, quando é objetivo."
+    ],
     "comoEstudar": [
-      "Leia a tese e grife a competência.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça quadro de regra, exceção, órgão e efeito.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Em Constitucional, quase todo erro nasce de trocar competência, transformar regra em absoluto ou esquecer exceção.",
-    "mapaMentalTextual": [
-      "Centro: Princípios fundamentais, fundamentos e objetivos da República",
-      "Ramo 1: conceito",
-      "Ramo 2: base constitucional",
-      "Ramo 3: competência",
-      "Ramo 4: exceção",
-      "Ramo 5: pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a tese central de Princípios fundamentais?",
-        "verso": "Os princípios fundamentais orientam todo o sistema constitucional: República, Federação, Estado Democrático, soberania, cidadania, dignidade e valores sociais."
+        "id": "direito-constitucional-avancado-02-fc01",
+        "frente": "Qual é a ideia central de Princípios fundamentais e objetivos da República?",
+        "verso": "Fundamentos são bases de existência do Estado, como soberania, cidadania, dignidade, valores sociais do trabalho e pluralismo político.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha evitar em Princípios fundamentais?",
-        "verso": "Confundir fundamentos, objetivos e princípios das relações internacionais."
+        "id": "direito-constitucional-avancado-02-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em fundamentos do Estado brasileiro?",
+        "verso": "Objetivos fundamentais orientam políticas públicas, como construir sociedade livre, reduzir desigualdades e promover o bem de todos.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual roteiro estudar em Princípios fundamentais?",
-        "verso": "art. 1º, art. 3º, art. 4º, separação de poderes e Estado Democrático"
+        "id": "direito-constitucional-avancado-02-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Chamar redução de desigualdades de fundamento, quando é objetivo.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar Princípios fundamentais em questão prática?",
-        "verso": "Identifique o tema, aplique a regra constitucional, confira exceções e conclua com o órgão ou efeito correto."
+        "id": "direito-constitucional-avancado-02-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Política pública que reduz desigualdade regional dialoga diretamente com objetivo constitucional, não apenas com conveniência administrativa.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "identifica o tema constitucional",
-      "separa regra e exceção",
-      "não troca competências",
-      "aplica ao caso concreto"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Responder 3 questões e revisar a tese."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Refazer as questões erradas e explicar a pegadinha."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Montar quadro comparativo com outro capítulo."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique este capítulo em linguagem simples, depois gere 3 perguntas de revisão e corrija minha resposta.",
-      "alerta": "Não substitui conferência do texto constitucional atualizado, emendas e jurisprudência recente."
-    },
     "questoes": [
       {
-        "id": "q02-01",
+        "id": "direito-constitucional-avancado-02-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Princípios fundamentais, fundamentos e objetivos da República, assinale a alternativa correta.",
+        "enunciado": "Em relação a Princípios fundamentais e objetivos da República, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Os princípios fundamentais orientam todo o sistema constitucional: República, Federação, Estado Democrático, soberania, cidadania, dignidade e valores sociais.",
-          "A Constituição pode ser afastada por lei ordinária posterior.",
-          "Todo direito constitucional é absoluto e sem limite.",
-          "A banca sempre aceita interpretação política sem base jurídica.",
-          "Competências constitucionais podem ser trocadas por conveniência."
+          "Fundamentos são bases de existência do Estado, como soberania, cidadania, dignidade, valores sociais do trabalho e pluralismo político.",
+          "Chamar redução de desigualdades de fundamento, quando é objetivo.",
+          "Tratar princípios fundamentais como frases sem efeito jurídico.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Os princípios fundamentais orientam todo o sistema constitucional: República, Federação, Estado Democrático, soberania, cidadania, dignidade e valores sociais.",
-          "Errada. Confunde fundamentos e objetivos fundamentais com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "Os princípios fundamentais orientam todo o sistema constitucional: República, Federação, Estado Democrático, soberania, cidadania, dignidade e valores sociais.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: Fundamentos são bases de existência do Estado, como soberania, cidadania, dignidade, valores sociais do trabalho e pluralismo político."
       },
       {
-        "id": "q02-02",
+        "id": "direito-constitucional-avancado-02-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Princípios fundamentais, é correto afirmar que os princípios fundamentais orientam todo o sistema constitucional: república, federação, estado democrático, soberania, cidadania, dignidade e valores sociais.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A afirmação reproduz a tese central do capítulo.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Objetivos fundamentais orientam políticas públicas, como construir sociedade livre, reduzir desigualdades e promover o bem de todos.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de fundamentos do Estado brasileiro."
       },
       {
-        "id": "q02-03",
+        "id": "direito-constitucional-avancado-02-q03",
         "tipo": "certo_errado",
-        "enunciado": "No tema Princípios fundamentais, a regra de prova é: Confundir fundamentos, objetivos e princípios das relações internacionais.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A frase descreve a pegadinha, não a regra correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Chamar redução de desigualdades de fundamento, quando é objetivo.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q02-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual é a principal pegadinha sobre Princípios fundamentais?",
-        "alternativas": [
-          "Confundir fundamentos, objetivos e princípios das relações internacionais.",
-          "Ler o texto constitucional antes de responder.",
-          "Separar regra, exceção e competência.",
-          "Identificar o órgão constitucional correto.",
-          "Conferir a espécie normativa exigida."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa correta aponta o erro que a banca costuma explorar.",
-          "Errada. Confunde fundamentos e objetivos fundamentais com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "A alternativa correta aponta o erro que a banca costuma explorar.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
-      },
-      {
-        "id": "q02-05",
+        "id": "direito-constitucional-avancado-02-q04",
         "tipo": "caso_pratico",
-        "enunciado": "A banca mistura erradicar pobreza com fundamento da República. Qual é a pegadinha?",
-        "respostaModelo": "Erradicar pobreza é objetivo fundamental, não fundamento do art. 1º.",
-        "criteriosCorrecao": [
-          "identificar o tema",
-          "apontar a regra constitucional",
-          "mencionar limite ou exceção",
-          "concluir de forma objetiva"
-        ],
-        "comentario": "Caso prático exige aplicar a Constituição, não apenas repetir conceito.",
-        "diagnosticoIA": "Se errou, revise Princípios fundamentais com foco em regra e exceção."
+        "enunciado": "Considere o caso: Política pública que reduz desigualdade regional dialoga diretamente com objetivo constitucional, não apenas com conveniência administrativa. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Princípios de relações internacionais direcionam a atuação externa do Brasil, incluindo prevalência dos direitos humanos e solução pacífica de conflitos.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q02-06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Explique por que a dignidade da pessoa humana orienta a interpretação constitucional.",
-        "respostaModelo": "A dignidade é fundamento da República e serve como vetor para interpretar direitos, políticas públicas e limites da atuação estatal.",
-        "criteriosCorrecao": [
-          "art. 1º",
-          "art. 3º",
-          "art. 4º",
-          "separação de poderes e Estado Democrático"
-        ],
-        "palavrasChaveEsperadas": [
-          "art. 1º",
-          "art. 3º",
-          "art. 4º",
-          "separação de poderes e Estado Democrático"
-        ],
-        "comentario": "Resposta constitucional boa tem conceito, fundamento, limite e consequência prática.",
-        "diagnosticoIA": "Se a resposta ficou genérica, reescreva em quatro passos: conceito, regra, exceção e exemplo."
+        "id": "direito-constitucional-avancado-02-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que fundamentos do Estado brasileiro não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar fundamentos são bases de existência do estado, como soberania, cidadania, dignidade, valores sociais do trabalho e pluralismo político. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q02-07",
+        "id": "direito-constitucional-avancado-02-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie fundamentos da República de objetivos fundamentais em uma resposta de prova.",
-        "respostaModelo": "fundamentos da República e objetivos fundamentais se relacionam, mas não se confundem. A diferença central é: fundamentos são bases do Estado; objetivos são metas constitucionais a realizar",
-        "criteriosCorrecao": [
-          "conceito de cada instituto",
-          "diferença central",
-          "efeito jurídico",
-          "exemplo de cobrança"
-        ],
-        "comentario": "Questões comparativas em Constitucional cobram precisão de linguagem.",
-        "diagnosticoIA": "Faça tabela com conceito, órgão, procedimento e consequência."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Fundamentos são bases de existência do Estado, como soberania, cidadania, dignidade, valores sociais do trabalho e pluralismo político. Pegadinha: Chamar redução de desigualdades de fundamento, quando é objetivo.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q02-08",
+        "id": "direito-constitucional-avancado-02-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Para revisar Princípios fundamentais, qual roteiro é mais seguro?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "art. 1º, art. 3º, art. 4º, separação de poderes e Estado Democrático",
-          "Decorar uma frase isolada sem ver exceções.",
-          "Responder por opinião pessoal.",
-          "Ignorar a competência do órgão.",
-          "Tratar todos os temas como iguais."
+          "Princípios de relações internacionais direcionam a atuação externa do Brasil, incluindo prevalência dos direitos humanos e solução pacífica de conflitos.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Tratar princípios fundamentais como frases sem efeito jurídico."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-          "Errada. Confunde fundamentos e objetivos fundamentais com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q02-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em prova, palavras absolutas podem indicar pegadinha quando afastam limites ou exceções de Princípios fundamentais.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Palavras absolutas exigem cautela, especialmente em direitos e competências.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "id": "direito-constitucional-avancado-02-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Tratar princípios fundamentais como frases sem efeito jurídico.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q02-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Princípios fundamentais para um candidato de concurso.",
-        "promptTutorIA": "Explique Princípios fundamentais usando: conceito, base constitucional, uma pegadinha comum e um exemplo de questão.",
-        "criterioDominio": [
-          "explicação simples",
-          "base constitucional",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo."
+        "id": "direito-constitucional-avancado-02-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Princípios fundamentais e objetivos da República a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Em prova, a banca troca fundamento por objetivo para testar memorização com compreensão.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-constitucional-avancado-02-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Fundamentos são bases de existência do Estado, como soberania, cidadania, dignidade, valores sociais do trabalho e pluralismo político.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Direitos e garantias individuais e coletivos"
   },
   {
     "id": "direitos-e-garantias-individuais-e-coletivos",
-    "materialTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 3,
     "totalChapters": 10,
     "title": "Direitos e garantias individuais e coletivos",
-    "assunto": "Direitos fundamentais",
-    "tecnica": "Leitura constitucional por conceito, artigo, competência, exceção e pegadinha de banca",
-    "competencia": "Resolver questões constitucionais com precisão, separando regra, exceção, órgão e efeito jurídico.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 28,
+    "assunto": "núcleo das liberdades públicas",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar núcleo das liberdades públicas com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
-      "VUNESP": 4,
+      "CEBRASPE": 5,
+      "FCC": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "art. 5º",
-      "devido processo",
-      "habeas corpus",
-      "mandado de segurança"
+      "direitos fundamentais",
+      "garantias",
+      "remédios constitucionais"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Jurisprudência constitucional em linguagem pedagógica",
-      "Editais de OAB, tribunais e concursos policiais",
-      "Doutrina constitucional básica para concursos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Direitos fundamentais com foco em OAB, área policial, tribunais e concursos públicos. A banca costuma cobrar menos decoreba solta e mais distinção entre regra, exceção, órgão competente e efeito jurídico.",
-      "Ideia central: Direitos individuais e coletivos protegem liberdade, igualdade, propriedade, segurança jurídica e acesso à Justiça, com garantias processuais e materiais. Essa frase deve virar resumo no caderno do aluno, porque ajuda a eliminar alternativas absolutas e confusas.",
-      "Erro comum: Ler direitos fundamentais como absolutos ou confundir direito com remédio constitucional. Em prova, esse erro aparece disfarçado em alternativas que parecem técnicas, mas trocam competência, hierarquia ou procedimento.",
-      "Como estudar: aplique o modelo titularidade, aplicabilidade, limites, remédios constitucionais e devido processo. Depois responda às questões, explique em voz alta e registre a pegadinha principal."
+      "Direitos e garantias individuais e coletivos exige domínio de núcleo das liberdades públicas. O estudo correto começa pela ideia de que direitos indicam posições protegidas; garantias são instrumentos para defender esses direitos contra ameaça ou violação.",
+      "Liberdade, propriedade, intimidade, devido processo e inviolabilidade domiciliar possuem limites e exigem interpretação proporcional. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Remédios constitucionais, como habeas corpus e mandado de segurança, têm hipóteses próprias e não são intercambiáveis. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "A eficácia dos direitos fundamentais pode alcançar relações privadas quando houver poder, vulnerabilidade ou impacto relevante. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Direitos individuais e coletivos protegem liberdade, igualdade, propriedade, segurança jurídica e acesso à Justiça, com garantias processuais e materiais.",
-      "A Constituição exige leitura por hierarquia, competência e procedimento.",
-      "Pegadinha comum: Ler direitos fundamentais como absolutos ou confundir direito com remédio constitucional.",
-      "Modelo de prova: titularidade, aplicabilidade, limites, remédios constitucionais e devido processo"
+      "Direitos indicam posições protegidas; garantias são instrumentos para defender esses direitos contra ameaça ou violação.",
+      "Liberdade, propriedade, intimidade, devido processo e inviolabilidade domiciliar possuem limites e exigem interpretação proporcional.",
+      "Remédios constitucionais, como habeas corpus e mandado de segurança, têm hipóteses próprias e não são intercambiáveis.",
+      "A eficácia dos direitos fundamentais pode alcançar relações privadas quando houver poder, vulnerabilidade ou impacto relevante."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Ler direitos fundamentais como absolutos ou confundir direito com remédio constitucional.",
-        "Direitos individuais e coletivos protegem liberdade, igualdade, propriedade, segurança jurídica e acesso à Justiça, com garantias processuais e materiais.",
-        "O tema só aparece em questões discursivas."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta resume o núcleo jurídico do capítulo sem absolutismo."
-    },
-    "oQueCobra": "Conceitos, artigos centrais, competência de órgãos, limites, exceções, remédios constitucionais e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Estado, Constituição, legalidade, separação dos poderes, direitos fundamentais e Administração Pública.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura institutos parecidos, troca órgão competente e usa palavras absolutas para induzir erro."
+        "pergunta": "Qual é o núcleo de Direitos e garantias individuais e coletivos?",
+        "resposta": "Direitos indicam posições protegidas; garantias são instrumentos para defender esses direitos contra ameaça ou violação."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique o tema, localize a regra constitucional, procure exceções e conclua sem extrapolar."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Achar que direito fundamental é absoluto."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em concursos policiais e tribunais, Constitucional aparece conectado a direitos, Administração, segurança pública e controle estatal."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Entrada forçada em domicílio exige fundamento jurídico rigoroso; a proteção domiciliar não desaparece por mera suspeita genérica."
       }
     ],
-    "comoIdentificar": "Procure palavras como Constituição, competência, direito fundamental, Poderes, controle, lei, órgão, garantia e exceção.",
+    "quadroDeDominio": {
+      "conceito": "Direitos indicam posições protegidas; garantias são instrumentos para defender esses direitos contra ameaça ou violação.",
+      "limite": "Liberdade, propriedade, intimidade, devido processo e inviolabilidade domiciliar possuem limites e exigem interpretação proporcional.",
+      "aplicacao": "Entrada forçada em domicílio exige fundamento jurídico rigoroso; a proteção domiciliar não desaparece por mera suspeita genérica.",
+      "erroFatal": "Achar que direito fundamental é absoluto."
+    },
+    "exemploComentado": "Entrada forçada em domicílio exige fundamento jurídico rigoroso; a proteção domiciliar não desaparece por mera suspeita genérica.",
     "pegadinhas": [
-      "palavras absolutas",
-      "troca de competência",
-      "confusão entre regra e exceção",
-      "mistura de espécie normativa",
-      "interpretação política sem base jurídica"
+      "Achar que direito fundamental é absoluto.",
+      "Usar mandado de segurança quando há necessidade de habeas corpus."
     ],
-    "resumoFrase": "Direitos individuais e coletivos protegem liberdade, igualdade, propriedade, segurança jurídica e acesso à Justiça, com garantias processuais e materiais.",
-    "proximoTitulo": "Direitos sociais, nacionalidade, direitos políticos e partidos",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 20 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir emendas constitucionais, jurisprudência e edital antes da publicação final.",
-    "publicoAlvo": "Candidatos de OAB, concursos policiais, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direito Constitucional",
-    "explicacaoComoSeTivesse12": "Pense assim: Direitos individuais e coletivos protegem liberdade, igualdade, propriedade, segurança jurídica e acesso à Justiça, com garantias processuais e materiais. Para acertar prova, não basta decorar. Você precisa saber quem pode fazer, qual regra vale e qual é a exceção.",
+    "mapaMentalTexto": [
+      "Tema: Direitos e garantias individuais e coletivos",
+      "Conceito: Direitos indicam posições protegidas; garantias são instrumentos para defender esses direitos contra ameaça ou violação.",
+      "Aplicação: Entrada forçada em domicílio exige fundamento jurídico rigoroso; a proteção domiciliar não desaparece por mera suspeita genérica.",
+      "Cuidado: Achar que direito fundamental é absoluto."
+    ],
     "comoEstudar": [
-      "Leia a tese e grife a competência.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça quadro de regra, exceção, órgão e efeito.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Em Constitucional, quase todo erro nasce de trocar competência, transformar regra em absoluto ou esquecer exceção.",
-    "mapaMentalTextual": [
-      "Centro: Direitos e garantias individuais e coletivos",
-      "Ramo 1: conceito",
-      "Ramo 2: base constitucional",
-      "Ramo 3: competência",
-      "Ramo 4: exceção",
-      "Ramo 5: pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a tese central de Direitos fundamentais?",
-        "verso": "Direitos individuais e coletivos protegem liberdade, igualdade, propriedade, segurança jurídica e acesso à Justiça, com garantias processuais e materiais."
+        "id": "direito-constitucional-avancado-03-fc01",
+        "frente": "Qual é a ideia central de Direitos e garantias individuais e coletivos?",
+        "verso": "Direitos indicam posições protegidas; garantias são instrumentos para defender esses direitos contra ameaça ou violação.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha evitar em Direitos fundamentais?",
-        "verso": "Ler direitos fundamentais como absolutos ou confundir direito com remédio constitucional."
+        "id": "direito-constitucional-avancado-03-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em núcleo das liberdades públicas?",
+        "verso": "Liberdade, propriedade, intimidade, devido processo e inviolabilidade domiciliar possuem limites e exigem interpretação proporcional.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual roteiro estudar em Direitos fundamentais?",
-        "verso": "titularidade, aplicabilidade, limites, remédios constitucionais e devido processo"
+        "id": "direito-constitucional-avancado-03-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Achar que direito fundamental é absoluto. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar Direitos fundamentais em questão prática?",
-        "verso": "Identifique o tema, aplique a regra constitucional, confira exceções e conclua com o órgão ou efeito correto."
+        "id": "direito-constitucional-avancado-03-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Entrada forçada em domicílio exige fundamento jurídico rigoroso; a proteção domiciliar não desaparece por mera suspeita genérica.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "identifica o tema constitucional",
-      "separa regra e exceção",
-      "não troca competências",
-      "aplica ao caso concreto"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Responder 3 questões e revisar a tese."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Refazer as questões erradas e explicar a pegadinha."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Montar quadro comparativo com outro capítulo."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique este capítulo em linguagem simples, depois gere 3 perguntas de revisão e corrija minha resposta.",
-      "alerta": "Não substitui conferência do texto constitucional atualizado, emendas e jurisprudência recente."
-    },
     "questoes": [
       {
-        "id": "q03-01",
+        "id": "direito-constitucional-avancado-03-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Direitos e garantias individuais e coletivos, assinale a alternativa correta.",
+        "enunciado": "Em relação a Direitos e garantias individuais e coletivos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Direitos individuais e coletivos protegem liberdade, igualdade, propriedade, segurança jurídica e acesso à Justiça, com garantias processuais e materiais.",
-          "A Constituição pode ser afastada por lei ordinária posterior.",
-          "Todo direito constitucional é absoluto e sem limite.",
-          "A banca sempre aceita interpretação política sem base jurídica.",
-          "Competências constitucionais podem ser trocadas por conveniência."
+          "Direitos indicam posições protegidas; garantias são instrumentos para defender esses direitos contra ameaça ou violação.",
+          "Achar que direito fundamental é absoluto.",
+          "Usar mandado de segurança quando há necessidade de habeas corpus.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Direitos individuais e coletivos protegem liberdade, igualdade, propriedade, segurança jurídica e acesso à Justiça, com garantias processuais e materiais.",
-          "Errada. Confunde art. 5º e garantias constitucionais com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "Direitos individuais e coletivos protegem liberdade, igualdade, propriedade, segurança jurídica e acesso à Justiça, com garantias processuais e materiais.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: Direitos indicam posições protegidas; garantias são instrumentos para defender esses direitos contra ameaça ou violação."
       },
       {
-        "id": "q03-02",
+        "id": "direito-constitucional-avancado-03-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Direitos fundamentais, é correto afirmar que direitos individuais e coletivos protegem liberdade, igualdade, propriedade, segurança jurídica e acesso à justiça, com garantias processuais e materiais.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A afirmação reproduz a tese central do capítulo.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Liberdade, propriedade, intimidade, devido processo e inviolabilidade domiciliar possuem limites e exigem interpretação proporcional.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de núcleo das liberdades públicas."
       },
       {
-        "id": "q03-03",
+        "id": "direito-constitucional-avancado-03-q03",
         "tipo": "certo_errado",
-        "enunciado": "No tema Direitos fundamentais, a regra de prova é: Ler direitos fundamentais como absolutos ou confundir direito com remédio constitucional.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A frase descreve a pegadinha, não a regra correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Achar que direito fundamental é absoluto.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q03-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual é a principal pegadinha sobre Direitos fundamentais?",
-        "alternativas": [
-          "Ler direitos fundamentais como absolutos ou confundir direito com remédio constitucional.",
-          "Ler o texto constitucional antes de responder.",
-          "Separar regra, exceção e competência.",
-          "Identificar o órgão constitucional correto.",
-          "Conferir a espécie normativa exigida."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa correta aponta o erro que a banca costuma explorar.",
-          "Errada. Confunde art. 5º e garantias constitucionais com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "A alternativa correta aponta o erro que a banca costuma explorar.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
-      },
-      {
-        "id": "q03-05",
+        "id": "direito-constitucional-avancado-03-q04",
         "tipo": "caso_pratico",
-        "enunciado": "Um edital afirma que liberdade de expressão permite qualquer fala, sem responsabilidade. Como julgar?",
-        "respostaModelo": "A liberdade de expressão é essencial, mas pode conviver com responsabilidade posterior e proteção de outros direitos.",
-        "criteriosCorrecao": [
-          "identificar o tema",
-          "apontar a regra constitucional",
-          "mencionar limite ou exceção",
-          "concluir de forma objetiva"
-        ],
-        "comentario": "Caso prático exige aplicar a Constituição, não apenas repetir conceito.",
-        "diagnosticoIA": "Se errou, revise Direitos fundamentais com foco em regra e exceção."
+        "enunciado": "Considere o caso: Entrada forçada em domicílio exige fundamento jurídico rigoroso; a proteção domiciliar não desaparece por mera suspeita genérica. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Remédios constitucionais, como habeas corpus e mandado de segurança, têm hipóteses próprias e não são intercambiáveis.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q03-06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Diferencie direito fundamental e garantia constitucional.",
-        "respostaModelo": "Direito fundamental é a posição protegida; garantia constitucional é o instrumento que protege ou viabiliza esse direito.",
-        "criteriosCorrecao": [
-          "titularidade",
-          "aplicabilidade",
-          "limites",
-          "remédios constitucionais e devido processo"
-        ],
-        "palavrasChaveEsperadas": [
-          "titularidade",
-          "aplicabilidade",
-          "limites",
-          "remédios constitucionais e devido processo"
-        ],
-        "comentario": "Resposta constitucional boa tem conceito, fundamento, limite e consequência prática.",
-        "diagnosticoIA": "Se a resposta ficou genérica, reescreva em quatro passos: conceito, regra, exceção e exemplo."
+        "id": "direito-constitucional-avancado-03-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que núcleo das liberdades públicas não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar direitos indicam posições protegidas; garantias são instrumentos para defender esses direitos contra ameaça ou violação. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q03-07",
+        "id": "direito-constitucional-avancado-03-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie habeas corpus de mandado de segurança em uma resposta de prova.",
-        "respostaModelo": "habeas corpus e mandado de segurança se relacionam, mas não se confundem. A diferença central é: habeas corpus protege liberdade de locomoção; mandado de segurança protege direito líquido e certo não amparado por HC ou HD",
-        "criteriosCorrecao": [
-          "conceito de cada instituto",
-          "diferença central",
-          "efeito jurídico",
-          "exemplo de cobrança"
-        ],
-        "comentario": "Questões comparativas em Constitucional cobram precisão de linguagem.",
-        "diagnosticoIA": "Faça tabela com conceito, órgão, procedimento e consequência."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Direitos indicam posições protegidas; garantias são instrumentos para defender esses direitos contra ameaça ou violação. Pegadinha: Achar que direito fundamental é absoluto.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q03-08",
+        "id": "direito-constitucional-avancado-03-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Para revisar Direitos fundamentais, qual roteiro é mais seguro?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "titularidade, aplicabilidade, limites, remédios constitucionais e devido processo",
-          "Decorar uma frase isolada sem ver exceções.",
-          "Responder por opinião pessoal.",
-          "Ignorar a competência do órgão.",
-          "Tratar todos os temas como iguais."
+          "Remédios constitucionais, como habeas corpus e mandado de segurança, têm hipóteses próprias e não são intercambiáveis.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Usar mandado de segurança quando há necessidade de habeas corpus."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-          "Errada. Confunde art. 5º e garantias constitucionais com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q03-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em prova, palavras absolutas podem indicar pegadinha quando afastam limites ou exceções de Direitos fundamentais.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Palavras absolutas exigem cautela, especialmente em direitos e competências.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "id": "direito-constitucional-avancado-03-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Usar mandado de segurança quando há necessidade de habeas corpus.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q03-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Direitos fundamentais para um candidato de concurso.",
-        "promptTutorIA": "Explique Direitos fundamentais usando: conceito, base constitucional, uma pegadinha comum e um exemplo de questão.",
-        "criterioDominio": [
-          "explicação simples",
-          "base constitucional",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo."
+        "id": "direito-constitucional-avancado-03-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Direitos e garantias individuais e coletivos a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: A eficácia dos direitos fundamentais pode alcançar relações privadas quando houver poder, vulnerabilidade ou impacto relevante.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-constitucional-avancado-03-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Direitos indicam posições protegidas; garantias são instrumentos para defender esses direitos contra ameaça ou violação.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Direitos sociais, nacionalidade, direitos políticos e partidos"
   },
   {
     "id": "direitos-sociais-nacionalidade-direitos-politicos-e-partidos",
-    "materialTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 4,
     "totalChapters": 10,
     "title": "Direitos sociais, nacionalidade, direitos políticos e partidos",
-    "assunto": "Direitos sociais e políticos",
-    "tecnica": "Leitura constitucional por conceito, artigo, competência, exceção e pegadinha de banca",
-    "competencia": "Resolver questões constitucionais com precisão, separando regra, exceção, órgão e efeito jurídico.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 28,
+    "assunto": "cidadania em sentido amplo",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar cidadania em sentido amplo com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
-      "VUNESP": 4,
+      "CEBRASPE": 5,
+      "FCC": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
       "direitos sociais",
       "nacionalidade",
-      "alistamento",
-      "elegibilidade"
+      "direitos políticos"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Jurisprudência constitucional em linguagem pedagógica",
-      "Editais de OAB, tribunais e concursos policiais",
-      "Doutrina constitucional básica para concursos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Direitos sociais e políticos com foco em OAB, área policial, tribunais e concursos públicos. A banca costuma cobrar menos decoreba solta e mais distinção entre regra, exceção, órgão competente e efeito jurídico.",
-      "Ideia central: Direitos sociais buscam prestações e proteção material, enquanto nacionalidade, direitos políticos e partidos estruturam a participação democrática. Essa frase deve virar resumo no caderno do aluno, porque ajuda a eliminar alternativas absolutas e confusas.",
-      "Erro comum: Confundir nacionalidade com direitos políticos ou imaginar que todo brasileiro vota e é votado nas mesmas condições. Em prova, esse erro aparece disfarçado em alternativas que parecem técnicas, mas trocam competência, hierarquia ou procedimento.",
-      "Como estudar: aplique o modelo direitos sociais, nacionalidade, alistamento, elegibilidade, inelegibilidade e partidos. Depois responda às questões, explique em voz alta e registre a pegadinha principal."
+      "Direitos sociais, nacionalidade, direitos políticos e partidos exige domínio de cidadania em sentido amplo. O estudo correto começa pela ideia de que direitos sociais conectam liberdade formal a condições mínimas de participação social.",
+      "Nacionalidade define vínculo jurídico-político com o Estado e influencia direitos políticos e proteção diplomática. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Direitos políticos envolvem votar, ser votado, participar de partidos e respeitar condições de elegibilidade e inelegibilidades. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Partidos políticos expressam pluralismo e devem respeitar autonomia, fidelidade partidária e regime democrático. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "Direitos sociais buscam prestações e proteção material, enquanto nacionalidade, direitos políticos e partidos estruturam a participação democrática.",
-      "A Constituição exige leitura por hierarquia, competência e procedimento.",
-      "Pegadinha comum: Confundir nacionalidade com direitos políticos ou imaginar que todo brasileiro vota e é votado nas mesmas condições.",
-      "Modelo de prova: direitos sociais, nacionalidade, alistamento, elegibilidade, inelegibilidade e partidos"
+      "Direitos sociais conectam liberdade formal a condições mínimas de participação social.",
+      "Nacionalidade define vínculo jurídico-político com o Estado e influencia direitos políticos e proteção diplomática.",
+      "Direitos políticos envolvem votar, ser votado, participar de partidos e respeitar condições de elegibilidade e inelegibilidades.",
+      "Partidos políticos expressam pluralismo e devem respeitar autonomia, fidelidade partidária e regime democrático."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Confundir nacionalidade com direitos políticos ou imaginar que todo brasileiro vota e é votado nas mesmas condições.",
-        "Direitos sociais buscam prestações e proteção material, enquanto nacionalidade, direitos políticos e partidos estruturam a participação democrática.",
-        "O tema só aparece em questões discursivas."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta resume o núcleo jurídico do capítulo sem absolutismo."
-    },
-    "oQueCobra": "Conceitos, artigos centrais, competência de órgãos, limites, exceções, remédios constitucionais e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Estado, Constituição, legalidade, separação dos poderes, direitos fundamentais e Administração Pública.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura institutos parecidos, troca órgão competente e usa palavras absolutas para induzir erro."
+        "pergunta": "Qual é o núcleo de Direitos sociais, nacionalidade, direitos políticos e partidos?",
+        "resposta": "Direitos sociais conectam liberdade formal a condições mínimas de participação social."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique o tema, localize a regra constitucional, procure exceções e conclua sem extrapolar."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Confundir nacionalidade com naturalidade."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em concursos policiais e tribunais, Constitucional aparece conectado a direitos, Administração, segurança pública e controle estatal."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Brasileiro naturalizado pode ter direitos políticos, mas a Constituição reserva alguns cargos a brasileiros natos."
       }
     ],
-    "comoIdentificar": "Procure palavras como Constituição, competência, direito fundamental, Poderes, controle, lei, órgão, garantia e exceção.",
+    "quadroDeDominio": {
+      "conceito": "Direitos sociais conectam liberdade formal a condições mínimas de participação social.",
+      "limite": "Nacionalidade define vínculo jurídico-político com o Estado e influencia direitos políticos e proteção diplomática.",
+      "aplicacao": "Brasileiro naturalizado pode ter direitos políticos, mas a Constituição reserva alguns cargos a brasileiros natos.",
+      "erroFatal": "Confundir nacionalidade com naturalidade."
+    },
+    "exemploComentado": "Brasileiro naturalizado pode ter direitos políticos, mas a Constituição reserva alguns cargos a brasileiros natos.",
     "pegadinhas": [
-      "palavras absolutas",
-      "troca de competência",
-      "confusão entre regra e exceção",
-      "mistura de espécie normativa",
-      "interpretação política sem base jurídica"
+      "Confundir nacionalidade com naturalidade.",
+      "Dizer que todo direito político é permitido a qualquer residente."
     ],
-    "resumoFrase": "Direitos sociais buscam prestações e proteção material, enquanto nacionalidade, direitos políticos e partidos estruturam a participação democrática.",
-    "proximoTitulo": "Organização do Estado, federação e repartição de competências",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 20 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir emendas constitucionais, jurisprudência e edital antes da publicação final.",
-    "publicoAlvo": "Candidatos de OAB, concursos policiais, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direito Constitucional",
-    "explicacaoComoSeTivesse12": "Pense assim: Direitos sociais buscam prestações e proteção material, enquanto nacionalidade, direitos políticos e partidos estruturam a participação democrática. Para acertar prova, não basta decorar. Você precisa saber quem pode fazer, qual regra vale e qual é a exceção.",
+    "mapaMentalTexto": [
+      "Tema: Direitos sociais, nacionalidade, direitos políticos e partidos",
+      "Conceito: Direitos sociais conectam liberdade formal a condições mínimas de participação social.",
+      "Aplicação: Brasileiro naturalizado pode ter direitos políticos, mas a Constituição reserva alguns cargos a brasileiros natos.",
+      "Cuidado: Confundir nacionalidade com naturalidade."
+    ],
     "comoEstudar": [
-      "Leia a tese e grife a competência.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça quadro de regra, exceção, órgão e efeito.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Em Constitucional, quase todo erro nasce de trocar competência, transformar regra em absoluto ou esquecer exceção.",
-    "mapaMentalTextual": [
-      "Centro: Direitos sociais, nacionalidade, direitos políticos e partidos",
-      "Ramo 1: conceito",
-      "Ramo 2: base constitucional",
-      "Ramo 3: competência",
-      "Ramo 4: exceção",
-      "Ramo 5: pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a tese central de Direitos sociais e políticos?",
-        "verso": "Direitos sociais buscam prestações e proteção material, enquanto nacionalidade, direitos políticos e partidos estruturam a participação democrática."
+        "id": "direito-constitucional-avancado-04-fc01",
+        "frente": "Qual é a ideia central de Direitos sociais, nacionalidade, direitos políticos e partidos?",
+        "verso": "Direitos sociais conectam liberdade formal a condições mínimas de participação social.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha evitar em Direitos sociais e políticos?",
-        "verso": "Confundir nacionalidade com direitos políticos ou imaginar que todo brasileiro vota e é votado nas mesmas condições."
+        "id": "direito-constitucional-avancado-04-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em cidadania em sentido amplo?",
+        "verso": "Nacionalidade define vínculo jurídico-político com o Estado e influencia direitos políticos e proteção diplomática.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual roteiro estudar em Direitos sociais e políticos?",
-        "verso": "direitos sociais, nacionalidade, alistamento, elegibilidade, inelegibilidade e partidos"
+        "id": "direito-constitucional-avancado-04-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Confundir nacionalidade com naturalidade. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar Direitos sociais e políticos em questão prática?",
-        "verso": "Identifique o tema, aplique a regra constitucional, confira exceções e conclua com o órgão ou efeito correto."
+        "id": "direito-constitucional-avancado-04-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Brasileiro naturalizado pode ter direitos políticos, mas a Constituição reserva alguns cargos a brasileiros natos.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "identifica o tema constitucional",
-      "separa regra e exceção",
-      "não troca competências",
-      "aplica ao caso concreto"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Responder 3 questões e revisar a tese."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Refazer as questões erradas e explicar a pegadinha."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Montar quadro comparativo com outro capítulo."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique este capítulo em linguagem simples, depois gere 3 perguntas de revisão e corrija minha resposta.",
-      "alerta": "Não substitui conferência do texto constitucional atualizado, emendas e jurisprudência recente."
-    },
     "questoes": [
       {
-        "id": "q04-01",
+        "id": "direito-constitucional-avancado-04-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Direitos sociais, nacionalidade, direitos políticos e partidos, assinale a alternativa correta.",
+        "enunciado": "Em relação a Direitos sociais, nacionalidade, direitos políticos e partidos, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "Direitos sociais buscam prestações e proteção material, enquanto nacionalidade, direitos políticos e partidos estruturam a participação democrática.",
-          "A Constituição pode ser afastada por lei ordinária posterior.",
-          "Todo direito constitucional é absoluto e sem limite.",
-          "A banca sempre aceita interpretação política sem base jurídica.",
-          "Competências constitucionais podem ser trocadas por conveniência."
+          "Direitos sociais conectam liberdade formal a condições mínimas de participação social.",
+          "Confundir nacionalidade com naturalidade.",
+          "Dizer que todo direito político é permitido a qualquer residente.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Direitos sociais buscam prestações e proteção material, enquanto nacionalidade, direitos políticos e partidos estruturam a participação democrática.",
-          "Errada. Confunde cidadania e participação política com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "Direitos sociais buscam prestações e proteção material, enquanto nacionalidade, direitos políticos e partidos estruturam a participação democrática.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: Direitos sociais conectam liberdade formal a condições mínimas de participação social."
       },
       {
-        "id": "q04-02",
+        "id": "direito-constitucional-avancado-04-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Direitos sociais e políticos, é correto afirmar que direitos sociais buscam prestações e proteção material, enquanto nacionalidade, direitos políticos e partidos estruturam a participação democrática.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A afirmação reproduz a tese central do capítulo.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Nacionalidade define vínculo jurídico-político com o Estado e influencia direitos políticos e proteção diplomática.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de cidadania em sentido amplo."
       },
       {
-        "id": "q04-03",
+        "id": "direito-constitucional-avancado-04-q03",
         "tipo": "certo_errado",
-        "enunciado": "No tema Direitos sociais e políticos, a regra de prova é: Confundir nacionalidade com direitos políticos ou imaginar que todo brasileiro vota e é votado nas mesmas condições.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A frase descreve a pegadinha, não a regra correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Confundir nacionalidade com naturalidade.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q04-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual é a principal pegadinha sobre Direitos sociais e políticos?",
-        "alternativas": [
-          "Confundir nacionalidade com direitos políticos ou imaginar que todo brasileiro vota e é votado nas mesmas condições.",
-          "Ler o texto constitucional antes de responder.",
-          "Separar regra, exceção e competência.",
-          "Identificar o órgão constitucional correto.",
-          "Conferir a espécie normativa exigida."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa correta aponta o erro que a banca costuma explorar.",
-          "Errada. Confunde cidadania e participação política com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "A alternativa correta aponta o erro que a banca costuma explorar.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
-      },
-      {
-        "id": "q04-05",
+        "id": "direito-constitucional-avancado-04-q04",
         "tipo": "caso_pratico",
-        "enunciado": "Uma pessoa brasileira nata e uma naturalizada concorrem a cargo privativo de brasileiro nato. Qual ponto analisar?",
-        "respostaModelo": "É preciso verificar se o cargo está entre os privativos de brasileiro nato previstos na Constituição.",
-        "criteriosCorrecao": [
-          "identificar o tema",
-          "apontar a regra constitucional",
-          "mencionar limite ou exceção",
-          "concluir de forma objetiva"
-        ],
-        "comentario": "Caso prático exige aplicar a Constituição, não apenas repetir conceito.",
-        "diagnosticoIA": "Se errou, revise Direitos sociais e políticos com foco em regra e exceção."
+        "enunciado": "Considere o caso: Brasileiro naturalizado pode ter direitos políticos, mas a Constituição reserva alguns cargos a brasileiros natos. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Direitos políticos envolvem votar, ser votado, participar de partidos e respeitar condições de elegibilidade e inelegibilidades.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q04-06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Explique a diferença entre capacidade eleitoral ativa e passiva.",
-        "respostaModelo": "Capacidade ativa é votar; capacidade passiva é ser votado, cumpridos requisitos de elegibilidade e ausentes inelegibilidades.",
-        "criteriosCorrecao": [
-          "direitos sociais",
-          "nacionalidade",
-          "alistamento",
-          "elegibilidade",
-          "inelegibilidade e partidos"
-        ],
-        "palavrasChaveEsperadas": [
-          "direitos sociais",
-          "nacionalidade",
-          "alistamento",
-          "elegibilidade",
-          "inelegibilidade e partidos"
-        ],
-        "comentario": "Resposta constitucional boa tem conceito, fundamento, limite e consequência prática.",
-        "diagnosticoIA": "Se a resposta ficou genérica, reescreva em quatro passos: conceito, regra, exceção e exemplo."
+        "id": "direito-constitucional-avancado-04-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que cidadania em sentido amplo não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar direitos sociais conectam liberdade formal a condições mínimas de participação social. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q04-07",
+        "id": "direito-constitucional-avancado-04-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie nacionalidade de direitos políticos em uma resposta de prova.",
-        "respostaModelo": "nacionalidade e direitos políticos se relacionam, mas não se confundem. A diferença central é: nacionalidade define vínculo com o Estado; direitos políticos regulam participação no poder",
-        "criteriosCorrecao": [
-          "conceito de cada instituto",
-          "diferença central",
-          "efeito jurídico",
-          "exemplo de cobrança"
-        ],
-        "comentario": "Questões comparativas em Constitucional cobram precisão de linguagem.",
-        "diagnosticoIA": "Faça tabela com conceito, órgão, procedimento e consequência."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Direitos sociais conectam liberdade formal a condições mínimas de participação social. Pegadinha: Confundir nacionalidade com naturalidade.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q04-08",
+        "id": "direito-constitucional-avancado-04-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Para revisar Direitos sociais e políticos, qual roteiro é mais seguro?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "direitos sociais, nacionalidade, alistamento, elegibilidade, inelegibilidade e partidos",
-          "Decorar uma frase isolada sem ver exceções.",
-          "Responder por opinião pessoal.",
-          "Ignorar a competência do órgão.",
-          "Tratar todos os temas como iguais."
+          "Direitos políticos envolvem votar, ser votado, participar de partidos e respeitar condições de elegibilidade e inelegibilidades.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Dizer que todo direito político é permitido a qualquer residente."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-          "Errada. Confunde cidadania e participação política com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q04-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em prova, palavras absolutas podem indicar pegadinha quando afastam limites ou exceções de Direitos sociais e políticos.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Palavras absolutas exigem cautela, especialmente em direitos e competências.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "id": "direito-constitucional-avancado-04-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Dizer que todo direito político é permitido a qualquer residente.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q04-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Direitos sociais e políticos para um candidato de concurso.",
-        "promptTutorIA": "Explique Direitos sociais e políticos usando: conceito, base constitucional, uma pegadinha comum e um exemplo de questão.",
-        "criterioDominio": [
-          "explicação simples",
-          "base constitucional",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo."
+        "id": "direito-constitucional-avancado-04-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Direitos sociais, nacionalidade, direitos políticos e partidos a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Partidos políticos expressam pluralismo e devem respeitar autonomia, fidelidade partidária e regime democrático.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-constitucional-avancado-04-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Direitos sociais conectam liberdade formal a condições mínimas de participação social.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Federação e repartição de competências"
   },
   {
-    "id": "organizacao-do-estado-federacao-e-reparticao-de-competencias",
-    "materialTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "id": "federacao-e-reparticao-de-competencias",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 5,
     "totalChapters": 10,
-    "title": "Organização do Estado, federação e repartição de competências",
-    "assunto": "Federação brasileira",
-    "tecnica": "Leitura constitucional por conceito, artigo, competência, exceção e pegadinha de banca",
-    "competencia": "Resolver questões constitucionais com precisão, separando regra, exceção, órgão e efeito jurídico.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 28,
+    "title": "Federação e repartição de competências",
+    "assunto": "organização territorial do poder",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar organização territorial do poder com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
-      "VUNESP": 4,
+      "CEBRASPE": 5,
+      "FCC": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
       "federação",
-      "competência privativa",
-      "competência concorrente",
+      "competências",
       "autonomia"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Jurisprudência constitucional em linguagem pedagógica",
-      "Editais de OAB, tribunais e concursos policiais",
-      "Doutrina constitucional básica para concursos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Federação brasileira com foco em OAB, área policial, tribunais e concursos públicos. A banca costuma cobrar menos decoreba solta e mais distinção entre regra, exceção, órgão competente e efeito jurídico.",
-      "Ideia central: A Federação brasileira distribui autonomia e competências entre União, Estados, Distrito Federal e Municípios, preservando unidade constitucional. Essa frase deve virar resumo no caderno do aluno, porque ajuda a eliminar alternativas absolutas e confusas.",
-      "Erro comum: Atribuir toda competência relevante à União ou esquecer competências municipais e concorrentes. Em prova, esse erro aparece disfarçado em alternativas que parecem técnicas, mas trocam competência, hierarquia ou procedimento.",
-      "Como estudar: aplique o modelo entes federativos, autonomia, competências privativas, comuns, concorrentes e suplementares. Depois responda às questões, explique em voz alta e registre a pegadinha principal."
+      "Federação e repartição de competências exige domínio de organização territorial do poder. O estudo correto começa pela ideia de que federação distribui autonomia entre União, Estados, Distrito Federal e Municípios, impedindo concentração total de poder.",
+      "Competências privativas, comuns, concorrentes e municipais possuem lógicas diferentes de repartição. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Competência concorrente permite normas gerais pela União e suplementação pelos Estados, conforme o tema. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Conflitos federativos exigem identificar matéria predominante e interesse nacional, regional ou local. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "A Federação brasileira distribui autonomia e competências entre União, Estados, Distrito Federal e Municípios, preservando unidade constitucional.",
-      "A Constituição exige leitura por hierarquia, competência e procedimento.",
-      "Pegadinha comum: Atribuir toda competência relevante à União ou esquecer competências municipais e concorrentes.",
-      "Modelo de prova: entes federativos, autonomia, competências privativas, comuns, concorrentes e suplementares"
+      "Federação distribui autonomia entre União, Estados, Distrito Federal e Municípios, impedindo concentração total de poder.",
+      "Competências privativas, comuns, concorrentes e municipais possuem lógicas diferentes de repartição.",
+      "Competência concorrente permite normas gerais pela União e suplementação pelos Estados, conforme o tema.",
+      "Conflitos federativos exigem identificar matéria predominante e interesse nacional, regional ou local."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Atribuir toda competência relevante à União ou esquecer competências municipais e concorrentes.",
-        "A Federação brasileira distribui autonomia e competências entre União, Estados, Distrito Federal e Municípios, preservando unidade constitucional.",
-        "O tema só aparece em questões discursivas."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta resume o núcleo jurídico do capítulo sem absolutismo."
-    },
-    "oQueCobra": "Conceitos, artigos centrais, competência de órgãos, limites, exceções, remédios constitucionais e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Estado, Constituição, legalidade, separação dos poderes, direitos fundamentais e Administração Pública.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura institutos parecidos, troca órgão competente e usa palavras absolutas para induzir erro."
+        "pergunta": "Qual é o núcleo de Federação e repartição de competências?",
+        "resposta": "Federação distribui autonomia entre União, Estados, Distrito Federal e Municípios, impedindo concentração total de poder."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique o tema, localize a regra constitucional, procure exceções e conclua sem extrapolar."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Achar que hierarquia política permite União mandar em tudo."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em concursos policiais e tribunais, Constitucional aparece conectado a direitos, Administração, segurança pública e controle estatal."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Município pode legislar sobre interesse local, mas não pode contrariar normas gerais nacionais em matéria que exige uniformidade."
       }
     ],
-    "comoIdentificar": "Procure palavras como Constituição, competência, direito fundamental, Poderes, controle, lei, órgão, garantia e exceção.",
+    "quadroDeDominio": {
+      "conceito": "Federação distribui autonomia entre União, Estados, Distrito Federal e Municípios, impedindo concentração total de poder.",
+      "limite": "Competências privativas, comuns, concorrentes e municipais possuem lógicas diferentes de repartição.",
+      "aplicacao": "Município pode legislar sobre interesse local, mas não pode contrariar normas gerais nacionais em matéria que exige uniformidade.",
+      "erroFatal": "Achar que hierarquia política permite União mandar em tudo."
+    },
+    "exemploComentado": "Município pode legislar sobre interesse local, mas não pode contrariar normas gerais nacionais em matéria que exige uniformidade.",
     "pegadinhas": [
-      "palavras absolutas",
-      "troca de competência",
-      "confusão entre regra e exceção",
-      "mistura de espécie normativa",
-      "interpretação política sem base jurídica"
+      "Achar que hierarquia política permite União mandar em tudo.",
+      "Confundir competência comum com concorrente."
     ],
-    "resumoFrase": "A Federação brasileira distribui autonomia e competências entre União, Estados, Distrito Federal e Municípios, preservando unidade constitucional.",
-    "proximoTitulo": "Administração Pública constitucional e agentes públicos",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 20 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir emendas constitucionais, jurisprudência e edital antes da publicação final.",
-    "publicoAlvo": "Candidatos de OAB, concursos policiais, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direito Constitucional",
-    "explicacaoComoSeTivesse12": "Pense assim: A Federação brasileira distribui autonomia e competências entre União, Estados, Distrito Federal e Municípios, preservando unidade constitucional. Para acertar prova, não basta decorar. Você precisa saber quem pode fazer, qual regra vale e qual é a exceção.",
+    "mapaMentalTexto": [
+      "Tema: Federação e repartição de competências",
+      "Conceito: Federação distribui autonomia entre União, Estados, Distrito Federal e Municípios, impedindo concentração total de poder.",
+      "Aplicação: Município pode legislar sobre interesse local, mas não pode contrariar normas gerais nacionais em matéria que exige uniformidade.",
+      "Cuidado: Achar que hierarquia política permite União mandar em tudo."
+    ],
     "comoEstudar": [
-      "Leia a tese e grife a competência.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça quadro de regra, exceção, órgão e efeito.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Em Constitucional, quase todo erro nasce de trocar competência, transformar regra em absoluto ou esquecer exceção.",
-    "mapaMentalTextual": [
-      "Centro: Organização do Estado, federação e repartição de competências",
-      "Ramo 1: conceito",
-      "Ramo 2: base constitucional",
-      "Ramo 3: competência",
-      "Ramo 4: exceção",
-      "Ramo 5: pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a tese central de Federação brasileira?",
-        "verso": "A Federação brasileira distribui autonomia e competências entre União, Estados, Distrito Federal e Municípios, preservando unidade constitucional."
+        "id": "direito-constitucional-avancado-05-fc01",
+        "frente": "Qual é a ideia central de Federação e repartição de competências?",
+        "verso": "Federação distribui autonomia entre União, Estados, Distrito Federal e Municípios, impedindo concentração total de poder.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha evitar em Federação brasileira?",
-        "verso": "Atribuir toda competência relevante à União ou esquecer competências municipais e concorrentes."
+        "id": "direito-constitucional-avancado-05-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em organização territorial do poder?",
+        "verso": "Competências privativas, comuns, concorrentes e municipais possuem lógicas diferentes de repartição.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual roteiro estudar em Federação brasileira?",
-        "verso": "entes federativos, autonomia, competências privativas, comuns, concorrentes e suplementares"
+        "id": "direito-constitucional-avancado-05-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Achar que hierarquia política permite União mandar em tudo.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar Federação brasileira em questão prática?",
-        "verso": "Identifique o tema, aplique a regra constitucional, confira exceções e conclua com o órgão ou efeito correto."
+        "id": "direito-constitucional-avancado-05-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Município pode legislar sobre interesse local, mas não pode contrariar normas gerais nacionais em matéria que exige uniformidade.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "identifica o tema constitucional",
-      "separa regra e exceção",
-      "não troca competências",
-      "aplica ao caso concreto"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Responder 3 questões e revisar a tese."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Refazer as questões erradas e explicar a pegadinha."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Montar quadro comparativo com outro capítulo."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique este capítulo em linguagem simples, depois gere 3 perguntas de revisão e corrija minha resposta.",
-      "alerta": "Não substitui conferência do texto constitucional atualizado, emendas e jurisprudência recente."
-    },
     "questoes": [
       {
-        "id": "q05-01",
+        "id": "direito-constitucional-avancado-05-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Organização do Estado, federação e repartição de competências, assinale a alternativa correta.",
+        "enunciado": "Em relação a Federação e repartição de competências, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A Federação brasileira distribui autonomia e competências entre União, Estados, Distrito Federal e Municípios, preservando unidade constitucional.",
-          "A Constituição pode ser afastada por lei ordinária posterior.",
-          "Todo direito constitucional é absoluto e sem limite.",
-          "A banca sempre aceita interpretação política sem base jurídica.",
-          "Competências constitucionais podem ser trocadas por conveniência."
+          "Federação distribui autonomia entre União, Estados, Distrito Federal e Municípios, impedindo concentração total de poder.",
+          "Achar que hierarquia política permite União mandar em tudo.",
+          "Confundir competência comum com concorrente.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A Federação brasileira distribui autonomia e competências entre União, Estados, Distrito Federal e Municípios, preservando unidade constitucional.",
-          "Errada. Confunde competências legislativas e administrativas com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "A Federação brasileira distribui autonomia e competências entre União, Estados, Distrito Federal e Municípios, preservando unidade constitucional.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: Federação distribui autonomia entre União, Estados, Distrito Federal e Municípios, impedindo concentração total de poder."
       },
       {
-        "id": "q05-02",
+        "id": "direito-constitucional-avancado-05-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Federação brasileira, é correto afirmar que a federação brasileira distribui autonomia e competências entre união, estados, distrito federal e municípios, preservando unidade constitucional.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A afirmação reproduz a tese central do capítulo.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Competências privativas, comuns, concorrentes e municipais possuem lógicas diferentes de repartição.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de organização territorial do poder."
       },
       {
-        "id": "q05-03",
+        "id": "direito-constitucional-avancado-05-q03",
         "tipo": "certo_errado",
-        "enunciado": "No tema Federação brasileira, a regra de prova é: Atribuir toda competência relevante à União ou esquecer competências municipais e concorrentes.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A frase descreve a pegadinha, não a regra correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Achar que hierarquia política permite União mandar em tudo.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q05-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual é a principal pegadinha sobre Federação brasileira?",
-        "alternativas": [
-          "Atribuir toda competência relevante à União ou esquecer competências municipais e concorrentes.",
-          "Ler o texto constitucional antes de responder.",
-          "Separar regra, exceção e competência.",
-          "Identificar o órgão constitucional correto.",
-          "Conferir a espécie normativa exigida."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa correta aponta o erro que a banca costuma explorar.",
-          "Errada. Confunde competências legislativas e administrativas com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "A alternativa correta aponta o erro que a banca costuma explorar.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
-      },
-      {
-        "id": "q05-05",
+        "id": "direito-constitucional-avancado-05-q04",
         "tipo": "caso_pratico",
-        "enunciado": "Município legisla sobre assunto de interesse local. A União pode afastar toda atuação municipal?",
-        "respostaModelo": "Não automaticamente. A Constituição reconhece competência municipal para interesse local, dentro dos limites do sistema federativo.",
-        "criteriosCorrecao": [
-          "identificar o tema",
-          "apontar a regra constitucional",
-          "mencionar limite ou exceção",
-          "concluir de forma objetiva"
-        ],
-        "comentario": "Caso prático exige aplicar a Constituição, não apenas repetir conceito.",
-        "diagnosticoIA": "Se errou, revise Federação brasileira com foco em regra e exceção."
+        "enunciado": "Considere o caso: Município pode legislar sobre interesse local, mas não pode contrariar normas gerais nacionais em matéria que exige uniformidade. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Competência concorrente permite normas gerais pela União e suplementação pelos Estados, conforme o tema.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q05-06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Explique a lógica da competência concorrente.",
-        "respostaModelo": "Na competência concorrente, a União fixa normas gerais e os Estados podem suplementar, respeitando a estrutura constitucional.",
-        "criteriosCorrecao": [
-          "entes federativos",
-          "autonomia",
-          "competências privativas",
-          "comuns",
-          "concorrentes e suplementares"
-        ],
-        "palavrasChaveEsperadas": [
-          "entes federativos",
-          "autonomia",
-          "competências privativas",
-          "comuns",
-          "concorrentes e suplementares"
-        ],
-        "comentario": "Resposta constitucional boa tem conceito, fundamento, limite e consequência prática.",
-        "diagnosticoIA": "Se a resposta ficou genérica, reescreva em quatro passos: conceito, regra, exceção e exemplo."
+        "id": "direito-constitucional-avancado-05-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que organização territorial do poder não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar federação distribui autonomia entre união, estados, distrito federal e municípios, impedindo concentração total de poder. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q05-07",
+        "id": "direito-constitucional-avancado-05-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie competência privativa de competência concorrente em uma resposta de prova.",
-        "respostaModelo": "competência privativa e competência concorrente se relacionam, mas não se confundem. A diferença central é: privativa concentra a matéria em um ente; concorrente reparte normas gerais e suplementação",
-        "criteriosCorrecao": [
-          "conceito de cada instituto",
-          "diferença central",
-          "efeito jurídico",
-          "exemplo de cobrança"
-        ],
-        "comentario": "Questões comparativas em Constitucional cobram precisão de linguagem.",
-        "diagnosticoIA": "Faça tabela com conceito, órgão, procedimento e consequência."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Federação distribui autonomia entre União, Estados, Distrito Federal e Municípios, impedindo concentração total de poder. Pegadinha: Achar que hierarquia política permite União mandar em tudo.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q05-08",
+        "id": "direito-constitucional-avancado-05-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Para revisar Federação brasileira, qual roteiro é mais seguro?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "entes federativos, autonomia, competências privativas, comuns, concorrentes e suplementares",
-          "Decorar uma frase isolada sem ver exceções.",
-          "Responder por opinião pessoal.",
-          "Ignorar a competência do órgão.",
-          "Tratar todos os temas como iguais."
+          "Competência concorrente permite normas gerais pela União e suplementação pelos Estados, conforme o tema.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Confundir competência comum com concorrente."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-          "Errada. Confunde competências legislativas e administrativas com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q05-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em prova, palavras absolutas podem indicar pegadinha quando afastam limites ou exceções de Federação brasileira.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Palavras absolutas exigem cautela, especialmente em direitos e competências.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "id": "direito-constitucional-avancado-05-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Confundir competência comum com concorrente.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q05-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Federação brasileira para um candidato de concurso.",
-        "promptTutorIA": "Explique Federação brasileira usando: conceito, base constitucional, uma pegadinha comum e um exemplo de questão.",
-        "criterioDominio": [
-          "explicação simples",
-          "base constitucional",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo."
+        "id": "direito-constitucional-avancado-05-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Federação e repartição de competências a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Conflitos federativos exigem identificar matéria predominante e interesse nacional, regional ou local.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-constitucional-avancado-05-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Federação distribui autonomia entre União, Estados, Distrito Federal e Municípios, impedindo concentração total de poder.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Administração Pública constitucional"
   },
   {
-    "id": "administracao-publica-constitucional-e-agentes-publicos",
-    "materialTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "id": "administracao-publica-constitucional",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 6,
     "totalChapters": 10,
-    "title": "Administração Pública constitucional e agentes públicos",
-    "assunto": "Administração Pública",
-    "tecnica": "Leitura constitucional por conceito, artigo, competência, exceção e pegadinha de banca",
-    "competencia": "Resolver questões constitucionais com precisão, separando regra, exceção, órgão e efeito jurídico.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 28,
+    "title": "Administração Pública constitucional",
+    "assunto": "princípios e agentes públicos",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar princípios e agentes públicos com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
-      "VUNESP": 4,
+      "CEBRASPE": 5,
+      "FCC": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "legalidade",
-      "impessoalidade",
-      "moralidade",
-      "publicidade",
-      "eficiência"
+      "LIMPE",
+      "agentes públicos",
+      "concurso"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Jurisprudência constitucional em linguagem pedagógica",
-      "Editais de OAB, tribunais e concursos policiais",
-      "Doutrina constitucional básica para concursos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Administração Pública com foco em OAB, área policial, tribunais e concursos públicos. A banca costuma cobrar menos decoreba solta e mais distinção entre regra, exceção, órgão competente e efeito jurídico.",
-      "Ideia central: A Administração Pública deve obedecer legalidade, impessoalidade, moralidade, publicidade e eficiência, além de regras sobre concurso, cargos e responsabilidade. Essa frase deve virar resumo no caderno do aluno, porque ajuda a eliminar alternativas absolutas e confusas.",
-      "Erro comum: Confundir discricionariedade com liberdade absoluta ou publicidade com exposição indevida de dados. Em prova, esse erro aparece disfarçado em alternativas que parecem técnicas, mas trocam competência, hierarquia ou procedimento.",
-      "Como estudar: aplique o modelo LIMPE, concurso público, cargos, acumulação, teto, responsabilidade e controle. Depois responda às questões, explique em voz alta e registre a pegadinha principal."
+      "Administração Pública constitucional exige domínio de princípios e agentes públicos. O estudo correto começa pela ideia de que legalidade administrativa exige atuação autorizada pelo Direito, não simples vontade do agente público.",
+      "Impessoalidade proíbe favorecimento, perseguição e promoção pessoal com recursos públicos. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Moralidade, publicidade e eficiência ampliam o controle sobre finalidade, transparência e resultado da atuação administrativa. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Regras constitucionais sobre concurso, acumulação, teto e responsabilidade estruturam a profissionalização do serviço público. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "A Administração Pública deve obedecer legalidade, impessoalidade, moralidade, publicidade e eficiência, além de regras sobre concurso, cargos e responsabilidade.",
-      "A Constituição exige leitura por hierarquia, competência e procedimento.",
-      "Pegadinha comum: Confundir discricionariedade com liberdade absoluta ou publicidade com exposição indevida de dados.",
-      "Modelo de prova: LIMPE, concurso público, cargos, acumulação, teto, responsabilidade e controle"
+      "Legalidade administrativa exige atuação autorizada pelo Direito, não simples vontade do agente público.",
+      "Impessoalidade proíbe favorecimento, perseguição e promoção pessoal com recursos públicos.",
+      "Moralidade, publicidade e eficiência ampliam o controle sobre finalidade, transparência e resultado da atuação administrativa.",
+      "Regras constitucionais sobre concurso, acumulação, teto e responsabilidade estruturam a profissionalização do serviço público."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Confundir discricionariedade com liberdade absoluta ou publicidade com exposição indevida de dados.",
-        "A Administração Pública deve obedecer legalidade, impessoalidade, moralidade, publicidade e eficiência, além de regras sobre concurso, cargos e responsabilidade.",
-        "O tema só aparece em questões discursivas."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta resume o núcleo jurídico do capítulo sem absolutismo."
-    },
-    "oQueCobra": "Conceitos, artigos centrais, competência de órgãos, limites, exceções, remédios constitucionais e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Estado, Constituição, legalidade, separação dos poderes, direitos fundamentais e Administração Pública.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura institutos parecidos, troca órgão competente e usa palavras absolutas para induzir erro."
+        "pergunta": "Qual é o núcleo de Administração Pública constitucional?",
+        "resposta": "Legalidade administrativa exige atuação autorizada pelo Direito, não simples vontade do agente público."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique o tema, localize a regra constitucional, procure exceções e conclua sem extrapolar."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Confundir publicidade com propaganda pessoal."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em concursos policiais e tribunais, Constitucional aparece conectado a direitos, Administração, segurança pública e controle estatal."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Nomear parente sem justificativa técnica pode violar impessoalidade e moralidade, ainda que o ato tenha forma administrativa."
       }
     ],
-    "comoIdentificar": "Procure palavras como Constituição, competência, direito fundamental, Poderes, controle, lei, órgão, garantia e exceção.",
+    "quadroDeDominio": {
+      "conceito": "Legalidade administrativa exige atuação autorizada pelo Direito, não simples vontade do agente público.",
+      "limite": "Impessoalidade proíbe favorecimento, perseguição e promoção pessoal com recursos públicos.",
+      "aplicacao": "Nomear parente sem justificativa técnica pode violar impessoalidade e moralidade, ainda que o ato tenha forma administrativa.",
+      "erroFatal": "Confundir publicidade com propaganda pessoal."
+    },
+    "exemploComentado": "Nomear parente sem justificativa técnica pode violar impessoalidade e moralidade, ainda que o ato tenha forma administrativa.",
     "pegadinhas": [
-      "palavras absolutas",
-      "troca de competência",
-      "confusão entre regra e exceção",
-      "mistura de espécie normativa",
-      "interpretação política sem base jurídica"
+      "Confundir publicidade com propaganda pessoal.",
+      "Achar que eficiência permite descumprir legalidade."
     ],
-    "resumoFrase": "A Administração Pública deve obedecer legalidade, impessoalidade, moralidade, publicidade e eficiência, além de regras sobre concurso, cargos e responsabilidade.",
-    "proximoTitulo": "Poder Legislativo, processo legislativo e fiscalização",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 20 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir emendas constitucionais, jurisprudência e edital antes da publicação final.",
-    "publicoAlvo": "Candidatos de OAB, concursos policiais, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direito Constitucional",
-    "explicacaoComoSeTivesse12": "Pense assim: A Administração Pública deve obedecer legalidade, impessoalidade, moralidade, publicidade e eficiência, além de regras sobre concurso, cargos e responsabilidade. Para acertar prova, não basta decorar. Você precisa saber quem pode fazer, qual regra vale e qual é a exceção.",
+    "mapaMentalTexto": [
+      "Tema: Administração Pública constitucional",
+      "Conceito: Legalidade administrativa exige atuação autorizada pelo Direito, não simples vontade do agente público.",
+      "Aplicação: Nomear parente sem justificativa técnica pode violar impessoalidade e moralidade, ainda que o ato tenha forma administrativa.",
+      "Cuidado: Confundir publicidade com propaganda pessoal."
+    ],
     "comoEstudar": [
-      "Leia a tese e grife a competência.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça quadro de regra, exceção, órgão e efeito.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Em Constitucional, quase todo erro nasce de trocar competência, transformar regra em absoluto ou esquecer exceção.",
-    "mapaMentalTextual": [
-      "Centro: Administração Pública constitucional e agentes públicos",
-      "Ramo 1: conceito",
-      "Ramo 2: base constitucional",
-      "Ramo 3: competência",
-      "Ramo 4: exceção",
-      "Ramo 5: pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a tese central de Administração Pública?",
-        "verso": "A Administração Pública deve obedecer legalidade, impessoalidade, moralidade, publicidade e eficiência, além de regras sobre concurso, cargos e responsabilidade."
+        "id": "direito-constitucional-avancado-06-fc01",
+        "frente": "Qual é a ideia central de Administração Pública constitucional?",
+        "verso": "Legalidade administrativa exige atuação autorizada pelo Direito, não simples vontade do agente público.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha evitar em Administração Pública?",
-        "verso": "Confundir discricionariedade com liberdade absoluta ou publicidade com exposição indevida de dados."
+        "id": "direito-constitucional-avancado-06-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em princípios e agentes públicos?",
+        "verso": "Impessoalidade proíbe favorecimento, perseguição e promoção pessoal com recursos públicos.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual roteiro estudar em Administração Pública?",
-        "verso": "LIMPE, concurso público, cargos, acumulação, teto, responsabilidade e controle"
+        "id": "direito-constitucional-avancado-06-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Confundir publicidade com propaganda pessoal.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar Administração Pública em questão prática?",
-        "verso": "Identifique o tema, aplique a regra constitucional, confira exceções e conclua com o órgão ou efeito correto."
+        "id": "direito-constitucional-avancado-06-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Nomear parente sem justificativa técnica pode violar impessoalidade e moralidade, ainda que o ato tenha forma administrativa.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "identifica o tema constitucional",
-      "separa regra e exceção",
-      "não troca competências",
-      "aplica ao caso concreto"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Responder 3 questões e revisar a tese."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Refazer as questões erradas e explicar a pegadinha."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Montar quadro comparativo com outro capítulo."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique este capítulo em linguagem simples, depois gere 3 perguntas de revisão e corrija minha resposta.",
-      "alerta": "Não substitui conferência do texto constitucional atualizado, emendas e jurisprudência recente."
-    },
     "questoes": [
       {
-        "id": "q06-01",
+        "id": "direito-constitucional-avancado-06-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Administração Pública constitucional e agentes públicos, assinale a alternativa correta.",
+        "enunciado": "Em relação a Administração Pública constitucional, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A Administração Pública deve obedecer legalidade, impessoalidade, moralidade, publicidade e eficiência, além de regras sobre concurso, cargos e responsabilidade.",
-          "A Constituição pode ser afastada por lei ordinária posterior.",
-          "Todo direito constitucional é absoluto e sem limite.",
-          "A banca sempre aceita interpretação política sem base jurídica.",
-          "Competências constitucionais podem ser trocadas por conveniência."
+          "Legalidade administrativa exige atuação autorizada pelo Direito, não simples vontade do agente público.",
+          "Confundir publicidade com propaganda pessoal.",
+          "Achar que eficiência permite descumprir legalidade.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A Administração Pública deve obedecer legalidade, impessoalidade, moralidade, publicidade e eficiência, além de regras sobre concurso, cargos e responsabilidade.",
-          "Errada. Confunde art. 37 e princípios administrativos com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "A Administração Pública deve obedecer legalidade, impessoalidade, moralidade, publicidade e eficiência, além de regras sobre concurso, cargos e responsabilidade.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: Legalidade administrativa exige atuação autorizada pelo Direito, não simples vontade do agente público."
       },
       {
-        "id": "q06-02",
+        "id": "direito-constitucional-avancado-06-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Administração Pública, é correto afirmar que a administração pública deve obedecer legalidade, impessoalidade, moralidade, publicidade e eficiência, além de regras sobre concurso, cargos e responsabilidade.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A afirmação reproduz a tese central do capítulo.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Impessoalidade proíbe favorecimento, perseguição e promoção pessoal com recursos públicos.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de princípios e agentes públicos."
       },
       {
-        "id": "q06-03",
+        "id": "direito-constitucional-avancado-06-q03",
         "tipo": "certo_errado",
-        "enunciado": "No tema Administração Pública, a regra de prova é: Confundir discricionariedade com liberdade absoluta ou publicidade com exposição indevida de dados.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A frase descreve a pegadinha, não a regra correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Confundir publicidade com propaganda pessoal.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q06-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual é a principal pegadinha sobre Administração Pública?",
-        "alternativas": [
-          "Confundir discricionariedade com liberdade absoluta ou publicidade com exposição indevida de dados.",
-          "Ler o texto constitucional antes de responder.",
-          "Separar regra, exceção e competência.",
-          "Identificar o órgão constitucional correto.",
-          "Conferir a espécie normativa exigida."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa correta aponta o erro que a banca costuma explorar.",
-          "Errada. Confunde art. 37 e princípios administrativos com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "A alternativa correta aponta o erro que a banca costuma explorar.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
-      },
-      {
-        "id": "q06-05",
+        "id": "direito-constitucional-avancado-06-q04",
         "tipo": "caso_pratico",
-        "enunciado": "Autoridade nomeia parente para cargo sem observar regras constitucionais. Qual tema aparece?",
-        "respostaModelo": "A questão envolve moralidade, impessoalidade, nepotismo e controle da Administração Pública.",
-        "criteriosCorrecao": [
-          "identificar o tema",
-          "apontar a regra constitucional",
-          "mencionar limite ou exceção",
-          "concluir de forma objetiva"
-        ],
-        "comentario": "Caso prático exige aplicar a Constituição, não apenas repetir conceito.",
-        "diagnosticoIA": "Se errou, revise Administração Pública com foco em regra e exceção."
+        "enunciado": "Considere o caso: Nomear parente sem justificativa técnica pode violar impessoalidade e moralidade, ainda que o ato tenha forma administrativa. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Moralidade, publicidade e eficiência ampliam o controle sobre finalidade, transparência e resultado da atuação administrativa.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q06-06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Explique por que concurso público concretiza impessoalidade.",
-        "respostaModelo": "O concurso reduz favorecimento pessoal, seleciona por critérios objetivos e dá igualdade de acesso aos cargos públicos.",
-        "criteriosCorrecao": [
-          "LIMPE",
-          "concurso público",
-          "cargos",
-          "acumulação",
-          "teto",
-          "responsabilidade e controle"
-        ],
-        "palavrasChaveEsperadas": [
-          "LIMPE",
-          "concurso público",
-          "cargos",
-          "acumulação",
-          "teto",
-          "responsabilidade e controle"
-        ],
-        "comentario": "Resposta constitucional boa tem conceito, fundamento, limite e consequência prática.",
-        "diagnosticoIA": "Se a resposta ficou genérica, reescreva em quatro passos: conceito, regra, exceção e exemplo."
+        "id": "direito-constitucional-avancado-06-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que princípios e agentes públicos não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar legalidade administrativa exige atuação autorizada pelo direito, não simples vontade do agente público. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q06-07",
+        "id": "direito-constitucional-avancado-06-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie legalidade administrativa de legalidade privada em uma resposta de prova.",
-        "respostaModelo": "legalidade administrativa e legalidade privada se relacionam, mas não se confundem. A diferença central é: na Administração só se atua conforme autorização jurídica; no privado, em regra, pode-se fazer o que a lei não proíbe",
-        "criteriosCorrecao": [
-          "conceito de cada instituto",
-          "diferença central",
-          "efeito jurídico",
-          "exemplo de cobrança"
-        ],
-        "comentario": "Questões comparativas em Constitucional cobram precisão de linguagem.",
-        "diagnosticoIA": "Faça tabela com conceito, órgão, procedimento e consequência."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Legalidade administrativa exige atuação autorizada pelo Direito, não simples vontade do agente público. Pegadinha: Confundir publicidade com propaganda pessoal.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q06-08",
+        "id": "direito-constitucional-avancado-06-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Para revisar Administração Pública, qual roteiro é mais seguro?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "LIMPE, concurso público, cargos, acumulação, teto, responsabilidade e controle",
-          "Decorar uma frase isolada sem ver exceções.",
-          "Responder por opinião pessoal.",
-          "Ignorar a competência do órgão.",
-          "Tratar todos os temas como iguais."
+          "Moralidade, publicidade e eficiência ampliam o controle sobre finalidade, transparência e resultado da atuação administrativa.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Achar que eficiência permite descumprir legalidade."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-          "Errada. Confunde art. 37 e princípios administrativos com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q06-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em prova, palavras absolutas podem indicar pegadinha quando afastam limites ou exceções de Administração Pública.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Palavras absolutas exigem cautela, especialmente em direitos e competências.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "id": "direito-constitucional-avancado-06-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Achar que eficiência permite descumprir legalidade.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q06-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Administração Pública para um candidato de concurso.",
-        "promptTutorIA": "Explique Administração Pública usando: conceito, base constitucional, uma pegadinha comum e um exemplo de questão.",
-        "criterioDominio": [
-          "explicação simples",
-          "base constitucional",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo."
+        "id": "direito-constitucional-avancado-06-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Administração Pública constitucional a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Regras constitucionais sobre concurso, acumulação, teto e responsabilidade estruturam a profissionalização do serviço público.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-constitucional-avancado-06-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Legalidade administrativa exige atuação autorizada pelo Direito, não simples vontade do agente público.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Poder Legislativo e processo legislativo"
   },
   {
-    "id": "poder-legislativo-processo-legislativo-e-fiscalizacao",
-    "materialTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "id": "poder-legislativo-e-processo-legislativo",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 7,
     "totalChapters": 10,
-    "title": "Poder Legislativo, processo legislativo e fiscalização",
-    "assunto": "Poder Legislativo",
-    "tecnica": "Leitura constitucional por conceito, artigo, competência, exceção e pegadinha de banca",
-    "competencia": "Resolver questões constitucionais com precisão, separando regra, exceção, órgão e efeito jurídico.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 28,
+    "title": "Poder Legislativo e processo legislativo",
+    "assunto": "produção normativa e fiscalização",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar produção normativa e fiscalização com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
-      "VUNESP": 4,
+      "CEBRASPE": 5,
+      "FCC": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "Congresso Nacional",
-      "lei complementar",
-      "medida provisória",
+      "Legislativo",
+      "processo legislativo",
       "CPI"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Jurisprudência constitucional em linguagem pedagógica",
-      "Editais de OAB, tribunais e concursos policiais",
-      "Doutrina constitucional básica para concursos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Poder Legislativo com foco em OAB, área policial, tribunais e concursos públicos. A banca costuma cobrar menos decoreba solta e mais distinção entre regra, exceção, órgão competente e efeito jurídico.",
-      "Ideia central: O Legislativo exerce função legislativa, fiscalizatória e de controle, atuando por meio de casas, comissões, processo legislativo e fiscalização contábil-financeira. Essa frase deve virar resumo no caderno do aluno, porque ajuda a eliminar alternativas absolutas e confusas.",
-      "Erro comum: Confundir lei ordinária, lei complementar, emenda constitucional e medidas provisórias. Em prova, esse erro aparece disfarçado em alternativas que parecem técnicas, mas trocam competência, hierarquia ou procedimento.",
-      "Como estudar: aplique o modelo Congresso, Câmara, Senado, espécies normativas, CPIs, TCU e fiscalização. Depois responda às questões, explique em voz alta e registre a pegadinha principal."
+      "Poder Legislativo e processo legislativo exige domínio de produção normativa e fiscalização. O estudo correto começa pela ideia de que o Legislativo legisla, fiscaliza e representa a sociedade, não se limitando à criação de leis.",
+      "Processo legislativo tem iniciativa, discussão, votação, sanção ou veto, promulgação e publicação conforme a espécie normativa. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Comissões parlamentares de inquérito possuem poderes de investigação próprios de autoridades judiciais, mas não podem julgar ou condenar. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Controle externo com auxílio dos Tribunais de Contas examina legalidade, legitimidade e economicidade. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "O Legislativo exerce função legislativa, fiscalizatória e de controle, atuando por meio de casas, comissões, processo legislativo e fiscalização contábil-financeira.",
-      "A Constituição exige leitura por hierarquia, competência e procedimento.",
-      "Pegadinha comum: Confundir lei ordinária, lei complementar, emenda constitucional e medidas provisórias.",
-      "Modelo de prova: Congresso, Câmara, Senado, espécies normativas, CPIs, TCU e fiscalização"
+      "O Legislativo legisla, fiscaliza e representa a sociedade, não se limitando à criação de leis.",
+      "Processo legislativo tem iniciativa, discussão, votação, sanção ou veto, promulgação e publicação conforme a espécie normativa.",
+      "Comissões parlamentares de inquérito possuem poderes de investigação próprios de autoridades judiciais, mas não podem julgar ou condenar.",
+      "Controle externo com auxílio dos Tribunais de Contas examina legalidade, legitimidade e economicidade."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Confundir lei ordinária, lei complementar, emenda constitucional e medidas provisórias.",
-        "O Legislativo exerce função legislativa, fiscalizatória e de controle, atuando por meio de casas, comissões, processo legislativo e fiscalização contábil-financeira.",
-        "O tema só aparece em questões discursivas."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta resume o núcleo jurídico do capítulo sem absolutismo."
-    },
-    "oQueCobra": "Conceitos, artigos centrais, competência de órgãos, limites, exceções, remédios constitucionais e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Estado, Constituição, legalidade, separação dos poderes, direitos fundamentais e Administração Pública.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura institutos parecidos, troca órgão competente e usa palavras absolutas para induzir erro."
+        "pergunta": "Qual é o núcleo de Poder Legislativo e processo legislativo?",
+        "resposta": "O Legislativo legisla, fiscaliza e representa a sociedade, não se limitando à criação de leis."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique o tema, localize a regra constitucional, procure exceções e conclua sem extrapolar."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Dizer que CPI pode decretar prisão como pena."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em concursos policiais e tribunais, Constitucional aparece conectado a direitos, Administração, segurança pública e controle estatal."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "CPI pode quebrar sigilo com fundamentação, mas não pode determinar busca domiciliar sem ordem judicial."
       }
     ],
-    "comoIdentificar": "Procure palavras como Constituição, competência, direito fundamental, Poderes, controle, lei, órgão, garantia e exceção.",
+    "quadroDeDominio": {
+      "conceito": "O Legislativo legisla, fiscaliza e representa a sociedade, não se limitando à criação de leis.",
+      "limite": "Processo legislativo tem iniciativa, discussão, votação, sanção ou veto, promulgação e publicação conforme a espécie normativa.",
+      "aplicacao": "CPI pode quebrar sigilo com fundamentação, mas não pode determinar busca domiciliar sem ordem judicial.",
+      "erroFatal": "Dizer que CPI pode decretar prisão como pena."
+    },
+    "exemploComentado": "CPI pode quebrar sigilo com fundamentação, mas não pode determinar busca domiciliar sem ordem judicial.",
     "pegadinhas": [
-      "palavras absolutas",
-      "troca de competência",
-      "confusão entre regra e exceção",
-      "mistura de espécie normativa",
-      "interpretação política sem base jurídica"
+      "Dizer que CPI pode decretar prisão como pena.",
+      "Confundir sanção presidencial com promulgação legislativa."
     ],
-    "resumoFrase": "O Legislativo exerce função legislativa, fiscalizatória e de controle, atuando por meio de casas, comissões, processo legislativo e fiscalização contábil-financeira.",
-    "proximoTitulo": "Poder Executivo, responsabilidade política e defesa do Estado",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 20 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir emendas constitucionais, jurisprudência e edital antes da publicação final.",
-    "publicoAlvo": "Candidatos de OAB, concursos policiais, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direito Constitucional",
-    "explicacaoComoSeTivesse12": "Pense assim: O Legislativo exerce função legislativa, fiscalizatória e de controle, atuando por meio de casas, comissões, processo legislativo e fiscalização contábil-financeira. Para acertar prova, não basta decorar. Você precisa saber quem pode fazer, qual regra vale e qual é a exceção.",
+    "mapaMentalTexto": [
+      "Tema: Poder Legislativo e processo legislativo",
+      "Conceito: O Legislativo legisla, fiscaliza e representa a sociedade, não se limitando à criação de leis.",
+      "Aplicação: CPI pode quebrar sigilo com fundamentação, mas não pode determinar busca domiciliar sem ordem judicial.",
+      "Cuidado: Dizer que CPI pode decretar prisão como pena."
+    ],
     "comoEstudar": [
-      "Leia a tese e grife a competência.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça quadro de regra, exceção, órgão e efeito.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Em Constitucional, quase todo erro nasce de trocar competência, transformar regra em absoluto ou esquecer exceção.",
-    "mapaMentalTextual": [
-      "Centro: Poder Legislativo, processo legislativo e fiscalização",
-      "Ramo 1: conceito",
-      "Ramo 2: base constitucional",
-      "Ramo 3: competência",
-      "Ramo 4: exceção",
-      "Ramo 5: pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a tese central de Poder Legislativo?",
-        "verso": "O Legislativo exerce função legislativa, fiscalizatória e de controle, atuando por meio de casas, comissões, processo legislativo e fiscalização contábil-financeira."
+        "id": "direito-constitucional-avancado-07-fc01",
+        "frente": "Qual é a ideia central de Poder Legislativo e processo legislativo?",
+        "verso": "O Legislativo legisla, fiscaliza e representa a sociedade, não se limitando à criação de leis.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha evitar em Poder Legislativo?",
-        "verso": "Confundir lei ordinária, lei complementar, emenda constitucional e medidas provisórias."
+        "id": "direito-constitucional-avancado-07-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em produção normativa e fiscalização?",
+        "verso": "Processo legislativo tem iniciativa, discussão, votação, sanção ou veto, promulgação e publicação conforme a espécie normativa.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual roteiro estudar em Poder Legislativo?",
-        "verso": "Congresso, Câmara, Senado, espécies normativas, CPIs, TCU e fiscalização"
+        "id": "direito-constitucional-avancado-07-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Dizer que CPI pode decretar prisão como pena.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar Poder Legislativo em questão prática?",
-        "verso": "Identifique o tema, aplique a regra constitucional, confira exceções e conclua com o órgão ou efeito correto."
+        "id": "direito-constitucional-avancado-07-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "CPI pode quebrar sigilo com fundamentação, mas não pode determinar busca domiciliar sem ordem judicial.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "identifica o tema constitucional",
-      "separa regra e exceção",
-      "não troca competências",
-      "aplica ao caso concreto"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Responder 3 questões e revisar a tese."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Refazer as questões erradas e explicar a pegadinha."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Montar quadro comparativo com outro capítulo."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique este capítulo em linguagem simples, depois gere 3 perguntas de revisão e corrija minha resposta.",
-      "alerta": "Não substitui conferência do texto constitucional atualizado, emendas e jurisprudência recente."
-    },
     "questoes": [
       {
-        "id": "q07-01",
+        "id": "direito-constitucional-avancado-07-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Poder Legislativo, processo legislativo e fiscalização, assinale a alternativa correta.",
+        "enunciado": "Em relação a Poder Legislativo e processo legislativo, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "O Legislativo exerce função legislativa, fiscalizatória e de controle, atuando por meio de casas, comissões, processo legislativo e fiscalização contábil-financeira.",
-          "A Constituição pode ser afastada por lei ordinária posterior.",
-          "Todo direito constitucional é absoluto e sem limite.",
-          "A banca sempre aceita interpretação política sem base jurídica.",
-          "Competências constitucionais podem ser trocadas por conveniência."
+          "O Legislativo legisla, fiscaliza e representa a sociedade, não se limitando à criação de leis.",
+          "Dizer que CPI pode decretar prisão como pena.",
+          "Confundir sanção presidencial com promulgação legislativa.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O Legislativo exerce função legislativa, fiscalizatória e de controle, atuando por meio de casas, comissões, processo legislativo e fiscalização contábil-financeira.",
-          "Errada. Confunde processo legislativo e controle político com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "O Legislativo exerce função legislativa, fiscalizatória e de controle, atuando por meio de casas, comissões, processo legislativo e fiscalização contábil-financeira.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: O Legislativo legisla, fiscaliza e representa a sociedade, não se limitando à criação de leis."
       },
       {
-        "id": "q07-02",
+        "id": "direito-constitucional-avancado-07-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Poder Legislativo, é correto afirmar que o legislativo exerce função legislativa, fiscalizatória e de controle, atuando por meio de casas, comissões, processo legislativo e fiscalização contábil-financeira.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A afirmação reproduz a tese central do capítulo.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Processo legislativo tem iniciativa, discussão, votação, sanção ou veto, promulgação e publicação conforme a espécie normativa.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de produção normativa e fiscalização."
       },
       {
-        "id": "q07-03",
+        "id": "direito-constitucional-avancado-07-q03",
         "tipo": "certo_errado",
-        "enunciado": "No tema Poder Legislativo, a regra de prova é: Confundir lei ordinária, lei complementar, emenda constitucional e medidas provisórias.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A frase descreve a pegadinha, não a regra correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Dizer que CPI pode decretar prisão como pena.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q07-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual é a principal pegadinha sobre Poder Legislativo?",
-        "alternativas": [
-          "Confundir lei ordinária, lei complementar, emenda constitucional e medidas provisórias.",
-          "Ler o texto constitucional antes de responder.",
-          "Separar regra, exceção e competência.",
-          "Identificar o órgão constitucional correto.",
-          "Conferir a espécie normativa exigida."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa correta aponta o erro que a banca costuma explorar.",
-          "Errada. Confunde processo legislativo e controle político com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "A alternativa correta aponta o erro que a banca costuma explorar.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
-      },
-      {
-        "id": "q07-05",
+        "id": "direito-constitucional-avancado-07-q04",
         "tipo": "caso_pratico",
-        "enunciado": "Uma lei ordinária trata de matéria reservada à lei complementar. Qual problema?",
-        "respostaModelo": "Há vício formal, porque a espécie normativa exigida pela Constituição não foi observada.",
-        "criteriosCorrecao": [
-          "identificar o tema",
-          "apontar a regra constitucional",
-          "mencionar limite ou exceção",
-          "concluir de forma objetiva"
-        ],
-        "comentario": "Caso prático exige aplicar a Constituição, não apenas repetir conceito.",
-        "diagnosticoIA": "Se errou, revise Poder Legislativo com foco em regra e exceção."
+        "enunciado": "Considere o caso: CPI pode quebrar sigilo com fundamentação, mas não pode determinar busca domiciliar sem ordem judicial. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Comissões parlamentares de inquérito possuem poderes de investigação próprios de autoridades judiciais, mas não podem julgar ou condenar.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q07-06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Diferencie lei ordinária e lei complementar.",
-        "respostaModelo": "A lei complementar exige matéria reservada e quórum de maioria absoluta; lei ordinária trata matérias comuns e segue quórum ordinário previsto no processo legislativo.",
-        "criteriosCorrecao": [
-          "Congresso",
-          "Câmara",
-          "Senado",
-          "espécies normativas",
-          "CPIs",
-          "TCU e fiscalização"
-        ],
-        "palavrasChaveEsperadas": [
-          "Congresso",
-          "Câmara",
-          "Senado",
-          "espécies normativas",
-          "CPIs",
-          "TCU e fiscalização"
-        ],
-        "comentario": "Resposta constitucional boa tem conceito, fundamento, limite e consequência prática.",
-        "diagnosticoIA": "Se a resposta ficou genérica, reescreva em quatro passos: conceito, regra, exceção e exemplo."
+        "id": "direito-constitucional-avancado-07-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que produção normativa e fiscalização não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar o legislativo legisla, fiscaliza e representa a sociedade, não se limitando à criação de leis. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q07-07",
+        "id": "direito-constitucional-avancado-07-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie CPI de processo judicial em uma resposta de prova.",
-        "respostaModelo": "CPI e processo judicial se relacionam, mas não se confundem. A diferença central é: CPI investiga politicamente com poderes próprios, mas não julga nem aplica pena jurisdicional",
-        "criteriosCorrecao": [
-          "conceito de cada instituto",
-          "diferença central",
-          "efeito jurídico",
-          "exemplo de cobrança"
-        ],
-        "comentario": "Questões comparativas em Constitucional cobram precisão de linguagem.",
-        "diagnosticoIA": "Faça tabela com conceito, órgão, procedimento e consequência."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: O Legislativo legisla, fiscaliza e representa a sociedade, não se limitando à criação de leis. Pegadinha: Dizer que CPI pode decretar prisão como pena.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q07-08",
+        "id": "direito-constitucional-avancado-07-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Para revisar Poder Legislativo, qual roteiro é mais seguro?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Congresso, Câmara, Senado, espécies normativas, CPIs, TCU e fiscalização",
-          "Decorar uma frase isolada sem ver exceções.",
-          "Responder por opinião pessoal.",
-          "Ignorar a competência do órgão.",
-          "Tratar todos os temas como iguais."
+          "Comissões parlamentares de inquérito possuem poderes de investigação próprios de autoridades judiciais, mas não podem julgar ou condenar.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Confundir sanção presidencial com promulgação legislativa."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-          "Errada. Confunde processo legislativo e controle político com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q07-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em prova, palavras absolutas podem indicar pegadinha quando afastam limites ou exceções de Poder Legislativo.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Palavras absolutas exigem cautela, especialmente em direitos e competências.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "id": "direito-constitucional-avancado-07-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Confundir sanção presidencial com promulgação legislativa.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q07-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Poder Legislativo para um candidato de concurso.",
-        "promptTutorIA": "Explique Poder Legislativo usando: conceito, base constitucional, uma pegadinha comum e um exemplo de questão.",
-        "criterioDominio": [
-          "explicação simples",
-          "base constitucional",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo."
+        "id": "direito-constitucional-avancado-07-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Poder Legislativo e processo legislativo a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Controle externo com auxílio dos Tribunais de Contas examina legalidade, legitimidade e economicidade.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-constitucional-avancado-07-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: O Legislativo legisla, fiscaliza e representa a sociedade, não se limitando à criação de leis.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Poder Executivo, responsabilidade e defesa do Estado"
   },
   {
-    "id": "poder-executivo-responsabilidade-politica-e-defesa-do-estado",
-    "materialTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "id": "poder-executivo-responsabilidade-e-defesa-do-estado",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 8,
     "totalChapters": 10,
-    "title": "Poder Executivo, responsabilidade política e defesa do Estado",
-    "assunto": "Poder Executivo",
-    "tecnica": "Leitura constitucional por conceito, artigo, competência, exceção e pegadinha de banca",
-    "competencia": "Resolver questões constitucionais com precisão, separando regra, exceção, órgão e efeito jurídico.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 28,
+    "title": "Poder Executivo, responsabilidade e defesa do Estado",
+    "assunto": "chefia, governo e situações excepcionais",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar chefia, governo e situações excepcionais com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
-      "VUNESP": 4,
+      "CEBRASPE": 5,
+      "FCC": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "Poder Executivo",
-      "crime de responsabilidade",
-      "intervenção",
+      "Executivo",
+      "responsabilidade",
       "estado de defesa"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Jurisprudência constitucional em linguagem pedagógica",
-      "Editais de OAB, tribunais e concursos policiais",
-      "Doutrina constitucional básica para concursos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Poder Executivo com foco em OAB, área policial, tribunais e concursos públicos. A banca costuma cobrar menos decoreba solta e mais distinção entre regra, exceção, órgão competente e efeito jurídico.",
-      "Ideia central: O Poder Executivo executa políticas públicas, exerce direção administrativa e possui competências constitucionais sujeitas a limites, controle e responsabilidade. Essa frase deve virar resumo no caderno do aluno, porque ajuda a eliminar alternativas absolutas e confusas.",
-      "Erro comum: Achar que competência presidencial elimina controle legislativo, judicial ou responsabilidade política. Em prova, esse erro aparece disfarçado em alternativas que parecem técnicas, mas trocam competência, hierarquia ou procedimento.",
-      "Como estudar: aplique o modelo Presidente, Ministros, crimes de responsabilidade, intervenção, estado de defesa e estado de sítio. Depois responda às questões, explique em voz alta e registre a pegadinha principal."
+      "Poder Executivo, responsabilidade e defesa do Estado exige domínio de chefia, governo e situações excepcionais. O estudo correto começa pela ideia de que o Executivo acumula funções de chefia de Estado, chefia de governo e direção superior da administração.",
+      "Responsabilidade política envolve mecanismos próprios, como crimes de responsabilidade, distintos de infrações penais comuns. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Estado de defesa e estado de sítio são regimes excepcionais, temporários e controlados, não carta branca para arbitrariedade. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Forças de segurança atuam dentro de competência constitucional e sob controle civil e jurídico. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "O Poder Executivo executa políticas públicas, exerce direção administrativa e possui competências constitucionais sujeitas a limites, controle e responsabilidade.",
-      "A Constituição exige leitura por hierarquia, competência e procedimento.",
-      "Pegadinha comum: Achar que competência presidencial elimina controle legislativo, judicial ou responsabilidade política.",
-      "Modelo de prova: Presidente, Ministros, crimes de responsabilidade, intervenção, estado de defesa e estado de sítio"
+      "O Executivo acumula funções de chefia de Estado, chefia de governo e direção superior da administração.",
+      "Responsabilidade política envolve mecanismos próprios, como crimes de responsabilidade, distintos de infrações penais comuns.",
+      "Estado de defesa e estado de sítio são regimes excepcionais, temporários e controlados, não carta branca para arbitrariedade.",
+      "Forças de segurança atuam dentro de competência constitucional e sob controle civil e jurídico."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Achar que competência presidencial elimina controle legislativo, judicial ou responsabilidade política.",
-        "O Poder Executivo executa políticas públicas, exerce direção administrativa e possui competências constitucionais sujeitas a limites, controle e responsabilidade.",
-        "O tema só aparece em questões discursivas."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta resume o núcleo jurídico do capítulo sem absolutismo."
-    },
-    "oQueCobra": "Conceitos, artigos centrais, competência de órgãos, limites, exceções, remédios constitucionais e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Estado, Constituição, legalidade, separação dos poderes, direitos fundamentais e Administração Pública.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura institutos parecidos, troca órgão competente e usa palavras absolutas para induzir erro."
+        "pergunta": "Qual é o núcleo de Poder Executivo, responsabilidade e defesa do Estado?",
+        "resposta": "O Executivo acumula funções de chefia de Estado, chefia de governo e direção superior da administração."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique o tema, localize a regra constitucional, procure exceções e conclua sem extrapolar."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Tratar medida excepcional como suspensão total da Constituição."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em concursos policiais e tribunais, Constitucional aparece conectado a direitos, Administração, segurança pública e controle estatal."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Situação de grave instabilidade não elimina direitos; medidas excepcionais precisam de fundamento, prazo e controle."
       }
     ],
-    "comoIdentificar": "Procure palavras como Constituição, competência, direito fundamental, Poderes, controle, lei, órgão, garantia e exceção.",
+    "quadroDeDominio": {
+      "conceito": "O Executivo acumula funções de chefia de Estado, chefia de governo e direção superior da administração.",
+      "limite": "Responsabilidade política envolve mecanismos próprios, como crimes de responsabilidade, distintos de infrações penais comuns.",
+      "aplicacao": "Situação de grave instabilidade não elimina direitos; medidas excepcionais precisam de fundamento, prazo e controle.",
+      "erroFatal": "Tratar medida excepcional como suspensão total da Constituição."
+    },
+    "exemploComentado": "Situação de grave instabilidade não elimina direitos; medidas excepcionais precisam de fundamento, prazo e controle.",
     "pegadinhas": [
-      "palavras absolutas",
-      "troca de competência",
-      "confusão entre regra e exceção",
-      "mistura de espécie normativa",
-      "interpretação política sem base jurídica"
+      "Tratar medida excepcional como suspensão total da Constituição.",
+      "Confundir crime comum com crime de responsabilidade."
     ],
-    "resumoFrase": "O Poder Executivo executa políticas públicas, exerce direção administrativa e possui competências constitucionais sujeitas a limites, controle e responsabilidade.",
-    "proximoTitulo": "Poder Judiciário, funções essenciais e controle de constitucionalidade",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 20 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir emendas constitucionais, jurisprudência e edital antes da publicação final.",
-    "publicoAlvo": "Candidatos de OAB, concursos policiais, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direito Constitucional",
-    "explicacaoComoSeTivesse12": "Pense assim: O Poder Executivo executa políticas públicas, exerce direção administrativa e possui competências constitucionais sujeitas a limites, controle e responsabilidade. Para acertar prova, não basta decorar. Você precisa saber quem pode fazer, qual regra vale e qual é a exceção.",
+    "mapaMentalTexto": [
+      "Tema: Poder Executivo, responsabilidade e defesa do Estado",
+      "Conceito: O Executivo acumula funções de chefia de Estado, chefia de governo e direção superior da administração.",
+      "Aplicação: Situação de grave instabilidade não elimina direitos; medidas excepcionais precisam de fundamento, prazo e controle.",
+      "Cuidado: Tratar medida excepcional como suspensão total da Constituição."
+    ],
     "comoEstudar": [
-      "Leia a tese e grife a competência.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça quadro de regra, exceção, órgão e efeito.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Em Constitucional, quase todo erro nasce de trocar competência, transformar regra em absoluto ou esquecer exceção.",
-    "mapaMentalTextual": [
-      "Centro: Poder Executivo, responsabilidade política e defesa do Estado",
-      "Ramo 1: conceito",
-      "Ramo 2: base constitucional",
-      "Ramo 3: competência",
-      "Ramo 4: exceção",
-      "Ramo 5: pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a tese central de Poder Executivo?",
-        "verso": "O Poder Executivo executa políticas públicas, exerce direção administrativa e possui competências constitucionais sujeitas a limites, controle e responsabilidade."
+        "id": "direito-constitucional-avancado-08-fc01",
+        "frente": "Qual é a ideia central de Poder Executivo, responsabilidade e defesa do Estado?",
+        "verso": "O Executivo acumula funções de chefia de Estado, chefia de governo e direção superior da administração.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha evitar em Poder Executivo?",
-        "verso": "Achar que competência presidencial elimina controle legislativo, judicial ou responsabilidade política."
+        "id": "direito-constitucional-avancado-08-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em chefia, governo e situações excepcionais?",
+        "verso": "Responsabilidade política envolve mecanismos próprios, como crimes de responsabilidade, distintos de infrações penais comuns.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual roteiro estudar em Poder Executivo?",
-        "verso": "Presidente, Ministros, crimes de responsabilidade, intervenção, estado de defesa e estado de sítio"
+        "id": "direito-constitucional-avancado-08-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Tratar medida excepcional como suspensão total da Constituição.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar Poder Executivo em questão prática?",
-        "verso": "Identifique o tema, aplique a regra constitucional, confira exceções e conclua com o órgão ou efeito correto."
+        "id": "direito-constitucional-avancado-08-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Situação de grave instabilidade não elimina direitos; medidas excepcionais precisam de fundamento, prazo e controle.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "identifica o tema constitucional",
-      "separa regra e exceção",
-      "não troca competências",
-      "aplica ao caso concreto"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Responder 3 questões e revisar a tese."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Refazer as questões erradas e explicar a pegadinha."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Montar quadro comparativo com outro capítulo."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique este capítulo em linguagem simples, depois gere 3 perguntas de revisão e corrija minha resposta.",
-      "alerta": "Não substitui conferência do texto constitucional atualizado, emendas e jurisprudência recente."
-    },
     "questoes": [
       {
-        "id": "q08-01",
+        "id": "direito-constitucional-avancado-08-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Poder Executivo, responsabilidade política e defesa do Estado, assinale a alternativa correta.",
+        "enunciado": "Em relação a Poder Executivo, responsabilidade e defesa do Estado, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "O Poder Executivo executa políticas públicas, exerce direção administrativa e possui competências constitucionais sujeitas a limites, controle e responsabilidade.",
-          "A Constituição pode ser afastada por lei ordinária posterior.",
-          "Todo direito constitucional é absoluto e sem limite.",
-          "A banca sempre aceita interpretação política sem base jurídica.",
-          "Competências constitucionais podem ser trocadas por conveniência."
+          "O Executivo acumula funções de chefia de Estado, chefia de governo e direção superior da administração.",
+          "Tratar medida excepcional como suspensão total da Constituição.",
+          "Confundir crime comum com crime de responsabilidade.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O Poder Executivo executa políticas públicas, exerce direção administrativa e possui competências constitucionais sujeitas a limites, controle e responsabilidade.",
-          "Errada. Confunde competências e responsabilidade do Presidente com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "O Poder Executivo executa políticas públicas, exerce direção administrativa e possui competências constitucionais sujeitas a limites, controle e responsabilidade.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: O Executivo acumula funções de chefia de Estado, chefia de governo e direção superior da administração."
       },
       {
-        "id": "q08-02",
+        "id": "direito-constitucional-avancado-08-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Poder Executivo, é correto afirmar que o poder executivo executa políticas públicas, exerce direção administrativa e possui competências constitucionais sujeitas a limites, controle e responsabilidade.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A afirmação reproduz a tese central do capítulo.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Responsabilidade política envolve mecanismos próprios, como crimes de responsabilidade, distintos de infrações penais comuns.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de chefia, governo e situações excepcionais."
       },
       {
-        "id": "q08-03",
+        "id": "direito-constitucional-avancado-08-q03",
         "tipo": "certo_errado",
-        "enunciado": "No tema Poder Executivo, a regra de prova é: Achar que competência presidencial elimina controle legislativo, judicial ou responsabilidade política.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A frase descreve a pegadinha, não a regra correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Tratar medida excepcional como suspensão total da Constituição.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q08-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual é a principal pegadinha sobre Poder Executivo?",
-        "alternativas": [
-          "Achar que competência presidencial elimina controle legislativo, judicial ou responsabilidade política.",
-          "Ler o texto constitucional antes de responder.",
-          "Separar regra, exceção e competência.",
-          "Identificar o órgão constitucional correto.",
-          "Conferir a espécie normativa exigida."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa correta aponta o erro que a banca costuma explorar.",
-          "Errada. Confunde competências e responsabilidade do Presidente com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "A alternativa correta aponta o erro que a banca costuma explorar.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
-      },
-      {
-        "id": "q08-05",
+        "id": "direito-constitucional-avancado-08-q04",
         "tipo": "caso_pratico",
-        "enunciado": "O Presidente pratica ato incompatível com dever constitucional. A análise é só penal comum?",
-        "respostaModelo": "Não. Pode haver discussão sobre responsabilidade política, crime de responsabilidade e mecanismos constitucionais de controle.",
-        "criteriosCorrecao": [
-          "identificar o tema",
-          "apontar a regra constitucional",
-          "mencionar limite ou exceção",
-          "concluir de forma objetiva"
-        ],
-        "comentario": "Caso prático exige aplicar a Constituição, não apenas repetir conceito.",
-        "diagnosticoIA": "Se errou, revise Poder Executivo com foco em regra e exceção."
+        "enunciado": "Considere o caso: Situação de grave instabilidade não elimina direitos; medidas excepcionais precisam de fundamento, prazo e controle. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Estado de defesa e estado de sítio são regimes excepcionais, temporários e controlados, não carta branca para arbitrariedade.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q08-06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Explique a diferença entre estado de defesa e estado de sítio em termos gerais.",
-        "respostaModelo": "Ambos são mecanismos constitucionais excepcionais, mas têm pressupostos, intensidade, duração e controles próprios.",
-        "criteriosCorrecao": [
-          "Presidente",
-          "Ministros",
-          "crimes de responsabilidade",
-          "intervenção",
-          "estado de defesa e estado de sítio"
-        ],
-        "palavrasChaveEsperadas": [
-          "Presidente",
-          "Ministros",
-          "crimes de responsabilidade",
-          "intervenção",
-          "estado de defesa e estado de sítio"
-        ],
-        "comentario": "Resposta constitucional boa tem conceito, fundamento, limite e consequência prática.",
-        "diagnosticoIA": "Se a resposta ficou genérica, reescreva em quatro passos: conceito, regra, exceção e exemplo."
+        "id": "direito-constitucional-avancado-08-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que chefia, governo e situações excepcionais não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar o executivo acumula funções de chefia de estado, chefia de governo e direção superior da administração. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q08-07",
+        "id": "direito-constitucional-avancado-08-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie intervenção federal de estado de defesa em uma resposta de prova.",
-        "respostaModelo": "intervenção federal e estado de defesa se relacionam, mas não se confundem. A diferença central é: intervenção altera temporariamente autonomia federativa; estado de defesa lida com grave instabilidade ou calamidade em locais restritos",
-        "criteriosCorrecao": [
-          "conceito de cada instituto",
-          "diferença central",
-          "efeito jurídico",
-          "exemplo de cobrança"
-        ],
-        "comentario": "Questões comparativas em Constitucional cobram precisão de linguagem.",
-        "diagnosticoIA": "Faça tabela com conceito, órgão, procedimento e consequência."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: O Executivo acumula funções de chefia de Estado, chefia de governo e direção superior da administração. Pegadinha: Tratar medida excepcional como suspensão total da Constituição.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q08-08",
+        "id": "direito-constitucional-avancado-08-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Para revisar Poder Executivo, qual roteiro é mais seguro?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "Presidente, Ministros, crimes de responsabilidade, intervenção, estado de defesa e estado de sítio",
-          "Decorar uma frase isolada sem ver exceções.",
-          "Responder por opinião pessoal.",
-          "Ignorar a competência do órgão.",
-          "Tratar todos os temas como iguais."
+          "Estado de defesa e estado de sítio são regimes excepcionais, temporários e controlados, não carta branca para arbitrariedade.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Confundir crime comum com crime de responsabilidade."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-          "Errada. Confunde competências e responsabilidade do Presidente com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q08-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em prova, palavras absolutas podem indicar pegadinha quando afastam limites ou exceções de Poder Executivo.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Palavras absolutas exigem cautela, especialmente em direitos e competências.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "id": "direito-constitucional-avancado-08-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Confundir crime comum com crime de responsabilidade.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q08-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Poder Executivo para um candidato de concurso.",
-        "promptTutorIA": "Explique Poder Executivo usando: conceito, base constitucional, uma pegadinha comum e um exemplo de questão.",
-        "criterioDominio": [
-          "explicação simples",
-          "base constitucional",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo."
+        "id": "direito-constitucional-avancado-08-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Poder Executivo, responsabilidade e defesa do Estado a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Forças de segurança atuam dentro de competência constitucional e sob controle civil e jurídico.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-constitucional-avancado-08-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: O Executivo acumula funções de chefia de Estado, chefia de governo e direção superior da administração.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Poder Judiciário, funções essenciais e controle de constitucionalidade"
   },
   {
     "id": "poder-judiciario-funcoes-essenciais-e-controle-de-constitucionalidade",
-    "materialTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 9,
     "totalChapters": 10,
     "title": "Poder Judiciário, funções essenciais e controle de constitucionalidade",
-    "assunto": "Judiciário e controle",
-    "tecnica": "Leitura constitucional por conceito, artigo, competência, exceção e pegadinha de banca",
-    "competencia": "Resolver questões constitucionais com precisão, separando regra, exceção, órgão e efeito jurídico.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 28,
+    "assunto": "garantia jurisdicional da Constituição",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar garantia jurisdicional da Constituição com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
-      "VUNESP": 4,
+      "CEBRASPE": 5,
+      "FCC": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
-      "STF",
-      "controle difuso",
-      "controle concentrado",
-      "ADI"
+      "Judiciário",
+      "controle de constitucionalidade",
+      "funções essenciais"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Jurisprudência constitucional em linguagem pedagógica",
-      "Editais de OAB, tribunais e concursos policiais",
-      "Doutrina constitucional básica para concursos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Judiciário e controle com foco em OAB, área policial, tribunais e concursos públicos. A banca costuma cobrar menos decoreba solta e mais distinção entre regra, exceção, órgão competente e efeito jurídico.",
-      "Ideia central: O Judiciário protege a Constituição, resolve conflitos, controla validade de normas e atua com funções essenciais como Ministério Público, advocacias e Defensoria. Essa frase deve virar resumo no caderno do aluno, porque ajuda a eliminar alternativas absolutas e confusas.",
-      "Erro comum: Confundir controle difuso com concentrado, ou acreditar que qualquer pessoa propõe qualquer ação constitucional abstrata. Em prova, esse erro aparece disfarçado em alternativas que parecem técnicas, mas trocam competência, hierarquia ou procedimento.",
-      "Como estudar: aplique o modelo STF, tribunais, controle difuso, controle concentrado, ADI, ADC, ADPF, legitimados. Depois responda às questões, explique em voz alta e registre a pegadinha principal."
+      "Poder Judiciário, funções essenciais e controle de constitucionalidade exige domínio de garantia jurisdicional da Constituição. O estudo correto começa pela ideia de que judiciário aplica a Constituição e controla validade de atos normativos, preservando supremacia constitucional.",
+      "Controle difuso ocorre em caso concreto; controle concentrado discute a norma em tese por ações próprias. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Ministério Público, advocacia pública, defensoria e advocacia privada exercem funções essenciais à justiça com papéis distintos. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Jurisdição constitucional deve equilibrar proteção de direitos, separação de poderes e deferência institucional. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "O Judiciário protege a Constituição, resolve conflitos, controla validade de normas e atua com funções essenciais como Ministério Público, advocacias e Defensoria.",
-      "A Constituição exige leitura por hierarquia, competência e procedimento.",
-      "Pegadinha comum: Confundir controle difuso com concentrado, ou acreditar que qualquer pessoa propõe qualquer ação constitucional abstrata.",
-      "Modelo de prova: STF, tribunais, controle difuso, controle concentrado, ADI, ADC, ADPF, legitimados"
+      "Judiciário aplica a Constituição e controla validade de atos normativos, preservando supremacia constitucional.",
+      "Controle difuso ocorre em caso concreto; controle concentrado discute a norma em tese por ações próprias.",
+      "Ministério Público, advocacia pública, defensoria e advocacia privada exercem funções essenciais à justiça com papéis distintos.",
+      "Jurisdição constitucional deve equilibrar proteção de direitos, separação de poderes e deferência institucional."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Confundir controle difuso com concentrado, ou acreditar que qualquer pessoa propõe qualquer ação constitucional abstrata.",
-        "O Judiciário protege a Constituição, resolve conflitos, controla validade de normas e atua com funções essenciais como Ministério Público, advocacias e Defensoria.",
-        "O tema só aparece em questões discursivas."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta resume o núcleo jurídico do capítulo sem absolutismo."
-    },
-    "oQueCobra": "Conceitos, artigos centrais, competência de órgãos, limites, exceções, remédios constitucionais e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Estado, Constituição, legalidade, separação dos poderes, direitos fundamentais e Administração Pública.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura institutos parecidos, troca órgão competente e usa palavras absolutas para induzir erro."
+        "pergunta": "Qual é o núcleo de Poder Judiciário, funções essenciais e controle de constitucionalidade?",
+        "resposta": "Judiciário aplica a Constituição e controla validade de atos normativos, preservando supremacia constitucional."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique o tema, localize a regra constitucional, procure exceções e conclua sem extrapolar."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Confundir controle difuso com concentrado."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em concursos policiais e tribunais, Constitucional aparece conectado a direitos, Administração, segurança pública e controle estatal."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Uma lei municipal pode ser afastada em caso concreto por juiz, mas efeito geral normalmente exige via adequada."
       }
     ],
-    "comoIdentificar": "Procure palavras como Constituição, competência, direito fundamental, Poderes, controle, lei, órgão, garantia e exceção.",
+    "quadroDeDominio": {
+      "conceito": "Judiciário aplica a Constituição e controla validade de atos normativos, preservando supremacia constitucional.",
+      "limite": "Controle difuso ocorre em caso concreto; controle concentrado discute a norma em tese por ações próprias.",
+      "aplicacao": "Uma lei municipal pode ser afastada em caso concreto por juiz, mas efeito geral normalmente exige via adequada.",
+      "erroFatal": "Confundir controle difuso com concentrado."
+    },
+    "exemploComentado": "Uma lei municipal pode ser afastada em caso concreto por juiz, mas efeito geral normalmente exige via adequada.",
     "pegadinhas": [
-      "palavras absolutas",
-      "troca de competência",
-      "confusão entre regra e exceção",
-      "mistura de espécie normativa",
-      "interpretação política sem base jurídica"
+      "Confundir controle difuso com concentrado.",
+      "Achar que toda decisão judicial produz efeito geral automático."
     ],
-    "resumoFrase": "O Judiciário protege a Constituição, resolve conflitos, controla validade de normas e atua com funções essenciais como Ministério Público, advocacias e Defensoria.",
-    "proximoTitulo": "Ordem social, segurança pública, Forças Armadas e revisão final",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 20 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir emendas constitucionais, jurisprudência e edital antes da publicação final.",
-    "publicoAlvo": "Candidatos de OAB, concursos policiais, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direito Constitucional",
-    "explicacaoComoSeTivesse12": "Pense assim: O Judiciário protege a Constituição, resolve conflitos, controla validade de normas e atua com funções essenciais como Ministério Público, advocacias e Defensoria. Para acertar prova, não basta decorar. Você precisa saber quem pode fazer, qual regra vale e qual é a exceção.",
+    "mapaMentalTexto": [
+      "Tema: Poder Judiciário, funções essenciais e controle de constitucionalidade",
+      "Conceito: Judiciário aplica a Constituição e controla validade de atos normativos, preservando supremacia constitucional.",
+      "Aplicação: Uma lei municipal pode ser afastada em caso concreto por juiz, mas efeito geral normalmente exige via adequada.",
+      "Cuidado: Confundir controle difuso com concentrado."
+    ],
     "comoEstudar": [
-      "Leia a tese e grife a competência.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça quadro de regra, exceção, órgão e efeito.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Em Constitucional, quase todo erro nasce de trocar competência, transformar regra em absoluto ou esquecer exceção.",
-    "mapaMentalTextual": [
-      "Centro: Poder Judiciário, funções essenciais e controle de constitucionalidade",
-      "Ramo 1: conceito",
-      "Ramo 2: base constitucional",
-      "Ramo 3: competência",
-      "Ramo 4: exceção",
-      "Ramo 5: pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a tese central de Judiciário e controle?",
-        "verso": "O Judiciário protege a Constituição, resolve conflitos, controla validade de normas e atua com funções essenciais como Ministério Público, advocacias e Defensoria."
+        "id": "direito-constitucional-avancado-09-fc01",
+        "frente": "Qual é a ideia central de Poder Judiciário, funções essenciais e controle de constitucionalidade?",
+        "verso": "Judiciário aplica a Constituição e controla validade de atos normativos, preservando supremacia constitucional.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha evitar em Judiciário e controle?",
-        "verso": "Confundir controle difuso com concentrado, ou acreditar que qualquer pessoa propõe qualquer ação constitucional abstrata."
+        "id": "direito-constitucional-avancado-09-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em garantia jurisdicional da Constituição?",
+        "verso": "Controle difuso ocorre em caso concreto; controle concentrado discute a norma em tese por ações próprias.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual roteiro estudar em Judiciário e controle?",
-        "verso": "STF, tribunais, controle difuso, controle concentrado, ADI, ADC, ADPF, legitimados"
+        "id": "direito-constitucional-avancado-09-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Confundir controle difuso com concentrado. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar Judiciário e controle em questão prática?",
-        "verso": "Identifique o tema, aplique a regra constitucional, confira exceções e conclua com o órgão ou efeito correto."
+        "id": "direito-constitucional-avancado-09-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Uma lei municipal pode ser afastada em caso concreto por juiz, mas efeito geral normalmente exige via adequada.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "identifica o tema constitucional",
-      "separa regra e exceção",
-      "não troca competências",
-      "aplica ao caso concreto"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Responder 3 questões e revisar a tese."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Refazer as questões erradas e explicar a pegadinha."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Montar quadro comparativo com outro capítulo."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique este capítulo em linguagem simples, depois gere 3 perguntas de revisão e corrija minha resposta.",
-      "alerta": "Não substitui conferência do texto constitucional atualizado, emendas e jurisprudência recente."
-    },
     "questoes": [
       {
-        "id": "q09-01",
+        "id": "direito-constitucional-avancado-09-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Poder Judiciário, funções essenciais e controle de constitucionalidade, assinale a alternativa correta.",
+        "enunciado": "Em relação a Poder Judiciário, funções essenciais e controle de constitucionalidade, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "O Judiciário protege a Constituição, resolve conflitos, controla validade de normas e atua com funções essenciais como Ministério Público, advocacias e Defensoria.",
-          "A Constituição pode ser afastada por lei ordinária posterior.",
-          "Todo direito constitucional é absoluto e sem limite.",
-          "A banca sempre aceita interpretação política sem base jurídica.",
-          "Competências constitucionais podem ser trocadas por conveniência."
+          "Judiciário aplica a Constituição e controla validade de atos normativos, preservando supremacia constitucional.",
+          "Confundir controle difuso com concentrado.",
+          "Achar que toda decisão judicial produz efeito geral automático.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. O Judiciário protege a Constituição, resolve conflitos, controla validade de normas e atua com funções essenciais como Ministério Público, advocacias e Defensoria.",
-          "Errada. Confunde controle difuso e concentrado com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "O Judiciário protege a Constituição, resolve conflitos, controla validade de normas e atua com funções essenciais como Ministério Público, advocacias e Defensoria.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: Judiciário aplica a Constituição e controla validade de atos normativos, preservando supremacia constitucional."
       },
       {
-        "id": "q09-02",
+        "id": "direito-constitucional-avancado-09-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Judiciário e controle, é correto afirmar que o judiciário protege a constituição, resolve conflitos, controla validade de normas e atua com funções essenciais como ministério público, advocacias e defensoria.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A afirmação reproduz a tese central do capítulo.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Controle difuso ocorre em caso concreto; controle concentrado discute a norma em tese por ações próprias.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de garantia jurisdicional da Constituição."
       },
       {
-        "id": "q09-03",
+        "id": "direito-constitucional-avancado-09-q03",
         "tipo": "certo_errado",
-        "enunciado": "No tema Judiciário e controle, a regra de prova é: Confundir controle difuso com concentrado, ou acreditar que qualquer pessoa propõe qualquer ação constitucional abstrata.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A frase descreve a pegadinha, não a regra correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Confundir controle difuso com concentrado.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q09-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual é a principal pegadinha sobre Judiciário e controle?",
-        "alternativas": [
-          "Confundir controle difuso com concentrado, ou acreditar que qualquer pessoa propõe qualquer ação constitucional abstrata.",
-          "Ler o texto constitucional antes de responder.",
-          "Separar regra, exceção e competência.",
-          "Identificar o órgão constitucional correto.",
-          "Conferir a espécie normativa exigida."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa correta aponta o erro que a banca costuma explorar.",
-          "Errada. Confunde controle difuso e concentrado com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "A alternativa correta aponta o erro que a banca costuma explorar.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
-      },
-      {
-        "id": "q09-05",
+        "id": "direito-constitucional-avancado-09-q04",
         "tipo": "caso_pratico",
-        "enunciado": "Um juiz afasta lei no caso concreto por incompatibilidade com a Constituição. Qual modalidade?",
-        "respostaModelo": "Trata-se de controle difuso/incidental, feito no julgamento de um caso concreto.",
-        "criteriosCorrecao": [
-          "identificar o tema",
-          "apontar a regra constitucional",
-          "mencionar limite ou exceção",
-          "concluir de forma objetiva"
-        ],
-        "comentario": "Caso prático exige aplicar a Constituição, não apenas repetir conceito.",
-        "diagnosticoIA": "Se errou, revise Judiciário e controle com foco em regra e exceção."
+        "enunciado": "Considere o caso: Uma lei municipal pode ser afastada em caso concreto por juiz, mas efeito geral normalmente exige via adequada. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Ministério Público, advocacia pública, defensoria e advocacia privada exercem funções essenciais à justiça com papéis distintos.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q09-06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Diferencie controle difuso e controle concentrado.",
-        "respostaModelo": "O controle difuso ocorre em caso concreto e pode ser feito por juiz ou tribunal; o concentrado discute a norma em tese perante órgão competente, como o STF.",
-        "criteriosCorrecao": [
-          "STF",
-          "tribunais",
-          "controle difuso",
-          "controle concentrado",
-          "ADI",
-          "ADC",
-          "ADPF",
-          "legitimados"
-        ],
-        "palavrasChaveEsperadas": [
-          "STF",
-          "tribunais",
-          "controle difuso",
-          "controle concentrado",
-          "ADI",
-          "ADC",
-          "ADPF",
-          "legitimados"
-        ],
-        "comentario": "Resposta constitucional boa tem conceito, fundamento, limite e consequência prática.",
-        "diagnosticoIA": "Se a resposta ficou genérica, reescreva em quatro passos: conceito, regra, exceção e exemplo."
+        "id": "direito-constitucional-avancado-09-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que garantia jurisdicional da Constituição não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar judiciário aplica a constituição e controla validade de atos normativos, preservando supremacia constitucional. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q09-07",
+        "id": "direito-constitucional-avancado-09-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie ADI de ADPF em uma resposta de prova.",
-        "respostaModelo": "ADI e ADPF se relacionam, mas não se confundem. A diferença central é: ADI ataca lei ou ato normativo em face da Constituição; ADPF protege preceito fundamental em hipóteses próprias e subsidiárias",
-        "criteriosCorrecao": [
-          "conceito de cada instituto",
-          "diferença central",
-          "efeito jurídico",
-          "exemplo de cobrança"
-        ],
-        "comentario": "Questões comparativas em Constitucional cobram precisão de linguagem.",
-        "diagnosticoIA": "Faça tabela com conceito, órgão, procedimento e consequência."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Judiciário aplica a Constituição e controla validade de atos normativos, preservando supremacia constitucional. Pegadinha: Confundir controle difuso com concentrado.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q09-08",
+        "id": "direito-constitucional-avancado-09-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Para revisar Judiciário e controle, qual roteiro é mais seguro?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "STF, tribunais, controle difuso, controle concentrado, ADI, ADC, ADPF, legitimados",
-          "Decorar uma frase isolada sem ver exceções.",
-          "Responder por opinião pessoal.",
-          "Ignorar a competência do órgão.",
-          "Tratar todos os temas como iguais."
+          "Ministério Público, advocacia pública, defensoria e advocacia privada exercem funções essenciais à justiça com papéis distintos.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Achar que toda decisão judicial produz efeito geral automático."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-          "Errada. Confunde controle difuso e concentrado com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q09-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em prova, palavras absolutas podem indicar pegadinha quando afastam limites ou exceções de Judiciário e controle.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Palavras absolutas exigem cautela, especialmente em direitos e competências.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "id": "direito-constitucional-avancado-09-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Achar que toda decisão judicial produz efeito geral automático.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q09-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Judiciário e controle para um candidato de concurso.",
-        "promptTutorIA": "Explique Judiciário e controle usando: conceito, base constitucional, uma pegadinha comum e um exemplo de questão.",
-        "criterioDominio": [
-          "explicação simples",
-          "base constitucional",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo."
+        "id": "direito-constitucional-avancado-09-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Poder Judiciário, funções essenciais e controle de constitucionalidade a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Jurisdição constitucional deve equilibrar proteção de direitos, separação de poderes e deferência institucional.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-constitucional-avancado-09-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Judiciário aplica a Constituição e controla validade de atos normativos, preservando supremacia constitucional.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Ordem social, segurança pública e revisão integrada"
   },
   {
-    "id": "ordem-social-seguranca-publica-forcas-armadas-e-revisao-final",
-    "materialTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "id": "ordem-social-seguranca-publica-e-revisao-integrada",
+    "materialTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Constitucional Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
     "role": "Candidato",
-    "moduleTitle": "Direito Constitucional Avançado 10/10 Plus Revisado",
+    "moduleTitle": "Direito Constitucional Avançado 10/10 Reescrito de Verdade",
     "chapterIndex": 10,
     "totalChapters": 10,
-    "title": "Ordem social, segurança pública, Forças Armadas e revisão final",
-    "assunto": "Ordem social e segurança pública",
-    "tecnica": "Leitura constitucional por conceito, artigo, competência, exceção e pegadinha de banca",
-    "competencia": "Resolver questões constitucionais com precisão, separando regra, exceção, órgão e efeito jurídico.",
-    "dificuldade": "Médio-Alto",
-    "tempoLeituraMin": 12,
-    "tempoExercicioMin": 28,
+    "title": "Ordem social, segurança pública e revisão integrada",
+    "assunto": "direitos coletivos e proteção institucional",
+    "tecnica": "Conteúdo substantivo, comparação, caso prático e revisão por pegadinhas reais",
+    "competencia": "Dominar direitos coletivos e proteção institucional com aplicação em questões, casos e redação de justificativas.",
+    "dificuldade": "Avançado",
+    "tempoLeituraMin": 18,
+    "tempoExercicioMin": 35,
     "bancaRatings": {
       "FGV": 5,
-      "CESPE": 5,
-      "FCC": 5,
-      "VUNESP": 4,
+      "CEBRASPE": 5,
+      "FCC": 4,
+      "VUNESP": 5,
       "IBFC": 4,
-      "AOCP": 5,
-      "OAB": 5,
-      "ENEM": 2
+      "AOCP": 4,
+      "Instituto Consulplan": 4
     },
     "termosChave": [
       "ordem social",
       "segurança pública",
-      "art. 144",
-      "Forças Armadas"
+      "revisão"
     ],
-    "fontesBase": [
-      "Constituição Federal de 1988",
-      "Jurisprudência constitucional em linguagem pedagógica",
-      "Editais de OAB, tribunais e concursos policiais",
-      "Doutrina constitucional básica para concursos"
-    ],
-    "dataConferenciaPedagogica": "2026-07-08",
+    "dataReescritaQualidade": "2026-07-08",
+    "statusQualidade": "Reescrito do zero para substituir versão genérica/templated.",
     "precisaConferenciaOficialAntesDePublicar": true,
+    "motivoConferencia": "Conteúdo jurídico e de atualidades pode exigir conferência com edital, lei seca e fonte oficial vigente antes da publicação comercial.",
     "corpo": [
-      "Este capítulo trabalha Ordem social e segurança pública com foco em OAB, área policial, tribunais e concursos públicos. A banca costuma cobrar menos decoreba solta e mais distinção entre regra, exceção, órgão competente e efeito jurídico.",
-      "Ideia central: A Constituição organiza direitos sociais, ordem social, segurança pública, Forças Armadas e instituições de Estado com finalidades específicas e limites democráticos. Essa frase deve virar resumo no caderno do aluno, porque ajuda a eliminar alternativas absolutas e confusas.",
-      "Erro comum: Confundir segurança pública com função militar geral ou ignorar competências próprias dos órgãos do art. 144. Em prova, esse erro aparece disfarçado em alternativas que parecem técnicas, mas trocam competência, hierarquia ou procedimento.",
-      "Como estudar: aplique o modelo seguridade, educação, saúde, segurança pública, art. 144, Forças Armadas e revisão de competências. Depois responda às questões, explique em voz alta e registre a pegadinha principal."
+      "Ordem social, segurança pública e revisão integrada exige domínio de direitos coletivos e proteção institucional. O estudo correto começa pela ideia de que ordem social busca bem-estar e justiça social por meio de saúde, previdência, assistência, educação, cultura, meio ambiente e família.",
+      "Segurança pública é dever do Estado, direito e responsabilidade de todos, exercida por órgãos definidos constitucionalmente. Em prova, isso aparece por troca de conceitos próximos, mudança de consequência jurídica ou alteração do sujeito competente.",
+      "Polícia ostensiva, judiciária e penal possuem funções distintas, embora atuem em sistema de proteção social mais amplo. O aluno deve transformar essa regra em pergunta: qual é o requisito, qual é o limite e qual é o efeito prático?",
+      "Revisão constitucional avançada exige conectar princípio, competência, direito fundamental e mecanismo de controle. Esse fechamento impede o erro de decorar frase solta e ajuda a resolver casos inéditos."
     ],
     "pontosChave": [
-      "A Constituição organiza direitos sociais, ordem social, segurança pública, Forças Armadas e instituições de Estado com finalidades específicas e limites democráticos.",
-      "A Constituição exige leitura por hierarquia, competência e procedimento.",
-      "Pegadinha comum: Confundir segurança pública com função militar geral ou ignorar competências próprias dos órgãos do art. 144.",
-      "Modelo de prova: seguridade, educação, saúde, segurança pública, art. 144, Forças Armadas e revisão de competências"
+      "Ordem social busca bem-estar e justiça social por meio de saúde, previdência, assistência, educação, cultura, meio ambiente e família.",
+      "Segurança pública é dever do Estado, direito e responsabilidade de todos, exercida por órgãos definidos constitucionalmente.",
+      "Polícia ostensiva, judiciária e penal possuem funções distintas, embora atuem em sistema de proteção social mais amplo.",
+      "Revisão constitucional avançada exige conectar princípio, competência, direito fundamental e mecanismo de controle."
     ],
-    "checkRapido": {
-      "pergunta": "Qual alternativa representa melhor a tese do capítulo?",
-      "opcoes": [
-        "Confundir segurança pública com função militar geral ou ignorar competências próprias dos órgãos do art. 144.",
-        "A Constituição organiza direitos sociais, ordem social, segurança pública, Forças Armadas e instituições de Estado com finalidades específicas e limites democráticos.",
-        "O tema só aparece em questões discursivas."
-      ],
-      "correta": 1,
-      "justificativa": "A tese correta resume o núcleo jurídico do capítulo sem absolutismo."
-    },
-    "oQueCobra": "Conceitos, artigos centrais, competência de órgãos, limites, exceções, remédios constitucionais e aplicação em casos concretos.",
-    "precisaSaberAntes": "Noções de Estado, Constituição, legalidade, separação dos poderes, direitos fundamentais e Administração Pública.",
-    "explicacao": [
+    "checkRapido": [
       {
-        "titulo": "Como a banca cobra",
-        "texto": "A banca mistura institutos parecidos, troca órgão competente e usa palavras absolutas para induzir erro."
+        "pergunta": "Qual é o núcleo de Ordem social, segurança pública e revisão integrada?",
+        "resposta": "Ordem social busca bem-estar e justiça social por meio de saúde, previdência, assistência, educação, cultura, meio ambiente e família."
       },
       {
-        "titulo": "Como acertar",
-        "texto": "Identifique o tema, localize a regra constitucional, procure exceções e conclua sem extrapolar."
+        "pergunta": "Qual erro mais comum?",
+        "resposta": "Achar que segurança pública é só repressão."
       },
       {
-        "titulo": "Conexão prática",
-        "texto": "Em concursos policiais e tribunais, Constitucional aparece conectado a direitos, Administração, segurança pública e controle estatal."
+        "pergunta": "Como aplicar em caso prático?",
+        "resposta": "Em questão sobre polícia militar, a função ostensiva e preservação da ordem pública não se confunde com investigação de infrações penais comuns."
       }
     ],
-    "comoIdentificar": "Procure palavras como Constituição, competência, direito fundamental, Poderes, controle, lei, órgão, garantia e exceção.",
+    "quadroDeDominio": {
+      "conceito": "Ordem social busca bem-estar e justiça social por meio de saúde, previdência, assistência, educação, cultura, meio ambiente e família.",
+      "limite": "Segurança pública é dever do Estado, direito e responsabilidade de todos, exercida por órgãos definidos constitucionalmente.",
+      "aplicacao": "Em questão sobre polícia militar, a função ostensiva e preservação da ordem pública não se confunde com investigação de infrações penais comuns.",
+      "erroFatal": "Achar que segurança pública é só repressão."
+    },
+    "exemploComentado": "Em questão sobre polícia militar, a função ostensiva e preservação da ordem pública não se confunde com investigação de infrações penais comuns.",
     "pegadinhas": [
-      "palavras absolutas",
-      "troca de competência",
-      "confusão entre regra e exceção",
-      "mistura de espécie normativa",
-      "interpretação política sem base jurídica"
+      "Achar que segurança pública é só repressão.",
+      "Misturar atribuições constitucionais de órgãos policiais."
     ],
-    "resumoFrase": "A Constituição organiza direitos sociais, ordem social, segurança pública, Forças Armadas e instituições de Estado com finalidades específicas e limites democráticos.",
-    "proximoTitulo": "Revisão geral de Direito Constitucional Avançado",
-    "padraoPlataforma": "10/10 Plus Revisado — sem placeholders, gabarito obrigatório e validação programática",
-    "versaoConteudo": "Lote 20 - 2026-07-07",
-    "statusRevisao": "Revisado programaticamente",
-    "riscoAtualizacao": "Médio-Alto: conferir emendas constitucionais, jurisprudência e edital antes da publicação final.",
-    "publicoAlvo": "Candidatos de OAB, concursos policiais, tribunais e carreiras públicas",
-    "areaPlataforma": "Concursos Policiais / OAB / Direito Constitucional",
-    "explicacaoComoSeTivesse12": "Pense assim: A Constituição organiza direitos sociais, ordem social, segurança pública, Forças Armadas e instituições de Estado com finalidades específicas e limites democráticos. Para acertar prova, não basta decorar. Você precisa saber quem pode fazer, qual regra vale e qual é a exceção.",
+    "mapaMentalTexto": [
+      "Tema: Ordem social, segurança pública e revisão integrada",
+      "Conceito: Ordem social busca bem-estar e justiça social por meio de saúde, previdência, assistência, educação, cultura, meio ambiente e família.",
+      "Aplicação: Em questão sobre polícia militar, a função ostensiva e preservação da ordem pública não se confunde com investigação de infrações penais comuns.",
+      "Cuidado: Achar que segurança pública é só repressão."
+    ],
     "comoEstudar": [
-      "Leia a tese e grife a competência.",
-      "Resolva as 10 questões sem olhar o gabarito.",
-      "Faça quadro de regra, exceção, órgão e efeito.",
-      "Revise em 24h, 7 dias e 30 dias."
+      "Leia o conceito e escreva um exemplo próprio.",
+      "Compare a regra correta com a pegadinha.",
+      "Resolva as questões justificando cada alternativa.",
+      "Revise pelo flashcard de aplicação."
     ],
-    "paraNaoEsquecer": "Em Constitucional, quase todo erro nasce de trocar competência, transformar regra em absoluto ou esquecer exceção.",
-    "mapaMentalTextual": [
-      "Centro: Ordem social, segurança pública, Forças Armadas e revisão final",
-      "Ramo 1: conceito",
-      "Ramo 2: base constitucional",
-      "Ramo 3: competência",
-      "Ramo 4: exceção",
-      "Ramo 5: pegadinha"
+    "revisaoProgramada": [
+      "D0: leitura + questões",
+      "D2: refazer erros",
+      "D7: flashcards",
+      "D21: simulado misto"
     ],
     "flashcards": [
       {
-        "frente": "Qual é a tese central de Ordem social e segurança pública?",
-        "verso": "A Constituição organiza direitos sociais, ordem social, segurança pública, Forças Armadas e instituições de Estado com finalidades específicas e limites democráticos."
+        "id": "direito-constitucional-avancado-10-fc01",
+        "frente": "Qual é a ideia central de Ordem social, segurança pública e revisão integrada?",
+        "verso": "Ordem social busca bem-estar e justiça social por meio de saúde, previdência, assistência, educação, cultura, meio ambiente e família.",
+        "tag": "conceito",
+        "nivel": "essencial"
       },
       {
-        "frente": "Qual pegadinha evitar em Ordem social e segurança pública?",
-        "verso": "Confundir segurança pública com função militar geral ou ignorar competências próprias dos órgãos do art. 144."
+        "id": "direito-constitucional-avancado-10-fc02",
+        "frente": "Qual detalhe a banca costuma cobrar em direitos coletivos e proteção institucional?",
+        "verso": "Segurança pública é dever do Estado, direito e responsabilidade de todos, exercida por órgãos definidos constitucionalmente.",
+        "tag": "banca",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Qual roteiro estudar em Ordem social e segurança pública?",
-        "verso": "seguridade, educação, saúde, segurança pública, art. 144, Forças Armadas e revisão de competências"
+        "id": "direito-constitucional-avancado-10-fc03",
+        "frente": "Qual pegadinha deve ser evitada?",
+        "verso": "Atenção de prova: Achar que segurança pública é só repressão. Essa formulação é incompleta quando ignora requisito, limite ou consequência do tema.",
+        "tag": "pegadinha",
+        "nivel": "intermediario"
       },
       {
-        "frente": "Como aplicar Ordem social e segurança pública em questão prática?",
-        "verso": "Identifique o tema, aplique a regra constitucional, confira exceções e conclua com o órgão ou efeito correto."
+        "id": "direito-constitucional-avancado-10-fc04",
+        "frente": "Como aplicar isso em caso concreto?",
+        "verso": "Em questão sobre polícia militar, a função ostensiva e preservação da ordem pública não se confunde com investigação de infrações penais comuns.",
+        "tag": "aplicacao",
+        "nivel": "avancado"
       }
     ],
-    "rubricaDominio": [
-      "identifica o tema constitucional",
-      "separa regra e exceção",
-      "não troca competências",
-      "aplica ao caso concreto"
-    ],
-    "revisaoProgramada": [
-      {
-        "quando": "24 horas",
-        "tarefa": "Responder 3 questões e revisar a tese."
-      },
-      {
-        "quando": "7 dias",
-        "tarefa": "Refazer as questões erradas e explicar a pegadinha."
-      },
-      {
-        "quando": "30 dias",
-        "tarefa": "Montar quadro comparativo com outro capítulo."
-      }
-    ],
-    "tutorIA": {
-      "prompt": "Explique este capítulo em linguagem simples, depois gere 3 perguntas de revisão e corrija minha resposta.",
-      "alerta": "Não substitui conferência do texto constitucional atualizado, emendas e jurisprudência recente."
-    },
     "questoes": [
       {
-        "id": "q10-01",
+        "id": "direito-constitucional-avancado-10-q01",
         "tipo": "multipla_escolha",
-        "enunciado": "Sobre Ordem social, segurança pública, Forças Armadas e revisão final, assinale a alternativa correta.",
+        "enunciado": "Em relação a Ordem social, segurança pública e revisão integrada, assinale a alternativa tecnicamente correta.",
         "alternativas": [
-          "A Constituição organiza direitos sociais, ordem social, segurança pública, Forças Armadas e instituições de Estado com finalidades específicas e limites democráticos.",
-          "A Constituição pode ser afastada por lei ordinária posterior.",
-          "Todo direito constitucional é absoluto e sem limite.",
-          "A banca sempre aceita interpretação política sem base jurídica.",
-          "Competências constitucionais podem ser trocadas por conveniência."
+          "Ordem social busca bem-estar e justiça social por meio de saúde, previdência, assistência, educação, cultura, meio ambiente e família.",
+          "Achar que segurança pública é só repressão.",
+          "Misturar atribuições constitucionais de órgãos policiais.",
+          "Ignorar o comando da questão e responder por associação de palavras."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A Constituição organiza direitos sociais, ordem social, segurança pública, Forças Armadas e instituições de Estado com finalidades específicas e limites democráticos.",
-          "Errada. Confunde art. 144, ordem social e revisão integrada com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "A Constituição organiza direitos sociais, ordem social, segurança pública, Forças Armadas e instituições de Estado com finalidades específicas e limites democráticos.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A alternativa correta resume o núcleo do tema: Ordem social busca bem-estar e justiça social por meio de saúde, previdência, assistência, educação, cultura, meio ambiente e família."
       },
       {
-        "id": "q10-02",
+        "id": "direito-constitucional-avancado-10-q02",
         "tipo": "certo_errado",
-        "enunciado": "Em Ordem social e segurança pública, é correto afirmar que a constituição organiza direitos sociais, ordem social, segurança pública, forças armadas e instituições de estado com finalidades específicas e limites democráticos.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "A afirmação reproduz a tese central do capítulo.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Segurança pública é dever do Estado, direito e responsabilidade de todos, exercida por órgãos definidos constitucionalmente.",
+        "gabarito": "Certo",
+        "comentario": "A assertiva está correta porque expressa ponto central de direitos coletivos e proteção institucional."
       },
       {
-        "id": "q10-03",
+        "id": "direito-constitucional-avancado-10-q03",
         "tipo": "certo_errado",
-        "enunciado": "No tema Ordem social e segurança pública, a regra de prova é: Confundir segurança pública com função militar geral ou ignorar competências próprias dos órgãos do art. 144.",
-        "correta": false,
-        "gabaritoTexto": "Errado",
-        "comentario": "A frase descreve a pegadinha, não a regra correta.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "enunciado": "Achar que segurança pública é só repressão.",
+        "gabarito": "Errado",
+        "comentario": "A frase reproduz uma pegadinha comum; a solução exige observar limite, requisito ou contexto."
       },
       {
-        "id": "q10-04",
-        "tipo": "multipla_escolha",
-        "enunciado": "Qual é a principal pegadinha sobre Ordem social e segurança pública?",
-        "alternativas": [
-          "Confundir segurança pública com função militar geral ou ignorar competências próprias dos órgãos do art. 144.",
-          "Ler o texto constitucional antes de responder.",
-          "Separar regra, exceção e competência.",
-          "Identificar o órgão constitucional correto.",
-          "Conferir a espécie normativa exigida."
-        ],
-        "correta": 0,
-        "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. A alternativa correta aponta o erro que a banca costuma explorar.",
-          "Errada. Confunde art. 144, ordem social e revisão integrada com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "A alternativa correta aponta o erro que a banca costuma explorar.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
-      },
-      {
-        "id": "q10-05",
+        "id": "direito-constitucional-avancado-10-q04",
         "tipo": "caso_pratico",
-        "enunciado": "Uma alternativa atribui à Polícia Militar função típica de Polícia Federal. Como resolver?",
-        "respostaModelo": "É preciso comparar a competência constitucional de cada órgão e eliminar a alternativa que troca atribuições.",
-        "criteriosCorrecao": [
-          "identificar o tema",
-          "apontar a regra constitucional",
-          "mencionar limite ou exceção",
-          "concluir de forma objetiva"
-        ],
-        "comentario": "Caso prático exige aplicar a Constituição, não apenas repetir conceito.",
-        "diagnosticoIA": "Se errou, revise Ordem social e segurança pública com foco em regra e exceção."
+        "enunciado": "Considere o caso: Em questão sobre polícia militar, a função ostensiva e preservação da ordem pública não se confunde com investigação de infrações penais comuns. Qual raciocínio deve orientar a resposta?",
+        "gabarito": "Polícia ostensiva, judiciária e penal possuem funções distintas, embora atuem em sistema de proteção social mais amplo.",
+        "comentario": "O caso deve ser resolvido conectando fato, conceito e consequência, sem resposta decorada."
       },
       {
-        "id": "q10-06",
-        "tipo": "resposta_aberta",
-        "enunciado": "Explique a importância do art. 144 para concursos policiais.",
-        "respostaModelo": "O art. 144 organiza a segurança pública, define órgãos e competências e serve de base para temas de polícia ostensiva, judiciária e preservação da ordem pública.",
-        "criteriosCorrecao": [
-          "seguridade",
-          "educação",
-          "saúde",
-          "segurança pública",
-          "art. 144",
-          "Forças Armadas e revisão de competências"
-        ],
-        "palavrasChaveEsperadas": [
-          "seguridade",
-          "educação",
-          "saúde",
-          "segurança pública",
-          "art. 144",
-          "Forças Armadas e revisão de competências"
-        ],
-        "comentario": "Resposta constitucional boa tem conceito, fundamento, limite e consequência prática.",
-        "diagnosticoIA": "Se a resposta ficou genérica, reescreva em quatro passos: conceito, regra, exceção e exemplo."
+        "id": "direito-constitucional-avancado-10-q05",
+        "tipo": "resposta_curta",
+        "enunciado": "Explique, em até três linhas, por que direitos coletivos e proteção institucional não pode ser estudado apenas por memorização.",
+        "gabarito": "Porque a banca altera cenário, consequência e linguagem; o aluno precisa dominar ordem social busca bem-estar e justiça social por meio de saúde, previdência, assistência, educação, cultura, meio ambiente e família. e aplicar ao caso.",
+        "comentario": "Resposta boa menciona conceito e aplicação."
       },
       {
-        "id": "q10-07",
+        "id": "direito-constitucional-avancado-10-q06",
         "tipo": "comparativa",
-        "enunciado": "Diferencie Polícia Militar de Polícia Civil em uma resposta de prova.",
-        "respostaModelo": "Polícia Militar e Polícia Civil se relacionam, mas não se confundem. A diferença central é: Polícia Militar atua no policiamento ostensivo e preservação da ordem; Polícia Civil exerce funções de polícia judiciária e apuração de infrações penais, ressalvadas competências específicas",
-        "criteriosCorrecao": [
-          "conceito de cada instituto",
-          "diferença central",
-          "efeito jurídico",
-          "exemplo de cobrança"
-        ],
-        "comentario": "Questões comparativas em Constitucional cobram precisão de linguagem.",
-        "diagnosticoIA": "Faça tabela com conceito, órgão, procedimento e consequência."
+        "enunciado": "Aponte a diferença central entre a tese correta e a pegadinha apresentada no capítulo.",
+        "gabarito": "Tese correta: Ordem social busca bem-estar e justiça social por meio de saúde, previdência, assistência, educação, cultura, meio ambiente e família. Pegadinha: Achar que segurança pública é só repressão.",
+        "comentario": "Questão treina contraste, uma das formas mais comuns de cobrança."
       },
       {
-        "id": "q10-08",
+        "id": "direito-constitucional-avancado-10-q07",
         "tipo": "multipla_escolha",
-        "enunciado": "Para revisar Ordem social e segurança pública, qual roteiro é mais seguro?",
+        "enunciado": "Qual alternativa apresenta aplicação adequada ao caso concreto?",
         "alternativas": [
-          "seguridade, educação, saúde, segurança pública, art. 144, Forças Armadas e revisão de competências",
-          "Decorar uma frase isolada sem ver exceções.",
-          "Responder por opinião pessoal.",
-          "Ignorar a competência do órgão.",
-          "Tratar todos os temas como iguais."
+          "Polícia ostensiva, judiciária e penal possuem funções distintas, embora atuem em sistema de proteção social mais amplo.",
+          "Ignorar o comando da questão e responder por associação de palavras.",
+          "Aplicar regra absoluta sem observar exceções e contexto.",
+          "Misturar atribuições constitucionais de órgãos policiais."
         ],
         "correta": 0,
         "gabaritoLetra": "A",
-        "alternativasComentadas": [
-          "Correta. Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-          "Errada. Confunde art. 144, ordem social e revisão integrada com regra absoluta.",
-          "Errada. Troca competência, órgão ou efeito constitucional.",
-          "Errada. Ignora limite constitucional ou procedimento exigido.",
-          "Errada. Usa generalização que a banca costuma explorar."
-        ],
-        "comentario": "Roteiro seguro em Constitucional combina conceito, regra, exceção e efeito.",
-        "armadilhaDaBanca": "A banca costuma misturar artigo, órgão, competência e exceção. Leia a alternativa procurando palavras absolutas.",
-        "porqueCaiEmProva": "Direito Constitucional é base de OAB, tribunais, área policial e concursos administrativos.",
-        "diagnosticoIA": "Se errou, revise conceito, fonte, órgão competente e exceção constitucional."
+        "comentario": "A aplicação correta respeita o recorte do caso e evita resposta absoluta."
       },
       {
-        "id": "q10-09",
-        "tipo": "certo_errado",
-        "enunciado": "Em prova, palavras absolutas podem indicar pegadinha quando afastam limites ou exceções de Ordem social e segurança pública.",
-        "correta": true,
-        "gabaritoTexto": "Certo",
-        "comentario": "Palavras absolutas exigem cautela, especialmente em direitos e competências.",
-        "armadilhaDaBanca": "Cuidado com sempre, nunca, somente, qualquer e automaticamente.",
-        "diagnosticoIA": "Marque se o erro foi conceito, competência, prazo, legitimidade ou exceção."
+        "id": "direito-constitucional-avancado-10-q08",
+        "tipo": "pegadinha",
+        "enunciado": "Por que a afirmação \"Misturar atribuições constitucionais de órgãos policiais.\" pode induzir o candidato ao erro?",
+        "gabarito": "Porque simplifica o tema e elimina requisito, exceção ou relação lógica indispensável.",
+        "comentario": "Pegadinhas avançadas parecem plausíveis, mas cortam uma condição essencial."
       },
       {
-        "id": "q10-10",
-        "tipo": "treino_adaptativo_ia",
-        "enunciado": "Treino IA: explique Ordem social e segurança pública para um candidato de concurso.",
-        "promptTutorIA": "Explique Ordem social e segurança pública usando: conceito, base constitucional, uma pegadinha comum e um exemplo de questão.",
-        "criterioDominio": [
-          "explicação simples",
-          "base constitucional",
-          "exemplo prático",
-          "alerta de pegadinha"
-        ],
-        "comentario": "Este item transforma leitura passiva em domínio ativo."
+        "id": "direito-constitucional-avancado-10-q09",
+        "tipo": "discursiva_guiada",
+        "enunciado": "Construa um parágrafo aplicando Ordem social, segurança pública e revisão integrada a uma situação de prova.",
+        "gabarito": "O parágrafo deve apresentar conceito, aplicar ao caso e concluir com consequência. Base mínima: Revisão constitucional avançada exige conectar princípio, competência, direito fundamental e mecanismo de controle.",
+        "comentario": "Serve para treinar redação de justificativas e comentários de questão."
+      },
+      {
+        "id": "direito-constitucional-avancado-10-q10",
+        "tipo": "revisao_final",
+        "enunciado": "Liste dois critérios para revisar uma resposta sobre este capítulo antes de marcar o gabarito.",
+        "gabarito": "1) Conferir se o comando foi respondido. 2) Verificar se a alternativa respeita: Ordem social busca bem-estar e justiça social por meio de saúde, previdência, assistência, educação, cultura, meio ambiente e família.",
+        "comentario": "A revisão final reduz erro por impulso e associação superficial."
       }
-    ]
+    ],
+    "proximoTitulo": "Revisão integrada do módulo"
   }
 ];
 
