@@ -173,6 +173,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Teoria geral dos direitos humanos: conceito e características em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -409,6 +414,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Teoria geral dos direitos humanos: conceito e características em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -587,8 +597,9 @@ export const direitosHumanos = [
       },
       {
         "frente": "Palavra-chave: universalidade",
-        "verso": "Explique universalidade dentro do tema Teoria geral dos direitos humanos: conceito e características.",
-        "nivel": "conceito"
+        "verso": "universalidade: Universalidade: valem para todos, sem distinção. Historicidade: surgem e se transformam ao longo do tempo. Indivisibilidade e interdependência: os direitos formam um conjunto único; violar um afeta os demais. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Teoria geral dos direitos humanos: conceito e características",
@@ -783,6 +794,12 @@ export const direitosHumanos = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -949,6 +966,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Documentos internacionais de proteção em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1185,6 +1207,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Documentos internacionais de proteção em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1363,8 +1390,9 @@ export const direitosHumanos = [
       },
       {
         "frente": "Palavra-chave: Declaração Universal",
-        "verso": "Explique Declaração Universal dentro do tema Documentos internacionais de proteção.",
-        "nivel": "conceito"
+        "verso": "Declaração Universal: Declaração Universal (1948): documento fundador, sem força vinculante de tratado, mas com grande peso moral/costumeiro. Pactos de 1966 (Civis e Políticos / Econômicos, Sociais e Culturais) dão força jurídica vinculante aos princípios da Declaração. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Documentos internacionais de proteção",
@@ -1559,6 +1587,12 @@ export const direitosHumanos = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1725,6 +1759,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Sistema Interamericano de Direitos Humanos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1961,6 +2000,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Sistema Interamericano de Direitos Humanos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2139,8 +2183,9 @@ export const direitosHumanos = [
       },
       {
         "frente": "Palavra-chave: Comissão Interamericana",
-        "verso": "Explique Comissão Interamericana dentro do tema Sistema Interamericano de Direitos Humanos.",
-        "nivel": "conceito"
+        "verso": "Comissão Interamericana: Comissão Interamericana: recebe petições, promove solução amistosa, pode encaminhar caso à Corte — não profere sentenças vinculantes. Corte Interamericana: órgão jurisdicional, profere sentenças vinculantes, pode condenar Estados a reparar danos e alterar legislação. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Sistema Interamericano de Direitos Humanos",
@@ -2335,6 +2380,12 @@ export const direitosHumanos = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2501,6 +2552,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Direitos humanos e uso progressivo da força em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2737,6 +2793,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Direitos humanos e uso progressivo da força em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2915,8 +2976,9 @@ export const direitosHumanos = [
       },
       {
         "frente": "Palavra-chave: uso progressivo da força",
-        "verso": "Explique uso progressivo da força dentro do tema Direitos humanos e uso progressivo da força.",
-        "nivel": "conceito"
+        "verso": "uso progressivo da força: Uso progressivo da força: nível mínimo necessário, escalonado conforme a resistência/risco encontrado. Três princípios centrais: legalidade, necessidade e proporcionalidade. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Direitos humanos e uso progressivo da força",
@@ -3111,6 +3173,12 @@ export const direitosHumanos = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3277,6 +3345,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Abordagem policial e busca pessoal em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3513,6 +3586,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Abordagem policial e busca pessoal em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3691,8 +3769,9 @@ export const direitosHumanos = [
       },
       {
         "frente": "Palavra-chave: fundada suspeita",
-        "verso": "Explique fundada suspeita dentro do tema Abordagem policial e busca pessoal.",
-        "nivel": "conceito"
+        "verso": "fundada suspeita: Busca pessoal exige fundada suspeita — elementos objetivos e articuláveis, nunca critérios subjetivos vagos. A suspeita baseada só em raça, vestimenta ou território (sem outro elemento concreto) é abordagem discriminatória e ilegal. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Abordagem policial e busca pessoal",
@@ -3887,6 +3966,12 @@ export const direitosHumanos = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4053,6 +4138,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Grupos vulneráveis: crianças, idosos e pessoas com deficiência em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4289,6 +4379,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Grupos vulneráveis: crianças, idosos e pessoas com deficiência em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4467,8 +4562,9 @@ export const direitosHumanos = [
       },
       {
         "frente": "Palavra-chave: prioridade absoluta",
-        "verso": "Explique prioridade absoluta dentro do tema Grupos vulneráveis: crianças, idosos e pessoas com deficiência.",
-        "nivel": "conceito"
+        "verso": "prioridade absoluta: Crianças e adolescentes têm prioridade absoluta (art. 227 CF); recomenda-se escuta especializada/depoimento especial para reduzir revitimização. Idosos (60+) têm prioridade de atendimento e proteção específica do Estatuto do Idoso, com crimes próprios (abandono, maus-tratos). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Grupos vulneráveis: crianças, idosos e pessoas com deficiência",
@@ -4663,6 +4759,12 @@ export const direitosHumanos = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4829,6 +4931,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Racismo e igualdade racial em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5065,6 +5172,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Racismo e igualdade racial em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5243,8 +5355,9 @@ export const direitosHumanos = [
       },
       {
         "frente": "Palavra-chave: racismo",
-        "verso": "Explique racismo dentro do tema Racismo e igualdade racial.",
-        "nivel": "conceito"
+        "verso": "racismo: Racismo é imprescritível e inafiançável por previsão constitucional expressa; ofende grupo étnico-racial de forma indeterminada. Injúria racial ofende pessoa determinada — mas o STF equiparou seus efeitos (imprescritibilidade/inafiançabilidade) ao racismo. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Racismo e igualdade racial",
@@ -5439,6 +5552,12 @@ export const direitosHumanos = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5605,6 +5724,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Sistema prisional e direitos humanos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5841,6 +5965,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Sistema prisional e direitos humanos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6019,8 +6148,9 @@ export const direitosHumanos = [
       },
       {
         "frente": "Palavra-chave: Regras de Mandela",
-        "verso": "Explique Regras de Mandela dentro do tema Sistema prisional e direitos humanos.",
-        "nivel": "conceito"
+        "verso": "Regras de Mandela: Regras de Mandela: padrão internacional mínimo de tratamento ao preso — separação por categoria, vedação a tortura/tratamento degradante. STF reconheceu 'estado de coisas inconstitucional' no sistema penitenciário brasileiro (ADPF 347). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Sistema prisional e direitos humanos",
@@ -6215,6 +6345,12 @@ export const direitosHumanos = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6381,6 +6517,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Controle externo da atividade policial em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6617,6 +6758,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Controle externo da atividade policial em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6795,8 +6941,9 @@ export const direitosHumanos = [
       },
       {
         "frente": "Palavra-chave: controle externo da atividade policial",
-        "verso": "Explique controle externo da atividade policial dentro do tema Controle externo da atividade policial.",
-        "nivel": "conceito"
+        "verso": "controle externo da atividade policial: Controle interno: Corregedoria, dentro da própria corporação, com base no regulamento disciplinar. Controle externo da atividade policial: função institucional constitucional do Ministério Público (art. 129, VII, CF). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Controle externo da atividade policial",
@@ -6991,6 +7138,12 @@ export const direitosHumanos = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7157,6 +7310,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Direitos humanos e populações em situação de vulnerabilidade social em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7393,6 +7551,11 @@ export const direitosHumanos = [
           "seErrar": "A IA deve explicar Direitos humanos e populações em situação de vulnerabilidade social em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7571,8 +7734,9 @@ export const direitosHumanos = [
       },
       {
         "frente": "Palavra-chave: população em situação de rua",
-        "verso": "Explique população em situação de rua dentro do tema Direitos humanos e populações em situação de vulnerabilidade social.",
-        "nivel": "conceito"
+        "verso": "população em situação de rua: Situação de rua não é, por si só, indício de infração — não autoriza abordagem/revista sem fundamento próprio. Pessoas trans/travestis têm direito ao uso do nome social em qualquer tratamento oficial, independente de alteração de registro civil. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Direitos humanos e populações em situação de vulnerabilidade social",
@@ -7767,6 +7931,12 @@ export const direitosHumanos = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

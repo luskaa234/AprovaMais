@@ -172,6 +172,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Acentuação gráfica: regras gerais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -408,6 +413,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Acentuação gráfica: regras gerais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -586,8 +596,9 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       },
       {
         "frente": "Palavra-chave: oxítona",
-        "verso": "Explique oxítona dentro do tema Acentuação gráfica: regras gerais.",
-        "nivel": "conceito"
+        "verso": "oxítona: Proparoxítona: sempre acentuada, sem exceção. Paroxítona: acentuada só em terminações específicas (l, r, n, x, ão, ã, um, ditongo). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Acentuação gráfica: regras gerais",
@@ -781,6 +792,12 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -943,6 +960,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Uso do hífen no Acordo Ortográfico em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1175,6 +1197,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Uso do hífen no Acordo Ortográfico em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1349,8 +1376,9 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       },
       {
         "frente": "Palavra-chave: hífen",
-        "verso": "Explique hífen dentro do tema Uso do hífen no Acordo Ortográfico.",
-        "nivel": "conceito"
+        "verso": "hífen: Prefixo + vogal igual à inicial da palavra seguinte → usa hífen. Prefixo + 'h' inicial na palavra seguinte → usa hífen (com poucas exceções fixadas pelo acordo). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Uso do hífen no Acordo Ortográfico",
@@ -1543,6 +1571,12 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1705,6 +1739,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Parônimos e homônimos que mais caem em prova em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1937,6 +1976,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Parônimos e homônimos que mais caem em prova em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2111,8 +2155,9 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       },
       {
         "frente": "Palavra-chave: parônimo",
-        "verso": "Explique parônimo dentro do tema Parônimos e homônimos que mais caem em prova.",
-        "nivel": "conceito"
+        "verso": "parônimo: Parônimos: escrita/som parecidos, sentidos diferentes (cumprimento x comprimento). Homônimos: mesma pronúncia ou escrita, sentidos diferentes (concerto x conserto). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Parônimos e homônimos que mais caem em prova",
@@ -2305,6 +2350,12 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2472,6 +2523,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Por que, porque, por quê e porquê em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2712,6 +2768,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Por que, porque, por quê e porquê em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2894,8 +2955,9 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       },
       {
         "frente": "Palavra-chave: por que",
-        "verso": "Explique por que dentro do tema Por que, porque, por quê e porquê.",
-        "nivel": "conceito"
+        "verso": "por que: Por que (separado, sem acento): perguntas ou equivale a 'pelo qual'. Porque (junto, sem acento): explica, justifica, equivale a 'pois'. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Por que, porque, por quê e porquê",
@@ -3090,6 +3152,12 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3259,6 +3327,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Mau, mal, mas, mais, há e a em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3503,6 +3576,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Mau, mal, mas, mais, há e a em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3689,8 +3767,9 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       },
       {
         "frente": "Palavra-chave: mau",
-        "verso": "Explique mau dentro do tema Mau, mal, mas, mais, há e a.",
-        "nivel": "conceito"
+        "verso": "mau: Mau (adjetivo, antônimo de bom) x Mal (advérbio/substantivo, antônimo de bem) — teste substituindo. Mas (conjunção, = porém) x Mais (quantidade, = antônimo de menos) — teste substituindo. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Mau, mal, mas, mais, há e a",
@@ -3887,6 +3966,12 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4055,6 +4140,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Onde, aonde, senão, se não e afim, a fim em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4299,6 +4389,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Onde, aonde, senão, se não e afim, a fim em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4485,8 +4580,9 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       },
       {
         "frente": "Palavra-chave: onde",
-        "verso": "Explique onde dentro do tema Onde, aonde, senão, se não e afim, a fim.",
-        "nivel": "conceito"
+        "verso": "onde: Onde = lugar fixo (sem movimento); Aonde = lugar com movimento (verbos como ir, chegar). Senão = caso contrário/a não ser; Se não = 'se' + 'não', testável invertendo a ordem. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Onde, aonde, senão, se não e afim, a fim",
@@ -4682,6 +4778,12 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4847,6 +4949,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Substantivo, adjetivo e artigo: emprego e casos especiais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5083,6 +5190,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Substantivo, adjetivo e artigo: emprego e casos especiais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5261,8 +5373,9 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       },
       {
         "frente": "Palavra-chave: substantivo",
-        "verso": "Explique substantivo dentro do tema Substantivo, adjetivo e artigo: emprego e casos especiais.",
-        "nivel": "conceito"
+        "verso": "substantivo: Substantivo nomeia, adjetivo qualifica (concordando em gênero/número), artigo define ou indefine. Plural de substantivo composto: ambos variáveis → ambos no plural; com preposição → só o primeiro varia. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Substantivo, adjetivo e artigo: emprego e casos especiais",
@@ -5456,6 +5569,12 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5621,6 +5740,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Pronomes pessoais, possessivos e demonstrativos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5857,6 +5981,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Pronomes pessoais, possessivos e demonstrativos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6035,8 +6164,9 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       },
       {
         "frente": "Palavra-chave: pronome pessoal",
-        "verso": "Explique pronome pessoal dentro do tema Pronomes pessoais, possessivos e demonstrativos.",
-        "nivel": "conceito"
+        "verso": "pronome pessoal: Pronome reto = sujeito; pronome oblíquo = complemento — não troque um pelo outro em registro formal. Possessivo concorda com a coisa possuída, não com quem possui. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Pronomes pessoais, possessivos e demonstrativos",
@@ -6230,6 +6360,12 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6397,6 +6533,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Pronomes relativos e colocação pronominal em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6637,6 +6778,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Pronomes relativos e colocação pronominal em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6819,8 +6965,9 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       },
       {
         "frente": "Palavra-chave: pronome relativo",
-        "verso": "Explique pronome relativo dentro do tema Pronomes relativos e colocação pronominal.",
-        "nivel": "conceito"
+        "verso": "pronome relativo: Cujo indica posse e concorda com a coisa possuída, nunca leva artigo depois. Próclise é puxada por palavra atrativa: negação, advérbio, pronome relativo/indefinido, conjunção subordinativa. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Pronomes relativos e colocação pronominal",
@@ -7015,6 +7162,12 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7180,6 +7333,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Verbos: tempos, modos e vozes verbais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7416,6 +7574,11 @@ export const apostilaPortuguesOrtografiaMorfologia = [
           "seErrar": "A IA deve explicar Verbos: tempos, modos e vozes verbais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7594,8 +7757,9 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       },
       {
         "frente": "Palavra-chave: modo verbal",
-        "verso": "Explique modo verbal dentro do tema Verbos: tempos, modos e vozes verbais.",
-        "nivel": "conceito"
+        "verso": "modo verbal: Indicativo = fato certo; Subjuntivo = hipótese/desejo; Imperativo = ordem/pedido. Voz ativa: sujeito pratica a ação; Voz passiva: sujeito sofre a ação (analítica com 'ser + particípio', sintética com 'se'). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Verbos: tempos, modos e vozes verbais",
@@ -7789,6 +7953,12 @@ export const apostilaPortuguesOrtografiaMorfologia = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

@@ -203,6 +203,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -289,6 +294,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -349,6 +359,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -472,7 +487,13 @@ export const direitoEleitoral = [
         }
       }
     ],
-    "proximoTitulo": "Justiça Eleitoral: órgãos, funções e competências"
+    "proximoTitulo": "Justiça Eleitoral: órgãos, funções e competências",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "justica-eleitoral-orgaos-funcoes-e-competencias",
@@ -668,6 +689,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -754,6 +780,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -814,6 +845,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -938,7 +974,13 @@ export const direitoEleitoral = [
         }
       }
     ],
-    "proximoTitulo": "Sistemas eleitorais: majoritário, proporcional, quociente e federações"
+    "proximoTitulo": "Sistemas eleitorais: majoritário, proporcional, quociente e federações",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "sistemas-eleitorais-majoritario-proporcional-quociente-e-federacoes",
@@ -1133,6 +1175,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1219,6 +1266,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1279,6 +1331,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1402,7 +1459,13 @@ export const direitoEleitoral = [
         }
       }
     ],
-    "proximoTitulo": "Elegibilidade, inelegibilidades e desincompatibilização"
+    "proximoTitulo": "Elegibilidade, inelegibilidades e desincompatibilização",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "elegibilidade-inelegibilidades-e-desincompatibilizacao",
@@ -1597,6 +1660,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1683,6 +1751,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1743,6 +1816,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1866,7 +1944,13 @@ export const direitoEleitoral = [
         }
       }
     ],
-    "proximoTitulo": "Partidos políticos, filiação, federações e convenções"
+    "proximoTitulo": "Partidos políticos, filiação, federações e convenções",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "partidos-politicos-filiacao-federacoes-e-convencoes",
@@ -2061,6 +2145,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2147,6 +2236,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2207,6 +2301,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2330,7 +2429,13 @@ export const direitoEleitoral = [
         }
       }
     ],
-    "proximoTitulo": "Registro de candidatura, impugnação, substituição e DRAP"
+    "proximoTitulo": "Registro de candidatura, impugnação, substituição e DRAP",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "registro-de-candidatura-impugnacao-substituicao-e-drap",
@@ -2454,7 +2559,7 @@ export const direitoEleitoral = [
       },
       {
         "frente": "Qual a principal pegadinha?",
-        "verso": "Confundir DRAP com RRC."
+        "verso": "DRAP trata da regularidade do partido ou federação para participar da eleição; RRC trata do pedido individual de registro de candidatura. A banca troca os dois para testar função e momento de análise."
       },
       {
         "frente": "Qual técnica usar na prova?",
@@ -2526,6 +2631,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2612,6 +2722,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2672,6 +2787,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2796,7 +2916,13 @@ export const direitoEleitoral = [
         }
       }
     ],
-    "proximoTitulo": "Propaganda eleitoral, pré-campanha, internet e poder de polícia"
+    "proximoTitulo": "Propaganda eleitoral, pré-campanha, internet e poder de polícia",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "propaganda-eleitoral-pre-campanha-internet-e-poder-de-policia",
@@ -2991,6 +3117,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3077,6 +3208,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3137,6 +3273,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3260,7 +3401,13 @@ export const direitoEleitoral = [
         }
       }
     ],
-    "proximoTitulo": "Financiamento de campanha, prestação de contas e arrecadação"
+    "proximoTitulo": "Financiamento de campanha, prestação de contas e arrecadação",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "financiamento-de-campanha-prestacao-de-contas-e-arrecadacao",
@@ -3455,6 +3602,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3541,6 +3693,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3601,6 +3758,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3724,7 +3886,13 @@ export const direitoEleitoral = [
         }
       }
     ],
-    "proximoTitulo": "Condutas vedadas, abuso de poder e captação ilícita de sufrágio"
+    "proximoTitulo": "Condutas vedadas, abuso de poder e captação ilícita de sufrágio",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "condutas-vedadas-abuso-de-poder-e-captacao-ilicita-de-sufragio",
@@ -3919,6 +4087,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4005,6 +4178,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4065,6 +4243,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4188,7 +4371,13 @@ export const direitoEleitoral = [
         }
       }
     ],
-    "proximoTitulo": "Votação, apuração, diplomação, ações, ilícitos e recursos eleitorais"
+    "proximoTitulo": "Votação, apuração, diplomação, ações, ilícitos e recursos eleitorais",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "votacao-apuracao-diplomacao-acoes-ilicitos-e-recursos-eleitorais",
@@ -4389,6 +4578,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4475,6 +4669,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4535,6 +4734,11 @@ export const direitoEleitoral = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso eleitoral.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4661,7 +4865,13 @@ export const direitoEleitoral = [
         }
       }
     ],
-    "proximoTitulo": null
+    "proximoTitulo": null,
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   }
 ];
 

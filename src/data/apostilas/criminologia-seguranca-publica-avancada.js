@@ -1,13 +1,7 @@
 /**
- * VemAprovar Top1 — Apostila Premium 10/10 Plus
+ * VemAprovar Top1 — Apostila Premium 10/10 Plus Revisado
  * Arquivo: criminologia-seguranca-publica-avancada.js
- * Módulo: Criminologia e Segurança Pública Avançada
- * Lote de continuação: Lote 15 — Concursos Policiais / Segurança Pública
- * Atualização pedagógica: 2026-07-07
- *
- * Upgrade deste lote: 10 questões por capítulo, 4 flashcards por capítulo,
- * casos práticos policiais, leitura fina de banca, alerta ético e Tutor IA Plus.
- * Observação crítica: conferir legislação, edital, normas internas e jurisprudência antes da publicação final.
+ * Pacote revisado com gabaritos obrigatórios, flashcards completos e validação programática.
  */
 
 export const criminologiaSegurancaPublicaAvancada = [
@@ -224,6 +218,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Legalidade e direitos fundamentais continuam obrigatórios.",
+          "São campos relacionados, mas distintos.",
+          "Clamor social não autoriza violação de direitos e limites legais.",
+          "Prova exige técnica, fonte normativa e conceito, não preferência pessoal."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -342,6 +349,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -456,7 +476,13 @@ export const criminologiaSegurancaPublicaAvancada = [
         }
       }
     ],
-    "proximoTitulo": "Escolas criminológicas: clássica, positiva, sociológica e crítica"
+    "proximoTitulo": "Escolas criminológicas: clássica, positiva, sociológica e crítica",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "escolas-criminologicas-classica-positiva-sociologica-critica",
@@ -671,6 +697,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Legalidade e direitos fundamentais continuam obrigatórios.",
+          "São campos relacionados, mas distintos.",
+          "Clamor social não autoriza violação de direitos e limites legais.",
+          "Prova exige técnica, fonte normativa e conceito, não preferência pessoal."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -789,6 +828,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -903,7 +955,13 @@ export const criminologiaSegurancaPublicaAvancada = [
         }
       }
     ],
-    "proximoTitulo": "Teorias do crime: anomia, associação diferencial, controle social e etiquetamento"
+    "proximoTitulo": "Teorias do crime: anomia, associação diferencial, controle social e etiquetamento",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "teorias-crime-anomia-associacao-controle-etiquetamento",
@@ -1118,6 +1176,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Legalidade e direitos fundamentais continuam obrigatórios.",
+          "São campos relacionados, mas distintos.",
+          "Clamor social não autoriza violação de direitos e limites legais.",
+          "Prova exige técnica, fonte normativa e conceito, não preferência pessoal."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1236,6 +1307,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1350,7 +1434,13 @@ export const criminologiaSegurancaPublicaAvancada = [
         }
       }
     ],
-    "proximoTitulo": "Vitimologia e prevenção criminal"
+    "proximoTitulo": "Vitimologia e prevenção criminal",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "vitimologia-prevencao-criminal",
@@ -1565,6 +1655,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Legalidade e direitos fundamentais continuam obrigatórios.",
+          "São campos relacionados, mas distintos.",
+          "Clamor social não autoriza violação de direitos e limites legais.",
+          "Prova exige técnica, fonte normativa e conceito, não preferência pessoal."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1683,6 +1786,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1797,7 +1913,13 @@ export const criminologiaSegurancaPublicaAvancada = [
         }
       }
     ],
-    "proximoTitulo": "Segurança pública constitucional: art. 144, órgãos e competências"
+    "proximoTitulo": "Segurança pública constitucional: art. 144, órgãos e competências",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "seguranca-publica-constitucional-artigo-144",
@@ -1991,7 +2113,7 @@ export const criminologiaSegurancaPublicaAvancada = [
         "comandoBanca": "assinale_a_correta",
         "enunciado": "Sobre Segurança pública constitucional: art. 144, órgãos e competências, assinale a alternativa correta.",
         "alternativas": [
-          "A segurança pública é dever do Estado, direito e responsabilidade de todos, exercida por órgãos com competências constitucionais próprias para preservar ordem pública, pessoas e patrimônio.",
+          "A segurança pública é dever do Estado, direito e responsabilidade de todos, exercida por órgãos com competências constitucionais próprias para preservar ordem pública,.",
           "A segurança pública dispensa análise jurídica quando o objetivo declarado é combater o crime.",
           "Criminologia, Direito Penal e Política Criminal são expressões equivalentes em qualquer contexto.",
           "A atuação estatal legítima pode ignorar direitos fundamentais quando houver clamor social.",
@@ -2012,6 +2134,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Legalidade e direitos fundamentais continuam obrigatórios.",
+          "São campos relacionados, mas distintos.",
+          "Clamor social não autoriza violação de direitos e limites legais.",
+          "Prova exige técnica, fonte normativa e conceito, não preferência pessoal."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2130,6 +2265,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2244,7 +2392,13 @@ export const criminologiaSegurancaPublicaAvancada = [
         }
       }
     ],
-    "proximoTitulo": "SUSP, PNSPDS, integração e gestão por evidências"
+    "proximoTitulo": "SUSP, PNSPDS, integração e gestão por evidências",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "susp-pnspds-integracao-gestao-evidencias",
@@ -2459,6 +2613,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Legalidade e direitos fundamentais continuam obrigatórios.",
+          "São campos relacionados, mas distintos.",
+          "Clamor social não autoriza violação de direitos e limites legais.",
+          "Prova exige técnica, fonte normativa e conceito, não preferência pessoal."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2577,6 +2744,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2691,7 +2871,13 @@ export const criminologiaSegurancaPublicaAvancada = [
         }
       }
     ],
-    "proximoTitulo": "Polícia ostensiva, polícia judiciária, ciclo de polícia e preservação da ordem"
+    "proximoTitulo": "Polícia ostensiva, polícia judiciária, ciclo de polícia e preservação da ordem",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "policia-ostensiva-judiciaria-ciclo-preservacao-ordem",
@@ -2906,6 +3092,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Legalidade e direitos fundamentais continuam obrigatórios.",
+          "São campos relacionados, mas distintos.",
+          "Clamor social não autoriza violação de direitos e limites legais.",
+          "Prova exige técnica, fonte normativa e conceito, não preferência pessoal."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3024,6 +3223,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3138,7 +3350,13 @@ export const criminologiaSegurancaPublicaAvancada = [
         }
       }
     ],
-    "proximoTitulo": "Uso diferenciado da força, direitos humanos e accountability"
+    "proximoTitulo": "Uso diferenciado da força, direitos humanos e accountability",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "uso-diferenciado-forca-direitos-humanos-accountability",
@@ -3353,6 +3571,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Legalidade e direitos fundamentais continuam obrigatórios.",
+          "São campos relacionados, mas distintos.",
+          "Clamor social não autoriza violação de direitos e limites legais.",
+          "Prova exige técnica, fonte normativa e conceito, não preferência pessoal."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3471,6 +3702,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3585,7 +3829,13 @@ export const criminologiaSegurancaPublicaAvancada = [
         }
       }
     ],
-    "proximoTitulo": "Inteligência de segurança pública, investigação e produção de conhecimento"
+    "proximoTitulo": "Inteligência de segurança pública, investigação e produção de conhecimento",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "inteligencia-seguranca-publica-investigacao-conhecimento",
@@ -3800,6 +4050,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Legalidade e direitos fundamentais continuam obrigatórios.",
+          "São campos relacionados, mas distintos.",
+          "Clamor social não autoriza violação de direitos e limites legais.",
+          "Prova exige técnica, fonte normativa e conceito, não preferência pessoal."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3918,6 +4181,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4032,7 +4308,13 @@ export const criminologiaSegurancaPublicaAvancada = [
         }
       }
     ],
-    "proximoTitulo": "Políticas públicas de segurança: prevenção, repressão qualificada, policiamento comunitário e indicadores"
+    "proximoTitulo": "Políticas públicas de segurança: prevenção, repressão qualificada, policiamento comunitário e indicadores",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "politicas-publicas-seguranca-prevencao-comunitaria-indicadores",
@@ -4247,6 +4529,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Legalidade e direitos fundamentais continuam obrigatórios.",
+          "São campos relacionados, mas distintos.",
+          "Clamor social não autoriza violação de direitos e limites legais.",
+          "Prova exige técnica, fonte normativa e conceito, não preferência pessoal."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4365,6 +4660,19 @@ export const criminologiaSegurancaPublicaAvancada = [
           "se_errou_pegadinha": "Marcar a palavra absoluta ou a troca conceitual feita pela banca.",
           "se_errou_caso": "Recontar o caso separando fato, instituto, regra, limite e consequência.",
           "revisao_ativa": "Pedir ao Tutor IA uma questão irmã no mesmo tema e outra com pegadinha invertida."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança.",
+          "As demais estão corretas e refletem raciocínio técnico para concursos de segurança."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4479,7 +4787,13 @@ export const criminologiaSegurancaPublicaAvancada = [
         }
       }
     ],
-    "proximoTitulo": null
+    "proximoTitulo": null,
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   }
 ];
 

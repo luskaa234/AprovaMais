@@ -219,7 +219,12 @@ export const filosofiaDireito = [
           ]
         },
         "habilidadeCobrada": "Diferenciar Filosofia do Direito, teoria geral do direito e dogmática jurídica em questões de OAB e concursos",
-        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria."
+        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "filosofia-direito-filosofia-do-direito-e-dogmatica-juridica-q02",
@@ -454,7 +459,13 @@ export const filosofiaDireito = [
         },
         "habilidadeCobrada": "Aprender com erro usando IA sem perder rigor técnico."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "filosofia-direito-justica-validade-e-eficacia-da-norma",
@@ -665,7 +676,12 @@ export const filosofiaDireito = [
           ]
         },
         "habilidadeCobrada": "Reconhecer os diferentes critérios de avaliação da norma jurídica",
-        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria."
+        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "filosofia-direito-justica-validade-e-eficacia-da-norma-q02",
@@ -900,7 +916,13 @@ export const filosofiaDireito = [
         },
         "habilidadeCobrada": "Aprender com erro usando IA sem perder rigor técnico."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "filosofia-direito-jusnaturalismo",
@@ -1111,7 +1133,12 @@ export const filosofiaDireito = [
           ]
         },
         "habilidadeCobrada": "Compreender a ideia jusnaturalista e sua influência em direitos fundamentais e direitos humanos",
-        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria."
+        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "filosofia-direito-jusnaturalismo-q02",
@@ -1346,7 +1373,13 @@ export const filosofiaDireito = [
         },
         "habilidadeCobrada": "Aprender com erro usando IA sem perder rigor técnico."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "filosofia-direito-positivismo-juridico",
@@ -1557,7 +1590,12 @@ export const filosofiaDireito = [
           ]
         },
         "habilidadeCobrada": "Reconhecer a visão positivista e diferenciá-la do jusnaturalismo",
-        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria."
+        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "filosofia-direito-positivismo-juridico-q02",
@@ -1792,7 +1830,13 @@ export const filosofiaDireito = [
         },
         "habilidadeCobrada": "Aprender com erro usando IA sem perder rigor técnico."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "filosofia-direito-pos-positivismo-principios-e-ponderacao",
@@ -2003,7 +2047,12 @@ export const filosofiaDireito = [
           ]
         },
         "habilidadeCobrada": "Aplicar a lógica pós-positivista em questões sobre direitos fundamentais",
-        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria."
+        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "filosofia-direito-pos-positivismo-principios-e-ponderacao-q02",
@@ -2238,7 +2287,13 @@ export const filosofiaDireito = [
         },
         "habilidadeCobrada": "Aprender com erro usando IA sem perder rigor técnico."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "filosofia-direito-direito-moral-e-obediencia-a-lei",
@@ -2449,7 +2504,12 @@ export const filosofiaDireito = [
           ]
         },
         "habilidadeCobrada": "Analisar conflitos entre legalidade, moralidade e legitimidade democrática",
-        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria."
+        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "filosofia-direito-direito-moral-e-obediencia-a-lei-q02",
@@ -2684,7 +2744,13 @@ export const filosofiaDireito = [
         },
         "habilidadeCobrada": "Aprender com erro usando IA sem perder rigor técnico."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "filosofia-direito-hermeneutica-juridica-e-interpretacao",
@@ -2895,7 +2961,12 @@ export const filosofiaDireito = [
           ]
         },
         "habilidadeCobrada": "Distinguir interpretação literal, sistemática, histórica, teleológica e constitucional",
-        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria."
+        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "filosofia-direito-hermeneutica-juridica-e-interpretacao-q02",
@@ -3130,7 +3201,13 @@ export const filosofiaDireito = [
         },
         "habilidadeCobrada": "Aprender com erro usando IA sem perder rigor técnico."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "filosofia-direito-teorias-da-justica-aristoteles-kant-rawls",
@@ -3341,7 +3418,12 @@ export const filosofiaDireito = [
           ]
         },
         "habilidadeCobrada": "Reconhecer teorias clássicas e contemporâneas da justiça em enunciados conceituais",
-        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria."
+        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "filosofia-direito-teorias-da-justica-aristoteles-kant-rawls-q02",
@@ -3576,7 +3658,13 @@ export const filosofiaDireito = [
         },
         "habilidadeCobrada": "Aprender com erro usando IA sem perder rigor técnico."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "filosofia-direito-direito-poder-e-estado-moderno",
@@ -3789,7 +3877,12 @@ export const filosofiaDireito = [
           ]
         },
         "habilidadeCobrada": "Compreender fundamentos filosóficos do Estado, autoridade, liberdade e separação de poderes",
-        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria."
+        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "filosofia-direito-direito-poder-e-estado-moderno-q02",
@@ -4024,7 +4117,13 @@ export const filosofiaDireito = [
         },
         "habilidadeCobrada": "Aprender com erro usando IA sem perder rigor técnico."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "filosofia-direito-direitos-humanos-democracia-e-constitucionalismo",
@@ -4235,7 +4334,12 @@ export const filosofiaDireito = [
           ]
         },
         "habilidadeCobrada": "Relacionar Filosofia do Direito com direitos humanos, democracia constitucional e proteção contra abusos",
-        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria."
+        "criterioDominio": "Acertar e justificar por que as demais alternativas distorcem a teoria.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "filosofia-direito-direitos-humanos-democracia-e-constitucionalismo-q02",
@@ -4470,7 +4574,13 @@ export const filosofiaDireito = [
         },
         "habilidadeCobrada": "Aprender com erro usando IA sem perder rigor técnico."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   }
 ];
 

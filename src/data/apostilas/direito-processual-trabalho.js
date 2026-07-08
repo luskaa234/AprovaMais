@@ -245,6 +245,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -332,6 +337,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -393,6 +403,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -480,6 +495,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -541,7 +561,13 @@ export const direitoProcessualTrabalho = [
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "competencia-da-justica-do-trabalho",
@@ -778,6 +804,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -865,6 +896,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -926,6 +962,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1013,6 +1054,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1074,7 +1120,13 @@ export const direitoProcessualTrabalho = [
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "reclamacao-trabalhista-e-peticao-inicial",
@@ -1311,6 +1363,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1398,6 +1455,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1459,6 +1521,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1546,6 +1613,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1607,7 +1679,13 @@ export const direitoProcessualTrabalho = [
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "partes-representacao-jus-postulandi-e-honorarios",
@@ -1844,6 +1922,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1931,6 +2014,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1992,6 +2080,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2079,6 +2172,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2140,7 +2238,13 @@ export const direitoProcessualTrabalho = [
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "audiencia-trabalhista-conciliacao-e-revelia",
@@ -2377,6 +2481,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2464,6 +2573,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2525,6 +2639,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2612,6 +2731,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2673,7 +2797,13 @@ export const direitoProcessualTrabalho = [
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "defesa-do-reclamado-contestacao-excecoes-e-reconvencao",
@@ -2910,6 +3040,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2997,6 +3132,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3058,6 +3198,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3145,6 +3290,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3206,7 +3356,13 @@ export const direitoProcessualTrabalho = [
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "provas-e-onus-da-prova-no-processo-do-trabalho",
@@ -3443,6 +3599,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3530,6 +3691,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3591,6 +3757,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3678,6 +3849,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3739,7 +3915,13 @@ export const direitoProcessualTrabalho = [
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "sentenca-liquidacao-e-coisa-julgada-trabalhista",
@@ -3976,6 +4158,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4063,6 +4250,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4124,6 +4316,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4211,6 +4408,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4272,7 +4474,13 @@ export const direitoProcessualTrabalho = [
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "recursos-trabalhistas-ro-rr-agravos-e-embargos",
@@ -4509,6 +4717,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4596,6 +4809,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4657,6 +4875,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4744,6 +4967,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4805,7 +5033,13 @@ export const direitoProcessualTrabalho = [
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "execucao-trabalhista-e-medidas-especiais",
@@ -5044,6 +5278,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5131,6 +5370,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5192,6 +5436,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5279,6 +5528,11 @@ export const direitoProcessualTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar o gatilho da banca e gerar uma questão irmã no mesmo tema.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase, comparar com situação parecida e gerar flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5340,7 +5594,13 @@ export const direitoProcessualTrabalho = [
           "seAcertarComSeguranca": "Liberar uma variação mais difícil, preferencialmente com caso prático."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   }
 ];
 

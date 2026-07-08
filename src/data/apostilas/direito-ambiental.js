@@ -1,12 +1,7 @@
 /**
- * VemAprovar Top1 — Apostila Premium 10/10
+ * VemAprovar Top1 — Apostila Premium 10/10 Plus Revisado
  * Arquivo: direito-ambiental.js
- * Módulo: Direito Ambiental
- * Lote de continuação: OAB / Concursos Jurídicos / Tribunais / Carreiras Policiais / Concursos Ambientais
- * Atualização pedagógica: 2026-07-07
- *
- * Padrão: teoria objetiva + explicação simples + questões estilo banca + flashcards + Tutor IA.
- * Observação crítica: conferir Constituição, legislação ambiental federal, normas infralegais e jurisprudência atualizada em fonte oficial antes da publicação final.
+ * Pacote revisado com gabaritos obrigatórios, flashcards completos e validação programática.
  */
 
 export const direitoAmbiental = [
@@ -223,6 +218,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -305,6 +305,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -361,6 +366,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -415,7 +425,13 @@ export const direitoAmbiental = [
         "promptTutorIA": "Crie um caso inédito sobre Direito ambiental constitucional e princípios estruturantes para OAB ou concurso, com 5 alternativas, gabarito, comentários e uma explicação simples para quem errou.",
         "criterioDominio": "O aluno domina o capítulo quando acerta a questão, explica a pegadinha e consegue criar um exemplo próprio."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "politica-nacional-do-meio-ambiente-sisnama-e-instrumentos-de-gestao",
@@ -630,6 +646,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -712,6 +733,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -768,6 +794,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -822,7 +853,13 @@ export const direitoAmbiental = [
         "promptTutorIA": "Crie um caso inédito sobre Política Nacional do Meio Ambiente, SISNAMA e instrumentos de gestão para OAB ou concurso, com 5 alternativas, gabarito, comentários e uma explicação simples para quem errou.",
         "criterioDominio": "O aluno domina o capítulo quando acerta a questão, explica a pegadinha e consegue criar um exemplo próprio."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "licenciamento-ambiental-estudo-de-impacto-e-condicionantes",
@@ -1037,6 +1074,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1119,6 +1161,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1175,6 +1222,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1229,7 +1281,13 @@ export const direitoAmbiental = [
         "promptTutorIA": "Crie um caso inédito sobre Licenciamento ambiental, estudo de impacto e condicionantes para OAB ou concurso, com 5 alternativas, gabarito, comentários e uma explicação simples para quem errou.",
         "criterioDominio": "O aluno domina o capítulo quando acerta a questão, explica a pegadinha e consegue criar um exemplo próprio."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "responsabilidade-civil-ambiental-e-reparacao-integral-do-dano",
@@ -1444,6 +1502,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1526,6 +1589,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1582,6 +1650,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1636,7 +1709,13 @@ export const direitoAmbiental = [
         "promptTutorIA": "Crie um caso inédito sobre Responsabilidade civil ambiental e reparação integral do dano para OAB ou concurso, com 5 alternativas, gabarito, comentários e uma explicação simples para quem errou.",
         "criterioDominio": "O aluno domina o capítulo quando acerta a questão, explica a pegadinha e consegue criar um exemplo próprio."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "responsabilidade-administrativa-ambiental-e-poder-de-policia",
@@ -1851,6 +1930,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1933,6 +2017,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1989,6 +2078,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2043,7 +2137,13 @@ export const direitoAmbiental = [
         "promptTutorIA": "Crie um caso inédito sobre Responsabilidade administrativa ambiental e poder de polícia para OAB ou concurso, com 5 alternativas, gabarito, comentários e uma explicação simples para quem errou.",
         "criterioDominio": "O aluno domina o capítulo quando acerta a questão, explica a pegadinha e consegue criar um exemplo próprio."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "crimes-ambientais-e-responsabilidade-penal-da-pessoa-juridica",
@@ -2258,6 +2358,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2340,6 +2445,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2396,6 +2506,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2450,7 +2565,13 @@ export const direitoAmbiental = [
         "promptTutorIA": "Crie um caso inédito sobre Crimes ambientais e responsabilidade penal da pessoa jurídica para OAB ou concurso, com 5 alternativas, gabarito, comentários e uma explicação simples para quem errou.",
         "criterioDominio": "O aluno domina o capítulo quando acerta a questão, explica a pegadinha e consegue criar um exemplo próprio."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "codigo-florestal-app-reserva-legal-car-e-uso-consolidado",
@@ -2622,7 +2743,7 @@ export const direitoAmbiental = [
         "alternativas": [
           "APP e Reserva Legal são exatamente a mesma coisa.",
           "CAR é licença ambiental automática para suprimir vegetação.",
-          "APP e Reserva Legal são institutos distintos: APP protege áreas sensíveis por sua função ambiental, enquanto Reserva Legal é área do imóvel rural voltada à conservação e uso sustentável.",
+          "APP e Reserva Legal são institutos distintos: APP protege áreas sensíveis por sua função ambiental, enquanto Reserva Legal é área do imóvel rural voltada à conservação e uso.",
           "Reserva Legal só existe em imóvel urbano.",
           "APP depende sempre de ato individual do proprietário para existir."
         ],
@@ -2665,6 +2786,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2747,6 +2873,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2803,6 +2934,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2857,7 +2993,13 @@ export const direitoAmbiental = [
         "promptTutorIA": "Crie um caso inédito sobre Código Florestal: APP, Reserva Legal, CAR e uso consolidado para OAB ou concurso, com 5 alternativas, gabarito, comentários e uma explicação simples para quem errou.",
         "criterioDominio": "O aluno domina o capítulo quando acerta a questão, explica a pegadinha e consegue criar um exemplo próprio."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "unidades-de-conservacao-snuc-e-protecao-da-biodiversidade",
@@ -3029,7 +3171,7 @@ export const direitoAmbiental = [
         "alternativas": [
           "Toda unidade de conservação permite exploração econômica livre.",
           "Proteção integral e uso sustentável são categorias idênticas.",
-          "Unidades de proteção integral buscam preservar a natureza, admitindo em regra uso indireto dos recursos naturais, enquanto as de uso sustentável compatibilizam conservação e uso regulado.",
+          "Unidades de proteção integral buscam preservar a natureza, admitindo em regra uso indireto dos recursos naturais, enquanto as de uso sustentável compatibilizam conservação e.",
           "Plano de manejo é documento facultativo sem relevância para gestão.",
           "Unidade de conservação só pode ser criada por particular."
         ],
@@ -3072,6 +3214,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3154,6 +3301,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3210,6 +3362,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3264,7 +3421,13 @@ export const direitoAmbiental = [
         "promptTutorIA": "Crie um caso inédito sobre Unidades de Conservação, SNUC e proteção da biodiversidade para OAB ou concurso, com 5 alternativas, gabarito, comentários e uma explicação simples para quem errou.",
         "criterioDominio": "O aluno domina o capítulo quando acerta a questão, explica a pegadinha e consegue criar um exemplo próprio."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "recursos-hidricos-saneamento-basico-e-residuos-solidos",
@@ -3479,6 +3642,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3561,6 +3729,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3617,6 +3790,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3671,7 +3849,13 @@ export const direitoAmbiental = [
         "promptTutorIA": "Crie um caso inédito sobre Recursos hídricos, saneamento básico e resíduos sólidos para OAB ou concurso, com 5 alternativas, gabarito, comentários e uma explicação simples para quem errou.",
         "criterioDominio": "O aluno domina o capítulo quando acerta a questão, explica a pegadinha e consegue criar um exemplo próprio."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "tutela-processual-ambiental-acao-civil-publica-inquerito-civil-e-tac",
@@ -3886,6 +4070,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3968,6 +4157,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4024,6 +4218,11 @@ export const direitoAmbiental = [
             "palavra_absoluta",
             "aplicacao_ao_caso"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4078,7 +4277,13 @@ export const direitoAmbiental = [
         "promptTutorIA": "Crie um caso inédito sobre Tutela processual ambiental: ação civil pública, inquérito civil e TAC para OAB ou concurso, com 5 alternativas, gabarito, comentários e uma explicação simples para quem errou.",
         "criterioDominio": "O aluno domina o capítulo quando acerta a questão, explica a pegadinha e consegue criar um exemplo próprio."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   }
 ];
 

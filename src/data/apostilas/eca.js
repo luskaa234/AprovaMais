@@ -245,6 +245,11 @@ export const eca = [
             "palavra_absoluta",
             "confusao_entre_categorias"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -422,7 +427,13 @@ export const eca = [
           "generalizacao_absoluta"
         ]
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "direitos-fundamentais-vida-saude-liberdade-respeito-dignidade-e-convivencia-familiar",
@@ -661,6 +672,11 @@ export const eca = [
             "palavra_absoluta",
             "confusao_entre_categorias"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -838,7 +854,13 @@ export const eca = [
           "generalizacao_absoluta"
         ]
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "familia-natural-familia-extensa-familia-substituta-guarda-tutela-e-adocao",
@@ -1077,6 +1099,11 @@ export const eca = [
             "palavra_absoluta",
             "confusao_entre_categorias"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1254,7 +1281,13 @@ export const eca = [
           "generalizacao_absoluta"
         ]
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "educacao-cultura-esporte-lazer-profissionalizacao-e-protecao-no-trabalho",
@@ -1491,6 +1524,11 @@ export const eca = [
             "palavra_absoluta",
             "confusao_entre_categorias"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1668,7 +1706,13 @@ export const eca = [
           "generalizacao_absoluta"
         ]
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "prevencao-produtos-servicos-autorizacao-para-viagem-e-protecao-contra-violencia",
@@ -1905,6 +1949,11 @@ export const eca = [
             "palavra_absoluta",
             "confusao_entre_categorias"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2082,7 +2131,13 @@ export const eca = [
           "generalizacao_absoluta"
         ]
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "medidas-de-protecao-e-atuacao-do-conselho-tutelar",
@@ -2319,6 +2374,11 @@ export const eca = [
             "palavra_absoluta",
             "confusao_entre_categorias"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2496,7 +2556,13 @@ export const eca = [
           "generalizacao_absoluta"
         ]
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "ato-infracional-conceito-apreensao-e-garantias-do-adolescente",
@@ -2733,6 +2799,11 @@ export const eca = [
             "palavra_absoluta",
             "confusao_entre_categorias"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2910,7 +2981,13 @@ export const eca = [
           "generalizacao_absoluta"
         ]
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "medidas-socioeducativas-advertencia-reparacao-psc-liberdade-assistida-semiliberdade-e-internacao",
@@ -3149,6 +3226,11 @@ export const eca = [
             "palavra_absoluta",
             "confusao_entre_categorias"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3326,7 +3408,13 @@ export const eca = [
           "generalizacao_absoluta"
         ]
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "justica-da-infancia-e-juventude-competencia-procedimentos-e-atores-do-sistema",
@@ -3563,6 +3651,11 @@ export const eca = [
             "palavra_absoluta",
             "confusao_entre_categorias"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3740,7 +3833,13 @@ export const eca = [
           "generalizacao_absoluta"
         ]
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "crimes-e-infracoes-administrativas-no-eca",
@@ -3977,6 +4076,11 @@ export const eca = [
             "palavra_absoluta",
             "confusao_entre_categorias"
           ]
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4154,7 +4258,13 @@ export const eca = [
           "generalizacao_absoluta"
         ]
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   }
 ];
 

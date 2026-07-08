@@ -172,6 +172,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Ideia central e informações explícitas em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -408,6 +413,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Ideia central e informações explícitas em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -586,8 +596,9 @@ export const apostilaPortuguesInterpretacao = [
       },
       {
         "frente": "Palavra-chave: ideia central",
-        "verso": "Explique ideia central dentro do tema Ideia central e informações explícitas.",
-        "nivel": "conceito"
+        "verso": "ideia central: Ideia central percorre o texto inteiro; ideia secundária vive em um parágrafo só. Informação explícita se resolve por localização, não por interpretação. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Ideia central e informações explícitas",
@@ -781,6 +792,12 @@ export const apostilaPortuguesInterpretacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -946,6 +963,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Inferência, pressupostos e subentendidos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1182,6 +1204,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Inferência, pressupostos e subentendidos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1360,8 +1387,9 @@ export const apostilaPortuguesInterpretacao = [
       },
       {
         "frente": "Palavra-chave: inferência",
-        "verso": "Explique inferência dentro do tema Inferência, pressupostos e subentendidos.",
-        "nivel": "conceito"
+        "verso": "inferência: Inferência = conclusão lógica ancorada em pistas do texto, nunca invenção. Pressuposto se esconde em palavras como 'ainda', 'voltou a', 'continua', 'até mesmo'. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Inferência, pressupostos e subentendidos",
@@ -1555,6 +1583,12 @@ export const apostilaPortuguesInterpretacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1722,6 +1756,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Tipologia textual: narrar, descrever, dissertar e argumentar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1962,6 +2001,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Tipologia textual: narrar, descrever, dissertar e argumentar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2144,8 +2188,9 @@ export const apostilaPortuguesInterpretacao = [
       },
       {
         "frente": "Palavra-chave: narração",
-        "verso": "Explique narração dentro do tema Tipologia textual: narrar, descrever, dissertar e argumentar.",
-        "nivel": "conceito"
+        "verso": "narração: Narração = sequência de fatos no tempo; Descrição = características, sem progressão temporal. Dissertação expõe e explica; Argumentação defende uma tese com evidências. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Tipologia textual: narrar, descrever, dissertar e argumentar",
@@ -2340,6 +2385,12 @@ export const apostilaPortuguesInterpretacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2502,6 +2553,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Gêneros textuais e finalidade comunicativa em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2734,6 +2790,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Gêneros textuais e finalidade comunicativa em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2908,8 +2969,9 @@ export const apostilaPortuguesInterpretacao = [
       },
       {
         "frente": "Palavra-chave: gênero textual",
-        "verso": "Explique gênero textual dentro do tema Gêneros textuais e finalidade comunicativa.",
-        "nivel": "conceito"
+        "verso": "gênero textual: Gênero = forma social de circulação do texto; tipologia = estrutura interna (narrar, descrever, dissertar, argumentar). Um gênero pode combinar várias tipologias ao mesmo tempo. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Gêneros textuais e finalidade comunicativa",
@@ -3102,6 +3164,12 @@ export const apostilaPortuguesInterpretacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3267,6 +3335,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Coesão referencial e sequencial em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3503,6 +3576,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Coesão referencial e sequencial em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3681,8 +3759,9 @@ export const apostilaPortuguesInterpretacao = [
       },
       {
         "frente": "Palavra-chave: coesão referencial",
-        "verso": "Explique coesão referencial dentro do tema Coesão referencial e sequencial.",
-        "nivel": "conceito"
+        "verso": "coesão referencial: Coesão referencial = retomada de um termo já citado (pronome, sinônimo, elipse). Coesão sequencial = conectivos que organizam a progressão lógica (causa, oposição, adição, conclusão). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Coesão referencial e sequencial",
@@ -3876,6 +3955,12 @@ export const apostilaPortuguesInterpretacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4041,6 +4126,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Coerência e progressão de ideias em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4277,6 +4367,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Coerência e progressão de ideias em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4455,8 +4550,9 @@ export const apostilaPortuguesInterpretacao = [
       },
       {
         "frente": "Palavra-chave: coerência",
-        "verso": "Explique coerência dentro do tema Coerência e progressão de ideias.",
-        "nivel": "conceito"
+        "verso": "coerência: Coerência é lógica interna; coesão é amarração gramatical — são conceitos diferentes. Um parágrafo coerente sempre acrescenta informação nova, sem repetir ou se contradizer. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Coerência e progressão de ideias",
@@ -4650,6 +4746,12 @@ export const apostilaPortuguesInterpretacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4815,6 +4917,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Tese, argumentos e conclusão em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5051,6 +5158,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Tese, argumentos e conclusão em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5229,8 +5341,9 @@ export const apostilaPortuguesInterpretacao = [
       },
       {
         "frente": "Palavra-chave: tese",
-        "verso": "Explique tese dentro do tema Tese, argumentos e conclusão.",
-        "nivel": "conceito"
+        "verso": "tese: Tese = a ideia central que o autor defende; normalmente no início, mas pode ser indireta. Argumento forte traz dado, exemplo ou comparação; argumento fraco só repete a tese com outras palavras. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Tese, argumentos e conclusão",
@@ -5424,6 +5537,12 @@ export const apostilaPortuguesInterpretacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5589,6 +5708,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Ponto de vista, crítica e ironia em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5825,6 +5949,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Ponto de vista, crítica e ironia em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6003,8 +6132,9 @@ export const apostilaPortuguesInterpretacao = [
       },
       {
         "frente": "Palavra-chave: ponto de vista",
-        "verso": "Explique ponto de vista dentro do tema Ponto de vista, crítica e ironia.",
-        "nivel": "conceito"
+        "verso": "ponto de vista: Ponto de vista se revela por escolha de palavras, destaque e omissão — raramente é dito de forma explícita. Ironia comunica o oposto do que está escrito literalmente; exige perceber o contraste com o contexto. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Ponto de vista, crítica e ironia",
@@ -6198,6 +6328,12 @@ export const apostilaPortuguesInterpretacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6363,6 +6499,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Ambiguidade e sentido conotativo x denotativo em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6599,6 +6740,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Ambiguidade e sentido conotativo x denotativo em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6777,8 +6923,9 @@ export const apostilaPortuguesInterpretacao = [
       },
       {
         "frente": "Palavra-chave: ambiguidade",
-        "verso": "Explique ambiguidade dentro do tema Ambiguidade e sentido conotativo x denotativo.",
-        "nivel": "conceito"
+        "verso": "ambiguidade: Ambiguidade = mais de uma interpretação possível; costuma vir de pronome sem referente claro ou posição de palavra na frase. Sentido denotativo é literal; sentido conotativo é figurado e depende do contexto. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Ambiguidade e sentido conotativo x denotativo",
@@ -6972,6 +7119,12 @@ export const apostilaPortuguesInterpretacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7137,6 +7290,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Textos institucionais e linguagem oficial em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7373,6 +7531,11 @@ export const apostilaPortuguesInterpretacao = [
           "seErrar": "A IA deve explicar Textos institucionais e linguagem oficial em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7551,8 +7714,9 @@ export const apostilaPortuguesInterpretacao = [
       },
       {
         "frente": "Palavra-chave: linguagem formal",
-        "verso": "Explique linguagem formal dentro do tema Textos institucionais e linguagem oficial.",
-        "nivel": "conceito"
+        "verso": "linguagem formal: Texto institucional exige registro formal e impessoal — evita-se opinião pessoal e primeira pessoa do singular. Impessoalidade se constrói com terceira pessoa e voz passiva ('constatou-se', 'foi verificado'). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Textos institucionais e linguagem oficial",
@@ -7746,6 +7910,12 @@ export const apostilaPortuguesInterpretacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

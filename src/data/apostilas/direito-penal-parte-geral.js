@@ -173,6 +173,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Princípios do Direito Penal em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -409,6 +414,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Princípios do Direito Penal em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -587,8 +597,9 @@ export const direitoPenalParteGeral = [
       },
       {
         "frente": "Palavra-chave: legalidade",
-        "verso": "Explique legalidade dentro do tema Princípios do Direito Penal.",
-        "nivel": "conceito"
+        "verso": "legalidade: Legalidade: não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal. Lei penal mais gravosa nunca retroage; lei penal mais benéfica sempre retroage, mesmo após o trânsito em julgado. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Princípios do Direito Penal",
@@ -783,6 +794,12 @@ export const direitoPenalParteGeral = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -949,6 +966,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Fato típico: conduta, resultado e nexo causal em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1185,6 +1207,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Fato típico: conduta, resultado e nexo causal em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1363,8 +1390,9 @@ export const direitoPenalParteGeral = [
       },
       {
         "frente": "Palavra-chave: conduta",
-        "verso": "Explique conduta dentro do tema Fato típico: conduta, resultado e nexo causal.",
-        "nivel": "conceito"
+        "verso": "conduta: Fato típico = conduta humana voluntária + resultado + nexo causal + tipicidade (enquadramento no tipo penal). Não há conduta penalmente relevante em ato reflexo, força irresistível ou fato da natureza. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Fato típico: conduta, resultado e nexo causal",
@@ -1559,6 +1587,12 @@ export const direitoPenalParteGeral = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1725,6 +1759,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Ilicitude e suas excludentes em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1961,6 +2000,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Ilicitude e suas excludentes em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2139,8 +2183,9 @@ export const direitoPenalParteGeral = [
       },
       {
         "frente": "Palavra-chave: legítima defesa",
-        "verso": "Explique legítima defesa dentro do tema Ilicitude e suas excludentes.",
-        "nivel": "conceito"
+        "verso": "legítima defesa: Legítima defesa: agressão injusta, atual/iminente, repelida com meios necessários usados moderadamente. Estado de necessidade: conflito de bens jurídicos diante de perigo atual não provocado voluntariamente pelo agente. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Ilicitude e suas excludentes",
@@ -2335,6 +2380,12 @@ export const direitoPenalParteGeral = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2501,6 +2552,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Culpabilidade e suas excludentes em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2737,6 +2793,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Culpabilidade e suas excludentes em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2915,8 +2976,9 @@ export const direitoPenalParteGeral = [
       },
       {
         "frente": "Palavra-chave: imputabilidade",
-        "verso": "Explique imputabilidade dentro do tema Culpabilidade e suas excludentes.",
-        "nivel": "conceito"
+        "verso": "imputabilidade: Culpabilidade = imputabilidade + potencial consciência da ilicitude + exigibilidade de conduta diversa. Diferente da ilicitude, a culpabilidade é um juízo sobre o agente, não sobre o fato — é pessoal e intransferível. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Culpabilidade e suas excludentes",
@@ -3111,6 +3173,12 @@ export const direitoPenalParteGeral = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3274,6 +3342,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Erro de tipo e erro de proibição em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3506,6 +3579,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Erro de tipo e erro de proibição em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3680,8 +3758,9 @@ export const direitoPenalParteGeral = [
       },
       {
         "frente": "Palavra-chave: erro de tipo",
-        "verso": "Explique erro de tipo dentro do tema Erro de tipo e erro de proibição.",
-        "nivel": "conceito"
+        "verso": "erro de tipo: Erro de tipo: falsa percepção sobre elemento do fato — sempre exclui o dolo. Erro de proibição: falsa percepção sobre a ilicitude — afeta a culpabilidade, não o dolo. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Erro de tipo e erro de proibição",
@@ -3875,6 +3954,12 @@ export const direitoPenalParteGeral = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4041,6 +4126,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Iter criminis: tentativa, consumação e desistência voluntária em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4277,6 +4367,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Iter criminis: tentativa, consumação e desistência voluntária em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4455,8 +4550,9 @@ export const direitoPenalParteGeral = [
       },
       {
         "frente": "Palavra-chave: tentativa",
-        "verso": "Explique tentativa dentro do tema Iter criminis: tentativa, consumação e desistência voluntária.",
-        "nivel": "conceito"
+        "verso": "tentativa: Tentativa: execução iniciada, não consumada por circunstância alheia à vontade do agente. Desistência voluntária: agente para por vontade própria durante a execução — responde só pelos atos já praticados. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Iter criminis: tentativa, consumação e desistência voluntária",
@@ -4651,6 +4747,12 @@ export const direitoPenalParteGeral = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4817,6 +4919,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Concurso de pessoas: autoria, coautoria e participação em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5053,6 +5160,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Concurso de pessoas: autoria, coautoria e participação em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5231,8 +5343,9 @@ export const direitoPenalParteGeral = [
       },
       {
         "frente": "Palavra-chave: autoria",
-        "verso": "Explique autoria dentro do tema Concurso de pessoas: autoria, coautoria e participação.",
-        "nivel": "conceito"
+        "verso": "autoria: Autor tem domínio do fato (controla início, continuidade, interrupção); partícipe apenas colabora sem esse domínio. Coautoria = divisão funcional de tarefas na execução; participação = induzimento, instigação ou auxílio. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Concurso de pessoas: autoria, coautoria e participação",
@@ -5427,6 +5540,12 @@ export const direitoPenalParteGeral = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5593,6 +5712,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Penas: espécies, aplicação e regimes em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5829,6 +5953,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Penas: espécies, aplicação e regimes em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6007,8 +6136,9 @@ export const direitoPenalParteGeral = [
       },
       {
         "frente": "Palavra-chave: pena privativa de liberdade",
-        "verso": "Explique pena privativa de liberdade dentro do tema Penas: espécies, aplicação e regimes.",
-        "nivel": "conceito"
+        "verso": "pena privativa de liberdade: Três espécies de pena: privativa de liberdade, restritiva de direitos (substitutiva) e multa. Dosimetria trifásica: pena-base (circunstâncias judiciais) → agravantes/atenuantes → causas de aumento/diminuição. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Penas: espécies, aplicação e regimes",
@@ -6203,6 +6333,12 @@ export const direitoPenalParteGeral = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6369,6 +6505,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Extinção da punibilidade em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6605,6 +6746,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Extinção da punibilidade em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6783,8 +6929,9 @@ export const direitoPenalParteGeral = [
       },
       {
         "frente": "Palavra-chave: prescrição",
-        "verso": "Explique prescrição dentro do tema Extinção da punibilidade.",
-        "nivel": "conceito"
+        "verso": "prescrição: Extinção da punibilidade: morte do agente, anistia/graça/indulto, abolitio criminis, prescrição, decadência, perempção, renúncia/perdão, retratação. Prescrição da pretensão punitiva (antes do trânsito em julgado) x prescrição da pretensão executória (depois do trânsito em julgado). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Extinção da punibilidade",
@@ -6978,6 +7125,12 @@ export const direitoPenalParteGeral = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7144,6 +7297,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Introdução aos crimes contra a pessoa em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7380,6 +7538,11 @@ export const direitoPenalParteGeral = [
           "seErrar": "A IA deve explicar Introdução aos crimes contra a pessoa em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7558,8 +7721,9 @@ export const direitoPenalParteGeral = [
       },
       {
         "frente": "Palavra-chave: homicídio",
-        "verso": "Explique homicídio dentro do tema Introdução aos crimes contra a pessoa.",
-        "nivel": "conceito"
+        "verso": "homicídio: Homicídio qualificado tem pena de 12 a 30 anos (motivo torpe/fútil, meio cruel, traição, para garantir outro crime). Homicídio privilegiado permite redução de pena (relevante valor social/moral, violenta emoção após injusta provocação). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Introdução aos crimes contra a pessoa",
@@ -7754,6 +7918,12 @@ export const direitoPenalParteGeral = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

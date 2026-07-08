@@ -183,6 +183,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza indevidamente e ignora fontes, tratados, costumes, cooperação e limites jurídicos.",
+          "Confunde plano internacional com plano interno e ignora a técnica de incorporação/eficácia.",
+          "Elemento estrangeiro não elimina automaticamente o direito brasileiro; exige regra de conexão ou competência.",
+          "Soberania não é isolamento absoluto e convive com obrigações internacionais."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -268,6 +281,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -301,6 +327,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "E",
+        "alternativasComentadas": [
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -388,7 +427,13 @@ export const direitoInternacional = [
         }
       }
     ],
-    "proximoTitulo": "Tratados internacionais: formação, incorporação e hierarquia no Brasil"
+    "proximoTitulo": "Tratados internacionais: formação, incorporação e hierarquia no Brasil",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "tratados-internacionais-formacao-incorporacao-hierarquia",
@@ -563,6 +608,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza indevidamente e ignora fontes, tratados, costumes, cooperação e limites jurídicos.",
+          "Confunde plano internacional com plano interno e ignora a técnica de incorporação/eficácia.",
+          "Elemento estrangeiro não elimina automaticamente o direito brasileiro; exige regra de conexão ou competência.",
+          "Soberania não é isolamento absoluto e convive com obrigações internacionais."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -648,6 +706,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -681,6 +752,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "E",
+        "alternativasComentadas": [
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -768,7 +852,13 @@ export const direitoInternacional = [
         }
       }
     ],
-    "proximoTitulo": "Estado, soberania, território, nacionalidade e condição jurídica do estrangeiro"
+    "proximoTitulo": "Estado, soberania, território, nacionalidade e condição jurídica do estrangeiro",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "estado-soberania-territorio-nacionalidade-estrangeiro",
@@ -944,6 +1034,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza indevidamente e ignora fontes, tratados, costumes, cooperação e limites jurídicos.",
+          "Confunde plano internacional com plano interno e ignora a técnica de incorporação/eficácia.",
+          "Elemento estrangeiro não elimina automaticamente o direito brasileiro; exige regra de conexão ou competência.",
+          "Soberania não é isolamento absoluto e convive com obrigações internacionais."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1029,6 +1132,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1062,6 +1178,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "E",
+        "alternativasComentadas": [
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1149,7 +1278,13 @@ export const direitoInternacional = [
         }
       }
     ],
-    "proximoTitulo": "Organizações internacionais e ONU"
+    "proximoTitulo": "Organizações internacionais e ONU",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "organizacoes-internacionais-onu",
@@ -1324,6 +1459,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza indevidamente e ignora fontes, tratados, costumes, cooperação e limites jurídicos.",
+          "Confunde plano internacional com plano interno e ignora a técnica de incorporação/eficácia.",
+          "Elemento estrangeiro não elimina automaticamente o direito brasileiro; exige regra de conexão ou competência.",
+          "Soberania não é isolamento absoluto e convive com obrigações internacionais."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1409,6 +1557,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1442,6 +1603,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "E",
+        "alternativasComentadas": [
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1529,7 +1703,13 @@ export const direitoInternacional = [
         }
       }
     ],
-    "proximoTitulo": "Responsabilidade internacional e solução pacífica de controvérsias"
+    "proximoTitulo": "Responsabilidade internacional e solução pacífica de controvérsias",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "responsabilidade-internacional-solucao-pacifica-controversias",
@@ -1704,6 +1884,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza indevidamente e ignora fontes, tratados, costumes, cooperação e limites jurídicos.",
+          "Confunde plano internacional com plano interno e ignora a técnica de incorporação/eficácia.",
+          "Elemento estrangeiro não elimina automaticamente o direito brasileiro; exige regra de conexão ou competência.",
+          "Soberania não é isolamento absoluto e convive com obrigações internacionais."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1789,6 +1982,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1822,6 +2028,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "E",
+        "alternativasComentadas": [
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1909,7 +2128,13 @@ export const direitoInternacional = [
         }
       }
     ],
-    "proximoTitulo": "Direitos humanos internacionais e sistemas de proteção"
+    "proximoTitulo": "Direitos humanos internacionais e sistemas de proteção",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "direitos-humanos-internacionais-sistemas-protecao",
@@ -2084,6 +2309,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza indevidamente e ignora fontes, tratados, costumes, cooperação e limites jurídicos.",
+          "Confunde plano internacional com plano interno e ignora a técnica de incorporação/eficácia.",
+          "Elemento estrangeiro não elimina automaticamente o direito brasileiro; exige regra de conexão ou competência.",
+          "Soberania não é isolamento absoluto e convive com obrigações internacionais."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2169,6 +2407,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2202,6 +2453,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "E",
+        "alternativasComentadas": [
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2289,7 +2553,13 @@ export const direitoInternacional = [
         }
       }
     ],
-    "proximoTitulo": "Direito Internacional Humanitário, refugiados e proteção migratória"
+    "proximoTitulo": "Direito Internacional Humanitário, refugiados e proteção migratória",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "direito-internacional-humanitario-refugiados-protecao-migratoria",
@@ -2465,6 +2735,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza indevidamente e ignora fontes, tratados, costumes, cooperação e limites jurídicos.",
+          "Confunde plano internacional com plano interno e ignora a técnica de incorporação/eficácia.",
+          "Elemento estrangeiro não elimina automaticamente o direito brasileiro; exige regra de conexão ou competência.",
+          "Soberania não é isolamento absoluto e convive com obrigações internacionais."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2550,6 +2833,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2583,6 +2879,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "E",
+        "alternativasComentadas": [
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2670,7 +2979,13 @@ export const direitoInternacional = [
         }
       }
     ],
-    "proximoTitulo": "Direito Internacional Privado: LINDB, conexão e conflito de leis"
+    "proximoTitulo": "Direito Internacional Privado: LINDB, conexão e conflito de leis",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "direito-internacional-privado-lindb-conexao-conflito-leis",
@@ -2845,6 +3160,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza indevidamente e ignora fontes, tratados, costumes, cooperação e limites jurídicos.",
+          "Confunde plano internacional com plano interno e ignora a técnica de incorporação/eficácia.",
+          "Elemento estrangeiro não elimina automaticamente o direito brasileiro; exige regra de conexão ou competência.",
+          "Soberania não é isolamento absoluto e convive com obrigações internacionais."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2930,6 +3258,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2963,6 +3304,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "E",
+        "alternativasComentadas": [
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3050,7 +3404,13 @@ export const direitoInternacional = [
         }
       }
     ],
-    "proximoTitulo": "Cooperação jurídica internacional, homologação de sentença estrangeira e cartas rogatórias"
+    "proximoTitulo": "Cooperação jurídica internacional, homologação de sentença estrangeira e cartas rogatórias",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "cooperacao-juridica-internacional-homologacao-sentenca-carta-rogatoria",
@@ -3225,6 +3585,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza indevidamente e ignora fontes, tratados, costumes, cooperação e limites jurídicos.",
+          "Confunde plano internacional com plano interno e ignora a técnica de incorporação/eficácia.",
+          "Elemento estrangeiro não elimina automaticamente o direito brasileiro; exige regra de conexão ou competência.",
+          "Soberania não é isolamento absoluto e convive com obrigações internacionais."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3310,6 +3683,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3343,6 +3729,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "E",
+        "alternativasComentadas": [
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3430,7 +3829,13 @@ export const direitoInternacional = [
         }
       }
     ],
-    "proximoTitulo": "Comércio internacional, Mercosul e integração regional"
+    "proximoTitulo": "Comércio internacional, Mercosul e integração regional",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "comercio-internacional-mercosul-integracao-regional",
@@ -3605,6 +4010,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza indevidamente e ignora fontes, tratados, costumes, cooperação e limites jurídicos.",
+          "Confunde plano internacional com plano interno e ignora a técnica de incorporação/eficácia.",
+          "Elemento estrangeiro não elimina automaticamente o direito brasileiro; exige regra de conexão ou competência.",
+          "Soberania não é isolamento absoluto e convive com obrigações internacionais."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3690,6 +4108,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3723,6 +4154,19 @@ export const direitoInternacional = [
           "seErrar": "Explicar em linguagem simples, apontar a palavra que induziu o erro e gerar questão irmã com novo caso internacional.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "E",
+        "alternativasComentadas": [
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Incorreta: contraria o conceito central ou generaliza indevidamente.",
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3810,7 +4254,13 @@ export const direitoInternacional = [
         }
       }
     ],
-    "proximoTitulo": null
+    "proximoTitulo": null,
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   }
 ];
 

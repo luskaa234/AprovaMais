@@ -171,6 +171,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Concordância verbal: regra geral e sujeito composto em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -407,6 +412,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Concordância verbal: regra geral e sujeito composto em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -585,8 +595,9 @@ export const apostilaPortuguesSintaxe = [
       },
       {
         "frente": "Palavra-chave: sujeito simples",
-        "verso": "Explique sujeito simples dentro do tema Concordância verbal: regra geral e sujeito composto.",
-        "nivel": "conceito"
+        "verso": "sujeito simples: O verbo concorda com o núcleo do sujeito, não com termos que o acompanham (adjuntos, apostos). Sujeito composto antes do verbo: concordância no plural, sempre. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Concordância verbal: regra geral e sujeito composto",
@@ -780,6 +791,12 @@ export const apostilaPortuguesSintaxe = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -945,6 +962,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Concordância verbal: casos especiais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1181,6 +1203,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Concordância verbal: casos especiais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1359,8 +1386,9 @@ export const apostilaPortuguesSintaxe = [
       },
       {
         "frente": "Palavra-chave: verbo haver impessoal",
-        "verso": "Explique verbo haver impessoal dentro do tema Concordância verbal: casos especiais.",
-        "nivel": "conceito"
+        "verso": "verbo haver impessoal: Haver (existir) e Fazer (tempo decorrido) são impessoais: sempre 3ª pessoa do singular. 'Fazer' só é impessoal no sentido de tempo decorrido; em outros sentidos, concorda normalmente. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Concordância verbal: casos especiais",
@@ -1554,6 +1582,12 @@ export const apostilaPortuguesSintaxe = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1716,6 +1750,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Concordância nominal: regra geral e casos especiais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1948,6 +1987,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Concordância nominal: regra geral e casos especiais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2122,8 +2166,9 @@ export const apostilaPortuguesSintaxe = [
       },
       {
         "frente": "Palavra-chave: concordância nominal",
-        "verso": "Explique concordância nominal dentro do tema Concordância nominal: regra geral e casos especiais.",
-        "nivel": "conceito"
+        "verso": "concordância nominal: Adjetivo depois de vários substantivos: concorda no plural (com todos) ou só com o mais próximo. 'Menos' é sempre invariável — nunca existe 'menas'. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Concordância nominal: regra geral e casos especiais",
@@ -2316,6 +2361,12 @@ export const apostilaPortuguesSintaxe = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2478,6 +2529,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Regência verbal: verbos que mudam de sentido com a preposição em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2710,6 +2766,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Regência verbal: verbos que mudam de sentido com a preposição em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2884,8 +2945,9 @@ export const apostilaPortuguesSintaxe = [
       },
       {
         "frente": "Palavra-chave: regência verbal",
-        "verso": "Explique regência verbal dentro do tema Regência verbal: verbos que mudam de sentido com a preposição.",
-        "nivel": "conceito"
+        "verso": "regência verbal: Assistir: 'a' (ver/presenciar) x direto (ajudar/prestar assistência). Visar: 'a' (ter como objetivo) x direto (mirar, ou dar visto em documento). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Regência verbal: verbos que mudam de sentido com a preposição",
@@ -3078,6 +3140,12 @@ export const apostilaPortuguesSintaxe = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3240,6 +3308,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Regência nominal e uso de preposições em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3472,6 +3545,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Regência nominal e uso de preposições em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3646,8 +3724,9 @@ export const apostilaPortuguesSintaxe = [
       },
       {
         "frente": "Palavra-chave: regência nominal",
-        "verso": "Explique regência nominal dentro do tema Regência nominal e uso de preposições.",
-        "nivel": "conceito"
+        "verso": "regência nominal: Cada adjetivo/substantivo tem preposição fixa própria — não há regra geral, é memorização pontual. 'Diferente de' é a forma correta na norma culta — nunca 'diferente que'. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Regência nominal e uso de preposições",
@@ -3840,6 +3919,12 @@ export const apostilaPortuguesSintaxe = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4005,6 +4090,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Crase: regra geral e casos obrigatórios em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4241,6 +4331,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Crase: regra geral e casos obrigatórios em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4419,8 +4514,9 @@ export const apostilaPortuguesSintaxe = [
       },
       {
         "frente": "Palavra-chave: crase",
-        "verso": "Explique crase dentro do tema Crase: regra geral e casos obrigatórios.",
-        "nivel": "conceito"
+        "verso": "crase: Crase exige: verbo/nome que pede 'a' + palavra feminina que admite 'a' (artigo). Teste de ouro: substitua por palavra masculina — se virar 'ao', há crase; se ficar só 'a', não há. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Crase: regra geral e casos obrigatórios",
@@ -4614,6 +4710,12 @@ export const apostilaPortuguesSintaxe = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4776,6 +4878,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Crase: casos proibidos e facultativos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5008,6 +5115,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Crase: casos proibidos e facultativos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5182,8 +5294,9 @@ export const apostilaPortuguesSintaxe = [
       },
       {
         "frente": "Palavra-chave: crase proibida",
-        "verso": "Explique crase proibida dentro do tema Crase: casos proibidos e facultativos.",
-        "nivel": "conceito"
+        "verso": "crase proibida: Crase proibida: antes de palavra masculina, verbo, artigo indefinido, e geralmente antes de 'casa'/'terra' sem especificação. Crase proibida (regra geral) antes de nome próprio de pessoa, exceto quando especificado. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Crase: casos proibidos e facultativos",
@@ -5376,6 +5489,12 @@ export const apostilaPortuguesSintaxe = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5541,6 +5660,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Pontuação: a vírgula e suas regras em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5777,6 +5901,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Pontuação: a vírgula e suas regras em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5955,8 +6084,9 @@ export const apostilaPortuguesSintaxe = [
       },
       {
         "frente": "Palavra-chave: vírgula",
-        "verso": "Explique vírgula dentro do tema Pontuação: a vírgula e suas regras.",
-        "nivel": "conceito"
+        "verso": "vírgula: Nunca separe sujeito de predicado (nem verbo de complemento) com vírgula na ordem direta. Aposto e vocativo sempre vêm isolados por vírgulas. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Pontuação: a vírgula e suas regras",
@@ -6150,6 +6280,12 @@ export const apostilaPortuguesSintaxe = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6315,6 +6451,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Pontuação: ponto e vírgula, dois-pontos e travessão em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6551,6 +6692,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Pontuação: ponto e vírgula, dois-pontos e travessão em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6729,8 +6875,9 @@ export const apostilaPortuguesSintaxe = [
       },
       {
         "frente": "Palavra-chave: ponto e vírgula",
-        "verso": "Explique ponto e vírgula dentro do tema Pontuação: ponto e vírgula, dois-pontos e travessão.",
-        "nivel": "conceito"
+        "verso": "ponto e vírgula: Ponto e vírgula separa itens de enumeração complexa (já com vírgula interna) ou orações coordenadas de sentido contrastante. Dois-pontos introduzem explicação, enumeração ou citação — nunca entre verbo e complemento direto. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Pontuação: ponto e vírgula, dois-pontos e travessão",
@@ -6924,6 +7071,12 @@ export const apostilaPortuguesSintaxe = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7086,6 +7239,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Reescrita de frases: equivalência de sentido e transformação sintática em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7318,6 +7476,11 @@ export const apostilaPortuguesSintaxe = [
           "seErrar": "A IA deve explicar Reescrita de frases: equivalência de sentido e transformação sintática em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7492,8 +7655,9 @@ export const apostilaPortuguesSintaxe = [
       },
       {
         "frente": "Palavra-chave: equivalência de sentido",
-        "verso": "Explique equivalência de sentido dentro do tema Reescrita de frases: equivalência de sentido e transformação sintática.",
-        "nivel": "conceito"
+        "verso": "equivalência de sentido: Reescrita precisa manter sentido E correção gramatical — as duas coisas ao mesmo tempo, nunca uma só. Trocar indicativo por subjuntivo muda um fato certo em hipótese — quebra a equivalência de sentido. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Reescrita de frases: equivalência de sentido e transformação sintática",
@@ -7686,6 +7850,12 @@ export const apostilaPortuguesSintaxe = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

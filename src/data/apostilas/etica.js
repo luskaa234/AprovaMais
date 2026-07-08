@@ -172,6 +172,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Ética e moral: conceitos e distinção em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -408,6 +413,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Ética e moral: conceitos e distinção em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -586,8 +596,9 @@ export const etica = [
       },
       {
         "frente": "Palavra-chave: ética",
-        "verso": "Explique ética dentro do tema Ética e moral: conceitos e distinção.",
-        "nivel": "conceito"
+        "verso": "ética: Moral: valores e costumes de um grupo, aceitos sem muita reflexão crítica. Ética: reflexão crítica e racional sobre esses valores. Ética profissional trata dos princípios de conduta específicos de uma atividade — pressupõe adesão interna, não só cumprimento por medo de punição. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Ética e moral: conceitos e distinção",
@@ -781,6 +792,12 @@ export const etica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -946,6 +963,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Ética no serviço público: princípios gerais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1182,6 +1204,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Ética no serviço público: princípios gerais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1360,8 +1387,9 @@ export const etica = [
       },
       {
         "frente": "Palavra-chave: urbanidade",
-        "verso": "Explique urbanidade dentro do tema Ética no serviço público: princípios gerais.",
-        "nivel": "conceito"
+        "verso": "urbanidade: Ética funcional vai além do LIMPE constitucional, incorporando honestidade, urbanidade, zelo, assiduidade e pontualidade. Decreto 1.171/1994 (Código de Ética do Servidor Público Federal) é referência frequentemente cobrada, mesmo fora do âmbito federal. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Ética no serviço público: princípios gerais",
@@ -1555,6 +1583,12 @@ export const etica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1720,6 +1754,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Ética militar: hierarquia, disciplina e valores institucionais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1956,6 +1995,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Ética militar: hierarquia, disciplina e valores institucionais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2134,8 +2178,9 @@ export const etica = [
       },
       {
         "frente": "Palavra-chave: hierarquia militar",
-        "verso": "Explique hierarquia militar dentro do tema Ética militar: hierarquia, disciplina e valores institucionais.",
-        "nivel": "conceito"
+        "verso": "hierarquia militar: Hierarquia: ordenação de autoridade por postos/graduações. Disciplina: observância rigorosa de normas e regulamentos. Autoridade hierárquica não legitima humilhação ou tratamento indigno — abuso na cadeia hierárquica é falta ética grave. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Ética militar: hierarquia, disciplina e valores institucionais",
@@ -2329,6 +2374,12 @@ export const etica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2494,6 +2545,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Deveres e proibições do agente público em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2730,6 +2786,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Deveres e proibições do agente público em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2908,8 +2969,9 @@ export const etica = [
       },
       {
         "frente": "Palavra-chave: dever de urbanidade",
-        "verso": "Explique dever de urbanidade dentro do tema Deveres e proibições do agente público.",
-        "nivel": "conceito"
+        "verso": "dever de urbanidade: Deveres positivos: zelo pelo patrimônio público, lealdade institucional, presteza, urbanidade no atendimento. Proibições: uso do cargo para proveito pessoal, retardar ato de ofício, prejudicar reputação de colegas, iludir quem busca atendimento. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Deveres e proibições do agente público",
@@ -3103,6 +3165,12 @@ export const etica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3268,6 +3336,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Conflito de interesses e nepotismo em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3504,6 +3577,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Conflito de interesses e nepotismo em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3682,8 +3760,9 @@ export const etica = [
       },
       {
         "frente": "Palavra-chave: conflito de interesses",
-        "verso": "Explique conflito de interesses dentro do tema Conflito de interesses e nepotismo.",
-        "nivel": "conceito"
+        "verso": "conflito de interesses: Conflito de interesses: interesse particular pode influenciar (real ou aparentemente) o exercício imparcial da função pública. Nepotismo: nomeação de parente (até 3º grau) para cargo de confiança, vedado pela Súmula Vinculante 13 do STF. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Conflito de interesses e nepotismo",
@@ -3877,6 +3956,12 @@ export const etica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4042,6 +4127,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Corrupção e improbidade administrativa: ética aplicada em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4278,6 +4368,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Corrupção e improbidade administrativa: ética aplicada em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4456,8 +4551,9 @@ export const etica = [
       },
       {
         "frente": "Palavra-chave: corrupção passiva",
-        "verso": "Explique corrupção passiva dentro do tema Corrupção e improbidade administrativa: ética aplicada.",
-        "nivel": "conceito"
+        "verso": "corrupção passiva: Corrupção passiva: agente público solicita/recebe vantagem indevida. Corrupção ativa: particular oferece/promete vantagem ao agente. 'Pequena corrupção' (jeitinho, pequena vantagem) é eticamente grave pela quebra de confiança, não só pelo valor envolvido. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Corrupção e improbidade administrativa: ética aplicada",
@@ -4651,6 +4747,12 @@ export const etica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4816,6 +4918,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Assédio moral e sexual no ambiente de trabalho em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5052,6 +5159,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Assédio moral e sexual no ambiente de trabalho em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5230,8 +5342,9 @@ export const etica = [
       },
       {
         "frente": "Palavra-chave: assédio moral",
-        "verso": "Explique assédio moral dentro do tema Assédio moral e sexual no ambiente de trabalho.",
-        "nivel": "conceito"
+        "verso": "assédio moral: Assédio moral: humilhação sistemática e prolongada, sem finalidade profissional legítima — pode ser vertical ou horizontal. Assédio sexual (art. 216-A CP): constranger para obter favorecimento sexual, prevalecendo-se de superioridade hierárquica/ascendência funcional. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Assédio moral e sexual no ambiente de trabalho",
@@ -5425,6 +5538,12 @@ export const etica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5590,6 +5709,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Ética no uso das redes sociais pelo agente público em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5826,6 +5950,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Ética no uso das redes sociais pelo agente público em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6004,8 +6133,9 @@ export const etica = [
       },
       {
         "frente": "Palavra-chave: imagem institucional",
-        "verso": "Explique imagem institucional dentro do tema Ética no uso das redes sociais pelo agente público.",
-        "nivel": "conceito"
+        "verso": "imagem institucional: Agente público tem maior cautela exigida em redes sociais do que cidadão comum, pelo vínculo com a imagem institucional. Compartilhar informação sigilosa, imagem de vítima/suspeito, ou opinião discriminatória em rede social é falta ética grave. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Ética no uso das redes sociais pelo agente público",
@@ -6199,6 +6329,12 @@ export const etica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6364,6 +6500,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Liderança, camaradagem e espírito de corpo em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6600,6 +6741,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Liderança, camaradagem e espírito de corpo em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6778,8 +6924,9 @@ export const etica = [
       },
       {
         "frente": "Palavra-chave: espírito de corpo",
-        "verso": "Explique espírito de corpo dentro do tema Liderança, camaradagem e espírito de corpo.",
-        "nivel": "conceito"
+        "verso": "espírito de corpo: Camaradagem/espírito de corpo é valor legítimo — solidariedade e apoio mútuo em situações de risco compartilhado. Corporativismo (encobrir faltas de colegas por 'lealdade') é desvio ético, compromete a integridade institucional. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Liderança, camaradagem e espírito de corpo",
@@ -6973,6 +7120,12 @@ export const etica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7138,6 +7291,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Ética e uso legítimo da força: síntese do módulo em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7374,6 +7532,11 @@ export const etica = [
           "seErrar": "A IA deve explicar Ética e uso legítimo da força: síntese do módulo em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7552,8 +7715,9 @@ export const etica = [
       },
       {
         "frente": "Palavra-chave: responsabilidade ética individual",
-        "verso": "Explique responsabilidade ética individual dentro do tema Ética e uso legítimo da força: síntese do módulo.",
-        "nivel": "conceito"
+        "verso": "responsabilidade ética individual: A decisão de uso da força é fundamentalmente ética, não só técnica — reflete valores internalizados na formação do agente. Responsabilidade ética individual persiste mesmo sob hierarquia — obediência devida não elimina o juízo de discernimento pessoal. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Ética e uso legítimo da força: síntese do módulo",
@@ -7747,6 +7911,12 @@ export const etica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

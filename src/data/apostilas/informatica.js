@@ -172,6 +172,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Hardware e software: conceitos básicos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -408,6 +413,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Hardware e software: conceitos básicos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -586,8 +596,9 @@ export const informatica = [
       },
       {
         "frente": "Palavra-chave: hardware",
-        "verso": "Explique hardware dentro do tema Hardware e software: conceitos básicos.",
-        "nivel": "conceito"
+        "verso": "hardware: Hardware é físico; software é o conjunto de instruções/programas que o fazem funcionar. Entrada: envia dados ao computador. Saída: exibe/emite resultado. Alguns dispositivos são os dois (touchscreen, pendrive). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Hardware e software: conceitos básicos",
@@ -781,6 +792,12 @@ export const informatica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -946,6 +963,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Sistemas operacionais: Windows e Linux básico em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1182,6 +1204,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Sistemas operacionais: Windows e Linux básico em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1360,8 +1387,9 @@ export const informatica = [
       },
       {
         "frente": "Palavra-chave: sistema operacional",
-        "verso": "Explique sistema operacional dentro do tema Sistemas operacionais: Windows e Linux básico.",
-        "nivel": "conceito"
+        "verso": "sistema operacional: Sistema operacional gerencia hardware e serve de intermediário com o usuário; Windows organiza arquivos em pastas hierárquicas. Atalhos essenciais: Ctrl+C/V/X/Z/A, Alt+Tab, Windows+E, Windows+D. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Sistemas operacionais: Windows e Linux básico",
@@ -1555,6 +1583,12 @@ export const informatica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1720,6 +1754,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Pacote Office: Word e Excel essencial em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1956,6 +1995,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Pacote Office: Word e Excel essencial em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2134,8 +2178,9 @@ export const informatica = [
       },
       {
         "frente": "Palavra-chave: fórmula SOMA",
-        "verso": "Explique fórmula SOMA dentro do tema Pacote Office: Word e Excel essencial.",
-        "nivel": "conceito"
+        "verso": "fórmula SOMA: Word: formatação de fonte, mala direta para gerar documentos personalizados em massa. Excel: fórmulas sempre começam com =; SOMA, MÉDIA, SE, CONT.SE e PROCV são as mais cobradas. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Pacote Office: Word e Excel essencial",
@@ -2329,6 +2374,12 @@ export const informatica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2494,6 +2545,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Internet: navegadores, e-mail e nuvem em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2730,6 +2786,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Internet: navegadores, e-mail e nuvem em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2908,8 +2969,9 @@ export const informatica = [
       },
       {
         "frente": "Palavra-chave: URL",
-        "verso": "Explique URL dentro do tema Internet: navegadores, e-mail e nuvem.",
-        "nivel": "conceito"
+        "verso": "URL: URL: protocolo + domínio + caminho. HTTPS é a versão criptografada e segura do HTTP (identificável pelo cadeado). Cookies armazenam preferências e sessão de login — podem ser apagados, mas afetam o funcionamento de alguns sites. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Internet: navegadores, e-mail e nuvem",
@@ -3103,6 +3165,12 @@ export const informatica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3268,6 +3336,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Segurança da informação: malware e phishing em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3504,6 +3577,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Segurança da informação: malware e phishing em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3682,8 +3760,9 @@ export const informatica = [
       },
       {
         "frente": "Palavra-chave: vírus",
-        "verso": "Explique vírus dentro do tema Segurança da informação: malware e phishing.",
-        "nivel": "conceito"
+        "verso": "vírus: Vírus precisa de ação do usuário para se espalhar; worm se espalha sozinho pela rede. Trojan se disfarça de programa legítimo; spyware monitora sem ser percebido; ransomware criptografa e exige resgate. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Segurança da informação: malware e phishing",
@@ -3877,6 +3956,12 @@ export const informatica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4042,6 +4127,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Segurança da informação: senhas, backup e firewall em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4278,6 +4368,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Segurança da informação: senhas, backup e firewall em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4456,8 +4551,9 @@ export const informatica = [
       },
       {
         "frente": "Palavra-chave: autenticação em dois fatores",
-        "verso": "Explique autenticação em dois fatores dentro do tema Segurança da informação: senhas, backup e firewall.",
-        "nivel": "conceito"
+        "verso": "autenticação em dois fatores: Senha forte: combina caracteres variados, evita óbvios, é única por serviço; 2FA adiciona camada extra além da senha. Backup segue a regra 3-2-1: 3 cópias, 2 mídias diferentes, 1 fora do local principal. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Segurança da informação: senhas, backup e firewall",
@@ -4651,6 +4747,12 @@ export const informatica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4816,6 +4918,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Redes de computadores: conceitos básicos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5052,6 +5159,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Redes de computadores: conceitos básicos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5230,8 +5342,9 @@ export const informatica = [
       },
       {
         "frente": "Palavra-chave: LAN",
-        "verso": "Explique LAN dentro do tema Redes de computadores: conceitos básicos.",
-        "nivel": "conceito"
+        "verso": "LAN: LAN: rede local (casa, escritório). WAN: rede de longa distância (a internet é a maior WAN). IP identifica cada dispositivo na rede; DNS traduz nome de domínio para o IP correspondente. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Redes de computadores: conceitos básicos",
@@ -5425,6 +5538,12 @@ export const informatica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5590,6 +5709,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Lei Geral de Proteção de Dados (LGPD) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5826,6 +5950,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Lei Geral de Proteção de Dados (LGPD) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6004,8 +6133,9 @@ export const informatica = [
       },
       {
         "frente": "Palavra-chave: dado pessoal",
-        "verso": "Explique dado pessoal dentro do tema Lei Geral de Proteção de Dados (LGPD).",
-        "nivel": "conceito"
+        "verso": "dado pessoal: Dado pessoal identifica pessoa natural; dado sensível (raça, religião, saúde, biometria) tem proteção reforçada. Controlador decide sobre o tratamento; operador executa em nome do controlador; titular é a pessoa a quem os dados pertencem. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Lei Geral de Proteção de Dados (LGPD)",
@@ -6199,6 +6329,12 @@ export const informatica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6364,6 +6500,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Crimes cibernéticos e evidência digital em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6600,6 +6741,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Crimes cibernéticos e evidência digital em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6778,8 +6924,9 @@ export const informatica = [
       },
       {
         "frente": "Palavra-chave: invasão de dispositivo informático",
-        "verso": "Explique invasão de dispositivo informático dentro do tema Crimes cibernéticos e evidência digital.",
-        "nivel": "conceito"
+        "verso": "invasão de dispositivo informático: Invasão de dispositivo informático (Lei Carolina Dieckmann): violar mecanismo de segurança para obter/adulterar/destruir dados. Estelionato digital, em regra, se enquadra no crime de estelionato comum, com causa de aumento pelo meio eletrônico empregado. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Crimes cibernéticos e evidência digital",
@@ -6973,6 +7120,12 @@ export const informatica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7138,6 +7291,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Inteligência artificial e ferramentas digitais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7374,6 +7532,11 @@ export const informatica = [
           "seErrar": "A IA deve explicar Inteligência artificial e ferramentas digitais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7552,8 +7715,9 @@ export const informatica = [
       },
       {
         "frente": "Palavra-chave: inteligência artificial",
-        "verso": "Explique inteligência artificial dentro do tema Inteligência artificial e ferramentas digitais.",
-        "nivel": "conceito"
+        "verso": "inteligência artificial: IA realiza tarefas que exigiriam inteligência humana; machine learning aprende padrões a partir de dados, sem regras explícitas para cada caso. Aplicações em segurança pública: reconhecimento facial, análise preditiva de criminalidade, atendimento por chatbot. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Inteligência artificial e ferramentas digitais",
@@ -7747,6 +7911,12 @@ export const informatica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

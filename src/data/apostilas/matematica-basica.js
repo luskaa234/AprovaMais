@@ -172,6 +172,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Operações fundamentais e frações em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -408,6 +413,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Operações fundamentais e frações em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -586,8 +596,9 @@ export const matematicaBasica = [
       },
       {
         "frente": "Palavra-chave: mínimo múltiplo comum",
-        "verso": "Explique mínimo múltiplo comum dentro do tema Operações fundamentais e frações.",
-        "nivel": "conceito"
+        "verso": "mínimo múltiplo comum: Soma/subtração de frações: precisa de MMC dos denominadores para igualar antes de operar. Multiplicação de frações: direto, numerador × numerador, denominador × denominador. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Operações fundamentais e frações",
@@ -781,6 +792,12 @@ export const matematicaBasica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -946,6 +963,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Porcentagem em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1182,6 +1204,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Porcentagem em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1360,8 +1387,9 @@ export const matematicaBasica = [
       },
       {
         "frente": "Palavra-chave: fator multiplicativo",
-        "verso": "Explique fator multiplicativo dentro do tema Porcentagem.",
-        "nivel": "conceito"
+        "verso": "fator multiplicativo: x% de A = A × (x/100) — fator multiplicativo direto, sem precisar de regra de três. Acréscimo: multiplica por (1 + taxa). Desconto: multiplica por (1 - taxa). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Porcentagem",
@@ -1554,6 +1582,12 @@ export const matematicaBasica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1719,6 +1753,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Regra de três simples e composta em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1955,6 +1994,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Regra de três simples e composta em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2133,8 +2177,9 @@ export const matematicaBasica = [
       },
       {
         "frente": "Palavra-chave: proporcionalidade direta",
-        "verso": "Explique proporcionalidade direta dentro do tema Regra de três simples e composta.",
-        "nivel": "conceito"
+        "verso": "proporcionalidade direta: Grandezas diretamente proporcionais: aumentam/diminuem juntas — multiplica cruzado direto. Grandezas inversamente proporcionais: uma aumenta, a outra diminui — inverte a razão antes de multiplicar. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Regra de três simples e composta",
@@ -2328,6 +2373,12 @@ export const matematicaBasica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2493,6 +2544,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Juros simples e compostos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2729,6 +2785,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Juros simples e compostos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2907,8 +2968,9 @@ export const matematicaBasica = [
       },
       {
         "frente": "Palavra-chave: juros simples",
-        "verso": "Explique juros simples dentro do tema Juros simples e compostos.",
-        "nivel": "conceito"
+        "verso": "juros simples: Juros simples: crescimento linear, sempre sobre o capital inicial. Fórmula: M = C × (1 + i×t). Juros compostos: crescimento exponencial, juros sobre juros. Fórmula: M = C × (1+i)^t. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Juros simples e compostos",
@@ -3102,6 +3164,12 @@ export const matematicaBasica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3267,6 +3335,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Equações do 1º grau em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3503,6 +3576,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Equações do 1º grau em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3681,8 +3759,9 @@ export const matematicaBasica = [
       },
       {
         "frente": "Palavra-chave: incógnita",
-        "verso": "Explique incógnita dentro do tema Equações do 1º grau.",
-        "nivel": "conceito"
+        "verso": "incógnita: Equação do 1º grau: incógnita na primeira potência — isole-a fazendo a mesma operação nos dois lados. O maior desafio é traduzir o enunciado do problema para a linguagem algébrica corretamente. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Equações do 1º grau",
@@ -3876,6 +3955,12 @@ export const matematicaBasica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4041,6 +4126,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Equações do 2º grau em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4277,6 +4367,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Equações do 2º grau em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4455,8 +4550,9 @@ export const matematicaBasica = [
       },
       {
         "frente": "Palavra-chave: discriminante",
-        "verso": "Explique discriminante dentro do tema Equações do 2º grau.",
-        "nivel": "conceito"
+        "verso": "discriminante: Bhaskara: x = (-b ± √Δ)/2a, com Δ = b² - 4ac. Δ>0: duas raízes reais distintas. Δ=0: uma raiz real (dupla). Δ<0: nenhuma raiz real. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Equações do 2º grau",
@@ -4650,6 +4746,12 @@ export const matematicaBasica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4815,6 +4917,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Progressões aritméticas e geométricas em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5051,6 +5158,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Progressões aritméticas e geométricas em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5229,8 +5341,9 @@ export const matematicaBasica = [
       },
       {
         "frente": "Palavra-chave: progressão aritmética",
-        "verso": "Explique progressão aritmética dentro do tema Progressões aritméticas e geométricas.",
-        "nivel": "conceito"
+        "verso": "progressão aritmética: PA: diferença constante (r). Termo geral: an = a1 + (n-1)r. Soma: Sn = (a1+an)×n/2. PG: razão constante (q, por divisão). Termo geral: an = a1×q^(n-1). Soma: Sn = a1×(q^n-1)/(q-1), para q≠1. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Progressões aritméticas e geométricas",
@@ -5424,6 +5537,12 @@ export const matematicaBasica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5589,6 +5708,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Geometria plana: áreas e perímetros em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5825,6 +5949,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Geometria plana: áreas e perímetros em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6003,8 +6132,9 @@ export const matematicaBasica = [
       },
       {
         "frente": "Palavra-chave: área",
-        "verso": "Explique área dentro do tema Geometria plana: áreas e perímetros.",
-        "nivel": "conceito"
+        "verso": "área: Perímetro é a soma dos lados (contorno); área é a medida da superfície (sempre em unidade²). Teorema de Pitágoras: a² = b² + c² (hipotenusa² = soma dos quadrados dos catetos) — só vale em triângulo retângulo. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Geometria plana: áreas e perímetros",
@@ -6198,6 +6328,12 @@ export const matematicaBasica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6363,6 +6499,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Geometria espacial: volumes em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6599,6 +6740,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Geometria espacial: volumes em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6777,8 +6923,9 @@ export const matematicaBasica = [
       },
       {
         "frente": "Palavra-chave: volume",
-        "verso": "Explique volume dentro do tema Geometria espacial: volumes.",
-        "nivel": "conceito"
+        "verso": "volume: Prisma/cilindro: volume = área da base × altura. Cubo: aresta³. Cone/pirâmide: volume = (área da base × altura) / 3 — um terço do prisma/cilindro correspondente. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Geometria espacial: volumes",
@@ -6972,6 +7119,12 @@ export const matematicaBasica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7137,6 +7290,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Estatística básica: média, moda e mediana em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7373,6 +7531,11 @@ export const matematicaBasica = [
           "seErrar": "A IA deve explicar Estatística básica: média, moda e mediana em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7551,8 +7714,9 @@ export const matematicaBasica = [
       },
       {
         "frente": "Palavra-chave: média aritmética",
-        "verso": "Explique média aritmética dentro do tema Estatística básica: média, moda e mediana.",
-        "nivel": "conceito"
+        "verso": "média aritmética: Média: soma dividida pela quantidade — sensível a valores extremos. Moda: valor que mais se repete — pode não existir, ou haver mais de uma. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Estatística básica: média, moda e mediana",
@@ -7746,6 +7910,12 @@ export const matematicaBasica = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

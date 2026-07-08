@@ -173,6 +173,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Estrutura dissertativa-argumentativa: introdução, desenvolvimento, conclusão em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -409,6 +414,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Estrutura dissertativa-argumentativa: introdução, desenvolvimento, conclusão em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -587,8 +597,9 @@ export const redacao = [
       },
       {
         "frente": "Palavra-chave: introdução",
-        "verso": "Explique introdução dentro do tema Estrutura dissertativa-argumentativa: introdução, desenvolvimento, conclusão.",
-        "nivel": "conceito"
+        "verso": "introdução: Introdução: contextualiza brevemente e apresenta a tese com clareza, sem generalidade vazia. Desenvolvimento: cada parágrafo tem uma ideia-núcleo, fundamentada com dado/exemplo/repertório. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Estrutura dissertativa-argumentativa: introdução, desenvolvimento, conclusão",
@@ -783,6 +794,12 @@ export const redacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -949,6 +966,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Tese e argumentação: como defender um ponto de vista em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1185,6 +1207,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Tese e argumentação: como defender um ponto de vista em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1363,8 +1390,9 @@ export const redacao = [
       },
       {
         "frente": "Palavra-chave: tese",
-        "verso": "Explique tese dentro do tema Tese e argumentação: como defender um ponto de vista.",
-        "nivel": "conceito"
+        "verso": "tese: Tese precisa ser específica, com recorte claro — evitar afirmações vagas e óbvias que não geram argumentação real. Argumentos fortes: autoridade, dado estatístico, comparação histórica, causa e consequência. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Tese e argumentação: como defender um ponto de vista",
@@ -1559,6 +1587,12 @@ export const redacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1725,6 +1759,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Repertório sociocultural: como usar sem decorar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1961,6 +2000,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Repertório sociocultural: como usar sem decorar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2134,18 +2178,21 @@ export const redacao = [
     "flashcards": [
       {
         "frente": "Qual é a ideia central de Repertório sociocultural: como usar sem decorar?",
-        "verso": "Repertório só vale se conectado explicitamente ao argumento — citar sem explicar a conexão é decoração, não sustentação real.",
-        "nivel": "essencial"
+        "verso": "Qual é a ideia central de Repertório sociocultural: como usar sem decorar?: Repertório sociocultural precisa se conectar explicitamente ao argumento, não ser apenas 'encaixado' de forma decorativa. Citar um filósofo/lei/fato histórico exige explicar a conexão lógica com o argumento específico do parágrafo. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "essencial",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Palavra-chave: repertório sociocultural",
-        "verso": "Explique repertório sociocultural dentro do tema Repertório sociocultural: como usar sem decorar.",
-        "nivel": "conceito"
+        "verso": "repertório sociocultural: Repertório sociocultural precisa se conectar explicitamente ao argumento, não ser apenas 'encaixado' de forma decorativa. Citar um filósofo/lei/fato histórico exige explicar a conexão lógica com o argumento específico do parágrafo. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Repertório sociocultural: como usar sem decorar",
-        "verso": "Citar uma referência (filósofo, lei, fato histórico) sem explicar a conexão lógica com o argumento específico.",
-        "nivel": "banca"
+        "verso": "Pegadinha comum em Repertório sociocultural: como usar sem decorar: Repertório sociocultural precisa se conectar explicitamente ao argumento, não ser apenas 'encaixado' de forma decorativa. Citar um filósofo/lei/fato histórico exige explicar a conexão lógica com o argumento específico do parágrafo. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "banca",
+        "corrigidoRevisaoQualidade": true
       }
     ],
     "mapaMentalTexto": {
@@ -2335,6 +2382,12 @@ export const redacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2501,6 +2554,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Coesão e coerência aplicadas à redação em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2737,6 +2795,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Coesão e coerência aplicadas à redação em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2915,8 +2978,9 @@ export const redacao = [
       },
       {
         "frente": "Palavra-chave: conectivo interparágrafo",
-        "verso": "Explique conectivo interparágrafo dentro do tema Coesão e coerência aplicadas à redação.",
-        "nivel": "conceito"
+        "verso": "conectivo interparágrafo: Coesão amarra os parágrafos com conectivos variados; coerência garante progressão lógica sem contradição ou repetição de ideia. Conectivos interparágrafos: 'Além disso' (adição), 'Nesse sentido' (continuidade), 'Diante desse cenário' (consequência), 'Por outro lado' (contraste). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Coesão e coerência aplicadas à redação",
@@ -3111,6 +3175,12 @@ export const redacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3277,6 +3347,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Proposta de intervenção em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3513,6 +3588,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Proposta de intervenção em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3691,8 +3771,9 @@ export const redacao = [
       },
       {
         "frente": "Palavra-chave: agente da proposta",
-        "verso": "Explique agente da proposta dentro do tema Proposta de intervenção.",
-        "nivel": "conceito"
+        "verso": "agente da proposta: Cinco elementos da proposta: agente, ação, meio/modo, finalidade, detalhamento. Proposta vaga ('o governo deveria melhorar X') sem indicar COMO é insuficiente — precisa de mecanismo concreto. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Proposta de intervenção",
@@ -3886,6 +3967,12 @@ export const redacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4052,6 +4139,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Redação discursiva jurídica: estudo de caso e peça técnica em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4288,6 +4380,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Redação discursiva jurídica: estudo de caso e peça técnica em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4466,13 +4563,15 @@ export const redacao = [
       },
       {
         "frente": "Palavra-chave: estudo de caso",
-        "verso": "Explique estudo de caso dentro do tema Redação discursiva jurídica: estudo de caso e peça técnica.",
-        "nivel": "conceito"
+        "verso": "estudo de caso: Redação discursiva jurídica exige aplicar norma específica ao caso concreto (subsunção), não opinião livre. Estrutura: fatos relevantes → norma aplicável → explicação da subsunção → resposta objetiva à pergunta. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Redação discursiva jurídica: estudo de caso e peça técnica",
-        "verso": "Responder apenas com a conclusão, sem explicar o raciocínio de subsunção do fato à norma.",
-        "nivel": "banca"
+        "verso": "Pegadinha comum em Redação discursiva jurídica: estudo de caso e peça técnica: Redação discursiva jurídica exige aplicar norma específica ao caso concreto (subsunção), não opinião livre. Estrutura: fatos relevantes → norma aplicável → explicação da subsunção → resposta objetiva à pergunta. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "banca",
+        "corrigidoRevisaoQualidade": true
       }
     ],
     "mapaMentalTexto": {
@@ -4662,6 +4761,12 @@ export const redacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4828,6 +4933,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Redação para concursos policiais: temas de segurança pública em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5064,6 +5174,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Redação para concursos policiais: temas de segurança pública em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5242,8 +5357,9 @@ export const redacao = [
       },
       {
         "frente": "Palavra-chave: letalidade policial",
-        "verso": "Explique letalidade policial dentro do tema Redação para concursos policiais: temas de segurança pública.",
-        "nivel": "conceito"
+        "verso": "letalidade policial: Temas recorrentes: violência/criminalidade organizada, letalidade policial, sistema prisional, violência doméstica, crimes cibernéticos, ética policial. Prepare recortes de tese e 2-3 argumentos por tema previamente, com repertório já conectado ao conteúdo já estudado. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Redação para concursos policiais: temas de segurança pública",
@@ -5438,6 +5554,12 @@ export const redacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5604,6 +5726,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Correspondência oficial: ofício, memorando e ata em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5840,6 +5967,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Correspondência oficial: ofício, memorando e ata em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6018,8 +6150,9 @@ export const redacao = [
       },
       {
         "frente": "Palavra-chave: ofício",
-        "verso": "Explique ofício dentro do tema Correspondência oficial: ofício, memorando e ata.",
-        "nivel": "conceito"
+        "verso": "ofício: Redação oficial: impessoal, clara, concisa, uniforme, sem gírias nem rebuscamento excessivo. Ofício: comunicação externa entre órgãos/autoridades. Memorando: comunicação interna, ágil, entre setores. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Correspondência oficial: ofício, memorando e ata",
@@ -6214,6 +6347,12 @@ export const redacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6380,6 +6519,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Erros que zeram ou derrubam a redação em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6616,6 +6760,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Erros que zeram ou derrubam a redação em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6794,8 +6943,9 @@ export const redacao = [
       },
       {
         "frente": "Palavra-chave: fuga ao tema",
-        "verso": "Explique fuga ao tema dentro do tema Erros que zeram ou derrubam a redação.",
-        "nivel": "conceito"
+        "verso": "fuga ao tema: Fuga ao tema (não responder ao recorte específico pedido) é o erro mais grave — pode zerar a redação inteira. Cópia literal e extensa do texto motivador é descontada e penalizada — use as ideias, não reproduza as frases. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Erros que zeram ou derrubam a redação",
@@ -6990,6 +7140,12 @@ export const redacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7156,6 +7312,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Revisão final: checklist antes de entregar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7392,6 +7553,11 @@ export const redacao = [
           "seErrar": "A IA deve explicar Revisão final: checklist antes de entregar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7570,8 +7736,9 @@ export const redacao = [
       },
       {
         "frente": "Palavra-chave: revisão estrutural",
-        "verso": "Explique revisão estrutural dentro do tema Revisão final: checklist antes de entregar.",
-        "nivel": "conceito"
+        "verso": "revisão estrutural: Revise do geral para o específico: estrutura → coesão/coerência → detalhes gramaticais. Reserve tempo específico (5-10 min) para revisão final — vale mais que continuar escrevendo até o último segundo. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Revisão final: checklist antes de entregar",
@@ -7766,6 +7933,12 @@ export const redacao = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

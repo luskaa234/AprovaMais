@@ -172,6 +172,11 @@ export const taf = [
           "seErrar": "A IA deve explicar TAF: o que é e os testes mais comuns em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -408,6 +413,11 @@ export const taf = [
           "seErrar": "A IA deve explicar TAF: o que é e os testes mais comuns em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -586,8 +596,9 @@ export const taf = [
       },
       {
         "frente": "Palavra-chave: teste eliminatório",
-        "verso": "Explique teste eliminatório dentro do tema TAF: o que é e os testes mais comuns.",
-        "nivel": "conceito"
+        "verso": "teste eliminatório: TAF é eliminatório: aprovado/reprovado conforme índice mínimo do edital (varia por idade e sexo). Corrida avalia capacidade aeróbica; flexão/abdominal avaliam resistência muscular; barra avalia força. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em TAF: o que é e os testes mais comuns",
@@ -781,6 +792,12 @@ export const taf = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -946,6 +963,11 @@ export const taf = [
           "seErrar": "A IA deve explicar Treino de corrida: base aeróbica em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1182,6 +1204,11 @@ export const taf = [
           "seErrar": "A IA deve explicar Treino de corrida: base aeróbica em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1360,8 +1387,9 @@ export const taf = [
       },
       {
         "frente": "Palavra-chave: base aeróbica",
-        "verso": "Explique base aeróbica dentro do tema Treino de corrida: base aeróbica.",
-        "nivel": "conceito"
+        "verso": "base aeróbica: Construa base aeróbica primeiro (ritmo confortável, de conversa) antes de buscar treinos intensos. Treino intervalado (alternar intensidade e recuperação) é útil depois de estabelecida a base, para melhorar ritmo sustentado. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Treino de corrida: base aeróbica",
@@ -1555,6 +1583,12 @@ export const taf = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1720,6 +1754,11 @@ export const taf = [
           "seErrar": "A IA deve explicar Fortalecimento de core e abdominal em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1956,6 +1995,11 @@ export const taf = [
           "seErrar": "A IA deve explicar Fortalecimento de core e abdominal em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2134,8 +2178,9 @@ export const taf = [
       },
       {
         "frente": "Palavra-chave: core",
-        "verso": "Explique core dentro do tema Fortalecimento de core e abdominal.",
-        "nivel": "conceito"
+        "verso": "core: Abdominal do TAF avalia resistência muscular (muitas repetições), diferente de força máxima (uma repetição pesada). Core inclui abdômen, lombar e quadril — treinar só o abdômen isoladamente pode gerar desequilíbrio muscular. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Fortalecimento de core e abdominal",
@@ -2329,6 +2374,12 @@ export const taf = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2494,6 +2545,11 @@ export const taf = [
           "seErrar": "A IA deve explicar Flexão de braço: técnica e progressão em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2730,6 +2786,11 @@ export const taf = [
           "seErrar": "A IA deve explicar Flexão de braço: técnica e progressão em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2908,8 +2969,9 @@ export const taf = [
       },
       {
         "frente": "Palavra-chave: progressão de exercício",
-        "verso": "Explique progressão de exercício dentro do tema Flexão de braço: técnica e progressão.",
-        "nivel": "conceito"
+        "verso": "progressão de exercício: Flexão trabalha peitoral, ombros, tríceps e estabilização de core — amplitude completa importa mais que velocidade. Progressão: inclinada (mais fácil) → joelhos apoiados → completa parcial → completa no padrão do edital. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Flexão de braço: técnica e progressão",
@@ -3103,6 +3165,12 @@ export const taf = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3268,6 +3336,11 @@ export const taf = [
           "seErrar": "A IA deve explicar Barra fixa: técnica e progressão em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3504,6 +3577,11 @@ export const taf = [
           "seErrar": "A IA deve explicar Barra fixa: técnica e progressão em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3682,8 +3760,9 @@ export const taf = [
       },
       {
         "frente": "Palavra-chave: barra fixa",
-        "verso": "Explique barra fixa dentro do tema Barra fixa: técnica e progressão.",
-        "nivel": "conceito"
+        "verso": "barra fixa: Barra fixa exige força relativa (força/peso corporal) considerável — trabalha dorsais, bíceps e ombros. Exercícios auxiliares essenciais para quem começa do zero: negativas, remada, dead hang (sustentar pendurado). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Barra fixa: técnica e progressão",
@@ -3877,6 +3956,12 @@ export const taf = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4042,6 +4127,11 @@ export const taf = [
           "seErrar": "A IA deve explicar Mobilidade e alongamento em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4278,6 +4368,11 @@ export const taf = [
           "seErrar": "A IA deve explicar Mobilidade e alongamento em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4456,8 +4551,9 @@ export const taf = [
       },
       {
         "frente": "Palavra-chave: alongamento dinâmico",
-        "verso": "Explique alongamento dinâmico dentro do tema Mobilidade e alongamento.",
-        "nivel": "conceito"
+        "verso": "alongamento dinâmico: Mobilidade é amplitude articular com controle ativo — diferente de flexibilidade passiva. Alongamento dinâmico: antes do treino, como aquecimento, prepara sem reduzir força temporariamente. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Mobilidade e alongamento",
@@ -4651,6 +4747,12 @@ export const taf = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4816,6 +4918,11 @@ export const taf = [
           "seErrar": "A IA deve explicar Aquecimento e prevenção de lesões em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5052,6 +5159,11 @@ export const taf = [
           "seErrar": "A IA deve explicar Aquecimento e prevenção de lesões em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5230,8 +5342,9 @@ export const taf = [
       },
       {
         "frente": "Palavra-chave: aquecimento específico",
-        "verso": "Explique aquecimento específico dentro do tema Aquecimento e prevenção de lesões.",
-        "nivel": "conceito"
+        "verso": "aquecimento específico: Aquecimento: geral (cardio leve) → mobilidade dinâmica → específico do exercício que será treinado. Sobrecarga progressiva mal dosada (aumentar volume/intensidade rápido demais) é causa comum de lesão por overuse. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Aquecimento e prevenção de lesões",
@@ -5425,6 +5538,12 @@ export const taf = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5590,6 +5709,11 @@ export const taf = [
           "seErrar": "A IA deve explicar Nutrição básica para desempenho físico em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5826,6 +5950,11 @@ export const taf = [
           "seErrar": "A IA deve explicar Nutrição básica para desempenho físico em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6004,8 +6133,9 @@ export const taf = [
       },
       {
         "frente": "Palavra-chave: hidratação",
-        "verso": "Explique hidratação dentro do tema Nutrição básica para desempenho físico.",
-        "nivel": "conceito"
+        "verso": "hidratação: Este capítulo traz só princípios gerais — plano alimentar individualizado exige orientação de nutricionista. Alimentação variada + hidratação adequada + atenção à recuperação pós-treino são princípios gerais reconhecidos. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Nutrição básica para desempenho físico",
@@ -6199,6 +6329,12 @@ export const taf = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6364,6 +6500,11 @@ export const taf = [
           "seErrar": "A IA deve explicar Recuperação e descanso em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6600,6 +6741,11 @@ export const taf = [
           "seErrar": "A IA deve explicar Recuperação e descanso em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6778,8 +6924,9 @@ export const taf = [
       },
       {
         "frente": "Palavra-chave: sono e recuperação",
-        "verso": "Explique sono e recuperação dentro do tema Recuperação e descanso.",
-        "nivel": "conceito"
+        "verso": "sono e recuperação: O corpo se adapta e fortalece durante a recuperação, não durante o próprio treino — descanso é parte do processo, não ausência dele. Sono de qualidade influencia diretamente reparação muscular, hormônios e disposição para os próximos treinos. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Recuperação e descanso",
@@ -6973,6 +7120,12 @@ export const taf = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7138,6 +7291,11 @@ export const taf = [
           "seErrar": "A IA deve explicar Simulado de TAF: montando sua semana de treino em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7374,6 +7532,11 @@ export const taf = [
           "seErrar": "A IA deve explicar Simulado de TAF: montando sua semana de treino em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7552,8 +7715,9 @@ export const taf = [
       },
       {
         "frente": "Palavra-chave: planejamento semanal",
-        "verso": "Explique planejamento semanal dentro do tema Simulado de TAF: montando sua semana de treino.",
-        "nivel": "conceito"
+        "verso": "planejamento semanal: Organize a semana alternando dias de foco aeróbico, dias de força/resistência muscular, e ao menos um dia de descanso. Nunca treine todos os componentes no esforço máximo todos os dias — distribua os estímulos ao longo da semana. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Simulado de TAF: montando sua semana de treino",
@@ -7747,6 +7911,12 @@ export const taf = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

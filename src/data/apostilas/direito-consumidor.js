@@ -252,6 +252,11 @@ export const direitoConsumidor = [
           "seErrar": "Explicar elementos da relação de consumo com analogia simples, apontar a palavra do enunciado que mudou o resultado e gerar uma questão irmã no padrão OAB/FGV/Cebraspe.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -532,7 +537,13 @@ export const direitoConsumidor = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "principios-e-direitos-basicos-do-consumidor",
@@ -776,6 +787,11 @@ export const direitoConsumidor = [
           "seErrar": "Explicar direitos básicos do consumidor com analogia simples, apontar a palavra do enunciado que mudou o resultado e gerar uma questão irmã no padrão OAB/FGV/Cebraspe.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1056,7 +1072,13 @@ export const direitoConsumidor = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "responsabilidade-pelo-fato-do-produto-e-do-servico",
@@ -1300,6 +1322,11 @@ export const direitoConsumidor = [
           "seErrar": "Explicar responsabilidade pelo fato do produto e do serviço com analogia simples, apontar a palavra do enunciado que mudou o resultado e gerar uma questão irmã no padrão OAB/FGV/Cebraspe.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1580,7 +1607,13 @@ export const direitoConsumidor = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "responsabilidade-por-vicio-do-produto-e-do-servico",
@@ -1824,6 +1857,11 @@ export const direitoConsumidor = [
           "seErrar": "Explicar responsabilidade por vício com analogia simples, apontar a palavra do enunciado que mudou o resultado e gerar uma questão irmã no padrão OAB/FGV/Cebraspe.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2104,7 +2142,13 @@ export const direitoConsumidor = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "oferta-publicidade-e-praticas-abusivas",
@@ -2348,6 +2392,11 @@ export const direitoConsumidor = [
           "seErrar": "Explicar oferta, publicidade e práticas abusivas com analogia simples, apontar a palavra do enunciado que mudou o resultado e gerar uma questão irmã no padrão OAB/FGV/Cebraspe.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2628,7 +2677,13 @@ export const direitoConsumidor = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "cobranca-de-dividas-e-bancos-de-dados-de-consumidores",
@@ -2872,6 +2927,11 @@ export const direitoConsumidor = [
           "seErrar": "Explicar cobrança de dívidas e cadastros com analogia simples, apontar a palavra do enunciado que mudou o resultado e gerar uma questão irmã no padrão OAB/FGV/Cebraspe.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3152,7 +3212,13 @@ export const direitoConsumidor = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "protecao-contratual-clausulas-abusivas-e-contratos-de-adesao",
@@ -3396,6 +3462,11 @@ export const direitoConsumidor = [
           "seErrar": "Explicar proteção contratual no CDC com analogia simples, apontar a palavra do enunciado que mudou o resultado e gerar uma questão irmã no padrão OAB/FGV/Cebraspe.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3676,7 +3747,13 @@ export const direitoConsumidor = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "direito-de-arrependimento-e-comercio-eletronico",
@@ -3920,6 +3997,11 @@ export const direitoConsumidor = [
           "seErrar": "Explicar direito de arrependimento e comércio eletrônico com analogia simples, apontar a palavra do enunciado que mudou o resultado e gerar uma questão irmã no padrão OAB/FGV/Cebraspe.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4200,7 +4282,13 @@ export const direitoConsumidor = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "defesa-do-consumidor-em-juizo-e-inversao-do-onus-da-prova",
@@ -4444,6 +4532,11 @@ export const direitoConsumidor = [
           "seErrar": "Explicar defesa do consumidor em juízo com analogia simples, apontar a palavra do enunciado que mudou o resultado e gerar uma questão irmã no padrão OAB/FGV/Cebraspe.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4724,7 +4817,13 @@ export const direitoConsumidor = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "sistema-nacional-de-defesa-do-consumidor-sancoes-e-crimes-consumeristas",
@@ -4968,6 +5067,11 @@ export const direitoConsumidor = [
           "seErrar": "Explicar SNDC sanções e crimes consumeristas com analogia simples, apontar a palavra do enunciado que mudou o resultado e gerar uma questão irmã no padrão OAB/FGV/Cebraspe.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5248,7 +5352,13 @@ export const direitoConsumidor = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   }
 ];
 

@@ -173,6 +173,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Teoria da Constituição: conceito, classificação e poder constituinte em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -409,6 +414,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Teoria da Constituição: conceito, classificação e poder constituinte em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -587,8 +597,9 @@ export const direitoConstitucional = [
       },
       {
         "frente": "Palavra-chave: poder constituinte originário",
-        "verso": "Explique poder constituinte originário dentro do tema Teoria da Constituição: conceito, classificação e poder constituinte.",
-        "nivel": "conceito"
+        "verso": "poder constituinte originário: CF/88: escrita, dogmática, promulgada e rígida — rigidez garante a supremacia constitucional. Poder constituinte originário: inicial, ilimitado, autônomo, incondicionado — cria uma nova ordem jurídica. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Teoria da Constituição: conceito, classificação e poder constituinte",
@@ -783,6 +794,12 @@ export const direitoConstitucional = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -949,6 +966,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Princípios fundamentais da Constituição em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1185,6 +1207,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Princípios fundamentais da Constituição em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1363,8 +1390,9 @@ export const direitoConstitucional = [
       },
       {
         "frente": "Palavra-chave: fundamentos da república",
-        "verso": "Explique fundamentos da república dentro do tema Princípios fundamentais da Constituição.",
-        "nivel": "conceito"
+        "verso": "fundamentos da república: Fundamentos (art. 1º) = o que a República É: soberania, cidadania, dignidade da pessoa humana, valores sociais, pluralismo político. Objetivos fundamentais (art. 3º) = o que a República BUSCA: sociedade justa, desenvolvimento, erradicação da pobreza, promoção do bem sem discriminação. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Princípios fundamentais da Constituição",
@@ -1559,6 +1587,12 @@ export const direitoConstitucional = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1725,6 +1759,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Direitos e garantias fundamentais: direitos individuais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1961,6 +2000,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Direitos e garantias fundamentais: direitos individuais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2139,8 +2183,9 @@ export const direitoConstitucional = [
       },
       {
         "frente": "Palavra-chave: inviolabilidade de domicílio",
-        "verso": "Explique inviolabilidade de domicílio dentro do tema Direitos e garantias fundamentais: direitos individuais.",
-        "nivel": "conceito"
+        "verso": "inviolabilidade de domicílio: Direito é o bem assegurado; garantia é o instrumento que protege o exercício desse direito. Casa é inviolável; à noite, só entra sem consentimento em flagrante, desastre ou para socorro (nem com ordem judicial fora dessas hipóteses). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Direitos e garantias fundamentais: direitos individuais",
@@ -2335,6 +2380,12 @@ export const direitoConstitucional = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2501,6 +2552,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Remédios constitucionais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2737,6 +2793,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Remédios constitucionais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2915,8 +2976,9 @@ export const direitoConstitucional = [
       },
       {
         "frente": "Palavra-chave: habeas corpus",
-        "verso": "Explique habeas corpus dentro do tema Remédios constitucionais.",
-        "nivel": "conceito"
+        "verso": "habeas corpus: Habeas corpus: protege liberdade de locomoção; gratuito, sem exigir advogado. Mandado de segurança: protege direito líquido e certo não amparado por HC/HD, contra ato de autoridade pública. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Remédios constitucionais",
@@ -3111,6 +3173,12 @@ export const direitoConstitucional = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3277,6 +3345,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Direitos sociais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3513,6 +3586,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Direitos sociais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3691,8 +3769,9 @@ export const direitoConstitucional = [
       },
       {
         "frente": "Palavra-chave: direitos sociais",
-        "verso": "Explique direitos sociais dentro do tema Direitos sociais.",
-        "nivel": "conceito"
+        "verso": "direitos sociais: Direitos sociais são de segunda geração: exigem prestação positiva do Estado (fazer), diferente dos individuais (não fazer). Art. 6º lista educação, saúde, alimentação, trabalho, moradia, transporte, lazer, segurança, previdência, proteção à maternidade/infância, assistência aos desamparados. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Direitos sociais",
@@ -3887,6 +3966,12 @@ export const direitoConstitucional = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4053,6 +4138,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Nacionalidade em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4289,6 +4379,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Nacionalidade em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4467,8 +4562,9 @@ export const direitoConstitucional = [
       },
       {
         "frente": "Palavra-chave: brasileiro nato",
-        "verso": "Explique brasileiro nato dentro do tema Nacionalidade.",
-        "nivel": "conceito"
+        "verso": "brasileiro nato: Brasileiro nato: nascido no Brasil (regra jus soli) ou nascido no exterior em hipóteses específicas de descendência/registro/opção. Brasileiro naturalizado: adquire a nacionalidade por vontade própria, cumprindo requisitos legais. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Nacionalidade",
@@ -4662,6 +4758,12 @@ export const direitoConstitucional = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4828,6 +4930,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Direitos políticos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5064,6 +5171,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Direitos políticos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5242,8 +5354,9 @@ export const direitoConstitucional = [
       },
       {
         "frente": "Palavra-chave: alistamento eleitoral",
-        "verso": "Explique alistamento eleitoral dentro do tema Direitos políticos.",
-        "nivel": "conceito"
+        "verso": "alistamento eleitoral: Voto obrigatório: maiores de 18 e menores de 70; facultativo: 16-18, maiores de 70, analfabetos. Condições de elegibilidade incluem idade mínima variável por cargo (18 a 35 anos). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Direitos políticos",
@@ -5437,6 +5550,12 @@ export const direitoConstitucional = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5603,6 +5722,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Organização do Estado e Administração Pública (art. 37) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5839,6 +5963,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Organização do Estado e Administração Pública (art. 37) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6017,8 +6146,9 @@ export const direitoConstitucional = [
       },
       {
         "frente": "Palavra-chave: LIMPE",
-        "verso": "Explique LIMPE dentro do tema Organização do Estado e Administração Pública (art. 37).",
-        "nivel": "conceito"
+        "verso": "LIMPE: LIMPE: legalidade, impessoalidade, moralidade, publicidade e eficiência — princípios expressos do art. 37. Legalidade pública: agente só faz o que a lei autoriza (diferente da legalidade privada, que permite tudo que não é proibido). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Organização do Estado e Administração Pública (art. 37)",
@@ -6213,6 +6343,12 @@ export const direitoConstitucional = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6379,6 +6515,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Separação dos Poderes e funções essenciais à Justiça em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6615,6 +6756,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Separação dos Poderes e funções essenciais à Justiça em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6793,8 +6939,9 @@ export const direitoConstitucional = [
       },
       {
         "frente": "Palavra-chave: freios e contrapesos",
-        "verso": "Explique freios e contrapesos dentro do tema Separação dos Poderes e funções essenciais à Justiça.",
-        "nivel": "conceito"
+        "verso": "freios e contrapesos: Cada Poder tem função típica (predominante) e atípicas (excepcionais) — o sistema de freios e contrapesos depende dessa interação. Legislativo: legisla e fiscaliza; Executivo: administra; Judiciário: julga — cada um com atipicidades específicas. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Separação dos Poderes e funções essenciais à Justiça",
@@ -6989,6 +7136,12 @@ export const direitoConstitucional = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7155,6 +7308,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Segurança pública (art. 144) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7391,6 +7549,11 @@ export const direitoConstitucional = [
           "seErrar": "A IA deve explicar Segurança pública (art. 144) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7569,8 +7732,9 @@ export const direitoConstitucional = [
       },
       {
         "frente": "Palavra-chave: ciclo de polícia",
-        "verso": "Explique ciclo de polícia dentro do tema Segurança pública (art. 144).",
-        "nivel": "conceito"
+        "verso": "ciclo de polícia: PM: polícia ostensiva e preservação da ordem pública (função preventiva). PC: polícia judiciária, apuração de infrações penais exceto militares (função investigativa — inquérito). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Segurança pública (art. 144)",
@@ -7765,6 +7929,12 @@ export const direitoConstitucional = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

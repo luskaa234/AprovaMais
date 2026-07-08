@@ -233,7 +233,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A chave é: Estatuto cuida da vida funcional; Organização Básica cuida da estrutura da PMMA.",
         "armadilhaDaBanca": "Trocar Lei 6.513/1995 por Lei 4.570/1984.",
         "porqueCaiEmProva": "Objeto da lei, diferença entre Estatuto e Organização Básica, atualização legislativa e método de leitura de questões institucionais.",
-        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada."
+        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -344,7 +349,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "O Estatuto disciplina a situação funcional do policial militar, com direitos, deveres, obrigações e prerrogativas; a Organização Básica trata da estrutura da corporação, comandos, órgãos e unidades.",
         "armadilhaDaBanca": "Responder por memória antiga sem conferir alterações.",
         "porqueCaiEmProva": "Casos práticos testam método, não só memória.",
-        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato."
+        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -401,7 +411,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A legislação institucional exige cautela com comandos absolutos, especialmente quando há alterações estaduais e recorte de edital.",
         "armadilhaDaBanca": "Achar que norma institucional afasta Constituição e direitos fundamentais.",
         "porqueCaiEmProva": "Bancas usam alternativas amplas para induzir erro por autoridade/hierarquia.",
-        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa."
+        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -557,7 +572,13 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Guarde: Estatuto cuida da vida funcional; Organização Básica cuida da estrutura da PMMA.",
         "diagnosticoIA": "Use a frase antes de questões objetivas para ativar o conceito certo."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "hierarquia-disciplina-valores-militares",
@@ -783,7 +804,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A chave é: Disciplina forte é disciplina legal, consciente e orientada ao serviço público.",
         "armadilhaDaBanca": "Confundir disciplina com obediência cega.",
         "porqueCaiEmProva": "Conceitos de hierarquia/disciplina, ordem legal, subordinação, dever funcional e limites da atuação militar.",
-        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada."
+        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -894,7 +920,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Hierarquia organiza autoridade; disciplina garante observância das normas; obediência legítima é cumprimento de ordem compatível com a lei e a finalidade pública.",
         "armadilhaDaBanca": "Achar que superior hierárquico pode afastar a lei.",
         "porqueCaiEmProva": "Casos práticos testam método, não só memória.",
-        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato."
+        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -951,7 +982,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A legislação institucional exige cautela com comandos absolutos, especialmente quando há alterações estaduais e recorte de edital.",
         "armadilhaDaBanca": "Tratar direitos humanos como obstáculo à disciplina.",
         "porqueCaiEmProva": "Bancas usam alternativas amplas para induzir erro por autoridade/hierarquia.",
-        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa."
+        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -1107,7 +1143,13 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Guarde: Disciplina forte é disciplina legal, consciente e orientada ao serviço público.",
         "diagnosticoIA": "Use a frase antes de questões objetivas para ativar o conceito certo."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "direitos-deveres-prerrogativas-vedacoes",
@@ -1245,7 +1287,8 @@ export const legislacaoInstitucionalPMMAAvancada = [
       },
       {
         "frente": "Como estudar Regime jurídico funcional do policial militar para PMMA?",
-        "verso": "Associar cada item à pergunta: é direito, dever, prerrogativa, vedação ou responsabilidade?"
+        "verso": "Como estudar Regime jurídico funcional do policial militar para PMMA?: Prerrogativa serve à função pública. Dever orienta conduta obrigatória. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Frase de memória: Direitos, deveres, prerrogativas, vedações e responsabilidade funcional",
@@ -1333,7 +1376,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A chave é: Direito funcional não elimina dever; prerrogativa existe para proteger a função, não abuso.",
         "armadilhaDaBanca": "Chamar prerrogativa funcional de privilégio absoluto.",
         "porqueCaiEmProva": "Classificação de itens funcionais, responsabilidade, limites e finalidade das prerrogativas.",
-        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada."
+        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -1444,7 +1492,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Direito é posição jurídica favorável; prerrogativa é garantia funcional para exercer o cargo; dever é conduta exigida; vedação é conduta proibida ou incompatível com o regime.",
         "armadilhaDaBanca": "Ignorar deveres de conduta e zelo.",
         "porqueCaiEmProva": "Casos práticos testam método, não só memória.",
-        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato."
+        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -1501,7 +1554,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A legislação institucional exige cautela com comandos absolutos, especialmente quando há alterações estaduais e recorte de edital.",
         "armadilhaDaBanca": "Achar que responsabilidade administrativa dispensa procedimento.",
         "porqueCaiEmProva": "Bancas usam alternativas amplas para induzir erro por autoridade/hierarquia.",
-        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa."
+        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -1657,7 +1715,13 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Guarde: Direito funcional não elimina dever; prerrogativa existe para proteger a função, não abuso.",
         "diagnosticoIA": "Use a frase antes de questões objetivas para ativar o conceito certo."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "ingresso-formacao-carreira-situacoes-funcionais",
@@ -1883,7 +1947,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A chave é: Em situação funcional, não decore rótulo: pergunte quais efeitos ele produz.",
         "armadilhaDaBanca": "Tratar todo afastamento como desligamento.",
         "porqueCaiEmProva": "Situações funcionais, efeitos na carreira, formação, afastamentos, reserva, reforma e leitura de casos.",
-        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada."
+        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -1994,7 +2063,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Serviço ativo indica vínculo com exercício funcional; reserva mantém vínculo em condição própria definida em lei; reforma representa situação definitiva de inatividade, conforme hipóteses legais.",
         "armadilhaDaBanca": "Confundir reserva com reforma.",
         "porqueCaiEmProva": "Casos práticos testam método, não só memória.",
-        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato."
+        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -2051,7 +2125,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A legislação institucional exige cautela com comandos absolutos, especialmente quando há alterações estaduais e recorte de edital.",
         "armadilhaDaBanca": "Memorizar prazo sem conferir atualização legislativa.",
         "porqueCaiEmProva": "Bancas usam alternativas amplas para induzir erro por autoridade/hierarquia.",
-        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa."
+        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -2207,7 +2286,13 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Guarde: Em situação funcional, não decore rótulo: pergunte quais efeitos ele produz.",
         "diagnosticoIA": "Use a frase antes de questões objetivas para ativar o conceito certo."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "disciplina-transgressao-sancao-devido-processo",
@@ -2433,7 +2518,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A chave é: Disciplina militar forte exige legalidade, defesa, motivação e proporcionalidade.",
         "armadilhaDaBanca": "Achar que hierarquia elimina contraditório.",
         "porqueCaiEmProva": "Transgressão, procedimento, sanção, defesa, motivação, proporcionalidade e limites pós-alterações federais.",
-        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada."
+        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -2544,7 +2634,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Transgressão é a conduta irregular; sanção é a consequência legal cabível; processo disciplinar é o caminho formal para apurar, garantir defesa e decidir.",
         "armadilhaDaBanca": "Confundir advertência pedagógica com sanção formal.",
         "porqueCaiEmProva": "Casos práticos testam método, não só memória.",
-        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato."
+        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -2601,7 +2696,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A legislação institucional exige cautela com comandos absolutos, especialmente quando há alterações estaduais e recorte de edital.",
         "armadilhaDaBanca": "Aplicar punição antiga sem verificar atualização legal.",
         "porqueCaiEmProva": "Bancas usam alternativas amplas para induzir erro por autoridade/hierarquia.",
-        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa."
+        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -2757,7 +2857,13 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Guarde: Disciplina militar forte exige legalidade, defesa, motivação e proporcionalidade.",
         "diagnosticoIA": "Use a frase antes de questões objetivas para ativar o conceito certo."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "promocoes-quadros-antiguidade-merecimento",
@@ -2891,7 +2997,7 @@ export const legislacaoInstitucionalPMMAAvancada = [
       },
       {
         "frente": "Qual pegadinha mais perigosa em Carreira, promoções e quadros?",
-        "verso": "Decorar prazo antigo."
+        "verso": "O risco é decorar prazo, órgão ou regra funcional sem conferir edital e legislação estadual vigente. Em legislação institucional, alterações locais podem mudar o gabarito."
       },
       {
         "frente": "Como estudar Carreira, promoções e quadros para PMMA?",
@@ -2983,7 +3089,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A chave é: Em promoção, entenda a lógica antes dos números; os números mudam, a lógica orienta.",
         "armadilhaDaBanca": "Decorar prazo antigo.",
         "porqueCaiEmProva": "Critérios de promoção, quadros, requisitos, impedimentos, antiguidade, merecimento e atualizações legislativas.",
-        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada."
+        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -3094,7 +3205,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Antiguidade privilegia ordem temporal na carreira; merecimento avalia desempenho e critérios legais de aptidão, conforme regras específicas do quadro.",
         "armadilhaDaBanca": "Tratar merecimento como escolha livre sem critérios.",
         "porqueCaiEmProva": "Casos práticos testam método, não só memória.",
-        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato."
+        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -3151,7 +3267,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A legislação institucional exige cautela com comandos absolutos, especialmente quando há alterações estaduais e recorte de edital.",
         "armadilhaDaBanca": "Ignorar impedimentos legais para promoção.",
         "porqueCaiEmProva": "Bancas usam alternativas amplas para induzir erro por autoridade/hierarquia.",
-        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa."
+        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -3307,7 +3428,13 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Guarde: Em promoção, entenda a lógica antes dos números; os números mudam, a lógica orienta.",
         "diagnosticoIA": "Use a frase antes de questões objetivas para ativar o conceito certo."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "organizacao-basica-comando-orgaos-unidades",
@@ -3533,7 +3660,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A chave é: Organização Básica é o mapa da corporação; Estatuto é o regime da pessoa militar.",
         "armadilhaDaBanca": "Confundir Organização Básica com Estatuto.",
         "porqueCaiEmProva": "Objeto da Lei 4.570/1984, estrutura, comandos, unidades, subunidades e competências gerais.",
-        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada."
+        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -3644,7 +3776,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Órgãos de direção comandam e planejam; órgãos de apoio dão suporte administrativo, técnico ou logístico; órgãos de execução realizam a atividade finalística operacional.",
         "armadilhaDaBanca": "Memorizar sigla sem entender posição no organograma.",
         "porqueCaiEmProva": "Casos práticos testam método, não só memória.",
-        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato."
+        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -3701,7 +3838,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A legislação institucional exige cautela com comandos absolutos, especialmente quando há alterações estaduais e recorte de edital.",
         "armadilhaDaBanca": "Ignorar alterações posteriores da estrutura.",
         "porqueCaiEmProva": "Bancas usam alternativas amplas para induzir erro por autoridade/hierarquia.",
-        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa."
+        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -3857,7 +3999,13 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Guarde: Organização Básica é o mapa da corporação; Estatuto é o regime da pessoa militar.",
         "diagnosticoIA": "Use a frase antes de questões objetivas para ativar o conceito certo."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "policiamento-ostensivo-preservacao-ordem-pmma",
@@ -4083,7 +4231,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A chave é: Policiamento ostensivo é presença visível, legal e preventiva para preservar a ordem pública.",
         "armadilhaDaBanca": "Achar que PM é polícia judiciária comum.",
         "porqueCaiEmProva": "Função constitucional da PM, atuação preventiva, preservação da ordem, limites e relação com demais órgãos.",
-        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada."
+        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -4194,7 +4347,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Policiamento ostensivo é atuação visível preventiva e de preservação da ordem; polícia judiciária apura infrações penais e produz investigação formal, ressalvadas competências militares específicas.",
         "armadilhaDaBanca": "Tratar preservação da ordem como autorização ilimitada.",
         "porqueCaiEmProva": "Casos práticos testam método, não só memória.",
-        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato."
+        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -4251,7 +4409,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A legislação institucional exige cautela com comandos absolutos, especialmente quando há alterações estaduais e recorte de edital.",
         "armadilhaDaBanca": "Esquecer que atuação operacional deve respeitar legalidade e direitos.",
         "porqueCaiEmProva": "Bancas usam alternativas amplas para induzir erro por autoridade/hierarquia.",
-        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa."
+        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -4407,7 +4570,13 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Guarde: Policiamento ostensivo é presença visível, legal e preventiva para preservar a ordem pública.",
         "diagnosticoIA": "Use a frase antes de questões objetivas para ativar o conceito certo."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "policia-judiciaria-militar-ipm-crimes-militares",
@@ -4633,7 +4802,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A chave é: Disciplina, IPM e processo penal militar conversam, mas não são a mesma coisa.",
         "armadilhaDaBanca": "Tratar toda falta funcional como crime militar.",
         "porqueCaiEmProva": "Diferença entre disciplina, crime militar, IPM, PJM, processo e esferas de responsabilidade.",
-        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada."
+        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -4744,7 +4918,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Processo disciplinar apura responsabilidade administrativa; IPM apura crime militar em tese, reunindo elementos de autoria e materialidade para a esfera penal militar.",
         "armadilhaDaBanca": "Confundir IPM com processo judicial.",
         "porqueCaiEmProva": "Casos práticos testam método, não só memória.",
-        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato."
+        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -4801,7 +4980,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A legislação institucional exige cautela com comandos absolutos, especialmente quando há alterações estaduais e recorte de edital.",
         "armadilhaDaBanca": "Ignorar a necessidade de tipificação penal militar.",
         "porqueCaiEmProva": "Bancas usam alternativas amplas para induzir erro por autoridade/hierarquia.",
-        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa."
+        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -4957,7 +5141,13 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Guarde: Disciplina, IPM e processo penal militar conversam, mas não são a mesma coisa.",
         "diagnosticoIA": "Use a frase antes de questões objetivas para ativar o conceito certo."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "atualizacoes-legislativas-diario-oficial-edital",
@@ -5183,7 +5373,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A chave é: Em legislação PMMA, quem estuda por versão antiga treina para errar questão atual.",
         "armadilhaDaBanca": "Estudar print antigo de lei.",
         "porqueCaiEmProva": "Estratégia de estudo, atualização normativa, leitura de edital, risco de normas estaduais alteradas e revisão final.",
-        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada."
+        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -5294,7 +5489,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "O texto consolidado incorpora alterações posteriores e permite estudar a norma vigente, enquanto apostila antiga pode manter redação superada por leis novas.",
         "armadilhaDaBanca": "Ignorar que estrutura da PM pode mudar.",
         "porqueCaiEmProva": "Casos práticos testam método, não só memória.",
-        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato."
+        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -5351,7 +5551,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A legislação institucional exige cautela com comandos absolutos, especialmente quando há alterações estaduais e recorte de edital.",
         "armadilhaDaBanca": "Não separar o que é estadual, federal e constitucional.",
         "porqueCaiEmProva": "Bancas usam alternativas amplas para induzir erro por autoridade/hierarquia.",
-        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa."
+        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -5507,7 +5712,13 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Guarde: Em legislação PMMA, quem estuda por versão antiga treina para errar questão atual.",
         "diagnosticoIA": "Use a frase antes de questões objetivas para ativar o conceito certo."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "simulado-integrado-pmma-casos-avancados",
@@ -5733,7 +5944,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A chave é: Questão integrada se resolve por norma aplicável, conceito central, exceção e atualização.",
         "armadilhaDaBanca": "Responder pela palavra mais familiar sem identificar norma aplicável.",
         "porqueCaiEmProva": "Aplicação integrada de legislação institucional em casos, distinções, exceções e revisão final.",
-        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada."
+        "diagnosticoIA": "Se errou, revise a diferença entre norma aplicável, finalidade institucional, exceções e fonte oficial atualizada.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -5844,7 +6060,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Primeiro identifica-se o tema principal; depois a norma aplicável; em seguida separa-se vida funcional, estrutura institucional e missão constitucional; por fim verifica-se exceção, atualização e alternativa compatível.",
         "armadilhaDaBanca": "Ignorar exceções e atualizações.",
         "porqueCaiEmProva": "Casos práticos testam método, não só memória.",
-        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato."
+        "diagnosticoIA": "Se marcou outra, você provavelmente confundiu fonte normativa com tema correlato.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -5901,7 +6122,12 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "A legislação institucional exige cautela com comandos absolutos, especialmente quando há alterações estaduais e recorte de edital.",
         "armadilhaDaBanca": "Marcar alternativa absoluta em tema cheio de condição legal.",
         "porqueCaiEmProva": "Bancas usam alternativas amplas para induzir erro por autoridade/hierarquia.",
-        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa."
+        "diagnosticoIA": "Treine grifar palavras absolutas e separar a fonte normativa.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "versaoQuestao": "10.1-plus",
@@ -6057,7 +6283,13 @@ export const legislacaoInstitucionalPMMAAvancada = [
         "comentario": "Guarde: Questão integrada se resolve por norma aplicável, conceito central, exceção e atualização.",
         "diagnosticoIA": "Use a frase antes de questões objetivas para ativar o conceito certo."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   }
 ];
 

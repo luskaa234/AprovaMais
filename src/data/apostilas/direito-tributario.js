@@ -245,6 +245,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -332,6 +337,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -419,6 +429,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -521,7 +536,13 @@ export const direitoTributario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "especies-tributarias",
@@ -657,7 +678,8 @@ export const direitoTributario = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Espécies tributárias: impostos, taxas, contribuição de melhoria, empréstimos compulsórios e contribuições especiais?",
-        "verso": "Para descobrir a espécie tributária, pergunte: qual fato gerador justifica a cobrança?"
+        "verso": "Qual a ideia central de Espécies tributárias: impostos, taxas, contribuição de melhoria, empréstimos compulsórios e contribuições especiais?: Imposto não exige contraprestação estatal específica. Taxa exige poder de polícia ou serviço público específico e divisível. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Espécies tributárias",
@@ -758,6 +780,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -845,6 +872,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -932,6 +964,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1034,7 +1071,13 @@ export const direitoTributario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "competencia-tributaria-e-capacidade-ativa",
@@ -1271,6 +1314,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1358,6 +1406,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1445,6 +1498,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1547,7 +1605,13 @@ export const direitoTributario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "principios-constitucionais-tributarios",
@@ -1784,6 +1848,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1871,6 +1940,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1958,6 +2032,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2060,7 +2139,13 @@ export const direitoTributario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "imunidades-tributarias",
@@ -2297,6 +2382,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2384,6 +2474,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2471,6 +2566,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2573,7 +2673,13 @@ export const direitoTributario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "obrigacao-tributaria",
@@ -2810,6 +2916,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2897,6 +3008,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2984,6 +3100,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3086,7 +3207,13 @@ export const direitoTributario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "credito-tributario-e-lancamento",
@@ -3323,6 +3450,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3410,6 +3542,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3497,6 +3634,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3599,7 +3741,13 @@ export const direitoTributario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "suspensao-extincao-exclusao-credito",
@@ -3836,6 +3984,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3923,6 +4076,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4010,6 +4168,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4112,7 +4275,13 @@ export const direitoTributario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "administracao-tributaria-divida-ativa-certidoes",
@@ -4349,6 +4518,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4436,6 +4610,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4523,6 +4702,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4625,7 +4809,13 @@ export const direitoTributario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "reforma-tributaria-consumo-ibs-cbs-imposto-seletivo",
@@ -4862,6 +5052,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4949,6 +5144,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5036,6 +5236,11 @@ export const direitoTributario = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5138,7 +5343,13 @@ export const direitoTributario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   }
 ];
 

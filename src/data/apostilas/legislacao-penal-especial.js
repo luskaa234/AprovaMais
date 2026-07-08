@@ -172,6 +172,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Lei de Drogas (Lei 11.343/2006): tráfico x uso pessoal em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -408,6 +413,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Lei de Drogas (Lei 11.343/2006): tráfico x uso pessoal em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -586,8 +596,9 @@ export const legislacaoPenalEspecial = [
       },
       {
         "frente": "Palavra-chave: uso pessoal",
-        "verso": "Explique uso pessoal dentro do tema Lei de Drogas (Lei 11.343/2006): tráfico x uso pessoal.",
-        "nivel": "conceito"
+        "verso": "uso pessoal: Uso pessoal (art. 28): sem prisão, apenas advertência, prestação de serviços ou medida educativa. Diferenciação uso x tráfico não tem quantidade fixa em lei — depende do conjunto de circunstâncias do art. 28, §2º. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Lei de Drogas (Lei 11.343/2006): tráfico x uso pessoal",
@@ -781,6 +792,12 @@ export const legislacaoPenalEspecial = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -946,6 +963,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Estatuto do Desarmamento (Lei 10.826/2003) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1182,6 +1204,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Estatuto do Desarmamento (Lei 10.826/2003) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1360,8 +1387,9 @@ export const legislacaoPenalEspecial = [
       },
       {
         "frente": "Palavra-chave: posse de arma de fogo",
-        "verso": "Explique posse de arma de fogo dentro do tema Estatuto do Desarmamento (Lei 10.826/2003).",
-        "nivel": "conceito"
+        "verso": "posse de arma de fogo: Posse (dentro de casa/trabalho, sem registro) e porte (fora de casa, sem autorização) são condutas distintas, com penas diferentes. Arma de uso permitido tem pena menor que arma de uso restrito/proibido — a classificação da arma altera significativamente a pena. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Estatuto do Desarmamento (Lei 10.826/2003)",
@@ -1555,6 +1583,12 @@ export const legislacaoPenalEspecial = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1720,6 +1754,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Lei Maria da Penha (Lei 11.340/2006) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1956,6 +1995,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Lei Maria da Penha (Lei 11.340/2006) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2134,8 +2178,9 @@ export const legislacaoPenalEspecial = [
       },
       {
         "frente": "Palavra-chave: violência doméstica",
-        "verso": "Explique violência doméstica dentro do tema Lei Maria da Penha (Lei 11.340/2006).",
-        "nivel": "conceito"
+        "verso": "violência doméstica: Cinco formas de violência: física, psicológica, sexual, patrimonial e moral — não se limita à agressão física. Lei se aplica em unidade doméstica, família e relação íntima de afeto, inclusive relações homoafetivas entre mulheres. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Lei Maria da Penha (Lei 11.340/2006)",
@@ -2329,6 +2374,12 @@ export const legislacaoPenalEspecial = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2494,6 +2545,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Lei de Abuso de Autoridade (Lei 13.869/2019) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2730,6 +2786,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Lei de Abuso de Autoridade (Lei 13.869/2019) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2908,8 +2969,9 @@ export const legislacaoPenalEspecial = [
       },
       {
         "frente": "Palavra-chave: abuso de autoridade",
-        "verso": "Explique abuso de autoridade dentro do tema Lei de Abuso de Autoridade (Lei 13.869/2019).",
-        "nivel": "conceito"
+        "verso": "abuso de autoridade: Sujeito ativo é qualquer agente público; exige dolo específico (prejudicar, beneficiar, ou mero capricho) — divergência de interpretação de lei não configura abuso. Condutas mais cobradas: prisão manifestamente descabida, manutenção além do prazo, constrangimento vexatório, deixar de se identificar quando solicitado. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Lei de Abuso de Autoridade (Lei 13.869/2019)",
@@ -3103,6 +3165,12 @@ export const legislacaoPenalEspecial = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3268,6 +3336,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Lei de Crimes Hediondos (Lei 8.072/1990) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3504,6 +3577,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Lei de Crimes Hediondos (Lei 8.072/1990) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3682,8 +3760,9 @@ export const legislacaoPenalEspecial = [
       },
       {
         "frente": "Palavra-chave: crime hediondo",
-        "verso": "Explique crime hediondo dentro do tema Lei de Crimes Hediondos (Lei 8.072/1990).",
-        "nivel": "conceito"
+        "verso": "crime hediondo: Rol taxativo de crimes hediondos (art. 1º) — não admite interpretação extensiva; tortura, tráfico e terrorismo são equiparados por força constitucional. Hediondos e equiparados: insuscetíveis de anistia, graça, indulto e fiança. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Lei de Crimes Hediondos (Lei 8.072/1990)",
@@ -3877,6 +3956,12 @@ export const legislacaoPenalEspecial = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4042,6 +4127,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Lei de Tortura (Lei 9.455/1997) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4278,6 +4368,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Lei de Tortura (Lei 9.455/1997) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4456,8 +4551,9 @@ export const legislacaoPenalEspecial = [
       },
       {
         "frente": "Palavra-chave: tortura-prova",
-        "verso": "Explique tortura-prova dentro do tema Lei de Tortura (Lei 9.455/1997).",
-        "nivel": "conceito"
+        "verso": "tortura-prova: Tortura-prova/crime/discriminação: sofrimento com finalidade específica (confissão, ato criminoso, discriminação). Tortura-castigo: cometida por quem tem a vítima sob guarda/poder/autoridade, como punição ou medida preventiva. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Lei de Tortura (Lei 9.455/1997)",
@@ -4651,6 +4747,12 @@ export const legislacaoPenalEspecial = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4816,6 +4918,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Lei de Organizações Criminosas (Lei 12.850/2013) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5052,6 +5159,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Lei de Organizações Criminosas (Lei 12.850/2013) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5230,8 +5342,9 @@ export const legislacaoPenalEspecial = [
       },
       {
         "frente": "Palavra-chave: organização criminosa",
-        "verso": "Explique organização criminosa dentro do tema Lei de Organizações Criminosas (Lei 12.850/2013).",
-        "nivel": "conceito"
+        "verso": "organização criminosa: Organização criminosa exige 4+ pessoas, estrutura ordenada com divisão de tarefas, vantagem de qualquer natureza, infrações com pena máxima > 4 anos ou transnacionais — todos cumulativos. Meios especiais de prova: colaboração premiada, ação controlada, infiltração de agentes, captação ambiental. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Lei de Organizações Criminosas (Lei 12.850/2013)",
@@ -5425,6 +5538,12 @@ export const legislacaoPenalEspecial = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5590,6 +5709,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Estatuto da Criança e do Adolescente: ato infracional em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5826,6 +5950,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Estatuto da Criança e do Adolescente: ato infracional em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6004,8 +6133,9 @@ export const legislacaoPenalEspecial = [
       },
       {
         "frente": "Palavra-chave: ato infracional",
-        "verso": "Explique ato infracional dentro do tema Estatuto da Criança e do Adolescente: ato infracional.",
-        "nivel": "conceito"
+        "verso": "ato infracional: Criança (até 12 anos incompletos): apenas medida de proteção. Adolescente (12 a 18 anos): medida socioeducativa. Medidas socioeducativas em ordem crescente: advertência, reparação de dano, prestação de serviços, liberdade assistida, semiliberdade, internação. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Estatuto da Criança e do Adolescente: ato infracional",
@@ -6199,6 +6329,12 @@ export const legislacaoPenalEspecial = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6364,6 +6500,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Interceptação telefônica e identificação criminal em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6600,6 +6741,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Interceptação telefônica e identificação criminal em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6778,8 +6924,9 @@ export const legislacaoPenalEspecial = [
       },
       {
         "frente": "Palavra-chave: interceptação telefônica",
-        "verso": "Explique interceptação telefônica dentro do tema Interceptação telefônica e identificação criminal.",
-        "nivel": "conceito"
+        "verso": "interceptação telefônica: Interceptação exige: ordem judicial, indícios de autoria, subsidiariedade (impossibilidade de outro meio), crime punido com reclusão. Prazo de 15 dias, renovável, sem limite absoluto de renovações, desde que fundamentado cada pedido. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Interceptação telefônica e identificação criminal",
@@ -6973,6 +7120,12 @@ export const legislacaoPenalEspecial = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7138,6 +7291,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Juizados Especiais Criminais (Lei 9.099/1995) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7374,6 +7532,11 @@ export const legislacaoPenalEspecial = [
           "seErrar": "A IA deve explicar Juizados Especiais Criminais (Lei 9.099/1995) em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7552,8 +7715,9 @@ export const legislacaoPenalEspecial = [
       },
       {
         "frente": "Palavra-chave: infração de menor potencial ofensivo",
-        "verso": "Explique infração de menor potencial ofensivo dentro do tema Juizados Especiais Criminais (Lei 9.099/1995).",
-        "nivel": "conceito"
+        "verso": "infração de menor potencial ofensivo: Infração de menor potencial ofensivo: contravenções e crimes com pena máxima até 2 anos (competência dos Juizados). Composição civil (reparação do dano) extingue punibilidade em ação privada/condicionada; transação penal aplica pena de imediato, sem confissão de culpa. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Juizados Especiais Criminais (Lei 9.099/1995)",
@@ -7747,6 +7911,12 @@ export const legislacaoPenalEspecial = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

@@ -247,6 +247,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -334,6 +339,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -421,6 +431,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -507,7 +522,13 @@ export const direitoPrevidenciario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "filiacao-inscricao-e-segurados-do-rgps",
@@ -746,6 +767,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -833,6 +859,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -920,6 +951,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1006,7 +1042,13 @@ export const direitoPrevidenciario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "qualidade-de-segurado-e-periodo-de-graca",
@@ -1245,6 +1287,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1332,6 +1379,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1419,6 +1471,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1505,7 +1562,13 @@ export const direitoPrevidenciario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "dependentes-previdenciarios-e-classes-de-dependencia",
@@ -1744,6 +1807,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1831,6 +1899,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1918,6 +1991,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2004,7 +2082,13 @@ export const direitoPrevidenciario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "carencia-tempo-de-contribuicao-e-salario-de-contribuicao",
@@ -2243,6 +2327,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2330,6 +2419,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2417,6 +2511,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2503,7 +2602,13 @@ export const direitoPrevidenciario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "aposentadoria-programada-idade-minima-e-regras-de-transicao",
@@ -2641,7 +2746,8 @@ export const direitoPrevidenciario = [
     "flashcards": [
       {
         "frente": "Qual a ideia central de Aposentadoria programada, idade mínima e regras de transição?",
-        "verso": "Depois da reforma, sempre pergunte: é regra permanente, direito adquirido ou transição?"
+        "verso": "Qual a ideia central de Aposentadoria programada, idade mínima e regras de transição?: EC 103/2019 mudou idade mínima, cálculo e regras de aposentadoria. Direito adquirido não é o mesmo que expectativa de direito. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Aposentadoria programada, idade mínima e regras de transição",
@@ -2742,6 +2848,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2829,6 +2940,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2916,6 +3032,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3002,7 +3123,13 @@ export const direitoPrevidenciario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "beneficios-por-incapacidade-e-auxilio-acidente",
@@ -3241,6 +3368,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3328,6 +3460,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3415,6 +3552,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3501,7 +3643,13 @@ export const direitoPrevidenciario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "salario-maternidade-e-salario-familia",
@@ -3740,6 +3888,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3827,6 +3980,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3914,6 +4072,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4000,7 +4163,13 @@ export const direitoPrevidenciario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "pensao-por-morte-e-auxilio-reclusao",
@@ -4239,6 +4408,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4326,6 +4500,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4413,6 +4592,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4499,7 +4683,13 @@ export const direitoPrevidenciario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "processo-administrativo-previdenciario-recursos-revisao-decadencia-e-prescricao",
@@ -4740,6 +4930,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4827,6 +5022,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4914,6 +5114,11 @@ export const direitoPrevidenciario = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro exemplo previdenciário.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5000,7 +5205,13 @@ export const direitoPrevidenciario = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   }
 ];
 

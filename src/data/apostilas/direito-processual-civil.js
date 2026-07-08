@@ -171,6 +171,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Princípios do processo civil em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -407,6 +412,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Princípios do processo civil em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -585,8 +595,9 @@ export const direitoProcessualCivil = [
       },
       {
         "frente": "Palavra-chave: cooperação processual",
-        "verso": "Explique cooperação processual dentro do tema Princípios do processo civil.",
-        "nivel": "conceito"
+        "verso": "cooperação processual: Cooperação processual: juiz e partes colaboram para decisão de mérito justa e efetiva em tempo razoável. Contraditório substancial veda decisão-surpresa — nem matéria de ofício escapa da exigência de prévia manifestação das partes. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Princípios do processo civil",
@@ -779,6 +790,12 @@ export const direitoProcessualCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -943,6 +960,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Jurisdição e ação em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1179,6 +1201,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Jurisdição e ação em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1357,8 +1384,9 @@ export const direitoProcessualCivil = [
       },
       {
         "frente": "Palavra-chave: jurisdição",
-        "verso": "Explique jurisdição dentro do tema Jurisdição e ação.",
-        "nivel": "conceito"
+        "verso": "jurisdição: Jurisdição: poder-dever estatal de dizer o direito, marcado por inércia e definitividade. Condições da ação no CPC/2015 (simplificadas): legitimidade das partes e interesse processual. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Jurisdição e ação",
@@ -1551,6 +1579,12 @@ export const direitoProcessualCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1715,6 +1749,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Competência no processo civil em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1951,6 +1990,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Competência no processo civil em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2129,8 +2173,9 @@ export const direitoProcessualCivil = [
       },
       {
         "frente": "Palavra-chave: competência absoluta",
-        "verso": "Explique competência absoluta dentro do tema Competência no processo civil.",
-        "nivel": "conceito"
+        "verso": "competência absoluta: Competência absoluta (matéria, pessoa, função): improrrogável, alegável a qualquer tempo, reconhecível de ofício. Competência relativa (território, valor): prorrogável se não alegada tempestivamente pelo réu na contestação. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Competência no processo civil",
@@ -2323,6 +2368,12 @@ export const direitoProcessualCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2487,6 +2538,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Partes e procuradores em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2723,6 +2779,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Partes e procuradores em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2901,8 +2962,9 @@ export const direitoProcessualCivil = [
       },
       {
         "frente": "Palavra-chave: capacidade postulatória",
-        "verso": "Explique capacidade postulatória dentro do tema Partes e procuradores.",
-        "nivel": "conceito"
+        "verso": "capacidade postulatória: Capacidade de ser parte (personalidade), capacidade processual (agir sem assistência/representação) e capacidade postulatória (advogado) são conceitos distintos. Litisconsórcio: ativo/passivo/misto; facultativo/necessário; simples/unitário — combinações que definem o regime processual aplicável. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Partes e procuradores",
@@ -3095,6 +3157,12 @@ export const direitoProcessualCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3259,6 +3327,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Atos processuais e prazos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3495,6 +3568,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Atos processuais e prazos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3673,8 +3751,9 @@ export const direitoProcessualCivil = [
       },
       {
         "frente": "Palavra-chave: prazo em dias úteis",
-        "verso": "Explique prazo em dias úteis dentro do tema Atos processuais e prazos.",
-        "nivel": "conceito"
+        "verso": "prazo em dias úteis: Prazos processuais civis contam-se em dias úteis (CPC/2015) — diferente de prazos de direito material (prescrição/decadência), que seguem em dias corridos. Processo se suspende, entre outras hipóteses, por morte/incapacidade de parte ou procurador, convenção das partes, e recesso forense. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Atos processuais e prazos",
@@ -3867,6 +3946,12 @@ export const direitoProcessualCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4031,6 +4116,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Petição inicial e tutela provisória em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4267,6 +4357,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Petição inicial e tutela provisória em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4445,8 +4540,9 @@ export const direitoProcessualCivil = [
       },
       {
         "frente": "Palavra-chave: tutela de urgência",
-        "verso": "Explique tutela de urgência dentro do tema Petição inicial e tutela provisória.",
-        "nivel": "conceito"
+        "verso": "tutela de urgência: Ausência de requisito essencial na petição inicial, não sanada no prazo, leva ao indeferimento. Tutela de urgência: exige probabilidade do direito + perigo de dano/risco ao resultado útil (periculum in mora). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Petição inicial e tutela provisória",
@@ -4639,6 +4735,12 @@ export const direitoProcessualCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4803,6 +4905,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Contestação, revelia e resposta do réu em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5039,6 +5146,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Contestação, revelia e resposta do réu em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5217,8 +5329,9 @@ export const direitoProcessualCivil = [
       },
       {
         "frente": "Palavra-chave: ônus da impugnação especificada",
-        "verso": "Explique ônus da impugnação especificada dentro do tema Contestação, revelia e resposta do réu.",
-        "nivel": "conceito"
+        "verso": "ônus da impugnação especificada: Princípio da eventualidade: réu deve alegar toda sua defesa de uma vez, sob pena de preclusão. Ônus da impugnação especificada: fato não impugnado presume-se verdadeiro, salvo exceções legais. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Contestação, revelia e resposta do réu",
@@ -5411,6 +5524,12 @@ export const direitoProcessualCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5575,6 +5694,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Sentença e coisa julgada em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5811,6 +5935,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Sentença e coisa julgada em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5989,8 +6118,9 @@ export const direitoProcessualCivil = [
       },
       {
         "frente": "Palavra-chave: coisa julgada formal",
-        "verso": "Explique coisa julgada formal dentro do tema Sentença e coisa julgada.",
-        "nivel": "conceito"
+        "verso": "coisa julgada formal: Coisa julgada formal: imutabilidade dentro do mesmo processo. Coisa julgada material: imutabilidade em qualquer processo futuro (só em decisão de mérito). Limites objetivos da coisa julgada recaem sobre o dispositivo, não sobre os fundamentos, em regra. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Sentença e coisa julgada",
@@ -6182,6 +6312,12 @@ export const direitoProcessualCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6346,6 +6482,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Recursos no processo civil em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6582,6 +6723,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Recursos no processo civil em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6760,8 +6906,9 @@ export const direitoProcessualCivil = [
       },
       {
         "frente": "Palavra-chave: apelação",
-        "verso": "Explique apelação dentro do tema Recursos no processo civil.",
-        "nivel": "conceito"
+        "verso": "apelação: Apelação: contra sentença, em regra com efeito suspensivo automático (salvo exceções específicas do CPC/2015). Agravo de instrumento: contra decisões interlocutórias, apenas nas hipóteses taxativamente listadas em lei. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Recursos no processo civil",
@@ -6954,6 +7101,12 @@ export const direitoProcessualCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7118,6 +7271,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Cumprimento de sentença e execução em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7354,6 +7512,11 @@ export const direitoProcessualCivil = [
           "seErrar": "A IA deve explicar Cumprimento de sentença e execução em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7532,8 +7695,9 @@ export const direitoProcessualCivil = [
       },
       {
         "frente": "Palavra-chave: título executivo judicial",
-        "verso": "Explique título executivo judicial dentro do tema Cumprimento de sentença e execução.",
-        "nivel": "conceito"
+        "verso": "título executivo judicial: Cumprimento de sentença: fase baseada em título executivo judicial (sentença, acordo homologado). Execução autônoma: processo baseado em título executivo extrajudicial (nota promissória, cheque, contrato com força executiva). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Cumprimento de sentença e execução",
@@ -7726,6 +7890,12 @@ export const direitoProcessualCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

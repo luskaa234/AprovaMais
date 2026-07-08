@@ -250,6 +250,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -287,7 +292,7 @@ export const direitoFinanceiro = [
         "comandoBanca": "resolva_o_caso",
         "enunciado": "Uma questão afirma que Direito Financeiro se limita à instituição e cobrança de impostos. O edital também cobra orçamento, despesa e controle fiscal. Qual é a conclusão mais adequada?",
         "alternativas": [
-          "A afirmação está errada. Instituição e cobrança de tributos pertencem ao Direito Tributário; Direito Financeiro é mais amplo e inclui orçamento, receita, despesa, crédito público e controle.",
+          "A afirmação está errada. Instituição e cobrança de tributos pertencem ao Direito Tributário; Direito Financeiro é mais amplo e inclui orçamento, receita, despesa, crédito...",
           "O caso deve ser resolvido apenas por conveniência política, sem observar normas de finanças públicas.",
           "A conclusão correta é sempre permitir o gasto, ainda que sem autorização ou controle.",
           "A Administração pode afastar a lei orçamentária por decisão interna sem justificativa.",
@@ -337,6 +342,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -397,6 +407,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -516,7 +531,13 @@ export const direitoFinanceiro = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "orcamento-publico-natureza-funcoes-e-ciclo-orcamentario",
@@ -756,6 +777,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -843,6 +869,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -903,6 +934,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1021,7 +1057,13 @@ export const direitoFinanceiro = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "leis-orcamentarias-ppa-ldo-e-loa",
@@ -1164,11 +1206,11 @@ export const direitoFinanceiro = [
       },
       {
         "frente": "Pegadinha comum em Leis orçamentárias: PPA, LDO e LOA",
-        "verso": "Trocar PPA por LOA."
+        "verso": "PPA organiza planejamento de médio prazo; LDO faz a ponte anual; LOA estima receitas e fixa despesas do exercício. A banca troca PPA por LOA para confundir planejamento com orçamento anual."
       },
       {
         "frente": "Palavras-chave do capítulo",
-        "verso": "PPA, LDO, LOA"
+        "verso": "PPA, LDO e LOA formam o ciclo orçamentário: o PPA planeja, a LDO orienta e a LOA executa a previsão anual de receitas e despesas."
       }
     ],
     "rubricaDominio": {
@@ -1261,6 +1303,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1348,6 +1395,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1408,6 +1460,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1526,7 +1583,13 @@ export const direitoFinanceiro = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "principios-orcamentarios",
@@ -1770,6 +1833,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1857,6 +1925,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1917,6 +1990,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2037,7 +2115,13 @@ export const direitoFinanceiro = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "receita-publica-classificacao-estagios-e-renuncia-de-receita",
@@ -2279,6 +2363,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2366,6 +2455,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2426,6 +2520,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2545,7 +2644,13 @@ export const direitoFinanceiro = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "despesa-publica-classificacao-empenho-liquidacao-e-pagamento",
@@ -2787,6 +2892,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2874,6 +2984,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2934,6 +3049,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3053,7 +3173,13 @@ export const direitoFinanceiro = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "creditos-adicionais-suplementares-especiais-e-extraordinarios",
@@ -3295,6 +3421,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3382,6 +3513,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3442,6 +3578,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3561,7 +3702,13 @@ export const direitoFinanceiro = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "restos-a-pagar-despesas-de-exercicios-anteriores-e-suprimento-de-fundos",
@@ -3801,6 +3948,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3888,6 +4040,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3948,6 +4105,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4066,7 +4228,13 @@ export const direitoFinanceiro = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "lei-de-responsabilidade-fiscal-metas-limites-transparencia-e-controle",
@@ -4308,6 +4476,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4395,6 +4568,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4455,6 +4633,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4574,7 +4757,13 @@ export const direitoFinanceiro = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "divida-publica-operacoes-de-credito-e-regime-fiscal-sustentavel",
@@ -4816,6 +5005,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4903,6 +5097,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4963,6 +5162,11 @@ export const direitoFinanceiro = [
           "seErrar": "Explicar a questão em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã com outro caso de orçamento, receita, despesa ou responsabilidade fiscal.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5082,7 +5286,13 @@ export const direitoFinanceiro = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   }
 ];
 

@@ -172,6 +172,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Crime militar: próprio e impróprio em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -408,6 +413,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Crime militar: próprio e impróprio em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -586,8 +596,9 @@ export const direitoPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: crime militar próprio",
-        "verso": "Explique crime militar próprio dentro do tema Crime militar: próprio e impróprio.",
-        "nivel": "conceito"
+        "verso": "crime militar próprio: Crime militar próprio: só existe no CPM, sem correspondência no Código Penal comum (deserção, motim, dormir em serviço). Crime militar impróprio: também existe no Código Penal comum, mas ganha tipificação e competência militar em certas circunstâncias. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Crime militar: próprio e impróprio",
@@ -781,6 +792,12 @@ export const direitoPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -946,6 +963,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Aplicação da lei penal militar no tempo e no espaço em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1182,6 +1204,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Aplicação da lei penal militar no tempo e no espaço em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1360,8 +1387,9 @@ export const direitoPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: retroatividade da lei penal militar benéfica",
-        "verso": "Explique retroatividade da lei penal militar benéfica dentro do tema Aplicação da lei penal militar no tempo e no espaço.",
-        "nivel": "conceito"
+        "verso": "retroatividade da lei penal militar benéfica: Aplicação no tempo: mesmos princípios do Direito Penal comum (legalidade, retroatividade da lei mais benéfica) — teoria da atividade para o tempo do crime. Aplicação no espaço: teoria da ubiquidade (lugar da ação/omissão OU do resultado). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Aplicação da lei penal militar no tempo e no espaço",
@@ -1555,6 +1583,12 @@ export const direitoPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1720,6 +1754,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Concurso de agentes e tentativa no CPM em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1956,6 +1995,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Concurso de agentes e tentativa no CPM em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2134,8 +2178,9 @@ export const direitoPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: concurso de agentes militar",
-        "verso": "Explique concurso de agentes militar dentro do tema Concurso de agentes e tentativa no CPM.",
-        "nivel": "conceito"
+        "verso": "concurso de agentes militar: Concurso de agentes no CPM segue lógica semelhante ao Direito Penal comum: todos respondem na medida de sua culpabilidade. Tentativa segue a mesma lógica geral (execução iniciada, não consumada por circunstância alheia à vontade) — pena reduzida. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Concurso de agentes e tentativa no CPM",
@@ -2329,6 +2374,12 @@ export const direitoPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2494,6 +2545,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Excludentes de ilicitude e culpabilidade no CPM em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2730,6 +2786,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Excludentes de ilicitude e culpabilidade no CPM em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2908,8 +2969,9 @@ export const direitoPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: estrito cumprimento do dever legal militar",
-        "verso": "Explique estrito cumprimento do dever legal militar dentro do tema Excludentes de ilicitude e culpabilidade no CPM.",
-        "nivel": "conceito"
+        "verso": "estrito cumprimento do dever legal militar: Excludentes de ilicitude no CPM: estado de necessidade, legítima defesa, estrito cumprimento do dever legal, exercício regular de direito — estrutura semelhante ao Direito Penal comum. Obediência hierárquica: exclui culpabilidade do subordinado, exceto se a ordem for manifestamente ilegal — mesma lógica geral já estudada. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Excludentes de ilicitude e culpabilidade no CPM",
@@ -3103,6 +3165,12 @@ export const direitoPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3268,6 +3336,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Crimes contra a autoridade e disciplina militar: motim e revolta em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3504,6 +3577,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Crimes contra a autoridade e disciplina militar: motim e revolta em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3682,8 +3760,9 @@ export const direitoPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: motim",
-        "verso": "Explique motim dentro do tema Crimes contra a autoridade e disciplina militar: motim e revolta.",
-        "nivel": "conceito"
+        "verso": "motim: Motim: desobediência coletiva sem armas. Revolta: mesma conduta, mas com emprego de armas — mais grave. Aliciação para motim/revolta pune quem incita a prática, mesmo sem consumação do crime coletivo. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Crimes contra a autoridade e disciplina militar: motim e revolta",
@@ -3877,6 +3956,12 @@ export const direitoPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4042,6 +4127,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Deserção e insubmissão em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4278,6 +4368,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Deserção e insubmissão em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4456,8 +4551,9 @@ export const direitoPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: deserção",
-        "verso": "Explique deserção dentro do tema Deserção e insubmissão.",
-        "nivel": "conceito"
+        "verso": "deserção: Deserção: ausência não autorizada de quem já está incorporado, por prazo superior ao previsto em lei — crime permanente. Insubmissão: convocado que não se apresenta no prazo, antes mesmo de ser incorporado — crime diferente e anterior à deserção. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Deserção e insubmissão",
@@ -4651,6 +4747,12 @@ export const direitoPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4816,6 +4918,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Crimes contra o serviço e o dever militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5052,6 +5159,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Crimes contra o serviço e o dever militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5230,8 +5342,9 @@ export const direitoPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: abandono de posto",
-        "verso": "Explique abandono de posto dentro do tema Crimes contra o serviço e o dever militar.",
-        "nivel": "conceito"
+        "verso": "abandono de posto: Abandono de posto: afastar-se sem ordem do lugar de serviço designado, mesmo que por curto período. Dormir em serviço e embriaguez em serviço comprometem a vigilância e prontidão exigidas da função militar. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Crimes contra o serviço e o dever militar",
@@ -5425,6 +5538,12 @@ export const direitoPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5590,6 +5709,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Crimes contra a administração militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5826,6 +5950,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Crimes contra a administração militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6004,8 +6133,9 @@ export const direitoPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: peculato militar",
-        "verso": "Explique peculato militar dentro do tema Crimes contra a administração militar.",
-        "nivel": "conceito"
+        "verso": "peculato militar: Peculato e corrupção militar seguem estrutura muito semelhante aos crimes equivalentes do Direito Penal comum, adaptados ao contexto militar. Falsificação de documento militar protege especificamente a fé pública da documentação castrense. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Crimes contra a administração militar",
@@ -6198,6 +6328,12 @@ export const direitoPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6363,6 +6499,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Penas no Código Penal Militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6599,6 +6740,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Penas no Código Penal Militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6777,8 +6923,9 @@ export const direitoPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: reclusão e detenção militar",
-        "verso": "Explique reclusão e detenção militar dentro do tema Penas no Código Penal Militar.",
-        "nivel": "conceito"
+        "verso": "reclusão e detenção militar: Pena de morte só se aplica em tempo de guerra, hipótese excepcional e exclusiva do CPM, sem equivalente no Direito Penal comum. Reclusão e detenção militar seguem lógica semelhante ao Direito Penal comum, mas cumpridas em estabelecimento penal militar específico. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Penas no Código Penal Militar",
@@ -6972,6 +7119,12 @@ export const direitoPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7137,6 +7290,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Extinção da punibilidade no Direito Penal Militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7373,6 +7531,11 @@ export const direitoPenalMilitar = [
           "seErrar": "A IA deve explicar Extinção da punibilidade no Direito Penal Militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7551,8 +7714,9 @@ export const direitoPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: prescrição penal militar",
-        "verso": "Explique prescrição penal militar dentro do tema Extinção da punibilidade no Direito Penal Militar.",
-        "nivel": "conceito"
+        "verso": "prescrição penal militar: Causas de extinção da punibilidade no CPM são estruturalmente semelhantes às do Direito Penal comum (morte, anistia, graça, indulto, prescrição). Prazos de prescrição penal militar seguem tabela própria do CPM, que pode diferir dos prazos do Código Penal comum — não presumir igualdade automática. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Extinção da punibilidade no Direito Penal Militar",
@@ -7746,6 +7910,12 @@ export const direitoPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

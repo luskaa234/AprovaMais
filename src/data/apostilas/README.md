@@ -1,45 +1,54 @@
 # Apostilas - Biblioteca VemAprovar
 
-## Modulos disponiveis (38 apostilas)
+## Modulos disponiveis (47 apostilas)
 
 1. Portugues PMMA - Ortografia e Morfologia
 2. Portugues PMMA - Interpretacao
 3. Portugues PMMA - Sintaxe
-4. Direito Penal - Parte Geral
-5. Direito Processual Penal
-6. Direito Processual Civil
-7. Direito Processual do Trabalho
-8. Direito Processual Penal Militar
-9. Direitos Humanos
-10. Legislacao Penal Especial
-11. Legislacao Institucional PMMA
-12. Legislacao Institucional PMMA Avancada
-13. Direito Administrativo
-14. Direito Constitucional
-15. Direito Civil
-16. Direito do Trabalho
-17. Direito Tributario
-18. Etica Profissional OAB
-19. Direito Empresarial
-20. Direito do Consumidor
-21. ECA
-22. Direito Ambiental
-23. Filosofia do Direito
-24. Direito Previdenciario
-25. Direito Financeiro
-26. Direito Eleitoral
-27. Direito Internacional
-28. Direito Digital, LGPD e Crimes Ciberneticos
-29. Criminologia e Seguranca Publica Avancada
-30. CTB - Codigo de Transito Brasileiro
-31. Direito Penal Militar
-32. Atualidades
-33. Etica
-34. Informatica
-35. Matematica Basica
-36. Raciocinio Logico
-37. Redacao
-38. TAF
+4. Portugues Avancado
+5. Direito Penal - Parte Geral
+6. Direito Penal - Parte Geral Avancado
+7. Direito Processual Penal
+8. Direito Processual Civil
+9. Direito Processual do Trabalho
+10. Direito Processual Penal Militar
+11. Direitos Humanos
+12. Direitos Humanos Avancado
+13. Legislacao Penal Especial
+14. Legislacao Institucional PMMA
+15. Legislacao Institucional PMMA Avancada
+16. Direito Administrativo
+17. Direito Administrativo Avancado
+18. Direito Constitucional
+19. Direito Constitucional Avancado
+20. Direito Civil
+21. Direito do Trabalho
+22. Direito Tributario
+23. Etica Profissional OAB
+24. Direito Empresarial
+25. Direito do Consumidor
+26. ECA
+27. Direito Ambiental
+28. Filosofia do Direito
+29. Direito Previdenciario
+30. Direito Financeiro
+31. Direito Eleitoral
+32. Direito Internacional
+33. Direito Digital, LGPD e Crimes Ciberneticos
+34. Criminologia e Seguranca Publica Avancada
+35. CTB - Codigo de Transito Brasileiro
+36. Direito Penal Militar
+37. Atualidades
+38. Atualidades Avancada
+39. Etica
+40. Informatica
+41. Informatica Avancada
+42. Matematica Basica
+43. Matematica e Raciocinio Logico Avancado
+44. Raciocinio Logico
+45. Redacao
+46. Redacao para Concursos Policiais
+47. TAF
 
 ## Estrutura dos arquivos
 

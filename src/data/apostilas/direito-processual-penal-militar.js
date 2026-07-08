@@ -172,6 +172,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Inquérito Policial Militar (IPM): natureza e procedimento em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -408,6 +413,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Inquérito Policial Militar (IPM): natureza e procedimento em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -586,8 +596,9 @@ export const direitoProcessualPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: IPM",
-        "verso": "Explique IPM dentro do tema Inquérito Policial Militar (IPM): natureza e procedimento.",
-        "nivel": "conceito"
+        "verso": "IPM: IPM apura crime militar e autoria — escrito, sigiloso (relativo), indisponível, inquisitivo e dispensável, como o inquérito comum. Presidido por oficial (encarregado do IPM), não por delegado de polícia civil — diferença estrutural chave. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Inquérito Policial Militar (IPM): natureza e procedimento",
@@ -781,6 +792,12 @@ export const direitoProcessualPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -946,6 +963,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Ação penal militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1182,6 +1204,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Ação penal militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1360,8 +1387,9 @@ export const direitoProcessualPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: ação penal pública militar",
-        "verso": "Explique ação penal pública militar dentro do tema Ação penal militar.",
-        "nivel": "conceito"
+        "verso": "ação penal pública militar: Ação penal militar é sempre pública incondicionada — não existe ação penal privada ou condicionada no âmbito militar. Ministério Público Militar (da União) atua perante a Justiça Militar da União (Forças Armadas); crimes de PM estadual são de competência do MP estadual. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Ação penal militar",
@@ -1554,6 +1582,12 @@ export const direitoProcessualPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1719,6 +1753,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Competência da Justiça Militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1955,6 +1994,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Competência da Justiça Militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2133,8 +2177,9 @@ export const direitoProcessualPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: competência da Justiça Militar",
-        "verso": "Explique competência da Justiça Militar dentro do tema Competência da Justiça Militar.",
-        "nivel": "conceito"
+        "verso": "competência da Justiça Militar: Justiça Militar julga crimes militares praticados por militares, mas com restrições importantes quanto a vítimas civis. Homicídio doloso de militar contra civil foi deslocado para a Justiça comum (Tribunal do Júri), não mais julgado pela Justiça Militar. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Competência da Justiça Militar",
@@ -2327,6 +2372,12 @@ export const direitoProcessualPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2492,6 +2543,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Polícia judiciária militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2728,6 +2784,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Polícia judiciária militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2906,8 +2967,9 @@ export const direitoProcessualPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: polícia judiciária militar",
-        "verso": "Explique polícia judiciária militar dentro do tema Polícia judiciária militar.",
-        "nivel": "conceito"
+        "verso": "polícia judiciária militar: Polícia judiciária militar é exercida por autoridades militares (comandantes, chefes de unidade), não por polícia civil especializada. Autoridade militar competente (em regra, comandante da unidade) determina instauração do IPM e designa o encarregado. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Polícia judiciária militar",
@@ -3100,6 +3162,12 @@ export const direitoProcessualPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3265,6 +3333,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Prisões no processo penal militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3501,6 +3574,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Prisões no processo penal militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3679,8 +3757,9 @@ export const direitoProcessualPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: prisão em flagrante militar",
-        "verso": "Explique prisão em flagrante militar dentro do tema Prisões no processo penal militar.",
-        "nivel": "conceito"
+        "verso": "prisão em flagrante militar: Prisão em flagrante e preventiva no processo militar seguem lógica semelhante à já estudada no processo comum, com adaptações específicas. Menagem é instituto peculiar: prisão em área delimitada (unidade, residência), sem rigor de cela comum, para hipóteses específicas do CPPM. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Prisões no processo penal militar",
@@ -3874,6 +3953,12 @@ export const direitoProcessualPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4039,6 +4124,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Conselho de Justiça: Especial e Permanente em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4275,6 +4365,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Conselho de Justiça: Especial e Permanente em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4453,8 +4548,9 @@ export const direitoProcessualPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: Conselho Especial de Justiça",
-        "verso": "Explique Conselho Especial de Justiça dentro do tema Conselho de Justiça: Especial e Permanente.",
-        "nivel": "conceito"
+        "verso": "Conselho Especial de Justiça: Conselho de Justiça: juiz togado + oficiais militares (juízes militares temporários) — julgamento colegiado. Conselho Especial de Justiça: formado especificamente para processos contra oficiais, dissolvido ao final do julgamento. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Conselho de Justiça: Especial e Permanente",
@@ -4648,6 +4744,12 @@ export const direitoProcessualPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4813,6 +4915,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Processo ordinário militar: fases em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5049,6 +5156,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Processo ordinário militar: fases em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5227,8 +5339,9 @@ export const direitoProcessualPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: denúncia militar",
-        "verso": "Explique denúncia militar dentro do tema Processo ordinário militar: fases.",
-        "nivel": "conceito"
+        "verso": "denúncia militar: Processo se inicia com recebimento da denúncia, seguido de citação e defesa prévia — contraditório e ampla defesa desde o início. Instrução criminal militar: interrogatório, oitiva de testemunhas, perante o Conselho de Justiça competente. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Processo ordinário militar: fases",
@@ -5422,6 +5535,12 @@ export const direitoProcessualPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5587,6 +5706,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Provas no processo penal militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5823,6 +5947,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Provas no processo penal militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6001,8 +6130,9 @@ export const direitoProcessualPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: prova pericial militar",
-        "verso": "Explique prova pericial militar dentro do tema Provas no processo penal militar.",
-        "nivel": "conceito"
+        "verso": "prova pericial militar: Princípios gerais de prova (vedação a provas ilícitas, contraditório, livre convencimento) se aplicam integralmente ao processo militar. Prova pericial pode ser realizada por peritos militares ou civis, conforme disponibilidade e natureza da perícia. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Provas no processo penal militar",
@@ -6196,6 +6326,12 @@ export const direitoProcessualPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6361,6 +6497,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Recursos no processo penal militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6597,6 +6738,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Recursos no processo penal militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6775,8 +6921,9 @@ export const direitoProcessualPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: apelação militar",
-        "verso": "Explique apelação militar dentro do tema Recursos no processo penal militar.",
-        "nivel": "conceito"
+        "verso": "apelação militar: Apelação é o principal recurso contra sentença do Conselho de Justiça, com lógica semelhante à apelação do processo comum. Segunda instância: Superior Tribunal Militar (crimes militares federais) ou Tribunal de Justiça/TJM (crimes militares estaduais). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Recursos no processo penal militar",
@@ -6970,6 +7117,12 @@ export const direitoProcessualPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7135,6 +7288,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Execução penal militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7371,6 +7529,11 @@ export const direitoProcessualPenalMilitar = [
           "seErrar": "A IA deve explicar Execução penal militar em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7549,8 +7712,9 @@ export const direitoProcessualPenalMilitar = [
       },
       {
         "frente": "Palavra-chave: estabelecimento penal militar",
-        "verso": "Explique estabelecimento penal militar dentro do tema Execução penal militar.",
-        "nivel": "conceito"
+        "verso": "estabelecimento penal militar: Execução penal militar segue princípios semelhantes à comum, mas cumprida em estabelecimento penal militar específico. Condenação militar pode gerar perda de posto/patente (oficiais) ou graduação (praças), efeito específico sem equivalente direto na execução comum. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Execução penal militar",
@@ -7743,6 +7907,12 @@ export const direitoProcessualPenalMilitar = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

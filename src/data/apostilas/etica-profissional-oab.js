@@ -248,6 +248,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -364,6 +369,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -426,6 +436,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -522,7 +537,13 @@ export const eticaProfissionalOab = [
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "atividades-privativas-inscricao-incompatibilidades-e-impedimentos",
@@ -762,6 +783,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -878,6 +904,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -940,6 +971,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1036,7 +1072,13 @@ export const eticaProfissionalOab = [
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "direitos-e-prerrogativas-do-advogado",
@@ -1276,6 +1318,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1392,6 +1439,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1454,6 +1506,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1550,7 +1607,13 @@ export const eticaProfissionalOab = [
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "relacao-com-o-cliente-mandato-renuncia-substabelecimento-e-prestacao-de-contas",
@@ -1790,6 +1853,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1906,6 +1974,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1968,6 +2041,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2064,7 +2142,13 @@ export const eticaProfissionalOab = [
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "sigilo-profissional-e-conflito-de-interesses",
@@ -2304,6 +2388,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2420,6 +2509,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2482,6 +2576,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2578,7 +2677,13 @@ export const eticaProfissionalOab = [
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "honorarios-advocaticios-contrato-sucumbencia-quota-litis-e-cobranca",
@@ -2818,6 +2923,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2934,6 +3044,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2996,6 +3111,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3092,7 +3212,13 @@ export const eticaProfissionalOab = [
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "publicidade-profissional-marketing-juridico-e-captacao-indevida",
@@ -3332,6 +3458,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3448,6 +3579,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3510,6 +3646,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3607,7 +3748,13 @@ export const eticaProfissionalOab = [
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "infracoes-disciplinares-e-sancoes",
@@ -3848,6 +3995,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3964,6 +4116,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4026,6 +4183,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4123,7 +4285,13 @@ export const eticaProfissionalOab = [
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "processo-disciplinar-na-oab",
@@ -4363,6 +4531,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4479,6 +4652,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4541,6 +4719,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4638,7 +4821,13 @@ export const eticaProfissionalOab = [
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "sociedade-de-advogados-advogado-empregado-e-advocacia-publica",
@@ -4878,6 +5067,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4994,6 +5188,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5056,6 +5255,11 @@ export const eticaProfissionalOab = [
           "seErrar": "Explicar a questão do tipo multipla escolha com exemplo simples, apontar a palavra que induziu o erro e gerar uma questão irmã no padrão FGV/OAB.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5153,7 +5357,13 @@ export const eticaProfissionalOab = [
           "seAcertarComSeguranca": "Liberar questão mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   }
 ];
 

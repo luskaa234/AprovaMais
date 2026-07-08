@@ -171,6 +171,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar LINDB: vigência e aplicação da lei no tempo e no espaço em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -407,6 +412,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar LINDB: vigência e aplicação da lei no tempo e no espaço em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -585,8 +595,9 @@ export const direitoCivil = [
       },
       {
         "frente": "Palavra-chave: vacatio legis",
-        "verso": "Explique vacatio legis dentro do tema LINDB: vigência e aplicação da lei no tempo e no espaço.",
-        "nivel": "conceito"
+        "verso": "vacatio legis: Vacatio legis padrão: 45 dias entre publicação e vigência, salvo disposição em contrário na própria lei. Repristinação não é automática no Brasil — precisa de previsão expressa na lei nova para a lei revogada voltar a vigorar. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em LINDB: vigência e aplicação da lei no tempo e no espaço",
@@ -779,6 +790,12 @@ export const direitoCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -943,6 +960,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar Pessoas naturais: personalidade e capacidade em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1179,6 +1201,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar Pessoas naturais: personalidade e capacidade em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1357,8 +1384,9 @@ export const direitoCivil = [
       },
       {
         "frente": "Palavra-chave: personalidade jurídica",
-        "verso": "Explique personalidade jurídica dentro do tema Pessoas naturais: personalidade e capacidade.",
-        "nivel": "conceito"
+        "verso": "personalidade jurídica: Personalidade começa do nascimento com vida; nascituro tem direitos resguardados desde a concepção. Capacidade de direito: todos têm, desde o nascimento. Capacidade de fato: nem todos têm plenamente. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Pessoas naturais: personalidade e capacidade",
@@ -1551,6 +1579,12 @@ export const direitoCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1715,6 +1749,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar Pessoas jurídicas e domicílio em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1951,6 +1990,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar Pessoas jurídicas e domicílio em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2129,8 +2173,9 @@ export const direitoCivil = [
       },
       {
         "frente": "Palavra-chave: desconsideração da personalidade jurídica",
-        "verso": "Explique desconsideração da personalidade jurídica dentro do tema Pessoas jurídicas e domicílio.",
-        "nivel": "conceito"
+        "verso": "desconsideração da personalidade jurídica: Pessoas jurídicas de direito privado: associações (sem fins econômicos), sociedades (fins econômicos), fundações (patrimônio personalizado com finalidade específica). Desconsideração da personalidade jurídica exige comprovação de abuso (desvio de finalidade ou confusão patrimonial), não apenas inadimplência. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Pessoas jurídicas e domicílio",
@@ -2323,6 +2368,12 @@ export const direitoCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2487,6 +2538,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar Bens e fatos jurídicos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2723,6 +2779,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar Bens e fatos jurídicos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2901,8 +2962,9 @@ export const direitoCivil = [
       },
       {
         "frente": "Palavra-chave: bem fungível",
-        "verso": "Explique bem fungível dentro do tema Bens e fatos jurídicos.",
-        "nivel": "conceito"
+        "verso": "bem fungível: Bens: móvel/imóvel (mobilidade), fungível/infungível (substituição possível), divisível/indivisível (fracionamento sem perda de valor). Fato jurídico (acontecimento com efeito jurídico) → ato jurídico (efeitos definidos por lei) → negócio jurídico (efeitos escolhidos pelas partes). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Bens e fatos jurídicos",
@@ -3095,6 +3157,12 @@ export const direitoCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3259,6 +3327,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar Prescrição e decadência em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3495,6 +3568,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar Prescrição e decadência em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3673,8 +3751,9 @@ export const direitoCivil = [
       },
       {
         "frente": "Palavra-chave: prescrição extintiva",
-        "verso": "Explique prescrição extintiva dentro do tema Prescrição e decadência.",
-        "nivel": "conceito"
+        "verso": "prescrição extintiva: Prescrição: perda da pretensão de exigir prestação (direito a uma conduta alheia). Decadência: perda de direito potestativo (exercício unilateral). Prazo geral de prescrição: 10 anos (art. 205); prazos especiais no art. 206 (1 a 5 anos, conforme a natureza). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Prescrição e decadência",
@@ -3867,6 +3946,12 @@ export const direitoCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4031,6 +4116,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar Obrigações: modalidades e efeitos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4267,6 +4357,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar Obrigações: modalidades e efeitos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4445,8 +4540,9 @@ export const direitoCivil = [
       },
       {
         "frente": "Palavra-chave: obrigação de dar",
-        "verso": "Explique obrigação de dar dentro do tema Obrigações: modalidades e efeitos.",
-        "nivel": "conceito"
+        "verso": "obrigação de dar: Obrigações de dar, fazer ou não fazer — cada uma com regras específicas de execução e conversão em perdas e danos. Solidariedade não se presume — resulta de lei ou vontade das partes; cada solidário responde pela dívida toda. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Obrigações: modalidades e efeitos",
@@ -4639,6 +4735,12 @@ export const direitoCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4803,6 +4905,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar Contratos: princípios e formação em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5039,6 +5146,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar Contratos: princípios e formação em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5217,8 +5329,9 @@ export const direitoCivil = [
       },
       {
         "frente": "Palavra-chave: função social do contrato",
-        "verso": "Explique função social do contrato dentro do tema Contratos: princípios e formação.",
-        "nivel": "conceito"
+        "verso": "função social do contrato: Função social do contrato: interesse além das partes. Boa-fé objetiva: padrão de conduta leal, gera deveres anexos. Descumprimento de dever anexo (informação, cooperação, cuidado) pode gerar responsabilidade mesmo sem violar cláusula expressa. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Contratos: princípios e formação",
@@ -5411,6 +5524,12 @@ export const direitoCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5575,6 +5694,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar Responsabilidade civil: pressupostos e espécies em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5811,6 +5935,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar Responsabilidade civil: pressupostos e espécies em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5989,8 +6118,9 @@ export const direitoCivil = [
       },
       {
         "frente": "Palavra-chave: responsabilidade subjetiva",
-        "verso": "Explique responsabilidade subjetiva dentro do tema Responsabilidade civil: pressupostos e espécies.",
-        "nivel": "conceito"
+        "verso": "responsabilidade subjetiva: Responsabilidade subjetiva: conduta + culpa + dano + nexo causal. Responsabilidade objetiva: dispensa a culpa (conduta + dano + nexo causal). Teoria do risco da atividade (art. 927, parágrafo único, CC): responsabilidade objetiva quando a atividade normalmente implica risco a terceiros. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Responsabilidade civil: pressupostos e espécies",
@@ -6183,6 +6313,12 @@ export const direitoCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6347,6 +6483,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar Direito de família: casamento e união estável em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6583,6 +6724,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar Direito de família: casamento e união estável em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6761,8 +6907,9 @@ export const direitoCivil = [
       },
       {
         "frente": "Palavra-chave: regime de bens",
-        "verso": "Explique regime de bens dentro do tema Direito de família: casamento e união estável.",
-        "nivel": "conceito"
+        "verso": "regime de bens: Casamento é ato solene com habilitação prévia; união estável é situação de fato reconhecida, sem formalidade de celebração. Comunhão parcial é o regime legal supletivo — comunica bens adquiridos onerosamente na união, mantém particulares os anteriores/herdados/doados. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Direito de família: casamento e união estável",
@@ -6955,6 +7102,12 @@ export const direitoCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7119,6 +7272,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar Sucessões: herança e testamento em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7355,6 +7513,11 @@ export const direitoCivil = [
           "seErrar": "A IA deve explicar Sucessões: herança e testamento em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7533,8 +7696,9 @@ export const direitoCivil = [
       },
       {
         "frente": "Palavra-chave: ordem de vocação hereditária",
-        "verso": "Explique ordem de vocação hereditária dentro do tema Sucessões: herança e testamento.",
-        "nivel": "conceito"
+        "verso": "ordem de vocação hereditária: Sucessão legítima: lei determina herdeiros. Sucessão testamentária: falecido dispõe por testamento, respeitados limites legais. Ordem de vocação hereditária: descendentes → ascendentes → cônjuge/companheiro (isolado) → colaterais até 4º grau. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Sucessões: herança e testamento",
@@ -7727,6 +7891,12 @@ export const direitoCivil = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

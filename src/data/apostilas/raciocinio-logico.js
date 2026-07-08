@@ -172,6 +172,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Proposições e conectivos lógicos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -408,6 +413,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Proposições e conectivos lógicos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -586,8 +596,9 @@ export const raciocinioLogico = [
       },
       {
         "frente": "Palavra-chave: proposição",
-        "verso": "Explique proposição dentro do tema Proposições e conectivos lógicos.",
-        "nivel": "conceito"
+        "verso": "proposição: Proposição: sentença declarativa com valor lógico único (V ou F) — nunca frases exclamativas, interrogativas ou de opinião subjetiva. Proposição simples: uma ideia, sem conectivo. Proposição composta: duas ou mais proposições ligadas por conectivo. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Proposições e conectivos lógicos",
@@ -781,6 +792,12 @@ export const raciocinioLogico = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -946,6 +963,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Tabela-verdade em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1182,6 +1204,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Tabela-verdade em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1360,8 +1387,9 @@ export const raciocinioLogico = [
       },
       {
         "frente": "Palavra-chave: tabela-verdade",
-        "verso": "Explique tabela-verdade dentro do tema Tabela-verdade.",
-        "nivel": "conceito"
+        "verso": "tabela-verdade: Conjunção (∧, 'e'): só V se ambas V. Disjunção (∨, 'ou'): só F se ambas F. Condicional (→): só é F quando antecedente V e consequente F — em qualquer outro caso, é V. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Tabela-verdade",
@@ -1555,6 +1583,12 @@ export const raciocinioLogico = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1720,6 +1754,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Equivalências lógicas e negação de proposições compostas em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1956,6 +1995,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Equivalências lógicas e negação de proposições compostas em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2134,8 +2178,9 @@ export const raciocinioLogico = [
       },
       {
         "frente": "Palavra-chave: negação de conjunção",
-        "verso": "Explique negação de conjunção dentro do tema Equivalências lógicas e negação de proposições compostas.",
-        "nivel": "conceito"
+        "verso": "negação de conjunção: Negação de 'p e q' = 'não p ou não q' (De Morgan). Negação de 'p ou q' = 'não p e não q' (De Morgan). Negação de 'se p então q' = 'p e não q' — mantém o antecedente, nega só o consequente. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Equivalências lógicas e negação de proposições compostas",
@@ -2329,6 +2374,12 @@ export const raciocinioLogico = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2494,6 +2545,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Argumentos válidos e silogismos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2730,6 +2786,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Argumentos válidos e silogismos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2908,8 +2969,9 @@ export const raciocinioLogico = [
       },
       {
         "frente": "Palavra-chave: modus ponens",
-        "verso": "Explique modus ponens dentro do tema Argumentos válidos e silogismos.",
-        "nivel": "conceito"
+        "verso": "modus ponens: Argumento válido: impossível ter todas as premissas verdadeiras e a conclusão falsa — é sobre estrutura, não sobre verdade factual. Modus ponens: (p→q), p ⊢ q. Modus tollens: (p→q), ~q ⊢ ~p. Ambos válidos. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Argumentos válidos e silogismos",
@@ -3103,6 +3165,12 @@ export const raciocinioLogico = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3268,6 +3336,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Diagramas lógicos e conjuntos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3504,6 +3577,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Diagramas lógicos e conjuntos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3682,8 +3760,9 @@ export const raciocinioLogico = [
       },
       {
         "frente": "Palavra-chave: diagrama de Venn",
-        "verso": "Explique diagrama de Venn dentro do tema Diagramas lógicos e conjuntos.",
-        "nivel": "conceito"
+        "verso": "diagrama de Venn: Fórmula de dois conjuntos: n(A∪B) = n(A) + n(B) - n(A∩B). Fórmula de três conjuntos soma os três, subtrai as interseções duplas, soma de volta a tripla interseção. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Diagramas lógicos e conjuntos",
@@ -3877,6 +3956,12 @@ export const raciocinioLogico = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4042,6 +4127,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Sequências lógicas: números e figuras em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4278,6 +4368,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Sequências lógicas: números e figuras em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4456,8 +4551,9 @@ export const raciocinioLogico = [
       },
       {
         "frente": "Palavra-chave: sequência numérica",
-        "verso": "Explique sequência numérica dentro do tema Sequências lógicas: números e figuras.",
-        "nivel": "conceito"
+        "verso": "sequência numérica: Teste primeiro a diferença constante (PA) e a razão constante (PG) entre termos consecutivos. Se não for constante, teste a diferença das diferenças, ou padrões alternados (posições ímpares x pares). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Sequências lógicas: números e figuras",
@@ -4651,6 +4747,12 @@ export const raciocinioLogico = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4816,6 +4918,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Problemas de verdades e mentiras em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5052,6 +5159,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Problemas de verdades e mentiras em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5230,8 +5342,9 @@ export const raciocinioLogico = [
       },
       {
         "frente": "Palavra-chave: testemunha que sempre mente",
-        "verso": "Explique testemunha que sempre mente dentro do tema Problemas de verdades e mentiras.",
-        "nivel": "conceito"
+        "verso": "testemunha que sempre mente: Cada personagem é sempre verdadeiro ou sempre mentiroso — nunca varia dentro do mesmo problema. Técnica de resolução: suponha uma hipótese, teste a consistência de todas as afirmações; se gerar contradição, teste a hipótese oposta. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Problemas de verdades e mentiras",
@@ -5425,6 +5538,12 @@ export const raciocinioLogico = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5590,6 +5709,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Problemas com calendários e datas em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5826,6 +5950,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Problemas com calendários e datas em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6004,8 +6133,9 @@ export const raciocinioLogico = [
       },
       {
         "frente": "Palavra-chave: dia da semana",
-        "verso": "Explique dia da semana dentro do tema Problemas com calendários e datas.",
-        "nivel": "conceito"
+        "verso": "dia da semana: A semana se repete a cada 7 dias — calcule a diferença total de dias entre as datas e tire o resto da divisão por 7. Resto 0 = mesmo dia da semana; resto r = conte r dias a partir da referência, no sentido correto (futuro ou passado). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Problemas com calendários e datas",
@@ -6199,6 +6329,12 @@ export const raciocinioLogico = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6364,6 +6500,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Associação lógica: quadros de relacionamento em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6600,6 +6741,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Associação lógica: quadros de relacionamento em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6778,8 +6924,9 @@ export const raciocinioLogico = [
       },
       {
         "frente": "Palavra-chave: tabela cruzada",
-        "verso": "Explique tabela cruzada dentro do tema Associação lógica: quadros de relacionamento.",
-        "nivel": "conceito"
+        "verso": "tabela cruzada: Tabela cruzada: linhas = um conjunto, colunas = outro conjunto — marque X (impossível) e ✓ (confirmado) a cada pista. Cada associação é um-para-um: se uma pessoa é confirmada com uma característica, essa característica é eliminada para todas as demais pessoas. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Associação lógica: quadros de relacionamento",
@@ -6973,6 +7120,12 @@ export const raciocinioLogico = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7138,6 +7291,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Análise combinatória e probabilidade lógica básica em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7374,6 +7532,11 @@ export const raciocinioLogico = [
           "seErrar": "A IA deve explicar Análise combinatória e probabilidade lógica básica em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7552,8 +7715,9 @@ export const raciocinioLogico = [
       },
       {
         "frente": "Palavra-chave: princípio fundamental da contagem",
-        "verso": "Explique princípio fundamental da contagem dentro do tema Análise combinatória e probabilidade lógica básica.",
-        "nivel": "conceito"
+        "verso": "princípio fundamental da contagem: Princípio fundamental da contagem: multiplique o número de possibilidades de cada etapa independente. Arranjo: ordem importa (pódio, senha). Combinação: ordem não importa (formar grupo/equipe). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Análise combinatória e probabilidade lógica básica",
@@ -7747,6 +7911,12 @@ export const raciocinioLogico = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

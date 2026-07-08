@@ -251,6 +251,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -370,6 +375,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -433,6 +443,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -530,7 +545,13 @@ export const direitoEmpresarial = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "registro-publico-de-empresas-mercantis-e-escrituracao",
@@ -773,6 +794,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -892,6 +918,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -955,6 +986,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1052,7 +1088,13 @@ export const direitoEmpresarial = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "estabelecimento-empresarial-aviamento-e-ponto-comercial",
@@ -1295,6 +1337,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1414,6 +1461,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1477,6 +1529,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1574,7 +1631,13 @@ export const direitoEmpresarial = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "nome-empresarial-marca-e-propriedade-industrial",
@@ -1817,6 +1880,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1936,6 +2004,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1999,6 +2072,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2096,7 +2174,13 @@ export const direitoEmpresarial = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "sociedades-empresarias-personalidade-juridica-e-desconsideracao",
@@ -2339,6 +2423,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2458,6 +2547,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2521,6 +2615,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2618,7 +2717,13 @@ export const direitoEmpresarial = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "sociedade-limitada-quotas-administracao-e-responsabilidade",
@@ -2861,6 +2966,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2980,6 +3090,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3043,6 +3158,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3140,7 +3260,13 @@ export const direitoEmpresarial = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "sociedade-anonima-acoes-orgaos-sociais-e-mercado-de-capitais",
@@ -3383,6 +3509,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3502,6 +3633,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3565,6 +3701,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3664,7 +3805,13 @@ export const direitoEmpresarial = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "titulos-de-credito-principios-circulacao-e-cobranca",
@@ -3909,6 +4056,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4028,6 +4180,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4091,6 +4248,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4188,7 +4350,13 @@ export const direitoEmpresarial = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "contratos-empresariais-e-relacoes-de-mercado",
@@ -4431,6 +4599,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4550,6 +4723,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4613,6 +4791,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4712,7 +4895,13 @@ export const direitoEmpresarial = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "recuperacao-judicial-recuperacao-extrajudicial-e-falencia",
@@ -4955,6 +5144,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5074,6 +5268,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5137,6 +5336,11 @@ export const direitoEmpresarial = [
           "seErrar": "Explicar a questão do tipo multipla escolha com analogia simples, destacar a palavra que mudou o resultado e gerar questão irmã no padrão OAB/FGV/concursos.",
           "seAcertarComDuvida": "Pedir ao aluno que justifique em uma frase, corrigir a justificativa e indicar um flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5234,7 +5438,13 @@ export const direitoEmpresarial = [
           "seAcertarComSeguranca": "Liberar caso prático mais difícil, pedir comparação com instituto parecido e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   }
 ];
 

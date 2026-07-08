@@ -241,6 +241,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -326,6 +331,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -386,6 +396,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -471,6 +486,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -530,7 +550,13 @@ export const direitoTrabalho = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "relacao-de-trabalho-e-relacao-de-emprego",
@@ -765,6 +791,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -850,6 +881,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -910,6 +946,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -995,6 +1036,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1054,7 +1100,13 @@ export const direitoTrabalho = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "empregado-empregador-e-grupo-economico",
@@ -1289,6 +1341,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1374,6 +1431,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1434,6 +1496,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1519,6 +1586,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1578,7 +1650,13 @@ export const direitoTrabalho = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "contrato-individual-de-trabalho",
@@ -1813,6 +1891,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1898,6 +1981,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1958,6 +2046,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2043,6 +2136,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2102,7 +2200,13 @@ export const direitoTrabalho = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "jornada-de-trabalho-e-horas-extras",
@@ -2337,6 +2441,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2422,6 +2531,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2482,6 +2596,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2567,6 +2686,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2626,7 +2750,13 @@ export const direitoTrabalho = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "salario-remuneracao-e-adicionais",
@@ -2861,6 +2991,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2946,6 +3081,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3006,6 +3146,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3091,6 +3236,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3150,7 +3300,13 @@ export const direitoTrabalho = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "ferias-13-salario-e-repouso-semanal-remunerado",
@@ -3385,6 +3541,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3470,6 +3631,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3530,6 +3696,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3615,6 +3786,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3674,7 +3850,13 @@ export const direitoTrabalho = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "alteracao-suspensao-e-interrupcao-do-contrato",
@@ -3909,6 +4091,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3994,6 +4181,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4054,6 +4246,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4139,6 +4336,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4198,7 +4400,13 @@ export const direitoTrabalho = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "rescisao-do-contrato-de-trabalho",
@@ -4433,6 +4641,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4518,6 +4731,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4578,6 +4796,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4663,6 +4886,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4722,7 +4950,13 @@ export const direitoTrabalho = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "fgts-estabilidade-e-direitos-constitucionais-trabalhistas",
@@ -4957,6 +5191,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5042,6 +5281,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5102,6 +5346,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5187,6 +5436,11 @@ export const direitoTrabalho = [
           "seErrar": "Explicar a questão do tipo multipla escolha em linguagem simples, apontar a palavra que induziu o erro e gerar uma questão irmã.",
           "seAcertarComDuvida": "Pedir justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5246,7 +5500,13 @@ export const direitoTrabalho = [
           "seAcertarComSeguranca": "Liberar questão mais difícil e programar revisão em 7 dias."
         }
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   }
 ];
 

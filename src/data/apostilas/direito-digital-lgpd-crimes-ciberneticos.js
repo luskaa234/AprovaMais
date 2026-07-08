@@ -159,7 +159,7 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
         "comandoBanca": "assinale_a_correta",
         "enunciado": "Sobre Direito Digital: conceito, fontes e lógica de prova, assinale a alternativa correta.",
         "alternativas": [
-          "Direito Digital não é uma lei única: é o uso de normas constitucionais, civis, penais, consumeristas, trabalhistas e administrativas para resolver conflitos criados ou intensificados pela tecnologia.",
+          "Direito Digital não é uma lei única: é o uso de normas constitucionais, civis, penais, consumeristas, trabalhistas e administrativas para resolver conflitos criados ou in.",
           "Todo fato ocorrido pela internet é automaticamente crime, sem necessidade de análise de tipo penal ou prova.",
           "A simples existência de tecnologia afasta a aplicação das normas constitucionais e civis tradicionais.",
           "Em ambiente digital, direitos fundamentais deixam de produzir efeitos porque tudo depende apenas de termos de uso.",
@@ -187,6 +187,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza e ignora tipicidade, responsabilidade civil, administrativa e prova.",
+          "Normas tradicionais continuam aplicáveis a fatos digitais.",
+          "Termos de uso não eliminam Constituição, lei, controle judicial e direitos fundamentais.",
+          "A classificação do instituto é o primeiro passo da solução."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -314,6 +327,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -417,7 +443,13 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
         }
       }
     ],
-    "proximoTitulo": "Marco Civil da Internet: princípios, direitos dos usuários e registros"
+    "proximoTitulo": "Marco Civil da Internet: princípios, direitos dos usuários e registros",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "marco-civil-internet",
@@ -568,7 +600,7 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
         "comandoBanca": "assinale_a_correta",
         "enunciado": "Sobre Marco Civil da Internet: princípios, direitos dos usuários e registros, assinale a alternativa correta.",
         "alternativas": [
-          "O Marco Civil da Internet organiza princípios, direitos e deveres para o uso da internet no Brasil, especialmente privacidade, liberdade de expressão, neutralidade de rede e guarda de registros.",
+          "O Marco Civil da Internet organiza princípios, direitos e deveres para o uso da internet no Brasil, especialmente privacidade, liberdade de expressão, neutralidade de red.",
           "Todo fato ocorrido pela internet é automaticamente crime, sem necessidade de análise de tipo penal ou prova.",
           "A simples existência de tecnologia afasta a aplicação das normas constitucionais e civis tradicionais.",
           "Em ambiente digital, direitos fundamentais deixam de produzir efeitos porque tudo depende apenas de termos de uso.",
@@ -596,6 +628,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza e ignora tipicidade, responsabilidade civil, administrativa e prova.",
+          "Normas tradicionais continuam aplicáveis a fatos digitais.",
+          "Termos de uso não eliminam Constituição, lei, controle judicial e direitos fundamentais.",
+          "A classificação do instituto é o primeiro passo da solução."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -723,6 +768,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -826,7 +884,13 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
         }
       }
     ],
-    "proximoTitulo": "LGPD: dados pessoais, dados sensíveis, agentes e princípios"
+    "proximoTitulo": "LGPD: dados pessoais, dados sensíveis, agentes e princípios",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "lgpd-conceitos-principios",
@@ -1006,6 +1070,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza e ignora tipicidade, responsabilidade civil, administrativa e prova.",
+          "Normas tradicionais continuam aplicáveis a fatos digitais.",
+          "Termos de uso não eliminam Constituição, lei, controle judicial e direitos fundamentais.",
+          "A classificação do instituto é o primeiro passo da solução."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1133,6 +1210,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1236,7 +1326,13 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
         }
       }
     ],
-    "proximoTitulo": "Bases legais, consentimento e direitos do titular"
+    "proximoTitulo": "Bases legais, consentimento e direitos do titular",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "bases-legais-direitos-titular",
@@ -1387,7 +1483,7 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
         "comandoBanca": "assinale_a_correta",
         "enunciado": "Sobre Bases legais, consentimento e direitos do titular, assinale a alternativa correta.",
         "alternativas": [
-          "Na LGPD, consentimento é apenas uma das bases legais; o tratamento de dados pode se apoiar em outras hipóteses previstas em lei, e o titular tem direitos de acesso, correção, eliminação, portabilidade, informação e oposição.",
+          "Na LGPD, consentimento é apenas uma das bases legais; outras hipóteses legais podem autorizar o tratamento, e o titular possui direitos sobre seus dados.",
           "Todo fato ocorrido pela internet é automaticamente crime, sem necessidade de análise de tipo penal ou prova.",
           "A simples existência de tecnologia afasta a aplicação das normas constitucionais e civis tradicionais.",
           "Em ambiente digital, direitos fundamentais deixam de produzir efeitos porque tudo depende apenas de termos de uso.",
@@ -1415,6 +1511,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza e ignora tipicidade, responsabilidade civil, administrativa e prova.",
+          "Normas tradicionais continuam aplicáveis a fatos digitais.",
+          "Termos de uso não eliminam Constituição, lei, controle judicial e direitos fundamentais.",
+          "A classificação do instituto é o primeiro passo da solução."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1542,6 +1651,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1645,7 +1767,13 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
         }
       }
     ],
-    "proximoTitulo": "Segurança da informação, incidentes e responsabilidade na LGPD"
+    "proximoTitulo": "Segurança da informação, incidentes e responsabilidade na LGPD",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "seguranca-incidentes-responsabilidade-lgpd",
@@ -1824,6 +1952,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza e ignora tipicidade, responsabilidade civil, administrativa e prova.",
+          "Normas tradicionais continuam aplicáveis a fatos digitais.",
+          "Termos de uso não eliminam Constituição, lei, controle judicial e direitos fundamentais.",
+          "A classificação do instituto é o primeiro passo da solução."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1951,6 +2092,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2054,7 +2208,13 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
         }
       }
     ],
-    "proximoTitulo": "Responsabilidade de plataformas, remoção de conteúdo e liberdade de expressão"
+    "proximoTitulo": "Responsabilidade de plataformas, remoção de conteúdo e liberdade de expressão",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "responsabilidade-plataformas-conteudo",
@@ -2233,6 +2393,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza e ignora tipicidade, responsabilidade civil, administrativa e prova.",
+          "Normas tradicionais continuam aplicáveis a fatos digitais.",
+          "Termos de uso não eliminam Constituição, lei, controle judicial e direitos fundamentais.",
+          "A classificação do instituto é o primeiro passo da solução."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2360,6 +2533,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2463,7 +2649,13 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
         }
       }
     ],
-    "proximoTitulo": "Crimes cibernéticos: invasão de dispositivo, fraude eletrônica e golpes digitais"
+    "proximoTitulo": "Crimes cibernéticos: invasão de dispositivo, fraude eletrônica e golpes digitais",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "crimes-ciberneticos-invasao-fraudes",
@@ -2642,6 +2834,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza e ignora tipicidade, responsabilidade civil, administrativa e prova.",
+          "Normas tradicionais continuam aplicáveis a fatos digitais.",
+          "Termos de uso não eliminam Constituição, lei, controle judicial e direitos fundamentais.",
+          "A classificação do instituto é o primeiro passo da solução."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2769,6 +2974,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2872,7 +3090,13 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
         }
       }
     ],
-    "proximoTitulo": "Crimes contra honra, ameaça, stalking e intimidade no ambiente digital"
+    "proximoTitulo": "Crimes contra honra, ameaça, stalking e intimidade no ambiente digital",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "crimes-honra-ameaca-stalking-intimidade-online",
@@ -3051,6 +3275,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza e ignora tipicidade, responsabilidade civil, administrativa e prova.",
+          "Normas tradicionais continuam aplicáveis a fatos digitais.",
+          "Termos de uso não eliminam Constituição, lei, controle judicial e direitos fundamentais.",
+          "A classificação do instituto é o primeiro passo da solução."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3178,6 +3415,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3281,7 +3531,13 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
         }
       }
     ],
-    "proximoTitulo": "Prova digital, cadeia de custódia, prints, metadados e perícia"
+    "proximoTitulo": "Prova digital, cadeia de custódia, prints, metadados e perícia",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "prova-digital-cadeia-custodia-pericia",
@@ -3460,6 +3716,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza e ignora tipicidade, responsabilidade civil, administrativa e prova.",
+          "Normas tradicionais continuam aplicáveis a fatos digitais.",
+          "Termos de uso não eliminam Constituição, lei, controle judicial e direitos fundamentais.",
+          "A classificação do instituto é o primeiro passo da solução."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3587,6 +3856,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3690,7 +3972,13 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
         }
       }
     ],
-    "proximoTitulo": "IA, algoritmos, governança e segurança cibernética"
+    "proximoTitulo": "IA, algoritmos, governança e segurança cibernética",
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "ia-algoritmos-governanca-ciberseguranca",
@@ -3870,6 +4158,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "Generaliza e ignora tipicidade, responsabilidade civil, administrativa e prova.",
+          "Normas tradicionais continuam aplicáveis a fatos digitais.",
+          "Termos de uso não eliminam Constituição, lei, controle judicial e direitos fundamentais.",
+          "A classificação do instituto é o primeiro passo da solução."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3997,6 +4298,19 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
           "seErrar": "Explicar o ponto em linguagem simples, apontar a palavra do enunciado que induziu o erro e gerar questão irmã com novo caso digital.",
           "seAcertarComDuvida": "Pedir uma justificativa em uma frase e oferecer flashcard de reforço.",
           "seAcertarComSeguranca": "Liberar questão de nível superior e programar revisão em 7 dias."
+        },
+        "gabaritoLetra": "A",
+        "alternativasComentadas": [
+          "Correta: corresponde ao núcleo técnico cobrado no capítulo.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital.",
+          "As demais alternativas estão corretas e refletem a lógica moderna de Direito Digital."
+        ],
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4100,7 +4414,13 @@ export const direitoDigitalLgpdCrimesCiberneticos = [
         }
       }
     ],
-    "proximoTitulo": null
+    "proximoTitulo": null,
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   }
 ];
 

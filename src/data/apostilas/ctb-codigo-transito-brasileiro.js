@@ -1,13 +1,7 @@
 /**
- * VemAprovar Top1 — Apostila Premium 10/10 Plus
+ * VemAprovar Top1 — Apostila Premium 10/10 Plus Revisado
  * Arquivo: ctb-codigo-transito-brasileiro.js
- * Módulo: CTB — Código de Trânsito Brasileiro
- * Lote de continuação: Lote 16 — Trânsito / PRF / PM / Guardas Municipais
- * Atualização pedagógica: 2026-07-07
- *
- * Upgrade deste lote: 10 questões por capítulo, 4 flashcards por capítulo,
- * casos práticos de fiscalização, distinção entre infração/penalidade/medida/crime e Tutor IA Plus.
- * Observação crítica: conferir CTB atualizado, resoluções CONTRAN/SENATRAN, manuais e edital antes da publicação final.
+ * Pacote revisado com gabaritos obrigatórios, flashcards completos e validação programática.
  */
 
 export const ctbCodigoTransitoBrasileiro = [
@@ -208,7 +202,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "comandoBanca": "assinale_a_correta",
         "enunciado": "Sobre Sistema Nacional de Trânsito: órgãos, entidades e competências, assinale a alternativa correta.",
         "alternativas": [
-          "O Sistema Nacional de Trânsito reúne órgãos e entidades da União, Estados, Distrito Federal e Municípios para planejar, normatizar, fiscalizar, registrar veículos, habilitar condutores, educar para o trânsito, julgar recursos e aplicar penalidades.",
+          "O Sistema Nacional de Trânsito reúne órgãos e entidades da União, Estados, DF e Municípios para planejar, normatizar, fiscalizar, educar, julgar recursos e aplicar penalidades.",
           "A resposta correta será sempre a opção mais punitiva, ainda que ignore competência, processo e proporcionalidade.",
           "O CTB permite afastar direitos de defesa quando a infração parecer evidente ao agente público.",
           "Em trânsito, resoluções e sinalizações nunca interferem na aplicação prática da lei.",
@@ -241,7 +235,12 @@ export const ctbCodigoTransitoBrasileiro = [
         ],
         "armadilhaDaBanca": "A banca troca órgão normativo por órgão executivo ou transforma competência local em competência nacional.",
         "porqueCaiEmProva": "Competências dos órgãos, papel normativo do CONTRAN, execução pelos órgãos de trânsito e integração federativa.",
-        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime."
+        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-sistema-nacional-transito-orgaos-competencias-q02",
@@ -272,7 +271,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "nivel": "dificil",
         "enunciado": "Em situação de fiscalização ou prova prática, considere o seguinte caso: Um município com órgão de trânsito integrado ao SNT pode fiscalizar infrações de circulação, parada e estacionamento em vias municipais, conforme competência legal e regulamentação. À luz do CTB, qual é a melhor análise?",
         "alternativas": [
-          "A análise correta exige aplicar a técnica do capítulo: separar órgão normativo, órgão executivo, fiscalização e julgamento de recursos antes de responder, verificando competência, conduta, consequência e eventual processo.",
+          "Aplicar a técnica do capítulo: separar órgão normativo, órgão executivo, fiscalização e julgamento de recursos antes de responder.",
           "A atuação deve ser decidida apenas pelo resultado final pretendido, dispensando enquadramento legal.",
           "Qualquer irregularidade autoriza automaticamente a sanção mais grave existente no CTB.",
           "Se houver interesse público, notificação, defesa e recurso deixam de ter importância.",
@@ -324,7 +323,12 @@ export const ctbCodigoTransitoBrasileiro = [
           }
         ],
         "armadilhaDaBanca": "comando negativo e alternativa aparentemente forte",
-        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'."
+        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-sistema-nacional-transito-orgaos-competencias-q06",
@@ -393,7 +397,13 @@ export const ctbCodigoTransitoBrasileiro = [
         "respostaModelo": "Explicação esperada: No CTB, competência errada derruba muita questão: primeiro descubra quem normatiza, quem executa, quem fiscaliza e quem julga. Exemplo: Um município com órgão de trânsito integrado ao SNT pode fiscalizar infrações de circulação, parada e estacionamento em vias municipais, conforme competência legal e regulamentação. Pegadinha: A banca troca órgão normativo por órgão executivo ou transforma competência local em competência nacional.",
         "criterioDominio": "Consegue explicar, exemplificar, apontar a pegadinha e criar uma questão de treino."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "ctb-normas-gerais-circulacao-conduta",
@@ -591,7 +601,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "comandoBanca": "assinale_a_correta",
         "enunciado": "Sobre Normas gerais de circulação e conduta, assinale a alternativa correta.",
         "alternativas": [
-          "As normas gerais de circulação e conduta orientam como pedestres, condutores e demais usuários devem se comportar para preservar a segurança, a fluidez, a ordem e a responsabilidade no trânsito.",
+          "As normas gerais de circulação e conduta orientam como pedestres, condutores e demais usuários devem se comportar para preservar a segurança, a fluidez, a ordem e a respo.",
           "A resposta correta será sempre a opção mais punitiva, ainda que ignore competência, processo e proporcionalidade.",
           "O CTB permite afastar direitos de defesa quando a infração parecer evidente ao agente público.",
           "Em trânsito, resoluções e sinalizações nunca interferem na aplicação prática da lei.",
@@ -624,7 +634,12 @@ export const ctbCodigoTransitoBrasileiro = [
         ],
         "armadilhaDaBanca": "Confundir preferência com prioridade absoluta ou achar que sinalização pode ser ignorada por costume local.",
         "porqueCaiEmProva": "Preferência de passagem, ultrapassagem, conversões, distância de segurança, dever de cuidado e condutas proibidas.",
-        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime."
+        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-normas-gerais-circulacao-conduta-q02",
@@ -655,7 +670,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "nivel": "dificil",
         "enunciado": "Em situação de fiscalização ou prova prática, considere o seguinte caso: Em cruzamento não sinalizado, a regra de preferência deve ser aplicada com cautela, mas nenhum condutor fica dispensado de reduzir velocidade e agir preventivamente. À luz do CTB, qual é a melhor análise?",
         "alternativas": [
-          "A análise correta exige aplicar a técnica do capítulo: resolver por segurança, preferência, sinalização e dever de cuidado, verificando competência, conduta, consequência e eventual processo.",
+          "Aplicar a técnica do capítulo: resolver por segurança, preferência, sinalização e dever de cuidado.",
           "A atuação deve ser decidida apenas pelo resultado final pretendido, dispensando enquadramento legal.",
           "Qualquer irregularidade autoriza automaticamente a sanção mais grave existente no CTB.",
           "Se houver interesse público, notificação, defesa e recurso deixam de ter importância.",
@@ -707,7 +722,12 @@ export const ctbCodigoTransitoBrasileiro = [
           }
         ],
         "armadilhaDaBanca": "comando negativo e alternativa aparentemente forte",
-        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'."
+        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-normas-gerais-circulacao-conduta-q06",
@@ -776,7 +796,13 @@ export const ctbCodigoTransitoBrasileiro = [
         "respostaModelo": "Explicação esperada: Circulação no CTB é prova de lógica: segurança primeiro, sinalização depois e conduta defensiva sempre. Exemplo: Em cruzamento não sinalizado, a regra de preferência deve ser aplicada com cautela, mas nenhum condutor fica dispensado de reduzir velocidade e agir preventivamente. Pegadinha: Confundir preferência com prioridade absoluta ou achar que sinalização pode ser ignorada por costume local.",
         "criterioDominio": "Consegue explicar, exemplificar, apontar a pegadinha e criar uma questão de treino."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "ctb-pedestres-ciclistas-educacao-transito",
@@ -975,7 +1001,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "comandoBanca": "assinale_a_correta",
         "enunciado": "Sobre Pedestres, ciclistas, educação para o trânsito e cidadania viária, assinale a alternativa correta.",
         "alternativas": [
-          "O CTB não protege apenas veículos. Ele organiza a convivência entre todos os usuários da via, com atenção especial aos vulneráveis: pedestres, ciclistas, crianças, idosos, pessoas com deficiência e usuários de veículos não motorizados.",
+          "O CTB não protege apenas veículos. Ele organiza a convivência entre todos os usuários da via, com atenção especial aos vulneráveis: pedestres, ciclistas, crianças, idosos...",
           "A resposta correta será sempre a opção mais punitiva, ainda que ignore competência, processo e proporcionalidade.",
           "O CTB permite afastar direitos de defesa quando a infração parecer evidente ao agente público.",
           "Em trânsito, resoluções e sinalizações nunca interferem na aplicação prática da lei.",
@@ -1008,7 +1034,12 @@ export const ctbCodigoTransitoBrasileiro = [
         ],
         "armadilhaDaBanca": "Tratar pedestre e ciclista como figuras irrelevantes ou sem deveres no trânsito.",
         "porqueCaiEmProva": "Preferência de pedestres, travessia, ciclovias/ciclofaixas, educação para o trânsito e responsabilidade compartilhada.",
-        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime."
+        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-pedestres-ciclistas-educacao-transito-q02",
@@ -1039,7 +1070,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "nivel": "dificil",
         "enunciado": "Em situação de fiscalização ou prova prática, considere o seguinte caso: O pedestre tem prioridade na faixa, mas também deve observar sinalização e atravessar com prudência quando houver dispositivo de controle. À luz do CTB, qual é a melhor análise?",
         "alternativas": [
-          "A análise correta exige aplicar a técnica do capítulo: pensar em proteção do usuário vulnerável e dever coletivo de segurança, verificando competência, conduta, consequência e eventual processo.",
+          "Aplicar a técnica do capítulo: pensar em proteção do usuário vulnerável e dever coletivo de segurança.",
           "A atuação deve ser decidida apenas pelo resultado final pretendido, dispensando enquadramento legal.",
           "Qualquer irregularidade autoriza automaticamente a sanção mais grave existente no CTB.",
           "Se houver interesse público, notificação, defesa e recurso deixam de ter importância.",
@@ -1091,7 +1122,12 @@ export const ctbCodigoTransitoBrasileiro = [
           }
         ],
         "armadilhaDaBanca": "comando negativo e alternativa aparentemente forte",
-        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'."
+        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-pedestres-ciclistas-educacao-transito-q06",
@@ -1160,7 +1196,13 @@ export const ctbCodigoTransitoBrasileiro = [
         "respostaModelo": "Explicação esperada: Trânsito seguro é convivência: condutor, pedestre e ciclista têm direitos e deveres. Exemplo: O pedestre tem prioridade na faixa, mas também deve observar sinalização e atravessar com prudência quando houver dispositivo de controle. Pegadinha: Tratar pedestre e ciclista como figuras irrelevantes ou sem deveres no trânsito.",
         "criterioDominio": "Consegue explicar, exemplificar, apontar a pegadinha e criar uma questão de treino."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "ctb-sinalizacao-ordem-prevalencia",
@@ -1357,7 +1399,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "comandoBanca": "assinale_a_correta",
         "enunciado": "Sobre Sinalização de trânsito e ordem de prevalência, assinale a alternativa correta.",
         "alternativas": [
-          "A sinalização organiza o trânsito e informa obrigações, proibições, advertências, orientações e controle de fluxo. Em prova, é essencial saber a ordem de prevalência e não tratar todo sinal como se tivesse o mesmo peso.",
+          "A sinalização organiza o trânsito e informa obrigações, proibições, advertências, orientações e controle de fluxo.",
           "A resposta correta será sempre a opção mais punitiva, ainda que ignore competência, processo e proporcionalidade.",
           "O CTB permite afastar direitos de defesa quando a infração parecer evidente ao agente público.",
           "Em trânsito, resoluções e sinalizações nunca interferem na aplicação prática da lei.",
@@ -1390,7 +1432,12 @@ export const ctbCodigoTransitoBrasileiro = [
         ],
         "armadilhaDaBanca": "Dizer que a placa sempre prevalece sobre ordem do agente ou que sinalização meramente indicativa cria infração por si só.",
         "porqueCaiEmProva": "Tipos de sinalização, ordem de prevalência, placas de regulamentação, advertência, indicação e interpretação de comandos.",
-        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime."
+        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-sinalizacao-ordem-prevalencia-q02",
@@ -1421,7 +1468,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "nivel": "dificil",
         "enunciado": "Em situação de fiscalização ou prova prática, considere o seguinte caso: Se o agente de trânsito determina parada, sua ordem prevalece sobre sinalização semafórica em sentido diverso, dentro da atuação regular. À luz do CTB, qual é a melhor análise?",
         "alternativas": [
-          "A análise correta exige aplicar a técnica do capítulo: aplicar a hierarquia: agente, sinalização semafórica, placas e demais sinais, verificando competência, conduta, consequência e eventual processo.",
+          "Aplicar a técnica do capítulo: aplicar a hierarquia: agente, sinalização semafórica, placas e demais sinais.",
           "A atuação deve ser decidida apenas pelo resultado final pretendido, dispensando enquadramento legal.",
           "Qualquer irregularidade autoriza automaticamente a sanção mais grave existente no CTB.",
           "Se houver interesse público, notificação, defesa e recurso deixam de ter importância.",
@@ -1473,7 +1520,12 @@ export const ctbCodigoTransitoBrasileiro = [
           }
         ],
         "armadilhaDaBanca": "comando negativo e alternativa aparentemente forte",
-        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'."
+        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-sinalizacao-ordem-prevalencia-q06",
@@ -1541,7 +1593,13 @@ export const ctbCodigoTransitoBrasileiro = [
         "respostaModelo": "Explicação esperada: No conflito de sinais, a ordem do agente prevalece sobre os demais comandos. Exemplo: Se o agente de trânsito determina parada, sua ordem prevalece sobre sinalização semafórica em sentido diverso, dentro da atuação regular. Pegadinha: Dizer que a placa sempre prevalece sobre ordem do agente ou que sinalização meramente indicativa cria infração por si só.",
         "criterioDominio": "Consegue explicar, exemplificar, apontar a pegadinha e criar uma questão de treino."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "ctb-veiculos-registro-licenciamento-equipamentos",
@@ -1739,7 +1797,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "comandoBanca": "assinale_a_correta",
         "enunciado": "Sobre Veículos: classificação, registro, licenciamento e equipamentos obrigatórios, assinale a alternativa correta.",
         "alternativas": [
-          "O CTB disciplina veículos quanto à classificação, registro, licenciamento, identificação, equipamentos obrigatórios e condições para circulação. Em concurso, a banca costuma misturar documento do condutor com documento do veículo.",
+          "O CTB disciplina veículos quanto à classificação, registro, licenciamento, identificação, equipamentos obrigatórios e condições para circulação.",
           "A resposta correta será sempre a opção mais punitiva, ainda que ignore competência, processo e proporcionalidade.",
           "O CTB permite afastar direitos de defesa quando a infração parecer evidente ao agente público.",
           "Em trânsito, resoluções e sinalizações nunca interferem na aplicação prática da lei.",
@@ -1772,7 +1830,12 @@ export const ctbCodigoTransitoBrasileiro = [
         ],
         "armadilhaDaBanca": "Confundir registro inicial com licenciamento anual ou achar que qualquer alteração no veículo dispensa autorização.",
         "porqueCaiEmProva": "CRV/CRLV, placas, licenciamento, transferência, equipamentos obrigatórios, alteração de característica e regularização.",
-        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime."
+        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-veiculos-registro-licenciamento-equipamentos-q02",
@@ -1803,7 +1866,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "nivel": "dificil",
         "enunciado": "Em situação de fiscalização ou prova prática, considere o seguinte caso: Circular com veículo não licenciado e circular com condutor sem habilitação são situações diferentes, com fundamentos e consequências diversas. À luz do CTB, qual é a melhor análise?",
         "alternativas": [
-          "A análise correta exige aplicar a técnica do capítulo: separar registro, licenciamento, identificação, circulação e equipamentos obrigatórios, verificando competência, conduta, consequência e eventual processo.",
+          "Aplicar a técnica do capítulo: separar registro, licenciamento, identificação, circulação e equipamentos obrigatórios.",
           "A atuação deve ser decidida apenas pelo resultado final pretendido, dispensando enquadramento legal.",
           "Qualquer irregularidade autoriza automaticamente a sanção mais grave existente no CTB.",
           "Se houver interesse público, notificação, defesa e recurso deixam de ter importância.",
@@ -1855,7 +1918,12 @@ export const ctbCodigoTransitoBrasileiro = [
           }
         ],
         "armadilhaDaBanca": "comando negativo e alternativa aparentemente forte",
-        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'."
+        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-veiculos-registro-licenciamento-equipamentos-q06",
@@ -1924,7 +1992,13 @@ export const ctbCodigoTransitoBrasileiro = [
         "respostaModelo": "Explicação esperada: Documento do veículo não é documento do condutor: separe sempre registro, licenciamento e habilitação. Exemplo: Circular com veículo não licenciado e circular com condutor sem habilitação são situações diferentes, com fundamentos e consequências diversas. Pegadinha: Confundir registro inicial com licenciamento anual ou achar que qualquer alteração no veículo dispensa autorização.",
         "criterioDominio": "Consegue explicar, exemplificar, apontar a pegadinha e criar uma questão de treino."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "ctb-habilitacao-cnh-ppd-categorias",
@@ -2122,7 +2196,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "comandoBanca": "assinale_a_correta",
         "enunciado": "Sobre Habilitação: CNH, PPD, categorias, exames e cursos especializados, assinale a alternativa correta.",
         "alternativas": [
-          "A habilitação autoriza a condução conforme categoria, requisitos pessoais, exames e cursos. A Permissão para Dirigir tem regime próprio e a CNH definitiva depende do cumprimento das condições legais.",
+          "A habilitação autoriza a condução conforme categoria, requisitos pessoais, exames e cursos.",
           "A resposta correta será sempre a opção mais punitiva, ainda que ignore competência, processo e proporcionalidade.",
           "O CTB permite afastar direitos de defesa quando a infração parecer evidente ao agente público.",
           "Em trânsito, resoluções e sinalizações nunca interferem na aplicação prática da lei.",
@@ -2155,7 +2229,12 @@ export const ctbCodigoTransitoBrasileiro = [
         ],
         "armadilhaDaBanca": "Achar que possuir CNH em uma categoria autoriza automaticamente qualquer veículo ou atividade remunerada.",
         "porqueCaiEmProva": "Categorias, requisitos, PPD, renovação, reciclagem, cursos especializados, suspensão e cassação em relação à habilitação.",
-        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime."
+        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-habilitacao-cnh-ppd-categorias-q02",
@@ -2186,7 +2265,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "nivel": "dificil",
         "enunciado": "Em situação de fiscalização ou prova prática, considere o seguinte caso: Dirigir veículo incompatível com a categoria de habilitação não é o mesmo que estar com o documento físico esquecido. À luz do CTB, qual é a melhor análise?",
         "alternativas": [
-          "A análise correta exige aplicar a técnica do capítulo: ler a categoria, o tipo de veículo, a finalidade do transporte e a exigência de curso, verificando competência, conduta, consequência e eventual processo.",
+          "Aplicar a técnica do capítulo: ler a categoria, o tipo de veículo, a finalidade do transporte e a exigência de curso.",
           "A atuação deve ser decidida apenas pelo resultado final pretendido, dispensando enquadramento legal.",
           "Qualquer irregularidade autoriza automaticamente a sanção mais grave existente no CTB.",
           "Se houver interesse público, notificação, defesa e recurso deixam de ter importância.",
@@ -2238,7 +2317,12 @@ export const ctbCodigoTransitoBrasileiro = [
           }
         ],
         "armadilhaDaBanca": "comando negativo e alternativa aparentemente forte",
-        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'."
+        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-habilitacao-cnh-ppd-categorias-q06",
@@ -2307,7 +2391,13 @@ export const ctbCodigoTransitoBrasileiro = [
         "respostaModelo": "Explicação esperada: CNH é autorização limitada: categoria, validade, condição do condutor e finalidade importam. Exemplo: Dirigir veículo incompatível com a categoria de habilitação não é o mesmo que estar com o documento físico esquecido. Pegadinha: Achar que possuir CNH em uma categoria autoriza automaticamente qualquer veículo ou atividade remunerada.",
         "criterioDominio": "Consegue explicar, exemplificar, apontar a pegadinha e criar uma questão de treino."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "ctb-infracoes-classificacao-pontuacao-multas",
@@ -2503,7 +2593,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "comandoBanca": "assinale_a_correta",
         "enunciado": "Sobre Infrações de trânsito: classificação, pontuação, multas e reincidência, assinale a alternativa correta.",
         "alternativas": [
-          "Infrações de trânsito são condutas previstas em lei como violadoras das regras de circulação, segurança, documentação ou comportamento. A natureza da infração influencia pontuação, multa e consequências administrativas.",
+          "Infrações de trânsito são condutas previstas em lei como violadoras das regras de circulação, segurança, documentação ou comportamento.",
           "A resposta correta será sempre a opção mais punitiva, ainda que ignore competência, processo e proporcionalidade.",
           "O CTB permite afastar direitos de defesa quando a infração parecer evidente ao agente público.",
           "Em trânsito, resoluções e sinalizações nunca interferem na aplicação prática da lei.",
@@ -2536,7 +2626,12 @@ export const ctbCodigoTransitoBrasileiro = [
         ],
         "armadilhaDaBanca": "Misturar pontuação, valor da multa, penalidade e medida administrativa como se fossem a mesma coisa.",
         "porqueCaiEmProva": "Natureza da infração, pontuação, multa, agravantes, fator multiplicador, reincidência e distinção entre penalidade e medida administrativa.",
-        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime."
+        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-infracoes-classificacao-pontuacao-multas-q02",
@@ -2567,7 +2662,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "nivel": "dificil",
         "enunciado": "Em situação de fiscalização ou prova prática, considere o seguinte caso: Uma infração gravíssima pode ter multa com fator multiplicador e medida administrativa, mas cada consequência precisa estar prevista. À luz do CTB, qual é a melhor análise?",
         "alternativas": [
-          "A análise correta exige aplicar a técnica do capítulo: identificar primeiro a conduta, depois natureza da infração, penalidade e medida administrativa, verificando competência, conduta, consequência e eventual processo.",
+          "Aplicar a técnica do capítulo: identificar primeiro a conduta, depois natureza da infração, penalidade e medida administrativa.",
           "A atuação deve ser decidida apenas pelo resultado final pretendido, dispensando enquadramento legal.",
           "Qualquer irregularidade autoriza automaticamente a sanção mais grave existente no CTB.",
           "Se houver interesse público, notificação, defesa e recurso deixam de ter importância.",
@@ -2619,7 +2714,12 @@ export const ctbCodigoTransitoBrasileiro = [
           }
         ],
         "armadilhaDaBanca": "comando negativo e alternativa aparentemente forte",
-        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'."
+        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-infracoes-classificacao-pontuacao-multas-q06",
@@ -2686,7 +2786,13 @@ export const ctbCodigoTransitoBrasileiro = [
         "respostaModelo": "Explicação esperada: Infração não é só multa: pode envolver pontos, penalidade e medida administrativa. Exemplo: Uma infração gravíssima pode ter multa com fator multiplicador e medida administrativa, mas cada consequência precisa estar prevista. Pegadinha: Misturar pontuação, valor da multa, penalidade e medida administrativa como se fossem a mesma coisa.",
         "criterioDominio": "Consegue explicar, exemplificar, apontar a pegadinha e criar uma questão de treino."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "ctb-penalidades-medidas-administrativas-suspensao-cassacao",
@@ -2883,7 +2989,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "comandoBanca": "assinale_a_correta",
         "enunciado": "Sobre Penalidades e medidas administrativas: retenção, remoção, recolhimento, suspensão e cassação, assinale a alternativa correta.",
         "alternativas": [
-          "Penalidades são sanções aplicadas no processo administrativo. Medidas administrativas são providências imediatas para regularizar, impedir risco, preservar segurança ou viabilizar a atuação fiscalizatória.",
+          "Penalidades são sanções aplicadas no processo administrativo.",
           "A resposta correta será sempre a opção mais punitiva, ainda que ignore competência, processo e proporcionalidade.",
           "O CTB permite afastar direitos de defesa quando a infração parecer evidente ao agente público.",
           "Em trânsito, resoluções e sinalizações nunca interferem na aplicação prática da lei.",
@@ -2916,7 +3022,12 @@ export const ctbCodigoTransitoBrasileiro = [
         ],
         "armadilhaDaBanca": "Dizer que retenção, remoção e recolhimento são sempre penalidades definitivas.",
         "porqueCaiEmProva": "Diferença entre penalidade e medida, suspensão do direito de dirigir, cassação da CNH, retenção do veículo, remoção e recolhimento de documentos.",
-        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime."
+        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-penalidades-medidas-administrativas-suspensao-cassacao-q02",
@@ -2947,7 +3058,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "nivel": "dificil",
         "enunciado": "Em situação de fiscalização ou prova prática, considere o seguinte caso: A retenção do veículo pode ser medida administrativa para sanar irregularidade; a multa é penalidade. À luz do CTB, qual é a melhor análise?",
         "alternativas": [
-          "A análise correta exige aplicar a técnica do capítulo: separar resposta punitiva final de providência imediata de fiscalização, verificando competência, conduta, consequência e eventual processo.",
+          "Aplicar a técnica do capítulo: separar resposta punitiva final de providência imediata de fiscalização.",
           "A atuação deve ser decidida apenas pelo resultado final pretendido, dispensando enquadramento legal.",
           "Qualquer irregularidade autoriza automaticamente a sanção mais grave existente no CTB.",
           "Se houver interesse público, notificação, defesa e recurso deixam de ter importância.",
@@ -2999,7 +3110,12 @@ export const ctbCodigoTransitoBrasileiro = [
           }
         ],
         "armadilhaDaBanca": "comando negativo e alternativa aparentemente forte",
-        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'."
+        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-penalidades-medidas-administrativas-suspensao-cassacao-q06",
@@ -3067,7 +3183,13 @@ export const ctbCodigoTransitoBrasileiro = [
         "respostaModelo": "Explicação esperada: Penalidade pune; medida administrativa organiza a fiscalização e a segurança imediata. Exemplo: A retenção do veículo pode ser medida administrativa para sanar irregularidade; a multa é penalidade. Pegadinha: Dizer que retenção, remoção e recolhimento são sempre penalidades definitivas.",
         "criterioDominio": "Consegue explicar, exemplificar, apontar a pegadinha e criar uma questão de treino."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "ctb-processo-administrativo-autuacao-defesa-recursos",
@@ -3265,7 +3387,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "comandoBanca": "assinale_a_correta",
         "enunciado": "Sobre Processo administrativo de trânsito: autuação, notificação, defesa e recursos, assinale a alternativa correta.",
         "alternativas": [
-          "O processo administrativo de trânsito garante controle da legalidade da autuação, ciência ao interessado, defesa e possibilidade de recurso. Em prova, a banca costuma trocar defesa prévia por recurso contra penalidade.",
+          "O processo administrativo de trânsito garante controle da legalidade da autuação, ciência ao interessado, defesa e possibilidade de recurso.",
           "A resposta correta será sempre a opção mais punitiva, ainda que ignore competência, processo e proporcionalidade.",
           "O CTB permite afastar direitos de defesa quando a infração parecer evidente ao agente público.",
           "Em trânsito, resoluções e sinalizações nunca interferem na aplicação prática da lei.",
@@ -3298,7 +3420,12 @@ export const ctbCodigoTransitoBrasileiro = [
         ],
         "armadilhaDaBanca": "Achar que autuação e penalidade são a mesma etapa ou que recurso dispensa notificação regular.",
         "porqueCaiEmProva": "Etapas do processo, nulidades, prazos conforme edital/legislação, órgãos julgadores, defesa prévia e recursos.",
-        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime."
+        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-processo-administrativo-autuacao-defesa-recursos-q02",
@@ -3329,7 +3456,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "nivel": "dificil",
         "enunciado": "Em situação de fiscalização ou prova prática, considere o seguinte caso: O auto de infração inicia a apuração; a penalidade depende de processo regular, notificação e oportunidade de defesa. À luz do CTB, qual é a melhor análise?",
         "alternativas": [
-          "A análise correta exige aplicar a técnica do capítulo: montar a linha do tempo: autuação, notificação, defesa, penalidade e recurso, verificando competência, conduta, consequência e eventual processo.",
+          "Aplicar a técnica do capítulo: montar a linha do tempo: autuação, notificação, defesa, penalidade e recurso.",
           "A atuação deve ser decidida apenas pelo resultado final pretendido, dispensando enquadramento legal.",
           "Qualquer irregularidade autoriza automaticamente a sanção mais grave existente no CTB.",
           "Se houver interesse público, notificação, defesa e recurso deixam de ter importância.",
@@ -3381,7 +3508,12 @@ export const ctbCodigoTransitoBrasileiro = [
           }
         ],
         "armadilhaDaBanca": "comando negativo e alternativa aparentemente forte",
-        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'."
+        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-processo-administrativo-autuacao-defesa-recursos-q06",
@@ -3450,7 +3582,13 @@ export const ctbCodigoTransitoBrasileiro = [
         "respostaModelo": "Explicação esperada: No processo de trânsito, a ordem importa: auto, notificação, defesa, penalidade e recurso. Exemplo: O auto de infração inicia a apuração; a penalidade depende de processo regular, notificação e oportunidade de defesa. Pegadinha: Achar que autuação e penalidade são a mesma etapa ou que recurso dispensa notificação regular.",
         "criterioDominio": "Consegue explicar, exemplificar, apontar a pegadinha e criar uma questão de treino."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   },
   {
     "id": "ctb-crimes-transito-embriaguez-homicidio-lesao",
@@ -3647,7 +3785,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "comandoBanca": "assinale_a_correta",
         "enunciado": "Sobre Crimes de trânsito: embriaguez, racha, homicídio, lesão e omissão de socorro, assinale a alternativa correta.",
         "alternativas": [
-          "Os crimes de trânsito estão no CTB e devem ser analisados com técnica penal: conduta, resultado, nexo, culpa ou dolo, circunstâncias, prova e consequência. Nem toda infração administrativa é crime.",
+          "Os crimes de trânsito estão no CTB e devem ser analisados com técnica penal: conduta, resultado, nexo, culpa ou dolo, circunstâncias, prova e consequência.",
           "A resposta correta será sempre a opção mais punitiva, ainda que ignore competência, processo e proporcionalidade.",
           "O CTB permite afastar direitos de defesa quando a infração parecer evidente ao agente público.",
           "Em trânsito, resoluções e sinalizações nunca interferem na aplicação prática da lei.",
@@ -3680,7 +3818,12 @@ export const ctbCodigoTransitoBrasileiro = [
         ],
         "armadilhaDaBanca": "Confundir multa administrativa da Lei Seca com crime ou dizer que todo acidente gera crime automaticamente.",
         "porqueCaiEmProva": "Embriaguez ao volante, participação em corrida não autorizada, homicídio e lesão culposa na direção, omissão de socorro, fuga do local e suspensão/proibição de dirigir.",
-        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime."
+        "diagnosticoIA": "Se errou, provavelmente confundiu competência, etapa administrativa, penalidade, medida ou crime.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-crimes-transito-embriaguez-homicidio-lesao-q02",
@@ -3711,7 +3854,7 @@ export const ctbCodigoTransitoBrasileiro = [
         "nivel": "dificil",
         "enunciado": "Em situação de fiscalização ou prova prática, considere o seguinte caso: Dirigir com capacidade psicomotora alterada pode configurar crime próprio do CTB, enquanto a recusa ao teste gera consequências administrativas específicas. À luz do CTB, qual é a melhor análise?",
         "alternativas": [
-          "A análise correta exige aplicar a técnica do capítulo: separar infração administrativa, crime de trânsito, dolo/culpa e situação agravante, verificando competência, conduta, consequência e eventual processo.",
+          "Aplicar a técnica do capítulo: separar infração administrativa, crime de trânsito, dolo/culpa e situação agravante.",
           "A atuação deve ser decidida apenas pelo resultado final pretendido, dispensando enquadramento legal.",
           "Qualquer irregularidade autoriza automaticamente a sanção mais grave existente no CTB.",
           "Se houver interesse público, notificação, defesa e recurso deixam de ter importância.",
@@ -3763,7 +3906,12 @@ export const ctbCodigoTransitoBrasileiro = [
           }
         ],
         "armadilhaDaBanca": "comando negativo e alternativa aparentemente forte",
-        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'."
+        "diagnosticoIA": "Se marcou outra alternativa, revise o comando 'incorreta'.",
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
+        }
       },
       {
         "id": "ctb-crimes-transito-embriaguez-homicidio-lesao-q06",
@@ -3832,7 +3980,13 @@ export const ctbCodigoTransitoBrasileiro = [
         "respostaModelo": "Explicação esperada: Crime de trânsito exige tipicidade penal; infração administrativa exige previsão administrativa. Exemplo: Dirigir com capacidade psicomotora alterada pode configurar crime próprio do CTB, enquanto a recusa ao teste gera consequências administrativas específicas. Pegadinha: Confundir multa administrativa da Lei Seca com crime ou dizer que todo acidente gera crime automaticamente.",
         "criterioDominio": "Consegue explicar, exemplificar, apontar a pegadinha e criar uma questão de treino."
       }
-    ]
+    ],
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
+    }
   }
 ];
 

@@ -172,6 +172,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Panorama da legislação institucional da PMMA em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -408,6 +413,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Panorama da legislação institucional da PMMA em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -586,8 +596,9 @@ export const legislacaoInstitucionalPMMA = [
       },
       {
         "frente": "Palavra-chave: Lei 6.513/1995",
-        "verso": "Explique Lei 6.513/1995 dentro do tema Panorama da legislação institucional da PMMA.",
-        "nivel": "conceito"
+        "verso": "Lei 6.513/1995: Lei 6.513/1995: Estatuto dos Policiais Militares do Maranhão — situação, direitos, deveres, prerrogativas. Lei 4.570/1984: Organização Básica da PMMA — estrutura de comandos e unidades. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Panorama da legislação institucional da PMMA",
@@ -781,6 +792,12 @@ export const legislacaoInstitucionalPMMA = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -946,6 +963,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Estrutura organizacional da PMMA em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1182,6 +1204,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Estrutura organizacional da PMMA em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1360,8 +1387,9 @@ export const legislacaoInstitucionalPMMA = [
       },
       {
         "frente": "Palavra-chave: Comandante-Geral",
-        "verso": "Explique Comandante-Geral dentro do tema Estrutura organizacional da PMMA.",
-        "nivel": "conceito"
+        "verso": "Comandante-Geral: Comando central: Comandante-Geral, Subcomandante, Subchefe do Estado-Maior Geral, com diretorias específicas. CPM (Comando de Policiamento Metropolitano): região de São Luís. CPRs (1 a 6): interior do Estado. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Estrutura organizacional da PMMA",
@@ -1555,6 +1583,12 @@ export const legislacaoInstitucionalPMMA = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1720,6 +1754,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Ingresso na carreira e formação em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1956,6 +1995,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Ingresso na carreira e formação em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2134,8 +2178,9 @@ export const legislacaoInstitucionalPMMA = [
       },
       {
         "frente": "Palavra-chave: concurso público",
-        "verso": "Explique concurso público dentro do tema Ingresso na carreira e formação.",
-        "nivel": "conceito"
+        "verso": "concurso público: Ingresso via concurso público — regra geral já estudada, aplicada à carreira militar estadual. Carreira de Oficial da PM é privativa de brasileiro nato — peculiaridade que conecta com Direito Constitucional. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Ingresso na carreira e formação",
@@ -2329,6 +2374,12 @@ export const legislacaoInstitucionalPMMA = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2494,6 +2545,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Hierarquia e postos/graduações na PMMA em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2730,6 +2786,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Hierarquia e postos/graduações na PMMA em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2908,8 +2969,9 @@ export const legislacaoInstitucionalPMMA = [
       },
       {
         "frente": "Palavra-chave: comando",
-        "verso": "Explique comando dentro do tema Hierarquia e postos/graduações na PMMA.",
-        "nivel": "conceito"
+        "verso": "comando: Comando é prerrogativa impessoal, vinculada ao grau hierárquico — pertence à posição, não à pessoa isoladamente. Oficial é formado ao longo da carreira para exercer comando, chefia e direção de organizações policiais-militares. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Hierarquia e postos/graduações na PMMA",
@@ -3103,6 +3165,12 @@ export const legislacaoInstitucionalPMMA = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3268,6 +3336,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Promoções: antiguidade e merecimento em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3504,6 +3577,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Promoções: antiguidade e merecimento em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3682,8 +3760,9 @@ export const legislacaoInstitucionalPMMA = [
       },
       {
         "frente": "Palavra-chave: promoção por antiguidade",
-        "verso": "Explique promoção por antiguidade dentro do tema Promoções: antiguidade e merecimento.",
-        "nivel": "conceito"
+        "verso": "promoção por antiguidade: Antiguidade: critério objetivo, sequência da escala hierárquica pelo tempo de permanência no posto. Merecimento: critério avaliativo, com base em Quadro de Acesso elaborado pela comissão competente. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Promoções: antiguidade e merecimento",
@@ -3877,6 +3956,12 @@ export const legislacaoInstitucionalPMMA = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4042,6 +4127,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Direitos dos policiais militares estaduais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4278,6 +4368,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Direitos dos policiais militares estaduais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4456,8 +4551,9 @@ export const legislacaoInstitucionalPMMA = [
       },
       {
         "frente": "Palavra-chave: subsídio",
-        "verso": "Explique subsídio dentro do tema Direitos dos policiais militares estaduais.",
-        "nivel": "conceito"
+        "verso": "subsídio: Direitos remuneratórios seguem regime de subsídio desde a Lei 8.591/2007, que revogou o regime anterior de proventos com gratificações separadas. Estabilidade é assegurada após tempo de efetivo serviço, com lógica parecida (mas regras próprias) à do servidor civil. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Direitos dos policiais militares estaduais",
@@ -4651,6 +4747,12 @@ export const legislacaoInstitucionalPMMA = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4816,6 +4918,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Deveres, restrições e situações funcionais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5052,6 +5159,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Deveres, restrições e situações funcionais em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5230,8 +5342,9 @@ export const legislacaoInstitucionalPMMA = [
       },
       {
         "frente": "Palavra-chave: agregação",
-        "verso": "Explique agregação dentro do tema Deveres, restrições e situações funcionais.",
-        "nivel": "conceito"
+        "verso": "agregação: Agregação: militar deixa temporariamente a vaga na escala hierárquica, sem deixar de pertencer aos quadros — não pode ser promovido nesse período. Competência para agregar policiais militares é indelegável do Governador do Estado — ponto específico já cobrado em prova. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Deveres, restrições e situações funcionais",
@@ -5425,6 +5538,12 @@ export const legislacaoInstitucionalPMMA = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5590,6 +5709,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Regime disciplinar da PMMA: a questão do regulamento próprio em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5826,6 +5950,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Regime disciplinar da PMMA: a questão do regulamento próprio em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6004,8 +6133,9 @@ export const legislacaoInstitucionalPMMA = [
       },
       {
         "frente": "Palavra-chave: regulamento disciplinar próprio",
-        "verso": "Explique regulamento disciplinar próprio dentro do tema Regime disciplinar da PMMA: a questão do regulamento próprio.",
-        "nivel": "conceito"
+        "verso": "regulamento disciplinar próprio: PMMA não possui Regulamento Disciplinar próprio editado — peculiaridade institucional real, também vivenciada por outras corporações estaduais. Art. 166 do Estatuto determina aplicação subsidiária das leis/regulamentos do Exército Brasileiro em matéria não regulada estadualmente. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Regime disciplinar da PMMA: a questão do regulamento próprio",
@@ -6199,6 +6329,12 @@ export const legislacaoInstitucionalPMMA = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6364,6 +6500,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Punições disciplinares e a Lei Federal 13.967/2019 em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6600,6 +6741,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Punições disciplinares e a Lei Federal 13.967/2019 em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6778,8 +6924,9 @@ export const legislacaoInstitucionalPMMA = [
       },
       {
         "frente": "Palavra-chave: Lei 13.967/2019",
-        "verso": "Explique Lei 13.967/2019 dentro do tema Punições disciplinares e a Lei Federal 13.967/2019.",
-        "nivel": "conceito"
+        "verso": "Lei 13.967/2019: Lei Federal 13.967/2019 alterou o Decreto-Lei 667/1969, impactando punições restritivas de liberdade nas polícias militares estaduais. Como a PMMA aplica o RDE subsidiariamente (sem regulamento próprio), essa mudança federal gera reflexo direto na prática disciplinar estadual. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Punições disciplinares e a Lei Federal 13.967/2019",
@@ -6973,6 +7120,12 @@ export const legislacaoInstitucionalPMMA = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7138,6 +7291,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Justiça Militar Estadual do Maranhão em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7374,6 +7532,11 @@ export const legislacaoInstitucionalPMMA = [
           "seErrar": "A IA deve explicar Justiça Militar Estadual do Maranhão em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7552,8 +7715,9 @@ export const legislacaoInstitucionalPMMA = [
       },
       {
         "frente": "Palavra-chave: Auditoria da Justiça Militar Estadual",
-        "verso": "Explique Auditoria da Justiça Militar Estadual dentro do tema Justiça Militar Estadual do Maranhão.",
-        "nivel": "conceito"
+        "verso": "Auditoria da Justiça Militar Estadual: Maranhão não possui Tribunal Militar próprio — Auditoria da Justiça Militar Estadual julga em primeira instância os crimes militares estaduais. Tribunal de Justiça do Maranhão funciona como instância recursal, na ausência de Tribunal de Justiça Militar específico. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Justiça Militar Estadual do Maranhão",
@@ -7747,6 +7911,12 @@ export const legislacaoInstitucionalPMMA = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

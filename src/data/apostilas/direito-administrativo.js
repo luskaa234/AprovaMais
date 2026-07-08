@@ -173,6 +173,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Administração direta e indireta em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -409,6 +414,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Administração direta e indireta em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -587,8 +597,9 @@ export const direitoAdministrativo = [
       },
       {
         "frente": "Palavra-chave: autarquia",
-        "verso": "Explique autarquia dentro do tema Administração direta e indireta.",
-        "nivel": "conceito"
+        "verso": "autarquia: Autarquia: pessoa jurídica de direito público, regime estatutário, bens públicos impenhoráveis. Empresa pública: capital 100% público, qualquer forma societária. Sociedade de economia mista: capital misto, sempre sociedade anônima. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Administração direta e indireta",
@@ -783,6 +794,12 @@ export const direitoAdministrativo = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -949,6 +966,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Poderes administrativos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1185,6 +1207,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Poderes administrativos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1363,8 +1390,9 @@ export const direitoAdministrativo = [
       },
       {
         "frente": "Palavra-chave: poder discricionário",
-        "verso": "Explique poder discricionário dentro do tema Poderes administrativos.",
-        "nivel": "conceito"
+        "verso": "poder discricionário: Poder vinculado: sem margem de escolha; Poder discricionário: escolha dentro dos limites legais, com conveniência e oportunidade. Poder hierárquico organiza e escalona (delega/avoca); Poder disciplinar pune infrações funcionais. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Poderes administrativos",
@@ -1559,6 +1587,12 @@ export const direitoAdministrativo = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1725,6 +1759,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Atos administrativos: requisitos e atributos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1961,6 +2000,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Atos administrativos: requisitos e atributos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2138,8 +2182,9 @@ export const direitoAdministrativo = [
       },
       {
         "frente": "Palavra-chave: competência",
-        "verso": "Explique competência dentro do tema Atos administrativos: requisitos e atributos.",
-        "nivel": "conceito"
+        "verso": "competência: COFIFO: Competência, Objeto, Forma, Finalidade, Motivo — os cinco requisitos do ato administrativo. Competência, forma e finalidade são sempre vinculadas; objeto e motivo podem ser discricionários. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Atos administrativos: requisitos e atributos",
@@ -2334,6 +2379,12 @@ export const direitoAdministrativo = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2500,6 +2551,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Atos administrativos: classificação e extinção em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2736,6 +2792,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Atos administrativos: classificação e extinção em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2914,8 +2975,9 @@ export const direitoAdministrativo = [
       },
       {
         "frente": "Palavra-chave: anulação",
-        "verso": "Explique anulação dentro do tema Atos administrativos: classificação e extinção.",
-        "nivel": "conceito"
+        "verso": "anulação: Anulação: vício de legalidade, efeitos retroativos (ex tunc), pode ser feita pela Administração ou pelo Judiciário. Revogação: conveniência/oportunidade, efeitos só para o futuro (ex nunc), só a Administração pode revogar (nunca o Judiciário). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Atos administrativos: classificação e extinção",
@@ -3110,6 +3172,12 @@ export const direitoAdministrativo = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3276,6 +3344,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Licitações: princípios e modalidades em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3512,6 +3585,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Licitações: princípios e modalidades em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3690,8 +3768,9 @@ export const direitoAdministrativo = [
       },
       {
         "frente": "Palavra-chave: licitação",
-        "verso": "Explique licitação dentro do tema Licitações: princípios e modalidades.",
-        "nivel": "conceito"
+        "verso": "licitação: Modalidades da Lei 14.133/2021: pregão, concorrência, concurso, leilão e diálogo competitivo. Dispensa: licitação possível, mas lei dispensa (hipóteses taxativas: baixo valor, urgência, calamidade). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Licitações: princípios e modalidades",
@@ -3886,6 +3965,12 @@ export const direitoAdministrativo = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4052,6 +4137,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Contratos administrativos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4288,6 +4378,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Contratos administrativos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4466,8 +4561,9 @@ export const direitoAdministrativo = [
       },
       {
         "frente": "Palavra-chave: cláusulas exorbitantes",
-        "verso": "Explique cláusulas exorbitantes dentro do tema Contratos administrativos.",
-        "nivel": "conceito"
+        "verso": "cláusulas exorbitantes: Cláusulas exorbitantes: alteração unilateral, rescisão unilateral, fiscalização, aplicação de penalidades, ocupação provisória. Alteração unilateral tem limites percentuais de acréscimo/supressão previstos em lei. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Contratos administrativos",
@@ -4661,6 +4757,12 @@ export const direitoAdministrativo = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4827,6 +4929,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Responsabilidade civil do Estado em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5063,6 +5170,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Responsabilidade civil do Estado em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5241,8 +5353,9 @@ export const direitoAdministrativo = [
       },
       {
         "frente": "Palavra-chave: responsabilidade objetiva",
-        "verso": "Explique responsabilidade objetiva dentro do tema Responsabilidade civil do Estado.",
-        "nivel": "conceito"
+        "verso": "responsabilidade objetiva: Responsabilidade objetiva: basta conduta do agente + dano + nexo causal, sem exigir prova de culpa. Excludentes: caso fortuito/força maior, culpa exclusiva da vítima, fato exclusivo de terceiro — rompem o nexo causal. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Responsabilidade civil do Estado",
@@ -5436,6 +5549,12 @@ export const direitoAdministrativo = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5602,6 +5721,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Agentes públicos: cargo, emprego e função em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5838,6 +5962,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Agentes públicos: cargo, emprego e função em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6016,8 +6145,9 @@ export const direitoAdministrativo = [
       },
       {
         "frente": "Palavra-chave: cargo público",
-        "verso": "Explique cargo público dentro do tema Agentes públicos: cargo, emprego e função.",
-        "nivel": "conceito"
+        "verso": "cargo público: Cargo público: vínculo estatutário. Emprego público: vínculo contratual celetista. Função: atribuições sem cargo próprio. Cargo efetivo exige concurso e gera estabilidade após estágio probatório; cargo em comissão é de livre nomeação/exoneração. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Agentes públicos: cargo, emprego e função",
@@ -6212,6 +6342,12 @@ export const direitoAdministrativo = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6378,6 +6514,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Controle da Administração Pública em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6614,6 +6755,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Controle da Administração Pública em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6792,8 +6938,9 @@ export const direitoAdministrativo = [
       },
       {
         "frente": "Palavra-chave: controle interno",
-        "verso": "Explique controle interno dentro do tema Controle da Administração Pública.",
-        "nivel": "conceito"
+        "verso": "controle interno: Controle interno: dentro do próprio Poder. Controle externo: um Poder controlando outro (Legislativo sobre Executivo, com Tribunal de Contas). Controle de legalidade verifica conformidade com a lei; controle de mérito verifica conveniência/oportunidade. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Controle da Administração Pública",
@@ -6988,6 +7135,12 @@ export const direitoAdministrativo = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7154,6 +7307,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Bens públicos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7390,6 +7548,11 @@ export const direitoAdministrativo = [
           "seErrar": "A IA deve explicar Bens públicos em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7568,8 +7731,9 @@ export const direitoAdministrativo = [
       },
       {
         "frente": "Palavra-chave: bem de uso comum do povo",
-        "verso": "Explique bem de uso comum do povo dentro do tema Bens públicos.",
-        "nivel": "conceito"
+        "verso": "bem de uso comum do povo: Uso comum do povo: coletividade em geral. Uso especial: finalidade pública específica. Dominical: sem destinação, patrimônio disponível. Bens de uso comum e especial são inalienáveis enquanto afetados; dominicais são alienáveis, com requisitos legais. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Bens públicos",
@@ -7763,6 +7927,12 @@ export const direitoAdministrativo = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];

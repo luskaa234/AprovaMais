@@ -173,6 +173,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Princípios do processo penal em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -409,6 +414,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Princípios do processo penal em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -587,8 +597,9 @@ export const direitoProcessualPenal = [
       },
       {
         "frente": "Palavra-chave: devido processo legal",
-        "verso": "Explique devido processo legal dentro do tema Princípios do processo penal.",
-        "nivel": "conceito"
+        "verso": "devido processo legal: Presunção de inocência: culpado só depois do trânsito em julgado; dúvida sempre favorece o réu. Contraditório e ampla defesa: direito de ciência e manifestação sobre tudo que se produz no processo. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Princípios do processo penal",
@@ -783,6 +794,12 @@ export const direitoProcessualPenal = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -949,6 +966,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Inquérito policial: natureza e valor probatório em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1185,6 +1207,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Inquérito policial: natureza e valor probatório em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1363,8 +1390,9 @@ export const direitoProcessualPenal = [
       },
       {
         "frente": "Palavra-chave: inquérito policial",
-        "verso": "Explique inquérito policial dentro do tema Inquérito policial: natureza e valor probatório.",
-        "nivel": "conceito"
+        "verso": "inquérito policial: Inquérito é procedimento administrativo pré-processual: escrito, sigiloso (relativo), indisponível, inquisitivo e dispensável. A autoridade policial não pode arquivar o inquérito por conta própria — só o titular da ação, com chancela judicial. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Inquérito policial: natureza e valor probatório",
@@ -1559,6 +1587,12 @@ export const direitoProcessualPenal = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -1725,6 +1759,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Ação penal: espécies e condições em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -1961,6 +2000,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Ação penal: espécies e condições em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2139,8 +2183,9 @@ export const direitoProcessualPenal = [
       },
       {
         "frente": "Palavra-chave: ação penal pública",
-        "verso": "Explique ação penal pública dentro do tema Ação penal: espécies e condições.",
-        "nivel": "conceito"
+        "verso": "ação penal pública: Regra geral: ação penal pública incondicionada (MP age independente de manifestação da vítima). Ação pública condicionada exige representação da vítima ou requisição do Ministro da Justiça como condição prévia. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Ação penal: espécies e condições",
@@ -2335,6 +2380,12 @@ export const direitoProcessualPenal = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -2501,6 +2552,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Competência no processo penal em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2737,6 +2793,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Competência no processo penal em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -2915,8 +2976,9 @@ export const direitoProcessualPenal = [
       },
       {
         "frente": "Palavra-chave: competência territorial",
-        "verso": "Explique competência territorial dentro do tema Competência no processo penal.",
-        "nivel": "conceito"
+        "verso": "competência territorial: Competência territorial no processo penal: regra geral é o lugar da consumação do crime. Competência material considera a natureza do crime (militar, eleitoral, comum); competência funcional considera a fase/função no processo. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Competência no processo penal",
@@ -3111,6 +3173,12 @@ export const direitoProcessualPenal = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -3277,6 +3345,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Provas: princípios gerais e prova ilícita em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3513,6 +3586,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Provas: princípios gerais e prova ilícita em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -3691,8 +3769,9 @@ export const direitoProcessualPenal = [
       },
       {
         "frente": "Palavra-chave: prova ilícita",
-        "verso": "Explique prova ilícita dentro do tema Provas: princípios gerais e prova ilícita.",
-        "nivel": "conceito"
+        "verso": "prova ilícita: Prova ilícita viola norma de direito material; prova ilegítima viola norma de direito processual. Provas ilícitas devem ser desentranhadas do processo — não podem fundamentar a decisão. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Provas: princípios gerais e prova ilícita",
@@ -3887,6 +3966,12 @@ export const direitoProcessualPenal = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4053,6 +4138,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Prisão em flagrante em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4289,6 +4379,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Prisão em flagrante em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -4467,8 +4562,9 @@ export const direitoProcessualPenal = [
       },
       {
         "frente": "Palavra-chave: flagrante próprio",
-        "verso": "Explique flagrante próprio dentro do tema Prisão em flagrante.",
-        "nivel": "conceito"
+        "verso": "flagrante próprio: Flagrante próprio: cometendo ou acabou de cometer; impróprio: perseguido logo após; presumido: encontrado depois com objetos que indicam autoria. Particular pode prender em flagrante (facultativo); autoridade policial e agentes têm o dever de prender (obrigatório). Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Prisão em flagrante",
@@ -4663,6 +4759,12 @@ export const direitoProcessualPenal = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -4829,6 +4931,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Prisão preventiva e prisão temporária em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5065,6 +5172,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Prisão preventiva e prisão temporária em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5243,8 +5355,9 @@ export const direitoProcessualPenal = [
       },
       {
         "frente": "Palavra-chave: prisão preventiva",
-        "verso": "Explique prisão preventiva dentro do tema Prisão preventiva e prisão temporária.",
-        "nivel": "conceito"
+        "verso": "prisão preventiva: Preventiva: sem prazo fixo, mas sujeita a revisão periódica e fundamentação concreta. Temporária: prazo determinado, ligada à investigação e cabível nas hipóteses legais. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Prisão preventiva e prisão temporária",
@@ -5439,6 +5552,12 @@ export const direitoProcessualPenal = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -5605,6 +5724,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Audiência de custódia e liberdade provisória em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -5841,6 +5965,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Audiência de custódia e liberdade provisória em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6019,8 +6148,9 @@ export const direitoProcessualPenal = [
       },
       {
         "frente": "Palavra-chave: audiência de custódia",
-        "verso": "Explique audiência de custódia dentro do tema Audiência de custódia e liberdade provisória.",
-        "nivel": "conceito"
+        "verso": "audiência de custódia: Audiência de custódia: apresentação do preso ao juiz em até 24h, para controle de legalidade e verificação de maus-tratos. Decisões possíveis: relaxamento (prisão ilegal), liberdade provisória (com/sem fiança e cautelares) ou conversão em preventiva. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Audiência de custódia e liberdade provisória",
@@ -6215,6 +6345,12 @@ export const direitoProcessualPenal = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -6381,6 +6517,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Tribunal do Júri: procedimento em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6617,6 +6758,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Tribunal do Júri: procedimento em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -6795,8 +6941,9 @@ export const direitoProcessualPenal = [
       },
       {
         "frente": "Palavra-chave: pronúncia",
-        "verso": "Explique pronúncia dentro do tema Tribunal do Júri: procedimento.",
-        "nivel": "conceito"
+        "verso": "pronúncia: Procedimento bifásico: 1ª fase perante juiz togado (pronúncia, impronúncia, absolvição sumária, desclassificação); 2ª fase perante o júri popular. Jurados decidem por íntima convicção, sem fundamentar o voto, em sala secreta e incomunicáveis entre si. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Tribunal do Júri: procedimento",
@@ -6991,6 +7138,12 @@ export const direitoProcessualPenal = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   },
   {
@@ -7157,6 +7310,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Recursos e execução penal: noções introdutórias em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7393,6 +7551,11 @@ export const direitoProcessualPenal = [
           "seErrar": "A IA deve explicar Recursos e execução penal: noções introdutórias em linguagem simples, mostrar a armadilha e gerar uma questão parecida com contexto diferente.",
           "seAcertarComDuvida": "pedir que o aluno justifique a alternativa correta em uma frase",
           "seAcertarComSeguranca": "liberar questão mais difícil ou revisão espaçada"
+        },
+        "qualidadeQuestao": {
+          "gabaritoValidado": true,
+          "alternativasNormalizadas": true,
+          "dataRevisao": "2026-07-07"
         }
       },
       {
@@ -7571,8 +7734,9 @@ export const direitoProcessualPenal = [
       },
       {
         "frente": "Palavra-chave: apelação",
-        "verso": "Explique apelação dentro do tema Recursos e execução penal: noções introdutórias.",
-        "nivel": "conceito"
+        "verso": "apelação: Apelação combate sentenças; recurso em sentido estrito combate decisões interlocutórias específicas listadas em lei. Embargos de declaração corrigem obscuridade, contradição, omissão ou erro material — nunca rediscutem o mérito. Em prova, relacione o termo ao comando da banca e evite resposta decorada sem aplicação ao caso.",
+        "nivel": "conceito",
+        "corrigidoRevisaoQualidade": true
       },
       {
         "frente": "Pegadinha comum em Recursos e execução penal: noções introdutórias",
@@ -7767,6 +7931,12 @@ export const direitoProcessualPenal = [
       "prata": "acerta q1 a q5 e identifica a armadilha principal",
       "ouro": "acerta pelo menos 90% e explica q6/q7 com as próprias palavras",
       "diamante": "gera questão inédita com IA, comenta alternativas e resolve sem ajuda"
+    },
+    "qualidadeConteudo": {
+      "revisaoAutomaticaCampos": true,
+      "mcComGabaritoObrigatorio": true,
+      "flashcardsSemPlaceholder": true,
+      "dataRevisaoQualidade": "2026-07-07"
     }
   }
 ];
