@@ -5,7 +5,7 @@
 
 export const direitoProcessualTrabalhoAvancado = [
   {
-    "id": "competencia-da-justica-do-trabalho",
+    "id": "competencia-da-justica-do-trabalho-avancado",
     "materialTitle": "Direito Processual do Trabalho Avançado 10/10 Plus Revisado",
     "subject": "Direito Processual do Trabalho Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",

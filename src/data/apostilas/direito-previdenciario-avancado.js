@@ -1403,7 +1403,7 @@ export const direitoPrevidenciarioAvancado = [
     ]
   },
   {
-    "id": "pensao-por-morte-e-auxilio-reclusao",
+    "id": "pensao-por-morte-e-auxilio-reclusao-avancado",
     "materialTitle": "Direito Previdenciário Avançado 10/10 Plus Revisado",
     "subject": "Direito Previdenciário Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",

@@ -428,7 +428,7 @@ export const direitoAdministrativoAvancado = [
     "proximoTitulo": "Poderes administrativos"
   },
   {
-    "id": "poderes-administrativos",
+    "id": "poderes-administrativos-avancado",
     "materialTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Administrativo Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
@@ -1694,7 +1694,7 @@ export const direitoAdministrativoAvancado = [
     "proximoTitulo": "Responsabilidade civil do Estado"
   },
   {
-    "id": "responsabilidade-civil-do-estado",
+    "id": "responsabilidade-civil-do-estado-avancado",
     "materialTitle": "Direito Administrativo Avançado 10/10 Reescrito de Verdade",
     "subject": "Direito Administrativo Avançado",
     "contest": "PM / PC / PRF / Polícia Penal / Tribunais / OAB / Concursos Públicos",
