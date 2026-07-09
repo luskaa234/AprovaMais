@@ -2737,7 +2737,7 @@ export const direitosHumanosAtividadePolicialCasosPraticos = [
       "custódia",
       "abordagem",
       "uso da força",
-      "caso 10 relatorio policial com linguagem tecnica e nao discriminatoria"
+      "caso 10: relatório policial com linguagem técnica e não discriminatória"
     ],
     "fontesBase": [
       "legislação brasileira pertinente",

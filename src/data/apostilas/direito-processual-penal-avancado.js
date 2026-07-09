@@ -2404,7 +2404,7 @@ export const direitoProcessualPenalAvancado = [
       "prisões",
       "provas",
       "recursos",
-      "recursos habeas corpus revisao criminal e justica consensual"
+      "recursos, habeas corpus, revisão criminal e justiça consensual"
     ],
     "fontesBase": [
       "legislação brasileira pertinente",

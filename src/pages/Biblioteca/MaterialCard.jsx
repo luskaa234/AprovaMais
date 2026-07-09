@@ -1,4 +1,5 @@
 import { memo, useEffect, useMemo, useState } from "react";
+import { createPortal } from "react-dom";
 import { BookMarked, Download, Eye, FileArchive, FileCheck2, FileText, Heart, Image, Map, Trash2, X } from "lucide-react";
 import { Card, cx } from "../../components";
 import { ApostilaChapterReader } from "./ApostilaChapterReader";
@@ -128,15 +129,15 @@ function MaterialViewer({ material, onClose }) {
         <object data={src} type="application/pdf" title={material.titulo} className="library-viewer-frame">
           <div className="library-preview-state">
             <FileText size={34} />
-            <strong>Pre-visualizacao indisponivel</strong>
-            <p>Este PDF nao pode ser renderizado aqui. Use o botao de baixar para abrir no seu leitor de PDF.</p>
+            <strong>Pré-visualização indisponível</strong>
+            <p>Este PDF não pode ser renderizado aqui. Use o botão de baixar para abrir no seu leitor de PDF.</p>
           </div>
         </object>
       ) : (
         <div className="library-preview-state">
           <FileText size={34} />
-          <strong>Leitor disponivel para PDF</strong>
-          <p>Cadastre a apostila em formato PDF para que o botao Ver abra o conteudo aqui dentro.</p>
+          <strong>Leitor disponível para PDF</strong>
+          <p>Cadastre a apostila em formato PDF para que o botão Ver abra o conteúdo aqui dentro.</p>
         </div>
       )}
     </div>
@@ -149,6 +150,17 @@ function MaterialCardBase({ material, favorite, canDelete = false, onDelete, onF
   const subtitle = useMemo(() => getMaterialSubtitle(material), [material]);
   const Icon = config.icon;
   const canOpen = Boolean(material.url || material.chapters?.length);
+
+  useEffect(() => {
+    if (!viewerOpen || typeof document === "undefined") return undefined;
+
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [viewerOpen]);
 
   return (
     <>
@@ -191,7 +203,9 @@ function MaterialCardBase({ material, favorite, canDelete = false, onDelete, onF
         </div>
       </Card>
 
-      {viewerOpen ? <MaterialViewer material={material} onClose={() => setViewerOpen(false)} /> : null}
+      {viewerOpen && typeof document !== "undefined"
+        ? createPortal(<MaterialViewer material={material} onClose={() => setViewerOpen(false)} />, document.body)
+        : null}
     </>
   );
 }

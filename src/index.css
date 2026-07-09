@@ -21964,3 +21964,47 @@ body,
     font-size: 0.78rem !important;
   }
 }
+
+/* Final apostila navigation contrast guard. */
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button:first-child:not(:disabled) {
+  border: 1px solid rgba(147, 197, 253, 0.6) !important;
+  background: #f8fafc !important;
+  color: #1d4ed8 !important;
+  -webkit-text-fill-color: #1d4ed8 !important;
+  box-shadow: 0 1px 8px rgba(15, 23, 42, 0.18) !important;
+}
+
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button:first-child:not(:disabled) * {
+  color: #1d4ed8 !important;
+  -webkit-text-fill-color: #1d4ed8 !important;
+  stroke: #1d4ed8 !important;
+}
+
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button:last-child:not(:disabled) {
+  border: 1px solid rgba(96, 165, 250, 0.72) !important;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8) !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.3) !important;
+}
+
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button:last-child:not(:disabled) * {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+  stroke: #ffffff !important;
+}
+
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button:disabled {
+  border: 1px solid rgba(71, 85, 105, 0.85) !important;
+  background: #1e293b !important;
+  color: #cbd5e1 !important;
+  opacity: 1 !important;
+  -webkit-text-fill-color: #cbd5e1 !important;
+  box-shadow: none !important;
+}
+
+.library-viewer .apostila-reader .apostila-reader-actions button.apostila-reader-nav-button:disabled * {
+  color: #cbd5e1 !important;
+  -webkit-text-fill-color: #cbd5e1 !important;
+  stroke: #94a3b8 !important;
+}

@@ -563,7 +563,7 @@ export const policiaComunitariaMediacaoConflitos = [
       "prevenção",
       "SARA",
       "proximidade",
-      "comunicacao nao violenta e escuta ativa na atuacao policial"
+      "comunicação não violenta e escuta ativa na atuação policial"
     ],
     "fontesBase": [
       "legislação brasileira pertinente",

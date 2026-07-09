@@ -212,7 +212,7 @@ function buildApostila(id, chapters) {
     categoria: "Apostila",
     titulo: title,
     materia: subject,
-    descricao: `${normalizedChapters.length} capitulos para ${first.contest || "concurso"}${first.role ? ` (${first.role})` : ""}.`,
+    descricao: `${normalizedChapters.length} capítulos para ${first.contest || "concurso"}${first.role ? ` (${first.role})` : ""}.`,
     source: "VemAprovar Top1",
     chapters: normalizedChapters,
   };

@@ -41,13 +41,13 @@ function normalizeTextList(value) {
 function normalizeExplanation(value) {
   return asArray(value).flatMap((item) => {
     if (!item) return [];
-    if (typeof item === "string") return [{ titulo: "Explicacao", texto: item }];
+    if (typeof item === "string") return [{ titulo: "Explicação", texto: item }];
     if (typeof item === "object") {
-      const titulo = item.titulo || item.title || item.nome || "Explicacao";
+      const titulo = item.titulo || item.title || item.nome || "Explicação";
       const texto = item.texto || item.descricao || item.conteudo || item.explicacao || Object.values(item).filter((entry) => typeof entry === "string").join(" ");
       return texto ? [{ titulo, texto }] : [];
     }
-    return [{ titulo: "Explicacao", texto: String(item) }];
+    return [{ titulo: "Explicação", texto: String(item) }];
   });
 }
 
@@ -81,7 +81,7 @@ function normalizeMindMap(map) {
   const ramos = rawBranches.map((branch) => {
     if (typeof branch === "string") return { titulo: branch, itens: [] };
     return {
-      titulo: branch?.titulo || branch?.nome || branch?.label || "Topico",
+      titulo: branch?.titulo || branch?.nome || branch?.label || "Tópico",
       itens: normalizeTextList(branch?.itens || branch?.children || branch?.detalhes),
     };
   });
@@ -120,7 +120,7 @@ function buildTutorPrompt(chapter, message) {
     capitulo: chapter.moduleTitle,
     objetivo: chapter.tutorIA?.objetivo,
     comportamento: chapter.tutorIA?.comportamento,
-    limites: chapter.tutorIA?.limites || "Nao inventar dados; usar o conteudo do capitulo como base.",
+    limites: chapter.tutorIA?.limites || "Não inventar dados; usar o conteúdo do capítulo como base.",
     explicacaoSimples: chapter.explicacaoComoSeTivesse12,
     resumoFrase: chapter.resumoFrase,
     pontosChave: chapter.pontosChave,
@@ -131,9 +131,9 @@ function buildTutorPrompt(chapter, message) {
     perguntasDiagnostico: chapter.tutorIA?.perguntasDiagnostico,
   };
 
-  return `Atue como Tutor IA da VemAprovar no capitulo abaixo. Seja socratico, direto e exigente: explique simples, diagnostique a resposta do aluno e termine com uma pergunta curta para continuar o treino. Nao invente fatos, noticias, dados externos, leis ou exemplos que nao possam ser inferidos do contexto.
+  return `Atue como Tutor IA da VemAprovar no capítulo abaixo. Seja socrático, direto e exigente: explique simples, diagnostique a resposta do aluno e termine com uma pergunta curta para continuar o treino. Não invente fatos, notícias, dados externos, leis ou exemplos que não possam ser inferidos do contexto.
 
-CONTEXTO DO CAPITULO:
+CONTEXTO DO CAPÍTULO:
 ${JSON.stringify(context, null, 2)}
 
 RESPOSTA/PEDIDO DO ALUNO:
@@ -144,15 +144,15 @@ function buildLocalTutorResponse(chapter, message) {
   const normalized = normalizeAnswer(message);
   const keywords = normalizeTextList(chapter.termosChave);
   const hits = keywords.filter((keyword) => normalized.includes(normalizeAnswer(keyword)));
-  const mainRule = chapter.resumoFrase || firstValue(chapter.pontosChave) || chapter.explicacaoComoSeTivesse12 || "Use a estrutura do capitulo para resolver a questao.";
-  const trap = firstValue(chapter.pegadinhas) || chapter.armadilhaDaBanca || "Nao troque a regra central por uma impressao do enunciado.";
+  const mainRule = chapter.resumoFrase || firstValue(chapter.pontosChave) || chapter.explicacaoComoSeTivesse12 || "Use a estrutura do capítulo para resolver a questão.";
+  const trap = firstValue(chapter.pegadinhas) || chapter.armadilhaDaBanca || "Não troque a regra central por uma impressão do enunciado.";
   const subject = chapter.assunto || chapter.title || "o tema";
 
   if (/questao|questão|parecida|inedita|inédita/.test(normalized)) {
     return [
-      `Questao de treino sobre ${subject}:`,
-      `Uma alternativa de prova apresenta uma situacao parecida com este capitulo. Qual postura leva a resposta mais segura?`,
-      "A) Marcar a opcao que parece familiar, sem conferir o enunciado.",
+      `Questão de treino sobre ${subject}:`,
+      `Uma alternativa de prova apresenta uma situação parecida com este capítulo. Qual postura leva à resposta mais segura?`,
+      "A) Marcar a opção que parece familiar, sem conferir o enunciado.",
       "B) Separar fato, contexto e regra central antes de escolher.",
       "C) Decorar uma frase solta e aplicar em qualquer caso.",
       "Responda com A, B ou C e justifique em uma frase. Depois eu diagnostico sua resposta.",
@@ -161,33 +161,33 @@ function buildLocalTutorResponse(chapter, message) {
 
   if (/explica|explique|facil|fácil|resumo/.test(normalized)) {
     return [
-      "Explicacao simples:",
+      "Explicação simples:",
       mainRule,
-      `Pense assim: a banca costuma testar se voce entendeu a estrutura, nao se decorou uma frase isolada.`,
+      `Pense assim: a banca costuma testar se você entendeu a estrutura, não se decorou uma frase isolada.`,
       `Cuidado com esta pegadinha: ${trap}`,
-      "Agora me diga: qual detalhe do enunciado voce observaria primeiro?",
+      "Agora me diga: qual detalhe do enunciado você observaria primeiro?",
     ].join("\n\n");
   }
 
   if (/^(b|alternativa b|letra b)\b/.test(normalized)) {
     return [
-      "Correto. A letra B e a postura mais segura.",
-      `Por quê? Ela segue a regra central do capitulo: ${mainRule}`,
-      `Agora suba um nivel: explique por que a alternativa A cai na pegadinha "${trap}".`,
+      "Correto. A letra B é a postura mais segura.",
+      `Por quê? Ela segue a regra central do capítulo: ${mainRule}`,
+      `Agora suba um nível: explique por que a alternativa A cai na pegadinha "${trap}".`,
     ].join("\n\n");
   }
 
   if (/^(a|c|alternativa a|alternativa c|letra a|letra c)\b/.test(normalized)) {
     return [
-      "Ainda nao. Essa escolha se aproxima da pegadinha.",
-      `A regra do capitulo pede analisar a estrutura antes de marcar: ${mainRule}`,
+      "Ainda não. Essa escolha se aproxima da pegadinha.",
+      `A regra do capítulo pede analisar a estrutura antes de marcar: ${mainRule}`,
       `Tente de novo: qual alternativa separa fato, contexto e regra central?`,
     ].join("\n\n");
   }
 
   const diagnostic = hits.length
-    ? `Bom sinal: voce tocou em ${hits.map((item) => `"${item}"`).join(", ")}.`
-    : "Ainda ficou generico. Traga pelo menos uma palavra-chave do capitulo para provar dominio.";
+    ? `Bom sinal: você tocou em ${hits.map((item) => `"${item}"`).join(", ")}.`
+    : "Ainda ficou genérico. Traga pelo menos uma palavra-chave do capítulo para provar domínio.";
 
   return [
     diagnostic,
@@ -198,11 +198,11 @@ function buildLocalTutorResponse(chapter, message) {
 }
 
 function initialTutorMessages(chapter) {
-  const firstQuestion = firstValue(chapter.tutorIA?.perguntasDiagnostico) || "Explique a regra central deste capitulo com suas palavras.";
+  const firstQuestion = firstValue(chapter.tutorIA?.perguntasDiagnostico) || "Explique a regra central deste capítulo com suas palavras.";
   return [
     {
       role: "ai",
-      text: `Vamos treinar este capitulo sem decorar mecanicamente.\n\n${chapter.tutorIA?.objetivo || "Use o conteudo do capitulo como base."}\n\nPrimeira pergunta: ${firstQuestion}`,
+      text: `Vamos treinar este capítulo sem decorar mecanicamente.\n\n${chapter.tutorIA?.objetivo || "Use o conteúdo do capítulo como base."}\n\nPrimeira pergunta: ${firstQuestion}`,
     },
   ];
 }
@@ -289,7 +289,7 @@ function QuestionCard({ question, index, chapter, onAnswered }) {
       <div className="apostila-question-head">
         <span>Q{index + 1}</span>
         <div>
-          <strong>{formatLabel(question.tipo || "questao")}</strong>
+          <strong>{formatLabel(question.tipo || "questão")}</strong>
           <small>{question.bancaEstilo || question.nivel || "Treino"}</small>
         </div>
       </div>
@@ -406,7 +406,7 @@ function QuestionCard({ question, index, chapter, onAnswered }) {
 
       {submitted && criteria.length ? (
         <details className="apostila-question-details">
-          <summary>Criterios de correcao</summary>
+          <summary>Critérios de correção</summary>
           <ul>
             {criteria.map((item, itemIndex) => <li key={itemIndex}>{item}</li>)}
           </ul>
@@ -461,7 +461,7 @@ function ReviewPlanBlock({ chapter, review }) {
   const hasProgress = Boolean(review);
 
   return (
-    <InfoBlock title="Revisao programada" tone="green">
+    <InfoBlock title="Revisão programada" tone="green">
       {hasProgress ? (
         <div className="apostila-review-status">
           <div className="apostila-review-score">
@@ -469,7 +469,7 @@ function ReviewPlanBlock({ chapter, review }) {
             <span>{review.acertos} de {review.total} objetivas corretas</span>
           </div>
           <div className="apostila-review-next">
-            <span>Proxima revisao</span>
+            <span>Próxima revisão</span>
             <strong>{review.proximaRevisao}</strong>
             <small>{review.urgencia}</small>
           </div>
@@ -485,8 +485,8 @@ function ReviewPlanBlock({ chapter, review }) {
       ) : (
         <div className="apostila-review-status">
           <div className="apostila-review-task">
-            <strong>Comece pelas questoes</strong>
-            <p>Responda as questoes do capitulo para a revisao ser calculada pelo seu desempenho real.</p>
+            <strong>Comece pelas questões</strong>
+            <p>Responda às questões do capítulo para a revisão ser calculada pelo seu desempenho real.</p>
           </div>
           <KeyValueGrid data={{
             primeira: defaultPlan.primeira,
@@ -504,8 +504,8 @@ function ReviewPlanBlock({ chapter, review }) {
 function TutorBlock({ chapter }) {
   const quickPrompts = [
     ...normalizeTextList(chapter.tutorIA?.perguntasDiagnostico),
-    "Me explica facil",
-    "Gere uma questao parecida",
+    "Me explica fácil",
+    "Gere uma questão parecida",
   ].filter(Boolean);
   const [messages, setMessages] = useState(() => initialTutorMessages(chapter));
   const [input, setInput] = useState("");
@@ -538,7 +538,7 @@ function TutorBlock({ chapter }) {
         });
       }
 
-      if (!text || /indisponivel|em breve|nao consegui|não consegui|preciso que voce esteja logado/i.test(text)) {
+      if (!text || /indisponivel|indisponível|em breve|nao consegui|não consegui|preciso que voce esteja logado|preciso que você esteja logado/i.test(text)) {
         text = buildLocalTutorResponse(chapter, cleanMessage);
       }
 
@@ -553,8 +553,8 @@ function TutorBlock({ chapter }) {
   return (
     <InfoBlock title="Tutor IA" tone="blue">
       <div className="apostila-tutor-grid">
-        <span><Brain size={16} /> {chapter.tutorIA.objetivo || chapter.tutorIA.prompt || "Treinar este capitulo com base no conteudo."}</span>
-        <span><MessageSquareText size={16} /> {chapter.tutorIA.comportamento || "Explicacao direta, diagnostico do erro e tarefa curta de revisao."}</span>
+        <span><Brain size={16} /> {chapter.tutorIA.objetivo || chapter.tutorIA.prompt || "Treinar este capítulo com base no conteúdo."}</span>
+        <span><MessageSquareText size={16} /> {chapter.tutorIA.comportamento || "Explicação direta, diagnóstico do erro e tarefa curta de revisão."}</span>
         {chapter.tutorIA.limites ? <span><Layers3 size={16} /> {chapter.tutorIA.limites}</span> : null}
       </div>
 
@@ -565,7 +565,7 @@ function TutorBlock({ chapter }) {
               {message.text}
             </div>
           ))}
-          {loading ? <div className="apostila-tutor-message is-ai">Pensando com base neste capitulo...</div> : null}
+          {loading ? <div className="apostila-tutor-message is-ai">Pensando com base neste capítulo...</div> : null}
         </div>
 
         {quickPrompts.length ? (
@@ -589,7 +589,7 @@ function TutorBlock({ chapter }) {
                 sendTutorMessage();
               }
             }}
-            placeholder="Responda ao tutor ou peça uma explicacao..."
+            placeholder="Responda ao tutor ou peça uma explicação..."
             rows={3}
             value={input}
           />
@@ -628,8 +628,8 @@ function ApostilaChapterReaderBase({ chapters = [], material = null }) {
     return (
       <div className="library-preview-state">
         <BookOpenCheck size={34} />
-        <strong>Apostila sem capitulos</strong>
-        <p>Este material ainda nao possui conteudo estruturado para leitura.</p>
+        <strong>Apostila sem capítulos</strong>
+        <p>Este material ainda não possui conteúdo estruturado para leitura.</p>
       </div>
     );
   }
@@ -639,12 +639,12 @@ function ApostilaChapterReaderBase({ chapters = [], material = null }) {
       <aside className="apostila-reader-sidebar">
         <div className="apostila-reader-sidebar-head">
           <strong>{materialTitle}</strong>
-          <span>{chapters.length} capitulos</span>
+          <span>{chapters.length} capítulos</span>
         </div>
         <div className="apostila-progress" aria-label={`Progresso ${progress}%`}>
           <span style={{ width: `${progress}%` }} />
         </div>
-        <nav aria-label="Capitulos da apostila">
+        <nav aria-label="Capítulos da apostila">
           {chapters.map((item, index) => (
             <button
               key={`${item.id}-${index}`}
@@ -709,7 +709,7 @@ function ApostilaChapterReaderBase({ chapters = [], material = null }) {
         {explanations.length ? (
           <div className="apostila-explain-grid">
             {explanations.map((item, index) => (
-              <InfoBlock key={`${item.titulo}-${index}`} title={item.titulo || "Explicacao"} tone="neutral">
+              <InfoBlock key={`${item.titulo}-${index}`} title={item.titulo || "Explicação"} tone="neutral">
                 <p>{item.texto}</p>
               </InfoBlock>
             ))}
@@ -749,7 +749,7 @@ function ApostilaChapterReaderBase({ chapters = [], material = null }) {
         <FlashcardsBlock flashcards={chapter.flashcards} />
 
         {questions.length ? (
-          <InfoBlock title={`Questoes premium (${questions.length})`} tone="violet">
+          <InfoBlock title={`Questões premium (${questions.length})`} tone="violet">
             <div className="apostila-questions">
               {questions.map((question, index) => (
                 <QuestionCard
@@ -784,7 +784,7 @@ function ApostilaChapterReaderBase({ chapters = [], material = null }) {
         <MindMapBlock map={chapter.mapaMentalTexto || chapter.mapaMentalTextual} />
 
         {chapter.rubricaDominio ? (
-          <InfoBlock title="Dominio do capitulo" tone="neutral">
+          <InfoBlock title="Domínio do capítulo" tone="neutral">
             <KeyValueGrid data={chapter.rubricaDominio} />
           </InfoBlock>
         ) : null}

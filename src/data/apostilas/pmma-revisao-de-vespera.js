@@ -637,7 +637,7 @@ export const pmmaRevisaoDeVespera = [
       "estratégia",
       "memorização",
       "questões finais",
-      "vespera 3 matematica e rlm formulas que mais viram questao"
+      "véspera 3: matemática e RLM, fórmulas que mais viram questão"
     ],
     "fontesBase": [
       "legislação brasileira pertinente",
@@ -2137,7 +2137,7 @@ export const pmmaRevisaoDeVespera = [
       "estratégia",
       "memorização",
       "questões finais",
-      "vespera 8 ctb e seguranca publica em revisao rapida"
+      "véspera 8: CTB e segurança pública em revisão rápida"
     ],
     "fontesBase": [
       "legislação brasileira pertinente",

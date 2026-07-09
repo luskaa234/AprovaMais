@@ -66,7 +66,7 @@ function normalizeAdminMaterial(draft) {
     categoria: "Apostila",
     titulo: draft.titulo.trim(),
     materia: draft.materia.trim() || "Geral",
-    descricao: draft.descricao.trim() || "Apostila adicionada pela administracao.",
+    descricao: draft.descricao.trim() || "Apostila adicionada pela administração.",
     url: draft.url.trim(),
     source: "Admin",
   };
@@ -126,7 +126,7 @@ export default function BibliotecaPage() {
     const totalAdmin = materiais.filter((item) => item.source === "Admin").length;
     return [
       { icon: Library, label: "apostilas", value: materiais.length, tone: "blue" },
-      { icon: BookOpenCheck, label: "materias", value: totalMaterias, tone: "green" },
+      { icon: BookOpenCheck, label: "matérias", value: totalMaterias, tone: "green" },
       { icon: FileText, label: "do admin", value: totalAdmin, tone: "violet" },
       { icon: Heart, label: "favoritos", value: favoritosSet.size, tone: "rose" },
     ];
@@ -162,7 +162,7 @@ export default function BibliotecaPage() {
 
   const filtersContent = (
     <div className="library-filters-grid">
-      <Select label="Materia" placeholder="Todas" options={materiaOptions} value={filters.materia} onChange={(event) => updateFilter("materia", event.target.value)} />
+      <Select label="Matéria" placeholder="Todas" options={materiaOptions} value={filters.materia} onChange={(event) => updateFilter("materia", event.target.value)} />
       <Select label="Favoritos" placeholder="Todos" options={["Favoritos"]} value={filters.favoritos} onChange={(event) => updateFilter("favoritos", event.target.value)} />
     </div>
   );
@@ -173,7 +173,7 @@ export default function BibliotecaPage() {
         <div className="library-hero-copy">
           <p className="library-eyebrow"><Sparkles size={14} /> Acervo de estudo</p>
           <h1>Biblioteca</h1>
-          <p>Apostilas organizadas por materia para revisao e estudo dirigido.</p>
+          <p>Apostilas organizadas por matéria para revisão e estudo dirigido.</p>
         </div>
         <div className="library-stats" aria-label="Resumo da biblioteca">
           {stats.map((stat) => <LibraryStat key={stat.label} {...stat} />)}
@@ -184,7 +184,7 @@ export default function BibliotecaPage() {
         <Input
           className="library-search"
           icon={Search}
-          placeholder="Buscar por titulo ou materia..."
+          placeholder="Buscar por título ou matéria..."
           value={filters.search}
           onChange={(event) => updateFilter("search", event.target.value)}
         />
@@ -220,7 +220,7 @@ export default function BibliotecaPage() {
           ))}
         </div>
       ) : (
-        <EmptyState icon={Search} title="Nenhuma apostila encontrada" description="Ajuste a busca ou limpe os filtros para ver as apostilas disponiveis." action={<Button onClick={clearFilters}>Limpar filtros</Button>} />
+        <EmptyState icon={Search} title="Nenhuma apostila encontrada" description="Ajuste a busca ou limpe os filtros para ver as apostilas disponíveis." action={<Button onClick={clearFilters}>Limpar filtros</Button>} />
       )}
 
       <Modal open={mobileFiltersOpen} title="Filtros" onClose={() => setMobileFiltersOpen(false)} footer={<Button onClick={() => setMobileFiltersOpen(false)}>Aplicar</Button>}>
@@ -240,10 +240,10 @@ export default function BibliotecaPage() {
           }
         >
           <div className="library-admin-form">
-            <Input label="Titulo" value={draft.titulo} onChange={(event) => updateDraft("titulo", event.target.value)} placeholder="Ex: Apostila de Direito Penal" />
-            <Input label="Materia" value={draft.materia} onChange={(event) => updateDraft("materia", event.target.value)} placeholder="Ex: Direito Penal" />
+            <Input label="Título" value={draft.titulo} onChange={(event) => updateDraft("titulo", event.target.value)} placeholder="Ex: Apostila de Direito Penal" />
+            <Input label="Matéria" value={draft.materia} onChange={(event) => updateDraft("materia", event.target.value)} placeholder="Ex: Direito Penal" />
             <Input label="URL do arquivo" value={draft.url} onChange={(event) => updateDraft("url", event.target.value)} placeholder="https://... ou /materiais/apostila.pdf" />
-            <Input label="Descricao" value={draft.descricao} onChange={(event) => updateDraft("descricao", event.target.value)} placeholder="Resumo curto da apostila" />
+            <Input label="Descrição" value={draft.descricao} onChange={(event) => updateDraft("descricao", event.target.value)} placeholder="Resumo curto da apostila" />
             <div className="library-admin-note">
               <Trash2 size={15} />
               Apenas apostilas adicionadas manualmente pelo admin podem ser apagadas.

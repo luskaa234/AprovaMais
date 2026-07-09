@@ -1537,7 +1537,7 @@ export const pmmaCadernoDeErrosInteligente = [
       "metacognição",
       "revisão",
       "desempenho",
-      "erro 6 falha de revisao espacada"
+      "erro 6: falha de revisão espaçada"
     ],
     "fontesBase": [
       "legislação brasileira pertinente",
@@ -2137,7 +2137,7 @@ export const pmmaCadernoDeErrosInteligente = [
       "metacognição",
       "revisão",
       "desempenho",
-      "erro 8 nao separar materia fraca de topico fraco"
+      "erro 8: não separar matéria fraca de tópico fraco"
     ],
     "fontesBase": [
       "legislação brasileira pertinente",
@@ -2737,7 +2737,7 @@ export const pmmaCadernoDeErrosInteligente = [
       "metacognição",
       "revisão",
       "desempenho",
-      "erro 10 painel inteligente de revisao pmma"
+      "erro 10: painel inteligente de revisão PMMA"
     ],
     "fontesBase": [
       "legislação brasileira pertinente",

@@ -2737,7 +2737,7 @@ export const legislacaoPmmaQuestoesPorArtigo = [
       "hierarquia",
       "disciplina",
       "estatuto",
-      "bloco 10 revisao integrada por artigos e palavras chave"
+      "bloco 10: revisão integrada por artigos e palavras-chave"
     ],
     "fontesBase": [
       "legislação brasileira pertinente",
