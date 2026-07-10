@@ -231,10 +231,30 @@ export function UserProvider({ children }) {
       updateUser({ email, loggedOut: false });
       return localUser;
     }
-    const { error } = await supabase.auth.signInWithPassword({ email, password });
+    const { data, error } = await supabase.auth.signInWithPassword({ email, password });
     if (error) throw error;
+    const signedInUser = data.session?.user || data.user;
+    if (signedInUser?.id) {
+      resetPersistedStudyStateForAuthUser(signedInUser.id);
+      setAuthUser(signedInUser);
+      setIsLoading(false);
+
+      const current = readLocalSession();
+      if (current?.registrationPending) {
+        const { registrationPending: _rp, planoAtivo: _pa, planoExpiraEm: _pe, emTeste: _et, ...rest } = current;
+        window.localStorage.setItem("aprovamais-session", JSON.stringify(rest));
+        setLocalSession(rest);
+      }
+
+      try {
+        setProfile(await ensureProfile(signedInUser));
+      } catch (profileError) {
+        console.warn("Falha ao sincronizar perfil do usuÃ¡rio.", profileError?.message || profileError);
+        setProfile(null);
+      }
+    }
     return true;
-  }, [localUser, updateUser]);
+  }, [ensureProfile, localUser, updateUser]);
 
   const register = useCallback(async (name, email, password) => {
     resetPersistedStudyStateForAuthUser(String(email || "").toLowerCase());

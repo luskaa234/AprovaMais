@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import BrandLogo from "../BrandLogo";
-import Navbar from "../Navbar";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../ui/card";
 
 function AuthLayout({ title, description, children }) {
   const pageKey = title
@@ -11,32 +9,53 @@ function AuthLayout({ title, description, children }) {
     .replace(/\s+/g, "-");
 
   return (
-    <main className={`auth-saas-page auth-saas-page-${pageKey}`}>
-      <Navbar />
+    <main className={`auth-native-page auth-saas-page auth-saas-page-${pageKey}`}>
+      <div className="auth-native-ambient" aria-hidden="true">
+        <span />
+        <span />
+        <span />
+      </div>
 
-      <section className="auth-saas-shell" aria-label={title}>
-        <div className="auth-saas-copy">
-          <Link className="auth-saas-copy-logo" to="/" aria-label="VemAprovar - início">
-            <BrandLogo />
-          </Link>
-          <span className="auth-saas-badge">Área do candidato</span>
-          <h1>Entre no ritmo certo para passar.</h1>
-          <p>
-            Acesse seu plano, acompanhe metas, revise conteúdos e mantenha sua
-            rotina de estudos organizada em um só lugar.
-          </p>
-        </div>
+      <header className="auth-native-top">
+        <Link className="auth-native-brand" to="/" aria-label="VemAprovar - inicio">
+          <BrandLogo variant="white" width={168} height={46} />
+        </Link>
+      </header>
 
-        <Card className="auth-saas-card">
-          <CardHeader className="auth-saas-header">
-            <Link className="auth-saas-logo" to="/" aria-label="VemAprovar - início">
-              <BrandLogo />
+      <section className="auth-native-shell" aria-label={title}>
+        <aside className="auth-native-preview" aria-hidden="true">
+          <div className="auth-native-phone">
+            <div className="auth-native-phone-top">
+              <img src="/brand/vemaprovar-monograma-white.png" alt="" draggable="false" />
+              <span />
+            </div>
+            <div className="auth-native-meter">
+              <strong>86</strong>
+              <span />
+            </div>
+            <div className="auth-native-stack">
+              <i />
+              <i />
+              <i />
+            </div>
+            <div className="auth-native-dock">
+              <span />
+              <span />
+              <span />
+            </div>
+          </div>
+        </aside>
+
+        <section className="auth-native-panel auth-saas-card">
+          <div className="auth-saas-header">
+            <Link className="auth-saas-logo" to="/" aria-label="VemAprovar - inicio">
+              <BrandLogo variant="white" width={132} height={38} />
             </Link>
-            <CardTitle className="auth-saas-title">{title}</CardTitle>
-            <CardDescription className="auth-saas-description">{description}</CardDescription>
-          </CardHeader>
-          <CardContent className="auth-saas-content">{children}</CardContent>
-        </Card>
+            <h1 className="auth-saas-title">{title}</h1>
+            <p className="auth-saas-description">{description}</p>
+          </div>
+          <div className="auth-saas-content">{children}</div>
+        </section>
       </section>
     </main>
   );

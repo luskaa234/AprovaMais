@@ -12,7 +12,7 @@
   "navigationDividerColorDark": "#000000",
   "backgroundColor": "#EDF2FA",
   "enableNotifications": true,
-  "startUrl": "/",
+  "startUrl": "/?pwa=1",
   "iconUrl": "https://aprova-mais-seven.vercel.app/pwa/pwa-512.png",
   "maskableIconUrl": "https://aprova-mais-seven.vercel.app/pwa/pwa-512.png",
   "splashScreenFadeOutDuration": 300,

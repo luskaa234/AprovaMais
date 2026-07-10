@@ -3,7 +3,7 @@
   "short_name": "VemAprovar",
   "description": "Plataforma de estudos para concursos com plano, questoes, simulados e revisoes.",
   "id": "/",
-  "start_url": "/",
+  "start_url": "/?pwa=1",
   "scope": "/",
   "display": "standalone",
   "display_override": ["standalone", "minimal-ui"],

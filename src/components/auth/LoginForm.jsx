@@ -48,7 +48,7 @@ function LoginForm() {
         }),
       );
       toast.success("Login realizado com sucesso.");
-      navigate("/");
+      navigate("/", { replace: true });
     } catch (error) {
       toast.error(error.message || "Não foi possível entrar.");
     }
