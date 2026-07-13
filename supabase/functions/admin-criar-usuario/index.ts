@@ -17,7 +17,7 @@ Deno.serve(async (req) => {
     const body = await req.json().catch(() => ({}));
     const email = normalizeEmail(body.email);
     const password = String(body.password || body.senha || "");
-    const name = email.split("@")[0] || "Aluno";
+    const name = String(body.name || body.nome || "").trim() || email.split("@")[0] || "Aluno";
     const vitalicio = Boolean(body.vitalicio);
 
     if (!email || !email.includes("@")) throw new Error("Informe um email valido.");

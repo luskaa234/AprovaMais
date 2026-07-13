@@ -33,7 +33,7 @@ export const AdminLayout = memo(({ standalone = false }) => {
   const [maintenance, setMaintenance] = useState({ enabled: false, message: "" });
   const [createModalOpen, setCreateModalOpen] = useState(false);
   const [createdLogin, setCreatedLogin] = useState("");
-  const [newUser, setNewUser] = useState({ email: "", password: "", vitalicio: false });
+  const [newUser, setNewUser] = useState({ email: "", name: "", password: "", vitalicio: false });
   const [deleteTarget, setDeleteTarget] = useState(null);
   const [deleteConfirmation, setDeleteConfirmation] = useState("");
 
@@ -88,7 +88,7 @@ export const AdminLayout = memo(({ standalone = false }) => {
     try {
       const result = await adminService.criarUsuario(newUser);
       setCreatedLogin(result.login?.email || newUser.email);
-      setNewUser({ email: "", password: "", vitalicio: false });
+      setNewUser({ email: "", name: "", password: "", vitalicio: false });
       await load(search);
     } catch (err) {
       setError(err.message || "Não foi possível criar o usuário.");
@@ -181,7 +181,7 @@ export const AdminLayout = memo(({ standalone = false }) => {
               icon={UserPlus}
               onClick={() => {
                 setCreatedLogin("");
-                setNewUser({ email: "", password: "", vitalicio: false });
+                setNewUser({ email: "", name: "", password: "", vitalicio: false });
                 setCreateModalOpen(true);
               }}
             >
@@ -391,7 +391,7 @@ export const AdminLayout = memo(({ standalone = false }) => {
             <div className="mb-4 flex items-start justify-between gap-4">
               <div>
                 <h2 className="text-xl font-black text-slate-950">Criar usuário</h2>
-                <p className="mt-1 text-sm text-slate-500">Cadastre o email e a senha inicial do login do aluno.</p>
+                <p className="mt-1 text-sm text-slate-500">Cadastre nome, email e senha inicial do login do aluno.</p>
               </div>
               <Button
                 variant="ghost"
@@ -405,6 +405,7 @@ export const AdminLayout = memo(({ standalone = false }) => {
             </div>
             <form className="grid gap-3" onSubmit={createUser}>
               <Input label="Email" type="email" value={newUser.email} onChange={(event) => setNewUser((current) => ({ ...current, email: event.target.value }))} required />
+              <Input label="Nome" value={newUser.name} onChange={(event) => setNewUser((current) => ({ ...current, name: event.target.value }))} required />
               <Input
                 autoComplete="new-password"
                 helperText="Use pelo menos 6 caracteres."
