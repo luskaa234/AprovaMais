@@ -5419,9 +5419,7 @@ body *,
 .internal-app-light button.bg-blue-600,
 .internal-app-light button.bg-blue-600 *,
 .internal-app-light .internal-nav-active,
-.internal-app-light .internal-nav-active *,
-.internal-app-light .payment-primary-button,
-.internal-app-light .payment-primary-button * {
+.internal-app-light .internal-nav-active * {
   border-color: #1d63c4 !important;
   background-color: #1d63c4 !important;
   color: #ffffff !important;
@@ -5494,4 +5492,41 @@ body *,
 .internal-app-light [class*="shadow-gray"],
 .internal-app-light [class*="shadow-slate"] {
   --tw-shadow-color: rgba(15, 23, 42, 0.08) !important;
+}
+
+/* Final button legibility guard: this file loads after index.css. */
+.auth-primary-button,
+.auth-primary-button *,
+.auth-saas-form .auth-primary-button,
+.auth-saas-form .auth-primary-button * {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+.auth-primary-button {
+  border-color: #1d63c4 !important;
+  background: linear-gradient(135deg, #1d63c4, #2e97d4) !important;
+  box-shadow: 0 16px 34px rgba(29, 99, 196, 0.2) !important;
+}
+
+.auth-google-button,
+.auth-google-button:not(:disabled),
+.internal-app-light main button[class~="bg-white"]:not(.bg-blue-600):not(.bg-royal):not(.aprova-btn-primary),
+.internal-app-light main button[class~="bg-slate-50"]:not(.bg-blue-600):not(.bg-royal):not(.aprova-btn-primary),
+.internal-app-light main button[class*="bg-white/"]:not(.bg-blue-600):not(.bg-royal):not(.aprova-btn-primary) {
+  color: #334155 !important;
+  -webkit-text-fill-color: #334155 !important;
+}
+
+.auth-google-button svg,
+.internal-app-light main button[class~="bg-white"]:not(.bg-blue-600):not(.bg-royal):not(.aprova-btn-primary) svg,
+.internal-app-light main button[class~="bg-slate-50"]:not(.bg-blue-600):not(.bg-royal):not(.aprova-btn-primary) svg,
+.internal-app-light main button[class*="bg-white/"]:not(.bg-blue-600):not(.bg-royal):not(.aprova-btn-primary) svg {
+  color: currentColor !important;
+  stroke: currentColor !important;
+}
+
+.auth-google-button span {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
 }

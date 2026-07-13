@@ -1,0 +1,56 @@
+export const sampleApostilaChapter = {
+  id: "ideia-central",
+  materialTitle: "Português para PMMA",
+  subject: "Português",
+  contest: "Polícia Militar",
+  role: "Soldado",
+  moduleTitle: "Interpretação e compreensão textual",
+  chapterIndex: 1,
+  totalChapters: 10,
+  title: "Ideia central e informações explícitas",
+  assunto: "Interpretação de texto",
+  tecnica: "Localização direta",
+  competencia: "Separar ideia central de ideia secundária",
+  dificuldade: "Fácil",
+  tempoLeituraMin: 6,
+  tempoExercicioMin: 4,
+  bancaRatings: { FGV: 4, CESPE: 4, FCC: 3, ENEM: 2 },
+  termosChave: ["ideia central", "ideia secundária", "informação explícita"],
+  corpo: [
+    "Antes de qualquer regra de gramática, toda banca testa se você leu o texto de verdade. A maioria dos erros em interpretação não vem de falta de vocabulário — vem de responder com base no que o candidato acha que o texto disse, e não no que ele de fato disse.",
+    "A ideia central é a mensagem que resume o texto inteiro em uma frase. Não é o primeiro parágrafo, não é o título — é o fio que conecta todos os parágrafos. Já a ideia secundária aparece em um parágrafo específico e serve de exemplo, dado ou argumento de apoio à ideia central.",
+    "Informação explícita é aquilo que está escrito literalmente no texto: não exige raciocínio adicional, só localização cuidadosa — e atenção a advérbios como 'apenas' e 'somente', que a banca costuma manipular para criar pegadinha.",
+  ],
+  pontosChave: [
+    "Ideia central percorre o texto inteiro; ideia secundária vive em um parágrafo só.",
+    "Informação explícita se resolve por localização, não por interpretação.",
+    "Advérbios de exclusão ('apenas', 'somente') mudam o alcance de uma afirmação — releia-os sempre.",
+  ],
+  checkRapido: {
+    pergunta:
+      "Um texto descreve três causas da violência urbana e cita, como exemplo, um dado estatístico sobre roubo de veículos. Esse dado estatístico é:",
+    opcoes: ["A ideia central do texto", "Uma ideia secundária, que sustenta a ideia central", "Uma informação irrelevante"],
+    correta: 1,
+    justificativa: "O dado é um exemplo pontual que sustenta a tese — se removido, os parágrafos ainda fazem sentido, mas perdem um detalhe. Essa é a marca da ideia secundária.",
+  },
+  oQueCobra: "Separar a tese do texto (ideia central) dos exemplos e dados que apenas sustentam essa tese (ideia secundária), e localizar informações escritas literalmente sem confundir com opinião do candidato.",
+  precisaSaberAntes: "Reconhecer conectivos e advérbios de exclusão ('apenas', 'somente', 'exceto') e diferenciar fato apresentado no texto de opinião do autor.",
+  explicacao: [
+    {
+      titulo: "Ideia central x ideia secundária",
+      texto: "A ideia central está presente do início ao fim do texto e resume o propósito do autor; se removida, o texto perde sentido. A ideia secundária aparece em um trecho específico — se removida, o texto ainda faz sentido, só perde um detalhe.",
+    },
+    {
+      titulo: "Informação explícita",
+      texto: "Localize a palavra-chave do enunciado no texto e leia a frase inteira ao redor dela — a banca costuma alterar uma informação próxima (trocar 'aumento' por 'redução', inverter causa e consequência) para gerar erro.",
+    },
+  ],
+  comoIdentificar: "Enunciados como 'de acordo com o texto', 'o texto afirma que' ou 'está explícito no texto' pedem localização direta, não interpretação.",
+  pegadinhas: [
+    "Transformar um exemplo ou dado do texto na 'ideia principal'.",
+    "Extrapolar com palavras como 'sempre', 'nunca', 'elimina completamente' quando o texto foi mais moderado.",
+    "Ignorar advérbios de exclusão ('apenas', 'somente') que limitam o alcance de uma afirmação.",
+  ],
+  resumoFrase: "Ideia central é o fio que atravessa o texto inteiro; informação explícita se resolve por localização, não por interpretação.",
+  proximoTitulo: "Inferência, pressupostos e subentendidos",
+};

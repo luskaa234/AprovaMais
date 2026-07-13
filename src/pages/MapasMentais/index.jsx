@@ -2,13 +2,13 @@
 import { AnimatePresence, motion } from "framer-motion";
 import {
   ArrowLeft, Bookmark, Brain, CalendarCheck, Edit3, FileQuestion,
-  FileText, Maximize2, Minus, Plus, Search, Share2, SlidersHorizontal,
-  Trash2, X,
+  FileText, Maximize2, Minus, Moon, Plus, Search, Share2, SlidersHorizontal,
+  Sun, Trash2, X,
 } from "lucide-react";
 import { Badge, Button, Card, EmptyState, HtmlFrameViewer, Input, PdfFrameViewer, Select, cx } from "../../components";
 import { Modal } from "../../modals";
 import { useInternalRouter, useNotifications } from "../../contexts";
-import { useAsyncData } from "../../hooks";
+import { useAsyncData, useReadingTheme } from "../../hooks";
 import { aiService, flashcardsService, mapasService, questoesService } from "../../services";
 import { useMapasStore } from "../../stores";
 
@@ -97,7 +97,7 @@ function Sheet({ open, title, onClose, children, footer }) {
       onClick={onClose}
     >
       <motion.div
-        className="relative w-full rounded-t-3xl bg-white px-4 pb-[calc(1.25rem+env(safe-area-inset-bottom))] pt-3 shadow-2xl"
+        className="relative w-full rounded-t-3xl bg-white px-4 pb-[calc(1.25rem+env(safe-area-inset-bottom))] pt-3 shadow-2xl dark:bg-slate-900"
         style={{ maxHeight: "90svh", overflowY: "auto" }}
         initial={{ y: "100%" }}
         animate={{ y: open ? 0 : "100%" }}
@@ -106,10 +106,10 @@ function Sheet({ open, title, onClose, children, footer }) {
         onDragEnd={(_, info) => { if (info.offset.y > 72) onClose(); }}
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-slate-200" />
+        <div className="mx-auto mb-3 h-1 w-10 rounded-full bg-slate-200 dark:bg-slate-700" />
         <div className="mb-4 flex items-center justify-between gap-3">
-          <h2 className="text-base font-black text-slate-900">{title}</h2>
-          <button aria-label="Fechar" className="rounded-xl p-1.5 text-slate-400 hover:bg-slate-100" onClick={onClose} type="button">
+          <h2 className="text-base font-black text-slate-900 dark:text-slate-100">{title}</h2>
+          <button aria-label="Fechar" className="rounded-xl p-1.5 text-slate-400 hover:bg-slate-100 dark:text-slate-500 dark:hover:bg-slate-800" onClick={onClose} type="button">
             <X size={17} />
           </button>
         </div>
@@ -233,14 +233,14 @@ function MapViewer({ map, full, zoom, pan, collapsed, onCloseFull, onFullscreen,
   const centerMap = useCallback(() => { onZoom(1); onPan({ x: 0, y: 0 }); }, [onPan, onZoom]);
 
   return (
-    <Card hover={false} className={cx("mindmap-viewer overflow-hidden p-0", full && "fixed inset-3 z-50", mobile && "mindmap-viewer-mobile")}>
+    <Card hover={false} className={cx("mindmap-viewer overflow-hidden p-0 dark:border-slate-800 dark:bg-slate-900", full && "fixed inset-3 z-50", mobile && "mindmap-viewer-mobile")}>
       {/* Toolbar */}
       <div className="mindmap-viewer-toolbar flex items-center justify-between gap-3 border-b border-slate-100 bg-white px-4 py-2.5">
         <div className="flex min-w-0 items-center gap-2">
           {mobile && onBack && (
             <button
               aria-label="Voltar"
-              className="flex shrink-0 items-center gap-1 rounded-xl border border-slate-200 bg-white px-2.5 py-1.5 text-xs font-black text-slate-600 transition active:scale-95"
+              className="flex shrink-0 items-center gap-1 rounded-xl border border-slate-200 bg-white px-2.5 py-1.5 text-xs font-black text-slate-600 transition active:scale-95 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
               onClick={onBack} type="button"
             >
               <ArrowLeft size={13} /> Lista
@@ -253,17 +253,17 @@ function MapViewer({ map, full, zoom, pan, collapsed, onCloseFull, onFullscreen,
         </div>
         <div className="flex shrink-0 items-center gap-1.5">
           {hasPdf && (
-            <div className="flex rounded-lg border border-slate-200 bg-slate-50 p-0.5 text-xs font-bold">
+            <div className="flex rounded-lg border border-slate-200 bg-slate-50 p-0.5 text-xs font-bold dark:border-slate-700 dark:bg-slate-800">
               <button
                 onClick={() => setViewMode("map")}
-                className={cx("rounded-md px-2.5 py-1 transition", viewMode === "map" ? "bg-white text-slate-900 shadow-sm" : "text-slate-500 hover:text-slate-700")}
+                className={cx("rounded-md px-2.5 py-1 transition", viewMode === "map" ? "bg-white text-slate-900 shadow-sm dark:bg-slate-900 dark:text-slate-100" : "text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200")}
                 type="button"
               >
                 Mapa
               </button>
               <button
                 onClick={() => setViewMode("pdf")}
-                className={cx("rounded-md px-2.5 py-1 transition", viewMode === "pdf" ? "bg-white text-slate-900 shadow-sm" : "text-slate-500 hover:text-slate-700")}
+                className={cx("rounded-md px-2.5 py-1 transition", viewMode === "pdf" ? "bg-white text-slate-900 shadow-sm dark:bg-slate-900 dark:text-slate-100" : "text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200")}
                 type="button"
               >
                 PDF
@@ -425,6 +425,7 @@ export default function MapasMentaisPage() {
   const [mobileView, setMobileView] = useState("list");
   const [nodeSheet, setNodeSheet] = useState(null);
   const [detailsOpen, setDetailsOpen] = useState(false);
+  const [readingDark, setReadingDark] = useReadingTheme();
 
   const maps = useMemo(
     () => [...localMaps, ...source.map(normalizeMap)]
@@ -562,18 +563,33 @@ export default function MapasMentaisPage() {
   );
 
   return (
-    <div className="mindmaps-page mx-auto max-w-[1500px] pb-10" data-tour="tour-mapas-page">
+    <div className={readingDark ? "dark" : undefined}>
+    <div
+      className="mindmaps-page mx-auto max-w-[1500px] pb-10 dark:rounded-3xl dark:bg-slate-950 dark:p-4"
+      data-theme={readingDark ? "dark" : undefined}
+      data-tour="tour-mapas-page"
+    >
 
       {/* ─── Header ─── */}
-      <div className="mb-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between" data-tour="tour-mapas-header">
-        <div>
-          <p className="text-xs font-black uppercase tracking-wide text-royal">Revisão visual</p>
-          <h1 className="mt-0.5 text-3xl font-black text-slate-950">Mapas mentais</h1>
+      <div className="mindmaps-header mb-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between" data-tour="tour-mapas-header">
+        <div className="flex items-center justify-between gap-3">
+          <div>
+            <p className="text-xs font-black uppercase tracking-wide text-royal">Revisão visual</p>
+            <h1 className="mt-0.5 text-3xl font-black text-slate-950 dark:text-slate-50">Mapas mentais</h1>
+          </div>
+          <button
+            type="button"
+            onClick={() => setReadingDark((current) => !current)}
+            aria-label={readingDark ? "Ativar modo claro de leitura" : "Ativar modo escuro de leitura"}
+            className="grid h-10 w-10 shrink-0 place-items-center rounded-xl border border-slate-200 bg-white text-slate-600 shadow-sm transition hover:border-sky hover:text-navy sm:hidden dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
+          >
+            {readingDark ? <Sun size={17} /> : <Moon size={17} />}
+          </button>
         </div>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap items-center gap-2">
           <Input icon={Search} placeholder="Buscar mapas..." value={query} onChange={(e) => setQuery(e.target.value)} />
           <button
-            className="flex items-center gap-1.5 rounded-xl border border-slate-200 bg-white px-3.5 py-2 text-sm font-black text-slate-700 shadow-sm transition hover:border-sky hover:text-navy active:scale-95 xl:hidden"
+            className="flex items-center gap-1.5 rounded-xl border border-slate-200 bg-white px-3.5 py-2 text-sm font-black text-slate-700 shadow-sm transition hover:border-sky hover:text-navy active:scale-95 xl:hidden dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200"
             onClick={() => setFilterSheetOpen(true)}
             type="button"
           >
@@ -581,12 +597,20 @@ export default function MapasMentaisPage() {
             Filtros
             {activeFilterCount > 0 && <span className="flex h-5 min-w-[1.1rem] items-center justify-center rounded-full bg-royal px-1 text-[10px] font-black text-white">{activeFilterCount}</span>}
           </button>
+          <button
+            type="button"
+            onClick={() => setReadingDark((current) => !current)}
+            aria-label={readingDark ? "Ativar modo claro de leitura" : "Ativar modo escuro de leitura"}
+            className="hidden h-10 w-10 shrink-0 place-items-center rounded-xl border border-slate-200 bg-white text-slate-600 shadow-sm transition hover:border-sky hover:text-navy sm:grid dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300"
+          >
+            {readingDark ? <Sun size={17} /> : <Moon size={17} />}
+          </button>
           <Button icon={Plus} onClick={() => { setDraft(emptyMap()); setModal("create"); }}>Novo mapa</Button>
         </div>
       </div>
 
       {/* ─── Desktop filters ─── */}
-      <div className="mb-4 hidden rounded-xl border border-royal/20 bg-white p-4 shadow-sm xl:block" data-tour="tour-mapas-filters">
+      <div className="mindmaps-filters mb-4 hidden rounded-xl border border-royal/20 bg-white p-4 shadow-sm xl:block dark:border-slate-800 dark:bg-slate-900" data-tour="tour-mapas-filters">
         {filtersContent}
       </div>
 
@@ -598,7 +622,7 @@ export default function MapasMentaisPage() {
             onClick={() => setTab(t)}
             className={cx(
               "shrink-0 rounded-xl px-3.5 py-2 text-sm font-black transition",
-              tab === t ? "bg-royal text-white shadow-sm" : "border border-slate-200 bg-white text-slate-600 hover:border-sky hover:text-navy",
+              tab === t ? "bg-royal text-white shadow-sm" : "border border-slate-200 bg-white text-slate-600 hover:border-sky hover:text-navy dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300",
             )}
             type="button"
           >
@@ -614,7 +638,7 @@ export default function MapasMentaisPage() {
       {/* Mobile list */}
       <div className={cx("xl:hidden", mobileView !== "list" && "hidden")}>
         {visibleMaps.length === 0 ? (
-          <div className="rounded-2xl border border-royal/20 bg-white p-10 shadow-sm">
+          <div className="rounded-2xl border border-royal/20 bg-white p-10 shadow-sm dark:border-slate-800 dark:bg-slate-900">
             <EmptyState icon={Search} title="Nenhum mapa encontrado" description="Ajuste os filtros ou crie um novo mapa." />
           </div>
         ) : (
@@ -626,22 +650,22 @@ export default function MapasMentaisPage() {
                 tabIndex={0}
                 onClick={() => selectMap(m.id)}
                 onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); selectMap(m.id); } }}
-                className="cursor-pointer rounded-2xl border border-royal/20 bg-white p-3 text-left shadow-sm transition active:scale-[0.985]"
+                className="cursor-pointer rounded-2xl border border-royal/20 bg-white p-3 text-left shadow-sm transition active:scale-[0.985] dark:border-slate-800 dark:bg-slate-900"
               >
                 <div className="flex items-start justify-between gap-1">
                   <div className="min-w-0">
-                    <strong className="block truncate text-sm font-black text-slate-900">{m.titulo}</strong>
-                    <p className="mt-0.5 truncate text-[11px] text-slate-500">{m.materia} · {m.assunto}</p>
+                    <strong className="block truncate text-sm font-black text-slate-900 dark:text-slate-100">{m.titulo}</strong>
+                    <p className="mt-0.5 truncate text-[11px] text-slate-500 dark:text-slate-400">{m.materia} · {m.assunto}</p>
                   </div>
                   <button onClick={(e) => { e.stopPropagation(); toggleFavorite(m); }} className="shrink-0 p-0.5 text-amber-400 transition active:scale-90" type="button" aria-label="Favoritar">
                     <Bookmark size={15} className={m.favorito ? "fill-current" : ""} />
                   </button>
                 </div>
                 <div className="mt-2 flex flex-wrap gap-1">
-                  <span className="rounded-full border border-royal/20 bg-royal/10 px-1.5 py-0.5 text-[10px] font-black text-navy">{m.nivel}</span>
-                  <span className="rounded-full border border-slate-200 bg-slate-50 px-1.5 py-0.5 text-[10px] font-bold text-slate-500">{m.banca}</span>
-                  {m.estudado && <span className="rounded-full border border-emerald-100 bg-emerald-50 px-1.5 py-0.5 text-[10px] font-black text-emerald-700">Estudado</span>}
-                  {m.svgUrl && <span className="rounded-full border border-violet-100 bg-violet-50 px-1.5 py-0.5 text-[10px] font-black text-violet-700">SVG</span>}
+                  <span className="rounded-full border border-royal/20 bg-royal/10 px-1.5 py-0.5 text-[10px] font-black text-navy dark:border-blue-500/30 dark:bg-blue-500/15 dark:text-blue-300">{m.nivel}</span>
+                  <span className="rounded-full border border-slate-200 bg-slate-50 px-1.5 py-0.5 text-[10px] font-bold text-slate-500 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-400">{m.banca}</span>
+                  {m.estudado && <span className="rounded-full border border-emerald-100 bg-emerald-50 px-1.5 py-0.5 text-[10px] font-black text-emerald-700 dark:border-emerald-500/30 dark:bg-emerald-500/15 dark:text-emerald-300">Estudado</span>}
+                  {m.svgUrl && <span className="rounded-full border border-violet-100 bg-violet-50 px-1.5 py-0.5 text-[10px] font-black text-violet-700 dark:border-violet-500/30 dark:bg-violet-500/15 dark:text-violet-300">SVG</span>}
                 </div>
               </div>
             ))}
@@ -663,17 +687,17 @@ export default function MapasMentaisPage() {
                 Lista de mapas
               </button>
               {activeMap.pdfUrl && (
-                <div className="flex rounded-lg border border-slate-200 bg-slate-50 p-0.5 text-xs font-bold">
+                <div className="flex rounded-lg border border-slate-200 bg-slate-50 p-0.5 text-xs font-bold dark:border-slate-700 dark:bg-slate-800">
                   <button
                     onClick={() => setMobileView("viewer")}
-                    className={cx("rounded-md px-2.5 py-1 transition", mobileView === "viewer" ? "bg-white text-slate-900 shadow-sm" : "text-slate-500")}
+                    className={cx("rounded-md px-2.5 py-1 transition", mobileView === "viewer" ? "bg-white text-slate-900 shadow-sm dark:bg-slate-900 dark:text-slate-100" : "text-slate-500 dark:text-slate-400")}
                     type="button"
                   >
                     Mapa
                   </button>
                   <button
                     onClick={() => setMobileView("viewer-pdf")}
-                    className={cx("rounded-md px-2.5 py-1 transition", mobileView === "viewer-pdf" ? "bg-white text-slate-900 shadow-sm" : "text-slate-500")}
+                    className={cx("rounded-md px-2.5 py-1 transition", mobileView === "viewer-pdf" ? "bg-white text-slate-900 shadow-sm dark:bg-slate-900 dark:text-slate-100" : "text-slate-500 dark:text-slate-400")}
                     type="button"
                   >
                     PDF
@@ -723,7 +747,7 @@ export default function MapasMentaisPage() {
                   disabled={disabled}
                   className={cx(
                     "flex min-h-11 items-center justify-center gap-1.5 rounded-xl px-3 py-2.5 text-sm font-black shadow-sm transition active:scale-95 disabled:opacity-50",
-                    primary ? "bg-royal text-white" : "border border-slate-200 bg-white text-slate-700",
+                    primary ? "bg-royal text-white" : "border border-slate-200 bg-white text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200",
                   )}
                   type="button"
                 >
@@ -733,7 +757,7 @@ export default function MapasMentaisPage() {
             </div>
           </>
         ) : (
-          <div className="rounded-2xl border border-royal/20 bg-white p-10 shadow-sm">
+          <div className="rounded-2xl border border-royal/20 bg-white p-10 shadow-sm dark:border-slate-800 dark:bg-slate-900">
             <EmptyState icon={Search} title="Nenhum mapa selecionado" description="Selecione um mapa da lista." />
           </div>
         )}
@@ -745,13 +769,13 @@ export default function MapasMentaisPage() {
       <div className="mindmaps-layout hidden gap-4 xl:grid xl:grid-cols-[320px_minmax(0,1fr)_280px]" data-tour="tour-mapas-layout">
 
         {/* Sidebar list */}
-        <aside className="mindmaps-list rounded-xl border border-royal/20 bg-white shadow-sm" data-tour="tour-mapas-list">
+        <aside className="mindmaps-list rounded-xl border border-royal/20 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900" data-tour="tour-mapas-list">
           <div className="max-h-[700px] overflow-y-auto p-3">
             {Object.keys(groupedMaps).length === 0 ? (
               <EmptyState icon={Search} title="Nenhum mapa" description="Ajuste os filtros ou crie um novo." />
             ) : Object.entries(groupedMaps).map(([materia, items]) => (
               <section key={materia} className="mb-4">
-                <p className="mb-2 px-1 text-[11px] font-black uppercase tracking-wider text-slate-400">{materia}</p>
+                <p className="mb-2 px-1 text-[11px] font-black uppercase tracking-wider text-slate-400 dark:text-slate-500">{materia}</p>
                 <div className="space-y-1.5">
                   {items.map((m) => (
                     <button
@@ -761,7 +785,7 @@ export default function MapasMentaisPage() {
                         "mindmap-list-card w-full rounded-xl border p-3 text-left transition",
                         activeMap?.id === m.id
                           ? "border-royal bg-royal text-white shadow-sm"
-                          : "border-royal/20 bg-white text-slate-700 hover:border-sky hover:bg-royal/10",
+                          : "border-royal/20 bg-white text-slate-700 hover:border-sky hover:bg-royal/10 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300",
                       )}
                       type="button"
                     >
@@ -793,7 +817,7 @@ export default function MapasMentaisPage() {
               onToggleNode={(label) => setCollapsed((c) => ({ ...c, [label]: !c[label] }))}
             />
           ) : (
-            <div className="flex h-full min-h-[400px] items-center justify-center rounded-xl border border-royal/20 bg-white shadow-sm">
+            <div className="flex h-full min-h-[400px] items-center justify-center rounded-xl border border-royal/20 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
               <EmptyState icon={Search} title="Selecione um mapa" description="Clique em um mapa da lista para visualizar." />
             </div>
           )}
@@ -802,11 +826,11 @@ export default function MapasMentaisPage() {
         {/* Right panel */}
         <aside className="mindmaps-side space-y-3" data-tour="tour-mapas-actions">
           {activeMap && (
-            <Card hover={false} className="p-4">
+            <Card hover={false} className="p-4 dark:border-slate-800 dark:bg-slate-900">
               <div className="mb-3 flex items-start justify-between gap-2">
                 <div className="min-w-0">
                   <p className="text-xs font-black uppercase tracking-wide text-royal">Selecionado</p>
-                  <h2 className="mt-0.5 truncate text-base font-black text-slate-900">{activeMap.titulo}</h2>
+                  <h2 className="mt-0.5 truncate text-base font-black text-slate-900 dark:text-slate-100">{activeMap.titulo}</h2>
                 </div>
                 <button onClick={() => toggleFavorite(activeMap)} className="shrink-0 text-amber-400 transition hover:text-amber-500" aria-label="Favoritar" type="button">
                   <Bookmark size={18} className={activeMap.favorito ? "fill-current" : ""} />
@@ -821,8 +845,8 @@ export default function MapasMentaisPage() {
                   ["Flashcards", `${activeMap.flashcardsRelacionados}`],
                 ].map(([k, v]) => (
                   <div key={k} className="flex items-center justify-between gap-2">
-                    <span className="text-slate-500">{k}</span>
-                    <span className="font-black text-slate-800">{v}</span>
+                    <span className="text-slate-500 dark:text-slate-400">{k}</span>
+                    <span className="font-black text-slate-800 dark:text-slate-200">{v}</span>
                   </div>
                 ))}
               </div>
@@ -834,8 +858,8 @@ export default function MapasMentaisPage() {
             </Card>
           )}
 
-          <Card hover={false} className="p-4">
-            <h2 className="mb-3 text-sm font-black text-slate-900">Ações</h2>
+          <Card hover={false} className="p-4 dark:border-slate-800 dark:bg-slate-900">
+            <h2 className="mb-3 text-sm font-black text-slate-900 dark:text-slate-100">Ações</h2>
             <div className="grid gap-2">
               <Button size="sm" icon={CalendarCheck} onClick={() => activeMap && markStudied(activeMap)}>Estudar este mapa</Button>
               <Button size="sm" variant="secondary" loading={aiLoading === "flashcards"} icon={Brain} onClick={generateFlashcards}>Gerar flashcards</Button>
@@ -848,9 +872,9 @@ export default function MapasMentaisPage() {
           </Card>
 
           {aiOutput && (
-            <Card hover={false} className="p-4">
-              <h2 className="mb-2 text-sm font-black text-slate-900">Resumo IA</h2>
-              <p className="whitespace-pre-wrap text-sm leading-6 text-slate-600">{aiOutput}</p>
+            <Card hover={false} className="p-4 dark:border-slate-800 dark:bg-slate-900">
+              <h2 className="mb-2 text-sm font-black text-slate-900 dark:text-slate-100">Resumo IA</h2>
+              <p className="whitespace-pre-wrap text-sm leading-6 text-slate-600 dark:text-slate-300">{aiOutput}</p>
             </Card>
           )}
         </aside>
@@ -863,7 +887,7 @@ export default function MapasMentaisPage() {
         onClose={() => setFilterSheetOpen(false)}
         footer={
           <>
-            <button className="flex-1 rounded-xl border border-slate-200 bg-white py-2.5 text-sm font-black text-slate-700 transition active:scale-95" onClick={() => setFilters(emptyFilters)} type="button">Limpar</button>
+            <button className="flex-1 rounded-xl border border-slate-200 bg-white py-2.5 text-sm font-black text-slate-700 transition active:scale-95 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200" onClick={() => setFilters(emptyFilters)} type="button">Limpar</button>
             <button className="flex-1 rounded-xl bg-royal py-2.5 text-sm font-black text-white shadow-sm transition active:scale-95" onClick={() => setFilterSheetOpen(false)} type="button">Aplicar</button>
           </>
         }
@@ -874,16 +898,16 @@ export default function MapasMentaisPage() {
       <Sheet open={Boolean(nodeSheet)} title={nodeSheet?.label || "Nó"} onClose={() => setNodeSheet(null)}>
         {nodeSheet && (
           <div className="space-y-4">
-            <div className="rounded-2xl border border-royal/20 bg-royal/10 p-4">
+            <div className="rounded-2xl border border-royal/20 bg-royal/10 p-4 dark:border-blue-500/30 dark:bg-blue-500/10">
               <p className="text-xs font-black uppercase tracking-wide text-royal">
                 {nodeSheet.type === "root" ? "Tema central" : nodeSheet.type === "branch" ? "Tópico" : "Subtópico"}
               </p>
-              <p className="mt-1 text-base font-black text-slate-900">{nodeSheet.label}</p>
+              <p className="mt-1 text-base font-black text-slate-900 dark:text-slate-100">{nodeSheet.label}</p>
             </div>
             {activeMap && (
-              <div className="space-y-1 text-sm text-slate-600">
-                <p><strong className="text-slate-900">Mapa:</strong> {activeMap.titulo}</p>
-                <p><strong className="text-slate-900">Matéria:</strong> {activeMap.materia}</p>
+              <div className="space-y-1 text-sm text-slate-600 dark:text-slate-300">
+                <p><strong className="text-slate-900 dark:text-slate-100">Mapa:</strong> {activeMap.titulo}</p>
+                <p><strong className="text-slate-900 dark:text-slate-100">Matéria:</strong> {activeMap.materia}</p>
               </div>
             )}
             <button className="w-full rounded-xl bg-royal py-3 text-sm font-black text-white shadow-sm transition active:scale-95" onClick={() => { if (activeMap) markStudied(activeMap); setNodeSheet(null); }} type="button">
@@ -898,16 +922,16 @@ export default function MapasMentaisPage() {
           <div className="space-y-4">
             <div className="grid grid-cols-2 gap-2 text-sm">
               {[["Nível", activeMap.nivel], ["Banca", activeMap.banca], ["Questões", `${activeMap.questoesRelacionadas}`], ["Flashcards", `${activeMap.flashcardsRelacionados}`]].map(([k, v]) => (
-                <div key={k} className="rounded-xl border border-slate-200 bg-slate-50 p-3">
-                  <p className="text-xs font-black text-slate-500">{k}</p>
-                  <p className="mt-0.5 font-black text-slate-900">{v}</p>
+                <div key={k} className="rounded-xl border border-slate-200 bg-slate-50 p-3 dark:border-slate-700 dark:bg-slate-800">
+                  <p className="text-xs font-black text-slate-500 dark:text-slate-400">{k}</p>
+                  <p className="mt-0.5 font-black text-slate-900 dark:text-slate-100">{v}</p>
                 </div>
               ))}
             </div>
             <div className="grid gap-2">
-              <button onClick={() => { editMap(activeMap); setDetailsOpen(false); }} className="flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-black text-slate-700 transition active:scale-95" type="button"><Edit3 size={14} /> Editar</button>
-              <button onClick={() => shareMap(activeMap)} className="flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-black text-slate-700 transition active:scale-95" type="button"><Share2 size={14} /> Compartilhar</button>
-              <button onClick={() => { deleteMap(activeMap); setDetailsOpen(false); setMobileView("list"); }} className="flex items-center gap-2 rounded-xl border border-red-100 bg-red-50 px-4 py-2.5 text-sm font-black text-red-600 transition active:scale-95" type="button"><Trash2 size={14} /> Excluir</button>
+              <button onClick={() => { editMap(activeMap); setDetailsOpen(false); }} className="flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-black text-slate-700 transition active:scale-95 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200" type="button"><Edit3 size={14} /> Editar</button>
+              <button onClick={() => shareMap(activeMap)} className="flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-black text-slate-700 transition active:scale-95 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200" type="button"><Share2 size={14} /> Compartilhar</button>
+              <button onClick={() => { deleteMap(activeMap); setDetailsOpen(false); setMobileView("list"); }} className="flex items-center gap-2 rounded-xl border border-red-100 bg-red-50 px-4 py-2.5 text-sm font-black text-red-600 transition active:scale-95 dark:border-red-500/30 dark:bg-red-500/10 dark:text-red-300" type="button"><Trash2 size={14} /> Excluir</button>
             </div>
           </div>
         )}
@@ -929,6 +953,7 @@ export default function MapasMentaisPage() {
           </div>
         </div>
       </Modal>
+    </div>
     </div>
   );
 }

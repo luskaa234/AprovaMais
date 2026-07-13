@@ -2,7 +2,6 @@ import { lazy, Suspense } from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Toaster } from "sonner";
 import { AppProviders, useUser } from "./contexts";
-import PaymentCheckout from "./components/payment/PaymentCheckout";
 import { BrandSplash } from "./components";
 import UnifiedApp from "./pages/UnifiedApp";
 
@@ -57,7 +56,6 @@ function App() {
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </Suspense>
-        <PaymentCheckout />
         <Toaster richColors position="top-right" />
       </BrowserRouter>
     </AppProviders>

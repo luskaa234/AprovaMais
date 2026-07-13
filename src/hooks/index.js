@@ -6,3 +6,4 @@ export { useAI } from "./useAI";
 export { useQuestoes } from "./useQuestoes";
 export { useOnboarding } from "./useOnboarding";
 export { useMediaQuery } from "./useMediaQuery";
+export { useReadingTheme } from "./useReadingTheme";

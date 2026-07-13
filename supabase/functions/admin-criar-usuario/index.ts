@@ -16,10 +16,12 @@ Deno.serve(async (req) => {
     const supabase = getAdminClient();
     const body = await req.json().catch(() => ({}));
     const email = normalizeEmail(body.email);
-    const name = String(body.name || body.nome || "").trim();
+    const password = String(body.password || body.senha || "");
+    const name = email.split("@")[0] || "Aluno";
     const vitalicio = Boolean(body.vitalicio);
 
     if (!email || !email.includes("@")) throw new Error("Informe um email valido.");
+    if (password.trim().length < 6) throw new Error("Informe uma senha com pelo menos 6 caracteres.");
 
     const { data: existingProfile } = await supabase
       .from("profiles")
@@ -28,17 +30,16 @@ Deno.serve(async (req) => {
       .maybeSingle();
     if (existingProfile?.id) throw new Error("Ja existe um usuario com este email.");
 
-    const { data: linkData, error: linkError } = await supabase.auth.admin.generateLink({
-      type: "invite",
+    const { data: authData, error: authError } = await supabase.auth.admin.createUser({
       email,
-      options: {
-        data: { name: name || email.split("@")[0] },
-      },
+      password,
+      email_confirm: true,
+      user_metadata: { name },
     });
-    if (linkError) throw new Error(`Falha ao criar convite: ${linkError.message}`);
+    if (authError) throw new Error(`Falha ao criar usuario: ${authError.message}`);
 
-    const user = linkData?.user;
-    if (!user?.id) throw new Error("Convite criado sem usuario retornado pelo Supabase.");
+    const user = authData?.user;
+    if (!user?.id) throw new Error("Usuario criado sem retorno do Supabase.");
 
     const expiresAt = vitalicio ? null : new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString();
     const { data: profile, error: profileError } = await supabase
@@ -46,7 +47,7 @@ Deno.serve(async (req) => {
       .upsert({
         id: user.id,
         email,
-        name: name || email.split("@")[0],
+        name,
         role: "student",
         plano: vitalicio ? "pro" : "gratuito",
         status_plano: vitalicio ? "vitalicio" : "trial",
@@ -66,8 +67,8 @@ Deno.serve(async (req) => {
 
     return jsonResponse({
       usuario: profile,
-      invite_url: linkData?.properties?.action_link || "",
-      message: "Usuario criado. Envie o link de convite para ele definir a propria senha.",
+      login: { email },
+      message: "Usuario criado. Envie apenas o login informado para acesso.",
     });
   } catch (error) {
     const { status, message } = adminErrorResponse(error);

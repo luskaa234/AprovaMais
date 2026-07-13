@@ -32,8 +32,8 @@ export const AdminLayout = memo(({ standalone = false }) => {
   const [actionId, setActionId] = useState("");
   const [maintenance, setMaintenance] = useState({ enabled: false, message: "" });
   const [createModalOpen, setCreateModalOpen] = useState(false);
-  const [inviteUrl, setInviteUrl] = useState("");
-  const [newUser, setNewUser] = useState({ email: "", name: "", vitalicio: false });
+  const [createdLogin, setCreatedLogin] = useState("");
+  const [newUser, setNewUser] = useState({ email: "", password: "", vitalicio: false });
   const [deleteTarget, setDeleteTarget] = useState(null);
   const [deleteConfirmation, setDeleteConfirmation] = useState("");
 
@@ -84,11 +84,11 @@ export const AdminLayout = memo(({ standalone = false }) => {
     event.preventDefault();
     setActionId("create-user");
     setError("");
-    setInviteUrl("");
+    setCreatedLogin("");
     try {
       const result = await adminService.criarUsuario(newUser);
-      setInviteUrl(result.invite_url || "");
-      setNewUser({ email: "", name: "", vitalicio: false });
+      setCreatedLogin(result.login?.email || newUser.email);
+      setNewUser({ email: "", password: "", vitalicio: false });
       await load(search);
     } catch (err) {
       setError(err.message || "Não foi possível criar o usuário.");
@@ -177,7 +177,16 @@ export const AdminLayout = memo(({ standalone = false }) => {
             </p>
           </div>
           <div className="flex flex-wrap gap-2">
-            <Button icon={UserPlus} onClick={() => setCreateModalOpen(true)}>Criar usuário</Button>
+            <Button
+              icon={UserPlus}
+              onClick={() => {
+                setCreatedLogin("");
+                setNewUser({ email: "", password: "", vitalicio: false });
+                setCreateModalOpen(true);
+              }}
+            >
+              Criar usuário
+            </Button>
             <Button icon={RefreshCw} variant="secondary" loading={loading} onClick={() => load(search)}>
               Atualizar
             </Button>
@@ -235,7 +244,7 @@ export const AdminLayout = memo(({ standalone = false }) => {
         <div className="mb-4 flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
           <div>
             <h2 className="text-xl font-black text-slate-950">Usuários</h2>
-            <p className="mt-1 text-sm text-slate-500">O admin nunca vê nem altera senha. Controle apenas o status da conta.</p>
+            <p className="mt-1 text-sm text-slate-500">Crie o login inicial e controle o status da conta.</p>
           </div>
           <form
             className="flex gap-2"
@@ -382,13 +391,30 @@ export const AdminLayout = memo(({ standalone = false }) => {
             <div className="mb-4 flex items-start justify-between gap-4">
               <div>
                 <h2 className="text-xl font-black text-slate-950">Criar usuário</h2>
-                <p className="mt-1 text-sm text-slate-500">O usuário recebe um convite e define a própria senha.</p>
+                <p className="mt-1 text-sm text-slate-500">Cadastre o email e a senha inicial do login do aluno.</p>
               </div>
-              <Button variant="ghost" onClick={() => setCreateModalOpen(false)}>Fechar</Button>
+              <Button
+                variant="ghost"
+                onClick={() => {
+                  setCreateModalOpen(false);
+                  setCreatedLogin("");
+                }}
+              >
+                Fechar
+              </Button>
             </div>
             <form className="grid gap-3" onSubmit={createUser}>
               <Input label="Email" type="email" value={newUser.email} onChange={(event) => setNewUser((current) => ({ ...current, email: event.target.value }))} required />
-              <Input label="Nome" value={newUser.name} onChange={(event) => setNewUser((current) => ({ ...current, name: event.target.value }))} />
+              <Input
+                autoComplete="new-password"
+                helperText="Use pelo menos 6 caracteres."
+                label="Senha"
+                minLength={6}
+                type="password"
+                value={newUser.password}
+                onChange={(event) => setNewUser((current) => ({ ...current, password: event.target.value }))}
+                required
+              />
               <label className="flex items-center gap-2 rounded-xl border border-royal/20 px-3 py-2 text-sm font-bold text-slate-700">
                 <input
                   checked={newUser.vitalicio}
@@ -398,13 +424,13 @@ export const AdminLayout = memo(({ standalone = false }) => {
                 />
                 Criar já como vitalício
               </label>
-              {inviteUrl ? (
+              {createdLogin ? (
                 <div className="rounded-xl border border-emerald-100 bg-emerald-50 p-3 text-sm text-emerald-800">
-                  <strong className="block">Convite criado</strong>
-                  <p className="mt-1 break-all">{inviteUrl}</p>
+                  <strong className="block">Login criado</strong>
+                  <p className="mt-1 break-all">{createdLogin}</p>
                 </div>
               ) : null}
-              <Button loading={actionId === "create-user"} type="submit">Criar e gerar convite</Button>
+              <Button loading={actionId === "create-user"} type="submit">Criar login</Button>
             </form>
           </Card>
         </div>

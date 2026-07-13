@@ -8,10 +8,10 @@ export const cx = (...classes) => classes.filter(Boolean).join(" ");
 export const Button = memo(({ children, variant = "primary", size = "md", loading = false, icon: Icon, className = "", type = "button", ...props }) => {
   const variants = {
     primary: "bg-gradient-to-br from-blue-600 to-blue-700 text-white shadow-[0_4px_14px_rgba(29,99,196,0.28)] hover:from-blue-500 hover:to-blue-600 hover:shadow-[0_6px_20px_rgba(29,99,196,0.36)] hover:-translate-y-px active:translate-y-0",
-    secondary: "border border-slate-200 bg-white text-slate-700 shadow-[0_1px_3px_rgba(15,23,42,0.06)] hover:border-blue-200 hover:bg-blue-50/70 hover:text-blue-700",
-    ghost: "text-slate-600 hover:bg-slate-100 hover:text-slate-900",
+    secondary: "border border-slate-200 bg-white text-slate-700 shadow-[0_1px_3px_rgba(15,23,42,0.06)] hover:border-blue-200 hover:bg-blue-50/70 hover:text-blue-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:border-blue-500/40 dark:hover:bg-blue-500/10 dark:hover:text-blue-300",
+    ghost: "text-slate-600 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-slate-100",
     danger: "bg-gradient-to-br from-red-500 to-red-600 text-white shadow-sm hover:from-red-400 hover:to-red-500 hover:-translate-y-px active:translate-y-0",
-    outline: "border border-slate-200 bg-white text-slate-700 shadow-[0_1px_3px_rgba(15,23,42,0.06)] hover:border-blue-200 hover:bg-blue-50/70 hover:text-blue-700",
+    outline: "border border-slate-200 bg-white text-slate-700 shadow-[0_1px_3px_rgba(15,23,42,0.06)] hover:border-blue-200 hover:bg-blue-50/70 hover:text-blue-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:border-blue-500/40 dark:hover:bg-blue-500/10 dark:hover:text-blue-300",
   };
   const sizes = {
     sm: "min-h-8 px-3 text-xs gap-1.5 rounded-[8px]",
@@ -39,11 +39,11 @@ Button.displayName = "Button";
 
 export const Badge = memo(({ children, variant = "info", size = "sm" }) => {
   const variants = {
-    success: "bg-emerald-50 text-emerald-700 ring-emerald-200/80",
-    error: "bg-red-50 text-red-700 ring-red-200/80",
-    warning: "bg-amber-50 text-amber-700 ring-amber-200/80",
-    info: "bg-blue-50 text-blue-700 ring-blue-200/80",
-    neutral: "bg-slate-100 text-slate-600 ring-slate-200/80",
+    success: "bg-emerald-50 text-emerald-700 ring-emerald-200/80 dark:bg-emerald-500/15 dark:text-emerald-300 dark:ring-emerald-500/25",
+    error: "bg-red-50 text-red-700 ring-red-200/80 dark:bg-red-500/15 dark:text-red-300 dark:ring-red-500/25",
+    warning: "bg-amber-50 text-amber-700 ring-amber-200/80 dark:bg-amber-500/15 dark:text-amber-300 dark:ring-amber-500/25",
+    info: "bg-blue-50 text-blue-700 ring-blue-200/80 dark:bg-blue-500/15 dark:text-blue-300 dark:ring-blue-500/25",
+    neutral: "bg-slate-100 text-slate-600 ring-slate-200/80 dark:bg-slate-800 dark:text-slate-300 dark:ring-slate-700",
   };
   return (
     <span className={cx(
@@ -77,11 +77,11 @@ Card.displayName = "Card";
 export const Input = memo(forwardRef(({ label, error, helperText, icon: Icon, className = "", ...props }, ref) => (
   <label className={cx("grid gap-1.5 text-sm", className)}>
     {label ? (
-      <span className="text-xs font-semibold tracking-wide text-slate-500 uppercase">{label}</span>
+      <span className="text-xs font-semibold tracking-wide text-slate-500 uppercase dark:text-slate-400">{label}</span>
     ) : null}
     <span className="relative">
       {Icon ? (
-        <Icon className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" size={15} />
+        <Icon className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 dark:text-slate-500" size={15} />
       ) : null}
       <input
         ref={ref}
@@ -89,6 +89,7 @@ export const Input = memo(forwardRef(({ label, error, helperText, icon: Icon, cl
           "min-h-10 w-full rounded-xl border bg-slate-50/80 px-3 py-2 text-sm text-slate-900 placeholder:text-slate-400 outline-none",
           "transition-all duration-150",
           "border-slate-200 focus:border-blue-500 focus:bg-white focus:shadow-[0_0_0_3px_rgba(29,99,196,0.1)]",
+          "dark:border-slate-700 dark:bg-slate-800/70 dark:text-slate-100 dark:placeholder:text-slate-500 dark:focus:bg-slate-800",
           Icon && "pl-9",
           error && "border-red-400 bg-red-50/50 focus:border-red-500 focus:shadow-[0_0_0_3px_rgba(239,68,68,0.1)]"
         )}
@@ -96,7 +97,7 @@ export const Input = memo(forwardRef(({ label, error, helperText, icon: Icon, cl
       />
     </span>
     {error || helperText ? (
-      <span className={cx("text-xs", error ? "text-red-600" : "text-slate-500")}>{error || helperText}</span>
+      <span className={cx("text-xs", error ? "text-red-600" : "text-slate-500 dark:text-slate-400")}>{error || helperText}</span>
     ) : null}
   </label>
 )));
@@ -105,12 +106,13 @@ Input.displayName = "Input";
 export const Select = memo(({ label, options = [], placeholder = "Selecione", error, className = "", ...props }) => (
   <label className={cx("grid gap-1.5 text-sm", className)}>
     {label ? (
-      <span className="text-xs font-semibold tracking-wide text-slate-500 uppercase">{label}</span>
+      <span className="text-xs font-semibold tracking-wide text-slate-500 uppercase dark:text-slate-400">{label}</span>
     ) : null}
     <select
       className={cx(
         "min-h-10 w-full rounded-xl border border-slate-200 bg-slate-50/80 px-3 py-2 text-sm text-slate-900 outline-none",
         "transition-all duration-150 focus:border-blue-500 focus:bg-white focus:shadow-[0_0_0_3px_rgba(29,99,196,0.1)]",
+        "dark:border-slate-700 dark:bg-slate-800/70 dark:text-slate-100 dark:focus:bg-slate-800",
         error && "border-red-400"
       )}
       {...props}
@@ -217,12 +219,12 @@ export const Skeleton = memo(({ variant = "card" }) => (
 Skeleton.displayName = "Skeleton";
 
 export const EmptyState = memo(({ icon: Icon = Check, title, description, action }) => (
-  <div className="grid min-h-44 place-items-center rounded-2xl border border-dashed border-blue-200/70 bg-blue-50/30 p-8 text-center">
-    <div className="mx-auto mb-3 grid size-12 place-items-center rounded-2xl bg-blue-100 text-blue-600">
+  <div className="grid min-h-44 place-items-center rounded-2xl border border-dashed border-blue-200/70 bg-blue-50/30 p-8 text-center dark:border-blue-500/25 dark:bg-blue-500/5">
+    <div className="mx-auto mb-3 grid size-12 place-items-center rounded-2xl bg-blue-100 text-blue-600 dark:bg-blue-500/15 dark:text-blue-300">
       <Icon size={20} />
     </div>
-    <h3 className="font-bold text-slate-800">{title}</h3>
-    {description ? <p className="mt-1.5 max-w-xs text-sm text-slate-500">{description}</p> : null}
+    <h3 className="font-bold text-slate-800 dark:text-slate-100">{title}</h3>
+    {description ? <p className="mt-1.5 max-w-xs text-sm text-slate-500 dark:text-slate-400">{description}</p> : null}
     {action ? <div className="mt-4">{action}</div> : null}
   </div>
 ));
