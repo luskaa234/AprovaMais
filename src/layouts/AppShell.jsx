@@ -5,19 +5,15 @@ import { Avatar, Input, Toast, cx } from "../components";
 import BrandLogo from "../components/BrandLogo";
 import TourButton from "../components/TourButton";
 import { useInternalRouter, useNotifications, useUser } from "../contexts";
+import { isOabFocus } from "../utils";
 import { navItems } from "./navigation";
-
-function isOabFocus(user) {
-  const objective = String(user?.objective || user?.diagnosticPlan?.objective || "").toLowerCase();
-  const target = String(user?.targetContest || user?.contestName || user?.diagnosticPlan?.objectiveLabel || "").toLowerCase();
-  return objective === "oab" || target.includes("oab");
-}
 
 function visibleNavItems(user, isAdmin) {
   return navItems.filter((item) => {
     if (item.key === "ajuda") return false;
     if (item.key === "admin" && !isAdmin) return false;
     if (item.requiresObjective === "oab" && !isOabFocus(user)) return false;
+    if (!isAdmin && item.hiddenForObjective === "oab" && isOabFocus(user)) return false;
     return true;
   });
 }

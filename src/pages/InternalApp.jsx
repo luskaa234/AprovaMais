@@ -9,6 +9,7 @@ import { Button, DashboardSkeleton } from "../components";
 import { isSupabaseConfigured } from "../lib/supabase";
 import { adminService } from "../services";
 import { paymentPlans, startCheckout } from "../services/paymentService";
+import { isOabFocus } from "../utils";
 
 const DashboardPage = lazy(() => import("./Dashboard"));
 const CheckoutPage = lazy(() => import("./Checkout"));
@@ -41,12 +42,6 @@ function OnboardingBootstrap() {
 
 function PageFallback() {
   return <DashboardSkeleton embedded label="Carregando tela" />;
-}
-
-function isOabFocus(user) {
-  const objective = String(user?.objective || user?.diagnosticPlan?.objective || "").toLowerCase();
-  const target = String(user?.targetContest || user?.contestName || user?.diagnosticPlan?.objectiveLabel || "").toLowerCase();
-  return objective === "oab" || target.includes("oab");
 }
 
 function hasActiveAccess(user, isAdmin = false) {
@@ -169,8 +164,9 @@ function InternalRoutes() {
   const [maintenance, setMaintenance] = useState({ enabled: false, message: "" });
   const [isMobile, setIsMobile] = useState(() => typeof window !== "undefined" && window.matchMedia("(max-width: 1279px)").matches);
   const [refreshToken, setRefreshToken] = useState(0);
+  const blockedOabRoute = !isAdmin && isOabFocus(user) && route === "taf";
   const View =
-    (route === "oab" && !isOabFocus(user)) || route === "militar"
+    (route === "oab" && !isOabFocus(user)) || route === "militar" || blockedOabRoute
       ? DashboardPage
       : views[route] || DashboardPage;
 
@@ -181,6 +177,10 @@ function InternalRoutes() {
     media.addEventListener("change", update);
     return () => media.removeEventListener("change", update);
   }, []);
+
+  useEffect(() => {
+    if (blockedOabRoute) navigate("oab");
+  }, [blockedOabRoute, navigate]);
 
   useEffect(() => {
     let alive = true;

@@ -1,6 +1,6 @@
 ﻿import { useCallback, useMemo, useState } from "react";
-import { Bell, BookOpenCheck, CalendarDays, Camera, Clock3, CreditCard, LogOut, Mail, MapPin, ShieldCheck, Target, Upload, UserRound } from "lucide-react";
-import { Badge, Button, Card, ProgressBar, cx } from "../../components";
+import { Bell, BookOpenCheck, CalendarDays, Camera, Clock3, CreditCard, KeyRound, LogOut, Mail, MapPin, ShieldCheck, Target, Upload, UserRound } from "lucide-react";
+import { Badge, Button, Card, Input, ProgressBar, cx } from "../../components";
 import TourButton from "../../components/TourButton";
 import { useInternalRouter, useNotifications, usePreferences, useUser } from "../../contexts";
 import { ProfileForm } from "../../forms";
@@ -90,6 +90,8 @@ export default function PerfilPage() {
   const [loadingPlan, setLoadingPlan] = useState("");
   const [canceling, setCanceling] = useState(false);
   const [avatarUploading, setAvatarUploading] = useState(false);
+  const [passwordForm, setPasswordForm] = useState({ password: "", confirm: "" });
+  const [changingPassword, setChangingPassword] = useState(false);
   const plan = user.diagnosticPlan || {};
 
   const save = useCallback((profile) => {
@@ -131,6 +133,38 @@ export default function PerfilPage() {
       setCanceling(false);
     }
   }, [addNotification, refreshProfile]);
+
+  const updatePasswordField = useCallback((key, value) => {
+    setPasswordForm((current) => ({ ...current, [key]: value }));
+  }, []);
+
+  const changePassword = useCallback(async (event) => {
+    event.preventDefault();
+    if (!isSupabaseConfigured || !user.id) {
+      addNotification({ type: "error", title: "Senha indisponível", message: "Faça login para alterar sua senha." });
+      return;
+    }
+    if (passwordForm.password.length < 6) {
+      addNotification({ type: "error", title: "Senha muito curta", message: "Use pelo menos 6 caracteres." });
+      return;
+    }
+    if (passwordForm.password !== passwordForm.confirm) {
+      addNotification({ type: "error", title: "Senhas diferentes", message: "A confirmação precisa ser igual à nova senha." });
+      return;
+    }
+
+    try {
+      setChangingPassword(true);
+      const { error } = await supabase.auth.updateUser({ password: passwordForm.password });
+      if (error) throw error;
+      setPasswordForm({ password: "", confirm: "" });
+      addNotification({ type: "success", title: "Senha alterada", message: "Sua nova senha foi salva com sucesso." });
+    } catch (error) {
+      addNotification({ type: "error", title: "Não foi possível alterar", message: error?.message || "Tente novamente em instantes." });
+    } finally {
+      setChangingPassword(false);
+    }
+  }, [addNotification, passwordForm.confirm, passwordForm.password, user.id]);
 
   const uploadAvatar = useCallback(async (event) => {
     const file = event.target.files?.[0];
@@ -409,8 +443,30 @@ export default function PerfilPage() {
             </div>
             <div className="mb-4 rounded-lg border border-royal/20 bg-royal/10 p-3 text-sm leading-6 text-slate-700">
               <div className="mb-2 flex items-center gap-2 font-bold text-navy"><ShieldCheck size={16} /> Sessão ativa</div>
-              Revise seus dados principais e saia da conta quando terminar de estudar.
+              Revise seus dados principais, altere a senha quando precisar e saia da conta ao terminar.
             </div>
+            <form className="mb-4 grid gap-3" onSubmit={changePassword}>
+              <Input
+                autoComplete="new-password"
+                icon={KeyRound}
+                label="Nova senha"
+                type="password"
+                value={passwordForm.password}
+                onChange={(event) => updatePasswordField("password", event.target.value)}
+                helperText="Use pelo menos 6 caracteres."
+              />
+              <Input
+                autoComplete="new-password"
+                icon={KeyRound}
+                label="Confirmar nova senha"
+                type="password"
+                value={passwordForm.confirm}
+                onChange={(event) => updatePasswordField("confirm", event.target.value)}
+              />
+              <Button className="w-full" icon={KeyRound} loading={changingPassword} type="submit">
+                Alterar senha
+              </Button>
+            </form>
             <Button className="w-full" variant="danger" icon={LogOut} onClick={logout}>Sair da conta</Button>
           </Card>
         </div>

@@ -7,6 +7,7 @@ import { useInternalRouter, useNotifications, useUser } from "../../contexts";
 import { isSupabaseConfigured, supabase } from "../../lib/supabase";
 import { aiService, questoesService } from "../../services";
 import { useApostilaStore, usePlanoStore, useQuestoesStore, useRankingStore, useRevisaoStore } from "../../stores";
+import { isOabFocus } from "../../utils";
 
 const PerformanceChart = lazy(() => import("../../charts").then((module) => ({ default: module.PerformanceChart })));
 const StudyTimeChart = lazy(() => import("../../charts").then((module) => ({ default: module.StudyTimeChart })));
@@ -83,11 +84,14 @@ function getObjectiveContent(user = {}) {
 }
 
 const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user }) => {
-  const [hours, questions, accuracy, streak, taf] = kpis;
+  const [hours, questions, accuracy, streak, taf = ["TAF", "0/10"]] = kpis;
+  const oabStudyMode = isOabFocus(user);
   const todayAccuracy = Number.parseInt(String(accuracy[1]), 10) || 0;
   const tafValue = Number.parseFloat(String(taf[1])) || 0;
   const questionsValue = Number.parseInt(String(questions[1]), 10) || 0;
-  const planProgress = Math.min(100, Math.round((todayAccuracy + Math.min(100, questionsValue * 10) + tafValue * 10) / 3));
+  const planProgress = oabStudyMode
+    ? Math.min(100, Math.round((todayAccuracy + Math.min(100, questionsValue * 10)) / 2))
+    : Math.min(100, Math.round((todayAccuracy + Math.min(100, questionsValue * 10) + tafValue * 10) / 3));
   const todayHit = performance.at(-1)?.acertos ?? todayAccuracy;
   const firstName = user?.name?.split(" ")[0] || "Aluno";
 
@@ -97,7 +101,7 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
         <div>
           <span>Hoje</span>
           <h1>Bom estudo, {firstName}</h1>
-          <p>Plano ativo para prova, revisão e TAF.</p>
+          <p>{oabStudyMode ? "Plano ativo para prova, revisão e questões OAB." : "Plano ativo para prova, revisão e TAF."}</p>
         </div>
       </section>
 
@@ -112,7 +116,7 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
         <div className="mobile-study-progress-goals">
           <span><BookOpen size={15} /> {questions[1]} questões</span>
           <span><Flame size={15} /> {streak[1]} dias</span>
-          <span><Dumbbell size={15} /> TAF {taf[1]}</span>
+          {!oabStudyMode ? <span><Dumbbell size={15} /> TAF {taf[1]}</span> : null}
         </div>
       </section>
 
@@ -120,7 +124,7 @@ const MobileDashboard = ({ kpis, performance, revisoes, ranking, navigate, user 
         <MobileMetricTile featured icon={Clock} label={hours[0]} tone="tone-blue" value={hours[1]} />
         <MobileMetricTile icon={Target} label={accuracy[0]} tone="tone-emerald" value={accuracy[1]} />
         <MobileMetricTile icon={ClipboardList} label={questions[0]} tone="tone-violet" value={questions[1]} />
-        <MobileMetricTile icon={Dumbbell} label={taf[0]} tone="tone-amber" value={taf[1]} />
+        {!oabStudyMode ? <MobileMetricTile icon={Dumbbell} label={taf[0]} tone="tone-amber" value={taf[1]} /> : null}
       </div>
 
       <div className="mobile-study-section-title">
@@ -178,6 +182,7 @@ export default function DashboardPage() {
   const revisoesLocais = useRevisaoStore((state) => state.revisoes);
   const progressoPorDisciplina = usePlanoStore((state) => state.progressoPorDisciplina);
   const usingSupabaseUser = isSupabaseConfigured && Boolean(user?.id);
+  const oabStudyMode = isOabFocus(user);
   const [remote, setRemote] = useState({ profile: null, ranking: null, revisoes: null, performance: null, tentativas: null });
   const [relatorio, setRelatorio] = useState(null);
   const [gerandoRelatorio, setGerandoRelatorio] = useState(false);
@@ -341,8 +346,8 @@ export default function DashboardPage() {
     ["Questões resolvidas", questoesResolvidas, ClipboardList],
     ["Taxa de acertos", `${taxaAcertos}%`, Target],
     ["Sequência", sequenciaTentativas, Zap],
-    ["TAF", `${stats.taf_nota ?? stats.tafNota ?? 0}/10`, Dumbbell],
-  ];
+    !oabStudyMode ? ["TAF", `${stats.taf_nota ?? stats.tafNota ?? 0}/10`, Dumbbell] : null,
+  ].filter(Boolean);
 
   return (
     <>
@@ -553,8 +558,8 @@ export default function DashboardPage() {
           <AIPanel
             text={questoesResolvidas ? "Sua prioridade hoje será calculada pelos seus erros, acertos e revisões pendentes." : "Resolva algumas questões para o assistente identificar suas prioridades reais."}
             action={
-              <Button size="sm" onClick={() => navigate("taf")}>
-                Abrir TAF
+              <Button size="sm" onClick={() => navigate(oabStudyMode ? "oab" : "taf")}>
+                {oabStudyMode ? "Abrir OAB" : "Abrir TAF"}
               </Button>
             }
           />

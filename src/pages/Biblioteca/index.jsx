@@ -6,6 +6,7 @@ import { apostilasBiblioteca } from "../../data/apostilas";
 import { useAsyncData, useLocalStorage } from "../../hooks";
 import { Modal } from "../../modals";
 import { bibliotecaService } from "../../services";
+import { isOabFocus, isOabMaterial } from "../../utils";
 import { MaterialCard } from "./MaterialCard";
 
 const emptyFilters = { materia: "", favoritos: "", search: "" };
@@ -87,7 +88,7 @@ function LibraryStat({ icon: Icon, label, value, tone = "blue" }) {
 }
 
 export default function BibliotecaPage() {
-  const { isAdmin } = useUser();
+  const { isAdmin, user } = useUser();
   const [filters, setFilters] = useState(emptyFilters);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [adminModalOpen, setAdminModalOpen] = useState(false);
@@ -108,8 +109,10 @@ export default function BibliotecaPage() {
       .filter((item) => item?.id && !officialIds.has(item.id) && !deletedSet.has(item.id))
       .map((item) => ({ ...item, tipo: "Apostila", categoria: "Apostila" }));
 
-    return dedupeMaterials([...oficiais, ...extras]);
-  }, [adminMaterials, deletedSet, officialIds, sourceMaterials]);
+    const rows = dedupeMaterials([...oficiais, ...extras]);
+    if (!isAdmin && isOabFocus(user)) return rows.filter(isOabMaterial);
+    return rows;
+  }, [adminMaterials, deletedSet, isAdmin, officialIds, sourceMaterials, user]);
   const materiaOptions = useMemo(() => unique(materiais.map((item) => item.materia)), [materiais]);
 
   const visible = useMemo(() => {

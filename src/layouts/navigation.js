@@ -6,7 +6,7 @@ export const navItems = [
   { key: "oab", label: "OAB", icon: Scale, requiresObjective: "oab" },
   { key: "questoes", label: "Banco de questões", icon: BookOpen, tourId: "tour-questoes" },
   { key: "simulados", label: "Simulados", icon: ClipboardList, tourId: "tour-simulados" },
-  { key: "taf", label: "TAF", icon: Dumbbell, tourId: "tour-taf" },
+  { key: "taf", label: "TAF", icon: Dumbbell, tourId: "tour-taf", hiddenForObjective: "oab" },
   { key: "plano", label: "Plano de estudos", icon: CalendarDays, tourId: "tour-estudos" },
   { key: "revisao", label: "Central de revisão", icon: RefreshCw },
   { key: "flashcards", label: "Flashcards", icon: Layers, tourId: "tour-flashcards" },

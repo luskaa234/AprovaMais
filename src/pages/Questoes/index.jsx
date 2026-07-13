@@ -6,6 +6,7 @@ import { useQuestoes } from "../../hooks";
 import { isSupabaseConfigured, supabase } from "../../lib/supabase";
 import { questoesService } from "../../services";
 import { useQuestoesStore } from "../../stores";
+import { isOabFocus } from "../../utils";
 import { QuestionCard } from "./QuestionCard";
 
 const statusOptions = [
@@ -56,7 +57,8 @@ function StatCard({ icon: Icon, label, value, tone = "text-blue-300" }) {
 
 export default function QuestoesPage() {
   const { user } = useUser();
-  const initialArea = "geral";
+  const oabStudyMode = isOabFocus(user);
+  const initialArea = oabStudyMode ? "oab" : "geral";
   const [articleTrainingFilter] = useState(() => {
     try {
       const saved = sessionStorage.getItem("aprova-questoes-artigo-filter");
@@ -142,8 +144,17 @@ export default function QuestoesPage() {
   const resetTraining = useCallback((nextFilters = {}) => {
     setPage(1);
     setAccQuestoes([]);
+    setGeneratedQuestions([]);
     setSessionAnswered(new Set());
     clearFilters({ ...baseTrainingFilters, ...nextFilters });
+  }, [baseTrainingFilters, clearFilters]);
+
+  useEffect(() => {
+    setPage(1);
+    setAccQuestoes([]);
+    setGeneratedQuestions([]);
+    setSessionAnswered(new Set());
+    clearFilters(baseTrainingFilters);
   }, [baseTrainingFilters, clearFilters]);
 
   const shuffleTraining = useCallback(() => {
@@ -272,7 +283,8 @@ export default function QuestoesPage() {
         <Input icon={Search} label="Buscar" placeholder="Enunciado, matéria, banca..." value={filters.search || ""} onChange={(event) => setFilter("search", event.target.value)} />
         <Select
           label="Área"
-          options={[
+          disabled={oabStudyMode}
+          options={oabStudyMode ? [{ value: "oab", label: "OAB" }] : [
             { value: "geral", label: "Geral" },
             { value: "oab", label: "OAB" },
             { value: "militar", label: "Concursos militares" },

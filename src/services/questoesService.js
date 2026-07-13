@@ -517,6 +517,12 @@ export const questoesService = {
   getContestLabel,
   async getPage({ page = 1, pageSize = 5, filters = {} } = {}) {
     if (isSupabaseConfigured) {
+      if (normalizeArea(filters.area) !== "geral") {
+        const all = await this.getQuestoes({ ...filters, limit: 10000 });
+        const offset = (page - 1) * pageSize;
+        const stats = await this.getStats();
+        return { items: all.slice(offset, offset + pageSize), total: all.length, stats };
+      }
       const from = (page - 1) * pageSize;
       const to = from + pageSize - 1;
       let query = supabase.from("questoes").select("*", { count: "exact" }).range(from, to);

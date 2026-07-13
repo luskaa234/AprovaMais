@@ -4,11 +4,12 @@ import { Badge, Button, Input, Select, cx } from "../../components";
 import { useInternalRouter, useNotifications, useUser } from "../../contexts";
 import { Modal } from "../../modals";
 import { planoService } from "../../services";
+import { isOabFocus } from "../../utils";
 
 const views = ["Dia", "Semana", "Mês", "Agenda"];
 const weekDays = ["DOM", "SEG", "TER", "QUA", "QUI", "SEX", "SAB"];
 const dayKeyByIndex = ["domingo", "segunda", "terca", "quarta", "quinta", "sexta", "sabado"];
-const typeOptions = ["Questões", "Revisão", "Leitura", "Flashcards", "TAF", "Simulado"];
+const baseTypeOptions = ["Questões", "Revisão", "Leitura", "Flashcards", "TAF", "Simulado"];
 const statusOptions = ["Pendente", "Em andamento", "Concluida", "Reagendada"];
 const contestOptions = ["Geral", "PM", "CBM", "OAB", "PRF", "PF", "TJ"];
 const planDayOptions = [
@@ -28,7 +29,7 @@ function defaultPlanPrefs(user = {}) {
     sessionLength: 60,
     focusSubject: "",
     examDate: user.dataProva || user.examDate || "",
-    includeTaf: true,
+    includeTaf: !isOabFocus(user),
     availableDays: ["segunda", "terca", "quarta", "quinta", "sexta", "sabado"],
   };
 }
@@ -283,6 +284,8 @@ export default function PlanoPage() {
   const { navigate } = useInternalRouter();
   const { addNotification } = useNotifications();
   const now = new Date();
+  const oabStudyMode = isOabFocus(user);
+  const typeOptions = useMemo(() => oabStudyMode ? baseTypeOptions.filter((type) => type !== "TAF") : baseTypeOptions, [oabStudyMode]);
   const [planPrefs, setPlanPrefs] = useState(() => readPlanPrefs(user));
   const [view, setView] = useState(() => (typeof window !== "undefined" && window.innerWidth < 768 ? "Agenda" : "Mês"));
   const [month, setMonth] = useState(new Date(now.getFullYear(), now.getMonth(), 1));
@@ -306,7 +309,8 @@ export default function PlanoPage() {
       timerStartedAt: timer.startedAt || null,
     };
   }), [baseActivities, nowMs, timers]);
-  const filteredActivities = useMemo(() => applyFilters(activities, filters, month), [activities, filters, month]);
+  const scopedActivities = useMemo(() => oabStudyMode ? activities.filter((item) => !String(item.type || "").toLowerCase().includes("taf")) : activities, [activities, oabStudyMode]);
+  const filteredActivities = useMemo(() => applyFilters(scopedActivities, filters, month), [filters, month, scopedActivities]);
   const monthDays = useMemo(() => buildMonthGrid(month), [month]);
   const selectedActivities = useMemo(() => filteredActivities.filter((item) => item.date === selectedDate), [filteredActivities, selectedDate]);
   const selectedMinutes = selectedActivities.reduce((sum, item) => sum + item.duration, 0);
@@ -391,6 +395,11 @@ export default function PlanoPage() {
   }, [planPrefs]);
 
   useEffect(() => {
+    if (!oabStudyMode || !planPrefs.includeTaf) return;
+    setPlanPrefs((current) => ({ ...current, includeTaf: false }));
+  }, [oabStudyMode, planPrefs.includeTaf]);
+
+  useEffect(() => {
     if (!Object.values(timers).some((timer) => timer?.startedAt)) return undefined;
     const interval = window.setInterval(() => setNowMs(Date.now()), 1000);
     return () => window.clearInterval(interval);
@@ -468,7 +477,7 @@ export default function PlanoPage() {
       sessionLength: Number(planPrefs.sessionLength || 60),
       dataProva: planPrefs.examDate || user?.dataProva,
       focusSubject: planPrefs.focusSubject,
-      includeTaf: planPrefs.includeTaf,
+      includeTaf: !oabStudyMode && planPrefs.includeTaf,
     };
     const generated = await planoService.gerarSemanaInteligente({ user: personalizedUser, startDate: new Date(selectedDate) });
     const saved = await planoService.criarAtividadesEmLote(generated);
@@ -479,7 +488,7 @@ export default function PlanoPage() {
     });
     setSmartPlanGenerated(true);
     addNotification({ type: "success", title: "Plano gerado", message: `${saved.length} atividades foram criadas no seu calendário.` });
-  }, [addNotification, planPrefs, selectedDate, user]);
+  }, [addNotification, oabStudyMode, planPrefs, selectedDate, user]);
 
   const editActivity = useCallback((activity) => {
     setEditingId(activity.id);
@@ -572,13 +581,15 @@ export default function PlanoPage() {
               </button>
             );
           })}
-          <button
-            className={cx("min-h-9 rounded-lg border px-3 text-xs font-black transition", planPrefs.includeTaf ? "border-emerald-500 bg-emerald-50 text-emerald-700" : "border-slate-200 bg-white text-slate-500")}
-            onClick={() => updatePlanPref("includeTaf", !planPrefs.includeTaf)}
-            type="button"
-          >
-            {planPrefs.includeTaf ? "TAF incluído" : "Sem TAF"}
-          </button>
+          {!oabStudyMode ? (
+            <button
+              className={cx("min-h-9 rounded-lg border px-3 text-xs font-black transition", planPrefs.includeTaf ? "border-emerald-500 bg-emerald-50 text-emerald-700" : "border-slate-200 bg-white text-slate-500")}
+              onClick={() => updatePlanPref("includeTaf", !planPrefs.includeTaf)}
+              type="button"
+            >
+              {planPrefs.includeTaf ? "TAF incluído" : "Sem TAF"}
+            </button>
+          ) : null}
         </div>
       </section>
 

@@ -26,7 +26,21 @@ export const ProfileForm = memo(({ user, onSave }) => {
   const [form, setForm] = useState(user || {});
   useEffect(() => setForm(user || {}), [user]);
   const update = useCallback((key, value) => setForm((current) => ({ ...current, [key]: value })), []);
-  const objectiveValue = form.objective || (["PM", "PRF", "PF", "INSS", "Analista Judiciario - TRT"].includes(form.targetContest) ? "concurso" : "");
+  const updateObjective = useCallback((value) => {
+    setForm((current) => ({
+      ...current,
+      objective: value,
+      targetContest: value === "oab" ? "OAB" : current.targetContest,
+    }));
+  }, []);
+  const updateTargetContest = useCallback((value) => {
+    setForm((current) => ({
+      ...current,
+      targetContest: value,
+      objective: value === "OAB" ? "oab" : current.objective,
+    }));
+  }, []);
+  const objectiveValue = form.objective || (form.targetContest === "OAB" ? "oab" : (["PM", "PRF", "PF", "INSS", "Analista Judiciário - TRT", "Analista Judiciario - TRT"].includes(form.targetContest) ? "concurso" : ""));
   const fieldClass = "min-h-10 w-full rounded-lg border border-blue-100 bg-white px-3 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-100";
   const labelClass = "grid gap-1 text-sm";
   const labelTextClass = "font-semibold text-slate-950";
@@ -65,8 +79,8 @@ export const ProfileForm = memo(({ user, onSave }) => {
           { value: "vestibular", label: "Vestibular" },
           { value: "programacao", label: "Programação" },
           { value: "taf", label: "TAF" },
-        ], onChange: (event) => update("objective", event.target.value) })}
-        {renderSelect({ label: "Concurso-alvo", value: form.targetContest || "", options: ["PM", "PRF", "PF", "OAB", "ENEM", "INSS", "Analista Judiciário - TRT", "Programação"], onChange: (event) => update("targetContest", event.target.value) })}
+        ], onChange: (event) => updateObjective(event.target.value) })}
+        {renderSelect({ label: "Concurso-alvo", value: form.targetContest || "", options: ["PM", "PRF", "PF", "OAB", "ENEM", "INSS", "Analista Judiciário - TRT", "Programação"], onChange: (event) => updateTargetContest(event.target.value) })}
         {renderInput({ label: "Nível atual", value: form.nivel || "", placeholder: "Ex.: iniciante, intermediário, avançado", onChange: (event) => update("nivel", event.target.value) })}
         {renderInput({ label: "Horas semanais", type: "number", min: "0", value: form.horasSemanais || "", onChange: (event) => update("horasSemanais", Number(event.target.value || 0)) })}
         {renderInput({ label: "Data da prova", type: "date", value: form.dataProva || "", onChange: (event) => update("dataProva", event.target.value) })}
