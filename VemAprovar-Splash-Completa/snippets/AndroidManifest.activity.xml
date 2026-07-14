@@ -1,0 +1,13 @@
+<!-- Aplique o tema à Activity que abre o aplicativo. -->
+<activity
+    android:name=".MainActivity"
+    android:exported="true"
+    android:theme="@style/Theme.VemAprovar.Starting">
+
+    <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+</activity>
+
+<!-- Em projetos TWA/Bubblewrap, mantenha a Activity gerada e altere somente android:theme. -->

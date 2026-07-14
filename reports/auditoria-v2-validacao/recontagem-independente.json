@@ -1,0 +1,198 @@
+{
+  "v2Summary": {
+    "arquivosInventariados": 1669,
+    "conteudosPedagogicos": 865,
+    "arquivosTecnicos": 248,
+    "objetivosReais": 12,
+    "concursosReais": 156,
+    "disciplinasReais": 34,
+    "assuntosReais": 161,
+    "questoesBrutas": 11115,
+    "questoesValidas": 2130,
+    "questoesUnicas": 2073,
+    "questoesDuplicadas": 57,
+    "flashcardsReais": 18824,
+    "flashcardsUnicos": 11744,
+    "mapasReais": 1110,
+    "leisUnicas": 11,
+    "arquivosLegais": 33,
+    "provasArquivosPdf": 541,
+    "provasLogicasUnicas": 49,
+    "variantes": 120,
+    "gabaritos": 80,
+    "conectadosDiretamente": 129,
+    "apenasReferenciados": 0,
+    "localOnly": 736,
+    "orfaosPedagogicos": 0,
+    "mocks": 13,
+    "gruposDuplicatas": 6,
+    "arquivosEmDuplicatas": 21,
+    "gruposQuestoesDuplicadas": 34,
+    "gruposFlashcardsDuplicados": 2047,
+    "errosCodificacaoOrigem": 583
+  },
+  "recounted": {
+    "arquivosInventariados": 1669,
+    "conteudosPedagogicos": 754,
+    "objetivosReais": 10,
+    "disciplinasReais": 12,
+    "questoesValidas": 4449,
+    "questoesUnicas": 2382,
+    "flashcardsReais": 14988,
+    "flashcardsUnicos": 6911,
+    "mapasReais": 7820,
+    "leisUnicas": 11,
+    "provasArquivosPdf": 453,
+    "provasLogicasUnicas": 49,
+    "gabaritos": 80,
+    "conectadosDiretamente": 129,
+    "localOnly": 736,
+    "apenasReferenciados": 0
+  },
+  "metrics": [
+    {
+      "metrica": "arquivosInventariados",
+      "valorV2": 1669,
+      "recontagem": 1669,
+      "diferenca": 0,
+      "motivoProvavel": "mesma regra reproduzida",
+      "confianca": "alta",
+      "status": "confirmado"
+    },
+    {
+      "metrica": "conteudosPedagogicos",
+      "valorV2": 865,
+      "recontagem": 754,
+      "diferenca": -111,
+      "motivoProvavel": "classificador independente mais simples",
+      "confianca": "média",
+      "status": "divergente"
+    },
+    {
+      "metrica": "objetivosReais",
+      "valorV2": 12,
+      "recontagem": 10,
+      "diferenca": -2,
+      "motivoProvavel": "inferência independente por slug/texto",
+      "confianca": "média",
+      "status": "divergente"
+    },
+    {
+      "metrica": "disciplinasReais",
+      "valorV2": 34,
+      "recontagem": 12,
+      "diferenca": -22,
+      "motivoProvavel": "inferência independente por palavras-chave",
+      "confianca": "média",
+      "status": "divergente"
+    },
+    {
+      "metrica": "questoesValidas",
+      "valorV2": 2130,
+      "recontagem": 4449,
+      "diferenca": 2319,
+      "motivoProvavel": "parser independente com regras estritas",
+      "confianca": "média",
+      "status": "divergente"
+    },
+    {
+      "metrica": "questoesUnicas",
+      "valorV2": 2073,
+      "recontagem": 2382,
+      "diferenca": 309,
+      "motivoProvavel": "hash independente de enunciado+alternativas",
+      "confianca": "média",
+      "status": "divergente"
+    },
+    {
+      "metrica": "flashcardsReais",
+      "valorV2": 18824,
+      "recontagem": 14988,
+      "diferenca": -3836,
+      "motivoProvavel": "extração independente de APKG/JS/JSON",
+      "confianca": "média",
+      "status": "divergente"
+    },
+    {
+      "metrica": "flashcardsUnicos",
+      "valorV2": 11744,
+      "recontagem": 6911,
+      "diferenca": -4833,
+      "motivoProvavel": "hash independente frente+verso",
+      "confianca": "média",
+      "status": "divergente"
+    },
+    {
+      "metrica": "mapasReais",
+      "valorV2": 1110,
+      "recontagem": 7820,
+      "diferenca": 6710,
+      "motivoProvavel": "extração independente conservadora",
+      "confianca": "baixa",
+      "status": "divergente"
+    },
+    {
+      "metrica": "leisUnicas",
+      "valorV2": 11,
+      "recontagem": 11,
+      "diferenca": 0,
+      "motivoProvavel": "mesma regra reproduzida",
+      "confianca": "alta",
+      "status": "confirmado"
+    },
+    {
+      "metrica": "provasArquivosPdf",
+      "valorV2": 541,
+      "recontagem": 453,
+      "diferenca": -88,
+      "motivoProvavel": "varredura independente por PDF em provas/gabaritos",
+      "confianca": "alta",
+      "status": "divergente"
+    },
+    {
+      "metrica": "provasLogicasUnicas",
+      "valorV2": 49,
+      "recontagem": 49,
+      "diferenca": 0,
+      "motivoProvavel": "mesma regra reproduzida",
+      "confianca": "alta",
+      "status": "confirmado"
+    },
+    {
+      "metrica": "gabaritos",
+      "valorV2": 80,
+      "recontagem": 80,
+      "diferenca": 0,
+      "motivoProvavel": "mesma regra reproduzida",
+      "confianca": "alta",
+      "status": "confirmado"
+    },
+    {
+      "metrica": "conectadosDiretamente",
+      "valorV2": 129,
+      "recontagem": 129,
+      "diferenca": 0,
+      "motivoProvavel": "mesma regra reproduzida",
+      "confianca": "alta",
+      "status": "confirmado"
+    },
+    {
+      "metrica": "localOnly",
+      "valorV2": 736,
+      "recontagem": 736,
+      "diferenca": 0,
+      "motivoProvavel": "mesma regra reproduzida",
+      "confianca": "alta",
+      "status": "confirmado"
+    },
+    {
+      "metrica": "apenasReferenciados",
+      "valorV2": 0,
+      "recontagem": 0,
+      "diferenca": 0,
+      "motivoProvavel": "mesma regra reproduzida",
+      "confianca": "alta",
+      "status": "confirmado"
+    }
+  ]
+}

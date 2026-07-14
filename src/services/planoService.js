@@ -38,10 +38,21 @@ function normalizeActivityType(value = "") {
 }
 
 function subjectsForUser(user = {}) {
-  const target = normalize(`${user.targetContest || ""} ${user.objective || ""} ${user.contestName || ""} ${user.diagnosticPlan?.objective || ""}`);
+  const target = normalize(`${user.targetContest || ""} ${user.objective || ""} ${user.contestName || ""} ${user.diagnosticPlan?.objective || ""} ${user.diagnosticPlan?.objectiveLabel || ""}`);
   const focus = user.focusSubject ? [user.focusSubject] : [];
   if (target.includes("oab")) {
     return [...focus, "Etica Profissional", "Constitucional", "Civil", "Processo Civil", "Penal", "Trabalho"].filter(Boolean);
+  }
+  if (target.includes("enem")) {
+    return [...focus, "Linguagens", "Matematica", "Ciencias Humanas", "Ciencias da Natureza", "Redacao"].filter(Boolean);
+  }
+  if (target.includes("pmma")) {
+    const taf = user.includeTaf === false ? [] : ["TAF"];
+    return [...focus, "Portugues", "Raciocinio Logico", "Informatica", "Constitucional", "Penal", "Processual Penal", "Legislacao Institucional PMMA", ...taf].filter(Boolean);
+  }
+  if (target.includes("prf")) {
+    const taf = user.includeTaf === false ? [] : ["TAF"];
+    return [...focus, "Portugues", "Raciocinio Logico", "Informatica", "Constitucional", "Administrativo", "Legislacao de Transito", "Direitos Humanos", ...taf].filter(Boolean);
   }
   if (target.includes("pm") || target.includes("policia") || target.includes("militar")) {
     const taf = user.includeTaf === false ? [] : ["TAF"];
@@ -241,13 +252,14 @@ export const planoService = {
   },
   async gerarSemanaInteligente({ user = {}, startDate = new Date() } = {}) {
     const fallback = buildSmartWeek(user, startDate);
+    const objectiveScope = user.targetContest || user.contestName || user.objective || user.diagnosticPlan?.objectiveLabel || "Concurso publico";
     const prompt = `Crie atividades reais de plano de estudos para uma semana.
 Responda APENAS em JSON valido no formato:
 {"atividades":[{"materia":"...","tipo":"Questões|Revisão|Leitura|Flashcards|TAF|Simulado","data":"AAAA-MM-DD","hora":"HH:mm","duracao":60,"titulo":"..."}]}
 
 Perfil do aluno:
 ${JSON.stringify({
-  objetivo: user.targetContest || user.contestName || user.objective || "Concurso publico",
+  objetivo: objectiveScope,
   nivel: user.nivel || user.level || "intermediario",
   horasSemanais: user.horasSemanais || user.hoursPerWeek || 18,
   diasDisponiveis: user.availableDays || user.diasDisponiveis || "segunda a sabado",
@@ -256,7 +268,7 @@ ${JSON.stringify({
 
 Data inicial da semana: ${isoDate(startDate)}
 Pedido especifico do aluno: ${user.aiPedido || "sem pedido adicional"}
-Regras: distribua matérias importantes, alterne teoria/questões/revisão e inclua TAF se for objetivo policial ou militar.`;
+Regras: respeite estritamente o objetivo ativo "${objectiveScope}", nao misture disciplinas incompatíveis, distribua matérias importantes, alterne teoria/questões/revisão e inclua TAF somente quando for objetivo policial ou militar.`;
     try {
       const text = await aiService.gerarTexto(prompt, {
         task: "plan",
@@ -272,6 +284,10 @@ Regras: distribua matérias importantes, alterne teoria/questões/revisão e inc
       console.warn("[planoService] IA falhou ao gerar plano, usando fallback:", error.message);
       return fallback;
     }
+  },
+  async gerarPlanoCompleto({ user = {}, startDate = new Date(), weeks = 8 } = {}) {
+    const totalWeeks = Math.max(1, Math.min(16, Number(weeks) || 8));
+    return Array.from({ length: totalWeeks }, (_, index) => buildSmartWeek(user, addDays(startDate, index * 7))).flat();
   },
   async criarAtividadesEmLote(activities = []) {
     const saved = [];
