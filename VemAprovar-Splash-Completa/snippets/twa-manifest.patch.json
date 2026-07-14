@@ -1,0 +1,9 @@
+{
+  "backgroundColor": "#F6FAFF",
+  "themeColor": "#0B5FA8",
+  "navigationColor": "#F6FAFF",
+  "navigationColorDark": "#071A2F",
+  "splashScreenFadeOutDuration": 320,
+  "iconUrl": "https://SEU-DOMINIO.com/branding/icon-512.png",
+  "maskableIconUrl": "https://SEU-DOMINIO.com/branding/icon-512-maskable.png"
+}

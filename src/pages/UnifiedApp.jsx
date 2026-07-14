@@ -1,7 +1,7 @@
 import { lazy, Suspense } from "react";
 import { Navigate } from "react-router-dom";
 import { useUser } from "../contexts";
-import { BrandSplash, DashboardSkeleton } from "../components";
+import { DashboardSkeleton } from "../components";
 import Home from "./Home";
 
 const InternalApp = lazy(() => import("./InternalApp"));
@@ -22,7 +22,7 @@ export default function UnifiedApp() {
   const shouldUseAppOnlyMode = isPwaLaunch();
 
   if (isLoading) {
-    return shouldUseAppOnlyMode ? <BrandSplash label="Abrindo aplicativo..." /> : <Home />;
+    return shouldUseAppOnlyMode ? null : <Home />;
   }
 
   if (!isAuthenticated && shouldUseAppOnlyMode) {

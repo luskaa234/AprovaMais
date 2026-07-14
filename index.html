@@ -3,15 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/favicon.png?v=3" />
-    <link rel="manifest" href="/manifest.webmanifest" />
+    <script>
+      (() => {
+        const manifest = document.createElement("link");
+        manifest.rel = "manifest";
+        manifest.href = window.matchMedia("(max-width: 820px)").matches
+          ? "/manifest.mobile.webmanifest"
+          : "/manifest.webmanifest";
+        document.head.appendChild(manifest);
+      })();
+    </script>
+    <link rel="preload" as="image" href="/branding/vemaprovar-logo-completa.png" />
+    <link rel="preload" as="image" href="/brand/vemaprovar-logo-color.png" />
     <link rel="apple-touch-icon" href="/pwa/apple-touch-icon.png" />
-    <meta name="theme-color" content="#1D63C4" />
+    <meta name="theme-color" content="#1D63C4" media="(min-width: 821px)" />
+    <meta name="theme-color" content="#1D63C4" media="(max-width: 820px)" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="application-name" content="VemAprovar" />
     <meta name="msapplication-TileColor" content="#1D63C4" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="VemAprovar" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="apple-touch-startup-image" href="/splash/apple/iphone-15-pro-max-1290x2796.png" media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3)" />
+    <link rel="apple-touch-startup-image" href="/splash/apple/iphone-15-pro-1179x2556.png" media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3)" />
+    <link rel="apple-touch-startup-image" href="/splash/apple/iphone-14-13-1170x2532.png" media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3)" />
+    <link rel="apple-touch-startup-image" href="/splash/apple/iphone-13-pro-max-1284x2778.png" media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3)" />
+    <link rel="apple-touch-startup-image" href="/splash/apple/iphone-xs-max-1242x2688.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" />
+    <link rel="apple-touch-startup-image" href="/splash/apple/iphone-x-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" />
+    <link rel="apple-touch-startup-image" href="/splash/apple/iphone-xr-828x1792.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" />
+    <style>
+      @media (max-width: 820px) {
+        html,
+        body,
+        #root {
+          min-height: 100%;
+          margin: 0;
+          background: #F6FAFF;
+        }
+      }
+    </style>
     <link rel="canonical" href="https://vemaprovar.com/" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

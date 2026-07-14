@@ -1,0 +1,2079 @@
+{
+  "generatedAt": "2026-07-11T16:26:26.504Z",
+  "objectives": [
+    {
+      "canonicalId": "objective:concursos-fiscais",
+      "canonicalName": "Concursos Fiscais",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "auditoria V2.1/V2",
+      "confidence": "média",
+      "numberOfContents": 2,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "objective:concursos-administrativos",
+      "canonicalName": "Concursos Administrativos",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "auditoria V2.1/V2",
+      "confidence": "média",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "objective:oab",
+      "canonicalName": "OAB",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "auditoria V2.1/V2",
+      "confidence": "média",
+      "numberOfContents": 571,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "objective:enem",
+      "canonicalName": "ENEM",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "auditoria V2.1/V2",
+      "confidence": "média",
+      "numberOfContents": 13,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "objective:tribunais",
+      "canonicalName": "Tribunais",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "auditoria V2.1/V2",
+      "confidence": "média",
+      "numberOfContents": 6,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "objective:guarda-municipal",
+      "canonicalName": "Guarda Municipal",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "auditoria V2.1/V2",
+      "confidence": "média",
+      "numberOfContents": 6,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "objective:prf",
+      "canonicalName": "PRF",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "auditoria V2.1/V2",
+      "confidence": "média",
+      "numberOfContents": 6,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "objective:corpo-de-bombeiros",
+      "canonicalName": "Corpo de Bombeiros",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "auditoria V2.1/V2",
+      "confidence": "média",
+      "numberOfContents": 10,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "objective:policia-militar",
+      "canonicalName": "Polícia Militar",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "auditoria V2.1/V2",
+      "confidence": "média",
+      "numberOfContents": 101,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "objective:policia-penal",
+      "canonicalName": "Polícia Penal",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "auditoria V2.1/V2",
+      "confidence": "média",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "objective:policia-civil",
+      "canonicalName": "Polícia Civil",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "auditoria V2.1/V2",
+      "confidence": "média",
+      "numberOfContents": 36,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "objective:detran",
+      "canonicalName": "DETRAN",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "auditoria V2.1/V2",
+      "confidence": "média",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    }
+  ],
+  "disciplines": [
+    {
+      "canonicalId": "discipline:direito-administrativo",
+      "canonicalName": "Direito Administrativo",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 40,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:atualidades",
+      "canonicalName": "Atualidades",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 2,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:redacao",
+      "canonicalName": "Redação",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 11,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:biologia",
+      "canonicalName": "Biologia",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:criminologia-e-seguranca-publica",
+      "canonicalName": "Criminologia e Segurança Pública",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 3,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:direito-ambiental",
+      "canonicalName": "Direito Ambiental",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 2,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:direito-civil",
+      "canonicalName": "Direito Civil",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 4,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:direito-constitucional",
+      "canonicalName": "Direito Constitucional",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 43,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:direito-do-consumidor",
+      "canonicalName": "Direito do Consumidor",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 5,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:direito-digital-lgpd",
+      "canonicalName": "Direito Digital/LGPD",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:direito-penal",
+      "canonicalName": "Direito Penal",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 45,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:direito-eleitoral",
+      "canonicalName": "Direito Eleitoral",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 2,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:direito-empresarial",
+      "canonicalName": "Direito Empresarial",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 36,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:direito-financeiro",
+      "canonicalName": "Direito Financeiro",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 2,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:direito-internacional",
+      "canonicalName": "Direito Internacional",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 2,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:direito-penal-militar",
+      "canonicalName": "Direito Penal Militar",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 7,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:direito-previdenciario",
+      "canonicalName": "Direito Previdenciário",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 2,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:direito-processual-civil",
+      "canonicalName": "Direito Processual Civil",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 6,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:direito-processual-penal",
+      "canonicalName": "Direito Processual Penal",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 6,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:direito-processual-penal-militar",
+      "canonicalName": "Direito Processual Penal Militar",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 2,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:direito-do-trabalho",
+      "canonicalName": "Direito do Trabalho",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 6,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:direito-tributario",
+      "canonicalName": "Direito Tributário",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 39,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:direitos-humanos",
+      "canonicalName": "Direitos Humanos",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 3,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:filosofia",
+      "canonicalName": "Filosofia",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 2,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:fisica",
+      "canonicalName": "Física",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:geografia",
+      "canonicalName": "Geografia",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:historia",
+      "canonicalName": "História",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:informatica",
+      "canonicalName": "Informática",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 2,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:legislacao-institucional-pmma",
+      "canonicalName": "Legislação Institucional PMMA",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 14,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:raciocinio-logico-matematico",
+      "canonicalName": "Raciocínio Lógico-Matemático",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 4,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:lingua-portuguesa",
+      "canonicalName": "Língua Portuguesa",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 21,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:quimica",
+      "canonicalName": "Química",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:sociologia",
+      "canonicalName": "Sociologia",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "discipline:etica-profissional",
+      "canonicalName": "Ética Profissional",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "disciplina canônica V2",
+      "confidence": "média",
+      "numberOfContents": 42,
+      "requiresHumanReview": true
+    }
+  ],
+  "subjects": [
+    {
+      "canonicalId": "subject:orcamento-como-lei-plano-financeiro-e-instrumento-de-controle-democratico",
+      "canonicalName": "orçamento como lei, plano financeiro e instrumento de controle democrático",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:diferenca-entre-estado-governo-e-administracao-separando-funcao-politica-de-exec",
+      "canonicalName": "diferença entre Estado, governo e Administração, separando função política de execução administrativa",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:arquivo-como-conjunto-org-caractere-ilegivel-nico-de-documentos-produzidos-por-a",
+      "canonicalName": "arquivo como conjunto org[caractere ilegivel]nico de documentos produzidos por atividade institucional",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:atendimento-como-expressao-concreta-de-cidadania-eficiencia-e-respeito",
+      "canonicalName": "atendimento como expressão concreta de cidadania, eficiência e respeito",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:leitura-cr-caractere-ilegivel-tica-de-fatos",
+      "canonicalName": "leitura cr[caractere ilegivel]tica de fatos",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:m-caractere-ilegivel-todo-de-estudo",
+      "canonicalName": "M[caractere ilegivel]todo de estudo",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:constitui-caractere-ilegivel-caractere-ilegivel-o-cidadania-e-dignidade-humana",
+      "canonicalName": "Constitui[caractere ilegivel][caractere ilegivel]o, cidadania e dignidade humana",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:viol-caractere-ilegivel-ncia-urbana-preven-caractere-ilegivel-caractere-ilegivel",
+      "canonicalName": "Viol[caractere ilegivel]ncia urbana, preven[caractere ilegivel][caractere ilegivel]o e responsabilidade compartilhada",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:citologia-membranas-e-metabolismo-celular",
+      "canonicalName": "Citologia, membranas e metabolismo celular",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:erro-conceitual-erro-de-atencao-e-erro-de-estrategia",
+      "canonicalName": "Erro conceitual, erro de atenção e erro de estratégia",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:simulado-1-fontes-hist-caractere-ilegivel-ricas-e-cartografia",
+      "canonicalName": "Simulado 1: fontes hist[caractere ilegivel]ricas e cartografia",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:simulado-1-m-caractere-ilegivel-todo-cient-caractere-ilegivel-fico-e-gr-caracter",
+      "canonicalName": "Simulado 1: m[caractere ilegivel]todo cient[caractere ilegivel]fico e gr[caractere ilegivel]ficos",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:o-que-um-comentario-de-ia-precisa-ter",
+      "canonicalName": "O que um comentário de IA precisa ter",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:registro-evidencia-caractere-ilegivel-caractere-ilegivel-o-e-controle-do-patrim-",
+      "canonicalName": "registro, evidencia[caractere ilegivel][caractere ilegivel]o e controle do patrim[caractere ilegivel]nio p[caractere ilegivel]blico e atos relevantes",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:fundamentos-da-criminologia",
+      "canonicalName": "Fundamentos da Criminologia",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:criminologia-estuda-crime-criminoso-v-caractere-ilegivel-tima-e-controle-social-",
+      "canonicalName": "criminologia estuda crime, criminoso, v[caractere ilegivel]tima e controle social com m[caractere ilegivel]todo emp[caractere ilegivel]rico e interdisciplinar",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:sistema-nacional-de-tr-caractere-ilegivel-nsito",
+      "canonicalName": "Sistema Nacional de Tr[caractere ilegivel]nsito",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:-caractere-ilegivel-rg-caractere-ilegivel-os-de-tr-caractere-ilegivel-nsito-poss",
+      "canonicalName": "[caractere ilegivel]rg[caractere ilegivel]os de tr[caractere ilegivel]nsito possuem compet[caractere ilegivel]ncias espec[caractere ilegivel]ficas de normatiza[caractere ilegivel][caractere ilegivel]o, fiscaliza[caractere ilegivel][caractere ilegivel]o, julgamento e educa[caractere ilegivel][caractere ilegivel]o",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:l-caractere-ilegivel-gica-da-administra-caractere-ilegivel-caractere-ilegivel-o-",
+      "canonicalName": "l[caractere ilegivel]gica da Administra[caractere ilegivel][caractere ilegivel]o P[caractere ilegivel]blica",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:organiza-caractere-ilegivel-caractere-ilegivel-o-administrativa",
+      "canonicalName": "Organiza[caractere ilegivel][caractere ilegivel]o administrativa",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:meio-ambiente-e-principios-ambientais",
+      "canonicalName": "Meio ambiente e princípios ambientais",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:meio-ambiente-na-constitui-caractere-ilegivel-caractere-ilegivel-o-e-princ-carac",
+      "canonicalName": "Meio ambiente na Constitui[caractere ilegivel][caractere ilegivel]o e princ[caractere ilegivel]pios ambientais",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:pessoa-natural-personalidade-capacidade-e-direitos-da-personalidade",
+      "canonicalName": "Pessoa natural, personalidade, capacidade e direitos da personalidade",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:lei-de-introdu-caractere-ilegivel-caractere-ilegivel-o-caractere-ilegivel-s-norm",
+      "canonicalName": "Lei de Introdu[caractere ilegivel][caractere ilegivel]o [caractere ilegivel]s Normas do Direito Brasileiro",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:base-do-sistema-constitucional",
+      "canonicalName": "base do sistema constitucional",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:teoria-constitucional",
+      "canonicalName": "Teoria constitucional",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:relacao-de-consumo-e-vulnerabilidade",
+      "canonicalName": "Relação de consumo e vulnerabilidade",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:elementos-da-rela-caractere-ilegivel-caractere-ilegivel-o-de-consumo",
+      "canonicalName": "Elementos da rela[caractere ilegivel][caractere ilegivel]o de consumo",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:fundamentos-do-direito-digital",
+      "canonicalName": "Fundamentos do Direito Digital",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:no-caractere-ilegivel-caractere-ilegivel-es-iniciais-de-direito-digital",
+      "canonicalName": "No[caractere ilegivel][caractere ilegivel]es iniciais de Direito Digital",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:direitos-politicos-e-alistamento",
+      "canonicalName": "Direitos políticos e alistamento",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:direitos-pol-caractere-ilegivel-ticos-soberania-popular-alistamento-e-voto",
+      "canonicalName": "Direitos pol[caractere ilegivel]ticos, soberania popular, alistamento e voto",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:empresa-empresario-e-estabelecimento",
+      "canonicalName": "Empresa, empresário e estabelecimento",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:empres-caractere-ilegivel-rio-e-empresa",
+      "canonicalName": "Empres[caractere ilegivel]rio e empresa",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:atividade-financeira-do-estado",
+      "canonicalName": "Atividade financeira do Estado",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:direito-financeiro-conceito-objeto-fontes-e-autonomia",
+      "canonicalName": "Direito Financeiro: conceito, objeto, fontes e autonomia",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:fontes-do-direito-internacional",
+      "canonicalName": "Fontes do Direito Internacional",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:fontes-sujeitos-e-princ-caractere-ilegivel-pios-do-direito-internacional-p-carac",
+      "canonicalName": "Fontes, sujeitos e princ[caractere ilegivel]pios do Direito Internacional P[caractere ilegivel]blico",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:hierarquia-disciplina-regularidade-das-institui-caractere-ilegivel-caractere-ile",
+      "canonicalName": "hierarquia, disciplina, regularidade das institui[caractere ilegivel][caractere ilegivel]es militares e prote[caractere ilegivel][caractere ilegivel]o do servi[caractere ilegivel]o",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:conceito-de-crime-militar",
+      "canonicalName": "Conceito de crime militar",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:vida-humana-como-bem-jur-caractere-ilegivel-dico-diferen-caractere-ilegivel-a-en",
+      "canonicalName": "vida humana como bem jur[caractere ilegivel]dico, diferen[caractere ilegivel]a entre matar, induzir, auxiliar e criar situa[caractere ilegivel][caractere ilegivel]o de risco extremo",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:limites-do-poder-punitivo",
+      "canonicalName": "limites do poder punitivo",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:princ-caractere-ilegivel-pios-penais",
+      "canonicalName": "Princ[caractere ilegivel]pios penais",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:seguridade-social-e-previdencia",
+      "canonicalName": "Seguridade Social e Previdência",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:seguridade-social-previdencia-social-e-rgps",
+      "canonicalName": "Seguridade Social, Previdência Social e RGPS",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:princ-caractere-ilegivel-pios-processuais-acesso-caractere-ilegivel-justi-caract",
+      "canonicalName": "Princ[caractere ilegivel]pios processuais, acesso [caractere ilegivel] justi[caractere ilegivel]a e coopera[caractere ilegivel][caractere ilegivel]o",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:princ-caractere-ilegivel-pios-processuais-civis",
+      "canonicalName": "Princ[caractere ilegivel]pios processuais civis",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:procedimento-investigativo-informatividade-sigilo-contraditorio-diferido-e-justa",
+      "canonicalName": "procedimento investigativo, informatividade, sigilo, contraditório diferido e justa causa",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:apura-caractere-ilegivel-caractere-ilegivel-o-de-crime-militar-documenta-caracte",
+      "canonicalName": "apura[caractere ilegivel][caractere ilegivel]o de crime militar, documenta[caractere ilegivel][caractere ilegivel]o, preserva[caractere ilegivel][caractere ilegivel]o de prova e relat[caractere ilegivel]rio",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:inqu-caractere-ilegivel-rito-policial-militar",
+      "canonicalName": "Inqu[caractere ilegivel]rito Policial Militar",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:princ-caractere-ilegivel-pios-processuais",
+      "canonicalName": "Princ[caractere ilegivel]pios processuais",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:compet-caractere-ilegivel-ncia-da-justi-caractere-ilegivel-a-do-trabalho",
+      "canonicalName": "Compet[caractere ilegivel]ncia da Justi[caractere ilegivel]a do Trabalho",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:princ-caractere-ilegivel-pios-processuais-trabalhistas",
+      "canonicalName": "Princ[caractere ilegivel]pios processuais trabalhistas",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:relacao-de-emprego-e-trabalho-autonomo",
+      "canonicalName": "Relação de emprego e trabalho autônomo",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:princ-caractere-ilegivel-pios-trabalhistas",
+      "canonicalName": "Princ[caractere ilegivel]pios trabalhistas",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:sistema-tribut-caractere-ilegivel-rio-e-esp-caractere-ilegivel-cies-tribut-carac",
+      "canonicalName": "Sistema tribut[caractere ilegivel]rio e esp[caractere ilegivel]cies tribut[caractere ilegivel]rias",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:sistema-tribut-caractere-ilegivel-rio-nacional-e-conceito-de-tributo",
+      "canonicalName": "Sistema Tribut[caractere ilegivel]rio Nacional e conceito de tributo",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:abordagem-leg-caractere-ilegivel-tima-precisa-de-base-objetiva-urbanidade-busca-",
+      "canonicalName": "abordagem leg[caractere ilegivel]tima precisa de base objetiva, urbanidade, busca limitada e registro quando necess[caractere ilegivel]rio",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:fundamentos-dos-direitos-humanos",
+      "canonicalName": "fundamentos dos direitos humanos",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:teoria-geral-dos-direitos-humanos",
+      "canonicalName": "Teoria geral dos direitos humanos",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:protecao-integral-e-prioridade-absoluta",
+      "canonicalName": "Proteção integral e prioridade absoluta",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:princ-caractere-ilegivel-pios-estruturantes-do-eca",
+      "canonicalName": "Princ[caractere ilegivel]pios estruturantes do ECA",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:regras-deontol-caractere-ilegivel-gicas-fundamentais",
+      "canonicalName": "Regras deontol[caractere ilegivel]gicas fundamentais",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:teoria-da-caractere-ilegivel-tica",
+      "canonicalName": "Teoria da [caractere ilegivel]tica",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:conceito-de-filosofia-do-direito-dogm-caractere-ilegivel-tica-jur-caractere-ileg",
+      "canonicalName": "Conceito de Filosofia do Direito, dogm[caractere ilegivel]tica jur[caractere ilegivel]dica e pensamento cr[caractere ilegivel]tico",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:origem-da-filosofia-e-passagem-do-mito-ao-logos",
+      "canonicalName": "Origem da filosofia e passagem do mito ao logos",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:cinem-caractere-ilegivel-tica-gr-caractere-ilegivel-ficos-e-movimento",
+      "canonicalName": "Cinem[caractere ilegivel]tica, gr[caractere ilegivel]ficos e movimento",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:como-criar-flashcards-que-ensinam",
+      "canonicalName": "Como criar flashcards que ensinam",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:cartografia-escala-e-orienta-caractere-ilegivel-caractere-ilegivel-o-espacial",
+      "canonicalName": "Cartografia, escala e orienta[caractere ilegivel][caractere ilegivel]o espacial",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:gestao-de-pessoas-como-alinhamento-entre-servidores-competencias-e-entrega-publi",
+      "canonicalName": "gestão de pessoas como alinhamento entre servidores, competências e entrega pública",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:direcao-monitoramento-e-avaliacao-para-entregar-valor-publico-com-controle",
+      "canonicalName": "direção, monitoramento e avaliação para entregar valor público com controle",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:guarda-municipal-protege-bens-servi-caractere-ilegivel-os-e-instala-caractere-il",
+      "canonicalName": "guarda municipal protege bens, servi[caractere ilegivel]os e instala[caractere ilegivel][caractere ilegivel]es, com atua[caractere ilegivel][caractere ilegivel]o preventiva e comunit[caractere ilegivel]ria conforme legisla[caractere ilegivel][caractere ilegivel]o",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:tempo-hist-caractere-ilegivel-rico-fontes-e-mem-caractere-ilegivel-ria",
+      "canonicalName": "Tempo hist[caractere ilegivel]rico, fontes e mem[caractere ilegivel]ria",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:base-computacional",
+      "canonicalName": "base computacional",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:conceitos-b-caractere-ilegivel-sicos-de-inform-caractere-ilegivel-tica",
+      "canonicalName": "Conceitos b[caractere ilegivel]sicos de inform[caractere ilegivel]tica",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:estatuto-dos-policiais-militares-do-maranh-caractere-ilegivel-o",
+      "canonicalName": "Estatuto dos Policiais Militares do Maranh[caractere ilegivel]o",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:estrutura-militar-estadual-valores-obediencia-legal-e-dever-funcional",
+      "canonicalName": "estrutura militar estadual, valores, obediência legal e dever funcional",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:legisla-caractere-ilegivel-caractere-ilegivel-o-institucional",
+      "canonicalName": "Legisla[caractere ilegivel][caractere ilegivel]o institucional",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:tratamento-penal-mais-rigoroso-equipara-caractere-ilegivel-caractere-ilegivel-es",
+      "canonicalName": "tratamento penal mais rigoroso, equipara[caractere ilegivel][caractere ilegivel]es constitucionais e consequ[caractere ilegivel]ncias processuais",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:lei-de-drogas",
+      "canonicalName": "Lei de Drogas",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:miss-caractere-ilegivel-o-hierarquia-e-disciplina-formam-a-base-da-organiza-cara",
+      "canonicalName": "miss[caractere ilegivel]o, hierarquia e disciplina formam a base da organiza[caractere ilegivel][caractere ilegivel]o militar estadual",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:licitacao-como-instrumento-para-contratar-solucao-vantajosa-e-controlar-risco",
+      "canonicalName": "licitação como instrumento para contratar solução vantajosa e controlar risco",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:interpretacao-de-textos-verbais-e-nao-verbais",
+      "canonicalName": "Interpretação de textos verbais e não verbais",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:portugu-caractere-ilegivel-s-interpreta-caractere-ilegivel-caractere-ilegivel-o-",
+      "canonicalName": "Portugu[caractere ilegivel]s: interpreta[caractere ilegivel][caractere ilegivel]o, gram[caractere ilegivel]tica e reda[caractere ilegivel][caractere ilegivel]o",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:aritm-caractere-ilegivel-tica-b-caractere-ilegivel-sica",
+      "canonicalName": "Aritm[caractere ilegivel]tica b[caractere ilegivel]sica",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:raz-caractere-ilegivel-o-propor-caractere-ilegivel-caractere-ilegivel-o-escala-e",
+      "canonicalName": "Raz[caractere ilegivel]o, propor[caractere ilegivel][caractere ilegivel]o, escala e regra de tr[caractere ilegivel]s",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:l-caractere-ilegivel-gica-proposicional",
+      "canonicalName": "l[caractere ilegivel]gica proposicional",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:principios-administrativos-e-regime-juridico",
+      "canonicalName": "Princípios administrativos e regime jurídico",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:lindb-e-aplicacao-da-lei-civil",
+      "canonicalName": "LINDB e aplicação da lei civil",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:principios-fundamentais-e-interpretacao-constitucional",
+      "canonicalName": "Princípios fundamentais e interpretação constitucional",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:princ-caractere-ilegivel-pios-penais-e-lei-penal",
+      "canonicalName": "Princ[caractere ilegivel]pios penais e lei penal",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:inscri-caractere-ilegivel-caractere-ilegivel-o-atividade-privativa-e-atos-de-adv",
+      "canonicalName": "Inscri[caractere ilegivel][caractere ilegivel]o, atividade privativa e atos de advocacia",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:jurisdi-caractere-ilegivel-caractere-ilegivel-o-a-caractere-ilegivel-caractere-i",
+      "canonicalName": "Jurisdi[caractere ilegivel][caractere ilegivel]o, a[caractere ilegivel][caractere ilegivel]o e pressupostos processuais",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:inquerito-policial-e-investigacao",
+      "canonicalName": "Inquérito policial e investigação",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:etica-profissional-e-estatuto-da-advocacia-no-simulado",
+      "canonicalName": "Ética profissional e Estatuto da Advocacia no simulado",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:relacao-de-emprego-e-contrato-de-trabalho",
+      "canonicalName": "Relação de emprego e contrato de trabalho",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:como-o-espelho-distribui-pontos",
+      "canonicalName": "Como o espelho distribui pontos",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:diagnostico-da-peca-e-leitura-do-problema",
+      "canonicalName": "Diagnóstico da peça e leitura do problema",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:metodo-irac-adaptado-a-oab",
+      "canonicalName": "Método IRAC adaptado à OAB",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:tranquilidade-salubridade-paz-social-direitos-e-preven-caractere-ilegivel-caract",
+      "canonicalName": "tranquilidade, salubridade, paz social, direitos e preven[caractere ilegivel][caractere ilegivel]o",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:organiza-caractere-ilegivel-caractere-ilegivel-o-do-judici-caractere-ilegivel-ri",
+      "canonicalName": "organiza[caractere ilegivel][caractere ilegivel]o do Judici[caractere ilegivel]rio como fun[caractere ilegivel][caractere ilegivel]o estatal de solu[caractere ilegivel][caractere ilegivel]o de conflitos e controle de direitos",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:onboarding-do-aluno",
+      "canonicalName": "Onboarding do aluno",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:todo-erro-por-comando-nasce-de-nao-separar-o-que-a-questao-pergunta-do-que-ela-i",
+      "canonicalName": "todo erro por comando nasce de não separar o que a questão pergunta do que ela informa",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:v-caractere-ilegivel-spera-serve-para-consolidar-pontos-de-alto-retorno-n-caract",
+      "canonicalName": "v[caractere ilegivel]spera serve para consolidar pontos de alto retorno, n[caractere ilegivel]o para tentar estudar tudo do zero",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:interpreta-caractere-ilegivel-caractere-ilegivel-o-coes-caractere-ilegivel-o-pon",
+      "canonicalName": "interpreta[caractere ilegivel][caractere ilegivel]o, coes[caractere ilegivel]o, pontua[caractere ilegivel][caractere ilegivel]o e reescrita precisam preservar sentido e comando",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:aproximacao-confianca-corresponsabilidade-e-prevencao-orientada-ao-problema",
+      "canonicalName": "aproximação, confiança, corresponsabilidade e prevenção orientada ao problema",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:policia-penal-atua-na-seguranca-dos-estabelecimentos-penais-e-custodia-legal",
+      "canonicalName": "polícia penal atua na segurança dos estabelecimentos penais e custódia legal",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:leitura-estrat-caractere-ilegivel-gica",
+      "canonicalName": "leitura estrat[caractere ilegivel]gica",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:interpreta-caractere-ilegivel-caractere-ilegivel-o-de-texto",
+      "canonicalName": "Interpreta[caractere ilegivel][caractere ilegivel]o de texto",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:ortografia",
+      "canonicalName": "Ortografia",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:concord-caractere-ilegivel-ncia-verbal",
+      "canonicalName": "Concord[caractere ilegivel]ncia verbal",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:prf-atua-na-seguran-caractere-ilegivel-a-p-caractere-ilegivel-blica-e-vi-caracte",
+      "canonicalName": "PRF atua na seguran[caractere ilegivel]a p[caractere ilegivel]blica e vi[caractere ilegivel]ria em rodovias e [caractere ilegivel]reas de interesse federal conforme compet[caractere ilegivel]ncia",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:mat-caractere-ilegivel-ria-propriedades-e-separa-caractere-ilegivel-caractere-il",
+      "canonicalName": "Mat[caractere ilegivel]ria, propriedades e separa[caractere ilegivel][caractere ilegivel]o de misturas",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:l-caractere-ilegivel-gica-proposicional",
+      "canonicalName": "L[caractere ilegivel]gica proposicional",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:montagem-do-texto-dissertativo-para-banca-policial",
+      "canonicalName": "montagem do texto dissertativo para banca policial",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:compet-caractere-ilegivel-ncias-da-reda-caractere-ilegivel-caractere-ilegivel-o-",
+      "canonicalName": "Compet[caractere ilegivel]ncias da reda[caractere ilegivel][caractere ilegivel]o e leitura da proposta",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:estrutura-textual",
+      "canonicalName": "Estrutura textual",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:m-caractere-ilegivel-todo-para-transformar-artigos-regimentais-em-mapa-de-compet",
+      "canonicalName": "m[caractere ilegivel]todo para transformar artigos regimentais em mapa de compet[caractere ilegivel]ncia e procedimento",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:objetivo-real-das-caractere-ilegivel-ltimas-24-horas",
+      "canonicalName": "Objetivo real das [caractere ilegivel]ltimas 24 horas",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:diagnostico-da-semana-final",
+      "canonicalName": "Diagnóstico da semana final",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:plano-de-revis-caractere-ilegivel-o-das-caractere-ilegivel-ltimas-48-horas",
+      "canonicalName": "Plano de revis[caractere ilegivel]o das [caractere ilegivel]ltimas 48 horas",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:seguran-caractere-ilegivel-a-p-caractere-ilegivel-blica-como-dever-do-estado-e-r",
+      "canonicalName": "seguran[caractere ilegivel]a p[caractere ilegivel]blica como dever do Estado e responsabilidade de todos, com [caractere ilegivel]rg[caractere ilegivel]os e compet[caractere ilegivel]ncias distintos",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:por-que-banca-muda-estrategia",
+      "canonicalName": "Por que banca muda estratégia",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:simulado-pmma",
+      "canonicalName": "Simulado PMMA",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:nivel-iniciante",
+      "canonicalName": "Nível iniciante",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:imagina-caractere-ilegivel-caractere-ilegivel-o-sociol-caractere-ilegivel-gica-e",
+      "canonicalName": "Imagina[caractere ilegivel][caractere ilegivel]o sociol[caractere ilegivel]gica e fato social",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:teste-de-aptid-caractere-ilegivel-o-f-caractere-ilegivel-sica",
+      "canonicalName": "Teste de Aptid[caractere ilegivel]o F[caractere ilegivel]sica",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:for-caractere-ilegivel-a-como-meio-excepcional-progressivo-controlado-e-justific",
+      "canonicalName": "for[caractere ilegivel]a como meio excepcional, progressivo, controlado e justific[caractere ilegivel]vel",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:16o-exame-oab-questao-1",
+      "canonicalName": "16o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:17o-exame-oab-questao-1",
+      "canonicalName": "17o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:18o-exame-oab-questao-1",
+      "canonicalName": "18o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:19o-exame-oab-questao-1",
+      "canonicalName": "19o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:20o-exame-oab-questao-1",
+      "canonicalName": "20o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:2010-2o-exame-oab-questao-1",
+      "canonicalName": "2010-2o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:21o-exame-oab-questao-1",
+      "canonicalName": "21o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:22o-exame-oab-questao-1",
+      "canonicalName": "22o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:23o-exame-oab-questao-1",
+      "canonicalName": "23o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:24o-exame-oab-questao-1",
+      "canonicalName": "24o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:25o-exame-oab-questao-1",
+      "canonicalName": "25o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:26o-exame-oab-questao-1",
+      "canonicalName": "26o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:27o-exame-oab-questao-1",
+      "canonicalName": "27o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:28o-exame-oab-questao-1",
+      "canonicalName": "28o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:29o-exame-oab-questao-1",
+      "canonicalName": "29o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:30o-exame-oab-questao-1",
+      "canonicalName": "30o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:31o-exame-oab-questao-1",
+      "canonicalName": "31o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:32o-exame-oab-questao-1",
+      "canonicalName": "32o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:33o-exame-oab-questao-1",
+      "canonicalName": "33o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:34o-exame-oab-questao-1",
+      "canonicalName": "34o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:35o-exame-oab-questao-1",
+      "canonicalName": "35o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:36o-exame-oab-questao-1",
+      "canonicalName": "36o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:37o-exame-oab-questao-1",
+      "canonicalName": "37o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:38o-exame-oab-questao-1",
+      "canonicalName": "38o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:39o-exame-oab-questao-1",
+      "canonicalName": "39o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:40o-exame-oab-questao-1",
+      "canonicalName": "40o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:41o-exame-oab-questao-1",
+      "canonicalName": "41o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:42o-exame-oab-questao-1",
+      "canonicalName": "42o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:43o-exame-oab-questao-1",
+      "canonicalName": "43o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:44o-exame-oab-questao-1",
+      "canonicalName": "44o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:45o-exame-oab-questao-1",
+      "canonicalName": "45o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:46o-exame-oab-questao-1",
+      "canonicalName": "46o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    },
+    {
+      "canonicalId": "subject:7o-exame-oab-questao-1",
+      "canonicalName": "7o Exame OAB - Questao 1",
+      "aliases": [],
+      "parentId": null,
+      "evidence": "assunto candidato V2",
+      "confidence": "baixa",
+      "numberOfContents": 1,
+      "requiresHumanReview": true
+    }
+  ]
+}

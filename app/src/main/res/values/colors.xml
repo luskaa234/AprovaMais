@@ -15,4 +15,14 @@
 -->
 <resources>
     <color name="shortcut_background">#F5F5F5</color>
+    <color name="splash_background">#F6FAFF</color>
+    <color name="brand_blue">#1D63C4</color>
+    <color name="brand_blue_dark">#071A2F</color>
+    <color name="backgroundColor">#F6FAFF</color>
+    <color name="colorPrimary">#1D63C4</color>
+    <color name="colorPrimaryDark">#071A2F</color>
+    <color name="navigationColor">#F6FAFF</color>
+    <color name="navigationColorDark">#071A2F</color>
+    <color name="navigationDividerColor">#0B67C2</color>
+    <color name="navigationDividerColorDark">#071A2F</color>
 </resources>

@@ -135,6 +135,7 @@ export function UserProvider({ children }) {
   const [adminInfo, setAdminInfo] = useState({ isAdmin: false });
   const [localSession, setLocalSession] = useState(() => readLocalSession());
   const [isLoading, setIsLoading] = useState(isSupabaseConfigured);
+  const [authError, setAuthError] = useState(null);
 
   const fetchProfile = useCallback(async (user) => {
     if (!isSupabaseConfigured || !user) return null;
@@ -162,14 +163,23 @@ export function UserProvider({ children }) {
 
     supabase.auth.getSession().then(async ({ data: { session } }) => {
       if (!alive) return;
+      setAuthError(null);
       if (session?.user?.id) resetPersistedStudyStateForAuthUser(session.user.id);
       setAuthUser(session?.user || null);
       try {
         setProfile(session?.user ? await ensureProfile(session.user) : null);
+        setAuthError(null);
       } catch (error) {
         console.warn("Falha ao sincronizar perfil do usuário.", error?.message || error);
         setProfile(null);
       }
+      setIsLoading(false);
+    }).catch((error) => {
+      if (!alive) return;
+      console.warn("Falha ao verificar sessão inicial.", error?.message || error);
+      setAuthError(error instanceof Error ? error : new Error("Falha ao verificar sessão inicial."));
+      setAuthUser(null);
+      setProfile(null);
       setIsLoading(false);
     });
 
@@ -190,6 +200,7 @@ export function UserProvider({ children }) {
       setAuthUser(session?.user || null);
       try {
         setProfile(session?.user ? await ensureProfile(session.user) : null);
+        setAuthError(null);
       } catch (error) {
         console.warn("Falha ao sincronizar perfil do usuário.", error?.message || error);
         setProfile(null);
@@ -228,6 +239,7 @@ export function UserProvider({ children }) {
       const session = { email, loggedAt: new Date().toISOString() };
       window.localStorage.setItem("aprovamais-session", JSON.stringify(session));
       setLocalSession(session);
+      setAuthError(null);
       updateUser({ email, loggedOut: false });
       return localUser;
     }
@@ -237,6 +249,7 @@ export function UserProvider({ children }) {
     if (signedInUser?.id) {
       resetPersistedStudyStateForAuthUser(signedInUser.id);
       setAuthUser(signedInUser);
+      setAuthError(null);
       setIsLoading(false);
 
       const current = readLocalSession();
@@ -249,7 +262,7 @@ export function UserProvider({ children }) {
       try {
         setProfile(await ensureProfile(signedInUser));
       } catch (profileError) {
-        console.warn("Falha ao sincronizar perfil do usuÃ¡rio.", profileError?.message || profileError);
+        console.warn("Falha ao sincronizar perfil do usuário.", profileError?.message || profileError);
         setProfile(null);
       }
     }
@@ -262,6 +275,7 @@ export function UserProvider({ children }) {
     if (!isSupabaseConfigured) {
       window.localStorage.setItem("aprovamais-session", JSON.stringify(session));
       setLocalSession(session);
+      setAuthError(null);
       updateUser({ name, email, onboardingComplete: false, statusPlano: "trial" });
       return true;
     }
@@ -286,6 +300,7 @@ export function UserProvider({ children }) {
     }
     window.localStorage.setItem("aprovamais-session", JSON.stringify(session));
     setLocalSession(session);
+    setAuthError(null);
     updateUser({ name, email, onboardingComplete: false, loggedOut: false, statusPlano: "trial" });
     const confirmationRequired = !data.session && Boolean(data.user?.id);
     return { confirmationRequired };
@@ -317,6 +332,7 @@ export function UserProvider({ children }) {
     setLocalSession(null);
     setAuthUser(null);
     setProfile(null);
+    setAuthError(null);
     updateUser({ loggedOut: true });
   }, [updateUser]);
 
@@ -510,7 +526,14 @@ export function UserProvider({ children }) {
     ? Boolean(authUser || localSession?.registrationPending)
     : Boolean(localSession && !localUser?.loggedOut);
   const isAdmin = Boolean(authUser && adminInfo.userId === authUser.id && adminInfo.isAdmin);
-  const value = useMemo(() => ({ user: appUser, isAdmin, isAuthenticated, isLoading, login, loginWithGoogle, register, logout, updateProfile, refreshProfile }), [appUser, isAdmin, isAuthenticated, isLoading, login, loginWithGoogle, logout, refreshProfile, register, updateProfile]);
+  const authStatus = isLoading
+    ? "initializing"
+    : authError
+      ? "error"
+      : isAuthenticated
+        ? "authenticated"
+        : "unauthenticated";
+  const value = useMemo(() => ({ user: appUser, authError, authStatus, isAdmin, isAuthenticated, isLoading, login, loginWithGoogle, register, logout, updateProfile, refreshProfile }), [appUser, authError, authStatus, isAdmin, isAuthenticated, isLoading, login, loginWithGoogle, logout, refreshProfile, register, updateProfile]);
   return <UserContext.Provider value={value}>{children}</UserContext.Provider>;
 }
 

@@ -64,27 +64,45 @@ function LoginForm() {
 
   return (
     <form className="auth-saas-form" onSubmit={handleSubmit(onSubmit)}>
-      <button className="auth-google-button" type="button" onClick={handleGoogleLogin}>
+      <button
+        className="auth-google-button"
+        type="button"
+        onClick={handleGoogleLogin}
+        disabled={isSubmitting}
+      >
         <span>G</span>
         Entrar com Google
       </button>
 
       <div className="auth-divider"><span>ou entre com e-mail</span></div>
 
-      <div className="auth-field-group">
+      <div className="auth-field-group" data-invalid={errors.email ? "true" : "false"}>
         <Label htmlFor="email">E-mail</Label>
         <div className="auth-input-wrap">
           <Mail size={18} />
-          <Input id="email" type="email" placeholder="voce@email.com" autoComplete="email" {...register("email")} />
+          <Input
+            id="email"
+            type="email"
+            placeholder="voce@email.com"
+            autoComplete="email"
+            autoFocus
+            {...register("email")}
+          />
         </div>
         {errors.email ? <p className="auth-error">{errors.email.message}</p> : null}
       </div>
 
-      <div className="auth-field-group">
+      <div className="auth-field-group" data-invalid={errors.password ? "true" : "false"}>
         <Label htmlFor="password">Senha</Label>
         <div className="auth-input-wrap">
           <LockKeyhole size={18} />
-          <Input id="password" type={showPassword ? "text" : "password"} placeholder="Sua senha" autoComplete="current-password" {...register("password")} />
+          <Input
+            id="password"
+            type={showPassword ? "text" : "password"}
+            placeholder="Sua senha"
+            autoComplete="current-password"
+            {...register("password")}
+          />
           <button
             aria-label={showPassword ? "Ocultar senha" : "Mostrar senha"}
             aria-pressed={showPassword}
@@ -116,7 +134,7 @@ function LoginForm() {
       </div>
 
       <Button className="auth-primary-button" type="submit" disabled={isSubmitting}>
-        Entrar
+        {isSubmitting ? "Entrando..." : "Entrar"}
       </Button>
 
       <Separator />
